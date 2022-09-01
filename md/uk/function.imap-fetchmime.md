@@ -1,16 +1,11 @@
-Вийняти MIME-заголовки для конкретного розділу повідомлення
-
--   [« imapfetchheader](function.imap-fetchheader.html)
-    
--   [imapfetchstructure »](function.imap-fetchstructure.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Вийняти MIME-заголовки для конкретного розділу повідомлення
-    
-
+---
+navigation:
+  - function.imap-fetchheader.html: « imapfetchheader
+  - function.imap-fetchstructure.html: imapfetchstructure »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapfetchmime
+---
 # imapfetchmime
 
 (PHP 5> = 5.3.6, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ imap_fetchmime(    IMAP\Connection $imap,    int $message_num,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

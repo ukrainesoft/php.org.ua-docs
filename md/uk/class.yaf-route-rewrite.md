@@ -1,16 +1,11 @@
-Клас YafRouteRewrite
-
--   [« YafRouteRegex::route](yaf-route-regex.route.html)
-    
--   [YafRouteRewrite::assemble »](yaf-route-rewrite.assemble.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRouteRewrite
-    
-
+---
+navigation:
+  - yaf-route-regex.route.html: '« YafRouteRegex::route'
+  - yaf-route-rewrite.assemble.html: 'YafRouteRewrite::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRouteRewrite
+---
 # Клас YafRouteRewrite
 
 (Yaf >=1.0.0)

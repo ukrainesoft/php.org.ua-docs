@@ -1,16 +1,11 @@
-Функції CSPRNG
-
--   [« Обумовлені константи](csprng.constants.md)
-    
--   [randombytes »](function.random-bytes.html)
-    
--   [PHP Manual](index.md)
-    
--   [CSPRNG](book.csprng.md)
-    
--   Функції CSPRNG
-    
-
+---
+navigation:
+  - csprng.constants.md: « Обумовлені константи
+  - function.random-bytes.html: randombytes »
+  - index.md: PHP Manual
+  - book.csprng.md: CSPRNG
+title: Функції CSPRNG
+---
 # Функції CSPRNG
 
 ## Зміст

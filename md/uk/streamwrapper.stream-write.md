@@ -1,16 +1,11 @@
-Запис у потік
-
--   [« streamWrapper::streamtruncate](streamwrapper.stream-truncate.html)
-    
--   [streamWrapper::unlink »](streamwrapper.unlink.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Запис у потік
-    
-
+---
+navigation:
+  - streamwrapper.stream-truncate.html: '« streamWrapper::streamtruncate'
+  - streamwrapper.unlink.html: 'streamWrapper::unlink »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streamwrite'
+---
 # streamWrapper::streamwrite
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

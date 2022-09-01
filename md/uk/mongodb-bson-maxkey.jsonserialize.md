@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONMaxKey::construct](mongodb-bson-maxkey.construct.html)
-    
--   [MongoDBBSONMaxKey::serialize »](mongodb-bson-maxkey.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-maxkey.construct.html: '« MongoDBBSONMaxKey::construct'
+  - mongodb-bson-maxkey.serialize.html: 'MongoDBBSONMaxKey::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-maxkey.html: MongoDBBSONMaxKey
+title: 'MongoDBBSONMaxKey::jsonSerialize'
+---
 # MongoDBBSONMaxKey::jsonSerialize
 
 (mongodb >=1.2.0)

@@ -1,16 +1,11 @@
-Псевдонім DateTime::getTimezone
-
--   [« datetimestampset](function.date-timestamp-set.html)
-    
--   [datetimezoneset »](function.date-timezone-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTime::getTimezone
-    
-
+---
+navigation:
+  - function.date-timestamp-set.html: « datetimestampset
+  - function.date-timezone-set.html: datetimezoneset »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datetimezoneget
+---
 # datetimezoneget
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

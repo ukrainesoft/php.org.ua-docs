@@ -1,16 +1,11 @@
-Повертає нормалізоване значення кольору каналу
-
--   [« ImagickPixel::getColorQuantum](imagickpixel.getcolorquantum.md)
-    
--   [ImagickPixel::getColorValueQuantum »](imagickpixel.getcolorvaluequantum.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Повертає нормалізоване значення кольору каналу
-    
-
+---
+navigation:
+  - imagickpixel.getcolorquantum.md: '« ImagickPixel::getColorQuantum'
+  - imagickpixel.getcolorvaluequantum.md: 'ImagickPixel::getColorValueQuantum »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::getColorValue'
+---
 # ImagickPixel::getColorValue
 
 (PECL imagick 2, PECL imagick 3)

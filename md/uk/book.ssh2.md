@@ -1,16 +1,11 @@
-Secure Shell2
-
--   [« AddressInfo](class.addressinfo.md)
-    
--   [Введение »](intro.ssh2.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   Secure Shell2
-    
-
+---
+navigation:
+  - class.addressinfo.md: « AddressInfo
+  - intro.ssh2.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: Secure Shell2
+---
 # Secure Shell2
 
 -   [Введение](intro.ssh2.md)

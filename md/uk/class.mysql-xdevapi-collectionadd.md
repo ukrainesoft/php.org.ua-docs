@@ -1,16 +1,11 @@
-Клас CollectionAdd
-
--   [« Collection::replaceOne](mysql-xdevapi-collection.replaceone.html)
-    
--   [CollectionAdd::construct »](mysql-xdevapi-collectionadd.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас CollectionAdd
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.replaceone.html: '« Collection::replaceOne'
+  - mysql-xdevapi-collectionadd.construct.html: 'CollectionAdd::construct »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас CollectionAdd
+---
 # Клас CollectionAdd
 
 (PECL mysql-xdevapi >= 8.0.11)

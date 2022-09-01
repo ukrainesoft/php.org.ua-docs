@@ -1,16 +1,11 @@
-Гіперболічний арккосинус
-
--   [« acos](function.acos.html)
-    
--   [asin »](function.asin.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Гіперболічний арккосинус
-    
-
+---
+navigation:
+  - function.acos.html: « acos
+  - function.asin.html: asin »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: acosh
+---
 # acosh
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

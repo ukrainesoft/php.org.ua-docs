@@ -1,16 +1,11 @@
-Повертає поточний процес SID
-
--   [« posixgetrlimit](function.posix-getrlimit.html)
-    
--   [posixgetuid »](function.posix-getuid.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Повертає поточний процес SID
-    
-
+---
+navigation:
+  - function.posix-getrlimit.html: « posixgetrlimit
+  - function.posix-getuid.html: posixgetuid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetsid
+---
 # posixgetsid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

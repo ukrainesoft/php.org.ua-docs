@@ -1,16 +1,11 @@
-Вирівнює гістограму зображення
-
--   [« Imagick::enhanceImage](imagick.enhanceimage.md)
-    
--   [Imagick::evaluateImage »](imagick.evaluateimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Вирівнює гістограму зображення
-    
-
+---
+navigation:
+  - imagick.enhanceimage.md: '« Imagick::enhanceImage'
+  - imagick.evaluateimage.md: 'Imagick::evaluateImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::equalizeImage'
+---
 # Imagick::equalizeImage
 
 (PECL imagick 2, PECL imagick 3)

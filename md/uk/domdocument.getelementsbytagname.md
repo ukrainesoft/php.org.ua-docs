@@ -1,16 +1,11 @@
-Шукає всі елементи із заданим локальним ім'ям
-
--   [« DOMDocument::getElementById](domdocument.getelementbyid.md)
-    
--   [DOMDocument::getElementsByTagNameNS »](domdocument.getelementsbytagnamens.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Шукає всі елементи із заданим локальним ім'ям
-    
-
+---
+navigation:
+  - domdocument.getelementbyid.md: '« DOMDocument::getElementById'
+  - domdocument.getelementsbytagnamens.md: 'DOMDocument::getElementsByTagNameNS »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::getElementsByTagName'
+---
 # DOMDocument::getElementsByTagName
 
 (PHP 5, PHP 7, PHP 8)

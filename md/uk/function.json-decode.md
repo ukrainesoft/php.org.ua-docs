@@ -1,16 +1,11 @@
-Декодує рядок JSON
-
--   [« Функции JSON](ref.json.md)
-    
--   [jsonencode »](function.json-encode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции JSON](ref.json.md)
-    
--   Декодує рядок JSON
-    
-
+---
+navigation:
+  - ref.json.md: « Функции JSON
+  - function.json-encode.html: jsonencode »
+  - index.md: PHP Manual
+  - ref.json.md: Функции JSON
+title: jsondecode
+---
 # jsondecode
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8, PECL json> = 1.2.0)
@@ -59,12 +54,12 @@ json_decode(    string $json,    ?bool $associative = null,    int $
 
 ### список змін
 
-| Версия | Описание                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------|
-|        | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags`                                                    |
-|        | `associative` тепер nullable.                                                                                       |
-|        | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags`          |
-|        | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням `_empty_` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags` |
+|  | `associative` тепер nullable. |
+|  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags` |
+|  | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням `_empty_` |
 
 ### Приклади
 

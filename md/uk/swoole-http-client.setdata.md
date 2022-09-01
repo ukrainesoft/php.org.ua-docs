@@ -1,16 +1,11 @@
-Встановлює дані тіла HTTP-запиту
-
--   [« SwooleHttpClient::setCookies](swoole-http-client.setcookies.html)
-    
--   [SwooleHttpClient::setHeaders »](swoole-http-client.setheaders.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Встановлює дані тіла HTTP-запиту
-    
-
+---
+navigation:
+  - swoole-http-client.setcookies.html: '« SwooleHttpClient::setCookies'
+  - swoole-http-client.setheaders.html: 'SwooleHttpClient::setHeaders »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::setData'
+---
 # SwooleHttpClient::setData
 
 (PECL swoole >= 1.9.0)

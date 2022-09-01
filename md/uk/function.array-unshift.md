@@ -1,16 +1,11 @@
-Додає один або кілька елементів на початок масиву
-
--   [« arrayunique](function.array-unique.html)
-    
--   [arrayvalues »](function.array-values.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Додає один або кілька елементів на початок масиву
-    
-
+---
+navigation:
+  - function.array-unique.html: « arrayunique
+  - function.array-values.html: arrayvalues »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayunshift
+---
 # arrayunshift
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ array_unshift(array &$array, mixed ...$values): int
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | Тепер ця функція може бути викликана одним параметром. Раніше потрібно було мінімум два параметри. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер ця функція може бути викликана одним параметром. Раніше потрібно було мінімум два параметри. |
 
 ### Приклади
 

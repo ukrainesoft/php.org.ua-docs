@@ -1,16 +1,11 @@
-Швидкість зміни: ((ціна/попередня ціна)-1)
-
--   [« traderppo](function.trader-ppo.html)
-    
--   [traderrocp »](function.trader-rocp.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Швидкість зміни: ((ціна/попередня ціна)-1)
-    
-
+---
+navigation:
+  - function.trader-ppo.html: « traderppo
+  - function.trader-rocp.html: traderrocp »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderroc
+---
 # traderroc
 
 (PECL trader >= 0.2.0)

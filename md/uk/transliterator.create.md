@@ -1,16 +1,11 @@
-Створити транслітератор
-
--   [« Transliterator::construct](transliterator.construct.md)
-    
--   [Transliterator::createFromRules »](transliterator.createfromrules.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Створити транслітератор
-    
-
+---
+navigation:
+  - transliterator.construct.md: '« Transliterator::construct'
+  - transliterator.createfromrules.md: 'Transliterator::createFromRules »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::create'
+---
 # Transliterator::create
 
 # transliteratorcreate

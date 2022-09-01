@@ -1,16 +1,11 @@
-Встановити межу зрізу
-
--   [« UIDrawStroke::setJoin](ui-draw-stroke.setjoin.html)
-    
--   [ОЙDrawStroke::setThickness »](ui-draw-stroke.setthickness.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawStroke](class.ui-draw-stroke.html)
-    
--   Встановити межу зрізу
-    
-
+---
+navigation:
+  - ui-draw-stroke.setjoin.html: '« UIDrawStroke::setJoin'
+  - ui-draw-stroke.setthickness.html: 'ОЙDrawStroke::setThickness »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.html: ОЙDrawStroke
+title: 'ОЙDrawStroke::setMiterLimit'
+---
 # ОЙDrawStroke::setMiterLimit
 
 (UI 0.9.9)

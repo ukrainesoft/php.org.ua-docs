@@ -1,16 +1,11 @@
-Повертає копію масиву
-
--   [« ArrayIterator::current](arrayiterator.current.md)
-    
--   [ArrayIterator::getFlags »](arrayiterator.getflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Повертає копію масиву
-    
-
+---
+navigation:
+  - arrayiterator.current.md: '« ArrayIterator::current'
+  - arrayiterator.getflags.md: 'ArrayIterator::getFlags »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::getArrayCopy'
+---
 # ArrayIterator::getArrayCopy
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
-
--   [« sqlsrvrollback](function.sqlsrv-rollback.html)
-    
--   [sqlsrvsendstreamdata »](function.sqlsrv-send-stream-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
-    
-
+---
+navigation:
+  - function.sqlsrv-rollback.html: « sqlsrvrollback
+  - function.sqlsrv-send-stream-data.html: sqlsrvsendstreamdata »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvrowsaffected
+---
 # sqlsrvrowsaffected
 
 (No version information available, might only be in Git)

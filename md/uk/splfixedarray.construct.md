@@ -1,16 +1,11 @@
-Створює новий масив фіксованої довжини
-
--   [« SplFixedArray](class.splfixedarray.md)
-    
--   [SplFixedArray::count »](splfixedarray.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFixedArray](class.splfixedarray.md)
-    
--   Створює новий масив фіксованої довжини
-    
-
+---
+navigation:
+  - class.splfixedarray.md: « SplFixedArray
+  - splfixedarray.count.md: 'SplFixedArray::count »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::construct'
+---
 # SplFixedArray::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public **SplFixedArray::construct**(int `$size`
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `size` від'ємний; раніше викидався виняток [InvalidArgumentException](class.invalidargumentexception.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `size` від'ємний; раніше викидався виняток [InvalidArgumentException](class.invalidargumentexception.md) |
 
 ### Приклади
 

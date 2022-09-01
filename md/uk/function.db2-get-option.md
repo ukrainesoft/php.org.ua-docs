@@ -1,16 +1,11 @@
-Витягує значення параметра для ресурсу оператора або ресурсу з'єднання
-
--   [« db2freestmt](function.db2-free-stmt.html)
-    
--   [db2lastinsertid »](function.db2-last-insert-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Витягує значення параметра для ресурсу оператора або ресурсу з'єднання
-    
-
+---
+navigation:
+  - function.db2-free-stmt.html: « db2freestmt
+  - function.db2-last-insert-id.html: db2lastinsertid »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2getoption
+---
 # db2getoption
 
 (PECL ibmdb2> = 1.6.0)
@@ -79,13 +74,13 @@ db2_get_option(resource $resource, string $option): string|false
 
 **Матриця параметрів ресурсів**
 
-| Ключ       | Значение                   | Тип ресурса |
-|------------|----------------------------|-------------|
-|            |                            | Connection  |
-| userid     | `SQL_ATTR_INFO_USERID`     | З           |
-| acctstr    | `SQL_ATTR_INFO_ACCTSTR`    | З           |
-| applname   | `SQL_ATTR_INFO_APPLNAME`   | З           |
-| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З           |
+| Ключ | Значение | Тип ресурса |
+| --- | --- | --- |
+|  |  | Connection |
+| userid | `SQL_ATTR_INFO_USERID` | З |
+| acctstr | `SQL_ATTR_INFO_ACCTSTR` | З |
+| applname | `SQL_ATTR_INFO_APPLNAME` | З |
+| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З |
 
 ### Значення, що повертаються
 

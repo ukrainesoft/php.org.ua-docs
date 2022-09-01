@@ -1,16 +1,11 @@
-Реєструє callback-функцію на ім'я події
-
--   [« SwooleServer::listen](swoole-server.listen.html)
-    
--   [SwooleServer::pause »](swoole-server.pause.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Реєструє callback-функцію на ім'я події
-    
-
+---
+navigation:
+  - swoole-server.listen.html: '« SwooleServer::listen'
+  - swoole-server.pause.html: 'SwooleServer::pause »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::on'
+---
 # SwooleServer::on
 
 (PECL swoole >= 1.9.0)

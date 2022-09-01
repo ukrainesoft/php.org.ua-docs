@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::invokePending](evloop.invokepending.md)
-    
--   [EvLoop::loopFork »](evloop.loopfork.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.invokepending.md: '« EvLoop::invokePending'
+  - evloop.loopfork.md: 'EvLoop::loopFork »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::io'
+---
 # EvLoop::io
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Встановити "тільки для читання"
-
--   [« UIControlsEntry::onChange](ui-controls-entry.onchange.html)
-    
--   [ОЙControlsEntry::setText »](ui-controls-entry.settext.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsEntry](class.ui-controls-entry.html)
-    
--   Встановити "тільки для читання"
-    
-
+---
+navigation:
+  - ui-controls-entry.onchange.html: '« UIControlsEntry::onChange'
+  - ui-controls-entry.settext.html: 'ОЙControlsEntry::setText »'
+  - index.md: PHP Manual
+  - class.ui-controls-entry.html: ОЙControlsEntry
+title: 'ОЙControlsEntry::setReadOnly'
+---
 # ОЙControlsEntry::setReadOnly
 
 (UI 0.9.9)

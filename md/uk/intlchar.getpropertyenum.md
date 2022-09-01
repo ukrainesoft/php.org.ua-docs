@@ -1,16 +1,11 @@
-Отримати значення константи властивості на його ім'я
-
--   [« IntlChar::getNumericValue](intlchar.getnumericvalue.html)
-    
--   [IntlChar::getPropertyName »](intlchar.getpropertyname.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати значення константи властивості на його ім'я
-    
-
+---
+navigation:
+  - intlchar.getnumericvalue.html: '« IntlChar::getNumericValue'
+  - intlchar.getpropertyname.html: 'IntlChar::getPropertyName »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::getPropertyEnum'
+---
 # IntlChar::getPropertyEnum
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Підключитись до сервера LDAP
-
--   [« ldapcompare](function.ldap-compare.html)
-    
--   [ldapcontrolpagedresultresponse »](function.ldap-control-paged-result-response.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Підключитись до сервера LDAP
-    
-
+---
+navigation:
+  - function.ldap-compare.html: « ldapcompare
+  - function.ldap-control-paged-result-response.html: ldapcontrolpagedresultresponse »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapconnect
+---
 # ldapconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -61,9 +56,9 @@ ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [LDAPConnection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [LDAPConnection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

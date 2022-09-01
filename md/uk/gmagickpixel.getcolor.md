@@ -1,16 +1,11 @@
-Повертає колір
-
--   [« GmagickPixel::construct](gmagickpixel.construct.md)
-    
--   [GmagickPixel::getcolorcount »](gmagickpixel.getcolorcount.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickPixel](class.gmagickpixel.md)
-    
--   Повертає колір
-    
-
+---
+navigation:
+  - gmagickpixel.construct.md: '« GmagickPixel::construct'
+  - gmagickpixel.getcolorcount.md: 'GmagickPixel::getcolorcount »'
+  - index.md: PHP Manual
+  - class.gmagickpixel.md: GmagickPixel
+title: 'GmagickPixel::getcolor'
+---
 # GmagickPixel::getcolor
 
 (PECL gmagick >= Unknown)

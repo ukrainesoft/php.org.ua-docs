@@ -1,16 +1,11 @@
-Отримує кількість елементів у стовпці типу колекція OID
-
--   [« cubridcolget](function.cubrid-col-get.html)
-    
--   [cubridcolumnnames »](function.cubrid-column-names.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Отримує кількість елементів у стовпці типу колекція OID
-    
-
+---
+navigation:
+  - function.cubrid-col-get.html: « cubridcolget
+  - function.cubrid-column-names.html: cubridcolumnnames »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridcolsize
+---
 # cubridcolsize
 
 (PECL CUBRID >= 8.3.0)
@@ -45,9 +40,9 @@ OID екземпляра.
 
 ### список змін
 
-| Версия | Описание                                                                                |
-|--------|-----------------------------------------------------------------------------------------|
-|        | Змінено значення, що повертається: у разі невдачі повертається **`false`**, а чи не -1. |
+| Версия | Описание |
+| --- | --- |
+|  | Змінено значення, що повертається: у разі невдачі повертається **`false`**, а чи не -1. |
 
 ### Приклади
 

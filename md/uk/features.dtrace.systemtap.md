@@ -1,16 +1,11 @@
-Використання SystemTap зі статичними зондами PHP DTrace
-
--   [« Использование PHP и DTrace](features.dtrace.dtrace.md)
-    
--   [Справочник функций »](funcref.md)
-    
--   [PHP Manual](index.md)
-    
--   [Динамічна трасування DTrace](features.dtrace.md)
-    
--   Використання SystemTap зі статичними зондами PHP DTrace
-    
-
+---
+navigation:
+  - features.dtrace.dtrace.md: « Использование PHP и DTrace
+  - funcref.md: Справочник функций »
+  - index.md: PHP Manual
+  - features.dtrace.md: Динамічна трасування DTrace
+title: Використання SystemTap зі статичними зондами PHP DTrace
+---
 ## Використання SystemTap зі статичними зондами PHP DTrace
 
 У деяких дистрибутивах Linux можна використовувати утиліту трасування SystemTap для відстеження статичних зондів DTrace. Цей варіант доступний у PHP 5.4.20 та PHP 5.5.

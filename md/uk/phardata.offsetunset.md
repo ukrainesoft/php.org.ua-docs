@@ -1,16 +1,11 @@
-Видалити файл із tar/zip-архіву
-
--   [« PharData::offsetSet](phardata.offsetset.md)
-    
--   [PharData::setAlias »](phardata.setalias.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Видалити файл із tar/zip-архіву
-    
-
+---
+navigation:
+  - phardata.offsetset.md: '« PharData::offsetSet'
+  - phardata.setalias.md: 'PharData::setAlias »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::offsetUnset'
+---
 # PharData::offsetUnset
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

@@ -1,16 +1,11 @@
-Ластівка, що ховається
-
--   [« tradercdlclosingmarubozu](function.trader-cdlclosingmarubozu.html)
-    
--   [tradercdlcounterattack »](function.trader-cdlcounterattack.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Ластівка, що ховається
-    
-
+---
+navigation:
+  - function.trader-cdlclosingmarubozu.html: « tradercdlclosingmarubozu
+  - function.trader-cdlcounterattack.html: tradercdlcounterattack »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlconcealbabyswall
+---
 # tradercdlconcealbabyswall
 
 (PECL trader >= 0.2.0)

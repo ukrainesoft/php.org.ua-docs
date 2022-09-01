@@ -1,16 +1,11 @@
-Функції DOM
-
--   [« DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md)
-    
--   [domimportsimplexml »](function.dom-import-simplexml.html)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Функції DOM
-    
-
+---
+navigation:
+  - domxpath.registerphpfunctions.md: '« DOMXPath::registerPhpFunctions'
+  - function.dom-import-simplexml.html: domimportsimplexml »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Функції DOM
+---
 # Функції DOM
 
 ## Зміст

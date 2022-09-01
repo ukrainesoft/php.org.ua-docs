@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONMinKey::construct](mongodb-bson-minkey.construct.html)
-    
--   [MongoDBBSONMinKey::serialize »](mongodb-bson-minkey.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-minkey.construct.html: '« MongoDBBSONMinKey::construct'
+  - mongodb-bson-minkey.serialize.html: 'MongoDBBSONMinKey::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-minkey.html: MongoDBBSONMinKey
+title: 'MongoDBBSONMinKey::jsonSerialize'
+---
 # MongoDBBSONMinKey::jsonSerialize
 
 (mongodb >=1.2.0)

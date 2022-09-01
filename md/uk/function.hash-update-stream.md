@@ -1,16 +1,11 @@
-Додає дані з відкритого потоку до активного контексту хешування
-
--   [« hashupdatefile](function.hash-update-file.html)
-    
--   [hashupdate »](function.hash-update.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Додає дані з відкритого потоку до активного контексту хешування
-    
-
+---
+navigation:
+  - function.hash-update-file.html: « hashupdatefile
+  - function.hash-update.html: hashupdate »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashupdatestream
+---
 # hashupdatestream
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
@@ -43,9 +38,9 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 ### список змін
 
-| Версия | Описание                                                     |
-|--------|--------------------------------------------------------------|
-|        | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 

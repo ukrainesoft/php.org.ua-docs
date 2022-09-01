@@ -1,16 +1,11 @@
-Перехоплювач RouterStartup
-
--   [« YafPluginAbstract::routerShutdown](yaf-plugin-abstract.routershutdown.html)
-    
--   [YafRegistry »](class.yaf-registry.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
-    
--   Перехоплювач RouterStartup
-    
-
+---
+navigation:
+  - yaf-plugin-abstract.routershutdown.html: '« YafPluginAbstract::routerShutdown'
+  - class.yaf-registry.html: YafRegistry »
+  - index.html: PHP Manual
+  - class.yaf-plugin-abstract.html: YafPluginAbstract
+title: 'YafPluginAbstract::routerStartup'
+---
 # YafPluginAbstract::routerStartup
 
 (Yaf >=1.0.0)

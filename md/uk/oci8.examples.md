@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](oci8.constants.html)
-    
--   [Работа с соединениями OCI8 и Connection Pooling »](oci8.connection.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8](book.oci8.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - oci8.constants.html: « Обумовлені константи
+  - oci8.connection.html: Работа с соединениями OCI8 и Connection Pooling »
+  - index.html: PHP Manual
+  - book.oci8.html: OCI8
+title: Приклади
+---
 # Приклади
 
 Ці приклади виконуються під користувачем `HR`, Який є зразком з "Human Resources" схеми, що поставляється разом з базою даних Oracle. Можливо, потрібно розблокувати цей обліковий запис і перевстановити для нього пароль, щоб використовувати його.

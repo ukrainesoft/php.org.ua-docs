@@ -1,16 +1,11 @@
-Генерація випадкового токена
-
--   [« OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md)
-    
--   [OAuthProvider::is2LeggedEndpoint »](oauthprovider.is2leggedendpoint.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Генерація випадкового токена
-    
-
+---
+navigation:
+  - oauthprovider.consumerhandler.md: '« OAuthProvider::consumerHandler'
+  - oauthprovider.is2leggedendpoint.md: 'OAuthProvider::is2LeggedEndpoint »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::generateToken'
+---
 # OAuthProvider::generateToken
 
 (PECL OAuth >= 1.0.0)

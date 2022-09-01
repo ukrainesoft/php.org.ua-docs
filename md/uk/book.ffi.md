@@ -1,16 +1,11 @@
-Інтерфейс зовнішньої функції (Foreign Function Interface)
-
--   [« usererror](function.user-error.html)
-    
--   [Введение »](intro.ffi.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   Інтерфейс зовнішньої функції (Foreign Function Interface)
-    
-
+---
+navigation:
+  - function.user-error.html: « usererror
+  - intro.ffi.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: Інтерфейс зовнішньої функції (Foreign Function Interface)
+---
 # Інтерфейс зовнішньої функції (Foreign Function Interface)
 
 -   [Введение](intro.ffi.md)

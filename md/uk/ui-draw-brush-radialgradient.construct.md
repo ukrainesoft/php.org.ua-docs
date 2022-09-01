@@ -1,16 +1,11 @@
-Конструктор класу RadialGradient
-
--   [« UIDrawBrushRadialGradient](class.ui-draw-brush-radialgradient.html)
-    
--   [ОЙDrawTextLayout »](class.ui-draw-text-layout.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawBrushRadialGradient](class.ui-draw-brush-radialgradient.html)
-    
--   Конструктор класу RadialGradient
-    
-
+---
+navigation:
+  - class.ui-draw-brush-radialgradient.html: « UIDrawBrushRadialGradient
+  - class.ui-draw-text-layout.html: ОЙDrawTextLayout »
+  - index.html: PHP Manual
+  - class.ui-draw-brush-radialgradient.html: ОЙDrawBrushRadialGradient
+title: 'ОЙDrawBrushRadialGradient::construct'
+---
 # ОЙDrawBrushRadialGradient::construct
 
 (UI 2.0.0)

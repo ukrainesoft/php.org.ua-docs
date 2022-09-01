@@ -1,16 +1,11 @@
-Конструктор класу SVM
-
--   [« SVM](class.svm.html)
-    
--   [SVM::crossvalidate »](svm.crossvalidate.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVM](class.svm.html)
-    
--   Конструктор класу SVM
-    
-
+---
+navigation:
+  - class.svm.html: « SVM
+  - svm.crossvalidate.html: 'SVM::crossvalidate »'
+  - index.html: PHP Manual
+  - class.svm.html: SVM
+title: 'SVM::construct'
+---
 # SVM::construct
 
 (PECL svm >= 0.1.0)

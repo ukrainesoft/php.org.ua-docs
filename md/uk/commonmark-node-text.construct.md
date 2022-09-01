@@ -1,16 +1,11 @@
-Конструктор класу Text
-
--   [« CommonMarkNodeText](class.commonmark-node-text.html)
-    
--   [CommonMarkNodeTextStrong »](class.commonmark-node-text-strong.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkNodeText](class.commonmark-node-text.html)
-    
--   Конструктор класу Text
-    
-
+---
+navigation:
+  - class.commonmark-node-text.html: « CommonMarkNodeText
+  - class.commonmark-node-text-strong.html: CommonMarkNodeTextStrong »
+  - index.md: PHP Manual
+  - class.commonmark-node-text.html: CommonMarkNodeText
+title: 'CommonMarkNodeText::construct'
+---
 # CommonMarkNodeText::construct
 
 (cmark >= 1.0.0)

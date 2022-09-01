@@ -1,16 +1,11 @@
-Конструктор класу Result
-
--   [« mysqlxdevapiResult](class.mysql-xdevapi-result.html)
-    
--   [Result::getAffectedItemsCount »](mysql-xdevapi-result.getaffecteditemscount.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
-    
--   Конструктор класу Result
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-result.html: « mysqlxdevapiResult
+  - mysql-xdevapi-result.getaffecteditemscount.html: 'Result::getAffectedItemsCount »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+title: 'Result::construct'
+---
 # Result::construct
 
 (No version information available, might only be in Git)

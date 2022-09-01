@@ -1,16 +1,11 @@
-Конструктор
-
--   [« ReflectionZendExtension::clone](reflectionzendextension.clone.md)
-    
--   [ReflectionZendExtension::export »](reflectionzendextension.export.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.md)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - reflectionzendextension.clone.md: '« ReflectionZendExtension::clone'
+  - reflectionzendextension.export.md: 'ReflectionZendExtension::export »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::construct'
+---
 # ReflectionZendExtension::construct
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

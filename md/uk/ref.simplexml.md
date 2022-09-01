@@ -1,16 +1,11 @@
-Функції SimpleXML
-
--   [« SimpleXMLIterator::valid](simplexmliterator.valid.md)
-    
--   [simplexmlimportdom »](function.simplexml-import-dom.html)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXML](book.simplexml.md)
-    
--   Функції SimpleXML
-    
-
+---
+navigation:
+  - simplexmliterator.valid.md: '« SimpleXMLIterator::valid'
+  - function.simplexml-import-dom.html: simplexmlimportdom »
+  - index.md: PHP Manual
+  - book.simplexml.md: SimpleXML
+title: Функції SimpleXML
+---
 # Функції SimpleXML
 
 ## Зміст

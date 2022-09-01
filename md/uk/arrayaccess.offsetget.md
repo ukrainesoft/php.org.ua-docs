@@ -1,16 +1,11 @@
-Повертає задане усунення (ключ)
-
--   [« ArrayAccess::offsetExists](arrayaccess.offsetexists.md)
-    
--   [ArrayAccess::offsetSet »](arrayaccess.offsetset.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayAccess](class.arrayaccess.md)
-    
--   Повертає задане усунення (ключ)
-    
-
+---
+navigation:
+  - arrayaccess.offsetexists.md: '« ArrayAccess::offsetExists'
+  - arrayaccess.offsetset.md: 'ArrayAccess::offsetSet »'
+  - index.md: PHP Manual
+  - class.arrayaccess.md: ArrayAccess
+title: 'ArrayAccess::offsetGet'
+---
 # ArrayAccess::offsetGet
 
 (PHP 5, PHP 7, PHP 8)

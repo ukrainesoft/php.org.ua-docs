@@ -1,16 +1,11 @@
-Перевіряє, чи є значення властивістю за умовчанням
-
--   [« ReflectionProperty::hasType](reflectionproperty.hastype.md)
-    
--   [ReflectionProperty::isInitialized »](reflectionproperty.isinitialized.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Перевіряє, чи є значення властивістю за умовчанням
-    
-
+---
+navigation:
+  - reflectionproperty.hastype.md: '« ReflectionProperty::hasType'
+  - reflectionproperty.isinitialized.md: 'ReflectionProperty::isInitialized »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::isDefault'
+---
 # ReflectionProperty::isDefault
 
 (PHP 5, PHP 7, PHP 8)

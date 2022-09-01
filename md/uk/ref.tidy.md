@@ -1,16 +1,11 @@
-Tidy
-
--   [« tidyNode::isText](tidynode.istext.md)
-    
--   [проtidyhandler »](function.ob-tidyhandler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Tidy](book.tidy.md)
-    
--   Tidy
-    
-
+---
+navigation:
+  - tidynode.istext.md: '« tidyNode::isText'
+  - function.ob-tidyhandler.html: проtidyhandler »
+  - index.md: PHP Manual
+  - book.tidy.md: Tidy
+title: Tidy
+---
 # Tidy
 
 ## Зміст

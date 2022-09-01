@@ -1,16 +1,11 @@
-Прослуховує вхідні з'єднання на сокеті
-
--   [« socketlasterror](function.socket-last-error.html)
-    
--   [socketread »](function.socket-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Прослуховує вхідні з'єднання на сокеті
-    
-
+---
+navigation:
+  - function.socket-last-error.html: « socketlasterror
+  - function.socket-read.html: socketread »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketlisten
+---
 # socketlisten
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ socket_listen(Socket $socket, int $backlog = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

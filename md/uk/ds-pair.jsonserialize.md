@@ -1,16 +1,11 @@
-Повертає пару у виставі JSON
-
--   [« DsPair::isEmpty](ds-pair.isempty.html)
-    
--   [ДсPair::toArray »](ds-pair.toarray.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пара](class.ds-pair.html)
-    
--   Повертає пару у виставі JSON
-    
-
+---
+navigation:
+  - ds-pair.isempty.html: '« DsPair::isEmpty'
+  - ds-pair.toarray.html: 'ДсPair::toArray »'
+  - index.html: PHP Manual
+  - class.ds-pair.html: Пара
+title: 'ДсPair::jsonSerialize'
+---
 # ДсPair::jsonSerialize
 
 (PECL ds >= 1.0.0)

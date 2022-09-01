@@ -1,16 +1,11 @@
-Закрити оброблюваний обробник cURL
-
--   [« curlsetopt](function.curl-setopt.html)
-    
--   [curlshareerrno »](function.curl-share-errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Закрити оброблюваний обробник cURL
-    
-
+---
+navigation:
+  - function.curl-setopt.html: « curlsetopt
+  - function.curl-share-errno.html: curlshareerrno »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlshareclose
+---
 # curlshareclose
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ curl_share_close(CurlShareHandle $share_handle): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------|
-|        | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
+| Версия | Описание |
+| --- | --- |
+|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Приклади
 

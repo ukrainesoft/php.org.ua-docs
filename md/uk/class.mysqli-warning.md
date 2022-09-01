@@ -1,16 +1,11 @@
-Клас mysqliwarning
-
--   [« mysqlidriver::$reportmode](mysqli-driver.report-mode.html)
-    
--   [mysqliwarning::construct »](mysqli-warning.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQLi](book.mysqli.md)
-    
--   Клас mysqliwarning
-    
-
+---
+navigation:
+  - mysqli-driver.report-mode.html: '« mysqlidriver::$reportmode'
+  - mysqli-warning.construct.html: 'mysqliwarning::construct »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqliwarning
+---
 # Клас mysqliwarning
 
 (PHP 5, PHP 7, PHP 8)

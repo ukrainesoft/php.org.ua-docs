@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.pthreads.html)
-    
--   [Вимоги »](pthreads.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [pthreads](book.pthreads.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.pthreads.html: « Введение
+  - pthreads.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.pthreads.html: pthreads
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

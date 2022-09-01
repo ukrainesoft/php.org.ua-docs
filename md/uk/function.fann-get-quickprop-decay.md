@@ -1,16 +1,11 @@
-Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
-
--   [« fanngetnumoutput](function.fann-get-num-output.html)
-    
--   [fanngetquickpropmu »](function.fann-get-quickprop-mu.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
-    
-
+---
+navigation:
+  - function.fann-get-num-output.html: « fanngetnumoutput
+  - function.fann-get-quickprop-mu.html: fanngetquickpropmu »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetquickpropdecay
+---
 # fanngetquickpropdecay
 
 (PECL fann> = 1.0.0)

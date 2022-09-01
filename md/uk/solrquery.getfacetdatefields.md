@@ -1,16 +1,11 @@
-Повертає усі поля facet.date
-
--   [« SolrQuery::getFacetDateEnd](solrquery.getfacetdateend.md)
-    
--   [SolrQuery::getFacetDateGap »](solrquery.getfacetdategap.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає усі поля facet.date
-    
-
+---
+navigation:
+  - solrquery.getfacetdateend.md: '« SolrQuery::getFacetDateEnd'
+  - solrquery.getfacetdategap.md: 'SolrQuery::getFacetDateGap »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacetDateFields'
+---
 # SolrQuery::getFacetDateFields
 
 (PECL solr> = 0.9.2)

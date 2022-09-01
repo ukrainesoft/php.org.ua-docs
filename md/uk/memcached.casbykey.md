@@ -1,16 +1,11 @@
-Порівнює та встановлює значення для запису на конкретному сервері
-
--   [« Memcached::cas](memcached.cas.md)
-    
--   [Memcached::construct »](memcached.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Порівнює та встановлює значення для запису на конкретному сервері
-    
-
+---
+navigation:
+  - memcached.cas.md: '« Memcached::cas'
+  - memcached.construct.md: 'Memcached::construct »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::casByKey'
+---
 # Memcached::casByKey
 
 (PECL memcached >= 0.1.0)

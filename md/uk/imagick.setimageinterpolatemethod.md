@@ -1,16 +1,11 @@
-Встановлює метод інтерполяції пікселів зображення
-
--   [« Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.html)
-    
--   [Imagick::setImageIterations »](imagick.setimageiterations.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює метод інтерполяції пікселів зображення
-    
-
+---
+navigation:
+  - imagick.setimageinterlacescheme.html: '« Imagick::setImageInterlaceScheme'
+  - imagick.setimageiterations.html: 'Imagick::setImageIterations »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageInterpolateMethod'
+---
 # Imagick::setImageInterpolateMethod
 
 (PECL imagick 2, PECL imagick 3)

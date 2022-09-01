@@ -1,16 +1,11 @@
-Відкриває BLOB-об'єкт для вилучення частин даних
-
--   [« ibaseblobinfo](function.ibase-blob-info.html)
-    
--   [ibaseclose »](function.ibase-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Відкриває BLOB-об'єкт для вилучення частин даних
-    
-
+---
+navigation:
+  - function.ibase-blob-info.html: « ibaseblobinfo
+  - function.ibase-close.html: ibaseclose »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseblobopen
+---
 # ibaseblobopen
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Завдання прапорів обробки
-
--   [« FilesystemIterator::rewind](filesystemiterator.rewind.md)
-    
--   [FilterIterator »](class.filteriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilesystemIterator](class.filesystemiterator.md)
-    
--   Завдання прапорів обробки
-    
-
+---
+navigation:
+  - filesystemiterator.rewind.md: '« FilesystemIterator::rewind'
+  - class.filteriterator.md: FilterIterator »
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
+title: 'FilesystemIterator::setFlags'
+---
 # FilesystemIterator::setFlags
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

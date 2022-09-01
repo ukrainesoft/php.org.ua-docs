@@ -1,16 +1,11 @@
-Повертає виняток, пов'язаний із невдалою командою
-
--   [« MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent::getOperationId »](mongodb-driver-monitoring-commandfailedevent.getoperationid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   Повертає виняток, пов'язаний із невдалою командою
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getdurationmicros.html: '« MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros'
+  - mongodb-driver-monitoring-commandfailedevent.getoperationid.html: 'MongoDBDriverMonitoringCommandFailedEvent::getOperationId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getError'
+---
 # MongoDBDriverMonitoringCommandFailedEvent::getError
 
 (mongodb >=1.3.0)

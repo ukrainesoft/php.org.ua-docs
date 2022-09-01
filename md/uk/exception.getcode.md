@@ -1,16 +1,11 @@
-Отримує код виключення
-
--   [« Exception::getPrevious](exception.getprevious.html)
-    
--   [Exception::getFile »](exception.getfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Exception](class.exception.html)
-    
--   Отримує код виключення
-    
-
+---
+navigation:
+  - exception.getprevious.html: '« Exception::getPrevious'
+  - exception.getfile.html: 'Exception::getFile »'
+  - index.html: PHP Manual
+  - class.exception.html: Exception
+title: 'Exception::getCode'
+---
 # Exception::getCode
 
 (PHP 5, PHP 7, PHP 8)

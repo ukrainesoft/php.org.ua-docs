@@ -1,16 +1,11 @@
-Бінарно-безпечне порівняння рядків без урахування регістру
-
--   [« strwordcount](function.str-word-count.html)
-    
--   [strchr »](function.strchr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Бінарно-безпечне порівняння рядків без урахування регістру
-    
-
+---
+navigation:
+  - function.str-word-count.html: « strwordcount
+  - function.strchr.md: strchr »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strcasecmp
+---
 # strcasecmp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

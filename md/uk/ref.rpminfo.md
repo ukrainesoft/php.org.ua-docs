@@ -1,16 +1,11 @@
-Функції RpmInfo
-
--   [« Обумовлені константи](rpminfo.constants.md)
-    
--   [rpmaddtag »](function.rpmaddtag.md)
-    
--   [PHP Manual](index.md)
-    
--   [RpmInfo](book.rpminfo.md)
-    
--   Функції RpmInfo
-    
-
+---
+navigation:
+  - rpminfo.constants.md: « Обумовлені константи
+  - function.rpmaddtag.md: rpmaddtag »
+  - index.md: PHP Manual
+  - book.rpminfo.md: RpmInfo
+title: Функції RpmInfo
+---
 # Функції RpmInfo
 
 ## Зміст

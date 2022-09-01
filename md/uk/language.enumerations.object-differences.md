@@ -1,16 +1,11 @@
-Відмінності від об'єктів
-
--   [« Значення перерахування у постійних виразах](language.enumerations.expressions.md)
-    
--   [Список значений »](language.enumerations.listing.md)
-    
--   [PHP Manual](index.md)
-    
--   [Перечисления](language.enumerations.md)
-    
--   Відмінності від об'єктів
-    
-
+---
+navigation:
+  - language.enumerations.expressions.md: « Значення перерахування у постійних виразах
+  - language.enumerations.listing.md: Список значений »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
+title: Відмінності від об'єктів
+---
 ## Відмінності від об'єктів
 
 Хоча перерахування побудовані на класах та об'єктах, вони не підтримують усі функціональні можливості, пов'язані з об'єктами. Зокрема, варіантам перерахувань заборонено мати стан.

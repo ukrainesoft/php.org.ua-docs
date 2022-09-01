@@ -1,16 +1,11 @@
-Перевіряє, чи приєднано ітератора.
-
--   [« MultipleIterator::construct](multipleiterator.construct.md)
-    
--   [MultipleIterator::countIterators »](multipleiterator.countiterators.md)
-    
--   [PHP Manual](index.md)
-    
--   [MultipleIterator](class.multipleiterator.md)
-    
--   Перевіряє, чи приєднано ітератора.
-    
-
+---
+navigation:
+  - multipleiterator.construct.md: '« MultipleIterator::construct'
+  - multipleiterator.countiterators.md: 'MultipleIterator::countIterators »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
+title: 'MultipleIterator::containsIterator'
+---
 # MultipleIterator::containsIterator
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

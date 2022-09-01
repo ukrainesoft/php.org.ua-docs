@@ -1,16 +1,11 @@
-Отримання активного вкладеного ітератора
-
--   [« RecursiveIteratorIterator::getMaxDepth](recursiveiteratoriterator.getmaxdepth.md)
-    
--   [RecursiveIteratorIterator::key »](recursiveiteratoriterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Отримання активного вкладеного ітератора
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.getmaxdepth.md: '« RecursiveIteratorIterator::getMaxDepth'
+  - recursiveiteratoriterator.key.md: 'RecursiveIteratorIterator::key »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::getSubIterator'
+---
 # RecursiveIteratorIterator::getSubIterator
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,6 +32,6 @@ public RecursiveIteratorIterator::getSubIterator(?int $level = null): ?Recursive
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `level` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `level` тепер допускає значення null. |

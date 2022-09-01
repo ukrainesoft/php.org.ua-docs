@@ -1,16 +1,11 @@
-Повертає позицію першого входження підрядка
-
--   [« strpbrk](function.strpbrk.md)
-    
--   [strrchr »](function.strrchr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає позицію першого входження підрядка
-    
-
+---
+navigation:
+  - function.strpbrk.md: « strpbrk
+  - function.strrchr.md: strrchr »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strpos
+---
 # strpos
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,11 +46,11 @@ strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Передача цілого числа (int) `needle` більше не підтримується. |
-|        | Передача цілого числа (int) `needle` оголошено застарілою.    |
-|        | Додано підтримку негативних значень `offset`                  |
+| Версия | Описание |
+| --- | --- |
+|  | Передача цілого числа (int) `needle` більше не підтримується. |
+|  | Передача цілого числа (int) `needle` оголошено застарілою. |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 

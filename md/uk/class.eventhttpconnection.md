@@ -1,16 +1,11 @@
-Клас EventHttpConnection
-
--   [« EventHttp::setTimeout](eventhttp.settimeout.md)
-    
--   [EventHttpConnection::construct »](eventhttpconnection.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventHttpConnection
-    
-
+---
+navigation:
+  - eventhttp.settimeout.md: '« EventHttp::setTimeout'
+  - eventhttpconnection.construct.md: 'EventHttpConnection::construct »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventHttpConnection
+---
 # Клас EventHttpConnection
 
 (PECL event >= 1.4.0-beta)

@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsSet::allocate](ds-set.allocate.html)
-    
--   [ДсSet::clear »](ds-set.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-set.allocate.html: '« DsSet::allocate'
+  - ds-set.clear.html: 'ДсSet::clear »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::capacity'
+---
 # ДсSet::capacity
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Клас SolrCollapseFunction
-
--   [« SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.html)
-    
--   [SolrCollapseFunction::construct »](solrcollapsefunction.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Клас SolrCollapseFunction
-    
-
+---
+navigation:
+  - solrdismaxquery.useedismaxqueryparser.html: '« SolrDisMaxQuery::useEDisMaxQueryParser'
+  - solrcollapsefunction.construct.html: 'SolrCollapseFunction::construct »'
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Клас SolrCollapseFunction
+---
 # Клас SolrCollapseFunction
 
 (PECL solr> = 2.2.0)

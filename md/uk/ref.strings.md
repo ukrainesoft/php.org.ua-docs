@@ -1,16 +1,11 @@
-Функції для роботи з рядками
-
--   [« Обумовлені константи](string.constants.md)
-    
--   [addcslashes »](function.addcslashes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Рядки](book.strings.md)
-    
--   Функції для роботи з рядками
-    
-
+---
+navigation:
+  - string.constants.md: « Обумовлені константи
+  - function.addcslashes.md: addcslashes »
+  - index.md: PHP Manual
+  - book.strings.md: Рядки
+title: Функції для роботи з рядками
+---
 # Функції для роботи з рядками
 
 # Дивіться також

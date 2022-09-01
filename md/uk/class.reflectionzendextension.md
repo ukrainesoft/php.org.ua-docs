@@ -1,16 +1,11 @@
-Клас ReflectionZendExtension
-
--   [« ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.html)
-    
--   [ReflectionZendExtension::clone »](reflectionzendextension.clone.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionZendExtension
-    
-
+---
+navigation:
+  - reflectionenumbackedcase.getbackingvalue.html: '« ReflectionEnumBackedCase::getBackingValue'
+  - reflectionzendextension.clone.html: 'ReflectionZendExtension::clone »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionZendExtension
+---
 # Клас ReflectionZendExtension
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

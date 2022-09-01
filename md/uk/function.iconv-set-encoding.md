@@ -1,16 +1,11 @@
-Встановлює поточні налаштування для перетворення символів кодування
-
--   [« iconvmimeencode](function.iconv-mime-encode.html)
-    
--   [iconvstrlen »](function.iconv-strlen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции iconv](ref.iconv.md)
-    
--   Встановлює поточні налаштування для перетворення символів кодування
-    
-
+---
+navigation:
+  - function.iconv-mime-encode.html: « iconvmimeencode
+  - function.iconv-strlen.html: iconvstrlen »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
+title: iconvsetencoding
+---
 # iconvsetencoding
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

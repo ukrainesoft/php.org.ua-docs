@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsPriorityQueue::allocate](ds-priorityqueue.allocate.html)
-    
--   [ДсPriorityQueue::clear »](ds-priorityqueue.clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-priorityqueue.allocate.html: '« DsPriorityQueue::allocate'
+  - ds-priorityqueue.clear.html: 'ДсPriorityQueue::clear »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::capacity'
+---
 # ДсPriorityQueue::capacity
 
 (PECL ds >= 1.0.0)

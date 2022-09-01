@@ -1,16 +1,11 @@
-Встановлює метод віртуального пікселя
-
--   [« Imagick::setImageUnits](imagick.setimageunits.html)
-    
--   [Imagick::setImageWhitePoint »](imagick.setimagewhitepoint.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює метод віртуального пікселя
-    
-
+---
+navigation:
+  - imagick.setimageunits.html: '« Imagick::setImageUnits'
+  - imagick.setimagewhitepoint.html: 'Imagick::setImageWhitePoint »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageVirtualPixelMethod'
+---
 # Imagick::setImageVirtualPixelMethod
 
 (PECL imagick 2, PECL imagick 3)

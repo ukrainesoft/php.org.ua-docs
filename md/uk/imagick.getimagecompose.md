@@ -1,16 +1,11 @@
-Повертає складовий оператор, пов'язаний із зображенням
-
--   [« Imagick::getImageColorspace](imagick.getimagecolorspace.html)
-    
--   [Imagick::getImageCompression »](imagick.getimagecompression.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає складовий оператор, пов'язаний із зображенням
-    
-
+---
+navigation:
+  - imagick.getimagecolorspace.html: '« Imagick::getImageColorspace'
+  - imagick.getimagecompression.html: 'Imagick::getImageCompression »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageCompose'
+---
 # Imagick::getImageCompose
 
 (PECL imagick 2, PECL imagick 3)

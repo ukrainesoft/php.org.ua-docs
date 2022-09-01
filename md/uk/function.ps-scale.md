@@ -1,16 +1,11 @@
-Встановлює коефіцієнт масштабування
-
--   [«pssave](function.ps-save.html)
-    
--   [псsetbordercolor »](function.ps-set-border-color.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює коефіцієнт масштабування
-    
-
+---
+navigation:
+  - function.ps-save.html: «pssave
+  - function.ps-set-border-color.html: псsetbordercolor »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псscale
+---
 # псscale
 
 (PECL ps >= 1.1.0)

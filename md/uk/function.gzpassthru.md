@@ -1,16 +1,11 @@
-Виведення всіх даних з покажчика gz-файлу.
-
--   [« gzopen](function.gzopen.html)
-    
--   [gzputs »](function.gzputs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Виведення всіх даних з покажчика gz-файлу.
-    
-
+---
+navigation:
+  - function.gzopen.html: « gzopen
+  - function.gzputs.html: gzputs »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzpassthru
+---
 # gzpassthru
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

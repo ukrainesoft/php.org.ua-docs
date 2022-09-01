@@ -1,16 +1,11 @@
-Встановлює вказаний шрифт для використання під час анотації тексту
-
--   [« GmagickDraw::setfillopacity](gmagickdraw.setfillopacity.md)
-    
--   [GmagickDraw::setfontsize »](gmagickdraw.setfontsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Встановлює вказаний шрифт для використання під час анотації тексту
-    
-
+---
+navigation:
+  - gmagickdraw.setfillopacity.md: '« GmagickDraw::setfillopacity'
+  - gmagickdraw.setfontsize.md: 'GmagickDraw::setfontsize »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::setfont'
+---
 # GmagickDraw::setfont
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Apache
-
--   [Модулі для роботи з серверами](refs.utilspec.server.html)
-    
--   [Введение »](intro.apache.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи із серверами](refs.utilspec.server.html)
-    
--   Apache
-    
-
+---
+navigation:
+  - refs.utilspec.server.html: Модулі для роботи з серверами
+  - intro.apache.html: Введение »
+  - index.html: PHP Manual
+  - refs.utilspec.server.html: Модулі для роботи із серверами
+title: Apache
+---
 # Apache
 
 -   [Введение](intro.apache.html)

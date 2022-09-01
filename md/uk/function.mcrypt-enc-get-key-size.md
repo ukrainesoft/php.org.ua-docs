@@ -1,16 +1,11 @@
-Повертає максимальну допустиму довжину ключа алгоритму
-
--   [« mcryptencgetвербsize](function.mcrypt-enc-get-iv-size.html)
-    
--   [mcryptencgetmodesname »](function.mcrypt-enc-get-modes-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Повертає максимальну допустиму довжину ключа алгоритму
-    
-
+---
+navigation:
+  - function.mcrypt-enc-get-iv-size.html: « mcryptencgetвербsize
+  - function.mcrypt-enc-get-modes-name.html: mcryptencgetmodesname »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptencgetkeysize
+---
 # mcryptencgetkeysize
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

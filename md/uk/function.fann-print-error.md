@@ -1,16 +1,11 @@
-Виводить рядок помилки
-
--   [« fannnumoutputtraindata](function.fann-num-output-train-data.html)
-    
--   [fannrandomizeweights »](function.fann-randomize-weights.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Виводить рядок помилки
-    
-
+---
+navigation:
+  - function.fann-num-output-train-data.html: « fannnumoutputtraindata
+  - function.fann-randomize-weights.html: fannrandomizeweights »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannprinterror
+---
 # fannprinterror
 
 (PECL fann> = 1.0.0)

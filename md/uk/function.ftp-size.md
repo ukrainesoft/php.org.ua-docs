@@ -1,16 +1,11 @@
-Повертає розмір вказаного файлу
-
--   [« ftpsite](function.ftp-site.html)
-    
--   [ftpsslconnect »](function.ftp-ssl-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Повертає розмір вказаного файлу
-    
-
+---
+navigation:
+  - function.ftp-site.html: « ftpsite
+  - function.ftp-ssl-connect.html: ftpsslconnect »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpsize
+---
 # ftpsize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ ftp_size(FTP\Connection $ftp, string $filename): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

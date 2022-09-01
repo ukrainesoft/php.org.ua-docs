@@ -1,16 +1,11 @@
-Викликає помилку користувача/попередження/сповіщення
-
--   [« setexceptionhandler](function.set-exception-handler.html)
-    
--   [usererror »](function.user-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции обработки ошибок](ref.errorfunc.md)
-    
--   Викликає помилку користувача/попередження/сповіщення
-    
-
+---
+navigation:
+  - function.set-exception-handler.html: « setexceptionhandler
+  - function.user-error.html: usererror »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: triggererror
+---
 # triggererror
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

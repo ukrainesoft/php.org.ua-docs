@@ -1,16 +1,11 @@
-Отримує найбільший період кандидата
-
--   [« fanngetcascadecandidatestagnationepochs](function.fann-get-cascade-candidate-stagnation-epochs.html)
-    
--   [fanngetcascademaxoutepochs »](function.fann-get-cascade-max-out-epochs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Отримує найбільший період кандидата
-    
-
+---
+navigation:
+  - function.fann-get-cascade-candidate-stagnation-epochs.html: « fanngetcascadecandidatestagnationepochs
+  - function.fann-get-cascade-max-out-epochs.html: fanngetcascademaxoutepochs »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetcascademaxcandepochs
+---
 # fanngetcascademaxcandepochs
 
 (PECL fann> = 1.0.0)

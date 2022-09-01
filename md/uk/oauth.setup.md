@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.oauth.html)
-    
--   [Вимоги »](oauth.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](book.oauth.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.oauth.html: « Введение
+  - oauth.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.oauth.html: OAuth
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Вступ
-
--   [« Seaslog](book.seaslog.md)
-    
--   [Встановлення та налаштування »](seaslog.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Seaslog](book.seaslog.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.seaslog.md: « Seaslog
+  - seaslog.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.seaslog.md: Seaslog
+title: Вступ
+---
 # Вступ
 
 Seaslog – це ефективний, швидкий та стабільний модуль ведення журналу для PHP.

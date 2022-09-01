@@ -1,16 +1,11 @@
-Експортує пікселі зображення
-
--   [« Imagick::evaluateImage](imagick.evaluateimage.md)
-    
--   [Imagick::extentImage »](imagick.extentimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Експортує пікселі зображення
-    
-
+---
+navigation:
+  - imagick.evaluateimage.md: '« Imagick::evaluateImage'
+  - imagick.extentimage.md: 'Imagick::extentImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::exportImagePixels'
+---
 # Imagick::exportImagePixels
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

@@ -1,16 +1,11 @@
-Видалити великий об'єкт
-
--   [« PDO::pgsqlLOBOpen](pdo.pgsqllobopen.md)
-    
--   [SQLite (PDO) »](ref.pdo-sqlite.html)
-    
--   [PHP Manual](index.md)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   Видалити великий об'єкт
-    
-
+---
+navigation:
+  - pdo.pgsqllobopen.md: '« PDO::pgsqlLOBOpen'
+  - ref.pdo-sqlite.html: SQLite (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: 'PDO::pgsqlLOBUnlink'
+---
 # PDO::pgsqlLOBUnlink
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL pdopgsql >= 1.0.2)

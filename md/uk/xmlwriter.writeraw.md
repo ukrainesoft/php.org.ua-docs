@@ -1,16 +1,11 @@
-Записати необроблений XML-текст
-
--   [« XMLWriter::writePi](xmlwriter.writepi.md)
-    
--   [XSL »](book.xsl.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Записати необроблений XML-текст
-    
-
+---
+navigation:
+  - xmlwriter.writepi.md: '« XMLWriter::writePi'
+  - book.xsl.md: XSL »
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::writeRaw'
+---
 # XMLWriter::writeRaw
 
 # xmlwriterwriteraw
@@ -51,9 +46,9 @@ xmlwriter_write_raw(XMLWriter $writer, string $content): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

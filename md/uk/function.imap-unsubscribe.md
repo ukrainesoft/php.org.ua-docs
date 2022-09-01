@@ -1,16 +1,11 @@
-Відписатися від поштової скриньки
-
--   [« imapundelete](function.imap-undelete.html)
-    
--   [imaputf7decode »](function.imap-utf7-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Відписатися від поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-undelete.html: « imapundelete
+  - function.imap-utf7-decode.html: imaputf7decode »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapunsubscribe
+---
 # imapunsubscribe
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_unsubscribe(IMAP\Connection $imap, string $mailbox): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

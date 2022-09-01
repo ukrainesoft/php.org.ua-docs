@@ -1,16 +1,11 @@
-Нормалізує документ
-
--   [« DOMDocument::loadXML](domdocument.loadxml.md)
-    
--   [DOMDocument::registerNodeClass »](domdocument.registernodeclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Нормалізує документ
-    
-
+---
+navigation:
+  - domdocument.loadxml.md: '« DOMDocument::loadXML'
+  - domdocument.registernodeclass.md: 'DOMDocument::registerNodeClass »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::normalizeDocument'
+---
 # DOMDocument::normalizeDocument
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримати символ, що представляє задане число в заданій підставі
-
--   [« IntlChar::foldCase](intlchar.foldcase.md)
-    
--   [IntlChar::getBidiPairedBracket »](intlchar.getbidipairedbracket.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати символ, що представляє задане число в заданій підставі
-    
-
+---
+navigation:
+  - intlchar.foldcase.md: '« IntlChar::foldCase'
+  - intlchar.getbidipairedbracket.md: 'IntlChar::getBidiPairedBracket »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::forDigit'
+---
 # IntlChar::forDigit
 
 (PHP 7, PHP 8)

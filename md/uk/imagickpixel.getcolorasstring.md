@@ -1,16 +1,11 @@
-Повертає колір у вигляді рядка
-
--   [« ImagickPixel::getColor](imagickpixel.getcolor.html)
-    
--   [ImagickPixel::getColorCount »](imagickpixel.getcolorcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Повертає колір у вигляді рядка
-    
-
+---
+navigation:
+  - imagickpixel.getcolor.html: '« ImagickPixel::getColor'
+  - imagickpixel.getcolorcount.html: 'ImagickPixel::getColorCount »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::getColorAsString'
+---
 # ImagickPixel::getColorAsString
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

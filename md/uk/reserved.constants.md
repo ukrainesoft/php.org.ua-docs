@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Обумовлені класи](reserved.classes.html)
-    
--   [Список інших зарезервованих слів »](reserved.other-reserved-words.html)
-    
--   [PHP Manual](index.html)
-    
--   [Список зарезервованих слів](reserved.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - reserved.classes.html: « Обумовлені класи
+  - reserved.other-reserved-words.html: Список інших зарезервованих слів »
+  - index.html: PHP Manual
+  - reserved.html: Список зарезервованих слів
+title: Обумовлені константи
+---
 ## Обумовлені константи
 
 ### Оголошені в ядрі константи

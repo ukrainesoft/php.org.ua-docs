@@ -1,16 +1,11 @@
-Встановлює обробник помилок
-
--   [« YafDispatcher::setDefaultModule](yaf-dispatcher.setdefaultmodule.html)
-    
--   [YafDispatcher::setRequest »](yaf-dispatcher.setrequest.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Встановлює обробник помилок
-    
-
+---
+navigation:
+  - yaf-dispatcher.setdefaultmodule.html: '« YafDispatcher::setDefaultModule'
+  - yaf-dispatcher.setrequest.html: 'YafDispatcher::setRequest »'
+  - index.html: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::setErrorHandler'
+---
 # YafDispatcher::setErrorHandler
 
 (Yaf >=1.0.0)

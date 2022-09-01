@@ -1,16 +1,11 @@
-Зупиняє спостерігача
-
--   [« EvWatcher::start](evwatcher.start.md)
-    
--   [Expect »](book.expect.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvWatcher](class.evwatcher.md)
-    
--   Зупиняє спостерігача
-    
-
+---
+navigation:
+  - evwatcher.start.md: '« EvWatcher::start'
+  - book.expect.md: Expect »
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::stop'
+---
 # EvWatcher::stop
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Клас SNMP
-
--   [« snmpwalkoid](function.snmpwalkoid.md)
-    
--   [SNMP::close »](snmp.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](book.snmp.md)
-    
--   Клас SNMP
-    
-
+---
+navigation:
+  - function.snmpwalkoid.md: « snmpwalkoid
+  - snmp.close.md: 'SNMP::close »'
+  - index.md: PHP Manual
+  - book.snmp.md: SNMP
+title: Клас SNMP
+---
 # Клас SNMP
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

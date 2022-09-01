@@ -1,16 +1,11 @@
-Читає вступні дані на з'єднанні
-
--   [« pgconnectionstatus](function.pg-connection-status.html)
-    
--   [пгconvert »](function.pg-convert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Читає вступні дані на з'єднанні
-    
-
+---
+navigation:
+  - function.pg-connection-status.html: « pgconnectionstatus
+  - function.pg-convert.html: пгconvert »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгconsumeinput
+---
 # пгconsumeinput
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -37,6 +32,6 @@ pg_consume_input(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

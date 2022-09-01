@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](apcu.setup.html)
-    
--   [Установка »](apcu.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](apcu.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - apcu.setup.html: « Встановлення та налаштування
+  - apcu.installation.html: Установка »
+  - index.html: PHP Manual
+  - apcu.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

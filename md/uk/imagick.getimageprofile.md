@@ -1,16 +1,11 @@
-Повертає іменований профіль зображення
-
--   [« Imagick::getImagePixelColor](imagick.getimagepixelcolor.html)
-    
--   [Imagick::getImageProfiles »](imagick.getimageprofiles.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає іменований профіль зображення
-    
-
+---
+navigation:
+  - imagick.getimagepixelcolor.html: '« Imagick::getImagePixelColor'
+  - imagick.getimageprofiles.html: 'Imagick::getImageProfiles »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageProfile'
+---
 # Imagick::getImageProfile
 
 (PECL imagick 2, PECL imagick 3)

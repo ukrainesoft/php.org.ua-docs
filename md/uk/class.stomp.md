@@ -1,16 +1,11 @@
-Клас Stomp
-
--   [« stompversion](function.stomp-version.html)
-    
--   [Stomp::abort »](stomp.abort.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](book.stomp.md)
-    
--   Клас Stomp
-    
-
+---
+navigation:
+  - function.stomp-version.html: « stompversion
+  - stomp.abort.md: 'Stomp::abort »'
+  - index.md: PHP Manual
+  - book.stomp.md: Stomp
+title: Клас Stomp
+---
 # Клас Stomp
 
 (PECL stomp >= 0.1.0)

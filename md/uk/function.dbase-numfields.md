@@ -1,16 +1,11 @@
-Отримує кількість полів бази даних
-
--   [« dbasegetrecord](function.dbase-get-record.html)
-    
--   [dbasenumrecords »](function.dbase-numrecords.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](ref.dbase.html)
-    
--   Отримує кількість полів бази даних
-    
-
+---
+navigation:
+  - function.dbase-get-record.html: « dbasegetrecord
+  - function.dbase-numrecords.html: dbasenumrecords »
+  - index.html: PHP Manual
+  - ref.dbase.html: dBase
+title: dbasenumfields
+---
 # dbasenumfields
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -41,8 +36,8 @@ dbase_numfields(resource $database): int
 
 ### список змін
 
-| Версия      | Описание                                             |
-|-------------|------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип ресурсу, а не int. |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Видалення налаштувань обробника
-
--   [« GearmanWorker::register](gearmanworker.register.html)
-    
--   [GearmanWorker::returnCode »](gearmanworker.returncode.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Видалення налаштувань обробника
-    
-
+---
+navigation:
+  - gearmanworker.register.html: '« GearmanWorker::register'
+  - gearmanworker.returncode.html: 'GearmanWorker::returnCode »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::removeOptions'
+---
 # GearmanWorker::removeOptions
 
 (PECL gearman >= 0.6.0)

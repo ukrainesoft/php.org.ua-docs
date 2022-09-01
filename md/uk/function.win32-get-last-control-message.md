@@ -1,16 +1,11 @@
-Повертає останнє керуюче повідомлення, яке було надіслано цій службі
-
--   [« win32deleteservice](function.win32-delete-service.html)
-    
--   [win32pauseservice »](function.win32-pause-service.html)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](ref.win32service.md)
-    
--   Повертає останнє керуюче повідомлення, яке було надіслано цій службі
-    
-
+---
+navigation:
+  - function.win32-delete-service.html: « win32deleteservice
+  - function.win32-pause-service.html: win32pauseservice »
+  - index.md: PHP Manual
+  - ref.win32service.md: win32service
+title: win32getlastcontrolmessage
+---
 # win32getlastcontrolmessage
 
 (PECL win32service >=0.1.0)
@@ -47,11 +42,11 @@ win32_get_last_control_message(): int
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                          |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**                                                      |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 0.2.0 | Функція працює тільки з `"cli"` SAPI.                                                                                                                             |
+| PECL win32service 0.2.0 | Функція працює тільки з `"cli"` SAPI. |
 
 ### Дивіться також
 

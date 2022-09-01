@@ -1,16 +1,11 @@
-Вставити зображення
-
--   [« VtifulKernelExcel::insertFormula](vtiful-kernel-excel.insertFormula.html)
-    
--   [VtifulKernelExcel::insertText »](vtiful-kernel-excel.insertText.html)
-    
--   [PHP Manual](index.html)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Вставити зображення
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.insertFormula.html: '« VtifulKernelExcel::insertFormula'
+  - vtiful-kernel-excel.insertText.html: 'VtifulKernelExcel::insertText »'
+  - index.html: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::insertImage'
+---
 # VtifulKernelExcel::insertImage
 
 (PECL xlswriter >= 1.2.1)

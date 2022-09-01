@@ -1,16 +1,11 @@
-Повертає статистику файлової системи
-
--   [« eiofstat](function.eio-fstat.html)
-    
--   [eiofsync »](function.eio-fsync.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Повертає статистику файлової системи
-    
-
+---
+navigation:
+  - function.eio-fstat.html: « eiofstat
+  - function.eio-fsync.html: eiofsync »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiofstatvfs
+---
 # eiofstatvfs
 
 (PECL eio >= 0.0.1dev)

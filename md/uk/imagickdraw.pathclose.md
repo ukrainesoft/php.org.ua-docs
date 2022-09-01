@@ -1,16 +1,11 @@
-Додає елемент шляху до поточного шляху
-
--   [« ImagickDraw::matte](imagickdraw.matte.html)
-    
--   [ImagickDraw::pathCurveToAbsolute »](imagickdraw.pathcurvetoabsolute.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Додає елемент шляху до поточного шляху
-    
-
+---
+navigation:
+  - imagickdraw.matte.html: '« ImagickDraw::matte'
+  - imagickdraw.pathcurvetoabsolute.html: 'ImagickDraw::pathCurveToAbsolute »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pathClose'
+---
 # ImagickDraw::pathClose
 
 (PECL imagick 2, PECL imagick 3)

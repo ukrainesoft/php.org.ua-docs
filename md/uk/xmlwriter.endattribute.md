@@ -1,16 +1,11 @@
-Завершити атрибут
-
--   [« XMLWriter](class.xmlwriter.md)
-    
--   [XMLWriter::endCdata »](xmlwriter.endcdata.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Завершити атрибут
-    
-
+---
+navigation:
+  - class.xmlwriter.md: « XMLWriter
+  - xmlwriter.endcdata.md: 'XMLWriter::endCdata »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::endAttribute'
+---
 # XMLWriter::endAttribute
 
 # xmlwriterendattribute
@@ -47,9 +42,9 @@ xmlwriter_end_attribute(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

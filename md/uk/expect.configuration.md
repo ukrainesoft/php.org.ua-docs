@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](expect.installation.md)
-    
--   [Типи ресурсів »](expect.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](expect.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - expect.installation.md: « Установка
+  - expect.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - expect.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
@@ -19,12 +14,12 @@
 
 **Опції налаштування Expect**
 
-| Имя                                                               | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------|--------------|-----------------|------------------|
-| [expect.timeout](expect.configuration.html#ini.expect.timeout)    | "10"         | PHPINIALL       |                  |
-| [expect.loguser](expect.configuration.html#ini.expect.loguser)    | "1"          | PHPINIALL       |                  |
-| [expect.logfile](expect.configuration.html#ini.expect.logfile)    | ""           | PHPINIALL       |                  |
-| [expect.matchmax](expect.configuration.html#ini.expect.match-max) | ""           | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [expect.timeout](expect.configuration.html#ini.expect.timeout) | "10" | PHPINIALL |  |
+| [expect.loguser](expect.configuration.html#ini.expect.loguser) | "1" | PHPINIALL |  |
+| [expect.logfile](expect.configuration.html#ini.expect.logfile) | "" | PHPINIALL |  |
+| [expect.matchmax](expect.configuration.html#ini.expect.match-max) | "" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

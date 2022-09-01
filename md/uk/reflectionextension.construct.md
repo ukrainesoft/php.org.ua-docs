@@ -1,16 +1,11 @@
-Створює об'єкт класу ReflectionExtension
-
--   [« ReflectionExtension::clone](reflectionextension.clone.html)
-    
--   [ReflectionExtension::export »](reflectionextension.export.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionExtension](class.reflectionextension.html)
-    
--   Створює об'єкт класу ReflectionExtension
-    
-
+---
+navigation:
+  - reflectionextension.clone.html: '« ReflectionExtension::clone'
+  - reflectionextension.export.html: 'ReflectionExtension::export »'
+  - index.html: PHP Manual
+  - class.reflectionextension.html: ReflectionExtension
+title: 'ReflectionExtension::construct'
+---
 # ReflectionExtension::construct
 
 (PHP 5, PHP 7, PHP 8)

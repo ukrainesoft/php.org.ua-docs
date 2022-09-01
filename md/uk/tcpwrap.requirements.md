@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](tcpwrap.setup.html)
-    
--   [Установка »](tcpwrap.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](tcpwrap.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - tcpwrap.setup.html: « Встановлення та налаштування
+  - tcpwrap.installation.html: Установка »
+  - index.html: PHP Manual
+  - tcpwrap.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

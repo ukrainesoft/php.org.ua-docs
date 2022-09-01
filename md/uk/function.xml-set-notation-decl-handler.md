@@ -1,16 +1,11 @@
-Установка оброблювача оголошення умовних позначень
-
--   [« xmlsetexternalentityrefhandler](function.xml-set-external-entity-ref-handler.html)
-    
--   [xmlsetobject »](function.xml-set-object.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Установка оброблювача оголошення умовних позначень
-    
-
+---
+navigation:
+  - function.xml-set-external-entity-ref-handler.html: « xmlsetexternalentityrefhandler
+  - function.xml-set-object.html: xmlsetobject »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetnotationdeclhandler
+---
 # xmlsetnotationdeclhandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -77,6 +72,6 @@ handler(    XMLParser $parser,    string $notation_name,    string $
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

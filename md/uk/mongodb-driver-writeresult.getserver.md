@@ -1,16 +1,11 @@
-Повертає сервер, пов'язаний із цим результатом запису
-
--   [« MongoDBDriverWriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.html)
-    
--   [MongoDBDriverWriteResult::getUpsertedCount »](mongodb-driver-writeresult.getupsertedcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає сервер, пов'язаний із цим результатом запису
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getmodifiedcount.html: '« MongoDBDriverWriteResult::getModifiedCount'
+  - mongodb-driver-writeresult.getupsertedcount.html: 'MongoDBDriverWriteResult::getUpsertedCount »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getServer'
+---
 # MongoDBDriverWriteResult::getServer
 
 (mongodb >=1.0.0)

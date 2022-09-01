@@ -1,16 +1,11 @@
-Перевіряє, чи є клас вбудованим у модуль чи ядро
-
--   [« ReflectionClass::isInterface](reflectionclass.isinterface.md)
-    
--   [ReflectionClass::isIterable »](reflectionclass.isiterable.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи є клас вбудованим у модуль чи ядро
-    
-
+---
+navigation:
+  - reflectionclass.isinterface.md: '« ReflectionClass::isInterface'
+  - reflectionclass.isiterable.md: 'ReflectionClass::isIterable »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isInternal'
+---
 # ReflectionClass::isInternal
 
 (PHP 5, PHP 7, PHP 8)

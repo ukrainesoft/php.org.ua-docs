@@ -1,16 +1,11 @@
-Чекає на блокування читання
-
--   [« SyncReaderWriter::construct](syncreaderwriter.construct.md)
-    
--   [SyncReaderWriter::readunlock »](syncreaderwriter.readunlock.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncReaderWriter](class.syncreaderwriter.md)
-    
--   Чекає на блокування читання
-    
-
+---
+navigation:
+  - syncreaderwriter.construct.md: '« SyncReaderWriter::construct'
+  - syncreaderwriter.readunlock.md: 'SyncReaderWriter::readunlock »'
+  - index.md: PHP Manual
+  - class.syncreaderwriter.md: SyncReaderWriter
+title: 'SyncReaderWriter::readlock'
+---
 # SyncReaderWriter::readlock
 
 (PECL sync >= 1.0.0)

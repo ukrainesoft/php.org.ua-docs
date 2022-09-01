@@ -1,16 +1,11 @@
-Встановлює формат певного зображення
-
--   [« Gmagick::setimagefilename](gmagick.setimagefilename.html)
-    
--   [Gmagick::setimagegamma »](gmagick.setimagegamma.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Встановлює формат певного зображення
-    
-
+---
+navigation:
+  - gmagick.setimagefilename.html: '« Gmagick::setimagefilename'
+  - gmagick.setimagegamma.html: 'Gmagick::setimagegamma »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::setimageformat'
+---
 # Gmagick::setimageformat
 
 (PECL gmagick >= Unknown)

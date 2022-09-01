@@ -1,16 +1,11 @@
-Отримує від XML-аналізатора номер поточного стовпця
-
--   [« xmlgetcurrentbyteindex](function.xml-get-current-byte-index.html)
-    
--   [xmlgetcurrentlinenumber »](function.xml-get-current-line-number.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Отримує від XML-аналізатора номер поточного стовпця
-    
-
+---
+navigation:
+  - function.xml-get-current-byte-index.html: « xmlgetcurrentbyteindex
+  - function.xml-get-current-line-number.html: xmlgetcurrentlinenumber »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlgetcurrentcolumnnumber
+---
 # xmlgetcurrentcolumnnumber
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ xml_get_current_column_number(XMLParser $parser): int
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

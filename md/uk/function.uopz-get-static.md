@@ -1,16 +1,11 @@
-Повертає статичні змінні в області видимості функції або методу
-
--   [« uopzgetreturn](function.uopz-get-return.html)
-    
--   [uopzimplement »](function.uopz-implement.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Повертає статичні змінні в області видимості функції або методу
-    
-
+---
+navigation:
+  - function.uopz-get-return.html: « uopzgetreturn
+  - function.uopz-implement.html: uopzimplement »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzgetstatic
+---
 # uopzgetstatic
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

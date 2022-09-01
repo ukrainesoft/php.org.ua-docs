@@ -1,16 +1,11 @@
-Отримує наступний результат
-
--   [« Statement::construct](mysql-xdevapi-statement.construct.html)
-    
--   [Statement::getResult »](mysql-xdevapi-statement.getresult.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiStatement](class.mysql-xdevapi-statement.html)
-    
--   Отримує наступний результат
-    
-
+---
+navigation:
+  - mysql-xdevapi-statement.construct.html: '« Statement::construct'
+  - mysql-xdevapi-statement.getresult.html: 'Statement::getResult »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-statement.html: mysqlxdevapiStatement
+title: 'Statement::getNextResult'
+---
 # Statement::getNextResult
 
 (No version information available, might only be in Git)

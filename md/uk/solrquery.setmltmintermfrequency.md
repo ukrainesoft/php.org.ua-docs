@@ -1,16 +1,11 @@
-Встановлює частоту, нижче за яку вирази ігноруватимуться у вихідній документації
-
--   [« SolrQuery::setMltMinDocFrequency](solrquery.setmltmindocfrequency.html)
-    
--   [SolrQuery::setMltMinWordLength »](solrquery.setmltminwordlength.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює частоту, нижче за яку вирази ігноруватимуться у вихідній документації
-    
-
+---
+navigation:
+  - solrquery.setmltmindocfrequency.html: '« SolrQuery::setMltMinDocFrequency'
+  - solrquery.setmltminwordlength.html: 'SolrQuery::setMltMinWordLength »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setMltMinTermFrequency'
+---
 # SolrQuery::setMltMinTermFrequency
 
 (PECL solr> = 0.9.2)

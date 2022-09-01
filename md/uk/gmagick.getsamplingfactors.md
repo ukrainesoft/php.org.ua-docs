@@ -1,16 +1,11 @@
-Повертає вертикальний та горизонтальний фактор дискретизації
-
--   [« Gmagick::getreleasedate](gmagick.getreleasedate.md)
-    
--   [Gmagick::getsize »](gmagick.getsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає вертикальний та горизонтальний фактор дискретизації
-    
-
+---
+navigation:
+  - gmagick.getreleasedate.md: '« Gmagick::getreleasedate'
+  - gmagick.getsize.md: 'Gmagick::getsize »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getsamplingfactors'
+---
 # Gmagick::getsamplingfactors
 
 (PECL gmagick >= Unknown)

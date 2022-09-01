@@ -1,16 +1,11 @@
-Псевдонім ocifreestatement
-
--   [« ocifreecollection](function.ocifreecollection.md)
-    
--   [ocifreedesc »](function.ocifreedesc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocifreestatement
-    
-
+---
+navigation:
+  - function.ocifreecollection.md: « ocifreecollection
+  - function.ocifreedesc.md: ocifreedesc »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocifreecursor
+---
 # ocifreecursor
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

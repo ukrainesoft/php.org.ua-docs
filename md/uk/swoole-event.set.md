@@ -1,16 +1,11 @@
-Оновлює callback-функції події сокету
-
--   [« SwooleEvent::exit](swoole-event.exit.html)
-    
--   [SwooleEvent::wait »](swoole-event.wait.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleEvent](class.swoole-event.html)
-    
--   Оновлює callback-функції події сокету
-    
-
+---
+navigation:
+  - swoole-event.exit.html: '« SwooleEvent::exit'
+  - swoole-event.wait.html: 'SwooleEvent::wait »'
+  - index.html: PHP Manual
+  - class.swoole-event.html: SwooleEvent
+title: 'SwooleEvent::set'
+---
 # SwooleEvent::set
 
 (PECL swoole >= 1.9.0)

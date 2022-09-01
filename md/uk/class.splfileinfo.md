@@ -1,16 +1,11 @@
-Клас SplFileInfo
-
--   [« Обработка файлов](spl.files.html)
-    
--   [SplFileInfo::construct »](splfileinfo.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка файлов](spl.files.html)
-    
--   Клас SplFileInfo
-    
-
+---
+navigation:
+  - spl.files.html: « Обработка файлов
+  - splfileinfo.construct.html: 'SplFileInfo::construct »'
+  - index.html: PHP Manual
+  - spl.files.html: Обработка файлов
+title: Клас SplFileInfo
+---
 # Клас SplFileInfo
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)
@@ -72,9 +67,9 @@ public __toString(): string
 
 ## список змін
 
-| Версия | Описание                                                                |
-|--------|-------------------------------------------------------------------------|
-|        | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.html) |
 
 ## Зміст
 

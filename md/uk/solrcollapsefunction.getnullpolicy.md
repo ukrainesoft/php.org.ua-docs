@@ -1,16 +1,11 @@
-Повертає політику NULL
-
--   [« SolrCollapseFunction::getMin](solrcollapsefunction.getmin.html)
-    
--   [SolrCollapseFunction::getSize »](solrcollapsefunction.getsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
-    
--   Повертає політику NULL
-    
-
+---
+navigation:
+  - solrcollapsefunction.getmin.html: '« SolrCollapseFunction::getMin'
+  - solrcollapsefunction.getsize.html: 'SolrCollapseFunction::getSize »'
+  - index.html: PHP Manual
+  - class.solrcollapsefunction.html: SolrCollapseFunction
+title: 'SolrCollapseFunction::getNullPolicy'
+---
 # SolrCollapseFunction::getNullPolicy
 
 (PECL solr> = 2.2.0)

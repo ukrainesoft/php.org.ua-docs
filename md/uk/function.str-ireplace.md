@@ -1,16 +1,11 @@
-Реєстронезалежний варіант функції strreplace
-
--   [« strgetcsv](function.str-getcsv.html)
-    
--   [strpad »](function.str-pad.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Реєстронезалежний варіант функції strreplace
-    
-
+---
+navigation:
+  - function.str-getcsv.html: « strgetcsv
+  - function.str-pad.html: strpad »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strireplace
+---
 # strireplace
 
 (PHP 5, PHP 7, PHP 8)

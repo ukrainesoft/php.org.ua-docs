@@ -1,16 +1,11 @@
-Отримує ключ поточного елемента
-
--   [« YafConfigIni::isset](yaf-config-ini.isset.html)
-    
--   [YafConfigIni::next »](yaf-config-ini.next.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigIni](class.yaf-config-ini.html)
-    
--   Отримує ключ поточного елемента
-    
-
+---
+navigation:
+  - yaf-config-ini.isset.html: '« YafConfigIni::isset'
+  - yaf-config-ini.next.html: 'YafConfigIni::next »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.html: YafConfigIni
+title: 'YafConfigIni::key'
+---
 # YafConfigIni::key
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Повертає кількість елементів у наборі
-
--   [« QuickHashIntSet::exists](quickhashintset.exists.md)
-    
--   [QuickHashIntSet::loadFromFile »](quickhashintset.loadfromfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntSet](class.quickhashintset.md)
-    
--   Повертає кількість елементів у наборі
-    
-
+---
+navigation:
+  - quickhashintset.exists.md: '« QuickHashIntSet::exists'
+  - quickhashintset.loadfromfile.md: 'QuickHashIntSet::loadFromFile »'
+  - index.md: PHP Manual
+  - class.quickhashintset.md: QuickHashIntSet
+title: 'QuickHashIntSet::getSize'
+---
 # QuickHashIntSet::getSize
 
 (PECL quickhash >= Unknown)

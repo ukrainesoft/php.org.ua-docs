@@ -1,16 +1,11 @@
-Перевіряє, чи існує запитуваний індекс
-
--   [« SplDoublyLinkedList::next](spldoublylinkedlist.next.md)
-    
--   [SplDoublyLinkedList::offsetGet »](spldoublylinkedlist.offsetget.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Перевіряє, чи існує запитуваний індекс
-    
-
+---
+navigation:
+  - spldoublylinkedlist.next.md: '« SplDoublyLinkedList::next'
+  - spldoublylinkedlist.offsetget.md: 'SplDoublyLinkedList::offsetGet »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::offsetExists'
+---
 # SplDoublyLinkedList::offsetExists
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

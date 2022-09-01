@@ -1,16 +1,11 @@
-Клас ZMQ
-
--   [« Вимоги](zmq.requirements.md)
-    
--   [ZMQ::construct »](zmq.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обмін повідомленнями 0MQ](book.zmq.md)
-    
--   Клас ZMQ
-    
-
+---
+navigation:
+  - zmq.requirements.md: « Вимоги
+  - zmq.construct.md: 'ZMQ::construct »'
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
+title: Клас ZMQ
+---
 # Клас ZMQ
 
 (PECL zmq >= 0.5.0)

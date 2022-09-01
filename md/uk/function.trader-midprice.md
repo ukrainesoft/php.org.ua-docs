@@ -1,16 +1,11 @@
-Середня ціна за період
-
--   [« tradermidpoint](function.trader-midpoint.html)
-    
--   [tradermin »](function.trader-min.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Середня ціна за період
-    
-
+---
+navigation:
+  - function.trader-midpoint.html: « tradermidpoint
+  - function.trader-min.html: tradermin »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermidprice
+---
 # tradermidprice
 
 (PECL trader >= 0.2.0)

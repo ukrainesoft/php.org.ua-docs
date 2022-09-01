@@ -1,16 +1,11 @@
-Повертає останній SOAP-запит
-
--   [« SoapClient::getFunctions](soapclient.getfunctions.html)
-    
--   [SoapClient::getLastRequestHeaders »](soapclient.getlastrequestheaders.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapClient](class.soapclient.html)
-    
--   Повертає останній SOAP-запит
-    
-
+---
+navigation:
+  - soapclient.getfunctions.html: '« SoapClient::getFunctions'
+  - soapclient.getlastrequestheaders.html: 'SoapClient::getLastRequestHeaders »'
+  - index.html: PHP Manual
+  - class.soapclient.html: SoapClient
+title: 'SoapClient::getLastRequest'
+---
 # SoapClient::getLastRequest
 
 (PHP 5, PHP 7, PHP 8)

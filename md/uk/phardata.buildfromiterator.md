@@ -1,16 +1,11 @@
-Створення tar/zip-архіву за допомогою ітератора
-
--   [« PharData::buildFromDirectory](phardata.buildfromdirectory.md)
-    
--   [PharData::compress »](phardata.compress.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Створення tar/zip-архіву за допомогою ітератора
-    
-
+---
+navigation:
+  - phardata.buildfromdirectory.md: '« PharData::buildFromDirectory'
+  - phardata.compress.md: 'PharData::compress »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::buildFromIterator'
+---
 # PharData::buildFromIterator
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -45,10 +40,10 @@ public PharData::buildFromIterator(Traversable $iterator, ?string $baseDirectory
 
 ### список змін
 
-| Версия | Описание                                                                  |
-|--------|---------------------------------------------------------------------------|
-|        | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
-|        | `baseDirectory` тепер допускає значення null.                             |
+| Версия | Описание |
+| --- | --- |
+|  | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
+|  | `baseDirectory` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає кількість періодів застою каскаду кандидата
-
--   [« fanngetcascadecandidatelimit](function.fann-get-cascade-candidate-limit.html)
-    
--   [fanngetcascademaxcandepochs »](function.fann-get-cascade-max-cand-epochs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає кількість періодів застою каскаду кандидата
-    
-
+---
+navigation:
+  - function.fann-get-cascade-candidate-limit.html: « fanngetcascadecandidatelimit
+  - function.fann-get-cascade-max-cand-epochs.html: fanngetcascademaxcandepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadecandidatestagnationepochs
+---
 # fanngetcascadecandidatestagnationepochs
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](mongodb.requirements.md)
-    
--   [Установка драйвера PHP MongoDB с помощью PECL »](mongodb.installation.pecl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mongodb.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - mongodb.requirements.md: « Вимоги
+  - mongodb.installation.pecl.md: Установка драйвера PHP MongoDB с помощью PECL »
+  - index.md: PHP Manual
+  - mongodb.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 # Встановлення
 
 ## Зміст

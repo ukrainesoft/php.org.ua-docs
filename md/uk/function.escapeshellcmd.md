@@ -1,16 +1,11 @@
-Екранувати метасимволи командного рядка
-
--   [« escapeshellarg](function.escapeshellarg.html)
-    
--   [exec »](function.exec.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции запуска программ](ref.exec.html)
-    
--   Екранувати метасимволи командного рядка
-    
-
+---
+navigation:
+  - function.escapeshellarg.html: « escapeshellarg
+  - function.exec.html: exec »
+  - index.html: PHP Manual
+  - ref.exec.html: Функции запуска программ
+title: escapeshellcmd
+---
 # escapeshellcmd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

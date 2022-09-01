@@ -1,16 +1,11 @@
-Відповідає facet.mincount
-
--   [« SolrQuery::setFacetMethod](solrquery.setfacetmethod.html)
-    
--   [SolrQuery::setFacetMissing »](solrquery.setfacetmissing.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Відповідає facet.mincount
-    
-
+---
+navigation:
+  - solrquery.setfacetmethod.html: '« SolrQuery::setFacetMethod'
+  - solrquery.setfacetmissing.html: 'SolrQuery::setFacetMissing »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setFacetMinCount'
+---
 # SolrQuery::setFacetMinCount
 
 (PECL solr> = 0.9.2)

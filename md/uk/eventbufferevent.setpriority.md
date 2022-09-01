@@ -1,16 +1,11 @@
-Надає пріоритет bufferevent
-
--   [« EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.html)
-    
--   [EventBufferEvent::setTimeouts »](eventbufferevent.settimeouts.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Надає пріоритет bufferevent
-    
-
+---
+navigation:
+  - eventbufferevent.setcallbacks.html: '« EventBufferEvent::setCallbacks'
+  - eventbufferevent.settimeouts.html: 'EventBufferEvent::setTimeouts »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::setPriority'
+---
 # EventBufferEvent::setPriority
 
 (PECL event >= 1.2.6-beta)

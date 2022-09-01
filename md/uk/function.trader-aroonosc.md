@@ -1,16 +1,11 @@
-Осцилятор індикатора Aroon
-
--   [« traderaroon](function.trader-aroon.html)
-    
--   [traderasin »](function.trader-asin.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Осцилятор індикатора Aroon
-    
-
+---
+navigation:
+  - function.trader-aroon.html: « traderaroon
+  - function.trader-asin.html: traderasin »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderaroonosc
+---
 # traderaroonosc
 
 (PECL trader >= 0.2.0)

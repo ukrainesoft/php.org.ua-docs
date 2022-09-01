@@ -1,16 +1,11 @@
-Закриває з'єднання з сервером Oracle
-
--   [« ociclientversion](function.oci-client-version.html)
-    
--   [ocicommit »](function.oci-commit.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Закриває з'єднання з сервером Oracle
-    
-
+---
+navigation:
+  - function.oci-client-version.html: « ociclientversion
+  - function.oci-commit.html: ocicommit »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociclose
+---
 # ociclose
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

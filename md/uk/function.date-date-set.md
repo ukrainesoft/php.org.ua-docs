@@ -1,16 +1,11 @@
-Псевдонім DateTime::setDate
-
--   [« datecreate](function.date-create.html)
-    
--   [datedefaulttimezoneget »](function.date-default-timezone-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTime::setDate
-    
-
+---
+navigation:
+  - function.date-create.html: « datecreate
+  - function.date-default-timezone-get.html: datedefaulttimezoneget »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datedateset
+---
 # datedateset
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

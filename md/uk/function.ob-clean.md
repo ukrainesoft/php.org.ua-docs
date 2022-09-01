@@ -1,16 +1,11 @@
-Очистити (стерти) буфер виводу
-
--   [« flush](function.flush.md)
-    
--   [проendclean »](function.ob-end-clean.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   Очистити (стерти) буфер виводу
-    
-
+---
+navigation:
+  - function.flush.md: « flush
+  - function.ob-end-clean.html: проendclean »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проclean
+---
 # проclean
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

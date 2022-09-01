@@ -1,16 +1,11 @@
-Призначає обробнику ідентифікатор, щоб надалі мати можливість опитати всі доступні обробники
-
--   [« GearmanWorker::returnCode](gearmanworker.returncode.html)
-    
--   [GearmanWorker::setOptions »](gearmanworker.setoptions.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Призначає обробнику ідентифікатор, щоб надалі мати можливість опитати всі доступні обробники
-    
-
+---
+navigation:
+  - gearmanworker.returncode.html: '« GearmanWorker::returnCode'
+  - gearmanworker.setoptions.html: 'GearmanWorker::setOptions »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::setId'
+---
 # GearmanWorker::setId
 
 (No version information available, might only be in Git)

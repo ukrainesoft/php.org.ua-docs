@@ -1,16 +1,11 @@
-Конфігурує CCL-парсер
-
--   [« yazaddinfo](function.yaz-addinfo.html)
-    
--   [yazcclparse »](function.yaz-ccl-parse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Конфігурує CCL-парсер
-    
-
+---
+navigation:
+  - function.yaz-addinfo.html: « yazaddinfo
+  - function.yaz-ccl-parse.html: yazcclparse »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazcclconf
+---
 # yazcclconf
 
 (PHP 4> = 4.0.5, PECL yaz> = 0.9.0)

@@ -1,16 +1,11 @@
-Використання простору імен: основи
-
--   [« Опис кількох просторів імен в одному файлі](language.namespaces.definitionmultiple.html)
-    
--   [Простір імен та динамічні особливості мови »](language.namespaces.dynamic.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пространства имён](language.namespaces.html)
-    
--   Використання простору імен: основи
-    
-
+---
+navigation:
+  - language.namespaces.definitionmultiple.html: « Опис кількох просторів імен в одному файлі
+  - language.namespaces.dynamic.html: Простір імен та динамічні особливості мови »
+  - index.html: PHP Manual
+  - language.namespaces.html: Пространства имён
+title: 'Використання простору імен: основи'
+---
 ## Використання простору імен: основи
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює глибину певного каналу зображення
-
--   [« Imagick::setImageBorderColor](imagick.setimagebordercolor.md)
-    
--   [Imagick::setImageClipMask »](imagick.setimageclipmask.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює глибину певного каналу зображення
-    
-
+---
+navigation:
+  - imagick.setimagebordercolor.md: '« Imagick::setImageBorderColor'
+  - imagick.setimageclipmask.md: 'Imagick::setImageClipMask »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageChannelDepth'
+---
 # Imagick::setImageChannelDepth
 
 (PECL imagick 2, PECL imagick 3)

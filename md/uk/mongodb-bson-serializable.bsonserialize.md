@@ -1,16 +1,11 @@
-Надає масив або документ для серіалізації в BSON
-
--   [« MongoDBBSONSerializable](class.mongodb-bson-serializable.html)
-    
--   [MongoDBBSONUnserializable »](class.mongodb-bson-unserializable.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONSerializable](class.mongodb-bson-serializable.html)
-    
--   Надає масив або документ для серіалізації в BSON
-    
-
+---
+navigation:
+  - class.mongodb-bson-serializable.html: « MongoDBBSONSerializable
+  - class.mongodb-bson-unserializable.html: MongoDBBSONUnserializable »
+  - index.md: PHP Manual
+  - class.mongodb-bson-serializable.html: MongoDBBSONSerializable
+title: 'MongoDBBSONSerializable::bsonSerialize'
+---
 # MongoDBBSONSerializable::bsonSerialize
 
 (mongodb >=1.0.0)

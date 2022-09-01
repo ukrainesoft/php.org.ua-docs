@@ -1,16 +1,11 @@
-Модифікатори шаблонів
-
--   [« Продуктивність](regexp.reference.performance.md)
-    
--   [Отличия от Perl »](reference.pcre.pattern.differences.md)
-    
--   [PHP Manual](index.md)
-    
--   [Регулярні вирази PCRE](pcre.pattern.md)
-    
--   Модифікатори шаблонів
-    
-
+---
+navigation:
+  - regexp.reference.performance.md: « Продуктивність
+  - reference.pcre.pattern.differences.md: Отличия от Perl »
+  - index.md: PHP Manual
+  - pcre.pattern.md: Регулярні вирази PCRE
+title: Модифікатори шаблонів
+---
 # Модифікатори шаблонів
 
 Нижче наведено всі доступні на сьогоднішній день модифікатори. Ім'я, взяте в круглі дужки, вказує на внутрішнє PCRE-ім'я для даного модифікатора. Пробіли та переклади рядків у модифікаторах ігноруються, інші символи викликають помилки.

@@ -1,16 +1,11 @@
-Прив'язка змінних до підготовленого запиту для розміщення результату
-
--   [« mysqlistmt::bindparam](mysqli-stmt.bind-param.html)
-    
--   [mysqlistmt::close »](mysqli-stmt.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Прив'язка змінних до підготовленого запиту для розміщення результату
-    
-
+---
+navigation:
+  - mysqli-stmt.bind-param.html: '« mysqlistmt::bindparam'
+  - mysqli-stmt.close.html: 'mysqlistmt::close »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::bindresult'
+---
 # mysqlistmt::bindresult
 
 # mysqlistmtbindresult

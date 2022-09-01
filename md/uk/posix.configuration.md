@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](posix.installation.html)
-    
--   [Типи ресурсів »](posix.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](posix.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - posix.installation.html: « Установка
+  - posix.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - posix.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

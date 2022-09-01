@@ -1,16 +1,11 @@
-Чи визначає файловий дескриптор інтерактивним терміналом
-
--   [« posixinitgroups](function.posix-initgroups.html)
-    
--   [posixkill »](function.posix-kill.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Чи визначає файловий дескриптор інтерактивним терміналом
-    
-
+---
+navigation:
+  - function.posix-initgroups.html: « posixinitgroups
+  - function.posix-kill.html: posixkill »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixisatty
+---
 # posixisatty
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

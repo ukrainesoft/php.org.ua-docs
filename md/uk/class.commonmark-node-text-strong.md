@@ -1,16 +1,11 @@
-Strong успадковує CommonMarkNode
-
--   [« CommonMarkNodeText::construct](commonmark-node-text.construct.html)
-    
--   [CommonMarkNodeTextEmphasis »](class.commonmark-node-text-emphasis.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Strong успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - commonmark-node-text.construct.html: '« CommonMarkNodeText::construct'
+  - class.commonmark-node-text-emphasis.html: CommonMarkNodeTextEmphasis »
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Strong успадковує CommonMarkNode
+---
 # Strong успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

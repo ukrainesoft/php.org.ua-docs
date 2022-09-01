@@ -1,16 +1,11 @@
-Порівняє вектор
-
--   [« sodiumcryptocoreristretto255add](function.sodium-crypto-core-ristretto255-add.html)
-    
--   [sodiumcryptocoreristretto255ісvalidpoint »](function.sodium-crypto-core-ristretto255-is-valid-point.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Порівняє вектор
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-add.html: « sodiumcryptocoreristretto255add
+  - function.sodium-crypto-core-ristretto255-is-valid-point.html: sodiumcryptocoreristretto255ісvalidpoint »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptocoreristretto255fromhash
+---
 # sodiumcryptocoreristretto255fromhash
 
 (PHP 8> = 8.1.0)

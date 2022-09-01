@@ -1,16 +1,11 @@
-Впорядковує документи у розширених групах (параметр expand.sort)
-
--   [« SolrQuery::addExpandFilterQuery](solrquery.addexpandfilterquery.md)
-    
--   [SolrQuery::addFacetDateField »](solrquery.addfacetdatefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Впорядковує документи у розширених групах (параметр expand.sort)
-    
-
+---
+navigation:
+  - solrquery.addexpandfilterquery.md: '« SolrQuery::addExpandFilterQuery'
+  - solrquery.addfacetdatefield.md: 'SolrQuery::addFacetDateField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addExpandSortField'
+---
 # SolrQuery::addExpandSortField
 
 (PECL solr> = 2.2.0)

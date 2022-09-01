@@ -1,16 +1,11 @@
-Приховує цифровий водяний знак у зображенні
-
--   [« Imagick::statisticImage](imagick.statisticimage.md)
-    
--   [Imagick::stereoImage »](imagick.stereoimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Приховує цифровий водяний знак у зображенні
-    
-
+---
+navigation:
+  - imagick.statisticimage.md: '« Imagick::statisticImage'
+  - imagick.stereoimage.md: 'Imagick::stereoImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::steganoImage'
+---
 # Imagick::steganoImage
 
 (PECL imagick 2, PECL imagick 3)

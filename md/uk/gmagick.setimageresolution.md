@@ -1,16 +1,11 @@
-Встановлює роздільну здатність зображення
-
--   [« Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.md)
-    
--   [Gmagick::setimagescene »](gmagick.setimagescene.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює роздільну здатність зображення
-    
-
+---
+navigation:
+  - gmagick.setimagerenderingintent.md: '« Gmagick::setimagerenderingintent'
+  - gmagick.setimagescene.md: 'Gmagick::setimagescene »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageresolution'
+---
 # Gmagick::setimageresolution
 
 (PECL gmagick >= Unknown)

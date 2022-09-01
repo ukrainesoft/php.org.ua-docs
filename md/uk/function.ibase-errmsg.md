@@ -1,16 +1,11 @@
-Повертає повідомлення про помилку
-
--   [« ibaseerrcode](function.ibase-errcode.html)
-    
--   [ibaseexecute »](function.ibase-execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Повертає повідомлення про помилку
-    
-
+---
+navigation:
+  - function.ibase-errcode.html: « ibaseerrcode
+  - function.ibase-execute.html: ibaseexecute »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseerrmsg
+---
 # ibaseerrmsg
 
 (PHP 5, PHP 7 < 7.4.0)

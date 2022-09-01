@@ -1,16 +1,11 @@
-Повертає поточний статус сервера
-
--   [« mysqlsetcharset](function.mysql-set-charset.html)
-    
--   [mysqltablename »](function.mysql-tablename.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає поточний статус сервера
-    
-
+---
+navigation:
+  - function.mysql-set-charset.html: « mysqlsetcharset
+  - function.mysql-tablename.html: mysqltablename »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlстати
+---
 # mysqlстати
 
 (PHP 4> = 4.3.0, PHP 5)

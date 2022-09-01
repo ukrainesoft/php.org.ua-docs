@@ -1,16 +1,11 @@
-Клас TableUpdate
-
--   [« TableSelect::where](mysql-xdevapi-tableselect.where.html)
-    
--   [TableUpdate::bind »](mysql-xdevapi-tableupdate.bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас TableUpdate
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.where.html: '« TableSelect::where'
+  - mysql-xdevapi-tableupdate.bind.html: 'TableUpdate::bind »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас TableUpdate
+---
 # Клас TableUpdate
 
 (PECL mysql-xdevapi >= 8.0.11)

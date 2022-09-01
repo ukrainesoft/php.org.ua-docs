@@ -1,16 +1,11 @@
-Викликати callback-функцію consumerNonceHandler
-
--   [« OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md)
-    
--   [OAuthProvider::callTimestampNonceHandler »](oauthprovider.calltimestampnoncehandler.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Викликати callback-функцію consumerNonceHandler
-    
-
+---
+navigation:
+  - oauthprovider.addrequiredparameter.md: '« OAuthProvider::addRequiredParameter'
+  - oauthprovider.calltimestampnoncehandler.md: 'OAuthProvider::callTimestampNonceHandler »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::callconsumerHandler'
+---
 # OAuthProvider::callconsumerHandler
 
 (No version information available, might only be in Git)

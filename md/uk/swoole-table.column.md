@@ -1,16 +1,11 @@
-Встановлює тип даних та розмір стовпців
-
--   [« SwooleTable](class.swoole-table.html)
-    
--   [SwooleTable::construct »](swoole-table.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Встановлює тип даних та розмір стовпців
-    
-
+---
+navigation:
+  - class.swoole-table.html: « SwooleTable
+  - swoole-table.construct.html: 'SwooleTable::construct »'
+  - index.md: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::column'
+---
 # SwooleTable::column
 
 (PECL swoole >= 1.9.0)

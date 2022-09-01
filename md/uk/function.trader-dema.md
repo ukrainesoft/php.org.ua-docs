@@ -1,16 +1,11 @@
-Подвійна експоненційна ковзна середня
-
--   [« tradercosh](function.trader-cosh.html)
-    
--   [traderdiv »](function.trader-div.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Подвійна експоненційна ковзна середня
-    
-
+---
+navigation:
+  - function.trader-cosh.html: « tradercosh
+  - function.trader-div.html: traderdiv »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderdema
+---
 # traderdema
 
 (PECL trader >= 0.2.0)

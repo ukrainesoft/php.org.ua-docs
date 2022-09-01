@@ -1,16 +1,11 @@
-Створює новий об'єкт SyncEvent
-
--   [« SyncEvent](class.syncevent.md)
-    
--   [SyncEvent::fire »](syncevent.fire.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncEvent](class.syncevent.md)
-    
--   Створює новий об'єкт SyncEvent
-    
-
+---
+navigation:
+  - class.syncevent.md: « SyncEvent
+  - syncevent.fire.md: 'SyncEvent::fire »'
+  - index.md: PHP Manual
+  - class.syncevent.md: SyncEvent
+title: 'SyncEvent::construct'
+---
 # SyncEvent::construct
 
 (PECL sync >= 1.0.0)
@@ -77,10 +72,10 @@ $event->wait();
 
 ### список змін
 
-| Версия                     | Описание |
-|----------------------------|----------|
-| PECL sync 1.1.0            |          |
-| Доданий параметр `prefire` |          |
+| Версия | Описание |
+| --- | --- |
+| PECL sync 1.1.0 |  |
+| Доданий параметр `prefire` |  |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Отримати список зареєстрованих потоків
-
--   [« streamgettransports](function.stream-get-transports.html)
-    
--   [streamісlocal »](function.stream-is-local.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Отримати список зареєстрованих потоків
-    
-
+---
+navigation:
+  - function.stream-get-transports.html: « streamgettransports
+  - function.stream-is-local.html: streamісlocal »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamgetwrappers
+---
 # streamgetwrappers
 
 (PHP 5, PHP 7, PHP 8)

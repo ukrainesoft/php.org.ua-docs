@@ -1,16 +1,11 @@
-Повертає, чи був запис підтверджений
-
--   [« MongoDBDriverWriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.html)
-    
--   [MongoDBBSON »](book.bson.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає, чи був запис підтверджений
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getwriteerrors.html: '« MongoDBDriverWriteResult::getWriteErrors'
+  - book.bson.html: MongoDBBSON »
+  - index.html: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::isAcknowledged'
+---
 # MongoDBDriverWriteResult::isAcknowledged
 
 (mongodb >=1.0.0)

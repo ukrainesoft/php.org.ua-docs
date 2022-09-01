@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](var-representation.requirements.html)
-    
--   [Обумовлені константи »](var-representation.constants.html)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](var-representation.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - var-representation.requirements.html: « Вимоги
+  - var-representation.constants.html: Обумовлені константи »
+  - index.md: PHP Manual
+  - var-representation.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

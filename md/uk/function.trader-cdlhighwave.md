@@ -1,16 +1,11 @@
-Свічкова модель "Висока хвиля"
-
--   [« tradercdlharamicross](function.trader-cdlharamicross.html)
-    
--   [tradercdlhikkake »](function.trader-cdlhikkake.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Висока хвиля"
-    
-
+---
+navigation:
+  - function.trader-cdlharamicross.html: « tradercdlharamicross
+  - function.trader-cdlhikkake.html: tradercdlhikkake »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlhighwave
+---
 # tradercdlhighwave
 
 (PECL trader >= 0.2.0)

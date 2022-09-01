@@ -1,16 +1,11 @@
-Обчислює сходження масивів, використовуючи callback-функцію для порівняння ключів
-
--   [« arrayintersectuassoc](function.array-intersect-uassoc.html)
-    
--   [arrayintersect »](function.array-intersect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Обчислює сходження масивів, використовуючи callback-функцію для порівняння ключів
-    
-
+---
+navigation:
+  - function.array-intersect-uassoc.html: « arrayintersectuassoc
+  - function.array-intersect.html: arrayintersect »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayintersectukey
+---
 # arrayintersectukey
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

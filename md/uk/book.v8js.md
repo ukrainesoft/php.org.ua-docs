@@ -1,16 +1,11 @@
-Інтеграція V8 Javascript Engine
-
--   [« urlencode](function.urlencode.md)
-    
--   [Введение »](intro.v8js.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Інтеграція V8 Javascript Engine
-    
-
+---
+navigation:
+  - function.urlencode.md: « urlencode
+  - intro.v8js.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Інтеграція V8 Javascript Engine
+---
 # Інтеграція V8 Javascript Engine
 
 -   [Введение](intro.v8js.md)

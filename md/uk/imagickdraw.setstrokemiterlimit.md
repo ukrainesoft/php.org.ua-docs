@@ -1,16 +1,11 @@
-Задає межу зрізу обведення
-
--   [« ImagickDraw::setStrokeLineJoin](imagickdraw.setstrokelinejoin.md)
-    
--   [ImagickDraw::setStrokeOpacity »](imagickdraw.setstrokeopacity.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Задає межу зрізу обведення
-    
-
+---
+navigation:
+  - imagickdraw.setstrokelinejoin.md: '« ImagickDraw::setStrokeLineJoin'
+  - imagickdraw.setstrokeopacity.md: 'ImagickDraw::setStrokeOpacity »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setStrokeMiterLimit'
+---
 # ImagickDraw::setStrokeMiterLimit
 
 (PECL imagick 2, PECL imagick 3)

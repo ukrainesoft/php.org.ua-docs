@@ -1,16 +1,11 @@
-Встановлює ітератор пікселів на перший ряд
-
--   [« ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.html)
-    
--   [ImagickPixelIterator::setIteratorLastRow »](imagickpixeliterator.setiteratorlastrow.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
-    
--   Встановлює ітератор пікселів на перший ряд
-    
-
+---
+navigation:
+  - imagickpixeliterator.resetiterator.html: '« ImagickPixelIterator::resetIterator'
+  - imagickpixeliterator.setiteratorlastrow.html: 'ImagickPixelIterator::setIteratorLastRow »'
+  - index.html: PHP Manual
+  - class.imagickpixeliterator.html: ImagickPixelIterator
+title: 'ImagickPixelIterator::setIteratorFirstRow'
+---
 # ImagickPixelIterator::setIteratorFirstRow
 
 (PECL imagick 2, PECL imagick 3)

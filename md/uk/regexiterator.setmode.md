@@ -1,16 +1,11 @@
-Встановлення режиму роботи
-
--   [« RegexIterator::setFlags](regexiterator.setflags.html)
-    
--   [RegexIterator::setPregFlags »](regexiterator.setpregflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [RegexIterator](class.regexiterator.html)
-    
--   Встановлення режиму роботи
-    
-
+---
+navigation:
+  - regexiterator.setflags.html: '« RegexIterator::setFlags'
+  - regexiterator.setpregflags.html: 'RegexIterator::setPregFlags »'
+  - index.html: PHP Manual
+  - class.regexiterator.html: RegexIterator
+title: 'RegexIterator::setMode'
+---
 # RegexIterator::setMode
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -35,13 +30,13 @@ public RegexIterator::setMode(int $mode): void
 
 **Режими роботи [RegexIterator](class.regexiterator.html)**
 
-| значение | константа                                                                                 |
-|----------|-------------------------------------------------------------------------------------------|
-|          | [RegexIterator::MATCH](class.regexiterator.html#regexiterator.constants.match)            |
-|          | [RegexIterator::GETMATCH](class.regexiterator.html#regexiterator.constants.get-match)     |
-|          | [RegexIterator::ALLMATCHES](class.regexiterator.html#regexiterator.constants.all-matches) |
-|          | [RegexIterator::SPLIT](class.regexiterator.html#regexiterator.constants.split)            |
-|          | [RegexIterator::REPLACE](class.regexiterator.html#regexiterator.constants.replace)        |
+| значение | константа |
+| --- | --- |
+|  | [RegexIterator::MATCH](class.regexiterator.html#regexiterator.constants.match) |
+|  | [RegexIterator::GETMATCH](class.regexiterator.html#regexiterator.constants.get-match) |
+|  | [RegexIterator::ALLMATCHES](class.regexiterator.html#regexiterator.constants.all-matches) |
+|  | [RegexIterator::SPLIT](class.regexiterator.html#regexiterator.constants.split) |
+|  | [RegexIterator::REPLACE](class.regexiterator.html#regexiterator.constants.replace) |
 
 ### Значення, що повертаються
 

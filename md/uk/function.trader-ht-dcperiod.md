@@ -1,16 +1,11 @@
-Перетворення Гільберта - період домінуючого циклу
-
--   [« tradergetunstableperiod](function.trader-get-unstable-period.html)
-    
--   [traderхтdcphase »](function.trader-ht-dcphase.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Перетворення Гільберта - період домінуючого циклу
-    
-
+---
+navigation:
+  - function.trader-get-unstable-period.html: « tradergetunstableperiod
+  - function.trader-ht-dcphase.html: traderхтdcphase »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтdcperiod
+---
 # traderхтdcperiod
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Розблокує м'ютекс
-
--   [« SyncMutex::lock](syncmutex.lock.md)
-    
--   [SyncSemaphore »](class.syncsemaphore.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncMutex](class.syncmutex.md)
-    
--   Розблокує м'ютекс
-    
-
+---
+navigation:
+  - syncmutex.lock.md: '« SyncMutex::lock'
+  - class.syncsemaphore.md: SyncSemaphore »
+  - index.md: PHP Manual
+  - class.syncmutex.md: SyncMutex
+title: 'SyncMutex::unlock'
+---
 # SyncMutex::unlock
 
 (PECL sync >= 1.0.0)

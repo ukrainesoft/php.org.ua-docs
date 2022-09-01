@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Обзор](mysqlnd.overview.md)
-    
--   [Налаштування під час виконання »](mysqlnd.config.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlnd](book.mysqlnd.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - mysqlnd.overview.md: « Обзор
+  - mysqlnd.config.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - book.mysqlnd.md: Mysqlnd
+title: Встановлення
+---
 # Встановлення
 
 *Встановлення в Unix*

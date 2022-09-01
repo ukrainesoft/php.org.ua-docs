@@ -1,16 +1,11 @@
-Перевіряє, чи зашифрований запис
-
--   [« RarEntry::isDirectory](rarentry.isdirectory.html)
-    
--   [RarEntry::toString »](rarentry.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarEntry](class.rarentry.html)
-    
--   Перевіряє, чи зашифрований запис
-    
-
+---
+navigation:
+  - rarentry.isdirectory.html: '« RarEntry::isDirectory'
+  - rarentry.tostring.html: 'RarEntry::toString »'
+  - index.html: PHP Manual
+  - class.rarentry.html: RarEntry
+title: 'RarEntry::isEncrypted'
+---
 # RarEntry::isEncrypted
 
 (PECL rar >= 2.0.0)

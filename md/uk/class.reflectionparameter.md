@@ -1,16 +1,11 @@
-Клас ReflectionParameter
-
--   [« ReflectionObject::export](reflectionobject.export.html)
-    
--   [ReflectionParameter::allowsNull »](reflectionparameter.allowsnull.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionParameter
-    
-
+---
+navigation:
+  - reflectionobject.export.html: '« ReflectionObject::export'
+  - reflectionparameter.allowsnull.html: 'ReflectionParameter::allowsNull »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionParameter
+---
 # Клас ReflectionParameter
 
 (PHP 5, PHP 7, PHP 8)

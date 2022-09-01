@@ -1,16 +1,11 @@
-Перевизначає поточний домен для одного повідомлення
-
--   [« dcngettext](function.dcngettext.html)
-    
--   [dngettext »](function.dngettext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции gettext](ref.gettext.html)
-    
--   Перевизначає поточний домен для одного повідомлення
-    
-
+---
+navigation:
+  - function.dcngettext.html: « dcngettext
+  - function.dngettext.html: dngettext »
+  - index.html: PHP Manual
+  - ref.gettext.html: Функции gettext
+title: dgettext
+---
 # dgettext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перетворення відкритого ключа системи Ed25519 на відкритий ключ Curve25519
-
--   [« sodiumcryptosigndetached](function.sodium-crypto-sign-detached.html)
-    
--   [sodiumcryptosigned25519сктоcurve25519 »](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перетворення відкритого ключа системи Ed25519 на відкритий ключ Curve25519
-    
-
+---
+navigation:
+  - function.sodium-crypto-sign-detached.html: « sodiumcryptosigndetached
+  - function.sodium-crypto-sign-ed25519-sk-to-curve25519.html: sodiumcryptosigned25519сктоcurve25519 »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptosigned25519пктоcurve25519
+---
 # sodiumcryptosigned25519пктоcurve25519
 
 (PHP 7> = 7.2.0, PHP 8)

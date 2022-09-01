@@ -1,16 +1,11 @@
-Отримання унікального ідентифікатора
-
--   [« GearmanJob::status](gearmanjob.status.md)
-    
--   [GearmanJob::warning »](gearmanjob.warning.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Отримання унікального ідентифікатора
-    
-
+---
+navigation:
+  - gearmanjob.status.md: '« GearmanJob::status'
+  - gearmanjob.warning.md: 'GearmanJob::warning »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::unique'
+---
 # GearmanJob::unique
 
 (PECL gearman >= 0.5.0)

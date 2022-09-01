@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.rar.md)
-    
--   [Вимоги »](rar.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Rar](book.rar.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.rar.md: « Введение
+  - rar.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.rar.md: Rar
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

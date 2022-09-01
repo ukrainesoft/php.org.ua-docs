@@ -1,16 +1,11 @@
-Створити копію об'єкта GearmanClient
-
--   [« GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.html)
-    
--   [GearmanClient::construct »](gearmanclient.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Створити копію об'єкта GearmanClient
-    
-
+---
+navigation:
+  - gearmanclient.clearcallbacks.html: '« GearmanClient::clearCallbacks'
+  - gearmanclient.construct.html: 'GearmanClient::construct »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::clone'
+---
 # GearmanClient::clone
 
 (PECL gearman >= 0.5.0)

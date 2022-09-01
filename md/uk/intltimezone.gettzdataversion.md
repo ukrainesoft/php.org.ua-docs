@@ -1,16 +1,11 @@
-Отримати версію даних про часовий пояс, який зараз використовується в ICU
-
--   [« IntlTimeZone::getRegion](intltimezone.getregion.html)
-    
--   [IntlTimeZone::getUnknown »](intltimezone.getunknown.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Отримати версію даних про часовий пояс, який зараз використовується в ICU
-    
-
+---
+navigation:
+  - intltimezone.getregion.html: '« IntlTimeZone::getRegion'
+  - intltimezone.getunknown.html: 'IntlTimeZone::getUnknown »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::getTZDataVersion'
+---
 # IntlTimeZone::getTZDataVersion
 
 # intltzgetтцdataversion

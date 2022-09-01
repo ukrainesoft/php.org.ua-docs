@@ -1,16 +1,11 @@
-Вийняти екземпляр програми
-
--   [« YafApplication](class.yaf-application.html)
-    
--   [YafApplication::bootstrap »](yaf-application.bootstrap.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Вийняти екземпляр програми
-    
-
+---
+navigation:
+  - class.yaf-application.html: « YafApplication
+  - yaf-application.bootstrap.html: 'YafApplication::bootstrap »'
+  - index.html: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::app'
+---
 # YafApplication::app
 
 (Yaf >=1.0.0)

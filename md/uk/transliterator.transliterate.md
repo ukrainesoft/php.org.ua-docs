@@ -1,16 +1,11 @@
-Транслітерувати рядок
-
--   [« Transliterator::listIDs](transliterator.listids.md)
-    
--   [IntlBreakIterator »](class.intlbreakiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Транслітерувати рядок
-    
-
+---
+navigation:
+  - transliterator.listids.md: '« Transliterator::listIDs'
+  - class.intlbreakiterator.md: IntlBreakIterator »
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::transliterate'
+---
 # Transliterator::transliterate
 
 # transliteratortransliterate

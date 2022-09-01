@@ -1,16 +1,11 @@
-Отримати доступні місця розташування сертифікатів
-
--   [« opensslfreekey](function.openssl-free-key.html)
-    
--   [opensslgetciphermethods »](function.openssl-get-cipher-methods.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Отримати доступні місця розташування сертифікатів
-    
-
+---
+navigation:
+  - function.openssl-free-key.html: « opensslfreekey
+  - function.openssl-get-cipher-methods.html: opensslgetciphermethods »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslgetcertlocations
+---
 # opensslgetcertlocations
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

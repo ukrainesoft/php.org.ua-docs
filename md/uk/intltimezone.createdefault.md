@@ -1,16 +1,11 @@
-Створити нову копію часового поясу за промовчанням для поточного хоста
-
--   [« IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.md)
-    
--   [IntlTimeZone::createEnumeration »](intltimezone.createenumeration.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Створити нову копію часового поясу за промовчанням для поточного хоста
-    
-
+---
+navigation:
+  - intltimezone.countequivalentids.md: '« IntlTimeZone::countEquivalentIDs'
+  - intltimezone.createenumeration.md: 'IntlTimeZone::createEnumeration »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::createDefault'
+---
 # IntlTimeZone::createDefault
 
 # intltzcreatedefault

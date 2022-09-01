@@ -1,16 +1,11 @@
-Отримує ключ сортування рядка
-
--   [« Collator::getLocale](collator.getlocale.md)
-    
--   [Collator::getStrength »](collator.getstrength.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Отримує ключ сортування рядка
-    
-
+---
+navigation:
+  - collator.getlocale.md: '« Collator::getLocale'
+  - collator.getstrength.md: 'Collator::getStrength »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::getSortKey'
+---
 # Collator::getSortKey
 
 # collatorgetsortkey

@@ -1,16 +1,11 @@
-Квадратний корінь
-
--   [« sinh](function.sinh.html)
-    
--   [srand »](function.srand.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Квадратний корінь
-    
-
+---
+navigation:
+  - function.sinh.html: « sinh
+  - function.srand.html: srand »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: sqrt
+---
 # sqrt
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

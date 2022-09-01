@@ -1,16 +1,11 @@
-Регулює коефіцієнт масштабування
-
--   [« ImagickDraw::roundRectangle](imagickdraw.roundrectangle.md)
-    
--   [ImagickDraw::setClipPath »](imagickdraw.setclippath.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Регулює коефіцієнт масштабування
-    
-
+---
+navigation:
+  - imagickdraw.roundrectangle.md: '« ImagickDraw::roundRectangle'
+  - imagickdraw.setclippath.md: 'ImagickDraw::setClipPath »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::scale'
+---
 # ImagickDraw::scale
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Отримує екземпляр диспетчера
-
--   [« YafDispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.html)
-    
--   [YafDispatcher::getRequest »](yaf-dispatcher.getrequest.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Отримує екземпляр диспетчера
-    
-
+---
+navigation:
+  - yaf-dispatcher.getdefaultmodule.html: '« YafDispatcher::getDefaultModule'
+  - yaf-dispatcher.getrequest.html: 'YafDispatcher::getRequest »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::getInstance'
+---
 # YafDispatcher::getInstance
 
 (Yaf >=1.0.0)

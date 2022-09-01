@@ -1,16 +1,11 @@
-Створює новий об'єкт SyncReaderWriter
-
--   [« SyncReaderWriter](class.syncreaderwriter.md)
-    
--   [SyncReaderWriter::readlock »](syncreaderwriter.readlock.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncReaderWriter](class.syncreaderwriter.md)
-    
--   Створює новий об'єкт SyncReaderWriter
-    
-
+---
+navigation:
+  - class.syncreaderwriter.md: « SyncReaderWriter
+  - syncreaderwriter.readlock.md: 'SyncReaderWriter::readlock »'
+  - index.md: PHP Manual
+  - class.syncreaderwriter.md: SyncReaderWriter
+title: 'SyncReaderWriter::construct'
+---
 # SyncReaderWriter::construct
 
 (PECL sync >= 1.0.0)

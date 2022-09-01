@@ -1,16 +1,11 @@
-Видаляє повторювані частини зображень для оптимізації
-
--   [« Imagick::opaquePaintImage](imagick.opaquepaintimage.md)
-    
--   [Imagick::orderedPosterizeImage »](imagick.orderedposterizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Видаляє повторювані частини зображень для оптимізації
-    
-
+---
+navigation:
+  - imagick.opaquepaintimage.md: '« Imagick::opaquePaintImage'
+  - imagick.orderedposterizeimage.md: 'Imagick::orderedPosterizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::optimizeImageLayers'
+---
 # Imagick::optimizeImageLayers
 
 (PECL imagick 2, PECL imagick 3)

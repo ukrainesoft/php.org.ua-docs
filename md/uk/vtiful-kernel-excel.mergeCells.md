@@ -1,16 +1,11 @@
-Об'єднати комірки
-
--   [« VtifulKernelExcel::insertText](vtiful-kernel-excel.insertText.html)
-    
--   [VtifulKernelExcel::output »](vtiful-kernel-excel.output.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Об'єднати комірки
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.insertText.html: '« VtifulKernelExcel::insertText'
+  - vtiful-kernel-excel.output.html: 'VtifulKernelExcel::output »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::mergeCells'
+---
 # VtifulKernelExcel::mergeCells
 
 (PECL xlswriter >= 1.2.1)

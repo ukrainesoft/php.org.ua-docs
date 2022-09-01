@@ -1,16 +1,11 @@
-Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
-
--   [« pgfetchassoc](function.pg-fetch-assoc.html)
-    
--   [пгfetchresult »](function.pg-fetch-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
-    
-
+---
+navigation:
+  - function.pg-fetch-assoc.html: « pgfetchassoc
+  - function.pg-fetch-result.html: пгfetchresult »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfetchobject
+---
 # пгfetchobject
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ pg_fetch_object(    PgSql\Result $result,    ?int $row = null,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

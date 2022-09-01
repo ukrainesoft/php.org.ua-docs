@@ -1,16 +1,11 @@
-Зміна завантажувача за умовчанням для зовнішніх об'єктів
-
--   [« libxmlgetlasterror](function.libxml-get-last-error.html)
-    
--   [libxmlsetstreamscontext »](function.libxml-set-streams-context.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції libxml](ref.libxml.md)
-    
--   Зміна завантажувача за умовчанням для зовнішніх об'єктів
-    
-
+---
+navigation:
+  - function.libxml-get-last-error.html: « libxmlgetlasterror
+  - function.libxml-set-streams-context.html: libxmlsetstreamscontext »
+  - index.md: PHP Manual
+  - ref.libxml.md: Функції libxml
+title: libxmlsetexternalentityloader
+---
 # libxmlsetexternalentityloader
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

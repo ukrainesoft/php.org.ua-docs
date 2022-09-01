@@ -1,16 +1,11 @@
-Повертає код помилки WriteError
-
--   [« MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
-    
--   [MongoDBDriverWriteError::getIndex »](mongodb-driver-writeerror.getindex.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
-    
--   Повертає код помилки WriteError
-    
-
+---
+navigation:
+  - class.mongodb-driver-writeerror.html: « MongoDBDriverWriteError
+  - mongodb-driver-writeerror.getindex.html: 'MongoDBDriverWriteError::getIndex »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeerror.html: MongoDBDriverWriteError
+title: 'MongoDBDriverWriteError::getCode'
+---
 # MongoDBDriverWriteError::getCode
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Перетворює символи з поточного кодування на кодування вихідного буфера
-
--   [« iconv](function.iconv.md)
-    
--   [intl »](book.intl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции iconv](ref.iconv.md)
-    
--   Перетворює символи з поточного кодування на кодування вихідного буфера
-    
-
+---
+navigation:
+  - function.iconv.md: « iconv
+  - book.intl.md: intl »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
+title: проiconvhandler
+---
 # проiconvhandler
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

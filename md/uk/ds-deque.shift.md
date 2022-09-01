@@ -1,16 +1,11 @@
-Видаляє та повертає перше значення
-
--   [« DsDeque::set](ds-deque.set.html)
-    
--   [ДсDeque::slice »](ds-deque.slice.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Видаляє та повертає перше значення
-    
-
+---
+navigation:
+  - ds-deque.set.html: '« DsDeque::set'
+  - ds-deque.slice.html: 'ДсDeque::slice »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::shift'
+---
 # ДсDeque::shift
 
 (PECL ds >= 1.0.0)

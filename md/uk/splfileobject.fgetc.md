@@ -1,16 +1,11 @@
-Отримує символ із файлу
-
--   [« SplFileObject::fflush](splfileobject.fflush.html)
-    
--   [SplFileObject::fgetcsv »](splfileobject.fgetcsv.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Отримує символ із файлу
-    
-
+---
+navigation:
+  - splfileobject.fflush.html: '« SplFileObject::fflush'
+  - splfileobject.fgetcsv.html: 'SplFileObject::fgetcsv »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::fgetc'
+---
 # SplFileObject::fgetc
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

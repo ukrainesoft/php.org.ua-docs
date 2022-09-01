@@ -1,16 +1,11 @@
-Форматує об'єкт
-
--   [« IntlDateFormatter::format](intldateformatter.format.html)
-    
--   [IntlDateFormatter::getCalendar »](intldateformatter.getcalendar.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Форматує об'єкт
-    
-
+---
+navigation:
+  - intldateformatter.format.html: '« IntlDateFormatter::format'
+  - intldateformatter.getcalendar.html: 'IntlDateFormatter::getCalendar »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::formatObject'
+---
 # IntlDateFormatter::formatObject
 
 # datefmtformatobject

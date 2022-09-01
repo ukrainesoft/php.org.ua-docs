@@ -1,16 +1,11 @@
-Повертає поточний запис з'єднання
-
--   [« SwooleConnectionIterator::count](swoole-connection-iterator.count.html)
-    
--   [SwooleConnectionIterator::key »](swoole-connection-iterator.key.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
-    
--   Повертає поточний запис з'єднання
-    
-
+---
+navigation:
+  - swoole-connection-iterator.count.html: '« SwooleConnectionIterator::count'
+  - swoole-connection-iterator.key.html: 'SwooleConnectionIterator::key »'
+  - index.md: PHP Manual
+  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+title: 'SwooleConnectionIterator::current'
+---
 # SwooleConnectionIterator::current
 
 (PECL swoole >= 1.9.0)

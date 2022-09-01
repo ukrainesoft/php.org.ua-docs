@@ -1,16 +1,11 @@
-Встановлює колір межі анотацій
-
--   [«psscale](function.ps-scale.html)
-    
--   [псsetborderdash »](function.ps-set-border-dash.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює колір межі анотацій
-    
-
+---
+navigation:
+  - function.ps-scale.html: «psscale
+  - function.ps-set-border-dash.html: псsetborderdash »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetbordercolor
+---
 # псsetbordercolor
 
 (PECL ps >= 1.1.0)

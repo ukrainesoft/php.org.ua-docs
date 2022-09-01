@@ -1,16 +1,11 @@
-Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
-
--   [« Функции DOM](ref.dom.md)
-    
--   [libxml »](book.libxml.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции DOM](ref.dom.md)
-    
--   Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
-    
-
+---
+navigation:
+  - ref.dom.md: « Функции DOM
+  - book.libxml.md: libxml »
+  - index.md: PHP Manual
+  - ref.dom.md: Функции DOM
+title: domimportsimplexml
+---
 # domimportsimplexml
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ dom_import_simplexml(object $node): DOMElement
 
 ### список змін
 
-| Версия | Описание                                                         |
-|--------|------------------------------------------------------------------|
-|        | Функція більше не повертає **`null`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`null`** у разі виникнення помилки. |
 
 ### Приклади
 

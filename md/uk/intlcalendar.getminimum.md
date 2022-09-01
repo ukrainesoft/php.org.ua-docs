@@ -1,16 +1,11 @@
-Отримує глобальне мінімальне значення поля
-
--   [« IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.html)
-    
--   [IntlCalendar::getNow »](intlcalendar.getnow.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Отримує глобальне мінімальне значення поля
-    
-
+---
+navigation:
+  - intlcalendar.getminimaldaysinfirstweek.html: '« IntlCalendar::getMinimalDaysInFirstWeek'
+  - intlcalendar.getnow.html: 'IntlCalendar::getNow »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::getMinimum'
+---
 # IntlCalendar::getMinimum
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

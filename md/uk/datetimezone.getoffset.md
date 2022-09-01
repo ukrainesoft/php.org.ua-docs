@@ -1,16 +1,11 @@
-Повертає усунення часового поясу від UTC (GMT)
-
--   [« DateTimeZone::getName](datetimezone.getname.html)
-    
--   [DateTimeZone::getTransitions »](datetimezone.gettransitions.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeZone](class.datetimezone.html)
-    
--   Повертає усунення часового поясу від UTC (GMT)
-    
-
+---
+navigation:
+  - datetimezone.getname.html: '« DateTimeZone::getName'
+  - datetimezone.gettransitions.html: 'DateTimeZone::getTransitions »'
+  - index.html: PHP Manual
+  - class.datetimezone.html: DateTimeZone
+title: 'DateTimeZone::getOffset'
+---
 # DateTimeZone::getOffset
 
 # timezoneoffsetget
@@ -51,9 +46,9 @@ DateTime, що містить дату/час, щодо яких обчислю�
 
 ### список змін
 
-| Версия | Описание                                                          |
-|--------|-------------------------------------------------------------------|
-|        | До цієї версії, у разі виникнення помилки поверталося **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Додає сервер імен до бази DNS
-
--   [« EventDnsBase](class.eventdnsbase.html)
-    
--   [EventDnsBase::addSearch »](eventdnsbase.addsearch.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventDnsBase](class.eventdnsbase.html)
-    
--   Додає сервер імен до бази DNS
-    
-
+---
+navigation:
+  - class.eventdnsbase.html: « EventDnsBase
+  - eventdnsbase.addsearch.html: 'EventDnsBase::addSearch »'
+  - index.html: PHP Manual
+  - class.eventdnsbase.html: EventDnsBase
+title: 'EventDnsBase::addNameserverIp'
+---
 # EventDnsBase::addNameserverIp
 
 (PECL event >= 1.2.6-beta)

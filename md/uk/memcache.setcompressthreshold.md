@@ -1,16 +1,11 @@
-Увімкнути автоматичний стиск для великих значень
-
--   [« Memcache::set](memcache.set.html)
-    
--   [Memcache::setServerParams »](memcache.setserverparams.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Увімкнути автоматичний стиск для великих значень
-    
-
+---
+navigation:
+  - memcache.set.html: '« Memcache::set'
+  - memcache.setserverparams.html: 'Memcache::setServerParams »'
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::setCompressThreshold'
+---
 # Memcache::setCompressThreshold
 
 (PECL memcache >= 2.0.0)

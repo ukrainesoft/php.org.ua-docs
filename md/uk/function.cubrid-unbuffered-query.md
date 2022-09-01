@@ -1,16 +1,11 @@
-Виконання запиту без завантаження результату на згадку
-
--   [« cubridresult](function.cubrid-result.html)
-    
--   [Застарілі псевдоніми та функції CUBRID »](oldaliases.cubrid.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Виконання запиту без завантаження результату на згадку
-    
-
+---
+navigation:
+  - function.cubrid-result.html: « cubridresult
+  - oldaliases.cubrid.html: Застарілі псевдоніми та функції CUBRID »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridunbufferedquery
+---
 # cubridunbufferedquery
 
 (PECL CUBRID >= 8.3.0)

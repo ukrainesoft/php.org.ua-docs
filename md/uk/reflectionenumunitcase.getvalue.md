@@ -1,16 +1,11 @@
-Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
-
--   [« ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.html)
-    
--   [ReflectionEnumBackedCase »](class.reflectionenumbackedcase.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html)
-    
--   Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
-    
-
+---
+navigation:
+  - reflectionenumunitcase.getenum.html: '« ReflectionEnumUnitCase::getEnum'
+  - class.reflectionenumbackedcase.html: ReflectionEnumBackedCase »
+  - index.html: PHP Manual
+  - class.reflectionenumunitcase.html: ReflectionEnumUnitCase
+title: 'ReflectionEnumUnitCase::getValue'
+---
 # ReflectionEnumUnitCase::getValue
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Повертає всі об'єкти, включаючи їхній ідентифікатор
-
--   [« snmpgetnext](function.snmpgetnext.html)
-    
--   [snmpset »](function.snmpset.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Повертає всі об'єкти, включаючи їхній ідентифікатор
-    
-
+---
+navigation:
+  - function.snmpgetnext.html: « snmpgetnext
+  - function.snmpset.html: snmpset »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmprealwalk
+---
 # snmprealwalk
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

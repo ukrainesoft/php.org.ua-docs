@@ -1,16 +1,11 @@
-Додати елемент із зазначеним ключем
-
--   [« Memcache](class.memcache.md)
-    
--   [Memcache::addServer »](memcache.addserver.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Додати елемент із зазначеним ключем
-    
-
+---
+navigation:
+  - class.memcache.md: « Memcache
+  - memcache.addserver.md: 'Memcache::addServer »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::add'
+---
 # Memcache::add
 
 (PECL memcache >= 0.2.0)

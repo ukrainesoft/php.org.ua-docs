@@ -1,16 +1,11 @@
-Повертає клас, в рамках якого було оголошено замикання
-
--   [« ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.html)
-    
--   [ReflectionFunctionAbstract::getClosureThis »](reflectionfunctionabstract.getclosurethis.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Повертає клас, в рамках якого було оголошено замикання
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getattributes.html: '« ReflectionFunctionAbstract::getAttributes'
+  - reflectionfunctionabstract.getclosurethis.html: 'ReflectionFunctionAbstract::getClosureThis »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getClosureScopeClass'
+---
 # ReflectionFunctionAbstract::getClosureScopeClass
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

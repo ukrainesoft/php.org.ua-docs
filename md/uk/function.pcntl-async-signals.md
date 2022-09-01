@@ -1,16 +1,11 @@
-Увімкнути/вимкнути асинхронну обробку сигналів або отримати поточний статус
-
--   [pcntlalarm](function.pcntl-alarm.html)
-    
--   [pcntlerrno »](function.pcntl-errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Увімкнути/вимкнути асинхронну обробку сигналів або отримати поточний статус
-    
-
+---
+navigation:
+  - function.pcntl-alarm.html: pcntlalarm
+  - function.pcntl-errno.html: pcntlerrno »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlasyncsignals
+---
 # pcntlasyncsignals
 
 (PHP 7> = 7.1.0, PHP 8)
@@ -37,9 +32,9 @@ pcntl_async_signals(?bool $enable = null): bool
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `enable` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `enable` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Повертає різницю між двома об'єктами DateTime
-
--   [« DateTimeInterface](class.datetimeinterface.md)
-    
--   [DateTimeInterface::format »](datetime.format.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeInterface](class.datetimeinterface.md)
-    
--   Повертає різницю між двома об'єктами DateTime
-    
-
+---
+navigation:
+  - class.datetimeinterface.md: « DateTimeInterface
+  - datetime.format.md: 'DateTimeInterface::format »'
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
+title: 'DateTimeInterface::diff'
+---
 # DateTimeInterface::diff
 
 # DateTimeImmutable::diff

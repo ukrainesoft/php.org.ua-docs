@@ -1,16 +1,11 @@
-Вступ
-
--   [« FileInfo](book.fileinfo.html)
-    
--   [Встановлення та налаштування »](fileinfo.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [FileInfo](book.fileinfo.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.fileinfo.html: « FileInfo
+  - fileinfo.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.fileinfo.html: FileInfo
+title: Вступ
+---
 # Вступ
 
 Функції в цьому модулі намагаються визначити тип вмісту та кодування файлу, ґрунтуючись на деяких *магічних* послідовності байт на певних позиціях у файлі. Поки що цей підхід не є абсолютно надійним, проте евристика непогано справляється зі своєю роботою.

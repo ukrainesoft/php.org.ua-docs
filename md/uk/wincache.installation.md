@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](wincache.requirements.md)
-    
--   [Налаштування під час виконання »](wincache.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](wincache.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - wincache.requirements.md: « Вимоги
+  - wincache.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - wincache.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

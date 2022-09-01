@@ -1,16 +1,11 @@
-Повертає все або деяке підмножина ключів масиву
-
--   [« arraykeylast](function.array-key-last.html)
-    
--   [arraymap »](function.array-map.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Повертає все або деяке підмножина ключів масиву
-    
-
+---
+navigation:
+  - function.array-key-last.html: « arraykeylast
+  - function.array-map.html: arraymap »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraykeys
+---
 # arraykeys
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перехід до заданого рядка в результуючому наборі
-
--   [« mysqlistmt::construct](mysqli-stmt.construct.html)
-    
--   [mysqlistmt::$errno »](mysqli-stmt.errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Перехід до заданого рядка в результуючому наборі
-    
-
+---
+navigation:
+  - mysqli-stmt.construct.html: '« mysqlistmt::construct'
+  - mysqli-stmt.errno.html: 'mysqlistmt::$errno »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::dataseek'
+---
 # mysqlistmt::dataseek
 
 # mysqlistmtdataseek

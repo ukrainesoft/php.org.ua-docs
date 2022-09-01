@@ -1,16 +1,11 @@
-Видаляє всі значення
-
--   [« DsVector::capacity](ds-vector.capacity.html)
-    
--   [ДсVector::construct »](ds-vector.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Видаляє всі значення
-    
-
+---
+navigation:
+  - ds-vector.capacity.html: '« DsVector::capacity'
+  - ds-vector.construct.html: 'ДсVector::construct »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::clear'
+---
 # ДсVector::clear
 
 (PECL ds >= 1.0.0)

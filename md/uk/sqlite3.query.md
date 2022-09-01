@@ -1,16 +1,11 @@
-Виконує SQL-запит
-
--   [« SQLite3::prepare](sqlite3.prepare.md)
-    
--   [SQLite3::querySingle »](sqlite3.querysingle.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Виконує SQL-запит
-    
-
+---
+navigation:
+  - sqlite3.prepare.md: '« SQLite3::prepare'
+  - sqlite3.querysingle.md: 'SQLite3::querySingle »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::query'
+---
 # SQLite3::query
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Обробник wakeup
-
--   [« DateTimeInterface::getTimezone](datetime.gettimezone.html)
-    
--   [DateTimeZone »](class.datetimezone.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeInterface](class.datetimeinterface.html)
-    
--   Обробник wakeup
-    
-
+---
+navigation:
+  - datetime.gettimezone.html: '« DateTimeInterface::getTimezone'
+  - class.datetimezone.html: DateTimeZone »
+  - index.html: PHP Manual
+  - class.datetimeinterface.html: DateTimeInterface
+title: 'DateTime::wakeup'
+---
 # DateTime::wakeup
 
 # DateTimeImmutable::wakeup

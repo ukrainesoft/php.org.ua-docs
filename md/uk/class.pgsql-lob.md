@@ -1,16 +1,11 @@
-Клас PgSqlЛоб
-
--   [« PgSqlResult](class.pgsql-result.html)
-    
--   [SQLite3 »](book.sqlite3.html)
-    
--   [PHP Manual](index.html)
-    
--   [PostgreSQL](book.pgsql.html)
-    
--   Клас PgSqlЛоб
-    
-
+---
+navigation:
+  - class.pgsql-result.html: « PgSqlResult
+  - book.sqlite3.html: SQLite3 »
+  - index.html: PHP Manual
+  - book.pgsql.html: PostgreSQL
+title: Клас PgSqlЛоб
+---
 # Клас PgSqlЛоб
 
 (PHP 8> = 8.1.0)

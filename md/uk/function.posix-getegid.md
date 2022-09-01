@@ -1,16 +1,11 @@
-Повертає ефективний ідентифікатор групи поточного процесу EGID
-
--   [« posixgetcwd](function.posix-getcwd.html)
-    
--   [posixgeteuid »](function.posix-geteuid.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Повертає ефективний ідентифікатор групи поточного процесу EGID
-    
-
+---
+navigation:
+  - function.posix-getcwd.html: « posixgetcwd
+  - function.posix-geteuid.html: posixgeteuid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetegid
+---
 # posixgetegid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

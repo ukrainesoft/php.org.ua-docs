@@ -1,16 +1,11 @@
-Встановлює зовнішній вигляд пунктирної лінії
-
--   [«pssetcolor](function.ps-setcolor.html)
-    
--   [псsetflat »](function.ps-setflat.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює зовнішній вигляд пунктирної лінії
-    
-
+---
+navigation:
+  - function.ps-setcolor.html: «pssetcolor
+  - function.ps-setflat.html: псsetflat »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetdash
+---
 # псsetdash
 
 (PECL ps >= 1.1.0)

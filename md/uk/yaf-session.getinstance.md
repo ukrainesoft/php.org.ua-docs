@@ -1,16 +1,11 @@
-Призначення getInstance
-
--   [« YafSession::get](yaf-session.get.html)
-    
--   [YafSession::has »](yaf-session.has.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення getInstance
-    
-
+---
+navigation:
+  - yaf-session.get.html: '« YafSession::get'
+  - yaf-session.has.html: 'YafSession::has »'
+  - index.html: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::getInstance'
+---
 # YafSession::getInstance
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Інтерфейс Iterator
-
--   [« Traversable](class.traversable.md)
-    
--   [Iterator::current »](iterator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-    
--   Інтерфейс Iterator
-    
-
+---
+navigation:
+  - class.traversable.md: « Traversable
+  - iterator.current.md: 'Iterator::current »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Інтерфейс Iterator
+---
 # Інтерфейс Iterator
 
 (PHP 5, PHP 7, PHP 8)

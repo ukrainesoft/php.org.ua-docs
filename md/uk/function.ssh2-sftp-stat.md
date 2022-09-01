@@ -1,16 +1,11 @@
-Інформація про файл
-
--   [« ssh2sftprmdir](function.ssh2-sftp-rmdir.html)
-    
--   [ssh2sftpsymlink »](function.ssh2-sftp-symlink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Інформація про файл
-    
-
+---
+navigation:
+  - function.ssh2-sftp-rmdir.html: « ssh2sftprmdir
+  - function.ssh2-sftp-symlink.html: ssh2sftpsymlink »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftpстати
+---
 # ssh2sftpстати
 
 (PECL ssh2> = 0.9.0)

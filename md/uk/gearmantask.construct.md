@@ -1,16 +1,11 @@
-Створює об'єкт GearmanTask
-
--   [« GearmanTask](class.gearmantask.md)
-    
--   [GearmanTask::create »](gearmantask.create.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Створює об'єкт GearmanTask
-    
-
+---
+navigation:
+  - class.gearmantask.md: « GearmanTask
+  - gearmantask.create.md: 'GearmanTask::create »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::construct'
+---
 # GearmanTask::construct
 
 (PECL gearman >= 0.5.0)

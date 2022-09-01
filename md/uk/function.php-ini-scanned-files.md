@@ -1,16 +1,11 @@
-Повертає список .ini-файлів, знайдених у додатковій ini-директорії
-
--   [« phpiniloadedfile](function.php-ini-loaded-file.html)
-    
--   [phpsapiname »](function.php-sapi-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Повертає список .ini-файлів, знайдених у додатковій ini-директорії
-    
-
+---
+navigation:
+  - function.php-ini-loaded-file.html: « phpiniloadedfile
+  - function.php-sapi-name.html: phpsapiname »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: phpiniscannedfiles
+---
 # phpiniscannedfiles
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

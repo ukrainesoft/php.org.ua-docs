@@ -1,16 +1,11 @@
-Витягти рядок із результуючого набору у вигляді індексованого масиву
-
--   [« cubridfetchobject](function.cubrid-fetch-object.html)
-    
--   [cubridfieldflags »](function.cubrid-field-flags.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Витягти рядок із результуючого набору у вигляді індексованого масиву
-    
-
+---
+navigation:
+  - function.cubrid-fetch-object.html: « cubridfetchobject
+  - function.cubrid-field-flags.html: cubridfieldflags »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfetchrow
+---
 # cubridfetchrow
 
 (PECL CUBRID >= 8.3.0)

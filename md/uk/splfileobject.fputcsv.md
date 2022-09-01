@@ -1,16 +1,11 @@
-Записати масив полів у вигляді рядка CSV
-
--   [« SplFileObject::fpassthru](splfileobject.fpassthru.html)
-    
--   [SplFileObject::fread »](splfileobject.fread.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Записати масив полів у вигляді рядка CSV
-    
-
+---
+navigation:
+  - splfileobject.fpassthru.html: '« SplFileObject::fpassthru'
+  - splfileobject.fread.html: 'SplFileObject::fread »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::fputcsv'
+---
 # SplFileObject::fputcsv
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)
@@ -63,10 +58,10 @@ public SplFileObject::fputcsv(    array $fields,    string $separator = 
 
 ### список змін
 
-| Версия | Описание                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------|
-|        | Додано необов'язковий параметр `eol`                                                                     |
-|        | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано необов'язковий параметр `eol` |
+|  | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
 
 ### Приклади
 

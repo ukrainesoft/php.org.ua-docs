@@ -1,16 +1,11 @@
-Перевіряє, чи допустимо тег для повідомлення
-
--   [« sodiumcryptoauthkeygen](function.sodium-crypto-auth-keygen.html)
-    
--   [sodiumcryptoauth »](function.sodium-crypto-auth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перевіряє, чи допустимо тег для повідомлення
-    
-
+---
+navigation:
+  - function.sodium-crypto-auth-keygen.html: « sodiumcryptoauthkeygen
+  - function.sodium-crypto-auth.html: sodiumcryptoauth »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoauthverify
+---
 # sodiumcryptoauthverify
 
 (PHP 7> = 7.2.0, PHP 8)

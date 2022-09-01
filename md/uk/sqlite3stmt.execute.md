@@ -1,16 +1,11 @@
-Виконує підготовлений запит та повертає об'єкт із результуючим набором
-
--   [« SQLite3Stmt::construct](sqlite3stmt.construct.md)
-    
--   [SQLite3Stmt::getSQL »](sqlite3stmt.getsql.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Stmt](class.sqlite3stmt.md)
-    
--   Виконує підготовлений запит та повертає об'єкт із результуючим набором
-    
-
+---
+navigation:
+  - sqlite3stmt.construct.md: '« SQLite3Stmt::construct'
+  - sqlite3stmt.getsql.md: 'SQLite3Stmt::getSQL »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::execute'
+---
 # SQLite3Stmt::execute
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

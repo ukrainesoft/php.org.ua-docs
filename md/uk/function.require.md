@@ -1,16 +1,11 @@
-require
-
--   [« return](function.return.html)
-    
--   [include »](function.include.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   require
-    
-
+---
+navigation:
+  - function.return.html: « return
+  - function.include.html: include »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: require
+---
 ## require
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

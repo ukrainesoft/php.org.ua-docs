@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineClient::isConnected](swoole-coroutine-client.isconnected.html)
-    
--   [SwooleCoroutineClient::send »](swoole-coroutine-client.send.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-client.isconnected.html: '« SwooleCoroutineClient::isConnected'
+  - swoole-coroutine-client.send.html: 'SwooleCoroutineClient::send »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineClient::recv'
+---
 # SwooleCoroutineClient::recv
 
 (PECL swoole >= 2.0.0)

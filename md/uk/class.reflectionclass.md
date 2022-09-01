@@ -1,16 +1,11 @@
-Клас ReflectionClass
-
--   [« Reflection::getModifierNames](reflection.getmodifiernames.md)
-    
--   [ReflectionClass::construct »](reflectionclass.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionClass
-    
-
+---
+navigation:
+  - reflection.getmodifiernames.md: '« Reflection::getModifierNames'
+  - reflectionclass.construct.md: 'ReflectionClass::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionClass
+---
 # Клас ReflectionClass
 
 (PHP 5, PHP 7, PHP 8)

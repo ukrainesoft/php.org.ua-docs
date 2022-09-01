@@ -1,16 +1,11 @@
-Отримує тип XML-RPC для значення PHP
-
--   [« xmlrpcencode](function.xmlrpc-encode.html)
-    
--   [xmlrpcісfault »](function.xmlrpc-is-fault.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції XML-RPC](ref.xmlrpc.html)
-    
--   Отримує тип XML-RPC для значення PHP
-    
-
+---
+navigation:
+  - function.xmlrpc-encode.html: « xmlrpcencode
+  - function.xmlrpc-is-fault.html: xmlrpcісfault »
+  - index.html: PHP Manual
+  - ref.xmlrpc.html: Функції XML-RPC
+title: xmlrpcgettype
+---
 # xmlrpcgettype
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

@@ -1,16 +1,11 @@
-Запуск усіх зареєстрованих викликів
-
--   [« YarConcurrentClient::call](yar-concurrent-client.call.html)
-    
--   [YarConcurrentClient::reset »](yar-concurrent-client.reset.html)
-    
--   [PHP Manual](index.md)
-    
--   [YarConcurrentClient](class.yar-concurrent-client.html)
-    
--   Запуск усіх зареєстрованих викликів
-    
-
+---
+navigation:
+  - yar-concurrent-client.call.html: '« YarConcurrentClient::call'
+  - yar-concurrent-client.reset.html: 'YarConcurrentClient::reset »'
+  - index.md: PHP Manual
+  - class.yar-concurrent-client.html: YarConcurrentClient
+title: 'YarConcurrentClient::loop'
+---
 # YarConcurrentClient::loop
 
 (PECL yar >= 1.0.0)

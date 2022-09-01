@@ -1,16 +1,11 @@
-Квадратний корінь із залишком
-
--   [« gmpsqrt](function.gmp-sqrt.html)
-    
--   [gmpstrval »](function.gmp-strval.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Квадратний корінь із залишком
-    
-
+---
+navigation:
+  - function.gmp-sqrt.html: « gmpsqrt
+  - function.gmp-strval.html: gmpstrval »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpsqrtrem
+---
 # gmpsqrtrem
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

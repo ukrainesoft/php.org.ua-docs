@@ -1,16 +1,11 @@
-Прибрати всі точки переривання
-
--   [« phpdbgbreaknext](function.phpdbg-break-next.html)
-    
--   [phpdbgcolor »](function.phpdbg-color.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Прибрати всі точки переривання
-    
-
+---
+navigation:
+  - function.phpdbg-break-next.html: « phpdbgbreaknext
+  - function.phpdbg-color.html: phpdbgcolor »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgclear
+---
 # phpdbgclear
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Закриває з'єднання з сервером MySQL
-
--   [« mysqlclientencoding](function.mysql-client-encoding.html)
-    
--   [mysqlconnect »](function.mysql-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Закриває з'єднання з сервером MySQL
-    
-
+---
+navigation:
+  - function.mysql-client-encoding.html: « mysqlclientencoding
+  - function.mysql-connect.html: mysqlconnect »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlclose
+---
 # mysqlclose
 
 (PHP 4, PHP 5)

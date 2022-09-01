@@ -1,16 +1,11 @@
-Застосувати зміни до документа XML
-
--   [« XMLDiffFile::diff](xmldiff-file.diff.html)
-    
--   [Разбор XML »](book.xml.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiffFile](class.xmldiff-file.html)
-    
--   Застосувати зміни до документа XML
-    
-
+---
+navigation:
+  - xmldiff-file.diff.html: '« XMLDiffFile::diff'
+  - book.xml.md: Разбор XML »
+  - index.md: PHP Manual
+  - class.xmldiff-file.html: XMLDiffFile
+title: 'XMLDiffFile::merge'
+---
 # XMLDiffFile::merge
 
 (PECL xmldiff >= 0.8.0)

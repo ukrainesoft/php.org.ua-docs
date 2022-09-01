@@ -1,16 +1,11 @@
-Отримання частини рядка
-
--   [« mbstrsplit](function.mb-str-split.html)
-    
--   [мбstrimwidth »](function.mb-strimwidth.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Отримання частини рядка
-    
-
+---
+navigation:
+  - function.mb-str-split.html: « mbstrsplit
+  - function.mb-strimwidth.html: мбstrimwidth »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrcut
+---
 # мбstrcut
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ mb_strcut(    string $string,    int $start,    ?int $length = null,
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

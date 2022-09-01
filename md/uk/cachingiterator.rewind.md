@@ -1,16 +1,11 @@
-Повертає ітератор на початок
-
--   [« CachingIterator::offsetUnset](cachingiterator.offsetunset.md)
-    
--   [CachingIterator::setFlags »](cachingiterator.setflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Повертає ітератор на початок
-    
-
+---
+navigation:
+  - cachingiterator.offsetunset.md: '« CachingIterator::offsetUnset'
+  - cachingiterator.setflags.md: 'CachingIterator::setFlags »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::rewind'
+---
 # CachingIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)

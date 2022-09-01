@@ -1,16 +1,11 @@
-Надсилання HTTP-заголовка
-
--   [« headerremove](function.header-remove.html)
-    
--   [headerslist »](function.headers-list.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Надсилання HTTP-заголовка
-    
-
+---
+navigation:
+  - function.header-remove.html: « headerremove
+  - function.headers-list.html: headerslist »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: header
+---
 # header
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

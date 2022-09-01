@@ -1,16 +1,11 @@
-Перевіряє, чи порожній вектор
-
--   [« DsVector::insert](ds-vector.insert.html)
-    
--   [ДсVector::join »](ds-vector.join.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Перевіряє, чи порожній вектор
-    
-
+---
+navigation:
+  - ds-vector.insert.html: '« DsVector::insert'
+  - ds-vector.join.html: 'ДсVector::join »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::isEmpty'
+---
 # ДсVector::isEmpty
 
 (PECL ds >= 1.0.0)

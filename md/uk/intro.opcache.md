@@ -1,16 +1,11 @@
-Вступ
-
--   [« OPcache](book.opcache.md)
-    
--   [Встановлення та налаштування »](opcache.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [OPcache](book.opcache.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.opcache.md: « OPcache
+  - opcache.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.opcache.md: OPcache
+title: Вступ
+---
 # Вступ
 
 OPcache покращує продуктивність PHP шляхом збереження скомпільованого байт-коду скриптів у пам'яті, що розділяється, тим самим позбавляючи PHP від ​​необхідності завантажувати і аналізувати скрипти при кожному запиті.

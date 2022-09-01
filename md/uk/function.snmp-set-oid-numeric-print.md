@@ -1,16 +1,11 @@
-Встановлює вихідний OID
-
--   [« snmpsetenumprint](function.snmp-set-enum-print.html)
-    
--   [snmpsetoidoutputformat »](function.snmp-set-oid-output-format.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Встановлює вихідний OID
-    
-
+---
+navigation:
+  - function.snmp-set-enum-print.html: « snmpsetenumprint
+  - function.snmp-set-oid-output-format.html: snmpsetoidoutputformat »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpsetoidnumericprint
+---
 # snmpsetoidnumericprint
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

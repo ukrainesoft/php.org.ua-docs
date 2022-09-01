@@ -1,16 +1,11 @@
-Запитує наступний набір результатів із процедури, що зберігається.
-
--   [« db2lobread](function.db2-lob-read.html)
-    
--   [db2numfields »](function.db2-num-fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Запитує наступний набір результатів із процедури, що зберігається.
-    
-
+---
+navigation:
+  - function.db2-lob-read.html: « db2lobread
+  - function.db2-num-fields.html: db2numfields »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2nextresult
+---
 # db2nextresult
 
 (PECL ibmdb2> = 1.0.0)

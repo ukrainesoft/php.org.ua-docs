@@ -1,16 +1,11 @@
-Видаляє директорію
-
--   [« rewind](function.rewind.html)
-    
--   [setfilebuffer »](function.set-file-buffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Видаляє директорію
-    
-
+---
+navigation:
+  - function.rewind.html: « rewind
+  - function.set-file-buffer.html: setfilebuffer »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: rmdir
+---
 # rmdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

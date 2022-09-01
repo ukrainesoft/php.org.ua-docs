@@ -1,16 +1,11 @@
-Сортує елементи за ключами
-
--   [« ArrayIterator::key](arrayiterator.key.html)
-    
--   [ArrayIterator::natcasesort »](arrayiterator.natcasesort.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Сортує елементи за ключами
-    
-
+---
+navigation:
+  - arrayiterator.key.html: '« ArrayIterator::key'
+  - arrayiterator.natcasesort.html: 'ArrayIterator::natcasesort »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::ksort'
+---
 # ArrayIterator::ksort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

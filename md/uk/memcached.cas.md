@@ -1,16 +1,11 @@
-Порівнює та встановлює значення для запису
-
--   [« Memcached::appendByKey](memcached.appendbykey.md)
-    
--   [Memcached::casByKey »](memcached.casbykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Порівнює та встановлює значення для запису
-    
-
+---
+navigation:
+  - memcached.appendbykey.md: '« Memcached::appendByKey'
+  - memcached.casbykey.md: 'Memcached::casByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::cas'
+---
 # Memcached::cas
 
 (PECL memcached >= 0.1.0)

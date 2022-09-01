@@ -1,16 +1,11 @@
-Повертає номер початкового рядка
-
--   [« ReflectionClass::getShortName](reflectionclass.getshortname.html)
-    
--   [ReflectionClass::getStaticProperties »](reflectionclass.getstaticproperties.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає номер початкового рядка
-    
-
+---
+navigation:
+  - reflectionclass.getshortname.html: '« ReflectionClass::getShortName'
+  - reflectionclass.getstaticproperties.html: 'ReflectionClass::getStaticProperties »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getStartLine'
+---
 # ReflectionClass::getStartLine
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
-
--   [« LuaSandbox::setMemoryLimit](luasandbox.setmemorylimit.md)
-    
--   [LuaSandbox::wrapPhpFunction »](luasandbox.wrapphpfunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
-    
-
+---
+navigation:
+  - luasandbox.setmemorylimit.md: '« LuaSandbox::setMemoryLimit'
+  - luasandbox.wrapphpfunction.md: 'LuaSandbox::wrapPhpFunction »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::unpauseUsageTimer'
+---
 # LuaSandbox::unpauseUsageTimer
 
 (PECL luasandbox >= 1.4.0)

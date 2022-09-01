@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](shmop.examples.html)
-    
--   [Пам'ять, що розділяється (shared) »](ref.shmop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](shmop.examples.html)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - shmop.examples.html: « Приклади
+  - ref.shmop.html: 'Пам''ять, що розділяється (shared) »'
+  - index.html: PHP Manual
+  - shmop.examples.html: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 **Приклад #1 Огляд операцій з пам'яттю, що розділяється**

@@ -1,16 +1,11 @@
-Отримує абсолютний приведений до канонічного виду шлях
-
--   [« eioreadlink](function.eio-readlink.html)
-    
--   [eiorename »](function.eio-rename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Отримує абсолютний приведений до канонічного виду шлях
-    
-
+---
+navigation:
+  - function.eio-readlink.html: « eioreadlink
+  - function.eio-rename.html: eiorename »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiorealpath
+---
 # eiorealpath
 
 (PECL eio >= 0.0.1dev)

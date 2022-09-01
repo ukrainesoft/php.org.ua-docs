@@ -1,16 +1,11 @@
-Отримати поточну адресу, до якої прив'язаний сокет
-
--   [« EventUtil::getSocketFd](eventutil.getsocketfd.md)
-    
--   [EventUtil::setSocketOption »](eventutil.setsocketoption.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventUtil](class.eventutil.md)
-    
--   Отримати поточну адресу, до якої прив'язаний сокет
-    
-
+---
+navigation:
+  - eventutil.getsocketfd.md: '« EventUtil::getSocketFd'
+  - eventutil.setsocketoption.md: 'EventUtil::setSocketOption »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
+title: 'EventUtil::getSocketName'
+---
 # EventUtil::getSocketName
 
 (PECL event >= 1.5.0)

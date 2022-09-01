@@ -1,16 +1,11 @@
-Обчислює хеш-суму, необхідну для EZMLM
-
--   [« Почта](ref.mail.md)
-    
--   [mail »](function.mail.md)
-    
--   [PHP Manual](index.md)
-    
--   [Почта](ref.mail.md)
-    
--   Обчислює хеш-суму, необхідну для EZMLM
-    
-
+---
+navigation:
+  - ref.mail.md: « Почта
+  - function.mail.md: mail »
+  - index.md: PHP Manual
+  - ref.mail.md: Почта
+title: ezmlmhash
+---
 # ezmlmhash
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7)

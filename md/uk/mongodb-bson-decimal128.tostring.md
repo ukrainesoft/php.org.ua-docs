@@ -1,16 +1,11 @@
-Повертає рядкову виставу Decimal128
-
--   [« MongoDBBSONDecimal128::serialize](mongodb-bson-decimal128.serialize.html)
-    
--   [MongoDBBSONDecimal128::unserialize »](mongodb-bson-decimal128.unserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
-    
--   Повертає рядкову виставу Decimal128
-    
-
+---
+navigation:
+  - mongodb-bson-decimal128.serialize.html: '« MongoDBBSONDecimal128::serialize'
+  - mongodb-bson-decimal128.unserialize.html: 'MongoDBBSONDecimal128::unserialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128
+title: 'MongoDBBSONDecimal128::function toString() { \[native code\] }'
+---
 # MongoDBBSONDecimal128::function toString() { \[native code\] }
 
 (mongodb >=1.2.0)

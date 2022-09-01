@@ -1,16 +1,11 @@
-Повертає MIME-тип зображення
-
--   [« Imagick::getImageMatteColor](imagick.getimagemattecolor.html)
-    
--   [Imagick::getImageOrientation »](imagick.getimageorientation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає MIME-тип зображення
-    
-
+---
+navigation:
+  - imagick.getimagemattecolor.html: '« Imagick::getImageMatteColor'
+  - imagick.getimageorientation.html: 'Imagick::getImageOrientation »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageMimeType'
+---
 # Imagick::getImageMimeType
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

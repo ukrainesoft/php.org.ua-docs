@@ -1,16 +1,11 @@
-Видаляє та повертає останнє значення
-
--   [« DsSequence::merge](ds-sequence.merge.html)
-    
--   [ДсSequence::push »](ds-sequence.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Видаляє та повертає останнє значення
-    
-
+---
+navigation:
+  - ds-sequence.merge.html: '« DsSequence::merge'
+  - ds-sequence.push.html: 'ДсSequence::push »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::pop'
+---
 # ДсSequence::pop
 
 (PECL ds >= 1.0.0)

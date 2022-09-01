@@ -1,16 +1,11 @@
-Встановити значення
-
--   [« UIControlsSpin::onChange](ui-controls-spin.onchange.html)
-    
--   [ОЙControlsSlider »](class.ui-controls-slider.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsSpin](class.ui-controls-spin.html)
-    
--   Встановити значення
-    
-
+---
+navigation:
+  - ui-controls-spin.onchange.html: '« UIControlsSpin::onChange'
+  - class.ui-controls-slider.html: ОЙControlsSlider »
+  - index.md: PHP Manual
+  - class.ui-controls-spin.html: ОЙControlsSpin
+title: 'ОЙControlsSpin::setValue'
+---
 # ОЙControlsSpin::setValue
 
 (UI 0.9.9)

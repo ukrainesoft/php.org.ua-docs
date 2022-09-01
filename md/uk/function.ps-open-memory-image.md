@@ -1,16 +1,11 @@
-Бере зображення GD та повертає зображення для розміщення в документі PS
-
--   [«psopenimage](function.ps-open-image.html)
-    
--   [псplaceimage »](function.ps-place-image.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Бере зображення GD та повертає зображення для розміщення в документі PS
-    
-
+---
+navigation:
+  - function.ps-open-image.html: «psopenimage
+  - function.ps-place-image.html: псplaceimage »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псopenmemoryimage
+---
 # псopenmemoryimage
 
 (PECL ps >= 1.1.0)

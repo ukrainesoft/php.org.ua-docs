@@ -1,16 +1,11 @@
-Перевіряє, чи розпочато транзакцію
-
--   [« PDO::getAvailableDrivers](pdo.getavailabledrivers.md)
-    
--   [PDO::lastInsertId »](pdo.lastinsertid.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Перевіряє, чи розпочато транзакцію
-    
-
+---
+navigation:
+  - pdo.getavailabledrivers.md: '« PDO::getAvailableDrivers'
+  - pdo.lastinsertid.md: 'PDO::lastInsertId »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::inTransaction'
+---
 # PDO::inTransaction
 
 (PHP 5> = 5.3.3, Bundled pdopgsql, PHP 7, PHP 8)

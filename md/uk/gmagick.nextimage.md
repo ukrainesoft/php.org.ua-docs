@@ -1,16 +1,11 @@
-Здійснює перехід до наступного зображення
-
--   [« Gmagick::newimage](gmagick.newimage.html)
-    
--   [Gmagick::normalizeimage »](gmagick.normalizeimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Здійснює перехід до наступного зображення
-    
-
+---
+navigation:
+  - gmagick.newimage.html: '« Gmagick::newimage'
+  - gmagick.normalizeimage.html: 'Gmagick::normalizeimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::nextimage'
+---
 # Gmagick::nextimage
 
 (PECL gmagick >= Unknown)

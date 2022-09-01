@@ -1,16 +1,11 @@
-Помилки та їх обробка
-
--   [« Підготовлені запити та процедури, що зберігаються](pdo.prepared-statements.html)
-    
--   [Великі об'єкти (LOB) »](pdo.lobs.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDO](book.pdo.html)
-    
--   Помилки та їх обробка
-    
-
+---
+navigation:
+  - pdo.prepared-statements.html: '« Підготовлені запити та процедури, що зберігаються'
+  - pdo.lobs.html: Великі об'єкти (LOB) »
+  - index.html: PHP Manual
+  - book.pdo.html: PDO
+title: Помилки та їх обробка
+---
 # Помилки та їх обробка
 
 PDO пропонує вибір 3 стратегії обробки помилок в залежності від вашого стилю розробки додатків.

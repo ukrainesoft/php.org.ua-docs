@@ -1,16 +1,11 @@
-Перемалювати екран
-
--   [« readlinereadhistory](function.readline-read-history.html)
-    
--   [readlinewritehistory »](function.readline-write-history.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Readline](ref.readline.md)
-    
--   Перемалювати екран
-    
-
+---
+navigation:
+  - function.readline-read-history.html: « readlinereadhistory
+  - function.readline-write-history.html: readlinewritehistory »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlineredisplay
+---
 # readlineredisplay
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

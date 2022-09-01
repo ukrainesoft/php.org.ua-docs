@@ -1,16 +1,11 @@
-Видалити значення атрибутів із поточних атрибутів
-
--   [« ldapmodadd](function.ldap-mod-add.html)
-    
--   [ldapmoddel »](function.ldap-mod-del.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Видалити значення атрибутів із поточних атрибутів
-    
-
+---
+navigation:
+  - function.ldap-mod-add.html: « ldapmodadd
+  - function.ldap-mod-del.html: ldapmoddel »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapmoddelext
+---
 # ldapmoddelext
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -35,12 +30,12 @@ ldap_mod_del_ext(    LDAP\Connection $ldap,    string $dn,    array 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                            |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 

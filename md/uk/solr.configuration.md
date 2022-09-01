@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](solr.installation.html)
-    
--   [Типи ресурсів »](solr.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](solr.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - solr.installation.html: « Установка
+  - solr.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - solr.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

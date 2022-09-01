@@ -1,16 +1,11 @@
-Закриває дескриптор каталогу
-
--   [« Directory](class.directory.md)
-    
--   [Directory::read »](directory.read.md)
-    
--   [PHP Manual](index.md)
-    
--   [Directory](class.directory.md)
-    
--   Закриває дескриптор каталогу
-    
-
+---
+navigation:
+  - class.directory.md: « Directory
+  - directory.read.md: 'Directory::read »'
+  - index.md: PHP Manual
+  - class.directory.md: Directory
+title: 'Directory::close'
+---
 # Directory::close
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -25,6 +20,6 @@ public Directory::close(): void
 
 ### список змін
 
-| Версия | Описание                                                                              |
-|--------|---------------------------------------------------------------------------------------|
-|        | Настройки не приймаються. Раніше як аргумент можна було передати дескриптор каталогу. |
+| Версия | Описание |
+| --- | --- |
+|  | Настройки не приймаються. Раніше як аргумент можна було передати дескриптор каталогу. |

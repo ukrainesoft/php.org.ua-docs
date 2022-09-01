@@ -1,16 +1,11 @@
-Регулює водяні знаки читання та/або запису
-
--   [« EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.md)
-    
--   [EventBufferEvent::sslError »](eventbufferevent.sslerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Регулює водяні знаки читання та/або запису
-    
-
+---
+navigation:
+  - eventbufferevent.settimeouts.md: '« EventBufferEvent::setTimeouts'
+  - eventbufferevent.sslerror.md: 'EventBufferEvent::sslError »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::setWatermark'
+---
 # EventBufferEvent::setWatermark
 
 (PECL event >= 1.2.6-beta)

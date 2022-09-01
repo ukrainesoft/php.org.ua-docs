@@ -1,16 +1,11 @@
-Метадані
-
--   [« API поддержка транзакций](mysqli.quickstart.transactions.html)
-    
--   [Встановлення та налаштування »](mysqli.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Краткое руководство](mysqli.quickstart.html)
-    
--   Метадані
-    
-
+---
+navigation:
+  - mysqli.quickstart.transactions.html: « API поддержка транзакций
+  - mysqli.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - mysqli.quickstart.html: Краткое руководство
+title: Метадані
+---
 ## Метадані
 
 Результуючий набір MySQL містить метадані. Ці дані описують стовпці результуючої таблиці. Усі відомості, які передає MySQL, доступні через `mysqli` інтерфейс. Модуль не змінює отримані дані або ці зміни незначні. Відмінності між версіями MySQL також можна не брати до уваги.

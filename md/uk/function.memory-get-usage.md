@@ -1,16 +1,11 @@
-Повертає кількість пам'яті, виділену для PHP
-
--   [« memorygetpeakusage](function.memory-get-peak-usage.html)
-    
--   [phpiniloadedfile »](function.php-ini-loaded-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає кількість пам'яті, виділену для PHP
-    
-
+---
+navigation:
+  - function.memory-get-peak-usage.html: « memorygetpeakusage
+  - function.php-ini-loaded-file.html: phpiniloadedfile »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: memorygetusage
+---
 # memorygetusage
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

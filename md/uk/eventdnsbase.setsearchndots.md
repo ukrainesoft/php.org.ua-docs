@@ -1,16 +1,11 @@
-Встановлює параметр 'ndots' для пошуку
-
--   [« EventDnsBase::setOption](eventdnsbase.setoption.md)
-    
--   [EventHttp »](class.eventhttp.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventDnsBase](class.eventdnsbase.md)
-    
--   Встановлює параметр 'ndots' для пошуку
-    
-
+---
+navigation:
+  - eventdnsbase.setoption.md: '« EventDnsBase::setOption'
+  - class.eventhttp.md: EventHttp »
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::setSearchNdots'
+---
 # EventDnsBase::setSearchNdots
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Клас ReflectionMethod
-
--   [« ReflectionFunctionAbstract::toString](reflectionfunctionabstract.tostring.md)
-    
--   [ReflectionMethod::construct »](reflectionmethod.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionMethod
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.tostring.md: '« ReflectionFunctionAbstract::toString'
+  - reflectionmethod.construct.md: 'ReflectionMethod::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionMethod
+---
 # Клас ReflectionMethod
 
 (PHP 5, PHP 7, PHP 8)

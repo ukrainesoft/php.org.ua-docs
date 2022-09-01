@@ -1,16 +1,11 @@
-Масштабує зображення
-
--   [« Gmagick::resampleimage](gmagick.resampleimage.html)
-    
--   [Gmagick::rollimage »](gmagick.rollimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Масштабує зображення
-    
-
+---
+navigation:
+  - gmagick.resampleimage.html: '« Gmagick::resampleimage'
+  - gmagick.rollimage.html: 'Gmagick::rollimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::resizeimage'
+---
 # Gmagick::resizeimage
 
 (PECL gmagick >= Unknown)

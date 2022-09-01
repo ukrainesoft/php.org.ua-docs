@@ -1,16 +1,11 @@
-Отримує рядкову виставу об'єкта
-
--   [« Stringable](class.stringable.md)
-    
--   [UnitEnum »](class.unitenum.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stringable](class.stringable.md)
-    
--   Отримує рядкову виставу об'єкта
-    
-
+---
+navigation:
+  - class.stringable.md: « Stringable
+  - class.unitenum.md: UnitEnum »
+  - index.md: PHP Manual
+  - class.stringable.md: Stringable
+title: 'Stringable::toString'
+---
 # Stringable::toString
 
 (PHP 8)

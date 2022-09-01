@@ -1,16 +1,11 @@
-Повертає позицію і довжину ділянки багатобайтового рядка, що збіглася з регулярним виразом.
-
--   [« mberegsearchinit](function.mb-ereg-search-init.html)
-    
--   [мбeregsearchregs »](function.mb-ereg-search-regs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Повертає позицію і довжину ділянки багатобайтового рядка, що збіглася з регулярним виразом.
-    
-
+---
+navigation:
+  - function.mb-ereg-search-init.html: « mberegsearchinit
+  - function.mb-ereg-search-regs.html: мбeregsearchregs »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбeregsearchpos
+---
 # мбeregsearchpos
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ mb_ereg_search_pos(?string $pattern = null, ?string $options = null): array|fals
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `pattern` і `options` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `pattern` і `options` тепер допускають значення null. |
 
 ### Примітки
 

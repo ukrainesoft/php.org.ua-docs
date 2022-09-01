@@ -1,16 +1,11 @@
-Повертає ім'я інтернет-провайдера (ISP)
-
--   [« geoipідбname](function.geoip-id-by-name.html)
-    
--   [geoipnetspeedcellбname »](function.geoip-netspeedcell-by-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции GeoIP](ref.geoip.html)
-    
--   Повертає ім'я інтернет-провайдера (ISP)
-    
-
+---
+navigation:
+  - function.geoip-id-by-name.html: « geoipідбname
+  - function.geoip-netspeedcell-by-name.html: geoipnetspeedcellбname »
+  - index.html: PHP Manual
+  - ref.geoip.html: Функции GeoIP
+title: geoipispбname
+---
 # geoipispбname
 
 (PECL geoip >= 1.0.2)

@@ -1,16 +1,11 @@
-Застосовує радіальне розмиття до зображення
-
--   [« Gmagick::queryformats](gmagick.queryformats.md)
-    
--   [Gmagick::raiseimage »](gmagick.raiseimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Застосовує радіальне розмиття до зображення
-    
-
+---
+navigation:
+  - gmagick.queryformats.md: '« Gmagick::queryformats'
+  - gmagick.raiseimage.md: 'Gmagick::raiseimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::radialblurimage'
+---
 # Gmagick::radialblurimage
 
 (PECL gmagick >= Unknown)

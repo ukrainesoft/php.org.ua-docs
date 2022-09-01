@@ -1,16 +1,11 @@
-Заповнити область пам'яті
-
--   [« FFI::memcpy](ffi.memcpy.html)
-    
--   [FFI::new »](ffi.new.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Заповнити область пам'яті
-    
-
+---
+navigation:
+  - ffi.memcpy.html: '« FFI::memcpy'
+  - ffi.new.html: 'FFI::new »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::memset'
+---
 # FFI::memset
 
 (PHP 7> = 7.4.0, PHP 8)

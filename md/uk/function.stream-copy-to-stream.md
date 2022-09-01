@@ -1,16 +1,11 @@
-Копіює дані з одного потоку до іншого
-
--   [« streamcontextsetparams](function.stream-context-set-params.html)
-    
--   [streamfilterappend »](function.stream-filter-append.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Копіює дані з одного потоку до іншого
-    
-
+---
+navigation:
+  - function.stream-context-set-params.html: « streamcontextsetparams
+  - function.stream-filter-append.html: streamfilterappend »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamcopyтоstream
+---
 # streamcopyтоstream
 
 (PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ stream_copy_to_stream(    resource $from,    resource $to,    ?int $
 
 ### список змін
 
-| Версия | Описание                                        |
-|--------|-------------------------------------------------|
-|        | Параметр `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `length` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Найбільш поширені помилки
-
--   [« Пояснення повідомлень про помилки](features.file-upload.errors.html)
-    
--   [Завантаження кількох файлів »](features.file-upload.multiple.html)
-    
--   [PHP Manual](index.md)
-    
--   [Загрузка файлов на сервер](features.file-upload.html)
-    
--   Найбільш поширені помилки
-    
-
+---
+navigation:
+  - features.file-upload.errors.html: « Пояснення повідомлень про помилки
+  - features.file-upload.multiple.html: Завантаження кількох файлів »
+  - index.md: PHP Manual
+  - features.file-upload.html: Загрузка файлов на сервер
+title: Найбільш поширені помилки
+---
 ## Найбільш поширені помилки
 
 Опція `MAX_FILE_SIZE` не повинна дозволяти передачу файлів, розмір яких перевищує ліміт, встановлений конфігураційною директивою [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize) у php.ini. Обмеження за замовчуванням складає 2 мегабайти.

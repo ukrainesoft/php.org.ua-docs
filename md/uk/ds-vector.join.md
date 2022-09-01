@@ -1,16 +1,11 @@
-Склеює всі значення в рядок
-
--   [« DsVector::isEmpty](ds-vector.isempty.html)
-    
--   [ДсVector::jsonSerialize »](ds-vector.jsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Склеює всі значення в рядок
-    
-
+---
+navigation:
+  - ds-vector.isempty.html: '« DsVector::isEmpty'
+  - ds-vector.jsonserialize.html: 'ДсVector::jsonSerialize »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::join'
+---
 # ДсVector::join
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Встановлення обробника інструкцій препроцесора (PI)
-
--   [« xmlsetobject](function.xml-set-object.html)
-    
--   [xmlsetstartnamespacedeclhandler »](function.xml-set-start-namespace-decl-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Встановлення обробника інструкцій препроцесора (PI)
-    
-
+---
+navigation:
+  - function.xml-set-object.html: « xmlsetobject
+  - function.xml-set-start-namespace-decl-handler.html: xmlsetstartnamespacedeclhandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetprocessinginstructionhandler
+---
 # xmlsetprocessinginstructionhandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -77,6 +72,6 @@ handler(XMLParser $parser, string $target, string $data)
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

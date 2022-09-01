@@ -1,16 +1,11 @@
-Встановлює мінімальний розмір кроку
-
--   [« fannsetrpropdeltamax](function.fann-set-rprop-delta-max.html)
-    
--   [fannsetrpropdeltazero »](function.fann-set-rprop-delta-zero.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює мінімальний розмір кроку
-    
-
+---
+navigation:
+  - function.fann-set-rprop-delta-max.html: « fannsetrpropdeltamax
+  - function.fann-set-rprop-delta-zero.html: fannsetrpropdeltazero »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetrpropdeltamin
+---
 # fannsetrpropdeltamin
 
 (PECL fann> = 1.0.0)

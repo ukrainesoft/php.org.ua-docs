@@ -1,16 +1,11 @@
-Надсилає дані з потоків параметрів на сервер
-
--   [« sqlsrvrowsaffected](function.sqlsrv-rows-affected.html)
-    
--   [sqlsrvserverinfo »](function.sqlsrv-server-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Надсилає дані з потоків параметрів на сервер
-    
-
+---
+navigation:
+  - function.sqlsrv-rows-affected.html: « sqlsrvrowsaffected
+  - function.sqlsrv-server-info.html: sqlsrvserverinfo »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvsendstreamdata
+---
 # sqlsrvsendstreamdata
 
 (No version information available, might only be in Git)

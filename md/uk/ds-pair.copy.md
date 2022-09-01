@@ -1,16 +1,11 @@
-Повертає поверхневу копію пари
-
--   [« DsPair::construct](ds-pair.construct.html)
-    
--   [ДсPair::isEmpty »](ds-pair.isempty.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пара](class.ds-pair.html)
-    
--   Повертає поверхневу копію пари
-    
-
+---
+navigation:
+  - ds-pair.construct.html: '« DsPair::construct'
+  - ds-pair.isempty.html: 'ДсPair::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-pair.html: Пара
+title: 'ДсPair::copy'
+---
 # ДсPair::copy
 
 (No version information available, might only be in Git)

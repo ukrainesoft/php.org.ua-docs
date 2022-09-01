@@ -1,16 +1,11 @@
-Перемотує ітератор
-
--   [« SwooleTable::next](swoole-table.next.html)
-    
--   [SwooleTable::set »](swoole-table.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Перемотує ітератор
-    
-
+---
+navigation:
+  - swoole-table.next.html: '« SwooleTable::next'
+  - swoole-table.set.html: 'SwooleTable::set »'
+  - index.html: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::rewind'
+---
 # SwooleTable::rewind
 
 (PECL swoole >= 1.9.0)

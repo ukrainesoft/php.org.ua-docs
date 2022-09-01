@@ -1,16 +1,11 @@
-Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
-
--   [« DirectoryIterator::toString](directoryiterator.tostring.html)
-    
--   [EmptyIterator »](class.emptyiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [DirectoryIterator](class.directoryiterator.html)
-    
--   Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
-    
-
+---
+navigation:
+  - directoryiterator.tostring.html: '« DirectoryIterator::toString'
+  - class.emptyiterator.html: EmptyIterator »
+  - index.html: PHP Manual
+  - class.directoryiterator.html: DirectoryIterator
+title: 'DirectoryIterator::valid'
+---
 # DirectoryIterator::valid
 
 (PHP 5, PHP 7, PHP 8)

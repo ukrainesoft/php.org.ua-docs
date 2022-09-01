@@ -1,16 +1,11 @@
-Встановлює розмір шрифту для використання під час анотування текстом
-
--   [« ImagickDraw::setFontFamily](imagickdraw.setfontfamily.html)
-    
--   [ImagickDraw::setFontStretch »](imagickdraw.setfontstretch.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює розмір шрифту для використання під час анотування текстом
-    
-
+---
+navigation:
+  - imagickdraw.setfontfamily.html: '« ImagickDraw::setFontFamily'
+  - imagickdraw.setfontstretch.html: 'ImagickDraw::setFontStretch »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setFontSize'
+---
 # ImagickDraw::setFontSize
 
 (PECL imagick 2, PECL imagick 3)

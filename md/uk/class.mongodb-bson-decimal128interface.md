@@ -1,16 +1,11 @@
-Інтерфейс MongoDBBSONDecimal128Interface
-
--   [« MongoDBBSONBinaryInterface::toString](mongodb-bson-binaryinterface.tostring.html)
-    
--   [MongoDBBSONDecimal128Interface::toString »](mongodb-bson-decimal128interface.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Інтерфейс MongoDBBSONDecimal128Interface
-    
-
+---
+navigation:
+  - mongodb-bson-binaryinterface.tostring.html: '« MongoDBBSONBinaryInterface::toString'
+  - mongodb-bson-decimal128interface.tostring.html: 'MongoDBBSONDecimal128Interface::toString »'
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Інтерфейс MongoDBBSONDecimal128Interface
+---
 # Інтерфейс MongoDBBSONDecimal128Interface
 
 (mongodb >=1.3.0)
@@ -37,8 +32,8 @@
 
 ## список змін
 
-| Версия              | Описание                                                                                                                                                                                                                                                                                                                |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст

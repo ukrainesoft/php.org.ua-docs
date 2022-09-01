@@ -1,16 +1,11 @@
-Застарілий варіант функцій ocifetcharray, ocifetchobject, ocifetchassoc та ocifetchrow
-
--   [« ocifetch](function.ocifetch.md)
-    
--   [ocifetchstatement »](function.ocifetchstatement.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Застарілий варіант функцій ocifetcharray, ocifetchobject, ocifetchassoc та ocifetchrow
-    
-
+---
+navigation:
+  - function.ocifetch.md: « ocifetch
+  - function.ocifetchstatement.md: ocifetchstatement »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocifetchinto
+---
 # ocifetchinto
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

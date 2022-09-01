@@ -1,16 +1,11 @@
-Створити новий вузол елемента з відповідним простором імен
-
--   [« DOMDocument::createElement](domdocument.createelement.md)
-    
--   [DOMDocument::createEntityReference »](domdocument.createentityreference.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий вузол елемента з відповідним простором імен
-    
-
+---
+navigation:
+  - domdocument.createelement.md: '« DOMDocument::createElement'
+  - domdocument.createentityreference.md: 'DOMDocument::createEntityReference »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createElementNS'
+---
 # DOMDocument::createElementNS
 
 (PHP 5, PHP 7, PHP 8)

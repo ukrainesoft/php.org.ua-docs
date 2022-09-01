@@ -1,16 +1,11 @@
-Повертає попередження та помилки
-
--   [« DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md)
-    
--   [DateTimeImmutable::modify »](datetimeimmutable.modify.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Повертає попередження та помилки
-    
-
+---
+navigation:
+  - datetimeimmutable.createfrommutable.md: '« DateTimeImmutable::createFromMutable'
+  - datetimeimmutable.modify.md: 'DateTimeImmutable::modify »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::getLastErrors'
+---
 # DateTimeImmutable::getLastErrors
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

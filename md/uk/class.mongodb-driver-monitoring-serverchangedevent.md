@@ -1,16 +1,11 @@
-Клас MongoDBDriverMonitoringServerChangedEvent
-
--   [« MongoDBDriverMonitoringCommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.html)
-    
--   [MongoDBDriverMonitoringServerChangedEvent::getHost »](mongodb-driver-monitoring-serverchangedevent.gethost.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Клас MongoDBDriverMonitoringServerChangedEvent
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getserviceid.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getServiceId'
+  - mongodb-driver-monitoring-serverchangedevent.gethost.html: 'MongoDBDriverMonitoringServerChangedEvent::getHost »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringServerChangedEvent
+---
 # Клас MongoDBDriverMonitoringServerChangedEvent
 
 (mongodb >=1.13.0)

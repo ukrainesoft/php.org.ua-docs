@@ -1,16 +1,11 @@
-Отримання функції, що оголошує
-
--   [« ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md)
-    
--   [ReflectionParameter::getDefaultValue »](reflectionparameter.getdefaultvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Отримання функції, що оголошує
-    
-
+---
+navigation:
+  - reflectionparameter.getdeclaringclass.md: '« ReflectionParameter::getDeclaringClass'
+  - reflectionparameter.getdefaultvalue.md: 'ReflectionParameter::getDefaultValue »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getDeclaringFunction'
+---
 # ReflectionParameter::getDeclaringFunction
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Конвертує перший байт рядка до числа від 0 до 255
-
--   [« numberformat](function.number-format.html)
-    
--   [parsestr »](function.parse-str.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Конвертує перший байт рядка до числа від 0 до 255
-    
-
+---
+navigation:
+  - function.number-format.html: « numberformat
+  - function.parse-str.html: parsestr »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: ord
+---
 # ord
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

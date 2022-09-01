@@ -1,16 +1,11 @@
-Отримати код останньої помилки
-
--   [« Transliterator::createInverse](transliterator.createinverse.md)
-    
--   [Transliterator::getErrorMessage »](transliterator.geterrormessage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Отримати код останньої помилки
-    
-
+---
+navigation:
+  - transliterator.createinverse.md: '« Transliterator::createInverse'
+  - transliterator.geterrormessage.md: 'Transliterator::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::getErrorCode'
+---
 # Transliterator::getErrorCode
 
 # transliteratorgeterrorcode

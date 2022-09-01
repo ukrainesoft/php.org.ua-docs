@@ -1,16 +1,11 @@
-Додає елементи до списку запланованих для додавання до робочої копії
-
--   [« Функції SVN](ref.svn.md)
-    
--   [svnauthgetparameter »](function.svn-auth-get-parameter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Додає елементи до списку запланованих для додавання до робочої копії
-    
-
+---
+navigation:
+  - ref.svn.md: « Функції SVN
+  - function.svn-auth-get-parameter.html: svnauthgetparameter »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnadd
+---
 # svnadd
 
 (PECL svn >= 0.1.0)

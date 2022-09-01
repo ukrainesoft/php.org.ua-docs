@@ -1,16 +1,11 @@
-Повертає налаштовані шрифти
-
--   [« Gmagick::queryfontmetrics](gmagick.queryfontmetrics.md)
-    
--   [Gmagick::queryformats »](gmagick.queryformats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає налаштовані шрифти
-    
-
+---
+navigation:
+  - gmagick.queryfontmetrics.md: '« Gmagick::queryfontmetrics'
+  - gmagick.queryformats.md: 'Gmagick::queryformats »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::queryfonts'
+---
 # Gmagick::queryfonts
 
 (PECL gmagick >= Unknown)

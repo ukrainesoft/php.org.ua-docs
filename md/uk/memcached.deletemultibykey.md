@@ -1,16 +1,11 @@
-Видаляє кілька записів із вказаного сервера
-
--   [« Memcached::deleteMulti](memcached.deletemulti.html)
-    
--   [Memcached::fetch »](memcached.fetch.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Видаляє кілька записів із вказаного сервера
-    
-
+---
+navigation:
+  - memcached.deletemulti.html: '« Memcached::deleteMulti'
+  - memcached.fetch.html: 'Memcached::fetch »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::deleteMultiByKey'
+---
 # Memcached::deleteMultiByKey
 
 (PECL memcached >= 2.0.0)

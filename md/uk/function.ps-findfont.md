@@ -1,16 +1,11 @@
-Завантажує шрифт
-
--   [«psfill](function.ps-fill.html)
-    
--   [псgetbuffer »](function.ps-get-buffer.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Завантажує шрифт
-    
-
+---
+navigation:
+  - function.ps-fill.html: «psfill
+  - function.ps-get-buffer.html: псgetbuffer »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псfindfont
+---
 # псfindfont
 
 (PECL ps >= 1.1.0)

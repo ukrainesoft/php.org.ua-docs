@@ -1,16 +1,11 @@
-API плагінів mysqlnd
-
--   [« Архитектура плагинов MySQL Native Driver](mysqlnd.plugin.architecture.html)
-    
--   [Начинаем разработку плагина mysqlnd »](mysqlnd.plugin.developing.html)
-    
--   [PHP Manual](index.html)
-    
--   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.html)
-    
--   API плагінів mysqlnd
-    
-
+---
+navigation:
+  - mysqlnd.plugin.architecture.html: « Архитектура плагинов MySQL Native Driver
+  - mysqlnd.plugin.developing.html: Начинаем разработку плагина mysqlnd »
+  - index.html: PHP Manual
+  - mysqlnd.plugin.html: API для плагинов к встроенному драйверу MySQL
+title: API плагінів mysqlnd
+---
 ## API плагінів mysqlnd
 
 API плагінів `mysqlnd` надає такі функції:
@@ -67,10 +62,10 @@ API плагінів `mysqlnd` надає такі функції:
 
 **Проблеми: приклад співробітництва та побудови ланцюжка**
 
-| Модуль           | Указатель mysqlnd.query() | Стек вызова, если вызывается родитель |
-|------------------|---------------------------|---------------------------------------|
-| ext/mysqlnd      | mysqlnd.query()           | mysqlnd.query                         |
-| ext/mysqlndcache | mysqlndcache.query()      |                                       |
+| Модуль | Указатель mysqlnd.query() | Стек вызова, если вызывается родитель |
+| --- | --- | --- |
+| ext/mysqlnd | mysqlnd.query() | mysqlnd.query |
+| ext/mysqlndcache | mysqlndcache.query() |  |
 
 1.  mysqlndcache.query()
     

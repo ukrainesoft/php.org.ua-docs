@@ -1,16 +1,11 @@
-Встановлює критерії сортування
-
--   [« TableUpdate::limit](mysql-xdevapi-tableupdate.limit.html)
-    
--   [TableUpdate::set »](mysql-xdevapi-tableupdate.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   Встановлює критерії сортування
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.limit.html: '« TableUpdate::limit'
+  - mysql-xdevapi-tableupdate.set.html: 'TableUpdate::set »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+title: 'TableUpdate::orderby'
+---
 # TableUpdate::orderby
 
 (No version information available, might only be in Git)

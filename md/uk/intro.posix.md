@@ -1,16 +1,11 @@
-Вступ
-
--   [« POSIX](book.posix.md)
-    
--   [Встановлення та налаштування »](posix.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX](book.posix.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.posix.md: « POSIX
+  - posix.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.posix.md: POSIX
+title: Вступ
+---
 # Вступ
 
 Цей модуль містить інтерфейс до функцій, визначених у стандарті IEEE 1003.1 (POSIX.1), які не доступні за допомогою інших засобів.

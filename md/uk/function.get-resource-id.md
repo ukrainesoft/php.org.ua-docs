@@ -1,16 +1,11 @@
-Повертає цілий ідентифікатор для даного ресурсу
-
--   [« getdefinedvars](function.get-defined-vars.html)
-    
--   [getresourcetype »](function.get-resource-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Повертає цілий ідентифікатор для даного ресурсу
-    
-
+---
+navigation:
+  - function.get-defined-vars.html: « getdefinedvars
+  - function.get-resource-type.html: getresourcetype »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: getresourceід
+---
 # getresourceід
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Конструктор класу ImagickDraw
-
--   [« ImagickDraw::composite](imagickdraw.composite.html)
-    
--   [ImagickDraw::destroy »](imagickdraw.destroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Конструктор класу ImagickDraw
-    
-
+---
+navigation:
+  - imagickdraw.composite.html: '« ImagickDraw::composite'
+  - imagickdraw.destroy.html: 'ImagickDraw::destroy »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::construct'
+---
 # ImagickDraw::construct
 
 (PECL imagick 2, PECL imagick 3)

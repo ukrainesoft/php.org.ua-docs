@@ -1,16 +1,11 @@
-Клас XmlParser
-
--   [« xmlsetunparsedentitydeclhandler](function.xml-set-unparsed-entity-decl-handler.html)
-    
--   [XMLReader »](book.xmlreader.md)
-    
--   [PHP Manual](index.md)
-    
--   [Разбор XML](book.xml.md)
-    
--   Клас XmlParser
-    
-
+---
+navigation:
+  - function.xml-set-unparsed-entity-decl-handler.html: « xmlsetunparsedentitydeclhandler
+  - book.xmlreader.md: XMLReader »
+  - index.md: PHP Manual
+  - book.xml.md: Разбор XML
+title: Клас XmlParser
+---
 # Клас XmlParser
 
 (PHP 8)

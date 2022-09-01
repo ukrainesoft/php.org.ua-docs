@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONUndefined::construct](mongodb-bson-undefined.construct.html)
-    
--   [MongoDBBSONUndefined::serialize »](mongodb-bson-undefined.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-undefined.construct.html: '« MongoDBBSONUndefined::construct'
+  - mongodb-bson-undefined.serialize.html: 'MongoDBBSONUndefined::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined
+title: 'MongoDBBSONUndefined::jsonSerialize'
+---
 # MongoDBBSONUndefined::jsonSerialize
 
 (mongodb >=1.4.0)

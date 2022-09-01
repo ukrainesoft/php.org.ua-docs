@@ -1,16 +1,11 @@
-Отримує об'єкт схеми
-
--   [« mysqlxdevapiSchemaObject](class.mysql-xdevapi-schemaobject.html)
-    
--   [mysqlxdevapiSession »](class.mysql-xdevapi-session.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSchemaObject](class.mysql-xdevapi-schemaobject.html)
-    
--   Отримує об'єкт схеми
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-schemaobject.html: « mysqlxdevapiSchemaObject
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-schemaobject.html: mysqlxdevapiSchemaObject
+title: 'SchemaObject::getSchema'
+---
 # SchemaObject::getSchema
 
 (No version information available, might only be in Git)

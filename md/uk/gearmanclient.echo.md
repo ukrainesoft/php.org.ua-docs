@@ -1,16 +1,11 @@
-Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
-
--   [« GearmanClient::doStatus](gearmanclient.dostatus.md)
-    
--   [GearmanClient::error »](gearmanclient.error.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
-    
-
+---
+navigation:
+  - gearmanclient.dostatus.md: '« GearmanClient::doStatus'
+  - gearmanclient.error.md: 'GearmanClient::error »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::echo'
+---
 # GearmanClient::echo
 
 (PECL gearman >= 0.5.0)

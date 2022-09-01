@@ -1,16 +1,11 @@
-Додає вузли перед першим дочірнім вузлом
-
--   [« DOMParentNode::append](domparentnode.append.md)
-    
--   [DOMProcessingInstruction »](class.domprocessinginstruction.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMParentNode](class.domparentnode.md)
-    
--   Додає вузли перед першим дочірнім вузлом
-    
-
+---
+navigation:
+  - domparentnode.append.md: '« DOMParentNode::append'
+  - class.domprocessinginstruction.md: DOMProcessingInstruction »
+  - index.md: PHP Manual
+  - class.domparentnode.md: DOMParentNode
+title: 'DOMParentNode::prepend'
+---
 # DOMParentNode::prepend
 
 (PHP 8)

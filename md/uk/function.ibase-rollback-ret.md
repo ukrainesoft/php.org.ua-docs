@@ -1,16 +1,11 @@
-Відкочує транзакцію, не закриваючи її
-
--   [« ibaserestore](function.ibase-restore.html)
-    
--   [ibaserollback »](function.ibase-rollback.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Відкочує транзакцію, не закриваючи її
-    
-
+---
+navigation:
+  - function.ibase-restore.html: « ibaserestore
+  - function.ibase-rollback.html: ibaserollback »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaserollbackret
+---
 # ibaserollbackret
 
 (PHP 5, PHP 7 < 7.4.0)

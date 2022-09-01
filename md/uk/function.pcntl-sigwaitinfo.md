@@ -1,16 +1,11 @@
-Очікування сигналів
-
--   [pcntlsigtimedwait](function.pcntl-sigtimedwait.html)
-    
--   [pcntlstrerror »](function.pcntl-strerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Очікування сигналів
-    
-
+---
+navigation:
+  - function.pcntl-sigtimedwait.html: pcntlsigtimedwait
+  - function.pcntl-strerror.html: pcntlstrerror »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlsigwaitinfo
+---
 # pcntlsigwaitinfo
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

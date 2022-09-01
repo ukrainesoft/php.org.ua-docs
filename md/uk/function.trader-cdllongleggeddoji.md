@@ -1,16 +1,11 @@
-Свічкова модель "Довгоногі доджі"
-
--   [« tradercdlladderbottom](function.trader-cdlladderbottom.html)
-    
--   [tradercdllongline »](function.trader-cdllongline.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Довгоногі доджі"
-    
-
+---
+navigation:
+  - function.trader-cdlladderbottom.html: « tradercdlladderbottom
+  - function.trader-cdllongline.html: tradercdllongline »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdllongleggeddoji
+---
 # tradercdllongleggeddoji
 
 (PECL trader >= 0.2.0)

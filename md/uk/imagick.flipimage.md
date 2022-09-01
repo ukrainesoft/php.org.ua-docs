@@ -1,16 +1,11 @@
-Створює вертикальне дзеркало зображення
-
--   [« Imagick::flattenImages](imagick.flattenimages.md)
-    
--   [Imagick::floodFillPaintImage »](imagick.floodfillpaintimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює вертикальне дзеркало зображення
-    
-
+---
+navigation:
+  - imagick.flattenimages.md: '« Imagick::flattenImages'
+  - imagick.floodfillpaintimage.md: 'Imagick::floodFillPaintImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::flipImage'
+---
 # Imagick::flipImage
 
 (PECL imagick 2, PECL imagick 3)

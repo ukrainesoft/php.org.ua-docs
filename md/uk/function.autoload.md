@@ -1,16 +1,11 @@
-Спроба завантажити невизначений клас
-
--   [« Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   [classalias »](function.class-alias.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Спроба завантажити невизначений клас
-    
-
+---
+navigation:
+  - ref.classobj.md: « Функції роботи з класами та об'єктами
+  - function.class-alias.html: classalias »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: autoload
+---
 # autoload
 
 (PHP 5, PHP 7)

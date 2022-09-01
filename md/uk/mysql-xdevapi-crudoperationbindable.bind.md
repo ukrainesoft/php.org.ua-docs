@@ -1,16 +1,11 @@
-Прив'язує значення до заповнювача
-
--   [« mysqlxdevapiCrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
-    
--   [mysqlxdevapiCrudOperationLimitable »](class.mysql-xdevapi-crudoperationlimitable.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
-    
--   Прив'язує значення до заповнювача
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-crudoperationbindable.html: « mysqlxdevapiCrudOperationBindable
+  - class.mysql-xdevapi-crudoperationlimitable.html: mysqlxdevapiCrudOperationLimitable »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-crudoperationbindable.html: mysqlxdevapiCrudOperationBindable
+title: 'CrudOperationBindable::bind'
+---
 # CrudOperationBindable::bind
 
 (No version information available, might only be in Git)

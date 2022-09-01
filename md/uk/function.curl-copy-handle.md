@@ -1,16 +1,11 @@
-Копіює дескриптор cURL разом із усіма його налаштуваннями
-
--   [« curlclose](function.curl-close.html)
-    
--   [curlerrno »](function.curl-errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Копіює дескриптор cURL разом із усіма його налаштуваннями
-    
-
+---
+navigation:
+  - function.curl-close.html: « curlclose
+  - function.curl-errno.html: curlerrno »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlcopyhandle
+---
 # curlcopyhandle
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,10 +32,10 @@ curl_copy_handle(CurlHandle $handle): CurlHandle|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource).               |
-|        | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+|  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.html); раніше повертався ресурс (resource). |
 
 ### Приклади
 

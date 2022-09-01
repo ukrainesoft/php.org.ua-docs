@@ -1,16 +1,11 @@
-Завершує визначення шаблону
-
--   [« ImagickDraw::popDefs](imagickdraw.popdefs.html)
-    
--   [ImagickDraw::push »](imagickdraw.push.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Завершує визначення шаблону
-    
-
+---
+navigation:
+  - imagickdraw.popdefs.html: '« ImagickDraw::popDefs'
+  - imagickdraw.push.html: 'ImagickDraw::push »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::popPattern'
+---
 # ImagickDraw::popPattern
 
 (PECL imagick 2, PECL imagick 3)

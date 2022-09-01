@@ -1,16 +1,11 @@
-Отримує строкове значення буфера пам'яті
-
--   [« SwooleBuffer::substr](swoole-buffer.substr.html)
-    
--   [SwooleBuffer::write »](swoole-buffer.write.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleBuffer](class.swoole-buffer.html)
-    
--   Отримує строкове значення буфера пам'яті
-    
-
+---
+navigation:
+  - swoole-buffer.substr.html: '« SwooleBuffer::substr'
+  - swoole-buffer.write.html: 'SwooleBuffer::write »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.html: SwooleBuffer
+title: 'SwooleBuffer::function toString() { \[native code\] }'
+---
 # SwooleBuffer::function toString() { \[native code\] }
 
 (PECL swoole >= 1.9.0)

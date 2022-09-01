@@ -1,16 +1,11 @@
-Інші зміни
-
--   [« Функціонал, оголошений застарілим у PHP 7.3.x](migration73.deprecated.html)
-    
--   [Поддержка Windows »](migration73.windows-support.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.html)
-    
--   Інші зміни
-    
-
+---
+navigation:
+  - migration73.deprecated.html: '« Функціонал, оголошений застарілим у PHP 7.3.x'
+  - migration73.windows-support.html: Поддержка Windows »
+  - index.html: PHP Manual
+  - migration73.html: Миграция с PHP 7.2.x на PHP 7.3.x
+title: Інші зміни
+---
 ## Інші зміни
 
 ### Ядро PHP

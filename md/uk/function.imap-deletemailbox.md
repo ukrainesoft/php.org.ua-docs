@@ -1,16 +1,11 @@
-Видалити поштову скриньку
-
--   [« imapdelete](function.imap-delete.html)
-    
--   [imaperrors »](function.imap-errors.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Видалити поштову скриньку
-    
-
+---
+navigation:
+  - function.imap-delete.html: « imapdelete
+  - function.imap-errors.html: imaperrors »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapdeletemailbox
+---
 # imapdeletemailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_deletemailbox(IMAP\Connection $imap, string $mailbox): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Додати керуючий елемент
-
--   [« UIControlsGrid](class.ui-controls-grid.html)
-    
--   [ОЙControlsGrid::isPadded »](ui-controls-grid.ispadded.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsGrid](class.ui-controls-grid.html)
-    
--   Додати керуючий елемент
-    
-
+---
+navigation:
+  - class.ui-controls-grid.html: « UIControlsGrid
+  - ui-controls-grid.ispadded.html: 'ОЙControlsGrid::isPadded »'
+  - index.md: PHP Manual
+  - class.ui-controls-grid.html: ОЙControlsGrid
+title: 'ОЙControlsGrid::append'
+---
 # ОЙControlsGrid::append
 
 (UI 0.9.9)

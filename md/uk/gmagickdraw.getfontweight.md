@@ -1,16 +1,11 @@
-Повертає товщину шрифту
-
--   [« GmagickDraw::getfontstyle](gmagickdraw.getfontstyle.html)
-    
--   [GmagickDraw::getstrokecolor »](gmagickdraw.getstrokecolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Повертає товщину шрифту
-    
-
+---
+navigation:
+  - gmagickdraw.getfontstyle.html: '« GmagickDraw::getfontstyle'
+  - gmagickdraw.getstrokecolor.html: 'GmagickDraw::getstrokecolor »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::getfontweight'
+---
 # GmagickDraw::getfontweight
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Додає атрибут до SimpleXML-елементу
-
--   [« SimpleXMLElement](class.simplexmlelement.md)
-    
--   [SimpleXMLElement::addChild »](simplexmlelement.addchild.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Додає атрибут до SimpleXML-елементу
-    
-
+---
+navigation:
+  - class.simplexmlelement.md: « SimpleXMLElement
+  - simplexmlelement.addchild.md: 'SimpleXMLElement::addChild »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::addAttribute'
+---
 # SimpleXMLElement::addAttribute
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

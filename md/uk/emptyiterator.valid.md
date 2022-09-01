@@ -1,16 +1,11 @@
-Метод valid()
-
--   [« EmptyIterator::rewind](emptyiterator.rewind.md)
-    
--   [FilesystemIterator »](class.filesystemiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [EmptyIterator](class.emptyiterator.md)
-    
--   Метод valid()
-    
-
+---
+navigation:
+  - emptyiterator.rewind.md: '« EmptyIterator::rewind'
+  - class.filesystemiterator.md: FilesystemIterator »
+  - index.md: PHP Manual
+  - class.emptyiterator.md: EmptyIterator
+title: 'EmptyIterator::valid'
+---
 # EmptyIterator::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас Schema
-
--   [« RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.html)
-    
--   [Schema::construct »](mysql-xdevapi-schema.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Schema
-    
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.getwarningscount.html: '« RowResult::getWarningsCount'
+  - mysql-xdevapi-schema.construct.html: 'Schema::construct »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Schema
+---
 # Клас Schema
 
 (PECL mysql-xdevapi >= 8.0.11)

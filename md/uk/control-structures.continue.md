@@ -1,16 +1,11 @@
-continue
-
--   [« break](control-structures.break.html)
-    
--   [switch »](control-structures.switch.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   continue
-    
-
+---
+navigation:
+  - control-structures.break.html: « break
+  - control-structures.switch.html: switch »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: continue
+---
 ## continue
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -69,6 +64,6 @@ for ($i = 0; $i < 5; ++$i) {
 
 **Зміни щодо оператора `continue`**
 
-| Версия | Описание                                                                                                                       |
-|--------|--------------------------------------------------------------------------------------------------------------------------------|
-|        | `continue` всередині `switch`, що використовується як заміна `break` для `switch` буде викликати помилку рівня **`E_WARNING`** |
+| Версия | Описание |
+| --- | --- |
+|  | `continue` всередині `switch`, що використовується як заміна `break` для `switch` буде викликати помилку рівня **`E_WARNING`** |

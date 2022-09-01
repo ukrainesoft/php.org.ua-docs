@@ -1,16 +1,11 @@
-Отримати тип варіанта
-
--   [« variantfix](function.variant-fix.html)
-    
--   [variantidiv »](function.variant-idiv.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Отримати тип варіанта
-    
-
+---
+navigation:
+  - function.variant-fix.html: « variantfix
+  - function.variant-idiv.html: variantidiv »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantgettype
+---
 # variantgettype
 
 (PHP 5, PHP 7, PHP 8)

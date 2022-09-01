@@ -1,16 +1,11 @@
-Повертає true, якщо вміст відрізняється або false у противному випадку
-
--   [« svnфсcheckpath](function.svn-fs-check-path.html)
-    
--   [svnфсcopy »](function.svn-fs-copy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Повертає true, якщо вміст відрізняється або false у противному випадку
-    
-
+---
+navigation:
+  - function.svn-fs-check-path.html: « svnфсcheckpath
+  - function.svn-fs-copy.html: svnфсcopy »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnфсcontentschanged
+---
 # svnфсcontentschanged
 
 (PECL svn >= 0.2.0)

@@ -1,16 +1,11 @@
-Виконує поточну транзакцію
-
--   [« Stomp::begin](stomp.begin.html)
-    
--   [Stomp::construct »](stomp.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Stomp](class.stomp.html)
-    
--   Виконує поточну транзакцію
-    
-
+---
+navigation:
+  - stomp.begin.html: '« Stomp::begin'
+  - stomp.construct.html: 'Stomp::construct »'
+  - index.html: PHP Manual
+  - class.stomp.html: Stomp
+title: 'Stomp::commit'
+---
 # Stomp::commit
 
 # stompcommit

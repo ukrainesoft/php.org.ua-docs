@@ -1,16 +1,11 @@
-Вивантажити дані з таблиці до масиву PHP
-
--   [« PDO::pgsqlCopyFromFile](pdo.pgsqlcopyfromfile.md)
-    
--   [PDO::pgsqlCopyToFile »](pdo.pgsqlcopytofile.md)
-    
--   [PHP Manual](index.md)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   Вивантажити дані з таблиці до масиву PHP
-    
-
+---
+navigation:
+  - pdo.pgsqlcopyfromfile.md: '« PDO::pgsqlCopyFromFile'
+  - pdo.pgsqlcopytofile.md: 'PDO::pgsqlCopyToFile »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: 'PDO::pgsqlCopyToArray'
+---
 # PDO::pgsqlCopyToArray
 
 (PHP 5> = 5.3.3, PHP 7, PHP 8)

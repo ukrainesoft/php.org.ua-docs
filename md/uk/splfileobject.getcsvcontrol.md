@@ -1,16 +1,11 @@
-Отримує символи роздільника, обгортання та екранування для CSV.
-
--   [« SplFileObject::getChildren](splfileobject.getchildren.html)
-    
--   [SplFileObject::getCurrentLine »](splfileobject.getcurrentline.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Отримує символи роздільника, обгортання та екранування для CSV.
-    
-
+---
+navigation:
+  - splfileobject.getchildren.html: '« SplFileObject::getChildren'
+  - splfileobject.getcurrentline.html: 'SplFileObject::getCurrentLine »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::getCsvControl'
+---
 # SplFileObject::getCsvControl
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -35,10 +30,10 @@ public SplFileObject::getCsvControl(): array
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Як символ екранування можна використовувати порожній рядок. |
-|        | Доданий символ екранування до результуючого масиву.         |
+| Версия | Описание |
+| --- | --- |
+|  | Як символ екранування можна використовувати порожній рядок. |
+|  | Доданий символ екранування до результуючого масиву. |
 
 ### Приклади
 

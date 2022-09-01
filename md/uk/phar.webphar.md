@@ -1,16 +1,11 @@
-Надсилає запит із браузера у внутрішній файл у phar-архіві
-
--   [« Phar::unlinkArchive](phar.unlinkarchive.md)
-    
--   [PharData »](class.phardata.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Надсилає запит із браузера у внутрішній файл у phar-архіві
-    
-
+---
+navigation:
+  - phar.unlinkarchive.md: '« Phar::unlinkArchive'
+  - class.phardata.md: PharData »
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::webPhar'
+---
 # Phar::webPhar
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -110,9 +105,9 @@ $mimes = array(
 
 ### список змін
 
-| Версия | Описание                                                                     |
-|--------|------------------------------------------------------------------------------|
-|        | `fileNotFoundScript` `mimeTypes` і `rewrite` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `fileNotFoundScript` `mimeTypes` і `rewrite` тепер допускають значення null. |
 
 ### Приклади
 

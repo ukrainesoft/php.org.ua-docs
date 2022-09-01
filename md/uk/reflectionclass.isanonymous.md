@@ -1,16 +1,11 @@
-Перевіряє, чи є клас анонімним
-
--   [« ReflectionClass::isAbstract](reflectionclass.isabstract.md)
-    
--   [ReflectionClass::isCloneable »](reflectionclass.iscloneable.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи є клас анонімним
-    
-
+---
+navigation:
+  - reflectionclass.isabstract.md: '« ReflectionClass::isAbstract'
+  - reflectionclass.iscloneable.md: 'ReflectionClass::isCloneable »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isAnonymous'
+---
 # ReflectionClass::isAnonymous
 
 (PHP 7, PHP 8)

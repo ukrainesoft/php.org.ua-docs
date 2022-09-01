@@ -1,16 +1,11 @@
-Повертає останнім часом зміни елемента
-
--   [« RarEntry::getCrc](rarentry.getcrc.html)
-    
--   [RarEntry::getHostOs »](rarentry.gethostos.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarEntry](class.rarentry.html)
-    
--   Повертає останнім часом зміни елемента
-    
-
+---
+navigation:
+  - rarentry.getcrc.html: '« RarEntry::getCrc'
+  - rarentry.gethostos.html: 'RarEntry::getHostOs »'
+  - index.html: PHP Manual
+  - class.rarentry.html: RarEntry
+title: 'RarEntry::getFileTime'
+---
 # RarEntry::getFileTime
 
 (PECL rar >= 0.1)

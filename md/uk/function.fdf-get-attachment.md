@@ -1,16 +1,11 @@
-Виймає завантажений файл, вбудований у FDF
-
--   [« fdfgetап](function.fdf-get-ap.html)
-    
--   [fdfgetencoding »](function.fdf-get-encoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Виймає завантажений файл, вбудований у FDF
-    
-
+---
+navigation:
+  - function.fdf-get-ap.html: « fdfgetап
+  - function.fdf-get-encoding.html: fdfgetencoding »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfgetattachment
+---
 # fdfgetattachment
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

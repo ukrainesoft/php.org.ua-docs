@@ -1,16 +1,11 @@
-Перетворює на XML
-
--   [« XSLTProcessor::transformToUri](xsltprocessor.transformtouri.html)
-    
--   [Модулі для роботи з GUI](refs.ui.html)
-    
--   [PHP Manual](index.html)
-    
--   [XSLTProcessor](class.xsltprocessor.html)
-    
--   Перетворює на XML
-    
-
+---
+navigation:
+  - xsltprocessor.transformtouri.html: '« XSLTProcessor::transformToUri'
+  - refs.ui.html: Модулі для роботи з GUI
+  - index.html: PHP Manual
+  - class.xsltprocessor.html: XSLTProcessor
+title: 'XSLTProcessor::transformToXml'
+---
 # XSLTProcessor::transformToXml
 
 (PHP 5, PHP 7, PHP 8)

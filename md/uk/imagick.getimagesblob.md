@@ -1,16 +1,11 @@
-Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
-
--   [« Imagick::getImageResolution](imagick.getimageresolution.md)
-    
--   [Imagick::getImageScene »](imagick.getimagescene.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
-    
-
+---
+navigation:
+  - imagick.getimageresolution.md: '« Imagick::getImageResolution'
+  - imagick.getimagescene.md: 'Imagick::getImageScene »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImagesBlob'
+---
 # Imagick::getImagesBlob
 
 (PECL imagick 2, PECL imagick 3)

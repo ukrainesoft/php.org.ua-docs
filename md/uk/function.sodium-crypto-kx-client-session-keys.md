@@ -1,16 +1,11 @@
-Обчислює ключі сесії на стороні клієнта
-
--   [« sodiumcryptokdfkeygen](function.sodium-crypto-kdf-keygen.html)
-    
--   [sodiumcryptoкксkeypair »](function.sodium-crypto-kx-keypair.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Обчислює ключі сесії на стороні клієнта
-    
-
+---
+navigation:
+  - function.sodium-crypto-kdf-keygen.html: « sodiumcryptokdfkeygen
+  - function.sodium-crypto-kx-keypair.html: sodiumcryptoкксkeypair »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoкксclientsessionkeys
+---
 # sodiumcryptoкксclientsessionkeys
 
 (PHP 7> = 7.2.0, PHP 8)

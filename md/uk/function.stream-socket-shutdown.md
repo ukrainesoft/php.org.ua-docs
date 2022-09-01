@@ -1,16 +1,11 @@
-Закрити повнодуплексне з'єднання
-
--   [« streamsocketserver](function.stream-socket-server.html)
-    
--   [streamsupportslock »](function.stream-supports-lock.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Закрити повнодуплексне з'єднання
-    
-
+---
+navigation:
+  - function.stream-socket-server.html: « streamsocketserver
+  - function.stream-supports-lock.html: streamsupportslock »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsocketshutdown
+---
 # streamsocketshutdown
 
 (PHP 5> = 5.2.1, PHP 7, PHP 8)

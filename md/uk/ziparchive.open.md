@@ -1,16 +1,11 @@
-Відкриває ZIP-архів
-
--   [« ZipArchive::locateName](ziparchive.locatename.md)
-    
--   [ZipArchive::registerCancelCallback »](ziparchive.registercancelcallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Відкриває ZIP-архів
-    
-
+---
+navigation:
+  - ziparchive.locatename.md: '« ZipArchive::locateName'
+  - ziparchive.registercancelcallback.md: 'ZipArchive::registerCancelCallback »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::open'
+---
 # ZipArchive::open
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

@@ -1,16 +1,11 @@
-Перевіряє коректність поточної позиції
-
--   [« Iterator::rewind](iterator.rewind.md)
-    
--   [IteratorAggregate »](class.iteratoraggregate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Iterator](class.iterator.md)
-    
--   Перевіряє коректність поточної позиції
-    
-
+---
+navigation:
+  - iterator.rewind.md: '« Iterator::rewind'
+  - class.iteratoraggregate.md: IteratorAggregate »
+  - index.md: PHP Manual
+  - class.iterator.md: Iterator
+title: 'Iterator::valid'
+---
 # Iterator::valid
 
 (PHP 5, PHP 7, PHP 8)

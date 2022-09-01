@@ -1,16 +1,11 @@
-Знаходить найменше значення
-
--   [« max](function.max.html)
-    
--   [мтgetrandmax »](function.mt-getrandmax.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Знаходить найменше значення
-    
-
+---
+navigation:
+  - function.max.html: « max
+  - function.mt-getrandmax.html: мтgetrandmax »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: min
+---
 # min
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
-
--   [« DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md)
-    
--   [DateTimeInterface »](class.datetimeinterface.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
-    
-
+---
+navigation:
+  - datetimeimmutable.settimezone.md: '« DateTimeImmutable::setTimezone'
+  - class.datetimeinterface.md: DateTimeInterface »
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::sub'
+---
 # DateTimeImmutable::sub
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

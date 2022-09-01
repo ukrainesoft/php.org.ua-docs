@@ -1,16 +1,11 @@
-Пише дані у файл
-
--   [« filegetcontents](function.file-get-contents.html)
-    
--   [file »](function.file.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Пише дані у файл
-    
-
+---
+navigation:
+  - function.file-get-contents.html: « filegetcontents
+  - function.file.md: file »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fileputcontents
+---
 # fileputcontents
 
 (PHP 5, PHP 7, PHP 8)
@@ -47,11 +42,11 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 **Доступні прапори**
 
-| Флаг                        | Описание                                                                                                                                                                                                                                                                                |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`FILE_USE_INCLUDE_PATH`** | Шукає `filename` в директоріях, що підключаються. Детальніше дивіться директиву [includepath](ini.core.html#ini.include-path)                                                                                                                                                           |
-| **`FILE_APPEND`**           | Якщо файл `filename` вже існує, дані будуть дописані в кінець файлу замість його перезаписати.                                                                                                                                                                                          |
-| **`LOCK_EX`**               | Отримати ексклюзивне блокування файлу під час запису. Іншими словами, між викликами [fopen()](function.fopen.md) і [fwrite()](function.fwrite.md) відбудеться виклик функції [flock()](function.flock.md). Це не одне й те саме, що виклик [fopen()](function.fopen.md) з прапором "х". |
+| Флаг | Описание |
+| --- | --- |
+| **`FILE_USE_INCLUDE_PATH`** | Шукає `filename` в директоріях, що підключаються. Детальніше дивіться директиву [includepath](ini.core.html#ini.include-path) |
+| **`FILE_APPEND`** | Якщо файл `filename` вже існує, дані будуть дописані в кінець файлу замість його перезаписати. |
+| **`LOCK_EX`** | Отримати ексклюзивне блокування файлу під час запису. Іншими словами, між викликами [fopen()](function.fopen.md) і [fwrite()](function.fwrite.md) відбудеться виклик функції [flock()](function.flock.md). Це не одне й те саме, що виклик [fopen()](function.fopen.md) з прапором "х". |
 
 `context`
 

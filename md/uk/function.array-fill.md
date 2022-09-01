@@ -1,16 +1,11 @@
-Заповнює масив значеннями
-
--   [« arrayfillkeys](function.array-fill-keys.html)
-    
--   [arrayfilter »](function.array-filter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Заповнює масив значеннями
-    
-
+---
+navigation:
+  - function.array-fill-keys.html: « arrayfillkeys
+  - function.array-filter.html: arrayfilter »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayfill
+---
 # arrayfill
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ array_fill(int $start_index, int $count, mixed $value): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція **arrayfill()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `count` виходить за межі діапазону; раніше видавалася помилка рівня **`E_WARNING`**, а функція повертала значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Функція **arrayfill()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `count` виходить за межі діапазону; раніше видавалася помилка рівня **`E_WARNING`**, а функція повертала значення **`false`** |
 
 ### Приклади
 

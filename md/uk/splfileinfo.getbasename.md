@@ -1,16 +1,11 @@
-Отримує базове ім'я файлу
-
--   [« SplFileInfo::getATime](splfileinfo.getatime.md)
-    
--   [SplFileInfo::getCTime »](splfileinfo.getctime.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує базове ім'я файлу
-    
-
+---
+navigation:
+  - splfileinfo.getatime.md: '« SplFileInfo::getATime'
+  - splfileinfo.getctime.md: 'SplFileInfo::getCTime »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getBasename'
+---
 # SplFileInfo::getBasename
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

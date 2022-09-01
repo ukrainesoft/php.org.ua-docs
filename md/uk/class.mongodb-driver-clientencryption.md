@@ -1,16 +1,11 @@
-Клас MongoDBDriverClientEncryption
-
--   [« MongoDBDriverSession::startTransaction](mongodb-driver-session.starttransaction.html)
-    
--   [MongoDBDriverClientEncryption::construct »](mongodb-driver-clientencryption.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverClientEncryption
-    
-
+---
+navigation:
+  - mongodb-driver-session.starttransaction.html: '« MongoDBDriverSession::startTransaction'
+  - mongodb-driver-clientencryption.construct.html: 'MongoDBDriverClientEncryption::construct »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverClientEncryption
+---
 # Клас MongoDBDriverClientEncryption
 
 (mongodb >=1.7.0)
@@ -95,8 +90,8 @@ final public encrypt(mixed $value, ?array $options = null): MongoDB\BSON\Binary
 
 ## список змін
 
-| Версия              | Описание                                                                                                                                                                                          |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.14.0 | Додані константи **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`** **`MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED`** і **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY`** |
 
 ## Дивіться також

@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineMySQL::connect](swoole-coroutine-mysql.connect.html)
-    
--   [SwooleCoroutineMySQL::destruct »](swoole-coroutine-mysql.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-mysql.connect.html: '« SwooleCoroutineMySQL::connect'
+  - swoole-coroutine-mysql.destruct.html: 'SwooleCoroutineMySQL::destruct »'
+  - index.html: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineMySQL::construct'
+---
 # SwooleCoroutineMySQL::construct
 
 (PECL swoole >= 2.0.0)

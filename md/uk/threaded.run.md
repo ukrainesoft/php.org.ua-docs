@@ -1,16 +1,11 @@
-Виконання
-
--   [« Threaded::pop](threaded.pop.md)
-    
--   [Threaded::shift »](threaded.shift.md)
-    
--   [PHP Manual](index.md)
-    
--   [Threaded](class.threaded.md)
-    
--   Виконання
-    
-
+---
+navigation:
+  - threaded.pop.md: '« Threaded::pop'
+  - threaded.shift.md: 'Threaded::shift »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::run'
+---
 # Threaded::run
 
 (PECL pthreads >= 2.0.0)

@@ -1,16 +1,11 @@
-Зводить число до ступеня
-
--   [« gmppopcount](function.gmp-popcount.html)
-    
--   [gmppowm »](function.gmp-powm.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Зводить число до ступеня
-    
-
+---
+navigation:
+  - function.gmp-popcount.html: « gmppopcount
+  - function.gmp-powm.html: gmppowm »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmppow
+---
 # gmppow
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

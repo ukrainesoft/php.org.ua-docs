@@ -1,16 +1,11 @@
-Чекає на події дочірніх процесів
-
--   [« SwooleProcess::useQueue](swoole-process.usequeue.html)
-    
--   [SwooleProcess::write »](swoole-process.write.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Чекає на події дочірніх процесів
-    
-
+---
+navigation:
+  - swoole-process.usequeue.html: '« SwooleProcess::useQueue'
+  - swoole-process.write.html: 'SwooleProcess::write »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::wait'
+---
 # SwooleProcess::wait
 
 (PECL swoole >= 1.9.0)

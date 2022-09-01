@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.url.md)
-    
--   [Вимоги »](url.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [URL](book.url.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.url.md: « Введение
+  - url.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.url.md: URL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

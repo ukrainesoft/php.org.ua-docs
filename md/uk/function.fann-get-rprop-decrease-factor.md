@@ -1,16 +1,11 @@
-Повертає коефіцієнт зменшення під час навчання RPROP
-
--   [« fanngetquickpropму](function.fann-get-quickprop-mu.html)
-    
--   [fanngetrpropdeltamax »](function.fann-get-rprop-delta-max.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає коефіцієнт зменшення під час навчання RPROP
-    
-
+---
+navigation:
+  - function.fann-get-quickprop-mu.html: « fanngetquickpropму
+  - function.fann-get-rprop-delta-max.html: fanngetrpropdeltamax »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetrpropdecreasefactor
+---
 # fanngetrpropdecreasefactor
 
 (PECL fann> = 1.0.0)

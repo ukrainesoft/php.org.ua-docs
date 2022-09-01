@@ -1,16 +1,11 @@
-Повертає дані одного стовпця наступного рядка результуючого набору
-
--   [« PDOStatement::fetchAll](pdostatement.fetchall.md)
-    
--   [PDOStatement::fetchObject »](pdostatement.fetchobject.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Повертає дані одного стовпця наступного рядка результуючого набору
-    
-
+---
+navigation:
+  - pdostatement.fetchall.md: '« PDOStatement::fetchAll'
+  - pdostatement.fetchobject.md: 'PDOStatement::fetchObject »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::fetchColumn'
+---
 # PDOStatement::fetchColumn
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.9.0)

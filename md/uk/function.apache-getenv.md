@@ -1,16 +1,11 @@
-Повертає змінну оточення підпроцесу сервера Apache
-
--   [« apachegetversion](function.apache-get-version.html)
-    
--   [apachelookupuri »](function.apache-lookup-uri.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Apache](ref.apache.md)
-    
--   Повертає змінну оточення підпроцесу сервера Apache
-    
-
+---
+navigation:
+  - function.apache-get-version.html: « apachegetversion
+  - function.apache-lookup-uri.html: apachelookupuri »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: apachegetenv
+---
 # apachegetenv
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

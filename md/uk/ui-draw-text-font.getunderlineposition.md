@@ -1,16 +1,11 @@
-Показники шрифту
-
--   [« UIDrawTextFont::getLeading](ui-draw-text-font.getleading.html)
-    
--   [ОЙDrawTextFont::getUnderlineThickness »](ui-draw-text-font.getunderlinethickness.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawTextFont](class.ui-draw-text-font.html)
-    
--   Показники шрифту
-    
-
+---
+navigation:
+  - ui-draw-text-font.getleading.html: '« UIDrawTextFont::getLeading'
+  - ui-draw-text-font.getunderlinethickness.html: 'ОЙDrawTextFont::getUnderlineThickness »'
+  - index.html: PHP Manual
+  - class.ui-draw-text-font.html: ОЙDrawTextFont
+title: 'ОЙDrawTextFont::getUnderlinePosition'
+---
 # ОЙDrawTextFont::getUnderlinePosition
 
 (UI 1.0.3)

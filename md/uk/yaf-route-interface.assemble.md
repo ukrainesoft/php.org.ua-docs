@@ -1,16 +1,11 @@
-Збирає запит
-
--   [« YafRouteInterface](class.yaf-route-interface.html)
-    
--   [YafRouteInterface::route »](yaf-route-interface.route.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRouteInterface](class.yaf-route-interface.html)
-    
--   Збирає запит
-    
-
+---
+navigation:
+  - class.yaf-route-interface.html: « YafRouteInterface
+  - yaf-route-interface.route.html: 'YafRouteInterface::route »'
+  - index.html: PHP Manual
+  - class.yaf-route-interface.html: YafRouteInterface
+title: 'YafRouteInterface::assemble'
+---
 # YafRouteInterface::assemble
 
 (Yaf >=2.3.0)

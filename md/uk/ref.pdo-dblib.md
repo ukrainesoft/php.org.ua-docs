@@ -1,16 +1,11 @@
-Функції Microsoft SQL Server та Sybase (PDODBLIB)
-
--   [« PDO::cubridschema](pdo.cubrid-schema.html)
-    
--   [PDODBLIB DSN »](ref.pdo-dblib.connection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Драйвери PDO](pdo.drivers.html)
-    
--   Функції Microsoft SQL Server та Sybase (PDODBLIB)
-    
-
+---
+navigation:
+  - pdo.cubrid-schema.html: '« PDO::cubridschema'
+  - ref.pdo-dblib.connection.html: PDODBLIB DSN »
+  - index.html: PHP Manual
+  - pdo.drivers.html: Драйвери PDO
+title: Функції Microsoft SQL Server та Sybase (PDODBLIB)
+---
 # Функції Microsoft SQL Server та Sybase (PDODBLIB)
 
 ## Вступ

@@ -1,16 +1,11 @@
-Отримує групу файлу
-
--   [« SplFileInfo::getFilename](splfileinfo.getfilename.html)
-    
--   [SplFileInfo::getInode »](splfileinfo.getinode.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Отримує групу файлу
-    
-
+---
+navigation:
+  - splfileinfo.getfilename.html: '« SplFileInfo::getFilename'
+  - splfileinfo.getinode.html: 'SplFileInfo::getInode »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::getGroup'
+---
 # SplFileInfo::getGroup
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

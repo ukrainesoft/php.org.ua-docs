@@ -1,16 +1,11 @@
-Читає дані з екземпляра GLO та записує їх у файл
-
--   [« Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
-    
--   [cubridnewglo »](function.cubrid-new-glo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
-    
--   Читає дані з екземпляра GLO та записує їх у файл
-    
-
+---
+navigation:
+  - oldaliases.cubrid.md: « Застарілі псевдоніми та функції CUBRID
+  - function.cubrid-new-glo.html: cubridnewglo »
+  - index.md: PHP Manual
+  - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
+title: cubridloadfromglo
+---
 # cubridloadfromglo
 
 (PECL CUBRID >= 8.3.0)

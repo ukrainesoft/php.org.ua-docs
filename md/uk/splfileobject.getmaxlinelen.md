@@ -1,16 +1,11 @@
-Отримати максимальну довжину рядка
-
--   [« SplFileObject::getFlags](splfileobject.getflags.md)
-    
--   [SplFileObject::hasChildren »](splfileobject.haschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Отримати максимальну довжину рядка
-    
-
+---
+navigation:
+  - splfileobject.getflags.md: '« SplFileObject::getFlags'
+  - splfileobject.haschildren.md: 'SplFileObject::hasChildren »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::getMaxLineLen'
+---
 # SplFileObject::getMaxLineLen
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

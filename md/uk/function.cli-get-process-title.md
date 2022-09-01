@@ -1,16 +1,11 @@
-Повертає заголовок поточного процесу
-
--   [« assert](function.assert.md)
-    
--   [clisetprocesstitle »](function.cli-set-process-title.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає заголовок поточного процесу
-    
-
+---
+navigation:
+  - function.assert.md: « assert
+  - function.cli-set-process-title.html: clisetprocesstitle »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: cligetprocesstitle
+---
 # cligetprocesstitle
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

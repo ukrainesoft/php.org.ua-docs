@@ -1,16 +1,11 @@
-Надсилає дані на віддалену UDP-адресу
-
--   [« SwooleClient::sendfile](swoole-client.sendfile.html)
-    
--   [SwooleClient::set »](swoole-client.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Надсилає дані на віддалену UDP-адресу
-    
-
+---
+navigation:
+  - swoole-client.sendfile.html: '« SwooleClient::sendfile'
+  - swoole-client.set.html: 'SwooleClient::set »'
+  - index.md: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::sendto'
+---
 # SwooleClient::sendto
 
 (PECL swoole >= 1.9.0)

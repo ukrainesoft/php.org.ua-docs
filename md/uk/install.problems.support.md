@@ -1,16 +1,11 @@
-Інші проблеми
-
--   [« Читайте FAQ](install.problems.faq.md)
-    
--   [Повідомлення про баги »](install.problems.bugs.md)
-    
--   [PHP Manual](index.md)
-    
--   [Проблеми?](install.problems.md)
-    
--   Інші проблеми
-    
-
+---
+navigation:
+  - install.problems.faq.md: « Читайте FAQ
+  - install.problems.bugs.md: Повідомлення про баги »
+  - index.md: PHP Manual
+  - install.problems.md: Проблеми?
+title: Інші проблеми
+---
 ## Інші проблеми
 
 Якщо ви все ще не можете встановити PHP, список розсилки може допомогти вам. Не забудьте спершу переглянути архів, можливо, хтось уже стикався зі схожою проблемою і успішно її вирішив. Архів розсилки доступний на сторінці підтримки: [» https://www.php.net/support.php](https://www.php.net/support.php) Для передплати списку розсилки про встановлення PHP надішліть порожнє повідомлення на [» php-install-subscribe@lists.php.net](mailto:php-install-subscribe@lists.php.net). Адреса списку розсилки: [» php-install@lists.php.net](mailto:php-install@lists.php.net)

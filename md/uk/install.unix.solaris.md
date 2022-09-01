@@ -1,16 +1,11 @@
-Інструкції з інсталяції для ОС Solaris
-
--   [« OpenBSD, замечания по установке](install.unix.openbsd.html)
-    
--   [Инструкции по установке на Debian GNU/Linux »](install.unix.debian.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення на Unix-системи](install.unix.html)
-    
--   Інструкції з інсталяції для ОС Solaris
-    
-
+---
+navigation:
+  - install.unix.openbsd.html: '« OpenBSD, замечания по установке'
+  - install.unix.debian.html: Инструкции по установке на Debian GNU/Linux »
+  - index.html: PHP Manual
+  - install.unix.html: Встановлення на Unix-системи
+title: Інструкції з інсталяції для ОС Solaris
+---
 ## Інструкції з інсталяції для ОС Solaris
 
 Цей розділ містить інструкції та поради для встановлення PHP на ОС Solaris.

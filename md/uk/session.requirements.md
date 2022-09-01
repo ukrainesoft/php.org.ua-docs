@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](session.setup.html)
-    
--   [Установка »](session.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](session.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - session.setup.html: « Встановлення та налаштування
+  - session.installation.html: Установка »
+  - index.html: PHP Manual
+  - session.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

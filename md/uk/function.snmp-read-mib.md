@@ -1,16 +1,11 @@
-Читає та аналізує файл MIB в активному дереві MIB
-
--   [« snmpgetvalueretrieval](function.snmp-get-valueretrieval.html)
-    
--   [snmpsetenumprint »](function.snmp-set-enum-print.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Читає та аналізує файл MIB в активному дереві MIB
-    
-
+---
+navigation:
+  - function.snmp-get-valueretrieval.html: « snmpgetvalueretrieval
+  - function.snmp-set-enum-print.html: snmpsetenumprint »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpreadmib
+---
 # snmpreadmib
 
 (PHP 5, PHP 7, PHP 8)

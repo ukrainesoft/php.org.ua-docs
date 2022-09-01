@@ -1,16 +1,11 @@
-Отримує кілька змінних ззовні PHP і, за необхідності, фільтрує їх
-
--   [« filterід](function.filter-id.html)
-    
--   [filterinput »](function.filter-input.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції фільтрації даних](ref.filter.md)
-    
--   Отримує кілька змінних ззовні PHP і, за необхідності, фільтрує їх
-    
-
+---
+navigation:
+  - function.filter-id.html: « filterід
+  - function.filter-input.html: filterinput »
+  - index.md: PHP Manual
+  - ref.filter.md: Функції фільтрації даних
+title: filterinputarray
+---
 # filterinputarray
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

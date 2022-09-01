@@ -1,16 +1,11 @@
-Зв'язує параметри затвердження
-
--   [« mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
-    
--   [SqlStatement::construct »](mysql-xdevapi-sqlstatement.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
-    
--   Зв'язує параметри затвердження
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-sqlstatement.html: « mysqlxdevapiSqlStatement
+  - mysql-xdevapi-sqlstatement.construct.html: 'SqlStatement::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+title: 'SqlStatement::bind'
+---
 # SqlStatement::bind
 
 (No version information available, might only be in Git)

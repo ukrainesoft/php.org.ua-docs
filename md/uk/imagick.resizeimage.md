@@ -1,16 +1,11 @@
-Масштабує зображення
-
--   [« Imagick::resetImagePage](imagick.resetimagepage.html)
-    
--   [Imagick::rollImage »](imagick.rollimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Масштабує зображення
-    
-
+---
+navigation:
+  - imagick.resetimagepage.html: '« Imagick::resetImagePage'
+  - imagick.rollimage.html: 'Imagick::rollImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::resizeImage'
+---
 # Imagick::resizeImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -55,8 +50,8 @@ public Imagick::resizeImage(    int $columns,    int $rows,    int $
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                     |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Додано необов'язковий параметр припасування. Тепер метод підтримує пропорційне масштабування. Для пропорційного масштабування необхідно передати нуль як будь-який параметр. |
 
 ### Приклади

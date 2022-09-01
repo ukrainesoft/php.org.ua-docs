@@ -1,16 +1,11 @@
-do-while
-
--   [« while](control-structures.while.html)
-    
--   [for »](control-structures.for.html)
-    
--   [PHP Manual](index.md)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   do-while
-    
-
+---
+navigation:
+  - control-structures.while.html: « while
+  - control-structures.for.html: for »
+  - index.md: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: do-while
+---
 ## do-while
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

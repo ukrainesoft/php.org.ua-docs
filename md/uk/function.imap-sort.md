@@ -1,16 +1,11 @@
-Отримати та відсортувати повідомлення
-
--   [« imapsetflagfull](function.imap-setflag-full.html)
-    
--   [imapstatus »](function.imap-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати та відсортувати повідомлення
-    
-
+---
+navigation:
+  - function.imap-setflag-full.html: « imapsetflagfull
+  - function.imap-status.html: imapstatus »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapsort
+---
 # imapsort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -68,8 +63,8 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `reverse` тепер є логічним типом (Bool) замість цілого числа (int).                                                                                    |
-|        | `search_criteria` і `charset` тепер є nullable.                                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `reverse` тепер є логічним типом (Bool) замість цілого числа (int). |
+|  | `search_criteria` і `charset` тепер є nullable. |

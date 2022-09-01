@@ -1,16 +1,11 @@
-Видаляє всі значення
-
--   [« DsPriorityQueue::capacity](ds-priorityqueue.capacity.html)
-    
--   [ДсPriorityQueue::construct »](ds-priorityqueue.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Видаляє всі значення
-    
-
+---
+navigation:
+  - ds-priorityqueue.capacity.html: '« DsPriorityQueue::capacity'
+  - ds-priorityqueue.construct.html: 'ДсPriorityQueue::construct »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::clear'
+---
 # ДсPriorityQueue::clear
 
 (PECL ds >= 1.0.0)

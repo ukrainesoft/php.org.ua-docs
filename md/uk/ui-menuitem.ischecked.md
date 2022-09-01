@@ -1,16 +1,11 @@
-Визначення обраності пункту
-
--   [« UIMenuItem::enable](ui-menuitem.enable.html)
-    
--   [ОЙMenuItem::onClick »](ui-menuitem.onclick.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenuItem](class.ui-menuitem.html)
-    
--   Визначення обраності пункту
-    
-
+---
+navigation:
+  - ui-menuitem.enable.html: '« UIMenuItem::enable'
+  - ui-menuitem.onclick.html: 'ОЙMenuItem::onClick »'
+  - index.md: PHP Manual
+  - class.ui-menuitem.html: ОЙMenuItem
+title: 'ОЙMenuItem::isChecked'
+---
 # ОЙMenuItem::isChecked
 
 (UI 0.9.9)

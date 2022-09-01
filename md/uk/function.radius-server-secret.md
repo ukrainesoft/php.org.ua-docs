@@ -1,16 +1,11 @@
-Повертає загальний секрет
-
--   [« radiussendrequest](function.radius-send-request.html)
-    
--   [radiusstrerror »](function.radius-strerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Повертає загальний секрет
-    
-
+---
+navigation:
+  - function.radius-send-request.html: « radiussendrequest
+  - function.radius-strerror.html: radiusstrerror »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusserversecret
+---
 # radiusserversecret
 
 (PECL radius >= 1.1.0)

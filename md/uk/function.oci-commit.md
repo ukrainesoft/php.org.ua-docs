@@ -1,16 +1,11 @@
-Підтверджує транзакцію бази даних
-
--   [« ociclose](function.oci-close.html)
-    
--   [ociconnect »](function.oci-connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Підтверджує транзакцію бази даних
-    
-
+---
+navigation:
+  - function.oci-close.html: « ociclose
+  - function.oci-connect.html: ociconnect »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocicommit
+---
 # ocicommit
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

@@ -1,16 +1,11 @@
-Клас SqlStatementResult
-
--   [« SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.html)
-    
--   [SqlStatementResult::construct »](mysql-xdevapi-sqlstatementresult.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас SqlStatementResult
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatement.hasmoreresults.html: '« SqlStatement::hasMoreResults'
+  - mysql-xdevapi-sqlstatementresult.construct.html: 'SqlStatementResult::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас SqlStatementResult
+---
 # Клас SqlStatementResult
 
 (PECL mysql-xdevapi >= 8.0.11)

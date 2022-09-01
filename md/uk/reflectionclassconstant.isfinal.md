@@ -1,16 +1,11 @@
-Перевіряє, чи є константа класу остаточною
-
--   [« ReflectionClassConstant::isEnumCase](reflectionclassconstant.isenumcase.md)
-    
--   [ReflectionClassConstant::isPrivate »](reflectionclassconstant.isprivate.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.md)
-    
--   Перевіряє, чи є константа класу остаточною
-    
-
+---
+navigation:
+  - reflectionclassconstant.isenumcase.md: '« ReflectionClassConstant::isEnumCase'
+  - reflectionclassconstant.isprivate.md: 'ReflectionClassConstant::isPrivate »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::isFinal'
+---
 # ReflectionClassConstant::isFinal
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Календар
-
--   [« Обумовлені константи](calendar.constants.html)
-    
--   [caldaysінmonth »](function.cal-days-in-month.html)
-    
--   [PHP Manual](index.html)
-    
--   [Календарь](book.calendar.html)
-    
--   Календар
-    
-
+---
+navigation:
+  - calendar.constants.html: « Обумовлені константи
+  - function.cal-days-in-month.html: caldaysінmonth »
+  - index.html: PHP Manual
+  - book.calendar.html: Календарь
+title: Календар
+---
 # Календар
 
 ## Зміст

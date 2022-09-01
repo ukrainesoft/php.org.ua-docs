@@ -1,16 +1,11 @@
-Перевіряє, чи властивість закрита
-
--   [« ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md)
-    
--   [ReflectionProperty::isPromoted »](reflectionproperty.ispromoted.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Перевіряє, чи властивість закрита
-    
-
+---
+navigation:
+  - reflectionproperty.isinitialized.md: '« ReflectionProperty::isInitialized'
+  - reflectionproperty.ispromoted.md: 'ReflectionProperty::isPromoted »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::isPrivate'
+---
 # ReflectionProperty::isPrivate
 
 (PHP 5, PHP 7, PHP 8)

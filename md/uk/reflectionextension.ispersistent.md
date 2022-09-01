@@ -1,16 +1,11 @@
-Визначає, чи модуль постійним
-
--   [« ReflectionExtension::info](reflectionextension.info.html)
-    
--   [ReflectionExtension::isTemporary »](reflectionextension.istemporary.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionExtension](class.reflectionextension.html)
-    
--   Визначає, чи модуль постійним
-    
-
+---
+navigation:
+  - reflectionextension.info.html: '« ReflectionExtension::info'
+  - reflectionextension.istemporary.html: 'ReflectionExtension::isTemporary »'
+  - index.html: PHP Manual
+  - class.reflectionextension.html: ReflectionExtension
+title: 'ReflectionExtension::isPersistent'
+---
 # ReflectionExtension::isPersistent
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

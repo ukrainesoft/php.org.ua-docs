@@ -1,16 +1,11 @@
-Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
-
--   [« fanntrainвінdata](function.fann-train-on-data.html)
-    
--   [fanntrain »](function.fann-train.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Навчання на повному наборі даних, прочитаному з файлу, на часовому інтервалі
-    
-
+---
+navigation:
+  - function.fann-train-on-data.html: « fanntrainвінdata
+  - function.fann-train.html: fanntrain »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanntrainвінfile
+---
 # fanntrainвінfile
 
 (PECL fann> = 1.0.0)

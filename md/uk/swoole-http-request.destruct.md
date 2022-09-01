@@ -1,16 +1,11 @@
-Знищує HTTP-запит
-
--   [« SwooleHttpRequest](class.swoole-http-request.html)
-    
--   [SwooleHttpRequest::rawcontent »](swoole-http-request.rawcontent.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpRequest](class.swoole-http-request.html)
-    
--   Знищує HTTP-запит
-    
-
+---
+navigation:
+  - class.swoole-http-request.html: « SwooleHttpRequest
+  - swoole-http-request.rawcontent.html: 'SwooleHttpRequest::rawcontent »'
+  - index.md: PHP Manual
+  - class.swoole-http-request.html: SwooleHttpRequest
+title: 'SwooleHttpRequest::destruct'
+---
 # SwooleHttpRequest::destruct
 
 (PECL swoole >= 1.9.0)

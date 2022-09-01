@@ -1,16 +1,11 @@
-Повертає стандартне відхилення
-
--   [« statsskew](function.stats-skew.html)
-    
--   [statsstatbinomialcoef »](function.stats-stat-binomial-coef.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Повертає стандартне відхилення
-    
-
+---
+navigation:
+  - function.stats-skew.html: « statsskew
+  - function.stats-stat-binomial-coef.html: statsstatbinomialcoef »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsstandarddeviation
+---
 # statsstandarddeviation
 
 (PECL stats >= 1.0.0)

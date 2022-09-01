@@ -1,16 +1,11 @@
-Серіалізує Timestamp
-
--   [« MongoDBBSONTimestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.html)
-    
--   [MongoDBBSONTimestamp::toString »](mongodb-bson-timestamp.tostring.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   Серіалізує Timestamp
-    
-
+---
+navigation:
+  - mongodb-bson-timestamp.jsonserialize.html: '« MongoDBBSONTimestamp::jsonSerialize'
+  - mongodb-bson-timestamp.tostring.html: 'MongoDBBSONTimestamp::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::serialize'
+---
 # MongoDBBSONTimestamp::serialize
 
 (mongodb >=1.2.0)

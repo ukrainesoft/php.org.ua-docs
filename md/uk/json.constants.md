@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](json.resources.html)
-    
--   [JsonException »](class.jsonexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [JSON](book.json.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - json.resources.html: « Типи ресурсів
+  - class.jsonexception.html: JsonException »
+  - index.html: PHP Manual
+  - book.json.html: JSON
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

@@ -1,16 +1,11 @@
-Клас MongoDBDriverReadConcern
-
--   [« MongoDBDriverReadPreference::unserialize](mongodb-driver-readpreference.unserialize.html)
-    
--   [MongoDBDriverReadConcern::bsonSerialize »](mongodb-driver-readconcern.bsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverReadConcern
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.unserialize.html: '« MongoDBDriverReadPreference::unserialize'
+  - mongodb-driver-readconcern.bsonserialize.html: 'MongoDBDriverReadConcern::bsonSerialize »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverReadConcern
+---
 # Клас MongoDBDriverReadConcern
 
 (mongodb >=1.1.0)
@@ -121,10 +116,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия                                                      | Описание |
-|-------------------------------------------------------------|----------|
-| PECL mongodb 1.11.0                                         |          |
-| Додано константу **`MongoDB\Driver\ReadConcern::SNAPSHOT`** |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.11.0 |  |
+| Додано константу **`MongoDB\Driver\ReadConcern::SNAPSHOT`** |  |
 
 | | PECL mongodb 1.7.0 Реалізує [Serializable](class.serializable.html). | | PECL mongodb 1.4.0
 

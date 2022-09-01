@@ -1,26 +1,21 @@
-Налаштування під час виконання
-
--   [« Установка](yaconf.installation.md)
-    
--   [Типи ресурсів »](yaconf.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](yaconf.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - yaconf.installation.md: « Установка
+  - yaconf.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - yaconf.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Yaconf**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [yaconf.checkdelay](yaconf.configuration.html#ini.yaconf.check-delay) |              | PHPINISYSTEM    |                  |
-| [yaconf.directory](yaconf.configuration.html#ini.yaconf.directory)    | /tmp/conf/   | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [yaconf.checkdelay](yaconf.configuration.html#ini.yaconf.check-delay) |  | PHPINISYSTEM |  |
+| [yaconf.directory](yaconf.configuration.html#ini.yaconf.directory) | /tmp/conf/ | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

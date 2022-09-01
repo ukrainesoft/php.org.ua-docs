@@ -1,16 +1,11 @@
-Створює екземпляр класу DOMAttr
-
--   [« DOMAttr](class.domattr.md)
-    
--   [DOMAttr::isId »](domattr.isid.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMAttr](class.domattr.md)
-    
--   Створює екземпляр класу DOMAttr
-    
-
+---
+navigation:
+  - class.domattr.md: « DOMAttr
+  - domattr.isid.md: 'DOMAttr::isId »'
+  - index.md: PHP Manual
+  - class.domattr.md: DOMAttr
+title: 'DOMAttr::construct'
+---
 # DOMAttr::construct
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Зміщує зображення
-
--   [« Imagick::resizeImage](imagick.resizeimage.md)
-    
--   [Imagick::rotateImage »](imagick.rotateimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Зміщує зображення
-    
-
+---
+navigation:
+  - imagick.resizeimage.md: '« Imagick::resizeImage'
+  - imagick.rotateimage.md: 'Imagick::rotateImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::rollImage'
+---
 # Imagick::rollImage
 
 (PECL imagick 2, PECL imagick 3)

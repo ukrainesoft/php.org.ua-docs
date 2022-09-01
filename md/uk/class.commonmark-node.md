@@ -1,16 +1,11 @@
-Анотація класу CommonMarkNode
-
--   [« CommonMarkNodeCustomInline](class.commonmark-node-custominline.html)
-    
--   [CommonMarkNode::appendChild »](commonmark-node.appendchild.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Анотація класу CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-custominline.html: « CommonMarkNodeCustomInline
+  - commonmark-node.appendchild.html: 'CommonMarkNode::appendChild »'
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Анотація класу CommonMarkNode
+---
 # Анотація класу CommonMarkNode
 
 (cmark >= 1.0.0)

@@ -1,16 +1,11 @@
-Клас YafRouteMap
-
--   [« YafRouteInterface::route](yaf-route-interface.route.html)
-    
--   [YafRouteMap::assemble »](yaf-route-map.assemble.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRouteMap
-    
-
+---
+navigation:
+  - yaf-route-interface.route.html: '« YafRouteInterface::route'
+  - yaf-route-map.assemble.html: 'YafRouteMap::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRouteMap
+---
 # Клас YafRouteMap
 
 (Yaf >=1.0.0)

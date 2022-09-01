@@ -1,16 +1,11 @@
-Встановлює підказку згортання
-
--   [« SolrCollapseFunction::setField](solrcollapsefunction.setfield.html)
-    
--   [SolrCollapseFunction::setMax »](solrcollapsefunction.setmax.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
-    
--   Встановлює підказку згортання
-    
-
+---
+navigation:
+  - solrcollapsefunction.setfield.html: '« SolrCollapseFunction::setField'
+  - solrcollapsefunction.setmax.html: 'SolrCollapseFunction::setMax »'
+  - index.html: PHP Manual
+  - class.solrcollapsefunction.html: SolrCollapseFunction
+title: 'SolrCollapseFunction::setHint'
+---
 # SolrCollapseFunction::setHint
 
 (PECL solr> = 2.2.0)

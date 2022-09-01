@@ -1,16 +1,11 @@
-Повертає величину вирівнювання
-
--   [« FFI::addr](ffi.addr.html)
-    
--   [FFI::arrayType »](ffi.arraytype.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Повертає величину вирівнювання
-    
-
+---
+navigation:
+  - ffi.addr.html: '« FFI::addr'
+  - ffi.arraytype.html: 'FFI::arrayType »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::alignof'
+---
 # FFI::alignof
 
 (PHP 7> = 7.4.0, PHP 8)

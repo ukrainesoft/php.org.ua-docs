@@ -1,16 +1,11 @@
-Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
-
--   [« ZookeeperConfig::add](zookeeperconfig.add.html)
-    
--   [ZookeeperConfig::remove »](zookeeperconfig.remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZookeeperConfig](class.zookeeperconfig.html)
-    
--   Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
-    
-
+---
+navigation:
+  - zookeeperconfig.add.html: '« ZookeeperConfig::add'
+  - zookeeperconfig.remove.html: 'ZookeeperConfig::remove »'
+  - index.html: PHP Manual
+  - class.zookeeperconfig.html: ZookeeperConfig
+title: 'ZookeeperConfig::get'
+---
 # ZookeeperConfig::get
 
 (PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)

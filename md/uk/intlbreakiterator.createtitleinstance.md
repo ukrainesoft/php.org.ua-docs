@@ -1,16 +1,11 @@
-Створює ітератор переривання для розривів заголовків
-
--   [« IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.md)
-    
--   [IntlBreakIterator::createWordInstance »](intlbreakiterator.createwordinstance.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlBreakIterator](class.intlbreakiterator.md)
-    
--   Створює ітератор переривання для розривів заголовків
-    
-
+---
+navigation:
+  - intlbreakiterator.createsentenceinstance.md: '« IntlBreakIterator::createSentenceInstance'
+  - intlbreakiterator.createwordinstance.md: 'IntlBreakIterator::createWordInstance »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::createTitleInstance'
+---
 # IntlBreakIterator::createTitleInstance
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

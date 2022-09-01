@@ -1,16 +1,11 @@
-Приклади
-
--   [« solrgetversion](function.solr-get-version.html)
-    
--   [SolrUtils »](class.solrutils.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - function.solr-get-version.html: « solrgetversion
+  - class.solrutils.md: SolrUtils »
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Приклади
+---
 # Приклади
 
 Приклади використання модуля Apache Solr у PHP

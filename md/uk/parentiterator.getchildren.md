@@ -1,16 +1,11 @@
-Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
-
--   [« ParentIterator::construct](parentiterator.construct.md)
-    
--   [ParentIterator::hasChildren »](parentiterator.haschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [ParentIterator](class.parentiterator.md)
-    
--   Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
-    
-
+---
+navigation:
+  - parentiterator.construct.md: '« ParentIterator::construct'
+  - parentiterator.haschildren.md: 'ParentIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
+title: 'ParentIterator::getChildren'
+---
 # ParentIterator::getChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

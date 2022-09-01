@@ -1,16 +1,11 @@
-Клас SeasLog
-
--   [« seasloggetversion](function.seaslog-get-version.html)
-    
--   [SeasLog::alert »](seaslog.alert.md)
-    
--   [PHP Manual](index.md)
-    
--   [Seaslog](book.seaslog.md)
-    
--   Клас SeasLog
-    
-
+---
+navigation:
+  - function.seaslog-get-version.html: « seasloggetversion
+  - seaslog.alert.md: 'SeasLog::alert »'
+  - index.md: PHP Manual
+  - book.seaslog.md: Seaslog
+title: Клас SeasLog
+---
 # Клас SeasLog
 
 (PECL seaslog >=1.0.0)

@@ -1,16 +1,11 @@
-Клас SysvSharedMemory
-
--   [« SysvSemaphore](class.sysvsemaphore.html)
-    
--   [Управление разделяемой памятью »](book.shmop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Семафори](book.sem.html)
-    
--   Клас SysvSharedMemory
-    
-
+---
+navigation:
+  - class.sysvsemaphore.html: « SysvSemaphore
+  - book.shmop.html: Управление разделяемой памятью »
+  - index.html: PHP Manual
+  - book.sem.html: Семафори
+title: Клас SysvSharedMemory
+---
 # Клас SysvSharedMemory
 
 (PHP 8)

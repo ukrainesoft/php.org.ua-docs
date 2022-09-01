@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](exif.setup.html)
-    
--   [Установка »](exif.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](exif.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - exif.setup.html: « Встановлення та налаштування
+  - exif.installation.html: Установка »
+  - index.html: PHP Manual
+  - exif.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Ваш PHP має бути скомпільований з опцією `--enable-exif`. Для включення підтримки багатобайтових кодувань у тегах EXIF ​​необхідно увімкнути модуль [mbstring](ref.mbstring.html). Включити його можна, скомпілювавши PHP з опцією `--enable-mbstring`

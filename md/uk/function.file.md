@@ -1,16 +1,11 @@
-Читає вміст файлу та поміщає його в масив
-
--   [« fileputcontents](function.file-put-contents.html)
-    
--   [fileatime »](function.fileatime.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Читає вміст файлу та поміщає його в масив
-    
-
+---
+navigation:
+  - function.file-put-contents.html: « fileputcontents
+  - function.fileatime.md: fileatime »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: file
+---
 # file
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

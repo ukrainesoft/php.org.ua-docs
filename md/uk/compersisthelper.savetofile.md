@@ -1,16 +1,11 @@
-Зберегти об'єкт у файл
-
--   [« COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.html)
-    
--   [COMPersistHelper::SaveToStream »](compersisthelper.savetostream.html)
-    
--   [PHP Manual](index.html)
-    
--   [COMPersistHelper](class.compersisthelper.html)
-    
--   Зберегти об'єкт у файл
-    
-
+---
+navigation:
+  - compersisthelper.loadfromstream.html: '« COMPersistHelper::LoadFromStream'
+  - compersisthelper.savetostream.html: 'COMPersistHelper::SaveToStream »'
+  - index.html: PHP Manual
+  - class.compersisthelper.html: COMPersistHelper
+title: 'COMPersistHelper::SaveToFile'
+---
 # COMPersistHelper::SaveToFile
 
 (PHP 5, PHP 7, PHP 8)

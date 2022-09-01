@@ -1,16 +1,11 @@
-Використання поля
-
--   [« UIWindow::setFullScreen](ui-window.setfullscreen.html)
-    
--   [ОЙWindow::setSize »](ui-window.setsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Використання поля
-    
-
+---
+navigation:
+  - ui-window.setfullscreen.html: '« UIWindow::setFullScreen'
+  - ui-window.setsize.html: 'ОЙWindow::setSize »'
+  - index.html: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::setMargin'
+---
 # ОЙWindow::setMargin
 
 (UI 0.9.9)

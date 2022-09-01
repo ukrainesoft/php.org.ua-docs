@@ -1,16 +1,11 @@
-Перевірити ідентифікатор
-
--   [« SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
-    
--   [Обработка текста »](refs.basic.text.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
-    
--   Перевірити ідентифікатор
-    
-
+---
+navigation:
+  - sessionupdatetimestamphandlerinterface.updatetimestamp.md: '« SessionUpdateTimestampHandlerInterface::updateTimestamp'
+  - refs.basic.text.md: Обработка текста »
+  - index.md: PHP Manual
+  - class.sessionupdatetimestamphandlerinterface.md: SessionUpdateTimestampHandlerInterface
+title: 'SessionUpdateTimestampHandlerInterface::validateId'
+---
 # SessionUpdateTimestampHandlerInterface::validateId
 
 (PHP 7, PHP 8)

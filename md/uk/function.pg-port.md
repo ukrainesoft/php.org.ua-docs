@@ -1,16 +1,11 @@
-Повертає номер порту, який відповідає заданому з'єднанню
-
--   [« pgping](function.pg-ping.html)
-    
--   [пгprepare »](function.pg-prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Повертає номер порту, який відповідає заданому з'єднанню
-    
-
+---
+navigation:
+  - function.pg-ping.html: « pgping
+  - function.pg-prepare.html: пгprepare »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгport
+---
 # пгport
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ pg_port(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

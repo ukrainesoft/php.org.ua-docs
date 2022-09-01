@@ -1,16 +1,11 @@
-Обмежує збіги виразами, що починаються з префіксу
-
--   [« SolrQuery::setTermsMinCount](solrquery.settermsmincount.html)
-    
--   [SolrQuery::setTermsReturnRaw »](solrquery.settermsreturnraw.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Обмежує збіги виразами, що починаються з префіксу
-    
-
+---
+navigation:
+  - solrquery.settermsmincount.html: '« SolrQuery::setTermsMinCount'
+  - solrquery.settermsreturnraw.html: 'SolrQuery::setTermsReturnRaw »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setTermsPrefix'
+---
 # SolrQuery::setTermsPrefix
 
 (PECL solr> = 0.9.2)

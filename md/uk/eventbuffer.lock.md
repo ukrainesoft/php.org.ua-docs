@@ -1,16 +1,11 @@
-Отримує блокування буфера
-
--   [« EventBuffer::freeze](eventbuffer.freeze.html)
-    
--   [EventBuffer::prepend »](eventbuffer.prepend.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Отримує блокування буфера
-    
-
+---
+navigation:
+  - eventbuffer.freeze.html: '« EventBuffer::freeze'
+  - eventbuffer.prepend.html: 'EventBuffer::prepend »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::lock'
+---
 # EventBuffer::lock
 
 (PECL event >= 1.2.6-beta)

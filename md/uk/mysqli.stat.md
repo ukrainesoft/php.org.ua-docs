@@ -1,16 +1,11 @@
-Отримання інформації про поточний стан системи
-
--   [« mysqli::sslset](mysqli.ssl-set.html)
-    
--   [mysqli::stmtinit »](mysqli.stmt-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Отримання інформації про поточний стан системи
-    
-
+---
+navigation:
+  - mysqli.ssl-set.html: '« mysqli::sslset'
+  - mysqli.stmt-init.html: 'mysqli::stmtinit »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::stat'
+---
 # mysqli::stat
 
 # mysqliстати

@@ -1,16 +1,11 @@
-Повертає кількість символів у рядку
-
--   [« iconvsetencoding](function.iconv-set-encoding.html)
-    
--   [iconvstrpos »](function.iconv-strpos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции iconv](ref.iconv.html)
-    
--   Повертає кількість символів у рядку
-    
-
+---
+navigation:
+  - function.iconv-set-encoding.html: « iconvsetencoding
+  - function.iconv-strpos.html: iconvstrpos »
+  - index.html: PHP Manual
+  - ref.iconv.html: Функции iconv
+title: iconvstrlen
+---
 # iconvstrlen
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ iconv_strlen(string $string, ?string $encoding = null): int|false
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `encoding` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Повертає значення за промовчанням, задане для властивості
-
--   [« ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.html)
-    
--   [ReflectionProperty::getDocComment »](reflectionproperty.getdoccomment.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Повертає значення за промовчанням, задане для властивості
-    
-
+---
+navigation:
+  - reflectionproperty.getdeclaringclass.html: '« ReflectionProperty::getDeclaringClass'
+  - reflectionproperty.getdoccomment.html: 'ReflectionProperty::getDocComment »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::getDefaultValue'
+---
 # ReflectionProperty::getDefaultValue
 
 (PHP 8)

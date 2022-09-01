@@ -1,16 +1,11 @@
-Створення нової транзакції
-
--   [« svnreposcreate](function.svn-repos-create.html)
-    
--   [svnreposфсcommittxn »](function.svn-repos-fs-commit-txn.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Створення нової транзакції
-    
-
+---
+navigation:
+  - function.svn-repos-create.html: « svnreposcreate
+  - function.svn-repos-fs-commit-txn.html: svnreposфсcommittxn »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnreposфсbegintxnforcommit
+---
 # svnreposфсbegintxnforcommit
 
 (PECL svn >= 0.2.0)

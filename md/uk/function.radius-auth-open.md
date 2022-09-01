@@ -1,16 +1,11 @@
-Створює дескриптор Radius для автентифікації
-
--   [« radiusaddserver](function.radius-add-server.html)
-    
--   [radiusclose »](function.radius-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Створює дескриптор Radius для автентифікації
-    
-
+---
+navigation:
+  - function.radius-add-server.html: « radiusaddserver
+  - function.radius-close.html: radiusclose »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusauthopen
+---
 # radiusauthopen
 
 (PECL radius >= 1.1.0)

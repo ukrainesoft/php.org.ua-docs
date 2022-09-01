@@ -1,16 +1,11 @@
-Імпортувати з бінарного рядка
-
--   [« gmphamdist](function.gmp-hamdist.html)
-    
--   [gmpinit »](function.gmp-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Імпортувати з бінарного рядка
-    
-
+---
+navigation:
+  - function.gmp-hamdist.html: « gmphamdist
+  - function.gmp-init.html: gmpinit »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpimport
+---
 # gmpimport
 
 (PHP 5> = 5.6.1, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ gmp_import(string $data, int $word_size = 1, int $flags = GMP_MSW_FIRST | GMP_NA
 
 ### список змін
 
-| Версия | Описание                                                          |
-|--------|-------------------------------------------------------------------|
-|        | Функція більше не повертає **`false`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

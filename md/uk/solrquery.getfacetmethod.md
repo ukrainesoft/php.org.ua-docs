@@ -1,16 +1,11 @@
-Повертає значення параметра facet.method
-
--   [« SolrQuery::getFacetLimit](solrquery.getfacetlimit.md)
-    
--   [SolrQuery::getFacetMinCount »](solrquery.getfacetmincount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає значення параметра facet.method
-    
-
+---
+navigation:
+  - solrquery.getfacetlimit.md: '« SolrQuery::getFacetLimit'
+  - solrquery.getfacetmincount.md: 'SolrQuery::getFacetMinCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacetMethod'
+---
 # SolrQuery::getFacetMethod
 
 (PECL solr> = 0.9.2)

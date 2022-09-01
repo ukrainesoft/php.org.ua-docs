@@ -1,16 +1,11 @@
-Встановіть іменовану точку збереження транзакції
-
--   [« mysqli::rollback](mysqli.rollback.html)
-    
--   [mysqli::selectdb »](mysqli.select-db.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Встановіть іменовану точку збереження транзакції
-    
-
+---
+navigation:
+  - mysqli.rollback.html: '« mysqli::rollback'
+  - mysqli.select-db.html: 'mysqli::selectdb »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::savepoint'
+---
 # mysqli::savepoint
 
 # mysqlisavepoint

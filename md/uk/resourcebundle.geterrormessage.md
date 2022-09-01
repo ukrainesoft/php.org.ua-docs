@@ -1,16 +1,11 @@
-Отримати останнє повідомлення про помилку пакету
-
--   [« ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md)
-    
--   [ResourceBundle::get »](resourcebundle.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [ResourceBundle](class.resourcebundle.md)
-    
--   Отримати останнє повідомлення про помилку пакету
-    
-
+---
+navigation:
+  - resourcebundle.geterrorcode.md: '« ResourceBundle::getErrorCode'
+  - resourcebundle.get.md: 'ResourceBundle::get »'
+  - index.md: PHP Manual
+  - class.resourcebundle.md: ResourceBundle
+title: 'ResourceBundle::getErrorMessage'
+---
 # ResourceBundle::getErrorMessage
 
 # resourcebundlegeterrormessage

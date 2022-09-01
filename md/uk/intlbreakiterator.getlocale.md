@@ -1,16 +1,11 @@
-Повертає локаль, пов'язану з об'єктом
-
--   [« IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.html)
-    
--   [IntlBreakIterator::getPartsIterator »](intlbreakiterator.getpartsiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlBreakIterator](class.intlbreakiterator.html)
-    
--   Повертає локаль, пов'язану з об'єктом
-    
-
+---
+navigation:
+  - intlbreakiterator.geterrormessage.html: '« IntlBreakIterator::getErrorMessage'
+  - intlbreakiterator.getpartsiterator.html: 'IntlBreakIterator::getPartsIterator »'
+  - index.html: PHP Manual
+  - class.intlbreakiterator.html: IntlBreakIterator
+title: 'IntlBreakIterator::getLocale'
+---
 # IntlBreakIterator::getLocale
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

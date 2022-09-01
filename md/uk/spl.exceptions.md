@@ -1,16 +1,11 @@
-Винятки
-
--   [« SeekableIterator::seek](seekableiterator.seek.md)
-    
--   [BadFunctionCallException »](class.badfunctioncallexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Винятки
-    
-
+---
+navigation:
+  - seekableiterator.seek.md: '« SeekableIterator::seek'
+  - class.badfunctioncallexception.md: BadFunctionCallException »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Винятки
+---
 # Винятки
 
 ## Зміст

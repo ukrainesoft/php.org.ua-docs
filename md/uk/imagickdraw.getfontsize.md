@@ -1,16 +1,11 @@
-Повертає розмір шрифту
-
--   [« ImagickDraw::getFontFamily](imagickdraw.getfontfamily.html)
-    
--   [ImagickDraw::getFontStretch »](imagickdraw.getfontstretch.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає розмір шрифту
-    
-
+---
+navigation:
+  - imagickdraw.getfontfamily.html: '« ImagickDraw::getFontFamily'
+  - imagickdraw.getfontstretch.html: 'ImagickDraw::getFontStretch »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getFontSize'
+---
 # ImagickDraw::getFontSize
 
 (PECL imagick 2, PECL imagick 3)

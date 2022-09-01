@@ -1,16 +1,11 @@
-Псевдонім OCILob::export
-
--   [« ocistatementtype](function.ocistatementtype.html)
-    
--   [ociwritetemporarylob »](function.ociwritetemporarylob.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім OCILob::export
-    
-
+---
+navigation:
+  - function.ocistatementtype.html: « ocistatementtype
+  - function.ociwritetemporarylob.html: ociwritetemporarylob »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ociwritelobtofile
+---
 # ociwritelobtofile
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

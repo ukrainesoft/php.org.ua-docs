@@ -1,16 +1,11 @@
-Фігура Підстилка
-
--   [« tradercdlmatchinglow](function.trader-cdlmatchinglow.html)
-    
--   [tradercdlmorningdojistar »](function.trader-cdlmorningdojistar.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Фігура Підстилка
-    
-
+---
+navigation:
+  - function.trader-cdlmatchinglow.html: « tradercdlmatchinglow
+  - function.trader-cdlmorningdojistar.html: tradercdlmorningdojistar »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlmathold
+---
 # tradercdlmathold
 
 (PECL trader >= 0.2.0)

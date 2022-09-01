@@ -1,16 +1,11 @@
-Повертає вкладені елементи поточного елемента
-
--   [« SimpleXMLIterator::current](simplexmliterator.current.md)
-    
--   [SimpleXMLIterator::hasChildren »](simplexmliterator.haschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLIterator](class.simplexmliterator.md)
-    
--   Повертає вкладені елементи поточного елемента
-    
-
+---
+navigation:
+  - simplexmliterator.current.md: '« SimpleXMLIterator::current'
+  - simplexmliterator.haschildren.md: 'SimpleXMLIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::getChildren'
+---
 # SimpleXMLIterator::getChildren
 
 (PHP 5, PHP 7, PHP 8)

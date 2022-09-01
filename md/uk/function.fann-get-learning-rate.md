@@ -1,16 +1,11 @@
-Повертає швидкість навчання
-
--   [« fanngetlearningmomentum](function.fann-get-learning-momentum.html)
-    
--   [fanngetMSE »](function.fann-get-mse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає швидкість навчання
-    
-
+---
+navigation:
+  - function.fann-get-learning-momentum.html: « fanngetlearningmomentum
+  - function.fann-get-mse.html: fanngetMSE »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetlearningrate
+---
 # fanngetlearningrate
 
 (PECL fann> = 1.0.0)

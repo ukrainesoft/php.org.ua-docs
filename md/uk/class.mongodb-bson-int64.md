@@ -1,16 +1,11 @@
-Клас MongoDBBSONInt64
-
--   [« MongoDBBSONDBPointer::unserialize](mongodb-bson-dbpointer.unserialize.html)
-    
--   [MongoDBBSONInt64::construct »](mongodb-bson-int64.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONInt64
-    
-
+---
+navigation:
+  - mongodb-bson-dbpointer.unserialize.html: '« MongoDBBSONDBPointer::unserialize'
+  - mongodb-bson-int64.construct.html: 'MongoDBBSONInt64::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONInt64
+---
 # Клас MongoDBBSONInt64
 
 (mongodb >=1.5.0)
@@ -52,8 +47,8 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                           |
-|---------------------|--------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
 
 ## Зміст

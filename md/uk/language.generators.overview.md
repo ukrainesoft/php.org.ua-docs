@@ -1,16 +1,11 @@
-Знайомство з генераторами
-
--   [« Генератори](language.generators.md)
-    
--   [Синтаксис генераторів »](language.generators.syntax.md)
-    
--   [PHP Manual](index.md)
-    
--   [Генератори](language.generators.md)
-    
--   Знайомство з генераторами
-    
-
+---
+navigation:
+  - language.generators.md: « Генератори
+  - language.generators.syntax.md: Синтаксис генераторів »
+  - index.md: PHP Manual
+  - language.generators.md: Генератори
+title: Знайомство з генераторами
+---
 ## Знайомство з генераторами
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

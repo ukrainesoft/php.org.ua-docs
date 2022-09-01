@@ -1,16 +1,11 @@
-Отримання імені властивості
-
--   [« ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.html)
-    
--   [ReflectionProperty::getType »](reflectionproperty.gettype.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Отримання імені властивості
-    
-
+---
+navigation:
+  - reflectionproperty.getmodifiers.html: '« ReflectionProperty::getModifiers'
+  - reflectionproperty.gettype.html: 'ReflectionProperty::getType »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::getName'
+---
 # ReflectionProperty::getName
 
 (PHP 5, PHP 7, PHP 8)

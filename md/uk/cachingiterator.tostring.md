@@ -1,16 +1,11 @@
-Повертає строкове представлення поточного елемента
-
--   [« CachingIterator::setFlags](cachingiterator.setflags.md)
-    
--   [CachingIterator::valid »](cachingiterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Повертає строкове представлення поточного елемента
-    
-
+---
+navigation:
+  - cachingiterator.setflags.md: '« CachingIterator::setFlags'
+  - cachingiterator.valid.md: 'CachingIterator::valid »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::toString'
+---
 # CachingIterator::toString
 
 (PHP 5, PHP 7, PHP 8)

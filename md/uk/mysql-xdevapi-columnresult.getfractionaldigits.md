@@ -1,16 +1,11 @@
-Отримує дробову довжину цифри
-
--   [« ColumnResult::getColumnName](mysql-xdevapi-columnresult.getcolumnname.html)
-    
--   [ColumnResult::getLength »](mysql-xdevapi-columnresult.getlength.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує дробову довжину цифри
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getcolumnname.html: '« ColumnResult::getColumnName'
+  - mysql-xdevapi-columnresult.getlength.html: 'ColumnResult::getLength »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getFractionalDigits'
+---
 # ColumnResult::getFractionalDigits
 
 (No version information available, might only be in Git)

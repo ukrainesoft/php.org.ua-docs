@@ -1,16 +1,11 @@
-Повертає іменовану властивість зображення
-
--   [« Imagick::getImageProperties](imagick.getimageproperties.html)
-    
--   [Imagick::getImageRedPrimary »](imagick.getimageredprimary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає іменовану властивість зображення
-    
-
+---
+navigation:
+  - imagick.getimageproperties.html: '« Imagick::getImageProperties'
+  - imagick.getimageredprimary.html: 'Imagick::getImageRedPrimary »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageProperty'
+---
 # Imagick::getImageProperty
 
 (PECL imagick 2, PECL imagick 3)

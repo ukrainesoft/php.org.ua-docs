@@ -1,16 +1,11 @@
-Додає запис до бази даних
-
--   [« dBase](ref.dbase.html)
-    
--   [dbaseclose »](function.dbase-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](ref.dbase.html)
-    
--   Додає запис до бази даних
-    
-
+---
+navigation:
+  - ref.dbase.html: « dBase
+  - function.dbase-close.html: dbaseclose »
+  - index.html: PHP Manual
+  - ref.dbase.html: dBase
+title: dbaseaddrecord
+---
 # dbaseaddrecord
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -45,8 +40,8 @@ dbase_add_record(resource $database, array $data): bool
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

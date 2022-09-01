@@ -1,16 +1,11 @@
-Перетворює колекцію на масив (array)
-
--   [« DsSet::sum](ds-set.sum.html)
-    
--   [ДсSet::union »](ds-set.union.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Перетворює колекцію на масив (array)
-    
-
+---
+navigation:
+  - ds-set.sum.html: '« DsSet::sum'
+  - ds-set.union.html: 'ДсSet::union »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::toArray'
+---
 # ДсSet::toArray
 
 (PECL ds >= 1.0.0)

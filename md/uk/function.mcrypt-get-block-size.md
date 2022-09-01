@@ -1,16 +1,11 @@
-Повертає розмір блоку для зазначеного шифру
-
--   [« mcryptgeneric](function.mcrypt-generic.html)
-    
--   [mcryptgetciphername »](function.mcrypt-get-cipher-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Повертає розмір блоку для зазначеного шифру
-    
-
+---
+navigation:
+  - function.mcrypt-generic.html: « mcryptgeneric
+  - function.mcrypt-get-cipher-name.html: mcryptgetciphername »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptgetblocksize
+---
 # mcryptgetblocksize
 
 (PHP 4, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає вираз для зупинки
-
--   [« SolrQuery::getTermsSort](solrquery.gettermssort.html)
-    
--   [SolrQuery::getTimeAllowed »](solrquery.gettimeallowed.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає вираз для зупинки
-    
-
+---
+navigation:
+  - solrquery.gettermssort.html: '« SolrQuery::getTermsSort'
+  - solrquery.gettimeallowed.html: 'SolrQuery::getTimeAllowed »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTermsUpperBound'
+---
 # SolrQuery::getTermsUpperBound
 
 (PECL solr> = 0.9.2)

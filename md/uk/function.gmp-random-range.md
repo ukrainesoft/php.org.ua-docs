@@ -1,16 +1,11 @@
-Випадкове число
-
--   [« gmprandombits](function.gmp-random-bits.html)
-    
--   [gmprandomseed »](function.gmp-random-seed.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Випадкове число
-    
-
+---
+navigation:
+  - function.gmp-random-bits.html: « gmprandombits
+  - function.gmp-random-seed.html: gmprandomseed »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmprandomrange
+---
 # gmprandomrange
 
 (PHP 5> = 5.6.3, PHP 7, PHP 8)

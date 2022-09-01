@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](fann.requirements.html)
-    
--   [Налаштування під час виконання »](fann.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](fann.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - fann.requirements.html: « Вимоги
+  - fann.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - fann.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль FANN має працювати на будь-яких дистрибутивах Linux.

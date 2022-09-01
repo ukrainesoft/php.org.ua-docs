@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.simplexml.md)
-    
--   [Вимоги »](simplexml.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXML](book.simplexml.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.simplexml.md: « Введение
+  - simplexml.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.simplexml.md: SimpleXML
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

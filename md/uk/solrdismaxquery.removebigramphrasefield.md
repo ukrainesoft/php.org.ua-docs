@@ -1,16 +1,11 @@
-Видаляє поле біграми фрази (параметр pf2)
-
--   [« SolrDisMaxQuery::construct](solrdismaxquery.construct.md)
-    
--   [SolrDisMaxQuery::removeBoostQuery »](solrdismaxquery.removeboostquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Видаляє поле біграми фрази (параметр pf2)
-    
-
+---
+navigation:
+  - solrdismaxquery.construct.md: '« SolrDisMaxQuery::construct'
+  - solrdismaxquery.removeboostquery.md: 'SolrDisMaxQuery::removeBoostQuery »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::removeBigramPhraseField'
+---
 # SolrDisMaxQuery::removeBigramPhraseField
 
 (No version information available, might only be in Git)

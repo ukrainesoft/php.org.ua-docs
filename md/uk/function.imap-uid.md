@@ -1,16 +1,11 @@
-Отримати UID за номером повідомлення
-
--   [« imaptimeout](function.imap-timeout.html)
-    
--   [imapundelete »](function.imap-undelete.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Отримати UID за номером повідомлення
-    
-
+---
+navigation:
+  - function.imap-timeout.html: « imaptimeout
+  - function.imap-undelete.html: imapundelete »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapuid
+---
 # imapuid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ UID заданого листа.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

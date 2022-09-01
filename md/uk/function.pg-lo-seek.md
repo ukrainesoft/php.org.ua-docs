@@ -1,16 +1,11 @@
-Переміщує внутрішній покажчик великого об'єкту
-
--   [« pgлоread](function.pg-lo-read.html)
-    
--   [пглоtell »](function.pg-lo-tell.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Переміщує внутрішній покажчик великого об'єкту
-    
-
+---
+navigation:
+  - function.pg-lo-read.html: « pgлоread
+  - function.pg-lo-tell.html: пглоtell »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоseek
+---
 # пглоseek
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

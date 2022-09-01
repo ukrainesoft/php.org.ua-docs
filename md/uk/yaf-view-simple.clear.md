@@ -1,16 +1,11 @@
-Скидає призначені значення
-
--   [« YafViewSimple::assignRef](yaf-view-simple.assignref.html)
-    
--   [YafViewSimple::construct »](yaf-view-simple.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Скидає призначені значення
-    
-
+---
+navigation:
+  - yaf-view-simple.assignref.html: '« YafViewSimple::assignRef'
+  - yaf-view-simple.construct.html: 'YafViewSimple::construct »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::clear'
+---
 # YafViewSimple::clear
 
 (Yaf> = 2.2.0)

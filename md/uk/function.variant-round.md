@@ -1,16 +1,11 @@
-Округлює варіант із заданою точністю
-
--   [« variantpow](function.variant-pow.html)
-    
--   [variantsettype »](function.variant-set-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Округлює варіант із заданою точністю
-    
-
+---
+navigation:
+  - function.variant-pow.html: « variantpow
+  - function.variant-set-type.html: variantsettype »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantround
+---
 # variantround
 
 (PHP 5, PHP 7, PHP 8)

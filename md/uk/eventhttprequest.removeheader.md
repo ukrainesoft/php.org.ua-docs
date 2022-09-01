@@ -1,16 +1,11 @@
-Видаляє заголовок HTTP із заголовків запиту
-
--   [« EventHttpRequest::getUri](eventhttprequest.geturi.md)
-    
--   [EventHttpRequest::sendError »](eventhttprequest.senderror.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Видаляє заголовок HTTP із заголовків запиту
-    
-
+---
+navigation:
+  - eventhttprequest.geturi.md: '« EventHttpRequest::getUri'
+  - eventhttprequest.senderror.md: 'EventHttpRequest::sendError »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::removeHeader'
+---
 # EventHttpRequest::removeHeader
 
 (PECL event >= 1.4.0-beta)

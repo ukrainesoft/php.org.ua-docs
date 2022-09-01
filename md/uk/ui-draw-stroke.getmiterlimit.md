@@ -1,16 +1,11 @@
-Отримати межу зрізу
-
--   [« UIDrawStroke::getJoin](ui-draw-stroke.getjoin.html)
-    
--   [ОЙDrawStroke::getThickness »](ui-draw-stroke.getthickness.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawStroke](class.ui-draw-stroke.html)
-    
--   Отримати межу зрізу
-    
-
+---
+navigation:
+  - ui-draw-stroke.getjoin.html: '« UIDrawStroke::getJoin'
+  - ui-draw-stroke.getthickness.html: 'ОЙDrawStroke::getThickness »'
+  - index.html: PHP Manual
+  - class.ui-draw-stroke.html: ОЙDrawStroke
+title: 'ОЙDrawStroke::getMiterLimit'
+---
 # ОЙDrawStroke::getMiterLimit
 
 (UI 0.9.9)

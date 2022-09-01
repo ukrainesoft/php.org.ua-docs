@@ -1,16 +1,11 @@
-Mcrypt
-
--   [« Шифри Mcrypt](mcrypt.ciphers.md)
-    
--   [mcryptcreateiv »](function.mcrypt-create-iv.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](book.mcrypt.md)
-    
--   Mcrypt
-    
-
+---
+navigation:
+  - mcrypt.ciphers.md: « Шифри Mcrypt
+  - function.mcrypt-create-iv.html: mcryptcreateiv »
+  - index.md: PHP Manual
+  - book.mcrypt.md: Mcrypt
+title: Mcrypt
+---
 # Mcrypt
 
 ## Зміст

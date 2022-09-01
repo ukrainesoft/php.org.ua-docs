@@ -1,16 +1,11 @@
-Перевірити, чи зупинено дочірній процес
-
--   [pcntlwifsignaled](function.pcntl-wifsignaled.html)
-    
--   [pcntlwstopsig »](function.pcntl-wstopsig.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Перевірити, чи зупинено дочірній процес
-    
-
+---
+navigation:
+  - function.pcntl-wifsignaled.html: pcntlwifsignaled
+  - function.pcntl-wstopsig.html: pcntlwstopsig »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlwifstopped
+---
 # pcntlwifstopped
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

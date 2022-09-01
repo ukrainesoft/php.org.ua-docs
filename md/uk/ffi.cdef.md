@@ -1,16 +1,11 @@
-Створює новий об'єкт FFI
-
--   [« FFI::cast](ffi.cast.md)
-    
--   [FFI::free »](ffi.free.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Створює новий об'єкт FFI
-    
-
+---
+navigation:
+  - ffi.cast.md: '« FFI::cast'
+  - ffi.free.md: 'FFI::free »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::cdef'
+---
 # FFI::cdef
 
 (PHP 7> = 7.4.0, PHP 8)
@@ -49,6 +44,6 @@ public static FFI::cdef(string $code = "", ?string $lib = null): FFI
 
 ### список змін
 
-| Версия | Описание                            |
-|--------|-------------------------------------|
-|        | `lib` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `lib` тепер допускає значення null. |

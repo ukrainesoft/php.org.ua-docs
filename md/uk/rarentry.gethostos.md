@@ -1,16 +1,11 @@
-Повертає оригінальну ОС елемента
-
--   [« RarEntry::getFileTime](rarentry.getfiletime.md)
-    
--   [RarEntry::getMethod »](rarentry.getmethod.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarEntry](class.rarentry.md)
-    
--   Повертає оригінальну ОС елемента
-    
-
+---
+navigation:
+  - rarentry.getfiletime.md: '« RarEntry::getFileTime'
+  - rarentry.getmethod.md: 'RarEntry::getMethod »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getHostOs'
+---
 # RarEntry::getHostOs
 
 (PECL rar >= 0.1)

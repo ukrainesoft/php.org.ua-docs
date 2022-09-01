@@ -1,16 +1,11 @@
-Створює візерунок на основі затінення
-
--   [«pssetpolydash](function.ps-setpolydash.html)
-    
--   [псshading »](function.ps-shading.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Створює візерунок на основі затінення
-    
-
+---
+navigation:
+  - function.ps-setpolydash.html: «pssetpolydash
+  - function.ps-shading.html: псshading »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псshadingpattern
+---
 # псshadingpattern
 
 (PECL ps >= 1.3.0)

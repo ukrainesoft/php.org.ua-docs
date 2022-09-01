@@ -1,16 +1,11 @@
-Повертає, чи сесія була позначена як брудна
-
--   [« MongoDBDriverSession::getTransactionState](mongodb-driver-session.gettransactionstate.html)
-    
--   [MongoDBDriverSession::isInTransaction »](mongodb-driver-session.isintransaction.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Повертає, чи сесія була позначена як брудна
-    
-
+---
+navigation:
+  - mongodb-driver-session.gettransactionstate.html: '« MongoDBDriverSession::getTransactionState'
+  - mongodb-driver-session.isintransaction.html: 'MongoDBDriverSession::isInTransaction »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::isDirty'
+---
 # MongoDBDriverSession::isDirty
 
 (mongodb >=1.13.0)

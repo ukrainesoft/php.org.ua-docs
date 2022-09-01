@@ -1,16 +1,11 @@
-Стискає всі файли у поточному Phar-архіві
-
--   [« Phar::compress](phar.compress.md)
-    
--   [Phar::construct »](phar.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Стискає всі файли у поточному Phar-архіві
-    
-
+---
+navigation:
+  - phar.compress.md: '« Phar::compress'
+  - phar.construct.md: 'Phar::construct »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::compressFiles'
+---
 # Phar::compressFiles
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

@@ -1,16 +1,11 @@
-Повертає розмір вектора, що ініціалізує, для відповідної комбінації шифру та режиму
-
--   [« mcryptgetciphername](function.mcrypt-get-cipher-name.html)
-    
--   [mcryptgetkeysize »](function.mcrypt-get-key-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Повертає розмір вектора, що ініціалізує, для відповідної комбінації шифру та режиму
-    
-
+---
+navigation:
+  - function.mcrypt-get-cipher-name.html: « mcryptgetciphername
+  - function.mcrypt-get-key-size.html: mcryptgetkeysize »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptgetвербsize
+---
 # mcryptgetвербsize
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

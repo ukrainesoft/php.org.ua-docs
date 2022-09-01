@@ -1,16 +1,11 @@
-Повертає список методів у вигляді масиву
-
--   [« ReflectionClass::getMethod](reflectionclass.getmethod.md)
-    
--   [ReflectionClass::getModifiers »](reflectionclass.getmodifiers.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає список методів у вигляді масиву
-    
-
+---
+navigation:
+  - reflectionclass.getmethod.md: '« ReflectionClass::getMethod'
+  - reflectionclass.getmodifiers.md: 'ReflectionClass::getModifiers »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getMethods'
+---
 # ReflectionClass::getMethods
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ public ReflectionClass::getMethods(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `filter` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filter` тепер допускає значення null. |
 
 ### Приклади
 

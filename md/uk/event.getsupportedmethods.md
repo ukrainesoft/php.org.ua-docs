@@ -1,16 +1,11 @@
-Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
-
--   [« Event::free](event.free.md)
-    
--   [Event::pending »](event.pending.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
-    
-
+---
+navigation:
+  - event.free.md: '« Event::free'
+  - event.pending.md: 'Event::pending »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::getSupportedMethods'
+---
 # Event::getSupportedMethods
 
 (PECL event >= 1.2.6-beta)

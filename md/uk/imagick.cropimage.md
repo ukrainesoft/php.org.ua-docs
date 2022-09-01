@@ -1,16 +1,11 @@
-Витягує область зображення
-
--   [« Imagick::count](imagick.count.md)
-    
--   [Imagick::cropThumbnailImage »](imagick.cropthumbnailimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Витягує область зображення
-    
-
+---
+navigation:
+  - imagick.count.md: '« Imagick::count'
+  - imagick.cropthumbnailimage.md: 'Imagick::cropThumbnailImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::cropImage'
+---
 # Imagick::cropImage
 
 (PECL imagick 2, PECL imagick 3)

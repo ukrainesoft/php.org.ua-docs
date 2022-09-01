@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.curl.html)
-    
--   [Вимоги »](curl.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [cURL](book.curl.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.curl.html: « Введение
+  - curl.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.curl.html: cURL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

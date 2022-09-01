@@ -1,16 +1,11 @@
-Отримати поточний імітатор для класу
-
--   [« uopzgethook](function.uopz-get-hook.html)
-    
--   [uopzgetproperty »](function.uopz-get-property.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Отримати поточний імітатор для класу
-    
-
+---
+navigation:
+  - function.uopz-get-hook.html: « uopzgethook
+  - function.uopz-get-property.html: uopzgetproperty »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzgetmock
+---
 # uopzgetmock
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

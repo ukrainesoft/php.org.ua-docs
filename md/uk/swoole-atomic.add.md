@@ -1,16 +1,11 @@
-Додає число до значення атомарного об'єкта
-
--   [« SwooleAtomic](class.swoole-atomic.html)
-    
--   [SwooleAtomic::cmpset »](swoole-atomic.cmpset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleAtomic](class.swoole-atomic.html)
-    
--   Додає число до значення атомарного об'єкта
-    
-
+---
+navigation:
+  - class.swoole-atomic.html: « SwooleAtomic
+  - swoole-atomic.cmpset.html: 'SwooleAtomic::cmpset »'
+  - index.html: PHP Manual
+  - class.swoole-atomic.html: SwooleAtomic
+title: 'SwooleAtomic::add'
+---
 # SwooleAtomic::add
 
 (PECL swoole >= 1.9.0)

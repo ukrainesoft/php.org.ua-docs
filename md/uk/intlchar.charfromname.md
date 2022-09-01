@@ -1,16 +1,11 @@
-Знайти символ Unicode на ім'я та повернути його код
-
--   [« IntlChar::charDirection](intlchar.chardirection.html)
-    
--   [IntlChar::charMirror »](intlchar.charmirror.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Знайти символ Unicode на ім'я та повернути його код
-    
-
+---
+navigation:
+  - intlchar.chardirection.html: '« IntlChar::charDirection'
+  - intlchar.charmirror.html: 'IntlChar::charMirror »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::charFromName'
+---
 # IntlChar::charFromName
 
 (PHP 7, PHP 8)

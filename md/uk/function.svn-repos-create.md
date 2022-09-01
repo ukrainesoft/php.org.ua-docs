@@ -1,16 +1,11 @@
-Створення нового репозиторію Subversion
-
--   [« svnmkdir](function.svn-mkdir.html)
-    
--   [svnreposфсbegintxnforcommit »](function.svn-repos-fs-begin-txn-for-commit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Створення нового репозиторію Subversion
-    
-
+---
+navigation:
+  - function.svn-mkdir.html: « svnmkdir
+  - function.svn-repos-fs-begin-txn-for-commit.html: svnreposфсbegintxnforcommit »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnreposcreate
+---
 # svnreposcreate
 
 (PECL svn> = 0.1.0)

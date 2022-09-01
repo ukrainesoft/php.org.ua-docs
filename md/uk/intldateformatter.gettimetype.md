@@ -1,16 +1,11 @@
-Отримує тип часу, який використовується IntlDateFormatter
-
--   [« IntlDateFormatter::getPattern](intldateformatter.getpattern.md)
-    
--   [IntlDateFormatter::getTimeZoneId »](intldateformatter.gettimezoneid.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Отримує тип часу, який використовується IntlDateFormatter
-    
-
+---
+navigation:
+  - intldateformatter.getpattern.md: '« IntlDateFormatter::getPattern'
+  - intldateformatter.gettimezoneid.md: 'IntlDateFormatter::getTimeZoneId »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::getTimeType'
+---
 # IntlDateFormatter::getTimeType
 
 # datefmtgettimetype

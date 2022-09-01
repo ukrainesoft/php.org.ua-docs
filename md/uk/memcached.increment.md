@@ -1,16 +1,11 @@
-Збільшує числове значення запису
-
--   [« Memcached::getVersion](memcached.getversion.md)
-    
--   [Memcached::incrementByKey »](memcached.incrementbykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Збільшує числове значення запису
-    
-
+---
+navigation:
+  - memcached.getversion.md: '« Memcached::getVersion'
+  - memcached.incrementbykey.md: 'Memcached::incrementByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::increment'
+---
 # Memcached::increment
 
 (PECL memcached >= 0.1.0)

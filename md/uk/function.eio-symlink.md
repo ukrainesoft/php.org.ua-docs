@@ -1,16 +1,11 @@
-Створює символічне посилання
-
--   [« eiostatvfs](function.eio-statvfs.html)
-    
--   [eiosyncfilerange »](function.eio-sync-file-range.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Створює символічне посилання
-    
-
+---
+navigation:
+  - function.eio-statvfs.html: « eiostatvfs
+  - function.eio-sync-file-range.html: eiosyncfilerange »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiosymlink
+---
 # eiosymlink
 
 (PECL eio >= 0.0.1dev)

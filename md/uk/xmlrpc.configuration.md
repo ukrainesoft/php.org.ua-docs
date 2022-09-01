@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](xmlrpc.installation.md)
-    
--   [Типи ресурсів »](xmlrpc.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](xmlrpc.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - xmlrpc.installation.md: « Установка
+  - xmlrpc.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - xmlrpc.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

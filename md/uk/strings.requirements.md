@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](strings.setup.md)
-    
--   [Установка »](strings.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](strings.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - strings.setup.md: « Встановлення та налаштування
+  - strings.installation.md: Установка »
+  - index.md: PHP Manual
+  - strings.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

@@ -1,16 +1,11 @@
-Повертає ідентифікатор поточного процесу
-
--   [« posixgetpgrp](function.posix-getpgrp.html)
-    
--   [posixgetppid »](function.posix-getppid.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Повертає ідентифікатор поточного процесу
-    
-
+---
+navigation:
+  - function.posix-getpgrp.html: « posixgetpgrp
+  - function.posix-getppid.html: posixgetppid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetpid
+---
 # posixgetpid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

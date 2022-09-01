@@ -1,16 +1,11 @@
-Синхронізація
-
--   [« parallelSync::wait](parallel-sync.wait.html)
-    
--   [parallelSync::invoke »](parallel-sync.invoke.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelSync](class.parallel-sync.html)
-    
--   Синхронізація
-    
-
+---
+navigation:
+  - parallel-sync.wait.html: '« parallelSync::wait'
+  - parallel-sync.invoke.html: 'parallelSync::invoke »'
+  - index.md: PHP Manual
+  - class.parallel-sync.html: parallelSync
+title: 'parallelSync::notify'
+---
 # parallelSync::notify
 
 parallelSync::notify — Синхронізація

@@ -1,16 +1,11 @@
-Повертає інформацію про сервер MySQL
-
--   [« mysqlgetprotoinfo](function.mysql-get-proto-info.html)
-    
--   [mysqlinfo »](function.mysql-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає інформацію про сервер MySQL
-    
-
+---
+navigation:
+  - function.mysql-get-proto-info.html: « mysqlgetprotoinfo
+  - function.mysql-info.html: mysqlinfo »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlgetserverinfo
+---
 # mysqlgetserverinfo
 
 (PHP 4> = 4.0.5, PHP 5)

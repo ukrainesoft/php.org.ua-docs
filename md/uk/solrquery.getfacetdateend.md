@@ -1,16 +1,11 @@
-Повертає значення параметра facet.date.end
-
--   [« SolrQuery::getFacet](solrquery.getfacet.html)
-    
--   [SolrQuery::getFacetDateFields »](solrquery.getfacetdatefields.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає значення параметра facet.date.end
-    
-
+---
+navigation:
+  - solrquery.getfacet.html: '« SolrQuery::getFacet'
+  - solrquery.getfacetdatefields.html: 'SolrQuery::getFacetDateFields »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getFacetDateEnd'
+---
 # SolrQuery::getFacetDateEnd
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Розшифровує CMS-повідомлення
-
--   [« opensslcipherвербlength](function.openssl-cipher-iv-length.html)
-    
--   [opensslcmsencrypt »](function.openssl-cms-encrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Розшифровує CMS-повідомлення
-    
-
+---
+navigation:
+  - function.openssl-cipher-iv-length.html: « opensslcipherвербlength
+  - function.openssl-cms-encrypt.html: opensslcmsencrypt »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslcmsdecrypt
+---
 # opensslcmsdecrypt
 
 (PHP 8)

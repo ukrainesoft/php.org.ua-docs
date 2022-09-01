@@ -1,16 +1,11 @@
-POSIX Функції
-
--   [« Константи posixsetrlimit](posix.constants.setrlimit.html)
-    
--   [posixaccess »](function.posix-access.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX](book.posix.html)
-    
--   POSIX Функції
-    
-
+---
+navigation:
+  - posix.constants.setrlimit.html: « Константи posixsetrlimit
+  - function.posix-access.html: posixaccess »
+  - index.html: PHP Manual
+  - book.posix.html: POSIX
+title: POSIX Функції
+---
 # POSIX Функції
 
 # Дивіться також

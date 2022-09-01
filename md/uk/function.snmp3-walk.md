@@ -1,16 +1,11 @@
-Отримує всі об'єкти SNMP з агента
-
--   [« snmpv3set](function.snmp3-set.html)
-    
--   [snmpget »](function.snmpget.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Отримує всі об'єкти SNMP з агента
-    
-
+---
+navigation:
+  - function.snmp3-set.html: « snmpv3set
+  - function.snmpget.md: snmpget »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpv3walk
+---
 # snmpv3walk
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -77,9 +72,9 @@ snmp3_walk(    string $hostname,    string $security_name,    string
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
-
--   [« fanndescaleoutput](function.fann-descale-output.html)
-    
--   [fanndestroytrain »](function.fann-destroy-train.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
-    
-
+---
+navigation:
+  - function.fann-descale-output.html: « fanndescaleoutput
+  - function.fann-destroy-train.html: fanndestroytrain »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanndescaletrain
+---
 # fanndescaletrain
 
 (PECL fann> = 1.0.0)

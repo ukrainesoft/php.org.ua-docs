@@ -1,16 +1,11 @@
-Додає до Диспетчера служб скрипт, який може бути використаний як служба із заданим ім'ям
-
--   [« win32setservicestatus](function.win32-set-service-status.html)
-    
--   [win32startservice »](function.win32-start-service.html)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](ref.win32service.md)
-    
--   Додає до Диспетчера служб скрипт, який може бути використаний як служба із заданим ім'ям
-    
-
+---
+navigation:
+  - function.win32-set-service-status.html: « win32setservicestatus
+  - function.win32-start-service.html: win32startservice »
+  - index.md: PHP Manual
+  - ref.win32service.md: win32service
+title: win32startservicectrldispatcher
+---
 # win32startservicectrldispatcher
 
 (PECL win32service >=0.1.0)
@@ -55,13 +50,13 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                          |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`**                                                   |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                        |
-| PECL win32service 0.4.0 | Доданий параметр `gracefulMode`                                                                                                                                   |
-| PECL win32service 0.2.0 | Ця функція працює тільки з `"cli"` SAPI.                                                                                                                          |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 0.4.0 | Доданий параметр `gracefulMode` |
+| PECL win32service 0.2.0 | Ця функція працює тільки з `"cli"` SAPI. |
 
 ### Приклади
 

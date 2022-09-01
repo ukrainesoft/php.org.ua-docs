@@ -1,16 +1,11 @@
-Отримати IP-адреси у форматі IPv4 кожної мережної плати (NIC) комп'ютера
-
--   [« swooleeventwrite](function.swoole-event-write.html)
-    
--   [swoolelasterror »](function.swoole-last-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Отримати IP-адреси у форматі IPv4 кожної мережної плати (NIC) комп'ютера
-    
-
+---
+navigation:
+  - function.swoole-event-write.html: « swooleeventwrite
+  - function.swoole-last-error.html: swoolelasterror »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swoolegetlocalіп
+---
 # swoolegetlocalіп
 
 (PECL swoole >= 1.9.0)

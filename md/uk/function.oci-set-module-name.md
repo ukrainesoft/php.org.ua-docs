@@ -1,16 +1,11 @@
-Задає ім'я модулю
-
--   [« ocisetedition](function.oci-set-edition.html)
-    
--   [ocisetprefetchlob »](function.oci-set-prefetch-lob.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Задає ім'я модулю
-    
-
+---
+navigation:
+  - function.oci-set-edition.html: « ocisetedition
+  - function.oci-set-prefetch-lob.html: ocisetprefetchlob »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocisetmodulename
+---
 # ocisetmodulename
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)

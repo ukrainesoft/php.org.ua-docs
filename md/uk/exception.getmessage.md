@@ -1,16 +1,11 @@
-Отримує повідомлення виключення
-
--   [« Exception::construct](exception.construct.html)
-    
--   [Exception::getPrevious »](exception.getprevious.html)
-    
--   [PHP Manual](index.html)
-    
--   [Exception](class.exception.html)
-    
--   Отримує повідомлення виключення
-    
-
+---
+navigation:
+  - exception.construct.html: '« Exception::construct'
+  - exception.getprevious.html: 'Exception::getPrevious »'
+  - index.html: PHP Manual
+  - class.exception.html: Exception
+title: 'Exception::getMessage'
+---
 # Exception::getMessage
 
 (PHP 5, PHP 7, PHP 8)

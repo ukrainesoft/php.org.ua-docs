@@ -1,16 +1,11 @@
-Задає тип алгоритму, який слід використовувати під час фасетування поля
-
--   [« SolrQuery::setFacetLimit](solrquery.setfacetlimit.md)
-    
--   [SolrQuery::setFacetMinCount »](solrquery.setfacetmincount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Задає тип алгоритму, який слід використовувати під час фасетування поля
-    
-
+---
+navigation:
+  - solrquery.setfacetlimit.md: '« SolrQuery::setFacetLimit'
+  - solrquery.setfacetmincount.md: 'SolrQuery::setFacetMinCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setFacetMethod'
+---
 # SolrQuery::setFacetMethod
 
 (PECL solr> = 0.9.2)

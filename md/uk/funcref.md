@@ -1,14 +1,10 @@
-Довідник функцій
-
--   [« Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.md)
-    
--   [Изменение поведения PHP »](refs.basic.php.md)
-    
--   [PHP Manual](index.md)
-    
--   Довідник функцій
-    
-
+---
+navigation:
+  - features.dtrace.systemtap.md: « Використання SystemTap зі статичними зондами PHP DTrace
+  - refs.basic.php.md: Изменение поведения PHP »
+  - index.md: PHP Manual
+title: Довідник функцій
+---
 # Довідник функцій
 
 **Підказка**

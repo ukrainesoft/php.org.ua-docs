@@ -1,16 +1,11 @@
-Отримує текст помилки останньої операції
-
--   [« IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.md)
-    
--   [IntlDateFormatter::getLocale »](intldateformatter.getlocale.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Отримує текст помилки останньої операції
-    
-
+---
+navigation:
+  - intldateformatter.geterrorcode.md: '« IntlDateFormatter::getErrorCode'
+  - intldateformatter.getlocale.md: 'IntlDateFormatter::getLocale »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::getErrorMessage'
+---
 # IntlDateFormatter::getErrorMessage
 
 # datefmtgeterrormessage

@@ -1,16 +1,11 @@
-Скинути дескриптор каталогу
-
--   [« readdir](function.readdir.md)
-    
--   [scandir »](function.scandir.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з каталогами](ref.dir.md)
-    
--   Скинути дескриптор каталогу
-    
-
+---
+navigation:
+  - function.readdir.md: « readdir
+  - function.scandir.md: scandir »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
+title: rewinddir
+---
 # rewinddir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,6 +32,6 @@ rewinddir(?resource $dir_handle = null): void
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `dir_handle` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `dir_handle` тепер допускає значення null. |

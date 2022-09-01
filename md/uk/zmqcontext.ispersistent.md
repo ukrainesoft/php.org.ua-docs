@@ -1,16 +1,11 @@
-Чи є контекст постійним
-
--   [« ZMQContext::getSocket](zmqcontext.getsocket.html)
-    
--   [ZMQContext::setOpt »](zmqcontext.setopt.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQContext](class.zmqcontext.html)
-    
--   Чи є контекст постійним
-    
-
+---
+navigation:
+  - zmqcontext.getsocket.html: '« ZMQContext::getSocket'
+  - zmqcontext.setopt.html: 'ZMQContext::setOpt »'
+  - index.html: PHP Manual
+  - class.zmqcontext.html: ZMQContext
+title: 'ZMQContext::isPersistent'
+---
 # ZMQContext::isPersistent
 
 (PECL zmq >= 0.5.0)

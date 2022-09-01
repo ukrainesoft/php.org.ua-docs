@@ -1,16 +1,11 @@
-Повертає документ відповіді heartbeat
-
--   [« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
-    
--   Повертає документ відповіді heartbeat
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply'
+---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply
 
 (mongodb >=1.13.0)

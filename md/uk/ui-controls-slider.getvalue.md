@@ -1,16 +1,11 @@
-Отримати значення
-
--   [« UIControlsSlider::construct](ui-controls-slider.construct.html)
-    
--   [ОЙControlsSlider::onChange »](ui-controls-slider.onchange.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsSlider](class.ui-controls-slider.html)
-    
--   Отримати значення
-    
-
+---
+navigation:
+  - ui-controls-slider.construct.html: '« UIControlsSlider::construct'
+  - ui-controls-slider.onchange.html: 'ОЙControlsSlider::onChange »'
+  - index.html: PHP Manual
+  - class.ui-controls-slider.html: ОЙControlsSlider
+title: 'ОЙControlsSlider::getValue'
+---
 # ОЙControlsSlider::getValue
 
 (UI 0.9.9)

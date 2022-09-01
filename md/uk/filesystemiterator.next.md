@@ -1,16 +1,11 @@
-Переміщення вказівника на наступний файл
-
--   [« FilesystemIterator::key](filesystemiterator.key.md)
-    
--   [FilesystemIterator::rewind »](filesystemiterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilesystemIterator](class.filesystemiterator.md)
-    
--   Переміщення вказівника на наступний файл
-    
-
+---
+navigation:
+  - filesystemiterator.key.md: '« FilesystemIterator::key'
+  - filesystemiterator.rewind.md: 'FilesystemIterator::rewind »'
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
+title: 'FilesystemIterator::next'
+---
 # FilesystemIterator::next
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

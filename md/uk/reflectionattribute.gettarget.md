@@ -1,16 +1,11 @@
-Повертає мету атрибута у вигляді бітової маски
-
--   [« ReflectionAttribute::getName](reflectionattribute.getname.md)
-    
--   [ReflectionAttribute::isRepeated »](reflectionattribute.isrepeated.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionAttribute](class.reflectionattribute.md)
-    
--   Повертає мету атрибута у вигляді бітової маски
-    
-
+---
+navigation:
+  - reflectionattribute.getname.md: '« ReflectionAttribute::getName'
+  - reflectionattribute.isrepeated.md: 'ReflectionAttribute::isRepeated »'
+  - index.md: PHP Manual
+  - class.reflectionattribute.md: ReflectionAttribute
+title: 'ReflectionAttribute::getTarget'
+---
 # ReflectionAttribute::getTarget
 
 (PHP 8)

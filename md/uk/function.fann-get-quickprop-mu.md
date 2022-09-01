@@ -1,16 +1,11 @@
-Повертає коефіцієнт mu
-
--   [« fanngetquickpropdecay](function.fann-get-quickprop-decay.html)
-    
--   [fanngetrpropdecreasefactor »](function.fann-get-rprop-decrease-factor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає коефіцієнт mu
-    
-
+---
+navigation:
+  - function.fann-get-quickprop-decay.html: « fanngetquickpropdecay
+  - function.fann-get-rprop-decrease-factor.html: fanngetrpropdecreasefactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetquickpropму
+---
 # fanngetquickpropму
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-AssertionError
-
--   [« ArithmeticError](class.arithmeticerror.html)
-    
--   [DivisionByZeroError »](class.divisionbyzeroerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обумовлені винятки](reserved.exceptions.html)
-    
--   AssertionError
-    
-
+---
+navigation:
+  - class.arithmeticerror.html: « ArithmeticError
+  - class.divisionbyzeroerror.html: DivisionByZeroError »
+  - index.html: PHP Manual
+  - reserved.exceptions.html: Обумовлені винятки
+title: AssertionError
+---
 # AssertionError
 
 (PHP 7, PHP 8)

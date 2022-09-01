@@ -1,16 +1,11 @@
-Клас ReflectionReference
-
--   [« ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)
-    
--   [ReflectionReference::construct »](reflectionreference.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionReference
-    
-
+---
+navigation:
+  - reflectionintersectiontype.gettypes.md: '« ReflectionIntersectionType::getTypes'
+  - reflectionreference.construct.md: 'ReflectionReference::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionReference
+---
 # Клас ReflectionReference
 
 (PHP 7> = 7.4.0, PHP 8)

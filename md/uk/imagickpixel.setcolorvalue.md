@@ -1,16 +1,11 @@
-Встановлює нормалізоване значення одного з каналів
-
--   [« ImagickPixel::setColorCount](imagickpixel.setcolorcount.html)
-    
--   [ImagickPixel::setColorValueQuantum »](imagickpixel.setcolorvaluequantum.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Встановлює нормалізоване значення одного з каналів
-    
-
+---
+navigation:
+  - imagickpixel.setcolorcount.html: '« ImagickPixel::setColorCount'
+  - imagickpixel.setcolorvaluequantum.html: 'ImagickPixel::setColorValueQuantum »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::setColorValue'
+---
 # ImagickPixel::setColorValue
 
 (PECL imagick 2, PECL imagick 3)

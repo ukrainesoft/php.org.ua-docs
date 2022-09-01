@@ -1,16 +1,11 @@
-Пересуває внутрішній покажчик масиву на одну позицію.
-
--   [« pos](function.pos.md)
-    
--   [range »](function.range.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Пересуває внутрішній покажчик масиву на одну позицію.
-    
-
+---
+navigation:
+  - function.pos.md: « pos
+  - function.range.md: range »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: prev
+---
 # prev
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ prev(array|object &$array): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 

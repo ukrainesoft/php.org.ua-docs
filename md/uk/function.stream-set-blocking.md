@@ -1,16 +1,11 @@
-Встановити блокуючий/неблокуючий режим у потоці
-
--   [« streamselect](function.stream-select.html)
-    
--   [streamsetchunksize »](function.stream-set-chunk-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Встановити блокуючий/неблокуючий режим у потоці
-    
-
+---
+navigation:
+  - function.stream-select.html: « streamselect
+  - function.stream-set-chunk-size.html: streamsetchunksize »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsetblocking
+---
 # streamsetblocking
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

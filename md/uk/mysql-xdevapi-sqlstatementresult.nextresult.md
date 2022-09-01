@@ -1,16 +1,11 @@
-Отримує наступний результат
-
--   [« SqlStatementResult::hasData](mysql-xdevapi-sqlstatementresult.hasdata.html)
-    
--   [mysqlxdevapiStatement »](class.mysql-xdevapi-statement.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує наступний результат
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.hasdata.html: '« SqlStatementResult::hasData'
+  - class.mysql-xdevapi-statement.html: mysqlxdevapiStatement »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::nextResult'
+---
 # SqlStatementResult::nextResult
 
 (No version information available, might only be in Git)

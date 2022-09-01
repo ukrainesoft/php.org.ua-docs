@@ -1,16 +1,11 @@
-Зберігає запитаний файл в екземплярі GLO
-
--   [« cubridnewglo](function.cubrid-new-glo.html)
-    
--   [cubridsendglo »](function.cubrid-send-glo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
-    
--   Зберігає запитаний файл в екземплярі GLO
-    
-
+---
+navigation:
+  - function.cubrid-new-glo.html: « cubridnewglo
+  - function.cubrid-send-glo.html: cubridsendglo »
+  - index.md: PHP Manual
+  - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
+title: cubridsaveтоglo
+---
 # cubridsaveтоglo
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Обробка
-
--   [« Threaded::notifyOne](threaded.notifyone.html)
-    
--   [Threaded::run »](threaded.run.html)
-    
--   [PHP Manual](index.html)
-    
--   [Threaded](class.threaded.html)
-    
--   Обробка
-    
-
+---
+navigation:
+  - threaded.notifyone.html: '« Threaded::notifyOne'
+  - threaded.run.html: 'Threaded::run »'
+  - index.html: PHP Manual
+  - class.threaded.html: Threaded
+title: 'Threaded::pop'
+---
 # Threaded::pop
 
 (PECL pthreads >= 2.0.0)

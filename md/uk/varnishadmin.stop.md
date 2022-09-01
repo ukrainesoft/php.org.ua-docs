@@ -1,16 +1,11 @@
-Зупинити робочий процес varnish
-
--   [« VarnishAdmin::start](varnishadmin.start.md)
-    
--   [VarnishStat »](class.varnishstat.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Зупинити робочий процес varnish
-    
-
+---
+navigation:
+  - varnishadmin.start.md: '« VarnishAdmin::start'
+  - class.varnishstat.md: VarnishStat »
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::stop'
+---
 # VarnishAdmin::stop
 
 (PECL varnish >= 0.3)

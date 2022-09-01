@@ -1,16 +1,11 @@
-Отримує останній ключ масиву
-
--   [« arraykeyfirst](function.array-key-first.html)
-    
--   [arraykeys »](function.array-keys.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Отримує останній ключ масиву
-    
-
+---
+navigation:
+  - function.array-key-first.html: « arraykeyfirst
+  - function.array-keys.html: arraykeys »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraykeylast
+---
 # arraykeylast
 
 (PHP 7> = 7.3.0, PHP 8)

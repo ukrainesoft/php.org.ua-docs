@@ -1,16 +1,11 @@
-ОЙ
-
--   [Модулі для роботи з GUI](refs.ui.md)
-    
--   [Введение »](intro.ui.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з GUI](refs.ui.md)
-    
--   ОЙ
-    
-
+---
+navigation:
+  - refs.ui.md: Модулі для роботи з GUI
+  - intro.ui.md: Введение »
+  - index.md: PHP Manual
+  - refs.ui.md: Модулі для роботи з GUI
+title: ОЙ
+---
 # ОЙ
 
 -   [Введение](intro.ui.md)

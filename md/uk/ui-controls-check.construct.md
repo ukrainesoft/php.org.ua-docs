@@ -1,16 +1,11 @@
-Створити новий об'єкт Check
-
--   [« UIControlsCheck](class.ui-controls-check.html)
-    
--   [ОЙControlsCheck::getText »](ui-controls-check.gettext.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsCheck](class.ui-controls-check.html)
-    
--   Створити новий об'єкт Check
-    
-
+---
+navigation:
+  - class.ui-controls-check.html: « UIControlsCheck
+  - ui-controls-check.gettext.html: 'ОЙControlsCheck::getText »'
+  - index.md: PHP Manual
+  - class.ui-controls-check.html: ОЙControlsCheck
+title: 'ОЙControlsCheck::construct'
+---
 # ОЙControlsCheck::construct
 
 (UI 0.9.9)

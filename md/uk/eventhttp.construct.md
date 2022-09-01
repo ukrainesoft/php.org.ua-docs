@@ -1,16 +1,11 @@
-Створює об'єкт EventHttp (HTTP-сервер)
-
--   [« EventHttp::bind](eventhttp.bind.md)
-    
--   [EventHttp::removeServerAlias »](eventhttp.removeserveralias.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Створює об'єкт EventHttp (HTTP-сервер)
-    
-
+---
+navigation:
+  - eventhttp.bind.md: '« EventHttp::bind'
+  - eventhttp.removeserveralias.md: 'EventHttp::removeServerAlias »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::construct'
+---
 # EventHttp::construct
 
 (PECL event >= 1.2.6-beta)
@@ -53,8 +48,8 @@ public
 
 ### список змін
 
-| Версия           | Описание                        |
-|------------------|---------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.9.0 | Додана підтримка OpenSSL (`ctx` |
 
 ### Приклади

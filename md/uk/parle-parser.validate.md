@@ -1,16 +1,11 @@
-Перевіряє вхідні дані
-
--   [« ParleParser::trace](parle-parser.trace.html)
-    
--   [ParleRParser »](class.parle-rparser.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Перевіряє вхідні дані
-    
-
+---
+navigation:
+  - parle-parser.trace.html: '« ParleParser::trace'
+  - class.parle-rparser.html: ParleRParser »
+  - index.html: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::validate'
+---
 # ParleParser::validate
 
 (PECL parle >= 0.5.1)

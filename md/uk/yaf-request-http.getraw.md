@@ -1,16 +1,11 @@
-Отримує необроблене тіло запиту
-
--   [« YafRequestHttp::getQuery](yaf-request-http.getquery.html)
-    
--   [YafRequestHttp::getRequest »](yaf-request-http.getrequest.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestHttp](class.yaf-request-http.html)
-    
--   Отримує необроблене тіло запиту
-    
-
+---
+navigation:
+  - yaf-request-http.getquery.html: '« YafRequestHttp::getQuery'
+  - yaf-request-http.getrequest.html: 'YafRequestHttp::getRequest »'
+  - index.md: PHP Manual
+  - class.yaf-request-http.html: YafRequestHttp
+title: 'YafRequestHttp::getRaw'
+---
 # YafRequestHttp::getRaw
 
 (Yaf> = 3.0.7)

@@ -1,16 +1,11 @@
-Виконує затвердження
-
--   [« CollectionFind::construct](mysql-xdevapi-collectionfind.construct.html)
-    
--   [CollectionFind::fields »](mysql-xdevapi-collectionfind.fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Виконує затвердження
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.construct.html: '« CollectionFind::construct'
+  - mysql-xdevapi-collectionfind.fields.html: 'CollectionFind::fields »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::execute'
+---
 # CollectionFind::execute
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Перевіряє, чи вказаний URI простору імен вузла простором імен за замовчуванням чи ні
-
--   [« DOMNode::insertBefore](domnode.insertbefore.md)
-    
--   [DOMNode::isSameNode »](domnode.issamenode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Перевіряє, чи вказаний URI простору імен вузла простором імен за замовчуванням чи ні
-    
-
+---
+navigation:
+  - domnode.insertbefore.md: '« DOMNode::insertBefore'
+  - domnode.issamenode.md: 'DOMNode::isSameNode »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::isDefaultNamespace'
+---
 # DOMNode::isDefaultNamespace
 
 (PHP 5, PHP 7, PHP 8)

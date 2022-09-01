@@ -1,16 +1,11 @@
-Реєструє функцію PHP для створення документації
-
--   [« xmlrpcserverdestroy](function.xmlrpc-server-destroy.html)
-    
--   [xmlrpcserverregistermethod »](function.xmlrpc-server-register-method.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції XML-RPC](ref.xmlrpc.html)
-    
--   Реєструє функцію PHP для створення документації
-    
-
+---
+navigation:
+  - function.xmlrpc-server-destroy.html: « xmlrpcserverdestroy
+  - function.xmlrpc-server-register-method.html: xmlrpcserverregistermethod »
+  - index.html: PHP Manual
+  - ref.xmlrpc.html: Функції XML-RPC
+title: xmlrpcserverregisterintrospectioncallback
+---
 # xmlrpcserverregisterintrospectioncallback
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

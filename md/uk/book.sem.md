@@ -1,16 +1,11 @@
-Семафори, пам'ять, що розділяється, і IPC
-
--   [« Volatile](class.volatile.md)
-    
--   [Введение »](intro.sem.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.md)
-    
--   Семафори, пам'ять, що розділяється, і IPC
-    
-
+---
+navigation:
+  - class.volatile.md: « Volatile
+  - intro.sem.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
+title: 'Семафори, пам''ять, що розділяється, і IPC'
+---
 # Семафори, пам'ять, що розділяється, і IPC
 
 -   [Введение](intro.sem.md)

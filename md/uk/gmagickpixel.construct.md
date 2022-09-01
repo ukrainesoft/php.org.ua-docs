@@ -1,16 +1,11 @@
-Конструктори класу GmagickPixel
-
--   [« GmagickPixel](class.gmagickpixel.md)
-    
--   [GmagickPixel::getcolor »](gmagickpixel.getcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickPixel](class.gmagickpixel.md)
-    
--   Конструктори класу GmagickPixel
-    
-
+---
+navigation:
+  - class.gmagickpixel.md: « GmagickPixel
+  - gmagickpixel.getcolor.md: 'GmagickPixel::getcolor »'
+  - index.md: PHP Manual
+  - class.gmagickpixel.md: GmagickPixel
+title: 'GmagickPixel::construct'
+---
 # GmagickPixel::construct
 
 (PECL gmagick >= Unknown)

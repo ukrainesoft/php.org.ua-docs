@@ -1,16 +1,11 @@
-Перевіряє, чи колекція містить задане значення
-
--   [« DsMap::hasKey](ds-map.haskey.html)
-    
--   [ДсMap::intersect »](ds-map.intersect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Перевіряє, чи колекція містить задане значення
-    
-
+---
+navigation:
+  - ds-map.haskey.html: '« DsMap::hasKey'
+  - ds-map.intersect.html: 'ДсMap::intersect »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::hasValue'
+---
 # ДсMap::hasValue
 
 (PECL ds >= 1.0.0)

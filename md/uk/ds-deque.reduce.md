@@ -1,16 +1,11 @@
-Зменшує колекцію до одного значення, використовуючи callback-функцію
-
--   [« DsDeque::push](ds-deque.push.html)
-    
--   [ДсDeque::remove »](ds-deque.remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Зменшує колекцію до одного значення, використовуючи callback-функцію
-    
-
+---
+navigation:
+  - ds-deque.push.html: '« DsDeque::push'
+  - ds-deque.remove.html: 'ДсDeque::remove »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::reduce'
+---
 # ДсDeque::reduce
 
 (PECL ds >= 1.0.0)

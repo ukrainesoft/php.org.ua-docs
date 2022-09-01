@@ -1,16 +1,11 @@
-Інтерфейс IteratorAggregate
-
--   [« Iterator::valid](iterator.valid.md)
-    
--   [IteratorAggregate::getIterator »](iteratoraggregate.getiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-    
--   Інтерфейс IteratorAggregate
-    
-
+---
+navigation:
+  - iterator.valid.md: '« Iterator::valid'
+  - iteratoraggregate.getiterator.md: 'IteratorAggregate::getIterator »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Інтерфейс IteratorAggregate
+---
 # Інтерфейс IteratorAggregate
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає параметри cookie сесії
-
--   [« sessionгк](function.session-gc.html)
-    
--   [sessionid »](function.session-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Повертає параметри cookie сесії
-    
-
+---
+navigation:
+  - function.session-gc.html: « sessionгк
+  - function.session-id.html: sessionid »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessiongetcookieparams
+---
 # sessiongetcookieparams
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -42,9 +37,9 @@ session_get_cookie_params(): array
 
 ### список змін
 
-| Версия | Описание                                             |
-|--------|------------------------------------------------------|
-|        | Доданий елемент "samesite" у масив, що повертається. |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий елемент "samesite" у масив, що повертається. |
 
 ### Дивіться також
 

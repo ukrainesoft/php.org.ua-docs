@@ -1,16 +1,11 @@
-Алгоритми підпису
-
--   [« Прапори/Константи CMS](openssl.cms.flags.html)
-    
--   [Алгоритми шифрування »](openssl.ciphers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обумовлені константи](openssl.constants.html)
-    
--   Алгоритми підпису
-    
-
+---
+navigation:
+  - openssl.cms.flags.html: « Прапори/Константи CMS
+  - openssl.ciphers.html: Алгоритми шифрування »
+  - index.html: PHP Manual
+  - openssl.constants.html: Обумовлені константи
+title: Алгоритми підпису
+---
 ## Алгоритми підпису
 
 **`OPENSSL_ALGO_DSS1`** (int)

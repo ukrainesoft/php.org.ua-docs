@@ -1,16 +1,11 @@
-Стандартні проблеми PHP під Windows
-
--   [« Apache 2.x в Microsoft Windows](install.windows.apache2.md)
-    
--   [Установка на платформах Cloud Computing »](install.cloud.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка в системах Windows](install.windows.md)
-    
--   Стандартні проблеми PHP під Windows
-    
-
+---
+navigation:
+  - install.windows.apache2.md: « Apache 2.x в Microsoft Windows
+  - install.cloud.md: Установка на платформах Cloud Computing »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Стандартні проблеми PHP під Windows
+---
 ## Стандартні проблеми PHP під Windows
 
 ### Перевірка прав на тимчасову директорію

@@ -1,16 +1,11 @@
-Створює об'єкт спостерігач EvChild
-
--   [« EvChild](class.evchild.html)
-    
--   [EvChild::createStopped »](evchild.createstopped.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvChild](class.evchild.html)
-    
--   Створює об'єкт спостерігач EvChild
-    
-
+---
+navigation:
+  - class.evchild.html: « EvChild
+  - evchild.createstopped.html: 'EvChild::createStopped »'
+  - index.html: PHP Manual
+  - class.evchild.html: EvChild
+title: 'EvChild::construct'
+---
 # EvChild::construct
 
 (PECL ev >= 0.2.0)

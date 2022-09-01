@@ -1,16 +1,11 @@
-Конструктор зв'язку
-
--   [« FANNConnection](class.fannconnection.md)
-    
--   [FANNConnection::getFromNeuron »](fannconnection.getfromneuron.md)
-    
--   [PHP Manual](index.md)
-    
--   [FANNConnection](class.fannconnection.md)
-    
--   Конструктор зв'язку
-    
-
+---
+navigation:
+  - class.fannconnection.md: « FANNConnection
+  - fannconnection.getfromneuron.md: 'FANNConnection::getFromNeuron »'
+  - index.md: PHP Manual
+  - class.fannconnection.md: FANNConnection
+title: 'FANNConnection::construct'
+---
 # FANNConnection::construct
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Отримує поточне значення атомарного об'єкта
-
--   [« SwooleAtomic::construct](swoole-atomic.construct.html)
-    
--   [SwooleAtomic::set »](swoole-atomic.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleAtomic](class.swoole-atomic.html)
-    
--   Отримує поточне значення атомарного об'єкта
-    
-
+---
+navigation:
+  - swoole-atomic.construct.html: '« SwooleAtomic::construct'
+  - swoole-atomic.set.html: 'SwooleAtomic::set »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.html: SwooleAtomic
+title: 'SwooleAtomic::get'
+---
 # SwooleAtomic::get
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Сокети
-
--   [« SNMPException](class.snmpexception.html)
-    
--   [Введение »](intro.sockets.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   Сокети
-    
-
+---
+navigation:
+  - class.snmpexception.html: « SNMPException
+  - intro.sockets.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: Сокети
+---
 # Сокети
 
 -   [Введение](intro.sockets.html)

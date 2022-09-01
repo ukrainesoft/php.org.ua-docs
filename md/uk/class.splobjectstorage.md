@@ -1,16 +1,11 @@
-Клас SplObjectStorage
-
--   [« SplFixedArray::wakeup](splfixedarray.wakeup.md)
-    
--   [SplObjectStorage::addAll »](splobjectstorage.addall.md)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](spl.datastructures.md)
-    
--   Клас SplObjectStorage
-    
-
+---
+navigation:
+  - splfixedarray.wakeup.md: '« SplFixedArray::wakeup'
+  - splobjectstorage.addall.md: 'SplObjectStorage::addAll »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
+title: Клас SplObjectStorage
+---
 # Клас SplObjectStorage
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

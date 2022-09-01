@@ -1,16 +1,11 @@
-Повертає ім'я курсору
-
--   [« odbcconnect](function.odbc-connect.html)
-    
--   [odbcdatasource »](function.odbc-data-source.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Повертає ім'я курсору
-    
-
+---
+navigation:
+  - function.odbc-connect.html: « odbcconnect
+  - function.odbc-data-source.html: odbcdatasource »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbccursor
+---
 # odbccursor
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

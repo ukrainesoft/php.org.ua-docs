@@ -1,16 +1,11 @@
-Розбір двійкових IPTC даних на окремі теги
-
--   [« iptcembed](function.iptcembed.html)
-    
--   [jpeg2wbmp »](function.jpeg2wbmp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Розбір двійкових IPTC даних на окремі теги
-    
-
+---
+navigation:
+  - function.iptcembed.html: « iptcembed
+  - function.jpeg2wbmp.html: jpeg2wbmp »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: iptcparse
+---
 # iptcparse
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

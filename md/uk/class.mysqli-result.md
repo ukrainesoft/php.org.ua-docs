@@ -1,16 +1,11 @@
-Клас mysqliresult
-
--   [« mysqlistmt::storeresult](mysqli-stmt.store-result.html)
-    
--   [mysqliresult::construct »](mysqli-result.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQLi](book.mysqli.md)
-    
--   Клас mysqliresult
-    
-
+---
+navigation:
+  - mysqli-stmt.store-result.html: '« mysqlistmt::storeresult'
+  - mysqli-result.construct.html: 'mysqliresult::construct »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqliresult
+---
 # Клас mysqliresult
 
 (PHP 5, PHP 7, PHP 8)
@@ -92,9 +87,9 @@ type
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **mysqliresult** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше замість нього було реалізовано інтерфейс [Traversable](class.traversable.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **mysqliresult** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше замість нього було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 

@@ -1,16 +1,11 @@
-Клас FilesystemIterator
-
--   [« EmptyIterator::valid](emptyiterator.valid.md)
-    
--   [FilesystemIterator::construct »](filesystemiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас FilesystemIterator
-    
-
+---
+navigation:
+  - emptyiterator.valid.md: '« EmptyIterator::valid'
+  - filesystemiterator.construct.md: 'FilesystemIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас FilesystemIterator
+---
 # Клас FilesystemIterator
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

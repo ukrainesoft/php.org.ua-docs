@@ -1,16 +1,11 @@
-Пропускає елементи
-
--   [« CollectionModify::set](mysql-xdevapi-collectionmodify.set.html)
-    
--   [CollectionModify::sort »](mysql-xdevapi-collectionmodify.sort.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Пропускає елементи
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.set.html: '« CollectionModify::set'
+  - mysql-xdevapi-collectionmodify.sort.html: 'CollectionModify::sort »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::skip'
+---
 # CollectionModify::skip
 
 (No version information available, might only be in Git)

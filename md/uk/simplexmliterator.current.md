@@ -1,16 +1,11 @@
-Повертає поточний елемент
-
--   [« SimpleXMLIterator](class.simplexmliterator.md)
-    
--   [SimpleXMLIterator::getChildren »](simplexmliterator.getchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLIterator](class.simplexmliterator.md)
-    
--   Повертає поточний елемент
-    
-
+---
+navigation:
+  - class.simplexmliterator.md: « SimpleXMLIterator
+  - simplexmliterator.getchildren.md: 'SimpleXMLIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::current'
+---
 # SimpleXMLIterator::current
 
 (PHP 5, PHP 7, PHP 8)

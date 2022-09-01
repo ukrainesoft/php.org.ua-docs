@@ -1,16 +1,11 @@
-Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела
-
--   [« Mcrypt](ref.mcrypt.html)
-    
--   [mcryptdecrypt »](function.mcrypt-decrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела
-    
-
+---
+navigation:
+  - ref.mcrypt.html: « Mcrypt
+  - function.mcrypt-decrypt.html: mcryptdecrypt »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptcreateверб
+---
 # mcryptcreateверб
 
 (PHP 4, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

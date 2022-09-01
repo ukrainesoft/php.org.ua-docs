@@ -1,16 +1,11 @@
-Повертає червону первинну точку кольоровості
-
--   [« Imagick::getImageProperty](imagick.getimageproperty.html)
-    
--   [Imagick::getImageRegion »](imagick.getimageregion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає червону первинну точку кольоровості
-    
-
+---
+navigation:
+  - imagick.getimageproperty.html: '« Imagick::getImageProperty'
+  - imagick.getimageregion.html: 'Imagick::getImageRegion »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageRedPrimary'
+---
 # Imagick::getImageRedPrimary
 
 (PECL imagick 2, PECL imagick 3)

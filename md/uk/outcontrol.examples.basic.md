@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](outcontrol.examples.md)
-    
--   [Використання перезапису виводу »](outcontrol.examples.rewrite.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](outcontrol.examples.md)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - outcontrol.examples.md: « Приклади
+  - outcontrol.examples.rewrite.md: Використання перезапису виводу »
+  - index.md: PHP Manual
+  - outcontrol.examples.md: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 **Приклад #1 Приклад контролю виведення**

@@ -1,16 +1,11 @@
-Установка callback-функції, яка приймає проміжні результати від оброблювача завдань
-
--   [« GearmanClient::setWarningCallback](gearmanclient.setwarningcallback.md)
-    
--   [GearmanClient::timeout »](gearmanclient.timeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Установка callback-функції, яка приймає проміжні результати від оброблювача завдань
-    
-
+---
+navigation:
+  - gearmanclient.setwarningcallback.md: '« GearmanClient::setWarningCallback'
+  - gearmanclient.timeout.md: 'GearmanClient::timeout »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setWorkloadCallback'
+---
 # GearmanClient::setWorkloadCallback
 
 (PECL gearman >= 0.5.0)

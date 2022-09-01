@@ -1,16 +1,11 @@
-Функції gettext
-
--   [« Обумовлені константи](gettext.constants.html)
-    
--   [bindtextdomaincodeset »](function.bind-textdomain-codeset.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gettext](book.gettext.html)
-    
--   Функції gettext
-    
-
+---
+navigation:
+  - gettext.constants.html: « Обумовлені константи
+  - function.bind-textdomain-codeset.html: bindtextdomaincodeset »
+  - index.html: PHP Manual
+  - book.gettext.html: Gettext
+title: Функції gettext
+---
 # Функції gettext
 
 ## Зміст

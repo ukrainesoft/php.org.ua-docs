@@ -1,16 +1,11 @@
-Керування кольором
-
--   [« UIDrawColor::construct](ui-draw-color.construct.html)
-    
--   [ОЙDrawColor::setChannel »](ui-draw-color.setchannel.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawColor](class.ui-draw-color.html)
-    
--   Керування кольором
-    
-
+---
+navigation:
+  - ui-draw-color.construct.html: '« UIDrawColor::construct'
+  - ui-draw-color.setchannel.html: 'ОЙDrawColor::setChannel »'
+  - index.html: PHP Manual
+  - class.ui-draw-color.html: ОЙDrawColor
+title: 'ОЙDrawColor::getChannel'
+---
 # ОЙDrawColor::getChannel
 
 (UI 0.9.9)

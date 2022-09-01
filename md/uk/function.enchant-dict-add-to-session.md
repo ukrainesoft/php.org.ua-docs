@@ -1,16 +1,11 @@
-Додати слово у поточну сесію перевірки
-
--   [« enchantdictaddтоpersonal](function.enchant-dict-add-to-personal.html)
-    
--   [enchantdictadd »](function.enchant-dict-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Додати слово у поточну сесію перевірки
-    
-
+---
+navigation:
+  - function.enchant-dict-add-to-personal.html: « enchantdictaddтоpersonal
+  - function.enchant-dict-add.html: enchantdictadd »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictaddтоsession
+---
 # enchantdictaddтоsession
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -41,9 +36,9 @@ enchant_dict_add_to_session(EnchantDictionary $dictionary, string $word): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

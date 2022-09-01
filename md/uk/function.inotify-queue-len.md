@@ -1,16 +1,11 @@
-Повертає кількість очікуваних подій у черзі
-
--   [« inotifyinit](function.inotify-init.html)
-    
--   [inotifyread »](function.inotify-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Inotify](ref.inotify.html)
-    
--   Повертає кількість очікуваних подій у черзі
-    
-
+---
+navigation:
+  - function.inotify-init.html: « inotifyinit
+  - function.inotify-read.html: inotifyread »
+  - index.html: PHP Manual
+  - ref.inotify.html: Функции Inotify
+title: inotifyqueuelen
+---
 # inotifyqueuelen
 
 (PECL inotify >= 0.1.2)

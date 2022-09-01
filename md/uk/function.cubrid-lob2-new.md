@@ -1,16 +1,11 @@
-Створює об'єкт LOB
-
--   [« cubridlob2import](function.cubrid-lob2-import.html)
-    
--   [cubridlob2read »](function.cubrid-lob2-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Створює об'єкт LOB
-    
-
+---
+navigation:
+  - function.cubrid-lob2-import.html: « cubridlob2import
+  - function.cubrid-lob2-read.html: cubridlob2read »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2new
+---
 # cubridlob2new
 
 (PECL CUBRID >= 8.4.1)

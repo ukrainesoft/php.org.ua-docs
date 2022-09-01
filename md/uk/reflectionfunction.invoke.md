@@ -1,16 +1,11 @@
-Викликає функцію
-
--   [« ReflectionFunction::getClosure](reflectionfunction.getclosure.md)
-    
--   [ReflectionFunction::invokeArgs »](reflectionfunction.invokeargs.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunction](class.reflectionfunction.md)
-    
--   Викликає функцію
-    
-
+---
+navigation:
+  - reflectionfunction.getclosure.md: '« ReflectionFunction::getClosure'
+  - reflectionfunction.invokeargs.md: 'ReflectionFunction::invokeArgs »'
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
+title: 'ReflectionFunction::invoke'
+---
 # ReflectionFunction::invoke
 
 (PHP 5, PHP 7, PHP 8)

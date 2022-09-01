@@ -1,16 +1,11 @@
-Повертає максимальну довжину слова, вище за яку слова ігноруватимуться
-
--   [« SolrQuery::getMltMaxNumTokens](solrquery.getmltmaxnumtokens.html)
-    
--   [SolrQuery::getMltMinDocFrequency »](solrquery.getmltmindocfrequency.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає максимальну довжину слова, вище за яку слова ігноруватимуться
-    
-
+---
+navigation:
+  - solrquery.getmltmaxnumtokens.html: '« SolrQuery::getMltMaxNumTokens'
+  - solrquery.getmltmindocfrequency.html: 'SolrQuery::getMltMinDocFrequency »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getMltMaxWordLength'
+---
 # SolrQuery::getMltMaxWordLength
 
 (PECL solr> = 0.9.2)

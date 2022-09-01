@@ -1,16 +1,11 @@
-Приклад використання Tidy
-
--   [« Приклади](tidy.examples.html)
-    
--   [tidy »](class.tidy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](tidy.examples.html)
-    
--   Приклад використання Tidy
-    
-
+---
+navigation:
+  - tidy.examples.html: « Приклади
+  - class.tidy.html: tidy »
+  - index.html: PHP Manual
+  - tidy.examples.html: Приклади
+title: Приклад використання Tidy
+---
 ## Приклад використання Tidy
 
 Простий приклад демонструє базові можливості використання Tidy.

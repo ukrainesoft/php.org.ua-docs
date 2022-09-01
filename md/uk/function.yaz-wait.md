@@ -1,16 +1,11 @@
-Чекає на виконання запитів Z39.50 серверами
-
--   [« yazsyntax](function.yaz-syntax.html)
-    
--   [Обмін повідомленнями 0MQ »](book.zmq.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Чекає на виконання запитів Z39.50 серверами
-    
-
+---
+navigation:
+  - function.yaz-syntax.html: « yazsyntax
+  - book.zmq.md: Обмін повідомленнями 0MQ »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazwait
+---
 # yazwait
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

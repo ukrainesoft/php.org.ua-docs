@@ -1,16 +1,11 @@
-Встановлює колір для обведення контурів об'єкта.
-
--   [« ImagickDraw::setStrokeAntialias](imagickdraw.setstrokeantialias.md)
-    
--   [ImagickDraw::setStrokeDashArray »](imagickdraw.setstrokedasharray.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює колір для обведення контурів об'єкта.
-    
-
+---
+navigation:
+  - imagickdraw.setstrokeantialias.md: '« ImagickDraw::setStrokeAntialias'
+  - imagickdraw.setstrokedasharray.md: 'ImagickDraw::setStrokeDashArray »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setStrokeColor'
+---
 # ImagickDraw::setStrokeColor
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Рядки
-
--   [« ssdeepfuzzyhash](function.ssdeep-fuzzy-hash.html)
-    
--   [Введение »](intro.strings.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка текста](refs.basic.text.html)
-    
--   Рядки
-    
-
+---
+navigation:
+  - function.ssdeep-fuzzy-hash.html: « ssdeepfuzzyhash
+  - intro.strings.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.text.html: Обработка текста
+title: Рядки
+---
 # Рядки
 
 -   [Введение](intro.strings.html)

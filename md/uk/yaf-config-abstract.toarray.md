@@ -1,16 +1,11 @@
-Приведення до масиву
-
--   [« YafConfigAbstract::set](yaf-config-abstract.set.html)
-    
--   [YafConfigIni »](class.yaf-config-ini.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigAbstract](class.yaf-config-abstract.html)
-    
--   Приведення до масиву
-    
-
+---
+navigation:
+  - yaf-config-abstract.set.html: '« YafConfigAbstract::set'
+  - class.yaf-config-ini.html: YafConfigIni »
+  - index.md: PHP Manual
+  - class.yaf-config-abstract.html: YafConfigAbstract
+title: 'YafConfigAbstract::toArray'
+---
 # YafConfigAbstract::toArray
 
 (Yaf >=1.0.0)

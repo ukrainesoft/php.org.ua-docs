@@ -1,16 +1,11 @@
-Перевіряє, чи очікує аргумент масив як значення
-
--   [« ReflectionParameter::hasType](reflectionparameter.hastype.md)
-    
--   [ReflectionParameter::isCallable »](reflectionparameter.iscallable.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перевіряє, чи очікує аргумент масив як значення
-    
-
+---
+navigation:
+  - reflectionparameter.hastype.md: '« ReflectionParameter::hasType'
+  - reflectionparameter.iscallable.md: 'ReflectionParameter::isCallable »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isArray'
+---
 # ReflectionParameter::isArray
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

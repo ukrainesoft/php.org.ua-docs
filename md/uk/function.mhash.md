@@ -1,16 +1,11 @@
-Обчислює хеш
-
--   [« mhashkeygens2k](function.mhash-keygen-s2k.html)
-    
--   [OpenSSL »](book.openssl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Mhash](ref.mhash.html)
-    
--   Обчислює хеш
-    
-
+---
+navigation:
+  - function.mhash-keygen-s2k.html: « mhashkeygens2k
+  - book.openssl.html: OpenSSL »
+  - index.html: PHP Manual
+  - ref.mhash.html: Функции Mhash
+title: mhash
+---
 # mhash
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,7 +44,7 @@ mhash(int $algo, string $data, ?string $key = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
-|        | `key` тепер допускає значення null.                                                         |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
+|  | `key` тепер допускає значення null. |

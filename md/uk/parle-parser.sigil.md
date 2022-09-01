@@ -1,16 +1,11 @@
-Витягує частину збігу за правилом
-
--   [« ParleParser::right](parle-parser.right.html)
-    
--   [ParleParser::token »](parle-parser.token.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Витягує частину збігу за правилом
-    
-
+---
+navigation:
+  - parle-parser.right.html: '« ParleParser::right'
+  - parle-parser.token.html: 'ParleParser::token »'
+  - index.html: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::sigil'
+---
 # ParleParser::sigil
 
 (PECL parle >= 0.5.1)

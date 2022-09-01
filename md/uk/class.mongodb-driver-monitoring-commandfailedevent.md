@@ -1,16 +1,11 @@
-Клас MongoDBDriverMonitoringCommandFailedEvent
-
--   [« MongoDBDriverMonitoringremoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.md)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent::getCommandName »](mongodb-driver-monitoring-commandfailedevent.getcommandname.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Клас MongoDBDriverMonitoringCommandFailedEvent
-    
-
+---
+navigation:
+  - function.mongodb.driver.monitoring.removesubscriber.md: « MongoDBDriverMonitoringremoveSubscriber
+  - mongodb-driver-monitoring-commandfailedevent.getcommandname.html: 'MongoDBDriverMonitoringCommandFailedEvent::getCommandName »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringCommandFailedEvent
+---
 # Клас MongoDBDriverMonitoringCommandFailedEvent
 
 (mongodb >=1.3.0)

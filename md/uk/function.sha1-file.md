@@ -1,16 +1,11 @@
-Повертає SHA1-хеш файлу
-
--   [« setlocale](function.setlocale.md)
-    
--   [sha1 »](function.sha1.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає SHA1-хеш файлу
-    
-
+---
+navigation:
+  - function.setlocale.md: « setlocale
+  - function.sha1.md: sha1 »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: sha1file
+---
 # sha1file
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

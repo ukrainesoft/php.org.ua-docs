@@ -1,16 +1,11 @@
-Отримує оголошений тип значення, що повертається функцією значення
-
--   [« ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.html)
-    
--   [ReflectionFunctionAbstract::getShortName »](reflectionfunctionabstract.getshortname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Отримує оголошений тип значення, що повертається функцією значення
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getparameters.html: '« ReflectionFunctionAbstract::getParameters'
+  - reflectionfunctionabstract.getshortname.html: 'ReflectionFunctionAbstract::getShortName »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getReturnType'
+---
 # ReflectionFunctionAbstract::getReturnType
 
 (PHP 7, PHP 8)

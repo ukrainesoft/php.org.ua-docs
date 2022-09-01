@@ -1,16 +1,11 @@
-Арифметична додавання вектора
-
--   [« traderпекло](function.trader-ad.html)
-    
--   [traderadosc »](function.trader-adosc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Арифметична додавання вектора
-    
-
+---
+navigation:
+  - function.trader-ad.html: « traderпекло
+  - function.trader-adosc.html: traderadosc »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderadd
+---
 # traderadd
 
 (PECL trader >= 0.2.0)

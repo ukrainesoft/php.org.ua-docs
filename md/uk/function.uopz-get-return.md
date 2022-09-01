@@ -1,16 +1,11 @@
-Отримує попереднє встановлене значення, що повертається для функції
-
--   [« uopzgetproperty](function.uopz-get-property.html)
-    
--   [uopzgetstatic »](function.uopz-get-static.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Отримує попереднє встановлене значення, що повертається для функції
-    
-
+---
+navigation:
+  - function.uopz-get-property.html: « uopzgetproperty
+  - function.uopz-get-static.html: uopzgetstatic »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzgetreturn
+---
 # uopzgetreturn
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

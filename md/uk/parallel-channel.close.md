@@ -1,16 +1,11 @@
-Закриття
-
--   [« parallelChannel::send](parallel-channel.send.html)
-    
--   [parallelEvents »](class.parallel-events.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelChannel](class.parallel-channel.html)
-    
--   Закриття
-    
-
+---
+navigation:
+  - parallel-channel.send.html: '« parallelChannel::send'
+  - class.parallel-events.html: parallelEvents »
+  - index.md: PHP Manual
+  - class.parallel-channel.html: parallelChannel
+title: 'parallelChannel::close'
+---
 # parallelChannel::close
 
 parallelChannel::close — Закриття

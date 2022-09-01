@@ -1,16 +1,11 @@
-Плюс-спрямований рух
-
--   [« traderplusді](function.trader-plus-di.html)
-    
--   [traderppo »](function.trader-ppo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Плюс-спрямований рух
-    
-
+---
+navigation:
+  - function.trader-plus-di.html: « traderplusді
+  - function.trader-ppo.html: traderppo »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderplusдм
+---
 # traderplusдм
 
 (PECL trader >= 0.2.0)

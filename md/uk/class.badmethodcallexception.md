@@ -1,16 +1,11 @@
-Клас BadMethodCallException
-
--   [« BadFunctionCallException](class.badfunctioncallexception.html)
-    
--   [DomainException »](class.domainexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [Исключения](spl.exceptions.html)
-    
--   Клас BadMethodCallException
-    
-
+---
+navigation:
+  - class.badfunctioncallexception.html: « BadFunctionCallException
+  - class.domainexception.html: DomainException »
+  - index.html: PHP Manual
+  - spl.exceptions.html: Исключения
+title: Клас BadMethodCallException
+---
 # Клас BadMethodCallException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

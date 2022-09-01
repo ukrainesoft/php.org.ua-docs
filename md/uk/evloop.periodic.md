@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::nowUpdate](evloop.nowupdate.html)
-    
--   [EvLoop::prepare »](evloop.prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.nowupdate.html: '« EvLoop::nowUpdate'
+  - evloop.prepare.html: 'EvLoop::prepare »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::periodic'
+---
 # EvLoop::periodic
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Екранувати літерал при вставці у текстове поле
-
--   [« pgescapeidentifier](function.pg-escape-identifier.html)
-    
--   [пгescapestring »](function.pg-escape-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Екранувати літерал при вставці у текстове поле
-    
-
+---
+navigation:
+  - function.pg-escape-identifier.html: « pgescapeidentifier
+  - function.pg-escape-string.html: пгescapestring »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгescapeliteral
+---
 # пгescapeliteral
 
 (PHP 5> = 5.4.4, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ pg_escape_literal(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає об'єкт із властивостями, що становлять стовпці у вибраному рядку
-
--   [« db2fetchboth](function.db2-fetch-both.html)
-    
--   [db2fetchrow »](function.db2-fetch-row.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає об'єкт із властивостями, що становлять стовпці у вибраному рядку
-    
-
+---
+navigation:
+  - function.db2-fetch-both.html: « db2fetchboth
+  - function.db2-fetch-row.html: db2fetchrow »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fetchobject
+---
 # db2fetchobject
 
 (PECL ibmdb2> = 1.0.0)

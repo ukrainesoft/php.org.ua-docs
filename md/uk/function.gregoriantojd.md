@@ -1,16 +1,11 @@
-Перетворює дату за григоріанським календарем на кількість днів у юліанському літочисленні
-
--   [« frenchtojd](function.frenchtojd.html)
-    
--   [jddayofweek »](function.jddayofweek.html)
-    
--   [PHP Manual](index.html)
-    
--   [Календарь](ref.calendar.html)
-    
--   Перетворює дату за григоріанським календарем на кількість днів у юліанському літочисленні
-    
-
+---
+navigation:
+  - function.frenchtojd.html: « frenchtojd
+  - function.jddayofweek.html: jddayofweek »
+  - index.html: PHP Manual
+  - ref.calendar.html: Календарь
+title: gregoriantojd
+---
 # gregoriantojd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

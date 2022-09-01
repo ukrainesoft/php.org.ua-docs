@@ -1,16 +1,11 @@
-Отримує поточний об'єкт запиту
-
--   [« YafControllerAbstract::getName](yaf-controller-abstract.getname.html)
-    
--   [YafControllerAbstract::getResponse »](yaf-controller-abstract.getresponse.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Отримує поточний об'єкт запиту
-    
-
+---
+navigation:
+  - yaf-controller-abstract.getname.html: '« YafControllerAbstract::getName'
+  - yaf-controller-abstract.getresponse.html: 'YafControllerAbstract::getResponse »'
+  - index.html: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::getRequest'
+---
 # YafControllerAbstract::getRequest
 
 (Yaf >=1.0.0)

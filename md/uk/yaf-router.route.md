@@ -1,16 +1,11 @@
-Призначення route
-
--   [« YafRouter::getRoutes](yaf-router.getroutes.html)
-    
--   [YafRouteSimple »](class.yaf-route-simple.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRouter](class.yaf-router.html)
-    
--   Призначення route
-    
-
+---
+navigation:
+  - yaf-router.getroutes.html: '« YafRouter::getRoutes'
+  - class.yaf-route-simple.html: YafRouteSimple »
+  - index.html: PHP Manual
+  - class.yaf-router.html: YafRouter
+title: 'YafRouter::route'
+---
 # YafRouter::route
 
 (Yaf >=1.0.0)

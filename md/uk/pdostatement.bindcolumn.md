@@ -1,16 +1,11 @@
-Зв'язує стовпець зі змінною PHP
-
--   [« PDOStatement](class.pdostatement.html)
-    
--   [PDOStatement::bindParam »](pdostatement.bindparam.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Зв'язує стовпець зі змінною PHP
-    
-
+---
+navigation:
+  - class.pdostatement.html: « PDOStatement
+  - pdostatement.bindparam.html: 'PDOStatement::bindParam »'
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::bindColumn'
+---
 # PDOStatement::bindColumn
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

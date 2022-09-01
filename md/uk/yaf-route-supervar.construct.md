@@ -1,16 +1,11 @@
-Призначення construct
-
--   [« YafRouteSupervar::assemble](yaf-route-supervar.assemble.html)
-    
--   [YafRouteSupervar::route »](yaf-route-supervar.route.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteSupervar](class.yaf-route-supervar.html)
-    
--   Призначення construct
-    
-
+---
+navigation:
+  - yaf-route-supervar.assemble.html: '« YafRouteSupervar::assemble'
+  - yaf-route-supervar.route.html: 'YafRouteSupervar::route »'
+  - index.md: PHP Manual
+  - class.yaf-route-supervar.html: YafRouteSupervar
+title: 'YafRouteSupervar::construct'
+---
 # YafRouteSupervar::construct
 
 (Yaf >=1.0.0)

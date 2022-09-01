@@ -1,16 +1,11 @@
-Клас LuaSandboxFunction
-
--   [« LuaSandbox::wrapPhpFunction](luasandbox.wrapphpfunction.md)
-    
--   [LuaSandboxFunction::call »](luasandboxfunction.call.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](book.luasandbox.md)
-    
--   Клас LuaSandboxFunction
-    
-
+---
+navigation:
+  - luasandbox.wrapphpfunction.md: '« LuaSandbox::wrapPhpFunction'
+  - luasandboxfunction.call.md: 'LuaSandboxFunction::call »'
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
+title: Клас LuaSandboxFunction
+---
 # Клас LuaSandboxFunction
 
 (PECL luasandbox >= 1.0.0)

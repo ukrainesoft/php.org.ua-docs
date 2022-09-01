@@ -1,16 +1,11 @@
-Різні функції
-
--   [« Обумовлені константи](misc.constants.md)
-    
--   [connectionaborted »](function.connection-aborted.html)
-    
--   [PHP Manual](index.md)
-    
--   [Misc.](book.misc.md)
-    
--   Різні функції
-    
-
+---
+navigation:
+  - misc.constants.md: « Обумовлені константи
+  - function.connection-aborted.html: connectionaborted »
+  - index.md: PHP Manual
+  - book.misc.md: Misc.
+title: Різні функції
+---
 # Різні функції
 
 ## Зміст

@@ -1,16 +1,11 @@
-Клас ReflectionEnumUnitCase
-
--   [« ReflectionEnum::isBacked](reflectionenum.isbacked.html)
-    
--   [ReflectionEnumUnitCase::construct »](reflectionenumunitcase.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionEnumUnitCase
-    
-
+---
+navigation:
+  - reflectionenum.isbacked.html: '« ReflectionEnum::isBacked'
+  - reflectionenumunitcase.construct.html: 'ReflectionEnumUnitCase::construct »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionEnumUnitCase
+---
 # Клас ReflectionEnumUnitCase
 
 (PHP 8> = 8.1.0)

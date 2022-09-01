@@ -1,16 +1,11 @@
-Прив'язує значення до заповнювача запиту
-
--   [« mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   [CollectionFind::construct »](mysql-xdevapi-collectionfind.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Прив'язує значення до заповнювача запиту
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-collectionfind.html: « mysqlxdevapiCollectionFind
+  - mysql-xdevapi-collectionfind.construct.html: 'CollectionFind::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::bind'
+---
 # CollectionFind::bind
 
 (No version information available, might only be in Git)

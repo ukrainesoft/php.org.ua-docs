@@ -1,16 +1,11 @@
-Повертає дійсний ID групи поточного процесу GID
-
--   [« posixgeteuid](function.posix-geteuid.html)
-    
--   [posixgetgrgid »](function.posix-getgrgid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає дійсний ID групи поточного процесу GID
-    
-
+---
+navigation:
+  - function.posix-geteuid.html: « posixgeteuid
+  - function.posix-getgrgid.html: posixgetgrgid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixgetgid
+---
 # posixgetgid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

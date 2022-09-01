@@ -1,16 +1,11 @@
-Очищує поточну сесію
-
--   [« pspellcheck](function.pspell-check.html)
-    
--   [pspellconfigcreate »](function.pspell-config-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Очищує поточну сесію
-    
-
+---
+navigation:
+  - function.pspell-check.html: « pspellcheck
+  - function.pspell-config-create.html: pspellconfigcreate »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellclearsession
+---
 # pspellclearsession
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ pspell_clear_session(PSpell\Dictionary $dictionary): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

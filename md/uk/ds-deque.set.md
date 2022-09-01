@@ -1,16 +1,11 @@
-Замінює значення за вказаним індексом
-
--   [« DsDeque::rotate](ds-deque.rotate.html)
-    
--   [ДсDeque::shift »](ds-deque.shift.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Замінює значення за вказаним індексом
-    
-
+---
+navigation:
+  - ds-deque.rotate.html: '« DsDeque::rotate'
+  - ds-deque.shift.html: 'ДсDeque::shift »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::set'
+---
 # ДсDeque::set
 
 (PECL ds >= 1.0.0)

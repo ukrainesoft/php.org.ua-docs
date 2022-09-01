@@ -1,16 +1,11 @@
-Встановлення нормалізованого кольору HSL
-
--   [« ImagickPixel::setColorValueQuantum](imagickpixel.setcolorvaluequantum.html)
-    
--   [ImagickPixel::setIndex »](imagickpixel.setindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Встановлення нормалізованого кольору HSL
-    
-
+---
+navigation:
+  - imagickpixel.setcolorvaluequantum.html: '« ImagickPixel::setColorValueQuantum'
+  - imagickpixel.setindex.html: 'ImagickPixel::setIndex »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::setHSL'
+---
 # ImagickPixel::setHSL
 
 (PECL imagick 2, PECL imagick 3)

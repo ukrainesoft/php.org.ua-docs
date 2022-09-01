@@ -1,16 +1,11 @@
-Встановлює ім'я реєстратора SeasLog
-
--   [« SeasLog::setDatetimeFormat](seaslog.setdatetimeformat.md)
-    
--   [SeasLog::setRequestID »](seaslog.setrequestid.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Встановлює ім'я реєстратора SeasLog
-    
-
+---
+navigation:
+  - seaslog.setdatetimeformat.md: '« SeasLog::setDatetimeFormat'
+  - seaslog.setrequestid.md: 'SeasLog::setRequestID »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::setLogger'
+---
 # SeasLog::setLogger
 
 (PECL seaslog >=1.0.0)

@@ -1,16 +1,11 @@
-Встановлює розмір об'єкта Gmagick
-
--   [« Gmagick::setsamplingfactors](gmagick.setsamplingfactors.html)
-    
--   [Gmagick::shearimage »](gmagick.shearimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Встановлює розмір об'єкта Gmagick
-    
-
+---
+navigation:
+  - gmagick.setsamplingfactors.html: '« Gmagick::setsamplingfactors'
+  - gmagick.shearimage.html: 'Gmagick::shearimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::setsize'
+---
 # Gmagick::setsize
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-в
-
--   [« ParleRLexer::dump](parle-rlexer.dump.html)
-    
--   [ParleRLexer::insertMacro »](parle-rlexer.insertmacro.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRLexer](class.parle-rlexer.html)
-    
--   в
-    
-
+---
+navigation:
+  - parle-rlexer.dump.html: '« ParleRLexer::dump'
+  - parle-rlexer.insertmacro.html: 'ParleRLexer::insertMacro »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.html: ParleRLexer
+title: 'ParleRLexer::getToken'
+---
 # ParleRLexer::getToken
 
 (PECL parle >= 0.5.1)

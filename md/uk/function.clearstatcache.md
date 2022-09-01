@@ -1,16 +1,11 @@
-Очищує кеш стану файлів
-
--   [« chown](function.chown.md)
-    
--   [copy »](function.copy.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Очищує кеш стану файлів
-    
-
+---
+navigation:
+  - function.chown.md: « chown
+  - function.copy.md: copy »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: clearstatcache
+---
 # clearstatcache
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Строкове подання винятку
-
--   [« Exception::getTraceAsString](exception.gettraceasstring.md)
-    
--   [Exception::clone »](exception.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [Exception](class.exception.md)
-    
--   Строкове подання винятку
-    
-
+---
+navigation:
+  - exception.gettraceasstring.md: '« Exception::getTraceAsString'
+  - exception.clone.md: 'Exception::clone »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
+title: 'Exception::function toString() { \[native code\] }'
+---
 # Exception::function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)

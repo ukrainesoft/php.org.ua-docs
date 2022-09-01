@@ -1,16 +1,11 @@
-Список параметрів контексту FTP
-
--   [« Опции контекста HTTP](context.http.html)
-    
--   [Опции контекста SSL »](context.ssl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Контекстні опції та параметри](context.html)
-    
--   Список параметрів контексту FTP
-    
-
+---
+navigation:
+  - context.http.html: « Опции контекста HTTP
+  - context.ssl.html: Опции контекста SSL »
+  - index.html: PHP Manual
+  - context.html: Контекстні опції та параметри
+title: Параметри контексту FTP
+---
 # Параметри контексту FTP
 
 Параметри контексту FTP — Список параметрів контексту FTP

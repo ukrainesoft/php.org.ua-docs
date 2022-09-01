@@ -1,16 +1,11 @@
-Ранкова зірка дожі
-
--   [« tradercdlmathold](function.trader-cdlmathold.html)
-    
--   [tradercdlmorningstar »](function.trader-cdlmorningstar.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Ранкова зірка дожі
-    
-
+---
+navigation:
+  - function.trader-cdlmathold.html: « tradercdlmathold
+  - function.trader-cdlmorningstar.html: tradercdlmorningstar »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlmorningdojistar
+---
 # tradercdlmorningdojistar
 
 (PECL trader >= 0.2.0)

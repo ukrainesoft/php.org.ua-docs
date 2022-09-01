@@ -1,16 +1,11 @@
-Стохастичний осцилятор
-
--   [« traderstddev](function.trader-stddev.html)
-    
--   [traderstochf »](function.trader-stochf.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Стохастичний осцилятор
-    
-
+---
+navigation:
+  - function.trader-stddev.html: « traderstddev
+  - function.trader-stochf.html: traderstochf »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderstoch
+---
 # traderstoch
 
 (PECL trader >= 0.2.0)

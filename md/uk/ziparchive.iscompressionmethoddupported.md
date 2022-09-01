@@ -1,16 +1,11 @@
-Перевіряє, чи підтримується метод стиснення libzip
-
--   [« ZipArchive::getStreamName](ziparchive.getstreamname.md)
-    
--   [ZipArchive::isEncryptionMethodSupported »](ziparchive.isencryptionmethoddupported.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Перевіряє, чи підтримується метод стиснення libzip
-    
-
+---
+navigation:
+  - ziparchive.getstreamname.md: '« ZipArchive::getStreamName'
+  - ziparchive.isencryptionmethoddupported.md: 'ZipArchive::isEncryptionMethodSupported »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::isCompressionMethodSupported'
+---
 # ZipArchive::isCompressionMethodSupported
 
 (PHP >= 8.0.0, PECL zip >= 1.19.0)

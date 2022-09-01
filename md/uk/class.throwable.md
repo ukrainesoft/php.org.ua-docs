@@ -1,16 +1,11 @@
-Throwable
-
--   [« IteratorAggregate::getIterator](iteratoraggregate.getiterator.html)
-    
--   [Throwable::getMessage »](throwable.getmessage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   Throwable
-    
-
+---
+navigation:
+  - iteratoraggregate.getiterator.html: '« IteratorAggregate::getIterator'
+  - throwable.getmessage.html: 'Throwable::getMessage »'
+  - index.html: PHP Manual
+  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+title: Throwable
+---
 # Throwable
 
 (PHP 7, PHP 8)
@@ -58,9 +53,9 @@ abstract public __toString(): string
 
 ## список змін
 
-| Версия | Описание                                                                        |
-|--------|---------------------------------------------------------------------------------|
-|        | Клас **Throwable** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **Throwable** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
 
 ## Зміст
 

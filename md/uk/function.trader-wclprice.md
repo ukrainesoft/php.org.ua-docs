@@ -1,16 +1,11 @@
-Зважена ціна закриття
-
--   [« tradervar](function.trader-var.html)
-    
--   [traderwillr »](function.trader-willr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Зважена ціна закриття
-    
-
+---
+navigation:
+  - function.trader-var.html: « tradervar
+  - function.trader-willr.html: traderwillr »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderwclprice
+---
 # traderwclprice
 
 (PECL trader >= 0.2.0)

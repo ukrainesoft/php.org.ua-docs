@@ -1,16 +1,11 @@
-Виводить гліф
-
--   [«pssymbolwidth](function.ps-symbol-width.html)
-    
--   [псtranslate »](function.ps-translate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Виводить гліф
-    
-
+---
+navigation:
+  - function.ps-symbol-width.html: «pssymbolwidth
+  - function.ps-translate.html: псtranslate »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsymbol
+---
 # псsymbol
 
 (PECL ps >= 1.2.0)

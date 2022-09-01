@@ -1,16 +1,11 @@
-Задає користувальницький обробник помилок
-
--   [« restoreexceptionhandler](function.restore-exception-handler.html)
-    
--   [setexceptionhandler »](function.set-exception-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции обработки ошибок](ref.errorfunc.md)
-    
--   Задає користувальницький обробник помилок
-    
-
+---
+navigation:
+  - function.restore-exception-handler.html: « restoreexceptionhandler
+  - function.set-exception-handler.html: setexceptionhandler »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: seterrorhandler
+---
 # seterrorhandler
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -81,10 +76,10 @@ handler(    int $errno,    string $errstr,    string $errfile = ?, 
 
 ### список змін
 
-| Версия | Описание                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `errcontext` був видалений і більше не передається в функцію обробки помилок.                                   |
-|        | Параметр `errcontext` оголошено застарілим. Тепер при його використанні викликатиметься помилка рівня **`E_DEPRECATED`** |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `errcontext` був видалений і більше не передається в функцію обробки помилок. |
+|  | Параметр `errcontext` оголошено застарілим. Тепер при його використанні викликатиметься помилка рівня **`E_DEPRECATED`** |
 
 ### Приклади
 

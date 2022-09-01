@@ -1,16 +1,11 @@
-Повертає ім'я алгоритму
-
--   [« mcryptdecrypt](function.mcrypt-decrypt.html)
-    
--   [mcryptencgetblocksize »](function.mcrypt-enc-get-block-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Повертає ім'я алгоритму
-    
-
+---
+navigation:
+  - function.mcrypt-decrypt.html: « mcryptdecrypt
+  - function.mcrypt-enc-get-block-size.html: mcryptencgetblocksize »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptencgetalgorithmsname
+---
 # mcryptencgetalgorithmsname
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

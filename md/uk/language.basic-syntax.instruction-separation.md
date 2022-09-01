@@ -1,16 +1,11 @@
-Поділ інструкцій
-
--   [« Изолирование от HTML](language.basic-syntax.phpmode.html)
-    
--   [Комментарии »](language.basic-syntax.comments.html)
-    
--   [PHP Manual](index.md)
-    
--   [Основи синтаксису](language.basic-syntax.html)
-    
--   Поділ інструкцій
-    
-
+---
+navigation:
+  - language.basic-syntax.phpmode.html: « Изолирование от HTML
+  - language.basic-syntax.comments.html: Комментарии »
+  - index.md: PHP Manual
+  - language.basic-syntax.html: Основи синтаксису
+title: Поділ інструкцій
+---
 ## Поділ інструкцій
 
 Як у C або Perl, PHP вимагає закінчення інструкцій крапкою комою в кінці кожної інструкції. Закриваючий тег блоку PHP-коду автоматично застосовує крапку з комою; тобто. немає необхідності ставити крапку з комою в кінці останнього рядка блоку з PHP-кодом. Закриваючий тег блоку "поглине" негайно наступний за ним перехід на новий рядок, якщо такий буде виявлений.

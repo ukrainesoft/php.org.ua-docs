@@ -1,16 +1,11 @@
-Розширює розмір буфера пам'яті
-
--   [« SwooleBuffer::destruct](swoole-buffer.destruct.html)
-    
--   [SwooleBuffer::read »](swoole-buffer.read.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleBuffer](class.swoole-buffer.html)
-    
--   Розширює розмір буфера пам'яті
-    
-
+---
+navigation:
+  - swoole-buffer.destruct.html: '« SwooleBuffer::destruct'
+  - swoole-buffer.read.html: 'SwooleBuffer::read »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.html: SwooleBuffer
+title: 'SwooleBuffer::expand'
+---
 # SwooleBuffer::expand
 
 (PECL swoole >= 1.9.0)

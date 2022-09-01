@@ -1,16 +1,11 @@
-Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
-
--   [« arrayrand](function.array-rand.html)
-    
--   [arrayreplacerecursive »](function.array-replace-recursive.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
-    
-
+---
+navigation:
+  - function.array-rand.html: « arrayrand
+  - function.array-replace-recursive.html: arrayreplacerecursive »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayreduce
+---
 # arrayreduce
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ callback(mixed $carry, mixed $item): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | Якщо параметр `callback` очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня **`E_WARNING`** |
+| Версия | Описание |
+| --- | --- |
+|  | Якщо параметр `callback` очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня **`E_WARNING`** |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає масштаб поля
-
--   [« odbcfieldprecision](function.odbc-field-precision.html)
-    
--   [odbcfieldtype »](function.odbc-field-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Повертає масштаб поля
-    
-
+---
+navigation:
+  - function.odbc-field-precision.html: « odbcfieldprecision
+  - function.odbc-field-type.html: odbcfieldtype »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcfieldscale
+---
 # odbcfieldscale
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

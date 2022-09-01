@@ -1,16 +1,11 @@
-Перевіряє, чи є символ пробельним
-
--   [« IntlChar::ispunct](intlchar.ispunct.md)
-    
--   [IntlChar::istitle »](intlchar.istitle.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевіряє, чи є символ пробельним
-    
-
+---
+navigation:
+  - intlchar.ispunct.md: '« IntlChar::ispunct'
+  - intlchar.istitle.md: 'IntlChar::istitle »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isspace'
+---
 # IntlChar::isspace
 
 (PHP 7, PHP 8)

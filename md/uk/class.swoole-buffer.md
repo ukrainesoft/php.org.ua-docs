@@ -1,16 +1,11 @@
-Клас SwooleBuffer
-
--   [« SwooleAtomic::sub](swoole-atomic.sub.html)
-    
--   [SwooleBuffer::append »](swoole-buffer.append.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleBuffer
-    
-
+---
+navigation:
+  - swoole-atomic.sub.html: '« SwooleAtomic::sub'
+  - swoole-buffer.append.html: 'SwooleBuffer::append »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleBuffer
+---
 # Клас SwooleBuffer
 
 (PECL swoole >= 1.9.0)

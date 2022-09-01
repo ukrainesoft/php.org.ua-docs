@@ -1,16 +1,11 @@
-Отримати останню помилку сокету, що виникла
-
--   [« EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.md)
-    
--   [EventUtil::getSocketFd »](eventutil.getsocketfd.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventUtil](class.eventutil.md)
-    
--   Отримати останню помилку сокету, що виникла
-    
-
+---
+navigation:
+  - eventutil.getlastsocketerrno.md: '« EventUtil::getLastSocketErrno'
+  - eventutil.getsocketfd.md: 'EventUtil::getSocketFd »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
+title: 'EventUtil::getLastSocketError'
+---
 # EventUtil::getLastSocketError
 
 (PECL event >= 1.2.6-beta)

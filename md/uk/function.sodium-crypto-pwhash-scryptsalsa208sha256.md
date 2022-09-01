@@ -1,16 +1,11 @@
-Отримує ключ із пароля, використовуючи scrypt
-
--   [« sodiumcryptopwhashscryptsalsa208sha256str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
-    
--   [sodiumcryptopwhashstrneedsrehash »](function.sodium-crypto-pwhash-str-needs-rehash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Отримує ключ із пароля, використовуючи scrypt
-    
-
+---
+navigation:
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html: « sodiumcryptopwhashscryptsalsa208sha256str
+  - function.sodium-crypto-pwhash-str-needs-rehash.html: sodiumcryptopwhashstrneedsrehash »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptopwhashscryptsalsa208sha256
+---
 # sodiumcryptopwhashscryptsalsa208sha256
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює максимальний час виконання
-
--   [« eiosetmaxpollreqs](function.eio-set-max-poll-reqs.html)
-    
--   [eiosetminparallel »](function.eio-set-min-parallel.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Встановлює максимальний час виконання
-    
-
+---
+navigation:
+  - function.eio-set-max-poll-reqs.html: « eiosetmaxpollreqs
+  - function.eio-set-min-parallel.html: eiosetminparallel »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosetmaxpolltime
+---
 # eiosetmaxpolltime
 
 (PECL eio >= 0.0.1dev)

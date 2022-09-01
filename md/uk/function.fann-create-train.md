@@ -1,16 +1,11 @@
-Створює порожню структуру даних для навчання
-
--   [« fanncreatetrainfromcallback](function.fann-create-train-from-callback.html)
-    
--   [fanndescaleinput »](function.fann-descale-input.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Створює порожню структуру даних для навчання
-    
-
+---
+navigation:
+  - function.fann-create-train-from-callback.html: « fanncreatetrainfromcallback
+  - function.fann-descale-input.html: fanndescaleinput »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncreatetrain
+---
 # fanncreatetrain
 
 (PECL fann> = 1.0.0)

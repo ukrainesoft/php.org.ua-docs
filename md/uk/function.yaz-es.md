@@ -1,16 +1,11 @@
-Готує Extended Service Request
-
--   [« yazесresult](function.yaz-es-result.html)
-    
--   [yazgetoption »](function.yaz-get-option.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Готує Extended Service Request
-    
-
+---
+navigation:
+  - function.yaz-es-result.html: « yazесresult
+  - function.yaz-get-option.html: yazgetoption »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazес
+---
 # yazес
 
 (PECL yaz >= 0.9.0)

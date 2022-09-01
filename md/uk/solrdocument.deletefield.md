@@ -1,16 +1,11 @@
-Видаляє поле з документа
-
--   [« SolrDocument::current](solrdocument.current.md)
-    
--   [SolrDocument::destruct »](solrdocument.destruct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Видаляє поле з документа
-    
-
+---
+navigation:
+  - solrdocument.current.md: '« SolrDocument::current'
+  - solrdocument.destruct.md: 'SolrDocument::destruct »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::deleteField'
+---
 # SolrDocument::deleteField
 
 (PECL solr> = 0.9.2)

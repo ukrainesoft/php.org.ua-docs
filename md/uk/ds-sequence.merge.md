@@ -1,16 +1,11 @@
-Повертає результат додавання всіх заданих значень до колекції
-
--   [« DsSequence::map](ds-sequence.map.html)
-    
--   [ДсSequence::pop »](ds-sequence.pop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає результат додавання всіх заданих значень до колекції
-    
-
+---
+navigation:
+  - ds-sequence.map.html: '« DsSequence::map'
+  - ds-sequence.pop.html: 'ДсSequence::pop »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::merge'
+---
 # ДсSequence::merge
 
 (PECL ds >= 1.0.0)

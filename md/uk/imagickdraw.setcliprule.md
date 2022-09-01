@@ -1,16 +1,11 @@
-Встановлює правило заливання багатокутника, яке використовуватиметься відсічний контур
-
--   [« ImagickDraw::setClipPath](imagickdraw.setclippath.html)
-    
--   [ImagickDraw::setClipUnits »](imagickdraw.setclipunits.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює правило заливання багатокутника, яке використовуватиметься відсічний контур
-    
-
+---
+navigation:
+  - imagickdraw.setclippath.html: '« ImagickDraw::setClipPath'
+  - imagickdraw.setclipunits.html: 'ImagickDraw::setClipUnits »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setClipRule'
+---
 # ImagickDraw::setClipRule
 
 (PECL imagick 2, PECL imagick 3)

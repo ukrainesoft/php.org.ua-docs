@@ -1,16 +1,11 @@
-Припиняє надсилання подій
-
--   [« EventBase::dispatch](eventbase.dispatch.md)
-    
--   [EventBase::free »](eventbase.free.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Припиняє надсилання подій
-    
-
+---
+navigation:
+  - eventbase.dispatch.md: '« EventBase::dispatch'
+  - eventbase.free.md: 'EventBase::free »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::exit'
+---
 # EventBase::exit
 
 (PECL event >= 1.2.6-beta)

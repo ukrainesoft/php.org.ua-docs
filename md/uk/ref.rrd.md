@@ -1,16 +1,11 @@
-Функції RRD
-
--   [« Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.html)
-    
--   [rrdcreate »](function.rrd-create.html)
-    
--   [PHP Manual](index.html)
-    
--   [RRD](book.rrd.html)
-    
--   Функції RRD
-    
-
+---
+navigation:
+  - rrd.examples-oop.html: « Об'єктно-орієнтований приклад PECL/rrd
+  - function.rrd-create.html: rrdcreate »
+  - index.html: PHP Manual
+  - book.rrd.html: RRD
+title: Функції RRD
+---
 # Функції RRD
 
 ## Зміст

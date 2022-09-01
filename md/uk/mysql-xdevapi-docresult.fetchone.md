@@ -1,16 +1,11 @@
-Отримати один рядок
-
--   [« DocResult::fetchAll](mysql-xdevapi-docresult.fetchall.html)
-    
--   [DocResult::getWarnings »](mysql-xdevapi-docresult.getwarnings.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
-    
--   Отримати один рядок
-    
-
+---
+navigation:
+  - mysql-xdevapi-docresult.fetchall.html: '« DocResult::fetchAll'
+  - mysql-xdevapi-docresult.getwarnings.html: 'DocResult::getWarnings »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+title: 'DocResult::fetchOne'
+---
 # DocResult::fetchOne
 
 (No version information available, might only be in Git)

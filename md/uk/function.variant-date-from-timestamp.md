@@ -1,16 +1,11 @@
-Отримати подання дати для варіанта з тимчасової мітки Unix
-
--   [« variantcmp](function.variant-cmp.html)
-    
--   [variantdateтоtimestamp »](function.variant-date-to-timestamp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Отримати подання дати для варіанта з тимчасової мітки Unix
-    
-
+---
+navigation:
+  - function.variant-cmp.html: « variantcmp
+  - function.variant-date-to-timestamp.html: variantdateтоtimestamp »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantdatefromtimestamp
+---
 # variantdatefromtimestamp
 
 (PHP 5, PHP 7, PHP 8)

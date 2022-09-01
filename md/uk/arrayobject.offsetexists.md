@@ -1,16 +1,11 @@
-Повертає, чи існує зазначений індекс
-
--   [« ArrayObject::natsort](arrayobject.natsort.md)
-    
--   [ArrayObject::offsetGet »](arrayobject.offsetget.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Повертає, чи існує зазначений індекс
-    
-
+---
+navigation:
+  - arrayobject.natsort.md: '« ArrayObject::natsort'
+  - arrayobject.offsetget.md: 'ArrayObject::offsetGet »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::offsetExists'
+---
 # ArrayObject::offsetExists
 
 (PHP 5, PHP 7, PHP 8)

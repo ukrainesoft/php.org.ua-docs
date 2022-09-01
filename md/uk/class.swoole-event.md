@@ -1,16 +1,11 @@
-Клас SwooleEvent
-
--   [« SwooleCoroutine::suspend](swoole-coroutine.suspend.html)
-    
--   [SwooleEvent::add »](swoole-event.add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleEvent
-    
-
+---
+navigation:
+  - swoole-coroutine.suspend.html: '« SwooleCoroutine::suspend'
+  - swoole-event.add.html: 'SwooleEvent::add »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleEvent
+---
 # Клас SwooleEvent
 
 (PECL swoole >= 1.9.0)

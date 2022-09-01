@@ -1,16 +1,11 @@
-XML-RPC
-
--   [« YarClientException::getType](yar-client-exception.gettype.html)
-    
--   [Введение »](intro.xmlrpc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Веб-сервіси](refs.webservice.html)
-    
--   XML-RPC
-    
-
+---
+navigation:
+  - yar-client-exception.gettype.html: '« YarClientException::getType'
+  - intro.xmlrpc.html: Введение »
+  - index.html: PHP Manual
+  - refs.webservice.html: Веб-сервіси
+title: XML-RPC
+---
 # XML-RPC
 
 -   [Введение](intro.xmlrpc.html)

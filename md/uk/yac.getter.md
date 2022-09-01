@@ -1,16 +1,11 @@
-Геттер
-
--   [« Yac::get](yac.get.md)
-    
--   [Yac::info »](yac.info.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Геттер
-    
-
+---
+navigation:
+  - yac.get.md: '« Yac::get'
+  - yac.info.md: 'Yac::info »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::get'
+---
 # Yac::get
 
 (PECL yac >= 1.0.0)

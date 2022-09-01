@@ -1,16 +1,11 @@
-Включення/відключення рандомізації порядку кінцевих точок кворуму
-
--   [« Zookeeper::setDebugLevel](zookeeper.setdebuglevel.md)
-    
--   [Zookeeper::setLogStream »](zookeeper.setlogstream.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Включення/відключення рандомізації порядку кінцевих точок кворуму
-    
-
+---
+navigation:
+  - zookeeper.setdebuglevel.md: '« Zookeeper::setDebugLevel'
+  - zookeeper.setlogstream.md: 'Zookeeper::setLogStream »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::setDeterministicConnOrder'
+---
 # Zookeeper::setDeterministicConnOrder
 
 (PECL zookeeper >= 0.1.0)

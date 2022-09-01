@@ -1,16 +1,11 @@
-Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
-
--   [« hashhkdf](function.hash-hkdf.html)
-    
--   [hashhmacfile »](function.hash-hmac-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
-    
-
+---
+navigation:
+  - function.hash-hkdf.html: « hashhkdf
+  - function.hash-hmac-file.html: hashhmacfile »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashhmacalgos
+---
 # hashhmacalgos
 
 (PHP 7> = 7.2.0, PHP 8)

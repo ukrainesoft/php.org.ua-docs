@@ -1,14 +1,10 @@
-Безпека
-
--   [« expect://](wrappers.expect.md)
-    
--   [Вступление »](security.intro.md)
-    
--   [PHP Manual](index.md)
-    
--   Безпека
-    
-
+---
+navigation:
+  - wrappers.expect.md: '« expect://'
+  - security.intro.md: Вступление »
+  - index.md: PHP Manual
+title: Безпека
+---
 # Безпека
 
 -   [Вступление](security.intro.md)

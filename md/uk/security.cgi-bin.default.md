@@ -1,16 +1,11 @@
-Варіант 1: обслуговуються лише загальнодоступні файли
-
--   [« Можливі атаки](security.cgi-bin.attacks.html)
-    
--   [Вариант 2: использование cgi.forceredirect »](security.cgi-bin.force-redirect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Если PHP установлен как CGI](security.cgi-bin.html)
-    
--   Варіант 1: обслуговуються лише загальнодоступні файли
-    
-
+---
+navigation:
+  - security.cgi-bin.attacks.html: « Можливі атаки
+  - security.cgi-bin.force-redirect.html: 'Вариант 2: использование cgi.forceredirect »'
+  - index.html: PHP Manual
+  - security.cgi-bin.html: Если PHP установлен как CGI
+title: 'Варіант 1: обслуговуються лише загальнодоступні файли'
+---
 ## Варіант 1: обслуговуються лише загальнодоступні файли
 
 У випадку, якщо на вашому сервері відсутні файли, доступ до яких обмежений паролем або фільтром за IP-адресами, немає необхідності використовувати ці опції. Якщо ваш веб-сервер не дозволяє виконувати перенаправлення, або не має можливості взаємодіяти з PHP-модулем, що виконується на необхідному рівні безпеки, ви можете включити ini-директиву [cgi.forceredirect](ini.core.html#ini.cgi.force-redirect). Але ви все ще повинні переконатися, що альтернативні способи виклику скрипта, такі як безпосередній виклик [http://my.host/cgi-bin/php/dir/script.php](http://my.host/cgi-bin/php/dir/script.php) або з переадресацією [http://my.host/dir/script.php](http://my.host/dir/script.php)недоступні.

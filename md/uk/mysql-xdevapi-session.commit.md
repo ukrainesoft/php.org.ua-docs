@@ -1,16 +1,11 @@
-Фіксує транзакцію
-
--   [« Session::close](mysql-xdevapi-session.close.html)
-    
--   [Session::construct »](mysql-xdevapi-session.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Фіксує транзакцію
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.close.html: '« Session::close'
+  - mysql-xdevapi-session.construct.html: 'Session::construct »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::commit'
+---
 # Session::commit
 
 (PHP 4> = 4.4.0, PHP 5, PHP 7, PHP 8)

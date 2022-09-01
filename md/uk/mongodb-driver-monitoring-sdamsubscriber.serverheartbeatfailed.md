@@ -1,16 +1,11 @@
-Метод повідомлення про невдалий heartbeat сервер
-
--   [« MongoDBDriverMonitoringSDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   Метод повідомлення про невдалий heartbeat сервер
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.serverclosed.html: '« MongoDBDriverMonitoringSDAMSubscriber::serverClosed'
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html: 'MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed'
+---
 # MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed
 
 (mongodb >=1.13.0)

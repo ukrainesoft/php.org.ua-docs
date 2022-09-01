@@ -1,16 +1,11 @@
-Встановити метадані phar-архіву
-
--   [« PharData::setDefaultStub](phardata.setdefaultstub.md)
-    
--   [PharData::setSignatureAlgorithm »](phardata.setsignaturealgorithm.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Встановити метадані phar-архіву
-    
-
+---
+navigation:
+  - phardata.setdefaultstub.md: '« PharData::setDefaultStub'
+  - phardata.setsignaturealgorithm.md: 'PharData::setSignatureAlgorithm »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::setMetadata'
+---
 # PharData::setMetadata
 
 (No version information available, might only be in Git)

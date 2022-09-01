@@ -1,16 +1,11 @@
-Конструктор класу RecursiveTreeIterator
-
--   [« RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.html)
-    
--   [RecursiveTreeIterator::current »](recursivetreeiterator.current.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
-    
--   Конструктор класу RecursiveTreeIterator
-    
-
+---
+navigation:
+  - recursivetreeiterator.callhaschildren.html: '« RecursiveTreeIterator::callHasChildren'
+  - recursivetreeiterator.current.html: 'RecursiveTreeIterator::current »'
+  - index.html: PHP Manual
+  - class.recursivetreeiterator.html: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::construct'
+---
 # RecursiveTreeIterator::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

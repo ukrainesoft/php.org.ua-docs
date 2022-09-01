@@ -1,16 +1,11 @@
-Асинхронно записує дані у файловий потік
-
--   [« SwooleAsync::set](swoole-async.set.html)
-    
--   [SwooleAsync::writeFile »](swoole-async.writefile.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleAsync](class.swoole-async.html)
-    
--   Асинхронно записує дані у файловий потік
-    
-
+---
+navigation:
+  - swoole-async.set.html: '« SwooleAsync::set'
+  - swoole-async.writefile.html: 'SwooleAsync::writeFile »'
+  - index.md: PHP Manual
+  - class.swoole-async.html: SwooleAsync
+title: 'SwooleAsync::write'
+---
 # SwooleAsync::write
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Викликати callback-функцію таймера тактів через певний проміжок часу
-
--   [« swooletimerexists](function.swoole-timer-exists.html)
-    
--   [swooleversion »](function.swoole-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Викликати callback-функцію таймера тактів через певний проміжок часу
-    
-
+---
+navigation:
+  - function.swoole-timer-exists.html: « swooletimerexists
+  - function.swoole-version.html: swooleversion »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooletimertick
+---
 # swooletimertick
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Встановлює векторну графіку
-
--   [« ImagickDraw::setTextUnderColor](imagickdraw.settextundercolor.html)
-    
--   [ImagickDraw::setViewbox »](imagickdraw.setviewbox.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює векторну графіку
-    
-
+---
+navigation:
+  - imagickdraw.settextundercolor.html: '« ImagickDraw::setTextUnderColor'
+  - imagickdraw.setviewbox.html: 'ImagickDraw::setViewbox »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setVectorGraphics'
+---
 # ImagickDraw::setVectorGraphics
 
 (PECL imagick 2, PECL imagick 3)

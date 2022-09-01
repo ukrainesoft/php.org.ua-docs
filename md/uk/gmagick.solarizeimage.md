@@ -1,16 +1,11 @@
-Застосовує ефект соляризації до зображення
-
--   [« Gmagick::shearimage](gmagick.shearimage.md)
-    
--   [Gmagick::spreadimage »](gmagick.spreadimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Застосовує ефект соляризації до зображення
-    
-
+---
+navigation:
+  - gmagick.shearimage.md: '« Gmagick::shearimage'
+  - gmagick.spreadimage.md: 'Gmagick::spreadimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::solarizeimage'
+---
 # Gmagick::solarizeimage
 
 (PECL gmagick >= Unknown)

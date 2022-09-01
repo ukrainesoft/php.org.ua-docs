@@ -1,16 +1,11 @@
-Створення об'єкту GearmanWorker
-
--   [« GearmanWorker::clone](gearmanworker.clone.html)
-    
--   [GearmanWorker::echo »](gearmanworker.echo.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Створення об'єкту GearmanWorker
-    
-
+---
+navigation:
+  - gearmanworker.clone.html: '« GearmanWorker::clone'
+  - gearmanworker.echo.html: 'GearmanWorker::echo »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::construct'
+---
 # GearmanWorker::construct
 
 (PECL gearman >= 0.5.0)

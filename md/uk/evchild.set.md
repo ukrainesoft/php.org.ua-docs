@@ -1,16 +1,11 @@
-Конфігурування спостерігача
-
--   [« EvChild::createStopped](evchild.createstopped.md)
-    
--   [EvEmbed »](class.evembed.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvChild](class.evchild.md)
-    
--   Конфігурування спостерігача
-    
-
+---
+navigation:
+  - evchild.createstopped.md: '« EvChild::createStopped'
+  - class.evembed.md: EvEmbed »
+  - index.md: PHP Manual
+  - class.evchild.md: EvChild
+title: 'EvChild::set'
+---
 # EvChild::set
 
 (PECL ev >= 0.2.0)

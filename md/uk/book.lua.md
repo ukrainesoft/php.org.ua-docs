@@ -1,16 +1,11 @@
-Lua
-
--   [« jsonlasterror](function.json-last-error.html)
-    
--   [Введение »](intro.lua.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   Lua
-    
-
+---
+navigation:
+  - function.json-last-error.html: « jsonlasterror
+  - intro.lua.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: Lua
+---
 # Lua
 
 -   [Введение](intro.lua.html)

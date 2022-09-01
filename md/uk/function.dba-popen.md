@@ -1,16 +1,11 @@
-Встановити постійний екземпляр бази даних
-
--   [« dbaoptimize](function.dba-optimize.html)
-    
--   [dbareplace »](function.dba-replace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції DBA](ref.dba.html)
-    
--   Встановити постійний екземпляр бази даних
-    
-
+---
+navigation:
+  - function.dba-optimize.html: « dbaoptimize
+  - function.dba-replace.html: dbareplace »
+  - index.html: PHP Manual
+  - ref.dba.html: Функції DBA
+title: dbapopen
+---
 # dbapopen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

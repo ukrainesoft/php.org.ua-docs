@@ -1,16 +1,11 @@
-Повертає ім'я файлу поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getExtension](directoryiterator.getextension.md)
-    
--   [DirectoryIterator::getGroup »](directoryiterator.getgroup.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає ім'я файлу поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getextension.md: '« DirectoryIterator::getExtension'
+  - directoryiterator.getgroup.md: 'DirectoryIterator::getGroup »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getFilename'
+---
 # DirectoryIterator::getFilename
 
 (PHP 5, PHP 7, PHP 8)

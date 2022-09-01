@@ -1,16 +1,11 @@
-Поділ
-
--   [« tradercdlrisefall3methods](function.trader-cdlrisefall3methods.html)
-    
--   [tradercdlshootingstar »](function.trader-cdlshootingstar.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Поділ
-    
-
+---
+navigation:
+  - function.trader-cdlrisefall3methods.html: « tradercdlrisefall3methods
+  - function.trader-cdlshootingstar.html: tradercdlshootingstar »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlseparatinglines
+---
 # tradercdlseparatinglines
 
 (PECL trader >= 0.2.0)

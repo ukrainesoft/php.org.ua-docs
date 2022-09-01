@@ -1,16 +1,11 @@
-Додає новий вузол атрибуту елемент
-
--   [« DOMElement::setAttribute](domelement.setattribute.md)
-    
--   [DOMElement::setAttributeNodeNS »](domelement.setattributenodens.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Додає новий вузол атрибуту елемент
-    
-
+---
+navigation:
+  - domelement.setattribute.md: '« DOMElement::setAttribute'
+  - domelement.setattributenodens.md: 'DOMElement::setAttributeNodeNS »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::setAttributeNode'
+---
 # DOMElement::setAttributeNode
 
 (PHP 5, PHP 7, PHP 8)

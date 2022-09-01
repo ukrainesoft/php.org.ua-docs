@@ -1,16 +1,11 @@
-Встановлює функцію активації для вихідного шару
-
--   [« fannsetactivationfunctionlayer](function.fann-set-activation-function-layer.html)
-    
--   [fannsetactivationfunction »](function.fann-set-activation-function.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює функцію активації для вихідного шару
-    
-
+---
+navigation:
+  - function.fann-set-activation-function-layer.html: « fannsetactivationfunctionlayer
+  - function.fann-set-activation-function.html: fannsetactivationfunction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetactivationfunctionoutput
+---
 # fannsetactivationfunctionoutput
 
 (PECL fann> = 1.0.0)

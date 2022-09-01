@@ -1,16 +1,11 @@
-Клас ComponereDefinition
-
--   [« ComponereAbstractDefinition::getReflector](componere-abstract-definition.getreflector.html)
-    
--   [ComponereDefinition::construct »](componere-definition.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Componere](book.componere.md)
-    
--   Клас ComponereDefinition
-    
-
+---
+navigation:
+  - componere-abstract-definition.getreflector.html: '« ComponereAbstractDefinition::getReflector'
+  - componere-definition.construct.html: 'ComponereDefinition::construct »'
+  - index.md: PHP Manual
+  - book.componere.md: Componere
+title: Клас ComponereDefinition
+---
 # Клас ComponereDefinition
 
 (Componere 2 >= 2.1.0)

@@ -1,16 +1,11 @@
-Клас ZookeeperOperationTimeoutException
-
--   [« ZookeeperNoNodeException](class.zookeepernonodeexception.html)
-    
--   [ZookeeperSessionException »](class.zookeepersessionexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZooKeeper](book.zookeeper.html)
-    
--   Клас ZookeeperOperationTimeoutException
-    
-
+---
+navigation:
+  - class.zookeepernonodeexception.html: « ZookeeperNoNodeException
+  - class.zookeepersessionexception.html: ZookeeperSessionException »
+  - index.html: PHP Manual
+  - book.zookeeper.html: ZooKeeper
+title: Клас ZookeeperOperationTimeoutException
+---
 # Клас ZookeeperOperationTimeoutException
 
 (PECL zookeeper >= 0.3.0)

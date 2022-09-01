@@ -1,16 +1,11 @@
-Змінити ім'я запису
-
--   [« ldaprenameext](function.ldap-rename-ext.html)
-    
--   [ldapsaslbind »](function.ldap-sasl-bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Змінити ім'я запису
-    
-
+---
+navigation:
+  - function.ldap-rename-ext.html: « ldaprenameext
+  - function.ldap-sasl-bind.html: ldapsaslbind »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldaprename
+---
 # ldaprename
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -57,11 +52,11 @@ ldap_rename(    LDAP\Connection $ldap,    string $dn,    string $new
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Примітки
 

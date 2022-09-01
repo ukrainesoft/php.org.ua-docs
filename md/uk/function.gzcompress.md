@@ -1,16 +1,11 @@
-Стиснути рядок
-
--   [« gzclose](function.gzclose.md)
-    
--   [gzdecode »](function.gzdecode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Стиснути рядок
-    
-
+---
+navigation:
+  - function.gzclose.md: « gzclose
+  - function.gzdecode.md: gzdecode »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzcompress
+---
 # gzcompress
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

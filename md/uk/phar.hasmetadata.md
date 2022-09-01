@@ -1,16 +1,11 @@
-Перевірити, чи містить phar-архів глобальні метадані
-
--   [« Phar::getVersion](phar.getversion.html)
-    
--   [Phar::interceptFileFuncs »](phar.interceptfilefuncs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Перевірити, чи містить phar-архів глобальні метадані
-    
-
+---
+navigation:
+  - phar.getversion.html: '« Phar::getVersion'
+  - phar.interceptfilefuncs.html: 'Phar::interceptFileFuncs »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::hasMetadata'
+---
 # Phar::hasMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.0)

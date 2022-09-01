@@ -1,16 +1,11 @@
-Отримує буфер логів у пам'яті у вигляді масиву
-
--   [« SeasLog::getBasePath](seaslog.getbasepath.html)
-    
--   [SeasLog::getBufferEnabled »](seaslog.getbufferenabled.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Отримує буфер логів у пам'яті у вигляді масиву
-    
-
+---
+navigation:
+  - seaslog.getbasepath.html: '« SeasLog::getBasePath'
+  - seaslog.getbufferenabled.html: 'SeasLog::getBufferEnabled »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::getBuffer'
+---
 # SeasLog::getBuffer
 
 (PECL seaslog >=1.0.0)

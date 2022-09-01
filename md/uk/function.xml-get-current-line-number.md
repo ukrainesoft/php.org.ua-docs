@@ -1,16 +1,11 @@
-Отримує від XML-аналізатора номер поточного рядка
-
--   [« xmlgetcurrentcolumnnumber](function.xml-get-current-column-number.html)
-    
--   [xmlgeterrorcode »](function.xml-get-error-code.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Отримує від XML-аналізатора номер поточного рядка
-    
-
+---
+navigation:
+  - function.xml-get-current-column-number.html: « xmlgetcurrentcolumnnumber
+  - function.xml-get-error-code.html: xmlgeterrorcode »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlgetcurrentlinenumber
+---
 # xmlgetcurrentlinenumber
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ xml_get_current_line_number(XMLParser $parser): int
 
 ### список змін
 
-| Версия | Описание                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

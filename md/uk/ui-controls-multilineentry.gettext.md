@@ -1,16 +1,11 @@
-Отримати текст
-
--   [« UIControlsMultilineEntry::construct](ui-controls-multilineentry.construct.html)
-    
--   [ОЙControlsMultilineEntry::isReadOnly »](ui-controls-multilineentry.isreadonly.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
-    
--   Отримати текст
-    
-
+---
+navigation:
+  - ui-controls-multilineentry.construct.html: '« UIControlsMultilineEntry::construct'
+  - ui-controls-multilineentry.isreadonly.html: 'ОЙControlsMultilineEntry::isReadOnly »'
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::getText'
+---
 # ОЙControlsMultilineEntry::getText
 
 (UI 0.9.9)

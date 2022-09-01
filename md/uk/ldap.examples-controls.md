@@ -1,16 +1,11 @@
-LDAP Controls
-
--   [« Базовое использование](ldap.examples-basic.html)
-    
--   [Функції LDAP »](ref.ldap.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](ldap.examples.md)
-    
--   LDAP Controls
-    
-
+---
+navigation:
+  - ldap.examples-basic.html: « Базовое использование
+  - ref.ldap.md: Функції LDAP »
+  - index.md: PHP Manual
+  - ldap.examples.md: Приклади
+title: LDAP Controls
+---
 ## LDAP Controls
 
 Нижче наведено кілька прикладів використання LDAP Controls з використанням PHP >= 7.3.0.

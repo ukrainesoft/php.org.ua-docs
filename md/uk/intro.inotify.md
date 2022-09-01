@@ -1,16 +1,11 @@
-Вступ
-
--   [« Inotify](book.inotify.md)
-    
--   [Встановлення та налаштування »](inotify.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Inotify](book.inotify.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.inotify.md: « Inotify
+  - inotify.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.inotify.md: Inotify
+title: Вступ
+---
 # Вступ
 
 Модуль inotify надає функції [inotifyinit()](function.inotify-init.html) [inotifyaddwatch()](function.inotify-add-watch.html) і [inotifyрмwatch()](function.inotify-rm-watch.html)

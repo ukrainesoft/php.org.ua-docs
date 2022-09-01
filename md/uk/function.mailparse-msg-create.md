@@ -1,16 +1,11 @@
-Створює поштовий MIME-ресурс
-
--   [« mailparsedeterminebestxferencoding](function.mailparse-determine-best-xfer-encoding.html)
-    
--   [mailparsemsgextractpartfile »](function.mailparse-msg-extract-part-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Створює поштовий MIME-ресурс
-    
-
+---
+navigation:
+  - function.mailparse-determine-best-xfer-encoding.html: « mailparsedeterminebestxferencoding
+  - function.mailparse-msg-extract-part-file.html: mailparsemsgextractpartfile »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsgcreate
+---
 # mailparsemsgcreate
 
 (PECL mailparse >= 0.9.0)

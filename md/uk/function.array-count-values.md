@@ -1,16 +1,11 @@
-Підраховує кількість усіх значень масиву
-
--   [« arraycombine](function.array-combine.html)
-    
--   [arraydiffassoc »](function.array-diff-assoc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Підраховує кількість усіх значень масиву
-    
-
+---
+navigation:
+  - function.array-combine.html: « arraycombine
+  - function.array-diff-assoc.html: arraydiffassoc »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraycountvalues
+---
 # arraycountvalues
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

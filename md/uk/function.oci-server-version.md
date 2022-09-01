@@ -1,16 +1,11 @@
-Повертає версію сервера Oracle
-
--   [« ocirollback](function.oci-rollback.html)
-    
--   [ocisetaction »](function.oci-set-action.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає версію сервера Oracle
-    
-
+---
+navigation:
+  - function.oci-rollback.html: « ocirollback
+  - function.oci-set-action.html: ocisetaction »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociserverversion
+---
 # ociserverversion
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

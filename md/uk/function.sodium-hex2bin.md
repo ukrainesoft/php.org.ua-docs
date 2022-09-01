@@ -1,16 +1,11 @@
-Декодує рядок у шістнадцятковому поданні до бінарного
-
--   [« sodiumcryptostream](function.sodium-crypto-stream.html)
-    
--   [sodiumincrement »](function.sodium-increment.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Декодує рядок у шістнадцятковому поданні до бінарного
-    
-
+---
+navigation:
+  - function.sodium-crypto-stream.html: « sodiumcryptostream
+  - function.sodium-increment.html: sodiumincrement »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumhex2bin
+---
 # sodiumhex2bin
 
 (PHP 7> = 7.2.0, PHP 8)

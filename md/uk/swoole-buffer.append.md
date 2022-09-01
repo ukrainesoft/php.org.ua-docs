@@ -1,16 +1,11 @@
-Додає рядок або двійкові дані до кінця буфера пам'яті та повертає новий розмір виділеної пам'яті
-
--   [« SwooleBuffer](class.swoole-buffer.html)
-    
--   [SwooleBuffer::clear »](swoole-buffer.clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleBuffer](class.swoole-buffer.html)
-    
--   Додає рядок або двійкові дані до кінця буфера пам'яті та повертає новий розмір виділеної пам'яті
-    
-
+---
+navigation:
+  - class.swoole-buffer.html: « SwooleBuffer
+  - swoole-buffer.clear.html: 'SwooleBuffer::clear »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.html: SwooleBuffer
+title: 'SwooleBuffer::append'
+---
 # SwooleBuffer::append
 
 (PECL swoole >= 1.9.0)

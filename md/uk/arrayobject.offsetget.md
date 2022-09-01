@@ -1,16 +1,11 @@
-Повертає значення за вказаним індексом
-
--   [« ArrayObject::offsetExists](arrayobject.offsetexists.md)
-    
--   [ArrayObject::offsetSet »](arrayobject.offsetset.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Повертає значення за вказаним індексом
-    
-
+---
+navigation:
+  - arrayobject.offsetexists.md: '« ArrayObject::offsetExists'
+  - arrayobject.offsetset.md: 'ArrayObject::offsetSet »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::offsetGet'
+---
 # ArrayObject::offsetGet
 
 (PHP 5, PHP 7, PHP 8)

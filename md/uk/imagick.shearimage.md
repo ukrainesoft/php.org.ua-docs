@@ -1,16 +1,11 @@
-Створює паралелограм
-
--   [« Imagick::shaveImage](imagick.shaveimage.md)
-    
--   [Imagick::sigmoidalContrastImage »](imagick.sigmoidalcontrastimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює паралелограм
-    
-
+---
+navigation:
+  - imagick.shaveimage.md: '« Imagick::shaveImage'
+  - imagick.sigmoidalcontrastimage.md: 'Imagick::sigmoidalContrastImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::shearImage'
+---
 # Imagick::shearImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -45,8 +40,8 @@ public Imagick::shearImage(mixed $background, float $x_shear, float $y_shear): b
 
 ### список змін
 
-| Версия             | Описание                                                                                                        |
-|--------------------|-----------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер допускається рядок, що представляє колір, як перший параметр. Раніше допускався лише об'єкт ImagickPixel. |
 
 ### Приклади

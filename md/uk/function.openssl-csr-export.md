@@ -1,16 +1,11 @@
-Експортує CSR у вигляді рядка
-
--   [« opensslcsrexportтоfile](function.openssl-csr-export-to-file.html)
-    
--   [opensslcsrgetpublickey »](function.openssl-csr-get-public-key.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Експортує CSR у вигляді рядка
-    
-
+---
+navigation:
+  - function.openssl-csr-export-to-file.html: « opensslcsrexportтоfile
+  - function.openssl-csr-get-public-key.html: opensslcsrgetpublickey »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslcsrexport
+---
 # opensslcsrexport
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ openssl_csr_export(OpenSSLCertificateSigningRequest|string $csr, string &$output
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

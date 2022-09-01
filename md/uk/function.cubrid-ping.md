@@ -1,16 +1,11 @@
-Перевіряє, чи живе з'єднання до сервера і перепідключає його, якщо ні
-
--   [« cubridnumfields](function.cubrid-num-fields.html)
-    
--   [cubridquery »](function.cubrid-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Перевіряє, чи живе з'єднання до сервера і перепідключає його, якщо ні
-    
-
+---
+navigation:
+  - function.cubrid-num-fields.html: « cubridnumfields
+  - function.cubrid-query.html: cubridquery »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridping
+---
 # cubridping
 
 (PECL CUBRID >= 8.3.1)

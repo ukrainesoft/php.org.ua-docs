@@ -1,16 +1,11 @@
-Вивантаження таблиці у файл
-
--   [« PDO::pgsqlCopyToArray](pdo.pgsqlcopytoarray.html)
-    
--   [PDO::pgsqlGetNotify »](pdo.pgsqlgetnotify.html)
-    
--   [PHP Manual](index.html)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   Вивантаження таблиці у файл
-    
-
+---
+navigation:
+  - pdo.pgsqlcopytoarray.html: '« PDO::pgsqlCopyToArray'
+  - pdo.pgsqlgetnotify.html: 'PDO::pgsqlGetNotify »'
+  - index.html: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: 'PDO::pgsqlCopyToFile'
+---
 # PDO::pgsqlCopyToFile
 
 (PHP 5> = 5.3.3, PHP 7, PHP 8)

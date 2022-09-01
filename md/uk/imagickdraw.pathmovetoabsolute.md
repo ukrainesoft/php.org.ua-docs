@@ -1,16 +1,11 @@
-Починає новий внутрішній контур
-
--   [« ImagickDraw::pathLineToVerticalRelative](imagickdraw.pathlinetoverticalrelative.md)
-    
--   [ImagickDraw::pathMoveToRelative »](imagickdraw.pathmovetorelative.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Починає новий внутрішній контур
-    
-
+---
+navigation:
+  - imagickdraw.pathlinetoverticalrelative.md: '« ImagickDraw::pathLineToVerticalRelative'
+  - imagickdraw.pathmovetorelative.md: 'ImagickDraw::pathMoveToRelative »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::pathMoveToAbsolute'
+---
 # ImagickDraw::pathMoveToAbsolute
 
 (PECL imagick 2, PECL imagick 3)

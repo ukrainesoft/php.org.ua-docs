@@ -1,16 +1,11 @@
-Стислі потоки
-
--   [« php://](wrappers.php.html)
-    
--   [data:// »](wrappers.data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Підтримувані протоколи та обгортки](wrappers.html)
-    
--   Стислі потоки
-    
-
+---
+navigation:
+  - wrappers.php.html: '« php://'
+  - wrappers.data.html: 'data:// »'
+  - index.html: PHP Manual
+  - wrappers.html: Підтримувані протоколи та обгортки
+title: 'zlib://'
+---
 # zlib://
 
 # bzip2://
@@ -39,15 +34,15 @@ compress.zlib:// та compress.bzip2:// еквіваленти [gzopen()](functi
 
 **Основна інформація**
 
-| Атрибут                                                                         | Поддержка                                                                                      |
-|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні                                                                                             |
-| Читання                                                                         | Так                                                                                            |
-| Запис                                                                           | Так (крім `zip://`                                                                             |
-| Додавання                                                                       | Так (крім `zip://`                                                                             |
-| Одночасне читання та запис                                                      | Ні                                                                                             |
-| Підтримка [stat()](function.stat.html)                                          | Ні, використовуйте стандартну обгортку `file://` для отримання інформації щодо стислих файлів. |
-| Підтримка [unlink()](function.unlink.html)                                      | Ні, використовуйте стандартну обгортку `file://` видалення стислих файлів.                     |
-| Підтримка [rename()](function.rename.html)                                      | Ні                                                                                             |
-| Підтримка [mkdir()](function.mkdir.html)                                        | Ні                                                                                             |
-| Підтримка [rmdir()](function.rmdir.html)                                        | Ні                                                                                             |
+| Атрибут | Поддержка |
+| --- | --- |
+| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
+| Читання | Так |
+| Запис | Так (крім `zip://` |
+| Додавання | Так (крім `zip://` |
+| Одночасне читання та запис | Ні |
+| Підтримка [stat()](function.stat.html) | Ні, використовуйте стандартну обгортку `file://` для отримання інформації щодо стислих файлів. |
+| Підтримка [unlink()](function.unlink.html) | Ні, використовуйте стандартну обгортку `file://` видалення стислих файлів. |
+| Підтримка [rename()](function.rename.html) | Ні |
+| Підтримка [mkdir()](function.mkdir.html) | Ні |
+| Підтримка [rmdir()](function.rmdir.html) | Ні |

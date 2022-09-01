@@ -1,16 +1,11 @@
-Повертає режим роботи
-
--   [« RegexIterator::getFlags](regexiterator.getflags.html)
-    
--   [RegexIterator::getPregFlags »](regexiterator.getpregflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [RegexIterator](class.regexiterator.html)
-    
--   Повертає режим роботи
-    
-
+---
+navigation:
+  - regexiterator.getflags.html: '« RegexIterator::getFlags'
+  - regexiterator.getpregflags.html: 'RegexIterator::getPregFlags »'
+  - index.html: PHP Manual
+  - class.regexiterator.html: RegexIterator
+title: 'RegexIterator::getMode'
+---
 # RegexIterator::getMode
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

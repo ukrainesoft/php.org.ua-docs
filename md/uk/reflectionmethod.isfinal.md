@@ -1,16 +1,11 @@
-Перевіряє, чи є метод остаточним
-
--   [« ReflectionMethod::isDestructor](reflectionmethod.isdestructor.html)
-    
--   [ReflectionMethod::isPrivate »](reflectionmethod.isprivate.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionMethod](class.reflectionmethod.html)
-    
--   Перевіряє, чи є метод остаточним
-    
-
+---
+navigation:
+  - reflectionmethod.isdestructor.html: '« ReflectionMethod::isDestructor'
+  - reflectionmethod.isprivate.html: 'ReflectionMethod::isPrivate »'
+  - index.html: PHP Manual
+  - class.reflectionmethod.html: ReflectionMethod
+title: 'ReflectionMethod::isFinal'
+---
 # ReflectionMethod::isFinal
 
 (PHP 5, PHP 7, PHP 8)

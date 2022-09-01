@@ -1,16 +1,11 @@
-Додає правило лексера
-
--   [« ParleLexer::insertMacro](parle-lexer.insertmacro.html)
-    
--   [ParleLexer::reset »](parle-lexer.reset.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleLexer](class.parle-lexer.html)
-    
--   Додає правило лексера
-    
-
+---
+navigation:
+  - parle-lexer.insertmacro.html: '« ParleLexer::insertMacro'
+  - parle-lexer.reset.html: 'ParleLexer::reset »'
+  - index.html: PHP Manual
+  - class.parle-lexer.html: ParleLexer
+title: 'ParleLexer::push'
+---
 # ParleLexer::push
 
 (PECL parle >= 0.5.1)

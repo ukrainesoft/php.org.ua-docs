@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutine::create](swoole-coroutine.create.html)
-    
--   [SwooleCoroutineClient::connect »](swoole-coroutine-client.connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine.create.html: '« SwooleCoroutine::create'
+  - swoole-coroutine-client.connect.html: 'SwooleCoroutineClient::connect »'
+  - index.html: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineClient::close'
+---
 # SwooleCoroutineClient::close
 
 (PECL swoole >= 2.0.0)

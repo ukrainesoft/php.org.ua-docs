@@ -1,16 +1,11 @@
-Замінює значення за вказаним індексом
-
--   [« DsVector::rotate](ds-vector.rotate.html)
-    
--   [ДсVector::shift »](ds-vector.shift.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Замінює значення за вказаним індексом
-    
-
+---
+navigation:
+  - ds-vector.rotate.html: '« DsVector::rotate'
+  - ds-vector.shift.html: 'ДсVector::shift »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::set'
+---
 # ДсVector::set
 
 (PECL ds >= 1.0.0)

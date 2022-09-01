@@ -1,16 +1,11 @@
-Callback-функція закриття
-
--   [« UIWindow::msg](ui-window.msg.html)
-    
--   [ОЙWindow::open »](ui-window.open.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Callback-функція закриття
-    
-
+---
+navigation:
+  - ui-window.msg.html: '« UIWindow::msg'
+  - ui-window.open.html: 'ОЙWindow::open »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::onClosing'
+---
 # ОЙWindow::onClosing
 
 (UI 0.9.9)

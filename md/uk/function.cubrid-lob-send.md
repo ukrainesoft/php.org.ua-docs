@@ -1,16 +1,11 @@
-Читає дані BLOB/CLOB та відправляє їх прямо до браузера
-
--   [« cubridlobget](function.cubrid-lob-get.html)
-    
--   [cubridlobsize »](function.cubrid-lob-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Читає дані BLOB/CLOB та відправляє їх прямо до браузера
-    
-
+---
+navigation:
+  - function.cubrid-lob-get.html: « cubridlobget
+  - function.cubrid-lob-size.html: cubridlobsize »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridлобsend
+---
 # cubridлобsend
 
 (PECL CUBRID >= 8.3.1)

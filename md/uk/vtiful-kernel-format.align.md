@@ -1,16 +1,11 @@
-Вирівнювання
-
--   [« VtifulKernelFormat](class.vtiful-kernel-format.html)
-    
--   [VtifulKernelFormat::bold »](vtiful-kernel-format.bold.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelFormat](class.vtiful-kernel-format.html)
-    
--   Вирівнювання
-    
-
+---
+navigation:
+  - class.vtiful-kernel-format.html: « VtifulKernelFormat
+  - vtiful-kernel-format.bold.html: 'VtifulKernelFormat::bold »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-format.html: VtifulKernelFormat
+title: 'VtifulKernelFormat::align'
+---
 # VtifulKernelFormat::align
 
 (PECL xlswriter >= 1.2.1)

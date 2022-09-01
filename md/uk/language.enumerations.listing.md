@@ -1,16 +1,11 @@
-Список значень
-
--   [« Відмінності від об'єктів](language.enumerations.object-differences.html)
-    
--   [Сериализация »](language.enumerations.serialization.md)
-    
--   [PHP Manual](index.md)
-    
--   [Перечисления](language.enumerations.md)
-    
--   Список значень
-    
-
+---
+navigation:
+  - language.enumerations.object-differences.html: « Відмінності від об'єктів
+  - language.enumerations.serialization.md: Сериализация »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
+title: Список значень
+---
 ## Список значень
 
 І чисті перерахування і типізовані перерахування реалізують внутрішній інтерфейс з ім'ям [UnitEnum](class.unitenum.md). . `UnitEnum` включає статичний метод `cases()`. . `cases()` повертає упакований масив усіх певних варіантів у порядку оголошення.

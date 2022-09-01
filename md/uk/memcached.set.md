@@ -1,16 +1,11 @@
-Зберігає запис
-
--   [« Memcached::resetServerList](memcached.resetserverlist.html)
-    
--   [Memcached::setByKey »](memcached.setbykey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Зберігає запис
-    
-
+---
+navigation:
+  - memcached.resetserverlist.html: '« Memcached::resetServerList'
+  - memcached.setbykey.html: 'Memcached::setByKey »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::set'
+---
 # Memcached::set
 
 (PECL memcached >= 0.1.0)

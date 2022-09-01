@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.zookeeper.html)
-    
--   [Вимоги »](zookeeper.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZooKeeper](book.zookeeper.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.zookeeper.html: « Введение
+  - zookeeper.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.zookeeper.html: ZooKeeper
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Користувальницькі обробники сесії
-
--   [« Передача идентификатора сессии](session.idpassing.md)
-    
--   [Отслеживание прогресса загрузки файлов с помощью сессий »](session.upload-progress.html)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](session.examples.md)
-    
--   Користувальницькі обробники сесії
-    
-
+---
+navigation:
+  - session.idpassing.md: « Передача идентификатора сессии
+  - session.upload-progress.html: Отслеживание прогресса загрузки файлов с помощью сессий »
+  - index.md: PHP Manual
+  - session.examples.md: Приклади
+title: Користувальницькі обробники сесії
+---
 ## Користувальницькі обробники сесії
 
 Для реалізації сховища даних (або будь-якого іншого сховища) слід використовувати [sessionsetsavehandler()](function.session-set-save-handler.html), щоб створити набір функцій користувача сховища. Обробники сесій можна створити, використовуючи клас [SessionHandlerInterface](class.sessionhandlerinterface.md), або розширити внутрішні обробники PHP, успадкувавши клас [SessionHandler](class.sessionhandler.md)

@@ -1,16 +1,11 @@
-Експортує вміст директорії SVN
-
--   [« svndiff](function.svn-diff.html)
-    
--   [svnфсaborttxn »](function.svn-fs-abort-txn.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Експортує вміст директорії SVN
-    
-
+---
+navigation:
+  - function.svn-diff.html: « svndiff
+  - function.svn-fs-abort-txn.html: svnфсaborttxn »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnexport
+---
 # svnexport
 
 (PECL svn >= 0.3.0)

@@ -1,16 +1,11 @@
-Змінює склад ансамблю ZK та ролі його учасників
-
--   [« ZookeeperConfig::remove](zookeeperconfig.remove.html)
-    
--   [ZookeeperException »](class.zookeeperexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZookeeperConfig](class.zookeeperconfig.html)
-    
--   Змінює склад ансамблю ZK та ролі його учасників
-    
-
+---
+navigation:
+  - zookeeperconfig.remove.html: '« ZookeeperConfig::remove'
+  - class.zookeeperexception.html: ZookeeperException »
+  - index.html: PHP Manual
+  - class.zookeeperconfig.html: ZookeeperConfig
+title: 'ZookeeperConfig::set'
+---
 # ZookeeperConfig::set
 
 (PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)

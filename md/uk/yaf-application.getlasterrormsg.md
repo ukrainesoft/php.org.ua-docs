@@ -1,16 +1,11 @@
-Отримати останнє повідомлення про помилку
-
--   [« YafApplication::getDispatcher](yaf-application.getdispatcher.html)
-    
--   [YafApplication::getLastErrorNo »](yaf-application.getlasterrorno.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Отримати останнє повідомлення про помилку
-    
-
+---
+navigation:
+  - yaf-application.getdispatcher.html: '« YafApplication::getDispatcher'
+  - yaf-application.getlasterrorno.html: 'YafApplication::getLastErrorNo »'
+  - index.html: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::getLastErrorMsg'
+---
 # YafApplication::getLastErrorMsg
 
 (Yaf> = 2.1.2)

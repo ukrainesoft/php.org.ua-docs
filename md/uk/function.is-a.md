@@ -1,16 +1,11 @@
-Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
-
--   [« interfaceexists](function.interface-exists.html)
-    
--   [ісsubclassof »](function.is-subclass-of.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
-    
-
+---
+navigation:
+  - function.interface-exists.html: « interfaceexists
+  - function.is-subclass-of.html: ісsubclassof »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: іса
+---
 # іса
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

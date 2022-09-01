@@ -1,16 +1,11 @@
-Визначає, чи є запит CLI-запитом
-
--   [« YafRequestAbstract::getServer](yaf-request-abstract.getserver.html)
-    
--   [YafRequestAbstract::isDispatched »](yaf-request-abstract.isdispatched.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи є запит CLI-запитом
-    
-
+---
+navigation:
+  - yaf-request-abstract.getserver.html: '« YafRequestAbstract::getServer'
+  - yaf-request-abstract.isdispatched.html: 'YafRequestAbstract::isDispatched »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isCli'
+---
 # YafRequestAbstract::isCli
 
 (Yaf >=1.0.0)

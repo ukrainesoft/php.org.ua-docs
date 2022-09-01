@@ -1,16 +1,11 @@
-Створює об'єкт Solr
-
--   [« SolrObject](class.solrobject.html)
-    
--   [SolrObject::destruct »](solrobject.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrObject](class.solrobject.html)
-    
--   Створює об'єкт Solr
-    
-
+---
+navigation:
+  - class.solrobject.html: « SolrObject
+  - solrobject.destruct.html: 'SolrObject::destruct »'
+  - index.html: PHP Manual
+  - class.solrobject.html: SolrObject
+title: 'SolrObject::construct'
+---
 # SolrObject::construct
 
 (PECL solr> = 0.9.2)

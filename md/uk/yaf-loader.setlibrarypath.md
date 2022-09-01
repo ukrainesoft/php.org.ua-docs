@@ -1,16 +1,11 @@
-Змінює шлях до бібліотеки
-
--   [« YafLoader::registerNamespace](yaf-loader.registernamespace.html)
-    
--   [YafPluginAbstract »](class.yaf-plugin-abstract.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Змінює шлях до бібліотеки
-    
-
+---
+navigation:
+  - yaf-loader.registernamespace.html: '« YafLoader::registerNamespace'
+  - class.yaf-plugin-abstract.html: YafPluginAbstract »
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::setLibraryPath'
+---
 # YafLoader::setLibraryPath
 
 (Yaf> = 2.1.4)

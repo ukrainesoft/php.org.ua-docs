@@ -1,16 +1,11 @@
-Список/класифікація модулів
-
--   [« Опис вбудованих директив php.ini](ini.core.html)
-    
--   [В алфавітному порядку "](extensions.alphabetical.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Список/класифікація модулів
-    
-
+---
+navigation:
+  - ini.core.html: « Опис вбудованих директив php.ini
+  - extensions.alphabetical.html: В алфавітному порядку "
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Список/класифікація модулів
+---
 # Список/класифікація модулів
 
 ## Зміст

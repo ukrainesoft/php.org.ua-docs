@@ -1,16 +1,11 @@
-Конструктор класу Warning
-
--   [« mysqlxdevapiWarning](class.mysql-xdevapi-warning.html)
-    
--   [MySQL (Original) »](book.mysql.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiWarning](class.mysql-xdevapi-warning.html)
-    
--   Конструктор класу Warning
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-warning.html: « mysqlxdevapiWarning
+  - book.mysql.md: MySQL (Original) »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-warning.html: mysqlxdevapiWarning
+title: 'Warning::construct'
+---
 # Warning::construct
 
 (No version information available, might only be in Git)

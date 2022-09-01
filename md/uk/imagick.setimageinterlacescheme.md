@@ -1,16 +1,11 @@
-Встановлює стиснення зображення
-
--   [« Imagick::setImageIndex](imagick.setimageindex.md)
-    
--   [Imagick::setImageInterpolateMethod »](imagick.setimageinterpolatemethod.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює стиснення зображення
-    
-
+---
+navigation:
+  - imagick.setimageindex.md: '« Imagick::setImageIndex'
+  - imagick.setimageinterpolatemethod.md: 'Imagick::setImageInterpolateMethod »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageInterlaceScheme'
+---
 # Imagick::setImageInterlaceScheme
 
 (PECL imagick 2, PECL imagick 3)

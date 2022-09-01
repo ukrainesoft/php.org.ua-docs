@@ -1,16 +1,11 @@
-Отримати "дзеркальний" символ за кодом
-
--   [« IntlChar::charFromName](intlchar.charfromname.md)
-    
--   [IntlChar::charName »](intlchar.charname.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати "дзеркальний" символ за кодом
-    
-
+---
+navigation:
+  - intlchar.charfromname.md: '« IntlChar::charFromName'
+  - intlchar.charname.md: 'IntlChar::charName »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::charMirror'
+---
 # IntlChar::charMirror
 
 (PHP 7, PHP 8)

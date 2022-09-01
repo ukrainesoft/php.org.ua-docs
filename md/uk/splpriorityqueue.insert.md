@@ -1,16 +1,11 @@
-Додає елемент у чергу та пересортує її
-
--   [« SplPriorityQueue::getExtractFlags](splpriorityqueue.getextractflags.html)
-    
--   [SplPriorityQueue::isCorrupted »](splpriorityqueue.iscorrupted.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplPriorityQueue](class.splpriorityqueue.html)
-    
--   Додає елемент у чергу та пересортує її
-    
-
+---
+navigation:
+  - splpriorityqueue.getextractflags.html: '« SplPriorityQueue::getExtractFlags'
+  - splpriorityqueue.iscorrupted.html: 'SplPriorityQueue::isCorrupted »'
+  - index.html: PHP Manual
+  - class.splpriorityqueue.html: SplPriorityQueue
+title: 'SplPriorityQueue::insert'
+---
 # SplPriorityQueue::insert
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

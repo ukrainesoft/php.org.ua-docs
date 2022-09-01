@@ -1,16 +1,11 @@
-Змінює ім'я функції
-
--   [« runkit7functionremove](function.runkit7-function-remove.html)
-    
--   [runkit7import »](function.runkit7-import.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Змінює ім'я функції
-    
-
+---
+navigation:
+  - function.runkit7-function-remove.html: « runkit7functionremove
+  - function.runkit7-import.html: runkit7import »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7functionrename
+---
 # runkit7functionrename
 
 (PECL runkit7> = Unknown)

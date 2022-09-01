@@ -1,16 +1,11 @@
-Умовні підмаски
-
--   [« Одноразові підмаски](regexp.reference.onlyonce.md)
-    
--   [Комментарии »](regexp.reference.comments.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
-    
--   Умовні підмаски
-    
-
+---
+navigation:
+  - regexp.reference.onlyonce.md: « Одноразові підмаски
+  - regexp.reference.comments.md: Комментарии »
+  - index.md: PHP Manual
+  - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів
+title: Умовні підмаски
+---
 ## Умовні підмаски
 
 У PCRE реалізована можливість підпорядковувати шаблон умові чи вибирати із двох умовних підмасок залежно від успіху зіставлення попередньої підмаски. Умовні підмаски мають дві допустимі форми використання:

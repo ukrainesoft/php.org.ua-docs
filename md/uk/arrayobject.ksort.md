@@ -1,16 +1,11 @@
-Сортувати записи за ключами
-
--   [« ArrayObject::getIteratorClass](arrayobject.getiteratorclass.md)
-    
--   [ArrayObject::natcasesort »](arrayobject.natcasesort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Сортувати записи за ключами
-    
-
+---
+navigation:
+  - arrayobject.getiteratorclass.md: '« ArrayObject::getIteratorClass'
+  - arrayobject.natcasesort.md: 'ArrayObject::natcasesort »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::ksort'
+---
 # ArrayObject::ksort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

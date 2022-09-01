@@ -1,16 +1,11 @@
-Вибирає наступний рядок із набору результатів
-
--   [« cubridexecute](function.cubrid-execute.html)
-    
--   [cubridfreeresult »](function.cubrid-free-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Вибирає наступний рядок із набору результатів
-    
-
+---
+navigation:
+  - function.cubrid-execute.html: « cubridexecute
+  - function.cubrid-free-result.html: cubridfreeresult »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridfetch
+---
 # cubridfetch
 
 (PECL CUBRID >= 8.3.0)

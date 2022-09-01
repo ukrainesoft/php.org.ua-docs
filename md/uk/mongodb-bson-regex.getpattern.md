@@ -1,16 +1,11 @@
-Повертає шаблон Regex
-
--   [« MongoDBBSONRegex::getFlags](mongodb-bson-regex.getflags.html)
-    
--   [MongoDBBSONRegex::jsonSerialize »](mongodb-bson-regex.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   Повертає шаблон Regex
-    
-
+---
+navigation:
+  - mongodb-bson-regex.getflags.html: '« MongoDBBSONRegex::getFlags'
+  - mongodb-bson-regex.jsonserialize.html: 'MongoDBBSONRegex::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::getPattern'
+---
 # MongoDBBSONRegex::getPattern
 
 (mongodb >=1.0.0)

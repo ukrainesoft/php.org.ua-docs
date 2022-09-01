@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.v8js.html)
-    
--   [Вимоги »](v8js.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [V8js](book.v8js.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.v8js.html: « Введение
+  - v8js.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.v8js.html: V8js
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

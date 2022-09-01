@@ -1,16 +1,11 @@
-Завершує набір правил лексера
-
--   [« ParleRLexer::advance](parle-rlexer.advance.html)
-    
--   [ParleRLexer::callout »](parle-rlexer.callout.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRLexer](class.parle-rlexer.html)
-    
--   Завершує набір правил лексера
-    
-
+---
+navigation:
+  - parle-rlexer.advance.html: '« ParleRLexer::advance'
+  - parle-rlexer.callout.html: 'ParleRLexer::callout »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.html: ParleRLexer
+title: 'ParleRLexer::build'
+---
 # ParleRLexer::build
 
 (PECL parle >= 0.5.1)

@@ -1,16 +1,11 @@
-Повертає версію API
-
--   [« Phar::addFromString](phar.addfromstring.html)
-    
--   [Phar::buildFromDirectory »](phar.buildfromdirectory.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Повертає версію API
-    
-
+---
+navigation:
+  - phar.addfromstring.html: '« Phar::addFromString'
+  - phar.buildfromdirectory.html: 'Phar::buildFromDirectory »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::apiVersion'
+---
 # Phar::apiVersion
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

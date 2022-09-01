@@ -1,16 +1,11 @@
-Малює точку
-
--   [« GmagickDraw::line](gmagickdraw.line.md)
-    
--   [GmagickDraw::polygon »](gmagickdraw.polygon.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Малює точку
-    
-
+---
+navigation:
+  - gmagickdraw.line.md: '« GmagickDraw::line'
+  - gmagickdraw.polygon.md: 'GmagickDraw::polygon »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::point'
+---
 # GmagickDraw::point
 
 (PECL gmagick >= Unknown)

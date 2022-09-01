@@ -1,16 +1,11 @@
-Повертає тривалість команди у мікросекундах
-
--   [« MongoDBDriverMonitoringCommandSucceededEvent::getCommandName](mongodb-driver-monitoring-commandsucceededevent.getcommandname.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent::getOperationId »](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
-    
--   Повертає тривалість команди у мікросекундах
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
+  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
+---
 # MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros
 
 (mongodb >=1.3.0)

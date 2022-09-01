@@ -1,27 +1,22 @@
-Налаштування під час виконання
-
--   [« Установка](phar.installation.html)
-    
--   [Типи ресурсів »](phar.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](phar.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - phar.installation.html: « Установка
+  - phar.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - phar.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Параметри конфігурації файлової системи та потоків**
 
-| Имя                                                               | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------|--------------|-----------------|------------------|
-| [phar.readonly](phar.configuration.html#ini.phar.readonly)        | "1"          | PHPINIALL       |                  |
-| [phar.requirehash](phar.configuration.html#ini.phar.require-hash) | "1"          | PHPINIALL       |                  |
-| [phar.cachelist](phar.configuration.html#ini.phar.cache-list)     | ""           | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [phar.readonly](phar.configuration.html#ini.phar.readonly) | "1" | PHPINIALL |  |
+| [phar.requirehash](phar.configuration.html#ini.phar.require-hash) | "1" | PHPINIALL |  |
+| [phar.cachelist](phar.configuration.html#ini.phar.cache-list) | "" | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

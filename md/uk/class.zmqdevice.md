@@ -1,16 +1,11 @@
-Клас ZMQDevice
-
--   [« ZMQPoll::remove](zmqpoll.remove.md)
-    
--   [ZMQDevice::construct »](zmqdevice.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обмін повідомленнями 0MQ](book.zmq.md)
-    
--   Клас ZMQDevice
-    
-
+---
+navigation:
+  - zmqpoll.remove.md: '« ZMQPoll::remove'
+  - zmqdevice.construct.md: 'ZMQDevice::construct »'
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
+title: Клас ZMQDevice
+---
 # Клас ZMQDevice
 
 (PECL zmq >= 0.5.0)

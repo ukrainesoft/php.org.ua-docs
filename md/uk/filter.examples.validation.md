@@ -1,16 +1,11 @@
-Перевірка (валідація)
-
--   [« Приклади](filter.examples.md)
-    
--   [Очищення (нормалізація) »](filter.examples.sanitization.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](filter.examples.md)
-    
--   Перевірка (валідація)
-    
-
+---
+navigation:
+  - filter.examples.md: « Приклади
+  - filter.examples.sanitization.md: Очищення (нормалізація) »
+  - index.md: PHP Manual
+  - filter.examples.md: Приклади
+title: Перевірка (валідація)
+---
 ## Перевірка (валідація)
 
 **Приклад #1 Валідація e-mail адреси за допомогою функції [filtervar()](function.filter-var.html)**

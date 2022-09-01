@@ -1,16 +1,11 @@
-Клас MongoDBDriverMonitoringTopologyClosedEvent
-
--   [« MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId](mongodb-driver-monitoring-topologychangedevent.gettopologyid.html)
-    
--   [MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId »](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Клас MongoDBDriverMonitoringTopologyClosedEvent
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-topologychangedevent.gettopologyid.html: '« MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId'
+  - mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html: 'MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringTopologyClosedEvent
+---
 # Клас MongoDBDriverMonitoringTopologyClosedEvent
 
 (mongodb >=1.13.0)

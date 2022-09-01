@@ -1,16 +1,11 @@
-Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу
-
--   [« mberegsearchgetregs](function.mb-ereg-search-getregs.html)
-    
--   [мбeregsearchpos »](function.mb-ereg-search-pos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу
-    
-
+---
+navigation:
+  - function.mb-ereg-search-getregs.html: « mberegsearchgetregs
+  - function.mb-ereg-search-pos.html: мбeregsearchpos »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбeregsearchinit
+---
 # мбeregsearchinit
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ mb_ereg_search_init(string $string, ?string $pattern = null, ?string $options = 
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `pattern` і `options` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `pattern` і `options` тепер допускають значення null. |
 
 ### Примітки
 

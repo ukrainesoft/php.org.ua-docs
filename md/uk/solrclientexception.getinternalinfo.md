@@ -1,16 +1,11 @@
-Повертає внутрішню інформацію про те, де було викинуто виняток
-
--   [« SolrClientException](class.solrclientexception.md)
-    
--   [SolrServerException »](class.solrserverexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClientException](class.solrclientexception.md)
-    
--   Повертає внутрішню інформацію про те, де було викинуто виняток
-    
-
+---
+navigation:
+  - class.solrclientexception.md: « SolrClientException
+  - class.solrserverexception.md: SolrServerException »
+  - index.md: PHP Manual
+  - class.solrclientexception.md: SolrClientException
+title: 'SolrClientException::getInternalInfo'
+---
 # SolrClientException::getInternalInfo
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Створити об'єкт часового поясу за ідентифікатором
-
--   [« IntlTimeZone::createEnumeration](intltimezone.createenumeration.md)
-    
--   [IntlTimeZone::createTimeZoneIDEnumeration »](intltimezone.createtimezoneidenumeration.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Створити об'єкт часового поясу за ідентифікатором
-    
-
+---
+navigation:
+  - intltimezone.createenumeration.md: '« IntlTimeZone::createEnumeration'
+  - intltimezone.createtimezoneidenumeration.md: 'IntlTimeZone::createTimeZoneIDEnumeration »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::createTimeZone'
+---
 # IntlTimeZone::createTimeZone
 
 # intltzcreatetimezone

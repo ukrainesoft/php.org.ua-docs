@@ -1,16 +1,11 @@
-Серіалізує Symbol
-
--   [« MongoDBBSONSymbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.html)
-    
--   [MongoDBBSONSymbol::toString »](mongodb-bson-symbol.tostring.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
-    
--   Серіалізує Symbol
-    
-
+---
+navigation:
+  - mongodb-bson-symbol.jsonserialize.html: '« MongoDBBSONSymbol::jsonSerialize'
+  - mongodb-bson-symbol.tostring.html: 'MongoDBBSONSymbol::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::serialize'
+---
 # MongoDBBSONSymbol::serialize
 
 (mongodb >=1.4.0)

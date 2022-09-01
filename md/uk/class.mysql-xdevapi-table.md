@@ -1,16 +1,11 @@
-Клас Table
-
--   [« Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.html)
-    
--   [Table::construct »](mysql-xdevapi-table.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Table
-    
-
+---
+navigation:
+  - mysql-xdevapi-statement.hasmoreresults.html: '« Statement::hasMoreResults'
+  - mysql-xdevapi-table.construct.html: 'Table::construct »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Table
+---
 # Клас Table
 
 (PECL mysql-xdevapi >= 8.0.11)

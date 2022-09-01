@@ -1,16 +1,11 @@
-Закриває всі з'єднання ODBC
-
--   [« odbcbinmode](function.odbc-binmode.html)
-    
--   [odbcclose »](function.odbc-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Закриває всі з'єднання ODBC
-    
-
+---
+navigation:
+  - function.odbc-binmode.html: « odbcbinmode
+  - function.odbc-close.html: odbcclose »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbccloseall
+---
 # odbccloseall
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

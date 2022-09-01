@@ -1,16 +1,11 @@
-Екранує рядок для використання в mysqlquery
-
--   [« mysqlerror](function.mysql-error.html)
-    
--   [mysqlfetcharray »](function.mysql-fetch-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Екранує рядок для використання в mysqlquery
-    
-
+---
+navigation:
+  - function.mysql-error.html: « mysqlerror
+  - function.mysql-fetch-array.html: mysqlfetcharray »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlescapestring
+---
 # mysqlescapestring
 
 (PHP 4> = 4.0.3, PHP 5)

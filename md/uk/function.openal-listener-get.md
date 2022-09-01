@@ -1,16 +1,11 @@
-Отримати властивість прослуховувача
-
--   [« openaldeviceopen](function.openal-device-open.html)
-    
--   [openallistenerset »](function.openal-listener-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Отримати властивість прослуховувача
-    
-
+---
+navigation:
+  - function.openal-device-open.html: « openaldeviceopen
+  - function.openal-listener-set.html: openallistenerset »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openallistenerget
+---
 # openallistenerget
 
 (PECL openal >= 0.1.0)

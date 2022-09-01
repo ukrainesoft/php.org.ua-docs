@@ -1,16 +1,11 @@
-Видаляє та повертає значення за індексом
-
--   [« DsDeque::reduce](ds-deque.reduce.html)
-    
--   [ДсDeque::reverse »](ds-deque.reverse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Видаляє та повертає значення за індексом
-    
-
+---
+navigation:
+  - ds-deque.reduce.html: '« DsDeque::reduce'
+  - ds-deque.reverse.html: 'ДсDeque::reverse »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::remove'
+---
 # ДсDeque::remove
 
 (PECL ds >= 1.0.0)

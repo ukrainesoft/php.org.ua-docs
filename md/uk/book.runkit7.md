@@ -1,16 +1,11 @@
-runkit7
-
--   [« phpdbgstartoplog](function.phpdbg-start-oplog.html)
-    
--   [Введение »](intro.runkit7.html)
-    
--   [PHP Manual](index.html)
-    
--   [Изменение поведения PHP](refs.basic.php.html)
-    
--   runkit7
-    
-
+---
+navigation:
+  - function.phpdbg-start-oplog.html: « phpdbgstartoplog
+  - intro.runkit7.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.php.html: Изменение поведения PHP
+title: runkit7
+---
 # runkit7
 
 -   [Введение](intro.runkit7.html)

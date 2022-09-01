@@ -1,16 +1,11 @@
-Клас LDAPResultEntry
-
--   [« LDAPResult](class.ldap-result.html)
-    
--   [Memcache »](book.memcache.md)
-    
--   [PHP Manual](index.md)
-    
--   [LDAP](book.ldap.md)
-    
--   Клас LDAPResultEntry
-    
-
+---
+navigation:
+  - class.ldap-result.html: « LDAPResult
+  - book.memcache.md: Memcache »
+  - index.md: PHP Manual
+  - book.ldap.md: LDAP
+title: Клас LDAPResultEntry
+---
 # Клас LDAPResultEntry
 
 (PHP 8> = 8.1.0)

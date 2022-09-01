@@ -1,16 +1,11 @@
-Знаходить позицію (в одиницях графеми) першого входження рядка
-
--   [« graphemestrlen](function.grapheme-strlen.html)
-    
--   [graphemestrripos »](function.grapheme-strripos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Grapheme](ref.intl.grapheme.html)
-    
--   Знаходить позицію (в одиницях графеми) першого входження рядка
-    
-
+---
+navigation:
+  - function.grapheme-strlen.html: « graphemestrlen
+  - function.grapheme-strripos.html: graphemestrripos »
+  - index.html: PHP Manual
+  - ref.intl.grapheme.html: Функции Grapheme
+title: graphemestrpos
+---
 # graphemestrpos
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
@@ -47,9 +42,9 @@ grapheme_strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Додано підтримку негативних значень `offset` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 

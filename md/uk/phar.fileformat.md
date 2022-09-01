@@ -1,16 +1,11 @@
-Чим відрізняється phar від tar-або zip-архіву?
-
--   [« Создание Phar-архивов: Введение](phar.creating.intro.html)
-    
--   [Складові всіх Phar-архівів незалежно від формату файлу »](phar.fileformat.ingredients.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](book.phar.html)
-    
--   Чим відрізняється phar від tar-або zip-архіву?
-    
-
+---
+navigation:
+  - phar.creating.intro.html: '« Создание Phar-архивов: Введение'
+  - phar.fileformat.ingredients.html: Складові всіх Phar-архівів незалежно від формату файлу »
+  - index.html: PHP Manual
+  - book.phar.html: Phar
+title: Чим відрізняється phar від tar-або zip-архіву?
+---
 # Чим відрізняється phar від tar-або zip-архіву?
 
 ## Зміст

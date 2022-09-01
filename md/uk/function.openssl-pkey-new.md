@@ -1,16 +1,11 @@
-Генерує новий закритий ключ
-
--   [« opensslpkeygetpublic](function.openssl-pkey-get-public.html)
-    
--   [opensslprivatedecrypt »](function.openssl-private-decrypt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Генерує новий закритий ключ
-    
-
+---
+navigation:
+  - function.openssl-pkey-get-public.html: « opensslpkeygetpublic
+  - function.openssl-private-decrypt.html: opensslprivatedecrypt »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkeynew
+---
 # opensslpkeynew
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -39,10 +34,10 @@ openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
-|        | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів.                                                                                                                 |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів. |
 
 ### Приклади
 

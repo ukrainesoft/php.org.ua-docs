@@ -1,16 +1,11 @@
-Генерує випадкове відхилення від розподілу Фішера
-
--   [« statsrandgenexponential](function.stats-rand-gen-exponential.html)
-    
--   [statsrandgenfuniform »](function.stats-rand-gen-funiform.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Генерує випадкове відхилення від розподілу Фішера
-    
-
+---
+navigation:
+  - function.stats-rand-gen-exponential.html: « statsrandgenexponential
+  - function.stats-rand-gen-funiform.html: statsrandgenfuniform »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandгенф
+---
 # statsrandгенф
 
 (PECL stats >= 1.0.0)

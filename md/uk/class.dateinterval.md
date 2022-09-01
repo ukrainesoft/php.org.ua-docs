@@ -1,16 +1,11 @@
-Клас DateInterval
-
--   [« DateTimeZone::listIdentifiers](datetimezone.listidentifiers.html)
-    
--   [DateInterval::construct »](dateinterval.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Дата/время](book.datetime.html)
-    
--   Клас DateInterval
-    
-
+---
+navigation:
+  - datetimezone.listidentifiers.html: '« DateTimeZone::listIdentifiers'
+  - dateinterval.construct.html: 'DateInterval::construct »'
+  - index.html: PHP Manual
+  - book.datetime.html: Дата/время
+title: Клас DateInterval
+---
 # Клас DateInterval
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -145,11 +140,11 @@ datestring
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додані властивості fromstring та datestring для екземплярів **DateInterval**, які були створені за допомогою методу [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html) |
-|        | Примірники **DateInterval** тепер незрівнянні; раніше всі екземпляри **DateInterval** вважалися рівними.                                                                                           |
-|        | Додано властивість f.                                                                                                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості fromstring та datestring для екземплярів **DateInterval**, які були створені за допомогою методу [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html) |
+|  | Примірники **DateInterval** тепер незрівнянні; раніше всі екземпляри **DateInterval** вважалися рівними. |
+|  | Додано властивість f. |
 
 ## Зміст
 

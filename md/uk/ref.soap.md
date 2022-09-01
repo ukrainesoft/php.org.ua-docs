@@ -1,16 +1,11 @@
-Функції SOAP
-
--   [« Обумовлені константи](soap.constants.html)
-    
--   [ісsoapfault »](function.is-soap-fault.html)
-    
--   [PHP Manual](index.html)
-    
--   [SOAP](book.soap.html)
-    
--   Функції SOAP
-    
-
+---
+navigation:
+  - soap.constants.html: « Обумовлені константи
+  - function.is-soap-fault.html: ісsoapfault »
+  - index.html: PHP Manual
+  - book.soap.html: SOAP
+title: Функції SOAP
+---
 # Функції SOAP
 
 ## Зміст

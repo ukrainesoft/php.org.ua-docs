@@ -1,16 +1,11 @@
-Псевдонім OCILob::writeTemporary
-
--   [« ociwritelobtofile](function.ociwritelobtofile.md)
-    
--   [PostgreSQL »](book.pgsql.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім OCILob::writeTemporary
-    
-
+---
+navigation:
+  - function.ociwritelobtofile.md: « ociwritelobtofile
+  - book.pgsql.md: PostgreSQL »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ociwritetemporarylob
+---
 # ociwritetemporarylob
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PECL OCI8 1.0)

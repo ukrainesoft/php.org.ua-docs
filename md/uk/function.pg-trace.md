@@ -1,16 +1,11 @@
-Включає трасування підключення PostgreSQL
-
--   [« pgsocket](function.pg-socket.html)
-    
--   [пгtransactionstatus »](function.pg-transaction-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Включає трасування підключення PostgreSQL
-    
-
+---
+navigation:
+  - function.pg-socket.html: « pgsocket
+  - function.pg-transaction-status.html: пгtransactionstatus »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгtrace
+---
 # пгtrace
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -51,10 +46,10 @@ pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = n
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

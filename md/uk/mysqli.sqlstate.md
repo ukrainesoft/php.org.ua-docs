@@ -1,16 +1,11 @@
-Повертає код стану SQLSTATE останньої MySQL операції
-
--   [« mysqli::setcharset](mysqli.set-charset.html)
-    
--   [mysqli::sslset »](mysqli.ssl-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає код стану SQLSTATE останньої MySQL операції
-    
-
+---
+navigation:
+  - mysqli.set-charset.html: '« mysqli::setcharset'
+  - mysqli.ssl-set.html: 'mysqli::sslset »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$sqlstate'
+---
 # mysqli::$sqlstate
 
 # mysqlisqlstate

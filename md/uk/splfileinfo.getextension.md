@@ -1,16 +1,11 @@
-Отримує розширення файлу
-
--   [« SplFileInfo::getCTime](splfileinfo.getctime.md)
-    
--   [SplFileInfo::getFileInfo »](splfileinfo.getfileinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує розширення файлу
-    
-
+---
+navigation:
+  - splfileinfo.getctime.md: '« SplFileInfo::getCTime'
+  - splfileinfo.getfileinfo.md: 'SplFileInfo::getFileInfo »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getExtension'
+---
 # SplFileInfo::getExtension
 
 (PHP 5> = 5.3.6, PHP 7, PHP 8)

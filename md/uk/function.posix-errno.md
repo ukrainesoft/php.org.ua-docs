@@ -1,16 +1,11 @@
-Псевдонім posixgetlasterror
-
--   [« posixctermid](function.posix-ctermid.html)
-    
--   [posixgetlasterror »](function.posix-get-last-error.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Псевдонім posixgetlasterror
-    
-
+---
+navigation:
+  - function.posix-ctermid.html: « posixctermid
+  - function.posix-get-last-error.html: posixgetlasterror »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixerrno
+---
 # posixerrno
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

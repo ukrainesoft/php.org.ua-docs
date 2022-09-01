@@ -1,16 +1,11 @@
-Встановлює поле часу або одразу кілька спільних полів
-
--   [« IntlCalendar::roll](intlcalendar.roll.html)
-    
--   [IntlCalendar::setFirstDayOfWeek »](intlcalendar.setfirstdayofweek.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Встановлює поле часу або одразу кілька спільних полів
-    
-
+---
+navigation:
+  - intlcalendar.roll.html: '« IntlCalendar::roll'
+  - intlcalendar.setfirstdayofweek.html: 'IntlCalendar::setFirstDayOfWeek »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::set'
+---
 # IntlCalendar::set
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

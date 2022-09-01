@@ -1,16 +1,11 @@
-Віднімає одне число з іншого із заданою точністю
-
--   [« bcsqrt](function.bcsqrt.html)
-    
--   [GMP »](book.gmp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции BC Math](ref.bc.html)
-    
--   Віднімає одне число з іншого із заданою точністю
-    
-
+---
+navigation:
+  - function.bcsqrt.html: « bcsqrt
+  - book.gmp.html: GMP »
+  - index.html: PHP Manual
+  - ref.bc.html: Функции BC Math
+title: bcsub
+---
 # bcsub
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ bcsub(string $num1, string $num2, ?int $scale = null): string
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `scale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `scale` тепер допускає значення null. |
 
 ### Приклади
 

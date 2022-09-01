@@ -1,16 +1,11 @@
-Повертає піднабір із заданого діапазону
-
--   [« DsSet::reversed](ds-set.reversed.html)
-    
--   [ДсSet::sort »](ds-set.sort.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає піднабір із заданого діапазону
-    
-
+---
+navigation:
+  - ds-set.reversed.html: '« DsSet::reversed'
+  - ds-set.sort.html: 'ДсSet::sort »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::slice'
+---
 # ДсSet::slice
 
 (PECL ds >= 1.0.0)

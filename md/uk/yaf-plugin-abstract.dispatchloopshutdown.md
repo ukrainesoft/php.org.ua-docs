@@ -1,16 +1,11 @@
-Призначення dispatchLoopShutdown
-
--   [« YafPluginAbstract](class.yaf-plugin-abstract.html)
-    
--   [YafPluginAbstract::dispatchLoopStartup »](yaf-plugin-abstract.dispatchloopstartup.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
-    
--   Призначення dispatchLoopShutdown
-    
-
+---
+navigation:
+  - class.yaf-plugin-abstract.html: « YafPluginAbstract
+  - yaf-plugin-abstract.dispatchloopstartup.html: 'YafPluginAbstract::dispatchLoopStartup »'
+  - index.md: PHP Manual
+  - class.yaf-plugin-abstract.html: YafPluginAbstract
+title: 'YafPluginAbstract::dispatchLoopShutdown'
+---
 # YafPluginAbstract::dispatchLoopShutdown
 
 (Yaf >=1.0.0)

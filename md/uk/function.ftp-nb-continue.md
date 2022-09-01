@@ -1,16 +1,11 @@
-Продовжує асинхронну операцію
-
--   [« ftpmlsd](function.ftp-mlsd.html)
-    
--   [ftpнбfget »](function.ftp-nb-fget.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Продовжує асинхронну операцію
-    
-
+---
+navigation:
+  - function.ftp-mlsd.html: « ftpmlsd
+  - function.ftp-nb-fget.html: ftpнбfget »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpнбcontinue
+---
 # ftpнбcontinue
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ ftp_nb_continue(FTP\Connection $ftp): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

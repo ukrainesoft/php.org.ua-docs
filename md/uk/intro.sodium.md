@@ -1,16 +1,11 @@
-Вступ
-
--   [« Sodium](book.sodium.html)
-    
--   [Встановлення та налаштування »](sodium.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Sodium](book.sodium.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.sodium.html: « Sodium
+  - sodium.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.sodium.html: Sodium
+title: Вступ
+---
 # Вступ
 
 Sodium - це сучасна, проста у використанні програмна бібліотека для шифрування, дешифрування, підпису, хешування паролів та багато іншого. Мета бібліотеки - забезпечити всі основні операції, необхідні створення криптографічних інструментів вищого рівня.

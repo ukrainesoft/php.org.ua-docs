@@ -1,16 +1,11 @@
-Відв'язати сокет
-
--   [« ZMQSocket::setSockOpt](zmqsocket.setsockopt.html)
-    
--   [ZMQPoll »](class.zmqpoll.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQSocket](class.zmqsocket.html)
-    
--   Відв'язати сокет
-    
-
+---
+navigation:
+  - zmqsocket.setsockopt.html: '« ZMQSocket::setSockOpt'
+  - class.zmqpoll.html: ZMQPoll »
+  - index.html: PHP Manual
+  - class.zmqsocket.html: ZMQSocket
+title: 'ZMQSocket::unbind'
+---
 # ZMQSocket::unbind
 
 (PECL zmq >= 1.0.4)

@@ -1,16 +1,11 @@
-Повертає набір ключів колекції
-
--   [« DsMap::jsonSerialize](ds-map.jsonserialize.html)
-    
--   [ДсMap::ksort »](ds-map.ksort.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає набір ключів колекції
-    
-
+---
+navigation:
+  - ds-map.jsonserialize.html: '« DsMap::jsonSerialize'
+  - ds-map.ksort.html: 'ДсMap::ksort »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::keys'
+---
 # ДсMap::keys
 
 (PECL ds >= 1.0.0)

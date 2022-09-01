@@ -1,16 +1,11 @@
-Нові функції
-
--   [« Змінені функції](migration56.changed-functions.html)
-    
--   [Изменения OpenSSL в PHP 5.6.x »](migration56.openssl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
-    
--   Нові функції
-    
-
+---
+navigation:
+  - migration56.changed-functions.html: « Змінені функції
+  - migration56.openssl.html: Изменения OpenSSL в PHP 5.6.x »
+  - index.html: PHP Manual
+  - migration56.html: Миграция с PHP 5.5.x на PHP 5.6.x
+title: Нові функції
+---
 ## Нові функції
 
 ### [Дата и время](book.datetime.html)

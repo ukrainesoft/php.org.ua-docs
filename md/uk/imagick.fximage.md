@@ -1,16 +1,11 @@
-Оцінює вираз для кожного пікселя у зображенні
-
--   [« Imagick::functionImage](imagick.functionimage.md)
-    
--   [Imagick::gammaImage »](imagick.gammaimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Оцінює вираз для кожного пікселя у зображенні
-    
-
+---
+navigation:
+  - imagick.functionimage.md: '« Imagick::functionImage'
+  - imagick.gammaimage.md: 'Imagick::gammaImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::fxImage'
+---
 # Imagick::fxImage
 
 (PECL imagick 2, PECL imagick 3)

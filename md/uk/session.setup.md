@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.session.html)
-    
--   [Вимоги »](session.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Сессии](book.session.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.session.html: « Введение
+  - session.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.session.html: Сессии
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

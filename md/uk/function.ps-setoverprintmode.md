@@ -1,16 +1,11 @@
-Встановлює режим накладання
-
--   [«pssetmiterlimit](function.ps-setmiterlimit.html)
-    
--   [псsetpolydash »](function.ps-setpolydash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Встановлює режим накладання
-    
-
+---
+navigation:
+  - function.ps-setmiterlimit.html: «pssetmiterlimit
+  - function.ps-setpolydash.html: псsetpolydash »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псsetoverprintmode
+---
 # псsetoverprintmode
 
 (PECL ps >= 1.3.0)

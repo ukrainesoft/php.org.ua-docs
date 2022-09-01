@@ -1,16 +1,11 @@
-Перемотує послідовність на задану кількість значень
-
--   [« DsSequence::reversed](ds-sequence.reversed.html)
-    
--   [ДсSequence::set »](ds-sequence.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Перемотує послідовність на задану кількість значень
-    
-
+---
+navigation:
+  - ds-sequence.reversed.html: '« DsSequence::reversed'
+  - ds-sequence.set.html: 'ДсSequence::set »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::rotate'
+---
 # ДсSequence::rotate
 
 (PECL ds >= 1.0.0)

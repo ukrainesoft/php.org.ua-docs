@@ -1,16 +1,11 @@
-Елемент управління "Група" (розміщення)
-
--   [« UIControlsGrid::setPadded](ui-controls-grid.setpadded.html)
-    
--   [ОЙControlsGroup::append »](ui-controls-group.append.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління "Група" (розміщення)
-    
-
+---
+navigation:
+  - ui-controls-grid.setpadded.html: '« UIControlsGrid::setPadded'
+  - ui-controls-group.append.html: 'ОЙControlsGroup::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Група" (розміщення)
+---
 # Елемент управління "Група" (розміщення)
 
 (UI 0.9.9)

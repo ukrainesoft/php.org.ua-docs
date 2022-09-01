@@ -1,16 +1,11 @@
-Пошук нуля в числі
-
--   [« gmprootrem](function.gmp-rootrem.html)
-    
--   [gmpscan1 »](function.gmp-scan1.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Пошук нуля в числі
-    
-
+---
+navigation:
+  - function.gmp-rootrem.html: « gmprootrem
+  - function.gmp-scan1.html: gmpscan1 »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpscan0
+---
 # gmpscan0
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує зворотне трасування поточної точки виконання
-
--   [« ReflectionFiber::getFiber](reflectionfiber.getfiber.md)
-    
--   [ReflectionIntersectionType »](class.reflectionintersectiontype.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFiber](class.reflectionfiber.md)
-    
--   Отримує зворотне трасування поточної точки виконання
-    
-
+---
+navigation:
+  - reflectionfiber.getfiber.md: '« ReflectionFiber::getFiber'
+  - class.reflectionintersectiontype.md: ReflectionIntersectionType »
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::getTrace'
+---
 # ReflectionFiber::getTrace
 
 (PHP 8> = 8.1.0)
@@ -33,10 +28,10 @@ public ReflectionFiber::getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT):
 
 **Доступні параметри**
 
-| Параметр                             | Описание                                                          |
-|--------------------------------------|-------------------------------------------------------------------|
-| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням.                                                 |
-| **`DEBUG_BACKTRACE_IGNORE_ARGS`**    | Не включати інформацію про аргумент для функцій трасування стека. |
+| Параметр | Описание |
+| --- | --- |
+| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням. |
+| **`DEBUG_BACKTRACE_IGNORE_ARGS`** | Не включати інформацію про аргумент для функцій трасування стека. |
 
 ### Значення, що повертаються
 

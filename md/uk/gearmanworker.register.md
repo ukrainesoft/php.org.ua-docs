@@ -1,16 +1,11 @@
-Реєстрація функції на сервері завдань
-
--   [« GearmanWorker::options](gearmanworker.options.md)
-    
--   [GearmanWorker::removeOptions »](gearmanworker.removeoptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Реєстрація функції на сервері завдань
-    
-
+---
+navigation:
+  - gearmanworker.options.md: '« GearmanWorker::options'
+  - gearmanworker.removeoptions.md: 'GearmanWorker::removeOptions »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::register'
+---
 # GearmanWorker::register
 
 (PECL gearman >= 0.6.0)

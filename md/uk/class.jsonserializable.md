@@ -1,16 +1,11 @@
-Інтерфейс JsonSerializable
-
--   [« JsonException](class.jsonexception.md)
-    
--   [JsonSerializable::jsonSerialize »](jsonserializable.jsonserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [JSON](book.json.md)
-    
--   Інтерфейс JsonSerializable
-    
-
+---
+navigation:
+  - class.jsonexception.md: « JsonException
+  - jsonserializable.jsonserialize.md: 'JsonSerializable::jsonSerialize »'
+  - index.md: PHP Manual
+  - book.json.md: JSON
+title: Інтерфейс JsonSerializable
+---
 # Інтерфейс JsonSerializable
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

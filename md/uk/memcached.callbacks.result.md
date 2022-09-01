@@ -1,16 +1,11 @@
-Функції зворотного дзвінка для результуючого набору
-
--   [« Функції зворотного виклику](memcached.callbacks.md)
-    
--   [Функції зворотного виклику наскрізного читання кеша »](memcached.callbacks.read-through.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції зворотного дзвінка](memcached.callbacks.md)
-    
--   Функції зворотного дзвінка для результуючого набору
-    
-
+---
+navigation:
+  - memcached.callbacks.md: « Функції зворотного виклику
+  - memcached.callbacks.read-through.html: Функції зворотного виклику наскрізного читання кеша »
+  - index.md: PHP Manual
+  - memcached.callbacks.md: Опції зворотного дзвінка
+title: Функції зворотного дзвінка для результуючого набору
+---
 ## Функції зворотного дзвінка для результуючого набору
 
 [callable](language.types.callable.md) для результуючого набору викликаються методами [Memcached::getDelayed()](memcached.getdelayed.md) або [Memcached::getDelayedBykey()](memcached.getdelayedbykey.md) для кожного елемента із результуючого набору. Функціям зворотного виклику передаються об'єкт Memcached та масив з інформацією про елемент. Ці функції нічого не винні повертати.

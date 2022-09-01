@@ -1,16 +1,11 @@
-Деструктор
-
--   [« SolrPingResponse::construct](solrpingresponse.construct.md)
-    
--   [SolrPingResponse::getResponse »](solrpingresponse.getresponse.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrPingResponse](class.solrpingresponse.md)
-    
--   Деструктор
-    
-
+---
+navigation:
+  - solrpingresponse.construct.md: '« SolrPingResponse::construct'
+  - solrpingresponse.getresponse.md: 'SolrPingResponse::getResponse »'
+  - index.md: PHP Manual
+  - class.solrpingresponse.md: SolrPingResponse
+title: 'SolrPingResponse::destruct'
+---
 # SolrPingResponse::destruct
 
 (PECL solr> = 0.9.2)

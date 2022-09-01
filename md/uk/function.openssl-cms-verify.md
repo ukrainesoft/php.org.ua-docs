@@ -1,16 +1,11 @@
-Перевіряє підпис CMS
-
--   [« opensslcmssign](function.openssl-cms-sign.html)
-    
--   [opensslcsrexportтоfile »](function.openssl-csr-export-to-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Перевіряє підпис CMS
-    
-
+---
+navigation:
+  - function.openssl-cms-sign.html: « opensslcmssign
+  - function.openssl-csr-export-to-file.html: opensslcsrexportтоfile »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslcmsverify
+---
 # opensslcmsverify
 
 (PHP 8)

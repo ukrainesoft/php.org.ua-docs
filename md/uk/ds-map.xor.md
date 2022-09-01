@@ -1,16 +1,11 @@
-Створює нову колекцію пар із елементів, які є в одній із колекцій, але не в обох одночасно
-
--   [« DsMap::values](ds-map.values.html)
-    
--   [Пара »](class.ds-pair.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Створює нову колекцію пар із елементів, які є в одній із колекцій, але не в обох одночасно
-    
-
+---
+navigation:
+  - ds-map.values.html: '« DsMap::values'
+  - class.ds-pair.html: Пара »
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::xor'
+---
 # ДсMap::xor
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Створює новий об'єкт BulkWrite
-
--   [« MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
-    
--   [MongoDBDriverBulkWrite::count »](mongodb-driver-bulkwrite.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
-    
--   Створює новий об'єкт BulkWrite
-    
-
+---
+navigation:
+  - class.mongodb-driver-bulkwrite.html: « MongoDBDriverBulkWrite
+  - mongodb-driver-bulkwrite.count.html: 'MongoDBDriverBulkWrite::count »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite
+title: 'MongoDBDriverBulkWrite::construct'
+---
 # MongoDBDriverBulkWrite::construct
 
 (mongodb >=1.0.0)
@@ -31,10 +26,10 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 
 **options**
 
-| Опция                                                                                                      | Тип  | Описание | Значение по умолчанию |
-|------------------------------------------------------------------------------------------------------------|------|----------|-----------------------|
-| bypassDocumentValidation                                                                                   | bool |          |                       |
-| Якщо **`true`**, дозволяє виконувати операції вставки або оновлення, щоб обійти перевірку рівня документа. |      |          |                       |
+| Опция | Тип | Описание | Значение по умолчанию |
+| --- | --- | --- | --- |
+| bypassDocumentValidation | bool |  |  |
+| Якщо **`true`**, дозволяє виконувати операції вставки або оновлення, щоб обійти перевірку рівня документа. |  |  |  |
 
 Цей параметр доступний у MongoDB 3.2+ та ігнорується у старіших версіях сервера, які не підтримують перевірку рівня сервера.
 
@@ -58,10 +53,10 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 
 ### список змін
 
-| Версия              | Описание                                  |
-|---------------------|-------------------------------------------|
-| PECL mongodb 1.14.0 | Додані опції `"comment"` і `"let"`        |
-| PECL mongodb 1.1.0  | Додана опція `"bypassDocumentValidation"` |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.14.0 | Додані опції `"comment"` і `"let"` |
+| PECL mongodb 1.1.0 | Додана опція `"bypassDocumentValidation"` |
 
 ### Приклади
 

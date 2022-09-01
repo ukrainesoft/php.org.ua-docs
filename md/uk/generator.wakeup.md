@@ -1,16 +1,11 @@
-Callback-функція серіалізації
-
--   [« Generator::valid](generator.valid.md)
-    
--   [Fiber »](class.fiber.md)
-    
--   [PHP Manual](index.md)
-    
--   [Generator](class.generator.md)
-    
--   Callback-функція серіалізації
-    
-
+---
+navigation:
+  - generator.valid.md: '« Generator::valid'
+  - class.fiber.md: Fiber »
+  - index.md: PHP Manual
+  - class.generator.md: Generator
+title: 'Generator::wakeup'
+---
 # Generator::wakeup
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

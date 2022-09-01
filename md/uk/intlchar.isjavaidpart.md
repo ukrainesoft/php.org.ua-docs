@@ -1,16 +1,11 @@
-Перевірити, чи є символ допустимим в ідентифікаторі Java
-
--   [« IntlChar::isISOControl](intlchar.isisocontrol.md)
-    
--   [IntlChar::isJavaIDStart »](intlchar.isjavaidstart.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ допустимим в ідентифікаторі Java
-    
-
+---
+navigation:
+  - intlchar.isisocontrol.md: '« IntlChar::isISOControl'
+  - intlchar.isjavaidstart.md: 'IntlChar::isJavaIDStart »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isJavaIDPart'
+---
 # IntlChar::isJavaIDPart
 
 (PHP 7, PHP 8)

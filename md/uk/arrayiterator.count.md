@@ -1,16 +1,11 @@
-Порахувати кількість елементів
-
--   [« ArrayIterator::construct](arrayiterator.construct.html)
-    
--   [ArrayIterator::current »](arrayiterator.current.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Порахувати кількість елементів
-    
-
+---
+navigation:
+  - arrayiterator.construct.html: '« ArrayIterator::construct'
+  - arrayiterator.current.html: 'ArrayIterator::current »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::count'
+---
 # ArrayIterator::count
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевертає поточну колекцію
-
--   [« DsSet::remove](ds-set.remove.html)
-    
--   [ДсSet::reversed »](ds-set.reversed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Перевертає поточну колекцію
-    
-
+---
+navigation:
+  - ds-set.remove.html: '« DsSet::remove'
+  - ds-set.reversed.html: 'ДсSet::reversed »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::reverse'
+---
 # ДсSet::reverse
 
 (PECL ds >= 1.0.0)

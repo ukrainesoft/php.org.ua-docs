@@ -1,16 +1,11 @@
-Відкрити дескриптор директорії
-
--   [« streamWrapper::dirclosedir](streamwrapper.dir-closedir.html)
-    
--   [streamWrapper::dirreaddir »](streamwrapper.dir-readdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Відкрити дескриптор директорії
-    
-
+---
+navigation:
+  - streamwrapper.dir-closedir.html: '« streamWrapper::dirclosedir'
+  - streamwrapper.dir-readdir.html: 'streamWrapper::dirreaddir »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::diropendir'
+---
 # streamWrapper::diropendir
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

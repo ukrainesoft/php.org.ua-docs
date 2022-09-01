@@ -1,16 +1,11 @@
-User Operations для Zend
-
--   [« runkit7zvalinspect](function.runkit7-zval-inspect.html)
-    
--   [Введение »](intro.uopz.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   User Operations для Zend
-    
-
+---
+navigation:
+  - function.runkit7-zval-inspect.html: « runkit7zvalinspect
+  - intro.uopz.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: User Operations для Zend
+---
 # User Operations для Zend
 
 -   [Введение](intro.uopz.md)

@@ -1,16 +1,11 @@
-Інші зміни
-
--   [« Функціональність, оголошена застарілою в PHP 8.0.x](migration80.deprecated.html)
-    
--   [Миграция с PHP 7.3.x на PHP 7.4.x »](migration74.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 7.4.x на PHP 8.0.x](migration80.html)
-    
--   Інші зміни
-    
-
+---
+navigation:
+  - migration80.deprecated.html: '« Функціональність, оголошена застарілою в PHP 8.0.x'
+  - migration74.html: Миграция с PHP 7.3.x на PHP 7.4.x »
+  - index.html: PHP Manual
+  - migration80.html: Миграция с PHP 7.4.x на PHP 8.0.x
+title: Інші зміни
+---
 ## Інші зміни
 
 ### Зміни у модулях SAPI

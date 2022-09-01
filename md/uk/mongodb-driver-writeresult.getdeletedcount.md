@@ -1,16 +1,11 @@
-Повертає кількість видалених документів
-
--   [« MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   [MongoDBDriverWriteResult::getInsertedCount »](mongodb-driver-writeresult.getinsertedcount.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає кількість видалених документів
-    
-
+---
+navigation:
+  - class.mongodb-driver-writeresult.html: « MongoDBDriverWriteResult
+  - mongodb-driver-writeresult.getinsertedcount.html: 'MongoDBDriverWriteResult::getInsertedCount »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getDeletedCount'
+---
 # MongoDBDriverWriteResult::getDeletedCount
 
 (mongodb >=1.0.0)

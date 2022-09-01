@@ -1,16 +1,11 @@
-Повертає ім'я файлу у вигляді рядка
-
--   [« DirectoryIterator::seek](directoryiterator.seek.html)
-    
--   [DirectoryIterator::valid »](directoryiterator.valid.html)
-    
--   [PHP Manual](index.html)
-    
--   [DirectoryIterator](class.directoryiterator.html)
-    
--   Повертає ім'я файлу у вигляді рядка
-    
-
+---
+navigation:
+  - directoryiterator.seek.html: '« DirectoryIterator::seek'
+  - directoryiterator.valid.html: 'DirectoryIterator::valid »'
+  - index.html: PHP Manual
+  - class.directoryiterator.html: DirectoryIterator
+title: 'DirectoryIterator::toString'
+---
 # DirectoryIterator::toString
 
 (PHP 5, PHP 7, PHP 8)

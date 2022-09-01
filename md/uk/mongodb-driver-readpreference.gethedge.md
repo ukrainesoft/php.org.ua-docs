@@ -1,16 +1,11 @@
-Повертає опцію "hedge" із ReadPreference
-
--   [« MongoDBDriverReadPreference::construct](mongodb-driver-readpreference.construct.html)
-    
--   [MongoDBDriverReadPreference::getMaxStalenessSeconds »](mongodb-driver-readpreference.getmaxstalenessseconds.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Повертає опцію "hedge" із ReadPreference
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.construct.html: '« MongoDBDriverReadPreference::construct'
+  - mongodb-driver-readpreference.getmaxstalenessseconds.html: 'MongoDBDriverReadPreference::getMaxStalenessSeconds »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::getHedge'
+---
 # MongoDBDriverReadPreference::getHedge
 
 (mongodb >=1.8.0)

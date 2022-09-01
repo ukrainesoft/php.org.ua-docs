@@ -1,16 +1,11 @@
-Функції Hash
-
--   [« HashContext::unserialize](hashcontext.unserialize.md)
-    
--   [hashalgos »](function.hash-algos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Hash](book.hash.md)
-    
--   Функції Hash
-    
-
+---
+navigation:
+  - hashcontext.unserialize.md: '« HashContext::unserialize'
+  - function.hash-algos.html: hashalgos »
+  - index.md: PHP Manual
+  - book.hash.md: Hash
+title: Функції Hash
+---
 # Функції Hash
 
 ## Зміст

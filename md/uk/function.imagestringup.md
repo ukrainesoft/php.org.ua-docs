@@ -1,16 +1,11 @@
-Малювання рядка тексту вертикально
-
--   [« imagestring](function.imagestring.md)
-    
--   [imagesx »](function.imagesx.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Малювання рядка тексту вертикально
-    
-
+---
+navigation:
+  - function.imagestring.md: « imagestring
+  - function.imagesx.md: imagesx »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagestringup
+---
 # imagestringup
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,10 +52,10 @@ y-координата нижнього лівого кута.
 
 ### список змін
 
-| Версия | Описание                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource).                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

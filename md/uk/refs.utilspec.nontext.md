@@ -1,16 +1,11 @@
-Генерація нетекстових MIME-форматів
-
--   [« traderwma](function.trader-wma.html)
-    
--   [FDF »](book.fdf.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Генерація нетекстових MIME-форматів
-    
-
+---
+navigation:
+  - function.trader-wma.html: « traderwma
+  - book.fdf.md: FDF »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Генерація нетекстових MIME-форматів
+---
 # Генерація нетекстових MIME-форматів
 
 -   [FDF](book.fdf.md) - Формат даних форм

@@ -1,16 +1,11 @@
-Створює новий об'єкт DOMDocument
-
--   [« DOMDocument](class.domdocument.html)
-    
--   [DOMDocument::createAttribute »](domdocument.createattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Створює новий об'єкт DOMDocument
-    
-
+---
+navigation:
+  - class.domdocument.html: « DOMDocument
+  - domdocument.createattribute.html: 'DOMDocument::createAttribute »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::construct'
+---
 # DOMDocument::construct
 
 (PHP 5, PHP 7, PHP 8)

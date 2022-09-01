@@ -1,16 +1,11 @@
-Клас Set
-
--   [« DsPair::toArray](ds-pair.toarray.html)
-    
--   [ДсSet::add »](ds-set.add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Клас Set
-    
-
+---
+navigation:
+  - ds-pair.toarray.html: '« DsPair::toArray'
+  - ds-set.add.html: 'ДсSet::add »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Клас Set
+---
 # Клас Set
 
 (No version information available, might only be in Git)
@@ -91,8 +86,8 @@ public xor(Ds\Set $set): Ds\Set
 
 ## список змін
 
-| Версия        | Описание                                                |
-|---------------|---------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст

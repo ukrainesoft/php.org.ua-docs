@@ -1,16 +1,11 @@
-Додає код javascript до документа FDF
-
--   [« FDF](ref.fdf.html)
-    
--   [fdfaddtemplate »](function.fdf-add-template.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Додає код javascript до документа FDF
-    
-
+---
+navigation:
+  - ref.fdf.html: « FDF
+  - function.fdf-add-template.html: fdfaddtemplate »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfadddocjavascript
+---
 # fdfadddocjavascript
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

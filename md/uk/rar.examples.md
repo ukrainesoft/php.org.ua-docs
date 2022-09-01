@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](rar.constants.md)
-    
--   [Rar »](ref.rar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Rar](book.rar.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - rar.constants.md: « Обумовлені константи
+  - ref.rar.md: Rar »
+  - index.md: PHP Manual
+  - book.rar.md: Rar
+title: Приклади
+---
 # Приклади
 
 Також дивіться приклади за посиланням [`rar://`wrapper](wrappers.rar.md)

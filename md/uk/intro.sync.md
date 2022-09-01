@@ -1,16 +1,11 @@
-Вступ
-
--   [« Sync](book.sync.html)
-    
--   [Встановлення та налаштування »](sync.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Sync](book.sync.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.sync.html: « Sync
+  - sync.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.sync.html: Sync
+title: Вступ
+---
 # Вступ
 
 Модуль 'sync' вводить кросплатформні об'єкти синхронізації в PHP. Іменовані та безіменні об'єкти Mutex, Semaphore, Event, Reader-Writer та іменована загальна пам'ять забезпечують синхронізацію на рівні ОС як на платформах POSIX (наприклад, Linux), так і на платформах Windows.

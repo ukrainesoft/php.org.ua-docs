@@ -1,16 +1,11 @@
-Виконує операцію читання наступного кадру
-
--   [« Stomp::hasFrame](stomp.hasframe.md)
-    
--   [Stomp::send »](stomp.send.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Виконує операцію читання наступного кадру
-    
-
+---
+navigation:
+  - stomp.hasframe.md: '« Stomp::hasFrame'
+  - stomp.send.md: 'Stomp::send »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::readFrame'
+---
 # Stomp::readFrame
 
 # stompreadframe
@@ -53,8 +48,8 @@ stomp_read_frame(resource $link): array
 
 ### список змін
 
-| Версия      | Описание                      |
-|-------------|-------------------------------|
+| Версия | Описание |
+| --- | --- |
 | Stomp 0.4.0 | Доданий параметр `class_name` |
 
 ### Приклади

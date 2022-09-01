@@ -1,16 +1,11 @@
-Повертає час останнього оновлення сервера у мікросекундах
-
--   [« MongoDBDriverServerDescription::getHost](mongodb-driver-serverdescription.gethost.html)
-    
--   [MongoDBDriverServerDescription::getPort »](mongodb-driver-serverdescription.getport.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
-    
--   Повертає час останнього оновлення сервера у мікросекундах
-    
-
+---
+navigation:
+  - mongodb-driver-serverdescription.gethost.html: '« MongoDBDriverServerDescription::getHost'
+  - mongodb-driver-serverdescription.getport.html: 'MongoDBDriverServerDescription::getPort »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getLastUpdateTime'
+---
 # MongoDBDriverServerDescription::getLastUpdateTime
 
 (mongodb >=1.13.0)

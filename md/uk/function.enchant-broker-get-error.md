@@ -1,16 +1,11 @@
-Повертає останню помилку брокера
-
--   [« enchantbrokergetdictpath](function.enchant-broker-get-dict-path.html)
-    
--   [enchantbrokerinit »](function.enchant-broker-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Enchant](ref.enchant.html)
-    
--   Повертає останню помилку брокера
-    
-
+---
+navigation:
+  - function.enchant-broker-get-dict-path.html: « enchantbrokergetdictpath
+  - function.enchant-broker-init.html: enchantbrokerinit »
+  - index.html: PHP Manual
+  - ref.enchant.html: Функции Enchant
+title: enchantbrokergeterror
+---
 # enchantbrokergeterror
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -37,6 +32,6 @@ enchant_broker_get_error(EnchantBroker $broker): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |

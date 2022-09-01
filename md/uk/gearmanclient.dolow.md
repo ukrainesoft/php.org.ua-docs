@@ -1,16 +1,11 @@
-Запускає виконання завдання з низьким пріоритетом
-
--   [« GearmanClient::doJobHandle](gearmanclient.dojobhandle.html)
-    
--   [GearmanClient::doLowBackground »](gearmanclient.dolowbackground.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Запускає виконання завдання з низьким пріоритетом
-    
-
+---
+navigation:
+  - gearmanclient.dojobhandle.html: '« GearmanClient::doJobHandle'
+  - gearmanclient.dolowbackground.html: 'GearmanClient::doLowBackground »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::doLow'
+---
 # GearmanClient::doLow
 
 (PECL gearman >= 0.5.0)

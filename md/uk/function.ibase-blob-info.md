@@ -1,16 +1,11 @@
-Повертає довжину BLOB-об'єкта та іншу корисну інформацію
-
--   [« ibaseblobimport](function.ibase-blob-import.html)
-    
--   [ibaseblobopen »](function.ibase-blob-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Повертає довжину BLOB-об'єкта та іншу корисну інформацію
-    
-
+---
+navigation:
+  - function.ibase-blob-import.html: « ibaseblobimport
+  - function.ibase-blob-open.html: ibaseblobopen »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseblobinfo
+---
 # ibaseblobinfo
 
 (PHP 5, PHP 7 < 7.4.0)

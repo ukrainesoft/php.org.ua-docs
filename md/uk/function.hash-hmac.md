@@ -1,16 +1,11 @@
-Генерація хеш-коду на основі ключа, використовуючи метод HMAC
-
--   [« hashhmacfile](function.hash-hmac-file.html)
-    
--   [hashinit »](function.hash-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Генерація хеш-коду на основі ключа, використовуючи метод HMAC
-    
-
+---
+navigation:
+  - function.hash-hmac-file.html: « hashhmacfile
+  - function.hash-init.html: hashinit »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashhmac
+---
 # hashhmac
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
@@ -47,10 +42,10 @@ hash_hmac(    string $algo,    string $data,    string $key,    
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція [hash()](function.hash.md) тепер викидає виняток [ValueError](class.valueerror.md), якщо алгоритм `algo` невідомий; раніше натомість поверталося значення **`false`** |
-|        | Заборонено використання некриптографічних хеш-функцій (adler32, crc32, crc32b, fnv132, fnv1a32, fnv164, fnv1a64, joaat).                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | Функція [hash()](function.hash.md) тепер викидає виняток [ValueError](class.valueerror.md), якщо алгоритм `algo` невідомий; раніше натомість поверталося значення **`false`** |
+|  | Заборонено використання некриптографічних хеш-функцій (adler32, crc32, crc32b, fnv132, fnv1a32, fnv164, fnv1a64, joaat). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає максимальну кількість документів
-
--   [« SolrQuery::getQuery](solrquery.getquery.md)
-    
--   [SolrQuery::getSortFields »](solrquery.getsortfields.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає максимальну кількість документів
-    
-
+---
+navigation:
+  - solrquery.getquery.md: '« SolrQuery::getQuery'
+  - solrquery.getsortfields.md: 'SolrQuery::getSortFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getRows'
+---
 # SolrQuery::getRows
 
 (PECL solr> = 0.9.2)

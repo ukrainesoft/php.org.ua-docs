@@ -1,16 +1,11 @@
-Рекомендована конфігурація для Windows
-
--   [« Инструмент установки PHP на Windows](install.windows.tools.md)
-    
--   [Самостійне встановлення PHP у Windows »](install.windows.manual.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка в системах Windows](install.windows.md)
-    
--   Рекомендована конфігурація для Windows
-    
-
+---
+navigation:
+  - install.windows.tools.md: « Инструмент установки PHP на Windows
+  - install.windows.manual.md: Самостійне встановлення PHP у Windows »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Рекомендована конфігурація для Windows
+---
 ## Рекомендована конфігурація для Windows
 
 ### OpCache

@@ -1,16 +1,11 @@
-Виправити рядок
-
--   [« taint](function.taint.html)
-    
--   [Структури даних](book.ds.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Taint](ref.taint.html)
-    
--   Виправити рядок
-    
-
+---
+navigation:
+  - function.taint.html: « taint
+  - book.ds.html: Структури даних
+  - index.html: PHP Manual
+  - ref.taint.html: Функции Taint
+title: untaint
+---
 # untaint
 
 (PECL taint >=0.1.0)

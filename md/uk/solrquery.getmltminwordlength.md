@@ -1,16 +1,11 @@
-Повертає мінімальну довжину слова, нижче за яку слова ігноруватимуться
-
--   [« SolrQuery::getMltMinTermFrequency](solrquery.getmltmintermfrequency.html)
-    
--   [SolrQuery::getMltQueryFields »](solrquery.getmltqueryfields.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає мінімальну довжину слова, нижче за яку слова ігноруватимуться
-    
-
+---
+navigation:
+  - solrquery.getmltmintermfrequency.html: '« SolrQuery::getMltMinTermFrequency'
+  - solrquery.getmltqueryfields.html: 'SolrQuery::getMltQueryFields »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getMltMinWordLength'
+---
 # SolrQuery::getMltMinWordLength
 
 (PECL solr> = 0.9.2)

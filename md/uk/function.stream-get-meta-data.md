@@ -1,16 +1,11 @@
-Витягує заголовок/метадані з потоків/файлових покажчиків
-
--   [« streamgetline](function.stream-get-line.html)
-    
--   [streamgettransports »](function.stream-get-transports.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Витягує заголовок/метадані з потоків/файлових покажчиків
-    
-
+---
+navigation:
+  - function.stream-get-line.html: « streamgetline
+  - function.stream-get-transports.html: streamgettransports »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamgetmetadata
+---
 # streamgetmetadata
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

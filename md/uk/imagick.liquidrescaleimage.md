@@ -1,16 +1,11 @@
-Анімує зображення або зображення
-
--   [« Imagick::linearStretchImage](imagick.linearstretchimage.md)
-    
--   [Imagick::listRegistry »](imagick.listregistry.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Анімує зображення або зображення
-    
-
+---
+navigation:
+  - imagick.linearstretchimage.md: '« Imagick::linearStretchImage'
+  - imagick.listregistry.md: 'Imagick::listRegistry »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::liquidRescaleImage'
+---
 # Imagick::liquidRescaleImage
 
 (PECL imagick 2> = 2.2.0, PECL imagick 3)

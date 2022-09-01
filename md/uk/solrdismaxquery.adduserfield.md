@@ -1,16 +1,11 @@
-Додає поле до параметра поля користувача (uf)
-
--   [« SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md)
-    
--   [SolrDisMaxQuery::construct »](solrdismaxquery.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Додає поле до параметра поля користувача (uf)
-    
-
+---
+navigation:
+  - solrdismaxquery.addtrigramphrasefield.md: '« SolrDisMaxQuery::addTrigramPhraseField'
+  - solrdismaxquery.construct.md: 'SolrDisMaxQuery::construct »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::add User Field'
+---
 # Solr DisMax Query::add User Field
 
 (No version information available, might only be in Git)

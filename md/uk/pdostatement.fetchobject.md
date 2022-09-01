@@ -1,16 +1,11 @@
-Витягує наступний рядок і повертає його у вигляді об'єкта
-
--   [« PDOStatement::fetchColumn](pdostatement.fetchcolumn.html)
-    
--   [PDOStatement::getAttribute »](pdostatement.getattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Витягує наступний рядок і повертає його у вигляді об'єкта
-    
-
+---
+navigation:
+  - pdostatement.fetchcolumn.html: '« PDOStatement::fetchColumn'
+  - pdostatement.getattribute.html: 'PDOStatement::getAttribute »'
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::fetchObject'
+---
 # PDOStatement::fetchObject
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.4)

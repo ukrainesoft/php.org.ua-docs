@@ -1,16 +1,11 @@
-Призначає з'єднання для зазначеного зміщення
-
--   [« SwooleConnectionIterator::offsetGet](swoole-connection-iterator.offsetget.html)
-    
--   [SwooleConnectionIterator::offsetUnset »](swoole-connection-iterator.offsetunset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
-    
--   Призначає з'єднання для зазначеного зміщення
-    
-
+---
+navigation:
+  - swoole-connection-iterator.offsetget.html: '« SwooleConnectionIterator::offsetGet'
+  - swoole-connection-iterator.offsetunset.html: 'SwooleConnectionIterator::offsetUnset »'
+  - index.html: PHP Manual
+  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+title: 'SwooleConnectionIterator::offsetSet'
+---
 # SwooleConnectionIterator::offsetSet
 
 (PECL swoole >= 1.9.0)

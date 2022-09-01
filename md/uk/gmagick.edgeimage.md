@@ -1,16 +1,11 @@
-Збільшує краї зображення
-
--   [« Gmagick::drawimage](gmagick.drawimage.html)
-    
--   [Gmagick::embossimage »](gmagick.embossimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Збільшує краї зображення
-    
-
+---
+navigation:
+  - gmagick.drawimage.html: '« Gmagick::drawimage'
+  - gmagick.embossimage.html: 'Gmagick::embossimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::edgeimage'
+---
 # Gmagick::edgeimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Конструктор класу OAuthProvider
-
--   [« OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.html)
-    
--   [OAuthProvider::consumerHandler »](oauthprovider.consumerhandler.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuthProvider](class.oauthprovider.html)
-    
--   Конструктор класу OAuthProvider
-    
-
+---
+navigation:
+  - oauthprovider.checkoauthrequest.html: '« OAuthProvider::checkOAuthRequest'
+  - oauthprovider.consumerhandler.html: 'OAuthProvider::consumerHandler »'
+  - index.html: PHP Manual
+  - class.oauthprovider.html: OAuthProvider
+title: 'OAuthProvider::construct'
+---
 # OAuthProvider::construct
 
 (PECL OAuth >= 1.0.0)

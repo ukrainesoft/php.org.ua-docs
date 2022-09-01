@@ -1,16 +1,11 @@
-Метод додає новий запис до набору
-
--   [« QuickHashIntSet](class.quickhashintset.md)
-    
--   [QuickHashIntSet::construct »](quickhashintset.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntSet](class.quickhashintset.md)
-    
--   Метод додає новий запис до набору
-    
-
+---
+navigation:
+  - class.quickhashintset.md: « QuickHashIntSet
+  - quickhashintset.construct.md: 'QuickHashIntSet::construct »'
+  - index.md: PHP Manual
+  - class.quickhashintset.md: QuickHashIntSet
+title: 'QuickHashIntSet::add'
+---
 # QuickHashIntSet::add
 
 (PECL quickhash >= Unknown)

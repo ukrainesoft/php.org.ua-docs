@@ -1,16 +1,11 @@
-Затримка виконання
-
--   [« showsource](function.show-source.html)
-    
--   [sysgetloadavg »](function.sys-getloadavg.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Затримка виконання
-    
-
+---
+navigation:
+  - function.show-source.html: « showsource
+  - function.sys-getloadavg.html: sysgetloadavg »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sleep
+---
 # sleep
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

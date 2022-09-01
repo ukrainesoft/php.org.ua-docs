@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](yaml.constants.md)
-    
--   [Callback-функции »](yaml.callbacks.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yaml](book.yaml.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - yaml.constants.md: « Обумовлені константи
+  - yaml.callbacks.md: Callback-функции »
+  - index.md: PHP Manual
+  - book.yaml.md: Yaml
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Приклад роботи з Yaml**

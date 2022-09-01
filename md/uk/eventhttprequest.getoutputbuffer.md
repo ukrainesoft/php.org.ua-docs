@@ -1,16 +1,11 @@
-Повертає вихідний буфер запиту
-
--   [« EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.html)
-    
--   [EventHttpRequest::getOutputHeaders »](eventhttprequest.getoutputheaders.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Повертає вихідний буфер запиту
-    
-
+---
+navigation:
+  - eventhttprequest.getinputheaders.html: '« EventHttpRequest::getInputHeaders'
+  - eventhttprequest.getoutputheaders.html: 'EventHttpRequest::getOutputHeaders »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::getOutputBuffer'
+---
 # EventHttpRequest::getOutputBuffer
 
 (PECL event >= 1.4.0-beta)

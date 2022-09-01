@@ -1,16 +1,11 @@
-Клас ZookeeperConnectionException
-
--   [« ZookeeperAuthenticationException](class.zookeeperauthenticationexception.md)
-    
--   [ZookeeperMarshallingException »](class.zookeepermarshallingexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZooKeeper](book.zookeeper.md)
-    
--   Клас ZookeeperConnectionException
-    
-
+---
+navigation:
+  - class.zookeeperauthenticationexception.md: « ZookeeperAuthenticationException
+  - class.zookeepermarshallingexception.md: ZookeeperMarshallingException »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
+title: Клас ZookeeperConnectionException
+---
 # Клас ZookeeperConnectionException
 
 (PECL zookeeper >= 0.3.0)

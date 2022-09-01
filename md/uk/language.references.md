@@ -1,16 +1,11 @@
-Пояснення посилань
-
--   [« Оголошення класів атрибутів](language.attributes.classes.md)
-    
--   [Що таке посилання »](language.references.whatare.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Пояснення посилань
-    
-
+---
+navigation:
+  - language.attributes.classes.md: « Оголошення класів атрибутів
+  - language.references.whatare.md: Що таке посилання »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Пояснення посилань
+---
 # Пояснення посилань
 
 ## Зміст

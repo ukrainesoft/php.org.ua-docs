@@ -1,16 +1,11 @@
-Обрізати зображення до заданого прямокутника
-
--   [« imagecreatetruecolor](function.imagecreatetruecolor.md)
-    
--   [imagecropauto »](function.imagecropauto.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Обрізати зображення до заданого прямокутника
-    
-
+---
+navigation:
+  - function.imagecreatetruecolor.md: « imagecreatetruecolor
+  - function.imagecropauto.md: imagecropauto »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecrop
+---
 # imagecrop
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ imagecrop(GdImage $image, array $rectangle): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                |
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

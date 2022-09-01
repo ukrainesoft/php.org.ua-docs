@@ -1,16 +1,11 @@
-Встановлює пошуковий запит
-
--   [« SolrQuery::setOmitHeader](solrquery.setomitheader.html)
-    
--   [SolrQuery::setRows »](solrquery.setrows.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює пошуковий запит
-    
-
+---
+navigation:
+  - solrquery.setomitheader.html: '« SolrQuery::setOmitHeader'
+  - solrquery.setrows.html: 'SolrQuery::setRows »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setQuery'
+---
 # SolrQuery::setQuery
 
 (PECL solr> = 0.9.2)

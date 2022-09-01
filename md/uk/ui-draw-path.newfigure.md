@@ -1,16 +1,11 @@
-Намалювати фігуру
-
--   [« UIDrawPath::lineTo](ui-draw-path.lineto.html)
-    
--   [ОЙDrawPath::newFigureWithArc »](ui-draw-path.newfigurewitharc.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Намалювати фігуру
-    
-
+---
+navigation:
+  - ui-draw-path.lineto.html: '« UIDrawPath::lineTo'
+  - ui-draw-path.newfigurewitharc.html: 'ОЙDrawPath::newFigureWithArc »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::newFigure'
+---
 # ОЙDrawPath::newFigure
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Клас QuickHashIntSet
-
--   [« Приклади](quickhash.examples.md)
-    
--   [QuickHashIntSet::add »](quickhashintset.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Quickhash](book.quickhash.md)
-    
--   Клас QuickHashIntSet
-    
-
+---
+navigation:
+  - quickhash.examples.md: « Приклади
+  - quickhashintset.add.md: 'QuickHashIntSet::add »'
+  - index.md: PHP Manual
+  - book.quickhash.md: Quickhash
+title: Клас QuickHashIntSet
+---
 # Клас QuickHashIntSet
 
 (PECL quickhash >= Unknown)

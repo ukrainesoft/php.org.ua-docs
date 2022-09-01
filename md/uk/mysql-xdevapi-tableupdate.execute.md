@@ -1,16 +1,11 @@
-Виконує запит на оновлення
-
--   [« TableUpdate::construct](mysql-xdevapi-tableupdate.construct.html)
-    
--   [TableUpdate::limit »](mysql-xdevapi-tableupdate.limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   Виконує запит на оновлення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.construct.html: '« TableUpdate::construct'
+  - mysql-xdevapi-tableupdate.limit.html: 'TableUpdate::limit »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+title: 'TableUpdate::execute'
+---
 # TableUpdate::execute
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Встановлює критерії угруповання
-
--   [« CollectionFind::fields](mysql-xdevapi-collectionfind.fields.html)
-    
--   [CollectionFind::having »](mysql-xdevapi-collectionfind.having.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Встановлює критерії угруповання
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.fields.html: '« CollectionFind::fields'
+  - mysql-xdevapi-collectionfind.having.html: 'CollectionFind::having »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::groupBy'
+---
 # CollectionFind::groupBy
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Клас CallbackFilterIterator
-
--   [« CachingIterator::valid](cachingiterator.valid.md)
-    
--   [CallbackFilterIterator::accept »](callbackfilteriterator.accept.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас CallbackFilterIterator
-    
-
+---
+navigation:
+  - cachingiterator.valid.md: '« CachingIterator::valid'
+  - callbackfilteriterator.accept.md: 'CallbackFilterIterator::accept »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас CallbackFilterIterator
+---
 # Клас CallbackFilterIterator
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

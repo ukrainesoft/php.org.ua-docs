@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getKind](ffi-ctype.getkind.html)
-    
--   [FFICType::getPointerType »](ffi-ctype.getpointertype.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getkind.html: '« FFICType::getKind'
+  - ffi-ctype.getpointertype.html: 'FFICType::getPointerType »'
+  - index.html: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getName'
+---
 # FFICType::getName
 
 (PHP 7> = 7.4.0, PHP 8)

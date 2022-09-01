@@ -1,16 +1,11 @@
-Клас IMAPConnection
-
--   [« imaputf8](function.imap-utf8.html)
-    
--   [Mail »](book.mail.md)
-    
--   [PHP Manual](index.md)
-    
--   [IMAP](book.imap.md)
-    
--   Клас IMAPConnection
-    
-
+---
+navigation:
+  - function.imap-utf8.html: « imaputf8
+  - book.mail.md: Mail »
+  - index.md: PHP Manual
+  - book.imap.md: IMAP
+title: Клас IMAPConnection
+---
 # Клас IMAPConnection
 
 (PHP 8> = 8.1.0)

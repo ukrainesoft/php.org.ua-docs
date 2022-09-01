@@ -1,16 +1,11 @@
-Міграція з PHP 7.0.x на PHP 7.1.x
-
--   [« Прочие изменения](migration72.other-changes.html)
-    
--   [Нові можливості "](migration71.new-features.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Міграція з PHP 7.0.x на PHP 7.1.x
-    
-
+---
+navigation:
+  - migration72.other-changes.html: « Прочие изменения
+  - migration71.new-features.html: Нові можливості "
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Міграція з PHP 7.0.x на PHP 7.1.x
+---
 # Міграція з PHP 7.0.x на PHP 7.1.x
 
 ## Зміст

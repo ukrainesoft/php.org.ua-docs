@@ -1,16 +1,11 @@
-Обчислює загальний секрет для відкритого значення віддаленого та локального ключа DH або ECDH
-
--   [« opensslpkcs7verify](function.openssl-pkcs7-verify.html)
-    
--   [opensslpkeyexportтоfile »](function.openssl-pkey-export-to-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Обчислює загальний секрет для відкритого значення віддаленого та локального ключа DH або ECDH
-    
-
+---
+navigation:
+  - function.openssl-pkcs7-verify.html: « opensslpkcs7verify
+  - function.openssl-pkey-export-to-file.html: opensslpkeyexportтоfile »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkeyderive
+---
 # opensslpkeyderive
 
 (PHP 7> = 7.3.0, PHP 8)

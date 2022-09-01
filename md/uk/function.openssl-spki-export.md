@@ -1,16 +1,11 @@
-Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
-
--   [« opensslspkiexportchallenge](function.openssl-spki-export-challenge.html)
-    
--   [opensslspkinew »](function.openssl-spki-new.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
-    
-
+---
+navigation:
+  - function.openssl-spki-export-challenge.html: « opensslspkiexportchallenge
+  - function.openssl-spki-new.html: opensslspkinew »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslspkiexport
+---
 # opensslspkiexport
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

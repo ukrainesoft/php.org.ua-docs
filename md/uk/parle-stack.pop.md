@@ -1,16 +1,11 @@
-Витягує предмет зі стека
-
--   [« ParleStack](class.parle-stack.html)
-    
--   [ParleStack::push »](parle-stack.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleStack](class.parle-stack.html)
-    
--   Витягує предмет зі стека
-    
-
+---
+navigation:
+  - class.parle-stack.html: « ParleStack
+  - parle-stack.push.html: 'ParleStack::push »'
+  - index.md: PHP Manual
+  - class.parle-stack.html: ParleStack
+title: 'ParleStack::pop'
+---
 # ParleStack::pop
 
 (PECL parle >= 0.5.1)

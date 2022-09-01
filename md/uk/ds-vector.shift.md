@@ -1,16 +1,11 @@
-Видаляє та повертає перше значення
-
--   [« DsVector::set](ds-vector.set.html)
-    
--   [ДсVector::slice »](ds-vector.slice.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Видаляє та повертає перше значення
-    
-
+---
+navigation:
+  - ds-vector.set.html: '« DsVector::set'
+  - ds-vector.slice.html: 'ДсVector::slice »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::shift'
+---
 # ДсVector::shift
 
 (PECL ds >= 1.0.0)

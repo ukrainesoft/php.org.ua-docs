@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](oci8.setup.md)
-    
--   [Установка »](oci8.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](oci8.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - oci8.setup.md: « Встановлення та налаштування
+  - oci8.installation.md: Установка »
+  - index.md: PHP Manual
+  - oci8.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Модуль OCI8 3.0 включений у PHP 8. Також він доступний [» PECL](https://pecl.php.net/). Для PHP 7, використовуйте OCI8 2.2 від [» PECL](https://pecl.php.net/). Для роботи OCI8 потрібні клієнтські бібліотеки Oracle 10*г* або вище.

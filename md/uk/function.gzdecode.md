@@ -1,16 +1,11 @@
-Декодує рядок, стислий за допомогою gzip
-
--   [« gzcompress](function.gzcompress.html)
-    
--   [gzdeflate »](function.gzdeflate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Декодує рядок, стислий за допомогою gzip
-    
-
+---
+navigation:
+  - function.gzcompress.html: « gzcompress
+  - function.gzdeflate.html: gzdeflate »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzdecode
+---
 # gzdecode
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

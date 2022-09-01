@@ -1,16 +1,11 @@
-Визначити версію конвертера
-
--   [« wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.html)
-    
--   [PS »](book.ps.md)
-    
--   [PHP Manual](index.md)
-    
--   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
-    
--   Визначити версію конвертера
-    
-
+---
+navigation:
+  - wkhtmltox-image-converter.convert.html: '« wkhtmltoxImageConverter::convert'
+  - book.ps.md: PS »
+  - index.md: PHP Manual
+  - class.wkhtmltox-image-converter.html: wkhtmltoxImageConverter
+title: 'wkhtmltoxImageConverter::getVersion'
+---
 # wkhtmltoxImageConverter::getVersion
 
 (wkhtmltox >= 0.3.2)

@@ -1,16 +1,11 @@
-Клас SwooleHttpClient
-
--   [« SwooleException](class.swoole-exception.html)
-    
--   [SwooleHttpClient::addFile »](swoole-http-client.addfile.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleHttpClient
-    
-
+---
+navigation:
+  - class.swoole-exception.html: « SwooleException
+  - swoole-http-client.addfile.html: 'SwooleHttpClient::addFile »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleHttpClient
+---
 # Клас SwooleHttpClient
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Додає поле, яке використовуватиметься для групування результатів
-
--   [« SolrQuery::addFilterQuery](solrquery.addfilterquery.html)
-    
--   [SolrQuery::addGroupFunction »](solrquery.addgroupfunction.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Додає поле, яке використовуватиметься для групування результатів
-    
-
+---
+navigation:
+  - solrquery.addfilterquery.html: '« SolrQuery::addFilterQuery'
+  - solrquery.addgroupfunction.html: 'SolrQuery::addGroupFunction »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::addGroupField'
+---
 # SolrQuery::addGroupField
 
 (PECL solr> = 2.2.0)

@@ -1,16 +1,11 @@
-Синтаксис
-
--   [« Константи](language.constants.html)
-    
--   [Обумовлені константи »](language.constants.predefined.html)
-    
--   [PHP Manual](index.html)
-    
--   [Константи](language.constants.html)
-    
--   Синтаксис
-    
-
+---
+navigation:
+  - language.constants.html: « Константи
+  - language.constants.predefined.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - language.constants.html: Константи
+title: Синтаксис
+---
 ## Синтаксис
 
 Константу можна визначити за допомогою ключового слова `const` або за допомогою функції [define()](function.define.html). В той час як [define()](function.define.html) дозволяє задати константу через вираз, конструкція `const` обмежена як описано у наступному параграфі. Після того, як константа визначена, її значення може бути змінено чи анульовано.

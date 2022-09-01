@@ -1,16 +1,11 @@
-Повертає параметр розміру
-
--   [« SolrCollapseFunction::getNullPolicy](solrcollapsefunction.getnullpolicy.md)
-    
--   [SolrCollapseFunction::setField »](solrcollapsefunction.setfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.md)
-    
--   Повертає параметр розміру
-    
-
+---
+navigation:
+  - solrcollapsefunction.getnullpolicy.md: '« SolrCollapseFunction::getNullPolicy'
+  - solrcollapsefunction.setfield.md: 'SolrCollapseFunction::setField »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::getSize'
+---
 # SolrCollapseFunction::getSize
 
 (PECL solr> = 2.2.0)

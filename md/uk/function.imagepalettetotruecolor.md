@@ -1,16 +1,11 @@
-Перетворює зображення на основі палітри на справжній колір
-
--   [« imagepalettecopy](function.imagepalettecopy.md)
-    
--   [imagepng »](function.imagepng.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Перетворює зображення на основі палітри на справжній колір
-    
-
+---
+navigation:
+  - function.imagepalettecopy.md: « imagepalettecopy
+  - function.imagepng.md: imagepng »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagepalettetotruecolor
+---
 # imagepalettetotruecolor
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ imagepalettetotruecolor(GdImage $image): bool
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

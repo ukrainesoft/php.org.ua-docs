@@ -1,16 +1,11 @@
-Отримати всі бінарні значення із запису результату
-
--   [« ldapgetoption](function.ldap-get-option.html)
-    
--   [ldapgetvalues »](function.ldap-get-values.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Отримати всі бінарні значення із запису результату
-    
-
+---
+navigation:
+  - function.ldap-get-option.html: « ldapgetoption
+  - function.ldap-get-values.html: ldapgetvalues »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapgetvalueslen
+---
 # ldapgetvalueslen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,10 +40,10 @@ ldap_get_values_len(LDAP\Connection $ldap, LDAP\ResultEntry $entry, string $attr
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md)     |
-|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Додати рядок до кінця символьних даних вузла
-
--   [« DOMCharacterData](class.domcharacterdata.md)
-    
--   [DOMCharacterData::deleteData »](domcharacterdata.deletedata.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMCharacterData](class.domcharacterdata.md)
-    
--   Додати рядок до кінця символьних даних вузла
-    
-
+---
+navigation:
+  - class.domcharacterdata.md: « DOMCharacterData
+  - domcharacterdata.deletedata.md: 'DOMCharacterData::deleteData »'
+  - index.md: PHP Manual
+  - class.domcharacterdata.md: DOMCharacterData
+title: 'DOMCharacterData::appendData'
+---
 # DOMCharacterData::appendData
 
 (PHP 5, PHP 7, PHP 8)

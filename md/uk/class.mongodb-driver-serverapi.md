@@ -1,16 +1,11 @@
-Клас MongoDBDriverServerApi
-
--   [« MongoDBDriverClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.html)
-    
--   [MongoDBDriverServerApi::bsonSerialize »](mongodb-driver-serverapi.bsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас MongoDBDriverServerApi
-    
-
+---
+navigation:
+  - mongodb-driver-clientencryption.encrypt.html: '« MongoDBDriverClientEncryption::encrypt'
+  - mongodb-driver-serverapi.bsonserialize.html: 'MongoDBDriverServerApi::bsonSerialize »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас MongoDBDriverServerApi
+---
 # Клас MongoDBDriverServerApi
 
 (mongodb >=1.10.0)

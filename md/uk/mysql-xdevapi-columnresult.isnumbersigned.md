@@ -1,16 +1,11 @@
-Перевіряє, чи є тип підписаним
-
--   [« ColumnResult::getType](mysql-xdevapi-columnresult.gettype.html)
-    
--   [ColumnResult::isPadded »](mysql-xdevapi-columnresult.ispadded.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Перевіряє, чи є тип підписаним
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.gettype.html: '« ColumnResult::getType'
+  - mysql-xdevapi-columnresult.ispadded.html: 'ColumnResult::isPadded »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::isNumberSigned'
+---
 # ColumnResult::isNumberSigned
 
 (No version information available, might only be in Git)

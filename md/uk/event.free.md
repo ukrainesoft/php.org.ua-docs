@@ -1,16 +1,11 @@
-Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
-
--   [« Event::delTimer](event.deltimer.md)
-    
--   [Event::getSupportedMethods »](event.getsupportedmethods.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
-    
-
+---
+navigation:
+  - event.deltimer.md: '« Event::delTimer'
+  - event.getsupportedmethods.md: 'Event::getSupportedMethods »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::free'
+---
 # Event::free
 
 (PECL event >= 1.2.6-beta)

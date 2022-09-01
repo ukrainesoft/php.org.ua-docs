@@ -1,16 +1,11 @@
-Залишок від поділу двох варіантів
-
--   [« variantint](function.variant-int.html)
-    
--   [variantmul »](function.variant-mul.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Залишок від поділу двох варіантів
-    
-
+---
+navigation:
+  - function.variant-int.html: « variantint
+  - function.variant-mul.html: variantmul »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantmod
+---
 # variantmod
 
 (PHP 5, PHP 7, PHP 8)

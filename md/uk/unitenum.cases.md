@@ -1,16 +1,11 @@
-Повертає список варіантів перерахування
-
--   [« UnitEnum](class.unitenum.md)
-    
--   [BackedEnum »](class.backedenum.md)
-    
--   [PHP Manual](index.md)
-    
--   [UnitEnum](class.unitenum.md)
-    
--   Повертає список варіантів перерахування
-    
-
+---
+navigation:
+  - class.unitenum.md: « UnitEnum
+  - class.backedenum.md: BackedEnum »
+  - index.md: PHP Manual
+  - class.unitenum.md: UnitEnum
+title: 'UnitEnum::cases'
+---
 # UnitEnum::cases
 
 (PHP 8> = 8.1.0)

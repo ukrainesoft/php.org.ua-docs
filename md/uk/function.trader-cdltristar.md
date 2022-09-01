@@ -1,16 +1,11 @@
-Свічкова модель "Трістар"
-
--   [« tradercdlthrusting](function.trader-cdlthrusting.html)
-    
--   [tradercdlunique3river »](function.trader-cdlunique3river.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Трістар"
-    
-
+---
+navigation:
+  - function.trader-cdlthrusting.html: « tradercdlthrusting
+  - function.trader-cdlunique3river.html: tradercdlunique3river »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdltristar
+---
 # tradercdltristar
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Обчислює розбіжність масивів, порівнюючи ключі
-
--   [« arraydiffassoc](function.array-diff-assoc.html)
-    
--   [arraydiffuassoc »](function.array-diff-uassoc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Обчислює розбіжність масивів, порівнюючи ключі
-    
-
+---
+navigation:
+  - function.array-diff-assoc.html: « arraydiffassoc
+  - function.array-diff-uassoc.html: arraydiffuassoc »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraydiffkey
+---
 # arraydiffkey
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_diff_key(array $array, array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
 
 ### Приклади
 

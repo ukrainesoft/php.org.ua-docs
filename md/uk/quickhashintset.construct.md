@@ -1,16 +1,11 @@
-Створює новий об'єкт QuickHashIntSet
-
--   [« QuickHashIntSet::add](quickhashintset.add.html)
-    
--   [QuickHashIntSet::delete »](quickhashintset.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashIntSet](class.quickhashintset.html)
-    
--   Створює новий об'єкт QuickHashIntSet
-    
-
+---
+navigation:
+  - quickhashintset.add.html: '« QuickHashIntSet::add'
+  - quickhashintset.delete.html: 'QuickHashIntSet::delete »'
+  - index.html: PHP Manual
+  - class.quickhashintset.html: QuickHashIntSet
+title: 'QuickHashIntSet::construct'
+---
 # QuickHashIntSet::construct
 
 (PECL quickhash >= Unknown)

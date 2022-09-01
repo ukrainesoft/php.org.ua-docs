@@ -1,16 +1,11 @@
-Отримати значення
-
--   [« UIControlsSpin::construct](ui-controls-spin.construct.html)
-    
--   [ОЙControlsSpin::onChange »](ui-controls-spin.onchange.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsSpin](class.ui-controls-spin.html)
-    
--   Отримати значення
-    
-
+---
+navigation:
+  - ui-controls-spin.construct.html: '« UIControlsSpin::construct'
+  - ui-controls-spin.onchange.html: 'ОЙControlsSpin::onChange »'
+  - index.html: PHP Manual
+  - class.ui-controls-spin.html: ОЙControlsSpin
+title: 'ОЙControlsSpin::getValue'
+---
 # ОЙControlsSpin::getValue
 
 (UI 0.9.9)

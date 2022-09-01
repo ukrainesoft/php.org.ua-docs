@@ -1,16 +1,11 @@
-Отримати повідомлення
-
--   [« ZMQSocket::isPersistent](zmqsocket.ispersistent.md)
-    
--   [ZMQSocket::recvMulti »](zmqsocket.recvmulti.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQSocket](class.zmqsocket.md)
-    
--   Отримати повідомлення
-    
-
+---
+navigation:
+  - zmqsocket.ispersistent.md: '« ZMQSocket::isPersistent'
+  - zmqsocket.recvmulti.md: 'ZMQSocket::recvMulti »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::recv'
+---
 # ZMQSocket::recv
 
 (PECL zmq >= 0.5.0)

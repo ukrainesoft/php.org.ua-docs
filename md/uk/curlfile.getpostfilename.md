@@ -1,16 +1,11 @@
-Повертає ім'я файлу, що надсилається POST-запитом
-
--   [« CURLFile::getMimeType](curlfile.getmimetype.html)
-    
--   [CURLFile::setMimeType »](curlfile.setmimetype.html)
-    
--   [PHP Manual](index.html)
-    
--   [CURLFile](class.curlfile.html)
-    
--   Повертає ім'я файлу, що надсилається POST-запитом
-    
-
+---
+navigation:
+  - curlfile.getmimetype.html: '« CURLFile::getMimeType'
+  - curlfile.setmimetype.html: 'CURLFile::setMimeType »'
+  - index.html: PHP Manual
+  - class.curlfile.html: CURLFile
+title: 'CURLFile::getPostFilename'
+---
 # CURLFile::getPostFilename
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Реєструє функцію PHP до методу ресурсу, що відповідає методуname
-
--   [« xmlrpcserverregisterintrospectioncallback](function.xmlrpc-server-register-introspection-callback.html)
-    
--   [xmlrpcsettype »](function.xmlrpc-set-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції XML-RPC](ref.xmlrpc.md)
-    
--   Реєструє функцію PHP до методу ресурсу, що відповідає методуname
-    
-
+---
+navigation:
+  - function.xmlrpc-server-register-introspection-callback.html: « xmlrpcserverregisterintrospectioncallback
+  - function.xmlrpc-set-type.html: xmlrpcsettype »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
+title: xmlrpcserverregisterметод
+---
 # xmlrpcserverregisterметод
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

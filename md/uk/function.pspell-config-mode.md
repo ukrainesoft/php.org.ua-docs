@@ -1,16 +1,11 @@
-Змінює режим кількості варіантів виправлення, що повертаються.
-
--   [« pspellconfigignore](function.pspell-config-ignore.html)
-    
--   [pspellconfigpersonal »](function.pspell-config-personal.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Pspell](ref.pspell.html)
-    
--   Змінює режим кількості варіантів виправлення, що повертаються.
-    
-
+---
+navigation:
+  - function.pspell-config-ignore.html: « pspellconfigignore
+  - function.pspell-config-personal.html: pspellconfigpersonal »
+  - index.html: PHP Manual
+  - ref.pspell.html: Функции Pspell
+title: pspellconfigmode
+---
 # pspellconfigmode
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pspell_config_mode(PSpell\Config $config, int $mode): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

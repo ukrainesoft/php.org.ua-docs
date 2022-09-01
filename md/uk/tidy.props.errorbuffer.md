@@ -1,16 +1,11 @@
-Повертає попередження та помилки, що виникли при розборі зазначеного документа
-
--   [« tidy::diagnose](tidy.diagnose.md)
-    
--   [tidy::getConfig »](tidy.getconfig.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Повертає попередження та помилки, що виникли при розборі зазначеного документа
-    
-
+---
+navigation:
+  - tidy.diagnose.md: '« tidy::diagnose'
+  - tidy.getconfig.md: 'tidy::getConfig »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::$errorBuffer'
+---
 # tidy::$errorBuffer
 
 # tidygeterrorbuffer

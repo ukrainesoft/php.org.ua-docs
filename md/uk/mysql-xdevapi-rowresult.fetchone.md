@@ -1,16 +1,11 @@
-Отримує рядок із результату
-
--   [« RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.html)
-    
--   [RowResult::getColumnsCount »](mysql-xdevapi-rowresult.getcolumncount.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
-    
--   Отримує рядок із результату
-    
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.fetchall.html: '« RowResult::fetchAll'
+  - mysql-xdevapi-rowresult.getcolumncount.html: 'RowResult::getColumnsCount »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+title: 'RowResult::fetchOne'
+---
 # RowResult::fetchOne
 
 (No version information available, might only be in Git)

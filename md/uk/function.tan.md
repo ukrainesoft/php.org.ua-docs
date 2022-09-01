@@ -1,16 +1,11 @@
-Тангенс
-
--   [« srand](function.srand.md)
-    
--   [tanh »](function.tanh.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Тангенс
-    
-
+---
+navigation:
+  - function.srand.md: « srand
+  - function.tanh.md: tanh »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: tan
+---
 # tan
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

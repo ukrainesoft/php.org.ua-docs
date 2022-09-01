@@ -1,16 +1,11 @@
-Отримати асинхронне повідомлення
-
--   [« PDO::pgsqlCopyToFile](pdo.pgsqlcopytofile.html)
-    
--   [PDO::pgsqlGetPid »](pdo.pgsqlgetpid.html)
-    
--   [PHP Manual](index.html)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   Отримати асинхронне повідомлення
-    
-
+---
+navigation:
+  - pdo.pgsqlcopytofile.html: '« PDO::pgsqlCopyToFile'
+  - pdo.pgsqlgetpid.html: 'PDO::pgsqlGetPid »'
+  - index.html: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: 'PDO::pgsqlGetNotify'
+---
 # PDO::pgsqlGetNotify
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

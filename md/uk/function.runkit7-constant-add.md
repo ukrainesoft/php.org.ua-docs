@@ -1,16 +1,11 @@
-Аналогічний define(), але також дозволяє визначити константу класу
-
--   [« Функції runkit7](ref.runkit7.md)
-    
--   [runkit7constantredefine »](function.runkit7-constant-redefine.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Аналогічний define(), але також дозволяє визначити константу класу
-    
-
+---
+navigation:
+  - ref.runkit7.md: « Функції runkit7
+  - function.runkit7-constant-redefine.html: runkit7constantredefine »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7constantadd
+---
 # runkit7constantadd
 
 (PECL runkit7> = Unknown)

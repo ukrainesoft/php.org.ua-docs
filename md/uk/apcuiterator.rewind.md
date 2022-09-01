@@ -1,16 +1,11 @@
-Перемотування ітератора
-
--   [« APCUIterator::next](apcuiterator.next.md)
-    
--   [APCUIterator::valid »](apcuiterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Перемотування ітератора
-    
-
+---
+navigation:
+  - apcuiterator.next.md: '« APCUIterator::next'
+  - apcuiterator.valid.md: 'APCUIterator::valid »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::rewind'
+---
 # APCUIterator::rewind
 
 (PECL apcu >= 5.0.0)

@@ -1,16 +1,11 @@
-Повертає перегорнуту копію вектора
-
--   [« DsVector::reverse](ds-vector.reverse.html)
-    
--   [ДсVector::rotate »](ds-vector.rotate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає перегорнуту копію вектора
-    
-
+---
+navigation:
+  - ds-vector.reverse.html: '« DsVector::reverse'
+  - ds-vector.rotate.html: 'ДсVector::rotate »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::reversed'
+---
 # ДсVector::reversed
 
 (PECL ds >= 1.0.0)

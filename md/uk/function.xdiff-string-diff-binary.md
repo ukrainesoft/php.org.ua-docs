@@ -1,16 +1,11 @@
-Псевдонім для xdiffstringbdiff
-
--   [xdiffstringbpatch](function.xdiff-string-bpatch.html)
-    
--   [xdiffstringdiff »](function.xdiff-string-diff.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Псевдонім для xdiffstringbdiff
-    
-
+---
+navigation:
+  - function.xdiff-string-bpatch.html: xdiffstringbpatch
+  - function.xdiff-string-diff.html: xdiffstringdiff »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdiffstringdiffbinary
+---
 # xdiffstringdiffbinary
 
 (PECL xdiff >= 0.2.0)

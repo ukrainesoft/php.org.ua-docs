@@ -1,16 +1,11 @@
-Taint
-
--   [« Yaconf::has](yaconf.has.html)
-    
--   [Введение »](intro.taint.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   Taint
-    
-
+---
+navigation:
+  - yaconf.has.html: '« Yaconf::has'
+  - intro.taint.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: Taint
+---
 # Taint
 
 -   [Введение](intro.taint.html)

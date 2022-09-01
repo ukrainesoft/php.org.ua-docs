@@ -1,16 +1,11 @@
-Повертає об'єкт класу ReflectionExtension для модуля, що визначає клас
-
--   [« ReflectionClass::getEndLine](reflectionclass.getendline.html)
-    
--   [ReflectionClass::getExtensionName »](reflectionclass.getextensionname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає об'єкт класу ReflectionExtension для модуля, що визначає клас
-    
-
+---
+navigation:
+  - reflectionclass.getendline.html: '« ReflectionClass::getEndLine'
+  - reflectionclass.getextensionname.html: 'ReflectionClass::getExtensionName »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getExtension'
+---
 # ReflectionClass::getExtension
 
 (PHP 5, PHP 7, PHP 8)

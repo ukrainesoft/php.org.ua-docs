@@ -1,16 +1,11 @@
-Додає він'єтний фільтр до зображення
-
--   [« Imagick::valid](imagick.valid.md)
-    
--   [Imagick::waveImage »](imagick.waveimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Додає він'єтний фільтр до зображення
-    
-
+---
+navigation:
+  - imagick.valid.md: '« Imagick::valid'
+  - imagick.waveimage.md: 'Imagick::waveImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::vignetteImage'
+---
 # Imagick::vignetteImage
 
 (PECL imagick 2, PECL imagick 3)

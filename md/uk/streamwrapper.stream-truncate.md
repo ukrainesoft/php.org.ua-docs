@@ -1,16 +1,11 @@
-Усічення потоку
-
--   [« streamWrapper::streamtell](streamwrapper.stream-tell.html)
-    
--   [streamWrapper::streamwrite »](streamwrapper.stream-write.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Усічення потоку
-    
-
+---
+navigation:
+  - streamwrapper.stream-tell.html: '« streamWrapper::streamtell'
+  - streamwrapper.stream-write.html: 'streamWrapper::streamwrite »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamtruncate'
+---
 # streamWrapper::streamtruncate
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

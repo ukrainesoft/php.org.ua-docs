@@ -1,16 +1,11 @@
-Повертає список типів зображень, які підтримує PHP збірка
-
--   [« imagettftext](function.imagettftext.md)
-    
--   [imagewbmp »](function.imagewbmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Повертає список типів зображень, які підтримує PHP збірка
-    
-
+---
+navigation:
+  - function.imagettftext.md: « imagettftext
+  - function.imagewbmp.md: imagewbmp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagetypes
+---
 # imagetypes
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -35,11 +30,11 @@ imagetypes(): int
 
 ### список змін
 
-| Версия | Описание                        |
-|--------|---------------------------------|
-|        | Додано константу **`IMG_AVIF`** |
-|        | Додано константу **`IMG_BMP`**  |
-|        | Додано константу **`IMG_WEBP`** |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу **`IMG_AVIF`** |
+|  | Додано константу **`IMG_BMP`** |
+|  | Додано константу **`IMG_WEBP`** |
 
 ### Приклади
 

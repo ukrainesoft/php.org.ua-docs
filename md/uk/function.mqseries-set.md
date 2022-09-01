@@ -1,16 +1,11 @@
-MQSeries MQSET
-
--   [« mqseriesput](function.mqseries-put.html)
-    
--   [mqseriesstrerror »](function.mqseries-strerror.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   MQSeries MQSET
-    
-
+---
+navigation:
+  - function.mqseries-put.html: « mqseriesput
+  - function.mqseries-strerror.html: mqseriesstrerror »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesset
+---
 # mqseriesset
 
 (PECL mqseries >= 0.10.0)

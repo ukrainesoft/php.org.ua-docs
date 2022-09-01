@@ -1,16 +1,11 @@
-Отримати останній код повернення
-
--   [« GearmanTask::recvData](gearmantask.recvdata.html)
-    
--   [GearmanTask::sendData »](gearmantask.senddata.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanTask](class.gearmantask.html)
-    
--   Отримати останній код повернення
-    
-
+---
+navigation:
+  - gearmantask.recvdata.html: '« GearmanTask::recvData'
+  - gearmantask.senddata.html: 'GearmanTask::sendData »'
+  - index.html: PHP Manual
+  - class.gearmantask.html: GearmanTask
+title: 'GearmanTask::returnCode'
+---
 # GearmanTask::returnCode
 
 (PECL gearman >= 0.5.0)

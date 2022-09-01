@@ -1,16 +1,11 @@
-Повертає інформацію про модифікаторів класу
-
--   [« ReflectionClass::getMethods](reflectionclass.getmethods.md)
-    
--   [ReflectionClass::getName »](reflectionclass.getname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає інформацію про модифікаторів класу
-    
-
+---
+navigation:
+  - reflectionclass.getmethods.md: '« ReflectionClass::getMethods'
+  - reflectionclass.getname.md: 'ReflectionClass::getName »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getModifiers'
+---
 # ReflectionClass::getModifiers
 
 (PHP 5, PHP 7, PHP 8)

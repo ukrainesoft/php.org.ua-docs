@@ -1,16 +1,11 @@
-Огляд перерахувань
-
--   [« Перечисления](language.enumerations.html)
-    
--   [Основи перерахувань »](language.enumerations.basics.html)
-    
--   [PHP Manual](index.html)
-    
--   [Перечисления](language.enumerations.html)
-    
--   Огляд перерахувань
-    
-
+---
+navigation:
+  - language.enumerations.html: « Перечисления
+  - language.enumerations.basics.html: Основи перерахувань »
+  - index.html: PHP Manual
+  - language.enumerations.html: Перечисления
+title: Огляд перерахувань
+---
 ## Огляд перерахувань
 
 (PHP 8> = 8.1.0)

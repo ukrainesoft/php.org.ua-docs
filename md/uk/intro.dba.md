@@ -1,16 +1,11 @@
-Вступ
-
--   [« DBA](book.dba.html)
-    
--   [Встановлення та налаштування »](dba.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [DBA](book.dba.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.dba.html: « DBA
+  - dba.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.dba.html: DBA
+title: Вступ
+---
 # Вступ
 
 Ці функції є основою доступу до баз даних типу Berkeley DB.

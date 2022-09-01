@@ -1,16 +1,11 @@
-Відновлює раніше збережений контекст
-
--   [«psrect](function.ps-rect.html)
-    
--   [псrotate »](function.ps-rotate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Відновлює раніше збережений контекст
-    
-
+---
+navigation:
+  - function.ps-rect.html: «psrect
+  - function.ps-rotate.html: псrotate »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псrestore
+---
 # псrestore
 
 (PECL ps >= 1.1.0)

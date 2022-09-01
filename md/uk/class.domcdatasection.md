@@ -1,16 +1,11 @@
-Клас DOMCdataSection
-
--   [« DOMAttr::isId](domattr.isid.md)
-    
--   [DOMCdataSection::construct »](domcdatasection.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMCdataSection
-    
-
+---
+navigation:
+  - domattr.isid.md: '« DOMAttr::isId'
+  - domcdatasection.construct.md: 'DOMCdataSection::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMCdataSection
+---
 # Клас DOMCdataSection
 
 (PHP 5, PHP 7, PHP 8)

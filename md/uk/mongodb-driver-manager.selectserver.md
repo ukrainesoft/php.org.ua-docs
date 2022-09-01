@@ -1,16 +1,11 @@
-Вибрати сервер, що відповідає перевагам читання
-
--   [« MongoDBDriverManager::removeSubscriber](mongodb-driver-manager.removesubscriber.html)
-    
--   [MongoDBDriverManager::startSession »](mongodb-driver-manager.startsession.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Вибрати сервер, що відповідає перевагам читання
-    
-
+---
+navigation:
+  - mongodb-driver-manager.removesubscriber.html: '« MongoDBDriverManager::removeSubscriber'
+  - mongodb-driver-manager.startsession.html: 'MongoDBDriverManager::startSession »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::selectServer'
+---
 # MongoDBDriverManager::selectServer
 
 (mongodb >=1.0.0)
@@ -46,8 +41,8 @@ final public MongoDB\Driver\Manager::selectServer(?MongoDB\Driver\ReadPreference
 
 ### список змін
 
-| Версия              | Описание                                                                                                                                    |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.11.0 | Параметр `readPreference` тепер необов'язковий. Якщо вказано значення **`null`** або опущено, за промовчанням буде обрано первинний сервер. |
 
 ### Дивіться також

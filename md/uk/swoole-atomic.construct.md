@@ -1,16 +1,11 @@
-Створює атомарний об'єкт swoole
-
--   [« SwooleAtomic::cmpset](swoole-atomic.cmpset.html)
-    
--   [SwooleAtomic::get »](swoole-atomic.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleAtomic](class.swoole-atomic.html)
-    
--   Створює атомарний об'єкт swoole
-    
-
+---
+navigation:
+  - swoole-atomic.cmpset.html: '« SwooleAtomic::cmpset'
+  - swoole-atomic.get.html: 'SwooleAtomic::get »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.html: SwooleAtomic
+title: 'SwooleAtomic::construct'
+---
 # SwooleAtomic::construct
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Встановлює сцену зображення
-
--   [« Imagick::setImageResolution](imagick.setimageresolution.html)
-    
--   [Imagick::setImageTicksPerSecond »](imagick.setimagetickspersecond.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює сцену зображення
-    
-
+---
+navigation:
+  - imagick.setimageresolution.html: '« Imagick::setImageResolution'
+  - imagick.setimagetickspersecond.html: 'Imagick::setImageTicksPerSecond »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageScene'
+---
 # Imagick::setImageScene
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Видалити фільтр із потоку
-
--   [« streamfilterregister](function.stream-filter-register.html)
-    
--   [streamgetcontents »](function.stream-get-contents.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Видалити фільтр із потоку
-    
-
+---
+navigation:
+  - function.stream-filter-register.html: « streamfilterregister
+  - function.stream-get-contents.html: streamgetcontents »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamfilterremove
+---
 # streamfilterremove
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

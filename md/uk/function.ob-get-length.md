@@ -1,16 +1,11 @@
-Повертає розмір буфера виводу
-
--   [« obgetflush](function.ob-get-flush.html)
-    
--   [проgetlevel »](function.ob-get-level.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   Повертає розмір буфера виводу
-    
-
+---
+navigation:
+  - function.ob-get-flush.html: « obgetflush
+  - function.ob-get-level.html: проgetlevel »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проgetlength
+---
 # проgetlength
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає групові поля (значення параметра group.field)
-
--   [« SolrQuery::getGroupFacet](solrquery.getgroupfacet.md)
-    
--   [SolrQuery::getGroupFormat »](solrquery.getgroupformat.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає групові поля (значення параметра group.field)
-    
-
+---
+navigation:
+  - solrquery.getgroupfacet.md: '« SolrQuery::getGroupFacet'
+  - solrquery.getgroupformat.md: 'SolrQuery::getGroupFormat »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupFields'
+---
 # SolrQuery::getGroupFields
 
 (PECL solr> = 2.2.0)

@@ -1,16 +1,11 @@
-Повертає рядок із поясненням останньої помилки під час виконання запиту
-
--   [« mysqlistmt::$errorlist](mysqli-stmt.error-list.html)
-    
--   [mysqlistmt::execute »](mysqli-stmt.execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає рядок із поясненням останньої помилки під час виконання запиту
-    
-
+---
+navigation:
+  - mysqli-stmt.error-list.html: '« mysqlistmt::$errorlist'
+  - mysqli-stmt.execute.html: 'mysqlistmt::execute »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$error'
+---
 # mysqlistmt::$error
 
 # mysqlistmterror

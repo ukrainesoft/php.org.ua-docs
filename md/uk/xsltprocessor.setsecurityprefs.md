@@ -1,16 +1,11 @@
-Встановити налаштування безпеки
-
--   [« XSLTProcessor::setProfiling](xsltprocessor.setprofiling.html)
-    
--   [XSLTProcessor::transformToDoc »](xsltprocessor.transformtodoc.html)
-    
--   [PHP Manual](index.html)
-    
--   [XSLTProcessor](class.xsltprocessor.html)
-    
--   Встановити налаштування безпеки
-    
-
+---
+navigation:
+  - xsltprocessor.setprofiling.html: '« XSLTProcessor::setProfiling'
+  - xsltprocessor.transformtodoc.html: 'XSLTProcessor::transformToDoc »'
+  - index.html: PHP Manual
+  - class.xsltprocessor.html: XSLTProcessor
+title: 'XSLTProcessor::setSecurityPrefs'
+---
 # XSLTProcessor::setSecurityPrefs
 
 (PHP >= 5.4.0, PHP 7, PHP 8)

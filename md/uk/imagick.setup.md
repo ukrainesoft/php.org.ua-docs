@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.imagick.html)
-    
--   [Вимоги »](imagick.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImageMagick](book.imagick.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.imagick.html: « Введение
+  - imagick.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.imagick.html: ImageMagick
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

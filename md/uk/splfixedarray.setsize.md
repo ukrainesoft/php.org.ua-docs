@@ -1,16 +1,11 @@
-Змінює розмір масиву
-
--   [« SplFixedArray::rewind](splfixedarray.rewind.md)
-    
--   [SplFixedArray::toArray »](splfixedarray.toarray.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFixedArray](class.splfixedarray.md)
-    
--   Змінює розмір масиву
-    
-
+---
+navigation:
+  - splfixedarray.rewind.md: '« SplFixedArray::rewind'
+  - splfixedarray.toarray.md: 'SplFixedArray::toArray »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::setSize'
+---
 # SplFixedArray::setSize
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

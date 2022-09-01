@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost'
+---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Повертає послідовність зображень у вигляді BLOB
-
--   [« Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.html)
-    
--   [Imagick::getImageBluePrimary »](imagick.getimageblueprimary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає послідовність зображень у вигляді BLOB
-    
-
+---
+navigation:
+  - imagick.getimagebackgroundcolor.html: '« Imagick::getImageBackgroundColor'
+  - imagick.getimageblueprimary.html: 'Imagick::getImageBluePrimary »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageBlob'
+---
 # Imagick::getImageBlob
 
 (PECL imagick 2, PECL imagick 3)

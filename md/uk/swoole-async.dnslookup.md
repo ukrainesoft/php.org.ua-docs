@@ -1,16 +1,11 @@
-Асинхронний та неблокуючий пошук IP на ім'я хоста
-
--   [« SwooleAsync](class.swoole-async.html)
-    
--   [SwooleAsync::read »](swoole-async.read.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleAsync](class.swoole-async.html)
-    
--   Асинхронний та неблокуючий пошук IP на ім'я хоста
-    
-
+---
+navigation:
+  - class.swoole-async.html: « SwooleAsync
+  - swoole-async.read.html: 'SwooleAsync::read »'
+  - index.md: PHP Manual
+  - class.swoole-async.html: SwooleAsync
+title: 'SwooleAsync::dnsLookup'
+---
 # SwooleAsync::dnsLookup
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Елемент управління "Комбо"
-
--   [« UIControlsSeparator::construct](ui-controls-separator.construct.html)
-    
--   [ОЙControlsCombo::append »](ui-controls-combo.append.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління "Комбо"
-    
-
+---
+navigation:
+  - ui-controls-separator.construct.html: '« UIControlsSeparator::construct'
+  - ui-controls-combo.append.html: 'ОЙControlsCombo::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Комбо"
+---
 # Елемент управління "Комбо"
 
 (UI 0.9.9)

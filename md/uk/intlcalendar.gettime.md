@@ -1,16 +1,11 @@
-Отримує час, представлений на даний момент об'єктом
-
--   [« IntlCalendar::getSkippedWallTimeOption](intlcalendar.getskippedwalltimeoption.md)
-    
--   [IntlCalendar::getTimeZone »](intlcalendar.gettimezone.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує час, представлений на даний момент об'єктом
-    
-
+---
+navigation:
+  - intlcalendar.getskippedwalltimeoption.md: '« IntlCalendar::getSkippedWallTimeOption'
+  - intlcalendar.gettimezone.md: 'IntlCalendar::getTimeZone »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getTime'
+---
 # IntlCalendar::getTime
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

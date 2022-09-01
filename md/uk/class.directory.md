@@ -1,16 +1,11 @@
-Клас Directory
-
--   [« Обумовлені константи](dir.constants.md)
-    
--   [Directory::close »](directory.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [Каталоги](book.dir.md)
-    
--   Клас Directory
-    
-
+---
+navigation:
+  - dir.constants.md: « Обумовлені константи
+  - directory.close.md: 'Directory::close »'
+  - index.md: PHP Manual
+  - book.dir.md: Каталоги
+title: Клас Directory
+---
 # Клас Directory
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -66,9 +61,9 @@ handle
 
 ## список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Властивості path та handle тепер доступні лише для читання. |
+| Версия | Описание |
+| --- | --- |
+|  | Властивості path та handle тепер доступні лише для читання. |
 
 ## Зміст
 

@@ -1,16 +1,11 @@
-Приклад Структури Елементу XML
-
--   [« Приклади](xml.examples.html)
-    
--   [Пример отображения XML тегов »](example.xml-map-tags.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](xml.examples.html)
-    
--   Приклад Структури Елементу XML
-    
-
+---
+navigation:
+  - xml.examples.html: « Приклади
+  - example.xml-map-tags.html: Пример отображения XML тегов »
+  - index.html: PHP Manual
+  - xml.examples.html: Приклади
+title: Приклад Структури Елементу XML
+---
 ## Приклад Структури Елементу XML
 
 Перший приклад відображає структуру початкових елементів документа з відступом.

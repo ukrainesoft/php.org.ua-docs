@@ -1,16 +1,11 @@
-Вставляє елемент на початок двозв'язкового списку
-
--   [« SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.md)
-    
--   [SplDoublyLinkedList::valid »](spldoublylinkedlist.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Вставляє елемент на початок двозв'язкового списку
-    
-
+---
+navigation:
+  - spldoublylinkedlist.unserialize.md: '« SplDoublyLinkedList::unserialize'
+  - spldoublylinkedlist.valid.md: 'SplDoublyLinkedList::valid »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::unshift'
+---
 # SplDoublyLinkedList::unshift
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Функція заглушка (Phar::setStub не можна використовувати для PharData)
-
--   [« PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md)
-    
--   [PharFileInfo »](class.pharfileinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Функція заглушка (Phar::setStub не можна використовувати для PharData)
-    
-
+---
+navigation:
+  - phardata.setsignaturealgorithm.md: '« PharData::setSignatureAlgorithm'
+  - class.pharfileinfo.md: PharFileInfo »
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::setStub'
+---
 # PharData::setStub
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

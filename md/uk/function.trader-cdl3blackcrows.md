@@ -1,16 +1,11 @@
-Три чорні ворони
-
--   [« tradercdl2crows](function.trader-cdl2crows.html)
-    
--   [tradercdl3inside »](function.trader-cdl3inside.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Три чорні ворони
-    
-
+---
+navigation:
+  - function.trader-cdl2crows.html: « tradercdl2crows
+  - function.trader-cdl3inside.html: tradercdl3inside »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdl3blackcrows
+---
 # tradercdl3blackcrows
 
 (PECL trader >= 0.2.0)

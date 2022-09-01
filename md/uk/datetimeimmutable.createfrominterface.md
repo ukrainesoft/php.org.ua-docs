@@ -1,16 +1,11 @@
-Повертає новий об'єкт DateTimeImmutable, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
-
--   [« DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.html)
-    
--   [DateTimeImmutable::createFromMutable »](datetimeimmutable.createfrommutable.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeImmutable](class.datetimeimmutable.html)
-    
--   Повертає новий об'єкт DateTimeImmutable, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
-    
-
+---
+navigation:
+  - datetimeimmutable.createfromformat.html: '« DateTimeImmutable::createFromFormat'
+  - datetimeimmutable.createfrommutable.html: 'DateTimeImmutable::createFromMutable »'
+  - index.html: PHP Manual
+  - class.datetimeimmutable.html: DateTimeImmutable
+title: 'DateTimeImmutable::createFromInterface'
+---
 # DateTimeImmutable::createFromInterface
 
 (PHP 8)

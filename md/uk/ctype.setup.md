@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ctype.html)
-    
--   [Вимоги »](ctype.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ctype](book.ctype.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ctype.html: « Введение
+  - ctype.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.ctype.html: Ctype
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

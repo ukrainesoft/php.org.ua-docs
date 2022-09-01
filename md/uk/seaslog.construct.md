@@ -1,16 +1,11 @@
-Опис
-
--   [« SeasLog::closeLoggerStream](seaslog.closeloggerstream.html)
-    
--   [SeasLog::critical »](seaslog.critical.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - seaslog.closeloggerstream.html: '« SeasLog::closeLoggerStream'
+  - seaslog.critical.html: 'SeasLog::critical »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::construct'
+---
 # SeasLog::construct
 
 (PECL seaslog >=1.0.0)

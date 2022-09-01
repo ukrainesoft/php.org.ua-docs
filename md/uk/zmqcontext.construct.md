@@ -1,16 +1,11 @@
-Конструктор ZMQContext
-
--   [« ZMQContext](class.zmqcontext.html)
-    
--   [ZMQContext::getOpt »](zmqcontext.getopt.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQContext](class.zmqcontext.html)
-    
--   Конструктор ZMQContext
-    
-
+---
+navigation:
+  - class.zmqcontext.html: « ZMQContext
+  - zmqcontext.getopt.html: 'ZMQContext::getOpt »'
+  - index.html: PHP Manual
+  - class.zmqcontext.html: ZMQContext
+title: 'ZMQContext::construct'
+---
 # ZMQContext::construct
 
 (PECL zmq >= 0.5.0)

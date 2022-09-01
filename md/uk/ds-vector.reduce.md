@@ -1,16 +1,11 @@
-Зменшує вектор до одного значення, використовуючи callback-функцію
-
--   [« DsVector::push](ds-vector.push.html)
-    
--   [ДсVector::remove »](ds-vector.remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Зменшує вектор до одного значення, використовуючи callback-функцію
-    
-
+---
+navigation:
+  - ds-vector.push.html: '« DsVector::push'
+  - ds-vector.remove.html: 'ДсVector::remove »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::reduce'
+---
 # ДсVector::reduce
 
 (PECL ds >= 1.0.0)

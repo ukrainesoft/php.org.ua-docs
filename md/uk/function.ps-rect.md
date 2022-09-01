@@ -1,16 +1,11 @@
-Малює прямокутник
-
--   [«psplaceimage](function.ps-place-image.html)
-    
--   [псrestore »](function.ps-restore.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Малює прямокутник
-    
-
+---
+navigation:
+  - function.ps-place-image.html: «psplaceimage
+  - function.ps-restore.html: псrestore »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псrect
+---
 # псrect
 
 (PECL ps >= 1.1.0)

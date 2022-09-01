@@ -1,16 +1,11 @@
-Зберігає документ FDF
-
--   [« fdfsavestring](function.fdf-save-string.html)
-    
--   [fdfsetap »](function.fdf-set-ap.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Зберігає документ FDF
-    
-
+---
+navigation:
+  - function.fdf-save-string.html: « fdfsavestring
+  - function.fdf-set-ap.html: fdfsetap »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfsave
+---
 # fdfsave
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

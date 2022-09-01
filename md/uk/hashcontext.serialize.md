@@ -1,16 +1,11 @@
-Серіалізує об'єкт HashContext
-
--   [« HashContext::construct](hashcontext.construct.html)
-    
--   [HashContext::unserialize »](hashcontext.unserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [HashContext](class.hashcontext.html)
-    
--   Серіалізує об'єкт HashContext
-    
-
+---
+navigation:
+  - hashcontext.construct.html: '« HashContext::construct'
+  - hashcontext.unserialize.html: 'HashContext::unserialize »'
+  - index.html: PHP Manual
+  - class.hashcontext.html: HashContext
+title: 'HashContext::serialize'
+---
 # HashContext::serialize
 
 (PHP 8)

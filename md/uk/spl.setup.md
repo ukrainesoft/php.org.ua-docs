@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.spl.md)
-    
--   [Вимоги »](spl.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.spl.md: « Введение
+  - spl.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

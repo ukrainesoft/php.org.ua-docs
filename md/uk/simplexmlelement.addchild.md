@@ -1,16 +1,11 @@
-Додає дочірній елемент до сайту XML
-
--   [« SimpleXMLElement::addAttribute](simplexmlelement.addattribute.html)
-    
--   [SimpleXMLElement::asXML »](simplexmlelement.asxml.html)
-    
--   [PHP Manual](index.html)
-    
--   [SimpleXMLElement](class.simplexmlelement.html)
-    
--   Додає дочірній елемент до сайту XML
-    
-
+---
+navigation:
+  - simplexmlelement.addattribute.html: '« SimpleXMLElement::addAttribute'
+  - simplexmlelement.asxml.html: 'SimpleXMLElement::asXML »'
+  - index.html: PHP Manual
+  - class.simplexmlelement.html: SimpleXMLElement
+title: 'SimpleXMLElement::addChild'
+---
 # SimpleXMLElement::addChild
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує значення поточного елемента
-
--   [« FilterIterator::construct](filteriterator.construct.html)
-    
--   [FilterIterator::getInnerIterator »](filteriterator.getinneriterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [FilterIterator](class.filteriterator.html)
-    
--   Отримує значення поточного елемента
-    
-
+---
+navigation:
+  - filteriterator.construct.html: '« FilterIterator::construct'
+  - filteriterator.getinneriterator.html: 'FilterIterator::getInnerIterator »'
+  - index.html: PHP Manual
+  - class.filteriterator.html: FilterIterator
+title: 'FilterIterator::current'
+---
 # FilterIterator::current
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

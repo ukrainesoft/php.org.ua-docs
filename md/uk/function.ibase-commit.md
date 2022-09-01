@@ -1,16 +1,11 @@
-Фіксує транзакцію
-
--   [« ibasecommitret](function.ibase-commit-ret.html)
-    
--   [ibaseconnect »](function.ibase-connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Фіксує транзакцію
-    
-
+---
+navigation:
+  - function.ibase-commit-ret.html: « ibasecommitret
+  - function.ibase-connect.html: ibaseconnect »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasecommit
+---
 # ibasecommit
 
 (PHP 5, PHP 7 < 7.4.0)

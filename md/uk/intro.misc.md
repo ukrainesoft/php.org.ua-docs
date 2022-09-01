@@ -1,16 +1,11 @@
-Вступ
-
--   [« Misc.](book.misc.html)
-    
--   [Встановлення та налаштування »](misc.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Misc.](book.misc.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.misc.html: « Misc.
+  - misc.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.misc.html: Misc.
+title: Вступ
+---
 # Вступ
 
 Ці функції розміщені сюди, оскільки не підходять до жодної з категорій.

@@ -1,16 +1,11 @@
-Абстрактний конструктор
-
--   [« EventUtil](class.eventutil.md)
-    
--   [EventUtil::getLastSocketErrno »](eventutil.getlastsocketerrno.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventUtil](class.eventutil.md)
-    
--   Абстрактний конструктор
-    
-
+---
+navigation:
+  - class.eventutil.md: « EventUtil
+  - eventutil.getlastsocketerrno.md: 'EventUtil::getLastSocketErrno »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
+title: 'EventUtil::construct'
+---
 # EventUtil::construct
 
 (PECL event >= 1.2.6-beta)

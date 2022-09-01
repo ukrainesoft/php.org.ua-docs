@@ -1,16 +1,11 @@
-Перетворює XML-рядок відповіді на SolrObject
-
--   [« SolrUtils](class.solrutils.md)
-    
--   [SolrUtils::escapeQueryChars »](solrutils.escapequerychars.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrUtils](class.solrutils.md)
-    
--   Перетворює XML-рядок відповіді на SolrObject
-    
-
+---
+navigation:
+  - class.solrutils.md: « SolrUtils
+  - solrutils.escapequerychars.md: 'SolrUtils::escapeQueryChars »'
+  - index.md: PHP Manual
+  - class.solrutils.md: SolrUtils
+title: 'SolrUtils::digestXmlResponse'
+---
 # SolrUtils::digestXmlResponse
 
 (PECL solr> = 0.9.2)

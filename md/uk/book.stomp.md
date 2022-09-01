@@ -1,16 +1,11 @@
-Stomp Client
-
--   [« ssh2tunnel](function.ssh2-tunnel.html)
-    
--   [Введение »](intro.stomp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   Stomp Client
-    
-
+---
+navigation:
+  - function.ssh2-tunnel.html: « ssh2tunnel
+  - intro.stomp.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: Stomp Client
+---
 # Stomp Client
 
 -   [Введение](intro.stomp.md)

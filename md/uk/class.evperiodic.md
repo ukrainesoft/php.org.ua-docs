@@ -1,16 +1,11 @@
-Клас EvPeriodic
-
--   [« EvLoop::verify](evloop.verify.md)
-    
--   [EvPeriodic::again »](evperiodic.again.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Клас EvPeriodic
-    
-
+---
+navigation:
+  - evloop.verify.md: '« EvLoop::verify'
+  - evperiodic.again.md: 'EvPeriodic::again »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvPeriodic
+---
 # Клас EvPeriodic
 
 (PECL ev >= 0.2.0)

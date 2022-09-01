@@ -1,16 +1,11 @@
-Визначити найкращий шлях декодування
-
--   [« Mailparse](ref.mailparse.md)
-    
--   [mailparsemsgcreate »](function.mailparse-msg-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Визначити найкращий шлях декодування
-    
-
+---
+navigation:
+  - ref.mailparse.md: « Mailparse
+  - function.mailparse-msg-create.html: mailparsemsgcreate »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsedeterminebestxferencoding
+---
 # mailparsedeterminebestxferencoding
 
 (PECL mailparse >= 0.9.0)

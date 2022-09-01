@@ -1,16 +1,11 @@
-Зашифрувати повідомлення
-
--   [« sodiumcryptoaeadchacha20poly1305ietfdecrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
-    
--   [sodiumcryptoaeadchacha20poly1305ietfkeygen »](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Зашифрувати повідомлення
-    
-
+---
+navigation:
+  - function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html: « sodiumcryptoaeadchacha20poly1305ietfdecrypt
+  - function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html: sodiumcryptoaeadchacha20poly1305ietfkeygen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoaeadchacha20poly1305ietfencrypt
+---
 # sodiumcryptoaeadchacha20poly1305ietfencrypt
 
 (PHP 7> = 7.2.0, PHP 8)

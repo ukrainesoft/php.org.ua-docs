@@ -1,16 +1,11 @@
-Отримати сигнал, через який було примусово завершено дочірній процес
-
--   [pcntlwstopsig](function.pcntl-wstopsig.html)
-    
--   [POSIX »](book.posix.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Отримати сигнал, через який було примусово завершено дочірній процес
-    
-
+---
+navigation:
+  - function.pcntl-wstopsig.html: pcntlwstopsig
+  - book.posix.md: POSIX »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwtermsig
+---
 # pcntlwtermsig
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

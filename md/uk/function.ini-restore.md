@@ -1,16 +1,11 @@
-Відновлює значення конфігураційної установки
-
--   [« iniget](function.ini-get.html)
-    
--   [iniset »](function.ini-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Відновлює значення конфігураційної установки
-    
-
+---
+navigation:
+  - function.ini-get.html: « iniget
+  - function.ini-set.html: iniset »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: inirestore
+---
 # inirestore
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

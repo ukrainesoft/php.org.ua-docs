@@ -1,16 +1,11 @@
-Створює тимчасовий файл
-
--   [« tempnam](function.tempnam.md)
-    
--   [touch »](function.touch.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Створює тимчасовий файл
-    
-
+---
+navigation:
+  - function.tempnam.md: « tempnam
+  - function.touch.md: touch »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: tmpfile
+---
 # tmpfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

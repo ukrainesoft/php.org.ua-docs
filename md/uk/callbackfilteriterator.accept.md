@@ -1,16 +1,11 @@
-Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
-
--   [« CallbackFilterIterator](class.callbackfilteriterator.md)
-    
--   [CallbackFilterIterator::construct »](callbackfilteriterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [CallbackFilterIterator](class.callbackfilteriterator.md)
-    
--   Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
-    
-
+---
+navigation:
+  - class.callbackfilteriterator.md: « CallbackFilterIterator
+  - callbackfilteriterator.construct.md: 'CallbackFilterIterator::construct »'
+  - index.md: PHP Manual
+  - class.callbackfilteriterator.md: CallbackFilterIterator
+title: 'CallbackFilterIterator::accept'
+---
 # CallbackFilterIterator::accept
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

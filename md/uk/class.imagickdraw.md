@@ -1,16 +1,11 @@
-Клас ImagickDraw
-
--   [« Imagick::writeImagesFile](imagick.writeimagesfile.md)
-    
--   [ImagickDraw::affine »](imagickdraw.affine.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImageMagick](book.imagick.md)
-    
--   Клас ImagickDraw
-    
-
+---
+navigation:
+  - imagick.writeimagesfile.md: '« Imagick::writeImagesFile'
+  - imagickdraw.affine.md: 'ImagickDraw::affine »'
+  - index.md: PHP Manual
+  - book.imagick.md: ImageMagick
+title: 'Клас [ImagickDraw](class.imagickdraw.md)'
+---
 # Клас [ImagickDraw](class.imagickdraw.md)
 
 (PECL imagick 2, PECL imagick 3)

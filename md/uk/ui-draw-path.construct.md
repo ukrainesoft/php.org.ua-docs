@@ -1,16 +1,11 @@
-Створити новий об'єкт Path
-
--   [« UIDrawPath::closeFigure](ui-draw-path.closefigure.html)
-    
--   [ОЙDrawPath::end »](ui-draw-path.end.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Створити новий об'єкт Path
-    
-
+---
+navigation:
+  - ui-draw-path.closefigure.html: '« UIDrawPath::closeFigure'
+  - ui-draw-path.end.html: 'ОЙDrawPath::end »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::construct'
+---
 # ОЙDrawPath::construct
 
 (UI 0.9.9)

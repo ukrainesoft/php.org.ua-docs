@@ -1,16 +1,11 @@
-Отримує значення в таблиці Swoole $rowkey та $columnkey
-
--   [« SwooleTable::exist](swoole-table.exist.html)
-    
--   [SwooleTable::incr »](swoole-table.incr.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Отримує значення в таблиці Swoole $rowkey та $columnkey
-    
-
+---
+navigation:
+  - swoole-table.exist.html: '« SwooleTable::exist'
+  - swoole-table.incr.html: 'SwooleTable::incr »'
+  - index.html: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::get'
+---
 # SwooleTable::get
 
 (PECL swoole >= 1.9.0)

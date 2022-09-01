@@ -1,16 +1,11 @@
-Перевіряє всі з'єднання на сервері
-
--   [« SwooleServer::getLastError](swoole-server.getlasterror.html)
-    
--   [SwooleServer::listen »](swoole-server.listen.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Перевіряє всі з'єднання на сервері
-    
-
+---
+navigation:
+  - swoole-server.getlasterror.html: '« SwooleServer::getLastError'
+  - swoole-server.listen.html: 'SwooleServer::listen »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::heartbeat'
+---
 # SwooleServer::heartbeat
 
 (PECL swoole >= 1.9.0)

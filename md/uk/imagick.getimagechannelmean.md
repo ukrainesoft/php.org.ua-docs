@@ -1,16 +1,11 @@
-Повертає середнє та стандартне відхилення
-
--   [« Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.html)
-    
--   [Imagick::getImageChannelRange »](imagick.getimagechannelrange.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає середнє та стандартне відхилення
-    
-
+---
+navigation:
+  - imagick.getimagechannelkurtosis.html: '« Imagick::getImageChannelKurtosis'
+  - imagick.getimagechannelrange.html: 'Imagick::getImageChannelRange »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageChannelMean'
+---
 # Imagick::getImageChannelMean
 
 (PECL imagick 2, PECL imagick 3)

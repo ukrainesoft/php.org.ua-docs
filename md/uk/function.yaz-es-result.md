@@ -1,16 +1,11 @@
-Перевіряє результат Extended Service
-
--   [« yazerror](function.yaz-error.html)
-    
--   [yazes »](function.yaz-es.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Перевіряє результат Extended Service
-    
-
+---
+navigation:
+  - function.yaz-error.html: « yazerror
+  - function.yaz-es.html: yazes »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazесresult
+---
 # yazесresult
 
 (PHP 4> = 4.2.0, PECL yaz> = 0.9.0)

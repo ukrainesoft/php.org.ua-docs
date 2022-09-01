@@ -1,16 +1,11 @@
-Експорт
-
--   [« ReflectionProperty::construct](reflectionproperty.construct.md)
-    
--   [ReflectionProperty::getAttributes »](reflectionproperty.getattributes.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Експорт
-    
-
+---
+navigation:
+  - reflectionproperty.construct.md: '« ReflectionProperty::construct'
+  - reflectionproperty.getattributes.md: 'ReflectionProperty::getAttributes »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::export'
+---
 # ReflectionProperty::export
 
 (PHP 5, PHP 7)

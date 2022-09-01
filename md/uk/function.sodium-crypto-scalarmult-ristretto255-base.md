@@ -1,16 +1,11 @@
-Обчислює відкритий ключ із закритого ключа
-
--   [« sodiumcryptoscalarmultbase](function.sodium-crypto-scalarmult-base.html)
-    
--   [sodiumcryptoscalarmultristretto255 »](function.sodium-crypto-scalarmult-ristretto255.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Обчислює відкритий ключ із закритого ключа
-    
-
+---
+navigation:
+  - function.sodium-crypto-scalarmult-base.html: « sodiumcryptoscalarmultbase
+  - function.sodium-crypto-scalarmult-ristretto255.html: sodiumcryptoscalarmultristretto255 »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoscalarmultristretto255base
+---
 # sodiumcryptoscalarmultristretto255base
 
 (PHP 8> = 8.1.1)

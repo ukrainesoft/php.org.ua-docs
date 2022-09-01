@@ -1,16 +1,11 @@
-Робота з помилками XML
-
--   [« Базовое использование SimpleXML](simplexml.examples-basic.html)
-    
--   [SimpleXMLElement »](class.simplexmlelement.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](simplexml.examples.html)
-    
--   Робота з помилками XML
-    
-
+---
+navigation:
+  - simplexml.examples-basic.html: « Базовое использование SimpleXML
+  - class.simplexmlelement.html: SimpleXMLElement »
+  - index.html: PHP Manual
+  - simplexml.examples.html: Приклади
+title: Робота з помилками XML
+---
 ## Робота з помилками XML
 
 Робота з помилками XML під час завантаження документів є дуже простим завданням. Використання функціональності [libxml](book.libxml.html) дозволяє придушити всі помилки XML під час завантаження документа і потім обробити їх.

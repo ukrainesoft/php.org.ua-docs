@@ -1,16 +1,11 @@
-Створює нову порожню директорію
-
--   [« svnфсісfile](function.svn-fs-is-file.html)
-    
--   [svnфсmakefile »](function.svn-fs-make-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Створює нову порожню директорію
-    
-
+---
+navigation:
+  - function.svn-fs-is-file.html: « svnфсісfile
+  - function.svn-fs-make-file.html: svnфсmakefile »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnфсmakedir
+---
 # svnфсmakedir
 
 (PECL svn >= 0.2.0)

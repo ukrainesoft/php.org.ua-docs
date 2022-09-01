@@ -1,16 +1,11 @@
-Призначення getHeader
-
--   [« YafResponseAbstract::getBody](yaf-response-abstract.getbody.html)
-    
--   [YafResponseAbstract::prependBody »](yaf-response-abstract.prependbody.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Призначення getHeader
-    
-
+---
+navigation:
+  - yaf-response-abstract.getbody.html: '« YafResponseAbstract::getBody'
+  - yaf-response-abstract.prependbody.html: 'YafResponseAbstract::prependBody »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::getHeader'
+---
 # YafResponseAbstract::getHeader
 
 (Yaf >=1.0.0)

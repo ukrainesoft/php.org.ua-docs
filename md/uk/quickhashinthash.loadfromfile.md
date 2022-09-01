@@ -1,16 +1,11 @@
-Фабричний метод створює хеш із файлу
-
--   [« QuickHashIntHash::getSize](quickhashinthash.getsize.md)
-    
--   [QuickHashIntHash::loadFromString »](quickhashinthash.loadfromstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntHash](class.quickhashinthash.md)
-    
--   Фабричний метод створює хеш із файлу
-    
-
+---
+navigation:
+  - quickhashinthash.getsize.md: '« QuickHashIntHash::getSize'
+  - quickhashinthash.loadfromstring.md: 'QuickHashIntHash::loadFromString »'
+  - index.md: PHP Manual
+  - class.quickhashinthash.md: QuickHashIntHash
+title: 'QuickHashIntHash::loadFromFile'
+---
 # QuickHashIntHash::loadFromFile
 
 (PECL quickhash >= Unknown)

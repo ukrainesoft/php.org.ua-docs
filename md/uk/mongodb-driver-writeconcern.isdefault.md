@@ -1,16 +1,11 @@
-Перевіряє, чи є гарантія запису за замовчуванням
-
--   [« MongoDBDriverWriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.html)
-    
--   [MongoDBDriverWriteConcern::serialize »](mongodb-driver-writeconcern.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
-    
--   Перевіряє, чи є гарантія запису за замовчуванням
-    
-
+---
+navigation:
+  - mongodb-driver-writeconcern.getwtimeout.html: '« MongoDBDriverWriteConcern::getWtimeout'
+  - mongodb-driver-writeconcern.serialize.html: 'MongoDBDriverWriteConcern::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::isDefault'
+---
 # MongoDBDriverWriteConcern::isDefault
 
 (mongodb >=1.3.0)

@@ -1,16 +1,11 @@
-Середній рейтинг індексу спрямованого руху
-
--   [« traderadx](function.trader-adx.html)
-    
--   [traderapo »](function.trader-apo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Середній рейтинг індексу спрямованого руху
-    
-
+---
+navigation:
+  - function.trader-adx.html: « traderadx
+  - function.trader-apo.html: traderapo »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderadxr
+---
 # traderadxr
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Інформація, що змінюється про зображення
-
--   [« Обработка и генерация изображений](refs.utilspec.image.html)
-    
--   [Введение »](intro.exif.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка и генерация изображений](refs.utilspec.image.html)
-    
--   Інформація, що змінюється про зображення
-    
-
+---
+navigation:
+  - refs.utilspec.image.html: « Обработка и генерация изображений
+  - intro.exif.html: Введение »
+  - index.html: PHP Manual
+  - refs.utilspec.image.html: Обработка и генерация изображений
+title: 'Інформація, що змінюється про зображення'
+---
 # Інформація, що змінюється про зображення
 
 -   [Введение](intro.exif.html)

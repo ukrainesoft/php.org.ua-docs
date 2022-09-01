@@ -1,16 +1,11 @@
-Створює об'єкт класу ReflectionClass
-
--   [« ReflectionClass](class.reflectionclass.md)
-    
--   [ReflectionClass::export »](reflectionclass.export.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Створює об'єкт класу ReflectionClass
-    
-
+---
+navigation:
+  - class.reflectionclass.md: « ReflectionClass
+  - reflectionclass.export.md: 'ReflectionClass::export »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::construct'
+---
 # ReflectionClass::construct
 
 (PHP 5, PHP 7, PHP 8)

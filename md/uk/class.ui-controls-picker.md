@@ -1,16 +1,11 @@
-Елемент керування "Селектор"
-
--   [« UIControlsRadio::setSelected](ui-controls-radio.setselected.html)
-    
--   [ОЙControlsPicker::construct »](ui-controls-picker.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент керування "Селектор"
-    
-
+---
+navigation:
+  - ui-controls-radio.setselected.html: '« UIControlsRadio::setSelected'
+  - ui-controls-picker.construct.html: 'ОЙControlsPicker::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент керування "Селектор"
+---
 # Елемент керування "Селектор"
 
 (UI 0.9.9)

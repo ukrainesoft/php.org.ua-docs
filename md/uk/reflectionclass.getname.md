@@ -1,16 +1,11 @@
-Повертає ім'я класу
-
--   [« ReflectionClass::getModifiers](reflectionclass.getmodifiers.md)
-    
--   [ReflectionClass::getNamespaceName »](reflectionclass.getnamespacename.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає ім'я класу
-    
-
+---
+navigation:
+  - reflectionclass.getmodifiers.md: '« ReflectionClass::getModifiers'
+  - reflectionclass.getnamespacename.md: 'ReflectionClass::getNamespaceName »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getName'
+---
 # ReflectionClass::getName
 
 (PHP 5, PHP 7, PHP 8)

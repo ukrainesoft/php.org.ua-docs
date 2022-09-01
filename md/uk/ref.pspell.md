@@ -1,16 +1,11 @@
-Функції Pspell
-
--   [« Обумовлені константи](pspell.constants.md)
-    
--   [pspelladdтоpersonal »](function.pspell-add-to-personal.html)
-    
--   [PHP Manual](index.md)
-    
--   [Pspell](book.pspell.md)
-    
--   Функції Pspell
-    
-
+---
+navigation:
+  - pspell.constants.md: « Обумовлені константи
+  - function.pspell-add-to-personal.html: pspelladdтоpersonal »
+  - index.md: PHP Manual
+  - book.pspell.md: Pspell
+title: Функції Pspell
+---
 # Функції Pspell
 
 ## Зміст

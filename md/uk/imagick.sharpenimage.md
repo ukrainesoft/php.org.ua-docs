@@ -1,16 +1,11 @@
-Підвищує різкість зображення
-
--   [« Imagick::shadowImage](imagick.shadowimage.html)
-    
--   [Imagick::shaveImage »](imagick.shaveimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Підвищує різкість зображення
-    
-
+---
+navigation:
+  - imagick.shadowimage.html: '« Imagick::shadowImage'
+  - imagick.shaveimage.html: 'Imagick::shaveImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::sharpenImage'
+---
 # Imagick::sharpenImage
 
 (PECL imagick 2, PECL imagick 3)

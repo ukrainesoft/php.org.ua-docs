@@ -1,16 +1,11 @@
-Перевіряє, чи є клас інтерфейсом
-
--   [« ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md)
-    
--   [ReflectionClass::isInternal »](reflectionclass.isinternal.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи є клас інтерфейсом
-    
-
+---
+navigation:
+  - reflectionclass.isinstantiable.md: '« ReflectionClass::isInstantiable'
+  - reflectionclass.isinternal.md: 'ReflectionClass::isInternal »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isInterface'
+---
 # ReflectionClass::isInterface
 
 (PHP 5, PHP 7, PHP 8)

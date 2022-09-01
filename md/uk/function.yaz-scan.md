@@ -1,16 +1,11 @@
-Підготовка сканування
-
--   [« yazscanresult](function.yaz-scan-result.html)
-    
--   [yazschema »](function.yaz-schema.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Підготовка сканування
-    
-
+---
+navigation:
+  - function.yaz-scan-result.html: « yazscanresult
+  - function.yaz-schema.html: yazschema »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazscan
+---
 # yazscan
 
 (PHP 4> = 4.0.5, PECL yaz> = 0.9.0)

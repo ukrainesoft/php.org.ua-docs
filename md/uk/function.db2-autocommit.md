@@ -1,16 +1,11 @@
-Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
-
--   [« Функції IBM DB2](ref.ibm-db2.html)
-    
--   [db2bindparam »](function.db2-bind-param.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
-    
-
+---
+navigation:
+  - ref.ibm-db2.html: « Функції IBM DB2
+  - function.db2-bind-param.html: db2bindparam »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2autocommit
+---
 # db2autocommit
 
 (PECL ibmdb2> = 1.0.0)

@@ -1,16 +1,11 @@
-Створює нове зображення з файлу чи URL
-
--   [« imagecreatefromwbmp](function.imagecreatefromwbmp.md)
-    
--   [imagecreatefromxbm »](function.imagecreatefromxbm.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Створює нове зображення з файлу чи URL
-    
-
+---
+navigation:
+  - function.imagecreatefromwbmp.md: « imagecreatefromwbmp
+  - function.imagecreatefromxbm.md: imagecreatefromxbm »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromwebp
+---
 # imagecreatefromwebp
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagecreatefromwebp(string $filename): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

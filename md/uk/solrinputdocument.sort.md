@@ -1,16 +1,11 @@
-Сортує поля у документі
-
--   [« SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.md)
-    
--   [SolrInputDocument::toArray »](solrinputdocument.toarray.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Сортує поля у документі
-    
-
+---
+navigation:
+  - solrinputdocument.setfieldboost.md: '« SolrInputDocument::setFieldBoost'
+  - solrinputdocument.toarray.md: 'SolrInputDocument::toArray »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::sort'
+---
 # SolrInputDocument::sort
 
 (PECL solr> = 0.9.2)

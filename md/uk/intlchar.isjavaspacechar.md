@@ -1,16 +1,11 @@
-Перевірити, чи є символ пробельним з погляду мови Java
-
--   [« IntlChar::isJavaIDStart](intlchar.isjavaidstart.html)
-    
--   [IntlChar::islower »](intlchar.islower.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевірити, чи є символ пробельним з погляду мови Java
-    
-
+---
+navigation:
+  - intlchar.isjavaidstart.html: '« IntlChar::isJavaIDStart'
+  - intlchar.islower.html: 'IntlChar::islower »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::isJavaSpaceChar'
+---
 # IntlChar::isJavaSpaceChar
 
 (PHP 7, PHP 8)

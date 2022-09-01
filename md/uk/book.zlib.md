@@ -1,16 +1,11 @@
-Zlib
-
--   [« zipread](function.zip-read.html)
-    
--   [Введение »](intro.zlib.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для стиснення та архівації](refs.compression.html)
-    
--   Zlib
-    
-
+---
+navigation:
+  - function.zip-read.html: « zipread
+  - intro.zlib.html: Введение »
+  - index.html: PHP Manual
+  - refs.compression.html: Модулі для стиснення та архівації
+title: Zlib
+---
 # Zlib
 
 -   [Введение](intro.zlib.html)

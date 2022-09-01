@@ -1,16 +1,11 @@
-Перевіряє, чи підтримується можливість у певній версії
-
--   [« DOMNode::isSameNode](domnode.issamenode.md)
-    
--   [DOMNode::lookupNamespaceUri »](domnode.lookupnamespaceuri.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Перевіряє, чи підтримується можливість у певній версії
-    
-
+---
+navigation:
+  - domnode.issamenode.md: '« DOMNode::isSameNode'
+  - domnode.lookupnamespaceuri.md: 'DOMNode::lookupNamespaceUri »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::isSupported'
+---
 # DOMNode::isSupported
 
 (PHP 5, PHP 7, PHP 8)

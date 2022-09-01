@@ -1,16 +1,11 @@
-Генерує випадковий ключ
-
--   [« sodiumcryptocoreristretto255ісvalidpoint](function.sodium-crypto-core-ristretto255-is-valid-point.html)
-    
--   [sodiumcryptocoreristretto255scalaradd »](function.sodium-crypto-core-ristretto255-scalar-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Генерує випадковий ключ
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-is-valid-point.html: « sodiumcryptocoreristretto255ісvalidpoint
+  - function.sodium-crypto-core-ristretto255-scalar-add.html: sodiumcryptocoreristretto255scalaradd »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255random
+---
 # sodiumcryptocoreristretto255random
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Копіює файл
-
--   [« clearstatcache](function.clearstatcache.html)
-    
--   [delete »](function.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Копіює файл
-    
-
+---
+navigation:
+  - function.clearstatcache.html: « clearstatcache
+  - function.delete.html: delete »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: copy
+---
 # copy
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

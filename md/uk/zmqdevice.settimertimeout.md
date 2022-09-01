@@ -1,16 +1,11 @@
-Встановити час очікування таймера
-
--   [« ZMQDevice::setTimerCallback](zmqdevice.settimercallback.html)
-    
--   [ZooKeeper »](book.zookeeper.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQDevice](class.zmqdevice.html)
-    
--   Встановити час очікування таймера
-    
-
+---
+navigation:
+  - zmqdevice.settimercallback.html: '« ZMQDevice::setTimerCallback'
+  - book.zookeeper.html: ZooKeeper »
+  - index.html: PHP Manual
+  - class.zmqdevice.html: ZMQDevice
+title: 'ZMQDevice::setTimerTimeout'
+---
 # ZMQDevice::setTimerTimeout
 
 (No version information available, might only be in Git)

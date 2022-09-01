@@ -1,16 +1,11 @@
-Порівнює та встановлює значення атомарного об'єкта
-
--   [« SwooleAtomic::add](swoole-atomic.add.html)
-    
--   [SwooleAtomic::construct »](swoole-atomic.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleAtomic](class.swoole-atomic.html)
-    
--   Порівнює та встановлює значення атомарного об'єкта
-    
-
+---
+navigation:
+  - swoole-atomic.add.html: '« SwooleAtomic::add'
+  - swoole-atomic.construct.html: 'SwooleAtomic::construct »'
+  - index.html: PHP Manual
+  - class.swoole-atomic.html: SwooleAtomic
+title: 'SwooleAtomic::cmpset'
+---
 # SwooleAtomic::cmpset
 
 (PECL swoole >= 1.9.0)

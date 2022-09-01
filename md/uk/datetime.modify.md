@@ -1,16 +1,11 @@
-Зміна тимчасової мітки
-
--   [« DateTime::getLastErrors](datetime.getlasterrors.md)
-    
--   [DateTime::setstate »](datetime.set-state.html)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Зміна тимчасової мітки
-    
-
+---
+navigation:
+  - datetime.getlasterrors.md: '« DateTime::getLastErrors'
+  - datetime.set-state.html: 'DateTime::setstate »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::modify'
+---
 # DateTime::modify
 
 # datemodify

@@ -1,16 +1,11 @@
-Повертає час операції для цього сеансу
-
--   [« MongoDBDriverSession::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.html)
-    
--   [MongoDBDriverSession::getServer »](mongodb-driver-session.getserver.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Повертає час операції для цього сеансу
-    
-
+---
+navigation:
+  - mongodb-driver-session.getlogicalsessionid.html: '« MongoDBDriverSession::getLogicalSessionId'
+  - mongodb-driver-session.getserver.html: 'MongoDBDriverSession::getServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::getOperationTime'
+---
 # MongoDBDriverSession::getOperationTime
 
 (mongodb >=1.4.0)

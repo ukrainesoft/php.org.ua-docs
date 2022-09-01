@@ -1,16 +1,11 @@
-Видаляє всі поля у документі
-
--   [« SolrDocument::addField](solrdocument.addfield.html)
-    
--   [SolrDocument::clone »](solrdocument.clone.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Видаляє всі поля у документі
-    
-
+---
+navigation:
+  - solrdocument.addfield.html: '« SolrDocument::addField'
+  - solrdocument.clone.html: 'SolrDocument::clone »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::clear'
+---
 # SolrDocument::clear
 
 (PECL solr> = 0.9.2)

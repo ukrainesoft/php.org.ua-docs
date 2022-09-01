@@ -1,16 +1,11 @@
-З'єднання з базою Firebird
-
--   [« Firebird (PDO)](ref.pdo-firebird.html)
-    
--   [IBM (PDO) »](ref.pdo-ibm.html)
-    
--   [PHP Manual](index.md)
-    
--   [Firebird (PDO)](ref.pdo-firebird.html)
-    
--   З'єднання з базою Firebird
-    
-
+---
+navigation:
+  - ref.pdo-firebird.html: « Firebird (PDO)
+  - ref.pdo-ibm.html: IBM (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-firebird.html: Firebird (PDO)
+title: PDOFIREBIRD DSN
+---
 # PDOFIREBIRD DSN
 
 (PECL PDOFIREBIRD >= 0.1.0)

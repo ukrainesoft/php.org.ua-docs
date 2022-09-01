@@ -1,16 +1,11 @@
-Визначає, чи працює файбер
-
--   [« Fiber::isSuspended](fiber.issuspended.md)
-    
--   [Fiber::isTerminated »](fiber.isterminated.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Визначає, чи працює файбер
-    
-
+---
+navigation:
+  - fiber.issuspended.md: '« Fiber::isSuspended'
+  - fiber.isterminated.md: 'Fiber::isTerminated »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::isRunning'
+---
 # Fiber::isRunning
 
 (PHP 8> = 8.1.0)

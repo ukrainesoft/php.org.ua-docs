@@ -1,16 +1,11 @@
-Надсилає дані на всі сервери, щоб перевірити, які з них виведуть ці дані
-
--   [« GearmanClient::jobStatus](gearmanclient.jobstatus.md)
-    
--   [GearmanClient::removeOptions »](gearmanclient.removeoptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Надсилає дані на всі сервери, щоб перевірити, які з них виведуть ці дані
-    
-
+---
+navigation:
+  - gearmanclient.jobstatus.md: '« GearmanClient::jobStatus'
+  - gearmanclient.removeoptions.md: 'GearmanClient::removeOptions »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::ping'
+---
 # GearmanClient::ping
 
 (No version information available, might only be in Git)

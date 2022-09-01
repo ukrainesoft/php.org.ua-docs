@@ -1,16 +1,11 @@
-Витягує відкритий ключ із ключової пари cryptobox
-
--   [« sodiumcryptoboxpublickeyfromsecretkey](function.sodium-crypto-box-publickey-from-secretkey.html)
-    
--   [sodiumcryptoboxsealopen »](function.sodium-crypto-box-seal-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Витягує відкритий ключ із ключової пари cryptobox
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-publickey-from-secretkey.html: « sodiumcryptoboxpublickeyfromsecretkey
+  - function.sodium-crypto-box-seal-open.html: sodiumcryptoboxsealopen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxpublickey
+---
 # sodiumcryptoboxpublickey
 
 (PHP 7> = 7.2.0, PHP 8)

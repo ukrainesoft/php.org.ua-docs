@@ -1,16 +1,11 @@
-Конструктор класу, що забороняє пряме створення екземпляра
-
--   [« IntlTimeZone](class.intltimezone.md)
-    
--   [IntlTimeZone::countEquivalentIDs »](intltimezone.countequivalentids.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Конструктор класу, що забороняє пряме створення екземпляра
-    
-
+---
+navigation:
+  - class.intltimezone.md: « IntlTimeZone
+  - intltimezone.countequivalentids.md: 'IntlTimeZone::countEquivalentIDs »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::construct'
+---
 # IntlTimeZone::construct
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

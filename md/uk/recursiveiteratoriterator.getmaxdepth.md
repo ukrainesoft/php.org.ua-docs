@@ -1,16 +1,11 @@
-Отримання максимальної глибини рекурсії
-
--   [« RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.md)
-    
--   [RecursiveIteratorIterator::getSubIterator »](recursiveiteratoriterator.getsubiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Отримання максимальної глибини рекурсії
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.getinneriterator.md: '« RecursiveIteratorIterator::getInnerIterator'
+  - recursiveiteratoriterator.getsubiterator.md: 'RecursiveIteratorIterator::getSubIterator »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::getMaxDepth'
+---
 # RecursiveIteratorIterator::getMaxDepth
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

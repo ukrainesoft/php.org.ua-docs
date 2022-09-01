@@ -1,16 +1,11 @@
-Визначає метод повернення значень SNMP
-
--   [« snmpsetquickprint](function.snmp-set-quick-print.html)
-    
--   [snmp2get »](function.snmp2-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Визначає метод повернення значень SNMP
-    
-
+---
+navigation:
+  - function.snmp-set-quick-print.html: « snmpsetquickprint
+  - function.snmp2-get.html: snmp2get »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmpsetvalueretrieval
+---
 # snmpsetvalueretrieval
 
 (PHP 4> = 4.3.3, PHP 5, PHP 7, PHP 8)

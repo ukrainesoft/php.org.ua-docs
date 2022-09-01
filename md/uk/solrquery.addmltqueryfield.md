@@ -1,16 +1,11 @@
-Відповідає mlt.qf
-
--   [« SolrQuery::addMltField](solrquery.addmltfield.html)
-    
--   [SolrQuery::addSortField »](solrquery.addsortfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Відповідає mlt.qf
-    
-
+---
+navigation:
+  - solrquery.addmltfield.html: '« SolrQuery::addMltField'
+  - solrquery.addsortfield.html: 'SolrQuery::addSortField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::addMltQueryField'
+---
 # SolrQuery::addMltQueryField
 
 (PECL solr> = 0.9.2)

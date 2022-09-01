@@ -1,16 +1,11 @@
-Розширення
-
--   [« Приклади](reflection.examples.md)
-    
--   [Reflection »](class.reflection.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Розширення
-    
-
+---
+navigation:
+  - reflection.examples.md: « Приклади
+  - class.reflection.md: Reflection »
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Розширення
+---
 # Розширення
 
 Якщо вам потрібна спеціалізована версія вбудованого класу (який, наприклад, зможе генерувати кольоровий HTML при експорті, матиме легкодоступні властивості замість методів або якісь допоміжні методи), то можете просто взяти і розширити його.

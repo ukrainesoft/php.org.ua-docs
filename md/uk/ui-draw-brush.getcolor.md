@@ -1,16 +1,11 @@
-Отримати колір
-
--   [« UIDrawBrush::construct](ui-draw-brush.construct.html)
-    
--   [ОЙDrawBrush::setColor »](ui-draw-brush.setcolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawBrush](class.ui-draw-brush.html)
-    
--   Отримати колір
-    
-
+---
+navigation:
+  - ui-draw-brush.construct.html: '« UIDrawBrush::construct'
+  - ui-draw-brush.setcolor.html: 'ОЙDrawBrush::setColor »'
+  - index.html: PHP Manual
+  - class.ui-draw-brush.html: ОЙDrawBrush
+title: 'ОЙDrawBrush::getColor'
+---
 # ОЙDrawBrush::getColor
 
 (UI 0.9.9)

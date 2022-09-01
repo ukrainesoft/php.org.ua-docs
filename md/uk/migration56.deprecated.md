@@ -1,16 +1,11 @@
-Функціонал, оголошений застарілим у PHP 5.6.x
-
--   [" Нові можливості](migration56.new-features.html)
-    
--   [Змінені функції »](migration56.changed-functions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
-    
--   Функціонал, оголошений застарілим у PHP 5.6.x
-    
-
+---
+navigation:
+  - migration56.new-features.html: '" Нові можливості'
+  - migration56.changed-functions.html: Змінені функції »
+  - index.html: PHP Manual
+  - migration56.html: Миграция с PHP 5.5.x на PHP 5.6.x
+title: 'Функціонал, оголошений застарілим у PHP 5.6.x'
+---
 ## Функціонал, оголошений застарілим у PHP 5.6.x
 
 ### Дзвінки з несумісного контексту

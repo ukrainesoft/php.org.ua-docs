@@ -1,16 +1,11 @@
-Отримує стовпець, використовуючи OID
-
--   [« cubridgetserverinfo](function.cubrid-get-server-info.html)
-    
--   [cubridinsertid »](function.cubrid-insert-id.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Отримує стовпець, використовуючи OID
-    
-
+---
+navigation:
+  - function.cubrid-get-server-info.html: « cubridgetserverinfo
+  - function.cubrid-insert-id.html: cubridinsertid »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridget
+---
 # cubridget
 
 (PECL CUBRID >= 8.3.0)

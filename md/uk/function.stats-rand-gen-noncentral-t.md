@@ -1,16 +1,11 @@
-Обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента
-
--   [« statsrandgennoncentralф](function.stats-rand-gen-noncentral-f.html)
-    
--   [statsrandgennormal »](function.stats-rand-gen-normal.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента
-    
-
+---
+navigation:
+  - function.stats-rand-gen-noncentral-f.html: « statsrandgennoncentralф
+  - function.stats-rand-gen-normal.html: statsrandgennormal »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsrandгенnoncentralт
+---
 # statsrandгенnoncentralт
 
 (PECL stats >= 1.0.0)

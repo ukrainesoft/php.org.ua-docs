@@ -1,16 +1,11 @@
-Створює новий ідентифікатор сесії
-
--   [« sessioncommit](function.session-commit.html)
-    
--   [sessiondecode »](function.session-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Створює новий ідентифікатор сесії
-    
-
+---
+navigation:
+  - function.session-commit.html: « sessioncommit
+  - function.session-decode.html: sessiondecode »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessioncreateід
+---
 # sessioncreateід
 
 (PHP 7> = 7.1.0, PHP 8)

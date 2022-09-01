@@ -1,16 +1,11 @@
-Запуск виконання завдання у фоновому режимі
-
--   [« GearmanClient::do](gearmanclient.do.md)
-    
--   [GearmanClient::doHigh »](gearmanclient.dohigh.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Запуск виконання завдання у фоновому режимі
-    
-
+---
+navigation:
+  - gearmanclient.do.md: '« GearmanClient::do'
+  - gearmanclient.dohigh.md: 'GearmanClient::doHigh »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::doBackground'
+---
 # GearmanClient::doBackground
 
 (PECL gearman >= 0.5.0)

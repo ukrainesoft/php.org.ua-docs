@@ -1,16 +1,11 @@
-Магічні методи
-
--   [« Ітератори об'єктів](language.oop5.iterations.md)
-    
--   [Ключевое слово final »](language.oop5.final.md)
-    
--   [PHP Manual](index.md)
-    
--   [Класи та об'єкти](language.oop5.md)
-    
--   Магічні методи
-    
-
+---
+navigation:
+  - language.oop5.iterations.md: « Ітератори об'єктів
+  - language.oop5.final.md: Ключевое слово final »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Магічні методи
+---
 ## Магічні методи
 
 Магічні методи – це спеціальні методи, які перевизначають дію PHP за умовчанням, коли над об'єктом виконуються певні дії.

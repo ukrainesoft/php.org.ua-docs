@@ -1,16 +1,11 @@
-Очищає та записує буфер об'єкта LOB на сервер
-
--   [« OCILob::export](ocilob.export.html)
-    
--   [OCILob::free »](ocilob.free.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCILob](class.ocilob.html)
-    
--   Очищає та записує буфер об'єкта LOB на сервер
-    
-
+---
+navigation:
+  - ocilob.export.html: '« OCILob::export'
+  - ocilob.free.html: 'OCILob::free »'
+  - index.html: PHP Manual
+  - class.ocilob.html: OCILob
+title: 'OCILob::flush'
+---
 # OCILob::flush
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -39,8 +34,8 @@ public OCILob::flush(int $flag = 0): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

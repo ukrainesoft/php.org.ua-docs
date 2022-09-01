@@ -1,16 +1,11 @@
-Перевіряє наявність літерно-цифрових символів
-
--   [« Функції Ctype](ref.ctype.md)
-    
--   [ctypealpha »](function.ctype-alpha.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції Ctype](ref.ctype.md)
-    
--   Перевіряє наявність літерно-цифрових символів
-    
-
+---
+navigation:
+  - ref.ctype.md: « Функції Ctype
+  - function.ctype-alpha.html: ctypealpha »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
+title: ctypealnum
+---
 # ctypealnum
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

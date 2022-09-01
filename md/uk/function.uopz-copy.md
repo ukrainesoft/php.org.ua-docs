@@ -1,16 +1,11 @@
-Копіювати функцію
-
--   [« uopzcompose](function.uopz-compose.html)
-    
--   [uopzdelfunction »](function.uopz-del-function.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Копіювати функцію
-    
-
+---
+navigation:
+  - function.uopz-compose.html: « uopzcompose
+  - function.uopz-del-function.html: uopzdelfunction »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzcopy
+---
 # uopzcopy
 
 (PECL uopz 1 >= 1.0.4, PECL uopz 2)

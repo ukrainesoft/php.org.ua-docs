@@ -1,16 +1,11 @@
-Додає документ до колекції
-
--   [« mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   [Collection::addOrReplaceOne »](mysql-xdevapi-collection.addorreplaceone.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Додає документ до колекції
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-collection.html: « mysqlxdevapiCollection
+  - mysql-xdevapi-collection.addorreplaceone.html: 'Collection::addOrReplaceOne »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::add'
+---
 # Collection::add
 
 (No version information available, might only be in Git)

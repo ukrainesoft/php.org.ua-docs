@@ -1,16 +1,11 @@
-Вікно
-
--   [« UISize::setWidth](ui-size.setwidth.html)
-    
--   [ОЙWindow::add »](ui-window.add.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Вікно
-    
-
+---
+navigation:
+  - ui-size.setwidth.html: '« UISize::setWidth'
+  - ui-window.add.html: 'ОЙWindow::add »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Вікно
+---
 # Вікно
 
 (UI 0.9.9)

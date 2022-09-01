@@ -1,16 +1,11 @@
-Повертає значення з початку черги
-
--   [« DsPriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.html)
-    
--   [ДсPriorityQueue::pop »](ds-priorityqueue.pop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Повертає значення з початку черги
-    
-
+---
+navigation:
+  - ds-priorityqueue.jsonserialize.html: '« DsPriorityQueue::jsonSerialize'
+  - ds-priorityqueue.pop.html: 'ДсPriorityQueue::pop »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::peek'
+---
 # ДсPriorityQueue::peek
 
 (PECL ds >= 1.0.0)

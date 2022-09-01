@@ -1,16 +1,11 @@
-Кількість вузлів у відображенні
-
--   [« DOMNamedNodeMap](class.domnamednodemap.html)
-    
--   [DOMNamedNodeMap::getNamedItem »](domnamednodemap.getnameditem.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNamedNodeMap](class.domnamednodemap.html)
-    
--   Кількість вузлів у відображенні
-    
-
+---
+navigation:
+  - class.domnamednodemap.html: « DOMNamedNodeMap
+  - domnamednodemap.getnameditem.html: 'DOMNamedNodeMap::getNamedItem »'
+  - index.html: PHP Manual
+  - class.domnamednodemap.html: DOMNamedNodeMap
+title: 'DOMNamedNodeMap::count'
+---
 # DOMNamedNodeMap::count
 
 (PHP 7> = 7.2.0, PHP 8)

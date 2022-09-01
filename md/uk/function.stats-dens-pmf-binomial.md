@@ -1,16 +1,11 @@
-Імовірнісні заходи біномінального розподілу
-
--   [« statsdensnormal](function.stats-dens-normal.html)
-    
--   [statsdenspmfhypergeometric »](function.stats-dens-pmf-hypergeometric.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Імовірнісні заходи біномінального розподілу
-    
-
+---
+navigation:
+  - function.stats-dens-normal.html: « statsdensnormal
+  - function.stats-dens-pmf-hypergeometric.html: statsdenspmfhypergeometric »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdenspmfbinomial
+---
 # statsdenspmfbinomial
 
 (PECL stats >= 1.0.0)

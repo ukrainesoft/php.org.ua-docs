@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](wincache.setup.html)
-    
--   [Установка »](wincache.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](wincache.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - wincache.setup.html: « Встановлення та налаштування
+  - wincache.installation.html: Установка »
+  - index.html: PHP Manual
+  - wincache.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 В даний момент модуль підтримується лише для наступних конфігурацій:

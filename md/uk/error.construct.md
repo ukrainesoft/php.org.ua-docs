@@ -1,16 +1,11 @@
-Створює об'єкт класу Error
-
--   [« Error](class.error.html)
-    
--   [Error::getMessage »](error.getmessage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Error](class.error.html)
-    
--   Створює об'єкт класу Error
-    
-
+---
+navigation:
+  - class.error.html: « Error
+  - error.getmessage.html: 'Error::getMessage »'
+  - index.html: PHP Manual
+  - class.error.html: Error
+title: 'Error::construct'
+---
 # Error::construct
 
 (PHP 7, PHP 8)

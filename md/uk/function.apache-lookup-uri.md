@@ -1,16 +1,11 @@
-Здійснити частковий запит на вказаний URI та повернути усі отримані відомості
-
--   [« apachegetenv](function.apache-getenv.html)
-    
--   [apachenote »](function.apache-note.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Apache](ref.apache.html)
-    
--   Здійснити частковий запит на вказаний URI та повернути усі отримані відомості
-    
-
+---
+navigation:
+  - function.apache-getenv.html: « apachegetenv
+  - function.apache-note.html: apachenote »
+  - index.html: PHP Manual
+  - ref.apache.html: Функции Apache
+title: apachelookupuri
+---
 # apachelookupuri
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

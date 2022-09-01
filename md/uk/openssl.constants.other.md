@@ -1,16 +1,11 @@
-Інші константи
-
--   [« Константа SNI (Server Name Indication)](openssl.constsni.md)
-    
--   [Параметри ключа/сертифіката »](openssl.certparams.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](openssl.constants.md)
-    
--   Інші константи
-    
-
+---
+navigation:
+  - openssl.constsni.md: « Константа SNI (Server Name Indication)
+  - openssl.certparams.md: Параметри ключа/сертифіката »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
+title: Інші константи
+---
 ## Інші константи
 
 **`OPENSSL_RAW_DATA`** (bool)

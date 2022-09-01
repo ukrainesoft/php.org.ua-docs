@@ -1,16 +1,11 @@
-Обчислює один із параметрів розподілу Вейбулла за рештою
-
--   [« statscdfuniform](function.stats-cdf-uniform.html)
-    
--   [statscovariance »](function.stats-covariance.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює один із параметрів розподілу Вейбулла за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-uniform.html: « statscdfuniform
+  - function.stats-covariance.html: statscovariance »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statscdfweibull
+---
 # statscdfweibull
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_weibull(    float $par1,    float $par2,    float $par3, 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | до     | lambda |
-|         | з                     | CDF    | до     | lambda |
-|         | до                    | з      | CDF    | lambda |
-|         | lambda                | з      | CDF    | до     |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | до | lambda |
+|  | з | CDF | до | lambda |
+|  | до | з | CDF | lambda |
+|  | lambda | з | CDF | до |
 
 ### Список параметрів
 

@@ -1,16 +1,11 @@
-Виділяє необхідну кількість пам'яті під необхідну місткість
-
--   [« Коллекция пар ключ-значение](class.ds-map.html)
-    
--   [ДсMap::apply »](ds-map.apply.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Виділяє необхідну кількість пам'яті під необхідну місткість
-    
-
+---
+navigation:
+  - class.ds-map.html: « Коллекция пар ключ-значение
+  - ds-map.apply.html: 'ДсMap::apply »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::allocate'
+---
 # ДсMap::allocate
 
 (PECL ds >= 1.0.0)

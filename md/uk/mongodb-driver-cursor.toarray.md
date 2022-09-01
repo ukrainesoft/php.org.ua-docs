@@ -1,16 +1,11 @@
-Повертає масив, що містить усі результати курсору
-
--   [« MongoDBDriverCursor::setTypeMap](mongodb-driver-cursor.settypemap.html)
-    
--   [MongoDBDriverCursor::valid »](mongodb-driver-cursor.valid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Повертає масив, що містить усі результати курсору
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.settypemap.html: '« MongoDBDriverCursor::setTypeMap'
+  - mongodb-driver-cursor.valid.html: 'MongoDBDriverCursor::valid »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::toArray'
+---
 # MongoDBDriverCursor::toArray
 
 (mongodb >=1.0.0)

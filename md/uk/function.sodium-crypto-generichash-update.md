@@ -1,16 +1,11 @@
-Додати повідомлення до хешу
-
--   [« sodiumcryptogenerichashkeygen](function.sodium-crypto-generichash-keygen.html)
-    
--   [sodiumcryptogenerichash »](function.sodium-crypto-generichash.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Додати повідомлення до хешу
-    
-
+---
+navigation:
+  - function.sodium-crypto-generichash-keygen.html: « sodiumcryptogenerichashkeygen
+  - function.sodium-crypto-generichash.html: sodiumcryptogenerichash »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptogenerichashupdate
+---
 # sodiumcryptogenerichashupdate
 
 (PHP 7> = 7.2.0, PHP 8)

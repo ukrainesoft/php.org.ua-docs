@@ -1,16 +1,11 @@
-Ініціалізація транзакції
-
--   [« PDO](class.pdo.md)
-    
--   [PDO::commit »](pdo.commit.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Ініціалізація транзакції
-    
-
+---
+navigation:
+  - class.pdo.md: « PDO
+  - pdo.commit.md: 'PDO::commit »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::beginTransaction'
+---
 # PDO::beginTransaction
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

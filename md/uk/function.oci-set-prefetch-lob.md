@@ -1,16 +1,11 @@
-Встановлює обсяг даних, що попередньо вибираються для кожного CLOB або BLOB
-
--   [« ocisetmodulename](function.oci-set-module-name.html)
-    
--   [ocisetprefetch »](function.oci-set-prefetch.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Встановлює обсяг даних, що попередньо вибираються для кожного CLOB або BLOB
-    
-
+---
+navigation:
+  - function.oci-set-module-name.html: « ocisetmodulename
+  - function.oci-set-prefetch.html: ocisetprefetch »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocisetprefetchлоб
+---
 # ocisetprefetchлоб
 
 (PHP 8.2, PECL OCI8> = 3.2)

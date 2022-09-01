@@ -1,16 +1,11 @@
-Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent
-
--   [« MongoDBDriverMonitoringServerOpeningEvent::getTopologyId](mongodb-driver-monitoring-serveropeningevent.gettopologyid.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros »](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.html: '« MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.html: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent
+---
 # Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent
 
 (mongodb >=1.13.0)

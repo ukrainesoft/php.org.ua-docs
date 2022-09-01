@@ -1,16 +1,11 @@
-Деструктор
-
--   [« SolrObject::construct](solrobject.construct.html)
-    
--   [SolrObject::getPropertyNames »](solrobject.getpropertynames.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrObject](class.solrobject.html)
-    
--   Деструктор
-    
-
+---
+navigation:
+  - solrobject.construct.html: '« SolrObject::construct'
+  - solrobject.getpropertynames.html: 'SolrObject::getPropertyNames »'
+  - index.html: PHP Manual
+  - class.solrobject.html: SolrObject
+title: 'SolrObject::destruct'
+---
 # SolrObject::destruct
 
 (PECL solr> = 0.9.2)

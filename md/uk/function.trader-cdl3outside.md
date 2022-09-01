@@ -1,16 +1,11 @@
-Три зовнішні дні вгору і три зовнішні дні вниз
-
--   [« tradercdl3linestrike](function.trader-cdl3linestrike.html)
-    
--   [tradercdl3starsinsouth »](function.trader-cdl3starsinsouth.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Три зовнішні дні вгору і три зовнішні дні вниз
-    
-
+---
+navigation:
+  - function.trader-cdl3linestrike.html: « tradercdl3linestrike
+  - function.trader-cdl3starsinsouth.html: tradercdl3starsinsouth »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdl3outside
+---
 # tradercdl3outside
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Повторна ініціалізація бази подій (після розгалуження)
-
--   [« EventBase::priorityInit](eventbase.priorityinit.html)
-    
--   [EventBase::stop »](eventbase.stop.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBase](class.eventbase.html)
-    
--   Повторна ініціалізація бази подій (після розгалуження)
-    
-
+---
+navigation:
+  - eventbase.priorityinit.html: '« EventBase::priorityInit'
+  - eventbase.stop.html: 'EventBase::stop »'
+  - index.html: PHP Manual
+  - class.eventbase.html: EventBase
+title: 'EventBase::reInit'
+---
 # EventBase::reInit
 
 (PECL event >= 1.2.6-beta)

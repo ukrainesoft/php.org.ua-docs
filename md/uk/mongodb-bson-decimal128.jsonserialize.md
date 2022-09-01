@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONDecimal128::construct](mongodb-bson-decimal128.construct.html)
-    
--   [MongoDBBSONDecimal128::serialize »](mongodb-bson-decimal128.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-decimal128.construct.html: '« MongoDBBSONDecimal128::construct'
+  - mongodb-bson-decimal128.serialize.html: 'MongoDBBSONDecimal128::serialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128
+title: 'MongoDBBSONDecimal128::jsonSerialize'
+---
 # MongoDBBSONDecimal128::jsonSerialize
 
 (mongodb >=1.2.0)

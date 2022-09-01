@@ -1,16 +1,11 @@
-LZF
-
--   [« bzwrite](function.bzwrite.html)
-    
--   [Введение »](intro.lzf.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для стиснення та архівації](refs.compression.html)
-    
--   LZF
-    
-
+---
+navigation:
+  - function.bzwrite.html: « bzwrite
+  - intro.lzf.html: Введение »
+  - index.html: PHP Manual
+  - refs.compression.html: Модулі для стиснення та архівації
+title: LZF
+---
 # LZF
 
 -   [Введение](intro.lzf.html)

@@ -1,16 +1,11 @@
-Модулі, що відносяться до змінних та типів
-
--   [« Список изменений](changelog.strings.html)
-    
--   [Масиви »](book.array.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Модулі, що відносяться до змінних та типів
-    
-
+---
+navigation:
+  - changelog.strings.html: « Список изменений
+  - book.array.html: Масиви »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: 'Модулі, що відносяться до змінних та типів'
+---
 # Модулі, що відносяться до змінних та типів
 
 -   [Масиви](book.array.html)

@@ -1,16 +1,11 @@
-Повертає властивості за промовчанням
-
--   [« ReflectionClass::getConstructor](reflectionclass.getconstructor.md)
-    
--   [ReflectionClass::getDocComment »](reflectionclass.getdoccomment.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає властивості за промовчанням
-    
-
+---
+navigation:
+  - reflectionclass.getconstructor.md: '« ReflectionClass::getConstructor'
+  - reflectionclass.getdoccomment.md: 'ReflectionClass::getDocComment »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getDefaultProperties'
+---
 # ReflectionClass::getDefaultProperties
 
 (PHP 5, PHP 7, PHP 8)

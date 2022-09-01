@@ -1,16 +1,11 @@
-Перетворює рядок з одного кодування символів на інший
-
--   [« UConverter::toUCallback](uconverter.toucallback.html)
-    
--   [Функции Grapheme »](ref.intl.grapheme.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Перетворює рядок з одного кодування символів на інший
-    
-
+---
+navigation:
+  - uconverter.toucallback.html: '« UConverter::toUCallback'
+  - ref.intl.grapheme.html: Функции Grapheme »
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::transcode'
+---
 # UConverter::transcode
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

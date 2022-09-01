@@ -1,16 +1,11 @@
-Перевіряє термін дії поточного елемента
-
--   [« AppendIterator::rewind](appenditerator.rewind.html)
-    
--   [ArrayIterator »](class.arrayiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [AppendIterator](class.appenditerator.html)
-    
--   Перевіряє термін дії поточного елемента
-    
-
+---
+navigation:
+  - appenditerator.rewind.html: '« AppendIterator::rewind'
+  - class.arrayiterator.html: ArrayIterator »
+  - index.html: PHP Manual
+  - class.appenditerator.html: AppendIterator
+title: 'AppendIterator::valid'
+---
 # AppendIterator::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

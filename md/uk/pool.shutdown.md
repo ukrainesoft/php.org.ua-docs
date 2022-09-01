@@ -1,16 +1,11 @@
-Вимикає всі воркери
-
--   [« Pool::resize](pool.resize.md)
-    
--   [Pool::submit »](pool.submit.md)
-    
--   [PHP Manual](index.md)
-    
--   [Pool](class.pool.md)
-    
--   Вимикає всі воркери
-    
-
+---
+navigation:
+  - pool.resize.md: '« Pool::resize'
+  - pool.submit.md: 'Pool::submit »'
+  - index.md: PHP Manual
+  - class.pool.md: Pool
+title: 'Pool::shutdown'
+---
 # Pool::shutdown
 
 (PECL pthreads >= 2.0.0)

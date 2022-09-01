@@ -1,16 +1,11 @@
-Малює прямокутник із закругленими кутами.
-
--   [« GmagickDraw::rotate](gmagickdraw.rotate.md)
-    
--   [GmagickDraw::scale »](gmagickdraw.scale.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Малює прямокутник із закругленими кутами.
-    
-
+---
+navigation:
+  - gmagickdraw.rotate.md: '« GmagickDraw::rotate'
+  - gmagickdraw.scale.md: 'GmagickDraw::scale »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::roundrectangle'
+---
 # GmagickDraw::roundrectangle
 
 (PECL gmagick >= Unknown)

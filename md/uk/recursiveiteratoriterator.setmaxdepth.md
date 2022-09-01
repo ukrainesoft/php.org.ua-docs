@@ -1,16 +1,11 @@
-Встановлення максимальної глибини вкладеності
-
--   [« RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.md)
-    
--   [RecursiveIteratorIterator::valid »](recursiveiteratoriterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Встановлення максимальної глибини вкладеності
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.rewind.md: '« RecursiveIteratorIterator::rewind'
+  - recursiveiteratoriterator.valid.md: 'RecursiveIteratorIterator::valid »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::setMaxDepth'
+---
 # RecursiveIteratorIterator::setMaxDepth
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

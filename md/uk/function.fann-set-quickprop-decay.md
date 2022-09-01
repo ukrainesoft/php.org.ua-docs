@@ -1,16 +1,11 @@
-Встановлює коефіцієнт загасання quickprop
-
--   [« fannsetoutputscalingparams](function.fann-set-output-scaling-params.html)
-    
--   [fannsetquickpropmu »](function.fann-set-quickprop-mu.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює коефіцієнт загасання quickprop
-    
-
+---
+navigation:
+  - function.fann-set-output-scaling-params.html: « fannsetoutputscalingparams
+  - function.fann-set-quickprop-mu.html: fannsetquickpropmu »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetquickpropdecay
+---
 # fannsetquickpropdecay
 
 (PECL fann> = 1.0.0)

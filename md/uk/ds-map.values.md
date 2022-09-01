@@ -1,16 +1,11 @@
-Повертає послідовність значень колекції
-
--   [« DsMap::union](ds-map.union.html)
-    
--   [ДсMap::xor »](ds-map.xor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає послідовність значень колекції
-    
-
+---
+navigation:
+  - ds-map.union.html: '« DsMap::union'
+  - ds-map.xor.html: 'ДсMap::xor »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::values'
+---
 # ДсMap::values
 
 (PECL ds >= 1.0.0)

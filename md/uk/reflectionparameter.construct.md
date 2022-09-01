@@ -1,16 +1,11 @@
-Конструктор
-
--   [« ReflectionParameter::clone](reflectionparameter.clone.html)
-    
--   [ReflectionParameter::export »](reflectionparameter.export.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionParameter](class.reflectionparameter.html)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - reflectionparameter.clone.html: '« ReflectionParameter::clone'
+  - reflectionparameter.export.html: 'ReflectionParameter::export »'
+  - index.html: PHP Manual
+  - class.reflectionparameter.html: ReflectionParameter
+title: 'ReflectionParameter::construct'
+---
 # ReflectionParameter::construct
 
 (PHP 5, PHP 7, PHP 8)

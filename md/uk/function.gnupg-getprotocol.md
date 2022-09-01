@@ -1,16 +1,11 @@
-Повертає поточний активний протокол для всіх операцій
-
--   [« gnupggeterrorinfo](function.gnupg-geterrorinfo.html)
-    
--   [gnupggettrustlist »](function.gnupg-gettrustlist.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Повертає поточний активний протокол для всіх операцій
-    
-
+---
+navigation:
+  - function.gnupg-geterrorinfo.html: « gnupggeterrorinfo
+  - function.gnupg-gettrustlist.html: gnupggettrustlist »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupggetprotocol
+---
 # gnupggetprotocol
 
 (PECL gnupg >= 0.1)

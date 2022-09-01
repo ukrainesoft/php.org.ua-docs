@@ -1,16 +1,11 @@
-Кодувати рядок UTF-8 у змінений UTF-7
-
--   [« imaputf7encode](function.imap-utf7-encode.html)
-    
--   [imaputf8 »](function.imap-utf8.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Кодувати рядок UTF-8 у змінений UTF-7
-    
-
+---
+navigation:
+  - function.imap-utf7-encode.html: « imaputf7encode
+  - function.imap-utf8.html: imaputf8 »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaputf8тоmutf7
+---
 # imaputf8тоmutf7
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

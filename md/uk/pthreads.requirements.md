@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](pthreads.setup.html)
-    
--   [Установка »](pthreads.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](pthreads.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - pthreads.setup.html: « Встановлення та налаштування
+  - pthreads.installation.html: Установка »
+  - index.html: PHP Manual
+  - pthreads.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для pthreads необхідне потокобезпечне складання PHP, тобто. ZTS (Zend Thread Safety). Зробити це можна, вказавши при компіляції ключ **\-enable-zts** або на системах, відмінних від Windows до PHP 8.0.0, ключ **\-enable-maintainer-zts**

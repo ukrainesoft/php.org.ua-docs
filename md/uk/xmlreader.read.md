@@ -1,16 +1,11 @@
-Переміститися до наступного сайту в документі
-
--   [« XMLReader::open](xmlreader.open.md)
-    
--   [XMLReader::readInnerXml »](xmlreader.readinnerxml.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Переміститися до наступного сайту в документі
-    
-
+---
+navigation:
+  - xmlreader.open.md: '« XMLReader::open'
+  - xmlreader.readinnerxml.md: 'XMLReader::readInnerXml »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::read'
+---
 # XMLReader::read
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

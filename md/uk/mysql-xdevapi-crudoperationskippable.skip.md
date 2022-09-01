@@ -1,16 +1,11 @@
-Кількість операцій для пропуску
-
--   [« mysqlxdevapiCrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html)
-    
--   [mysqlxdevapiCrudOperationSortable »](class.mysql-xdevapi-crudoperationsortable.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCrudOperationSkippable](class.mysql-xdevapi-crudoperationskippable.html)
-    
--   Кількість операцій для пропуску
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-crudoperationskippable.html: « mysqlxdevapiCrudOperationSkippable
+  - class.mysql-xdevapi-crudoperationsortable.html: mysqlxdevapiCrudOperationSortable »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-crudoperationskippable.html: mysqlxdevapiCrudOperationSkippable
+title: 'CrudOperationSkippable::skip'
+---
 # CrudOperationSkippable::skip
 
 (No version information available, might only be in Git)

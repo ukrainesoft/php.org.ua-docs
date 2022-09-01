@@ -1,16 +1,11 @@
-Встановлення стилю малювання ліній
-
--   [« imagesetpixel](function.imagesetpixel.md)
-    
--   [imagesetthickness »](function.imagesetthickness.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Встановлення стилю малювання ліній
-    
-
+---
+navigation:
+  - function.imagesetpixel.md: « imagesetpixel
+  - function.imagesetthickness.md: imagesetthickness »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagesetstyle
+---
 # imagesetstyle
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Конструктор об'єкту EventDnsBase
-
--   [« EventDnsBase::clearSearch](eventdnsbase.clearsearch.html)
-    
--   [EventDnsBase::countNameservers »](eventdnsbase.countnameservers.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventDnsBase](class.eventdnsbase.html)
-    
--   Конструктор об'єкту EventDnsBase
-    
-
+---
+navigation:
+  - eventdnsbase.clearsearch.html: '« EventDnsBase::clearSearch'
+  - eventdnsbase.countnameservers.html: 'EventDnsBase::countNameservers »'
+  - index.html: PHP Manual
+  - class.eventdnsbase.html: EventDnsBase
+title: 'EventDnsBase::construct'
+---
 # EventDnsBase::construct
 
 (PECL event >= 1.2.6-beta)

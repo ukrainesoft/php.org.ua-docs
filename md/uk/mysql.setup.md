@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.mysql.md)
-    
--   [Вимоги »](mysql.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL (Original)](book.mysql.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.mysql.md: « Введение
+  - mysql.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.mysql.md: MySQL (Original)
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

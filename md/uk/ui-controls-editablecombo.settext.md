@@ -1,16 +1,11 @@
-Встановити текст
-
--   [« UIControlsEditableCombo::onChange](ui-controls-editablecombo.onchange.html)
-    
--   [ОЙControlsRadio »](class.ui-controls-radio.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
-    
--   Встановити текст
-    
-
+---
+navigation:
+  - ui-controls-editablecombo.onchange.html: '« UIControlsEditableCombo::onChange'
+  - class.ui-controls-radio.html: ОЙControlsRadio »
+  - index.md: PHP Manual
+  - class.ui-controls-editablecombo.html: ОЙControlsEditableCombo
+title: 'ОЙControlsEditableCombo::setText'
+---
 # ОЙControlsEditableCombo::setText
 
 (UI 0.9.9)

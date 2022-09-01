@@ -1,16 +1,11 @@
-Перевіряє, чи текст містить підозрілі символи
-
--   [« Spoofchecker::construct](spoofchecker.construct.md)
-    
--   [Spoofchecker::setAllowedLocales »](spoofchecker.setallowedlocales.md)
-    
--   [PHP Manual](index.md)
-    
--   [Spoofchecker](class.spoofchecker.md)
-    
--   Перевіряє, чи текст містить підозрілі символи
-    
-
+---
+navigation:
+  - spoofchecker.construct.md: '« Spoofchecker::construct'
+  - spoofchecker.setallowedlocales.md: 'Spoofchecker::setAllowedLocales »'
+  - index.md: PHP Manual
+  - class.spoofchecker.md: Spoofchecker
+title: 'Spoofchecker::isSuspicious'
+---
 # Spoofchecker::isSuspicious
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)

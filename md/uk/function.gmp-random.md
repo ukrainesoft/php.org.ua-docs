@@ -1,16 +1,11 @@
-Випадкове число
-
--   [« gmprandomseed](function.gmp-random-seed.html)
-    
--   [gmproot »](function.gmp-root.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Випадкове число
-    
-
+---
+navigation:
+  - function.gmp-random-seed.html: « gmprandomseed
+  - function.gmp-root.html: gmproot »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmprandom
+---
 # gmprandom
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7)

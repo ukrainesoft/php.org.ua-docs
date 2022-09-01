@@ -1,16 +1,11 @@
-Видаляє та повертає перше значення
-
--   [« DsSequence::set](ds-sequence.set.html)
-    
--   [ДсSequence::slice »](ds-sequence.slice.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Видаляє та повертає перше значення
-    
-
+---
+navigation:
+  - ds-sequence.set.html: '« DsSequence::set'
+  - ds-sequence.slice.html: 'ДсSequence::slice »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::shift'
+---
 # ДсSequence::shift
 
 (PECL ds >= 1.0.0)

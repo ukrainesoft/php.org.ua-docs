@@ -1,16 +1,11 @@
-Пошук позиції останнього входження одного рядка до іншого
-
--   [« mbstrripos](function.mb-strripos.html)
-    
--   [мбstrstr »](function.mb-strstr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Пошук позиції останнього входження одного рядка до іншого
-    
-
+---
+navigation:
+  - function.mb-strripos.html: « mbstrripos
+  - function.mb-strstr.html: мбstrstr »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrrpos
+---
 # мбstrrpos
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -49,11 +44,11 @@ mb_strrpos(    string $haystack,    string $needle,    int $offset =
 
 ### список змін
 
-| Версия | Описание                                                             |
-|--------|----------------------------------------------------------------------|
-|        | `needle` тепер приймає порожній рядок.                               |
-|        | Передача `encoding` як третій аргумент замість offset було видалено. |
-|        | Тепер параметр `encoding` може набувати значення **`null`**          |
+| Версия | Описание |
+| --- | --- |
+|  | `needle` тепер приймає порожній рядок. |
+|  | Передача `encoding` як третій аргумент замість offset було видалено. |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

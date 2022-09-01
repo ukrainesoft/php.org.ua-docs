@@ -1,16 +1,11 @@
-Перевірити, чи існує таблиця у базі даних
-
--   [« Table::delete](mysql-xdevapi-table.delete.html)
-    
--   [Table::getName »](mysql-xdevapi-table.getname.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Перевірити, чи існує таблиця у базі даних
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.delete.html: '« Table::delete'
+  - mysql-xdevapi-table.getname.html: 'Table::getName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::existsInDatabase'
+---
 # Table::existsInDatabase
 
 (No version information available, might only be in Git)

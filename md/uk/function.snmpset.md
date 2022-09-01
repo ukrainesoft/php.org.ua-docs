@@ -1,16 +1,11 @@
-Встановлює значення об'єкта SNMP
-
--   [« snmprealwalk](function.snmprealwalk.md)
-    
--   [snmpwalk »](function.snmpwalk.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Встановлює значення об'єкта SNMP
-    
-
+---
+navigation:
+  - function.snmprealwalk.md: « snmprealwalk
+  - function.snmpwalk.md: snmpwalk »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpset
+---
 # snmpset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

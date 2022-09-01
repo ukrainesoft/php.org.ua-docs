@@ -1,16 +1,11 @@
-Імітує фото Polaroid
-
--   [« Imagick::pingImageFile](imagick.pingimagefile.md)
-    
--   [Imagick::posterizeImage »](imagick.posterizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Імітує фото Polaroid
-    
-
+---
+navigation:
+  - imagick.pingimagefile.md: '« Imagick::pingImageFile'
+  - imagick.posterizeimage.md: 'Imagick::posterizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::polaroidImage'
+---
 # Imagick::polaroidImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
-
--   [« expectexpectl](function.expect-expectl.html)
-    
--   [PCNTL »](book.pcntl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Expect](ref.expect.md)
-    
--   Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
-    
-
+---
+navigation:
+  - function.expect-expectl.html: « expectexpectl
+  - book.pcntl.md: PCNTL »
+  - index.md: PHP Manual
+  - ref.expect.md: Функции Expect
+title: expectpopen
+---
 # expectpopen
 
 (PECL expect >= 0.1.0)

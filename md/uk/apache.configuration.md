@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Встановлення](apache.installation.md)
-    
--   [Типи ресурсів »](apache.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](apache.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - apache.installation.md: « Встановлення
+  - apache.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - apache.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка модуля Apache PHP залежить від налаштувань у php.ini. Налаштування конфігурації з php.ini можуть бути перевизначені через налаштування прапора [phpflag](configuration.changes.html#configuration.changes.apache) у конфігураційному файлі сервера або локальному файлі .htaccess.
@@ -23,12 +18,12 @@ php_flag engine off
 
 **Установки конфігурації Apache**
 
-| Имя                                                             | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------|--------------|-----------------|------------------|
-| [engine](apache.configuration.html#ini.engine)                  | "1"          | PHPINIALL       |                  |
-| [childterminate](apache.configuration.html#ini.child-terminate) | "0"          | PHPINIALL       |                  |
-| [lastmodified](apache.configuration.html#ini.last-modified)     | "0"          | PHPINIALL       |                  |
-| [xbithack](apache.configuration.html#ini.xbithack)              | "0"          | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [engine](apache.configuration.html#ini.engine) | "1" | PHPINIALL |  |
+| [childterminate](apache.configuration.html#ini.child-terminate) | "0" | PHPINIALL |  |
+| [lastmodified](apache.configuration.html#ini.last-modified) | "0" | PHPINIALL |  |
+| [xbithack](apache.configuration.html#ini.xbithack) | "0" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

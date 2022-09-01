@@ -1,16 +1,11 @@
-Перетворює рядок на значення часу на основі поля
-
--   [« IntlDateFormatter::isLenient](intldateformatter.islenient.html)
-    
--   [IntlDateFormatter::parse »](intldateformatter.parse.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Перетворює рядок на значення часу на основі поля
-    
-
+---
+navigation:
+  - intldateformatter.islenient.html: '« IntlDateFormatter::isLenient'
+  - intldateformatter.parse.html: 'IntlDateFormatter::parse »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::localtime'
+---
 # IntlDateFormatter::localtime
 
 # datefmtlocaltime

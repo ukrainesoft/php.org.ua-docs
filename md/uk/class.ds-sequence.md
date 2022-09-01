@@ -1,16 +1,11 @@
-Інтерфейс Sequence
-
--   [« DsHashable::hash](ds-hashable.hash.html)
-    
--   [ДсSequence::allocate »](ds-sequence.allocate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Інтерфейс Sequence
-    
-
+---
+navigation:
+  - ds-hashable.hash.html: '« DsHashable::hash'
+  - ds-sequence.allocate.html: 'ДсSequence::allocate »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Інтерфейс Sequence
+---
 # Інтерфейс Sequence
 
 (No version information available, might only be in Git)
@@ -74,8 +69,8 @@ abstract public unshift(mixed $values = ?): void
 
 ## список змін
 
-| Версия        | Описание                                                |
-|---------------|---------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст

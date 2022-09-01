@@ -1,16 +1,11 @@
-Клас RecursiveArrayIterator
-
--   [« ParentIterator::rewind](parentiterator.rewind.md)
-    
--   [RecursiveArrayIterator::getChildren »](recursivearrayiterator.getchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RecursiveArrayIterator
-    
-
+---
+navigation:
+  - parentiterator.rewind.md: '« ParentIterator::rewind'
+  - recursivearrayiterator.getchildren.md: 'RecursiveArrayIterator::getChildren »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveArrayIterator
+---
 # Клас RecursiveArrayIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

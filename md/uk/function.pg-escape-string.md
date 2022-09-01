@@ -1,16 +1,11 @@
-Екранування спецсимволів у рядку запиту
-
--   [« pgescapeliteral](function.pg-escape-literal.html)
-    
--   [пгexecute »](function.pg-execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Екранування спецсимволів у рядку запиту
-    
-
+---
+navigation:
+  - function.pg-escape-literal.html: « pgescapeliteral
+  - function.pg-execute.html: пгexecute »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгescapestring
+---
 # пгescapestring
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

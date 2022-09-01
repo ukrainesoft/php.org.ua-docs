@@ -1,16 +1,11 @@
-Обробка аудіо форматів
-
--   [« Yac::set](yac.setter.html)
-    
--   [OpenAL »](book.openal.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Обробка аудіо форматів
-    
-
+---
+navigation:
+  - yac.setter.html: '« Yac::set'
+  - book.openal.html: OpenAL »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Обробка аудіо форматів
+---
 # Обробка аудіо форматів
 
 -   [OpenAL](book.openal.html) - Аудіопотоки OpenAL

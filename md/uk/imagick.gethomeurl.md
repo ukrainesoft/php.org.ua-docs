@@ -1,16 +1,11 @@
-Повертає домашній URL бібліотеки ImageMagick
-
--   [« Imagick::getGravity](imagick.getgravity.html)
-    
--   [Imagick::getImage »](imagick.getimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає домашній URL бібліотеки ImageMagick
-    
-
+---
+navigation:
+  - imagick.getgravity.html: '« Imagick::getGravity'
+  - imagick.getimage.html: 'Imagick::getImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getHomeURL'
+---
 # Imagick::getHomeURL
 
 (PECL imagick 2, PECL imagick 3)

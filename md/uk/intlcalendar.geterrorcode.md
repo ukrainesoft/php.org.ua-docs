@@ -1,16 +1,11 @@
-Отримує останній код помилки об'єкта
-
--   [« IntlCalendar::getDayOfWeekType](intlcalendar.getdayofweektype.html)
-    
--   [IntlCalendar::getErrorMessage »](intlcalendar.geterrormessage.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Отримує останній код помилки об'єкта
-    
-
+---
+navigation:
+  - intlcalendar.getdayofweektype.html: '« IntlCalendar::getDayOfWeekType'
+  - intlcalendar.geterrormessage.html: 'IntlCalendar::getErrorMessage »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::getErrorCode'
+---
 # IntlCalendar::getErrorCode
 
 # intlcalgeterrorcode

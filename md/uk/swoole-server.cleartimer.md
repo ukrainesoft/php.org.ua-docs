@@ -1,16 +1,11 @@
-Зупиняє та знищує таймер
-
--   [« SwooleServer::bind](swoole-server.bind.html)
-    
--   [SwooleServer::close »](swoole-server.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Зупиняє та знищує таймер
-    
-
+---
+navigation:
+  - swoole-server.bind.html: '« SwooleServer::bind'
+  - swoole-server.close.html: 'SwooleServer::close »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::clearTimer'
+---
 # SwooleServer::clearTimer
 
 # swooletimerclear

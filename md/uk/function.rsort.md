@@ -1,16 +1,11 @@
-Сортує масив у порядку зменшення
-
--   [« reset](function.reset.html)
-    
--   [shuffle »](function.shuffle.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Сортує масив у порядку зменшення
-    
-
+---
+navigation:
+  - function.reset.html: « reset
+  - function.shuffle.html: shuffle »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: rsort
+---
 # rsort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

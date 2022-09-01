@@ -1,16 +1,11 @@
-Сортує колекцію
-
--   [« DsSequence::slice](ds-sequence.slice.html)
-    
--   [ДсSequence::sorted »](ds-sequence.sorted.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Сортує колекцію
-    
-
+---
+navigation:
+  - ds-sequence.slice.html: '« DsSequence::slice'
+  - ds-sequence.sorted.html: 'ДсSequence::sorted »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::sort'
+---
 # ДсSequence::sort
 
 (PECL ds >= 1.0.0)

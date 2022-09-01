@@ -1,16 +1,11 @@
-Псевдонім SolrInputDocument::clear
-
--   [« SolrInputDocument::merge](solrinputdocument.merge.md)
-    
--   [SolrInputDocument::setBoost »](solrinputdocument.setboost.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Псевдонім SolrInputDocument::clear
-    
-
+---
+navigation:
+  - solrinputdocument.merge.md: '« SolrInputDocument::merge'
+  - solrinputdocument.setboost.md: 'SolrInputDocument::setBoost »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::reset'
+---
 # SolrInputDocument::reset
 
 (PECL solr> = 0.9.2)

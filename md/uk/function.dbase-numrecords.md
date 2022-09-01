@@ -1,16 +1,11 @@
-Отримує кількість записів у базі даних
-
--   [« dbasenumfields](function.dbase-numfields.html)
-    
--   [dbaseopen »](function.dbase-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [dBase](ref.dbase.md)
-    
--   Отримує кількість записів у базі даних
-    
-
+---
+navigation:
+  - function.dbase-numfields.html: « dbasenumfields
+  - function.dbase-open.html: dbaseopen »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
+title: dbasenumrecords
+---
 # dbasenumrecords
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -45,8 +40,8 @@ dbase_numrecords(resource $database): int
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

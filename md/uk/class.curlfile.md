@@ -1,16 +1,11 @@
-Клас CURLFile
-
--   [« CurlShareHandle](class.curlsharehandle.html)
-    
--   [CURLFile::construct »](curlfile.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [cURL](book.curl.html)
-    
--   Клас CURLFile
-    
-
+---
+navigation:
+  - class.curlsharehandle.html: « CurlShareHandle
+  - curlfile.construct.html: 'CURLFile::construct »'
+  - index.html: PHP Manual
+  - book.curl.html: cURL
+title: Клас CURLFile
+---
 # Клас CURLFile
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

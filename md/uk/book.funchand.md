@@ -1,16 +1,11 @@
-Управління функціями
-
--   [« filtervar](function.filter-var.html)
-    
--   [Введение »](intro.funchand.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
-    
--   Управління функціями
-    
-
+---
+navigation:
+  - function.filter-var.html: « filtervar
+  - intro.funchand.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'
+title: Управління функціями
+---
 # Управління функціями
 
 -   [Введение](intro.funchand.md)

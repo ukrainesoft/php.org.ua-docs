@@ -1,16 +1,11 @@
-Перевіряє, чи пара порожня
-
--   [« DsPair::copy](ds-pair.copy.html)
-    
--   [ДсPair::jsonSerialize »](ds-pair.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пара](class.ds-pair.html)
-    
--   Перевіряє, чи пара порожня
-    
-
+---
+navigation:
+  - ds-pair.copy.html: '« DsPair::copy'
+  - ds-pair.jsonserialize.html: 'ДсPair::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-pair.html: Пара
+title: 'ДсPair::isEmpty'
+---
 # ДсPair::isEmpty
 
 (No version information available, might only be in Git)

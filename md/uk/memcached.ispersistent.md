@@ -1,16 +1,11 @@
-Перевіряє використовується стійке з'єднання з сервером memcache
-
--   [« Memcached::incrementByKey](memcached.incrementbykey.md)
-    
--   [Memcached::isPristine »](memcached.ispristine.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Перевіряє використовується стійке з'єднання з сервером memcache
-    
-
+---
+navigation:
+  - memcached.incrementbykey.md: '« Memcached::incrementByKey'
+  - memcached.ispristine.md: 'Memcached::isPristine »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::isPersistent'
+---
 # Memcached::isPersistent
 
 (PECL memcached >= 2.0.0)

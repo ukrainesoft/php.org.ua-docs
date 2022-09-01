@@ -1,16 +1,11 @@
-Створює новий DBPointer (не використовується)
-
--   [« MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
-    
--   [MongoDBBSONDBPointer::jsonSerialize »](mongodb-bson-dbpointer.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
-    
--   Створює новий DBPointer (не використовується)
-    
-
+---
+navigation:
+  - class.mongodb-bson-dbpointer.html: « MongoDBBSONDBPointer
+  - mongodb-bson-dbpointer.jsonserialize.html: 'MongoDBBSONDBPointer::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer
+title: 'MongoDBBSONDBPointer::construct'
+---
 # MongoDBBSONDBPointer::construct
 
 (mongodb >=1.4.0)

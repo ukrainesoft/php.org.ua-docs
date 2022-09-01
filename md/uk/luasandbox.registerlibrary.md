@@ -1,16 +1,11 @@
-Реєструє набір PHP-функцій як бібліотеку Lua
-
--   [« LuaSandbox::pauseUsageTimer](luasandbox.pauseusagetimer.md)
-    
--   [LuaSandbox::setCPULimit »](luasandbox.setcpulimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Реєструє набір PHP-функцій як бібліотеку Lua
-    
-
+---
+navigation:
+  - luasandbox.pauseusagetimer.md: '« LuaSandbox::pauseUsageTimer'
+  - luasandbox.setcpulimit.md: 'LuaSandbox::setCPULimit »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::registerLibrary'
+---
 # LuaSandbox::registerLibrary
 
 (PECL luasandbox >= 1.0.0)

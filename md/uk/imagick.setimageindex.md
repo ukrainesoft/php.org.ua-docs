@@ -1,16 +1,11 @@
-Встановлює позицію ітератора
-
--   [« Imagick::setImageGreenPrimary](imagick.setimagegreenprimary.html)
-    
--   [Imagick::setImageInterlaceScheme »](imagick.setimageinterlacescheme.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює позицію ітератора
-    
-
+---
+navigation:
+  - imagick.setimagegreenprimary.html: '« Imagick::setImageGreenPrimary'
+  - imagick.setimageinterlacescheme.html: 'Imagick::setImageInterlaceScheme »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageIndex'
+---
 # Imagick::setImageIndex
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Регулює налаштування ODBC
-
--   [« odbcrollback](function.odbc-rollback.html)
-    
--   [odbcspecialcolumns »](function.odbc-specialcolumns.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Регулює налаштування ODBC
-    
-
+---
+navigation:
+  - function.odbc-rollback.html: « odbcrollback
+  - function.odbc-specialcolumns.html: odbcspecialcolumns »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcsetoption
+---
 # odbcsetoption
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

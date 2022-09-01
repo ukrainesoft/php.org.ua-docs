@@ -1,16 +1,11 @@
-Призначення del
-
--   [« YafSession::current](yaf-session.current.html)
-    
--   [YafSession::get »](yaf-session.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення del
-    
-
+---
+navigation:
+  - yaf-session.current.html: '« YafSession::current'
+  - yaf-session.get.html: 'YafSession::get »'
+  - index.html: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::del'
+---
 # YafSession::del
 
 (Yaf >=1.0.0)

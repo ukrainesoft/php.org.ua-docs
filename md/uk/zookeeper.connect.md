@@ -1,16 +1,11 @@
-Створює дескриптор для спілкування з zookeeper
-
--   [« Zookeeper::close](zookeeper.close.html)
-    
--   [Zookeeper::construct »](zookeeper.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Створює дескриптор для спілкування з zookeeper
-    
-
+---
+navigation:
+  - zookeeper.close.html: '« Zookeeper::close'
+  - zookeeper.construct.html: 'Zookeeper::construct »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::connect'
+---
 # Zookeeper::connect
 
 (PECL zookeeper >= 0.2.0)

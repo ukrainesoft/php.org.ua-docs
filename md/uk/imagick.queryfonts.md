@@ -1,16 +1,11 @@
-Повертає налаштовані шрифти
-
--   [« Imagick::queryFontMetrics](imagick.queryfontmetrics.md)
-    
--   [Imagick::queryFormats »](imagick.queryformats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає налаштовані шрифти
-    
-
+---
+navigation:
+  - imagick.queryfontmetrics.md: '« Imagick::queryFontMetrics'
+  - imagick.queryformats.md: 'Imagick::queryFormats »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::queryFonts'
+---
 # Imagick::queryFonts
 
 (PECL imagick 2, PECL imagick 3)

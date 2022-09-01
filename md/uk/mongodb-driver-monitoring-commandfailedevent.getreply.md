@@ -1,16 +1,11 @@
-Повертає документ відповіді команди
-
--   [« MongoDBDriverMonitoringCommandFailedEvent::getOperationId](mongodb-driver-monitoring-commandfailedevent.getoperationid.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent::getRequestId »](mongodb-driver-monitoring-commandfailedevent.getrequestid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   Повертає документ відповіді команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getoperationid.html: '« MongoDBDriverMonitoringCommandFailedEvent::getOperationId'
+  - mongodb-driver-monitoring-commandfailedevent.getrequestid.html: 'MongoDBDriverMonitoringCommandFailedEvent::getRequestId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getReply'
+---
 # MongoDBDriverMonitoringCommandFailedEvent::getReply
 
 (mongodb >=1.5.0)

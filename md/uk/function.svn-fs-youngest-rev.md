@@ -1,16 +1,11 @@
-Повертає номер ранньої ревізії у файловій системі
-
--   [« svnфсtxnroot](function.svn-fs-txn-root.html)
-    
--   [svnimport »](function.svn-import.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає номер ранньої ревізії у файловій системі
-    
-
+---
+navigation:
+  - function.svn-fs-txn-root.html: « svnфсtxnroot
+  - function.svn-import.html: svnimport »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсyoungestrev
+---
 # svnфсyoungestrev
 
 (PECL svn >= 0.1.0)

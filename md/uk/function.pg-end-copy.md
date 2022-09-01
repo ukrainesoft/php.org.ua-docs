@@ -1,16 +1,11 @@
-Синхронізує з бекендом PostgreSQL
-
--   [« pgdelete](function.pg-delete.html)
-    
--   [пгescapebytea »](function.pg-escape-bytea.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Синхронізує з бекендом PostgreSQL
-    
-
+---
+navigation:
+  - function.pg-delete.html: « pgdelete
+  - function.pg-escape-bytea.html: пгescapebytea »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгendcopy
+---
 # пгendcopy
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ pg_end_copy(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

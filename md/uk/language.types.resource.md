@@ -1,16 +1,11 @@
-Ресурс
-
--   [« Перечисления](language.types.enumerations.html)
-    
--   [NULL »](language.types.null.html)
-    
--   [PHP Manual](index.html)
-    
--   [Типи](language.types.html)
-    
--   Ресурс
-    
-
+---
+navigation:
+  - language.types.enumerations.html: « Перечисления
+  - language.types.null.html: NULL »
+  - index.html: PHP Manual
+  - language.types.html: Типи
+title: Ресурс
+---
 ## Ресурс
 
 Resource – це спеціальна змінна, що містить посилання на зовнішній ресурс. Ресурси створюються та використовуються спеціальними функціями. Повний перелік цих функцій та відповідних типів ресурсів (resource) див. [приложении](resource.html)

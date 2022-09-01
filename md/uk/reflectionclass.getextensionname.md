@@ -1,16 +1,11 @@
-Повертає ім'я модуля, що визначає клас
-
--   [« ReflectionClass::getExtension](reflectionclass.getextension.md)
-    
--   [ReflectionClass::getFileName »](reflectionclass.getfilename.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає ім'я модуля, що визначає клас
-    
-
+---
+navigation:
+  - reflectionclass.getextension.md: '« ReflectionClass::getExtension'
+  - reflectionclass.getfilename.md: 'ReflectionClass::getFileName »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getExtensionName'
+---
 # ReflectionClass::getExtensionName
 
 (PHP 5, PHP 7, PHP 8)

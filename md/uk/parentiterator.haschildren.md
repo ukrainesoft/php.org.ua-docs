@@ -1,16 +1,11 @@
-Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
-
--   [« ParentIterator::getChildren](parentiterator.getchildren.md)
-    
--   [ParentIterator::next »](parentiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [ParentIterator](class.parentiterator.md)
-    
--   Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
-    
-
+---
+navigation:
+  - parentiterator.getchildren.md: '« ParentIterator::getChildren'
+  - parentiterator.next.md: 'ParentIterator::next »'
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
+title: 'ParentIterator::hasChildren'
+---
 # ParentIterator::hasChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

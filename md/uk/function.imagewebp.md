@@ -1,16 +1,11 @@
-Виведення зображення WebP у браузер або файл
-
--   [« imagewbmp](function.imagewbmp.html)
-    
--   [imagexbm »](function.imagexbm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Виведення зображення WebP у браузер або файл
-    
-
+---
+navigation:
+  - function.imagewbmp.html: « imagewbmp
+  - function.imagexbm.html: imagexbm »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagewebp
+---
 # imagewebp
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ imagewebp(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

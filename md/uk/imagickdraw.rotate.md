@@ -1,16 +1,11 @@
-Застосовує зазначений поворот до поточного координатного простору
-
--   [« ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.md)
-    
--   [ImagickDraw::roundRectangle »](imagickdraw.roundrectangle.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Застосовує зазначений поворот до поточного координатного простору
-    
-
+---
+navigation:
+  - imagickdraw.resetvectorgraphics.md: '« ImagickDraw::resetVectorGraphics'
+  - imagickdraw.roundrectangle.md: 'ImagickDraw::roundRectangle »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::rotate'
+---
 # ImagickDraw::rotate
 
 (PECL imagick 2, PECL imagick 3)

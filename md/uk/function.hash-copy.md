@@ -1,16 +1,11 @@
-Копіює контекст хешування
-
--   [« hashalgos](function.hash-algos.html)
-    
--   [hashequals »](function.hash-equals.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Hash](ref.hash.html)
-    
--   Копіює контекст хешування
-    
-
+---
+navigation:
+  - function.hash-algos.html: « hashalgos
+  - function.hash-equals.html: hashequals »
+  - index.html: PHP Manual
+  - ref.hash.html: Функции Hash
+title: hashcopy
+---
 # hashcopy
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ hash_copy(HashContext $context): HashContext
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | Приймає та повертає [HashContext](class.hashcontext.html), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає та повертає [HashContext](class.hashcontext.html), а чи не ресурс. |
 
 ### Приклади
 

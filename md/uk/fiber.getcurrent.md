@@ -1,16 +1,11 @@
-Отримує поточний екземпляр Fiber
-
--   [« Fiber::suspend](fiber.suspend.md)
-    
--   [WeakReference »](class.weakreference.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Отримує поточний екземпляр Fiber
-    
-
+---
+navigation:
+  - fiber.suspend.md: '« Fiber::suspend'
+  - class.weakreference.md: WeakReference »
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::getCurrent'
+---
 # Fiber::getCurrent
 
 (PHP 8> = 8.1.0)

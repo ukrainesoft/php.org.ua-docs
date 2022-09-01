@@ -1,16 +1,11 @@
-Клас YafExceptionLoadFailedModule
-
--   [« YafExceptionLoadFailed](class.yaf-exception-loadfailed.html)
-    
--   [YafExceptionLoadFailedController »](class.yaf-exception-loadfailed-controller.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafExceptionLoadFailedModule
-    
-
+---
+navigation:
+  - class.yaf-exception-loadfailed.html: « YafExceptionLoadFailed
+  - class.yaf-exception-loadfailed-controller.html: YafExceptionLoadFailedController »
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafExceptionLoadFailedModule
+---
 # Клас YafExceptionLoadFailedModule
 
 (Yaf >=1.0.0)

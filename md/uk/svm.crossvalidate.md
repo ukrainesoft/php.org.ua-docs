@@ -1,16 +1,11 @@
-Тестування навчальних параметрів на підмножинах навчальних даних
-
--   [« SVM::construct](svm.construct.md)
-    
--   [SVM::getOptions »](svm.getoptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVM](class.svm.md)
-    
--   Тестування навчальних параметрів на підмножинах навчальних даних
-    
-
+---
+navigation:
+  - svm.construct.md: '« SVM::construct'
+  - svm.getoptions.md: 'SVM::getOptions »'
+  - index.md: PHP Manual
+  - class.svm.md: SVM
+title: 'SVM::crossvalidate'
+---
 # SVM::crossvalidate
 
 (PECL svm >= 0.1.0)

@@ -1,16 +1,11 @@
-Підтримка мов та кодувань
-
--   [xdiffstringrabdiff](function.xdiff-string-rabdiff.html)
-    
--   [Enchant »](book.enchant.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Підтримка мов та кодувань
-    
-
+---
+navigation:
+  - function.xdiff-string-rabdiff.html: xdiffstringrabdiff
+  - book.enchant.html: Enchant »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Підтримка мов та кодувань
+---
 # Підтримка мов та кодувань
 
 -   [Enchant](book.enchant.html) - Бібліотека перевірки правопису Enchant

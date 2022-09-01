@@ -1,16 +1,11 @@
-Очищає список серверів
-
--   [« Memcached::replaceByKey](memcached.replacebykey.md)
-    
--   [Memcached::set »](memcached.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Очищає список серверів
-    
-
+---
+navigation:
+  - memcached.replacebykey.md: '« Memcached::replaceByKey'
+  - memcached.set.md: 'Memcached::set »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::resetServerList'
+---
 # Memcached::resetServerList
 
 (PECL memcached >= 2.0.0)

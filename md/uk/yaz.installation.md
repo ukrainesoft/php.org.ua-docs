@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](yaz.requirements.md)
-    
--   [Налаштування під час виконання »](yaz.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](yaz.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - yaz.requirements.md: « Вимоги
+  - yaz.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - yaz.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/yaz](https://pecl.php.net/package/yaz)

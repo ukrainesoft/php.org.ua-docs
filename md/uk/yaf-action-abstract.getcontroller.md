@@ -1,16 +1,11 @@
-Отримати об'єкт контролер
-
--   [« YafActionAbstract::execute](yaf-action-abstract.execute.html)
-    
--   [YafActionAbstract::getControllerName »](yaf-controller-abstract.getcontrollername.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafActionAbstract](class.yaf-action-abstract.html)
-    
--   Отримати об'єкт контролер
-    
-
+---
+navigation:
+  - yaf-action-abstract.execute.html: '« YafActionAbstract::execute'
+  - yaf-controller-abstract.getcontrollername.html: 'YafActionAbstract::getControllerName »'
+  - index.html: PHP Manual
+  - class.yaf-action-abstract.html: YafActionAbstract
+title: 'YafActionAbstract::getController'
+---
 # YafActionAbstract::getController
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Витягує область зображення
-
--   [« Imagick::getImageRedPrimary](imagick.getimageredprimary.md)
-    
--   [Imagick::getImageRenderingIntent »](imagick.getimagerenderingintent.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Витягує область зображення
-    
-
+---
+navigation:
+  - imagick.getimageredprimary.md: '« Imagick::getImageRedPrimary'
+  - imagick.getimagerenderingintent.md: 'Imagick::getImageRenderingIntent »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageRegion'
+---
 # Imagick::getImageRegion
 
 (PECL imagick 2, PECL imagick 3)

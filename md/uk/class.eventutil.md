@@ -1,16 +1,11 @@
-Клас EventUtil
-
--   [« EventSslContext::construct](eventsslcontext.construct.md)
-    
--   [EventUtil::construct »](eventutil.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventUtil
-    
-
+---
+navigation:
+  - eventsslcontext.construct.md: '« EventSslContext::construct'
+  - eventutil.construct.md: 'EventUtil::construct »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventUtil
+---
 # Клас EventUtil
 
 (PECL event >= 1.5.0)

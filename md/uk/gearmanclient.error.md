@@ -1,16 +1,11 @@
-Повернути рядок помилки для останньої виявленої помилки
-
--   [« GearmanClient::echo](gearmanclient.echo.md)
-    
--   [GearmanClient::getErrno »](gearmanclient.geterrno.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Повернути рядок помилки для останньої виявленої помилки
-    
-
+---
+navigation:
+  - gearmanclient.echo.md: '« GearmanClient::echo'
+  - gearmanclient.geterrno.md: 'GearmanClient::getErrno »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::error'
+---
 # GearmanClient::error
 
 (PECL gearman >= 0.5.0)

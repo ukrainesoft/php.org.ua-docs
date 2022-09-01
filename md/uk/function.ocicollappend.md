@@ -1,16 +1,11 @@
-Псевдонім OCICollection::append
-
--   [« ocicloselob](function.ocicloselob.html)
-    
--   [ocicollassign »](function.ocicollassign.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім OCICollection::append
-    
-
+---
+navigation:
+  - function.ocicloselob.html: « ocicloselob
+  - function.ocicollassign.html: ocicollassign »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocicollappend
+---
 # ocicollappend
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

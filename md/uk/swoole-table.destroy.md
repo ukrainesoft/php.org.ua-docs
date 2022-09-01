@@ -1,16 +1,11 @@
-Знищує таблицю Swoole
-
--   [« SwooleTable::del](swoole-table.del.html)
-    
--   [SwooleTable::exist »](swoole-table.exist.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Знищує таблицю Swoole
-    
-
+---
+navigation:
+  - swoole-table.del.html: '« SwooleTable::del'
+  - swoole-table.exist.html: 'SwooleTable::exist »'
+  - index.md: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::destroy'
+---
 # SwooleTable::destroy
 
 (PECL swoole >= 1.9.0)

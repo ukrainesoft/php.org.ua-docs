@@ -1,16 +1,11 @@
-Перевіряє, чи є тип вбудованим
-
--   [« ReflectionNamedType::getName](reflectionnamedtype.getname.html)
-    
--   [ReflectionObject »](class.reflectionobject.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionNamedType](class.reflectionnamedtype.html)
-    
--   Перевіряє, чи є тип вбудованим
-    
-
+---
+navigation:
+  - reflectionnamedtype.getname.html: '« ReflectionNamedType::getName'
+  - class.reflectionobject.html: ReflectionObject »
+  - index.html: PHP Manual
+  - class.reflectionnamedtype.html: ReflectionNamedType
+title: 'ReflectionNamedType::isBuiltin'
+---
 # ReflectionNamedType::isBuiltin
 
 (PHP 7, PHP 8)

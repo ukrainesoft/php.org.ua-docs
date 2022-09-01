@@ -1,16 +1,11 @@
-Чекає на ексклюзивне блокування
-
--   [« SyncMutex::construct](syncmutex.construct.md)
-    
--   [SyncMutex::unlock »](syncmutex.unlock.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncMutex](class.syncmutex.md)
-    
--   Чекає на ексклюзивне блокування
-    
-
+---
+navigation:
+  - syncmutex.construct.md: '« SyncMutex::construct'
+  - syncmutex.unlock.md: 'SyncMutex::unlock »'
+  - index.md: PHP Manual
+  - class.syncmutex.md: SyncMutex
+title: 'SyncMutex::lock'
+---
 # SyncMutex::lock
 
 (PECL sync >= 1.0.0)

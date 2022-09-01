@@ -1,16 +1,11 @@
-JavaScript Object Notation
-
--   [« igbinaryunserialize](function.igbinary-unserialize.html)
-    
--   [Введение »](intro.json.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   JavaScript Object Notation
-    
-
+---
+navigation:
+  - function.igbinary-unserialize.html: « igbinaryunserialize
+  - intro.json.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: JavaScript Object Notation
+---
 # JavaScript Object Notation
 
 -   [Введение](intro.json.html)

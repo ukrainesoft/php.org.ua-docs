@@ -1,16 +1,11 @@
-Igbinary
-
--   [« FANNConnection::setWeight](fannconnection.setweight.html)
-    
--   [Введение »](intro.igbinary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   Igbinary
-    
-
+---
+navigation:
+  - fannconnection.setweight.html: '« FANNConnection::setWeight'
+  - intro.igbinary.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: Igbinary
+---
 # Igbinary
 
 -   [Введение](intro.igbinary.html)

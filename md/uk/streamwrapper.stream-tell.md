@@ -1,16 +1,11 @@
-Визначення поточної позиції потоку
-
--   [« streamWrapper::streamstat](streamwrapper.stream-stat.html)
-    
--   [streamWrapper::streamtruncate »](streamwrapper.stream-truncate.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Визначення поточної позиції потоку
-    
-
+---
+navigation:
+  - streamwrapper.stream-stat.html: '« streamWrapper::streamstat'
+  - streamwrapper.stream-truncate.html: 'streamWrapper::streamtruncate »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streamtell'
+---
 # streamWrapper::streamtell
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

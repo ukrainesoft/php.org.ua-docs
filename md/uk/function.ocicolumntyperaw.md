@@ -1,16 +1,11 @@
-Псевдонім ocifieldtyperaw
-
--   [« ocicolumntype](function.ocicolumntype.md)
-    
--   [ocicommit »](function.ocicommit.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocifieldtyperaw
-    
-
+---
+navigation:
+  - function.ocicolumntype.md: « ocicolumntype
+  - function.ocicommit.md: ocicommit »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicolumntyperaw
+---
 # ocicolumntyperaw
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

@@ -1,16 +1,11 @@
-Передає дані клієнту websocket
-
--   [« SwooleHttpClient::post](swoole-http-client.post.html)
-    
--   [SwooleHttpClient::set »](swoole-http-client.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Передає дані клієнту websocket
-    
-
+---
+navigation:
+  - swoole-http-client.post.html: '« SwooleHttpClient::post'
+  - swoole-http-client.set.html: 'SwooleHttpClient::set »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::push'
+---
 # SwooleHttpClient::push
 
 (PECL swoole >= 1.9.0)

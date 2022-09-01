@@ -1,16 +1,11 @@
-Вступ
-
--   [« Componere](book.componere.md)
-    
--   [Встановлення та налаштування »](componere.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Componere](book.componere.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.componere.md: « Componere
+  - componere.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.componere.md: Componere
+title: Вступ
+---
 # Вступ
 
 Componere (латинська, англійська: compose) призначений для виробничих оточень і надає API для складання класів, мавпових патчів та приведення.

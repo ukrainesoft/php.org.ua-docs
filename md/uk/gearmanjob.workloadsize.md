@@ -1,16 +1,11 @@
-Отримання розміру даних, що оброблюються
-
--   [« GearmanJob::workload](gearmanjob.workload.html)
-    
--   [GearmanTask »](class.gearmantask.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Отримання розміру даних, що оброблюються
-    
-
+---
+navigation:
+  - gearmanjob.workload.html: '« GearmanJob::workload'
+  - class.gearmantask.html: GearmanTask »
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::workloadSize'
+---
 # GearmanJob::workloadSize
 
 (PECL gearman >= 0.5.0)

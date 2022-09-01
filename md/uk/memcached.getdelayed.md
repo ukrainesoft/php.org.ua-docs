@@ -1,16 +1,11 @@
-Запитує кілька записів
-
--   [« Memcached::getByKey](memcached.getbykey.html)
-    
--   [Memcached::getDelayedByKey »](memcached.getdelayedbykey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Запитує кілька записів
-    
-
+---
+navigation:
+  - memcached.getbykey.html: '« Memcached::getByKey'
+  - memcached.getdelayedbykey.html: 'Memcached::getDelayedByKey »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::getDelayed'
+---
 # Memcached::getDelayed
 
 (PECL memcached >= 0.1.0)

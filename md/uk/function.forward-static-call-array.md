@@ -1,16 +1,11 @@
-Виклик статичного методу та передача параметрів у вигляді масиву
-
--   [« createfunction](function.create-function.html)
-    
--   [forwardstaticcall »](function.forward-static-call.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Виклик статичного методу та передача параметрів у вигляді масиву
-    
-
+---
+navigation:
+  - function.create-function.html: « createfunction
+  - function.forward-static-call.html: forwardstaticcall »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: forwardstaticcallarray
+---
 # forwardstaticcallarray
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

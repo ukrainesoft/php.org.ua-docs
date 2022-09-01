@@ -1,16 +1,11 @@
-Читання даних з glo та виведення їх у стандартний пристрій виведення
-
--   [« cubridsaveтоglo](function.cubrid-save-to-glo.html)
-    
--   [dBase »](book.dbase.md)
-    
--   [PHP Manual](index.md)
-    
--   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
-    
--   Читання даних з glo та виведення їх у стандартний пристрій виведення
-    
-
+---
+navigation:
+  - function.cubrid-save-to-glo.html: « cubridsaveтоglo
+  - book.dbase.md: dBase »
+  - index.md: PHP Manual
+  - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
+title: cubridsendglo
+---
 # cubridsendglo
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](dom.requirements.html)
-    
--   [Налаштування під час виконання »](dom.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](dom.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - dom.requirements.html: « Вимоги
+  - dom.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - dom.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль увімкнено за замовчуванням. Він може бути вимкнений під час виконання за допомогою наступної опції: **\-disable-dom**

@@ -1,16 +1,11 @@
-Псевдонім функції mysqlirealescapestring
-
--   [« mysqliconnect](function.mysqli-connect.html)
-    
--   [mysqliexecute »](function.mysqli-execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-    
--   Псевдонім функції mysqlirealescapestring
-    
-
+---
+navigation:
+  - function.mysqli-connect.html: « mysqliconnect
+  - function.mysqli-execute.html: mysqliexecute »
+  - index.md: PHP Manual
+  - ref.mysqli.md: Синоніми та застарілі функції Mysqli
+title: 'mysqli::escapestring'
+---
 # mysqli::escapestring
 
 # mysqliescapestring

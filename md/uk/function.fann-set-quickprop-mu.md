@@ -1,16 +1,11 @@
-Встановлює МЮ-фактор quickprop
-
--   [« fannsetquickpropdecay](function.fann-set-quickprop-decay.html)
-    
--   [fannsetrpropdecreasefactor »](function.fann-set-rprop-decrease-factor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює МЮ-фактор quickprop
-    
-
+---
+navigation:
+  - function.fann-set-quickprop-decay.html: « fannsetquickpropdecay
+  - function.fann-set-rprop-decrease-factor.html: fannsetrpropdecreasefactor »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetquickpropму
+---
 # fannsetquickpropму
 
 (PECL fann> = 1.0.0)

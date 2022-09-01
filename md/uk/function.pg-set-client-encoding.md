@@ -1,16 +1,11 @@
-Встановлює клієнтське кодування
-
--   [« pgsendquery](function.pg-send-query.html)
-    
--   [пгseterrorverbosity »](function.pg-set-error-verbosity.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Встановлює клієнтське кодування
-    
-
+---
+navigation:
+  - function.pg-send-query.html: « pgsendquery
+  - function.pg-set-error-verbosity.html: пгseterrorverbosity »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгsetclientencoding
+---
 # пгsetclientencoding
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ PostgreSQL автоматично конвертує дані з кодуван�
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

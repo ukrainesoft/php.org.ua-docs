@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](wincache.installation.md)
-    
--   [Скрипт статистики WinCache »](wincache.stats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](wincache.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - wincache.installation.md: « Установка
+  - wincache.stats.md: Скрипт статистики WinCache »
+  - index.md: PHP Manual
+  - wincache.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
@@ -19,29 +14,29 @@
 
 **Конфігураційні параметри WinCache**
 
-| Имя                                                                                  | По умолчанию | Минимум | Максимум | Место изменения | Список изменений                                |
-|--------------------------------------------------------------------------------------|--------------|---------|----------|-----------------|-------------------------------------------------|
-| [wincache.fcenabled](wincache.configuration.html#ini.wincache.fcenabled)             | "1"          | "0"     | "1"      | PHPINIALL       | Доступно з WinCache 1.0.0                       |
-| [wincache.fcenabledfilter](wincache.configuration.html#ini.wincache.fcenabledfilter) | "NULL"       | "NULL"  | "NULL"   | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.fcachesize](wincache.configuration.html#ini.wincache.fcachesize)           | "24"         | "5"     | "255"    | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.fcndetect](wincache.configuration.html#ini.wincache.fcndetect)             | "1"          | "0"     | "1"      | PHPINISYSTEM    | Доступно з WinCache 1.1.0                       |
-| [wincache.maxfilesize](wincache.configuration.html#ini.wincache.maxfilesize)         | "256"        | "10"    | "2048"   | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.ocenabled](wincache.configuration.html#ini.wincache.ocenabled)             | "1"          | "0"     | "1"      | PHPINIALL       | Доступно з WinCache 1.0.0. Вилучено у 2.0.0.0   |
-| [wincache.ocenabledfilter](wincache.configuration.html#ini.wincache.ocenabledfilter) | "NULL"       | "NULL"  | "NULL"   | PHPINISYSTEM    | Доступно з WinCache 1.0.0. Вилучено у 2.0.0.0   |
-| [wincache.ocachesize](wincache.configuration.html#ini.wincache.ocachesize)           | "96"         | "15"    | "255"    | PHPINISYSTEM    | Доступно з WinCache 1.0.0. Вилучено у 2.0.0.0   |
-| [wincache.filecount](wincache.configuration.html#ini.wincache.filecount)             | "4096"       | "1024"  | "16384"  | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.chkinterval](wincache.configuration.html#ini.wincache.chkinterval)         | "30"         | "0"     | "300"    | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.ttlmax](wincache.configuration.html#ini.wincache.ttlmax)                   | "1200"       | "0"     | "7200"   | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.enablecli](wincache.configuration.html#ini.wincache.enablecli)             |              |         |          | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.ignorelist](wincache.configuration.html#ini.wincache.ignorelist)           | NULL         | NULL    | NULL     | PHPINIALL       | Доступно з WinCache 1.0.0                       |
-| [wincache.namesalt](wincache.configuration.html#ini.wincache.namesalt)               | NULL         | NULL    | NULL     | PHPINISYSTEM    | Доступно з WinCache 1.0.0                       |
-| [wincache.ucenabled](wincache.configuration.html#ini.wincache.ucenabled)             |              |         |          | PHPINISYSTEM    | Доступно з WinCache 1.1.0                       |
-| [wincache.ucachesize](wincache.configuration.html#ini.wincache.ucachesize)           |              |         |          | PHPINISYSTEM    | Доступно з WinCache 1.1.0                       |
-| [wincache.scachesize](wincache.configuration.html#ini.wincache.scachesize)           |              |         |          | PHPINISYSTEM    | Доступно з WinCache 1.1.0                       |
-| [wincache.rerouteini](wincache.configuration.html#ini.wincache.rerouteini)           | NULL         | NULL    | NULL     | PHPINISYSTEM    | Доступно з WinCache 1.2.0. Вилучено у 1.3.7     |
-| [wincache.rerouteenabled](wincache.configuration.html#ini.wincache.reroute_enabled)  |              |         |          | PHPINISYSTEM    | PHPINIPERDIR                                    |
-| [wincache.srwlocks](wincache.configuration.html#ini.wincache.srwlocks)               |              |         |          | PHPINISYSTEM    | Доступно з WinCache 1.3.6.3. Вилучено у 2.0.0.0 |
-| [wincache.filemapdir](wincache.configuration.html#ini.wincache.filemapdir)           | NULL         | NULL    | NULL     | PHPINISYSTEM    | Доступно з WinCache 1.3.7.4                     |
+| Имя | По умолчанию | Минимум | Максимум | Место изменения | Список изменений |
+| --- | --- | --- | --- | --- | --- |
+| [wincache.fcenabled](wincache.configuration.html#ini.wincache.fcenabled) | "1" | "0" | "1" | PHPINIALL | Доступно з WinCache 1.0.0 |
+| [wincache.fcenabledfilter](wincache.configuration.html#ini.wincache.fcenabledfilter) | "NULL" | "NULL" | "NULL" | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.fcachesize](wincache.configuration.html#ini.wincache.fcachesize) | "24" | "5" | "255" | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.fcndetect](wincache.configuration.html#ini.wincache.fcndetect) | "1" | "0" | "1" | PHPINISYSTEM | Доступно з WinCache 1.1.0 |
+| [wincache.maxfilesize](wincache.configuration.html#ini.wincache.maxfilesize) | "256" | "10" | "2048" | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.ocenabled](wincache.configuration.html#ini.wincache.ocenabled) | "1" | "0" | "1" | PHPINIALL | Доступно з WinCache 1.0.0. Вилучено у 2.0.0.0 |
+| [wincache.ocenabledfilter](wincache.configuration.html#ini.wincache.ocenabledfilter) | "NULL" | "NULL" | "NULL" | PHPINISYSTEM | Доступно з WinCache 1.0.0. Вилучено у 2.0.0.0 |
+| [wincache.ocachesize](wincache.configuration.html#ini.wincache.ocachesize) | "96" | "15" | "255" | PHPINISYSTEM | Доступно з WinCache 1.0.0. Вилучено у 2.0.0.0 |
+| [wincache.filecount](wincache.configuration.html#ini.wincache.filecount) | "4096" | "1024" | "16384" | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.chkinterval](wincache.configuration.html#ini.wincache.chkinterval) | "30" | "0" | "300" | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.ttlmax](wincache.configuration.html#ini.wincache.ttlmax) | "1200" | "0" | "7200" | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.enablecli](wincache.configuration.html#ini.wincache.enablecli) |  |  |  | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.ignorelist](wincache.configuration.html#ini.wincache.ignorelist) | NULL | NULL | NULL | PHPINIALL | Доступно з WinCache 1.0.0 |
+| [wincache.namesalt](wincache.configuration.html#ini.wincache.namesalt) | NULL | NULL | NULL | PHPINISYSTEM | Доступно з WinCache 1.0.0 |
+| [wincache.ucenabled](wincache.configuration.html#ini.wincache.ucenabled) |  |  |  | PHPINISYSTEM | Доступно з WinCache 1.1.0 |
+| [wincache.ucachesize](wincache.configuration.html#ini.wincache.ucachesize) |  |  |  | PHPINISYSTEM | Доступно з WinCache 1.1.0 |
+| [wincache.scachesize](wincache.configuration.html#ini.wincache.scachesize) |  |  |  | PHPINISYSTEM | Доступно з WinCache 1.1.0 |
+| [wincache.rerouteini](wincache.configuration.html#ini.wincache.rerouteini) | NULL | NULL | NULL | PHPINISYSTEM | Доступно з WinCache 1.2.0. Вилучено у 1.3.7 |
+| [wincache.rerouteenabled](wincache.configuration.html#ini.wincache.reroute_enabled) |  |  |  | PHPINISYSTEM | PHPINIPERDIR |
+| [wincache.srwlocks](wincache.configuration.html#ini.wincache.srwlocks) |  |  |  | PHPINISYSTEM | Доступно з WinCache 1.3.6.3. Вилучено у 2.0.0.0 |
+| [wincache.filemapdir](wincache.configuration.html#ini.wincache.filemapdir) | NULL | NULL | NULL | PHPINISYSTEM | Доступно з WinCache 1.3.7.4 |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

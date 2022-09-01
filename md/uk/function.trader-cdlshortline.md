@@ -1,16 +1,11 @@
-Свічка модель "Свічка короткої лінії"
-
--   [« tradercdlshootingstar](function.trader-cdlshootingstar.html)
-    
--   [tradercdlspinningtop »](function.trader-cdlspinningtop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Свічка модель "Свічка короткої лінії"
-    
-
+---
+navigation:
+  - function.trader-cdlshootingstar.html: « tradercdlshootingstar
+  - function.trader-cdlspinningtop.html: tradercdlspinningtop »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlshortline
+---
 # tradercdlshortline
 
 (PECL trader >= 0.2.0)

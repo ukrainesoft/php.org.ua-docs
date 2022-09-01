@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.mail.md)
-    
--   [Вимоги »](mail.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mail](book.mail.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.mail.md: « Введение
+  - mail.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.mail.md: Mail
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

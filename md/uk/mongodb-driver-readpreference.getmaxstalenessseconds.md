@@ -1,16 +1,11 @@
-Повертає параметр "maxStalenessSeconds" ReadPreference
-
--   [« MongoDBDriverReadPreference::getHedge](mongodb-driver-readpreference.gethedge.html)
-    
--   [MongoDBDriverReadPreference::getMode »](mongodb-driver-readpreference.getmode.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Повертає параметр "maxStalenessSeconds" ReadPreference
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.gethedge.html: '« MongoDBDriverReadPreference::getHedge'
+  - mongodb-driver-readpreference.getmode.html: 'MongoDBDriverReadPreference::getMode »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::getMaxStalenessSeconds'
+---
 # MongoDBDriverReadPreference::getMaxStalenessSeconds
 
 (mongodb >=1.2.0)

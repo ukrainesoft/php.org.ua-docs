@@ -1,16 +1,11 @@
-Додає змодельований тривимірний кордон
-
--   [« Gmagick::flopimage](gmagick.flopimage.md)
-    
--   [Gmagick::gammaimage »](gmagick.gammaimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Додає змодельований тривимірний кордон
-    
-
+---
+navigation:
+  - gmagick.flopimage.md: '« Gmagick::flopimage'
+  - gmagick.gammaimage.md: 'Gmagick::gammaimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::frameimage'
+---
 # Gmagick::frameimage
 
 (PECL gmagick >= Unknown)

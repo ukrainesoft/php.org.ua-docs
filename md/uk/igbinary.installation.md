@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](igbinary.requirements.html)
-    
--   [Налаштування під час виконання »](igbinary.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](igbinary.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - igbinary.requirements.html: « Вимоги
+  - igbinary.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - igbinary.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

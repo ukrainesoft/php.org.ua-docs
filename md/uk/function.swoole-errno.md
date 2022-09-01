@@ -1,16 +1,11 @@
-Отримати код помилки останнього системного виклику
-
--   [« swoolecpunum](function.swoole-cpu-num.html)
-    
--   [swooleerrorlog »](function.swoole-error-log.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Отримати код помилки останнього системного виклику
-    
-
+---
+navigation:
+  - function.swoole-cpu-num.html: « swoolecpunum
+  - function.swoole-error-log.html: swooleerrorlog »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleerrno
+---
 # swooleerrno
 
 (PECL swoole >= 1.9.0)

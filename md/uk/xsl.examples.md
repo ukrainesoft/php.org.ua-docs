@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](xsl.constants.md)
-    
--   [Файли collection.xml та collection.xsl для прикладів »](xsl.examples-collection.html)
-    
--   [PHP Manual](index.md)
-    
--   [XSL](book.xsl.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - xsl.constants.md: « Обумовлені константи
+  - xsl.examples-collection.html: Файли collection.xml та collection.xsl для прикладів »
+  - index.md: PHP Manual
+  - book.xsl.md: XSL
+title: Приклади
+---
 # Приклади
 
 ## Зміст

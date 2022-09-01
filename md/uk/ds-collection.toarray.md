@@ -1,16 +1,11 @@
-Перетворює колекцію на масив (array)
-
--   [« DsCollection::isEmpty](ds-collection.isempty.html)
-    
--   [Хешируемое »](class.ds-hashable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция](class.ds-collection.html)
-    
--   Перетворює колекцію на масив (array)
-    
-
+---
+navigation:
+  - ds-collection.isempty.html: '« DsCollection::isEmpty'
+  - class.ds-hashable.html: Хешируемое »
+  - index.md: PHP Manual
+  - class.ds-collection.html: Коллекция
+title: 'ДсCollection::toArray'
+---
 # ДсCollection::toArray
 
 (PECL ds >= 1.0.0)

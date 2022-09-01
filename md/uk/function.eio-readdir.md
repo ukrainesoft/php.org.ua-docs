@@ -1,16 +1,11 @@
-Читає вміст директорії
-
--   [« eioreadahead](function.eio-readahead.html)
-    
--   [eioreadlink »](function.eio-readlink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Читає вміст директорії
-    
-
+---
+navigation:
+  - function.eio-readahead.html: « eioreadahead
+  - function.eio-readlink.html: eioreadlink »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eioreaddir
+---
 # eioreaddir
 
 (PECL eio >= 0.0.1dev)

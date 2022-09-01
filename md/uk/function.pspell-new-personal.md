@@ -1,16 +1,11 @@
-Завантажує новий словник із персональним списком слів
-
--   [« pspellnewconfig](function.pspell-new-config.html)
-    
--   [pspellnew »](function.pspell-new.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Завантажує новий словник із персональним списком слів
-    
-
+---
+navigation:
+  - function.pspell-new-config.html: « pspellnewconfig
+  - function.pspell-new.html: pspellnew »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellnewpersonal
+---
 # pspellnewpersonal
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -66,9 +61,9 @@ Mode - це бітова маска, сконструйована з перел�
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

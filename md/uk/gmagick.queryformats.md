@@ -1,16 +1,11 @@
-Повертає формати, що підтримуються Gmagick
-
--   [« Gmagick::queryfonts](gmagick.queryfonts.md)
-    
--   [Gmagick::radialblurimage »](gmagick.radialblurimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає формати, що підтримуються Gmagick
-    
-
+---
+navigation:
+  - gmagick.queryfonts.md: '« Gmagick::queryfonts'
+  - gmagick.radialblurimage.md: 'Gmagick::radialblurimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::queryformats'
+---
 # Gmagick::queryformats
 
 (PECL gmagick >= Unknown)

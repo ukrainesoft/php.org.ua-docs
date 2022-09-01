@@ -1,16 +1,11 @@
-Повертає значення параметра фасету
-
--   [« SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.md)
-    
--   [SolrQuery::getFacetDateEnd »](solrquery.getfacetdateend.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає значення параметра фасету
-    
-
+---
+navigation:
+  - solrquery.getexpandsortfields.md: '« SolrQuery::getExpandSortFields'
+  - solrquery.getfacetdateend.md: 'SolrQuery::getFacetDateEnd »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacet'
+---
 # SolrQuery::getFacet
 
 (PECL solr> = 0.9.2)

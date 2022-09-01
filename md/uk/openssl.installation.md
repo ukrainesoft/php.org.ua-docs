@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](openssl.requirements.md)
-    
--   [Налаштування під час виконання »](openssl.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](openssl.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - openssl.requirements.md: « Вимоги
+  - openssl.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - openssl.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для підтримки OpenSSL у PHP вам необхідно скомпілювати його з опцією **\-with-openssl=DIR**
@@ -39,6 +34,6 @@
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Конфігураційний шлях OpenSSL було змінено з C:usrlocalssl на C:Program FilesCommon FilesSSL або C:Program Files (x86)Common FilesSSL відповідно. |
+| Версия | Описание |
+| --- | --- |
+|  | Конфігураційний шлях OpenSSL було змінено з C:usrlocalssl на C:Program FilesCommon FilesSSL або C:Program Files (x86)Common FilesSSL відповідно. |

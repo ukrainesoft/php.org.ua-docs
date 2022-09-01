@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getPointerType](ffi-ctype.getpointertype.html)
-    
--   [FFICType::getStructFieldNames »](ffi-ctype.getstructfieldnames.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getpointertype.html: '« FFICType::getPointerType'
+  - ffi-ctype.getstructfieldnames.html: 'FFICType::getStructFieldNames »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getSize'
+---
 # FFICType::getSize
 
 (PHP 8> = 8.1.0)

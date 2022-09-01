@@ -1,16 +1,11 @@
-Підтримувані протоколи та обгортки
-
--   [« Опции контекста Zip](context.zip.html)
-    
--   [file:// »](wrappers.file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Довідник мови](langref.html)
-    
--   Підтримувані протоколи та обгортки
-    
-
+---
+navigation:
+  - context.zip.html: « Опции контекста Zip
+  - wrappers.file.html: 'file:// »'
+  - index.html: PHP Manual
+  - langref.html: Довідник мови
+title: Підтримувані протоколи та обгортки
+---
 # Підтримувані протоколи та обгортки
 
 PHP поставляється з багатьма вбудованими обгортками для різних URL-протоколів для використання з функціями файлової системи, таких як [fopen()](function.fopen.html) [copy()](function.copy.html) [fileexists()](function.file-exists.html) і [filesize()](function.filesize.html). Крім цих обгорток, можна реєструвати власні обгортки, використовуючи функцію [streamwrapperregister()](function.stream-wrapper-register.html)

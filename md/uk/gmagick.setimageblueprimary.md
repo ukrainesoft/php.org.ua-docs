@@ -1,16 +1,11 @@
-Встановлює кольоровість зображення блакитною основною точкою
-
--   [« Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.md)
-    
--   [Gmagick::setimagebordercolor »](gmagick.setimagebordercolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює кольоровість зображення блакитною основною точкою
-    
-
+---
+navigation:
+  - gmagick.setimagebackgroundcolor.md: '« Gmagick::setimagebackgroundcolor'
+  - gmagick.setimagebordercolor.md: 'Gmagick::setimagebordercolor »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageblueprimary'
+---
 # Gmagick::setimageblueprimary
 
 (PECL gmagick >= Unknown)

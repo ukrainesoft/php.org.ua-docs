@@ -1,16 +1,11 @@
-Експортує CSR у файл
-
--   [« opensslcmsverify](function.openssl-cms-verify.html)
-    
--   [opensslcsrexport »](function.openssl-csr-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Експортує CSR у файл
-    
-
+---
+navigation:
+  - function.openssl-cms-verify.html: « opensslcmsverify
+  - function.openssl-csr-export.html: opensslcsrexport »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslcsrexportтоfile
+---
 # opensslcsrexportтоfile
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ openssl_csr_export_to_file(OpenSSLCertificateSigningRequest|string $csr, string 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

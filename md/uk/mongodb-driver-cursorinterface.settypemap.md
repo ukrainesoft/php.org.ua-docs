@@ -1,16 +1,11 @@
-Задати порівняння типів для десеріалізації BSON
-
--   [« MongoDBDriverCursorInterface::isDead](mongodb-driver-cursorinterface.isdead.html)
-    
--   [MongoDBDriverCursorInterface::toArray »](mongodb-driver-cursorinterface.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
-    
--   Задати порівняння типів для десеріалізації BSON
-    
-
+---
+navigation:
+  - mongodb-driver-cursorinterface.isdead.html: '« MongoDBDriverCursorInterface::isDead'
+  - mongodb-driver-cursorinterface.toarray.html: 'MongoDBDriverCursorInterface::toArray »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+title: 'MongoDBDriverCursorInterface::setTypeMap'
+---
 # MongoDBDriverCursorInterface::setTypeMap
 
 (mongodb >=1.6.0)

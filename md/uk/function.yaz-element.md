@@ -1,16 +1,11 @@
-Вказує ім'я набору елементів для пошуку
-
--   [« yazdatabase](function.yaz-database.html)
-    
--   [yazerrno »](function.yaz-errno.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Вказує ім'я набору елементів для пошуку
-    
-
+---
+navigation:
+  - function.yaz-database.html: « yazdatabase
+  - function.yaz-errno.html: yazerrno »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazelement
+---
 # yazelement
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

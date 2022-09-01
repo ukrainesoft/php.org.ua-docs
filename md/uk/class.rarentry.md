@@ -1,16 +1,11 @@
-Клас RarEntry
-
--   [« RarArchive::toString](rararchive.tostring.md)
-    
--   [RarEntry::extract »](rarentry.extract.md)
-    
--   [PHP Manual](index.md)
-    
--   [Rar](book.rar.md)
-    
--   Клас RarEntry
-    
-
+---
+navigation:
+  - rararchive.tostring.md: '« RarArchive::toString'
+  - rarentry.extract.md: 'RarEntry::extract »'
+  - index.md: PHP Manual
+  - book.rar.md: Rar
+title: 'Клас [RarEntry](class.rarentry.md)'
+---
 # Клас [RarEntry](class.rarentry.md)
 
 (PECL rar >= 0.1)

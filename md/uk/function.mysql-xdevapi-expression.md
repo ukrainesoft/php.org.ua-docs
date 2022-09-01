@@ -1,16 +1,11 @@
-Зв'язує підготовлені змінні твердження як параметри
-
--   [« Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
-    
--   [getSession »](function.mysql-xdevapi-getsession.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
-    
--   Зв'язує підготовлені змінні твердження як параметри
-    
-
+---
+navigation:
+  - ref.mysql-xdevapi.html: « Функції Mysqlxdevapi
+  - function.mysql-xdevapi-getsession.html: getSession »
+  - index.html: PHP Manual
+  - ref.mysql-xdevapi.html: Функції Mysqlxdevapi
+title: expression
+---
 # expression
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Повертає рівень вкладеності механізму буферизації виводу
-
--   [« obgetlength](function.ob-get-length.html)
-    
--   [проgetstatus »](function.ob-get-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   Повертає рівень вкладеності механізму буферизації виводу
-    
-
+---
+navigation:
+  - function.ob-get-length.html: « obgetlength
+  - function.ob-get-status.html: проgetstatus »
+  - index.html: PHP Manual
+  - ref.outcontrol.html: Функції контролю виведення
+title: проgetlevel
+---
 # проgetlevel
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

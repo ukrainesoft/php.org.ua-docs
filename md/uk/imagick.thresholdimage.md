@@ -1,16 +1,11 @@
-Змінює окремі пікселі на основі порогового значення
-
--   [« Imagick::textureImage](imagick.textureimage.md)
-    
--   [Imagick::thumbnailImage »](imagick.thumbnailimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Змінює окремі пікселі на основі порогового значення
-    
-
+---
+navigation:
+  - imagick.textureimage.md: '« Imagick::textureImage'
+  - imagick.thumbnailimage.md: 'Imagick::thumbnailImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::thresholdImage'
+---
 # Imagick::thresholdImage
 
 (PECL imagick 2, PECL imagick 3)

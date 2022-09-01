@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](enchant.configuration.html)
-    
--   [Обумовлені константи »](enchant.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](enchant.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - enchant.configuration.html: « Налаштування під час виконання
+  - enchant.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - enchant.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 До PHP 8.0.0, у цьому модулі використовуються два типи ресурсів. Перший для брокера (менеджер бекендів). Друга для словника.

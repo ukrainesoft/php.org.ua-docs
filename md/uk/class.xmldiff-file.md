@@ -1,16 +1,11 @@
-Клас XMLDiffFile
-
--   [« XMLDiffMemory::merge](xmldiff-memory.merge.html)
-    
--   [XMLDiffFile::diff »](xmldiff-file.diff.html)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiff](book.xmldiff.md)
-    
--   Клас XMLDiffFile
-    
-
+---
+navigation:
+  - xmldiff-memory.merge.html: '« XMLDiffMemory::merge'
+  - xmldiff-file.diff.html: 'XMLDiffFile::diff »'
+  - index.md: PHP Manual
+  - book.xmldiff.md: XMLDiff
+title: Клас XMLDiffFile
+---
 # Клас XMLDiffFile
 
 (PECL xmldiff >= 0.8.0)

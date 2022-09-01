@@ -1,16 +1,11 @@
-Отримати список усіх підтримуваних режимів шифрування
-
--   [« mcryptlistalgorithms](function.mcrypt-list-algorithms.html)
-    
--   [mcryptmoduleclose »](function.mcrypt-module-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Отримати список усіх підтримуваних режимів шифрування
-    
-
+---
+navigation:
+  - function.mcrypt-list-algorithms.html: « mcryptlistalgorithms
+  - function.mcrypt-module-close.html: mcryptmoduleclose »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptlistmodes
+---
 # mcryptlistmodes
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

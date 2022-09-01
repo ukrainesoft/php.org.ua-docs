@@ -1,16 +1,11 @@
-Перевіряє підписаний відкритий ключ та виклик
-
--   [« opensslspkinew](function.openssl-spki-new.html)
-    
--   [opensslverify »](function.openssl-verify.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Перевіряє підписаний відкритий ключ та виклик
-    
-
+---
+navigation:
+  - function.openssl-spki-new.html: « opensslspkinew
+  - function.openssl-verify.html: opensslverify »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslspkiverify
+---
 # opensslspkiverify
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

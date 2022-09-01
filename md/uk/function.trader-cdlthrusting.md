@@ -1,16 +1,11 @@
-Свічкова модель "Поштовх"
-
--   [« tradercdltasukigap](function.trader-cdltasukigap.html)
-    
--   [tradercdltristar »](function.trader-cdltristar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Свічкова модель "Поштовх"
-    
-
+---
+navigation:
+  - function.trader-cdltasukigap.html: « tradercdltasukigap
+  - function.trader-cdltristar.html: tradercdltristar »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlthrusting
+---
 # tradercdlthrusting
 
 (PECL trader >= 0.2.0)

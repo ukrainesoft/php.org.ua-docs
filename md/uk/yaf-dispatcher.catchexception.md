@@ -1,16 +1,11 @@
-Включає/вимикає перехоплення винятків
-
--   [« YafDispatcher::autoRender](yaf-dispatcher.autorender.html)
-    
--   [YafDispatcher::construct »](yaf-dispatcher.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Включає/вимикає перехоплення винятків
-    
-
+---
+navigation:
+  - yaf-dispatcher.autorender.html: '« YafDispatcher::autoRender'
+  - yaf-dispatcher.construct.html: 'YafDispatcher::construct »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::catchException'
+---
 # YafDispatcher::catchException
 
 (Yaf >=1.0.0)

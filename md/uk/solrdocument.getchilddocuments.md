@@ -1,16 +1,11 @@
-Повертає масив дочірніх документів (SolrDocument)
-
--   [« SolrDocument::get](solrdocument.get.html)
-    
--   [SolrDocument::getChildDocumentsCount »](solrdocument.getchilddocumentscount.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Повертає масив дочірніх документів (SolrDocument)
-    
-
+---
+navigation:
+  - solrdocument.get.html: '« SolrDocument::get'
+  - solrdocument.getchilddocumentscount.html: 'SolrDocument::getChildDocumentsCount »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::getChildDocuments'
+---
 # SolrDocument::getChildDocuments
 
 (PECL solr> = 2.3.0)

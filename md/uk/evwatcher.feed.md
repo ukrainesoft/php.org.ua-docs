@@ -1,16 +1,11 @@
-Подає зазначені події у цикл подій
-
--   [« EvWatcher::construct](evwatcher.construct.html)
-    
--   [EvWatcher::getLoop »](evwatcher.getloop.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvWatcher](class.evwatcher.html)
-    
--   Подає зазначені події у цикл подій
-    
-
+---
+navigation:
+  - evwatcher.construct.html: '« EvWatcher::construct'
+  - evwatcher.getloop.html: 'EvWatcher::getLoop »'
+  - index.html: PHP Manual
+  - class.evwatcher.html: EvWatcher
+title: 'EvWatcher::feed'
+---
 # EvWatcher::feed
 
 (PECL ev >= 0.2.0)

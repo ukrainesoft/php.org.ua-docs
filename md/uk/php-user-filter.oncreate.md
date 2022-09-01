@@ -1,16 +1,11 @@
-Викликається під час створення об'єкта фільтра
-
--   [« phpuserfilter::onClose](php-user-filter.onclose.html)
-    
--   [streamWrapper »](class.streamwrapper.md)
-    
--   [PHP Manual](index.md)
-    
--   [phpuserfilter](class.php-user-filter.html)
-    
--   Викликається під час створення об'єкта фільтра
-    
-
+---
+navigation:
+  - php-user-filter.onclose.html: '« phpuserfilter::onClose'
+  - class.streamwrapper.md: streamWrapper »
+  - index.md: PHP Manual
+  - class.php-user-filter.html: phpuserfilter
+title: 'phpuserfilter::onCreate'
+---
 # phpuserfilter::onCreate
 
 (PHP 5, PHP 7, PHP 8)
@@ -27,11 +22,11 @@ public php_user_filter::onCreate(): bool
 
 Коли фільтр спочатку створюється та викликається метод `yourfilter->onCreate()`, буде доступний ряд таких властивостей, які описані в таблиці.
 
-| Свойство                  | Содержание                                                                                                                                                                                                    |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Свойство | Содержание |
+| --- | --- |
 | `FilterClass->filtername` | Рядок, що містить ім'я фільтра, присвоєне йому під час створення. Фільтри можна реєструвати під різними іменами чи спецсимволами. Цю властивість можна використовувати визначення, яке ім'я було використано. |
-| `FilterClass->params`     | Вміст аргументу `params` передається у функцію [streamfilterappend()](function.stream-filter-append.html) або [streamfilterprepend()](function.stream-filter-prepend.html)                                    |
-| `FilterClass->stream`     | Ресурс потоку, який фільтруватиметься. Властивість доступна, тільки якщо метод **filter()** викликається, коли параметр `closing` дорівнює **`false`**                                                        |
+| `FilterClass->params` | Вміст аргументу `params` передається у функцію [streamfilterappend()](function.stream-filter-append.html) або [streamfilterprepend()](function.stream-filter-prepend.html) |
+| `FilterClass->stream` | Ресурс потоку, який фільтруватиметься. Властивість доступна, тільки якщо метод **filter()** викликається, коли параметр `closing` дорівнює **`false`** |
 
 ### Список параметрів
 

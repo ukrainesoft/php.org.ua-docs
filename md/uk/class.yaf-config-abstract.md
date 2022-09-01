@@ -1,16 +1,11 @@
-Клас YafConfigAbstract
-
--   [« YafDispatcher::throwException](yaf-dispatcher.throwexception.html)
-    
--   [YafConfigAbstract::get »](yaf-config-abstract.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafConfigAbstract
-    
-
+---
+navigation:
+  - yaf-dispatcher.throwexception.html: '« YafDispatcher::throwException'
+  - yaf-config-abstract.get.html: 'YafConfigAbstract::get »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafConfigAbstract
+---
 # Клас YafConfigAbstract
 
 (Yaf >=1.0.0)

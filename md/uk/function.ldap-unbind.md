@@ -1,16 +1,11 @@
-Розірвати прив'язку до директорії LDAP
-
--   [« ldapt61то](function.ldap-t61-to-8859.html)
-    
--   [LDAPConnection »](class.ldap-connection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Розірвати прив'язку до директорії LDAP
-    
-
+---
+navigation:
+  - function.ldap-t61-to-8859.html: « ldapt61то
+  - class.ldap-connection.html: LDAPConnection »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapunbind
+---
 # ldapunbind
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ ldap_unbind(LDAP\Connection $ldap): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

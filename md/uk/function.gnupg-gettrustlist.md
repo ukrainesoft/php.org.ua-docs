@@ -1,16 +1,11 @@
-Пошук довірчих елементів
-
--   [« gnupggetprotocol](function.gnupg-getprotocol.html)
-    
--   [gnupgimport »](function.gnupg-import.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Пошук довірчих елементів
-    
-
+---
+navigation:
+  - function.gnupg-getprotocol.html: « gnupggetprotocol
+  - function.gnupg-import.html: gnupgimport »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupggettrustlist
+---
 # gnupggettrustlist
 
 (PECL gnupg >= 0.5)

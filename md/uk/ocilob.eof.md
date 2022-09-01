@@ -1,16 +1,11 @@
-Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта.
-
--   [« OCILob::close](ocilob.close.html)
-    
--   [OCILob::erase »](ocilob.erase.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCILob](class.ocilob.html)
-    
--   Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта.
-    
-
+---
+navigation:
+  - ocilob.close.html: '« OCILob::close'
+  - ocilob.erase.html: 'OCILob::erase »'
+  - index.html: PHP Manual
+  - class.ocilob.html: OCILob
+title: 'OCILob::eof'
+---
 # OCILob::eof
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -35,8 +30,8 @@ public OCILob::eof(): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Примітки

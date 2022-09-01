@@ -1,16 +1,11 @@
-Запобігає викликам, які змінюють буфер подій у разі успішного виконання
-
--   [« EventBuffer::expand](eventbuffer.expand.html)
-    
--   [EventBuffer::lock »](eventbuffer.lock.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Запобігає викликам, які змінюють буфер подій у разі успішного виконання
-    
-
+---
+navigation:
+  - eventbuffer.expand.html: '« EventBuffer::expand'
+  - eventbuffer.lock.html: 'EventBuffer::lock »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::freeze'
+---
 # EventBuffer::freeze
 
 (PECL event >= 1.2.6-beta)

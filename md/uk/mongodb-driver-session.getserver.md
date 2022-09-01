@@ -1,16 +1,11 @@
-Повертає сервер, до якого прив'язана поточна сесія
-
--   [« MongoDBDriverSession::getOperationTime](mongodb-driver-session.getoperationtime.html)
-    
--   [MongoDBDriverSession::getTransactionOptions »](mongodb-driver-session.gettransactionoptions.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Повертає сервер, до якого прив'язана поточна сесія
-    
-
+---
+navigation:
+  - mongodb-driver-session.getoperationtime.html: '« MongoDBDriverSession::getOperationTime'
+  - mongodb-driver-session.gettransactionoptions.html: 'MongoDBDriverSession::getTransactionOptions »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::getServer'
+---
 # MongoDBDriverSession::getServer
 
 (mongodb >=1.6.0)

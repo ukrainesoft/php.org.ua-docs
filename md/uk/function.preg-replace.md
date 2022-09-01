@@ -1,16 +1,11 @@
-Виконує пошук та заміну за регулярним виразом
-
--   [« pregreplacecallback](function.preg-replace-callback.html)
-    
--   [pregsplit »](function.preg-split.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Виконує пошук та заміну за регулярним виразом
-    
-
+---
+navigation:
+  - function.preg-replace-callback.html: « pregreplacecallback
+  - function.preg-split.html: pregsplit »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: pregreplace
+---
 # pregreplace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

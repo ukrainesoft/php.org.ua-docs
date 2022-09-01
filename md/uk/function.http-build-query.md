@@ -1,16 +1,11 @@
-Генерує URL-кодований рядок запиту
-
--   [« getmetatags](function.get-meta-tags.html)
-    
--   [parseurl »](function.parse-url.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції URL](ref.url.html)
-    
--   Генерує URL-кодований рядок запиту
-    
-
+---
+navigation:
+  - function.get-meta-tags.html: « getmetatags
+  - function.parse-url.html: parseurl »
+  - index.html: PHP Manual
+  - ref.url.html: Функції URL
+title: httpbuildquery
+---
 # httpbuildquery
 
 (PHP 5, PHP 7, PHP 8)

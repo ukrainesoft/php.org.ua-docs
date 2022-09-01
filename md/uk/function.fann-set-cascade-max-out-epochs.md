@@ -1,16 +1,11 @@
-Встановлює максимальну кількість епох
-
--   [« fannsetcascademaxcandepochs](function.fann-set-cascade-max-cand-epochs.html)
-    
--   [fannsetcascademincandepochs »](function.fann-set-cascade-min-cand-epochs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює максимальну кількість епох
-    
-
+---
+navigation:
+  - function.fann-set-cascade-max-cand-epochs.html: « fannsetcascademaxcandepochs
+  - function.fann-set-cascade-min-cand-epochs.html: fannsetcascademincandepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascademaxoutepochs
+---
 # fannsetcascademaxoutepochs
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Клас MessageFormatter
-
--   [« Normalizer::normalize](normalizer.normalize.md)
-    
--   [MessageFormatter::create »](messageformatter.create.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас MessageFormatter
-    
-
+---
+navigation:
+  - normalizer.normalize.md: '« Normalizer::normalize'
+  - messageformatter.create.md: 'MessageFormatter::create »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас MessageFormatter
+---
 # Клас MessageFormatter
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

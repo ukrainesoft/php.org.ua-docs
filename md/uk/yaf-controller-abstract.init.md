@@ -1,16 +1,11 @@
-Ініціалізатор контролера
-
--   [« YafControllerAbstract::getViewpath](yaf-controller-abstract.getviewpath.html)
-    
--   [YafControllerAbstract::initView »](yaf-controller-abstract.initview.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Ініціалізатор контролера
-    
-
+---
+navigation:
+  - yaf-controller-abstract.getviewpath.html: '« YafControllerAbstract::getViewpath'
+  - yaf-controller-abstract.initview.html: 'YafControllerAbstract::initView »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::init'
+---
 # YafControllerAbstract::init
 
 (Yaf >=1.0.0)

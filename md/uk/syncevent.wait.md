@@ -1,16 +1,11 @@
-Очікує запуску/установки події
-
--   [« SyncEvent::reset](syncevent.reset.html)
-    
--   [SyncReaderWriter »](class.syncreaderwriter.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncEvent](class.syncevent.html)
-    
--   Очікує запуску/установки події
-    
-
+---
+navigation:
+  - syncevent.reset.html: '« SyncEvent::reset'
+  - class.syncreaderwriter.html: SyncReaderWriter »
+  - index.html: PHP Manual
+  - class.syncevent.html: SyncEvent
+title: 'SyncEvent::wait'
+---
 # SyncEvent::wait
 
 (PECL sync >= 1.0.0)

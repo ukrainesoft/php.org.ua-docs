@@ -1,16 +1,11 @@
-Верх/вниз – три методи
-
--   [« tradercdlupsidegap2crows](function.trader-cdlupsidegap2crows.html)
-    
--   [traderceil »](function.trader-ceil.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Верх/вниз – три методи
-    
-
+---
+navigation:
+  - function.trader-cdlupsidegap2crows.html: « tradercdlupsidegap2crows
+  - function.trader-ceil.html: traderceil »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlxsidegap3methods
+---
 # tradercdlxsidegap3methods
 
 (PECL trader >= 0.2.0)

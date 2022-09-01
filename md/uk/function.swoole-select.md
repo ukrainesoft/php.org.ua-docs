@@ -1,16 +1,11 @@
-Вибрати опис файлів, які готові до читання/запису або помилки в цикл подій
-
--   [« swooleloadmodule](function.swoole-load-module.html)
-    
--   [swoolesetprocessname »](function.swoole-set-process-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Вибрати опис файлів, які готові до читання/запису або помилки в цикл подій
-    
-
+---
+navigation:
+  - function.swoole-load-module.html: « swooleloadmodule
+  - function.swoole-set-process-name.html: swoolesetprocessname »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleselect
+---
 # swooleselect
 
 (PECL swoole >= 1.9.0)

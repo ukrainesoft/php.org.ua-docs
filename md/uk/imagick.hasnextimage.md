@@ -1,16 +1,11 @@
-Перевіряє, чи об'єкт містить більше зображень
-
--   [« Imagick::haldClutImage](imagick.haldclutimage.md)
-    
--   [Imagick::hasPreviousImage »](imagick.haspreviousimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перевіряє, чи об'єкт містить більше зображень
-    
-
+---
+navigation:
+  - imagick.haldclutimage.md: '« Imagick::haldClutImage'
+  - imagick.haspreviousimage.md: 'Imagick::hasPreviousImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::hasNextImage'
+---
 # Imagick::hasNextImage
 
 (PECL imagick 2, PECL imagick 3)

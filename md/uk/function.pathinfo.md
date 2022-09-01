@@ -1,16 +1,11 @@
-Повертає інформацію про шлях до файлу
-
--   [« parseinistring](function.parse-ini-string.html)
-    
--   [pclose »](function.pclose.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає інформацію про шлях до файлу
-    
-
+---
+navigation:
+  - function.parse-ini-string.html: « parseinistring
+  - function.pclose.md: pclose »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: pathinfo
+---
 # pathinfo
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)

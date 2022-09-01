@@ -1,16 +1,11 @@
-Плюс-спрямований індикатор
-
--   [« traderobv](function.trader-obv.html)
-    
--   [traderplusdm »](function.trader-plus-dm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Плюс-спрямований індикатор
-    
-
+---
+navigation:
+  - function.trader-obv.html: « traderobv
+  - function.trader-plus-dm.html: traderplusdm »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderplusді
+---
 # traderplusді
 
 (PECL trader >= 0.2.0)

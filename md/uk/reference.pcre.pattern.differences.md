@@ -1,16 +1,13 @@
-Відмінності від Perl
-
--   [« Описує можливі модифікатори шаблонів Perl-сумісних регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.md)
-    
--   [Функции PCRE »](ref.pcre.md)
-    
--   [PHP Manual](index.md)
-    
--   [Регулярні вирази PCRE](pcre.pattern.md)
-    
--   Відмінності від Perl
-    
-
+---
+navigation:
+  - reference.pcre.pattern.modifiers.md: >-
+      « Описує можливі модифікатори шаблонів Perl-сумісних регулярних виразів
+      (PCRE)
+  - ref.pcre.md: Функции PCRE »
+  - index.md: PHP Manual
+  - pcre.pattern.md: Регулярні вирази PCRE
+title: Відмінності від Perl
+---
 # Відмінності від Perl
 
 Наведені тут відмінності відносяться до версії Perl 5.005.

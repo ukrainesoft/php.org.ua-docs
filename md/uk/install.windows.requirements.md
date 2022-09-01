@@ -1,16 +1,11 @@
-Вимоги до встановлення
-
--   [« Установка в системах Windows](install.windows.md)
-    
--   [PECL »](install.windows.pecl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка в системах Windows](install.windows.md)
-    
--   Вимоги до встановлення
-    
-
+---
+navigation:
+  - install.windows.md: « Установка в системах Windows
+  - install.windows.pecl.md: PECL »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Вимоги до встановлення
+---
 ## Вимоги до встановлення
 
 Для PHP потрібно як мінімум Windows 2008/Vista. 32-bit або 64-bit (AKA X86 або X64. PHP не працює на Windows RT/WOA/ARM). Починаючи з PHP 7.2.0, Windows 2008 та Vista більше не підтримуються.

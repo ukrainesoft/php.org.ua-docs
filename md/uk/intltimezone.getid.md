@@ -1,16 +1,11 @@
-Отримати ідентифікатор часового поясу
-
--   [« IntlTimeZone::getGMT](intltimezone.getgmt.md)
-    
--   [IntlTimeZone::getIDForWindowsID »](intltimezone.getidforwindowsid.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Отримати ідентифікатор часового поясу
-    
-
+---
+navigation:
+  - intltimezone.getgmt.md: '« IntlTimeZone::getGMT'
+  - intltimezone.getidforwindowsid.md: 'IntlTimeZone::getIDForWindowsID »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getID'
+---
 # IntlTimeZone::getID
 
 # intltzgetід

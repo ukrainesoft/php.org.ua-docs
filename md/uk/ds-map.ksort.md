@@ -1,16 +1,11 @@
-Сортує поточну колекцію за ключами
-
--   [« DsMap::keys](ds-map.keys.html)
-    
--   [ДсMap::ksorted »](ds-map.ksorted.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Сортує поточну колекцію за ключами
-    
-
+---
+navigation:
+  - ds-map.keys.html: '« DsMap::keys'
+  - ds-map.ksorted.html: 'ДсMap::ksorted »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::ksort'
+---
 # ДсMap::ksort
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Створює свіжу копію репозиторію на адресу repospath і копіює в destpath
-
--   [« svnreposфс](function.svn-repos-fs.html)
-    
--   [svnreposopen »](function.svn-repos-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Створює свіжу копію репозиторію на адресу repospath і копіює в destpath
-    
-
+---
+navigation:
+  - function.svn-repos-fs.html: « svnreposфс
+  - function.svn-repos-open.html: svnreposopen »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnreposhotcopy
+---
 # svnreposhotcopy
 
 (PECL svn> = 0.1.0)

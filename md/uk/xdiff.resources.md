@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](xdiff.configuration.md)
-    
--   [Обумовлені константи »](xdiff.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](xdiff.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - xdiff.configuration.md: « Налаштування під час виконання
+  - xdiff.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - xdiff.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

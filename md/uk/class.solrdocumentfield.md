@@ -1,16 +1,11 @@
-Клас SolrDocumentField
-
--   [« SolrDocument::valid](solrdocument.valid.md)
-    
--   [SolrDocumentField::construct »](solrdocumentfield.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrDocumentField
-    
-
+---
+navigation:
+  - solrdocument.valid.md: '« SolrDocument::valid'
+  - solrdocumentfield.construct.md: 'SolrDocumentField::construct »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrDocumentField
+---
 # Клас SolrDocumentField
 
 (PECL solr> = 0.9.2)

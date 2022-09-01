@@ -1,16 +1,11 @@
-Повертає текст помилки останньої операції
-
--   [« MessageFormatter::getErrorCode](messageformatter.geterrorcode.html)
-    
--   [MessageFormatter::getLocale »](messageformatter.getlocale.html)
-    
--   [PHP Manual](index.html)
-    
--   [MessageFormatter](class.messageformatter.html)
-    
--   Повертає текст помилки останньої операції
-    
-
+---
+navigation:
+  - messageformatter.geterrorcode.html: '« MessageFormatter::getErrorCode'
+  - messageformatter.getlocale.html: 'MessageFormatter::getLocale »'
+  - index.html: PHP Manual
+  - class.messageformatter.html: MessageFormatter
+title: 'MessageFormatter::getErrorMessage'
+---
 # MessageFormatter::getErrorMessage
 
 # msgfmtgeterrormessage

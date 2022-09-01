@@ -1,16 +1,11 @@
-Перемикає QueryParser на EDisMax
-
--   [« SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.md)
-    
--   [SolrCollapseFunction »](class.solrcollapsefunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Перемикає QueryParser на EDisMax
-    
-
+---
+navigation:
+  - solrdismaxquery.usedismaxqueryparser.md: '« SolrDisMaxQuery::useDisMaxQueryParser'
+  - class.solrcollapsefunction.md: SolrCollapseFunction »
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::useEDisMaxQueryParser'
+---
 # SolrDisMaxQuery::useEDisMaxQueryParser
 
 (No version information available, might only be in Git)

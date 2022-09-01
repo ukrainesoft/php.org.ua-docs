@@ -1,16 +1,11 @@
-Підписує переданий текст
-
--   [« gnupgsetsignmode](function.gnupg-setsignmode.html)
-    
--   [gnupgverify »](function.gnupg-verify.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Підписує переданий текст
-    
-
+---
+navigation:
+  - function.gnupg-setsignmode.html: « gnupgsetsignmode
+  - function.gnupg-verify.html: gnupgverify »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgsign
+---
 # gnupgsign
 
 (PECL gnupg >= 0.1)

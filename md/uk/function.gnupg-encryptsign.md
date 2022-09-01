@@ -1,16 +1,11 @@
-Шифрує та підписує переданий текст
-
--   [« gnupgencrypt](function.gnupg-encrypt.html)
-    
--   [gnupgexport »](function.gnupg-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Шифрує та підписує переданий текст
-    
-
+---
+navigation:
+  - function.gnupg-encrypt.html: « gnupgencrypt
+  - function.gnupg-export.html: gnupgexport »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgencryptsign
+---
 # gnupgencryptsign
 
 (PECL gnupg >= 0.2)

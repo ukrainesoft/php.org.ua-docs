@@ -1,16 +1,11 @@
-Отримати IntlBreakIterator зберігаючи ітератор цієї частини
-
--   [« IntlPartsIterator](class.intlpartsiterator.html)
-    
--   [UConverter »](class.uconverter.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlPartsIterator](class.intlpartsiterator.html)
-    
--   Отримати IntlBreakIterator зберігаючи ітератор цієї частини
-    
-
+---
+navigation:
+  - class.intlpartsiterator.html: « IntlPartsIterator
+  - class.uconverter.html: UConverter »
+  - index.html: PHP Manual
+  - class.intlpartsiterator.html: IntlPartsIterator
+title: 'IntlPartsIterator::getBreakIterator'
+---
 # IntlPartsIterator::getBreakIterator
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

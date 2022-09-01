@@ -1,16 +1,11 @@
-Перевірити, що phar-архів має заданий формат (tar/phar/zip)
-
--   [« Phar::isCompressed](phar.iscompressed.html)
-    
--   [Phar::isValidPharFilename »](phar.isvalidpharfilename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Перевірити, що phar-архів має заданий формат (tar/phar/zip)
-    
-
+---
+navigation:
+  - phar.iscompressed.html: '« Phar::isCompressed'
+  - phar.isvalidpharfilename.html: 'Phar::isValidPharFilename »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::isFileFormat'
+---
 # Phar::isFileFormat
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

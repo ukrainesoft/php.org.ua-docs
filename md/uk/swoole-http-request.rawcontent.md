@@ -1,16 +1,11 @@
-Отримує необроблене тіло HTTP POST
-
--   [« SwooleHttpRequest::destruct](swoole-http-request.destruct.html)
-    
--   [SwooleHttpResponse »](class.swoole-http-response.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpRequest](class.swoole-http-request.html)
-    
--   Отримує необроблене тіло HTTP POST
-    
-
+---
+navigation:
+  - swoole-http-request.destruct.html: '« SwooleHttpRequest::destruct'
+  - class.swoole-http-response.html: SwooleHttpResponse »
+  - index.html: PHP Manual
+  - class.swoole-http-request.html: SwooleHttpRequest
+title: 'SwooleHttpRequest::rawcontent'
+---
 # SwooleHttpRequest::rawcontent
 
 (PECL swoole >= 1.9.0)

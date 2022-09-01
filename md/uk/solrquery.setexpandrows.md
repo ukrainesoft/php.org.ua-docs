@@ -1,16 +1,11 @@
-Встановлює кількість рядків для відображення кожної групи (expand.rows). Типово 5
-
--   [« SolrQuery::setExpandQuery](solrquery.setexpandquery.md)
-    
--   [SolrQuery::setExplainOther »](solrquery.setexplainother.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює кількість рядків для відображення кожної групи (expand.rows). Типово 5
-    
-
+---
+navigation:
+  - solrquery.setexpandquery.md: '« SolrQuery::setExpandQuery'
+  - solrquery.setexplainother.md: 'SolrQuery::setExplainOther »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setExpandRows'
+---
 # SolrQuery::setExpandRows
 
 (PECL solr> = 2.2.0)

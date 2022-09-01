@@ -1,16 +1,11 @@
-Генерує та оновлює ідентифікатор поточної сесії
-
--   [« sessionname](function.session-name.html)
-    
--   [sessionregistershutdown »](function.session-register-shutdown.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Генерує та оновлює ідентифікатор поточної сесії
-    
-
+---
+navigation:
+  - function.session-name.html: « sessionname
+  - function.session-register-shutdown.html: sessionregistershutdown »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessionregenerateід
+---
 # sessionregenerateід
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

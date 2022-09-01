@@ -1,16 +1,11 @@
-Встановлення часу очікування для введення/виведення
-
--   [« GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.md)
-    
--   [GearmanClient::setWarningCallback »](gearmanclient.setwarningcallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Встановлення часу очікування для введення/виведення
-    
-
+---
+navigation:
+  - gearmanclient.setstatuscallback.md: '« GearmanClient::setStatusCallback'
+  - gearmanclient.setwarningcallback.md: 'GearmanClient::setWarningCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setTimeout'
+---
 # GearmanClient::setTimeout
 
 (PECL gearman >= 0.6.0)

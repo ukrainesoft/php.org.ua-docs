@@ -1,16 +1,11 @@
-Повертає кількість полів у документі
-
--   [« SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.html)
-    
--   [SolrInputDocument::getFieldNames »](solrinputdocument.getfieldnames.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Повертає кількість полів у документі
-    
-
+---
+navigation:
+  - solrinputdocument.getfieldboost.html: '« SolrInputDocument::getFieldBoost'
+  - solrinputdocument.getfieldnames.html: 'SolrInputDocument::getFieldNames »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::getFieldCount'
+---
 # SolrInputDocument::getFieldCount
 
 (PECL solr> = 0.9.2)

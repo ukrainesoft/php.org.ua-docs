@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](pdo.requirements.html)
-    
--   [Налаштування під час виконання »](pdo.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](pdo.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - pdo.requirements.html: « Вимоги
+  - pdo.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - pdo.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 **Встановлення PDO на Unix-системах**

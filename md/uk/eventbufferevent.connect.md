@@ -1,16 +1,11 @@
-Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
-
--   [« EventBufferEvent::close](eventbufferevent.close.html)
-    
--   [EventBufferEvent::connectHost »](eventbufferevent.connecthost.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
-    
-
+---
+navigation:
+  - eventbufferevent.close.html: '« EventBufferEvent::close'
+  - eventbufferevent.connecthost.html: 'EventBufferEvent::connectHost »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::connect'
+---
 # EventBufferEvent::connect
 
 (PECL event >= 1.2.6-beta)

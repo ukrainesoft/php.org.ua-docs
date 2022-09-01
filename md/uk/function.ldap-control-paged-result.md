@@ -1,16 +1,11 @@
-Надіслати серверу LDAP дані для використання посторінкового отримання результату
-
--   [« ldapcontrolpagedresultresponse](function.ldap-control-paged-result-response.html)
-    
--   [ldapcountentries »](function.ldap-count-entries.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Надіслати серверу LDAP дані для використання посторінкового отримання результату
-    
-
+---
+navigation:
+  - function.ldap-control-paged-result-response.html: « ldapcontrolpagedresultresponse
+  - function.ldap-count-entries.html: ldapcountentries »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapcontrolpagedresult
+---
 # ldapcontrolpagedresult
 
 (PHP 5> = 5.4.0, PHP 7)
@@ -53,10 +48,10 @@ ldap_control_paged_result(    resource $link,    int $pagesize,    b
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Функцію було видалено.        |
-|        | Функцію оголошено застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію було видалено. |
+|  | Функцію оголошено застарілою. |
 
 ### Приклади
 

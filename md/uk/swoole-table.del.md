@@ -1,16 +1,11 @@
-Видаляє рядок у таблиці Swoole за $rowkey
-
--   [« SwooleTable::decr](swoole-table.decr.html)
-    
--   [SwooleTable::destroy »](swoole-table.destroy.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Видаляє рядок у таблиці Swoole за $rowkey
-    
-
+---
+navigation:
+  - swoole-table.decr.html: '« SwooleTable::decr'
+  - swoole-table.destroy.html: 'SwooleTable::destroy »'
+  - index.md: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::del'
+---
 # SwooleTable::del
 
 (PECL swoole >= 1.9.0)

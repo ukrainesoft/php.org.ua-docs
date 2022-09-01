@@ -1,16 +1,11 @@
-Зробити вказаний контекст поточним
-
--   [« openalcontextcreate](function.openal-context-create.html)
-    
--   [openalcontextdestroy »](function.openal-context-destroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenAL](ref.openal.html)
-    
--   Зробити вказаний контекст поточним
-    
-
+---
+navigation:
+  - function.openal-context-create.html: « openalcontextcreate
+  - function.openal-context-destroy.html: openalcontextdestroy »
+  - index.html: PHP Manual
+  - ref.openal.html: Функции OpenAL
+title: openalcontextcurrent
+---
 # openalcontextcurrent
 
 (PECL openal >= 0.1.0)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ibase.requirements.html)
-    
--   [Налаштування під час виконання »](ibase.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ibase.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ibase.requirements.html: « Вимоги
+  - ibase.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - ibase.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль був переміщений до репозиторію [» PECL](https://pecl.php.net/) і більше не постачається з PHP 7.4.0

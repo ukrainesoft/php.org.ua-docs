@@ -1,16 +1,11 @@
-Псевдонім DateTime::format
-
--   [« datediff](function.date-diff.html)
-    
--   [dategetlasterrors »](function.date-get-last-errors.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції дати та часу](ref.datetime.html)
-    
--   Псевдонім DateTime::format
-    
-
+---
+navigation:
+  - function.date-diff.html: « datediff
+  - function.date-get-last-errors.html: dategetlasterrors »
+  - index.html: PHP Manual
+  - ref.datetime.html: Функції дати та часу
+title: dateformat
+---
 # dateformat
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

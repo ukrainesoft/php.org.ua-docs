@@ -1,16 +1,11 @@
-Малює дугу
-
--   [« ImagickDraw::annotation](imagickdraw.annotation.html)
-    
--   [ImagickDraw::bezier »](imagickdraw.bezier.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює дугу
-    
-
+---
+navigation:
+  - imagickdraw.annotation.html: '« ImagickDraw::annotation'
+  - imagickdraw.bezier.html: 'ImagickDraw::bezier »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::arc'
+---
 # ImagickDraw::arc
 
 (PECL imagick 2, PECL imagick 3)

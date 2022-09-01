@@ -1,16 +1,11 @@
-Клас RarArchive
-
--   [« rarwrappercachestats](function.rar-wrapper-cache-stats.html)
-    
--   [RarArchive::close »](rararchive.close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Rar](book.rar.html)
-    
--   Клас RarArchive
-    
-
+---
+navigation:
+  - function.rar-wrapper-cache-stats.html: « rarwrappercachestats
+  - rararchive.close.html: 'RarArchive::close »'
+  - index.html: PHP Manual
+  - book.rar.html: Rar
+title: Клас RarArchive
+---
 # Клас RarArchive
 
 (PECL rar >= 2.0.0)

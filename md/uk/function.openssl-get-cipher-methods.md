@@ -1,16 +1,11 @@
-Отримати список доступних алгоритмів шифрування
-
--   [« opensslgetcertlocations](function.openssl-get-cert-locations.html)
-    
--   [opensslgetcurvenames »](function.openssl-get-curve-names.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Отримати список доступних алгоритмів шифрування
-    
-
+---
+navigation:
+  - function.openssl-get-cert-locations.html: « opensslgetcertlocations
+  - function.openssl-get-curve-names.html: opensslgetcurvenames »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslgetcipherметодів
+---
 # opensslgetcipherметодів
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

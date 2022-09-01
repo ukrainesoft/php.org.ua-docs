@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](gearman.installation.md)
-    
--   [Типи ресурсів »](gearman.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](gearman.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - gearman.installation.md: « Установка
+  - gearman.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - gearman.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

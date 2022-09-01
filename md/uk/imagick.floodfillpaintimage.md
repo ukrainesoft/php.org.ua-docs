@@ -1,16 +1,11 @@
-Змінює значення кольору будь-якого пікселя, що відповідає цільовому
-
--   [« Imagick::flipImage](imagick.flipimage.md)
-    
--   [Imagick::flopImage »](imagick.flopimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Змінює значення кольору будь-якого пікселя, що відповідає цільовому
-    
-
+---
+navigation:
+  - imagick.flipimage.md: '« Imagick::flipImage'
+  - imagick.flopimage.md: 'Imagick::flopImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::floodFillPaintImage'
+---
 # Imagick::floodFillPaintImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

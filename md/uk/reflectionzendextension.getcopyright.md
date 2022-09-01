@@ -1,16 +1,11 @@
-Отримує авторські права
-
--   [« ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.html)
-    
--   [ReflectionZendExtension::getName »](reflectionzendextension.getname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.html)
-    
--   Отримує авторські права
-    
-
+---
+navigation:
+  - reflectionzendextension.getauthor.html: '« ReflectionZendExtension::getAuthor'
+  - reflectionzendextension.getname.html: 'ReflectionZendExtension::getName »'
+  - index.html: PHP Manual
+  - class.reflectionzendextension.html: ReflectionZendExtension
+title: 'ReflectionZendExtension::getCopyright'
+---
 # ReflectionZendExtension::getCopyright
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

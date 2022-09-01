@@ -1,16 +1,11 @@
-Встановлює файл, що містить персональний список слів
-
--   [« pspellconfigmode](function.pspell-config-mode.html)
-    
--   [pspellconfigrepl »](function.pspell-config-repl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Pspell](ref.pspell.html)
-    
--   Встановлює файл, що містить персональний список слів
-    
-
+---
+navigation:
+  - function.pspell-config-mode.html: « pspellconfigmode
+  - function.pspell-config-repl.html: pspellconfigrepl »
+  - index.html: PHP Manual
+  - ref.pspell.html: Функции Pspell
+title: pspellconfigpersonal
+---
 # pspellconfigpersonal
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pspell_config_personal(PSpell\Config $config, string $filename): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

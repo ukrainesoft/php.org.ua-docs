@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](ui.setup.md)
-    
--   [Установка »](ui.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](ui.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - ui.setup.md: « Встановлення та налаштування
+  - ui.installation.md: Установка »
+  - index.md: PHP Manual
+  - ui.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для встановлення потрібна бібліотека libui та PHP 7 або новіша.

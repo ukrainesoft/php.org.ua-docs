@@ -1,16 +1,11 @@
-Конструктор класу Value
-
--   [« ComponereValue](class.componere-value.html)
-    
--   [ComponereValue::setPrivate »](componere-value.setprivate.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereValue](class.componere-value.html)
-    
--   Конструктор класу Value
-    
-
+---
+navigation:
+  - class.componere-value.html: « ComponereValue
+  - componere-value.setprivate.html: 'ComponereValue::setPrivate »'
+  - index.md: PHP Manual
+  - class.componere-value.html: ComponereValue
+title: 'ComponereValue::construct'
+---
 # ComponereValue::construct
 
 (Componere 2 >= 2.1.0)

@@ -1,16 +1,11 @@
-Повертає версію GraphicsMagick API
-
--   [« Gmagick::getsize](gmagick.getsize.md)
-    
--   [Gmagick::hasnextimage »](gmagick.hasnextimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає версію GraphicsMagick API
-    
-
+---
+navigation:
+  - gmagick.getsize.md: '« Gmagick::getsize'
+  - gmagick.hasnextimage.md: 'Gmagick::hasnextimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getversion'
+---
 # Gmagick::getversion
 
 (PECL gmagick >= Unknown)

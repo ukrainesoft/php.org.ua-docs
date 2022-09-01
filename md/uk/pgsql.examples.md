@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](pgsql.constants.html)
-    
--   [Базовое использование »](pgsql.examples-basic.html)
-    
--   [PHP Manual](index.html)
-    
--   [PostgreSQL](book.pgsql.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - pgsql.constants.html: « Обумовлені константи
+  - pgsql.examples-basic.html: Базовое использование »
+  - index.html: PHP Manual
+  - book.pgsql.html: PostgreSQL
+title: Приклади
+---
 # Приклади
 
 ## Зміст

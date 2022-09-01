@@ -1,16 +1,11 @@
-Повертає команду запиту (метод)
-
--   [« EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.html)
-    
--   [EventHttpRequest::getConnection »](eventhttprequest.getconnection.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Повертає команду запиту (метод)
-    
-
+---
+navigation:
+  - eventhttprequest.getbufferevent.html: '« EventHttpRequest::getBufferEvent'
+  - eventhttprequest.getconnection.html: 'EventHttpRequest::getConnection »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::getCommand'
+---
 # EventHttpRequest::getCommand
 
 (PECL event >= 1.4.0-beta)

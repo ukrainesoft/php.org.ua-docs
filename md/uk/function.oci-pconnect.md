@@ -1,16 +1,11 @@
-Встановлює постійне з'єднання із сервером Oracle
-
--   [« ocipasswordchange](function.oci-password-change.html)
-    
--   [ociregistertafcallback »](function.oci-register-taf-callback.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Встановлює постійне з'єднання із сервером Oracle
-    
-
+---
+navigation:
+  - function.oci-password-change.html: « ocipasswordchange
+  - function.oci-register-taf-callback.html: ociregistertafcallback »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocipconnect
+---
 # ocipconnect
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

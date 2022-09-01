@@ -1,16 +1,11 @@
-Розпочинає транзакцію бази даних
-
--   [« Функції SQLSRV](ref.sqlsrv.md)
-    
--   [sqlsrvcancel »](function.sqlsrv-cancel.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Розпочинає транзакцію бази даних
-    
-
+---
+navigation:
+  - ref.sqlsrv.md: « Функції SQLSRV
+  - function.sqlsrv-cancel.html: sqlsrvcancel »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvbegintransaction
+---
 # sqlsrvbegintransaction
 
 (No version information available, might only be in Git)

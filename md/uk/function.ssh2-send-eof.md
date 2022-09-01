@@ -1,16 +1,11 @@
-Відправляє EOF у потік
-
--   [« ssh2scpsend](function.ssh2-scp-send.html)
-    
--   [ssh2sftpchmod »](function.ssh2-sftp-chmod.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Відправляє EOF у потік
-    
-
+---
+navigation:
+  - function.ssh2-scp-send.html: « ssh2scpsend
+  - function.ssh2-sftp-chmod.html: ssh2sftpchmod »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sendeof
+---
 # ssh2sendeof
 
 (PECL ssh2> = 1.3)

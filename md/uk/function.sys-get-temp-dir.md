@@ -1,16 +1,11 @@
-Повертає шлях до директорії тимчасових файлів
-
--   [« settimelimit](function.set-time-limit.html)
-    
--   [versioncompare »](function.version-compare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає шлях до директорії тимчасових файлів
-    
-
+---
+navigation:
+  - function.set-time-limit.html: « settimelimit
+  - function.version-compare.html: versioncompare »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: sysgettempdir
+---
 # sysgettempdir
 
 (PHP 5> = 5.2.1, PHP 7, PHP 8)

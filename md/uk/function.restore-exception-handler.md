@@ -1,16 +1,11 @@
-Відновлює попередній обробник винятків
-
--   [« restoreerrorhandler](function.restore-error-handler.html)
-    
--   [seterrorhandler »](function.set-error-handler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции обработки ошибок](ref.errorfunc.html)
-    
--   Відновлює попередній обробник винятків
-    
-
+---
+navigation:
+  - function.restore-error-handler.html: « restoreerrorhandler
+  - function.set-error-handler.html: seterrorhandler »
+  - index.html: PHP Manual
+  - ref.errorfunc.html: Функции обработки ошибок
+title: restoreexceptionhandler
+---
 # restoreexceptionhandler
 
 (PHP 5, PHP 7, PHP 8)

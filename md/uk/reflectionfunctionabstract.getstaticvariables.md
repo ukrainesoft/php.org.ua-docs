@@ -1,16 +1,11 @@
-Отримує статичні змінні
-
--   [« ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.html)
-    
--   [ReflectionFunctionAbstract::getTentativeReturnType »](reflectionfunctionabstract.gettentativereturntype.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Отримує статичні змінні
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getstartline.html: '« ReflectionFunctionAbstract::getStartLine'
+  - reflectionfunctionabstract.gettentativereturntype.html: 'ReflectionFunctionAbstract::getTentativeReturnType »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getStaticVariables'
+---
 # ReflectionFunctionAbstract::getStaticVariables
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

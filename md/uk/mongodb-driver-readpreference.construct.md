@@ -1,16 +1,11 @@
-Створити новий ReadPreference
-
--   [« MongoDBDriverReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.html)
-    
--   [MongoDBDriverReadPreference::getHedge »](mongodb-driver-readpreference.gethedge.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Створити новий ReadPreference
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.bsonserialize.html: '« MongoDBDriverReadPreference::bsonSerialize'
+  - mongodb-driver-readpreference.gethedge.html: 'MongoDBDriverReadPreference::getHedge »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::construct'
+---
 # MongoDBDriverReadPreference::construct
 
 (mongodb >=1.0.0)
@@ -31,10 +26,10 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 **Режим переваги читання**
 
-| Значение                                                                                                                 | Описание |
-|--------------------------------------------------------------------------------------------------------------------------|----------|
-| **`MongoDB\Driver\ReadPreference::RP_PRIMARY`** ор `"primary"`                                                           |          |
-| Усі операції зчитується з поточного первинного вузла реплік набору. Це перевага для читання за промовчанням для MongoDB. |          |
+| Значение | Описание |
+| --- | --- |
+| **`MongoDB\Driver\ReadPreference::RP_PRIMARY`** ор `"primary"` |  |
+| Усі операції зчитується з поточного первинного вузла реплік набору. Це перевага для читання за промовчанням для MongoDB. |  |
 
 **`MongoDB\Driver\ReadPreference::RP_PRIMARY_PREFERRED`** ор `"primaryPreferred"`
 
@@ -62,10 +57,10 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 **options**
 
-| Опция                                                                                                                                                                                             | Тип    | Описание |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|
-| hedge                                                                                                                                                                                             | object | array    |
-| Вказує, чи використовувати [» хеджовані читання](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |        |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| hedge | object | array |
+| Вказує, чи використовувати [» хеджовані читання](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |  |  |
 
 Хеджовані читання з сервера доступні для всіх неосновних переваг читання та включаються за умовчанням під час використання режиму `"nearest"`. Цей параметр дозволяє явно дозволити читання з хеджування на сервері для неосновних переваг читання, вказавши `['enabled' => true]`, або явно відключивши серверне читання з хеджуванням для переваг читання `"nearest"`, вказавши `['enabled' => false]`
 
@@ -88,11 +83,11 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 ### список змін
 
-| Версия                                                                                                                                                                       | Описание                   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| PECL mongodb 1.8.0                                                                                                                                                           | Доданий параметр `"hedge"` |
-| PECL mongodb 1.3.0                                                                                                                                                           |                            |
-| Аргумент `mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"` для [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) |                            |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.8.0 | Доданий параметр `"hedge"` |
+| PECL mongodb 1.3.0 |  |
+| Аргумент `mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"` для [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) |  |
 
 | | PECL mongodb 1.2.0
 

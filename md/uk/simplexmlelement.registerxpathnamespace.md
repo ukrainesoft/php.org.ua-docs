@@ -1,16 +1,11 @@
-Створює префікс/простір імен контексту для наступного запиту XPath
-
--   [« SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.md)
-    
--   [SimpleXMLElement::saveXML »](simplexmlelement.savexml.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Створює префікс/простір імен контексту для наступного запиту XPath
-    
-
+---
+navigation:
+  - simplexmlelement.getnamespaces.md: '« SimpleXMLElement::getNamespaces'
+  - simplexmlelement.savexml.md: 'SimpleXMLElement::saveXML »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::registerXPathNamespace'
+---
 # SimpleXMLElement::registerXPathNamespace
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

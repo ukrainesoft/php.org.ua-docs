@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineClient::construct](swoole-coroutine-client.construct.html)
-    
--   [SwooleCoroutineClient::getpeername »](swoole-coroutine-client.getpeername.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-client.construct.html: '« SwooleCoroutineClient::construct'
+  - swoole-coroutine-client.getpeername.html: 'SwooleCoroutineClient::getpeername »'
+  - index.html: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineClient::destruct'
+---
 # SwooleCoroutineClient::destruct
 
 (PECL swoole >= 2.0.0)

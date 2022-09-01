@@ -1,16 +1,11 @@
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-
--   [« CommonMarkNode::insertAfter](commonmark-node.insertafter.html)
-    
--   [CommonMarkNode::replace »](commonmark-node.replace.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMarkNode](class.commonmark-node.html)
-    
--   Маніпуляції з AST (Абстрактне синтаксичне дерево)
-    
-
+---
+navigation:
+  - commonmark-node.insertafter.html: '« CommonMarkNode::insertAfter'
+  - commonmark-node.replace.html: 'CommonMarkNode::replace »'
+  - index.html: PHP Manual
+  - class.commonmark-node.html: CommonMarkNode
+title: 'CommonMarkNode::insertBefore'
+---
 # CommonMarkNode::insertBefore
 
 (cmark >= 1.0.0)

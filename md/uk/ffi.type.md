@@ -1,16 +1,11 @@
-Створює об'єкт FFICType із декларації С
-
--   [« FFI::string](ffi.string.html)
-    
--   [FFI::typeof »](ffi.typeof.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Створює об'єкт FFICType із декларації С
-    
-
+---
+navigation:
+  - ffi.string.html: '« FFI::string'
+  - ffi.typeof.html: 'FFI::typeof »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::type'
+---
 # FFI::type
 
 (PHP 7> = 7.4.0, PHP 8)

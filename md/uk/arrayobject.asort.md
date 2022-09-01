@@ -1,16 +1,11 @@
-Сортувати записи за значенням
-
--   [« ArrayObject::append](arrayobject.append.md)
-    
--   [ArrayObject::construct »](arrayobject.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Сортувати записи за значенням
-    
-
+---
+navigation:
+  - arrayobject.append.md: '« ArrayObject::append'
+  - arrayobject.construct.md: 'ArrayObject::construct »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::asort'
+---
 # ArrayObject::asort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

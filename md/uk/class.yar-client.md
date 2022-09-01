@@ -1,16 +1,11 @@
-Клас YarClient
-
--   [« YarServer::handle](yar-server.handle.html)
-    
--   [YarClient::call »](yar-client.call.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yar](book.yar.md)
-    
--   Клас YarClient
-    
-
+---
+navigation:
+  - yar-server.handle.html: '« YarServer::handle'
+  - yar-client.call.html: 'YarClient::call »'
+  - index.md: PHP Manual
+  - book.yar.md: Yar
+title: Клас YarClient
+---
 # Клас YarClient
 
 (No version information available, might only be in Git)

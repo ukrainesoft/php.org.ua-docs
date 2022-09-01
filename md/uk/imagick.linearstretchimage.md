@@ -1,16 +1,11 @@
-Розтягує з насиченням яскравість зображення
-
--   [« Imagick::levelImage](imagick.levelimage.html)
-    
--   [Imagick::liquidRescaleImage »](imagick.liquidrescaleimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Розтягує з насиченням яскравість зображення
-    
-
+---
+navigation:
+  - imagick.levelimage.html: '« Imagick::levelImage'
+  - imagick.liquidrescaleimage.html: 'Imagick::liquidRescaleImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::linearStretchImage'
+---
 # Imagick::linearStretchImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Передаємо подію сигналу в Ev
-
--   [« Ev::embeddableBackends](ev.embeddablebackends.md)
-    
--   [Ev::feedSignalEvent »](ev.feedsignalevent.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Передаємо подію сигналу в Ev
-    
-
+---
+navigation:
+  - ev.embeddablebackends.md: '« Ev::embeddableBackends'
+  - ev.feedsignalevent.md: 'Ev::feedSignalEvent »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::feedSignal'
+---
 # Ev::feedSignal
 
 (PECL ev >= 0.2.0)

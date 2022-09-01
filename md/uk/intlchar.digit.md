@@ -1,16 +1,11 @@
-Отримати десяткове число із символу Unicode із заданою основою
-
--   [« IntlChar::chr](intlchar.chr.md)
-    
--   [IntlChar::enumCharNames »](intlchar.enumcharnames.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати десяткове число із символу Unicode із заданою основою
-    
-
+---
+navigation:
+  - intlchar.chr.md: '« IntlChar::chr'
+  - intlchar.enumcharnames.md: 'IntlChar::enumCharNames »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::digit'
+---
 # IntlChar::digit
 
 (PHP 7, PHP 8)

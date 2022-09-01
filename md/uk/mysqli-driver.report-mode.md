@@ -1,16 +1,11 @@
-Встановлює режим звіту про помилки mysqli
-
--   [« mysqlidriver::embeddedserverstart](mysqli-driver.embedded-server-start.html)
-    
--   [mysqliwarning »](class.mysqli-warning.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlidriver](class.mysqli-driver.html)
-    
--   Встановлює режим звіту про помилки mysqli
-    
-
+---
+navigation:
+  - mysqli-driver.embedded-server-start.html: '« mysqlidriver::embeddedserverstart'
+  - class.mysqli-warning.html: mysqliwarning »
+  - index.html: PHP Manual
+  - class.mysqli-driver.html: mysqlidriver
+title: 'mysqlidriver::$reportmode'
+---
 # mysqlidriver::$reportmode
 
 # mysqlireport
@@ -41,13 +36,13 @@ mysqli_report(int $flags): bool
 
 **Прапори, що підтримуються**
 
-| Имя                        | Описание                                                                                                           |
-|----------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **`MYSQLI_REPORT_OFF`**    | Вимкнути протоколювання                                                                                            |
-| **`MYSQLI_REPORT_ERROR`**  | Заносити до протоколу помилки викликів функцій mysqli                                                              |
-| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqlisqlexception](class.mysqli-sql-exception.html)             |
-| **`MYSQLI_REPORT_INDEX`**  | Заносити до протоколу факти використання у запитах невірного індексу (або коли індекс не використовується взагалі) |
-| **`MYSQLI_REPORT_ALL`**    | Увімкнути всі налаштування (заносити до протоколу всі події)                                                       |
+| Имя | Описание |
+| --- | --- |
+| **`MYSQLI_REPORT_OFF`** | Вимкнути протоколювання |
+| **`MYSQLI_REPORT_ERROR`** | Заносити до протоколу помилки викликів функцій mysqli |
+| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqlisqlexception](class.mysqli-sql-exception.html) |
+| **`MYSQLI_REPORT_INDEX`** | Заносити до протоколу факти використання у запитах невірного індексу (або коли індекс не використовується взагалі) |
+| **`MYSQLI_REPORT_ALL`** | Увімкнути всі налаштування (заносити до протоколу всі події) |
 
 ### Значення, що повертаються
 

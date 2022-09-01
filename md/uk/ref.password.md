@@ -1,16 +1,11 @@
-Функції хешування паролів
-
--   [« Обумовлені константи](password.constants.md)
-    
--   [passwordalgos »](function.password-algos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Хеширование паролей](book.password.md)
-    
--   Функції хешування паролів
-    
-
+---
+navigation:
+  - password.constants.md: « Обумовлені константи
+  - function.password-algos.html: passwordalgos »
+  - index.md: PHP Manual
+  - book.password.md: Хеширование паролей
+title: Функції хешування паролів
+---
 # Функції хешування паролів
 
 ## Зміст

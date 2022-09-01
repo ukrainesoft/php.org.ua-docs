@@ -1,16 +1,11 @@
-Запуск профілювання xhprof
-
--   [« xhprofdisable](function.xhprof-disable.html)
-    
--   [xhprofsampledisable »](function.xhprof-sample-disable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Xhprof](ref.xhprof.md)
-    
--   Запуск профілювання xhprof
-    
-
+---
+navigation:
+  - function.xhprof-disable.html: « xhprofdisable
+  - function.xhprof-sample-disable.html: xhprofsampledisable »
+  - index.md: PHP Manual
+  - ref.xhprof.md: Функции Xhprof
+title: xhprofenable
+---
 # xhprofenable
 
 (PECL xhprof >= 0.9.0)
@@ -41,8 +36,8 @@ xhprof_enable(int $flags = 0, array $options = ?): void
 
 ### список змін
 
-| Версия            | Описание                                 |
-|-------------------|------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL xhprof 0.9.2 | Додано необов'язковий параметр `options` |
 
 ### Приклади

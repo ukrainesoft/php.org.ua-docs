@@ -1,16 +1,11 @@
-Видалити метадані файлу
-
--   [« PharFileInfo::decompress](pharfileinfo.decompress.html)
-    
--   [PharFileInfo::destruct »](pharfileinfo.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharFileInfo](class.pharfileinfo.html)
-    
--   Видалити метадані файлу
-    
-
+---
+navigation:
+  - pharfileinfo.decompress.html: '« PharFileInfo::decompress'
+  - pharfileinfo.destruct.html: 'PharFileInfo::destruct »'
+  - index.html: PHP Manual
+  - class.pharfileinfo.html: PharFileInfo
+title: 'PharFileInfo::delMetadata'
+---
 # PharFileInfo::delMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.0)

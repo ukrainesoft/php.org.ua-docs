@@ -1,16 +1,11 @@
-Перерахування
-
--   [« Часті питання (FAQ): речі, які вам необхідно знати про простори імен](language.namespaces.faq.md)
-    
--   [Обзор перечислений »](language.enumerations.overview.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Перерахування
-    
-
+---
+navigation:
+  - language.namespaces.faq.md: '« Часті питання (FAQ): речі, які вам необхідно знати про простори імен'
+  - language.enumerations.overview.md: Обзор перечислений »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Перерахування
+---
 # Перерахування
 
 ## Зміст

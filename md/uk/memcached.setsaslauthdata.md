@@ -1,16 +1,11 @@
-Встановлює облікові дані для автентифікації
-
--   [« Memcached::setOptions](memcached.setoptions.md)
-    
--   [Memcached::touch »](memcached.touch.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Встановлює облікові дані для автентифікації
-    
-
+---
+navigation:
+  - memcached.setoptions.md: '« Memcached::setOptions'
+  - memcached.touch.md: 'Memcached::touch »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::setSaslAuthData'
+---
 # Memcached::setSaslAuthData
 
 (PECL memcached >= 2.0.0)

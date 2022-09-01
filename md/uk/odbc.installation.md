@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](uodbc.requirements.md)
-    
--   [Налаштування під час виконання »](odbc.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](uodbc.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - uodbc.requirements.md: « Вимоги
+  - odbc.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - uodbc.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 **\-with-adabas=DIR**

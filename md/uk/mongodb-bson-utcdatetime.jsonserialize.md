@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONUTCDateTime::construct](mongodb-bson-utcdatetime.construct.html)
-    
--   [MongoDBBSONUTCDateTime::serialize »](mongodb-bson-utcdatetime.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-utcdatetime.construct.html: '« MongoDBBSONUTCDateTime::construct'
+  - mongodb-bson-utcdatetime.serialize.html: 'MongoDBBSONUTCDateTime::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+title: 'MongoDBBSONUTCDateTime::jsonSerialize'
+---
 # MongoDBBSONUTCDateTime::jsonSerialize
 
 (mongodb >=1.2.0)

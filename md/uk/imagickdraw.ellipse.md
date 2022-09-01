@@ -1,16 +1,11 @@
-Малює на зображенні еліпс
-
--   [« ImagickDraw::destroy](imagickdraw.destroy.md)
-    
--   [ImagickDraw::getClipPath »](imagickdraw.getclippath.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює на зображенні еліпс
-    
-
+---
+navigation:
+  - imagickdraw.destroy.md: '« ImagickDraw::destroy'
+  - imagickdraw.getclippath.md: 'ImagickDraw::getClipPath »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::ellipse'
+---
 # ImagickDraw::ellipse
 
 (PECL imagick 2, PECL imagick 3)

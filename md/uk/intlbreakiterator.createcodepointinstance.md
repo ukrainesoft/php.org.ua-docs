@@ -1,16 +1,11 @@
-Створює ітератор переривання меж кодових точок.
-
--   [« IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md)
-    
--   [IntlBreakIterator::createLineInstance »](intlbreakiterator.createlineinstance.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlBreakIterator](class.intlbreakiterator.md)
-    
--   Створює ітератор переривання меж кодових точок.
-    
-
+---
+navigation:
+  - intlbreakiterator.createcharacterinstance.md: '« IntlBreakIterator::createCharacterInstance'
+  - intlbreakiterator.createlineinstance.md: 'IntlBreakIterator::createLineInstance »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::createCodePointInstance'
+---
 # IntlBreakIterator::createCodePointInstance
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Прикріпити фільтр до потоку
-
--   [« streamcopyтоstream](function.stream-copy-to-stream.html)
-    
--   [streamfilterprepend »](function.stream-filter-prepend.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Прикріпити фільтр до потоку
-    
-
+---
+navigation:
+  - function.stream-copy-to-stream.html: « streamcopyтоstream
+  - function.stream-filter-prepend.html: streamfilterprepend »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamfilterappend
+---
 # streamfilterappend
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

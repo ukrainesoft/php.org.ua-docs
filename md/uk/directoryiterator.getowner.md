@@ -1,16 +1,11 @@
-Повертає ідентифікатор власника поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getMTime](directoryiterator.getmtime.md)
-    
--   [DirectoryIterator::getPath »](directoryiterator.getpath.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає ідентифікатор власника поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getmtime.md: '« DirectoryIterator::getMTime'
+  - directoryiterator.getpath.md: 'DirectoryIterator::getPath »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getOwner'
+---
 # DirectoryIterator::getOwner
 
 (PHP 5, PHP 7, PHP 8)

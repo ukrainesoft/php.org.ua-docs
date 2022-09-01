@@ -1,16 +1,11 @@
-Додає ще одне поле до документа
-
--   [« SolrDocument::serialize](solrdocument.serialize.md)
-    
--   [SolrDocument::sort »](solrdocument.sort.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Додає ще одне поле до документа
-    
-
+---
+navigation:
+  - solrdocument.serialize.md: '« SolrDocument::serialize'
+  - solrdocument.sort.md: 'SolrDocument::sort »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::set'
+---
 # SolrDocument::set
 
 (PECL solr> = 0.9.2)

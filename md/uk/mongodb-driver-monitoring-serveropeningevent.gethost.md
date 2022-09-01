@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
-    
--   [MongoDBDriverMonitoringServerOpeningEvent::getPort »](mongodb-driver-monitoring-serveropeningevent.getport.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-serveropeningevent.html: « MongoDBDriverMonitoringServerOpeningEvent
+  - mongodb-driver-monitoring-serveropeningevent.getport.html: 'MongoDBDriverMonitoringServerOpeningEvent::getPort »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serveropeningevent.html: MongoDBDriverMonitoringServerOpeningEvent
+title: 'MongoDBDriverMonitoringServerOpeningEvent::getHost'
+---
 # MongoDBDriverMonitoringServerOpeningEvent::getHost
 
 (mongodb >=1.13.0)

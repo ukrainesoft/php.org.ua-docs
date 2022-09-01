@@ -1,16 +1,11 @@
-Записує вміст файлу на об'єкт LOB
-
--   [« OCILob::getBuffering](ocilob.getbuffering.html)
-    
--   [OCILob::load »](ocilob.load.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCILob](class.ocilob.html)
-    
--   Записує вміст файлу на об'єкт LOB
-    
-
+---
+navigation:
+  - ocilob.getbuffering.html: '« OCILob::getBuffering'
+  - ocilob.load.html: 'OCILob::load »'
+  - index.html: PHP Manual
+  - class.ocilob.html: OCILob
+title: 'OCILob::import'
+---
 # OCILob::import
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -37,8 +32,8 @@ public OCILob::import(string $filename): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

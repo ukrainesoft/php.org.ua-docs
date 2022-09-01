@@ -1,16 +1,11 @@
-Визначити, чи включений елемент керування
-
--   [« UIControl::hide](ui-control.hide.html)
-    
--   [ОЙControl::isVisible »](ui-control.isvisible.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControl](class.ui-control.html)
-    
--   Визначити, чи включений елемент керування
-    
-
+---
+navigation:
+  - ui-control.hide.html: '« UIControl::hide'
+  - ui-control.isvisible.html: 'ОЙControl::isVisible »'
+  - index.html: PHP Manual
+  - class.ui-control.html: ОЙControl
+title: 'ОЙControl::isEnabled'
+---
 # ОЙControl::isEnabled
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Записує дані на початок буфера
-
--   [« EventBuffer::lock](eventbuffer.lock.html)
-    
--   [EventBuffer::prependBuffer »](eventbuffer.prependbuffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Записує дані на початок буфера
-    
-
+---
+navigation:
+  - eventbuffer.lock.html: '« EventBuffer::lock'
+  - eventbuffer.prependbuffer.html: 'EventBuffer::prependBuffer »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::prepend'
+---
 # EventBuffer::prepend
 
 (PECL event >= 1.2.6-beta)

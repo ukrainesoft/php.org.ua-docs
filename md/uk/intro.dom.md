@@ -1,16 +1,11 @@
-Вступ
-
--   [« DOM](book.dom.html)
-    
--   [Встановлення та налаштування »](dom.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.dom.html: « DOM
+  - dom.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Вступ
+---
 # Вступ
 
 Модуль DOM дозволяє працювати з XML-документами через DOM API з PHP.

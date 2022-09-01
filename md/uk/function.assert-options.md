@@ -1,16 +1,11 @@
-Встановлення та отримання налаштувань механізму перевірки тверджень
-
--   [« Опції PHP/інформаційні функції](ref.info.md)
-    
--   [assert »](function.assert.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Встановлення та отримання налаштувань механізму перевірки тверджень
-    
-
+---
+navigation:
+  - ref.info.md: « Опції PHP/інформаційні функції
+  - function.assert.md: assert »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: assertoptions
+---
 # assertoptions
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -33,13 +28,13 @@ assert_options(int $what, mixed $value = ?): mixed
 
 **Налаштування механізму перевірки тверджень**
 
-| Настройка       | INI-параметр     | Значение по умолчанию | Описание                                                                           |
-|-----------------|------------------|-----------------------|------------------------------------------------------------------------------------|
-| ASSERTACTIVE    | assert.active    |                       | включення механізму перевірки тверджень                                            |
-| ASSERTWARNING   | assert.warning   |                       | виведення попередження PHP для кожної невдалої перевірки                           |
-| ASSERTBAIL      | assert.bail      |                       | завершити виконання у разі невдалої перевірки                                      |
-| ASSERTQUIETEVAL | assert.quieteval |                       | відключити errorreporting під час перевірки затвердження                           |
-| ASSERTCALLBACK  | assert.callback  | **`null`**            | Callback-функція, яку необхідно викликати для затвердження, що провалило перевірку |
+| Настройка | INI-параметр | Значение по умолчанию | Описание |
+| --- | --- | --- | --- |
+| ASSERTACTIVE | assert.active |  | включення механізму перевірки тверджень |
+| ASSERTWARNING | assert.warning |  | виведення попередження PHP для кожної невдалої перевірки |
+| ASSERTBAIL | assert.bail |  | завершити виконання у разі невдалої перевірки |
+| ASSERTQUIETEVAL | assert.quieteval |  | відключити errorreporting під час перевірки затвердження |
+| ASSERTCALLBACK | assert.callback | **`null`** | Callback-функція, яку необхідно викликати для затвердження, що провалило перевірку |
 
 `value`
 

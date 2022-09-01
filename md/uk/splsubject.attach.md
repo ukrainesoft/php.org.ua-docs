@@ -1,16 +1,11 @@
-Приєднати спостерігача (об'єкт класу SplObserver)
-
--   [« SplSubject](class.splsubject.md)
-    
--   [SplSubject::detach »](splsubject.detach.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplSubject](class.splsubject.md)
-    
--   Приєднати спостерігача (об'єкт класу SplObserver)
-    
-
+---
+navigation:
+  - class.splsubject.md: « SplSubject
+  - splsubject.detach.md: 'SplSubject::detach »'
+  - index.md: PHP Manual
+  - class.splsubject.md: SplSubject
+title: 'SplSubject::attach'
+---
 # SplSubject::attach
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

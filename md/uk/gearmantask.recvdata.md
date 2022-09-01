@@ -1,16 +1,11 @@
-Читання даних роботи чи результату завдання у буфер
-
--   [« GearmanTask::jobHandle](gearmantask.jobhandle.html)
-    
--   [GearmanTask::returnCode »](gearmantask.returncode.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanTask](class.gearmantask.html)
-    
--   Читання даних роботи чи результату завдання у буфер
-    
-
+---
+navigation:
+  - gearmantask.jobhandle.html: '« GearmanTask::jobHandle'
+  - gearmantask.returncode.html: 'GearmanTask::returnCode »'
+  - index.html: PHP Manual
+  - class.gearmantask.html: GearmanTask
+title: 'GearmanTask::recvData'
+---
 # GearmanTask::recvData
 
 (PECL gearman >= 0.5.0)

@@ -1,16 +1,11 @@
-Отримує базовий шлях SeasLog
-
--   [« SeasLog::flushBuffer](seaslog.flushbuffer.html)
-    
--   [SeasLog::getBuffer »](seaslog.getbuffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Отримує базовий шлях SeasLog
-    
-
+---
+navigation:
+  - seaslog.flushbuffer.html: '« SeasLog::flushBuffer'
+  - seaslog.getbuffer.html: 'SeasLog::getBuffer »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::getBasePath'
+---
 # SeasLog::getBasePath
 
 (PECL seaslog >=1.0.0)

@@ -1,16 +1,11 @@
-Повертає колір фону зображення
-
--   [« Gmagick::getfilename](gmagick.getfilename.html)
-    
--   [Gmagick::getimageblueprimary »](gmagick.getimageblueprimary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає колір фону зображення
-    
-
+---
+navigation:
+  - gmagick.getfilename.html: '« Gmagick::getfilename'
+  - gmagick.getimageblueprimary.html: 'Gmagick::getimageblueprimary »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::getimagebackgroundcolor'
+---
 # Gmagick::getimagebackgroundcolor
 
 (PECL gmagick >= Unknown)

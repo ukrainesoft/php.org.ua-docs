@@ -1,16 +1,11 @@
-Витягує вузол з купи та пересортує її
-
--   [« SplHeap::current](splheap.current.html)
-    
--   [SplHeap::insert »](splheap.insert.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplHeap](class.splheap.html)
-    
--   Витягує вузол з купи та пересортує її
-    
-
+---
+navigation:
+  - splheap.current.html: '« SplHeap::current'
+  - splheap.insert.html: 'SplHeap::insert »'
+  - index.html: PHP Manual
+  - class.splheap.html: SplHeap
+title: 'SplHeap::extract'
+---
 # SplHeap::extract
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

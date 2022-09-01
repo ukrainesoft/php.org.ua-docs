@@ -1,16 +1,11 @@
-Знищує сесію
-
--   [« SessionHandler::createsid](sessionhandler.create-sid.html)
-    
--   [SessionHandler::gc »](sessionhandler.gc.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandler](class.sessionhandler.md)
-    
--   Знищує сесію
-    
-
+---
+navigation:
+  - sessionhandler.create-sid.html: '« SessionHandler::createsid'
+  - sessionhandler.gc.md: 'SessionHandler::gc »'
+  - index.md: PHP Manual
+  - class.sessionhandler.md: SessionHandler
+title: 'SessionHandler::destroy'
+---
 # SessionHandler::destroy
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перетворює чергу на масив (array)
-
--   [« DsPriorityQueue::push](ds-priorityqueue.push.html)
-    
--   [varrepresentation »](book.var_representation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Перетворює чергу на масив (array)
-    
-
+---
+navigation:
+  - ds-priorityqueue.push.html: '« DsPriorityQueue::push'
+  - book.var_representation.md: varrepresentation »
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::toArray'
+---
 # ДсPriorityQueue::toArray
 
 (PECL ds >= 1.0.0)

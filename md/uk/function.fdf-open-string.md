@@ -1,16 +1,11 @@
-Читає FDF документ з рядка
-
--   [« fdfnextfieldname](function.fdf-next-field-name.html)
-    
--   [fdfopen »](function.fdf-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Читає FDF документ з рядка
-    
-
+---
+navigation:
+  - function.fdf-next-field-name.html: « fdfnextfieldname
+  - function.fdf-open.html: fdfopen »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfopenstring
+---
 # fdfopenstring
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

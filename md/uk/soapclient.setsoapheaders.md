@@ -1,16 +1,11 @@
-Встановлює заголовки SOAP для наступних дзвінків
-
--   [« SoapClient::setLocation](soapclient.setlocation.md)
-    
--   [SoapClient::soapCall »](soapclient.soapcall.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapClient](class.soapclient.md)
-    
--   Встановлює заголовки SOAP для наступних дзвінків
-    
-
+---
+navigation:
+  - soapclient.setlocation.md: '« SoapClient::setLocation'
+  - soapclient.soapcall.md: 'SoapClient::soapCall »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::setSoapHeaders'
+---
 # SoapClient::setSoapHeaders
 
 (PHP 5> = 5.0.5, PHP 7, PHP 8)

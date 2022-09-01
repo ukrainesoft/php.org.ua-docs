@@ -1,16 +1,11 @@
-Перевірка, чи є ще результати у мультизапиті
-
--   [« mysqli::kill](mysqli.kill.md)
-    
--   [mysqli::multiquery »](mysqli.multi-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Перевірка, чи є ще результати у мультизапиті
-    
-
+---
+navigation:
+  - mysqli.kill.md: '« mysqli::kill'
+  - mysqli.multi-query.html: 'mysqli::multiquery »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::moreresults'
+---
 # mysqli::moreresults
 
 # mysqlimoreresults

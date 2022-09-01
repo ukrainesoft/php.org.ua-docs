@@ -1,16 +1,11 @@
-Клас ZookeeperSessionException
-
--   [« ZookeeperOperationTimeoutException](class.zookeeperoperationtimeoutexception.html)
-    
--   [Модулі для роботи з пошуковими системами »](refs.search.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZooKeeper](book.zookeeper.html)
-    
--   Клас ZookeeperSessionException
-    
-
+---
+navigation:
+  - class.zookeeperoperationtimeoutexception.html: « ZookeeperOperationTimeoutException
+  - refs.search.html: Модулі для роботи з пошуковими системами »
+  - index.html: PHP Manual
+  - book.zookeeper.html: ZooKeeper
+title: Клас ZookeeperSessionException
+---
 # Клас ZookeeperSessionException
 
 (PECL zookeeper >= 0.3.0)

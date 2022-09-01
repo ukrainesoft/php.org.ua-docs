@@ -1,16 +1,11 @@
-Бінарно-безпечний запис bzip2 файлу
-
--   [« bzread](function.bzread.md)
-    
--   [LZF »](book.lzf.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Бінарно-безпечний запис bzip2 файлу
-    
-
+---
+navigation:
+  - function.bzread.md: « bzread
+  - book.lzf.md: LZF »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzwrite
+---
 # bzwrite
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ bzwrite(resource $bz, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 

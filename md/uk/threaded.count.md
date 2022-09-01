@@ -1,16 +1,11 @@
-Обробка
-
--   [« Threaded::chunk](threaded.chunk.html)
-    
--   [Threaded::extend »](threaded.extend.html)
-    
--   [PHP Manual](index.html)
-    
--   [Threaded](class.threaded.html)
-    
--   Обробка
-    
-
+---
+navigation:
+  - threaded.chunk.html: '« Threaded::chunk'
+  - threaded.extend.html: 'Threaded::extend »'
+  - index.html: PHP Manual
+  - class.threaded.html: Threaded
+title: 'Threaded::count'
+---
 # Threaded::count
 
 (PECL pthreads >= 2.0.0)

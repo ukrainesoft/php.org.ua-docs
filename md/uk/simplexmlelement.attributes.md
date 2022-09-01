@@ -1,16 +1,11 @@
-Повертає атрибути елемента
-
--   [« SimpleXMLElement::asXML](simplexmlelement.asxml.md)
-    
--   [SimpleXMLElement::children »](simplexmlelement.children.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Повертає атрибути елемента
-    
-
+---
+navigation:
+  - simplexmlelement.asxml.md: '« SimpleXMLElement::asXML'
+  - simplexmlelement.children.md: 'SimpleXMLElement::children »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::attributes'
+---
 # SimpleXMLElement::attributes
 
 (PHP 5, PHP 7, PHP 8)

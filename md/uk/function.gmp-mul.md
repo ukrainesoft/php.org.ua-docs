@@ -1,16 +1,11 @@
-Розмноження чисел
-
--   [« gmpmod](function.gmp-mod.html)
-    
--   [gmpneg »](function.gmp-neg.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Розмноження чисел
-    
-
+---
+navigation:
+  - function.gmp-mod.html: « gmpmod
+  - function.gmp-neg.html: gmpneg »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpmul
+---
 # gmpmul
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Користувальницький кеш APC
-
--   [« Изменение поведения PHP](refs.basic.php.html)
-    
--   [Введение »](intro.apcu.html)
-    
--   [PHP Manual](index.html)
-    
--   [Изменение поведения PHP](refs.basic.php.html)
-    
--   Користувальницький кеш APC
-    
-
+---
+navigation:
+  - refs.basic.php.html: « Изменение поведения PHP
+  - intro.apcu.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.php.html: Изменение поведения PHP
+title: Користувальницький кеш APC
+---
 # Користувальницький кеш APC
 
 -   [Введение](intro.apcu.html)

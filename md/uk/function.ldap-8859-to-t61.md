@@ -1,16 +1,11 @@
-Перекладає символи з кодування ISO-8859 у t61
-
--   [« Функції LDAP](ref.ldap.html)
-    
--   [ldapaddext »](function.ldap-add-ext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Перекладає символи з кодування ISO-8859 у t61
-    
-
+---
+navigation:
+  - ref.ldap.html: « Функції LDAP
+  - function.ldap-add-ext.html: ldapaddext »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapтоt61
+---
 # ldapтоt61
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

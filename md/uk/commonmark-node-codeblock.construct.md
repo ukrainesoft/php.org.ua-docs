@@ -1,16 +1,11 @@
-Конструктор класу CodeBlock
-
--   [« CommonMarkNodeCodeBlock](class.commonmark-node-codeblock.html)
-    
--   [CommonMarkNodeHTMLBlock »](class.commonmark-node-htmlblock.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkNodeCodeBlock](class.commonmark-node-codeblock.html)
-    
--   Конструктор класу CodeBlock
-    
-
+---
+navigation:
+  - class.commonmark-node-codeblock.html: « CommonMarkNodeCodeBlock
+  - class.commonmark-node-htmlblock.html: CommonMarkNodeHTMLBlock »
+  - index.md: PHP Manual
+  - class.commonmark-node-codeblock.html: CommonMarkNodeCodeBlock
+title: 'CommonMarkNodeCodeBlock::construct'
+---
 # CommonMarkNodeCodeBlock::construct
 
 (cmark >= 1.0.0)

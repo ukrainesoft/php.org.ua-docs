@@ -1,16 +1,11 @@
-Вступ
-
--   [« OpenSSL](book.openssl.md)
-    
--   [Встановлення та налаштування »](openssl.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [OpenSSL](book.openssl.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.openssl.md: « OpenSSL
+  - openssl.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.openssl.md: OpenSSL
+title: Вступ
+---
 # Вступ
 
 Цей модуль використовує функції бібліотеки [» OpenSSL](http://www.openssl.org/) для симетричних та асиметричних шифрування та дешифрування, PBKDF2, PKCS7, PKCS12, X509 та інших криптографічних операцій. Також він реалізує потоки TLS.

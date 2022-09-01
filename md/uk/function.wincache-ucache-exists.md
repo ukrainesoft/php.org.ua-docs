@@ -1,16 +1,11 @@
-Перевіряє, чи існує змінна в кеші користувача
-
--   [« wincacheucachedelete](function.wincache-ucache-delete.html)
-    
--   [wincacheucacheget »](function.wincache-ucache-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Перевіряє, чи існує змінна в кеші користувача
-    
-
+---
+navigation:
+  - function.wincache-ucache-delete.html: « wincacheucachedelete
+  - function.wincache-ucache-get.html: wincacheucacheget »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincacheucacheexists
+---
 # wincacheucacheexists
 
 (PECL wincache >= 1.1.0)

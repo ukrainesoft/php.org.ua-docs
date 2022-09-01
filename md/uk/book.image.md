@@ -1,16 +1,11 @@
-Обробка зображень та GD
-
--   [« readexifdata](function.read-exif-data.html)
-    
--   [Введение »](intro.image.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка и генерация изображений](refs.utilspec.image.md)
-    
--   Обробка зображень та GD
-    
-
+---
+navigation:
+  - function.read-exif-data.html: « readexifdata
+  - intro.image.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.image.md: Обработка и генерация изображений
+title: Обробка зображень та GD
+---
 # Обробка зображень та GD
 
 -   [Введение](intro.image.md)

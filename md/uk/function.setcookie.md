@@ -1,16 +1,11 @@
-Надсилає cookie
-
--   [« pfsockopen](function.pfsockopen.html)
-    
--   [setrawcookie »](function.setrawcookie.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Надсилає cookie
-    
-
+---
+navigation:
+  - function.pfsockopen.html: « pfsockopen
+  - function.setrawcookie.html: setrawcookie »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: setcookie
+---
 # setcookie
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -81,9 +76,9 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додано альтернативний підпис, що підтримує масив опцій `options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано альтернативний підпис, що підтримує масив опцій `options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
 
 ### Приклади
 

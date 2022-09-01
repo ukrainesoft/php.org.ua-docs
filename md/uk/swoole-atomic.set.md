@@ -1,16 +1,11 @@
-Встановлює нове значення для атомарного об'єкту
-
--   [« SwooleAtomic::get](swoole-atomic.get.html)
-    
--   [SwooleAtomic::sub »](swoole-atomic.sub.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleAtomic](class.swoole-atomic.html)
-    
--   Встановлює нове значення для атомарного об'єкту
-    
-
+---
+navigation:
+  - swoole-atomic.get.html: '« SwooleAtomic::get'
+  - swoole-atomic.sub.html: 'SwooleAtomic::sub »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.html: SwooleAtomic
+title: 'SwooleAtomic::set'
+---
 # SwooleAtomic::set
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Ввести необхідні додатки властивості методу події
-
--   [« EventConfig::construct](eventconfig.construct.md)
-    
--   [EventConfig::setFlags »](eventconfig.setflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventConfig](class.eventconfig.md)
-    
--   Ввести необхідні додатки властивості методу події
-    
-
+---
+navigation:
+  - eventconfig.construct.md: '« EventConfig::construct'
+  - eventconfig.setflags.md: 'EventConfig::setFlags »'
+  - index.md: PHP Manual
+  - class.eventconfig.md: EventConfig
+title: 'EventConfig::requireFeatures'
+---
 # EventConfig::requireFeatures
 
 (PECL event >= 1.2.6-beta)

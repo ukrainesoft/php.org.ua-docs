@@ -1,16 +1,11 @@
-Звільняє ресурси, виділені для цієї бази подій
-
--   [« EventBase::exit](eventbase.exit.md)
-    
--   [EventBase::getFeatures »](eventbase.getfeatures.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Звільняє ресурси, виділені для цієї бази подій
-    
-
+---
+navigation:
+  - eventbase.exit.md: '« EventBase::exit'
+  - eventbase.getfeatures.md: 'EventBase::getFeatures »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::free'
+---
 # EventBase::free
 
 (PECL event >= 1.10.0)

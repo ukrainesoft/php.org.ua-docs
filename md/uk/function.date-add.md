@@ -1,16 +1,11 @@
-Псевдонім DateTime::add
-
--   [« checkdate](function.checkdate.md)
-    
--   [datecreatefromformat »](function.date-create-from-format.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTime::add
-    
-
+---
+navigation:
+  - function.checkdate.md: « checkdate
+  - function.date-create-from-format.html: datecreatefromformat »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: dateadd
+---
 # dateadd
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

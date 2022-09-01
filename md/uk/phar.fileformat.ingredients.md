@@ -1,16 +1,11 @@
-Складові всіх Phar-архівів незалежно від формату файлу
-
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
-    
--   [Заглушка Phar-файла »](phar.fileformat.stub.md)
-    
--   [PHP Manual](index.md)
-    
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
-    
--   Складові всіх Phar-архівів незалежно від формату файлу
-    
-
+---
+navigation:
+  - phar.fileformat.md: Чим відрізняється phar від tar-або zip-архіву?
+  - phar.fileformat.stub.md: Заглушка Phar-файла »
+  - index.md: PHP Manual
+  - phar.fileformat.md: Чим відрізняється phar від tar-або zip-архіву?
+title: Складові всіх Phar-архівів незалежно від формату файлу
+---
 ## Складові всіх Phar-архівів незалежно від формату файлу
 
 Усі Phar-архіви містять від трьох до чотирьох секцій:

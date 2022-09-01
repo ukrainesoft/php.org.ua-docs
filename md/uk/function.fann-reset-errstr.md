@@ -1,16 +1,11 @@
-Скидає останній рядок помилки
-
--   [« fannreseterrno](function.fann-reset-errno.html)
-    
--   [fannresetMSE »](function.fann-reset-mse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Скидає останній рядок помилки
-    
-
+---
+navigation:
+  - function.fann-reset-errno.html: « fannreseterrno
+  - function.fann-reset-mse.html: fannresetMSE »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannreseterrstr
+---
 # fannreseterrstr
 
 (PECL fann> = 1.0.0)

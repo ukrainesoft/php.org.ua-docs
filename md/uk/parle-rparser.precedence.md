@@ -1,16 +1,11 @@
-Оголошує правило пріоритету
-
--   [« ParleRParser::nonassoc](parle-rparser.nonassoc.html)
-    
--   [ParleRParser::push »](parle-rparser.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Оголошує правило пріоритету
-    
-
+---
+navigation:
+  - parle-rparser.nonassoc.html: '« ParleRParser::nonassoc'
+  - parle-rparser.push.html: 'ParleRParser::push »'
+  - index.md: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::precedence'
+---
 # ParleRParser::precedence
 
 (PECL parle >= 0.7.0)

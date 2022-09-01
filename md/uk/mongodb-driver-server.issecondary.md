@@ -1,16 +1,11 @@
-Перевіряє, чи є сервер другорядним членом набору реплік
-
--   [« MongoDBDriverServer::isPrimary](mongodb-driver-server.isprimary.html)
-    
--   [MongoDBDriverServerDescription »](class.mongodb-driver-serverdescription.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Перевіряє, чи є сервер другорядним членом набору реплік
-    
-
+---
+navigation:
+  - mongodb-driver-server.isprimary.html: '« MongoDBDriverServer::isPrimary'
+  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription »
+  - index.html: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::isSecondary'
+---
 # MongoDBDriverServer::isSecondary
 
 (mongodb >=1.0.0)

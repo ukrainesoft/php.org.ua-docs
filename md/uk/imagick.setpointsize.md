@@ -1,16 +1,11 @@
-Встановлює розмір точки
-
--   [« Imagick::setPage](imagick.setpage.md)
-    
--   [Imagick::setProgressMonitor »](imagick.setprogressmonitor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює розмір точки
-    
-
+---
+navigation:
+  - imagick.setpage.md: '« Imagick::setPage'
+  - imagick.setprogressmonitor.md: 'Imagick::setProgressMonitor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setPointSize'
+---
 # Imagick::setPointSize
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

@@ -1,16 +1,11 @@
-Перевіряє, чи є запис директорією
-
--   [« RarEntry::getVersion](rarentry.getversion.md)
-    
--   [RarEntry::isEncrypted »](rarentry.isencrypted.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarEntry](class.rarentry.md)
-    
--   Перевіряє, чи є запис директорією
-    
-
+---
+navigation:
+  - rarentry.getversion.md: '« RarEntry::getVersion'
+  - rarentry.isencrypted.md: 'RarEntry::isEncrypted »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::isDirectory'
+---
 # RarEntry::isDirectory
 
 (PECL rar >= 2.0.0)

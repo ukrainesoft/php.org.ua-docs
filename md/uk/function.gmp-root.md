@@ -1,16 +1,11 @@
-Витягти корінь ступеня N і повернути його цілу частину
-
--   [« gmprandom](function.gmp-random.html)
-    
--   [gmprootrem »](function.gmp-rootrem.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Витягти корінь ступеня N і повернути його цілу частину
-    
-
+---
+navigation:
+  - function.gmp-random.html: « gmprandom
+  - function.gmp-rootrem.html: gmprootrem »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmproot
+---
 # gmproot
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

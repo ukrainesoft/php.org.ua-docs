@@ -1,16 +1,11 @@
-Варіація
-
--   [« traderultosc](function.trader-ultosc.html)
-    
--   [traderwclprice »](function.trader-wclprice.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Варіація
-    
-
+---
+navigation:
+  - function.trader-ultosc.html: « traderultosc
+  - function.trader-wclprice.html: traderwclprice »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradervar
+---
 # tradervar
 
 (PECL trader >= 0.2.0)

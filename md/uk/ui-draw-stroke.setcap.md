@@ -1,16 +1,11 @@
-Встановити кінець лінії
-
--   [« UIDrawStroke::getThickness](ui-draw-stroke.getthickness.html)
-    
--   [ОЙDrawStroke::setJoin »](ui-draw-stroke.setjoin.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawStroke](class.ui-draw-stroke.html)
-    
--   Встановити кінець лінії
-    
-
+---
+navigation:
+  - ui-draw-stroke.getthickness.html: '« UIDrawStroke::getThickness'
+  - ui-draw-stroke.setjoin.html: 'ОЙDrawStroke::setJoin »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.html: ОЙDrawStroke
+title: 'ОЙDrawStroke::setCap'
+---
 # ОЙDrawStroke::setCap
 
 (UI 0.9.9)

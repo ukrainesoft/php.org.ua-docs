@@ -1,16 +1,11 @@
-Створює горизонтальне дзеркальне відображення
-
--   [« Imagick::floodFillPaintImage](imagick.floodfillpaintimage.md)
-    
--   [Imagick::forwardFourierTransformImage »](imagick.forwardfouriertransformimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює горизонтальне дзеркальне відображення
-    
-
+---
+navigation:
+  - imagick.floodfillpaintimage.md: '« Imagick::floodFillPaintImage'
+  - imagick.forwardfouriertransformimage.md: 'Imagick::forwardFourierTransformImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::flopImage'
+---
 # Imagick::flopImage
 
 (PECL imagick 2, PECL imagick 3)

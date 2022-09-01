@@ -1,16 +1,11 @@
-Зміна прав доступу
-
--   [« ssh2sendeof](function.ssh2-send-eof.html)
-    
--   [ssh2sftplstat »](function.ssh2-sftp-lstat.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Зміна прав доступу
-    
-
+---
+navigation:
+  - function.ssh2-send-eof.html: « ssh2sendeof
+  - function.ssh2-sftp-lstat.html: ssh2sftplstat »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftpchmod
+---
 # ssh2sftpchmod
 
 (PECL ssh2> = 0.12)

@@ -1,16 +1,11 @@
-Визначає, чи дорівнює інший календар, але для іншого часу
-
--   [« IntlCalendar::inDaylightTime](intlcalendar.indaylighttime.md)
-    
--   [IntlCalendar::isLenient »](intlcalendar.islenient.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Визначає, чи дорівнює інший календар, але для іншого часу
-    
-
+---
+navigation:
+  - intlcalendar.indaylighttime.md: '« IntlCalendar::inDaylightTime'
+  - intlcalendar.islenient.md: 'IntlCalendar::isLenient »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::isEquivalentTo'
+---
 # IntlCalendar::isEquivalentTo
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

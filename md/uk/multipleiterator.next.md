@@ -1,16 +1,11 @@
-Переміщує всі приєднані ітератори до наступних елементів
-
--   [« MultipleIterator::key](multipleiterator.key.md)
-    
--   [MultipleIterator::rewind »](multipleiterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [MultipleIterator](class.multipleiterator.md)
-    
--   Переміщує всі приєднані ітератори до наступних елементів
-    
-
+---
+navigation:
+  - multipleiterator.key.md: '« MultipleIterator::key'
+  - multipleiterator.rewind.md: 'MultipleIterator::rewind »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
+title: 'MultipleIterator::next'
+---
 # MultipleIterator::next
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

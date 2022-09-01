@@ -1,16 +1,11 @@
-Приєднує рядковий атрибут, що залежить від постачальника
-
--   [« radiusputvendorint](function.radius-put-vendor-int.html)
-    
--   [radiusrequestauthenticator »](function.radius-request-authenticator.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Приєднує рядковий атрибут, що залежить від постачальника
-    
-
+---
+navigation:
+  - function.radius-put-vendor-int.html: « radiusputvendorint
+  - function.radius-request-authenticator.html: radiusrequestauthenticator »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusputvendorstring
+---
 # radiusputvendorstring
 
 (PECL radius >= 1.1.0)
@@ -61,8 +56,8 @@ ID виробника (Vendor).
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Дивіться також

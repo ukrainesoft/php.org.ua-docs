@@ -1,16 +1,11 @@
-Присвоїти PHP-змінній Lua
-
--   [« Lua](class.lua.html)
-    
--   [Lua::call »](lua.call.html)
-    
--   [PHP Manual](index.html)
-    
--   [Lua](class.lua.html)
-    
--   Присвоїти PHP-змінній Lua
-    
-
+---
+navigation:
+  - class.lua.html: « Lua
+  - lua.call.html: 'Lua::call »'
+  - index.html: PHP Manual
+  - class.lua.html: Lua
+title: 'Lua::assign'
+---
 # Lua::assign
 
 (PECL lua> = 0.9.0)

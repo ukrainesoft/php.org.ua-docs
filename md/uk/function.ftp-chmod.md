@@ -1,16 +1,11 @@
-Встановлює права доступу до файлу
-
--   [« ftpchdir](function.ftp-chdir.html)
-    
--   [ftpclose »](function.ftp-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Встановлює права доступу до файлу
-    
-
+---
+navigation:
+  - function.ftp-chdir.html: « ftpchdir
+  - function.ftp-close.html: ftpclose »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpchmod
+---
 # ftpchmod
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ ftp_chmod(FTP\Connection $ftp, int $permissions, string $filename): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

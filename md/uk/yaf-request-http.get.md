@@ -1,16 +1,11 @@
-Отримує змінну від клієнта
-
--   [« YafRequestHttp::construct](yaf-request-http.construct.html)
-    
--   [YafRequestHttp::getCookie »](yaf-request-http.getcookie.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestHttp](class.yaf-request-http.html)
-    
--   Отримує змінну від клієнта
-    
-
+---
+navigation:
+  - yaf-request-http.construct.html: '« YafRequestHttp::construct'
+  - yaf-request-http.getcookie.html: 'YafRequestHttp::getCookie »'
+  - index.md: PHP Manual
+  - class.yaf-request-http.html: YafRequestHttp
+title: 'YafRequestHttp::get'
+---
 # YafRequestHttp::get
 
 (Yaf >=1.0.0)

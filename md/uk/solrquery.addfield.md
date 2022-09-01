@@ -1,16 +1,11 @@
-Вказує, які поля повертати в результаті
-
--   [« SolrQuery::addFacetQuery](solrquery.addfacetquery.md)
-    
--   [SolrQuery::addFilterQuery »](solrquery.addfilterquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Вказує, які поля повертати в результаті
-    
-
+---
+navigation:
+  - solrquery.addfacetquery.md: '« SolrQuery::addFacetQuery'
+  - solrquery.addfilterquery.md: 'SolrQuery::addFilterQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addField'
+---
 # SolrQuery::addField
 
 (PECL solr> = 0.9.2)

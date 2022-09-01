@@ -1,16 +1,11 @@
-Повертає певні піксельні різницю між зображеннями
-
--   [« Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.md)
-    
--   [Gmagick::despeckleimage »](gmagick.despeckleimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає певні піксельні різницю між зображеннями
-    
-
+---
+navigation:
+  - gmagick.cyclecolormapimage.md: '« Gmagick::cyclecolormapimage'
+  - gmagick.despeckleimage.md: 'Gmagick::despeckleimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::deconstructimages'
+---
 # Gmagick::deconstructimages
 
 (PECL gmagick >= Unknown)

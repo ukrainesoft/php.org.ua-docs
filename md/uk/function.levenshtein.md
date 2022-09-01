@@ -1,16 +1,11 @@
-Обчислює відстань Левенштейна між двома рядками
-
--   [« lcfirst](function.lcfirst.md)
-    
--   [localeconv »](function.localeconv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Обчислює відстань Левенштейна між двома рядками
-    
-
+---
+navigation:
+  - function.lcfirst.md: « lcfirst
+  - function.localeconv.md: localeconv »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: levenshtein
+---
 # levenshtein
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ levenshtein(    string $string1,    string $string2,    int $inserti
 
 ### список змін
 
-| Версия | Описание                                                                               |
-|--------|----------------------------------------------------------------------------------------|
-|        | До цієї версії **levenshtein()** треба було викликати із двома чи п'ятьма аргументами. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії **levenshtein()** треба було викликати із двома чи п'ятьма аргументами. |
 
 ### Приклади
 

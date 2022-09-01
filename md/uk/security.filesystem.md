@@ -1,16 +1,11 @@
-Безпека файлової системи
-
--   [« Безпека сесій](security.sessions.md)
-    
--   [Проблеми безпеки, пов'язані з нульовим байтом.](security.filesystem.nullbytes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Безпека](security.md)
-    
--   Безпека файлової системи
-    
-
+---
+navigation:
+  - security.sessions.md: « Безпека сесій
+  - security.filesystem.nullbytes.md: 'Проблеми безпеки, пов''язані з нульовим байтом.'
+  - index.md: PHP Manual
+  - security.md: Безпека
+title: Безпека файлової системи
+---
 # Безпека файлової системи
 
 ## Зміст

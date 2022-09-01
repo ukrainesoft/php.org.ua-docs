@@ -1,16 +1,11 @@
-Отримати асоціативний масив усіх підтегів локалі
-
--   [« Locale::lookup](locale.lookup.html)
-    
--   [Locale::setDefault »](locale.setdefault.html)
-    
--   [PHP Manual](index.html)
-    
--   [Locale](class.locale.html)
-    
--   Отримати асоціативний масив усіх підтегів локалі
-    
-
+---
+navigation:
+  - locale.lookup.html: '« Locale::lookup'
+  - locale.setdefault.html: 'Locale::setDefault »'
+  - index.html: PHP Manual
+  - class.locale.html: Locale
+title: 'Locale::parseLocale'
+---
 # Locale::parseLocale
 
 # localeparse

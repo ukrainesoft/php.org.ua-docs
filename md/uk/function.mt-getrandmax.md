@@ -1,16 +1,11 @@
-Показує максимально можливе значення випадкового числа
-
--   [« min](function.min.md)
-    
--   [мтrand »](function.mt-rand.html)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Показує максимально можливе значення випадкового числа
-    
-
+---
+navigation:
+  - function.min.md: « min
+  - function.mt-rand.html: мтrand »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: мтgetrandmax
+---
 # мтgetrandmax
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

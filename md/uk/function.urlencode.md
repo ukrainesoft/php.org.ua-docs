@@ -1,16 +1,11 @@
-URL-кодування рядка
-
--   [« urldecode](function.urldecode.md)
-    
--   [V8js »](book.v8js.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції URL](ref.url.md)
-    
--   URL-кодування рядка
-    
-
+---
+navigation:
+  - function.urldecode.md: « urldecode
+  - book.v8js.md: V8js »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
+title: urlencode
+---
 # urlencode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

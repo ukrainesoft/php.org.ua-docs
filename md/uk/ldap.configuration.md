@@ -1,25 +1,20 @@
-Налаштування під час виконання
-
--   [« Установка](ldap.installation.html)
-    
--   [Типи ресурсів »](ldap.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ldap.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - ldap.installation.html: « Установка
+  - ldap.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - ldap.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції конфігурації LDAP**
 
-| Имя                                                         | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------|--------------|-----------------|------------------|
-| [ldap.maxlinks](ldap.configuration.html#ini.ldap.max_links) | "-1"         | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [ldap.maxlinks](ldap.configuration.html#ini.ldap.max_links) | "-1" | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

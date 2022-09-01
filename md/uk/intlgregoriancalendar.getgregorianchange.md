@@ -1,16 +1,11 @@
-Отримує дату зміни григоріанського календаря
-
--   [« IntlGregorianCalendar::construct](intlgregoriancalendar.construct.md)
-    
--   [IntlGregorianCalendar::isLeapYear »](intlgregoriancalendar.isleapyear.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlGregorianCalendar](class.intlgregoriancalendar.md)
-    
--   Отримує дату зміни григоріанського календаря
-    
-
+---
+navigation:
+  - intlgregoriancalendar.construct.md: '« IntlGregorianCalendar::construct'
+  - intlgregoriancalendar.isleapyear.md: 'IntlGregorianCalendar::isLeapYear »'
+  - index.md: PHP Manual
+  - class.intlgregoriancalendar.md: IntlGregorianCalendar
+title: 'IntlGregorianCalendar::getGregorianChange'
+---
 # IntlGregorianCalendar::getGregorianChange
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

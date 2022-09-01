@@ -1,16 +1,11 @@
-Додає нове зображення до списку зображень об'єкту Imagick
-
--   [« Imagick::adaptiveThresholdImage](imagick.adaptivethresholdimage.html)
-    
--   [Imagick::addNoiseImage »](imagick.addnoiseimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Додає нове зображення до списку зображень об'єкту Imagick
-    
-
+---
+navigation:
+  - imagick.adaptivethresholdimage.html: '« Imagick::adaptiveThresholdImage'
+  - imagick.addnoiseimage.html: 'Imagick::addNoiseImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::addImage'
+---
 # Imagick::addImage
 
 (PECL imagick 2, PECL imagick 3)

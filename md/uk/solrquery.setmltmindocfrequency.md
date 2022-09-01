@@ -1,16 +1,11 @@
-Встановлює частоту mltMinDoc
-
--   [« SolrQuery::setMltMaxWordLength](solrquery.setmltmaxwordlength.html)
-    
--   [SolrQuery::setMltMinTermFrequency »](solrquery.setmltmintermfrequency.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює частоту mltMinDoc
-    
-
+---
+navigation:
+  - solrquery.setmltmaxwordlength.html: '« SolrQuery::setMltMaxWordLength'
+  - solrquery.setmltmintermfrequency.html: 'SolrQuery::setMltMinTermFrequency »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setMltMinDocFrequency'
+---
 # SolrQuery::setMltMinDocFrequency
 
 (PECL solr> = 0.9.2)

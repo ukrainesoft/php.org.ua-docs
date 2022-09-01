@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](posix.requirements.md)
-    
--   [Налаштування під час виконання »](posix.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](posix.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - posix.requirements.md: « Вимоги
+  - posix.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - posix.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Функції POSIX доступні за замовчуванням. Можна вимкнути POSIX-подібні функції за допомогою директиви **\-disable-posix**

@@ -1,16 +1,11 @@
-Показує, чи безпечна робота з процесами
-
--   [« mysqli::$threadід](mysqli.thread-id.html)
-    
--   [mysqli::useresult »](mysqli.use-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Показує, чи безпечна робота з процесами
-    
-
+---
+navigation:
+  - mysqli.thread-id.html: '« mysqli::$threadід'
+  - mysqli.use-result.html: 'mysqli::useresult »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::threadsafe'
+---
 # mysqli::threadsafe
 
 # mysqlithreadsafe

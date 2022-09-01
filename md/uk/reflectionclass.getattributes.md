@@ -1,16 +1,11 @@
-Отримує атрибути
-
--   [« ReflectionClass::export](reflectionclass.export.md)
-    
--   [ReflectionClass::getConstant »](reflectionclass.getconstant.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Отримує атрибути
-    
-
+---
+navigation:
+  - reflectionclass.export.md: '« ReflectionClass::export'
+  - reflectionclass.getconstant.md: 'ReflectionClass::getConstant »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getAttributes'
+---
 # ReflectionClass::getAttributes
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Зводить одне число до ступеня іншого і повертає залишок від поділу результату на третє число
-
--   [« bcpow](function.bcpow.html)
-    
--   [bcscale »](function.bcscale.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции BC Math](ref.bc.html)
-    
--   Зводить одне число до ступеня іншого і повертає залишок від поділу результату на третє число
-    
-
+---
+navigation:
+  - function.bcpow.html: « bcpow
+  - function.bcscale.html: bcscale »
+  - index.html: PHP Manual
+  - ref.bc.html: Функции BC Math
+title: bcpowmod
+---
 # bcpowmod
 
 (PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ bcpowmod(    string $num,    string $exponent,    string $modulus, 
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `scale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `scale` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Імовірнісний захід розподілу Пуассона
-
--   [« statsdenspmfnegativebinomial](function.stats-dens-pmf-negative-binomial.html)
-    
--   [statsdenst »](function.stats-dens-t.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Імовірнісний захід розподілу Пуассона
-    
-
+---
+navigation:
+  - function.stats-dens-pmf-negative-binomial.html: « statsdenspmfnegativebinomial
+  - function.stats-dens-t.html: statsdenst »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdenspmfpoisson
+---
 # statsdenspmfpoisson
 
 (PECL stats >= 1.0.0)

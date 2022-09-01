@@ -1,16 +1,11 @@
-Починає новий шаблон
-
--   [«psbeginpattern](function.ps-begin-pattern.html)
-    
--   [псcircle »](function.ps-circle.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Починає новий шаблон
-    
-
+---
+navigation:
+  - function.ps-begin-pattern.html: «psbeginpattern
+  - function.ps-circle.html: псcircle »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псbegintemplate
+---
 # псbegintemplate
 
 (PECL ps >= 1.2.0)

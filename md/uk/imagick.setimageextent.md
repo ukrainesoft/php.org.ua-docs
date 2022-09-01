@@ -1,16 +1,11 @@
-Встановлює розмір зображення
-
--   [« Imagick::setImageDispose](imagick.setimagedispose.md)
-    
--   [Imagick::setImageFilename »](imagick.setimagefilename.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює розмір зображення
-    
-
+---
+navigation:
+  - imagick.setimagedispose.md: '« Imagick::setImageDispose'
+  - imagick.setimagefilename.md: 'Imagick::setImageFilename »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageExtent'
+---
 # Imagick::setImageExtent
 
 (PECL imagick 2, PECL imagick 3)

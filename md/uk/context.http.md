@@ -1,16 +1,11 @@
-Список опцій контексту HTTP
-
--   [« Контекстні опції сокету](context.socket.html)
-    
--   [Параметри контексту FTP »](context.ftp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Контекстні опції та параметри](context.html)
-    
--   Список опцій контексту HTTP
-    
-
+---
+navigation:
+  - context.socket.html: « Контекстні опції сокету
+  - context.ftp.html: Параметри контексту FTP »
+  - index.html: PHP Manual
+  - context.html: Контекстні опції та параметри
+title: Опції контексту HTTP
+---
 # Опції контексту HTTP
 
 Опції контексту HTTP — Список опцій контексту HTTP

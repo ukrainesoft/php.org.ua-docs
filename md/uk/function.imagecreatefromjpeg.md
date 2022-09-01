@@ -1,16 +1,11 @@
-Створює нове зображення з файлу чи URL
-
--   [« imagecreatefromgif](function.imagecreatefromgif.md)
-    
--   [imagecreatefrompng »](function.imagecreatefrompng.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Створює нове зображення з файлу чи URL
-    
-
+---
+navigation:
+  - function.imagecreatefromgif.md: « imagecreatefromgif
+  - function.imagecreatefrompng.md: imagecreatefrompng »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromjpeg
+---
 # imagecreatefromjpeg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagecreatefromjpeg(string $filename): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

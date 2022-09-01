@@ -1,16 +1,11 @@
-Встановлює параметри клієнта Swoole до встановлення з'єднання
-
--   [« SwooleClient::sendto](swoole-client.sendto.html)
-    
--   [SwooleClient::sleep »](swoole-client.sleep.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Встановлює параметри клієнта Swoole до встановлення з'єднання
-    
-
+---
+navigation:
+  - swoole-client.sendto.html: '« SwooleClient::sendto'
+  - swoole-client.sleep.html: 'SwooleClient::sleep »'
+  - index.md: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::set'
+---
 # SwooleClient::set
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
-
--   [« sqlsrvclose](function.sqlsrv-close.html)
-    
--   [sqlsrvconfigure »](function.sqlsrv-configure.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
-    
-
+---
+navigation:
+  - function.sqlsrv-close.html: « sqlsrvclose
+  - function.sqlsrv-configure.html: sqlsrvconfigure »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvcommit
+---
 # sqlsrvcommit
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Повертає сервер, з яким пов'язаний курсор
-
--   [« MongoDBDriverCursorInterface::getId](mongodb-driver-cursorinterface.getid.html)
-    
--   [MongoDBDriverCursorInterface::isDead »](mongodb-driver-cursorinterface.isdead.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
-    
--   Повертає сервер, з яким пов'язаний курсор
-    
-
+---
+navigation:
+  - mongodb-driver-cursorinterface.getid.html: '« MongoDBDriverCursorInterface::getId'
+  - mongodb-driver-cursorinterface.isdead.html: 'MongoDBDriverCursorInterface::isDead »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+title: 'MongoDBDriverCursorInterface::getServer'
+---
 # MongoDBDriverCursorInterface::getServer
 
 (mongodb >=1.6.0)

@@ -1,16 +1,11 @@
-Повертає інкрементний компонент TimestampInterface
-
--   [« MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)
-    
--   [MongoDBBSONTimestampInterface::getTimestamp »](mongodb-bson-timestampinterface.gettimestamp.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)
-    
--   Повертає інкрементний компонент TimestampInterface
-    
-
+---
+navigation:
+  - class.mongodb-bson-timestampinterface.html: « MongoDBBSONTimestampInterface
+  - mongodb-bson-timestampinterface.gettimestamp.html: 'MongoDBBSONTimestampInterface::getTimestamp »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestampinterface.html: MongoDBBSONTimestampInterface
+title: 'MongoDBBSONTimestampInterface::getIncrement'
+---
 # MongoDBBSONTimestampInterface::getIncrement
 
 (mongodb >=1.3.0)

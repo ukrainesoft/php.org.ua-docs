@@ -1,16 +1,11 @@
-Скасує очікування HTTP-запиту
-
--   [« EventHttpRequest::addHeader](eventhttprequest.addheader.md)
-    
--   [EventHttpRequest::clearHeaders »](eventhttprequest.clearheaders.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Скасує очікування HTTP-запиту
-    
-
+---
+navigation:
+  - eventhttprequest.addheader.md: '« EventHttpRequest::addHeader'
+  - eventhttprequest.clearheaders.md: 'EventHttpRequest::clearHeaders »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::cancel'
+---
 # EventHttpRequest::cancel
 
 (PECL event >= 1.4.0-beta)

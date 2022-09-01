@@ -1,16 +1,11 @@
-Закінчує процес читання з курсору
-
--   [« ocibindбname](function.oci-bind-by-name.html)
-    
--   [ociclientversion »](function.oci-client-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Закінчує процес читання з курсору
-    
-
+---
+navigation:
+  - function.oci-bind-by-name.html: « ocibindбname
+  - function.oci-client-version.html: ociclientversion »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocicancel
+---
 # ocicancel
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

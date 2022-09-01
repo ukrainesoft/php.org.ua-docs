@@ -1,16 +1,11 @@
-Змінні сесії
-
--   [REQUEST](reserved.variables.request.md)
-    
--   [ENV »](reserved.variables.environment.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Змінні сесії
-    
-
+---
+navigation:
+  - reserved.variables.request.md: REQUEST
+  - reserved.variables.environment.md: ENV »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: SESSION
+---
 # SESSION
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

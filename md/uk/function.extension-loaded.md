@@ -1,16 +1,11 @@
-Визначає, чи завантажено модуль
-
--   [« dl](function.dl.md)
-    
--   [гкcollectcycles »](function.gc-collect-cycles.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Визначає, чи завантажено модуль
-    
-
+---
+navigation:
+  - function.dl.md: « dl
+  - function.gc-collect-cycles.html: гкcollectcycles »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: extensionloaded
+---
 # extensionloaded
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Екранування спеціальних символів у SQL-запиті
-
--   [« cubridquery](function.cubrid-query.html)
-    
--   [cubridresult »](function.cubrid-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Екранування спеціальних символів у SQL-запиті
-    
-
+---
+navigation:
+  - function.cubrid-query.html: « cubridquery
+  - function.cubrid-result.html: cubridresult »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridrealescapestring
+---
 # cubridrealescapestring
 
 (PECL CUBRID >= 8.3.0)

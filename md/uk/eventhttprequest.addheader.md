@@ -1,16 +1,11 @@
-Додає заголовок HTTP до заголовків запиту
-
--   [« EventHttpRequest](class.eventhttprequest.html)
-    
--   [EventHttpRequest::cancel »](eventhttprequest.cancel.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Додає заголовок HTTP до заголовків запиту
-    
-
+---
+navigation:
+  - class.eventhttprequest.html: « EventHttpRequest
+  - eventhttprequest.cancel.html: 'EventHttpRequest::cancel »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::addHeader'
+---
 # EventHttpRequest::addHeader
 
 (PECL event >= 1.4.0-beta)

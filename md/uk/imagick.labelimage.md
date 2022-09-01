@@ -1,16 +1,11 @@
-Додає позначку до зображення
-
--   [« Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.md)
-    
--   [Imagick::levelImage »](imagick.levelimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Додає позначку до зображення
-    
-
+---
+navigation:
+  - imagick.inversefouriertransformimage.md: '« Imagick::inverseFourierTransformImage'
+  - imagick.levelimage.md: 'Imagick::levelImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::labelImage'
+---
 # Imagick::labelImage
 
 (PECL imagick 2, PECL imagick 3)

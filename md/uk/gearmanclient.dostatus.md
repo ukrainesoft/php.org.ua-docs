@@ -1,16 +1,11 @@
-Отримання статусу завдання, що виконується
-
--   [« GearmanClient::doNormal](gearmanclient.donormal.html)
-    
--   [GearmanClient::echo »](gearmanclient.echo.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Отримання статусу завдання, що виконується
-    
-
+---
+navigation:
+  - gearmanclient.donormal.html: '« GearmanClient::doNormal'
+  - gearmanclient.echo.html: 'GearmanClient::echo »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::doStatus'
+---
 # GearmanClient::doStatus
 
 (PECL gearman >= 0.5.0)

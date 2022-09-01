@@ -1,16 +1,11 @@
-Перевіряє, чи існує елемент
-
--   [« YafRegistry::get](yaf-registry.get.html)
-    
--   [YafRegistry::set »](yaf-registry.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRegistry](class.yaf-registry.html)
-    
--   Перевіряє, чи існує елемент
-    
-
+---
+navigation:
+  - yaf-registry.get.html: '« YafRegistry::get'
+  - yaf-registry.set.html: 'YafRegistry::set »'
+  - index.html: PHP Manual
+  - class.yaf-registry.html: YafRegistry
+title: 'YafRegistry::has'
+---
 # YafRegistry::has
 
 (Yaf >=1.0.0)

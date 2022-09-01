@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineClient::sendto](swoole-coroutine-client.sendto.html)
-    
--   [SwooleCoroutineHttpClient::addFile »](swoole-coroutine-http-client.addfile.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-client.sendto.html: '« SwooleCoroutineClient::sendto'
+  - swoole-coroutine-http-client.addfile.html: 'SwooleCoroutineHttpClient::addFile »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineClient::set'
+---
 # SwooleCoroutineClient::set
 
 (PECL swoole >= 2.0.0)

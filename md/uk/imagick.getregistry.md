@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::getQuantumRange](imagick.getquantumrange.md)
-    
--   [Imagick::getReleaseDate »](imagick.getreleasedate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.getquantumrange.md: '« Imagick::getQuantumRange'
+  - imagick.getreleasedate.md: 'Imagick::getReleaseDate »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getRegistry'
+---
 # Imagick::getRegistry
 
 (PECL imagick 3> = 3.3.0)

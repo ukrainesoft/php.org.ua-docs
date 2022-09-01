@@ -1,16 +1,11 @@
-Перевіряє, чи належить об'єкт класу
-
--   [« ReflectionClass::isFinal](reflectionclass.isfinal.md)
-    
--   [ReflectionClass::isInstantiable »](reflectionclass.isinstantiable.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи належить об'єкт класу
-    
-
+---
+navigation:
+  - reflectionclass.isfinal.md: '« ReflectionClass::isFinal'
+  - reflectionclass.isinstantiable.md: 'ReflectionClass::isInstantiable »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isInstance'
+---
 # ReflectionClass::isInstance
 
 (PHP 5, PHP 7, PHP 8)

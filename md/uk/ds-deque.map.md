@@ -1,16 +1,11 @@
-Повертає результат застосування callback-функції до всіх значень двосторонньої черги
-
--   [« DsDeque::last](ds-deque.last.html)
-    
--   [ДсDeque::merge »](ds-deque.merge.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає результат застосування callback-функції до всіх значень двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.last.html: '« DsDeque::last'
+  - ds-deque.merge.html: 'ДсDeque::merge »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::map'
+---
 # ДсDeque::map
 
 (PECL ds >= 1.0.0)

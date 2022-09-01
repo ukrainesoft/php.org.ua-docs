@@ -1,16 +1,11 @@
-Зберегти
-
--   [« UIDrawPen::restore](ui-draw-pen.restore.html)
-    
--   [ОЙDrawPen::stroke »](ui-draw-pen.stroke.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPen](class.ui-draw-pen.html)
-    
--   Зберегти
-    
-
+---
+navigation:
+  - ui-draw-pen.restore.html: '« UIDrawPen::restore'
+  - ui-draw-pen.stroke.html: 'ОЙDrawPen::stroke »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.html: ОЙDrawPen
+title: 'ОЙDrawPen::save'
+---
 # ОЙDrawPen::save
 
 (UI 0.9.9)

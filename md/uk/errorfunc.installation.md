@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](errorfunc.requirements.html)
-    
--   [Налаштування під час виконання »](errorfunc.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](errorfunc.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - errorfunc.requirements.html: « Вимоги
+  - errorfunc.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - errorfunc.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для використання цих функцій не потрібне проведення установки, оскільки вони є частиною ядра PHP.

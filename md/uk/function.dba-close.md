@@ -1,16 +1,11 @@
-Закриває базу даних DBA
-
--   [« Функції DBA](ref.dba.md)
-    
--   [dbadelete »](function.dba-delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Закриває базу даних DBA
-    
-
+---
+navigation:
+  - ref.dba.md: « Функції DBA
+  - function.dba-delete.html: dbadelete »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbaclose
+---
 # dbaclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

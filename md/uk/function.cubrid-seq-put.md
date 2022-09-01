@@ -1,16 +1,11 @@
-Оновлює значення елемента стовпця типу послідовності за допомогою OID
-
--   [« cubridseqinsert](function.cubrid-seq-insert.html)
-    
--   [cubridsetadd »](function.cubrid-set-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Оновлює значення елемента стовпця типу послідовності за допомогою OID
-    
-
+---
+navigation:
+  - function.cubrid-seq-insert.html: « cubridseqinsert
+  - function.cubrid-set-add.html: cubridsetadd »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridseqput
+---
 # cubridseqput
 
 (PECL CUBRID >= 8.3.0)

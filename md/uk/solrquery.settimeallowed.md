@@ -1,16 +1,11 @@
-Час, відведений на пошук
-
--   [« SolrQuery::setTermsUpperBound](solrquery.settermsupperbound.md)
-    
--   [SolrDisMaxQuery »](class.solrdismaxquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Час, відведений на пошук
-    
-
+---
+navigation:
+  - solrquery.settermsupperbound.md: '« SolrQuery::setTermsUpperBound'
+  - class.solrdismaxquery.md: SolrDisMaxQuery »
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTimeAllowed'
+---
 # SolrQuery::setTimeAllowed
 
 (PECL solr> = 0.9.2)

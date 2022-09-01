@@ -1,16 +1,11 @@
-Змінює параметри сервера та статус під час виконання
-
--   [« Memcache::setCompressThreshold](memcache.setcompressthreshold.html)
-    
--   [Функции Memcache »](ref.memcache.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Змінює параметри сервера та статус під час виконання
-    
-
+---
+navigation:
+  - memcache.setcompressthreshold.html: '« Memcache::setCompressThreshold'
+  - ref.memcache.html: Функции Memcache »
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::setServerParams'
+---
 # Memcache::setServerParams
 
 (PECL memcache >= 2.1.0)

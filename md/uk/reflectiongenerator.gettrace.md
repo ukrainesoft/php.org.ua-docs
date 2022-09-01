@@ -1,16 +1,11 @@
-Отримати трасування запущеного генератора
-
--   [« ReflectionGenerator::getThis](reflectiongenerator.getthis.md)
-    
--   [ReflectionFiber »](class.reflectionfiber.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionGenerator](class.reflectiongenerator.md)
-    
--   Отримати трасування запущеного генератора
-    
-
+---
+navigation:
+  - reflectiongenerator.getthis.md: '« ReflectionGenerator::getThis'
+  - class.reflectionfiber.md: ReflectionFiber »
+  - index.md: PHP Manual
+  - class.reflectiongenerator.md: ReflectionGenerator
+title: 'ReflectionGenerator::getTrace'
+---
 # ReflectionGenerator::getTrace
 
 (PHP 7, PHP 8)
@@ -33,10 +28,10 @@ public ReflectionGenerator::getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJE
 
 **Доступні опції**
 
-| Опция                                | Описание                                                       |
-|--------------------------------------|----------------------------------------------------------------|
-| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням.                                              |
-| **`DEBUG_BACKTRACE_IGNORE_ARGS`**    | Не включати інформацію про аргументи функцій у стеку дзвінків. |
+| Опция | Описание |
+| --- | --- |
+| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням. |
+| **`DEBUG_BACKTRACE_IGNORE_ARGS`** | Не включати інформацію про аргументи функцій у стеку дзвінків. |
 
 ### Значення, що повертаються
 

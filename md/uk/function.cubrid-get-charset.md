@@ -1,16 +1,11 @@
-Повертає кодування поточного з'єднання CUBRID
-
--   [« cubridgetautocommit](function.cubrid-get-autocommit.html)
-    
--   [cubridgetclassname »](function.cubrid-get-class-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Повертає кодування поточного з'єднання CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-get-autocommit.html: « cubridgetautocommit
+  - function.cubrid-get-class-name.html: cubridgetclassname »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridgetcharset
+---
 # cubridgetcharset
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.stats.md)
-    
--   [Вимоги »](stats.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Статистика](book.stats.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.stats.md: « Введение
+  - stats.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.stats.md: Статистика
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

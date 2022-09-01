@@ -1,16 +1,11 @@
-Клас ReflectionNamedType
-
--   [« ReflectionMethod::toString](reflectionmethod.tostring.md)
-    
--   [ReflectionNamedType::getName »](reflectionnamedtype.getname.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionNamedType
-    
-
+---
+navigation:
+  - reflectionmethod.tostring.md: '« ReflectionMethod::toString'
+  - reflectionnamedtype.getname.md: 'ReflectionNamedType::getName »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionNamedType
+---
 # Клас ReflectionNamedType
 
 (PHP 7> = 7.1.0, PHP 8)

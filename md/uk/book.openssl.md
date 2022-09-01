@@ -1,16 +1,11 @@
-OpenSSL
-
--   [« mhash](function.mhash.md)
-    
--   [Введение »](intro.openssl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Криптографічні модулі](refs.crypto.md)
-    
--   OpenSSL
-    
-
+---
+navigation:
+  - function.mhash.md: « mhash
+  - intro.openssl.md: Введение »
+  - index.md: PHP Manual
+  - refs.crypto.md: Криптографічні модулі
+title: OpenSSL
+---
 # OpenSSL
 
 -   [Введение](intro.openssl.md)

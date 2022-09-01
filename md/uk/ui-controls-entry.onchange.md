@@ -1,16 +1,11 @@
-Обробник зміни
-
--   [« UIControlsEntry::isReadOnly](ui-controls-entry.isreadonly.html)
-    
--   [ОЙControlsEntry::setReadOnly »](ui-controls-entry.setreadonly.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsEntry](class.ui-controls-entry.html)
-    
--   Обробник зміни
-    
-
+---
+navigation:
+  - ui-controls-entry.isreadonly.html: '« UIControlsEntry::isReadOnly'
+  - ui-controls-entry.setreadonly.html: 'ОЙControlsEntry::setReadOnly »'
+  - index.html: PHP Manual
+  - class.ui-controls-entry.html: ОЙControlsEntry
+title: 'ОЙControlsEntry::onChange'
+---
 # ОЙControlsEntry::onChange
 
 (UI 0.9.9)

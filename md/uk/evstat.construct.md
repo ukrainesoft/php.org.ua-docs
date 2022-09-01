@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvStat
-
--   [« EvStat::attr](evstat.attr.html)
-    
--   [EvStat::createStopped »](evstat.createstopped.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvStat](class.evstat.html)
-    
--   Створює об'єкт спостерігача EvStat
-    
-
+---
+navigation:
+  - evstat.attr.html: '« EvStat::attr'
+  - evstat.createstopped.html: 'EvStat::createStopped »'
+  - index.html: PHP Manual
+  - class.evstat.html: EvStat
+title: 'EvStat::construct'
+---
 # EvStat::construct
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](luasandbox.setup.md)
-    
--   [Установка »](luasandbox.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](luasandbox.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - luasandbox.setup.md: « Встановлення та налаштування
+  - luasandbox.installation.md: Установка »
+  - index.md: PHP Manual
+  - luasandbox.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Щоб використовувати модуль, потрібно встановити Lua 5.1, доступну на [» сайте Lua](http://www.lua.org/)

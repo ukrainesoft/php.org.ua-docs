@@ -1,16 +1,11 @@
-Паттерн "У лінії шиї"
-
--   [« tradercdlmorningstar](function.trader-cdlmorningstar.html)
-    
--   [tradercdlpiercing »](function.trader-cdlpiercing.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Паттерн "У лінії шиї"
-    
-
+---
+navigation:
+  - function.trader-cdlmorningstar.html: « tradercdlmorningstar
+  - function.trader-cdlpiercing.html: tradercdlpiercing »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlonneck
+---
 # tradercdlonneck
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Повертає тип курсору, який використовується у ресурсі оператора
-
--   [« db2connect](function.db2-connect.html)
-    
--   [db2escapestring »](function.db2-escape-string.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає тип курсору, який використовується у ресурсі оператора
-    
-
+---
+navigation:
+  - function.db2-connect.html: « db2connect
+  - function.db2-escape-string.html: db2escapestring »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2cursortype
+---
 # db2cursortype
 
 (PECL ibmdb2> = 1.0.0)

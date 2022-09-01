@@ -1,16 +1,11 @@
-Аутентифікація з використанням відкритого ключа хоста
-
--   [« ssh2authagent](function.ssh2-auth-agent.html)
-    
--   [ssh2authnone »](function.ssh2-auth-none.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Аутентифікація з використанням відкритого ключа хоста
-    
-
+---
+navigation:
+  - function.ssh2-auth-agent.html: « ssh2authagent
+  - function.ssh2-auth-none.html: ssh2authnone »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2authhostbasedfile
+---
 # ssh2authhostbasedfile
 
 (PECL ssh2> = 0.9.0)

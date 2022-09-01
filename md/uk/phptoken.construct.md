@@ -1,16 +1,11 @@
-Створює об'єкт PhpToken
-
--   [« PhpToken](class.phptoken.html)
-    
--   [PhpToken::getTokenName »](phptoken.gettokenname.html)
-    
--   [PHP Manual](index.html)
-    
--   [PhpToken](class.phptoken.html)
-    
--   Створює об'єкт PhpToken
-    
-
+---
+navigation:
+  - class.phptoken.html: « PhpToken
+  - phptoken.gettokenname.html: 'PhpToken::getTokenName »'
+  - index.html: PHP Manual
+  - class.phptoken.html: PhpToken
+title: 'PhpToken::construct'
+---
 # PhpToken::construct
 
 (PHP 8)

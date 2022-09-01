@@ -1,16 +1,11 @@
-Встановлює ім'я контролера
-
--   [« YafRequestAbstract::setBaseUri](yaf-request-abstract.setbaseuri.html)
-    
--   [YafRequestAbstract::setDispatched »](yaf-request-abstract.setdispatched.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Встановлює ім'я контролера
-    
-
+---
+navigation:
+  - yaf-request-abstract.setbaseuri.html: '« YafRequestAbstract::setBaseUri'
+  - yaf-request-abstract.setdispatched.html: 'YafRequestAbstract::setDispatched »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::setControllerName'
+---
 # YafRequestAbstract::setControllerName
 
 (Yaf >=1.0.0)

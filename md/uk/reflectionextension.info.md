@@ -1,16 +1,11 @@
-Виведення інформації про модуль
-
--   [« ReflectionExtension::getVersion](reflectionextension.getversion.md)
-    
--   [ReflectionExtension::isPersistent »](reflectionextension.ispersistent.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Виведення інформації про модуль
-    
-
+---
+navigation:
+  - reflectionextension.getversion.md: '« ReflectionExtension::getVersion'
+  - reflectionextension.ispersistent.md: 'ReflectionExtension::isPersistent »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::info'
+---
 # ReflectionExtension::info
 
 (PHP 5> = 5.2.4, PHP 7, PHP 8)

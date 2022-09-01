@@ -1,16 +1,11 @@
-Отримати заміну символів
-
--   [« UConverter::getStandards](uconverter.getstandards.html)
-    
--   [UConverter::reasonText »](uconverter.reasontext.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Отримати заміну символів
-    
-
+---
+navigation:
+  - uconverter.getstandards.html: '« UConverter::getStandards'
+  - uconverter.reasontext.html: 'UConverter::reasonText »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::getSubstChars'
+---
 # UConverter::getSubstChars
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

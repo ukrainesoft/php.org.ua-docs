@@ -1,16 +1,11 @@
-Вийняти сімейство шрифтів
-
--   [« Функции UI](ref.ui.md)
-    
--   [ОЙquit »](function.ui-quit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции UI](ref.ui.md)
-    
--   Вийняти сімейство шрифтів
-    
-
+---
+navigation:
+  - ref.ui.md: « Функции UI
+  - function.ui-quit.html: ОЙquit »
+  - index.md: PHP Manual
+  - ref.ui.md: Функции UI
+title: ОЙDrawTextFontfontFamilies
+---
 # ОЙDrawTextFontfontFamilies
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Інтерфейс DOMParentNode
-
--   [« DOMNotation](class.domnotation.md)
-    
--   [DOMParentNode::append »](domparentnode.append.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Інтерфейс DOMParentNode
-    
-
+---
+navigation:
+  - class.domnotation.md: « DOMNotation
+  - domparentnode.append.md: 'DOMParentNode::append »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Інтерфейс DOMParentNode
+---
 # Інтерфейс DOMParentNode
 
 (PHP 8)

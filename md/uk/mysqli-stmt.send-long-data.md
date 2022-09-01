@@ -1,16 +1,11 @@
-Надсилання даних блоками
-
--   [« mysqlistmt::resultmetadata](mysqli-stmt.result-metadata.html)
-    
--   [mysqlistmt::$sqlstate »](mysqli-stmt.sqlstate.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Надсилання даних блоками
-    
-
+---
+navigation:
+  - mysqli-stmt.result-metadata.html: '« mysqlistmt::resultmetadata'
+  - mysqli-stmt.sqlstate.html: 'mysqlistmt::$sqlstate »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::sendlongdata'
+---
 # mysqlistmt::sendlongdata
 
 # mysqlistmtsendlongdata

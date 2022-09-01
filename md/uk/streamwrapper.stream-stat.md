@@ -1,16 +1,11 @@
-Отримання інформації про файловий ресурс
-
--   [« streamWrapper::streamsetoption](streamwrapper.stream-set-option.html)
-    
--   [streamWrapper::streamtell »](streamwrapper.stream-tell.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Отримання інформації про файловий ресурс
-    
-
+---
+navigation:
+  - streamwrapper.stream-set-option.html: '« streamWrapper::streamsetoption'
+  - streamwrapper.stream-tell.html: 'streamWrapper::streamtell »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streamстати'
+---
 # streamWrapper::streamстати
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

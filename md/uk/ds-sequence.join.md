@@ -1,16 +1,11 @@
-Склеює всі значення в рядок
-
--   [« DsSequence::insert](ds-sequence.insert.html)
-    
--   [ДсSequence::last »](ds-sequence.last.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Склеює всі значення в рядок
-    
-
+---
+navigation:
+  - ds-sequence.insert.html: '« DsSequence::insert'
+  - ds-sequence.last.html: 'ДсSequence::last »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::join'
+---
 # ДсSequence::join
 
 (PECL ds >= 1.0.0)

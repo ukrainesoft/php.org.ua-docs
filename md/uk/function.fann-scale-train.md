@@ -1,16 +1,11 @@
-Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
-
--   [« fannscaletraindata](function.fann-scale-train-data.html)
-    
--   [fannsetactivationfunctionhidden »](function.fann-set-activation-function-hidden.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
-    
-
+---
+navigation:
+  - function.fann-scale-train-data.html: « fannscaletraindata
+  - function.fann-set-activation-function-hidden.html: fannsetactivationfunctionhidden »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannscaletrain
+---
 # fannscaletrain
 
 (PECL fann> = 1.0.0)

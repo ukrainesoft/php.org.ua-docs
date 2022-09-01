@@ -1,16 +1,11 @@
-Отримує тип нейронної мережі
-
--   [« fanngetMSE](function.fann-get-mse.html)
-    
--   [fanngetnuminput »](function.fann-get-num-input.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Отримує тип нейронної мережі
-    
-
+---
+navigation:
+  - function.fann-get-mse.html: « fanngetMSE
+  - function.fann-get-num-input.html: fanngetnuminput »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetnetworktype
+---
 # fanngetnetworktype
 
 (PECL fann> = 1.0.0)

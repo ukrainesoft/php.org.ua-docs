@@ -1,16 +1,11 @@
-Функції для роботи з потоками
-
--   [« streamWrapper::urlstat](streamwrapper.url-stat.html)
-    
--   [streambucketappend »](function.stream-bucket-append.html)
-    
--   [PHP Manual](index.md)
-    
--   [Потоки](book.stream.md)
-    
--   Функції для роботи з потоками
-    
-
+---
+navigation:
+  - streamwrapper.url-stat.html: '« streamWrapper::urlstat'
+  - function.stream-bucket-append.html: streambucketappend »
+  - index.md: PHP Manual
+  - book.stream.md: Потоки
+title: Функції для роботи з потоками
+---
 # Функції для роботи з потоками
 
 ## Зміст

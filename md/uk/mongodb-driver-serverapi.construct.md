@@ -1,16 +1,11 @@
-Створює новий екземпляр ServerApi
-
--   [« MongoDBDriverServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.html)
-    
--   [MongoDBDriverServerApi::serialize »](mongodb-driver-serverapi.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
-    
--   Створює новий екземпляр ServerApi
-    
-
+---
+navigation:
+  - mongodb-driver-serverapi.bsonserialize.html: '« MongoDBDriverServerApi::bsonSerialize'
+  - mongodb-driver-serverapi.serialize.html: 'MongoDBDriverServerApi::serialize »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-serverapi.html: MongoDBDriverServerApi
+title: 'MongoDBDriverServerApi::construct'
+---
 # MongoDBDriverServerApi::construct
 
 (mongodb >=1.10.0)

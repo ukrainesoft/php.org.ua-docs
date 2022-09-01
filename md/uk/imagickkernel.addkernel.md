@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickKernel](class.imagickkernel.html)
-    
--   [ImagickKernel::addUnityKernel »](imagickkernel.addunitykernel.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickKernel](class.imagickkernel.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - class.imagickkernel.html: « ImagickKernel
+  - imagickkernel.addunitykernel.html: 'ImagickKernel::addUnityKernel »'
+  - index.html: PHP Manual
+  - class.imagickkernel.html: ImagickKernel
+title: 'ImagickKernel::addKernel'
+---
 # ImagickKernel::addKernel
 
 (PECL imagick >= 3.3.0)

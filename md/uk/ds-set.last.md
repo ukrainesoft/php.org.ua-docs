@@ -1,16 +1,11 @@
-Повертає останнє значення колекції
-
--   [« DsSet::jsonSerialize](ds-set.jsonserialize.html)
-    
--   [ДсSet::merge »](ds-set.merge.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає останнє значення колекції
-    
-
+---
+navigation:
+  - ds-set.jsonserialize.html: '« DsSet::jsonSerialize'
+  - ds-set.merge.html: 'ДсSet::merge »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::last'
+---
 # ДсSet::last
 
 (PECL ds >= 1.0.0)

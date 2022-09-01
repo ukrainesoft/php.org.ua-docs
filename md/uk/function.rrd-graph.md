@@ -1,16 +1,11 @@
-Створює зображення з даних
-
--   [« rrdfirst](function.rrd-first.html)
-    
--   [rrdinfo »](function.rrd-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Створює зображення з даних
-    
-
+---
+navigation:
+  - function.rrd-first.html: « rrdfirst
+  - function.rrd-info.html: rrdinfo »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdgraph
+---
 # rrdgraph
 
 (PECL rrd >= 0.9.0)

@@ -1,16 +1,11 @@
-З'єднання з базою даних Oracle
-
--   [« Oracle (PDO)](ref.pdo-oci.html)
-    
--   [ODBC и DB2 (PDO) »](ref.pdo-odbc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Oracle (PDO)](ref.pdo-oci.html)
-    
--   З'єднання з базою даних Oracle
-    
-
+---
+navigation:
+  - ref.pdo-oci.html: « Oracle (PDO)
+  - ref.pdo-odbc.html: ODBC и DB2 (PDO) »
+  - index.html: PHP Manual
+  - ref.pdo-oci.html: Oracle (PDO)
+title: PDOOCI DSN
+---
 # PDOOCI DSN
 
 (PECL PDOOCI> = 0.1.0)

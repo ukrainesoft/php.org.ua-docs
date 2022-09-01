@@ -1,16 +1,11 @@
-Розпочинаємо розробку плагіна mysqlnd
-
--   [« API плагінів mysqlnd](mysqlnd.plugin.api.md)
-    
--   [OCI8 »](book.oci8.md)
-    
--   [PHP Manual](index.md)
-    
--   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.md)
-    
--   Розпочинаємо розробку плагіна mysqlnd
-    
-
+---
+navigation:
+  - mysqlnd.plugin.api.md: « API плагінів mysqlnd
+  - book.oci8.md: OCI8 »
+  - index.md: PHP Manual
+  - mysqlnd.plugin.md: API для плагинов к встроенному драйверу MySQL
+title: Розпочинаємо розробку плагіна mysqlnd
+---
 ## Розпочинаємо розробку плагіна mysqlnd
 
 Важливо пам'ятати, що плагін `mysqlnd` сам собою є модулем PHP.

@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](wkhtmltox.setup.md)
-    
--   [Установка »](wkhtmltox.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](wkhtmltox.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - wkhtmltox.setup.md: « Встановлення та налаштування
+  - wkhtmltox.installation.md: Установка »
+  - index.md: PHP Manual
+  - wkhtmltox.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Вихідні та двійкові релізи libwkhtmltox розповсюджуються за адресою [» wkhtmltopdf.org](http://wkhtmltopdf.org)

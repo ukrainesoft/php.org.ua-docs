@@ -1,16 +1,11 @@
-Отримує назву локалі для Collator
-
--   [« Collator::getErrorMessage](collator.geterrormessage.html)
-    
--   [Collator::getSortKey »](collator.getsortkey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Collator](class.collator.html)
-    
--   Отримує назву локалі для Collator
-    
-
+---
+navigation:
+  - collator.geterrormessage.html: '« Collator::getErrorMessage'
+  - collator.getsortkey.html: 'Collator::getSortKey »'
+  - index.html: PHP Manual
+  - class.collator.html: Collator
+title: 'Collator::getLocale'
+---
 # Collator::getLocale
 
 # collatorgetlocale

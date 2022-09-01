@@ -1,16 +1,11 @@
-Витягує рядок з початку буфера
-
--   [« EventBuffer::readFrom](eventbuffer.readfrom.md)
-    
--   [EventBuffer::search »](eventbuffer.search.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Витягує рядок з початку буфера
-    
-
+---
+navigation:
+  - eventbuffer.readfrom.md: '« EventBuffer::readFrom'
+  - eventbuffer.search.md: 'EventBuffer::search »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::readLine'
+---
 # EventBuffer::readLine
 
 (PECL event >= 1.2.6-beta)

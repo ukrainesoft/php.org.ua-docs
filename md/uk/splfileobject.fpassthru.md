@@ -1,16 +1,11 @@
-Виводить весь вміст файлу, що залишився, у вихідний потік
-
--   [« SplFileObject::flock](splfileobject.flock.md)
-    
--   [SplFileObject::fputcsv »](splfileobject.fputcsv.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Виводить весь вміст файлу, що залишився, у вихідний потік
-    
-
+---
+navigation:
+  - splfileobject.flock.md: '« SplFileObject::flock'
+  - splfileobject.fputcsv.md: 'SplFileObject::fputcsv »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fpassthru'
+---
 # SplFileObject::fpassthru
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

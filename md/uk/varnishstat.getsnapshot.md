@@ -1,16 +1,11 @@
-Отримати фотографію статистики поточного примірника varnish
-
--   [« VarnishStat::construct](varnishstat.construct.md)
-    
--   [VarnishLog »](class.varnishlog.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishStat](class.varnishstat.md)
-    
--   Отримати фотографію статистики поточного примірника varnish
-    
-
+---
+navigation:
+  - varnishstat.construct.md: '« VarnishStat::construct'
+  - class.varnishlog.md: VarnishLog »
+  - index.md: PHP Manual
+  - class.varnishstat.md: VarnishStat
+title: 'VarnishStat::getSnapshot'
+---
 # VarnishStat::getSnapshot
 
 (PECL varnish >= 0.3)

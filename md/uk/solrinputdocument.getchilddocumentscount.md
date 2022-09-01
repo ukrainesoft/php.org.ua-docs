@@ -1,16 +1,11 @@
-Повертає кількість дочірніх документів
-
--   [« SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.md)
-    
--   [SolrInputDocument::getField »](solrinputdocument.getfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Повертає кількість дочірніх документів
-    
-
+---
+navigation:
+  - solrinputdocument.getchilddocuments.md: '« SolrInputDocument::getChildDocuments'
+  - solrinputdocument.getfield.md: 'SolrInputDocument::getField »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::getChildDocumentsCount'
+---
 # SolrInputDocument::getChildDocumentsCount
 
 (PECL solr> = 2.3.0)

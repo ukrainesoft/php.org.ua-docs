@@ -1,16 +1,11 @@
-Ініціалізує екземпляр inotify
-
--   [« inotifyaddwatch](function.inotify-add-watch.html)
-    
--   [inotifyqueuelen »](function.inotify-queue-len.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Inotify](ref.inotify.md)
-    
--   Ініціалізує екземпляр inotify
-    
-
+---
+navigation:
+  - function.inotify-add-watch.html: « inotifyaddwatch
+  - function.inotify-queue-len.html: inotifyqueuelen »
+  - index.md: PHP Manual
+  - ref.inotify.md: Функции Inotify
+title: inotifyinit
+---
 # inotifyinit
 
 (PECL inotify >= 0.1.2)

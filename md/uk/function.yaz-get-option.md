@@ -1,16 +1,11 @@
-Повертає значення параметра для підключення
-
--   [« yazес](function.yaz-es.html)
-    
--   [yazhits »](function.yaz-hits.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Повертає значення параметра для підключення
-    
-
+---
+navigation:
+  - function.yaz-es.html: « yazес
+  - function.yaz-hits.html: yazhits »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazgetoption
+---
 # yazgetoption
 
 (PECL yaz >= 0.9.0)

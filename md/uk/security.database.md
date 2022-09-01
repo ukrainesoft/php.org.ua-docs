@@ -1,16 +1,11 @@
-Безпека баз даних
-
--   [« Проблеми безпеки, пов'язані з нульовим байтом](security.filesystem.nullbytes.html)
-    
--   [Проектування бази даних »](security.database.design.html)
-    
--   [PHP Manual](index.html)
-    
--   [Безпека](security.html)
-    
--   Безпека баз даних
-    
-
+---
+navigation:
+  - security.filesystem.nullbytes.html: '« Проблеми безпеки, пов''язані з нульовим байтом'
+  - security.database.design.html: Проектування бази даних »
+  - index.html: PHP Manual
+  - security.html: Безпека
+title: Безпека баз даних
+---
 # Безпека баз даних
 
 ## Зміст

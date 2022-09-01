@@ -1,16 +1,11 @@
-Створює новий об'єкт QuickHashIntStringHash
-
--   [« QuickHashIntStringHash::add](quickhashintstringhash.add.md)
-    
--   [QuickHashIntStringHash::delete »](quickhashintstringhash.delete.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntStringHash](class.quickhashintstringhash.md)
-    
--   Створює новий об'єкт QuickHashIntStringHash
-    
-
+---
+navigation:
+  - quickhashintstringhash.add.md: '« QuickHashIntStringHash::add'
+  - quickhashintstringhash.delete.md: 'QuickHashIntStringHash::delete »'
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
+title: 'QuickHashIntStringHash::construct'
+---
 # QuickHashIntStringHash::construct
 
 (PECL quickhash >= Unknown)

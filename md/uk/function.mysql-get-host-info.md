@@ -1,16 +1,11 @@
-Повертає інформацію про з'єднання з MySQL
-
--   [« mysqlgetclientinfo](function.mysql-get-client-info.html)
-    
--   [mysqlgetprotoinfo »](function.mysql-get-proto-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає інформацію про з'єднання з MySQL
-    
-
+---
+navigation:
+  - function.mysql-get-client-info.html: « mysqlgetclientinfo
+  - function.mysql-get-proto-info.html: mysqlgetprotoinfo »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlgethostinfo
+---
 # mysqlgethostinfo
 
 (PHP 4> = 4.0.5, PHP 5)

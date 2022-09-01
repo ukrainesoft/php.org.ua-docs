@@ -1,16 +1,11 @@
-Клас XMLDiffDOM
-
--   [« XMLDiffBase::merge](xmldiff-base.merge.html)
-    
--   [XMLDiffDOM::diff »](xmldiff-dom.diff.html)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiff](book.xmldiff.md)
-    
--   Клас XMLDiffDOM
-    
-
+---
+navigation:
+  - xmldiff-base.merge.html: '« XMLDiffBase::merge'
+  - xmldiff-dom.diff.html: 'XMLDiffDOM::diff »'
+  - index.md: PHP Manual
+  - book.xmldiff.md: XMLDiff
+title: Клас XMLDiffDOM
+---
 # Клас XMLDiffDOM
 
 (PECL xmldiff >= 0.8.0)

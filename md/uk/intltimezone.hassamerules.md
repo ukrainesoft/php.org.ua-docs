@@ -1,16 +1,11 @@
-Перевірити, що в іншому часовому поясі використовуються ті самі правила та зсуви, що й у першому заданому
-
--   [« IntlTimeZone::getWindowsID](intltimezone.getwindowsid.html)
-    
--   [IntlTimeZone::toDateTimeZone »](intltimezone.todatetimezone.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Перевірити, що в іншому часовому поясі використовуються ті самі правила та зсуви, що й у першому заданому
-    
-
+---
+navigation:
+  - intltimezone.getwindowsid.html: '« IntlTimeZone::getWindowsID'
+  - intltimezone.todatetimezone.html: 'IntlTimeZone::toDateTimeZone »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::hasSameRules'
+---
 # IntlTimeZone::hasSameRules
 
 # intltzhassamerules

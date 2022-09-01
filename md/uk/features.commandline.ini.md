@@ -1,23 +1,18 @@
-Опції конфігурації
-
--   [« Вбудований веб-сервер](features.commandline.webserver.md)
-    
--   [Сборка мусора »](features.gc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Використання PHP у командному рядку](features.commandline.md)
-    
--   Опції конфігурації
-    
-
+---
+navigation:
+  - features.commandline.webserver.md: « Вбудований веб-сервер
+  - features.gc.md: Сборка мусора »
+  - index.md: PHP Manual
+  - features.commandline.md: Використання PHP у командному рядку
+title: Опції конфігурації
+---
 ## Опції конфігурації
 
 **Опції конфігурації CLI SAPI**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [cliserver.color](features.commandline.ini.html#ini.cli-server.color) | "0"          | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [cliserver.color](features.commandline.ini.html#ini.cli-server.color) | "0" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

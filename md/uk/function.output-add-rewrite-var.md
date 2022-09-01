@@ -1,16 +1,11 @@
-Додати значення до обробника URL
-
--   [« obstart](function.ob-start.html)
-    
--   [outputresetrewritevars »](function.output-reset-rewrite-vars.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   Додати значення до обробника URL
-    
-
+---
+navigation:
+  - function.ob-start.html: « obstart
+  - function.output-reset-rewrite-vars.html: outputresetrewritevars »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: outputaddrewritevar
+---
 # outputaddrewritevar
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ output_add_rewrite_var(string $name, string $value): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | До PHP 7.1.0 змінні перезаписи, встановлені функцією **outputaddrewritevar()**, використовують той самий буфер модуля сесії "trans sid". Починаючи з PHP 7.1.0, використовується окремий буфер, [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) використовується тільки для функцій виведення, доданий [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.tags) |
+| Версия | Описание |
+| --- | --- |
+|  | До PHP 7.1.0 змінні перезаписи, встановлені функцією **outputaddrewritevar()**, використовують той самий буфер модуля сесії "trans sid". Починаючи з PHP 7.1.0, використовується окремий буфер, [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) використовується тільки для функцій виведення, доданий [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.tags) |
 
 ### Приклади
 

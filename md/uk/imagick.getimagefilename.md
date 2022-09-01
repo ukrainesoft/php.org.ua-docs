@@ -1,16 +1,11 @@
-Повертає ім'я файлу конкретного зображення у послідовності
-
--   [« Imagick::getImageExtrema](imagick.getimageextrema.md)
-    
--   [Imagick::getImageFormat »](imagick.getimageformat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає ім'я файлу конкретного зображення у послідовності
-    
-
+---
+navigation:
+  - imagick.getimageextrema.md: '« Imagick::getImageExtrema'
+  - imagick.getimageformat.md: 'Imagick::getImageFormat »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageFilename'
+---
 # Imagick::getImageFilename
 
 (PECL imagick 2, PECL imagick 3)

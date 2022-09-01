@@ -1,16 +1,11 @@
-Повертає, чи мітка помилки пов'язана з винятком
-
--   [« MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
-    
--   [MongoDBDriverExceptionServerException »](class.mongodb-driver-exception-serverexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html)
-    
--   Повертає, чи мітка помилки пов'язана з винятком
-    
-
+---
+navigation:
+  - class.mongodb-driver-exception-runtimeexception.html: « MongoDBDriverExceptionRuntimeException
+  - class.mongodb-driver-exception-serverexception.html: MongoDBDriverExceptionServerException »
+  - index.md: PHP Manual
+  - class.mongodb-driver-exception-runtimeexception.html: MongoDBDriverExceptionRuntimeException
+title: 'MongoDBDriverExceptionRuntimeException::hasErrorLabel'
+---
 # MongoDBDriverExceptionRuntimeException::hasErrorLabel
 
 (mongodb >= 1.6.0)

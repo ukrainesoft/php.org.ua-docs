@@ -1,16 +1,11 @@
-Перевіряє, чи є ітератор допустимим
-
--   [« IteratorIterator::rewind](iteratoriterator.rewind.html)
-    
--   [LimitIterator »](class.limititerator.html)
-    
--   [PHP Manual](index.html)
-    
--   [IteratorIterator](class.iteratoriterator.html)
-    
--   Перевіряє, чи є ітератор допустимим
-    
-
+---
+navigation:
+  - iteratoriterator.rewind.html: '« IteratorIterator::rewind'
+  - class.limititerator.html: LimitIterator »
+  - index.html: PHP Manual
+  - class.iteratoriterator.html: IteratorIterator
+title: 'IteratorIterator::valid'
+---
 # IteratorIterator::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Знищує HTTP-відповідь
-
--   [« SwooleHttpResponse::cookie](swoole-http-response.cookie.html)
-    
--   [SwooleHttpResponse::end »](swoole-http-response.end.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Знищує HTTP-відповідь
-    
-
+---
+navigation:
+  - swoole-http-response.cookie.html: '« SwooleHttpResponse::cookie'
+  - swoole-http-response.end.html: 'SwooleHttpResponse::end »'
+  - index.html: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::destruct'
+---
 # SwooleHttpResponse::destruct
 
 (PECL swoole >= 1.9.0)

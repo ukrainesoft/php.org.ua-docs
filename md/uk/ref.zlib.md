@@ -1,16 +1,11 @@
-Функції Zlib
-
--   [« Приклади](zlib.examples.md)
-    
--   [deflateadd »](function.deflate-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Zlib](book.zlib.md)
-    
--   Функції Zlib
-    
-
+---
+navigation:
+  - zlib.examples.md: « Приклади
+  - function.deflate-add.html: deflateadd »
+  - index.md: PHP Manual
+  - book.zlib.md: Zlib
+title: Функції Zlib
+---
 # Функції Zlib
 
 ## Зміст

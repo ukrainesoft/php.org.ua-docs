@@ -1,16 +1,11 @@
-Отримує параметри з контексту
-
--   [« streamcontextgetoptions](function.stream-context-get-options.html)
-    
--   [streamcontextsetdefault »](function.stream-context-set-default.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Отримує параметри з контексту
-    
-
+---
+navigation:
+  - function.stream-context-get-options.html: « streamcontextgetoptions
+  - function.stream-context-set-default.html: streamcontextsetdefault »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcontextgetparams
+---
 # streamcontextgetparams
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

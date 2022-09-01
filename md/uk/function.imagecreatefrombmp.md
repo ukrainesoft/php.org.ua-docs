@@ -1,16 +1,11 @@
-Створює нове зображення з файлу чи URL
-
--   [« imagecreatefromavif](function.imagecreatefromavif.md)
-    
--   [imagecreatefromgd2 »](function.imagecreatefromgd2.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Створює нове зображення з файлу чи URL
-    
-
+---
+navigation:
+  - function.imagecreatefromavif.md: « imagecreatefromavif
+  - function.imagecreatefromgd2.md: imagecreatefromgd2 »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefrombmp
+---
 # imagecreatefrombmp
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -41,9 +36,9 @@ imagecreatefrombmp(string $filename): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

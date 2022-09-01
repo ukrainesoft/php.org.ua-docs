@@ -1,16 +1,11 @@
-Перевіряє наявність шістнадцяткових цифр
-
--   [« ctypeupper](function.ctype-upper.html)
-    
--   [Filter »](book.filter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції Ctype](ref.ctype.md)
-    
--   Перевіряє наявність шістнадцяткових цифр
-    
-
+---
+navigation:
+  - function.ctype-upper.html: « ctypeupper
+  - book.filter.md: Filter »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
+title: ctypexdigit
+---
 # ctypexdigit
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

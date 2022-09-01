@@ -1,16 +1,11 @@
-Конструктор класу YafDispatcher
-
--   [« YafDispatcher::catchException](yaf-dispatcher.catchexception.html)
-    
--   [YafDispatcher::disableView »](yaf-dispatcher.disableview.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Конструктор класу YafDispatcher
-    
-
+---
+navigation:
+  - yaf-dispatcher.catchexception.html: '« YafDispatcher::catchException'
+  - yaf-dispatcher.disableview.html: 'YafDispatcher::disableView »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::construct'
+---
 # YafDispatcher::construct
 
 (Yaf >=1.0.0)

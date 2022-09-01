@@ -1,16 +1,11 @@
-Повертає час останньої модифікації файлу
-
--   [« ftplogin](function.ftp-login.html)
-    
--   [ftpmkdir »](function.ftp-mkdir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Повертає час останньої модифікації файлу
-    
-
+---
+navigation:
+  - function.ftp-login.html: « ftplogin
+  - function.ftp-mkdir.html: ftpmkdir »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpmdtm
+---
 # ftpmdtm
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ ftp_mdtm(FTP\Connection $ftp, string $filename): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

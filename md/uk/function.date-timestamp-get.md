@@ -1,16 +1,11 @@
-Псевдонім DateTime::getTimestamp
-
--   [« datetimeset](function.date-time-set.html)
-    
--   [datetimestampset »](function.date-timestamp-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTime::getTimestamp
-    
-
+---
+navigation:
+  - function.date-time-set.html: « datetimeset
+  - function.date-timestamp-set.html: datetimestampset »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datetimestampget
+---
 # datetimestampget
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

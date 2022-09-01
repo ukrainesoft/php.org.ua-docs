@@ -1,16 +1,11 @@
-Клас YafException
-
--   [« YafSession::valid](yaf-session.valid.html)
-    
--   [YafException::construct »](yaf-exception.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafException
-    
-
+---
+navigation:
+  - yaf-session.valid.html: '« YafSession::valid'
+  - yaf-exception.construct.html: 'YafException::construct »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafException
+---
 # Клас YafException
 
 (Yaf >=1.0.0)

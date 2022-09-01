@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](bzip2.constants.html)
-    
--   [Функції Bzip2 »](ref.bzip2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Bzip2](book.bzip2.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - bzip2.constants.html: « Обумовлені константи
+  - ref.bzip2.html: Функції Bzip2 »
+  - index.html: PHP Manual
+  - book.bzip2.html: Bzip2
+title: Приклади
+---
 # Приклади
 
 Наступний приклад відкриє тимчасовий файл, запише до нього тестовий рядок, після чого виведе вміст файлу.

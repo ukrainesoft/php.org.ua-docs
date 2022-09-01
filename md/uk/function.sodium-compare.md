@@ -1,16 +1,11 @@
-Порівняти великі числа
-
--   [« sodiumbin2hex](function.sodium-bin2hex.html)
-    
--   [sodiumcryptoaeadaes256gcmdecrypt »](function.sodium-crypto-aead-aes256gcm-decrypt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Порівняти великі числа
-    
-
+---
+navigation:
+  - function.sodium-bin2hex.html: « sodiumbin2hex
+  - function.sodium-crypto-aead-aes256gcm-decrypt.html: sodiumcryptoaeadaes256gcmdecrypt »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcompare
+---
 # sodiumcompare
 
 (PHP 7> = 7.2.0, PHP 8)

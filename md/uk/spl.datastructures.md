@@ -1,16 +1,11 @@
-Структури даних
-
--   [« Обумовлені константи](spl.constants.md)
-    
--   [SplDoublyLinkedList »](class.spldoublylinkedlist.md)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Структури даних
-    
-
+---
+navigation:
+  - spl.constants.md: « Обумовлені константи
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Структури даних
+---
 # Структури даних
 
 ## Зміст

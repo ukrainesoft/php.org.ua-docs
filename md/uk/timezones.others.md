@@ -1,16 +1,11 @@
-Інші
-
--   [« Тихоокеанский](timezones.pacific.md)
-    
--   [HRTime »](book.hrtime.md)
-    
--   [PHP Manual](index.md)
-    
--   [Список підтримуваних часових поясів](timezones.md)
-    
--   Інші
-    
-
+---
+navigation:
+  - timezones.pacific.md: « Тихоокеанский
+  - book.hrtime.md: HRTime »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
+title: Інші
+---
 ## Інші
 
 **Увага**

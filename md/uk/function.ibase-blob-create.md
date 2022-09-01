@@ -1,16 +1,11 @@
-Створює новий BLOB-об'єкт для заповнення даними
-
--   [« ibaseblobclose](function.ibase-blob-close.html)
-    
--   [ibaseblobecho »](function.ibase-blob-echo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Створює новий BLOB-об'єкт для заповнення даними
-    
-
+---
+navigation:
+  - function.ibase-blob-close.html: « ibaseblobclose
+  - function.ibase-blob-echo.html: ibaseblobecho »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseblobcreate
+---
 # ibaseblobcreate
 
 (PHP 5, PHP 7 < 7.4.0)

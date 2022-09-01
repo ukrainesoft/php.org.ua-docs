@@ -1,16 +1,11 @@
-Застосовує фільтр до зображення
-
--   [« imagefilltoborder](function.imagefilltoborder.md)
-    
--   [imageflip »](function.imageflip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Застосовує фільтр до зображення
-    
-
+---
+navigation:
+  - function.imagefilltoborder.md: « imagefilltoborder
+  - function.imageflip.md: imageflip »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagefilter
+---
 # imagefilter
 
 (PHP 5, PHP 7, PHP 8)
@@ -79,10 +74,10 @@ imagefilter(GdImage $image, int $filter, array|int|float|bool ...$args): bool
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
-|        | Додано підтримку розсіювання (**`IMG_FILTER_SCATTER`**                                          |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+|  | Додано підтримку розсіювання (**`IMG_FILTER_SCATTER`** |
 
 ### Приклади
 

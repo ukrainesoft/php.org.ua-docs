@@ -1,16 +1,11 @@
-Отримати текст
-
--   [« UIControlsEntry::construct](ui-controls-entry.construct.html)
-    
--   [ОЙControlsEntry::isReadOnly »](ui-controls-entry.isreadonly.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsEntry](class.ui-controls-entry.html)
-    
--   Отримати текст
-    
-
+---
+navigation:
+  - ui-controls-entry.construct.html: '« UIControlsEntry::construct'
+  - ui-controls-entry.isreadonly.html: 'ОЙControlsEntry::isReadOnly »'
+  - index.md: PHP Manual
+  - class.ui-controls-entry.html: ОЙControlsEntry
+title: 'ОЙControlsEntry::getText'
+---
 # ОЙControlsEntry::getText
 
 (UI 0.9.9)

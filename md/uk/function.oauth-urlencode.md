@@ -1,16 +1,11 @@
-Кодує URI відповідно до RFC 3986
-
--   [« oauthgetsbs](function.oauth-get-sbs.html)
-    
--   [OAuth »](class.oauth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OAuth](ref.oauth.html)
-    
--   Кодує URI відповідно до RFC 3986
-    
-
+---
+navigation:
+  - function.oauth-get-sbs.html: « oauthgetsbs
+  - class.oauth.html: OAuth »
+  - index.html: PHP Manual
+  - ref.oauth.html: Функции OAuth
+title: oauthurlencode
+---
 # oauthurlencode
 
 (PECL OAuth >=0.99.2)

@@ -1,16 +1,11 @@
-Нормалізований середній дійсний діапазон
-
--   [« tradermult](function.trader-mult.html)
-    
--   [traderobv »](function.trader-obv.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Нормалізований середній дійсний діапазон
-    
-
+---
+navigation:
+  - function.trader-mult.html: « tradermult
+  - function.trader-obv.html: traderobv »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradernatr
+---
 # tradernatr
 
 (PECL trader >= 0.2.0)

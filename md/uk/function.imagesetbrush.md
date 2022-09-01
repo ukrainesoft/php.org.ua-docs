@@ -1,16 +1,11 @@
-Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
-
--   [« imagescale](function.imagescale.md)
-    
--   [imagesetclip »](function.imagesetclip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
-    
-
+---
+navigation:
+  - function.imagescale.md: « imagescale
+  - function.imagesetclip.md: imagesetclip »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagesetbrush
+---
 # imagesetbrush
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imagesetbrush(GdImage $image, GdImage $brush): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------|
-|        | `image` і `brush` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` і `brush` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

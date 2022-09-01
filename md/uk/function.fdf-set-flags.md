@@ -1,16 +1,11 @@
-Встановлює прапор поля
-
--   [« fdfsetfile](function.fdf-set-file.html)
-    
--   [fdfsetjavascriptaction »](function.fdf-set-javascript-action.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює прапор поля
-    
-
+---
+navigation:
+  - function.fdf-set-file.html: « fdfsetfile
+  - function.fdf-set-javascript-action.html: fdfsetjavascriptaction »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetflags
+---
 # fdfsetflags
 
 (PHP 4> = 4.0.2, PHP 5 <5.3.0, PECL fdf SVN)

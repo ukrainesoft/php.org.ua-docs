@@ -1,16 +1,11 @@
-Мережеві функції
-
--   [« Обумовлені константи](network.constants.md)
-    
--   [checkdnsrr »](function.checkdnsrr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сеть](book.network.md)
-    
--   Мережеві функції
-    
-
+---
+navigation:
+  - network.constants.md: « Обумовлені константи
+  - function.checkdnsrr.md: checkdnsrr »
+  - index.md: PHP Manual
+  - book.network.md: Сеть
+title: Мережеві функції
+---
 # Мережеві функції
 
 ## Зміст

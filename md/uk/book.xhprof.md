@@ -1,16 +1,11 @@
-Hierarchical Profiler
-
--   [« Проверка сборки](wincache.win32build.verify.md)
-    
--   [Введение »](intro.xhprof.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   Hierarchical Profiler
-    
-
+---
+navigation:
+  - wincache.win32build.verify.md: « Проверка сборки
+  - intro.xhprof.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: Hierarchical Profiler
+---
 # Hierarchical Profiler
 
 -   [Введение](intro.xhprof.md)

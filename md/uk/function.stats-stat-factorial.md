@@ -1,16 +1,11 @@
-Факторіал цілого числа
-
--   [« statsstatcorrelation](function.stats-stat-correlation.html)
-    
--   [statsstatindependentt »](function.stats-stat-independent-t.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Факторіал цілого числа
-    
-
+---
+navigation:
+  - function.stats-stat-correlation.html: « statsstatcorrelation
+  - function.stats-stat-independent-t.html: statsstatindependentt »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsстатиfactorial
+---
 # statsстатиfactorial
 
 (PECL stats >= 1.0.0)

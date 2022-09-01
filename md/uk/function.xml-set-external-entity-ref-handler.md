@@ -1,16 +1,11 @@
-Встановлення оброблювача зовнішніх сутностей
-
--   [« xmlsetendnamespacedeclhandler](function.xml-set-end-namespace-decl-handler.html)
-    
--   [xmlsetnotationdeclhandler »](function.xml-set-notation-decl-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Встановлення оброблювача зовнішніх сутностей
-    
-
+---
+navigation:
+  - function.xml-set-end-namespace-decl-handler.html: « xmlsetendnamespacedeclhandler
+  - function.xml-set-notation-decl-handler.html: xmlsetnotationdeclhandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetexternalentityrefhandler
+---
 # xmlsetexternalentityrefhandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -71,7 +66,7 @@ handler(    XMLParser $parser,    string $open_entity_names,    stri
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource).                                                                              |
-|        | Значення, що повертається `handler` більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а розбір ніколи не зупинявся. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+|  | Значення, що повертається `handler` більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а розбір ніколи не зупинявся. |

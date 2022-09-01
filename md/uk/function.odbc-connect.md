@@ -1,16 +1,11 @@
-З'єднує із джерелом даних
-
--   [« odbccommit](function.odbc-commit.html)
-    
--   [odbccursor »](function.odbc-cursor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   З'єднує із джерелом даних
-    
-
+---
+navigation:
+  - function.odbc-commit.html: « odbccommit
+  - function.odbc-cursor.html: odbccursor »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcconnect
+---
 # odbcconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

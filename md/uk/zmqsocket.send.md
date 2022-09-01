@@ -1,16 +1,11 @@
-Надіслати повідомлення
-
--   [« ZMQSocket::recvMulti](zmqsocket.recvmulti.html)
-    
--   [ZMQSocket::sendmulti »](zmqsocket.sendmulti.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQSocket](class.zmqsocket.html)
-    
--   Надіслати повідомлення
-    
-
+---
+navigation:
+  - zmqsocket.recvmulti.html: '« ZMQSocket::recvMulti'
+  - zmqsocket.sendmulti.html: 'ZMQSocket::sendmulti »'
+  - index.html: PHP Manual
+  - class.zmqsocket.html: ZMQSocket
+title: 'ZMQSocket::send'
+---
 # ZMQSocket::send
 
 (PECL zmq >= 0.5.0)

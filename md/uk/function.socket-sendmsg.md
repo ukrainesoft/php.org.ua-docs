@@ -1,16 +1,11 @@
-Надіслати повідомлення
-
--   [« socketsend](function.socket-send.html)
-    
--   [socketsendto »](function.socket-sendto.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Надіслати повідомлення
-    
-
+---
+navigation:
+  - function.socket-send.html: « socketsend
+  - function.socket-sendto.html: socketsendto »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketsendmsg
+---
 # socketsendmsg
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ socket_sendmsg(Socket $socket, array $message, int $flags = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

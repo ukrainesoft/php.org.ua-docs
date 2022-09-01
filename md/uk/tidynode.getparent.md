@@ -1,16 +1,11 @@
-Повертає батьківський вузол поточного вузла
-
--   [« tidyNode::construct](tidynode.construct.md)
-    
--   [tidyNode::hasChildren »](tidynode.haschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidyNode](class.tidynode.md)
-    
--   Повертає батьківський вузол поточного вузла
-    
-
+---
+navigation:
+  - tidynode.construct.md: '« tidyNode::construct'
+  - tidynode.haschildren.md: 'tidyNode::hasChildren »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
+title: 'tidyNode::getParent'
+---
 # tidyNode::getParent
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

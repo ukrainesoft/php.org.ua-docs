@@ -1,16 +1,11 @@
-Повертає значення гравітації (тяжіння)
-
--   [« Imagick::getFormat](imagick.getformat.html)
-    
--   [Imagick::getHomeURL »](imagick.gethomeurl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає значення гравітації (тяжіння)
-    
-
+---
+navigation:
+  - imagick.getformat.html: '« Imagick::getFormat'
+  - imagick.gethomeurl.html: 'Imagick::getHomeURL »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getGravity'
+---
 # Imagick::getGravity
 
 (PECL imagick 2, PECL imagick 3)

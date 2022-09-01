@@ -1,16 +1,11 @@
-Поведінка
-
--   [« parallelEvents](class.parallel-events.html)
-    
--   [parallelEvents::setTimeout »](parallel-events.settimeout.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelEvents](class.parallel-events.html)
-    
--   Поведінка
-    
-
+---
+navigation:
+  - class.parallel-events.html: « parallelEvents
+  - parallel-events.settimeout.html: 'parallelEvents::setTimeout »'
+  - index.md: PHP Manual
+  - class.parallel-events.html: parallelEvents
+title: 'parallelEvents::setBlocking'
+---
 # parallelEvents::setBlocking
 
 parallelEvents::setBlocking — Поведінка

@@ -1,16 +1,11 @@
-Витягти рядок з результуючого набору у вигляді асоціативного масиву
-
--   [« cubridfetcharray](function.cubrid-fetch-array.html)
-    
--   [cubridfetchfield »](function.cubrid-fetch-field.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Витягти рядок з результуючого набору у вигляді асоціативного масиву
-    
-
+---
+navigation:
+  - function.cubrid-fetch-array.html: « cubridfetcharray
+  - function.cubrid-fetch-field.html: cubridfetchfield »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfetchassoc
+---
 # cubridfetchassoc
 
 (PECL CUBRID >= 8.3.0)

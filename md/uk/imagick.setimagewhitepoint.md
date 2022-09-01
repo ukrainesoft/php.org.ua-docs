@@ -1,16 +1,11 @@
-Встановлює білу точку кольору зображення
-
--   [« Imagick::setImageVirtualPixelMethod](imagick.setimagevirtualpixelmethod.md)
-    
--   [Imagick::setInterlaceScheme »](imagick.setinterlacescheme.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює білу точку кольору зображення
-    
-
+---
+navigation:
+  - imagick.setimagevirtualpixelmethod.md: '« Imagick::setImageVirtualPixelMethod'
+  - imagick.setinterlacescheme.md: 'Imagick::setInterlaceScheme »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageWhitePoint'
+---
 # Imagick::setImageWhitePoint
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](radius.requirements.html)
-    
--   [Налаштування під час виконання »](radius.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](radius.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - radius.requirements.html: « Вимоги
+  - radius.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - radius.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

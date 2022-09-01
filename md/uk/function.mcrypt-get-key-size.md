@@ -1,16 +1,11 @@
-Отримати розмір ключа заданого шифру
-
--   [« mcryptgetвербsize](function.mcrypt-get-iv-size.html)
-    
--   [mcryptlistalgorithms »](function.mcrypt-list-algorithms.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Отримати розмір ключа заданого шифру
-    
-
+---
+navigation:
+  - function.mcrypt-get-iv-size.html: « mcryptgetвербsize
+  - function.mcrypt-list-algorithms.html: mcryptlistalgorithms »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptgetkeysize
+---
 # mcryptgetkeysize
 
 (PHP 4, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

@@ -1,16 +1,11 @@
-Перевірка відгуку серверів завдань
-
--   [« GearmanWorker::construct](gearmanworker.construct.md)
-    
--   [GearmanWorker::error »](gearmanworker.error.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Перевірка відгуку серверів завдань
-    
-
+---
+navigation:
+  - gearmanworker.construct.md: '« GearmanWorker::construct'
+  - gearmanworker.error.md: 'GearmanWorker::error »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::echo'
+---
 # GearmanWorker::echo
 
 (PECL gearman >= 0.6.0)

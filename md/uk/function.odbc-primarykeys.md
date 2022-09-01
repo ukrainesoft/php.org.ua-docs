@@ -1,16 +1,11 @@
-Отримує первинні ключі таблиці
-
--   [« odbcprepare](function.odbc-prepare.html)
-    
--   [odbcprocedurecolumns »](function.odbc-procedurecolumns.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Отримує первинні ключі таблиці
-    
-
+---
+navigation:
+  - function.odbc-prepare.html: « odbcprepare
+  - function.odbc-procedurecolumns.html: odbcprocedurecolumns »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcprimarykeys
+---
 # odbcprimarykeys
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

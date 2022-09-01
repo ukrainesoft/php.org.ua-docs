@@ -1,16 +1,11 @@
-Клас SolrObject
-
--   [« SolrDocumentField::destruct](solrdocumentfield.destruct.html)
-    
--   [SolrObject::construct »](solrobject.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Клас SolrObject
-    
-
+---
+navigation:
+  - solrdocumentfield.destruct.html: '« SolrDocumentField::destruct'
+  - solrobject.construct.html: 'SolrObject::construct »'
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Клас SolrObject
+---
 # Клас SolrObject
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Встановлює розтягування шрифту для використання під час анотування текстом
-
--   [« ImagickDraw::setFontSize](imagickdraw.setfontsize.html)
-    
--   [ImagickDraw::setFontStyle »](imagickdraw.setfontstyle.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює розтягування шрифту для використання під час анотування текстом
-    
-
+---
+navigation:
+  - imagickdraw.setfontsize.html: '« ImagickDraw::setFontSize'
+  - imagickdraw.setfontstyle.html: 'ImagickDraw::setFontStyle »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setFontStretch'
+---
 # ImagickDraw::setFontStretch
 
 (PECL imagick 2, PECL imagick 3)

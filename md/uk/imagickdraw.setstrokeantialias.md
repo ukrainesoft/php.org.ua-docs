@@ -1,16 +1,11 @@
-Керує згладжуванням обведення контурів
-
--   [« ImagickDraw::setStrokeAlpha](imagickdraw.setstrokealpha.html)
-    
--   [ImagickDraw::setStrokeColor »](imagickdraw.setstrokecolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Керує згладжуванням обведення контурів
-    
-
+---
+navigation:
+  - imagickdraw.setstrokealpha.html: '« ImagickDraw::setStrokeAlpha'
+  - imagickdraw.setstrokecolor.html: 'ImagickDraw::setStrokeColor »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setStrokeAntialias'
+---
 # ImagickDraw::setStrokeAntialias
 
 (PECL imagick 2, PECL imagick 3)

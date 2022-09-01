@@ -1,14 +1,10 @@
-Авторські права
-
--   [« Руководство по PHP](index.md)
-    
--   [Руководство по PHP »](manual.md)
-    
--   [PHP Manual](index.md)
-    
--   Авторські права
-    
-
+---
+navigation:
+  - index.md: « Руководство по PHP
+  - manual.md: Руководство по PHP »
+  - index.md: PHP Manual
+title: Авторські права
+---
 # Авторські права
 
 Авторські права © 1997-2022 належать групі документування PHP. Ці матеріали можуть бути поширені лише на умовах та угодах, встановлених у ліцензії Creative Commons Attribution версії 3.0 або пізнішої. Копія ліцензії [Creative Commons Attribution 3.0](cc.license.md) поширюється разом із керівництвом. Остання на даний момент версія доступна за адресою [» http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)

@@ -1,16 +1,11 @@
-Функціонал, оголошений застарілим у PHP 7.3.x
-
--   [« Зміни, що ламають зворотну сумісність](migration73.incompatible.md)
-    
--   [Прочие изменения »](migration73.other-changes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.md)
-    
--   Функціонал, оголошений застарілим у PHP 7.3.x
-    
-
+---
+navigation:
+  - migration73.incompatible.md: '« Зміни, що ламають зворотну сумісність'
+  - migration73.other-changes.html: Прочие изменения »
+  - index.md: PHP Manual
+  - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
+title: 'Функціонал, оголошений застарілим у PHP 7.3.x'
+---
 ## Функціонал, оголошений застарілим у PHP 7.3.x
 
 ### Ядро PHP

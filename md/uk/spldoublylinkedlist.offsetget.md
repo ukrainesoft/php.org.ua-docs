@@ -1,16 +1,11 @@
-Повертає значення за вказаним індексом
-
--   [« SplDoublyLinkedList::offsetExists](spldoublylinkedlist.offsetexists.html)
-    
--   [SplDoublyLinkedList::offsetSet »](spldoublylinkedlist.offsetset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Повертає значення за вказаним індексом
-    
-
+---
+navigation:
+  - spldoublylinkedlist.offsetexists.html: '« SplDoublyLinkedList::offsetExists'
+  - spldoublylinkedlist.offsetset.html: 'SplDoublyLinkedList::offsetSet »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::offsetGet'
+---
 # SplDoublyLinkedList::offsetGet
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

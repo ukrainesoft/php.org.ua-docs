@@ -1,16 +1,11 @@
-Опції Stomp
-
--   [« Приклади](stomp.examples.md)
-    
--   [stompconnecterror »](function.stomp-connect-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](book.stomp.md)
-    
--   Опції Stomp
-    
-
+---
+navigation:
+  - stomp.examples.md: « Приклади
+  - function.stomp-connect-error.html: stompconnecterror »
+  - index.md: PHP Manual
+  - book.stomp.md: Stomp
+title: Опції Stomp
+---
 # Опції Stomp
 
 ## Зміст

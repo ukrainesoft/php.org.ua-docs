@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](datetime.setup.md)
-    
--   [Установка »](datetime.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](datetime.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - datetime.setup.md: « Встановлення та налаштування
+  - datetime.installation.md: Установка »
+  - index.md: PHP Manual
+  - datetime.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

@@ -1,16 +1,11 @@
-Визначає, чи існує слово у цій орфографічній сесії
-
--   [« enchantdictgeterror](function.enchant-dict-get-error.html)
-    
--   [enchantdictісінsession »](function.enchant-dict-is-in-session.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Визначає, чи існує слово у цій орфографічній сесії
-    
-
+---
+navigation:
+  - function.enchant-dict-get-error.html: « enchantdictgeterror
+  - function.enchant-dict-is-in-session.html: enchantdictісінsession »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictісadded
+---
 # enchantdictісadded
 
 (PHP 8)
@@ -41,9 +36,9 @@ enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

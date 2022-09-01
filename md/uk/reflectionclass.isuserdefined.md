@@ -1,16 +1,11 @@
-Перевіряє, чи є клас користувача
-
--   [« ReflectionClass::isTrait](reflectionclass.istrait.md)
-    
--   [ReflectionClass::newInstance »](reflectionclass.newinstance.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи є клас користувача
-    
-
+---
+navigation:
+  - reflectionclass.istrait.md: '« ReflectionClass::isTrait'
+  - reflectionclass.newinstance.md: 'ReflectionClass::newInstance »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isUserDefined'
+---
 # ReflectionClass::isUserDefined
 
 (PHP 5, PHP 7, PHP 8)

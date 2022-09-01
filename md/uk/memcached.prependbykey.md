@@ -1,16 +1,11 @@
-Додає дані на початок існуючого запису на вказаному сервері
-
--   [« Memcached::prepend](memcached.prepend.md)
-    
--   [Memcached::quit »](memcached.quit.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Додає дані на початок існуючого запису на вказаному сервері
-    
-
+---
+navigation:
+  - memcached.prepend.md: '« Memcached::prepend'
+  - memcached.quit.md: 'Memcached::quit »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::prependByKey'
+---
 # Memcached::prependByKey
 
 (PECL memcached >= 0.1.0)

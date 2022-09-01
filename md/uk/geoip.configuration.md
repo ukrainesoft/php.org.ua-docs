@@ -1,25 +1,20 @@
-Налаштування під час виконання
-
--   [« Установка](geoip.installation.html)
-    
--   [Типи ресурсів »](geoip.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](geoip.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - geoip.installation.html: « Установка
+  - geoip.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - geoip.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції настроювання GeoIP**
 
-| Имя                                                                          | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory) | ""           | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory) | "" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

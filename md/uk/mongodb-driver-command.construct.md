@@ -1,16 +1,11 @@
-Створює новий об'єкт Command
-
--   [« MongoDBDriverCommand](class.mongodb-driver-command.html)
-    
--   [MongoDBDriverQuery »](class.mongodb-driver-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCommand](class.mongodb-driver-command.html)
-    
--   Створює новий об'єкт Command
-    
-
+---
+navigation:
+  - class.mongodb-driver-command.html: « MongoDBDriverCommand
+  - class.mongodb-driver-query.html: MongoDBDriverQuery »
+  - index.md: PHP Manual
+  - class.mongodb-driver-command.html: MongoDBDriverCommand
+title: 'MongoDBDriverCommand::construct'
+---
 # MongoDBDriverCommand::construct
 
 (mongodb >=1.0.0)
@@ -39,10 +34,10 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 
 **commandOptions**
 
-| Опция                                                                                                                                                                                                                                                                                                            | Тип | Описание |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|----------|
-| maxAwaitTimeMS                                                                                                                                                                                                                                                                                                   | int |          |
-| Позитивне ціле число, яке визначає обмеження часу в мілісекундах, на яке сервер може блокувати операцію getMore, якщо дані відсутні. Ця опція може використовуватися лише спільно з командами, що повертають хвостові курсори. (наприклад [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams/) |     |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| maxAwaitTimeMS | int |  |
+| Позитивне ціле число, яке визначає обмеження часу в мілісекундах, на яке сервер може блокувати операцію getMore, якщо дані відсутні. Ця опція може використовуватися лише спільно з командами, що повертають хвостові курсори. (наприклад [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams/) |  |  |
 
 ### Помилки
 
@@ -50,10 +45,10 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 
 ### список змін
 
-| Версия                                                                                   | Описание |
-|------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.4.0                                                                       |          |
-| Доданий другий аргумент `commandOptions`, що дозволяє визначити опцію `"maxAwaitTimeMS"` |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.4.0 |  |
+| Доданий другий аргумент `commandOptions`, що дозволяє визначити опцію `"maxAwaitTimeMS"` |  |
 
 ### Приклади
 

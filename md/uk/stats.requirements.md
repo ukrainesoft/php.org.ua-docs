@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](stats.setup.html)
-    
--   [Установка »](stats.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](stats.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - stats.setup.html: « Встановлення та налаштування
+  - stats.installation.html: Установка »
+  - index.html: PHP Manual
+  - stats.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Жодних зовнішніх бібліотек не потрібно. Модуль поставляється в комплекті з бібліотеками.

@@ -1,16 +1,11 @@
-Повертає об'єкт для серіалізації BSON
-
--   [« MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
-    
--   [MongoDBDriverReadConcern::construct »](mongodb-driver-readconcern.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
-    
--   Повертає об'єкт для серіалізації BSON
-    
-
+---
+navigation:
+  - class.mongodb-driver-readconcern.html: « MongoDBDriverReadConcern
+  - mongodb-driver-readconcern.construct.html: 'MongoDBDriverReadConcern::construct »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+title: 'MongoDBDriverReadConcern::bsonSerialize'
+---
 # MongoDBDriverReadConcern::bsonSerialize
 
 (mongodb >=1.2.0)

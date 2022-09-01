@@ -1,16 +1,11 @@
-Надсилання результату та статусу завершення (застарілий метод)
-
--   [« GearmanJob](class.gearmanjob.md)
-    
--   [GearmanJob::construct »](gearmanjob.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Надсилання результату та статусу завершення (застарілий метод)
-    
-
+---
+navigation:
+  - class.gearmanjob.md: « GearmanJob
+  - gearmanjob.construct.md: 'GearmanJob::construct »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::complete'
+---
 # GearmanJob::complete
 
 (PECL gearman <= 0.5.0)

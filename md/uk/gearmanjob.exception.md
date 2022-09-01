@@ -1,16 +1,11 @@
-Надсилання виключення (застарілий метод)
-
--   [« GearmanJob::data](gearmanjob.data.html)
-    
--   [GearmanJob::fail »](gearmanjob.fail.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Надсилання виключення (застарілий метод)
-    
-
+---
+navigation:
+  - gearmanjob.data.html: '« GearmanJob::data'
+  - gearmanjob.fail.html: 'GearmanJob::fail »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::exception'
+---
 # GearmanJob::exception
 
 (PECL gearman <= 0.5.0)

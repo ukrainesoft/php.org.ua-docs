@@ -1,16 +1,11 @@
-Закрити потік IMAP
-
--   [« imapclearflagfull](function.imap-clearflag-full.html)
-    
--   [imapcreate »](function.imap-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Закрити потік IMAP
-    
-
+---
+navigation:
+  - function.imap-clearflag-full.html: « imapclearflagfull
+  - function.imap-create.html: imapcreate »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapclose
+---
 # imapclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imap_close(IMAP\Connection $imap, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

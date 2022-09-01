@@ -1,16 +1,11 @@
-Порівняє два документи XML
-
--   [« XMLDiffBase::construct](xmldiff-base.construct.html)
-    
--   [XMLDiffBase::merge »](xmldiff-base.merge.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLDiffBase](class.xmldiff-base.html)
-    
--   Порівняє два документи XML
-    
-
+---
+navigation:
+  - xmldiff-base.construct.html: '« XMLDiffBase::construct'
+  - xmldiff-base.merge.html: 'XMLDiffBase::merge »'
+  - index.html: PHP Manual
+  - class.xmldiff-base.html: XMLDiffBase
+title: 'XMLDiffBase::diff'
+---
 # XMLDiffBase::diff
 
 (PECL xmldiff >= 0.8.0)

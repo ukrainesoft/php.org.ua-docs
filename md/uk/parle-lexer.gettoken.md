@@ -1,16 +1,11 @@
-Отримує поточний токен
-
--   [« ParleLexer::dump](parle-lexer.dump.html)
-    
--   [ParleLexer::insertMacro »](parle-lexer.insertmacro.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleLexer](class.parle-lexer.html)
-    
--   Отримує поточний токен
-    
-
+---
+navigation:
+  - parle-lexer.dump.html: '« ParleLexer::dump'
+  - parle-lexer.insertmacro.html: 'ParleLexer::insertMacro »'
+  - index.md: PHP Manual
+  - class.parle-lexer.html: ParleLexer
+title: 'ParleLexer::getToken'
+---
 # ParleLexer::getToken
 
 (PECL parle >= 0.5.1)

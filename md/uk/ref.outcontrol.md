@@ -1,16 +1,11 @@
-Функції контролю виведення
-
--   [« Використання перезапису висновку](outcontrol.examples.rewrite.html)
-    
--   [flush »](function.flush.html)
-    
--   [PHP Manual](index.html)
-    
--   [Контроль виведення](book.outcontrol.html)
-    
--   Функції контролю виведення
-    
-
+---
+navigation:
+  - outcontrol.examples.rewrite.html: « Використання перезапису висновку
+  - function.flush.html: flush »
+  - index.html: PHP Manual
+  - book.outcontrol.html: Контроль виведення
+title: Функції контролю виведення
+---
 # Функції контролю виведення
 
 # Дивіться також

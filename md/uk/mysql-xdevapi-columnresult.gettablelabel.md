@@ -1,16 +1,11 @@
-Отримує мітку таблиці
-
--   [« ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.html)
-    
--   [ColumnResult::getTableName »](mysql-xdevapi-columnresult.gettablename.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує мітку таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getschemaname.html: '« ColumnResult::getSchemaName'
+  - mysql-xdevapi-columnresult.gettablename.html: 'ColumnResult::getTableName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getTableLabel'
+---
 # ColumnResult::getTableLabel
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Псевдонім ibasefreequery
-
--   [« fbirdfreeeventhandler](function.fbird-free-event-handler.html)
-    
--   [fbirdfreeresult »](function.fbird-free-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibasefreequery
-    
-
+---
+navigation:
+  - function.fbird-free-event-handler.html: « fbirdfreeeventhandler
+  - function.fbird-free-result.html: fbirdfreeresult »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdfreequery
+---
 # fbirdfreequery
 
 (PHP 5, PHP 7 < 7.4.0)

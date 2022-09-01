@@ -1,16 +1,11 @@
-Функції PostgreSQL (PDOPGSQL)
-
--   [« PDOODBC DSN](ref.pdo-odbc.connection.html)
-    
--   [PDOPGSQL DSN »](ref.pdo-pgsql.connection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Драйвери PDO](pdo.drivers.md)
-    
--   Функції PostgreSQL (PDOPGSQL)
-    
-
+---
+navigation:
+  - ref.pdo-odbc.connection.html: « PDOODBC DSN
+  - ref.pdo-pgsql.connection.html: PDOPGSQL DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
+title: Функції PostgreSQL (PDOPGSQL)
+---
 # Функції PostgreSQL (PDOPGSQL)
 
 ## Вступ

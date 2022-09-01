@@ -1,16 +1,11 @@
-Вийняти секцію повідомлення разом із заголовками без декодування
-
--   [« mailparsemsgextractpart](function.mailparse-msg-extract-part.html)
-    
--   [mailparsemsgfree »](function.mailparse-msg-free.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mailparse](ref.mailparse.html)
-    
--   Вийняти секцію повідомлення разом із заголовками без декодування
-    
-
+---
+navigation:
+  - function.mailparse-msg-extract-part.html: « mailparsemsgextractpart
+  - function.mailparse-msg-free.html: mailparsemsgfree »
+  - index.html: PHP Manual
+  - ref.mailparse.html: Mailparse
+title: mailparsemsgextractwholepartfile
+---
 # mailparsemsgextractwholepartfile
 
 (PECL mailparse >= 0.9.0)

@@ -1,16 +1,11 @@
-Створює новий Symbol (не використовується)
-
--   [« MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
-    
--   [MongoDBBSONSymbol::jsonSerialize »](mongodb-bson-symbol.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
-    
--   Створює новий Symbol (не використовується)
-    
-
+---
+navigation:
+  - class.mongodb-bson-symbol.html: « MongoDBBSONSymbol
+  - mongodb-bson-symbol.jsonserialize.html: 'MongoDBBSONSymbol::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::construct'
+---
 # MongoDBBSONSymbol::construct
 
 (mongodb >=1.4.0)

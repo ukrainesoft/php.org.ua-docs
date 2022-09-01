@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.memcached.html)
-    
--   [Вимоги »](memcached.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](book.memcached.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.memcached.html: « Введение
+  - memcached.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.memcached.html: Memcached
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

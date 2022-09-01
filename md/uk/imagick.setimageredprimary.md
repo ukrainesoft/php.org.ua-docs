@@ -1,16 +1,11 @@
-Встановлює червону первинну точку кольоровості зображення
-
--   [« Imagick::setImageProperty](imagick.setimageproperty.html)
-    
--   [Imagick::setImageRenderingIntent »](imagick.setimagerenderingintent.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює червону первинну точку кольоровості зображення
-    
-
+---
+navigation:
+  - imagick.setimageproperty.html: '« Imagick::setImageProperty'
+  - imagick.setimagerenderingintent.html: 'Imagick::setImageRenderingIntent »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageRedPrimary'
+---
 # Imagick::setImageRedPrimary
 
 (PECL imagick 2, PECL imagick 3)

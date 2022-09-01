@@ -1,16 +1,11 @@
-Отримує FFICType для FFICData
-
--   [« FFI::type](ffi.type.md)
-    
--   [FFICData »](class.ffi-cdata.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Отримує FFICType для FFICData
-    
-
+---
+navigation:
+  - ffi.type.md: '« FFI::type'
+  - class.ffi-cdata.html: FFICData »
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::typeof'
+---
 # FFI::typeof
 
 (PHP 7> = 7.4.0, PHP 8)

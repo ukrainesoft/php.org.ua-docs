@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::segmentImage](imagick.segmentimage.md)
-    
--   [Imagick::separateImageChannel »](imagick.separateimagechannel.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.segmentimage.md: '« Imagick::segmentImage'
+  - imagick.separateimagechannel.md: 'Imagick::separateImageChannel »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::selectiveBlurImage'
+---
 # Imagick::selectiveBlurImage
 
 (PECL imagick 3> = 3.3.0)

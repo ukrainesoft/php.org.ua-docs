@@ -1,16 +1,11 @@
-Встановлює диференційовані запити SeasLog requestід
-
--   [« SeasLog::setLogger](seaslog.setlogger.html)
-    
--   [SeasLog::setRequestVariable »](seaslog.setrequestvariable.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Встановлює диференційовані запити SeasLog requestід
-    
-
+---
+navigation:
+  - seaslog.setlogger.html: '« SeasLog::setLogger'
+  - seaslog.setrequestvariable.html: 'SeasLog::setRequestVariable »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::setRequestID'
+---
 # SeasLog::setRequestID
 
 (PECL seaslog >=1.0.0)

@@ -1,16 +1,11 @@
-Встановлює дію форми надсилання поля
-
--   [« fdfsetstatus](function.fdf-set-status.html)
-    
--   [fdfsettargetframe »](function.fdf-set-target-frame.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює дію форми надсилання поля
-    
-
+---
+navigation:
+  - function.fdf-set-status.html: « fdfsetstatus
+  - function.fdf-set-target-frame.html: fdfsettargetframe »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetsubmitformaction
+---
 # fdfsetsubmitformaction
 
 (PHP 4> = 4.0.2, PHP 5 <5.3.0, PECL fdf SVN)

@@ -1,16 +1,11 @@
-Завершує пакет WDDX із зазначеним ідентифікатором
-
--   [« wddxdeserialize](function.wddx-deserialize.html)
-    
--   [wddxpacketstart »](function.wddx-packet-start.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції WDDX](ref.wddx.md)
-    
--   Завершує пакет WDDX із зазначеним ідентифікатором
-    
-
+---
+navigation:
+  - function.wddx-deserialize.html: « wddxdeserialize
+  - function.wddx-packet-start.html: wddxpacketstart »
+  - index.md: PHP Manual
+  - ref.wddx.md: Функції WDDX
+title: wddxpacketend
+---
 # wddxpacketend
 
 (PHP 4, PHP 5, PHP 7)

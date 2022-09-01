@@ -1,16 +1,11 @@
-Отримує кількість рядків у наборі результатів
-
--   [« mysqliresult::$lengths](mysqli-result.lengths.html)
-    
--   [mysqlidriver »](class.mysqli-driver.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Отримує кількість рядків у наборі результатів
-    
-
+---
+navigation:
+  - mysqli-result.lengths.html: '« mysqliresult::$lengths'
+  - class.mysqli-driver.html: mysqlidriver »
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::$numrows'
+---
 # mysqliresult::$numrows
 
 # mysqlinumrows

@@ -1,16 +1,11 @@
-Перевірити підпис для повідомлення
-
--   [« sodiumcryptosignseedkeypair](function.sodium-crypto-sign-seed-keypair.html)
-    
--   [sodiumcryptosign »](function.sodium-crypto-sign.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перевірити підпис для повідомлення
-    
-
+---
+navigation:
+  - function.sodium-crypto-sign-seed-keypair.html: « sodiumcryptosignseedkeypair
+  - function.sodium-crypto-sign.html: sodiumcryptosign »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptosignverifydetached
+---
 # sodiumcryptosignverifydetached
 
 (PHP 7> = 7.2.0, PHP 8)

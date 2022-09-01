@@ -1,16 +1,11 @@
-Перевірка на рівність за постійну кількість часу
-
--   [« sodiumincrement](function.sodium-increment.html)
-    
--   [sodiummemzero »](function.sodium-memzero.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перевірка на рівність за постійну кількість часу
-    
-
+---
+navigation:
+  - function.sodium-increment.html: « sodiumincrement
+  - function.sodium-memzero.html: sodiummemzero »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiummemcmp
+---
 # sodiummemcmp
 
 (PHP 7> = 7.2.0, PHP 8)

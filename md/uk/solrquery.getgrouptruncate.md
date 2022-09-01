@@ -1,16 +1,11 @@
-Повертає значення group.truncate
-
--   [« SolrQuery::getGroupSortFields](solrquery.getgroupsortfields.md)
-    
--   [SolrQuery::getHighlight »](solrquery.gethighlight.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає значення group.truncate
-    
-
+---
+navigation:
+  - solrquery.getgroupsortfields.md: '« SolrQuery::getGroupSortFields'
+  - solrquery.gethighlight.md: 'SolrQuery::getHighlight »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupTruncate'
+---
 # SolrQuery::getGroupTruncate
 
 (PECL solr> = 2.2.0)

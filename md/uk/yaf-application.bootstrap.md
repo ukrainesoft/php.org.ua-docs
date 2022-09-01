@@ -1,16 +1,11 @@
-Викликати bootstrap
-
--   [« YafApplication::app](yaf-application.app.html)
-    
--   [YafApplication::clearLastError »](yaf-application.clearlasterror.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Викликати bootstrap
-    
-
+---
+navigation:
+  - yaf-application.app.html: '« YafApplication::app'
+  - yaf-application.clearlasterror.html: 'YafApplication::clearLastError »'
+  - index.html: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::bootstrap'
+---
 # YafApplication::bootstrap
 
 (Yaf >=1.0.0)

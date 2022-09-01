@@ -1,16 +1,11 @@
-Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
-
--   [« DOMDocument::save](domdocument.save.html)
-    
--   [DOMDocument::saveHTMLFile »](domdocument.savehtmlfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
-    
-
+---
+navigation:
+  - domdocument.save.html: '« DOMDocument::save'
+  - domdocument.savehtmlfile.html: 'DOMDocument::saveHTMLFile »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::saveHTML'
+---
 # DOMDocument::saveHTML
 
 (PHP 5, PHP 7, PHP 8)

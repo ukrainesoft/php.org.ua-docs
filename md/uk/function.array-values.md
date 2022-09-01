@@ -1,16 +1,11 @@
-Вибирає всі значення масиву
-
--   [« arrayunshift](function.array-unshift.html)
-    
--   [arraywalkrecursive »](function.array-walk-recursive.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Вибирає всі значення масиву
-    
-
+---
+navigation:
+  - function.array-unshift.html: « arrayunshift
+  - function.array-walk-recursive.html: arraywalkrecursive »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayvalues
+---
 # arrayvalues
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

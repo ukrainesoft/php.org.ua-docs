@@ -1,16 +1,11 @@
-Повертає ім'я типу поля
-
--   [« ocifieldtyperaw](function.oci-field-type-raw.html)
-    
--   [ocifreedescriptor »](function.oci-free-descriptor.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає ім'я типу поля
-    
-
+---
+navigation:
+  - function.oci-field-type-raw.html: « ocifieldtyperaw
+  - function.oci-free-descriptor.html: ocifreedescriptor »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifieldtype
+---
 # ocifieldtype
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

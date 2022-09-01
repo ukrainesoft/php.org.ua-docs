@@ -1,16 +1,11 @@
-Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
-
--   [« IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.md)
-    
--   [IntlCalendar::getErrorCode »](intlcalendar.geterrorcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
-    
-
+---
+navigation:
+  - intlcalendar.getavailablelocales.md: '« IntlCalendar::getAvailableLocales'
+  - intlcalendar.geterrorcode.md: 'IntlCalendar::getErrorCode »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getDayOfWeekType'
+---
 # IntlCalendar::getDayOfWeekType
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

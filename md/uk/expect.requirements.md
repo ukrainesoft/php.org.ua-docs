@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](expect.setup.html)
-    
--   [Установка »](expect.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](expect.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - expect.setup.html: « Встановлення та налаштування
+  - expect.installation.html: Установка »
+  - index.html: PHP Manual
+  - expect.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Цей модуль використовує бібліотеку [» expect](http://expect.nist.gov/). Потрібна бібліотека libexpect версії >= 5.43.0.

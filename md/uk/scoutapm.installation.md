@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](scoutapm.requirements.md)
-    
--   [Налаштування під час виконання »](scoutapm.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](scoutapm.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - scoutapm.requirements.md: « Вимоги
+  - scoutapm.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - scoutapm.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль доступний для PECL. Запустіть:

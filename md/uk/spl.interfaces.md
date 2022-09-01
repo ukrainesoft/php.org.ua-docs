@@ -1,16 +1,11 @@
-Інтерфейси
-
--   [« RegexIterator::setPregFlags](regexiterator.setpregflags.md)
-    
--   [Countable »](class.countable.md)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Інтерфейси
-    
-
+---
+navigation:
+  - regexiterator.setpregflags.md: '« RegexIterator::setPregFlags'
+  - class.countable.md: Countable »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Інтерфейси
+---
 # Інтерфейси
 
 ## Зміст

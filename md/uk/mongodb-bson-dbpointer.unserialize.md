@@ -1,16 +1,11 @@
-Десеріалізує DBPointer
-
--   [« MongoDBBSONDBPointer::toString](mongodb-bson-dbpointer.tostring.html)
-    
--   [MongoDBBSONInt64 »](class.mongodb-bson-int64.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
-    
--   Десеріалізує DBPointer
-    
-
+---
+navigation:
+  - mongodb-bson-dbpointer.tostring.html: '« MongoDBBSONDBPointer::toString'
+  - class.mongodb-bson-int64.html: MongoDBBSONInt64 »
+  - index.md: PHP Manual
+  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer
+title: 'MongoDBBSONDBPointer::unserialize'
+---
 # MongoDBBSONDBPointer::unserialize
 
 (mongodb >=1.4.0)

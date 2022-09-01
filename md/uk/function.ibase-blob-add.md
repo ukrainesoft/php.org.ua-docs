@@ -1,16 +1,11 @@
-Додає дані до новоствореного BLOB-об'єкту
-
--   [« ibasebackup](function.ibase-backup.html)
-    
--   [ibaseblobcancel »](function.ibase-blob-cancel.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Додає дані до новоствореного BLOB-об'єкту
-    
-
+---
+navigation:
+  - function.ibase-backup.html: « ibasebackup
+  - function.ibase-blob-cancel.html: ibaseblobcancel »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseblobadd
+---
 # ibaseblobadd
 
 (PHP 5, PHP 7 < 7.4.0)

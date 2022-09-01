@@ -1,16 +1,11 @@
-Створює об'єкт класу DOMText
-
--   [« DOMText](class.domtext.md)
-    
--   [DOMText::isElementContentWhitespace »](domtext.iselementcontentwhitespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMText](class.domtext.md)
-    
--   Створює об'єкт класу DOMText
-    
-
+---
+navigation:
+  - class.domtext.md: « DOMText
+  - domtext.iselementcontentwhitespace.md: 'DOMText::isElementContentWhitespace »'
+  - index.md: PHP Manual
+  - class.domtext.md: DOMText
+title: 'DOMText::construct'
+---
 # DOMText::construct
 
 (PHP 5, PHP 7, PHP 8)

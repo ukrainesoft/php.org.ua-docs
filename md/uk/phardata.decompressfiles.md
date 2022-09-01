@@ -1,16 +1,11 @@
-Розпакувати всі файли у поточному zip-архіві
-
--   [« PharData::decompress](phardata.decompress.html)
-    
--   [PharData::delMetadata »](phardata.delmetadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharData](class.phardata.html)
-    
--   Розпакувати всі файли у поточному zip-архіві
-    
-
+---
+navigation:
+  - phardata.decompress.html: '« PharData::decompress'
+  - phardata.delmetadata.html: 'PharData::delMetadata »'
+  - index.html: PHP Manual
+  - class.phardata.html: PharData
+title: 'PharData::decompressFiles'
+---
 # PharData::decompressFiles
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

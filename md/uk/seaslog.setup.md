@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.seaslog.md)
-    
--   [Вимоги »](seaslog.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Seaslog](book.seaslog.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.seaslog.md: « Введение
+  - seaslog.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.seaslog.md: Seaslog
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

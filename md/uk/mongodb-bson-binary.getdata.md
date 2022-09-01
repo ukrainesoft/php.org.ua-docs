@@ -1,16 +1,11 @@
-Повертає дані Binary
-
--   [« MongoDBBSONBinary::construct](mongodb-bson-binary.construct.html)
-    
--   [MongoDBBSONBinary::getType »](mongodb-bson-binary.gettype.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   Повертає дані Binary
-    
-
+---
+navigation:
+  - mongodb-bson-binary.construct.html: '« MongoDBBSONBinary::construct'
+  - mongodb-bson-binary.gettype.html: 'MongoDBBSONBinary::getType »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::getData'
+---
 # MongoDBBSONBinary::getData
 
 (mongodb >=1.0.0)

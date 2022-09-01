@@ -1,16 +1,11 @@
-Додати виправлення для слова
-
--   [« enchantdictquickcheck](function.enchant-dict-quick-check.html)
-    
--   [enchantdictsuggest »](function.enchant-dict-suggest.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Додати виправлення для слова
-    
-
+---
+navigation:
+  - function.enchant-dict-quick-check.html: « enchantdictquickcheck
+  - function.enchant-dict-suggest.html: enchantdictsuggest »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictstorereplacement
+---
 # enchantdictstorereplacement
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -45,6 +40,6 @@ enchant_dict_store_replacement(EnchantDictionary $dictionary, string $misspelled
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

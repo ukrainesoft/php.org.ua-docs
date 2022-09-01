@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](snmp.setup.md)
-    
--   [Установка »](snmp.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](snmp.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - snmp.setup.md: « Встановлення та налаштування
+  - snmp.installation.md: Установка »
+  - index.md: PHP Manual
+  - snmp.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Щоб використовувати функції SNMP у Unix, необхідно встановити пакет [» Net-SNMP](http://www.net-snmp.org/). Функції SNMPv3 доступні лише тоді, коли встановлено пакет [» OpenSSL](http://www.openssl.org/)

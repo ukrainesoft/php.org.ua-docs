@@ -1,16 +1,11 @@
-Перевіряє, чи порожня колекція
-
--   [« DsQueue::count](ds-queue.count.html)
-    
--   [ДсQueue::jsonSerialize »](ds-queue.jsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Перевіряє, чи порожня колекція
-    
-
+---
+navigation:
+  - ds-queue.count.html: '« DsQueue::count'
+  - ds-queue.jsonserialize.html: 'ДсQueue::jsonSerialize »'
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::isEmpty'
+---
 # ДсQueue::isEmpty
 
 (PECL ds >= 1.0.0)

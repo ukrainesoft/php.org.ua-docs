@@ -1,16 +1,11 @@
-Повертає рядкову виставу Int64
-
--   [« MongoDBBSONInt64::serialize](mongodb-bson-int64.serialize.html)
-    
--   [MongoDBBSONInt64::unserialize »](mongodb-bson-int64.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
-    
--   Повертає рядкову виставу Int64
-    
-
+---
+navigation:
+  - mongodb-bson-int64.serialize.html: '« MongoDBBSONInt64::serialize'
+  - mongodb-bson-int64.unserialize.html: 'MongoDBBSONInt64::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+title: 'MongoDBBSONInt64::toString'
+---
 # MongoDBBSONInt64::toString
 
 (mongodb >=1.5.0)

@@ -1,16 +1,11 @@
-Оновлює записи кешу для закешованих файлів
-
--   [« wincacheocachememinfo](function.wincache-ocache-meminfo.html)
-    
--   [wincacherplistfileinfo »](function.wincache-rplist-fileinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Оновлює записи кешу для закешованих файлів
-    
-
+---
+navigation:
+  - function.wincache-ocache-meminfo.html: « wincacheocachememinfo
+  - function.wincache-rplist-fileinfo.html: wincacherplistfileinfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacherefreshіфchanged
+---
 # wincacherefreshіфchanged
 
 (PECL wincache >= 1.0.0)

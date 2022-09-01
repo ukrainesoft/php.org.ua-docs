@@ -1,16 +1,11 @@
-Вибирає один рядок з результуючого набору і поміщає його в асоціативний або нумерований масив, або в обох відразу
-
--   [« SQLite3Result::construct](sqlite3result.construct.html)
-    
--   [SQLite3Result::finalize »](sqlite3result.finalize.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3Result](class.sqlite3result.html)
-    
--   Вибирає один рядок з результуючого набору і поміщає його в асоціативний або нумерований масив, або в обох відразу
-    
-
+---
+navigation:
+  - sqlite3result.construct.html: '« SQLite3Result::construct'
+  - sqlite3result.finalize.html: 'SQLite3Result::finalize »'
+  - index.html: PHP Manual
+  - class.sqlite3result.html: SQLite3Result
+title: 'SQLite3Result::fetchArray'
+---
 # SQLite3Result::fetchArray
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

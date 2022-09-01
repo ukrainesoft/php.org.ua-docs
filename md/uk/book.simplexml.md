@@ -1,16 +1,11 @@
-SimpleXML
-
--   [« libxmluseinternalerrors](function.libxml-use-internal-errors.html)
-    
--   [Введение »](intro.simplexml.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка XML](refs.xml.md)
-    
--   SimpleXML
-    
-
+---
+navigation:
+  - function.libxml-use-internal-errors.html: « libxmluseinternalerrors
+  - intro.simplexml.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
+title: SimpleXML
+---
 # SimpleXML
 
 -   [Введение](intro.simplexml.md)

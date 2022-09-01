@@ -1,16 +1,11 @@
-Конструктор класу Client
-
--   [« mysqlxdevapiClient::close](mysql-xdevapi-client.close.html)
-    
--   [Client::getClient »](mysql-xdevapi-client.getsession.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiClient](class.mysql-xdevapi-client.html)
-    
--   Конструктор класу Client
-    
-
+---
+navigation:
+  - mysql-xdevapi-client.close.html: '« mysqlxdevapiClient::close'
+  - mysql-xdevapi-client.getsession.html: 'Client::getClient »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-client.html: mysqlxdevapiClient
+title: 'Client::construct'
+---
 # Client::construct
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Встановити розмір фрагмента даних потоку
-
--   [« streamsetblocking](function.stream-set-blocking.html)
-    
--   [streamsetreadbuffer »](function.stream-set-read-buffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Встановити розмір фрагмента даних потоку
-    
-
+---
+navigation:
+  - function.stream-set-blocking.html: « streamsetblocking
+  - function.stream-set-read-buffer.html: streamsetreadbuffer »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsetchunksize
+---
 # streamsetchunksize
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

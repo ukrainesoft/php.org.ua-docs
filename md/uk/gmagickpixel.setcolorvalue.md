@@ -1,16 +1,11 @@
-Встановити нормалізоване значення колірного каналу
-
--   [« GmagickPixel::setcolor](gmagickpixel.setcolor.html)
-    
--   [ImageMagick »](book.imagick.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickPixel](class.gmagickpixel.html)
-    
--   Встановити нормалізоване значення колірного каналу
-    
-
+---
+navigation:
+  - gmagickpixel.setcolor.html: '« GmagickPixel::setcolor'
+  - book.imagick.html: ImageMagick »
+  - index.html: PHP Manual
+  - class.gmagickpixel.html: GmagickPixel
+title: 'GmagickPixel::setcolorvalue'
+---
 # GmagickPixel::setcolorvalue
 
 (PECL gmagick >= Unknown)

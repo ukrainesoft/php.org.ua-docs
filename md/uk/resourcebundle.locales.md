@@ -1,16 +1,11 @@
-Отримати підтримувані локалі
-
--   [« ResourceBundle::get](resourcebundle.get.md)
-    
--   [Spoofchecker »](class.spoofchecker.md)
-    
--   [PHP Manual](index.md)
-    
--   [ResourceBundle](class.resourcebundle.md)
-    
--   Отримати підтримувані локалі
-    
-
+---
+navigation:
+  - resourcebundle.get.md: '« ResourceBundle::get'
+  - class.spoofchecker.md: Spoofchecker »
+  - index.md: PHP Manual
+  - class.resourcebundle.md: ResourceBundle
+title: 'ResourceBundle::getLocales'
+---
 # ResourceBundle::getLocales
 
 # resourcebundlelocales

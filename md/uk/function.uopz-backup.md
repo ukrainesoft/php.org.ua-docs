@@ -1,16 +1,11 @@
-Резервує функцію
-
--   [« uopzallowexit](function.uopz-allow-exit.html)
-    
--   [uopzcompose »](function.uopz-compose.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Резервує функцію
-    
-
+---
+navigation:
+  - function.uopz-allow-exit.html: « uopzallowexit
+  - function.uopz-compose.html: uopzcompose »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzbackup
+---
 # uopzbackup
 
 (PECL uopz 1> = 1.0.3, PECL uopz 2)

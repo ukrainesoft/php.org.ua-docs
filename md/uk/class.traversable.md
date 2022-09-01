@@ -1,16 +1,11 @@
-Інтерфейс Traversable
-
--   [« Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   [Iterator »](class.iterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   Інтерфейс Traversable
-    
-
+---
+navigation:
+  - reserved.interfaces.html: « Вбудовані інтерфейси та класи
+  - class.iterator.html: Iterator »
+  - index.html: PHP Manual
+  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+title: 'Інтерфейс [Traversable](class.traversable.html)'
+---
 # Інтерфейс [Traversable](class.traversable.html)
 
 (PHP 5, PHP 7, PHP 8)

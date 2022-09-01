@@ -1,16 +1,11 @@
-Виконує EXCLUSIVE LOCK
-
--   [« TableSelect::limit](mysql-xdevapi-tableselect.limit.html)
-    
--   [TableSelect::lockShared »](mysql-xdevapi-tableselect.lockshared.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Виконує EXCLUSIVE LOCK
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.limit.html: '« TableSelect::limit'
+  - mysql-xdevapi-tableselect.lockshared.html: 'TableSelect::lockShared »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::lockExclusive'
+---
 # TableSelect::lockExclusive
 
 (No version information available, might only be in Git)

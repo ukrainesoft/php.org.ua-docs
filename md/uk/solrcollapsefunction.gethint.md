@@ -1,16 +1,11 @@
-Повертає підказку згортання
-
--   [« SolrCollapseFunction::getField](solrcollapsefunction.getfield.html)
-    
--   [SolrCollapseFunction::getMax »](solrcollapsefunction.getmax.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
-    
--   Повертає підказку згортання
-    
-
+---
+navigation:
+  - solrcollapsefunction.getfield.html: '« SolrCollapseFunction::getField'
+  - solrcollapsefunction.getmax.html: 'SolrCollapseFunction::getMax »'
+  - index.html: PHP Manual
+  - class.solrcollapsefunction.html: SolrCollapseFunction
+title: 'SolrCollapseFunction::getHint'
+---
 # SolrCollapseFunction::getHint
 
 (PECL solr> = 2.2.0)

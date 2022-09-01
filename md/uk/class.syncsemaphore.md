@@ -1,16 +1,11 @@
-Клас SyncSemaphore
-
--   [« SyncMutex::unlock](syncmutex.unlock.md)
-    
--   [SyncSemaphore::construct »](syncsemaphore.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Sync](book.sync.md)
-    
--   Клас SyncSemaphore
-    
-
+---
+navigation:
+  - syncmutex.unlock.md: '« SyncMutex::unlock'
+  - syncsemaphore.construct.md: 'SyncSemaphore::construct »'
+  - index.md: PHP Manual
+  - book.sync.md: Sync
+title: Клас SyncSemaphore
+---
 # Клас SyncSemaphore
 
 (PECL sync >= 1.0.0)

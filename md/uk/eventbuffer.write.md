@@ -1,16 +1,11 @@
-Записує вміст буфера у файл або сокет
-
--   [« EventBuffer::unlock](eventbuffer.unlock.html)
-    
--   [EventBufferEvent »](class.eventbufferevent.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Записує вміст буфера у файл або сокет
-    
-
+---
+navigation:
+  - eventbuffer.unlock.html: '« EventBuffer::unlock'
+  - class.eventbufferevent.html: EventBufferEvent »
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::write'
+---
 # EventBuffer::write
 
 (PECL event >= 1.6.0)

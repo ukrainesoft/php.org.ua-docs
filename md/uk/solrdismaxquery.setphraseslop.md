@@ -1,16 +1,11 @@
-Встановлює коефіцієнт відхилення за промовчанням для запитів фраз (параметр ps)
-
--   [« SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.html)
-    
--   [SolrDisMaxQuery::setQueryAlt »](solrdismaxquery.setqueryalt.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
-    
--   Встановлює коефіцієнт відхилення за промовчанням для запитів фраз (параметр ps)
-    
-
+---
+navigation:
+  - solrdismaxquery.setphrasefields.html: '« SolrDisMaxQuery::setPhraseFields'
+  - solrdismaxquery.setqueryalt.html: 'SolrDisMaxQuery::setQueryAlt »'
+  - index.html: PHP Manual
+  - class.solrdismaxquery.html: SolrDisMaxQuery
+title: 'Solr DisMax Query::set Phrase Slop'
+---
 # Solr DisMax Query::set Phrase Slop
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив
-
--   [« mysqliresult::fetcharray](mysqli-result.fetch-array.html)
-    
--   [mysqliresult::fetchcolumn »](mysqli-result.fetch-column.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив
-    
-
+---
+navigation:
+  - mysqli-result.fetch-array.html: '« mysqliresult::fetcharray'
+  - mysqli-result.fetch-column.html: 'mysqliresult::fetchcolumn »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::fetchassoc'
+---
 # mysqliresult::fetchassoc
 
 # mysqlifetchassoc

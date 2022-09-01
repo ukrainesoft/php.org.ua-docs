@@ -1,16 +1,11 @@
-Повертає інтерфейси
-
--   [« ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md)
-    
--   [ReflectionClass::getMethod »](reflectionclass.getmethod.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає інтерфейси
-    
-
+---
+navigation:
+  - reflectionclass.getinterfacenames.md: '« ReflectionClass::getInterfaceNames'
+  - reflectionclass.getmethod.md: 'ReflectionClass::getMethod »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getInterfaces'
+---
 # ReflectionClass::getInterfaces
 
 (PHP 5, PHP 7, PHP 8)

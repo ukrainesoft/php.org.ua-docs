@@ -1,16 +1,11 @@
-Вступ
-
--   [« Memcache](book.memcache.html)
-    
--   [Встановлення та налаштування »](memcache.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](book.memcache.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.memcache.html: « Memcache
+  - memcache.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.memcache.html: Memcache
+title: Вступ
+---
 # Вступ
 
 Модуль Memcache надає зручний процедурний і об'єктно-орієнтований інтерфейс до memcached, високоефективного демону, що кеширує, який був спеціально розроблений для зниження навантаження на базу даних в динамічних веб додатках.

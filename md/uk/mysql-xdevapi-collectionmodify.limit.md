@@ -1,16 +1,11 @@
-Обмежує кількість змінених документів
-
--   [« CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.html)
-    
--   [CollectionModify::patch »](mysql-xdevapi-collectionmodify.patch.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Обмежує кількість змінених документів
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.execute.html: '« CollectionModify::execute'
+  - mysql-xdevapi-collectionmodify.patch.html: 'CollectionModify::patch »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::limit'
+---
 # CollectionModify::limit
 
 (No version information available, might only be in Git)

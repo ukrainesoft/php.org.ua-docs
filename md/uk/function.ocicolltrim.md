@@ -1,16 +1,11 @@
-Псевдонім OCICollection::trim
-
--   [« ocicollsize](function.ocicollsize.md)
-    
--   [ocicolumnisnull »](function.ocicolumnisnull.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім OCICollection::trim
-    
-
+---
+navigation:
+  - function.ocicollsize.md: « ocicollsize
+  - function.ocicolumnisnull.md: ocicolumnisnull »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicolltrim
+---
 # ocicolltrim
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

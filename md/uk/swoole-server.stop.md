@@ -1,16 +1,11 @@
-Зупиняє сервер Swoole
-
--   [« SwooleServer::stats](swoole-server.stats.html)
-    
--   [SwooleServer::task »](swoole-server.task.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Зупиняє сервер Swoole
-    
-
+---
+navigation:
+  - swoole-server.stats.html: '« SwooleServer::stats'
+  - swoole-server.task.html: 'SwooleServer::task »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::stop'
+---
 # SwooleServer::stop
 
 (PECL swoole >= 1.9.0)

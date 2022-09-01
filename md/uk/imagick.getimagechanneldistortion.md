@@ -1,16 +1,11 @@
-Порівнює канали зображення з відновленим зображенням
-
--   [« Imagick::getImageChannelDepth](imagick.getimagechanneldepth.html)
-    
--   [Imagick::getImageChannelDistortions »](imagick.getimagechanneldistortions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Порівнює канали зображення з відновленим зображенням
-    
-
+---
+navigation:
+  - imagick.getimagechanneldepth.html: '« Imagick::getImageChannelDepth'
+  - imagick.getimagechanneldistortions.html: 'Imagick::getImageChannelDistortions »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageChannelDistortion'
+---
 # Imagick::getImageChannelDistortion
 
 (PECL imagick 2, PECL imagick 3)

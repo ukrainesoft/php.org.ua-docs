@@ -1,16 +1,11 @@
-Факторіал
-
--   [« gmpexport](function.gmp-export.html)
-    
--   [gmpgcd »](function.gmp-gcd.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Факторіал
-    
-
+---
+navigation:
+  - function.gmp-export.html: « gmpexport
+  - function.gmp-gcd.html: gmpgcd »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpfact
+---
 # gmpfact
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

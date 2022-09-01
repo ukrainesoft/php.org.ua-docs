@@ -1,16 +1,11 @@
-Список контекстних опцій Phar
-
--   [« Опции контекста CURL](context.curl.html)
-    
--   [Параметри контексту »](context.params.html)
-    
--   [PHP Manual](index.html)
-    
--   [Контекстні опції та параметри](context.html)
-    
--   Список контекстних опцій Phar
-    
-
+---
+navigation:
+  - context.curl.html: « Опции контекста CURL
+  - context.params.html: Параметри контексту »
+  - index.html: PHP Manual
+  - context.html: Контекстні опції та параметри
+title: Контекстні опції Phar
+---
 # Контекстні опції Phar
 
 Контекстні опції Phar - Список контекстних опцій Phar

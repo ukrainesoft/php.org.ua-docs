@@ -1,16 +1,11 @@
-Встановлює колір вказаного індексу картки
-
--   [« Imagick::setImageClipMask](imagick.setimageclipmask.md)
-    
--   [Imagick::setImageColorspace »](imagick.setimagecolorspace.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює колір вказаного індексу картки
-    
-
+---
+navigation:
+  - imagick.setimageclipmask.md: '« Imagick::setImageClipMask'
+  - imagick.setimagecolorspace.md: 'Imagick::setImageColorspace »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageColormapColor'
+---
 # Imagick::setImageColormapColor
 
 (PECL imagick 2, PECL imagick 3)

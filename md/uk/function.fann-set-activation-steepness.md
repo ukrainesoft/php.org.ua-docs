@@ -1,16 +1,11 @@
-Встановлює крутість активації для вказаного нейрона та номера шару
-
--   [« fannsetactivationsteepnessoutput](function.fann-set-activation-steepness-output.html)
-    
--   [fannsetbitfaillimit »](function.fann-set-bit-fail-limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює крутість активації для вказаного нейрона та номера шару
-    
-
+---
+navigation:
+  - function.fann-set-activation-steepness-output.html: « fannsetactivationsteepnessoutput
+  - function.fann-set-bit-fail-limit.html: fannsetbitfaillimit »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetactivationsteepness
+---
 # fannsetactivationsteepness
 
 (PECL fann> = 1.0.0)

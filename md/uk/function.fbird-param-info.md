@@ -1,16 +1,11 @@
-Псевдонім ibaseparaminfo
-
--   [« fbirdnumparams](function.fbird-num-params.html)
-    
--   [fbirdpconnect »](function.fbird-pconnect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibaseparaminfo
-    
-
+---
+navigation:
+  - function.fbird-num-params.html: « fbirdnumparams
+  - function.fbird-pconnect.html: fbirdpconnect »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirdparaminfo
+---
 # fbirdparaminfo
 
 (PHP 5, PHP 7 < 7.4.0)

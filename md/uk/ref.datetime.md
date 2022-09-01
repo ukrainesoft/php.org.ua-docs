@@ -1,16 +1,11 @@
-Функції дати та часу
-
--   [« DatePeriod::getStartDate](dateperiod.getstartdate.html)
-    
--   [checkdate »](function.checkdate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Дата/время](book.datetime.html)
-    
--   Функції дати та часу
-    
-
+---
+navigation:
+  - dateperiod.getstartdate.html: '« DatePeriod::getStartDate'
+  - function.checkdate.html: checkdate »
+  - index.html: PHP Manual
+  - book.datetime.html: Дата/время
+title: Функції дати та часу
+---
 # Функції дати та часу
 
 ## Зміст

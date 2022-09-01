@@ -1,16 +1,11 @@
-Отримує IPv4-адресу, що відповідає переданому імені хоста
-
--   [« gethostbyaddr](function.gethostbyaddr.md)
-    
--   [gethostbynamel »](function.gethostbynamel.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Отримує IPv4-адресу, що відповідає переданому імені хоста
-    
-
+---
+navigation:
+  - function.gethostbyaddr.md: « gethostbyaddr
+  - function.gethostbynamel.md: gethostbynamel »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: gethostbyname
+---
 # gethostbyname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

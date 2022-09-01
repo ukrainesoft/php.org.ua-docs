@@ -1,16 +1,11 @@
-Витягує певний діапазон даних із вузла
-
--   [« DOMCharacterData::replaceData](domcharacterdata.replacedata.md)
-    
--   [DOMChildNode »](class.domchildnode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMCharacterData](class.domcharacterdata.md)
-    
--   Витягує певний діапазон даних із вузла
-    
-
+---
+navigation:
+  - domcharacterdata.replacedata.md: '« DOMCharacterData::replaceData'
+  - class.domchildnode.md: DOMChildNode »
+  - index.md: PHP Manual
+  - class.domcharacterdata.md: DOMCharacterData
+title: 'DOMCharacterData::substringData'
+---
 # DOMCharacterData::substringData
 
 (PHP 5, PHP 7, PHP 8)

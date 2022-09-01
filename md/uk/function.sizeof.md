@@ -1,16 +1,11 @@
-Псевдонім count
-
--   [« shuffle](function.shuffle.md)
-    
--   [sort »](function.sort.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Псевдонім count
-    
-
+---
+navigation:
+  - function.shuffle.md: « shuffle
+  - function.sort.md: sort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: sizeof
+---
 # sizeof
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

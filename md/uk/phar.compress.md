@@ -1,16 +1,11 @@
-Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
-
--   [« Phar::canWrite](phar.canwrite.md)
-    
--   [Phar::compressFiles »](phar.compressfiles.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
-    
-
+---
+navigation:
+  - phar.canwrite.md: '« Phar::canWrite'
+  - phar.compressfiles.md: 'Phar::compressFiles »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::compress'
+---
 # Phar::compress
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -53,9 +48,9 @@ public Phar::compress(int $compression, ?string $extension = null): ?Phar
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `extension` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 

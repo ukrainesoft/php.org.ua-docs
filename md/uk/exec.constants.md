@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](exec.resources.html)
-    
--   [Функции запуска программ »](ref.exec.html)
-    
--   [PHP Manual](index.html)
-    
--   [Запуск програми](book.exec.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - exec.resources.html: « Типи ресурсів
+  - ref.exec.html: Функции запуска программ »
+  - index.html: PHP Manual
+  - book.exec.html: Запуск програми
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

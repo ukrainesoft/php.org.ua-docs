@@ -1,16 +1,11 @@
-Отримати ключ згенерованого елемента
-
--   [« Generator::getReturn](generator.getreturn.html)
-    
--   [Generator::next »](generator.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [Generator](class.generator.html)
-    
--   Отримати ключ згенерованого елемента
-    
-
+---
+navigation:
+  - generator.getreturn.html: '« Generator::getReturn'
+  - generator.next.html: 'Generator::next »'
+  - index.html: PHP Manual
+  - class.generator.html: Generator
+title: 'Generator::key'
+---
 # Generator::key
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

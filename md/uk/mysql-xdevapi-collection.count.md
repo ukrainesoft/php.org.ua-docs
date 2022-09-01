@@ -1,16 +1,11 @@
-Отримує кількість документів
-
--   [« Collection::construct](mysql-xdevapi-collection.construct.html)
-    
--   [Collection::createIndex »](mysql-xdevapi-collection.createindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Отримує кількість документів
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.construct.html: '« Collection::construct'
+  - mysql-xdevapi-collection.createindex.html: 'Collection::createIndex »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::count'
+---
 # Collection::count
 
 (No version information available, might only be in Git)

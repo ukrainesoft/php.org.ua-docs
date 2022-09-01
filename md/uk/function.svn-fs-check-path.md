@@ -1,16 +1,11 @@
-Визначає, яка сутність знаходиться у дорозі репозиторію fsroot
-
--   [« svnфсchangenodeprop](function.svn-fs-change-node-prop.html)
-    
--   [svnфсcontentschanged »](function.svn-fs-contents-changed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Визначає, яка сутність знаходиться у дорозі репозиторію fsroot
-    
-
+---
+navigation:
+  - function.svn-fs-change-node-prop.html: « svnфсchangenodeprop
+  - function.svn-fs-contents-changed.html: svnфсcontentschanged »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnфсcheckpath
+---
 # svnфсcheckpath
 
 (PECL svn> = 0.1.0)

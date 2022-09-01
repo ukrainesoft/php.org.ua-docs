@@ -1,16 +1,11 @@
-Отримує всі значення із запису результату
-
--   [« ldapgetvalueslen](function.ldap-get-values-len.html)
-    
--   [ldaplist »](function.ldap-list.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Отримує всі значення із запису результату
-    
-
+---
+navigation:
+  - function.ldap-get-values-len.html: « ldapgetvalueslen
+  - function.ldap-list.html: ldaplist »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapgetvalues
+---
 # ldapgetvalues
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ LDAP дозволяє зберігати більше одного запису 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md)     |
-|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає ідентифікатор служби балансувальника навантаження для команди
-
--   [« MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html)
-    
--   [MongoDBDriverMonitoringCommandStartedEvent »](class.mongodb-driver-monitoring-commandstartedevent.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   Повертає ідентифікатор служби балансувальника навантаження для команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html: '« MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId'
+  - class.mongodb-driver-monitoring-commandstartedevent.html: MongoDBDriverMonitoringCommandStartedEvent »
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getServiceId'
+---
 # MongoDBDriverMonitoringCommandFailedEvent::getServiceId
 
 (mongodb >=1.11.0)

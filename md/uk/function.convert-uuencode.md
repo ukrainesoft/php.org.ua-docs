@@ -1,16 +1,11 @@
-Кодує рядок у формат uuencode
-
--   [« convertuudecode](function.convert-uudecode.html)
-    
--   [countchars »](function.count-chars.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Кодує рядок у формат uuencode
-    
-
+---
+navigation:
+  - function.convert-uudecode.html: « convertuudecode
+  - function.count-chars.html: countchars »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: convertuuencode
+---
 # convertuuencode
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ convert_uuencode(string $string): string
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | До цієї версії при спробі перетворити порожній рядок поверталося **`false`** без особливих причин. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії при спробі перетворити порожній рядок поверталося **`false`** без особливих причин. |
 
 ### Приклади
 

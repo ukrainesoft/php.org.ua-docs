@@ -1,16 +1,11 @@
-Повторює цю функцію у кожний заданий інтервал часу
-
--   [« SwooleServer::taskWaitMulti](swoole-server.taskwaitmulti.html)
-    
--   [SwooleTable »](class.swoole-table.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Повторює цю функцію у кожний заданий інтервал часу
-    
-
+---
+navigation:
+  - swoole-server.taskwaitmulti.html: '« SwooleServer::taskWaitMulti'
+  - class.swoole-table.html: SwooleTable »
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::tick'
+---
 # SwooleServer::tick
 
 (PECL swoole >= 1.9.0)

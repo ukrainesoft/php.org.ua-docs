@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverServerDescription::getHelloResponse](mongodb-driver-serverdescription.gethelloresponse.html)
-    
--   [MongoDBDriverServerDescription::getLastUpdateTime »](mongodb-driver-serverdescription.getlastupdatetime.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - mongodb-driver-serverdescription.gethelloresponse.html: '« MongoDBDriverServerDescription::getHelloResponse'
+  - mongodb-driver-serverdescription.getlastupdatetime.html: 'MongoDBDriverServerDescription::getLastUpdateTime »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getHost'
+---
 # MongoDBDriverServerDescription::getHost
 
 (mongodb >=1.13.0)

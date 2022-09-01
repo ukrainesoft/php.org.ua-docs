@@ -1,16 +1,11 @@
-Встановити заповнення
-
--   [« UIControlsForm::isPadded](ui-controls-form.ispadded.html)
-    
--   [ОЙControlsGrid »](class.ui-controls-grid.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsForm](class.ui-controls-form.html)
-    
--   Встановити заповнення
-    
-
+---
+navigation:
+  - ui-controls-form.ispadded.html: '« UIControlsForm::isPadded'
+  - class.ui-controls-grid.html: ОЙControlsGrid »
+  - index.html: PHP Manual
+  - class.ui-controls-form.html: ОЙControlsForm
+title: 'ОЙControlsForm::setPadded'
+---
 # ОЙControlsForm::setPadded
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Замінює елементи масиву елементами інших переданих масивів
-
--   [« arrayreplacerecursive](function.array-replace-recursive.html)
-    
--   [arrayreverse »](function.array-reverse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Замінює елементи масиву елементами інших переданих масивів
-    
-
+---
+navigation:
+  - function.array-replace-recursive.html: « arrayreplacerecursive
+  - function.array-reverse.html: arrayreverse »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayreplace
+---
 # arrayreplace
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

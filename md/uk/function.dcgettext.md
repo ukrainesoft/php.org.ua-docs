@@ -1,16 +1,11 @@
-Перевизначає одне повідомлення в домені
-
--   [« bindtextdomain](function.bindtextdomain.md)
-    
--   [dcngettext »](function.dcngettext.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции gettext](ref.gettext.md)
-    
--   Перевизначає одне повідомлення в домені
-    
-
+---
+navigation:
+  - function.bindtextdomain.md: « bindtextdomain
+  - function.dcngettext.md: dcngettext »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: dcgettext
+---
 # dcgettext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

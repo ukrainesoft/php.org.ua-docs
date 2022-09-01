@@ -1,16 +1,11 @@
-Виділяє пам'ять під зазначену місткість
-
--   [« Двостороння черга](class.ds-deque.html)
-    
--   [ДсDeque::apply »](ds-deque.apply.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Виділяє пам'ять під зазначену місткість
-    
-
+---
+navigation:
+  - class.ds-deque.html: « Двостороння черга
+  - ds-deque.apply.html: 'ДсDeque::apply »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::allocate'
+---
 # ДсDeque::allocate
 
 (PECL ds >= 1.0.0)

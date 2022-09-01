@@ -1,16 +1,11 @@
-Встановлює орієнтацію зображення
-
--   [« Imagick::setImageOpacity](imagick.setimageopacity.md)
-    
--   [Imagick::setImagePage »](imagick.setimagepage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює орієнтацію зображення
-    
-
+---
+navigation:
+  - imagick.setimageopacity.md: '« Imagick::setImageOpacity'
+  - imagick.setimagepage.md: 'Imagick::setImagePage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageOrientation'
+---
 # Imagick::setImageOrientation
 
 (PECL imagick 2, PECL imagick 3)

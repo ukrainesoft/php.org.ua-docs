@@ -1,16 +1,11 @@
-Конструктор класу DateTime
-
--   [« DateTime::add](datetime.add.html)
-    
--   [DateTime::createFromFormat »](datetime.createfromformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTime](class.datetime.html)
-    
--   Конструктор класу DateTime
-    
-
+---
+navigation:
+  - datetime.add.html: '« DateTime::add'
+  - datetime.createfromformat.html: 'DateTime::createFromFormat »'
+  - index.html: PHP Manual
+  - class.datetime.html: DateTime
+title: 'DateTime::construct'
+---
 # DateTime::construct
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

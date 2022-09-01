@@ -1,16 +1,11 @@
-Імпортує таблицю стилів
-
--   [« XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.md)
-    
--   [XSLTProcessor::registerPHPFunctions »](xsltprocessor.registerphpfunctions.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Імпортує таблицю стилів
-    
-
+---
+navigation:
+  - xsltprocessor.hasexsltsupport.md: '« XSLTProcessor::hasExsltSupport'
+  - xsltprocessor.registerphpfunctions.md: 'XSLTProcessor::registerPHPFunctions »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::importStylesheet'
+---
 # XSLTProcessor::importStylesheet
 
 (PHP 5, PHP 7, PHP 8)

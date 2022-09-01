@@ -1,16 +1,11 @@
-MQseries MQBEGIN
-
--   [« mqseriesback](function.mqseries-back.html)
-    
--   [mqseriesclose »](function.mqseries-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   MQseries MQBEGIN
-    
-
+---
+navigation:
+  - function.mqseries-back.html: « mqseriesback
+  - function.mqseries-close.html: mqseriesclose »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesbegin
+---
 # mqseriesbegin
 
 (PECL mqseries >= 0.10.0)

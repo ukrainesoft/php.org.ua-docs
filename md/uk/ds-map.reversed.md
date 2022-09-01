@@ -1,16 +1,11 @@
-Повертає перегорнуту копію колекції
-
--   [« DsMap::reverse](ds-map.reverse.html)
-    
--   [ДсMap::skip »](ds-map.skip.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає перегорнуту копію колекції
-    
-
+---
+navigation:
+  - ds-map.reverse.html: '« DsMap::reverse'
+  - ds-map.skip.html: 'ДсMap::skip »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::reversed'
+---
 # ДсMap::reversed
 
 (PECL ds >= 1.0.0)

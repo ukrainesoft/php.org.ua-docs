@@ -1,16 +1,11 @@
-Створює синхронно вузол
-
--   [« Zookeeper::construct](zookeeper.construct.md)
-    
--   [Zookeeper::delete »](zookeeper.delete.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Створює синхронно вузол
-    
-
+---
+navigation:
+  - zookeeper.construct.md: '« Zookeeper::construct'
+  - zookeeper.delete.md: 'Zookeeper::delete »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::create'
+---
 # Zookeeper::create
 
 (PECL zookeeper >= 0.1.0)

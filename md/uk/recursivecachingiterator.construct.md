@@ -1,16 +1,11 @@
-Конструктор
-
--   [« RecursiveCachingIterator](class.recursivecachingiterator.html)
-    
--   [RecursiveCachingIterator::getChildren »](recursivecachingiterator.getchildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveCachingIterator](class.recursivecachingiterator.html)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - class.recursivecachingiterator.html: « RecursiveCachingIterator
+  - recursivecachingiterator.getchildren.html: 'RecursiveCachingIterator::getChildren »'
+  - index.html: PHP Manual
+  - class.recursivecachingiterator.html: RecursiveCachingIterator
+title: 'RecursiveCachingIterator::construct'
+---
 # RecursiveCachingIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

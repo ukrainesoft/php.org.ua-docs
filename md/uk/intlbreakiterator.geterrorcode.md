@@ -1,16 +1,11 @@
-Повертає останній код помилки об'єкту
-
--   [« IntlBreakIterator::following](intlbreakiterator.following.html)
-    
--   [IntlBreakIterator::getErrorMessage »](intlbreakiterator.geterrormessage.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlBreakIterator](class.intlbreakiterator.html)
-    
--   Повертає останній код помилки об'єкту
-    
-
+---
+navigation:
+  - intlbreakiterator.following.html: '« IntlBreakIterator::following'
+  - intlbreakiterator.geterrormessage.html: 'IntlBreakIterator::getErrorMessage »'
+  - index.html: PHP Manual
+  - class.intlbreakiterator.html: IntlBreakIterator
+title: 'IntlBreakIterator::getErrorCode'
+---
 # IntlBreakIterator::getErrorCode
 
 # intlgeterrorcode

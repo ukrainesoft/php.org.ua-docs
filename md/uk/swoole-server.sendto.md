@@ -1,16 +1,11 @@
-Надсилає дані на віддалену UDP-адресу
-
--   [« SwooleServer::sendMessage](swoole-server.sendmessage.html)
-    
--   [SwooleServer::sendwait »](swoole-server.sendwait.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Надсилає дані на віддалену UDP-адресу
-    
-
+---
+navigation:
+  - swoole-server.sendmessage.html: '« SwooleServer::sendMessage'
+  - swoole-server.sendwait.html: 'SwooleServer::sendwait »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::sendto'
+---
 # SwooleServer::sendto
 
 (PECL swoole >= 1.9.0)

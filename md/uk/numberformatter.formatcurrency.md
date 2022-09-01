@@ -1,16 +1,11 @@
-Форматує значення валюти
-
--   [« NumberFormatter::create](numberformatter.create.md)
-    
--   [NumberFormatter::format »](numberformatter.format.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Форматує значення валюти
-    
-
+---
+navigation:
+  - numberformatter.create.md: '« NumberFormatter::create'
+  - numberformatter.format.md: 'NumberFormatter::format »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::formatCurrency'
+---
 # NumberFormatter::formatCurrency
 
 # numfmtformatcurrency

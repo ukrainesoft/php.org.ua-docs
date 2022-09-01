@@ -1,16 +1,11 @@
-Заносить дані з масиву до таблиці бази даних
-
--   [« pghost](function.pg-host.html)
-    
--   [пгlasterror »](function.pg-last-error.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Заносить дані з масиву до таблиці бази даних
-    
-
+---
+navigation:
+  - function.pg-host.html: « pghost
+  - function.pg-last-error.html: пгlasterror »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгinsert
+---
 # пгinsert
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

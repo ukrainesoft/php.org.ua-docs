@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](mqseries.setup.md)
-    
--   [Установка »](mqseries.configure.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mqseries.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - mqseries.setup.md: « Встановлення та налаштування
+  - mqseries.configure.md: Установка »
+  - index.md: PHP Manual
+  - mqseries.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Робоче встановлення IBM WebSphere MQ. Складання модуля також потребує SDK для IBM WebSphere MQ.

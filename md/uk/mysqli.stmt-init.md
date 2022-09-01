@@ -1,16 +1,11 @@
-Ініціалізує запит і повертає об'єкт для використання в mysqlistmtprepare
-
--   [« mysqli::stat](mysqli.stat.md)
-    
--   [mysqli::storeresult »](mysqli.store-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Ініціалізує запит і повертає об'єкт для використання в mysqlistmtprepare
-    
-
+---
+navigation:
+  - mysqli.stat.md: '« mysqli::stat'
+  - mysqli.store-result.html: 'mysqli::storeresult »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::stmtinit'
+---
 # mysqli::stmtinit
 
 # mysqlistmtinit

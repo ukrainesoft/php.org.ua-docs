@@ -1,16 +1,11 @@
-Інтерфейс UnitEnum
-
--   [« Stringable::toString](stringable.tostring.md)
-    
--   [UnitEnum::cases »](unitenum.cases.md)
-    
--   [PHP Manual](index.md)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-    
--   Інтерфейс UnitEnum
-    
-
+---
+navigation:
+  - stringable.tostring.md: '« Stringable::toString'
+  - unitenum.cases.md: 'UnitEnum::cases »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Інтерфейс UnitEnum
+---
 # Інтерфейс UnitEnum
 
 (PHP 8> = 8.1.0)

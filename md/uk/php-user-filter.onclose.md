@@ -1,16 +1,11 @@
-Викликається під час закриття фільтра
-
--   [« phpuserfilter::filter](php-user-filter.filter.html)
-    
--   [phpuserfilter::onCreate »](php-user-filter.oncreate.html)
-    
--   [PHP Manual](index.md)
-    
--   [phpuserfilter](class.php-user-filter.html)
-    
--   Викликається під час закриття фільтра
-    
-
+---
+navigation:
+  - php-user-filter.filter.html: '« phpuserfilter::filter'
+  - php-user-filter.oncreate.html: 'phpuserfilter::onCreate »'
+  - index.md: PHP Manual
+  - class.php-user-filter.html: phpuserfilter
+title: 'phpuserfilter::onClose'
+---
 # phpuserfilter::onClose
 
 (PHP 5, PHP 7, PHP 8)

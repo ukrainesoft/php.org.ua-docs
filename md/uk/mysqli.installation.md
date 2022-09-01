@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](mysqli.requirements.md)
-    
--   [Налаштування під час виконання »](mysqli.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mysqli.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - mysqli.requirements.md: « Вимоги
+  - mysqli.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - mysqli.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль `mysqli` був представлений із версією PHP 5.0.0. MySQL Native Driver був включений до PHP версії 5.3.0.
@@ -29,11 +24,11 @@
 
 **Допоміжна таблиця часу компіляції mysqli**
 
-| Версия PHP          | По умолчанию   | Опции настройки: [mysqlnd](mysqlnd.overview.md) | Опции настройки: `libmysqlclient`      | Список изменений         |
-|---------------------|----------------|-------------------------------------------------|----------------------------------------|--------------------------|
-| 5.4.x і вище        | mysqlnd        | **\-with-mysqli**                               | **\-with-mysqli=/path/to/mysqlconfig** | за замовчуванням mysqlnd |
-| 5.3.x               | libmysqlclient | **\-with-mysqli=mysqlnd**                       | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd підтримується    |
-| 5.0.x, 5.1.x, 5.2.x | libmysqlclient | Недоступно                                      | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd не підтримується |
+| Версия PHP | По умолчанию | Опции настройки: [mysqlnd](mysqlnd.overview.md) | Опции настройки: `libmysqlclient` | Список изменений |
+| --- | --- | --- | --- | --- |
+| 5.4.x і вище | mysqlnd | **\-with-mysqli** | **\-with-mysqli=/path/to/mysqlconfig** | за замовчуванням mysqlnd |
+| 5.3.x | libmysqlclient | **\-with-mysqli=mysqlnd** | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd підтримується |
+| 5.0.x, 5.1.x, 5.2.x | libmysqlclient | Недоступно | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd не підтримується |
 
 Існує можливість вільно перемішувати модулі MySQL і клієнтські бібліотеки. Наприклад, можна активувати модуль MySQL, що дозволяє використовувати MySQL Client Library (libmysqlclient), і при цьому налаштувати модуль `mysqli` для використання MySQL Native Driver. Таким чином, можливі будь-які перестановки модулів та клієнтських бібліотек.
 

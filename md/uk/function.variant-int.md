@@ -1,16 +1,11 @@
-Повернути цілу частину варіанта
-
--   [« variantimp](function.variant-imp.html)
-    
--   [variantmod »](function.variant-mod.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Повернути цілу частину варіанта
-    
-
+---
+navigation:
+  - function.variant-imp.html: « variantimp
+  - function.variant-mod.html: variantmod »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantint
+---
 # variantint
 
 (PHP 5, PHP 7, PHP 8)

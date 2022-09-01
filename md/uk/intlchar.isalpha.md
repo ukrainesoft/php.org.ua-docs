@@ -1,16 +1,11 @@
-Перевірити, чи є символ літерою
-
--   [« IntlChar::isalnum](intlchar.isalnum.md)
-    
--   [IntlChar::isbase »](intlchar.isbase.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ літерою
-    
-
+---
+navigation:
+  - intlchar.isalnum.md: '« IntlChar::isalnum'
+  - intlchar.isbase.md: 'IntlChar::isbase »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isalpha'
+---
 # IntlChar::isalpha
 
 (PHP 7, PHP 8)

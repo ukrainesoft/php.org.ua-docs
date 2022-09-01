@@ -1,16 +1,11 @@
-Запуск налаштованої діагностики для розібраної та відновленої розмітки
-
--   [« tidy::construct](tidy.construct.md)
-    
--   [tidy::$errorBuffer »](tidy.props.errorbuffer.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Запуск налаштованої діагностики для розібраної та відновленої розмітки
-    
-
+---
+navigation:
+  - tidy.construct.md: '« tidy::construct'
+  - tidy.props.errorbuffer.md: 'tidy::$errorBuffer »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::diagnose'
+---
 # tidy::diagnose
 
 # tidydiagnose

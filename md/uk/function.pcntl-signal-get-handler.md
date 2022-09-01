@@ -1,16 +1,11 @@
-Отримати поточний обробник вказаного сигналу
-
--   [pcntlsignaldispatch](function.pcntl-signal-dispatch.html)
-    
--   [pcntlsignal »](function.pcntl-signal.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Отримати поточний обробник вказаного сигналу
-    
-
+---
+navigation:
+  - function.pcntl-signal-dispatch.html: pcntlsignaldispatch
+  - function.pcntl-signal.html: pcntlsignal »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlsignalgethandler
+---
 # pcntlsignalgethandler
 
 (PHP 7> = 7.1.0, PHP 8)
@@ -37,9 +32,9 @@ pcntl_signal_get_handler(int $signal): callable|int
 
 ### список змін
 
-| Версия | Описание                                        |
-|--------|-------------------------------------------------|
-|        | Була додана функція **pcntlsignalgethandler()** |
+| Версия | Описание |
+| --- | --- |
+|  | Була додана функція **pcntlsignalgethandler()** |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
-
--   [« EventBuffer::prependBuffer](eventbuffer.prependbuffer.md)
-    
--   [EventBuffer::read »](eventbuffer.read.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
-    
-
+---
+navigation:
+  - eventbuffer.prependbuffer.md: '« EventBuffer::prependBuffer'
+  - eventbuffer.read.md: 'EventBuffer::read »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::pullup'
+---
 # EventBuffer::pullup
 
 (PECL event >= 1.2.6-beta)

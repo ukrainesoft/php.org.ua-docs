@@ -1,16 +1,11 @@
-Встановлює значення конфігураційної установки includepath
-
--   [« restoreincludepath](function.restore-include-path.html)
-    
--   [settimelimit »](function.set-time-limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Встановлює значення конфігураційної установки includepath
-    
-
+---
+navigation:
+  - function.restore-include-path.html: « restoreincludepath
+  - function.set-time-limit.html: settimelimit »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: setincludepath
+---
 # setincludepath
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

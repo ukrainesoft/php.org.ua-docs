@@ -1,16 +1,11 @@
-Встановити параметр конфігурації на поточному екземплярі varnish
-
--   [« VarnishAdmin::setIdent](varnishadmin.setident.md)
-    
--   [VarnishAdmin::setPort »](varnishadmin.setport.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Встановити параметр конфігурації на поточному екземплярі varnish
-    
-
+---
+navigation:
+  - varnishadmin.setident.md: '« VarnishAdmin::setIdent'
+  - varnishadmin.setport.md: 'VarnishAdmin::setPort »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::setParam'
+---
 # VarnishAdmin::setParam
 
 (PECL varnish >= 0.4)

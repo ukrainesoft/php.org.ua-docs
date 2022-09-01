@@ -1,16 +1,11 @@
-Надсилає необроблений запит на оновлення
-
--   [« SolrClient::query](solrclient.query.html)
-    
--   [SolrClient::rollback »](solrclient.rollback.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Надсилає необроблений запит на оновлення
-    
-
+---
+navigation:
+  - solrclient.query.html: '« SolrClient::query'
+  - solrclient.rollback.html: 'SolrClient::rollback »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::request'
+---
 # SolrClient::request
 
 (PECL solr> = 0.9.2)

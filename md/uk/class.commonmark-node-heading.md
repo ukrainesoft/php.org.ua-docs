@@ -1,16 +1,11 @@
-Heading успадковує CommonMarkNode
-
--   [« CommonMarkNodeDocument](class.commonmark-node-document.html)
-    
--   [CommonMarkNodeHeading::construct »](commonmark-node-heading.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Heading успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-document.html: « CommonMarkNodeDocument
+  - commonmark-node-heading.construct.html: 'CommonMarkNodeHeading::construct »'
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Heading успадковує CommonMarkNode
+---
 # Heading успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

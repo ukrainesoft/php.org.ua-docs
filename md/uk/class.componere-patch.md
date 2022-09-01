@@ -1,16 +1,11 @@
-Клас ComponerePatch
-
--   [« ComponereDefinition::getClosures](componere-definition.getclosures.html)
-    
--   [ComponerePatch::construct »](componere-patch.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Componere](book.componere.html)
-    
--   Клас ComponerePatch
-    
-
+---
+navigation:
+  - componere-definition.getclosures.html: '« ComponereDefinition::getClosures'
+  - componere-patch.construct.html: 'ComponerePatch::construct »'
+  - index.html: PHP Manual
+  - book.componere.html: Componere
+title: Клас ComponerePatch
+---
 # Клас ComponerePatch
 
 (Componere 2 >= 2.1.0)

@@ -1,16 +1,11 @@
-Записує та поміщає дані в чергу повідомлень
-
--   [« SwooleProcess::pop](swoole-process.pop.html)
-    
--   [SwooleProcess::read »](swoole-process.read.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Записує та поміщає дані в чергу повідомлень
-    
-
+---
+navigation:
+  - swoole-process.pop.html: '« SwooleProcess::pop'
+  - swoole-process.read.html: 'SwooleProcess::read »'
+  - index.html: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::push'
+---
 # SwooleProcess::push
 
 (PECL swoole >= 1.9.0)

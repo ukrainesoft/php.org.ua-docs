@@ -1,16 +1,11 @@
-Встановлює режим ітератора
-
--   [« SplQueue::enqueue](splqueue.enqueue.md)
-    
--   [SplHeap »](class.splheap.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplQueue](class.splqueue.md)
-    
--   Встановлює режим ітератора
-    
-
+---
+navigation:
+  - splqueue.enqueue.md: '« SplQueue::enqueue'
+  - class.splheap.md: SplHeap »
+  - index.md: PHP Manual
+  - class.splqueue.md: SplQueue
+title: 'SplQueue::setIteratorMode'
+---
 # SplQueue::setIteratorMode
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

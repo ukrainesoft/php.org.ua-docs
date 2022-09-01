@@ -1,16 +1,11 @@
-Перевіряє стан з'єднання
-
--   [« SwooleServer::close](swoole-server.close.html)
-    
--   [SwooleServer::connectioninfo »](swoole-server.connection-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Перевіряє стан з'єднання
-    
-
+---
+navigation:
+  - swoole-server.close.html: '« SwooleServer::close'
+  - swoole-server.connection-info.html: 'SwooleServer::connectioninfo »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::confirm'
+---
 # SwooleServer::confirm
 
 (PECL swoole >= 1.9.0)

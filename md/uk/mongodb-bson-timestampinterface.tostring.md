@@ -1,16 +1,11 @@
-Повертає рядкову виставу TimestampInterface
-
--   [« MongoDBBSONTimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.html)
-    
--   [MongoDBBSONUTCDateTimeInterface »](class.mongodb-bson-utcdatetimeinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)
-    
--   Повертає рядкову виставу TimestampInterface
-    
-
+---
+navigation:
+  - mongodb-bson-timestampinterface.gettimestamp.html: '« MongoDBBSONTimestampInterface::getTimestamp'
+  - class.mongodb-bson-utcdatetimeinterface.html: MongoDBBSONUTCDateTimeInterface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestampinterface.html: MongoDBBSONTimestampInterface
+title: 'MongoDBBSONTimestampInterface::function toString() { \[native code\] }'
+---
 # MongoDBBSONTimestampInterface::function toString() { \[native code\] }
 
 (mongodb >=1.3.0)

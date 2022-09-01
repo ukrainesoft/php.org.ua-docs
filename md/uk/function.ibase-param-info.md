@@ -1,16 +1,11 @@
-Повертає інформацію про параметр у підготовленому запиті
-
--   [« ibasenumparams](function.ibase-num-params.html)
-    
--   [ibasepconnect »](function.ibase-pconnect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Повертає інформацію про параметр у підготовленому запиті
-    
-
+---
+navigation:
+  - function.ibase-num-params.html: « ibasenumparams
+  - function.ibase-pconnect.html: ibasepconnect »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseparaminfo
+---
 # ibaseparaminfo
 
 (PHP 5, PHP 7 < 7.4.0)

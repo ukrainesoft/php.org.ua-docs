@@ -1,16 +1,11 @@
-Випадкове число
-
--   [« gmpprobprime](function.gmp-prob-prime.html)
-    
--   [gmprandomrange »](function.gmp-random-range.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Випадкове число
-    
-
+---
+navigation:
+  - function.gmp-prob-prime.html: « gmpprobprime
+  - function.gmp-random-range.html: gmprandomrange »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmprandombits
+---
 # gmprandombits
 
 (PHP 5> = 5.6.3, PHP 7, PHP 8)

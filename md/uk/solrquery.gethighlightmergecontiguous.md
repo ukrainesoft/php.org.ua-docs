@@ -1,16 +1,11 @@
-Повертає, чи згорнути суміжні фрагменти в один фрагмент
-
--   [« SolrQuery::getHighlightMaxAnalyzedChars](solrquery.gethighlightmaxanalyzedchars.md)
-    
--   [SolrQuery::getHighlightRegexMaxAnalyzedChars »](solrquery.gethighlightregexmaxanalyzedchars.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає, чи згорнути суміжні фрагменти в один фрагмент
-    
-
+---
+navigation:
+  - solrquery.gethighlightmaxanalyzedchars.md: '« SolrQuery::getHighlightMaxAnalyzedChars'
+  - solrquery.gethighlightregexmaxanalyzedchars.md: 'SolrQuery::getHighlightRegexMaxAnalyzedChars »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightMergeContiguous'
+---
 # SolrQuery::getHighlightMergeContiguous
 
 (PECL solr> = 0.9.2)

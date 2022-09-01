@@ -1,16 +1,11 @@
-Визначає, чи модуль тимчасовим
-
--   [« ReflectionExtension::isPersistent](reflectionextension.ispersistent.md)
-    
--   [ReflectionExtension::toString »](reflectionextension.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Визначає, чи модуль тимчасовим
-    
-
+---
+navigation:
+  - reflectionextension.ispersistent.md: '« ReflectionExtension::isPersistent'
+  - reflectionextension.tostring.md: 'ReflectionExtension::toString »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::isTemporary'
+---
 # ReflectionExtension::isTemporary
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

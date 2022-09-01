@@ -1,16 +1,11 @@
-Клас SolrModifiableParams
-
--   [« SolrParams::unserialize](solrparams.unserialize.md)
-    
--   [SolrModifiableParams::construct »](solrmodifiableparams.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrModifiableParams
-    
-
+---
+navigation:
+  - solrparams.unserialize.md: '« SolrParams::unserialize'
+  - solrmodifiableparams.construct.md: 'SolrModifiableParams::construct »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrModifiableParams
+---
 # Клас SolrModifiableParams
 
 (PECL solr> = 0.9.2)

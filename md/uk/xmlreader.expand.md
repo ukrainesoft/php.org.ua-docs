@@ -1,16 +1,11 @@
-Повернути копію поточного вузла у вигляді об'єкта DOM
-
--   [« XMLReader::close](xmlreader.close.html)
-    
--   [XMLReader::getAttribute »](xmlreader.getattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](class.xmlreader.html)
-    
--   Повернути копію поточного вузла у вигляді об'єкта DOM
-    
-
+---
+navigation:
+  - xmlreader.close.html: '« XMLReader::close'
+  - xmlreader.getattribute.html: 'XMLReader::getAttribute »'
+  - index.html: PHP Manual
+  - class.xmlreader.html: XMLReader
+title: 'XMLReader::expand'
+---
 # XMLReader::expand
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

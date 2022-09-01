@@ -1,16 +1,11 @@
-Виконання CQL
-
--   [« CommonMarkCQL::construct](commonmark-cql.construct.html)
-    
--   [Функции CommonMark »](ref.cmark.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMarkCQL](class.commonmark-cql.html)
-    
--   Виконання CQL
-    
-
+---
+navigation:
+  - commonmark-cql.construct.html: '« CommonMarkCQL::construct'
+  - ref.cmark.html: Функции CommonMark »
+  - index.html: PHP Manual
+  - class.commonmark-cql.html: CommonMarkCQL
+title: 'CommonMarkCQL::invoke'
+---
 # CommonMarkCQL::invoke
 
 (cmark >= 1.1.0)

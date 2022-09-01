@@ -1,16 +1,11 @@
-Витягує перший елемент масиву
-
--   [« arraysearch](function.array-search.html)
-    
--   [arrayslice »](function.array-slice.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Витягує перший елемент масиву
-    
-
+---
+navigation:
+  - function.array-search.html: « arraysearch
+  - function.array-slice.html: arrayslice »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayshift
+---
 # arrayshift
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Лежандра символ.
-
--   [« gmplcm](function.gmp-lcm.html)
-    
--   [gmpmod »](function.gmp-mod.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Лежандра символ.
-    
-
+---
+navigation:
+  - function.gmp-lcm.html: « gmplcm
+  - function.gmp-mod.html: gmpmod »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmplegendre
+---
 # gmplegendre
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

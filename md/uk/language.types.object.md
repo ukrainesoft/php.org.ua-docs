@@ -1,16 +1,11 @@
-Об'єкти
-
--   [« Ітеровані](language.types.iterable.html)
-    
--   [Перечисления »](language.types.enumerations.html)
-    
--   [PHP Manual](index.html)
-    
--   [Типи](language.types.html)
-    
--   Об'єкти
-    
-
+---
+navigation:
+  - language.types.iterable.html: « Ітеровані
+  - language.types.enumerations.html: Перечисления »
+  - index.html: PHP Manual
+  - language.types.html: Типи
+title: Об'єкти
+---
 ## Об'єкти
 
 ### Ініціалізація об'єкту

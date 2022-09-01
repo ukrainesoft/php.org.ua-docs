@@ -1,16 +1,11 @@
-Повертає останню помилку Stomp
-
--   [« Stomp::destruct](stomp.destruct.md)
-    
--   [Stomp::getReadTimeout »](stomp.getreadtimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Повертає останню помилку Stomp
-    
-
+---
+navigation:
+  - stomp.destruct.md: '« Stomp::destruct'
+  - stomp.getreadtimeout.md: 'Stomp::getReadTimeout »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::error'
+---
 # Stomp::error
 
 # stomperror

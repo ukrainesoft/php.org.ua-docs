@@ -1,16 +1,11 @@
-Розбирає YAML-потік із файлу
-
--   [« yamlemit](function.yaml-emit.html)
-    
--   [yamlparseurl »](function.yaml-parse-url.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Yaml](ref.yaml.html)
-    
--   Розбирає YAML-потік із файлу
-    
-
+---
+navigation:
+  - function.yaml-emit.html: « yamlemit
+  - function.yaml-parse-url.html: yamlparseurl »
+  - index.html: PHP Manual
+  - ref.yaml.html: Функции Yaml
+title: yamlparsefile
+---
 # yamlparsefile
 
 (PECL yaml >= 0.4.0)

@@ -1,16 +1,11 @@
-Встановити X
-
--   [« UIPoint::getY](ui-point.gety.html)
-    
--   [ОЙPoint::setY »](ui-point.sety.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙPoint](class.ui-point.html)
-    
--   Встановити X
-    
-
+---
+navigation:
+  - ui-point.gety.html: '« UIPoint::getY'
+  - ui-point.sety.html: 'ОЙPoint::setY »'
+  - index.md: PHP Manual
+  - class.ui-point.html: ОЙPoint
+title: 'ОЙPoint::setX'
+---
 # ОЙPoint::setX
 
 (UI 0.9.9)

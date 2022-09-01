@@ -1,16 +1,11 @@
-Отримати ім'я схеми
-
--   [« Schema::getCollections](mysql-xdevapi-schema.getcollections.html)
-    
--   [Schema::getSession »](mysql-xdevapi-schema.getsession.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Отримати ім'я схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.getcollections.html: '« Schema::getCollections'
+  - mysql-xdevapi-schema.getsession.html: 'Schema::getSession »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::getName'
+---
 # Schema::getName
 
 (No version information available, might only be in Git)

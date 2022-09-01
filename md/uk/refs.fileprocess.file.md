@@ -1,16 +1,11 @@
-Модулі для роботи з файловою системою
-
--   [« HRTimeUnit](class.hrtime-unit.html)
-    
--   [Пряме введення/виведення (Direct IO) »](book.dio.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для роботи з файловою системою
-    
-
+---
+navigation:
+  - class.hrtime-unit.html: « HRTimeUnit
+  - book.dio.md: Пряме введення/виведення (Direct IO) »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для роботи з файловою системою
+---
 # Модулі для роботи з файловою системою
 
 -   [Пряме введення/виведення (Direct IO)](book.dio.md)

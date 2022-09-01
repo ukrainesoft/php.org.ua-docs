@@ -1,16 +1,11 @@
-Отримати текстовий опис для коду помилки
-
--   [« curlsharestrerror](function.curl-share-strerror.html)
-    
--   [curlunescape »](function.curl-unescape.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Отримати текстовий опис для коду помилки
-    
-
+---
+navigation:
+  - function.curl-share-strerror.html: « curlsharestrerror
+  - function.curl-unescape.html: curlunescape »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlstrerror
+---
 # curlstrerror
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

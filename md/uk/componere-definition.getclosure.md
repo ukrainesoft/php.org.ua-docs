@@ -1,16 +1,11 @@
-Отримує замикання
-
--   [« ComponereDefinition::isRegistered](componere-definition.isregistered.html)
-    
--   [ComponereDefinition::getClosures »](componere-definition.getclosures.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereDefinition](class.componere-definition.html)
-    
--   Отримує замикання
-    
-
+---
+navigation:
+  - componere-definition.isregistered.html: '« ComponereDefinition::isRegistered'
+  - componere-definition.getclosures.html: 'ComponereDefinition::getClosures »'
+  - index.md: PHP Manual
+  - class.componere-definition.html: ComponereDefinition
+title: 'ComponereDefinition::getClosure'
+---
 # ComponereDefinition::getClosure
 
 (Componere 2 >= 2.1.0)

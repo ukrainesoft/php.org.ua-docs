@@ -1,16 +1,11 @@
-Робота з віддаленими файлами
-
--   [« Смотрите также](features.file-upload.errors.seealso.html)
-    
--   [Работа с соединениями »](features.connection-handling.html)
-    
--   [PHP Manual](index.md)
-    
--   [Відмітні особливості](features.md)
-    
--   Робота з віддаленими файлами
-    
-
+---
+navigation:
+  - features.file-upload.errors.seealso.html: « Смотрите также
+  - features.connection-handling.html: Работа с соединениями »
+  - index.md: PHP Manual
+  - features.md: Відмітні особливості
+title: Робота з віддаленими файлами
+---
 # Робота з віддаленими файлами
 
 У випадку, якщо опція **allowurlfopen** включена в конфігураційному файлі php.ini, ви можете використовувати URL-адреси HTTP і FTP у більшості функцій, які приймають як параметр ім'я файлу. Також ви можете використовувати посилання в операторах [include](function.include.md) [includeonce](function.include-once.html) [require](function.require.md) і [requireonce](function.require-once.html) (Для коректної роботи цих функцій повинна бути включена опція **allowurlinclude**). Додаткову інформацію про протоколи, що підтримуються в PHP, ви можете знайти в [Підтримувані протоколи та обгортки](wrappers.md)

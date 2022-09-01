@@ -1,16 +1,11 @@
-Повертає кількість ще не опрацьованих запитів
-
--   [« eionpending](function.eio-npending.html)
-    
--   [eionreqs »](function.eio-nreqs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Повертає кількість ще не опрацьованих запитів
-    
-
+---
+navigation:
+  - function.eio-npending.html: « eionpending
+  - function.eio-nreqs.html: eionreqs »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eionready
+---
 # eionready
 
 (PECL eio >= 0.0.1dev)

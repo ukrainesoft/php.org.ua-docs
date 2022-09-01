@@ -1,16 +1,11 @@
-Отримати тип конвертера призначення
-
--   [« UConverter::getDestinationEncoding](uconverter.getdestinationencoding.html)
-    
--   [UConverter::getErrorCode »](uconverter.geterrorcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Отримати тип конвертера призначення
-    
-
+---
+navigation:
+  - uconverter.getdestinationencoding.html: '« UConverter::getDestinationEncoding'
+  - uconverter.geterrorcode.html: 'UConverter::getErrorCode »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::getDestinationType'
+---
 # UConverter::getDestinationType
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

@@ -1,16 +1,11 @@
-Клас HRTimePerformanceCounter
-
--   [« Основи використання](hrtime.example.basic.html)
-    
--   [HRTimePerformanceCounter::getFrequency »](hrtime-performancecounter.getfrequency.html)
-    
--   [PHP Manual](index.html)
-    
--   [HRTime](book.hrtime.html)
-    
--   Клас HRTimePerformanceCounter
-    
-
+---
+navigation:
+  - hrtime.example.basic.html: « Основи використання
+  - hrtime-performancecounter.getfrequency.html: 'HRTimePerformanceCounter::getFrequency »'
+  - index.html: PHP Manual
+  - book.hrtime.html: HRTime
+title: Клас HRTimePerformanceCounter
+---
 # Клас HRTimePerformanceCounter
 
 (PECL hrtime >= 0.4.3)

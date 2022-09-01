@@ -1,16 +1,11 @@
-Огляд термінології
-
--   [Огляд PHP драйверів MySQL](mysql.md)
-    
--   [Вибір API »](mysqlinfo.api.choosing.md)
-    
--   [PHP Manual](index.md)
-    
--   [Огляд PHP драйверів MySQL](mysql.md)
-    
--   Огляд термінології
-    
-
+---
+navigation:
+  - mysql.md: Огляд PHP драйверів MySQL
+  - mysqlinfo.api.choosing.md: Вибір API »
+  - index.md: PHP Manual
+  - mysql.md: Огляд PHP драйверів MySQL
+title: Огляд термінології
+---
 # Огляд термінології
 
 У цьому розділі розповідається про можливості взаємодії між PHP додатком і базою даних MySQL.

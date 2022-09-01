@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xhprof.html)
-    
--   [Вимоги »](xhprof.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Xhprof](book.xhprof.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xhprof.html: « Введение
+  - xhprof.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.xhprof.html: Xhprof
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

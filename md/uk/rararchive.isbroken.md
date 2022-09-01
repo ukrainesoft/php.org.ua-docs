@@ -1,16 +1,11 @@
-Перевіряє, чи не зламано архів (не завершено)
-
--   [« RarArchive::getEntry](rararchive.getentry.html)
-    
--   [RarArchive::isSolid »](rararchive.issolid.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarArchive](class.rararchive.html)
-    
--   Перевіряє, чи не зламано архів (не завершено)
-    
-
+---
+navigation:
+  - rararchive.getentry.html: '« RarArchive::getEntry'
+  - rararchive.issolid.html: 'RarArchive::isSolid »'
+  - index.html: PHP Manual
+  - class.rararchive.html: RarArchive
+title: 'RarArchive::isBroken'
+---
 # RarArchive::isBroken
 
 # rarbrokenіс

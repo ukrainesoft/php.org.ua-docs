@@ -1,16 +1,11 @@
-Встановлює текстовий атрибут
-
--   [« NumberFormatter::setSymbol](numberformatter.setsymbol.md)
-    
--   [Locale »](class.locale.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Встановлює текстовий атрибут
-    
-
+---
+navigation:
+  - numberformatter.setsymbol.md: '« NumberFormatter::setSymbol'
+  - class.locale.md: Locale »
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::setTextAttribute'
+---
 # NumberFormatter::setTextAttribute
 
 # numfmtsettextattribute

@@ -1,16 +1,11 @@
-Малювання вугіллям
-
--   [« Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md)
-    
--   [Imagick::chopImage »](imagick.chopimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Малювання вугіллям
-    
-
+---
+navigation:
+  - imagick.brightnesscontrastimage.md: '« Imagick::brightnessContrastImage'
+  - imagick.chopimage.md: 'Imagick::chopImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::charcoalImage'
+---
 # Imagick::charcoalImage
 
 (PECL imagick 2, PECL imagick 3)

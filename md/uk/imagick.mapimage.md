@@ -1,16 +1,11 @@
-Замінює кольори зображення на найближчий колір із еталонного зображення
-
--   [« Imagick::magnifyImage](imagick.magnifyimage.md)
-    
--   [Imagick::matteFloodfillImage »](imagick.mattefloodfillimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Замінює кольори зображення на найближчий колір із еталонного зображення
-    
-
+---
+navigation:
+  - imagick.magnifyimage.md: '« Imagick::magnifyImage'
+  - imagick.mattefloodfillimage.md: 'Imagick::matteFloodfillImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::mapImage'
+---
 # Imagick::mapImage
 
 (PECL imagick 2, PECL imagick 3)

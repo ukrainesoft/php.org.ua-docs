@@ -1,16 +1,11 @@
-Клас ComponereMethod
-
--   [« ComponerePatch::getClosures](componere-patch.getclosures.html)
-    
--   [ComponereMethod::construct »](componere-method.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Componere](book.componere.html)
-    
--   Клас ComponereMethod
-    
-
+---
+navigation:
+  - componere-patch.getclosures.html: '« ComponerePatch::getClosures'
+  - componere-method.construct.html: 'ComponereMethod::construct »'
+  - index.html: PHP Manual
+  - book.componere.html: Componere
+title: Клас ComponereMethod
+---
 # Клас ComponereMethod
 
 (Componere 2 >= 2.1.0)

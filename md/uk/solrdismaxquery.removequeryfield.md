@@ -1,16 +1,11 @@
-Видаляє поле запиту (параметр qf)
-
--   [« SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md)
-    
--   [SolrDisMaxQuery::removeTrigramPhraseField »](solrdismaxquery.removetrigramphrasefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Видаляє поле запиту (параметр qf)
-    
-
+---
+navigation:
+  - solrdismaxquery.removephrasefield.md: '« SolrDisMaxQuery::removePhraseField'
+  - solrdismaxquery.removetrigramphrasefield.md: 'SolrDisMaxQuery::removeTrigramPhraseField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::remove Query Field'
+---
 # Solr DisMax Query::remove Query Field
 
 (No version information available, might only be in Git)

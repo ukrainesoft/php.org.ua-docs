@@ -1,16 +1,11 @@
-Отримати заголовок
-
--   [« UIWindow::getSize](ui-window.getsize.html)
-    
--   [ОЙWindow::hasBorders »](ui-window.hasborders.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Отримати заголовок
-    
-
+---
+navigation:
+  - ui-window.getsize.html: '« UIWindow::getSize'
+  - ui-window.hasborders.html: 'ОЙWindow::hasBorders »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::getTitle'
+---
 # ОЙWindow::getTitle
 
 (UI 0.9.9)

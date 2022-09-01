@@ -1,16 +1,11 @@
-Прив'язати до LDAP директорії за допомогою SASL
-
--   [« ldaprename](function.ldap-rename.html)
-    
--   [ldapsearch »](function.ldap-search.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Прив'язати до LDAP директорії за допомогою SASL
-    
-
+---
+navigation:
+  - function.ldap-rename.html: « ldaprename
+  - function.ldap-search.html: ldapsearch »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapsaslbind
+---
 # ldapsaslbind
 
 (PHP 5, PHP 7, PHP 8)
@@ -33,10 +28,10 @@ ldap_sasl_bind(    LDAP\Connection $ldap,    ?string $dn = null,    
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `dn` `password` `mech` `realm` `authc_id` `authz_id` and `props` тепер допускають значення null.                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `dn` `password` `mech` `realm` `authc_id` `authz_id` and `props` тепер допускають значення null. |
 
 ### Примітки
 

@@ -1,16 +1,11 @@
-Визначає оформлення
-
--   [« GmagickDraw::setstrokewidth](gmagickdraw.setstrokewidth.md)
-    
--   [GmagickDraw::settextencoding »](gmagickdraw.settextencoding.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Визначає оформлення
-    
-
+---
+navigation:
+  - gmagickdraw.setstrokewidth.md: '« GmagickDraw::setstrokewidth'
+  - gmagickdraw.settextencoding.md: 'GmagickDraw::settextencoding »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::settextdecoration'
+---
 # GmagickDraw::settextdecoration
 
 (PECL gmagick >= Unknown)

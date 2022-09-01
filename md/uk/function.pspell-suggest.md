@@ -1,16 +1,11 @@
-Пропонує варіанти виправлення слова
-
--   [« pspellstorereplacement](function.pspell-store-replacement.html)
-    
--   [PSpellDictionary »](class.pspell-dictionary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Pspell](ref.pspell.html)
-    
--   Пропонує варіанти виправлення слова
-    
-
+---
+navigation:
+  - function.pspell-store-replacement.html: « pspellstorereplacement
+  - class.pspell-dictionary.html: PSpellDictionary »
+  - index.html: PHP Manual
+  - ref.pspell.html: Функции Pspell
+title: pspellsuggest
+---
 # pspellsuggest
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

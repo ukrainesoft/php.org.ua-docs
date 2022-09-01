@@ -1,16 +1,11 @@
-Міграція з PHP 7.4.x на PHP 8.0.x
-
--   [« Другие изменения](migration81.other-changes.html)
-    
--   [Новая функциональность »](migration80.new-features.html)
-    
--   [PHP Manual](index.md)
-    
--   [Appendices](appendices.md)
-    
--   Міграція з PHP 7.4.x на PHP 8.0.x
-    
-
+---
+navigation:
+  - migration81.other-changes.html: « Другие изменения
+  - migration80.new-features.html: Новая функциональность »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Міграція з PHP 7.4.x на PHP 8.0.x
+---
 # Міграція з PHP 7.4.x на PHP 8.0.x
 
 ## Зміст

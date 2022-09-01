@@ -1,16 +1,11 @@
-Створює екземпляр SQLite3 і відкриває з'єднання з базою
-
--   [« SQLite3::close](sqlite3.close.html)
-    
--   [SQLite3::createAggregate »](sqlite3.createaggregate.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](class.sqlite3.html)
-    
--   Створює екземпляр SQLite3 і відкриває з'єднання з базою
-    
-
+---
+navigation:
+  - sqlite3.close.html: '« SQLite3::close'
+  - sqlite3.createaggregate.html: 'SQLite3::createAggregate »'
+  - index.html: PHP Manual
+  - class.sqlite3.html: SQLite3
+title: 'SQLite3::construct'
+---
 # SQLite3::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -50,9 +45,9 @@ public **SQLite3::construct**(string `$filename`, int `$flags` = SQLITE3OPENREAD
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | Параметр `filename` можна задавати порожнім рядком для створення на диску приватної бази даних. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `filename` можна задавати порожнім рядком для створення на диску приватної бази даних. |
 
 ### Приклади
 

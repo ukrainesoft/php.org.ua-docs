@@ -1,16 +1,11 @@
-Виконує одне завдання та повертає результат Застарілий метод
-
--   [« GearmanClient::data](gearmanclient.data.md)
-    
--   [GearmanClient::doBackground »](gearmanclient.dobackground.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Виконує одне завдання та повертає результат Застарілий метод
-    
-
+---
+navigation:
+  - gearmanclient.data.md: '« GearmanClient::data'
+  - gearmanclient.dobackground.md: 'GearmanClient::doBackground »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::do'
+---
 # GearmanClient::do
 
 (PECL gearman >= 0.5.0)

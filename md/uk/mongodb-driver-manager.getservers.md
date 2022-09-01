@@ -1,16 +1,11 @@
-Повертає сервери, до яких підключено менеджера
-
--   [« MongoDBDriverManager::getReadPreference](mongodb-driver-manager.getreadpreference.html)
-    
--   [MongoDBDriverManager::getWriteConcern »](mongodb-driver-manager.getwriteconcern.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Повертає сервери, до яких підключено менеджера
-    
-
+---
+navigation:
+  - mongodb-driver-manager.getreadpreference.html: '« MongoDBDriverManager::getReadPreference'
+  - mongodb-driver-manager.getwriteconcern.html: 'MongoDBDriverManager::getWriteConcern »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::getServers'
+---
 # MongoDBDriverManager::getServers
 
 (mongodb >=1.0.0)

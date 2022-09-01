@@ -1,16 +1,11 @@
-Визначає, чи позначений об'єкт як сміття
-
--   [« Collectable](class.collectable.md)
-    
--   [Pool »](class.pool.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collectable](class.collectable.md)
-    
--   Визначає, чи позначений об'єкт як сміття
-    
-
+---
+navigation:
+  - class.collectable.md: « Collectable
+  - class.pool.md: Pool »
+  - index.md: PHP Manual
+  - class.collectable.md: Collectable
+title: 'Collectable::isGarbage'
+---
 # Collectable::isGarbage
 
 (PECL pthreads >= 2.0.8)

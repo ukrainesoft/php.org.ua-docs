@@ -1,16 +1,11 @@
-Оголошує токен без асоціативності
-
--   [« ParleRParser::left](parle-rparser.left.html)
-    
--   [ParleRParser::precedence »](parle-rparser.precedence.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Оголошує токен без асоціативності
-    
-
+---
+navigation:
+  - parle-rparser.left.html: '« ParleRParser::left'
+  - parle-rparser.precedence.html: 'ParleRParser::precedence »'
+  - index.md: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::nonassoc'
+---
 # ParleRParser::nonassoc
 
 (PECL parle >= 0.7.0)

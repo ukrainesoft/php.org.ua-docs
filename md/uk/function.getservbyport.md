@@ -1,16 +1,11 @@
-Отримує інтернет-службу, що відповідає заданому порту та протоколу
-
--   [« getservbyname](function.getservbyname.html)
-    
--   [headerregistercallback »](function.header-register-callback.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Отримує інтернет-службу, що відповідає заданому порту та протоколу
-    
-
+---
+navigation:
+  - function.getservbyname.html: « getservbyname
+  - function.header-register-callback.html: headerregistercallback »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: getservbyport
+---
 # getservbyport
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

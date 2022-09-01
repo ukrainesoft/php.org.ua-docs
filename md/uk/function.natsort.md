@@ -1,16 +1,11 @@
-Сортує масив, використовуючи алгоритм "natural order"
-
--   [« natcasesort](function.natcasesort.html)
-    
--   [next »](function.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Сортує масив, використовуючи алгоритм "natural order"
-    
-
+---
+navigation:
+  - function.natcasesort.html: « natcasesort
+  - function.next.html: next »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: нацорт
+---
 # нацорт
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

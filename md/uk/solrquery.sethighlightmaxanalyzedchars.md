@@ -1,16 +1,11 @@
-Задає кількість символів у документі для пошуку відповідних фрагментів
-
--   [« SolrQuery::setHighlightMaxAlternateFieldLength](solrquery.sethighlightmaxalternatefieldlength.html)
-    
--   [SolrQuery::setHighlightMergeContiguous »](solrquery.sethighlightmergecontiguous.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Задає кількість символів у документі для пошуку відповідних фрагментів
-    
-
+---
+navigation:
+  - solrquery.sethighlightmaxalternatefieldlength.html: '« SolrQuery::setHighlightMaxAlternateFieldLength'
+  - solrquery.sethighlightmergecontiguous.html: 'SolrQuery::setHighlightMergeContiguous »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setHighlightMaxAnalyzedChars'
+---
 # SolrQuery::setHighlightMaxAnalyzedChars
 
 (PECL solr> = 0.9.2)

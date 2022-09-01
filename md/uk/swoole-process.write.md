@@ -1,16 +1,11 @@
-Записує дані в канал і зв'язується з батьківським чи дочірніми процесами
-
--   [« SwooleProcess::wait](swoole-process.wait.html)
-    
--   [SwooleRedisServer »](class.swoole-redis-server.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Записує дані в канал і зв'язується з батьківським чи дочірніми процесами
-    
-
+---
+navigation:
+  - swoole-process.wait.html: '« SwooleProcess::wait'
+  - class.swoole-redis-server.html: SwooleRedisServer »
+  - index.html: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::write'
+---
 # SwooleProcess::write
 
 (PECL swoole >= 1.9.0)

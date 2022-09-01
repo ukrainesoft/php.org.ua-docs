@@ -1,16 +1,11 @@
-Отримує останнє повідомлення про помилку
-
--   [« SNMP::getErrno](snmp.geterrno.md)
-    
--   [SNMP::getnext »](snmp.getnext.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](class.snmp.md)
-    
--   Отримує останнє повідомлення про помилку
-    
-
+---
+navigation:
+  - snmp.geterrno.md: '« SNMP::getErrno'
+  - snmp.getnext.md: 'SNMP::getnext »'
+  - index.md: PHP Manual
+  - class.snmp.md: SNMP
+title: 'SNMP::getError'
+---
 # SNMP::getError
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Виконує запит без результату до поточної бази даних
-
--   [« SQLite3::escapeString](sqlite3.escapestring.html)
-    
--   [SQLite3::lastErrorCode »](sqlite3.lasterrorcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](class.sqlite3.html)
-    
--   Виконує запит без результату до поточної бази даних
-    
-
+---
+navigation:
+  - sqlite3.escapestring.html: '« SQLite3::escapeString'
+  - sqlite3.lasterrorcode.html: 'SQLite3::lastErrorCode »'
+  - index.html: PHP Manual
+  - class.sqlite3.html: SQLite3
+title: 'SQLite3::exec'
+---
 # SQLite3::exec
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

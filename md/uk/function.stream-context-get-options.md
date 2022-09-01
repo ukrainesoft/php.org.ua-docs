@@ -1,16 +1,11 @@
-Отримує опції для потоку/обгортки/контексту
-
--   [« streamcontextgetdefault](function.stream-context-get-default.html)
-    
--   [streamcontextgetparams »](function.stream-context-get-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Отримує опції для потоку/обгортки/контексту
-    
-
+---
+navigation:
+  - function.stream-context-get-default.html: « streamcontextgetdefault
+  - function.stream-context-get-params.html: streamcontextgetparams »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcontextgetoptions
+---
 # streamcontextgetoptions
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

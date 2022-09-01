@@ -1,16 +1,11 @@
-Виконує кілька завдань одночасно
-
--   [« SwooleServer::taskwait](swoole-server.taskwait.html)
-    
--   [SwooleServer::tick »](swoole-server.tick.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Виконує кілька завдань одночасно
-    
-
+---
+navigation:
+  - swoole-server.taskwait.html: '« SwooleServer::taskwait'
+  - swoole-server.tick.html: 'SwooleServer::tick »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::taskWaitMulti'
+---
 # SwooleServer::taskWaitMulti
 
 (PECL swoole >= 1.9.0)

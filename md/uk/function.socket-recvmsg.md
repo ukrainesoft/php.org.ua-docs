@@ -1,16 +1,11 @@
-Прочитати повідомлення
-
--   [« socketrecvfrom](function.socket-recvfrom.html)
-    
--   [socketselect »](function.socket-select.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Прочитати повідомлення
-    
-
+---
+navigation:
+  - function.socket-recvfrom.html: « socketrecvfrom
+  - function.socket-select.html: socketselect »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketrecvmsg
+---
 # socketrecvmsg
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ socket_recvmsg(Socket $socket, array &$message, int $flags = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

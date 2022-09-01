@@ -1,16 +1,11 @@
-Повертає функцію зупинки, що використовується під час навчання
-
--   [« fanngettrainerrorfunction](function.fann-get-train-error-function.html)
-    
--   [fanngettrainingalgorithm »](function.fann-get-training-algorithm.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає функцію зупинки, що використовується під час навчання
-    
-
+---
+navigation:
+  - function.fann-get-train-error-function.html: « fanngettrainerrorfunction
+  - function.fann-get-training-algorithm.html: fanngettrainingalgorithm »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngettrainstopfunction
+---
 # fanngettrainstopfunction
 
 (PECL fann> = 1.0.0)

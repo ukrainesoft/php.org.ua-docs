@@ -1,16 +1,11 @@
-Отримує тип календаря
-
--   [« IntlCalendar::getTimeZone](intlcalendar.gettimezone.md)
-    
--   [IntlCalendar::getWeekendTransition »](intlcalendar.getweekendtransition.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує тип календаря
-    
-
+---
+navigation:
+  - intlcalendar.gettimezone.md: '« IntlCalendar::getTimeZone'
+  - intlcalendar.getweekendtransition.md: 'IntlCalendar::getWeekendTransition »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getType'
+---
 # IntlCalendar::getType
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

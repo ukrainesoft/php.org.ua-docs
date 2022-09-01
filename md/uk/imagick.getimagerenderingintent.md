@@ -1,16 +1,11 @@
-Повертає схему передачі кольору зображення
-
--   [« Imagick::getImageRegion](imagick.getimageregion.md)
-    
--   [Imagick::getImageResolution »](imagick.getimageresolution.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає схему передачі кольору зображення
-    
-
+---
+navigation:
+  - imagick.getimageregion.md: '« Imagick::getImageRegion'
+  - imagick.getimageresolution.md: 'Imagick::getImageResolution »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageRenderingIntent'
+---
 # Imagick::getImageRenderingIntent
 
 (PECL imagick 2, PECL imagick 3)

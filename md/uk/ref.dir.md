@@ -1,16 +1,11 @@
-Функції для роботи з каталогами
-
--   [« Directory::rewind](directory.rewind.html)
-    
--   [chdir »](function.chdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Каталоги](book.dir.html)
-    
--   Функції для роботи з каталогами
-    
-
+---
+navigation:
+  - directory.rewind.html: '« Directory::rewind'
+  - function.chdir.html: chdir »
+  - index.html: PHP Manual
+  - book.dir.html: Каталоги
+title: Функції для роботи з каталогами
+---
 # Функції для роботи з каталогами
 
 # Дивіться також

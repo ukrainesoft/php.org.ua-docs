@@ -1,16 +1,11 @@
-Виводить зображення у браузер або пише у файл
-
--   [« imagearc](function.imagearc.md)
-    
--   [imagebmp »](function.imagebmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Виводить зображення у браузер або пише у файл
-    
-
+---
+navigation:
+  - function.imagearc.md: « imagearc
+  - function.imagebmp.md: imagebmp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageavif
+---
 # imageavif
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Повертає бітову маску підтримуваних функцій
-
--   [« EventBase::free](eventbase.free.md)
-    
--   [EventBase::getMethod »](eventbase.getmethod.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Повертає бітову маску підтримуваних функцій
-    
-
+---
+navigation:
+  - eventbase.free.md: '« EventBase::free'
+  - eventbase.getmethod.md: 'EventBase::getMethod »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::getFeatures'
+---
 # EventBase::getFeatures
 
 (PECL event >= 1.2.6-beta)

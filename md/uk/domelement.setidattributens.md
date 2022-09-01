@@ -1,16 +1,11 @@
-Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
-
--   [« DOMElement::setIdAttributeNode](domelement.setidattributenode.html)
-    
--   [DOMEntity »](class.domentity.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMElement](class.domelement.html)
-    
--   Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
-    
-
+---
+navigation:
+  - domelement.setidattributenode.html: '« DOMElement::setIdAttributeNode'
+  - class.domentity.html: DOMEntity »
+  - index.html: PHP Manual
+  - class.domelement.html: DOMElement
+title: 'DOMElement::setIdAttributeNS'
+---
 # DOMElement::setIdAttributeNS
 
 (PHP 5, PHP 7, PHP 8)

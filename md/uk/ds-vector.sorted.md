@@ -1,16 +1,11 @@
-Повертає відсортовану за значенням копію колекції
-
--   [« DsVector::sort](ds-vector.sort.html)
-    
--   [ДсVector::sum »](ds-vector.sum.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає відсортовану за значенням копію колекції
-    
-
+---
+navigation:
+  - ds-vector.sort.html: '« DsVector::sort'
+  - ds-vector.sum.html: 'ДсVector::sum »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::sorted'
+---
 # ДсVector::sorted
 
 (PECL ds >= 1.0.0)

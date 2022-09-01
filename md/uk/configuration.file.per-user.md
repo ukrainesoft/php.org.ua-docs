@@ -1,16 +1,11 @@
-Файли .user.ini
-
--   [« Файл конфигурации](configuration.file.md)
-    
--   [Де можуть бути встановлені параметри конфігурації »](configuration.changes.modes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Конфігурація часу виконання](configuration.md)
-    
--   Файли .user.ini
-    
-
+---
+navigation:
+  - configuration.file.md: « Файл конфигурации
+  - configuration.changes.modes.md: Де можуть бути встановлені параметри конфігурації »
+  - index.md: PHP Manual
+  - configuration.md: Конфігурація часу виконання
+title: Файли .user.ini
+---
 ## Файли .user.ini
 
 Включено підтримку INI-файлів у стилі .htaccess на рівні каталогу. Ці файли обробляються *тільки* CGI/FastCGI SAPI. Ця функція робить непотрібним модуль PECL htscanner. Якщо ви використовуєте PHP як модуль Apache, то для досягнення того ж ефекту використовуйте файли .htaccess.

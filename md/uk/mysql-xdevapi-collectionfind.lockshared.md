@@ -1,16 +1,11 @@
-Виконує операцію із SHARED LOCK
-
--   [« CollectionFind::lockExclusive](mysql-xdevapi-collectionfind.lockexclusive.html)
-    
--   [CollectionFind::offset »](mysql-xdevapi-collectionfind.offset.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Виконує операцію із SHARED LOCK
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.lockexclusive.html: '« CollectionFind::lockExclusive'
+  - mysql-xdevapi-collectionfind.offset.html: 'CollectionFind::offset »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::lockShared'
+---
 # CollectionFind::lockShared
 
 (No version information available, might only be in Git)

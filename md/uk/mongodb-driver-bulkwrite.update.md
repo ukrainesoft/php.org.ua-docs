@@ -1,16 +1,11 @@
-Додати операцію оновлення до порції
-
--   [« MongoDBDriverBulkWrite::insert](mongodb-driver-bulkwrite.insert.html)
-    
--   [MongoDBDriverSession »](class.mongodb-driver-session.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
-    
--   Додати операцію оновлення до порції
-    
-
+---
+navigation:
+  - mongodb-driver-bulkwrite.insert.html: '« MongoDBDriverBulkWrite::insert'
+  - class.mongodb-driver-session.html: MongoDBDriverSession »
+  - index.md: PHP Manual
+  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite
+title: 'MongoDBDriverBulkWrite::update'
+---
 # MongoDBDriverBulkWrite::update
 
 (mongodb >=1.0.0)
@@ -41,10 +36,10 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 
 **updateOptions**
 
-| Опция                                                                                                                                                                                                                                                                                                                                     | Тип   | Описание | Значение по умолчанию |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|----------|-----------------------|
-| arrayFilters                                                                                                                                                                                                                                                                                                                              | array |          |                       |
-| Масив документів фільтрів, який визначає, які елементи масиву будуть змінені для операції поновлення в полі масиву. Дивіться [» Вказуйте array Filters для операцій оновлення Масиву](https://www.mongodb.com/docs/manual/reference/command/update/#update-command-arrayfilters) у посібнику MongoDB для отримання додаткової інформації. |       |          |                       |
+| Опция | Тип | Описание | Значение по умолчанию |
+| --- | --- | --- | --- |
+| arrayFilters | array |  |  |
+| Масив документів фільтрів, який визначає, які елементи масиву будуть змінені для операції поновлення в полі масиву. Дивіться [» Вказуйте array Filters для операцій оновлення Масиву](https://www.mongodb.com/docs/manual/reference/command/update/#update-command-arrayfilters) у посібнику MongoDB для отримання додаткової інформації. |  |  |  |
 
 Опція доступна з MongoDB 3.6+ і призведе до виключення під час виконання, якщо вона вказана для старої версії сервера.
 
@@ -74,13 +69,13 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.7.0 | Додана опція `"hint"`                                                                                                                                                                   |
-| PECL mongodb 1.6.0 | Параметр `newObj` тепер приймає конвеєр агрегації. Потрібно MongoDB 4.2+, для старішої версії сервера викине виняток під час виконання.                                                 |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.7.0 | Додана опція `"hint"` |
+| PECL mongodb 1.6.0 | Параметр `newObj` тепер приймає конвеєр агрегації. Потрібно MongoDB 4.2+, для старішої версії сервера викине виняток під час виконання. |
 | PECL mongodb 1.5.0 | Використання опції `"arrayFilters"` призведе до виключення під час виконання, якщо вона не підтримується сервером. Раніше не викидався виняток, і цей параметр, можливо, проігнорували. |
-| PECL mongodb 1.4.0 | Додана опція `"arrayFilters"`                                                                                                                                                           |
-| PECL mongodb 1.2.0 | Додана опція `"collation"`                                                                                                                                                              |
+| PECL mongodb 1.4.0 | Додана опція `"arrayFilters"` |
+| PECL mongodb 1.2.0 | Додана опція `"collation"` |
 
 ### Приклади
 

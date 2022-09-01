@@ -1,16 +1,11 @@
-Повертає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
-
--   [« ImagickDraw::getStrokeDashOffset](imagickdraw.getstrokedashoffset.md)
-    
--   [ImagickDraw::getStrokeLineJoin »](imagickdraw.getstrokelinejoin.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
-    
-
+---
+navigation:
+  - imagickdraw.getstrokedashoffset.md: '« ImagickDraw::getStrokeDashOffset'
+  - imagickdraw.getstrokelinejoin.md: 'ImagickDraw::getStrokeLineJoin »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getStrokeLineCap'
+---
 # ImagickDraw::getStrokeLineCap
 
 (PECL imagick 2, PECL imagick 3)

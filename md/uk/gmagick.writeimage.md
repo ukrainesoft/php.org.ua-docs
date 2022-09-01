@@ -1,16 +1,11 @@
-Записує зображення у вказаний файл
-
--   [« Gmagick::write](gmagick.write.md)
-    
--   [GmagickDraw »](class.gmagickdraw.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Записує зображення у вказаний файл
-    
-
+---
+navigation:
+  - gmagick.write.md: '« Gmagick::write'
+  - class.gmagickdraw.md: GmagickDraw »
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::writeimage'
+---
 # Gmagick::writeimage
 
 (PECL gmagick >= Unknown)

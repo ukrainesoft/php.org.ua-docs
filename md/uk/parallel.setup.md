@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Введение](intro.parallel.html)
-    
--   [Философия »](philosophy.parallel.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallel](book.parallel.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - intro.parallel.html: « Введение
+  - philosophy.parallel.html: Философия »
+  - index.html: PHP Manual
+  - book.parallel.html: parallel
+title: Встановлення
+---
 # Встановлення
 
 ### Вимоги

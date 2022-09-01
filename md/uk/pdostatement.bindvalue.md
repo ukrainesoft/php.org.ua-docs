@@ -1,16 +1,11 @@
-Зв'язує параметр із заданим значенням
-
--   [« PDOStatement::bindParam](pdostatement.bindparam.html)
-    
--   [PDOStatement::closeCursor »](pdostatement.closecursor.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Зв'язує параметр із заданим значенням
-    
-
+---
+navigation:
+  - pdostatement.bindparam.html: '« PDOStatement::bindParam'
+  - pdostatement.closecursor.html: 'PDOStatement::closeCursor »'
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::bindValue'
+---
 # PDOStatement::bindValue
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 1.0.0)

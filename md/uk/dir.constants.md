@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](dir.resources.html)
-    
--   [Directory »](class.directory.html)
-    
--   [PHP Manual](index.html)
-    
--   [Каталоги](book.dir.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - dir.resources.html: « Типи ресурсів
+  - class.directory.html: Directory »
+  - index.html: PHP Manual
+  - book.dir.html: Каталоги
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 **`DIRECTORY_SEPARATOR`** (string)

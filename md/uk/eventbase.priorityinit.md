@@ -1,16 +1,11 @@
-Встановлює кількість пріоритетів на основі подій
-
--   [« EventBase::loop](eventbase.loop.html)
-    
--   [EventBase::reInit »](eventbase.reinit.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBase](class.eventbase.html)
-    
--   Встановлює кількість пріоритетів на основі подій
-    
-
+---
+navigation:
+  - eventbase.loop.html: '« EventBase::loop'
+  - eventbase.reinit.html: 'EventBase::reInit »'
+  - index.html: PHP Manual
+  - class.eventbase.html: EventBase
+title: 'EventBase::priorityInit'
+---
 # EventBase::priorityInit
 
 (PECL event >= 1.2.6-beta)

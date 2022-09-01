@@ -1,16 +1,11 @@
-Нові можливості
-
--   [« Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
-    
--   [Нові функції »](migration71.new-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
-    
--   Нові можливості
-    
-
+---
+navigation:
+  - migration71.md: « Миграция с PHP 7.0.x на PHP 7.1.x
+  - migration71.new-functions.html: Нові функції »
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Нові можливості
+---
 ## Нові можливості
 
 ### Типи, що обнулюються

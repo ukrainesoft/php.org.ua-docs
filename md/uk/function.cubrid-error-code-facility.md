@@ -1,16 +1,11 @@
-Отримати код рівня, на якому сталася помилка
-
--   [« cubriddrop](function.cubrid-drop.html)
-    
--   [cubriderrorcode »](function.cubrid-error-code.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Отримати код рівня, на якому сталася помилка
-    
-
+---
+navigation:
+  - function.cubrid-drop.html: « cubriddrop
+  - function.cubrid-error-code.html: cubriderrorcode »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubriderrorcodefacility
+---
 # cubriderrorcodefacility
 
 (PECL CUBRID >= 8.3.0)

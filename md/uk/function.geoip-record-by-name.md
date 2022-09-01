@@ -1,16 +1,11 @@
-Повертає докладну інформацію про адресу, знайдену в базі GeoIP
-
--   [« geoiporgбname](function.geoip-org-by-name.html)
-    
--   [geoipregionбname »](function.geoip-region-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Повертає докладну інформацію про адресу, знайдену в базі GeoIP
-    
-
+---
+navigation:
+  - function.geoip-org-by-name.html: « geoiporgбname
+  - function.geoip-region-by-name.html: geoipregionбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoiprecordбname
+---
 # geoiprecordбname
 
 (PECL geoip >= 0.2.0)
@@ -53,9 +48,9 @@ geoip_record_by_name(string $hostname): array
 
 ### список змін
 
-| Версия           | Описание                                                                    |
-|------------------|-----------------------------------------------------------------------------|
-| PECL geoip 1.0.4 | Додано код континенту (continentcode) з GeoIP Library 1.4.3 або новішими.   |
+| Версия | Описание |
+| --- | --- |
+| PECL geoip 1.0.4 | Додано код континенту (continentcode) з GeoIP Library 1.4.3 або новішими. |
 | PECL geoip 1.0.3 | Додано трилітерний код країни (countrycode3) та назва країни (countryname). |
 
 ### Приклади

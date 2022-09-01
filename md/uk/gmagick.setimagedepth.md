@@ -1,16 +1,11 @@
-Встановлює глибину зображення
-
--   [« Gmagick::setimagedelay](gmagick.setimagedelay.md)
-    
--   [Gmagick::setimagedispose »](gmagick.setimagedispose.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює глибину зображення
-    
-
+---
+navigation:
+  - gmagick.setimagedelay.md: '« Gmagick::setimagedelay'
+  - gmagick.setimagedispose.md: 'Gmagick::setimagedispose »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimagedepth'
+---
 # Gmagick::setimagedepth
 
 (PECL gmagick >= Unknown)

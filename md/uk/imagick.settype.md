@@ -1,16 +1,11 @@
-Встановлює атрибут типу зображення
-
--   [« Imagick::setSizeOffset](imagick.setsizeoffset.html)
-    
--   [Imagick::shadeImage »](imagick.shadeimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює атрибут типу зображення
-    
-
+---
+navigation:
+  - imagick.setsizeoffset.html: '« Imagick::setSizeOffset'
+  - imagick.shadeimage.html: 'Imagick::shadeImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setType'
+---
 # Imagick::setType
 
 (PECL imagick 2, PECL imagick 3)

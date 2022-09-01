@@ -1,16 +1,11 @@
-Клас ReflectionFiber
-
--   [« ReflectionGenerator::getTrace](reflectiongenerator.gettrace.md)
-    
--   [ReflectionFiber::construct »](reflectionfiber.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionFiber
-    
-
+---
+navigation:
+  - reflectiongenerator.gettrace.md: '« ReflectionGenerator::getTrace'
+  - reflectionfiber.construct.md: 'ReflectionFiber::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionFiber
+---
 # Клас ReflectionFiber
 
 (PHP 8> = 8.1.0)

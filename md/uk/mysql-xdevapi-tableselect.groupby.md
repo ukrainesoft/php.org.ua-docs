@@ -1,16 +1,11 @@
-Встановлює критерії угруповання вибірки
-
--   [« TableSelect::execute](mysql-xdevapi-tableselect.execute.html)
-    
--   [TableSelect::having »](mysql-xdevapi-tableselect.having.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Встановлює критерії угруповання вибірки
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.execute.html: '« TableSelect::execute'
+  - mysql-xdevapi-tableselect.having.html: 'TableSelect::having »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::groupBy'
+---
 # TableSelect::groupBy
 
 (No version information available, might only be in Git)

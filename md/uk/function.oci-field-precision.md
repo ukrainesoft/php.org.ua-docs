@@ -1,16 +1,11 @@
-Повертає точність поля
-
--   [« ocifieldname](function.oci-field-name.html)
-    
--   [ocifieldscale »](function.oci-field-scale.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає точність поля
-    
-
+---
+navigation:
+  - function.oci-field-name.html: « ocifieldname
+  - function.oci-field-scale.html: ocifieldscale »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifieldprecision
+---
 # ocifieldprecision
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

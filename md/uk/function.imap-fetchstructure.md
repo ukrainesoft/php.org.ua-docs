@@ -1,16 +1,11 @@
-Прочитати структуру вказаного повідомлення
-
--   [« imapfetchmime](function.imap-fetchmime.html)
-    
--   [imapfetchtext »](function.imap-fetchtext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Прочитати структуру вказаного повідомлення
-    
-
+---
+navigation:
+  - function.imap-fetchmime.html: « imapfetchmime
+  - function.imap-fetchtext.html: imapfetchtext »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapfetchstructure
+---
 # imapfetchstructure
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,34 +44,34 @@ imap_fetchstructure(IMAP\Connection $imap, int $message_num, int $flags = 0): st
 
 **Первинний тип тіла (значення можуть відрізнятися залежно від бібліотеки, що використовується, так що рекомендується використовувати константи)**
 
-| Значение | Тип         | Константа       |
-|----------|-------------|-----------------|
-|          | text        | TYPETEXT        |
-|          | multipart   | TYPEMULTIPART   |
-|          | message     | TYPEMESSAGE     |
-|          | application | TYPEAPPLICATION |
-|          | audio       | TYPEAUDIO       |
-|          | image       | TYPEIMAGE       |
-|          | video       | TYPEVIDEO       |
-|          | model       | TYPEMODEL       |
-|          | other       | TYPEOTHER       |
+| Значение | Тип | Константа |
+| --- | --- | --- |
+|  | text | TYPETEXT |
+|  | multipart | TYPEMULTIPART |
+|  | message | TYPEMESSAGE |
+|  | application | TYPEAPPLICATION |
+|  | audio | TYPEAUDIO |
+|  | image | TYPEIMAGE |
+|  | video | TYPEVIDEO |
+|  | model | TYPEMODEL |
+|  | other | TYPEOTHER |
 
 **Кодування (значення можуть відрізнятися залежно від бібліотеки, що використовується, так що рекомендується використовувати константи)**
 
-| Значение | Тип              | Константа          |
-|----------|------------------|--------------------|
-|          | 7bit             | ENC7BIT            |
-|          | 8bit             | ENC8BIT            |
-|          | Binary           | ENCBINARY          |
-|          | Base64           | ENCBASE64          |
-|          | Quoted-Printable | ENCQUOTEDPRINTABLE |
-|          | other            | ENCOTHER           |
+| Значение | Тип | Константа |
+| --- | --- | --- |
+|  | 7bit | ENC7BIT |
+|  | 8bit | ENC8BIT |
+|  | Binary | ENCBINARY |
+|  | Base64 | ENCBASE64 |
+|  | Quoted-Printable | ENCQUOTEDPRINTABLE |
+|  | other | ENCOTHER |
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

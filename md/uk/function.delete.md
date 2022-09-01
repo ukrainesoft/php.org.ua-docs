@@ -1,16 +1,11 @@
-Дивіться опис функції unlink або unset
-
--   [« copy](function.copy.md)
-    
--   [dirname »](function.dirname.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Дивіться опис функції unlink або unset
-    
-
+---
+navigation:
+  - function.copy.md: « copy
+  - function.dirname.md: dirname »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: delete
+---
 # delete
 
 delete — Дивіться опис функції [unlink()](function.unlink.md) або [unset()](function.unset.md)

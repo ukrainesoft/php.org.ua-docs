@@ -1,16 +1,11 @@
-Обертка для розширеної операції WHOAMI
-
--   [« ldapexoprefresh](function.ldap-exop-refresh.html)
-    
--   [ldapexop »](function.ldap-exop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Обертка для розширеної операції WHOAMI
-    
-
+---
+navigation:
+  - function.ldap-exop-refresh.html: « ldapexoprefresh
+  - function.ldap-exop.html: ldapexop »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapexopwhoami
+---
 # ldapexopwhoami
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -37,9 +32,9 @@ ldap_exop_whoami(LDAP\Connection $ldap): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

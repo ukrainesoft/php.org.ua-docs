@@ -1,16 +1,11 @@
-Завантажує збережену модель SVM
-
--   [« SVMModel::getSvrProbability](svmmodel.getsvrprobability.md)
-    
--   [SVMModel::predictprobability »](svmmodel.predict-probability.html)
-    
--   [PHP Manual](index.md)
-    
--   [SVMModel](class.svmmodel.md)
-    
--   Завантажує збережену модель SVM
-    
-
+---
+navigation:
+  - svmmodel.getsvrprobability.md: '« SVMModel::getSvrProbability'
+  - svmmodel.predict-probability.html: 'SVMModel::predictprobability »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::load'
+---
 # SVMModel::load
 
 (PECL svm >= 0.1.00.1.0)

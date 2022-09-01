@@ -1,16 +1,11 @@
-Встановлює межі системних ресурсів
-
--   [« posixsetpgid](function.posix-setpgid.html)
-    
--   [posixsetsid »](function.posix-setsid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Встановлює межі системних ресурсів
-    
-
+---
+navigation:
+  - function.posix-setpgid.html: « posixsetpgid
+  - function.posix-setsid.html: posixsetsid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixsetrlimit
+---
 # posixsetrlimit
 
 (PHP 7, PHP 8)

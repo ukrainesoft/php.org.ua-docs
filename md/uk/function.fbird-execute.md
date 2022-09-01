@@ -1,16 +1,11 @@
-Псевдонім ibaseexecute
-
--   [« fbirderrmsg](function.fbird-errmsg.html)
-    
--   [fbirdfetchassoc »](function.fbird-fetch-assoc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibaseexecute
-    
-
+---
+navigation:
+  - function.fbird-errmsg.html: « fbirderrmsg
+  - function.fbird-fetch-assoc.html: fbirdfetchassoc »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirdexecute
+---
 # fbirdexecute
 
 (PHP 5, PHP 7 < 7.4.0)

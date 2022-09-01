@@ -1,16 +1,11 @@
-Щільність ймовірності логістичного розподілу
-
--   [« statsdenslaplace](function.stats-dens-laplace.html)
-    
--   [statsdensnormal »](function.stats-dens-normal.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Щільність ймовірності логістичного розподілу
-    
-
+---
+navigation:
+  - function.stats-dens-laplace.html: « statsdenslaplace
+  - function.stats-dens-normal.html: statsdensnormal »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdenslogistic
+---
 # statsdenslogistic
 
 (PECL stats >= 1.0.0)

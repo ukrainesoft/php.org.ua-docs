@@ -1,16 +1,11 @@
-Отримати схему таблиці
-
--   [« Table::getName](mysql-xdevapi-table.getname.html)
-    
--   [Table::getSession »](mysql-xdevapi-table.getsession.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Отримати схему таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.getname.html: '« Table::getName'
+  - mysql-xdevapi-table.getsession.html: 'Table::getSession »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::getSchema'
+---
 # Table::getSchema
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Повертає масив усіх певних функцій
-
--   [« functionexists](function.function-exists.html)
-    
--   [registershutdownfunction »](function.register-shutdown-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Повертає масив усіх певних функцій
-    
-
+---
+navigation:
+  - function.function-exists.html: « functionexists
+  - function.register-shutdown-function.html: registershutdownfunction »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: getdefinedфункцій
+---
 # getdefinedфункцій
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -37,10 +32,10 @@ get_defined_functions(bool $exclude_disabled = true): array
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Значення параметру `exclude_disabled` за умовчанням було змінено з **`false`** на **`true`** |
-|        | Доданий параметр `exclude_disabled`                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | Значення параметру `exclude_disabled` за умовчанням було змінено з **`false`** на **`true`** |
+|  | Доданий параметр `exclude_disabled` |
 
 ### Приклади
 

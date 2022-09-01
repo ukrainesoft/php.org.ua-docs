@@ -1,16 +1,13 @@
-Використання бібліотеки PHP для MongoDB (PHPLIB)
-
--   [" Навчальні матеріали](mongodb.tutorial.md)
-    
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM) »](mongodb.tutorial.apm.md)
-    
--   [PHP Manual](index.md)
-    
--   [Навчальні матеріали](mongodb.tutorial.md)
-    
--   Використання бібліотеки PHP для MongoDB (PHPLIB)
-    
-
+---
+navigation:
+  - mongodb.tutorial.md: '" Навчальні матеріали'
+  - mongodb.tutorial.apm.md: >-
+      Моніторинг продуктивності програми (Application Performance Monitoring або
+      APM) »
+  - index.md: PHP Manual
+  - mongodb.tutorial.md: Навчальні матеріали
+title: Використання бібліотеки PHP для MongoDB (PHPLIB)
+---
 # Використання бібліотеки PHP для MongoDB (PHPLIB)
 
 Після початкового налаштування драйвера, ми продовжимо пояснювати, як почати роботу з драйвером MongoDB і відповідною бібліотекою користувача, для створення нашого першого проекту.

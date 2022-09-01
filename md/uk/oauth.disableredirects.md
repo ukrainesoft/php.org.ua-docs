@@ -1,16 +1,11 @@
-Вимкнути переадресацію
-
--   [« OAuth::disableDebug](oauth.disabledebug.md)
-    
--   [OAuth::disableSSLChecks »](oauth.disablesslchecks.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Вимкнути переадресацію
-    
-
+---
+navigation:
+  - oauth.disabledebug.md: '« OAuth::disableDebug'
+  - oauth.disablesslchecks.md: 'OAuth::disableSSLChecks »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::disableRedirects'
+---
 # OAuth::disableRedirects
 
 (PECL OAuth >= 0.99.9)

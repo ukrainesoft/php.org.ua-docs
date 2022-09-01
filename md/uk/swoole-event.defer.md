@@ -1,16 +1,11 @@
-Додає callback-функцію у наступний цикл подій
-
--   [« SwooleEvent::add](swoole-event.add.html)
-    
--   [SwooleEvent::del »](swoole-event.del.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleEvent](class.swoole-event.html)
-    
--   Додає callback-функцію у наступний цикл подій
-    
-
+---
+navigation:
+  - swoole-event.add.html: '« SwooleEvent::add'
+  - swoole-event.del.html: 'SwooleEvent::del »'
+  - index.md: PHP Manual
+  - class.swoole-event.html: SwooleEvent
+title: 'SwooleEvent::defer'
+---
 # SwooleEvent::defer
 
 (PECL swoole >= 1.9.0)

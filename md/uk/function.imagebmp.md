@@ -1,16 +1,11 @@
-Вивести BMP-зображення у браузер або файл
-
--   [« imageavif](function.imageavif.md)
-    
--   [imagechar »](function.imagechar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Вивести BMP-зображення у браузер або файл
-    
-
+---
+navigation:
+  - function.imageavif.md: « imageavif
+  - function.imagechar.md: imagechar »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagebmp
+---
 # imagebmp
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -53,10 +48,10 @@ imagebmp(GdImage $image, resource|string|null $file = null, bool $compressed = t
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-|        | Тип параметра `compressed` тепер логічне значення (bool); раніше був цілим числом (int).       |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | Тип параметра `compressed` тепер логічне значення (bool); раніше був цілим числом (int). |
 
 ### Приклади
 

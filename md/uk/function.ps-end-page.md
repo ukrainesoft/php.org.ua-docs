@@ -1,16 +1,11 @@
-Завершує сторінку
-
--   [«psdelete](function.ps-delete.html)
-    
--   [псendpattern »](function.ps-end-pattern.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Завершує сторінку
-    
-
+---
+navigation:
+  - function.ps-delete.html: «psdelete
+  - function.ps-end-pattern.html: псendpattern »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псendpage
+---
 # псendpage
 
 (PECL ps >= 1.1.0)

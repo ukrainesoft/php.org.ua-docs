@@ -1,16 +1,11 @@
-Функції визначення типу символів
-
--   [« traitexists](function.trait-exists.html)
-    
--   [Введение »](intro.ctype.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
-    
--   Функції визначення типу символів
-    
-
+---
+navigation:
+  - function.trait-exists.html: « traitexists
+  - intro.ctype.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'
+title: Функції визначення типу символів
+---
 # Функції визначення типу символів
 
 -   [Введение](intro.ctype.md)

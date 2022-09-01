@@ -1,16 +1,11 @@
-Динамічно змінює код заданого методу
-
--   [« runkit7methodcopy](function.runkit7-method-copy.html)
-    
--   [runkit7methodremove »](function.runkit7-method-remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції runkit7](ref.runkit7.html)
-    
--   Динамічно змінює код заданого методу
-    
-
+---
+navigation:
+  - function.runkit7-method-copy.html: « runkit7methodcopy
+  - function.runkit7-method-remove.html: runkit7methodremove »
+  - index.html: PHP Manual
+  - ref.runkit7.html: Функції runkit7
+title: runkit7методredefine
+---
 # runkit7методredefine
 
 (PECL runkit7> = Unknown)

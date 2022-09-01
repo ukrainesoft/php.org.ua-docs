@@ -1,16 +1,11 @@
-Призначення offsetUnset
-
--   [« CachingIterator::offsetSet](cachingiterator.offsetset.html)
-    
--   [CachingIterator::rewind »](cachingiterator.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [CachingIterator](class.cachingiterator.html)
-    
--   Призначення offsetUnset
-    
-
+---
+navigation:
+  - cachingiterator.offsetset.html: '« CachingIterator::offsetSet'
+  - cachingiterator.rewind.html: 'CachingIterator::rewind »'
+  - index.html: PHP Manual
+  - class.cachingiterator.html: CachingIterator
+title: 'CachingIterator::offsetUnset'
+---
 # CachingIterator::offsetUnset
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

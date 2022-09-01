@@ -1,16 +1,11 @@
-Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
-
--   [« datedateset](function.date-date-set.html)
-    
--   [datedefaulttimezoneset »](function.date-default-timezone-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
-    
-
+---
+navigation:
+  - function.date-date-set.html: « datedateset
+  - function.date-default-timezone-set.html: datedefaulttimezoneset »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datedefaulttimezoneget
+---
 # datedefaulttimezoneget
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

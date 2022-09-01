@@ -1,16 +1,11 @@
-Отримує час останньої зміни
-
--   [« SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.html)
-    
--   [SplFileInfo::getOwner »](splfileinfo.getowner.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Отримує час останньої зміни
-    
-
+---
+navigation:
+  - splfileinfo.getlinktarget.html: '« SplFileInfo::getLinkTarget'
+  - splfileinfo.getowner.html: 'SplFileInfo::getOwner »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::getMTime'
+---
 # SplFileInfo::getMTime
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

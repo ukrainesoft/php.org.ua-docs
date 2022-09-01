@@ -1,16 +1,11 @@
-Отримує Reflection-об'єкт перерахування цього варіанта
-
--   [« ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.md)
-    
--   [ReflectionEnumUnitCase::getValue »](reflectionenumunitcase.getvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
-    
--   Отримує Reflection-об'єкт перерахування цього варіанта
-    
-
+---
+navigation:
+  - reflectionenumunitcase.construct.md: '« ReflectionEnumUnitCase::construct'
+  - reflectionenumunitcase.getvalue.md: 'ReflectionEnumUnitCase::getValue »'
+  - index.md: PHP Manual
+  - class.reflectionenumunitcase.md: ReflectionEnumUnitCase
+title: 'ReflectionEnumUnitCase::getEnum'
+---
 # ReflectionEnumUnitCase::getEnum
 
 (PHP 8> = 8.1.0)

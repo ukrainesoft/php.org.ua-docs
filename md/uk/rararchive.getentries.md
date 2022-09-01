@@ -1,16 +1,11 @@
-Повертає повний список елементів із RAR архіву
-
--   [« RarArchive::getComment](rararchive.getcomment.md)
-    
--   [RarArchive::getEntry »](rararchive.getentry.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarArchive](class.rararchive.md)
-    
--   Повертає повний список елементів із RAR архіву
-    
-
+---
+navigation:
+  - rararchive.getcomment.md: '« RarArchive::getComment'
+  - rararchive.getentry.md: 'RarArchive::getEntry »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
+title: 'RarArchive::getEntries'
+---
 # RarArchive::getEntries
 
 # rarlist
@@ -51,8 +46,8 @@ rar_list(RarArchive $rarfile): array|false
 
 ### список змін
 
-| Версия         | Описание                                                                 |
-|----------------|--------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 3.0.0 | Виправлена ​​підтримка RAR архівів з іменами елементів, що повторюються. |
 
 ### Приклади

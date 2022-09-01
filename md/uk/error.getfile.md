@@ -1,16 +1,11 @@
-Отримує файл, у якому сталася помилка
-
--   [« Error::getCode](error.getcode.md)
-    
--   [Error::getLine »](error.getline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Error](class.error.md)
-    
--   Отримує файл, у якому сталася помилка
-    
-
+---
+navigation:
+  - error.getcode.md: '« Error::getCode'
+  - error.getline.md: 'Error::getLine »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getFile'
+---
 # Error::getFile
 
 (PHP 7, PHP 8)

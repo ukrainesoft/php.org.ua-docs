@@ -1,16 +1,11 @@
-Клас SplFileObject
-
--   [« SplFileInfo::toString](splfileinfo.tostring.md)
-    
--   [SplFileObject::construct »](splfileobject.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка файлов](spl.files.md)
-    
--   Клас SplFileObject
-    
-
+---
+navigation:
+  - splfileinfo.tostring.md: '« SplFileInfo::toString'
+  - splfileobject.construct.md: 'SplFileObject::construct »'
+  - index.md: PHP Manual
+  - spl.files.md: Обработка файлов
+title: Клас SplFileObject
+---
 # Клас SplFileObject
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

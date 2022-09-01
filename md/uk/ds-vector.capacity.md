@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsVector::apply](ds-vector.apply.html)
-    
--   [ДсVector::clear »](ds-vector.clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-vector.apply.html: '« DsVector::apply'
+  - ds-vector.clear.html: 'ДсVector::clear »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::capacity'
+---
 # ДсVector::capacity
 
 (PECL ds >= 1.0.0)

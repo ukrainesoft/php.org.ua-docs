@@ -1,16 +1,11 @@
-Створює екземпляр спостерігача EvEmbed, пов'язаний із поточним об'єктом EvLoop
-
--   [« EvLoop::defaultLoop](evloop.defaultloop.html)
-    
--   [EvLoop::fork »](evloop.fork.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Створює екземпляр спостерігача EvEmbed, пов'язаний із поточним об'єктом EvLoop
-    
-
+---
+navigation:
+  - evloop.defaultloop.html: '« EvLoop::defaultLoop'
+  - evloop.fork.html: 'EvLoop::fork »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::embed'
+---
 # EvLoop::embed
 
 (PECL ev >= 0.2.0)

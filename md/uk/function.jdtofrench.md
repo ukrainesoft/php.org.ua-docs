@@ -1,16 +1,11 @@
-Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
-
--   [« jdmonthname](function.jdmonthname.md)
-    
--   [jdtogregorian »](function.jdtogregorian.md)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](ref.calendar.md)
-    
--   Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
-    
-
+---
+navigation:
+  - function.jdmonthname.md: « jdmonthname
+  - function.jdtogregorian.md: jdtogregorian »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: jdtofrench
+---
 # jdtofrench
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

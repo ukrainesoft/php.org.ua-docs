@@ -1,16 +1,11 @@
-Встановлює максимальну кількість виразів, що повертаються.
-
--   [« SolrQuery::setTermsIncludeUpperBound](solrquery.settermsincludeupperbound.md)
-    
--   [SolrQuery::setTermsLowerBound »](solrquery.settermslowerbound.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює максимальну кількість виразів, що повертаються.
-    
-
+---
+navigation:
+  - solrquery.settermsincludeupperbound.md: '« SolrQuery::setTermsIncludeUpperBound'
+  - solrquery.settermslowerbound.md: 'SolrQuery::setTermsLowerBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsLimit'
+---
 # SolrQuery::setTermsLimit
 
 (PECL solr> = 0.9.2)

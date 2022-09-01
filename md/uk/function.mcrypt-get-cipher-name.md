@@ -1,16 +1,11 @@
-Отримує ім'я вказаного шифру
-
--   [« mcryptgetblocksize](function.mcrypt-get-block-size.html)
-    
--   [mcryptgetвербsize »](function.mcrypt-get-iv-size.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Отримує ім'я вказаного шифру
-    
-
+---
+navigation:
+  - function.mcrypt-get-block-size.html: « mcryptgetblocksize
+  - function.mcrypt-get-iv-size.html: mcryptgetвербsize »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptgetciphername
+---
 # mcryptgetciphername
 
 (PHP 4, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

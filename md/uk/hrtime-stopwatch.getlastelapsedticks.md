@@ -1,16 +1,11 @@
-Отримати кількість минулих тиків за останній інтервал
-
--   [« HRTimeStopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.html)
-    
--   [HRTimeStopWatch::getLastElapsedTime »](hrtime-stopwatch.getlastelapsedtime.html)
-    
--   [PHP Manual](index.html)
-    
--   [HRTimeStopWatch](class.hrtime-stopwatch.html)
-    
--   Отримати кількість минулих тиків за останній інтервал
-    
-
+---
+navigation:
+  - hrtime-stopwatch.getelapsedtime.html: '« HRTimeStopWatch::getElapsedTime'
+  - hrtime-stopwatch.getlastelapsedtime.html: 'HRTimeStopWatch::getLastElapsedTime »'
+  - index.html: PHP Manual
+  - class.hrtime-stopwatch.html: HRTimeStopWatch
+title: 'HRTimeStopWatch::getLastElapsedTicks'
+---
 # HRTimeStopWatch::getLastElapsedTicks
 
 (PECL hrtime >= 0.4.3)

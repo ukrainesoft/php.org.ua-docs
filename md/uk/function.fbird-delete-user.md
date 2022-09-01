@@ -1,16 +1,11 @@
-Псевдонім ibasedeleteuser
-
--   [« fbirdдбinfo](function.fbird-db-info.html)
-    
--   [fbirddropdb »](function.fbird-drop-db.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibasedeleteuser
-    
-
+---
+navigation:
+  - function.fbird-db-info.html: « fbirdдбinfo
+  - function.fbird-drop-db.html: fbirddropdb »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirddeleteuser
+---
 # fbirddeleteuser
 
 (PHP 5, PHP 7 < 7.4.0)

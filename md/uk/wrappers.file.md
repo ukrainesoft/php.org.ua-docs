@@ -1,16 +1,11 @@
-Доступ до локальної файлової системи
-
--   [« Підтримувані протоколи та обгортки](wrappers.md)
-    
--   [http:// »](wrappers.http.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримувані протоколи та обгортки](wrappers.md)
-    
--   Доступ до локальної файлової системи
-    
-
+---
+navigation:
+  - wrappers.md: « Підтримувані протоколи та обгортки
+  - wrappers.http.md: 'http:// »'
+  - index.md: PHP Manual
+  - wrappers.md: Підтримувані протоколи та обгортки
+title: 'file://'
+---
 # file://
 
 file:// — Доступ до локальної файлової системи
@@ -35,15 +30,15 @@ file:// — Доступ до локальної файлової системи
 
 **Основна інформація**
 
-| Атрибут                                                                         | Поддержка |
-|---------------------------------------------------------------------------------|-----------|
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні        |
-| Читання                                                                         | Так       |
-| Запис                                                                           | Так       |
-| Додавання                                                                       | Так       |
-| Одночасне читання та запис                                                      | Так       |
-| Підтримка [stat()](function.stat.md)                                            | Так       |
-| Підтримка [unlink()](function.unlink.md)                                        | Так       |
-| Підтримка [rename()](function.rename.md)                                        | Так       |
-| Підтримка [mkdir()](function.mkdir.md)                                          | Так       |
-| Підтримка [rmdir()](function.rmdir.md)                                          | Так       |
+| Атрибут | Поддержка |
+| --- | --- |
+| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
+| Читання | Так |
+| Запис | Так |
+| Додавання | Так |
+| Одночасне читання та запис | Так |
+| Підтримка [stat()](function.stat.md) | Так |
+| Підтримка [unlink()](function.unlink.md) | Так |
+| Підтримка [rename()](function.rename.md) | Так |
+| Підтримка [mkdir()](function.mkdir.md) | Так |
+| Підтримка [rmdir()](function.rmdir.md) | Так |

@@ -1,16 +1,11 @@
-Встановлює коефіцієнти вибірки зображень
-
--   [« Imagick::setResourceLimit](imagick.setresourcelimit.md)
-    
--   [Imagick::setSize »](imagick.setsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює коефіцієнти вибірки зображень
-    
-
+---
+navigation:
+  - imagick.setresourcelimit.md: '« Imagick::setResourceLimit'
+  - imagick.setsize.md: 'Imagick::setSize »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setSamplingFactors'
+---
 # Imagick::setSamplingFactors
 
 (PECL imagick 2, PECL imagick 3)

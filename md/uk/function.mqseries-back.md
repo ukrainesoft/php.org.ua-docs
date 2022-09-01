@@ -1,16 +1,11 @@
-MQSeries MQBACK
-
--   [« Функции mqseries](ref.mqseries.md)
-    
--   [mqseriesbegin »](function.mqseries-begin.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   MQSeries MQBACK
-    
-
+---
+navigation:
+  - ref.mqseries.md: « Функции mqseries
+  - function.mqseries-begin.html: mqseriesbegin »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesback
+---
 # mqseriesback
 
 (PECL mqseries >= 0.10.0)

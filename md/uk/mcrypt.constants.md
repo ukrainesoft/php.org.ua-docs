@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](mcrypt.resources.html)
-    
--   [Шифри Mcrypt »](mcrypt.ciphers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](book.mcrypt.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - mcrypt.resources.html: « Типи ресурсів
+  - mcrypt.ciphers.html: Шифри Mcrypt »
+  - index.html: PHP Manual
+  - book.mcrypt.html: Mcrypt
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

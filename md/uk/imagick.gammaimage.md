@@ -1,16 +1,11 @@
-Гамма-корекція зображення
-
--   [« Imagick::fxImage](imagick.fximage.md)
-    
--   [Imagick::gaussianBlurImage »](imagick.gaussianblurimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Гамма-корекція зображення
-    
-
+---
+navigation:
+  - imagick.fximage.md: '« Imagick::fxImage'
+  - imagick.gaussianblurimage.md: 'Imagick::gaussianBlurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::gammaImage'
+---
 # Imagick::gammaImage
 
 (PECL imagick 2, PECL imagick 3)

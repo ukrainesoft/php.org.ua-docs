@@ -1,16 +1,11 @@
-Створює новий ReadConcern
-
--   [« MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.html)
-    
--   [MongoDBDriverReadConcern::getLevel »](mongodb-driver-readconcern.getlevel.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
-    
--   Створює новий ReadConcern
-    
-
+---
+navigation:
+  - mongodb-driver-readconcern.bsonserialize.html: '« MongoDBDriverReadConcern::bsonSerialize'
+  - mongodb-driver-readconcern.getlevel.html: 'MongoDBDriverReadConcern::getLevel »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+title: 'MongoDBDriverReadConcern::construct'
+---
 # MongoDBDriverReadConcern::construct
 
 (mongodb >=1.0.0)

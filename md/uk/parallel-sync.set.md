@@ -1,16 +1,11 @@
-Доступ
-
--   [« parallelSync::get](parallel-sync.get.html)
-    
--   [parallelSync::wait »](parallel-sync.wait.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallelSync](class.parallel-sync.html)
-    
--   Доступ
-    
-
+---
+navigation:
+  - parallel-sync.get.html: '« parallelSync::get'
+  - parallel-sync.wait.html: 'parallelSync::wait »'
+  - index.html: PHP Manual
+  - class.parallel-sync.html: parallelSync
+title: 'parallelSync::set'
+---
 # parallelSync::set
 
 parallelSync::set — Доступ

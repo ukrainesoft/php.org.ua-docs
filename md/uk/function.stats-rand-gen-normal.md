@@ -1,16 +1,11 @@
-Генерує одне випадкове відхилення від нормального розподілу
-
--   [« statsrandgennoncentralт](function.stats-rand-gen-noncentral-t.html)
-    
--   [statsrandgent »](function.stats-rand-gen-t.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Генерує одне випадкове відхилення від нормального розподілу
-    
-
+---
+navigation:
+  - function.stats-rand-gen-noncentral-t.html: « statsrandgennoncentralт
+  - function.stats-rand-gen-t.html: statsrandgent »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandгенnormal
+---
 # statsrandгенnormal
 
 (PECL stats >= 1.0.0)

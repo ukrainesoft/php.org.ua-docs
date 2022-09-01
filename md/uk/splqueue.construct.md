@@ -1,16 +1,11 @@
-Створює нову чергу, реалізовану з використанням двозв'язкового списку
-
--   [« SplQueue](class.splqueue.html)
-    
--   [SplQueue::dequeue »](splqueue.dequeue.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplQueue](class.splqueue.html)
-    
--   Створює нову чергу, реалізовану з використанням двозв'язкового списку
-    
-
+---
+navigation:
+  - class.splqueue.html: « SplQueue
+  - splqueue.dequeue.html: 'SplQueue::dequeue »'
+  - index.html: PHP Manual
+  - class.splqueue.html: SplQueue
+title: 'SplQueue::construct'
+---
 # SplQueue::construct
 
 (PHP 5> = 5.3.0, PHP 7)

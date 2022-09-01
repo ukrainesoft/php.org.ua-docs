@@ -1,16 +1,11 @@
-Створює об'єкт ReflectionFiber
-
--   [« ReflectionFiber](class.reflectionfiber.md)
-    
--   [ReflectionFiber::getCallable »](reflectionfiber.getcallable.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFiber](class.reflectionfiber.md)
-    
--   Створює об'єкт ReflectionFiber
-    
-
+---
+navigation:
+  - class.reflectionfiber.md: « ReflectionFiber
+  - reflectionfiber.getcallable.md: 'ReflectionFiber::getCallable »'
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::construct'
+---
 # ReflectionFiber::construct
 
 (PHP 8> = 8.1.0)

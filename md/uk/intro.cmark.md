@@ -1,16 +1,11 @@
-Вступ
-
--   [« CommonMark](book.cmark.md)
-    
--   [Встановлення та налаштування »](cmark.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.cmark.md: « CommonMark
+  - cmark.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Вступ
+---
 # Вступ
 
 Модуль надає доступ до еталонної реалізації CommonMark, раціоналізованої версії синтаксису Markdown із специфікацією.

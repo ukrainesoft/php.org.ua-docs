@@ -1,16 +1,11 @@
-Завершити коментар
-
--   [« XMLWriter::endCdata](xmlwriter.endcdata.html)
-    
--   [XMLWriter::endDocument »](xmlwriter.enddocument.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Завершити коментар
-    
-
+---
+navigation:
+  - xmlwriter.endcdata.html: '« XMLWriter::endCdata'
+  - xmlwriter.enddocument.html: 'XMLWriter::endDocument »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::endComment'
+---
 # XMLWriter::endComment
 
 # xmlwriterendcomment
@@ -47,9 +42,9 @@ xmlwriter_end_comment(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

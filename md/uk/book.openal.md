@@ -1,16 +1,11 @@
-Аудіопотоки OpenAL
-
--   [« Обработка аудио форматов](refs.utilspec.audio.md)
-    
--   [Введение »](intro.openal.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка аудио форматов](refs.utilspec.audio.md)
-    
--   Аудіопотоки OpenAL
-    
-
+---
+navigation:
+  - refs.utilspec.audio.md: « Обработка аудио форматов
+  - intro.openal.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.audio.md: Обработка аудио форматов
+title: Аудіопотоки OpenAL
+---
 # Аудіопотоки OpenAL
 
 -   [Введение](intro.openal.md)

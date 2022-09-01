@@ -1,16 +1,11 @@
-Зменшує колекцію до одного значення, використовуючи callback-функцію
-
--   [« DsMap::putAll](ds-map.putall.html)
-    
--   [ДсMap::remove »](ds-map.remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Зменшує колекцію до одного значення, використовуючи callback-функцію
-    
-
+---
+navigation:
+  - ds-map.putall.html: '« DsMap::putAll'
+  - ds-map.remove.html: 'ДсMap::remove »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::reduce'
+---
 # ДсMap::reduce
 
 (PECL ds >= 1.0.0)

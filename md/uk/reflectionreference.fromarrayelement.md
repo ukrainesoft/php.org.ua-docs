@@ -1,16 +1,11 @@
-Створює ReflectionReference з елемента масиву
-
--   [« ReflectionReference::construct](reflectionreference.construct.md)
-    
--   [ReflectionReference::getId »](reflectionreference.getid.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionReference](class.reflectionreference.md)
-    
--   Створює ReflectionReference з елемента масиву
-    
-
+---
+navigation:
+  - reflectionreference.construct.md: '« ReflectionReference::construct'
+  - reflectionreference.getid.md: 'ReflectionReference::getId »'
+  - index.md: PHP Manual
+  - class.reflectionreference.md: ReflectionReference
+title: 'ReflectionReference::fromArrayElement'
+---
 # ReflectionReference::fromArrayElement
 
 (PHP 7> = 7.4.0, PHP 8)

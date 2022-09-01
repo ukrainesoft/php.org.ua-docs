@@ -1,16 +1,11 @@
-Повертає позначку першого зразка з файлу rrd
-
--   [« rrdfetch](function.rrd-fetch.html)
-    
--   [rrdgraph »](function.rrd-graph.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції RRD](ref.rrd.html)
-    
--   Повертає позначку першого зразка з файлу rrd
-    
-
+---
+navigation:
+  - function.rrd-fetch.html: « rrdfetch
+  - function.rrd-graph.html: rrdgraph »
+  - index.html: PHP Manual
+  - ref.rrd.html: Функції RRD
+title: rrdfirst
+---
 # rrdfirst
 
 (PECL rrd >= 0.9.0)

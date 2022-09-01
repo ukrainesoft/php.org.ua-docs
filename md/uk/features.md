@@ -1,14 +1,10 @@
-Відмітні особливості
-
--   [« Необходимость обновлений](security.current.md)
-    
--   [HTTP-автентифікація в PHP »](features.http-auth.html)
-    
--   [PHP Manual](index.md)
-    
--   Відмітні особливості
-    
-
+---
+navigation:
+  - security.current.md: « Необходимость обновлений
+  - features.http-auth.html: HTTP-автентифікація в PHP »
+  - index.md: PHP Manual
+title: Відмітні особливості
+---
 # Відмітні особливості
 
 -   [HTTP-автентифікація в PHP](features.http-auth.html)

@@ -1,16 +1,11 @@
-Отримати найбільш доступний ідентифікатор хешу
-
--   [« Функции Mhash](ref.mhash.html)
-    
--   [mhashgetblocksize »](function.mhash-get-block-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Mhash](ref.mhash.html)
-    
--   Отримати найбільш доступний ідентифікатор хешу
-    
-
+---
+navigation:
+  - ref.mhash.html: « Функции Mhash
+  - function.mhash-get-block-size.html: mhashgetblocksize »
+  - index.html: PHP Manual
+  - ref.mhash.html: Функции Mhash
+title: mhashcount
+---
 # mhashcount
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ mhash_count(): int
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
 
 ### Приклади
 

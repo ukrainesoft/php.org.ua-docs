@@ -1,16 +1,11 @@
-Клас PriorityQueue
-
--   [« DsQueue::toArray](ds-queue.toarray.html)
-    
--   [ДсPriorityQueue::allocate »](ds-priorityqueue.allocate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Клас PriorityQueue
-    
-
+---
+navigation:
+  - ds-queue.toarray.html: '« DsQueue::toArray'
+  - ds-priorityqueue.allocate.html: 'ДсPriorityQueue::allocate »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Клас PriorityQueue
+---
 # Клас PriorityQueue
 
 (No version information available, might only be in Git)

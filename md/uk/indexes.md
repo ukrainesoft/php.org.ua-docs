@@ -1,16 +1,11 @@
-Алфавітний перелік
-
--   [« Creative Commons Attribution 3.0](cc.license.html)
-    
--   [Список функций и методов »](indexes.functions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Алфавітний перелік
-    
-
+---
+navigation:
+  - cc.license.html: « Creative Commons Attribution 3.0
+  - indexes.functions.html: Список функций и методов »
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Алфавітний перелік
+---
 # Алфавітний перелік
 
 ## Зміст

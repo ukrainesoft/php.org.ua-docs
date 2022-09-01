@@ -1,16 +1,11 @@
-Покинута дитина
-
--   [« tradercdl3whitesoldiers](function.trader-cdl3whitesoldiers.html)
-    
--   [tradercdladvanceblock »](function.trader-cdladvanceblock.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Покинута дитина
-    
-
+---
+navigation:
+  - function.trader-cdl3whitesoldiers.html: « tradercdl3whitesoldiers
+  - function.trader-cdladvanceblock.html: tradercdladvanceblock »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlabandonedbaby
+---
 # tradercdlabandonedbaby
 
 (PECL trader >= 0.2.0)

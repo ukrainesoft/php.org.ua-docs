@@ -1,16 +1,11 @@
-Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
-
--   [« fanntrainвінfile](function.fann-train-on-file.html)
-    
--   [FANNConnection »](class.fannconnection.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
-    
-
+---
+navigation:
+  - function.fann-train-on-file.html: « fanntrainвінfile
+  - class.fannconnection.md: FANNConnection »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanntrain
+---
 # fanntrain
 
 (PECL fann> = 1.0.0)

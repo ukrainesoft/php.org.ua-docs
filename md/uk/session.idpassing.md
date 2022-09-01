@@ -1,16 +1,11 @@
-Передача ідентифікатора сесії
-
--   [« Основи використання](session.examples.basic.md)
-    
--   [Користувальницькі обробники сесії »](session.customhandler.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](session.examples.md)
-    
--   Передача ідентифікатора сесії
-    
-
+---
+navigation:
+  - session.examples.basic.md: « Основи використання
+  - session.customhandler.md: Користувальницькі обробники сесії »
+  - index.md: PHP Manual
+  - session.examples.md: Приклади
+title: Передача ідентифікатора сесії
+---
 ## Передача ідентифікатора сесії
 
 Існують два методи передачі ідентифікатора сесії:

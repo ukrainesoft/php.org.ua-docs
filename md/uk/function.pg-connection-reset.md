@@ -1,16 +1,11 @@
-Скидання підключення (перепідключення)
-
--   [« pgconnectionbusy](function.pg-connection-busy.html)
-    
--   [пгconnectionstatus »](function.pg-connection-status.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Скидання підключення (перепідключення)
-    
-
+---
+navigation:
+  - function.pg-connection-busy.html: « pgconnectionbusy
+  - function.pg-connection-status.html: пгconnectionstatus »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгconnectionreset
+---
 # пгconnectionreset
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

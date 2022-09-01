@@ -1,16 +1,11 @@
-Зашифровує CMS-повідомлення
-
--   [« opensslcmsdecrypt](function.openssl-cms-decrypt.html)
-    
--   [opensslcmsread »](function.openssl-cms-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Зашифровує CMS-повідомлення
-    
-
+---
+navigation:
+  - function.openssl-cms-decrypt.html: « opensslcmsdecrypt
+  - function.openssl-cms-read.html: opensslcmsread »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslcmsencrypt
+---
 # opensslcmsencrypt
 
 (PHP 8)
@@ -61,6 +56,6 @@ openssl_cms_encrypt(    string $input_filename,    string $output_filena
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
+| Версия | Описание |
+| --- | --- |
+|  | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |

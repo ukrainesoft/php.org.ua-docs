@@ -1,16 +1,11 @@
-Визначення стилю
-
--   [« UIDrawTextFontDescriptor::getSize](ui-draw-text-font-descriptor.getsize.html)
-    
--   [ОЙDrawTextFontDescriptor::getWeight »](ui-draw-text-font-descriptor.getweight.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
-    
--   Визначення стилю
-    
-
+---
+navigation:
+  - ui-draw-text-font-descriptor.getsize.html: '« UIDrawTextFontDescriptor::getSize'
+  - ui-draw-text-font-descriptor.getweight.html: 'ОЙDrawTextFontDescriptor::getWeight »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor
+title: 'ОЙDrawTextFontDescriptor::getStretch'
+---
 # ОЙDrawTextFontDescriptor::getStretch
 
 (UI 1.0.3)

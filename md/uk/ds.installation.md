@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ds.requirements.md)
-    
--   [Обумовлені константи »](ds.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](ds.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ds.requirements.md: « Вимоги
+  - ds.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - ds.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Найпростіший спосіб встановлення через [» PECL](https://pecl.php.net/package/ds)

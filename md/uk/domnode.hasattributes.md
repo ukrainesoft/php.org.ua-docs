@@ -1,16 +1,11 @@
-Перевіряє, чи має цей вузол атрибути.
-
--   [« DOMNode::getNodePath](domnode.getnodepath.md)
-    
--   [DOMNode::hasChildNodes »](domnode.haschildnodes.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Перевіряє, чи має цей вузол атрибути.
-    
-
+---
+navigation:
+  - domnode.getnodepath.md: '« DOMNode::getNodePath'
+  - domnode.haschildnodes.md: 'DOMNode::hasChildNodes »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::hasAttributes'
+---
 # DOMNode::hasAttributes
 
 (PHP 5, PHP 7, PHP 8)

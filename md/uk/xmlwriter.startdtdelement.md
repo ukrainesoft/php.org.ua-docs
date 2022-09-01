@@ -1,16 +1,11 @@
-Створити стартовий елемент DTD
-
--   [« XMLWriter::startDtdAttlist](xmlwriter.startdtdattlist.md)
-    
--   [XMLWriter::startDtdEntity »](xmlwriter.startdtdentity.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити стартовий елемент DTD
-    
-
+---
+navigation:
+  - xmlwriter.startdtdattlist.md: '« XMLWriter::startDtdAttlist'
+  - xmlwriter.startdtdentity.md: 'XMLWriter::startDtdEntity »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startDtdElement'
+---
 # XMLWriter::startDtdElement
 
 # xmlwriterstartdtdelement
@@ -51,9 +46,9 @@ xmlwriter_start_dtd_element(XMLWriter $writer, string $qualifiedName): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

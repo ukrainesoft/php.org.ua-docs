@@ -1,16 +1,11 @@
-Відкладає виконання callback-функції наприкінці поточного EventLoop
-
--   [« SwooleServer::construct](swoole-server.construct.html)
-    
--   [SwooleServerPort::construct »](swoole-server-port.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Відкладає виконання callback-функції наприкінці поточного EventLoop
-    
-
+---
+navigation:
+  - swoole-server.construct.html: '« SwooleServer::construct'
+  - swoole-server-port.construct.html: 'SwooleServerPort::construct »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::defer'
+---
 # SwooleServer::defer
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Отримує виявлену HTML версію для зазначеного документа
-
--   [« tidy::getConfig](tidy.getconfig.html)
-    
--   [tidy::getOpt »](tidy.getopt.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidy](class.tidy.html)
-    
--   Отримує виявлену HTML версію для зазначеного документа
-    
-
+---
+navigation:
+  - tidy.getconfig.html: '« tidy::getConfig'
+  - tidy.getopt.html: 'tidy::getOpt »'
+  - index.html: PHP Manual
+  - class.tidy.html: tidy
+title: 'tidy::getHtmlVer'
+---
 # tidy::getHtmlVer
 
 # tidygethtmlver

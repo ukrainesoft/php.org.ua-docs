@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](trader.requirements.md)
-    
--   [Налаштування під час виконання »](trader.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](trader.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - trader.requirements.md: « Вимоги
+  - trader.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - trader.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

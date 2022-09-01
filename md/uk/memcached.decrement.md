@@ -1,16 +1,11 @@
-Зменшує числове значення запису
-
--   [« Memcached::construct](memcached.construct.html)
-    
--   [Memcached::decrementByKey »](memcached.decrementbykey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Зменшує числове значення запису
-    
-
+---
+navigation:
+  - memcached.construct.html: '« Memcached::construct'
+  - memcached.decrementbykey.html: 'Memcached::decrementByKey »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::decrement'
+---
 # Memcached::decrement
 
 (PECL memcached >= 0.1.0)

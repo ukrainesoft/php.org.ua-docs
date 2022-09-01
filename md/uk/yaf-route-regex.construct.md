@@ -1,16 +1,11 @@
-Конструктор класу YafRouteRegex
-
--   [« YafRouteRegex::assemble](yaf-route-regex.assemble.html)
-    
--   [YafRouteRegex::route »](yaf-route-regex.route.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteRegex](class.yaf-route-regex.html)
-    
--   Конструктор класу YafRouteRegex
-    
-
+---
+navigation:
+  - yaf-route-regex.assemble.html: '« YafRouteRegex::assemble'
+  - yaf-route-regex.route.html: 'YafRouteRegex::route »'
+  - index.md: PHP Manual
+  - class.yaf-route-regex.html: YafRouteRegex
+title: 'YafRouteRegex::construct'
+---
 # YafRouteRegex::construct
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Деструктор
-
--   [« SolrQuery::construct](solrquery.construct.md)
-    
--   [SolrQuery::getExpand »](solrquery.getexpand.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Деструктор
-    
-
+---
+navigation:
+  - solrquery.construct.md: '« SolrQuery::construct'
+  - solrquery.getexpand.md: 'SolrQuery::getExpand »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::destruct'
+---
 # SolrQuery::destruct
 
 (PECL solr> = 0.9.2)

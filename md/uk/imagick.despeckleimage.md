@@ -1,16 +1,11 @@
-Зменшує спекл-шум на зображенні
-
--   [« Imagick::deskewImage](imagick.deskewimage.md)
-    
--   [Imagick::destroy »](imagick.destroy.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Зменшує спекл-шум на зображенні
-    
-
+---
+navigation:
+  - imagick.deskewimage.md: '« Imagick::deskewImage'
+  - imagick.destroy.md: 'Imagick::destroy »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::despeckleImage'
+---
 # Imagick::despeckleImage
 
 (PECL imagick 2, PECL imagick 3)

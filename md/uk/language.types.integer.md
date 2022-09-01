@@ -1,16 +1,11 @@
-Цілі числа
-
--   [« Булев](language.types.boolean.html)
-    
--   [Числа з плаваючою точкою »](language.types.float.html)
-    
--   [PHP Manual](index.html)
-    
--   [Типи](language.types.html)
-    
--   Цілі числа
-    
-
+---
+navigation:
+  - language.types.boolean.html: « Булев
+  - language.types.float.html: Числа з плаваючою точкою »
+  - index.html: PHP Manual
+  - language.types.html: Типи
+title: Цілі числа
+---
 ## Цілі числа
 
 int - це число з множини ℤ = {..., -2, -1, 0, 1, 2, ...}.

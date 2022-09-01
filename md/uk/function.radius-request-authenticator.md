@@ -1,16 +1,11 @@
-Повертає аутентифікатор запиту
-
--   [« radiusputvendorstring](function.radius-put-vendor-string.html)
-    
--   [radiussaltencryptattr »](function.radius-salt-encrypt-attr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Повертає аутентифікатор запиту
-    
-
+---
+navigation:
+  - function.radius-put-vendor-string.html: « radiusputvendorstring
+  - function.radius-salt-encrypt-attr.html: radiussaltencryptattr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusrequestauthenticator
+---
 # radiusrequestauthenticator
 
 (PECL radius >= 1.1.0)

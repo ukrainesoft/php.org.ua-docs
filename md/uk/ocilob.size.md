@@ -1,16 +1,11 @@
-Повертає розмір об'єкта LOB
-
--   [« OCILob::setBuffering](ocilob.setbuffering.md)
-    
--   [OCILob::tell »](ocilob.tell.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCILob](class.ocilob.md)
-    
--   Повертає розмір об'єкта LOB
-    
-
+---
+navigation:
+  - ocilob.setbuffering.md: '« OCILob::setBuffering'
+  - ocilob.tell.md: 'OCILob::tell »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::size'
+---
 # OCILob::size
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -35,6 +30,6 @@ public OCILob::size(): int|false
 
 ### список змін
 
-| Версия                 | Описание                                                                                              |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |

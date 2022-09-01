@@ -1,16 +1,11 @@
-Додати пункт меню "Розділювач" (Separator)
-
--   [« UIMenu::appendQuit](ui-menu.appendquit.html)
-    
--   [ОЙMenu::construct »](ui-menu.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenu](class.ui-menu.html)
-    
--   Додати пункт меню "Розділювач" (Separator)
-    
-
+---
+navigation:
+  - ui-menu.appendquit.html: '« UIMenu::appendQuit'
+  - ui-menu.construct.html: 'ОЙMenu::construct »'
+  - index.md: PHP Manual
+  - class.ui-menu.html: ОЙMenu
+title: 'ОЙMenu::appendSeparator'
+---
 # ОЙMenu::appendSeparator
 
 (UI 0.9.9)

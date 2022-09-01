@@ -1,16 +1,11 @@
-Визначає, чи є файл символічним посиланням
-
--   [« isfile](function.is-file.html)
-    
--   [ісreadable »](function.is-readable.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Визначає, чи є файл символічним посиланням
-    
-
+---
+navigation:
+  - function.is-file.html: « isfile
+  - function.is-readable.html: ісreadable »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: ісlink
+---
 # ісlink
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

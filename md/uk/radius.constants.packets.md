@@ -1,16 +1,11 @@
-типи пакетів RADIUS
-
--   [« Опции RADIUS](radius.constants.options.md)
-    
--   [Типи атрибутів RADIUS »](radius.constants.attributes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](radius.constants.md)
-    
--   типи пакетів RADIUS
-    
-
+---
+navigation:
+  - radius.constants.options.md: « Опции RADIUS
+  - radius.constants.attributes.md: Типи атрибутів RADIUS »
+  - index.md: PHP Manual
+  - radius.constants.md: Обумовлені константи
+title: типи пакетів RADIUS
+---
 ## типи пакетів RADIUS
 
 Пакети RADIUS, будь то запит або відповідь, завжди включають тип. Ці константи корисні при заданні типу при використанні [radiuscreaterequest()](function.radius-create-request.html) та при обробці відповіді [radiussendrequest()](function.radius-send-request.html)

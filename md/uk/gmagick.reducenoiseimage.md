@@ -1,16 +1,11 @@
-Згладжує контури зображення
-
--   [« Gmagick::readimagefile](gmagick.readimagefile.md)
-    
--   [Gmagick::removeimage »](gmagick.removeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Згладжує контури зображення
-    
-
+---
+navigation:
+  - gmagick.readimagefile.md: '« Gmagick::readimagefile'
+  - gmagick.removeimage.md: 'Gmagick::removeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::reducenoiseimage'
+---
 # Gmagick::reducenoiseimage
 
 (PECL gmagick >= Unknown)

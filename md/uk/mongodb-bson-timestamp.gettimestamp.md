@@ -1,16 +1,11 @@
-Повертає компонент позначки часу Timestamp
-
--   [« MongoDBBSONTimestamp::getIncrement](mongodb-bson-timestamp.getincrement.html)
-    
--   [MongoDBBSONTimestamp::jsonSerialize »](mongodb-bson-timestamp.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   Повертає компонент позначки часу Timestamp
-    
-
+---
+navigation:
+  - mongodb-bson-timestamp.getincrement.html: '« MongoDBBSONTimestamp::getIncrement'
+  - mongodb-bson-timestamp.jsonserialize.html: 'MongoDBBSONTimestamp::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::getTimestamp'
+---
 # MongoDBBSONTimestamp::getTimestamp
 
 (mongodb >=1.3.0)

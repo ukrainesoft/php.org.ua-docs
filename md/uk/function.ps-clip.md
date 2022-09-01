@@ -1,16 +1,11 @@
-Відображення кліпів по поточному шляху
-
--   [«pscircle](function.ps-circle.html)
-    
--   [псcloseimage »](function.ps-close-image.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Відображення кліпів по поточному шляху
-    
-
+---
+navigation:
+  - function.ps-circle.html: «pscircle
+  - function.ps-close-image.html: псcloseimage »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псclip
+---
 # псclip
 
 (PECL ps >= 1.1.0)

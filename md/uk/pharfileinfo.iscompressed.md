@@ -1,16 +1,11 @@
-Перевірити, чи стиснений файл
-
--   [« PharFileInfo::isCRCChecked](pharfileinfo.iscrcchecked.md)
-    
--   [PharFileInfo::setMetadata »](pharfileinfo.setmetadata.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Перевірити, чи стиснений файл
-    
-
+---
+navigation:
+  - pharfileinfo.iscrcchecked.md: '« PharFileInfo::isCRCChecked'
+  - pharfileinfo.setmetadata.md: 'PharFileInfo::setMetadata »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::isCompressed'
+---
 # PharFileInfo::isCompressed
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
@@ -37,9 +32,9 @@ public PharFileInfo::isCompressed(?int $compression = null): bool
 
 ### список змін
 
-| Версия | Описание                                    |
-|--------|---------------------------------------------|
-|        | `compression` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `compression` тепер допускає значення null. |
 
 ### Приклади
 

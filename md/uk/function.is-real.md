@@ -1,16 +1,11 @@
-Псевдонім isfloat
-
--   [« isobject](function.is-object.html)
-    
--   [ісresource »](function.is-resource.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Псевдонім isfloat
-    
-
+---
+navigation:
+  - function.is-object.html: « isobject
+  - function.is-resource.html: ісresource »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісreal
+---
 # ісreal
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

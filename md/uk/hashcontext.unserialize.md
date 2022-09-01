@@ -1,16 +1,11 @@
-Десеріалізує параметр data у об'єкт HashContext
-
--   [« HashContext::serialize](hashcontext.serialize.html)
-    
--   [Функции Hash »](ref.hash.html)
-    
--   [PHP Manual](index.html)
-    
--   [HashContext](class.hashcontext.html)
-    
--   Десеріалізує параметр data у об'єкт HashContext
-    
-
+---
+navigation:
+  - hashcontext.serialize.html: '« HashContext::serialize'
+  - ref.hash.html: Функции Hash »
+  - index.html: PHP Manual
+  - class.hashcontext.html: HashContext
+title: 'HashContext::unserialize'
+---
 # HashContext::unserialize
 
 (PHP 8)

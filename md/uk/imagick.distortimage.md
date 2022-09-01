@@ -1,16 +1,11 @@
-Спотворює зображення, використовуючи різні методи спотворення
-
--   [« Imagick::displayImages](imagick.displayimages.md)
-    
--   [Imagick::drawImage »](imagick.drawimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Спотворює зображення, використовуючи різні методи спотворення
-    
-
+---
+navigation:
+  - imagick.displayimages.md: '« Imagick::displayImages'
+  - imagick.drawimage.md: 'Imagick::drawImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::distortImage'
+---
 # Imagick::distortImage
 
 (PECL imagick 2> = 2.0.1, PECL imagick 3)

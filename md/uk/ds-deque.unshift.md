@@ -1,16 +1,11 @@
-Додає значення на початок двосторонньої черги
-
--   [« DsDeque::toArray](ds-deque.toarray.html)
-    
--   [Коллекция пар ключ-значение »](class.ds-map.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Додає значення на початок двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.toarray.html: '« DsDeque::toArray'
+  - class.ds-map.html: Коллекция пар ключ-значение »
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::unshift'
+---
 # ДсDeque::unshift
 
 (PECL ds >= 1.0.0)

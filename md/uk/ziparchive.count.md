@@ -1,16 +1,11 @@
-Підраховує кількість файлів в архіві
-
--   [« ZipArchive::close](ziparchive.close.html)
-    
--   [ZipArchive::deleteIndex »](ziparchive.deleteindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Підраховує кількість файлів в архіві
-    
-
+---
+navigation:
+  - ziparchive.close.html: '« ZipArchive::close'
+  - ziparchive.deleteindex.html: 'ZipArchive::deleteIndex »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::count'
+---
 # ZipArchive::count
 
 (PHP 7 >= 7.2.0, PHP 8, PECL zip >= 1.15.0)

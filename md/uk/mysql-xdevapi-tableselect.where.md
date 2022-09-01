@@ -1,16 +1,11 @@
-Встановлює умову пошуку вибірки
-
--   [« TableSelect::orderby](mysql-xdevapi-tableselect.orderby.html)
-    
--   [mysqlxdevapiTableUpdate »](class.mysql-xdevapi-tableupdate.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Встановлює умову пошуку вибірки
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.orderby.html: '« TableSelect::orderby'
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::where'
+---
 # TableSelect::where
 
 (No version information available, might only be in Git)

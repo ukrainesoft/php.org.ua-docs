@@ -1,16 +1,11 @@
-Додати колекцію до схеми
-
--   [« Schema::construct](mysql-xdevapi-schema.construct.html)
-    
--   [Schema::dropCollection »](mysql-xdevapi-schema.dropcollection.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Додати колекцію до схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.construct.html: '« Schema::construct'
+  - mysql-xdevapi-schema.dropcollection.html: 'Schema::dropCollection »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::createCollection'
+---
 # Schema::createCollection
 
 (No version information available, might only be in Git)
@@ -41,9 +36,9 @@ public mysql_xdevapi\Schema::createCollection(string $name, string $validate = ?
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | Доданий необов'язковий параметр validate. |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий необов'язковий параметр validate. |
 
 ### Приклади
 

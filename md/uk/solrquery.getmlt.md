@@ -1,16 +1,11 @@
-Повертає, чи повинні бути включені результати MoreLikeThis
-
--   [« SolrQuery::getHighlightUsePhraseHighlighter](solrquery.gethighlightusephrasehighlighter.md)
-    
--   [SolrQuery::getMltBoost »](solrquery.getmltboost.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає, чи повинні бути включені результати MoreLikeThis
-    
-
+---
+navigation:
+  - solrquery.gethighlightusephrasehighlighter.md: '« SolrQuery::getHighlightUsePhraseHighlighter'
+  - solrquery.getmltboost.md: 'SolrQuery::getMltBoost »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMlt'
+---
 # SolrQuery::getMlt
 
 (PECL solr> = 0.9.2)

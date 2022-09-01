@@ -1,16 +1,11 @@
-Отримує ім'я контролера
-
--   [« YafActionAbstract::getController](yaf-action-abstract.getcontroller.html)
-    
--   [YafViewInterface »](class.yaf-view-interface.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafActionAbstract](class.yaf-action-abstract.html)
-    
--   Отримує ім'я контролера
-    
-
+---
+navigation:
+  - yaf-action-abstract.getcontroller.html: '« YafActionAbstract::getController'
+  - class.yaf-view-interface.html: YafViewInterface »
+  - index.html: PHP Manual
+  - class.yaf-action-abstract.html: YafActionAbstract
+title: 'YafActionAbstract::getControllerName'
+---
 # YafActionAbstract::getControllerName
 
 (No version information available, might only be in Git)

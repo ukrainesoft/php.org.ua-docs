@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](hash.setup.html)
-    
--   [Установка »](hash.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](hash.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - hash.setup.html: « Встановлення та налаштування
+  - hash.installation.html: Установка »
+  - index.html: PHP Manual
+  - hash.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для використання цих функцій не потрібне проведення установки, оскільки вони є частиною ядра PHP.

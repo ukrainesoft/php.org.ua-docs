@@ -1,16 +1,11 @@
-Імітує розмиття під час руху
-
--   [« Gmagick::modulateimage](gmagick.modulateimage.html)
-    
--   [Gmagick::newimage »](gmagick.newimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Імітує розмиття під час руху
-    
-
+---
+navigation:
+  - gmagick.modulateimage.html: '« Gmagick::modulateimage'
+  - gmagick.newimage.html: 'Gmagick::newimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::motionblurimage'
+---
 # Gmagick::motionblurimage
 
 (PECL gmagick >= Unknown)

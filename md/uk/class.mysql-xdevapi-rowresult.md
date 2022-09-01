@@ -1,16 +1,11 @@
-Клас RowResult
-
--   [« Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.html)
-    
--   [RowResult::construct »](mysql-xdevapi-rowresult.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас RowResult
-    
-
+---
+navigation:
+  - mysql-xdevapi-result.getwarningscount.html: '« Result::getWarningsCount'
+  - mysql-xdevapi-rowresult.construct.html: 'RowResult::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас RowResult
+---
 # Клас RowResult
 
 (PECL mysql-xdevapi >= 8.0.11)

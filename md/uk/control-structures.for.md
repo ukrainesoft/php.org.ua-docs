@@ -1,16 +1,11 @@
-for
-
--   [« do-while](control-structures.do.while.html)
-    
--   [foreach »](control-structures.foreach.html)
-    
--   [PHP Manual](index.md)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   for
-    
-
+---
+navigation:
+  - control-structures.do.while.html: « do-while
+  - control-structures.foreach.html: foreach »
+  - index.md: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: for
+---
 ## for
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

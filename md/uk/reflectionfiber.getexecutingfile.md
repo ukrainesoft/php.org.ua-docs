@@ -1,16 +1,11 @@
-Отримує ім'я файлу поточної точки виконання
-
--   [« ReflectionFiber::getCallable](reflectionfiber.getcallable.html)
-    
--   [ReflectionFiber::getExecutingLine »](reflectionfiber.getexecutingline.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFiber](class.reflectionfiber.html)
-    
--   Отримує ім'я файлу поточної точки виконання
-    
-
+---
+navigation:
+  - reflectionfiber.getcallable.html: '« ReflectionFiber::getCallable'
+  - reflectionfiber.getexecutingline.html: 'ReflectionFiber::getExecutingLine »'
+  - index.html: PHP Manual
+  - class.reflectionfiber.html: ReflectionFiber
+title: 'ReflectionFiber::getExecutingFile'
+---
 # ReflectionFiber::getExecutingFile
 
 (PHP 8> = 8.1.0)

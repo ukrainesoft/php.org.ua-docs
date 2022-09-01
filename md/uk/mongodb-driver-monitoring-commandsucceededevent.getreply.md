@@ -1,16 +1,11 @@
-Повертає документ відповіді команди
-
--   [« MongoDBDriverMonitoringCommandSucceededEvent::getOperationId](mongodb-driver-monitoring-commandsucceededevent.getoperationid.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent::getRequestId »](mongodb-driver-monitoring-commandsucceededevent.getrequestid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
-    
--   Повертає документ відповіді команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getOperationId'
+  - mongodb-driver-monitoring-commandsucceededevent.getrequestid.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getRequestId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getReply'
+---
 # MongoDBDriverMonitoringCommandSucceededEvent::getReply
 
 (mongodb >=1.3.0)

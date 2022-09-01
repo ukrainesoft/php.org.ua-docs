@@ -1,16 +1,11 @@
-Витягує вміст архіву
-
--   [« ZipArchive::deleteName](ziparchive.deletename.md)
-    
--   [ZipArchive::getArchiveComment »](ziparchive.getarchivecomment.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Витягує вміст архіву
-    
-
+---
+navigation:
+  - ziparchive.deletename.md: '« ZipArchive::deleteName'
+  - ziparchive.getarchivecomment.md: 'ZipArchive::getArchiveComment »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::extractTo'
+---
 # ZipArchive::extractTo
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

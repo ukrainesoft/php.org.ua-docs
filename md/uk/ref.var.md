@@ -1,16 +1,11 @@
-Функції для роботи зі змінними
-
--   [« Обумовлені константи](var.constants.md)
-    
--   [boolval »](function.boolval.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обробка змінних](book.var.md)
-    
--   Функції для роботи зі змінними
-    
-
+---
+navigation:
+  - var.constants.md: « Обумовлені константи
+  - function.boolval.md: boolval »
+  - index.md: PHP Manual
+  - book.var.md: Обробка змінних
+title: Функції для роботи зі змінними
+---
 # Функції для роботи зі змінними
 
 ## Зміст

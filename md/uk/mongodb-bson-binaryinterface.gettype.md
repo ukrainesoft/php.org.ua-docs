@@ -1,16 +1,11 @@
-Повертає тип BinaryInterface
-
--   [« MongoDBBSONBinaryInterface::getData](mongodb-bson-binaryinterface.getdata.html)
-    
--   [MongoDBBSONBinaryInterface::toString »](mongodb-bson-binaryinterface.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.html)
-    
--   Повертає тип BinaryInterface
-    
-
+---
+navigation:
+  - mongodb-bson-binaryinterface.getdata.html: '« MongoDBBSONBinaryInterface::getData'
+  - mongodb-bson-binaryinterface.tostring.html: 'MongoDBBSONBinaryInterface::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-binaryinterface.html: MongoDBBSONBinaryInterface
+title: 'MongoDBBSONBinaryInterface::getType'
+---
 # MongoDBBSONBinaryInterface::getType
 
 (mongodb >=1.3.0)

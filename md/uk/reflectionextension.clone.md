@@ -1,16 +1,11 @@
-Клонує об'єкт
-
--   [« ReflectionExtension](class.reflectionextension.html)
-    
--   [ReflectionExtension::construct »](reflectionextension.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionExtension](class.reflectionextension.html)
-    
--   Клонує об'єкт
-    
-
+---
+navigation:
+  - class.reflectionextension.html: « ReflectionExtension
+  - reflectionextension.construct.html: 'ReflectionExtension::construct »'
+  - index.html: PHP Manual
+  - class.reflectionextension.html: ReflectionExtension
+title: 'ReflectionExtension::clone'
+---
 # ReflectionExtension::clone
 
 (PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ private ReflectionExtension::__clone(): void
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Пререквізити
-
--   [« Сборка для Windows](wincache.win32build.html)
-    
--   [Компіляція та складання »](wincache.win32build.building.html)
-    
--   [PHP Manual](index.html)
-    
--   [Сборка для Windows](wincache.win32build.html)
-    
--   Пререквізити
-    
-
+---
+navigation:
+  - wincache.win32build.html: « Сборка для Windows
+  - wincache.win32build.building.html: Компіляція та складання »
+  - index.html: PHP Manual
+  - wincache.win32build.html: Сборка для Windows
+title: Пререквізити
+---
 ## Пререквізити
 
 Для складання модуля WinCache потрібно:

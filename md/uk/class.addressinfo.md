@@ -1,16 +1,11 @@
-Клас AddressInfo
-
--   [« Socket](class.socket.md)
-    
--   [SSH2 »](book.ssh2.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сокети](book.sockets.md)
-    
--   Клас AddressInfo
-    
-
+---
+navigation:
+  - class.socket.md: « Socket
+  - book.ssh2.md: SSH2 »
+  - index.md: PHP Manual
+  - book.sockets.md: Сокети
+title: Клас AddressInfo
+---
 # Клас AddressInfo
 
 (PHP 8)

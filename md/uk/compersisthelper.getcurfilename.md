@@ -1,16 +1,11 @@
-Отримати ім'я файлу
-
--   [« COMPersistHelper::construct](compersisthelper.construct.md)
-    
--   [COMPersistHelper::GetMaxStreamSize »](compersisthelper.getmaxstreamsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [COMPersistHelper](class.compersisthelper.md)
-    
--   Отримати ім'я файлу
-    
-
+---
+navigation:
+  - compersisthelper.construct.md: '« COMPersistHelper::construct'
+  - compersisthelper.getmaxstreamsize.md: 'COMPersistHelper::GetMaxStreamSize »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::GetCurFileName'
+---
 # COMPersistHelper::GetCurFileName
 
 (PHP 5, PHP 7, PHP 8)

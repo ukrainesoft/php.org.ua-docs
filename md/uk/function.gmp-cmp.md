@@ -1,16 +1,11 @@
-Порівняння чисел
-
--   [« gmpclrbit](function.gmp-clrbit.html)
-    
--   [gmpcom »](function.gmp-com.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Порівняння чисел
-    
-
+---
+navigation:
+  - function.gmp-clrbit.html: « gmpclrbit
+  - function.gmp-com.html: gmpcom »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpcmp
+---
 # gmpcmp
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

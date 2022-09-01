@@ -1,16 +1,11 @@
-Обробник зміни
-
--   [« UIControlsColorButton::getColor](ui-controls-colorbutton.getcolor.html)
-    
--   [ОЙControlsColorButton::setColor »](ui-controls-colorbutton.setcolor.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsColorButton](class.ui-controls-colorbutton.html)
-    
--   Обробник зміни
-    
-
+---
+navigation:
+  - ui-controls-colorbutton.getcolor.html: '« UIControlsColorButton::getColor'
+  - ui-controls-colorbutton.setcolor.html: 'ОЙControlsColorButton::setColor »'
+  - index.md: PHP Manual
+  - class.ui-controls-colorbutton.html: ОЙControlsColorButton
+title: 'ОЙControlsColorButton::onChange'
+---
 # ОЙControlsColorButton::onChange
 
 (UI 0.9.9)

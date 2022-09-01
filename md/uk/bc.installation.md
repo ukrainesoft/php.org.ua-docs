@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](bc.requirements.html)
-    
--   [Налаштування під час виконання »](bc.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](bc.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - bc.requirements.html: « Вимоги
+  - bc.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - bc.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Функції доступні, лише якщо PHP налаштовано з увімкненим налаштуванням **\-enable-bcmath**

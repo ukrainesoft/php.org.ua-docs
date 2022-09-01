@@ -1,16 +1,11 @@
-Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
-
--   [pcntlwexitstatus](function.pcntl-wexitstatus.html)
-    
--   [pcntlwifsignaled »](function.pcntl-wifsignaled.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
-    
-
+---
+navigation:
+  - function.pcntl-wexitstatus.html: pcntlwexitstatus
+  - function.pcntl-wifsignaled.html: pcntlwifsignaled »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwifexited
+---
 # pcntlwifexited
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

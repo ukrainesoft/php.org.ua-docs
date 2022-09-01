@@ -1,16 +1,11 @@
-Отримує URI простору імен вузла за префіксом
-
--   [« DOMNode::isSupported](domnode.issupported.md)
-    
--   [DOMNode::lookupPrefix »](domnode.lookupprefix.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Отримує URI простору імен вузла за префіксом
-    
-
+---
+navigation:
+  - domnode.issupported.md: '« DOMNode::isSupported'
+  - domnode.lookupprefix.md: 'DOMNode::lookupPrefix »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::lookupNamespaceUri'
+---
 # DOMNode::lookupNamespaceUri
 
 (PHP 5, PHP 7, PHP 8)

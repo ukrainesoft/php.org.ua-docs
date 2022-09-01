@@ -1,16 +1,11 @@
-Встановити час модифікації файлу на ім'я
-
--   [« ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.html)
-    
--   [ZipArchive::setPassword »](ziparchive.setpassword.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Встановити час модифікації файлу на ім'я
-    
-
+---
+navigation:
+  - ziparchive.setmtimeindex.html: '« ZipArchive::setMtimeIndex'
+  - ziparchive.setpassword.html: 'ZipArchive::setPassword »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::setMtimeName'
+---
 # ZipArchive::setMtimeName
 
 (PHP >= 8.0.0, PECL zip >= 1.16.0)

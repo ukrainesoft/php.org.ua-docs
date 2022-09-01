@@ -1,16 +1,11 @@
-Читає рядок із файлу
-
--   [« fgetcsv](function.fgetcsv.html)
-    
--   [fgetss »](function.fgetss.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Читає рядок із файлу
-    
-
+---
+navigation:
+  - function.fgetcsv.html: « fgetcsv
+  - function.fgetss.html: fgetss »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: fgets
+---
 # fgets
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

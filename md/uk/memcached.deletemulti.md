@@ -1,16 +1,11 @@
-Видаляє кілька записів
-
--   [« Memcached::deleteByKey](memcached.deletebykey.md)
-    
--   [Memcached::deleteMultiByKey »](memcached.deletemultibykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Видаляє кілька записів
-    
-
+---
+navigation:
+  - memcached.deletebykey.md: '« Memcached::deleteByKey'
+  - memcached.deletemultibykey.md: 'Memcached::deleteMultiByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::deleteMulti'
+---
 # Memcached::deleteMulti
 
 (PECL memcached >= 2.0.0)

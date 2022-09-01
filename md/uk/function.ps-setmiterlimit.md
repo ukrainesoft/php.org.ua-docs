@@ -1,16 +1,11 @@
-Встановлює межу скосу
-
--   [«pssetlinewidth](function.ps-setlinewidth.html)
-    
--   [псsetoverprintmode »](function.ps-setoverprintmode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Встановлює межу скосу
-    
-
+---
+navigation:
+  - function.ps-setlinewidth.html: «pssetlinewidth
+  - function.ps-setoverprintmode.html: псsetoverprintmode »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псsetmiterlimit
+---
 # псsetmiterlimit
 
 (PECL ps >= 1.1.0)

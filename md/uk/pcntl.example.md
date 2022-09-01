@@ -1,16 +1,11 @@
-Базове застосування
-
--   [« Приклади](pcntl.examples.md)
-    
--   [Функції PCNTL »](ref.pcntl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](pcntl.examples.md)
-    
--   Базове застосування
-    
-
+---
+navigation:
+  - pcntl.examples.md: « Приклади
+  - ref.pcntl.md: Функції PCNTL »
+  - index.md: PHP Manual
+  - pcntl.examples.md: Приклади
+title: Базове застосування
+---
 ## Базове застосування
 
 Цей приклад породжує процес-демон із обробником сигналів.

@@ -1,16 +1,11 @@
-Константи версій
-
--   [Алгоритми шифрування](openssl.ciphers.html)
-    
--   [Константа SNI (Server Name Indication) »](openssl.constsni.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обумовлені константи](openssl.constants.html)
-    
--   Константи версій
-    
-
+---
+navigation:
+  - openssl.ciphers.html: Алгоритми шифрування
+  - openssl.constsni.html: Константа SNI (Server Name Indication) »
+  - index.html: PHP Manual
+  - openssl.constants.html: Обумовлені константи
+title: Константи версій
+---
 ## Константи версій
 
 **`OPENSSL_VERSION_TEXT`** (string)

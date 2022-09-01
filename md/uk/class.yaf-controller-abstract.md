@@ -1,16 +1,11 @@
-Клас YafControllerAbstract
-
--   [« YafConfigSimple::valid](yaf-config-simple.valid.html)
-    
--   [YafControllerAbstract::construct »](yaf-controller-abstract.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafControllerAbstract
-    
-
+---
+navigation:
+  - yaf-config-simple.valid.html: '« YafConfigSimple::valid'
+  - yaf-controller-abstract.construct.html: 'YafControllerAbstract::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafControllerAbstract
+---
 # Клас YafControllerAbstract
 
 (Yaf >=1.0.0)

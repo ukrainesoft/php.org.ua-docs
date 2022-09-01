@@ -1,16 +1,11 @@
-Повертає поточне положення внутрішнього покажчика великого об'єкта
-
--   [« pgлоseek](function.pg-lo-seek.html)
-    
--   [пглоtruncate »](function.pg-lo-truncate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає поточне положення внутрішнього покажчика великого об'єкта
-    
-
+---
+navigation:
+  - function.pg-lo-seek.html: « pgлоseek
+  - function.pg-lo-truncate.html: пглоtruncate »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоtell
+---
 # пглоtell
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

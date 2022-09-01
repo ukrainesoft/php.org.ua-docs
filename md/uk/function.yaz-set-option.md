@@ -1,16 +1,11 @@
-Встановлює параметри для з'єднання
-
--   [« yazsearch](function.yaz-search.html)
-    
--   [yazsort »](function.yaz-sort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Встановлює параметри для з'єднання
-    
-
+---
+navigation:
+  - function.yaz-search.html: « yazsearch
+  - function.yaz-sort.html: yazsort »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazsetoption
+---
 # yazsetoption
 
 (PECL yaz >= 0.9.0)
@@ -45,16 +40,16 @@ yaz_set_option(resource $id, array $options): void
 
 **Налаштування з'єднання PHP/YAZ**
 
-| Название              | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| implementationName    | реалізація імені сервера                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| implementationVersion | реалізація версії сервера                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| implementationId      | реалізація ID сервера                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| schema                | схема для набору, що повертається. За промовчанням не встановлено. Це налаштування еквівалентне функції [yazschema()](function.yaz-schema.html)                                                                                                                                                                                                                                                                                                         |
-| preferredRecordSyntax | синтаксис запису, що повертається. За промовчанням не встановлено. Встановлення цього параметра дорівнює використання функції [yazsyntax()](function.yaz-syntax.html)                                                                                                                                                                                                                                                                                   |
-| start                 | зміщення для першого запису з повертається функціями [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html) набір. Перший запис має значення start рівне 0, другий - 1 і т.д. Встановлення цього налаштування разом із установкою `count` має той самий ефект як і виклик функції [yazrange()](function.yaz-range.html), за винятком того, що в [yazrange()](function.yaz-range.html) записи нумеруються зі значенням 1. |
-| count                 | максимальна кількість записів, що повертаються функціями [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html)                                                                                                                                                                                                                                                                                                          |
-| elementSetName        | Встановлює тип набору елементів, що повертаються. Еквівалентно виклику [yazelement()](function.yaz-element.html)                                                                                                                                                                                                                                                                                                                                        |
+| Название | Описание |
+| --- | --- |
+| implementationName | реалізація імені сервера |
+| implementationVersion | реалізація версії сервера |
+| implementationId | реалізація ID сервера |
+| schema | схема для набору, що повертається. За промовчанням не встановлено. Це налаштування еквівалентне функції [yazschema()](function.yaz-schema.html) |
+| preferredRecordSyntax | синтаксис запису, що повертається. За промовчанням не встановлено. Встановлення цього параметра дорівнює використання функції [yazsyntax()](function.yaz-syntax.html) |
+| start | зміщення для першого запису з повертається функціями [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html) набір. Перший запис має значення start рівне 0, другий - 1 і т.д. Встановлення цього налаштування разом із установкою `count` має той самий ефект як і виклик функції [yazrange()](function.yaz-range.html), за винятком того, що в [yazrange()](function.yaz-range.html) записи нумеруються зі значенням 1. |
+| count | максимальна кількість записів, що повертаються функціями [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html) |
+| elementSetName | Встановлює тип набору елементів, що повертаються. Еквівалентно виклику [yazelement()](function.yaz-element.html) |
 
 `value`
 

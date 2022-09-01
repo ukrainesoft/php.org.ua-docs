@@ -1,16 +1,11 @@
-Передає на PostgreSQL сервер рядок із завершальним нулем
-
--   [« pgprepare](function.pg-prepare.html)
-    
--   [пгqueryparams »](function.pg-query-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Передає на PostgreSQL сервер рядок із завершальним нулем
-    
-
+---
+navigation:
+  - function.pg-prepare.html: « pgprepare
+  - function.pg-query-params.html: пгqueryparams »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгputline
+---
 # пгputline
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ pg_put_line(PgSql\Connection $connection = ?, string $data): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

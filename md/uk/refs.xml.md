@@ -1,16 +1,11 @@
-Обробка XML
-
--   [« win32stopservice](function.win32-stop-service.html)
-    
--   [DOM »](book.dom.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Обробка XML
-    
-
+---
+navigation:
+  - function.win32-stop-service.html: « win32stopservice
+  - book.dom.md: DOM »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Обробка XML
+---
 # Обробка XML
 
 -   [DOM](book.dom.md) - Document Object Model

@@ -1,16 +1,11 @@
-Перевіряє коректність підитераторів
-
--   [« MultipleIterator::setFlags](multipleiterator.setflags.html)
-    
--   [NoRewindIterator »](class.norewinditerator.html)
-    
--   [PHP Manual](index.html)
-    
--   [MultipleIterator](class.multipleiterator.html)
-    
--   Перевіряє коректність підитераторів
-    
-
+---
+navigation:
+  - multipleiterator.setflags.html: '« MultipleIterator::setFlags'
+  - class.norewinditerator.html: NoRewindIterator »
+  - index.html: PHP Manual
+  - class.multipleiterator.html: MultipleIterator
+title: 'MultipleIterator::valid'
+---
 # MultipleIterator::valid
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

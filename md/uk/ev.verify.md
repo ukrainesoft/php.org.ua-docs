@@ -1,16 +1,11 @@
-Здійснює внутрішню перевірку цілісності (для налагодження)
-
--   [« Ev::time](ev.time.md)
-    
--   [EvCheck »](class.evcheck.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Здійснює внутрішню перевірку цілісності (для налагодження)
-    
-
+---
+navigation:
+  - ev.time.md: '« Ev::time'
+  - class.evcheck.md: EvCheck »
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::verify'
+---
 # Ev::verify
 
 (PECL ev >= 0.2.0)

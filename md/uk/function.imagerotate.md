@@ -1,16 +1,11 @@
-Поворот зображення із заданим кутом
-
--   [« imageresolution](function.imageresolution.html)
-    
--   [imagesavealpha »](function.imagesavealpha.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Поворот зображення із заданим кутом
-    
-
+---
+navigation:
+  - function.imageresolution.html: « imageresolution
+  - function.imagesavealpha.html: imagesavealpha »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagerotate
+---
 # imagerotate
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -51,11 +46,11 @@ imagerotate(    GdImage $image,    float $angle,    int $background_
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource).                                |
-|        | Невикористовуваний `v` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int).                            |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | Невикористовуваний `v` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади
 

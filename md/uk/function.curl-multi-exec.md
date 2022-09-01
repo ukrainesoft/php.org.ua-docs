@@ -1,16 +1,11 @@
-Запускає приєднання поточного дескриптора cURL
-
--   [« curlmultierrno](function.curl-multi-errno.html)
-    
--   [curlmultigetcontent »](function.curl-multi-getcontent.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Запускає приєднання поточного дескриптора cURL
-    
-
+---
+navigation:
+  - function.curl-multi-errno.html: « curlmultierrno
+  - function.curl-multi-getcontent.html: curlmultigetcontent »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlmultiexec
+---
 # curlmultiexec
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-PHP та COM
-
--   [« PHP и HTML](faq.html.md)
-    
--   [Різні питання »](faq.misc.md)
-    
--   [PHP Manual](index.md)
-    
--   [ЧАВО](faq.md)
-    
--   PHP та COM
-    
-
+---
+navigation:
+  - faq.html.md: « PHP и HTML
+  - faq.misc.md: Різні питання »
+  - index.md: PHP Manual
+  - faq.md: ЧАВО
+title: PHP та COM
+---
 # PHP та COM
 
 PHP може бути використаний для доступу до об'єктів COM та DCOM на платформах Win32.

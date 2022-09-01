@@ -1,16 +1,11 @@
-Вбудований драйвер MySQL
-
--   [« mysqlunbufferedquery](function.mysql-unbuffered-query.html)
-    
--   [Введение »](intro.mysqlnd.md)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](set.mysqlinfo.md)
-    
--   Вбудований драйвер MySQL
-    
-
+---
+navigation:
+  - function.mysql-unbuffered-query.html: « mysqlunbufferedquery
+  - intro.mysqlnd.md: Введение »
+  - index.md: PHP Manual
+  - set.mysqlinfo.md: MySQL
+title: Вбудований драйвер MySQL
+---
 # Вбудований драйвер MySQL
 
 -   [Введение](intro.mysqlnd.md)

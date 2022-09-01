@@ -1,16 +1,11 @@
-Встановлює рівень логування для бібліотеки
-
--   [« Zookeeper::setAcl](zookeeper.setacl.md)
-    
--   [Zookeeper::setDeterministicConnOrder »](zookeeper.setdeterministicconnorder.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Встановлює рівень логування для бібліотеки
-    
-
+---
+navigation:
+  - zookeeper.setacl.md: '« Zookeeper::setAcl'
+  - zookeeper.setdeterministicconnorder.md: 'Zookeeper::setDeterministicConnOrder »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::setDebugLevel'
+---
 # Zookeeper::setDebugLevel
 
 (PECL zookeeper >= 0.1.0)

@@ -1,16 +1,11 @@
-Повертає відсортовану за значенням копію колекції
-
--   [« DsSet::sort](ds-set.sort.html)
-    
--   [ДсSet::sum »](ds-set.sum.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає відсортовану за значенням копію колекції
-    
-
+---
+navigation:
+  - ds-set.sort.html: '« DsSet::sort'
+  - ds-set.sum.html: 'ДсSet::sum »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::sorted'
+---
 # ДсSet::sorted
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickPixel::isPixelSimilar](imagickpixel.ispixelsimilar.html)
-    
--   [ImagickPixel::isSimilar »](imagickpixel.issimilar.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickpixel.ispixelsimilar.html: '« ImagickPixel::isPixelSimilar'
+  - imagickpixel.issimilar.html: 'ImagickPixel::isSimilar »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::isPixelSimilarQuantum'
+---
 # ImagickPixel::isPixelSimilarQuantum
 
 (PECL imagick 3> = 3.3.0)

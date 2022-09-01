@@ -1,16 +1,11 @@
-Закінчення ітерації
-
--   [« RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md)
-    
--   [RecursiveIteratorIterator::getDepth »](recursiveiteratoriterator.getdepth.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Закінчення ітерації
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.endchildren.md: '« RecursiveIteratorIterator::endChildren'
+  - recursiveiteratoriterator.getdepth.md: 'RecursiveIteratorIterator::getDepth »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::endIteration'
+---
 # RecursiveIteratorIterator::endIteration
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

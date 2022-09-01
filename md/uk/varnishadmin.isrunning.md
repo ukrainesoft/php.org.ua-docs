@@ -1,16 +1,11 @@
-Перевірити, чи виконується зараз підпорядкований процес varnish
-
--   [« VarnishAdmin::getParams](varnishadmin.getparams.md)
-    
--   [VarnishAdmin::setCompat »](varnishadmin.setcompat.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Перевірити, чи виконується зараз підпорядкований процес varnish
-    
-
+---
+navigation:
+  - varnishadmin.getparams.md: '« VarnishAdmin::getParams'
+  - varnishadmin.setcompat.md: 'VarnishAdmin::setCompat »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::isRunning'
+---
 # VarnishAdmin::isRunning
 
 (PECL varnish >= 0.3)

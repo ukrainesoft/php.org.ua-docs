@@ -1,16 +1,11 @@
-Додати елемент керування
-
--   [« UIWindow](class.ui-window.html)
-    
--   [ОЙWindow::construct »](ui-window.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Додати елемент керування
-    
-
+---
+navigation:
+  - class.ui-window.html: « UIWindow
+  - ui-window.construct.html: 'ОЙWindow::construct »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::add'
+---
 # ОЙWindow::add
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Знищує існуючу обгортку потоку
-
--   [« streamWrapper::construct](streamwrapper.construct.html)
-    
--   [streamWrapper::dirclosedir »](streamwrapper.dir-closedir.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Знищує існуючу обгортку потоку
-    
-
+---
+navigation:
+  - streamwrapper.construct.html: '« streamWrapper::construct'
+  - streamwrapper.dir-closedir.html: 'streamWrapper::dirclosedir »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::destruct'
+---
 # streamWrapper::destruct
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

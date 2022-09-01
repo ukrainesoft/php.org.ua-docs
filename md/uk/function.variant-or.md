@@ -1,16 +1,11 @@
-Побітове АБО над двома варіантами
-
--   [« variantnot](function.variant-not.html)
-    
--   [variantpow »](function.variant-pow.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Побітове АБО над двома варіантами
-    
-
+---
+navigation:
+  - function.variant-not.html: « variantnot
+  - function.variant-pow.html: variantpow »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantор
+---
 # variantор
 
 (PHP 5, PHP 7, PHP 8)
@@ -46,16 +41,16 @@ variant_or(mixed $left, mixed $right): variant
 **Правила побитового АБО над варіантами**
 
 | Если `left` | Если `right` | Тогда результат |
-|-------------|--------------|-----------------|
-| **`true`**  | **`true`**   | **`true`**      |
-| **`true`**  | **`false`**  | **`true`**      |
-| **`true`**  | **`null`**   | **`true`**      |
-| **`false`** | **`true`**   | **`true`**      |
-| **`false`** | **`false`**  | **`false`**     |
-| **`false`** | **`null`**   | **`null`**      |
-| **`null`**  | **`true`**   | **`true`**      |
-| **`null`**  | **`false`**  | **`null`**      |
-| **`null`**  | **`null`**   | **`null`**      |
+| --- | --- | --- |
+| **`true`** | **`true`** | **`true`** |
+| **`true`** | **`false`** | **`true`** |
+| **`true`** | **`null`** | **`true`** |
+| **`false`** | **`true`** | **`true`** |
+| **`false`** | **`false`** | **`false`** |
+| **`false`** | **`null`** | **`null`** |
+| **`null`** | **`true`** | **`true`** |
+| **`null`** | **`false`** | **`null`** |
+| **`null`** | **`null`** | **`null`** |
 
 ### Помилки
 

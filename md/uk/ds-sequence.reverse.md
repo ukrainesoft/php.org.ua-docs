@@ -1,16 +1,11 @@
-Перевертає поточну колекцію
-
--   [« DsSequence::remove](ds-sequence.remove.html)
-    
--   [ДсSequence::reversed »](ds-sequence.reversed.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Перевертає поточну колекцію
-    
-
+---
+navigation:
+  - ds-sequence.remove.html: '« DsSequence::remove'
+  - ds-sequence.reversed.html: 'ДсSequence::reversed »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::reverse'
+---
 # ДсSequence::reverse
 
 (PECL ds >= 1.0.0)

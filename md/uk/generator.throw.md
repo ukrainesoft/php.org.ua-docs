@@ -1,16 +1,11 @@
-Кинути виняток у генератор
-
--   [« Generator::send](generator.send.md)
-    
--   [Generator::valid »](generator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Generator](class.generator.md)
-    
--   Кинути виняток у генератор
-    
-
+---
+navigation:
+  - generator.send.md: '« Generator::send'
+  - generator.valid.md: 'Generator::valid »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
+title: 'Generator::throw'
+---
 # Generator::throw
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

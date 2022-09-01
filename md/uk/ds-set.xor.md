@@ -1,16 +1,11 @@
-Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно
-
--   [« DsSet::union](ds-set.union.html)
-    
--   [Стек »](class.ds-stack.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно
-    
-
+---
+navigation:
+  - ds-set.union.html: '« DsSet::union'
+  - class.ds-stack.html: Стек »
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::xor'
+---
 # ДсSet::xor
 
 (PECL ds >= 1.0.0)

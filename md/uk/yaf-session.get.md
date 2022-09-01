@@ -1,16 +1,11 @@
-Призначення get
-
--   [« YafSession::del](yaf-session.del.html)
-    
--   [YafSession::getInstance »](yaf-session.getinstance.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення get
-    
-
+---
+navigation:
+  - yaf-session.del.html: '« YafSession::del'
+  - yaf-session.getinstance.html: 'YafSession::getInstance »'
+  - index.md: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::get'
+---
 # YafSession::get
 
 (Yaf >=1.0.0)

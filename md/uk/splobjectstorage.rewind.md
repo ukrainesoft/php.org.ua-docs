@@ -1,16 +1,11 @@
-Перекладає ітератор на перший елемент контейнера
-
--   [« SplObjectStorage::removeAllExcept](splobjectstorage.removeallexcept.html)
-    
--   [SplObjectStorage::serialize »](splobjectstorage.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplObjectStorage](class.splobjectstorage.html)
-    
--   Перекладає ітератор на перший елемент контейнера
-    
-
+---
+navigation:
+  - splobjectstorage.removeallexcept.html: '« SplObjectStorage::removeAllExcept'
+  - splobjectstorage.serialize.html: 'SplObjectStorage::serialize »'
+  - index.html: PHP Manual
+  - class.splobjectstorage.html: SplObjectStorage
+title: 'SplObjectStorage::rewind'
+---
 # SplObjectStorage::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

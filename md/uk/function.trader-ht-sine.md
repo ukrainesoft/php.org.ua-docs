@@ -1,16 +1,11 @@
-Перетворення Гільберта - SineWave
-
--   [« traderхтphasor](function.trader-ht-phasor.html)
-    
--   [traderхтtrendline »](function.trader-ht-trendline.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Перетворення Гільберта - SineWave
-    
-
+---
+navigation:
+  - function.trader-ht-phasor.html: « traderхтphasor
+  - function.trader-ht-trendline.html: traderхтtrendline »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтsine
+---
 # traderхтsine
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Малює еліптичну дугу
-
--   [« ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.md)
-    
--   [ImagickDraw::pathFinish »](imagickdraw.pathfinish.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює еліптичну дугу
-    
-
+---
+navigation:
+  - imagickdraw.pathellipticarcabsolute.md: '« ImagickDraw::pathEllipticArcAbsolute'
+  - imagickdraw.pathfinish.md: 'ImagickDraw::pathFinish »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::pathEllipticArcRelative'
+---
 # ImagickDraw::pathEllipticArcRelative
 
 (PECL imagick 2, PECL imagick 3)

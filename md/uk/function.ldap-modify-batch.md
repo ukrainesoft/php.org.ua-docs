@@ -1,16 +1,11 @@
-Формування та запуск пакетної зміни запису LDAP
-
--   [« ldapmodreplace](function.ldap-mod-replace.html)
-    
--   [ldapmodify »](function.ldap-modify.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Формування та запуск пакетної зміни запису LDAP
-    
-
+---
+navigation:
+  - function.ldap-mod-replace.html: « ldapmodreplace
+  - function.ldap-modify.html: ldapmodify »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapmodifybatch
+---
 # ldapmodifybatch
 
 (PHP 5.4 >= 5.4.26, PHP 5.5 >= 5.5.10, PHP 5.6 >= 5.6.0, PHP 7, PHP 8)
@@ -69,11 +64,11 @@ ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                    |
-|        | Додано підтримку параметра `controls`                                                                                                                |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 

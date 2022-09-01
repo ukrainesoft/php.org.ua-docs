@@ -1,16 +1,11 @@
-Кількість аргументів, переданих скрипту
-
--   [«$httpresponseheader](reserved.variables.httpresponseheader.md)
-    
--   [$argv »](reserved.variables.argv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Кількість аргументів, переданих скрипту
-    
-
+---
+navigation:
+  - reserved.variables.httpresponseheader.md: «$httpresponseheader
+  - reserved.variables.argv.md: $argv »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: $argc
+---
 # $argc
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

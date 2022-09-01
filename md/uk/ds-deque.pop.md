@@ -1,16 +1,11 @@
-Видаляє та повертає останнє значення
-
--   [« DsDeque::merge](ds-deque.merge.html)
-    
--   [ДсDeque::push »](ds-deque.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Видаляє та повертає останнє значення
-    
-
+---
+navigation:
+  - ds-deque.merge.html: '« DsDeque::merge'
+  - ds-deque.push.html: 'ДсDeque::push »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::pop'
+---
 # ДсDeque::pop
 
 (PECL ds >= 1.0.0)

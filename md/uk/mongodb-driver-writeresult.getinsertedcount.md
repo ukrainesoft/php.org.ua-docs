@@ -1,16 +1,11 @@
-Повертає кількість вставлених документів (за винятком злиття)
-
--   [« MongoDBDriverWriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.html)
-    
--   [MongoDBDriverWriteResult::getMatchedCount »](mongodb-driver-writeresult.getmatchedcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає кількість вставлених документів (за винятком злиття)
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getdeletedcount.html: '« MongoDBDriverWriteResult::getDeletedCount'
+  - mongodb-driver-writeresult.getmatchedcount.html: 'MongoDBDriverWriteResult::getMatchedCount »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getInsertedCount'
+---
 # MongoDBDriverWriteResult::getInsertedCount
 
 (mongodb >=1.0.0)

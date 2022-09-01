@@ -1,16 +1,11 @@
-Отримує номер рядка завершення опису функції
-
--   [« ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md)
-    
--   [ReflectionFunctionAbstract::getExtension »](reflectionfunctionabstract.getextension.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Отримує номер рядка завершення опису функції
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getdoccomment.md: '« ReflectionFunctionAbstract::getDocComment'
+  - reflectionfunctionabstract.getextension.md: 'ReflectionFunctionAbstract::getExtension »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getEndLine'
+---
 # ReflectionFunctionAbstract::getEndLine
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

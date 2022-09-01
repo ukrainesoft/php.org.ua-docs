@@ -1,16 +1,11 @@
-Скидання системного буфера виводу
-
--   [« Функції контролю виведення](ref.outcontrol.md)
-    
--   [проclean »](function.ob-clean.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   Скидання системного буфера виводу
-    
-
+---
+navigation:
+  - ref.outcontrol.md: « Функції контролю виведення
+  - function.ob-clean.html: проclean »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: flush
+---
 # flush
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

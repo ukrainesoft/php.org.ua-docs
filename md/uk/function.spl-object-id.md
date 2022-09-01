@@ -1,16 +1,11 @@
-Отримати цілий ідентифікатор об'єкта
-
--   [« splobjecthash](function.spl-object-hash.html)
-    
--   [Обработка файлов »](spl.files.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Отримати цілий ідентифікатор об'єкта
-    
-
+---
+navigation:
+  - function.spl-object-hash.html: « splobjecthash
+  - spl.files.html: Обработка файлов »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: splobjectід
+---
 # splobjectід
 
 (PHP 7> = 7.2.0, PHP 8)

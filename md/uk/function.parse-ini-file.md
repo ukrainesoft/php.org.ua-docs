@@ -1,16 +1,11 @@
-Обробляє конфігураційний файл
-
--   [« moveuploadedfile](function.move-uploaded-file.html)
-    
--   [parseinistring »](function.parse-ini-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Обробляє конфігураційний файл
-    
-
+---
+navigation:
+  - function.move-uploaded-file.html: « moveuploadedfile
+  - function.parse-ini-string.html: parseinistring »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: parseinifile
+---
 # parseinifile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

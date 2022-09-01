@@ -1,16 +1,11 @@
-Функції Fann
-
--   [« Обучение XOR](fann.examples-1.html)
-    
--   [fanncascadetrainвінdata »](function.fann-cascadetrain-on-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [FANN](book.fann.html)
-    
--   Функції Fann
-    
-
+---
+navigation:
+  - fann.examples-1.html: « Обучение XOR
+  - function.fann-cascadetrain-on-data.html: fanncascadetrainвінdata »
+  - index.html: PHP Manual
+  - book.fann.html: FANN
+title: Функції Fann
+---
 # Функції Fann
 
 ## Зміст

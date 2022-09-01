@@ -1,16 +1,11 @@
-Конструктор класу Image
-
--   [« CommonMarkNodeImage](class.commonmark-node-image.html)
-    
--   [CommonMarkNodeLink »](class.commonmark-node-link.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkNodeImage](class.commonmark-node-image.html)
-    
--   Конструктор класу Image
-    
-
+---
+navigation:
+  - class.commonmark-node-image.html: « CommonMarkNodeImage
+  - class.commonmark-node-link.html: CommonMarkNodeLink »
+  - index.md: PHP Manual
+  - class.commonmark-node-image.html: CommonMarkNodeImage
+title: 'CommonMarkNodeImage::construct'
+---
 # CommonMarkNodeImage::construct
 
 (cmark >= 1.0.0)

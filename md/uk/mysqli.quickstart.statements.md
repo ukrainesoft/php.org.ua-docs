@@ -1,16 +1,11 @@
-Виконання запитів
-
--   [« Соединения](mysqli.quickstart.connections.html)
-    
--   [Підготовлювані запити »](mysqli.quickstart.prepared-statements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Краткое руководство](mysqli.quickstart.html)
-    
--   Виконання запитів
-    
-
+---
+navigation:
+  - mysqli.quickstart.connections.html: « Соединения
+  - mysqli.quickstart.prepared-statements.html: Підготовлювані запити »
+  - index.html: PHP Manual
+  - mysqli.quickstart.html: Краткое руководство
+title: Виконання запитів
+---
 ## Виконання запитів
 
 За виконання запитів відповідають функції [mysqli::query()](mysqli.query.html) [mysqli::realquery()](mysqli.real-query.html) і [mysqli::multiquery()](mysqli.multi-query.html). Найчастіше застосовується функція [mysqli::query()](mysqli.query.html)оскільки вона виконує відразу дві задачі: виконує запит і буферизує на клієнті результат цього запиту (якщо він є). Виклик [mysqli::query()](mysqli.query.html) ідентичний послідовному виклику функцій [mysqli::realquery()](mysqli.real-query.html) і [mysqli::storeresult()](mysqli.store-result.html)

@@ -1,16 +1,13 @@
-OCI8 та динамічне трасування DTrace
-
--   [« Поддержка прозрачного для приложений восстановления после отказа (Transparent Application Failover или TAF) для OCI8](oci8.taf.html)
-    
--   [Типи даних, що підтримуються »](oci8.datatypes.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8](book.oci8.html)
-    
--   OCI8 та динамічне трасування DTrace
-    
-
+---
+navigation:
+  - oci8.taf.html: >-
+      « Поддержка прозрачного для приложений восстановления после отказа
+      (Transparent Application Failover или TAF) для OCI8
+  - oci8.datatypes.html: 'Типи даних, що підтримуються »'
+  - index.html: PHP Manual
+  - book.oci8.html: OCI8
+title: OCI8 та динамічне трасування DTrace
+---
 # OCI8 та динамічне трасування DTrace
 
 OCI8 2.0 містить статичні зонди DTrace, які можна використовувати в операційних системах, які підтримують DTrace. Докладніше взаємини PHP та DTrace описані в розділі [Динамічна трасування DTrace](features.dtrace.html)
@@ -38,15 +35,15 @@ extension=oci8.so
 
 **Наступні статичні зонди доступні в PHP OCI8**
 
-| Имя зонда               | Описание зонда                                                                                              | Аргументы зонда                                                                           |
-|-------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| `oci8-connect-entry`    | Ініціюється ociconnect(), ocipconnect() та ocinewconnect(). Спрацьовує доти, як з'єднання було встановлено. | char username, char dbname, char charset, long sessionmode, int persistent, int exclusive |
-| `oci8-connect-return`   | Спрацьовує після встановлення з'єднання.                                                                    | void connection                                                                           |
-| `oci8-check-connection` | Спрацьовує, якщо помилка Oracle може призвести до псування з'єднання.                                       | void connection, char clientid, int isopen, long errcode, unsigned long serverstatus      |
-| `oci8-sqltext`          | Спрацьовує при запуску ociparse().                                                                          | void connection, char clientid, void statement, char sql                                  |
-| `oci8-connection-close` | Спрацьовує, коли з'єднання остаточно знищено.                                                               | void connection                                                                           |
-| `oci8-error`            | Спрацьовує, якщо виникла помилка Oracle.                                                                    | int status, long errcode                                                                  |
-| `oci8-execute-mode`     | Спрацьовує за [ociexecute()](function.oci-execute.html) виявлення режиму запуску.                           | void connection, char clientid, void statement, unsigned int mode                         |
+| Имя зонда | Описание зонда | Аргументы зонда |
+| --- | --- | --- |
+| `oci8-connect-entry` | Ініціюється ociconnect(), ocipconnect() та ocinewconnect(). Спрацьовує доти, як з'єднання було встановлено. | char username, char dbname, char charset, long sessionmode, int persistent, int exclusive |
+| `oci8-connect-return` | Спрацьовує після встановлення з'єднання. | void connection |
+| `oci8-check-connection` | Спрацьовує, якщо помилка Oracle може призвести до псування з'єднання. | void connection, char clientid, int isopen, long errcode, unsigned long serverstatus |
+| `oci8-sqltext` | Спрацьовує при запуску ociparse(). | void connection, char clientid, void statement, char sql |
+| `oci8-connection-close` | Спрацьовує, коли з'єднання остаточно знищено. | void connection |
+| `oci8-error` | Спрацьовує, якщо виникла помилка Oracle. | int status, long errcode |
+| `oci8-execute-mode` | Спрацьовує за [ociexecute()](function.oci-execute.html) виявлення режиму запуску. | void connection, char clientid, void statement, unsigned int mode |
 
 Ці зонди корисні для налагодження скриптів OCI8.
 
@@ -58,16 +55,16 @@ extension=oci8.so
 
 **Внутрішні налагоджувальні зонди DTrace в OCI8**
 
-| Имя зонда                     |
-|-------------------------------|
-| `oci8-connect-expiry`         |
-| `oci8-connect-lookup`         |
-| `oci8-connect-p-dtor-close`   |
+| Имя зонда |
+| --- |
+| `oci8-connect-expiry` |
+| `oci8-connect-lookup` |
+| `oci8-connect-p-dtor-close` |
 | `oci8-connect-p-dtor-release` |
-| `oci8-connect-type`           |
-| `oci8-sesspool-create`        |
-| `oci8-sesspool-stats`         |
-| `oci8-sesspool-type`          |
+| `oci8-connect-type` |
+| `oci8-sesspool-create` |
+| `oci8-sesspool-stats` |
+| `oci8-sesspool-type` |
 
 Ці зонди є корисними для розробників модуля OCI8. Для детальнішої інформації вивчайте вихідні коди OCI8.
 

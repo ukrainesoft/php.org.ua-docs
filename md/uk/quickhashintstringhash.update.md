@@ -1,16 +1,11 @@
-Метод оновлює запис у хеші новим значенням
-
--   [« QuickHashIntStringHash::set](quickhashintstringhash.set.md)
-    
--   [Reflection »](book.reflection.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntStringHash](class.quickhashintstringhash.md)
-    
--   Метод оновлює запис у хеші новим значенням
-    
-
+---
+navigation:
+  - quickhashintstringhash.set.md: '« QuickHashIntStringHash::set'
+  - book.reflection.md: Reflection »
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
+title: 'QuickHashIntStringHash::update'
+---
 # QuickHashIntStringHash::update
 
 (PECL quickhash >= Unknown)

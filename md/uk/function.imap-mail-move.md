@@ -1,16 +1,11 @@
-Перемістити вказані повідомлення до вказаної поштової скриньки
-
--   [« imapmailcopy](function.imap-mail-copy.html)
-    
--   [imapmail »](function.imap-mail.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Перемістити вказані повідомлення до вказаної поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-mail-copy.html: « imapmailcopy
+  - function.imap-mail.html: imapmail »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapmailmove
+---
 # imapmailmove
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ imap_mail_move(    IMAP\Connection $imap,    string $message_nums,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Примітки
 

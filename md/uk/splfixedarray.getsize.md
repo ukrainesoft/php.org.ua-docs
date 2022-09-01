@@ -1,16 +1,11 @@
-Отримує розмір масиву
-
--   [« SplFixedArray::fromArray](splfixedarray.fromarray.html)
-    
--   [SplFixedArray::key »](splfixedarray.key.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFixedArray](class.splfixedarray.html)
-    
--   Отримує розмір масиву
-    
-
+---
+navigation:
+  - splfixedarray.fromarray.html: '« SplFixedArray::fromArray'
+  - splfixedarray.key.html: 'SplFixedArray::key »'
+  - index.html: PHP Manual
+  - class.splfixedarray.html: SplFixedArray
+title: 'SplFixedArray::getSize'
+---
 # SplFixedArray::getSize
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

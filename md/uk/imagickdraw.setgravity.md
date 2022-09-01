@@ -1,16 +1,11 @@
-Встановлює гравітацію розміщення тексту
-
--   [« ImagickDraw::setFontWeight](imagickdraw.setfontweight.html)
-    
--   [ImagickDraw::setResolution »](imagickdraw.setresolution.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює гравітацію розміщення тексту
-    
-
+---
+navigation:
+  - imagickdraw.setfontweight.html: '« ImagickDraw::setFontWeight'
+  - imagickdraw.setresolution.html: 'ImagickDraw::setResolution »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setGravity'
+---
 # ImagickDraw::setGravity
 
 (PECL imagick 2, PECL imagick 3)

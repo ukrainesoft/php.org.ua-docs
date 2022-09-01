@@ -1,16 +1,11 @@
-Функції GD та функції для роботи із зображеннями
-
--   [« Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.html)
-    
--   [гдinfo »](function.gd-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [ДД](book.image.html)
-    
--   Функції GD та функції для роботи із зображеннями
-    
-
+---
+navigation:
+  - image.examples.merged-watermark.html: « Використання imagecopymerge створити напівпрозорий водяний знак
+  - function.gd-info.html: гдinfo »
+  - index.html: PHP Manual
+  - book.image.html: ДД
+title: Функції GD та функції для роботи із зображеннями
+---
 # Функції GD та функції для роботи із зображеннями
 
 ## Зміст

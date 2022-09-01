@@ -1,16 +1,11 @@
-Завершити поточну інструкцію обробки (PI)
-
--   [« XMLWriter::endElement](xmlwriter.endelement.html)
-    
--   [XMLWriter::flush »](xmlwriter.flush.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Завершити поточну інструкцію обробки (PI)
-    
-
+---
+navigation:
+  - xmlwriter.endelement.html: '« XMLWriter::endElement'
+  - xmlwriter.flush.html: 'XMLWriter::flush »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::endPi'
+---
 # XMLWriter::endPi
 
 # xmlwriterendпі
@@ -47,9 +42,9 @@ xmlwriter_end_pi(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

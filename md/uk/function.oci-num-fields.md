@@ -1,16 +1,11 @@
-Повертає кількість полів у результаті запиту
-
--   [« ocinewdescriptor](function.oci-new-descriptor.html)
-    
--   [ocinumrows »](function.oci-num-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Повертає кількість полів у результаті запиту
-    
-
+---
+navigation:
+  - function.oci-new-descriptor.html: « ocinewdescriptor
+  - function.oci-num-rows.html: ocinumrows »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocinumfields
+---
 # ocinumfields
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

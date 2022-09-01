@@ -1,16 +1,11 @@
-Створює пару підключених, невиразних потоків сокетів
-
--   [« streamsocketgetname](function.stream-socket-get-name.html)
-    
--   [streamsocketrecvfrom »](function.stream-socket-recvfrom.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Створює пару підключених, невиразних потоків сокетів
-    
-
+---
+navigation:
+  - function.stream-socket-get-name.html: « streamsocketgetname
+  - function.stream-socket-recvfrom.html: streamsocketrecvfrom »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsocketpair
+---
 # streamsocketpair
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

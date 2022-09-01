@@ -1,16 +1,11 @@
-Експортувати файл PKCS7 до масиву сертифікатів PEM
-
--   [« opensslpkcs7encrypt](function.openssl-pkcs7-encrypt.html)
-    
--   [opensslpkcs7sign »](function.openssl-pkcs7-sign.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Експортувати файл PKCS7 до масиву сертифікатів PEM
-    
-
+---
+navigation:
+  - function.openssl-pkcs7-encrypt.html: « opensslpkcs7encrypt
+  - function.openssl-pkcs7-sign.html: opensslpkcs7sign »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslpkcs7read
+---
 # opensslpkcs7read
 
 (PHP 7> = 7.2.0, PHP 8)

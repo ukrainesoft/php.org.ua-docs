@@ -1,16 +1,11 @@
-Отримати кількість рядків у наборі результатів
-
--   [« cubridnumcols](function.cubrid-num-cols.html)
-    
--   [cubridpconnectwithurl »](function.cubrid-pconnect-with-url.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримати кількість рядків у наборі результатів
-    
-
+---
+navigation:
+  - function.cubrid-num-cols.html: « cubridnumcols
+  - function.cubrid-pconnect-with-url.html: cubridpconnectwithurl »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridnumrows
+---
 # cubridnumrows
 
 (PECL CUBRID >= 8.3.0)

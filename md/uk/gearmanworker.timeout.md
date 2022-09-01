@@ -1,16 +1,11 @@
-Отримання значення час очікування запитів на сокеті
-
--   [« GearmanWorker::setTimeout](gearmanworker.settimeout.html)
-    
--   [GearmanWorker::unregister »](gearmanworker.unregister.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Отримання значення час очікування запитів на сокеті
-    
-
+---
+navigation:
+  - gearmanworker.settimeout.html: '« GearmanWorker::setTimeout'
+  - gearmanworker.unregister.html: 'GearmanWorker::unregister »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::timeout'
+---
 # GearmanWorker::timeout
 
 (PECL gearman >= 0.6.0)

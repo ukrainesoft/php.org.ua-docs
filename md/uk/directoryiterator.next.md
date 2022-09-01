@@ -1,16 +1,11 @@
-Переміщує покажчик на наступний елемент DirectoryIterator
-
--   [« DirectoryIterator::key](directoryiterator.key.md)
-    
--   [DirectoryIterator::rewind »](directoryiterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Переміщує покажчик на наступний елемент DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.key.md: '« DirectoryIterator::key'
+  - directoryiterator.rewind.md: 'DirectoryIterator::rewind »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::next'
+---
 # DirectoryIterator::next
 
 (PHP 5, PHP 7, PHP 8)

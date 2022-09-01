@@ -1,16 +1,11 @@
-Компіляція модулів PECL статично в PHP
-
--   [« php-config](install.pecl.php-config.html)
-    
--   [Проблеми? »](install.problems.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка модулей PECL](install.pecl.md)
-    
--   Компіляція модулів PECL статично в PHP
-    
-
+---
+navigation:
+  - install.pecl.php-config.html: « php-config
+  - install.problems.md: Проблеми? »
+  - index.md: PHP Manual
+  - install.pecl.md: Установка модулей PECL
+title: Компіляція модулів PECL статично в PHP
+---
 ## Компіляція модулів PECL статично в PHP
 
 Можливо, ви захочете зібрати модуль PECL статично у ваш бінарний файл PHP. Для цього необхідно помістити код модуля в директорію php-src/ext/ та викликати перегенерацію конфігураційних скриптів через систему збирання PHP.

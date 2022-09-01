@@ -1,16 +1,11 @@
-Функції OAuth
-
--   [« FireEagle](oauth.examples.fireeagle.html)
-    
--   [oauthgetsbs »](function.oauth-get-sbs.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](book.oauth.html)
-    
--   Функції OAuth
-    
-
+---
+navigation:
+  - oauth.examples.fireeagle.html: « FireEagle
+  - function.oauth-get-sbs.html: oauthgetsbs »
+  - index.html: PHP Manual
+  - book.oauth.html: OAuth
+title: Функції OAuth
+---
 # Функції OAuth
 
 ## Зміст

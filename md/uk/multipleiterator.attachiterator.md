@@ -1,16 +1,11 @@
-Приєднує ітератор
-
--   [« MultipleIterator](class.multipleiterator.md)
-    
--   [MultipleIterator::construct »](multipleiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [MultipleIterator](class.multipleiterator.md)
-    
--   Приєднує ітератор
-    
-
+---
+navigation:
+  - class.multipleiterator.md: « MultipleIterator
+  - multipleiterator.construct.md: 'MultipleIterator::construct »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
+title: 'MultipleIterator::attachIterator'
+---
 # MultipleIterator::attachIterator
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

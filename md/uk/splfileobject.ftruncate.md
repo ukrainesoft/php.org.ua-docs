@@ -1,16 +1,11 @@
-Обрізає файл до заданої довжини
-
--   [« SplFileObject::ftell](splfileobject.ftell.md)
-    
--   [SplFileObject::fwrite »](splfileobject.fwrite.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Обрізає файл до заданої довжини
-    
-
+---
+navigation:
+  - splfileobject.ftell.md: '« SplFileObject::ftell'
+  - splfileobject.fwrite.md: 'SplFileObject::fwrite »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::ftruncate'
+---
 # SplFileObject::ftruncate
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

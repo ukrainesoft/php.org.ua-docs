@@ -1,16 +1,11 @@
-Вивільняє експортовану структуру WSAPROTOCOLINFO
-
--   [« socketwsaprotocolinfoimport](function.socket-wsaprotocol-info-import.html)
-    
--   [Socket »](class.socket.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Вивільняє експортовану структуру WSAPROTOCOLINFO
-    
-
+---
+navigation:
+  - function.socket-wsaprotocol-info-import.html: « socketwsaprotocolinfoimport
+  - class.socket.html: Socket »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketwsaprotocolinforelease
+---
 # socketwsaprotocolinforelease
 
 (PHP 7> = 7.3.0, PHP 8)

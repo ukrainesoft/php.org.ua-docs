@@ -1,16 +1,11 @@
-Згенерувати раціональне число від low (за винятком) до high (за винятком) на базі рівномірного розподілу
-
--   [« statsrandgenф](function.stats-rand-gen-f.html)
-    
--   [statsrandgengamma »](function.stats-rand-gen-gamma.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Згенерувати раціональне число від low (за винятком) до high (за винятком) на базі рівномірного розподілу
-    
-
+---
+navigation:
+  - function.stats-rand-gen-f.html: « statsrandgenф
+  - function.stats-rand-gen-gamma.html: statsrandgengamma »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandгенfuniform
+---
 # statsrandгенfuniform
 
 (PECL stats >= 1.0.0)

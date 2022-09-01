@@ -1,16 +1,11 @@
-Перевіряє, чи існує об'єкт у контейнері
-
--   [« SplObjectStorage::next](splobjectstorage.next.md)
-    
--   [SplObjectStorage::offsetGet »](splobjectstorage.offsetget.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Перевіряє, чи існує об'єкт у контейнері
-    
-
+---
+navigation:
+  - splobjectstorage.next.md: '« SplObjectStorage::next'
+  - splobjectstorage.offsetget.md: 'SplObjectStorage::offsetGet »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::offsetExists'
+---
 # SplObjectStorage::offsetExists
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

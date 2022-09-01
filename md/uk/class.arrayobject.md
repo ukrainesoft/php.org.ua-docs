@@ -1,16 +1,11 @@
-Клас ArrayObject
-
--   [« Різні класи та інтерфейси](spl.misc.html)
-    
--   [ArrayObject::append »](arrayobject.append.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні класи та інтерфейси](spl.misc.html)
-    
--   Клас ArrayObject
-    
-
+---
+navigation:
+  - spl.misc.html: « Різні класи та інтерфейси
+  - arrayobject.append.html: 'ArrayObject::append »'
+  - index.html: PHP Manual
+  - spl.misc.html: Різні класи та інтерфейси
+title: Клас ArrayObject
+---
 # Клас ArrayObject
 
 (PHP 5, PHP 7, PHP 8)

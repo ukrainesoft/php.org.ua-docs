@@ -1,16 +1,11 @@
-Перевіряє, чи заданий алгоритм є блоковим чи ні
-
--   [« mcryptmoduleісblockalgorithmmode](function.mcrypt-module-is-block-algorithm-mode.html)
-    
--   [mcryptmoduleісblockmode »](function.mcrypt-module-is-block-mode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Перевіряє, чи заданий алгоритм є блоковим чи ні
-    
-
+---
+navigation:
+  - function.mcrypt-module-is-block-algorithm-mode.html: « mcryptmoduleісblockalgorithmmode
+  - function.mcrypt-module-is-block-mode.html: mcryptmoduleісblockmode »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmoduleісblockalgorithm
+---
 # mcryptmoduleісblockalgorithm
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

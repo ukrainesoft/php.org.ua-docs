@@ -1,16 +1,11 @@
-Створює новий масив, використовуючи один масив як ключі, а інший для його значень
-
--   [« arraycolumn](function.array-column.html)
-    
--   [arraycountvalues »](function.array-count-values.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Створює новий масив, використовуючи один масив як ключі, а інший для його значень
-    
-
+---
+navigation:
+  - function.array-column.html: « arraycolumn
+  - function.array-count-values.html: arraycountvalues »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraycombine
+---
 # arraycombine
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ array_combine(array $keys, array $values): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція **arraycombine()** тепер викидає помилку [ValueError](class.valueerror.md)якщо кількість елементів у масивах не збігається; раніше функція повертала значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Функція **arraycombine()** тепер викидає помилку [ValueError](class.valueerror.md)якщо кількість елементів у масивах не збігається; раніше функція повертала значення **`false`** |
 
 ### Приклади
 

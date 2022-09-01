@@ -1,16 +1,11 @@
-Отримати список зареєстрованих транспортів сокету
-
--   [« streamgetmetadata](function.stream-get-meta-data.html)
-    
--   [streamgetwrappers »](function.stream-get-wrappers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Отримати список зареєстрованих транспортів сокету
-    
-
+---
+navigation:
+  - function.stream-get-meta-data.html: « streamgetmetadata
+  - function.stream-get-wrappers.html: streamgetwrappers »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamgettransports
+---
 # streamgettransports
 
 (PHP 5, PHP 7, PHP 8)

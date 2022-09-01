@@ -1,16 +1,11 @@
-Функція заглушка (Phar::setDefaultStub не можна використовувати для PharData)
-
--   [« PharData::setAlias](phardata.setalias.html)
-    
--   [PharData::setMetadata »](phardata.setmetadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharData](class.phardata.html)
-    
--   Функція заглушка (Phar::setDefaultStub не можна використовувати для PharData)
-    
-
+---
+navigation:
+  - phardata.setalias.html: '« PharData::setAlias'
+  - phardata.setmetadata.html: 'PharData::setMetadata »'
+  - index.html: PHP Manual
+  - class.phardata.html: PharData
+title: 'PharData::setDefaultStub'
+---
 # PharData::setDefaultStub
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -45,9 +40,9 @@ tar/zip-архіви, що не запускаються, не можуть ма
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `webIndex` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `webIndex` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Списки розсилки
-
--   [" Загальна інформація](faq.general.html)
-    
--   [Получение PHP »](faq.obtaining.html)
-    
--   [PHP Manual](index.html)
-    
--   [ЧАВО](faq.html)
-    
--   Списки розсилки
-    
-
+---
+navigation:
+  - faq.general.html: '" Загальна інформація'
+  - faq.obtaining.html: Получение PHP »
+  - index.html: PHP Manual
+  - faq.html: ЧАВО
+title: Списки розсилки
+---
 # Списки розсилки
 
 Цей розділ містить питання про те, як зв'язатися з PHP спільнотою. Найкращий спосіб – списки розсилки.

@@ -1,16 +1,11 @@
-Повертає символ за значенням кодової точки Unicode
-
--   [« mbcheckencoding](function.mb-check-encoding.html)
-    
--   [мбconvertcase »](function.mb-convert-case.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Повертає символ за значенням кодової точки Unicode
-    
-
+---
+navigation:
+  - function.mb-check-encoding.html: « mbcheckencoding
+  - function.mb-convert-case.html: мбconvertcase »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбchr
+---
 # мбchr
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -43,9 +38,9 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

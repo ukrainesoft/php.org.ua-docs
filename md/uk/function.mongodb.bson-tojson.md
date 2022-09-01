@@ -1,16 +1,11 @@
-Повертає Legacy Extended JSON подання значення BSON
-
--   [« MongoDBBSONtoCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.html)
-    
--   [MongoDBBSONtoPHP »](function.mongodb.bson-tophp.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції](ref.bson.functions.md)
-    
--   Повертає Legacy Extended JSON подання значення BSON
-    
-
+---
+navigation:
+  - function.mongodb.bson-tocanonicalextendedjson.html: « MongoDBBSONtoCanonicalExtendedJSON
+  - function.mongodb.bson-tophp.html: MongoDBBSONtoPHP »
+  - index.md: PHP Manual
+  - ref.bson.functions.md: Функції
+title: MongoDBBSONtoJSON
+---
 # MongoDBBSONtoJSON
 
 (mongodb >=1.0.0)

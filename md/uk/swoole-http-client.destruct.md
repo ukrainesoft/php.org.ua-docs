@@ -1,16 +1,11 @@
-Знищує HTTP-клієнт
-
--   [« SwooleHttpClient::construct](swoole-http-client.construct.html)
-    
--   [SwooleHttpClient::download »](swoole-http-client.download.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Знищує HTTP-клієнт
-    
-
+---
+navigation:
+  - swoole-http-client.construct.html: '« SwooleHttpClient::construct'
+  - swoole-http-client.download.html: 'SwooleHttpClient::download »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::destruct'
+---
 # SwooleHttpClient::destruct
 
 (PECL swoole >= 1.9.0)

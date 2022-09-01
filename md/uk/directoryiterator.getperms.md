@@ -1,16 +1,11 @@
-Повертає набір прав для поточного елемента DirectoryIterator item
-
--   [« DirectoryIterator::getPathname](directoryiterator.getpathname.md)
-    
--   [DirectoryIterator::getSize »](directoryiterator.getsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає набір прав для поточного елемента DirectoryIterator item
-    
-
+---
+navigation:
+  - directoryiterator.getpathname.md: '« DirectoryIterator::getPathname'
+  - directoryiterator.getsize.md: 'DirectoryIterator::getSize »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getPerms'
+---
 # DirectoryIterator::getPerms
 
 (PHP 5, PHP 7, PHP 8)

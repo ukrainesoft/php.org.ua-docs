@@ -1,16 +1,11 @@
-Створює новий об'єкт SyncSemaphore
-
--   [« SyncSemaphore](class.syncsemaphore.html)
-    
--   [SyncSemaphore::lock »](syncsemaphore.lock.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncSemaphore](class.syncsemaphore.html)
-    
--   Створює новий об'єкт SyncSemaphore
-    
-
+---
+navigation:
+  - class.syncsemaphore.html: « SyncSemaphore
+  - syncsemaphore.lock.html: 'SyncSemaphore::lock »'
+  - index.html: PHP Manual
+  - class.syncsemaphore.html: SyncSemaphore
+title: 'SyncSemaphore::construct'
+---
 # SyncSemaphore::construct
 
 (PECL sync >= 1.0.0)

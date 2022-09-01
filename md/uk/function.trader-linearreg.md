@@ -1,16 +1,11 @@
-Лінійна регресія
-
--   [« traderlinearregslope](function.trader-linearreg-slope.html)
-    
--   [traderln »](function.trader-ln.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Лінійна регресія
-    
-
+---
+navigation:
+  - function.trader-linearreg-slope.html: « traderlinearregslope
+  - function.trader-ln.html: traderln »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderlinearreg
+---
 # traderlinearreg
 
 (PECL trader >= 0.2.0)

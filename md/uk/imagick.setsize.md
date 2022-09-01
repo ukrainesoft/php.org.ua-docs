@@ -1,16 +1,11 @@
-Встановлює розмір об'єкту Imagick
-
--   [« Imagick::setSamplingFactors](imagick.setsamplingfactors.html)
-    
--   [Imagick::setSizeOffset »](imagick.setsizeoffset.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює розмір об'єкту Imagick
-    
-
+---
+navigation:
+  - imagick.setsamplingfactors.html: '« Imagick::setSamplingFactors'
+  - imagick.setsizeoffset.html: 'Imagick::setSizeOffset »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setSize'
+---
 # Imagick::setSize
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Видалити файл із phar-архіву
-
--   [« Phar::offsetSet](phar.offsetset.html)
-    
--   [Phar::running »](phar.running.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Видалити файл із phar-архіву
-    
-
+---
+navigation:
+  - phar.offsetset.html: '« Phar::offsetSet'
+  - phar.running.html: 'Phar::running »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::offsetUnset'
+---
 # Phar::offsetUnset
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

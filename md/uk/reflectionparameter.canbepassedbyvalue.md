@@ -1,16 +1,11 @@
-Перевіряє, чи можна передати цей аргумент за значенням
-
--   [« ReflectionParameter::allowsNull](reflectionparameter.allowsnull.html)
-    
--   [ReflectionParameter::clone »](reflectionparameter.clone.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionParameter](class.reflectionparameter.html)
-    
--   Перевіряє, чи можна передати цей аргумент за значенням
-    
-
+---
+navigation:
+  - reflectionparameter.allowsnull.html: '« ReflectionParameter::allowsNull'
+  - reflectionparameter.clone.html: 'ReflectionParameter::clone »'
+  - index.html: PHP Manual
+  - class.reflectionparameter.html: ReflectionParameter
+title: 'ReflectionParameter::canBePassedByValue'
+---
 # ReflectionParameter::canBePassedByValue
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

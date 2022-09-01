@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutine::getuid](swoole-coroutine.getuid.html)
-    
--   [SwooleCoroutine::suspend »](swoole-coroutine.suspend.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine.getuid.html: '« SwooleCoroutine::getuid'
+  - swoole-coroutine.suspend.html: 'SwooleCoroutine::suspend »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutine::resume'
+---
 # SwooleCoroutine::resume
 
 (PECL swoole >= 2.0.0)

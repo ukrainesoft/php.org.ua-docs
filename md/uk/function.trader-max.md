@@ -1,16 +1,11 @@
-Найбільше значення за вказаний період
-
--   [« tradermavp](function.trader-mavp.html)
-    
--   [tradermaxindex »](function.trader-maxindex.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Найбільше значення за вказаний період
-    
-
+---
+navigation:
+  - function.trader-mavp.html: « tradermavp
+  - function.trader-maxindex.html: tradermaxindex »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermax
+---
 # tradermax
 
 (PECL trader >= 0.2.0)

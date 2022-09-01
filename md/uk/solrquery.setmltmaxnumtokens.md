@@ -1,16 +1,11 @@
-Задає максимальну кількість токенів для аналізу
-
--   [« SolrQuery::setMltMaxNumQueryTerms](solrquery.setmltmaxnumqueryterms.md)
-    
--   [SolrQuery::setMltMaxWordLength »](solrquery.setmltmaxwordlength.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Задає максимальну кількість токенів для аналізу
-    
-
+---
+navigation:
+  - solrquery.setmltmaxnumqueryterms.md: '« SolrQuery::setMltMaxNumQueryTerms'
+  - solrquery.setmltmaxwordlength.md: 'SolrQuery::setMltMaxWordLength »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMltMaxNumTokens'
+---
 # SolrQuery::setMltMaxNumTokens
 
 (PECL solr> = 0.9.2)

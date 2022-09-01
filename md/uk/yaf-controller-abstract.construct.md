@@ -1,16 +1,11 @@
-Конструктор класу YafControllerAbstract
-
--   [« YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   [YafControllerAbstract::display »](yaf-controller-abstract.display.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Конструктор класу YafControllerAbstract
-    
-
+---
+navigation:
+  - class.yaf-controller-abstract.html: « YafControllerAbstract
+  - yaf-controller-abstract.display.html: 'YafControllerAbstract::display »'
+  - index.html: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::construct'
+---
 # YafControllerAbstract::construct
 
 (Yaf >=1.0.0)

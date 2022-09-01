@@ -1,16 +1,11 @@
-Клас AppendIterator
-
--   [« Ітератори](spl.iterators.html)
-    
--   [AppendIterator::append »](appenditerator.append.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ітератори](spl.iterators.html)
-    
--   Клас AppendIterator
-    
-
+---
+navigation:
+  - spl.iterators.html: « Ітератори
+  - appenditerator.append.html: 'AppendIterator::append »'
+  - index.html: PHP Manual
+  - spl.iterators.html: Ітератори
+title: Клас AppendIterator
+---
 # Клас AppendIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

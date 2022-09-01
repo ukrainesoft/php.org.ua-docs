@@ -1,16 +1,11 @@
-Повертає формат конкретного зображення у послідовності
-
--   [« Imagick::getImageFilename](imagick.getimagefilename.md)
-    
--   [Imagick::getImageGamma »](imagick.getimagegamma.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає формат конкретного зображення у послідовності
-    
-
+---
+navigation:
+  - imagick.getimagefilename.md: '« Imagick::getImageFilename'
+  - imagick.getimagegamma.md: 'Imagick::getImageGamma »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageFormat'
+---
 # Imagick::getImageFormat
 
 (PECL imagick 2, PECL imagick 3)

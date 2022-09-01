@@ -1,16 +1,11 @@
-Робота з XForms
-
--   [« Сессии](features.sessions.html)
-    
--   [Загрузка файлов на сервер »](features.file-upload.html)
-    
--   [PHP Manual](index.html)
-    
--   [Відмітні особливості](features.html)
-    
--   Робота з XForms
-    
-
+---
+navigation:
+  - features.sessions.html: « Сессии
+  - features.file-upload.html: Загрузка файлов на сервер »
+  - index.html: PHP Manual
+  - features.html: Відмітні особливості
+title: Робота з XForms
+---
 # Робота з XForms
 
 [» XForms](http://www.w3.org/MarkUp/Forms/) є альтернативою традиційним веб-формам і дозволяють використовувати їх на безлічі платформ і браузерів, а також реалізовувати нестандартні уявлення форм, наприклад, у вигляді PDF-документа.

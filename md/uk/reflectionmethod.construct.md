@@ -1,16 +1,11 @@
-Конструктор класу ReflectionMethod
-
--   [« ReflectionMethod](class.reflectionmethod.md)
-    
--   [ReflectionMethod::export »](reflectionmethod.export.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Конструктор класу ReflectionMethod
-    
-
+---
+navigation:
+  - class.reflectionmethod.md: « ReflectionMethod
+  - reflectionmethod.export.md: 'ReflectionMethod::export »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::construct'
+---
 # ReflectionMethod::construct
 
 (PHP 5, PHP 7, PHP 8)

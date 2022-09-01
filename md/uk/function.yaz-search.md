@@ -1,16 +1,11 @@
-Підготовка пошуку
-
--   [« yazschema](function.yaz-schema.html)
-    
--   [yazsetoption »](function.yaz-set-option.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Підготовка пошуку
-    
-
+---
+navigation:
+  - function.yaz-schema.html: « yazschema
+  - function.yaz-set-option.html: yazsetoption »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazsearch
+---
 # yazsearch
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
@@ -43,13 +38,13 @@ yaz_search(resource $id, string $type, string $query): bool
 
 **Оператори RPN**
 
-| Конструкция                  | Описание                                                                                                                                                                                            |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `@and` query1 query2         | перетин query1 і query2                                                                                                                                                                             |
-| `@or` query1 query2          | об'єднання query1 та query2                                                                                                                                                                         |
-| `@not` query1 query2         | query1 і не query2                                                                                                                                                                                  |
-| `@set` name                  | посилання на набір значень, що повертаються                                                                                                                                                         |
-| `@attrset` set query         | визначає набір атрибутів `set` для запиту `query`. Ця конструкція доступна лише один раз – на самому початку запиту.                                                                                |
+| Конструкция | Описание |
+| --- | --- |
+| `@and` query1 query2 | перетин query1 і query2 |
+| `@or` query1 query2 | об'єднання query1 та query2 |
+| `@not` query1 query2 | query1 і не query2 |
+| `@set` name | посилання на набір значень, що повертаються |
+| `@attrset` set query | визначає набір атрибутів `set` для запиту `query`. Ця конструкція доступна лише один раз – на самому початку запиту. |
 | `@attr` set type=value query | встановлює атрибути запиту. Значення `type` і `value` - Цілочисленні та визначають тип атрибуту та тип значення відповідно. Значення `set`, якщо його встановлено, визначає налаштування атрибутів. |
 
 Всю інформацію про доступні атрибути ви можете знайти на сайті [» Z39.50 Maintenance Agency](http://www.loc.gov/z3950/agency/defns/bib1.html)

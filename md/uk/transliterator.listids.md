@@ -1,16 +1,11 @@
-Отримати ідентифікатори транслітератора
-
--   [« Transliterator::getErrorMessage](transliterator.geterrormessage.md)
-    
--   [Transliterator::transliterate »](transliterator.transliterate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Отримати ідентифікатори транслітератора
-    
-
+---
+navigation:
+  - transliterator.geterrormessage.md: '« Transliterator::getErrorMessage'
+  - transliterator.transliterate.md: 'Transliterator::transliterate »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::listIDs'
+---
 # Transliterator::listIDs
 
 # transliteratorlistids

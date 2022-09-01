@@ -1,16 +1,11 @@
-Повертає вхідний буфер
-
--   [« EventHttpRequest::getHost](eventhttprequest.gethost.md)
-    
--   [EventHttpRequest::getInputHeaders »](eventhttprequest.getinputheaders.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Повертає вхідний буфер
-    
-
+---
+navigation:
+  - eventhttprequest.gethost.md: '« EventHttpRequest::getHost'
+  - eventhttprequest.getinputheaders.md: 'EventHttpRequest::getInputHeaders »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::getInputBuffer'
+---
 # EventHttpRequest::getInputBuffer
 
 (PECL event >= 1.4.0-beta)

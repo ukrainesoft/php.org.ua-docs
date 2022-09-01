@@ -1,16 +1,11 @@
-Десеріалізувати ArrayObject
-
--   [« ArrayObject::uksort](arrayobject.uksort.md)
-    
--   [SplObserver »](class.splobserver.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Десеріалізувати ArrayObject
-    
-
+---
+navigation:
+  - arrayobject.uksort.md: '« ArrayObject::uksort'
+  - class.splobserver.md: SplObserver »
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::unserialize'
+---
 # ArrayObject::unserialize
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

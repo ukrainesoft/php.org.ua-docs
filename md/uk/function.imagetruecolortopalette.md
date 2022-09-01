@@ -1,16 +1,11 @@
-Перетворення повнокольорового зображення на палітрове
-
--   [« imagesy](function.imagesy.html)
-    
--   [imagettfbbox »](function.imagettfbbox.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Перетворення повнокольорового зображення на палітрове
-    
-
+---
+navigation:
+  - function.imagesy.html: « imagesy
+  - function.imagettfbbox.html: imagettfbbox »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagetruecolortopalette
+---
 # imagetruecolortopalette
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imagetruecolortopalette(GdImage $image, bool $dither, int $num_colors): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

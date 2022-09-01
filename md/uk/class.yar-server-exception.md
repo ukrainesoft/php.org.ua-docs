@@ -1,16 +1,11 @@
-Клас YarServerException
-
--   [« YarConcurrentClient::reset](yar-concurrent-client.reset.html)
-    
--   [YarServerException::getType »](yar-server-exception.gettype.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yar](book.yar.md)
-    
--   Клас YarServerException
-    
-
+---
+navigation:
+  - yar-concurrent-client.reset.html: '« YarConcurrentClient::reset'
+  - yar-server-exception.gettype.html: 'YarServerException::getType »'
+  - index.md: PHP Manual
+  - book.yar.md: Yar
+title: Клас YarServerException
+---
 # Клас YarServerException
 
 (No version information available, might only be in Git)

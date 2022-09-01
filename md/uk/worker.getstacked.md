@@ -1,16 +1,11 @@
-Повертає поточний розмір стека
-
--   [« Worker::collect](worker.collect.md)
-    
--   [Worker::isShutdown »](worker.isshutdown.md)
-    
--   [PHP Manual](index.md)
-    
--   [Worker](class.worker.md)
-    
--   Повертає поточний розмір стека
-    
-
+---
+navigation:
+  - worker.collect.md: '« Worker::collect'
+  - worker.isshutdown.md: 'Worker::isShutdown »'
+  - index.md: PHP Manual
+  - class.worker.md: Worker
+title: 'Worker::getStacked'
+---
 # Worker::getStacked
 
 (PECL pthreads >= 2.0.0)

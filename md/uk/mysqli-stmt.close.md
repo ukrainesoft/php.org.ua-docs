@@ -1,16 +1,11 @@
-Закриває підготовлений запит
-
--   [« mysqlistmt::bindresult](mysqli-stmt.bind-result.html)
-    
--   [mysqlistmt::construct »](mysqli-stmt.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Закриває підготовлений запит
-    
-
+---
+navigation:
+  - mysqli-stmt.bind-result.html: '« mysqlistmt::bindresult'
+  - mysqli-stmt.construct.html: 'mysqlistmt::construct »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::close'
+---
 # mysqlistmt::close
 
 # mysqlistmtclose

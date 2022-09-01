@@ -1,16 +1,11 @@
-Створює канал Swoole
-
--   [« SwooleChannel](class.swoole-channel.html)
-    
--   [SwooleChannel::destruct »](swoole-channel.destruct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleChannel](class.swoole-channel.html)
-    
--   Створює канал Swoole
-    
-
+---
+navigation:
+  - class.swoole-channel.html: « SwooleChannel
+  - swoole-channel.destruct.html: 'SwooleChannel::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-channel.html: SwooleChannel
+title: 'SwooleChannel::construct'
+---
 # SwooleChannel::construct
 
 (PECL swoole >= 1.9.0)

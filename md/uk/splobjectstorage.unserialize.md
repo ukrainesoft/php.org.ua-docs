@@ -1,16 +1,11 @@
-Відновлює серіалізований контейнер із рядка
-
--   [« SplObjectStorage::setInfo](splobjectstorage.setinfo.md)
-    
--   [SplObjectStorage::valid »](splobjectstorage.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Відновлює серіалізований контейнер із рядка
-    
-
+---
+navigation:
+  - splobjectstorage.setinfo.md: '« SplObjectStorage::setInfo'
+  - splobjectstorage.valid.md: 'SplObjectStorage::valid »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::unserialize'
+---
 # SplObjectStorage::unserialize
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

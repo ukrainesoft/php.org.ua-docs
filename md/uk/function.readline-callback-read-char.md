@@ -1,16 +1,11 @@
-Читає символ та інформує callback-функцію readline, що отримано рядок
-
--   [« readlinecallbackhandlerremove](function.readline-callback-handler-remove.html)
-    
--   [readlineclearhistory »](function.readline-clear-history.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Readline](ref.readline.md)
-    
--   Читає символ та інформує callback-функцію readline, що отримано рядок
-    
-
+---
+navigation:
+  - function.readline-callback-handler-remove.html: « readlinecallbackhandlerremove
+  - function.readline-clear-history.html: readlineclearhistory »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlinecallbackreadchar
+---
 # readlinecallbackreadchar
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

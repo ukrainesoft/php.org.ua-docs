@@ -1,16 +1,11 @@
-Викликає системний syncfs у Linux, якщо це доступно
-
--   [« eiosync](function.eio-sync.html)
-    
--   [eiotruncate »](function.eio-truncate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Викликає системний syncfs у Linux, якщо це доступно
-    
-
+---
+navigation:
+  - function.eio-sync.html: « eiosync
+  - function.eio-truncate.html: eiotruncate »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiosyncfs
+---
 # eiosyncfs
 
 (PECL eio >= 0.0.1dev)

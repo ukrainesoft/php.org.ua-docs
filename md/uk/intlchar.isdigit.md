@@ -1,16 +1,11 @@
-Перевірити, чи символ цифрою
-
--   [« IntlChar::isdefined](intlchar.isdefined.html)
-    
--   [IntlChar::isgraph »](intlchar.isgraph.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевірити, чи символ цифрою
-    
-
+---
+navigation:
+  - intlchar.isdefined.html: '« IntlChar::isdefined'
+  - intlchar.isgraph.html: 'IntlChar::isgraph »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::isdigit'
+---
 # IntlChar::isdigit
 
 (PHP 7, PHP 8)

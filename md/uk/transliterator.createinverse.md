@@ -1,16 +1,11 @@
-Створити інвертований транслітератор
-
--   [« Transliterator::createFromRules](transliterator.createfromrules.md)
-    
--   [Transliterator::getErrorCode »](transliterator.geterrorcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Створити інвертований транслітератор
-    
-
+---
+navigation:
+  - transliterator.createfromrules.md: '« Transliterator::createFromRules'
+  - transliterator.geterrorcode.md: 'Transliterator::getErrorCode »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::createInverse'
+---
 # Transliterator::createInverse
 
 # transliteratorcreateinverse

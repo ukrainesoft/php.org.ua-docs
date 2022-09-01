@@ -1,16 +1,11 @@
-Витягти дані для графіка у вигляді масиву
-
--   [« rrderror](function.rrd-error.html)
-    
--   [rrdfirst »](function.rrd-first.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Витягти дані для графіка у вигляді масиву
-    
-
+---
+navigation:
+  - function.rrd-error.html: « rrderror
+  - function.rrd-first.html: rrdfirst »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdfetch
+---
 # rrdfetch
 
 (PECL rrd >= 0.9.0)

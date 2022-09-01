@@ -1,16 +1,11 @@
-Перевіряє, чи є ще зображення в об'єкті
-
--   [« Gmagick::getversion](gmagick.getversion.html)
-    
--   [Gmagick::haspreviousimage »](gmagick.haspreviousimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Перевіряє, чи є ще зображення в об'єкті
-    
-
+---
+navigation:
+  - gmagick.getversion.html: '« Gmagick::getversion'
+  - gmagick.haspreviousimage.html: 'Gmagick::haspreviousimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::hasnextimage'
+---
 # Gmagick::hasnextimage
 
 (PECL gmagick >= Unknown)

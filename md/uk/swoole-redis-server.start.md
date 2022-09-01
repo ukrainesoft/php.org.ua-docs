@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleRedisServer::setHandler](swoole-redis-server.sethandler.html)
-    
--   [SwooleSerialize »](class.swoole-serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleRedisServer](class.swoole-redis-server.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-redis-server.sethandler.html: '« SwooleRedisServer::setHandler'
+  - class.swoole-serialize.html: SwooleSerialize »
+  - index.md: PHP Manual
+  - class.swoole-redis-server.html: SwooleRedisServer
+title: 'SwooleRedisServer::start'
+---
 # SwooleRedisServer::start
 
 (PECL swoole >= 1.9.0)

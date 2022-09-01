@@ -1,16 +1,11 @@
-Визначає, чи знаходиться файл по даному шляху
-
--   [« svnфсісdir](function.svn-fs-is-dir.html)
-    
--   [svnфсmakedir »](function.svn-fs-make-dir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Визначає, чи знаходиться файл по даному шляху
-    
-
+---
+navigation:
+  - function.svn-fs-is-dir.html: « svnфсісdir
+  - function.svn-fs-make-dir.html: svnфсmakedir »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсісfile
+---
 # svnфсісfile
 
 (PECL svn >= 0.2.0)

@@ -1,16 +1,11 @@
-Якоря
-
--   [« Властивості Unicode-символів](regexp.reference.unicode.md)
-    
--   [Метасимвол точка »](regexp.reference.dot.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
-    
--   Якоря
-    
-
+---
+navigation:
+  - regexp.reference.unicode.md: « Властивості Unicode-символів
+  - regexp.reference.dot.md: Метасимвол точка »
+  - index.md: PHP Manual
+  - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів
+title: Якоря
+---
 ## Якоря
 
 За умовчанням, поза символьним класом метасимвол початку рядка (`^`) відповідає початку оброблюваних даних (якщо не використовуються модифікатори). Усередині символьного класу він (`^`) має зовсім інше значення.

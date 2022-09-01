@@ -1,16 +1,11 @@
-Отримує масив мовних стандартів, для яких є дані
-
--   [« IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.md)
-    
--   [IntlCalendar::getDayOfWeekType »](intlcalendar.getdayofweektype.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує масив мовних стандартів, для яких є дані
-    
-
+---
+navigation:
+  - intlcalendar.getactualminimum.md: '« IntlCalendar::getActualMinimum'
+  - intlcalendar.getdayofweektype.md: 'IntlCalendar::getDayOfWeekType »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getAvailableLocales'
+---
 # IntlCalendar::getAvailableLocales
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

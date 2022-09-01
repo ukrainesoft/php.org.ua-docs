@@ -1,16 +1,11 @@
-Отримує модифікатори константи класу
-
--   [« ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md)
-    
--   [ReflectionClassConstant::getName »](reflectionclassconstant.getname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.md)
-    
--   Отримує модифікатори константи класу
-    
-
+---
+navigation:
+  - reflectionclassconstant.getdoccomment.md: '« ReflectionClassConstant::getDocComment'
+  - reflectionclassconstant.getname.md: 'ReflectionClassConstant::getName »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::getModifiers'
+---
 # ReflectionClassConstant::getModifiers
 
 (PHP 7> = 7.1.0, PHP 8)

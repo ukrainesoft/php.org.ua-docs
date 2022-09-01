@@ -1,16 +1,11 @@
-Клас MongoDBDriverManager
-
--   [« MongoDBDriver](book.mongodb.html)
-    
--   [MongoDBDriverManager::addSubscriber »](mongodb-driver-manager.addsubscriber.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverManager
-    
-
+---
+navigation:
+  - book.mongodb.html: « MongoDBDriver
+  - mongodb-driver-manager.addsubscriber.html: 'MongoDBDriverManager::addSubscriber »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverManager
+---
 # Клас MongoDBDriverManager
 
 (mongodb >=1.0.0)

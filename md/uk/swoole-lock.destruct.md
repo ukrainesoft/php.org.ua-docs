@@ -1,16 +1,11 @@
-Знищує блокування пам'яті Swoole
-
--   [« SwooleLock::construct](swoole-lock.construct.html)
-    
--   [SwooleLock::lockread »](swoole-lock.lock-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleLock](class.swoole-lock.html)
-    
--   Знищує блокування пам'яті Swoole
-    
-
+---
+navigation:
+  - swoole-lock.construct.html: '« SwooleLock::construct'
+  - swoole-lock.lock-read.html: 'SwooleLock::lockread »'
+  - index.html: PHP Manual
+  - class.swoole-lock.html: SwooleLock
+title: 'SwooleLock::destruct'
+---
 # SwooleLock::destruct
 
 (PECL swoole >= 1.9.0)

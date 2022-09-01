@@ -1,16 +1,11 @@
-Клас SoapVar
-
--   [« SoapParam::construct](soapparam.construct.html)
-    
--   [SoapVar::construct »](soapvar.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SOAP](book.soap.html)
-    
--   Клас SoapVar
-    
-
+---
+navigation:
+  - soapparam.construct.html: '« SoapParam::construct'
+  - soapvar.construct.html: 'SoapVar::construct »'
+  - index.html: PHP Manual
+  - book.soap.html: SOAP
+title: Клас SoapVar
+---
 # Клас SoapVar
 
 (PHP 5, PHP 7, PHP 8)

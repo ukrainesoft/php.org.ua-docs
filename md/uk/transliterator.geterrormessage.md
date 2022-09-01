@@ -1,16 +1,11 @@
-Отримати останнє повідомлення про помилку
-
--   [« Transliterator::getErrorCode](transliterator.geterrorcode.md)
-    
--   [Transliterator::listIDs »](transliterator.listids.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Отримати останнє повідомлення про помилку
-    
-
+---
+navigation:
+  - transliterator.geterrorcode.md: '« Transliterator::getErrorCode'
+  - transliterator.listids.md: 'Transliterator::listIDs »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::getErrorMessage'
+---
 # Transliterator::getErrorMessage
 
 # transliteratorgeterrormessage

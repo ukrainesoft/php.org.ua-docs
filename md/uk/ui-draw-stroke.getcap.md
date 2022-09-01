@@ -1,16 +1,11 @@
-Отримати кінець лінії
-
--   [« UIDrawStroke::construct](ui-draw-stroke.construct.html)
-    
--   [ОЙDrawStroke::getJoin »](ui-draw-stroke.getjoin.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawStroke](class.ui-draw-stroke.html)
-    
--   Отримати кінець лінії
-    
-
+---
+navigation:
+  - ui-draw-stroke.construct.html: '« UIDrawStroke::construct'
+  - ui-draw-stroke.getjoin.html: 'ОЙDrawStroke::getJoin »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.html: ОЙDrawStroke
+title: 'ОЙDrawStroke::getCap'
+---
 # ОЙDrawStroke::getCap
 
 (UI 0.9.9)

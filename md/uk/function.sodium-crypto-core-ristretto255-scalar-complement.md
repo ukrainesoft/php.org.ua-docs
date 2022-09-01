@@ -1,16 +1,11 @@
-Призначення sodiumcryptocoreristretto255scalarcomplement
-
--   [« sodiumcryptocoreristretto255scalaradd](function.sodium-crypto-core-ristretto255-scalar-add.html)
-    
--   [sodiumcryptocoreristretto255scalarinvert »](function.sodium-crypto-core-ristretto255-scalar-invert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Призначення sodiumcryptocoreristretto255scalarcomplement
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-scalar-add.html: « sodiumcryptocoreristretto255scalaradd
+  - function.sodium-crypto-core-ristretto255-scalar-invert.html: sodiumcryptocoreristretto255scalarinvert »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255scalarcomplement
+---
 # sodiumcryptocoreristretto255scalarcomplement
 
 (PHP 8> = 8.1.0)

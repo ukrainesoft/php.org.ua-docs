@@ -1,16 +1,11 @@
-Очистити пул опитування
-
--   [« ZMQPoll::add](zmqpoll.add.html)
-    
--   [ZMQPoll::count »](zmqpoll.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQPoll](class.zmqpoll.html)
-    
--   Очистити пул опитування
-    
-
+---
+navigation:
+  - zmqpoll.add.html: '« ZMQPoll::add'
+  - zmqpoll.count.html: 'ZMQPoll::count »'
+  - index.html: PHP Manual
+  - class.zmqpoll.html: ZMQPoll
+title: 'ZMQPoll::clear'
+---
 # ZMQPoll::clear
 
 (PECL zmq >= 0.5.0)

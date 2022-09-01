@@ -1,16 +1,11 @@
-Встановлює максимальну довжину слова
-
--   [« SolrQuery::setMltMaxNumTokens](solrquery.setmltmaxnumtokens.html)
-    
--   [SolrQuery::setMltMinDocFrequency »](solrquery.setmltmindocfrequency.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює максимальну довжину слова
-    
-
+---
+navigation:
+  - solrquery.setmltmaxnumtokens.html: '« SolrQuery::setMltMaxNumTokens'
+  - solrquery.setmltmindocfrequency.html: 'SolrQuery::setMltMinDocFrequency »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setMltMaxWordLength'
+---
 # SolrQuery::setMltMaxWordLength
 
 (PECL solr> = 0.9.2)

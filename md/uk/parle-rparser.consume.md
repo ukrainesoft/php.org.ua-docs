@@ -1,16 +1,11 @@
-Використовувати дані для обробки
-
--   [« ParleRParser::build](parle-rparser.build.html)
-    
--   [ParleRParser::dump »](parle-rparser.dump.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Використовувати дані для обробки
-    
-
+---
+navigation:
+  - parle-rparser.build.html: '« ParleRParser::build'
+  - parle-rparser.dump.html: 'ParleRParser::dump »'
+  - index.md: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::consume'
+---
 # ParleRParser::consume
 
 (PECL parle >= 0.7.0)

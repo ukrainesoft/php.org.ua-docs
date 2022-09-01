@@ -1,16 +1,11 @@
-Отримати дескриптор завдання, що виконується
-
--   [« GearmanClient::doHighBackground](gearmanclient.dohighbackground.md)
-    
--   [GearmanClient::doLow »](gearmanclient.dolow.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Отримати дескриптор завдання, що виконується
-    
-
+---
+navigation:
+  - gearmanclient.dohighbackground.md: '« GearmanClient::doHighBackground'
+  - gearmanclient.dolow.md: 'GearmanClient::doLow »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::doJobHandle'
+---
 # GearmanClient::doJobHandle
 
 (PECL gearman >= 0.5.0)

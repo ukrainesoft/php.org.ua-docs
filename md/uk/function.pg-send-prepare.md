@@ -1,16 +1,11 @@
-Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
-
--   [« pgsendexecute](function.pg-send-execute.html)
-    
--   [пгsendqueryparams »](function.pg-send-query-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
-    
-
+---
+navigation:
+  - function.pg-send-execute.html: « pgsendexecute
+  - function.pg-send-query-params.html: пгsendqueryparams »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгsendprepare
+---
 # пгsendprepare
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $qu
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

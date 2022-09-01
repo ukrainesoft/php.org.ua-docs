@@ -1,16 +1,11 @@
-Клас RRDGraph
-
--   [« RRDCreator::save](rrdcreator.save.html)
-    
--   [RRDGraph::construct »](rrdgraph.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [RRD](book.rrd.html)
-    
--   Клас RRDGraph
-    
-
+---
+navigation:
+  - rrdcreator.save.html: '« RRDCreator::save'
+  - rrdgraph.construct.html: 'RRDGraph::construct »'
+  - index.html: PHP Manual
+  - book.rrd.html: RRD
+title: Клас RRDGraph
+---
 # Клас RRDGraph
 
 (PECL rrd >= 0.9.0)

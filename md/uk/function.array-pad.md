@@ -1,16 +1,11 @@
-Доповнити масив певним значенням до вказаної довжини
-
--   [« arraymultisort](function.array-multisort.html)
-    
--   [arraypop »](function.array-pop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Доповнити масив певним значенням до вказаної довжини
-    
-
+---
+navigation:
+  - function.array-multisort.html: « arraymultisort
+  - function.array-pop.html: arraypop »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraypad
+---
 # arraypad
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

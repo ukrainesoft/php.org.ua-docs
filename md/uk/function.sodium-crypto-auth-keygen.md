@@ -1,16 +1,11 @@
-Створює випадковий ключ для sodiumcryptoauth
-
--   [« sodiumcryptoaeadxchacha20poly1305ietfkeygen](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.html)
-    
--   [sodiumcryptoauthverify »](function.sodium-crypto-auth-verify.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Створює випадковий ключ для sodiumcryptoauth
-    
-
+---
+navigation:
+  - function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.html: « sodiumcryptoaeadxchacha20poly1305ietfkeygen
+  - function.sodium-crypto-auth-verify.html: sodiumcryptoauthverify »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoauthkeygen
+---
 # sodiumcryptoauthkeygen
 
 (PHP 7> = 7.2.0, PHP 8)

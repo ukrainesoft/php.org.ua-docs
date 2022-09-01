@@ -1,16 +1,11 @@
-Встановлює декілька параметрів для сеансу cURL
-
--   [« curlreset](function.curl-reset.html)
-    
--   [curlsetopt »](function.curl-setopt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Встановлює декілька параметрів для сеансу cURL
-    
-
+---
+navigation:
+  - function.curl-reset.html: « curlreset
+  - function.curl-setopt.html: curlsetopt »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlsetoptarray
+---
 # curlsetoptarray
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ curl_setopt_array(CurlHandle $handle, array $options): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

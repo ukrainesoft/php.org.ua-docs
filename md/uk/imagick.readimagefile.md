@@ -1,16 +1,11 @@
-Читає зображення з відкритого дескриптора файлу
-
--   [« Imagick::readImageBlob](imagick.readimageblob.html)
-    
--   [Imagick::readimages »](imagick.readimages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Читає зображення з відкритого дескриптора файлу
-    
-
+---
+navigation:
+  - imagick.readimageblob.html: '« Imagick::readImageBlob'
+  - imagick.readimages.html: 'Imagick::readimages »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::readImageFile'
+---
 # Imagick::readImageFile
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Надсилання статусу
-
--   [« GearmanJob::sendFail](gearmanjob.sendfail.md)
-    
--   [GearmanJob::sendWarning »](gearmanjob.sendwarning.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Надсилання статусу
-    
-
+---
+navigation:
+  - gearmanjob.sendfail.md: '« GearmanJob::sendFail'
+  - gearmanjob.sendwarning.md: 'GearmanJob::sendWarning »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::sendStatus'
+---
 # GearmanJob::sendStatus
 
 (PECL gearman >= 0.6.0)

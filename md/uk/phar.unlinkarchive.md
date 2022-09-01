@@ -1,16 +1,11 @@
-Повністю видалити архів з пам'яті та з диска
-
--   [« Phar::stopBuffering](phar.stopbuffering.html)
-    
--   [Phar::webPhar »](phar.webphar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Повністю видалити архів з пам'яті та з диска
-    
-
+---
+navigation:
+  - phar.stopbuffering.html: '« Phar::stopBuffering'
+  - phar.webphar.html: 'Phar::webPhar »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::unlinkArchive'
+---
 # Phar::unlinkArchive
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

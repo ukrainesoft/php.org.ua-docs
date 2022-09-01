@@ -1,16 +1,11 @@
-Включає верхню межу виразу набір результатів
-
--   [« SolrQuery::setTermsIncludeLowerBound](solrquery.settermsincludelowerbound.md)
-    
--   [SolrQuery::setTermsLimit »](solrquery.settermslimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Включає верхню межу виразу набір результатів
-    
-
+---
+navigation:
+  - solrquery.settermsincludelowerbound.md: '« SolrQuery::setTermsIncludeLowerBound'
+  - solrquery.settermslimit.md: 'SolrQuery::setTermsLimit »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsIncludeUpperBound'
+---
 # SolrQuery::setTermsIncludeUpperBound
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Отримати символьне ім'я для переданої PHP-лексеми
-
--   [« tokengetall](function.token-get-all.html)
-    
--   [URL »](book.url.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PHP-лексера (tokenizer)](ref.tokenizer.md)
-    
--   Отримати символьне ім'я для переданої PHP-лексеми
-    
-
+---
+navigation:
+  - function.token-get-all.html: « tokengetall
+  - book.url.md: URL »
+  - index.md: PHP Manual
+  - ref.tokenizer.md: Функции PHP-лексера (tokenizer)
+title: tokenname
+---
 # tokenname
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

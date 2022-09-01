@@ -1,16 +1,11 @@
-Робить властивість доступною
-
--   [« ReflectionProperty::isStatic](reflectionproperty.isstatic.html)
-    
--   [ReflectionProperty::setValue »](reflectionproperty.setvalue.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Робить властивість доступною
-    
-
+---
+navigation:
+  - reflectionproperty.isstatic.html: '« ReflectionProperty::isStatic'
+  - reflectionproperty.setvalue.html: 'ReflectionProperty::setValue »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::setAccessible'
+---
 # ReflectionProperty::setAccessible
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

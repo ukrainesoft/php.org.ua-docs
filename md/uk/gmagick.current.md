@@ -1,16 +1,11 @@
-Повернути себе
-
--   [« Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.md)
-    
--   [Gmagick::cyclecolormapimage »](gmagick.cyclecolormapimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повернути себе
-    
-
+---
+navigation:
+  - gmagick.cropthumbnailimage.md: '« Gmagick::cropthumbnailimage'
+  - gmagick.cyclecolormapimage.md: 'Gmagick::cyclecolormapimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::current'
+---
 # Gmagick::current
 
 (PECL gmagick >= Unknown)

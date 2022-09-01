@@ -1,16 +1,11 @@
-Список історії команд
-
--   [« readlineinfo](function.readline-info.html)
-    
--   [readlineвінnewline »](function.readline-on-new-line.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Readline](ref.readline.html)
-    
--   Список історії команд
-    
-
+---
+navigation:
+  - function.readline-info.html: « readlineinfo
+  - function.readline-on-new-line.html: readlineвінnewline »
+  - index.html: PHP Manual
+  - ref.readline.html: Функции Readline
+title: readlinelisthistory
+---
 # readlinelisthistory
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

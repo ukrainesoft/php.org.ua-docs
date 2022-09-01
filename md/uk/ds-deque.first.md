@@ -1,16 +1,11 @@
-Повертає перший елемент двосторонньої черги
-
--   [« DsDeque::find](ds-deque.find.html)
-    
--   [ДсDeque::get »](ds-deque.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає перший елемент двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.find.html: '« DsDeque::find'
+  - ds-deque.get.html: 'ДсDeque::get »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::first'
+---
 # ДсDeque::first
 
 (PECL ds >= 1.0.0)

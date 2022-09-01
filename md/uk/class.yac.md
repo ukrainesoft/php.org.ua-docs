@@ -1,16 +1,11 @@
-Клас Yac
-
--   [« Обумовлені константи](yac.constants.md)
-    
--   [Yac::add »](yac.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](book.yac.md)
-    
--   Клас Yac
-    
-
+---
+navigation:
+  - yac.constants.md: « Обумовлені константи
+  - yac.add.md: 'Yac::add »'
+  - index.md: PHP Manual
+  - book.yac.md: Yac
+title: Клас Yac
+---
 # Клас Yac
 
 (PECL yac >= 1.0.0)

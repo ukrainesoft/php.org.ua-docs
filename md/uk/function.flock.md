@@ -1,16 +1,11 @@
-Консультативне блокування файлів, що портується
-
--   [« filetype](function.filetype.md)
-    
--   [fnmatch »](function.fnmatch.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Консультативне блокування файлів, що портується
-    
-
+---
+navigation:
+  - function.filetype.md: « filetype
+  - function.fnmatch.md: fnmatch »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: flock
+---
 # flock
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

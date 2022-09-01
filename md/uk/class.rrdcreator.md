@@ -1,16 +1,11 @@
-Клас RRDCreator
-
--   [« rrdcdisconnect](function.rrdc-disconnect.html)
-    
--   [RRDCreator::addArchive »](rrdcreator.addarchive.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRD](book.rrd.md)
-    
--   Клас RRDCreator
-    
-
+---
+navigation:
+  - function.rrdc-disconnect.html: « rrdcdisconnect
+  - rrdcreator.addarchive.md: 'RRDCreator::addArchive »'
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
+title: Клас RRDCreator
+---
 # Клас RRDCreator
 
 (PECL rrd >= 0.9.0)

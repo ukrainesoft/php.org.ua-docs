@@ -1,16 +1,11 @@
-Клас ReflectionType
-
--   [« ReflectionProperty::toString](reflectionproperty.tostring.md)
-    
--   [ReflectionType::allowsNull »](reflectiontype.allowsnull.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionType
-    
-
+---
+navigation:
+  - reflectionproperty.tostring.md: '« ReflectionProperty::toString'
+  - reflectiontype.allowsnull.md: 'ReflectionType::allowsNull »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionType
+---
 # Клас ReflectionType
 
 (PHP 7, PHP 8)
@@ -49,9 +44,9 @@ public __toString(): string
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **ReflectionType** став абстрактним, а метод **ReflectionType::isBuiltin()** був переміщений у [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) |
+| Версия | Описание |
+| --- | --- |
+|  | **ReflectionType** став абстрактним, а метод **ReflectionType::isBuiltin()** був переміщений у [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) |
 
 ## Зміст
 

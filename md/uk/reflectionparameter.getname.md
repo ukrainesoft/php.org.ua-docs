@@ -1,16 +1,11 @@
-Отримання імені параметра
-
--   [« ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.html)
-    
--   [ReflectionParameter::getPosition »](reflectionparameter.getposition.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionParameter](class.reflectionparameter.html)
-    
--   Отримання імені параметра
-    
-
+---
+navigation:
+  - reflectionparameter.getdefaultvalueconstantname.html: '« ReflectionParameter::getDefaultValueConstantName'
+  - reflectionparameter.getposition.html: 'ReflectionParameter::getPosition »'
+  - index.html: PHP Manual
+  - class.reflectionparameter.html: ReflectionParameter
+title: 'ReflectionParameter::getName'
+---
 # ReflectionParameter::getName
 
 (PHP 5, PHP 7, PHP 8)

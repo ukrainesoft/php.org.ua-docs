@@ -1,16 +1,11 @@
-Витягує інформацію про виділення пам'яті, що розділяється APCu
-
--   [« apcukeyinfo](function.apcu-key-info.html)
-    
--   [apcustore »](function.apcu-store.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции APCu](ref.apcu.md)
-    
--   Витягує інформацію про виділення пам'яті, що розділяється APCu
-    
-
+---
+navigation:
+  - function.apcu-key-info.html: « apcukeyinfo
+  - function.apcu-store.html: apcustore »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcusmainfo
+---
 # apcusmainfo
 
 (PECL apcu >= 4.0.0)

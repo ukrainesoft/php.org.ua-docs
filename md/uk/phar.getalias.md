@@ -1,16 +1,11 @@
-Отримати псевдонім для Phar
-
--   [« Phar::extractTo](phar.extractto.md)
-    
--   [Phar::getMetadata »](phar.getmetadata.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Отримати псевдонім для Phar
-    
-
+---
+navigation:
+  - phar.extractto.md: '« Phar::extractTo'
+  - phar.getmetadata.md: 'Phar::getMetadata »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::getAlias'
+---
 # Phar::getAlias
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.1)

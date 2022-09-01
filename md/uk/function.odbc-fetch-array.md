@@ -1,16 +1,11 @@
-Повертає рядок результату у вигляді асоціативного масиву
-
--   [« odbcexecute](function.odbc-execute.html)
-    
--   [odbcfetchinto »](function.odbc-fetch-into.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Повертає рядок результату у вигляді асоціативного масиву
-    
-
+---
+navigation:
+  - function.odbc-execute.html: « odbcexecute
+  - function.odbc-fetch-into.html: odbcfetchinto »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcfetcharray
+---
 # odbcfetcharray
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

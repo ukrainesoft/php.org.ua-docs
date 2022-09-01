@@ -1,16 +1,11 @@
-Отримує поточну конфігурацію Tidy
-
--   [« tidy::$errorBuffer](tidy.props.errorbuffer.html)
-    
--   [tidy::getHtmlVer »](tidy.gethtmlver.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidy](class.tidy.html)
-    
--   Отримує поточну конфігурацію Tidy
-    
-
+---
+navigation:
+  - tidy.props.errorbuffer.html: '« tidy::$errorBuffer'
+  - tidy.gethtmlver.html: 'tidy::getHtmlVer »'
+  - index.html: PHP Manual
+  - class.tidy.html: tidy
+title: 'tidy::getConfig'
+---
 # tidy::getConfig
 
 # tidygetconfig

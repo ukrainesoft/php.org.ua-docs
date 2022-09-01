@@ -1,16 +1,11 @@
-Обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
-
--   [« arrayuintersectassoc](function.array-uintersect-assoc.html)
-    
--   [arrayuintersect »](function.array-uintersect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
-    
-
+---
+navigation:
+  - function.array-uintersect-assoc.html: « arrayuintersectassoc
+  - function.array-uintersect.html: arrayuintersect »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayuintersectuassoc
+---
 # arrayuintersectuassoc
 
 (PHP 5, PHP 7, PHP 8)

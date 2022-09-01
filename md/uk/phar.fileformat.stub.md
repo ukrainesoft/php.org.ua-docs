@@ -1,16 +1,11 @@
-Заглушка Phar-файлу
-
--   [« Складові всіх Phar-архівів незалежно від формату файлу](phar.fileformat.ingredients.md)
-    
--   [Сравнение Phar, Tar и Zip »](phar.fileformat.comparison.md)
-    
--   [PHP Manual](index.md)
-    
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
-    
--   Заглушка Phar-файлу
-    
-
+---
+navigation:
+  - phar.fileformat.ingredients.md: « Складові всіх Phar-архівів незалежно від формату файлу
+  - phar.fileformat.comparison.md: 'Сравнение Phar, Tar и Zip »'
+  - index.md: PHP Manual
+  - phar.fileformat.md: Чим відрізняється phar від tar-або zip-архіву?
+title: Заглушка Phar-файлу
+---
 ## Заглушка Phar-файлу
 
 Заглушкою Phar є простий файл PHP. Мінімально можлива заглушка виглядає так:

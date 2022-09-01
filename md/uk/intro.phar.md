@@ -1,16 +1,11 @@
-Вступ
-
--   [« Phar](book.phar.md)
-    
--   [Встановлення та налаштування »](phar.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](book.phar.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.phar.md: « Phar
+  - phar.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.phar.md: Phar
+title: Вступ
+---
 # Вступ
 
 Модуль phar надає можливість помістити цілий PHP-додаток в один-єдиний файл з ім'ям phar (PHP Archive) для простого поширення та встановлення. Крім цього, модуль phar надає метод абстракції формату файлу для створення та обробки архівів tar та zip через клас [PharData](class.phardata.md), приблизно як PDO забезпечує єдиний інтерфейс доступу до різних баз даних. На відміну від PDO, який не може конвертувати між різними базами даних, Phar може конвертувати дані між форматами tar, zip та phar лише одним рядком коду. Дивіться [Phar::convertToExecutable()](phar.converttoexecutable.md) для прикладу.

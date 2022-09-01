@@ -1,16 +1,11 @@
-Читає дані відправки у процес
-
--   [« SwooleProcess::push](swoole-process.push.html)
-    
--   [SwooleProcess::signal »](swoole-process.signal.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Читає дані відправки у процес
-    
-
+---
+navigation:
+  - swoole-process.push.html: '« SwooleProcess::push'
+  - swoole-process.signal.html: 'SwooleProcess::signal »'
+  - index.html: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::read'
+---
 # SwooleProcess::read
 
 (PECL swoole >= 1.9.0)

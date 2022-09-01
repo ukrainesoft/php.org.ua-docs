@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Налаштування під час виконання](pthreads.configuration.md)
-    
--   [Threaded »](class.threaded.md)
-    
--   [PHP Manual](index.md)
-    
--   [pthreads](book.pthreads.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - pthreads.configuration.md: « Налаштування під час виконання
+  - class.threaded.md: Threaded »
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

@@ -1,16 +1,11 @@
-Встановлює коментар до ZIP-архіву
-
--   [« ZipArchive::replaceFile](ziparchive.replacefile.md)
-    
--   [ZipArchive::setCommentIndex »](ziparchive.setcommentindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Встановлює коментар до ZIP-архіву
-    
-
+---
+navigation:
+  - ziparchive.replacefile.md: '« ZipArchive::replaceFile'
+  - ziparchive.setcommentindex.md: 'ZipArchive::setCommentIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::setArchiveComment'
+---
 # ZipArchive::setArchiveComment
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.4.0)

@@ -1,16 +1,11 @@
-Обмежує вибрані рядки
-
--   [« TableSelect::having](mysql-xdevapi-tableselect.having.html)
-    
--   [TableSelect::lockExclusive »](mysql-xdevapi-tableselect.lockexclusive.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Обмежує вибрані рядки
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.having.html: '« TableSelect::having'
+  - mysql-xdevapi-tableselect.lockexclusive.html: 'TableSelect::lockExclusive »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::limit'
+---
 # TableSelect::limit
 
 (No version information available, might only be in Git)

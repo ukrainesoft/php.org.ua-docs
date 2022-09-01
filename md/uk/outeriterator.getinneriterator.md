@@ -1,16 +1,11 @@
-Повертає внутрішній ітератор для поточного елемента
-
--   [« OuterIterator](class.outeriterator.md)
-    
--   [RecursiveIterator »](class.recursiveiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [OuterIterator](class.outeriterator.md)
-    
--   Повертає внутрішній ітератор для поточного елемента
-    
-
+---
+navigation:
+  - class.outeriterator.md: « OuterIterator
+  - class.recursiveiterator.md: RecursiveIterator »
+  - index.md: PHP Manual
+  - class.outeriterator.md: OuterIterator
+title: 'OuterIterator::getInnerIterator'
+---
 # OuterIterator::getInnerIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Інтернет-сокети: TCP, UDP, SSL та TLS
-
--   [« Список підтримуваних транспортних протоколів](transports.html)
-    
--   [Unix-сокети: UNIX та UDG »](transports.unix.html)
-    
--   [PHP Manual](index.html)
-    
--   [Список підтримуваних транспортних протоколів](transports.html)
-    
--   Інтернет-сокети: TCP, UDP, SSL та TLS
-    
-
+---
+navigation:
+  - transports.html: « Список підтримуваних транспортних протоколів
+  - transports.unix.html: 'Unix-сокети: UNIX та UDG »'
+  - index.html: PHP Manual
+  - transports.html: Список підтримуваних транспортних протоколів
+title: 'Інтернет-сокети: TCP, UDP, SSL та TLS'
+---
 ## Інтернет-сокети: TCP, UDP, SSL та TLS
 
 `ssl://` `tls://` `sslv2://` & `sslv3://`

@@ -1,16 +1,11 @@
-Встановити параметр конфігурації secret класу
-
--   [« VarnishAdmin::setPort](varnishadmin.setport.html)
-    
--   [VarnishAdmin::setTimeout »](varnishadmin.settimeout.html)
-    
--   [PHP Manual](index.html)
-    
--   [VarnishAdmin](class.varnishadmin.html)
-    
--   Встановити параметр конфігурації secret класу
-    
-
+---
+navigation:
+  - varnishadmin.setport.html: '« VarnishAdmin::setPort'
+  - varnishadmin.settimeout.html: 'VarnishAdmin::setTimeout »'
+  - index.html: PHP Manual
+  - class.varnishadmin.html: VarnishAdmin
+title: 'VarnishAdmin::setSecret'
+---
 # VarnishAdmin::setSecret
 
 (PECL varnish >= 0.8)

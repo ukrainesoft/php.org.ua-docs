@@ -1,16 +1,11 @@
-Отримує екземпляр ZookeeperConfig
-
--   [« Zookeeper::getClientId](zookeeper.getclientid.md)
-    
--   [Zookeeper::getRecvTimeout »](zookeeper.getrecvtimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Отримує екземпляр ZookeeperConfig
-    
-
+---
+navigation:
+  - zookeeper.getclientid.md: '« Zookeeper::getClientId'
+  - zookeeper.getrecvtimeout.md: 'Zookeeper::getRecvTimeout »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::getConfig'
+---
 # Zookeeper::getConfig
 
 (PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)

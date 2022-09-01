@@ -1,16 +1,11 @@
-Функції ODBC
-
--   [« Обумовлені константи](uodbc.constants.html)
-    
--   [odbcautocommit »](function.odbc-autocommit.html)
-    
--   [PHP Manual](index.html)
-    
--   [ODBC](book.uodbc.html)
-    
--   Функції ODBC
-    
-
+---
+navigation:
+  - uodbc.constants.html: « Обумовлені константи
+  - function.odbc-autocommit.html: odbcautocommit »
+  - index.html: PHP Manual
+  - book.uodbc.html: ODBC
+title: Функції ODBC
+---
 # Функції ODBC
 
 ## Зміст

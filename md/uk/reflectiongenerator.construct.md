@@ -1,16 +1,11 @@
-Конструктор ReflectionGenerator
-
--   [« ReflectionGenerator](class.reflectiongenerator.md)
-    
--   [ReflectionGenerator::getExecutingFile »](reflectiongenerator.getexecutingfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionGenerator](class.reflectiongenerator.md)
-    
--   Конструктор ReflectionGenerator
-    
-
+---
+navigation:
+  - class.reflectiongenerator.md: « ReflectionGenerator
+  - reflectiongenerator.getexecutingfile.md: 'ReflectionGenerator::getExecutingFile »'
+  - index.md: PHP Manual
+  - class.reflectiongenerator.md: ReflectionGenerator
+title: 'ReflectionGenerator::construct'
+---
 # ReflectionGenerator::construct
 
 (PHP 7, PHP 8)

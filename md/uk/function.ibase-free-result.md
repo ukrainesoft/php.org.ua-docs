@@ -1,16 +1,11 @@
-Звільняє набір результатів
-
--   [« ibasefreequery](function.ibase-free-query.html)
-    
--   [ibasegenid »](function.ibase-gen-id.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Звільняє набір результатів
-    
-
+---
+navigation:
+  - function.ibase-free-query.html: « ibasefreequery
+  - function.ibase-gen-id.html: ibasegenid »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasefreeresult
+---
 # ibasefreeresult
 
 (PHP 5, PHP 7 < 7.4.0)

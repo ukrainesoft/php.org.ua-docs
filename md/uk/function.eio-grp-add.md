@@ -1,16 +1,11 @@
-Додає запит до групи запитів
-
--   [« eiogetlasterror](function.eio-get-last-error.html)
-    
--   [eiogrpcancel »](function.eio-grp-cancel.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Додає запит до групи запитів
-    
-
+---
+navigation:
+  - function.eio-get-last-error.html: « eiogetlasterror
+  - function.eio-grp-cancel.html: eiogrpcancel »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiogrpadd
+---
 # eiogrpadd
 
 (PECL eio >= 0.0.1dev)

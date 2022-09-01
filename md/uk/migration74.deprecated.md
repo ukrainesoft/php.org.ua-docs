@@ -1,16 +1,11 @@
-Застаріла функціональність
-
--   [« Зміни, що ламають зворотну сумісність](migration74.incompatible.md)
-    
--   [Віддалені модулі »](migration74.removed-extensions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
-    
--   Застаріла функціональність
-    
-
+---
+navigation:
+  - migration74.incompatible.md: '« Зміни, що ламають зворотну сумісність'
+  - migration74.removed-extensions.html: Віддалені модулі »
+  - index.md: PHP Manual
+  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
+title: Застаріла функціональність
+---
 ## Застаріла функціональність
 
 ### Ядро PHP

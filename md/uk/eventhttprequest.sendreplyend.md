@@ -1,16 +1,11 @@
-Заповнює фрагментарну відповідь, звільняючи запит відповідним чином
-
--   [« EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.html)
-    
--   [EventHttpRequest::sendReplyStart »](eventhttprequest.sendreplystart.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Заповнює фрагментарну відповідь, звільняючи запит відповідним чином
-    
-
+---
+navigation:
+  - eventhttprequest.sendreplychunk.html: '« EventHttpRequest::sendReplyChunk'
+  - eventhttprequest.sendreplystart.html: 'EventHttpRequest::sendReplyStart »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::sendReplyEnd'
+---
 # EventHttpRequest::sendReplyEnd
 
 (PECL event >= 1.4.0-beta)

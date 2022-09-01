@@ -1,16 +1,11 @@
-Перевірити, чи ініціалізована властивість
-
--   [« ReflectionProperty::isDefault](reflectionproperty.isdefault.html)
-    
--   [ReflectionProperty::isPrivate »](reflectionproperty.isprivate.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Перевірити, чи ініціалізована властивість
-    
-
+---
+navigation:
+  - reflectionproperty.isdefault.html: '« ReflectionProperty::isDefault'
+  - reflectionproperty.isprivate.html: 'ReflectionProperty::isPrivate »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::isInitialized'
+---
 # ReflectionProperty::isInitialized
 
 (PHP 7> = 7.4.0, PHP 8)
@@ -41,9 +36,9 @@ public ReflectionProperty::isInitialized(?object $object = null): bool
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `object` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `object` тепер допускає значення null. |
 
 ### Приклади
 

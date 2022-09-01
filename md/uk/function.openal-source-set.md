@@ -1,16 +1,11 @@
-Встановити властивість джерела
-
--   [« openalsourcerewind](function.openal-source-rewind.html)
-    
--   [openalsourcestop »](function.openal-source-stop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Встановити властивість джерела
-    
-
+---
+navigation:
+  - function.openal-source-rewind.html: « openalsourcerewind
+  - function.openal-source-stop.html: openalsourcestop »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalsourceset
+---
 # openalsourceset
 
 (PECL openal >= 0.1.0)

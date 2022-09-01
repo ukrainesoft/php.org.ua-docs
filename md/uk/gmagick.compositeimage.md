@@ -1,16 +1,11 @@
-Накладає одне зображення на інше
-
--   [« Gmagick::commentimage](gmagick.commentimage.md)
-    
--   [Gmagick::construct »](gmagick.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Накладає одне зображення на інше
-    
-
+---
+navigation:
+  - gmagick.commentimage.md: '« Gmagick::commentimage'
+  - gmagick.construct.md: 'Gmagick::construct »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::compositeimage'
+---
 # Gmagick::compositeimage
 
 (PECL gmagick >= Unknown)

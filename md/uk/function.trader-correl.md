@@ -1,16 +1,11 @@
-Лінійний коефіцієнт кореляції r-пірсона
-
--   [« tradercmo](function.trader-cmo.html)
-    
--   [tradercos »](function.trader-cos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Лінійний коефіцієнт кореляції r-пірсона
-    
-
+---
+navigation:
+  - function.trader-cmo.html: « tradercmo
+  - function.trader-cos.html: tradercos »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercorrel
+---
 # tradercorrel
 
 (PECL trader >= 0.2.0)

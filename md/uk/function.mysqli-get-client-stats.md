@@ -1,16 +1,11 @@
-Отримати клієнтську попроцесну статистику
-
--   [« mysqliexecute](function.mysqli-execute.html)
-    
--   [mysqligetlinksstats »](function.mysqli-get-links-stats.html)
-    
--   [PHP Manual](index.html)
-    
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
-    
--   Отримати клієнтську попроцесну статистику
-    
-
+---
+navigation:
+  - function.mysqli-execute.html: « mysqliexecute
+  - function.mysqli-get-links-stats.html: mysqligetlinksstats »
+  - index.html: PHP Manual
+  - ref.mysqli.html: Синоніми та застарілі функції Mysqli
+title: mysqligetclientstats
+---
 # mysqligetclientstats
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

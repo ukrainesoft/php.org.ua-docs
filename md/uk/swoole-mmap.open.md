@@ -1,16 +1,11 @@
-Відобразити файл у пам'ять та повернути ресурс потоку, який може використовуватись операціями потоку PHP
-
--   [« SwooleMmap](class.swoole-mmap.html)
-    
--   [SwooleMySQL »](class.swoole-mysql.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleMmap](class.swoole-mmap.html)
-    
--   Відобразити файл у пам'ять та повернути ресурс потоку, який може використовуватись операціями потоку PHP
-    
-
+---
+navigation:
+  - class.swoole-mmap.html: « SwooleMmap
+  - class.swoole-mysql.html: SwooleMySQL »
+  - index.md: PHP Manual
+  - class.swoole-mmap.html: SwooleMmap
+title: 'SwooleMmap::open'
+---
 # SwooleMmap::open
 
 (PECL swoole >= 1.9.0)

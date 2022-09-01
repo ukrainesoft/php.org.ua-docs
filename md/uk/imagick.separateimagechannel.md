@@ -1,16 +1,11 @@
-Відокремлює канал від зображення
-
--   [« Imagick::selectiveBlurImage](imagick.selectiveblurimage.html)
-    
--   [Imagick::sepiaToneImage »](imagick.sepiatoneimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Відокремлює канал від зображення
-    
-
+---
+navigation:
+  - imagick.selectiveblurimage.html: '« Imagick::selectiveBlurImage'
+  - imagick.sepiatoneimage.html: 'Imagick::sepiaToneImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::separateImageChannel'
+---
 # Imagick::separateImageChannel
 
 (PECL imagick 2, PECL imagick 3)

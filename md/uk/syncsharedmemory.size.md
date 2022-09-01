@@ -1,16 +1,11 @@
-Повертає розмір іменованої пам'яті, що розділяється
-
--   [« SyncSharedMemory::read](syncsharedmemory.read.html)
-    
--   [SyncSharedMemory::write »](syncsharedmemory.write.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncSharedMemory](class.syncsharedmemory.html)
-    
--   Повертає розмір іменованої пам'яті, що розділяється
-    
-
+---
+navigation:
+  - syncsharedmemory.read.html: '« SyncSharedMemory::read'
+  - syncsharedmemory.write.html: 'SyncSharedMemory::write »'
+  - index.html: PHP Manual
+  - class.syncsharedmemory.html: SyncSharedMemory
+title: 'Sync Shared Memory::size'
+---
 # Sync Shared Memory::size
 
 (PECL sync >= 1.1.0)

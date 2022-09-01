@@ -1,16 +1,11 @@
-Отримати максимальну довжину вказаного стовпця
-
--   [« cubridfieldflags](function.cubrid-field-flags.html)
-    
--   [cubridfieldname »](function.cubrid-field-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Отримати максимальну довжину вказаного стовпця
-    
-
+---
+navigation:
+  - function.cubrid-field-flags.html: « cubridfieldflags
+  - function.cubrid-field-name.html: cubridfieldname »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridfieldlen
+---
 # cubridfieldlen
 
 (PECL CUBRID >= 8.3.0)

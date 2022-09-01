@@ -1,16 +1,11 @@
-Отримує інформацію про прапори
-
--   [« MultipleIterator::detachIterator](multipleiterator.detachiterator.html)
-    
--   [MultipleIterator::key »](multipleiterator.key.html)
-    
--   [PHP Manual](index.html)
-    
--   [MultipleIterator](class.multipleiterator.html)
-    
--   Отримує інформацію про прапори
-    
-
+---
+navigation:
+  - multipleiterator.detachiterator.html: '« MultipleIterator::detachIterator'
+  - multipleiterator.key.html: 'MultipleIterator::key »'
+  - index.html: PHP Manual
+  - class.multipleiterator.html: MultipleIterator
+title: 'MultipleIterator::getFlags'
+---
 # MultipleIterator::getFlags
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

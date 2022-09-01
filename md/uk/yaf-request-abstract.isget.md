@@ -1,16 +1,11 @@
-Визначає, чи є запит GET-запитом
-
--   [« YafRequestAbstract::isDispatched](yaf-request-abstract.isdispatched.html)
-    
--   [YafRequestAbstract::isHead »](yaf-request-abstract.ishead.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи є запит GET-запитом
-    
-
+---
+navigation:
+  - yaf-request-abstract.isdispatched.html: '« YafRequestAbstract::isDispatched'
+  - yaf-request-abstract.ishead.html: 'YafRequestAbstract::isHead »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isGet'
+---
 # YafRequestAbstract::isGet
 
 (Yaf >=1.0.0)

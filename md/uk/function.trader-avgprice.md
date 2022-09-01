@@ -1,16 +1,11 @@
-Середня ціна
-
--   [« traderatr](function.trader-atr.html)
-    
--   [traderbbands »](function.trader-bbands.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Середня ціна
-    
-
+---
+navigation:
+  - function.trader-atr.html: « traderatr
+  - function.trader-bbands.html: traderbbands »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderavgprice
+---
 # traderavgprice
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Повертає інформацію про операційну систему, на якій запущено PHP
-
--   [« phpsapiname](function.php-sapi-name.html)
-    
--   [phpcredits »](function.phpcredits.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає інформацію про операційну систему, на якій запущено PHP
-    
-
+---
+navigation:
+  - function.php-sapi-name.html: « phpsapiname
+  - function.phpcredits.md: phpcredits »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: phpuname
+---
 # phpuname
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Зупиняє буферизацію та записує всі зміни на диск
-
--   [« Phar::startBuffering](phar.startbuffering.md)
-    
--   [Phar::unlinkArchive »](phar.unlinkarchive.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Зупиняє буферизацію та записує всі зміни на диск
-    
-
+---
+navigation:
+  - phar.startbuffering.md: '« Phar::startBuffering'
+  - phar.unlinkarchive.md: 'Phar::unlinkArchive »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::stopBuffering'
+---
 # Phar::stopBuffering
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

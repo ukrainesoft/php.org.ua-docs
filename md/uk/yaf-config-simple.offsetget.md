@@ -1,16 +1,11 @@
-Призначення offsetGet
-
--   [« YafConfigSimple::offsetExists](yaf-config-simple.offsetexists.html)
-    
--   [YafConfigSimple::offsetSet »](yaf-config-simple.offsetset.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Призначення offsetGet
-    
-
+---
+navigation:
+  - yaf-config-simple.offsetexists.html: '« YafConfigSimple::offsetExists'
+  - yaf-config-simple.offsetset.html: 'YafConfigSimple::offsetSet »'
+  - index.html: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::offsetGet'
+---
 # YafConfigSimple::offsetGet
 
 (Yaf >=1.0.0)

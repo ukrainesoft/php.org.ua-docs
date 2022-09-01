@@ -1,16 +1,11 @@
-Повертає атрибути елемента архіву
-
--   [« RarEntry::extract](rarentry.extract.html)
-    
--   [RarEntry::getCrc »](rarentry.getcrc.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarEntry](class.rarentry.html)
-    
--   Повертає атрибути елемента архіву
-    
-
+---
+navigation:
+  - rarentry.extract.html: '« RarEntry::extract'
+  - rarentry.getcrc.html: 'RarEntry::getCrc »'
+  - index.html: PHP Manual
+  - class.rarentry.html: RarEntry
+title: 'RarEntry::getAttr'
+---
 # RarEntry::getAttr
 
 (PECL rar >= 0.1)

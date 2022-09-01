@@ -1,16 +1,11 @@
-Скинути дані вихідного запиту на з'єднанні
-
--   [« pgfieldtype](function.pg-field-type.html)
-    
--   [пгfreeresult »](function.pg-free-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Скинути дані вихідного запиту на з'єднанні
-    
-
+---
+navigation:
+  - function.pg-field-type.html: « pgfieldtype
+  - function.pg-free-result.html: пгfreeresult »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгflush
+---
 # пгflush
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -37,6 +32,6 @@ pg_flush(PgSql\Connection $connection): int|bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

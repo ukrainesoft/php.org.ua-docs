@@ -1,16 +1,11 @@
-Виконує підзапит Apache
-
--   [« getallheaders](function.getallheaders.md)
-    
--   [Менеджер процесів FastCGI »](book.fpm.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Apache](ref.apache.md)
-    
--   Виконує підзапит Apache
-    
-
+---
+navigation:
+  - function.getallheaders.md: « getallheaders
+  - book.fpm.md: Менеджер процесів FastCGI »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: virtual
+---
 # virtual
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

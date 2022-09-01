@@ -1,16 +1,11 @@
-Встановлює мінімальну кількість днів, яка може бути у першому тижні на рік або місяць
-
--   [« IntlCalendar::setLenient](intlcalendar.setlenient.html)
-    
--   [IntlCalendar::setRepeatedWallTimeOption »](intlcalendar.setrepeatedwalltimeoption.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Встановлює мінімальну кількість днів, яка може бути у першому тижні на рік або місяць
-    
-
+---
+navigation:
+  - intlcalendar.setlenient.html: '« IntlCalendar::setLenient'
+  - intlcalendar.setrepeatedwalltimeoption.html: 'IntlCalendar::setRepeatedWallTimeOption »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::setMinimalDaysInFirstWeek'
+---
 # IntlCalendar::setMinimalDaysInFirstWeek
 
 (PHP 5> = 5.5.1, PHP 7, PHP 8)

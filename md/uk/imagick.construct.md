@@ -1,16 +1,11 @@
-Конструктор об'єкту Imagick
-
--   [« Imagick::compositeImage](imagick.compositeimage.md)
-    
--   [Imagick::contrastImage »](imagick.contrastimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Конструктор об'єкту Imagick
-    
-
+---
+navigation:
+  - imagick.compositeimage.md: '« Imagick::compositeImage'
+  - imagick.contrastimage.md: 'Imagick::contrastImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::construct'
+---
 # Imagick::construct
 
 (PECL imagick 2, PECL imagick 3)

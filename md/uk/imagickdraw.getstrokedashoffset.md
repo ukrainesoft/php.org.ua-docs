@@ -1,16 +1,11 @@
-Повертає зміщення у штриховому патерні для початку штрихування
-
--   [« ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.md)
-    
--   [ImagickDraw::getStrokeLineCap »](imagickdraw.getstrokelinecap.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає зміщення у штриховому патерні для початку штрихування
-    
-
+---
+navigation:
+  - imagickdraw.getstrokedasharray.md: '« ImagickDraw::getStrokeDashArray'
+  - imagickdraw.getstrokelinecap.md: 'ImagickDraw::getStrokeLineCap »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getStrokeDashOffset'
+---
 # ImagickDraw::getStrokeDashOffset
 
 (PECL imagick 2, PECL imagick 3)

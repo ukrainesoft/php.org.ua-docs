@@ -1,16 +1,11 @@
-Вибирає записи з бази даних
-
--   [« pgresultstatus](function.pg-result-status.html)
-    
--   [пгsendexecute »](function.pg-send-execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Вибирає записи з бази даних
-    
-
+---
+navigation:
+  - function.pg-result-status.html: « pgresultstatus
+  - function.pg-send-execute.html: пгsendexecute »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгselect
+---
 # пгselect
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ pg_select(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Доданий параметр `mode`                                                                                                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Доданий параметр `mode` |
 
 ### Приклади
 

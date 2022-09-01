@@ -1,16 +1,11 @@
-Видаляє запис із директорії LDAP
-
--   [« ldapdeleteext](function.ldap-delete-ext.html)
-    
--   [ldapdn2ufn »](function.ldap-dn2ufn.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Видаляє запис із директорії LDAP
-    
-
+---
+navigation:
+  - function.ldap-delete-ext.html: « ldapdeleteext
+  - function.ldap-dn2ufn.html: ldapdn2ufn »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapdelete
+---
 # ldapdelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,11 +40,11 @@ ldap_delete(LDAP\Connection $ldap, string $dn, ?array $controls = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                    |
-|        | Додано підтримку параметра `controls`                                                                                                                |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 

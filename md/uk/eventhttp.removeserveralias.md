@@ -1,16 +1,11 @@
-Видаляє псевдонім сервера
-
--   [« EventHttp::construct](eventhttp.construct.md)
-    
--   [EventHttp::setAllowedMethods »](eventhttp.setallowedmethods.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Видаляє псевдонім сервера
-    
-
+---
+navigation:
+  - eventhttp.construct.md: '« EventHttp::construct'
+  - eventhttp.setallowedmethods.md: 'EventHttp::setAllowedMethods »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::removeServerAlias'
+---
 # EventHttp::removeServerAlias
 
 (PECL event >= 1.4.0-beta)

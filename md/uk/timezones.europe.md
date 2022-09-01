@@ -1,16 +1,11 @@
-Європа
-
--   [« Австралія](timezones.australia.html)
-    
--   [Індійська »](timezones.indian.html)
-    
--   [PHP Manual](index.html)
-    
--   [Список підтримуваних часових поясів](timezones.html)
-    
--   Європа
-    
-
+---
+navigation:
+  - timezones.australia.html: « Австралія
+  - timezones.indian.html: Індійська »
+  - index.html: PHP Manual
+  - timezones.html: Список підтримуваних часових поясів
+title: Європа
+---
 ## Європа
 
 < td>Europe/Busingen< /tr>

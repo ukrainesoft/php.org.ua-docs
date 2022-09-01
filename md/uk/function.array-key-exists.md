@@ -1,16 +1,11 @@
-Перевіряє, чи присутній у масиві зазначений ключ чи індекс
-
--   [« arrayісlist](function.array-is-list.html)
-    
--   [arraykeyfirst »](function.array-key-first.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Перевіряє, чи присутній у масиві зазначений ключ чи індекс
-    
-
+---
+navigation:
+  - function.array-is-list.html: « arrayісlist
+  - function.array-key-first.html: arraykeyfirst »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraykeyexists
+---
 # arraykeyexists
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Передача за посиланням
-
--   [« Чим посилання не є](language.references.arent.md)
-    
--   [Повернення за посиланням »](language.references.return.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пояснення посилань](language.references.md)
-    
--   Передача за посиланням
-    
-
+---
+navigation:
+  - language.references.arent.md: « Чим посилання не є
+  - language.references.return.md: Повернення за посиланням »
+  - index.md: PHP Manual
+  - language.references.md: Пояснення посилань
+title: Передача за посиланням
+---
 ## Передача за посиланням
 
 Ви можете передати змінну в функцію посилання, щоб вона могла змінювати значення аргументу. Синтаксис виглядає так:

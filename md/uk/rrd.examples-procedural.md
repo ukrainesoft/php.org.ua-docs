@@ -1,16 +1,11 @@
-Процедурний приклад PECL/rrd
-
--   [« Приклади](rrd.examples.md)
-    
--   [Об'єктно-орієнтований приклад PECL/rrd »](rrd.examples-oop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](rrd.examples.md)
-    
--   Процедурний приклад PECL/rrd
-    
-
+---
+navigation:
+  - rrd.examples.md: « Приклади
+  - rrd.examples-oop.html: Об'єктно-орієнтований приклад PECL/rrd »
+  - index.md: PHP Manual
+  - rrd.examples.md: Приклади
+title: Процедурний приклад PECL/rrd
+---
 ## Процедурний приклад PECL/rrd
 
 **Приклад #1 Використання rrd у процедурному стилі**

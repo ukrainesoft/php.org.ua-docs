@@ -1,16 +1,11 @@
-Встановити nonce для наступних запитів
-
--   [« OAuth::setCAPath](oauth.setcapath.html)
-    
--   [OAuth::setRequestEngine »](oauth.setrequestengine.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Встановити nonce для наступних запитів
-    
-
+---
+navigation:
+  - oauth.setcapath.html: '« OAuth::setCAPath'
+  - oauth.setrequestengine.html: 'OAuth::setRequestEngine »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::setNonce'
+---
 # OAuth::setNonce
 
 (PECL OAuth >= 0.99.1)
@@ -37,8 +32,8 @@ public OAuth::setNonce(string $nonce): mixed
 
 ### список змін
 
-| Версия           | Описание                                                                   |
-|------------------|----------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Дивіться також

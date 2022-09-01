@@ -1,16 +1,11 @@
-Повертає палітру кольорів зображення
-
--   [« Imagick::getImageColors](imagick.getimagecolors.html)
-    
--   [Imagick::getImageCompose »](imagick.getimagecompose.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає палітру кольорів зображення
-    
-
+---
+navigation:
+  - imagick.getimagecolors.html: '« Imagick::getImageColors'
+  - imagick.getimagecompose.html: 'Imagick::getImageCompose »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageColorspace'
+---
 # Imagick::getImageColorspace
 
 (PECL imagick 2, PECL imagick 3)

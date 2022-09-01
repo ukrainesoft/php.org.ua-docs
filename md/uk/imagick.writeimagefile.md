@@ -1,16 +1,11 @@
-Записує зображення у файл
-
--   [« Imagick::writeImage](imagick.writeimage.md)
-    
--   [Imagick::writeImages »](imagick.writeimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Записує зображення у файл
-    
-
+---
+navigation:
+  - imagick.writeimage.md: '« Imagick::writeImage'
+  - imagick.writeimages.md: 'Imagick::writeImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::writeImageFile'
+---
 # Imagick::writeImageFile
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

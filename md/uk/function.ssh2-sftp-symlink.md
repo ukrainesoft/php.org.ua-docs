@@ -1,16 +1,11 @@
-Створити символічне посилання
-
--   [« ssh2sftpstat](function.ssh2-sftp-stat.html)
-    
--   [ssh2sftpunlink »](function.ssh2-sftp-unlink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Створити символічне посилання
-    
-
+---
+navigation:
+  - function.ssh2-sftp-stat.html: « ssh2sftpstat
+  - function.ssh2-sftp-unlink.html: ssh2sftpunlink »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftpsymlink
+---
 # ssh2sftpsymlink
 
 (PECL ssh2> = 0.9.0)

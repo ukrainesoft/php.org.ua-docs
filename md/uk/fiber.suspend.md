@@ -1,16 +1,11 @@
-Зупиняє виконання поточного файбера
-
--   [« Fiber::isTerminated](fiber.isterminated.md)
-    
--   [Fiber::getCurrent »](fiber.getcurrent.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Зупиняє виконання поточного файбера
-    
-
+---
+navigation:
+  - fiber.isterminated.md: '« Fiber::isTerminated'
+  - fiber.getcurrent.md: 'Fiber::getCurrent »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::suspend'
+---
 # Fiber::suspend
 
 (PHP 8> = 8.1.0)

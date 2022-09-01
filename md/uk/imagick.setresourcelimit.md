@@ -1,16 +1,11 @@
-Встановлює ліміт для конкретного ресурсу
-
--   [« Imagick::setResolution](imagick.setresolution.html)
-    
--   [Imagick::setSamplingFactors »](imagick.setsamplingfactors.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює ліміт для конкретного ресурсу
-    
-
+---
+navigation:
+  - imagick.setresolution.html: '« Imagick::setResolution'
+  - imagick.setsamplingfactors.html: 'Imagick::setSamplingFactors »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setResourceLimit'
+---
 # Imagick::setResourceLimit
 
 (PECL imagick 2, PECL imagick 3)

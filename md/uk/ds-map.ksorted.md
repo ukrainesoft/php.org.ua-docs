@@ -1,16 +1,11 @@
-Повертає копію колекції, відсортованої за ключами
-
--   [« DsMap::ksort](ds-map.ksort.html)
-    
--   [ДсMap::last »](ds-map.last.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає копію колекції, відсортованої за ключами
-    
-
+---
+navigation:
+  - ds-map.ksort.html: '« DsMap::ksort'
+  - ds-map.last.html: 'ДсMap::last »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::ksorted'
+---
 # ДсMap::ksorted
 
 (No version information available, might only be in Git)

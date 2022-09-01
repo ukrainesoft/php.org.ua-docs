@@ -1,16 +1,11 @@
-Отримує константи класу
-
--   [« ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md)
-    
--   [ReflectionClass::getShortName »](reflectionclass.getshortname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Отримує константи класу
-    
-
+---
+navigation:
+  - reflectionclass.getreflectionconstant.md: '« ReflectionClass::getReflectionConstant'
+  - reflectionclass.getshortname.md: 'ReflectionClass::getShortName »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getReflectionConstants'
+---
 # ReflectionClass::getReflectionConstants
 
 (PHP 7> = 7.1.0, PHP 8)
@@ -37,9 +32,9 @@ public ReflectionClass::getReflectionConstants(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание                  |
-|--------|---------------------------|
-|        | Доданий параметр `filter` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `filter` |
 
 ### Приклади
 

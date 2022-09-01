@@ -1,16 +1,11 @@
-Повертає версію MySQL сервера
-
--   [« mysqli::$protocolversion](mysqli.get-proto-info.html)
-    
--   [mysqli::$serverversion »](mysqli.get-server-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає версію MySQL сервера
-    
-
+---
+navigation:
+  - mysqli.get-proto-info.html: '« mysqli::$protocolversion'
+  - mysqli.get-server-version.html: 'mysqli::$serverversion »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$serverinfo'
+---
 # mysqli::$serverinfo
 
 # mysqli::getserverinfo

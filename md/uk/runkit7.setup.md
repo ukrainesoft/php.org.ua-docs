@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.runkit7.html)
-    
--   [Вимоги »](runkit7.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [runkit7](book.runkit7.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.runkit7.html: « Введение
+  - runkit7.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.runkit7.html: runkit7
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

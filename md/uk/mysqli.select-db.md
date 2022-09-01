@@ -1,16 +1,11 @@
-Встановлює базу даних для запитів
-
--   [« mysqli::savepoint](mysqli.savepoint.md)
-    
--   [mysqli::setcharset »](mysqli.set-charset.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Встановлює базу даних для запитів
-    
-
+---
+navigation:
+  - mysqli.savepoint.md: '« mysqli::savepoint'
+  - mysqli.set-charset.html: 'mysqli::setcharset »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::selectдб'
+---
 # mysqli::selectдб
 
 # mysqliselectдб

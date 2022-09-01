@@ -1,16 +1,11 @@
-Реєстрація та виведення розширень файлів для splautoload
-
--   [« splautoloadcall](function.spl-autoload-call.html)
-    
--   [splautoloadfunctions »](function.spl-autoload-functions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Реєстрація та виведення розширень файлів для splautoload
-    
-
+---
+navigation:
+  - function.spl-autoload-call.html: « splautoloadcall
+  - function.spl-autoload-functions.html: splautoloadfunctions »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: splautoloadextensions
+---
 # splautoloadextensions
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ spl_autoload_extensions(?string $file_extensions = null): string
 
 ### список змін
 
-| Версия | Описание                                        |
-|--------|-------------------------------------------------|
-|        | `file_extensions` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `file_extensions` тепер допускає значення null. |
 
 ### Приклади
 

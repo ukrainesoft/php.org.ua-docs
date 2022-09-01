@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.hash.html)
-    
--   [Вимоги »](hash.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Hash](book.hash.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.hash.html: « Введение
+  - hash.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.hash.html: Hash
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

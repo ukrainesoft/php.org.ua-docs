@@ -1,16 +1,11 @@
-Створює нове зображення з файлу чи URL
-
--   [« imagecreatefromxbm](function.imagecreatefromxbm.md)
-    
--   [imagecreatetruecolor »](function.imagecreatetruecolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Створює нове зображення з файлу чи URL
-    
-
+---
+navigation:
+  - function.imagecreatefromxbm.md: « imagecreatefromxbm
+  - function.imagecreatetruecolor.md: imagecreatetruecolor »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromxpm
+---
 # imagecreatefromxpm
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagecreatefromxpm(string $filename): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

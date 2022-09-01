@@ -1,16 +1,11 @@
-Міграція з PHP 7.3.x на PHP 7.4.x
-
--   [« Другие изменения](migration80.other-changes.html)
-    
--   [Нові можливості "](migration74.new-features.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Міграція з PHP 7.3.x на PHP 7.4.x
-    
-
+---
+navigation:
+  - migration80.other-changes.html: « Другие изменения
+  - migration74.new-features.html: Нові можливості "
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Міграція з PHP 7.3.x на PHP 7.4.x
+---
 # Міграція з PHP 7.3.x на PHP 7.4.x
 
 ## Зміст

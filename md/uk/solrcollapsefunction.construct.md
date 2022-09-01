@@ -1,16 +1,11 @@
-Конструктор класу
-
--   [« SolrCollapseFunction](class.solrcollapsefunction.html)
-    
--   [SolrCollapseFunction::getField »](solrcollapsefunction.getfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
-    
--   Конструктор класу
-    
-
+---
+navigation:
+  - class.solrcollapsefunction.html: « SolrCollapseFunction
+  - solrcollapsefunction.getfield.html: 'SolrCollapseFunction::getField »'
+  - index.html: PHP Manual
+  - class.solrcollapsefunction.html: SolrCollapseFunction
+title: 'SolrCollapseFunction::construct'
+---
 # SolrCollapseFunction::construct
 
 (PECL solr> = 2.2.0)

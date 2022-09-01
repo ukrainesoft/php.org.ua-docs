@@ -1,16 +1,11 @@
-Отримати ім'я JavaScript
-
--   [« V8JsException](class.v8jsexception.md)
-    
--   [V8JsException::getJsLineNumber »](v8jsexception.getjslinenumber.md)
-    
--   [PHP Manual](index.md)
-    
--   [V8JsException](class.v8jsexception.md)
-    
--   Отримати ім'я JavaScript
-    
-
+---
+navigation:
+  - class.v8jsexception.md: « V8JsException
+  - v8jsexception.getjslinenumber.md: 'V8JsException::getJsLineNumber »'
+  - index.md: PHP Manual
+  - class.v8jsexception.md: V8JsException
+title: 'V8JsException::getJsFileName'
+---
 # V8JsException::getJsFileName
 
 (PECL v8js >= 0.1.0)

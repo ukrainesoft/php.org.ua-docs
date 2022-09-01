@@ -1,16 +1,11 @@
-Виділяє пам'ять під зазначену місткість
-
--   [« DsSet::add](ds-set.add.html)
-    
--   [ДсSet::capacity »](ds-set.capacity.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Виділяє пам'ять під зазначену місткість
-    
-
+---
+navigation:
+  - ds-set.add.html: '« DsSet::add'
+  - ds-set.capacity.html: 'ДсSet::capacity »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::allocate'
+---
 # ДсSet::allocate
 
 (PECL ds >= 1.0.0)

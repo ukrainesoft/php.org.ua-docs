@@ -1,16 +1,11 @@
-Клас ZMQPoll
-
--   [« ZMQSocket::unbind](zmqsocket.unbind.md)
-    
--   [ZMQPoll::add »](zmqpoll.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обмін повідомленнями 0MQ](book.zmq.md)
-    
--   Клас ZMQPoll
-    
-
+---
+navigation:
+  - zmqsocket.unbind.md: '« ZMQSocket::unbind'
+  - zmqpoll.add.md: 'ZMQPoll::add »'
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
+title: Клас ZMQPoll
+---
 # Клас ZMQPoll
 
 (PECL zmq >= 0.5.0)

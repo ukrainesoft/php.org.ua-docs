@@ -1,33 +1,28 @@
-Налаштування під час виконання
-
--   [« Установка](swoole.installation.html)
-    
--   [Типи ресурсів »](swoole.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](swoole.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - swoole.installation.html: « Установка
+  - swoole.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - swoole.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Swoole**
 
-| Имя                                                                                                  | По умолчанию | Место изменения | Список изменений                   |
-|------------------------------------------------------------------------------------------------------|--------------|-----------------|------------------------------------|
-| [swoole.aiothreadnum](swoole.configuration.html#ini.swoole.aio-thread-num)                           |              | PHPINIALL       |                                    |
-| [swoole.displayerrors](swoole.configuration.html#ini.swoole.display-errors)                          | Він          | PHPINIALL       |                                    |
-| [swoole.fastserialize](swoole.configuration.html#ini.swoole.fast-serialize)                          | Off          | PHPINIALL       |                                    |
-| [swoole.unixsockbuffersize](swoole.configuration.html#ini.swoole.unixsock-buffer-size)               |              | PHPINIALL       |                                    |
-| [swoole.usenamespace](swoole.configuration.html#ini.swoole.use-namespace)                            | Він          | PHPINISYSTEM    |                                    |
-| [swoole.enablecoroutine](swoole.configuration.html#ini.swoole.enable-coroutine)                      | Він          | PHPINIALL       | Доступно, починаючи з swoole 4.0.0 |
-| [swoole.useshortname](swoole.configuration.html#ini.swoole.use-shortname)                            | Він          | PHPINIALL       | Доступно, починаючи з swoole 4.0.0 |
-| [swoole.enablepreemptivescheduler](swoole.configuration.html#ini.swoole.enable-preemptive-scheduler) | Off          | PHPINIALL       | Доступно, починаючи з swoole 4.4.0 |
-| [swoole.enablelibrary](swoole.configuration.html#ini.swoole.enable-library)                          | Він          | PHPINIALL       | Доступно, починаючи з swoole 4.0.0 |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [swoole.aiothreadnum](swoole.configuration.html#ini.swoole.aio-thread-num) |  | PHPINIALL |  |
+| [swoole.displayerrors](swoole.configuration.html#ini.swoole.display-errors) | Він | PHPINIALL |  |
+| [swoole.fastserialize](swoole.configuration.html#ini.swoole.fast-serialize) | Off | PHPINIALL |  |
+| [swoole.unixsockbuffersize](swoole.configuration.html#ini.swoole.unixsock-buffer-size) |  | PHPINIALL |  |
+| [swoole.usenamespace](swoole.configuration.html#ini.swoole.use-namespace) | Він | PHPINISYSTEM |  |
+| [swoole.enablecoroutine](swoole.configuration.html#ini.swoole.enable-coroutine) | Він | PHPINIALL | Доступно, починаючи з swoole 4.0.0 |
+| [swoole.useshortname](swoole.configuration.html#ini.swoole.use-shortname) | Він | PHPINIALL | Доступно, починаючи з swoole 4.0.0 |
+| [swoole.enablepreemptivescheduler](swoole.configuration.html#ini.swoole.enable-preemptive-scheduler) | Off | PHPINIALL | Доступно, починаючи з swoole 4.4.0 |
+| [swoole.enablelibrary](swoole.configuration.html#ini.swoole.enable-library) | Він | PHPINIALL | Доступно, починаючи з swoole 4.0.0 |
 
 Коротке пояснення конфігураційних директив.
 

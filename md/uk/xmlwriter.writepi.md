@@ -1,16 +1,11 @@
-Записати інструкцію обробки (PI)
-
--   [« XMLWriter::writeElementNs](xmlwriter.writeelementns.html)
-    
--   [XMLWriter::writeRaw »](xmlwriter.writeraw.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати інструкцію обробки (PI)
-    
-
+---
+navigation:
+  - xmlwriter.writeelementns.html: '« XMLWriter::writeElementNs'
+  - xmlwriter.writeraw.html: 'XMLWriter::writeRaw »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::writePi'
+---
 # XMLWriter::writePi
 
 # xmlwriterwriteпі
@@ -55,9 +50,9 @@ xmlwriter_write_pi(XMLWriter $writer, string $target, string $content): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

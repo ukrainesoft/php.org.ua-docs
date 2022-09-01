@@ -1,16 +1,11 @@
-Створення директорії
-
--   [« eiolstat](function.eio-lstat.html)
-    
--   [eiomknod »](function.eio-mknod.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Створення директорії
-    
-
+---
+navigation:
+  - function.eio-lstat.html: « eiolstat
+  - function.eio-mknod.html: eiomknod »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiomkdir
+---
 # eiomkdir
 
 (PECL eio >= 0.0.1dev)

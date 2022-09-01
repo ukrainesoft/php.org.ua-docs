@@ -1,16 +1,11 @@
-Клас SwooleTimer
-
--   [« SwooleTable::valid](swoole-table.valid.html)
-    
--   [SwooleTimer::after »](swoole-timer.after.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleTimer
-    
-
+---
+navigation:
+  - swoole-table.valid.html: '« SwooleTable::valid'
+  - swoole-timer.after.html: 'SwooleTimer::after »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleTimer
+---
 # Клас SwooleTimer
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Створити нове цебро для використання в поточному потоці
-
--   [« streambucketmakewriteable](function.stream-bucket-make-writeable.html)
-    
--   [streambucketprepend »](function.stream-bucket-prepend.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Створити нове цебро для використання в поточному потоці
-    
-
+---
+navigation:
+  - function.stream-bucket-make-writeable.html: « streambucketmakewriteable
+  - function.stream-bucket-prepend.html: streambucketprepend »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streambucketnew
+---
 # streambucketnew
 
 (PHP 5, PHP 7, PHP 8)

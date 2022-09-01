@@ -1,16 +1,11 @@
-Призначення offsetExists
-
--   [« YafSession::next](yaf-session.next.html)
-    
--   [YafSession::offsetGet »](yaf-session.offsetget.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення offsetExists
-    
-
+---
+navigation:
+  - yaf-session.next.html: '« YafSession::next'
+  - yaf-session.offsetget.html: 'YafSession::offsetGet »'
+  - index.md: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::offsetExists'
+---
 # YafSession::offsetExists
 
 (Yaf >=1.0.0)

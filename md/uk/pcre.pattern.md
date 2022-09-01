@@ -1,16 +1,11 @@
-Регулярні вирази PCRE
-
--   [« Приклади](pcre.examples.md)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів »](reference.pcre.pattern.syntax.md)
-    
--   [PHP Manual](index.md)
-    
--   [PCRE](book.pcre.md)
-    
--   Регулярні вирази PCRE
-    
-
+---
+navigation:
+  - pcre.examples.md: « Приклади
+  - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів »
+  - index.md: PHP Manual
+  - book.pcre.md: PCRE
+title: Регулярні вирази PCRE
+---
 # Регулярні вирази PCRE
 
 ## Зміст

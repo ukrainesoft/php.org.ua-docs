@@ -1,16 +1,11 @@
-Клас UnexpectedValueException
-
--   [« UnderflowException](class.underflowexception.md)
-    
--   [Функції SPL »](ref.spl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Исключения](spl.exceptions.md)
-    
--   Клас UnexpectedValueException
-    
-
+---
+navigation:
+  - class.underflowexception.md: « UnderflowException
+  - ref.spl.md: Функції SPL »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
+title: Клас UnexpectedValueException
+---
 # Клас UnexpectedValueException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

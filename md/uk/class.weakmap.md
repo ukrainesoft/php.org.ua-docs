@@ -1,16 +1,11 @@
-Клас WeakMap
-
--   [« WeakReference::get](weakreference.get.md)
-    
--   [WeakMap::construct »](ext-weakmap.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-    
--   Клас WeakMap
-    
-
+---
+navigation:
+  - weakreference.get.md: '« WeakReference::get'
+  - ext-weakmap.construct.html: 'WeakMap::construct »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Клас WeakMap
+---
 # Клас WeakMap
 
 (PHP 8)

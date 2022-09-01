@@ -1,16 +1,11 @@
-Викликає SOAP-функцію
-
--   [« SoapClient::setSoapHeaders](soapclient.setsoapheaders.md)
-    
--   [SoapServer »](class.soapserver.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapClient](class.soapclient.md)
-    
--   Викликає SOAP-функцію
-    
-
+---
+navigation:
+  - soapclient.setsoapheaders.md: '« SoapClient::setSoapHeaders'
+  - class.soapserver.md: SoapServer »
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::soapCall'
+---
 # SoapClient::soapCall
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Видаляє та повертає значення з початку черги
-
--   [« DsQueue::peek](ds-queue.peek.html)
-    
--   [ДсQueue::push »](ds-queue.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга](class.ds-queue.html)
-    
--   Видаляє та повертає значення з початку черги
-    
-
+---
+navigation:
+  - ds-queue.peek.html: '« DsQueue::peek'
+  - ds-queue.push.html: 'ДсQueue::push »'
+  - index.md: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::pop'
+---
 # ДсQueue::pop
 
 (PECL ds >= 1.0.0)

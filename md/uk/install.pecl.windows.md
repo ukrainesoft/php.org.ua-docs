@@ -1,16 +1,11 @@
-Встановлення PHP-модуля у Windows
-
--   [« Завантаження модулів PECL](install.pecl.downloads.md)
-    
--   [Компіляція модулів, що розділяються за допомогою команди pecl »](install.pecl.pear.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка модулей PECL](install.pecl.md)
-    
--   Встановлення PHP-модуля у Windows
-    
-
+---
+navigation:
+  - install.pecl.downloads.md: « Завантаження модулів PECL
+  - install.pecl.pear.md: 'Компіляція модулів, що розділяються за допомогою команди pecl »'
+  - index.md: PHP Manual
+  - install.pecl.md: Установка модулей PECL
+title: Встановлення PHP-модуля у Windows
+---
 ## Встановлення PHP-модуля у Windows
 
 Windows має два способи завантаження PHP-модуля: скомпілювати його разом з PHP або завантажити DLL. Завантаження заздалегідь скомпілюваного модуля є найпростішим і кращим способом.

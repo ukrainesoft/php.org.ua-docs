@@ -1,16 +1,11 @@
-Отримати рядок, який містить прапори стовпця за вказаним індексом
-
--   [« cubridfetchrow](function.cubrid-fetch-row.html)
-    
--   [cubridfieldlen »](function.cubrid-field-len.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Отримати рядок, який містить прапори стовпця за вказаним індексом
-    
-
+---
+navigation:
+  - function.cubrid-fetch-row.html: « cubridfetchrow
+  - function.cubrid-field-len.html: cubridfieldlen »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridfieldflags
+---
 # cubridfieldflags
 
 (PECL CUBRID >= 8.3.0)

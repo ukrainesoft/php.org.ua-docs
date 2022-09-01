@@ -1,16 +1,11 @@
-Реєструє функцію для виконання при кожному тику
-
--   [« registershutdownfunction](function.register-shutdown-function.html)
-    
--   [unregistertickfunction »](function.unregister-tick-function.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции управления функциями](ref.funchand.html)
-    
--   Реєструє функцію для виконання при кожному тику
-    
-
+---
+navigation:
+  - function.register-shutdown-function.html: « registershutdownfunction
+  - function.unregister-tick-function.html: unregistertickfunction »
+  - index.html: PHP Manual
+  - ref.funchand.html: Функции управления функциями
+title: registertickfunction
+---
 # registertickfunction
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)

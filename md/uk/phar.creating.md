@@ -1,16 +1,11 @@
-Створення Phar-архівів
-
--   [« Використання Phar-архівів: класи Phar та PharData](phar.using.object.html)
-    
--   [Создание Phar-архивов: Введение »](phar.creating.intro.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](book.phar.html)
-    
--   Створення Phar-архівів
-    
-
+---
+navigation:
+  - phar.using.object.html: '« Використання Phar-архівів: класи Phar та PharData'
+  - phar.creating.intro.html: 'Создание Phar-архивов: Введение »'
+  - index.html: PHP Manual
+  - book.phar.html: Phar
+title: Створення Phar-архівів
+---
 # Створення Phar-архівів
 
 ## Зміст

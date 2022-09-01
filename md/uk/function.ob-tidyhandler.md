@@ -1,16 +1,11 @@
-Функція зворотного дзвінка obstart для відновлення буфера
-
--   [« Tidy](ref.tidy.md)
-    
--   [tidyaccesscount »](function.tidy-access-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Tidy](ref.tidy.md)
-    
--   Функція зворотного дзвінка obstart для відновлення буфера
-    
-
+---
+navigation:
+  - ref.tidy.md: « Tidy
+  - function.tidy-access-count.html: tidyaccesscount »
+  - index.md: PHP Manual
+  - ref.tidy.md: Tidy
+title: проtidyhandler
+---
 # проtidyhandler
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Завершити поточний документ
-
--   [« XMLWriter::endComment](xmlwriter.endcomment.html)
-    
--   [XMLWriter::endDtd »](xmlwriter.enddtd.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Завершити поточний документ
-    
-
+---
+navigation:
+  - xmlwriter.endcomment.html: '« XMLWriter::endComment'
+  - xmlwriter.enddtd.html: 'XMLWriter::endDtd »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::endDocument'
+---
 # XMLWriter::endDocument
 
 # xmlwriterenddocument
@@ -47,9 +42,9 @@ xmlwriter_end_document(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

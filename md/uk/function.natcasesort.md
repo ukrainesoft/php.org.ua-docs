@@ -1,16 +1,11 @@
-Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
-
--   [« list](function.list.md)
-    
--   [natsort »](function.natsort.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
-    
-
+---
+navigation:
+  - function.list.md: « list
+  - function.natsort.md: natsort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: natcasesort
+---
 # natcasesort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

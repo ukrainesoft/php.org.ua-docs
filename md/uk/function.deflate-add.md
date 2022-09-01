@@ -1,16 +1,11 @@
-Інкрементальний стиск даних
-
--   [« Функции Zlib](ref.zlib.md)
-    
--   [deflateinit »](function.deflate-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Інкрементальний стиск даних
-    
-
+---
+navigation:
+  - ref.zlib.md: « Функции Zlib
+  - function.deflate-init.html: deflateinit »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: deflateadd
+---
 # deflateadd
 
 (PHP 7, PHP 8)
@@ -49,9 +44,9 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### список змін
 
-| Версия | Описание                                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------------------|
-|        | `context` чекає на екземпляр [DeflateContext](class.deflatecontext.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `context` чекає на екземпляр [DeflateContext](class.deflatecontext.md); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

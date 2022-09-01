@@ -1,16 +1,11 @@
-Клас EventDnsBase
-
--   [« EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md)
-    
--   [EventDnsBase::addNameserverIp »](eventdnsbase.addnameserverip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventDnsBase
-    
-
+---
+navigation:
+  - eventconfig.setmaxdispatchinterval.md: '« EventConfig::setMaxDispatchInterval'
+  - eventdnsbase.addnameserverip.md: 'EventDnsBase::addNameserverIp »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventDnsBase
+---
 # Клас EventDnsBase
 
 (PECL event >= 1.2.6-beta)

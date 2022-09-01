@@ -1,16 +1,11 @@
-Функції модуля PDOSQLSRV для Microsoft SQL Server
-
--   [« PDOMYSQL DSN](ref.pdo-mysql.connection.html)
-    
--   [PDOSQLSRV DSN »](ref.pdo-sqlsrv.connection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Драйвери PDO](pdo.drivers.md)
-    
--   Функції модуля PDOSQLSRV для Microsoft SQL Server
-    
-
+---
+navigation:
+  - ref.pdo-mysql.connection.html: « PDOMYSQL DSN
+  - ref.pdo-sqlsrv.connection.html: PDOSQLSRV DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
+title: Функції модуля PDOSQLSRV для Microsoft SQL Server
+---
 # Функції модуля PDOSQLSRV для Microsoft SQL Server
 
 ## Вступ

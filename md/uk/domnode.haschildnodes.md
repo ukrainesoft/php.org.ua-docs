@@ -1,16 +1,11 @@
-Перевіряє, чи має цей вузол нащадків
-
--   [« DOMNode::hasAttributes](domnode.hasattributes.html)
-    
--   [DOMNode::insertBefore »](domnode.insertbefore.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNode](class.domnode.html)
-    
--   Перевіряє, чи має цей вузол нащадків
-    
-
+---
+navigation:
+  - domnode.hasattributes.html: '« DOMNode::hasAttributes'
+  - domnode.insertbefore.html: 'DOMNode::insertBefore »'
+  - index.html: PHP Manual
+  - class.domnode.html: DOMNode
+title: 'DOMNode::hasChildNodes'
+---
 # DOMNode::hasChildNodes
 
 (PHP 5, PHP 7, PHP 8)

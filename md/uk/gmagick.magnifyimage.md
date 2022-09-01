@@ -1,16 +1,11 @@
-Пропорційно масштабує зображення у 2 рази
-
--   [« Gmagick::levelimage](gmagick.levelimage.md)
-    
--   [Gmagick::mapimage »](gmagick.mapimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Пропорційно масштабує зображення у 2 рази
-    
-
+---
+navigation:
+  - gmagick.levelimage.md: '« Gmagick::levelimage'
+  - gmagick.mapimage.md: 'Gmagick::mapimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::magnifyimage'
+---
 # Gmagick::magnifyimage
 
 (PECL gmagick >= Unknown)

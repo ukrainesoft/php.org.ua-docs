@@ -1,16 +1,11 @@
-Запуск буферизації операцій запису, відключаючи запис змін Phar-архіву на диск
-
--   [« Phar::setStub](phar.setstub.md)
-    
--   [Phar::stopBuffering »](phar.stopbuffering.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Запуск буферизації операцій запису, відключаючи запис змін Phar-архіву на диск
-    
-
+---
+navigation:
+  - phar.setstub.md: '« Phar::setStub'
+  - phar.stopbuffering.md: 'Phar::stopBuffering »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::startBuffering'
+---
 # Phar::startBuffering
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

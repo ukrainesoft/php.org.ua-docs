@@ -1,16 +1,11 @@
-Додати операцію вставки в порцію
-
--   [« MongoDBDriverBulkWrite::delete](mongodb-driver-bulkwrite.delete.html)
-    
--   [MongoDBDriverBulkWrite::update »](mongodb-driver-bulkwrite.update.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html)
-    
--   Додати операцію вставки в порцію
-    
-
+---
+navigation:
+  - mongodb-driver-bulkwrite.delete.html: '« MongoDBDriverBulkWrite::delete'
+  - mongodb-driver-bulkwrite.update.html: 'MongoDBDriverBulkWrite::update »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite
+title: 'MongoDBDriverBulkWrite::insert'
+---
 # MongoDBDriverBulkWrite::insert
 
 (mongodb >=1.0.0)
@@ -41,8 +36,8 @@ public MongoDB\Driver\BulkWrite::insert(array|object $document): mixed
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                            |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.3.0 | Завжди повертається `_id` для доданого документа. Раніше метод повертав значення тільки якщо [MongoDBBSONObjectId](class.mongodb-bson-objectid.html) був створений. |
 
 ### Приклади

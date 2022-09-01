@@ -1,16 +1,11 @@
-Використовується для встановлення безпечних з'єднань за допомогою SSL
-
--   [« mysqli::$sqlstate](mysqli.sqlstate.md)
-    
--   [mysqli::stat »](mysqli.stat.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Використовується для встановлення безпечних з'єднань за допомогою SSL
-    
-
+---
+navigation:
+  - mysqli.sqlstate.md: '« mysqli::$sqlstate'
+  - mysqli.stat.md: 'mysqli::stat »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::sslset'
+---
 # mysqli::sslset
 
 # mysqlisslset

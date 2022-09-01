@@ -1,16 +1,11 @@
-Повертає порожній рядок
-
--   [« MongoDBBSONUndefined::serialize](mongodb-bson-undefined.serialize.html)
-    
--   [MongoDBBSONUndefined::unserialize »](mongodb-bson-undefined.unserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
-    
--   Повертає порожній рядок
-    
-
+---
+navigation:
+  - mongodb-bson-undefined.serialize.html: '« MongoDBBSONUndefined::serialize'
+  - mongodb-bson-undefined.unserialize.html: 'MongoDBBSONUndefined::unserialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined
+title: 'MongoDBBSONUndefined::toString'
+---
 # MongoDBBSONUndefined::toString
 
 (mongodb >=1.4.0)

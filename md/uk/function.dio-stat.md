@@ -1,16 +1,11 @@
-Отримати інформацію про файловий дескриптор
-
--   [« dioseek](function.dio-seek.html)
-    
--   [diotcsetattr »](function.dio-tcsetattr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції прямого введення/виводу](ref.dio.md)
-    
--   Отримати інформацію про файловий дескриптор
-    
-
+---
+navigation:
+  - function.dio-seek.html: « dioseek
+  - function.dio-tcsetattr.html: diotcsetattr »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
+title: dioстати
+---
 # dioстати
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

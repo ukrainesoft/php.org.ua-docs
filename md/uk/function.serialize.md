@@ -1,16 +1,11 @@
-Генерує придатне для зберігання уявлення змінної
-
--   [« printр](function.print-r.html)
-    
--   [settype »](function.settype.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Генерує придатне для зберігання уявлення змінної
-    
-
+---
+navigation:
+  - function.print-r.html: « printр
+  - function.settype.md: settype »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: serialize
+---
 # serialize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

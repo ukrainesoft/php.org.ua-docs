@@ -1,16 +1,11 @@
-Видаляє одне з полів більше
-
--   [« SolrQuery::removeHighlightField](solrquery.removehighlightfield.html)
-    
--   [SolrQuery::removeMltQueryField »](solrquery.removemltqueryfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Видаляє одне з полів більше
-    
-
+---
+navigation:
+  - solrquery.removehighlightfield.html: '« SolrQuery::removeHighlightField'
+  - solrquery.removemltqueryfield.html: 'SolrQuery::removeMltQueryField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::removeMltField'
+---
 # SolrQuery::removeMltField
 
 (PECL solr> = 0.9.2)

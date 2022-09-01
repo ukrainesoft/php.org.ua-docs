@@ -1,16 +1,11 @@
-Створює засіб форматування чисел
-
--   [« NumberFormatter](class.numberformatter.md)
-    
--   [NumberFormatter::formatCurrency »](numberformatter.formatcurrency.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Створює засіб форматування чисел
-    
-
+---
+navigation:
+  - class.numberformatter.md: « NumberFormatter
+  - numberformatter.formatcurrency.md: 'NumberFormatter::formatCurrency »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::create'
+---
 # NumberFormatter::create
 
 # numfmtcreate
@@ -61,9 +56,9 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `pattern` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `pattern` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
-
--   [« fannsetsarpropweightdecayshift](function.fann-set-sarprop-weight-decay-shift.html)
-    
--   [fannsettrainerrorfunction »](function.fann-set-train-error-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
-    
-
+---
+navigation:
+  - function.fann-set-sarprop-weight-decay-shift.html: « fannsetsarpropweightdecayshift
+  - function.fann-set-train-error-function.html: fannsettrainerrorfunction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetscalingparams
+---
 # fannsetscalingparams
 
 (PECL fann> = 1.0.0)

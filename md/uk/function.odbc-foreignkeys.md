@@ -1,16 +1,11 @@
-Повертає список зовнішніх ключів
-
--   [« odbcfieldtype](function.odbc-field-type.html)
-    
--   [odbcfreeresult »](function.odbc-free-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Повертає список зовнішніх ключів
-    
-
+---
+navigation:
+  - function.odbc-field-type.html: « odbcfieldtype
+  - function.odbc-free-result.html: odbcfreeresult »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcforeignkeys
+---
 # odbcforeignkeys
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

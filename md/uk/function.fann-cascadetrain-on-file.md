@@ -1,16 +1,11 @@
-Навчання на даних прочитаних із файлу за допомогою алгоритму Cascade2
-
--   [« fanncascadetrainвінdata](function.fann-cascadetrain-on-data.html)
-    
--   [fannclearscalingparams »](function.fann-clear-scaling-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Навчання на даних прочитаних із файлу за допомогою алгоритму Cascade2
-    
-
+---
+navigation:
+  - function.fann-cascadetrain-on-data.html: « fanncascadetrainвінdata
+  - function.fann-clear-scaling-params.html: fannclearscalingparams »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncascadetrainвінfile
+---
 # fanncascadetrainвінfile
 
 (PECL fann> = 1.0.0)

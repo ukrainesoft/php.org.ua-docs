@@ -1,16 +1,11 @@
-Повертає позицію першого входження підрядка без урахування регістру
-
--   [« stripcslashes](function.stripcslashes.md)
-    
--   [stripslashes »](function.stripslashes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає позицію першого входження підрядка без урахування регістру
-    
-
+---
+navigation:
+  - function.stripcslashes.md: « stripcslashes
+  - function.stripslashes.md: stripslashes »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: stripos
+---
 # stripos
 
 (PHP 5, PHP 7, PHP 8)
@@ -55,11 +50,11 @@ stripos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Передача цілого числа (int) `needle` більше не підтримується. |
-|        | Передача цілого числа (int) `needle` оголошено застарілою.    |
-|        | Додано підтримку негативних значень `offset`                  |
+| Версия | Описание |
+| --- | --- |
+|  | Передача цілого числа (int) `needle` більше не підтримується. |
+|  | Передача цілого числа (int) `needle` оголошено застарілою. |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 

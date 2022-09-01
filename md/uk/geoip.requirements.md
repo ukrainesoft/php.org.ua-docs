@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](geoip.setup.md)
-    
--   [Установка »](geoip.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](geoip.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - geoip.setup.md: « Встановлення та налаштування
+  - geoip.installation.md: Установка »
+  - index.md: PHP Manual
+  - geoip.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Цей модуль потребує встановлення встановленої бібліотеки мови C GeoIP версії 1.4.0 або вище. Ви можете отримати цю бібліотеку за посиланням [» http://www.maxmind.com/app/c](http://www.maxmind.com/app/c) і скомпілювати її самостійно.

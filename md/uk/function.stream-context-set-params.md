@@ -1,16 +1,11 @@
-Встановлює параметри потоку/обгортки/контексту
-
--   [« streamcontextsetoption](function.stream-context-set-option.html)
-    
--   [streamcopyтоstream »](function.stream-copy-to-stream.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Встановлює параметри потоку/обгортки/контексту
-    
-
+---
+navigation:
+  - function.stream-context-set-option.html: « streamcontextsetoption
+  - function.stream-copy-to-stream.html: streamcopyтоstream »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamcontextsetparams
+---
 # streamcontextsetparams
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -37,10 +32,10 @@ stream_context_set_params(resource $context, array $params): bool
 
 **Підтримувані параметри**
 
-| Параметр       | Назначение                                                                                                                                                                                                     |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Параметр | Назначение |
+| --- | --- |
 | `notification` | Назва певної користувачем callback-функції, яка буде викликана, коли потоком надсилається повідомлення. Підтримується тільки для обертання потоків [http://](wrappers.http.html) і [ftp://](wrappers.ftp.html) |
-| `options`      | Масив [опций и параметров контекста](context.html)                                                                                                                                                             |
+| `options` | Масив [опций и параметров контекста](context.html) |
 
 ### Значення, що повертаються
 

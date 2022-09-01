@@ -1,16 +1,11 @@
-Отримати список усіх підтримуваних алгоритмів шифрування
-
--   [« mcryptgetkeysize](function.mcrypt-get-key-size.html)
-    
--   [mcryptlistmodes »](function.mcrypt-list-modes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Отримати список усіх підтримуваних алгоритмів шифрування
-    
-
+---
+navigation:
+  - function.mcrypt-get-key-size.html: « mcryptgetkeysize
+  - function.mcrypt-list-modes.html: mcryptlistmodes »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptlistalgorithms
+---
 # mcryptlistalgorithms
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

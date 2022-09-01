@@ -1,16 +1,11 @@
-Перетворення на рядок
-
--   [« ReflectionExtension::isTemporary](reflectionextension.istemporary.html)
-    
--   [ReflectionFunction »](class.reflectionfunction.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionExtension](class.reflectionextension.html)
-    
--   Перетворення на рядок
-    
-
+---
+navigation:
+  - reflectionextension.istemporary.html: '« ReflectionExtension::isTemporary'
+  - class.reflectionfunction.html: ReflectionFunction »
+  - index.html: PHP Manual
+  - class.reflectionextension.html: ReflectionExtension
+title: 'ReflectionExtension::function toString() { \[native code\] }'
+---
 # ReflectionExtension::function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)

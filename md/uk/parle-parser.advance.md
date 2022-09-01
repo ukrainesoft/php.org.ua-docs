@@ -1,16 +1,11 @@
-Обробляє наступне правило парсера
-
--   [« ParleParser](class.parle-parser.html)
-    
--   [ParleParser::build »](parle-parser.build.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Обробляє наступне правило парсера
-    
-
+---
+navigation:
+  - class.parle-parser.html: « ParleParser
+  - parle-parser.build.html: 'ParleParser::build »'
+  - index.md: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::advance'
+---
 # ParleParser::advance
 
 (PECL parle >= 0.5.1)

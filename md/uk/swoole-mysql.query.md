@@ -1,16 +1,11 @@
-Виконує запит SQL
-
--   [« SwooleMySQL::on](swoole-mysql.on.html)
-    
--   [SwooleMySQLException »](class.swoole-mysql-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleMySQL](class.swoole-mysql.html)
-    
--   Виконує запит SQL
-    
-
+---
+navigation:
+  - swoole-mysql.on.html: '« SwooleMySQL::on'
+  - class.swoole-mysql-exception.html: SwooleMySQLException »
+  - index.md: PHP Manual
+  - class.swoole-mysql.html: SwooleMySQL
+title: 'SwooleMySQL::query'
+---
 # SwooleMySQL::query
 
 (PECL swoole >= 1.9.0)

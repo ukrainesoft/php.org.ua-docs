@@ -1,16 +1,11 @@
-Отримує ім'я поточного робочого каталогу
-
--   [« dir](function.dir.md)
-    
--   [opendir »](function.opendir.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з каталогами](ref.dir.md)
-    
--   Отримує ім'я поточного робочого каталогу
-    
-
+---
+navigation:
+  - function.dir.md: « dir
+  - function.opendir.md: opendir »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
+title: getcwd
+---
 # getcwd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

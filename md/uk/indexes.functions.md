@@ -1,16 +1,11 @@
-Список функцій та методів
-
--   [Алфавітний список](indexes.html)
-    
--   [Список примеров »](indexes.examples.html)
-    
--   [PHP Manual](index.html)
-    
--   [Алфавітний перелік](indexes.html)
-    
--   Список функцій та методів
-    
-
+---
+navigation:
+  - indexes.html: Алфавітний список
+  - indexes.examples.html: Список примеров »
+  - index.html: PHP Manual
+  - indexes.html: Алфавітний перелік
+title: Список функцій та методів
+---
 ## Список функцій та методів
 
 Список усіх функцій та методів у посібнику

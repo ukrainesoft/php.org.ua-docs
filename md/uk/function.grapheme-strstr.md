@@ -1,16 +1,11 @@
-Повертає частину рядка haystack від першої появи needle до кінця haystack
-
--   [« graphemestrrpos](function.grapheme-strrpos.html)
-    
--   [graphemesubstr »](function.grapheme-substr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Grapheme](ref.intl.grapheme.html)
-    
--   Повертає частину рядка haystack від першої появи needle до кінця haystack
-    
-
+---
+navigation:
+  - function.grapheme-strrpos.html: « graphemestrrpos
+  - function.grapheme-substr.html: graphemesubstr »
+  - index.html: PHP Manual
+  - ref.intl.grapheme.html: Функции Grapheme
+title: graphemestrstr
+---
 # graphemestrstr
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

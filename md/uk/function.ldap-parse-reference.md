@@ -1,16 +1,11 @@
-Витягує інформацію з довідника
-
--   [« ldapparseexop](function.ldap-parse-exop.html)
-    
--   [ldapparseresult »](function.ldap-parse-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Витягує інформацію з довідника
-    
-
+---
+navigation:
+  - function.ldap-parse-exop.html: « ldapparseexop
+  - function.ldap-parse-result.html: ldapparseresult »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapparsereference
+---
 # ldapparsereference
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

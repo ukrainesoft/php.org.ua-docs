@@ -1,16 +1,11 @@
-Функції FPM
-
--   [« Сторінка стану](fpm.status.md)
-    
--   [fastcgifinishrequest »](function.fastcgi-finish-request.html)
-    
--   [PHP Manual](index.md)
-    
--   [Менеджер процесів FastCGI](book.fpm.md)
-    
--   Функції FPM
-    
-
+---
+navigation:
+  - fpm.status.md: « Сторінка стану
+  - function.fastcgi-finish-request.html: fastcgifinishrequest »
+  - index.md: PHP Manual
+  - book.fpm.md: Менеджер процесів FastCGI
+title: Функції FPM
+---
 # Функції FPM
 
 ## Зміст

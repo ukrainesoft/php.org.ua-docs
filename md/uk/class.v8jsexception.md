@@ -1,16 +1,11 @@
-Клас V8JsException
-
--   [« V8Js::registerExtension](v8js.registerextension.md)
-    
--   [V8JsException::getJsFileName »](v8jsexception.getjsfilename.md)
-    
--   [PHP Manual](index.md)
-    
--   [V8js](book.v8js.md)
-    
--   Клас V8JsException
-    
-
+---
+navigation:
+  - v8js.registerextension.md: '« V8Js::registerExtension'
+  - v8jsexception.getjsfilename.md: 'V8JsException::getJsFileName »'
+  - index.md: PHP Manual
+  - book.v8js.md: V8js
+title: 'Клас [V8JsException](class.v8jsexception.md)'
+---
 # Клас [V8JsException](class.v8jsexception.md)
 
 (PECL v8js >= 0.1.0)

@@ -1,16 +1,11 @@
-Отримує інформацію про клієнта MySQL
-
--   [« mysqli::getcharset](mysqli.get-charset.html)
-    
--   [mysqli::$clientversion »](mysqli.get-client-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Отримує інформацію про клієнта MySQL
-    
-
+---
+navigation:
+  - mysqli.get-charset.html: '« mysqli::getcharset'
+  - mysqli.get-client-version.html: 'mysqli::$clientversion »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$clientinfo'
+---
 # mysqli::$clientinfo
 
 # mysqli::getclientinfo
@@ -49,10 +44,10 @@ mysqli_get_client_info(?mysqli $mysql = null): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції **mysqligetclientinfo()** з аргументом `mysql` застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
-|        | Об'єктно-орієнтований стиль виклику методу **mysqli::getclientinfo()** застарів.                                                                                         |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції **mysqligetclientinfo()** з аргументом `mysql` застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
+|  | Об'єктно-орієнтований стиль виклику методу **mysqli::getclientinfo()** застарів. |
 
 ### Приклади
 

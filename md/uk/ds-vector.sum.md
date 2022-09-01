@@ -1,16 +1,11 @@
-Повертає суму всіх значень колекції
-
--   [« DsVector::sorted](ds-vector.sorted.html)
-    
--   [ДсVector::toArray »](ds-vector.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає суму всіх значень колекції
-    
-
+---
+navigation:
+  - ds-vector.sorted.html: '« DsVector::sorted'
+  - ds-vector.toarray.html: 'ДсVector::toArray »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::sum'
+---
 # ДсVector::sum
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Отримує кількість нейронів у кожному шарі мережі
-
--   [« fanngeterrstr](function.fann-get-errstr.html)
-    
--   [fanngetlearningmomentum »](function.fann-get-learning-momentum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Отримує кількість нейронів у кожному шарі мережі
-    
-
+---
+navigation:
+  - function.fann-get-errstr.html: « fanngeterrstr
+  - function.fann-get-learning-momentum.html: fanngetlearningmomentum »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetlayerarray
+---
 # fanngetlayerarray
 
 (PECL fann> = 1.0.0)

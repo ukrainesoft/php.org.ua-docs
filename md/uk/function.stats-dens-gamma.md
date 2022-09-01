@@ -1,16 +1,11 @@
-Щільність ймовірності гамма-розподілу
-
--   [« statsdensф](function.stats-dens-f.html)
-    
--   [statsdenslaplace »](function.stats-dens-laplace.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Щільність ймовірності гамма-розподілу
-    
-
+---
+navigation:
+  - function.stats-dens-f.html: « statsdensф
+  - function.stats-dens-laplace.html: statsdenslaplace »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdensgamma
+---
 # statsdensgamma
 
 (PECL stats >= 1.0.0)

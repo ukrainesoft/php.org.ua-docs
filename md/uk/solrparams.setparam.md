@@ -1,16 +1,11 @@
-Встановлює параметр на вказане значення
-
--   [« SolrParams::set](solrparams.set.md)
-    
--   [SolrParams::toString »](solrparams.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrParams](class.solrparams.md)
-    
--   Встановлює параметр на вказане значення
-    
-
+---
+navigation:
+  - solrparams.set.md: '« SolrParams::set'
+  - solrparams.tostring.md: 'SolrParams::toString »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
+title: 'SolrParams::setParam'
+---
 # SolrParams::setParam
 
 (PECL solr> = 0.9.2)

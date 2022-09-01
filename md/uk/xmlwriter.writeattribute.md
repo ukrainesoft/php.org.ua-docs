@@ -1,16 +1,11 @@
-Записати повний атрибут
-
--   [« XMLWriter::text](xmlwriter.text.html)
-    
--   [XMLWriter::writeAttributeNs »](xmlwriter.writeattributens.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати повний атрибут
-    
-
+---
+navigation:
+  - xmlwriter.text.html: '« XMLWriter::text'
+  - xmlwriter.writeattributens.html: 'XMLWriter::writeAttributeNs »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::writeAttribute'
+---
 # XMLWriter::writeAttribute
 
 # xmlwriterwriteattribute
@@ -55,9 +50,9 @@ xmlwriter_write_attribute(XMLWriter $writer, string $name, string $value): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

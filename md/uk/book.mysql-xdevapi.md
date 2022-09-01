@@ -1,16 +1,11 @@
-Mysqlxdevapi
-
--   [« Список изменений](changelog.mysqli.md)
-    
--   [Введение »](intro.mysql-xdevapi.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](set.mysqlinfo.md)
-    
--   Mysqlxdevapi
-    
-
+---
+navigation:
+  - changelog.mysqli.md: « Список изменений
+  - intro.mysql-xdevapi.html: Введение »
+  - index.md: PHP Manual
+  - set.mysqlinfo.md: MySQL
+title: Mysqlxdevapi
+---
 # Mysqlxdevapi
 
 -   [Введение](intro.mysql-xdevapi.html)

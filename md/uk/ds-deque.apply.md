@@ -1,16 +1,11 @@
-Оновлює всі значення, застосовуючи callback-функцію до кожного значення
-
--   [« DsDeque::allocate](ds-deque.allocate.html)
-    
--   [ДсDeque::capacity »](ds-deque.capacity.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Оновлює всі значення, застосовуючи callback-функцію до кожного значення
-    
-
+---
+navigation:
+  - ds-deque.allocate.html: '« DsDeque::allocate'
+  - ds-deque.capacity.html: 'ДсDeque::capacity »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::apply'
+---
 # ДсDeque::apply
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Отримує поточне значення
-
--   [« NoRewindIterator::construct](norewinditerator.construct.md)
-    
--   [NoRewindIterator::getInnerIterator »](norewinditerator.getinneriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [NoRewindIterator](class.norewinditerator.md)
-    
--   Отримує поточне значення
-    
-
+---
+navigation:
+  - norewinditerator.construct.md: '« NoRewindIterator::construct'
+  - norewinditerator.getinneriterator.md: 'NoRewindIterator::getInnerIterator »'
+  - index.md: PHP Manual
+  - class.norewinditerator.md: NoRewindIterator
+title: 'NoRewindIterator::current'
+---
 # NoRewindIterator::current
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

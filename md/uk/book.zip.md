@@ -1,16 +1,11 @@
-Zip
-
--   [« RarException::setUsingExceptions](rarexception.setusingexceptions.md)
-    
--   [Введение »](intro.zip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для стиснення та архівації](refs.compression.md)
-    
--   Zip
-    
-
+---
+navigation:
+  - rarexception.setusingexceptions.md: '« RarException::setUsingExceptions'
+  - intro.zip.md: Введение »
+  - index.md: PHP Manual
+  - refs.compression.md: Модулі для стиснення та архівації
+title: Zip
+---
 # Zip
 
 -   [Введение](intro.zip.md)

@@ -1,16 +1,11 @@
-Серіалізувати ArrayObject
-
--   [« ArrayObject::offsetUnset](arrayobject.offsetunset.html)
-    
--   [ArrayObject::setFlags »](arrayobject.setflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayObject](class.arrayobject.html)
-    
--   Серіалізувати ArrayObject
-    
-
+---
+navigation:
+  - arrayobject.offsetunset.html: '« ArrayObject::offsetUnset'
+  - arrayobject.setflags.html: 'ArrayObject::setFlags »'
+  - index.html: PHP Manual
+  - class.arrayobject.html: ArrayObject
+title: 'ArrayObject::serialize'
+---
 # ArrayObject::serialize
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

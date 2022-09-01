@@ -1,16 +1,11 @@
-Повертає кількість груп кандидатів
-
--   [« fanngetcascademinoutepochs](function.fann-get-cascade-min-out-epochs.html)
-    
--   [fanngetcascadenumcandidates »](function.fann-get-cascade-num-candidates.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає кількість груп кандидатів
-    
-
+---
+navigation:
+  - function.fann-get-cascade-min-out-epochs.html: « fanngetcascademinoutepochs
+  - function.fann-get-cascade-num-candidates.html: fanngetcascadenumcandidates »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadenumcandidategroups
+---
 # fanngetcascadenumcandidategroups
 
 (PECL fann> = 1.0.0)

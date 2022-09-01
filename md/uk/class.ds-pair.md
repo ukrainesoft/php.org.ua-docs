@@ -1,16 +1,11 @@
-Клас Pair
-
--   [« DsMap::xor](ds-map.xor.html)
-    
--   [ДсPair::clear »](ds-pair.clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Клас Pair
-    
-
+---
+navigation:
+  - ds-map.xor.html: '« DsMap::xor'
+  - ds-pair.clear.html: 'ДсPair::clear »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Клас Pair
+---
 # Клас Pair
 
 (No version information available, might only be in Git)

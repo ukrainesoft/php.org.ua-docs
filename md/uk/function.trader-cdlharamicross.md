@@ -1,16 +1,11 @@
-Паттерн "Хрест Харамі"
-
--   [« tradercdlharami](function.trader-cdlharami.html)
-    
--   [tradercdlhighwave »](function.trader-cdlhighwave.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Паттерн "Хрест Харамі"
-    
-
+---
+navigation:
+  - function.trader-cdlharami.html: « tradercdlharami
+  - function.trader-cdlhighwave.html: tradercdlhighwave »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlharamicross
+---
 # tradercdlharamicross
 
 (PECL trader >= 0.2.0)

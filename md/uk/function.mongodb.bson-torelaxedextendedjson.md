@@ -1,16 +1,11 @@
-Повертає Relaxed Extended JSON уявлення значення BSON
-
--   [« MongoDBBSONtoPHP](function.mongodb.bson-tophp.html)
-    
--   [MongoDBBSONBinary »](class.mongodb-bson-binary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції](ref.bson.functions.html)
-    
--   Повертає Relaxed Extended JSON уявлення значення BSON
-    
-
+---
+navigation:
+  - function.mongodb.bson-tophp.html: « MongoDBBSONtoPHP
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary »
+  - index.html: PHP Manual
+  - ref.bson.functions.html: Функції
+title: MongoDBBSONtoRelaxedExtendedJSON
+---
 # MongoDBBSONtoRelaxedExtendedJSON
 
 (mongodb >=1.3.0)

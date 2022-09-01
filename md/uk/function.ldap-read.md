@@ -1,16 +1,11 @@
-Читає запис
-
--   [« ldapparseresult](function.ldap-parse-result.html)
-    
--   [ldaprenameext »](function.ldap-rename-ext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Читає запис
-    
-
+---
+navigation:
+  - function.ldap-parse-result.html: « ldapparseresult
+  - function.ldap-rename-ext.html: ldaprenameext »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapread
+---
 # ldapread
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -88,10 +83,10 @@ ldap_read(    LDAP\Connection|array $ldap,    array|string $base,   �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                            |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Було додано підтримку паралельного пошуку. Для більш детальної інформації дивіться [ldapsearch()](function.ldap-search.html)                           |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Було додано підтримку паралельного пошуку. Для більш детальної інформації дивіться [ldapsearch()](function.ldap-search.html) |
+|  | Додано підтримку параметра `controls` |

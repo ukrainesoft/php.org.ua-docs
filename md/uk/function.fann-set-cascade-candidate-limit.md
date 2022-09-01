@@ -1,16 +1,11 @@
-Встановлює ліміт кандидатів
-
--   [« fannsetcascadecandidatechangefraction](function.fann-set-cascade-candidate-change-fraction.html)
-    
--   [fannsetcascadecandidatestagnationepochs »](function.fann-set-cascade-candidate-stagnation-epochs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює ліміт кандидатів
-    
-
+---
+navigation:
+  - function.fann-set-cascade-candidate-change-fraction.html: « fannsetcascadecandidatechangefraction
+  - function.fann-set-cascade-candidate-stagnation-epochs.html: fannsetcascadecandidatestagnationepochs »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetcascadecandidatelimit
+---
 # fannsetcascadecandidatelimit
 
 (PECL fann> = 1.0.0)

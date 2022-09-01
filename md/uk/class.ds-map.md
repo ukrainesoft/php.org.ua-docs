@@ -1,16 +1,11 @@
-Клас Map
-
--   [« DsDeque::unshift](ds-deque.unshift.html)
-    
--   [ДсMap::allocate »](ds-map.allocate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Клас Map
-    
-
+---
+navigation:
+  - ds-deque.unshift.html: '« DsDeque::unshift'
+  - ds-map.allocate.html: 'ДсMap::allocate »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Клас Map
+---
 # Клас Map
 
 (No version information available, might only be in Git)
@@ -99,8 +94,8 @@ public xor(Ds\Map $map): Ds\Map
 
 ## список змін
 
-| Версия        | Описание                                                |
-|---------------|---------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст

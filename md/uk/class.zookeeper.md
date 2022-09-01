@@ -1,16 +1,11 @@
-Клас Zookeeper
-
--   [« zookeeperdispatch](function.zookeeper-dispatch.html)
-    
--   [Zookeeper::addAuth »](zookeeper.addauth.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZooKeeper](book.zookeeper.html)
-    
--   Клас Zookeeper
-    
-
+---
+navigation:
+  - function.zookeeper-dispatch.html: « zookeeperdispatch
+  - zookeeper.addauth.html: 'Zookeeper::addAuth »'
+  - index.html: PHP Manual
+  - book.zookeeper.html: ZooKeeper
+title: Клас Zookeeper
+---
 # Клас Zookeeper
 
 (PECL zookeeper >= 0.1.0)

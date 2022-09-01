@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleAsync::write](swoole-async.write.html)
-    
--   [SwooleAtomic »](class.swoole-atomic.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleAsync](class.swoole-async.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-async.write.html: '« SwooleAsync::write'
+  - class.swoole-atomic.html: SwooleAtomic »
+  - index.html: PHP Manual
+  - class.swoole-async.html: SwooleAsync
+title: 'SwooleAsync::writeFile'
+---
 # SwooleAsync::writeFile
 
 (PECL swoole >= 1.9.0)

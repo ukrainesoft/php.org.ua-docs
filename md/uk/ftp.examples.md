@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](ftp.constants.html)
-    
--   [Простое использование »](ftp.examples-basic.html)
-    
--   [PHP Manual](index.html)
-    
--   [FTP](book.ftp.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - ftp.constants.html: « Обумовлені константи
+  - ftp.examples-basic.html: Простое использование »
+  - index.html: PHP Manual
+  - book.ftp.html: FTP
+title: Приклади
+---
 # Приклади
 
 ## Зміст

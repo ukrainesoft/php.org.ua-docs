@@ -1,16 +1,11 @@
-Перетворити матрицю
-
--   [« UIDrawPen::stroke](ui-draw-pen.stroke.html)
-    
--   [ОЙDrawPen::write »](ui-draw-pen.write.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPen](class.ui-draw-pen.html)
-    
--   Перетворити матрицю
-    
-
+---
+navigation:
+  - ui-draw-pen.stroke.html: '« UIDrawPen::stroke'
+  - ui-draw-pen.write.html: 'ОЙDrawPen::write »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.html: ОЙDrawPen
+title: 'ОЙDrawPen::transform'
+---
 # ОЙDrawPen::transform
 
 (UI 0.9.9)

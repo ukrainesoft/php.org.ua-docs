@@ -1,16 +1,11 @@
-Обчислити розмір буфера повідомлення
-
--   [« socketclose](function.socket-close.html)
-    
--   [socketconnect »](function.socket-connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Обчислити розмір буфера повідомлення
-    
-
+---
+navigation:
+  - function.socket-close.html: « socketclose
+  - function.socket-connect.html: socketconnect »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketcmsgspace
+---
 # socketcmsgspace
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

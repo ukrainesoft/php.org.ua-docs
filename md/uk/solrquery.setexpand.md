@@ -1,16 +1,11 @@
-Вмикає/вимикає компонент Expand
-
--   [« SolrQuery::setEchoParams](solrquery.setechoparams.html)
-    
--   [SolrQuery::setExpandQuery »](solrquery.setexpandquery.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Вмикає/вимикає компонент Expand
-    
-
+---
+navigation:
+  - solrquery.setechoparams.html: '« SolrQuery::setEchoParams'
+  - solrquery.setexpandquery.html: 'SolrQuery::setExpandQuery »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setExpand'
+---
 # SolrQuery::setExpand
 
 (PECL solr> = 2.2.0)

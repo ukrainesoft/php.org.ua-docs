@@ -1,16 +1,11 @@
-Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
-
--   [« MongoDBDriverReadPreference::getMode](mongodb-driver-readpreference.getmode.html)
-    
--   [MongoDBDriverReadPreference::getTagSets »](mongodb-driver-readpreference.gettagsets.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.getmode.html: '« MongoDBDriverReadPreference::getMode'
+  - mongodb-driver-readpreference.gettagsets.html: 'MongoDBDriverReadPreference::getTagSets »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::getModeString'
+---
 # MongoDBDriverReadPreference::getModeString
 
 (mongodb >=1.7.0)

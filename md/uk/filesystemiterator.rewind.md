@@ -1,16 +1,11 @@
-Переміщення покажчика на початок
-
--   [« FilesystemIterator::next](filesystemiterator.next.md)
-    
--   [FilesystemIterator::setFlags »](filesystemiterator.setflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilesystemIterator](class.filesystemiterator.md)
-    
--   Переміщення покажчика на початок
-    
-
+---
+navigation:
+  - filesystemiterator.next.md: '« FilesystemIterator::next'
+  - filesystemiterator.setflags.md: 'FilesystemIterator::setFlags »'
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
+title: 'FilesystemIterator::rewind'
+---
 # FilesystemIterator::rewind
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

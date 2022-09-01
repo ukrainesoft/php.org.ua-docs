@@ -1,16 +1,11 @@
-Повертає поточний час у секундах (мільйонне число) минуле з початку епохи Unix
-
--   [« Ev::suspend](ev.suspend.html)
-    
--   [Ev::verify »](ev.verify.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](class.ev.html)
-    
--   Повертає поточний час у секундах (мільйонне число) минуле з початку епохи Unix
-    
-
+---
+navigation:
+  - ev.suspend.html: '« Ev::suspend'
+  - ev.verify.html: 'Ev::verify »'
+  - index.html: PHP Manual
+  - class.ev.html: Єв
+title: 'Ev::time'
+---
 # Ev::time
 
 (PECL ev >= 0.2.0)

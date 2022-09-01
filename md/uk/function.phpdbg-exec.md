@@ -1,16 +1,11 @@
-Спробувати задати контекст виконання
-
--   [« phpdbgendoplog](function.phpdbg-end-oplog.html)
-    
--   [phpdbggetexecutable »](function.phpdbg-get-executable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Спробувати задати контекст виконання
-    
-
+---
+navigation:
+  - function.phpdbg-end-oplog.html: « phpdbgendoplog
+  - function.phpdbg-get-executable.html: phpdbggetexecutable »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgexec
+---
 # phpdbgexec
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

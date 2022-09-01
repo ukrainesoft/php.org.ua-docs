@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort »](mongodb-driver-monitoring-serverheartbeatfailedevent.getport.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.html: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.getport.html: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.html: MongoDBDriverMonitoringServerHeartbeatFailedEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost'
+---
 # MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost
 
 (mongodb >=1.13.0)

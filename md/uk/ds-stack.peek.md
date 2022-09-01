@@ -1,16 +1,11 @@
-Повертає значення з вершини стека
-
--   [« DsStack::jsonSerialize](ds-stack.jsonserialize.html)
-    
--   [ДсStack::pop »](ds-stack.pop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Стек](class.ds-stack.html)
-    
--   Повертає значення з вершини стека
-    
-
+---
+navigation:
+  - ds-stack.jsonserialize.html: '« DsStack::jsonSerialize'
+  - ds-stack.pop.html: 'ДсStack::pop »'
+  - index.html: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::peek'
+---
 # ДсStack::peek
 
 (PECL ds >= 1.0.0)

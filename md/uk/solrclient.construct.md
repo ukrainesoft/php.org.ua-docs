@@ -1,16 +1,11 @@
-Конструктор об'єкта SolrClient
-
--   [« SolrClient::commit](solrclient.commit.md)
-    
--   [SolrClient::deleteById »](solrclient.deletebyid.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Конструктор об'єкта SolrClient
-    
-
+---
+navigation:
+  - solrclient.commit.md: '« SolrClient::commit'
+  - solrclient.deletebyid.md: 'SolrClient::deleteById »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::construct'
+---
 # SolrClient::construct
 
 (PECL solr> = 0.9.2)

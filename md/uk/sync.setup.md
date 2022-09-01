@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.sync.md)
-    
--   [Вимоги »](sync.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Sync](book.sync.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.sync.md: « Введение
+  - sync.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.sync.md: Sync
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

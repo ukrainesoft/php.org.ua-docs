@@ -1,16 +1,11 @@
-Клас SplHeap
-
--   [« SplQueue::setIteratorMode](splqueue.setiteratormode.md)
-    
--   [SplHeap::compare »](splheap.compare.md)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](spl.datastructures.md)
-    
--   Клас SplHeap
-    
-
+---
+navigation:
+  - splqueue.setiteratormode.md: '« SplQueue::setIteratorMode'
+  - splheap.compare.md: 'SplHeap::compare »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
+title: Клас SplHeap
+---
 # Клас SplHeap
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

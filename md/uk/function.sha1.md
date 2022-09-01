@@ -1,16 +1,11 @@
-Повертає SHA1-хеш рядки
-
--   [« sha1file](function.sha1-file.html)
-    
--   [similartext »](function.similar-text.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає SHA1-хеш рядки
-    
-
+---
+navigation:
+  - function.sha1-file.html: « sha1file
+  - function.similar-text.html: similartext »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: sha1
+---
 # sha1
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

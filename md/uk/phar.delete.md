@@ -1,16 +1,11 @@
-Видаляє файл усередині phar-архіву
-
--   [« Phar::delMetadata](phar.delmetadata.md)
-    
--   [Phar::destruct »](phar.destruct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Видаляє файл усередині phar-архіву
-    
-
+---
+navigation:
+  - phar.delmetadata.md: '« Phar::delMetadata'
+  - phar.destruct.md: 'Phar::destruct »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::delete'
+---
 # Phar::delete
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

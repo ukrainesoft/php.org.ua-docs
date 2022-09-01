@@ -1,16 +1,11 @@
-Створює phar-архів з ітератора
-
--   [« Phar::buildFromDirectory](phar.buildfromdirectory.md)
-    
--   [Phar::canCompress »](phar.cancompress.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Створює phar-архів з ітератора
-    
-
+---
+navigation:
+  - phar.buildfromdirectory.md: '« Phar::buildFromDirectory'
+  - phar.cancompress.md: 'Phar::canCompress »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::buildFromIterator'
+---
 # Phar::buildFromIterator
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -49,10 +44,10 @@ public Phar::buildFromIterator(Traversable $iterator, ?string $baseDirectory = n
 
 ### список змін
 
-| Версия | Описание                                                              |
-|--------|-----------------------------------------------------------------------|
-|        | **Phar::buildFromIterator()** більше не повертає значення **`false`** |
-|        | `baseDirectory` тепер допускає значення null.                         |
+| Версия | Описание |
+| --- | --- |
+|  | **Phar::buildFromIterator()** більше не повертає значення **`false`** |
+|  | `baseDirectory` тепер допускає значення null. |
 
 ### Приклади
 

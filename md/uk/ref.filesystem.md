@@ -1,16 +1,11 @@
-Функції файлової системи
-
--   [« Обумовлені константи](filesystem.constants.html)
-    
--   [basename »](function.basename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Файлова система](book.filesystem.html)
-    
--   Функції файлової системи
-    
-
+---
+navigation:
+  - filesystem.constants.html: « Обумовлені константи
+  - function.basename.html: basename »
+  - index.html: PHP Manual
+  - book.filesystem.html: Файлова система
+title: Функції файлової системи
+---
 # Функції файлової системи
 
 # Дивіться також

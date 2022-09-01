@@ -1,16 +1,11 @@
-Обчислює асиметрію даних у масиві
-
--   [« statsrandsetall](function.stats-rand-setall.html)
-    
--   [statsstandarddeviation »](function.stats-standard-deviation.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює асиметрію даних у масиві
-    
-
+---
+navigation:
+  - function.stats-rand-setall.html: « statsrandsetall
+  - function.stats-standard-deviation.html: statsstandarddeviation »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsskew
+---
 # statsskew
 
 (PECL stats >= 1.0.0)

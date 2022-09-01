@@ -1,16 +1,11 @@
-Клас YafExceptionRouterFailed
-
--   [« YafExceptionDispatchFailed](class.yaf-exception-dispatchfailed.html)
-    
--   [YafExceptionLoadFailed »](class.yaf-exception-loadfailed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafExceptionRouterFailed
-    
-
+---
+navigation:
+  - class.yaf-exception-dispatchfailed.html: « YafExceptionDispatchFailed
+  - class.yaf-exception-loadfailed.html: YafExceptionLoadFailed »
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafExceptionRouterFailed
+---
 # Клас YafExceptionRouterFailed
 
 (Yaf >=1.0.0)

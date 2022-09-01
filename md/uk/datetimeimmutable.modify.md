@@ -1,16 +1,11 @@
-Створює новий об'єкт із зміненою тимчасовою міткою
-
--   [« DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md)
-    
--   [DateTimeImmutable::setstate »](datetimeimmutable.set-state.html)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Створює новий об'єкт із зміненою тимчасовою міткою
-    
-
+---
+navigation:
+  - datetimeimmutable.getlasterrors.md: '« DateTimeImmutable::getLastErrors'
+  - datetimeimmutable.set-state.html: 'DateTimeImmutable::setstate »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::modify'
+---
 # DateTimeImmutable::modify
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

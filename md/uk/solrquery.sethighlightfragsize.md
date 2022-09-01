@@ -1,16 +1,11 @@
-Розмір фрагментів, які слід враховувати під час виділення
-
--   [« SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md)
-    
--   [SolrQuery::setHighlightHighlightMultiTerm »](solrquery.sethighlighthighlightmultiterm.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Розмір фрагментів, які слід враховувати під час виділення
-    
-
+---
+navigation:
+  - solrquery.sethighlightfragmenter.md: '« SolrQuery::setHighlightFragmenter'
+  - solrquery.sethighlighthighlightmultiterm.md: 'SolrQuery::setHighlightHighlightMultiTerm »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightFragsize'
+---
 # SolrQuery::setHighlightFragsize
 
 (PECL solr> = 0.9.2)

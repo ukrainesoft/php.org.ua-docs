@@ -1,16 +1,11 @@
-Отримання ID процесу PHP
-
--   [« getmyinode](function.getmyinode.md)
-    
--   [getmyuid »](function.getmyuid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримання ID процесу PHP
-    
-
+---
+navigation:
+  - function.getmyinode.md: « getmyinode
+  - function.getmyuid.md: getmyuid »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getmypid
+---
 # getmypid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

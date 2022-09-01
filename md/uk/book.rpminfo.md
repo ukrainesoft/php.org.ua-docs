@@ -1,16 +1,11 @@
-RpmInfo
-
--   [«pstranslate](function.ps-translate.html)
-    
--   [Введение »](intro.rpminfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
-    
--   RpmInfo
-    
-
+---
+navigation:
+  - function.ps-translate.html: «pstranslate
+  - intro.rpminfo.html: Введение »
+  - index.html: PHP Manual
+  - refs.utilspec.nontext.html: Генерація нетекстових MIME-форматів
+title: RpmInfo
+---
 # RpmInfo
 
 -   [Введение](intro.rpminfo.html)

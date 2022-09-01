@@ -1,16 +1,11 @@
-Отримує ідентифікатор групи файлу
-
--   [« filectime](function.filectime.md)
-    
--   [fileinode »](function.fileinode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Отримує ідентифікатор групи файлу
-    
-
+---
+navigation:
+  - function.filectime.md: « filectime
+  - function.fileinode.md: fileinode »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: filegroup
+---
 # filegroup
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

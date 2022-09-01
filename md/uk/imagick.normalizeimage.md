@@ -1,16 +1,11 @@
-Підвищує контрастність кольорового зображення
-
--   [« Imagick::nextImage](imagick.nextimage.md)
-    
--   [Imagick::oilPaintImage »](imagick.oilpaintimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Підвищує контрастність кольорового зображення
-    
-
+---
+navigation:
+  - imagick.nextimage.md: '« Imagick::nextImage'
+  - imagick.oilpaintimage.md: 'Imagick::oilPaintImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::normalizeImage'
+---
 # Imagick::normalizeImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Відкрити файл gz
-
--   [« gzinflate](function.gzinflate.html)
-    
--   [gzpassthru »](function.gzpassthru.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Відкрити файл gz
-    
-
+---
+navigation:
+  - function.gzinflate.html: « gzinflate
+  - function.gzpassthru.html: gzpassthru »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzopen
+---
 # gzopen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

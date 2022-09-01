@@ -1,16 +1,11 @@
-Клас IteratorIterator
-
--   [« InfiniteIterator::next](infiniteiterator.next.md)
-    
--   [IteratorIterator::construct »](iteratoriterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас IteratorIterator
-    
-
+---
+navigation:
+  - infiniteiterator.next.md: '« InfiniteIterator::next'
+  - iteratoriterator.construct.md: 'IteratorIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас IteratorIterator
+---
 # Клас IteratorIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

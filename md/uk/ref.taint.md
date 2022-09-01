@@ -1,16 +1,11 @@
-Функції Taint
-
--   [« Функції, які не будуть обробляти зіпсований рядок](taint.detail.untaint.md)
-    
--   [ісtainted »](function.is-tainted.html)
-    
--   [PHP Manual](index.md)
-    
--   [Taint](book.taint.md)
-    
--   Функції Taint
-    
-
+---
+navigation:
+  - taint.detail.untaint.md: '« Функції, які не будуть обробляти зіпсований рядок'
+  - function.is-tainted.html: ісtainted »
+  - index.md: PHP Manual
+  - book.taint.md: Taint
+title: Функції Taint
+---
 # Функції Taint
 
 ## Зміст

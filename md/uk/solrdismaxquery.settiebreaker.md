@@ -1,16 +1,11 @@
-Встановлює параметр Tie Breaker (параметр tie)
-
--   [« SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.md)
-    
--   [SolrDisMaxQuery::setTrigramPhraseFields »](solrdismaxquery.settrigramphrasefields.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Встановлює параметр Tie Breaker (параметр tie)
-    
-
+---
+navigation:
+  - solrdismaxquery.setqueryphraseslop.md: '« SolrDisMaxQuery::setQueryPhraseSlop'
+  - solrdismaxquery.settrigramphrasefields.md: 'SolrDisMaxQuery::setTrigramPhraseFields »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::set TieBreaker'
+---
 # Solr DisMax Query::set TieBreaker
 
 (No version information available, might only be in Git)

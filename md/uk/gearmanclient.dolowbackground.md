@@ -1,16 +1,11 @@
-Запускає виконання з низьким пріоритетом завдання у фоновому режимі
-
--   [« GearmanClient::doLow](gearmanclient.dolow.html)
-    
--   [GearmanClient::doNormal »](gearmanclient.donormal.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Запускає виконання з низьким пріоритетом завдання у фоновому режимі
-    
-
+---
+navigation:
+  - gearmanclient.dolow.html: '« GearmanClient::doLow'
+  - gearmanclient.donormal.html: 'GearmanClient::doNormal »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::doLowBackground'
+---
 # GearmanClient::doLowBackground
 
 (PECL gearman >= 0.5.0)

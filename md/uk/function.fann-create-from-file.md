@@ -1,16 +1,11 @@
-Створює нейронну мережу зі зворотним поширенням помилки конфігураційного файлу
-
--   [« fanncopy](function.fann-copy.html)
-    
--   [fanncreateshortcutarray »](function.fann-create-shortcut-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Створює нейронну мережу зі зворотним поширенням помилки конфігураційного файлу
-    
-
+---
+navigation:
+  - function.fann-copy.html: « fanncopy
+  - function.fann-create-shortcut-array.html: fanncreateshortcutarray »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncreatefromfile
+---
 # fanncreatefromfile
 
 (PECL fann> = 1.0.0)

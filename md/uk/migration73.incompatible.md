@@ -1,16 +1,11 @@
-Зміни, що ламають зворотну сумісність
-
--   [« Нові глобальні константи](migration73.constants.html)
-    
--   [Функціонал, оголошений застарілим у PHP 7.3.x »](migration73.deprecated.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.html)
-    
--   Зміни, що ламають зворотну сумісність
-    
-
+---
+navigation:
+  - migration73.constants.html: « Нові глобальні константи
+  - migration73.deprecated.html: 'Функціонал, оголошений застарілим у PHP 7.3.x »'
+  - index.html: PHP Manual
+  - migration73.html: Миграция с PHP 7.2.x на PHP 7.3.x
+title: 'Зміни, що ламають зворотну сумісність'
+---
 ## Зміни, що ламають зворотну сумісність
 
 ### Ядро PHP

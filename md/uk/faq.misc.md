@@ -1,16 +1,11 @@
-Різні питання
-
--   [« PHP и COM](faq.com.md)
-    
--   [Appendices »](appendices.md)
-    
--   [PHP Manual](index.md)
-    
--   [ЧАВО](faq.md)
-    
--   Різні питання
-    
-
+---
+navigation:
+  - faq.com.md: « PHP и COM
+  - appendices.md: Appendices »
+  - index.md: PHP Manual
+  - faq.md: ЧАВО
+title: Різні питання
+---
 # Різні питання
 
 Деякі питання можуть не відповідати іншим категоріям. Ви можете знайти їх тут.

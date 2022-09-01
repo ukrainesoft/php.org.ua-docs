@@ -1,16 +1,11 @@
-Імпортувати потік
-
--   [« socketgetsockname](function.socket-getsockname.html)
-    
--   [socketlasterror »](function.socket-last-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Імпортувати потік
-    
-
+---
+navigation:
+  - function.socket-getsockname.html: « socketgetsockname
+  - function.socket-last-error.html: socketlasterror »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketimportstream
+---
 # socketimportstream
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ socket_import_stream(resource $stream): Socket|false
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Встановлює налаштування локалі
-
--   [« rtrim](function.rtrim.html)
-    
--   [sha1file »](function.sha1-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Встановлює налаштування локалі
-    
-
+---
+navigation:
+  - function.rtrim.html: « rtrim
+  - function.sha1-file.html: sha1file »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: setlocale
+---
 # setlocale
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

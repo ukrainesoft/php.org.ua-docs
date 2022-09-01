@@ -1,16 +1,11 @@
-Псевдонім DateTime::modify
-
--   [« dateisodateset](function.date-isodate-set.html)
-    
--   [dateoffsetget »](function.date-offset-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTime::modify
-    
-
+---
+navigation:
+  - function.date-isodate-set.html: « dateisodateset
+  - function.date-offset-get.html: dateoffsetget »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datemodify
+---
 # datemodify
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

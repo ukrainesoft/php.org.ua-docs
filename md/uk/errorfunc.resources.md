@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](errorfunc.configuration.md)
-    
--   [Обумовлені константи »](errorfunc.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](errorfunc.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - errorfunc.configuration.md: « Налаштування під час виконання
+  - errorfunc.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - errorfunc.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

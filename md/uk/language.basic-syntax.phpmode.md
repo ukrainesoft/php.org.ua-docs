@@ -1,16 +1,11 @@
-Ізолювання від HTML
-
--   [« Теги PHP](language.basic-syntax.phptags.html)
-    
--   [Разделение инструкций »](language.basic-syntax.instruction-separation.html)
-    
--   [PHP Manual](index.md)
-    
--   [Основи синтаксису](language.basic-syntax.html)
-    
--   Ізолювання від HTML
-    
-
+---
+navigation:
+  - language.basic-syntax.phptags.html: « Теги PHP
+  - language.basic-syntax.instruction-separation.html: Разделение инструкций »
+  - index.md: PHP Manual
+  - language.basic-syntax.html: Основи синтаксису
+title: Ізолювання від HTML
+---
 ## Ізолювання від HTML
 
 Все, що знаходиться поза парою тегів, що відкривається і закривається, ігнорується інтерпретатором PHP, у якого є можливість обробляти файли зі змішаним вмістом. Це дозволяє PHP-коду бути вбудованим у документи HTML, наприклад, для створення шаблонів.

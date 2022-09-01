@@ -1,16 +1,11 @@
-Типи
-
--   [« Комментарии](language.basic-syntax.comments.html)
-    
--   [Введение »](language.types.intro.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Типи
-    
-
+---
+navigation:
+  - language.basic-syntax.comments.html: « Комментарии
+  - language.types.intro.md: Введение »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Типи
+---
 # Типи
 
 ## Зміст

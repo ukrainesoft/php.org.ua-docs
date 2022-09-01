@@ -1,16 +1,11 @@
-Клас MongoDBDriverReadPreference
-
--   [« MongoDBDriverWriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.html)
-    
--   [MongoDBDriverReadPreference::bsonSerialize »](mongodb-driver-readpreference.bsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас MongoDBDriverReadPreference
-    
-
+---
+navigation:
+  - mongodb-driver-writeconcern.unserialize.html: '« MongoDBDriverWriteConcern::unserialize'
+  - mongodb-driver-readpreference.bsonserialize.html: 'MongoDBDriverReadPreference::bsonSerialize »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас MongoDBDriverReadPreference
+---
 # Клас MongoDBDriverReadPreference
 
 (mongodb >=1.0.0)
@@ -150,10 +145,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия                                                                                                                                                                                                                                                                    | Описание |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.7.0                                                                                                                                                                                                                                                        |          |
-| Додані константи **`MongoDB\Driver\ReadPreference::PRIMARY`** **`MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::SECONDARY`** **`MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::NEAREST`** |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.7.0 |  |
+| Додані константи **`MongoDB\Driver\ReadPreference::PRIMARY`** **`MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::SECONDARY`** **`MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::NEAREST`** |  |
 
 Реалізує [Serializable](class.serializable.md)
 

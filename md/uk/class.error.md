@@ -1,16 +1,11 @@
-Error
-
--   [« ErrorException::getSeverity](errorexception.getseverity.md)
-    
--   [Error::construct »](error.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   Error
-    
-
+---
+navigation:
+  - errorexception.getseverity.md: '« ErrorException::getSeverity'
+  - error.construct.md: 'Error::construct »'
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: Error
+---
 # Error
 
 (PHP 7, PHP 8)

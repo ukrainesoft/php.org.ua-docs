@@ -1,16 +1,11 @@
-Встановлює зміщення у файловому покажчику
-
--   [« fscanf](function.fscanf.md)
-    
--   [fstat »](function.fstat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Встановлює зміщення у файловому покажчику
-    
-
+---
+navigation:
+  - function.fscanf.md: « fscanf
+  - function.fstat.md: fstat »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fseek
+---
 # fseek
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

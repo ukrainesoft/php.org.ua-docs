@@ -1,16 +1,11 @@
-Отримує повідомлення про останню помилку на з'єднанні з базою даних.
-
--   [« pginsert](function.pg-insert.html)
-    
--   [пгlastnotice »](function.pg-last-notice.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Отримує повідомлення про останню помилку на з'єднанні з базою даних.
-    
-
+---
+navigation:
+  - function.pg-insert.html: « pginsert
+  - function.pg-last-notice.html: пгlastnotice »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгlasterror
+---
 # пгlasterror
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ pg_last_error(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

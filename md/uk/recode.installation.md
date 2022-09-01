@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](recode.requirements.html)
-    
--   [Налаштування під час виконання »](recode.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](recode.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - recode.requirements.html: « Вимоги
+  - recode.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - recode.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 ## PHP 7.4

@@ -1,16 +1,11 @@
-Повертає список колонок таблиці
-
--   [« mysqllistdbs](function.mysql-list-dbs.html)
-    
--   [mysqllistprocesses »](function.mysql-list-processes.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає список колонок таблиці
-    
-
+---
+navigation:
+  - function.mysql-list-dbs.html: « mysqllistdbs
+  - function.mysql-list-processes.html: mysqllistprocesses »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqllistfields
+---
 # mysqllistfields
 
 (PHP 4, PHP 5)

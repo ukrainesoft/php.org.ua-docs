@@ -1,16 +1,11 @@
-Читає вміст файлу в рядок
-
--   [« fileexists](function.file-exists.html)
-    
--   [fileputcontents »](function.file-put-contents.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Читає вміст файлу в рядок
-    
-
+---
+navigation:
+  - function.file-exists.html: « fileexists
+  - function.file-put-contents.html: fileputcontents »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: filegetcontents
+---
 # filegetcontents
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -73,10 +68,10 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | Параметр `length` тепер припускає значення **`null`** |
-|        | Додано підтримку негативних значень `offset`          |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `length` тепер припускає значення **`null`** |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 

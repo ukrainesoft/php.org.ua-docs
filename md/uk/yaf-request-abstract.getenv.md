@@ -1,16 +1,11 @@
-Отримує змінну ENV
-
--   [« YafRequestAbstract::getControllerName](yaf-request-abstract.getcontrollername.html)
-    
--   [YafRequestAbstract::getException »](yaf-request-abstract.getexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Отримує змінну ENV
-    
-
+---
+navigation:
+  - yaf-request-abstract.getcontrollername.html: '« YafRequestAbstract::getControllerName'
+  - yaf-request-abstract.getexception.html: 'YafRequestAbstract::getException »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getEnv'
+---
 # YafRequestAbstract::getEnv
 
 (Yaf >=1.0.0)

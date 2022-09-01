@@ -1,16 +1,11 @@
-Повертає ID останнього вставленого рядка або значення послідовності
-
--   [« PDO::inTransaction](pdo.intransaction.md)
-    
--   [PDO::prepare »](pdo.prepare.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Повертає ID останнього вставленого рядка або значення послідовності
-    
-
+---
+navigation:
+  - pdo.intransaction.md: '« PDO::inTransaction'
+  - pdo.prepare.md: 'PDO::prepare »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::lastInsertId'
+---
 # PDO::lastInsertId
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

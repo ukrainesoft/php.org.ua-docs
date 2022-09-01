@@ -1,16 +1,11 @@
-Додати слово до списку персональних слів
-
--   [« enchantbrokersetordering](function.enchant-broker-set-ordering.html)
-    
--   [enchantdictaddтоsession »](function.enchant-dict-add-to-session.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Додати слово до списку персональних слів
-    
-
+---
+navigation:
+  - function.enchant-broker-set-ordering.html: « enchantbrokersetordering
+  - function.enchant-dict-add-to-session.html: enchantdictaddтоsession »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictaddтоpersonal
+---
 # enchantdictaddтоpersonal
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)

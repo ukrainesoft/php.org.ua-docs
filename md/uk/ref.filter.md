@@ -1,16 +1,11 @@
-Функції фільтрації даних
-
--   [« Очищення (нормалізація)](filter.examples.sanitization.md)
-    
--   [filterhasvar »](function.filter-has-var.html)
-    
--   [PHP Manual](index.md)
-    
--   [Filter](book.filter.md)
-    
--   Функції фільтрації даних
-    
-
+---
+navigation:
+  - filter.examples.sanitization.md: « Очищення (нормалізація)
+  - function.filter-has-var.html: filterhasvar »
+  - index.md: PHP Manual
+  - book.filter.md: Filter
+title: Функції фільтрації даних
+---
 # Функції фільтрації даних
 
 ## Зміст

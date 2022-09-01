@@ -1,16 +1,11 @@
-Повертає аргументи, передані атрибуту
-
--   [« ReflectionAttribute::construct](reflectionattribute.construct.html)
-    
--   [ReflectionAttribute::getName »](reflectionattribute.getname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionAttribute](class.reflectionattribute.html)
-    
--   Повертає аргументи, передані атрибуту
-    
-
+---
+navigation:
+  - reflectionattribute.construct.html: '« ReflectionAttribute::construct'
+  - reflectionattribute.getname.html: 'ReflectionAttribute::getName »'
+  - index.html: PHP Manual
+  - class.reflectionattribute.html: ReflectionAttribute
+title: 'ReflectionAttribute::getArguments'
+---
 # ReflectionAttribute::getArguments
 
 (PHP 8)

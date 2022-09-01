@@ -1,16 +1,11 @@
-Встановлення атрибуту
-
--   [« PDO::rollBack](pdo.rollback.html)
-    
--   [PDOStatement »](class.pdostatement.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDO](class.pdo.html)
-    
--   Встановлення атрибуту
-    
-
+---
+navigation:
+  - pdo.rollback.html: '« PDO::rollBack'
+  - class.pdostatement.html: PDOStatement »
+  - index.html: PHP Manual
+  - class.pdo.html: PDO
+title: 'PDO::setAttribute'
+---
 # PDO::setAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

@@ -1,16 +1,11 @@
-Щітки
-
--   [« UIDrawStroke::setThickness](ui-draw-stroke.setthickness.html)
-    
--   [ОЙDrawBrush::construct »](ui-draw-brush.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Щітки
-    
-
+---
+navigation:
+  - ui-draw-stroke.setthickness.html: '« UIDrawStroke::setThickness'
+  - ui-draw-brush.construct.html: 'ОЙDrawBrush::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Щітки
+---
 # Щітки
 
 (UI 0.9.9)

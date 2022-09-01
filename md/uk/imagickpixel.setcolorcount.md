@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickPixel::setColor](imagickpixel.setcolor.html)
-    
--   [ImagickPixel::setColorValue »](imagickpixel.setcolorvalue.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickpixel.setcolor.html: '« ImagickPixel::setColor'
+  - imagickpixel.setcolorvalue.html: 'ImagickPixel::setColorValue »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::setColorCount'
+---
 # ImagickPixel::setColorCount
 
 (PECL imagick 2, PECL imagick 3)

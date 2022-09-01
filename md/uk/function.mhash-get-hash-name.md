@@ -1,16 +1,11 @@
-Отримати ім'я вказаного хеша
-
--   [« mhashgetblocksize](function.mhash-get-block-size.html)
-    
--   [mhashkeygens2k »](function.mhash-keygen-s2k.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Mhash](ref.mhash.md)
-    
--   Отримати ім'я вказаного хеша
-    
-
+---
+navigation:
+  - function.mhash-get-block-size.html: « mhashgetblocksize
+  - function.mhash-keygen-s2k.html: mhashkeygens2k »
+  - index.md: PHP Manual
+  - ref.mhash.md: Функции Mhash
+title: mhashgethashname
+---
 # mhashgethashname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ mhash_get_hash_name(int $algo): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
 
 ### Приклади
 

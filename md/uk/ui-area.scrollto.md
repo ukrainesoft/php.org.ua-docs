@@ -1,16 +1,11 @@
-Прокрутити область
-
--   [« UIArea::redraw](ui-area.redraw.html)
-    
--   [ОЙArea::setSize »](ui-area.setsize.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙArea](class.ui-area.html)
-    
--   Прокрутити область
-    
-
+---
+navigation:
+  - ui-area.redraw.html: '« UIArea::redraw'
+  - ui-area.setsize.html: 'ОЙArea::setSize »'
+  - index.md: PHP Manual
+  - class.ui-area.html: ОЙArea
+title: 'ОЙArea::scrollTo'
+---
 # ОЙArea::scrollTo
 
 (UI 0.9.9)

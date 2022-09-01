@@ -1,16 +1,11 @@
-Приклад використання
-
--   [« Приклади](gender.examples.md)
-    
--   [GenderGender »](class.gender.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](gender.examples.md)
-    
--   Приклад використання
-    
-
+---
+navigation:
+  - gender.examples.md: « Приклади
+  - class.gender.md: GenderGender »
+  - index.md: PHP Manual
+  - gender.examples.md: Приклади
+title: Приклад використання
+---
 ## Приклад використання
 
 Приклад використання класу Gender.

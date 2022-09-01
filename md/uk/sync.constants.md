@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](sync.resources.html)
-    
--   [SyncMutex »](class.syncmutex.html)
-    
--   [PHP Manual](index.html)
-    
--   [Sync](book.sync.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - sync.resources.html: « Типи ресурсів
+  - class.syncmutex.html: SyncMutex »
+  - index.html: PHP Manual
+  - book.sync.html: Sync
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

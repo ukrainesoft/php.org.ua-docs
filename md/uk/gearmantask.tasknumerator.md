@@ -1,16 +1,11 @@
-Отримання чисельника відсотка виконаної роботи
-
--   [« GearmanTask::taskDenominator](gearmantask.taskdenominator.md)
-    
--   [GearmanTask::unique »](gearmantask.unique.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Отримання чисельника відсотка виконаної роботи
-    
-
+---
+navigation:
+  - gearmantask.taskdenominator.md: '« GearmanTask::taskDenominator'
+  - gearmantask.unique.md: 'GearmanTask::unique »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::taskNumerator'
+---
 # GearmanTask::taskNumerator
 
 (PECL gearman >= 0.5.0)

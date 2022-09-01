@@ -1,16 +1,11 @@
-Отримати метадані, пов'язані з файлом
-
--   [« PharFileInfo::getContent](pharfileinfo.getcontent.html)
-    
--   [PharFileInfo::getPharFlags »](pharfileinfo.getpharflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharFileInfo](class.pharfileinfo.html)
-    
--   Отримати метадані, пов'язані з файлом
-    
-
+---
+navigation:
+  - pharfileinfo.getcontent.html: '« PharFileInfo::getContent'
+  - pharfileinfo.getpharflags.html: 'PharFileInfo::getPharFlags »'
+  - index.html: PHP Manual
+  - class.pharfileinfo.html: PharFileInfo
+title: 'PharFileInfo::getMetadata'
+---
 # PharFileInfo::getMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
@@ -33,9 +28,9 @@ public PharFileInfo::getMetadata(array $unserializeOptions = []): mixed
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | Доданий параметр `unserializeOptions` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `unserializeOptions` |
 
 ### Приклади
 

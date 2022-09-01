@@ -1,16 +1,11 @@
-Componere
-
--   [« APCUIterator::valid](apcuiterator.valid.md)
-    
--   [Введение »](intro.componere.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   Componere
-    
-
+---
+navigation:
+  - apcuiterator.valid.md: '« APCUIterator::valid'
+  - intro.componere.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: Componere
+---
 # Componere
 
 -   [Введение](intro.componere.md)

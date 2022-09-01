@@ -1,16 +1,11 @@
-Ініціалізує підсистему відкритого ключа
-
--   [« ssh2publickeyadd](function.ssh2-publickey-add.html)
-    
--   [ssh2publickeylist »](function.ssh2-publickey-list.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Ініціалізує підсистему відкритого ключа
-    
-
+---
+navigation:
+  - function.ssh2-publickey-add.html: « ssh2publickeyadd
+  - function.ssh2-publickey-list.html: ssh2publickeylist »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2publickeyinit
+---
 # ssh2publickeyinit
 
 (PECL ssh2> = 0.10)

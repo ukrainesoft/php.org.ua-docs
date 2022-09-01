@@ -1,16 +1,11 @@
-Створює екземпляр класу з переданими параметрами
-
--   [« ReflectionClass::newInstance](reflectionclass.newinstance.md)
-    
--   [ReflectionClass::newInstanceWithoutConstructor »](reflectionclass.newinstancewithoutconstructor.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Створює екземпляр класу з переданими параметрами
-    
-
+---
+navigation:
+  - reflectionclass.newinstance.md: '« ReflectionClass::newInstance'
+  - reflectionclass.newinstancewithoutconstructor.md: 'ReflectionClass::newInstanceWithoutConstructor »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::newInstanceArgs'
+---
 # ReflectionClass::newInstanceArgs
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

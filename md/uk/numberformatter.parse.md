@@ -1,16 +1,11 @@
-Розбирає число
-
--   [« NumberFormatter::parseCurrency](numberformatter.parsecurrency.html)
-    
--   [NumberFormatter::setAttribute »](numberformatter.setattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [NumberFormatter](class.numberformatter.html)
-    
--   Розбирає число
-    
-
+---
+navigation:
+  - numberformatter.parsecurrency.html: '« NumberFormatter::parseCurrency'
+  - numberformatter.setattribute.html: 'NumberFormatter::setAttribute »'
+  - index.html: PHP Manual
+  - class.numberformatter.html: NumberFormatter
+title: 'NumberFormatter::parse'
+---
 # NumberFormatter::parse
 
 # numfmtparse

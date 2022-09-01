@@ -1,16 +1,11 @@
-Отримати повний шлях на диску або повний URL запущеного Phar-архіву
-
--   [« Phar::offsetUnset](phar.offsetunset.md)
-    
--   [Phar::setAlias »](phar.setalias.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Отримати повний шлях на диску або повний URL запущеного Phar-архіву
-    
-
+---
+navigation:
+  - phar.offsetunset.md: '« Phar::offsetUnset'
+  - phar.setalias.md: 'Phar::setAlias »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::running'
+---
 # Phar::running
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

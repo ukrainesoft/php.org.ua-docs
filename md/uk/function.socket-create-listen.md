@@ -1,16 +1,11 @@
-Відкриває сокет на вказаному порту для прийняття з'єднань
-
--   [« socketconnect](function.socket-connect.html)
-    
--   [socketcreatepair »](function.socket-create-pair.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Відкриває сокет на вказаному порту для прийняття з'єднань
-    
-
+---
+navigation:
+  - function.socket-connect.html: « socketconnect
+  - function.socket-create-pair.html: socketcreatepair »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketcreatelisten
+---
 # socketcreatelisten
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ socket_create_listen(int $port, int $backlog = 128): Socket|false
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
 
 ### Примітки
 

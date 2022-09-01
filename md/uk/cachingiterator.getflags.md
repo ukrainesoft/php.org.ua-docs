@@ -1,16 +1,11 @@
-Отримує прапори, що використовуються
-
--   [« CachingIterator::getCache](cachingiterator.getcache.md)
-    
--   [CachingIterator::getInnerIterator »](cachingiterator.getinneriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Отримує прапори, що використовуються
-    
-
+---
+navigation:
+  - cachingiterator.getcache.md: '« CachingIterator::getCache'
+  - cachingiterator.getinneriterator.md: 'CachingIterator::getInnerIterator »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::getFlags'
+---
 # CachingIterator::getFlags
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

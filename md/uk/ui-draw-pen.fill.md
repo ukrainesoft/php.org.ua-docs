@@ -1,16 +1,11 @@
-Залити шлях
-
--   [« UIDrawPen::clip](ui-draw-pen.clip.html)
-    
--   [ОЙDrawPen::restore »](ui-draw-pen.restore.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPen](class.ui-draw-pen.html)
-    
--   Залити шлях
-    
-
+---
+navigation:
+  - ui-draw-pen.clip.html: '« UIDrawPen::clip'
+  - ui-draw-pen.restore.html: 'ОЙDrawPen::restore »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.html: ОЙDrawPen
+title: 'ОЙDrawPen::fill'
+---
 # ОЙDrawPen::fill
 
 (UI 0.9.9)

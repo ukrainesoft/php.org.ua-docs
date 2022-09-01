@@ -1,16 +1,11 @@
-Багатобайтові рядки
-
--   [« intlісfailure](function.intl-is-failure.html)
-    
--   [Введение »](intro.mbstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   Багатобайтові рядки
-    
-
+---
+navigation:
+  - function.intl-is-failure.html: « intlісfailure
+  - intro.mbstring.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: Багатобайтові рядки
+---
 # Багатобайтові рядки
 
 -   [Введение](intro.mbstring.md)

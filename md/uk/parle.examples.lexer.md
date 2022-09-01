@@ -1,16 +1,11 @@
-Приклади використання лексера
-
--   [« Приклади](parle.examples.md)
-    
--   [Пример использования парсера »](parle.examples.parser.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](parle.examples.md)
-    
--   Приклади використання лексера
-    
-
+---
+navigation:
+  - parle.examples.md: « Приклади
+  - parle.examples.parser.md: Пример использования парсера »
+  - index.md: PHP Manual
+  - parle.examples.md: Приклади
+title: Приклади використання лексера
+---
 ## Приклади використання лексера
 
 **Приклад #1 Токенізація списку цілих чисел через кому**

@@ -1,16 +1,11 @@
-Псевдонім ibasewaitevent
-
--   [« fbirdtrans](function.fbird-trans.html)
-    
--   [ibaseadduser »](function.ibase-add-user.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibasewaitevent
-    
-
+---
+navigation:
+  - function.fbird-trans.html: « fbirdtrans
+  - function.ibase-add-user.html: ibaseadduser »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdwaitevent
+---
 # fbirdwaitevent
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Отримує ім'я класу ітератора ArrayObject
-
--   [« ArrayObject::getIterator](arrayobject.getiterator.html)
-    
--   [ArrayObject::ksort »](arrayobject.ksort.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayObject](class.arrayobject.html)
-    
--   Отримує ім'я класу ітератора ArrayObject
-    
-
+---
+navigation:
+  - arrayobject.getiterator.html: '« ArrayObject::getIterator'
+  - arrayobject.ksort.html: 'ArrayObject::ksort »'
+  - index.html: PHP Manual
+  - class.arrayobject.html: ArrayObject
+title: 'ArrayObject::getIteratorClass'
+---
 # ArrayObject::getIteratorClass
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

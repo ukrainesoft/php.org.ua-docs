@@ -1,16 +1,11 @@
-Прив'язує параметри запиту вибірки
-
--   [« mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   [TableSelect::construct »](mysql-xdevapi-tableselect.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Прив'язує параметри запиту вибірки
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-tableselect.html: « mysqlxdevapiTableSelect
+  - mysql-xdevapi-tableselect.construct.html: 'TableSelect::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::bind'
+---
 # TableSelect::bind
 
 (No version information available, might only be in Git)

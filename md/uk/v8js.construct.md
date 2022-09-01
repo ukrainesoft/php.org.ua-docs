@@ -1,16 +1,11 @@
-Створює новий об'єкт V8Js
-
--   [« V8Js](class.v8js.md)
-    
--   [V8Js::executeString »](v8js.executestring.md)
-    
--   [PHP Manual](index.md)
-    
--   [V8Js](class.v8js.md)
-    
--   Створює новий об'єкт V8Js
-    
-
+---
+navigation:
+  - class.v8js.md: « V8Js
+  - v8js.executestring.md: 'V8Js::executeString »'
+  - index.md: PHP Manual
+  - class.v8js.md: V8Js
+title: 'V8Js::construct'
+---
 # V8Js::construct
 
 (PECL v8js >= 0.1.0)

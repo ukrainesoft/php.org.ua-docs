@@ -1,16 +1,11 @@
-Виділяє пам'ять під зазначену місткість
-
--   [« Стек](class.ds-stack.html)
-    
--   [ДсStack::capacity »](ds-stack.capacity.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Виділяє пам'ять під зазначену місткість
-    
-
+---
+navigation:
+  - class.ds-stack.html: « Стек
+  - ds-stack.capacity.html: 'ДсStack::capacity »'
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::allocate'
+---
 # ДсStack::allocate
 
 (PECL ds >= 1.0.0)

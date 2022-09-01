@@ -1,16 +1,11 @@
-Надсилає дані у віддалений TCP-сокет
-
--   [« SwooleClient::resume](swoole-client.resume.html)
-    
--   [SwooleClient::sendfile »](swoole-client.sendfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Надсилає дані у віддалений TCP-сокет
-    
-
+---
+navigation:
+  - swoole-client.resume.html: '« SwooleClient::resume'
+  - swoole-client.sendfile.html: 'SwooleClient::sendfile »'
+  - index.html: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::send'
+---
 # SwooleClient::send
 
 (PECL swoole >= 1.9.0)

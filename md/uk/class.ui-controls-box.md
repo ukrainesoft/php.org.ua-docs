@@ -1,16 +1,11 @@
-Блок керування (розміщення)
-
--   [« UIControlsGroup::setTitle](ui-controls-group.settitle.html)
-    
--   [ОЙControlsBox::append »](ui-controls-box.append.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Блок керування (розміщення)
-    
-
+---
+navigation:
+  - ui-controls-group.settitle.html: '« UIControlsGroup::setTitle'
+  - ui-controls-box.append.html: 'ОЙControlsBox::append »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Блок керування (розміщення)
+---
 # Блок керування (розміщення)
 
 (UI 0.9.9)

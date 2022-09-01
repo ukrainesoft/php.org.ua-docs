@@ -1,16 +1,11 @@
-Seaslog
-
--   [« Список изменений](changelog.misc.md)
-    
--   [Введение »](intro.seaslog.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Seaslog
-    
-
+---
+navigation:
+  - changelog.misc.md: « Список изменений
+  - intro.seaslog.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Seaslog
+---
 # Seaslog
 
 -   [Введение](intro.seaslog.md)

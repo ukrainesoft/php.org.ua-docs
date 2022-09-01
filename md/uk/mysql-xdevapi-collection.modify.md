@@ -1,16 +1,11 @@
-Змінює документи колекції
-
--   [« Collection::getSession](mysql-xdevapi-collection.getsession.html)
-    
--   [Collection::remove »](mysql-xdevapi-collection.remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Змінює документи колекції
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.getsession.html: '« Collection::getSession'
+  - mysql-xdevapi-collection.remove.html: 'Collection::remove »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::modify'
+---
 # Collection::modify
 
 (No version information available, might only be in Git)

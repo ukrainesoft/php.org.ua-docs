@@ -1,16 +1,11 @@
-Повертає потік, що відображає змінну, що використовується при взаємодії з libeio
-
--   [« eiofutime](function.eio-futime.html)
-    
--   [eiogetlasterror »](function.eio-get-last-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Повертає потік, що відображає змінну, що використовується при взаємодії з libeio
-    
-
+---
+navigation:
+  - function.eio-futime.html: « eiofutime
+  - function.eio-get-last-error.html: eiogetlasterror »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiogeteventstream
+---
 # eiogeteventstream
 
 (PECL eio >= 0.3.1b)

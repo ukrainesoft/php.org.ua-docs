@@ -1,16 +1,11 @@
-Створює групу запитів
-
--   [« eiogrplimit](function.eio-grp-limit.html)
-    
--   [eioinit »](function.eio-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Створює групу запитів
-    
-
+---
+navigation:
+  - function.eio-grp-limit.html: « eiogrplimit
+  - function.eio-init.html: eioinit »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiogrp
+---
 # eiogrp
 
 (PECL eio >= 0.0.1dev)

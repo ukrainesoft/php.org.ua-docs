@@ -1,16 +1,11 @@
-Щільність ймовірності експонентного розподілу
-
--   [« statsdenschisquare](function.stats-dens-chisquare.html)
-    
--   [statsdensf »](function.stats-dens-f.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Щільність ймовірності експонентного розподілу
-    
-
+---
+navigation:
+  - function.stats-dens-chisquare.html: « statsdenschisquare
+  - function.stats-dens-f.html: statsdensf »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdensexponential
+---
 # statsdensexponential
 
 (PECL stats >= 1.0.0)

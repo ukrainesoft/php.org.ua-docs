@@ -1,16 +1,11 @@
-Отримує вузол, що знаходиться на початку двозв'язкового списку
-
--   [« SplDoublyLinkedList::add](spldoublylinkedlist.add.html)
-    
--   [SplDoublyLinkedList::count »](spldoublylinkedlist.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Отримує вузол, що знаходиться на початку двозв'язкового списку
-    
-
+---
+navigation:
+  - spldoublylinkedlist.add.html: '« SplDoublyLinkedList::add'
+  - spldoublylinkedlist.count.html: 'SplDoublyLinkedList::count »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::bottom'
+---
 # SplDoublyLinkedList::bottom
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

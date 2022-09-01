@@ -1,16 +1,11 @@
-Встановлює ширину обведення, яка використовується для малювання контурів об'єкта
-
--   [« ImagickDraw::setStrokePatternURL](imagickdraw.setstrokepatternurl.html)
-    
--   [ImagickDraw::setTextAlignment »](imagickdraw.settextalignment.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює ширину обведення, яка використовується для малювання контурів об'єкта
-    
-
+---
+navigation:
+  - imagickdraw.setstrokepatternurl.html: '« ImagickDraw::setStrokePatternURL'
+  - imagickdraw.settextalignment.html: 'ImagickDraw::setTextAlignment »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setStrokeWidth'
+---
 # ImagickDraw::setStrokeWidth
 
 (PECL imagick 2, PECL imagick 3)

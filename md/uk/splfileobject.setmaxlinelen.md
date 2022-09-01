@@ -1,16 +1,11 @@
-Встановити максимальну довжину рядка
-
--   [« SplFileObject::setFlags](splfileobject.setflags.md)
-    
--   [SplFileObject::toString »](splfileobject.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Встановити максимальну довжину рядка
-    
-
+---
+navigation:
+  - splfileobject.setflags.md: '« SplFileObject::setFlags'
+  - splfileobject.tostring.md: 'SplFileObject::toString »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::setMaxLineLen'
+---
 # SplFileObject::setMaxLineLen
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

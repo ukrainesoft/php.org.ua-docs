@@ -1,16 +1,11 @@
-Встановлення внутрішніх опцій
-
--   [« Альтернативний вибір](regexp.reference.alternation.md)
-    
--   [Подмаски »](regexp.reference.subpatterns.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
-    
--   Встановлення внутрішніх опцій
-    
-
+---
+navigation:
+  - regexp.reference.alternation.md: « Альтернативний вибір
+  - regexp.reference.subpatterns.md: Подмаски »
+  - index.md: PHP Manual
+  - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів
+title: Встановлення внутрішніх опцій
+---
 ## Встановлення внутрішніх опцій
 
 Установки [PCRECASELESS](reference.pcre.pattern.modifiers.md) [PCREMULTILINE](reference.pcre.pattern.modifiers.md) [PCREDOTALL](reference.pcre.pattern.modifiers.md) [PCREUNGREEDY](reference.pcre.pattern.modifiers.md) [PCREEXTRA](reference.pcre.pattern.modifiers.md) [PCREEXTENDED](reference.pcre.pattern.modifiers.md) та PCREDUPNAMES можуть бути локально визначені в шаблоні з використанням спеціальних Perl-послідовностей між символами "(?" і ")". Нижче наведено список цих опцій:

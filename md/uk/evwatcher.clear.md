@@ -1,16 +1,11 @@
-Очистити статус очікування спостерігача
-
--   [« EvWatcher](class.evwatcher.md)
-    
--   [EvWatcher::construct »](evwatcher.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvWatcher](class.evwatcher.md)
-    
--   Очистити статус очікування спостерігача
-    
-
+---
+navigation:
+  - class.evwatcher.md: « EvWatcher
+  - evwatcher.construct.md: 'EvWatcher::construct »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::clear'
+---
 # EvWatcher::clear
 
 (PECL ev >= 0.2.0)

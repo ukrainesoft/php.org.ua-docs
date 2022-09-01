@@ -1,16 +1,11 @@
-Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
-
--   [« obclean](function.ob-clean.html)
-    
--   [проendflush »](function.ob-end-flush.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
-    
-
+---
+navigation:
+  - function.ob-clean.html: « obclean
+  - function.ob-end-flush.html: проendflush »
+  - index.html: PHP Manual
+  - ref.outcontrol.html: Функції контролю виведення
+title: проendclean
+---
 # проendclean
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

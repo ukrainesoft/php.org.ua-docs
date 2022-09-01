@@ -1,16 +1,11 @@
-Асинхронний та неблокуючий пошук імені хоста або IP-адреси
-
--   [« Функции Swoole](ref.swoole-funcs.html)
-    
--   [swooleasyncread »](function.swoole-async-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Асинхронний та неблокуючий пошук імені хоста або IP-адреси
-    
-
+---
+navigation:
+  - ref.swoole-funcs.html: « Функции Swoole
+  - function.swoole-async-read.html: swooleasyncread »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleasyncdnslookup
+---
 # swooleasyncdnslookup
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Перекладає ітератор на початок черги
-
--   [« SplPriorityQueue::recoverFromCorruption](splpriorityqueue.recoverfromcorruption.html)
-    
--   [SplPriorityQueue::setExtractFlags »](splpriorityqueue.setextractflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplPriorityQueue](class.splpriorityqueue.html)
-    
--   Перекладає ітератор на початок черги
-    
-
+---
+navigation:
+  - splpriorityqueue.recoverfromcorruption.html: '« SplPriorityQueue::recoverFromCorruption'
+  - splpriorityqueue.setextractflags.html: 'SplPriorityQueue::setExtractFlags »'
+  - index.html: PHP Manual
+  - class.splpriorityqueue.html: SplPriorityQueue
+title: 'SplPriorityQueue::rewind'
+---
 # SplPriorityQueue::rewind
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

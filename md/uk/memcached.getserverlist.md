@@ -1,16 +1,11 @@
-Отримує список серверів у пулі
-
--   [« Memcached::getServerByKey](memcached.getserverbykey.html)
-    
--   [Memcached::getStats »](memcached.getstats.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Отримує список серверів у пулі
-    
-
+---
+navigation:
+  - memcached.getserverbykey.html: '« Memcached::getServerByKey'
+  - memcached.getstats.html: 'Memcached::getStats »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::getServerList'
+---
 # Memcached::getServerList
 
 (PECL memcached >= 0.1.0)

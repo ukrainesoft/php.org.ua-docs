@@ -1,16 +1,11 @@
-Клас MongoDBBSONJavascript
-
--   [« MongoDBBSONDecimal128::unserialize](mongodb-bson-decimal128.unserialize.html)
-    
--   [MongoDBBSONJavascript::construct »](mongodb-bson-javascript.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONJavascript
-    
-
+---
+navigation:
+  - mongodb-bson-decimal128.unserialize.html: '« MongoDBBSONDecimal128::unserialize'
+  - mongodb-bson-javascript.construct.html: 'MongoDBBSONJavascript::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONJavascript
+---
 # Клас MongoDBBSONJavascript
 
 (mongodb >=1.0.0)
@@ -52,11 +47,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                                                                  |
-|---------------------|-----------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+.                                        |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)          |
-| PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 

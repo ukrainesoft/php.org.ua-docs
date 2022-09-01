@@ -1,16 +1,11 @@
-Виводить повідомлення про помилки до журналу
-
--   [« swooleerrno](function.swoole-errno.html)
-    
--   [swooleeventadd »](function.swoole-event-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Виводить повідомлення про помилки до журналу
-    
-
+---
+navigation:
+  - function.swoole-errno.html: « swooleerrno
+  - function.swoole-event-add.html: swooleeventadd »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleerrorlog
+---
 # swooleerrorlog
 
 (PECL swoole >= 4.5.8)

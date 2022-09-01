@@ -1,16 +1,11 @@
-Завантажити об'єкт із файлу
-
--   [« COMPersistHelper::InitNew](compersisthelper.initnew.md)
-    
--   [COMPersistHelper::LoadFromStream »](compersisthelper.loadfromstream.md)
-    
--   [PHP Manual](index.md)
-    
--   [COMPersistHelper](class.compersisthelper.md)
-    
--   Завантажити об'єкт із файлу
-    
-
+---
+navigation:
+  - compersisthelper.initnew.md: '« COMPersistHelper::InitNew'
+  - compersisthelper.loadfromstream.md: 'COMPersistHelper::LoadFromStream »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::LoadFromFile'
+---
 # COMPersistHelper::LoadFromFile
 
 (PHP 5, PHP 7, PHP 8)

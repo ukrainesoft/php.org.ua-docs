@@ -1,16 +1,11 @@
-Повертає подання масиву документа
-
--   [« SolrDocument::sort](solrdocument.sort.html)
-    
--   [SolrDocument::unserialize »](solrdocument.unserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Повертає подання масиву документа
-    
-
+---
+navigation:
+  - solrdocument.sort.html: '« SolrDocument::sort'
+  - solrdocument.unserialize.html: 'SolrDocument::unserialize »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::toArray'
+---
 # SolrDocument::toArray
 
 (PECL solr> = 0.9.2)

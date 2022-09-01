@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.gmp.md)
-    
--   [Вимоги »](gmp.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [GMP](book.gmp.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.gmp.md: « Введение
+  - gmp.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.gmp.md: GMP
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

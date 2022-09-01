@@ -1,16 +1,11 @@
-Зміна вмісту файлу
-
--   [« PharData::isWritable](phardata.iswritable.md)
-    
--   [PharData::offsetUnset »](phardata.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Зміна вмісту файлу
-    
-
+---
+navigation:
+  - phardata.iswritable.md: '« PharData::isWritable'
+  - phardata.offsetunset.md: 'PharData::offsetUnset »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::offsetSet'
+---
 # PharData::offsetSet
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

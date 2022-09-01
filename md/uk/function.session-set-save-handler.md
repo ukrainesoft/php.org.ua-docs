@@ -1,16 +1,11 @@
-Встановлює користувальницькі обробники зберігання сесії
-
--   [« sessionsetcookieparams](function.session-set-cookie-params.html)
-    
--   [sessionstart »](function.session-start.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Встановлює користувальницькі обробники зберігання сесії
-    
-
+---
+navigation:
+  - function.session-set-cookie-params.html: « sessionsetcookieparams
+  - function.session-start.html: sessionstart »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionsetsavehandler
+---
 # sessionsetsavehandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

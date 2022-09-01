@@ -1,16 +1,11 @@
-Отримати кількість днів між 21 березня та Великоднем у заданому році
-
--   [« easterdate](function.easter-date.html)
-    
--   [frenchtojd »](function.frenchtojd.md)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](ref.calendar.md)
-    
--   Отримати кількість днів між 21 березня та Великоднем у заданому році
-    
-
+---
+navigation:
+  - function.easter-date.html: « easterdate
+  - function.frenchtojd.md: frenchtojd »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: easterdays
+---
 # easterdays
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ easter_days(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `year` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `year` тепер допускає значення null. |
 
 ### Приклади
 

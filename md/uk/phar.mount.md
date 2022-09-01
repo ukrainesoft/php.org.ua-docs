@@ -1,16 +1,11 @@
-Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
-
--   [« Phar::mapPhar](phar.mapphar.md)
-    
--   [Phar::mungServer »](phar.mungserver.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
-    
-
+---
+navigation:
+  - phar.mapphar.md: '« Phar::mapPhar'
+  - phar.mungserver.md: 'Phar::mungServer »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::mount'
+---
 # Phar::mount
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

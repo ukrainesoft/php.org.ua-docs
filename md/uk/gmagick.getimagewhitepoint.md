@@ -1,16 +1,11 @@
-Повертає хроматичну білу точку
-
--   [« Gmagick::getimageunits](gmagick.getimageunits.md)
-    
--   [Gmagick::getimagewidth »](gmagick.getimagewidth.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає хроматичну білу точку
-    
-
+---
+navigation:
+  - gmagick.getimageunits.md: '« Gmagick::getimageunits'
+  - gmagick.getimagewidth.md: 'Gmagick::getimagewidth »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagewhitepoint'
+---
 # Gmagick::getimagewhitepoint
 
 (PECL gmagick >= Unknown)

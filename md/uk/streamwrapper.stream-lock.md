@@ -1,16 +1,11 @@
-Консультативне блокування файлу
-
--   [« streamWrapper::streamflush](streamwrapper.stream-flush.html)
-    
--   [streamWrapper::streammetadata »](streamwrapper.stream-metadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Консультативне блокування файлу
-    
-
+---
+navigation:
+  - streamwrapper.stream-flush.html: '« streamWrapper::streamflush'
+  - streamwrapper.stream-metadata.html: 'streamWrapper::streammetadata »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streamlock'
+---
 # streamWrapper::streamlock
 
 (PHP 5, PHP 7, PHP 8)

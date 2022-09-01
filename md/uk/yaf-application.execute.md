@@ -1,16 +1,11 @@
-Запустити callback-функцію
-
--   [« YafApplication::environ](yaf-application.environ.html)
-    
--   [YafApplication::getAppDirectory »](yaf-application.getappdirectory.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Запустити callback-функцію
-    
-
+---
+navigation:
+  - yaf-application.environ.html: '« YafApplication::environ'
+  - yaf-application.getappdirectory.html: 'YafApplication::getAppDirectory »'
+  - index.html: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::execute'
+---
 # YafApplication::execute
 
 (Yaf >=1.0.0)

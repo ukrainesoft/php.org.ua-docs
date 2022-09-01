@@ -1,16 +1,11 @@
-Навчання протягом однієї епохи
-
--   [« fanntest](function.fann-test.html)
-    
--   [fanntrainвінdata »](function.fann-train-on-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Навчання протягом однієї епохи
-    
-
+---
+navigation:
+  - function.fann-test.html: « fanntest
+  - function.fann-train-on-data.html: fanntrainвінdata »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanntrainepoch
+---
 # fanntrainepoch
 
 (PECL fann> = 1.0.0)

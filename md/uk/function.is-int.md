@@ -1,16 +1,11 @@
-Перевіряє, чи є змінна цілим числом
-
--   [« isfloat](function.is-float.html)
-    
--   [ісinteger »](function.is-integer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевіряє, чи є змінна цілим числом
-    
-
+---
+navigation:
+  - function.is-float.html: « isfloat
+  - function.is-integer.html: ісinteger »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісint
+---
 # ісint
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

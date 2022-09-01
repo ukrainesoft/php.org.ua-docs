@@ -1,16 +1,11 @@
-Повертає масив псевдонімів трейтів
-
--   [« ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.html)
-    
--   [ReflectionClass::getTraitNames »](reflectionclass.gettraitnames.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає масив псевдонімів трейтів
-    
-
+---
+navigation:
+  - reflectionclass.getstaticpropertyvalue.html: '« ReflectionClass::getStaticPropertyValue'
+  - reflectionclass.gettraitnames.html: 'ReflectionClass::getTraitNames »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getTraitAliases'
+---
 # ReflectionClass::getTraitAliases
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

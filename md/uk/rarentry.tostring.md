@@ -1,16 +1,11 @@
-Отримати текстове подання запису
-
--   [« RarEntry::isEncrypted](rarentry.isencrypted.html)
-    
--   [RarException »](class.rarexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarEntry](class.rarentry.html)
-    
--   Отримати текстове подання запису
-    
-
+---
+navigation:
+  - rarentry.isencrypted.html: '« RarEntry::isEncrypted'
+  - class.rarexception.html: RarException »
+  - index.html: PHP Manual
+  - class.rarentry.html: RarEntry
+title: 'RarEntry::function toString() { \[native code\] }'
+---
 # RarEntry::function toString() { \[native code\] }
 
 (PECL rar >= 2.0.0)

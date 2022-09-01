@@ -1,16 +1,11 @@
-Обчислює відбиток або дайджест, заданий сертифікатом X.509
-
--   [« opensslx509export](function.openssl-x509-export.html)
-    
--   [opensslx509free »](function.openssl-x509-free.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Обчислює відбиток або дайджест, заданий сертифікатом X.509
-    
-
+---
+navigation:
+  - function.openssl-x509-export.html: « opensslx509export
+  - function.openssl-x509-free.html: opensslx509free »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslx509fingerprint
+---
 # opensslx509fingerprint
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -47,6 +42,6 @@ openssl_x509_fingerprint(OpenSSLCertificate|string $certificate, string $digest_
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

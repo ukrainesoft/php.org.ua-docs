@@ -1,16 +1,11 @@
-Вставляє елемент у стовпець типу послідовності, використовуючи OID
-
--   [« cubridseqdrop](function.cubrid-seq-drop.html)
-    
--   [cubridseqput »](function.cubrid-seq-put.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Вставляє елемент у стовпець типу послідовності, використовуючи OID
-    
-
+---
+navigation:
+  - function.cubrid-seq-drop.html: « cubridseqdrop
+  - function.cubrid-seq-put.html: cubridseqput »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridseqinsert
+---
 # cubridseqinsert
 
 (PECL CUBRID >= 8.3.0)

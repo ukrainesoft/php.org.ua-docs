@@ -1,16 +1,11 @@
-Запустити цикл подій
-
--   [« swooleeventset](function.swoole-event-set.html)
-    
--   [swooleeventwrite »](function.swoole-event-write.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Запустити цикл подій
-    
-
+---
+navigation:
+  - function.swoole-event-set.html: « swooleeventset
+  - function.swoole-event-write.html: swooleeventwrite »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleeventwait
+---
 # swooleeventwait
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Отримує стан з'єднання zookeeper
-
--   [« Zookeeper::getRecvTimeout](zookeeper.getrecvtimeout.md)
-    
--   [Zookeeper::isRecoverable »](zookeeper.isrecoverable.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Отримує стан з'єднання zookeeper
-    
-
+---
+navigation:
+  - zookeeper.getrecvtimeout.md: '« Zookeeper::getRecvTimeout'
+  - zookeeper.isrecoverable.md: 'Zookeeper::isRecoverable »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::getState'
+---
 # Zookeeper::getState
 
 (PECL zookeeper >= 0.1.0)

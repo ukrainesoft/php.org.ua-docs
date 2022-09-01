@@ -1,16 +1,11 @@
-Отримати максимальний розмір потоку
-
--   [« COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.html)
-    
--   [COMPersistHelper::InitNew »](compersisthelper.initnew.html)
-    
--   [PHP Manual](index.html)
-    
--   [COMPersistHelper](class.compersisthelper.html)
-    
--   Отримати максимальний розмір потоку
-    
-
+---
+navigation:
+  - compersisthelper.getcurfilename.html: '« COMPersistHelper::GetCurFileName'
+  - compersisthelper.initnew.html: 'COMPersistHelper::InitNew »'
+  - index.html: PHP Manual
+  - class.compersisthelper.html: COMPersistHelper
+title: 'COMPersistHelper::GetMaxStreamSize'
+---
 # COMPersistHelper::GetMaxStreamSize
 
 (PHP 5, PHP 7, PHP 8)

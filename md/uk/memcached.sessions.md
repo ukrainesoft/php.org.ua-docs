@@ -1,16 +1,11 @@
-Підтримка сесій
-
--   [Функції зворотного виклику наскрізного читання кешу](memcached.callbacks.read-through.html)
-    
--   [Memcached »](class.memcached.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](book.memcached.md)
-    
--   Підтримка сесій
-    
-
+---
+navigation:
+  - memcached.callbacks.read-through.html: Функції зворотного виклику наскрізного читання кешу
+  - class.memcached.md: Memcached »
+  - index.md: PHP Manual
+  - book.memcached.md: Memcached
+title: Підтримка сесій
+---
 # Підтримка сесій
 
 Memcached надає власний обробник сесій, який можна використовувати для зберігання сесійних змінних у memcache. Для цього використовується повністю окремий екземпляр memcached, тому за потреби ви можете використовувати інший пул серверів. Ключі сесії зберігаються із префіксом `memc.sess.key.`, так що майте на увазі, якщо будете використовувати для сесій і звичайного кешування один і той же пул серверів.

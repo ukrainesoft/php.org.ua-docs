@@ -1,16 +1,11 @@
-Встановлення розширених атрибутів файлу
-
--   [« xattrremove](function.xattr-remove.html)
-    
--   [xattrsupported »](function.xattr-supported.html)
-    
--   [PHP Manual](index.md)
-    
--   [xattr Функции](ref.xattr.md)
-    
--   Встановлення розширених атрибутів файлу
-    
-
+---
+navigation:
+  - function.xattr-remove.html: « xattrremove
+  - function.xattr-supported.html: xattrsupported »
+  - index.md: PHP Manual
+  - ref.xattr.md: xattr Функции
+title: xattrset
+---
 # xattrset
 
 (PECL xattr >= 0.9.0)

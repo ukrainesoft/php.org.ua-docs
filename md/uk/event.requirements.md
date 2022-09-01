@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](event.setup.md)
-    
--   [Установка »](event.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](event.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - event.setup.md: « Встановлення та налаштування
+  - event.installation.md: Установка »
+  - index.md: PHP Manual
+  - event.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Модулі потрібна бібліотека [» libevent](http://libevent.org/). Бібліотека є у більшості сучасних дистрибутивів.

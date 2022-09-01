@@ -1,16 +1,11 @@
-Встановити параметр
-
--   [« OAuthProvider::reportProblem](oauthprovider.reportproblem.md)
-    
--   [OAuthProvider::setRequestTokenPath »](oauthprovider.setrequesttokenpath.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Встановити параметр
-    
-
+---
+navigation:
+  - oauthprovider.reportproblem.md: '« OAuthProvider::reportProblem'
+  - oauthprovider.setrequesttokenpath.md: 'OAuthProvider::setRequestTokenPath »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::setParam'
+---
 # OAuthProvider::setParam
 
 (PECL OAuth >= 1.0.0)

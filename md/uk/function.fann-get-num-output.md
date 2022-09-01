@@ -1,16 +1,11 @@
-Отримує кількість вихідних нейронів
-
--   [« fanngetnumlayers](function.fann-get-num-layers.html)
-    
--   [fanngetquickpropdecay »](function.fann-get-quickprop-decay.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Отримує кількість вихідних нейронів
-    
-
+---
+navigation:
+  - function.fann-get-num-layers.html: « fanngetnumlayers
+  - function.fann-get-quickprop-decay.html: fanngetquickpropdecay »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetnumoutput
+---
 # fanngetnumoutput
 
 (PECL fann> = 1.0.0)

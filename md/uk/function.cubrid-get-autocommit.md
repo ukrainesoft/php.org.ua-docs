@@ -1,16 +1,11 @@
-Повертає налаштування авто-комміту для з'єднання
-
--   [« cubridfreeresult](function.cubrid-free-result.html)
-    
--   [cubridgetcharset »](function.cubrid-get-charset.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Повертає налаштування авто-комміту для з'єднання
-    
-
+---
+navigation:
+  - function.cubrid-free-result.html: « cubridfreeresult
+  - function.cubrid-get-charset.html: cubridgetcharset »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridgetautocommit
+---
 # cubridgetautocommit
 
 (PECL CUBRID >= 8.4.0)

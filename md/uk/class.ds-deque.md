@@ -1,16 +1,11 @@
-Клас Deque
-
--   [« DsVector::unshift](ds-vector.unshift.html)
-    
--   [ДсDeque::allocate »](ds-deque.allocate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Клас Deque
-    
-
+---
+navigation:
+  - ds-vector.unshift.html: '« DsVector::unshift'
+  - ds-deque.allocate.html: 'ДсDeque::allocate »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Клас Deque
+---
 # Клас Deque
 
 (No version information available, might only be in Git)
@@ -99,8 +94,8 @@ public unshift(mixed $values = ?): void
 
 ## список змін
 
-| Версия        | Описание                                                |
-|---------------|---------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст

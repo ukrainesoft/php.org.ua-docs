@@ -1,16 +1,11 @@
-Створити новий об'єкт Separator
-
--   [« UIControlsSeparator](class.ui-controls-separator.html)
-    
--   [ОЙControlsCombo »](class.ui-controls-combo.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsSeparator](class.ui-controls-separator.html)
-    
--   Створити новий об'єкт Separator
-    
-
+---
+navigation:
+  - class.ui-controls-separator.html: « UIControlsSeparator
+  - class.ui-controls-combo.html: ОЙControlsCombo »
+  - index.md: PHP Manual
+  - class.ui-controls-separator.html: ОЙControlsSeparator
+title: 'ОЙControlsSeparator::construct'
+---
 # ОЙControlsSeparator::construct
 
 (UI 0.9.9)

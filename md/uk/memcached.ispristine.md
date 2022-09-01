@@ -1,16 +1,11 @@
-Перевіряє чи вже створено екземпляр класу Memcached
-
--   [« Memcached::isPersistent](memcached.ispersistent.html)
-    
--   [Memcached::prepend »](memcached.prepend.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Перевіряє чи вже створено екземпляр класу Memcached
-    
-
+---
+navigation:
+  - memcached.ispersistent.html: '« Memcached::isPersistent'
+  - memcached.prepend.html: 'Memcached::prepend »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::isPristine'
+---
 # Memcached::isPristine
 
 (PECL memcached >= 2.0.0)

@@ -1,16 +1,11 @@
-Відкриває файл
-
--   [« eionthreads](function.eio-nthreads.html)
-    
--   [eiopoll »](function.eio-poll.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Відкриває файл
-    
-
+---
+navigation:
+  - function.eio-nthreads.html: « eionthreads
+  - function.eio-poll.html: eiopoll »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eioopen
+---
 # eioopen
 
 (PECL eio >= 0.0.1dev)

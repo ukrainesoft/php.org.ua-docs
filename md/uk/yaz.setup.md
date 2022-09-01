@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.yaz.md)
-    
--   [Вимоги »](yaz.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [YAZ](book.yaz.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.yaz.md: « Введение
+  - yaz.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.yaz.md: YAZ
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

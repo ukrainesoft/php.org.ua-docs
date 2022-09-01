@@ -1,16 +1,11 @@
-Регулює коефіцієнт масштабування
-
--   [« GmagickDraw::roundrectangle](gmagickdraw.roundrectangle.md)
-    
--   [GmagickDraw::setfillcolor »](gmagickdraw.setfillcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Регулює коефіцієнт масштабування
-    
-
+---
+navigation:
+  - gmagickdraw.roundrectangle.md: '« GmagickDraw::roundrectangle'
+  - gmagickdraw.setfillcolor.md: 'GmagickDraw::setfillcolor »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::scale'
+---
 # GmagickDraw::scale
 
 (PECL gmagick >= Unknown)

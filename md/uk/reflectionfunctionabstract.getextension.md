@@ -1,16 +1,11 @@
-Отримує інформацію про модуль
-
--   [« ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md)
-    
--   [ReflectionFunctionAbstract::getExtensionName »](reflectionfunctionabstract.getextensionname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Отримує інформацію про модуль
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getendline.md: '« ReflectionFunctionAbstract::getEndLine'
+  - reflectionfunctionabstract.getextensionname.md: 'ReflectionFunctionAbstract::getExtensionName »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getExtension'
+---
 # ReflectionFunctionAbstract::getExtension
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](lzf.installation.html)
-    
--   [Типи ресурсів »](lzf.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](lzf.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - lzf.installation.html: « Установка
+  - lzf.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - lzf.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

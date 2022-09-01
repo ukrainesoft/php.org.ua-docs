@@ -1,16 +1,11 @@
-Повертає покажчик на задану секцію у mime-повідомленні
-
--   [« mailparsemsggetpartdata](function.mailparse-msg-get-part-data.html)
-    
--   [mailparsemsggetstructure »](function.mailparse-msg-get-structure.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mailparse](ref.mailparse.html)
-    
--   Повертає покажчик на задану секцію у mime-повідомленні
-    
-
+---
+navigation:
+  - function.mailparse-msg-get-part-data.html: « mailparsemsggetpartdata
+  - function.mailparse-msg-get-structure.html: mailparsemsggetstructure »
+  - index.html: PHP Manual
+  - ref.mailparse.html: Mailparse
+title: mailparsemsggetpart
+---
 # mailparsemsggetpart
 
 (PECL mailparse >= 0.9.0)

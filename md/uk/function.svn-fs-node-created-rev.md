@@ -1,16 +1,11 @@
-Повертає номер ревізії, коли було створено шлях у файловій системі
-
--   [« svnфсmakefile](function.svn-fs-make-file.html)
-    
--   [svnфсnodeprop »](function.svn-fs-node-prop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Повертає номер ревізії, коли було створено шлях у файловій системі
-    
-
+---
+navigation:
+  - function.svn-fs-make-file.html: « svnфсmakefile
+  - function.svn-fs-node-prop.html: svnфсnodeprop »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnфсnodecreatedrev
+---
 # svnфсnodecreatedrev
 
 (PECL svn >= 0.1.0)

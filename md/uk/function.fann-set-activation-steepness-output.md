@@ -1,16 +1,11 @@
-Встановлює крутість активації у вихідному шарі
-
--   [« fannsetactivationsteepnesslayer](function.fann-set-activation-steepness-layer.html)
-    
--   [fannsetactivationsteepness »](function.fann-set-activation-steepness.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює крутість активації у вихідному шарі
-    
-
+---
+navigation:
+  - function.fann-set-activation-steepness-layer.html: « fannsetactivationsteepnesslayer
+  - function.fann-set-activation-steepness.html: fannsetactivationsteepness »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetactivationsteepnessoutput
+---
 # fannsetactivationsteepnessoutput
 
 (PECL fann> = 1.0.0)

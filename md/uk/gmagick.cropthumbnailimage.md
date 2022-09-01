@@ -1,16 +1,11 @@
-Створення обрізаного зменшеного зображення
-
--   [« Gmagick::cropimage](gmagick.cropimage.md)
-    
--   [Gmagick::current »](gmagick.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Створення обрізаного зменшеного зображення
-    
-
+---
+navigation:
+  - gmagick.cropimage.md: '« Gmagick::cropimage'
+  - gmagick.current.md: 'Gmagick::current »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::cropthumbnailimage'
+---
 # Gmagick::cropthumbnailimage
 
 (PECL gmagick >= Unknown)

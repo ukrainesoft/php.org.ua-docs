@@ -1,16 +1,11 @@
-Визначення кодування символів
-
--   [« mbdecodenumericentity](function.mb-decode-numericentity.html)
-    
--   [мбdetectorder »](function.mb-detect-order.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Визначення кодування символів
-    
-
+---
+navigation:
+  - function.mb-decode-numericentity.html: « mbdecodenumericentity
+  - function.mb-detect-order.html: мбdetectorder »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбdetectencoding
+---
 # мбdetectencoding
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

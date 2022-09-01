@@ -1,16 +1,11 @@
-Псевдонім методу SplFileObject::fgets
-
--   [« SplFileObject::getCsvControl](splfileobject.getcsvcontrol.md)
-    
--   [SplFileObject::getFlags »](splfileobject.getflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Псевдонім методу SplFileObject::fgets
-    
-
+---
+navigation:
+  - splfileobject.getcsvcontrol.md: '« SplFileObject::getCsvControl'
+  - splfileobject.getflags.md: 'SplFileObject::getFlags »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::getCurrentLine'
+---
 # SplFileObject::getCurrentLine
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

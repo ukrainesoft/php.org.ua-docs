@@ -1,16 +1,11 @@
-Повертає назву шрифту
-
--   [« Imagick::getFilename](imagick.getfilename.md)
-    
--   [Imagick::getFormat »](imagick.getformat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає назву шрифту
-    
-
+---
+navigation:
+  - imagick.getfilename.md: '« Imagick::getFilename'
+  - imagick.getformat.md: 'Imagick::getFormat »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getFont'
+---
 # Imagick::getFont
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

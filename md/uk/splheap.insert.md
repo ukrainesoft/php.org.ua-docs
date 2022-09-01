@@ -1,16 +1,11 @@
-Вставляє елемент у купу та пересортує її
-
--   [« SplHeap::extract](splheap.extract.html)
-    
--   [SplHeap::isCorrupted »](splheap.iscorrupted.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplHeap](class.splheap.html)
-    
--   Вставляє елемент у купу та пересортує її
-    
-
+---
+navigation:
+  - splheap.extract.html: '« SplHeap::extract'
+  - splheap.iscorrupted.html: 'SplHeap::isCorrupted »'
+  - index.html: PHP Manual
+  - class.splheap.html: SplHeap
+title: 'SplHeap::insert'
+---
 # SplHeap::insert
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

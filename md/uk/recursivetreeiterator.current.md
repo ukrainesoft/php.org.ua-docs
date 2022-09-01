@@ -1,16 +1,11 @@
-Отримання поточного елемента
-
--   [« RecursiveTreeIterator::construct](recursivetreeiterator.construct.html)
-    
--   [RecursiveTreeIterator::endChildren »](recursivetreeiterator.endchildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
-    
--   Отримання поточного елемента
-    
-
+---
+navigation:
+  - recursivetreeiterator.construct.html: '« RecursiveTreeIterator::construct'
+  - recursivetreeiterator.endchildren.html: 'RecursiveTreeIterator::endChildren »'
+  - index.html: PHP Manual
+  - class.recursivetreeiterator.html: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::current'
+---
 # RecursiveTreeIterator::current
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

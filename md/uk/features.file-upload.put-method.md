@@ -1,16 +1,11 @@
-Підтримка методу PUT
-
--   [« Завантаження кількох файлів](features.file-upload.multiple.html)
-    
--   [Смотрите также »](features.file-upload.errors.seealso.html)
-    
--   [PHP Manual](index.html)
-    
--   [Загрузка файлов на сервер](features.file-upload.html)
-    
--   Підтримка методу PUT
-    
-
+---
+navigation:
+  - features.file-upload.multiple.html: « Завантаження кількох файлів
+  - features.file-upload.errors.seealso.html: Смотрите также »
+  - index.html: PHP Manual
+  - features.file-upload.html: Загрузка файлов на сервер
+title: Підтримка методу PUT
+---
 ## Підтримка методу PUT
 
 PHP підтримує завантаження файлів методом HTTP PUT, який використовується в деяких клієнтах для завантаження файлів на сервер. Запити PUT набагато простіше, ніж завантаження файлу з використанням POST-запитами і виглядають приблизно так:

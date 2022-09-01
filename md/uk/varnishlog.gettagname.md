@@ -1,16 +1,11 @@
-Отримати строкове подання тега журналу за його індексом
-
--   [« VarnishLog::getLine](varnishlog.getline.md)
-    
--   [YAZ »](book.yaz.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishLog](class.varnishlog.md)
-    
--   Отримати строкове подання тега журналу за його індексом
-    
-
+---
+navigation:
+  - varnishlog.getline.md: '« VarnishLog::getLine'
+  - book.yaz.md: YAZ »
+  - index.md: PHP Manual
+  - class.varnishlog.md: VarnishLog
+title: 'VarnishLog::getTagName'
+---
 # VarnishLog::getTagName
 
 (PECL varnish >= 0.6)

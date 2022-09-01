@@ -1,16 +1,11 @@
-Перевірка збирання
-
--   [« Компіляція та складання](wincache.win32build.building.md)
-    
--   [Xhprof »](book.xhprof.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сборка для Windows](wincache.win32build.md)
-    
--   Перевірка збирання
-    
-
+---
+navigation:
+  - wincache.win32build.building.md: « Компіляція та складання
+  - book.xhprof.md: Xhprof »
+  - index.md: PHP Manual
+  - wincache.win32build.md: Сборка для Windows
+title: Перевірка збирання
+---
 ## Перевірка збирання
 
 Наступні кроки описують процес перевірки того, що модуль був зібраний коректно:

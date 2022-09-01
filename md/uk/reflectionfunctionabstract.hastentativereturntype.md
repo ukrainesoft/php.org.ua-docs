@@ -1,16 +1,11 @@
-Визначає, чи є у функції попередній тип значення, що повертається
-
--   [« ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md)
-    
--   [ReflectionFunctionAbstract::inNamespace »](reflectionfunctionabstract.innamespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Визначає, чи є у функції попередній тип значення, що повертається
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.hasreturntype.md: '« ReflectionFunctionAbstract::hasReturnType'
+  - reflectionfunctionabstract.innamespace.md: 'ReflectionFunctionAbstract::inNamespace »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::hasTentativeReturnType'
+---
 # ReflectionFunctionAbstract::hasTentativeReturnType
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Накладає одне зображення на інше
-
--   [« Imagick::compareImages](imagick.compareimages.md)
-    
--   [Imagick::construct »](imagick.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Накладає одне зображення на інше
-    
-
+---
+navigation:
+  - imagick.compareimages.md: '« Imagick::compareImages'
+  - imagick.construct.md: 'Imagick::construct »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::compositeImage'
+---
 # Imagick::compositeImage
 
 (PECL imagick 2, PECL imagick 3)

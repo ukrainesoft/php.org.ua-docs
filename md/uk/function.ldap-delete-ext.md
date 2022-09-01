@@ -1,16 +1,11 @@
-Видалити запис із директорії
-
--   [« ldapcountreferences](function.ldap-count-references.html)
-    
--   [ldapdelete »](function.ldap-delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Видалити запис із директорії
-    
-
+---
+navigation:
+  - function.ldap-count-references.html: « ldapcountreferences
+  - function.ldap-delete.html: ldapdelete »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapdeleteext
+---
 # ldapdeleteext
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -35,11 +30,11 @@ ldap_delete_ext(LDAP\Connection $ldap, string $dn, ?array $controls = null): LDA
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                            |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 
 ### Дивіться також
 

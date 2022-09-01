@@ -1,16 +1,11 @@
-Генерує псевдовипадкову послідовність байт
-
--   [« opensslpublicencrypt](function.openssl-public-encrypt.html)
-    
--   [opensslseal »](function.openssl-seal.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Генерує псевдовипадкову послідовність байт
-    
-
+---
+navigation:
+  - function.openssl-public-encrypt.html: « opensslpublicencrypt
+  - function.openssl-seal.html: opensslseal »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslrandompseudobytes
+---
 # opensslrandompseudobytes
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ openssl_random_pseudo_bytes(int $length, bool &$strong_result = null): string
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `strong_result` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `strong_result` тепер допускає значення null. |
 
 ### Приклади
 

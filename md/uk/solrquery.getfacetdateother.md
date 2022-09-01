@@ -1,16 +1,11 @@
-Повертає значення параметра facet.date.other
-
--   [« SolrQuery::getFacetDateHardEnd](solrquery.getfacetdatehardend.md)
-    
--   [SolrQuery::getFacetDateStart »](solrquery.getfacetdatestart.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає значення параметра facet.date.other
-    
-
+---
+navigation:
+  - solrquery.getfacetdatehardend.md: '« SolrQuery::getFacetDateHardEnd'
+  - solrquery.getfacetdatestart.md: 'SolrQuery::getFacetDateStart »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacetDateOther'
+---
 # SolrQuery::getFacetDateOther
 
 (PECL solr> = 0.9.2)

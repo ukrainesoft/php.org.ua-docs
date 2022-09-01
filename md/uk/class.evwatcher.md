@@ -1,16 +1,11 @@
-Клас EvWatcher
-
--   [« EvTimer::set](evtimer.set.html)
-    
--   [EvWatcher::clear »](evwatcher.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас EvWatcher
-    
-
+---
+navigation:
+  - evtimer.set.html: '« EvTimer::set'
+  - evwatcher.clear.html: 'EvWatcher::clear »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас EvWatcher
+---
 # Клас EvWatcher
 
 (PECL ev >= 0.2.0)

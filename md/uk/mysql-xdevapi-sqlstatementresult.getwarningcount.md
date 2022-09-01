@@ -1,16 +1,11 @@
-Отримує кількість попереджень від останньої операції
-
--   [« SqlStatementResult::getWarnings](mysql-xdevapi-sqlstatementresult.getwarnings.html)
-    
--   [SqlStatementResult::hasData »](mysql-xdevapi-sqlstatementresult.hasdata.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує кількість попереджень від останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getwarnings.html: '« SqlStatementResult::getWarnings'
+  - mysql-xdevapi-sqlstatementresult.hasdata.html: 'SqlStatementResult::hasData »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getWarningsCount'
+---
 # SqlStatementResult::getWarningsCount
 
 (No version information available, might only be in Git)

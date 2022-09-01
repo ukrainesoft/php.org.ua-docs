@@ -1,16 +1,11 @@
-Витончене з'єднання під час виконання
-
--   [« parallelRuntime::run](parallel-runtime.run.html)
-    
--   [parallelRuntime::kill »](parallel-runtime.kill.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallelRuntime](class.parallel-runtime.html)
-    
--   Витончене з'єднання під час виконання
-    
-
+---
+navigation:
+  - parallel-runtime.run.html: '« parallelRuntime::run'
+  - parallel-runtime.kill.html: 'parallelRuntime::kill »'
+  - index.html: PHP Manual
+  - class.parallel-runtime.html: parallelRuntime
+title: 'parallelRuntime::close'
+---
 # parallelRuntime::close
 
 parallelRuntime::close — Витончене з'єднання під час виконання

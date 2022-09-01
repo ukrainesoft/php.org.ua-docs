@@ -1,16 +1,11 @@
-Клас SoapFault
-
--   [« SoapServer::setPersistence](soapserver.setpersistence.md)
-    
--   [SoapFault::construct »](soapfault.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SOAP](book.soap.md)
-    
--   Клас SoapFault
-    
-
+---
+navigation:
+  - soapserver.setpersistence.md: '« SoapServer::setPersistence'
+  - soapfault.construct.md: 'SoapFault::construct »'
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
+title: Клас SoapFault
+---
 # Клас SoapFault
 
 (PHP 5, PHP 7, PHP 8)

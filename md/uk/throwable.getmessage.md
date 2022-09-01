@@ -1,16 +1,11 @@
-Отримує повідомлення помилки
-
--   [« Throwable](class.throwable.md)
-    
--   [Throwable::getCode »](throwable.getcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Throwable](class.throwable.md)
-    
--   Отримує повідомлення помилки
-    
-
+---
+navigation:
+  - class.throwable.md: « Throwable
+  - throwable.getcode.md: 'Throwable::getCode »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getMessage'
+---
 # Throwable::getMessage
 
 (PHP 7, PHP 8)

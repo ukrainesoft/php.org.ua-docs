@@ -1,16 +1,11 @@
-Отримує кількість налаштованих серверів імен
-
--   [« EventDnsBase::construct](eventdnsbase.construct.md)
-    
--   [EventDnsBase::loadHosts »](eventdnsbase.loadhosts.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventDnsBase](class.eventdnsbase.md)
-    
--   Отримує кількість налаштованих серверів імен
-    
-
+---
+navigation:
+  - eventdnsbase.construct.md: '« EventDnsBase::construct'
+  - eventdnsbase.loadhosts.md: 'EventDnsBase::loadHosts »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::countNameservers'
+---
 # EventDnsBase::countNameservers
 
 (PECL event >= 1.2.6-beta)

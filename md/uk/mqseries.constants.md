@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](mqseries.resources.html)
-    
--   [Функции mqseries »](ref.mqseries.html)
-    
--   [PHP Manual](index.html)
-    
--   [mqseries](book.mqseries.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - mqseries.resources.html: « Типи ресурсів
+  - ref.mqseries.html: Функции mqseries »
+  - index.html: PHP Manual
+  - book.mqseries.html: mqseries
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Для кожної константи WebSphere MQ існує її відображення в mqseries.
@@ -21,9 +16,9 @@
 
 **Константи mqseries**
 
-| Константа PHP       | Константа MQ |
-|---------------------|--------------|
-| MQSERIESMQCCОК      | MQCCОК       |
-| MQSERIESMQCCWARNING | MQCCWARNING  |
-| MQSERIESMQCCFAILED  | MQCCFAILED   |
-| MQSERIESMQCCUNKNOWN | MQCCUNKNOWN  |
+| Константа PHP | Константа MQ |
+| --- | --- |
+| MQSERIESMQCCОК | MQCCОК |
+| MQSERIESMQCCWARNING | MQCCWARNING |
+| MQSERIESMQCCFAILED | MQCCFAILED |
+| MQSERIESMQCCUNKNOWN | MQCCUNKNOWN |

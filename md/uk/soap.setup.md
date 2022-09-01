@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.soap.html)
-    
--   [Вимоги »](soap.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [SOAP](book.soap.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.soap.html: « Введение
+  - soap.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.soap.html: SOAP
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

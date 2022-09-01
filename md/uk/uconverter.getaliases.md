@@ -1,16 +1,11 @@
-Отримати псевдоніми для заданого імені
-
--   [« UConverter::fromUCallback](uconverter.fromucallback.md)
-    
--   [UConverter::getAvailable »](uconverter.getavailable.md)
-    
--   [PHP Manual](index.md)
-    
--   [UConverter](class.uconverter.md)
-    
--   Отримати псевдоніми для заданого імені
-    
-
+---
+navigation:
+  - uconverter.fromucallback.md: '« UConverter::fromUCallback'
+  - uconverter.getavailable.md: 'UConverter::getAvailable »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::getAliases'
+---
 # UConverter::getAliases
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

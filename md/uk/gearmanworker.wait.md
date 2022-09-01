@@ -1,16 +1,11 @@
-Очікування запиту з одного із сервера завдань
-
--   [« GearmanWorker::unregisterAll](gearmanworker.unregisterall.md)
-    
--   [GearmanWorker::work »](gearmanworker.work.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Очікування запиту з одного із сервера завдань
-    
-
+---
+navigation:
+  - gearmanworker.unregisterall.md: '« GearmanWorker::unregisterAll'
+  - gearmanworker.work.md: 'GearmanWorker::work »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::wait'
+---
 # GearmanWorker::wait
 
 (PECL gearman >= 0.6.0)

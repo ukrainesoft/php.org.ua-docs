@@ -1,16 +1,11 @@
-Конструктор класу
-
--   [« Spoofchecker::areConfusable](spoofchecker.areconfusable.md)
-    
--   [Spoofchecker::isSuspicious »](spoofchecker.issuspicious.md)
-    
--   [PHP Manual](index.md)
-    
--   [Spoofchecker](class.spoofchecker.md)
-    
--   Конструктор класу
-    
-
+---
+navigation:
+  - spoofchecker.areconfusable.md: '« Spoofchecker::areConfusable'
+  - spoofchecker.issuspicious.md: 'Spoofchecker::isSuspicious »'
+  - index.md: PHP Manual
+  - class.spoofchecker.md: Spoofchecker
+title: 'Spoofchecker::construct'
+---
 # Spoofchecker::construct
 
 (No version information available, might only be in Git)

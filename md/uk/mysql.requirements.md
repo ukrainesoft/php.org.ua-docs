@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](mysql.setup.html)
-    
--   [Установка »](mysql.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](mysql.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - mysql.setup.html: « Встановлення та налаштування
+  - mysql.installation.html: Установка »
+  - index.html: PHP Manual
+  - mysql.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для використання цих функцій PHP має бути зібраний за допомогою MySQL.

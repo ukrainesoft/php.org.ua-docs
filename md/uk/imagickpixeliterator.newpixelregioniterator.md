@@ -1,16 +1,11 @@
-Повертає новий ітератор пікселів
-
--   [« ImagickPixelIterator::newPixelIterator](imagickpixeliterator.newpixeliterator.md)
-    
--   [ImagickPixelIterator::resetIterator »](imagickpixeliterator.resetiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.md)
-    
--   Повертає новий ітератор пікселів
-    
-
+---
+navigation:
+  - imagickpixeliterator.newpixeliterator.md: '« ImagickPixelIterator::newPixelIterator'
+  - imagickpixeliterator.resetiterator.md: 'ImagickPixelIterator::resetIterator »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
+title: 'ImagickPixelIterator::newPixelRegionIterator'
+---
 # ImagickPixelIterator::newPixelRegionIterator
 
 (PECL imagick 2, PECL imagick 3)

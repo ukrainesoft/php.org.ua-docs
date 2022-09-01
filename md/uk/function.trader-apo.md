@@ -1,16 +1,11 @@
-Абсолютний ціновий осцилятор
-
--   [« traderadxr](function.trader-adxr.html)
-    
--   [traderaroon »](function.trader-aroon.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Абсолютний ціновий осцилятор
-    
-
+---
+navigation:
+  - function.trader-adxr.html: « traderadxr
+  - function.trader-aroon.html: traderaroon »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderapo
+---
 # traderapo
 
 (PECL trader >= 0.2.0)

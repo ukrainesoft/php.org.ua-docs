@@ -1,16 +1,11 @@
-Замінює кольори у зображенні
-
--   [« Imagick::getVersion](imagick.getversion.md)
-    
--   [Imagick::hasNextImage »](imagick.hasnextimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Замінює кольори у зображенні
-    
-
+---
+navigation:
+  - imagick.getversion.md: '« Imagick::getVersion'
+  - imagick.hasnextimage.md: 'Imagick::hasNextImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::haldClutImage'
+---
 # Imagick::haldClutImage
 
 (PECL imagick 3)

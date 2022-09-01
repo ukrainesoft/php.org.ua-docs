@@ -1,16 +1,11 @@
-Відновити роботу генератора
-
--   [« Generator::key](generator.key.html)
-    
--   [Generator::rewind »](generator.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Generator](class.generator.html)
-    
--   Відновити роботу генератора
-    
-
+---
+navigation:
+  - generator.key.html: '« Generator::key'
+  - generator.rewind.html: 'Generator::rewind »'
+  - index.html: PHP Manual
+  - class.generator.html: Generator
+title: 'Generator::next'
+---
 # Generator::next
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

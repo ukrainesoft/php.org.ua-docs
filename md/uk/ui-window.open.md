@@ -1,16 +1,11 @@
-Відкрити діалогове вікно
-
--   [« UIWindow::onClosing](ui-window.onclosing.html)
-    
--   [ОЙWindow::save »](ui-window.save.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Відкрити діалогове вікно
-    
-
+---
+navigation:
+  - ui-window.onclosing.html: '« UIWindow::onClosing'
+  - ui-window.save.html: 'ОЙWindow::save »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::open'
+---
 # ОЙWindow::open
 
 (UI 0.9.9)

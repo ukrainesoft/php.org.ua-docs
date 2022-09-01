@@ -1,16 +1,11 @@
-Входи
-
--   [« parallelEventsInput::clear](parallel-events-input.clear.html)
-    
--   [parallelEventsEvent »](class.parallel-events-event.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelEventsInput](class.parallel-events-input.html)
-    
--   Входи
-    
-
+---
+navigation:
+  - parallel-events-input.clear.html: '« parallelEventsInput::clear'
+  - class.parallel-events-event.html: parallelEventsEvent »
+  - index.md: PHP Manual
+  - class.parallel-events-input.html: parallelEventsInput
+title: 'parallelEventsInput::remove'
+---
 # parallelEventsInput::remove
 
 parallelEventsInput::remove — Вхід

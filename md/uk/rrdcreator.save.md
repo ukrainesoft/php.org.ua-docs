@@ -1,16 +1,11 @@
-Зберігає базу даних RRD у файл
-
--   [« RRDCreator::construct](rrdcreator.construct.md)
-    
--   [RRDGraph »](class.rrdgraph.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRDCreator](class.rrdcreator.md)
-    
--   Зберігає базу даних RRD у файл
-    
-
+---
+navigation:
+  - rrdcreator.construct.md: '« RRDCreator::construct'
+  - class.rrdgraph.md: RRDGraph »
+  - index.md: PHP Manual
+  - class.rrdcreator.md: RRDCreator
+title: 'RRDCreator::save'
+---
 # RRDCreator::save
 
 (PECL rrd >= 0.9.0)

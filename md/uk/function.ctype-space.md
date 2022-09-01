@@ -1,16 +1,11 @@
-Перевіряє наявність символів пробілів
-
--   [« ctypepunct](function.ctype-punct.html)
-    
--   [ctypeupper »](function.ctype-upper.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції Ctype](ref.ctype.md)
-    
--   Перевіряє наявність символів пробілів
-    
-
+---
+navigation:
+  - function.ctype-punct.html: « ctypepunct
+  - function.ctype-upper.html: ctypeupper »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
+title: ctypespace
+---
 # ctypespace
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

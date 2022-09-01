@@ -1,16 +1,11 @@
-Встановлення прав доступу
-
--   [« PharFileInfo](class.pharfileinfo.md)
-    
--   [PharFileInfo::compress »](pharfileinfo.compress.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Встановлення прав доступу
-    
-
+---
+navigation:
+  - class.pharfileinfo.md: « PharFileInfo
+  - pharfileinfo.compress.md: 'PharFileInfo::compress »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::chmod'
+---
 # PharFileInfo::chmod
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

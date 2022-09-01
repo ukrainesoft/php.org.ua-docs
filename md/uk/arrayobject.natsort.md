@@ -1,16 +1,11 @@
-Сортувати масив за допомогою алгоритму "natural order"
-
--   [« ArrayObject::natcasesort](arrayobject.natcasesort.md)
-    
--   [ArrayObject::offsetExists »](arrayobject.offsetexists.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Сортувати масив за допомогою алгоритму "natural order"
-    
-
+---
+navigation:
+  - arrayobject.natcasesort.md: '« ArrayObject::natcasesort'
+  - arrayobject.offsetexists.md: 'ArrayObject::offsetExists »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::natsort'
+---
 # ArrayObject::natsort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

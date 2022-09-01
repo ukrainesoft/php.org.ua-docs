@@ -1,16 +1,11 @@
-Вмикає або вимикає шифрування на вже підключеному сокеті
-
--   [« streamsocketclient](function.stream-socket-client.html)
-    
--   [streamsocketgetname »](function.stream-socket-get-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Вмикає або вимикає шифрування на вже підключеному сокеті
-    
-
+---
+navigation:
+  - function.stream-socket-client.html: « streamsocketclient
+  - function.stream-socket-get-name.html: streamsocketgetname »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsocketenablecrypto
+---
 # streamsocketenablecrypto
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -70,9 +65,9 @@ stream_socket_enable_crypto(    resource $stream,    bool $enable,   
 
 ### список змін
 
-| Версия | Описание                                       |
-|--------|------------------------------------------------|
-|        | `session_stream` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `session_stream` тепер допускає значення null. |
 
 ### Приклади
 

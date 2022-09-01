@@ -1,16 +1,11 @@
-Повертає частину рядка
-
--   [« mbsubstrcount](function.mb-substr-count.html)
-    
--   [Pspell »](book.pspell.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Повертає частину рядка
-    
-
+---
+navigation:
+  - function.mb-substr-count.html: « mbsubstrcount
+  - book.pspell.md: Pspell »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбsubstr
+---
 # мбsubstr
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ mb_substr(    string $string,    int $start,    ?int $length = null,
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

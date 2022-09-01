@@ -1,16 +1,11 @@
-Функція шифрує дані
-
--   [« mcryptgenericinit](function.mcrypt-generic-init.html)
-    
--   [mcryptgetblocksize »](function.mcrypt-get-block-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Функція шифрує дані
-    
-
+---
+navigation:
+  - function.mcrypt-generic-init.html: « mcryptgenericinit
+  - function.mcrypt-get-block-size.html: mcryptgetblocksize »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptgeneric
+---
 # mcryptgeneric
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

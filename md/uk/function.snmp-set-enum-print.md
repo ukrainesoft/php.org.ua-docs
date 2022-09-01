@@ -1,16 +1,11 @@
-Повертає всі значення, які є перерахуваннями, із їх значенням перерахування замість необробленого цілого числа
-
--   [« snmpreadmib](function.snmp-read-mib.html)
-    
--   [snmpsetoidnumericprint »](function.snmp-set-oid-numeric-print.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Повертає всі значення, які є перерахуваннями, із їх значенням перерахування замість необробленого цілого числа
-    
-
+---
+navigation:
+  - function.snmp-read-mib.html: « snmpreadmib
+  - function.snmp-set-oid-numeric-print.html: snmpsetoidnumericprint »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpsetenumprint
+---
 # snmpsetenumprint
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

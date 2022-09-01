@@ -1,16 +1,11 @@
-Перевіряє, чи закінчується рядок заданим підрядком
-
--   [« strcontains](function.str-contains.html)
-    
--   [strgetcsv »](function.str-getcsv.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перевіряє, чи закінчується рядок заданим підрядком
-    
-
+---
+navigation:
+  - function.str-contains.html: « strcontains
+  - function.str-getcsv.html: strgetcsv »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strendswith
+---
 # strendswith
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.oci8.md)
-    
--   [Вимоги »](oci8.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8](book.oci8.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.oci8.md: « Введение
+  - oci8.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Австралія
-
--   [« Атлантика](timezones.atlantic.html)
-    
--   [Європа »](timezones.europe.html)
-    
--   [PHP Manual](index.html)
-    
--   [Список підтримуваних часових поясів](timezones.html)
-    
--   Австралія
-    
-
+---
+navigation:
+  - timezones.atlantic.html: « Атлантика
+  - timezones.europe.html: Європа »
+  - index.html: PHP Manual
+  - timezones.html: Список підтримуваних часових поясів
+title: Австралія
+---
 ## Австралія
 
 < td>Australia/Sydney

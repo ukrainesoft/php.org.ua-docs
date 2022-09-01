@@ -1,16 +1,11 @@
-Надсилає запит
-
--   [« YafRouteSimple::construct](yaf-route-simple.construct.html)
-    
--   [YafRouteStatic »](class.yaf-route-static.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteSimple](class.yaf-route-simple.html)
-    
--   Надсилає запит
-    
-
+---
+navigation:
+  - yaf-route-simple.construct.html: '« YafRouteSimple::construct'
+  - class.yaf-route-static.html: YafRouteStatic »
+  - index.md: PHP Manual
+  - class.yaf-route-simple.html: YafRouteSimple
+title: 'YafRouteSimple::route'
+---
 # YafRouteSimple::route
 
 (Yaf >=1.0.0)

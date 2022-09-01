@@ -1,16 +1,11 @@
-Отримує внутрішній ітератор
-
--   [« NoRewindIterator::current](norewinditerator.current.md)
-    
--   [NoRewindIterator::key »](norewinditerator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [NoRewindIterator](class.norewinditerator.md)
-    
--   Отримує внутрішній ітератор
-    
-
+---
+navigation:
+  - norewinditerator.current.md: '« NoRewindIterator::current'
+  - norewinditerator.key.md: 'NoRewindIterator::key »'
+  - index.md: PHP Manual
+  - class.norewinditerator.md: NoRewindIterator
+title: 'NoRewindIterator::getInnerIterator'
+---
 # NoRewindIterator::getInnerIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

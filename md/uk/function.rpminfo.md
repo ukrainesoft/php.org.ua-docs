@@ -1,16 +1,11 @@
-Вийняти інформацію з RPM-файлу
-
--   [« rpmdbsearch](function.rpmdbsearch.html)
-    
--   [rpmvercmp »](function.rpmvercmp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції RpmInfo](ref.rpminfo.html)
-    
--   Вийняти інформацію з RPM-файлу
-    
-
+---
+navigation:
+  - function.rpmdbsearch.html: « rpmdbsearch
+  - function.rpmvercmp.html: rpmvercmp »
+  - index.html: PHP Manual
+  - ref.rpminfo.html: Функції RpmInfo
+title: rpminfo
+---
 # rpminfo
 
 (PECL rpminfo >= 0.1.0)

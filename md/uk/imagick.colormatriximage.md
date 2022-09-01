@@ -1,16 +1,11 @@
-Застосовує перетворення кольору до зображення
-
--   [« Imagick::colorizeImage](imagick.colorizeimage.md)
-    
--   [Imagick::combineImages »](imagick.combineimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Застосовує перетворення кольору до зображення
-    
-
+---
+navigation:
+  - imagick.colorizeimage.md: '« Imagick::colorizeImage'
+  - imagick.combineimages.md: 'Imagick::combineImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::colorMatrixImage'
+---
 # Imagick::colorMatrixImage
 
 (PECL imagick 3> = 3.3.0)

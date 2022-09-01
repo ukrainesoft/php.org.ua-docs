@@ -1,16 +1,11 @@
-Отримує кількість журналів за рівнем, logpath і keyслово
-
--   [« SeasLog::alert](seaslog.alert.html)
-    
--   [SeasLog::analyzerDetail »](seaslog.analyzerdetail.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Отримує кількість журналів за рівнем, logpath і keyслово
-    
-
+---
+navigation:
+  - seaslog.alert.html: '« SeasLog::alert'
+  - seaslog.analyzerdetail.html: 'SeasLog::analyzerDetail »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::analyzerCount'
+---
 # SeasLog::analyzerCount
 
 (PECL seaslog >=1.1.6)

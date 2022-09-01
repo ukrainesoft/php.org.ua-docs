@@ -1,16 +1,11 @@
-Додає метод
-
--   [« ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.html)
-    
--   [ComponereAbstractDefinition::addTrait »](componere-abstract-definition.addtrait.html)
-    
--   [PHP Manual](index.html)
-    
--   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
-    
--   Додає метод
-    
-
+---
+navigation:
+  - componere-abstract-definition.addinterface.html: '« ComponereAbstractDefinition::addInterface'
+  - componere-abstract-definition.addtrait.html: 'ComponereAbstractDefinition::addTrait »'
+  - index.html: PHP Manual
+  - class.componere-abstract-definition.html: ComponereAbstractDefinition
+title: 'ComponereAbstractDefinition::addMethod'
+---
 # ComponereAbstractDefinition::addMethod
 
 (Componere 2 >= 2.1.0)

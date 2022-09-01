@@ -1,16 +1,11 @@
-Зберігає кілька записів
-
--   [« Memcached::setByKey](memcached.setbykey.md)
-    
--   [Memcached::setMultiByKey »](memcached.setmultibykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Зберігає кілька записів
-    
-
+---
+navigation:
+  - memcached.setbykey.md: '« Memcached::setByKey'
+  - memcached.setmultibykey.md: 'Memcached::setMultiByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::setMulti'
+---
 # Memcached::setMulti
 
 (PECL memcached >= 0.1.0)

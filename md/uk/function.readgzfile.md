@@ -1,16 +1,11 @@
-Виводить вміст gz-файлу
-
--   [« inflateinit](function.inflate-init.html)
-    
--   [zlibdecode »](function.zlib-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Виводить вміст gz-файлу
-    
-
+---
+navigation:
+  - function.inflate-init.html: « inflateinit
+  - function.zlib-decode.html: zlibdecode »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: readgzfile
+---
 # readgzfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

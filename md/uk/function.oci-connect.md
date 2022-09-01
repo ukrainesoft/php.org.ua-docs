@@ -1,16 +1,11 @@
-Встановлює з'єднання з базою даних Oracle
-
--   [« ocicommit](function.oci-commit.html)
-    
--   [ocidefineбname »](function.oci-define-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Встановлює з'єднання з базою даних Oracle
-    
-
+---
+navigation:
+  - function.oci-commit.html: « ocicommit
+  - function.oci-define-by-name.html: ocidefineбname »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociconnect
+---
 # ociconnect
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -75,8 +70,8 @@ oci_connect(    string $username,    string $password,    ?string $c
 
 ### список змін
 
-| Версия                 | Описание                                          |
-|------------------------|---------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `connection_string` тепер допускає значення null. |
 
 ### Приклади

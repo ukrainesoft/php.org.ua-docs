@@ -1,16 +1,11 @@
-Виконує пошук за регулярним виразом та заміною з використанням callback-функції
-
--   [« pregreplacecallbackarray](function.preg-replace-callback-array.html)
-    
--   [pregreplace »](function.preg-replace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PCRE](ref.pcre.html)
-    
--   Виконує пошук за регулярним виразом та заміною з використанням callback-функції
-    
-
+---
+navigation:
+  - function.preg-replace-callback-array.html: « pregreplacecallbackarray
+  - function.preg-replace.html: pregreplace »
+  - index.html: PHP Manual
+  - ref.pcre.html: Функции PCRE
+title: pregreplacecallback
+---
 # pregreplacecallback
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -91,9 +86,9 @@ fclose($fp);
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

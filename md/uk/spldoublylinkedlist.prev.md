@@ -1,16 +1,11 @@
-Переміщує ітератор до попереднього елемента
-
--   [« SplDoublyLinkedList::pop](spldoublylinkedlist.pop.html)
-    
--   [SplDoublyLinkedList::push »](spldoublylinkedlist.push.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Переміщує ітератор до попереднього елемента
-    
-
+---
+navigation:
+  - spldoublylinkedlist.pop.html: '« SplDoublyLinkedList::pop'
+  - spldoublylinkedlist.push.html: 'SplDoublyLinkedList::push »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::prev'
+---
 # SplDoublyLinkedList::prev
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

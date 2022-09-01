@@ -1,16 +1,11 @@
-Створює новий набір з елементів поточного та переданого наборів
-
--   [« DsSet::toArray](ds-set.toarray.html)
-    
--   [ДсSet::xor »](ds-set.xor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Створює новий набір з елементів поточного та переданого наборів
-    
-
+---
+navigation:
+  - ds-set.toarray.html: '« DsSet::toArray'
+  - ds-set.xor.html: 'ДсSet::xor »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::union'
+---
 # ДсSet::union
 
 (PECL ds >= 1.0.0)

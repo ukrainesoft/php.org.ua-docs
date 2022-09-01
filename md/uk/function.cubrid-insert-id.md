@@ -1,16 +1,11 @@
-Повертає ідентифікатор, згенерований для останнього оновленого стовпця AUTOINCREMENT
-
--   [« cubridget](function.cubrid-get.html)
-    
--   [cubridісinstance »](function.cubrid-is-instance.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Повертає ідентифікатор, згенерований для останнього оновленого стовпця AUTOINCREMENT
-    
-
+---
+navigation:
+  - function.cubrid-get.html: « cubridget
+  - function.cubrid-is-instance.html: cubridісinstance »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridinsertід
+---
 # cubridinsertід
 
 (PECL CUBRID >= 8.3.0)
@@ -45,9 +40,9 @@ cubrid_insert_id(resource $conn_identifier = ?): string
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | Значення, що повертається у вигляді масиву замінено на рядок; Видалено перший параметр classname. |
+| Версия | Описание |
+| --- | --- |
+|  | Значення, що повертається у вигляді масиву замінено на рядок; Видалено перший параметр classname. |
 
 ### Приклади
 

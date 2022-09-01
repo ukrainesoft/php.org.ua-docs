@@ -1,16 +1,11 @@
-Отримання часу очікування операцій введення/виводу
-
--   [« GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.md)
-    
--   [GearmanClient::wait »](gearmanclient.wait.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Отримання часу очікування операцій введення/виводу
-    
-
+---
+navigation:
+  - gearmanclient.setworkloadcallback.md: '« GearmanClient::setWorkloadCallback'
+  - gearmanclient.wait.md: 'GearmanClient::wait »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::timeout'
+---
 # GearmanClient::timeout
 
 (PECL gearman >= 0.6.0)

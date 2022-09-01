@@ -1,16 +1,11 @@
-Перевіряє, що зазначений хеш відповідає заданим опціям
-
--   [« passwordhash](function.password-hash.html)
-    
--   [passwordverify »](function.password-verify.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції хешування паролів](ref.password.md)
-    
--   Перевіряє, що зазначений хеш відповідає заданим опціям
-    
-
+---
+navigation:
+  - function.password-hash.html: « passwordhash
+  - function.password-verify.html: passwordverify »
+  - index.md: PHP Manual
+  - ref.password.md: Функції хешування паролів
+title: passwordneedsrehash
+---
 # passwordneedsrehash
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Параметр `algo` Тепер чекає рядок (string), але все ще приймає число (int) для зворотної сумісності. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `algo` Тепер чекає рядок (string), але все ще приймає число (int) для зворотної сумісності. |
 
 ### Приклади
 

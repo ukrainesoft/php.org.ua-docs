@@ -1,16 +1,11 @@
-Отримує список файлів та каталогів, розташованих за вказаним шляхом
-
--   [« rewinddir](function.rewinddir.html)
-    
--   [FileInfo »](book.fileinfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з каталогами](ref.dir.html)
-    
--   Отримує список файлів та каталогів, розташованих за вказаним шляхом
-    
-
+---
+navigation:
+  - function.rewinddir.html: « rewinddir
+  - book.fileinfo.html: FileInfo »
+  - index.html: PHP Manual
+  - ref.dir.html: Функції для роботи з каталогами
+title: scandir
+---
 # scandir
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ scandir(string $directory, int $sorting_order = SCANDIR_SORT_ASCENDING, ?resourc
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `context` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 

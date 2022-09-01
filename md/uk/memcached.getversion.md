@@ -1,16 +1,11 @@
-Отримує інформацію про версію серверів у пулі
-
--   [« Memcached::getStats](memcached.getstats.md)
-    
--   [Memcached::increment »](memcached.increment.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Отримує інформацію про версію серверів у пулі
-    
-
+---
+navigation:
+  - memcached.getstats.md: '« Memcached::getStats'
+  - memcached.increment.md: 'Memcached::increment »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getVersion'
+---
 # Memcached::getVersion
 
 (PECL memcached >= 0.1.5)

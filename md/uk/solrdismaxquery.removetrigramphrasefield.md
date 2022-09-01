@@ -1,16 +1,11 @@
-Видаляє поле триграми (параметр pf3)
-
--   [« SolrDisMaxQuery::removeQueryField](solrdismaxquery.removequeryfield.md)
-    
--   [SolrDisMaxQuery::removeUserField »](solrdismaxquery.removeuserfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Видаляє поле триграми (параметр pf3)
-    
-
+---
+navigation:
+  - solrdismaxquery.removequeryfield.md: '« SolrDisMaxQuery::removeQueryField'
+  - solrdismaxquery.removeuserfield.md: 'SolrDisMaxQuery::removeUserField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::removeTrigramPhraseField'
+---
 # SolrDisMaxQuery::removeTrigramPhraseField
 
 (No version information available, might only be in Git)

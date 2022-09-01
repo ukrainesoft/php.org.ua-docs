@@ -1,16 +1,11 @@
-Отримати номер рядка
-
--   [« V8JsException::getJsFileName](v8jsexception.getjsfilename.md)
-    
--   [V8JsException::getJsSourceLine »](v8jsexception.getjssourceline.md)
-    
--   [PHP Manual](index.md)
-    
--   [V8JsException](class.v8jsexception.md)
-    
--   Отримати номер рядка
-    
-
+---
+navigation:
+  - v8jsexception.getjsfilename.md: '« V8JsException::getJsFileName'
+  - v8jsexception.getjssourceline.md: 'V8JsException::getJsSourceLine »'
+  - index.md: PHP Manual
+  - class.v8jsexception.md: V8JsException
+title: 'V8JsException::getJsLineNumber'
+---
 # V8JsException::getJsLineNumber
 
 (PECL v8js >= 0.1.0)

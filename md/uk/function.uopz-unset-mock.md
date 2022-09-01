@@ -1,16 +1,11 @@
-Видалити раніше встановлений імітатор
-
--   [« uopzunsethook](function.uopz-unset-hook.html)
-    
--   [uopzunsetreturn »](function.uopz-unset-return.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Видалити раніше встановлений імітатор
-    
-
+---
+navigation:
+  - function.uopz-unset-hook.html: « uopzunsethook
+  - function.uopz-unset-return.html: uopzunsetreturn »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzunsetmock
+---
 # uopzunsetmock
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

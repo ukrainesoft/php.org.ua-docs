@@ -1,16 +1,11 @@
-Перейти до першого елементу
-
--   [« IntlIterator::next](intliterator.next.md)
-    
--   [IntlIterator::valid »](intliterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlIterator](class.intliterator.md)
-    
--   Перейти до першого елементу
-    
-
+---
+navigation:
+  - intliterator.next.md: '« IntlIterator::next'
+  - intliterator.valid.md: 'IntlIterator::valid »'
+  - index.md: PHP Manual
+  - class.intliterator.md: IntlIterator
+title: 'IntlIterator::rewind'
+---
 # IntlIterator::rewind
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

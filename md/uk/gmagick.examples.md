@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](gmagick.constants.html)
-    
--   [Gmagick »](class.gmagick.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](book.gmagick.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - gmagick.constants.html: « Обумовлені константи
+  - class.gmagick.html: Gmagick »
+  - index.html: PHP Manual
+  - book.gmagick.html: Gmagick
+title: Приклади
+---
 # Приклади
 
 Наступний код показує часто використовувані операції Gmagick над зображеннями.

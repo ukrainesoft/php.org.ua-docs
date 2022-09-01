@@ -1,16 +1,11 @@
-Довільно згенерувати секретний ключ та відповідний відкритий ключ
-
--   [« sodiumcryptosignkeypairfromsecretkeyandpublickey](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.html)
-    
--   [sodiumcryptosignopen »](function.sodium-crypto-sign-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Довільно згенерувати секретний ключ та відповідний відкритий ключ
-    
-
+---
+navigation:
+  - function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.html: « sodiumcryptosignkeypairfromsecretkeyandpublickey
+  - function.sodium-crypto-sign-open.html: sodiumcryptosignopen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosignkeypair
+---
 # sodiumcryptosignkeypair
 
 (PHP 7> = 7.2.0, PHP 8)

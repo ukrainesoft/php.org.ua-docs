@@ -1,16 +1,11 @@
-Свічкова модель "Крюк"
-
--   [« tradercdlhighwave](function.trader-cdlhighwave.html)
-    
--   [tradercdlhikkakemod »](function.trader-cdlhikkakemod.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Крюк"
-    
-
+---
+navigation:
+  - function.trader-cdlhighwave.html: « tradercdlhighwave
+  - function.trader-cdlhikkakemod.html: tradercdlhikkakemod »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlhikkake
+---
 # tradercdlhikkake
 
 (PECL trader >= 0.2.0)

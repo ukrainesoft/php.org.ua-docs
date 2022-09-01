@@ -1,16 +1,11 @@
-Встановлює максимальний розмір заголовка
-
--   [« EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.md)
-    
--   [EventHttpConnection::setRetries »](eventhttpconnection.setretries.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpConnection](class.eventhttpconnection.md)
-    
--   Встановлює максимальний розмір заголовка
-    
-
+---
+navigation:
+  - eventhttpconnection.setmaxbodysize.md: '« EventHttpConnection::setMaxBodySize'
+  - eventhttpconnection.setretries.md: 'EventHttpConnection::setRetries »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::setMaxHeadersSize'
+---
 # EventHttpConnection::setMaxHeadersSize
 
 (PECL event >= 1.2.6-beta)

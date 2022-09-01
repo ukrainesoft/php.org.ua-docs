@@ -1,16 +1,11 @@
-Створити новий об'єкт Point
-
--   [« UIPoint::at](ui-point.at.html)
-    
--   [ОЙPoint::getX »](ui-point.getx.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙPoint](class.ui-point.html)
-    
--   Створити новий об'єкт Point
-    
-
+---
+navigation:
+  - ui-point.at.html: '« UIPoint::at'
+  - ui-point.getx.html: 'ОЙPoint::getX »'
+  - index.md: PHP Manual
+  - class.ui-point.html: ОЙPoint
+title: 'ОЙPoint::construct'
+---
 # ОЙPoint::construct
 
 (UI 0.9.9)

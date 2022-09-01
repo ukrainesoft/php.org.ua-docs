@@ -1,16 +1,11 @@
-Перевіряє, чи двозв'язковий список є порожнім
-
--   [« SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.md)
-    
--   [SplDoublyLinkedList::key »](spldoublylinkedlist.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Перевіряє, чи двозв'язковий список є порожнім
-    
-
+---
+navigation:
+  - spldoublylinkedlist.getiteratormode.md: '« SplDoublyLinkedList::getIteratorMode'
+  - spldoublylinkedlist.key.md: 'SplDoublyLinkedList::key »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::isEmpty'
+---
 # SplDoublyLinkedList::isEmpty
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

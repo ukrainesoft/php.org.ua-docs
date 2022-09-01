@@ -1,16 +1,11 @@
-Повертає опис останньої помилки підключення
-
--   [« mysqli::$connecterrno](mysqli.connect-errno.html)
-    
--   [mysqli::construct »](mysqli.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає опис останньої помилки підключення
-    
-
+---
+navigation:
+  - mysqli.connect-errno.html: '« mysqli::$connecterrno'
+  - mysqli.construct.md: 'mysqli::construct »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$connecterror'
+---
 # mysqli::$connecterror
 
 # mysqliconnecterror

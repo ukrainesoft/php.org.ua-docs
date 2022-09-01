@@ -1,16 +1,11 @@
-Розбирає номер валюти
-
--   [« NumberFormatter::getTextAttribute](numberformatter.gettextattribute.md)
-    
--   [NumberFormatter::parse »](numberformatter.parse.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Розбирає номер валюти
-    
-
+---
+navigation:
+  - numberformatter.gettextattribute.md: '« NumberFormatter::getTextAttribute'
+  - numberformatter.parse.md: 'NumberFormatter::parse »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::parseCurrency'
+---
 # NumberFormatter::parseCurrency
 
 # numfmtparsecurrency

@@ -1,16 +1,11 @@
-Намалювати криву Безьє
-
--   [« UIDrawPath::arcTo](ui-draw-path.arcto.html)
-    
--   [ОЙDrawPath::closeFigure »](ui-draw-path.closefigure.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Намалювати криву Безьє
-    
-
+---
+navigation:
+  - ui-draw-path.arcto.html: '« UIDrawPath::arcTo'
+  - ui-draw-path.closefigure.html: 'ОЙDrawPath::closeFigure »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::bezierTo'
+---
 # ОЙDrawPath::bezierTo
 
 (UI 0.9.9)

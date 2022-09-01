@@ -1,16 +1,11 @@
-Показники шрифту
-
--   [« UIDrawTextFont::getAscent](ui-draw-text-font.getascent.html)
-    
--   [ОЙDrawTextFont::getLeading »](ui-draw-text-font.getleading.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawTextFont](class.ui-draw-text-font.html)
-    
--   Показники шрифту
-    
-
+---
+navigation:
+  - ui-draw-text-font.getascent.html: '« UIDrawTextFont::getAscent'
+  - ui-draw-text-font.getleading.html: 'ОЙDrawTextFont::getLeading »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font.html: ОЙDrawTextFont
+title: 'ОЙDrawTextFont::getDescent'
+---
 # ОЙDrawTextFont::getDescent
 
 (UI 1.0.3)

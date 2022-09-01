@@ -1,16 +1,11 @@
-Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
-
--   [« SwooleLock::lock](swoole-lock.lock.html)
-    
--   [SwooleLock::trylock »](swoole-lock.trylock.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleLock](class.swoole-lock.html)
-    
--   Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
-    
-
+---
+navigation:
+  - swoole-lock.lock.html: '« SwooleLock::lock'
+  - swoole-lock.trylock.html: 'SwooleLock::trylock »'
+  - index.md: PHP Manual
+  - class.swoole-lock.html: SwooleLock
+title: 'SwooleLock::trylockread'
+---
 # SwooleLock::trylockread
 
 (PECL swoole >= 1.9.0)

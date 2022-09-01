@@ -1,16 +1,11 @@
-Видаляє файл або одне з жорстких посилань на нього
-
--   [« eiotruncate](function.eio-truncate.html)
-    
--   [eioutime »](function.eio-utime.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Видаляє файл або одне з жорстких посилань на нього
-    
-
+---
+navigation:
+  - function.eio-truncate.html: « eiotruncate
+  - function.eio-utime.html: eioutime »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiounlink
+---
 # eiounlink
 
 (PECL eio >= 0.0.1dev)

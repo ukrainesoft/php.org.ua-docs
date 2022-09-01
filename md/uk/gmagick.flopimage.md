@@ -1,16 +1,11 @@
-Створює горизонтальне дзеркальне відображення
-
--   [« Gmagick::flipimage](gmagick.flipimage.md)
-    
--   [Gmagick::frameimage »](gmagick.frameimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Створює горизонтальне дзеркальне відображення
-    
-
+---
+navigation:
+  - gmagick.flipimage.md: '« Gmagick::flipimage'
+  - gmagick.frameimage.md: 'Gmagick::frameimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::flopimage'
+---
 # Gmagick::flopimage
 
 (PECL gmagick >= Unknown)

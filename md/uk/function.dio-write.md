@@ -1,16 +1,11 @@
-Записує байти у файл, опціонально обрізаючи до вказаної довжини
-
--   [« diotruncate](function.dio-truncate.html)
-    
--   [Каталоги »](book.dir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції прямого введення/виводу](ref.dio.html)
-    
--   Записує байти у файл, опціонально обрізаючи до вказаної довжини
-    
-
+---
+navigation:
+  - function.dio-truncate.html: « diotruncate
+  - book.dir.html: Каталоги »
+  - index.html: PHP Manual
+  - ref.dio.html: Функції прямого введення/виводу
+title: diowrite
+---
 # diowrite
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

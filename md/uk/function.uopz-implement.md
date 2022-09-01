@@ -1,16 +1,11 @@
-Реалізує інтерфейс під час виконання
-
--   [« uopzgetstatic](function.uopz-get-static.html)
-    
--   [uopzoverload »](function.uopz-overload.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Реалізує інтерфейс під час виконання
-    
-
+---
+navigation:
+  - function.uopz-get-static.html: « uopzgetstatic
+  - function.uopz-overload.html: uopzoverload »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzimplement
+---
 # uopzimplement
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7 < 7.1.0)

@@ -1,16 +1,11 @@
-Повернути дескриптор на вже запущений екземпляр об'єкта COM
-
--   [« comeventsink](function.com-event-sink.html)
-    
--   [comloadtypelib »](function.com-load-typelib.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Повернути дескриптор на вже запущений екземпляр об'єкта COM
-    
-
+---
+navigation:
+  - function.com-event-sink.html: « comeventsink
+  - function.com-load-typelib.html: comloadtypelib »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: comgetactiveobject
+---
 # comgetactiveobject
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ com_get_active_object(string $prog_id, ?int $codepage = null): variant
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `codepage` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `codepage` тепер допускає значення null. |
 
 ### Примітки
 

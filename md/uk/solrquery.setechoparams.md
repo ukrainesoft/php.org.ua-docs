@@ -1,16 +1,11 @@
-Визначає, які параметри включати у відповідь
-
--   [« SolrQuery::setEchoHandler](solrquery.setechohandler.md)
-    
--   [SolrQuery::setExpand »](solrquery.setexpand.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Визначає, які параметри включати у відповідь
-    
-
+---
+navigation:
+  - solrquery.setechohandler.md: '« SolrQuery::setEchoHandler'
+  - solrquery.setexpand.md: 'SolrQuery::setExpand »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setEchoParams'
+---
 # SolrQuery::setEchoParams
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Вставити рядок у вказану 16-бітну позицію
-
--   [« DOMCharacterData::deleteData](domcharacterdata.deletedata.md)
-    
--   [DOMCharacterData::replaceData »](domcharacterdata.replacedata.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMCharacterData](class.domcharacterdata.md)
-    
--   Вставити рядок у вказану 16-бітну позицію
-    
-
+---
+navigation:
+  - domcharacterdata.deletedata.md: '« DOMCharacterData::deleteData'
+  - domcharacterdata.replacedata.md: 'DOMCharacterData::replaceData »'
+  - index.md: PHP Manual
+  - class.domcharacterdata.md: DOMCharacterData
+title: 'DOMCharacterData::insertData'
+---
 # DOMCharacterData::insertData
 
 (PHP 5, PHP 7, PHP 8)

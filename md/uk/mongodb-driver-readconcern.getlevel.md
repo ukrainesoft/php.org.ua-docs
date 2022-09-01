@@ -1,16 +1,11 @@
-Повертає опцію "level" ReadConcern
-
--   [« MongoDBDriverReadConcern::construct](mongodb-driver-readconcern.construct.html)
-    
--   [MongoDBDriverReadConcern::isDefault »](mongodb-driver-readconcern.isdefault.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
-    
--   Повертає опцію "level" ReadConcern
-    
-
+---
+navigation:
+  - mongodb-driver-readconcern.construct.html: '« MongoDBDriverReadConcern::construct'
+  - mongodb-driver-readconcern.isdefault.html: 'MongoDBDriverReadConcern::isDefault »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+title: 'MongoDBDriverReadConcern::getLevel'
+---
 # MongoDBDriverReadConcern::getLevel
 
 (mongodb >=1.0.0)

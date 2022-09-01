@@ -1,16 +1,11 @@
-Повертає результат документа для невдалої команди
-
--   [« MongoDBDriverExceptionCommandException](class.mongodb-driver-exception-commandexception.html)
-    
--   [MongoDBDriverExceptionConnectionException »](class.mongodb-driver-exception-connectionexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverExceptionCommandException](class.mongodb-driver-exception-commandexception.html)
-    
--   Повертає результат документа для невдалої команди
-    
-
+---
+navigation:
+  - class.mongodb-driver-exception-commandexception.html: « MongoDBDriverExceptionCommandException
+  - class.mongodb-driver-exception-connectionexception.html: MongoDBDriverExceptionConnectionException »
+  - index.md: PHP Manual
+  - class.mongodb-driver-exception-commandexception.html: MongoDBDriverExceptionCommandException
+title: 'MongoDBDriverExceptionCommandException::getResultDocument'
+---
 # MongoDBDriverExceptionCommandException::getResultDocument
 
 (mongodb >= 1.5.0)

@@ -1,16 +1,11 @@
-LuaSandbox
-
--   [« LuaClosure::invoke](luaclosure.invoke.md)
-    
--   [Введение »](intro.luasandbox.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   LuaSandbox
-    
-
+---
+navigation:
+  - luaclosure.invoke.md: '« LuaClosure::invoke'
+  - intro.luasandbox.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: LuaSandbox
+---
 # LuaSandbox
 
 -   [Введение](intro.luasandbox.md)

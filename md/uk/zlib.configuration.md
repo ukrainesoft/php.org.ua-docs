@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](zlib.installation.html)
-    
--   [Типи ресурсів »](zlib.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](zlib.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - zlib.installation.html: « Установка
+  - zlib.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - zlib.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
@@ -19,11 +14,11 @@
 
 **Параметри конфігурації Zlib**
 
-| Имя                                                                                      | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)            | "0"          | PHPINIALL       |                  |
-| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1"         | PHPINIALL       |                  |
-| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler)                    | ""           | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) | "0" | PHPINIALL |  |
+| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1" | PHPINIALL |  |
+| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler) | "" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

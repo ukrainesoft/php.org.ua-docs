@@ -1,16 +1,11 @@
-Формування ключа HKDF для заданих вхідних даних
-
--   [« hashfinal](function.hash-final.html)
-    
--   [hashhmacalgos »](function.hash-hmac-algos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Формування ключа HKDF для заданих вхідних даних
-    
-
+---
+navigation:
+  - function.hash-final.html: « hashfinal
+  - function.hash-hmac-algos.html: hashhmacalgos »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashhkdf
+---
 # hashhkdf
 
 (PHP 7> = 7.1.2, PHP 8)

@@ -1,16 +1,11 @@
-Перевіряє, чи має функція оголошений тип значення, що повертається
-
--   [« ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.html)
-    
--   [ReflectionFunctionAbstract::hasTentativeReturnType »](reflectionfunctionabstract.hastentativereturntype.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Перевіряє, чи має функція оголошений тип значення, що повертається
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.gettentativereturntype.html: '« ReflectionFunctionAbstract::getTentativeReturnType'
+  - reflectionfunctionabstract.hastentativereturntype.html: 'ReflectionFunctionAbstract::hasTentativeReturnType »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::hasReturnType'
+---
 # ReflectionFunctionAbstract::hasReturnType
 
 (PHP 7, PHP 8)

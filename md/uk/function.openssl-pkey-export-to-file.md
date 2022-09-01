@@ -1,16 +1,11 @@
-Записує у файл ключ у форматі PEM
-
--   [« opensslpkeyderive](function.openssl-pkey-derive.html)
-    
--   [opensslpkeyexport »](function.openssl-pkey-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Записує у файл ключ у форматі PEM
-    
-
+---
+navigation:
+  - function.openssl-pkey-derive.html: « opensslpkeyderive
+  - function.openssl-pkey-export.html: opensslpkeyexport »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkeyexportтоfile
+---
 # opensslpkeyexportтоfile
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -49,6 +44,6 @@ openssl_pkey_export_to_file(    OpenSSLAsymmetricKey|OpenSSLCertificate|arra
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

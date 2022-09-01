@@ -1,16 +1,11 @@
-Отримує інформацію про з'єднання з описом файлу
-
--   [« SwooleServer::confirm](swoole-server.confirm.html)
-    
--   [SwooleServer::connectionlist »](swoole-server.connection-list.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Отримує інформацію про з'єднання з описом файлу
-    
-
+---
+navigation:
+  - swoole-server.confirm.html: '« SwooleServer::confirm'
+  - swoole-server.connection-list.html: 'SwooleServer::connectionlist »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::connectioninfo'
+---
 # SwooleServer::connectioninfo
 
 (PECL swoole >= 1.9.0)

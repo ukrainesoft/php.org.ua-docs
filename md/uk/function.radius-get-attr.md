@@ -1,16 +1,11 @@
-Витягує атрибут
-
--   [« radiusdemangle](function.radius-demangle.html)
-    
--   [radiusgettaggedattrdata »](function.radius-get-tagged-attr-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Витягує атрибут
-    
-
+---
+navigation:
+  - function.radius-demangle.html: « radiusdemangle
+  - function.radius-get-tagged-attr-data.html: radiusgettaggedattrdata »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusgetattr
+---
 # radiusgetattr
 
 (PECL radius >= 1.1.0)

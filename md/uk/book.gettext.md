@@ -1,16 +1,11 @@
-Gettext
-
--   [« GenderGender::similarNames](gender-gender.similarnames.html)
-    
--   [Введение »](intro.gettext.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   Gettext
-    
-
+---
+navigation:
+  - gender-gender.similarnames.html: '« GenderGender::similarNames'
+  - intro.gettext.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: Gettext
+---
 # Gettext
 
 -   [Введение](intro.gettext.md)

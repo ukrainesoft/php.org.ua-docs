@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](yar.constants.md)
-    
--   [YarServer »](class.yar-server.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yar](book.yar.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - yar.constants.md: « Обумовлені константи
+  - class.yar-server.html: YarServer »
+  - index.md: PHP Manual
+  - book.yar.md: Yar
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Приклад сервера Yar**

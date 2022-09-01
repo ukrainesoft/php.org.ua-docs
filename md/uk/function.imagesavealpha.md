@@ -1,16 +1,11 @@
-Чи зберігати повну інформацію альфа-каналу при збереженні зображень PNG
-
--   [« imagerotate](function.imagerotate.html)
-    
--   [imagescale »](function.imagescale.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Чи зберігати повну інформацію альфа-каналу при збереженні зображень PNG
-    
-
+---
+navigation:
+  - function.imagerotate.html: « imagerotate
+  - function.imagescale.html: imagescale »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagesavealpha
+---
 # imagesavealpha
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ imagesavealpha(GdImage $image, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Експорт відбитого методу
-
--   [« ReflectionMethod::construct](reflectionmethod.construct.md)
-    
--   [ReflectionMethod::getClosure »](reflectionmethod.getclosure.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Експорт відбитого методу
-    
-
+---
+navigation:
+  - reflectionmethod.construct.md: '« ReflectionMethod::construct'
+  - reflectionmethod.getclosure.md: 'ReflectionMethod::getClosure »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::export'
+---
 # ReflectionMethod::export
 
 (PHP 5, PHP 7)

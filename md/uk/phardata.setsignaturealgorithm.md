@@ -1,16 +1,11 @@
-Встановити алгоритм підписання phar-архіву та застосування його
-
--   [« PharData::setMetadata](phardata.setmetadata.html)
-    
--   [PharData::setStub »](phardata.setstub.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharData](class.phardata.html)
-    
--   Встановити алгоритм підписання phar-архіву та застосування його
-    
-
+---
+navigation:
+  - phardata.setmetadata.html: '« PharData::setMetadata'
+  - phardata.setstub.html: 'PharData::setStub »'
+  - index.html: PHP Manual
+  - class.phardata.html: PharData
+title: 'PharData::setSignatureAlgorithm'
+---
 # PharData::setSignatureAlgorithm
 
 (No version information available, might only be in Git)
@@ -45,9 +40,9 @@ public PharData::setSignatureAlgorithm(int $algo, ?string $privateKey = null): v
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `privateKey` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `privateKey` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Обертає викликаний PHP-об'єкт у LuaSandboxFunction
-
--   [« LuaSandbox::unpauseUsageTimer](luasandbox.unpauseusagetimer.md)
-    
--   [LuaSandboxFunction »](class.luasandboxfunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Обертає викликаний PHP-об'єкт у LuaSandboxFunction
-    
-
+---
+navigation:
+  - luasandbox.unpauseusagetimer.md: '« LuaSandbox::unpauseUsageTimer'
+  - class.luasandboxfunction.md: LuaSandboxFunction »
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::wrapPhpFunction'
+---
 # LuaSandbox::wrapPhpFunction
 
 (PECL luasandbox >= 1.2.0)

@@ -1,16 +1,11 @@
-Функції LZF
-
--   [« Обумовлені константи](lzf.constants.md)
-    
--   [lzfcompress »](function.lzf-compress.html)
-    
--   [PHP Manual](index.md)
-    
--   [LZF](book.lzf.md)
-    
--   Функції LZF
-    
-
+---
+navigation:
+  - lzf.constants.md: « Обумовлені константи
+  - function.lzf-compress.html: lzfcompress »
+  - index.md: PHP Manual
+  - book.lzf.md: LZF
+title: Функції LZF
+---
 # Функції LZF
 
 ## Зміст

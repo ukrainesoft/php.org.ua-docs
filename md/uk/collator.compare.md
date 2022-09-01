@@ -1,16 +1,11 @@
-Порівнює два рядки Unicode
-
--   [« Collator::asort](collator.asort.html)
-    
--   [Collator::construct »](collator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Collator](class.collator.html)
-    
--   Порівнює два рядки Unicode
-    
-
+---
+navigation:
+  - collator.asort.html: '« Collator::asort'
+  - collator.construct.html: 'Collator::construct »'
+  - index.html: PHP Manual
+  - class.collator.html: Collator
+title: 'Collator::compare'
+---
 # Collator::compare
 
 # collatorcompare

@@ -1,16 +1,11 @@
-URL-кодування рядка згідно з RFC 3986
-
--   [« rawurldecode](function.rawurldecode.md)
-    
--   [urldecode »](function.urldecode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції URL](ref.url.md)
-    
--   URL-кодування рядка згідно з RFC 3986
-    
-
+---
+navigation:
+  - function.rawurldecode.md: « rawurldecode
+  - function.urldecode.md: urldecode »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
+title: rawurlencode
+---
 # rawurlencode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

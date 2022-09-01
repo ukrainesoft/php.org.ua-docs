@@ -1,16 +1,11 @@
-Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
-
--   [« arrayudiffassoc](function.array-udiff-assoc.html)
-    
--   [arrayudiff »](function.array-udiff.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
-    
-
+---
+navigation:
+  - function.array-udiff-assoc.html: « arrayudiffassoc
+  - function.array-udiff.html: arrayudiff »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayudiffuassoc
+---
 # arrayudiffuassoc
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Зупиняє дочірні процеси
-
--   [« SwooleProcess::exec](swoole-process.exec.html)
-    
--   [SwooleProcess::freeQueue »](swoole-process.freequeue.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Зупиняє дочірні процеси
-    
-
+---
+navigation:
+  - swoole-process.exec.html: '« SwooleProcess::exec'
+  - swoole-process.freequeue.html: 'SwooleProcess::freeQueue »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::exit'
+---
 # SwooleProcess::exit
 
 (PECL swoole >= 1.9.0)

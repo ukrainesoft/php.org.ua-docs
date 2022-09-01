@@ -1,16 +1,11 @@
-Створити екземпляр GearmanClient
-
--   [« GearmanClient::clone](gearmanclient.clone.md)
-    
--   [GearmanClient::context »](gearmanclient.context.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Створити екземпляр GearmanClient
-    
-
+---
+navigation:
+  - gearmanclient.clone.md: '« GearmanClient::clone'
+  - gearmanclient.context.md: 'GearmanClient::context »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::construct'
+---
 # GearmanClient::construct
 
 (PECL gearman >= 0.5.0)

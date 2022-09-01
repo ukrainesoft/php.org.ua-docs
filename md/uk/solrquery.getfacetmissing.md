@@ -1,16 +1,11 @@
-Повертає стан параметра facet.missing
-
--   [« SolrQuery::getFacetMinCount](solrquery.getfacetmincount.html)
-    
--   [SolrQuery::getFacetOffset »](solrquery.getfacetoffset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає стан параметра facet.missing
-    
-
+---
+navigation:
+  - solrquery.getfacetmincount.html: '« SolrQuery::getFacetMinCount'
+  - solrquery.getfacetoffset.html: 'SolrQuery::getFacetOffset »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getFacetMissing'
+---
 # SolrQuery::getFacetMissing
 
 (PECL solr> = 0.9.2)

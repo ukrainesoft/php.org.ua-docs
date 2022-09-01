@@ -1,16 +1,11 @@
-Повертає масив імен функцій модуля
-
--   [« getdefinedconstants](function.get-defined-constants.html)
-    
--   [getincludepath »](function.get-include-path.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає масив імен функцій модуля
-    
-
+---
+navigation:
+  - function.get-defined-constants.html: « getdefinedconstants
+  - function.get-include-path.html: getincludepath »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getextensionfuncs
+---
 # getextensionfuncs
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Запит дерева інформації про мережевий об'єкт
-
--   [« snmpwalk](function.snmpwalk.md)
-    
--   [SNMP »](class.snmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Запит дерева інформації про мережевий об'єкт
-    
-
+---
+navigation:
+  - function.snmpwalk.md: « snmpwalk
+  - class.snmp.md: SNMP »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpwalkoid
+---
 # snmpwalkoid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Видаляє одне з полів сортування
-
--   [« SolrQuery::removeMltQueryField](solrquery.removemltqueryfield.md)
-    
--   [SolrQuery::removeStatsFacet »](solrquery.removestatsfacet.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Видаляє одне з полів сортування
-    
-
+---
+navigation:
+  - solrquery.removemltqueryfield.md: '« SolrQuery::removeMltQueryField'
+  - solrquery.removestatsfacet.md: 'SolrQuery::removeStatsFacet »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeSortField'
+---
 # SolrQuery::removeSortField
 
 (PECL solr> = 0.9.2)

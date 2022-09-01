@@ -1,16 +1,11 @@
-Масштабує дані у вхідному векторі перед подачею їх у ann на основі раніше розрахованих параметрів
-
--   [« fannscaleinputtraindata](function.fann-scale-input-train-data.html)
-    
--   [fannscaleoutputtraindata »](function.fann-scale-output-train-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Масштабує дані у вхідному векторі перед подачею їх у ann на основі раніше розрахованих параметрів
-    
-
+---
+navigation:
+  - function.fann-scale-input-train-data.html: « fannscaleinputtraindata
+  - function.fann-scale-output-train-data.html: fannscaleoutputtraindata »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannscaleinput
+---
 # fannscaleinput
 
 (PECL fann> = 1.0.0)

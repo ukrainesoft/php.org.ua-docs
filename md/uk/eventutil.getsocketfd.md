@@ -1,16 +1,11 @@
-Отримати цифровий файловий дескриптор сокету чи потоку
-
--   [« EventUtil::getLastSocketError](eventutil.getlastsocketerror.html)
-    
--   [EventUtil::getSocketName »](eventutil.getsocketname.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventUtil](class.eventutil.html)
-    
--   Отримати цифровий файловий дескриптор сокету чи потоку
-    
-
+---
+navigation:
+  - eventutil.getlastsocketerror.html: '« EventUtil::getLastSocketError'
+  - eventutil.getsocketname.html: 'EventUtil::getSocketName »'
+  - index.html: PHP Manual
+  - class.eventutil.html: EventUtil
+title: 'EventUtil::getSocketFd'
+---
 # EventUtil::getSocketFd
 
 (PECL event >= 1.7.0)

@@ -1,16 +1,11 @@
-Об'єднання трьох файлів в один
-
--   [xdifffilediff](function.xdiff-file-diff.html)
-    
--   [xdifffilepatchbinary »](function.xdiff-file-patch-binary.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Об'єднання трьох файлів в один
-    
-
+---
+navigation:
+  - function.xdiff-file-diff.html: xdifffilediff
+  - function.xdiff-file-patch-binary.html: xdifffilepatchbinary »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdifffilemerge3
+---
 # xdifffilemerge3
 
 (PECL xdiff >= 0.2.0)

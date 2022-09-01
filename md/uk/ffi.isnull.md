@@ -1,16 +1,11 @@
-Перевіряє, чи є FFICData нульовим покажчиком
-
--   [« FFI::free](ffi.free.md)
-    
--   [FFI::load »](ffi.load.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Перевіряє, чи є FFICData нульовим покажчиком
-    
-
+---
+navigation:
+  - ffi.free.md: '« FFI::free'
+  - ffi.load.md: 'FFI::load »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::isNull'
+---
 # FFI::isNull
 
 (PHP 7> = 7.4.0, PHP 8)

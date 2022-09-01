@@ -1,16 +1,11 @@
-Вказує, чи кодова сторінка сумісна з UTF-8
-
--   [« sapiwindowsспget](function.sapi-windows-cp-get.html)
-    
--   [sapiwindowsспset »](function.sapi-windows-cp-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Вказує, чи кодова сторінка сумісна з UTF-8
-    
-
+---
+navigation:
+  - function.sapi-windows-cp-get.html: « sapiwindowsспget
+  - function.sapi-windows-cp-set.html: sapiwindowsспset »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sapiwindowsспісutf8
+---
 # sapiwindowsспісutf8
 
 (PHP 7> = 7.1.0, PHP 8)

@@ -1,16 +1,11 @@
-NumberFormatter class
-
--   [« Collator::sort](collator.sort.html)
-    
--   [NumberFormatter::create »](numberformatter.create.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   NumberFormatter class
-    
-
+---
+navigation:
+  - collator.sort.html: '« Collator::sort'
+  - numberformatter.create.html: 'NumberFormatter::create »'
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: NumberFormatter class
+---
 # NumberFormatter class
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

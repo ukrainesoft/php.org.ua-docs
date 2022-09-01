@@ -1,16 +1,11 @@
-Матриця малювання
-
--   [« UIDrawPath::newFigureWithArc](ui-draw-path.newfigurewitharc.html)
-    
--   [ОЙDrawMatrix::invert »](ui-draw-matrix.invert.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Матриця малювання
-    
-
+---
+navigation:
+  - ui-draw-path.newfigurewitharc.html: '« UIDrawPath::newFigureWithArc'
+  - ui-draw-matrix.invert.html: 'ОЙDrawMatrix::invert »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Матриця малювання
+---
 # Матриця малювання
 
 (UI 0.9.9)

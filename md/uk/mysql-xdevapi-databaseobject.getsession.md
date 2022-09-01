@@ -1,16 +1,11 @@
-Отримує ім'я сесії
-
--   [« DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.html)
-    
--   [mysqlxdevapiDocResult »](class.mysql-xdevapi-docresult.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
-    
--   Отримує ім'я сесії
-    
-
+---
+navigation:
+  - mysql-xdevapi-databaseobject.getname.html: '« DatabaseObject::getName'
+  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-databaseobject.html: mysqlxdevapiDatabaseObject
+title: 'DatabaseObject::getSession'
+---
 # DatabaseObject::getSession
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Десеріалізує пакет WDDX
-
--   [« wddxaddvars](function.wddx-add-vars.html)
-    
--   [wddxpacketend »](function.wddx-packet-end.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції WDDX](ref.wddx.md)
-    
--   Десеріалізує пакет WDDX
-    
-
+---
+navigation:
+  - function.wddx-add-vars.html: « wddxaddvars
+  - function.wddx-packet-end.html: wddxpacketend »
+  - index.md: PHP Manual
+  - ref.wddx.md: Функції WDDX
+title: wddxdeserialize
+---
 # wddxdeserialize
 
 (PHP 4, PHP 5, PHP 7)

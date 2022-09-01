@@ -1,16 +1,11 @@
-Вибирає наступний рядок із результату в буфер
-
--   [« ocifetchrow](function.oci-fetch-row.html)
-    
--   [ocifieldісnull »](function.oci-field-is-null.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Вибирає наступний рядок із результату в буфер
-    
-
+---
+navigation:
+  - function.oci-fetch-row.html: « ocifetchrow
+  - function.oci-field-is-null.html: ocifieldісnull »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifetch
+---
 # ocifetch
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

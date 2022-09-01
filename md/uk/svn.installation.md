@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](svn.requirements.md)
-    
--   [Налаштування під час виконання »](svn.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](svn.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - svn.requirements.md: « Вимоги
+  - svn.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - svn.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/svn](https://pecl.php.net/package/svn)

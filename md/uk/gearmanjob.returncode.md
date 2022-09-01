@@ -1,16 +1,11 @@
-Отримання останнього коду повернення
-
--   [« GearmanJob::handle](gearmanjob.handle.html)
-    
--   [GearmanJob::sendComplete »](gearmanjob.sendcomplete.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Отримання останнього коду повернення
-    
-
+---
+navigation:
+  - gearmanjob.handle.html: '« GearmanJob::handle'
+  - gearmanjob.sendcomplete.html: 'GearmanJob::sendComplete »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::returnCode'
+---
 # GearmanJob::returnCode
 
 (PECL gearman >= 0.5.0)

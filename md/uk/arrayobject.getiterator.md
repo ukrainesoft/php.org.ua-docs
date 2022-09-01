@@ -1,16 +1,11 @@
-Створити новий ітератор із екземпляра ArrayObject
-
--   [« ArrayObject::getFlags](arrayobject.getflags.html)
-    
--   [ArrayObject::getIteratorClass »](arrayobject.getiteratorclass.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayObject](class.arrayobject.html)
-    
--   Створити новий ітератор із екземпляра ArrayObject
-    
-
+---
+navigation:
+  - arrayobject.getflags.html: '« ArrayObject::getFlags'
+  - arrayobject.getiteratorclass.html: 'ArrayObject::getIteratorClass »'
+  - index.html: PHP Manual
+  - class.arrayobject.html: ArrayObject
+title: 'ArrayObject::getIterator'
+---
 # ArrayObject::getIterator
 
 (PHP 5, PHP 7, PHP 8)

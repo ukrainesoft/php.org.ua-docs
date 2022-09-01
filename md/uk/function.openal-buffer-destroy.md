@@ -1,16 +1,11 @@
-Знищує буфер OpenAL
-
--   [« openalbufferdata](function.openal-buffer-data.html)
-    
--   [openalbufferget »](function.openal-buffer-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Знищує буфер OpenAL
-    
-
+---
+navigation:
+  - function.openal-buffer-data.html: « openalbufferdata
+  - function.openal-buffer-get.html: openalbufferget »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalbufferdestroy
+---
 # openalbufferdestroy
 
 (PECL openal >= 0.1.0)

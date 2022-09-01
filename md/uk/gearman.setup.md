@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.gearman.html)
-    
--   [Вимоги »](gearman.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gearman](book.gearman.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.gearman.html: « Введение
+  - gearman.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.gearman.html: Gearman
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Відкриває з'єднання з базою даних Microsoft SQL Server
-
--   [« sqlsrvconfigure](function.sqlsrv-configure.html)
-    
--   [sqlsrverrors »](function.sqlsrv-errors.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Відкриває з'єднання з базою даних Microsoft SQL Server
-    
-
+---
+navigation:
+  - function.sqlsrv-configure.html: « sqlsrvconfigure
+  - function.sqlsrv-errors.html: sqlsrverrors »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvconnect
+---
 # sqlsrvconnect
 
 (No version information available, might only be in Git)

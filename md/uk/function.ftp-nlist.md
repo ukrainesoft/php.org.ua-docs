@@ -1,16 +1,11 @@
-Повертає список файлів у заданій директорії
-
--   [« ftpнбput](function.ftp-nb-put.html)
-    
--   [ftppasv »](function.ftp-pasv.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Повертає список файлів у заданій директорії
-    
-
+---
+navigation:
+  - function.ftp-nb-put.html: « ftpнбput
+  - function.ftp-pasv.html: ftppasv »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpnlist
+---
 # ftpnlist
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Створює новий об'єкт RRDUpdater
-
--   [« RRDUpdater](class.rrdupdater.md)
-    
--   [RRDUpdater::update »](rrdupdater.update.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRDUpdater](class.rrdupdater.md)
-    
--   Створює новий об'єкт RRDUpdater
-    
-
+---
+navigation:
+  - class.rrdupdater.md: « RRDUpdater
+  - rrdupdater.update.md: 'RRDUpdater::update »'
+  - index.md: PHP Manual
+  - class.rrdupdater.md: RRDUpdater
+title: 'RRDUpdater::construct'
+---
 # RRDUpdater::construct
 
 (PECL rrd >= 0.9.0)

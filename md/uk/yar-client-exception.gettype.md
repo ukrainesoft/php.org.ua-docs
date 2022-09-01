@@ -1,16 +1,11 @@
-Отримати тип виключення
-
--   [« YarClientException](class.yar-client-exception.html)
-    
--   [XML-RPC »](book.xmlrpc.md)
-    
--   [PHP Manual](index.md)
-    
--   [YarClientException](class.yar-client-exception.html)
-    
--   Отримати тип виключення
-    
-
+---
+navigation:
+  - class.yar-client-exception.html: « YarClientException
+  - book.xmlrpc.md: XML-RPC »
+  - index.md: PHP Manual
+  - class.yar-client-exception.html: YarClientException
+title: 'YarClientException::getType'
+---
 # YarClientException::getType
 
 (PECL yar >= 1.0.0)

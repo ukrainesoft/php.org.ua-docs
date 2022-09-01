@@ -1,16 +1,11 @@
-Свічкова модель "Довга свічка"
-
--   [« tradercdllongleggeddoji](function.trader-cdllongleggeddoji.html)
-    
--   [tradercdlmarubozu »](function.trader-cdlmarubozu.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Довга свічка"
-    
-
+---
+navigation:
+  - function.trader-cdllongleggeddoji.html: « tradercdllongleggeddoji
+  - function.trader-cdlmarubozu.html: tradercdlmarubozu »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdllongline
+---
 # tradercdllongline
 
 (PECL trader >= 0.2.0)

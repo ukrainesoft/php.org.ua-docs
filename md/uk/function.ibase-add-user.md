@@ -1,16 +1,11 @@
-Додає користувача до безпечної бази даних
-
--   [« fbirdwaitevent](function.fbird-wait-event.html)
-    
--   [ibaseaffectedrows »](function.ibase-affected-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Додає користувача до безпечної бази даних
-    
-
+---
+navigation:
+  - function.fbird-wait-event.html: « fbirdwaitevent
+  - function.ibase-affected-rows.html: ibaseaffectedrows »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseadduser
+---
 # ibaseadduser
 
 (PHP 5, PHP 7 < 7.4.0)

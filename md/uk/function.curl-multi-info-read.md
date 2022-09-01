@@ -1,16 +1,11 @@
-Повертає інформацію про поточні операції
-
--   [« curlmultigetcontent](function.curl-multi-getcontent.html)
-    
--   [curlmultiinit »](function.curl-multi-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Повертає інформацію про поточні операції
-    
-
+---
+navigation:
+  - function.curl-multi-getcontent.html: « curlmultigetcontent
+  - function.curl-multi-init.html: curlmultiinit »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlmultiinforead
+---
 # curlmultiinforead
 
 (PHP 5, PHP 7, PHP 8)
@@ -47,17 +42,17 @@ curl_multi_info_read(CurlMultiHandle $multi_handle, int &$queued_messages = null
 
 **Вміст масиву, що повертається**
 
-| Ключ:    | Значение:                                                                                |
-|----------|------------------------------------------------------------------------------------------|
-| `msg`    | Константа **`CURLMSG_DONE`**. Інші значення, що повертаються, поки недоступні.           |
+| Ключ: | Значение: |
+| --- | --- |
+| `msg` | Константа **`CURLMSG_DONE`**. Інші значення, що повертаються, поки недоступні. |
 | `result` | Одна з констант **`CURLE_*`**. Якщо все добре, результатом буде константа **`CURLE_OK`** |
-| `handle` | Ресурс типу curl, що вказує на дескриптор, до якого належить.                            |
+| `handle` | Ресурс типу curl, що вказує на дескриптор, до якого належить. |
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає колекцію в JSON-представництві
-
--   [« DsMap::isEmpty](ds-map.isempty.html)
-    
--   [ДсMap::keys »](ds-map.keys.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає колекцію в JSON-представництві
-    
-
+---
+navigation:
+  - ds-map.isempty.html: '« DsMap::isEmpty'
+  - ds-map.keys.html: 'ДсMap::keys »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::jsonSerialize'
+---
 # ДсMap::jsonSerialize
 
 (PECL ds >= 1.0.0)

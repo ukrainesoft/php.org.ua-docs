@@ -1,16 +1,11 @@
-Конструктор SoapFault
-
--   [« SoapFault](class.soapfault.md)
-    
--   [SoapFault::toString »](soapfault.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapFault](class.soapfault.md)
-    
--   Конструктор SoapFault
-    
-
+---
+navigation:
+  - class.soapfault.md: « SoapFault
+  - soapfault.tostring.md: 'SoapFault::toString »'
+  - index.md: PHP Manual
+  - class.soapfault.md: SoapFault
+title: 'SoapFault::construct'
+---
 # SoapFault::construct
 
 (PHP 5, PHP 7, PHP 8)

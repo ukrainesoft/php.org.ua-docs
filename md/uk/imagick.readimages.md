@@ -1,16 +1,11 @@
-Читає зображення з масиву імен файлів
-
--   [« Imagick::readImageFile](imagick.readimagefile.html)
-    
--   [Imagick::recolorImage »](imagick.recolorimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Читає зображення з масиву імен файлів
-    
-
+---
+navigation:
+  - imagick.readimagefile.html: '« Imagick::readImageFile'
+  - imagick.recolorimage.html: 'Imagick::recolorImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::readimages'
+---
 # Imagick::readimages
 
 (PECL imagick 2, PECL imagick 3)

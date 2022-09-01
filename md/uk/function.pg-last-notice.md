@@ -1,16 +1,11 @@
-Повертає останнє повідомлення від сервера PostgreSQL
-
--   [« pglasterror](function.pg-last-error.html)
-    
--   [пгlastoid »](function.pg-last-oid.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає останнє повідомлення від сервера PostgreSQL
-    
-
+---
+navigation:
+  - function.pg-last-error.html: « pglasterror
+  - function.pg-last-oid.html: пгlastoid »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгlastnotice
+---
 # пгlastnotice
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Доданий параметр `mode`                                                                                                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Доданий параметр `mode` |
 
 ### Приклади
 

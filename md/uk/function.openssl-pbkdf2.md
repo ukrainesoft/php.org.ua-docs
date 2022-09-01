@@ -1,16 +1,11 @@
-Генерує рядки PKCS5 v2 PBKDF2
-
--   [« opensslopen](function.openssl-open.html)
-    
--   [opensslpkcs12exportтоfile »](function.openssl-pkcs12-export-to-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Генерує рядки PKCS5 v2 PBKDF2
-    
-
+---
+navigation:
+  - function.openssl-open.html: « opensslopen
+  - function.openssl-pkcs12-export-to-file.html: opensslpkcs12exportтоfile »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpbkdf2
+---
 # opensslpbkdf2
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

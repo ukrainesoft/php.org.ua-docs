@@ -1,16 +1,11 @@
-Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
-
--   [« caldaysінmonth](function.cal-days-in-month.html)
-    
--   [calinfo »](function.cal-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Календарь](ref.calendar.html)
-    
--   Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
-    
-
+---
+navigation:
+  - function.cal-days-in-month.html: « caldaysінmonth
+  - function.cal-info.html: calinfo »
+  - index.html: PHP Manual
+  - ref.calendar.html: Календарь
+title: calfromжд
+---
 # calfromжд
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

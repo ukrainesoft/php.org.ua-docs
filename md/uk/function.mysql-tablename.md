@@ -1,16 +1,11 @@
-Повертає ім'я таблиці, що містить вказане поле
-
--   [« mysqlstat](function.mysql-stat.html)
-    
--   [mysqlthreadid »](function.mysql-thread-id.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає ім'я таблиці, що містить вказане поле
-    
-
+---
+navigation:
+  - function.mysql-stat.html: « mysqlstat
+  - function.mysql-thread-id.html: mysqlthreadid »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqltablename
+---
 # mysqltablename
 
 (PHP 4, PHP 5)

@@ -1,16 +1,11 @@
-Установка isRequestTokenEndpoint
-
--   [« OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.html)
-    
--   [OAuthProvider::removeRequiredParameter »](oauthprovider.removerequiredparameter.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuthProvider](class.oauthprovider.html)
-    
--   Установка isRequestTokenEndpoint
-    
-
+---
+navigation:
+  - oauthprovider.is2leggedendpoint.html: '« OAuthProvider::is2LeggedEndpoint'
+  - oauthprovider.removerequiredparameter.html: 'OAuthProvider::removeRequiredParameter »'
+  - index.html: PHP Manual
+  - class.oauthprovider.html: OAuthProvider
+title: 'OAuthProvider::isRequestTokenEndpoint'
+---
 # OAuthProvider::isRequestTokenEndpoint
 
 (PECL OAuth >= 1.0.0)

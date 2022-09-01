@@ -1,16 +1,11 @@
-Повертає гістограму зображення
-
--   [« Imagick::getImageHeight](imagick.getimageheight.html)
-    
--   [Imagick::getImageIndex »](imagick.getimageindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає гістограму зображення
-    
-
+---
+navigation:
+  - imagick.getimageheight.html: '« Imagick::getImageHeight'
+  - imagick.getimageindex.html: 'Imagick::getImageIndex »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageHistogram'
+---
 # Imagick::getImageHistogram
 
 (PECL imagick 2, PECL imagick 3)

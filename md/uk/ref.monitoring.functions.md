@@ -1,16 +1,11 @@
-Функції
-
--   [« MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   [MongoDBDriverMonitoringaddSubscriber »](function.mongodb.driver.monitoring.addsubscriber.md)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Функції
-    
-
+---
+navigation:
+  - mongodb.monitoring.md: « MongoDBDriverMonitoring
+  - function.mongodb.driver.monitoring.addsubscriber.md: MongoDBDriverMonitoringaddSubscriber »
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Функції
+---
 # Функції
 
 ## Зміст

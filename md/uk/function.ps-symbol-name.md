@@ -1,16 +1,11 @@
-Отримує ім'я гліфа
-
--   [«psstroke](function.ps-stroke.html)
-    
--   [псsymbolwidth »](function.ps-symbol-width.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Отримує ім'я гліфа
-    
-
+---
+navigation:
+  - function.ps-stroke.html: «psstroke
+  - function.ps-symbol-width.html: псsymbolwidth »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsymbolname
+---
 # псsymbolname
 
 (PECL ps >= 1.2.0)

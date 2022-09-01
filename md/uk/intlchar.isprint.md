@@ -1,16 +1,11 @@
-Перевіряє, чи символ відображається
-
--   [« IntlChar::isMirrored](intlchar.ismirrored.md)
-    
--   [IntlChar::ispunct »](intlchar.ispunct.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевіряє, чи символ відображається
-    
-
+---
+navigation:
+  - intlchar.ismirrored.md: '« IntlChar::isMirrored'
+  - intlchar.ispunct.md: 'IntlChar::ispunct »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isprint'
+---
 # IntlChar::isprint
 
 (PHP 7, PHP 8)

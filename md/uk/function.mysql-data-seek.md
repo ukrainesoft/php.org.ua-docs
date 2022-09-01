@@ -1,16 +1,11 @@
-Переміщує внутрішній покажчик у результаті запиту
-
--   [« mysqlcreateдб](function.mysql-create-db.html)
-    
--   [mysqlдбname »](function.mysql-db-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Переміщує внутрішній покажчик у результаті запиту
-    
-
+---
+navigation:
+  - function.mysql-create-db.html: « mysqlcreateдб
+  - function.mysql-db-name.html: mysqlдбname »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqldataseek
+---
 # mysqldataseek
 
 (PHP 4, PHP 5)

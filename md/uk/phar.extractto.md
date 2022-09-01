@@ -1,16 +1,11 @@
-Витягти вміст phar-архіву в директорію
-
--   [« Phar::destruct](phar.destruct.md)
-    
--   [Phar::getAlias »](phar.getalias.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Витягти вміст phar-архіву в директорію
-    
-
+---
+navigation:
+  - phar.destruct.md: '« Phar::destruct'
+  - phar.getalias.md: 'Phar::getAlias »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::extractTo'
+---
 # Phar::extractTo
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

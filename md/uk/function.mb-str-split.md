@@ -1,16 +1,11 @@
-Якщо заданий багатобайтовий рядок повертає масив символів
-
--   [« mbsplit](function.mb-split.html)
-    
--   [мбstrcut »](function.mb-strcut.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Якщо заданий багатобайтовий рядок повертає масив символів
-    
-
+---
+navigation:
+  - function.mb-split.html: « mbsplit
+  - function.mb-strcut.html: мбstrcut »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбstrsplit
+---
 # мбstrsplit
 
 (PHP 7> = 7.4.0, PHP 8)
@@ -47,10 +42,10 @@ mb_str_split(string $string, int $length = 1, ?string $encoding = null): array
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
-|        | Функція більше не повертає **`false`** у разі невдачі.      |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
+|  | Функція більше не повертає **`false`** у разі невдачі. |
 
 ### Дивіться також
 

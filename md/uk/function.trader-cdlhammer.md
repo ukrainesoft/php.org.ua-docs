@@ -1,16 +1,11 @@
-Молот
-
--   [« tradercdlgravestonedoji](function.trader-cdlgravestonedoji.html)
-    
--   [tradercdlhangingman »](function.trader-cdlhangingman.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Молот
-    
-
+---
+navigation:
+  - function.trader-cdlgravestonedoji.html: « tradercdlgravestonedoji
+  - function.trader-cdlhangingman.html: tradercdlhangingman »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlhammer
+---
 # tradercdlhammer
 
 (PECL trader >= 0.2.0)

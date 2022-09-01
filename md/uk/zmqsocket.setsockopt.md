@@ -1,16 +1,11 @@
-Встановити опцію сокету
-
--   [« ZMQSocket::sendmulti](zmqsocket.sendmulti.md)
-    
--   [ZMQSocket::unbind »](zmqsocket.unbind.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQSocket](class.zmqsocket.md)
-    
--   Встановити опцію сокету
-    
-
+---
+navigation:
+  - zmqsocket.sendmulti.md: '« ZMQSocket::sendmulti'
+  - zmqsocket.unbind.md: 'ZMQSocket::unbind »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::setSockOpt'
+---
 # ZMQSocket::setSockOpt
 
 (PECL zmq >= 0.5.0)

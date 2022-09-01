@@ -1,16 +1,11 @@
-Отримати номер рядка вузла
-
--   [« DOMNode::cloneNode](domnode.clonenode.html)
-    
--   [DOMNode::getNodePath »](domnode.getnodepath.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNode](class.domnode.html)
-    
--   Отримати номер рядка вузла
-    
-
+---
+navigation:
+  - domnode.clonenode.html: '« DOMNode::cloneNode'
+  - domnode.getnodepath.html: 'DOMNode::getNodePath »'
+  - index.html: PHP Manual
+  - class.domnode.html: DOMNode
+title: 'DOMNode::getLineNo'
+---
 # DOMNode::getLineNo
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

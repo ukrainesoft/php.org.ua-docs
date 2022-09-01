@@ -1,16 +1,11 @@
-Повертає розмір масиву
-
--   [« SplFixedArray::construct](splfixedarray.construct.md)
-    
--   [SplFixedArray::current »](splfixedarray.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFixedArray](class.splfixedarray.md)
-    
--   Повертає розмір масиву
-    
-
+---
+navigation:
+  - splfixedarray.construct.md: '« SplFixedArray::construct'
+  - splfixedarray.current.md: 'SplFixedArray::current »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::count'
+---
 # SplFixedArray::count
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

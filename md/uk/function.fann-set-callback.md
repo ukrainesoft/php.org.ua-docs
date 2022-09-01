@@ -1,16 +1,11 @@
-Встановлює callback-функцію для використання під час навчання
-
--   [« fannsetbitfaillimit](function.fann-set-bit-fail-limit.html)
-    
--   [fannsetcascadeactivationfunctions »](function.fann-set-cascade-activation-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює callback-функцію для використання під час навчання
-    
-
+---
+navigation:
+  - function.fann-set-bit-fail-limit.html: « fannsetbitfaillimit
+  - function.fann-set-cascade-activation-functions.html: fannsetcascadeactivationfunctions »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcallback
+---
 # fannsetcallback
 
 (PECL fann> = 1.0.0)

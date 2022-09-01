@@ -1,16 +1,11 @@
-Повертає останнє значення колекції
-
--   [« DsSequence::join](ds-sequence.join.html)
-    
--   [ДсSequence::map »](ds-sequence.map.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає останнє значення колекції
-    
-
+---
+navigation:
+  - ds-sequence.join.html: '« DsSequence::join'
+  - ds-sequence.map.html: 'ДсSequence::map »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::last'
+---
 # ДсSequence::last
 
 (PECL ds >= 1.0.0)

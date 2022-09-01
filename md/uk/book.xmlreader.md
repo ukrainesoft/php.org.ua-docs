@@ -1,16 +1,11 @@
-XMLReader
-
--   [« XmlParser](class.xmlparser.md)
-    
--   [Введение »](intro.xmlreader.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка XML](refs.xml.md)
-    
--   XMLReader
-    
-
+---
+navigation:
+  - class.xmlparser.md: « XmlParser
+  - intro.xmlreader.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
+title: XMLReader
+---
 # XMLReader
 
 -   [Введение](intro.xmlreader.md)

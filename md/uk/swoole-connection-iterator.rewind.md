@@ -1,16 +1,11 @@
-Перемотує ітератор
-
--   [« SwooleConnectionIterator::offsetUnset](swoole-connection-iterator.offsetunset.html)
-    
--   [SwooleConnectionIterator::valid »](swoole-connection-iterator.valid.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
-    
--   Перемотує ітератор
-    
-
+---
+navigation:
+  - swoole-connection-iterator.offsetunset.html: '« SwooleConnectionIterator::offsetUnset'
+  - swoole-connection-iterator.valid.html: 'SwooleConnectionIterator::valid »'
+  - index.md: PHP Manual
+  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+title: 'SwooleConnectionIterator::rewind'
+---
 # SwooleConnectionIterator::rewind
 
 (PECL swoole >= 1.9.0)

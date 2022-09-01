@@ -1,16 +1,11 @@
-Просте ковзне середнє
-
--   [« tradersinh](function.trader-sinh.html)
-    
--   [tradersqrt »](function.trader-sqrt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Просте ковзне середнє
-    
-
+---
+navigation:
+  - function.trader-sinh.html: « tradersinh
+  - function.trader-sqrt.html: tradersqrt »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradersma
+---
 # tradersma
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Отримує один документ
-
--   [« Collection::getName](mysql-xdevapi-collection.getname.html)
-    
--   [Collection::getSchema »](mysql-xdevapi-collection.getschema.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Отримує один документ
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.getname.html: '« Collection::getName'
+  - mysql-xdevapi-collection.getschema.html: 'Collection::getSchema »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::getOne'
+---
 # Collection::getOne
 
 (No version information available, might only be in Git)

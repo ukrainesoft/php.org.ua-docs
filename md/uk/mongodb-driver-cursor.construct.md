@@ -1,16 +1,11 @@
-Створює новий об'єкт Cursor (не використовується)
-
--   [« MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   [MongoDBDriverCursor::current »](mongodb-driver-cursor.current.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Створює новий об'єкт Cursor (не використовується)
-    
-
+---
+navigation:
+  - class.mongodb-driver-cursor.html: « MongoDBDriverCursor
+  - mongodb-driver-cursor.current.html: 'MongoDBDriverCursor::current »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::construct'
+---
 # MongoDBDriverCursor::construct
 
 (mongodb >=1.0.0)

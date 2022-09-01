@@ -1,16 +1,11 @@
-Повертає розмір блоку алгоритму
-
--   [« mcryptencgetalgorithmsname](function.mcrypt-enc-get-algorithms-name.html)
-    
--   [mcryptencgetвербsize »](function.mcrypt-enc-get-iv-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Повертає розмір блоку алгоритму
-    
-
+---
+navigation:
+  - function.mcrypt-enc-get-algorithms-name.html: « mcryptencgetalgorithmsname
+  - function.mcrypt-enc-get-iv-size.html: mcryptencgetвербsize »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptencgetblocksize
+---
 # mcryptencgetblocksize
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

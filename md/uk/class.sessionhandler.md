@@ -1,16 +1,11 @@
-Клас SessionHandler
-
--   [« sessionwriteclose](function.session-write-close.html)
-    
--   [SessionHandler::close »](sessionhandler.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сессии](book.session.md)
-    
--   Клас SessionHandler
-    
-
+---
+navigation:
+  - function.session-write-close.html: « sessionwriteclose
+  - sessionhandler.close.md: 'SessionHandler::close »'
+  - index.md: PHP Manual
+  - book.session.md: Сессии
+title: Клас SessionHandler
+---
 # Клас SessionHandler
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

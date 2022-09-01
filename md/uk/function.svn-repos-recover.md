@@ -1,16 +1,11 @@
-Запускає процедури відновлення репозиторію
-
--   [« svnreposopen](function.svn-repos-open.html)
-    
--   [svnrevert »](function.svn-revert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Запускає процедури відновлення репозиторію
-    
-
+---
+navigation:
+  - function.svn-repos-open.html: « svnreposopen
+  - function.svn-revert.html: svnrevert »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnreposrecover
+---
 # svnreposrecover
 
 (PECL svn >= 0.1.0)

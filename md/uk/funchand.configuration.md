@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](funchand.installation.html)
-    
--   [Типи ресурсів »](funchand.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](funchand.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - funchand.installation.html: « Установка
+  - funchand.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - funchand.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

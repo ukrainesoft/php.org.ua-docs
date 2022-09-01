@@ -1,16 +1,11 @@
-Повертає ідентифікатор поточної сесії Stomp
-
--   [« Stomp::getReadTimeout](stomp.getreadtimeout.html)
-    
--   [Stomp::hasFrame »](stomp.hasframe.html)
-    
--   [PHP Manual](index.html)
-    
--   [Stomp](class.stomp.html)
-    
--   Повертає ідентифікатор поточної сесії Stomp
-    
-
+---
+navigation:
+  - stomp.getreadtimeout.html: '« Stomp::getReadTimeout'
+  - stomp.hasframe.html: 'Stomp::hasFrame »'
+  - index.html: PHP Manual
+  - class.stomp.html: Stomp
+title: 'Stomp::getSessionId'
+---
 # Stomp::getSessionId
 
 # stompgetsessionід

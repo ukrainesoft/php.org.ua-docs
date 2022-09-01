@@ -1,16 +1,11 @@
-Початок ітерації
-
--   [« RecursiveIteratorIterator::beginChildren](recursiveiteratoriterator.beginchildren.md)
-    
--   [RecursiveIteratorIterator::callGetChildren »](recursiveiteratoriterator.callgetchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Початок ітерації
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.beginchildren.md: '« RecursiveIteratorIterator::beginChildren'
+  - recursiveiteratoriterator.callgetchildren.md: 'RecursiveIteratorIterator::callGetChildren »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::beginIteration'
+---
 # RecursiveIteratorIterator::beginIteration
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

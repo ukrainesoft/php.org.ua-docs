@@ -1,16 +1,11 @@
-Малює багатокутник
-
--   [« ImagickDraw::point](imagickdraw.point.html)
-    
--   [ImagickDraw::polyline »](imagickdraw.polyline.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює багатокутник
-    
-
+---
+navigation:
+  - imagickdraw.point.html: '« ImagickDraw::point'
+  - imagickdraw.polyline.html: 'ImagickDraw::polyline »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::polygon'
+---
 # ImagickDraw::polygon
 
 (PECL imagick 2, PECL imagick 3)

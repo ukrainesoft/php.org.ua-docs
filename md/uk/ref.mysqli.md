@@ -1,16 +1,11 @@
-Синоніми та застарілі функції Mysqli
-
--   [« mysqlisqlexception::getSqlState](mysqli-sql-exception.getsqlstate.html)
-    
--   [mysqliconnect »](function.mysqli-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQLi](book.mysqli.md)
-    
--   Синоніми та застарілі функції Mysqli
-    
-
+---
+navigation:
+  - mysqli-sql-exception.getsqlstate.html: '« mysqlisqlexception::getSqlState'
+  - function.mysqli-connect.html: mysqliconnect »
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Синоніми та застарілі функції Mysqli
+---
 # Синоніми та застарілі функції Mysqli
 
 ## Зміст

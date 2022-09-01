@@ -1,16 +1,11 @@
-Знищує базу даних MySQL
-
--   [« mysqlдбquery](function.mysql-db-query.html)
-    
--   [mysqlerrno »](function.mysql-errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Знищує базу даних MySQL
-    
-
+---
+navigation:
+  - function.mysql-db-query.html: « mysqlдбquery
+  - function.mysql-errno.html: mysqlerrno »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqldropдб
+---
 # mysqldropдб
 
 (PHP 4, PHP 5)

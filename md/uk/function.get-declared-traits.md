@@ -1,16 +1,11 @@
-Повертає масив з усіма оголошеними трейтами
-
--   [« getdeclaredinterfaces](function.get-declared-interfaces.html)
-    
--   [getmangledobjectvars »](function.get-mangled-object-vars.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Повертає масив з усіма оголошеними трейтами
-    
-
+---
+navigation:
+  - function.get-declared-interfaces.html: « getdeclaredinterfaces
+  - function.get-mangled-object-vars.html: getmangledobjectvars »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getdeclaredtraits
+---
 # getdeclaredtraits
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

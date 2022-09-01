@@ -1,16 +1,11 @@
-Клас MongoDBDriverSession
-
--   [« MongoDBDriverBulkWrite::update](mongodb-driver-bulkwrite.update.html)
-    
--   [MongoDBDriverSession::abortTransaction »](mongodb-driver-session.aborttransaction.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас MongoDBDriverSession
-    
-
+---
+navigation:
+  - mongodb-driver-bulkwrite.update.html: '« MongoDBDriverBulkWrite::update'
+  - mongodb-driver-session.aborttransaction.html: 'MongoDBDriverSession::abortTransaction »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас MongoDBDriverSession
+---
 # Клас MongoDBDriverSession
 
 (mongodb >=1.4.0)

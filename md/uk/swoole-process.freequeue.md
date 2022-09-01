@@ -1,16 +1,11 @@
-Знищує чергу повідомлень, створену swooleprocess::useQueue
-
--   [« SwooleProcess::exit](swoole-process.exit.html)
-    
--   [SwooleProcess::kill »](swoole-process.kill.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Знищує чергу повідомлень, створену swooleprocess::useQueue
-    
-
+---
+navigation:
+  - swoole-process.exit.html: '« SwooleProcess::exit'
+  - swoole-process.kill.html: 'SwooleProcess::kill »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::freeQueue'
+---
 # SwooleProcess::freeQueue
 
 (PECL swoole >= 1.9.0)

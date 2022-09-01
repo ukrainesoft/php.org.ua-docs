@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xsl.md)
-    
--   [Вимоги »](xsl.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSL](book.xsl.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xsl.md: « Введение
+  - xsl.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.xsl.md: XSL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

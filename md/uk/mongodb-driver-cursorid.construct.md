@@ -1,16 +1,11 @@
-Створює новий об'єкт CursorId (не використовується)
-
--   [« MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
-    
--   [MongoDBDriverCursorId::serialize »](mongodb-driver-cursorid.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
-    
--   Створює новий об'єкт CursorId (не використовується)
-    
-
+---
+navigation:
+  - class.mongodb-driver-cursorid.html: « MongoDBDriverCursorId
+  - mongodb-driver-cursorid.serialize.html: 'MongoDBDriverCursorId::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId
+title: 'MongoDBDriverCursorId::construct'
+---
 # MongoDBDriverCursorId::construct
 
 (mongodb >=1.0.0)

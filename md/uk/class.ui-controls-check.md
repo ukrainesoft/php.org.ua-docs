@@ -1,16 +1,11 @@
-Елемент управління "Чекбокс"
-
--   [« UIControlsTab::setMargin](ui-controls-tab.setmargin.html)
-    
--   [ОЙControlsCheck::construct »](ui-controls-check.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Елемент управління "Чекбокс"
-    
-
+---
+navigation:
+  - ui-controls-tab.setmargin.html: '« UIControlsTab::setMargin'
+  - ui-controls-check.construct.html: 'ОЙControlsCheck::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Елемент управління "Чекбокс"
+---
 # Елемент управління "Чекбокс"
 
 (UI 0.9.9)

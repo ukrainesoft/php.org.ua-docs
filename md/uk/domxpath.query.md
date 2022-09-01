@@ -1,16 +1,11 @@
-Виконує заданий вираз XPath
-
--   [« DOMXPath::evaluate](domxpath.evaluate.md)
-    
--   [DOMXPath::registerNamespace »](domxpath.registernamespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMXPath](class.domxpath.md)
-    
--   Виконує заданий вираз XPath
-    
-
+---
+navigation:
+  - domxpath.evaluate.md: '« DOMXPath::evaluate'
+  - domxpath.registernamespace.md: 'DOMXPath::registerNamespace »'
+  - index.md: PHP Manual
+  - class.domxpath.md: DOMXPath
+title: 'DOMXPath::query'
+---
 # DOMXPath::query
 
 (PHP 5, PHP 7, PHP 8)

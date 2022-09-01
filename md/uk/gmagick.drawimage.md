@@ -1,16 +1,11 @@
-Відображає об'єкт GmagickDraw на поточному зображенні
-
--   [« Gmagick::destroy](gmagick.destroy.md)
-    
--   [Gmagick::edgeimage »](gmagick.edgeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Відображає об'єкт GmagickDraw на поточному зображенні
-    
-
+---
+navigation:
+  - gmagick.destroy.md: '« Gmagick::destroy'
+  - gmagick.edgeimage.md: 'Gmagick::edgeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::drawimage'
+---
 # Gmagick::drawimage
 
 (PECL gmagick >= Unknown)

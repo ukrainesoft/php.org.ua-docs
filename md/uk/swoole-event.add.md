@@ -1,16 +1,11 @@
-Додає нові callback функції сокету в EventLoop
-
--   [« SwooleEvent](class.swoole-event.html)
-    
--   [SwooleEvent::defer »](swoole-event.defer.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleEvent](class.swoole-event.html)
-    
--   Додає нові callback функції сокету в EventLoop
-    
-
+---
+navigation:
+  - class.swoole-event.html: « SwooleEvent
+  - swoole-event.defer.html: 'SwooleEvent::defer »'
+  - index.md: PHP Manual
+  - class.swoole-event.html: SwooleEvent
+title: 'SwooleEvent::add'
+---
 # SwooleEvent::add
 
 (PECL swoole >= 1.9.0)

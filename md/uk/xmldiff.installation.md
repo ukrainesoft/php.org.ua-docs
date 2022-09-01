@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](xmldiff.requirements.md)
-    
--   [XMLDiffBase »](class.xmldiff-base.html)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](xmldiff.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - xmldiff.requirements.md: « Вимоги
+  - class.xmldiff-base.html: XMLDiffBase »
+  - index.md: PHP Manual
+  - xmldiff.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

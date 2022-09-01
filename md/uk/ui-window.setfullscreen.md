@@ -1,16 +1,11 @@
-Використання повного екрану
-
--   [« UIWindow::setBorders](ui-window.setborders.html)
-    
--   [ОЙWindow::setMargin »](ui-window.setmargin.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Використання повного екрану
-    
-
+---
+navigation:
+  - ui-window.setborders.html: '« UIWindow::setBorders'
+  - ui-window.setmargin.html: 'ОЙWindow::setMargin »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::setFullScreen'
+---
 # ОЙWindow::setFullScreen
 
 (UI 0.9.9)

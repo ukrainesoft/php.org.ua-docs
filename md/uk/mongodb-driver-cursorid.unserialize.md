@@ -1,16 +1,11 @@
-Десеріалізація CursorId
-
--   [« MongoDBDriverCursorId::toString](mongodb-driver-cursorid.tostring.html)
-    
--   [MongoDBDriverCursorInterface »](class.mongodb-driver-cursorinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
-    
--   Десеріалізація CursorId
-    
-
+---
+navigation:
+  - mongodb-driver-cursorid.tostring.html: '« MongoDBDriverCursorId::toString'
+  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface »
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId
+title: 'MongoDBDriverCursorId::unserialize'
+---
 # MongoDBDriverCursorId::unserialize
 
 (mongodb >=1.7.0)

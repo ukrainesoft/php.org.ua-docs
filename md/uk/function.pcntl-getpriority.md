@@ -1,16 +1,11 @@
-Отримати значення пріоритету процесу
-
--   [pcntlgetlasterror](function.pcntl-get-last-error.html)
-    
--   [pcntlrfork »](function.pcntl-rfork.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Отримати значення пріоритету процесу
-    
-
+---
+navigation:
+  - function.pcntl-get-last-error.html: pcntlgetlasterror
+  - function.pcntl-rfork.html: pcntlrfork »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlgetpriority
+---
 # pcntlgetpriority
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pcntl_getpriority(?int $process_id = null, int $mode = PRIO_PROCESS): int|false
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `process_id` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `process_id` тепер допускає значення null. |
 
 ### Дивіться також
 

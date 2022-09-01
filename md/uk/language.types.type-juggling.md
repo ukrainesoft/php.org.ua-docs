@@ -1,16 +1,11 @@
-Маніпуляції з типами
-
--   [« Оголошення типів](language.types.declarations.html)
-    
--   [Змінні »](language.variables.html)
-    
--   [PHP Manual](index.html)
-    
--   [Типи](language.types.html)
-    
--   Маніпуляції з типами
-    
-
+---
+navigation:
+  - language.types.declarations.html: « Оголошення типів
+  - language.variables.html: Змінні »
+  - index.html: PHP Manual
+  - language.types.html: Типи
+title: Маніпуляції з типами
+---
 ## Маніпуляції з типами
 
 PHP не вимагає явного визначення типу при оголошенні змінної. І тут тип змінної визначається значенням, яке вона зберігає. Тобто, якщо змінною $var присвоюється значення типу рядок (string), $var змінить тип на рядок (string). Якщо після цього змінною $var буде присвоєно значення типу ціле число (int), вона змінить тип на ціле число (int).

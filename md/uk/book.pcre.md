@@ -1,16 +1,11 @@
-Функції для роботи з регулярними виразами (Perl-сумісні)
-
--   [« ParleParserException](class.parle-parserexception.html)
-    
--   [Введение »](intro.pcre.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка текста](refs.basic.text.md)
-    
--   Функції для роботи з регулярними виразами (Perl-сумісні)
-    
-
+---
+navigation:
+  - class.parle-parserexception.html: « ParleParserException
+  - intro.pcre.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.text.md: Обработка текста
+title: Функції для роботи з регулярними виразами (Perl-сумісні)
+---
 # Функції для роботи з регулярними виразами (Perl-сумісні)
 
 -   [Введение](intro.pcre.md)

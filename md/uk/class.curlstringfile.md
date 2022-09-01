@@ -1,16 +1,11 @@
-Клас CURLStringFile
-
--   [« CURLFile::setPostFilename](curlfile.setpostfilename.md)
-    
--   [CURLStringFile::construct »](curlstringfile.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [cURL](book.curl.md)
-    
--   Клас CURLStringFile
-    
-
+---
+navigation:
+  - curlfile.setpostfilename.md: '« CURLFile::setPostFilename'
+  - curlstringfile.construct.md: 'CURLStringFile::construct »'
+  - index.md: PHP Manual
+  - book.curl.md: cURL
+title: Клас CURLStringFile
+---
 # Клас CURLStringFile
 
 (PHP 8> = 8.1.0)

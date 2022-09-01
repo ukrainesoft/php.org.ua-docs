@@ -1,16 +1,11 @@
-Виконує запит до бази даних
-
--   [« mysqli::prepare](mysqli.prepare.md)
-    
--   [mysqli::realconnect »](mysqli.real-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Виконує запит до бази даних
-    
-
+---
+navigation:
+  - mysqli.prepare.md: '« mysqli::prepare'
+  - mysqli.real-connect.html: 'mysqli::realconnect »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::query'
+---
 # mysqli::query
 
 # mysqliquery

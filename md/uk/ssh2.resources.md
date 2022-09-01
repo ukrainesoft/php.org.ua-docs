@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](ssh2.configuration.html)
-    
--   [Обумовлені константи »](ssh2.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ssh2.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - ssh2.configuration.html: « Налаштування під час виконання
+  - ssh2.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - ssh2.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Модуль визначає такі типи ресурсів:

@@ -1,16 +1,11 @@
-Отримує значення часу очікування запиту
-
--   [« cubridgetдбparameter](function.cubrid-get-db-parameter.html)
-    
--   [cubridgetserverinfo »](function.cubrid-get-server-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримує значення часу очікування запиту
-    
-
+---
+navigation:
+  - function.cubrid-get-db-parameter.html: « cubridgetдбparameter
+  - function.cubrid-get-server-info.html: cubridgetserverinfo »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridgetquerytimeout
+---
 # cubridgetquerytimeout
 
 (PECL CUBRID >= 8.4.1)

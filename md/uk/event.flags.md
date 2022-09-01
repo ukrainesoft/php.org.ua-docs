@@ -1,16 +1,11 @@
-Прапори подій
-
--   [« Приклади](event.examples.md)
-    
--   [Про постійні (persistent) події »](event.persistence.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Прапори подій
-    
-
+---
+navigation:
+  - event.examples.md: « Приклади
+  - event.persistence.md: Про постійні (persistent) події »
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Прапори подій
+---
 # Прапори подій
 
 Прапор **`Event::READ`** вказує подію, яка стає активною, коли наданий файл (зазвичай потоковий ресурс чи сокет) готовий до читання.

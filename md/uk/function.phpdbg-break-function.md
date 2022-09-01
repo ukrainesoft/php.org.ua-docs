@@ -1,16 +1,11 @@
-Додати точку переривання на виклик функції
-
--   [« phpdbgbreakfile](function.phpdbg-break-file.html)
-    
--   [phpdbgbreakmethod »](function.phpdbg-break-method.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Додати точку переривання на виклик функції
-    
-
+---
+navigation:
+  - function.phpdbg-break-file.html: « phpdbgbreakfile
+  - function.phpdbg-break-method.html: phpdbgbreakmethod »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgbreakfunction
+---
 # phpdbgbreakfunction
 
 (PHP 5> = 5.6.3, PHP 7, PHP 8)

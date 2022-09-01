@@ -1,16 +1,11 @@
-Повертає послідовність, що містить усі пари колекції
-
--   [« DsMap::merge](ds-map.merge.html)
-    
--   [ДсMap::put »](ds-map.put.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає послідовність, що містить усі пари колекції
-    
-
+---
+navigation:
+  - ds-map.merge.html: '« DsMap::merge'
+  - ds-map.put.html: 'ДсMap::put »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::pairs'
+---
 # ДсMap::pairs
 
 (PECL ds >= 1.0.0)

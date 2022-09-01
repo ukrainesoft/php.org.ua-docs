@@ -1,16 +1,11 @@
-Встановити, чи слід використовувати обробник помилок SOAP
-
--   [« issoapfault](function.is-soap-fault.html)
-    
--   [SoapClient »](class.soapclient.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции SOAP](ref.soap.html)
-    
--   Встановити, чи слід використовувати обробник помилок SOAP
-    
-
+---
+navigation:
+  - function.is-soap-fault.html: « issoapfault
+  - class.soapclient.html: SoapClient »
+  - index.html: PHP Manual
+  - ref.soap.html: Функции SOAP
+title: usesoaperrorhandler
+---
 # usesoaperrorhandler
 
 (PHP 5, PHP 7, PHP 8)

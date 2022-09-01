@@ -1,16 +1,11 @@
-Відкриває файл або URL
-
--   [« streamWrapper::streammetadata](streamwrapper.stream-metadata.html)
-    
--   [streamWrapper::streamread »](streamwrapper.stream-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Відкриває файл або URL
-    
-
+---
+navigation:
+  - streamwrapper.stream-metadata.html: '« streamWrapper::streammetadata'
+  - streamwrapper.stream-read.html: 'streamWrapper::streamread »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streamopen'
+---
 # streamWrapper::streamopen
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ public streamWrapper::stream_open(    string $path,    string $mode,  
 
 Зберігає додаткові прапори, що задаються API потоків. Може містити одне або кілька значень, які об'єднані операцією АБО. Значення наведені нижче.
 
-| Флаг                       | Описание                                                                                                                                                                                     |
-|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`STREAM_USE_PATH`**      | Якщо шлях `path` відносний, потрібно шукати ресурс, використовуючи includepath.                                                                                                              |
+| Флаг | Описание |
+| --- | --- |
+| **`STREAM_USE_PATH`** | Якщо шлях `path` відносний, потрібно шукати ресурс, використовуючи includepath. |
 | **`STREAM_REPORT_ERRORS`** | Якщо цей прапор задано, Ви можете викликати помилки функцією [triggererror()](function.trigger-error.html) під час відкриття потоку. Якщо прапор не встановлено, помилки викликати не можна. |
 
 `opened_path`

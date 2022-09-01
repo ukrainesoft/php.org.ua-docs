@@ -1,16 +1,11 @@
-Сформувати URL-адресу
-
--   [« YafRouteRegex](class.yaf-route-regex.html)
-    
--   [YafRouteRegex::construct »](yaf-route-regex.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteRegex](class.yaf-route-regex.html)
-    
--   Сформувати URL-адресу
-    
-
+---
+navigation:
+  - class.yaf-route-regex.html: « YafRouteRegex
+  - yaf-route-regex.construct.html: 'YafRouteRegex::construct »'
+  - index.md: PHP Manual
+  - class.yaf-route-regex.html: YafRouteRegex
+title: 'YafRouteRegex::assemble'
+---
 # YafRouteRegex::assemble
 
 (Yaf >=2.3.0)

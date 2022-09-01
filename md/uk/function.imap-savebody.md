@@ -1,16 +1,11 @@
-Зберегти частину тіла повідомлення у файл
-
--   [« imaprfc822writeaddress](function.imap-rfc822-write-address.html)
-    
--   [imapscan »](function.imap-scan.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Зберегти частину тіла повідомлення у файл
-    
-
+---
+navigation:
+  - function.imap-rfc822-write-address.html: « imaprfc822writeaddress
+  - function.imap-scan.html: imapscan »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapsavebody
+---
 # imapsavebody
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file, 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

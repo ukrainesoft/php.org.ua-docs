@@ -1,16 +1,11 @@
-Отримати верхній рівень
-
--   [« UIControl::getParent](ui-control.getparent.html)
-    
--   [ОЙControl::hide »](ui-control.hide.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControl](class.ui-control.html)
-    
--   Отримати верхній рівень
-    
-
+---
+navigation:
+  - ui-control.getparent.html: '« UIControl::getParent'
+  - ui-control.hide.html: 'ОЙControl::hide »'
+  - index.md: PHP Manual
+  - class.ui-control.html: ОЙControl
+title: 'ОЙControl::getTopLevel'
+---
 # ОЙControl::getTopLevel
 
 (UI 0.9.9)

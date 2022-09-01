@@ -1,16 +1,11 @@
-Вступ
-
--   [« parallel](book.parallel.md)
-    
--   [Установка »](parallel.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [parallel](book.parallel.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.parallel.md: « parallel
+  - parallel.setup.md: Установка »
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Вступ
+---
 # Вступ
 
 parallel – це модуль паралельного виконання для PHP 7.2+.

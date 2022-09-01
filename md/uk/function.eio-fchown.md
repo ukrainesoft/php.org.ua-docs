@@ -1,16 +1,11 @@
-Змінює власника файлу
-
--   [« eiofchmod](function.eio-fchmod.html)
-    
--   [eiofdatasync »](function.eio-fdatasync.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Змінює власника файлу
-    
-
+---
+navigation:
+  - function.eio-fchmod.html: « eiofchmod
+  - function.eio-fdatasync.html: eiofdatasync »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiofchown
+---
 # eiofchown
 
 (PECL eio >= 0.0.1dev)

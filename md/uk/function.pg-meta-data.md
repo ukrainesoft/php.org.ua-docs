@@ -1,16 +1,11 @@
-Отримання метаданих таблиці
-
--   [« pgлоwrite](function.pg-lo-write.html)
-    
--   [пгnumfields »](function.pg-num-fields.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Отримання метаданих таблиці
-    
-
+---
+navigation:
+  - function.pg-lo-write.html: « pgлоwrite
+  - function.pg-num-fields.html: пгnumfields »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгmetadata
+---
 # пгmetadata
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

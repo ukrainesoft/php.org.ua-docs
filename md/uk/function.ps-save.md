@@ -1,16 +1,11 @@
-Зберігає поточний контекст
-
--   [«psrotate](function.ps-rotate.html)
-    
--   [псscale »](function.ps-scale.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Зберігає поточний контекст
-    
-
+---
+navigation:
+  - function.ps-rotate.html: «psrotate
+  - function.ps-scale.html: псscale »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsave
+---
 # псsave
 
 (PECL ps >= 1.1.0)

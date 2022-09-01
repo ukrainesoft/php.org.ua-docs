@@ -1,16 +1,11 @@
-Повертає оформлення тексту
-
--   [« GmagickDraw::getstrokewidth](gmagickdraw.getstrokewidth.md)
-    
--   [GmagickDraw::gettextencoding »](gmagickdraw.gettextencoding.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Повертає оформлення тексту
-    
-
+---
+navigation:
+  - gmagickdraw.getstrokewidth.md: '« GmagickDraw::getstrokewidth'
+  - gmagickdraw.gettextencoding.md: 'GmagickDraw::gettextencoding »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::gettextdecoration'
+---
 # GmagickDraw::gettextdecoration
 
 (PECL gmagick >= Unknown)

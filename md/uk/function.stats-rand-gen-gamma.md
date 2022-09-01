@@ -1,16 +1,11 @@
-Обчислює випадкове відхилення від гамма-розподілу
-
--   [« statsrandgenfuniform](function.stats-rand-gen-funiform.html)
-    
--   [statsrandgenibinomialnegative »](function.stats-rand-gen-ibinomial-negative.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює випадкове відхилення від гамма-розподілу
-    
-
+---
+navigation:
+  - function.stats-rand-gen-funiform.html: « statsrandgenfuniform
+  - function.stats-rand-gen-ibinomial-negative.html: statsrandgenibinomialnegative »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsrandгенgamma
+---
 # statsrandгенgamma
 
 (PECL stats >= 1.0.0)

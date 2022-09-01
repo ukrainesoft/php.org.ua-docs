@@ -1,16 +1,11 @@
-Клас variant
-
--   [« dotnet::construct](dotnet.construct.html)
-    
--   [variant::construct »](variant.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [COM](book.com.html)
-    
--   Клас variant
-    
-
+---
+navigation:
+  - dotnet.construct.html: '« dotnet::construct'
+  - variant.construct.html: 'variant::construct »'
+  - index.html: PHP Manual
+  - book.com.html: COM
+title: Клас variant
+---
 # Клас variant
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

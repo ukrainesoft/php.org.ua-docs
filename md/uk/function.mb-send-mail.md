@@ -1,16 +1,11 @@
-Надсилання закодованого повідомлення
-
--   [« mbscrub](function.mb-scrub.html)
-    
--   [мбsplit »](function.mb-split.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Надсилання закодованого повідомлення
-    
-
+---
+navigation:
+  - function.mb-scrub.html: « mbscrub
+  - function.mb-split.html: мбsplit »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбsendmail
+---
 # мбsendmail
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -73,11 +68,11 @@ mb_send_mail(    string $to,    string $subject,    string $message,
 
 ### список змін
 
-| 8.0.0  | Теперь параметр `additional_params` может принимать значение **`null`**. |
-|--------|--------------------------------------------------------------------------|
-| Версія | Опис                                                                     |
-|        |                                                                          |
-|        | Тепер у параметр `additional_headers` можна передавати масив.            |
+| 8.0.0 | Теперь параметр `additional_params` может принимать значение **`null`**. |
+| --- | --- |
+| Версія | Опис |
+|  |  |
+|  | Тепер у параметр `additional_headers` можна передавати масив. |
 
 ### Дивіться також
 

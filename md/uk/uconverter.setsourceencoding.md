@@ -1,16 +1,11 @@
-Встановити вихідне кодування
-
--   [« UConverter::setDestinationEncoding](uconverter.setdestinationencoding.html)
-    
--   [UConverter::setSubstChars »](uconverter.setsubstchars.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Встановити вихідне кодування
-    
-
+---
+navigation:
+  - uconverter.setdestinationencoding.html: '« UConverter::setDestinationEncoding'
+  - uconverter.setsubstchars.html: 'UConverter::setSubstChars »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::setSourceEncoding'
+---
 # UConverter::setSourceEncoding
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

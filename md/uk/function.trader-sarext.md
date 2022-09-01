@@ -1,16 +1,11 @@
-Параболічний SAR – розширений
-
--   [« tradersar](function.trader-sar.html)
-    
--   [tradersetcompat »](function.trader-set-compat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Параболічний SAR – розширений
-    
-
+---
+navigation:
+  - function.trader-sar.html: « tradersar
+  - function.trader-set-compat.html: tradersetcompat »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradersarext
+---
 # tradersarext
 
 (PECL trader >= 0.2.0)

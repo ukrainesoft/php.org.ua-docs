@@ -1,16 +1,11 @@
-Видаляє та повертає значення з вершини стека
-
--   [« DsStack::peek](ds-stack.peek.html)
-    
--   [ДсStack::push »](ds-stack.push.html)
-    
--   [PHP Manual](index.html)
-    
--   [Стек](class.ds-stack.html)
-    
--   Видаляє та повертає значення з вершини стека
-    
-
+---
+navigation:
+  - ds-stack.peek.html: '« DsStack::peek'
+  - ds-stack.push.html: 'ДсStack::push »'
+  - index.html: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::pop'
+---
 # ДсStack::pop
 
 (PECL ds >= 1.0.0)

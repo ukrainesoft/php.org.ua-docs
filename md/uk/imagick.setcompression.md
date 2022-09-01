@@ -1,16 +1,11 @@
-Встановлює тип стиснення об'єкта за промовчанням
-
--   [« Imagick::setColorspace](imagick.setcolorspace.html)
-    
--   [Imagick::setCompressionQuality »](imagick.setcompressionquality.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює тип стиснення об'єкта за промовчанням
-    
-
+---
+navigation:
+  - imagick.setcolorspace.html: '« Imagick::setColorspace'
+  - imagick.setcompressionquality.html: 'Imagick::setCompressionQuality »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setCompression'
+---
 # Imagick::setCompression
 
 (PECL imagick 2, PECL imagick 3)

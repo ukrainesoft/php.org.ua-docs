@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](gmp.constants.md)
-    
--   [GMP Функції »](ref.gmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [GMP](book.gmp.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - gmp.constants.md: « Обумовлені константи
+  - ref.gmp.md: GMP Функції »
+  - index.md: PHP Manual
+  - book.gmp.md: GMP
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Обчислення факторіалу за допомогою GMP**

@@ -1,16 +1,11 @@
-Додає документацію самоаналізу
-
--   [« xmlrpcparsemethoddescriptions](function.xmlrpc-parse-method-descriptions.html)
-    
--   [xmlrpcservercallmethod »](function.xmlrpc-server-call-method.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції XML-RPC](ref.xmlrpc.md)
-    
--   Додає документацію самоаналізу
-    
-
+---
+navigation:
+  - function.xmlrpc-parse-method-descriptions.html: « xmlrpcparsemethoddescriptions
+  - function.xmlrpc-server-call-method.html: xmlrpcservercallmethod »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
+title: xmlrpcserveraddintrospectiondata
+---
 # xmlrpcserveraddintrospectiondata
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

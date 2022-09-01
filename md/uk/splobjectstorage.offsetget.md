@@ -1,16 +1,11 @@
-Повертає дані, асоційовані з об'єктом object
-
--   [« SplObjectStorage::offsetExists](splobjectstorage.offsetexists.md)
-    
--   [SplObjectStorage::offsetSet »](splobjectstorage.offsetset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Повертає дані, асоційовані з об'єктом object
-    
-
+---
+navigation:
+  - splobjectstorage.offsetexists.md: '« SplObjectStorage::offsetExists'
+  - splobjectstorage.offsetset.md: 'SplObjectStorage::offsetSet »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::offsetGet'
+---
 # SplObjectStorage::offsetGet
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

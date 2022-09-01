@@ -1,16 +1,11 @@
-The mysqlistmt class
-
--   [« mysqli::$warningcount](mysqli.warning-count.html)
-    
--   [mysqlistmt::$affectedrows »](mysqli-stmt.affected-rows.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQLi](book.mysqli.md)
-    
--   The mysqlistmt class
-    
-
+---
+navigation:
+  - mysqli.warning-count.html: '« mysqli::$warningcount'
+  - mysqli-stmt.affected-rows.html: 'mysqlistmt::$affectedrows »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: The mysqlistmt class
+---
 # The mysqlistmt class
 
 (PHP 5, PHP 7, PHP 8)

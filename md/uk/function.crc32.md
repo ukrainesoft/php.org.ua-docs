@@ -1,16 +1,11 @@
-Обчислює поліном CRC32 для рядка
-
--   [« countchars](function.count-chars.html)
-    
--   [crypt »](function.crypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Обчислює поліном CRC32 для рядка
-    
-
+---
+navigation:
+  - function.count-chars.html: « countchars
+  - function.crypt.html: crypt »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: crc32
+---
 # crc32
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

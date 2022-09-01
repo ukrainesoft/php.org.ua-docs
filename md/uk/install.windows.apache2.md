@@ -1,16 +1,11 @@
-Apache 2.x у Microsoft Windows
-
--   [Командний рядок PHP у Microsoft Windows](install.windows.commandline.md)
-    
--   [Стандартні проблеми PHP під Windows »](install.windows.troubleshooting.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка в системах Windows](install.windows.md)
-    
--   Apache 2.x у Microsoft Windows
-    
-
+---
+navigation:
+  - install.windows.commandline.md: Командний рядок PHP у Microsoft Windows
+  - install.windows.troubleshooting.md: Стандартні проблеми PHP під Windows »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Apache 2.x у Microsoft Windows
+---
 ## Apache 2.x у Microsoft Windows
 
 Цей розділ містить примітки та підказки до інсталяції PHP, пов'язаної з Apache 2.x на системах Microsoft Windows.

@@ -1,16 +1,11 @@
-Читає рядок з файлу та видаляє HTML-теги
-
--   [« fgets](function.fgets.md)
-    
--   [fileexists »](function.file-exists.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Читає рядок з файлу та видаляє HTML-теги
-    
-
+---
+navigation:
+  - function.fgets.md: « fgets
+  - function.file-exists.html: fileexists »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fgetss
+---
 # fgetss
 
 (PHP 4, PHP 5, PHP 7)

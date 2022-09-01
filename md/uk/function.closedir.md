@@ -1,16 +1,11 @@
-Закриває дескриптор каталогу
-
--   [« chroot](function.chroot.md)
-    
--   [dir »](function.dir.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з каталогами](ref.dir.md)
-    
--   Закриває дескриптор каталогу
-    
-
+---
+navigation:
+  - function.chroot.md: « chroot
+  - function.dir.md: dir »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
+title: closedir
+---
 # closedir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

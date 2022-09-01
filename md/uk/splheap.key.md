@@ -1,16 +1,11 @@
-Повертає індекс поточного вузла
-
--   [« SplHeap::isEmpty](splheap.isempty.html)
-    
--   [SplHeap::next »](splheap.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplHeap](class.splheap.html)
-    
--   Повертає індекс поточного вузла
-    
-
+---
+navigation:
+  - splheap.isempty.html: '« SplHeap::isEmpty'
+  - splheap.next.html: 'SplHeap::next »'
+  - index.html: PHP Manual
+  - class.splheap.html: SplHeap
+title: 'SplHeap::key'
+---
 # SplHeap::key
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

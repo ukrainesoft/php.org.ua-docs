@@ -1,16 +1,11 @@
-Відправляє відповідь
-
--   [« YafResponseAbstract::prependBody](yaf-response-abstract.prependbody.html)
-    
--   [YafResponseAbstract::setAllHeaders »](yaf-response-abstract.setallheaders.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Відправляє відповідь
-    
-
+---
+navigation:
+  - yaf-response-abstract.prependbody.html: '« YafResponseAbstract::prependBody'
+  - yaf-response-abstract.setallheaders.html: 'YafResponseAbstract::setAllHeaders »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::response'
+---
 # YafResponseAbstract::response
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Видаляє всі поточні суфікси пошуку
-
--   [« EventDnsBase::addSearch](eventdnsbase.addsearch.md)
-    
--   [EventDnsBase::construct »](eventdnsbase.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventDnsBase](class.eventdnsbase.md)
-    
--   Видаляє всі поточні суфікси пошуку
-    
-
+---
+navigation:
+  - eventdnsbase.addsearch.md: '« EventDnsBase::addSearch'
+  - eventdnsbase.construct.md: 'EventDnsBase::construct »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::clearSearch'
+---
 # EventDnsBase::clearSearch
 
 (PECL event >= 1.2.6-beta)

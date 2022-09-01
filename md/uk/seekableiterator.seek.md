@@ -1,16 +1,11 @@
-Переміщається до позиції
-
--   [« SeekableIterator](class.seekableiterator.md)
-    
--   [Исключения »](spl.exceptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeekableIterator](class.seekableiterator.md)
-    
--   Переміщається до позиції
-    
-
+---
+navigation:
+  - class.seekableiterator.md: « SeekableIterator
+  - spl.exceptions.md: Исключения »
+  - index.md: PHP Manual
+  - class.seekableiterator.md: SeekableIterator
+title: 'SeekableIterator::seek'
+---
 # SeekableIterator::seek
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Сінус
-
--   [« round](function.round.html)
-    
--   [sinh »](function.sinh.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Сінус
-    
-
+---
+navigation:
+  - function.round.html: « round
+  - function.sinh.html: sinh »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: sin
+---
 # sin
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

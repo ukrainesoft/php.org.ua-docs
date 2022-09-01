@@ -1,16 +1,11 @@
-Вимикає подію підключення до об'єкта слухача
-
--   [« EventListener::construct](eventlistener.construct.md)
-    
--   [EventListener::enable »](eventlistener.enable.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventListener](class.eventlistener.md)
-    
--   Вимикає подію підключення до об'єкта слухача
-    
-
+---
+navigation:
+  - eventlistener.construct.md: '« EventListener::construct'
+  - eventlistener.enable.md: 'EventListener::enable »'
+  - index.md: PHP Manual
+  - class.eventlistener.md: EventListener
+title: 'EventListener::disable'
+---
 # EventListener::disable
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Додає елемент у поле масиву
-
--   [« CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.html)
-    
--   [CollectionModify::bind »](mysql-xdevapi-collectionmodify.bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Додає елемент у поле масиву
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.arrayappend.html: '« CollectionModify::arrayAppend'
+  - mysql-xdevapi-collectionmodify.bind.html: 'CollectionModify::bind »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::arrayInsert'
+---
 # CollectionModify::arrayInsert
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Витягти інформацію з результату
-
--   [« ldapparsereference](function.ldap-parse-reference.html)
-    
--   [ldapread »](function.ldap-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Витягти інформацію з результату
-    
-
+---
+navigation:
+  - function.ldap-parse-reference.html: « ldapparsereference
+  - function.ldap-read.html: ldapread »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapparseresult
+---
 # ldapparseresult
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -61,11 +56,11 @@ ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,  
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html)       |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 

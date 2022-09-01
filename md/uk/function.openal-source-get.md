@@ -1,16 +1,11 @@
-Отримати властивість джерела OpenAL
-
--   [« openalsourcedestroy](function.openal-source-destroy.html)
-    
--   [openalsourcepause »](function.openal-source-pause.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Отримати властивість джерела OpenAL
-    
-
+---
+navigation:
+  - function.openal-source-destroy.html: « openalsourcedestroy
+  - function.openal-source-pause.html: openalsourcepause »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalsourceget
+---
 # openalsourceget
 
 (PECL openal >= 0.1.0)

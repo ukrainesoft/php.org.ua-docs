@@ -1,16 +1,11 @@
-Отримує кращу мову клієнта
-
--   [« YafRequestAbstract::getException](yaf-request-abstract.getexception.html)
-    
--   [YafRequestAbstract::getMethod »](yaf-request-abstract.getmethod.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Отримує кращу мову клієнта
-    
-
+---
+navigation:
+  - yaf-request-abstract.getexception.html: '« YafRequestAbstract::getException'
+  - yaf-request-abstract.getmethod.html: 'YafRequestAbstract::getMethod »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getLanguage'
+---
 # YafRequestAbstract::getLanguage
 
 (Yaf >=1.0.0)

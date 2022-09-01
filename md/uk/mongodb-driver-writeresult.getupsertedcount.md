@@ -1,16 +1,11 @@
-Повертає кількість документів, вставлених злиттям
-
--   [« MongoDBDriverWriteResult::getServer](mongodb-driver-writeresult.getserver.html)
-    
--   [MongoDBDriverWriteResult::getUpsertedIds »](mongodb-driver-writeresult.getupsertedids.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає кількість документів, вставлених злиттям
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getserver.html: '« MongoDBDriverWriteResult::getServer'
+  - mongodb-driver-writeresult.getupsertedids.html: 'MongoDBDriverWriteResult::getUpsertedIds »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getUpsertedCount'
+---
 # MongoDBDriverWriteResult::getUpsertedCount
 
 (mongodb >=1.0.0)

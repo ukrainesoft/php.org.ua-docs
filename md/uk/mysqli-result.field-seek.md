@@ -1,16 +1,11 @@
-Встановити покажчик поля на певне усунення
-
--   [« mysqliresult::$fieldcount](mysqli-result.field-count.html)
-    
--   [mysqliresult::free »](mysqli-result.free.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Встановити покажчик поля на певне усунення
-    
-
+---
+navigation:
+  - mysqli-result.field-count.html: '« mysqliresult::$fieldcount'
+  - mysqli-result.free.html: 'mysqliresult::free »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::fieldseek'
+---
 # mysqliresult::fieldseek
 
 # mysqlifieldseek

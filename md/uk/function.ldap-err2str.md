@@ -1,16 +1,11 @@
-Перетворити код помилки LDAP на рядкове повідомлення про помилку
-
--   [« ldapdn2ufn](function.ldap-dn2ufn.html)
-    
--   [ldaperrno »](function.ldap-errno.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Перетворити код помилки LDAP на рядкове повідомлення про помилку
-    
-
+---
+navigation:
+  - function.ldap-dn2ufn.html: « ldapdn2ufn
+  - function.ldap-errno.html: ldaperrno »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldaperr2str
+---
 # ldaperr2str
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

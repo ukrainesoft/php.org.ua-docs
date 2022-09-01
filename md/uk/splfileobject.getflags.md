@@ -1,16 +1,11 @@
-Отримує прапори налаштування об'єкта SplFileObject
-
--   [« SplFileObject::getCurrentLine](splfileobject.getcurrentline.html)
-    
--   [SplFileObject::getMaxLineLen »](splfileobject.getmaxlinelen.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Отримує прапори налаштування об'єкта SplFileObject
-    
-
+---
+navigation:
+  - splfileobject.getcurrentline.html: '« SplFileObject::getCurrentLine'
+  - splfileobject.getmaxlinelen.html: 'SplFileObject::getMaxLineLen »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::getFlags'
+---
 # SplFileObject::getFlags
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

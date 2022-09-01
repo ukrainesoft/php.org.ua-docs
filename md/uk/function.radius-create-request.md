@@ -1,16 +1,11 @@
-Створює обліковий запис або запит автентифікації
-
--   [« radiusconfig](function.radius-config.html)
-    
--   [radiuscvtaddr »](function.radius-cvt-addr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Створює обліковий запис або запит автентифікації
-    
-
+---
+navigation:
+  - function.radius-config.html: « radiusconfig
+  - function.radius-cvt-addr.html: radiuscvtaddr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiuscreaterequest
+---
 # radiuscreaterequest
 
 (PECL radius >= 1.1.0)

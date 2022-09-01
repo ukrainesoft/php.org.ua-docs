@@ -1,16 +1,11 @@
-Записати заголовок
-
--   [« VtifulKernelExcel::getHandle](vtiful-kernel-excel.getHandle.html)
-    
--   [VtifulKernelExcel::insertFormula »](vtiful-kernel-excel.insertFormula.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Записати заголовок
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.getHandle.html: '« VtifulKernelExcel::getHandle'
+  - vtiful-kernel-excel.insertFormula.html: 'VtifulKernelExcel::insertFormula »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::header'
+---
 # VtifulKernelExcel::header
 
 (PECL xlswriter >= 1.2.1)

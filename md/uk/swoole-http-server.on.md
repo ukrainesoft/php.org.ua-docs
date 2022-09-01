@@ -1,16 +1,11 @@
-Прив'язує callback-функцію до HTTP-сервера на ім'я події
-
--   [« SwooleHttpServer](class.swoole-http-server.html)
-    
--   [SwooleHttpServer::start »](swoole-http-server.start.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpServer](class.swoole-http-server.html)
-    
--   Прив'язує callback-функцію до HTTP-сервера на ім'я події
-    
-
+---
+navigation:
+  - class.swoole-http-server.html: « SwooleHttpServer
+  - swoole-http-server.start.html: 'SwooleHttpServer::start »'
+  - index.md: PHP Manual
+  - class.swoole-http-server.html: SwooleHttpServer
+title: 'SwooleHttpServer::on'
+---
 # SwooleHttpServer::on
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Звільнення XML-аналізатора
-
--   [« xmlparsercreate](function.xml-parser-create.html)
-    
--   [xmlparsergetoption »](function.xml-parser-get-option.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции парсера XML](ref.xml.html)
-    
--   Звільнення XML-аналізатора
-    
-
+---
+navigation:
+  - function.xml-parser-create.html: « xmlparsercreate
+  - function.xml-parser-get-option.html: xmlparsergetoption »
+  - index.html: PHP Manual
+  - ref.xml.html: Функции парсера XML
+title: xmlparserfree
+---
 # xmlparserfree
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,6 +40,6 @@ xml_parser_free(XMLParser $parser): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |

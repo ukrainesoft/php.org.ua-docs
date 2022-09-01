@@ -1,16 +1,11 @@
-Викликає обробники для сигналів, що очікують.
-
--   [pcntlsetpriority](function.pcntl-setpriority.html)
-    
--   [pcntlsignalgethandler »](function.pcntl-signal-get-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Викликає обробники для сигналів, що очікують.
-    
-
+---
+navigation:
+  - function.pcntl-setpriority.html: pcntlsetpriority
+  - function.pcntl-signal-get-handler.html: pcntlsignalgethandler »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlsignaldispatch
+---
 # pcntlsignaldispatch
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

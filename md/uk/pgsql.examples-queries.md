@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Базовое использование](pgsql.examples-basic.html)
-    
--   [Функции PostgreSQL »](ref.pgsql.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](pgsql.examples.md)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - pgsql.examples-basic.html: « Базовое использование
+  - ref.pgsql.md: Функции PostgreSQL »
+  - index.md: PHP Manual
+  - pgsql.examples.md: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 Ці приклади містять функції користувача, аналогічні застарілим функціям MySQL.

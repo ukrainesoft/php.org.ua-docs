@@ -1,16 +1,11 @@
-Отримує ім'я стандартної дії
-
--   [« YafDispatcher::getApplication](yaf-dispatcher.getapplication.html)
-    
--   [YafDispatcher::getDefaultController »](yaf-dispatcher.getdefaultcontroller.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Отримує ім'я стандартної дії
-    
-
+---
+navigation:
+  - yaf-dispatcher.getapplication.html: '« YafDispatcher::getApplication'
+  - yaf-dispatcher.getdefaultcontroller.html: 'YafDispatcher::getDefaultController »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::getDefaultAction'
+---
 # YafDispatcher::getDefaultAction
 
 (Yaf> = 3.2.0)

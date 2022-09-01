@@ -1,16 +1,11 @@
-Згенерувати джерело ресурсу
-
--   [« openallistenerset](function.openal-listener-set.html)
-    
--   [openalsourcedestroy »](function.openal-source-destroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenAL](ref.openal.html)
-    
--   Згенерувати джерело ресурсу
-    
-
+---
+navigation:
+  - function.openal-listener-set.html: « openallistenerset
+  - function.openal-source-destroy.html: openalsourcedestroy »
+  - index.html: PHP Manual
+  - ref.openal.html: Функции OpenAL
+title: openalsourcecreate
+---
 # openalsourcecreate
 
 (PECL openal >= 0.1.0)

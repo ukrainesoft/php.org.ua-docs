@@ -1,16 +1,11 @@
-Створює копію ArrayObject
-
--   [« ArrayObject::exchangeArray](arrayobject.exchangearray.md)
-    
--   [ArrayObject::getFlags »](arrayobject.getflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Створює копію ArrayObject
-    
-
+---
+navigation:
+  - arrayobject.exchangearray.md: '« ArrayObject::exchangeArray'
+  - arrayobject.getflags.md: 'ArrayObject::getFlags »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::getArrayCopy'
+---
 # ArrayObject::getArrayCopy
 
 (PHP 5, PHP 7, PHP 8)

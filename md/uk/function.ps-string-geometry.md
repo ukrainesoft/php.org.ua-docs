@@ -1,16 +1,11 @@
-Отримує геометрію рядка
-
--   [«psshow](function.ps-show.html)
-    
--   [псstringwidth »](function.ps-stringwidth.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Отримує геометрію рядка
-    
-
+---
+navigation:
+  - function.ps-show.html: «psshow
+  - function.ps-stringwidth.html: псstringwidth »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псstringgeometry
+---
 # псstringgeometry
 
 (PECL ps >= 1.2.0)

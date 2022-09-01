@@ -1,16 +1,11 @@
-Oracle OCI8
-
--   [« Начинаем разработку плагина mysqlnd](mysqlnd.plugin.developing.md)
-    
--   [Введение »](intro.oci8.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   Oracle OCI8
-    
-
+---
+navigation:
+  - mysqlnd.plugin.developing.md: « Начинаем разработку плагина mysqlnd
+  - intro.oci8.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: Oracle OCI8
+---
 # Oracle OCI8
 
 -   [Введение](intro.oci8.md)

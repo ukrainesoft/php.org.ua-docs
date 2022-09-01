@@ -1,16 +1,11 @@
-Перевіряє існування вказаного файлу чи каталогу
-
--   [« fgetss](function.fgetss.md)
-    
--   [filegetcontents »](function.file-get-contents.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Перевіряє існування вказаного файлу чи каталогу
-    
-
+---
+navigation:
+  - function.fgetss.md: « fgetss
+  - function.file-get-contents.html: filegetcontents »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fileexists
+---
 # fileexists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

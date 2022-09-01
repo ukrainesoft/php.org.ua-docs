@@ -1,16 +1,11 @@
-Імпортує сокет з іншого процесу
-
--   [« socketwsaprotocolinfoexport](function.socket-wsaprotocol-info-export.html)
-    
--   [socketwsaprotocolinforelease »](function.socket-wsaprotocol-info-release.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Імпортує сокет з іншого процесу
-    
-
+---
+navigation:
+  - function.socket-wsaprotocol-info-export.html: « socketwsaprotocolinfoexport
+  - function.socket-wsaprotocol-info-release.html: socketwsaprotocolinforelease »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketwsaprotocolinfoimport
+---
 # socketwsaprotocolinfoimport
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -39,9 +34,9 @@ socket_wsaprotocol_info_import(string $info_id): Socket|false
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
 
 ### Дивіться також
 

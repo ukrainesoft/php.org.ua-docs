@@ -1,16 +1,11 @@
-Повертає значення, створене для стовпця AUTOINCREMENT останнім запитом
-
--   [« mysqli::init](mysqli.init.html)
-    
--   [mysqli::kill »](mysqli.kill.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає значення, створене для стовпця AUTOINCREMENT останнім запитом
-    
-
+---
+navigation:
+  - mysqli.init.html: '« mysqli::init'
+  - mysqli.kill.html: 'mysqli::kill »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::$insertід'
+---
 # mysqli::$insertід
 
 # mysqliinsertід

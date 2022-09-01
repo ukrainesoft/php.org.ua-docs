@@ -1,16 +1,11 @@
-Увімкнення/вимкнення неявного скидання
-
--   [« obgzhandler](function.ob-gzhandler.html)
-    
--   [проlisthandlers »](function.ob-list-handlers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   Увімкнення/вимкнення неявного скидання
-    
-
+---
+navigation:
+  - function.ob-gzhandler.html: « obgzhandler
+  - function.ob-list-handlers.html: проlisthandlers »
+  - index.html: PHP Manual
+  - ref.outcontrol.html: Функції контролю виведення
+title: проimplicitflush
+---
 # проimplicitflush
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ ob_implicit_flush(bool $enable = true): void
 
 ### список змін
 
-| Версия | Описание                                                                              |
-|--------|---------------------------------------------------------------------------------------|
-|        | `enable` тепер набуває логічного значення (bool); раніше приймалося ціле число (int). |
+| Версия | Описание |
+| --- | --- |
+|  | `enable` тепер набуває логічного значення (bool); раніше приймалося ціле число (int). |
 
 ### Дивіться також
 

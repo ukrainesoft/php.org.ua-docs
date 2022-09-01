@@ -1,16 +1,11 @@
-Повертає рядок результату у вигляді масиву
-
--   [« pgfetchall](function.pg-fetch-all.html)
-    
--   [пгfetchassoc »](function.pg-fetch-assoc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Повертає рядок результату у вигляді масиву
-    
-
+---
+navigation:
+  - function.pg-fetch-all.html: « pgfetchall
+  - function.pg-fetch-assoc.html: пгfetchassoc »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгfetcharray
+---
 # пгfetcharray
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ pg_fetch_array(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_BOTH): 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

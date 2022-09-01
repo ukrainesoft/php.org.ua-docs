@@ -1,16 +1,11 @@
-Створює нове зображення
-
--   [« Imagick::newImage](imagick.newimage.html)
-    
--   [Imagick::nextImage »](imagick.nextimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Створює нове зображення
-    
-
+---
+navigation:
+  - imagick.newimage.html: '« Imagick::newImage'
+  - imagick.nextimage.html: 'Imagick::nextImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::newPseudoImage'
+---
 # Imagick::newPseudoImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'
-
--   [« Locale::getAllVariants](locale.getallvariants.md)
-    
--   [Locale::getDisplayLanguage »](locale.getdisplaylanguage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'
-    
-
+---
+navigation:
+  - locale.getallvariants.md: '« Locale::getAllVariants'
+  - locale.getdisplaylanguage.md: 'Locale::getDisplayLanguage »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::getDefault'
+---
 # Locale::getDefault
 
 # localegetdefault

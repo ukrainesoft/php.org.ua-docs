@@ -1,16 +1,11 @@
-Повертає область документа JavaScript
-
--   [« MongoDBBSONJavascript::getCode](mongodb-bson-javascript.getcode.html)
-    
--   [MongoDBBSONJavascript::jsonSerialize »](mongodb-bson-javascript.jsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   Повертає область документа JavaScript
-    
-
+---
+navigation:
+  - mongodb-bson-javascript.getcode.html: '« MongoDBBSONJavascript::getCode'
+  - mongodb-bson-javascript.jsonserialize.html: 'MongoDBBSONJavascript::jsonSerialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+title: 'MongoDBBSONJavascript::getScope'
+---
 # MongoDBBSONJavascript::getScope
 
 (mongodb >=1.2.0)

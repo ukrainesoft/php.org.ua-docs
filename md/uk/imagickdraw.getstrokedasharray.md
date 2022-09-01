@@ -1,16 +1,11 @@
-Повертає масив, що представляє патерн із штрихів та пробілів, що використовуються для обведення контурів.
-
--   [« ImagickDraw::getStrokeColor](imagickdraw.getstrokecolor.html)
-    
--   [ImagickDraw::getStrokeDashOffset »](imagickdraw.getstrokedashoffset.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає масив, що представляє патерн із штрихів та пробілів, що використовуються для обведення контурів.
-    
-
+---
+navigation:
+  - imagickdraw.getstrokecolor.html: '« ImagickDraw::getStrokeColor'
+  - imagickdraw.getstrokedashoffset.html: 'ImagickDraw::getStrokeDashOffset »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getStrokeDashArray'
+---
 # ImagickDraw::getStrokeDashArray
 
 (PECL imagick 2, PECL imagick 3)

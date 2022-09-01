@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](yaf.constants.html)
-    
--   [Конфигурация приложения »](yaf.appconfig.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - yaf.constants.html: « Обумовлені константи
+  - yaf.appconfig.html: Конфигурация приложения »
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Класичний приклад каталогу для програми**

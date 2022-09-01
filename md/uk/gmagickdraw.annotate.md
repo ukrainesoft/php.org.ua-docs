@@ -1,16 +1,11 @@
-Малює текст на зображенні
-
--   [« GmagickDraw](class.gmagickdraw.md)
-    
--   [GmagickDraw::arc »](gmagickdraw.arc.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Малює текст на зображенні
-    
-
+---
+navigation:
+  - class.gmagickdraw.md: « GmagickDraw
+  - gmagickdraw.arc.md: 'GmagickDraw::arc »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::annotate'
+---
 # GmagickDraw::annotate
 
 (PECL gmagick >= Unknown)

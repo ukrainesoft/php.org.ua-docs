@@ -1,16 +1,11 @@
-Додає документ до індексу
-
--   [« SolrClient](class.solrclient.md)
-    
--   [SolrClient::addDocuments »](solrclient.adddocuments.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Додає документ до індексу
-    
-
+---
+navigation:
+  - class.solrclient.md: « SolrClient
+  - solrclient.adddocuments.md: 'SolrClient::addDocuments »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::addDocument'
+---
 # SolrClient::addDocument
 
 (PECL solr> = 0.9.2)

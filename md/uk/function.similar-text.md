@@ -1,16 +1,11 @@
-Обчислює ступінь схожості двох рядків
-
--   [« sha1](function.sha1.md)
-    
--   [soundex »](function.soundex.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Обчислює ступінь схожості двох рядків
-    
-
+---
+navigation:
+  - function.sha1.md: « sha1
+  - function.soundex.md: soundex »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: similartext
+---
 # similartext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

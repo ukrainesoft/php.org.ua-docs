@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](varnish.configuration.html)
-    
--   [Обумовлені константи »](varnish.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](varnish.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - varnish.configuration.html: « Налаштування під час виконання
+  - varnish.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - varnish.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

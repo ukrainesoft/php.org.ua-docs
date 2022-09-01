@@ -1,16 +1,11 @@
-Повертає список завантажених модулів сервера Apache
-
--   [« apachechildterminate](function.apache-child-terminate.html)
-    
--   [apachegetversion »](function.apache-get-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Apache](ref.apache.md)
-    
--   Повертає список завантажених модулів сервера Apache
-    
-
+---
+navigation:
+  - function.apache-child-terminate.html: « apachechildterminate
+  - function.apache-get-version.html: apachegetversion »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: apachegetmodules
+---
 # apachegetmodules
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

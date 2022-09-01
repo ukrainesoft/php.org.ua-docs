@@ -1,16 +1,11 @@
-Встановити об'єкт Color
-
--   [« UIControlsColorButton::onChange](ui-controls-colorbutton.onchange.html)
-    
--   [ОЙControlsLabel »](class.ui-controls-label.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsColorButton](class.ui-controls-colorbutton.html)
-    
--   Встановити об'єкт Color
-    
-
+---
+navigation:
+  - ui-controls-colorbutton.onchange.html: '« UIControlsColorButton::onChange'
+  - class.ui-controls-label.html: ОЙControlsLabel »
+  - index.html: PHP Manual
+  - class.ui-controls-colorbutton.html: ОЙControlsColorButton
+title: 'ОЙControlsColorButton::setColor'
+---
 # ОЙControlsColorButton::setColor
 
 (UI 0.9.9)

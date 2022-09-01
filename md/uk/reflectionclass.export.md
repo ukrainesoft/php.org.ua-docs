@@ -1,16 +1,11 @@
-Експортує клас
-
--   [« ReflectionClass::construct](reflectionclass.construct.html)
-    
--   [ReflectionClass::getAttributes »](reflectionclass.getattributes.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Експортує клас
-    
-
+---
+navigation:
+  - reflectionclass.construct.html: '« ReflectionClass::construct'
+  - reflectionclass.getattributes.html: 'ReflectionClass::getAttributes »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::export'
+---
 # ReflectionClass::export
 
 (PHP 5, PHP 7)

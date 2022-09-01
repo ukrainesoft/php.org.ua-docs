@@ -1,16 +1,11 @@
-Отримує замикання
-
--   [« ComponerePatch::getClosure](componere-patch.getclosure.html)
-    
--   [ComponereMethod »](class.componere-method.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponerePatch](class.componere-patch.html)
-    
--   Отримує замикання
-    
-
+---
+navigation:
+  - componere-patch.getclosure.html: '« ComponerePatch::getClosure'
+  - class.componere-method.html: ComponereMethod »
+  - index.md: PHP Manual
+  - class.componere-patch.html: ComponerePatch
+title: 'ComponerePatch::getClosures'
+---
 # ComponerePatch::getClosures
 
 (Componere 2 >= 2.1.0)

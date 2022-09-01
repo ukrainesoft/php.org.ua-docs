@@ -1,16 +1,11 @@
-Екранує рядок запиту Lucene
-
--   [« SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md)
-    
--   [SolrUtils::getSolrVersion »](solrutils.getsolrversion.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrUtils](class.solrutils.md)
-    
--   Екранує рядок запиту Lucene
-    
-
+---
+navigation:
+  - solrutils.digestxmlresponse.md: '« SolrUtils::digestXmlResponse'
+  - solrutils.getsolrversion.md: 'SolrUtils::getSolrVersion »'
+  - index.md: PHP Manual
+  - class.solrutils.md: SolrUtils
+title: 'SolrUtils::escapeQueryChars'
+---
 # SolrUtils::escapeQueryChars
 
 (PECL solr> = 0.9.2)

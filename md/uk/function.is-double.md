@@ -1,16 +1,11 @@
-Псевдонім isfloat
-
--   [« iscountable](function.is-countable.html)
-    
--   [ісfloat »](function.is-float.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Псевдонім isfloat
-    
-
+---
+navigation:
+  - function.is-countable.html: « iscountable
+  - function.is-float.html: ісfloat »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісdouble
+---
 # ісdouble
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримати десяткову цифру із символу десяткової цифри
-
--   [« IntlChar::charAge](intlchar.charage.md)
-    
--   [IntlChar::charDirection »](intlchar.chardirection.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати десяткову цифру із символу десяткової цифри
-    
-
+---
+navigation:
+  - intlchar.charage.md: '« IntlChar::charAge'
+  - intlchar.chardirection.md: 'IntlChar::charDirection »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::charDigitValue'
+---
 # IntlChar::charDigitValue
 
 (PHP 7, PHP 8)

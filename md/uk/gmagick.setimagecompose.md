@@ -1,16 +1,11 @@
-Встановлює оператор складеного зображення
-
--   [« Gmagick::setimagecolorspace](gmagick.setimagecolorspace.md)
-    
--   [Gmagick::setimagedelay »](gmagick.setimagedelay.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює оператор складеного зображення
-    
-
+---
+navigation:
+  - gmagick.setimagecolorspace.md: '« Gmagick::setimagecolorspace'
+  - gmagick.setimagedelay.md: 'Gmagick::setimagedelay »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimagecompose'
+---
 # Gmagick::setimagecompose
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Отримує інформацію про сервер Solr
-
--   [« SolrClient::setServlet](solrclient.setservlet.md)
-    
--   [SolrClient::threads »](solrclient.threads.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Отримує інформацію про сервер Solr
-    
-
+---
+navigation:
+  - solrclient.setservlet.md: '« SolrClient::setServlet'
+  - solrclient.threads.md: 'SolrClient::threads »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::system'
+---
 # SolrClient::system
 
 (PECL solr >= 2.0.0)

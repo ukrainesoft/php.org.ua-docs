@@ -1,16 +1,11 @@
-Перетворення варіанта на новий варіант іншого типу
-
--   [« variantand](function.variant-and.html)
-    
--   [variantcat »](function.variant-cat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Перетворення варіанта на новий варіант іншого типу
-    
-
+---
+navigation:
+  - function.variant-and.html: « variantand
+  - function.variant-cat.html: variantcat »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantcast
+---
 # variantcast
 
 (PHP 5, PHP 7, PHP 8)

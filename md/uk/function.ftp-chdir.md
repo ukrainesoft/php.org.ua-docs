@@ -1,16 +1,11 @@
-Змінює поточну директорію на FTP-сервері
-
--   [« ftpcdup](function.ftp-cdup.html)
-    
--   [ftpchmod »](function.ftp-chmod.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Змінює поточну директорію на FTP-сервері
-    
-
+---
+navigation:
+  - function.ftp-cdup.html: « ftpcdup
+  - function.ftp-chmod.html: ftpchmod »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftpchdir
+---
 # ftpchdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

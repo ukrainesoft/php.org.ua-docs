@@ -1,16 +1,11 @@
-Малює еліптичну дугу
-
--   [« ImagickDraw::pathCurveToSmoothRelative](imagickdraw.pathcurvetosmoothrelative.html)
-    
--   [ImagickDraw::pathEllipticArcRelative »](imagickdraw.pathellipticarcrelative.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює еліптичну дугу
-    
-
+---
+navigation:
+  - imagickdraw.pathcurvetosmoothrelative.html: '« ImagickDraw::pathCurveToSmoothRelative'
+  - imagickdraw.pathellipticarcrelative.html: 'ImagickDraw::pathEllipticArcRelative »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pathEllipticArcAbsolute'
+---
 # ImagickDraw::pathEllipticArcAbsolute
 
 (PECL imagick 2, PECL imagick 3)

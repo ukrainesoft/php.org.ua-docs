@@ -1,16 +1,11 @@
-Повертає значення атрибуту
-
--   [« DOMElement::getAttributeNodeNS](domelement.getattributenodens.md)
-    
--   [DOMElement::getElementsByTagName »](domelement.getelementsbytagname.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Повертає значення атрибуту
-    
-
+---
+navigation:
+  - domelement.getattributenodens.md: '« DOMElement::getAttributeNodeNS'
+  - domelement.getelementsbytagname.md: 'DOMElement::getElementsByTagName »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::getAttributeNS'
+---
 # DOMElement::getAttributeNS
 
 (PHP 5, PHP 7, PHP 8)

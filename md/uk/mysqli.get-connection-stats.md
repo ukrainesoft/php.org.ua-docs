@@ -1,16 +1,11 @@
-Повертає статистику з'єднання з клієнтом
-
--   [« mysqli::$clientversion](mysqli.get-client-version.html)
-    
--   [mysqli::$hostinfo »](mysqli.get-host-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає статистику з'єднання з клієнтом
-    
-
+---
+navigation:
+  - mysqli.get-client-version.html: '« mysqli::$clientversion'
+  - mysqli.get-host-info.html: 'mysqli::$hostinfo »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::getconnectionstats'
+---
 # mysqli::getconnectionstats
 
 # mysqligetconnectionstats

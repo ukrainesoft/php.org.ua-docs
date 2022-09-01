@@ -1,16 +1,11 @@
-Повертає код помилки останньої спроби з'єднання
-
--   [« mysqli::commit](mysqli.commit.html)
-    
--   [mysqli::$connecterror »](mysqli.connect-error.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає код помилки останньої спроби з'єднання
-    
-
+---
+navigation:
+  - mysqli.commit.html: '« mysqli::commit'
+  - mysqli.connect-error.html: 'mysqli::$connecterror »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::$connecterrno'
+---
 # mysqli::$connecterrno
 
 # mysqliconnecterrno

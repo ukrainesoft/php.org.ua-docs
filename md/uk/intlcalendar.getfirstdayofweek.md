@@ -1,16 +1,11 @@
-Отримує перший день тижня для стандарту календаря
-
--   [« IntlCalendar::getErrorMessage](intlcalendar.geterrormessage.md)
-    
--   [IntlCalendar::getGreatestMinimum »](intlcalendar.getgreatestminimum.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує перший день тижня для стандарту календаря
-    
-
+---
+navigation:
+  - intlcalendar.geterrormessage.md: '« IntlCalendar::getErrorMessage'
+  - intlcalendar.getgreatestminimum.md: 'IntlCalendar::getGreatestMinimum »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getFirstDayOfWeek'
+---
 # IntlCalendar::getFirstDayOfWeek
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

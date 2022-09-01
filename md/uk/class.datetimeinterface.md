@@ -1,16 +1,11 @@
-Інтерфейс DateTimeInterface
-
--   [« DateTimeImmutable::sub](datetimeimmutable.sub.md)
-    
--   [DateTimeInterface::diff »](datetime.diff.md)
-    
--   [PHP Manual](index.md)
-    
--   [Дата/время](book.datetime.md)
-    
--   Інтерфейс DateTimeInterface
-    
-
+---
+navigation:
+  - datetimeimmutable.sub.md: '« DateTimeImmutable::sub'
+  - datetime.diff.md: 'DateTimeInterface::diff »'
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Інтерфейс DateTimeInterface
+---
 # Інтерфейс DateTimeInterface
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -195,10 +190,10 @@ World Wide Web Consortium (приклад: 2005-08-15T15:52:01+00:00)
 
 ## список змін
 
-| Версия | Описание                                                                              |
-|--------|---------------------------------------------------------------------------------------|
-|        | Додано константу DateTimeInterface::ISO8601EXPANDED.                                  |
-|        | Константи класу тепер [DateTime](class.datetime.md) визначено в **DateTimeInterface** |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу DateTimeInterface::ISO8601EXPANDED. |
+|  | Константи класу тепер [DateTime](class.datetime.md) визначено в **DateTimeInterface** |
 
 ## Зміст
 

@@ -1,16 +1,11 @@
-Обчислює будь-який параметр Бета-розподілу на основі інших заданих значень
-
--   [« statsabsolutedeviation](function.stats-absolute-deviation.html)
-    
--   [statscdfbinomial »](function.stats-cdf-binomial.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює будь-який параметр Бета-розподілу на основі інших заданих значень
-    
-
+---
+navigation:
+  - function.stats-absolute-deviation.html: « statsabsolutedeviation
+  - function.stats-cdf-binomial.html: statscdfbinomial »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscdfbeta
+---
 # statscdfbeta
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_beta(    float $par1,    float $par2,    float $par3,  �
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | alpha  | beta   |
-|         | з                     | CDF    | alpha  | beta   |
-|         | alpha                 | з      | CDF    | beta   |
-|         | beta                  | з      | CDF    | alpha  |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | alpha | beta |
+|  | з | CDF | alpha | beta |
+|  | alpha | з | CDF | beta |
+|  | beta | з | CDF | alpha |
 
 ### Список параметрів
 

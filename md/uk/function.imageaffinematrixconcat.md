@@ -1,16 +1,11 @@
-Конкатенує дві афінні матриці перетворення
-
--   [« imageaffine](function.imageaffine.md)
-    
--   [imageaffinematrixget »](function.imageaffinematrixget.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Конкатенує дві афінні матриці перетворення
-    
-
+---
+navigation:
+  - function.imageaffine.md: « imageaffine
+  - function.imageaffinematrixget.md: imageaffinematrixget »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageaffinematrixconcat
+---
 # imageaffinematrixconcat
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

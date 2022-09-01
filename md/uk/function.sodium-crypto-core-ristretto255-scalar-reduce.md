@@ -1,16 +1,11 @@
-Зменшує скалярне значення
-
--   [« sodiumcryptocoreristretto255scalarrandom](function.sodium-crypto-core-ristretto255-scalar-random.html)
-    
--   [sodiumcryptocoreristretto255scalarsub »](function.sodium-crypto-core-ristretto255-scalar-sub.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Зменшує скалярне значення
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-scalar-random.html: « sodiumcryptocoreristretto255scalarrandom
+  - function.sodium-crypto-core-ristretto255-scalar-sub.html: sodiumcryptocoreristretto255scalarsub »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255scalarreduce
+---
 # sodiumcryptocoreristretto255scalarreduce
 
 (PHP 8> = 8.1.0)

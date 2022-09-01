@@ -1,16 +1,11 @@
-Перейменовує файл або директорію
-
--   [« realpath](function.realpath.md)
-    
--   [rewind »](function.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Перейменовує файл або директорію
-    
-
+---
+navigation:
+  - function.realpath.md: « realpath
+  - function.rewind.md: rewind »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: rename
+---
 # rename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Список зарезервованих слів
-
--   [« Список псевдонимов функций](aliases.md)
-    
--   [Список ключових слів »](reserved.keywords.md)
-    
--   [PHP Manual](index.md)
-    
--   [Appendices](appendices.md)
-    
--   Список зарезервованих слів
-    
-
+---
+navigation:
+  - aliases.md: « Список псевдонимов функций
+  - reserved.keywords.md: Список ключових слів »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Список зарезервованих слів
+---
 # Список зарезервованих слів
 
 ## Зміст

@@ -1,16 +1,11 @@
-Автоматичне вилучення або створення запису в кеші
-
--   [« apcuenabled](function.apcu-enabled.html)
-    
--   [apcuexists »](function.apcu-exists.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции APCu](ref.apcu.md)
-    
--   Автоматичне вилучення або створення запису в кеші
-    
-
+---
+navigation:
+  - function.apcu-enabled.html: « apcuenabled
+  - function.apcu-exists.html: apcuexists »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcuentry
+---
 # apcuentry
 
 (PECL apcu >= 5.1.0)

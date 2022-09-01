@@ -1,16 +1,11 @@
-Конструктор об'єкту Event
-
--   [« Event::addTimer](event.addtimer.md)
-    
--   [Event::del »](event.del.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Конструктор об'єкту Event
-    
-
+---
+navigation:
+  - event.addtimer.md: '« Event::addTimer'
+  - event.del.md: 'Event::del »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::construct'
+---
 # Event::construct
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Вийняти XML із поточного вузла
-
--   [« XMLReader::read](xmlreader.read.md)
-    
--   [XMLReader::readOuterXml »](xmlreader.readouterxml.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Вийняти XML із поточного вузла
-    
-
+---
+navigation:
+  - xmlreader.read.md: '« XMLReader::read'
+  - xmlreader.readouterxml.md: 'XMLReader::readOuterXml »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::readInnerXml'
+---
 # XMLReader::readInnerXml
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

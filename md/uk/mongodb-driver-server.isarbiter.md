@@ -1,16 +1,11 @@
-Перевіряє, чи є сервер членом-арбітром у наборі реплік
-
--   [« MongoDBDriverServer::getType](mongodb-driver-server.gettype.html)
-    
--   [MongoDBDriverServer::isHidden »](mongodb-driver-server.ishidden.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Перевіряє, чи є сервер членом-арбітром у наборі реплік
-    
-
+---
+navigation:
+  - mongodb-driver-server.gettype.html: '« MongoDBDriverServer::getType'
+  - mongodb-driver-server.ishidden.html: 'MongoDBDriverServer::isHidden »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::isArbiter'
+---
 # MongoDBDriverServer::isArbiter
 
 (mongodb >=1.0.0)

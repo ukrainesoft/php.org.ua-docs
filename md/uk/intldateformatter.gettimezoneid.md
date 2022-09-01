@@ -1,16 +1,11 @@
-Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
-
--   [« IntlDateFormatter::getTimeType](intldateformatter.gettimetype.md)
-    
--   [IntlDateFormatter::getCalendarObject »](intldateformatter.getcalendarobject.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
-    
-
+---
+navigation:
+  - intldateformatter.gettimetype.md: '« IntlDateFormatter::getTimeType'
+  - intldateformatter.getcalendarobject.md: 'IntlDateFormatter::getCalendarObject »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::getTimeZoneId'
+---
 # IntlDateFormatter::getTimeZoneId
 
 # datefmtgettimezoneід

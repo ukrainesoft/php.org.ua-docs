@@ -1,16 +1,11 @@
-Навчання по всьому набору даних протягом певного періоду часу за допомогою алгоритму Cascade2
-
--   [« Функции Fann](ref.fann.md)
-    
--   [fanncascadetrainвінfile »](function.fann-cascadetrain-on-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Навчання по всьому набору даних протягом певного періоду часу за допомогою алгоритму Cascade2
-    
-
+---
+navigation:
+  - ref.fann.md: « Функции Fann
+  - function.fann-cascadetrain-on-file.html: fanncascadetrainвінfile »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncascadetrainвінdata
+---
 # fanncascadetrainвінdata
 
 (PECL fann> = 1.0.0)

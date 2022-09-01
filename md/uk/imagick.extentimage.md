@@ -1,16 +1,11 @@
-Встановлює розмір зображення
-
--   [« Imagick::exportImagePixels](imagick.exportimagepixels.md)
-    
--   [Imagick::filter »](imagick.filter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює розмір зображення
-    
-
+---
+navigation:
+  - imagick.exportimagepixels.md: '« Imagick::exportImagePixels'
+  - imagick.filter.md: 'Imagick::filter »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::extentImage'
+---
 # Imagick::extentImage
 
 (PECL imagick 2, PECL imagick 3)

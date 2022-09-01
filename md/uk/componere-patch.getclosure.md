@@ -1,16 +1,11 @@
-Отримує замикання
-
--   [« ComponerePatch::derive](componere-patch.derive.html)
-    
--   [ComponerePatch::getClosures »](componere-patch.getclosures.html)
-    
--   [PHP Manual](index.html)
-    
--   [ComponerePatch](class.componere-patch.html)
-    
--   Отримує замикання
-    
-
+---
+navigation:
+  - componere-patch.derive.html: '« ComponerePatch::derive'
+  - componere-patch.getclosures.html: 'ComponerePatch::getClosures »'
+  - index.html: PHP Manual
+  - class.componere-patch.html: ComponerePatch
+title: 'ComponerePatch::getClosure'
+---
 # ComponerePatch::getClosure
 
 (Componere 2 >= 2.1.0)

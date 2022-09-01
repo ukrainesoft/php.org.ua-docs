@@ -1,16 +1,11 @@
-Очищення параметрів масштабування
-
--   [« fanncascadetrainвінfile](function.fann-cascadetrain-on-file.html)
-    
--   [fanncopy »](function.fann-copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Очищення параметрів масштабування
-    
-
+---
+navigation:
+  - function.fann-cascadetrain-on-file.html: « fanncascadetrainвінfile
+  - function.fann-copy.html: fanncopy »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannclearscalingparams
+---
 # fannclearscalingparams
 
 (PECL fann> = 1.0.0)

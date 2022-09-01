@@ -1,16 +1,11 @@
-Повертає масив із елементами у зворотному порядку
-
--   [« arrayreplace](function.array-replace.html)
-    
--   [arraysearch »](function.array-search.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Повертає масив із елементами у зворотному порядку
-    
-
+---
+navigation:
+  - function.array-replace.html: « arrayreplace
+  - function.array-search.html: arraysearch »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayreverse
+---
 # arrayreverse
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

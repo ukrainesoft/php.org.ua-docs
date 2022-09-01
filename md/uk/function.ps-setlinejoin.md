@@ -1,16 +1,11 @@
-Встановлює спосіб з'єднання ліній
-
--   [«pssetlinecap](function.ps-setlinecap.html)
-    
--   [псsetlinewidth »](function.ps-setlinewidth.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює спосіб з'єднання ліній
-    
-
+---
+navigation:
+  - function.ps-setlinecap.html: «pssetlinecap
+  - function.ps-setlinewidth.html: псsetlinewidth »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetlinejoin
+---
 # псsetlinejoin
 
 (PECL ps >= 1.1.0)

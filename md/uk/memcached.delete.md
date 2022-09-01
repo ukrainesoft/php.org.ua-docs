@@ -1,16 +1,11 @@
-Видаляє запис
-
--   [« Memcached::decrementByKey](memcached.decrementbykey.html)
-    
--   [Memcached::deleteByKey »](memcached.deletebykey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Видаляє запис
-    
-
+---
+navigation:
+  - memcached.decrementbykey.html: '« Memcached::decrementByKey'
+  - memcached.deletebykey.html: 'Memcached::deleteByKey »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::delete'
+---
 # Memcached::delete
 
 (PECL memcached >= 0.1.0)

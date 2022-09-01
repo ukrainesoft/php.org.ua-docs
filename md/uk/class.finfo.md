@@ -1,16 +1,11 @@
-Клас finfo
-
--   [« mimecontenttype](function.mime-content-type.html)
-    
--   [finfo::buffer »](finfo.buffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [FileInfo](book.fileinfo.html)
-    
--   Клас finfo
-    
-
+---
+navigation:
+  - function.mime-content-type.html: « mimecontenttype
+  - finfo.buffer.html: 'finfo::buffer »'
+  - index.html: PHP Manual
+  - book.fileinfo.html: FileInfo
+title: Клас finfo
+---
 # Клас finfo
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)

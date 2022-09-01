@@ -1,16 +1,11 @@
-Повертає найбільше значення
-
--   [« log](function.log.md)
-    
--   [min »](function.min.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Повертає найбільше значення
-    
-
+---
+navigation:
+  - function.log.md: « log
+  - function.min.md: min »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: max
+---
 # max
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

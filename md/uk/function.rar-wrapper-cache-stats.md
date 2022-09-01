@@ -1,16 +1,11 @@
-Кеш доступів та відмов обгортки URL
-
--   [« Rar](ref.rar.md)
-    
--   [RarArchive »](class.rararchive.md)
-    
--   [PHP Manual](index.md)
-    
--   [Rar](ref.rar.md)
-    
--   Кеш доступів та відмов обгортки URL
-    
-
+---
+navigation:
+  - ref.rar.md: « Rar
+  - class.rararchive.md: RarArchive »
+  - index.md: PHP Manual
+  - ref.rar.md: Rar
+title: rarwrappercachestats
+---
 # rarwrappercachestats
 
 (PECL rar >= 3.0.0)

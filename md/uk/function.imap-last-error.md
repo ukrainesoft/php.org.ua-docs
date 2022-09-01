@@ -1,16 +1,11 @@
-Отримати останню помилку IMAP у поточному запиті
-
--   [« imapheaders](function.imap-headers.html)
-    
--   [imaplist »](function.imap-list.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати останню помилку IMAP у поточному запиті
-    
-
+---
+navigation:
+  - function.imap-headers.html: « imapheaders
+  - function.imap-list.html: imaplist »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaplasterror
+---
 # imaplasterror
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

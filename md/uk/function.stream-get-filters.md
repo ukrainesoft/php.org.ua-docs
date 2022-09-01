@@ -1,16 +1,11 @@
-Отримати список зареєстрованих фільтрів
-
--   [« streamgetcontents](function.stream-get-contents.html)
-    
--   [streamgetline »](function.stream-get-line.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Отримати список зареєстрованих фільтрів
-    
-
+---
+navigation:
+  - function.stream-get-contents.html: « streamgetcontents
+  - function.stream-get-line.html: streamgetline »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamgetfilters
+---
 # streamgetfilters
 
 (PHP 5, PHP 7, PHP 8)

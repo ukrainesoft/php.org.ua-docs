@@ -1,16 +1,11 @@
-Отримати числову виставу для символу Unicode
-
--   [« IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.html)
-    
--   [IntlChar::getPropertyEnum »](intlchar.getpropertyenum.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати числову виставу для символу Unicode
-    
-
+---
+navigation:
+  - intlchar.getintpropertyvalue.html: '« IntlChar::getIntPropertyValue'
+  - intlchar.getpropertyenum.html: 'IntlChar::getPropertyEnum »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::getNumericValue'
+---
 # IntlChar::getNumericValue
 
 (PHP 7, PHP 8)

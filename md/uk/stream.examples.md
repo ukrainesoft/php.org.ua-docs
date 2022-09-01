@@ -1,16 +1,11 @@
-Приклади
-
--   [« Ошибки потока](stream.errors.html)
-    
--   [Приклад класу, зареєстрованого як обгортка потоку »](stream.streamwrapper.example-1.html)
-    
--   [PHP Manual](index.html)
-    
--   [Потоки](book.stream.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - stream.errors.html: « Ошибки потока
+  - stream.streamwrapper.example-1.html: 'Приклад класу, зареєстрованого як обгортка потоку »'
+  - index.html: PHP Manual
+  - book.stream.html: Потоки
+title: Приклади
+---
 # Приклади
 
 ## Зміст

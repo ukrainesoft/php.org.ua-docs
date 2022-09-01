@@ -1,16 +1,11 @@
-Максимальне значення для поля з урахуванням поточного часу об'єкта
-
--   [« IntlCalendar::get](intlcalendar.get.html)
-    
--   [IntlCalendar::getActualMinimum »](intlcalendar.getactualminimum.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Максимальне значення для поля з урахуванням поточного часу об'єкта
-    
-
+---
+navigation:
+  - intlcalendar.get.html: '« IntlCalendar::get'
+  - intlcalendar.getactualminimum.html: 'IntlCalendar::getActualMinimum »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::getActualMaximum'
+---
 # IntlCalendar::getActualMaximum
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

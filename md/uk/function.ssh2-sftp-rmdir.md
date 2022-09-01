@@ -1,16 +1,11 @@
-Видаляє директорію
-
--   [« ssh2sftprename](function.ssh2-sftp-rename.html)
-    
--   [ssh2sftpstat »](function.ssh2-sftp-stat.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Видаляє директорію
-    
-
+---
+navigation:
+  - function.ssh2-sftp-rename.html: « ssh2sftprename
+  - function.ssh2-sftp-stat.html: ssh2sftpstat »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftprmdir
+---
 # ssh2sftprmdir
 
 (PECL ssh2> = 0.9.0)

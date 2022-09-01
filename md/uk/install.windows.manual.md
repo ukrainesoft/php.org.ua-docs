@@ -1,16 +1,11 @@
-Самостійне встановлення PHP у Windows
-
--   [« Рекомендована конфігурація для Windows](install.windows.recommended.md)
-    
--   [Складання з вихідних кодів »](install.windows.building.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка в системах Windows](install.windows.md)
-    
--   Самостійне встановлення PHP у Windows
-    
-
+---
+navigation:
+  - install.windows.recommended.md: « Рекомендована конфігурація для Windows
+  - install.windows.building.md: Складання з вихідних кодів »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Самостійне встановлення PHP у Windows
+---
 ## Самостійне встановлення PHP у Windows
 
 ### Виберіть веб-сервер

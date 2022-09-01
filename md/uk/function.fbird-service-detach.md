@@ -1,16 +1,11 @@
-Псевдонім ibaseservicedetach
-
--   [« fbirdserviceattach](function.fbird-service-attach.html)
-    
--   [fbirdseteventhandler »](function.fbird-set-event-handler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibaseservicedetach
-    
-
+---
+navigation:
+  - function.fbird-service-attach.html: « fbirdserviceattach
+  - function.fbird-set-event-handler.html: fbirdseteventhandler »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirdservicedetach
+---
 # fbirdservicedetach
 
 (PHP 5, PHP 7 < 7.4.0)

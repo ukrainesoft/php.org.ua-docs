@@ -1,16 +1,11 @@
-Порівняння та об'єднання XML
-
--   [« wddxserializevars](function.wddx-serialize-vars.html)
-    
--   [Введение »](intro.xmldiff.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка XML](refs.xml.md)
-    
--   Порівняння та об'єднання XML
-    
-
+---
+navigation:
+  - function.wddx-serialize-vars.html: « wddxserializevars
+  - intro.xmldiff.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
+title: Порівняння та об'єднання XML
+---
 # Порівняння та об'єднання XML
 
 -   [Введение](intro.xmldiff.md)

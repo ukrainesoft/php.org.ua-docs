@@ -1,16 +1,11 @@
-Отримує піддерево об'єкта SNMP
-
--   [« SNMP::setSecurity](snmp.setsecurity.md)
-    
--   [SNMPException »](class.snmpexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](class.snmp.md)
-    
--   Отримує піддерево об'єкта SNMP
-    
-
+---
+navigation:
+  - snmp.setsecurity.md: '« SNMP::setSecurity'
+  - class.snmpexception.md: SNMPException »
+  - index.md: PHP Manual
+  - class.snmp.md: SNMP
+title: 'SNMP::walk'
+---
 # SNMP::walk
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Надсилає запит MySQL
-
--   [« mysqlping](function.mysql-ping.html)
-    
--   [mysqlrealescapestring »](function.mysql-real-escape-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Надсилає запит MySQL
-    
-
+---
+navigation:
+  - function.mysql-ping.html: « mysqlping
+  - function.mysql-real-escape-string.html: mysqlrealescapestring »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlquery
+---
 # mysqlquery
 
 (PHP 4, PHP 5)

@@ -1,16 +1,11 @@
-Створити новий об'єкт "Багаторядкове введення"
-
--   [« UIControlsMultilineEntry::append](ui-controls-multilineentry.append.html)
-    
--   [ОЙControlsMultilineEntry::getText »](ui-controls-multilineentry.gettext.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
-    
--   Створити новий об'єкт "Багаторядкове введення"
-    
-
+---
+navigation:
+  - ui-controls-multilineentry.append.html: '« UIControlsMultilineEntry::append'
+  - ui-controls-multilineentry.gettext.html: 'ОЙControlsMultilineEntry::getText »'
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::construct'
+---
 # ОЙControlsMultilineEntry::construct
 
 (UI 0.9.9)

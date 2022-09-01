@@ -1,16 +1,11 @@
-Встановлення функції зворотного дзвінка для перехоплення виключень обробника завдань
-
--   [« GearmanClient::setDataCallback](gearmanclient.setdatacallback.html)
-    
--   [GearmanClient::setFailCallback »](gearmanclient.setfailcallback.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Встановлення функції зворотного дзвінка для перехоплення виключень обробника завдань
-    
-
+---
+navigation:
+  - gearmanclient.setdatacallback.html: '« GearmanClient::setDataCallback'
+  - gearmanclient.setfailcallback.html: 'GearmanClient::setFailCallback »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::setExceptionCallback'
+---
 # GearmanClient::setExceptionCallback
 
 (PECL gearman >= 0.5.0)

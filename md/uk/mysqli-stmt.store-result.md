@@ -1,16 +1,11 @@
-Зберігає набір результатів у внутрішньому буфері
-
--   [« mysqlistmt::$sqlstate](mysqli-stmt.sqlstate.html)
-    
--   [mysqliresult »](class.mysqli-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Зберігає набір результатів у внутрішньому буфері
-    
-
+---
+navigation:
+  - mysqli-stmt.sqlstate.html: '« mysqlistmt::$sqlstate'
+  - class.mysqli-result.html: mysqliresult »
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::storeresult'
+---
 # mysqlistmt::storeresult
 
 # mysqlistmtstoreresult

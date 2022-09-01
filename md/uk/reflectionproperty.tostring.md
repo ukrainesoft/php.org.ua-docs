@@ -1,16 +1,11 @@
-Перетворення на рядок
-
--   [« ReflectionProperty::setValue](reflectionproperty.setvalue.md)
-    
--   [ReflectionType »](class.reflectiontype.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Перетворення на рядок
-    
-
+---
+navigation:
+  - reflectionproperty.setvalue.md: '« ReflectionProperty::setValue'
+  - class.reflectiontype.md: ReflectionType »
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::function toString() { \[native code\] }'
+---
 # ReflectionProperty::function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)

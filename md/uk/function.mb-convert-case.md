@@ -1,16 +1,11 @@
-Здійснює зміну регістру символів у рядку
-
--   [« mbchr](function.mb-chr.html)
-    
--   [мбconvertencoding »](function.mb-convert-encoding.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Здійснює зміну регістру символів у рядку
-    
-
+---
+navigation:
+  - function.mb-chr.html: « mbchr
+  - function.mb-convert-encoding.html: мбconvertencoding »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбconvertcase
+---
 # мбconvertcase
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ mb_convert_case(string $string, int $mode, ?string $encoding = null): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додана підтримка **`MB_CASE_FOLD`** **`MB_CASE_UPPER_SIMPLE`** **`MB_CASE_LOWER_SIMPLE`** **`MB_CASE_TITLE_SIMPLE`** і **`MB_CASE_FOLD_SIMPLE`** у параметрі `mode` |
+| Версия | Описание |
+| --- | --- |
+|  | Додана підтримка **`MB_CASE_FOLD`** **`MB_CASE_UPPER_SIMPLE`** **`MB_CASE_LOWER_SIMPLE`** **`MB_CASE_TITLE_SIMPLE`** і **`MB_CASE_FOLD_SIMPLE`** у параметрі `mode` |
 
 ### Приклади
 

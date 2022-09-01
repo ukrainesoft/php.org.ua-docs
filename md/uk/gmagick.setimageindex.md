@@ -1,16 +1,11 @@
-Встановлює ітератор у положення списку зображень, заданому параметром index
-
--   [« Gmagick::setimagegreenprimary](gmagick.setimagegreenprimary.md)
-    
--   [Gmagick::setimageinterlacescheme »](gmagick.setimageinterlacescheme.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює ітератор у положення списку зображень, заданому параметром index
-    
-
+---
+navigation:
+  - gmagick.setimagegreenprimary.md: '« Gmagick::setimagegreenprimary'
+  - gmagick.setimageinterlacescheme.md: 'Gmagick::setimageinterlacescheme »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageindex'
+---
 # Gmagick::setimageindex
 
 (PECL gmagick >= Unknown)

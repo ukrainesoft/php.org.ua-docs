@@ -1,16 +1,11 @@
-Спробувати завантажити бібліотеку модуля SQLite
-
--   [« SQLite3::lastInsertRowID](sqlite3.lastinsertrowid.html)
-    
--   [SQLite3::open »](sqlite3.open.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](class.sqlite3.html)
-    
--   Спробувати завантажити бібліотеку модуля SQLite
-    
-
+---
+navigation:
+  - sqlite3.lastinsertrowid.html: '« SQLite3::lastInsertRowID'
+  - sqlite3.open.html: 'SQLite3::open »'
+  - index.html: PHP Manual
+  - class.sqlite3.html: SQLite3
+title: 'SQLite3::loadExtension'
+---
 # SQLite3::loadExtension
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

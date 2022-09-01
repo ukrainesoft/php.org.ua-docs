@@ -1,16 +1,11 @@
-Функції SQLite (PDOSQLITE)
-
--   [« PDO::pgsqlLOBUnlink](pdo.pgsqllobunlink.md)
-    
--   [PDOSQLITE DSN »](ref.pdo-sqlite.connection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Драйвери PDO](pdo.drivers.md)
-    
--   Функції SQLite (PDOSQLITE)
-    
-
+---
+navigation:
+  - pdo.pgsqllobunlink.md: '« PDO::pgsqlLOBUnlink'
+  - ref.pdo-sqlite.connection.html: PDOSQLITE DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
+title: Функції SQLite (PDOSQLITE)
+---
 # Функції SQLite (PDOSQLITE)
 
 ## Вступ

@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](xmlreader.installation.html)
-    
--   [Типи ресурсів »](xmlreader.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](xmlreader.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - xmlreader.installation.html: « Установка
+  - xmlreader.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - xmlreader.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

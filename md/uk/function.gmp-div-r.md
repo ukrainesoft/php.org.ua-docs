@@ -1,16 +1,11 @@
-Залишок від поділу чисел
-
--   [« gmpdivгр](function.gmp-div-qr.html)
-    
--   [gmpdiv »](function.gmp-div.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Залишок від поділу чисел
-    
-
+---
+navigation:
+  - function.gmp-div-qr.html: « gmpdivгр
+  - function.gmp-div.html: gmpdiv »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpdivр
+---
 # gmpdivр
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

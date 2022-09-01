@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickDraw::getFontSize](imagickdraw.getfontsize.md)
-    
--   [ImagickDraw::getFontStyle »](imagickdraw.getfontstyle.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickdraw.getfontsize.md: '« ImagickDraw::getFontSize'
+  - imagickdraw.getfontstyle.md: 'ImagickDraw::getFontStyle »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFontStretch'
+---
 # ImagickDraw::getFontStretch
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

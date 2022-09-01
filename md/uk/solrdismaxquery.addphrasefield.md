@@ -1,16 +1,11 @@
-Додає поле фрази (параметр pf)
-
--   [« SolrDisMaxQuery::addBoostQuery](solrdismaxquery.addboostquery.md)
-    
--   [SolrDisMaxQuery::addQueryField »](solrdismaxquery.addqueryfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Додає поле фрази (параметр pf)
-    
-
+---
+navigation:
+  - solrdismaxquery.addboostquery.md: '« SolrDisMaxQuery::addBoostQuery'
+  - solrdismaxquery.addqueryfield.md: 'SolrDisMaxQuery::addQueryField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::add Phrase Field'
+---
 # Solr DisMax Query::add Phrase Field
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Отримання піддерева, коренем якого є поточний елемент
-
--   [« RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.md)
-    
--   [RecursiveTreeIterator::getPostfix »](recursivetreeiterator.getpostfix.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Отримання піддерева, коренем якого є поточний елемент
-    
-
+---
+navigation:
+  - recursivetreeiterator.enditeration.md: '« RecursiveTreeIterator::endIteration'
+  - recursivetreeiterator.getpostfix.md: 'RecursiveTreeIterator::getPostfix »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::getEntry'
+---
 # RecursiveTreeIterator::getEntry
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Оточує зображення рамкою
-
--   [« Imagick::blurImage](imagick.blurimage.html)
-    
--   [Imagick::brightnessContrastImage »](imagick.brightnesscontrastimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Оточує зображення рамкою
-    
-
+---
+navigation:
+  - imagick.blurimage.html: '« Imagick::blurImage'
+  - imagick.brightnesscontrastimage.html: 'Imagick::brightnessContrastImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::borderImage'
+---
 # Imagick::borderImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -45,8 +40,8 @@ public Imagick::borderImage(mixed $bordercolor, int $width, int $height): bool
 
 ### список змін
 
-| Версия             | Описание                                                                              |
-|--------------------|---------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Як колір можна передавати рядок. Попередні версії допускали лише об'єкт ImagickPixel. |
 
 ### Приклади

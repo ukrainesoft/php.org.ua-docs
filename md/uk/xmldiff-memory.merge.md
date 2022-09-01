@@ -1,16 +1,11 @@
-Застосувати зміни до документа XML
-
--   [« XMLDiffMemory::diff](xmldiff-memory.diff.html)
-    
--   [XMLDiffFile »](class.xmldiff-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiffMemory](class.xmldiff-memory.html)
-    
--   Застосувати зміни до документа XML
-    
-
+---
+navigation:
+  - xmldiff-memory.diff.html: '« XMLDiffMemory::diff'
+  - class.xmldiff-file.html: XMLDiffFile »
+  - index.md: PHP Manual
+  - class.xmldiff-memory.html: XMLDiffMemory
+title: 'XMLDiffMemory::merge'
+---
 # XMLDiffMemory::merge
 
 (PECL xmldiff >= 0.8.0)

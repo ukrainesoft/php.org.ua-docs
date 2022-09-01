@@ -1,16 +1,11 @@
-Інтерфейс OuterIterator
-
--   [« Countable::count](countable.count.md)
-    
--   [OuterIterator::getInnerIterator »](outeriterator.getinneriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інтерфейси](spl.interfaces.md)
-    
--   Інтерфейс OuterIterator
-    
-
+---
+navigation:
+  - countable.count.md: '« Countable::count'
+  - outeriterator.getinneriterator.md: 'OuterIterator::getInnerIterator »'
+  - index.md: PHP Manual
+  - spl.interfaces.md: Інтерфейси
+title: Інтерфейс OuterIterator
+---
 # Інтерфейс OuterIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

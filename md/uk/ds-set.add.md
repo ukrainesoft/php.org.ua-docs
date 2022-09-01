@@ -1,16 +1,11 @@
-Додає значення до набору
-
--   [« Набор](class.ds-set.html)
-    
--   [ДсSet::allocate »](ds-set.allocate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Додає значення до набору
-    
-
+---
+navigation:
+  - class.ds-set.html: « Набор
+  - ds-set.allocate.html: 'ДсSet::allocate »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::add'
+---
 # ДсSet::add
 
 (PECL ds >= 1.0.0)

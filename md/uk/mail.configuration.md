@@ -1,31 +1,26 @@
-Налаштування під час виконання
-
--   [« Установка](mail.installation.html)
-    
--   [Типи ресурсів »](mail.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](mail.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - mail.installation.html: « Установка
+  - mail.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - mail.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Конфігураційні опції надсилання листів**
 
-| Имя                                                                                  | По умолчанию               | Место изменения | Список изменений |
-|--------------------------------------------------------------------------------------|----------------------------|-----------------|------------------|
-| [mail.addзheader](mail.configuration.html#ini.mail.add-x-header)                     | "0"                        | PHPINIPERDIR    |                  |
-| [mail.log](mail.configuration.html#ini.mail.log)                                     | NULL                       | PHPINISYSTEM    | PHPINIPERDIR     |
-| [mail.forceextraparameters](mail.configuration.html#ini.mail.force_extra_parameters) | NULL                       | PHPINISYSTEM    | PHPINIPERDIR     |
-| [SMTP](mail.configuration.html#ini.smtp)                                             | "localhost"                | PHPINIALL       |                  |
-| [smtpport](mail.configuration.html#ini.smtp-port)                                    | "25"                       | PHPINIALL       |                  |
-| [sendmailfrom](mail.configuration.html#ini.sendmail-from)                            | NULL                       | PHPINIALL       |                  |
-| [sendmailpath](mail.configuration.html#ini.sendmail-path)                            | "/usr/sbin/sendmail -t -i" | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [mail.addзheader](mail.configuration.html#ini.mail.add-x-header) | "0" | PHPINIPERDIR |  |
+| [mail.log](mail.configuration.html#ini.mail.log) | NULL | PHPINISYSTEM | PHPINIPERDIR |
+| [mail.forceextraparameters](mail.configuration.html#ini.mail.force_extra_parameters) | NULL | PHPINISYSTEM | PHPINIPERDIR |
+| [SMTP](mail.configuration.html#ini.smtp) | "localhost" | PHPINIALL |  |
+| [smtpport](mail.configuration.html#ini.smtp-port) | "25" | PHPINIALL |  |
+| [sendmailfrom](mail.configuration.html#ini.sendmail-from) | NULL | PHPINIALL |  |
+| [sendmailpath](mail.configuration.html#ini.sendmail-path) | "/usr/sbin/sendmail -t -i" | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

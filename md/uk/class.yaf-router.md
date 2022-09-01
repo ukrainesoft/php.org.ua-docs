@@ -1,16 +1,11 @@
-Клас YafRouter
-
--   [« YafRouteRewrite::route](yaf-route-rewrite.route.html)
-    
--   [YafRouter::addConfig »](yaf-router.addconfig.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafRouter
-    
-
+---
+navigation:
+  - yaf-route-rewrite.route.html: '« YafRouteRewrite::route'
+  - yaf-router.addconfig.html: 'YafRouter::addConfig »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafRouter
+---
 # Клас YafRouter
 
 (Yaf >=1.0.0)

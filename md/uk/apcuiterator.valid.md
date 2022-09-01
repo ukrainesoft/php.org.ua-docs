@@ -1,16 +1,11 @@
-Перевіряє, чи поточна позиція ітератора коректна.
-
--   [« APCUIterator::rewind](apcuiterator.rewind.md)
-    
--   [Componere »](book.componere.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Перевіряє, чи поточна позиція ітератора коректна.
-    
-
+---
+navigation:
+  - apcuiterator.rewind.md: '« APCUIterator::rewind'
+  - book.componere.md: Componere »
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::valid'
+---
 # APCUIterator::valid
 
 (PECL apcu >= 5.0.0)

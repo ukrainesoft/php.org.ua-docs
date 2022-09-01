@@ -1,16 +1,11 @@
-Додає значення вставки рядка
-
--   [« TableInsert::execute](mysql-xdevapi-tableinsert.execute.html)
-    
--   [mysqlxdevapiTableSelect »](class.mysql-xdevapi-tableselect.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableInsert](class.mysql-xdevapi-tableinsert.html)
-    
--   Додає значення вставки рядка
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableinsert.execute.html: '« TableInsert::execute'
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableinsert.html: mysqlxdevapiTableInsert
+title: 'TableInsert::values'
+---
 # TableInsert::values
 
 (No version information available, might only be in Git)

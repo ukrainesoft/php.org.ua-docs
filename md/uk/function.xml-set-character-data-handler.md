@@ -1,16 +1,11 @@
-Встановлення обробника символьних даних
-
--   [« xmlparsersetoption](function.xml-parser-set-option.html)
-    
--   [xmlsetdefaulthandler »](function.xml-set-default-handler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции парсера XML](ref.xml.html)
-    
--   Встановлення обробника символьних даних
-    
-
+---
+navigation:
+  - function.xml-parser-set-option.html: « xmlparsersetoption
+  - function.xml-set-default-handler.html: xmlsetdefaulthandler »
+  - index.html: PHP Manual
+  - ref.xml.html: Функции парсера XML
+title: xmlsetcharacterdatahandler
+---
 # xmlsetcharacterdatahandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -61,6 +56,6 @@ handler(XmlParser $parser, string $data)
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |

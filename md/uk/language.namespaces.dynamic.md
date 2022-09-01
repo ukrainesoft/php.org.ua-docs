@@ -1,16 +1,11 @@
-Простори імен та динамічні особливості мови
-
--   [« Використання простору імен: основи](language.namespaces.basics.md)
-    
--   [Ключевое слово namespace и константаNAMESPACE](language.namespaces.nsconstants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пространства имён](language.namespaces.md)
-    
--   Простори імен та динамічні особливості мови
-    
-
+---
+navigation:
+  - language.namespaces.basics.md: '« Використання простору імен: основи'
+  - language.namespaces.nsconstants.md: Ключевое слово namespace и константаNAMESPACE
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: Простори імен та динамічні особливості мови
+---
 ## Простори імен та динамічні особливості мови
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

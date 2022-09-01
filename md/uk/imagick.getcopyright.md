@@ -1,16 +1,11 @@
-Повертає копірайт API ImageMagick у вигляді рядка
-
--   [« Imagick::getCompressionQuality](imagick.getcompressionquality.html)
-    
--   [Imagick::getFilename »](imagick.getfilename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає копірайт API ImageMagick у вигляді рядка
-    
-
+---
+navigation:
+  - imagick.getcompressionquality.html: '« Imagick::getCompressionQuality'
+  - imagick.getfilename.html: 'Imagick::getFilename »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getCopyright'
+---
 # Imagick::getCopyright
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« mqseries](book.mqseries.html)
-    
--   [Встановлення та налаштування »](mqseries.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [mqseries](book.mqseries.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.mqseries.html: « mqseries
+  - mqseries.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.mqseries.html: mqseries
+title: Вступ
+---
 # Вступ
 
 Цей модуль використовується для взаємодії з менеджерами черг IBM WebSphere MQ series.

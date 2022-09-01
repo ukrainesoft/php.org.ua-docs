@@ -1,16 +1,11 @@
-Мережа
-
--   [« mqseriesstrerror](function.mqseries-strerror.html)
-    
--   [Введение »](intro.network.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   Мережа
-    
-
+---
+navigation:
+  - function.mqseries-strerror.html: « mqseriesstrerror
+  - intro.network.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: Мережа
+---
 # Мережа
 
 -   [Введение](intro.network.md)

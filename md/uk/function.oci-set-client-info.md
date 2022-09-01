@@ -1,16 +1,11 @@
-Задає інформацію про клієнта
-
--   [« ocisetclientidentifier](function.oci-set-client-identifier.html)
-    
--   [ocisetдбoperation »](function.oci-set-db-operation.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Задає інформацію про клієнта
-    
-
+---
+navigation:
+  - function.oci-set-client-identifier.html: « ocisetclientidentifier
+  - function.oci-set-db-operation.html: ocisetдбoperation »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocisetclientinfo
+---
 # ocisetclientinfo
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)

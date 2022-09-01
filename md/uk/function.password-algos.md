@@ -1,16 +1,11 @@
-Отримує доступні ідентифікатори алгоритму хешування пароля
-
--   [« Функції хешування паролів](ref.password.md)
-    
--   [passwordgetinfo »](function.password-get-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції хешування паролів](ref.password.md)
-    
--   Отримує доступні ідентифікатори алгоритму хешування пароля
-    
-
+---
+navigation:
+  - ref.password.md: « Функції хешування паролів
+  - function.password-get-info.html: passwordgetinfo »
+  - index.md: PHP Manual
+  - ref.password.md: Функції хешування паролів
+title: passwordalgos
+---
 # passwordalgos
 
 (PHP 7> = 7.4.0, PHP 8)

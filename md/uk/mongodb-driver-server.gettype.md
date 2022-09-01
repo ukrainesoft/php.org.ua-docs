@@ -1,16 +1,11 @@
-Повертає ціле число, що означає тип цього сервера
-
--   [« MongoDBDriverServer::getTags](mongodb-driver-server.gettags.html)
-    
--   [MongoDBDriverServer::isArbiter »](mongodb-driver-server.isarbiter.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Повертає ціле число, що означає тип цього сервера
-    
-
+---
+navigation:
+  - mongodb-driver-server.gettags.html: '« MongoDBDriverServer::getTags'
+  - mongodb-driver-server.isarbiter.html: 'MongoDBDriverServer::isArbiter »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::getType'
+---
 # MongoDBDriverServer::getType
 
 (mongodb >=1.0.0)

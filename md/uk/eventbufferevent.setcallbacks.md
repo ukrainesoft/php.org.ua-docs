@@ -1,16 +1,11 @@
-Призначає callback-функції для читання, запису та події (стану)
-
--   [« EventBufferEvent::readBuffer](eventbufferevent.readbuffer.md)
-    
--   [EventBufferEvent::setPriority »](eventbufferevent.setpriority.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Призначає callback-функції для читання, запису та події (стану)
-    
-
+---
+navigation:
+  - eventbufferevent.readbuffer.md: '« EventBufferEvent::readBuffer'
+  - eventbufferevent.setpriority.md: 'EventBufferEvent::setPriority »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::setCallbacks'
+---
 # EventBufferEvent::setCallbacks
 
 (PECL event >= 1.2.6-beta)

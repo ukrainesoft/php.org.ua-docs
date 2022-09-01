@@ -1,16 +1,11 @@
-Чи слід повертати необроблені символи
-
--   [« SolrQuery::getTermsPrefix](solrquery.gettermsprefix.md)
-    
--   [SolrQuery::getTermsSort »](solrquery.gettermssort.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Чи слід повертати необроблені символи
-    
-
+---
+navigation:
+  - solrquery.gettermsprefix.md: '« SolrQuery::getTermsPrefix'
+  - solrquery.gettermssort.md: 'SolrQuery::getTermsSort »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsReturnRaw'
+---
 # SolrQuery::getTermsReturnRaw
 
 (PECL solr> = 0.9.2)

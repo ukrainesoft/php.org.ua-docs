@@ -1,16 +1,11 @@
-Змінює ім'я стандартної дії
-
--   [« YafDispatcher::returnResponse](yaf-dispatcher.returnresponse.html)
-    
--   [YafDispatcher::setDefaultController »](yaf-dispatcher.setdefaultcontroller.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Змінює ім'я стандартної дії
-    
-
+---
+navigation:
+  - yaf-dispatcher.returnresponse.html: '« YafDispatcher::returnResponse'
+  - yaf-dispatcher.setdefaultcontroller.html: 'YafDispatcher::setDefaultController »'
+  - index.html: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::setDefaultAction'
+---
 # YafDispatcher::setDefaultAction
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Повертає значення змінної у вигляді числа з точкою, що плаває
-
--   [« empty](function.empty.md)
-    
--   [getdebugtype »](function.get-debug-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Повертає значення змінної у вигляді числа з точкою, що плаває
-    
-
+---
+navigation:
+  - function.empty.md: « empty
+  - function.get-debug-type.html: getdebugtype »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: floatval
+---
 # floatval
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

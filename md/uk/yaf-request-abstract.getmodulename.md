@@ -1,16 +1,11 @@
-Призначення getModuleName
-
--   [« YafRequestAbstract::getMethod](yaf-request-abstract.getmethod.html)
-    
--   [YafRequestAbstract::getParam »](yaf-request-abstract.getparam.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Призначення getModuleName
-    
-
+---
+navigation:
+  - yaf-request-abstract.getmethod.html: '« YafRequestAbstract::getMethod'
+  - yaf-request-abstract.getparam.html: 'YafRequestAbstract::getParam »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getModuleName'
+---
 # YafRequestAbstract::getModuleName
 
 (Yaf >=1.0.0)

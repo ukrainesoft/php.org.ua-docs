@@ -1,16 +1,11 @@
-Заливка кольором
-
--   [« imagefilledrectangle](function.imagefilledrectangle.md)
-    
--   [imagefilter »](function.imagefilter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Заливка кольором
-    
-
+---
+navigation:
+  - function.imagefilledrectangle.md: « imagefilledrectangle
+  - function.imagefilter.md: imagefilter »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagefilltoborder
+---
 # imagefilltoborder
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ y-координата початку.
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

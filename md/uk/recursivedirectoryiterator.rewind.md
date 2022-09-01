@@ -1,16 +1,11 @@
-Перекладає ітератор на початок директорії
-
--   [« RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md)
-    
--   [RecursiveFilterIterator »](class.recursivefilteriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-    
--   Перекладає ітератор на початок директорії
-    
-
+---
+navigation:
+  - recursivedirectoryiterator.next.md: '« RecursiveDirectoryIterator::next'
+  - class.recursivefilteriterator.md: RecursiveFilterIterator »
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::rewind'
+---
 # RecursiveDirectoryIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)

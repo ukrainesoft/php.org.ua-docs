@@ -1,16 +1,11 @@
-Встановлює граничну кількість запитів у групі
-
--   [« eiogrpcancel](function.eio-grp-cancel.html)
-    
--   [eiogrp »](function.eio-grp.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Встановлює граничну кількість запитів у групі
-    
-
+---
+navigation:
+  - function.eio-grp-cancel.html: « eiogrpcancel
+  - function.eio-grp.html: eiogrp »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiogrplimit
+---
 # eiogrplimit
 
 (PECL eio >= 0.0.1dev)

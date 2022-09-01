@@ -1,16 +1,11 @@
-Клас LuaSandbox
-
--   [« Базовое использование LuaSandbox](luasandbox.examples-basic.html)
-    
--   [LuaSandbox::callFunction »](luasandbox.callfunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](book.luasandbox.md)
-    
--   Клас LuaSandbox
-    
-
+---
+navigation:
+  - luasandbox.examples-basic.html: « Базовое использование LuaSandbox
+  - luasandbox.callfunction.md: 'LuaSandbox::callFunction »'
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
+title: Клас LuaSandbox
+---
 # Клас LuaSandbox
 
 (PECL luasandbox >= 1.0.0)

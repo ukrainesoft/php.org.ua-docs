@@ -1,16 +1,11 @@
-Перетворює рядок на нижній регістр
-
--   [« strtok](function.strtok.md)
-    
--   [strtoupper »](function.strtoupper.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перетворює рядок на нижній регістр
-    
-
+---
+navigation:
+  - function.strtok.md: « strtok
+  - function.strtoupper.md: strtoupper »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strtolower
+---
 # strtolower
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

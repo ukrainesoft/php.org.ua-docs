@@ -1,16 +1,11 @@
-Зберігає всю мережу файл конфігурації
-
--   [« fannsavetrain](function.fann-save-train.html)
-    
--   [fannscaleinputtraindata »](function.fann-scale-input-train-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Зберігає всю мережу файл конфігурації
-    
-
+---
+navigation:
+  - function.fann-save-train.html: « fannsavetrain
+  - function.fann-scale-input-train-data.html: fannscaleinputtraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsave
+---
 # fannsave
 
 (PECL fann> = 1.0.0)

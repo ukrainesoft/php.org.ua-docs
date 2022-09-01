@@ -1,16 +1,11 @@
-Повертає ім'я батьківського класу для об'єкта чи класу
-
--   [« getobjectvars](function.get-object-vars.html)
-    
--   [interfaceexists »](function.interface-exists.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Повертає ім'я батьківського класу для об'єкта чи класу
-    
-
+---
+navigation:
+  - function.get-object-vars.html: « getobjectvars
+  - function.interface-exists.html: interfaceexists »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getparentclass
+---
 # getparentclass
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ get_parent_class(object|string $object_or_class = ?): string|false
 
 ### список змін
 
-| Версия | Описание                                                                       |
-|--------|--------------------------------------------------------------------------------|
-|        | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Клас SwooleServer
-
--   [« SwooleSerialize::unpack](swoole-serialize.unpack.html)
-    
--   [SwooleServer::addlistener »](swoole-server.addlistener.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleServer
-    
-
+---
+navigation:
+  - swoole-serialize.unpack.html: '« SwooleSerialize::unpack'
+  - swoole-server.addlistener.html: 'SwooleServer::addlistener »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleServer
+---
 # Клас SwooleServer
 
 (PECL swoole >= 1.9.0)

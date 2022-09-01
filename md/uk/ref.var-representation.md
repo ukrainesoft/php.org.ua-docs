@@ -1,16 +1,11 @@
-Функції varrepresentation
-
--   [« Обумовлені константи](var-representation.constants.html)
-    
--   [varrepresentation »](function.var-representation.html)
-    
--   [PHP Manual](index.html)
-    
--   [varrepresentation](book.var_representation.html)
-    
--   Функції varrepresentation
-    
-
+---
+navigation:
+  - var-representation.constants.html: « Обумовлені константи
+  - function.var-representation.html: varrepresentation »
+  - index.html: PHP Manual
+  - book.var_representation.html: varrepresentation
+title: Функції varrepresentation
+---
 # Функції varrepresentation
 
 ## Зміст

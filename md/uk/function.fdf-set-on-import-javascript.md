@@ -1,16 +1,11 @@
-Додає JavaScript, який буде виконуватися, коли Acrobat відкриває FDF
-
--   [« fdfsetjavascriptaction](function.fdf-set-javascript-action.html)
-    
--   [fdfsetopt »](function.fdf-set-opt.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Додає JavaScript, який буде виконуватися, коли Acrobat відкриває FDF
-    
-
+---
+navigation:
+  - function.fdf-set-javascript-action.html: « fdfsetjavascriptaction
+  - function.fdf-set-opt.html: fdfsetopt »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfsetвінimportjavascript
+---
 # fdfsetвінimportjavascript
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

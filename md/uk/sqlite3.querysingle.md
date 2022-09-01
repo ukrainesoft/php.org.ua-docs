@@ -1,16 +1,11 @@
-Виконує запит та повертає одиночний результат
-
--   [« SQLite3::query](sqlite3.query.md)
-    
--   [SQLite3::setAuthorizer »](sqlite3.setauthorizer.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Виконує запит та повертає одиночний результат
-    
-
+---
+navigation:
+  - sqlite3.query.md: '« SQLite3::query'
+  - sqlite3.setauthorizer.md: 'SQLite3::setAuthorizer »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::querySingle'
+---
 # SQLite3::querySingle
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

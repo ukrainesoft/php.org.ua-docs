@@ -1,16 +1,11 @@
-Виділяє пам'ять під зазначену місткість
-
--   [Черга](class.ds-queue.html)
-    
--   [ДсQueue::capacity »](ds-queue.capacity.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Виділяє пам'ять під зазначену місткість
-    
-
+---
+navigation:
+  - class.ds-queue.html: Черга
+  - ds-queue.capacity.html: 'ДсQueue::capacity »'
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::allocate'
+---
 # ДсQueue::allocate
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Сортує масив за зростанням
-
--   [« sizeof](function.sizeof.md)
-    
--   [uasort »](function.uasort.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Сортує масив за зростанням
-    
-
+---
+navigation:
+  - function.sizeof.md: « sizeof
+  - function.uasort.md: uasort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: sort
+---
 # sort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

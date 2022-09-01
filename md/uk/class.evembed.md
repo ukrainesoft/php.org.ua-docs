@@ -1,16 +1,11 @@
-Клас EvEmbed
-
--   [« EvChild::set](evchild.set.html)
-    
--   [EvEmbed::construct »](evembed.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас EvEmbed
-    
-
+---
+navigation:
+  - evchild.set.html: '« EvChild::set'
+  - evembed.construct.html: 'EvEmbed::construct »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас EvEmbed
+---
 # Клас EvEmbed
 
 (PECL ev >= 0.2.0)

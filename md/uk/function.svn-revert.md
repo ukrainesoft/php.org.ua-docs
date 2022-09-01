@@ -1,16 +1,11 @@
-Скасує локальні зміни робочої копії
-
--   [« svnreposrecover](function.svn-repos-recover.html)
-    
--   [svnstatus »](function.svn-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Скасує локальні зміни робочої копії
-    
-
+---
+navigation:
+  - function.svn-repos-recover.html: « svnreposrecover
+  - function.svn-status.html: svnstatus »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnrevert
+---
 # svnrevert
 
 (PECL svn >= 0.3.0)

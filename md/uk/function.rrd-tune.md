@@ -1,16 +1,11 @@
-Налаштовує деякі опції заголовка файлу бази даних RRD
-
--   [« rrdrestore](function.rrd-restore.html)
-    
--   [rrdupdate »](function.rrd-update.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції RRD](ref.rrd.html)
-    
--   Налаштовує деякі опції заголовка файлу бази даних RRD
-    
-
+---
+navigation:
+  - function.rrd-restore.html: « rrdrestore
+  - function.rrd-update.html: rrdupdate »
+  - index.html: PHP Manual
+  - ref.rrd.html: Функції RRD
+title: rrdtune
+---
 # rrdtune
 
 (PECL rrd >= 0.9.0)

@@ -1,16 +1,11 @@
-Повертає попередній об'єкт, що реалізує Throwable
-
--   [« Exception::getMessage](exception.getmessage.md)
-    
--   [Exception::getCode »](exception.getcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Exception](class.exception.md)
-    
--   Повертає попередній об'єкт, що реалізує Throwable
-    
-
+---
+navigation:
+  - exception.getmessage.md: '« Exception::getMessage'
+  - exception.getcode.md: 'Exception::getCode »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
+title: 'Exception::getPrevious'
+---
 # Exception::getPrevious
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

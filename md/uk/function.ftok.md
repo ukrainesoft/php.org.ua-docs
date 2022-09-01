@@ -1,16 +1,11 @@
-Перетворення шляху та ідентифікатора проекту на ключ System V IPC
-
--   [« Функції семафорів](ref.sem.html)
-    
--   [msggetqueue »](function.msg-get-queue.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Перетворення шляху та ідентифікатора проекту на ключ System V IPC
-    
-
+---
+navigation:
+  - ref.sem.html: « Функції семафорів
+  - function.msg-get-queue.html: msggetqueue »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: ftok
+---
 # ftok
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

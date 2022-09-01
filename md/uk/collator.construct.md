@@ -1,16 +1,11 @@
-Створює новий екземпляр Collator
-
--   [« Collator::compare](collator.compare.md)
-    
--   [Collator::create »](collator.create.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Створює новий екземпляр Collator
-    
-
+---
+navigation:
+  - collator.compare.md: '« Collator::compare'
+  - collator.create.md: 'Collator::create »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::construct'
+---
 # Collator::construct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

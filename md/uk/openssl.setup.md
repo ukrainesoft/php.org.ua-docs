@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.openssl.html)
-    
--   [Вимоги »](openssl.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [OpenSSL](book.openssl.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.openssl.html: « Введение
+  - openssl.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.openssl.html: OpenSSL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

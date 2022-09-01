@@ -1,16 +1,11 @@
-Псевдонім DateTimeZone::construct
-
--   [« timezoneoffsetget](function.timezone-offset-get.html)
-    
--   [timezonetransitionsget »](function.timezone-transitions-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції дати та часу](ref.datetime.html)
-    
--   Псевдонім DateTimeZone::construct
-    
-
+---
+navigation:
+  - function.timezone-offset-get.html: « timezoneoffsetget
+  - function.timezone-transitions-get.html: timezonetransitionsget »
+  - index.html: PHP Manual
+  - ref.datetime.html: Функції дати та часу
+title: timezoneopen
+---
 # timezoneopen
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

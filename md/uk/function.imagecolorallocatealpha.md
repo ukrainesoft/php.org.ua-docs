@@ -1,16 +1,11 @@
-Створення кольору для зображення
-
--   [« imagecolorallocate](function.imagecolorallocate.html)
-    
--   [imagecolorat »](function.imagecolorat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Створення кольору для зображення
-    
-
+---
+navigation:
+  - function.imagecolorallocate.html: « imagecolorallocate
+  - function.imagecolorat.html: imagecolorat »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagecolorallocatealpha
+---
 # imagecolorallocatealpha
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
@@ -59,9 +54,9 @@ imagecolorallocatealpha(    GdImage $image,    int $red,    int $gre
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Псевдонім ibaseblobecho
-
--   [« fbirdblobcreate](function.fbird-blob-create.html)
-    
--   [fbirdblobget »](function.fbird-blob-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseblobecho
-    
-
+---
+navigation:
+  - function.fbird-blob-create.html: « fbirdblobcreate
+  - function.fbird-blob-get.html: fbirdblobget »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdblobecho
+---
 # fbirdblobecho
 
 (PHP 5, PHP 7 < 7.4.0)

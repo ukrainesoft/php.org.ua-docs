@@ -1,16 +1,11 @@
-Переміщує покажчик на початок масиву
-
--   [« ArrayIterator::offsetUnset](arrayiterator.offsetunset.md)
-    
--   [ArrayIterator::seek »](arrayiterator.seek.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Переміщує покажчик на початок масиву
-    
-
+---
+navigation:
+  - arrayiterator.offsetunset.md: '« ArrayIterator::offsetUnset'
+  - arrayiterator.seek.md: 'ArrayIterator::seek »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::rewind'
+---
 # ArrayIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)

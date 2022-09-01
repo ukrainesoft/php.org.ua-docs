@@ -1,16 +1,11 @@
-Пошук по LDAP дереву
-
--   [« ldapsaslbind](function.ldap-sasl-bind.html)
-    
--   [ldapsetoption »](function.ldap-set-option.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Пошук по LDAP дереву
-    
-
+---
+navigation:
+  - function.ldap-sasl-bind.html: « ldapsaslbind
+  - function.ldap-set-option.html: ldapsetoption »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapsearch
+---
 # ldapsearch
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -88,12 +83,12 @@ ldap_search(    LDAP\Connection|array $ldap,    array|string $base,  �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                            |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                    |
-|        | Додано підтримку параметра `controls`                                                                                                                |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 

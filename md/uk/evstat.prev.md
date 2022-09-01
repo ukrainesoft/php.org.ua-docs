@@ -1,16 +1,11 @@
-Повертає попередній набір значень, які повертаються EvStat::attr
-
--   [« EvStat::createStopped](evstat.createstopped.html)
-    
--   [EvStat::set »](evstat.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvStat](class.evstat.html)
-    
--   Повертає попередній набір значень, які повертаються EvStat::attr
-    
-
+---
+navigation:
+  - evstat.createstopped.html: '« EvStat::createStopped'
+  - evstat.set.html: 'EvStat::set »'
+  - index.html: PHP Manual
+  - class.evstat.html: EvStat
+title: 'EvStat::prev'
+---
 # EvStat::prev
 
 (PECL ev >= 0.2.0)

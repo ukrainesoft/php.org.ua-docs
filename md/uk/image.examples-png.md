@@ -1,16 +1,11 @@
-Створення PNG засобами PHP
-
--   [« Приклади](image.examples.html)
-    
--   [Додавання водяних знаків на зображення за допомогою альфа-каналів »](image.examples-watermark.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](image.examples.html)
-    
--   Створення PNG засобами PHP
-    
-
+---
+navigation:
+  - image.examples.html: « Приклади
+  - image.examples-watermark.html: Додавання водяних знаків на зображення за допомогою альфа-каналів »
+  - index.html: PHP Manual
+  - image.examples.html: Приклади
+title: Створення PNG засобами PHP
+---
 ## Створення PNG засобами PHP
 
 **Приклад #1 Створення PNG засобами PHP**

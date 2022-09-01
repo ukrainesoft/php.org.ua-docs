@@ -1,16 +1,11 @@
-Клас SplMaxHeap
-
--   [« SplHeap::valid](splheap.valid.html)
-    
--   [SplMaxHeap::compare »](splmaxheap.compare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Структури даних](spl.datastructures.html)
-    
--   Клас SplMaxHeap
-    
-
+---
+navigation:
+  - splheap.valid.html: '« SplHeap::valid'
+  - splmaxheap.compare.html: 'SplMaxHeap::compare »'
+  - index.html: PHP Manual
+  - spl.datastructures.html: Структури даних
+title: Клас SplMaxHeap
+---
 # Клас SplMaxHeap
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

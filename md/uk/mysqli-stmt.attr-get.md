@@ -1,16 +1,11 @@
-Отримує поточне значення атрибуту запиту
-
--   [« mysqlistmt::$affectedrows](mysqli-stmt.affected-rows.html)
-    
--   [mysqlistmt::attrset »](mysqli-stmt.attr-set.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Отримує поточне значення атрибуту запиту
-    
-
+---
+navigation:
+  - mysqli-stmt.affected-rows.html: '« mysqlistmt::$affectedrows'
+  - mysqli-stmt.attr-set.html: 'mysqlistmt::attrset »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::attrget'
+---
 # mysqlistmt::attrget
 
 # mysqlistmtattrget

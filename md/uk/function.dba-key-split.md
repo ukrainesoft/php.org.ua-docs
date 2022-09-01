@@ -1,16 +1,11 @@
-Поділяє ключ, заданий у вигляді рядка і створює масив отриманих частин
-
--   [« dbainsert](function.dba-insert.html)
-    
--   [dbalist »](function.dba-list.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Поділяє ключ, заданий у вигляді рядка і створює масив отриманих частин
-    
-
+---
+navigation:
+  - function.dba-insert.html: « dbainsert
+  - function.dba-list.html: dbalist »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbakeysplit
+---
 # dbakeysplit
 
 (PHP 5, PHP 7, PHP 8)

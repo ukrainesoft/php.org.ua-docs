@@ -1,16 +1,11 @@
-is2LeggedEndpoint
-
--   [« OAuthProvider::generateToken](oauthprovider.generatetoken.md)
-    
--   [OAuthProvider::isRequestTokenEndpoint »](oauthprovider.isrequesttokenendpoint.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   is2LeggedEndpoint
-    
-
+---
+navigation:
+  - oauthprovider.generatetoken.md: '« OAuthProvider::generateToken'
+  - oauthprovider.isrequesttokenendpoint.md: 'OAuthProvider::isRequestTokenEndpoint »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::is2LeggedEndpoint'
+---
 # OAuthProvider::is2LeggedEndpoint
 
 (PECL OAuth >= 1.0.0)

@@ -1,16 +1,11 @@
-Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
-
--   [« mberegsearchregs](function.mb-ereg-search-regs.html)
-    
--   [мбeregsearch »](function.mb-ereg-search.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
-    
-
+---
+navigation:
+  - function.mb-ereg-search-regs.html: « mberegsearchregs
+  - function.mb-ereg-search.html: мбeregsearch »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбeregsearchsetpos
+---
 # мбeregsearchsetpos
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ mb_ereg_search_setpos(int $offset): bool
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Додано підтримку негативних значень `offset` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Примітки
 

@@ -1,16 +1,11 @@
-Обчислення дайджесту
-
--   [« opensslдхcomputekey](function.openssl-dh-compute-key.html)
-    
--   [opensslencrypt »](function.openssl-encrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Обчислення дайджесту
-    
-
+---
+navigation:
+  - function.openssl-dh-compute-key.html: « opensslдхcomputekey
+  - function.openssl-encrypt.html: opensslencrypt »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: openssldigest
+---
 # openssldigest
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

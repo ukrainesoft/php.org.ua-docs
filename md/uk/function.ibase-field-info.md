@@ -1,16 +1,11 @@
-Отримує інформацію про поле
-
--   [« ibasefetchrow](function.ibase-fetch-row.html)
-    
--   [ibasefreeeventhandler »](function.ibase-free-event-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Отримує інформацію про поле
-    
-
+---
+navigation:
+  - function.ibase-fetch-row.html: « ibasefetchrow
+  - function.ibase-free-event-handler.html: ibasefreeeventhandler »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasefieldinfo
+---
 # ibasefieldinfo
 
 (PHP 5, PHP 7 < 7.4.0)

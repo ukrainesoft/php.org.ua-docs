@@ -1,16 +1,11 @@
-Визначає чи знаходиться директорія даним шляхом
-
--   [« svnфсfilelength](function.svn-fs-file-length.html)
-    
--   [svnфсісfile »](function.svn-fs-is-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Визначає чи знаходиться директорія даним шляхом
-    
-
+---
+navigation:
+  - function.svn-fs-file-length.html: « svnфсfilelength
+  - function.svn-fs-is-file.html: svnфсісfile »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсісdir
+---
 # svnфсісdir
 
 (PECL svn >= 0.2.0)

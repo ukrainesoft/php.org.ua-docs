@@ -1,16 +1,11 @@
-Отримання SQL NOTIFY повідомлення
-
--   [« pgfreeresult](function.pg-free-result.html)
-    
--   [пгgetpid »](function.pg-get-pid.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Отримання SQL NOTIFY повідомлення
-    
-
+---
+navigation:
+  - function.pg-free-result.html: « pgfreeresult
+  - function.pg-get-pid.html: пгgetpid »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгgetnotify
+---
 # пгgetnotify
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|fals
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

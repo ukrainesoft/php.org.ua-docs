@@ -1,16 +1,11 @@
-Отримує ім'я файлу
-
--   [« SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)
-    
--   [SplFileInfo::getGroup »](splfileinfo.getgroup.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує ім'я файлу
-    
-
+---
+navigation:
+  - splfileinfo.getfileinfo.md: '« SplFileInfo::getFileInfo'
+  - splfileinfo.getgroup.md: 'SplFileInfo::getGroup »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getFilename'
+---
 # SplFileInfo::getFilename
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

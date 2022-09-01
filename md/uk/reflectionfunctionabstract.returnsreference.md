@@ -1,16 +1,11 @@
-Перевіряє, що функція повертає посилання
-
--   [« ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md)
-    
--   [ReflectionFunctionAbstract::toString »](reflectionfunctionabstract.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перевіряє, що функція повертає посилання
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.isvariadic.md: '« ReflectionFunctionAbstract::isVariadic'
+  - reflectionfunctionabstract.tostring.md: 'ReflectionFunctionAbstract::toString »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::returnsReference'
+---
 # ReflectionFunctionAbstract::returnsReference
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

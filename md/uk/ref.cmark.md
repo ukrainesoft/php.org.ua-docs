@@ -1,16 +1,11 @@
-Функції CommonMark
-
--   [« CommonMarkCQL::invoke](commonmark-cql.invoke.html)
-    
--   [CommonMarkParse »](function.commonmark-parse.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Функції CommonMark
-    
-
+---
+navigation:
+  - commonmark-cql.invoke.html: '« CommonMarkCQL::invoke'
+  - function.commonmark-parse.html: CommonMarkParse »
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Функції CommonMark
+---
 # Функції CommonMark
 
 ## Зміст

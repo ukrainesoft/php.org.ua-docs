@@ -1,16 +1,11 @@
-Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
-
--   [« mbpreferredmimename](function.mb-preferred-mime-name.html)
-    
--   [мбregexsetoptions »](function.mb-regex-set-options.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
-    
-
+---
+navigation:
+  - function.mb-preferred-mime-name.html: « mbpreferredmimename
+  - function.mb-regex-set-options.html: мбregexsetoptions »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбregexencoding
+---
 # мбregexencoding
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ mb_regex_encoding(?string $encoding = null): string|bool
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

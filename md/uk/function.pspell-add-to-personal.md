@@ -1,16 +1,11 @@
-Додає слово до персонального списку слів
-
--   [« Функции Pspell](ref.pspell.md)
-    
--   [pspelladdтоsession »](function.pspell-add-to-session.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Додає слово до персонального списку слів
-    
-
+---
+navigation:
+  - ref.pspell.md: « Функции Pspell
+  - function.pspell-add-to-session.html: pspelladdтоsession »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspelladdтоpersonal
+---
 # pspelladdтоpersonal
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

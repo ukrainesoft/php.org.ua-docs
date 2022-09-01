@@ -1,16 +1,11 @@
-Встановлює критерії сортування
-
--   [« CollectionModify::skip](mysql-xdevapi-collectionmodify.skip.html)
-    
--   [CollectionModify::unset »](mysql-xdevapi-collectionmodify.unset.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Встановлює критерії сортування
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.skip.html: '« CollectionModify::skip'
+  - mysql-xdevapi-collectionmodify.unset.html: 'CollectionModify::unset »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::sort'
+---
 # CollectionModify::sort
 
 (No version information available, might only be in Git)

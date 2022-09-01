@@ -1,16 +1,11 @@
-Перевіряє, чи визначено властивість
-
--   [« ReflectionClass::hasMethod](reflectionclass.hasmethod.md)
-    
--   [ReflectionClass::implementsInterface »](reflectionclass.implementsinterface.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи визначено властивість
-    
-
+---
+navigation:
+  - reflectionclass.hasmethod.md: '« ReflectionClass::hasMethod'
+  - reflectionclass.implementsinterface.md: 'ReflectionClass::implementsInterface »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::hasProperty'
+---
 # ReflectionClass::hasProperty
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« Gmagick](book.gmagick.md)
-    
--   [Встановлення та налаштування »](gmagick.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](book.gmagick.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.gmagick.md: « Gmagick
+  - gmagick.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.gmagick.md: Gmagick
+title: Вступ
+---
 # Вступ
 
 Gmagick - модуль php для створення, зміни та отримання meta-даних зображень, використовуючи GraphicsMagick API.

@@ -1,16 +1,11 @@
-Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
-
--   [« sqlsrvfetch](function.sqlsrv-fetch.html)
-    
--   [sqlsrvfreestmt »](function.sqlsrv-free-stmt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
-    
-
+---
+navigation:
+  - function.sqlsrv-fetch.html: « sqlsrvfetch
+  - function.sqlsrv-free-stmt.html: sqlsrvfreestmt »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvfieldmetadata
+---
 # sqlsrvfieldmetadata
 
 (No version information available, might only be in Git)
@@ -37,14 +32,14 @@ sqlsrv_field_metadata(resource $stmt): mixed
 
 **Масив, що повертається sqlsrvfieldmetadata**
 
-| Ключ      | Описание                                                                                                                  |
-|-----------|---------------------------------------------------------------------------------------------------------------------------|
-| Name      | Ім'я поля.                                                                                                                |
-| Type      | Числове значення для типу SQL.                                                                                            |
-| Size      | Кількість символів для полів символьного типу, кількість байтів для полів двійкового типу або **`null`** для інших типів. |
-| Precision | Точність для типів змінної точності, **`null`** для інших типів.                                                          |
-| Scale     | Масштаб для типів масштабованих типів даних, **`null`** для інших типів.                                                  |
-| Nullable  | Перелік, що вказує, чи стовпець допускає значення NULL, неприпустиме значення NULL або невідоме.                          |
+| Ключ | Описание |
+| --- | --- |
+| Name | Ім'я поля. |
+| Type | Числове значення для типу SQL. |
+| Size | Кількість символів для полів символьного типу, кількість байтів для полів двійкового типу або **`null`** для інших типів. |
+| Precision | Точність для типів змінної точності, **`null`** для інших типів. |
+| Scale | Масштаб для типів масштабованих типів даних, **`null`** для інших типів. |
+| Nullable | Перелік, що вказує, чи стовпець допускає значення NULL, неприпустиме значення NULL або невідоме. |
 
 Для отримання додаткової інформації дивіться [» sqlsrvfieldmetadata](http://msdn.microsoft.com/en-us/library/cc296197.aspx) у документації Microsoft SQLSRV.
 

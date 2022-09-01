@@ -1,16 +1,11 @@
-Виводить зображення у браузер або пише у файл
-
--   [« imagetypeтоmimetype](function.image-type-to-mime-type.html)
-    
--   [imageaffine »](function.imageaffine.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Виводить зображення у браузер або пише у файл
-    
-
+---
+navigation:
+  - function.image-type-to-mime-type.html: « imagetypeтоmimetype
+  - function.imageaffine.md: imageaffine »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: image2wbmp
+---
 # image2wbmp
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7)

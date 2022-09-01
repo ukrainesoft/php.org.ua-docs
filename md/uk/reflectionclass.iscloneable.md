@@ -1,16 +1,11 @@
-Перевіряє, чи можна клонувати цей клас
-
--   [« ReflectionClass::isAnonymous](reflectionclass.isanonymous.md)
-    
--   [ReflectionClass::isEnum »](reflectionclass.isenum.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи можна клонувати цей клас
-    
-
+---
+navigation:
+  - reflectionclass.isanonymous.md: '« ReflectionClass::isAnonymous'
+  - reflectionclass.isenum.md: 'ReflectionClass::isEnum »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isCloneable'
+---
 # ReflectionClass::isCloneable
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

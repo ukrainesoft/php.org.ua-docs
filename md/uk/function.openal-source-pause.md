@@ -1,16 +1,11 @@
-Поставити джерело на паузу
-
--   [« openalsourceget](function.openal-source-get.html)
-    
--   [openalsourceplay »](function.openal-source-play.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Поставити джерело на паузу
-    
-
+---
+navigation:
+  - function.openal-source-get.html: « openalsourceget
+  - function.openal-source-play.html: openalsourceplay »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalsourcepause
+---
 # openalsourcepause
 
 (PECL openal >= 0.1.0)

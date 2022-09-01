@@ -1,16 +1,11 @@
-Обгортка для розширеної операції PASSWD
-
--   [« ldapescape](function.ldap-escape.html)
-    
--   [ldapexoprefresh »](function.ldap-exop-refresh.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Обгортка для розширеної операції PASSWD
-    
-
+---
+navigation:
+  - function.ldap-escape.html: « ldapescape
+  - function.ldap-exop-refresh.html: ldapexoprefresh »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapexoppasswd
+---
 # ldapexoppasswd
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -53,11 +48,11 @@ ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",   �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 

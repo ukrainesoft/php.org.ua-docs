@@ -1,16 +1,11 @@
-Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
-
--   [« SwooleProcess::statQueue](swoole-process.statqueue.html)
-    
--   [SwooleProcess::wait »](swoole-process.wait.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
-    
-
+---
+navigation:
+  - swoole-process.statqueue.html: '« SwooleProcess::statQueue'
+  - swoole-process.wait.html: 'SwooleProcess::wait »'
+  - index.html: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::useQueue'
+---
 # SwooleProcess::useQueue
 
 (PECL swoole >= 1.9.0)

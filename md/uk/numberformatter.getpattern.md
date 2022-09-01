@@ -1,16 +1,11 @@
-Отримує шаблон засобу форматування
-
--   [« NumberFormatter::getLocale](numberformatter.getlocale.md)
-    
--   [NumberFormatter::getSymbol »](numberformatter.getsymbol.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Отримує шаблон засобу форматування
-    
-
+---
+navigation:
+  - numberformatter.getlocale.md: '« NumberFormatter::getLocale'
+  - numberformatter.getsymbol.md: 'NumberFormatter::getSymbol »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getPattern'
+---
 # NumberFormatter::getPattern
 
 # numfmtgetpattern

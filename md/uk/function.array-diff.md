@@ -1,16 +1,11 @@
-Обчислити розбіжність масивів
-
--   [« arraydiffukey](function.array-diff-ukey.html)
-    
--   [arrayfillkeys »](function.array-fill-keys.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислити розбіжність масивів
-    
-
+---
+navigation:
+  - function.array-diff-ukey.html: « arraydiffukey
+  - function.array-fill-keys.html: arrayfillkeys »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraydiff
+---
 # arraydiff
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_diff(array $array, array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
 
 ### Приклади
 

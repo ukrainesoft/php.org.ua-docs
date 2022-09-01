@@ -1,16 +1,11 @@
-Витягує спеціальні стовпці
-
--   [« odbcsetoption](function.odbc-setoption.html)
-    
--   [odbcstatistics »](function.odbc-statistics.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Витягує спеціальні стовпці
-    
-
+---
+navigation:
+  - function.odbc-setoption.html: « odbcsetoption
+  - function.odbc-statistics.html: odbcstatistics »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcspecialcolumns
+---
 # odbcspecialcolumns
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

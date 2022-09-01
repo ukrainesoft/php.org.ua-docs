@@ -1,16 +1,11 @@
-Звільняє пам'ять від результату запиту, вказаного дескриптором
-
--   [« mysqlistmt::$fieldcount](mysqli-stmt.field-count.html)
-    
--   [mysqlistmt::getresult »](mysqli-stmt.get-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Звільняє пам'ять від результату запиту, вказаного дескриптором
-    
-
+---
+navigation:
+  - mysqli-stmt.field-count.html: '« mysqlistmt::$fieldcount'
+  - mysqli-stmt.get-result.html: 'mysqlistmt::getresult »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::freeresult'
+---
 # mysqlistmt::freeresult
 
 # mysqlistmtfreeresult

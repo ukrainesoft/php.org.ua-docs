@@ -1,16 +1,11 @@
-Гіперболічний тангенс
-
--   [« tan](function.tan.html)
-    
--   [Статистика »](book.stats.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Гіперболічний тангенс
-    
-
+---
+navigation:
+  - function.tan.html: « tan
+  - book.stats.html: Статистика »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: tanh
+---
 # tanh
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

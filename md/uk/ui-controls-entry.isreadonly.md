@@ -1,16 +1,11 @@
-Визначити, чи є елемент лише для читання
-
--   [« UIControlsEntry::getText](ui-controls-entry.gettext.html)
-    
--   [ОЙControlsEntry::onChange »](ui-controls-entry.onchange.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsEntry](class.ui-controls-entry.html)
-    
--   Визначити, чи є елемент лише для читання
-    
-
+---
+navigation:
+  - ui-controls-entry.gettext.html: '« UIControlsEntry::getText'
+  - ui-controls-entry.onchange.html: 'ОЙControlsEntry::onChange »'
+  - index.md: PHP Manual
+  - class.ui-controls-entry.html: ОЙControlsEntry
+title: 'ОЙControlsEntry::isReadOnly'
+---
 # ОЙControlsEntry::isReadOnly
 
 (UI 0.9.9)

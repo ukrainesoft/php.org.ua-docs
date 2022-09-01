@@ -1,16 +1,11 @@
-Додає іменований профіль до об'єкту Imagick
-
--   [« Imagick::setImagePage](imagick.setimagepage.html)
-    
--   [Imagick::setImageProperty »](imagick.setimageproperty.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Додає іменований профіль до об'єкту Imagick
-    
-
+---
+navigation:
+  - imagick.setimagepage.html: '« Imagick::setImagePage'
+  - imagick.setimageproperty.html: 'Imagick::setImageProperty »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageProfile'
+---
 # Imagick::setImageProfile
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Повертає тип інтерфейсу між веб-сервером та PHP
-
--   [« phpiniscannedfiles](function.php-ini-scanned-files.html)
-    
--   [phpuname »](function.php-uname.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає тип інтерфейсу між веб-сервером та PHP
-    
-
+---
+navigation:
+  - function.php-ini-scanned-files.html: « phpiniscannedfiles
+  - function.php-uname.html: phpuname »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: phpsapiname
+---
 # phpsapiname
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

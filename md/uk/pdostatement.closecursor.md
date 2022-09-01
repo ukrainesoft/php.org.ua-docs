@@ -1,16 +1,11 @@
-Закриває курсор, переводячи запит у стан готовності до повторного запуску
-
--   [« PDOStatement::bindValue](pdostatement.bindvalue.md)
-    
--   [PDOStatement::columnCount »](pdostatement.columncount.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Закриває курсор, переводячи запит у стан готовності до повторного запуску
-    
-
+---
+navigation:
+  - pdostatement.bindvalue.md: '« PDOStatement::bindValue'
+  - pdostatement.columncount.md: 'PDOStatement::columnCount »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::closeCursor'
+---
 # PDOStatement::closeCursor
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.9.0)

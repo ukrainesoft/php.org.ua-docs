@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickKernel::scale](imagickkernel.scale.md)
-    
--   [Модулі для роботи з поштою](refs.remote.mail.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickKernel](class.imagickkernel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickkernel.scale.md: '« ImagickKernel::scale'
+  - refs.remote.mail.md: Модулі для роботи з поштою
+  - index.md: PHP Manual
+  - class.imagickkernel.md: ImagickKernel
+title: 'ImagickKernel::separate'
+---
 # ImagickKernel::separate
 
 (PECL imagick >= 3.3.0)

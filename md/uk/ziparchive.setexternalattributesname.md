@@ -1,16 +1,11 @@
-Встановлення зовнішніх атрибутів запису, заданого на ім'я
-
--   [« ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.md)
-    
--   [ZipArchive::setMtimeIndex »](ziparchive.setmtimeindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Встановлення зовнішніх атрибутів запису, заданого на ім'я
-    
-
+---
+navigation:
+  - ziparchive.setexternalattributesindex.md: '« ZipArchive::setExternalAttributesIndex'
+  - ziparchive.setmtimeindex.md: 'ZipArchive::setMtimeIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::setExternalAttributesName'
+---
 # ZipArchive::setExternalAttributesName
 
 (PHP 5 >= 5.6.0, PHP 7, PHP 8, PECL zip >= 1.12.4)

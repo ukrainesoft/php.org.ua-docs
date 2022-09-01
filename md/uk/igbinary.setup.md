@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.igbinary.md)
-    
--   [Вимоги »](igbinary.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Igbinary](book.igbinary.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.igbinary.md: « Введение
+  - igbinary.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.igbinary.md: Igbinary
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

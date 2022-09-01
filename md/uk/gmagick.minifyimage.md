@@ -1,16 +1,11 @@
-Масштабує зображення пропорційно половині його розміру
-
--   [« Gmagick::medianfilterimage](gmagick.medianfilterimage.html)
-    
--   [Gmagick::modulateimage »](gmagick.modulateimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Масштабує зображення пропорційно половині його розміру
-    
-
+---
+navigation:
+  - gmagick.medianfilterimage.html: '« Gmagick::medianfilterimage'
+  - gmagick.modulateimage.html: 'Gmagick::modulateimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::minifyimage'
+---
 # Gmagick::minifyimage
 
 (PECL gmagick >= Unknown)

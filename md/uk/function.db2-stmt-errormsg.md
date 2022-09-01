@@ -1,16 +1,11 @@
-Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
-
--   [« db2stmterror](function.db2-stmt-error.html)
-    
--   [db2tableprivileges »](function.db2-table-privileges.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
-    
-
+---
+navigation:
+  - function.db2-stmt-error.html: « db2stmterror
+  - function.db2-table-privileges.html: db2tableprivileges »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2stmterrormsg
+---
 # db2stmterrormsg
 
 (PECL ibmdb2> = 1.0.0)

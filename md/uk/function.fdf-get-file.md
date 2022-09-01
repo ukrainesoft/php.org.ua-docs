@@ -1,16 +1,11 @@
-Отримує значення ключа /F
-
--   [« fdfgetencoding](function.fdf-get-encoding.html)
-    
--   [fdfgetflags »](function.fdf-get-flags.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Отримує значення ключа /F
-    
-
+---
+navigation:
+  - function.fdf-get-encoding.html: « fdfgetencoding
+  - function.fdf-get-flags.html: fdfgetflags »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfgetfile
+---
 # fdfgetfile
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

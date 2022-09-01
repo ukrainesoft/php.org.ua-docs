@@ -1,16 +1,11 @@
-Повернути елемент зі списку аргументів
-
--   [« forwardstaticcall](function.forward-static-call.html)
-    
--   [funcgetargs »](function.func-get-args.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции управления функциями](ref.funchand.html)
-    
--   Повернути елемент зі списку аргументів
-    
-
+---
+navigation:
+  - function.forward-static-call.html: « forwardstaticcall
+  - function.func-get-args.html: funcgetargs »
+  - index.html: PHP Manual
+  - ref.funchand.html: Функции управления функциями
+title: funcgetarg
+---
 # funcgetarg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

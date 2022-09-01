@@ -1,16 +1,11 @@
-З'єднання з базою даних Informix
-
--   [« Informix (PDO)](ref.pdo-informix.html)
-    
--   [MySQL (PDO) »](ref.pdo-mysql.html)
-    
--   [PHP Manual](index.md)
-    
--   [Informix (PDO)](ref.pdo-informix.html)
-    
--   З'єднання з базою даних Informix
-    
-
+---
+navigation:
+  - ref.pdo-informix.html: « Informix (PDO)
+  - ref.pdo-mysql.html: MySQL (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-informix.html: Informix (PDO)
+title: PDOINFORMIX DSN
+---
 # PDOINFORMIX DSN
 
 (PECL PDOINFORMIX >= 0.1.0)

@@ -1,16 +1,11 @@
-Встановлює часовий пояс, що використовується календарем
-
--   [« IntlCalendar::setTime](intlcalendar.settime.html)
-    
--   [IntlCalendar::toDateTime »](intlcalendar.todatetime.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Встановлює часовий пояс, що використовується календарем
-    
-
+---
+navigation:
+  - intlcalendar.settime.html: '« IntlCalendar::setTime'
+  - intlcalendar.todatetime.html: 'IntlCalendar::toDateTime »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::setTimeZone'
+---
 # IntlCalendar::setTimeZone
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

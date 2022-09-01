@@ -1,16 +1,11 @@
-Повертає коефіцієнт кореляції Пірсона двох наборів даних
-
--   [« statsstatbinomialcoef](function.stats-stat-binomial-coef.html)
-    
--   [statsstatfactorial »](function.stats-stat-factorial.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Повертає коефіцієнт кореляції Пірсона двох наборів даних
-    
-
+---
+navigation:
+  - function.stats-stat-binomial-coef.html: « statsstatbinomialcoef
+  - function.stats-stat-factorial.html: statsstatfactorial »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsстатиcorrelation
+---
 # statsстатиcorrelation
 
 (PECL stats >= 1.0.0)

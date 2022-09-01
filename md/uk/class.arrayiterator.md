@@ -1,16 +1,11 @@
-Клас ArrayIterator
-
--   [« AppendIterator::valid](appenditerator.valid.md)
-    
--   [ArrayIterator::append »](arrayiterator.append.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас ArrayIterator
-    
-
+---
+navigation:
+  - appenditerator.valid.md: '« AppendIterator::valid'
+  - arrayiterator.append.md: 'ArrayIterator::append »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас ArrayIterator
+---
 # Клас ArrayIterator
 
 (PHP 5, PHP 7, PHP 8)

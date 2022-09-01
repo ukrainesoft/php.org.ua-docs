@@ -1,16 +1,11 @@
-Повертає WriteConcern для Manager
-
--   [« MongoDBDriverManager::getServers](mongodb-driver-manager.getservers.html)
-    
--   [MongoDBDriverManager::removeSubscriber »](mongodb-driver-manager.removesubscriber.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Повертає WriteConcern для Manager
-    
-
+---
+navigation:
+  - mongodb-driver-manager.getservers.html: '« MongoDBDriverManager::getServers'
+  - mongodb-driver-manager.removesubscriber.html: 'MongoDBDriverManager::removeSubscriber »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::getWriteConcern'
+---
 # MongoDBDriverManager::getWriteConcern
 
 (mongodb >=1.0.0)

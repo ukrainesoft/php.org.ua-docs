@@ -1,16 +1,11 @@
-Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
-
--   [« ctypeprint](function.ctype-print.html)
-    
--   [ctypespace »](function.ctype-space.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції Ctype](ref.ctype.html)
-    
--   Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
-    
-
+---
+navigation:
+  - function.ctype-print.html: « ctypeprint
+  - function.ctype-space.html: ctypespace »
+  - index.html: PHP Manual
+  - ref.ctype.html: Опції Ctype
+title: ctypepunct
+---
 # ctypepunct
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

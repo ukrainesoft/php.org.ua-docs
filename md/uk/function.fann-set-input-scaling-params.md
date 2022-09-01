@@ -1,16 +1,11 @@
-Розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
-
--   [« fannseterrorlog](function.fann-set-error-log.html)
-    
--   [fannsetlearningmomentum »](function.fann-set-learning-momentum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
-    
-
+---
+navigation:
+  - function.fann-set-error-log.html: « fannseterrorlog
+  - function.fann-set-learning-momentum.html: fannsetlearningmomentum »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetinputscalingparams
+---
 # fannsetinputscalingparams
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Призначення setRequestUri
-
--   [« YafRequestAbstract::setParam](yaf-request-abstract.setparam.html)
-    
--   [YafRequestAbstract::setRouted »](yaf-request-abstract.setrouted.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Призначення setRequestUri
-    
-
+---
+navigation:
+  - yaf-request-abstract.setparam.html: '« YafRequestAbstract::setParam'
+  - yaf-request-abstract.setrouted.html: 'YafRequestAbstract::setRouted »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::setRequestUri'
+---
 # YafRequestAbstract::setRequestUri
 
 (Yaf> = 2.1.0)

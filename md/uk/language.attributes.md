@@ -1,16 +1,11 @@
-Атрибути
-
--   [« Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.md)
-    
--   [Введення в атрибути »](language.attributes.overview.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Атрибути
-    
-
+---
+navigation:
+  - language.generators.comparison.md: « Порівняння генераторів з об'єктами класу Iterator
+  - language.attributes.overview.md: Введення в атрибути »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Атрибути
+---
 # Атрибути
 
 ## Зміст

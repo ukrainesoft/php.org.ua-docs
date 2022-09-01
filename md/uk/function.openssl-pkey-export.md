@@ -1,16 +1,11 @@
-Отримує рядок із ключем у форматі PEM
-
--   [« opensslpkeyexportтоfile](function.openssl-pkey-export-to-file.html)
-    
--   [opensslpkeyfree »](function.openssl-pkey-free.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Отримує рядок із ключем у форматі PEM
-    
-
+---
+navigation:
+  - function.openssl-pkey-export-to-file.html: « opensslpkeyexportтоfile
+  - function.openssl-pkey-free.html: opensslpkeyfree »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslpkeyexport
+---
 # opensslpkeyexport
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,6 +42,6 @@ openssl_pkey_export(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |

@@ -1,16 +1,11 @@
-Розгалужити (fork) поточний запущений процес
-
--   [pcntlexec](function.pcntl-exec.html)
-    
--   [pcntlgetlasterror »](function.pcntl-get-last-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Розгалужити (fork) поточний запущений процес
-    
-
+---
+navigation:
+  - function.pcntl-exec.html: pcntlexec
+  - function.pcntl-get-last-error.html: pcntlgetlasterror »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlfork
+---
 # pcntlfork
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

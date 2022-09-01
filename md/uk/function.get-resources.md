@@ -1,16 +1,11 @@
-Повертає активні ресурси
-
--   [« getrequiredfiles](function.get-required-files.html)
-    
--   [getenv »](function.getenv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає активні ресурси
-    
-
+---
+navigation:
+  - function.get-required-files.html: « getrequiredfiles
+  - function.getenv.md: getenv »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getresources
+---
 # getresources
 
 (PHP 7, PHP 8)
@@ -43,9 +38,9 @@ get_resources(?string $type = null): array
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `type` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `type` тепер допускає значення null. |
 
 ### Приклади
 

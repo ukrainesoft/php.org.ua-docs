@@ -1,16 +1,11 @@
-Повертає ітератор до першого елементу
-
--   [« SimpleXMLIterator::next](simplexmliterator.next.html)
-    
--   [SimpleXMLIterator::valid »](simplexmliterator.valid.html)
-    
--   [PHP Manual](index.html)
-    
--   [SimpleXMLIterator](class.simplexmliterator.html)
-    
--   Повертає ітератор до першого елементу
-    
-
+---
+navigation:
+  - simplexmliterator.next.html: '« SimpleXMLIterator::next'
+  - simplexmliterator.valid.html: 'SimpleXMLIterator::valid »'
+  - index.html: PHP Manual
+  - class.simplexmliterator.html: SimpleXMLIterator
+title: 'SimpleXMLIterator::rewind'
+---
 # SimpleXMLIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)

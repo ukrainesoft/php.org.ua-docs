@@ -1,16 +1,11 @@
-Створює новий екземпляр класу DOMComment
-
--   [« DOMComment](class.domcomment.html)
-    
--   [DOMDocument »](class.domdocument.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMComment](class.domcomment.html)
-    
--   Створює новий екземпляр класу DOMComment
-    
-
+---
+navigation:
+  - class.domcomment.html: « DOMComment
+  - class.domdocument.html: DOMDocument »
+  - index.html: PHP Manual
+  - class.domcomment.html: DOMComment
+title: 'DOMComment::construct'
+---
 # DOMComment::construct
 
 (PHP 5, PHP 7, PHP 8)

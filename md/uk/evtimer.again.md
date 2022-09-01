@@ -1,16 +1,11 @@
-Перезапускає таймер спостерігача
-
--   [« EvTimer](class.evtimer.md)
-    
--   [EvTimer::construct »](evtimer.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvTimer](class.evtimer.md)
-    
--   Перезапускає таймер спостерігача
-    
-
+---
+navigation:
+  - class.evtimer.md: « EvTimer
+  - evtimer.construct.md: 'EvTimer::construct »'
+  - index.md: PHP Manual
+  - class.evtimer.md: EvTimer
+title: 'EvTimer::again'
+---
 # EvTimer::again
 
 (PECL ev >= 0.2.0)

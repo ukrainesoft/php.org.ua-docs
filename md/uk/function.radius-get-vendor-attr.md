@@ -1,16 +1,11 @@
-Витягує атрибут, що залежить від постачальника
-
--   [« radiusgettaggedattrtag](function.radius-get-tagged-attr-tag.html)
-    
--   [radiusputaddr »](function.radius-put-addr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Витягує атрибут, що залежить від постачальника
-    
-
+---
+navigation:
+  - function.radius-get-tagged-attr-tag.html: « radiusgettaggedattrtag
+  - function.radius-put-addr.html: radiusputaddr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusgetvendorattr
+---
 # radiusgetvendorattr
 
 (PECL radius >= 1.1.0)

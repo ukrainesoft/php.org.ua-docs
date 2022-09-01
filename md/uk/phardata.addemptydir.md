@@ -1,16 +1,11 @@
-Додати порожню директорію до tar/zip-архіву
-
--   [« PharData](class.phardata.md)
-    
--   [PharData::addFile »](phardata.addfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Додати порожню директорію до tar/zip-архіву
-    
-
+---
+navigation:
+  - class.phardata.md: « PharData
+  - phardata.addfile.md: 'PharData::addFile »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::addEmptyDir'
+---
 # PharData::addEmptyDir
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

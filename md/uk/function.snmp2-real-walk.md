@@ -1,16 +1,11 @@
-Повертає всі об'єкти, включаючи їхній ідентифікатор
-
--   [« snmp2getnext](function.snmp2-getnext.html)
-    
--   [snmp2set »](function.snmp2-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Повертає всі об'єкти, включаючи їхній ідентифікатор
-    
-
+---
+navigation:
+  - function.snmp2-getnext.html: « snmp2getnext
+  - function.snmp2-set.html: snmp2set »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmp2realwalk
+---
 # snmp2realwalk
 
 (PHP >= 5.2.0, PHP 7, PHP 8)

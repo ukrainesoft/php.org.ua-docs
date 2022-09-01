@@ -1,16 +1,11 @@
-Розшифровує дані за допомогою закритого ключа
-
--   [« opensslpkeynew](function.openssl-pkey-new.html)
-    
--   [opensslprivateencrypt »](function.openssl-private-encrypt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Розшифровує дані за допомогою закритого ключа
-    
-
+---
+navigation:
+  - function.openssl-pkey-new.html: « opensslpkeynew
+  - function.openssl-private-encrypt.html: opensslprivateencrypt »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslprivatedecrypt
+---
 # opensslprivatedecrypt
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ openssl_private_decrypt(    string $data,    string &$decrypted_data, �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Дивіться також
 

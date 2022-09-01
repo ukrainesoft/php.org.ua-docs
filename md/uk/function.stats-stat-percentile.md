@@ -1,16 +1,11 @@
-Повертає значення відсотка
-
--   [« statsstatpairedт](function.stats-stat-paired-t.html)
-    
--   [statsstatpowersum »](function.stats-stat-powersum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Повертає значення відсотка
-    
-
+---
+navigation:
+  - function.stats-stat-paired-t.html: « statsstatpairedт
+  - function.stats-stat-powersum.html: statsstatpowersum »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsстатиpercentile
+---
 # statsстатиpercentile
 
 (PECL stats >= 1.0.0)

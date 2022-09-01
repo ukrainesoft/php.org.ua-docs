@@ -1,16 +1,11 @@
-Повертає строкову виставу Timestamp
-
--   [« MongoDBBSONTimestamp::serialize](mongodb-bson-timestamp.serialize.html)
-    
--   [MongoDBBSONTimestamp::unserialize »](mongodb-bson-timestamp.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   Повертає строкову виставу Timestamp
-    
-
+---
+navigation:
+  - mongodb-bson-timestamp.serialize.html: '« MongoDBBSONTimestamp::serialize'
+  - mongodb-bson-timestamp.unserialize.html: 'MongoDBBSONTimestamp::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::function toString() { \[native code\] }'
+---
 # MongoDBBSONTimestamp::function toString() { \[native code\] }
 
 (mongodb >=1.0.0)

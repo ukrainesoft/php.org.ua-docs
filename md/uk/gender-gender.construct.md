@@ -1,16 +1,11 @@
-Конструктор об'єкта класу Gender
-
--   [« GenderGender::connect](gender-gender.connect.html)
-    
--   [GenderGender::country »](gender-gender.country.html)
-    
--   [PHP Manual](index.md)
-    
--   [GenderGender](class.gender.md)
-    
--   Конструктор об'єкта класу Gender
-    
-
+---
+navigation:
+  - gender-gender.connect.html: '« GenderGender::connect'
+  - gender-gender.country.html: 'GenderGender::country »'
+  - index.md: PHP Manual
+  - class.gender.md: GenderGender
+title: 'GenderGender::construct'
+---
 # GenderGender::construct
 
 (PECL gender >= 0.6.0)

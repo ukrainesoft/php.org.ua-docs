@@ -1,16 +1,11 @@
-Функції xdiff
-
--   [« Обумовлені константи](xdiff.constants.html)
-    
--   [xdifffilebdiffsize »](function.xdiff-file-bdiff-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [xdiff](book.xdiff.html)
-    
--   Функції xdiff
-    
-
+---
+navigation:
+  - xdiff.constants.html: « Обумовлені константи
+  - function.xdiff-file-bdiff-size.html: xdifffilebdiffsize »
+  - index.html: PHP Manual
+  - book.xdiff.html: xdiff
+title: Функції xdiff
+---
 # Функції xdiff
 
 ## Зміст

@@ -1,16 +1,11 @@
-Повертає першу довідку
-
--   [« ldapfirstentry](function.ldap-first-entry.html)
-    
--   [ldapfreeresult »](function.ldap-free-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Повертає першу довідку
-    
-
+---
+navigation:
+  - function.ldap-first-entry.html: « ldapfirstentry
+  - function.ldap-free-result.html: ldapfreeresult »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapfirstreference
+---
 # ldapfirstreference
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

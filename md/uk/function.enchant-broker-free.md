@@ -1,16 +1,11 @@
-Звільняє ресурс брокера та його словники
-
--   [« enchantbrokerfreedict](function.enchant-broker-free-dict.html)
-    
--   [enchantbrokergetdictpath »](function.enchant-broker-get-dict-path.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Звільняє ресурс брокера та його словники
-    
-
+---
+navigation:
+  - function.enchant-broker-free-dict.html: « enchantbrokerfreedict
+  - function.enchant-broker-get-dict-path.html: enchantbrokergetdictpath »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokerfree
+---
 # enchantbrokerfree
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -41,9 +36,9 @@ enchant_broker_free(EnchantBroker $broker): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

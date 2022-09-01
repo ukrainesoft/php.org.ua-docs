@@ -1,16 +1,11 @@
-Повертає поточний об'єкт
-
--   [« SplObjectStorage::count](splobjectstorage.count.md)
-    
--   [SplObjectStorage::detach »](splobjectstorage.detach.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Повертає поточний об'єкт
-    
-
+---
+navigation:
+  - splobjectstorage.count.md: '« SplObjectStorage::count'
+  - splobjectstorage.detach.md: 'SplObjectStorage::detach »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::current'
+---
 # SplObjectStorage::current
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public SplObjectStorage::current(): object
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Метод **SplObjectStorage::current()** тепер викидає виняток [Error](class.error.md), якщо поточна позиція є неприпустимою. Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Метод **SplObjectStorage::current()** тепер викидає виняток [Error](class.error.md), якщо поточна позиція є неприпустимою. Раніше натомість поверталося значення **`false`** |
 
 ### Приклади
 

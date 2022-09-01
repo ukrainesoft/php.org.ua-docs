@@ -1,16 +1,11 @@
-Функції Zip
-
--   [« ZipArchive::unchangeName](ziparchive.unchangename.md)
-    
--   [zipclose »](function.zip-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Zip](book.zip.md)
-    
--   Функції Zip
-    
-
+---
+navigation:
+  - ziparchive.unchangename.md: '« ZipArchive::unchangeName'
+  - function.zip-close.html: zipclose »
+  - index.md: PHP Manual
+  - book.zip.md: Zip
+title: Функції Zip
+---
 # Функції Zip
 
 **Увага**

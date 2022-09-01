@@ -1,16 +1,11 @@
-Отримує текст для останньої помилки коду Collator
-
--   [« Collator::getErrorCode](collator.geterrorcode.md)
-    
--   [Collator::getLocale »](collator.getlocale.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Отримує текст для останньої помилки коду Collator
-    
-
+---
+navigation:
+  - collator.geterrorcode.md: '« Collator::getErrorCode'
+  - collator.getlocale.md: 'Collator::getLocale »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::getErrorMessage'
+---
 # Collator::getErrorMessage
 
 # collatorgeterrormessage

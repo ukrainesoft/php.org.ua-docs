@@ -1,16 +1,11 @@
-З'єднання з базами даних ODBC або DB2
-
--   [« ODBC и DB2 (PDO)](ref.pdo-odbc.html)
-    
--   [PostgreSQL (PDO) »](ref.pdo-pgsql.html)
-    
--   [PHP Manual](index.html)
-    
--   [ODBC и DB2 (PDO)](ref.pdo-odbc.html)
-    
--   З'єднання з базами даних ODBC або DB2
-    
-
+---
+navigation:
+  - ref.pdo-odbc.html: « ODBC и DB2 (PDO)
+  - ref.pdo-pgsql.html: PostgreSQL (PDO) »
+  - index.html: PHP Manual
+  - ref.pdo-odbc.html: ODBC и DB2 (PDO)
+title: PDOODBC DSN
+---
 # PDOODBC DSN
 
 (PECL PDOODBC >= 0.1.0)

@@ -1,16 +1,11 @@
-Клас IntlDateFormatter
-
--   [« IntlTimeZone::useDaylightTime](intltimezone.usedaylighttime.html)
-    
--   [IntlDateFormatter::create »](intldateformatter.create.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Клас IntlDateFormatter
-    
-
+---
+navigation:
+  - intltimezone.usedaylighttime.html: '« IntlTimeZone::useDaylightTime'
+  - intldateformatter.create.html: 'IntlDateFormatter::create »'
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Клас IntlDateFormatter
+---
 # Клас IntlDateFormatter
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

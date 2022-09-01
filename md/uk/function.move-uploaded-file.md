@@ -1,16 +1,11 @@
-Переміщує завантажений файл у нове місце
-
--   [« mkdir](function.mkdir.html)
-    
--   [parseinifile »](function.parse-ini-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Переміщує завантажений файл у нове місце
-    
-
+---
+navigation:
+  - function.mkdir.html: « mkdir
+  - function.parse-ini-file.html: parseinifile »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: moveuploadedfile
+---
 # moveuploadedfile
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)

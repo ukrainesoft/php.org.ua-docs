@@ -1,16 +1,11 @@
-Повертає значення group.limit
-
--   [« SolrQuery::getGroupFunctions](solrquery.getgroupfunctions.html)
-    
--   [SolrQuery::getGroupMain »](solrquery.getgroupmain.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає значення group.limit
-    
-
+---
+navigation:
+  - solrquery.getgroupfunctions.html: '« SolrQuery::getGroupFunctions'
+  - solrquery.getgroupmain.html: 'SolrQuery::getGroupMain »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getGroupLimit'
+---
 # SolrQuery::getGroupLimit
 
 (PECL solr> = 2.2.0)

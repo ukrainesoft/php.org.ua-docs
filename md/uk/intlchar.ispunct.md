@@ -1,16 +1,11 @@
-Перевіряє, чи є символом пунктуації.
-
--   [« IntlChar::isprint](intlchar.isprint.html)
-    
--   [IntlChar::isspace »](intlchar.isspace.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевіряє, чи є символом пунктуації.
-    
-
+---
+navigation:
+  - intlchar.isprint.html: '« IntlChar::isprint'
+  - intlchar.isspace.html: 'IntlChar::isspace »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::ispunct'
+---
 # IntlChar::ispunct
 
 (PHP 7, PHP 8)

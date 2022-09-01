@@ -1,16 +1,11 @@
-Визначає, чи припадають певні дата/час на вихідні
-
--   [« IntlCalendar::isSet](intlcalendar.isset.md)
-    
--   [IntlCalendar::roll »](intlcalendar.roll.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Визначає, чи припадають певні дата/час на вихідні
-    
-
+---
+navigation:
+  - intlcalendar.isset.md: '« IntlCalendar::isSet'
+  - intlcalendar.roll.md: 'IntlCalendar::roll »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::isWeekend'
+---
 # IntlCalendar::isWeekend
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

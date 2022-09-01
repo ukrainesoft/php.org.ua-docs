@@ -1,16 +1,11 @@
-Виконання команди на віддаленому сервері
-
--   [« ssh2disconnect](function.ssh2-disconnect.html)
-    
--   [ssh2fetchstream »](function.ssh2-fetch-stream.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Виконання команди на віддаленому сервері
-    
-
+---
+navigation:
+  - function.ssh2-disconnect.html: « ssh2disconnect
+  - function.ssh2-fetch-stream.html: ssh2fetchstream »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2exec
+---
 # ssh2exec
 
 (PECL ssh2> = 0.9.0)

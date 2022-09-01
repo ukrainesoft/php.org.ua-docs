@@ -1,16 +1,11 @@
-Повертає зображення у вигляді рядка
-
--   [« Imagick::tintImage](imagick.tintimage.html)
-    
--   [Imagick::transformImage »](imagick.transformimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає зображення у вигляді рядка
-    
-
+---
+navigation:
+  - imagick.tintimage.html: '« Imagick::tintImage'
+  - imagick.transformimage.html: 'Imagick::transformImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::toString'
+---
 # Imagick::toString
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Видалити діапазон символів із вузла
-
--   [« DOMCharacterData::appendData](domcharacterdata.appenddata.html)
-    
--   [DOMCharacterData::insertData »](domcharacterdata.insertdata.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMCharacterData](class.domcharacterdata.html)
-    
--   Видалити діапазон символів із вузла
-    
-
+---
+navigation:
+  - domcharacterdata.appenddata.html: '« DOMCharacterData::appendData'
+  - domcharacterdata.insertdata.html: 'DOMCharacterData::insertData »'
+  - index.html: PHP Manual
+  - class.domcharacterdata.html: DOMCharacterData
+title: 'DOMCharacterData::deleteData'
+---
 # DOMCharacterData::deleteData
 
 (PHP 5, PHP 7, PHP 8)

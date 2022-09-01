@@ -1,16 +1,11 @@
-Повертає інформацію про колонку з результату запиту як об'єкта
-
--   [« mysqlfetchassoc](function.mysql-fetch-assoc.html)
-    
--   [mysqlfetchlengths »](function.mysql-fetch-lengths.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає інформацію про колонку з результату запиту як об'єкта
-    
-
+---
+navigation:
+  - function.mysql-fetch-assoc.html: « mysqlfetchassoc
+  - function.mysql-fetch-lengths.html: mysqlfetchlengths »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfetchfield
+---
 # mysqlfetchfield
 
 (PHP 4, PHP 5)

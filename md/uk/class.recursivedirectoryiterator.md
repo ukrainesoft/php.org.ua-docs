@@ -1,16 +1,11 @@
-Клас RecursiveDirectoryIterator
-
--   [« RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md)
-    
--   [RecursiveDirectoryIterator::construct »](recursivedirectoryiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RecursiveDirectoryIterator
-    
-
+---
+navigation:
+  - recursivecallbackfilteriterator.haschildren.md: '« RecursiveCallbackFilterIterator::hasChildren'
+  - recursivedirectoryiterator.construct.md: 'RecursiveDirectoryIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveDirectoryIterator
+---
 # Клас RecursiveDirectoryIterator
 
 (PHP 5, PHP 7, PHP 8)

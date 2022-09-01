@@ -1,16 +1,11 @@
-Перевіряє, чи використовує алгоритм блокові режими
-
--   [« mcryptencісblockalgorithmmode](function.mcrypt-enc-is-block-algorithm-mode.html)
-    
--   [mcryptencісblockmode »](function.mcrypt-enc-is-block-mode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Перевіряє, чи використовує алгоритм блокові режими
-    
-
+---
+navigation:
+  - function.mcrypt-enc-is-block-algorithm-mode.html: « mcryptencісblockalgorithmmode
+  - function.mcrypt-enc-is-block-mode.html: mcryptencісblockmode »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptencісblockalgorithm
+---
 # mcryptencісblockalgorithm
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

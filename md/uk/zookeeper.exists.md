@@ -1,16 +1,11 @@
-Синхронно перевіряє наявність вузла в zookeeper
-
--   [« Zookeeper::delete](zookeeper.delete.html)
-    
--   [Zookeeper::get »](zookeeper.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Синхронно перевіряє наявність вузла в zookeeper
-    
-
+---
+navigation:
+  - zookeeper.delete.html: '« Zookeeper::delete'
+  - zookeeper.get.html: 'Zookeeper::get »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::exists'
+---
 # Zookeeper::exists
 
 (PECL zookeeper >= 0.1.0)

@@ -1,16 +1,11 @@
-Розбір XML-даних та приміщення в масив
-
--   [« xmlgeterrorcode](function.xml-get-error-code.html)
-    
--   [xmlparse »](function.xml-parse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Розбір XML-даних та приміщення в масив
-    
-
+---
+navigation:
+  - function.xml-get-error-code.html: « xmlgeterrorcode
+  - function.xml-parse.html: xmlparse »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlparseintostruct
+---
 # xmlparseintostruct
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ xml_parse_into_struct(    XMLParser $parser,    string $data,    arr
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

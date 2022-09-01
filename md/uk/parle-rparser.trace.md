@@ -1,16 +1,11 @@
-Стежить за роботою парсера
-
--   [« ParleRParser::tokenId](parle-rparser.tokenid.html)
-    
--   [ParleRParser::validate »](parle-rparser.validate.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Стежить за роботою парсера
-    
-
+---
+navigation:
+  - parle-rparser.tokenid.html: '« ParleRParser::tokenId'
+  - parle-rparser.validate.html: 'ParleRParser::validate »'
+  - index.html: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::trace'
+---
 # ParleRParser::trace
 
 (PECL parle >= 0.7.0)

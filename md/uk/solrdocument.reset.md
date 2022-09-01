@@ -1,16 +1,11 @@
-Псевдонім SolrDocument::clear()
-
--   [« SolrDocument::offsetUnset](solrdocument.offsetunset.md)
-    
--   [SolrDocument::rewind »](solrdocument.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Псевдонім SolrDocument::clear()
-    
-
+---
+navigation:
+  - solrdocument.offsetunset.md: '« SolrDocument::offsetUnset'
+  - solrdocument.rewind.md: 'SolrDocument::rewind »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::reset'
+---
 # SolrDocument::reset
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Клас SyncMutex
-
--   [« Обумовлені константи](sync.constants.html)
-    
--   [SyncMutex::construct »](syncmutex.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Sync](book.sync.html)
-    
--   Клас SyncMutex
-    
-
+---
+navigation:
+  - sync.constants.html: « Обумовлені константи
+  - syncmutex.construct.html: 'SyncMutex::construct »'
+  - index.html: PHP Manual
+  - book.sync.html: Sync
+title: Клас SyncMutex
+---
 # Клас SyncMutex
 
 (PECL sync >= 1.0.0)

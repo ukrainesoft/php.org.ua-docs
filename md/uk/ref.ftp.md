@@ -1,16 +1,11 @@
-Функції FTP
-
--   [« Простое использование](ftp.examples-basic.html)
-    
--   [ftpalloc »](function.ftp-alloc.html)
-    
--   [PHP Manual](index.md)
-    
--   [FTP](book.ftp.md)
-    
--   Функції FTP
-    
-
+---
+navigation:
+  - ftp.examples-basic.html: « Простое использование
+  - function.ftp-alloc.html: ftpalloc »
+  - index.md: PHP Manual
+  - book.ftp.md: FTP
+title: Функції FTP
+---
 # Функції FTP
 
 ## Зміст

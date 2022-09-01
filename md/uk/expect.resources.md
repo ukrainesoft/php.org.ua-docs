@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](expect.configuration.md)
-    
--   [Обумовлені константи »](expect.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](expect.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - expect.configuration.md: « Налаштування під час виконання
+  - expect.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - expect.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 [expectpopen()](function.expect-popen.html) повертає відкритий потік PTY використовуваний [expectexpectl()](function.expect-expectl.html)

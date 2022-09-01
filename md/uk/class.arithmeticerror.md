@@ -1,16 +1,11 @@
-ArithmeticError
-
--   [« ArgumentCountError](class.argumentcounterror.md)
-    
--   [AssertionError »](class.assertionerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   ArithmeticError
-    
-
+---
+navigation:
+  - class.argumentcounterror.md: « ArgumentCountError
+  - class.assertionerror.md: AssertionError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: ArithmeticError
+---
 # ArithmeticError
 
 (PHP 7, PHP 8)

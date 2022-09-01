@@ -1,16 +1,11 @@
-Перевіряє, чи є значення допустимим кінцевим числом
-
--   [« intdiv](function.intdiv.md)
-    
--   [ісinfinite »](function.is-infinite.html)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Перевіряє, чи є значення допустимим кінцевим числом
-    
-
+---
+navigation:
+  - function.intdiv.md: « intdiv
+  - function.is-infinite.html: ісinfinite »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: ісfinite
+---
 # ісfinite
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевіряє, чи визначено властивість у конструкторі
-
--   [« ReflectionProperty::isPrivate](reflectionproperty.isprivate.md)
-    
--   [ReflectionProperty::isProtected »](reflectionproperty.isprotected.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Перевіряє, чи визначено властивість у конструкторі
-    
-
+---
+navigation:
+  - reflectionproperty.isprivate.md: '« ReflectionProperty::isPrivate'
+  - reflectionproperty.isprotected.md: 'ReflectionProperty::isProtected »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::isPromoted'
+---
 # ReflectionProperty::isPromoted
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Клас Exception
-
--   [« DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.html)
-    
--   [mysqlxdevapiExecutable »](class.mysql-xdevapi-executable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Exception
-    
-
+---
+navigation:
+  - mysql-xdevapi-docresult.getwarningscount.html: '« DocResult::getWarningsCount'
+  - class.mysql-xdevapi-executable.html: mysqlxdevapiExecutable »
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Exception
+---
 # Клас Exception
 
 (PECL mysql-xdevapi >= 8.0.11)

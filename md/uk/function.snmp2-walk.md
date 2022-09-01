@@ -1,16 +1,11 @@
-Отримує всі об'єкти SNMP з агента
-
--   [« snmp2set](function.snmp2-set.html)
-    
--   [snmpv3get »](function.snmp3-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Отримує всі об'єкти SNMP з агента
-    
-
+---
+navigation:
+  - function.snmp2-set.html: « snmp2set
+  - function.snmp3-get.html: snmpv3get »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmp2walk
+---
 # snmp2walk
 
 (PHP >= 5.2.0, PHP 7, PHP 8)

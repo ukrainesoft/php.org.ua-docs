@@ -1,16 +1,11 @@
-Повертає уявлення, яке може бути перетворено на JSON
-
--   [« MongoDBBSONJavascript::getScope](mongodb-bson-javascript.getscope.html)
-    
--   [MongoDBBSONJavascript::serialize »](mongodb-bson-javascript.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   Повертає уявлення, яке може бути перетворено на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-javascript.getscope.html: '« MongoDBBSONJavascript::getScope'
+  - mongodb-bson-javascript.serialize.html: 'MongoDBBSONJavascript::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+title: 'MongoDBBSONJavascript::jsonSerialize'
+---
 # MongoDBBSONJavascript::jsonSerialize
 
 (mongodb >=1.2.0)

@@ -1,16 +1,11 @@
-Yaconf
-
--   [« YafExceptionLoadFailedView](class.yaf-exception-loadfailed-view.html)
-    
--   [Введение »](intro.yaconf.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Yaconf
-    
-
+---
+navigation:
+  - class.yaf-exception-loadfailed-view.html: « YafExceptionLoadFailedView
+  - intro.yaconf.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Yaconf
+---
 # Yaconf
 
 -   [Введение](intro.yaconf.md)

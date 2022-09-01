@@ -1,16 +1,11 @@
-Склеює всі значення в рядок
-
--   [« DsSet::isEmpty](ds-set.isempty.html)
-    
--   [ДсSet::jsonSerialize »](ds-set.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Склеює всі значення в рядок
-    
-
+---
+navigation:
+  - ds-set.isempty.html: '« DsSet::isEmpty'
+  - ds-set.jsonserialize.html: 'ДсSet::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::join'
+---
 # ДсSet::join
 
 (PECL ds >= 1.0.0)

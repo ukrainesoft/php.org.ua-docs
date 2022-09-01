@@ -1,16 +1,11 @@
-Встановлення товщини ліній
-
--   [« imagesetstyle](function.imagesetstyle.html)
-    
--   [imagesettile »](function.imagesettile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Встановлення товщини ліній
-    
-
+---
+navigation:
+  - function.imagesetstyle.html: « imagesetstyle
+  - function.imagesettile.html: imagesettile »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagesetthickness
+---
 # imagesetthickness
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagesetthickness(GdImage $image, int $thickness): bool
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

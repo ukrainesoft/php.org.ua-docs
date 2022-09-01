@@ -1,16 +1,11 @@
-Генерація хеш-значення, використовуючи вміст заданого файлу
-
--   [« hashequals](function.hash-equals.html)
-    
--   [hashfinal »](function.hash-final.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Генерація хеш-значення, використовуючи вміст заданого файлу
-    
-
+---
+navigation:
+  - function.hash-equals.html: « hashequals
+  - function.hash-final.html: hashfinal »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashfile
+---
 # hashfile
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
@@ -47,9 +42,9 @@ hash_file(    string $algo,    string $filename,    bool $binary = f
 
 ### список змін
 
-| Версия | Описание                   |
-|--------|----------------------------|
-|        | Доданий параметр `options` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `options` |
 
 ### Приклади
 

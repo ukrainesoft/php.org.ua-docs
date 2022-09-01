@@ -1,16 +1,11 @@
-Повертає список груп для поточного процесу
-
--   [« posixgetgrnam](function.posix-getgrnam.html)
-    
--   [posixgetlogin »](function.posix-getlogin.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає список груп для поточного процесу
-    
-
+---
+navigation:
+  - function.posix-getgrnam.html: « posixgetgrnam
+  - function.posix-getlogin.html: posixgetlogin »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixgetgroups
+---
 # posixgetgroups
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

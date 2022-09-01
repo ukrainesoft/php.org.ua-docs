@@ -1,16 +1,11 @@
-Клас SwooleChannel
-
--   [« SwooleBuffer::write](swoole-buffer.write.html)
-    
--   [SwooleChannel::construct »](swoole-channel.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleChannel
-    
-
+---
+navigation:
+  - swoole-buffer.write.html: '« SwooleBuffer::write'
+  - swoole-channel.construct.html: 'SwooleChannel::construct »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleChannel
+---
 # Клас SwooleChannel
 
 (PECL swoole >= 1.9.0)

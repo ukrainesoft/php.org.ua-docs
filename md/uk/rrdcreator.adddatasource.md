@@ -1,16 +1,11 @@
-Додає визначення джерела даних для бази даних RRD
-
--   [« RRDCreator::addArchive](rrdcreator.addarchive.html)
-    
--   [RRDCreator::construct »](rrdcreator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [RRDCreator](class.rrdcreator.html)
-    
--   Додає визначення джерела даних для бази даних RRD
-    
-
+---
+navigation:
+  - rrdcreator.addarchive.html: '« RRDCreator::addArchive'
+  - rrdcreator.construct.html: 'RRDCreator::construct »'
+  - index.html: PHP Manual
+  - class.rrdcreator.html: RRDCreator
+title: 'RRDCreator::addDataSource'
+---
 # RRDCreator::addDataSource
 
 (PECL rrd >= 0.9.0)

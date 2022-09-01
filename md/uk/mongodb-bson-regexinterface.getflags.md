@@ -1,16 +1,11 @@
-Повертає прапори RegexInterface
-
--   [« MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
-    
--   [MongoDBBSONRegexInterface::getPattern »](mongodb-bson-regexinterface.getpattern.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
-    
--   Повертає прапори RegexInterface
-    
-
+---
+navigation:
+  - class.mongodb-bson-regexinterface.html: « MongoDBBSONRegexInterface
+  - mongodb-bson-regexinterface.getpattern.html: 'MongoDBBSONRegexInterface::getPattern »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regexinterface.html: MongoDBBSONRegexInterface
+title: 'MongoDBBSONRegexInterface::getFlags'
+---
 # MongoDBBSONRegexInterface::getFlags
 
 (mongodb >=1.3.0)

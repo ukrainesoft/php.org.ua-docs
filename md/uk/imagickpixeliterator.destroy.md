@@ -1,16 +1,11 @@
-Звільняє ресурси, пов'язані з PixelIterator
-
--   [« ImagickPixelIterator::construct](imagickpixeliterator.construct.html)
-    
--   [ImagickPixelIterator::getCurrentIteratorRow »](imagickpixeliterator.getcurrentiteratorrow.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
-    
--   Звільняє ресурси, пов'язані з PixelIterator
-    
-
+---
+navigation:
+  - imagickpixeliterator.construct.html: '« ImagickPixelIterator::construct'
+  - imagickpixeliterator.getcurrentiteratorrow.html: 'ImagickPixelIterator::getCurrentIteratorRow »'
+  - index.html: PHP Manual
+  - class.imagickpixeliterator.html: ImagickPixelIterator
+title: 'ImagickPixelIterator::destroy'
+---
 # ImagickPixelIterator::destroy
 
 (PECL imagick 2, PECL imagick 3)

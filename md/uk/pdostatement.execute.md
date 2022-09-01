@@ -1,16 +1,11 @@
-Запускає підготовлений запит на виконання
-
--   [« PDOStatement::errorInfo](pdostatement.errorinfo.md)
-    
--   [PDOStatement::fetch »](pdostatement.fetch.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Запускає підготовлений запит на виконання
-    
-
+---
+navigation:
+  - pdostatement.errorinfo.md: '« PDOStatement::errorInfo'
+  - pdostatement.fetch.md: 'PDOStatement::fetch »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::execute'
+---
 # PDOStatement::execute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

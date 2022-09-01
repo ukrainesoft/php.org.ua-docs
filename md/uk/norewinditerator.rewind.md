@@ -1,16 +1,11 @@
-Запобігає поверненню внутрішнього ітератора на початок
-
--   [« NoRewindIterator::next](norewinditerator.next.md)
-    
--   [NoRewindIterator::valid »](norewinditerator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [NoRewindIterator](class.norewinditerator.md)
-    
--   Запобігає поверненню внутрішнього ітератора на початок
-    
-
+---
+navigation:
+  - norewinditerator.next.md: '« NoRewindIterator::next'
+  - norewinditerator.valid.md: 'NoRewindIterator::valid »'
+  - index.md: PHP Manual
+  - class.norewinditerator.md: NoRewindIterator
+title: 'NoRewindIterator::rewind'
+---
 # NoRewindIterator::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

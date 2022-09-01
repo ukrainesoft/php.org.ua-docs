@@ -1,16 +1,11 @@
-Відкриває постійне з'єднання з базою даних InterBase
-
--   [« ibaseparaminfo](function.ibase-param-info.html)
-    
--   [ibaseprepare »](function.ibase-prepare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Відкриває постійне з'єднання з базою даних InterBase
-    
-
+---
+navigation:
+  - function.ibase-param-info.html: « ibaseparaminfo
+  - function.ibase-prepare.html: ibaseprepare »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasepconnect
+---
 # ibasepconnect
 
 (PHP 5, PHP 7 < 7.4.0)

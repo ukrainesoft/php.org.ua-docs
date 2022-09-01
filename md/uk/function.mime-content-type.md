@@ -1,16 +1,11 @@
-Визначає MIME-тип вмісту файлу
-
--   [« finfosetflags](function.finfo-set-flags.html)
-    
--   [finfo »](class.finfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции модуля Fileinfo](ref.fileinfo.md)
-    
--   Визначає MIME-тип вмісту файлу
-    
-
+---
+navigation:
+  - function.finfo-set-flags.html: « finfosetflags
+  - class.finfo.md: finfo »
+  - index.md: PHP Manual
+  - ref.fileinfo.md: Функции модуля Fileinfo
+title: mimecontenttype
+---
 # mimecontenttype
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

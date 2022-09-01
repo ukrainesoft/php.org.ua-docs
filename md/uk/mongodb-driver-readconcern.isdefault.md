@@ -1,16 +1,11 @@
-Перевіряє, чи є гарантією читання за умовчанням
-
--   [« MongoDBDriverReadConcern::getLevel](mongodb-driver-readconcern.getlevel.html)
-    
--   [MongoDBDriverReadConcern::serialize »](mongodb-driver-readconcern.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
-    
--   Перевіряє, чи є гарантією читання за умовчанням
-    
-
+---
+navigation:
+  - mongodb-driver-readconcern.getlevel.html: '« MongoDBDriverReadConcern::getLevel'
+  - mongodb-driver-readconcern.serialize.html: 'MongoDBDriverReadConcern::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+title: 'MongoDBDriverReadConcern::isDefault'
+---
 # MongoDBDriverReadConcern::isDefault
 
 (mongodb >=1.3.0)

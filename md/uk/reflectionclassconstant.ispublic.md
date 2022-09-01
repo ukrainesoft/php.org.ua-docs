@@ -1,16 +1,11 @@
-Перевіряє, чи константа є загальнодоступною
-
--   [« ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.md)
-    
--   [ReflectionClassConstant::toString »](reflectionclassconstant.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.md)
-    
--   Перевіряє, чи константа є загальнодоступною
-    
-
+---
+navigation:
+  - reflectionclassconstant.isprotected.md: '« ReflectionClassConstant::isProtected'
+  - reflectionclassconstant.tostring.md: 'ReflectionClassConstant::toString »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::isPublic'
+---
 # ReflectionClassConstant::isPublic
 
 (PHP 7> = 7.1.0, PHP 8)

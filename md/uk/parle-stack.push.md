@@ -1,16 +1,11 @@
-Поміщає елемент у стек
-
--   [« ParleStack::pop](parle-stack.pop.html)
-    
--   [ParleToken »](class.parle-token.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleStack](class.parle-stack.html)
-    
--   Поміщає елемент у стек
-    
-
+---
+navigation:
+  - parle-stack.pop.html: '« ParleStack::pop'
+  - class.parle-token.html: ParleToken »
+  - index.md: PHP Manual
+  - class.parle-stack.html: ParleStack
+title: 'ParleStack::push'
+---
 # ParleStack::push
 
 (PECL parle >= 0.5.1)

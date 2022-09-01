@@ -1,16 +1,11 @@
-Інтерфейс DOMChildNode
-
--   [« DOMCharacterData::substringData](domcharacterdata.substringdata.md)
-    
--   [DOMChildNode::after »](domchildnode.after.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Інтерфейс DOMChildNode
-    
-
+---
+navigation:
+  - domcharacterdata.substringdata.md: '« DOMCharacterData::substringData'
+  - domchildnode.after.md: 'DOMChildNode::after »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Інтерфейс DOMChildNode
+---
 # Інтерфейс DOMChildNode
 
 (PHP 8)

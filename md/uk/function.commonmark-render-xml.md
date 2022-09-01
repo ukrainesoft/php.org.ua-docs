@@ -1,16 +1,11 @@
-Відображення
-
--   [« CommonMarkRenderMan](function.commonmark-render-man.html)
-    
--   [Parle »](book.parle.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CommonMark](ref.cmark.md)
-    
--   Відображення
-    
-
+---
+navigation:
+  - function.commonmark-render-man.html: « CommonMarkRenderMan
+  - book.parle.md: Parle »
+  - index.md: PHP Manual
+  - ref.cmark.md: Функции CommonMark
+title: CommonMarkRenderXML
+---
 # CommonMarkRenderXML
 
 (cmark >= 1.0.0)

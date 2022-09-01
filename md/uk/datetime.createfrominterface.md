@@ -1,16 +1,11 @@
-Повертає новий об'єкт DateTime, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
-
--   [« DateTime::createFromImmutable](datetime.createfromimmutable.html)
-    
--   [DateTime::getLastErrors »](datetime.getlasterrors.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTime](class.datetime.html)
-    
--   Повертає новий об'єкт DateTime, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
-    
-
+---
+navigation:
+  - datetime.createfromimmutable.html: '« DateTime::createFromImmutable'
+  - datetime.getlasterrors.html: 'DateTime::getLastErrors »'
+  - index.html: PHP Manual
+  - class.datetime.html: DateTime
+title: 'DateTime::createFromInterface'
+---
 # DateTime::createFromInterface
 
 (PHP 8)

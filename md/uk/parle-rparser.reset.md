@@ -1,16 +1,11 @@
-Скидає стан парсера
-
--   [« ParleRParser::push](parle-rparser.push.html)
-    
--   [ParleRParser::right »](parle-rparser.right.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Скидає стан парсера
-    
-
+---
+navigation:
+  - parle-rparser.push.html: '« ParleRParser::push'
+  - parle-rparser.right.html: 'ParleRParser::right »'
+  - index.md: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::reset'
+---
 # ParleRParser::reset
 
 (PECL parle >= 0.7.1)

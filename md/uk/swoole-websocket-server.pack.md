@@ -1,16 +1,11 @@
-Отримання пакету двійкових даних для надсилання однієї групи даних (frame)
-
--   [« SwooleWebSocketServer::on](swoole-websocket-server.on.html)
-    
--   [SwooleWebSocketServer::push »](swoole-websocket-server.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleWebSocketServer](class.swoole-websocket-server.html)
-    
--   Отримання пакету двійкових даних для надсилання однієї групи даних (frame)
-    
-
+---
+navigation:
+  - swoole-websocket-server.on.html: '« SwooleWebSocketServer::on'
+  - swoole-websocket-server.push.html: 'SwooleWebSocketServer::push »'
+  - index.md: PHP Manual
+  - class.swoole-websocket-server.html: SwooleWebSocketServer
+title: 'SwooleWebSocketServer::pack'
+---
 # SwooleWebSocketServer::pack
 
 (PECL swoole >= 1.9.0)

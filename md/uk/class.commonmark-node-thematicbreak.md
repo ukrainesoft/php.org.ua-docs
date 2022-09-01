@@ -1,16 +1,11 @@
-ThematicBreak успадковує CommonMarkNode
-
--   [« CommonMarkNodeTextEmphasis](class.commonmark-node-text-emphasis.html)
-    
--   [CommonMarkNodeSoftBreak »](class.commonmark-node-softbreak.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   ThematicBreak успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-text-emphasis.html: « CommonMarkNodeTextEmphasis
+  - class.commonmark-node-softbreak.html: CommonMarkNodeSoftBreak »
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: ThematicBreak успадковує CommonMarkNode
+---
 # ThematicBreak успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« IMAP](book.imap.md)
-    
--   [Встановлення та налаштування »](imap.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [IMAP](book.imap.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.imap.md: « IMAP
+  - imap.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.imap.md: IMAP
+title: Вступ
+---
 # Вступ
 
 Ці функції дозволяють працювати з протоколом IMAP, а також NNTP, POP3 та локальними методами доступу до поштової скриньки.

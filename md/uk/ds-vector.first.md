@@ -1,16 +1,11 @@
-Повертає перший елемент вектора
-
--   [« DsVector::find](ds-vector.find.html)
-    
--   [ДсVector::get »](ds-vector.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає перший елемент вектора
-    
-
+---
+navigation:
+  - ds-vector.find.html: '« DsVector::find'
+  - ds-vector.get.html: 'ДсVector::get »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::first'
+---
 # ДсVector::first
 
 (PECL ds >= 1.0.0)

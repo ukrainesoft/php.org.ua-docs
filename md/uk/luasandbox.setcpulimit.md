@@ -1,16 +1,11 @@
-Встановлює обмеження часу процесора для середовища Lua
-
--   [« LuaSandbox::registerLibrary](luasandbox.registerlibrary.md)
-    
--   [LuaSandbox::setMemoryLimit »](luasandbox.setmemorylimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Встановлює обмеження часу процесора для середовища Lua
-    
-
+---
+navigation:
+  - luasandbox.registerlibrary.md: '« LuaSandbox::registerLibrary'
+  - luasandbox.setmemorylimit.md: 'LuaSandbox::setMemoryLimit »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::setCPULimit'
+---
 # LuaSandbox::setCPULimit
 
 (PECL luasandbox >= 1.0.0)

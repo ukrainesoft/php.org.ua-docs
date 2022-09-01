@@ -1,16 +1,11 @@
-Переміщує курсор LOB-об'єкта
-
--   [« cubridlob2read](function.cubrid-lob2-read.html)
-    
--   [cubridlob2seek »](function.cubrid-lob2-seek.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Переміщує курсор LOB-об'єкта
-    
-
+---
+navigation:
+  - function.cubrid-lob2-read.html: « cubridlob2read
+  - function.cubrid-lob2-seek.html: cubridlob2seek »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridlob2seek64
+---
 # cubridlob2seek64
 
 (PECL CUBRID >= 8.4.1)

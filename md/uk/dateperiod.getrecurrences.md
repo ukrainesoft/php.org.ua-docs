@@ -1,16 +1,11 @@
-Отримує кількість повторів
-
--   [« DatePeriod::getEndDate](dateperiod.getenddate.html)
-    
--   [DatePeriod::getStartDate »](dateperiod.getstartdate.html)
-    
--   [PHP Manual](index.html)
-    
--   [DatePeriod](class.dateperiod.html)
-    
--   Отримує кількість повторів
-    
-
+---
+navigation:
+  - dateperiod.getenddate.html: '« DatePeriod::getEndDate'
+  - dateperiod.getstartdate.html: 'DatePeriod::getStartDate »'
+  - index.html: PHP Manual
+  - class.dateperiod.html: DatePeriod
+title: 'DatePeriod::getRecurrences'
+---
 # DatePeriod::getRecurrences
 
 (PHP 7> = 7.2.17/7.3.4, PHP 8)

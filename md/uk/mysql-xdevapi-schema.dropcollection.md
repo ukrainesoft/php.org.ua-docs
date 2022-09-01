@@ -1,16 +1,11 @@
-Видалити колекції зі схеми
-
--   [« Schema::createCollection](mysql-xdevapi-schema.createcollection.html)
-    
--   [Schema::existsInDatabase »](mysql-xdevapi-schema.existsindatabase.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Видалити колекції зі схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.createcollection.html: '« Schema::createCollection'
+  - mysql-xdevapi-schema.existsindatabase.html: 'Schema::existsInDatabase »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::dropCollection'
+---
 # Schema::dropCollection
 
 (No version information available, might only be in Git)

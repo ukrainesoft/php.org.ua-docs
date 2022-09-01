@@ -1,16 +1,11 @@
-Отримати ідентифікатор у групі схожих часових поясів, включаючи заданий ідентифікатор
-
--   [« IntlTimeZone::getDSTSavings](intltimezone.getdstsavings.md)
-    
--   [IntlTimeZone::getErrorCode »](intltimezone.geterrorcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Отримати ідентифікатор у групі схожих часових поясів, включаючи заданий ідентифікатор
-    
-
+---
+navigation:
+  - intltimezone.getdstsavings.md: '« IntlTimeZone::getDSTSavings'
+  - intltimezone.geterrorcode.md: 'IntlTimeZone::getErrorCode »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getEquivalentID'
+---
 # IntlTimeZone::getEquivalentID
 
 # intltzgetequivalentід

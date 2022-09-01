@@ -1,16 +1,11 @@
-Зв'язує результати підготовленого виразу зі змінними
-
--   [« mysqlistmt::execute](mysqli-stmt.execute.html)
-    
--   [mysqlistmt::$fieldcount »](mysqli-stmt.field-count.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Зв'язує результати підготовленого виразу зі змінними
-    
-
+---
+navigation:
+  - mysqli-stmt.execute.html: '« mysqlistmt::execute'
+  - mysqli-stmt.field-count.html: 'mysqlistmt::$fieldcount »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::fetch'
+---
 # mysqlistmt::fetch
 
 # mysqlistmtfetch
@@ -53,11 +48,11 @@ mysqli_stmt_fetch(mysqli_stmt $statement): ?bool
 
 **Значення, що повертаються**
 
-| Значение    | Описание                                               |
-|-------------|--------------------------------------------------------|
-| **`true`**  | Успіх. Дані були обрані                                |
-| **`false`** | Виникла помилка                                        |
-| **`null`**  | Більше немає рядків/даних або відбулося усічення даних |
+| Значение | Описание |
+| --- | --- |
+| **`true`** | Успіх. Дані були обрані |
+| **`false`** | Виникла помилка |
+| **`null`** | Більше немає рядків/даних або відбулося усічення даних |
 
 ### Приклади
 

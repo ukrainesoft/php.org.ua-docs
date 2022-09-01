@@ -1,16 +1,11 @@
-Клас parallelEventsInput
-
--   [« parallelEvents::poll](parallel-events.poll.html)
-    
--   [parallelEventsInput::add »](parallel-events-input.add.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallel](book.parallel.md)
-    
--   Клас parallelEventsInput
-    
-
+---
+navigation:
+  - parallel-events.poll.html: '« parallelEvents::poll'
+  - parallel-events-input.add.html: 'parallelEventsInput::add »'
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Клас parallelEventsInput
+---
 # Клас parallelEventsInput
 
 ## Вхідні дані подій

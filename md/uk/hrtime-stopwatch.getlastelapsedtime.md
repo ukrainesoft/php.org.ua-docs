@@ -1,16 +1,11 @@
-Отримати минулий час для останнього інтервалу
-
--   [« HRTimeStopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.html)
-    
--   [HRTimeStopWatch::isRunning »](hrtime-stopwatch.isrunning.html)
-    
--   [PHP Manual](index.md)
-    
--   [HRTimeStopWatch](class.hrtime-stopwatch.html)
-    
--   Отримати минулий час для останнього інтервалу
-    
-
+---
+navigation:
+  - hrtime-stopwatch.getlastelapsedticks.html: '« HRTimeStopWatch::getLastElapsedTicks'
+  - hrtime-stopwatch.isrunning.html: 'HRTimeStopWatch::isRunning »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.html: HRTimeStopWatch
+title: 'HRTimeStopWatch::getLastElapsedTime'
+---
 # HRTimeStopWatch::getLastElapsedTime
 
 (PECL hrtime >= 0.4.3)

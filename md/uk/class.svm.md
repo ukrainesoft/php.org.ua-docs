@@ -1,16 +1,11 @@
-Клас SVM
-
--   [« Приклади](svm.examples.md)
-    
--   [SVM::construct »](svm.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVM](book.svm.md)
-    
--   Клас SVM
-    
-
+---
+navigation:
+  - svm.examples.md: « Приклади
+  - svm.construct.md: 'SVM::construct »'
+  - index.md: PHP Manual
+  - book.svm.md: SVM
+title: Клас SVM
+---
 # Клас SVM
 
 (PECL svm >= 0.1.0)

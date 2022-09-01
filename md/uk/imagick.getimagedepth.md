@@ -1,16 +1,11 @@
-Повертає глибину зображення
-
--   [« Imagick::getImageDelay](imagick.getimagedelay.html)
-    
--   [Imagick::getImageDispose »](imagick.getimagedispose.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає глибину зображення
-    
-
+---
+navigation:
+  - imagick.getimagedelay.html: '« Imagick::getImageDelay'
+  - imagick.getimagedispose.html: 'Imagick::getImageDispose »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageDepth'
+---
 # Imagick::getImageDepth
 
 (PECL imagick 2, PECL imagick 3)

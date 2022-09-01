@@ -1,16 +1,11 @@
-Повертає об'єкт ImagickPixelIterator для секції зображення
-
--   [« Imagick::getPixelIterator](imagick.getpixeliterator.html)
-    
--   [Imagick::getPointSize »](imagick.getpointsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає об'єкт ImagickPixelIterator для секції зображення
-    
-
+---
+navigation:
+  - imagick.getpixeliterator.html: '« Imagick::getPixelIterator'
+  - imagick.getpointsize.html: 'Imagick::getPointSize »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getPixelRegionIterator'
+---
 # Imagick::getPixelRegionIterator
 
 (PECL imagick 2, PECL imagick 3)

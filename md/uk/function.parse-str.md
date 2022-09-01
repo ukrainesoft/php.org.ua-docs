@@ -1,16 +1,11 @@
-Розбирає рядок на змінні
-
--   [« ord](function.ord.html)
-    
--   [print »](function.print.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Розбирає рядок на змінні
-    
-
+---
+navigation:
+  - function.ord.html: « ord
+  - function.print.html: print »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: parsestr
+---
 # parsestr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,10 +40,10 @@ parse_str(string $string, array &$result): void
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `result` більше не є необов'язковим.                                                              |
-|        | Використання **parsestr()** без другого параметра буде викликати помилку рівня **`E_DEPRECATED`** |
+| Версия | Описание |
+| --- | --- |
+|  | `result` більше не є необов'язковим. |
+|  | Використання **parsestr()** без другого параметра буде викликати помилку рівня **`E_DEPRECATED`** |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](openal.requirements.md)
-    
--   [Налаштування під час виконання »](openal.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](openal.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - openal.requirements.md: « Вимоги
+  - openal.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - openal.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

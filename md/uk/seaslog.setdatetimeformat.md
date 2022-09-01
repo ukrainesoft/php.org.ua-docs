@@ -1,16 +1,11 @@
-Встановлює стиль формату дати та часу SeasLog
-
--   [« SeasLog::setBasePath](seaslog.setbasepath.html)
-    
--   [SeasLog::setLogger »](seaslog.setlogger.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Встановлює стиль формату дати та часу SeasLog
-    
-
+---
+navigation:
+  - seaslog.setbasepath.html: '« SeasLog::setBasePath'
+  - seaslog.setlogger.html: 'SeasLog::setLogger »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::setDatetimeFormat'
+---
 # SeasLog::setDatetimeFormat
 
 (PECL seaslog >=1.0.0)

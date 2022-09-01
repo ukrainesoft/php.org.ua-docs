@@ -1,16 +1,11 @@
-Викликається після розгалуження
-
--   [« EvLoop::io](evloop.io.md)
-    
--   [EvLoop::now »](evloop.now.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Викликається після розгалуження
-    
-
+---
+navigation:
+  - evloop.io.md: '« EvLoop::io'
+  - evloop.now.md: 'EvLoop::now »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::loopFork'
+---
 # EvLoop::loopFork
 
 (PECL ev >= 0.2.0)

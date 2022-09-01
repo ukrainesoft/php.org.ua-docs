@@ -1,16 +1,11 @@
-Функції Igbinary
-
--   [« Налаштування під час виконання](igbinary.configuration.html)
-    
--   [igbinaryserialize »](function.igbinary-serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [Igbinary](book.igbinary.html)
-    
--   Функції Igbinary
-    
-
+---
+navigation:
+  - igbinary.configuration.html: « Налаштування під час виконання
+  - function.igbinary-serialize.html: igbinaryserialize »
+  - index.html: PHP Manual
+  - book.igbinary.html: Igbinary
+title: Функції Igbinary
+---
 # Функції Igbinary
 
 ## Зміст

@@ -1,16 +1,11 @@
-Видаляє зміщення
-
--   [« ArrayAccess::offsetSet](arrayaccess.offsetset.html)
-    
--   [Serializable »](class.serializable.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayAccess](class.arrayaccess.html)
-    
--   Видаляє зміщення
-    
-
+---
+navigation:
+  - arrayaccess.offsetset.html: '« ArrayAccess::offsetSet'
+  - class.serializable.html: Serializable »
+  - index.html: PHP Manual
+  - class.arrayaccess.html: ArrayAccess
+title: 'ArrayAccess::offsetUnset'
+---
 # ArrayAccess::offsetUnset
 
 (PHP 5, PHP 7, PHP 8)

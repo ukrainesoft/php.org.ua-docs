@@ -1,16 +1,11 @@
-Вручну звільняє потік від реєстратора
-
--   [« SeasLog::analyzerDetail](seaslog.analyzerdetail.html)
-    
--   [SeasLog::construct »](seaslog.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Вручну звільняє потік від реєстратора
-    
-
+---
+navigation:
+  - seaslog.analyzerdetail.html: '« SeasLog::analyzerDetail'
+  - seaslog.construct.html: 'SeasLog::construct »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::closeLoggerStream'
+---
 # SeasLog::closeLoggerStream
 
 (PECL seaslog >=1.8.6)

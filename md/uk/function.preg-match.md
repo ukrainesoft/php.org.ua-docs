@@ -1,16 +1,11 @@
-Виконує перевірку на відповідність регулярному виразу
-
--   [« pregmatchall](function.preg-match-all.html)
-    
--   [pregquote »](function.preg-quote.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Виконує перевірку на відповідність регулярному виразу
-    
-
+---
+navigation:
+  - function.preg-match-all.html: « pregmatchall
+  - function.preg-quote.html: pregquote »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: pregmatch
+---
 # pregmatch
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -190,9 +185,9 @@ array(4) {
 
 ### список змін
 
-| Версия | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-|        | Тепер константа **`PREG_UNMATCHED_AS_NULL`** підтримується для параметра `$flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер константа **`PREG_UNMATCHED_AS_NULL`** підтримується для параметра `$flags` |
 
 ### Приклади
 

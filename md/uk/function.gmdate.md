@@ -1,16 +1,11 @@
-Форматує дату/час за Грінвічем
-
--   [« gettimeofday](function.gettimeofday.md)
-    
--   [gmmktime »](function.gmmktime.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Форматує дату/час за Грінвічем
-    
-
+---
+navigation:
+  - function.gettimeofday.md: « gettimeofday
+  - function.gmmktime.md: gmmktime »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: gmdate
+---
 # gmdate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ gmdate(string $format, ?int $timestamp = null): string
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `timestamp` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timestamp` тепер допускає значення null. |
 
 ### Приклади
 

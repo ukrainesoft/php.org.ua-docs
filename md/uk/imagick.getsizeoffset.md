@@ -1,16 +1,11 @@
-Повертає розмір зміщення
-
--   [« Imagick::getSize](imagick.getsize.html)
-    
--   [Imagick::getVersion »](imagick.getversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає розмір зміщення
-    
-
+---
+navigation:
+  - imagick.getsize.html: '« Imagick::getSize'
+  - imagick.getversion.html: 'Imagick::getVersion »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getSizeOffset'
+---
 # Imagick::getSizeOffset
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Виконує складання сміття даних сесії
-
--   [« sessionencode](function.session-encode.html)
-    
--   [sessiongetcookieparams »](function.session-get-cookie-params.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Виконує складання сміття даних сесії
-    
-
+---
+navigation:
+  - function.session-encode.html: « sessionencode
+  - function.session-get-cookie-params.html: sessiongetcookieparams »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessionгк
+---
 # sessionгк
 
 (PHP 7> = 7.1.0, PHP 8)

@@ -1,16 +1,11 @@
-Отримати первинну мову для локалі
-
--   [« Locale::getKeywords](locale.getkeywords.html)
-    
--   [Locale::getRegion »](locale.getregion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Locale](class.locale.html)
-    
--   Отримати первинну мову для локалі
-    
-
+---
+navigation:
+  - locale.getkeywords.html: '« Locale::getKeywords'
+  - locale.getregion.html: 'Locale::getRegion »'
+  - index.html: PHP Manual
+  - class.locale.html: Locale
+title: 'Locale::getPrimaryLanguage'
+---
 # Locale::getPrimaryLanguage
 
 # localegetprimarylanguage

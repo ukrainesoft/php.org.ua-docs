@@ -1,16 +1,11 @@
-Створює новий UTCDateTime
-
--   [« MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
-    
--   [MongoDBBSONUTCDateTime::jsonSerialize »](mongodb-bson-utcdatetime.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
-    
--   Створює новий UTCDateTime
-    
-
+---
+navigation:
+  - class.mongodb-bson-utcdatetime.html: « MongoDBBSONUTCDateTime
+  - mongodb-bson-utcdatetime.jsonserialize.html: 'MongoDBBSONUTCDateTime::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+title: 'MongoDBBSONUTCDateTime::construct'
+---
 # MongoDBBSONUTCDateTime::construct
 
 (mongodb >=1.0.0)
@@ -39,10 +34,10 @@ final public MongoDB\BSON\UTCDateTime::__construct(int|float|string|DateTimeInte
 
 ### список змін
 
-| Версия                                                                                                                                                                                                                                                                                                        | Описание |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.2.0                                                                                                                                                                                                                                                                                            |          |
-| Аргумент `milliseconds` є необов'язковим і за умовчанням дорівнює **`null`** (Тобто поточний час). Аргумент також приймає [DateTimeInterface](class.datetimeinterface.md)який може використовуватися для отримання кількості мілісекунд з початку епохи Unix. Раніше приймався лише тип int, float чи string. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.2.0 |  |
+| Аргумент `milliseconds` є необов'язковим і за умовчанням дорівнює **`null`** (Тобто поточний час). Аргумент також приймає [DateTimeInterface](class.datetimeinterface.md)який може використовуватися для отримання кількості мілісекунд з початку епохи Unix. Раніше приймався лише тип int, float чи string. |  |
 
 ### Приклади
 

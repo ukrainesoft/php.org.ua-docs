@@ -1,16 +1,11 @@
-Копіює частину зображення з накладенням у градаціях сірого
-
--   [« imagecopymerge](function.imagecopymerge.md)
-    
--   [imagecopyresampled »](function.imagecopyresampled.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Копіює частину зображення з накладенням у градаціях сірого
-    
-
+---
+navigation:
+  - function.imagecopymerge.md: « imagecopymerge
+  - function.imagecopyresampled.md: imagecopyresampled »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecopymergegray
+---
 # imagecopymergegray
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -71,9 +66,9 @@ y-координата вихідного зображення.
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

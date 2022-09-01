@@ -1,16 +1,11 @@
-Отримати сесію схеми
-
--   [« Schema::getName](mysql-xdevapi-schema.getname.html)
-    
--   [Schema::getTable »](mysql-xdevapi-schema.gettable.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Отримати сесію схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.getname.html: '« Schema::getName'
+  - mysql-xdevapi-schema.gettable.html: 'Schema::getTable »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::getSession'
+---
 # Schema::getSession
 
 (No version information available, might only be in Git)

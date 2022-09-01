@@ -1,16 +1,11 @@
-Повертає об'єкт елемента з RAR архіву
-
--   [« RarArchive::getEntries](rararchive.getentries.md)
-    
--   [RarArchive::isBroken »](rararchive.isbroken.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarArchive](class.rararchive.md)
-    
--   Повертає об'єкт елемента з RAR архіву
-    
-
+---
+navigation:
+  - rararchive.getentries.md: '« RarArchive::getEntries'
+  - rararchive.isbroken.md: 'RarArchive::isBroken »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
+title: 'RarArchive::getEntry'
+---
 # RarArchive::getEntry
 
 # rarentryget

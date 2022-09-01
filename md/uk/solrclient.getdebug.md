@@ -1,16 +1,11 @@
-Повертає дані налагодження для останньої спроби підключення
-
--   [« SolrClient::getByIds](solrclient.getbyids.md)
-    
--   [SolrClient::getOptions »](solrclient.getoptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Повертає дані налагодження для останньої спроби підключення
-    
-
+---
+navigation:
+  - solrclient.getbyids.md: '« SolrClient::getByIds'
+  - solrclient.getoptions.md: 'SolrClient::getOptions »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::getDebug'
+---
 # SolrClient::getDebug
 
 (PECL solr> = 0.9.7)

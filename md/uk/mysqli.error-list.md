@@ -1,16 +1,11 @@
-Повертає список помилок виконання останньої запущеної команди
-
--   [« mysqli::$errno](mysqli.errno.md)
-    
--   [mysqli::$error »](mysqli.error.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає список помилок виконання останньої запущеної команди
-    
-
+---
+navigation:
+  - mysqli.errno.md: '« mysqli::$errno'
+  - mysqli.error.md: 'mysqli::$error »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$errorlist'
+---
 # mysqli::$errorlist
 
 # mysqlierrorlist

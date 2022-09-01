@@ -1,16 +1,11 @@
-Масиви
-
--   [Модулі, що відносяться до змінних і типів](refs.basic.vartype.md)
-    
--   [Введение »](intro.array.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
-    
--   Масиви
-    
-
+---
+navigation:
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних і типів'
+  - intro.array.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'
+title: Масиви
+---
 # Масиви
 
 -   [Введение](intro.array.md)

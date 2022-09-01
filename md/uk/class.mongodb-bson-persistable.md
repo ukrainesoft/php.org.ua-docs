@@ -1,16 +1,11 @@
-Інтерфейс MongoDBBSONPersistable
-
--   [« MongoDBBSONType](class.mongodb-bson-type.html)
-    
--   [MongoDBBSONSerializable »](class.mongodb-bson-serializable.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Інтерфейс MongoDBBSONPersistable
-    
-
+---
+navigation:
+  - class.mongodb-bson-type.html: « MongoDBBSONType
+  - class.mongodb-bson-serializable.html: MongoDBBSONSerializable »
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONPersistable
+---
 # Інтерфейс MongoDBBSONPersistable
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Очистити критичні повідомлення екземпляра varnish
-
--   [« VarnishAdmin::banUrl](varnishadmin.banurl.md)
-    
--   [VarnishAdmin::connect »](varnishadmin.connect.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Очистити критичні повідомлення екземпляра varnish
-    
-
+---
+navigation:
+  - varnishadmin.banurl.md: '« VarnishAdmin::banUrl'
+  - varnishadmin.connect.md: 'VarnishAdmin::connect »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::clearPanic'
+---
 # VarnishAdmin::clearPanic
 
 (PECL varnish >= 0.4)

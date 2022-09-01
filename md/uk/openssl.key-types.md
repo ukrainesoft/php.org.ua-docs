@@ -1,16 +1,11 @@
-Типи ключів
-
--   [« Флаги заполнения для ассиметричного шифрования](openssl.padding.md)
-    
--   [Прапори/константи PKCS7 »](openssl.pkcs7.flags.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](openssl.constants.md)
-    
--   Типи ключів
-    
-
+---
+navigation:
+  - openssl.padding.md: « Флаги заполнения для ассиметричного шифрования
+  - openssl.pkcs7.flags.md: Прапори/константи PKCS7 »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
+title: Типи ключів
+---
 ## Типи ключів
 
 **`OPENSSL_KEYTYPE_RSA`** (int)

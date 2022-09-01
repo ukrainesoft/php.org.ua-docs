@@ -1,16 +1,11 @@
-Повертає різницю в одному або кількох зображеннях
-
--   [« Imagick::commentImage](imagick.commentimage.md)
-    
--   [Imagick::compareImageLayers »](imagick.compareimagelayers.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає різницю в одному або кількох зображеннях
-    
-
+---
+navigation:
+  - imagick.commentimage.md: '« Imagick::commentImage'
+  - imagick.compareimagelayers.md: 'Imagick::compareImageLayers »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::compareImageChannels'
+---
 # Imagick::compareImageChannels
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Тестування набору навчальних даних та обчислення MSE для нього
-
--   [« fannsubsettraindata](function.fann-subset-train-data.html)
-    
--   [fanntest »](function.fann-test.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Тестування набору навчальних даних та обчислення MSE для нього
-    
-
+---
+navigation:
+  - function.fann-subset-train-data.html: « fannsubsettraindata
+  - function.fann-test.html: fanntest »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanntestdata
+---
 # fanntestdata
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Виводить зручну для читання інформацію про змінну
-
--   [« isset](function.isset.md)
-    
--   [serialize »](function.serialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Виводить зручну для читання інформацію про змінну
-    
-
+---
+navigation:
+  - function.isset.md: « isset
+  - function.serialize.md: serialize »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: printр
+---
 # printр
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

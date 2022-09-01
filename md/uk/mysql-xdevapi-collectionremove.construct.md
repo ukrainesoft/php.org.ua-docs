@@ -1,16 +1,11 @@
-Конструктор класу CollectionRemove
-
--   [« CollectionRemove::bind](mysql-xdevapi-collectionremove.bind.html)
-    
--   [CollectionRemove::execute »](mysql-xdevapi-collectionremove.execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
-    
--   Конструктор класу CollectionRemove
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionremove.bind.html: '« CollectionRemove::bind'
+  - mysql-xdevapi-collectionremove.execute.html: 'CollectionRemove::execute »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove
+title: 'CollectionRemove::construct'
+---
 # CollectionRemove::construct
 
 (No version information available, might only be in Git)

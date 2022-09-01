@@ -1,16 +1,11 @@
-Змінює будь-який піксель, що відповідає кольору
-
--   [« Imagick::paintFloodfillImage](imagick.paintfloodfillimage.md)
-    
--   [Imagick::paintTransparentImage »](imagick.painttransparentimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Змінює будь-який піксель, що відповідає кольору
-    
-
+---
+navigation:
+  - imagick.paintfloodfillimage.md: '« Imagick::paintFloodfillImage'
+  - imagick.painttransparentimage.md: 'Imagick::paintTransparentImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::paintOpaqueImage'
+---
 # Imagick::paintOpaqueImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -57,6 +52,6 @@ public Imagick::paintOpaqueImage(    mixed $target,    mixed $fill,  �
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                  |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер допускається передавати рядок, що представляє колір, перший і другий параметр. Попередні версії допускали лише об'єкт ImagickPixel. |

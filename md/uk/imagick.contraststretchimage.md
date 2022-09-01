@@ -1,16 +1,11 @@
-Підвищує контрастність кольорового зображення
-
--   [« Imagick::contrastImage](imagick.contrastimage.md)
-    
--   [Imagick::convolveImage »](imagick.convolveimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Підвищує контрастність кольорового зображення
-    
-
+---
+navigation:
+  - imagick.contrastimage.md: '« Imagick::contrastImage'
+  - imagick.convolveimage.md: 'Imagick::convolveImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::contrastStretchImage'
+---
 # Imagick::contrastStretchImage
 
 (PECL imagick 2, PECL imagick 3)

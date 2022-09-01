@@ -1,16 +1,11 @@
-Створює нову колекцію пар з елементами, ключів яких немає в іншій колекції пар
-
--   [« DsMap::count](ds-map.count.html)
-    
--   [ДсMap::filter »](ds-map.filter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Створює нову колекцію пар з елементами, ключів яких немає в іншій колекції пар
-    
-
+---
+navigation:
+  - ds-map.count.html: '« DsMap::count'
+  - ds-map.filter.html: 'ДсMap::filter »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::diff'
+---
 # ДсMap::diff
 
 (PECL ds >= 1.0.0)

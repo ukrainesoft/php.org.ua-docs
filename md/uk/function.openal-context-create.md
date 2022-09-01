@@ -1,16 +1,11 @@
-Створити контекст обробки звуку
-
--   [« openalbufferloadwav](function.openal-buffer-loadwav.html)
-    
--   [openalcontextcurrent »](function.openal-context-current.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Створити контекст обробки звуку
-    
-
+---
+navigation:
+  - function.openal-buffer-loadwav.html: « openalbufferloadwav
+  - function.openal-context-current.html: openalcontextcurrent »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalcontextcreate
+---
 # openalcontextcreate
 
 (PECL openal >= 0.1.0)

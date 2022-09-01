@@ -1,16 +1,11 @@
-Псевдонім ibasefetchobject
-
--   [« fbirdfetchassoc](function.fbird-fetch-assoc.html)
-    
--   [fbirdfetchrow »](function.fbird-fetch-row.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibasefetchobject
-    
-
+---
+navigation:
+  - function.fbird-fetch-assoc.html: « fbirdfetchassoc
+  - function.fbird-fetch-row.html: fbirdfetchrow »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdfetchobject
+---
 # fbirdfetchobject
 
 (PHP 5, PHP 7 < 7.4.0)

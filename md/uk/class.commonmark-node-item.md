@@ -1,16 +1,11 @@
-Item успадковує CommonMarkNode
-
--   [« CommonMarkNodeOrderedList::construct](commonmark-node-orderedlist.construct.html)
-    
--   [CommonMarkNodeText »](class.commonmark-node-text.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Item успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - commonmark-node-orderedlist.construct.html: '« CommonMarkNodeOrderedList::construct'
+  - class.commonmark-node-text.html: CommonMarkNodeText »
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Item успадковує CommonMarkNode
+---
 # Item успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

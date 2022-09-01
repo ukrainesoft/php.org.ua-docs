@@ -1,16 +1,11 @@
-Переміщує покажчик результату на вибраний рядок
-
--   [« mysqliresult::$currentfield](mysqli-result.current-field.html)
-    
--   [mysqliresult::fetchall »](mysqli-result.fetch-all.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Переміщує покажчик результату на вибраний рядок
-    
-
+---
+navigation:
+  - mysqli-result.current-field.html: '« mysqliresult::$currentfield'
+  - mysqli-result.fetch-all.html: 'mysqliresult::fetchall »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::dataseek'
+---
 # mysqliresult::dataseek
 
 # mysqlidataseek

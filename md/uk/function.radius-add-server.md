@@ -1,16 +1,11 @@
-Додає сервер
-
--   [« radiusacctopen](function.radius-acct-open.html)
-    
--   [radiusauthopen »](function.radius-auth-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Додає сервер
-    
-
+---
+navigation:
+  - function.radius-acct-open.html: « radiusacctopen
+  - function.radius-auth-open.html: radiusauthopen »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusaddserver
+---
 # radiusaddserver
 
 (PECL radius >= 1.1.0)

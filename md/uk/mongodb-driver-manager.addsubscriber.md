@@ -1,16 +1,11 @@
-Реєструє передплатника на подію моніторингу в даному об'єкті Manager
-
--   [« MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   [MongoDBDriverManager::construct »](mongodb-driver-manager.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Реєструє передплатника на подію моніторингу в даному об'єкті Manager
-    
-
+---
+navigation:
+  - class.mongodb-driver-manager.html: « MongoDBDriverManager
+  - mongodb-driver-manager.construct.html: 'MongoDBDriverManager::construct »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::addSubscriber'
+---
 # MongoDBDriverManager::addSubscriber
 
 (mongodb >=1.10.0)

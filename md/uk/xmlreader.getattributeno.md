@@ -1,16 +1,11 @@
-Отримати значення атрибута за індексом
-
--   [« XMLReader::getAttribute](xmlreader.getattribute.md)
-    
--   [XMLReader::getAttributeNs »](xmlreader.getattributens.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Отримати значення атрибута за індексом
-    
-
+---
+navigation:
+  - xmlreader.getattribute.md: '« XMLReader::getAttribute'
+  - xmlreader.getattributens.md: 'XMLReader::getAttributeNs »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::getAttributeNo'
+---
 # XMLReader::getAttributeNo
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

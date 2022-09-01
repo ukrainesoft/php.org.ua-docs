@@ -1,16 +1,11 @@
-Видаляє всі значення з колекції
-
--   [« DsMap::capacity](ds-map.capacity.html)
-    
--   [ДсMap::construct »](ds-map.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Видаляє всі значення з колекції
-    
-
+---
+navigation:
+  - ds-map.capacity.html: '« DsMap::capacity'
+  - ds-map.construct.html: 'ДсMap::construct »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::clear'
+---
 # ДсMap::clear
 
 (PECL ds >= 1.0.0)

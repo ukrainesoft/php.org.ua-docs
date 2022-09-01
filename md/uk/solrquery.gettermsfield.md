@@ -1,16 +1,11 @@
-Повертає поле, з якого витягуються вирази
-
--   [« SolrQuery::getTerms](solrquery.getterms.html)
-    
--   [SolrQuery::getTermsIncludeLowerBound »](solrquery.gettermsincludelowerbound.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає поле, з якого витягуються вирази
-    
-
+---
+navigation:
+  - solrquery.getterms.html: '« SolrQuery::getTerms'
+  - solrquery.gettermsincludelowerbound.html: 'SolrQuery::getTermsIncludeLowerBound »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTermsField'
+---
 # SolrQuery::getTermsField
 
 (PECL solr> = 0.9.2)

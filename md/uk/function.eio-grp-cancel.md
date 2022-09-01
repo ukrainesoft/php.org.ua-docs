@@ -1,16 +1,11 @@
-Скасує групу запитів
-
--   [« eiogrpadd](function.eio-grp-add.html)
-    
--   [eiogrplimit »](function.eio-grp-limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Скасує групу запитів
-    
-
+---
+navigation:
+  - function.eio-grp-add.html: « eiogrpadd
+  - function.eio-grp-limit.html: eiogrplimit »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiogrpcancel
+---
 # eiogrpcancel
 
 (PECL eio >= 0.0.1dev)

@@ -1,16 +1,11 @@
-Повертає засіб форматування для виділеного виводу
-
--   [« SolrQuery::getHighlightFields](solrquery.gethighlightfields.html)
-    
--   [SolrQuery::getHighlightFragmenter »](solrquery.gethighlightfragmenter.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає засіб форматування для виділеного виводу
-    
-
+---
+navigation:
+  - solrquery.gethighlightfields.html: '« SolrQuery::getHighlightFields'
+  - solrquery.gethighlightfragmenter.html: 'SolrQuery::getHighlightFragmenter »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getHighlightFormatter'
+---
 # SolrQuery::getHighlightFormatter
 
 (PECL solr> = 0.9.2)

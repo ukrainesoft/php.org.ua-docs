@@ -1,16 +1,11 @@
-Клас RangeException
-
--   [« OverflowException](class.overflowexception.md)
-    
--   [RuntimeException »](class.runtimeexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [Исключения](spl.exceptions.md)
-    
--   Клас RangeException
-    
-
+---
+navigation:
+  - class.overflowexception.md: « OverflowException
+  - class.runtimeexception.md: RuntimeException »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
+title: Клас RangeException
+---
 # Клас RangeException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

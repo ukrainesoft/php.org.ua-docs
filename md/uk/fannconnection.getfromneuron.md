@@ -1,16 +1,11 @@
-Повертає позицію стартового нейрона
-
--   [« FANNConnection::construct](fannconnection.construct.html)
-    
--   [FANNConnection::getToNeuron »](fannconnection.gettoneuron.html)
-    
--   [PHP Manual](index.html)
-    
--   [FANNConnection](class.fannconnection.html)
-    
--   Повертає позицію стартового нейрона
-    
-
+---
+navigation:
+  - fannconnection.construct.html: '« FANNConnection::construct'
+  - fannconnection.gettoneuron.html: 'FANNConnection::getToNeuron »'
+  - index.html: PHP Manual
+  - class.fannconnection.html: FANNConnection
+title: 'FANNConnection::getFromNeuron'
+---
 # FANNConnection::getFromNeuron
 
 (PECL fann> = 1.0.0)

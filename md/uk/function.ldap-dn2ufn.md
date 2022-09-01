@@ -1,16 +1,11 @@
-Перетворити DN на зручний для користувача формат іменування
-
--   [« ldapdelete](function.ldap-delete.html)
-    
--   [ldaperr2str »](function.ldap-err2str.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Перетворити DN на зручний для користувача формат іменування
-    
-
+---
+navigation:
+  - function.ldap-delete.html: « ldapdelete
+  - function.ldap-err2str.html: ldaperr2str »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapdn2ufn
+---
 # ldapdn2ufn
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

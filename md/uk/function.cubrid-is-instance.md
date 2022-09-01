@@ -1,16 +1,11 @@
-Перевіряє, чи існує екземпляр, на який вказує OID
-
--   [« cubridinsertід](function.cubrid-insert-id.html)
-    
--   [cubridlobclose »](function.cubrid-lob-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Перевіряє, чи існує екземпляр, на який вказує OID
-    
-
+---
+navigation:
+  - function.cubrid-insert-id.html: « cubridinsertід
+  - function.cubrid-lob-close.html: cubridlobclose »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridісinstance
+---
 # cubridісinstance
 
 (PECL CUBRID >= 8.3.0)

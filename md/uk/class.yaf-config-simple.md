@@ -1,16 +1,11 @@
-Клас YafConfigSimple
-
--   [« YafConfigIni::valid](yaf-config-ini.valid.html)
-    
--   [YafConfigSimple::construct »](yaf-config-simple.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafConfigSimple
-    
-
+---
+navigation:
+  - yaf-config-ini.valid.html: '« YafConfigIni::valid'
+  - yaf-config-simple.construct.html: 'YafConfigSimple::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafConfigSimple
+---
 # Клас YafConfigSimple
 
 (Yaf >=1.0.0)

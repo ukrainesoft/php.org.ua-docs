@@ -1,16 +1,11 @@
-Повертає статус сервера
-
--   [« Memcache::getExtendedStats](memcache.getextendedstats.md)
-    
--   [Memcache::getStats »](memcache.getstats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Повертає статус сервера
-    
-
+---
+navigation:
+  - memcache.getextendedstats.md: '« Memcache::getExtendedStats'
+  - memcache.getstats.md: 'Memcache::getStats »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::getServerStatus'
+---
 # Memcache::getServerStatus
 
 (PECL memcache >= 2.1.0)

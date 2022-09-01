@@ -1,16 +1,11 @@
-Видаляє за ідентифікаторами
-
--   [« SolrClient::deleteById](solrclient.deletebyid.md)
-    
--   [SolrClient::deleteByQueries »](solrclient.deletebyqueries.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Видаляє за ідентифікаторами
-    
-
+---
+navigation:
+  - solrclient.deletebyid.md: '« SolrClient::deleteById'
+  - solrclient.deletebyqueries.md: 'SolrClient::deleteByQueries »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::deleteByIds'
+---
 # SolrClient::deleteByIds
 
 (PECL solr> = 0.9.2)

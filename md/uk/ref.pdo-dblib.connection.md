@@ -1,16 +1,11 @@
-З'єднання з базами даних Microsoft SQL Server та Sybase
-
--   [« MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
-    
--   [Firebird (PDO) »](ref.pdo-firebird.html)
-    
--   [PHP Manual](index.md)
-    
--   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.html)
-    
--   З'єднання з базами даних Microsoft SQL Server та Sybase
-    
-
+---
+navigation:
+  - ref.pdo-dblib.html: « MS SQL Server (PDODBLIB)
+  - ref.pdo-firebird.html: Firebird (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-dblib.html: MS SQL Server (PDODBLIB)
+title: PDODBLIB DSN
+---
 # PDODBLIB DSN
 
 (PECL PDODBLIB> = 0.9.0)

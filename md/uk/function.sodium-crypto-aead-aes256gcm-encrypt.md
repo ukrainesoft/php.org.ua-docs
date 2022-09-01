@@ -1,16 +1,11 @@
-Шифрує, а потім перевіряє справжність за допомогою AES-256-GCM
-
--   [« sodiumcryptoaeadaes256gcmdecrypt](function.sodium-crypto-aead-aes256gcm-decrypt.html)
-    
--   [sodiumcryptoaeadaes256gcmісavailable »](function.sodium-crypto-aead-aes256gcm-is-available.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Шифрує, а потім перевіряє справжність за допомогою AES-256-GCM
-    
-
+---
+navigation:
+  - function.sodium-crypto-aead-aes256gcm-decrypt.html: « sodiumcryptoaeadaes256gcmdecrypt
+  - function.sodium-crypto-aead-aes256gcm-is-available.html: sodiumcryptoaeadaes256gcmісavailable »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoaeadaes256gcmencrypt
+---
 # sodiumcryptoaeadaes256gcmencrypt
 
 (PHP 7> = 7.2.0, PHP 8)

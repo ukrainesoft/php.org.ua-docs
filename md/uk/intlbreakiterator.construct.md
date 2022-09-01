@@ -1,16 +1,11 @@
-Закритий конструктор, який забороняє створення екземплярів об'єкту
-
--   [« IntlBreakIterator](class.intlbreakiterator.html)
-    
--   [IntlBreakIterator::createCharacterInstance »](intlbreakiterator.createcharacterinstance.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlBreakIterator](class.intlbreakiterator.html)
-    
--   Закритий конструктор, який забороняє створення екземплярів об'єкту
-    
-
+---
+navigation:
+  - class.intlbreakiterator.html: « IntlBreakIterator
+  - intlbreakiterator.createcharacterinstance.html: 'IntlBreakIterator::createCharacterInstance »'
+  - index.html: PHP Manual
+  - class.intlbreakiterator.html: IntlBreakIterator
+title: 'IntlBreakIterator::construct'
+---
 # IntlBreakIterator::construct
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлення значення якості
-
--   [« ReflectionProperty::setAccessible](reflectionproperty.setaccessible.html)
-    
--   [ReflectionProperty::toString »](reflectionproperty.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Встановлення значення якості
-    
-
+---
+navigation:
+  - reflectionproperty.setaccessible.html: '« ReflectionProperty::setAccessible'
+  - reflectionproperty.tostring.html: 'ReflectionProperty::toString »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::setValue'
+---
 # ReflectionProperty::setValue
 
 (PHP 5, PHP 7, PHP 8)

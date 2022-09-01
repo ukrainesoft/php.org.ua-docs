@@ -1,16 +1,11 @@
-Псевдонім imapbody
-
--   [« imapfetchstructure](function.imap-fetchstructure.html)
-    
--   [imapgc »](function.imap-gc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Псевдонім imapbody
-    
-
+---
+navigation:
+  - function.imap-fetchstructure.html: « imapfetchstructure
+  - function.imap-gc.html: imapgc »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapfetchtext
+---
 # imapfetchtext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

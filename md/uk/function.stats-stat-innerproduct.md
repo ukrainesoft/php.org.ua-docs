@@ -1,16 +1,11 @@
-Повертає скалярний твір двох векторів
-
--   [« statsstatindependentт](function.stats-stat-independent-t.html)
-    
--   [statsstatpairedt »](function.stats-stat-paired-t.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Повертає скалярний твір двох векторів
-    
-
+---
+navigation:
+  - function.stats-stat-independent-t.html: « statsstatindependentт
+  - function.stats-stat-paired-t.html: statsstatpairedt »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsстатиinnerproduct
+---
 # statsстатиinnerproduct
 
 (PECL stats >= 1.0.0)

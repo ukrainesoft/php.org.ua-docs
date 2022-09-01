@@ -1,16 +1,11 @@
-Генерує випадкове число з плаваючою точкою від 0 до 1
-
--   [« statsrandphraseтоseeds](function.stats-rand-phrase-to-seeds.html)
-    
--   [statsrandsetall »](function.stats-rand-setall.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Генерує випадкове число з плаваючою точкою від 0 до 1
-    
-
+---
+navigation:
+  - function.stats-rand-phrase-to-seeds.html: « statsrandphraseтоseeds
+  - function.stats-rand-setall.html: statsrandsetall »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandranf
+---
 # statsrandranf
 
 (PECL stats >= 1.0.0)

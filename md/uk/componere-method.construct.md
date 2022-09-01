@@ -1,16 +1,11 @@
-Конструктор класу Method
-
--   [« ComponereMethod](class.componere-method.html)
-    
--   [ComponereMethod::setPrivate »](componere-method.setprivate.html)
-    
--   [PHP Manual](index.html)
-    
--   [ComponereMethod](class.componere-method.html)
-    
--   Конструктор класу Method
-    
-
+---
+navigation:
+  - class.componere-method.html: « ComponereMethod
+  - componere-method.setprivate.html: 'ComponereMethod::setPrivate »'
+  - index.html: PHP Manual
+  - class.componere-method.html: ComponereMethod
+title: 'ComponereMethod::construct'
+---
 # ComponereMethod::construct
 
 (Componere 2 >= 2.1.0)

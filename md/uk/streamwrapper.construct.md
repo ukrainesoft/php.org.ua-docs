@@ -1,16 +1,11 @@
-Створює новий об'єкт обгортки потоку
-
--   [« streamWrapper](class.streamwrapper.html)
-    
--   [streamWrapper::destruct »](streamwrapper.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Створює новий об'єкт обгортки потоку
-    
-
+---
+navigation:
+  - class.streamwrapper.html: « streamWrapper
+  - streamwrapper.destruct.html: 'streamWrapper::destruct »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::construct'
+---
 # streamWrapper::construct
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

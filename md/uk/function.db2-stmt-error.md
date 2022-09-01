@@ -1,16 +1,11 @@
-Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
-
--   [« db2statistics](function.db2-statistics.html)
-    
--   [db2stmterrormsg »](function.db2-stmt-errormsg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
-    
-
+---
+navigation:
+  - function.db2-statistics.html: « db2statistics
+  - function.db2-stmt-errormsg.html: db2stmterrormsg »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2stmterror
+---
 # db2stmterror
 
 (PECL ibmdb2> = 1.0.0)

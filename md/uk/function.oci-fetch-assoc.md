@@ -1,16 +1,11 @@
-Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
-
--   [« ocifetcharray](function.oci-fetch-array.html)
-    
--   [ocifetchobject »](function.oci-fetch-object.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
-    
-
+---
+navigation:
+  - function.oci-fetch-array.html: « ocifetcharray
+  - function.oci-fetch-object.html: ocifetchobject »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifetchassoc
+---
 # ocifetchassoc
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

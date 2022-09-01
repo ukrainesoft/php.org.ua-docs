@@ -1,16 +1,11 @@
-Змінити пріоритет процесу
-
--   [pcntlrfork](function.pcntl-rfork.html)
-    
--   [pcntlsignaldispatch »](function.pcntl-signal-dispatch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Змінити пріоритет процесу
-    
-
+---
+navigation:
+  - function.pcntl-rfork.html: pcntlrfork
+  - function.pcntl-signal-dispatch.html: pcntlsignaldispatch »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlsetpriority
+---
 # pcntlsetpriority
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pcntl_setpriority(int $priority, ?int $process_id = null, int $mode = PRIO_PROCE
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `process_id` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `process_id` тепер допускає значення null. |
 
 ### Дивіться також
 

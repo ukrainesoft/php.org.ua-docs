@@ -1,16 +1,11 @@
-Встановлює межу пам'яті для середовища Lua
-
--   [« LuaSandbox::setCPULimit](luasandbox.setcpulimit.html)
-    
--   [LuaSandbox::unpauseUsageTimer »](luasandbox.unpauseusagetimer.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](class.luasandbox.html)
-    
--   Встановлює межу пам'яті для середовища Lua
-    
-
+---
+navigation:
+  - luasandbox.setcpulimit.html: '« LuaSandbox::setCPULimit'
+  - luasandbox.unpauseusagetimer.html: 'LuaSandbox::unpauseUsageTimer »'
+  - index.html: PHP Manual
+  - class.luasandbox.html: LuaSandbox
+title: 'LuaSandbox::setMemoryLimit'
+---
 # LuaSandbox::setMemoryLimit
 
 (PECL luasandbox >= 1.0.0)

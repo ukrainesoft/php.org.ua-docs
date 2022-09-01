@@ -1,16 +1,11 @@
-Метод отримує значення з хеша за його ключем
-
--   [« QuickHashIntHash::exists](quickhashinthash.exists.md)
-    
--   [QuickHashIntHash::getSize »](quickhashinthash.getsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntHash](class.quickhashinthash.md)
-    
--   Метод отримує значення з хеша за його ключем
-    
-
+---
+navigation:
+  - quickhashinthash.exists.md: '« QuickHashIntHash::exists'
+  - quickhashinthash.getsize.md: 'QuickHashIntHash::getSize »'
+  - index.md: PHP Manual
+  - class.quickhashinthash.md: QuickHashIntHash
+title: 'QuickHashIntHash::get'
+---
 # QuickHashIntHash::get
 
 (PECL quickhash >= Unknown)

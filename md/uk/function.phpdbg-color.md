@@ -1,16 +1,11 @@
-Задати колір елементу
-
--   [« phpdbgclear](function.phpdbg-clear.html)
-    
--   [phpdbgendoplog »](function.phpdbg-end-oplog.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Задати колір елементу
-    
-
+---
+navigation:
+  - function.phpdbg-clear.html: « phpdbgclear
+  - function.phpdbg-end-oplog.html: phpdbgendoplog »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgcolor
+---
 # phpdbgcolor
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

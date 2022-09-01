@@ -1,16 +1,11 @@
-Опції Readline
-
--   [« Обумовлені константи](readline.constants.md)
-    
--   [readlineaddhistory »](function.readline-add-history.html)
-    
--   [PHP Manual](index.md)
-    
--   [Readline](book.readline.md)
-    
--   Опції Readline
-    
-
+---
+navigation:
+  - readline.constants.md: « Обумовлені константи
+  - function.readline-add-history.html: readlineaddhistory »
+  - index.md: PHP Manual
+  - book.readline.md: Readline
+title: Опції Readline
+---
 # Опції Readline
 
 ## Зміст

@@ -1,16 +1,11 @@
-Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
-
--   [« EventBuffer::copyout](eventbuffer.copyout.md)
-    
--   [EventBuffer::enableLocking »](eventbuffer.enablelocking.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
-    
-
+---
+navigation:
+  - eventbuffer.copyout.md: '« EventBuffer::copyout'
+  - eventbuffer.enablelocking.md: 'EventBuffer::enableLocking »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::drain'
+---
 # EventBuffer::drain
 
 (PECL event >= 1.2.6-beta)

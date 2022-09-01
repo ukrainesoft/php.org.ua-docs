@@ -1,16 +1,11 @@
-Клас HRTimeStopWatch
-
--   [« HRTimePerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.html)
-    
--   [HRTimeStopWatch::getElapsedTicks »](hrtime-stopwatch.getelapsedticks.html)
-    
--   [PHP Manual](index.html)
-    
--   [HRTime](book.hrtime.html)
-    
--   Клас HRTimeStopWatch
-    
-
+---
+navigation:
+  - hrtime-performancecounter.gettickssince.html: '« HRTimePerformanceCounter::getTicksSince'
+  - hrtime-stopwatch.getelapsedticks.html: 'HRTimeStopWatch::getElapsedTicks »'
+  - index.html: PHP Manual
+  - book.hrtime.html: HRTime
+title: Клас HRTimeStopWatch
+---
 # Клас HRTimeStopWatch
 
 (PECL hrtime >= 0.4.3)

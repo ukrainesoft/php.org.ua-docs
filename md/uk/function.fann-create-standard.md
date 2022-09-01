@@ -1,16 +1,11 @@
-Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
-
--   [« fanncreatestandardarray](function.fann-create-standard-array.html)
-    
--   [fanncreatetrainfromcallback »](function.fann-create-train-from-callback.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
-    
-
+---
+navigation:
+  - function.fann-create-standard-array.html: « fanncreatestandardarray
+  - function.fann-create-train-from-callback.html: fanncreatetrainfromcallback »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncreatestandard
+---
 # fanncreatestandard
 
 (PECL fann> = 1.0.0)

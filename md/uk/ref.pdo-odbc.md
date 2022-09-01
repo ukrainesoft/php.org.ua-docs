@@ -1,16 +1,11 @@
-Функції ODBC та DB2 (PDOODBC)
-
--   [« PDOOCI DSN](ref.pdo-oci.connection.html)
-    
--   [PDOODBC DSN »](ref.pdo-odbc.connection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Драйвери PDO](pdo.drivers.html)
-    
--   Функції ODBC та DB2 (PDOODBC)
-    
-
+---
+navigation:
+  - ref.pdo-oci.connection.html: « PDOOCI DSN
+  - ref.pdo-odbc.connection.html: PDOODBC DSN »
+  - index.html: PHP Manual
+  - pdo.drivers.html: Драйвери PDO
+title: Функції ODBC та DB2 (PDOODBC)
+---
 # Функції ODBC та DB2 (PDOODBC)
 
 ## Вступ
@@ -87,10 +82,10 @@ generic
 
 **Конфігураційні опції PDOODBC**
 
-| Имя                                                                            | По умолчанию | Место изменения | Список изменений                                                        |
-|--------------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------------------------------------|
-| [pdoodbc.connectionpooling](ref.pdo-odbc.html#ini.pdo-odbc.connection-pooling) | "strict"     | PHPINIALL       |                                                                         |
-| [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name)    | NULL         | PHPINISYSTEM    | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [pdoodbc.connectionpooling](ref.pdo-odbc.html#ini.pdo-odbc.connection-pooling) | "strict" | PHPINIALL |  |
+| [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) | NULL | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

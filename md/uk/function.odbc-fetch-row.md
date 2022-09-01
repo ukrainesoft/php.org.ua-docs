@@ -1,16 +1,11 @@
-Повертає рядок
-
--   [« odbcfetchobject](function.odbc-fetch-object.html)
-    
--   [odbcfieldlen »](function.odbc-field-len.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Повертає рядок
-    
-
+---
+navigation:
+  - function.odbc-fetch-object.html: « odbcfetchobject
+  - function.odbc-field-len.html: odbcfieldlen »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcfetchrow
+---
 # odbcfetchrow
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,6 +38,6 @@ odbc_fetch_row(resource $statement, ?int $row = null): bool
 
 ### список змін
 
-| Версия | Описание                            |
-|--------|-------------------------------------|
-|        | `row` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `row` тепер допускає значення null. |

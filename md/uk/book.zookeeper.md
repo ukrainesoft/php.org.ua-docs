@@ -1,16 +1,11 @@
-ZooKeeper
-
--   [« ZMQDevice::setTimerTimeout](zmqdevice.settimertimeout.md)
-    
--   [Введение »](intro.zookeeper.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   ZooKeeper
-    
-
+---
+navigation:
+  - zmqdevice.settimertimeout.md: '« ZMQDevice::setTimerTimeout'
+  - intro.zookeeper.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: ZooKeeper
+---
 # ZooKeeper
 
 -   [Введение](intro.zookeeper.md)

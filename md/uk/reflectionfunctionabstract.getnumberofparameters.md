@@ -1,16 +1,11 @@
-Отримує кількість параметрів
-
--   [« ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md)
-    
--   [ReflectionFunctionAbstract::getNumberOfRequiredParameters »](reflectionfunctionabstract.getnumberofrequiredparameters.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Отримує кількість параметрів
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getnamespacename.md: '« ReflectionFunctionAbstract::getNamespaceName'
+  - reflectionfunctionabstract.getnumberofrequiredparameters.md: 'ReflectionFunctionAbstract::getNumberOfRequiredParameters »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getNumberOfParameters'
+---
 # ReflectionFunctionAbstract::getNumberOfParameters
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

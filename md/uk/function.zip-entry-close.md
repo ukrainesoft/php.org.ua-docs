@@ -1,16 +1,11 @@
-Закриває дескриптор директорії
-
--   [« zipclose](function.zip-close.html)
-    
--   [zipentrycompressedsize »](function.zip-entry-compressedsize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zip](ref.zip.md)
-    
--   Закриває дескриптор директорії
-    
-
+---
+navigation:
+  - function.zip-close.html: « zipclose
+  - function.zip-entry-compressedsize.html: zipentrycompressedsize »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipentryclose
+---
 # zipentryclose
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -41,9 +36,9 @@ zip_entry_close(resource $zip_entry): bool
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | Функція застаріла на користь Object API. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API. |
 
 ### Дивіться також
 

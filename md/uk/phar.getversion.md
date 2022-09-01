@@ -1,16 +1,11 @@
-Отримати версію Phar-архіву
-
--   [« Phar::getSupportedSignatures](phar.getsupportedsignatures.html)
-    
--   [Phar::hasMetadata »](phar.hasmetadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Отримати версію Phar-архіву
-    
-
+---
+navigation:
+  - phar.getsupportedsignatures.html: '« Phar::getSupportedSignatures'
+  - phar.hasmetadata.html: 'Phar::hasMetadata »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getVersion'
+---
 # Phar::getVersion
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

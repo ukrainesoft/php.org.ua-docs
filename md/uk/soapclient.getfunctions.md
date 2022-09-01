@@ -1,16 +1,11 @@
-Повертає список доступних SOAP-функцій
-
--   [« SoapClient::getCookies](soapclient.getcookies.md)
-    
--   [SoapClient::getLastRequest »](soapclient.getlastrequest.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapClient](class.soapclient.md)
-    
--   Повертає список доступних SOAP-функцій
-    
-
+---
+navigation:
+  - soapclient.getcookies.md: '« SoapClient::getCookies'
+  - soapclient.getlastrequest.md: 'SoapClient::getLastRequest »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::getFunctions'
+---
 # SoapClient::getFunctions
 
 (PHP 5, PHP 7, PHP 8)

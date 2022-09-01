@@ -1,16 +1,11 @@
-Клас DocResult
-
--   [« DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.html)
-    
--   [DocResult::construct »](mysql-xdevapi-docresult.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас DocResult
-    
-
+---
+navigation:
+  - mysql-xdevapi-databaseobject.getsession.html: '« DatabaseObject::getSession'
+  - mysql-xdevapi-docresult.construct.html: 'DocResult::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас DocResult
+---
 # Клас DocResult
 
 (PECL mysql-xdevapi >= 8.0.11)

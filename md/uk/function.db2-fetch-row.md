@@ -1,16 +1,11 @@
-Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
-
--   [« db2fetchobject](function.db2-fetch-object.html)
-    
--   [db2fielddisplaysize »](function.db2-field-display-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
-    
-
+---
+navigation:
+  - function.db2-fetch-object.html: « db2fetchobject
+  - function.db2-field-display-size.html: db2fielddisplaysize »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fetchrow
+---
 # db2fetchrow
 
 (PECL ibmdb2> = 1.0.0)

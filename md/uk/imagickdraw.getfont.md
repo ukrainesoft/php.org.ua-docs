@@ -1,16 +1,11 @@
-Повертає шрифт
-
--   [« ImagickDraw::getFillRule](imagickdraw.getfillrule.md)
-    
--   [ImagickDraw::getFontFamily »](imagickdraw.getfontfamily.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає шрифт
-    
-
+---
+navigation:
+  - imagickdraw.getfillrule.md: '« ImagickDraw::getFillRule'
+  - imagickdraw.getfontfamily.md: 'ImagickDraw::getFontFamily »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFont'
+---
 # ImagickDraw::getFont
 
 (PECL imagick 2, PECL imagick 3)

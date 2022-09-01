@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](imap.setup.md)
-    
--   [Установка »](imap.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](imap.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - imap.setup.md: « Встановлення та налаштування
+  - imap.installation.md: Установка »
+  - index.md: PHP Manual
+  - imap.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Цей модуль потребує встановленої бібліотеки c-client. Візьміть останню версію з [» https://github.com/uw-imap/imap](https://github.com/uw-imap/imap) та скомпілюйте її.

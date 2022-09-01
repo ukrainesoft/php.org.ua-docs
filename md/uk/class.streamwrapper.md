@@ -1,16 +1,11 @@
-Клас streamWrapper
-
--   [« phpuserfilter::onCreate](php-user-filter.oncreate.html)
-    
--   [streamWrapper::construct »](streamwrapper.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Потоки](book.stream.md)
-    
--   Клас streamWrapper
-    
-
+---
+navigation:
+  - php-user-filter.oncreate.html: '« phpuserfilter::onCreate'
+  - streamwrapper.construct.md: 'streamWrapper::construct »'
+  - index.md: PHP Manual
+  - book.stream.md: Потоки
+title: Клас streamWrapper
+---
 # Клас streamWrapper
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

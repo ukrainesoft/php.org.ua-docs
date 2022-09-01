@@ -1,16 +1,11 @@
-Закритий конструктор, який забороняє створення екземпляра безпосередньо
-
--   [« ReflectionReference](class.reflectionreference.html)
-    
--   [ReflectionReference::fromArrayElement »](reflectionreference.fromarrayelement.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionReference](class.reflectionreference.html)
-    
--   Закритий конструктор, який забороняє створення екземпляра безпосередньо
-    
-
+---
+navigation:
+  - class.reflectionreference.html: « ReflectionReference
+  - reflectionreference.fromarrayelement.html: 'ReflectionReference::fromArrayElement »'
+  - index.html: PHP Manual
+  - class.reflectionreference.html: ReflectionReference
+title: 'ReflectionReference::construct'
+---
 # ReflectionReference::construct
 
 (No version information available, might only be in Git)

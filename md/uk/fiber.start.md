@@ -1,16 +1,11 @@
-Починає виконання волокна
-
--   [« Fiber::construct](fiber.construct.md)
-    
--   [Fiber::resume »](fiber.resume.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Починає виконання волокна
-    
-
+---
+navigation:
+  - fiber.construct.md: '« Fiber::construct'
+  - fiber.resume.md: 'Fiber::resume »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::start'
+---
 # Fiber::start
 
 (PHP 8> = 8.1.0)

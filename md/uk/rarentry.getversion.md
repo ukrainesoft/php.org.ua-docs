@@ -1,16 +1,11 @@
-Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
-
--   [« RarEntry::getUnpackedSize](rarentry.getunpackedsize.md)
-    
--   [RarEntry::isDirectory »](rarentry.isdirectory.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarEntry](class.rarentry.md)
-    
--   Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
-    
-
+---
+navigation:
+  - rarentry.getunpackedsize.md: '« RarEntry::getUnpackedSize'
+  - rarentry.isdirectory.md: 'RarEntry::isDirectory »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getVersion'
+---
 # RarEntry::getVersion
 
 (PECL rar >= 0.1)

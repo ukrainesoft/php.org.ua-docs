@@ -1,16 +1,11 @@
-Конструктор Lua
-
--   [« Lua::call](lua.call.md)
-    
--   [Lua::eval »](lua.eval.md)
-    
--   [PHP Manual](index.md)
-    
--   [Lua](class.lua.md)
-    
--   Конструктор Lua
-    
-
+---
+navigation:
+  - lua.call.md: '« Lua::call'
+  - lua.eval.md: 'Lua::eval »'
+  - index.md: PHP Manual
+  - class.lua.md: Lua
+title: 'Lua::construct'
+---
 # Lua::construct
 
 (PECL lua> = 0.9.0)

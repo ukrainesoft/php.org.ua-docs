@@ -1,16 +1,11 @@
-Встановлення PHP на Lighttpd 1.4 на Unix-системах
-
--   [« Установка Nginx 1.4.x на систему Unix](install.unix.nginx.html)
-    
--   [Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix »](install.unix.litespeed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення на Unix-системи](install.unix.html)
-    
--   Встановлення PHP на Lighttpd 1.4 на Unix-системах
-    
-
+---
+navigation:
+  - install.unix.nginx.html: « Установка Nginx 1.4.x на систему Unix
+  - install.unix.litespeed.html: Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix »
+  - index.html: PHP Manual
+  - install.unix.html: Встановлення на Unix-системи
+title: Встановлення PHP на Lighttpd 1.4 на Unix-системах
+---
 ## Встановлення PHP на Lighttpd 1.4 на Unix-системах
 
 Цей розділ містить інформацію про встановлення PHP на Unix-системи з сервером Lighttpd 1.4.

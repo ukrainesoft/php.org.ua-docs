@@ -1,16 +1,11 @@
-Повертає факт наявності зазначеного індексу масиву
-
--   [« SplFixedArray::next](splfixedarray.next.html)
-    
--   [SplFixedArray::offsetGet »](splfixedarray.offsetget.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFixedArray](class.splfixedarray.html)
-    
--   Повертає факт наявності зазначеного індексу масиву
-    
-
+---
+navigation:
+  - splfixedarray.next.html: '« SplFixedArray::next'
+  - splfixedarray.offsetget.html: 'SplFixedArray::offsetGet »'
+  - index.html: PHP Manual
+  - class.splfixedarray.html: SplFixedArray
+title: 'SplFixedArray::offsetExists'
+---
 # SplFixedArray::offsetExists
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

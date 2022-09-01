@@ -1,16 +1,11 @@
-Клас DOMComment
-
--   [« DOMChildNode::replaceWith](domchildnode.replacewith.html)
-    
--   [DOMComment::construct »](domcomment.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Клас DOMComment
-    
-
+---
+navigation:
+  - domchildnode.replacewith.html: '« DOMChildNode::replaceWith'
+  - domcomment.construct.html: 'DOMComment::construct »'
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Клас DOMComment
+---
 # Клас DOMComment
 
 (PHP 5, PHP 7, PHP 8)

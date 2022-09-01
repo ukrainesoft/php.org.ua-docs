@@ -1,16 +1,11 @@
-Повертає конструктор класу
-
--   [« ReflectionClass::getConstants](reflectionclass.getconstants.md)
-    
--   [ReflectionClass::getDefaultProperties »](reflectionclass.getdefaultproperties.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає конструктор класу
-    
-
+---
+navigation:
+  - reflectionclass.getconstants.md: '« ReflectionClass::getConstants'
+  - reflectionclass.getdefaultproperties.md: 'ReflectionClass::getDefaultProperties »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getConstructor'
+---
 # ReflectionClass::getConstructor
 
 (PHP 5, PHP 7, PHP 8)

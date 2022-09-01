@@ -1,16 +1,11 @@
-Клас YafRequestHttp
-
--   [« YafRequestAbstract::setRouted](yaf-request-abstract.setrouted.html)
-    
--   [YafRequestHttp::construct »](yaf-request-http.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRequestHttp
-    
-
+---
+navigation:
+  - yaf-request-abstract.setrouted.html: '« YafRequestAbstract::setRouted'
+  - yaf-request-http.construct.html: 'YafRequestHttp::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRequestHttp
+---
 # Клас YafRequestHttp
 
 (Yaf >=1.0.0)

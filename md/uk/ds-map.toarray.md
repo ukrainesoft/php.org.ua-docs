@@ -1,16 +1,11 @@
-Перетворює колекцію на array
-
--   [« DsMap::sum](ds-map.sum.html)
-    
--   [ДсMap::union »](ds-map.union.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Перетворює колекцію на array
-    
-
+---
+navigation:
+  - ds-map.sum.html: '« DsMap::sum'
+  - ds-map.union.html: 'ДсMap::union »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::toArray'
+---
 # ДсMap::toArray
 
 (PECL ds >= 1.0.0)

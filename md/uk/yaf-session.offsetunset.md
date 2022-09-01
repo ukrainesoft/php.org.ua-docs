@@ -1,16 +1,11 @@
-Призначення offsetUnset
-
--   [« YafSession::offsetSet](yaf-session.offsetset.html)
-    
--   [YafSession::rewind »](yaf-session.rewind.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення offsetUnset
-    
-
+---
+navigation:
+  - yaf-session.offsetset.html: '« YafSession::offsetSet'
+  - yaf-session.rewind.html: 'YafSession::rewind »'
+  - index.md: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::offsetUnset'
+---
 # YafSession::offsetUnset
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Масштабує вхідні дані до навчальних даних до вказаного діапазону
-
--   [« fannsave](function.fann-save.html)
-    
--   [fannscaleinput »](function.fann-scale-input.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Масштабує вхідні дані до навчальних даних до вказаного діапазону
-    
-
+---
+navigation:
+  - function.fann-save.html: « fannsave
+  - function.fann-scale-input.html: fannscaleinput »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannscaleinputtraindata
+---
 # fannscaleinputtraindata
 
 (PECL fann> = 1.0.0)

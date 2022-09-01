@@ -1,16 +1,11 @@
-Закриває екземпляр Socket
-
--   [« socketclearerror](function.socket-clear-error.html)
-    
--   [socketcmsgspace »](function.socket-cmsg-space.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Закриває екземпляр Socket
-    
-
+---
+navigation:
+  - function.socket-clear-error.html: « socketclearerror
+  - function.socket-cmsg-space.html: socketcmsgspace »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketclose
+---
 # socketclose
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ socket_close(Socket $socket): void
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

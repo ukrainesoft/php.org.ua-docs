@@ -1,16 +1,11 @@
-Перевіряє, чи є заданий модуль блоковим чи ні
-
--   [« mcryptmodulegetsupportedkeysizes](function.mcrypt-module-get-supported-key-sizes.html)
-    
--   [mcryptmoduleісblockalgorithm »](function.mcrypt-module-is-block-algorithm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Перевіряє, чи є заданий модуль блоковим чи ні
-    
-
+---
+navigation:
+  - function.mcrypt-module-get-supported-key-sizes.html: « mcryptmodulegetsupportedkeysizes
+  - function.mcrypt-module-is-block-algorithm.html: mcryptmoduleісblockalgorithm »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptmoduleісblockalgorithmmode
+---
 # mcryptmoduleісblockalgorithmmode
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

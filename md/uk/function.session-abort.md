@@ -1,16 +1,11 @@
-Скасовує зміни у масиві сесії та завершує її
-
--   [« Функції для роботи з сесіями](ref.session.md)
-    
--   [sessioncacheexpire »](function.session-cache-expire.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Скасовує зміни у масиві сесії та завершує її
-    
-
+---
+navigation:
+  - ref.session.md: « Функції для роботи з сесіями
+  - function.session-cache-expire.html: sessioncacheexpire »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionabort
+---
 # sessionabort
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ session_abort(): bool
 
 ### список змін
 
-| Версия | Описание                                                           |
-|--------|--------------------------------------------------------------------|
-|        | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Дивіться також
 

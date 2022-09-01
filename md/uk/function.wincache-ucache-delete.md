@@ -1,16 +1,11 @@
-Видаляє змінні з кешу користувача.
-
--   [« wincacheucachedec](function.wincache-ucache-dec.html)
-    
--   [wincacheucacheexists »](function.wincache-ucache-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Видаляє змінні з кешу користувача.
-    
-
+---
+navigation:
+  - function.wincache-ucache-dec.html: « wincacheucachedec
+  - function.wincache-ucache-exists.html: wincacheucacheexists »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincacheucachedelete
+---
 # wincacheucachedelete
 
 (PECL wincache >= 1.1.0)

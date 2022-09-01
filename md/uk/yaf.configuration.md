@@ -1,34 +1,29 @@
-Налаштування під час виконання
-
--   [« Установка](yaf.installation.md)
-    
--   [Типи ресурсів »](yaf.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](yaf.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - yaf.installation.md: « Установка
+  - yaf.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - yaf.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Yaf**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [yaf.library](yaf.configuration.html#ini.yaf.library)                 |              | PHPINIALL       |                  |
-| [yaf.actionprefer](yaf.configuration.html#ini.yaf.action-prefer)      |              | PHPINIALL       |                  |
-| [yaf.lowcasepath](yaf.configuration.html#ini.yaf.lowcase-path)        |              | PHPINIALL       |                  |
-| [yaf.usesplautoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |              | PHPINIALL       |                  |
-| [yaf.forwardlimit](yaf.configuration.html#ini.yaf.forward-limit)      |              | PHPINIALL       |                  |
-| [yaf.namesuffix](yaf.configuration.html#ini.yaf.name-suffix)          |              | PHPINIALL       |                  |
-| [yaf.nameseparator](yaf.configuration.html#ini.yaf.name-separator)    |              | PHPINIALL       |                  |
-| [yaf.cacheconfig](yaf.configuration.html#ini.yaf.cache-config)        |              | PHPINISYSTEM    |                  |
-| [yaf.environ](yaf.configuration.html#ini.yaf.environ)                 | product      | PHPINISYSTEM    |                  |
-| [yaf.usenamespace](yaf.configuration.html#ini.yaf.use-namespace)      |              | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [yaf.library](yaf.configuration.html#ini.yaf.library) |  | PHPINIALL |  |
+| [yaf.actionprefer](yaf.configuration.html#ini.yaf.action-prefer) |  | PHPINIALL |  |
+| [yaf.lowcasepath](yaf.configuration.html#ini.yaf.lowcase-path) |  | PHPINIALL |  |
+| [yaf.usesplautoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |  | PHPINIALL |  |
+| [yaf.forwardlimit](yaf.configuration.html#ini.yaf.forward-limit) |  | PHPINIALL |  |
+| [yaf.namesuffix](yaf.configuration.html#ini.yaf.name-suffix) |  | PHPINIALL |  |
+| [yaf.nameseparator](yaf.configuration.html#ini.yaf.name-separator) |  | PHPINIALL |  |
+| [yaf.cacheconfig](yaf.configuration.html#ini.yaf.cache-config) |  | PHPINISYSTEM |  |
+| [yaf.environ](yaf.configuration.html#ini.yaf.environ) | product | PHPINISYSTEM |  |
+| [yaf.usenamespace](yaf.configuration.html#ini.yaf.use-namespace) |  | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

@@ -1,16 +1,11 @@
-Застосовує хвильовий фільтр до зображення
-
--   [« Imagick::vignetteImage](imagick.vignetteimage.md)
-    
--   [Imagick::whiteThresholdImage »](imagick.whitethresholdimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Застосовує хвильовий фільтр до зображення
-    
-
+---
+navigation:
+  - imagick.vignetteimage.md: '« Imagick::vignetteImage'
+  - imagick.whitethresholdimage.md: 'Imagick::whiteThresholdImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::waveImage'
+---
 # Imagick::waveImage
 
 (PECL imagick 2, PECL imagick 3)

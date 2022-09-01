@@ -1,16 +1,11 @@
-Зчитує середньоквадратичну помилку мережі
-
--   [« fanngetlearningrate](function.fann-get-learning-rate.html)
-    
--   [fanngetnetworktype »](function.fann-get-network-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Зчитує середньоквадратичну помилку мережі
-    
-
+---
+navigation:
+  - function.fann-get-learning-rate.html: « fanngetlearningrate
+  - function.fann-get-network-type.html: fanngetnetworktype »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetMSE
+---
 # fanngetMSE
 
 (PECL fann> = 1.0.0)

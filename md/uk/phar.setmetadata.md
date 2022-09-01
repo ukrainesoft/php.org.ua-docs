@@ -1,16 +1,11 @@
-Встановити метадані phar-архіву
-
--   [« Phar::setDefaultStub](phar.setdefaultstub.html)
-    
--   [Phar::setSignatureAlgorithm »](phar.setsignaturealgorithm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Встановити метадані phar-архіву
-    
-
+---
+navigation:
+  - phar.setdefaultstub.html: '« Phar::setDefaultStub'
+  - phar.setsignaturealgorithm.html: 'Phar::setSignatureAlgorithm »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::setMetadata'
+---
 # Phar::setMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

@@ -1,16 +1,11 @@
-Знімає блокування запису
-
--   [« SyncReaderWriter::writelock](syncreaderwriter.writelock.html)
-    
--   [SyncSharedMemory »](class.syncsharedmemory.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncReaderWriter](class.syncreaderwriter.html)
-    
--   Знімає блокування запису
-    
-
+---
+navigation:
+  - syncreaderwriter.writelock.html: '« SyncReaderWriter::writelock'
+  - class.syncsharedmemory.html: SyncSharedMemory »
+  - index.html: PHP Manual
+  - class.syncreaderwriter.html: SyncReaderWriter
+title: 'SyncReaderWriter::writeunlock'
+---
 # SyncReaderWriter::writeunlock
 
 (PECL sync >= 1.0.0)

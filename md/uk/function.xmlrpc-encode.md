@@ -1,16 +1,11 @@
-Генерує XML для значення PHP
-
--   [« xmlrpcencoderequest](function.xmlrpc-encode-request.html)
-    
--   [xmlrpcgettype »](function.xmlrpc-get-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції XML-RPC](ref.xmlrpc.html)
-    
--   Генерує XML для значення PHP
-    
-
+---
+navigation:
+  - function.xmlrpc-encode-request.html: « xmlrpcencoderequest
+  - function.xmlrpc-get-type.html: xmlrpcgettype »
+  - index.html: PHP Manual
+  - ref.xmlrpc.html: Функції XML-RPC
+title: xmlrpcencode
+---
 # xmlrpcencode
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

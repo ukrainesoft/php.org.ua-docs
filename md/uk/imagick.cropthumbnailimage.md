@@ -1,16 +1,11 @@
-Створює обрізану мініатюру
-
--   [« Imagick::cropImage](imagick.cropimage.md)
-    
--   [Imagick::current »](imagick.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює обрізану мініатюру
-    
-
+---
+navigation:
+  - imagick.cropimage.md: '« Imagick::cropImage'
+  - imagick.current.md: 'Imagick::current »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::cropThumbnailImage'
+---
 # Imagick::cropThumbnailImage
 
 (PECL imagick 2, PECL imagick 3)

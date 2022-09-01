@@ -1,16 +1,11 @@
-Запитує інтерактивний термінал
-
--   [« ssh2sftp](function.ssh2-sftp.html)
-    
--   [ssh2tunnel »](function.ssh2-tunnel.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Запитує інтерактивний термінал
-    
-
+---
+navigation:
+  - function.ssh2-sftp.html: « ssh2sftp
+  - function.ssh2-tunnel.html: ssh2tunnel »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2shell
+---
 # ssh2shell
 
 (PECL ssh2> = 0.9.0)

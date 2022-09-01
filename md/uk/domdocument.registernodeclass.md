@@ -1,16 +1,11 @@
-Реєстрація розширеного класу, який використовується для створення типу базового вузла
-
--   [« DOMDocument::normalizeDocument](domdocument.normalizedocument.html)
-    
--   [DOMDocument::relaxNGValidate »](domdocument.relaxngvalidate.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Реєстрація розширеного класу, який використовується для створення типу базового вузла
-    
-
+---
+navigation:
+  - domdocument.normalizedocument.html: '« DOMDocument::normalizeDocument'
+  - domdocument.relaxngvalidate.html: 'DOMDocument::relaxNGValidate »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::registerNodeClass'
+---
 # DOMDocument::registerNodeClass
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Визначає час цього об'єкта пізніше часу переданого об'єкта
-
--   [« IntlCalendar::add](intlcalendar.add.md)
-    
--   [IntlCalendar::before »](intlcalendar.before.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Визначає час цього об'єкта пізніше часу переданого об'єкта
-    
-
+---
+navigation:
+  - intlcalendar.add.md: '« IntlCalendar::add'
+  - intlcalendar.before.md: 'IntlCalendar::before »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::after'
+---
 # IntlCalendar::after
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

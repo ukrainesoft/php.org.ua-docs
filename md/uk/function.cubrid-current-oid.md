@@ -1,16 +1,11 @@
-Повертає OID поточної позиції курсору
-
--   [« cubridconnect](function.cubrid-connect.html)
-    
--   [cubriddisconnect »](function.cubrid-disconnect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Повертає OID поточної позиції курсору
-    
-
+---
+navigation:
+  - function.cubrid-connect.html: « cubridconnect
+  - function.cubrid-disconnect.html: cubriddisconnect »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridcurrentoid
+---
 # cubridcurrentoid
 
 (PECL CUBRID >= 8.3.0)

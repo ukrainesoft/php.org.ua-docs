@@ -1,16 +1,11 @@
-Функції Xhprof
-
--   [« Приклади](xhprof.examples.md)
-    
--   [xhprofdisable »](function.xhprof-disable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Xhprof](book.xhprof.md)
-    
--   Функції Xhprof
-    
-
+---
+navigation:
+  - xhprof.examples.md: « Приклади
+  - function.xhprof-disable.html: xhprofdisable »
+  - index.md: PHP Manual
+  - book.xhprof.md: Xhprof
+title: Функції Xhprof
+---
 # Функції Xhprof
 
 ## Зміст

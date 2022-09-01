@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](eio.constants.md)
-    
--   [Eio Функции »](ref.eio.md)
-    
--   [PHP Manual](index.md)
-    
--   [Eio](book.eio.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - eio.constants.md: « Обумовлені константи
+  - ref.eio.md: Eio Функции »
+  - index.md: PHP Manual
+  - book.eio.md: Eio
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Скасування запиту**

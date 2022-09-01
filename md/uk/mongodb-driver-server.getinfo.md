@@ -1,16 +1,11 @@
-Повертає масив інформації, що описує сервер
-
--   [« MongoDBDriverServer::getHost](mongodb-driver-server.gethost.html)
-    
--   [MongoDBDriverServer::getLatency »](mongodb-driver-server.getlatency.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Повертає масив інформації, що описує сервер
-    
-
+---
+navigation:
+  - mongodb-driver-server.gethost.html: '« MongoDBDriverServer::getHost'
+  - mongodb-driver-server.getlatency.html: 'MongoDBDriverServer::getLatency »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::getInfo'
+---
 # MongoDBDriverServer::getInfo
 
 (mongodb >=1.0.0)
@@ -190,8 +185,8 @@ array(23) {
 
 ### список змін
 
-| Версия              | Описание                                                                                                                                                                    |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.11.0 | Коли драйвер підключено до системи балансування навантаження, метод повертає відповідь на команду. `hello` допоміжного сервера під час початкового підтвердження з'єднання. |
 
 ### Дивіться також

@@ -1,16 +1,11 @@
-Підключається до віддаленого сервера MySQL
-
--   [« SwooleMySQL::close](swoole-mysql.close.html)
-    
--   [SwooleMySQL::construct »](swoole-mysql.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleMySQL](class.swoole-mysql.html)
-    
--   Підключається до віддаленого сервера MySQL
-    
-
+---
+navigation:
+  - swoole-mysql.close.html: '« SwooleMySQL::close'
+  - swoole-mysql.construct.html: 'SwooleMySQL::construct »'
+  - index.md: PHP Manual
+  - class.swoole-mysql.html: SwooleMySQL
+title: 'SwooleMySQL::connect'
+---
 # SwooleMySQL::connect
 
 (PECL swoole >= 1.9.0)

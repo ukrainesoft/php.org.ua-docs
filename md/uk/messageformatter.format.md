@@ -1,16 +1,11 @@
-Форматує повідомлення
-
--   [« MessageFormatter::formatMessage](messageformatter.formatmessage.md)
-    
--   [MessageFormatter::getErrorCode »](messageformatter.geterrorcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [MessageFormatter](class.messageformatter.md)
-    
--   Форматує повідомлення
-    
-
+---
+navigation:
+  - messageformatter.formatmessage.md: '« MessageFormatter::formatMessage'
+  - messageformatter.geterrorcode.md: 'MessageFormatter::getErrorCode »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
+title: 'MessageFormatter::format'
+---
 # MessageFormatter::format
 
 # msgfmtformat

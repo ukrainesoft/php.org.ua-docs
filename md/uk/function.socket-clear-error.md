@@ -1,16 +1,11 @@
-Очищує помилку на сокеті або останній код помилки
-
--   [« socketbind](function.socket-bind.html)
-    
--   [socketclose »](function.socket-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Очищує помилку на сокеті або останній код помилки
-    
-
+---
+navigation:
+  - function.socket-bind.html: « socketbind
+  - function.socket-close.html: socketclose »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketclearerror
+---
 # socketclearerror
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -39,10 +34,10 @@ socket_clear_error(?Socket $socket = null): void
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
-|        | `socket` тепер допускає значення null.                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+|  | `socket` тепер допускає значення null. |
 
 ### Дивіться також
 

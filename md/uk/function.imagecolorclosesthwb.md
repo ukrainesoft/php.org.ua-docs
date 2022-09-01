@@ -1,16 +1,11 @@
-Отримання індексу кольору, що має заданий тон, білизну та затемнення
-
--   [« imagecolorclosestalpha](function.imagecolorclosestalpha.html)
-    
--   [imagecolordeallocate »](function.imagecolordeallocate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Отримання індексу кольору, що має заданий тон, білизну та затемнення
-    
-
+---
+navigation:
+  - function.imagecolorclosestalpha.html: « imagecolorclosestalpha
+  - function.imagecolordeallocate.html: imagecolordeallocate »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagecolorclosesthwb
+---
 # imagecolorclosesthwb
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

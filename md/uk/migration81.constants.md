@@ -1,16 +1,11 @@
-Нові глобальні константи
-
--   [« Нові функції](migration81.new-functions.html)
-    
--   [Зміни, що ламають зворотну сумісність »](migration81.incompatible.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
-    
--   Нові глобальні константи
-    
-
+---
+navigation:
+  - migration81.new-functions.html: « Нові функції
+  - migration81.incompatible.html: 'Зміни, що ламають зворотну сумісність »'
+  - index.html: PHP Manual
+  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x
+title: Нові глобальні константи
+---
 ## Нові глобальні константи
 
 ### CURL

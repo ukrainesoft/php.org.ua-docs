@@ -1,16 +1,11 @@
-Зберігає вміст об'єкта LOB у файл
-
--   [« OCILob::erase](ocilob.erase.html)
-    
--   [OCILob::flush »](ocilob.flush.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCILob](class.ocilob.html)
-    
--   Зберігає вміст об'єкта LOB у файл
-    
-
+---
+navigation:
+  - ocilob.erase.html: '« OCILob::erase'
+  - ocilob.flush.html: 'OCILob::flush »'
+  - index.html: PHP Manual
+  - class.ocilob.html: OCILob
+title: 'OCILob::export'
+---
 # OCILob::export
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -45,9 +40,9 @@ public OCILob::export(string $filename, ?int $offset = null, ?int $length = null
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | `offset` і `length` тепер допускають значення null.                                                     |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | `offset` і `length` тепер допускають значення null. |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

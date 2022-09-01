@@ -1,16 +1,11 @@
-Функції Solr
-
--   [« Обумовлені константи](solr.constants.html)
-    
--   [solrgetversion »](function.solr-get-version.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Функції Solr
-    
-
+---
+navigation:
+  - solr.constants.html: « Обумовлені константи
+  - function.solr-get-version.html: solrgetversion »
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Функції Solr
+---
 # Функції Solr
 
 ## Зміст

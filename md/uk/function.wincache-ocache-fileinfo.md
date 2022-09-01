@@ -1,16 +1,11 @@
-Отримує інформацію про файли, закешовані в кеші опкодів
-
--   [« wincachelock](function.wincache-lock.html)
-    
--   [wincacheocachememinfo »](function.wincache-ocache-meminfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Отримує інформацію про файли, закешовані в кеші опкодів
-    
-
+---
+navigation:
+  - function.wincache-lock.html: « wincachelock
+  - function.wincache-ocache-meminfo.html: wincacheocachememinfo »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincacheocachefileinfo
+---
 # wincacheocachefileinfo
 
 (PECL wincache >= 1.0.0)

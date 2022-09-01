@@ -1,16 +1,11 @@
-Повертає гаму зображення
-
--   [« Gmagick::getimageformat](gmagick.getimageformat.html)
-    
--   [Gmagick::getimagegreenprimary »](gmagick.getimagegreenprimary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає гаму зображення
-    
-
+---
+navigation:
+  - gmagick.getimageformat.html: '« Gmagick::getimageformat'
+  - gmagick.getimagegreenprimary.html: 'Gmagick::getimagegreenprimary »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::getimagegamma'
+---
 # Gmagick::getimagegamma
 
 (PECL gmagick >= Unknown)

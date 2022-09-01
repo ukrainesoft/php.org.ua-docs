@@ -1,16 +1,11 @@
-Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
-
--   [« gnupginit](function.gnupg-init.html)
-    
--   [gnupglistsignatures »](function.gnupg-listsignatures.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
-    
-
+---
+navigation:
+  - function.gnupg-init.html: « gnupginit
+  - function.gnupg-listsignatures.html: gnupglistsignatures »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgkeyinfo
+---
 # gnupgkeyinfo
 
 (PECL gnupg >= 0.1)

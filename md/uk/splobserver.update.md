@@ -1,16 +1,11 @@
-Отримати оновлення від суб'єкта
-
--   [« SplObserver](class.splobserver.md)
-    
--   [SplSubject »](class.splsubject.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObserver](class.splobserver.md)
-    
--   Отримати оновлення від суб'єкта
-    
-
+---
+navigation:
+  - class.splobserver.md: « SplObserver
+  - class.splsubject.md: SplSubject »
+  - index.md: PHP Manual
+  - class.splobserver.md: SplObserver
+title: 'SplObserver::update'
+---
 # SplObserver::update
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

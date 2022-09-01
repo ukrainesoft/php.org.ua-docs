@@ -1,16 +1,11 @@
-Отримує об'єкт із бази даних InterBase
-
--   [« ibasefetchassoc](function.ibase-fetch-assoc.html)
-    
--   [ibasefetchrow »](function.ibase-fetch-row.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Отримує об'єкт із бази даних InterBase
-    
-
+---
+navigation:
+  - function.ibase-fetch-assoc.html: « ibasefetchassoc
+  - function.ibase-fetch-row.html: ibasefetchrow »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasefetchobject
+---
 # ibasefetchobject
 
 (PHP 5, PHP 7 < 7.4.0)

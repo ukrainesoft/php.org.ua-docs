@@ -1,16 +1,11 @@
-Отримує перший ключ масиву
-
--   [« arraykeyexists](function.array-key-exists.html)
-    
--   [arraykeylast »](function.array-key-last.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Отримує перший ключ масиву
-    
-
+---
+navigation:
+  - function.array-key-exists.html: « arraykeyexists
+  - function.array-key-last.html: arraykeylast »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraykeyfirst
+---
 # arraykeyfirst
 
 (PHP 7> = 7.3.0, PHP 8)

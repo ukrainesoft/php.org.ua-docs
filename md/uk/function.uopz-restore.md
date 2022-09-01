@@ -1,16 +1,11 @@
-Відновити раніше зарезервовану функцію
-
--   [« uopzrename](function.uopz-rename.html)
-    
--   [uopzsethook »](function.uopz-set-hook.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Відновити раніше зарезервовану функцію
-    
-
+---
+navigation:
+  - function.uopz-rename.html: « uopzrename
+  - function.uopz-set-hook.html: uopzsethook »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzrestore
+---
 # uopzrestore
 
 (PECL uopz 1> = 1.0.3, PECL uopz 2)

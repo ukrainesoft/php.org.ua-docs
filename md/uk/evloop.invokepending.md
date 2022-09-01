@@ -1,16 +1,11 @@
-Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
-
--   [« EvLoop::idle](evloop.idle.md)
-    
--   [EvLoop::io »](evloop.io.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
-    
-
+---
+navigation:
+  - evloop.idle.md: '« EvLoop::idle'
+  - evloop.io.md: 'EvLoop::io »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::invokePending'
+---
 # EvLoop::invokePending
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Зберігає результат запиту на зображення
-
--   [« RRDGraph::construct](rrdgraph.construct.md)
-    
--   [RRDGraph::saveVerbose »](rrdgraph.saveverbose.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRDGraph](class.rrdgraph.md)
-    
--   Зберігає результат запиту на зображення
-    
-
+---
+navigation:
+  - rrdgraph.construct.md: '« RRDGraph::construct'
+  - rrdgraph.saveverbose.md: 'RRDGraph::saveVerbose »'
+  - index.md: PHP Manual
+  - class.rrdgraph.md: RRDGraph
+title: 'RRDGraph::save'
+---
 # RRDGraph::save
 
 (PECL rrd >= 0.9.0)

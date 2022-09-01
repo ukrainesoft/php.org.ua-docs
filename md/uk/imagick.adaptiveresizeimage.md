@@ -1,16 +1,11 @@
-Адаптивна зміна розміру зображення з даними тріангуляції
-
--   [« Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.md)
-    
--   [Imagick::adaptiveSharpenImage »](imagick.adaptivesharpenimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Адаптивна зміна розміру зображення з даними тріангуляції
-    
-
+---
+navigation:
+  - imagick.adaptiveblurimage.md: '« Imagick::adaptiveBlurImage'
+  - imagick.adaptivesharpenimage.md: 'Imagick::adaptiveSharpenImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::adaptiveResizeImage'
+---
 # Imagick::adaptiveResizeImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -51,9 +46,9 @@ public Imagick::adaptiveResizeImage(    int $columns,    int $rows,  �
 
 ### список змін
 
-| Версия             | Описание                                                                                            |
-|--------------------|-----------------------------------------------------------------------------------------------------|
-| PECL imagick 2.1.0 | Додано необов'язковий параметр припасування.                                                        |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 2.1.0 | Додано необов'язковий параметр припасування. |
 | PECL imagick 2.1.0 | Метод тепер підтримує пропорційне масштабування. Для цього потрібно передати 0 одному з параметрів. |
 
 ### Приклади

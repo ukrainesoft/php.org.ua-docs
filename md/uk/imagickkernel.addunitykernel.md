@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickKernel::addKernel](imagickkernel.addkernel.html)
-    
--   [ImagickKernel::fromBuiltIn »](imagickkernel.frombuiltin.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickKernel](class.imagickkernel.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickkernel.addkernel.html: '« ImagickKernel::addKernel'
+  - imagickkernel.frombuiltin.html: 'ImagickKernel::fromBuiltIn »'
+  - index.html: PHP Manual
+  - class.imagickkernel.html: ImagickKernel
+title: 'ImagickKernel::addUnityKernel'
+---
 # ImagickKernel::addUnityKernel
 
 (PECL imagick >= 3.3.0)

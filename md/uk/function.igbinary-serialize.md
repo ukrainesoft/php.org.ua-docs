@@ -1,16 +1,11 @@
-Створює компактне, двійкове уявлення, що зберігається.
-
--   [« Функции Igbinary](ref.igbinary.md)
-    
--   [igbinaryunserialize »](function.igbinary-unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Igbinary](ref.igbinary.md)
-    
--   Створює компактне, двійкове уявлення, що зберігається.
-    
-
+---
+navigation:
+  - ref.igbinary.md: « Функции Igbinary
+  - function.igbinary-unserialize.html: igbinaryunserialize »
+  - index.md: PHP Manual
+  - ref.igbinary.md: Функции Igbinary
+title: igbinaryserialize
+---
 # igbinaryserialize
 
 (PECL igbinary >= 1.1.1)

@@ -1,16 +1,11 @@
-Повертає кількість функцій каскадної активації
-
--   [« fanngetbitfail](function.fann-get-bit-fail.html)
-    
--   [fanngetcascadeactivationfunctions »](function.fann-get-cascade-activation-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає кількість функцій каскадної активації
-    
-
+---
+navigation:
+  - function.fann-get-bit-fail.html: « fanngetbitfail
+  - function.fann-get-cascade-activation-functions.html: fanngetcascadeactivationfunctions »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadeactivationфункційcount
+---
 # fanngetcascadeactivationфункційcount
 
 (PECL fann> = 1.0.0)

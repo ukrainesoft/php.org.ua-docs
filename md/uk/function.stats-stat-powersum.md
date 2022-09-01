@@ -1,16 +1,11 @@
-Повертає статечну суму вектора
-
--   [« statsstatpercentile](function.stats-stat-percentile.html)
-    
--   [statsvariance »](function.stats-variance.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Повертає статечну суму вектора
-    
-
+---
+navigation:
+  - function.stats-stat-percentile.html: « statsstatpercentile
+  - function.stats-variance.html: statsvariance »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsстатиpowersum
+---
 # statsстатиpowersum
 
 (PECL stats >= 1.0.0)

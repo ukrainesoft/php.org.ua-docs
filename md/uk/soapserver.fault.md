@@ -1,16 +1,11 @@
-Вимушує SoapServer повернути помилку
-
--   [« SoapServer::construct](soapserver.construct.md)
-    
--   [SoapServer::getFunctions »](soapserver.getfunctions.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Вимушує SoapServer повернути помилку
-    
-
+---
+navigation:
+  - soapserver.construct.md: '« SoapServer::construct'
+  - soapserver.getfunctions.md: 'SoapServer::getFunctions »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::fault'
+---
 # SoapServer::fault
 
 (PHP 5, PHP 7, PHP 8)

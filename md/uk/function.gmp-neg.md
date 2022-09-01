@@ -1,16 +1,11 @@
-Зміна знака числа
-
--   [« gmpmul](function.gmp-mul.html)
-    
--   [gmpnextprime »](function.gmp-nextprime.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Зміна знака числа
-    
-
+---
+navigation:
+  - function.gmp-mul.html: « gmpmul
+  - function.gmp-nextprime.html: gmpnextprime »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpneg
+---
 # gmpneg
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

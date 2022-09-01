@@ -1,16 +1,11 @@
-Обробник setstate
-
--   [« DateTime::modify](datetime.modify.md)
-    
--   [DateTime::setDate »](datetime.setdate.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Обробник setstate
-    
-
+---
+navigation:
+  - datetime.modify.md: '« DateTime::modify'
+  - datetime.setdate.md: 'DateTime::setDate »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::setstate'
+---
 # DateTime::setstate
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

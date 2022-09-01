@@ -1,16 +1,11 @@
-Додає текстовий коментар на зображення
-
--   [« Imagick::animateImages](imagick.animateimages.html)
-    
--   [Imagick::appendImages »](imagick.appendimages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Додає текстовий коментар на зображення
-    
-
+---
+navigation:
+  - imagick.animateimages.html: '« Imagick::animateImages'
+  - imagick.appendimages.html: 'Imagick::appendImages »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::annotateImage'
+---
 # Imagick::annotateImage
 
 (PECL imagick 2, PECL imagick 3)

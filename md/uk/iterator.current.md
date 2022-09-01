@@ -1,16 +1,11 @@
-Повернення поточного елемента
-
--   [« Iterator](class.iterator.md)
-    
--   [Iterator::key »](iterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [Iterator](class.iterator.md)
-    
--   Повернення поточного елемента
-    
-
+---
+navigation:
+  - class.iterator.md: « Iterator
+  - iterator.key.md: 'Iterator::key »'
+  - index.md: PHP Manual
+  - class.iterator.md: Iterator
+title: 'Iterator::current'
+---
 # Iterator::current
 
 (PHP 5, PHP 7, PHP 8)

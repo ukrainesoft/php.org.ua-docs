@@ -1,16 +1,11 @@
-Перевіряє наявність символів керування
-
--   [« ctypealpha](function.ctype-alpha.html)
-    
--   [ctypedigit »](function.ctype-digit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції Ctype](ref.ctype.html)
-    
--   Перевіряє наявність символів керування
-    
-
+---
+navigation:
+  - function.ctype-alpha.html: « ctypealpha
+  - function.ctype-digit.html: ctypedigit »
+  - index.html: PHP Manual
+  - ref.ctype.html: Опції Ctype
+title: ctypecntrl
+---
 # ctypecntrl
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

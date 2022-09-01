@@ -1,16 +1,11 @@
-Створити SVMModel на основі навчальних даних
-
--   [« SVM::setOptions](svm.setoptions.md)
-    
--   [SVMModel »](class.svmmodel.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVM](class.svm.md)
-    
--   Створити SVMModel на основі навчальних даних
-    
-
+---
+navigation:
+  - svm.setoptions.md: '« SVM::setOptions'
+  - class.svmmodel.md: SVMModel »
+  - index.md: PHP Manual
+  - class.svm.md: SVM
+title: 'SVM::train'
+---
 # SVM::train
 
 (PECL svm >= 0.1.0)

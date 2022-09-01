@@ -1,16 +1,11 @@
-Встановлює значення enable у бібліотеці NET-SNMP
-
--   [« snmpsetoidoutputformat](function.snmp-set-oid-output-format.html)
-    
--   [snmpsetvalueretrieval »](function.snmp-set-valueretrieval.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Встановлює значення enable у бібліотеці NET-SNMP
-    
-
+---
+navigation:
+  - function.snmp-set-oid-output-format.html: « snmpsetoidoutputformat
+  - function.snmp-set-valueretrieval.html: snmpsetvalueretrieval »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmpsetquickprint
+---
 # snmpsetquickprint
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

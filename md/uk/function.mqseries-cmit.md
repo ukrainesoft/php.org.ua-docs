@@ -1,16 +1,11 @@
-MQSeries MQCMIT
-
--   [« mqseriesclose](function.mqseries-close.html)
-    
--   [mqseriesconn »](function.mqseries-conn.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   MQSeries MQCMIT
-    
-
+---
+navigation:
+  - function.mqseries-close.html: « mqseriesclose
+  - function.mqseries-conn.html: mqseriesconn »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriescmit
+---
 # mqseriescmit
 
 (PECL mqseries >= 0.10.0)

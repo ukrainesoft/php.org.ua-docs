@@ -1,16 +1,11 @@
-Встановлює властивість зображення
-
--   [« Imagick::setImageProfile](imagick.setimageprofile.md)
-    
--   [Imagick::setImageRedPrimary »](imagick.setimageredprimary.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює властивість зображення
-    
-
+---
+navigation:
+  - imagick.setimageprofile.md: '« Imagick::setImageProfile'
+  - imagick.setimageredprimary.md: 'Imagick::setImageRedPrimary »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageProperty'
+---
 # Imagick::setImageProperty
 
 (PECL imagick 2, PECL imagick 3)

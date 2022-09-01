@@ -1,16 +1,11 @@
-Швидко витягує атрибути
-
--   [« Imagick::pingImage](imagick.pingimage.html)
-    
--   [Imagick::pingImageFile »](imagick.pingimagefile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Швидко витягує атрибути
-    
-
+---
+navigation:
+  - imagick.pingimage.html: '« Imagick::pingImage'
+  - imagick.pingimagefile.html: 'Imagick::pingImageFile »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::pingImageBlob'
+---
 # Imagick::pingImageBlob
 
 (PECL imagick 2, PECL imagick 3)

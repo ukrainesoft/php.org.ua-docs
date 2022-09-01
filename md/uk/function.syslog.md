@@ -1,16 +1,11 @@
-Генерує повідомлення для системного журналу
-
--   [« socketsettimeout](function.socket-set-timeout.html)
-    
--   [RRD »](book.rrd.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Генерує повідомлення для системного журналу
-    
-
+---
+navigation:
+  - function.socket-set-timeout.html: « socketsettimeout
+  - book.rrd.html: RRD »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: syslog
+---
 # syslog
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -35,16 +30,16 @@ syslog(int $priority, string $message): bool
 
 **Пріоритети **syslog()** (по спаданню)**
 
-| Константа         | Описание                    |
-|-------------------|-----------------------------|
-| **`LOG_EMERG`**   | система непридатна          |
-| **`LOG_ALERT`**   | необхідні негайні заходи    |
-| **`LOG_CRIT`**    | критичні умови              |
-| **`LOG_ERR`**     | умови помилки               |
-| **`LOG_WARNING`** | умови попередження          |
-| **`LOG_NOTICE`**  | нормальні, але значну умову |
-| **`LOG_INFO`**    | інформаційне повідомлення   |
-| **`LOG_DEBUG`**   | повідомлення налагодження   |
+| Константа | Описание |
+| --- | --- |
+| **`LOG_EMERG`** | система непридатна |
+| **`LOG_ALERT`** | необхідні негайні заходи |
+| **`LOG_CRIT`** | критичні умови |
+| **`LOG_ERR`** | умови помилки |
+| **`LOG_WARNING`** | умови попередження |
+| **`LOG_NOTICE`** | нормальні, але значну умову |
+| **`LOG_INFO`** | інформаційне повідомлення |
+| **`LOG_DEBUG`** | повідомлення налагодження |
 
 `message`
 

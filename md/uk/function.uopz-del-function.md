@@ -1,16 +1,11 @@
-Видаляє раніше додану функцію або метод
-
--   [« uopzcopy](function.uopz-copy.html)
-    
--   [uopzdelete »](function.uopz-delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Видаляє раніше додану функцію або метод
-    
-
+---
+navigation:
+  - function.uopz-copy.html: « uopzcopy
+  - function.uopz-delete.html: uopzdelete »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzdelfunction
+---
 # uopzdelfunction
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

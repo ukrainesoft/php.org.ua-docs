@@ -1,16 +1,11 @@
-Отримує ім'я об'єкта
-
--   [« DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.html)
-    
--   [DatabaseObject::getSession »](mysql-xdevapi-databaseobject.getsession.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
-    
--   Отримує ім'я об'єкта
-    
-
+---
+navigation:
+  - mysql-xdevapi-databaseobject.existsindatabase.html: '« DatabaseObject::existsInDatabase'
+  - mysql-xdevapi-databaseobject.getsession.html: 'DatabaseObject::getSession »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-databaseobject.html: mysqlxdevapiDatabaseObject
+title: 'DatabaseObject::getName'
+---
 # DatabaseObject::getName
 
 (No version information available, might only be in Git)

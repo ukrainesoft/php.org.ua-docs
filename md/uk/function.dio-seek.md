@@ -1,16 +1,11 @@
-Перемістити вказівник у файловому дескрипторі
-
--   [« dioread](function.dio-read.html)
-    
--   [diostat »](function.dio-stat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції прямого введення/виводу](ref.dio.html)
-    
--   Перемістити вказівник у файловому дескрипторі
-    
-
+---
+navigation:
+  - function.dio-read.html: « dioread
+  - function.dio-stat.html: diostat »
+  - index.html: PHP Manual
+  - ref.dio.html: Функції прямого введення/виводу
+title: dioseek
+---
 # dioseek
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

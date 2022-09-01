@@ -1,16 +1,11 @@
-Розширює ключ та одноразовий номер у ключовий потік псевдовипадкових байтів
-
--   [« sodiumcryptostreamxchacha20xor](function.sodium-crypto-stream-xchacha20-xor.html)
-    
--   [sodiumcryptostreamxor »](function.sodium-crypto-stream-xor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Розширює ключ та одноразовий номер у ключовий потік псевдовипадкових байтів
-    
-
+---
+navigation:
+  - function.sodium-crypto-stream-xchacha20-xor.html: « sodiumcryptostreamxchacha20xor
+  - function.sodium-crypto-stream-xor.html: sodiumcryptostreamxor »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptostreamxchacha20
+---
 # sodiumcryptostreamxchacha20
 
 (PHP 8> = 8.1.0)

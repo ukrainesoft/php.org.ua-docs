@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](libxml.requirements.md)
-    
--   [Налаштування під час виконання »](libxml.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](libxml.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - libxml.requirements.md: « Вимоги
+  - libxml.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - libxml.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль libxml включений за замовчуванням, але може бути вимкнений за допомогою директиви **\-disable-libxml**

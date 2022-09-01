@@ -1,16 +1,11 @@
-Клас Gmagick
-
--   [« Приклади](gmagick.examples.md)
-    
--   [Gmagick::addimage »](gmagick.addimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](book.gmagick.md)
-    
--   Клас Gmagick
-    
-
+---
+navigation:
+  - gmagick.examples.md: « Приклади
+  - gmagick.addimage.md: 'Gmagick::addimage »'
+  - index.md: PHP Manual
+  - book.gmagick.md: Gmagick
+title: Клас Gmagick
+---
 # Клас Gmagick
 
 (PECL gmagick >= Unknown)

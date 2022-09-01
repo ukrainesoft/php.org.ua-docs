@@ -1,16 +1,11 @@
-Повертає відсортовану за значенням копію двосторонньої черги
-
--   [« DsDeque::sort](ds-deque.sort.html)
-    
--   [ДсDeque::sum »](ds-deque.sum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає відсортовану за значенням копію двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.sort.html: '« DsDeque::sort'
+  - ds-deque.sum.html: 'ДсDeque::sum »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::sorted'
+---
 # ДсDeque::sorted
 
 (PECL ds >= 1.0.0)

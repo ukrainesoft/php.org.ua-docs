@@ -1,16 +1,11 @@
-Псевдонімcryptoboxpublickeyfromsecretkey
-
--   [« sodiumcryptopwhash](function.sodium-crypto-pwhash.html)
-    
--   [sodiumcryptoscalarmultristretto255base »](function.sodium-crypto-scalarmult-ristretto255-base.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Псевдонімcryptoboxpublickeyfromsecretkey
-    
-
+---
+navigation:
+  - function.sodium-crypto-pwhash.html: « sodiumcryptopwhash
+  - function.sodium-crypto-scalarmult-ristretto255-base.html: sodiumcryptoscalarmultristretto255base »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoscalarmultbase
+---
 # sodiumcryptoscalarmultbase
 
 (PHP 7> = 7.2.0, PHP 8)

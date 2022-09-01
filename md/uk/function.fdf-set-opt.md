@@ -1,16 +1,11 @@
-Встановлює параметри поля
-
--   [« fdfsetвінimportjavascript](function.fdf-set-on-import-javascript.html)
-    
--   [fdfsetstatus »](function.fdf-set-status.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює параметри поля
-    
-
+---
+navigation:
+  - function.fdf-set-on-import-javascript.html: « fdfsetвінimportjavascript
+  - function.fdf-set-status.html: fdfsetstatus »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetopt
+---
 # fdfsetopt
 
 (PHP 4> = 4.0.2, PHP 5 <5.3.0, PECL fdf SVN)

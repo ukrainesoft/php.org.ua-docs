@@ -1,16 +1,11 @@
-Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
-
--   [« Функції SPL](ref.spl.html)
-    
--   [classparents »](function.class-parents.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
-    
-
+---
+navigation:
+  - ref.spl.html: « Функції SPL
+  - function.class-parents.html: classparents »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: classimplements
+---
 # classimplements
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас tidy
-
--   [« Пример использования Tidy](tidy.examples.basic.md)
-    
--   [tidy::body »](tidy.body.md)
-    
--   [PHP Manual](index.md)
-    
--   [Tidy](book.tidy.md)
-    
--   Клас tidy
-    
-
+---
+navigation:
+  - tidy.examples.basic.md: « Пример использования Tidy
+  - tidy.body.md: 'tidy::body »'
+  - index.md: PHP Manual
+  - book.tidy.md: Tidy
+title: 'Клас [tidy](class.tidy.md)'
+---
 # Клас [tidy](class.tidy.md)
 
 (PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)

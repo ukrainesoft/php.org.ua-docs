@@ -1,16 +1,11 @@
-Серіалізує контейнер
-
--   [« SplObjectStorage::rewind](splobjectstorage.rewind.html)
-    
--   [SplObjectStorage::setInfo »](splobjectstorage.setinfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplObjectStorage](class.splobjectstorage.html)
-    
--   Серіалізує контейнер
-    
-
+---
+navigation:
+  - splobjectstorage.rewind.html: '« SplObjectStorage::rewind'
+  - splobjectstorage.setinfo.html: 'SplObjectStorage::setInfo »'
+  - index.html: PHP Manual
+  - class.splobjectstorage.html: SplObjectStorage
+title: 'SplObjectStorage::serialize'
+---
 # SplObjectStorage::serialize
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

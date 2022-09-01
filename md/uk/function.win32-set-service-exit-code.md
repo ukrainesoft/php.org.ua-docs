@@ -1,16 +1,11 @@
-Визначає або повертає код виходу для поточної запущеної служби
-
--   [« win32sendcustomcontrol](function.win32-send-custom-control.html)
-    
--   [win32setserviceexitmode »](function.win32-set-service-exit-mode.html)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](ref.win32service.md)
-    
--   Визначає або повертає код виходу для поточної запущеної служби
-    
-
+---
+navigation:
+  - function.win32-send-custom-control.html: « win32sendcustomcontrol
+  - function.win32-set-service-exit-mode.html: win32setserviceexitmode »
+  - index.md: PHP Manual
+  - ref.win32service.md: win32service
+title: win32setserviceexitcode
+---
 # win32setserviceexitcode
 
 (PECL win32service >=0.4.0)
@@ -47,9 +42,9 @@ win32_set_service_exit_code(int $exitCode = 1): int
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                          |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**                                                      |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
 
 ### Дивіться також

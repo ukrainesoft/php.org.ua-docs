@@ -1,16 +1,11 @@
-Отримання ширини шрифту
-
--   [« imagefontheight](function.imagefontheight.md)
-    
--   [imageftbbox »](function.imageftbbox.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання ширини шрифту
-    
-
+---
+navigation:
+  - function.imagefontheight.md: « imagefontheight
+  - function.imageftbbox.md: imageftbbox »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagefontwidth
+---
 # imagefontwidth
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ imagefontwidth(GdFont|int $font): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
 
 ### Приклади
 

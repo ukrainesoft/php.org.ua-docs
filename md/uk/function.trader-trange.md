@@ -1,16 +1,11 @@
-Справжній діапазон
-
--   [« tradertema](function.trader-tema.html)
-    
--   [tradertrima »](function.trader-trima.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Справжній діапазон
-    
-
+---
+navigation:
+  - function.trader-tema.html: « tradertema
+  - function.trader-trima.html: tradertrima »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertrange
+---
 # tradertrange
 
 (PECL trader >= 0.2.0)

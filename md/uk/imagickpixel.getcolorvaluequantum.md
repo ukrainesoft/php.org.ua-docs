@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickPixel::getColorValue](imagickpixel.getcolorvalue.md)
-    
--   [ImagickPixel::getHSL »](imagickpixel.gethsl.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickpixel.getcolorvalue.md: '« ImagickPixel::getColorValue'
+  - imagickpixel.gethsl.md: 'ImagickPixel::getHSL »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::getColorValueQuantum'
+---
 # ImagickPixel::getColorValueQuantum
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

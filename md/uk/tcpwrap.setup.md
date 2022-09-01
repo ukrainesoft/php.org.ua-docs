@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.tcpwrap.md)
-    
--   [Вимоги »](tcpwrap.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [TCP](book.tcpwrap.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.tcpwrap.md: « Введение
+  - tcpwrap.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.tcpwrap.md: TCP
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

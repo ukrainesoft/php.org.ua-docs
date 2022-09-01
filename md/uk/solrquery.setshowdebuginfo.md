@@ -1,16 +1,11 @@
-Прапор для відображення налагоджувальної інформації
-
--   [« SolrQuery::setRows](solrquery.setrows.html)
-    
--   [SolrQuery::setStart »](solrquery.setstart.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Прапор для відображення налагоджувальної інформації
-    
-
+---
+navigation:
+  - solrquery.setrows.html: '« SolrQuery::setRows'
+  - solrquery.setstart.html: 'SolrQuery::setStart »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setShowDebugInfo'
+---
 # SolrQuery::setShowDebugInfo
 
 (PECL solr> = 0.9.2)

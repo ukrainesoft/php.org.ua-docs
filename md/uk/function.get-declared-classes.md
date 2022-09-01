@@ -1,16 +1,11 @@
-Повертає масив із іменами оголошених класів
-
--   [« getclass](function.get-class.html)
-    
--   [getdeclaredinterfaces »](function.get-declared-interfaces.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Повертає масив із іменами оголошених класів
-    
-
+---
+navigation:
+  - function.get-class.html: « getclass
+  - function.get-declared-interfaces.html: getdeclaredinterfaces »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getdeclaredclasses
+---
 # getdeclaredclasses
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ get_declared_classes(): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Раніше **getdeclaredclasses()** завжди повертала батьківські класи перед дочірніми класами. Це не так. Для значення, що повертається **getdeclaredclasses()** Конкретний порядок не гарантується. |
+| Версия | Описание |
+| --- | --- |
+|  | Раніше **getdeclaredclasses()** завжди повертала батьківські класи перед дочірніми класами. Це не так. Для значення, що повертається **getdeclaredclasses()** Конкретний порядок не гарантується. |
 
 ### Приклади
 

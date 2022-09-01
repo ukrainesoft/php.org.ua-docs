@@ -1,16 +1,11 @@
-Встановлює загальний розмір полотна
-
--   [« ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.md)
-    
--   [ImagickDraw::skewX »](imagickdraw.skewx.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює загальний розмір полотна
-    
-
+---
+navigation:
+  - imagickdraw.setvectorgraphics.md: '« ImagickDraw::setVectorGraphics'
+  - imagickdraw.skewx.md: 'ImagickDraw::skewX »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setViewbox'
+---
 # ImagickDraw::setViewbox
 
 (PECL imagick 2, PECL imagick 3)

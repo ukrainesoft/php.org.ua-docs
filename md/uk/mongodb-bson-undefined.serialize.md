@@ -1,16 +1,11 @@
-Серіалізує Undefined
-
--   [« MongoDBBSONUndefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.html)
-    
--   [MongoDBBSONUndefined::toString »](mongodb-bson-undefined.tostring.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
-    
--   Серіалізує Undefined
-    
-
+---
+navigation:
+  - mongodb-bson-undefined.jsonserialize.html: '« MongoDBBSONUndefined::jsonSerialize'
+  - mongodb-bson-undefined.tostring.html: 'MongoDBBSONUndefined::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined
+title: 'MongoDBBSONUndefined::serialize'
+---
 # MongoDBBSONUndefined::serialize
 
 (mongodb >=1.4.0)

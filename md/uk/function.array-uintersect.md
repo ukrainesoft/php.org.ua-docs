@@ -1,16 +1,11 @@
-Обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
-
--   [« arrayuintersectuassoc](function.array-uintersect-uassoc.html)
-    
--   [arrayunique »](function.array-unique.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
-    
-
+---
+navigation:
+  - function.array-uintersect-uassoc.html: « arrayuintersectuassoc
+  - function.array-unique.html: arrayunique »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayuintersect
+---
 # arrayuintersect
 
 (PHP 5, PHP 7, PHP 8)

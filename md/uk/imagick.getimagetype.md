@@ -1,16 +1,11 @@
-Повертає можливий тип зображення
-
--   [« Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md)
-    
--   [Imagick::getImageUnits »](imagick.getimageunits.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає можливий тип зображення
-    
-
+---
+navigation:
+  - imagick.getimagetotalinkdensity.md: '« Imagick::getImageTotalInkDensity'
+  - imagick.getimageunits.md: 'Imagick::getImageUnits »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageType'
+---
 # Imagick::getImageType
 
 (PECL imagick 2, PECL imagick 3)

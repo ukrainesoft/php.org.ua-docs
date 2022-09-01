@@ -1,16 +1,11 @@
-Повертає результат операції, якщо було встановлено опцію CURLOPTRETURNTRANSFER
-
--   [« curlmultiexec](function.curl-multi-exec.html)
-    
--   [curlmultiinforead »](function.curl-multi-info-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Повертає результат операції, якщо було встановлено опцію CURLOPTRETURNTRANSFER
-    
-
+---
+navigation:
+  - function.curl-multi-exec.html: « curlmultiexec
+  - function.curl-multi-info-read.html: curlmultiinforead »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlmultigetcontent
+---
 # curlmultigetcontent
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ curl_multi_getcontent(CurlHandle $handle): ?string
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

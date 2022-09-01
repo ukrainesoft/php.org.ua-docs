@@ -1,16 +1,11 @@
-Робить наступний рядок у наборі результатів доступного для читання
-
--   [« sqlsrvfetchobject](function.sqlsrv-fetch-object.html)
-    
--   [sqlsrvfieldmetadata »](function.sqlsrv-field-metadata.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Робить наступний рядок у наборі результатів доступного для читання
-    
-
+---
+navigation:
+  - function.sqlsrv-fetch-object.html: « sqlsrvfetchobject
+  - function.sqlsrv-field-metadata.html: sqlsrvfieldmetadata »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvfetch
+---
 # sqlsrvfetch
 
 (No version information available, might only be in Git)

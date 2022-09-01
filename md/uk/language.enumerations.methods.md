@@ -1,16 +1,11 @@
-Методи перерахувань
-
--   [Типізовані перерахування](language.enumerations.backed.html)
-    
--   [Статичні методи перерахувань »](language.enumerations.static-methods.html)
-    
--   [PHP Manual](index.html)
-    
--   [Перечисления](language.enumerations.html)
-    
--   Методи перерахувань
-    
-
+---
+navigation:
+  - language.enumerations.backed.html: Типізовані перерахування
+  - language.enumerations.static-methods.html: Статичні методи перерахувань »
+  - index.html: PHP Manual
+  - language.enumerations.html: Перечисления
+title: Методи перерахувань
+---
 ## Методи перерахувань
 
 Перерахування (як чисті перерахування, і типизированные перерахування) можуть містити методи і можуть реалізовувати інтерфейси. Якщо перерахування реалізує інтерфейс, то будь-яка перевірка типу цього інтерфейсу також прийматиме всі варіанти цього перерахування.

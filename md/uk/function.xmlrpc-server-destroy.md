@@ -1,16 +1,11 @@
-Знищує серверні ресурси
-
--   [« xmlrpcservercreate](function.xmlrpc-server-create.html)
-    
--   [xmlrpcserverregisterintrospectioncallback »](function.xmlrpc-server-register-introspection-callback.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції XML-RPC](ref.xmlrpc.html)
-    
--   Знищує серверні ресурси
-    
-
+---
+navigation:
+  - function.xmlrpc-server-create.html: « xmlrpcservercreate
+  - function.xmlrpc-server-register-introspection-callback.html: xmlrpcserverregisterintrospectioncallback »
+  - index.html: PHP Manual
+  - ref.xmlrpc.html: Функції XML-RPC
+title: xmlrpcserverdestroy
+---
 # xmlrpcserverdestroy
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

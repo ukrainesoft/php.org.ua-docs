@@ -1,16 +1,11 @@
-Встановлює функцію посилення (параметр bf)
-
--   [« SolrDisMaxQuery::setBigramPhraseSlop](solrdismaxquery.setbigramphraseslop.md)
-    
--   [SolrDisMaxQuery::setBoostQuery »](solrdismaxquery.setboostquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Встановлює функцію посилення (параметр bf)
-    
-
+---
+navigation:
+  - solrdismaxquery.setbigramphraseslop.md: '« SolrDisMaxQuery::setBigramPhraseSlop'
+  - solrdismaxquery.setboostquery.md: 'SolrDisMaxQuery::setBoostQuery »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setBoostFunction'
+---
 # SolrDisMaxQuery::setBoostFunction
 
 (No version information available, might only be in Git)

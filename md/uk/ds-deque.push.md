@@ -1,16 +1,11 @@
-Додає значення до кінця двосторонньої черги
-
--   [« DsDeque::pop](ds-deque.pop.html)
-    
--   [ДсDeque::reduce »](ds-deque.reduce.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Додає значення до кінця двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.pop.html: '« DsDeque::pop'
+  - ds-deque.reduce.html: 'ДсDeque::reduce »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::push'
+---
 # ДсDeque::push
 
 (PECL ds >= 1.0.0)

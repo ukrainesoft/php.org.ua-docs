@@ -1,16 +1,11 @@
-Клас SolrGenericResponse
-
--   [« SolrPingResponse::getResponse](solrpingresponse.getresponse.md)
-    
--   [SolrGenericResponse::construct »](solrgenericresponse.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrGenericResponse
-    
-
+---
+navigation:
+  - solrpingresponse.getresponse.md: '« SolrPingResponse::getResponse'
+  - solrgenericresponse.construct.md: 'SolrGenericResponse::construct »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrGenericResponse
+---
 # Клас SolrGenericResponse
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Отримує змінну Cookie
-
--   [« YafRequestHttp::get](yaf-request-http.get.html)
-    
--   [YafRequestHttp::getFiles »](yaf-request-http.getfiles.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestHttp](class.yaf-request-http.html)
-    
--   Отримує змінну Cookie
-    
-
+---
+navigation:
+  - yaf-request-http.get.html: '« YafRequestHttp::get'
+  - yaf-request-http.getfiles.html: 'YafRequestHttp::getFiles »'
+  - index.md: PHP Manual
+  - class.yaf-request-http.html: YafRequestHttp
+title: 'YafRequestHttp::getCookie'
+---
 # YafRequestHttp::getCookie
 
 (Yaf >=1.0.0)

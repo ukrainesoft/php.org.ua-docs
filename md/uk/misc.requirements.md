@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](misc.setup.html)
-    
--   [Установка »](misc.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](misc.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - misc.setup.html: « Встановлення та налаштування
+  - misc.installation.html: Установка »
+  - index.html: PHP Manual
+  - misc.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

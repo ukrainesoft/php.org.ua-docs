@@ -1,16 +1,11 @@
-Повертає код JavaScript
-
--   [« MongoDBBSONJavascript::construct](mongodb-bson-javascript.construct.html)
-    
--   [MongoDBBSONJavascript::getScope »](mongodb-bson-javascript.getscope.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   Повертає код JavaScript
-    
-
+---
+navigation:
+  - mongodb-bson-javascript.construct.html: '« MongoDBBSONJavascript::construct'
+  - mongodb-bson-javascript.getscope.html: 'MongoDBBSONJavascript::getScope »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+title: 'MongoDBBSONJavascript::getCode'
+---
 # MongoDBBSONJavascript::getCode
 
 (mongodb >=1.2.0)

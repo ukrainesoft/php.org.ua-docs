@@ -1,16 +1,11 @@
-Використання Phar-архівів: обгортка потоку phar
-
--   [« Использование Phar-архивов: Введение](phar.using.intro.html)
-    
--   [Використання Phar-архівів: класи Phar та PharData »](phar.using.object.html)
-    
--   [PHP Manual](index.html)
-    
--   [Использование Phar-архивов](phar.using.html)
-    
--   Використання Phar-архівів: обгортка потоку phar
-    
-
+---
+navigation:
+  - phar.using.intro.html: '« Использование Phar-архивов: Введение'
+  - phar.using.object.html: 'Використання Phar-архівів: класи Phar та PharData »'
+  - index.html: PHP Manual
+  - phar.using.html: Использование Phar-архивов
+title: 'Використання Phar-архівів: обгортка потоку phar'
+---
 ## Використання Phar-архівів: обгортка потоку phar
 
 Обгортка потоку Phar повністю підтримує [fopen()](function.fopen.html) для читання та запису (не для додавання), [unlink()](function.unlink.html) [stat()](function.stat.html) [fstat()](function.fstat.html) [fseek()](function.fseek.html) [rename()](function.rename.html) та потокові операції каталогів, такі як [opendir()](function.opendir.html) [rmdir()](function.rmdir.html) і [mkdir()](function.mkdir.html)

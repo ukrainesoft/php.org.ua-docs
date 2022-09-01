@@ -1,16 +1,11 @@
-Повертає всі поля фасетів
-
--   [« SolrQuery::getFacetDateStart](solrquery.getfacetdatestart.html)
-    
--   [SolrQuery::getFacetLimit »](solrquery.getfacetlimit.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає всі поля фасетів
-    
-
+---
+navigation:
+  - solrquery.getfacetdatestart.html: '« SolrQuery::getFacetDateStart'
+  - solrquery.getfacetlimit.html: 'SolrQuery::getFacetLimit »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getFacetFields'
+---
 # SolrQuery::getFacetFields
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Аналізує кольори у послідовності зображень
-
--   [« Gmagick::quantizeimage](gmagick.quantizeimage.html)
-    
--   [Gmagick::queryfontmetrics »](gmagick.queryfontmetrics.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Аналізує кольори у послідовності зображень
-    
-
+---
+navigation:
+  - gmagick.quantizeimage.html: '« Gmagick::quantizeimage'
+  - gmagick.queryfontmetrics.html: 'Gmagick::queryfontmetrics »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::quantizeimages'
+---
 # Gmagick::quantizeimages
 
 (PECL gmagick >= Unknown)

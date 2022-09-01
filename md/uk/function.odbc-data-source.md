@@ -1,16 +1,11 @@
-Повертає інформацію про доступні DSN
-
--   [« odbccursor](function.odbc-cursor.html)
-    
--   [odbcdo »](function.odbc-do.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Повертає інформацію про доступні DSN
-    
-
+---
+navigation:
+  - function.odbc-cursor.html: « odbccursor
+  - function.odbc-do.html: odbcdo »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcdatasource
+---
 # odbcdatasource
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

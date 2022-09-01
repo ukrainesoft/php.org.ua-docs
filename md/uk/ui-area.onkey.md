@@ -1,16 +1,11 @@
-Функція зворотного дзвінка під час натискання
-
--   [« UIArea::onDraw](ui-area.ondraw.html)
-    
--   [ОЙArea::onMouse »](ui-area.onmouse.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙArea](class.ui-area.html)
-    
--   Функція зворотного дзвінка під час натискання
-    
-
+---
+navigation:
+  - ui-area.ondraw.html: '« UIArea::onDraw'
+  - ui-area.onmouse.html: 'ОЙArea::onMouse »'
+  - index.html: PHP Manual
+  - class.ui-area.html: ОЙArea
+title: 'ОЙArea::onKey'
+---
 # ОЙArea::onKey
 
 (UI 0.9.9)

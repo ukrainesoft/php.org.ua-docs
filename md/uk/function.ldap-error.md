@@ -1,16 +1,11 @@
-Повернути повідомлення про помилку LDAP останньої команди
-
--   [« ldaperrno](function.ldap-errno.html)
-    
--   [ldapescape »](function.ldap-escape.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Повернути повідомлення про помилку LDAP останньої команди
-    
-
+---
+navigation:
+  - function.ldap-errno.html: « ldaperrno
+  - function.ldap-escape.html: ldapescape »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldaperror
+---
 # ldaperror
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ ldap_error(LDAP\Connection $ldap): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Клас GMP
-
--   [« gmpxor](function.gmp-xor.html)
-    
--   [GMP::serialize »](gmp.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP](book.gmp.html)
-    
--   Клас GMP
-    
-
+---
+navigation:
+  - function.gmp-xor.html: « gmpxor
+  - gmp.serialize.html: 'GMP::serialize »'
+  - index.html: PHP Manual
+  - book.gmp.html: GMP
+title: Клас GMP
+---
 # Клас GMP
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

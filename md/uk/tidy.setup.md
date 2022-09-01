@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.tidy.html)
-    
--   [Вимоги »](tidy.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Tidy](book.tidy.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.tidy.html: « Введение
+  - tidy.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.tidy.html: Tidy
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

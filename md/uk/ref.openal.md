@@ -1,16 +1,11 @@
-Функції OpenAL
-
--   [« Обумовлені константи](openal.constants.md)
-    
--   [openalbuffercreate »](function.openal-buffer-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [OpenAL](book.openal.md)
-    
--   Функції OpenAL
-    
-
+---
+navigation:
+  - openal.constants.md: « Обумовлені константи
+  - function.openal-buffer-create.html: openalbuffercreate »
+  - index.md: PHP Manual
+  - book.openal.md: OpenAL
+title: Функції OpenAL
+---
 # Функції OpenAL
 
 ## Зміст

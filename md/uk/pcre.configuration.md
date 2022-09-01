@@ -1,27 +1,22 @@
-Налаштування під час виконання
-
--   [« Установка](pcre.installation.md)
-    
--   [Типи ресурсів »](pcre.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](pcre.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - pcre.installation.md: « Установка
+  - pcre.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - pcre.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції конфігурації PCRE**
 
-| Имя                                                                     | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit) | "1000000"    | PHPINIALL       |                  |
-| [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit) | "100000"     | PHPINIALL       |                  |
-| [pcre.jit](pcre.configuration.html#ini.pcre.jit)                        | "1"          | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit) | "1000000" | PHPINIALL |  |
+| [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit) | "100000" | PHPINIALL |  |
+| [pcre.jit](pcre.configuration.html#ini.pcre.jit) | "1" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

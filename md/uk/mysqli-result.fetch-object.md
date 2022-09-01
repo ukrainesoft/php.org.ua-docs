@@ -1,16 +1,11 @@
-Вибирає наступний рядок із набору результатів у вигляді об'єкта
-
--   [« mysqliresult::fetchfields](mysqli-result.fetch-fields.html)
-    
--   [mysqliresult::fetchrow »](mysqli-result.fetch-row.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Вибирає наступний рядок із набору результатів у вигляді об'єкта
-    
-
+---
+navigation:
+  - mysqli-result.fetch-fields.html: '« mysqliresult::fetchfields'
+  - mysqli-result.fetch-row.html: 'mysqliresult::fetchrow »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::fetchobject'
+---
 # mysqliresult::fetchobject
 
 # mysqlifetchobject
@@ -63,9 +58,9 @@ mysqli_fetch_object(mysqli_result $result, string $class = "stdClass", array $co
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `constructor_args` тепер приймає `[]` для конструкторів без параметрів; раніше викидався виняток. |
+| Версия | Описание |
+| --- | --- |
+|  | `constructor_args` тепер приймає `[]` для конструкторів без параметрів; раніше викидався виняток. |
 
 ### Приклади
 

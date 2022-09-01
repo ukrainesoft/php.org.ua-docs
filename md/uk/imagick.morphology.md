@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::morphImages](imagick.morphimages.html)
-    
--   [Imagick::mosaicImages »](imagick.mosaicimages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.morphimages.html: '« Imagick::morphImages'
+  - imagick.mosaicimages.html: 'Imagick::mosaicImages »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::morphology'
+---
 # Imagick::morphology
 
 (PECL imagick 3> = 3.3.0)

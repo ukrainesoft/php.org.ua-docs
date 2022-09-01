@@ -1,16 +1,11 @@
-Створює нове зображення
-
--   [« Gmagick::motionblurimage](gmagick.motionblurimage.md)
-    
--   [Gmagick::nextimage »](gmagick.nextimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Створює нове зображення
-    
-
+---
+navigation:
+  - gmagick.motionblurimage.md: '« Gmagick::motionblurimage'
+  - gmagick.nextimage.md: 'Gmagick::nextimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::newimage'
+---
 # Gmagick::newimage
 
 (PECL gmagick >= Unknown)

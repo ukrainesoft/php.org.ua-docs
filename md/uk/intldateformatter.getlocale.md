@@ -1,16 +1,11 @@
-Отримує мовний стандарт, який використовується засобом форматування
-
--   [« IntlDateFormatter::getErrorMessage](intldateformatter.geterrormessage.html)
-    
--   [IntlDateFormatter::getPattern »](intldateformatter.getpattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Отримує мовний стандарт, який використовується засобом форматування
-    
-
+---
+navigation:
+  - intldateformatter.geterrormessage.html: '« IntlDateFormatter::getErrorMessage'
+  - intldateformatter.getpattern.html: 'IntlDateFormatter::getPattern »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::getLocale'
+---
 # IntlDateFormatter::getLocale
 
 # datefmtgetlocale

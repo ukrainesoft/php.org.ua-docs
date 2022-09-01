@@ -1,16 +1,11 @@
-Визначити, чи є сокет постійним
-
--   [« ZMQSocket::getSockOpt](zmqsocket.getsockopt.html)
-    
--   [ZMQSocket::recv »](zmqsocket.recv.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQSocket](class.zmqsocket.html)
-    
--   Визначити, чи є сокет постійним
-    
-
+---
+navigation:
+  - zmqsocket.getsockopt.html: '« ZMQSocket::getSockOpt'
+  - zmqsocket.recv.html: 'ZMQSocket::recv »'
+  - index.html: PHP Manual
+  - class.zmqsocket.html: ZMQSocket
+title: 'ZMQSocket::isPersistent'
+---
 # ZMQSocket::isPersistent
 
 (PECL zmq >= 0.5.0)

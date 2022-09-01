@@ -1,16 +1,11 @@
-Повертає останній компонент імені із зазначеного шляху
-
--   [« Функції файлової системи](ref.filesystem.md)
-    
--   [chgrp »](function.chgrp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає останній компонент імені із зазначеного шляху
-    
-
+---
+navigation:
+  - ref.filesystem.md: « Функції файлової системи
+  - function.chgrp.md: chgrp »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: basename
+---
 # basename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

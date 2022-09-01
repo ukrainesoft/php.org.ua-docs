@@ -1,16 +1,11 @@
-Обробляє функцію імпорту файлу PHP та визначення класів, при необхідності перезаписуючи
-
--   [« runkit7functionrename](function.runkit7-function-rename.html)
-    
--   [runkit7methodadd »](function.runkit7-method-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції runkit7](ref.runkit7.html)
-    
--   Обробляє функцію імпорту файлу PHP та визначення класів, при необхідності перезаписуючи
-    
-
+---
+navigation:
+  - function.runkit7-function-rename.html: « runkit7functionrename
+  - function.runkit7-method-add.html: runkit7methodadd »
+  - index.html: PHP Manual
+  - ref.runkit7.html: Функції runkit7
+title: runkit7import
+---
 # runkit7import
 
 (PECL runkit7> = Unknown)

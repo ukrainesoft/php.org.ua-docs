@@ -1,16 +1,11 @@
-Отримати кількість проведених опитувань циклу за умовчанням щодо нових подій
-
--   [« Ev::feedSignalEvent](ev.feedsignalevent.html)
-    
--   [Ev::now »](ev.now.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](class.ev.html)
-    
--   Отримати кількість проведених опитувань циклу за умовчанням щодо нових подій
-    
-
+---
+navigation:
+  - ev.feedsignalevent.html: '« Ev::feedSignalEvent'
+  - ev.now.html: 'Ev::now »'
+  - index.html: PHP Manual
+  - class.ev.html: Єв
+title: 'Ev::iteration'
+---
 # Ev::iteration
 
 (PECL ev >= 0.2.0)

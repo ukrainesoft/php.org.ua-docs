@@ -1,16 +1,11 @@
-Надсилає HTML-повідомлення про помилку клієнту
-
--   [« EventHttpRequest::removeHeader](eventhttprequest.removeheader.md)
-    
--   [EventHttpRequest::sendReply »](eventhttprequest.sendreply.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Надсилає HTML-повідомлення про помилку клієнту
-    
-
+---
+navigation:
+  - eventhttprequest.removeheader.md: '« EventHttpRequest::removeHeader'
+  - eventhttprequest.sendreply.md: 'EventHttpRequest::sendReply »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::sendError'
+---
 # EventHttpRequest::sendError
 
 (PECL event >= 1.4.0-beta)

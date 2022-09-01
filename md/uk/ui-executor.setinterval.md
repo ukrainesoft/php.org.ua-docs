@@ -1,16 +1,11 @@
-Управління інтервалом
-
--   [« UIExecutor::onExecute](ui-executor.onexecute.html)
-    
--   [ОЙControlsTab »](class.ui-controls-tab.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙExecutor](class.ui-executor.html)
-    
--   Управління інтервалом
-    
-
+---
+navigation:
+  - ui-executor.onexecute.html: '« UIExecutor::onExecute'
+  - class.ui-controls-tab.html: ОЙControlsTab »
+  - index.html: PHP Manual
+  - class.ui-executor.html: ОЙExecutor
+title: 'ОЙExecutor::setInterval'
+---
 # ОЙExecutor::setInterval
 
 (UI 2.0.0)

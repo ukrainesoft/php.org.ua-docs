@@ -1,16 +1,11 @@
-Звільняє ресурси, пов'язані із зазначеним ресурсом виразу
-
--   [« db2freeresult](function.db2-free-result.html)
-    
--   [db2getoption »](function.db2-get-option.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Звільняє ресурси, пов'язані із зазначеним ресурсом виразу
-    
-
+---
+navigation:
+  - function.db2-free-result.html: « db2freeresult
+  - function.db2-get-option.html: db2getoption »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2freestmt
+---
 # db2freestmt
 
 (PECL ibmdb2> = 1.0.0)

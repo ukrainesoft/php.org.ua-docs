@@ -1,16 +1,11 @@
-Встановлює пороговий коефіцієнт помилки кроку sarprop
-
--   [« fannsetsarpropsteperrorshift](function.fann-set-sarprop-step-error-shift.html)
-    
--   [fannsetsarproptemperature »](function.fann-set-sarprop-temperature.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює пороговий коефіцієнт помилки кроку sarprop
-    
-
+---
+navigation:
+  - function.fann-set-sarprop-step-error-shift.html: « fannsetsarpropsteperrorshift
+  - function.fann-set-sarprop-temperature.html: fannsetsarproptemperature »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetsarpropsteperrorthresholdfactor
+---
 # fannsetsarpropsteperrorthresholdfactor
 
 (PECL fann> = 1.0.0)

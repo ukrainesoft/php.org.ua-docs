@@ -1,16 +1,11 @@
-Отримує кількість обов'язкових параметрів
-
--   [« ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.html)
-    
--   [ReflectionFunctionAbstract::getParameters »](reflectionfunctionabstract.getparameters.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Отримує кількість обов'язкових параметрів
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getnumberofparameters.html: '« ReflectionFunctionAbstract::getNumberOfParameters'
+  - reflectionfunctionabstract.getparameters.html: 'ReflectionFunctionAbstract::getParameters »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getNumberOfRequiredParameters'
+---
 # ReflectionFunctionAbstract::getNumberOfRequiredParameters
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

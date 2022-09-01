@@ -1,16 +1,11 @@
-Серіалізує масив
-
--   [« ArrayIterator::seek](arrayiterator.seek.md)
-    
--   [ArrayIterator::setFlags »](arrayiterator.setflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Серіалізує масив
-    
-
+---
+navigation:
+  - arrayiterator.seek.md: '« ArrayIterator::seek'
+  - arrayiterator.setflags.md: 'ArrayIterator::setFlags »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::serialize'
+---
 # ArrayIterator::serialize
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

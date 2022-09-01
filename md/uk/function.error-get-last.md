@@ -1,16 +1,11 @@
-Отримання інформації про останню помилку
-
--   [« errorclearlast](function.error-clear-last.html)
-    
--   [errorlog »](function.error-log.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции обработки ошибок](ref.errorfunc.md)
-    
--   Отримання інформації про останню помилку
-    
-
+---
+navigation:
+  - function.error-clear-last.html: « errorclearlast
+  - function.error-log.html: errorlog »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: errorgetlast
+---
 # errorgetlast
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

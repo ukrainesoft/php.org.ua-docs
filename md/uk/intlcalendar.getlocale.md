@@ -1,16 +1,11 @@
-Отримує мовний стандарт, пов'язаний із об'єктом
-
--   [« IntlCalendar::getLeastMaximum](intlcalendar.getleastmaximum.md)
-    
--   [IntlCalendar::getMaximum »](intlcalendar.getmaximum.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує мовний стандарт, пов'язаний із об'єктом
-    
-
+---
+navigation:
+  - intlcalendar.getleastmaximum.md: '« IntlCalendar::getLeastMaximum'
+  - intlcalendar.getmaximum.md: 'IntlCalendar::getMaximum »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getLocale'
+---
 # IntlCalendar::getLocale
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

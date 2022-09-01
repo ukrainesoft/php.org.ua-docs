@@ -1,16 +1,11 @@
-Показати, чи розбирається документ синтаксично правильним
-
--   [« XMLReader::getParserProperty](xmlreader.getparserproperty.md)
-    
--   [XMLReader::lookupNamespace »](xmlreader.lookupnamespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Показати, чи розбирається документ синтаксично правильним
-    
-
+---
+navigation:
+  - xmlreader.getparserproperty.md: '« XMLReader::getParserProperty'
+  - xmlreader.lookupnamespace.md: 'XMLReader::lookupNamespace »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::isValid'
+---
 # XMLReader::isValid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

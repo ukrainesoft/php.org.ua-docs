@@ -1,16 +1,11 @@
-Зв'язати повідомлення COM з об'єктом PHP
-
--   [« comcreateguid](function.com-create-guid.html)
-    
--   [comgetactiveobject »](function.com-get-active-object.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Зв'язати повідомлення COM з об'єктом PHP
-    
-
+---
+navigation:
+  - function.com-create-guid.html: « comcreateguid
+  - function.com-get-active-object.html: comgetactiveobject »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: comeventsink
+---
 # comeventsink
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ PHP намагатиметься використовувати тип дисп�
 
 ### список змін
 
-| Версия | Описание                                       |
-|--------|------------------------------------------------|
-|        | `sink_interface` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `sink_interface` тепер допускає значення null. |
 
 ### Приклади
 

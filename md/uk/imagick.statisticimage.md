@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::spreadImage](imagick.spreadimage.md)
-    
--   [Imagick::steganoImage »](imagick.steganoimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.spreadimage.md: '« Imagick::spreadImage'
+  - imagick.steganoimage.md: 'Imagick::steganoImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::statisticImage'
+---
 # Imagick::statisticImage
 
 (PECL imagick 3> = 3.3.0)

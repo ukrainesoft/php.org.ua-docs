@@ -1,16 +1,11 @@
-Вступ
-
--   [« YAZ](book.yaz.html)
-    
--   [Встановлення та налаштування »](yaz.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [YAZ](book.yaz.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.yaz.html: « YAZ
+  - yaz.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.yaz.html: YAZ
+title: Вступ
+---
 # Вступ
 
 Модуль забезпечує взаємодію PHP з YAZ, інструментом взаємодії з протоколом пошуку інформації ([» Z39.50 Protocol for Information Retrieval](http://www.loc.gov/z3950/agency/)). Використовуючи цей модуль, ви можете легко реалізувати джерело (клієнт) Z39.50, яке скануватиме і здійснюватиме пошук паралельно за кількома цілями (серверами) Z39.50.

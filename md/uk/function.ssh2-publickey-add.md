@@ -1,16 +1,11 @@
-Додає авторизований відкритий ключ
-
--   [« ssh2poll](function.ssh2-poll.html)
-    
--   [ssh2publickeyinit »](function.ssh2-publickey-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Додає авторизований відкритий ключ
-    
-
+---
+navigation:
+  - function.ssh2-poll.html: « ssh2poll
+  - function.ssh2-publickey-init.html: ssh2publickeyinit »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2publickeyadd
+---
 # ssh2publickeyadd
 
 (PECL ssh2> = 0.10)

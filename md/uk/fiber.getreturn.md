@@ -1,16 +1,11 @@
-Отримує значення, яке повертається файбером
-
--   [« Fiber::throw](fiber.throw.md)
-    
--   [Fiber::isStarted »](fiber.isstarted.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Отримує значення, яке повертається файбером
-    
-
+---
+navigation:
+  - fiber.throw.md: '« Fiber::throw'
+  - fiber.isstarted.md: 'Fiber::isStarted »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::getReturn'
+---
 # Fiber::getReturn
 
 (PHP 8> = 8.1.0)

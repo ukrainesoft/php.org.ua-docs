@@ -1,16 +1,11 @@
-Отримати бітову маску рекомендованих бекендів для даної платформи
-
--   [« Ev::nowUpdate](ev.nowupdate.md)
-    
--   [Ev::resume »](ev.resume.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Отримати бітову маску рекомендованих бекендів для даної платформи
-    
-
+---
+navigation:
+  - ev.nowupdate.md: '« Ev::nowUpdate'
+  - ev.resume.md: 'Ev::resume »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev:: recommendedBackends'
+---
 # Ev:: recommendedBackends
 
 (PECL ev >= 0.2.0)

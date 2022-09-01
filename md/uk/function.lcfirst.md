@@ -1,16 +1,11 @@
-Перетворює перший символ рядка на нижній регістр
-
--   [« join](function.join.html)
-    
--   [levenshtein »](function.levenshtein.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Перетворює перший символ рядка на нижній регістр
-    
-
+---
+navigation:
+  - function.join.html: « join
+  - function.levenshtein.html: levenshtein »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: lcfirst
+---
 # lcfirst
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

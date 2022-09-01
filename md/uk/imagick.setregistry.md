@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::setProgressMonitor](imagick.setprogressmonitor.md)
-    
--   [Imagick::setResolution »](imagick.setresolution.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.setprogressmonitor.md: '« Imagick::setProgressMonitor'
+  - imagick.setresolution.md: 'Imagick::setResolution »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setRegistry'
+---
 # Imagick::setRegistry
 
 (PECL imagick 3> = 3.3.0)

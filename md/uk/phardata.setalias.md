@@ -1,16 +1,11 @@
-Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
-
--   [« PharData::offsetUnset](phardata.offsetunset.md)
-    
--   [PharData::setDefaultStub »](phardata.setdefaultstub.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
-    
-
+---
+navigation:
+  - phardata.offsetunset.md: '« PharData::offsetUnset'
+  - phardata.setdefaultstub.md: 'PharData::setDefaultStub »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::setAlias'
+---
 # PharData::setAlias
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

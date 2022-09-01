@@ -1,16 +1,11 @@
-Визначає, чи файл виконуваний
-
--   [« isdir](function.is-dir.html)
-    
--   [ісfile »](function.is-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Визначає, чи файл виконуваний
-    
-
+---
+navigation:
+  - function.is-dir.html: « isdir
+  - function.is-file.html: ісfile »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ісexecutable
+---
 # ісexecutable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

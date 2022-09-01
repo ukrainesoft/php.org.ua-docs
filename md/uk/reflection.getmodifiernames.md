@@ -1,16 +1,11 @@
-Отримання імен модифікаторів
-
--   [« Reflection::export](reflection.export.md)
-    
--   [ReflectionClass »](class.reflectionclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](class.reflection.md)
-    
--   Отримання імен модифікаторів
-    
-
+---
+navigation:
+  - reflection.export.md: '« Reflection::export'
+  - class.reflectionclass.md: ReflectionClass »
+  - index.md: PHP Manual
+  - class.reflection.md: Reflection
+title: 'Reflection::getModifierNames'
+---
 # Reflection::getModifierNames
 
 (PHP 5, PHP 7, PHP 8)

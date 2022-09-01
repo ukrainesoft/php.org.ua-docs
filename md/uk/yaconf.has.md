@@ -1,16 +1,11 @@
-Визначити, чи існує елемент
-
--   [« Yaconf::get](yaconf.get.md)
-    
--   [Taint »](book.taint.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yaconf](class.yaconf.md)
-    
--   Визначити, чи існує елемент
-    
-
+---
+navigation:
+  - yaconf.get.md: '« Yaconf::get'
+  - book.taint.md: Taint »
+  - index.md: PHP Manual
+  - class.yaconf.md: Yaconf
+title: 'Yaconf::has'
+---
 # Yaconf::has
 
 (PECL yaconf> = 1.0.0)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Угруповання](parle.regex.grouping.html)
-    
--   [Приклади використання лексера »](parle.examples.lexer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Parle](book.parle.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - parle.regex.grouping.html: « Угруповання
+  - parle.examples.lexer.html: Приклади використання лексера »
+  - index.html: PHP Manual
+  - book.parle.html: Parle
+title: Приклади
+---
 # Приклади
 
 ## Зміст

@@ -1,16 +1,11 @@
-Клас Event
-
--   [« Створення подій для сигналів](event.constructing.signal.events.md)
-    
--   [Event::add »](event.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас Event
-    
-
+---
+navigation:
+  - event.constructing.signal.events.md: « Створення подій для сигналів
+  - event.add.md: 'Event::add »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас Event
+---
 # Клас Event
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Просуває внутрішній покажчик
-
--   [« YafConfigIni::key](yaf-config-ini.key.html)
-    
--   [YafConfigIni::offsetExists »](yaf-config-ini.offsetexists.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigIni](class.yaf-config-ini.html)
-    
--   Просуває внутрішній покажчик
-    
-
+---
+navigation:
+  - yaf-config-ini.key.html: '« YafConfigIni::key'
+  - yaf-config-ini.offsetexists.html: 'YafConfigIni::offsetExists »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.html: YafConfigIni
+title: 'YafConfigIni::next'
+---
 # YafConfigIni::next
 
 (Yaf >=1.0.0)

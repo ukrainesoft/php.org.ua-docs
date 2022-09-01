@@ -1,16 +1,11 @@
-Реєструє callback-функцію на основі імені події
-
--   [« SwooleMySQL::getBuffer](swoole-mysql.getbuffer.html)
-    
--   [SwooleMySQL::query »](swoole-mysql.query.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleMySQL](class.swoole-mysql.html)
-    
--   Реєструє callback-функцію на основі імені події
-    
-
+---
+navigation:
+  - swoole-mysql.getbuffer.html: '« SwooleMySQL::getBuffer'
+  - swoole-mysql.query.html: 'SwooleMySQL::query »'
+  - index.md: PHP Manual
+  - class.swoole-mysql.html: SwooleMySQL
+title: 'SwooleMySQL::on'
+---
 # SwooleMySQL::on
 
 (PECL swoole >= 1.9.0)

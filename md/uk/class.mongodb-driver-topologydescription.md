@@ -1,16 +1,11 @@
-Клас MongoDBDriverTopologyDescription
-
--   [« MongoDBDriverServerDescription::getType](mongodb-driver-serverdescription.gettype.html)
-    
--   [MongoDBDriverTopologyDescription::getServers »](mongodb-driver-topologydescription.getservers.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас MongoDBDriverTopologyDescription
-    
-
+---
+navigation:
+  - mongodb-driver-serverdescription.gettype.html: '« MongoDBDriverServerDescription::getType'
+  - mongodb-driver-topologydescription.getservers.html: 'MongoDBDriverTopologyDescription::getServers »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас MongoDBDriverTopologyDescription
+---
 # Клас MongoDBDriverTopologyDescription
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Зберігає структуру навчання у файл
-
--   [« fannrun](function.fann-run.html)
-    
--   [fannsave »](function.fann-save.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Зберігає структуру навчання у файл
-    
-
+---
+navigation:
+  - function.fann-run.html: « fannrun
+  - function.fann-save.html: fannsave »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsavetrain
+---
 # fannsavetrain
 
 (PECL fann> = 1.0.0)

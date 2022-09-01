@@ -1,16 +1,11 @@
-Виконати команду та відкрити покажчик на файл для введення/виводу
-
--   [« procnice](function.proc-nice.html)
-    
--   [procterminate »](function.proc-terminate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции запуска программ](ref.exec.md)
-    
--   Виконати команду та відкрити покажчик на файл для введення/виводу
-    
-
+---
+navigation:
+  - function.proc-nice.html: « procnice
+  - function.proc-terminate.html: procterminate »
+  - index.md: PHP Manual
+  - ref.exec.md: Функции запуска программ
+title: procopen
+---
 # procopen
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -78,11 +73,11 @@ proc_open(    array|string $command,    array $descriptor_spec,    a
 
 ### список змін
 
-| Версия | Описание                                                     |
-|--------|--------------------------------------------------------------|
-|        | Додана опція `create_new_console` у параметр `options`       |
-|        | **procopen()** тепер також приймає масив (array) у `command` |
-|        | Додана опція `create_process_group` у параметр `options`     |
+| Версия | Описание |
+| --- | --- |
+|  | Додана опція `create_new_console` у параметр `options` |
+|  | **procopen()** тепер також приймає масив (array) у `command` |
+|  | Додана опція `create_process_group` у параметр `options` |
 
 ### Приклади
 

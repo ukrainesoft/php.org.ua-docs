@@ -1,16 +1,11 @@
-Закриває RAR архів та звільняє всі ресурси
-
--   [« RarArchive](class.rararchive.html)
-    
--   [RarArchive::getComment »](rararchive.getcomment.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarArchive](class.rararchive.html)
-    
--   Закриває RAR архів та звільняє всі ресурси
-    
-
+---
+navigation:
+  - class.rararchive.html: « RarArchive
+  - rararchive.getcomment.html: 'RarArchive::getComment »'
+  - index.html: PHP Manual
+  - class.rararchive.html: RarArchive
+title: 'RarArchive::close'
+---
 # RarArchive::close
 
 # rarclose
@@ -47,8 +42,8 @@ rar_close(RarArchive $rarfile): bool
 
 ### список змін
 
-| Версия         | Описание                                                                                                                                                                                                                                                            |
-|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 2.0.0 | Елементи архіву, що повертаються [RarArchive::getEntry()](rararchive.getentry.html) і [RarArchive::getEntries()](rararchive.getentries.html) тепер недійсні після виклику цього методу. Це означає, що немає гарантії правильної роботи всіх методів цих елементів. |
 
 ### Приклади

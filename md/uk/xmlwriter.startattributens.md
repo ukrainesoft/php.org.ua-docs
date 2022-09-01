@@ -1,16 +1,11 @@
-Створити стартовий атрибут простору імен
-
--   [« XMLWriter::startAttribute](xmlwriter.startattribute.md)
-    
--   [XMLWriter::startCdata »](xmlwriter.startcdata.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити стартовий атрибут простору імен
-    
-
+---
+navigation:
+  - xmlwriter.startattribute.md: '« XMLWriter::startAttribute'
+  - xmlwriter.startcdata.md: 'XMLWriter::startCdata »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startAttributeNs'
+---
 # XMLWriter::startAttributeNs
 
 # xmlwriterstartattributeнс
@@ -59,10 +54,10 @@ URI простір імен. Якщо `namespace` дорівнює **`null`**, �
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
-|        | `prefix` тепер допускає значення null.                                                                                |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+|  | `prefix` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Встановлює альтернативний запит (параметр q.alt)
-
--   [« SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md)
-    
--   [SolrDisMaxQuery::setQueryPhraseSlop »](solrdismaxquery.setqueryphraseslop.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Встановлює альтернативний запит (параметр q.alt)
-    
-
+---
+navigation:
+  - solrdismaxquery.setphraseslop.md: '« SolrDisMaxQuery::setPhraseSlop'
+  - solrdismaxquery.setqueryphraseslop.md: 'SolrDisMaxQuery::setQueryPhraseSlop »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setQueryAlt'
+---
 # SolrDisMaxQuery::setQueryAlt
 
 (No version information available, might only be in Git)

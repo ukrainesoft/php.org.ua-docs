@@ -1,16 +1,11 @@
-Масштабує вихідні дані у навчальних даних до вказаного діапазону
-
--   [« fannscaleinput](function.fann-scale-input.html)
-    
--   [fannscaleoutput »](function.fann-scale-output.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Масштабує вихідні дані у навчальних даних до вказаного діапазону
-    
-
+---
+navigation:
+  - function.fann-scale-input.html: « fannscaleinput
+  - function.fann-scale-output.html: fannscaleoutput »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannscaleoutputtraindata
+---
 # fannscaleoutputtraindata
 
 (PECL fann> = 1.0.0)

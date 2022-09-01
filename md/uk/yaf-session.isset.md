@@ -1,16 +1,11 @@
-Призначення isset
-
--   [« YafSession::has](yaf-session.has.html)
-    
--   [YafSession::key »](yaf-session.key.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення isset
-    
-
+---
+navigation:
+  - yaf-session.has.html: '« YafSession::has'
+  - yaf-session.key.html: 'YafSession::key »'
+  - index.md: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::isset'
+---
 # YafSession::isset
 
 (Yaf >=1.0.0)

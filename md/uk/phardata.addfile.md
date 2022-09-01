@@ -1,16 +1,11 @@
-Додати існуючі файли до tar/zip-архіву
-
--   [« PharData::addEmptyDir](phardata.addemptydir.md)
-    
--   [PharData::addFromString »](phardata.addfromstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Додати існуючі файли до tar/zip-архіву
-    
-
+---
+navigation:
+  - phardata.addemptydir.md: '« PharData::addEmptyDir'
+  - phardata.addfromstring.md: 'PharData::addFromString »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::addFile'
+---
 # PharData::addFile
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -41,9 +36,9 @@ public PharData::addFile(string $filename, ?string $localName = null): void
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `localName` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `localName` тепер допускає значення null. |
 
 ### Приклади
 

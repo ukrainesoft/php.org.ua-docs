@@ -1,16 +1,11 @@
-Видалити всі змінні сесії
-
--   [« sessionstatus](function.session-status.html)
-    
--   [sessionwriteclose »](function.session-write-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Видалити всі змінні сесії
-    
-
+---
+navigation:
+  - function.session-status.html: « sessionstatus
+  - function.session-write-close.html: sessionwriteclose »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessionunset
+---
 # sessionunset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ session_unset(): bool
 
 ### список змін
 
-| Версия | Описание                                                           |
-|--------|--------------------------------------------------------------------|
-|        | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Примітки
 

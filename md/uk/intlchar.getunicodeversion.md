@@ -1,16 +1,11 @@
-Отримати версію Unicode
-
--   [« IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md)
-    
--   [IntlChar::hasBinaryProperty »](intlchar.hasbinaryproperty.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати версію Unicode
-    
-
+---
+navigation:
+  - intlchar.getpropertyvaluename.md: '« IntlChar::getPropertyValueName'
+  - intlchar.hasbinaryproperty.md: 'IntlChar::hasBinaryProperty »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::getUnicodeVersion'
+---
 # IntlChar::getUnicodeVersion
 
 (PHP 7, PHP 8)

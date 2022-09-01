@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](gnupg.configuration.md)
-    
--   [Обумовлені константи »](gnupg.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](gnupg.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - gnupg.configuration.md: « Налаштування під час виконання
+  - gnupg.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - gnupg.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

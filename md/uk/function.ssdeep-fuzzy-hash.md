@@ -1,16 +1,11 @@
-Створює нечіткий хеш із рядка
-
--   [« ssdeepfuzzyhashfilename](function.ssdeep-fuzzy-hash-filename.html)
-    
--   [Рядки »](book.strings.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції ssdeep](ref.ssdeep.html)
-    
--   Створює нечіткий хеш із рядка
-    
-
+---
+navigation:
+  - function.ssdeep-fuzzy-hash-filename.html: « ssdeepfuzzyhashfilename
+  - book.strings.html: Рядки »
+  - index.html: PHP Manual
+  - ref.ssdeep.html: Функції ssdeep
+title: ssdeepfuzzyhash
+---
 # ssdeepfuzzyhash
 
 (PECL ssdeep >= 1.0.0)

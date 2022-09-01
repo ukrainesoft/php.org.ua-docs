@@ -1,16 +1,11 @@
-Повертає останню відповідь сервера "hello"
-
--   [« MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
-    
--   [MongoDBDriverServerDescription::getHost »](mongodb-driver-serverdescription.gethost.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
-    
--   Повертає останню відповідь сервера "hello"
-    
-
+---
+navigation:
+  - class.mongodb-driver-serverdescription.html: « MongoDBDriverServerDescription
+  - mongodb-driver-serverdescription.gethost.html: 'MongoDBDriverServerDescription::getHost »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getHelloResponse'
+---
 # MongoDBDriverServerDescription::getHelloResponse
 
 (mongodb >=1.13.0)

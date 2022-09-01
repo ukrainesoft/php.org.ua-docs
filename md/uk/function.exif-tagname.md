@@ -1,16 +1,11 @@
-Отримання імені заголовка за його індексом
-
--   [« exifreaddata](function.exif-read-data.html)
-    
--   [exifthumbnail »](function.exif-thumbnail.html)
-    
--   [PHP Manual](index.md)
-    
--   [Exif Функції](ref.exif.md)
-    
--   Отримання імені заголовка за його індексом
-    
-
+---
+navigation:
+  - function.exif-read-data.html: « exifreaddata
+  - function.exif-thumbnail.html: exifthumbnail »
+  - index.md: PHP Manual
+  - ref.exif.md: Exif Функції
+title: exiftagname
+---
 # exiftagname
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

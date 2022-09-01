@@ -1,16 +1,11 @@
-Показати блок помилки
-
--   [« UIWindow::construct](ui-window.construct.html)
-    
--   [ОЙWindow::getSize »](ui-window.getsize.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Показати блок помилки
-    
-
+---
+navigation:
+  - ui-window.construct.html: '« UIWindow::construct'
+  - ui-window.getsize.html: 'ОЙWindow::getSize »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::error'
+---
 # ОЙWindow::error
 
 (UI 0.9.9)

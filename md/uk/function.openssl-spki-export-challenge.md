@@ -1,16 +1,11 @@
-Експорт виклику, пов'язаного з підписаним ключем та викликом
-
--   [« opensslsign](function.openssl-sign.html)
-    
--   [opensslspkiexport »](function.openssl-spki-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Експорт виклику, пов'язаного з підписаним ключем та викликом
-    
-
+---
+navigation:
+  - function.openssl-sign.html: « opensslsign
+  - function.openssl-spki-export.html: opensslspkiexport »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslspkiexportchallenge
+---
 # opensslspkiexportchallenge
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

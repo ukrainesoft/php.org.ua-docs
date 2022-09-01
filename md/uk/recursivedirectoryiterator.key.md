@@ -1,16 +1,11 @@
-Повертає шлях та ім'я файлу поточного елемента
-
--   [« RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md)
-    
--   [RecursiveDirectoryIterator::next »](recursivedirectoryiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-    
--   Повертає шлях та ім'я файлу поточного елемента
-    
-
+---
+navigation:
+  - recursivedirectoryiterator.haschildren.md: '« RecursiveDirectoryIterator::hasChildren'
+  - recursivedirectoryiterator.next.md: 'RecursiveDirectoryIterator::next »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::key'
+---
 # RecursiveDirectoryIterator::key
 
 (PHP 5, PHP 7, PHP 8)

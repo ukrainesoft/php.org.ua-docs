@@ -1,16 +1,11 @@
-Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
-
--   [« sqlsrvconnect](function.sqlsrv-connect.html)
-    
--   [sqlsrvexecute »](function.sqlsrv-execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
-    
-
+---
+navigation:
+  - function.sqlsrv-connect.html: « sqlsrvconnect
+  - function.sqlsrv-execute.html: sqlsrvexecute »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrverrors
+---
 # sqlsrverrors
 
 (No version information available, might only be in Git)
@@ -37,11 +32,11 @@ sqlsrv_errors(int $errorsOrWarnings = ?): mixed
 
 **Масив, що повертається sqlsrverrors**
 
-| Ключ     | Описание                                                                                                                                                                                                                                                                                                                            |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SQLSTATE | Для помилок, які виникають через драйвер ODBC, повертається SQLSTATE, що повертається ODBC. Для помилок, які виникають через драйвери Microsoft для PHP для SQL Server, SQLSTATE повертається IMSSP. Для попереджень, які виникають через драйвери Microsoft для PHP для SQL Server, SQLSTATE повертає значення 01SSP.              |
-| code     | Для помилок, які виникають через SQL Server повертає власний код помилки SQL Server. Для помилок, що виникають через драйвер ODBC, повертається код помилки, який повертається ODBC. Для помилок, які виникають через драйвери Microsoft для PHP для SQL Server, повертається код помилки Microsoft Drivers для PHP для SQL Server. |
-| message  | Опис помилки.                                                                                                                                                                                                                                                                                                                       |
+| Ключ | Описание |
+| --- | --- |
+| SQLSTATE | Для помилок, які виникають через драйвер ODBC, повертається SQLSTATE, що повертається ODBC. Для помилок, які виникають через драйвери Microsoft для PHP для SQL Server, SQLSTATE повертається IMSSP. Для попереджень, які виникають через драйвери Microsoft для PHP для SQL Server, SQLSTATE повертає значення 01SSP. |
+| code | Для помилок, які виникають через SQL Server повертає власний код помилки SQL Server. Для помилок, що виникають через драйвер ODBC, повертається код помилки, який повертається ODBC. Для помилок, які виникають через драйвери Microsoft для PHP для SQL Server, повертається код помилки Microsoft Drivers для PHP для SQL Server. |
+| message | Опис помилки. |
 
 ### Приклади
 

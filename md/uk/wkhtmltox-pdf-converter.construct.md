@@ -1,16 +1,11 @@
-Створити новий PDF-конвертер
-
--   [« wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.html)
-    
--   [wkhtmltoxPDFConverter::convert »](wkhtmltox-pdf-converter.convert.html)
-    
--   [PHP Manual](index.md)
-    
--   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
-    
--   Створити новий PDF-конвертер
-    
-
+---
+navigation:
+  - wkhtmltox-pdf-converter.add.html: '« wkhtmltoxPDFConverter::add'
+  - wkhtmltox-pdf-converter.convert.html: 'wkhtmltoxPDFConverter::convert »'
+  - index.md: PHP Manual
+  - class.wkhtmltox-pdf-converter.html: wkhtmltoxPDFConverter
+title: 'wkhtmltoxPDFConverter::construct'
+---
 # wkhtmltoxPDFConverter::construct
 
 (wkhtmltox >= 0.1.0)
@@ -27,12 +22,12 @@ public **wkhtmltoxPDFConverter::construct**(array `$settings`
 
 `settings`
 
-| Название      | Описание                          | Значения | Версия |
-|---------------|-----------------------------------|----------|--------|
-| size.pageSize | розмір паперу вихідного документа | А4       | \>     |
-| size.width    | ширина вихідного документа        | 210mm    | \>     |
-| size.height   | висота вихідного документа        | 297mm    | \>     |
-| orientation   | орієнтація вихідного документа    |          |        |
+| Название | Описание | Значения | Версия |
+| --- | --- | --- | --- |
+| size.pageSize | розмір паперу вихідного документа | А4 | \> |
+| size.width | ширина вихідного документа | 210mm | \> |
+| size.height | висота вихідного документа | 297mm | \> |
+| orientation | орієнтація вихідного документа |  |  |
 
 <table class="doctable table"><tbody class="tbody"><tr><td>Landscape</td></tr><tr><td>Portrait</td></tr></tbody></table>
 

@@ -1,16 +1,11 @@
-Включає/вимикає групування результатів (параметр group)
-
--   [« SolrQuery::setFacetSort](solrquery.setfacetsort.md)
-    
--   [SolrQuery::setGroupCachePercent »](solrquery.setgroupcachepercent.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Включає/вимикає групування результатів (параметр group)
-    
-
+---
+navigation:
+  - solrquery.setfacetsort.md: '« SolrQuery::setFacetSort'
+  - solrquery.setgroupcachepercent.md: 'SolrQuery::setGroupCachePercent »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setGroup'
+---
 # SolrQuery::setGroup
 
 (PECL solr> = 2.2.0)

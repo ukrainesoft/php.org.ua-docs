@@ -1,16 +1,11 @@
-Reflection
-
--   [« QuickHashIntStringHash::update](quickhashintstringhash.update.html)
-    
--   [Введение »](intro.reflection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.html)
-    
--   Reflection
-    
-
+---
+navigation:
+  - quickhashintstringhash.update.html: '« QuickHashIntStringHash::update'
+  - intro.reflection.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.vartype.html: 'Модулі, що відносяться до змінних та типів'
+title: Reflection
+---
 # Reflection
 
 -   [Введение](intro.reflection.html)

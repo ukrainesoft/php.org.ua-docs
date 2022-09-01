@@ -1,16 +1,11 @@
-CUBRID
-
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   [Введение »](intro.cubrid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   CUBRID
-    
-
+---
+navigation:
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+  - intro.cubrid.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: CUBRID
+---
 # CUBRID
 
 -   [Введение](intro.cubrid.md)

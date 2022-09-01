@@ -1,16 +1,11 @@
-Обробник вибору
-
--   [« UIControlsRadio::getSelected](ui-controls-radio.getselected.html)
-    
--   [ОЙControlsRadio::setSelected »](ui-controls-radio.setselected.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsRadio](class.ui-controls-radio.html)
-    
--   Обробник вибору
-    
-
+---
+navigation:
+  - ui-controls-radio.getselected.html: '« UIControlsRadio::getSelected'
+  - ui-controls-radio.setselected.html: 'ОЙControlsRadio::setSelected »'
+  - index.md: PHP Manual
+  - class.ui-controls-radio.html: ОЙControlsRadio
+title: 'ОЙControlsRadio::onSelected'
+---
 # ОЙControlsRadio::onSelected
 
 (UI 0.9.9)

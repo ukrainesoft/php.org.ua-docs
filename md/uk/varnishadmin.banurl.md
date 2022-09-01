@@ -1,16 +1,11 @@
-Заборонити URL, використовуючи вираз VCL
-
--   [« VarnishAdmin::ban](varnishadmin.ban.md)
-    
--   [VarnishAdmin::clearPanic »](varnishadmin.clearpanic.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Заборонити URL, використовуючи вираз VCL
-    
-
+---
+navigation:
+  - varnishadmin.ban.md: '« VarnishAdmin::ban'
+  - varnishadmin.clearpanic.md: 'VarnishAdmin::clearPanic »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::banUrl'
+---
 # VarnishAdmin::banUrl
 
 (PECL varnish >= 0.3)

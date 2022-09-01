@@ -1,16 +1,11 @@
-Призначення display
-
--   [« YafControllerAbstract::construct](yaf-controller-abstract.construct.html)
-    
--   [YafControllerAbstract::forward »](yaf-controller-abstract.forward.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Призначення display
-    
-
+---
+navigation:
+  - yaf-controller-abstract.construct.html: '« YafControllerAbstract::construct'
+  - yaf-controller-abstract.forward.html: 'YafControllerAbstract::forward »'
+  - index.html: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::display'
+---
 # YafControllerAbstract::display
 
 (Yaf >=1.0.0)

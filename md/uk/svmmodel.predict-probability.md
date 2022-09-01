@@ -1,16 +1,11 @@
-Повертає можливість класу для заданих даних
-
--   [« SVMModel::load](svmmodel.load.html)
-    
--   [SVMModel::predict »](svmmodel.predict.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVMModel](class.svmmodel.html)
-    
--   Повертає можливість класу для заданих даних
-    
-
+---
+navigation:
+  - svmmodel.load.html: '« SVMModel::load'
+  - svmmodel.predict.html: 'SVMModel::predict »'
+  - index.html: PHP Manual
+  - class.svmmodel.html: SVMModel
+title: 'SVMModel::predictprobability'
+---
 # SVMModel::predictprobability
 
 (PECL svm >= 0.1.4)

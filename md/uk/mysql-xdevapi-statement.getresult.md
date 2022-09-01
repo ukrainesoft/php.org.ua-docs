@@ -1,16 +1,11 @@
-Отримує результат
-
--   [« Statement::getNextResult](mysql-xdevapi-statement.getnextresult.html)
-    
--   [Statement::hasMoreResults »](mysql-xdevapi-statement.hasmoreresults.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiStatement](class.mysql-xdevapi-statement.html)
-    
--   Отримує результат
-    
-
+---
+navigation:
+  - mysql-xdevapi-statement.getnextresult.html: '« Statement::getNextResult'
+  - mysql-xdevapi-statement.hasmoreresults.html: 'Statement::hasMoreResults »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-statement.html: mysqlxdevapiStatement
+title: 'Statement::getResult'
+---
 # Statement::getResult
 
 (No version information available, might only be in Git)

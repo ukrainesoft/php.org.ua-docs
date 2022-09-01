@@ -1,16 +1,11 @@
-Визначає, чи можна створити ітератор для поточного елемента.
-
--   [« RecursiveIterator::getChildren](recursiveiterator.getchildren.md)
-    
--   [SeekableIterator »](class.seekableiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIterator](class.recursiveiterator.md)
-    
--   Визначає, чи можна створити ітератор для поточного елемента.
-    
-
+---
+navigation:
+  - recursiveiterator.getchildren.md: '« RecursiveIterator::getChildren'
+  - class.seekableiterator.md: SeekableIterator »
+  - index.md: PHP Manual
+  - class.recursiveiterator.md: RecursiveIterator
+title: 'RecursiveIterator::hasChildren'
+---
 # RecursiveIterator::hasChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

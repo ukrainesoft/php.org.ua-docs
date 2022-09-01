@@ -1,16 +1,11 @@
-Перевіряє, чи починається рядок із заданого підрядка
-
--   [« strsplit](function.str-split.html)
-    
--   [strwordcount »](function.str-word-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перевіряє, чи починається рядок із заданого підрядка
-    
-
+---
+navigation:
+  - function.str-split.html: « strsplit
+  - function.str-word-count.html: strwordcount »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strstartswith
+---
 # strstartswith
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.image.md)
-    
--   [Вимоги »](image.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [ДД](book.image.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.image.md: « Введение
+  - image.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.image.md: ДД
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

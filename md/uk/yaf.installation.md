@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](yaf.requirements.md)
-    
--   [Налаштування під час виконання »](yaf.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](yaf.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - yaf.requirements.md: « Вимоги
+  - yaf.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - yaf.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

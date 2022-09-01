@@ -1,16 +1,11 @@
-Режими роботи періодичних спостерігачів
-
--   [« Watcher callbacks](ev.watcher-callbacks.html)
-    
--   [Ev »](class.ev.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Режими роботи періодичних спостерігачів
-    
-
+---
+navigation:
+  - ev.watcher-callbacks.html: « Watcher callbacks
+  - class.ev.html: Ev »
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Режими роботи періодичних спостерігачів
+---
 # Режими роботи періодичних спостерігачів
 
 Спостерігачі [EvPeriodic](class.evperiodic.html) працюють у різних режимах залежно від значення параметрів `offset` `interval` і `reschedule_cb`

@@ -1,16 +1,11 @@
-Копіює дані з таблиці до масиву
-
--   [« pgcopyfrom](function.pg-copy-from.html)
-    
--   [пгdbname »](function.pg-dbname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Копіює дані з таблиці до масиву
-    
-
+---
+navigation:
+  - function.pg-copy-from.html: « pgcopyfrom
+  - function.pg-dbname.html: пгdbname »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгcopyто
+---
 # пгcopyто
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ pg_copy_to(    PgSql\Connection $connection,    string $table_name,  �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

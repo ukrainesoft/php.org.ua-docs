@@ -1,16 +1,11 @@
-Отримання останнього коду повернення Gearman
-
--   [« GearmanWorker::removeOptions](gearmanworker.removeoptions.html)
-    
--   [GearmanWorker::setId »](gearmanworker.setid.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Отримання останнього коду повернення Gearman
-    
-
+---
+navigation:
+  - gearmanworker.removeoptions.html: '« GearmanWorker::removeOptions'
+  - gearmanworker.setid.html: 'GearmanWorker::setId »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::returnCode'
+---
 # GearmanWorker::returnCode
 
 (PECL gearman >= 0.5.0)

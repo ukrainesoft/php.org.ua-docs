@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](mqseries.configure.md)
-    
--   [Типи ресурсів »](mqseries.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mqseries.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - mqseries.configure.md: « Установка
+  - mqseries.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - mqseries.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.

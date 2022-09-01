@@ -1,16 +1,11 @@
-Встановлює номер версії для FDF
-
--   [« fdfsetvalue](function.fdf-set-value.html)
-    
--   [GnuPG »](book.gnupg.md)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює номер версії для FDF
-    
-
+---
+navigation:
+  - function.fdf-set-value.html: « fdfsetvalue
+  - book.gnupg.md: GnuPG »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetversion
+---
 # fdfsetversion
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

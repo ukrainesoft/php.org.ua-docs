@@ -1,16 +1,11 @@
-Явно повертає ключ у стан secretstream
-
--   [« sodiumcryptosecretstreamxchacha20poly1305push](function.sodium-crypto-secretstream-xchacha20poly1305-push.html)
-    
--   [sodiumcryptoshorthashkeygen »](function.sodium-crypto-shorthash-keygen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Явно повертає ключ у стан secretstream
-    
-
+---
+navigation:
+  - function.sodium-crypto-secretstream-xchacha20poly1305-push.html: « sodiumcryptosecretstreamxchacha20poly1305push
+  - function.sodium-crypto-shorthash-keygen.html: sodiumcryptoshorthashkeygen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosecretstreamxchacha20poly1305rekey
+---
 # sodiumcryptosecretstreamxchacha20poly1305rekey
 
 (PHP 7> = 7.2.0, PHP 8)

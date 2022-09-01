@@ -1,16 +1,11 @@
-Функції Swoole
-
--   [« Обумовлені константи](swoole.constants.md)
-    
--   [swooleasyncdnslookup »](function.swoole-async-dns-lookup.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Функції Swoole
-    
-
+---
+navigation:
+  - swoole.constants.md: « Обумовлені константи
+  - function.swoole-async-dns-lookup.html: swooleasyncdnslookup »
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Функції Swoole
+---
 # Функції Swoole
 
 ## Зміст

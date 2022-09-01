@@ -1,16 +1,11 @@
-Повертає кількість записів (файлів) у Phar-архіві
-
--   [« Phar::copy](phar.copy.md)
-    
--   [Phar::createDefaultStub »](phar.createdefaultstub.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Повертає кількість записів (файлів) у Phar-архіві
-    
-
+---
+navigation:
+  - phar.copy.md: '« Phar::copy'
+  - phar.createdefaultstub.md: 'Phar::createDefaultStub »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::count'
+---
 # Phar::count
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

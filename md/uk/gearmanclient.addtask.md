@@ -1,16 +1,11 @@
-Додати завдання, яке буде виконано у паралельному режимі
-
--   [« GearmanClient::addServers](gearmanclient.addservers.md)
-    
--   [GearmanClient::addTaskBackground »](gearmanclient.addtaskbackground.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Додати завдання, яке буде виконано у паралельному режимі
-    
-
+---
+navigation:
+  - gearmanclient.addservers.md: '« GearmanClient::addServers'
+  - gearmanclient.addtaskbackground.md: 'GearmanClient::addTaskBackground »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::addTask'
+---
 # GearmanClient::addTask
 
 (PECL gearman >= 0.5.0)

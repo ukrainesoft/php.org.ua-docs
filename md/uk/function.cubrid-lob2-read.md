@@ -1,16 +1,11 @@
-Читає дані BLOB/CLOB
-
--   [« cubridlob2new](function.cubrid-lob2-new.html)
-    
--   [cubridlob2seek64 »](function.cubrid-lob2-seek64.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Читає дані BLOB/CLOB
-    
-
+---
+navigation:
+  - function.cubrid-lob2-new.html: « cubridlob2new
+  - function.cubrid-lob2-seek64.html: cubridlob2seek64 »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2read
+---
 # cubridlob2read
 
 (PECL CUBRID >= 8.4.1)

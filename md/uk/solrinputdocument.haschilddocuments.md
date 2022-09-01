@@ -1,16 +1,11 @@
-Повертає true, якщо документ має дочірні документи
-
--   [« SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.md)
-    
--   [SolrInputDocument::merge »](solrinputdocument.merge.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Повертає true, якщо документ має дочірні документи
-    
-
+---
+navigation:
+  - solrinputdocument.getfieldnames.md: '« SolrInputDocument::getFieldNames'
+  - solrinputdocument.merge.md: 'SolrInputDocument::merge »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::hasChildDocuments'
+---
 # SolrInputDocument::hasChildDocuments
 
 (PECL solr> = 2.3.0)

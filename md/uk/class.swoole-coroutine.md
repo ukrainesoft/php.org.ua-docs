@@ -1,16 +1,11 @@
-Клас SwooleCoroutine
-
--   [« SwooleConnectionIterator::valid](swoole-connection-iterator.valid.html)
-    
--   [SwooleCoroutine::calluserfuncarray »](swoole-coroutine.call-user-func-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleCoroutine
-    
-
+---
+navigation:
+  - swoole-connection-iterator.valid.html: '« SwooleConnectionIterator::valid'
+  - swoole-coroutine.call-user-func-array.html: 'SwooleCoroutine::calluserfuncarray »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleCoroutine
+---
 # Клас SwooleCoroutine
 
 (PECL swoole >= 2.0.0)

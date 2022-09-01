@@ -1,16 +1,11 @@
-Додає варіант
-
--   [« UIControlsRadio](class.ui-controls-radio.html)
-    
--   [ОЙControlsRadio::getSelected »](ui-controls-radio.getselected.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsRadio](class.ui-controls-radio.html)
-    
--   Додає варіант
-    
-
+---
+navigation:
+  - class.ui-controls-radio.html: « UIControlsRadio
+  - ui-controls-radio.getselected.html: 'ОЙControlsRadio::getSelected »'
+  - index.md: PHP Manual
+  - class.ui-controls-radio.html: ОЙControlsRadio
+title: 'ОЙControlsRadio::append'
+---
 # ОЙControlsRadio::append
 
 (UI 0.9.9)

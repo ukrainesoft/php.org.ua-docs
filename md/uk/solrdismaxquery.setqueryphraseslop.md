@@ -1,16 +1,11 @@
-Визначає коефіцієнт відхилення, дозволений для фразових запитів, які явно включені в рядок запиту користувача (параметр qf)
-
--   [« SolrDisMaxQuery::setQueryAlt](solrdismaxquery.setqueryalt.html)
-    
--   [SolrDisMaxQuery::setTieBreaker »](solrdismaxquery.settiebreaker.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
-    
--   Визначає коефіцієнт відхилення, дозволений для фразових запитів, які явно включені в рядок запиту користувача (параметр qf)
-    
-
+---
+navigation:
+  - solrdismaxquery.setqueryalt.html: '« SolrDisMaxQuery::setQueryAlt'
+  - solrdismaxquery.settiebreaker.html: 'SolrDisMaxQuery::setTieBreaker »'
+  - index.html: PHP Manual
+  - class.solrdismaxquery.html: SolrDisMaxQuery
+title: 'Solr DisMax Query::getQuery Phrase Slop'
+---
 # Solr DisMax Query::getQuery Phrase Slop
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Отримує загальну кількість з'єднань у всій мережі
-
--   [« fanngetsarpropweightdecayshift](function.fann-get-sarprop-weight-decay-shift.html)
-    
--   [fanngettotalneurons »](function.fann-get-total-neurons.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Отримує загальну кількість з'єднань у всій мережі
-    
-
+---
+navigation:
+  - function.fann-get-sarprop-weight-decay-shift.html: « fanngetsarpropweightdecayshift
+  - function.fann-get-total-neurons.html: fanngettotalneurons »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngettotalconnections
+---
 # fanngettotalconnections
 
 (PECL fann> = 1.0.0)

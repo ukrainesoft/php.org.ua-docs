@@ -1,16 +1,11 @@
-Повертає запити розширеного фільтра
-
--   [« SolrQuery::getExpand](solrquery.getexpand.md)
-    
--   [SolrQuery::getExpandQuery »](solrquery.getexpandquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає запити розширеного фільтра
-    
-
+---
+navigation:
+  - solrquery.getexpand.md: '« SolrQuery::getExpand'
+  - solrquery.getexpandquery.md: 'SolrQuery::getExpandQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getExpandFilterQueries'
+---
 # SolrQuery::getExpandFilterQueries
 
 (PECL solr> = 2.2.0)

@@ -1,16 +1,11 @@
-Функції для роботи із сесіями
-
--   [« INI-налаштування безпеки сесій](session.security.ini.md)
-    
--   [sessionabort »](function.session-abort.html)
-    
--   [PHP Manual](index.md)
-    
--   [Сессии](book.session.md)
-    
--   Функції для роботи із сесіями
-    
-
+---
+navigation:
+  - session.security.ini.md: « INI-налаштування безпеки сесій
+  - function.session-abort.html: sessionabort »
+  - index.md: PHP Manual
+  - book.session.md: Сессии
+title: Функції для роботи із сесіями
+---
 # Функції для роботи із сесіями
 
 ## Зміст

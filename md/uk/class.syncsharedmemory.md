@@ -1,16 +1,11 @@
-Клас SyncSharedMemory
-
--   [« SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.md)
-    
--   [SyncSharedMemory::construct »](syncsharedmemory.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Sync](book.sync.md)
-    
--   Клас SyncSharedMemory
-    
-
+---
+navigation:
+  - syncreaderwriter.writeunlock.md: '« SyncReaderWriter::writeunlock'
+  - syncsharedmemory.construct.md: 'SyncSharedMemory::construct »'
+  - index.md: PHP Manual
+  - book.sync.md: Sync
+title: Клас SyncSharedMemory
+---
 # Клас SyncSharedMemory
 
 (PECL sync >= 1.1.0)

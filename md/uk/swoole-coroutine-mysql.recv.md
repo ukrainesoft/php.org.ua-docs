@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineMySQL::query](swoole-coroutine-mysql.query.html)
-    
--   [SwooleCoroutineMySQL::setDefer »](swoole-coroutine-mysql.setdefer.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-mysql.query.html: '« SwooleCoroutineMySQL::query'
+  - swoole-coroutine-mysql.setdefer.html: 'SwooleCoroutineMySQL::setDefer »'
+  - index.html: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineMySQL::recv'
+---
 # SwooleCoroutineMySQL::recv
 
 (PECL swoole >= 2.0.0)

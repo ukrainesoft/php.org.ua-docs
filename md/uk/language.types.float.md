@@ -1,16 +1,11 @@
-Числа з плаваючою точкою
-
--   [" Цілі числа](language.types.integer.md)
-    
--   [Рядки »](language.types.string.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи](language.types.md)
-    
--   Числа з плаваючою точкою
-    
-
+---
+navigation:
+  - language.types.integer.md: '" Цілі числа'
+  - language.types.string.md: Рядки »
+  - index.md: PHP Manual
+  - language.types.md: Типи
+title: Числа з плаваючою точкою
+---
 ## Числа з плаваючою точкою
 
 Числа з плаваючою точкою або числа з плаваючою комою (також відомі як "float", "double" або "real") можуть бути визначені наступними синтаксисами:

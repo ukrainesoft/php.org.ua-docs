@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickPixel::getColorCount](imagickpixel.getcolorcount.md)
-    
--   [ImagickPixel::getColorValue »](imagickpixel.getcolorvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickpixel.getcolorcount.md: '« ImagickPixel::getColorCount'
+  - imagickpixel.getcolorvalue.md: 'ImagickPixel::getColorValue »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::getColorQuantum'
+---
 # ImagickPixel::getColorQuantum
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Перевернути матрицю
-
--   [« UIDrawMatrix::multiply](ui-draw-matrix.multiply.html)
-    
--   [ОЙDrawMatrix::scale »](ui-draw-matrix.scale.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawMatrix](class.ui-draw-matrix.html)
-    
--   Перевернути матрицю
-    
-
+---
+navigation:
+  - ui-draw-matrix.multiply.html: '« UIDrawMatrix::multiply'
+  - ui-draw-matrix.scale.html: 'ОЙDrawMatrix::scale »'
+  - index.html: PHP Manual
+  - class.ui-draw-matrix.html: ОЙDrawMatrix
+title: 'ОЙDrawMatrix::rotate'
+---
 # ОЙDrawMatrix::rotate
 
 (UI 0.9.9)

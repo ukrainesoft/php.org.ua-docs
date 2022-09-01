@@ -1,16 +1,11 @@
-Встановлює вагу зв'язку
-
--   [« FANNConnection::getWeight](fannconnection.getweight.html)
-    
--   [Igbinary »](book.igbinary.html)
-    
--   [PHP Manual](index.html)
-    
--   [FANNConnection](class.fannconnection.html)
-    
--   Встановлює вагу зв'язку
-    
-
+---
+navigation:
+  - fannconnection.getweight.html: '« FANNConnection::getWeight'
+  - book.igbinary.html: Igbinary »
+  - index.html: PHP Manual
+  - class.fannconnection.html: FANNConnection
+title: 'FANNConnection::setWeight'
+---
 # FANNConnection::setWeight
 
 (PECL fann> = 1.0.0)

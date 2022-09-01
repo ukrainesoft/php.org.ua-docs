@@ -1,16 +1,11 @@
-Отримує значення поточного елемента
-
--   [« RecursiveIteratorIterator::construct](recursiveiteratoriterator.construct.md)
-    
--   [RecursiveIteratorIterator::endChildren »](recursiveiteratoriterator.endchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Отримує значення поточного елемента
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.construct.md: '« RecursiveIteratorIterator::construct'
+  - recursiveiteratoriterator.endchildren.md: 'RecursiveIteratorIterator::endChildren »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::current'
+---
 # RecursiveIteratorIterator::current
 
 (PHP 5, PHP 7, PHP 8)

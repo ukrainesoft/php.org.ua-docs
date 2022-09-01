@@ -1,16 +1,11 @@
-Отримує інформацію про використання пам'яті кешу користувача.
-
--   [« wincacheucacheinfo](function.wincache-ucache-info.html)
-    
--   [wincacheucacheset »](function.wincache-ucache-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Отримує інформацію про використання пам'яті кешу користувача.
-    
-
+---
+navigation:
+  - function.wincache-ucache-info.html: « wincacheucacheinfo
+  - function.wincache-ucache-set.html: wincacheucacheset »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucachememinfo
+---
 # wincacheucachememinfo
 
 (PECL wincache >= 1.1.0)

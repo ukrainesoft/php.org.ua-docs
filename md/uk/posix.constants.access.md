@@ -1,16 +1,11 @@
-Константи posixaccess
-
--   [« Обумовлені константи](posix.constants.md)
-    
--   [Константи posixmknod »](posix.constants.mknod.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](posix.constants.md)
-    
--   Константи posixaccess
-    
-
+---
+navigation:
+  - posix.constants.md: « Обумовлені константи
+  - posix.constants.mknod.md: Константи posixmknod »
+  - index.md: PHP Manual
+  - posix.constants.md: Обумовлені константи
+title: 'Константи [posixaccess()](function.posix-access.html)'
+---
 ## Константи [posixaccess()](function.posix-access.html)
 
 > **Зауваження**

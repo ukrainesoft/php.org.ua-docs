@@ -1,16 +1,11 @@
-Функції DBA
-
--   [« Базовое использование](dba.example.md)
-    
--   [dbaclose »](function.dba-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [DBA](book.dba.md)
-    
--   Функції DBA
-    
-
+---
+navigation:
+  - dba.example.md: « Базовое использование
+  - function.dba-close.html: dbaclose »
+  - index.md: PHP Manual
+  - book.dba.md: DBA
+title: Функції DBA
+---
 # Функції DBA
 
 ## Зміст

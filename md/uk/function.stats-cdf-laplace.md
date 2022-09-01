@@ -1,16 +1,11 @@
-Обчислює один із параметрів розподілу Лапласа за рештою
-
--   [« statscdfgamma](function.stats-cdf-gamma.html)
-    
--   [statscdflogistic »](function.stats-cdf-logistic.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює один із параметрів розподілу Лапласа за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-gamma.html: « statscdfgamma
+  - function.stats-cdf-logistic.html: statscdflogistic »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscdflaplace
+---
 # statscdflaplace
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_laplace(    float $par1,    float $par2,    float $par3, 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | му     | в      |
-|         | з                     | CDF    | му     | в      |
-|         | му                    | з      | CDF    | в      |
-|         | в                     | з      | CDF    | му     |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | му | в |
+|  | з | CDF | му | в |
+|  | му | з | CDF | в |
+|  | в | з | CDF | му |
 
 ### Список параметрів
 

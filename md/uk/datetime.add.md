@@ -1,16 +1,11 @@
-Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
-
--   [« DateTime](class.datetime.md)
-    
--   [DateTime::construct »](datetime.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
-    
-
+---
+navigation:
+  - class.datetime.md: « DateTime
+  - datetime.construct.md: 'DateTime::construct »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::add'
+---
 # DateTime::add
 
 # dateadd

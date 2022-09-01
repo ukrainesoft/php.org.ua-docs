@@ -1,16 +1,11 @@
-Повертає довжину вказаного поля
-
--   [« mysqlfieldflags](function.mysql-field-flags.html)
-    
--   [mysqlfieldname »](function.mysql-field-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає довжину вказаного поля
-    
-
+---
+navigation:
+  - function.mysql-field-flags.html: « mysqlfieldflags
+  - function.mysql-field-name.html: mysqlfieldname »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlfieldlen
+---
 # mysqlfieldlen
 
 (PHP 4, PHP 5)

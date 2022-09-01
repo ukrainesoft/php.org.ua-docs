@@ -1,16 +1,11 @@
-Клас phpuserfilter
-
--   [« Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.html)
-    
--   [phpuserfilter::filter »](php-user-filter.filter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Потоки](book.stream.html)
-    
--   Клас phpuserfilter
-    
-
+---
+navigation:
+  - stream.streamwrapper.example-1.html: '« Приклад класу, зареєстрованого як обгортка потоку'
+  - php-user-filter.filter.html: 'phpuserfilter::filter »'
+  - index.html: PHP Manual
+  - book.stream.html: Потоки
+title: Клас phpuserfilter
+---
 # Клас phpuserfilter
 
 (PHP 5, PHP 7, PHP 8)

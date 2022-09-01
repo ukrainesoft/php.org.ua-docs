@@ -1,16 +1,11 @@
-Викликати функції Lua
-
--   [« Lua::assign](lua.assign.md)
-    
--   [Lua::construct »](lua.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Lua](class.lua.md)
-    
--   Викликати функції Lua
-    
-
+---
+navigation:
+  - lua.assign.md: '« Lua::assign'
+  - lua.construct.md: 'Lua::construct »'
+  - index.md: PHP Manual
+  - class.lua.md: Lua
+title: 'Lua::call'
+---
 # Lua::call
 
 # Lua::call

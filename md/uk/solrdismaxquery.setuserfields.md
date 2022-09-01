@@ -1,16 +1,11 @@
-Встановлює параметр полів користувача (uf)
-
--   [« SolrDisMaxQuery::setTrigramPhraseSlop](solrdismaxquery.settrigramphraseslop.md)
-    
--   [SolrDisMaxQuery::useDisMaxQueryParser »](solrdismaxquery.usedismaxqueryparser.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Встановлює параметр полів користувача (uf)
-    
-
+---
+navigation:
+  - solrdismaxquery.settrigramphraseslop.md: '« SolrDisMaxQuery::setTrigramPhraseSlop'
+  - solrdismaxquery.usedismaxqueryparser.md: 'SolrDisMaxQuery::useDisMaxQueryParser »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'Solr DisMax Query::set User Fields'
+---
 # Solr DisMax Query::set User Fields
 
 (No version information available, might only be in Git)

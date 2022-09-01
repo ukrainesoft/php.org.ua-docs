@@ -1,16 +1,11 @@
-Клас EventBufferEvent
-
--   [« EventBuffer::write](eventbuffer.write.md)
-    
--   [EventBufferEvent::close »](eventbufferevent.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventBufferEvent
-    
-
+---
+navigation:
+  - eventbuffer.write.md: '« EventBuffer::write'
+  - eventbufferevent.close.md: 'EventBufferEvent::close »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventBufferEvent
+---
 # Клас EventBufferEvent
 
 (PECL event >= 1.2.6-beta)

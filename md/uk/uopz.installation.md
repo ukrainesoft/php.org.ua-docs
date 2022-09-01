@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](uopz.requirements.html)
-    
--   [Налаштування під час виконання »](uopz.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](uopz.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - uopz.requirements.html: « Вимоги
+  - uopz.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - uopz.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Релізи uopz поширюються через PECL, а вихідний код знаходиться на [» github](https://github.com/krakjoe/uopz), найпростіший шлях до встановлення - через PECL: [» https://pecl.php.net/package/uopz](https://pecl.php.net/package/uopz)

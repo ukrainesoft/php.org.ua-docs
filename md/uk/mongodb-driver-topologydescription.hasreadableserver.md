@@ -1,16 +1,11 @@
-Повертає, чи є у топології сервер, доступний для читання
-
--   [« MongoDBDriverTopologyDescription::getType](mongodb-driver-topologydescription.gettype.html)
-    
--   [MongoDBDriverTopologyDescription::hasWritableServer »](mongodb-driver-topologydescription.haswritableserver.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
-    
--   Повертає, чи є у топології сервер, доступний для читання
-    
-
+---
+navigation:
+  - mongodb-driver-topologydescription.gettype.html: '« MongoDBDriverTopologyDescription::getType'
+  - mongodb-driver-topologydescription.haswritableserver.html: 'MongoDBDriverTopologyDescription::hasWritableServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription
+title: 'MongoDBDriverTopologyDescription::hasReadableServer'
+---
 # MongoDBDriverTopologyDescription::hasReadableServer
 
 (mongodb >=1.13.0)

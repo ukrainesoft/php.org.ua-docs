@@ -1,16 +1,11 @@
-Повертає локальний час
-
--   [« idate](function.idate.html)
-    
--   [microtime »](function.microtime.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції дати та часу](ref.datetime.html)
-    
--   Повертає локальний час
-    
-
+---
+navigation:
+  - function.idate.html: « idate
+  - function.microtime.html: microtime »
+  - index.html: PHP Manual
+  - ref.datetime.html: Функції дати та часу
+title: localtime
+---
 # localtime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ localtime(?int $timestamp = null, bool $associative = false): array
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `timestamp` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timestamp` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Великі об'єкти (LOB)
-
--   [« Ошибки и их обработка](pdo.error-handling.html)
-    
--   [PDO »](class.pdo.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDO](book.pdo.html)
-    
--   Великі об'єкти (LOB)
-    
-
+---
+navigation:
+  - pdo.error-handling.html: « Ошибки и их обработка
+  - class.pdo.html: PDO »
+  - index.html: PHP Manual
+  - book.pdo.html: PDO
+title: Великі об'єкти (LOB)
+---
 # Великі об'єкти (LOB)
 
 Іноді для роботи програми необхідно зберігати великі порції даних у базі. Зазвичай під великим розуміють обсяг даних "близько 4 кілобайт або більше", хоча деякі бази даних можуть спокійно обробляти до 32 кілобайт, перш ніж розмір даних стає "великим". Великі об'єкти можуть бути текстовими або бінарними. PDO дозволяє працювати з такими об'єктами шляхом встановлення типу даних **`PDO::PARAM_LOB`** у методах [PDOStatement::bindParam()](pdostatement.bindparam.html) або [PDOStatement::bindColumn()](pdostatement.bindcolumn.html). . **`PDO::PARAM_LOB`** повідомляє PDO, що потрібно позначити ці дані як потік. І відповідно працювати з такими об'єктами можна, використовуючи [API потоків PHP](ref.stream.html)

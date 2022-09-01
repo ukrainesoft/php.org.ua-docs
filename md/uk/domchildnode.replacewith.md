@@ -1,16 +1,11 @@
-Замінює вузол новими вузлами
-
--   [« DOMChildNode::remove](domchildnode.remove.md)
-    
--   [DOMComment »](class.domcomment.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMChildNode](class.domchildnode.md)
-    
--   Замінює вузол новими вузлами
-    
-
+---
+navigation:
+  - domchildnode.remove.md: '« DOMChildNode::remove'
+  - class.domcomment.md: DOMComment »
+  - index.md: PHP Manual
+  - class.domchildnode.md: DOMChildNode
+title: 'DOMChildNode::replaceWith'
+---
 # DOMChildNode::replaceWith
 
 (PHP 8)

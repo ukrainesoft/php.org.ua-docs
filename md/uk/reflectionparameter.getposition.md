@@ -1,16 +1,11 @@
-Отримання позиції параметра
-
--   [« ReflectionParameter::getName](reflectionparameter.getname.html)
-    
--   [ReflectionParameter::getType »](reflectionparameter.gettype.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionParameter](class.reflectionparameter.html)
-    
--   Отримання позиції параметра
-    
-
+---
+navigation:
+  - reflectionparameter.getname.html: '« ReflectionParameter::getName'
+  - reflectionparameter.gettype.html: 'ReflectionParameter::getType »'
+  - index.html: PHP Manual
+  - class.reflectionparameter.html: ReflectionParameter
+title: 'ReflectionParameter::getPosition'
+---
 # ReflectionParameter::getPosition
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

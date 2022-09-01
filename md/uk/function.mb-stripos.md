@@ -1,16 +1,11 @@
-Реєстронезалежний пошук позиції першого входження одного рядка в інший
-
--   [« mbstrimwidth](function.mb-strimwidth.html)
-    
--   [мбstristr »](function.mb-stristr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Реєстронезалежний пошук позиції першого входження одного рядка в інший
-    
-
+---
+navigation:
+  - function.mb-strimwidth.html: « mbstrimwidth
+  - function.mb-stristr.html: мбstristr »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstripos
+---
 # мбstripos
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -49,11 +44,11 @@ mb_stripos(    string $haystack,    string $needle,    int $offset =
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | `needle` тепер приймає порожній рядок.                      |
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
-|        | Додано підтримку негативних значень `offset`                |
+| Версия | Описание |
+| --- | --- |
+|  | `needle` тепер приймає порожній рядок. |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Дивіться також
 

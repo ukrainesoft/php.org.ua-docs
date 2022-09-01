@@ -1,16 +1,11 @@
-Повертає розмір зображення в байтах
-
--   [« Imagick::getImageSignature](imagick.getimagesignature.md)
-    
--   [Imagick::getImageTicksPerSecond »](imagick.getimagetickspersecond.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає розмір зображення в байтах
-    
-
+---
+navigation:
+  - imagick.getimagesignature.md: '« Imagick::getImageSignature'
+  - imagick.getimagetickspersecond.md: 'Imagick::getImageTicksPerSecond »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageSize'
+---
 # Imagick::getImageSize
 
 (PECL imagick 2, PECL imagick 3)

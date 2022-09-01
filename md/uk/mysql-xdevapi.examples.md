@@ -1,16 +1,11 @@
-Приклади
-
--   [« Список изменений](changelog.mysql_xdevapi.md)
-    
--   [Функції Mysqlxdevapi »](ref.mysql-xdevapi.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - changelog.mysql_xdevapi.md: « Список изменений
+  - ref.mysql-xdevapi.html: Функції Mysqlxdevapi »
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Приклади
+---
 # Приклади
 
 Центральною точкою входу в X DevAPI є функція \*\*mysqlxdevapigetSession()\*\*яка отримує URI на сервер MySQL 8.0 і повертає об'єкт **mysqlxdevapSession**

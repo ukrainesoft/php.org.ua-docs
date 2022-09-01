@@ -1,16 +1,11 @@
-Функції для роботи з багатобайтовими рядками
-
--   [« Вимоги до кодування символів у PHP](mbstring.php4.req.md)
-    
--   [мбcheckencoding »](function.mb-check-encoding.html)
-    
--   [PHP Manual](index.md)
-    
--   [Багатобайтові рядки](book.mbstring.md)
-    
--   Функції для роботи з багатобайтовими рядками
-    
-
+---
+navigation:
+  - mbstring.php4.req.md: « Вимоги до кодування символів у PHP
+  - function.mb-check-encoding.html: мбcheckencoding »
+  - index.md: PHP Manual
+  - book.mbstring.md: Багатобайтові рядки
+title: Функції для роботи з багатобайтовими рядками
+---
 # Функції для роботи з багатобайтовими рядками
 
 # Посилання

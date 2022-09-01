@@ -1,16 +1,11 @@
-Повертає масив імен усіх скомпілованих та завантажених модулів
-
--   [« getincludedfiles](function.get-included-files.html)
-    
--   [getmagicquotesgpc »](function.get-magic-quotes-gpc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає масив імен усіх скомпілованих та завантажених модулів
-    
-
+---
+navigation:
+  - function.get-included-files.html: « getincludedfiles
+  - function.get-magic-quotes-gpc.html: getmagicquotesgpc »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getloadedextensions
+---
 # getloadedextensions
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

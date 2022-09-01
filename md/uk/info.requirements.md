@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](info.setup.md)
-    
--   [Установка »](info.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](info.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - info.setup.md: « Встановлення та налаштування
+  - info.installation.md: Установка »
+  - index.md: PHP Manual
+  - info.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

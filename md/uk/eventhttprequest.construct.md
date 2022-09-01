@@ -1,16 +1,11 @@
-Конструктор об'єкта EventHttpRequest
-
--   [« EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md)
-    
--   [EventHttpRequest::findHeader »](eventhttprequest.findheader.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Конструктор об'єкта EventHttpRequest
-    
-
+---
+navigation:
+  - eventhttprequest.closeconnection.md: '« EventHttpRequest::closeConnection'
+  - eventhttprequest.findheader.md: 'EventHttpRequest::findHeader »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::construct'
+---
 # EventHttpRequest::construct
 
 (PECL event >= 1.4.0-beta)

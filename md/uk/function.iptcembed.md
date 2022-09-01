@@ -1,16 +1,11 @@
-Вбудовування двійкових IPTC даних у JPEG зображення
-
--   [« imagexbm](function.imagexbm.md)
-    
--   [iptcparse »](function.iptcparse.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Вбудовування двійкових IPTC даних у JPEG зображення
-    
-
+---
+navigation:
+  - function.imagexbm.md: « imagexbm
+  - function.iptcparse.md: iptcparse »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: iptcembed
+---
 # iptcembed
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

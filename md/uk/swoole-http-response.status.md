@@ -1,16 +1,11 @@
-Встановлює код стану HTTP-відповіді
-
--   [« SwooleHttpResponse::sendfile](swoole-http-response.sendfile.html)
-    
--   [SwooleHttpResponse::write »](swoole-http-response.write.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Встановлює код стану HTTP-відповіді
-    
-
+---
+navigation:
+  - swoole-http-response.sendfile.html: '« SwooleHttpResponse::sendfile'
+  - swoole-http-response.write.html: 'SwooleHttpResponse::write »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::status'
+---
 # SwooleHttpResponse::status
 
 (PECL swoole >= 1.9.0)

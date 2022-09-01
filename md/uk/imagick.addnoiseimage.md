@@ -1,16 +1,11 @@
-Накладає випадковий шум на зображення
-
--   [« Imagick::addImage](imagick.addimage.html)
-    
--   [Imagick::affineTransformImage »](imagick.affinetransformimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Накладає випадковий шум на зображення
-    
-
+---
+navigation:
+  - imagick.addimage.html: '« Imagick::addImage'
+  - imagick.affinetransformimage.html: 'Imagick::affineTransformImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::addNoiseImage'
+---
 # Imagick::addNoiseImage
 
 (PECL imagick 2, PECL imagick 3)

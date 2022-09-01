@@ -1,16 +1,11 @@
-Очищає ресурси, пов'язані з PixelIterator
-
--   [« ImagickPixelIterator](class.imagickpixeliterator.md)
-    
--   [ImagickPixelIterator::construct »](imagickpixeliterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.md)
-    
--   Очищає ресурси, пов'язані з PixelIterator
-    
-
+---
+navigation:
+  - class.imagickpixeliterator.md: « ImagickPixelIterator
+  - imagickpixeliterator.construct.md: 'ImagickPixelIterator::construct »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
+title: 'ImagickPixelIterator::clear'
+---
 # ImagickPixelIterator::clear
 
 (PECL imagick 2, PECL imagick 3)

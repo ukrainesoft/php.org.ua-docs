@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::stripImage](imagick.stripimage.md)
-    
--   [Imagick::swirlImage »](imagick.swirlimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.stripimage.md: '« Imagick::stripImage'
+  - imagick.swirlimage.md: 'Imagick::swirlImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::subImageMatch'
+---
 # Imagick::subImageMatch
 
 (PECL imagick 3> = 3.3.0)

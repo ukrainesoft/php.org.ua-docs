@@ -1,16 +1,11 @@
-Визначення позначки
-
--   [« UIControlsCheck::getText](ui-controls-check.gettext.html)
-    
--   [ОЙControlsCheck::onToggle »](ui-controls-check.ontoggle.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsCheck](class.ui-controls-check.html)
-    
--   Визначення позначки
-    
-
+---
+navigation:
+  - ui-controls-check.gettext.html: '« UIControlsCheck::getText'
+  - ui-controls-check.ontoggle.html: 'ОЙControlsCheck::onToggle »'
+  - index.html: PHP Manual
+  - class.ui-controls-check.html: ОЙControlsCheck
+title: 'ОЙControlsCheck::isChecked'
+---
 # ОЙControlsCheck::isChecked
 
 (UI 0.9.9)

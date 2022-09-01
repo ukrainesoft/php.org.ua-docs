@@ -1,16 +1,11 @@
-Клас SoapHeader
-
--   [« SoapFault::toString](soapfault.tostring.md)
-    
--   [SoapHeader::construct »](soapheader.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SOAP](book.soap.md)
-    
--   Клас SoapHeader
-    
-
+---
+navigation:
+  - soapfault.tostring.md: '« SoapFault::toString'
+  - soapheader.construct.md: 'SoapHeader::construct »'
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
+title: Клас SoapHeader
+---
 # Клас SoapHeader
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає логін власника процесу
-
--   [« posixgetgroups](function.posix-getgroups.html)
-    
--   [posixgetpgid »](function.posix-getpgid.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Повертає логін власника процесу
-    
-
+---
+navigation:
+  - function.posix-getgroups.html: « posixgetgroups
+  - function.posix-getpgid.html: posixgetpgid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetlogin
+---
 # posixgetlogin
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

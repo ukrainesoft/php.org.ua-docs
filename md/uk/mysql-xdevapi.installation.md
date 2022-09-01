@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](mysql-xdevapi.requirements.html)
-    
--   [Налаштування під час виконання »](mysql-xdevapi.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](mysql-xdevapi.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - mysql-xdevapi.requirements.html: « Вимоги
+  - mysql-xdevapi.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - mysql-xdevapi.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

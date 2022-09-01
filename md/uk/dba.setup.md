@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.dba.md)
-    
--   [Вимоги »](dba.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [DBA](book.dba.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.dba.md: « Введение
+  - dba.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.dba.md: DBA
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

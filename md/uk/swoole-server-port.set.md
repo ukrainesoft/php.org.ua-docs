@@ -1,16 +1,11 @@
-Встановлює протокол порту сервера
-
--   [« SwooleServerPort::on](swoole-server-port.on.html)
-    
--   [SwooleServer::exist »](swoole-server.exist.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Встановлює протокол порту сервера
-    
-
+---
+navigation:
+  - swoole-server-port.on.html: '« SwooleServerPort::on'
+  - swoole-server.exist.html: 'SwooleServer::exist »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServerPort::set'
+---
 # SwooleServerPort::set
 
 (PECL swoole >= 1.9.0)

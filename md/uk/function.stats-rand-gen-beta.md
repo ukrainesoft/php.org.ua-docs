@@ -1,16 +1,11 @@
-Обчислює випадкове відхилення від бета-розподілу
-
--   [« statskurtosis](function.stats-kurtosis.html)
-    
--   [statsrandgenchisquare »](function.stats-rand-gen-chisquare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює випадкове відхилення від бета-розподілу
-    
-
+---
+navigation:
+  - function.stats-kurtosis.html: « statskurtosis
+  - function.stats-rand-gen-chisquare.html: statsrandgenchisquare »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandгенbeta
+---
 # statsrandгенbeta
 
 (PECL stats >= 1.0.0)

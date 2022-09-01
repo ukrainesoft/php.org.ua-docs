@@ -1,16 +1,11 @@
-Вибирає рядки, що залишилися, з набору результатів
-
--   [« PDOStatement::fetch](pdostatement.fetch.md)
-    
--   [PDOStatement::fetchColumn »](pdostatement.fetchcolumn.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Вибирає рядки, що залишилися, з набору результатів
-    
-
+---
+navigation:
+  - pdostatement.fetch.md: '« PDOStatement::fetch'
+  - pdostatement.fetchcolumn.md: 'PDOStatement::fetchColumn »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::fetchAll'
+---
 # PDOStatement::fetchAll
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
@@ -70,9 +65,9 @@ public PDOStatement::fetchAll(int $mode = PDO::FETCH_FUNC, callable $callback): 
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Метод тепер завжди повертає масив (array), раніше у разі виникнення помилки могло повертатися **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Метод тепер завжди повертає масив (array), раніше у разі виникнення помилки могло повертатися **`false`** |
 
 ### Приклади
 

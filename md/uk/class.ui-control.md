@@ -1,16 +1,11 @@
-Елемент управління
-
--   [« UIWindow::setTitle](ui-window.settitle.html)
-    
--   [ОЙControl::destroy »](ui-control.destroy.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління
-    
-
+---
+navigation:
+  - ui-window.settitle.html: '« UIWindow::setTitle'
+  - ui-control.destroy.html: 'ОЙControl::destroy »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління
+---
 # Елемент управління
 
 (UI 0.9.9)

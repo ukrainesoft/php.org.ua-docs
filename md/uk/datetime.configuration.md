@@ -1,29 +1,24 @@
-Налаштування під час виконання
-
--   [« Установка](datetime.installation.html)
-    
--   [Типи ресурсів »](datetime.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](datetime.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - datetime.installation.html: « Установка
+  - datetime.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - datetime.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Налаштування конфігурації дати/часу**
 
-| Имя                                                                             | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [date.defaultlatitude](datetime.configuration.html#ini.date.default-latitude)   | "31.7667"    | PHPINIALL       |                  |
-| [date.defaultlongitude](datetime.configuration.html#ini.date.default-longitude) | "35.2333"    | PHPINIALL       |                  |
-| [date.sunrisezenith](datetime.configuration.html#ini.date.sunrise-zenith)       | "90.583333"  | PHPINIALL       |                  |
-| [date.sunsetzenith](datetime.configuration.html#ini.date.sunset-zenith)         | "90.583333"  | PHPINIALL       |                  |
-| [date.timezone](datetime.configuration.html#ini.date.timezone)                  | "UTC"        | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [date.defaultlatitude](datetime.configuration.html#ini.date.default-latitude) | "31.7667" | PHPINIALL |  |
+| [date.defaultlongitude](datetime.configuration.html#ini.date.default-longitude) | "35.2333" | PHPINIALL |  |
+| [date.sunrisezenith](datetime.configuration.html#ini.date.sunrise-zenith) | "90.583333" | PHPINIALL |  |
+| [date.sunsetzenith](datetime.configuration.html#ini.date.sunset-zenith) | "90.583333" | PHPINIALL |  |
+| [date.timezone](datetime.configuration.html#ini.date.timezone) | "UTC" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

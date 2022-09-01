@@ -1,16 +1,11 @@
-Повертає колір для обведення контурів об'єкта.
-
--   [« ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.md)
-    
--   [ImagickDraw::getStrokeDashArray »](imagickdraw.getstrokedasharray.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає колір для обведення контурів об'єкта.
-    
-
+---
+navigation:
+  - imagickdraw.getstrokeantialias.md: '« ImagickDraw::getStrokeAntialias'
+  - imagickdraw.getstrokedasharray.md: 'ImagickDraw::getStrokeDashArray »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getStrokeColor'
+---
 # ImagickDraw::getStrokeColor
 
 (PECL imagick 2, PECL imagick 3)

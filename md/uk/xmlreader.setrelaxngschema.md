@@ -1,16 +1,11 @@
-Встановити ім'я файлу або URI для схеми RelaxNG
-
--   [« XMLReader::setParserProperty](xmlreader.setparserproperty.md)
-    
--   [XMLReader::setRelaxNGSchemaSource »](xmlreader.setrelaxngschemasource.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Встановити ім'я файлу або URI для схеми RelaxNG
-    
-
+---
+navigation:
+  - xmlreader.setparserproperty.md: '« XMLReader::setParserProperty'
+  - xmlreader.setrelaxngschemasource.md: 'XMLReader::setRelaxNGSchemaSource »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::setRelaxNGSchema'
+---
 # XMLReader::setRelaxNGSchema
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

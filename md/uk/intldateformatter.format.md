@@ -1,16 +1,11 @@
-Форматує значення дати/часу у вигляді рядка
-
--   [« IntlDateFormatter::create](intldateformatter.create.md)
-    
--   [IntlDateFormatter::formatObject »](intldateformatter.formatobject.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Форматує значення дати/часу у вигляді рядка
-    
-
+---
+navigation:
+  - intldateformatter.create.md: '« IntlDateFormatter::create'
+  - intldateformatter.formatobject.md: 'IntlDateFormatter::formatObject »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::format'
+---
 # IntlDateFormatter::format
 
 # datefmtformat
@@ -53,10 +48,10 @@ datefmt_format(IntlDateFormatter $formatter, IntlCalendar|DateTimeInterface|arra
 
 ### список змін
 
-| Версия     | Описание                                                                                                                                                                              |
-|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md) |
-| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра `datetime`                                                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md) |
+| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра `datetime` |
 
 ### Приклади
 

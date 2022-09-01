@@ -1,16 +1,11 @@
-Завершує граматичні правила
-
--   [« ParleRParser::advance](parle-rparser.advance.html)
-    
--   [ParleRParser::consume »](parle-rparser.consume.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Завершує граматичні правила
-    
-
+---
+navigation:
+  - parle-rparser.advance.html: '« ParleRParser::advance'
+  - parle-rparser.consume.html: 'ParleRParser::consume »'
+  - index.html: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::build'
+---
 # ParleRParser::build
 
 (PECL parle >= 0.7.0)

@@ -1,16 +1,11 @@
-Витягти підрозділ
-
--   [« sodiumcryptogenerichash](function.sodium-crypto-generichash.html)
-    
--   [sodiumcryptokdfkeygen »](function.sodium-crypto-kdf-keygen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Витягти підрозділ
-    
-
+---
+navigation:
+  - function.sodium-crypto-generichash.html: « sodiumcryptogenerichash
+  - function.sodium-crypto-kdf-keygen.html: sodiumcryptokdfkeygen »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptokdfderivefromkey
+---
 # sodiumcryptokdfderivefromkey
 
 (PHP 7> = 7.2.0, PHP 8)

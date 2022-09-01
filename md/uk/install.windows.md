@@ -1,16 +1,11 @@
-Встановлення у системах Windows
-
--   [« Компилирование PHP на macOS](install.macosx.compile.html)
-    
--   [Вимоги к установке »](install.windows.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](install.html)
-    
--   Встановлення у системах Windows
-    
-
+---
+navigation:
+  - install.macosx.compile.html: « Компилирование PHP на macOS
+  - install.windows.requirements.html: Вимоги к установке »
+  - index.html: PHP Manual
+  - install.html: Встановлення та налаштування
+title: Встановлення у системах Windows
+---
 # Встановлення у системах Windows
 
 ## Зміст

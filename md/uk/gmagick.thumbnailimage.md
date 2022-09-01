@@ -1,16 +1,11 @@
-Змінює розмір зображення
-
--   [« Gmagick::swirlimage](gmagick.swirlimage.md)
-    
--   [Gmagick::trimimage »](gmagick.trimimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Змінює розмір зображення
-    
-
+---
+navigation:
+  - gmagick.swirlimage.md: '« Gmagick::swirlimage'
+  - gmagick.trimimage.md: 'Gmagick::trimimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::thumbnailimage'
+---
 # Gmagick::thumbnailimage
 
 (PECL gmagick >= Unknown)

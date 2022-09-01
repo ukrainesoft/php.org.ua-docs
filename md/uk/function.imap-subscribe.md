@@ -1,16 +1,11 @@
-Підписатися на поштову скриньку
-
--   [« imapstatus](function.imap-status.html)
-    
--   [imapthread »](function.imap-thread.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Підписатися на поштову скриньку
-    
-
+---
+navigation:
+  - function.imap-status.html: « imapstatus
+  - function.imap-thread.html: imapthread »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapsubscribe
+---
 # imapsubscribe
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_subscribe(IMAP\Connection $imap, string $mailbox): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

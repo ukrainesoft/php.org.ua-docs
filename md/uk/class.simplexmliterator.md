@@ -1,16 +1,11 @@
-Клас SimpleXMLIterator
-
--   [« SimpleXMLElement::xpath](simplexmlelement.xpath.md)
-    
--   [SimpleXMLIterator::current »](simplexmliterator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXML](book.simplexml.md)
-    
--   Клас SimpleXMLIterator
-    
-
+---
+navigation:
+  - simplexmlelement.xpath.md: '« SimpleXMLElement::xpath'
+  - simplexmliterator.current.md: 'SimpleXMLIterator::current »'
+  - index.md: PHP Manual
+  - book.simplexml.md: SimpleXML
+title: Клас SimpleXMLIterator
+---
 # Клас SimpleXMLIterator
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)
@@ -67,9 +62,9 @@ public SimpleXMLElement::xpath(string $expression): array|null|false
 
 ## список змін
 
-| Версия | Описание                                                                              |
-|--------|---------------------------------------------------------------------------------------|
-|        | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 

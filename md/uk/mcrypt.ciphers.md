@@ -1,16 +1,11 @@
-Шифри Mcrypt
-
--   [« Обумовлені константи](mcrypt.constants.md)
-    
--   [Mcrypt »](ref.mcrypt.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](book.mcrypt.md)
-    
--   Шифри Mcrypt
-    
-
+---
+navigation:
+  - mcrypt.constants.md: « Обумовлені константи
+  - ref.mcrypt.md: Mcrypt »
+  - index.md: PHP Manual
+  - book.mcrypt.md: Mcrypt
+title: Шифри Mcrypt
+---
 # Шифри Mcrypt
 
 Тут перераховані шифри, що підтримуються модулем mcrypt. Для повного списку шифрів, що підтримуються, дивіться список в кінці файлу mcrypt.h. Головне правило API mcrypt-2.2.x API полягає в тому, що доступ до шифрів з PHP здійснюється шляхом використання констант MCRYPTім'яшифру. Ці константи також працюють з AI libmcrypt-2.4.x та libmcrypt-2.5.x, але також можна задати шифр на ім'я за допомогою функції [mcryptmoduleopen()](function.mcrypt-module-open.html)

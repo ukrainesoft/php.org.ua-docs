@@ -1,16 +1,11 @@
-Інтерфейс CrudOperationBindable
-
--   [« ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.html)
-    
--   [CrudOperationBindable::bind »](mysql-xdevapi-crudoperationbindable.bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Інтерфейс CrudOperationBindable
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.ispadded.html: '« ColumnResult::isPadded'
+  - mysql-xdevapi-crudoperationbindable.bind.html: 'CrudOperationBindable::bind »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Інтерфейс CrudOperationBindable
+---
 # Інтерфейс CrudOperationBindable
 
 (PECL mysql-xdevapi >= 8.0.11)

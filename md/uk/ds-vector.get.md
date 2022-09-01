@@ -1,16 +1,11 @@
-Повертає значення за індексом
-
--   [« DsVector::first](ds-vector.first.html)
-    
--   [ДсVector::insert »](ds-vector.insert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає значення за індексом
-    
-
+---
+navigation:
+  - ds-vector.first.html: '« DsVector::first'
+  - ds-vector.insert.html: 'ДсVector::insert »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::get'
+---
 # ДсVector::get
 
 (PECL ds >= 1.0.0)

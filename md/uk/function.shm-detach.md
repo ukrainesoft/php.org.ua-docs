@@ -1,16 +1,11 @@
-Відключається від сегмента пам'яті, що розділяється
-
--   [« shmattach](function.shm-attach.html)
-    
--   [shmgetvar »](function.shm-get-var.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Відключається від сегмента пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shm-attach.html: « shmattach
+  - function.shm-get-var.html: shmgetvar »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: shmdetach
+---
 # shmdetach
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ shm_detach(SysvSharedMemory $shm): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------|
-|        | `shm` чекає на екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` чекає на екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

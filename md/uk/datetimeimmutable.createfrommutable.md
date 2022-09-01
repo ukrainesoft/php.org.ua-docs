@@ -1,16 +1,11 @@
-Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
-
--   [« DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.md)
-    
--   [DateTimeImmutable::getLastErrors »](datetimeimmutable.getlasterrors.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
-    
-
+---
+navigation:
+  - datetimeimmutable.createfrominterface.md: '« DateTimeImmutable::createFromInterface'
+  - datetimeimmutable.getlasterrors.md: 'DateTimeImmutable::getLastErrors »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::createFromMutable'
+---
 # DateTimeImmutable::createFromMutable
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

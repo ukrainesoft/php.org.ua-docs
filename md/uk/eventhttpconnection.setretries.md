@@ -1,16 +1,11 @@
-Встановлює максимальну кількість повторів для з'єднання
-
--   [« EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.md)
-    
--   [EventHttpConnection::setTimeout »](eventhttpconnection.settimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpConnection](class.eventhttpconnection.md)
-    
--   Встановлює максимальну кількість повторів для з'єднання
-    
-
+---
+navigation:
+  - eventhttpconnection.setmaxheaderssize.md: '« EventHttpConnection::setMaxHeadersSize'
+  - eventhttpconnection.settimeout.md: 'EventHttpConnection::setTimeout »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::setRetries'
+---
 # EventHttpConnection::setRetries
 
 (PECL event >= 1.2.6-beta)

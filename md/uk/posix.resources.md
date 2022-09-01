@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](posix.configuration.md)
-    
--   [Обумовлені константи »](posix.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](posix.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - posix.configuration.md: « Налаштування під час виконання
+  - posix.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - posix.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

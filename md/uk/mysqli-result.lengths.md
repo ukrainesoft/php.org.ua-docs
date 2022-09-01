@@ -1,16 +1,11 @@
-Повертає довжини полів поточного рядка результуючого набору
-
--   [« mysqliresult::getIterator](mysqli-result.getiterator.html)
-    
--   [mysqliresult::$numrows »](mysqli-result.num-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Повертає довжини полів поточного рядка результуючого набору
-    
-
+---
+navigation:
+  - mysqli-result.getiterator.html: '« mysqliresult::getIterator'
+  - mysqli-result.num-rows.html: 'mysqliresult::$numrows »'
+  - index.html: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::$lengths'
+---
 # mysqliresult::$lengths
 
 # mysqlifetchlengths

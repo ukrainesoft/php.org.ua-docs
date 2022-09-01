@@ -1,16 +1,11 @@
-Повертає вміст буфера виводу
-
--   [« obgetclean](function.ob-get-clean.html)
-    
--   [проgetflush »](function.ob-get-flush.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   Повертає вміст буфера виводу
-    
-
+---
+navigation:
+  - function.ob-get-clean.html: « obgetclean
+  - function.ob-get-flush.html: проgetflush »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проgetcontents
+---
 # проgetcontents
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

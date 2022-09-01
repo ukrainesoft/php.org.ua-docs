@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.openal.html)
-    
--   [Вимоги »](openal.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [OpenAL](book.openal.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.openal.html: « Введение
+  - openal.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.openal.html: OpenAL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Записує інформацію рівня "error" у журнал
-
--   [« SeasLog::emergency](seaslog.emergency.md)
-    
--   [SeasLog::flushBuffer »](seaslog.flushbuffer.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Записує інформацію рівня "error" у журнал
-    
-
+---
+navigation:
+  - seaslog.emergency.md: '« SeasLog::emergency'
+  - seaslog.flushbuffer.md: 'SeasLog::flushBuffer »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::error'
+---
 # SeasLog::error
 
 (PECL seaslog >=1.0.0)

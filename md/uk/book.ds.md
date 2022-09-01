@@ -1,16 +1,11 @@
-Структури даних
-
--   [« untaint](function.untaint.html)
-    
--   [Введение »](intro.ds.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   Структури даних
-    
-
+---
+navigation:
+  - function.untaint.html: « untaint
+  - intro.ds.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: Структури даних
+---
 # Структури даних
 
 -   [Введение](intro.ds.html)

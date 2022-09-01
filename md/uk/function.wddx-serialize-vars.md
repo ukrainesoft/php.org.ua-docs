@@ -1,16 +1,11 @@
-Серіалізація змінних у пакет WDDX
-
--   [« wddxserializevalue](function.wddx-serialize-value.html)
-    
--   [XMLDiff »](book.xmldiff.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції WDDX](ref.wddx.html)
-    
--   Серіалізація змінних у пакет WDDX
-    
-
+---
+navigation:
+  - function.wddx-serialize-value.html: « wddxserializevalue
+  - book.xmldiff.html: XMLDiff »
+  - index.html: PHP Manual
+  - ref.wddx.html: Функції WDDX
+title: wddxserializevars
+---
 # wddxserializevars
 
 (PHP 4, PHP 5, PHP 7)

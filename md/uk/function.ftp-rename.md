@@ -1,16 +1,11 @@
-Перейменовує файл або директорію на FTP-сервері
-
--   [« ftprawlist](function.ftp-rawlist.html)
-    
--   [ftprmdir »](function.ftp-rmdir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Перейменовує файл або директорію на FTP-сервері
-    
-
+---
+navigation:
+  - function.ftp-rawlist.html: « ftprawlist
+  - function.ftp-rmdir.html: ftprmdir »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftprename
+---
 # ftprename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ ftp_rename(FTP\Connection $ftp, string $from, string $to): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Клас SplDoublyLinkedList
-
--   [« Структури даних](spl.datastructures.md)
-    
--   [SplDoublyLinkedList::add »](spldoublylinkedlist.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](spl.datastructures.md)
-    
--   Клас SplDoublyLinkedList
-    
-
+---
+navigation:
+  - spl.datastructures.md: « Структури даних
+  - spldoublylinkedlist.add.md: 'SplDoublyLinkedList::add »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
+title: Клас SplDoublyLinkedList
+---
 # Клас SplDoublyLinkedList
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

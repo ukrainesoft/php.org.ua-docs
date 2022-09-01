@@ -1,16 +1,11 @@
-Повертає метод стиснення дескриптора директорії
-
--   [« zipentrycompressedsize](function.zip-entry-compressedsize.html)
-    
--   [zipentryfilesize »](function.zip-entry-filesize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zip](ref.zip.md)
-    
--   Повертає метод стиснення дескриптора директорії
-    
-
+---
+navigation:
+  - function.zip-entry-compressedsize.html: « zipentrycompressedsize
+  - function.zip-entry-filesize.html: zipentryfilesize »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipentrycompressionmethod
+---
 # zipentrycompressionmethod
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -41,9 +36,9 @@ zip_entry_compressionmethod(resource $zip_entry): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
 
 ### Дивіться також
 

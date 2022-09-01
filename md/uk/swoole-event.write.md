@@ -1,16 +1,11 @@
-Записує дані в сокет
-
--   [« SwooleEvent::wait](swoole-event.wait.html)
-    
--   [SwooleException »](class.swoole-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleEvent](class.swoole-event.html)
-    
--   Записує дані в сокет
-    
-
+---
+navigation:
+  - swoole-event.wait.html: '« SwooleEvent::wait'
+  - class.swoole-exception.html: SwooleException »
+  - index.md: PHP Manual
+  - class.swoole-event.html: SwooleEvent
+title: 'SwooleEvent::write'
+---
 # SwooleEvent::write
 
 (PECL swoole >= 1.9.0)

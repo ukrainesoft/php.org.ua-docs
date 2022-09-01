@@ -1,16 +1,11 @@
-Додає коментар до вашого зображення
-
--   [« Imagick::combineImages](imagick.combineimages.md)
-    
--   [Imagick::compareImageChannels »](imagick.compareimagechannels.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Додає коментар до вашого зображення
-    
-
+---
+navigation:
+  - imagick.combineimages.md: '« Imagick::combineImages'
+  - imagick.compareimagechannels.md: 'Imagick::compareImageChannels »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::commentImage'
+---
 # Imagick::commentImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Малює ламану лінію
-
--   [« ImagickDraw::polygon](imagickdraw.polygon.html)
-    
--   [ImagickDraw::pop »](imagickdraw.pop.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює ламану лінію
-    
-
+---
+navigation:
+  - imagickdraw.polygon.html: '« ImagickDraw::polygon'
+  - imagickdraw.pop.html: 'ImagickDraw::pop »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::polyline'
+---
 # ImagickDraw::polyline
 
 (PECL imagick 2, PECL imagick 3)

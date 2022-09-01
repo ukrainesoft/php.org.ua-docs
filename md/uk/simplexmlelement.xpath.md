@@ -1,16 +1,11 @@
-Запускає запит XPath до XML-даних
-
--   [« SimpleXMLElement::toString](simplexmlelement.tostring.md)
-    
--   [SimpleXMLIterator »](class.simplexmliterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Запускає запит XPath до XML-даних
-    
-
+---
+navigation:
+  - simplexmlelement.tostring.md: '« SimpleXMLElement::toString'
+  - class.simplexmliterator.md: SimpleXMLIterator »
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::xpath'
+---
 # SimpleXMLElement::xpath
 
 (PHP 5, PHP 7, PHP 8)

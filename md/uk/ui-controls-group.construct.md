@@ -1,16 +1,11 @@
-Створити новий об'єкт Group
-
--   [« UIControlsGroup::append](ui-controls-group.append.html)
-    
--   [ОЙControlsGroup::getTitle »](ui-controls-group.gettitle.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsGroup](class.ui-controls-group.html)
-    
--   Створити новий об'єкт Group
-    
-
+---
+navigation:
+  - ui-controls-group.append.html: '« UIControlsGroup::append'
+  - ui-controls-group.gettitle.html: 'ОЙControlsGroup::getTitle »'
+  - index.html: PHP Manual
+  - class.ui-controls-group.html: ОЙControlsGroup
+title: 'ОЙControlsGroup::construct'
+---
 # ОЙControlsGroup::construct
 
 (UI 0.9.9)

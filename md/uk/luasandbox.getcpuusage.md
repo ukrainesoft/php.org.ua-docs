@@ -1,16 +1,11 @@
-Повертає поточний час використання процесора у середовищі Lua
-
--   [« LuaSandbox::enableProfiler](luasandbox.enableprofiler.html)
-    
--   [LuaSandbox::getMemoryUsage »](luasandbox.getmemoryusage.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](class.luasandbox.html)
-    
--   Повертає поточний час використання процесора у середовищі Lua
-    
-
+---
+navigation:
+  - luasandbox.enableprofiler.html: '« LuaSandbox::enableProfiler'
+  - luasandbox.getmemoryusage.html: 'LuaSandbox::getMemoryUsage »'
+  - index.html: PHP Manual
+  - class.luasandbox.html: LuaSandbox
+title: 'LuaSandbox::getCPUUsage'
+---
 # LuaSandbox::getCPUUsage
 
 (PECL luasandbox >= 1.0.0)

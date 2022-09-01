@@ -1,16 +1,11 @@
-Повертає об'єкт EventBufferEvent
-
--   [« EventHttpRequest::free](eventhttprequest.free.html)
-    
--   [EventHttpRequest::getCommand »](eventhttprequest.getcommand.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Повертає об'єкт EventBufferEvent
-    
-
+---
+navigation:
+  - eventhttprequest.free.html: '« EventHttpRequest::free'
+  - eventhttprequest.getcommand.html: 'EventHttpRequest::getCommand »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::getBufferEvent'
+---
 # EventHttpRequest::getBufferEvent
 
 (PECL event >= 1.8.0)

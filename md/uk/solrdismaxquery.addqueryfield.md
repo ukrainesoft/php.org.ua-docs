@@ -1,16 +1,11 @@
-Додає поле запиту з необов'язковим збільшенням (параметр qf)
-
--   [« SolrDisMaxQuery::addPhraseField](solrdismaxquery.addphrasefield.md)
-    
--   [SolrDisMaxQuery::addTrigramPhraseField »](solrdismaxquery.addtrigramphrasefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Додає поле запиту з необов'язковим збільшенням (параметр qf)
-    
-
+---
+navigation:
+  - solrdismaxquery.addphrasefield.md: '« SolrDisMaxQuery::addPhraseField'
+  - solrdismaxquery.addtrigramphrasefield.md: 'SolrDisMaxQuery::addTrigramPhraseField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::addQueryField'
+---
 # SolrDisMaxQuery::addQueryField
 
 (No version information available, might only be in Git)

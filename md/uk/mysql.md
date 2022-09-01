@@ -1,16 +1,11 @@
-Огляд PHP драйверів MySQL
-
--   [« MySQL](set.mysqlinfo.html)
-    
--   [Огляд термінології »](mysqlinfo.terminology.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](set.mysqlinfo.html)
-    
--   Огляд PHP драйверів MySQL
-    
-
+---
+navigation:
+  - set.mysqlinfo.html: « MySQL
+  - mysqlinfo.terminology.html: Огляд термінології »
+  - index.html: PHP Manual
+  - set.mysqlinfo.html: MySQL
+title: Огляд PHP драйверів MySQL
+---
 # Огляд PHP драйверів MySQL
 
 # Вступ

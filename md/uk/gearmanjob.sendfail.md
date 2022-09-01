@@ -1,16 +1,11 @@
-Надсилання статусу невдалої операції
-
--   [« GearmanJob::sendException](gearmanjob.sendexception.html)
-    
--   [GearmanJob::sendStatus »](gearmanjob.sendstatus.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Надсилання статусу невдалої операції
-    
-
+---
+navigation:
+  - gearmanjob.sendexception.html: '« GearmanJob::sendException'
+  - gearmanjob.sendstatus.html: 'GearmanJob::sendStatus »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::sendFail'
+---
 # GearmanJob::sendFail
 
 (PECL gearman >= 0.6.0)

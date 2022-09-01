@@ -1,16 +1,11 @@
-Оновити рядки у таблиці
-
--   [« Table::select](mysql-xdevapi-table.select.html)
-    
--   [mysqlxdevapiTableDelete »](class.mysql-xdevapi-tabledelete.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Оновити рядки у таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.select.html: '« Table::select'
+  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::update'
+---
 # Table::update
 
 (No version information available, might only be in Git)

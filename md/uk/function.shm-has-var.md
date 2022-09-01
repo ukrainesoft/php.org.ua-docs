@@ -1,16 +1,11 @@
-Перевіряє, чи існує конкретний запис
-
--   [« shmgetvar](function.shm-get-var.html)
-    
--   [shmputvar »](function.shm-put-var.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Перевіряє, чи існує конкретний запис
-    
-
+---
+navigation:
+  - function.shm-get-var.html: « shmgetvar
+  - function.shm-put-var.html: shmputvar »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: shmhasvar
+---
 # shmhasvar
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ shm_has_var(SysvSharedMemory $shm, int $key): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------|
-|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

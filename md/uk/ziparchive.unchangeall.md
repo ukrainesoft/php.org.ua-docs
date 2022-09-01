@@ -1,16 +1,11 @@
-Скасовує всі зміни, зроблені в архіві
-
--   [« ZipArchive::statName](ziparchive.statname.html)
-    
--   [ZipArchive::unchangeArchive »](ziparchive.unchangearchive.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Скасовує всі зміни, зроблені в архіві
-    
-
+---
+navigation:
+  - ziparchive.statname.html: '« ZipArchive::statName'
+  - ziparchive.unchangearchive.html: 'ZipArchive::unchangeArchive »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::unchangeAll'
+---
 # ZipArchive::unchangeAll
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

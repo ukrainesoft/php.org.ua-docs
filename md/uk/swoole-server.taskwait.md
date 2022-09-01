@@ -1,16 +1,11 @@
-Надсилає дані робочим процесам завдання блокуючим способом
-
--   [« SwooleServer::task](swoole-server.task.html)
-    
--   [SwooleServer::taskWaitMulti »](swoole-server.taskwaitmulti.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Надсилає дані робочим процесам завдання блокуючим способом
-    
-
+---
+navigation:
+  - swoole-server.task.html: '« SwooleServer::task'
+  - swoole-server.taskwaitmulti.html: 'SwooleServer::taskWaitMulti »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::taskwait'
+---
 # SwooleServer::taskwait
 
 (PECL swoole >= 1.9.0)

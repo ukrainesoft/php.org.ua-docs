@@ -1,16 +1,11 @@
-Отримує та/або встановлює шлях збереження сесії
-
--   [« sessionreset](function.session-reset.html)
-    
--   [sessionsetcookieparams »](function.session-set-cookie-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Отримує та/або встановлює шлях збереження сесії
-    
-
+---
+navigation:
+  - function.session-reset.html: « sessionreset
+  - function.session-set-cookie-params.html: sessionsetcookieparams »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionsavepath
+---
 # sessionsavepath
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ session_save_path(?string $path = null): string|false
 
 ### список змін
 
-| Версия | Описание                          |
-|--------|-----------------------------------|
-|        | `path` тепер може бути **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `path` тепер може бути **`null`** |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Завантажує об'єкт із потоку
-
--   [« COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md)
-    
--   [COMPersistHelper::SaveToFile »](compersisthelper.savetofile.md)
-    
--   [PHP Manual](index.md)
-    
--   [COMPersistHelper](class.compersisthelper.md)
-    
--   Завантажує об'єкт із потоку
-    
-
+---
+navigation:
+  - compersisthelper.loadfromfile.md: '« COMPersistHelper::LoadFromFile'
+  - compersisthelper.savetofile.md: 'COMPersistHelper::SaveToFile »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::LoadFromStream'
+---
 # COMPersistHelper::LoadFromStream
 
 (PHP 5, PHP 7, PHP 8)

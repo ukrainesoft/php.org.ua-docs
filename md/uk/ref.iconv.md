@@ -1,16 +1,11 @@
-Функції iconv
-
--   [« Обумовлені константи](iconv.constants.md)
-    
--   [iconvgetencoding »](function.iconv-get-encoding.html)
-    
--   [PHP Manual](index.md)
-    
--   [iconv](book.iconv.md)
-    
--   Функції iconv
-    
-
+---
+navigation:
+  - iconv.constants.md: « Обумовлені константи
+  - function.iconv-get-encoding.html: iconvgetencoding »
+  - index.md: PHP Manual
+  - book.iconv.md: iconv
+title: Функції iconv
+---
 # Функції iconv
 
 # Дивіться також

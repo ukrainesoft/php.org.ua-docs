@@ -1,16 +1,11 @@
-Розшифровує частину даних із зашифрованого потоку
-
--   [« sodiumcryptosecretstreamxchacha20poly1305keygen](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
-    
--   [sodiumcryptosecretstreamxchacha20poly1305push »](function.sodium-crypto-secretstream-xchacha20poly1305-push.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Розшифровує частину даних із зашифрованого потоку
-    
-
+---
+navigation:
+  - function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html: « sodiumcryptosecretstreamxchacha20poly1305keygen
+  - function.sodium-crypto-secretstream-xchacha20poly1305-push.html: sodiumcryptosecretstreamxchacha20poly1305push »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptosecretstreamxchacha20poly1305pull
+---
 # sodiumcryptosecretstreamxchacha20poly1305pull
 
 (PHP 7> = 7.2.0, PHP 8)

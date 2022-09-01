@@ -1,16 +1,11 @@
-Доповнює рядок іншим рядком до заданої довжини
-
--   [« strireplace](function.str-ireplace.html)
-    
--   [strrepeat »](function.str-repeat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Доповнює рядок іншим рядком до заданої довжини
-    
-
+---
+navigation:
+  - function.str-ireplace.html: « strireplace
+  - function.str-repeat.html: strrepeat »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strpad
+---
 # strpad
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

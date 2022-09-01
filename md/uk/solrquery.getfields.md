@@ -1,16 +1,11 @@
-Повертає список полів, які будуть повернені у відповіді
-
--   [« SolrQuery::getFacetSort](solrquery.getfacetsort.md)
-    
--   [SolrQuery::getFilterQueries »](solrquery.getfilterqueries.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає список полів, які будуть повернені у відповіді
-    
-
+---
+navigation:
+  - solrquery.getfacetsort.md: '« SolrQuery::getFacetSort'
+  - solrquery.getfilterqueries.md: 'SolrQuery::getFilterQueries »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFields'
+---
 # SolrQuery::getFields
 
 (PECL solr> = 0.9.2)

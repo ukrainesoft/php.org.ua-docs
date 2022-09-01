@@ -1,16 +1,11 @@
-Змінює групу, якій належить символічне посилання
-
--   [« iswriteable](function.is-writeable.html)
-    
--   [lchown »](function.lchown.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Змінює групу, якій належить символічне посилання
-    
-
+---
+navigation:
+  - function.is-writeable.html: « iswriteable
+  - function.lchown.md: lchown »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: lchgrp
+---
 # lchgrp
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

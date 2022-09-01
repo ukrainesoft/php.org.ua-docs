@@ -1,16 +1,11 @@
-Створює функцію динамічно, оцінюючи рядок коду
-
--   [« calluserfunc](function.call-user-func.html)
-    
--   [forwardstaticcallarray »](function.forward-static-call-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Створює функцію динамічно, оцінюючи рядок коду
-    
-
+---
+navigation:
+  - function.call-user-func.html: « calluserfunc
+  - function.forward-static-call-array.html: forwardstaticcallarray »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: createfunction
+---
 # createfunction
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7)

@@ -1,16 +1,11 @@
-Вмикає або вимикає автоматичну фіксацію змін бази даних
-
--   [« mysqli::$affectedrows](mysqli.affected-rows.html)
-    
--   [mysqli::begintransaction »](mysqli.begin-transaction.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Вмикає або вимикає автоматичну фіксацію змін бази даних
-    
-
+---
+navigation:
+  - mysqli.affected-rows.html: '« mysqli::$affectedrows'
+  - mysqli.begin-transaction.html: 'mysqli::begintransaction »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::autocommit'
+---
 # mysqli::autocommit
 
 # mysqliautocommit

@@ -1,16 +1,11 @@
-Повертає час останньої зміни індексного дескриптора файлу
-
--   [« SplFileInfo::getBasename](splfileinfo.getbasename.md)
-    
--   [SplFileInfo::getExtension »](splfileinfo.getextension.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Повертає час останньої зміни індексного дескриптора файлу
-    
-
+---
+navigation:
+  - splfileinfo.getbasename.md: '« SplFileInfo::getBasename'
+  - splfileinfo.getextension.md: 'SplFileInfo::getExtension »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getCTime'
+---
 # SplFileInfo::getCTime
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

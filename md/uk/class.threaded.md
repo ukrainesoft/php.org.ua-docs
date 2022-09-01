@@ -1,16 +1,11 @@
-Клас Threaded
-
--   [« Обумовлені константи](pthreads.constants.md)
-    
--   [Threaded::chunk »](threaded.chunk.md)
-    
--   [PHP Manual](index.md)
-    
--   [pthreads](book.pthreads.md)
-    
--   Клас Threaded
-    
-
+---
+navigation:
+  - pthreads.constants.md: « Обумовлені константи
+  - threaded.chunk.md: 'Threaded::chunk »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Threaded
+---
 # Клас Threaded
 
 (PECL pthreads >= 2.0.0)

@@ -1,16 +1,11 @@
-Створити новий словник, використовуючи тег
-
--   [« enchantbrokerlistdicts](function.enchant-broker-list-dicts.html)
-    
--   [enchantbrokerrequestpwldict »](function.enchant-broker-request-pwl-dict.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Створити новий словник, використовуючи тег
-    
-
+---
+navigation:
+  - function.enchant-broker-list-dicts.html: « enchantbrokerlistdicts
+  - function.enchant-broker-request-pwl-dict.html: enchantbrokerrequestpwldict »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokerrequestdict
+---
 # enchantbrokerrequestdict
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -41,10 +36,10 @@ enchant_broker_request_dict(EnchantBroker $broker, string $tag): EnchantDictiona
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)                                   |
-|        | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

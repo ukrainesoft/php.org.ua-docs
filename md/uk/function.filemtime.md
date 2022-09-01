@@ -1,16 +1,11 @@
-Повертає час останньої зміни файлу
-
--   [« fileinode](function.fileinode.md)
-    
--   [fileowner »](function.fileowner.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає час останньої зміни файлу
-    
-
+---
+navigation:
+  - function.fileinode.md: « fileinode
+  - function.fileowner.md: fileowner »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: filemtime
+---
 # filemtime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

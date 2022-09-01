@@ -1,16 +1,11 @@
-Арктангенс
-
--   [« atan2](function.atan2.md)
-    
--   [atanh »](function.atanh.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Арктангенс
-    
-
+---
+navigation:
+  - function.atan2.md: « atan2
+  - function.atanh.md: atanh »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: atan
+---
 # atan
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

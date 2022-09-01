@@ -1,16 +1,11 @@
-Дві ворони
-
--   [« tradercci](function.trader-cci.html)
-    
--   [tradercdl3blackcrows »](function.trader-cdl3blackcrows.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Дві ворони
-    
-
+---
+navigation:
+  - function.trader-cci.html: « tradercci
+  - function.trader-cdl3blackcrows.html: tradercdl3blackcrows »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdl2crows
+---
 # tradercdl2crows
 
 (PECL trader >= 0.2.0)

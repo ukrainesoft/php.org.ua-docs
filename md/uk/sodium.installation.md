@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](sodium.requirements.md)
-    
--   [Налаштування під час виконання »](sodium.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](sodium.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - sodium.requirements.md: « Вимоги
+  - sodium.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - sodium.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Починаючи з PHP 7.2.0, модуль включено до PHP. Для старіших версій PHP модуль доступний через PECL.

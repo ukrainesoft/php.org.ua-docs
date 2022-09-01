@@ -1,16 +1,11 @@
-Встановлює кольоровість зображення червоною основною точкою
-
--   [« Gmagick::setimageprofile](gmagick.setimageprofile.md)
-    
--   [Gmagick::setimagerenderingintent »](gmagick.setimagerenderingintent.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює кольоровість зображення червоною основною точкою
-    
-
+---
+navigation:
+  - gmagick.setimageprofile.md: '« Gmagick::setimageprofile'
+  - gmagick.setimagerenderingintent.md: 'Gmagick::setimagerenderingintent »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageredprimary'
+---
 # Gmagick::setimageredprimary
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Встановлює інформаційні поля документа
-
--   [«pssetborderstyle](function.ps-set-border-style.html)
-    
--   [псsetparameter »](function.ps-set-parameter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Встановлює інформаційні поля документа
-    
-
+---
+navigation:
+  - function.ps-set-border-style.html: «pssetborderstyle
+  - function.ps-set-parameter.html: псsetparameter »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псsetinfo
+---
 # псsetinfo
 
 (PECL ps >= 1.1.0)

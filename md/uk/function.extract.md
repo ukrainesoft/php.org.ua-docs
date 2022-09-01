@@ -1,16 +1,11 @@
-Імпортує змінні з масиву до поточної таблиці символів
-
--   [« end](function.end.md)
-    
--   [інarray »](function.in-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Імпортує змінні з масиву до поточної таблиці символів
-    
-
+---
+navigation:
+  - function.end.md: « end
+  - function.in-array.html: інarray »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: extract
+---
 # extract
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

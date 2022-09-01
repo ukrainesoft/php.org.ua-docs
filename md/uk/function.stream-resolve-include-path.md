@@ -1,16 +1,11 @@
-Перетворити повне ім'я файлу, використовуючи шляхи включення
-
--   [« streamregisterwrapper](function.stream-register-wrapper.html)
-    
--   [streamselect »](function.stream-select.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Перетворити повне ім'я файлу, використовуючи шляхи включення
-    
-
+---
+navigation:
+  - function.stream-register-wrapper.html: « streamregisterwrapper
+  - function.stream-select.html: streamselect »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamresolveincludepath
+---
 # streamresolveincludepath
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](sqlsrv.installation.html)
-    
--   [Типи ресурсів »](sqlsrv.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](sqlsrv.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - sqlsrv.installation.html: « Установка
+  - sqlsrv.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - sqlsrv.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
@@ -19,8 +14,8 @@
 
 **SQLSRV Опції налаштування**
 
-| Имя                           | По умолчанию | Место изменения | Изменения                    |
-|-------------------------------|--------------|-----------------|------------------------------|
-| sqlsrv.WarningsReturnAsErrors | **`true`**   | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
-| sqlsrv.LogSubsystems          |              | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
-| sqlsrv.LogSeverity            |              | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
+| Имя | По умолчанию | Место изменения | Изменения |
+| --- | --- | --- | --- |
+| sqlsrv.WarningsReturnAsErrors | **`true`** | PHPINIALL | Доступно з версії SQLSRV 1.0 |
+| sqlsrv.LogSubsystems |  | PHPINIALL | Доступно з версії SQLSRV 1.0 |
+| sqlsrv.LogSeverity |  | PHPINIALL | Доступно з версії SQLSRV 1.0 |

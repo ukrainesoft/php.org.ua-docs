@@ -1,16 +1,11 @@
-Створює ArrayIterator
-
--   [« ArrayIterator::asort](arrayiterator.asort.html)
-    
--   [ArrayIterator::count »](arrayiterator.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Створює ArrayIterator
-    
-
+---
+navigation:
+  - arrayiterator.asort.html: '« ArrayIterator::asort'
+  - arrayiterator.count.html: 'ArrayIterator::count »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::construct'
+---
 # ArrayIterator::construct
 
 (PHP 5, PHP 7, PHP 8)

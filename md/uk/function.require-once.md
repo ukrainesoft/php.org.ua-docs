@@ -1,16 +1,11 @@
-requireonce
-
--   [« include](function.include.md)
-    
--   [includeonce »](function.include-once.html)
-    
--   [PHP Manual](index.md)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   requireonce
-    
-
+---
+navigation:
+  - function.include.md: « include
+  - function.include-once.html: includeonce »
+  - index.md: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: requireonce
+---
 ## requireonce
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

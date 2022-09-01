@@ -1,16 +1,11 @@
-Стиснути всі файли у поточному tar/zip-архіві
-
--   [« PharData::compress](phardata.compress.md)
-    
--   [PharData::construct »](phardata.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Стиснути всі файли у поточному tar/zip-архіві
-    
-
+---
+navigation:
+  - phardata.compress.md: '« PharData::compress'
+  - phardata.construct.md: 'PharData::construct »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::compressFiles'
+---
 # PharData::compressFiles
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

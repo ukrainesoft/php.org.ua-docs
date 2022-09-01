@@ -1,16 +1,11 @@
-Отримує все тіло у вигляді рядка
-
--   [« YafResponseAbstract::setRedirect](yaf-response-abstract.setredirect.html)
-    
--   [YafRouteInterface »](class.yaf-route-interface.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Отримує все тіло у вигляді рядка
-    
-
+---
+navigation:
+  - yaf-response-abstract.setredirect.html: '« YafResponseAbstract::setRedirect'
+  - class.yaf-route-interface.html: YafRouteInterface »
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::function toString() { \[native code\] }'
+---
 # YafResponseAbstract::function toString() { \[native code\] }
 
 (Yaf >=1.0.0)

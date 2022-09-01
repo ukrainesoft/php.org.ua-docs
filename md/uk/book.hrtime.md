@@ -1,16 +1,11 @@
-Час високого дозволу
-
--   [« Інші](timezones.others.md)
-    
--   [Введение »](intro.hrtime.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з датою та часом](refs.calendar.md)
-    
--   Час високого дозволу
-    
-
+---
+navigation:
+  - timezones.others.md: « Інші
+  - intro.hrtime.md: Введение »
+  - index.md: PHP Manual
+  - refs.calendar.md: Модулі для роботи з датою та часом
+title: Час високого дозволу
+---
 # Час високого дозволу
 
 -   [Введение](intro.hrtime.md)

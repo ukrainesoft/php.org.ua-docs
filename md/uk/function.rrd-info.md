@@ -1,16 +1,11 @@
-Отримує інформацію про файл rrd
-
--   [« rrdgraph](function.rrd-graph.html)
-    
--   [rrdlast »](function.rrd-last.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції RRD](ref.rrd.html)
-    
--   Отримує інформацію про файл rrd
-    
-
+---
+navigation:
+  - function.rrd-graph.html: « rrdgraph
+  - function.rrd-last.html: rrdlast »
+  - index.html: PHP Manual
+  - ref.rrd.html: Функції RRD
+title: rrdinfo
+---
 # rrdinfo
 
 (PECL rrd >= 0.9.0)

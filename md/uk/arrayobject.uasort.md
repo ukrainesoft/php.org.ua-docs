@@ -1,16 +1,11 @@
-Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
-
--   [« ArrayObject::setIteratorClass](arrayobject.setiteratorclass.html)
-    
--   [ArrayObject::uksort »](arrayobject.uksort.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayObject](class.arrayobject.html)
-    
--   Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
-    
-
+---
+navigation:
+  - arrayobject.setiteratorclass.html: '« ArrayObject::setIteratorClass'
+  - arrayobject.uksort.html: 'ArrayObject::uksort »'
+  - index.html: PHP Manual
+  - class.arrayobject.html: ArrayObject
+title: 'ArrayObject::uasort'
+---
 # ArrayObject::uasort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

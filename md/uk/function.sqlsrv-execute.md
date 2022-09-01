@@ -1,16 +1,11 @@
-Виконує запит підготовлений за допомогою sqlsrvprepare
-
--   [« sqlsrverrors](function.sqlsrv-errors.html)
-    
--   [sqlsrvfetcharray »](function.sqlsrv-fetch-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Виконує запит підготовлений за допомогою sqlsrvprepare
-    
-
+---
+navigation:
+  - function.sqlsrv-errors.html: « sqlsrverrors
+  - function.sqlsrv-fetch-array.html: sqlsrvfetcharray »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvexecute
+---
 # sqlsrvexecute
 
 (No version information available, might only be in Git)

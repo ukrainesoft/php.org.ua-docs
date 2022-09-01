@@ -1,16 +1,11 @@
-Отримує всі ключі, що зберігаються на серверах
-
--   [« Memcached::get](memcached.get.html)
-    
--   [Memcached::getByKey »](memcached.getbykey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Отримує всі ключі, що зберігаються на серверах
-    
-
+---
+navigation:
+  - memcached.get.html: '« Memcached::get'
+  - memcached.getbykey.html: 'Memcached::getByKey »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::getAllKeys'
+---
 # Memcached::getAllKeys
 
 (PECL memcached >= 2.0.0)

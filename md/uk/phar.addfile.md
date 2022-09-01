@@ -1,16 +1,11 @@
-Додає в phar-архів файл із файлової системи
-
--   [« Phar::addEmptyDir](phar.addemptydir.html)
-    
--   [Phar::addFromString »](phar.addfromstring.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Додає в phar-архів файл із файлової системи
-    
-
+---
+navigation:
+  - phar.addemptydir.html: '« Phar::addEmptyDir'
+  - phar.addfromstring.html: 'Phar::addFromString »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::addFile'
+---
 # Phar::addFile
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -45,9 +40,9 @@ public Phar::addFile(string $filename, ?string $localName = null): void
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `localName` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `localName` тепер допускає значення null. |
 
 ### Приклади
 

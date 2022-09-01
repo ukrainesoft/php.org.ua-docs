@@ -1,16 +1,11 @@
-Клас DomainException
-
--   [« BadMethodCallException](class.badmethodcallexception.html)
-    
--   [InvalidArgumentException »](class.invalidargumentexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [Исключения](spl.exceptions.html)
-    
--   Клас DomainException
-    
-
+---
+navigation:
+  - class.badmethodcallexception.html: « BadMethodCallException
+  - class.invalidargumentexception.html: InvalidArgumentException »
+  - index.html: PHP Manual
+  - spl.exceptions.html: Исключения
+title: Клас DomainException
+---
 # Клас DomainException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

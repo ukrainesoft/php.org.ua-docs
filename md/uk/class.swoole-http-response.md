@@ -1,16 +1,11 @@
-Клас SwooleHttpResponse
-
--   [« SwooleHttpRequest::rawcontent](swoole-http-request.rawcontent.html)
-    
--   [SwooleHttpResponse::cookie »](swoole-http-response.cookie.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleHttpResponse
-    
-
+---
+navigation:
+  - swoole-http-request.rawcontent.html: '« SwooleHttpRequest::rawcontent'
+  - swoole-http-response.cookie.html: 'SwooleHttpResponse::cookie »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleHttpResponse
+---
 # Клас SwooleHttpResponse
 
 (PECL swoole >= 1.9.0)

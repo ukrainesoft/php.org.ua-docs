@@ -1,16 +1,11 @@
-Декодує рядок із модифікованого кодування UTF-7
-
--   [« imapunsubscribe](function.imap-unsubscribe.html)
-    
--   [imaputf7encode »](function.imap-utf7-encode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Декодує рядок із модифікованого кодування UTF-7
-    
-
+---
+navigation:
+  - function.imap-unsubscribe.html: « imapunsubscribe
+  - function.imap-utf7-encode.html: imaputf7encode »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaputf7decode
+---
 # imaputf7decode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Ініціалізувати звуковий рівень OpenAL
-
--   [« openaldeviceclose](function.openal-device-close.html)
-    
--   [openallistenerget »](function.openal-listener-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenAL](ref.openal.html)
-    
--   Ініціалізувати звуковий рівень OpenAL
-    
-
+---
+navigation:
+  - function.openal-device-close.html: « openaldeviceclose
+  - function.openal-listener-get.html: openallistenerget »
+  - index.html: PHP Manual
+  - ref.openal.html: Функции OpenAL
+title: openaldeviceopen
+---
 # openaldeviceopen
 
 (PECL openal >= 0.1.0)

@@ -1,16 +1,11 @@
-Повертає підвектор із заданого діапазону
-
--   [« DsVector::shift](ds-vector.shift.html)
-    
--   [ДсVector::sort »](ds-vector.sort.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає підвектор із заданого діапазону
-    
-
+---
+navigation:
+  - ds-vector.shift.html: '« DsVector::shift'
+  - ds-vector.sort.html: 'ДсVector::sort »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::slice'
+---
 # ДсVector::slice
 
 (PECL ds >= 1.0.0)

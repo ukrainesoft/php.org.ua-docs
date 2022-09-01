@@ -1,16 +1,11 @@
-Повертає екстремуми зображення
-
--   [« Imagick::getImageDistortion](imagick.getimagedistortion.html)
-    
--   [Imagick::getImageFilename »](imagick.getimagefilename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає екстремуми зображення
-    
-
+---
+navigation:
+  - imagick.getimagedistortion.html: '« Imagick::getImageDistortion'
+  - imagick.getimagefilename.html: 'Imagick::getImageFilename »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageExtrema'
+---
 # Imagick::getImageExtrema
 
 (PECL imagick 2, PECL imagick 3)

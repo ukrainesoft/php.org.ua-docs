@@ -1,14 +1,10 @@
-Appendices
-
--   [« Різні питання](faq.misc.md)
-    
--   [Історія PHP та суміжних проектів »](history.md)
-    
--   [PHP Manual](index.md)
-    
--   Appendices
-    
-
+---
+navigation:
+  - faq.misc.md: « Різні питання
+  - history.md: Історія PHP та суміжних проектів »
+  - index.md: PHP Manual
+title: Appendices
+---
 # Appendices
 
 -   [Історія PHP та суміжних проектів](history.md)

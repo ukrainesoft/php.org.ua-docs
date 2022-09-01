@@ -1,16 +1,11 @@
-Форматує число як грошову величину
-
--   [« metaphone](function.metaphone.md)
-    
--   [нлlanginfo »](function.nl-langinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Форматує число як грошову величину
-    
-
+---
+navigation:
+  - function.metaphone.md: « metaphone
+  - function.nl-langinfo.html: нлlanginfo »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: moneyformat
+---
 # moneyformat
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7)
@@ -118,9 +113,9 @@ money_format(string $format, float $number): string
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла. Замість неї використовуйте [NumberFormatter::formatCurrency()](numberformatter.formatcurrency.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла. Замість неї використовуйте [NumberFormatter::formatCurrency()](numberformatter.formatcurrency.md) |
 
 ### Приклади
 

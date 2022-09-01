@@ -1,16 +1,11 @@
-Отримання унікального ідентифікатора завдання (застарілий метод)
-
--   [« GearmanTask::unique](gearmantask.unique.md)
-    
--   [GearmanWorker »](class.gearmanworker.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Отримання унікального ідентифікатора завдання (застарілий метод)
-    
-
+---
+navigation:
+  - gearmantask.unique.md: '« GearmanTask::unique'
+  - class.gearmanworker.md: GearmanWorker »
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::uuid'
+---
 # GearmanTask::uuid
 
 (PECL gearman <= 0.5.0)

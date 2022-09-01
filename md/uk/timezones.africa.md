@@ -1,16 +1,11 @@
-Африка
-
--   [« Список підтримуваних часових поясів](timezones.md)
-    
--   [Америка »](timezones.america.md)
-    
--   [PHP Manual](index.md)
-    
--   [Список підтримуваних часових поясів](timezones.md)
-    
--   Африка
-    
-
+---
+navigation:
+  - timezones.md: « Список підтримуваних часових поясів
+  - timezones.america.md: Америка »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
+title: Африка
+---
 ## Африка
 
 < td>Africa/Brazzaville< /tr>< /tbody>

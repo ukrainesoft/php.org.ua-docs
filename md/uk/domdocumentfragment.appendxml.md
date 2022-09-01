@@ -1,16 +1,11 @@
-Додавання необроблених даних XML
-
--   [« DOMDocumentFragment](class.domdocumentfragment.html)
-    
--   [DOMDocumentFragment::construct »](domdocumentfragment.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocumentFragment](class.domdocumentfragment.html)
-    
--   Додавання необроблених даних XML
-    
-
+---
+navigation:
+  - class.domdocumentfragment.html: « DOMDocumentFragment
+  - domdocumentfragment.construct.html: 'DOMDocumentFragment::construct »'
+  - index.html: PHP Manual
+  - class.domdocumentfragment.html: DOMDocumentFragment
+title: 'DOMDocumentFragment::appendXML'
+---
 # DOMDocumentFragment::appendXML
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

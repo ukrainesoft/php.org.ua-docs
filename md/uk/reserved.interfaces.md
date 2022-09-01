@@ -1,16 +1,11 @@
-Вбудовані інтерфейси та класи
-
--   [« FiberError](class.fibererror.md)
-    
--   [Traversable »](class.traversable.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Вбудовані інтерфейси та класи
-    
-
+---
+navigation:
+  - class.fibererror.md: « FiberError
+  - class.traversable.md: Traversable »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Вбудовані інтерфейси та класи
+---
 # Вбудовані інтерфейси та класи
 
 ## Зміст

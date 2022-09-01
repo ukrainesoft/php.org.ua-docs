@@ -1,16 +1,11 @@
-Встановити кодування призначення
-
--   [« UConverter::reasonText](uconverter.reasontext.html)
-    
--   [UConverter::setSourceEncoding »](uconverter.setsourceencoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Встановити кодування призначення
-    
-
+---
+navigation:
+  - uconverter.reasontext.html: '« UConverter::reasonText'
+  - uconverter.setsourceencoding.html: 'UConverter::setSourceEncoding »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::setDestinationEncoding'
+---
 # UConverter::setDestinationEncoding
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

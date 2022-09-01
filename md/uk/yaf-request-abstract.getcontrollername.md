@@ -1,16 +1,11 @@
-Призначення getControllerName
-
--   [« YafRequestAbstract::getBaseUri](yaf-request-abstract.getbaseuri.html)
-    
--   [YafRequestAbstract::getEnv »](yaf-request-abstract.getenv.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Призначення getControllerName
-    
-
+---
+navigation:
+  - yaf-request-abstract.getbaseuri.html: '« YafRequestAbstract::getBaseUri'
+  - yaf-request-abstract.getenv.html: 'YafRequestAbstract::getEnv »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getControllerName'
+---
 # YafRequestAbstract::getControllerName
 
 (Yaf >=1.0.0)

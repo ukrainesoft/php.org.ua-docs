@@ -1,16 +1,11 @@
-FireEagle
-
--   [« Приклади](oauth.examples.md)
-    
--   [Функции OAuth »](ref.oauth.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](oauth.examples.md)
-    
--   FireEagle
-    
-
+---
+navigation:
+  - oauth.examples.md: « Приклади
+  - ref.oauth.md: Функции OAuth »
+  - index.md: PHP Manual
+  - oauth.examples.md: Приклади
+title: FireEagle
+---
 ## FireEagle
 
 ```php

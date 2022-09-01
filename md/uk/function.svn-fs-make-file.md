@@ -1,16 +1,11 @@
-Створює новий пустий файл
-
--   [« svnфсmakedir](function.svn-fs-make-dir.html)
-    
--   [svnфсnodecreatedrev »](function.svn-fs-node-created-rev.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Створює новий пустий файл
-    
-
+---
+navigation:
+  - function.svn-fs-make-dir.html: « svnфсmakedir
+  - function.svn-fs-node-created-rev.html: svnфсnodecreatedrev »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсmakefile
+---
 # svnфсmakefile
 
 (PECL svn >= 0.2.0)

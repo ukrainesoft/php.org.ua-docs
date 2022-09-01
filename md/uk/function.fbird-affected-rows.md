@@ -1,16 +1,11 @@
-Псевдонім ibaseaffectedrows
-
--   [« fbirdadduser](function.fbird-add-user.html)
-    
--   [fbirdbackup »](function.fbird-backup.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseaffectedrows
-    
-
+---
+navigation:
+  - function.fbird-add-user.html: « fbirdadduser
+  - function.fbird-backup.html: fbirdbackup »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdaffectedrows
+---
 # fbirdaffectedrows
 
 (PHP 5, PHP 7 < 7.4.0)

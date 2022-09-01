@@ -1,16 +1,11 @@
-Визначає, чи є поточний елемент DirectoryIterator директорією
-
--   [« DirectoryIterator::getType](directoryiterator.gettype.md)
-    
--   [DirectoryIterator::isDot »](directoryiterator.isdot.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Визначає, чи є поточний елемент DirectoryIterator директорією
-    
-
+---
+navigation:
+  - directoryiterator.gettype.md: '« DirectoryIterator::getType'
+  - directoryiterator.isdot.md: 'DirectoryIterator::isDot »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::isDir'
+---
 # DirectoryIterator::isDir
 
 (PHP 5, PHP 7, PHP 8)

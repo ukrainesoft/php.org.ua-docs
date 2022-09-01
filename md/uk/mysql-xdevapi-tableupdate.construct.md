@@ -1,16 +1,11 @@
-Конструктор класу TableUpdate
-
--   [« TableUpdate::bind](mysql-xdevapi-tableupdate.bind.html)
-    
--   [TableUpdate::execute »](mysql-xdevapi-tableupdate.execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   Конструктор класу TableUpdate
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.bind.html: '« TableUpdate::bind'
+  - mysql-xdevapi-tableupdate.execute.html: 'TableUpdate::execute »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+title: 'TableUpdate::construct'
+---
 # TableUpdate::construct
 
 (No version information available, might only be in Git)

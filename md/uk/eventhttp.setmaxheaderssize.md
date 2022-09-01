@@ -1,16 +1,11 @@
-Встановлює максимальний розмір заголовка HTTP
-
--   [« EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.md)
-    
--   [EventHttp::setTimeout »](eventhttp.settimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Встановлює максимальний розмір заголовка HTTP
-    
-
+---
+navigation:
+  - eventhttp.setmaxbodysize.md: '« EventHttp::setMaxBodySize'
+  - eventhttp.settimeout.md: 'EventHttp::setTimeout »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::setMaxHeadersSize'
+---
 # EventHttp::setMaxHeadersSize
 
 (PECL event >= 1.4.0-beta)

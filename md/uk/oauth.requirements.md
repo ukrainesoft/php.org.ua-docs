@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](oauth.setup.html)
-    
--   [Установка »](oauth.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](oauth.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - oauth.setup.html: « Встановлення та налаштування
+  - oauth.installation.html: Установка »
+  - index.html: PHP Manual
+  - oauth.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 PECL/oauth вимагає PHP 5.1 або новіше, модуль hash та модуль pcre.

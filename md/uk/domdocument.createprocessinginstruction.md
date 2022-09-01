@@ -1,16 +1,11 @@
-Створити новий PI-вузол
-
--   [« DOMDocument::createEntityReference](domdocument.createentityreference.md)
-    
--   [DOMDocument::createTextNode »](domdocument.createtextnode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий PI-вузол
-    
-
+---
+navigation:
+  - domdocument.createentityreference.md: '« DOMDocument::createEntityReference'
+  - domdocument.createtextnode.md: 'DOMDocument::createTextNode »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createProcessingInstruction'
+---
 # DOMDocument::createProcessingInstruction
 
 (PHP 5, PHP 7, PHP 8)

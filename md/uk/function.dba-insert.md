@@ -1,16 +1,11 @@
-Вставляє запис
-
--   [« dbahandlers](function.dba-handlers.html)
-    
--   [dbakeysplit »](function.dba-key-split.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Вставляє запис
-    
-
+---
+navigation:
+  - function.dba-handlers.html: « dbahandlers
+  - function.dba-key-split.html: dbakeysplit »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbainsert
+---
 # dbainsert
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

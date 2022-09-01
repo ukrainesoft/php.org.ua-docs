@@ -1,16 +1,11 @@
-Вимкнути сокет
-
--   [« ZMQSocket::construct](zmqsocket.construct.md)
-    
--   [ZMQSocket::getEndpoints »](zmqsocket.getendpoints.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQSocket](class.zmqsocket.md)
-    
--   Вимкнути сокет
-    
-
+---
+navigation:
+  - zmqsocket.construct.md: '« ZMQSocket::construct'
+  - zmqsocket.getendpoints.md: 'ZMQSocket::getEndpoints »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::disconnect'
+---
 # ZMQSocket::disconnect
 
 (PECL zmq >= 1.0.4)

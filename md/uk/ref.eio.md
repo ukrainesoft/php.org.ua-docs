@@ -1,16 +1,11 @@
-Eio Функції
-
--   [« Приклади](eio.examples.html)
-    
--   [eiobusy »](function.eio-busy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio](book.eio.html)
-    
--   Eio Функції
-    
-
+---
+navigation:
+  - eio.examples.html: « Приклади
+  - function.eio-busy.html: eiobusy »
+  - index.html: PHP Manual
+  - book.eio.html: Eio
+title: Eio Функції
+---
 # Eio Функції
 
 ## Зміст

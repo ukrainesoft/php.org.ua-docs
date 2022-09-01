@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](readline.setup.html)
-    
--   [Установка »](readline.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](readline.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - readline.setup.html: « Встановлення та налаштування
+  - readline.installation.html: Установка »
+  - index.html: PHP Manual
+  - readline.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для використання цих функцій необхідно встановити пакет libreadline. Знайти його можна на домашній сторінці проекту [» http://cnswww.cns.cwru.edu/~chet/readline/rltop.html](http://cnswww.cns.cwru.edu/~chet/readline/rltop.html). Він підтримується автором Bash Четом Ремі (Chet Ramey).

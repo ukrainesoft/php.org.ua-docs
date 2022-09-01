@@ -1,16 +1,11 @@
-Встановлює максимальну кількість запитів, що обробляються.
-
--   [« eiosetmaxparallel](function.eio-set-max-parallel.html)
-    
--   [eiosetmaxpolltime »](function.eio-set-max-poll-time.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Встановлює максимальну кількість запитів, що обробляються.
-    
-
+---
+navigation:
+  - function.eio-set-max-parallel.html: « eiosetmaxparallel
+  - function.eio-set-max-poll-time.html: eiosetmaxpolltime »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosetmaxpollreqs
+---
 # eiosetmaxpollreqs
 
 (PECL eio >= 0.0.1dev)

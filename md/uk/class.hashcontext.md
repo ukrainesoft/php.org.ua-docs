@@ -1,16 +1,11 @@
-Клас HashContext
-
--   [« Обумовлені константи](hash.constants.md)
-    
--   [HashContext::construct »](hashcontext.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Hash](book.hash.md)
-    
--   Клас HashContext
-    
-
+---
+navigation:
+  - hash.constants.md: « Обумовлені константи
+  - hashcontext.construct.md: 'HashContext::construct »'
+  - index.md: PHP Manual
+  - book.hash.md: Hash
+title: Клас HashContext
+---
 # Клас HashContext
 
 (PHP 7> = 7.2.0, PHP 8)

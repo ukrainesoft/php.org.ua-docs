@@ -1,16 +1,11 @@
-З'єднання з базою даних MySQL
-
--   [« MySQL (PDO)](ref.pdo-mysql.html)
-    
--   [MS SQL Server (PDO) »](ref.pdo-sqlsrv.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL (PDO)](ref.pdo-mysql.html)
-    
--   З'єднання з базою даних MySQL
-    
-
+---
+navigation:
+  - ref.pdo-mysql.html: « MySQL (PDO)
+  - ref.pdo-sqlsrv.html: MS SQL Server (PDO) »
+  - index.html: PHP Manual
+  - ref.pdo-mysql.html: MySQL (PDO)
+title: PDOMYSQL DSN
+---
 # PDOMYSQL DSN
 
 (PECL PDOMYSQL >= 0.1.0)

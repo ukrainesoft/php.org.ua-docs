@@ -1,16 +1,11 @@
-Повертає запис
-
--   [« yazrange](function.yaz-range.html)
-    
--   [yazscanresult »](function.yaz-scan-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Повертає запис
-    
-
+---
+navigation:
+  - function.yaz-range.html: « yazrange
+  - function.yaz-scan-result.html: yazscanresult »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazrecord
+---
 # yazrecord
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

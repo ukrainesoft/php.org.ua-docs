@@ -1,16 +1,11 @@
-Встановлює користувальницький механізм відображення
-
--   [« YafDispatcher::setRequest](yaf-dispatcher.setrequest.html)
-    
--   [YafDispatcher::throwException »](yaf-dispatcher.throwexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Встановлює користувальницький механізм відображення
-    
-
+---
+navigation:
+  - yaf-dispatcher.setrequest.html: '« YafDispatcher::setRequest'
+  - yaf-dispatcher.throwexception.html: 'YafDispatcher::throwException »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::setView'
+---
 # YafDispatcher::setView
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Імітує розмиття у русі
-
--   [« Imagick::mosaicImages](imagick.mosaicimages.md)
-    
--   [Imagick::negateImage »](imagick.negateimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Імітує розмиття у русі
-    
-
+---
+navigation:
+  - imagick.mosaicimages.md: '« Imagick::mosaicImages'
+  - imagick.negateimage.md: 'Imagick::negateImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::motionBlurImage'
+---
 # Imagick::motionBlurImage
 
 (PECL imagick 2, PECL imagick 3)

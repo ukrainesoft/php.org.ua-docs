@@ -1,16 +1,11 @@
-Множинні запити
-
--   [« Збережені процедури](mysqli.quickstart.stored-procedures.html)
-    
--   [API поддержка транзакций »](mysqli.quickstart.transactions.md)
-    
--   [PHP Manual](index.md)
-    
--   [Краткое руководство](mysqli.quickstart.md)
-    
--   Множинні запити
-    
-
+---
+navigation:
+  - mysqli.quickstart.stored-procedures.html: « Збережені процедури
+  - mysqli.quickstart.transactions.md: API поддержка транзакций »
+  - index.md: PHP Manual
+  - mysqli.quickstart.md: Краткое руководство
+title: Множинні запити
+---
 ## Множинні запити
 
 MySQL підтримує наявність кількох SQL-запитів у тексті одного запиту, але потребує особливого звернення. Пересилання на сервер декількох виразів в одному запиті зменшує кількість клієнт-серверних взаємодій, але потребує спеціальної обробки.

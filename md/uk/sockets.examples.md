@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](sockets.constants.html)
-    
--   [Ошибки сокетів »](sockets.errors.html)
-    
--   [PHP Manual](index.html)
-    
--   [Сокети](book.sockets.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - sockets.constants.html: « Обумовлені константи
+  - sockets.errors.html: Ошибки сокетів »
+  - index.html: PHP Manual
+  - book.sockets.html: Сокети
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Приклад використання сокетів: Простий сервер TCP/IP**

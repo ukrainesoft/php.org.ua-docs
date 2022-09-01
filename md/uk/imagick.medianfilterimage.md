@@ -1,16 +1,11 @@
-Застосовує цифровий фільтр
-
--   [« Imagick::matteFloodfillImage](imagick.mattefloodfillimage.html)
-    
--   [Imagick::mergeImageLayers »](imagick.mergeimagelayers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Застосовує цифровий фільтр
-    
-
+---
+navigation:
+  - imagick.mattefloodfillimage.html: '« Imagick::matteFloodfillImage'
+  - imagick.mergeimagelayers.html: 'Imagick::mergeImageLayers »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::medianFilterImage'
+---
 # Imagick::medianFilterImage
 
 (PECL imagick 2, PECL imagick 3)

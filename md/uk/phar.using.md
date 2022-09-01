@@ -1,16 +1,11 @@
-Використання Phar-архівів
-
--   [« Обумовлені константи](phar.constants.html)
-    
--   [Использование Phar-архивов: Введение »](phar.using.intro.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](book.phar.html)
-    
--   Використання Phar-архівів
-    
-
+---
+navigation:
+  - phar.constants.html: « Обумовлені константи
+  - phar.using.intro.html: 'Использование Phar-архивов: Введение »'
+  - index.html: PHP Manual
+  - book.phar.html: Phar
+title: Використання Phar-архівів
+---
 # Використання Phar-архівів
 
 ## Зміст

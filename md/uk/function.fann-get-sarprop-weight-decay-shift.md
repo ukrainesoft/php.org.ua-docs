@@ -1,16 +1,11 @@
-Повертає зсув зменшення ваги sarprop
-
--   [« fanngetsarproptemperature](function.fann-get-sarprop-temperature.html)
-    
--   [fanngettotalconnections »](function.fann-get-total-connections.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає зсув зменшення ваги sarprop
-    
-
+---
+navigation:
+  - function.fann-get-sarprop-temperature.html: « fanngetsarproptemperature
+  - function.fann-get-total-connections.html: fanngettotalconnections »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetsarpropweightdecayshift
+---
 # fanngetsarpropweightdecayshift
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Генерує два початкові числа для генератора випадкових чисел RGN
-
--   [« statsrandgetseeds](function.stats-rand-get-seeds.html)
-    
--   [statsrandranf »](function.stats-rand-ranf.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Генерує два початкові числа для генератора випадкових чисел RGN
-    
-
+---
+navigation:
+  - function.stats-rand-get-seeds.html: « statsrandgetseeds
+  - function.stats-rand-ranf.html: statsrandranf »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandphraseтоseeds
+---
 # statsrandphraseтоseeds
 
 (PECL stats >= 1.0.0)

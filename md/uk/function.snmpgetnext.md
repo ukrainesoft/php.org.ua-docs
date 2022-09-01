@@ -1,16 +1,11 @@
-Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
-
--   [« snmpget](function.snmpget.html)
-    
--   [snmprealwalk »](function.snmprealwalk.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
-    
-
+---
+navigation:
+  - function.snmpget.html: « snmpget
+  - function.snmprealwalk.html: snmprealwalk »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmpgetnext
+---
 # snmpgetnext
 
 (PHP 5, PHP 7, PHP 8)

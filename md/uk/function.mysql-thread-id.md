@@ -1,16 +1,11 @@
-Повертає ідентифікатор потоку
-
--   [« mysqltablename](function.mysql-tablename.html)
-    
--   [mysqlunbufferedquery »](function.mysql-unbuffered-query.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає ідентифікатор потоку
-    
-
+---
+navigation:
+  - function.mysql-tablename.html: « mysqltablename
+  - function.mysql-unbuffered-query.html: mysqlunbufferedquery »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlthreadід
+---
 # mysqlthreadід
 
 (PHP 4> = 4.3.0, PHP 5)

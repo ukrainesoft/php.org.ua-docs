@@ -1,16 +1,11 @@
-Дожі-зірка
-
--   [« tradercdldoji](function.trader-cdldoji.html)
-    
--   [tradercdldragonflydoji »](function.trader-cdldragonflydoji.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Дожі-зірка
-    
-
+---
+navigation:
+  - function.trader-cdldoji.html: « tradercdldoji
+  - function.trader-cdldragonflydoji.html: tradercdldragonflydoji »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdldojistar
+---
 # tradercdldojistar
 
 (PECL trader >= 0.2.0)

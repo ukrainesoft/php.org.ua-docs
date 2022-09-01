@@ -1,16 +1,11 @@
-Отримує поле на ім'я
-
--   [« SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.html)
-    
--   [SolrDocument::getFieldCount »](solrdocument.getfieldcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Отримує поле на ім'я
-    
-
+---
+navigation:
+  - solrdocument.getchilddocumentscount.html: '« SolrDocument::getChildDocumentsCount'
+  - solrdocument.getfieldcount.html: 'SolrDocument::getFieldCount »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::getField'
+---
 # SolrDocument::getField
 
 (PECL solr> = 0.9.2)

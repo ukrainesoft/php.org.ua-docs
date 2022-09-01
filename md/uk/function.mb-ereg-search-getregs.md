@@ -1,16 +1,11 @@
-Виводить результат останнього порівняння з регулярним виразом
-
--   [« mberegsearchgetpos](function.mb-ereg-search-getpos.html)
-    
--   [мбeregsearchinit »](function.mb-ereg-search-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Виводить результат останнього порівняння з регулярним виразом
-    
-
+---
+navigation:
+  - function.mb-ereg-search-getpos.html: « mberegsearchgetpos
+  - function.mb-ereg-search-init.html: мбeregsearchinit »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбeregsearchgetregs
+---
 # мбeregsearchgetregs
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

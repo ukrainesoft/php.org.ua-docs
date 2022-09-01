@@ -1,16 +1,11 @@
-Клас parallelEvents
-
--   [« parallelChannel::close](parallel-channel.close.html)
-    
--   [parallelEvents::setBlocking »](parallel-events.setblocking.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallel](book.parallel.md)
-    
--   Клас parallelEvents
-    
-
+---
+navigation:
+  - parallel-channel.close.html: '« parallelChannel::close'
+  - parallel-events.setblocking.html: 'parallelEvents::setBlocking »'
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Клас parallelEvents
+---
 # Клас parallelEvents
 
 ## Цикл подій

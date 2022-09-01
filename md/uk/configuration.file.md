@@ -1,16 +1,11 @@
-Файл конфігурації
-
--   [« Конфігурація часу виконання](configuration.html)
-    
--   [Файли .user.ini »](configuration.file.per-user.html)
-    
--   [PHP Manual](index.html)
-    
--   [Конфігурація часу виконання](configuration.html)
-    
--   Файл конфігурації
-    
-
+---
+navigation:
+  - configuration.html: « Конфігурація часу виконання
+  - configuration.file.per-user.html: Файли .user.ini »
+  - index.html: PHP Manual
+  - configuration.html: Конфігурація часу виконання
+title: Файл конфігурації
+---
 ## Файл конфігурації
 
 Файл конфігурації (php.ini) зчитується під час запуску PHP. Для версій серверних модулів PHP це відбувається лише один раз під час запуску веб-сервера. Для CGI та CLI версій це відбувається під час кожного виклику.

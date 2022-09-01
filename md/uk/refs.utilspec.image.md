@@ -1,16 +1,11 @@
-Обробка та генерація зображень
-
--   [« recode](function.recode.html)
-    
--   [Exif »](book.exif.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Обробка та генерація зображень
-    
-
+---
+navigation:
+  - function.recode.html: « recode
+  - book.exif.html: Exif »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Обробка та генерація зображень
+---
 # Обробка та генерація зображень
 
 -   [Exif](book.exif.html) — Змінювана інформація про зображення

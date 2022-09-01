@@ -1,16 +1,11 @@
-Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
-
--   [« current](function.current.html)
-    
--   [end »](function.end.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
-    
-
+---
+navigation:
+  - function.current.html: « current
+  - function.end.html: end »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: each
+---
 # each
 
 (PHP 4, PHP 5, PHP 7)

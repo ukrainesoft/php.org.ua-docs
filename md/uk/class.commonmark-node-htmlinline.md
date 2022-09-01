@@ -1,16 +1,11 @@
-HTMLInline успадковує CommonMarkNode
-
--   [« CommonMarkNodeHTMLBlock](class.commonmark-node-htmlblock.html)
-    
--   [CommonMarkNodeImage »](class.commonmark-node-image.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   HTMLInline успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-htmlblock.html: « CommonMarkNodeHTMLBlock
+  - class.commonmark-node-image.html: CommonMarkNodeImage »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: HTMLInline успадковує CommonMarkNode
+---
 # HTMLInline успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

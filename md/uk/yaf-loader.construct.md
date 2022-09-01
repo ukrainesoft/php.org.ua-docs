@@ -1,16 +1,11 @@
-Призначення construct
-
--   [« YafLoader::clearLocalNamespace](yaf-loader.clearlocalnamespace.html)
-    
--   [YafLoader::getInstance »](yaf-loader.getinstance.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Призначення construct
-    
-
+---
+navigation:
+  - yaf-loader.clearlocalnamespace.html: '« YafLoader::clearLocalNamespace'
+  - yaf-loader.getinstance.html: 'YafLoader::getInstance »'
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::construct'
+---
 # YafLoader::construct
 
 (Yaf >=1.0.0)

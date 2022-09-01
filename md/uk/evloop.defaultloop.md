@@ -1,16 +1,11 @@
-Повертає або створює цикл стандартних подій
-
--   [« EvLoop::construct](evloop.construct.md)
-    
--   [EvLoop::embed »](evloop.embed.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Повертає або створює цикл стандартних подій
-    
-
+---
+navigation:
+  - evloop.construct.md: '« EvLoop::construct'
+  - evloop.embed.md: 'EvLoop::embed »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::defaultLoop'
+---
 # EvLoop::defaultLoop
 
 (PECL ev >= 0.2.0)

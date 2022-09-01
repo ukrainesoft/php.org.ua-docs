@@ -1,16 +1,11 @@
-Обчислює загальний секретний ключ значення видаленого відкритого ключа DH і локального ключа DH
-
--   [« openssldecrypt](function.openssl-decrypt.html)
-    
--   [openssldigest »](function.openssl-digest.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Обчислює загальний секретний ключ значення видаленого відкритого ключа DH і локального ключа DH
-    
-
+---
+navigation:
+  - function.openssl-decrypt.html: « openssldecrypt
+  - function.openssl-digest.html: openssldigest »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslдхcomputekey
+---
 # opensslдхcomputekey
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ openssl_dh_compute_key(string $public_key, OpenSSLAsymmetricKey $private_key): s
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

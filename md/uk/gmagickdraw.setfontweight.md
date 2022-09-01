@@ -1,16 +1,11 @@
-Встановлює товщину шрифту
-
--   [« GmagickDraw::setfontstyle](gmagickdraw.setfontstyle.md)
-    
--   [GmagickDraw::setstrokecolor »](gmagickdraw.setstrokecolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Встановлює товщину шрифту
-    
-
+---
+navigation:
+  - gmagickdraw.setfontstyle.md: '« GmagickDraw::setfontstyle'
+  - gmagickdraw.setstrokecolor.md: 'GmagickDraw::setstrokecolor »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::setfontweight'
+---
 # GmagickDraw::setfontweight
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Отримати масив підтримуваних алгоритмів підпису архіву
-
--   [« Phar::getSupportedCompression](phar.getsupportedcompression.html)
-    
--   [Phar::getVersion »](phar.getversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Отримати масив підтримуваних алгоритмів підпису архіву
-    
-
+---
+navigation:
+  - phar.getsupportedcompression.html: '« Phar::getSupportedCompression'
+  - phar.getversion.html: 'Phar::getVersion »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getSupportedSignatures'
+---
 # Phar::getSupportedSignatures
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.1.0)

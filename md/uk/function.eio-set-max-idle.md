@@ -1,16 +1,11 @@
-Встановлює максимальну кількість очікуваних потоків
-
--   [« eiosendfile](function.eio-sendfile.html)
-    
--   [eiosetmaxparallel »](function.eio-set-max-parallel.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Встановлює максимальну кількість очікуваних потоків
-    
-
+---
+navigation:
+  - function.eio-sendfile.html: « eiosendfile
+  - function.eio-set-max-parallel.html: eiosetmaxparallel »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosetmaxidle
+---
 # eiosetmaxidle
 
 (PECL eio >= 0.0.1dev)

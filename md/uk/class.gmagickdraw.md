@@ -1,16 +1,11 @@
-Клас GmagickDraw
-
--   [« Gmagick::writeimage](gmagick.writeimage.md)
-    
--   [GmagickDraw::annotate »](gmagickdraw.annotate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](book.gmagick.md)
-    
--   Клас GmagickDraw
-    
-
+---
+navigation:
+  - gmagick.writeimage.md: '« Gmagick::writeimage'
+  - gmagickdraw.annotate.md: 'GmagickDraw::annotate »'
+  - index.md: PHP Manual
+  - book.gmagick.md: Gmagick
+title: Клас GmagickDraw
+---
 # Клас GmagickDraw
 
 (PECL gmagick >= Unknown)

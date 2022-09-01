@@ -1,16 +1,11 @@
-Встановити обробник "зайнято" на з'єднання
-
--   [« SQLite3::backup](sqlite3.backup.md)
-    
--   [SQLite3::changes »](sqlite3.changes.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Встановити обробник "зайнято" на з'єднання
-    
-
+---
+navigation:
+  - sqlite3.backup.md: '« SQLite3::backup'
+  - sqlite3.changes.md: 'SQLite3::changes »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::busyTimeout'
+---
 # SQLite3::busyTimeout
 
 (PHP 5> = 5.3.3, PHP 7, PHP 8)

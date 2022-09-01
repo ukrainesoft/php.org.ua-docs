@@ -1,16 +1,11 @@
-Повертає почергово із заданого діапазону
-
--   [« DsDeque::shift](ds-deque.shift.html)
-    
--   [ДсDeque::sort »](ds-deque.sort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає почергово із заданого діапазону
-    
-
+---
+navigation:
+  - ds-deque.shift.html: '« DsDeque::shift'
+  - ds-deque.sort.html: 'ДсDeque::sort »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::slice'
+---
 # ДсDeque::slice
 
 (PECL ds >= 1.0.0)

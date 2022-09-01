@@ -1,16 +1,11 @@
-Виконує SQL-запит безпосередньо
-
--   [« db2escapestring](function.db2-escape-string.html)
-    
--   [db2execute »](function.db2-execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Виконує SQL-запит безпосередньо
-    
-
+---
+navigation:
+  - function.db2-escape-string.html: « db2escapestring
+  - function.db2-execute.html: db2execute »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2exec
+---
 # db2exec
 
 (PECL ibmdb2> = 1.0.0)

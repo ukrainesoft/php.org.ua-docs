@@ -1,16 +1,11 @@
-Встановлює з'єднання з FTP-сервером через SSL
-
--   [« ftpsize](function.ftp-size.html)
-    
--   [ftpsystype »](function.ftp-systype.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Встановлює з'єднання з FTP-сервером через SSL
-    
-
+---
+navigation:
+  - function.ftp-size.html: « ftpsize
+  - function.ftp-systype.html: ftpsystype »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpsslconnect
+---
 # ftpsslconnect
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

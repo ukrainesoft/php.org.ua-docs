@@ -1,16 +1,11 @@
-Аутентифікація з відкритим ключем
-
--   [« ssh2authpassword](function.ssh2-auth-password.html)
-    
--   [ssh2connect »](function.ssh2-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Аутентифікація з відкритим ключем
-    
-
+---
+navigation:
+  - function.ssh2-auth-password.html: « ssh2authpassword
+  - function.ssh2-connect.html: ssh2connect »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2authpubkeyfile
+---
 # ssh2authpubkeyfile
 
 (PECL ssh2> = 0.9.0)

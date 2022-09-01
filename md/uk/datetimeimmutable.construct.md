@@ -1,16 +1,11 @@
-Повертає новий об'єкт DateTimeImmutable
-
--   [« DateTimeImmutable::add](datetimeimmutable.add.html)
-    
--   [DateTimeImmutable::createFromFormat »](datetimeimmutable.createfromformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeImmutable](class.datetimeimmutable.html)
-    
--   Повертає новий об'єкт DateTimeImmutable
-    
-
+---
+navigation:
+  - datetimeimmutable.add.html: '« DateTimeImmutable::add'
+  - datetimeimmutable.createfromformat.html: 'DateTimeImmutable::createFromFormat »'
+  - index.html: PHP Manual
+  - class.datetimeimmutable.html: DateTimeImmutable
+title: 'DateTimeImmutable::construct'
+---
 # DateTimeImmutable::construct
 
 # datecreateimmutable
@@ -61,9 +56,9 @@ date_create_immutable(string $datetime = "now", ?DateTimeZone $timezone = null):
 
 ### список змін
 
-| Версия | Описание                                                               |
-|--------|------------------------------------------------------------------------|
-|        | Відтепер мікросекунди заповнюються фактичним значенням. Чи не '00000'. |
+| Версия | Описание |
+| --- | --- |
+|  | Відтепер мікросекунди заповнюються фактичним значенням. Чи не '00000'. |
 
 ### Приклади
 

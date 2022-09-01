@@ -1,16 +1,11 @@
-Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
-
--   [« jsonencode](function.json-encode.html)
-    
--   [jsonlasterror »](function.json-last-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции JSON](ref.json.md)
-    
--   Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
-    
-
+---
+navigation:
+  - function.json-encode.html: « jsonencode
+  - function.json-last-error.html: jsonlasterror »
+  - index.md: PHP Manual
+  - ref.json.md: Функции JSON
+title: jsonlasterrormsg
+---
 # jsonlasterrormsg
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

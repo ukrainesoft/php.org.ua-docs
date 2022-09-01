@@ -1,16 +1,11 @@
-Вступ
-
--   [« Mhash](book.mhash.html)
-    
--   [Встановлення та налаштування »](mhash.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mhash](book.mhash.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.mhash.html: « Mhash
+  - mhash.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.mhash.html: Mhash
+title: Вступ
+---
 # Вступ
 
 Ці функції призначені для роботи з [» mhash](http://mhash.sourceforge.net/). Mhash може використовуватися для підрахунку контрольних сум, хеш-сум, кодів ідентифікації повідомлень тощо.

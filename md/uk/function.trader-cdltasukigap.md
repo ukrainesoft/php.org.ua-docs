@@ -1,16 +1,11 @@
-Розрив Тасукі
-
--   [« tradercdltakuri](function.trader-cdltakuri.html)
-    
--   [tradercdlthrusting »](function.trader-cdlthrusting.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Розрив Тасукі
-    
-
+---
+navigation:
+  - function.trader-cdltakuri.html: « tradercdltakuri
+  - function.trader-cdlthrusting.html: tradercdlthrusting »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdltasukigap
+---
 # tradercdltasukigap
 
 (PECL trader >= 0.2.0)

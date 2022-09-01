@@ -1,16 +1,11 @@
-Отримує зовнішній ітератор
-
--   [« IteratorAggregate](class.iteratoraggregate.md)
-    
--   [Throwable »](class.throwable.md)
-    
--   [PHP Manual](index.md)
-    
--   [IteratorAggregate](class.iteratoraggregate.md)
-    
--   Отримує зовнішній ітератор
-    
-
+---
+navigation:
+  - class.iteratoraggregate.md: « IteratorAggregate
+  - class.throwable.md: Throwable »
+  - index.md: PHP Manual
+  - class.iteratoraggregate.md: IteratorAggregate
+title: 'IteratorAggregate::getIterator'
+---
 # IteratorAggregate::getIterator
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює неблокуючий режим файлового дескриптора fd
-
--   [« socketsetblock](function.socket-set-block.html)
-    
--   [socketsetoption »](function.socket-set-option.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Встановлює неблокуючий режим файлового дескриптора fd
-    
-
+---
+navigation:
+  - function.socket-set-block.html: « socketsetblock
+  - function.socket-set-option.html: socketsetoption »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketsetnonblock
+---
 # socketsetnonblock
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ socket_set_nonblock(Socket $socket): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Приклади
 

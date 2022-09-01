@@ -1,16 +1,11 @@
-Створює нову транзакцію
-
--   [« svnфсapplytext](function.svn-fs-apply-text.html)
-    
--   [svnфсchangenodeprop »](function.svn-fs-change-node-prop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Створює нову транзакцію
-    
-
+---
+navigation:
+  - function.svn-fs-apply-text.html: « svnфсapplytext
+  - function.svn-fs-change-node-prop.html: svnфсchangenodeprop »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсbegintxn2
+---
 # svnфсbegintxn2
 
 (PECL svn >= 0.2.0)

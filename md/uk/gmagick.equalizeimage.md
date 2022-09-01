@@ -1,16 +1,11 @@
-Вирівнює гістограму зображення
-
--   [« Gmagick::enhanceimage](gmagick.enhanceimage.md)
-    
--   [Gmagick::flipimage »](gmagick.flipimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Вирівнює гістограму зображення
-    
-
+---
+navigation:
+  - gmagick.enhanceimage.md: '« Gmagick::enhanceimage'
+  - gmagick.flipimage.md: 'Gmagick::flipimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::equalizeimage'
+---
 # Gmagick::equalizeimage
 
 (PECL gmagick >= Unknown)

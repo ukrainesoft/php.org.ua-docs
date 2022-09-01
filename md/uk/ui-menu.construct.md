@@ -1,16 +1,11 @@
-Створити новий об'єкт Menu
-
--   [« UIMenu::appendSeparator](ui-menu.appendseparator.html)
-    
--   [ОЙMenuItem »](class.ui-menuitem.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenu](class.ui-menu.html)
-    
--   Створити новий об'єкт Menu
-    
-
+---
+navigation:
+  - ui-menu.appendseparator.html: '« UIMenu::appendSeparator'
+  - class.ui-menuitem.html: ОЙMenuItem »
+  - index.md: PHP Manual
+  - class.ui-menu.html: ОЙMenu
+title: 'ОЙMenu::construct'
+---
 # ОЙMenu::construct
 
 (UI 0.9.9)

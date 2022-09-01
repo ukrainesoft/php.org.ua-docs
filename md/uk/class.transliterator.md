@@ -1,16 +1,11 @@
-Клас Transliterator
-
--   [« Spoofchecker::setChecks](spoofchecker.setchecks.md)
-    
--   [Transliterator::construct »](transliterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас Transliterator
-    
-
+---
+navigation:
+  - spoofchecker.setchecks.md: '« Spoofchecker::setChecks'
+  - transliterator.construct.md: 'Transliterator::construct »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас Transliterator
+---
 # Клас Transliterator
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)

@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](openal.setup.html)
-    
--   [Установка »](openal.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](openal.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - openal.setup.html: « Встановлення та налаштування
+  - openal.installation.html: Установка »
+  - index.html: PHP Manual
+  - openal.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

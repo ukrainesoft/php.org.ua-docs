@@ -1,16 +1,11 @@
-Повертає точність зазначеного стовпця у наборі результатів
-
--   [« db2fieldnum](function.db2-field-num.html)
-    
--   [db2fieldscale »](function.db2-field-scale.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає точність зазначеного стовпця у наборі результатів
-    
-
+---
+navigation:
+  - function.db2-field-num.html: « db2fieldnum
+  - function.db2-field-scale.html: db2fieldscale »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fieldprecision
+---
 # db2fieldprecision
 
 (PECL ibmdb2> = 1.0.0)

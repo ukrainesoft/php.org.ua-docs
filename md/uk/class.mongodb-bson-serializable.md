@@ -1,16 +1,11 @@
-Інтерфейс MongoDBBSONSerializable
-
--   [« MongoDBBSONPersistable](class.mongodb-bson-persistable.html)
-    
--   [MongoDBBSONSerializable::bsonSerialize »](mongodb-bson-serializable.bsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Інтерфейс MongoDBBSONSerializable
-    
-
+---
+navigation:
+  - class.mongodb-bson-persistable.html: « MongoDBBSONPersistable
+  - mongodb-bson-serializable.bsonserialize.html: 'MongoDBBSONSerializable::bsonSerialize »'
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Інтерфейс MongoDBBSONSerializable
+---
 # Інтерфейс MongoDBBSONSerializable
 
 (mongodb >=1.0.0)
@@ -43,8 +38,8 @@
 
 ## список змін
 
-| Версия              | Описание                                                                                                                                                                                                                                                                                                                |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст

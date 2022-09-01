@@ -1,16 +1,11 @@
-Кодує дані у формат MIME base64
-
--   [« base64decode](function.base64-decode.html)
-    
--   [getheaders »](function.get-headers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції URL](ref.url.html)
-    
--   Кодує дані у формат MIME base64
-    
-
+---
+navigation:
+  - function.base64-decode.html: « base64decode
+  - function.get-headers.html: getheaders »
+  - index.html: PHP Manual
+  - ref.url.html: Функції URL
+title: base64encode
+---
 # base64encode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

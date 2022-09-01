@@ -1,16 +1,11 @@
-Бульов
-
--   [« Введение](language.types.intro.md)
-    
--   [Цілі числа "](language.types.integer.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи](language.types.md)
-    
--   Бульов
-    
-
+---
+navigation:
+  - language.types.intro.md: « Введение
+  - language.types.integer.md: Цілі числа "
+  - index.md: PHP Manual
+  - language.types.md: Типи
+title: Бульов
+---
 ## Бульов
 
 Це найпростіший тип. bool виражає істинність значення. Він може бути або **`true`**, або **`false`**

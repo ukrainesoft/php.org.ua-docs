@@ -1,16 +1,11 @@
-Опції ZooKeeper
-
--   [« Обумовлені константи](zookeeper.constants.html)
-    
--   [zookeeperdispatch »](function.zookeeper-dispatch.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZooKeeper](book.zookeeper.html)
-    
--   Опції ZooKeeper
-    
-
+---
+navigation:
+  - zookeeper.constants.html: « Обумовлені константи
+  - function.zookeeper-dispatch.html: zookeeperdispatch »
+  - index.html: PHP Manual
+  - book.zookeeper.html: ZooKeeper
+title: Опції ZooKeeper
+---
 # Опції ZooKeeper
 
 ## Зміст

@@ -1,16 +1,11 @@
-Читає наступний набір рядків із мультизапиту
-
--   [« mysqlistmt::moreresults](mysqli-stmt.more-results.html)
-    
--   [mysqlistmt::$numrows »](mysqli-stmt.num-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Читає наступний набір рядків із мультизапиту
-    
-
+---
+navigation:
+  - mysqli-stmt.more-results.html: '« mysqlistmt::moreresults'
+  - mysqli-stmt.num-rows.html: 'mysqlistmt::$numrows »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::nextresult'
+---
 # mysqlistmt::nextresult
 
 # mysqlistmtnextresult
@@ -51,9 +46,9 @@ mysqli_stmt_next_result(mysqli_stmt $statement): bool
 
 ### список змін
 
-| Версия | Описание                                            |
-|--------|-----------------------------------------------------|
-|        | Тепер також доступно при збиранні з libmysqlclient. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер також доступно при збиранні з libmysqlclient. |
 
 ### Дивіться також
 

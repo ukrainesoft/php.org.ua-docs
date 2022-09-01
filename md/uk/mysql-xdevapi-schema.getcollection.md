@@ -1,16 +1,11 @@
-Отримати колекцію зі схеми
-
--   [« Schema::existsInDatabase](mysql-xdevapi-schema.existsindatabase.html)
-    
--   [Schema::getCollectionAsTable »](mysql-xdevapi-schema.getcollectionastable.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Отримати колекцію зі схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.existsindatabase.html: '« Schema::existsInDatabase'
+  - mysql-xdevapi-schema.getcollectionastable.html: 'Schema::getCollectionAsTable »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::getCollection'
+---
 # Schema::getCollection
 
 (No version information available, might only be in Git)

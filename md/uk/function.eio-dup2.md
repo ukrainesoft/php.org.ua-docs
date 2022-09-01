@@ -1,16 +1,11 @@
-Створює дублікат дескриптора файлу
-
--   [« eiocustom](function.eio-custom.html)
-    
--   [eioeventloop »](function.eio-event-loop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Створює дублікат дескриптора файлу
-    
-
+---
+navigation:
+  - function.eio-custom.html: « eiocustom
+  - function.eio-event-loop.html: eioeventloop »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiodup2
+---
 # eiodup2
 
 (PECL eio >= 0.0.1dev)

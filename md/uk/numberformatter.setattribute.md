@@ -1,16 +1,11 @@
-Встановлює атрибут
-
--   [« NumberFormatter::parse](numberformatter.parse.html)
-    
--   [NumberFormatter::setPattern »](numberformatter.setpattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [NumberFormatter](class.numberformatter.html)
-    
--   Встановлює атрибут
-    
-
+---
+navigation:
+  - numberformatter.parse.html: '« NumberFormatter::parse'
+  - numberformatter.setpattern.html: 'NumberFormatter::setPattern »'
+  - index.html: PHP Manual
+  - class.numberformatter.html: NumberFormatter
+title: 'NumberFormatter::setAttribute'
+---
 # NumberFormatter::setAttribute
 
 # numfmtsetattribute

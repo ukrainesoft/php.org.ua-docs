@@ -1,16 +1,11 @@
-Типи атрибутів RADIUS
-
--   [типи пакетів RADIUS](radius.constants.packets.md)
-    
--   [Атрибути RADIUS специфічні для різних виробників.](radius.constants.vendor-specific.html)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](radius.constants.md)
-    
--   Типи атрибутів RADIUS
-    
-
+---
+navigation:
+  - radius.constants.packets.md: типи пакетів RADIUS
+  - radius.constants.vendor-specific.html: Атрибути RADIUS специфічні для різних виробників.
+  - index.md: PHP Manual
+  - radius.constants.md: Обумовлені константи
+title: Типи атрибутів RADIUS
+---
 ## Типи атрибутів RADIUS
 
 Ці константи описують типи атрибутів RADIUS, які можна використовувати у функціях [radiusputaddr()](function.radius-put-addr.html) [radiusputattr()](function.radius-put-attr.html) [radiusputint()](function.radius-put-int.html) і [radiusputstring()](function.radius-put-string.html)

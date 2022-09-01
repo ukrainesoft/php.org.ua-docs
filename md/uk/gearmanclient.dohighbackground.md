@@ -1,16 +1,11 @@
-Запускає виконання з високим пріоритетом завдання у фоновому режимі
-
--   [« GearmanClient::doHigh](gearmanclient.dohigh.md)
-    
--   [GearmanClient::doJobHandle »](gearmanclient.dojobhandle.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Запускає виконання з високим пріоритетом завдання у фоновому режимі
-    
-
+---
+navigation:
+  - gearmanclient.dohigh.md: '« GearmanClient::doHigh'
+  - gearmanclient.dojobhandle.md: 'GearmanClient::doJobHandle »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::doHighBackground'
+---
 # GearmanClient::doHighBackground
 
 (PECL gearman >= 0.5.0)

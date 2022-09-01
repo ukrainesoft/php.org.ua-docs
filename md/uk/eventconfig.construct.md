@@ -1,16 +1,11 @@
-Створити об'єкт EventConfig
-
--   [« EventConfig::avoidMethod](eventconfig.avoidmethod.md)
-    
--   [EventConfig::requireFeatures »](eventconfig.requirefeatures.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventConfig](class.eventconfig.md)
-    
--   Створити об'єкт EventConfig
-    
-
+---
+navigation:
+  - eventconfig.avoidmethod.md: '« EventConfig::avoidMethod'
+  - eventconfig.requirefeatures.md: 'EventConfig::requireFeatures »'
+  - index.md: PHP Manual
+  - class.eventconfig.md: EventConfig
+title: 'EventConfig::construct'
+---
 # EventConfig::construct
 
 (PECL event >= 1.2.6-beta)

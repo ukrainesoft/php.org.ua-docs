@@ -1,16 +1,11 @@
-Встановити поле
-
--   [« UIControlsGroup::hasMargin](ui-controls-group.hasmargin.html)
-    
--   [ОЙControlsGroup::setTitle »](ui-controls-group.settitle.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsGroup](class.ui-controls-group.html)
-    
--   Встановити поле
-    
-
+---
+navigation:
+  - ui-controls-group.hasmargin.html: '« UIControlsGroup::hasMargin'
+  - ui-controls-group.settitle.html: 'ОЙControlsGroup::setTitle »'
+  - index.md: PHP Manual
+  - class.ui-controls-group.html: ОЙControlsGroup
+title: 'ОЙControlsGroup::setMargin'
+---
 # ОЙControlsGroup::setMargin
 
 (UI 0.9.9)

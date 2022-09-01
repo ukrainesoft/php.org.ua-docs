@@ -1,16 +1,11 @@
-Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
-
--   [« tidygetoutput](function.tidy-get-output.html)
-    
--   [Лексер (Tokenizer) »](book.tokenizer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Tidy](ref.tidy.html)
-    
--   Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
-    
-
+---
+navigation:
+  - function.tidy-get-output.html: « tidygetoutput
+  - book.tokenizer.html: Лексер (Tokenizer) »
+  - index.html: PHP Manual
+  - ref.tidy.html: Tidy
+title: tidywarningcount
+---
 # tidywarningcount
 
 (PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)

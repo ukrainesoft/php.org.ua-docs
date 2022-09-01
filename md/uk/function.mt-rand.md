@@ -1,16 +1,11 @@
-Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
-
--   [« mtgetrandmax](function.mt-getrandmax.html)
-    
--   [мтsrand »](function.mt-srand.html)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
-    
-
+---
+navigation:
+  - function.mt-getrandmax.html: « mtgetrandmax
+  - function.mt-srand.html: мтsrand »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: мтrand
+---
 # мтrand
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,11 +46,11 @@ mt_rand(int $min, int $max): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Для **мтrand()** [произведено исправление бага](migration72.incompatible.html#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин.                                                                       |
-|        | [rand()](function.rand.md) [тепер є](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) псевдонімом для **мтrand()**                                                                                                                                                                                                                       |
-|        | Функція **мтrand()** [була оновлена](migration71.incompatible.html#migration71.incompatible.fixes-to-mt_rand-algorithm) і тепер використовує коректну версію генератора випадкових чисел з урахуванням Вихря Мерсенна. Для використання старої поведінки, використовуйте [мтsrand()](function.mt-srand.html) з другим параметром, встановленим у **`MT_RAND_PHP`** |
+| Версия | Описание |
+| --- | --- |
+|  | Для **мтrand()** [произведено исправление бага](migration72.incompatible.html#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
+|  | [rand()](function.rand.md) [тепер є](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) псевдонімом для **мтrand()** |
+|  | Функція **мтrand()** [була оновлена](migration71.incompatible.html#migration71.incompatible.fixes-to-mt_rand-algorithm) і тепер використовує коректну версію генератора випадкових чисел з урахуванням Вихря Мерсенна. Для використання старої поведінки, використовуйте [мтsrand()](function.mt-srand.html) з другим параметром, встановленим у **`MT_RAND_PHP`** |
 
 ### Приклади
 

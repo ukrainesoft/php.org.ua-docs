@@ -1,16 +1,11 @@
-Повертає кількість рядків, порушених SQL-запитом
-
--   [« db2numfields](function.db2-num-fields.html)
-    
--   [db2pclose »](function.db2-pclose.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає кількість рядків, порушених SQL-запитом
-    
-
+---
+navigation:
+  - function.db2-num-fields.html: « db2numfields
+  - function.db2-pclose.html: db2pclose »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2numrows
+---
 # db2numrows
 
 (PECL ibmdb2> = 1.0.0)

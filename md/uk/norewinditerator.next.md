@@ -1,16 +1,11 @@
-Переміщує ітератор до наступного елемента
-
--   [« NoRewindIterator::key](norewinditerator.key.md)
-    
--   [NoRewindIterator::rewind »](norewinditerator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [NoRewindIterator](class.norewinditerator.md)
-    
--   Переміщує ітератор до наступного елемента
-    
-
+---
+navigation:
+  - norewinditerator.key.md: '« NoRewindIterator::key'
+  - norewinditerator.rewind.md: 'NoRewindIterator::rewind »'
+  - index.md: PHP Manual
+  - class.norewinditerator.md: NoRewindIterator
+title: 'NoRewindIterator::next'
+---
 # NoRewindIterator::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

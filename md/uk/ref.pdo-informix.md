@@ -1,16 +1,11 @@
-Функції Informix (PDOINFORMIX)
-
--   [« PDOIBM DSN](ref.pdo-ibm.connection.html)
-    
--   [PDOINFORMIX DSN »](ref.pdo-informix.connection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Драйвери PDO](pdo.drivers.md)
-    
--   Функції Informix (PDOINFORMIX)
-    
-
+---
+navigation:
+  - ref.pdo-ibm.connection.html: « PDOIBM DSN
+  - ref.pdo-informix.connection.html: PDOINFORMIX DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
+title: Функції Informix (PDOINFORMIX)
+---
 # Функції Informix (PDOINFORMIX)
 
 ## Вступ

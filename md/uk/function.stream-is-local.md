@@ -1,16 +1,11 @@
-Перевіряє, чи є потік локальним потоком
-
--   [« streamgetwrappers](function.stream-get-wrappers.html)
-    
--   [streamisatty »](function.stream-isatty.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Перевіряє, чи є потік локальним потоком
-    
-
+---
+navigation:
+  - function.stream-get-wrappers.html: « streamgetwrappers
+  - function.stream-isatty.html: streamisatty »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamісlocal
+---
 # streamісlocal
 
 (PHP 5> = 5.2.4, PHP 7, PHP 8)

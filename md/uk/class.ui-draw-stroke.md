@@ -1,16 +1,11 @@
-Малювання обведення
-
--   [« UIDrawColor::setChannel](ui-draw-color.setchannel.html)
-    
--   [ОЙDrawStroke::construct »](ui-draw-stroke.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Малювання обведення
-    
-
+---
+navigation:
+  - ui-draw-color.setchannel.html: '« UIDrawColor::setChannel'
+  - ui-draw-stroke.construct.html: 'ОЙDrawStroke::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Малювання обведення
+---
 # Малювання обведення
 
 (UI 0.9.9)

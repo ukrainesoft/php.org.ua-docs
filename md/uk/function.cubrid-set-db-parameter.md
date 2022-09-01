@@ -1,16 +1,11 @@
-Встановлює параметри бази даних CUBRID
-
--   [« cubridsetautocommit](function.cubrid-set-autocommit.html)
-    
--   [cubridsetdrop »](function.cubrid-set-drop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Встановлює параметри бази даних CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-set-autocommit.html: « cubridsetautocommit
+  - function.cubrid-set-drop.html: cubridsetdrop »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridsetдбparameter
+---
 # cubridsetдбparameter
 
 (PECL CUBRID >= 8.4.0)

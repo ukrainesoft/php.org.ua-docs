@@ -1,16 +1,11 @@
-Замінює існуючий запис із зазначеним ключем
-
--   [« Memcached::quit](memcached.quit.html)
-    
--   [Memcached::replaceByKey »](memcached.replacebykey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Замінює існуючий запис із зазначеним ключем
-    
-
+---
+navigation:
+  - memcached.quit.html: '« Memcached::quit'
+  - memcached.replacebykey.html: 'Memcached::replaceByKey »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::replace'
+---
 # Memcached::replace
 
 (PECL memcached >= 0.1.0)

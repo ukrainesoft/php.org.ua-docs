@@ -1,16 +1,11 @@
-Вказує, чи є файл каталогом
-
--   [« SplFileInfo::getType](splfileinfo.gettype.md)
-    
--   [SplFileInfo::isExecutable »](splfileinfo.isexecutable.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Вказує, чи є файл каталогом
-    
-
+---
+navigation:
+  - splfileinfo.gettype.md: '« SplFileInfo::getType'
+  - splfileinfo.isexecutable.md: 'SplFileInfo::isExecutable »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::isDir'
+---
 # SplFileInfo::isDir
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

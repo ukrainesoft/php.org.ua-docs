@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::embed](evloop.embed.html)
-    
--   [EvLoop::idle »](evloop.idle.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.embed.html: '« EvLoop::embed'
+  - evloop.idle.html: 'EvLoop::idle »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::fork'
+---
 # EvLoop::fork
 
 (PECL ev >= 0.2.0)

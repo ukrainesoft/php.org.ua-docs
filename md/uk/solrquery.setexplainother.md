@@ -1,16 +1,11 @@
-Встановлює загальний параметр запиту explainOther
-
--   [« SolrQuery::setExpandRows](solrquery.setexpandrows.md)
-    
--   [SolrQuery::setFacet »](solrquery.setfacet.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює загальний параметр запиту explainOther
-    
-
+---
+navigation:
+  - solrquery.setexpandrows.md: '« SolrQuery::setExpandRows'
+  - solrquery.setfacet.md: 'SolrQuery::setFacet »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setExplainOther'
+---
 # SolrQuery::setExplainOther
 
 (PECL solr> = 0.9.2)

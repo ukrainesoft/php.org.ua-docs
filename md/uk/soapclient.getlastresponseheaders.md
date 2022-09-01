@@ -1,16 +1,11 @@
-Повертає SOAP-заголовки останньої відповіді
-
--   [« SoapClient::getLastResponse](soapclient.getlastresponse.html)
-    
--   [SoapClient::getTypes »](soapclient.gettypes.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapClient](class.soapclient.html)
-    
--   Повертає SOAP-заголовки останньої відповіді
-    
-
+---
+navigation:
+  - soapclient.getlastresponse.html: '« SoapClient::getLastResponse'
+  - soapclient.gettypes.html: 'SoapClient::getTypes »'
+  - index.html: PHP Manual
+  - class.soapclient.html: SoapClient
+title: 'SoapClient::getLastResponseHeaders'
+---
 # SoapClient::getLastResponseHeaders
 
 (PHP 5, PHP 7, PHP 8)

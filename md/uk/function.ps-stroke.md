@@ -1,16 +1,11 @@
-Малює поточний шлях
-
--   [«psstringwidth](function.ps-stringwidth.html)
-    
--   [псsymbolname »](function.ps-symbol-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Малює поточний шлях
-    
-
+---
+navigation:
+  - function.ps-stringwidth.html: «psstringwidth
+  - function.ps-symbol-name.html: псsymbolname »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псstroke
+---
 # псstroke
 
 (PECL ps >= 1.1.0)

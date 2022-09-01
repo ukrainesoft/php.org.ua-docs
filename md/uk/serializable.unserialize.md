@@ -1,16 +1,11 @@
-Створює об'єкт
-
--   [« Serializable::serialize](serializable.serialize.md)
-    
--   [Closure »](class.closure.md)
-    
--   [PHP Manual](index.md)
-    
--   [Serializable](class.serializable.md)
-    
--   Створює об'єкт
-    
-
+---
+navigation:
+  - serializable.serialize.md: '« Serializable::serialize'
+  - class.closure.md: Closure »
+  - index.md: PHP Manual
+  - class.serializable.md: Serializable
+title: 'Serializable::unserialize'
+---
 # Serializable::unserialize
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

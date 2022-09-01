@@ -1,16 +1,11 @@
-Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
-
--   [« DsSequence::contains](ds-sequence.contains.html)
-    
--   [ДсSequence::find »](ds-sequence.find.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
-    
-
+---
+navigation:
+  - ds-sequence.contains.html: '« DsSequence::contains'
+  - ds-sequence.find.html: 'ДсSequence::find »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::filter'
+---
 # ДсSequence::filter
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Додає до ZIP-архіву файл за вказаним шляхом
-
--   [« ZipArchive::addEmptyDir](ziparchive.addemptydir.html)
-    
--   [ZipArchive::addFromString »](ziparchive.addfromstring.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Додає до ZIP-архіву файл за вказаним шляхом
-    
-
+---
+navigation:
+  - ziparchive.addemptydir.html: '« ZipArchive::addEmptyDir'
+  - ziparchive.addfromstring.html: 'ZipArchive::addFromString »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::addFile'
+---
 # ZipArchive::addFile
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)
@@ -55,9 +50,9 @@ public ZipArchive::addFile(    string $filepath,    string $entryname = 
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає статус з'єднання у бітах
-
--   [« connectionaborted](function.connection-aborted.html)
-    
--   [constant »](function.constant.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Повертає статус з'єднання у бітах
-    
-
+---
+navigation:
+  - function.connection-aborted.html: « connectionaborted
+  - function.constant.md: constant »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: connectionstatus
+---
 # connectionstatus
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

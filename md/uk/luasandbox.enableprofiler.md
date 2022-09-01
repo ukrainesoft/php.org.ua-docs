@@ -1,16 +1,11 @@
-Включає профільувальник
-
--   [« LuaSandbox::disableProfiler](luasandbox.disableprofiler.html)
-    
--   [LuaSandbox::getCPUUsage »](luasandbox.getcpuusage.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](class.luasandbox.html)
-    
--   Включає профільувальник
-    
-
+---
+navigation:
+  - luasandbox.disableprofiler.html: '« LuaSandbox::disableProfiler'
+  - luasandbox.getcpuusage.html: 'LuaSandbox::getCPUUsage »'
+  - index.html: PHP Manual
+  - class.luasandbox.html: LuaSandbox
+title: 'LuaSandbox::enableProfiler'
+---
 # LuaSandbox::enableProfiler
 
 (PECL luasandbox >= 1.1.0)

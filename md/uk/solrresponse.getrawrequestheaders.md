@@ -1,16 +1,11 @@
-Повертає необроблені заголовки запиту на сервер Solr
-
--   [« SolrResponse::getRawRequest](solrresponse.getrawrequest.md)
-    
--   [SolrResponse::getRawResponse »](solrresponse.getrawresponse.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrResponse](class.solrresponse.md)
-    
--   Повертає необроблені заголовки запиту на сервер Solr
-    
-
+---
+navigation:
+  - solrresponse.getrawrequest.md: '« SolrResponse::getRawRequest'
+  - solrresponse.getrawresponse.md: 'SolrResponse::getRawResponse »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
+title: 'SolrResponse::getRawRequestHeaders'
+---
 # SolrResponse::getRawRequestHeaders
 
 (PECL solr> = 0.9.2)

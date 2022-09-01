@@ -1,16 +1,11 @@
-Питання щодо Баз даних
-
--   [« Получение PHP](faq.obtaining.html)
-    
--   [Установка »](faq.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [ЧАВО](faq.html)
-    
--   Питання щодо Баз даних
-    
-
+---
+navigation:
+  - faq.obtaining.html: « Получение PHP
+  - faq.installation.html: Установка »
+  - index.html: PHP Manual
+  - faq.html: ЧАВО
+title: Питання щодо Баз даних
+---
 # Питання щодо Баз даних
 
 Цей розділ містить спільні питання зв'язку між PHP і базами даних. Так, сьогодні практично будь-яка база даних може бути доступна з PHP.

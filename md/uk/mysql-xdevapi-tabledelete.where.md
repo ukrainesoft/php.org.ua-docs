@@ -1,16 +1,11 @@
-Встановлює умову пошуку для видалення
-
--   [« TableDelete::orderby](mysql-xdevapi-tabledelete.orderby.html)
-    
--   [mysqlxdevapiTableInsert »](class.mysql-xdevapi-tableinsert.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
-    
--   Встановлює умову пошуку для видалення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tabledelete.orderby.html: '« TableDelete::orderby'
+  - class.mysql-xdevapi-tableinsert.html: mysqlxdevapiTableInsert »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+title: 'TableDelete::where'
+---
 # TableDelete::where
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Повертає інформацію про символи, що входять до рядка
-
--   [« convertuuencode](function.convert-uuencode.html)
-    
--   [crc32 »](function.crc32.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Повертає інформацію про символи, що входять до рядка
-    
-
+---
+navigation:
+  - function.convert-uuencode.html: « convertuuencode
+  - function.crc32.html: crc32 »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: countchars
+---
 # countchars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ count_chars(string $string, int $mode = 0): array|string
 
 ### список змін
 
-| Версия | Описание                                                                |
-|--------|-------------------------------------------------------------------------|
-|        | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

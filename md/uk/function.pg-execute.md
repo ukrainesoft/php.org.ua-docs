@@ -1,16 +1,11 @@
-Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
-
--   [« pgescapestring](function.pg-escape-string.html)
-    
--   [пгfetchallcolumns »](function.pg-fetch-all-columns.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
-    
-
+---
+navigation:
+  - function.pg-escape-string.html: « pgescapestring
+  - function.pg-fetch-all-columns.html: пгfetchallcolumns »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгexecute
+---
 # пгexecute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -57,10 +52,10 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

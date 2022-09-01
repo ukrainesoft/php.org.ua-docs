@@ -1,16 +1,11 @@
-Опитування підключень
-
--   [« mysqli::ping](mysqli.ping.md)
-    
--   [mysqli::prepare »](mysqli.prepare.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Опитування підключень
-    
-
+---
+navigation:
+  - mysqli.ping.md: '« mysqli::ping'
+  - mysqli.prepare.md: 'mysqli::prepare »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::poll'
+---
 # mysqli::poll
 
 # mysqlipoll

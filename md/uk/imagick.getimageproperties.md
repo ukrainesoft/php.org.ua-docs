@@ -1,16 +1,11 @@
-Повертає властивості зображення
-
--   [« Imagick::getImageProfiles](imagick.getimageprofiles.html)
-    
--   [Imagick::getImageProperty »](imagick.getimageproperty.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає властивості зображення
-    
-
+---
+navigation:
+  - imagick.getimageprofiles.html: '« Imagick::getImageProfiles'
+  - imagick.getimageproperty.html: 'Imagick::getImageProperty »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageProperties'
+---
 # Imagick::getImageProperties
 
 (PECL imagick 2, PECL imagick 3)

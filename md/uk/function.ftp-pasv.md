@@ -1,16 +1,11 @@
-Вмикає або вимикає пасивний режим
-
--   [« ftpnlist](function.ftp-nlist.html)
-    
--   [ftpput »](function.ftp-put.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Вмикає або вимикає пасивний режим
-    
-
+---
+navigation:
+  - function.ftp-nlist.html: « ftpnlist
+  - function.ftp-put.html: ftpput »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftppasv
+---
 # ftppasv
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ ftp_pasv(FTP\Connection $ftp, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

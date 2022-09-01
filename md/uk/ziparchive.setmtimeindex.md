@@ -1,16 +1,11 @@
-Встановити час модифікації файлу за його індексом
-
--   [« ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md)
-    
--   [ZipArchive::setMtimeName »](ziparchive.setmtimename.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Встановити час модифікації файлу за його індексом
-    
-
+---
+navigation:
+  - ziparchive.setexternalattributesname.md: '« ZipArchive::setExternalAttributesName'
+  - ziparchive.setmtimename.md: 'ZipArchive::setMtimeName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::setMtimeIndex'
+---
 # ZipArchive::setMtimeIndex
 
 (PHP >= 8.0.0, PECL zip >= 1.16.0)

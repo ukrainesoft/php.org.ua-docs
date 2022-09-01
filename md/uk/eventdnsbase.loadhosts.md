@@ -1,16 +1,11 @@
-Завантажує файл hosts (у тому форматі, що і /etc/hosts) з файлу hosts
-
--   [« EventDnsBase::countNameservers](eventdnsbase.countnameservers.html)
-    
--   [EventDnsBase::parseResolvConf »](eventdnsbase.parseresolvconf.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventDnsBase](class.eventdnsbase.html)
-    
--   Завантажує файл hosts (у тому форматі, що і /etc/hosts) з файлу hosts
-    
-
+---
+navigation:
+  - eventdnsbase.countnameservers.html: '« EventDnsBase::countNameservers'
+  - eventdnsbase.parseresolvconf.html: 'EventDnsBase::parseResolvConf »'
+  - index.html: PHP Manual
+  - class.eventdnsbase.html: EventDnsBase
+title: 'EventDnsBase::loadHosts'
+---
 # EventDnsBase::loadHosts
 
 (PECL event >= 1.2.6-beta)

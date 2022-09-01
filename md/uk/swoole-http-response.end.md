@@ -1,16 +1,11 @@
-Надсилає дані HTTP-запиту та завершує відповідь
-
--   [« SwooleHttpResponse::destruct](swoole-http-response.destruct.html)
-    
--   [SwooleHttpResponse::gzip »](swoole-http-response.gzip.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Надсилає дані HTTP-запиту та завершує відповідь
-    
-
+---
+navigation:
+  - swoole-http-response.destruct.html: '« SwooleHttpResponse::destruct'
+  - swoole-http-response.gzip.html: 'SwooleHttpResponse::gzip »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::end'
+---
 # SwooleHttpResponse::end
 
 (PECL swoole >= 1.9.0)

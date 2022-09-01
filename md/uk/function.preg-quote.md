@@ -1,16 +1,11 @@
-Екранує символи у регулярних виразах
-
--   [« pregmatch](function.preg-match.html)
-    
--   [pregreplacecallbackarray »](function.preg-replace-callback-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Екранує символи у регулярних виразах
-    
-
+---
+navigation:
+  - function.preg-match.html: « pregmatch
+  - function.preg-replace-callback-array.html: pregreplacecallbackarray »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: pregquote
+---
 # pregquote
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ preg_quote(string $str, ?string $delimiter = null): string
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | Символ `#` тепер екранується              |
-|        | `delimiter` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Символ `#` тепер екранується |
+|  | `delimiter` тепер допускає значення null. |
 
 ### Приклади
 

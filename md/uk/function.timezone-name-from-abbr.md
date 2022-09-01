@@ -1,16 +1,11 @@
-Повертає часовий пояс відповідно до абревіатури
-
--   [« timezonelocationget](function.timezone-location-get.html)
-    
--   [timezonenameget »](function.timezone-name-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Повертає часовий пояс відповідно до абревіатури
-    
-
+---
+navigation:
+  - function.timezone-location-get.html: « timezonelocationget
+  - function.timezone-name-get.html: timezonenameget »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: timezonenamefromabbr
+---
 # timezonenamefromabbr
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

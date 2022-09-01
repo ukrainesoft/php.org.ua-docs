@@ -1,16 +1,11 @@
-Отримує один стовпець з наступного рядка набору результатів
-
--   [« mysqliresult::fetchassoc](mysqli-result.fetch-assoc.html)
-    
--   [mysqliresult::fetchfielddirect »](mysqli-result.fetch-field-direct.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Отримує один стовпець з наступного рядка набору результатів
-    
-
+---
+navigation:
+  - mysqli-result.fetch-assoc.html: '« mysqliresult::fetchassoc'
+  - mysqli-result.fetch-field-direct.html: 'mysqliresult::fetchfielddirect »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::fetchcolumn'
+---
 # mysqliresult::fetchcolumn
 
 # mysqlifetchcolumn

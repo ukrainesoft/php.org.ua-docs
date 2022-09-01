@@ -1,16 +1,11 @@
-Повідомляє, чи токен ігноруватиметься парсером PHP
-
--   [« PhpToken::is](phptoken.is.md)
-    
--   [PhpToken::toString »](phptoken.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [PhpToken](class.phptoken.md)
-    
--   Повідомляє, чи токен ігноруватиметься парсером PHP
-    
-
+---
+navigation:
+  - phptoken.is.md: '« PhpToken::is'
+  - phptoken.tostring.md: 'PhpToken::toString »'
+  - index.md: PHP Manual
+  - class.phptoken.md: PhpToken
+title: 'PhpToken::isIgnorable'
+---
 # PhpToken::isIgnorable
 
 (PHP 8)

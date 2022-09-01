@@ -1,16 +1,11 @@
-Creative Commons Attribution 3.0
-
--   [« Переклади](about.translations.md)
-    
--   [Алфавітний список »](indexes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Appendices](appendices.md)
-    
--   Creative Commons Attribution 3.0
-    
-
+---
+navigation:
+  - about.translations.md: « Переклади
+  - indexes.md: Алфавітний список »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Creative Commons Attribution 3.0
+---
 # Creative Commons Attribution 3.0
 
 ЦЕ WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THE CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER ЦИМ LICENSE OR COPYRIGHT LAW IS PROHIBITED.

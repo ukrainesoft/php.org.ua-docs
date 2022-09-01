@@ -1,16 +1,11 @@
-Командний рядок PHP у Microsoft Windows
-
--   [« Складання з вихідних кодів](install.windows.building.md)
-    
--   [Apache 2.x в Microsoft Windows »](install.windows.apache2.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка в системах Windows](install.windows.md)
-    
--   Командний рядок PHP у Microsoft Windows
-    
-
+---
+navigation:
+  - install.windows.building.md: « Складання з вихідних кодів
+  - install.windows.apache2.md: Apache 2.x в Microsoft Windows »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Командний рядок PHP у Microsoft Windows
+---
 ## Командний рядок PHP у Microsoft Windows
 
 Цей розділ містить примітки та підказки, які стосуються запуску PHP з командного рядка для Windows.

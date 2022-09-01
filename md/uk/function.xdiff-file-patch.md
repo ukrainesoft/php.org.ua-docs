@@ -1,16 +1,11 @@
-Застосування уніфікованого патчу до файлу
-
--   [xdifffilepatchbinary](function.xdiff-file-patch-binary.html)
-    
--   [xdifffilerabdiff »](function.xdiff-file-rabdiff.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Застосування уніфікованого патчу до файлу
-    
-
+---
+navigation:
+  - function.xdiff-file-patch-binary.html: xdifffilepatchbinary
+  - function.xdiff-file-rabdiff.html: xdifffilerabdiff »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdifffilepatch
+---
 # xdifffilepatch
 
 (PECL xdiff >= 0.2.0)

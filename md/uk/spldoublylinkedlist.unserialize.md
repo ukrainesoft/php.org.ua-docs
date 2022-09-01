@@ -1,16 +1,11 @@
-Десеріалізує сховище
-
--   [« SplDoublyLinkedList::top](spldoublylinkedlist.top.html)
-    
--   [SplDoublyLinkedList::unshift »](spldoublylinkedlist.unshift.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Десеріалізує сховище
-    
-
+---
+navigation:
+  - spldoublylinkedlist.top.html: '« SplDoublyLinkedList::top'
+  - spldoublylinkedlist.unshift.html: 'SplDoublyLinkedList::unshift »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::unserialize'
+---
 # SplDoublyLinkedList::unserialize
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

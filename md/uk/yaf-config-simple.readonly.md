@@ -1,16 +1,11 @@
-Призначення readonly
-
--   [« YafConfigSimple::offsetUnset](yaf-config-simple.offsetunset.html)
-    
--   [YafConfigSimple::rewind »](yaf-config-simple.rewind.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Призначення readonly
-    
-
+---
+navigation:
+  - yaf-config-simple.offsetunset.html: '« YafConfigSimple::offsetUnset'
+  - yaf-config-simple.rewind.html: 'YafConfigSimple::rewind »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::readonly'
+---
 # YafConfigSimple::readonly
 
 (Yaf >=1.0.0)

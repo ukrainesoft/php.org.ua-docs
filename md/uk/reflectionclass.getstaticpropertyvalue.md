@@ -1,16 +1,11 @@
-Повертає значення статичної властивості
-
--   [« ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md)
-    
--   [ReflectionClass::getTraitAliases »](reflectionclass.gettraitaliases.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає значення статичної властивості
-    
-
+---
+navigation:
+  - reflectionclass.getstaticproperties.md: '« ReflectionClass::getStaticProperties'
+  - reflectionclass.gettraitaliases.md: 'ReflectionClass::getTraitAliases »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getStaticPropertyValue'
+---
 # ReflectionClass::getStaticPropertyValue
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

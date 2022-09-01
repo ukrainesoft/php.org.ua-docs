@@ -1,16 +1,11 @@
-Встановлення налаштувань обробника
-
--   [« GearmanWorker::setId](gearmanworker.setid.md)
-    
--   [GearmanWorker::setTimeout »](gearmanworker.settimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Встановлення налаштувань обробника
-    
-
+---
+navigation:
+  - gearmanworker.setid.md: '« GearmanWorker::setId'
+  - gearmanworker.settimeout.md: 'GearmanWorker::setTimeout »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::setOptions'
+---
 # GearmanWorker::setOptions
 
 (PECL gearman >= 0.5.0)

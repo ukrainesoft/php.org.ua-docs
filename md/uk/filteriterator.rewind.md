@@ -1,16 +1,11 @@
-Повертає ітератор на початок
-
--   [« FilterIterator::next](filteriterator.next.md)
-    
--   [FilterIterator::valid »](filteriterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilterIterator](class.filteriterator.md)
-    
--   Повертає ітератор на початок
-    
-
+---
+navigation:
+  - filteriterator.next.md: '« FilterIterator::next'
+  - filteriterator.valid.md: 'FilterIterator::valid »'
+  - index.md: PHP Manual
+  - class.filteriterator.md: FilterIterator
+title: 'FilterIterator::rewind'
+---
 # FilterIterator::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

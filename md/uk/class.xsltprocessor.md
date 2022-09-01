@@ -1,16 +1,11 @@
-Клас XSLTProcessor
-
--   [« Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.html)
-    
--   [XSLTProcessor::construct »](xsltprocessor.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSL](book.xsl.md)
-    
--   Клас XSLTProcessor
-    
-
+---
+navigation:
+  - xsl.examples-errors.html: « Обработка ошибок с помощью функций обработки ошибок libxml
+  - xsltprocessor.construct.md: 'XSLTProcessor::construct »'
+  - index.md: PHP Manual
+  - book.xsl.md: XSL
+title: Клас XSLTProcessor
+---
 # Клас XSLTProcessor
 
 (PHP 5, PHP 7, PHP 8)

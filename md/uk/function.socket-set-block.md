@@ -1,16 +1,11 @@
-Встановлює блокуючий режим на сокеті
-
--   [« socketsendto](function.socket-sendto.html)
-    
--   [socketsetnonblock »](function.socket-set-nonblock.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Встановлює блокуючий режим на сокеті
-    
-
+---
+navigation:
+  - function.socket-sendto.html: « socketsendto
+  - function.socket-set-nonblock.html: socketsetnonblock »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketsetblock
+---
 # socketsetblock
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ socket_set_block(Socket $socket): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Приклади
 

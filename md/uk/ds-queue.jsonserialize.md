@@ -1,16 +1,11 @@
-Повертає колекцію в JSON-представництві
-
--   [« DsQueue::isEmpty](ds-queue.isempty.html)
-    
--   [ДсQueue::peek »](ds-queue.peek.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Повертає колекцію в JSON-представництві
-    
-
+---
+navigation:
+  - ds-queue.isempty.html: '« DsQueue::isEmpty'
+  - ds-queue.peek.html: 'ДсQueue::peek »'
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::jsonSerialize'
+---
 # ДсQueue::jsonSerialize
 
 (PECL ds >= 1.0.0)

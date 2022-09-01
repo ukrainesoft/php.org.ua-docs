@@ -1,16 +1,11 @@
-Перемикає висновок у текстовому чи бінарному режимі
-
--   [« gnupglistsignatures](function.gnupg-listsignatures.html)
-    
--   [gnupgseterrormode »](function.gnupg-seterrormode.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Перемикає висновок у текстовому чи бінарному режимі
-    
-
+---
+navigation:
+  - function.gnupg-listsignatures.html: « gnupglistsignatures
+  - function.gnupg-seterrormode.html: gnupgseterrormode »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgsetarmor
+---
 # gnupgsetarmor
 
 (PECL gnupg >= 0.1)

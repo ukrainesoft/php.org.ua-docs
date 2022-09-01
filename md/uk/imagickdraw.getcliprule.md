@@ -1,16 +1,11 @@
-Повертає поточне правило заливання багатокутника
-
--   [« ImagickDraw::getClipPath](imagickdraw.getclippath.html)
-    
--   [ImagickDraw::getClipUnits »](imagickdraw.getclipunits.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає поточне правило заливання багатокутника
-    
-
+---
+navigation:
+  - imagickdraw.getclippath.html: '« ImagickDraw::getClipPath'
+  - imagickdraw.getclipunits.html: 'ImagickDraw::getClipUnits »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getClipRule'
+---
 # ImagickDraw::getClipRule
 
 (PECL imagick 2, PECL imagick 3)

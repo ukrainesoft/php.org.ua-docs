@@ -1,16 +1,11 @@
-Мітки PHP
-
--   [« Основи синтаксису](language.basic-syntax.html)
-    
--   [Изолирование от HTML »](language.basic-syntax.phpmode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Основи синтаксису](language.basic-syntax.html)
-    
--   Мітки PHP
-    
-
+---
+navigation:
+  - language.basic-syntax.html: « Основи синтаксису
+  - language.basic-syntax.phpmode.html: Изолирование от HTML »
+  - index.html: PHP Manual
+  - language.basic-syntax.html: Основи синтаксису
+title: Мітки PHP
+---
 ## Мітки PHP
 
 Коли PHP обробляє файл, він шукає теги, що відкривають і закривають, такі як `<?php` і `?>`, які вказують PHP, коли починати та закінчувати обробку коду між ними. Подібний спосіб обробки дозволяє PHP впроваджуватися у всі види різних документів, так як все, що знаходиться поза парою тегів, що відкривають і закривають, буде проігноровано парсером PHP.

@@ -1,16 +1,11 @@
-Повертає квантовий діапазон ImageMagick
-
--   [« Imagick::getPointSize](imagick.getpointsize.html)
-    
--   [Imagick::getQuantumDepth »](imagick.getquantumdepth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає квантовий діапазон ImageMagick
-    
-
+---
+navigation:
+  - imagick.getpointsize.html: '« Imagick::getPointSize'
+  - imagick.getquantumdepth.html: 'Imagick::getQuantumDepth »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getQuantum'
+---
 # Imagick::getQuantum
 
 (PECL imagick 3> = 3.3.0)

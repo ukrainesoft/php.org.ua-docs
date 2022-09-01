@@ -1,16 +1,11 @@
-Задає callback-функцію обробки переданих даних
-
--   [« GearmanClient::setData](gearmanclient.setdata.md)
-    
--   [GearmanClient::setExceptionCallback »](gearmanclient.setexceptioncallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Задає callback-функцію обробки переданих даних
-    
-
+---
+navigation:
+  - gearmanclient.setdata.md: '« GearmanClient::setData'
+  - gearmanclient.setexceptioncallback.md: 'GearmanClient::setExceptionCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setDataCallback'
+---
 # GearmanClient::setDataCallback
 
 (PECL gearman >= 0.6.0)

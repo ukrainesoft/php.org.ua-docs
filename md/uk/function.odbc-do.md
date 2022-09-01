@@ -1,16 +1,11 @@
-Псевдонім odbcexec
-
--   [« odbcdatasource](function.odbc-data-source.html)
-    
--   [odbcerror »](function.odbc-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Псевдонім odbcexec
-    
-
+---
+navigation:
+  - function.odbc-data-source.html: « odbcdatasource
+  - function.odbc-error.html: odbcerror »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcдо
+---
 # odbcдо
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

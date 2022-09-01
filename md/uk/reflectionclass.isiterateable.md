@@ -1,16 +1,11 @@
-Псевдонім ReflectionClass::isIterable
-
--   [« ReflectionClass::isIterable](reflectionclass.isiterable.html)
-    
--   [ReflectionClass::isSubclassOf »](reflectionclass.issubclassof.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Псевдонім ReflectionClass::isIterable
-    
-
+---
+navigation:
+  - reflectionclass.isiterable.html: '« ReflectionClass::isIterable'
+  - reflectionclass.issubclassof.html: 'ReflectionClass::isSubclassOf »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::isIterateable'
+---
 # ReflectionClass::isIterateable
 
 (PHP 5, PHP 7, PHP 8)

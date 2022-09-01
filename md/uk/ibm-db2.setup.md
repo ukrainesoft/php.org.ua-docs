@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ibm-db2.html)
-    
--   [Вимоги »](ibm-db2.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [IBM DB2](book.ibm-db2.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ibm-db2.html: « Введение
+  - ibm-db2.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.ibm-db2.html: IBM DB2
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

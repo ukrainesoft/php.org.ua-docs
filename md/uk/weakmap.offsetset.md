@@ -1,16 +1,11 @@
-Оновлює колекцію (map) новою парою ключ-значення
-
--   [« WeakMap::offsetGet](weakmap.offsetget.md)
-    
--   [WeakMap::offsetUnset »](weakmap.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [WeakMap](class.weakmap.md)
-    
--   Оновлює колекцію (map) новою парою ключ-значення
-    
-
+---
+navigation:
+  - weakmap.offsetget.md: '« WeakMap::offsetGet'
+  - weakmap.offsetunset.md: 'WeakMap::offsetUnset »'
+  - index.md: PHP Manual
+  - class.weakmap.md: WeakMap
+title: 'WeakMap::offsetSet'
+---
 # WeakMap::offsetSet
 
 (PHP 8)

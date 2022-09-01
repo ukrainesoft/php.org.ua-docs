@@ -1,16 +1,11 @@
-Клас OAuth
-
--   [« oauthurlencode](function.oauth-urlencode.html)
-    
--   [OAuth::construct »](oauth.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](book.oauth.html)
-    
--   Клас OAuth
-    
-
+---
+navigation:
+  - function.oauth-urlencode.html: « oauthurlencode
+  - oauth.construct.html: 'OAuth::construct »'
+  - index.html: PHP Manual
+  - book.oauth.html: OAuth
+title: Клас OAuth
+---
 # Клас OAuth
 
 (PECL OAuth >= 0.99.1)

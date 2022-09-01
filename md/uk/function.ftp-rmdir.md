@@ -1,16 +1,11 @@
-Видаляє директорію
-
--   [« ftprename](function.ftp-rename.html)
-    
--   [ftpsetoption »](function.ftp-set-option.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Видаляє директорію
-    
-
+---
+navigation:
+  - function.ftp-rename.html: « ftprename
+  - function.ftp-set-option.html: ftpsetoption »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftprmdir
+---
 # ftprmdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

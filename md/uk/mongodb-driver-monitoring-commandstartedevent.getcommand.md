@@ -1,16 +1,11 @@
-Повертає документ команди
-
--   [« MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
-    
--   [MongoDBDriverMonitoringCommandStartedEvent::getCommandName »](mongodb-driver-monitoring-commandstartedevent.getcommandname.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
-    
--   Повертає документ команди
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-commandstartedevent.html: « MongoDBDriverMonitoringCommandStartedEvent
+  - mongodb-driver-monitoring-commandstartedevent.getcommandname.html: 'MongoDBDriverMonitoringCommandStartedEvent::getCommandName »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandstartedevent.html: MongoDBDriverMonitoringCommandStartedEvent
+title: 'MongoDBDriverMonitoringCommandStartedEvent::getCommand'
+---
 # MongoDBDriverMonitoringCommandStartedEvent::getCommand
 
 (mongodb >=1.3.0)

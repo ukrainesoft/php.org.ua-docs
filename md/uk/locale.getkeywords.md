@@ -1,16 +1,11 @@
-Отримати ключові слова для локалі
-
--   [« Locale::getDisplayVariant](locale.getdisplayvariant.md)
-    
--   [Locale::getPrimaryLanguage »](locale.getprimarylanguage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Отримати ключові слова для локалі
-    
-
+---
+navigation:
+  - locale.getdisplayvariant.md: '« Locale::getDisplayVariant'
+  - locale.getprimarylanguage.md: 'Locale::getPrimaryLanguage »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::getKeywords'
+---
 # Locale::getKeywords
 
 # localegetkeywords

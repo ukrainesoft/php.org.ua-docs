@@ -1,16 +1,11 @@
-Конструктор класу RecursiveRegexIterator
-
--   [« RecursiveRegexIterator](class.recursiveregexiterator.html)
-    
--   [RecursiveRegexIterator::getChildren »](recursiveregexiterator.getchildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveRegexIterator](class.recursiveregexiterator.html)
-    
--   Конструктор класу RecursiveRegexIterator
-    
-
+---
+navigation:
+  - class.recursiveregexiterator.html: « RecursiveRegexIterator
+  - recursiveregexiterator.getchildren.html: 'RecursiveRegexIterator::getChildren »'
+  - index.html: PHP Manual
+  - class.recursiveregexiterator.html: RecursiveRegexIterator
+title: 'RecursiveRegexIterator::construct'
+---
 # RecursiveRegexIterator::construct
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -52,13 +47,13 @@ int `$pregFlags`
 
 **[RegexIterator](class.regexiterator.html) pregflags**
 
-| режим работы                       | доступные флаги                                         |
-|------------------------------------|---------------------------------------------------------|
+| режим работы | доступные флаги |
+| --- | --- |
 | RecursiveRegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
-| RecursiveRegexIterator::GETMATCH   | Дивіться [pregmatch()](function.preg-match.html)        |
-| RecursiveRegexIterator::MATCH      | Дивіться [pregmatch()](function.preg-match.html)        |
-| RecursiveRegexIterator::REPLACE    | ні                                                      |
-| RecursiveRegexIterator::SPLIT      | Дивіться [pregsplit()](function.preg-split.html)        |
+| RecursiveRegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RecursiveRegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RecursiveRegexIterator::REPLACE | ні |
+| RecursiveRegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.html) |
 
 ### Приклади
 

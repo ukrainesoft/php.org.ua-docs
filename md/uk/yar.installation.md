@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](yar.requirements.md)
-    
--   [Налаштування під час виконання »](yar.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](yar.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - yar.requirements.md: « Вимоги
+  - yar.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - yar.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

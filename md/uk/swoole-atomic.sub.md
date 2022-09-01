@@ -1,16 +1,11 @@
-Віднімає число із значення атомарного об'єкта
-
--   [« SwooleAtomic::set](swoole-atomic.set.html)
-    
--   [SwooleBuffer »](class.swoole-buffer.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleAtomic](class.swoole-atomic.html)
-    
--   Віднімає число із значення атомарного об'єкта
-    
-
+---
+navigation:
+  - swoole-atomic.set.html: '« SwooleAtomic::set'
+  - class.swoole-buffer.html: SwooleBuffer »
+  - index.md: PHP Manual
+  - class.swoole-atomic.html: SwooleAtomic
+title: 'SwooleAtomic::sub'
+---
 # SwooleAtomic::sub
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Повертає порт, на якому прослуховується сервер
-
--   [« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
-    
--   Повертає порт, на якому прослуховується сервер
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort'
+---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort
 
 (mongodb >=1.13.0)

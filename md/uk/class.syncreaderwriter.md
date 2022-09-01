@@ -1,16 +1,11 @@
-Клас SyncReaderWriter
-
--   [« SyncEvent::wait](syncevent.wait.md)
-    
--   [SyncReaderWriter::construct »](syncreaderwriter.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Sync](book.sync.md)
-    
--   Клас SyncReaderWriter
-    
-
+---
+navigation:
+  - syncevent.wait.md: '« SyncEvent::wait'
+  - syncreaderwriter.construct.md: 'SyncReaderWriter::construct »'
+  - index.md: PHP Manual
+  - book.sync.md: Sync
+title: Клас SyncReaderWriter
+---
 # Клас SyncReaderWriter
 
 (PECL sync >= 1.0.0)

@@ -1,16 +1,11 @@
-Створює конфігурацію для відкриття словника
-
--   [« pspellclearsession](function.pspell-clear-session.html)
-    
--   [pspellconfigdatadir »](function.pspell-config-data-dir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Pspell](ref.pspell.html)
-    
--   Створює конфігурацію для відкриття словника
-    
-
+---
+navigation:
+  - function.pspell-clear-session.html: « pspellclearsession
+  - function.pspell-config-data-dir.html: pspellconfigdatadir »
+  - index.html: PHP Manual
+  - ref.pspell.html: Функции Pspell
+title: pspellconfigcreate
+---
 # pspellconfigcreate
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

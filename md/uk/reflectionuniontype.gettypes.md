@@ -1,16 +1,11 @@
-Повертає типи, включені до типу union
-
--   [« ReflectionUnionType](class.reflectionuniontype.md)
-    
--   [ReflectionGenerator »](class.reflectiongenerator.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionUnionType](class.reflectionuniontype.md)
-    
--   Повертає типи, включені до типу union
-    
-
+---
+navigation:
+  - class.reflectionuniontype.md: « ReflectionUnionType
+  - class.reflectiongenerator.md: ReflectionGenerator »
+  - index.md: PHP Manual
+  - class.reflectionuniontype.md: ReflectionUnionType
+title: 'ReflectionUnionType::getTypes'
+---
 # ReflectionUnionType::getTypes
 
 (PHP 8)

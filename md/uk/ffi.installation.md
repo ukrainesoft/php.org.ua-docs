@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ffi.requirements.html)
-    
--   [Налаштування під час виконання »](ffi.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ffi.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ffi.requirements.html: « Вимоги
+  - ffi.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - ffi.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для включення модуля FFI, PHP треба налаштувати з ключем **\-with-ffi**

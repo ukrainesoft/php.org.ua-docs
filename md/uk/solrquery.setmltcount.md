@@ -1,16 +1,11 @@
-Встановлює кількість схожих документів, що повертаються для кожного результату
-
--   [« SolrQuery::setMltBoost](solrquery.setmltboost.md)
-    
--   [SolrQuery::setMltMaxNumQueryTerms »](solrquery.setmltmaxnumqueryterms.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює кількість схожих документів, що повертаються для кожного результату
-    
-
+---
+navigation:
+  - solrquery.setmltboost.md: '« SolrQuery::setMltBoost'
+  - solrquery.setmltmaxnumqueryterms.md: 'SolrQuery::setMltMaxNumQueryTerms »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMltCount'
+---
 # SolrQuery::setMltCount
 
 (PECL solr> = 0.9.2)

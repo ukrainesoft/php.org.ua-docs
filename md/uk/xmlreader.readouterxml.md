@@ -1,16 +1,11 @@
-Отримати XML із поточного вузла, включаючи сам вузол
-
--   [« XMLReader::readInnerXml](xmlreader.readinnerxml.html)
-    
--   [XMLReader::readString »](xmlreader.readstring.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](class.xmlreader.html)
-    
--   Отримати XML із поточного вузла, включаючи сам вузол
-    
-
+---
+navigation:
+  - xmlreader.readinnerxml.html: '« XMLReader::readInnerXml'
+  - xmlreader.readstring.html: 'XMLReader::readString »'
+  - index.html: PHP Manual
+  - class.xmlreader.html: XMLReader
+title: 'XMLReader::readOuterXml'
+---
 # XMLReader::readOuterXml
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

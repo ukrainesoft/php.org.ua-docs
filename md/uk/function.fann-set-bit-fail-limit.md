@@ -1,16 +1,11 @@
-Встановлює межу помилок, що використовується під час навчання
-
--   [« fannsetactivationsteepness](function.fann-set-activation-steepness.html)
-    
--   [fannsetcallback »](function.fann-set-callback.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює межу помилок, що використовується під час навчання
-    
-
+---
+navigation:
+  - function.fann-set-activation-steepness.html: « fannsetactivationsteepness
+  - function.fann-set-callback.html: fannsetcallback »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetbitfaillimit
+---
 # fannsetbitfaillimit
 
 (PECL fann> = 1.0.0)

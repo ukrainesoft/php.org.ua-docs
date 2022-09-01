@@ -1,16 +1,11 @@
-Встановлює прапори для SplFileObject
-
--   [« SplFileObject::setCsvControl](splfileobject.setcsvcontrol.md)
-    
--   [SplFileObject::setMaxLineLen »](splfileobject.setmaxlinelen.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Встановлює прапори для SplFileObject
-    
-
+---
+navigation:
+  - splfileobject.setcsvcontrol.md: '« SplFileObject::setCsvControl'
+  - splfileobject.setmaxlinelen.md: 'SplFileObject::setMaxLineLen »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::setFlags'
+---
 # SplFileObject::setFlags
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

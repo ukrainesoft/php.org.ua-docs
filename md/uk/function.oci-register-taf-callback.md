@@ -1,16 +1,11 @@
-Реєструє функцію зворотного виклику для Oracle Database TAF
-
--   [« ocipconnect](function.oci-pconnect.html)
-    
--   [ociresult »](function.oci-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Реєструє функцію зворотного виклику для Oracle Database TAF
-    
-
+---
+navigation:
+  - function.oci-pconnect.html: « ocipconnect
+  - function.oci-result.html: ociresult »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociregistertafcallback
+---
 # ociregistertafcallback
 
 (PHP 7.0 >= 7.0.21, PHP 8, PHP 7 >= 7.1.7, PHP 8, PECL OCI8 >= 2.1.7)

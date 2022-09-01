@@ -1,16 +1,11 @@
-Конструктор об'єкта PharData
-
--   [« PharData::compressFiles](phardata.compressfiles.md)
-    
--   [PharData::convertToData »](phardata.converttodata.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Конструктор об'єкта PharData
-    
-
+---
+navigation:
+  - phardata.compressfiles.md: '« PharData::compressFiles'
+  - phardata.converttodata.md: 'PharData::convertToData »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::construct'
+---
 # PharData::construct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

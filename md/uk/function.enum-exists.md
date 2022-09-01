@@ -1,16 +1,11 @@
-Перевіряє, чи визначено перерахування
-
--   [« classexists](function.class-exists.html)
-    
--   [getcalledclass »](function.get-called-class.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Перевіряє, чи визначено перерахування
-    
-
+---
+navigation:
+  - function.class-exists.html: « classexists
+  - function.get-called-class.html: getcalledclass »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: enumexists
+---
 # enumexists
 
 (PHP 8> = 8.1.0)

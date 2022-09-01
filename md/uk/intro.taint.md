@@ -1,16 +1,11 @@
-Вступ
-
--   [« Taint](book.taint.md)
-    
--   [Встановлення та налаштування »](taint.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Taint](book.taint.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.taint.md: « Taint
+  - taint.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.taint.md: Taint
+title: Вступ
+---
 # Вступ
 
 Taint - модуль, використовуваний визначення кодів XSS (зіпсовані чи підозрілі рядки, tainted strings). Також може використовуватися виявлення спроб використання SQL-ін'єкцій, shell-ін'єкцій тощо.

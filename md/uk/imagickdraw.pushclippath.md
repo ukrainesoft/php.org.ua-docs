@@ -1,16 +1,11 @@
-Запускає визначення шляху відсічного контуру
-
--   [« ImagickDraw::push](imagickdraw.push.html)
-    
--   [ImagickDraw::pushDefs »](imagickdraw.pushdefs.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Запускає визначення шляху відсічного контуру
-    
-
+---
+navigation:
+  - imagickdraw.push.html: '« ImagickDraw::push'
+  - imagickdraw.pushdefs.html: 'ImagickDraw::pushDefs »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pushClipPath'
+---
 # ImagickDraw::pushClipPath
 
 (PECL imagick 2, PECL imagick 3)

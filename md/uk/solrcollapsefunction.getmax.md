@@ -1,16 +1,11 @@
-Повертає максимальне значення
-
--   [« SolrCollapseFunction::getHint](solrcollapsefunction.gethint.html)
-    
--   [SolrCollapseFunction::getMin »](solrcollapsefunction.getmin.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
-    
--   Повертає максимальне значення
-    
-
+---
+navigation:
+  - solrcollapsefunction.gethint.html: '« SolrCollapseFunction::getHint'
+  - solrcollapsefunction.getmin.html: 'SolrCollapseFunction::getMin »'
+  - index.html: PHP Manual
+  - class.solrcollapsefunction.html: SolrCollapseFunction
+title: 'SolrCollapseFunction::getMax'
+---
 # SolrCollapseFunction::getMax
 
 (PECL solr> = 2.2.0)

@@ -1,16 +1,11 @@
-Отримує атрибути із запису у результатах пошуку
-
--   [« ldapfreeresult](function.ldap-free-result.html)
-    
--   [ldapgetdn »](function.ldap-get-dn.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Отримує атрибути із запису у результатах пошуку
-    
-
+---
+navigation:
+  - function.ldap-free-result.html: « ldapfreeresult
+  - function.ldap-get-dn.html: ldapgetdn »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapgetattributes
+---
 # ldapgetattributes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md)     |
-|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

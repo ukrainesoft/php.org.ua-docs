@@ -1,16 +1,11 @@
-Відправляє YAML-подання значення файлу
-
--   [« Функции Yaml](ref.yaml.html)
-    
--   [yamlemit »](function.yaml-emit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Yaml](ref.yaml.html)
-    
--   Відправляє YAML-подання значення файлу
-    
-
+---
+navigation:
+  - ref.yaml.html: « Функции Yaml
+  - function.yaml-emit.html: yamlemit »
+  - index.html: PHP Manual
+  - ref.yaml.html: Функции Yaml
+title: yamlemitfile
+---
 # yamlemitfile
 
 (PECL yaml >= 0.5.0)
@@ -53,8 +48,8 @@ yaml_emit_file(    string $filename,    mixed $data,    int $encodin
 
 ### список змін
 
-| Версия          | Описание                     |
-|-----------------|------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL yaml 1.1.0 | Доданий аргумент `callbacks` |
 
 ### Дивіться також

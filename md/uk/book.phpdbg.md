@@ -1,16 +1,11 @@
-Інтерактивний відладчик PHP
-
--   [« zendversion](function.zend-version.html)
-    
--   [Введение »](intro.phpdbg.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   Інтерактивний відладчик PHP
-    
-
+---
+navigation:
+  - function.zend-version.html: « zendversion
+  - intro.phpdbg.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: Інтерактивний відладчик PHP
+---
 # Інтерактивний відладчик PHP
 
 -   [Введение](intro.phpdbg.md)

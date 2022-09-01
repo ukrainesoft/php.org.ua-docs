@@ -1,16 +1,11 @@
-Асоціює дані з об'єктом у контейнері
-
--   [« SplObjectStorage::offsetGet](splobjectstorage.offsetget.md)
-    
--   [SplObjectStorage::offsetUnset »](splobjectstorage.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Асоціює дані з об'єктом у контейнері
-    
-
+---
+navigation:
+  - splobjectstorage.offsetget.md: '« SplObjectStorage::offsetGet'
+  - splobjectstorage.offsetunset.md: 'SplObjectStorage::offsetUnset »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::offsetSet'
+---
 # SplObjectStorage::offsetSet
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

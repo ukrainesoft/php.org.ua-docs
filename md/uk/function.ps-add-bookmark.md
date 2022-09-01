@@ -1,16 +1,11 @@
-Додає закладку на поточну сторінку
-
--   [« Функції PS](ref.ps.md)
-    
--   [псaddlaunchlink »](function.ps-add-launchlink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Додає закладку на поточну сторінку
-    
-
+---
+navigation:
+  - ref.ps.md: « Функції PS
+  - function.ps-add-launchlink.html: псaddlaunchlink »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псaddbookmark
+---
 # псaddbookmark
 
 (PECL ps >= 1.1.0)

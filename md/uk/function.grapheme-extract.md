@@ -1,16 +1,11 @@
-Функція для отримання послідовності кластерів графем за замовчуванням з текстового буфера, яка повинна бути закодована в UTF-8
-
--   [« Функции Grapheme](ref.intl.grapheme.md)
-    
--   [graphemestripos »](function.grapheme-stripos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Grapheme](ref.intl.grapheme.md)
-    
--   Функція для отримання послідовності кластерів графем за замовчуванням з текстового буфера, яка повинна бути закодована в UTF-8
-    
-
+---
+navigation:
+  - ref.intl.grapheme.md: « Функции Grapheme
+  - function.grapheme-stripos.html: graphemestripos »
+  - index.md: PHP Manual
+  - ref.intl.grapheme.md: Функции Grapheme
+title: graphemeextract
+---
 # graphemeextract
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
@@ -59,9 +54,9 @@ grapheme_extract(    string $haystack,    int $size,    int $type = 
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Додано підтримку негативних значень `offset` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 

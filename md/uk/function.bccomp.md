@@ -1,16 +1,11 @@
-Порівняння двох чисел довільної точності
-
--   [« bcadd](function.bcadd.md)
-    
--   [bcdiv »](function.bcdiv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции BC Math](ref.bc.md)
-    
--   Порівняння двох чисел довільної точності
-    
-
+---
+navigation:
+  - function.bcadd.md: « bcadd
+  - function.bcdiv.md: bcdiv »
+  - index.md: PHP Manual
+  - ref.bc.md: Функции BC Math
+title: bccomp
+---
 # bccomp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ bccomp(string $num1, string $num2, ?int $scale = null): int
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `scale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `scale` тепер допускає значення null. |
 
 ### Приклади
 

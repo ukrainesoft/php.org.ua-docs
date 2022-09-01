@@ -1,16 +1,11 @@
-Повертає ширину обведення, яка використовується для малювання контурів об'єкта.
-
--   [« ImagickDraw::getStrokeOpacity](imagickdraw.getstrokeopacity.html)
-    
--   [ImagickDraw::getTextAlignment »](imagickdraw.gettextalignment.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає ширину обведення, яка використовується для малювання контурів об'єкта.
-    
-
+---
+navigation:
+  - imagickdraw.getstrokeopacity.html: '« ImagickDraw::getStrokeOpacity'
+  - imagickdraw.gettextalignment.html: 'ImagickDraw::getTextAlignment »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getStrokeWidth'
+---
 # ImagickDraw::getStrokeWidth
 
 (PECL imagick 2, PECL imagick 3)

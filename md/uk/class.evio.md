@@ -1,16 +1,11 @@
-Клас EvIo
-
--   [« EvIdle::createStopped](evidle.createstopped.md)
-    
--   [EvIo::construct »](evio.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Клас EvIo
-    
-
+---
+navigation:
+  - evidle.createstopped.md: '« EvIdle::createStopped'
+  - evio.construct.md: 'EvIo::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvIo
+---
 # Клас EvIo
 
 (PECL ev >= 0.2.0)

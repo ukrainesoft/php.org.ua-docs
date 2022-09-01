@@ -1,16 +1,11 @@
-Встановлює значення якості
-
--   [« SolrObject::offsetGet](solrobject.offsetget.html)
-    
--   [SolrObject::offsetUnset »](solrobject.offsetunset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrObject](class.solrobject.html)
-    
--   Встановлює значення якості
-    
-
+---
+navigation:
+  - solrobject.offsetget.html: '« SolrObject::offsetGet'
+  - solrobject.offsetunset.html: 'SolrObject::offsetUnset »'
+  - index.html: PHP Manual
+  - class.solrobject.html: SolrObject
+title: 'SolrObject::offsetSet'
+---
 # SolrObject::offsetSet
 
 (PECL solr> = 0.9.2)

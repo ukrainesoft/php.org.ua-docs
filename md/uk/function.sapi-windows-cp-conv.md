@@ -1,16 +1,11 @@
-Перетворити рядок з однієї кодової сторінки на іншу
-
--   [« phpstripwhitespace](function.php-strip-whitespace.html)
-    
--   [sapiwindowsспget »](function.sapi-windows-cp-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Перетворити рядок з однієї кодової сторінки на іншу
-    
-
+---
+navigation:
+  - function.php-strip-whitespace.html: « phpstripwhitespace
+  - function.sapi-windows-cp-get.html: sapiwindowsспget »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sapiwindowsспconv
+---
 # sapiwindowsспconv
 
 (PHP 7> = 7.1.0, PHP 8)

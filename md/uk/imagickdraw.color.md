@@ -1,16 +1,11 @@
-Малює колір на зображенні
-
--   [« ImagickDraw::clone](imagickdraw.clone.md)
-    
--   [ImagickDraw::comment »](imagickdraw.comment.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює колір на зображенні
-    
-
+---
+navigation:
+  - imagickdraw.clone.md: '« ImagickDraw::clone'
+  - imagickdraw.comment.md: 'ImagickDraw::comment »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::color'
+---
 # ImagickDraw::color
 
 (PECL imagick 2, PECL imagick 3)

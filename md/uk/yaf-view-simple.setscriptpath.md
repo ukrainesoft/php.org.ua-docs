@@ -1,16 +1,11 @@
-Встановлює каталог шаблонів
-
--   [« YafViewSimple::set](yaf-view-simple.set.html)
-    
--   [YafLoader »](class.yaf-loader.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Встановлює каталог шаблонів
-    
-
+---
+navigation:
+  - yaf-view-simple.set.html: '« YafViewSimple::set'
+  - class.yaf-loader.html: YafLoader »
+  - index.md: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::setScriptPath'
+---
 # YafViewSimple::setScriptPath
 
 (Yaf >=1.0.0)

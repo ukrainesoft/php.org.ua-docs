@@ -1,16 +1,11 @@
-Створення нечіткого хешу з файлу
-
--   [« ssdeepfuzzycompare](function.ssdeep-fuzzy-compare.html)
-    
--   [ssdeepfuzzyhash »](function.ssdeep-fuzzy-hash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції ssdeep](ref.ssdeep.html)
-    
--   Створення нечіткого хешу з файлу
-    
-
+---
+navigation:
+  - function.ssdeep-fuzzy-compare.html: « ssdeepfuzzycompare
+  - function.ssdeep-fuzzy-hash.html: ssdeepfuzzyhash »
+  - index.html: PHP Manual
+  - ref.ssdeep.html: Функції ssdeep
+title: ssdeepfuzzyhashfilename
+---
 # ssdeepfuzzyhashfilename
 
 (PECL ssdeep >= 1.0.0)

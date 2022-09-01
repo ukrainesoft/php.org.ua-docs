@@ -1,16 +1,11 @@
-Callback-функції
-
--   [« Приклади](yaml.examples.html)
-    
--   [Callback-функции парсинга »](yaml.callbacks.parse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaml](book.yaml.html)
-    
--   Callback-функції
-    
-
+---
+navigation:
+  - yaml.examples.html: « Приклади
+  - yaml.callbacks.parse.html: Callback-функции парсинга »
+  - index.html: PHP Manual
+  - book.yaml.html: Yaml
+title: Callback-функції
+---
 # Callback-функції
 
 ## Зміст

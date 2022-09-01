@@ -1,16 +1,11 @@
-CommonMark
-
--   [« Обработка текста](refs.basic.text.md)
-    
--   [Введение »](intro.cmark.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка текста](refs.basic.text.md)
-    
--   CommonMark
-    
-
+---
+navigation:
+  - refs.basic.text.md: « Обработка текста
+  - intro.cmark.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.text.md: Обработка текста
+title: CommonMark
+---
 # CommonMark
 
 -   [Введение](intro.cmark.md)

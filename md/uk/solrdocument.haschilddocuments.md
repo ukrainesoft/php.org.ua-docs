@@ -1,16 +1,11 @@
-Перевіряє, чи має документ дочірні документи
-
--   [« SolrDocument::getInputDocument](solrdocument.getinputdocument.html)
-    
--   [SolrDocument::isset »](solrdocument.isset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Перевіряє, чи має документ дочірні документи
-    
-
+---
+navigation:
+  - solrdocument.getinputdocument.html: '« SolrDocument::getInputDocument'
+  - solrdocument.isset.html: 'SolrDocument::isset »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::hasChildDocuments'
+---
 # SolrDocument::hasChildDocuments
 
 (PECL solr> = 2.3.0)

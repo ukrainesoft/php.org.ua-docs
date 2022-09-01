@@ -1,16 +1,11 @@
-Закриває результуючий набір
-
--   [« SQLite3Result::fetchArray](sqlite3result.fetcharray.html)
-    
--   [SQLite3Result::numColumns »](sqlite3result.numcolumns.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3Result](class.sqlite3result.html)
-    
--   Закриває результуючий набір
-    
-
+---
+navigation:
+  - sqlite3result.fetcharray.html: '« SQLite3Result::fetchArray'
+  - sqlite3result.numcolumns.html: 'SQLite3Result::numColumns »'
+  - index.html: PHP Manual
+  - class.sqlite3result.html: SQLite3Result
+title: 'SQLite3Result::finalize'
+---
 # SQLite3Result::finalize
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

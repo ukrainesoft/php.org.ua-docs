@@ -1,16 +1,11 @@
-Компіляція та складання
-
--   [« Пререквізити](wincache.win32build.prereq.md)
-    
--   [Проверка сборки »](wincache.win32build.verify.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сборка для Windows](wincache.win32build.md)
-    
--   Компіляція та складання
-    
-
+---
+navigation:
+  - wincache.win32build.prereq.md: « Пререквізити
+  - wincache.win32build.verify.md: Проверка сборки »
+  - index.md: PHP Manual
+  - wincache.win32build.md: Сборка для Windows
+title: Компіляція та складання
+---
 ## Компіляція та складання
 
 Наступні кроки описують, як компілювати та збирати WinCache під Windows OS:

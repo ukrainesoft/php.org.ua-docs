@@ -1,16 +1,11 @@
-Клас MemcachedException
-
--   [« Memcached::touchByKey](memcached.touchbykey.html)
-    
--   [mqseries »](book.mqseries.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](book.memcached.html)
-    
--   Клас MemcachedException
-    
-
+---
+navigation:
+  - memcached.touchbykey.html: '« Memcached::touchByKey'
+  - book.mqseries.html: mqseries »
+  - index.html: PHP Manual
+  - book.memcached.html: Memcached
+title: Клас MemcachedException
+---
 # Клас MemcachedException
 
 (PECL memcached >= 0.1.0)

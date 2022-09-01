@@ -1,16 +1,11 @@
-Пошук позиції першого входження одного рядка до іншого
-
--   [« mbstrlen](function.mb-strlen.html)
-    
--   [мбstrrchr »](function.mb-strrchr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Пошук позиції першого входження одного рядка до іншого
-    
-
+---
+navigation:
+  - function.mb-strlen.html: « mbstrlen
+  - function.mb-strrchr.html: мбstrrchr »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrpos
+---
 # мбstrpos
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -51,11 +46,11 @@ mb_strpos(    string $haystack,    string $needle,    int $offset = 
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | `needle` тепер приймає порожній рядок.                      |
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
-|        | Додано підтримку негативних значень `offset`                |
+| Версия | Описание |
+| --- | --- |
+|  | `needle` тепер приймає порожній рядок. |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Дивіться також
 

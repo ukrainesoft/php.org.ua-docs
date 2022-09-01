@@ -1,16 +1,11 @@
-Повертає поточну позначку системного часу Unix
-
--   [« strtotime](function.strtotime.html)
-    
--   [timezoneabbreviationslist »](function.timezone-abbreviations-list.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції дати та часу](ref.datetime.html)
-    
--   Повертає поточну позначку системного часу Unix
-    
-
+---
+navigation:
+  - function.strtotime.html: « strtotime
+  - function.timezone-abbreviations-list.html: timezoneabbreviationslist »
+  - index.html: PHP Manual
+  - ref.datetime.html: Функції дати та часу
+title: time
+---
 # time
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

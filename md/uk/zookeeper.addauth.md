@@ -1,16 +1,11 @@
-Вказує облікові дані програми
-
--   [« Zookeeper](class.zookeeper.md)
-    
--   [Zookeeper::close »](zookeeper.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Вказує облікові дані програми
-    
-
+---
+navigation:
+  - class.zookeeper.md: « Zookeeper
+  - zookeeper.close.md: 'Zookeeper::close »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::addAuth'
+---
 # Zookeeper::addAuth
 
 (PECL zookeeper >= 0.1.0)

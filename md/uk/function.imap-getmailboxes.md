@@ -1,16 +1,11 @@
-Прочитати список поштових скриньок, повертаючи докладну інформацію по кожному з них
-
--   [« imapgetacl](function.imap-getacl.html)
-    
--   [imapgetsubscribed »](function.imap-getsubscribed.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Прочитати список поштових скриньок, повертаючи докладну інформацію по кожному з них
-    
-
+---
+navigation:
+  - function.imap-getacl.html: « imapgetacl
+  - function.imap-getsubscribed.html: imapgetsubscribed »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapgetmailboxes
+---
 # imapgetmailboxes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -68,9 +63,9 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

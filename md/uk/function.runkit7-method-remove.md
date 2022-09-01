@@ -1,16 +1,11 @@
-Динамічно видаляє заданий метод
-
--   [« runkit7methodredefine](function.runkit7-method-redefine.html)
-    
--   [runkit7methodrename »](function.runkit7-method-rename.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Динамічно видаляє заданий метод
-    
-
+---
+navigation:
+  - function.runkit7-method-redefine.html: « runkit7methodredefine
+  - function.runkit7-method-rename.html: runkit7methodrename »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7методremove
+---
 # runkit7методremove
 
 (PECL runkit7> = Unknown)

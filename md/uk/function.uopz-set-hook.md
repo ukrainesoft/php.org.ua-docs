@@ -1,16 +1,11 @@
-Встановлює обробник для виконання під час виклику функції або методу
-
--   [« uopzrestore](function.uopz-restore.html)
-    
--   [uopzsetmock »](function.uopz-set-mock.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Встановлює обробник для виконання під час виклику функції або методу
-    
-
+---
+navigation:
+  - function.uopz-restore.html: « uopzrestore
+  - function.uopz-set-mock.html: uopzsetmock »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzsethook
+---
 # uopzsethook
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

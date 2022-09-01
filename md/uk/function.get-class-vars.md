@@ -1,16 +1,11 @@
-Повертає оголошені за умовчанням властивості класу
-
--   [« getclassmethods](function.get-class-methods.html)
-    
--   [getclass »](function.get-class.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Повертає оголошені за умовчанням властивості класу
-    
-
+---
+navigation:
+  - function.get-class-methods.html: « getclassmethods
+  - function.get-class.html: getclass »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getclassvars
+---
 # getclassvars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

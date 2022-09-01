@@ -1,16 +1,11 @@
-Каталоги
-
--   [« diowrite](function.dio-write.html)
-    
--   [Встановлення та налаштування »](dir.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
-    
--   Каталоги
-    
-
+---
+navigation:
+  - function.dio-write.html: « diowrite
+  - dir.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - refs.fileprocess.file.html: Модулі для роботи з файловою системою
+title: Каталоги
+---
 # Каталоги
 
 -   [Встановлення та налаштування](dir.setup.html)

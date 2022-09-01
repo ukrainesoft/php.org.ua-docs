@@ -1,16 +1,11 @@
-Інтерфейс SeekableIterator
-
--   [« RecursiveIterator::hasChildren](recursiveiterator.haschildren.md)
-    
--   [SeekableIterator::seek »](seekableiterator.seek.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інтерфейси](spl.interfaces.md)
-    
--   Інтерфейс SeekableIterator
-    
-
+---
+navigation:
+  - recursiveiterator.haschildren.md: '« RecursiveIterator::hasChildren'
+  - seekableiterator.seek.md: 'SeekableIterator::seek »'
+  - index.md: PHP Manual
+  - spl.interfaces.md: Інтерфейси
+title: Інтерфейс SeekableIterator
+---
 # Інтерфейс SeekableIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

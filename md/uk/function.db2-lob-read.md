@@ -1,16 +1,11 @@
-Отримує певний користувачем розмір LOB-файлів під час кожного виклику
-
--   [« db2lastinsertід](function.db2-last-insert-id.html)
-    
--   [db2nextresult »](function.db2-next-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Отримує певний користувачем розмір LOB-файлів під час кожного виклику
-    
-
+---
+navigation:
+  - function.db2-last-insert-id.html: « db2lastinsertід
+  - function.db2-next-result.html: db2nextresult »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2лобread
+---
 # db2лобread
 
 (PECL ibmdb2> = 1.6.0)

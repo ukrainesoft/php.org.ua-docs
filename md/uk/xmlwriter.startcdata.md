@@ -1,16 +1,11 @@
-Створити початковий тег CDATA
-
--   [« XMLWriter::startAttributeNs](xmlwriter.startattributens.html)
-    
--   [XMLWriter::startComment »](xmlwriter.startcomment.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Створити початковий тег CDATA
-    
-
+---
+navigation:
+  - xmlwriter.startattributens.html: '« XMLWriter::startAttributeNs'
+  - xmlwriter.startcomment.html: 'XMLWriter::startComment »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::startCdata'
+---
 # XMLWriter::startCdata
 
 # xmlwriterstartcdata
@@ -47,9 +42,9 @@ xmlwriter_start_cdata(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

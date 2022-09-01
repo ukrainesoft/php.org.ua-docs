@@ -1,16 +1,11 @@
-Запускає http-сервер swoole
-
--   [« SwooleHttpServer::on](swoole-http-server.on.html)
-    
--   [SwooleLock »](class.swoole-lock.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpServer](class.swoole-http-server.html)
-    
--   Запускає http-сервер swoole
-    
-
+---
+navigation:
+  - swoole-http-server.on.html: '« SwooleHttpServer::on'
+  - class.swoole-lock.html: SwooleLock »
+  - index.html: PHP Manual
+  - class.swoole-http-server.html: SwooleHttpServer
+title: 'SwooleHttpServer::start'
+---
 # SwooleHttpServer::start
 
 (PECL swoole >= 1.9.0)

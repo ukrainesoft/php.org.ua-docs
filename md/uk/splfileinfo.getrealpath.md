@@ -1,16 +1,11 @@
-Отримує абсолютний шлях до файлу
-
--   [« SplFileInfo::getPerms](splfileinfo.getperms.md)
-    
--   [SplFileInfo::getSize »](splfileinfo.getsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує абсолютний шлях до файлу
-    
-
+---
+navigation:
+  - splfileinfo.getperms.md: '« SplFileInfo::getPerms'
+  - splfileinfo.getsize.md: 'SplFileInfo::getSize »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getRealPath'
+---
 # SplFileInfo::getRealPath
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

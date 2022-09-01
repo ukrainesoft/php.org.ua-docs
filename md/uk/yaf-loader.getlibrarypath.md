@@ -1,16 +1,11 @@
-Отримує шлях до бібліотеки
-
--   [« YafLoader::getInstance](yaf-loader.getinstance.html)
-    
--   [YafLoader::getLocalNamespace »](yaf-loader.getlocalnamespace.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Отримує шлях до бібліотеки
-    
-
+---
+navigation:
+  - yaf-loader.getinstance.html: '« YafLoader::getInstance'
+  - yaf-loader.getlocalnamespace.html: 'YafLoader::getLocalNamespace »'
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::getLibraryPath'
+---
 # YafLoader::getLibraryPath
 
 (Yaf> = 2.1.4)

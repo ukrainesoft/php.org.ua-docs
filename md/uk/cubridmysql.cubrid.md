@@ -1,16 +1,11 @@
-Функції сумісності CUBRID MySQL
-
--   [« cubridversion](function.cubrid-version.html)
-    
--   [cubridaffectedrows »](function.cubrid-affected-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [CUBRID](book.cubrid.html)
-    
--   Функції сумісності CUBRID MySQL
-    
-
+---
+navigation:
+  - function.cubrid-version.html: « cubridversion
+  - function.cubrid-affected-rows.html: cubridaffectedrows »
+  - index.html: PHP Manual
+  - book.cubrid.html: CUBRID
+title: Функції сумісності CUBRID MySQL
+---
 # Функції сумісності CUBRID MySQL
 
 ## Зміст

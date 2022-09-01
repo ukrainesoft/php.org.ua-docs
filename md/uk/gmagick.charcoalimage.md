@@ -1,16 +1,11 @@
-Імітація малювання вугіллям
-
--   [« Gmagick::borderimage](gmagick.borderimage.md)
-    
--   [Gmagick::chopimage »](gmagick.chopimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Імітація малювання вугіллям
-    
-
+---
+navigation:
+  - gmagick.borderimage.md: '« Gmagick::borderimage'
+  - gmagick.chopimage.md: 'Gmagick::chopimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::charcoalimage'
+---
 # Gmagick::charcoalimage
 
 (PECL gmagick >= Unknown)

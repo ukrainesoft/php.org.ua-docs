@@ -1,16 +1,11 @@
-Натуральний логарифм
-
--   [« log1p](function.log1p.md)
-    
--   [max »](function.max.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Натуральний логарифм
-    
-
+---
+navigation:
+  - function.log1p.md: « log1p
+  - function.max.md: max »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: log
+---
 # log
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

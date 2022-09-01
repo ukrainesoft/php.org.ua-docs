@@ -1,16 +1,11 @@
-Встановлення зображення, яке буде використано як елемент мозаїчної заливки
-
--   [« imagesetthickness](function.imagesetthickness.md)
-    
--   [imagestring »](function.imagestring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Встановлення зображення, яке буде використано як елемент мозаїчної заливки
-    
-
+---
+navigation:
+  - function.imagesetthickness.md: « imagesetthickness
+  - function.imagestring.md: imagestring »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagesettile
+---
 # imagesettile
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ imagesettile(GdImage $image, GdImage $tile): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------------------|
-|        | `image` і `tile` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` і `tile` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

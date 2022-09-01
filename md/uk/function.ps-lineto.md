@@ -1,16 +1,11 @@
-Малює лінію
-
--   [«psincludefile](function.ps-include-file.html)
-    
--   [псmakespotcolor »](function.ps-makespotcolor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Малює лінію
-    
-
+---
+navigation:
+  - function.ps-include-file.html: «psincludefile
+  - function.ps-makespotcolor.html: псmakespotcolor »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псlineto
+---
 # псlineto
 
 (PECL ps >= 1.1.0)

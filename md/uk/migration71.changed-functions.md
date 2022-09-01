@@ -1,16 +1,11 @@
-Змінені функції
-
--   [« Функціонал, оголошений застарілим у PHP 7.1.x](migration71.deprecated.md)
-    
--   [Прочие изменения »](migration71.other-changes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
-    
--   Змінені функції
-    
-
+---
+navigation:
+  - migration71.deprecated.md: '« Функціонал, оголошений застарілим у PHP 7.1.x'
+  - migration71.other-changes.html: Прочие изменения »
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Змінені функції
+---
 ## Змінені функції
 
 ### Ядро PHP

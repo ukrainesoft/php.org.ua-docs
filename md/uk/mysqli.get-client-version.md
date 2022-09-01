@@ -1,16 +1,11 @@
-Повертає інформацію про клієнта MySQL у вигляді рядка
-
--   [« mysqli::$clientinfo](mysqli.get-client-info.html)
-    
--   [mysqli::getconnectionstats »](mysqli.get-connection-stats.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає інформацію про клієнта MySQL у вигляді рядка
-    
-
+---
+navigation:
+  - mysqli.get-client-info.html: '« mysqli::$clientinfo'
+  - mysqli.get-connection-stats.html: 'mysqli::getconnectionstats »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::$clientversion'
+---
 # mysqli::$clientversion
 
 # mysqligetclientversion

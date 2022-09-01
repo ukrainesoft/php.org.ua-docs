@@ -1,16 +1,11 @@
-Отримує та/або встановлює термін дії поточного кешу
-
--   [« sessionabort](function.session-abort.html)
-    
--   [sessioncachelimiter »](function.session-cache-limiter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Отримує та/або встановлює термін дії поточного кешу
-    
-
+---
+navigation:
+  - function.session-abort.html: « sessionabort
+  - function.session-cache-limiter.html: sessioncachelimiter »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessioncacheexpire
+---
 # sessioncacheexpire
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ session_cache_expire(?int $value = null): int|false
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `value` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `value` може набувати значення **`null`** |
 
 ### Приклади
 

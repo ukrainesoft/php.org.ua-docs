@@ -1,16 +1,11 @@
-Встановлює схему для значень, що повертаються
-
--   [« yazscan](function.yaz-scan.html)
-    
--   [yazsearch »](function.yaz-search.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Встановлює схему для значень, що повертаються
-    
-
+---
+navigation:
+  - function.yaz-scan.html: « yazscan
+  - function.yaz-search.html: yazsearch »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazschema
+---
 # yazschema
 
 (PHP 4> = 4.2.0, PECL yaz> = 0.9.0)

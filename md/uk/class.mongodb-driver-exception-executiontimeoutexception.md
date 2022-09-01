@@ -1,16 +1,11 @@
-Клас MongoDBDriverExceptionExecutionTimeoutException
-
--   [« MongoDBDriverExceptionException](class.mongodb-driver-exception-exception.html)
-    
--   [MongoDBDriverExceptionInvalidArgumentException »](class.mongodb-driver-exception-invalidargumentexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverException](mongodb.exceptions.html)
-    
--   Клас MongoDBDriverExceptionExecutionTimeoutException
-    
-
+---
+navigation:
+  - class.mongodb-driver-exception-exception.html: « MongoDBDriverExceptionException
+  - class.mongodb-driver-exception-invalidargumentexception.html: MongoDBDriverExceptionInvalidArgumentException »
+  - index.html: PHP Manual
+  - mongodb.exceptions.html: MongoDBDriverException
+title: Клас MongoDBDriverExceptionExecutionTimeoutException
+---
 # Клас MongoDBDriverExceptionExecutionTimeoutException
 
 (mongodb >= 1.0.0)
@@ -92,7 +87,7 @@ private Exception::__clone(): void
 
 ## список змін
 
-| Версия                                                                                                                                                                                                                      | Описание |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.5.0                                                                                                                                                                                                          |          |
-| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.5.0 |  |
+| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |  |

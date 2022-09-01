@@ -1,16 +1,11 @@
-Різні функції
-
--   [« LuaSandboxTimeoutError](class.luasandboxtimeouterror.md)
-    
--   [Введение »](intro.misc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Різні функції
-    
-
+---
+navigation:
+  - class.luasandboxtimeouterror.md: « LuaSandboxTimeoutError
+  - intro.misc.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Різні функції
+---
 # Різні функції
 
 -   [Введение](intro.misc.md)

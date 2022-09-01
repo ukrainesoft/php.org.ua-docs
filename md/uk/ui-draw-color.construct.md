@@ -1,16 +1,11 @@
-Створити новий об'єкт Color
-
--   [« UIDrawColor](class.ui-draw-color.html)
-    
--   [ОЙDrawColor::getChannel »](ui-draw-color.getchannel.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawColor](class.ui-draw-color.html)
-    
--   Створити новий об'єкт Color
-    
-
+---
+navigation:
+  - class.ui-draw-color.html: « UIDrawColor
+  - ui-draw-color.getchannel.html: 'ОЙDrawColor::getChannel »'
+  - index.md: PHP Manual
+  - class.ui-draw-color.html: ОЙDrawColor
+title: 'ОЙDrawColor::construct'
+---
 # ОЙDrawColor::construct
 
 (UI 0.9.9)

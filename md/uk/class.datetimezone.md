@@ -1,16 +1,11 @@
-Клас DateTimeZone
-
--   [« DateTime::wakeup](datetime.wakeup.md)
-    
--   [DateTimeZone::construct »](datetimezone.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Дата/время](book.datetime.md)
-    
--   Клас DateTimeZone
-    
-
+---
+navigation:
+  - datetime.wakeup.md: '« DateTime::wakeup'
+  - datetimezone.construct.md: 'DateTimeZone::construct »'
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Клас DateTimeZone
+---
 # Клас DateTimeZone
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Метод видаляє запис із хешу
-
--   [« QuickHashIntHash::construct](quickhashinthash.construct.md)
-    
--   [QuickHashIntHash::exists »](quickhashinthash.exists.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntHash](class.quickhashinthash.md)
-    
--   Метод видаляє запис із хешу
-    
-
+---
+navigation:
+  - quickhashinthash.construct.md: '« QuickHashIntHash::construct'
+  - quickhashinthash.exists.md: 'QuickHashIntHash::exists »'
+  - index.md: PHP Manual
+  - class.quickhashinthash.md: QuickHashIntHash
+title: 'QuickHashIntHash::delete'
+---
 # QuickHashIntHash::delete
 
 (PECL quickhash >= Unknown)

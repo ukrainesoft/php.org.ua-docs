@@ -1,16 +1,11 @@
-Визначення повного екрану
-
--   [« UIWindow::hasMargin](ui-window.hasmargin.html)
-    
--   [ОЙWindow::msg »](ui-window.msg.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Визначення повного екрану
-    
-
+---
+navigation:
+  - ui-window.hasmargin.html: '« UIWindow::hasMargin'
+  - ui-window.msg.html: 'ОЙWindow::msg »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::isFullScreen'
+---
 # ОЙWindow::isFullScreen
 
 (UI 0.9.9)

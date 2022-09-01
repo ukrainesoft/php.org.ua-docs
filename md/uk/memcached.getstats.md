@@ -1,16 +1,11 @@
-Отримує статистику про сервери в пулі
-
--   [« Memcached::getServerList](memcached.getserverlist.html)
-    
--   [Memcached::getVersion »](memcached.getversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Отримує статистику про сервери в пулі
-    
-
+---
+navigation:
+  - memcached.getserverlist.html: '« Memcached::getServerList'
+  - memcached.getversion.html: 'Memcached::getVersion »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::getStats'
+---
 # Memcached::getStats
 
 (PECL memcached >= 0.1.0)

@@ -1,16 +1,11 @@
-Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
-
--   [« fanncreatefromfile](function.fann-create-from-file.html)
-    
--   [fanncreateshortcut »](function.fann-create-shortcut.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
-    
-
+---
+navigation:
+  - function.fann-create-from-file.html: « fanncreatefromfile
+  - function.fann-create-shortcut.html: fanncreateshortcut »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanncreateshortcutarray
+---
 # fanncreateshortcutarray
 
 (PECL fann> = 1.0.0)

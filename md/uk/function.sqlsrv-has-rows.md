@@ -1,16 +1,11 @@
-Вказує, чи є у вказаного оператора рядки
-
--   [« sqlsrvgetfield](function.sqlsrv-get-field.html)
-    
--   [sqlsrvnextresult »](function.sqlsrv-next-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Вказує, чи є у вказаного оператора рядки
-    
-
+---
+navigation:
+  - function.sqlsrv-get-field.html: « sqlsrvgetfield
+  - function.sqlsrv-next-result.html: sqlsrvnextresult »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvhasrows
+---
 # sqlsrvhasrows
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](array.resources.md)
-    
--   [Сортування масивів »](array.sorting.md)
-    
--   [PHP Manual](index.md)
-    
--   [Масиви](book.array.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - array.resources.md: « Типи ресурсів
+  - array.sorting.md: Сортування масивів »
+  - index.md: PHP Manual
+  - book.array.md: Масиви
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи завжди доступні як частина ядра PHP.

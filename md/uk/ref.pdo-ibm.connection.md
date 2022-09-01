@@ -1,16 +1,11 @@
-З'єднання з базою даних IBM
-
--   [« IBM (PDO)](ref.pdo-ibm.html)
-    
--   [Informix (PDO) »](ref.pdo-informix.html)
-    
--   [PHP Manual](index.html)
-    
--   [IBM (PDO)](ref.pdo-ibm.html)
-    
--   З'єднання з базою даних IBM
-    
-
+---
+navigation:
+  - ref.pdo-ibm.html: « IBM (PDO)
+  - ref.pdo-informix.html: Informix (PDO) »
+  - index.html: PHP Manual
+  - ref.pdo-ibm.html: IBM (PDO)
+title: PDOIBM DSN
+---
 # PDOIBM DSN
 
 (PECL PDOIBM >= 0.9.0)

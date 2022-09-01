@@ -1,16 +1,11 @@
-Перевіряє, чи допустимо NULL
-
--   [« ReflectionType](class.reflectiontype.md)
-    
--   [ReflectionType::toString »](reflectiontype.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionType](class.reflectiontype.md)
-    
--   Перевіряє, чи допустимо NULL
-    
-
+---
+navigation:
+  - class.reflectiontype.md: « ReflectionType
+  - reflectiontype.tostring.md: 'ReflectionType::toString »'
+  - index.md: PHP Manual
+  - class.reflectiontype.md: ReflectionType
+title: 'ReflectionType::allowsNull'
+---
 # ReflectionType::allowsNull
 
 (PHP 7, PHP 8)

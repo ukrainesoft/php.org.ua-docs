@@ -1,16 +1,11 @@
-Отримує кількість порушених рядків
-
--   [« Result::construct](mysql-xdevapi-result.construct.html)
-    
--   [Result::getAutoIncrementValue »](mysql-xdevapi-result.getautoincrementvalue.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
-    
--   Отримує кількість порушених рядків
-    
-
+---
+navigation:
+  - mysql-xdevapi-result.construct.html: '« Result::construct'
+  - mysql-xdevapi-result.getautoincrementvalue.html: 'Result::getAutoIncrementValue »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+title: 'Result::getAffectedItemsCount'
+---
 # Result::getAffectedItemsCount
 
 (No version information available, might only be in Git)

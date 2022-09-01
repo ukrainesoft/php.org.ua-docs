@@ -1,16 +1,11 @@
-Опитати всі елементи пулу
-
--   [« ZMQPoll::getLastErrors](zmqpoll.getlasterrors.html)
-    
--   [ZMQPoll::remove »](zmqpoll.remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQPoll](class.zmqpoll.html)
-    
--   Опитати всі елементи пулу
-    
-
+---
+navigation:
+  - zmqpoll.getlasterrors.html: '« ZMQPoll::getLastErrors'
+  - zmqpoll.remove.html: 'ZMQPoll::remove »'
+  - index.html: PHP Manual
+  - class.zmqpoll.html: ZMQPoll
+title: 'ZMQPoll::poll'
+---
 # ZMQPoll::poll
 
 (PECL zmq >= 0.5.0)

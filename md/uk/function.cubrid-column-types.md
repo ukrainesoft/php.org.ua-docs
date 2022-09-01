@@ -1,16 +1,11 @@
-Отримати типи стовпців у результуючому наборі
-
--   [« cubridcolumnnames](function.cubrid-column-names.html)
-    
--   [cubridcommit »](function.cubrid-commit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримати типи стовпців у результуючому наборі
-    
-
+---
+navigation:
+  - function.cubrid-column-names.html: « cubridcolumnnames
+  - function.cubrid-commit.html: cubridcommit »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridcolumntypes
+---
 # cubridcolumntypes
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Виконує пошук та заміну за регулярним виразом за допомогою багатобайтових кодувань використовуючи callback-функцію
-
--   [« mberegmatch](function.mb-ereg-match.html)
-    
--   [мбeregreplace »](function.mb-ereg-replace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Виконує пошук та заміну за регулярним виразом за допомогою багатобайтових кодувань використовуючи callback-функцію
-    
-
+---
+navigation:
+  - function.mb-ereg-match.html: « mberegmatch
+  - function.mb-ereg-replace.html: мбeregreplace »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбeregreplacecallback
+---
 # мбeregreplacecallback
 
 (PHP 5> = 5.4.1, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ mb_ereg_replace_callback(    string $pattern,    callable $callback,  
 
 ### список змін
 
-| Версия | Описание                                                         |
-|--------|------------------------------------------------------------------|
-|        | `options` тепер допускає значення null.                          |
-|        | Функція перевіряє, чи коректна `string` для поточного кодування. |
+| Версия | Описание |
+| --- | --- |
+|  | `options` тепер допускає значення null. |
+|  | Функція перевіряє, чи коректна `string` для поточного кодування. |
 
 ### Приклади
 

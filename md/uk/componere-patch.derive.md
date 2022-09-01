@@ -1,16 +1,11 @@
-Отримання патчу
-
--   [« ComponerePatch::isApplied](componere-patch.isapplied.html)
-    
--   [ComponerePatch::getClosure »](componere-patch.getclosure.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponerePatch](class.componere-patch.html)
-    
--   Отримання патчу
-    
-
+---
+navigation:
+  - componere-patch.isapplied.html: '« ComponerePatch::isApplied'
+  - componere-patch.getclosure.html: 'ComponerePatch::getClosure »'
+  - index.md: PHP Manual
+  - class.componere-patch.html: ComponerePatch
+title: 'ComponerePatch::derive'
+---
 # ComponerePatch::derive
 
 (Componere 2 >= 2.1.1)

@@ -1,16 +1,11 @@
-Винятки FFI
-
--   [« FFICType::getStructFieldType](ffi-ctype.getstructfieldtype.html)
-    
--   [FFIParserException »](class.ffi-parserexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](book.ffi.html)
-    
--   Винятки FFI
-    
-
+---
+navigation:
+  - ffi-ctype.getstructfieldtype.html: '« FFICType::getStructFieldType'
+  - class.ffi-parserexception.html: FFIParserException »
+  - index.html: PHP Manual
+  - book.ffi.html: FFI
+title: Винятки FFI
+---
 # Винятки FFI
 
 (PHP 7> = 7.4.0, PHP 8)

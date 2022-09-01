@@ -1,16 +1,11 @@
-Повертає кодування поточного з'єднання CUBRID
-
--   [« cubridaffectedrows](function.cubrid-affected-rows.html)
-    
--   [cubridclose »](function.cubrid-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Повертає кодування поточного з'єднання CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-affected-rows.html: « cubridaffectedrows
+  - function.cubrid-close.html: cubridclose »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridclientencoding
+---
 # cubridclientencoding
 
 (PECL CUBRID >= 8.3.1)

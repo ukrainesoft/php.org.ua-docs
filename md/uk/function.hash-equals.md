@@ -1,16 +1,11 @@
-Порівняння рядків, нечутливе до атак за часом
-
--   [« hashcopy](function.hash-copy.html)
-    
--   [hashfile »](function.hash-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Порівняння рядків, нечутливе до атак за часом
-    
-
+---
+navigation:
+  - function.hash-copy.html: « hashcopy
+  - function.hash-file.html: hashfile »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashequals
+---
 # hashequals
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

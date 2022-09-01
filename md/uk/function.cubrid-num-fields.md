@@ -1,16 +1,11 @@
-Отримати кількість стовпців у результуючому наборі
-
--   [« cubridlistdbs](function.cubrid-list-dbs.html)
-    
--   [cubridping »](function.cubrid-ping.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Отримати кількість стовпців у результуючому наборі
-    
-
+---
+navigation:
+  - function.cubrid-list-dbs.html: « cubridlistdbs
+  - function.cubrid-ping.html: cubridping »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridnumfields
+---
 # cubridnumfields
 
 (PECL CUBRID >= 8.3.0)

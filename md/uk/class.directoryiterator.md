@@ -1,16 +1,11 @@
-Клас DirectoryIterator
-
--   [« CallbackFilterIterator::construct](callbackfilteriterator.construct.md)
-    
--   [DirectoryIterator::construct »](directoryiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас DirectoryIterator
-    
-
+---
+navigation:
+  - callbackfilteriterator.construct.md: '« CallbackFilterIterator::construct'
+  - directoryiterator.construct.md: 'DirectoryIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас DirectoryIterator
+---
 # Клас DirectoryIterator
 
 (PHP 5, PHP 7, PHP 8)

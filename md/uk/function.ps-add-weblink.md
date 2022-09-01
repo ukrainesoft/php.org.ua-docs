@@ -1,16 +1,11 @@
-Додає посилання на веб-сторінку
-
--   [«psaddpdflink](function.ps-add-pdflink.html)
-    
--   [псarc »](function.ps-arc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Додає посилання на веб-сторінку
-    
-
+---
+navigation:
+  - function.ps-add-pdflink.html: «psaddpdflink
+  - function.ps-arc.html: псarc »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псaddweblink
+---
 # псaddweblink
 
 (PECL ps >= 1.1.0)

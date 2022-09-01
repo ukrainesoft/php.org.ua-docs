@@ -1,16 +1,11 @@
-Щільність ймовірності розподілу Вейбулла
-
--   [« statsdensuniform](function.stats-dens-uniform.html)
-    
--   [statsharmonicmean »](function.stats-harmonic-mean.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Щільність ймовірності розподілу Вейбулла
-    
-
+---
+navigation:
+  - function.stats-dens-uniform.html: « statsdensuniform
+  - function.stats-harmonic-mean.html: statsharmonicmean »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsdensweibull
+---
 # statsdensweibull
 
 (PECL stats >= 1.0.0)

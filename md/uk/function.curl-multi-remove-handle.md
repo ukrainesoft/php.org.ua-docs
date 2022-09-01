@@ -1,16 +1,11 @@
-Видаляє cURL дескриптор з набору cURL дескрипторів
-
--   [« curlmultiinit](function.curl-multi-init.html)
-    
--   [curlmultiselect »](function.curl-multi-select.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Видаляє cURL дескриптор з набору cURL дескрипторів
-    
-
+---
+navigation:
+  - function.curl-multi-init.html: « curlmultiinit
+  - function.curl-multi-select.html: curlmultiselect »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlmultiremovehandle
+---
 # curlmultiremovehandle
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ curl_multi_remove_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource).                               |
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

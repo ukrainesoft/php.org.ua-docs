@@ -1,16 +1,11 @@
-Клас MongoDBDriverExceptionBulkWriteException
-
--   [« MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
-    
--   [MongoDBDriverExceptionCommandException »](class.mongodb-driver-exception-commandexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverException](mongodb.exceptions.html)
-    
--   Клас MongoDBDriverExceptionBulkWriteException
-    
-
+---
+navigation:
+  - class.mongodb-driver-exception-authenticationexception.html: « MongoDBDriverExceptionAuthenticationException
+  - class.mongodb-driver-exception-commandexception.html: MongoDBDriverExceptionCommandException »
+  - index.html: PHP Manual
+  - mongodb.exceptions.html: MongoDBDriverException
+title: Клас MongoDBDriverExceptionBulkWriteException
+---
 # Клас MongoDBDriverExceptionBulkWriteException
 
 (mongodb >= 1.0.0)

@@ -1,16 +1,11 @@
-Порівняння рядків з урахуванням поточної локалі
-
--   [« strcmp](function.strcmp.md)
-    
--   [strcspn »](function.strcspn.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Порівняння рядків з урахуванням поточної локалі
-    
-
+---
+navigation:
+  - function.strcmp.md: « strcmp
+  - function.strcspn.md: strcspn »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strcoll
+---
 # strcoll
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

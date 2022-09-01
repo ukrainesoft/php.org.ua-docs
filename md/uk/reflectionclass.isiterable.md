@@ -1,16 +1,11 @@
-Перевірити, чи клас ітерується
-
--   [« ReflectionClass::isInternal](reflectionclass.isinternal.md)
-    
--   [ReflectionClass::isIterateable »](reflectionclass.isiterateable.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевірити, чи клас ітерується
-    
-
+---
+navigation:
+  - reflectionclass.isinternal.md: '« ReflectionClass::isInternal'
+  - reflectionclass.isiterateable.md: 'ReflectionClass::isIterateable »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isIterable'
+---
 # ReflectionClass::isIterable
 
 (PHP 7> = 7.2.0, PHP 8)

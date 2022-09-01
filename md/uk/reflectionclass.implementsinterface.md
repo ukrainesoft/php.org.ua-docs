@@ -1,16 +1,11 @@
-Перевіряє, чи реалізується інтерфейс
-
--   [« ReflectionClass::hasProperty](reflectionclass.hasproperty.md)
-    
--   [ReflectionClass::inNamespace »](reflectionclass.innamespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи реалізується інтерфейс
-    
-
+---
+navigation:
+  - reflectionclass.hasproperty.md: '« ReflectionClass::hasProperty'
+  - reflectionclass.innamespace.md: 'ReflectionClass::inNamespace »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::implementsInterface'
+---
 # ReflectionClass::implementsInterface
 
 (PHP 5, PHP 7, PHP 8)

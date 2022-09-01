@@ -1,16 +1,11 @@
-Псевдонім SimpleXMLElement::asXML
-
--   [« SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md)
-    
--   [SimpleXMLElement::toString »](simplexmlelement.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Псевдонім SimpleXMLElement::asXML
-    
-
+---
+navigation:
+  - simplexmlelement.registerxpathnamespace.md: '« SimpleXMLElement::registerXPathNamespace'
+  - simplexmlelement.tostring.md: 'SimpleXMLElement::toString »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::saveXML'
+---
 # SimpleXMLElement::saveXML
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

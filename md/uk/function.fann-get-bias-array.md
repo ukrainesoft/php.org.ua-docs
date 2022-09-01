@@ -1,16 +1,11 @@
-Отримує кількість зсувів у кожному шарі у мережі
-
--   [« fanngetactivationsteepness](function.fann-get-activation-steepness.html)
-    
--   [fanngetbitfaillimit »](function.fann-get-bit-fail-limit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Отримує кількість зсувів у кожному шарі у мережі
-    
-
+---
+navigation:
+  - function.fann-get-activation-steepness.html: « fanngetactivationsteepness
+  - function.fann-get-bit-fail-limit.html: fanngetbitfaillimit »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetbiasarray
+---
 # fanngetbiasarray
 
 (PECL fann> = 1.0.0)

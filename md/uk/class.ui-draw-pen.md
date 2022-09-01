@@ -1,16 +1,11 @@
-Малювання за допомогою "Перо"
-
--   [« UIControlsBox::setPadded](ui-controls-box.setpadded.html)
-    
--   [ОЙDrawPen::clip »](ui-draw-pen.clip.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Малювання за допомогою "Перо"
-    
-
+---
+navigation:
+  - ui-controls-box.setpadded.html: '« UIControlsBox::setPadded'
+  - ui-draw-pen.clip.html: 'ОЙDrawPen::clip »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Малювання за допомогою "Перо"
+---
 # Малювання за допомогою "Перо"
 
 (UI 0.9.9)

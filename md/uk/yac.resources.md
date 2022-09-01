@@ -1,14 +1,9 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](yac.configuration.html)
-    
--   [Обумовлені константи »](yac.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](yac.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - yac.configuration.html: « Налаштування під час виконання
+  - yac.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - yac.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів

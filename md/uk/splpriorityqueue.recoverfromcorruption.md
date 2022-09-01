@@ -1,16 +1,11 @@
-Відновлює коректний стан черги
-
--   [« SplPriorityQueue::next](splpriorityqueue.next.html)
-    
--   [SplPriorityQueue::rewind »](splpriorityqueue.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplPriorityQueue](class.splpriorityqueue.html)
-    
--   Відновлює коректний стан черги
-    
-
+---
+navigation:
+  - splpriorityqueue.next.html: '« SplPriorityQueue::next'
+  - splpriorityqueue.rewind.html: 'SplPriorityQueue::rewind »'
+  - index.html: PHP Manual
+  - class.splpriorityqueue.html: SplPriorityQueue
+title: 'SplPriorityQueue::recoverFromCorruption'
+---
 # SplPriorityQueue::recoverFromCorruption
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

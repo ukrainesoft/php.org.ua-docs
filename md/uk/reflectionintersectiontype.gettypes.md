@@ -1,16 +1,11 @@
-Повертає типи, включені до типу intersection
-
--   [« ReflectionIntersectionType](class.reflectionintersectiontype.md)
-    
--   [ReflectionReference »](class.reflectionreference.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionIntersectionType](class.reflectionintersectiontype.md)
-    
--   Повертає типи, включені до типу intersection
-    
-
+---
+navigation:
+  - class.reflectionintersectiontype.md: « ReflectionIntersectionType
+  - class.reflectionreference.md: ReflectionReference »
+  - index.md: PHP Manual
+  - class.reflectionintersectiontype.md: ReflectionIntersectionType
+title: 'ReflectionIntersectionType::getTypes'
+---
 # ReflectionIntersectionType::getTypes
 
 (PHP 8> = 8.1.0)

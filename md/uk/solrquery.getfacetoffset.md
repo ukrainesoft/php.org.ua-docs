@@ -1,16 +1,11 @@
-Повертає усунення у списку обмежень, які будуть використовуватися для посторінкової навігації
-
--   [« SolrQuery::getFacetMissing](solrquery.getfacetmissing.html)
-    
--   [SolrQuery::getFacetPrefix »](solrquery.getfacetprefix.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає усунення у списку обмежень, які будуть використовуватися для посторінкової навігації
-    
-
+---
+navigation:
+  - solrquery.getfacetmissing.html: '« SolrQuery::getFacetMissing'
+  - solrquery.getfacetprefix.html: 'SolrQuery::getFacetPrefix »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getFacetOffset'
+---
 # SolrQuery::getFacetOffset
 
 (PECL solr> = 0.9.2)

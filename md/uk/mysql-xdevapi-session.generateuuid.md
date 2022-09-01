@@ -1,16 +1,11 @@
-Отримує новий UUID
-
--   [« Session::dropSchema](mysql-xdevapi-session.dropschema.html)
-    
--   [Session::getDefaultSchema »](mysql-xdevapi-session.getdefaultschema.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Отримує новий UUID
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.dropschema.html: '« Session::dropSchema'
+  - mysql-xdevapi-session.getdefaultschema.html: 'Session::getDefaultSchema »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::generateUUID'
+---
 # Session::generateUUID
 
 (No version information available, might only be in Git)

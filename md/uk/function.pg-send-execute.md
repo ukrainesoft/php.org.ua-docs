@@ -1,16 +1,11 @@
-Запускає попередньо підготовлений SQL-запит і передає параметри; не чекає результату, що повертається
-
--   [« pgselect](function.pg-select.html)
-    
--   [пгsendprepare »](function.pg-send-prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Запускає попередньо підготовлений SQL-запит і передає параметри; не чекає результату, що повертається
-    
-
+---
+navigation:
+  - function.pg-select.html: « pgselect
+  - function.pg-send-prepare.html: пгsendprepare »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгsendexecute
+---
 # пгsendexecute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_send_execute(PgSql\Connection $connection, string $statement_name, array $par
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

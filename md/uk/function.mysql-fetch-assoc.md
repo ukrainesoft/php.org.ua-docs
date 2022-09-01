@@ -1,16 +1,11 @@
-Повертає ряд результату запиту як асоціативний масив.
-
--   [« mysqlfetcharray](function.mysql-fetch-array.html)
-    
--   [mysqlfetchfield »](function.mysql-fetch-field.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає ряд результату запиту як асоціативний масив.
-    
-
+---
+navigation:
+  - function.mysql-fetch-array.html: « mysqlfetcharray
+  - function.mysql-fetch-field.html: mysqlfetchfield »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfetchassoc
+---
 # mysqlfetchassoc
 
 (PHP 4> = 4.0.3, PHP 5)

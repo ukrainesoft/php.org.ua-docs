@@ -1,16 +1,11 @@
-Створює новий Int64 (не використовується)
-
--   [« MongoDBBSONInt64](class.mongodb-bson-int64.html)
-    
--   [MongoDBBSONInt64::jsonSerialize »](mongodb-bson-int64.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
-    
--   Створює новий Int64 (не використовується)
-    
-
+---
+navigation:
+  - class.mongodb-bson-int64.html: « MongoDBBSONInt64
+  - mongodb-bson-int64.jsonserialize.html: 'MongoDBBSONInt64::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+title: 'MongoDBBSONInt64::construct'
+---
 # MongoDBBSONInt64::construct
 
 (mongodb >=1.5.0)

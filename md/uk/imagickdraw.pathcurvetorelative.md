@@ -1,16 +1,11 @@
-Малює кубічну криву Безьє
-
--   [« ImagickDraw::pathCurveToQuadraticBezierSmoothRelative](imagickdraw.pathcurvetoquadraticbeziersmoothrelative.html)
-    
--   [ImagickDraw::pathCurveToSmoothAbsolute »](imagickdraw.pathcurvetosmoothabsolute.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює кубічну криву Безьє
-    
-
+---
+navigation:
+  - imagickdraw.pathcurvetoquadraticbeziersmoothrelative.html: '« ImagickDraw::pathCurveToQuadraticBezierSmoothRelative'
+  - imagickdraw.pathcurvetosmoothabsolute.html: 'ImagickDraw::pathCurveToSmoothAbsolute »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pathCurveToRelative'
+---
 # ImagickDraw::pathCurveToRelative
 
 (PECL imagick 2, PECL imagick 3)

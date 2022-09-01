@@ -1,16 +1,11 @@
-Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
-
--   [« tidy::getStatus](tidy.getstatus.md)
-    
--   [tidy::html »](tidy.html.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
-    
-
+---
+navigation:
+  - tidy.getstatus.md: '« tidy::getStatus'
+  - tidy.html.md: 'tidy::html »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::head'
+---
 # tidy::head
 
 # tidygethead

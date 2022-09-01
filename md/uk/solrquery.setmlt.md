@@ -1,16 +1,11 @@
-Включає або вимикає moreLikeThis
-
--   [« SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.md)
-    
--   [SolrQuery::setMltBoost »](solrquery.setmltboost.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Включає або вимикає moreLikeThis
-    
-
+---
+navigation:
+  - solrquery.sethighlightusephrasehighlighter.md: '« SolrQuery::setHighlightUsePhraseHighlighter'
+  - solrquery.setmltboost.md: 'SolrQuery::setMltBoost »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMlt'
+---
 # SolrQuery::setMlt
 
 (PECL solr> = 0.9.2)

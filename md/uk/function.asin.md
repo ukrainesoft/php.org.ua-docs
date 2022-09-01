@@ -1,16 +1,11 @@
-Арксинус
-
--   [« acosh](function.acosh.md)
-    
--   [asinh »](function.asinh.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Арксинус
-    
-
+---
+navigation:
+  - function.acosh.md: « acosh
+  - function.asinh.md: asinh »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: asin
+---
 # asin
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

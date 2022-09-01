@@ -1,16 +1,11 @@
-Застосовує зазначений поворот до поточного координатного простору
-
--   [« GmagickDraw::rectangle](gmagickdraw.rectangle.md)
-    
--   [GmagickDraw::roundrectangle »](gmagickdraw.roundrectangle.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Застосовує зазначений поворот до поточного координатного простору
-    
-
+---
+navigation:
+  - gmagickdraw.rectangle.md: '« GmagickDraw::rectangle'
+  - gmagickdraw.roundrectangle.md: 'GmagickDraw::roundrectangle »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::rotate'
+---
 # GmagickDraw::rotate
 
 (PECL gmagick >= Unknown)

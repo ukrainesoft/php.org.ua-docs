@@ -1,16 +1,11 @@
-Нові глобальні константи
-
--   [« Другие изменения в модулях](migration56.extensions.md)
-    
--   [Отладка в PHP »](debugger.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
-    
--   Нові глобальні константи
-    
-
+---
+navigation:
+  - migration56.extensions.md: « Другие изменения в модулях
+  - debugger.md: Отладка в PHP »
+  - index.md: PHP Manual
+  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
+title: Нові глобальні константи
+---
 ## Нові глобальні константи
 
 ### [ДД](book.image.md)

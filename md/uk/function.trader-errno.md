@@ -1,16 +1,11 @@
-Отримати код помилки
-
--   [« traderema](function.trader-ema.html)
-    
--   [traderexp »](function.trader-exp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Отримати код помилки
-    
-
+---
+navigation:
+  - function.trader-ema.html: « traderema
+  - function.trader-exp.html: traderexp »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradererrno
+---
 # tradererrno
 
 (PECL trader >= 0.3.0)

@@ -1,16 +1,11 @@
-Вимикається від диспетчера служб
-
--   [« ibaseserviceattach](function.ibase-service-attach.html)
-    
--   [ibaseseteventhandler »](function.ibase-set-event-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Вимикається від диспетчера служб
-    
-
+---
+navigation:
+  - function.ibase-service-attach.html: « ibaseserviceattach
+  - function.ibase-set-event-handler.html: ibaseseteventhandler »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseservicedetach
+---
 # ibaseservicedetach
 
 (PHP 5, PHP 7 < 7.4.0)

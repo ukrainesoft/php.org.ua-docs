@@ -1,16 +1,11 @@
-Видалення реєстрації всіх імен функцій на серверах завдань
-
--   [« GearmanWorker::unregister](gearmanworker.unregister.html)
-    
--   [GearmanWorker::wait »](gearmanworker.wait.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Видалення реєстрації всіх імен функцій на серверах завдань
-    
-
+---
+navigation:
+  - gearmanworker.unregister.html: '« GearmanWorker::unregister'
+  - gearmanworker.wait.html: 'GearmanWorker::wait »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::unregisterAll'
+---
 # GearmanWorker::unregisterAll
 
 (PECL gearman >= 0.6.0)

@@ -1,16 +1,11 @@
-MQSeries MQCONN
-
--   [« mqseriescmit](function.mqseries-cmit.html)
-    
--   [mqseriesconnx »](function.mqseries-connx.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   MQSeries MQCONN
-    
-
+---
+navigation:
+  - function.mqseries-cmit.html: « mqseriescmit
+  - function.mqseries-connx.html: mqseriesconnx »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesconn
+---
 # mqseriesconn
 
 (PECL mqseries >= 0.10.0)

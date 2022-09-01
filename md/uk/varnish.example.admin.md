@@ -1,16 +1,11 @@
-Просте використання VarnishAdmin
-
--   [« Приклади](varnish.examples.md)
-    
--   [Простое использование VarnishStat »](varnish.example.stat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](varnish.examples.md)
-    
--   Просте використання VarnishAdmin
-    
-
+---
+navigation:
+  - varnish.examples.md: « Приклади
+  - varnish.example.stat.md: Простое использование VarnishStat »
+  - index.md: PHP Manual
+  - varnish.examples.md: Приклади
+title: Просте використання VarnishAdmin
+---
 ## Просте використання VarnishAdmin
 
 Цей приклад ілюструє просте використання функціональності заборони

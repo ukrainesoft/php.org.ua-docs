@@ -1,16 +1,11 @@
-Сегментує зображення
-
--   [« Imagick::scaleImage](imagick.scaleimage.md)
-    
--   [Imagick::selectiveBlurImage »](imagick.selectiveblurimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Сегментує зображення
-    
-
+---
+navigation:
+  - imagick.scaleimage.md: '« Imagick::scaleImage'
+  - imagick.selectiveblurimage.md: 'Imagick::selectiveBlurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::segmentImage'
+---
 # Imagick::segmentImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

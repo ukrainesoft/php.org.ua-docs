@@ -1,16 +1,11 @@
-Надає ім'я набору результатів
-
--   [« ibasemodifyuser](function.ibase-modify-user.html)
-    
--   [ibasenumfields »](function.ibase-num-fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Надає ім'я набору результатів
-    
-
+---
+navigation:
+  - function.ibase-modify-user.html: « ibasemodifyuser
+  - function.ibase-num-fields.html: ibasenumfields »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasenameresult
+---
 # ibasenameresult
 
 (PHP 5, PHP 7 < 7.4.0)

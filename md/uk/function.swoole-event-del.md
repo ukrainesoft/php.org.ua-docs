@@ -1,16 +1,11 @@
-Видалити всі callback функції сокету
-
--   [« swooleeventdefer](function.swoole-event-defer.html)
-    
--   [swooleeventexit »](function.swoole-event-exit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Видалити всі callback функції сокету
-    
-
+---
+navigation:
+  - function.swoole-event-defer.html: « swooleeventdefer
+  - function.swoole-event-exit.html: swooleeventexit »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleeventdel
+---
 # swooleeventdel
 
 (PECL swoole >= 1.9.0)

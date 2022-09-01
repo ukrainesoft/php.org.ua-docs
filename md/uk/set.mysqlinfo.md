@@ -1,16 +1,11 @@
-MySQL драйвери та плагіни
-
--   [« Class Tree](mongodb.exceptions.tree.md)
-    
--   [Огляд PHP драйверів MySQL »](mysql.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   MySQL драйвери та плагіни
-    
-
+---
+navigation:
+  - mongodb.exceptions.tree.md: « Class Tree
+  - mysql.md: Огляд PHP драйверів MySQL »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: MySQL драйвери та плагіни
+---
 # MySQL драйвери та плагіни
 
 У PHP є кілька драйверів та плагінів для доступу до MySQL.

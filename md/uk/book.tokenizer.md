@@ -1,16 +1,11 @@
-Лексер (Tokenizer)
-
--   [« tidywarningcount](function.tidy-warning-count.html)
-    
--   [Введение »](intro.tokenizer.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Лексер (Tokenizer)
-    
-
+---
+navigation:
+  - function.tidy-warning-count.html: « tidywarningcount
+  - intro.tokenizer.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Лексер (Tokenizer)
+---
 # Лексер (Tokenizer)
 
 -   [Введение](intro.tokenizer.md)

@@ -1,16 +1,11 @@
-Зупинити та відновити з'єднання
-
--   [« curlmultistrerror](function.curl-multi-strerror.html)
-    
--   [curlreset »](function.curl-reset.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Зупинити та відновити з'єднання
-    
-
+---
+navigation:
+  - function.curl-multi-strerror.html: « curlmultistrerror
+  - function.curl-reset.html: curlreset »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlpause
+---
 # curlpause
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -43,6 +38,6 @@ curl_pause(CurlHandle $handle, int $flags): int
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |

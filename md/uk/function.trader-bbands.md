@@ -1,16 +1,11 @@
-Смуги Боллінджера
-
--   [« traderavgprice](function.trader-avgprice.html)
-    
--   [traderbeta »](function.trader-beta.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Смуги Боллінджера
-    
-
+---
+navigation:
+  - function.trader-avgprice.html: « traderavgprice
+  - function.trader-beta.html: traderbeta »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderbbands
+---
 # traderbbands
 
 (PECL trader >= 0.2.0)

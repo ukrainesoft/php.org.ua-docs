@@ -1,16 +1,11 @@
-Конструктор класу ParentIterator
-
--   [« ParentIterator::accept](parentiterator.accept.md)
-    
--   [ParentIterator::getChildren »](parentiterator.getchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [ParentIterator](class.parentiterator.md)
-    
--   Конструктор класу ParentIterator
-    
-
+---
+navigation:
+  - parentiterator.accept.md: '« ParentIterator::accept'
+  - parentiterator.getchildren.md: 'ParentIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
+title: 'ParentIterator::construct'
+---
 # ParentIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

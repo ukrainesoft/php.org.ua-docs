@@ -1,16 +1,11 @@
-Створює жорстке посилання на файл
-
--   [« eioinit](function.eio-init.html)
-    
--   [eiolstat »](function.eio-lstat.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Створює жорстке посилання на файл
-    
-
+---
+navigation:
+  - function.eio-init.html: « eioinit
+  - function.eio-lstat.html: eiolstat »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiolink
+---
 # eiolink
 
 (PECL eio >= 0.0.1dev)

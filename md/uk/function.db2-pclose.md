@@ -1,16 +1,11 @@
-Закриває постійне з'єднання з базою даних
-
--   [« db2numrows](function.db2-num-rows.html)
-    
--   [db2pconnect »](function.db2-pconnect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Закриває постійне з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.db2-num-rows.html: « db2numrows
+  - function.db2-pconnect.html: db2pconnect »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2pclose
+---
 # db2pclose
 
 (PECL ibmdb2> = 1.8.0)

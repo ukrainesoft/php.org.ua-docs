@@ -1,16 +1,11 @@
-Отримати ім'я таблиці, якою належить вказаний стовпець
-
--   [« cubridfieldseek](function.cubrid-field-seek.html)
-    
--   [cubridfieldtype »](function.cubrid-field-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Отримати ім'я таблиці, якою належить вказаний стовпець
-    
-
+---
+navigation:
+  - function.cubrid-field-seek.html: « cubridfieldseek
+  - function.cubrid-field-type.html: cubridfieldtype »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfieldtable
+---
 # cubridfieldtable
 
 (PECL CUBRID >= 8.3.0)

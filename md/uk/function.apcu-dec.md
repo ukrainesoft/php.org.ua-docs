@@ -1,16 +1,11 @@
-Зменшити збережене число
-
--   [« apcuclearcache](function.apcu-clear-cache.html)
-    
--   [apcudelete »](function.apcu-delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции APCu](ref.apcu.md)
-    
--   Зменшити збережене число
-    
-
+---
+navigation:
+  - function.apcu-clear-cache.html: « apcuclearcache
+  - function.apcu-delete.html: apcudelete »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcudec
+---
 # apcudec
 
 (PECL apcu >= 4.0.0)

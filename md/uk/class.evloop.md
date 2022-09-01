@@ -1,16 +1,11 @@
-Клас EvLoop
-
--   [« EvIo::set](evio.set.html)
-    
--   [EvLoop::backend »](evloop.backend.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас EvLoop
-    
-
+---
+navigation:
+  - evio.set.html: '« EvIo::set'
+  - evloop.backend.html: 'EvLoop::backend »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас EvLoop
+---
 # Клас EvLoop
 
 (PECL ev >= 0.2.0)

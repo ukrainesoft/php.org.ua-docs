@@ -1,16 +1,11 @@
-Отримує об'єкт SplFileInfo для файлу
-
--   [« SplFileInfo::getExtension](splfileinfo.getextension.md)
-    
--   [SplFileInfo::getFilename »](splfileinfo.getfilename.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує об'єкт SplFileInfo для файлу
-    
-
+---
+navigation:
+  - splfileinfo.getextension.md: '« SplFileInfo::getExtension'
+  - splfileinfo.getfilename.md: 'SplFileInfo::getFilename »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getFileInfo'
+---
 # SplFileInfo::getFileInfo
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public SplFileInfo::getFileInfo(?string $class = null): SplFileInfo
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `class` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `class` тепер допускає значення null. |
 
 ### Дивіться також
 

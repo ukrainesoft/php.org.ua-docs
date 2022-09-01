@@ -1,16 +1,11 @@
-Отримати повний вміст файлу запису
-
--   [« PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md)
-    
--   [PharFileInfo::getMetadata »](pharfileinfo.getmetadata.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Отримати повний вміст файлу запису
-    
-
+---
+navigation:
+  - pharfileinfo.getcompressedsize.md: '« PharFileInfo::getCompressedSize'
+  - pharfileinfo.getmetadata.md: 'PharFileInfo::getMetadata »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::getContent'
+---
 # PharFileInfo::getContent
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

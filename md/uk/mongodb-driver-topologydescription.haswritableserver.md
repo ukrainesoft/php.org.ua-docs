@@ -1,16 +1,11 @@
-Повертає, чи є у топології сервер, доступний для запису
-
--   [« MongoDBDriverTopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.html)
-    
--   [MongoDBDriverWriteConcernError »](class.mongodb-driver-writeconcernerror.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
-    
--   Повертає, чи є у топології сервер, доступний для запису
-    
-
+---
+navigation:
+  - mongodb-driver-topologydescription.hasreadableserver.html: '« MongoDBDriverTopologyDescription::hasReadableServer'
+  - class.mongodb-driver-writeconcernerror.html: MongoDBDriverWriteConcernError »
+  - index.md: PHP Manual
+  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription
+title: 'MongoDBDriverTopologyDescription::hasWritableServer'
+---
 # MongoDBDriverTopologyDescription::hasWritableServer
 
 (mongodb >=1.13.0)

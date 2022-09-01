@@ -1,16 +1,11 @@
-Обробник натискання
-
--   [« UIMenuItem::isChecked](ui-menuitem.ischecked.html)
-    
--   [ОЙMenuItem::setChecked »](ui-menuitem.setchecked.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙMenuItem](class.ui-menuitem.html)
-    
--   Обробник натискання
-    
-
+---
+navigation:
+  - ui-menuitem.ischecked.html: '« UIMenuItem::isChecked'
+  - ui-menuitem.setchecked.html: 'ОЙMenuItem::setChecked »'
+  - index.html: PHP Manual
+  - class.ui-menuitem.html: ОЙMenuItem
+title: 'ОЙMenuItem::onClick'
+---
 # ОЙMenuItem::onClick
 
 (UI 0.9.9)

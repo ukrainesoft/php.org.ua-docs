@@ -1,16 +1,11 @@
-Надсилання даних (застарілий метод)
-
--   [« GearmanJob::construct](gearmanjob.construct.md)
-    
--   [GearmanJob::exception »](gearmanjob.exception.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Надсилання даних (застарілий метод)
-    
-
+---
+navigation:
+  - gearmanjob.construct.md: '« GearmanJob::construct'
+  - gearmanjob.exception.md: 'GearmanJob::exception »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::data'
+---
 # GearmanJob::data
 
 (PECL gearman <= 0.5.0)

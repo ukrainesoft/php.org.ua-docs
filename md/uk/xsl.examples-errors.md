@@ -1,16 +1,11 @@
-Обробка помилок за допомогою функцій обробки помилок libxml
-
--   [« Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.html)
-    
--   [XSLTProcessor »](class.xsltprocessor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](xsl.examples.md)
-    
--   Обробка помилок за допомогою функцій обробки помилок libxml
-    
-
+---
+navigation:
+  - xsl.examples-collection.html: « Файли collection.xml та collection.xsl для прикладів
+  - class.xsltprocessor.md: XSLTProcessor »
+  - index.md: PHP Manual
+  - xsl.examples.md: Приклади
+title: Обробка помилок за допомогою функцій обробки помилок libxml
+---
 ## Обробка помилок за допомогою функцій обробки помилок libxml
 
 libxml надає ряд функцій для обробки помилок, які можуть використовуватися для вилову та роботи з помилками під час обробки XSLT.

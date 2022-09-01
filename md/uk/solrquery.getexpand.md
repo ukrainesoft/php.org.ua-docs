@@ -1,16 +1,11 @@
-Повертає true, якщо увімкнено розширення групи
-
--   [« SolrQuery::destruct](solrquery.destruct.html)
-    
--   [SolrQuery::getExpandFilterQueries »](solrquery.getexpandfilterqueries.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає true, якщо увімкнено розширення групи
-    
-
+---
+navigation:
+  - solrquery.destruct.html: '« SolrQuery::destruct'
+  - solrquery.getexpandfilterqueries.html: 'SolrQuery::getExpandFilterQueries »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getExpand'
+---
 # SolrQuery::getExpand
 
 (PECL solr> = 2.2.0)

@@ -1,16 +1,11 @@
-Обробка файлів
-
--   [« splobjectід](function.spl-object-id.html)
-    
--   [SplFileInfo »](class.splfileinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Обробка файлів
-    
-
+---
+navigation:
+  - function.spl-object-id.html: « splobjectід
+  - class.splfileinfo.md: SplFileInfo »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Обробка файлів
+---
 # Обробка файлів
 
 ## Зміст

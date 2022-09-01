@@ -1,16 +1,11 @@
-Повертає шаблон, який використовується засобом форматування
-
--   [« MessageFormatter::getLocale](messageformatter.getlocale.md)
-    
--   [MessageFormatter::parseMessage »](messageformatter.parsemessage.md)
-    
--   [PHP Manual](index.md)
-    
--   [MessageFormatter](class.messageformatter.md)
-    
--   Повертає шаблон, який використовується засобом форматування
-    
-
+---
+navigation:
+  - messageformatter.getlocale.md: '« MessageFormatter::getLocale'
+  - messageformatter.parsemessage.md: 'MessageFormatter::parseMessage »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
+title: 'MessageFormatter::getPattern'
+---
 # MessageFormatter::getPattern
 
 # msgfmtgetpattern

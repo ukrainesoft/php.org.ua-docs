@@ -1,16 +1,11 @@
-Прив'язує HTTP-сервер до вказаної адреси та порту
-
--   [« EventHttp::addServerAlias](eventhttp.addserveralias.md)
-    
--   [EventHttp::construct »](eventhttp.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Прив'язує HTTP-сервер до вказаної адреси та порту
-    
-
+---
+navigation:
+  - eventhttp.addserveralias.md: '« EventHttp::addServerAlias'
+  - eventhttp.construct.md: 'EventHttp::construct »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::bind'
+---
 # EventHttp::bind
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Призначення getActionName
-
--   [« YafRequestAbstract::clearParams](yaf-request-abstract.clearparams.html)
-    
--   [YafRequestAbstract::getBaseUri »](yaf-request-abstract.getbaseuri.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Призначення getActionName
-    
-
+---
+navigation:
+  - yaf-request-abstract.clearparams.html: '« YafRequestAbstract::clearParams'
+  - yaf-request-abstract.getbaseuri.html: 'YafRequestAbstract::getBaseUri »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getActionName'
+---
 # YafRequestAbstract::getActionName
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Відкриває з'єднання з базою даних
-
--   [« ibasecommit](function.ibase-commit.html)
-    
--   [ibaseдбinfo »](function.ibase-db-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Відкриває з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.ibase-commit.html: « ibasecommit
+  - function.ibase-db-info.html: ibaseдбinfo »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseconnect
+---
 # ibaseconnect
 
 (PHP 5, PHP 7 < 7.4.0)

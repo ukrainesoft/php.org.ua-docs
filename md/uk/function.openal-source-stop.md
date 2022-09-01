@@ -1,16 +1,11 @@
-Зупинити відтворення джерела
-
--   [« openalsourceset](function.openal-source-set.html)
-    
--   [openalstream »](function.openal-stream.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Зупинити відтворення джерела
-    
-
+---
+navigation:
+  - function.openal-source-set.html: « openalsourceset
+  - function.openal-stream.html: openalstream »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalsourcestop
+---
 # openalsourcestop
 
 (PECL openal >= 0.1.0)

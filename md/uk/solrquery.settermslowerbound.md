@@ -1,16 +1,11 @@
-Визначає вираз, із якого треба починати
-
--   [« SolrQuery::setTermsLimit](solrquery.settermslimit.md)
-    
--   [SolrQuery::setTermsMaxCount »](solrquery.settermsmaxcount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Визначає вираз, із якого треба починати
-    
-
+---
+navigation:
+  - solrquery.settermslimit.md: '« SolrQuery::setTermsLimit'
+  - solrquery.settermsmaxcount.md: 'SolrQuery::setTermsMaxCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsLowerBound'
+---
 # SolrQuery::setTermsLowerBound
 
 (PECL solr> = 0.9.2)

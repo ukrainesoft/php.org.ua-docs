@@ -1,16 +1,11 @@
-Коефіцієнт зміни курсу: (ціна/попередня ціна)
-
--   [« traderrocr100](function.trader-rocr100.html)
-    
--   [traderrsi »](function.trader-rsi.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Коефіцієнт зміни курсу: (ціна/попередня ціна)
-    
-
+---
+navigation:
+  - function.trader-rocr100.html: « traderrocr100
+  - function.trader-rsi.html: traderrsi »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderrocr
+---
 # traderrocr
 
 (PECL trader >= 0.2.0)

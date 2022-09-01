@@ -1,16 +1,11 @@
-Міграція з PHP 5.6.x на PHP 7.0.x
-
--   [« Поддержка Windows](migration71.windows-support.html)
-    
--   [Зміни, що ламають зворотну сумісність »](migration70.incompatible.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Міграція з PHP 5.6.x на PHP 7.0.x
-    
-
+---
+navigation:
+  - migration71.windows-support.html: « Поддержка Windows
+  - migration70.incompatible.html: 'Зміни, що ламають зворотну сумісність »'
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Міграція з PHP 5.6.x на PHP 7.0.x
+---
 # Міграція з PHP 5.6.x на PHP 7.0.x
 
 ## Зміст

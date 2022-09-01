@@ -1,16 +1,11 @@
-Отримати необроблене значення часового поясу та усунення за Грінвічем (GMT) за заданим моментом часу
-
--   [« IntlTimeZone::getIDForWindowsID](intltimezone.getidforwindowsid.md)
-    
--   [IntlTimeZone::getRawOffset »](intltimezone.getrawoffset.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Отримати необроблене значення часового поясу та усунення за Грінвічем (GMT) за заданим моментом часу
-    
-
+---
+navigation:
+  - intltimezone.getidforwindowsid.md: '« IntlTimeZone::getIDForWindowsID'
+  - intltimezone.getrawoffset.md: 'IntlTimeZone::getRawOffset »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getOffset'
+---
 # IntlTimeZone::getOffset
 
 # intltzgetoffset

@@ -1,16 +1,11 @@
-Екранує спеціальні символи
-
--   [« quotedprintableencode](function.quoted-printable-encode.html)
-    
--   [rtrim »](function.rtrim.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Екранує спеціальні символи
-    
-
+---
+navigation:
+  - function.quoted-printable-encode.html: « quotedprintableencode
+  - function.rtrim.html: rtrim »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: quotemeta
+---
 # quotemeta
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

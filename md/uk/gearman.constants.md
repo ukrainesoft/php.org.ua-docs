@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](gearman.resources.html)
-    
--   [Приклади »](gearman.examples.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gearman](book.gearman.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - gearman.resources.html: « Типи ресурсів
+  - gearman.examples.html: Приклади »
+  - index.html: PHP Manual
+  - book.gearman.html: Gearman
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

@@ -1,16 +1,11 @@
-Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
-
--   [« xmlrpcserverregistermethod](function.xmlrpc-server-register-method.html)
-    
--   [Модулі лише для Windows »](refs.utilspec.windows.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції XML-RPC](ref.xmlrpc.html)
-    
--   Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
-    
-
+---
+navigation:
+  - function.xmlrpc-server-register-method.html: « xmlrpcserverregistermethod
+  - refs.utilspec.windows.html: Модулі лише для Windows »
+  - index.html: PHP Manual
+  - ref.xmlrpc.html: Функції XML-RPC
+title: xmlrpcsettype
+---
 # xmlrpcsettype
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

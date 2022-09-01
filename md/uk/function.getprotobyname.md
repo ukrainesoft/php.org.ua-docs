@@ -1,16 +1,11 @@
-Отримує номер протоколу на ім'я
-
--   [« getmxrr](function.getmxrr.html)
-    
--   [getprotobynumber »](function.getprotobynumber.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Отримує номер протоколу на ім'я
-    
-
+---
+navigation:
+  - function.getmxrr.html: « getmxrr
+  - function.getprotobynumber.html: getprotobynumber »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: getprotobyname
+---
 # getprotobyname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

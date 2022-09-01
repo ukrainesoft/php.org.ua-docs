@@ -1,16 +1,11 @@
-Клас ParleLexerException
-
--   [« ParleErrorInfo](class.parle-errorinfo.html)
-    
--   [ParleParserException »](class.parle-parserexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [Parle](book.parle.html)
-    
--   Клас ParleLexerException
-    
-
+---
+navigation:
+  - class.parle-errorinfo.html: « ParleErrorInfo
+  - class.parle-parserexception.html: ParleParserException »
+  - index.html: PHP Manual
+  - book.parle.html: Parle
+title: Клас ParleLexerException
+---
 # Клас ParleLexerException
 
 (PECL parle >= 0.5.1)

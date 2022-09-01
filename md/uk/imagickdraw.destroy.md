@@ -1,16 +1,11 @@
-Звільняє всі пов'язані ресурси
-
--   [« ImagickDraw::construct](imagickdraw.construct.html)
-    
--   [ImagickDraw::ellipse »](imagickdraw.ellipse.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Звільняє всі пов'язані ресурси
-    
-
+---
+navigation:
+  - imagickdraw.construct.html: '« ImagickDraw::construct'
+  - imagickdraw.ellipse.html: 'ImagickDraw::ellipse »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::destroy'
+---
 # ImagickDraw::destroy
 
 (PECL imagick 2, PECL imagick 3)

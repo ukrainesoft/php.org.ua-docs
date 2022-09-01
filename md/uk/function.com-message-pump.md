@@ -1,16 +1,11 @@
-Обробка повідомлень COM, що прийшли не пізніше timeoutms мілісекунд після її запуску
-
--   [« comloadtypelib](function.com-load-typelib.html)
-    
--   [comprinttypeinfo »](function.com-print-typeinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Обробка повідомлень COM, що прийшли не пізніше timeoutms мілісекунд після її запуску
-    
-
+---
+navigation:
+  - function.com-load-typelib.html: « comloadtypelib
+  - function.com-print-typeinfo.html: comprinttypeinfo »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: commessagepump
+---
 # commessagepump
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Скасує виконання поточної транзакції
-
--   [« Stomp](class.stomp.md)
-    
--   [Stomp::ack »](stomp.ack.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Скасує виконання поточної транзакції
-    
-
+---
+navigation:
+  - class.stomp.md: « Stomp
+  - stomp.ack.md: 'Stomp::ack »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::abort'
+---
 # Stomp::abort
 
 # stompabort

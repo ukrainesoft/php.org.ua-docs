@@ -1,16 +1,11 @@
-Розпакувати стислий рядок
-
--   [« gztell](function.gztell.html)
-    
--   [gzwrite »](function.gzwrite.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Розпакувати стислий рядок
-    
-
+---
+navigation:
+  - function.gztell.html: « gztell
+  - function.gzwrite.html: gzwrite »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzuncompress
+---
 # gzuncompress
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

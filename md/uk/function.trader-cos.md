@@ -1,16 +1,11 @@
-Тригонометричний вектор косинуса
-
--   [« tradercorrel](function.trader-correl.html)
-    
--   [tradercosh »](function.trader-cosh.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Тригонометричний вектор косинуса
-    
-
+---
+navigation:
+  - function.trader-correl.html: « tradercorrel
+  - function.trader-cosh.html: tradercosh »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercos
+---
 # tradercos
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Отримати кількість попереджень з останньої операції
-
--   [« DocResult::getWarnings](mysql-xdevapi-docresult.getwarnings.html)
-    
--   [mysqlxdevapiException »](class.mysql-xdevapi-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
-    
--   Отримати кількість попереджень з останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-docresult.getwarnings.html: '« DocResult::getWarnings'
+  - class.mysql-xdevapi-exception.html: mysqlxdevapiException »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+title: 'DocResult::getWarningsCount'
+---
 # DocResult::getWarningsCount
 
 (No version information available, might only be in Git)

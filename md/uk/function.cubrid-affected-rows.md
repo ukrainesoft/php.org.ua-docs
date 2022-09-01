@@ -1,16 +1,11 @@
-Кількість рядків, порушених останнім SQL-запитом
-
--   [« Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   [cubridclientencoding »](function.cubrid-client-encoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Кількість рядків, порушених останнім SQL-запитом
-    
-
+---
+navigation:
+  - cubridmysql.cubrid.html: « Функції сумісності CUBRID MySQL
+  - function.cubrid-client-encoding.html: cubridclientencoding »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridaffectedrows
+---
 # cubridaffectedrows
 
 (PECL CUBRID >= 8.3.0)

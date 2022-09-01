@@ -1,16 +1,11 @@
-Перевіряє, чи є name0 псевдонімом для name1
-
--   [« GenderGender::get](gender-gender.get.html)
-    
--   [GenderGender::similarNames »](gender-gender.similarnames.html)
-    
--   [PHP Manual](index.html)
-    
--   [GenderGender](class.gender.html)
-    
--   Перевіряє, чи є name0 псевдонімом для name1
-    
-
+---
+navigation:
+  - gender-gender.get.html: '« GenderGender::get'
+  - gender-gender.similarnames.html: 'GenderGender::similarNames »'
+  - index.html: PHP Manual
+  - class.gender.html: GenderGender
+title: 'GenderGender::isNick'
+---
 # GenderGender::isNick
 
 (PECL gender >= 0.9.0)

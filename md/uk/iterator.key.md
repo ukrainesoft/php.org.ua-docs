@@ -1,16 +1,11 @@
-Повертає ключ поточного елемента
-
--   [« Iterator::current](iterator.current.html)
-    
--   [Iterator::next »](iterator.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [Iterator](class.iterator.html)
-    
--   Повертає ключ поточного елемента
-    
-
+---
+navigation:
+  - iterator.current.html: '« Iterator::current'
+  - iterator.next.html: 'Iterator::next »'
+  - index.html: PHP Manual
+  - class.iterator.html: Iterator
+title: 'Iterator::key'
+---
 # Iterator::key
 
 (PHP 5, PHP 7, PHP 8)

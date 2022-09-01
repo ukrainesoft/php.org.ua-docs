@@ -1,16 +1,11 @@
-Повертає масив імен методів класу
-
--   [« getcalledclass](function.get-called-class.html)
-    
--   [getclassvars »](function.get-class-vars.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Повертає масив імен методів класу
-    
-
+---
+navigation:
+  - function.get-called-class.html: « getcalledclass
+  - function.get-class-vars.html: getclassvars »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getclassметодів
+---
 # getclassметодів
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ get_class_methods(object|string $object_or_class): array
 
 ### список змін
 
-| Версия | Описание                                                                        |
-|--------|---------------------------------------------------------------------------------|
-|        | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів. |
 
 ### Приклади
 

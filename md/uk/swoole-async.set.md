@@ -1,16 +1,11 @@
-Оновлює параметри асинхронного введення-виводу
-
--   [« SwooleAsync::readFile](swoole-async.readfile.html)
-    
--   [SwooleAsync::write »](swoole-async.write.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleAsync](class.swoole-async.html)
-    
--   Оновлює параметри асинхронного введення-виводу
-    
-
+---
+navigation:
+  - swoole-async.readfile.html: '« SwooleAsync::readFile'
+  - swoole-async.write.html: 'SwooleAsync::write »'
+  - index.html: PHP Manual
+  - class.swoole-async.html: SwooleAsync
+title: 'SwooleAsync::set'
+---
 # SwooleAsync::set
 
 (PECL swoole >= 1.9.0)

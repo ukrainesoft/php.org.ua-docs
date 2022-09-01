@@ -1,16 +1,11 @@
-Обмежує кількість рядків для оновлення
-
--   [« TableUpdate::execute](mysql-xdevapi-tableupdate.execute.html)
-    
--   [TableUpdate::orderby »](mysql-xdevapi-tableupdate.orderby.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   Обмежує кількість рядків для оновлення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.execute.html: '« TableUpdate::execute'
+  - mysql-xdevapi-tableupdate.orderby.html: 'TableUpdate::orderby »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+title: 'TableUpdate::limit'
+---
 # TableUpdate::limit
 
 (No version information available, might only be in Git)

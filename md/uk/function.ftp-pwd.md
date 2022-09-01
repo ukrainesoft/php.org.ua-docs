@@ -1,16 +1,11 @@
-Повертає ім'я поточної директорії
-
--   [« ftpput](function.ftp-put.html)
-    
--   [ftpquit »](function.ftp-quit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Повертає ім'я поточної директорії
-    
-
+---
+navigation:
+  - function.ftp-put.html: « ftpput
+  - function.ftp-quit.html: ftpquit »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftppwd
+---
 # ftppwd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ ftp_pwd(FTP\Connection $ftp): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

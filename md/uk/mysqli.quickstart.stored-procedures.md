@@ -1,16 +1,11 @@
-Збережені процедури
-
--   [« Підготовка запитів](mysqli.quickstart.prepared-statements.html)
-    
--   [Множинні запити »](mysqli.quickstart.multiple-statement.html)
-    
--   [PHP Manual](index.md)
-    
--   [Краткое руководство](mysqli.quickstart.md)
-    
--   Збережені процедури
-    
-
+---
+navigation:
+  - mysqli.quickstart.prepared-statements.html: « Підготовка запитів
+  - mysqli.quickstart.multiple-statement.html: Множинні запити »
+  - index.md: PHP Manual
+  - mysqli.quickstart.md: Краткое руководство
+title: Збережені процедури
+---
 ## Збережені процедури
 
 СУБД MySQL підтримує процедури, що зберігаються. Під цим терміном розуміється послідовність операцій, що зберігається як єдине ціле в каталозі бази даних на сервері. Програми можуть викликати та запускати збережені процедури. Для запуску збереженої процедури використовується SQL вираз `CALL`

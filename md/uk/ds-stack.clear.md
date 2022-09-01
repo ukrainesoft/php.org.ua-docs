@@ -1,16 +1,11 @@
-Видаляє всі значення з колекції
-
--   [« DsStack::capacity](ds-stack.capacity.html)
-    
--   [ДсStack::construct »](ds-stack.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Видаляє всі значення з колекції
-    
-
+---
+navigation:
+  - ds-stack.capacity.html: '« DsStack::capacity'
+  - ds-stack.construct.html: 'ДсStack::construct »'
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::clear'
+---
 # ДсStack::clear
 
 (PECL ds >= 1.0.0)

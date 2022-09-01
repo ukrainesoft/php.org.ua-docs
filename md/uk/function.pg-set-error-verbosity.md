@@ -1,16 +1,11 @@
-Визначає обсяг тексту повідомлень, що повертаються функціями pglasterror та pgresulterror
-
--   [« pgsetclientencoding](function.pg-set-client-encoding.html)
-    
--   [пгsocket »](function.pg-socket.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Визначає обсяг тексту повідомлень, що повертаються функціями pglasterror та pgresulterror
-    
-
+---
+navigation:
+  - function.pg-set-client-encoding.html: « pgsetclientencoding
+  - function.pg-socket.html: пгsocket »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгseterrorverbosity
+---
 # пгseterrorverbosity
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

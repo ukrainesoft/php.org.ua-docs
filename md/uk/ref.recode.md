@@ -1,16 +1,11 @@
-Функції Recode
-
--   [« Обумовлені константи](recode.constants.html)
-    
--   [recodefile »](function.recode-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Recode](book.recode.html)
-    
--   Функції Recode
-    
-
+---
+navigation:
+  - recode.constants.html: « Обумовлені константи
+  - function.recode-file.html: recodefile »
+  - index.html: PHP Manual
+  - book.recode.html: Recode
+title: Функції Recode
+---
 # Функції Recode
 
 ## Зміст

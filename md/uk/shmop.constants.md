@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](shmop.resources.html)
-    
--   [Приклади »](shmop.examples.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управление разделяемой памятью](book.shmop.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - shmop.resources.html: « Типи ресурсів
+  - shmop.examples.html: Приклади »
+  - index.html: PHP Manual
+  - book.shmop.html: Управление разделяемой памятью
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

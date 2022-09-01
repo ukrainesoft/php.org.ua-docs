@@ -1,16 +1,11 @@
-Клас MongoDBDriverWriteError
-
--   [« MongoDBDriverWriteConcernError::getMessage](mongodb-driver-writeconcernerror.getmessage.html)
-    
--   [MongoDBDriverWriteError::getCode »](mongodb-driver-writeerror.getcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverWriteError
-    
-
+---
+navigation:
+  - mongodb-driver-writeconcernerror.getmessage.html: '« MongoDBDriverWriteConcernError::getMessage'
+  - mongodb-driver-writeerror.getcode.html: 'MongoDBDriverWriteError::getCode »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverWriteError
+---
 # Клас MongoDBDriverWriteError
 
 (mongodb >=1.0.0)

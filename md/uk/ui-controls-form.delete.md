@@ -1,16 +1,11 @@
-Видалити елемент керування
-
--   [« UIControlsForm::append](ui-controls-form.append.html)
-    
--   [ОЙControlsForm::isPadded »](ui-controls-form.ispadded.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsForm](class.ui-controls-form.html)
-    
--   Видалити елемент керування
-    
-
+---
+navigation:
+  - ui-controls-form.append.html: '« UIControlsForm::append'
+  - ui-controls-form.ispadded.html: 'ОЙControlsForm::isPadded »'
+  - index.html: PHP Manual
+  - class.ui-controls-form.html: ОЙControlsForm
+title: 'ОЙControlsForm::delete'
+---
 # ОЙControlsForm::delete
 
 (UI 0.9.9)

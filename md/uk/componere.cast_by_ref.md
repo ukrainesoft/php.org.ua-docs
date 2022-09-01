@@ -1,16 +1,11 @@
-Приведення до типу
-
--   [« Componerecast](componere.cast.md)
-    
--   [Обработка ошибок »](book.errorfunc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Componere](reference.componere.md)
-    
--   Приведення до типу
-    
-
+---
+navigation:
+  - componere.cast.md: « Componerecast
+  - book.errorfunc.md: Обработка ошибок »
+  - index.md: PHP Manual
+  - reference.componere.md: Функции Componere
+title: Componerecastбref
+---
 # Componerecastбref
 
 (Componere 2 >= 2.1.2)

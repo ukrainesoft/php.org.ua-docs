@@ -1,16 +1,11 @@
-Отримати вміст поточного буфера та видалити його
-
--   [« obflush](function.ob-flush.html)
-    
--   [проgetcontents »](function.ob-get-contents.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   Отримати вміст поточного буфера та видалити його
-    
-
+---
+navigation:
+  - function.ob-flush.html: « obflush
+  - function.ob-get-contents.html: проgetcontents »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проgetclean
+---
 # проgetclean
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

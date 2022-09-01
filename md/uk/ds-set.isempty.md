@@ -1,16 +1,11 @@
-Перевіряє, чи порожня колекція
-
--   [« DsSet::intersect](ds-set.intersect.html)
-    
--   [ДсSet::join »](ds-set.join.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Перевіряє, чи порожня колекція
-    
-
+---
+navigation:
+  - ds-set.intersect.html: '« DsSet::intersect'
+  - ds-set.join.html: 'ДсSet::join »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::isEmpty'
+---
 # ДсSet::isEmpty
 
 (PECL ds >= 1.0.0)

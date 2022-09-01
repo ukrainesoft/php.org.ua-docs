@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.posix.html)
-    
--   [Вимоги »](posix.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX](book.posix.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.posix.html: « Введение
+  - posix.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.posix.html: POSIX
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

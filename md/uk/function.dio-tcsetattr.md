@@ -1,16 +1,11 @@
-Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
-
--   [« diostat](function.dio-stat.html)
-    
--   [diotruncate »](function.dio-truncate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції прямого введення/виводу](ref.dio.md)
-    
--   Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
-    
-
+---
+navigation:
+  - function.dio-stat.html: « diostat
+  - function.dio-truncate.html: diotruncate »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
+title: diotcsetattr
+---
 # diotcsetattr
 
 (PHP 4> = 4.3.0, PHP 5 <5.1.0)

@@ -1,16 +1,11 @@
-Видаляє всі ключі, які були встановлені для шифрування раніше
-
--   [« gnupgcleardecryptkeys](function.gnupg-cleardecryptkeys.html)
-    
--   [gnupgclearsignkeys »](function.gnupg-clearsignkeys.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Видаляє всі ключі, які були встановлені для шифрування раніше
-    
-
+---
+navigation:
+  - function.gnupg-cleardecryptkeys.html: « gnupgcleardecryptkeys
+  - function.gnupg-clearsignkeys.html: gnupgclearsignkeys »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgclearencryptkeys
+---
 # gnupgclearencryptkeys
 
 (PECL gnupg >= 0.5)

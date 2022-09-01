@@ -1,16 +1,11 @@
-Взаємодіє з ресурсами процесу
-
--   [pcntlgetpriority](function.pcntl-getpriority.html)
-    
--   [pcntlsetpriority »](function.pcntl-setpriority.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Взаємодіє з ресурсами процесу
-    
-
+---
+navigation:
+  - function.pcntl-getpriority.html: pcntlgetpriority
+  - function.pcntl-setpriority.html: pcntlsetpriority »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlrfork
+---
 # pcntlrfork
 
 (PHP 8> = 8.1.0)

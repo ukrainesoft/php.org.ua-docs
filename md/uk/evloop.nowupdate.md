@@ -1,16 +1,11 @@
-Встановлює поточний час, запитуючи ядро, оновлюючи час, який повертається EvLoop::now у процесі
-
--   [« EvLoop::now](evloop.now.html)
-    
--   [EvLoop::periodic »](evloop.periodic.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Встановлює поточний час, запитуючи ядро, оновлюючи час, який повертається EvLoop::now у процесі
-    
-
+---
+navigation:
+  - evloop.now.html: '« EvLoop::now'
+  - evloop.periodic.html: 'EvLoop::periodic »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::nowUpdate'
+---
 # EvLoop::nowUpdate
 
 (PECL ev >= 0.2.0)

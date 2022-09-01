@@ -1,16 +1,11 @@
-Отримує кількість вхідних нейронів
-
--   [« fanngetnetworktype](function.fann-get-network-type.html)
-    
--   [fanngetnumlayers »](function.fann-get-num-layers.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Отримує кількість вхідних нейронів
-    
-
+---
+navigation:
+  - function.fann-get-network-type.html: « fanngetnetworktype
+  - function.fann-get-num-layers.html: fanngetnumlayers »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetnuminput
+---
 # fanngetnuminput
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Відкочує транзакцію
-
--   [« db2result](function.db2-result.html)
-    
--   [db2serverinfo »](function.db2-server-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Відкочує транзакцію
-    
-
+---
+navigation:
+  - function.db2-result.html: « db2result
+  - function.db2-server-info.html: db2serverinfo »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2rollback
+---
 # db2rollback
 
 (PECL ibmdb2> = 1.0.0)

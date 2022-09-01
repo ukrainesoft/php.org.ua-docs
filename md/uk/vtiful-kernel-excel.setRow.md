@@ -1,16 +1,11 @@
-Встановити рядок
-
--   [« VtifulKernelExcel::setColumn](vtiful-kernel-excel.setColumn.html)
-    
--   [VtifulKernelFormat »](class.vtiful-kernel-format.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Встановити рядок
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.setColumn.html: '« VtifulKernelExcel::setColumn'
+  - class.vtiful-kernel-format.html: VtifulKernelFormat »
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::setRow'
+---
 # VtifulKernelExcel::setRow
 
 (PECL xlswriter >= 1.2.1)

@@ -1,16 +1,11 @@
-Визначення рамки
-
--   [« UIWindow::getTitle](ui-window.gettitle.html)
-    
--   [ОЙWindow::hasMargin »](ui-window.hasmargin.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Визначення рамки
-    
-
+---
+navigation:
+  - ui-window.gettitle.html: '« UIWindow::getTitle'
+  - ui-window.hasmargin.html: 'ОЙWindow::hasMargin »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::hasBorders'
+---
 # ОЙWindow::hasBorders
 
 (UI 0.9.9)

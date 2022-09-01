@@ -1,16 +1,11 @@
-Повертає простір імен, які використовуються в документі
-
--   [« SimpleXMLElement::getName](simplexmlelement.getname.md)
-    
--   [SimpleXMLElement::registerXPathNamespace »](simplexmlelement.registerxpathnamespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Повертає простір імен, які використовуються в документі
-    
-
+---
+navigation:
+  - simplexmlelement.getname.md: '« SimpleXMLElement::getName'
+  - simplexmlelement.registerxpathnamespace.md: 'SimpleXMLElement::registerXPathNamespace »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::getNamespaces'
+---
 # SimpleXMLElement::getNamespaces
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

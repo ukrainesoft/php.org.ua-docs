@@ -1,16 +1,11 @@
-Склеює всі значення в рядок
-
--   [« DsDeque::isEmpty](ds-deque.isempty.html)
-    
--   [ДсDeque::jsonSerialize »](ds-deque.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Склеює всі значення в рядок
-    
-
+---
+navigation:
+  - ds-deque.isempty.html: '« DsDeque::isEmpty'
+  - ds-deque.jsonserialize.html: 'ДсDeque::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::join'
+---
 # ДсDeque::join
 
 (PECL ds >= 1.0.0)

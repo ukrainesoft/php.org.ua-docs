@@ -1,16 +1,11 @@
-Клас MongoDBDriverServerDescription
-
--   [« MongoDBDriverServer::isSecondary](mongodb-driver-server.issecondary.html)
-    
--   [MongoDBDriverServerDescription::getHelloResponse »](mongodb-driver-serverdescription.gethelloresponse.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас MongoDBDriverServerDescription
-    
-
+---
+navigation:
+  - mongodb-driver-server.issecondary.html: '« MongoDBDriverServer::isSecondary'
+  - mongodb-driver-serverdescription.gethelloresponse.html: 'MongoDBDriverServerDescription::getHelloResponse »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас MongoDBDriverServerDescription
+---
 # Клас MongoDBDriverServerDescription
 
 (mongodb >=1.13.0)

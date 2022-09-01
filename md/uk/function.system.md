@@ -1,16 +1,11 @@
-Виконати зовнішню програму та відобразити висновок
-
--   [« shellexec](function.shell-exec.html)
-    
--   [parallel »](book.parallel.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции запуска программ](ref.exec.md)
-    
--   Виконати зовнішню програму та відобразити висновок
-    
-
+---
+navigation:
+  - function.shell-exec.html: « shellexec
+  - book.parallel.md: parallel »
+  - index.md: PHP Manual
+  - ref.exec.md: Функции запуска программ
+title: system
+---
 # system
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

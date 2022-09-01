@@ -1,16 +1,11 @@
-Повертає кодовий набір, який використовується для текстових анотацій
-
--   [« GmagickDraw::gettextdecoration](gmagickdraw.gettextdecoration.html)
-    
--   [GmagickDraw::line »](gmagickdraw.line.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Повертає кодовий набір, який використовується для текстових анотацій
-    
-
+---
+navigation:
+  - gmagickdraw.gettextdecoration.html: '« GmagickDraw::gettextdecoration'
+  - gmagickdraw.line.html: 'GmagickDraw::line »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::gettextencoding'
+---
 # GmagickDraw::gettextencoding
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-HTTP-автентифікація в PHP
-
--   [" Відмітні особливості](features.html)
-    
--   [Cookies »](features.cookies.html)
-    
--   [PHP Manual](index.html)
-    
--   [Відмітні особливості](features.html)
-    
--   HTTP-автентифікація в PHP
-    
-
+---
+navigation:
+  - features.html: '" Відмітні особливості'
+  - features.cookies.html: Cookies »
+  - index.html: PHP Manual
+  - features.html: Відмітні особливості
+title: HTTP-автентифікація в PHP
+---
 # HTTP-автентифікація в PHP
 
 Можливо використовувати функцію [header()](function.header.html) для надсилання повідомлення `"Authentication Required"` браузеру, змусивши його показати віконце для введення логіну та пароля. Як тільки користувач заповнить логін і пароль, посилання, що містить PHP-скрипт буде викликане ще раз [зумовленими змінними](reserved.variables.html) PHPAUTHUSER, PHPAUTHPW та AUTHTYPE, встановленими в логін, пароль та тип аутентифікації відповідно. Ці зумовлені змінні зберігаються у масиві [SERVER](reserved.variables.server.html). Підтримуються *тільки*: "Basic" та "Digest". Докладніше дивіться функцію [header()](function.header.html)

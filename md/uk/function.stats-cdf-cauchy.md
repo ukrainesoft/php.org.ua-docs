@@ -1,16 +1,11 @@
-Обчислює один із параметрів розподілу Коші за рештою
-
--   [« statscdfbinomial](function.stats-cdf-binomial.html)
-    
--   [statscdfchisquare »](function.stats-cdf-chisquare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює один із параметрів розподілу Коші за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-binomial.html: « statscdfbinomial
+  - function.stats-cdf-chisquare.html: statscdfchisquare »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statscdfcauchy
+---
 # statscdfcauchy
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_cauchy(    float $par1,    float $par2,    float $par3, �
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | кс0    | gamma  |
-|         | з                     | CDF    | кс0    | gamma  |
-|         | кс0                   | з      | CDF    | gamma  |
-|         | gamma                 | з      | CDF    | кс0    |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | кс0 | gamma |
+|  | з | CDF | кс0 | gamma |
+|  | кс0 | з | CDF | gamma |
+|  | gamma | з | CDF | кс0 |
 
 ### Список параметрів
 

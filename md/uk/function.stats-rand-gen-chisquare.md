@@ -1,16 +1,11 @@
-Обчислює випадкове відхилення від розподілу хі-квадрат
-
--   [« statsrandgenbeta](function.stats-rand-gen-beta.html)
-    
--   [statsrandgenexponential »](function.stats-rand-gen-exponential.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює випадкове відхилення від розподілу хі-квадрат
-    
-
+---
+navigation:
+  - function.stats-rand-gen-beta.html: « statsrandgenbeta
+  - function.stats-rand-gen-exponential.html: statsrandgenexponential »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsrandгенchisquare
+---
 # statsrandгенchisquare
 
 (PECL stats >= 1.0.0)

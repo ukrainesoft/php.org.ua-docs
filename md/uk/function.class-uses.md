@@ -1,16 +1,11 @@
-Повертає список трейтів, які використовуються заданим класом
-
--   [« classparents](function.class-parents.html)
-    
--   [iteratorapply »](function.iterator-apply.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Повертає список трейтів, які використовуються заданим класом
-    
-
+---
+navigation:
+  - function.class-parents.html: « classparents
+  - function.iterator-apply.html: iteratorapply »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: classuses
+---
 # classuses
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

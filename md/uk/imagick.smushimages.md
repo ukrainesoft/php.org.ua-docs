@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::sketchImage](imagick.sketchimage.md)
-    
--   [Imagick::solarizeImage »](imagick.solarizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.sketchimage.md: '« Imagick::sketchImage'
+  - imagick.solarizeimage.md: 'Imagick::solarizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::smushImages'
+---
 # Imagick::smushImages
 
 (PECL imagick 3> = 3.3.0)

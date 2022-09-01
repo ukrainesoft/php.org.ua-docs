@@ -1,16 +1,11 @@
-Видалення екземпляра за OID
-
--   [« cubriddisconnect](function.cubrid-disconnect.html)
-    
--   [cubriderrorcodefacility »](function.cubrid-error-code-facility.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Видалення екземпляра за OID
-    
-
+---
+navigation:
+  - function.cubrid-disconnect.html: « cubriddisconnect
+  - function.cubrid-error-code-facility.html: cubriderrorcodefacility »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubriddrop
+---
 # cubriddrop
 
 (PECL CUBRID >= 8.3.0)

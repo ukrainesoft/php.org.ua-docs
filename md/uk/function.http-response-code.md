@@ -1,16 +1,11 @@
-Отримує або встановлює код відповіді HTTP
-
--   [« headerssent](function.headers-sent.html)
-    
--   [inetntop »](function.inet-ntop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Отримує або встановлює код відповіді HTTP
-    
-
+---
+navigation:
+  - function.headers-sent.html: « headerssent
+  - function.inet-ntop.html: inetntop »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: httpresponsecode
+---
 # httpresponsecode
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

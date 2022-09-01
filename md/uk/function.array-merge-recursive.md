@@ -1,16 +1,11 @@
-Рекурсивне злиття одного або більше масивів
-
--   [« arraymap](function.array-map.html)
-    
--   [arraymerge »](function.array-merge.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Рекурсивне злиття одного або більше масивів
-    
-
+---
+navigation:
+  - function.array-map.html: « arraymap
+  - function.array-merge.html: arraymerge »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraymergerecursive
+---
 # arraymergerecursive
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ array_merge_recursive(array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | Функцію тепер можна викликати без будь-яких параметрів. Раніше був потрібний хоча б один параметр. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію тепер можна викликати без будь-яких параметрів. Раніше був потрібний хоча б один параметр. |
 
 ### Приклади
 

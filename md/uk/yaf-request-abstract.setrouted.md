@@ -1,16 +1,11 @@
-Призначення setRouted
-
--   [« YafRequestAbstract::setRequestUri](yaf-request-abstract.setrequesturi.html)
-    
--   [YafRequestHttp »](class.yaf-request-http.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Призначення setRouted
-    
-
+---
+navigation:
+  - yaf-request-abstract.setrequesturi.html: '« YafRequestAbstract::setRequestUri'
+  - class.yaf-request-http.html: YafRequestHttp »
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::setRouted'
+---
 # YafRequestAbstract::setRouted
 
 (Yaf >=1.0.0)

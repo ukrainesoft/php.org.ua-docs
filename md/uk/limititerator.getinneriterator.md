@@ -1,16 +1,11 @@
-Отримання внутрішнього об'єкта-ітератора
-
--   [« LimitIterator::current](limititerator.current.md)
-    
--   [LimitIterator::getPosition »](limititerator.getposition.md)
-    
--   [PHP Manual](index.md)
-    
--   [LimitIterator](class.limititerator.md)
-    
--   Отримання внутрішнього об'єкта-ітератора
-    
-
+---
+navigation:
+  - limititerator.current.md: '« LimitIterator::current'
+  - limititerator.getposition.md: 'LimitIterator::getPosition »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::getInnerIterator'
+---
 # LimitIterator::getInnerIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

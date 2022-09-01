@@ -1,16 +1,11 @@
-Згенерувати унікальний ID
-
--   [« timesleepuntil](function.time-sleep-until.html)
-    
--   [unpack »](function.unpack.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Згенерувати унікальний ID
-    
-
+---
+navigation:
+  - function.time-sleep-until.html: « timesleepuntil
+  - function.unpack.html: unpack »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: uniqid
+---
 # uniqid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

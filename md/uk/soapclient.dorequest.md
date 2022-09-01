@@ -1,16 +1,11 @@
-Виконує SOAP-запит
-
--   [« SoapClient::construct](soapclient.construct.md)
-    
--   [SoapClient::getCookies »](soapclient.getcookies.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapClient](class.soapclient.md)
-    
--   Виконує SOAP-запит
-    
-
+---
+navigation:
+  - soapclient.construct.md: '« SoapClient::construct'
+  - soapclient.getcookies.md: 'SoapClient::getCookies »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::doRequest'
+---
 # SoapClient::doRequest
 
 (PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ URL для запиту.
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тип `oneWay` тепер bool; раніше він був цілим числом (int). |
+| Версия | Описание |
+| --- | --- |
+|  | Тип `oneWay` тепер bool; раніше він був цілим числом (int). |
 
 ### Приклади
 

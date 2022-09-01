@@ -1,16 +1,11 @@
-Отримати екземпляр класу YafDispatcher
-
--   [« YafApplication::getConfig](yaf-application.getconfig.html)
-    
--   [YafApplication::getLastErrorMsg »](yaf-application.getlasterrormsg.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Отримати екземпляр класу YafDispatcher
-    
-
+---
+navigation:
+  - yaf-application.getconfig.html: '« YafApplication::getConfig'
+  - yaf-application.getlasterrormsg.html: 'YafApplication::getLastErrorMsg »'
+  - index.md: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::getDispatcher'
+---
 # YafApplication::getDispatcher
 
 (Yaf >=1.0.0)

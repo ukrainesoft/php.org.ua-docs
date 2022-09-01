@@ -1,16 +1,11 @@
-Складання чисел
-
--   [« gmpabs](function.gmp-abs.html)
-    
--   [gmpand »](function.gmp-and.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Складання чисел
-    
-
+---
+navigation:
+  - function.gmp-abs.html: « gmpabs
+  - function.gmp-and.html: gmpand »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpadd
+---
 # gmpadd
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

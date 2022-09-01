@@ -1,16 +1,11 @@
-Встановлює тип календаря, який використовується засобом форматування
-
--   [« IntlDateFormatter::parse](intldateformatter.parse.html)
-    
--   [IntlDateFormatter::setLenient »](intldateformatter.setlenient.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Встановлює тип календаря, який використовується засобом форматування
-    
-
+---
+navigation:
+  - intldateformatter.parse.html: '« IntlDateFormatter::parse'
+  - intldateformatter.setlenient.html: 'IntlDateFormatter::setLenient »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::setCalendar'
+---
 # IntlDateFormatter::setCalendar
 
 # datefmtsetcalendar
@@ -55,8 +50,8 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 ### список змін
 
-| Версия           | Описание                                                                  |
-|------------------|---------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 5.5.0/PECL 3.0.0 | Додана можливість передати об'єкт [IntlCalendar](class.intlcalendar.html) |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Драйвер СУБД Microsoft SQL Server для PHP
-
--   [« SQLite3Result::reset](sqlite3result.reset.md)
-    
--   [Введение »](intro.sqlsrv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   Драйвер СУБД Microsoft SQL Server для PHP
-    
-
+---
+navigation:
+  - sqlite3result.reset.md: '« SQLite3Result::reset'
+  - intro.sqlsrv.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: Драйвер СУБД Microsoft SQL Server для PHP
+---
 # Драйвер СУБД Microsoft SQL Server для PHP
 
 -   [Введение](intro.sqlsrv.md)

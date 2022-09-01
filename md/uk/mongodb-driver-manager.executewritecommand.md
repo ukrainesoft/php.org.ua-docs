@@ -1,16 +1,11 @@
-Виконує команду бази даних, що пише
-
--   [« MongoDBDriverManager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.html)
-    
--   [MongoDBDriverManager::getEncryptedFieldsMap »](mongodb-driver-manager.getencryptedfieldsmap.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Виконує команду бази даних, що пише
-    
-
+---
+navigation:
+  - mongodb-driver-manager.executereadwritecommand.html: '« MongoDBDriverManager::executeReadWriteCommand'
+  - mongodb-driver-manager.getencryptedfieldsmap.html: 'MongoDBDriverManager::getEncryptedFieldsMap »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::executeWriteCommand'
+---
 # MongoDBDriverManager::executeWriteCommand
 
 (mongodb >=1.4.0)
@@ -43,10 +38,10 @@ final public MongoDB\Driver\Manager::executeWriteCommand(string $db, MongoDB\Dri
 
 **options**
 
-| Опция                          | Тип                                                       | Описание |
-|--------------------------------|-----------------------------------------------------------|----------|
-| session                        | [MongoDBDriverSession](class.mongodb-driver-session.html) |          |
-| Сесія зв'язування з операцією. |                                                           |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| session | [MongoDBDriverSession](class.mongodb-driver-session.html) |  |
+| Сесія зв'язування з операцією. |  |  |
 
 | | writeConcern | [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 
@@ -71,8 +66,8 @@ final public MongoDB\Driver\Manager::executeWriteCommand(string $db, MongoDB\Dri
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                                   |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.4.4 | Буде викинуто [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо опція `"session"` використовується у поєднанні з непідтвердженим записом. |
 
 ### Дивіться також

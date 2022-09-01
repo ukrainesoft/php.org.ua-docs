@@ -1,16 +1,11 @@
-Виконує запит до бази даних InterBase
-
--   [« ibaseprepare](function.ibase-prepare.html)
-    
--   [ibaserestore »](function.ibase-restore.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Виконує запит до бази даних InterBase
-    
-
+---
+navigation:
+  - function.ibase-prepare.html: « ibaseprepare
+  - function.ibase-restore.html: ibaserestore »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasequery
+---
 # ibasequery
 
 (PHP 5, PHP 7 < 7.4.0)

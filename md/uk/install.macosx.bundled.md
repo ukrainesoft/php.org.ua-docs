@@ -1,16 +1,11 @@
-Використання вбудованого PHP до macOS Monterey
-
--   [« Использование пакетов](install.macosx.packages.md)
-    
--   [Компилирование PHP на macOS »](install.macosx.compile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка на macOS](install.macosx.md)
-    
--   Використання вбудованого PHP до macOS Monterey
-    
-
+---
+navigation:
+  - install.macosx.packages.md: « Использование пакетов
+  - install.macosx.compile.md: Компилирование PHP на macOS »
+  - index.md: PHP Manual
+  - install.macosx.md: Установка на macOS
+title: Використання вбудованого PHP до macOS Monterey
+---
 ## Використання вбудованого PHP до macOS Monterey
 
 PHP поставлявся разом з macOS, починаючи з macOS X (10.0.0) до macOS Monterey (12.0.0). Включення PHP у стандартний веб-сервер робиться простим розкоментуванням кількох рядків у конфігураційному файлі Apache httpd.conf у той час як CGI та/або CLI включені за умовчанням (доступні для використання термінальними програмами).

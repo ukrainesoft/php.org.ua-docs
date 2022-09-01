@@ -1,16 +1,11 @@
-Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
-
--   [« curlinit](function.curl-init.html)
-    
--   [curlmulticlose »](function.curl-multi-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
-    
-
+---
+navigation:
+  - function.curl-init.html: « curlinit
+  - function.curl-multi-close.html: curlmulticlose »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlmultiaddhandle
+---
 # curlmultiaddhandle
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ curl_multi_add_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource).                               |
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

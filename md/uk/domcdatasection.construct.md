@@ -1,16 +1,11 @@
-Створює новий екземпляр класу DOMCdataSection
-
--   [« DOMCdataSection](class.domcdatasection.html)
-    
--   [DOMCharacterData »](class.domcharacterdata.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMCdataSection](class.domcdatasection.html)
-    
--   Створює новий екземпляр класу DOMCdataSection
-    
-
+---
+navigation:
+  - class.domcdatasection.html: « DOMCdataSection
+  - class.domcharacterdata.html: DOMCharacterData »
+  - index.html: PHP Manual
+  - class.domcdatasection.html: DOMCdataSection
+title: 'DOMCdataSection::construct'
+---
 # DOMCdataSection::construct
 
 (PHP 5, PHP 7, PHP 8)

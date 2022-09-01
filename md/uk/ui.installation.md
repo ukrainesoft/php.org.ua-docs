@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ui.requirements.html)
-    
--   [ОЙPoint »](class.ui-point.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ui.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ui.requirements.html: « Вимоги
+  - class.ui-point.html: ОЙPoint »
+  - index.html: PHP Manual
+  - ui.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

@@ -1,16 +1,11 @@
-Надсилає cookie без URL-кодування значення
-
--   [« setcookie](function.setcookie.md)
-    
--   [socketgetstatus »](function.socket-get-status.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Надсилає cookie без URL-кодування значення
-    
-
+---
+navigation:
+  - function.setcookie.md: « setcookie
+  - function.socket-get-status.html: socketgetstatus »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: setrawcookie
+---
 # setrawcookie
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ setrawcookie(string $name, string $value = ?, array $options = []): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додано альтернативний підпис, що підтримує масив опцій `options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано альтернативний підпис, що підтримує масив опцій `options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
 
 ### Дивіться також
 

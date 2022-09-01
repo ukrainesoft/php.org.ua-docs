@@ -1,16 +1,11 @@
-Клас XMLReader
-
--   [« Типи ресурсів](xmlreader.resources.md)
-    
--   [XMLReader::close »](xmlreader.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](book.xmlreader.md)
-    
--   Клас XMLReader
-    
-
+---
+navigation:
+  - xmlreader.resources.md: « Типи ресурсів
+  - xmlreader.close.md: 'XMLReader::close »'
+  - index.md: PHP Manual
+  - book.xmlreader.md: XMLReader
+title: Клас XMLReader
+---
 # Клас XMLReader
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

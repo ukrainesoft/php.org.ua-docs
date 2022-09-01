@@ -1,16 +1,11 @@
-Встановлює функцію активації для всіх прихованих шарів
-
--   [« fannscaletrain](function.fann-scale-train.html)
-    
--   [fannsetactivationfunctionlayer »](function.fann-set-activation-function-layer.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює функцію активації для всіх прихованих шарів
-    
-
+---
+navigation:
+  - function.fann-scale-train.html: « fannscaletrain
+  - function.fann-set-activation-function-layer.html: fannsetactivationfunctionlayer »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetactivationfunctionhidden
+---
 # fannsetactivationfunctionhidden
 
 (PECL fann> = 1.0.0)

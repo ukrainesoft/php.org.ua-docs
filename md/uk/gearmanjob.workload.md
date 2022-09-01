@@ -1,16 +1,11 @@
-Отримання даних для обробки
-
--   [« GearmanJob::warning](gearmanjob.warning.html)
-    
--   [GearmanJob::workloadSize »](gearmanjob.workloadsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Отримання даних для обробки
-    
-
+---
+navigation:
+  - gearmanjob.warning.html: '« GearmanJob::warning'
+  - gearmanjob.workloadsize.html: 'GearmanJob::workloadSize »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::workload'
+---
 # GearmanJob::workload
 
 (PECL gearman >= 0.5.0)

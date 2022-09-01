@@ -1,16 +1,11 @@
-Отримує записи з бази даних як з індексованого масиву
-
--   [« dbasegetrecordwithnames](function.dbase-get-record-with-names.html)
-    
--   [dbasenumfields »](function.dbase-numfields.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](ref.dbase.html)
-    
--   Отримує записи з бази даних як з індексованого масиву
-    
-
+---
+navigation:
+  - function.dbase-get-record-with-names.html: « dbasegetrecordwithnames
+  - function.dbase-numfields.html: dbasenumfields »
+  - index.html: PHP Manual
+  - ref.dbase.html: dBase
+title: dbasegetrecord
+---
 # dbasegetrecord
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -50,8 +45,8 @@ dbase_get_record(resource $database, int $number): array
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Дивіться також

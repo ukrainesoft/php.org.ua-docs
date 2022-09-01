@@ -1,16 +1,11 @@
-Отримує розмір кеша realpath
-
--   [« realpathcacheget](function.realpath-cache-get.html)
-    
--   [realpath »](function.realpath.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Отримує розмір кеша realpath
-    
-
+---
+navigation:
+  - function.realpath-cache-get.html: « realpathcacheget
+  - function.realpath.html: realpath »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: realpathcachesize
+---
 # realpathcachesize
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8)

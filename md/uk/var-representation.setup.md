@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.var_representation.html)
-    
--   [Вимоги »](var-representation.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [varrepresentation](book.var_representation.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.var_representation.html: « Введение
+  - var-representation.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.var_representation.html: varrepresentation
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Видаляє схему
-
--   [« Session::createSchema](mysql-xdevapi-session.createschema.html)
-    
--   [Session::generateUUID »](mysql-xdevapi-session.generateuuid.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Видаляє схему
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.createschema.html: '« Session::createSchema'
+  - mysql-xdevapi-session.generateuuid.html: 'Session::generateUUID »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::dropSchema'
+---
 # Session::dropSchema
 
 (No version information available, might only be in Git)

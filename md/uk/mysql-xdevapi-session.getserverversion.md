@@ -1,16 +1,11 @@
-Отримує версію сервера
-
--   [« Session::getSchemas](mysql-xdevapi-session.getschemas.html)
-    
--   [Session::listClients »](mysql-xdevapi-session.listclients.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Отримує версію сервера
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.getschemas.html: '« Session::getSchemas'
+  - mysql-xdevapi-session.listclients.html: 'Session::listClients »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::getServerVersion'
+---
 # Session::getServerVersion
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Форматує тимчасову мітку Unix
-
--   [« datetimezoneset](function.date-timezone-set.html)
-    
--   [getdate »](function.getdate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Форматує тимчасову мітку Unix
-    
-
+---
+navigation:
+  - function.date-timezone-set.html: « datetimezoneset
+  - function.getdate.md: getdate »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: date
+---
 # date
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ date(string $format, ?int $timestamp = null): string
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `timestamp` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timestamp` тепер допускає значення null. |
 
 ### Приклади
 

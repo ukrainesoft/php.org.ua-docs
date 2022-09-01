@@ -1,16 +1,11 @@
-Включити викид винятків
-
--   [« SQLite3::createFunction](sqlite3.createfunction.md)
-    
--   [SQLite3::escapeString »](sqlite3.escapestring.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Включити викид винятків
-    
-
+---
+navigation:
+  - sqlite3.createfunction.md: '« SQLite3::createFunction'
+  - sqlite3.escapestring.md: 'SQLite3::escapeString »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::enableExceptions'
+---
 # SQLite3::enableExceptions
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Витягти токен запиту
-
--   [« OAuth::getRequestHeader](oauth.getrequestheader.html)
-    
--   [OAuth::setAuthType »](oauth.setauthtype.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Витягти токен запиту
-    
-
+---
+navigation:
+  - oauth.getrequestheader.html: '« OAuth::getRequestHeader'
+  - oauth.setauthtype.html: 'OAuth::setAuthType »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::getRequestToken'
+---
 # OAuth::getRequestToken
 
 (PECL OAuth >= 0.99.1)
@@ -45,10 +40,10 @@ HTTP-метод, наприклад `GET` або `POST`
 
 ### список змін
 
-| Версия            | Описание                                                                   |
-|-------------------|----------------------------------------------------------------------------|
-| PECL oauth 1.0.0  | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
-| PECL oauth 0.99.9 | Доданий параметр `callback_url`                                            |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
+| PECL oauth 0.99.9 | Доданий параметр `callback_url` |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає версію cURL
-
--   [« curlunescape](function.curl-unescape.html)
-    
--   [CurlHandle »](class.curlhandle.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Повертає версію cURL
-    
-
+---
+navigation:
+  - function.curl-unescape.html: « curlunescape
+  - class.curlhandle.md: CurlHandle »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlversion
+---
 # curlversion
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -33,24 +28,24 @@ curl_version(): array|false
 
 Повертає асоціативний масив із такими елементами:
 
-| Ключ             | Описание значения                         |
-|------------------|-------------------------------------------|
-| versionnumber    | 24-розрядний номер версії cURL            |
-| version          | Номер версії cURL у вигляді рядка         |
-| sslversionnumber | 24-бітний номер версії OpenSSL            |
-| sslversion       | Номер версії OpenSSL у вигляді рядка      |
-| libzversion      | Номер версії zlib у вигляді рядка         |
-| host             | Інформація про хост, де була зібрана cURL |
-| age              |                                           |
-| features         | Бітова маска констант `CURL_VERSION_XXX`  |
-| protocols        | Масив підтримуваних протоколів cURL       |
+| Ключ | Описание значения |
+| --- | --- |
+| versionnumber | 24-розрядний номер версії cURL |
+| version | Номер версії cURL у вигляді рядка |
+| sslversionnumber | 24-бітний номер версії OpenSSL |
+| sslversion | Номер версії OpenSSL у вигляді рядка |
+| libzversion | Номер версії zlib у вигляді рядка |
+| host | Інформація про хост, де була зібрана cURL |
+| age |  |
+| features | Бітова маска констант `CURL_VERSION_XXX` |
+| protocols | Масив підтримуваних протоколів cURL |
 
 ### список змін
 
-| Версия | Описание                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------|
-|        | Необов'язковий параметр `age` видалено.                                                       |
-|        | Необов'язковий параметр `age` оголошено застарілим; якщо передано значення, воно ігнорується. |
+| Версия | Описание |
+| --- | --- |
+|  | Необов'язковий параметр `age` видалено. |
+|  | Необов'язковий параметр `age` оголошено застарілим; якщо передано значення, воно ігнорується. |
 
 ### Приклади
 

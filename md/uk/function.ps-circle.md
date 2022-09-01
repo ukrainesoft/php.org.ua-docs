@@ -1,16 +1,11 @@
-Малює коло
-
--   [«psbegintemplate](function.ps-begin-template.html)
-    
--   [псclip »](function.ps-clip.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Малює коло
-    
-
+---
+navigation:
+  - function.ps-begin-template.html: «psbegintemplate
+  - function.ps-clip.html: псclip »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псcircle
+---
 # псcircle
 
 (PECL ps >= 1.1.0)

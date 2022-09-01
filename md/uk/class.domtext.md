@@ -1,16 +1,11 @@
-Клас DOMText
-
--   [« DOMProcessingInstruction::construct](domprocessinginstruction.construct.md)
-    
--   [DOMText::construct »](domtext.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMText
-    
-
+---
+navigation:
+  - domprocessinginstruction.construct.md: '« DOMProcessingInstruction::construct'
+  - domtext.construct.md: 'DOMText::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMText
+---
 # Клас DOMText
 
 (PHP 5, PHP 7, PHP 8)
@@ -170,9 +165,9 @@ wholeText
 
 ## список змін
 
-| Версия | Описание                                                            |
-|--------|---------------------------------------------------------------------|
-|        | Нереалізований метод **DOMText::replaceWholeText()** був видалений. |
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізований метод **DOMText::replaceWholeText()** був видалений. |
 
 ## Зміст
 

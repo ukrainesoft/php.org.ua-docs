@@ -1,16 +1,11 @@
-Повертає кольоровість синьої первинної точки
-
--   [« Gmagick::getimagebackgroundcolor](gmagick.getimagebackgroundcolor.md)
-    
--   [Gmagick::getimagebordercolor »](gmagick.getimagebordercolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає кольоровість синьої первинної точки
-    
-
+---
+navigation:
+  - gmagick.getimagebackgroundcolor.md: '« Gmagick::getimagebackgroundcolor'
+  - gmagick.getimagebordercolor.md: 'Gmagick::getimagebordercolor »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimageblueprimary'
+---
 # Gmagick::getimageblueprimary
 
 (PECL gmagick >= Unknown)

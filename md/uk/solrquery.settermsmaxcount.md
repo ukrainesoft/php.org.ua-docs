@@ -1,16 +1,11 @@
-Встановлює максимальну частоту документів
-
--   [« SolrQuery::setTermsLowerBound](solrquery.settermslowerbound.html)
-    
--   [SolrQuery::setTermsMinCount »](solrquery.settermsmincount.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює максимальну частоту документів
-    
-
+---
+navigation:
+  - solrquery.settermslowerbound.html: '« SolrQuery::setTermsLowerBound'
+  - solrquery.settermsmincount.html: 'SolrQuery::setTermsMinCount »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setTermsMaxCount'
+---
 # SolrQuery::setTermsMaxCount
 
 (PECL solr> = 0.9.2)

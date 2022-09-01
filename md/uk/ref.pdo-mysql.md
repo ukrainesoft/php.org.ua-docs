@@ -1,16 +1,11 @@
-Функції MySQL (PDOMYSQL)
-
--   [« PDOINFORMIX DSN](ref.pdo-informix.connection.html)
-    
--   [PDOMYSQL DSN »](ref.pdo-mysql.connection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Драйвери PDO](pdo.drivers.html)
-    
--   Функції MySQL (PDOMYSQL)
-    
-
+---
+navigation:
+  - ref.pdo-informix.connection.html: « PDOINFORMIX DSN
+  - ref.pdo-mysql.connection.html: PDOMYSQL DSN »
+  - index.html: PHP Manual
+  - pdo.drivers.html: Драйвери PDO
+title: Функції MySQL (PDOMYSQL)
+---
 # Функції MySQL (PDOMYSQL)
 
 ## Вступ
@@ -158,10 +153,10 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 **Опції конфігурації PDOMYSQL**
 
-| Имя                                                                       | По умолчанию     | Место изменения |
-|---------------------------------------------------------------------------|------------------|-----------------|
-| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM    |
-| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug)                  | NULL             | PHPINISYSTEM    |
+| Имя | По умолчанию | Место изменения |
+| --- | --- | --- |
+| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM |
+| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug) | NULL | PHPINISYSTEM |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

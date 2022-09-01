@@ -1,16 +1,11 @@
-Повертає щільність ймовірності нормального розподілу
-
--   [« statsdenslogistic](function.stats-dens-logistic.html)
-    
--   [statsdenspmfbinomial »](function.stats-dens-pmf-binomial.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Повертає щільність ймовірності нормального розподілу
-    
-
+---
+navigation:
+  - function.stats-dens-logistic.html: « statsdenslogistic
+  - function.stats-dens-pmf-binomial.html: statsdenspmfbinomial »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdensnormal
+---
 # statsdensnormal
 
 (PECL stats >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає кількість збігів для останнього пошуку
-
--   [« yazgetoption](function.yaz-get-option.html)
-    
--   [yazitemorder »](function.yaz-itemorder.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Повертає кількість збігів для останнього пошуку
-    
-
+---
+navigation:
+  - function.yaz-get-option.html: « yazgetoption
+  - function.yaz-itemorder.html: yazitemorder »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazhits
+---
 # yazhits
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
@@ -43,13 +38,13 @@ yaz_hits(resource $id, array &$searchresult = ?): int
 
 **searchresult members**
 
-| Элемент               | Описание                                  |
-|-----------------------|-------------------------------------------|
-| `id`                  | Підзапит ID2 (рядок)                      |
-| `count`               | Кількість результатів/збігів (ціле число) |
-| `subquery.term`       | Умова підзапиту (рядок)                   |
-| `interpretation.term` | Інтерпретована умова підзапиту (рядок)    |
-| `recommendation.term` | Рекомендована умова підзапиту (рядок)     |
+| Элемент | Описание |
+| --- | --- |
+| `id` | Підзапит ID2 (рядок) |
+| `count` | Кількість результатів/збігів (ціле число) |
+| `subquery.term` | Умова підзапиту (рядок) |
+| `interpretation.term` | Інтерпретована умова підзапиту (рядок) |
+| `recommendation.term` | Рекомендована умова підзапиту (рядок) |
 
 > **Зауваження**
 > 

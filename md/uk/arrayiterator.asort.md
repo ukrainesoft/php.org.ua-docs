@@ -1,16 +1,11 @@
-Сортує елементи за значеннями
-
--   [« ArrayIterator::append](arrayiterator.append.md)
-    
--   [ArrayIterator::construct »](arrayiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Сортує елементи за значеннями
-    
-
+---
+navigation:
+  - arrayiterator.append.md: '« ArrayIterator::append'
+  - arrayiterator.construct.md: 'ArrayIterator::construct »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::asort'
+---
 # ArrayIterator::asort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

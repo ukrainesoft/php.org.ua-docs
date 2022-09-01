@@ -1,16 +1,11 @@
-Розбирає рядок з датою згідно з вказаним форматом
-
--   [« DateTime::construct](datetime.construct.html)
-    
--   [DateTime::createFromImmutable »](datetime.createfromimmutable.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTime](class.datetime.html)
-    
--   Розбирає рядок з датою згідно з вказаним форматом
-    
-
+---
+navigation:
+  - datetime.construct.html: '« DateTime::construct'
+  - datetime.createfromimmutable.html: 'DateTime::createFromImmutable »'
+  - index.html: PHP Manual
+  - class.datetime.html: DateTime
+title: 'DateTime::createFromFormat'
+---
 # DateTime::createFromFormat
 
 # datecreatefromformat

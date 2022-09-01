@@ -1,16 +1,11 @@
-Налаштовує спостерігача
-
--   [« EvTimer::createStopped](evtimer.createstopped.md)
-    
--   [EvWatcher »](class.evwatcher.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvTimer](class.evtimer.md)
-    
--   Налаштовує спостерігача
-    
-
+---
+navigation:
+  - evtimer.createstopped.md: '« EvTimer::createStopped'
+  - class.evwatcher.md: EvWatcher »
+  - index.md: PHP Manual
+  - class.evtimer.md: EvTimer
+title: 'EvTimer::set'
+---
 # EvTimer::set
 
 (PECL ev >= 0.2.0)

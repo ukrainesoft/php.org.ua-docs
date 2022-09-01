@@ -1,16 +1,11 @@
-Клас SolrUpdateResponse
-
--   [« SolrQueryResponse::destruct](solrqueryresponse.destruct.md)
-    
--   [SolrUpdateResponse::construct »](solrupdateresponse.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrUpdateResponse
-    
-
+---
+navigation:
+  - solrqueryresponse.destruct.md: '« SolrQueryResponse::destruct'
+  - solrupdateresponse.construct.md: 'SolrUpdateResponse::construct »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrUpdateResponse
+---
 # Клас SolrUpdateResponse
 
 (PECL solr> = 0.9.2)

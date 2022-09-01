@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.math.html)
-    
--   [Вимоги »](math.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Math](book.math.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.math.html: « Введение
+  - math.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.math.html: Math
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

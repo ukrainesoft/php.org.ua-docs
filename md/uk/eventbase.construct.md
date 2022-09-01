@@ -1,16 +1,11 @@
-Конструктор об'єкту EventBase
-
--   [« EventBase](class.eventbase.md)
-    
--   [EventBase::dispatch »](eventbase.dispatch.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Конструктор об'єкту EventBase
-    
-
+---
+navigation:
+  - class.eventbase.md: « EventBase
+  - eventbase.dispatch.md: 'EventBase::dispatch »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::construct'
+---
 # EventBase::construct
 
 (PECL event >= 1.2.6-beta)

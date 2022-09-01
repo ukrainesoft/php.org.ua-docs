@@ -1,16 +1,11 @@
-Використання дзвінків PHP LDAP
-
--   [« Обумовлені константи](ldap.constants.md)
-    
--   [Керуючі об'єкти LDAP »](ldap.controls.md)
-    
--   [PHP Manual](index.md)
-    
--   [LDAP](book.ldap.md)
-    
--   Використання дзвінків PHP LDAP
-    
-
+---
+navigation:
+  - ldap.constants.md: « Обумовлені константи
+  - ldap.controls.md: Керуючі об'єкти LDAP »
+  - index.md: PHP Manual
+  - book.ldap.md: LDAP
+title: Використання дзвінків PHP LDAP
+---
 # Використання дзвінків PHP LDAP
 
 Перш ніж використовувати LDAP, потрібно знати наступне:

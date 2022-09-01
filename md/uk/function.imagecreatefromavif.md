@@ -1,16 +1,11 @@
-Створює нове зображення з файлу чи URL
-
--   [« imagecreate](function.imagecreate.md)
-    
--   [imagecreatefrombmp »](function.imagecreatefrombmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Створює нове зображення з файлу чи URL
-    
-
+---
+navigation:
+  - function.imagecreate.md: « imagecreate
+  - function.imagecreatefrombmp.md: imagecreatefrombmp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromavif
+---
 # imagecreatefromavif
 
 (PHP 8> = 8.1.0)

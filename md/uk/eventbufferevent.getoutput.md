@@ -1,16 +1,11 @@
-Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
-
--   [« EventBufferEvent::getInput](eventbufferevent.getinput.md)
-    
--   [EventBufferEvent::read »](eventbufferevent.read.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
-    
-
+---
+navigation:
+  - eventbufferevent.getinput.md: '« EventBufferEvent::getInput'
+  - eventbufferevent.read.md: 'EventBufferEvent::read »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::getOutput'
+---
 # EventBufferEvent::getOutput
 
 (PECL event >= 1.2.6-beta)

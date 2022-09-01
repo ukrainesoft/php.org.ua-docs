@@ -1,16 +1,11 @@
-Створити новий об'єкт Font
-
--   [« UIDrawTextFont](class.ui-draw-text-font.html)
-    
--   [ОЙDrawTextFont::getAscent »](ui-draw-text-font.getascent.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawTextFont](class.ui-draw-text-font.html)
-    
--   Створити новий об'єкт Font
-    
-
+---
+navigation:
+  - class.ui-draw-text-font.html: « UIDrawTextFont
+  - ui-draw-text-font.getascent.html: 'ОЙDrawTextFont::getAscent »'
+  - index.html: PHP Manual
+  - class.ui-draw-text-font.html: ОЙDrawTextFont
+title: 'ОЙDrawTextFont::construct'
+---
 # ОЙDrawTextFont::construct
 
 (UI 0.9.9)

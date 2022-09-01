@@ -1,16 +1,11 @@
-Клас EnchantDictionary
-
--   [« EnchantBroker](class.enchantbroker.md)
-    
--   [Gender »](book.gender.md)
-    
--   [PHP Manual](index.md)
-    
--   [Enchant](book.enchant.md)
-    
--   Клас EnchantDictionary
-    
-
+---
+navigation:
+  - class.enchantbroker.md: « EnchantBroker
+  - book.gender.md: Gender »
+  - index.md: PHP Manual
+  - book.enchant.md: Enchant
+title: Клас EnchantDictionary
+---
 # Клас EnchantDictionary
 
 (PHP 8)

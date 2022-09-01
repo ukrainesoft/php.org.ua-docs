@@ -1,16 +1,11 @@
-Повертає довжину кожного поля в результаті
-
--   [« mysqlfetchfield](function.mysql-fetch-field.html)
-    
--   [mysqlfetchobject »](function.mysql-fetch-object.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає довжину кожного поля в результаті
-    
-
+---
+navigation:
+  - function.mysql-fetch-field.html: « mysqlfetchfield
+  - function.mysql-fetch-object.html: mysqlfetchobject »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfetchlengths
+---
 # mysqlfetchlengths
 
 (PHP 4, PHP 5)

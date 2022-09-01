@@ -1,16 +1,11 @@
-Веб-сервіси
-
--   [« varexport](function.var-export.html)
-    
--   [OAuth »](book.oauth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Веб-сервіси
-    
-
+---
+navigation:
+  - function.var-export.html: « varexport
+  - book.oauth.html: OAuth »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Веб-сервіси
+---
 # Веб-сервіси
 
 -   [OAuth](book.oauth.html)

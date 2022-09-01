@@ -1,16 +1,11 @@
-Клас YafConfigIni
-
--   [« YafConfigAbstract::toArray](yaf-config-abstract.toarray.html)
-    
--   [YafConfigIni::construct »](yaf-config-ini.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafConfigIni
-    
-
+---
+navigation:
+  - yaf-config-abstract.toarray.html: '« YafConfigAbstract::toArray'
+  - yaf-config-ini.construct.html: 'YafConfigIni::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafConfigIni
+---
 # Клас YafConfigIni
 
 (Yaf >=1.0.0)

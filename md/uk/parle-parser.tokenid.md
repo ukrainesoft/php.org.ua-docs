@@ -1,16 +1,11 @@
-Отримує ідентифікатор токена
-
--   [« ParleParser::token](parle-parser.token.html)
-    
--   [ParleParser::trace »](parle-parser.trace.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Отримує ідентифікатор токена
-    
-
+---
+navigation:
+  - parle-parser.token.html: '« ParleParser::token'
+  - parle-parser.trace.html: 'ParleParser::trace »'
+  - index.md: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::tokenId'
+---
 # ParleParser::tokenId
 
 (PECL parle >= 0.5.1)

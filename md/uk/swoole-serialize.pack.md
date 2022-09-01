@@ -1,16 +1,11 @@
-Серіалізувати дані
-
--   [« SwooleSerialize](class.swoole-serialize.html)
-    
--   [SwooleSerialize::unpack »](swoole-serialize.unpack.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleSerialize](class.swoole-serialize.html)
-    
--   Серіалізувати дані
-    
-
+---
+navigation:
+  - class.swoole-serialize.html: « SwooleSerialize
+  - swoole-serialize.unpack.html: 'SwooleSerialize::unpack »'
+  - index.md: PHP Manual
+  - class.swoole-serialize.html: SwooleSerialize
+title: 'SwooleSerialize::pack'
+---
 # SwooleSerialize::pack
 
 (PECL swoole >= 1.9.0)

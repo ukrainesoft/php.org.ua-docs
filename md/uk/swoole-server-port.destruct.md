@@ -1,16 +1,11 @@
-Знищує порт сервера
-
--   [« SwooleServerPort::construct](swoole-server-port.construct.html)
-    
--   [SwooleServerPort::on »](swoole-server-port.on.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Знищує порт сервера
-    
-
+---
+navigation:
+  - swoole-server-port.construct.html: '« SwooleServerPort::construct'
+  - swoole-server-port.on.html: 'SwooleServerPort::on »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServerPort::destruct'
+---
 # SwooleServerPort::destruct
 
 (PECL swoole >= 1.9.0)

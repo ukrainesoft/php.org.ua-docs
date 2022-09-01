@@ -1,16 +1,11 @@
-Встановлює дані, пов'язані з вузлом
-
--   [« Zookeeper::isRecoverable](zookeeper.isrecoverable.md)
-    
--   [Zookeeper::setAcl »](zookeeper.setacl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Встановлює дані, пов'язані з вузлом
-    
-
+---
+navigation:
+  - zookeeper.isrecoverable.md: '« Zookeeper::isRecoverable'
+  - zookeeper.setacl.md: 'Zookeeper::setAcl »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::set'
+---
 # Zookeeper::set
 
 (PECL zookeeper >= 0.1.0)

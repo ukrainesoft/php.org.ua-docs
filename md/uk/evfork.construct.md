@@ -1,16 +1,11 @@
-Конструктор спостерігача EvFork
-
--   [« EvFork](class.evfork.html)
-    
--   [EvFork::createStopped »](evfork.createstopped.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvFork](class.evfork.html)
-    
--   Конструктор спостерігача EvFork
-    
-
+---
+navigation:
+  - class.evfork.html: « EvFork
+  - evfork.createstopped.html: 'EvFork::createStopped »'
+  - index.html: PHP Manual
+  - class.evfork.html: EvFork
+title: 'EvFork::construct'
+---
 # EvFork::construct
 
 (PECL ev >= 0.2.0)

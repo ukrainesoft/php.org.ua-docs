@@ -1,16 +1,11 @@
-Скасує всі зміни у позиції із заданим індексом
-
--   [« ZipArchive::unchangeArchive](ziparchive.unchangearchive.html)
-    
--   [ZipArchive::unchangeName »](ziparchive.unchangename.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Скасує всі зміни у позиції із заданим індексом
-    
-
+---
+navigation:
+  - ziparchive.unchangearchive.html: '« ZipArchive::unchangeArchive'
+  - ziparchive.unchangename.html: 'ZipArchive::unchangeName »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::unchangeIndex'
+---
 # ZipArchive::unchangeIndex
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

@@ -1,16 +1,11 @@
-Виконує затвердження
-
--   [« mysqlxdevapiExecutable](class.mysql-xdevapi-executable.html)
-    
--   [mysqlxdevapiExecutionStatus »](class.mysql-xdevapi-executionstatus.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiExecutable](class.mysql-xdevapi-executable.html)
-    
--   Виконує затвердження
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-executable.html: « mysqlxdevapiExecutable
+  - class.mysql-xdevapi-executionstatus.html: mysqlxdevapiExecutionStatus »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-executable.html: mysqlxdevapiExecutable
+title: 'Executable::execute'
+---
 # Executable::execute
 
 (No version information available, might only be in Git)

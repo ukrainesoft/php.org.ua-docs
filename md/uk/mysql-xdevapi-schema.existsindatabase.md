@@ -1,16 +1,11 @@
-Перевірити, чи існує база даних
-
--   [« Schema::dropCollection](mysql-xdevapi-schema.dropcollection.html)
-    
--   [Schema::getCollection »](mysql-xdevapi-schema.getcollection.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Перевірити, чи існує база даних
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.dropcollection.html: '« Schema::dropCollection'
+  - mysql-xdevapi-schema.getcollection.html: 'Schema::getCollection »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::existsInDatabase'
+---
 # Schema::existsInDatabase
 
 (No version information available, might only be in Git)

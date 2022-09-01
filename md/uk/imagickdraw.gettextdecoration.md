@@ -1,16 +1,11 @@
-Повертає оформлення тексту
-
--   [« ImagickDraw::getTextAntialias](imagickdraw.gettextantialias.html)
-    
--   [ImagickDraw::getTextEncoding »](imagickdraw.gettextencoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає оформлення тексту
-    
-
+---
+navigation:
+  - imagickdraw.gettextantialias.html: '« ImagickDraw::getTextAntialias'
+  - imagickdraw.gettextencoding.html: 'ImagickDraw::getTextEncoding »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getTextDecoration'
+---
 # ImagickDraw::getTextDecoration
 
 (PECL imagick 2, PECL imagick 3)

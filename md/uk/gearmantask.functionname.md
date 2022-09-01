@@ -1,16 +1,11 @@
-Отримати ім'я функції
-
--   [« GearmanTask::function](gearmantask.function.md)
-    
--   [GearmanTask::isKnown »](gearmantask.isknown.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Отримати ім'я функції
-    
-
+---
+navigation:
+  - gearmantask.function.md: '« GearmanTask::function'
+  - gearmantask.isknown.md: 'GearmanTask::isKnown »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::functionName'
+---
 # GearmanTask::functionName
 
 (PECL gearman >= 0.6.0)

@@ -1,16 +1,11 @@
-Створює об'єкт CURLStringFile
-
--   [« CURLStringFile](class.curlstringfile.md)
-    
--   [Event »](book.event.md)
-    
--   [PHP Manual](index.md)
-    
--   [CURLStringFile](class.curlstringfile.md)
-    
--   Створює об'єкт CURLStringFile
-    
-
+---
+navigation:
+  - class.curlstringfile.md: « CURLStringFile
+  - book.event.md: Event »
+  - index.md: PHP Manual
+  - class.curlstringfile.md: CURLStringFile
+title: 'CURLStringFile::construct'
+---
 # CURLStringFile::construct
 
 (PHP 8> = 8.1.0)

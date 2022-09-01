@@ -1,16 +1,11 @@
-Клас MongoDBDriverBulkWrite
-
--   [« MongoDBDriverQuery::construct](mongodb-driver-query.construct.html)
-    
--   [MongoDBDriverBulkWrite::construct »](mongodb-driver-bulkwrite.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverBulkWrite
-    
-
+---
+navigation:
+  - mongodb-driver-query.construct.html: '« MongoDBDriverQuery::construct'
+  - mongodb-driver-bulkwrite.construct.html: 'MongoDBDriverBulkWrite::construct »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverBulkWrite
+---
 # Клас MongoDBDriverBulkWrite
 
 (mongodb >=1.0.0)

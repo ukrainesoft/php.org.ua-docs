@@ -1,16 +1,11 @@
-Отримує тип стовпця
-
--   [« ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.html)
-    
--   [ColumnResult::isNumberSigned »](mysql-xdevapi-columnresult.isnumbersigned.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує тип стовпця
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.gettablename.html: '« ColumnResult::getTableName'
+  - mysql-xdevapi-columnresult.isnumbersigned.html: 'ColumnResult::isNumberSigned »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getType'
+---
 # ColumnResult::getType
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](quickhash.setup.md)
-    
--   [Установка »](quickhash.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](quickhash.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - quickhash.setup.md: « Встановлення та налаштування
+  - quickhash.installation.md: Установка »
+  - index.md: PHP Manual
+  - quickhash.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Модулю не потрібні зовнішні бібліотеки.

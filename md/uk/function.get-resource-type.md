@@ -1,16 +1,11 @@
-Повертає тип ресурсу
-
--   [« getresourceід](function.get-resource-id.html)
-    
--   [gettype »](function.gettype.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Повертає тип ресурсу
-    
-
+---
+navigation:
+  - function.get-resource-id.html: « getresourceід
+  - function.gettype.md: gettype »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: getresourcetype
+---
 # getresourcetype
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

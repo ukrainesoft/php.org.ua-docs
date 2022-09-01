@@ -1,16 +1,11 @@
-Відкочує транзакції, що очікують на обробку
-
--   [« ociresult](function.oci-result.html)
-    
--   [ociserverversion »](function.oci-server-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Відкочує транзакції, що очікують на обробку
-    
-
+---
+navigation:
+  - function.oci-result.html: « ociresult
+  - function.oci-server-version.html: ociserverversion »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocirollback
+---
 # ocirollback
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

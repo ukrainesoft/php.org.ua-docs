@@ -1,16 +1,11 @@
-Встановлює дату
-
--   [« DateTimeImmutable::setstate](datetimeimmutable.set-state.html)
-    
--   [DateTimeImmutable::setISODate »](datetimeimmutable.setisodate.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Встановлює дату
-    
-
+---
+navigation:
+  - datetimeimmutable.set-state.html: '« DateTimeImmutable::setstate'
+  - datetimeimmutable.setisodate.md: 'DateTimeImmutable::setISODate »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::setDate'
+---
 # DateTimeImmutable::setDate
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

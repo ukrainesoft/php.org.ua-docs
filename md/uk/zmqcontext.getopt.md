@@ -1,16 +1,11 @@
-Отримати опцію контексту
-
--   [« ZMQContext::construct](zmqcontext.construct.md)
-    
--   [ZMQContext::getSocket »](zmqcontext.getsocket.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQContext](class.zmqcontext.md)
-    
--   Отримати опцію контексту
-    
-
+---
+navigation:
+  - zmqcontext.construct.md: '« ZMQContext::construct'
+  - zmqcontext.getsocket.md: 'ZMQContext::getSocket »'
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
+title: 'ZMQContext::getOpt'
+---
 # ZMQContext::getOpt
 
 (PECL zmq >= 1.0.4)

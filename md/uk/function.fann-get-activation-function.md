@@ -1,16 +1,11 @@
-Повертає функцію активації
-
--   [« fannduplicatetraindata](function.fann-duplicate-train-data.html)
-    
--   [fanngetactivationsteepness »](function.fann-get-activation-steepness.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає функцію активації
-    
-
+---
+navigation:
+  - function.fann-duplicate-train-data.html: « fannduplicatetraindata
+  - function.fann-get-activation-steepness.html: fanngetactivationsteepness »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetactivationfunction
+---
 # fanngetactivationfunction
 
 (PECL fann> = 1.0.0)

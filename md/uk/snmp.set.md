@@ -1,16 +1,11 @@
-Встановлює значення об'єкта SNMP
-
--   [« SNMP::getnext](snmp.getnext.md)
-    
--   [SNMP::setSecurity »](snmp.setsecurity.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](class.snmp.md)
-    
--   Встановлює значення об'єкта SNMP
-    
-
+---
+navigation:
+  - snmp.getnext.md: '« SNMP::getnext'
+  - snmp.setsecurity.md: 'SNMP::setSecurity »'
+  - index.md: PHP Manual
+  - class.snmp.md: SNMP
+title: 'SNMP::set'
+---
 # SNMP::set
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

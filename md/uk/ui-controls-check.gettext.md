@@ -1,16 +1,11 @@
-Отримати текст
-
--   [« UIControlsCheck::construct](ui-controls-check.construct.html)
-    
--   [ОЙControlsCheck::isChecked »](ui-controls-check.ischecked.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsCheck](class.ui-controls-check.html)
-    
--   Отримати текст
-    
-
+---
+navigation:
+  - ui-controls-check.construct.html: '« UIControlsCheck::construct'
+  - ui-controls-check.ischecked.html: 'ОЙControlsCheck::isChecked »'
+  - index.md: PHP Manual
+  - class.ui-controls-check.html: ОЙControlsCheck
+title: 'ОЙControlsCheck::getText'
+---
 # ОЙControlsCheck::getText
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Отримує часовий пояс об'єкту
-
--   [« IntlCalendar::getTime](intlcalendar.gettime.md)
-    
--   [IntlCalendar::getType »](intlcalendar.gettype.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує часовий пояс об'єкту
-    
-
+---
+navigation:
+  - intlcalendar.gettime.md: '« IntlCalendar::getTime'
+  - intlcalendar.gettype.md: 'IntlCalendar::getType »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getTimeZone'
+---
 # IntlCalendar::getTimeZone
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

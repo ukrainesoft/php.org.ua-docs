@@ -1,16 +1,11 @@
-Сортує кілька масивів або багатовимірні масиви
-
--   [« arraymerge](function.array-merge.html)
-    
--   [arraypad »](function.array-pad.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Сортує кілька масивів або багатовимірні масиви
-    
-
+---
+navigation:
+  - function.array-merge.html: « arraymerge
+  - function.array-pad.html: arraypad »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraymultisort
+---
 # arraymultisort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

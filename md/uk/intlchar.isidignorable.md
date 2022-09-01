@@ -1,16 +1,11 @@
-Перевірити, чи символ ігнорується
-
--   [« IntlChar::isgraph](intlchar.isgraph.md)
-    
--   [IntlChar::isIDPart »](intlchar.isidpart.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи символ ігнорується
-    
-
+---
+navigation:
+  - intlchar.isgraph.md: '« IntlChar::isgraph'
+  - intlchar.isidpart.md: 'IntlChar::isIDPart »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isIDIgnorable'
+---
 # IntlChar::isIDIgnorable
 
 (PHP 7, PHP 8)

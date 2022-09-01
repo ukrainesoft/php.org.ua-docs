@@ -1,16 +1,11 @@
-Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
-
--   [« ZipArchive::getStream](ziparchive.getstream.md)
-    
--   [ZipArchive::getStreamName »](ziparchive.getstreamname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
-    
-
+---
+navigation:
+  - ziparchive.getstream.md: '« ZipArchive::getStream'
+  - ziparchive.getstreamname.md: 'ZipArchive::getStreamName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::getStreamIndex'
+---
 # ZipArchive::getStreamIndex
 
 (PHP 8 >= 8.2.0, PECL zip >= 1.20.0)

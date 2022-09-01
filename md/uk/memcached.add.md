@@ -1,16 +1,11 @@
-Додає елемент із новим ключем
-
--   [« Memcached](class.memcached.md)
-    
--   [Memcached::addByKey »](memcached.addbykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Додає елемент із новим ключем
-    
-
+---
+navigation:
+  - class.memcached.md: « Memcached
+  - memcached.addbykey.md: 'Memcached::addByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::add'
+---
 # Memcached::add
 
 (PECL memcached >= 0.1.0)

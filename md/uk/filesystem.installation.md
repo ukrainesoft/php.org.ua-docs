@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](filesystem.requirements.md)
-    
--   [Налаштування під час виконання »](filesystem.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](filesystem.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - filesystem.requirements.md: « Вимоги
+  - filesystem.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - filesystem.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для використання цих функцій не потрібне проведення установки, оскільки вони є частиною ядра PHP.

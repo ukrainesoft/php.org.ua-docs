@@ -1,16 +1,11 @@
-Конструктор класу RecursiveDirectoryIterator
-
--   [« RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-    
--   [RecursiveDirectoryIterator::getChildren »](recursivedirectoryiterator.getchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-    
--   Конструктор класу RecursiveDirectoryIterator
-    
-
+---
+navigation:
+  - class.recursivedirectoryiterator.md: « RecursiveDirectoryIterator
+  - recursivedirectoryiterator.getchildren.md: 'RecursiveDirectoryIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::construct'
+---
 # RecursiveDirectoryIterator::construct
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ public **RecursiveDirectoryIterator::construct**(string `$directory`, int `$flag
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 

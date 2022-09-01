@@ -1,16 +1,11 @@
-Виконує запит
-
--   [« odbcexec](function.odbc-exec.html)
-    
--   [odbcfetcharray »](function.odbc-fetch-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Виконує запит
-    
-
+---
+navigation:
+  - function.odbc-exec.html: « odbcexec
+  - function.odbc-fetch-array.html: odbcfetcharray »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcexecute
+---
 # odbcexecute
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

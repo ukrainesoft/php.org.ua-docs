@@ -1,16 +1,11 @@
-Встановлює формат групи, структуру результату (параметр group.format)
-
--   [« SolrQuery::setGroupFacet](solrquery.setgroupfacet.md)
-    
--   [SolrQuery::setGroupLimit »](solrquery.setgrouplimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює формат групи, структуру результату (параметр group.format)
-    
-
+---
+navigation:
+  - solrquery.setgroupfacet.md: '« SolrQuery::setGroupFacet'
+  - solrquery.setgrouplimit.md: 'SolrQuery::setGroupLimit »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setGroupFormat'
+---
 # SolrQuery::setGroupFormat
 
 (PECL solr> = 2.2.0)

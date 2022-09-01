@@ -1,16 +1,11 @@
-Виведення інформації про підготовлену SQL-команду з метою налагодження
-
--   [« PDOStatement::columnCount](pdostatement.columncount.html)
-    
--   [PDOStatement::errorCode »](pdostatement.errorcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Виведення інформації про підготовлену SQL-команду з метою налагодження
-    
-
+---
+navigation:
+  - pdostatement.columncount.html: '« PDOStatement::columnCount'
+  - pdostatement.errorcode.html: 'PDOStatement::errorCode »'
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::debugDumpParams'
+---
 # PDOStatement::debugDumpParams
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.9.0)
@@ -43,9 +38,9 @@ public PDOStatement::debugDumpParams(): ?bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **PDOStatement::debugDumpParams()** тепер повертає SQL, відправлений до бази даних, зокрема повний необроблений запит (включаючи замінені параметри зі своїми пов'язаними значеннями). Зверніть увагу, що це буде працювати тільки при включеній емуляції запитів, що готуються. |
+| Версия | Описание |
+| --- | --- |
+|  | **PDOStatement::debugDumpParams()** тепер повертає SQL, відправлений до бази даних, зокрема повний необроблений запит (включаючи замінені параметри зі своїми пов'язаними значеннями). Зверніть увагу, що це буде працювати тільки при включеній емуляції запитів, що готуються. |
 
 ### Приклади
 

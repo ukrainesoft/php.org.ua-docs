@@ -1,16 +1,11 @@
-Просте використання VarnishStat
-
--   [« Простое использование VarnishAdmin](varnish.example.admin.html)
-    
--   [Простое использование VarnishLog »](varnish.example.log.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](varnish.examples.html)
-    
--   Просте використання VarnishStat
-    
-
+---
+navigation:
+  - varnish.example.admin.html: « Простое использование VarnishAdmin
+  - varnish.example.log.html: Простое использование VarnishLog »
+  - index.html: PHP Manual
+  - varnish.examples.html: Приклади
+title: Просте використання VarnishStat
+---
 ## Просте використання VarnishStat
 
 Даний приклад ілюструє отримання знімка статистики varnish з пам'яті, що розділяється

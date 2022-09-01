@@ -1,16 +1,11 @@
-Вступ
-
--   [« Використання PHP у командному рядку](features.commandline.html)
-    
--   [Основні відмінності від інших реалізацій SAPI](features.commandline.differences.html)
-    
--   [PHP Manual](index.html)
-    
--   [Використання PHP у командному рядку](features.commandline.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - features.commandline.html: « Використання PHP у командному рядку
+  - features.commandline.differences.html: Основні відмінності від інших реалізацій SAPI
+  - index.html: PHP Manual
+  - features.commandline.html: Використання PHP у командному рядку
+title: Вступ
+---
 ## Вступ
 
 Основна мета цього CLI SAPI – розробка консольних додатків на PHP. Є досить багато відмінностей між CLI SAPI та іншими видами SAPI, які будуть розглянуті у цьому розділі. Варто зазначити, що CLI SAPI та CGI - різні SAPIінтерфейси, хоча у поведінці багато спільного.

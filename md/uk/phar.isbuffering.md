@@ -1,16 +1,11 @@
-Перевірити, чи будуть операції з Phar-архівом буферизовані чи записані безпосередньо на диск
-
--   [« Phar::interceptFileFuncs](phar.interceptfilefuncs.md)
-    
--   [Phar::isCompressed »](phar.iscompressed.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Перевірити, чи будуть операції з Phar-архівом буферизовані чи записані безпосередньо на диск
-    
-
+---
+navigation:
+  - phar.interceptfilefuncs.md: '« Phar::interceptFileFuncs'
+  - phar.iscompressed.md: 'Phar::isCompressed »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::isBuffering'
+---
 # Phar::isBuffering
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

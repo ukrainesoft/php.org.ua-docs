@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ibm-db2.requirements.html)
-    
--   [Налаштування під час виконання »](ibm-db2.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ibm-db2.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ibm-db2.requirements.html: « Вимоги
+  - ibm-db2.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - ibm-db2.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для складання модуля ibmdb2, спочатку необхідно встановити розробницькі бібліотеки та заголовні файли DB2. DB2 не встановлює їх за замовчуванням, так що вам доведеться запустити пакет інсталяції DB2 і додати ці опції. Заголовкові файли включені в DB2 Application Development Client, доступний для вільного завантаження [» сайта поддержки](https://www.ibm.com/developerworks/downloads/im/db2express/index.html) IBM DB2 Universal Database.

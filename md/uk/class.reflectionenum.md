@@ -1,16 +1,11 @@
-Клас ReflectionEnum
-
--   [« ReflectionClassConstant::toString](reflectionclassconstant.tostring.html)
-    
--   [ReflectionEnum::construct »](reflectionenum.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionEnum
-    
-
+---
+navigation:
+  - reflectionclassconstant.tostring.html: '« ReflectionClassConstant::toString'
+  - reflectionenum.construct.html: 'ReflectionEnum::construct »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionEnum
+---
 # Клас ReflectionEnum
 
 (PHP 8> = 8.1.0)

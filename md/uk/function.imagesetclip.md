@@ -1,16 +1,11 @@
-Встановіть прямокутник обмеження
-
--   [« imagesetbrush](function.imagesetbrush.html)
-    
--   [imagesetinterpolation »](function.imagesetinterpolation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Встановіть прямокутник обмеження
-    
-
+---
+navigation:
+  - function.imagesetbrush.html: « imagesetbrush
+  - function.imagesetinterpolation.html: imagesetinterpolation »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagesetclip
+---
 # imagesetclip
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -53,9 +48,9 @@ imagesetclip(    GdImage $image,    int $x1,    int $y1,    int 
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

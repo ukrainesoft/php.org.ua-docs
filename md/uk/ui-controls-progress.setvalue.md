@@ -1,16 +1,11 @@
-Встановити значення
-
--   [« UIControlsProgress::getValue](ui-controls-progress.getvalue.html)
-    
--   [ОЙControlsSeparator »](class.ui-controls-separator.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsProgress](class.ui-controls-progress.html)
-    
--   Встановити значення
-    
-
+---
+navigation:
+  - ui-controls-progress.getvalue.html: '« UIControlsProgress::getValue'
+  - class.ui-controls-separator.html: ОЙControlsSeparator »
+  - index.md: PHP Manual
+  - class.ui-controls-progress.html: ОЙControlsProgress
+title: 'ОЙControlsProgress::setValue'
+---
 # ОЙControlsProgress::setValue
 
 (UI 0.9.9)

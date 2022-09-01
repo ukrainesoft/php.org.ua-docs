@@ -1,16 +1,11 @@
-Чи відкривати пошкоджені архіви
-
--   [« RarArchive::open](rararchive.open.html)
-    
--   [RarArchive::toString »](rararchive.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarArchive](class.rararchive.html)
-    
--   Чи відкривати пошкоджені архіви
-    
-
+---
+navigation:
+  - rararchive.open.html: '« RarArchive::open'
+  - rararchive.tostring.html: 'RarArchive::toString »'
+  - index.html: PHP Manual
+  - class.rararchive.html: RarArchive
+title: 'RarArchive::setAllowBroken'
+---
 # RarArchive::setAllowBroken
 
 (PECL rar >= 3.0.0)

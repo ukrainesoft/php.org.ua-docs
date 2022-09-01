@@ -1,16 +1,11 @@
-Гамма-корекція зображення
-
--   [« Gmagick::frameimage](gmagick.frameimage.md)
-    
--   [Gmagick::getcopyright »](gmagick.getcopyright.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Гамма-корекція зображення
-    
-
+---
+navigation:
+  - gmagick.frameimage.md: '« Gmagick::frameimage'
+  - gmagick.getcopyright.md: 'Gmagick::getcopyright »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::gammaimage'
+---
 # Gmagick::gammaimage
 
 (PECL gmagick >= Unknown)

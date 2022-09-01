@@ -1,16 +1,11 @@
-Обробка
-
--   [« Threaded::isTerminated](threaded.isterminated.md)
-    
--   [Threaded::notify »](threaded.notify.md)
-    
--   [PHP Manual](index.md)
-    
--   [Threaded](class.threaded.md)
-    
--   Обробка
-    
-
+---
+navigation:
+  - threaded.isterminated.md: '« Threaded::isTerminated'
+  - threaded.notify.md: 'Threaded::notify »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::merge'
+---
 # Threaded::merge
 
 (PECL pthreads >= 2.0.0)

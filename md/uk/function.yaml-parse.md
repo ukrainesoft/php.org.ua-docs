@@ -1,16 +1,11 @@
-Розбирає потік YAML
-
--   [« yamlparseurl](function.yaml-parse-url.html)
-    
--   [Yaf »](book.yaf.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Yaml](ref.yaml.md)
-    
--   Розбирає потік YAML
-    
-
+---
+navigation:
+  - function.yaml-parse-url.html: « yamlparseurl
+  - book.yaf.md: Yaf »
+  - index.md: PHP Manual
+  - ref.yaml.md: Функции Yaml
+title: yamlparse
+---
 # yamlparse
 
 (PECL yaml >= 0.4.0)

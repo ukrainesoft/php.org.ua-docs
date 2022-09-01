@@ -1,16 +1,11 @@
-Повертає величину розміру спектру Imagick
-
--   [« Imagick::getQuantumDepth](imagick.getquantumdepth.md)
-    
--   [Imagick::getRegistry »](imagick.getregistry.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає величину розміру спектру Imagick
-    
-
+---
+navigation:
+  - imagick.getquantumdepth.md: '« Imagick::getQuantumDepth'
+  - imagick.getregistry.md: 'Imagick::getRegistry »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getQuantumRange'
+---
 # Imagick::getQuantumRange
 
 (PECL imagick 2, PECL imagick 3)

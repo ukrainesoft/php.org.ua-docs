@@ -1,16 +1,11 @@
-Оновлює базу даних RRD
-
--   [« rrdtune](function.rrd-tune.html)
-    
--   [rrdversion »](function.rrd-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Оновлює базу даних RRD
-    
-
+---
+navigation:
+  - function.rrd-tune.html: « rrdtune
+  - function.rrd-version.html: rrdversion »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdupdate
+---
 # rrdupdate
 
 (PECL rrd >= 0.9.0)

@@ -1,16 +1,11 @@
-Завіса з темних хмар
-
--   [« tradercdlcounterattack](function.trader-cdlcounterattack.html)
-    
--   [tradercdldoji »](function.trader-cdldoji.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Завіса з темних хмар
-    
-
+---
+navigation:
+  - function.trader-cdlcounterattack.html: « tradercdlcounterattack
+  - function.trader-cdldoji.html: tradercdldoji »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdldarkcloudcover
+---
 # tradercdldarkcloudcover
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Отримати знаменник відсотка виконаної роботи
-
--   [« GearmanTask::sendWorkload](gearmantask.sendworkload.md)
-    
--   [GearmanTask::taskNumerator »](gearmantask.tasknumerator.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Отримати знаменник відсотка виконаної роботи
-    
-
+---
+navigation:
+  - gearmantask.sendworkload.md: '« GearmanTask::sendWorkload'
+  - gearmantask.tasknumerator.md: 'GearmanTask::taskNumerator »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::taskDenominator'
+---
 # GearmanTask::taskDenominator
 
 (PECL gearman >= 0.5.0)

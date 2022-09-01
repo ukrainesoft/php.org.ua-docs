@@ -1,16 +1,11 @@
-Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
-
--   [« RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md)
-    
--   [RecursiveIteratorIterator »](class.recursiveiteratoriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveFilterIterator](class.recursivefilteriterator.md)
-    
--   Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
-    
-
+---
+navigation:
+  - recursivefilteriterator.getchildren.md: '« RecursiveFilterIterator::getChildren'
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator »
+  - index.md: PHP Manual
+  - class.recursivefilteriterator.md: RecursiveFilterIterator
+title: 'RecursiveFilterIterator::hasChildren'
+---
 # RecursiveFilterIterator::hasChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

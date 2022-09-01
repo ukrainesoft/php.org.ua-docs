@@ -1,16 +1,11 @@
-Повертає коефіцієнт збільшення під час навчання RPROP
-
--   [« fanngetrpropdeltazero](function.fann-get-rprop-delta-zero.html)
-    
--   [fanngetsarpropsteperrorshift »](function.fann-get-sarprop-step-error-shift.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає коефіцієнт збільшення під час навчання RPROP
-    
-
+---
+navigation:
+  - function.fann-get-rprop-delta-zero.html: « fanngetrpropdeltazero
+  - function.fann-get-sarprop-step-error-shift.html: fanngetsarpropsteperrorshift »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetrpropincreasefactor
+---
 # fanngetrpropincreasefactor
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Отримує поточну адресу, до якої прив'язаний сокет слухача
-
--   [« EventListener::getBase](eventlistener.getbase.html)
-    
--   [EventListener::setCallback »](eventlistener.setcallback.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventListener](class.eventlistener.html)
-    
--   Отримує поточну адресу, до якої прив'язаний сокет слухача
-    
-
+---
+navigation:
+  - eventlistener.getbase.html: '« EventListener::getBase'
+  - eventlistener.setcallback.html: 'EventListener::setCallback »'
+  - index.html: PHP Manual
+  - class.eventlistener.html: EventListener
+title: 'EventListener::getSocketName'
+---
 # EventListener::getSocketName
 
 (PECL event >= 1.5.0)

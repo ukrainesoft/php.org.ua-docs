@@ -1,16 +1,11 @@
-Псевдонім imaplsub
-
--   [« imaplistscan](function.imap-listscan.html)
-    
--   [imaplsub »](function.imap-lsub.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Псевдонім imaplsub
-    
-
+---
+navigation:
+  - function.imap-listscan.html: « imaplistscan
+  - function.imap-lsub.html: imaplsub »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imaplistsubscribed
+---
 # imaplistsubscribed
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

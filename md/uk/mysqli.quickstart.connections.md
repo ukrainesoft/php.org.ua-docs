@@ -1,16 +1,11 @@
-З'єднання
-
--   [« Процедурний та об'єктно-орієнтований інтерфейс](mysqli.quickstart.dual-interface.html)
-    
--   [Виконання запитів »](mysqli.quickstart.statements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Краткое руководство](mysqli.quickstart.html)
-    
--   З'єднання
-    
-
+---
+navigation:
+  - mysqli.quickstart.dual-interface.html: « Процедурний та об'єктно-орієнтований інтерфейс
+  - mysqli.quickstart.statements.html: Виконання запитів »
+  - index.html: PHP Manual
+  - mysqli.quickstart.html: Краткое руководство
+title: З'єднання
+---
 ## З'єднання
 
 Сервер MySQL підтримує різні способи передачі. З'єднання можуть використовувати протоколи TCP/IP, сокети Unix-доменів або іменовані пайпи Windows.

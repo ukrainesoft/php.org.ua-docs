@@ -1,16 +1,11 @@
-Повертає MD5-хеш рядки
-
--   [« md5file](function.md5-file.html)
-    
--   [metaphone »](function.metaphone.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Повертає MD5-хеш рядки
-    
-
+---
+navigation:
+  - function.md5-file.html: « md5file
+  - function.metaphone.html: metaphone »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: md5
+---
 # md5
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

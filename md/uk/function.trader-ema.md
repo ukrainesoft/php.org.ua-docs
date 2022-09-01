@@ -1,16 +1,11 @@
-Експоненційна ковзна середня
-
--   [« traderдкс](function.trader-dx.html)
-    
--   [tradererrno »](function.trader-errno.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Експоненційна ковзна середня
-    
-
+---
+navigation:
+  - function.trader-dx.html: « traderдкс
+  - function.trader-errno.html: tradererrno »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderema
+---
 # traderema
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](sqlsrv.configuration.md)
-    
--   [Обумовлені константи »](sqlsrv.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](sqlsrv.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - sqlsrv.configuration.md: « Налаштування під час виконання
+  - sqlsrv.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - sqlsrv.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 ## Дескриптор з'єднання

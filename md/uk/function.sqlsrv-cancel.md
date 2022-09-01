@@ -1,16 +1,11 @@
-Скасує оператор
-
--   [« sqlsrvbegintransaction](function.sqlsrv-begin-transaction.html)
-    
--   [sqlsrvclientinfo »](function.sqlsrv-client-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Скасує оператор
-    
-
+---
+navigation:
+  - function.sqlsrv-begin-transaction.html: « sqlsrvbegintransaction
+  - function.sqlsrv-client-info.html: sqlsrvclientinfo »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvcancel
+---
 # sqlsrvcancel
 
 (No version information available, might only be in Git)

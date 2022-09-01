@@ -1,16 +1,11 @@
-Змінює значення кольору будь-якого пікселя, що відповідає меті
-
--   [« Imagick::orderedPosterizeImage](imagick.orderedposterizeimage.html)
-    
--   [Imagick::paintOpaqueImage »](imagick.paintopaqueimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Змінює значення кольору будь-якого пікселя, що відповідає меті
-    
-
+---
+navigation:
+  - imagick.orderedposterizeimage.html: '« Imagick::orderedPosterizeImage'
+  - imagick.paintopaqueimage.html: 'Imagick::paintOpaqueImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::paintFloodfillImage'
+---
 # Imagick::paintFloodfillImage
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

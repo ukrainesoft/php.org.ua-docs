@@ -1,16 +1,11 @@
-Виконує один або кілька запитів до бази даних
-
--   [« mysqli::moreresults](mysqli.more-results.html)
-    
--   [mysqli::nextresult »](mysqli.next-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Виконує один або кілька запитів до бази даних
-    
-
+---
+navigation:
+  - mysqli.more-results.html: '« mysqli::moreresults'
+  - mysqli.next-result.html: 'mysqli::nextresult »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::multiquery'
+---
 # mysqli::multiquery
 
 # mysqlimultiquery

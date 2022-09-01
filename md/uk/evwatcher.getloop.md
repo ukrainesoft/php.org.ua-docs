@@ -1,16 +1,11 @@
-Повертає цикл, який відповідає за спостерігача
-
--   [« EvWatcher::feed](evwatcher.feed.html)
-    
--   [EvWatcher::invoke »](evwatcher.invoke.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvWatcher](class.evwatcher.html)
-    
--   Повертає цикл, який відповідає за спостерігача
-    
-
+---
+navigation:
+  - evwatcher.feed.html: '« EvWatcher::feed'
+  - evwatcher.invoke.html: 'EvWatcher::invoke »'
+  - index.html: PHP Manual
+  - class.evwatcher.html: EvWatcher
+title: 'EvWatcher::getLoop'
+---
 # EvWatcher::getLoop
 
 (PECL ev >= 0.2.0)

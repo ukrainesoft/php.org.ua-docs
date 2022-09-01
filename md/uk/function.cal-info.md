@@ -1,16 +1,11 @@
-Повертає інформацію про заданий календар
-
--   [« calfromжд](function.cal-from-jd.html)
-    
--   [calтоjd »](function.cal-to-jd.html)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](ref.calendar.md)
-    
--   Повертає інформацію про заданий календар
-    
-
+---
+navigation:
+  - function.cal-from-jd.html: « calfromжд
+  - function.cal-to-jd.html: calтоjd »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: calinfo
+---
 # calinfo
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Зупиняє таймер використання процесора
-
--   [« LuaSandbox::loadString](luasandbox.loadstring.md)
-    
--   [LuaSandbox::registerLibrary »](luasandbox.registerlibrary.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Зупиняє таймер використання процесора
-    
-
+---
+navigation:
+  - luasandbox.loadstring.md: '« LuaSandbox::loadString'
+  - luasandbox.registerlibrary.md: 'LuaSandbox::registerLibrary »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::pauseUsageTimer'
+---
 # LuaSandbox::pauseUsageTimer
 
 (PECL luasandbox >= 1.4.0)

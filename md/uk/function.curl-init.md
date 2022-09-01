@@ -1,16 +1,11 @@
-Ініціалізує сеанс cURL
-
--   [« curlgetinfo](function.curl-getinfo.html)
-    
--   [curlmultiaddhandle »](function.curl-multi-add-handle.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Ініціалізує сеанс cURL
-    
-
+---
+navigation:
+  - function.curl-getinfo.html: « curlgetinfo
+  - function.curl-multi-add-handle.html: curlmultiaddhandle »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlinit
+---
 # curlinit
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ curl_init(?string $url = null): CurlHandle|false
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.md); раніше, повертався ресурс (resource). |
-|        | `url` тепер допускає значення null.                                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.md); раніше, повертався ресурс (resource). |
+|  | `url` тепер допускає значення null. |
 
 ### Приклади
 

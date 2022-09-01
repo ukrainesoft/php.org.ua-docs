@@ -1,16 +1,11 @@
-Визначає callback-функцію токена
-
--   [« ParleRLexer::build](parle-rlexer.build.html)
-    
--   [ParleRLexer::consume »](parle-rlexer.consume.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRLexer](class.parle-rlexer.html)
-    
--   Визначає callback-функцію токена
-    
-
+---
+navigation:
+  - parle-rlexer.build.html: '« ParleRLexer::build'
+  - parle-rlexer.consume.html: 'ParleRLexer::consume »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.html: ParleRLexer
+title: 'ParleRLexer::callout'
+---
 # ParleRLexer::callout
 
 (PECL parle >= 0.7.2)

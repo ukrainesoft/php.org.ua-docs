@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](xattr.setup.html)
-    
--   [Установка »](xattr.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](xattr.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - xattr.setup.html: « Встановлення та налаштування
+  - xattr.installation.html: Установка »
+  - index.html: PHP Manual
+  - xattr.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для використання xattr має бути встановлена ​​бібліотека libattr. Вона доступна тут [» http://savannah.nongnu.org/projects/attr/](http://savannah.nongnu.org/projects/attr/)

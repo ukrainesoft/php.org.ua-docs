@@ -1,16 +1,11 @@
-Отримує коротке ім'я функції
-
--   [« ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md)
-    
--   [ReflectionFunctionAbstract::getStartLine »](reflectionfunctionabstract.getstartline.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Отримує коротке ім'я функції
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getreturntype.md: '« ReflectionFunctionAbstract::getReturnType'
+  - reflectionfunctionabstract.getstartline.md: 'ReflectionFunctionAbstract::getStartLine »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getShortName'
+---
 # ReflectionFunctionAbstract::getShortName
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює письменник відповіді, що використовується для підготовки відповіді Solr
-
--   [« SolrClient::rollback](solrclient.rollback.html)
-    
--   [SolrClient::setServlet »](solrclient.setservlet.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Встановлює письменник відповіді, що використовується для підготовки відповіді Solr
-    
-
+---
+navigation:
+  - solrclient.rollback.html: '« SolrClient::rollback'
+  - solrclient.setservlet.html: 'SolrClient::setServlet »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::setResponseWriter'
+---
 # SolrClient::setResponseWriter
 
 (PECL solr> = 0.9.11)

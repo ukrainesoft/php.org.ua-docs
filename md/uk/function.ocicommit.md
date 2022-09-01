@@ -1,16 +1,11 @@
-Псевдонім ocicommit
-
--   [« ocicolumntyperaw](function.ocicolumntyperaw.html)
-    
--   [ocidefinebyname »](function.ocidefinebyname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ocicommit
-    
-
+---
+navigation:
+  - function.ocicolumntyperaw.html: « ocicolumntyperaw
+  - function.ocidefinebyname.html: ocidefinebyname »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocicommit
+---
 # ocicommit
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

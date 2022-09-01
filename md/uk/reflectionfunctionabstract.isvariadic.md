@@ -1,16 +1,11 @@
-Перевіряє, чи функція є функцією зі змінною кількістю аргументів
-
--   [« ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md)
-    
--   [ReflectionFunctionAbstract::returnsReference »](reflectionfunctionabstract.returnsreference.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перевіряє, чи функція є функцією зі змінною кількістю аргументів
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.isuserdefined.md: '« ReflectionFunctionAbstract::isUserDefined'
+  - reflectionfunctionabstract.returnsreference.md: 'ReflectionFunctionAbstract::returnsReference »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::isVariadic'
+---
 # ReflectionFunctionAbstract::isVariadic
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

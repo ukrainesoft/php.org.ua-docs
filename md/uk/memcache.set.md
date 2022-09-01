@@ -1,16 +1,11 @@
-Зберегти дані на сервері
-
--   [« Memcache::replace](memcache.replace.md)
-    
--   [Memcache::setCompressThreshold »](memcache.setcompressthreshold.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Зберегти дані на сервері
-    
-
+---
+navigation:
+  - memcache.replace.md: '« Memcache::replace'
+  - memcache.setcompressthreshold.md: 'Memcache::setCompressThreshold »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::set'
+---
 # Memcache::set
 
 (PECL memcache >= 0.2.0)

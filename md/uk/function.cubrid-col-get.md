@@ -1,16 +1,11 @@
-Отримання контенту стовпця типу колекція з OID
-
--   [« cubridcloserequest](function.cubrid-close-request.html)
-    
--   [cubridcolsize »](function.cubrid-col-size.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримання контенту стовпця типу колекція з OID
-    
-
+---
+navigation:
+  - function.cubrid-close-request.html: « cubridcloserequest
+  - function.cubrid-col-size.html: cubridcolsize »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridcolget
+---
 # cubridcolget
 
 (PECL CUBRID >= 8.3.0)

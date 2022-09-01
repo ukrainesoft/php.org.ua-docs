@@ -1,16 +1,11 @@
-Отримання прапорів налаштування
-
--   [« RegexIterator::construct](regexiterator.construct.html)
-    
--   [RegexIterator::getMode »](regexiterator.getmode.html)
-    
--   [PHP Manual](index.html)
-    
--   [RegexIterator](class.regexiterator.html)
-    
--   Отримання прапорів налаштування
-    
-
+---
+navigation:
+  - regexiterator.construct.html: '« RegexIterator::construct'
+  - regexiterator.getmode.html: 'RegexIterator::getMode »'
+  - index.html: PHP Manual
+  - class.regexiterator.html: RegexIterator
+title: 'RegexIterator::getFlags'
+---
 # RegexIterator::getFlags
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

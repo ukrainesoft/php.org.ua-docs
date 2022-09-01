@@ -1,16 +1,11 @@
-Клас SolrException
-
--   [« SolrCollapseFunction::toString](solrcollapsefunction.tostring.md)
-    
--   [SolrException::getInternalInfo »](solrexception.getinternalinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrException
-    
-
+---
+navigation:
+  - solrcollapsefunction.tostring.md: '« SolrCollapseFunction::toString'
+  - solrexception.getinternalinfo.md: 'SolrException::getInternalInfo »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrException
+---
 # Клас SolrException
 
 (PECL solr> = 0.9.2)

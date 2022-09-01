@@ -1,16 +1,11 @@
-Підраховує кількість дочірніх елементів у поточного елемента
-
--   [« SimpleXMLElement::construct](simplexmlelement.construct.md)
-    
--   [SimpleXMLElement::getDocNamespaces »](simplexmlelement.getdocnamespaces.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Підраховує кількість дочірніх елементів у поточного елемента
-    
-
+---
+navigation:
+  - simplexmlelement.construct.md: '« SimpleXMLElement::construct'
+  - simplexmlelement.getdocnamespaces.md: 'SimpleXMLElement::getDocNamespaces »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::count'
+---
 # SimpleXMLElement::count
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

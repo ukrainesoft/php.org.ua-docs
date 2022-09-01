@@ -1,16 +1,11 @@
-Зафарбовує всі пікселі вище за поріг у білий
-
--   [« Imagick::waveImage](imagick.waveimage.html)
-    
--   [Imagick::writeImage »](imagick.writeimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Зафарбовує всі пікселі вище за поріг у білий
-    
-
+---
+navigation:
+  - imagick.waveimage.html: '« Imagick::waveImage'
+  - imagick.writeimage.html: 'Imagick::writeImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::whiteThresholdImage'
+---
 # Imagick::whiteThresholdImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -35,8 +30,8 @@ public Imagick::whiteThresholdImage(mixed $threshold): bool
 
 ### список змін
 
-| Версия             | Описание                                                                                                                       |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяється передавати рядок, який представляє колір як параметр. Попередні версії допускають лише об'єкт ImagickPixel. |
 
 ### Приклади

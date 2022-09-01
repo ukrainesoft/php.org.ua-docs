@@ -1,16 +1,11 @@
-Читає із потоку
-
--   [« streamWrapper::streamopen](streamwrapper.stream-open.html)
-    
--   [streamWrapper::streamseek »](streamwrapper.stream-seek.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Читає із потоку
-    
-
+---
+navigation:
+  - streamwrapper.stream-open.html: '« streamWrapper::streamopen'
+  - streamwrapper.stream-seek.html: 'streamWrapper::streamseek »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streamread'
+---
 # streamWrapper::streamread
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

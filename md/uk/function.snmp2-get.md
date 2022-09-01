@@ -1,16 +1,11 @@
-Отримує об'єкт SNMP
-
--   [« snmpsetvalueretrieval](function.snmp-set-valueretrieval.html)
-    
--   [snmp2getnext »](function.snmp2-getnext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Отримує об'єкт SNMP
-    
-
+---
+navigation:
+  - function.snmp-set-valueretrieval.html: « snmpsetvalueretrieval
+  - function.snmp2-getnext.html: snmp2getnext »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmp2get
+---
 # snmp2get
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

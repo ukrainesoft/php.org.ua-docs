@@ -1,16 +1,11 @@
-Повертає тип файлу
-
--   [« filesize](function.filesize.html)
-    
--   [flock »](function.flock.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Повертає тип файлу
-    
-
+---
+navigation:
+  - function.filesize.html: « filesize
+  - function.flock.html: flock »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: filetype
+---
 # filetype
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

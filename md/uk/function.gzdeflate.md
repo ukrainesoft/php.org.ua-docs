@@ -1,16 +1,11 @@
-Стисне рядок
-
--   [« gzdecode](function.gzdecode.html)
-    
--   [gzencode »](function.gzencode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Стисне рядок
-    
-
+---
+navigation:
+  - function.gzdecode.html: « gzdecode
+  - function.gzencode.html: gzencode »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzdeflate
+---
 # gzdeflate
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

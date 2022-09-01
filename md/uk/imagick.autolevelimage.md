@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::appendImages](imagick.appendimages.html)
-    
--   [Imagick::averageImages »](imagick.averageimages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.appendimages.html: '« Imagick::appendImages'
+  - imagick.averageimages.html: 'Imagick::averageImages »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::autoLevelImage'
+---
 # Imagick::autoLevelImage
 
 (PECL imagick 3> = 3.3.0)

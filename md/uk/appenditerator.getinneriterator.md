@@ -1,16 +1,11 @@
-Повертає внутрішній ітератор
-
--   [« AppendIterator::getArrayIterator](appenditerator.getarrayiterator.html)
-    
--   [AppendIterator::getIteratorIndex »](appenditerator.getiteratorindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [AppendIterator](class.appenditerator.html)
-    
--   Повертає внутрішній ітератор
-    
-
+---
+navigation:
+  - appenditerator.getarrayiterator.html: '« AppendIterator::getArrayIterator'
+  - appenditerator.getiteratorindex.html: 'AppendIterator::getIteratorIndex »'
+  - index.html: PHP Manual
+  - class.appenditerator.html: AppendIterator
+title: 'AppendIterator::getInnerIterator'
+---
 # AppendIterator::getInnerIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

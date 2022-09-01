@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](yaml.requirements.md)
-    
--   [Налаштування під час виконання »](yaml.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](yaml.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - yaml.requirements.md: « Вимоги
+  - yaml.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - yaml.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

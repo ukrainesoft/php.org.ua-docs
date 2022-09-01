@@ -1,16 +1,11 @@
-Клас SwooleRedisServer
-
--   [« SwooleProcess::write](swoole-process.write.html)
-    
--   [SwooleRedisServer::format »](swoole-redis-server.format.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleRedisServer
-    
-
+---
+navigation:
+  - swoole-process.write.html: '« SwooleProcess::write'
+  - swoole-redis-server.format.html: 'SwooleRedisServer::format »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleRedisServer
+---
 # Клас SwooleRedisServer
 
 (PECL swoole >= 1.9.0)

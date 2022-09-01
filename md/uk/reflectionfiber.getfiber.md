@@ -1,16 +1,11 @@
-Отримує відбитий екземпляр файбера
-
--   [« ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md)
-    
--   [ReflectionFiber::getTrace »](reflectionfiber.gettrace.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFiber](class.reflectionfiber.md)
-    
--   Отримує відбитий екземпляр файбера
-    
-
+---
+navigation:
+  - reflectionfiber.getexecutingline.md: '« ReflectionFiber::getExecutingLine'
+  - reflectionfiber.gettrace.md: 'ReflectionFiber::getTrace »'
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::getFiber'
+---
 # ReflectionFiber::getFiber
 
 (PHP 8> = 8.1.0)

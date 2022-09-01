@@ -1,16 +1,11 @@
-Виконує глобальний пошук шаблону у рядку
-
--   [« preglasterror](function.preg-last-error.html)
-    
--   [pregmatch »](function.preg-match.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Виконує глобальний пошук шаблону у рядку
-    
-
+---
+navigation:
+  - function.preg-last-error.html: « preglasterror
+  - function.preg-match.html: pregmatch »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: pregmatchall
+---
 # pregmatchall
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -198,9 +193,9 @@ Array
 
 ### список змін
 
-| Версия | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-|        | Тепер константа **`PREG_UNMATCHED_AS_NULL`** підтримується для параметра `$flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер константа **`PREG_UNMATCHED_AS_NULL`** підтримується для параметра `$flags` |
 
 ### Приклади
 

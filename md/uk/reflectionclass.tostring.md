@@ -1,16 +1,11 @@
-Повертає рядкову виставу об'єкта класу ReflectionClass
-
--   [« ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.html)
-    
--   [ReflectionClassConstant »](class.reflectionclassconstant.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає рядкову виставу об'єкта класу ReflectionClass
-    
-
+---
+navigation:
+  - reflectionclass.setstaticpropertyvalue.html: '« ReflectionClass::setStaticPropertyValue'
+  - class.reflectionclassconstant.html: ReflectionClassConstant »
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::function toString() { \[native code\] }'
+---
 # ReflectionClass::function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)

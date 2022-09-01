@@ -1,16 +1,11 @@
-Повертає певну константу
-
--   [« ReflectionClass::getAttributes](reflectionclass.getattributes.html)
-    
--   [ReflectionClass::getConstants »](reflectionclass.getconstants.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає певну константу
-    
-
+---
+navigation:
+  - reflectionclass.getattributes.html: '« ReflectionClass::getAttributes'
+  - reflectionclass.getconstants.html: 'ReflectionClass::getConstants »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getConstant'
+---
 # ReflectionClass::getConstant
 
 (PHP 5, PHP 7, PHP 8)

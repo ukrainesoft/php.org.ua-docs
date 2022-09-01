@@ -1,16 +1,11 @@
-Конструктор класу LimitIterator
-
--   [« LimitIterator](class.limititerator.md)
-    
--   [LimitIterator::current »](limititerator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [LimitIterator](class.limititerator.md)
-    
--   Конструктор класу LimitIterator
-    
-
+---
+navigation:
+  - class.limititerator.md: « LimitIterator
+  - limititerator.current.md: 'LimitIterator::current »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::construct'
+---
 # LimitIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -43,10 +38,10 @@ public **LimitIterator::construct**[Iterator](class.iterator.md) `$iterator`, in
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                    |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
-|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `limit` виявиться менше `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `limit` виявиться менше `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
-
--   [« mysqli::$info](mysqli.info.md)
-    
--   [mysqli::$insertid »](mysqli.insert-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
-    
-
+---
+navigation:
+  - mysqli.info.md: '« mysqli::$info'
+  - mysqli.insert-id.html: 'mysqli::$insertid »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::init'
+---
 # mysqli::init
 
 # mysqliinit
@@ -49,9 +44,9 @@ mysqli_init(): mysqli|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Об'єктно-орієнтований стиль виклику методу **mysqli::init()** застарів. Замініть виклик методу **parent::init()** за допомогою **parent::construct()** |
+| Версия | Описание |
+| --- | --- |
+|  | Об'єктно-орієнтований стиль виклику методу **mysqli::init()** застарів. Замініть виклик методу **parent::init()** за допомогою **parent::construct()** |
 
 ### Приклади
 

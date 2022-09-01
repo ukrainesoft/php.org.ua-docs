@@ -1,16 +1,11 @@
-Установка біта
-
--   [« gmpscan1](function.gmp-scan1.html)
-    
--   [gmpsign »](function.gmp-sign.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Установка біта
-    
-
+---
+navigation:
+  - function.gmp-scan1.html: « gmpscan1
+  - function.gmp-sign.html: gmpsign »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpsetbit
+---
 # gmpsetbit
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

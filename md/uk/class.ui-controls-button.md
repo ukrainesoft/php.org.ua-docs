@@ -1,16 +1,11 @@
-Елемент управління "Кнопка"
-
--   [« UIControlsCheck::setText](ui-controls-check.settext.html)
-    
--   [ОЙControlsButton::construct »](ui-controls-button.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Елемент управління "Кнопка"
-    
-
+---
+navigation:
+  - ui-controls-check.settext.html: '« UIControlsCheck::setText'
+  - ui-controls-button.construct.html: 'ОЙControlsButton::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Елемент управління "Кнопка"
+---
 # Елемент управління "Кнопка"
 
 (UI 0.9.9)

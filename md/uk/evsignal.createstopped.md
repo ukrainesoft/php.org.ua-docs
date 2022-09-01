@@ -1,16 +1,11 @@
-Create stopped EvSignal watcher об'єкт
-
--   [« EvSignal::construct](evsignal.construct.md)
-    
--   [EvSignal::set »](evsignal.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvSignal](class.evsignal.md)
-    
--   Create stopped EvSignal watcher об'єкт
-    
-
+---
+navigation:
+  - evsignal.construct.md: '« EvSignal::construct'
+  - evsignal.set.md: 'EvSignal::set »'
+  - index.md: PHP Manual
+  - class.evsignal.md: EvSignal
+title: 'EvSignal::createStopped'
+---
 # EvSignal::createStopped
 
 (PECL ev >= 0.2.0)

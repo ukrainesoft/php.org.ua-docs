@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](filesystem.setup.html)
-    
--   [Установка »](filesystem.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](filesystem.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - filesystem.setup.html: « Встановлення та налаштування
+  - filesystem.installation.html: Установка »
+  - index.html: PHP Manual
+  - filesystem.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

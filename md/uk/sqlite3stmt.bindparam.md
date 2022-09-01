@@ -1,16 +1,11 @@
-Зв'язує параметр зі змінною підготовленого запиту
-
--   [« SQLite3Stmt](class.sqlite3stmt.md)
-    
--   [SQLite3Stmt::bindValue »](sqlite3stmt.bindvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Stmt](class.sqlite3stmt.md)
-    
--   Зв'язує параметр зі змінною підготовленого запиту
-    
-
+---
+navigation:
+  - class.sqlite3stmt.md: « SQLite3Stmt
+  - sqlite3stmt.bindvalue.md: 'SQLite3Stmt::bindValue »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::bindParam'
+---
 # SQLite3Stmt::bindParam
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -66,9 +61,9 @@ public SQLite3Stmt::bindParam(string|int $param, mixed &$var, int $type = SQLITE
 
 ### список змін
 
-| Версия | Описание                                          |
-|--------|---------------------------------------------------|
-|        | Параметр `param` тепер підтримує нотацію `@param` |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `param` тепер підтримує нотацію `@param` |
 
 ### Приклади
 

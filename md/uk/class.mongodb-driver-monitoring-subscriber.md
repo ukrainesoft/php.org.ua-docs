@@ -1,16 +1,11 @@
-Інтерфейс MongoDBDriverMonitoringSubscriber
-
--   [« MongoDBDriverMonitoringSDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.html)
-    
--   [MongoDBDriverException »](mongodb.exceptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Інтерфейс MongoDBDriverMonitoringSubscriber
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.topologyopening.html: '« MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
+  - mongodb.exceptions.md: MongoDBDriverException »
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Інтерфейс MongoDBDriverMonitoringSubscriber
+---
 # Інтерфейс MongoDBDriverMonitoringSubscriber
 
 (mongodb >=1.3.0)

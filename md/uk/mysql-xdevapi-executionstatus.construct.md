@@ -1,16 +1,11 @@
-Конструктор класу ExecutionStatus
-
--   [« mysqlxdevapiExecutionStatus](class.mysql-xdevapi-executionstatus.html)
-    
--   [mysqlxdevapiExpression »](class.mysql-xdevapi-expression.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiExecutionStatus](class.mysql-xdevapi-executionstatus.html)
-    
--   Конструктор класу ExecutionStatus
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-executionstatus.html: « mysqlxdevapiExecutionStatus
+  - class.mysql-xdevapi-expression.html: mysqlxdevapiExpression »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-executionstatus.html: mysqlxdevapiExecutionStatus
+title: 'ExecutionStatus::construct'
+---
 # ExecutionStatus::construct
 
 (No version information available, might only be in Git)

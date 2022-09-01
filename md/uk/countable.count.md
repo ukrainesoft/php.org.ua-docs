@@ -1,16 +1,11 @@
-Кількість елементів об'єкту
-
--   [« Countable](class.countable.html)
-    
--   [OuterIterator »](class.outeriterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [Countable](class.countable.html)
-    
--   Кількість елементів об'єкту
-    
-
+---
+navigation:
+  - class.countable.html: « Countable
+  - class.outeriterator.html: OuterIterator »
+  - index.html: PHP Manual
+  - class.countable.html: Countable
+title: 'Countable::count'
+---
 # Countable::count
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

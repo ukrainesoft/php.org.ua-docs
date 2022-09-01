@@ -1,16 +1,11 @@
-Отримує наступний рядок даних у наборі результатів як об'єкт
-
--   [« sqlsrvfetcharray](function.sqlsrv-fetch-array.html)
-    
--   [sqlsrvfetch »](function.sqlsrv-fetch.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Отримує наступний рядок даних у наборі результатів як об'єкт
-    
-
+---
+navigation:
+  - function.sqlsrv-fetch-array.html: « sqlsrvfetcharray
+  - function.sqlsrv-fetch.html: sqlsrvfetch »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvfetchobject
+---
 # sqlsrvfetchobject
 
 (No version information available, might only be in Git)

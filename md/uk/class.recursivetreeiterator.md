@@ -1,16 +1,11 @@
-Клас RecursiveTreeIterator
-
--   [« RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.html)
-    
--   [RecursiveTreeIterator::beginChildren »](recursivetreeiterator.beginchildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ітератори](spl.iterators.html)
-    
--   Клас RecursiveTreeIterator
-    
-
+---
+navigation:
+  - recursiveregexiterator.haschildren.html: '« RecursiveRegexIterator::hasChildren'
+  - recursivetreeiterator.beginchildren.html: 'RecursiveTreeIterator::beginChildren »'
+  - index.html: PHP Manual
+  - spl.iterators.html: Ітератори
+title: Клас RecursiveTreeIterator
+---
 # Клас RecursiveTreeIterator
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

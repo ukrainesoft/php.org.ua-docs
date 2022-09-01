@@ -1,16 +1,11 @@
-Перетворює шістнадцяткові дані на двійкові
-
--   [« hebrevc](function.hebrevc.md)
-    
--   [htmlentitydecode »](function.html-entity-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перетворює шістнадцяткові дані на двійкові
-    
-
+---
+navigation:
+  - function.hebrevc.md: « hebrevc
+  - function.html-entity-decode.html: htmlentitydecode »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: hex2bin
+---
 # hex2bin
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

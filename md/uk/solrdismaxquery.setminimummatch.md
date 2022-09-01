@@ -1,16 +1,11 @@
-Встановлює мінімальну відповідність "Should" (mm)
-
--   [« SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.md)
-    
--   [SolrDisMaxQuery::setPhraseFields »](solrdismaxquery.setphrasefields.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Встановлює мінімальну відповідність "Should" (mm)
-    
-
+---
+navigation:
+  - solrdismaxquery.setboostquery.md: '« SolrDisMaxQuery::setBoostQuery'
+  - solrdismaxquery.setphrasefields.md: 'SolrDisMaxQuery::setPhraseFields »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setMinimumMatch'
+---
 # SolrDisMaxQuery::setMinimumMatch
 
 (No version information available, might only be in Git)

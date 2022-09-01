@@ -1,16 +1,11 @@
-Вектор тригонометричний гіперболічний синус
-
--   [« tradersin](function.trader-sin.html)
-    
--   [tradersma »](function.trader-sma.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вектор тригонометричний гіперболічний синус
-    
-
+---
+navigation:
+  - function.trader-sin.html: « tradersin
+  - function.trader-sma.html: tradersma »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersinh
+---
 # tradersinh
 
 (PECL trader >= 0.2.0)

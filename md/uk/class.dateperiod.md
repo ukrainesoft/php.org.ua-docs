@@ -1,16 +1,11 @@
-Клас DatePeriod
-
--   [« DateInterval::format](dateinterval.format.html)
-    
--   [DatePeriod::construct »](dateperiod.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Дата/время](book.datetime.html)
-    
--   Клас DatePeriod
-    
-
+---
+navigation:
+  - dateinterval.format.html: '« DateInterval::format'
+  - dateperiod.construct.html: 'DatePeriod::construct »'
+  - index.html: PHP Manual
+  - book.datetime.html: Дата/время
+title: Клас DatePeriod
+---
 # Клас DatePeriod
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -117,9 +112,9 @@ interval
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **DatePeriod** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **DatePeriod** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
 
 ## Зміст
 

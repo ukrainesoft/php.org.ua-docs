@@ -1,16 +1,11 @@
-Повертає кількість днів на місяць для заданого року та календаря
-
--   [« Календарь](ref.calendar.md)
-    
--   [calfromjd »](function.cal-from-jd.html)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](ref.calendar.md)
-    
--   Повертає кількість днів на місяць для заданого року та календаря
-    
-
+---
+navigation:
+  - ref.calendar.md: « Календарь
+  - function.cal-from-jd.html: calfromjd »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: caldaysінmonth
+---
 # caldaysінmonth
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

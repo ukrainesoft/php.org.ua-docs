@@ -1,16 +1,11 @@
-Отримує ідентифікатор конкретного кольору та альфа компонента або його найближчий аналог
-
--   [« imagecolorresolve](function.imagecolorresolve.md)
-    
--   [imagecolorset »](function.imagecolorset.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримує ідентифікатор конкретного кольору та альфа компонента або його найближчий аналог
-    
-
+---
+navigation:
+  - function.imagecolorresolve.md: « imagecolorresolve
+  - function.imagecolorset.md: imagecolorset »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorresolvealpha
+---
 # imagecolorresolvealpha
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ imagecolorresolvealpha(    GdImage $image,    int $red,    int $gree
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

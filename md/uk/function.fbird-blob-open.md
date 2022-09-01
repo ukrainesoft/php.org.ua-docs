@@ -1,16 +1,11 @@
-Псевдонім ibaseblobopen
-
--   [« fbirdblobinfo](function.fbird-blob-info.html)
-    
--   [fbirdclose »](function.fbird-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseblobopen
-    
-
+---
+navigation:
+  - function.fbird-blob-info.html: « fbirdblobinfo
+  - function.fbird-close.html: fbirdclose »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdblobopen
+---
 # fbirdblobopen
 
 (PHP 5, PHP 7 < 7.4.0)

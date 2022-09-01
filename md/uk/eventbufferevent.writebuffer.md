@@ -1,16 +1,11 @@
-Додає вміст буфера в буфер виводу буферної події
-
--   [« EventBufferEvent::write](eventbufferevent.write.md)
-    
--   [Про callback-функції подійного буфера](eventbufferevent.about.callbacks.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Додає вміст буфера в буфер виводу буферної події
-    
-
+---
+navigation:
+  - eventbufferevent.write.md: '« EventBufferEvent::write'
+  - eventbufferevent.about.callbacks.md: Про callback-функції подійного буфера
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::writeBuffer'
+---
 # EventBufferEvent::writeBuffer
 
 (PECL event >= 1.2.6-beta)

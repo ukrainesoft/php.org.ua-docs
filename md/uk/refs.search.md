@@ -1,16 +1,11 @@
-Модулі для роботи з пошуковими системами
-
--   [« ZookeeperSessionException](class.zookeepersessionexception.md)
-    
--   [Solr »](book.solr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для роботи з пошуковими системами
-    
-
+---
+navigation:
+  - class.zookeepersessionexception.md: « ZookeeperSessionException
+  - book.solr.md: Solr »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для роботи з пошуковими системами
+---
 # Модулі для роботи з пошуковими системами
 
 -   [Solr](book.solr.md) - Apache Solr

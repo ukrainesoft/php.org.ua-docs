@@ -1,16 +1,11 @@
-Отримує програму
-
--   [« YafDispatcher::flushInstantly](yaf-dispatcher.flushinstantly.html)
-    
--   [YafDispatcher::getDefaultAction »](yaf-dispatcher.getdefaultaction.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Отримує програму
-    
-
+---
+navigation:
+  - yaf-dispatcher.flushinstantly.html: '« YafDispatcher::flushInstantly'
+  - yaf-dispatcher.getdefaultaction.html: 'YafDispatcher::getDefaultAction »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::getApplication'
+---
 # YafDispatcher::getApplication
 
 (Yaf >=1.0.0)

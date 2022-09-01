@@ -1,16 +1,11 @@
-Додає поле фразової біграми (параметр pf2)
-
--   [« SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   [SolrDisMaxQuery::addBoostQuery »](solrdismaxquery.addboostquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Додає поле фразової біграми (параметр pf2)
-    
-
+---
+navigation:
+  - class.solrdismaxquery.md: « SolrDisMaxQuery
+  - solrdismaxquery.addboostquery.md: 'SolrDisMaxQuery::addBoostQuery »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::addBigramPhraseField'
+---
 # SolrDisMaxQuery::addBigramPhraseField
 
 (No version information available, might only be in Git)

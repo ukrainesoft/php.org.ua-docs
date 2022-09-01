@@ -1,16 +1,11 @@
-Шукає всі елементи із заданим ім'ям у вказаному просторі імен
-
--   [« DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.html)
-    
--   [DOMDocument::importNode »](domdocument.importnode.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Шукає всі елементи із заданим ім'ям у вказаному просторі імен
-    
-
+---
+navigation:
+  - domdocument.getelementsbytagname.html: '« DOMDocument::getElementsByTagName'
+  - domdocument.importnode.html: 'DOMDocument::importNode »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::getElementsByTagNameNS'
+---
 # DOMDocument::getElementsByTagNameNS
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ URI простір імен. Спеціальне значення `*` відп�
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `namespace` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `namespace` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Встановлює календарний час у мілісекундах з початку епохи Unix
-
--   [« IntlCalendar::setSkippedWallTimeOption](intlcalendar.setskippedwalltimeoption.md)
-    
--   [IntlCalendar::setTimeZone »](intlcalendar.settimezone.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Встановлює календарний час у мілісекундах з початку епохи Unix
-    
-
+---
+navigation:
+  - intlcalendar.setskippedwalltimeoption.md: '« IntlCalendar::setSkippedWallTimeOption'
+  - intlcalendar.settimezone.md: 'IntlCalendar::setTimeZone »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::setTime'
+---
 # IntlCalendar::setTime
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

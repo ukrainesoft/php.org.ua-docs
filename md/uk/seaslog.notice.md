@@ -1,16 +1,11 @@
-Записує інформацію рівня "notice" у журнал
-
--   [« SeasLog::log](seaslog.log.md)
-    
--   [SeasLog::setBasePath »](seaslog.setbasepath.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Записує інформацію рівня "notice" у журнал
-    
-
+---
+navigation:
+  - seaslog.log.md: '« SeasLog::log'
+  - seaslog.setbasepath.md: 'SeasLog::setBasePath »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::notice'
+---
 # SeasLog::notice
 
 (PECL seaslog >=1.0.0)

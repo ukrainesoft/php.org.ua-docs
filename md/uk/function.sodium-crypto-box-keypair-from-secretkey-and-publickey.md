@@ -1,16 +1,11 @@
-Створює уніфікований рядок ключової пари із секретного та відкритого ключів
-
--   [« sodiumcryptoauth](function.sodium-crypto-auth.html)
-    
--   [sodiumcryptoboxkeypair »](function.sodium-crypto-box-keypair.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Створює уніфікований рядок ключової пари із секретного та відкритого ключів
-    
-
+---
+navigation:
+  - function.sodium-crypto-auth.html: « sodiumcryptoauth
+  - function.sodium-crypto-box-keypair.html: sodiumcryptoboxkeypair »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoboxkeypairfromsecretkeyandpublickey
+---
 # sodiumcryptoboxkeypairfromsecretkeyandpublickey
 
 (PHP 7> = 7.2.0, PHP 8)

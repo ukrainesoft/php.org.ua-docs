@@ -1,16 +1,11 @@
-Скинути поточний буфер
-
--   [« XMLWriter::endPi](xmlwriter.endpi.html)
-    
--   [XMLWriter::fullEndElement »](xmlwriter.fullendelement.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Скинути поточний буфер
-    
-
+---
+navigation:
+  - xmlwriter.endpi.html: '« XMLWriter::endPi'
+  - xmlwriter.fullendelement.html: 'XMLWriter::fullEndElement »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::flush'
+---
 # XMLWriter::flush
 
 # xmlwriterflush
@@ -51,7 +46,7 @@ xmlwriter_flush(XMLWriter $writer, bool $empty = true): string|int
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
-|        | Функція більше не може повертати **`false`**                                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | Функція більше не може повертати **`false`** |

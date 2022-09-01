@@ -1,16 +1,11 @@
-Додає колекцію екземплярів SolrInputDocument до індексу
-
--   [« SolrClient::addDocument](solrclient.adddocument.md)
-    
--   [SolrClient::commit »](solrclient.commit.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Додає колекцію екземплярів SolrInputDocument до індексу
-    
-
+---
+navigation:
+  - solrclient.adddocument.md: '« SolrClient::addDocument'
+  - solrclient.commit.md: 'SolrClient::commit »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::addDocuments'
+---
 # SolrClient::addDocuments
 
 (PECL solr> = 0.9.2)

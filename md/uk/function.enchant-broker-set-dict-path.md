@@ -1,16 +1,11 @@
-Встановити шлях для заданого бекенду
-
--   [« enchantbrokerrequestpwldict](function.enchant-broker-request-pwl-dict.html)
-    
--   [enchantbrokersetordering »](function.enchant-broker-set-ordering.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Встановити шлях для заданого бекенду
-    
-
+---
+navigation:
+  - function.enchant-broker-request-pwl-dict.html: « enchantbrokerrequestpwldict
+  - function.enchant-broker-set-ordering.html: enchantbrokersetordering »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokersetdictpath
+---
 # enchantbrokersetdictpath
 
 (PHP 5 >= 5.3.1, PHP 7, PHP 8, PECL enchant >= 1.0.1)
@@ -49,9 +44,9 @@ enchant_broker_set_dict_path(EnchantBroker $broker, int $type, string $path): bo
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

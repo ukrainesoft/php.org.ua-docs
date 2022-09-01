@@ -1,16 +1,11 @@
-Нова функціональність
-
--   [« Миграция с PHP 7.4.x на PHP 8.0.x](migration80.html)
-    
--   [Зміни, що ламають зворотну сумісність »](migration80.incompatible.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 7.4.x на PHP 8.0.x](migration80.html)
-    
--   Нова функціональність
-    
-
+---
+navigation:
+  - migration80.html: « Миграция с PHP 7.4.x на PHP 8.0.x
+  - migration80.incompatible.html: 'Зміни, що ламають зворотну сумісність »'
+  - index.html: PHP Manual
+  - migration80.html: Миграция с PHP 7.4.x на PHP 8.0.x
+title: Нова функціональність
+---
 ## Нова функціональність
 
 ### Ядро PHP

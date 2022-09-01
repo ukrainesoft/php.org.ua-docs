@@ -1,16 +1,11 @@
-Встановлює номер ряду в ітераторі пікселів
-
--   [« ImagickPixelIterator::setIteratorLastRow](imagickpixeliterator.setiteratorlastrow.md)
-    
--   [ImagickPixelIterator::syncIterator »](imagickpixeliterator.synciterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.md)
-    
--   Встановлює номер ряду в ітераторі пікселів
-    
-
+---
+navigation:
+  - imagickpixeliterator.setiteratorlastrow.md: '« ImagickPixelIterator::setIteratorLastRow'
+  - imagickpixeliterator.synciterator.md: 'ImagickPixelIterator::syncIterator »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
+title: 'ImagickPixelIterator::setIteratorRow'
+---
 # ImagickPixelIterator::setIteratorRow
 
 (PECL imagick 2, PECL imagick 3)

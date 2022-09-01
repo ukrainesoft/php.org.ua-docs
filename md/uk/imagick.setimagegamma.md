@@ -1,16 +1,11 @@
-Встановлює гаму зображення
-
--   [« Imagick::setImageFormat](imagick.setimageformat.md)
-    
--   [Imagick::setImageGravity »](imagick.setimagegravity.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює гаму зображення
-    
-
+---
+navigation:
+  - imagick.setimageformat.md: '« Imagick::setImageFormat'
+  - imagick.setimagegravity.md: 'Imagick::setImageGravity »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageGamma'
+---
 # Imagick::setImageGamma
 
 (PECL imagick 2, PECL imagick 3)

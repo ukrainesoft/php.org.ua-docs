@@ -1,16 +1,11 @@
-Константа SNI (Server Name Indication)
-
--   [« Константи версій](openssl.constversion.html)
-    
--   [Інші константи »](openssl.constants.other.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обумовлені константи](openssl.constants.html)
-    
--   Константа SNI (Server Name Indication)
-    
-
+---
+navigation:
+  - openssl.constversion.html: « Константи версій
+  - openssl.constants.other.html: Інші константи »
+  - index.html: PHP Manual
+  - openssl.constants.html: Обумовлені константи
+title: Константа SNI (Server Name Indication)
+---
 ## Константа SNI (Server Name Indication)
 
 **`OPENSSL_TLSEXT_SERVER_NAME`** (string)

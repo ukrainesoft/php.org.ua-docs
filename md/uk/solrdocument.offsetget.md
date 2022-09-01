@@ -1,16 +1,11 @@
-Отримує поле
-
--   [« SolrDocument::offsetExists](solrdocument.offsetexists.md)
-    
--   [SolrDocument::offsetSet »](solrdocument.offsetset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Отримує поле
-    
-
+---
+navigation:
+  - solrdocument.offsetexists.md: '« SolrDocument::offsetExists'
+  - solrdocument.offsetset.md: 'SolrDocument::offsetSet »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::offsetGet'
+---
 # SolrDocument::offsetGet
 
 (PECL solr> = 0.9.2)

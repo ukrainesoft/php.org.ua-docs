@@ -1,16 +1,11 @@
-Отримати властивість буфера OpenAL
-
--   [« openalbufferdestroy](function.openal-buffer-destroy.html)
-    
--   [openalbufferloadwav »](function.openal-buffer-loadwav.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Отримати властивість буфера OpenAL
-    
-
+---
+navigation:
+  - function.openal-buffer-destroy.html: « openalbufferdestroy
+  - function.openal-buffer-loadwav.html: openalbufferloadwav »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalbufferget
+---
 # openalbufferget
 
 (PECL openal >= 0.1.0)

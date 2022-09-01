@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.eio.html)
-    
--   [Вимоги »](eio.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio](book.eio.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.eio.html: « Введение
+  - eio.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.eio.html: Eio
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

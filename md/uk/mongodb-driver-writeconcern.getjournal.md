@@ -1,16 +1,11 @@
-Повертає опцію "journal" WriteConcern
-
--   [« MongoDBDriverWriteConcern::construct](mongodb-driver-writeconcern.construct.html)
-    
--   [MongoDBDriverWriteConcern::getW »](mongodb-driver-writeconcern.getw.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
-    
--   Повертає опцію "journal" WriteConcern
-    
-
+---
+navigation:
+  - mongodb-driver-writeconcern.construct.html: '« MongoDBDriverWriteConcern::construct'
+  - mongodb-driver-writeconcern.getw.html: 'MongoDBDriverWriteConcern::getW »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::getJournal'
+---
 # MongoDBDriverWriteConcern::getJournal
 
 (mongodb >=1.0.0)

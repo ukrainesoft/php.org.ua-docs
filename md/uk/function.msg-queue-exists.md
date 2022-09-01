@@ -1,16 +1,11 @@
-Перевірка існування черги повідомлень
-
--   [« msggetqueue](function.msg-get-queue.html)
-    
--   [msgreceive »](function.msg-receive.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Перевірка існування черги повідомлень
-    
-
+---
+navigation:
+  - function.msg-get-queue.html: « msggetqueue
+  - function.msg-receive.html: msgreceive »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: msgqueueexists
+---
 # msgqueueexists
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевіряє, чи є поточний елемент ітератора допустимим
-
--   [« FilterIterator](class.filteriterator.md)
-    
--   [FilterIterator::construct »](filteriterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilterIterator](class.filteriterator.md)
-    
--   Перевіряє, чи є поточний елемент ітератора допустимим
-    
-
+---
+navigation:
+  - class.filteriterator.md: « FilterIterator
+  - filteriterator.construct.md: 'FilterIterator::construct »'
+  - index.md: PHP Manual
+  - class.filteriterator.md: FilterIterator
+title: 'FilterIterator::accept'
+---
 # FilterIterator::accept
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

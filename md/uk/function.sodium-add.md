@@ -1,16 +1,11 @@
-Додає великі числа
-
--   [« Функции Sodium](ref.sodium.html)
-    
--   [sodiumbase642bin »](function.sodium-base642bin.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Додає великі числа
-    
-
+---
+navigation:
+  - ref.sodium.html: « Функции Sodium
+  - function.sodium-base642bin.html: sodiumbase642bin »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumadd
+---
 # sodiumadd
 
 (PHP 7> = 7.2.0, PHP 8)

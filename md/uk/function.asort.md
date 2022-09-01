@@ -1,16 +1,11 @@
-Сортує масив у порядку зростання та підтримує асоціацію індексів
-
--   [« arsort](function.arsort.md)
-    
--   [compact »](function.compact.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Сортує масив у порядку зростання та підтримує асоціацію індексів
-    
-
+---
+navigation:
+  - function.arsort.md: « arsort
+  - function.compact.md: compact »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: asort
+---
 # asort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

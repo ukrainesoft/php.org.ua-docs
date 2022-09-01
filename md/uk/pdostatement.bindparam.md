@@ -1,16 +1,11 @@
-Прив'язує параметр запиту до змінної
-
--   [« PDOStatement::bindColumn](pdostatement.bindcolumn.md)
-    
--   [PDOStatement::bindValue »](pdostatement.bindvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Прив'язує параметр запиту до змінної
-    
-
+---
+navigation:
+  - pdostatement.bindcolumn.md: '« PDOStatement::bindColumn'
+  - pdostatement.bindvalue.md: 'PDOStatement::bindValue »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::bindParam'
+---
 # PDOStatement::bindParam
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

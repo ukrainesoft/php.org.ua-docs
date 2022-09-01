@@ -1,16 +1,11 @@
-Встановити версію OAuth
-
--   [« OAuth::setToken](oauth.settoken.md)
-    
--   [OAuthProvider »](class.oauthprovider.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Встановити версію OAuth
-    
-
+---
+navigation:
+  - oauth.settoken.md: '« OAuth::setToken'
+  - class.oauthprovider.md: OAuthProvider »
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::setVersion'
+---
 # OAuth::setVersion
 
 (PECL OAuth >= 0.99.1)

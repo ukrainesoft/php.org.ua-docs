@@ -1,16 +1,11 @@
-Простий підручник
-
--   [« Можливості PHP](intro-whatcando.html)
-    
--   [Що мені потрібно? »](tutorial.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приступаючи до роботи](getting-started.html)
-    
--   Простий підручник
-    
-
+---
+navigation:
+  - intro-whatcando.html: « Можливості PHP
+  - tutorial.requirements.md: Що мені потрібно? »
+  - index.md: PHP Manual
+  - getting-started.html: Приступаючи до роботи
+title: Простий підручник
+---
 # Простий підручник
 
 ## Зміст

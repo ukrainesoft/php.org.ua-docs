@@ -1,16 +1,11 @@
-Реініціалізує сесію оригінальними значеннями
-
--   [« sessionregistershutdown](function.session-register-shutdown.html)
-    
--   [sessionsavepath »](function.session-save-path.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Реініціалізує сесію оригінальними значеннями
-    
-
+---
+navigation:
+  - function.session-register-shutdown.html: « sessionregistershutdown
+  - function.session-save-path.html: sessionsavepath »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessionreset
+---
 # sessionreset
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ session_reset(): bool
 
 ### список змін
 
-| Версия | Описание                                                           |
-|--------|--------------------------------------------------------------------|
-|        | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Дивіться також
 

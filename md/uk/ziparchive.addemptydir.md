@@ -1,16 +1,11 @@
-Додає нову директорію
-
--   [« ZipArchive](class.ziparchive.md)
-    
--   [ZipArchive::addFile »](ziparchive.addfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Додає нову директорію
-    
-
+---
+navigation:
+  - class.ziparchive.md: « ZipArchive
+  - ziparchive.addfile.md: 'ZipArchive::addFile »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::addEmptyDir'
+---
 # ZipArchive::addEmptyDir
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.8.0)
@@ -41,9 +36,9 @@ public ZipArchive::addEmptyDir(string $dirname, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

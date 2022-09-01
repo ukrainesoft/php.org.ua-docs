@@ -1,16 +1,11 @@
-Створює новий об'єкт колекції
-
--   [« ocilobісequal](function.oci-lob-is-equal.html)
-    
--   [ocinewconnect »](function.oci-new-connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Створює новий об'єкт колекції
-    
-
+---
+navigation:
+  - function.oci-lob-is-equal.html: « ocilobісequal
+  - function.oci-new-connect.html: ocinewconnect »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocinewcollection
+---
 # ocinewcollection
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -45,8 +40,8 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 ### список змін
 
-| Версия                 | Описание                               |
-|------------------------|----------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `schema` тепер допускає значення null. |
 
 ### Примітки

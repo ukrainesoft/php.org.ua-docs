@@ -1,16 +1,11 @@
-Видаляє таймер за ідентифікатором
-
--   [« SwooleTimer::after](swoole-timer.after.html)
-    
--   [SwooleTimer::exists »](swoole-timer.exists.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTimer](class.swoole-timer.html)
-    
--   Видаляє таймер за ідентифікатором
-    
-
+---
+navigation:
+  - swoole-timer.after.html: '« SwooleTimer::after'
+  - swoole-timer.exists.html: 'SwooleTimer::exists »'
+  - index.md: PHP Manual
+  - class.swoole-timer.html: SwooleTimer
+title: 'SwooleTimer::clear'
+---
 # SwooleTimer::clear
 
 (PECL swoole >= 1.9.0)

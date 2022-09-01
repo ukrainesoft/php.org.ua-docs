@@ -1,16 +1,11 @@
-Надсилає HTTP-запит GET на віддалений сервер
-
--   [« SwooleHttpClient::execute](swoole-http-client.execute.html)
-    
--   [SwooleHttpClient::isConnected »](swoole-http-client.isconnected.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Надсилає HTTP-запит GET на віддалений сервер
-    
-
+---
+navigation:
+  - swoole-http-client.execute.html: '« SwooleHttpClient::execute'
+  - swoole-http-client.isconnected.html: 'SwooleHttpClient::isConnected »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::get'
+---
 # SwooleHttpClient::get
 
 (PECL swoole >= 1.9.0)

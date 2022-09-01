@@ -1,16 +1,11 @@
-Витягує закешовану інформацію зі сховища APCu
-
--   [« apcuadd](function.apcu-add.html)
-    
--   [apcucas »](function.apcu-cas.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции APCu](ref.apcu.md)
-    
--   Витягує закешовану інформацію зі сховища APCu
-    
-
+---
+navigation:
+  - function.apcu-add.html: « apcuadd
+  - function.apcu-cas.html: apcucas »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcucacheinfo
+---
 # apcucacheinfo
 
 (PECL apcu >= 4.0.0)
@@ -39,9 +34,9 @@ apcu_cache_info(bool $limited = false): array|false
 
 ### список змін
 
-| Версия           | Описание                                           |
-|------------------|----------------------------------------------------|
-| PECL apcu 3.0.11 | Доданий параметр `limited`                         |
+| Версия | Описание |
+| --- | --- |
+| PECL apcu 3.0.11 | Доданий параметр `limited` |
 | PECL apcu 3.0.16 | Додана опція "`filehits`для параметра `cache_type` |
 
 ### Приклади

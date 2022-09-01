@@ -1,16 +1,11 @@
-Розбирає XML-запити та методи, що викликають.
-
--   [« xmlrpcserveraddintrospectiondata](function.xmlrpc-server-add-introspection-data.html)
-    
--   [xmlrpcservercreate »](function.xmlrpc-server-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції XML-RPC](ref.xmlrpc.md)
-    
--   Розбирає XML-запити та методи, що викликають.
-    
-
+---
+navigation:
+  - function.xmlrpc-server-add-introspection-data.html: « xmlrpcserveraddintrospectiondata
+  - function.xmlrpc-server-create.html: xmlrpcservercreate »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
+title: xmlrpcservercallметод
+---
 # xmlrpcservercallметод
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

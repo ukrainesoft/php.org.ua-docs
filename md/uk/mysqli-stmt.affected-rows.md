@@ -1,16 +1,11 @@
-Повертає загальну кількість рядків, змінених, віддалених, вставлених або зіставлених останнім виконаним виразом
-
--   [« mysqlistmt](class.mysqli-stmt.html)
-    
--   [mysqlistmt::attrget »](mysqli-stmt.attr-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає загальну кількість рядків, змінених, віддалених, вставлених або зіставлених останнім виконаним виразом
-    
-
+---
+navigation:
+  - class.mysqli-stmt.html: « mysqlistmt
+  - mysqli-stmt.attr-get.html: 'mysqlistmt::attrget »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$affectedrows'
+---
 # mysqlistmt::$affectedrows
 
 # mysqlistmtaffectedrows

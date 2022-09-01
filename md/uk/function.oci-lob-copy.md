@@ -1,16 +1,11 @@
-Копіює об'єкт LOB
-
--   [« ocigetimplicitresultset](function.oci-get-implicit-resultset.html)
-    
--   [ocilobісequal »](function.oci-lob-is-equal.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Копіює об'єкт LOB
-    
-
+---
+navigation:
+  - function.oci-get-implicit-resultset.html: « ocigetimplicitresultset
+  - function.oci-lob-is-equal.html: ocilobісequal »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociлобcopy
+---
 # ociлобcopy
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -47,8 +42,8 @@ LOB призначення.
 
 ### список змін
 
-| Версия                 | Описание                               |
-|------------------------|----------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `length` тепер допускає значення null. |
 
 ### Примітки

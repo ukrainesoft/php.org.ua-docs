@@ -1,16 +1,11 @@
-Отримати або встановити ім'я поточної сесії
-
--   [« sessionmodulename](function.session-module-name.html)
-    
--   [sessionregenerateid »](function.session-regenerate-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Отримати або встановити ім'я поточної сесії
-    
-
+---
+navigation:
+  - function.session-module-name.html: « sessionmodulename
+  - function.session-regenerate-id.html: sessionregenerateid »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionname
+---
 # sessionname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,10 +40,10 @@ session_name(?string $name = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `module` тепер може бути **`null`**                                                                                                                                                                                                                                           |
-|        | **sessionname()** перевіряє статус сесії, раніше вона перевіряла лише статус cookie. Тому стара версія **sessionname()** дозволяла викликати **sessionname()** після [sessionstart()](function.session-start.html), що могло призвести до збою PHP та неправильної поведінки. |
+| Версия | Описание |
+| --- | --- |
+|  | `module` тепер може бути **`null`** |
+|  | **sessionname()** перевіряє статус сесії, раніше вона перевіряла лише статус cookie. Тому стара версія **sessionname()** дозволяла викликати **sessionname()** після [sessionstart()](function.session-start.html), що могло призвести до збою PHP та неправильної поведінки. |
 
 ### Приклади
 

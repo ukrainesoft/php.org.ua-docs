@@ -1,16 +1,11 @@
-MQSeries MQINQ
-
--   [« mqseriesget](function.mqseries-get.html)
-    
--   [mqseriesopen »](function.mqseries-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   MQSeries MQINQ
-    
-
+---
+navigation:
+  - function.mqseries-get.html: « mqseriesget
+  - function.mqseries-open.html: mqseriesopen »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesinq
+---
 # mqseriesinq
 
 (PECL mqseries >= 0.10.0)

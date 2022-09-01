@@ -1,16 +1,11 @@
-Додати високопріоритетне завдання для роботи в паралельному режимі
-
--   [« GearmanClient::addTaskBackground](gearmanclient.addtaskbackground.md)
-    
--   [GearmanClient::addTaskHighBackground »](gearmanclient.addtaskhighbackground.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Додати високопріоритетне завдання для роботи в паралельному режимі
-    
-
+---
+navigation:
+  - gearmanclient.addtaskbackground.md: '« GearmanClient::addTaskBackground'
+  - gearmanclient.addtaskhighbackground.md: 'GearmanClient::addTaskHighBackground »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::addTaskHigh'
+---
 # GearmanClient::addTaskHigh
 
 (PECL gearman >= 0.5.0)

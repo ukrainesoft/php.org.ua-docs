@@ -1,16 +1,11 @@
-IntlChar
-
--   [« idnтоutf8](function.idn-to-utf8.html)
-    
--   [IntlChar::charAge »](intlchar.charage.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   IntlChar
-    
-
+---
+navigation:
+  - function.idn-to-utf8.html: « idnтоutf8
+  - intlchar.charage.md: 'IntlChar::charAge »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: IntlChar
+---
 # IntlChar
 
 (PHP 7, PHP 8)
@@ -3718,9 +3713,9 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 
 ## список змін
 
-| Версия | Описание                                          |
-|--------|---------------------------------------------------|
-|        | Додано константу **`IntlChar::NO_NUMERIC_VALUE`** |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу **`IntlChar::NO_NUMERIC_VALUE`** |
 
 ## Зміст
 

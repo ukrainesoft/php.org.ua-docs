@@ -1,16 +1,11 @@
-Імітує картину олією
-
--   [« Imagick::normalizeImage](imagick.normalizeimage.md)
-    
--   [Imagick::opaquePaintImage »](imagick.opaquepaintimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Імітує картину олією
-    
-
+---
+navigation:
+  - imagick.normalizeimage.md: '« Imagick::normalizeImage'
+  - imagick.opaquepaintimage.md: 'Imagick::opaquePaintImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::oilPaintImage'
+---
 # Imagick::oilPaintImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Цілі
-
--   [« parallelEvents::addFuture](parallel-events.addfuture.html)
-    
--   [parallelEvents::poll »](parallel-events.poll.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelEvents](class.parallel-events.html)
-    
--   Цілі
-    
-
+---
+navigation:
+  - parallel-events.addfuture.html: '« parallelEvents::addFuture'
+  - parallel-events.poll.html: 'parallelEvents::poll »'
+  - index.md: PHP Manual
+  - class.parallel-events.html: parallelEvents
+title: 'parallelEvents::remove'
+---
 # parallelEvents::remove
 
 parallelEvents::remove — Цілі

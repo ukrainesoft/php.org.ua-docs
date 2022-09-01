@@ -1,16 +1,11 @@
-Отримати всі помилки IMAP
-
--   [« imapdeletemailbox](function.imap-deletemailbox.html)
-    
--   [imapexpunge »](function.imap-expunge.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати всі помилки IMAP
-    
-
+---
+navigation:
+  - function.imap-deletemailbox.html: « imapdeletemailbox
+  - function.imap-expunge.html: imapexpunge »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaperrors
+---
 # imaperrors
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Журналування налагоджувальної інформації
-
--   [« mysqli::debug](mysqli.debug.md)
-    
--   [mysqli::$errno »](mysqli.errno.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Журналування налагоджувальної інформації
-    
-
+---
+navigation:
+  - mysqli.debug.md: '« mysqli::debug'
+  - mysqli.errno.md: 'mysqli::$errno »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::dumpdebuginfo'
+---
 # mysqli::dumpdebuginfo
 
 # mysqlidumpdebuginfo

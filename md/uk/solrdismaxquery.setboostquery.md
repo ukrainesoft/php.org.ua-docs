@@ -1,16 +1,11 @@
-Безпосередньо встановлює параметр запиту посилення (bq)
-
--   [« SolrDisMaxQuery::setBoostFunction](solrdismaxquery.setboostfunction.html)
-    
--   [SolrDisMaxQuery::setMinimumMatch »](solrdismaxquery.setminimummatch.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
-    
--   Безпосередньо встановлює параметр запиту посилення (bq)
-    
-
+---
+navigation:
+  - solrdismaxquery.setboostfunction.html: '« SolrDisMaxQuery::setBoostFunction'
+  - solrdismaxquery.setminimummatch.html: 'SolrDisMaxQuery::setMinimumMatch »'
+  - index.html: PHP Manual
+  - class.solrdismaxquery.html: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setBoostQuery'
+---
 # SolrDisMaxQuery::setBoostQuery
 
 (No version information available, might only be in Git)

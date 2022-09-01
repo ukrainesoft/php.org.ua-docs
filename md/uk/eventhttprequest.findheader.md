@@ -1,16 +1,11 @@
-Отримує значення заголовка
-
--   [« EventHttpRequest::construct](eventhttprequest.construct.md)
-    
--   [EventHttpRequest::free »](eventhttprequest.free.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Отримує значення заголовка
-    
-
+---
+navigation:
+  - eventhttprequest.construct.md: '« EventHttpRequest::construct'
+  - eventhttprequest.free.md: 'EventHttpRequest::free »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::findHeader'
+---
 # EventHttpRequest::findHeader
 
 (PECL event >= 1.4.0-beta)

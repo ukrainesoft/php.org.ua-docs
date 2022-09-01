@@ -1,16 +1,11 @@
-Обрізає великий об'єкт
-
--   [« OCILob::tell](ocilob.tell.md)
-    
--   [OCILob::write »](ocilob.write.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCILob](class.ocilob.md)
-    
--   Обрізає великий об'єкт
-    
-
+---
+navigation:
+  - ocilob.tell.md: '« OCILob::tell'
+  - ocilob.write.md: 'OCILob::write »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::truncate'
+---
 # OCILob::truncate
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -37,8 +32,8 @@ public OCILob::truncate(int $length = 0): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                              |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

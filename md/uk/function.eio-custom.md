@@ -1,16 +1,11 @@
-Виконує запит користувача як будь-який інший eio виклик
-
--   [« eioclose](function.eio-close.html)
-    
--   [eiodup2 »](function.eio-dup2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Виконує запит користувача як будь-який інший eio виклик
-    
-
+---
+navigation:
+  - function.eio-close.html: « eioclose
+  - function.eio-dup2.html: eiodup2 »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiocustom
+---
 # eiocustom
 
 (PECL eio >= 0.0.1dev)

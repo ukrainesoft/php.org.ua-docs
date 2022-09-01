@@ -1,16 +1,11 @@
-Прогноз тимчасового ряду
-
--   [« tradertrix](function.trader-trix.html)
-    
--   [tradertypprice »](function.trader-typprice.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Прогноз тимчасового ряду
-    
-
+---
+navigation:
+  - function.trader-trix.html: « tradertrix
+  - function.trader-typprice.html: tradertypprice »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertsf
+---
 # tradertsf
 
 (PECL trader >= 0.2.0)

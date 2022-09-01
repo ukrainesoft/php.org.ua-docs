@@ -1,16 +1,11 @@
-Закрити пристрій OpenAL
-
--   [« openalcontextsuspend](function.openal-context-suspend.html)
-    
--   [openaldeviceopen »](function.openal-device-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Закрити пристрій OpenAL
-    
-
+---
+navigation:
+  - function.openal-context-suspend.html: « openalcontextsuspend
+  - function.openal-device-open.html: openaldeviceopen »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openaldeviceclose
+---
 # openaldeviceclose
 
 (PECL openal >= 0.1.0)

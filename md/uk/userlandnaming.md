@@ -1,16 +1,11 @@
-Посібник з іменування
-
--   [« Список меток (tokens) парсера](tokens.html)
-    
--   [Глобальний простір імен »](userlandnaming.globalnamespace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Посібник з іменування
-    
-
+---
+navigation:
+  - tokens.html: « Список меток (tokens) парсера
+  - userlandnaming.globalnamespace.html: Глобальний простір імен »
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Посібник з іменування
+---
 # Посібник з іменування
 
 ## Зміст

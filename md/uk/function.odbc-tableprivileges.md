@@ -1,16 +1,11 @@
-Перелічує таблиці та привілеї, пов'язані з кожною таблицею
-
--   [« odbcstatistics](function.odbc-statistics.html)
-    
--   [odbctables »](function.odbc-tables.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Перелічує таблиці та привілеї, пов'язані з кожною таблицею
-    
-
+---
+navigation:
+  - function.odbc-statistics.html: « odbcstatistics
+  - function.odbc-tables.html: odbctables »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbctableprivileges
+---
 # odbctableprivileges
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

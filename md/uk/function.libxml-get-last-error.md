@@ -1,16 +1,11 @@
-Вилучення останньої помилки з libxml
-
--   [« libxmlgeterrors](function.libxml-get-errors.html)
-    
--   [libxmlsetexternalentityloader »](function.libxml-set-external-entity-loader.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції libxml](ref.libxml.md)
-    
--   Вилучення останньої помилки з libxml
-    
-
+---
+navigation:
+  - function.libxml-get-errors.html: « libxmlgeterrors
+  - function.libxml-set-external-entity-loader.html: libxmlsetexternalentityloader »
+  - index.md: PHP Manual
+  - ref.libxml.md: Функції libxml
+title: libxmlgetlasterror
+---
 # libxmlgetlasterror
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

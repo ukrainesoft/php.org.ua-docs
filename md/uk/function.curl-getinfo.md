@@ -1,16 +1,11 @@
-Повертає інформацію про певну операцію
-
--   [« curlfilecreate](function.curl-file-create.html)
-    
--   [curlinit »](function.curl-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Повертає інформацію про певну операцію
-    
-
+---
+navigation:
+  - function.curl-file-create.html: « curlfilecreate
+  - function.curl-init.html: curlinit »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlgetinfo
+---
 # curlgetinfo
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -133,11 +128,11 @@ curl_getinfo(CurlHandle $handle, ?int $option = null): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|        | `option` is nullable now; previously, the default was `0`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|        | Додані **`CURLINFO_CONTENT_LENGTH_DOWNLOAD_T`** **`CURLINFO_CONTENT_LENGTH_UPLOAD_T`** **`CURLINFO_HTTP_VERSION`** **`CURLINFO_PROTOCOL`** **`CURLINFO_PROXY_SSL_VERIFYRESULT`** **`CURLINFO_SCHEME`** **`CURLINFO_SIZE_DOWNLOAD_T`** **`CURLINFO_SIZE_UPLOAD_T`** **`CURLINFO_SPEED_DOWNLOAD_T`** **`CURLINFO_SPEED_UPLOAD_T`** **`CURLINFO_APPCONNECT_TIME_T`** **`CURLINFO_CONNECT_TIME_T`** **`CURLINFO_FILETIME_T`** **`CURLINFO_NAMELOOKUP_TIME_T`** **`CURLINFO_PRETRANSFER_TIME_T`** **`CURLINFO_REDIRECT_TIME_T`** **`CURLINFO_STARTTRANSFER_TIME_T`** **`CURLINFO_TOTAL_TIME_T`** |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+|  | `option` is nullable now; previously, the default was `0` |
+|  | Додані **`CURLINFO_CONTENT_LENGTH_DOWNLOAD_T`** **`CURLINFO_CONTENT_LENGTH_UPLOAD_T`** **`CURLINFO_HTTP_VERSION`** **`CURLINFO_PROTOCOL`** **`CURLINFO_PROXY_SSL_VERIFYRESULT`** **`CURLINFO_SCHEME`** **`CURLINFO_SIZE_DOWNLOAD_T`** **`CURLINFO_SIZE_UPLOAD_T`** **`CURLINFO_SPEED_DOWNLOAD_T`** **`CURLINFO_SPEED_UPLOAD_T`** **`CURLINFO_APPCONNECT_TIME_T`** **`CURLINFO_CONNECT_TIME_T`** **`CURLINFO_FILETIME_T`** **`CURLINFO_NAMELOOKUP_TIME_T`** **`CURLINFO_PRETRANSFER_TIME_T`** **`CURLINFO_REDIRECT_TIME_T`** **`CURLINFO_STARTTRANSFER_TIME_T`** **`CURLINFO_TOTAL_TIME_T`** |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає поточне кодування, встановлене для з'єднання з БД
-
--   [« mysqli::changeuser](mysqli.change-user.html)
-    
--   [mysqli::close »](mysqli.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає поточне кодування, встановлене для з'єднання з БД
-    
-
+---
+navigation:
+  - mysqli.change-user.html: '« mysqli::changeuser'
+  - mysqli.close.md: 'mysqli::close »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::charactersetname'
+---
 # mysqli::charactersetname
 
 # mysqlicharactersetname

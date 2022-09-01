@@ -1,16 +1,11 @@
-Додавання серверів завдань
-
--   [« GearmanWorker::addServer](gearmanworker.addserver.md)
-    
--   [GearmanWorker::clone »](gearmanworker.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Додавання серверів завдань
-    
-
+---
+navigation:
+  - gearmanworker.addserver.md: '« GearmanWorker::addServer'
+  - gearmanworker.clone.md: 'GearmanWorker::clone »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::addServers'
+---
 # GearmanWorker::addServers
 
 (PECL gearman >= 0.5.0)

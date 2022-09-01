@@ -1,16 +1,11 @@
-Повертає кількість полів у цьому документі
-
--   [« SolrDocument::getField](solrdocument.getfield.html)
-    
--   [SolrDocument::getFieldNames »](solrdocument.getfieldnames.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Повертає кількість полів у цьому документі
-    
-
+---
+navigation:
+  - solrdocument.getfield.html: '« SolrDocument::getField'
+  - solrdocument.getfieldnames.html: 'SolrDocument::getFieldNames »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::getFieldCount'
+---
 # SolrDocument::getFieldCount
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Отримати значення властивості Unicode для символу
-
--   [« IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md)
-    
--   [IntlChar::getNumericValue »](intlchar.getnumericvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати значення властивості Unicode для символу
-    
-
+---
+navigation:
+  - intlchar.getintpropertyminvalue.md: '« IntlChar::getIntPropertyMinValue'
+  - intlchar.getnumericvalue.md: 'IntlChar::getNumericValue »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::getIntPropertyValue'
+---
 # IntlChar::getIntPropertyValue
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Змінює вказаний тип сервлету на нове значення
-
--   [« SolrClient::setResponseWriter](solrclient.setresponsewriter.html)
-    
--   [SolrClient::system »](solrclient.system.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Змінює вказаний тип сервлету на нове значення
-    
-
+---
+navigation:
+  - solrclient.setresponsewriter.html: '« SolrClient::setResponseWriter'
+  - solrclient.system.html: 'SolrClient::system »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::setServlet'
+---
 # SolrClient::setServlet
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Створити об'єкт часового поясу з DateTimeZone
-
--   [« IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.md)
-    
--   [IntlTimeZone::getCanonicalID »](intltimezone.getcanonicalid.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Створити об'єкт часового поясу з DateTimeZone
-    
-
+---
+navigation:
+  - intltimezone.createtimezoneidenumeration.md: '« IntlTimeZone::createTimeZoneIDEnumeration'
+  - intltimezone.getcanonicalid.md: 'IntlTimeZone::getCanonicalID »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::fromDateTimeZone'
+---
 # IntlTimeZone::fromDateTimeZone
 
 # intltzfromdatetimezone

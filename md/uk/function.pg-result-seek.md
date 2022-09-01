@@ -1,16 +1,11 @@
-Зміщує покажчик на рядок вибірки в екземплярі результату запиту
-
--   [« pgresulterror](function.pg-result-error.html)
-    
--   [пгresultstatus »](function.pg-result-status.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Зміщує покажчик на рядок вибірки в екземплярі результату запиту
-    
-
+---
+navigation:
+  - function.pg-result-error.html: « pgresulterror
+  - function.pg-result-status.html: пгresultstatus »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгresultseek
+---
 # пгresultseek
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pg_result_seek(PgSql\Result $result, int $row): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

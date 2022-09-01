@@ -1,16 +1,11 @@
-Встановлює ім'я файлу перед читанням або записуванням зображення
-
--   [« Imagick::setCompressionQuality](imagick.setcompressionquality.html)
-    
--   [Imagick::setFirstIterator »](imagick.setfirstiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює ім'я файлу перед читанням або записуванням зображення
-    
-
+---
+navigation:
+  - imagick.setcompressionquality.html: '« Imagick::setCompressionQuality'
+  - imagick.setfirstiterator.html: 'Imagick::setFirstIterator »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setFilename'
+---
 # Imagick::setFilename
 
 (PECL imagick 2, PECL imagick 3)

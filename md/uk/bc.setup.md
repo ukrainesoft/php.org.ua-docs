@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.bc.md)
-    
--   [Вимоги »](bc.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [BC Math](book.bc.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.bc.md: « Введение
+  - bc.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.bc.md: BC Math
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

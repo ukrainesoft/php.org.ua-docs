@@ -1,16 +1,11 @@
-Повертає опис для заданого коду помилки
-
--   [« curlsharesetopt](function.curl-share-setopt.html)
-    
--   [curlstrerror »](function.curl-strerror.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Повертає опис для заданого коду помилки
-    
-
+---
+navigation:
+  - function.curl-share-setopt.html: « curlsharesetopt
+  - function.curl-strerror.html: curlstrerror »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlsharestrerror
+---
 # curlsharestrerror
 
 (PHP 7> = 7.1.0, PHP 8)

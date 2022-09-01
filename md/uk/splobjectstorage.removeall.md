@@ -1,16 +1,11 @@
-Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
-
--   [« SplObjectStorage::offsetUnset](splobjectstorage.offsetunset.html)
-    
--   [SplObjectStorage::removeAllExcept »](splobjectstorage.removeallexcept.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplObjectStorage](class.splobjectstorage.html)
-    
--   Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
-    
-
+---
+navigation:
+  - splobjectstorage.offsetunset.html: '« SplObjectStorage::offsetUnset'
+  - splobjectstorage.removeallexcept.html: 'SplObjectStorage::removeAllExcept »'
+  - index.html: PHP Manual
+  - class.splobjectstorage.html: SplObjectStorage
+title: 'SplObjectStorage::removeAll'
+---
 # SplObjectStorage::removeAll
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

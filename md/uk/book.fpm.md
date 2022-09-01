@@ -1,16 +1,11 @@
-Менеджер процесів FastCGI
-
--   [« virtual](function.virtual.md)
-    
--   [Введение »](intro.fpm.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи із серверами](refs.utilspec.server.md)
-    
--   Менеджер процесів FastCGI
-    
-
+---
+navigation:
+  - function.virtual.md: « virtual
+  - intro.fpm.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.server.md: Модулі для роботи із серверами
+title: Менеджер процесів FastCGI
+---
 # Менеджер процесів FastCGI
 
 -   [Введение](intro.fpm.md)

@@ -1,16 +1,11 @@
-Повертає попередній Throwable
-
--   [« Error::getMessage](error.getmessage.md)
-    
--   [Error::getCode »](error.getcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Error](class.error.md)
-    
--   Повертає попередній Throwable
-    
-
+---
+navigation:
+  - error.getmessage.md: '« Error::getMessage'
+  - error.getcode.md: 'Error::getCode »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getPrevious'
+---
 # Error::getPrevious
 
 (PHP 7, PHP 8)

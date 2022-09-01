@@ -1,16 +1,11 @@
-Підписує файл
-
--   [« opensslcmsread](function.openssl-cms-read.html)
-    
--   [opensslcmsverify »](function.openssl-cms-verify.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Підписує файл
-    
-
+---
+navigation:
+  - function.openssl-cms-read.html: « opensslcmsread
+  - function.openssl-cms-verify.html: opensslcmsverify »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslcmssign
+---
 # opensslcmssign
 
 (PHP 8)

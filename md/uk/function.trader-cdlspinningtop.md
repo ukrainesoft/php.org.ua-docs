@@ -1,16 +1,11 @@
-Дзига
-
--   [« tradercdlshortline](function.trader-cdlshortline.html)
-    
--   [tradercdlstalledpattern »](function.trader-cdlstalledpattern.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Дзига
-    
-
+---
+navigation:
+  - function.trader-cdlshortline.html: « tradercdlshortline
+  - function.trader-cdlstalledpattern.html: tradercdlstalledpattern »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlspinningtop
+---
 # tradercdlspinningtop
 
 (PECL trader >= 0.2.0)

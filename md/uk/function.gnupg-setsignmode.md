@@ -1,16 +1,11 @@
-Встановлює режим підписування
-
--   [« gnupgseterrormode](function.gnupg-seterrormode.html)
-    
--   [gnupgsign »](function.gnupg-sign.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Встановлює режим підписування
-    
-
+---
+navigation:
+  - function.gnupg-seterrormode.html: « gnupgseterrormode
+  - function.gnupg-sign.html: gnupgsign »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgsetsignmode
+---
 # gnupgsetsignmode
 
 (PECL gnupg >= 0.1)

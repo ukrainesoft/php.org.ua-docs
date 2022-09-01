@@ -1,16 +1,11 @@
-Встановлює шаблон засобу форматування
-
--   [« NumberFormatter::setAttribute](numberformatter.setattribute.html)
-    
--   [NumberFormatter::setSymbol »](numberformatter.setsymbol.html)
-    
--   [PHP Manual](index.html)
-    
--   [NumberFormatter](class.numberformatter.html)
-    
--   Встановлює шаблон засобу форматування
-    
-
+---
+navigation:
+  - numberformatter.setattribute.html: '« NumberFormatter::setAttribute'
+  - numberformatter.setsymbol.html: 'NumberFormatter::setSymbol »'
+  - index.html: PHP Manual
+  - class.numberformatter.html: NumberFormatter
+title: 'NumberFormatter::setPattern'
+---
 # NumberFormatter::setPattern
 
 # numfmtsetpattern

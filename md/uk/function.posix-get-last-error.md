@@ -1,16 +1,11 @@
-Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею
-
--   [« posixerrno](function.posix-errno.html)
-    
--   [posixgetcwd »](function.posix-getcwd.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею
-    
-
+---
+navigation:
+  - function.posix-errno.html: « posixerrno
+  - function.posix-getcwd.html: posixgetcwd »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixgetlasterror
+---
 # posixgetlasterror
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

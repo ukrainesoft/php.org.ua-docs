@@ -1,16 +1,11 @@
-Повертає множник ваги
-
--   [« fanngetcascadeoutputstagnationepochs](function.fann-get-cascade-output-stagnation-epochs.html)
-    
--   [fanngetconnectionarray »](function.fann-get-connection-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає множник ваги
-    
-
+---
+navigation:
+  - function.fann-get-cascade-output-stagnation-epochs.html: « fanngetcascadeoutputstagnationepochs
+  - function.fann-get-connection-array.html: fanngetconnectionarray »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadeweightmultiplier
+---
 # fanngetcascadeweightmultiplier
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Створює новий вектор із елементів, вибраних за допомогою заданої callback-функції
-
--   [« DsVector::count](ds-vector.count.html)
-    
--   [ДсVector::find »](ds-vector.find.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Створює новий вектор із елементів, вибраних за допомогою заданої callback-функції
-    
-
+---
+navigation:
+  - ds-vector.count.html: '« DsVector::count'
+  - ds-vector.find.html: 'ДсVector::find »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::filter'
+---
 # ДсVector::filter
 
 (PECL ds >= 1.0.0)

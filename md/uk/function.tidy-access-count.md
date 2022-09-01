@@ -1,16 +1,11 @@
-Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
-
--   [« obtidyhandler](function.ob-tidyhandler.html)
-    
--   [tidyconfigcount »](function.tidy-config-count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Tidy](ref.tidy.html)
-    
--   Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
-    
-
+---
+navigation:
+  - function.ob-tidyhandler.html: « obtidyhandler
+  - function.tidy-config-count.html: tidyconfigcount »
+  - index.html: PHP Manual
+  - ref.tidy.html: Tidy
+title: tidyaccesscount
+---
 # tidyaccesscount
 
 (PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)

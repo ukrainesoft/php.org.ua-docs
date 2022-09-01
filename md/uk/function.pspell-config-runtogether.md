@@ -1,16 +1,11 @@
-Розглядає об'єднані слова як правильні складні слова
-
--   [« pspellconfigrepl](function.pspell-config-repl.html)
-    
--   [pspellconfigsaverepl »](function.pspell-config-save-repl.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Розглядає об'єднані слова як правильні складні слова
-    
-
+---
+navigation:
+  - function.pspell-config-repl.html: « pspellconfigrepl
+  - function.pspell-config-save-repl.html: pspellconfigsaverepl »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellconfigruntogether
+---
 # pspellconfigruntogether
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pspell_config_runtogether(PSpell\Config $config, bool $allow): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

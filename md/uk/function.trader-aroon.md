@@ -1,16 +1,11 @@
-Індикатор Aroon
-
--   [« traderapo](function.trader-apo.html)
-    
--   [traderaroonosc »](function.trader-aroonosc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Індикатор Aroon
-    
-
+---
+navigation:
+  - function.trader-apo.html: « traderapo
+  - function.trader-aroonosc.html: traderaroonosc »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderaroon
+---
 # traderaroon
 
 (PECL trader >= 0.2.0)

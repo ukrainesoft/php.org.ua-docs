@@ -1,16 +1,11 @@
-Незворотне хешування рядка
-
--   [« crc32](function.crc32.html)
-    
--   [echo »](function.echo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Незворотне хешування рядка
-    
-
+---
+navigation:
+  - function.crc32.html: « crc32
+  - function.echo.html: echo »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: crypt
+---
 # crypt
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -70,9 +65,9 @@ crypt(string $string, string $salt): string
 
 ### список змін
 
-| Версия | Описание                           |
-|--------|------------------------------------|
-|        | `salt` більше не є необов'язковим. |
+| Версия | Описание |
+| --- | --- |
+|  | `salt` більше не є необов'язковим. |
 
 ### Приклади
 

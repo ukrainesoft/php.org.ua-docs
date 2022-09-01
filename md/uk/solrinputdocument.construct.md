@@ -1,16 +1,11 @@
-Конструктор
-
--   [« SolrInputDocument::clone](solrinputdocument.clone.html)
-    
--   [SolrInputDocument::deleteField »](solrinputdocument.deletefield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - solrinputdocument.clone.html: '« SolrInputDocument::clone'
+  - solrinputdocument.deletefield.html: 'SolrInputDocument::deleteField »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::construct'
+---
 # SolrInputDocument::construct
 
 (PECL solr> = 0.9.2)

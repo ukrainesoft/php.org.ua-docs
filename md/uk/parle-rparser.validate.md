@@ -1,16 +1,11 @@
-Перевіряє вхідні дані
-
--   [« ParleRParser::trace](parle-rparser.trace.html)
-    
--   [ParleStack »](class.parle-stack.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Перевіряє вхідні дані
-    
-
+---
+navigation:
+  - parle-rparser.trace.html: '« ParleRParser::trace'
+  - class.parle-stack.html: ParleStack »
+  - index.md: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::validate'
+---
 # ParleRParser::validate
 
 (PECL parle >= 0.7.0)

@@ -1,16 +1,11 @@
-Отримати SQL-запит у вигляді рядка із запиту
-
--   [« SQLite3Stmt::execute](sqlite3stmt.execute.html)
-    
--   [SQLite3Stmt::paramCount »](sqlite3stmt.paramcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3Stmt](class.sqlite3stmt.html)
-    
--   Отримати SQL-запит у вигляді рядка із запиту
-    
-
+---
+navigation:
+  - sqlite3stmt.execute.html: '« SQLite3Stmt::execute'
+  - sqlite3stmt.paramcount.html: 'SQLite3Stmt::paramCount »'
+  - index.html: PHP Manual
+  - class.sqlite3stmt.html: SQLite3Stmt
+title: 'SQLite3Stmt::getSQL'
+---
 # SQLite3Stmt::getSQL
 
 (PHP 7> = 7.4.0, PHP 8)

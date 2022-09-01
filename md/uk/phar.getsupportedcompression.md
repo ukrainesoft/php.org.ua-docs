@@ -1,16 +1,11 @@
-Повертає масив підтримуваних алгоритмів стиснення
-
--   [« Phar::getStub](phar.getstub.html)
-    
--   [Phar::getSupportedSignatures »](phar.getsupportedsignatures.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Повертає масив підтримуваних алгоритмів стиснення
-    
-
+---
+navigation:
+  - phar.getstub.html: '« Phar::getStub'
+  - phar.getsupportedsignatures.html: 'Phar::getSupportedSignatures »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getSupportedCompression'
+---
 # Phar::getSupportedCompression
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.0)

@@ -1,16 +1,11 @@
-Інструмент встановлення PHP на Windows
-
--   [« PECL](install.windows.pecl.md)
-    
--   [Рекомендована конфігурація для Windows »](install.windows.recommended.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка в системах Windows](install.windows.md)
-    
--   Інструмент встановлення PHP на Windows
-    
-
+---
+navigation:
+  - install.windows.pecl.md: « PECL
+  - install.windows.recommended.md: Рекомендована конфігурація для Windows »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
+title: Інструмент встановлення PHP на Windows
+---
 ## Інструмент встановлення PHP на Windows
 
 ### Інструмент встановлення PHP

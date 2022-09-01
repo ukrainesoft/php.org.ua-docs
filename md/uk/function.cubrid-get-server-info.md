@@ -1,16 +1,11 @@
-Повертає версію сервера CUBRID
-
--   [« cubridgetquerytimeout](function.cubrid-get-query-timeout.html)
-    
--   [cubridget »](function.cubrid-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Повертає версію сервера CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-get-query-timeout.html: « cubridgetquerytimeout
+  - function.cubrid-get.html: cubridget »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridgetserverinfo
+---
 # cubridgetserverinfo
 
 (PECL CUBRID >= 8.3.0)

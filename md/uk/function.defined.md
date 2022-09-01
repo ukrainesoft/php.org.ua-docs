@@ -1,16 +1,11 @@
-Перевіряє існування вказаної іменованої константи
-
--   [« define](function.define.html)
-    
--   [die »](function.die.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Перевіряє існування вказаної іменованої константи
-    
-
+---
+navigation:
+  - function.define.html: « define
+  - function.die.html: die »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: defined
+---
 # defined
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

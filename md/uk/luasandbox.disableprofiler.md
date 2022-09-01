@@ -1,16 +1,11 @@
-Вимикає профільник
-
--   [« LuaSandbox::callFunction](luasandbox.callfunction.md)
-    
--   [LuaSandbox::enableProfiler »](luasandbox.enableprofiler.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Вимикає профільник
-    
-
+---
+navigation:
+  - luasandbox.callfunction.md: '« LuaSandbox::callFunction'
+  - luasandbox.enableprofiler.md: 'LuaSandbox::enableProfiler »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::disableProfiler'
+---
 # LuaSandbox::disableProfiler
 
 (PECL luasandbox >= 1.1.0)

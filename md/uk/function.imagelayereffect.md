@@ -1,16 +1,11 @@
-Встановлення прапора альфа пару для використання ефектів накладання зображень
-
--   [« imagejpeg](function.imagejpeg.md)
-    
--   [imageline »](function.imageline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Встановлення прапора альфа пару для використання ефектів накладання зображень
-    
-
+---
+navigation:
+  - function.imagejpeg.md: « imagejpeg
+  - function.imageline.md: imageline »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagelayereffect
+---
 # imagelayereffect
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -61,10 +56,10 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                     |
-|        | Додана **`IMG_EFFECT_MULTIPLY`** (вимагає системну бібліотеку libgd >= 2.1.1 або libgd, що йде в комплекті з PHP). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | Додана **`IMG_EFFECT_MULTIPLY`** (вимагає системну бібліотеку libgd >= 2.1.1 або libgd, що йде в комплекті з PHP). |
 
 ### Приклади
 

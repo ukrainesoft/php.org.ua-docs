@@ -1,16 +1,11 @@
-Повертає додаткову інформацію у разі виникнення помилки
-
--   [« Функции YAZ](ref.yaz.md)
-    
--   [yazcclconf »](function.yaz-ccl-conf.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Повертає додаткову інформацію у разі виникнення помилки
-    
-
+---
+navigation:
+  - ref.yaz.md: « Функции YAZ
+  - function.yaz-ccl-conf.html: yazcclconf »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazaddinfo
+---
 # yazaddinfo
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

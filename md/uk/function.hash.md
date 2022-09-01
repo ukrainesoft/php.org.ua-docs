@@ -1,16 +1,11 @@
-Генерує хеш-код (підпис повідомлення)
-
--   [« hashupdate](function.hash-update.html)
-    
--   [Mcrypt »](book.mcrypt.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Генерує хеш-код (підпис повідомлення)
-    
-
+---
+navigation:
+  - function.hash-update.html: « hashupdate
+  - book.mcrypt.md: Mcrypt »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hash
+---
 # hash
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
@@ -47,10 +42,10 @@ hash(    string $algo,    string $data,    bool $binary = false,  
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Доданий параметр `options`                                                                                                                                    |
-|        | Функція **hash()** тепер викидає виняток [ValueError](class.valueerror.md), якщо алгоритм `algo` невідомий; раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `options` |
+|  | Функція **hash()** тепер викидає виняток [ValueError](class.valueerror.md), якщо алгоритм `algo` невідомий; раніше натомість поверталося значення **`false`** |
 
 ### Приклади
 

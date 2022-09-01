@@ -1,16 +1,11 @@
-Розпакувати весь Phar-архів
-
--   [« PharData::copy](phardata.copy.md)
-    
--   [PharData::decompressFiles »](phardata.decompressfiles.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Розпакувати весь Phar-архів
-    
-
+---
+navigation:
+  - phardata.copy.md: '« PharData::copy'
+  - phardata.decompressfiles.md: 'PharData::decompressFiles »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::decompress'
+---
 # PharData::decompress
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -45,9 +40,9 @@ public PharData::decompress(?string $extension = null): ?PharData
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `extension` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 

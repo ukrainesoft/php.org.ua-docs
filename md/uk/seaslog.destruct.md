@@ -1,16 +1,11 @@
-Опис
-
--   [« SeasLog::debug](seaslog.debug.html)
-    
--   [SeasLog::emergency »](seaslog.emergency.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - seaslog.debug.html: '« SeasLog::debug'
+  - seaslog.emergency.html: 'SeasLog::emergency »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::destruct'
+---
 # SeasLog::destruct
 
 (PECL seaslog >=1.0.0)

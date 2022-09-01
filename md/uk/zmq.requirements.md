@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](zmq.setup.html)
-    
--   [ZMQ »](class.zmq.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](zmq.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - zmq.setup.html: « Встановлення та налаштування
+  - class.zmq.html: ZMQ »
+  - index.html: PHP Manual
+  - zmq.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Модуль ZMQ вимагає версії 0MQ 2.0.7 або вище. 0MQ можна отримати за посиланням: [» http://zeromq.org/area:download](http://zeromq.org/area:download)

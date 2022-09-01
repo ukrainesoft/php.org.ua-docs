@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleEvent::set](swoole-event.set.html)
-    
--   [SwooleEvent::write »](swoole-event.write.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleEvent](class.swoole-event.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-event.set.html: '« SwooleEvent::set'
+  - swoole-event.write.html: 'SwooleEvent::write »'
+  - index.md: PHP Manual
+  - class.swoole-event.html: SwooleEvent
+title: 'SwooleEvent::wait'
+---
 # SwooleEvent::wait
 
 (PECL swoole >= 1.9.0)

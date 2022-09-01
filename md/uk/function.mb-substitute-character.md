@@ -1,16 +1,11 @@
-Встановити/отримати символ заміни
-
--   [« mbstrwidth](function.mb-strwidth.html)
-    
--   [мбsubstrcount »](function.mb-substr-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Встановити/отримати символ заміни
-    
-
+---
+navigation:
+  - function.mb-strwidth.html: « mbstrwidth
+  - function.mb-substr-count.html: мбsubstrcount »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбsubstitutecharacter
+---
 # мбsubstitutecharacter
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -43,10 +38,10 @@ mb_substitute_character(string|int|null $substitute_character = null): string|in
 
 ### список змін
 
-| Версия | Описание                                                                                                          |
-|--------|-------------------------------------------------------------------------------------------------------------------|
-|        | Передача порожнього рядка в `substitute_character` більше не підтримується; замість цього використовуйте `"none"` |
-|        | Тепер параметр `encoding` може набувати значення **`null`**                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Передача порожнього рядка в `substitute_character` більше не підтримується; замість цього використовуйте `"none"` |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Призначити значення
-
--   [« YafViewSimple](class.yaf-view-simple.html)
-    
--   [YafViewSimple::assignRef »](yaf-view-simple.assignref.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Призначити значення
-    
-
+---
+navigation:
+  - class.yaf-view-simple.html: « YafViewSimple
+  - yaf-view-simple.assignref.html: 'YafViewSimple::assignRef »'
+  - index.html: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::assign'
+---
 # YafViewSimple::assign
 
 (Yaf >=1.0.0)

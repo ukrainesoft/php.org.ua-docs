@@ -1,16 +1,11 @@
-Повертає логічне значення змінної
-
--   [« Функції для роботи зі змінними](ref.var.html)
-    
--   [debugzvaldump »](function.debug-zval-dump.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Повертає логічне значення змінної
-    
-
+---
+navigation:
+  - ref.var.html: « Функції для роботи зі змінними
+  - function.debug-zval-dump.html: debugzvaldump »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: boolval
+---
 # boolval
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

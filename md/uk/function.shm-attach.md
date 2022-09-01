@@ -1,16 +1,11 @@
-Створює або відкриває сегмент пам'яті, що розділяється
-
--   [« semremove](function.sem-remove.html)
-    
--   [shmdetach »](function.shm-detach.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Створює або відкриває сегмент пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.sem-remove.html: « semremove
+  - function.shm-detach.html: shmdetach »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: shmattach
+---
 # shmattach
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ shm_attach(int $key, ?int $size = null, int $permissions = 0666): SysvSharedMemo
 
 ### список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше повертався ресурс (resource). |
-|        | `size` тепер допускає значення null.                                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше повертався ресурс (resource). |
+|  | `size` тепер допускає значення null. |
 
 ### Дивіться також
 

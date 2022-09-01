@@ -1,16 +1,11 @@
-Функції семафорів
-
--   [« Обумовлені константи](sem.constants.md)
-    
--   [ftok »](function.ftok.md)
-    
--   [PHP Manual](index.md)
-    
--   [Семафори](book.sem.md)
-    
--   Функції семафорів
-    
-
+---
+navigation:
+  - sem.constants.md: « Обумовлені константи
+  - function.ftok.md: ftok »
+  - index.md: PHP Manual
+  - book.sem.md: Семафори
+title: Функції семафорів
+---
 # Функції семафорів
 
 ## Зміст

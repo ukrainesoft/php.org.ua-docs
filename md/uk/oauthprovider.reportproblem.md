@@ -1,16 +1,11 @@
-Повідомити про проблему
-
--   [« OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.html)
-    
--   [OAuthProvider::setParam »](oauthprovider.setparam.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuthProvider](class.oauthprovider.html)
-    
--   Повідомити про проблему
-    
-
+---
+navigation:
+  - oauthprovider.removerequiredparameter.html: '« OAuthProvider::removeRequiredParameter'
+  - oauthprovider.setparam.html: 'OAuthProvider::setParam »'
+  - index.html: PHP Manual
+  - class.oauthprovider.html: OAuthProvider
+title: 'OAuthProvider::reportProblem'
+---
 # OAuthProvider::reportProblem
 
 (PECL OAuth >= 1.0.0)

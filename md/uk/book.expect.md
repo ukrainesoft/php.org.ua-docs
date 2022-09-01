@@ -1,16 +1,11 @@
-Expect
-
--   [« EvWatcher::stop](evwatcher.stop.html)
-    
--   [Введение »](intro.expect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
-    
--   Expect
-    
-
+---
+navigation:
+  - evwatcher.stop.html: '« EvWatcher::stop'
+  - intro.expect.html: Введение »
+  - index.html: PHP Manual
+  - refs.fileprocess.process.html: Модули для управления процессами программ
+title: Expect
+---
 # Expect
 
 -   [Введение](intro.expect.html)

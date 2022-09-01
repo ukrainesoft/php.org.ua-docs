@@ -1,16 +1,11 @@
-Перетворює бінарні дані на шістнадцяткове подання
-
--   [« addslashes](function.addslashes.md)
-    
--   [chop »](function.chop.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перетворює бінарні дані на шістнадцяткове подання
-    
-
+---
+navigation:
+  - function.addslashes.md: « addslashes
+  - function.chop.md: chop »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: bin2hex
+---
 # bin2hex
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

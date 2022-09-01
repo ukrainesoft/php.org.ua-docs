@@ -1,16 +1,11 @@
-Закриває з'єднання з базою даних PostgreSQL
-
--   [« pgclientencoding](function.pg-client-encoding.html)
-    
--   [пгconnectpoll »](function.pg-connect-poll.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Закриває з'єднання з базою даних PostgreSQL
-    
-
+---
+navigation:
+  - function.pg-client-encoding.html: « pgclientencoding
+  - function.pg-connect-poll.html: пгconnectpoll »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгclose
+---
 # пгclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ pg_close(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

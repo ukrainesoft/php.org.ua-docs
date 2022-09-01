@@ -1,16 +1,11 @@
-Повертає сервери у топології
-
--   [« MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
-    
--   [MongoDBDriverTopologyDescription::getType »](mongodb-driver-topologydescription.gettype.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
-    
--   Повертає сервери у топології
-    
-
+---
+navigation:
+  - class.mongodb-driver-topologydescription.html: « MongoDBDriverTopologyDescription
+  - mongodb-driver-topologydescription.gettype.html: 'MongoDBDriverTopologyDescription::getType »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription
+title: 'MongoDBDriverTopologyDescription::getServers'
+---
 # MongoDBDriverTopologyDescription::getServers
 
 (mongodb >=1.13.0)

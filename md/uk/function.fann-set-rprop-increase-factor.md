@@ -1,16 +1,11 @@
-Встановлює коефіцієнт збільшення під час навчання Rprop
-
--   [« fannsetrpropdeltazero](function.fann-set-rprop-delta-zero.html)
-    
--   [fannsetsarpropsteperrorshift »](function.fann-set-sarprop-step-error-shift.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює коефіцієнт збільшення під час навчання Rprop
-    
-
+---
+navigation:
+  - function.fann-set-rprop-delta-zero.html: « fannsetrpropdeltazero
+  - function.fann-set-sarprop-step-error-shift.html: fannsetsarpropsteperrorshift »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetrpropincreasefactor
+---
 # fannsetrpropincreasefactor
 
 (PECL fann> = 1.0.0)

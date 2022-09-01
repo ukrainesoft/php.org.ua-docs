@@ -1,16 +1,11 @@
-Geo IP Location
-
--   [Інші базові модулі](refs.basic.other.md)
-    
--   [Введение »](intro.geoip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Geo IP Location
-    
-
+---
+navigation:
+  - refs.basic.other.md: Інші базові модулі
+  - intro.geoip.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Geo IP Location
+---
 # Geo IP Location
 
 -   [Введение](intro.geoip.md)

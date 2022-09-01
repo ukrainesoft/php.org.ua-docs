@@ -1,16 +1,11 @@
-Повертає всі фасети статистики, встановлені
-
--   [« SolrQuery::getStats](solrquery.getstats.html)
-    
--   [SolrQuery::getStatsFields »](solrquery.getstatsfields.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає всі фасети статистики, встановлені
-    
-
+---
+navigation:
+  - solrquery.getstats.html: '« SolrQuery::getStats'
+  - solrquery.getstatsfields.html: 'SolrQuery::getStatsFields »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getStatsFacets'
+---
 # SolrQuery::getStatsFacets
 
 (PECL solr> = 0.9.2)

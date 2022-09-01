@@ -1,16 +1,11 @@
-Замінює дочірній вузол
-
--   [« DOMNode::removeChild](domnode.removechild.md)
-    
--   [DOMNodeList »](class.domnodelist.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Замінює дочірній вузол
-    
-
+---
+navigation:
+  - domnode.removechild.md: '« DOMNode::removeChild'
+  - class.domnodelist.md: DOMNodeList »
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::replaceChild'
+---
 # DOMNode::replaceChild
 
 (PHP 5, PHP 7, PHP 8)

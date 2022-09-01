@@ -1,16 +1,11 @@
-Повертає значення параметра facet.date.hardend
-
--   [« SolrQuery::getFacetDateGap](solrquery.getfacetdategap.md)
-    
--   [SolrQuery::getFacetDateOther »](solrquery.getfacetdateother.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає значення параметра facet.date.hardend
-    
-
+---
+navigation:
+  - solrquery.getfacetdategap.md: '« SolrQuery::getFacetDateGap'
+  - solrquery.getfacetdateother.md: 'SolrQuery::getFacetDateOther »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacetDateHardEnd'
+---
 # SolrQuery::getFacetDateHardEnd
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Отримує стовпці
-
--   [« SqlStatementResult::getColumnNames](mysql-xdevapi-sqlstatementresult.getcolumnnames.html)
-    
--   [SqlStatementResult::getGeneratedIds »](mysql-xdevapi-sqlstatementresult.getgeneratedids.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує стовпці
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getcolumnnames.html: '« SqlStatementResult::getColumnNames'
+  - mysql-xdevapi-sqlstatementresult.getgeneratedids.html: 'SqlStatementResult::getGeneratedIds »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getColumns'
+---
 # SqlStatementResult::getColumns
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Псевдонім ibaseblobadd
-
--   [« fbirdbackup](function.fbird-backup.html)
-    
--   [fbirdblobcancel »](function.fbird-blob-cancel.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseblobadd
-    
-
+---
+navigation:
+  - function.fbird-backup.html: « fbirdbackup
+  - function.fbird-blob-cancel.html: fbirdblobcancel »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdblobadd
+---
 # fbirdblobadd
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Створює об'єкт CURLFile
-
--   [« CURLFile](class.curlfile.html)
-    
--   [CURLFile::getFilename »](curlfile.getfilename.html)
-    
--   [PHP Manual](index.html)
-    
--   [CURLFile](class.curlfile.html)
-    
--   Створює об'єкт CURLFile
-    
-
+---
+navigation:
+  - class.curlfile.html: « CURLFile
+  - curlfile.getfilename.html: 'CURLFile::getFilename »'
+  - index.html: PHP Manual
+  - class.curlfile.html: CURLFile
+title: 'CURLFile::construct'
+---
 # CURLFile::construct
 
 # curlfilecreate
@@ -53,9 +48,9 @@ Mime-тип файлу.
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | `mime_type` і `posted_filename` тепер припускають значення null; раніше значенням за умовчанням був `0` |
+| Версия | Описание |
+| --- | --- |
+|  | `mime_type` і `posted_filename` тепер припускають значення null; раніше значенням за умовчанням був `0` |
 
 ### Приклади
 

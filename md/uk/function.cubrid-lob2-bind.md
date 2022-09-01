@@ -1,16 +1,11 @@
-Зв'язує об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором як параметри
-
--   [« cubridlobsize](function.cubrid-lob-size.html)
-    
--   [cubridlob2close »](function.cubrid-lob2-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Зв'язує об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором як параметри
-    
-
+---
+navigation:
+  - function.cubrid-lob-size.html: « cubridlobsize
+  - function.cubrid-lob2-close.html: cubridlob2close »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2bind
+---
 # cubridlob2bind
 
 (PECL CUBRID >= 8.4.1)

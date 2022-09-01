@@ -1,16 +1,11 @@
-Визначає діапазон записів для отримання
-
--   [« yazpresent](function.yaz-present.html)
-    
--   [yazrecord »](function.yaz-record.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Визначає діапазон записів для отримання
-    
-
+---
+navigation:
+  - function.yaz-present.html: « yazpresent
+  - function.yaz-record.html: yazrecord »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazrange
+---
 # yazrange
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

@@ -1,16 +1,11 @@
-Збільшує час кластера для сеансу
-
--   [« MongoDBDriverSession::abortTransaction](mongodb-driver-session.aborttransaction.html)
-    
--   [MongoDBDriverSession::advanceOperationTime »](mongodb-driver-session.advanceoperationtime.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Збільшує час кластера для сеансу
-    
-
+---
+navigation:
+  - mongodb-driver-session.aborttransaction.html: '« MongoDBDriverSession::abortTransaction'
+  - mongodb-driver-session.advanceoperationtime.html: 'MongoDBDriverSession::advanceOperationTime »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::advanceClusterTime'
+---
 # MongoDBDriverSession::advanceClusterTime
 
 (mongodb >=1.4.0)

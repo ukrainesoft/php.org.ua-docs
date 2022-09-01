@@ -1,16 +1,11 @@
-Клас ReflectionExtension
-
--   [« ReflectionZendExtension::toString](reflectionzendextension.tostring.html)
-    
--   [ReflectionExtension::clone »](reflectionextension.clone.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionExtension
-    
-
+---
+navigation:
+  - reflectionzendextension.tostring.html: '« ReflectionZendExtension::toString'
+  - reflectionextension.clone.html: 'ReflectionExtension::clone »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionExtension
+---
 # Клас ReflectionExtension
 
 (PHP 5, PHP 7, PHP 8)

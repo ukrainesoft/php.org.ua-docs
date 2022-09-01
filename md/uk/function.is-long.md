@@ -1,16 +1,11 @@
-Псевдонім isint
-
--   [« isiterable](function.is-iterable.html)
-    
--   [ісnull »](function.is-null.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Псевдонім isint
-    
-
+---
+navigation:
+  - function.is-iterable.html: « isiterable
+  - function.is-null.html: ісnull »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісlong
+---
 # ісlong
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

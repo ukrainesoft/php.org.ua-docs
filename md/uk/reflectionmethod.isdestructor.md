@@ -1,16 +1,11 @@
-Перевіряє, чи є метод деструктором
-
--   [« ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)
-    
--   [ReflectionMethod::isFinal »](reflectionmethod.isfinal.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Перевіряє, чи є метод деструктором
-    
-
+---
+navigation:
+  - reflectionmethod.isconstructor.md: '« ReflectionMethod::isConstructor'
+  - reflectionmethod.isfinal.md: 'ReflectionMethod::isFinal »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::isDestructor'
+---
 # ReflectionMethod::isDestructor
 
 (PHP 5, PHP 7, PHP 8)

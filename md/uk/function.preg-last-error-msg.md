@@ -1,16 +1,11 @@
-Повертає повідомлення про помилку останньої запущеної функції PCRE
-
--   [« preggrep](function.preg-grep.html)
-    
--   [preglasterror »](function.preg-last-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Повертає повідомлення про помилку останньої запущеної функції PCRE
-    
-
+---
+navigation:
+  - function.preg-grep.html: « preggrep
+  - function.preg-last-error.html: preglasterror »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: preglasterrormsg
+---
 # preglasterrormsg
 
 (PHP 8)

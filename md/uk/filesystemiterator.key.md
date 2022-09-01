@@ -1,16 +1,11 @@
-Визначення ключа поточного файлу
-
--   [« FilesystemIterator::getFlags](filesystemiterator.getflags.md)
-    
--   [FilesystemIterator::next »](filesystemiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilesystemIterator](class.filesystemiterator.md)
-    
--   Визначення ключа поточного файлу
-    
-
+---
+navigation:
+  - filesystemiterator.getflags.md: '« FilesystemIterator::getFlags'
+  - filesystemiterator.next.md: 'FilesystemIterator::next »'
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
+title: 'FilesystemIterator::key'
+---
 # FilesystemIterator::key
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

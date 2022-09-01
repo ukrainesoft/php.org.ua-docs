@@ -1,16 +1,11 @@
-Перемістити внутрішній покажчик результуючого набору на вказаний стовпець
-
--   [« cubridfieldname](function.cubrid-field-name.html)
-    
--   [cubridfieldtable »](function.cubrid-field-table.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Перемістити внутрішній покажчик результуючого набору на вказаний стовпець
-    
-
+---
+navigation:
+  - function.cubrid-field-name.html: « cubridfieldname
+  - function.cubrid-field-table.html: cubridfieldtable »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfieldseek
+---
 # cubridfieldseek
 
 (PECL CUBRID >= 8.3.0)

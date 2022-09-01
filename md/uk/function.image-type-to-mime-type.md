@@ -1,16 +1,11 @@
-Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
-
--   [« imagetypeтоextension](function.image-type-to-extension.html)
-    
--   [image2wbmp »](function.image2wbmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
-    
-
+---
+navigation:
+  - function.image-type-to-extension.html: « imagetypeтоextension
+  - function.image2wbmp.md: image2wbmp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagetypeтоmimetype
+---
 # imagetypeтоmimetype
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -37,26 +32,26 @@ image_type_to_mime_type(int $image_type): string
 
 **Значення, що повертаються і Константи**
 
-| `image_type`                                    | Возвращаемое значение           |
-|-------------------------------------------------|---------------------------------|
-| **`IMAGETYPE_GIF`**                             | `image/gif`                     |
-| **`IMAGETYPE_JPEG`**                            | `image/jpeg`                    |
-| **`IMAGETYPE_PNG`**                             | `image/png`                     |
-| **`IMAGETYPE_SWF`**                             | `application/x-shockwave-flash` |
-| **`IMAGETYPE_PSD`**                             | `image/psd`                     |
-| **`IMAGETYPE_BMP`**                             | `image/bmp`                     |
-| **`IMAGETYPE_TIFF_II`** (порядок байт intel)    | `image/tiff`                    |
-| **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) | `image/tiff`                    |
-| **`IMAGETYPE_JPC`**                             | `application/octet-stream`      |
-| **`IMAGETYPE_JP2`**                             | `image/jp2`                     |
-| **`IMAGETYPE_JPX`**                             | `application/octet-stream`      |
-| **`IMAGETYPE_JB2`**                             | `application/octet-stream`      |
-| **`IMAGETYPE_SWC`**                             | `application/x-shockwave-flash` |
-| **`IMAGETYPE_IFF`**                             | `image/iff`                     |
-| **`IMAGETYPE_WBMP`**                            | `image/vnd.wap.wbmp`            |
-| **`IMAGETYPE_XBM`**                             | `image/xbm`                     |
-| **`IMAGETYPE_ICO`**                             | `image/vnd.microsoft.icon`      |
-| **`IMAGETYPE_WEBP`**                            | `image/webp`                    |
+| `image_type` | Возвращаемое значение |
+| --- | --- |
+| **`IMAGETYPE_GIF`** | `image/gif` |
+| **`IMAGETYPE_JPEG`** | `image/jpeg` |
+| **`IMAGETYPE_PNG`** | `image/png` |
+| **`IMAGETYPE_SWF`** | `application/x-shockwave-flash` |
+| **`IMAGETYPE_PSD`** | `image/psd` |
+| **`IMAGETYPE_BMP`** | `image/bmp` |
+| **`IMAGETYPE_TIFF_II`** (порядок байт intel) | `image/tiff` |
+| **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) | `image/tiff` |
+| **`IMAGETYPE_JPC`** | `application/octet-stream` |
+| **`IMAGETYPE_JP2`** | `image/jp2` |
+| **`IMAGETYPE_JPX`** | `application/octet-stream` |
+| **`IMAGETYPE_JB2`** | `application/octet-stream` |
+| **`IMAGETYPE_SWC`** | `application/x-shockwave-flash` |
+| **`IMAGETYPE_IFF`** | `image/iff` |
+| **`IMAGETYPE_WBMP`** | `image/vnd.wap.wbmp` |
+| **`IMAGETYPE_XBM`** | `image/xbm` |
+| **`IMAGETYPE_ICO`** | `image/vnd.microsoft.icon` |
+| **`IMAGETYPE_WEBP`** | `image/webp` |
 
 ### Приклади
 

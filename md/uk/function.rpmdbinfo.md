@@ -1,16 +1,11 @@
-Отримує інформацію від встановленого RPM
-
--   [« rpmaddtag](function.rpmaddtag.md)
-    
--   [rpmdbsearch »](function.rpmdbsearch.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RpmInfo](ref.rpminfo.md)
-    
--   Отримує інформацію від встановленого RPM
-    
-
+---
+navigation:
+  - function.rpmaddtag.md: « rpmaddtag
+  - function.rpmdbsearch.md: rpmdbsearch »
+  - index.md: PHP Manual
+  - ref.rpminfo.md: Функції RpmInfo
+title: rpmdbinfo
+---
 # rpmdbinfo
 
 (PECL rpminfo >= 0.2.0)

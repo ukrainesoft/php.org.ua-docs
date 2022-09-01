@@ -1,16 +1,11 @@
-Малює лінію
-
--   [« ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.md)
-    
--   [ImagickDraw::matte »](imagickdraw.matte.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює лінію
-    
-
+---
+navigation:
+  - imagickdraw.getvectorgraphics.md: '« ImagickDraw::getVectorGraphics'
+  - imagickdraw.matte.md: 'ImagickDraw::matte »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::line'
+---
 # ImagickDraw::line
 
 (PECL imagick 2, PECL imagick 3)

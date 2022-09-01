@@ -1,16 +1,11 @@
-Клас LuaSandboxTimeoutError
-
--   [« LuaSandboxSyntaxError](class.luasandboxsyntaxerror.html)
-    
--   [Misc. »](book.misc.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](book.luasandbox.html)
-    
--   Клас LuaSandboxTimeoutError
-    
-
+---
+navigation:
+  - class.luasandboxsyntaxerror.html: « LuaSandboxSyntaxError
+  - book.misc.html: Misc. »
+  - index.html: PHP Manual
+  - book.luasandbox.html: LuaSandbox
+title: Клас LuaSandboxTimeoutError
+---
 # Клас LuaSandboxTimeoutError
 
 (PECL luasandbox >= 1.0.0)

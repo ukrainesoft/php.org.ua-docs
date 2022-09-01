@@ -1,16 +1,11 @@
-Витягує квадратний корінь із числа із заданою точністю
-
--   [« bcscale](function.bcscale.md)
-    
--   [bcsub »](function.bcsub.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции BC Math](ref.bc.md)
-    
--   Витягує квадратний корінь із числа із заданою точністю
-    
-
+---
+navigation:
+  - function.bcscale.md: « bcscale
+  - function.bcsub.md: bcsub »
+  - index.md: PHP Manual
+  - ref.bc.md: Функции BC Math
+title: bcsqrt
+---
 # bcsqrt
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ bcsqrt(string $num, ?int $scale = null): string
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `scale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `scale` тепер допускає значення null. |
 
 ### Приклади
 

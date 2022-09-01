@@ -1,16 +1,11 @@
-Клас Warning
-
--   [« TableUpdate::where](mysql-xdevapi-tableupdate.where.html)
-    
--   [Warning::construct »](mysql-xdevapi-warning.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Warning
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.where.html: '« TableUpdate::where'
+  - mysql-xdevapi-warning.construct.html: 'Warning::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Warning
+---
 # Клас Warning
 
 (PECL mysql-xdevapi >= 8.0.11)

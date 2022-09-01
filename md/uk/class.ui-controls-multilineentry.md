@@ -1,16 +1,11 @@
-Елемент управління "Многорядкове введення"
-
--   [« UIControlsEntry::setText](ui-controls-entry.settext.html)
-    
--   [ОЙControlsMultilineEntry::append »](ui-controls-multilineentry.append.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Елемент управління "Многорядкове введення"
-    
-
+---
+navigation:
+  - ui-controls-entry.settext.html: '« UIControlsEntry::setText'
+  - ui-controls-multilineentry.append.html: 'ОЙControlsMultilineEntry::append »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Елемент управління "Многорядкове введення"
+---
 # Елемент управління "Многорядкове введення"
 
 (UI 0.9.9)

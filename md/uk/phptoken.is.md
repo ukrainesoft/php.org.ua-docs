@@ -1,16 +1,11 @@
-Перевіряє, чи відповідає токен зазначеному типу
-
--   [« PhpToken::getTokenName](phptoken.gettokenname.md)
-    
--   [PhpToken::isIgnorable »](phptoken.isignorable.md)
-    
--   [PHP Manual](index.md)
-    
--   [PhpToken](class.phptoken.md)
-    
--   Перевіряє, чи відповідає токен зазначеному типу
-    
-
+---
+navigation:
+  - phptoken.gettokenname.md: '« PhpToken::getTokenName'
+  - phptoken.isignorable.md: 'PhpToken::isIgnorable »'
+  - index.md: PHP Manual
+  - class.phptoken.md: PhpToken
+title: 'PhpToken::is'
+---
 # PhpToken::is
 
 (PHP 8)

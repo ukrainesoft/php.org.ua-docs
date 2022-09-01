@@ -1,16 +1,11 @@
-Класи для роботи з потоками
-
--   [« Налаштування під час виконання](stream.configuration.md)
-    
--   [Обумовлені константи »](stream.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](stream.setup.md)
-    
--   Класи для роботи з потоками
-    
-
+---
+navigation:
+  - stream.configuration.md: « Налаштування під час виконання
+  - stream.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - stream.setup.md: Встановлення та налаштування
+title: Класи для роботи з потоками
+---
 ## Класи для роботи з потоками
 
 Користувацькі обгортки можна розробляти, використовуючи визначення класів, показані на цій сторінці посібника, а потім реєструвати функцією [streamwrapperregister()](function.stream-wrapper-register.html)

@@ -1,16 +1,11 @@
-Повертає час останнього доступу до поточного елементу DirectoryIterator
-
--   [« DirectoryIterator::current](directoryiterator.current.md)
-    
--   [DirectoryIterator::getBasename »](directoryiterator.getbasename.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає час останнього доступу до поточного елементу DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.current.md: '« DirectoryIterator::current'
+  - directoryiterator.getbasename.md: 'DirectoryIterator::getBasename »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getATime'
+---
 # DirectoryIterator::getATime
 
 (PHP 5, PHP 7, PHP 8)

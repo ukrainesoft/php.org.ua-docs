@@ -1,16 +1,11 @@
-Отримати дерево пов'язаних повідомлень
-
--   [« imapsubscribe](function.imap-subscribe.html)
-    
--   [imaptimeout »](function.imap-timeout.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Отримати дерево пов'язаних повідомлень
-    
-
+---
+navigation:
+  - function.imap-subscribe.html: « imapsubscribe
+  - function.imap-timeout.html: imaptimeout »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapthread
+---
 # imapthread
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
@@ -48,9 +43,9 @@ imap_thread(IMAP\Connection $imap, int $flags = SE_FREE): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

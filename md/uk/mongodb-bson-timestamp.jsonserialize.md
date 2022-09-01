@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONTimestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.html)
-    
--   [MongoDBBSONTimestamp::serialize »](mongodb-bson-timestamp.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-timestamp.gettimestamp.html: '« MongoDBBSONTimestamp::getTimestamp'
+  - mongodb-bson-timestamp.serialize.html: 'MongoDBBSONTimestamp::serialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::jsonSerialize'
+---
 # MongoDBBSONTimestamp::jsonSerialize
 
 (mongodb >=1.2.0)

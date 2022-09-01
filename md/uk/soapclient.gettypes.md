@@ -1,16 +1,11 @@
-Повертає список типів SOAP
-
--   [« SoapClient::getLastResponseHeaders](soapclient.getlastresponseheaders.html)
-    
--   [SoapClient::setCookie »](soapclient.setcookie.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapClient](class.soapclient.html)
-    
--   Повертає список типів SOAP
-    
-
+---
+navigation:
+  - soapclient.getlastresponseheaders.html: '« SoapClient::getLastResponseHeaders'
+  - soapclient.setcookie.html: 'SoapClient::setCookie »'
+  - index.html: PHP Manual
+  - class.soapclient.html: SoapClient
+title: 'SoapClient::getTypes'
+---
 # SoapClient::getTypes
 
 (PHP 5, PHP 7, PHP 8)

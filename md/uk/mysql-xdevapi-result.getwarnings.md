@@ -1,16 +1,11 @@
-Отримує попередження останньої операції
-
--   [« Result::getGeneratedIds](mysql-xdevapi-result.getgeneratedids.html)
-    
--   [Result::getWarningsCount »](mysql-xdevapi-result.getwarningscount.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
-    
--   Отримує попередження останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-result.getgeneratedids.html: '« Result::getGeneratedIds'
+  - mysql-xdevapi-result.getwarningscount.html: 'Result::getWarningsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+title: 'Result::getWarnings'
+---
 # Result::getWarnings
 
 (No version information available, might only be in Git)

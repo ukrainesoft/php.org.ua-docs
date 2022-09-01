@@ -1,16 +1,11 @@
-Закриває екземпляр finfo
-
--   [« finfobuffer](function.finfo-buffer.html)
-    
--   [finfofile »](function.finfo-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции модуля Fileinfo](ref.fileinfo.md)
-    
--   Закриває екземпляр finfo
-    
-
+---
+navigation:
+  - function.finfo-buffer.html: « finfobuffer
+  - function.finfo-file.html: finfofile »
+  - index.md: PHP Manual
+  - ref.fileinfo.md: Функции модуля Fileinfo
+title: finfoclose
+---
 # finfoclose
 
 (PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
@@ -37,6 +32,6 @@ finfo_close(finfo $finfo): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

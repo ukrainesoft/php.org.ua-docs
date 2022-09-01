@@ -1,16 +1,11 @@
-Перетворює на верхній регістр перший символ кожного слова в рядку
-
--   [« ucfirst](function.ucfirst.md)
-    
--   [utf8decode »](function.utf8-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перетворює на верхній регістр перший символ кожного слова в рядку
-    
-
+---
+navigation:
+  - function.ucfirst.md: « ucfirst
+  - function.utf8-decode.html: utf8decode »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: ucwords
+---
 # ucwords
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

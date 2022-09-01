@@ -1,16 +1,11 @@
-Вимикає механізм перегляду
-
--   [« YafDispatcher::construct](yaf-dispatcher.construct.html)
-    
--   [YafDispatcher::dispatch »](yaf-dispatcher.dispatch.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Вимикає механізм перегляду
-    
-
+---
+navigation:
+  - yaf-dispatcher.construct.html: '« YafDispatcher::construct'
+  - yaf-dispatcher.dispatch.html: 'YafDispatcher::dispatch »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::disableView'
+---
 # YafDispatcher::disableView
 
 (Yaf >=1.0.0)

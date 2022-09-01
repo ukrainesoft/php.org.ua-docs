@@ -1,16 +1,11 @@
-Повертає ключ поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::isWritable](directoryiterator.iswritable.md)
-    
--   [DirectoryIterator::next »](directoryiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає ключ поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.iswritable.md: '« DirectoryIterator::isWritable'
+  - directoryiterator.next.md: 'DirectoryIterator::next »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::key'
+---
 # DirectoryIterator::key
 
 (PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public DirectoryIterator::key(): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | Якщо ітератор не ініціалізований, тепер викидається помилка [Error](class.error.md). Раніше метод повертав **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Якщо ітератор не ініціалізований, тепер викидається помилка [Error](class.error.md). Раніше метод повертав **`false`** |
 
 ### Приклади
 

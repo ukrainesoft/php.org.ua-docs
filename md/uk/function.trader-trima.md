@@ -1,16 +1,11 @@
-Трикутна ковзна середня
-
--   [« tradertrange](function.trader-trange.html)
-    
--   [tradertrix »](function.trader-trix.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Трикутна ковзна середня
-    
-
+---
+navigation:
+  - function.trader-trange.html: « tradertrange
+  - function.trader-trix.html: tradertrix »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertrima
+---
 # tradertrima
 
 (PECL trader >= 0.2.0)

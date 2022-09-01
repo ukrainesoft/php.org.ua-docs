@@ -1,16 +1,11 @@
-Повертає частоту, нижче за яку вирази ігноруватимуться у вихідному документі
-
--   [« SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.md)
-    
--   [SolrQuery::getMltMinWordLength »](solrquery.getmltminwordlength.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає частоту, нижче за яку вирази ігноруватимуться у вихідному документі
-    
-
+---
+navigation:
+  - solrquery.getmltmindocfrequency.md: '« SolrQuery::getMltMinDocFrequency'
+  - solrquery.getmltminwordlength.md: 'SolrQuery::getMltMinWordLength »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltMinTermFrequency'
+---
 # SolrQuery::getMltMinTermFrequency
 
 (PECL solr> = 0.9.2)

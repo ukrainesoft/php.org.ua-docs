@@ -1,16 +1,11 @@
-Створює зупинений об'єкт спостерігач EvEmbed
-
--   [« EvEmbed::construct](evembed.construct.md)
-    
--   [EvEmbed::set »](evembed.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvEmbed](class.evembed.md)
-    
--   Створює зупинений об'єкт спостерігач EvEmbed
-    
-
+---
+navigation:
+  - evembed.construct.md: '« EvEmbed::construct'
+  - evembed.set.md: 'EvEmbed::set »'
+  - index.md: PHP Manual
+  - class.evembed.md: EvEmbed
+title: 'EvEmbed::createStopped'
+---
 # EvEmbed::createStopped
 
 (PECL ev >= 0.2.0)

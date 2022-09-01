@@ -1,16 +1,11 @@
-Сесії
-
--   [« Cookies](features.cookies.md)
-    
--   [Работа с XForms »](features.xforms.md)
-    
--   [PHP Manual](index.md)
-    
--   [Відмітні особливості](features.md)
-    
--   Сесії
-    
-
+---
+navigation:
+  - features.cookies.md: « Cookies
+  - features.xforms.md: Работа с XForms »
+  - index.md: PHP Manual
+  - features.md: Відмітні особливості
+title: Сесії
+---
 # Сесії
 
 Сесії PHP є різними способами збереження даних для подальшого доступу до них. Вони дозволяють створювати більш гнучкі додатки та покращують привабливість вашого сайту. Детальна інформація знаходиться в [справочнике сессий](book.session.md)

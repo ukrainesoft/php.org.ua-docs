@@ -1,16 +1,11 @@
-Виводить текст у поточній позиції
-
--   [«psshowзі](function.ps-show-xy.html)
-    
--   [псshow »](function.ps-show.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Виводить текст у поточній позиції
-    
-
+---
+navigation:
+  - function.ps-show-xy.html: «psshowзі
+  - function.ps-show.html: псshow »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псshow2
+---
 # псshow2
 
 (PECL ps >= 1.1.0)

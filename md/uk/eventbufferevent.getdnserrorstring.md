@@ -1,16 +1,11 @@
-Повертає рядок, що описує останню невдалу спробу пошуку DNS
-
--   [« EventBufferEvent::free](eventbufferevent.free.md)
-    
--   [EventBufferEvent::getEnabled »](eventbufferevent.getenabled.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Повертає рядок, що описує останню невдалу спробу пошуку DNS
-    
-
+---
+navigation:
+  - eventbufferevent.free.md: '« EventBufferEvent::free'
+  - eventbufferevent.getenabled.md: 'EventBufferEvent::getEnabled »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::getDnsErrorString'
+---
 # EventBufferEvent::getDnsErrorString
 
 (PECL event >= 1.2.6-beta)

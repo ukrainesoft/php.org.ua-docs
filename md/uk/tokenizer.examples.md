@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](tokenizer.constants.md)
-    
--   [PhpToken »](class.phptoken.md)
-    
--   [PHP Manual](index.md)
-    
--   [Лексер (Tokenizer)](book.tokenizer.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - tokenizer.constants.md: « Обумовлені константи
+  - class.phptoken.md: PhpToken »
+  - index.md: PHP Manual
+  - book.tokenizer.md: Лексер (Tokenizer)
+title: Приклади
+---
 # Приклади
 
 Простий приклад PHP-скрипту, який використовує tokenizer (лексер), який читає PHP-файл, видаляє всі коментарі з вихідного коду та виводить лише чистий код.

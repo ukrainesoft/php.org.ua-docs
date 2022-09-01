@@ -1,16 +1,11 @@
-Свічкова модель "Перевернутий молоток"
-
--   [« tradercdlinneck](function.trader-cdlinneck.html)
-    
--   [tradercdlkicking »](function.trader-cdlkicking.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Свічкова модель "Перевернутий молоток"
-    
-
+---
+navigation:
+  - function.trader-cdlinneck.html: « tradercdlinneck
+  - function.trader-cdlkicking.html: tradercdlkicking »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlinvertedhammer
+---
 # tradercdlinvertedhammer
 
 (PECL trader >= 0.2.0)

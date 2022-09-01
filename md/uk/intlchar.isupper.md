@@ -1,16 +1,11 @@
-Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
-
--   [« IntlChar::isULowercase](intlchar.isulowercase.html)
-    
--   [IntlChar::isUUppercase »](intlchar.isuuppercase.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
-    
-
+---
+navigation:
+  - intlchar.isulowercase.html: '« IntlChar::isULowercase'
+  - intlchar.isuuppercase.html: 'IntlChar::isUUppercase »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::isupper'
+---
 # IntlChar::isupper
 
 (PHP 7, PHP 8)

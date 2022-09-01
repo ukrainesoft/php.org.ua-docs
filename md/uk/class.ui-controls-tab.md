@@ -1,16 +1,11 @@
-Елемент управління "Таб"
-
--   [« UIExecutor::setInterval](ui-executor.setinterval.html)
-    
--   [ОЙControlsTab::append »](ui-controls-tab.append.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління "Таб"
-    
-
+---
+navigation:
+  - ui-executor.setinterval.html: '« UIExecutor::setInterval'
+  - ui-controls-tab.append.html: 'ОЙControlsTab::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Таб"
+---
 # Елемент управління "Таб"
 
 (UI 0.9.9)

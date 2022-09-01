@@ -1,16 +1,11 @@
-Повертає останній номер помилки
-
--   [« fanngetconnectionrate](function.fann-get-connection-rate.html)
-    
--   [fanngeterrstr »](function.fann-get-errstr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає останній номер помилки
-    
-
+---
+navigation:
+  - function.fann-get-connection-rate.html: « fanngetconnectionrate
+  - function.fann-get-errstr.html: fanngeterrstr »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngeterrno
+---
 # fanngeterrno
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Зводить число в ступінь і здійснює розподіл за модулем
-
--   [« gmppow](function.gmp-pow.html)
-    
--   [gmpprobprime »](function.gmp-prob-prime.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Зводить число в ступінь і здійснює розподіл за модулем
-    
-
+---
+navigation:
+  - function.gmp-pow.html: « gmppow
+  - function.gmp-prob-prime.html: gmpprobprime »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmppowm
+---
 # gmppowm
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

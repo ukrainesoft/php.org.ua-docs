@@ -1,16 +1,11 @@
-Отримує власника файлу
-
--   [« SplFileInfo::getMTime](splfileinfo.getmtime.md)
-    
--   [SplFileInfo::getPath »](splfileinfo.getpath.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує власника файлу
-    
-
+---
+navigation:
+  - splfileinfo.getmtime.md: '« SplFileInfo::getMTime'
+  - splfileinfo.getpath.md: 'SplFileInfo::getPath »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getOwner'
+---
 # SplFileInfo::getOwner
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

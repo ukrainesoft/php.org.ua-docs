@@ -1,16 +1,11 @@
-Включає нижню межу вираження у набір результатів
-
--   [« SolrQuery::setTermsField](solrquery.settermsfield.html)
-    
--   [SolrQuery::setTermsIncludeUpperBound »](solrquery.settermsincludeupperbound.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Включає нижню межу вираження у набір результатів
-    
-
+---
+navigation:
+  - solrquery.settermsfield.html: '« SolrQuery::setTermsField'
+  - solrquery.settermsincludeupperbound.html: 'SolrQuery::setTermsIncludeUpperBound »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setTermsIncludeLowerBound'
+---
 # SolrQuery::setTermsIncludeLowerBound
 
 (PECL solr> = 0.9.2)

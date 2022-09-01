@@ -1,16 +1,11 @@
-Скасує створення BLOB
-
--   [« fbirdblobadd](function.fbird-blob-add.html)
-    
--   [fbirdblobclose »](function.fbird-blob-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Скасує створення BLOB
-    
-
+---
+navigation:
+  - function.fbird-blob-add.html: « fbirdblobadd
+  - function.fbird-blob-close.html: fbirdblobclose »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdblobcancel
+---
 # fbirdblobcancel
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Запитує локальну сторону зазначеного сокету, в результаті можна отримати хост/порт або шлях у файловій системі Unix, залежно від типу сокету
-
--   [« socketgetpeername](function.socket-getpeername.html)
-    
--   [socketimportstream »](function.socket-import-stream.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Запитує локальну сторону зазначеного сокету, в результаті можна отримати хост/порт або шлях у файловій системі Unix, залежно від типу сокету
-    
-
+---
+navigation:
+  - function.socket-getpeername.html: « socketgetpeername
+  - function.socket-import-stream.html: socketimportstream »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketgetsockname
+---
 # socketgetsockname
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ socket_getsockname(Socket $socket, string &$address, int &$port = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

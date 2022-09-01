@@ -1,16 +1,11 @@
-Опис кількох просторів імен в одному файлі
-
--   [« Определение подпространств имён](language.namespaces.nested.md)
-    
--   [Використання простору імен: основи »](language.namespaces.basics.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пространства имён](language.namespaces.md)
-    
--   Опис кількох просторів імен в одному файлі
-    
-
+---
+navigation:
+  - language.namespaces.nested.md: « Определение подпространств имён
+  - language.namespaces.basics.md: 'Використання простору імен: основи »'
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: Опис кількох просторів імен в одному файлі
+---
 ## Опис кількох просторів імен в одному файлі
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановити метод шифрування запису на його ім'я
-
--   [« ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.md)
-    
--   [ZipArchive::setExternalAttributesIndex »](ziparchive.setexternalattributesindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Встановити метод шифрування запису на його ім'я
-    
-
+---
+navigation:
+  - ziparchive.setencryptionindex.md: '« ZipArchive::setEncryptionIndex'
+  - ziparchive.setexternalattributesindex.md: 'ZipArchive::setExternalAttributesIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::setEncryptionName'
+---
 # ZipArchive::setEncryptionName
 
 (PHP >= 7.2.0, PHP 8, PECL zip >= 1.14.0)
@@ -45,9 +40,9 @@ public ZipArchive::setEncryptionName(string $name, int $method, ?string $passwor
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `password` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `password` тепер допускає значення null. |
 
 ### Приклади
 

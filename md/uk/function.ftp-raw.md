@@ -1,16 +1,11 @@
-Відправляє довільну команду FTP-серверу
-
--   [« ftpquit](function.ftp-quit.html)
-    
--   [ftprawlist »](function.ftp-rawlist.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Відправляє довільну команду FTP-серверу
-    
-
+---
+navigation:
+  - function.ftp-quit.html: « ftpquit
+  - function.ftp-rawlist.html: ftprawlist »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpraw
+---
 # ftpraw
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ ftp_raw(FTP\Connection $ftp, string $command): ?array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

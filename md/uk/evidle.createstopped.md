@@ -1,16 +1,11 @@
-Створити об'єкт класу EvIdle, але не стартувати його
-
--   [« EvIdle::construct](evidle.construct.md)
-    
--   [EvIo »](class.evio.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvIdle](class.evidle.md)
-    
--   Створити об'єкт класу EvIdle, але не стартувати його
-    
-
+---
+navigation:
+  - evidle.construct.md: '« EvIdle::construct'
+  - class.evio.md: EvIo »
+  - index.md: PHP Manual
+  - class.evidle.md: EvIdle
+title: 'EvIdle::createStopped'
+---
 # EvIdle::createStopped
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Введення в установку PECL
-
--   [« Установка модулей PECL](install.pecl.md)
-    
--   [Завантаження модулів PECL »](install.pecl.downloads.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка модулей PECL](install.pecl.md)
-    
--   Введення в установку PECL
-    
-
+---
+navigation:
+  - install.pecl.md: « Установка модулей PECL
+  - install.pecl.downloads.md: Завантаження модулів PECL »
+  - index.md: PHP Manual
+  - install.pecl.md: Установка модулей PECL
+title: Введення в установку PECL
+---
 ## Введення в установку PECL
 
 [» PECL](https://pecl.php.net/) - це репозиторій модулів PHP, доступ до яких надається через систему [» PEAR](https://pear.php.net/). Ця частина посібника призначена для демонстрації того, як ви можете отримати та встановити модулі PECL.

@@ -1,16 +1,11 @@
-Створює новий об'єкт тимчасового файлу
-
--   [« SplTempFileObject](class.spltempfileobject.html)
-    
--   [Різні класи та інтерфейси »](spl.misc.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplTempFileObject](class.spltempfileobject.html)
-    
--   Створює новий об'єкт тимчасового файлу
-    
-
+---
+navigation:
+  - class.spltempfileobject.html: « SplTempFileObject
+  - spl.misc.html: Різні класи та інтерфейси »
+  - index.html: PHP Manual
+  - class.spltempfileobject.html: SplTempFileObject
+title: 'SplTempFileObject::construct'
+---
 # SplTempFileObject::construct
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

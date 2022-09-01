@@ -1,16 +1,11 @@
-Обгортки TCP
-
--   [« svnupdate](function.svn-update.html)
-    
--   [Введение »](intro.tcpwrap.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   Обгортки TCP
-    
-
+---
+navigation:
+  - function.svn-update.html: « svnupdate
+  - intro.tcpwrap.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: Обгортки TCP
+---
 # Обгортки TCP
 
 -   [Введение](intro.tcpwrap.html)

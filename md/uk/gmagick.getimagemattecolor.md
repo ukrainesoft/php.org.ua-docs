@@ -1,16 +1,11 @@
-Повертає зображення матового кольору
-
--   [« Gmagick::getimagematte](gmagick.getimagematte.md)
-    
--   [Gmagick::getimageprofile »](gmagick.getimageprofile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає зображення матового кольору
-    
-
+---
+navigation:
+  - gmagick.getimagematte.md: '« Gmagick::getimagematte'
+  - gmagick.getimageprofile.md: 'Gmagick::getimageprofile »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagemattecolor'
+---
 # Gmagick::getimagemattecolor
 
 (PECL gmagick >= Unknown)

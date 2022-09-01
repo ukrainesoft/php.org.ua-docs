@@ -1,16 +1,11 @@
-Псевдонім streamgetmetadata
-
--   [« setrawcookie](function.setrawcookie.html)
-    
--   [socketsetblocking »](function.socket-set-blocking.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Псевдонім streamgetmetadata
-    
-
+---
+navigation:
+  - function.setrawcookie.html: « setrawcookie
+  - function.socket-set-blocking.html: socketsetblocking »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: socketgetstatus
+---
 # socketgetstatus
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує значення автоінкремента
-
--   [« Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.html)
-    
--   [Result::getGeneratedIds »](mysql-xdevapi-result.getgeneratedids.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
-    
--   Отримує значення автоінкремента
-    
-
+---
+navigation:
+  - mysql-xdevapi-result.getaffecteditemscount.html: '« Result::getAffectedItemsCount'
+  - mysql-xdevapi-result.getgeneratedids.html: 'Result::getGeneratedIds »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+title: 'Result::set Auto\_Increment Value'
+---
 # Result::set Auto\_Increment Value
 
 (No version information available, might only be in Git)

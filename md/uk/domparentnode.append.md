@@ -1,16 +1,11 @@
-Додає вузли після останнього дочірнього вузла
-
--   [« DOMParentNode](class.domparentnode.html)
-    
--   [DOMParentNode::prepend »](domparentnode.prepend.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMParentNode](class.domparentnode.html)
-    
--   Додає вузли після останнього дочірнього вузла
-    
-
+---
+navigation:
+  - class.domparentnode.html: « DOMParentNode
+  - domparentnode.prepend.html: 'DOMParentNode::prepend »'
+  - index.html: PHP Manual
+  - class.domparentnode.html: DOMParentNode
+title: 'DOMParentNode::append'
+---
 # DOMParentNode::append
 
 (PHP 8)

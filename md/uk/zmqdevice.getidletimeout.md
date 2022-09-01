@@ -1,16 +1,11 @@
-Отримати час очікування бездіяльності
-
--   [« ZMQDevice::construct](zmqdevice.construct.md)
-    
--   [ZMQDevice::getTimerTimeout »](zmqdevice.gettimertimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQDevice](class.zmqdevice.md)
-    
--   Отримати час очікування бездіяльності
-    
-
+---
+navigation:
+  - zmqdevice.construct.md: '« ZMQDevice::construct'
+  - zmqdevice.gettimertimeout.md: 'ZMQDevice::getTimerTimeout »'
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
+title: 'ZMQ Device::setIdleTimeout'
+---
 # ZMQ Device::setIdleTimeout
 
 (No version information available, might only be in Git)

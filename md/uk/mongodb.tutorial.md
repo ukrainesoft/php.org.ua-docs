@@ -1,16 +1,11 @@
-Навчальні матеріали
-
--   [« Обумовлені константи](mongodb.constants.html)
-    
--   [Использование библиотеки PHP для MongoDB (PHPLIB) »](mongodb.tutorial.library.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDB](set.mongodb.html)
-    
--   Навчальні матеріали
-    
-
+---
+navigation:
+  - mongodb.constants.html: « Обумовлені константи
+  - mongodb.tutorial.library.html: Использование библиотеки PHP для MongoDB (PHPLIB) »
+  - index.html: PHP Manual
+  - set.mongodb.html: MongoDB
+title: Навчальні матеріали
+---
 # Навчальні матеріали
 
 У цьому розділі ви знайдете кілька навчальних матеріалів з використання драйвера MongoDB для PHP.

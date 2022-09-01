@@ -1,16 +1,11 @@
-Додати елемент у пул опитування
-
--   [« ZMQPoll](class.zmqpoll.html)
-    
--   [ZMQPoll::clear »](zmqpoll.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQPoll](class.zmqpoll.html)
-    
--   Додати елемент у пул опитування
-    
-
+---
+navigation:
+  - class.zmqpoll.html: « ZMQPoll
+  - zmqpoll.clear.html: 'ZMQPoll::clear »'
+  - index.html: PHP Manual
+  - class.zmqpoll.html: ZMQPoll
+title: 'ZMQPoll::add'
+---
 # ZMQPoll::add
 
 (PECL zmq >= 0.5.0)

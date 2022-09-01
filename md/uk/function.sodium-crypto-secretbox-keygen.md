@@ -1,16 +1,11 @@
-Створює випадковий ключ для sodiumcryptosecretbox
-
--   [« sodiumcryptoscalarmult](function.sodium-crypto-scalarmult.html)
-    
--   [sodiumcryptosecretboxopen »](function.sodium-crypto-secretbox-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Створює випадковий ключ для sodiumcryptosecretbox
-    
-
+---
+navigation:
+  - function.sodium-crypto-scalarmult.html: « sodiumcryptoscalarmult
+  - function.sodium-crypto-secretbox-open.html: sodiumcryptosecretboxopen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosecretboxkeygen
+---
 # sodiumcryptosecretboxkeygen
 
 (PHP 7> = 7.2.0, PHP 8)

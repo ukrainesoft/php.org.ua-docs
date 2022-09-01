@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.pgsql.md)
-    
--   [Вимоги »](pgsql.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [PostgreSQL](book.pgsql.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.pgsql.md: « Введение
+  - pgsql.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.pgsql.md: PostgreSQL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Отримання результату асинхронного запиту
-
--   [« mysqli::realquery](mysqli.real-query.html)
-    
--   [mysqli::refresh »](mysqli.refresh.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Отримання результату асинхронного запиту
-    
-
+---
+navigation:
+  - mysqli.real-query.html: '« mysqli::realquery'
+  - mysqli.refresh.md: 'mysqli::refresh »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::reapasyncquery'
+---
 # mysqli::reapasyncquery
 
 # mysqlireapasyncquery

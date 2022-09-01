@@ -1,16 +1,11 @@
-Отримує інформацію про останні оновлені дані
-
--   [« rrdlast](function.rrd-last.html)
-    
--   [rrdrestore »](function.rrd-restore.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Отримує інформацію про останні оновлені дані
-    
-
+---
+navigation:
+  - function.rrd-last.html: « rrdlast
+  - function.rrd-restore.html: rrdrestore »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdlastupdate
+---
 # rrdlastupdate
 
 (PECL rrd >= 0.9.0)

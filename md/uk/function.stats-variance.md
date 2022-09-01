@@ -1,16 +1,11 @@
-Повертає дисперсію
-
--   [« statsstatpowersum](function.stats-stat-powersum.html)
-    
--   [Trader »](book.trader.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Повертає дисперсію
-    
-
+---
+navigation:
+  - function.stats-stat-powersum.html: « statsstatpowersum
+  - book.trader.md: Trader »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsvariance
+---
 # statsvariance
 
 (PECL stats >= 1.0.0)

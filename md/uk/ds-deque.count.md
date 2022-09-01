@@ -1,16 +1,11 @@
-Повертає кількість елементів двосторонньої черги
-
--   [« DsDeque::copy](ds-deque.copy.html)
-    
--   [ДсDeque::filter »](ds-deque.filter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає кількість елементів двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.copy.html: '« DsDeque::copy'
+  - ds-deque.filter.html: 'ДсDeque::filter »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::count'
+---
 # ДсDeque::count
 
 (PECL ds >= 1.0.0)

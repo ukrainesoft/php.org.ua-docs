@@ -1,16 +1,11 @@
-Повертає останнє значення двосторонньої черги
-
--   [« DsDeque::jsonSerialize](ds-deque.jsonserialize.html)
-    
--   [ДсDeque::map »](ds-deque.map.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає останнє значення двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.jsonserialize.html: '« DsDeque::jsonSerialize'
+  - ds-deque.map.html: 'ДсDeque::map »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::last'
+---
 # ДсDeque::last
 
 (PECL ds >= 1.0.0)

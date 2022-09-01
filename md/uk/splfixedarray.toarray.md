@@ -1,16 +1,11 @@
-Повертає звичайний PHP-масив зі значеннями фіксованого масиву
-
--   [« SplFixedArray::setSize](splfixedarray.setsize.md)
-    
--   [SplFixedArray::valid »](splfixedarray.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFixedArray](class.splfixedarray.md)
-    
--   Повертає звичайний PHP-масив зі значеннями фіксованого масиву
-    
-
+---
+navigation:
+  - splfixedarray.setsize.md: '« SplFixedArray::setSize'
+  - splfixedarray.valid.md: 'SplFixedArray::valid »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::toArray'
+---
 # SplFixedArray::toArray
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

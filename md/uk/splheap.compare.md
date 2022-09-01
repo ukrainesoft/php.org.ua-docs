@@ -1,16 +1,11 @@
-Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
-
--   [« SplHeap](class.splheap.html)
-    
--   [SplHeap::count »](splheap.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplHeap](class.splheap.html)
-    
--   Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
-    
-
+---
+navigation:
+  - class.splheap.html: « SplHeap
+  - splheap.count.html: 'SplHeap::count »'
+  - index.html: PHP Manual
+  - class.splheap.html: SplHeap
+title: 'SplHeap::compare'
+---
 # SplHeap::compare
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

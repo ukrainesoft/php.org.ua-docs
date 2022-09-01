@@ -1,16 +1,11 @@
-Створює жорстке посилання
-
--   [« lchown](function.lchown.html)
-    
--   [linkinfo »](function.linkinfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Створює жорстке посилання
-    
-
+---
+navigation:
+  - function.lchown.html: « lchown
+  - function.linkinfo.html: linkinfo »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: link
+---
 # link
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

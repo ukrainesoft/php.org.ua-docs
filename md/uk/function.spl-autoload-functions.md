@@ -1,16 +1,11 @@
-Отримання списку всіх зареєстрованих функцій autoload()
-
--   [« splautoloadextensions](function.spl-autoload-extensions.html)
-    
--   [splautoloadregister »](function.spl-autoload-register.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SPL](ref.spl.md)
-    
--   Отримання списку всіх зареєстрованих функцій autoload()
-    
-
+---
+navigation:
+  - function.spl-autoload-extensions.html: « splautoloadextensions
+  - function.spl-autoload-register.html: splautoloadregister »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: splautoloadфункцій
+---
 # splautoloadфункцій
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує значення $this генератора
-
--   [« ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md)
-    
--   [ReflectionGenerator::getTrace »](reflectiongenerator.gettrace.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionGenerator](class.reflectiongenerator.md)
-    
--   Отримує значення $this генератора
-    
-
+---
+navigation:
+  - reflectiongenerator.getfunction.md: '« ReflectionGenerator::getFunction'
+  - reflectiongenerator.gettrace.md: 'ReflectionGenerator::getTrace »'
+  - index.md: PHP Manual
+  - class.reflectiongenerator.md: ReflectionGenerator
+title: 'ReflectionGenerator::getThis'
+---
 # ReflectionGenerator::getThis
 
 (PHP 7, PHP 8)

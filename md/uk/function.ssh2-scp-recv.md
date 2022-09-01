@@ -1,16 +1,11 @@
-Запит файлу через SCP
-
--   [« ssh2publickeyremove](function.ssh2-publickey-remove.html)
-    
--   [ssh2scpsend »](function.ssh2-scp-send.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Запит файлу через SCP
-    
-
+---
+navigation:
+  - function.ssh2-publickey-remove.html: « ssh2publickeyremove
+  - function.ssh2-scp-send.html: ssh2scpsend »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2scprecv
+---
 # ssh2scprecv
 
 (PECL ssh2> = 0.9.0)

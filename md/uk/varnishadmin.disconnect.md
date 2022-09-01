@@ -1,16 +1,11 @@
-Відключення від інтерфейсу адміністрування екземпляра varnish
-
--   [« VarnishAdmin::construct](varnishadmin.construct.html)
-    
--   [VarnishAdmin::getPanic »](varnishadmin.getpanic.html)
-    
--   [PHP Manual](index.html)
-    
--   [VarnishAdmin](class.varnishadmin.html)
-    
--   Відключення від інтерфейсу адміністрування екземпляра varnish
-    
-
+---
+navigation:
+  - varnishadmin.construct.html: '« VarnishAdmin::construct'
+  - varnishadmin.getpanic.html: 'VarnishAdmin::getPanic »'
+  - index.html: PHP Manual
+  - class.varnishadmin.html: VarnishAdmin
+title: 'VarnishAdmin::disconnect'
+---
 # VarnishAdmin::disconnect
 
 (PECL varnish >= 1.0.0)

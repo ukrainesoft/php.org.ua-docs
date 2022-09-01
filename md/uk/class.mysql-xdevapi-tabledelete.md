@@ -1,16 +1,11 @@
-Клас TableDelete
-
--   [« Table::update](mysql-xdevapi-table.update.html)
-    
--   [TableDelete::bind »](mysql-xdevapi-tabledelete.bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас TableDelete
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.update.html: '« Table::update'
+  - mysql-xdevapi-tabledelete.bind.html: 'TableDelete::bind »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас TableDelete
+---
 # Клас TableDelete
 
 (PECL mysql-xdevapi >= 8.0.11)

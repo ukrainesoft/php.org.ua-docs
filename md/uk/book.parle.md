@@ -1,16 +1,11 @@
-Розбір та лексування
-
--   [« CommonMarkRenderXML](function.commonmark-render-xml.html)
-    
--   [Введение »](intro.parle.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка текста](refs.basic.text.html)
-    
--   Розбір та лексування
-    
-
+---
+navigation:
+  - function.commonmark-render-xml.html: « CommonMarkRenderXML
+  - intro.parle.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.text.html: Обработка текста
+title: Розбір та лексування
+---
 # Розбір та лексування
 
 -   [Введение](intro.parle.html)

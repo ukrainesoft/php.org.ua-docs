@@ -1,16 +1,11 @@
-Сканує буфер на наявність рядка
-
--   [« EventBuffer::readLine](eventbuffer.readline.html)
-    
--   [EventBuffer::searchEol »](eventbuffer.searcheol.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Сканує буфер на наявність рядка
-    
-
+---
+navigation:
+  - eventbuffer.readline.html: '« EventBuffer::readLine'
+  - eventbuffer.searcheol.html: 'EventBuffer::searchEol »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::search'
+---
 # EventBuffer::search
 
 (PECL event >= 1.2.6-beta)

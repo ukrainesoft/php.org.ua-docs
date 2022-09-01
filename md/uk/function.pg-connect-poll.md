@@ -1,16 +1,11 @@
-Опитати статус спроби з'єднання PostgreSQL.
-
--   [« pgclose](function.pg-close.html)
-    
--   [пгconnect »](function.pg-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Опитати статус спроби з'єднання PostgreSQL.
-    
-
+---
+navigation:
+  - function.pg-close.html: « pgclose
+  - function.pg-connect.html: пгconnect »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгconnectpoll
+---
 # пгconnectpoll
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -37,6 +32,6 @@ pg_connect_poll(PgSql\Connection $connection): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

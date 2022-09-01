@@ -1,16 +1,11 @@
-Створює новий екземпляр
-
--   [« DsDeque::clear](ds-deque.clear.html)
-    
--   [ДсDeque::contains »](ds-deque.contains.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Створює новий екземпляр
-    
-
+---
+navigation:
+  - ds-deque.clear.html: '« DsDeque::clear'
+  - ds-deque.contains.html: 'ДсDeque::contains »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::construct'
+---
 # ДсDeque::construct
 
 (PECL ds >= 1.0.0)

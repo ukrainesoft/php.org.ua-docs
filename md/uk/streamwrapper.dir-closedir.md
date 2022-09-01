@@ -1,16 +1,11 @@
-Закрити дескриптор директорії
-
--   [« streamWrapper::destruct](streamwrapper.destruct.md)
-    
--   [streamWrapper::diropendir »](streamwrapper.dir-opendir.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Закрити дескриптор директорії
-    
-
+---
+navigation:
+  - streamwrapper.destruct.md: '« streamWrapper::destruct'
+  - streamwrapper.dir-opendir.html: 'streamWrapper::diropendir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::dirclosedir'
+---
 # streamWrapper::dirclosedir
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

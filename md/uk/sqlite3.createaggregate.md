@@ -1,16 +1,11 @@
-Зареєструвати функцію PHP як агрегуючу функцію SQL
-
--   [« SQLite3::construct](sqlite3.construct.md)
-    
--   [SQLite3::createCollation »](sqlite3.createcollation.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Зареєструвати функцію PHP як агрегуючу функцію SQL
-    
-
+---
+navigation:
+  - sqlite3.construct.md: '« SQLite3::construct'
+  - sqlite3.createcollation.md: 'SQLite3::createCollation »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::createAggregate'
+---
 # SQLite3::createAggregate
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

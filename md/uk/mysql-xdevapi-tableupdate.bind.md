@@ -1,16 +1,11 @@
-Прив'язує параметри запиту на оновлення
-
--   [« mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   [TableUpdate::construct »](mysql-xdevapi-tableupdate.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   Прив'язує параметри запиту на оновлення
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-tableupdate.html: « mysqlxdevapiTableUpdate
+  - mysql-xdevapi-tableupdate.construct.html: 'TableUpdate::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+title: 'TableUpdate::bind'
+---
 # TableUpdate::bind
 
 (No version information available, might only be in Git)

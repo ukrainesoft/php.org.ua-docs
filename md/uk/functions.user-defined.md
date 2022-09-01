@@ -1,16 +1,11 @@
-Функції, визначені користувачем
-
--   [« Функції](language.functions.md)
-    
--   [Аргументи функції »](functions.arguments.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції](language.functions.md)
-    
--   Функції, визначені користувачем
-    
-
+---
+navigation:
+  - language.functions.md: « Функції
+  - functions.arguments.md: Аргументи функції »
+  - index.md: PHP Manual
+  - language.functions.md: Функції
+title: 'Функції, визначені користувачем'
+---
 ## Функції, визначені користувачем
 
 Наведемо приклад синтаксису, який використовується для опису функцій:

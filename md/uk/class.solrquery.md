@@ -1,16 +1,11 @@
-Клас SolrQuery
-
--   [« SolrModifiableParams::destruct](solrmodifiableparams.destruct.md)
-    
--   [SolrQuery::addExpandFilterQuery »](solrquery.addexpandfilterquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrQuery
-    
-
+---
+navigation:
+  - solrmodifiableparams.destruct.md: '« SolrModifiableParams::destruct'
+  - solrquery.addexpandfilterquery.md: 'SolrQuery::addExpandFilterQuery »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrQuery
+---
 # Клас SolrQuery
 
 (PECL solr> = 0.9.2)

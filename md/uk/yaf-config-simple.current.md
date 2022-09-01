@@ -1,16 +1,11 @@
-Призначення current
-
--   [« YafConfigSimple::count](yaf-config-simple.count.html)
-    
--   [YafConfigSimple::get »](yaf-config-simple.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Призначення current
-    
-
+---
+navigation:
+  - yaf-config-simple.count.html: '« YafConfigSimple::count'
+  - yaf-config-simple.get.html: 'YafConfigSimple::get »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::current'
+---
 # YafConfigSimple::current
 
 (Yaf >=1.0.0)

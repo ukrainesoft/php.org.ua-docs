@@ -1,16 +1,11 @@
-Повертає інформацію про поточний статус збирача сміття
-
--   [« gcmemcaches](function.gc-mem-caches.html)
-    
--   [getcfgvar »](function.get-cfg-var.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає інформацію про поточний статус збирача сміття
-    
-
+---
+navigation:
+  - function.gc-mem-caches.html: « gcmemcaches
+  - function.get-cfg-var.html: getcfgvar »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: гкstatus
+---
 # гкstatus
 
 (PHP 7> = 7.3.0, PHP 8)

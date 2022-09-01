@@ -1,16 +1,11 @@
-Повертає список переданих заголовків (або готових до відправлення)
-
--   [« header](function.header.md)
-    
--   [headerssent »](function.headers-sent.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Повертає список переданих заголовків (або готових до відправлення)
-    
-
+---
+navigation:
+  - function.header.md: « header
+  - function.headers-sent.html: headerssent »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: headerslist
+---
 # headerslist
 
 (PHP 5, PHP 7, PHP 8)

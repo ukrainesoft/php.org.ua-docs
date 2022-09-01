@@ -1,16 +1,11 @@
-Виводить інформацію про змінну
-
--   [« unset](function.unset.md)
-    
--   [varexport »](function.var-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Виводить інформацію про змінну
-    
-
+---
+navigation:
+  - function.unset.md: « unset
+  - function.var-export.html: varexport »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: vardump
+---
 # vardump
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

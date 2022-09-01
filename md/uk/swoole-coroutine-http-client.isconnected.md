@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineHttpClient::getDefer](swoole-coroutine-http-client.getdefer.html)
-    
--   [SwooleCoroutineHttpClient::post »](swoole-coroutine-http-client.post.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-http-client.getdefer.html: '« SwooleCoroutineHttpClient::getDefer'
+  - swoole-coroutine-http-client.post.html: 'SwooleCoroutineHttpClient::post »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::isConnected'
+---
 # SwooleCoroutineHttpClient::isConnected
 
 (PECL swoole >= 2.0.0)

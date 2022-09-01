@@ -1,16 +1,11 @@
-Callback-функція за промовчанням для "from"
-
--   [« UConverter::convert](uconverter.convert.html)
-    
--   [UConverter::getAliases »](uconverter.getaliases.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Callback-функція за промовчанням для "from"
-    
-
+---
+navigation:
+  - uconverter.convert.html: '« UConverter::convert'
+  - uconverter.getaliases.html: 'UConverter::getAliases »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::fromUCallback'
+---
 # UConverter::fromUCallback
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

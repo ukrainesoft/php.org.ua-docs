@@ -1,16 +1,11 @@
-Повертає кількість елементів черги
-
--   [« DsQueue::copy](ds-queue.copy.html)
-    
--   [ДсQueue::isEmpty »](ds-queue.isempty.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга](class.ds-queue.html)
-    
--   Повертає кількість елементів черги
-    
-
+---
+navigation:
+  - ds-queue.copy.html: '« DsQueue::copy'
+  - ds-queue.isempty.html: 'ДсQueue::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::count'
+---
 # ДсQueue::count
 
 (PECL ds >= 1.0.0)

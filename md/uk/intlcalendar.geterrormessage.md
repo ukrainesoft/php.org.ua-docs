@@ -1,16 +1,11 @@
-Отримує останнє повідомлення про помилку для об'єкта
-
--   [« IntlCalendar::getErrorCode](intlcalendar.geterrorcode.md)
-    
--   [IntlCalendar::getFirstDayOfWeek »](intlcalendar.getfirstdayofweek.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує останнє повідомлення про помилку для об'єкта
-    
-
+---
+navigation:
+  - intlcalendar.geterrorcode.md: '« IntlCalendar::getErrorCode'
+  - intlcalendar.getfirstdayofweek.md: 'IntlCalendar::getFirstDayOfWeek »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getErrorMessage'
+---
 # IntlCalendar::getErrorMessage
 
 # intlcalgeterrormessage

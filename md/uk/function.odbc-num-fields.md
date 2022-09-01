@@ -1,16 +1,11 @@
-Повертає кількість стовпців у результаті
-
--   [« odbcnextresult](function.odbc-next-result.html)
-    
--   [odbcnumrows »](function.odbc-num-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає кількість стовпців у результаті
-    
-
+---
+navigation:
+  - function.odbc-next-result.html: « odbcnextresult
+  - function.odbc-num-rows.html: odbcnumrows »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcnumfields
+---
 # odbcnumfields
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

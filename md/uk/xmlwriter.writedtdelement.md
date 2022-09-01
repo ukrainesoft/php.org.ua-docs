@@ -1,16 +1,11 @@
-Записати повний тег елемента DTD
-
--   [« XMLWriter::writeDtdAttlist](xmlwriter.writedtdattlist.md)
-    
--   [XMLWriter::writeDtdEntity »](xmlwriter.writedtdentity.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Записати повний тег елемента DTD
-    
-
+---
+navigation:
+  - xmlwriter.writedtdattlist.md: '« XMLWriter::writeDtdAttlist'
+  - xmlwriter.writedtdentity.md: 'XMLWriter::writeDtdEntity »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::writeDtdElement'
+---
 # XMLWriter::writeDtdElement
 
 # xmlwriterwritedtdelement
@@ -55,9 +50,9 @@ xmlwriter_write_dtd_element(XMLWriter $writer, string $name, string $content): b
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

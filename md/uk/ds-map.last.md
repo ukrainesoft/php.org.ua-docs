@@ -1,16 +1,11 @@
-Повертає останню пару колекції
-
--   [« DsMap::ksorted](ds-map.ksorted.html)
-    
--   [ДсMap::map »](ds-map.map.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає останню пару колекції
-    
-
+---
+navigation:
+  - ds-map.ksorted.html: '« DsMap::ksorted'
+  - ds-map.map.html: 'ДсMap::map »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::last'
+---
 # ДсMap::last
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Оновлює файл бази даних RRD
-
--   [« RRDUpdater::construct](rrdupdater.construct.html)
-    
--   [ScoutAPM »](book.scoutapm.html)
-    
--   [PHP Manual](index.html)
-    
--   [RRDUpdater](class.rrdupdater.html)
-    
--   Оновлює файл бази даних RRD
-    
-
+---
+navigation:
+  - rrdupdater.construct.html: '« RRDUpdater::construct'
+  - book.scoutapm.html: ScoutAPM »
+  - index.html: PHP Manual
+  - class.rrdupdater.html: RRDUpdater
+title: 'RRDUpdater::update'
+---
 # RRDUpdater::update
 
 (PECL rrd >= 0.9.0)

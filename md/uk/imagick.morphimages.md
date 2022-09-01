@@ -1,16 +1,11 @@
-Перетворює набір зображень
-
--   [« Imagick::montageImage](imagick.montageimage.md)
-    
--   [Imagick::morphology »](imagick.morphology.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перетворює набір зображень
-    
-
+---
+navigation:
+  - imagick.montageimage.md: '« Imagick::montageImage'
+  - imagick.morphology.md: 'Imagick::morphology »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::morphImages'
+---
 # Imagick::morphImages
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Встановлює callback-функцію для вказаного URI
-
--   [« EventHttp::setAllowedMethods](eventhttp.setallowedmethods.md)
-    
--   [EventHttp::setDefaultCallback »](eventhttp.setdefaultcallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Встановлює callback-функцію для вказаного URI
-    
-
+---
+navigation:
+  - eventhttp.setallowedmethods.md: '« EventHttp::setAllowedMethods'
+  - eventhttp.setdefaultcallback.md: 'EventHttp::setDefaultCallback »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::setCallback'
+---
 # EventHttp::setCallback
 
 (PECL event >= 1.4.0-beta)

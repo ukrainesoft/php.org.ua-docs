@@ -1,16 +1,11 @@
-Повертає текстовий опис шифру
-
--   [« EventBufferEvent::sslFilter](eventbufferevent.sslfilter.md)
-    
--   [EventBufferEvent::sslGetCipherName »](eventbufferevent.sslgetciphername.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Повертає текстовий опис шифру
-    
-
+---
+navigation:
+  - eventbufferevent.sslfilter.md: '« EventBufferEvent::sslFilter'
+  - eventbufferevent.sslgetciphername.md: 'EventBufferEvent::sslGetCipherName »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::sslGetCipherInfo'
+---
 # EventBufferEvent::sslGetCipherInfo
 
 (PECL event >= 1.10.0)

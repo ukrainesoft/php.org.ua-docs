@@ -1,16 +1,11 @@
-Гіперболічний арктангенс
-
--   [« atan](function.atan.md)
-    
--   [baseconvert »](function.base-convert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Гіперболічний арктангенс
-    
-
+---
+navigation:
+  - function.atan.md: « atan
+  - function.base-convert.html: baseconvert »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: atanh
+---
 # atanh
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

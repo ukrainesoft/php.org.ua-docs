@@ -1,16 +1,11 @@
-Перевіряє, чи існує атрибут
-
--   [« DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.html)
-    
--   [DOMElement::hasAttributeNS »](domelement.hasattributens.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMElement](class.domelement.html)
-    
--   Перевіряє, чи існує атрибут
-    
-
+---
+navigation:
+  - domelement.getelementsbytagnamens.html: '« DOMElement::getElementsByTagNameNS'
+  - domelement.hasattributens.html: 'DOMElement::hasAttributeNS »'
+  - index.html: PHP Manual
+  - class.domelement.html: DOMElement
+title: 'DOMElement::hasAttribute'
+---
 # DOMElement::hasAttribute
 
 (PHP 5, PHP 7, PHP 8)

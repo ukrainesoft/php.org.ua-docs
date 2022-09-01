@@ -1,16 +1,11 @@
-Визначення, чи відомо серверу про це завдання
-
--   [« GearmanTask::functionName](gearmantask.functionname.html)
-    
--   [GearmanTask::isRunning »](gearmantask.isrunning.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanTask](class.gearmantask.html)
-    
--   Визначення, чи відомо серверу про це завдання
-    
-
+---
+navigation:
+  - gearmantask.functionname.html: '« GearmanTask::functionName'
+  - gearmantask.isrunning.html: 'GearmanTask::isRunning »'
+  - index.html: PHP Manual
+  - class.gearmantask.html: GearmanTask
+title: 'GearmanTask::isKnown'
+---
 # GearmanTask::isKnown
 
 (PECL gearman >= 0.5.0)

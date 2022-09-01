@@ -1,16 +1,11 @@
-Клас SolrResponse
-
--   [« SolrClient::threads](solrclient.threads.html)
-    
--   [SolrResponse::getDigestedResponse »](solrresponse.getdigestedresponse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Клас SolrResponse
-    
-
+---
+navigation:
+  - solrclient.threads.html: '« SolrClient::threads'
+  - solrresponse.getdigestedresponse.html: 'SolrResponse::getDigestedResponse »'
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Клас SolrResponse
+---
 # Клас SolrResponse
 
 (PECL solr> = 0.9.2)

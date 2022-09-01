@@ -1,16 +1,11 @@
-Встановлює cookie HTTP-відповіді
-
--   [« SwooleHttpResponse](class.swoole-http-response.html)
-    
--   [SwooleHttpResponse::destruct »](swoole-http-response.destruct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Встановлює cookie HTTP-відповіді
-    
-
+---
+navigation:
+  - class.swoole-http-response.html: « SwooleHttpResponse
+  - swoole-http-response.destruct.html: 'SwooleHttpResponse::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::cookie'
+---
 # SwooleHttpResponse::cookie
 
 (PECL swoole >= 1.9.0)

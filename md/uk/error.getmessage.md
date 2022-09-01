@@ -1,16 +1,11 @@
-Отримує повідомлення про помилку
-
--   [« Error::construct](error.construct.md)
-    
--   [Error::getPrevious »](error.getprevious.md)
-    
--   [PHP Manual](index.md)
-    
--   [Error](class.error.md)
-    
--   Отримує повідомлення про помилку
-    
-
+---
+navigation:
+  - error.construct.md: '« Error::construct'
+  - error.getprevious.md: 'Error::getPrevious »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getMessage'
+---
 # Error::getMessage
 
 (PHP 7, PHP 8)

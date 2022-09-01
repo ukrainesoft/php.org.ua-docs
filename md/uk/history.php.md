@@ -1,16 +1,11 @@
-Історія PHP
-
--   [« Історія PHP та суміжних проектів](history.html)
-    
--   [Історія суміжних з PHP проектів](history.php.related.html)
-    
--   [PHP Manual](index.html)
-    
--   [Історія PHP та суміжних проектів](history.html)
-    
--   Історія PHP
-    
-
+---
+navigation:
+  - history.html: « Історія PHP та суміжних проектів
+  - history.php.related.html: Історія суміжних з PHP проектів
+  - index.html: PHP Manual
+  - history.html: Історія PHP та суміжних проектів
+title: Історія PHP
+---
 ## Історія PHP
 
 ### PHP Tools, FI, Construction Kit та PHP/FI

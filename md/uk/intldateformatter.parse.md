@@ -1,16 +1,11 @@
-Перетворює рядок на значення позначки часу
-
--   [« IntlDateFormatter::localtime](intldateformatter.localtime.html)
-    
--   [IntlDateFormatter::setCalendar »](intldateformatter.setcalendar.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Перетворює рядок на значення позначки часу
-    
-
+---
+navigation:
+  - intldateformatter.localtime.html: '« IntlDateFormatter::localtime'
+  - intldateformatter.setcalendar.html: 'IntlDateFormatter::setCalendar »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::parse'
+---
 # IntlDateFormatter::parse
 
 # datefmtparse

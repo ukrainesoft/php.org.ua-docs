@@ -1,16 +1,11 @@
-Запускає процес
-
--   [« SwooleProcess::signal](swoole-process.signal.html)
-    
--   [SwooleProcess::statQueue »](swoole-process.statqueue.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Запускає процес
-    
-
+---
+navigation:
+  - swoole-process.signal.html: '« SwooleProcess::signal'
+  - swoole-process.statqueue.html: 'SwooleProcess::statQueue »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::start'
+---
 # SwooleProcess::start
 
 (PECL swoole >= 1.9.0)

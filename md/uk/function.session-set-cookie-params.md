@@ -1,16 +1,11 @@
-Встановлює параметри сесійної cookie
-
--   [« sessionsavepath](function.session-save-path.html)
-    
--   [sessionsetsavehandler »](function.session-set-save-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Встановлює параметри сесійної cookie
-    
-
+---
+navigation:
+  - function.session-save-path.html: « sessionsavepath
+  - function.session-set-save-handler.html: sessionsetsavehandler »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionsetcookieparams
+---
 # sessionsetcookieparams
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -67,11 +62,11 @@ session_set_cookie_params(array $options): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `path` `domain` `secure` і `httponly` тепер можуть бути **`null`**                                                                              |
-|        | Додано альтернативний підпис, що підтримує масив опцій `lifetime_or_options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
-|        | Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Раніше повертала тип void.                            |
+| Версия | Описание |
+| --- | --- |
+|  | `path` `domain` `secure` і `httponly` тепер можуть бути **`null`** |
+|  | Додано альтернативний підпис, що підтримує масив опцій `lifetime_or_options`. Цей підпис також підтримує налаштування cookie-атрибута SameSite. |
+|  | Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Раніше повертала тип void. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Gmagick
-
--   [« GdFont](class.gdfont.md)
-    
--   [Введение »](intro.gmagick.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка и генерация изображений](refs.utilspec.image.md)
-    
--   Gmagick
-    
-
+---
+navigation:
+  - class.gdfont.md: « GdFont
+  - intro.gmagick.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.image.md: Обработка и генерация изображений
+title: Gmagick
+---
 # Gmagick
 
 -   [Введение](intro.gmagick.md)

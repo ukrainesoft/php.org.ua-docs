@@ -1,16 +1,11 @@
-Надсилає сигнал дочірньому процесу
-
--   [« SwooleProcess::freeQueue](swoole-process.freequeue.html)
-    
--   [SwooleProcess::name »](swoole-process.name.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Надсилає сигнал дочірньому процесу
-    
-
+---
+navigation:
+  - swoole-process.freequeue.html: '« SwooleProcess::freeQueue'
+  - swoole-process.name.html: 'SwooleProcess::name »'
+  - index.html: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::kill'
+---
 # SwooleProcess::kill
 
 (PECL swoole >= 1.9.0)

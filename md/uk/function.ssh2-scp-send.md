@@ -1,16 +1,11 @@
-Надсилання файлу через SCP
-
--   [« ssh2scprecv](function.ssh2-scp-recv.html)
-    
--   [ssh2sendeof »](function.ssh2-send-eof.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Надсилання файлу через SCP
-    
-
+---
+navigation:
+  - function.ssh2-scp-recv.html: « ssh2scprecv
+  - function.ssh2-send-eof.html: ssh2sendeof »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2scpsend
+---
 # ssh2scpsend
 
 (PECL ssh2> = 0.9.0)

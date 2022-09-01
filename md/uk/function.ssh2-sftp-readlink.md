@@ -1,16 +1,11 @@
-Повертає об'єкт за символічним посиланням
-
--   [« ssh2sftpmkdir](function.ssh2-sftp-mkdir.html)
-    
--   [ssh2sftprealpath »](function.ssh2-sftp-realpath.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Повертає об'єкт за символічним посиланням
-    
-
+---
+navigation:
+  - function.ssh2-sftp-mkdir.html: « ssh2sftpmkdir
+  - function.ssh2-sftp-realpath.html: ssh2sftprealpath »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftpreadlink
+---
 # ssh2sftpreadlink
 
 (PECL ssh2> = 0.9.0)

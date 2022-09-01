@@ -1,16 +1,11 @@
-Робота з об'єктно-орієнтованим API
-
--   [Робота з просторами імен XML](example.xmlwriter-namespace.html)
-    
--   [XMLWriter »](class.xmlwriter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](xmlwriter.examples.html)
-    
--   Робота з об'єктно-орієнтованим API
-    
-
+---
+navigation:
+  - example.xmlwriter-namespace.html: Робота з просторами імен XML
+  - class.xmlwriter.html: XMLWriter »
+  - index.html: PHP Manual
+  - xmlwriter.examples.html: Приклади
+title: Робота з об'єктно-орієнтованим API
+---
 ## Робота з об'єктно-орієнтованим API
 
 У цьому прикладі демонструється робота з об'єктно-орієнтованим API XMLWriter.

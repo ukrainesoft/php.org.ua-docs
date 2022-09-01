@@ -1,16 +1,11 @@
-Отримати значення t для двовибіркового t-критерію Стьюдента для незалежних вибірок
-
--   [« statsstatfactorial](function.stats-stat-factorial.html)
-    
--   [statsstatinnerproduct »](function.stats-stat-innerproduct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Отримати значення t для двовибіркового t-критерію Стьюдента для незалежних вибірок
-    
-
+---
+navigation:
+  - function.stats-stat-factorial.html: « statsstatfactorial
+  - function.stats-stat-innerproduct.html: statsstatinnerproduct »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsстатиindependentт
+---
 # statsстатиindependentт
 
 (PECL stats >= 1.0.0)

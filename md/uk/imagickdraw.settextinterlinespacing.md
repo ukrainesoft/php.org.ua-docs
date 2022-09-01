@@ -1,16 +1,11 @@
-Встановлює міжрядковий інтервал тексту
-
--   [« ImagickDraw::setTextEncoding](imagickdraw.settextencoding.html)
-    
--   [ImagickDraw::setTextInterwordSpacing »](imagickdraw.settextinterwordspacing.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює міжрядковий інтервал тексту
-    
-
+---
+navigation:
+  - imagickdraw.settextencoding.html: '« ImagickDraw::setTextEncoding'
+  - imagickdraw.settextinterwordspacing.html: 'ImagickDraw::setTextInterwordSpacing »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setTextInterlineSpacing'
+---
 # ImagickDraw::setTextInterlineSpacing
 
 (PECL imagick 3> = 3.1.0)

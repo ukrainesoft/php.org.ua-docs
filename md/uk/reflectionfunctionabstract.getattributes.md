@@ -1,16 +1,11 @@
-Отримує атрибути
-
--   [« ReflectionFunctionAbstract::clone](reflectionfunctionabstract.clone.md)
-    
--   [ReflectionFunctionAbstract::getClosureScopeClass »](reflectionfunctionabstract.getclosurescopeclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Отримує атрибути
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.clone.md: '« ReflectionFunctionAbstract::clone'
+  - reflectionfunctionabstract.getclosurescopeclass.md: 'ReflectionFunctionAbstract::getClosureScopeClass »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getAttributes'
+---
 # ReflectionFunctionAbstract::getAttributes
 
 (PHP 8)

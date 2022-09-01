@@ -1,16 +1,11 @@
-Клас MongoDBBSONTimestamp
-
--   [« MongoDBBSONRegex::unserialize](mongodb-bson-regex.unserialize.html)
-    
--   [MongoDBBSONTimestamp::construct »](mongodb-bson-timestamp.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONTimestamp
-    
-
+---
+navigation:
+  - mongodb-bson-regex.unserialize.html: '« MongoDBBSONRegex::unserialize'
+  - mongodb-bson-timestamp.construct.html: 'MongoDBBSONTimestamp::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONTimestamp
+---
 # Клас MongoDBBSONTimestamp
 
 (mongodb >=1.0.0)
@@ -52,11 +47,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                                                                  |
-|---------------------|-----------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+.                                        |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html)            |
-| PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.html) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 

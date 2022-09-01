@@ -1,16 +1,11 @@
-Зв'язує іменований контур відсічного контуру із зображенням
-
--   [« ImagickDraw::scale](imagickdraw.scale.md)
-    
--   [ImagickDraw::setClipRule »](imagickdraw.setcliprule.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Зв'язує іменований контур відсічного контуру із зображенням
-    
-
+---
+navigation:
+  - imagickdraw.scale.md: '« ImagickDraw::scale'
+  - imagickdraw.setcliprule.md: 'ImagickDraw::setClipRule »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setClipPath'
+---
 # ImagickDraw::setClipPath
 
 (PECL imagick 2, PECL imagick 3)

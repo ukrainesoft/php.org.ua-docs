@@ -1,16 +1,11 @@
-Звільняє ресурси, які займає курсор або SQL-вираз.
-
--   [« ocifreedescriptor](function.oci-free-descriptor.html)
-    
--   [ocigetimplicitresultset »](function.oci-get-implicit-resultset.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Звільняє ресурси, які займає курсор або SQL-вираз.
-    
-
+---
+navigation:
+  - function.oci-free-descriptor.html: « ocifreedescriptor
+  - function.oci-get-implicit-resultset.html: ocigetimplicitresultset »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifreestatement
+---
 # ocifreestatement
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

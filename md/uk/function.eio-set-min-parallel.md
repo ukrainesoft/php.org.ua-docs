@@ -1,16 +1,11 @@
-Встановлює мінімальну кількість паралельних потоків
-
--   [« eiosetmaxpolltime](function.eio-set-max-poll-time.html)
-    
--   [eiostat »](function.eio-stat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Встановлює мінімальну кількість паралельних потоків
-    
-
+---
+navigation:
+  - function.eio-set-max-poll-time.html: « eiosetmaxpolltime
+  - function.eio-stat.html: eiostat »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiosetminparallel
+---
 # eiosetminparallel
 
 (PECL eio >= 0.0.1dev)

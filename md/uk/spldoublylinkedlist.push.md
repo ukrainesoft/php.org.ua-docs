@@ -1,16 +1,11 @@
-Поміщає елемент до кінця двозв'язкового списку
-
--   [« SplDoublyLinkedList::prev](spldoublylinkedlist.prev.md)
-    
--   [SplDoublyLinkedList::rewind »](spldoublylinkedlist.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Поміщає елемент до кінця двозв'язкового списку
-    
-
+---
+navigation:
+  - spldoublylinkedlist.prev.md: '« SplDoublyLinkedList::prev'
+  - spldoublylinkedlist.rewind.md: 'SplDoublyLinkedList::rewind »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::push'
+---
 # SplDoublyLinkedList::push
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

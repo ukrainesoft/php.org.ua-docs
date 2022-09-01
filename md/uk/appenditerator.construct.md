@@ -1,16 +1,11 @@
-Створює AppendIterator
-
--   [« AppendIterator::append](appenditerator.append.html)
-    
--   [AppendIterator::current »](appenditerator.current.html)
-    
--   [PHP Manual](index.html)
-    
--   [AppendIterator](class.appenditerator.html)
-    
--   Створює AppendIterator
-    
-
+---
+navigation:
+  - appenditerator.append.html: '« AppendIterator::append'
+  - appenditerator.current.html: 'AppendIterator::current »'
+  - index.html: PHP Manual
+  - class.appenditerator.html: AppendIterator
+title: 'AppendIterator::construct'
+---
 # AppendIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

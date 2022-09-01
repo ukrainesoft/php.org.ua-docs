@@ -1,16 +1,11 @@
-Завершити процес, відкритий procopen та повернути код повернення цього процесу
-
--   [« passthru](function.passthru.html)
-    
--   [procgetstatus »](function.proc-get-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции запуска программ](ref.exec.html)
-    
--   Завершити процес, відкритий procopen та повернути код повернення цього процесу
-    
-
+---
+navigation:
+  - function.passthru.html: « passthru
+  - function.proc-get-status.html: procgetstatus »
+  - index.html: PHP Manual
+  - ref.exec.html: Функции запуска программ
+title: procclose
+---
 # procclose
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

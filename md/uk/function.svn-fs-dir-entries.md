@@ -1,16 +1,11 @@
-Перераховує елементи директорії заданим шляхом; повертає хеш імен директорій та типів файлів
-
--   [« svnфсdelete](function.svn-fs-delete.html)
-    
--   [svnфсfilecontents »](function.svn-fs-file-contents.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Перераховує елементи директорії заданим шляхом; повертає хеш імен директорій та типів файлів
-    
-
+---
+navigation:
+  - function.svn-fs-delete.html: « svnфсdelete
+  - function.svn-fs-file-contents.html: svnфсfilecontents »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnфсdirentries
+---
 # svnфсdirentries
 
 (PECL svn >= 0.1.0)

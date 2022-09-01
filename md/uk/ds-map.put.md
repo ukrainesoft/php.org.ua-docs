@@ -1,16 +1,11 @@
-Встановлення значення за заданим ключем
-
--   [« DsMap::pairs](ds-map.pairs.html)
-    
--   [ДсMap::putAll »](ds-map.putall.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Встановлення значення за заданим ключем
-    
-
+---
+navigation:
+  - ds-map.pairs.html: '« DsMap::pairs'
+  - ds-map.putall.html: 'ДсMap::putAll »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::put'
+---
 # ДсMap::put
 
 (PECL ds >= 1.0.0)

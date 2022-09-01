@@ -1,16 +1,11 @@
-Видаляє всі значення
-
--   [« DsQueue::capacity](ds-queue.capacity.html)
-    
--   [ДсQueue::construct »](ds-queue.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Видаляє всі значення
-    
-
+---
+navigation:
+  - ds-queue.capacity.html: '« DsQueue::capacity'
+  - ds-queue.construct.html: 'ДсQueue::construct »'
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::clear'
+---
 # ДсQueue::clear
 
 (PECL ds >= 1.0.0)

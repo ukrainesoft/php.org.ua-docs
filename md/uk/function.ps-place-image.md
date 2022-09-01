@@ -1,16 +1,11 @@
-Розміщує зображення на сторінці
-
--   [«psopenmemoryimage](function.ps-open-memory-image.html)
-    
--   [псrect »](function.ps-rect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Розміщує зображення на сторінці
-    
-
+---
+navigation:
+  - function.ps-open-memory-image.html: «psopenmemoryimage
+  - function.ps-rect.html: псrect »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псplaceimage
+---
 # псplaceimage
 
 (PECL ps >= 1.1.0)

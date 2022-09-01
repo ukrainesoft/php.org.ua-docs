@@ -1,16 +1,11 @@
-Задає режим вилучення вузлів
-
--   [« SplPriorityQueue::rewind](splpriorityqueue.rewind.md)
-    
--   [SplPriorityQueue::top »](splpriorityqueue.top.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplPriorityQueue](class.splpriorityqueue.md)
-    
--   Задає режим вилучення вузлів
-    
-
+---
+navigation:
+  - splpriorityqueue.rewind.md: '« SplPriorityQueue::rewind'
+  - splpriorityqueue.top.md: 'SplPriorityQueue::top »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::setExtractFlags'
+---
 # SplPriorityQueue::setExtractFlags
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

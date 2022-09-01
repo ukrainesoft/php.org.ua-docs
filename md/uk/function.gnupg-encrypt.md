@@ -1,16 +1,11 @@
-Шифрує заданий текст
-
--   [« gnupgdeletekey](function.gnupg-deletekey.html)
-    
--   [gnupgencryptsign »](function.gnupg-encryptsign.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Шифрує заданий текст
-    
-
+---
+navigation:
+  - function.gnupg-deletekey.html: « gnupgdeletekey
+  - function.gnupg-encryptsign.html: gnupgencryptsign »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgencrypt
+---
 # gnupgencrypt
 
 (PECL gnupg >= 0.1)

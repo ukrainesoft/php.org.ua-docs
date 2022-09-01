@@ -1,16 +1,11 @@
-Згенерувати підпис заголовка OAuth
-
--   [« OAuth::getLastResponseInfo](oauth.getlastresponseinfo.html)
-    
--   [OAuth::getRequestToken »](oauth.getrequesttoken.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Згенерувати підпис заголовка OAuth
-    
-
+---
+navigation:
+  - oauth.getlastresponseinfo.html: '« OAuth::getLastResponseInfo'
+  - oauth.getrequesttoken.html: 'OAuth::getRequestToken »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::getRequestHeader'
+---
 # OAuth::getRequestHeader
 
 (No version information available, might only be in Git)

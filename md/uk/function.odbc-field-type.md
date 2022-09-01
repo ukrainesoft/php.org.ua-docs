@@ -1,16 +1,11 @@
-Повертає тип даних поля
-
--   [« odbcfieldscale](function.odbc-field-scale.html)
-    
--   [odbcforeignkeys »](function.odbc-foreignkeys.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Повертає тип даних поля
-    
-
+---
+navigation:
+  - function.odbc-field-scale.html: « odbcfieldscale
+  - function.odbc-foreignkeys.html: odbcforeignkeys »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcfieldtype
+---
 # odbcfieldtype
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

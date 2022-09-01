@@ -1,16 +1,11 @@
-Створює новий ObjectId
-
--   [« MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
-    
--   [MongoDBBSONObjectId::getTimestamp »](mongodb-bson-objectid.gettimestamp.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
-    
--   Створює новий ObjectId
-    
-
+---
+navigation:
+  - class.mongodb-bson-objectid.html: « MongoDBBSONObjectId
+  - mongodb-bson-objectid.gettimestamp.html: 'MongoDBBSONObjectId::getTimestamp »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::construct'
+---
 # MongoDBBSONObjectId::construct
 
 (mongodb >=1.0.0)

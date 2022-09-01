@@ -1,16 +1,11 @@
-Інтерфейс ArrayAccess
-
--   [« Throwable::toString](throwable.tostring.html)
-    
--   [ArrayAccess::offsetExists »](arrayaccess.offsetexists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   Інтерфейс ArrayAccess
-    
-
+---
+navigation:
+  - throwable.tostring.html: '« Throwable::toString'
+  - arrayaccess.offsetexists.html: 'ArrayAccess::offsetExists »'
+  - index.html: PHP Manual
+  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+title: Інтерфейс ArrayAccess
+---
 # Інтерфейс ArrayAccess
 
 (PHP 5, PHP 7, PHP 8)

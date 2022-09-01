@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.recode.html)
-    
--   [Вимоги »](recode.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Recode](book.recode.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.recode.html: « Введение
+  - recode.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.recode.html: Recode
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

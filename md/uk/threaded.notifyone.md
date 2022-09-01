@@ -1,16 +1,11 @@
-Синхронізація
-
--   [« Threaded::notify](threaded.notify.html)
-    
--   [Threaded::pop »](threaded.pop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Threaded](class.threaded.html)
-    
--   Синхронізація
-    
-
+---
+navigation:
+  - threaded.notify.html: '« Threaded::notify'
+  - threaded.pop.html: 'Threaded::pop »'
+  - index.html: PHP Manual
+  - class.threaded.html: Threaded
+title: 'Threaded::notifyOne'
+---
 # Threaded::notifyOne
 
 (PECL pthreads >= 3.0.0)

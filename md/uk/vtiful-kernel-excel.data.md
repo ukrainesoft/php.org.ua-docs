@@ -1,16 +1,11 @@
-Записати дані
-
--   [« VtifulKernelExcel::construct](vtiful-kernel-excel.construct.html)
-    
--   [VtifulKernelExcel::fileName »](vtiful-kernel-excel.filename.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Записати дані
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.construct.html: '« VtifulKernelExcel::construct'
+  - vtiful-kernel-excel.filename.html: 'VtifulKernelExcel::fileName »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::data'
+---
 # VtifulKernelExcel::data
 
 (PECL xlswriter >= 1.2.1)

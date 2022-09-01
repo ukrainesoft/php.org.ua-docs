@@ -1,16 +1,11 @@
-Читає та витягує дані з каналу Swoole
-
--   [« SwooleChannel::destruct](swoole-channel.destruct.html)
-    
--   [SwooleChannel::push »](swoole-channel.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleChannel](class.swoole-channel.html)
-    
--   Читає та витягує дані з каналу Swoole
-    
-
+---
+navigation:
+  - swoole-channel.destruct.html: '« SwooleChannel::destruct'
+  - swoole-channel.push.html: 'SwooleChannel::push »'
+  - index.md: PHP Manual
+  - class.swoole-channel.html: SwooleChannel
+title: 'SwooleChannel::pop'
+---
 # SwooleChannel::pop
 
 (PECL swoole >= 1.9.0)

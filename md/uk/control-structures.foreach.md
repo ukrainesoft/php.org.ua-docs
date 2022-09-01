@@ -1,16 +1,11 @@
-foreach
-
--   [« for](control-structures.for.html)
-    
--   [break »](control-structures.break.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   foreach
-    
-
+---
+navigation:
+  - control-structures.for.html: « for
+  - control-structures.break.html: break »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: foreach
+---
 ## foreach
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

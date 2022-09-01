@@ -1,16 +1,11 @@
-Клас MongoDBDriverExceptionServerException
-
--   [« MongoDBDriverExceptionRuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.html)
-    
--   [MongoDBDriverExceptionSSLConnectionException »](class.mongodb-driver-exception-sslconnectionexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverException](mongodb.exceptions.md)
-    
--   Клас MongoDBDriverExceptionServerException
-    
-
+---
+navigation:
+  - mongodb-driver-runtimeexception.haserrorlabel.html: '« MongoDBDriverExceptionRuntimeException::hasErrorLabel'
+  - class.mongodb-driver-exception-sslconnectionexception.html: MongoDBDriverExceptionSSLConnectionException »
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
+title: Клас MongoDBDriverExceptionServerException
+---
 # Клас MongoDBDriverExceptionServerException
 
 (mongodb >= 1.5.0)

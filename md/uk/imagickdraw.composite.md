@@ -1,16 +1,11 @@
-Накладає зображення на поточне зображення
-
--   [« ImagickDraw::comment](imagickdraw.comment.html)
-    
--   [ImagickDraw::construct »](imagickdraw.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Накладає зображення на поточне зображення
-    
-
+---
+navigation:
+  - imagickdraw.comment.html: '« ImagickDraw::comment'
+  - imagickdraw.construct.html: 'ImagickDraw::construct »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::composite'
+---
 # ImagickDraw::composite
 
 (PECL imagick 2, PECL imagick 3)

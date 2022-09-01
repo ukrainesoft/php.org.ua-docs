@@ -1,16 +1,11 @@
-Вступ
-
--   [« Firebird/InterBase](book.ibase.md)
-    
--   [Встановлення та налаштування »](ibase.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Firebird/InterBase](book.ibase.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.ibase.md: « Firebird/InterBase
+  - ibase.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ibase.md: Firebird/InterBase
+title: Вступ
+---
 # Вступ
 
 **Увага**

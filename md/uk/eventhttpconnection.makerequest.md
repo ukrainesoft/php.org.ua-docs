@@ -1,16 +1,11 @@
-Робить HTTP-запит із зазначеного з'єднання
-
--   [« EventHttpConnection::getPeer](eventhttpconnection.getpeer.md)
-    
--   [EventHttpConnection::setCloseCallback »](eventhttpconnection.setclosecallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpConnection](class.eventhttpconnection.md)
-    
--   Робить HTTP-запит із зазначеного з'єднання
-    
-
+---
+navigation:
+  - eventhttpconnection.getpeer.md: '« EventHttpConnection::getPeer'
+  - eventhttpconnection.setclosecallback.md: 'EventHttpConnection::setCloseCallback »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::makeRequest'
+---
 # EventHttpConnection::makeRequest
 
 (PECL event >= 1.4.0-beta)

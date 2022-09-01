@@ -1,16 +1,11 @@
-Додати ключ для підписання
-
--   [« gnupgaddencryptkey](function.gnupg-addencryptkey.html)
-    
--   [gnupgcleardecryptkeys »](function.gnupg-cleardecryptkeys.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Додати ключ для підписання
-    
-
+---
+navigation:
+  - function.gnupg-addencryptkey.html: « gnupgaddencryptkey
+  - function.gnupg-cleardecryptkeys.html: gnupgcleardecryptkeys »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgaddsignkey
+---
 # gnupgaddsignkey
 
 (PECL gnupg >= 0.5)

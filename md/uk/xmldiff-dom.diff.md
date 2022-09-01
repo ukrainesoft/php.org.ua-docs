@@ -1,16 +1,11 @@
-Пошук відмінностей у двох об'єктах DOMDocument
-
--   [« XMLDiffDOM](class.xmldiff-dom.html)
-    
--   [XMLDiffDOM::merge »](xmldiff-dom.merge.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLDiffDOM](class.xmldiff-dom.html)
-    
--   Пошук відмінностей у двох об'єктах DOMDocument
-    
-
+---
+navigation:
+  - class.xmldiff-dom.html: « XMLDiffDOM
+  - xmldiff-dom.merge.html: 'XMLDiffDOM::merge »'
+  - index.html: PHP Manual
+  - class.xmldiff-dom.html: XMLDiffDOM
+title: 'XMLDiffDOM::diff'
+---
 # XMLDiffDOM::diff
 
 (PECL xmldiff >= 0.8.0)

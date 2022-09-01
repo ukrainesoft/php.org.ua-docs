@@ -1,16 +1,11 @@
-Створює об'єкт EventBufferEvent
-
--   [« EventBufferEvent::connectHost](eventbufferevent.connecthost.md)
-    
--   [EventBufferEvent::createPair »](eventbufferevent.createpair.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Створює об'єкт EventBufferEvent
-    
-
+---
+navigation:
+  - eventbufferevent.connecthost.md: '« EventBufferEvent::connectHost'
+  - eventbufferevent.createpair.md: 'EventBufferEvent::createPair »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::construct'
+---
 # EventBufferEvent::construct
 
 (PECL event >= 1.2.6-beta)

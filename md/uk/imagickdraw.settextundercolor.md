@@ -1,16 +1,11 @@
-Задає колір прямокутника фону
-
--   [« ImagickDraw::setTextKerning](imagickdraw.settextkerning.md)
-    
--   [ImagickDraw::setVectorGraphics »](imagickdraw.setvectorgraphics.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Задає колір прямокутника фону
-    
-
+---
+navigation:
+  - imagickdraw.settextkerning.md: '« ImagickDraw::setTextKerning'
+  - imagickdraw.setvectorgraphics.md: 'ImagickDraw::setVectorGraphics »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setTextUnderColor'
+---
 # ImagickDraw::setTextUnderColor
 
 (PECL imagick 2, PECL imagick 3)

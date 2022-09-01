@@ -1,16 +1,11 @@
-Повертає об'єкт DateTime інкапсулюючий заданий об'єкт DateTimeImmutable
-
--   [« DateTime::createFromFormat](datetime.createfromformat.md)
-    
--   [DateTime::createFromInterface »](datetime.createfrominterface.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Повертає об'єкт DateTime інкапсулюючий заданий об'єкт DateTimeImmutable
-    
-
+---
+navigation:
+  - datetime.createfromformat.md: '« DateTime::createFromFormat'
+  - datetime.createfrominterface.md: 'DateTime::createFromInterface »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::createFromImmutable'
+---
 # DateTime::createFromImmutable
 
 (PHP 7> = 7.3.0, PHP 8)

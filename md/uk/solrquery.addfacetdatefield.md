@@ -1,16 +1,11 @@
-Карти для facet.date
-
--   [« SolrQuery::addExpandSortField](solrquery.addexpandsortfield.md)
-    
--   [SolrQuery::addFacetDateOther »](solrquery.addfacetdateother.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Карти для facet.date
-    
-
+---
+navigation:
+  - solrquery.addexpandsortfield.md: '« SolrQuery::addExpandSortField'
+  - solrquery.addfacetdateother.md: 'SolrQuery::addFacetDateOther »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addFacetDateField'
+---
 # SolrQuery::addFacetDateField
 
 (PECL solr> = 0.9.2)

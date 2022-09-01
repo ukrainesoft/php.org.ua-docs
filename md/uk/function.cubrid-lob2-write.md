@@ -1,16 +1,11 @@
-Записує до LOB-об'єкт
-
--   [« cubridlob2tell](function.cubrid-lob2-tell.html)
-    
--   [cubridlockread »](function.cubrid-lock-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Записує до LOB-об'єкт
-    
-
+---
+navigation:
+  - function.cubrid-lob2-tell.html: « cubridlob2tell
+  - function.cubrid-lock-read.html: cubridlockread »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2write
+---
 # cubridlob2write
 
 (PECL CUBRID >= 8.4.1)

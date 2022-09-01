@@ -1,16 +1,11 @@
-Отримання ключа поточного елемента
-
--   [« RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.md)
-    
--   [RecursiveIteratorIterator::next »](recursiveiteratoriterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Отримання ключа поточного елемента
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.getsubiterator.md: '« RecursiveIteratorIterator::getSubIterator'
+  - recursiveiteratoriterator.next.md: 'RecursiveIteratorIterator::next »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::key'
+---
 # RecursiveIteratorIterator::key
 
 (PHP 5, PHP 7, PHP 8)

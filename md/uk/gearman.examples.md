@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](gearman.constants.md)
-    
--   [Базовое использование »](gearman.examples-reverse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Gearman](book.gearman.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - gearman.constants.md: « Обумовлені константи
+  - gearman.examples-reverse.html: Базовое использование »
+  - index.md: PHP Manual
+  - book.gearman.md: Gearman
+title: Приклади
+---
 # Приклади
 
 ## Зміст

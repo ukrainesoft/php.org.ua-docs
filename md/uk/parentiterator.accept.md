@@ -1,16 +1,11 @@
-Визначення доступності
-
--   [« ParentIterator](class.parentiterator.md)
-    
--   [ParentIterator::construct »](parentiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [ParentIterator](class.parentiterator.md)
-    
--   Визначення доступності
-    
-
+---
+navigation:
+  - class.parentiterator.md: « ParentIterator
+  - parentiterator.construct.md: 'ParentIterator::construct »'
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
+title: 'ParentIterator::accept'
+---
 # ParentIterator::accept
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає всі фасетні запити
-
--   [« SolrQuery::getFacetPrefix](solrquery.getfacetprefix.md)
-    
--   [SolrQuery::getFacetSort »](solrquery.getfacetsort.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає всі фасетні запити
-    
-
+---
+navigation:
+  - solrquery.getfacetprefix.md: '« SolrQuery::getFacetPrefix'
+  - solrquery.getfacetsort.md: 'SolrQuery::getFacetSort »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacetQueries'
+---
 # SolrQuery::getFacetQueries
 
 (PECL solr> = 0.9.2)

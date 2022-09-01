@@ -1,16 +1,11 @@
-Отримати регіон для локалі
-
--   [« Locale::getPrimaryLanguage](locale.getprimarylanguage.html)
-    
--   [Locale::getScript »](locale.getscript.html)
-    
--   [PHP Manual](index.html)
-    
--   [Locale](class.locale.html)
-    
--   Отримати регіон для локалі
-    
-
+---
+navigation:
+  - locale.getprimarylanguage.html: '« Locale::getPrimaryLanguage'
+  - locale.getscript.html: 'Locale::getScript »'
+  - index.html: PHP Manual
+  - class.locale.html: Locale
+title: 'Locale::getRegion'
+---
 # Locale::getRegion
 
 # localegetregion

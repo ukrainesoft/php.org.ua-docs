@@ -1,16 +1,11 @@
-Отримує шаблон, який використовується IntlDateFormatter
-
--   [« IntlDateFormatter::getLocale](intldateformatter.getlocale.md)
-    
--   [IntlDateFormatter::getTimeType »](intldateformatter.gettimetype.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Отримує шаблон, який використовується IntlDateFormatter
-    
-
+---
+navigation:
+  - intldateformatter.getlocale.md: '« IntlDateFormatter::getLocale'
+  - intldateformatter.gettimetype.md: 'IntlDateFormatter::getTimeType »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::getPattern'
+---
 # IntlDateFormatter::getPattern
 
 # datefmtgetpattern

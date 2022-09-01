@@ -1,16 +1,11 @@
-Конструктори та деструктори
-
--   [« Автоматичне завантаження класів](language.oop5.autoload.md)
-    
--   [Область видимості "](language.oop5.visibility.md)
-    
--   [PHP Manual](index.md)
-    
--   [Класи та об'єкти](language.oop5.md)
-    
--   Конструктори та деструктори
-    
-
+---
+navigation:
+  - language.oop5.autoload.md: « Автоматичне завантаження класів
+  - language.oop5.visibility.md: Область видимості "
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Конструктори та деструктори
+---
 ## Конструктори та деструктори
 
 ### Конструктор

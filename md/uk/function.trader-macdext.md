@@ -1,16 +1,11 @@
-MACD з керованим типом MA
-
--   [« tradermacd](function.trader-macd.html)
-    
--   [tradermacdfix »](function.trader-macdfix.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   MACD з керованим типом MA
-    
-
+---
+navigation:
+  - function.trader-macd.html: « tradermacd
+  - function.trader-macdfix.html: tradermacdfix »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermacdext
+---
 # tradermacdext
 
 (PECL trader >= 0.2.0)

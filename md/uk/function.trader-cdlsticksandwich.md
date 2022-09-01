@@ -1,16 +1,11 @@
-Прилиплий сендвіч
-
--   [« tradercdlstalledpattern](function.trader-cdlstalledpattern.html)
-    
--   [tradercdltakuri »](function.trader-cdltakuri.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Прилиплий сендвіч
-    
-
+---
+navigation:
+  - function.trader-cdlstalledpattern.html: « tradercdlstalledpattern
+  - function.trader-cdltakuri.html: tradercdltakuri »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlsticksandwich
+---
 # tradercdlsticksandwich
 
 (PECL trader >= 0.2.0)

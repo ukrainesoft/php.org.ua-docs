@@ -1,16 +1,11 @@
-Надсилає повідомлення про помилку заданому обробнику помилок
-
--   [« errorgetlast](function.error-get-last.html)
-    
--   [errorreporting »](function.error-reporting.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции обработки ошибок](ref.errorfunc.html)
-    
--   Надсилає повідомлення про помилку заданому обробнику помилок
-    
-
+---
+navigation:
+  - function.error-get-last.html: « errorgetlast
+  - function.error-reporting.html: errorreporting »
+  - index.html: PHP Manual
+  - ref.errorfunc.html: Функции обработки ошибок
+title: errorlog
+---
 # errorlog
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ error_log(    string $message,    int $message_type = 0,    ?string 
 
 ### список змін
 
-| Версия | Описание                                                                      |
-|--------|-------------------------------------------------------------------------------|
-|        | Параметр `destination` і `additional_headers` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `destination` і `additional_headers` тепер допускають значення null. |
 
 ### Приклади
 

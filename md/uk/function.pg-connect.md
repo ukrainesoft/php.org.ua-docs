@@ -1,16 +1,11 @@
-Відкриває з'єднання з базою даних PostgreSQL
-
--   [« pgconnectpoll](function.pg-connect-poll.html)
-    
--   [пгconnectionbusy »](function.pg-connection-busy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Відкриває з'єднання з базою даних PostgreSQL
-    
-
+---
+navigation:
+  - function.pg-connect-poll.html: « pgconnectpoll
+  - function.pg-connection-busy.html: пгconnectionbusy »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгconnect
+---
 # пгconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ pg_connect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

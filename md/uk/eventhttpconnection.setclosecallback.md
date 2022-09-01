@@ -1,16 +1,11 @@
-Встановлює callback-функцію при закритті з'єднання
-
--   [« EventHttpConnection::makeRequest](eventhttpconnection.makerequest.html)
-    
--   [EventHttpConnection::setLocalAddress »](eventhttpconnection.setlocaladdress.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpConnection](class.eventhttpconnection.html)
-    
--   Встановлює callback-функцію при закритті з'єднання
-    
-
+---
+navigation:
+  - eventhttpconnection.makerequest.html: '« EventHttpConnection::makeRequest'
+  - eventhttpconnection.setlocaladdress.html: 'EventHttpConnection::setLocalAddress »'
+  - index.html: PHP Manual
+  - class.eventhttpconnection.html: EventHttpConnection
+title: 'EventHttpConnection::setCloseCallback'
+---
 # EventHttpConnection::setCloseCallback
 
 (PECL event >= 1.8.0)

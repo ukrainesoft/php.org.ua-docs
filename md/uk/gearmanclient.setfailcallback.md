@@ -1,16 +1,11 @@
-Установка callback-функції для обробки ситуації, коли завдання не вдалося виконати
-
--   [« GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.md)
-    
--   [GearmanClient::setOptions »](gearmanclient.setoptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Установка callback-функції для обробки ситуації, коли завдання не вдалося виконати
-    
-
+---
+navigation:
+  - gearmanclient.setexceptioncallback.md: '« GearmanClient::setExceptionCallback'
+  - gearmanclient.setoptions.md: 'GearmanClient::setOptions »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setFailCallback'
+---
 # GearmanClient::setFailCallback
 
 (PECL gearman >= 0.5.0)

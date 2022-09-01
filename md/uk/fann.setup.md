@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.fann.html)
-    
--   [Вимоги »](fann.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [FANN](book.fann.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.fann.html: « Введение
+  - fann.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.fann.html: FANN
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

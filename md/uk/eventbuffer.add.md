@@ -1,16 +1,11 @@
-Додає дані до кінця буфера подій
-
--   [« EventBuffer](class.eventbuffer.md)
-    
--   [EventBuffer::addBuffer »](eventbuffer.addbuffer.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Додає дані до кінця буфера подій
-    
-
+---
+navigation:
+  - class.eventbuffer.md: « EventBuffer
+  - eventbuffer.addbuffer.md: 'EventBuffer::addBuffer »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::add'
+---
 # EventBuffer::add
 
 (PECL event >= 1.2.6-beta)

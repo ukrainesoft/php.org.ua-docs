@@ -1,16 +1,11 @@
-Клас DOMImplementation
-
--   [« DOMException](class.domexception.md)
-    
--   [DOMImplementation::construct »](domimplementation.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMImplementation
-    
-
+---
+navigation:
+  - class.domexception.md: « DOMException
+  - domimplementation.construct.md: 'DOMImplementation::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMImplementation
+---
 # Клас DOMImplementation
 
 (PHP 5, PHP 7, PHP 8)

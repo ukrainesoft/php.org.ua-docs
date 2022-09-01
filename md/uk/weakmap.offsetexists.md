@@ -1,16 +1,11 @@
-Перевіряє, чи є у колекції (map) певний об'єкт
-
--   [« WeakMap::getIterator](weakmap.getiterator.md)
-    
--   [WeakMap::offsetGet »](weakmap.offsetget.md)
-    
--   [PHP Manual](index.md)
-    
--   [WeakMap](class.weakmap.md)
-    
--   Перевіряє, чи є у колекції (map) певний об'єкт
-    
-
+---
+navigation:
+  - weakmap.getiterator.md: '« WeakMap::getIterator'
+  - weakmap.offsetget.md: 'WeakMap::offsetGet »'
+  - index.md: PHP Manual
+  - class.weakmap.md: WeakMap
+title: 'WeakMap::offsetExists'
+---
 # WeakMap::offsetExists
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Десеріалізує Binary
-
--   [« MongoDBBSONBinary::toString](mongodb-bson-binary.tostring.html)
-    
--   [MongoDBBSONDecimal128 »](class.mongodb-bson-decimal128.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   Десеріалізує Binary
-    
-
+---
+navigation:
+  - mongodb-bson-binary.tostring.html: '« MongoDBBSONBinary::toString'
+  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128 »
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::unserialize'
+---
 # MongoDBBSONBinary::unserialize
 
 (mongodb >=1.2.0)

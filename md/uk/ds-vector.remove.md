@@ -1,16 +1,11 @@
-Видаляє та повертає значення за індексом
-
--   [« DsVector::reduce](ds-vector.reduce.html)
-    
--   [ДсVector::reverse »](ds-vector.reverse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Видаляє та повертає значення за індексом
-    
-
+---
+navigation:
+  - ds-vector.reduce.html: '« DsVector::reduce'
+  - ds-vector.reverse.html: 'ДсVector::reverse »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::remove'
+---
 # ДсVector::remove
 
 (PECL ds >= 1.0.0)

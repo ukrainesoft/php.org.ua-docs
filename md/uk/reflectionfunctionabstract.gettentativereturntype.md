@@ -1,16 +1,11 @@
-Повертає попередній тип значення, що повертається, пов'язаний з функцією
-
--   [« ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.html)
-    
--   [ReflectionFunctionAbstract::hasReturnType »](reflectionfunctionabstract.hasreturntype.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Повертає попередній тип значення, що повертається, пов'язаний з функцією
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getstaticvariables.html: '« ReflectionFunctionAbstract::getStaticVariables'
+  - reflectionfunctionabstract.hasreturntype.html: 'ReflectionFunctionAbstract::hasReturnType »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getTentativeReturnType'
+---
 # ReflectionFunctionAbstract::getTentativeReturnType
 
 (PHP 8> = 8.1.0)

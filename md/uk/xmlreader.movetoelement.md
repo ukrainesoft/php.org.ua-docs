@@ -1,16 +1,11 @@
-Позиціонувати курсор на батьківському елементі поточного атрибуту
-
--   [« XMLReader::moveToAttributeNs](xmlreader.movetoattributens.html)
-    
--   [XMLReader::moveToFirstAttribute »](xmlreader.movetofirstattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](class.xmlreader.html)
-    
--   Позиціонувати курсор на батьківському елементі поточного атрибуту
-    
-
+---
+navigation:
+  - xmlreader.movetoattributens.html: '« XMLReader::moveToAttributeNs'
+  - xmlreader.movetofirstattribute.html: 'XMLReader::moveToFirstAttribute »'
+  - index.html: PHP Manual
+  - class.xmlreader.html: XMLReader
+title: 'XMLReader::moveToElement'
+---
 # XMLReader::moveToElement
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує інформацію про використання пам'яті за допомогою кеша шляху до файлу роздільної здатності
-
--   [« wincacherplistfileinfo](function.wincache-rplist-fileinfo.html)
-    
--   [wincachescacheinfo »](function.wincache-scache-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Отримує інформацію про використання пам'яті за допомогою кеша шляху до файлу роздільної здатності
-    
-
+---
+navigation:
+  - function.wincache-rplist-fileinfo.html: « wincacherplistfileinfo
+  - function.wincache-scache-info.html: wincachescacheinfo »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincacherplistmeminfo
+---
 # wincacherplistmeminfo
 
 (PECL wincache >= 1.0.0)

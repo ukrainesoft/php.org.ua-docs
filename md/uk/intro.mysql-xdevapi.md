@@ -1,16 +1,11 @@
-Вступ
-
--   [« Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   [Встановлення та налаштування »](mysql-xdevapi.setup.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.mysql-xdevapi.html: « Mysqlxdevapi
+  - mysql-xdevapi.setup.html: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Вступ
+---
 # Вступ
 
 Модуль забезпечує доступ до сховища документів MySQL через X DevAPI. X DevAPI - це загальний API, що надається кількома конекторами MySQL, що забезпечує легкий доступ до реляційних таблиць, а також колекцій документів, які представлені в JSON, з API з операціями в стилі CRUD.

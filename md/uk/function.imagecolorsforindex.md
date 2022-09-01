@@ -1,16 +1,11 @@
-Отримання кольорів, що відповідають індексу
-
--   [« imagecolorset](function.imagecolorset.md)
-    
--   [imagecolorstotal »](function.imagecolorstotal.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання кольорів, що відповідають індексу
-    
-
+---
+navigation:
+  - function.imagecolorset.md: « imagecolorset
+  - function.imagecolorstotal.md: imagecolorstotal »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorsforindex
+---
 # imagecolorsforindex
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ imagecolorsforindex(GdImage $image, int $color): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                       |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource).                                                                                                |
-|        | Функція **imagecolorsforindex()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `color` поза допустимим діапазоном; раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+|  | Функція **imagecolorsforindex()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `color` поза допустимим діапазоном; раніше натомість поверталося значення **`false`** |
 
 ### Приклади
 

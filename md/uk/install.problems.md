@@ -1,16 +1,11 @@
-Проблеми?
-
--   [Компіляція модулів PECL статично в PHP](install.pecl.static.html)
-    
--   [Читайте FAQ »](install.problems.faq.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](install.html)
-    
--   Проблеми?
-    
-
+---
+navigation:
+  - install.pecl.static.html: Компіляція модулів PECL статично в PHP
+  - install.problems.faq.html: Читайте FAQ »
+  - index.html: PHP Manual
+  - install.html: Встановлення та налаштування
+title: Проблеми?
+---
 # Проблеми?
 
 ## Зміст

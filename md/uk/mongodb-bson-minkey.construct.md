@@ -1,16 +1,11 @@
-Конструктор MinKey
-
--   [« MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
-    
--   [MongoDBBSONMinKey::jsonSerialize »](mongodb-bson-minkey.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
-    
--   Конструктор MinKey
-    
-
+---
+navigation:
+  - class.mongodb-bson-minkey.html: « MongoDBBSONMinKey
+  - mongodb-bson-minkey.jsonserialize.html: 'MongoDBBSONMinKey::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-minkey.html: MongoDBBSONMinKey
+title: 'MongoDBBSONMinKey::construct'
+---
 # MongoDBBSONMinKey::construct
 
 (mongodb >=1.0.0)

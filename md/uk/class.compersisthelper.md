@@ -1,16 +1,11 @@
-Клас COMPersistHelper
-
--   [« variant::construct](variant.construct.md)
-    
--   [COMPersistHelper::construct »](compersisthelper.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [COM](book.com.md)
-    
--   Клас COMPersistHelper
-    
-
+---
+navigation:
+  - variant.construct.md: '« variant::construct'
+  - compersisthelper.construct.md: 'COMPersistHelper::construct »'
+  - index.md: PHP Manual
+  - book.com.md: COM
+title: Клас COMPersistHelper
+---
 # Клас COMPersistHelper
 
 (PHP 5, PHP 7, PHP 8)

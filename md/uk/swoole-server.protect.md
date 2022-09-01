@@ -1,16 +1,11 @@
-Встановлює з'єднання у захищений режим
-
--   [« SwooleServer::pause](swoole-server.pause.html)
-    
--   [SwooleServer::reload »](swoole-server.reload.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Встановлює з'єднання у захищений режим
-    
-
+---
+navigation:
+  - swoole-server.pause.html: '« SwooleServer::pause'
+  - swoole-server.reload.html: 'SwooleServer::reload »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::protect'
+---
 # SwooleServer::protect
 
 (PECL swoole >= 1.9.0)

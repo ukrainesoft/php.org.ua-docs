@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverMonitoringServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort »](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.html: « MongoDBDriverMonitoringServerHeartbeatStartedEvent
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.html: MongoDBDriverMonitoringServerHeartbeatStartedEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost'
+---
 # MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost
 
 (mongodb >=1.13.0)

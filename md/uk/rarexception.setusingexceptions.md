@@ -1,16 +1,11 @@
-Включити або вимкнути генерацію винятків замість повернення помилок
-
--   [« RarException::isUsingExceptions](rarexception.isusingexceptions.md)
-    
--   [Zip »](book.zip.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarException](class.rarexception.md)
-    
--   Включити або вимкнути генерацію винятків замість повернення помилок
-    
-
+---
+navigation:
+  - rarexception.isusingexceptions.md: '« RarException::isUsingExceptions'
+  - book.zip.md: Zip »
+  - index.md: PHP Manual
+  - class.rarexception.md: RarException
+title: 'RarException::setUsingExceptions'
+---
 # RarException::setUsingExceptions
 
 (PECL rar >= 2.0.0)

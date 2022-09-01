@@ -1,16 +1,11 @@
-Отримати опис помилки
-
--   [« intlgeterrorcode](function.intl-get-error-code.html)
-    
--   [intlісfailure »](function.intl-is-failure.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции intl](ref.intl.md)
-    
--   Отримати опис помилки
-    
-
+---
+navigation:
+  - function.intl-get-error-code.html: « intlgeterrorcode
+  - function.intl-is-failure.html: intlісfailure »
+  - index.md: PHP Manual
+  - ref.intl.md: Функции intl
+title: intlgeterrormessage
+---
 # intlgeterrormessage
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає опис помилки
-
--   [« yazerrno](function.yaz-errno.html)
-    
--   [yazесresult »](function.yaz-es-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Повертає опис помилки
-    
-
+---
+navigation:
+  - function.yaz-errno.html: « yazerrno
+  - function.yaz-es-result.html: yazесresult »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazerror
+---
 # yazerror
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

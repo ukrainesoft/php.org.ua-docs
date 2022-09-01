@@ -1,16 +1,11 @@
-Включити докладну налагоджувальну інформацію
-
--   [« OAuth::disableSSLChecks](oauth.disablesslchecks.html)
-    
--   [OAuth::enableRedirects »](oauth.enableredirects.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Включити докладну налагоджувальну інформацію
-    
-
+---
+navigation:
+  - oauth.disablesslchecks.html: '« OAuth::disableSSLChecks'
+  - oauth.enableredirects.html: 'OAuth::enableRedirects »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::enableDebug'
+---
 # OAuth::enableDebug
 
 (PECL OAuth >= 0.99.3)
@@ -35,8 +30,8 @@ public OAuth::enableDebug(): bool
 
 ### список змін
 
-| Версия            | Описание                               |
-|-------------------|----------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 0.99.8 | Були додані поля `debug` і `debugInfo` |
 
 ### Дивіться також

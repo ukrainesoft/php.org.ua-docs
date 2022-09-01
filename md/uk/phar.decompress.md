@@ -1,16 +1,11 @@
-Розпаковує весь Phar-архів
-
--   [« Phar::createDefaultStub](phar.createdefaultstub.html)
-    
--   [Phar::decompressFiles »](phar.decompressfiles.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Розпаковує весь Phar-архів
-    
-
+---
+navigation:
+  - phar.createdefaultstub.html: '« Phar::createDefaultStub'
+  - phar.decompressfiles.html: 'Phar::decompressFiles »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::decompress'
+---
 # Phar::decompress
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -49,9 +44,9 @@ public Phar::decompress(?string $extension = null): ?Phar
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `extension` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 

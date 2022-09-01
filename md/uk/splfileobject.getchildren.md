@@ -1,16 +1,11 @@
-Метод-заглушка
-
--   [« SplFileObject::fwrite](splfileobject.fwrite.md)
-    
--   [SplFileObject::getCsvControl »](splfileobject.getcsvcontrol.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Метод-заглушка
-    
-
+---
+navigation:
+  - splfileobject.fwrite.md: '« SplFileObject::fwrite'
+  - splfileobject.getcsvcontrol.md: 'SplFileObject::getCsvControl »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::getChildren'
+---
 # SplFileObject::getChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

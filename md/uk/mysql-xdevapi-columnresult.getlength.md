@@ -1,16 +1,11 @@
-Отримує довжину поля стовпця
-
--   [« ColumnResult::getFractionalDigits](mysql-xdevapi-columnresult.getfractionaldigits.html)
-    
--   [ColumnResult::getSchemaName »](mysql-xdevapi-columnresult.getschemaname.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує довжину поля стовпця
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getfractionaldigits.html: '« ColumnResult::getFractionalDigits'
+  - mysql-xdevapi-columnresult.getschemaname.html: 'ColumnResult::getSchemaName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getLength'
+---
 # ColumnResult::getLength
 
 (No version information available, might only be in Git)

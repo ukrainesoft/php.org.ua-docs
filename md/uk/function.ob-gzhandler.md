@@ -1,16 +1,11 @@
-callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
-
--   [« obgetstatus](function.ob-get-status.html)
-    
--   [про implicit flush »](function.ob-implicit-flush.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
-    
-
+---
+navigation:
+  - function.ob-get-status.html: « obgetstatus
+  - function.ob-implicit-flush.html: про implicit flush »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: проgzhandler
+---
 # проgzhandler
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

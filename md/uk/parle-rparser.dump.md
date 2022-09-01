@@ -1,16 +1,11 @@
-Виводить граматику
-
--   [« ParleRParser::consume](parle-rparser.consume.html)
-    
--   [ParleRParser::errorInfo »](parle-rparser.errorinfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Виводить граматику
-    
-
+---
+navigation:
+  - parle-rparser.consume.html: '« ParleRParser::consume'
+  - parle-rparser.errorinfo.html: 'ParleRParser::errorInfo »'
+  - index.html: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::dump'
+---
 # ParleRParser::dump
 
 (PECL parle >= 0.7.0)

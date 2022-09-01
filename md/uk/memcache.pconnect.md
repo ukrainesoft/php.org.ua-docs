@@ -1,16 +1,11 @@
-Відкриває постійне з'єднання з сервером memcached
-
--   [« Memcache::increment](memcache.increment.md)
-    
--   [Memcache::replace »](memcache.replace.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Відкриває постійне з'єднання з сервером memcached
-    
-
+---
+navigation:
+  - memcache.increment.md: '« Memcache::increment'
+  - memcache.replace.md: 'Memcache::replace »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::pconnect'
+---
 # Memcache::pconnect
 
 (PECL memcache >= 0.4.0)

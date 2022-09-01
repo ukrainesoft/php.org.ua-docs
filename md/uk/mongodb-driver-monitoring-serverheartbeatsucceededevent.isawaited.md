@@ -1,16 +1,11 @@
-Повертає, чи використовувався в heartbeat потоковий протокол
-
--   [« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html)
-    
--   [MongoDBDriverMonitoringTopologyChangedEvent »](class.mongodb-driver-monitoring-topologychangedevent.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
-    
--   Повертає, чи використовувався в heartbeat потоковий протокол
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply'
+  - class.mongodb-driver-monitoring-topologychangedevent.html: MongoDBDriverMonitoringTopologyChangedEvent »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited'
+---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited
 
 (mongodb >=1.13.0)

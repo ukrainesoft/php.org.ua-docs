@@ -1,16 +1,11 @@
-Видалити файл на сервері
-
--   [« ssh2sftpsymlink](function.ssh2-sftp-symlink.html)
-    
--   [ssh2sftp »](function.ssh2-sftp.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Видалити файл на сервері
-    
-
+---
+navigation:
+  - function.ssh2-sftp-symlink.html: « ssh2sftpsymlink
+  - function.ssh2-sftp.html: ssh2sftp »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftpunlink
+---
 # ssh2sftpunlink
 
 (PECL ssh2> = 0.9.0)

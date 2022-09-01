@@ -1,16 +1,11 @@
-Повертає дробовий залишок від розподілу за модулем
-
--   [« floor](function.floor.html)
-    
--   [getrandmax »](function.getrandmax.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Повертає дробовий залишок від розподілу за модулем
-    
-
+---
+navigation:
+  - function.floor.html: « floor
+  - function.getrandmax.html: getrandmax »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: fmod
+---
 # fmod
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Відокремлює канал від зображення
-
--   [« Gmagick::scaleimage](gmagick.scaleimage.html)
-    
--   [Gmagick::setCompressionQuality »](gmagick.setcompressionquality.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Відокремлює канал від зображення
-    
-
+---
+navigation:
+  - gmagick.scaleimage.html: '« Gmagick::scaleimage'
+  - gmagick.setcompressionquality.html: 'Gmagick::setCompressionQuality »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::separateimagechannel'
+---
 # Gmagick::separateimagechannel
 
 (PECL gmagick >= Unknown)

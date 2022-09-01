@@ -1,16 +1,11 @@
-Перевіряє, чи виконується завдання на даний момент
-
--   [« GearmanTask::isKnown](gearmantask.isknown.md)
-    
--   [GearmanTask::jobHandle »](gearmantask.jobhandle.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Перевіряє, чи виконується завдання на даний момент
-    
-
+---
+navigation:
+  - gearmantask.isknown.md: '« GearmanTask::isKnown'
+  - gearmantask.jobhandle.md: 'GearmanTask::jobHandle »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::isRunning'
+---
 # GearmanTask::isRunning
 
 (PECL gearman >= 0.5.0)

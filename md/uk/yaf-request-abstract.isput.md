@@ -1,16 +1,11 @@
-Визначає, чи запит PUT-запитом
-
--   [« YafRequestAbstract::isPost](yaf-request-abstract.ispost.html)
-    
--   [YafRequestAbstract::isRouted »](yaf-request-abstract.isrouted.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи запит PUT-запитом
-    
-
+---
+navigation:
+  - yaf-request-abstract.ispost.html: '« YafRequestAbstract::isPost'
+  - yaf-request-abstract.isrouted.html: 'YafRequestAbstract::isRouted »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isPut'
+---
 # YafRequestAbstract::isPut
 
 (Yaf >=1.0.0)

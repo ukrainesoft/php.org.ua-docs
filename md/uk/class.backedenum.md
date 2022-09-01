@@ -1,16 +1,11 @@
-Інтерфейс BackedEnum
-
--   [« UnitEnum::cases](unitenum.cases.html)
-    
--   [BackedEnum::from »](backedenum.from.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   Інтерфейс BackedEnum
-    
-
+---
+navigation:
+  - unitenum.cases.html: '« UnitEnum::cases'
+  - backedenum.from.html: 'BackedEnum::from »'
+  - index.html: PHP Manual
+  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+title: Інтерфейс BackedEnum
+---
 # Інтерфейс BackedEnum
 
 (PHP 8> = 8.1.0)

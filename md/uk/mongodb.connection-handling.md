@@ -1,16 +1,11 @@
-Обробка з'єднання та сталість
-
--   [« Архитектура](mongodb.overview.md)
-    
--   [Постійні дані »](mongodb.persistence.md)
-    
--   [PHP Manual](index.md)
-    
--   [Архитектура и внутреннее устройство драйвера](mongodb.architecture.md)
-    
--   Обробка з'єднання та сталість
-    
-
+---
+navigation:
+  - mongodb.overview.md: « Архитектура
+  - mongodb.persistence.md: Постійні дані »
+  - index.md: PHP Manual
+  - mongodb.architecture.md: Архитектура и внутреннее устройство драйвера
+title: Обробка з'єднання та сталість
+---
 # Обробка з'єднання та сталість
 
 > **Зауваження**: На Unix, драйвер MongoDB чутливий до сценаріїв, які використовують системний виклик fork() без наступного exec(). Користувачам рекомендується не перевикористовувати екземпляр [MongoDBDriverManager](class.mongodb-driver-manager.html) у дочірньому процесі. child process.

@@ -1,16 +1,11 @@
-Псевдонім streamsetblocking
-
--   [« socketgetstatus](function.socket-get-status.html)
-    
--   [socketsettimeout »](function.socket-set-timeout.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Псевдонім streamsetblocking
-    
-
+---
+navigation:
+  - function.socket-get-status.html: « socketgetstatus
+  - function.socket-set-timeout.html: socketsettimeout »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: socketsetblocking
+---
 # socketsetblocking
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

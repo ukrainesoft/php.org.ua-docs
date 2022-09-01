@@ -1,16 +1,11 @@
-Повертає межу зрізу обведення
-
--   [« ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md)
-    
--   [ImagickDraw::getStrokeOpacity »](imagickdraw.getstrokeopacity.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає межу зрізу обведення
-    
-
+---
+navigation:
+  - imagickdraw.getstrokelinejoin.md: '« ImagickDraw::getStrokeLineJoin'
+  - imagickdraw.getstrokeopacity.md: 'ImagickDraw::getStrokeOpacity »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getStrokeMiterLimit'
+---
 # ImagickDraw::getStrokeMiterLimit
 
 (PECL imagick 2, PECL imagick 3)

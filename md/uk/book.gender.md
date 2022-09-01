@@ -1,16 +1,11 @@
-Визначення статі на ім'я
-
--   [« EnchantDictionary](class.enchantdictionary.md)
-    
--   [Введение »](intro.gender.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   Визначення статі на ім'я
-    
-
+---
+navigation:
+  - class.enchantdictionary.md: « EnchantDictionary
+  - intro.gender.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: Визначення статі на ім'я
+---
 # Визначення статі на ім'я
 
 -   [Введение](intro.gender.md)

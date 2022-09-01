@@ -1,16 +1,11 @@
-Відкочує транзакцію
-
--   [« Session::releaseSavepoint](mysql-xdevapi-session.releasesavepoint.html)
-    
--   [Session::rollbackTo »](mysql-xdevapi-session.rollbackto.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Відкочує транзакцію
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.releasesavepoint.html: '« Session::releaseSavepoint'
+  - mysql-xdevapi-session.rollbackto.html: 'Session::rollbackTo »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::rollback'
+---
 # Session::rollback
 
 (No version information available, might only be in Git)

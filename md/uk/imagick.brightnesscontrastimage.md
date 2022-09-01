@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::borderImage](imagick.borderimage.md)
-    
--   [Imagick::charcoalImage »](imagick.charcoalimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.borderimage.md: '« Imagick::borderImage'
+  - imagick.charcoalimage.md: 'Imagick::charcoalImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::brightnessContrastImage'
+---
 # Imagick::brightnessContrastImage
 
 (PECL imagick 3> = 3.3.0)

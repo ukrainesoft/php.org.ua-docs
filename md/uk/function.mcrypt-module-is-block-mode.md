@@ -1,16 +1,11 @@
-Перевірити, чи повертає зазначений режим дані блоками чи ні
-
--   [« mcryptmoduleісblockalgorithm](function.mcrypt-module-is-block-algorithm.html)
-    
--   [mcryptmoduleopen »](function.mcrypt-module-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Перевірити, чи повертає зазначений режим дані блоками чи ні
-    
-
+---
+navigation:
+  - function.mcrypt-module-is-block-algorithm.html: « mcryptmoduleісblockalgorithm
+  - function.mcrypt-module-open.html: mcryptmoduleopen »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmoduleісblockmode
+---
 # mcryptmoduleісblockmode
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

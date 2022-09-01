@@ -1,16 +1,11 @@
-Основи використання
-
--   [« Приклади](hrtime.examples.md)
-    
--   [HRTimePerformanceCounter »](class.hrtime-performancecounter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](hrtime.examples.md)
-    
--   Основи використання
-    
-
+---
+navigation:
+  - hrtime.examples.md: « Приклади
+  - class.hrtime-performancecounter.html: HRTimePerformanceCounter »
+  - index.md: PHP Manual
+  - hrtime.examples.md: Приклади
+title: Основи використання
+---
 ## Основи використання
 
 Цей приклад демонструє базове використання класу StopWatch

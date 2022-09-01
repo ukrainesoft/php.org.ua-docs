@@ -1,16 +1,11 @@
-Клас DOMEntityReference
-
--   [« DOMEntity](class.domentity.md)
-    
--   [DOMEntityReference::construct »](domentityreference.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMEntityReference
-    
-
+---
+navigation:
+  - class.domentity.md: « DOMEntity
+  - domentityreference.construct.md: 'DOMEntityReference::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMEntityReference
+---
 # Клас DOMEntityReference
 
 (PHP 5, PHP 7, PHP 8)

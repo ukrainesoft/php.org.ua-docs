@@ -1,16 +1,11 @@
-Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getPath](directoryiterator.getpath.md)
-    
--   [DirectoryIterator::getPerms »](directoryiterator.getperms.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getpath.md: '« DirectoryIterator::getPath'
+  - directoryiterator.getperms.md: 'DirectoryIterator::getPerms »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getPathname'
+---
 # DirectoryIterator::getPathname
 
 (PHP 5, PHP 7, PHP 8)

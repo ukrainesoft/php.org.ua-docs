@@ -1,16 +1,11 @@
-Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
-
--   [« Phar::isBuffering](phar.isbuffering.html)
-    
--   [Phar::isFileFormat »](phar.isfileformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
-    
-
+---
+navigation:
+  - phar.isbuffering.html: '« Phar::isBuffering'
+  - phar.isfileformat.html: 'Phar::isFileFormat »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::isCompressed'
+---
 # Phar::isCompressed
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

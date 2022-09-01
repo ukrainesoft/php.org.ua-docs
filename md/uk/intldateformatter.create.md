@@ -1,16 +1,11 @@
-Створює засіб форматування дати
-
--   [« IntlDateFormatter](class.intldateformatter.md)
-    
--   [IntlDateFormatter::format »](intldateformatter.format.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Створює засіб форматування дати
-    
-
+---
+navigation:
+  - class.intldateformatter.md: « IntlDateFormatter
+  - intldateformatter.format.md: 'IntlDateFormatter::format »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::create'
+---
 # IntlDateFormatter::create
 
 # datefmtcreate
@@ -81,10 +76,10 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 ### список змін
 
-| Версия                                                                           | Описание |
-|----------------------------------------------------------------------------------|----------|
-| 5.5.0/PECL 3.0.0                                                                 |          |
-| Об'єкт [IntlCalendar](class.intlcalendar.md) допускається у параметрі `calendar` |          |
+| Версия | Описание |
+| --- | --- |
+| 5.5.0/PECL 3.0.0 |  |
+| Об'єкт [IntlCalendar](class.intlcalendar.md) допускається у параметрі `calendar` |  |
 
 Об'єкти [IntlTimeZone](class.intltimezone.md) і [DateTimeZone](class.datetimezone.md) допускаються у параметрі `timezone`
 

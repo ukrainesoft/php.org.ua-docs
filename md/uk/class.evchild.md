@@ -1,16 +1,11 @@
-Клас EvChild
-
--   [« EvCheck::createStopped](evcheck.createstopped.md)
-    
--   [EvChild::construct »](evchild.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Клас EvChild
-    
-
+---
+navigation:
+  - evcheck.createstopped.md: '« EvCheck::createStopped'
+  - evchild.construct.md: 'EvChild::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvChild
+---
 # Клас EvChild
 
 (PECL ev >= 0.2.0)

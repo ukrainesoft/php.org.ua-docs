@@ -1,16 +1,11 @@
-Клас CachingIterator
-
--   [« ArrayIterator::valid](arrayiterator.valid.md)
-    
--   [CachingIterator::construct »](cachingiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас CachingIterator
-    
-
+---
+navigation:
+  - arrayiterator.valid.md: '« ArrayIterator::valid'
+  - cachingiterator.construct.md: 'CachingIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас CachingIterator
+---
 # Клас CachingIterator
 
 (PHP 5, PHP 7, PHP 8)
@@ -127,9 +122,9 @@ public IteratorIterator::valid(): bool
 
 ## список змін
 
-| Версия | Описание                                                                            |
-|--------|-------------------------------------------------------------------------------------|
-|        | Клас **CachingIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **CachingIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 

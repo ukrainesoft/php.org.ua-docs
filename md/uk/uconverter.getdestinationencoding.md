@@ -1,16 +1,11 @@
-Отримати кодування призначення
-
--   [« UConverter::getAvailable](uconverter.getavailable.md)
-    
--   [UConverter::getDestinationType »](uconverter.getdestinationtype.md)
-    
--   [PHP Manual](index.md)
-    
--   [UConverter](class.uconverter.md)
-    
--   Отримати кодування призначення
-    
-
+---
+navigation:
+  - uconverter.getavailable.md: '« UConverter::getAvailable'
+  - uconverter.getdestinationtype.md: 'UConverter::getDestinationType »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::getDestinationEncoding'
+---
 # UConverter::getDestinationEncoding
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

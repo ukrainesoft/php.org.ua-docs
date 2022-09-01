@@ -1,16 +1,11 @@
-Надсилає сигнал відповідному процесу
-
--   [« posixisatty](function.posix-isatty.html)
-    
--   [posixmkfifo »](function.posix-mkfifo.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Надсилає сигнал відповідному процесу
-    
-
+---
+navigation:
+  - function.posix-isatty.html: « posixisatty
+  - function.posix-mkfifo.html: posixmkfifo »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixkill
+---
 # posixkill
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

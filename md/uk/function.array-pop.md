@@ -1,16 +1,11 @@
-Витягує останній елемент масиву
-
--   [« arraypad](function.array-pad.html)
-    
--   [arrayproduct »](function.array-product.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Витягує останній елемент масиву
-    
-
+---
+navigation:
+  - function.array-pad.html: « arraypad
+  - function.array-product.html: arrayproduct »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraypop
+---
 # arraypop
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

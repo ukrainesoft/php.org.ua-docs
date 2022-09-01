@@ -1,16 +1,11 @@
-Клас DOMDocumentFragment
-
--   [« DOMDocument::xinclude](domdocument.xinclude.md)
-    
--   [DOMDocumentFragment::appendXML »](domdocumentfragment.appendxml.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMDocumentFragment
-    
-
+---
+navigation:
+  - domdocument.xinclude.md: '« DOMDocument::xinclude'
+  - domdocumentfragment.appendxml.md: 'DOMDocumentFragment::appendXML »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMDocumentFragment
+---
 # Клас DOMDocumentFragment
 
 (PHP 5, PHP 7, PHP 8)
@@ -162,10 +157,10 @@ childElementCount
 
 ## список змін
 
-| Версия | Описание                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------|
-|        | Додані властивості першихелементівChild, LastElementChild і ChildElementCount.                |
-|        | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості першихелементівChild, LastElementChild і ChildElementCount. |
+|  | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
 
 ## Зміст
 

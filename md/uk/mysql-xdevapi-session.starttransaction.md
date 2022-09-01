@@ -1,16 +1,11 @@
-Починає транзакцію
-
--   [« Session::sql](mysql-xdevapi-session.sql.html)
-    
--   [mysqlxdevapiSqlStatement »](class.mysql-xdevapi-sqlstatement.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Починає транзакцію
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.sql.html: '« Session::sql'
+  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::startTransaction'
+---
 # Session::startTransaction
 
 (No version information available, might only be in Git)

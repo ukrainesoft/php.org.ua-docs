@@ -1,16 +1,11 @@
-Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
-
--   [« db2execute](function.db2-execute.html)
-    
--   [db2fetchassoc »](function.db2-fetch-assoc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
-    
-
+---
+navigation:
+  - function.db2-execute.html: « db2execute
+  - function.db2-fetch-assoc.html: db2fetchassoc »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fetcharray
+---
 # db2fetcharray
 
 (PECL ibmdb2> = 1.0.1)

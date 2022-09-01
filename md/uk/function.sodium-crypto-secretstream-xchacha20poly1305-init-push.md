@@ -1,16 +1,11 @@
-Ініціалізує контекст secretstream для шифрування
-
--   [« sodiumcryptosecretstreamxchacha20poly1305initpull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html)
-    
--   [sodiumcryptosecretstreamxchacha20poly1305keygen »](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Ініціалізує контекст secretstream для шифрування
-    
-
+---
+navigation:
+  - function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html: « sodiumcryptosecretstreamxchacha20poly1305initpull
+  - function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html: sodiumcryptosecretstreamxchacha20poly1305keygen »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptosecretstreamxchacha20poly1305initpush
+---
 # sodiumcryptosecretstreamxchacha20poly1305initpush
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Контексти потоків
-
--   [« Поточні фільтри](stream.filters.html)
-    
--   [Ошибки потока »](stream.errors.html)
-    
--   [PHP Manual](index.html)
-    
--   [Потоки](book.stream.html)
-    
--   Контексти потоків
-    
-
+---
+navigation:
+  - stream.filters.html: « Поточні фільтри
+  - stream.errors.html: Ошибки потока »
+  - index.html: PHP Manual
+  - book.stream.html: Потоки
+title: Контексти потоків
+---
 # Контексти потоків
 
 `Контекст` - це набір `параметров` та залежних від контексту `опций`, який змінює або розширює поведінку потоку . `Контексты` створюються за допомогою функції [streamcontextcreate()](function.stream-context-create.html) і можуть бути передані більшості функцій файлової системи, пов'язаних із створенням потоків (наприклад, [fopen()](function.fopen.html) [file()](function.file.html) [filegetcontents()](function.file-get-contents.html), і т.д...).

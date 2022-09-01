@@ -1,16 +1,11 @@
-Клас PharFileInfo
-
--   [« PharData::setStub](phardata.setstub.md)
-    
--   [PharFileInfo::chmod »](pharfileinfo.chmod.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](book.phar.md)
-    
--   Клас PharFileInfo
-    
-
+---
+navigation:
+  - phardata.setstub.md: '« PharData::setStub'
+  - pharfileinfo.chmod.md: 'PharFileInfo::chmod »'
+  - index.md: PHP Manual
+  - book.phar.md: Phar
+title: Клас PharFileInfo
+---
 # Клас PharFileInfo
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

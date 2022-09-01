@@ -1,16 +1,11 @@
-Приймає змінну ззовні PHP і, при необхідності, фільтрує її
-
--   [« filterinputarray](function.filter-input-array.html)
-    
--   [filterlist »](function.filter-list.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції фільтрації даних](ref.filter.html)
-    
--   Приймає змінну ззовні PHP і, при необхідності, фільтрує її
-    
-
+---
+navigation:
+  - function.filter-input-array.html: « filterinputarray
+  - function.filter-list.html: filterlist »
+  - index.html: PHP Manual
+  - ref.filter.html: Функції фільтрації даних
+title: filterinput
+---
 # filterinput
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

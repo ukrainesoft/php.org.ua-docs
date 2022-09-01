@@ -1,16 +1,11 @@
-Клас SplStack
-
--   [« SplDoublyLinkedList::valid](spldoublylinkedlist.valid.html)
-    
--   [SplStack::construct »](splstack.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Структури даних](spl.datastructures.html)
-    
--   Клас SplStack
-    
-
+---
+navigation:
+  - spldoublylinkedlist.valid.html: '« SplDoublyLinkedList::valid'
+  - splstack.construct.html: 'SplStack::construct »'
+  - index.html: PHP Manual
+  - spl.datastructures.html: Структури даних
+title: Клас SplStack
+---
 # Клас SplStack
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

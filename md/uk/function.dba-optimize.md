@@ -1,16 +1,11 @@
-Оптимізує базу даних
-
--   [« dbaopen](function.dba-open.html)
-    
--   [dbapopen »](function.dba-popen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Оптимізує базу даних
-    
-
+---
+navigation:
+  - function.dba-open.html: « dbaopen
+  - function.dba-popen.html: dbapopen »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbaoptimize
+---
 # dbaoptimize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

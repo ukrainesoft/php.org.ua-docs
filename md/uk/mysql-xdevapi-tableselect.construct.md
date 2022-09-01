@@ -1,16 +1,11 @@
-Конструктор класу TableSelect
-
--   [« TableSelect::bind](mysql-xdevapi-tableselect.bind.html)
-    
--   [TableSelect::execute »](mysql-xdevapi-tableselect.execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Конструктор класу TableSelect
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.bind.html: '« TableSelect::bind'
+  - mysql-xdevapi-tableselect.execute.html: 'TableSelect::execute »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::construct'
+---
 # TableSelect::construct
 
 (No version information available, might only be in Git)

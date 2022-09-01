@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](swoole.requirements.html)
-    
--   [Налаштування під час виконання »](swoole.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](swoole.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - swoole.requirements.html: « Вимоги
+  - swoole.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - swoole.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Використовуйте **\-with-swoole=DIR** при компіляції PHP.

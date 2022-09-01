@@ -1,16 +1,11 @@
-Індекс найбільшого значення за вказаний період
-
--   [« tradermax](function.trader-max.html)
-    
--   [tradermedprice »](function.trader-medprice.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Індекс найбільшого значення за вказаний період
-    
-
+---
+navigation:
+  - function.trader-max.html: « tradermax
+  - function.trader-medprice.html: tradermedprice »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermaxindex
+---
 # tradermaxindex
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Виклик статичного методу
-
--   [« forwardstaticcallarray](function.forward-static-call-array.html)
-    
--   [funcgetarg »](function.func-get-arg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции управления функциями](ref.funchand.html)
-    
--   Виклик статичного методу
-    
-
+---
+navigation:
+  - function.forward-static-call-array.html: « forwardstaticcallarray
+  - function.func-get-arg.html: funcgetarg »
+  - index.html: PHP Manual
+  - ref.funchand.html: Функции управления функциями
+title: forwardstaticcall
+---
 # forwardstaticcall
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

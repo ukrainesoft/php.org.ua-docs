@@ -1,16 +1,11 @@
-Функції SVN
-
--   [« Обумовлені константи](svn.constants.html)
-    
--   [svnadd »](function.svn-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVN](book.svn.html)
-    
--   Функції SVN
-    
-
+---
+navigation:
+  - svn.constants.html: « Обумовлені константи
+  - function.svn-add.html: svnadd »
+  - index.html: PHP Manual
+  - book.svn.html: SVN
+title: Функції SVN
+---
 # Функції SVN
 
 ## Зміст

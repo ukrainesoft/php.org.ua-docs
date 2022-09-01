@@ -1,16 +1,11 @@
-Subversion
-
--   [« SVMModel::save](svmmodel.save.html)
-    
--   [Введение »](intro.svn.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   Subversion
-    
-
+---
+navigation:
+  - svmmodel.save.html: '« SVMModel::save'
+  - intro.svn.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: Subversion
+---
 # Subversion
 
 -   [Введение](intro.svn.html)

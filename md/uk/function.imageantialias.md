@@ -1,16 +1,11 @@
-Чи потрібно застосовувати функції згладжування чи ні
-
--   [« imagealphablending](function.imagealphablending.md)
-    
--   [imagearc »](function.imagearc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Чи потрібно застосовувати функції згладжування чи ні
-    
-
+---
+navigation:
+  - function.imagealphablending.md: « imagealphablending
+  - function.imagearc.md: imagearc »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageantialias
+---
 # imageantialias
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
@@ -45,10 +40,10 @@ imageantialias(GdImage $image, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                                                      |
-|        | Функція **imageantialias()** доступна без обмежень. Раніше вона була доступна тільки якщо PHP був зібраний з використанням бібліотеки GD, що йде з ним в комплекті. |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | Функція **imageantialias()** доступна без обмежень. Раніше вона була доступна тільки якщо PHP був зібраний з використанням бібліотеки GD, що йде з ним в комплекті. |
 
 ### Приклади
 

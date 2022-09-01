@@ -1,16 +1,11 @@
-Встановлення
-
--   [Менеджер процесів FastCGI (FPM)](install.fpm.md)
-    
--   [Настройка »](install.fpm.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Менеджер процесів FastCGI (FPM)](install.fpm.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - install.fpm.md: Менеджер процесів FastCGI (FPM)
+  - install.fpm.configuration.md: Настройка »
+  - index.md: PHP Manual
+  - install.fpm.md: Менеджер процесів FastCGI (FPM)
+title: Встановлення
+---
 ## Встановлення
 
 ### Компіляція з вихідних джерел
@@ -32,6 +27,6 @@
 
 ### список змін
 
-| Версия | Описание                           |
-|--------|------------------------------------|
-|        | Додана опція `--with-fpm-apparmor` |
+| Версия | Описание |
+| --- | --- |
+|  | Додана опція `--with-fpm-apparmor` |

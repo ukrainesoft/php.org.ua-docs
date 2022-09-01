@@ -1,16 +1,11 @@
-Перевірити, чи є число "досконалим ступенем"
-
--   [« gmpор](function.gmp-or.html)
-    
--   [gmpperfectsquare »](function.gmp-perfect-square.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Перевірити, чи є число "досконалим ступенем"
-    
-
+---
+navigation:
+  - function.gmp-or.html: « gmpор
+  - function.gmp-perfect-square.html: gmpperfectsquare »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpperfectpower
+---
 # gmpperfectpower
 
 (PHP 7> = 7.3.0, PHP 8)

@@ -1,16 +1,11 @@
-Yet Another Framework
-
--   [« yamlparse](function.yaml-parse.html)
-    
--   [Введение »](intro.yaf.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Yet Another Framework
-    
-
+---
+navigation:
+  - function.yaml-parse.html: « yamlparse
+  - intro.yaf.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Yet Another Framework
+---
 # Yet Another Framework
 
 -   [Введение](intro.yaf.md)

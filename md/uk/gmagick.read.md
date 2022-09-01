@@ -1,16 +1,11 @@
-Читає зображення з файлу
-
--   [« Gmagick::raiseimage](gmagick.raiseimage.html)
-    
--   [Gmagick::readimage »](gmagick.readimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Читає зображення з файлу
-    
-
+---
+navigation:
+  - gmagick.raiseimage.html: '« Gmagick::raiseimage'
+  - gmagick.readimage.html: 'Gmagick::readimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::read'
+---
 # Gmagick::read
 
 (PECL gmagick >= Unknown)

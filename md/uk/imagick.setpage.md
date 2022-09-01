@@ -1,16 +1,11 @@
-Встановлює геометрію сторінки об'єкту Imagick
-
--   [« Imagick::setOption](imagick.setoption.html)
-    
--   [Imagick::setPointSize »](imagick.setpointsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює геометрію сторінки об'єкту Imagick
-    
-
+---
+navigation:
+  - imagick.setoption.html: '« Imagick::setOption'
+  - imagick.setpointsize.html: 'Imagick::setPointSize »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setPage'
+---
 # Imagick::setPage
 
 (PECL imagick 2, PECL imagick 3)

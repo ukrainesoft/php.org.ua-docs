@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Вимоги](inotify.requirements.md)
-    
--   [Налаштування під час виконання »](inotify.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](inotify.setup.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - inotify.requirements.md: « Вимоги
+  - inotify.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - inotify.setup.md: Встановлення та налаштування
+title: Встановлення та налаштування
+---
 ## Встановлення та налаштування
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

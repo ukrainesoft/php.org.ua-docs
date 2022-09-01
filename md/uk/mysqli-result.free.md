@@ -1,16 +1,11 @@
-Звільняє пам'ять, зайняту результатами запиту
-
--   [« mysqliresult::fieldseek](mysqli-result.field-seek.html)
-    
--   [mysqliresult::getIterator »](mysqli-result.getiterator.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Звільняє пам'ять, зайняту результатами запиту
-    
-
+---
+navigation:
+  - mysqli-result.field-seek.html: '« mysqliresult::fieldseek'
+  - mysqli-result.getiterator.html: 'mysqliresult::getIterator »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::free'
+---
 # mysqliresult::free
 
 # mysqliresult::close

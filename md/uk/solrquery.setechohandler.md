@@ -1,16 +1,11 @@
-Перемикає параметр echoHandler
-
--   [« SolrQuery::removeStatsField](solrquery.removestatsfield.html)
-    
--   [SolrQuery::setEchoParams »](solrquery.setechoparams.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Перемикає параметр echoHandler
-    
-
+---
+navigation:
+  - solrquery.removestatsfield.html: '« SolrQuery::removeStatsField'
+  - solrquery.setechoparams.html: 'SolrQuery::setEchoParams »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setEchoHandler'
+---
 # SolrQuery::setEchoHandler
 
 (PECL solr> = 0.9.2)

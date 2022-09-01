@@ -1,16 +1,11 @@
-Отримує зовнішній ітератор
-
--   [« WeakMap::count](weakmap.count.md)
-    
--   [WeakMap::offsetExists »](weakmap.offsetexists.md)
-    
--   [PHP Manual](index.md)
-    
--   [WeakMap](class.weakmap.md)
-    
--   Отримує зовнішній ітератор
-    
-
+---
+navigation:
+  - weakmap.count.md: '« WeakMap::count'
+  - weakmap.offsetexists.md: 'WeakMap::offsetExists »'
+  - index.md: PHP Manual
+  - class.weakmap.md: WeakMap
+title: 'WeakMap::getIterator'
+---
 # WeakMap::getIterator
 
 (PHP 8)

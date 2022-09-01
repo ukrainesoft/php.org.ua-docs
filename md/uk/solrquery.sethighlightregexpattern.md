@@ -1,16 +1,11 @@
-Задає регулярний вираз для фрагментації
-
--   [« SolrQuery::setHighlightRegexMaxAnalyzedChars](solrquery.sethighlightregexmaxanalyzedchars.html)
-    
--   [SolrQuery::setHighlightRegexSlop »](solrquery.sethighlightregexslop.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Задає регулярний вираз для фрагментації
-    
-
+---
+navigation:
+  - solrquery.sethighlightregexmaxanalyzedchars.html: '« SolrQuery::setHighlightRegexMaxAnalyzedChars'
+  - solrquery.sethighlightregexslop.html: 'SolrQuery::setHighlightRegexSlop »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setHighlightRegexPattern'
+---
 # SolrQuery::setHighlightRegexPattern
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Клас Normalizer
-
--   [« Locale::setDefault](locale.setdefault.md)
-    
--   [Normalizer::getRawDecomposition »](normalizer.getrawdecomposition.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас Normalizer
-    
-
+---
+navigation:
+  - locale.setdefault.md: '« Locale::setDefault'
+  - normalizer.getrawdecomposition.md: 'Normalizer::getRawDecomposition »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас Normalizer
+---
 # Клас Normalizer
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

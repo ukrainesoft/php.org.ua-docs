@@ -1,16 +1,11 @@
-Перевірити, чи є архів суцільним
-
--   [« RarArchive::isBroken](rararchive.isbroken.html)
-    
--   [RarArchive::open »](rararchive.open.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarArchive](class.rararchive.html)
-    
--   Перевірити, чи є архів суцільним
-    
-
+---
+navigation:
+  - rararchive.isbroken.html: '« RarArchive::isBroken'
+  - rararchive.open.html: 'RarArchive::open »'
+  - index.html: PHP Manual
+  - class.rararchive.html: RarArchive
+title: 'RarArchive::isSolid'
+---
 # RarArchive::isSolid
 
 # rarsolidіс

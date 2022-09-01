@@ -1,16 +1,11 @@
-Перевіряє з'єднання з сервером та переєднується за потреби
-
--   [« mysqlpconnect](function.mysql-pconnect.html)
-    
--   [mysqlquery »](function.mysql-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Перевіряє з'єднання з сервером та переєднується за потреби
-    
-
+---
+navigation:
+  - function.mysql-pconnect.html: « mysqlpconnect
+  - function.mysql-query.html: mysqlquery »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlping
+---
 # mysqlping
 
 (PHP 4> = 4.3.0, PHP 5)

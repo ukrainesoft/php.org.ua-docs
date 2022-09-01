@@ -1,16 +1,11 @@
-Об'єднує два зображення
-
--   [« Imagick::steganoImage](imagick.steganoimage.html)
-    
--   [Imagick::stripImage »](imagick.stripimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Об'єднує два зображення
-    
-
+---
+navigation:
+  - imagick.steganoimage.html: '« Imagick::steganoImage'
+  - imagick.stripimage.html: 'Imagick::stripImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::stereoImage'
+---
 # Imagick::stereoImage
 
 (PECL imagick 2, PECL imagick 3)

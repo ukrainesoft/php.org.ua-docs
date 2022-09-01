@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](zookeeper.requirements.md)
-    
--   [Налаштування під час виконання »](zookeeper.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](zookeeper.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - zookeeper.requirements.md: « Вимоги
+  - zookeeper.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - zookeeper.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

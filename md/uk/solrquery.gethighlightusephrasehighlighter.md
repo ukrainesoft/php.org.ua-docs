@@ -1,16 +1,11 @@
-Повертає стан параметра hl.usePhraseHighlighter
-
--   [« SolrQuery::getHighlightSnippets](solrquery.gethighlightsnippets.md)
-    
--   [SolrQuery::getMlt »](solrquery.getmlt.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає стан параметра hl.usePhraseHighlighter
-    
-
+---
+navigation:
+  - solrquery.gethighlightsnippets.md: '« SolrQuery::getHighlightSnippets'
+  - solrquery.getmlt.md: 'SolrQuery::getMlt »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightUsePhraseHighlighter'
+---
 # SolrQuery::getHighlightUsePhraseHighlighter
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Розширення
-
--   [« parallelFuture::done](parallel-future.done.html)
-    
--   [parallelChannel »](class.parallel-channel.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallelFuture](class.parallel-future.html)
-    
--   Розширення
-    
-
+---
+navigation:
+  - parallel-future.done.html: '« parallelFuture::done'
+  - class.parallel-channel.html: parallelChannel »
+  - index.html: PHP Manual
+  - class.parallel-future.html: parallelFuture
+title: 'parallelFuture::value'
+---
 # parallelFuture::value
 
 parallelFuture::value — Дозвіл

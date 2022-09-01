@@ -1,16 +1,11 @@
-Змінює контраст зображення
-
--   [« Imagick::construct](imagick.construct.html)
-    
--   [Imagick::contrastStretchImage »](imagick.contraststretchimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Змінює контраст зображення
-    
-
+---
+navigation:
+  - imagick.construct.html: '« Imagick::construct'
+  - imagick.contraststretchimage.html: 'Imagick::contrastStretchImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::contrastImage'
+---
 # Imagick::contrastImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Клас parallelFuture
-
--   [« parallelRuntime::kill](parallel-runtime.kill.html)
-    
--   [parallelFuture::cancel »](parallel-future.cancel.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallel](book.parallel.md)
-    
--   Клас parallelFuture
-    
-
+---
+navigation:
+  - parallel-runtime.kill.html: '« parallelRuntime::kill'
+  - parallel-future.cancel.html: 'parallelFuture::cancel »'
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Клас parallelFuture
+---
 # Клас parallelFuture
 
 ## Об'єкти Future

@@ -1,16 +1,11 @@
-Типова ціна
-
--   [« tradertsf](function.trader-tsf.html)
-    
--   [traderultosc »](function.trader-ultosc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Типова ціна
-    
-
+---
+navigation:
+  - function.trader-tsf.html: « tradertsf
+  - function.trader-ultosc.html: traderultosc »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertypprice
+---
 # tradertypprice
 
 (PECL trader >= 0.2.0)

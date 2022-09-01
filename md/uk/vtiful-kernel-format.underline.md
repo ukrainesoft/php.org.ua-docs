@@ -1,16 +1,11 @@
-Підкреслений
-
--   [« VtifulKernelFormat::italic](vtiful-kernel-format.italic.html)
-    
--   [Модули для управления процессами программ »](refs.fileprocess.process.md)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelFormat](class.vtiful-kernel-format.html)
-    
--   Підкреслений
-    
-
+---
+navigation:
+  - vtiful-kernel-format.italic.html: '« VtifulKernelFormat::italic'
+  - refs.fileprocess.process.md: Модули для управления процессами программ »
+  - index.md: PHP Manual
+  - class.vtiful-kernel-format.html: VtifulKernelFormat
+title: 'VtifulKernelFormat::underline'
+---
 # VtifulKernelFormat::underline
 
 (PECL xlswriter >= 1.2.1)

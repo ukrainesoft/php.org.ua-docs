@@ -1,16 +1,11 @@
-Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
-
--   [« DOMElement::setAttributeNS](domelement.setattributens.html)
-    
--   [DOMElement::setIdAttributeNode »](domelement.setidattributenode.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMElement](class.domelement.html)
-    
--   Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
-    
-
+---
+navigation:
+  - domelement.setattributens.html: '« DOMElement::setAttributeNS'
+  - domelement.setidattributenode.html: 'DOMElement::setIdAttributeNode »'
+  - index.html: PHP Manual
+  - class.domelement.html: DOMElement
+title: 'DOMElement::setIdAttribute'
+---
 # DOMElement::setIdAttribute
 
 (PHP 5, PHP 7, PHP 8)

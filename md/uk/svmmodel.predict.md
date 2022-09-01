@@ -1,16 +1,11 @@
-Передбачити значення на основі нових даних
-
--   [« SVMModel::predictprobability](svmmodel.predict-probability.html)
-    
--   [SVMModel::save »](svmmodel.save.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVMModel](class.svmmodel.md)
-    
--   Передбачити значення на основі нових даних
-    
-
+---
+navigation:
+  - svmmodel.predict-probability.html: '« SVMModel::predictprobability'
+  - svmmodel.save.md: 'SVMModel::save »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::predict'
+---
 # SVMModel::predict
 
 (PECL svm >= 0.1.0)

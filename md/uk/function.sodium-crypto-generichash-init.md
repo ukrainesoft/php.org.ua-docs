@@ -1,16 +1,11 @@
-Ініціалізує хеш для потокової передачі
-
--   [« sodiumcryptogenerichashfinal](function.sodium-crypto-generichash-final.html)
-    
--   [sodiumcryptogenerichashkeygen »](function.sodium-crypto-generichash-keygen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Ініціалізує хеш для потокової передачі
-    
-
+---
+navigation:
+  - function.sodium-crypto-generichash-final.html: « sodiumcryptogenerichashfinal
+  - function.sodium-crypto-generichash-keygen.html: sodiumcryptogenerichashkeygen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptogenerichashinit
+---
 # sodiumcryptogenerichashinit
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Закриває зображення та звільняє пам'ять
-
--   [«psclip](function.ps-clip.html)
-    
--   [псclose »](function.ps-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Закриває зображення та звільняє пам'ять
-    
-
+---
+navigation:
+  - function.ps-clip.html: «psclip
+  - function.ps-close.html: псclose »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псcloseimage
+---
 # псcloseimage
 
 (PECL ps >= 1.1.0)

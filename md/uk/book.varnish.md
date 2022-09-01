@@ -1,16 +1,11 @@
-Varnish
-
--   [« tcpwrapcheck](function.tcpwrap-check.html)
-    
--   [Введение »](intro.varnish.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   Varnish
-    
-
+---
+navigation:
+  - function.tcpwrap-check.html: « tcpwrapcheck
+  - intro.varnish.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: Varnish
+---
 # Varnish
 
 -   [Введение](intro.varnish.html)

@@ -1,16 +1,11 @@
-Обвести шлях
-
--   [« UIDrawPen::save](ui-draw-pen.save.html)
-    
--   [ОЙDrawPen::transform »](ui-draw-pen.transform.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPen](class.ui-draw-pen.html)
-    
--   Обвести шлях
-    
-
+---
+navigation:
+  - ui-draw-pen.save.html: '« UIDrawPen::save'
+  - ui-draw-pen.transform.html: 'ОЙDrawPen::transform »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.html: ОЙDrawPen
+title: 'ОЙDrawPen::stroke'
+---
 # ОЙDrawPen::stroke
 
 (UI 0.9.9)

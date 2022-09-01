@@ -1,16 +1,11 @@
-Клас MongoDBBSONSymbol (застарілий)
-
--   [« MongoDBBSONInt64::unserialize](mongodb-bson-int64.unserialize.html)
-    
--   [MongoDBBSONSymbol::construct »](mongodb-bson-symbol.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Клас MongoDBBSONSymbol (застарілий)
-    
-
+---
+navigation:
+  - mongodb-bson-int64.unserialize.html: '« MongoDBBSONInt64::unserialize'
+  - mongodb-bson-symbol.construct.html: 'MongoDBBSONSymbol::construct »'
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Клас MongoDBBSONSymbol (застарілий)
+---
 # Клас MongoDBBSONSymbol (застарілий)
 
 (mongodb >=1.4.0)
@@ -47,8 +42,8 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                             |
-|---------------------|----------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
 
 ## Зміст

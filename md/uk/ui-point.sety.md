@@ -1,16 +1,11 @@
-Встановити Y
-
--   [« UIPoint::setX](ui-point.setx.html)
-    
--   [ОЙSize »](class.ui-size.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙPoint](class.ui-point.html)
-    
--   Встановити Y
-    
-
+---
+navigation:
+  - ui-point.setx.html: '« UIPoint::setX'
+  - class.ui-size.html: ОЙSize »
+  - index.md: PHP Manual
+  - class.ui-point.html: ОЙPoint
+title: 'ОЙPoint::setY'
+---
 # ОЙPoint::setY
 
 (UI 0.9.9)

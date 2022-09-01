@@ -1,16 +1,11 @@
-Перевірити бінарну властивість Unicode для символу
-
--   [« IntlChar::getUnicodeVersion](intlchar.getunicodeversion.md)
-    
--   [IntlChar::isalnum »](intlchar.isalnum.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити бінарну властивість Unicode для символу
-    
-
+---
+navigation:
+  - intlchar.getunicodeversion.md: '« IntlChar::getUnicodeVersion'
+  - intlchar.isalnum.md: 'IntlChar::isalnum »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::hasBinaryProperty'
+---
 # IntlChar::hasBinaryProperty
 
 (PHP 7, PHP 8)

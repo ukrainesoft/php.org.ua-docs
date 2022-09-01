@@ -1,16 +1,11 @@
-Знищення ресурсу джерела
-
--   [« openalsourcecreate](function.openal-source-create.html)
-    
--   [openalsourceget »](function.openal-source-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Знищення ресурсу джерела
-    
-
+---
+navigation:
+  - function.openal-source-create.html: « openalsourcecreate
+  - function.openal-source-get.html: openalsourceget »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalsourcedestroy
+---
 # openalsourcedestroy
 
 (PECL openal >= 0.1.0)

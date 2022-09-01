@@ -1,16 +1,11 @@
-Перевіряє, чи можна відновити поточний стан підключення ZooKeeper
-
--   [« Zookeeper::getState](zookeeper.getstate.md)
-    
--   [Zookeeper::set »](zookeeper.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Перевіряє, чи можна відновити поточний стан підключення ZooKeeper
-    
-
+---
+navigation:
+  - zookeeper.getstate.md: '« Zookeeper::getState'
+  - zookeeper.set.md: 'Zookeeper::set »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::isRecoverable'
+---
 # Zookeeper::isRecoverable
 
 (PECL zookeeper >= 0.1.0)

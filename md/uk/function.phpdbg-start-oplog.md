@@ -1,16 +1,11 @@
-Опис
-
--   [« phpdbgprompt](function.phpdbg-prompt.html)
-    
--   [runkit7 »](book.runkit7.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции phpdbg](ref.phpdbg.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - function.phpdbg-prompt.html: « phpdbgprompt
+  - book.runkit7.html: runkit7 »
+  - index.html: PHP Manual
+  - ref.phpdbg.html: Функции phpdbg
+title: phpdbgstartoplog
+---
 # phpdbgstartoplog
 
 (PHP 7, PHP 8)

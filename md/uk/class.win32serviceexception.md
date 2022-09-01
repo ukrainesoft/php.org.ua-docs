@@ -1,16 +1,11 @@
-Клас Win32ServiceException
-
--   [« Win32 Service informations](win32service.constants.serviceinfos.md)
-    
--   [Приклади »](win32service.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](book.win32service.md)
-    
--   Клас Win32ServiceException
-    
-
+---
+navigation:
+  - win32service.constants.serviceinfos.md: « Win32 Service informations
+  - win32service.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.win32service.md: win32service
+title: Клас Win32ServiceException
+---
 # Клас Win32ServiceException
 
 (PECL win32service >=1.0.0)

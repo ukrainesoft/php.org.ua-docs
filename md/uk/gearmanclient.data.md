@@ -1,16 +1,11 @@
-Повертає дані програми (функція застаріла)
-
--   [« GearmanClient::context](gearmanclient.context.md)
-    
--   [GearmanClient::do »](gearmanclient.do.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Повертає дані програми (функція застаріла)
-    
-
+---
+navigation:
+  - gearmanclient.context.md: '« GearmanClient::context'
+  - gearmanclient.do.md: 'GearmanClient::do »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::data'
+---
 # GearmanClient::data
 
 (PECL gearman <= 0.5.0)

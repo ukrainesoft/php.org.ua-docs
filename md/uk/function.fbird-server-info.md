@@ -1,16 +1,11 @@
-Псевдонім ibaseserverinfo
-
--   [« fbirdrollback](function.fbird-rollback.html)
-    
--   [fbirdserviceattach »](function.fbird-service-attach.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseserverinfo
-    
-
+---
+navigation:
+  - function.fbird-rollback.html: « fbirdrollback
+  - function.fbird-service-attach.html: fbirdserviceattach »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdserverinfo
+---
 # fbirdserverinfo
 
 (PHP 5, PHP 7 < 7.4.0)

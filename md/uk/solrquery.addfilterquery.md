@@ -1,16 +1,11 @@
-Визначає запит фільтру
-
--   [« SolrQuery::addField](solrquery.addfield.html)
-    
--   [SolrQuery::addGroupField »](solrquery.addgroupfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Визначає запит фільтру
-    
-
+---
+navigation:
+  - solrquery.addfield.html: '« SolrQuery::addField'
+  - solrquery.addgroupfield.html: 'SolrQuery::addGroupField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::addFilterQuery'
+---
 # SolrQuery::addFilterQuery
 
 (PECL solr> = 0.9.2)

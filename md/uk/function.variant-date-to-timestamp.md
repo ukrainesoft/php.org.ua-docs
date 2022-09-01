@@ -1,16 +1,11 @@
-Перетворює варіант типу дата/час у часову мітку Unix
-
--   [« variantdatefromtimestamp](function.variant-date-from-timestamp.html)
-    
--   [variantdiv »](function.variant-div.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Перетворює варіант типу дата/час у часову мітку Unix
-    
-
+---
+navigation:
+  - function.variant-date-from-timestamp.html: « variantdatefromtimestamp
+  - function.variant-div.html: variantdiv »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantdateтоtimestamp
+---
 # variantdateтоtimestamp
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
-
--   [« streamsocketaccept](function.stream-socket-accept.html)
-    
--   [streamsocketenablecrypto »](function.stream-socket-enable-crypto.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
-    
-
+---
+navigation:
+  - function.stream-socket-accept.html: « streamsocketaccept
+  - function.stream-socket-enable-crypto.html: streamsocketenablecrypto »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamsocketclient
+---
 # streamsocketclient
 
 (PHP 5, PHP 7, PHP 8)
@@ -71,9 +66,9 @@ stream_socket_client(    string $address,    int &$error_code = null, �
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `timeout` і `context` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timeout` і `context` тепер допускають значення null. |
 
 ### Приклади
 

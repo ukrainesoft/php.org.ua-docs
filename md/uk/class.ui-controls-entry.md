@@ -1,16 +1,11 @@
-Елемент управління "Введення"
-
--   [« UIControlsLabel::setText](ui-controls-label.settext.html)
-    
--   [ОЙControlsEntry::construct »](ui-controls-entry.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління "Введення"
-    
-
+---
+navigation:
+  - ui-controls-label.settext.html: '« UIControlsLabel::setText'
+  - ui-controls-entry.construct.html: 'ОЙControlsEntry::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Введення"
+---
 # Елемент управління "Введення"
 
 (UI 0.9.9)

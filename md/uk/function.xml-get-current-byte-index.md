@@ -1,16 +1,11 @@
-Отримує поточний для XML-аналізатора байтовий індекс
-
--   [« xmlerrorstring](function.xml-error-string.html)
-    
--   [xmlgetcurrentcolumnnumber »](function.xml-get-current-column-number.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Отримує поточний для XML-аналізатора байтовий індекс
-    
-
+---
+navigation:
+  - function.xml-error-string.html: « xmlerrorstring
+  - function.xml-get-current-column-number.html: xmlgetcurrentcolumnnumber »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlgetcurrentbyteindex
+---
 # xmlgetcurrentbyteindex
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ xml_get_current_byte_index(XMLParser $parser): int
 
 ### список змін
 
-| Версия | Описание                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Примітки
 

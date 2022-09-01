@@ -1,16 +1,11 @@
-Менеджер процесів FastCGI (FPM)
-
--   [« Amazon EC2](install.cloud.ec2.md)
-    
--   [Установка »](install.fpm.install.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](install.md)
-    
--   Менеджер процесів FastCGI (FPM)
-    
-
+---
+navigation:
+  - install.cloud.ec2.md: « Amazon EC2
+  - install.fpm.install.md: Установка »
+  - index.md: PHP Manual
+  - install.md: Встановлення та налаштування
+title: Менеджер процесів FastCGI (FPM)
+---
 # Менеджер процесів FastCGI (FPM)
 
 ## Зміст

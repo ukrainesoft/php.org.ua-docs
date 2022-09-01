@@ -1,16 +1,11 @@
-Повертає ідентифікатор операції команди
-
--   [« MongoDBDriverMonitoringCommandFailedEvent::getError](mongodb-driver-monitoring-commandfailedevent.geterror.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent::getReply »](mongodb-driver-monitoring-commandfailedevent.getreply.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   Повертає ідентифікатор операції команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.geterror.html: '« MongoDBDriverMonitoringCommandFailedEvent::getError'
+  - mongodb-driver-monitoring-commandfailedevent.getreply.html: 'MongoDBDriverMonitoringCommandFailedEvent::getReply »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getOperationId'
+---
 # MongoDBDriverMonitoringCommandFailedEvent::getOperationId
 
 (mongodb >=1.3.0)

@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](runkit7.configuration.md)
-    
--   [Обумовлені константи »](runkit7.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](runkit7.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - runkit7.configuration.md: « Налаштування під час виконання
+  - runkit7.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - runkit7.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

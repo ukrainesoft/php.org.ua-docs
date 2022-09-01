@@ -1,16 +1,11 @@
-Встановлює метод видалення зображення
-
--   [« Imagick::setImageDepth](imagick.setimagedepth.md)
-    
--   [Imagick::setImageExtent »](imagick.setimageextent.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює метод видалення зображення
-    
-
+---
+navigation:
+  - imagick.setimagedepth.md: '« Imagick::setImageDepth'
+  - imagick.setimageextent.md: 'Imagick::setImageExtent »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageDispose'
+---
 # Imagick::setImageDispose
 
 (PECL imagick 2, PECL imagick 3)

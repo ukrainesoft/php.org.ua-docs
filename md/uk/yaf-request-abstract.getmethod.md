@@ -1,16 +1,11 @@
-Отримує метод запиту
-
--   [« YafRequestAbstract::getLanguage](yaf-request-abstract.getlanguage.html)
-    
--   [YafRequestAbstract::getModuleName »](yaf-request-abstract.getmodulename.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Отримує метод запиту
-    
-
+---
+navigation:
+  - yaf-request-abstract.getlanguage.html: '« YafRequestAbstract::getLanguage'
+  - yaf-request-abstract.getmodulename.html: 'YafRequestAbstract::getModuleName »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getMethod'
+---
 # YafRequestAbstract::getMethod
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Повертає генератор фрагментів тексту для виділеного тексту
-
--   [« SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.md)
-    
--   [SolrQuery::getHighlightFragsize »](solrquery.gethighlightfragsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає генератор фрагментів тексту для виділеного тексту
-    
-
+---
+navigation:
+  - solrquery.gethighlightformatter.md: '« SolrQuery::getHighlightFormatter'
+  - solrquery.gethighlightfragsize.md: 'SolrQuery::getHighlightFragsize »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightFragmenter'
+---
 # SolrQuery::getHighlightFragmenter
 
 (PECL solr> = 0.9.2)

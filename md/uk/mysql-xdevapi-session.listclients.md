@@ -1,16 +1,11 @@
-Отримує список клієнтів
-
--   [« Session::getServerVersion](mysql-xdevapi-session.getserverversion.html)
-    
--   [Session::quoteName »](mysql-xdevapi-session.quotename.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Отримує список клієнтів
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.getserverversion.html: '« Session::getServerVersion'
+  - mysql-xdevapi-session.quotename.html: 'Session::quoteName »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::listClients'
+---
 # Session::listClients
 
 (No version information available, might only be in Git)

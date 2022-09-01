@@ -1,16 +1,11 @@
-Перевіряє, чи можна створити екземпляр класу
-
--   [« ReflectionClass::isInstance](reflectionclass.isinstance.md)
-    
--   [ReflectionClass::isInterface »](reflectionclass.isinterface.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи можна створити екземпляр класу
-    
-
+---
+navigation:
+  - reflectionclass.isinstance.md: '« ReflectionClass::isInstance'
+  - reflectionclass.isinterface.md: 'ReflectionClass::isInterface »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isInstantiable'
+---
 # ReflectionClass::isInstantiable
 
 (PHP 5, PHP 7, PHP 8)

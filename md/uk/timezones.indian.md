@@ -1,16 +1,11 @@
-Індійська
-
--   [« Європа](timezones.europe.md)
-    
--   [Тихоокеанский »](timezones.pacific.md)
-    
--   [PHP Manual](index.md)
-    
--   [Список підтримуваних часових поясів](timezones.md)
-    
--   Індійська
-    
-
+---
+navigation:
+  - timezones.europe.md: « Європа
+  - timezones.pacific.md: Тихоокеанский »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
+title: Індійська
+---
 ## Індійська
 
 td>< td>Indian/Reunion

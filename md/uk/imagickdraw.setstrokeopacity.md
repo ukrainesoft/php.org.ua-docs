@@ -1,16 +1,11 @@
-Визначає непрозорість обведення контурів об'єкта
-
--   [« ImagickDraw::setStrokeMiterLimit](imagickdraw.setstrokemiterlimit.md)
-    
--   [ImagickDraw::setStrokePatternURL »](imagickdraw.setstrokepatternurl.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Визначає непрозорість обведення контурів об'єкта
-    
-
+---
+navigation:
+  - imagickdraw.setstrokemiterlimit.md: '« ImagickDraw::setStrokeMiterLimit'
+  - imagickdraw.setstrokepatternurl.md: 'ImagickDraw::setStrokePatternURL »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setStrokeOpacity'
+---
 # ImagickDraw::setStrokeOpacity
 
 (PECL imagick 2, PECL imagick 3)

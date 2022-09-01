@@ -1,16 +1,11 @@
-Встановлює режим авто-комміту для з'єднання
-
--   [« cubridsetadd](function.cubrid-set-add.html)
-    
--   [cubridsetдбparameter »](function.cubrid-set-db-parameter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Встановлює режим авто-комміту для з'єднання
-    
-
+---
+navigation:
+  - function.cubrid-set-add.html: « cubridsetadd
+  - function.cubrid-set-db-parameter.html: cubridsetдбparameter »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridsetautocommit
+---
 # cubridsetautocommit
 
 (PECL CUBRID >= 8.4.0)

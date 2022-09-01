@@ -1,16 +1,11 @@
-Розбирає файл, що містить скрипт Lua
-
--   [« Lua::getVersion](lua.getversion.md)
-    
--   [Lua::registerCallback »](lua.registercallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [Lua](class.lua.md)
-    
--   Розбирає файл, що містить скрипт Lua
-    
-
+---
+navigation:
+  - lua.getversion.md: '« Lua::getVersion'
+  - lua.registercallback.md: 'Lua::registerCallback »'
+  - index.md: PHP Manual
+  - class.lua.md: Lua
+title: 'Lua::include'
+---
 # Lua::include
 
 (PECL lua> = 0.9.0)

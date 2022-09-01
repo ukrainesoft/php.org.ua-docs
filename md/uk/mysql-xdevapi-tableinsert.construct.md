@@ -1,16 +1,11 @@
-Конструктор класу TableInsert
-
--   [« mysqlxdevapiTableInsert](class.mysql-xdevapi-tableinsert.html)
-    
--   [TableInsert::execute »](mysql-xdevapi-tableinsert.execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableInsert](class.mysql-xdevapi-tableinsert.html)
-    
--   Конструктор класу TableInsert
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-tableinsert.html: « mysqlxdevapiTableInsert
+  - mysql-xdevapi-tableinsert.execute.html: 'TableInsert::execute »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tableinsert.html: mysqlxdevapiTableInsert
+title: 'TableInsert::construct'
+---
 # TableInsert::construct
 
 (No version information available, might only be in Git)

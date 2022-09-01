@@ -1,16 +1,11 @@
-Повертає кількість параметрів у підготовленому запиті
-
--   [« ibasenumfields](function.ibase-num-fields.html)
-    
--   [ibaseparaminfo »](function.ibase-param-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Повертає кількість параметрів у підготовленому запиті
-    
-
+---
+navigation:
+  - function.ibase-num-fields.html: « ibasenumfields
+  - function.ibase-param-info.html: ibaseparaminfo »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasenumparams
+---
 # ibasenumparams
 
 (PHP 5, PHP 7 < 7.4.0)

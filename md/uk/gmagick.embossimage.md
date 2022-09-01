@@ -1,16 +1,11 @@
-Повертає зображення у градаціях сірого з тривимірним ефектом
-
--   [« Gmagick::edgeimage](gmagick.edgeimage.md)
-    
--   [Gmagick::enhanceimage »](gmagick.enhanceimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає зображення у градаціях сірого з тривимірним ефектом
-    
-
+---
+navigation:
+  - gmagick.edgeimage.md: '« Gmagick::edgeimage'
+  - gmagick.enhanceimage.md: 'Gmagick::enhanceimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::embossimage'
+---
 # Gmagick::embossimage
 
 (PECL gmagick >= Unknown)

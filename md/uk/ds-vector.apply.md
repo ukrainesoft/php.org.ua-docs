@@ -1,16 +1,11 @@
-Оновлює всі значення, застосовуючи до них передану callback-функцію
-
--   [« DsVector::allocate](ds-vector.allocate.html)
-    
--   [ДсVector::capacity »](ds-vector.capacity.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Оновлює всі значення, застосовуючи до них передану callback-функцію
-    
-
+---
+navigation:
+  - ds-vector.allocate.html: '« DsVector::allocate'
+  - ds-vector.capacity.html: 'ДсVector::capacity »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::apply'
+---
 # ДсVector::apply
 
 (PECL ds >= 1.0.0)

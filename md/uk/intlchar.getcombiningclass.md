@@ -1,16 +1,11 @@
-Отримати комбінуючий клас для символу
-
--   [« IntlChar::getBlockCode](intlchar.getblockcode.md)
-    
--   [IntlChar::getFCNFKCClosure »](intlchar.getfc-nfkc-closure.html)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати комбінуючий клас для символу
-    
-
+---
+navigation:
+  - intlchar.getblockcode.md: '« IntlChar::getBlockCode'
+  - intlchar.getfc-nfkc-closure.html: 'IntlChar::getFCNFKCClosure »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::getCombiningClass'
+---
 # IntlChar::getCombiningClass
 
 (PHP 7, PHP 8)

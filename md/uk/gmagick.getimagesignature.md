@@ -1,16 +1,11 @@
-Створює підпис повідомлення SHA-256
-
--   [« Gmagick::getimagescene](gmagick.getimagescene.md)
-    
--   [Gmagick::getimagetype »](gmagick.getimagetype.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Створює підпис повідомлення SHA-256
-    
-
+---
+navigation:
+  - gmagick.getimagescene.md: '« Gmagick::getimagescene'
+  - gmagick.getimagetype.md: 'Gmagick::getimagetype »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagesignature'
+---
 # Gmagick::getimagesignature
 
 (PECL gmagick >= Unknown)

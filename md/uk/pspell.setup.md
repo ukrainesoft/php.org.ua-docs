@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.pspell.html)
-    
--   [Вимоги »](pspell.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Pspell](book.pspell.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.pspell.html: « Введение
+  - pspell.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.pspell.html: Pspell
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

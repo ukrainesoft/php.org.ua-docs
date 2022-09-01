@@ -1,16 +1,11 @@
-Повертає рядок результату у вигляді об'єкта
-
--   [« odbcfetchinto](function.odbc-fetch-into.html)
-    
--   [odbcfetchrow »](function.odbc-fetch-row.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає рядок результату у вигляді об'єкта
-    
-
+---
+navigation:
+  - function.odbc-fetch-into.html: « odbcfetchinto
+  - function.odbc-fetch-row.html: odbcfetchrow »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcfetchobject
+---
 # odbcfetchobject
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

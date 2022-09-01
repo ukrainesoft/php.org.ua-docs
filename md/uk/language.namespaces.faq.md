@@ -1,16 +1,11 @@
-Часті питання (FAQ): речі, які вам необхідно знати про простори імен
-
--   [« Правила разрешения имён](language.namespaces.rules.md)
-    
--   [Перечисления »](language.enumerations.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пространства имён](language.namespaces.md)
-    
--   Часті питання (FAQ): речі, які вам необхідно знати про простори імен
-    
-
+---
+navigation:
+  - language.namespaces.rules.md: « Правила разрешения имён
+  - language.enumerations.md: Перечисления »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: 'Часті питання (FAQ): речі, які вам необхідно знати про простори імен'
+---
 ## Часті питання (FAQ): речі, які вам необхідно знати про простори імен
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

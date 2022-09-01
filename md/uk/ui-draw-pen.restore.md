@@ -1,16 +1,11 @@
-Відновити
-
--   [« UIDrawPen::fill](ui-draw-pen.fill.html)
-    
--   [ОЙDrawPen::save »](ui-draw-pen.save.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPen](class.ui-draw-pen.html)
-    
--   Відновити
-    
-
+---
+navigation:
+  - ui-draw-pen.fill.html: '« UIDrawPen::fill'
+  - ui-draw-pen.save.html: 'ОЙDrawPen::save »'
+  - index.md: PHP Manual
+  - class.ui-draw-pen.html: ОЙDrawPen
+title: 'ОЙDrawPen::restore'
+---
 # ОЙDrawPen::restore
 
 (UI 0.9.9)

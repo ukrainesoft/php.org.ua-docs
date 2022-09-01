@@ -1,16 +1,11 @@
-Псевдонім OCICollection::max
-
--   [« ocicollgetelem](function.ocicollgetelem.md)
-    
--   [ocicollsize »](function.ocicollsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім OCICollection::max
-    
-
+---
+navigation:
+  - function.ocicollgetelem.md: « ocicollgetelem
+  - function.ocicollsize.md: ocicollsize »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicollmax
+---
 # ocicollmax
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

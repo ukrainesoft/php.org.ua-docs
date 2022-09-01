@@ -1,16 +1,11 @@
-Отримує значення ключа /Encoding
-
--   [« fdfgetattachment](function.fdf-get-attachment.html)
-    
--   [fdfgetfile »](function.fdf-get-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Отримує значення ключа /Encoding
-    
-
+---
+navigation:
+  - function.fdf-get-attachment.html: « fdfgetattachment
+  - function.fdf-get-file.html: fdfgetfile »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfgetencoding
+---
 # fdfgetencoding
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

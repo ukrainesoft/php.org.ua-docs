@@ -1,16 +1,11 @@
-Збирає URL
-
--   [« YafRouteMap](class.yaf-route-map.html)
-    
--   [YafRouteMap::construct »](yaf-route-map.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteMap](class.yaf-route-map.html)
-    
--   Збирає URL
-    
-
+---
+navigation:
+  - class.yaf-route-map.html: « YafRouteMap
+  - yaf-route-map.construct.html: 'YafRouteMap::construct »'
+  - index.md: PHP Manual
+  - class.yaf-route-map.html: YafRouteMap
+title: 'YafRouteMap::assemble'
+---
 # YafRouteMap::assemble
 
 (Yaf >=2.3.0)

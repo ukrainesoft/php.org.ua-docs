@@ -1,16 +1,11 @@
-Намалювати прямокутник
-
--   [« UIDrawPath](class.ui-draw-path.html)
-    
--   [ОЙDrawPath::arcTo »](ui-draw-path.arcto.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Намалювати прямокутник
-    
-
+---
+navigation:
+  - class.ui-draw-path.html: « UIDrawPath
+  - ui-draw-path.arcto.html: 'ОЙDrawPath::arcTo »'
+  - index.html: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::addRectangle'
+---
 # ОЙDrawPath::addRectangle
 
 (UI 0.9.9)

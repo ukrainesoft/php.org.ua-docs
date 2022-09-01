@@ -1,16 +1,11 @@
-Перелічує імена стовпців у зазначених таблицях
-
--   [« odbccolumnprivileges](function.odbc-columnprivileges.html)
-    
--   [odbccommit »](function.odbc-commit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Перелічує імена стовпців у зазначених таблицях
-    
-
+---
+navigation:
+  - function.odbc-columnprivileges.html: « odbccolumnprivileges
+  - function.odbc-commit.html: odbccommit »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbccolumns
+---
 # odbccolumns
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -78,9 +73,9 @@ odbc_columns(    resource $odbc,    ?string $catalog = null,    ?str
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | `schema` `table` і `column` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `schema` `table` і `column` тепер допускають значення null. |
 
 ### Приклади
 

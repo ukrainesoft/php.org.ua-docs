@@ -1,16 +1,11 @@
-Отримує атрибут
-
--   [« NumberFormatter::format](numberformatter.format.md)
-    
--   [NumberFormatter::getErrorCode »](numberformatter.geterrorcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Отримує атрибут
-    
-
+---
+navigation:
+  - numberformatter.format.md: '« NumberFormatter::format'
+  - numberformatter.geterrorcode.md: 'NumberFormatter::getErrorCode »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getAttribute'
+---
 # NumberFormatter::getAttribute
 
 # numfmtgetattribute

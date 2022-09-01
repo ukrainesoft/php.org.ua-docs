@@ -1,16 +1,11 @@
-Визначає, чи є ім'я файлу директорією
-
--   [« glob](function.glob.md)
-    
--   [ісexecutable »](function.is-executable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Визначає, чи є ім'я файлу директорією
-    
-
+---
+navigation:
+  - function.glob.md: « glob
+  - function.is-executable.html: ісexecutable »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ісdir
+---
 # ісdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Ця функція деініціалізує модуль шифрування
-
--   [« mcryptencrypt](function.mcrypt-encrypt.html)
-    
--   [mcryptgenericinit »](function.mcrypt-generic-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Ця функція деініціалізує модуль шифрування
-    
-
+---
+navigation:
+  - function.mcrypt-encrypt.html: « mcryptencrypt
+  - function.mcrypt-generic-init.html: mcryptgenericinit »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptgenericdeinit
+---
 # mcryptgenericdeinit
 
 (PHP 4 >= 4.0.7, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

@@ -1,16 +1,11 @@
-Клас ReflectionObject
-
--   [« ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.html)
-    
--   [ReflectionObject::construct »](reflectionobject.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionObject
-    
-
+---
+navigation:
+  - reflectionnamedtype.isbuiltin.html: '« ReflectionNamedType::isBuiltin'
+  - reflectionobject.construct.html: 'ReflectionObject::construct »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionObject
+---
 # Клас ReflectionObject
 
 (PHP 5, PHP 7, PHP 8)

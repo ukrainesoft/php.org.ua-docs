@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](dio.requirements.md)
-    
--   [Налаштування під час виконання »](dio.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](dio.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - dio.requirements.md: « Вимоги
+  - dio.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - dio.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

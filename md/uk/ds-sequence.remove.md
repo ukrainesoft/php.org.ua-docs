@@ -1,16 +1,11 @@
-Видаляє та повертає значення за індексом
-
--   [« DsSequence::reduce](ds-sequence.reduce.html)
-    
--   [ДсSequence::reverse »](ds-sequence.reverse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Видаляє та повертає значення за індексом
-    
-
+---
+navigation:
+  - ds-sequence.reduce.html: '« DsSequence::reduce'
+  - ds-sequence.reverse.html: 'ДсSequence::reverse »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::remove'
+---
 # ДсSequence::remove
 
 (PECL ds >= 1.0.0)

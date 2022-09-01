@@ -1,16 +1,11 @@
-Сортує масив за ключом у порядку зростання
-
--   [« krsort](function.krsort.md)
-    
--   [list »](function.list.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Сортує масив за ключом у порядку зростання
-    
-
+---
+navigation:
+  - function.krsort.md: « krsort
+  - function.list.md: list »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: ksort
+---
 # ksort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

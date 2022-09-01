@@ -1,16 +1,13 @@
-Підтримка OCI8 Fast Application Notification (FAN)
-
--   [« Работа с соединениями OCI8 и Connection Pooling](oci8.connection.html)
-    
--   [Поддержка прозрачного для приложений восстановления после отказа (Transparent Application Failover или TAF) для OCI8 »](oci8.taf.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8](book.oci8.html)
-    
--   Підтримка OCI8 Fast Application Notification (FAN)
-    
-
+---
+navigation:
+  - oci8.connection.html: « Работа с соединениями OCI8 и Connection Pooling
+  - oci8.taf.html: >-
+      Поддержка прозрачного для приложений восстановления после отказа
+      (Transparent Application Failover или TAF) для OCI8 »
+  - index.html: PHP Manual
+  - book.oci8.html: OCI8
+title: Підтримка OCI8 Fast Application Notification (FAN)
+---
 # Підтримка OCI8 Fast Application Notification (FAN)
 
 Підтримка FAN забезпечує швидке перепідключення у разі збоїв, що забезпечує високу доступність бази даних Oracle. Ця функціональність дозволяє PHP OCI8 скрипту отримувати оповіщення у випадку, якщо база даних або сервер, на якому вона запущена, стають недоступними. Без FAN, OCI8 може підвиснути, доки не буде перевищено час очікування підключення та повернуто помилку, що може тривати кілька хвилин. Дозвіл FAN у OCI8 дозволяє програмам визначати такі помилки та перепідключатися до доступного екземпляра бази даних без очікування відповіді від недоступної бази.

@@ -1,16 +1,11 @@
-Ітератори
-
--   [« SplObjectStorage::valid](splobjectstorage.valid.md)
-    
--   [AppendIterator »](class.appenditerator.md)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Ітератори
-    
-
+---
+navigation:
+  - splobjectstorage.valid.md: '« SplObjectStorage::valid'
+  - class.appenditerator.md: AppendIterator »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Ітератори
+---
 # Ітератори
 
 ## Зміст

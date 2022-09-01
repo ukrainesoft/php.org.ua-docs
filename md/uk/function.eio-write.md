@@ -1,16 +1,11 @@
-Запис у файл
-
--   [« eioutime](function.eio-utime.html)
-    
--   [Ev »](book.ev.md)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Запис у файл
-    
-
+---
+navigation:
+  - function.eio-utime.html: « eioutime
+  - book.ev.md: Ev »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiowrite
+---
 # eiowrite
 
 (PECL eio >= 0.0.1dev)

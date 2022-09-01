@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
-    
--   [MongoDBDriverMonitoringServerChangedEvent::getNewDescription »](mongodb-driver-monitoring-serverchangedevent.getnewdescription.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-serverchangedevent.html: « MongoDBDriverMonitoringServerChangedEvent
+  - mongodb-driver-monitoring-serverchangedevent.getnewdescription.html: 'MongoDBDriverMonitoringServerChangedEvent::getNewDescription »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent
+title: 'MongoDBDriverMonitoringServerChangedEvent::getHost'
+---
 # MongoDBDriverMonitoringServerChangedEvent::getHost
 
 (mongodb >=1.13.0)

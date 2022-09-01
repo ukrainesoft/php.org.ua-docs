@@ -1,16 +1,11 @@
-Пам'ять, що розділяється (shared)
-
--   [« Базовое использование](shmop.examples-basic.html)
-    
--   [shmopclose »](function.shmop-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управление разделяемой памятью](book.shmop.html)
-    
--   Пам'ять, що розділяється (shared)
-    
-
+---
+navigation:
+  - shmop.examples-basic.html: « Базовое использование
+  - function.shmop-close.html: shmopclose »
+  - index.html: PHP Manual
+  - book.shmop.html: Управление разделяемой памятью
+title: 'Пам''ять, що розділяється (shared)'
+---
 # Пам'ять, що розділяється (shared)
 
 ## Зміст

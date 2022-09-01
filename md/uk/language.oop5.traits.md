@@ -1,16 +1,11 @@
-Трейти
-
--   [« Інтерфейси об'єктів](language.oop5.interfaces.html)
-    
--   [Анонімні класи »](language.oop5.anonymous.html)
-    
--   [PHP Manual](index.html)
-    
--   [Класи та об'єкти](language.oop5.html)
-    
--   Трейти
-    
-
+---
+navigation:
+  - language.oop5.interfaces.html: « Інтерфейси об'єктів
+  - language.oop5.anonymous.html: Анонімні класи »
+  - index.html: PHP Manual
+  - language.oop5.html: Класи та об'єкти
+title: Трейти
+---
 ## Трейти
 
 PHP реалізує метод повторного використання коду під назвою трейт (trait).

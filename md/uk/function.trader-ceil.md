@@ -1,16 +1,11 @@
-Вектор найбільшого цілого числа
-
--   [« tradercdlxsidegap3methods](function.trader-cdlxsidegap3methods.html)
-    
--   [tradercmo »](function.trader-cmo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Вектор найбільшого цілого числа
-    
-
+---
+navigation:
+  - function.trader-cdlxsidegap3methods.html: « tradercdlxsidegap3methods
+  - function.trader-cmo.html: tradercmo »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderceil
+---
 # traderceil
 
 (PECL trader >= 0.2.0)

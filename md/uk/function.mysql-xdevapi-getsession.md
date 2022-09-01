@@ -1,16 +1,11 @@
-Підключається до сервера MySQL
-
--   [« expression](function.mysql-xdevapi-expression.html)
-    
--   [mysqlxdevapiBaseResult »](class.mysql-xdevapi-baseresult.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Mysqlxdevapi](ref.mysql-xdevapi.html)
-    
--   Підключається до сервера MySQL
-    
-
+---
+navigation:
+  - function.mysql-xdevapi-expression.html: « expression
+  - class.mysql-xdevapi-baseresult.html: mysqlxdevapiBaseResult »
+  - index.md: PHP Manual
+  - ref.mysql-xdevapi.html: Функції Mysqlxdevapi
+title: getSession
+---
 # getSession
 
 (No version information available, might only be in Git)

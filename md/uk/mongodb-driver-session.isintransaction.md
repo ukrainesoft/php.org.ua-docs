@@ -1,16 +1,11 @@
-Визначає, чи відбувається зараз багатодокументна транзакція.
-
--   [« MongoDBDriverSession::isDirty](mongodb-driver-session.isdirty.html)
-    
--   [MongoDBDriverSession::startTransaction »](mongodb-driver-session.starttransaction.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Визначає, чи відбувається зараз багатодокументна транзакція.
-    
-
+---
+navigation:
+  - mongodb-driver-session.isdirty.html: '« MongoDBDriverSession::isDirty'
+  - mongodb-driver-session.starttransaction.html: 'MongoDBDriverSession::startTransaction »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::isInTransaction'
+---
 # MongoDBDriverSession::isInTransaction
 
 (mongodb >=1.6.0)

@@ -1,16 +1,11 @@
-Азія
-
--   [« Арктика](timezones.arctic.html)
-    
--   [Атлантика »](timezones.atlantic.html)
-    
--   [PHP Manual](index.html)
-    
--   [Список підтримуваних часових поясів](timezones.html)
-    
--   Азія
-    
-
+---
+navigation:
+  - timezones.arctic.html: « Арктика
+  - timezones.atlantic.html: Атлантика »
+  - index.html: PHP Manual
+  - timezones.html: Список підтримуваних часових поясів
+title: Азія
+---
 ## Азія
 
 < td>Asia/Baku< td>Asia/Tbilisi

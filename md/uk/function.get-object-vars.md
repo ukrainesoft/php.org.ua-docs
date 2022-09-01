@@ -1,16 +1,11 @@
-Повертає властивості вказаного об'єкту
-
--   [« getmangledobjectvars](function.get-mangled-object-vars.html)
-    
--   [getparentclass »](function.get-parent-class.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Повертає властивості вказаного об'єкту
-    
-
+---
+navigation:
+  - function.get-mangled-object-vars.html: « getmangledobjectvars
+  - function.get-parent-class.html: getparentclass »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getobjectvars
+---
 # getobjectvars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

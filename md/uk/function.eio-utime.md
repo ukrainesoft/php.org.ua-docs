@@ -1,16 +1,11 @@
-Змінює дату та час останньої модифікації та доступу до файлу
-
--   [« eiounlink](function.eio-unlink.html)
-    
--   [eiowrite »](function.eio-write.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Змінює дату та час останньої модифікації та доступу до файлу
-    
-
+---
+navigation:
+  - function.eio-unlink.html: « eiounlink
+  - function.eio-write.html: eiowrite »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eioutime
+---
 # eioutime
 
 (PECL eio >= 0.0.1dev)

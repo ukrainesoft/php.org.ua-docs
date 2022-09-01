@@ -1,16 +1,11 @@
-Повертає константи
-
--   [« ReflectionClass::getConstant](reflectionclass.getconstant.md)
-    
--   [ReflectionClass::getConstructor »](reflectionclass.getconstructor.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає константи
-    
-
+---
+navigation:
+  - reflectionclass.getconstant.md: '« ReflectionClass::getConstant'
+  - reflectionclass.getconstructor.md: 'ReflectionClass::getConstructor »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getConstants'
+---
 # ReflectionClass::getConstants
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public ReflectionClass::getConstants(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание                  |
-|--------|---------------------------|
-|        | Доданий параметр `filter` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `filter` |
 
 ### Дивіться також
 

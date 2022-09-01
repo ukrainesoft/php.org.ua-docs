@@ -1,16 +1,11 @@
-Створює екземпляр класу з переданими аргументами
-
--   [« ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md)
-    
--   [ReflectionClass::newInstanceArgs »](reflectionclass.newinstanceargs.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Створює екземпляр класу з переданими аргументами
-    
-
+---
+navigation:
+  - reflectionclass.isuserdefined.md: '« ReflectionClass::isUserDefined'
+  - reflectionclass.newinstanceargs.md: 'ReflectionClass::newInstanceArgs »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::newInstance'
+---
 # ReflectionClass::newInstance
 
 (PHP 5, PHP 7, PHP 8)

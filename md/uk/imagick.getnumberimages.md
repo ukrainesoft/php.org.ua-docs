@@ -1,16 +1,11 @@
-Повертає кількість зображень в об'єкті
-
--   [« Imagick::getIteratorIndex](imagick.getiteratorindex.html)
-    
--   [Imagick::getOption »](imagick.getoption.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає кількість зображень в об'єкті
-    
-
+---
+navigation:
+  - imagick.getiteratorindex.html: '« Imagick::getIteratorIndex'
+  - imagick.getoption.html: 'Imagick::getOption »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getNumberImages'
+---
 # Imagick::getNumberImages
 
 (PECL imagick 2, PECL imagick 3)

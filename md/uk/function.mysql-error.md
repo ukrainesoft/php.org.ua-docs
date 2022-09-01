@@ -1,16 +1,11 @@
-Повертає текст помилки останньої операції з MySQL
-
--   [« mysqlerrno](function.mysql-errno.html)
-    
--   [mysqlescapestring »](function.mysql-escape-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає текст помилки останньої операції з MySQL
-    
-
+---
+navigation:
+  - function.mysql-errno.html: « mysqlerrno
+  - function.mysql-escape-string.html: mysqlescapestring »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlerror
+---
 # mysqlerror
 
 (PHP 4, PHP 5)

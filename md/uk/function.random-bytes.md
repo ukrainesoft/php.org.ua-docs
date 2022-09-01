@@ -1,16 +1,11 @@
-Генерує криптографічно безпечні псевдовипадкові байти
-
--   [« Функции CSPRNG](ref.csprng.html)
-    
--   [randomint »](function.random-int.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CSPRNG](ref.csprng.html)
-    
--   Генерує криптографічно безпечні псевдовипадкові байти
-    
-
+---
+navigation:
+  - ref.csprng.html: « Функции CSPRNG
+  - function.random-int.html: randomint »
+  - index.html: PHP Manual
+  - ref.csprng.html: Функции CSPRNG
+title: randombytes
+---
 # randombytes
 
 (PHP 7, PHP 8)

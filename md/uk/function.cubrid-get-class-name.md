@@ -1,16 +1,11 @@
-Отримує ім'я класу за допомогою OID
-
--   [« cubridgetcharset](function.cubrid-get-charset.html)
-    
--   [cubridgetclientinfo »](function.cubrid-get-client-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримує ім'я класу за допомогою OID
-    
-
+---
+navigation:
+  - function.cubrid-get-charset.html: « cubridgetcharset
+  - function.cubrid-get-client-info.html: cubridgetclientinfo »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridgetclassname
+---
 # cubridgetclassname
 
 (PECL CUBRID >= 8.3.0)

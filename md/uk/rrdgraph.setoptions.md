@@ -1,16 +1,11 @@
-Встановлює параметри експорту графіка rrd
-
--   [« RRDGraph::saveVerbose](rrdgraph.saveverbose.md)
-    
--   [RRDUpdater »](class.rrdupdater.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRDGraph](class.rrdgraph.md)
-    
--   Встановлює параметри експорту графіка rrd
-    
-
+---
+navigation:
+  - rrdgraph.saveverbose.md: '« RRDGraph::saveVerbose'
+  - class.rrdupdater.md: RRDUpdater »
+  - index.md: PHP Manual
+  - class.rrdgraph.md: RRDGraph
+title: 'RRDGraph::setOptions'
+---
 # RRDGraph::setOptions
 
 (PECL rrd >= 0.9.0)

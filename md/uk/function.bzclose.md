@@ -1,16 +1,11 @@
-Закриває файл bzip2
-
--   [« Функції Bzip2](ref.bzip2.md)
-    
--   [bzcompress »](function.bzcompress.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Закриває файл bzip2
-    
-
+---
+navigation:
+  - ref.bzip2.md: « Функції Bzip2
+  - function.bzcompress.md: bzcompress »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzclose
+---
 # bzclose
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

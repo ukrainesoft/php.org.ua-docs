@@ -1,16 +1,11 @@
-Додає певний користувачем swooleprocess на сервер
-
--   [« SwooleServer::addlistener](swoole-server.addlistener.html)
-    
--   [SwooleServer::after »](swoole-server.after.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Додає певний користувачем swooleprocess на сервер
-    
-
+---
+navigation:
+  - swoole-server.addlistener.html: '« SwooleServer::addlistener'
+  - swoole-server.after.html: 'SwooleServer::after »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::addProcess'
+---
 # SwooleServer::addProcess
 
 (PECL swoole >= 1.9.0)

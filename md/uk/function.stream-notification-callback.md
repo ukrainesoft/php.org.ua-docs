@@ -1,16 +1,11 @@
-Callback-функція для параметра контексту notification
-
--   [« streamisatty](function.stream-isatty.html)
-    
--   [streamregisterwrapper »](function.stream-register-wrapper.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Callback-функція для параметра контексту notification
-    
-
+---
+navigation:
+  - function.stream-isatty.html: « streamisatty
+  - function.stream-register-wrapper.html: streamregisterwrapper »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamnotificationcallback
+---
 # streamnotificationcallback
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Створює новий набір з елементами, яких немає в іншому наборі
-
--   [« DsSet::count](ds-set.count.html)
-    
--   [ДсSet::filter »](ds-set.filter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Створює новий набір з елементами, яких немає в іншому наборі
-    
-
+---
+navigation:
+  - ds-set.count.html: '« DsSet::count'
+  - ds-set.filter.html: 'ДсSet::filter »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::diff'
+---
 # ДсSet::diff
 
 (PECL ds >= 1.0.0)

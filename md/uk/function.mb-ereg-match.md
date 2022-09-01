@@ -1,16 +1,11 @@
-Збіг з регулярним виразом для багатобайтового рядка
-
--   [« mbencodingaliases](function.mb-encoding-aliases.html)
-    
--   [мбeregreplacecallback »](function.mb-ereg-replace-callback.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Збіг з регулярним виразом для багатобайтового рядка
-    
-
+---
+navigation:
+  - function.mb-encoding-aliases.html: « mbencodingaliases
+  - function.mb-ereg-replace-callback.html: мбeregreplacecallback »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбeregmatch
+---
 # мбeregmatch
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ mb_ereg_match(string $pattern, string $string, ?string $options = null): bool
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `options` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `options` тепер допускає значення null. |
 
 ### Примітки
 

@@ -1,16 +1,11 @@
-Повертає шлях до файлу у вигляді рядка
-
--   [« SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)
-    
--   [SplFileObject »](class.splfileobject.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Повертає шлях до файлу у вигляді рядка
-    
-
+---
+navigation:
+  - splfileinfo.setinfoclass.md: '« SplFileInfo::setInfoClass'
+  - class.splfileobject.md: SplFileObject »
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::toString'
+---
 # SplFileInfo::toString
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

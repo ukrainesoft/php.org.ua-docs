@@ -1,16 +1,11 @@
-Повертає індекс поточного положення ітератора
-
--   [« SplObjectStorage::getInfo](splobjectstorage.getinfo.html)
-    
--   [SplObjectStorage::next »](splobjectstorage.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplObjectStorage](class.splobjectstorage.html)
-    
--   Повертає індекс поточного положення ітератора
-    
-
+---
+navigation:
+  - splobjectstorage.getinfo.html: '« SplObjectStorage::getInfo'
+  - splobjectstorage.next.html: 'SplObjectStorage::next »'
+  - index.html: PHP Manual
+  - class.splobjectstorage.html: SplObjectStorage
+title: 'SplObjectStorage::key'
+---
 # SplObjectStorage::key
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

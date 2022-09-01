@@ -1,16 +1,11 @@
-Повертає кількість класів, для яких навчалась модель
-
--   [« SVMModel::getLabels](svmmodel.getlabels.html)
-    
--   [SVMModel::getSvmType »](svmmodel.getsvmtype.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVMModel](class.svmmodel.html)
-    
--   Повертає кількість класів, для яких навчалась модель
-    
-
+---
+navigation:
+  - svmmodel.getlabels.html: '« SVMModel::getLabels'
+  - svmmodel.getsvmtype.html: 'SVMModel::getSvmType »'
+  - index.html: PHP Manual
+  - class.svmmodel.html: SVMModel
+title: 'SVMModel::getNrClass'
+---
 # SVMModel::getNrClass
 
 (PECL svm >= 0.1.5)

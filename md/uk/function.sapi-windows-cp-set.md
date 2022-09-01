@@ -1,16 +1,11 @@
-Встановити кодову сторінку процесу
-
--   [« sapiwindowsспісutf8](function.sapi-windows-cp-is-utf8.html)
-    
--   [sapiwindowsgeneratectrlevent »](function.sapi-windows-generate-ctrl-event.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Встановити кодову сторінку процесу
-    
-
+---
+navigation:
+  - function.sapi-windows-cp-is-utf8.html: « sapiwindowsспісutf8
+  - function.sapi-windows-generate-ctrl-event.html: sapiwindowsgeneratectrlevent »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sapiwindowsспset
+---
 # sapiwindowsспset
 
 (PHP 7> = 7.1.0, PHP 8)

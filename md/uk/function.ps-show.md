@@ -1,16 +1,11 @@
-Виводить текст
-
--   [«psshow2](function.ps-show2.html)
-    
--   [псstringgeometry »](function.ps-string-geometry.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Виводить текст
-    
-
+---
+navigation:
+  - function.ps-show2.html: «psshow2
+  - function.ps-string-geometry.html: псstringgeometry »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псshow
+---
 # псshow
 
 (PECL ps >= 1.1.0)

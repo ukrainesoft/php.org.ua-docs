@@ -1,16 +1,11 @@
-Знімає блокування читання
-
--   [« SyncReaderWriter::readlock](syncreaderwriter.readlock.md)
-    
--   [SyncReaderWriter::writelock »](syncreaderwriter.writelock.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncReaderWriter](class.syncreaderwriter.md)
-    
--   Знімає блокування читання
-    
-
+---
+navigation:
+  - syncreaderwriter.readlock.md: '« SyncReaderWriter::readlock'
+  - syncreaderwriter.writelock.md: 'SyncReaderWriter::writelock »'
+  - index.md: PHP Manual
+  - class.syncreaderwriter.md: SyncReaderWriter
+title: 'SyncReaderWriter::readunlock'
+---
 # SyncReaderWriter::readunlock
 
 (PECL sync >= 1.0.0)

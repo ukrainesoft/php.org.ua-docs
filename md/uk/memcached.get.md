@@ -1,16 +1,11 @@
-Отримання запису
-
--   [« Memcached::flush](memcached.flush.html)
-    
--   [Memcached::getAllKeys »](memcached.getallkeys.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Отримання запису
-    
-
+---
+navigation:
+  - memcached.flush.html: '« Memcached::flush'
+  - memcached.getallkeys.html: 'Memcached::getAllKeys »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::get'
+---
 # Memcached::get
 
 (PECL memcached >= 0.1.0)
@@ -45,8 +40,8 @@ public Memcached::get(string $key, callable $cache_cb = ?, int $flags = ?): mixe
 
 ### список змін
 
-| Версия               | Описание                                                                                                                                                                    |
-|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL memcached 3.0.0 | Видалено параметр `&cas_token`. Замість нього додано параметр `flags`, в який можна передати значення **`Memcached::GET_EXTENDED`** для того, щоб було повернуто токен CAS. |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Сортує масив з використанням зазначеного Collator та ключів сортування
-
--   [« Collator::setStrength](collator.setstrength.md)
-    
--   [Collator::sort »](collator.sort.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Сортує масив з використанням зазначеного Collator та ключів сортування
-    
-
+---
+navigation:
+  - collator.setstrength.md: '« Collator::setStrength'
+  - collator.sort.md: 'Collator::sort »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::sortWithSortKeys'
+---
 # Collator::sortWithSortKeys
 
 # collatorsortwithsortkeys

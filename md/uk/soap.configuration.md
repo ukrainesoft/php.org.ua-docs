@@ -1,29 +1,24 @@
-Налаштування під час виконання
-
--   [« Установка](soap.installation.html)
-    
--   [Типи ресурсів »](soap.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](soap.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - soap.installation.html: « Установка
+  - soap.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - soap.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування SOAP**
 
-| Имя                                                                          | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [soap.wsdlcacheenabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) |              | PHPINIALL       |                  |
-| [soap.wsdlcachedir](soap.configuration.html#ini.soap.wsdl-cache-dir)         | /tmp         | PHPINIALL       |                  |
-| [soap.wsdlcachettl](soap.configuration.html#ini.soap.wsdl-cache-ttl)         |              | PHPINIALL       |                  |
-| [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache)                |              | PHPINIALL       |                  |
-| [soap.wsdlcachelimit](soap.configuration.html#ini.soap.wsdl-cache-limit)     |              | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [soap.wsdlcacheenabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) |  | PHPINIALL |  |
+| [soap.wsdlcachedir](soap.configuration.html#ini.soap.wsdl-cache-dir) | /tmp | PHPINIALL |  |
+| [soap.wsdlcachettl](soap.configuration.html#ini.soap.wsdl-cache-ttl) |  | PHPINIALL |  |
+| [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache) |  | PHPINIALL |  |
+| [soap.wsdlcachelimit](soap.configuration.html#ini.soap.wsdl-cache-limit) |  | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

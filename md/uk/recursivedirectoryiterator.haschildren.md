@@ -1,16 +1,11 @@
-Визначає, чи є поточний елемент директорією
-
--   [« RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.html)
-    
--   [RecursiveDirectoryIterator::key »](recursivedirectoryiterator.key.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
-    
--   Визначає, чи є поточний елемент директорією
-    
-
+---
+navigation:
+  - recursivedirectoryiterator.getsubpathname.html: '« RecursiveDirectoryIterator::getSubPathname'
+  - recursivedirectoryiterator.key.html: 'RecursiveDirectoryIterator::key »'
+  - index.html: PHP Manual
+  - class.recursivedirectoryiterator.html: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::hasChildren'
+---
 # RecursiveDirectoryIterator::hasChildren
 
 (PHP 5, PHP 7, PHP 8)

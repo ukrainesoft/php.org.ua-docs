@@ -1,16 +1,11 @@
-Отримати прапори файлу в phar-архіві
-
--   [« PharFileInfo::getMetadata](pharfileinfo.getmetadata.md)
-    
--   [PharFileInfo::hasMetadata »](pharfileinfo.hasmetadata.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Отримати прапори файлу в phar-архіві
-    
-
+---
+navigation:
+  - pharfileinfo.getmetadata.md: '« PharFileInfo::getMetadata'
+  - pharfileinfo.hasmetadata.md: 'PharFileInfo::hasMetadata »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::getPharFlags'
+---
 # PharFileInfo::getPharFlags
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

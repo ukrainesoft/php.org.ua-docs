@@ -1,16 +1,11 @@
-Відновити виконання призупиненого раніше циклу подій за умовчанням
-
--   [« Ev::recommendedBackends](ev.recommendedbackends.md)
-    
--   [Ev::run »](ev.run.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Відновити виконання призупиненого раніше циклу подій за умовчанням
-    
-
+---
+navigation:
+  - ev.recommendedbackends.md: '« Ev::recommendedBackends'
+  - ev.run.md: 'Ev::run »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::resume'
+---
 # Ev::resume
 
 (PECL ev >= 0.2.0)

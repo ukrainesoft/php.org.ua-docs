@@ -1,16 +1,11 @@
-Зчитує дані сесії
-
--   [« SessionHandler::open](sessionhandler.open.html)
-    
--   [SessionHandler::write »](sessionhandler.write.html)
-    
--   [PHP Manual](index.html)
-    
--   [SessionHandler](class.sessionhandler.html)
-    
--   Зчитує дані сесії
-    
-
+---
+navigation:
+  - sessionhandler.open.html: '« SessionHandler::open'
+  - sessionhandler.write.html: 'SessionHandler::write »'
+  - index.html: PHP Manual
+  - class.sessionhandler.html: SessionHandler
+title: 'SessionHandler::read'
+---
 # SessionHandler::read
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

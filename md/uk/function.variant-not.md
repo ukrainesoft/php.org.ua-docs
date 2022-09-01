@@ -1,16 +1,11 @@
-Побітове заперечення над варіантом
-
--   [« variantneg](function.variant-neg.html)
-    
--   [variantor »](function.variant-or.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Побітове заперечення над варіантом
-    
-
+---
+navigation:
+  - function.variant-neg.html: « variantneg
+  - function.variant-or.html: variantor »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantnot
+---
 # variantnot
 
 (PHP 5, PHP 7, PHP 8)

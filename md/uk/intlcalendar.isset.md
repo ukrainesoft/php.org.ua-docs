@@ -1,16 +1,11 @@
-Визначає, чи встановлено поле
-
--   [« IntlCalendar::isLenient](intlcalendar.islenient.md)
-    
--   [IntlCalendar::isWeekend »](intlcalendar.isweekend.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Визначає, чи встановлено поле
-    
-
+---
+navigation:
+  - intlcalendar.islenient.md: '« IntlCalendar::isLenient'
+  - intlcalendar.isweekend.md: 'IntlCalendar::isWeekend »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::isSet'
+---
 # IntlCalendar::isSet
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

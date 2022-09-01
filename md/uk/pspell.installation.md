@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](pspell.requirements.md)
-    
--   [Налаштування під час виконання »](pspell.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](pspell.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - pspell.requirements.md: « Вимоги
+  - pspell.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - pspell.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Якщо у вас є необхідні бібліотеки, потрібно додати опцію **\-with-pspell=dir** при компіляції PHP.

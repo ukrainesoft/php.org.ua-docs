@@ -1,16 +1,11 @@
-Встановлює цільовий кадр для форми
-
--   [« fdfopen](function.fdf-open.html)
-    
--   [fdfsavestring »](function.fdf-save-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює цільовий кадр для форми
-    
-
+---
+navigation:
+  - function.fdf-open.html: « fdfopen
+  - function.fdf-save-string.html: fdfsavestring »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfremoveitem
+---
 # fdfremoveitem
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

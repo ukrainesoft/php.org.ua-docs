@@ -1,16 +1,11 @@
-Завантаження модулів PECL
-
--   [« Введение в установку PECL](install.pecl.intro.md)
-    
--   [Установка PHP-модуля в Windows »](install.pecl.windows.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка модулей PECL](install.pecl.md)
-    
--   Завантаження модулів PECL
-    
-
+---
+navigation:
+  - install.pecl.intro.md: « Введение в установку PECL
+  - install.pecl.windows.md: Установка PHP-модуля в Windows »
+  - index.md: PHP Manual
+  - install.pecl.md: Установка модулей PECL
+title: Завантаження модулів PECL
+---
 ## Завантаження модулів PECL
 
 Є кілька варіантів для завантаження модулів PECL, зокрема:

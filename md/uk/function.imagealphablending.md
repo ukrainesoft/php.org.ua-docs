@@ -1,16 +1,11 @@
-Встановлення режиму сполучення кольорів для зображення
-
--   [« imageaffinematrixget](function.imageaffinematrixget.md)
-    
--   [imageantialias »](function.imageantialias.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Встановлення режиму сполучення кольорів для зображення
-    
-
+---
+navigation:
+  - function.imageaffinematrixget.md: « imageaffinematrixget
+  - function.imageantialias.md: imageantialias »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagealphablending
+---
 # imagealphablending
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagealphablending(GdImage $image, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

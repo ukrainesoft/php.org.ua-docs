@@ -1,16 +1,11 @@
-Отримує висоту
-
--   [« UISize::construct](ui-size.construct.html)
-    
--   [ОЙSize::getWidth »](ui-size.getwidth.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙSize](class.ui-size.html)
-    
--   Отримує висоту
-    
-
+---
+navigation:
+  - ui-size.construct.html: '« UISize::construct'
+  - ui-size.getwidth.html: 'ОЙSize::getWidth »'
+  - index.md: PHP Manual
+  - class.ui-size.html: ОЙSize
+title: 'ОЙSize::getHeight'
+---
 # ОЙSize::getHeight
 
 (UI 0.9.9)

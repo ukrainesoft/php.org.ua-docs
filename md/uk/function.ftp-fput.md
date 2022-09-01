@@ -1,16 +1,11 @@
-Завантажує попередньо відкритий файл на сервер FTP
-
--   [« ftpfget](function.ftp-fget.html)
-    
--   [ftpgetoption »](function.ftp-get-option.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Завантажує попередньо відкритий файл на сервер FTP
-    
-
+---
+navigation:
+  - function.ftp-fget.html: « ftpfget
+  - function.ftp-get-option.html: ftpgetoption »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftpfput
+---
 # ftpfput
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    res
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 

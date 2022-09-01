@@ -1,16 +1,11 @@
-додаток
-
--   [« ComponerePatch::construct](componere-patch.construct.html)
-    
--   [ComponerePatch::revert »](componere-patch.revert.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponerePatch](class.componere-patch.html)
-    
--   додаток
-    
-
+---
+navigation:
+  - componere-patch.construct.html: '« ComponerePatch::construct'
+  - componere-patch.revert.html: 'ComponerePatch::revert »'
+  - index.md: PHP Manual
+  - class.componere-patch.html: ComponerePatch
+title: 'ComponerePatch::apply'
+---
 # ComponerePatch::apply
 
 (Componere 2 >= 2.1.0)

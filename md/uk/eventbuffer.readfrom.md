@@ -1,16 +1,11 @@
-Читає дані з файлу до кінця буфера
-
--   [« EventBuffer::read](eventbuffer.read.html)
-    
--   [EventBuffer::readLine »](eventbuffer.readline.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Читає дані з файлу до кінця буфера
-    
-
+---
+navigation:
+  - eventbuffer.read.html: '« EventBuffer::read'
+  - eventbuffer.readline.html: 'EventBuffer::readLine »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::readFrom'
+---
 # EventBuffer::readFrom
 
 (PECL event >= 1.7.0)

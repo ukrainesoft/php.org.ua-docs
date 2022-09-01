@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](radius.resources.html)
-    
--   [Опции RADIUS »](radius.constants.options.html)
-    
--   [PHP Manual](index.html)
-    
--   [Radius](book.radius.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - radius.resources.html: « Типи ресурсів
+  - radius.constants.options.html: Опции RADIUS »
+  - index.html: PHP Manual
+  - book.radius.html: Radius
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 ## Зміст

@@ -1,16 +1,11 @@
-Отримати інформацію CA
-
--   [« OAuth::getAccessToken](oauth.getaccesstoken.md)
-    
--   [OAuth::getLastResponse »](oauth.getlastresponse.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Отримати інформацію CA
-    
-
+---
+navigation:
+  - oauth.getaccesstoken.md: '« OAuth::getAccessToken'
+  - oauth.getlastresponse.md: 'OAuth::getLastResponse »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::getCAPath'
+---
 # OAuth::getCAPath
 
 (PECL OAuth >= 0.99.8)

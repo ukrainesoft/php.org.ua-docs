@@ -1,16 +1,11 @@
-Клас Collection
-
--   [« Client::getClient](mysql-xdevapi-client.getsession.html)
-    
--   [Collection::add »](mysql-xdevapi-collection.add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Collection
-    
-
+---
+navigation:
+  - mysql-xdevapi-client.getsession.html: '« Client::getClient'
+  - mysql-xdevapi-collection.add.html: 'Collection::add »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Collection
+---
 # Клас Collection
 
 (PECL mysql-xdevapi >= 8.0.11)

@@ -1,16 +1,11 @@
-Малює дугу проти годинникової стрілки
-
--   [«psaddweblink](function.ps-add-weblink.html)
-    
--   [псarcn »](function.ps-arcn.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Малює дугу проти годинникової стрілки
-    
-
+---
+navigation:
+  - function.ps-add-weblink.html: «psaddweblink
+  - function.ps-arcn.html: псarcn »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псarc
+---
 # псarc
 
 (PECL ps >= 1.1.0)

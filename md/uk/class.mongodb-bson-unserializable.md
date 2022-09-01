@@ -1,16 +1,11 @@
-Інтерфейс MongoDBBSONUnserializable
-
--   [« MongoDBBSONSerializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html)
-    
--   [MongoDBBSONUnserializable::bsonUnserialize »](mongodb-bson-unserializable.bsonunserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Інтерфейс MongoDBBSONUnserializable
-    
-
+---
+navigation:
+  - mongodb-bson-serializable.bsonserialize.html: '« MongoDBBSONSerializable::bsonSerialize'
+  - mongodb-bson-unserializable.bsonunserialize.html: 'MongoDBBSONUnserializable::bsonUnserialize »'
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Інтерфейс MongoDBBSONUnserializable
+---
 # Інтерфейс MongoDBBSONUnserializable
 
 (mongodb >=1.0.0)
@@ -41,8 +36,8 @@
 
 ## список змін
 
-| Версия              | Описание                                                                                                                                                                                                                                                                                                                |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст

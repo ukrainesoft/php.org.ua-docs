@@ -1,16 +1,11 @@
-Отримати текстове уявлення SoapFault
-
--   [« SoapFault::construct](soapfault.construct.html)
-    
--   [SoapHeader »](class.soapheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapFault](class.soapfault.html)
-    
--   Отримати текстове уявлення SoapFault
-    
-
+---
+navigation:
+  - soapfault.construct.html: '« SoapFault::construct'
+  - class.soapheader.html: SoapHeader »
+  - index.html: PHP Manual
+  - class.soapfault.html: SoapFault
+title: 'SoapFault::toString'
+---
 # SoapFault::toString
 
 (PHP 5, PHP 7, PHP 8)

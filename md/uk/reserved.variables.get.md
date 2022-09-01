@@ -1,16 +1,11 @@
-Змінні HTTP GET
-
--   [SERVER](reserved.variables.server.html)
-    
--   [POST »](reserved.variables.post.html)
-    
--   [PHP Manual](index.html)
-    
--   [Зумовлені змінні](reserved.variables.html)
-    
--   Змінні HTTP GET
-    
-
+---
+navigation:
+  - reserved.variables.server.html: SERVER
+  - reserved.variables.post.html: POST »
+  - index.html: PHP Manual
+  - reserved.variables.html: Зумовлені змінні
+title: GET
+---
 # GET
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

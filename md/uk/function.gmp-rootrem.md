@@ -1,16 +1,11 @@
-Витягти корінь ступеня N і повернути його цілу частину і залишок
-
--   [« gmproot](function.gmp-root.html)
-    
--   [gmpscan0 »](function.gmp-scan0.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Витягти корінь ступеня N і повернути його цілу частину і залишок
-    
-
+---
+navigation:
+  - function.gmp-root.html: « gmproot
+  - function.gmp-scan0.html: gmpscan0 »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmprootrem
+---
 # gmprootrem
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

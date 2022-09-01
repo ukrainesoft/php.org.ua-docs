@@ -1,16 +1,11 @@
-Відкочує транзакцію до точки збереження
-
--   [« Session::rollback](mysql-xdevapi-session.rollback.html)
-    
--   [Session::setSavepoint »](mysql-xdevapi-session.setsavepoint.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Відкочує транзакцію до точки збереження
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.rollback.html: '« Session::rollback'
+  - mysql-xdevapi-session.setsavepoint.html: 'Session::setSavepoint »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::rollbackTo'
+---
 # Session::rollbackTo
 
 (No version information available, might only be in Git)

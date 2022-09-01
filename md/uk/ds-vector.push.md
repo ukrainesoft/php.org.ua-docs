@@ -1,16 +1,11 @@
-Додає значення до кінця вектора
-
--   [« DsVector::pop](ds-vector.pop.html)
-    
--   [ДсVector::reduce »](ds-vector.reduce.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Додає значення до кінця вектора
-    
-
+---
+navigation:
+  - ds-vector.pop.html: '« DsVector::pop'
+  - ds-vector.reduce.html: 'ДсVector::reduce »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::push'
+---
 # ДсVector::push
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Створення простого XML-документа
-
--   [« Приклади](xmlwriter.examples.html)
-    
--   [Робота з просторами імен XML »](example.xmlwriter-namespace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](xmlwriter.examples.html)
-    
--   Створення простого XML-документа
-    
-
+---
+navigation:
+  - xmlwriter.examples.html: « Приклади
+  - example.xmlwriter-namespace.html: Робота з просторами імен XML »
+  - index.html: PHP Manual
+  - xmlwriter.examples.html: Приклади
+title: Створення простого XML-документа
+---
 ## Створення простого XML-документа
 
 Цей приклад демонструє створення XML-документа у пам'яті за допомогою XMLWriter.

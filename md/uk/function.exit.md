@@ -1,16 +1,11 @@
-Вивести повідомлення та припинити виконання поточного скрипту
-
--   [« eval](function.eval.md)
-    
--   [getbrowser »](function.get-browser.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Вивести повідомлення та припинити виконання поточного скрипту
-    
-
+---
+navigation:
+  - function.eval.md: « eval
+  - function.get-browser.html: getbrowser »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: exit
+---
 # exit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

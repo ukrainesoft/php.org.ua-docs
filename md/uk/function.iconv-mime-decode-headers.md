@@ -1,16 +1,11 @@
-Декодує кілька полів заголовка MIME
-
--   [« iconvgetencoding](function.iconv-get-encoding.html)
-    
--   [iconvmimedecode »](function.iconv-mime-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции iconv](ref.iconv.md)
-    
--   Декодує кілька полів заголовка MIME
-    
-
+---
+navigation:
+  - function.iconv-get-encoding.html: « iconvgetencoding
+  - function.iconv-mime-decode.html: iconvmimedecode »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
+title: iconvmimedecodeheaders
+---
 # iconvmimedecodeheaders
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,10 +32,10 @@ iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = nu
 
 **Бітові маски **iconvmimedecodeheaders()****
 
-| Значение | Константа                       | Описание                                                                                                                                                                                                                                                      |
-|----------|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          | ICONVMIMEDECODESTRICT           | Строго дотримуватися стандартів, визначених у [» RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки `MIME` |
-|          | ICONVMIMEDECODECONTINUEВІНERROR | Якщо встановлено, **iconvmimedecodeheaders()** намагатиметься ігнорувати будь-які помилки і продовжувати обробку поточного заголовка.                                                                                                                         |
+| Значение | Константа | Описание |
+| --- | --- | --- |
+|  | ICONVMIMEDECODESTRICT | Строго дотримуватися стандартів, визначених у [» RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки `MIME` |
+|  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо встановлено, **iconvmimedecodeheaders()** намагатиметься ігнорувати будь-які помилки і продовжувати обробку поточного заголовка. |
 
 `encoding`
 
@@ -54,9 +49,9 @@ iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = nu
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `encoding` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `encoding` тепер допускає значення null. |
 
 ### Приклади
 

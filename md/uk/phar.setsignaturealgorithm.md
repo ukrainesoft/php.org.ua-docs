@@ -1,16 +1,11 @@
-Встановити алгоритм підписання phar-архіву та застосування його
-
--   [« Phar::setMetadata](phar.setmetadata.html)
-    
--   [Phar::setStub »](phar.setstub.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Встановити алгоритм підписання phar-архіву та застосування його
-    
-
+---
+navigation:
+  - phar.setmetadata.html: '« Phar::setMetadata'
+  - phar.setstub.html: 'Phar::setStub »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::setSignatureAlgorithm'
+---
 # Phar::setSignatureAlgorithm
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.1.0)
@@ -62,9 +57,9 @@ $p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `privateKey` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `privateKey` тепер допускає значення null. |
 
 ### Дивіться також
 

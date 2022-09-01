@@ -1,16 +1,11 @@
-Отримати або встановити прапори для функції або класу
-
--   [« uopzextend](function.uopz-extend.html)
-    
--   [uopzfunction »](function.uopz-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Отримати або встановити прапори для функції або класу
-    
-
+---
+navigation:
+  - function.uopz-extend.html: « uopzextend
+  - function.uopz-function.html: uopzfunction »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzflags
+---
 # uopzflags
 
 (PECL uopz 2 >= 2.0.2, PECL uopz 5, PECL uopz 6, PECL uopz 7)
@@ -53,8 +48,8 @@ uopz_flags(string $class, string $function, int $flags = PHP_INT_MAX): int
 
 ### список змін
 
-| Версия          | Описание                                                                                                                             |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL uopz 5.0.0 | Параметр `flags` тепер необов'язковий. Раніше **`ZEND_ACC_FETCH`** мав передаватися, щоб **uopzflags()** використовувався як геттер. |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Призначення route
-
--   [« YafRouteMap::construct](yaf-route-map.construct.html)
-    
--   [YafRouteRegex »](class.yaf-route-regex.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteMap](class.yaf-route-map.html)
-    
--   Призначення route
-    
-
+---
+navigation:
+  - yaf-route-map.construct.html: '« YafRouteMap::construct'
+  - class.yaf-route-regex.html: YafRouteRegex »
+  - index.md: PHP Manual
+  - class.yaf-route-map.html: YafRouteMap
+title: 'YafRouteMap::route'
+---
 # YafRouteMap::route
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Скасує всі зміни у позиції із заданим ім'ям
-
--   [« ZipArchive::unchangeIndex](ziparchive.unchangeindex.md)
-    
--   [Функции Zip »](ref.zip.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Скасує всі зміни у позиції із заданим ім'ям
-    
-
+---
+navigation:
+  - ziparchive.unchangeindex.md: '« ZipArchive::unchangeIndex'
+  - ref.zip.md: Функции Zip »
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::unchangeName'
+---
 # ZipArchive::unchangeName
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.5.0)

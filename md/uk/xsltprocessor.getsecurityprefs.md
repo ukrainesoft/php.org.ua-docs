@@ -1,16 +1,11 @@
-Отримати налаштування безпеки
-
--   [« XSLTProcessor::getParameter](xsltprocessor.getparameter.md)
-    
--   [XSLTProcessor::hasExsltSupport »](xsltprocessor.hasexsltsupport.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Отримати налаштування безпеки
-    
-
+---
+navigation:
+  - xsltprocessor.getparameter.md: '« XSLTProcessor::getParameter'
+  - xsltprocessor.hasexsltsupport.md: 'XSLTProcessor::hasExsltSupport »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::getSecurityPrefs'
+---
 # XSLTProcessor::getSecurityPrefs
 
 (PHP >= 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Створює об'єкт спостерігач EvIo
-
--   [« EvIo](class.evio.html)
-    
--   [EvIo::createStopped »](evio.createstopped.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvIo](class.evio.html)
-    
--   Створює об'єкт спостерігач EvIo
-    
-
+---
+navigation:
+  - class.evio.html: « EvIo
+  - evio.createstopped.html: 'EvIo::createStopped »'
+  - index.html: PHP Manual
+  - class.evio.html: EvIo
+title: 'EvIo::construct'
+---
 # EvIo::construct
 
 (PECL ev >= 0.2.0)

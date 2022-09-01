@@ -1,16 +1,11 @@
-Експорт
-
--   [« ReflectionZendExtension::construct](reflectionzendextension.construct.md)
-    
--   [ReflectionZendExtension::getAuthor »](reflectionzendextension.getauthor.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.md)
-    
--   Експорт
-    
-
+---
+navigation:
+  - reflectionzendextension.construct.md: '« ReflectionZendExtension::construct'
+  - reflectionzendextension.getauthor.md: 'ReflectionZendExtension::getAuthor »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::export'
+---
 # ReflectionZendExtension::export
 
 (PHP 5> = 5.4.0, PHP 7)

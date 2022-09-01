@@ -1,16 +1,11 @@
-Додає шаблон до FDF-документу
-
--   [« fdfadddocjavascript](function.fdf-add-doc-javascript.html)
-    
--   [fdfclose »](function.fdf-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Додає шаблон до FDF-документу
-    
-
+---
+navigation:
+  - function.fdf-add-doc-javascript.html: « fdfadddocjavascript
+  - function.fdf-close.html: fdfclose »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfaddtemplate
+---
 # fdfaddtemplate
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

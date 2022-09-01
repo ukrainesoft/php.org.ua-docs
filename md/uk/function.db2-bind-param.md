@@ -1,16 +1,11 @@
-Зв'язує змінну PHP із параметром SQL-виразу
-
--   [« db2autocommit](function.db2-autocommit.html)
-    
--   [db2clientinfo »](function.db2-client-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Зв'язує змінну PHP із параметром SQL-виразу
-    
-
+---
+navigation:
+  - function.db2-autocommit.html: « db2autocommit
+  - function.db2-client-info.html: db2clientinfo »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2bindparam
+---
 # db2bindparam
 
 (PECL ibmdb2> = 1.0.0)

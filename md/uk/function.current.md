@@ -1,16 +1,11 @@
-Повертає поточний елемент масиву
-
--   [« count](function.count.md)
-    
--   [each »](function.each.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Повертає поточний елемент масиву
-    
-
+---
+navigation:
+  - function.count.md: « count
+  - function.each.md: each »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: current
+---
 # current
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ current(array|object $array): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 

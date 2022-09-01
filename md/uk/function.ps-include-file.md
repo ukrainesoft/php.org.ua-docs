@@ -1,16 +1,11 @@
-Читає зовнішній файл із необробленим кодом PostScript
-
--   [«pshyphenate](function.ps-hyphenate.html)
-    
--   [псlineto »](function.ps-lineto.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Читає зовнішній файл із необробленим кодом PostScript
-    
-
+---
+navigation:
+  - function.ps-hyphenate.html: «pshyphenate
+  - function.ps-lineto.html: псlineto »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псincludefile
+---
 # псincludefile
 
 (PECL ps >= 1.3.4)

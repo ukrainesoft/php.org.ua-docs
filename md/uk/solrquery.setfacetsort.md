@@ -1,16 +1,11 @@
-Визначає порядок обмежень поля фасету
-
--   [« SolrQuery::setFacetPrefix](solrquery.setfacetprefix.md)
-    
--   [SolrQuery::setGroup »](solrquery.setgroup.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Визначає порядок обмежень поля фасету
-    
-
+---
+navigation:
+  - solrquery.setfacetprefix.md: '« SolrQuery::setFacetPrefix'
+  - solrquery.setgroup.md: 'SolrQuery::setGroup »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setFacetSort'
+---
 # SolrQuery::setFacetSort
 
 (PECL solr> = 0.9.2)

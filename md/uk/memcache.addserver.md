@@ -1,16 +1,11 @@
-Додає сервер memcached в пул з'єднань
-
--   [« Memcache::add](memcache.add.html)
-    
--   [Memcache::close »](memcache.close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Додає сервер memcached в пул з'єднань
-    
-
+---
+navigation:
+  - memcache.add.html: '« Memcache::add'
+  - memcache.close.html: 'Memcache::close »'
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::addServer'
+---
 # Memcache::addServer
 
 (PECL memcache >= 2.0.0)

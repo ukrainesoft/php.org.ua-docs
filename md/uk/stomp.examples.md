@@ -1,16 +1,11 @@
-Приклади
-
--   [« Типи ресурсів](stomp.resources.md)
-    
--   [Функции Stomp »](ref.stomp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](book.stomp.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - stomp.resources.md: « Типи ресурсів
+  - ref.stomp.md: Функции Stomp »
+  - index.md: PHP Manual
+  - book.stomp.md: Stomp
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**

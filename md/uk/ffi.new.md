@@ -1,16 +1,11 @@
-Створює структуру даних C
-
--   [« FFI::memset](ffi.memset.html)
-    
--   [FFI::scope »](ffi.scope.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Створює структуру даних C
-    
-
+---
+navigation:
+  - ffi.memset.html: '« FFI::memset'
+  - ffi.scope.html: 'FFI::scope »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::new'
+---
 # FFI::new
 
 (PHP 7> = 7.4.0, PHP 8)

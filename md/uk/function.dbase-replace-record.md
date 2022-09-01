@@ -1,16 +1,11 @@
-Замінює запис у базі даних
-
--   [« dbasepack](function.dbase-pack.html)
-    
--   [Firebird/InterBase »](book.ibase.md)
-    
--   [PHP Manual](index.md)
-    
--   [dBase](ref.dbase.md)
-    
--   Замінює запис у базі даних
-    
-
+---
+navigation:
+  - function.dbase-pack.html: « dbasepack
+  - book.ibase.md: Firebird/InterBase »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
+title: dbasereplacerecord
+---
 # dbasereplacerecord
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -49,8 +44,8 @@ dbase_replace_record(resource $database, array $data, int $number): bool
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

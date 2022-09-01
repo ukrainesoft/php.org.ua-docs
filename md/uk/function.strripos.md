@@ -1,16 +1,11 @@
-Повертає позицію останнього входження підрядка без урахування регістру
-
--   [« strrev](function.strrev.md)
-    
--   [strrpos »](function.strrpos.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає позицію останнього входження підрядка без урахування регістру
-    
-
+---
+navigation:
+  - function.strrev.md: « strrev
+  - function.strrpos.md: strrpos »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strripos
+---
 # strripos
 
 (PHP 5, PHP 7, PHP 8)
@@ -61,10 +56,10 @@ strripos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Передача цілого числа (int) `needle` більше не підтримується. |
-|        | Передача цілого числа (int) `needle` оголошено застарілою.    |
+| Версия | Описание |
+| --- | --- |
+|  | Передача цілого числа (int) `needle` більше не підтримується. |
+|  | Передача цілого числа (int) `needle` оголошено застарілою. |
 
 ### Приклади
 

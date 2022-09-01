@@ -1,16 +1,11 @@
-Стартує транзакцію
-
--   [« mysqli::autocommit](mysqli.autocommit.html)
-    
--   [mysqli::changeuser »](mysqli.change-user.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Стартує транзакцію
-    
-
+---
+navigation:
+  - mysqli.autocommit.html: '« mysqli::autocommit'
+  - mysqli.change-user.html: 'mysqli::changeuser »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::begintransaction'
+---
 # mysqli::begintransaction
 
 # mysqlibegintransaction
@@ -62,9 +57,9 @@ mysqli_begin_transaction(mysqli $mysql, int $flags = 0, ?string $name = null): b
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `name` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Отримати закритий ключ
-
--   [« opensslpkeygetdetails](function.openssl-pkey-get-details.html)
-    
--   [opensslpkeygetpublic »](function.openssl-pkey-get-public.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Отримати закритий ключ
-    
-
+---
+navigation:
+  - function.openssl-pkey-get-details.html: « opensslpkeygetdetails
+  - function.openssl-pkey-get-public.html: opensslpkeygetpublic »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkeygetprivate
+---
 # opensslpkeygetprivate
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -44,8 +39,8 @@ openssl_pkey_get_private(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $p
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key`                                                          |
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
-|        | `passphrase` тепер допускає значення null.                                                                                                                                                                                                                 |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `passphrase` тепер допускає значення null. |

@@ -1,16 +1,11 @@
-Отримує ширину гліфа
-
--   [«pssymbolname](function.ps-symbol-name.html)
-    
--   [псsymbol »](function.ps-symbol.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Отримує ширину гліфа
-    
-
+---
+navigation:
+  - function.ps-symbol-name.html: «pssymbolname
+  - function.ps-symbol.html: псsymbol »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsymbolwidth
+---
 # псsymbolwidth
 
 (PECL ps >= 1.2.0)

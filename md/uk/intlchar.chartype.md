@@ -1,16 +1,11 @@
-Отримати головну категорію, до якої входить символ
-
--   [« IntlChar::charName](intlchar.charname.md)
-    
--   [IntlChar::chr »](intlchar.chr.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати головну категорію, до якої входить символ
-    
-
+---
+navigation:
+  - intlchar.charname.md: '« IntlChar::charName'
+  - intlchar.chr.md: 'IntlChar::chr »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::charType'
+---
 # IntlChar::charType
 
 (PHP 7, PHP 8)

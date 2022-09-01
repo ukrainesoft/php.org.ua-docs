@@ -1,16 +1,11 @@
-Повертає всі глобальні зміни, зроблені в архіві
-
--   [« ZipArchive::unchangeAll](ziparchive.unchangeall.md)
-    
--   [ZipArchive::unchangeIndex »](ziparchive.unchangeindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Повертає всі глобальні зміни, зроблені в архіві
-    
-
+---
+navigation:
+  - ziparchive.unchangeall.md: '« ZipArchive::unchangeAll'
+  - ziparchive.unchangeindex.md: 'ZipArchive::unchangeIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::unchangeArchive'
+---
 # ZipArchive::unchangeArchive
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

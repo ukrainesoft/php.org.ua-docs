@@ -1,16 +1,11 @@
-З'єднання під час виконання
-
--   [« parallelRuntime::close](parallel-runtime.close.html)
-    
--   [parallelFuture »](class.parallel-future.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelRuntime](class.parallel-runtime.html)
-    
--   З'єднання під час виконання
-    
-
+---
+navigation:
+  - parallel-runtime.close.html: '« parallelRuntime::close'
+  - class.parallel-future.html: parallelFuture »
+  - index.md: PHP Manual
+  - class.parallel-runtime.html: parallelRuntime
+title: 'parallelRuntime::kill'
+---
 # parallelRuntime::kill
 
 parallelRuntime::kill — З'єднання під час виконання

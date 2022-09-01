@@ -1,16 +1,11 @@
-Сортувати масив за ключами, використовуючи функцію користувача для порівняння
-
--   [« ArrayObject::uasort](arrayobject.uasort.md)
-    
--   [ArrayObject::unserialize »](arrayobject.unserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Сортувати масив за ключами, використовуючи функцію користувача для порівняння
-    
-
+---
+navigation:
+  - arrayobject.uasort.md: '« ArrayObject::uasort'
+  - arrayobject.unserialize.md: 'ArrayObject::unserialize »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::uksort'
+---
 # ArrayObject::uksort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

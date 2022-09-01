@@ -1,16 +1,11 @@
-Перетворює рядок у верхній регістр
-
--   [« strtolower](function.strtolower.html)
-    
--   [strtr »](function.strtr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Перетворює рядок у верхній регістр
-    
-
+---
+navigation:
+  - function.strtolower.html: « strtolower
+  - function.strtr.html: strtr »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strtoupper
+---
 # strtoupper
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

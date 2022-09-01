@@ -1,16 +1,11 @@
-Використання просторів імен: перехід до глобальної функції/константи
-
--   [« Глобальний простір](language.namespaces.global.html)
-    
--   [Правила разрешения имён »](language.namespaces.rules.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пространства имён](language.namespaces.html)
-    
--   Використання просторів імен: перехід до глобальної функції/константи
-    
-
+---
+navigation:
+  - language.namespaces.global.html: « Глобальний простір
+  - language.namespaces.rules.html: Правила разрешения имён »
+  - index.html: PHP Manual
+  - language.namespaces.html: Пространства имён
+title: 'Використання просторів імен: перехід до глобальної функції/константи'
+---
 ## Використання просторів імен: перехід до глобальної функції/константи
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

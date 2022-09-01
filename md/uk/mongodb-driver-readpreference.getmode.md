@@ -1,16 +1,11 @@
-Повертає параметр "mode" ReadPreference
-
--   [« MongoDBDriverReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.html)
-    
--   [MongoDBDriverReadPreference::getModeString »](mongodb-driver-readpreference.getmodestring.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Повертає параметр "mode" ReadPreference
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.getmaxstalenessseconds.html: '« MongoDBDriverReadPreference::getMaxStalenessSeconds'
+  - mongodb-driver-readpreference.getmodestring.html: 'MongoDBDriverReadPreference::getModeString »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::getMode'
+---
 # MongoDBDriverReadPreference::getMode
 
 (mongodb >=1.0.0)

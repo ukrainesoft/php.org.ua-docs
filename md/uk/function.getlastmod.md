@@ -1,16 +1,11 @@
-Отримує час останньої модифікації сторінки
-
--   [« getenv](function.getenv.html)
-    
--   [getmygid »](function.getmygid.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Отримує час останньої модифікації сторінки
-    
-
+---
+navigation:
+  - function.getenv.html: « getenv
+  - function.getmygid.html: getmygid »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: getlastmod
+---
 # getlastmod
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує трасування стека
-
--   [« Error::getLine](error.getline.md)
-    
--   [Error::getTraceAsString »](error.gettraceasstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Error](class.error.md)
-    
--   Отримує трасування стека
-    
-
+---
+navigation:
+  - error.getline.md: '« Error::getLine'
+  - error.gettraceasstring.md: 'Error::getTraceAsString »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getTrace'
+---
 # Error::getTrace
 
 (PHP 7, PHP 8)

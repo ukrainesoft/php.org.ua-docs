@@ -1,16 +1,11 @@
-Встановлює callback-функцію помилки слухача подій
-
--   [« EventListener::setCallback](eventlistener.setcallback.md)
-    
--   [EventSslContext »](class.eventsslcontext.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventListener](class.eventlistener.md)
-    
--   Встановлює callback-функцію помилки слухача подій
-    
-
+---
+navigation:
+  - eventlistener.setcallback.md: '« EventListener::setCallback'
+  - class.eventsslcontext.md: EventSslContext »
+  - index.md: PHP Manual
+  - class.eventlistener.md: EventListener
+title: 'EventListener::setErrorCallback'
+---
 # EventListener::setErrorCallback
 
 (PECL event >= 1.2.6-beta)

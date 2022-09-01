@@ -1,16 +1,11 @@
-Додає вміст до тіла відповіді
-
--   [« YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   [YafResponseAbstract::clearBody »](yaf-response-abstract.clearbody.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Додає вміст до тіла відповіді
-    
-
+---
+navigation:
+  - class.yaf-response-abstract.html: « YafResponseAbstract
+  - yaf-response-abstract.clearbody.html: 'YafResponseAbstract::clearBody »'
+  - index.html: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::appendBody'
+---
 # YafResponseAbstract::appendBody
 
 (Yaf >=1.0.0)

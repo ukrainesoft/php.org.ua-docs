@@ -1,16 +1,11 @@
-Функціональний API
-
--   [« Философия](philosophy.parallel.html)
-    
--   [parallelbootstrap »](parallel.bootstrap.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallel](book.parallel.html)
-    
--   Функціональний API
-    
-
+---
+navigation:
+  - philosophy.parallel.html: « Философия
+  - parallel.bootstrap.html: parallelbootstrap »
+  - index.html: PHP Manual
+  - book.parallel.html: parallel
+title: Функціональний API
+---
 # Функціональний API
 
 API [parallelRuntime](class.parallel-runtime.html) забезпечує високий рівень контролю для досвідчених програмістів PHP і тих, хто добре знайомий з написанням додатків, які використовують паралельні процеси.

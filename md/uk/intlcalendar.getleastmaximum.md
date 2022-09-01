@@ -1,16 +1,11 @@
-Отримує найменший локальний максимум для поля
-
--   [« IntlCalendar::getKeywordValuesForLocale](intlcalendar.getkeywordvaluesforlocale.md)
-    
--   [IntlCalendar::getLocale »](intlcalendar.getlocale.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує найменший локальний максимум для поля
-    
-
+---
+navigation:
+  - intlcalendar.getkeywordvaluesforlocale.md: '« IntlCalendar::getKeywordValuesForLocale'
+  - intlcalendar.getlocale.md: 'IntlCalendar::getLocale »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getLeastMaximum'
+---
 # IntlCalendar::getLeastMaximum
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

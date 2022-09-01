@@ -1,16 +1,11 @@
-Отримати ASCII-кодований хеш
-
--   [« sodiumcryptopwhashstrverify](function.sodium-crypto-pwhash-str-verify.html)
-    
--   [sodiumcryptopwhash »](function.sodium-crypto-pwhash.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Отримати ASCII-кодований хеш
-    
-
+---
+navigation:
+  - function.sodium-crypto-pwhash-str-verify.html: « sodiumcryptopwhashstrverify
+  - function.sodium-crypto-pwhash.html: sodiumcryptopwhash »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptopwhashstr
+---
 # sodiumcryptopwhashstr
 
 (PHP 7> = 7.2.0, PHP 8)

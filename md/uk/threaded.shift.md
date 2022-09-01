@@ -1,16 +1,11 @@
-Обробка
-
--   [« Threaded::run](threaded.run.html)
-    
--   [Threaded::synchronized »](threaded.synchronized.html)
-    
--   [PHP Manual](index.html)
-    
--   [Threaded](class.threaded.html)
-    
--   Обробка
-    
-
+---
+navigation:
+  - threaded.run.html: '« Threaded::run'
+  - threaded.synchronized.html: 'Threaded::synchronized »'
+  - index.html: PHP Manual
+  - class.threaded.html: Threaded
+title: 'Threaded::shift'
+---
 # Threaded::shift
 
 (PECL pthreads >= 2.0.0)

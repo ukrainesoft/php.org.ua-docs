@@ -1,16 +1,11 @@
-Радіальне розмиття зображення
-
--   [« Imagick::queryFormats](imagick.queryformats.html)
-    
--   [Imagick::raiseImage »](imagick.raiseimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Радіальне розмиття зображення
-    
-
+---
+navigation:
+  - imagick.queryformats.html: '« Imagick::queryFormats'
+  - imagick.raiseimage.html: 'Imagick::raiseImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::radialBlurImage'
+---
 # Imagick::radialBlurImage
 
 (PECL imagick 2, PECL imagick 3)

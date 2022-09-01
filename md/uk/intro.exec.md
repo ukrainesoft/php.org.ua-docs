@@ -1,16 +1,11 @@
-Вступ
-
--   [" Запуск програми](book.exec.html)
-    
--   [Встановлення та налаштування »](exec.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Запуск програми](book.exec.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.exec.html: '" Запуск програми'
+  - exec.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.exec.html: Запуск програми
+title: Вступ
+---
 # Вступ
 
 Ці функції є засобами запуску та захисту команд у системі.

@@ -1,16 +1,11 @@
-Перевіряє, чи зайнято з'єднання на даний момент.
-
--   [« pgconnect](function.pg-connect.html)
-    
--   [пгconnectionreset »](function.pg-connection-reset.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Перевіряє, чи зайнято з'єднання на даний момент.
-    
-
+---
+navigation:
+  - function.pg-connect.html: « pgconnect
+  - function.pg-connection-reset.html: пгconnectionreset »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгconnectionbusy
+---
 # пгconnectionbusy
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

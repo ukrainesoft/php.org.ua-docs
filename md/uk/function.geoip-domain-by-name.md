@@ -1,16 +1,11 @@
-Отримати ім'я домену другого рівня
-
--   [« geoipдбgetallinfo](function.geoip-db-get-all-info.html)
-    
--   [geoipідбname »](function.geoip-id-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Отримати ім'я домену другого рівня
-    
-
+---
+navigation:
+  - function.geoip-db-get-all-info.html: « geoipдбgetallinfo
+  - function.geoip-id-by-name.html: geoipідбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipdomainбname
+---
 # geoipdomainбname
 
 (PECL geoip >= 1.1.0)

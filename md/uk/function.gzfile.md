@@ -1,16 +1,11 @@
-Зчитує весь gz-файл у масив
-
--   [« gzeof](function.gzeof.html)
-    
--   [gzgetc »](function.gzgetc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Зчитує весь gz-файл у масив
-    
-
+---
+navigation:
+  - function.gzeof.html: « gzeof
+  - function.gzgetc.html: gzgetc »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzfile
+---
 # gzfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає число Пі
-
--   [« octdec](function.octdec.md)
-    
--   [pow »](function.pow.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Повертає число Пі
-    
-
+---
+navigation:
+  - function.octdec.md: « octdec
+  - function.pow.md: pow »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: пі
+---
 # пі
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

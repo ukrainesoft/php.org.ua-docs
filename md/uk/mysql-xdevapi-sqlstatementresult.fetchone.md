@@ -1,16 +1,11 @@
-Отримує один рядок
-
--   [« SqlStatementResult::fetchAll](mysql-xdevapi-sqlstatementresult.fetchall.html)
-    
--   [SqlStatementResult::getAffectedItemsCount »](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує один рядок
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.fetchall.html: '« SqlStatementResult::fetchAll'
+  - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html: 'SqlStatementResult::getAffectedItemsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::fetchOne'
+---
 # SqlStatementResult::fetchOne
 
 (No version information available, might only be in Git)

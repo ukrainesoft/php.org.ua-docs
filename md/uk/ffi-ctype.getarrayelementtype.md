@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getAlignment](ffi-ctype.getalignment.html)
-    
--   [FFICType::getArrayLength »](ffi-ctype.getarraylength.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getalignment.html: '« FFICType::getAlignment'
+  - ffi-ctype.getarraylength.html: 'FFICType::getArrayLength »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getArrayElementType'
+---
 # FFICType::getArrayElementType
 
 (PHP 8> = 8.1.0)

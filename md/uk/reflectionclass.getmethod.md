@@ -1,16 +1,11 @@
-Повертає екземпляр ReflectionMethod для методу класу
-
--   [« ReflectionClass::getInterfaces](reflectionclass.getinterfaces.html)
-    
--   [ReflectionClass::getMethods »](reflectionclass.getmethods.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає екземпляр ReflectionMethod для методу класу
-    
-
+---
+navigation:
+  - reflectionclass.getinterfaces.html: '« ReflectionClass::getInterfaces'
+  - reflectionclass.getmethods.html: 'ReflectionClass::getMethods »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getMethod'
+---
 # ReflectionClass::getMethod
 
 (PHP 5, PHP 7, PHP 8)

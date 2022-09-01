@@ -1,16 +1,11 @@
-Відмінності від стандартного Lua
-
--   [« Типи ресурсів](luasandbox.resources.md)
-    
--   [Приклади »](luasandbox.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](book.luasandbox.md)
-    
--   Відмінності від стандартного Lua
-    
-
+---
+navigation:
+  - luasandbox.resources.md: « Типи ресурсів
+  - luasandbox.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
+title: Відмінності від стандартного Lua
+---
 # Відмінності від стандартного Lua
 
 LuaSandbox надає ізольоване середовище, яке в деяких відносинах відрізняється від стандартного Lua 5.1.

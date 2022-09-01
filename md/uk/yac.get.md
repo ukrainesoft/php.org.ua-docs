@@ -1,16 +1,11 @@
-Витягує значення з кешу
-
--   [« Yac::flush](yac.flush.md)
-    
--   [Yac::get »](yac.getter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Витягує значення з кешу
-    
-
+---
+navigation:
+  - yac.flush.md: '« Yac::flush'
+  - yac.getter.md: 'Yac::get »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::get'
+---
 # Yac::get
 
 (PECL yac >= 1.0.0)

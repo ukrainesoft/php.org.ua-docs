@@ -1,16 +1,11 @@
-Видаляє зображення зі списку зображень
-
--   [« Imagick::remapImage](imagick.remapimage.html)
-    
--   [Imagick::removeImageProfile »](imagick.removeimageprofile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Видаляє зображення зі списку зображень
-    
-
+---
+navigation:
+  - imagick.remapimage.html: '« Imagick::remapImage'
+  - imagick.removeimageprofile.html: 'Imagick::removeImageProfile »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::removeImage'
+---
 # Imagick::removeImage
 
 (PECL imagick 2, PECL imagick 3)

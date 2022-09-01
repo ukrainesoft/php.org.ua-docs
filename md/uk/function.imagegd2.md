@@ -1,16 +1,11 @@
-Виведення GD2 зображення у браузер або файл
-
--   [« imagegammacorrect](function.imagegammacorrect.html)
-    
--   [imagegd »](function.imagegd.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Виведення GD2 зображення у браузер або файл
-    
-
+---
+navigation:
+  - function.imagegammacorrect.html: « imagegammacorrect
+  - function.imagegd.html: imagegd »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagegd2
+---
 # imagegd2
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ imagegd2(    GdImage $image,    ?string $file = null,    int $chunk_
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `file` тепер допускає значення null.                                                             |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `file` тепер допускає значення null. |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

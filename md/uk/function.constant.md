@@ -1,16 +1,11 @@
-Повертає значення константи
-
--   [« connectionstatus](function.connection-status.html)
-    
--   [define »](function.define.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Повертає значення константи
-    
-
+---
+navigation:
+  - function.connection-status.html: « connectionstatus
+  - function.define.md: define »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: constant
+---
 # constant
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ constant(string $name): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Якщо константа не визначена, функція **constant()** тепер викидає виняток [Error](class.error.md); раніше видавалася помилка рівня **`E_WARNING`** і поверталося значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Якщо константа не визначена, функція **constant()** тепер викидає виняток [Error](class.error.md); раніше видавалася помилка рівня **`E_WARNING`** і поверталося значення **`null`** |
 
 ### Приклади
 

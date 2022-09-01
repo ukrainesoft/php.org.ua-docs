@@ -1,16 +1,11 @@
-Створити новий об'єкт брокера
-
--   [« enchantbrokergeterror](function.enchant-broker-get-error.html)
-    
--   [enchantbrokerlistdicts »](function.enchant-broker-list-dicts.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Створити новий об'єкт брокера
-    
-
+---
+navigation:
+  - function.enchant-broker-get-error.html: « enchantbrokergeterror
+  - function.enchant-broker-list-dicts.html: enchantbrokerlistdicts »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokerinit
+---
 # enchantbrokerinit
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -31,9 +26,9 @@ enchant_broker_init(): EnchantBroker|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

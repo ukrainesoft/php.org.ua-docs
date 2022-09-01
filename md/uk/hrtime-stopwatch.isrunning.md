@@ -1,16 +1,11 @@
-Перевірити, чи виконується вимір
-
--   [« HRTimeStopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.html)
-    
--   [HRTimeStopWatch::start »](hrtime-stopwatch.start.html)
-    
--   [PHP Manual](index.html)
-    
--   [HRTimeStopWatch](class.hrtime-stopwatch.html)
-    
--   Перевірити, чи виконується вимір
-    
-
+---
+navigation:
+  - hrtime-stopwatch.getlastelapsedtime.html: '« HRTimeStopWatch::getLastElapsedTime'
+  - hrtime-stopwatch.start.html: 'HRTimeStopWatch::start »'
+  - index.html: PHP Manual
+  - class.hrtime-stopwatch.html: HRTimeStopWatch
+title: 'HRTimeStopWatch::isRunning'
+---
 # HRTimeStopWatch::isRunning
 
 (PECL hrtime >= 0.4.3)

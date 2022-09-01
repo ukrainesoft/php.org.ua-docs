@@ -1,16 +1,11 @@
-Отримати мінімальне значення для властивості Unicode
-
--   [« IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.html)
-    
--   [IntlChar::getIntPropertyValue »](intlchar.getintpropertyvalue.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати мінімальне значення для властивості Unicode
-    
-
+---
+navigation:
+  - intlchar.getintpropertymaxvalue.html: '« IntlChar::getIntPropertyMaxValue'
+  - intlchar.getintpropertyvalue.html: 'IntlChar::getIntPropertyValue »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::getIntPropertyMinValue'
+---
 # IntlChar::getIntPropertyMinValue
 
 (PHP 7, PHP 8)

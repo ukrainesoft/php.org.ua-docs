@@ -1,16 +1,11 @@
-Отримання стандартного значення для параметра
-
--   [« ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.md)
-    
--   [ReflectionParameter::getDefaultValueConstantName »](reflectionparameter.getdefaultvalueconstantname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Отримання стандартного значення для параметра
-    
-
+---
+navigation:
+  - reflectionparameter.getdeclaringfunction.md: '« ReflectionParameter::getDeclaringFunction'
+  - reflectionparameter.getdefaultvalueconstantname.md: 'ReflectionParameter::getDefaultValueConstantName »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getDefaultValue'
+---
 # ReflectionParameter::getDefaultValue
 
 (PHP 5> = 5.0.3, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public ReflectionParameter::getDefaultValue(): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Метод тепер дозволяє отримати значення за промовчанням для параметрів вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Метод тепер дозволяє отримати значення за промовчанням для параметрів вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
 
 ### Приклади
 

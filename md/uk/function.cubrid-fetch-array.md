@@ -1,16 +1,11 @@
-Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
-
--   [« cubriderror](function.cubrid-error.html)
-    
--   [cubridfetchassoc »](function.cubrid-fetch-assoc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
-    
-
+---
+navigation:
+  - function.cubrid-error.html: « cubriderror
+  - function.cubrid-fetch-assoc.html: cubridfetchassoc »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridfetcharray
+---
 # cubridfetcharray
 
 (PECL CUBRID >=8.3.0)

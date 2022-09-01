@@ -1,16 +1,11 @@
-Визначає прозорість обведення контурів об'єкта
-
--   [« GmagickDraw::setstrokecolor](gmagickdraw.setstrokecolor.html)
-    
--   [GmagickDraw::setstrokewidth »](gmagickdraw.setstrokewidth.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Визначає прозорість обведення контурів об'єкта
-    
-
+---
+navigation:
+  - gmagickdraw.setstrokecolor.html: '« GmagickDraw::setstrokecolor'
+  - gmagickdraw.setstrokewidth.html: 'GmagickDraw::setstrokewidth »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::setstrokeopacity'
+---
 # GmagickDraw::setstrokeopacity
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Додає вузли після вузла
-
--   [« DOMChildNode](class.domchildnode.md)
-    
--   [DOMChildNode::before »](domchildnode.before.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMChildNode](class.domchildnode.md)
-    
--   Додає вузли після вузла
-    
-
+---
+navigation:
+  - class.domchildnode.md: « DOMChildNode
+  - domchildnode.before.md: 'DOMChildNode::before »'
+  - index.md: PHP Manual
+  - class.domchildnode.md: DOMChildNode
+title: 'DOMChildNode::after'
+---
 # DOMChildNode::after
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Встановлює ширину лінії
-
--   [«pssetlinejoin](function.ps-setlinejoin.html)
-    
--   [псsetmiterlimit »](function.ps-setmiterlimit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює ширину лінії
-    
-
+---
+navigation:
+  - function.ps-setlinejoin.html: «pssetlinejoin
+  - function.ps-setmiterlimit.html: псsetmiterlimit »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetlinewidth
+---
 # псsetlinewidth
 
 (PECL ps >= 1.1.0)

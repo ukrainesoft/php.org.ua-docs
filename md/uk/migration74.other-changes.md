@@ -1,16 +1,11 @@
-Інші зміни
-
--   [« Видалені модулі](migration74.removed-extensions.html)
-    
--   [Поддержка Windows »](migration74.windows-support.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
-    
--   Інші зміни
-    
-
+---
+navigation:
+  - migration74.removed-extensions.html: « Видалені модулі
+  - migration74.windows-support.html: Поддержка Windows »
+  - index.md: PHP Manual
+  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
+title: Інші зміни
+---
 ## Інші зміни
 
 ### Поліпшення продуктивності

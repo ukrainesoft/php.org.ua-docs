@@ -1,16 +1,11 @@
-Скасовує визначення константи
-
--   [« uopzsetstatic](function.uopz-set-static.html)
-    
--   [uopzunsethook »](function.uopz-unset-hook.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Скасовує визначення константи
-    
-
+---
+navigation:
+  - function.uopz-set-static.html: « uopzsetstatic
+  - function.uopz-unset-hook.html: uopzunsethook »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzundefine
+---
 # uopzundefine
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7)

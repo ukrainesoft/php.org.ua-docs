@@ -1,16 +1,11 @@
-Отримує ім'я зіставлення
-
--   [« ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.html)
-    
--   [ColumnResult::getColumnLabel »](mysql-xdevapi-columnresult.getcolumnlabel.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує ім'я зіставлення
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getcharactersetname.html: '« ColumnResult::getCharacterSetName'
+  - mysql-xdevapi-columnresult.getcolumnlabel.html: 'ColumnResult::getColumnLabel »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getCollationName'
+---
 # ColumnResult::getCollationName
 
 (No version information available, might only be in Git)

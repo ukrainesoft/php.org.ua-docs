@@ -1,16 +1,11 @@
-Підраховує кількість елементів в ітераторі
-
--   [« iteratorapply](function.iterator-apply.html)
-    
--   [iteratorтоarray »](function.iterator-to-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SPL](ref.spl.md)
-    
--   Підраховує кількість елементів в ітераторі
-    
-
+---
+navigation:
+  - function.iterator-apply.html: « iteratorapply
+  - function.iterator-to-array.html: iteratorтоarray »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: iteratorcount
+---
 # iteratorcount
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

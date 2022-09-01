@@ -1,16 +1,11 @@
-Псевдонім SolrParams::addParam
-
--   [« SolrParams](class.solrparams.html)
-    
--   [SolrParams::addParam »](solrparams.addparam.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrParams](class.solrparams.html)
-    
--   Псевдонім SolrParams::addParam
-    
-
+---
+navigation:
+  - class.solrparams.html: « SolrParams
+  - solrparams.addparam.html: 'SolrParams::addParam »'
+  - index.html: PHP Manual
+  - class.solrparams.html: SolrParams
+title: 'SolrParams::add'
+---
 # SolrParams::add
 
 (PECL solr> = 0.9.2)

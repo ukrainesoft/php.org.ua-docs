@@ -1,16 +1,11 @@
-Створює об'єкт EvCheck, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::backend](evloop.backend.html)
-    
--   [EvLoop::child »](evloop.child.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Створює об'єкт EvCheck, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.backend.html: '« EvLoop::backend'
+  - evloop.child.html: 'EvLoop::child »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::check'
+---
 # EvLoop::check
 
 (PECL ev >= 0.2.0)

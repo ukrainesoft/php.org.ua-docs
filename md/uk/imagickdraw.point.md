@@ -1,16 +1,11 @@
-Малює точку
-
--   [« ImagickDraw::pathStart](imagickdraw.pathstart.md)
-    
--   [ImagickDraw::polygon »](imagickdraw.polygon.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює точку
-    
-
+---
+navigation:
+  - imagickdraw.pathstart.md: '« ImagickDraw::pathStart'
+  - imagickdraw.polygon.md: 'ImagickDraw::polygon »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::point'
+---
 # ImagickDraw::point
 
 (PECL imagick 2, PECL imagick 3)

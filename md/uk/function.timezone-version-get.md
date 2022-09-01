@@ -1,16 +1,11 @@
-Отримання номера версії бази даних часових поясів
-
--   [« timezonetransitionsget](function.timezone-transitions-get.html)
-    
--   [Допустимі формати дати/часу »](datetime.formats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Отримання номера версії бази даних часових поясів
-    
-
+---
+navigation:
+  - function.timezone-transitions-get.html: « timezonetransitionsget
+  - datetime.formats.md: Допустимі формати дати/часу »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: timezoneversionget
+---
 # timezoneversionget
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Переконфігурація події таймера
-
--   [« Event::setPriority](event.setpriority.md)
-    
--   [Event::signal »](event.signal.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Переконфігурація події таймера
-    
-
+---
+navigation:
+  - event.setpriority.md: '« Event::setPriority'
+  - event.signal.md: 'Event::signal »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::setTimer'
+---
 # Event::setTimer
 
 (PECL event >= 1.2.6-beta)

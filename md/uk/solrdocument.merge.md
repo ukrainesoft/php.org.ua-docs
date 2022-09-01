@@ -1,16 +1,11 @@
-Зливає джерело у поточний SolrDocument
-
--   [« SolrDocument::key](solrdocument.key.html)
-    
--   [SolrDocument::next »](solrdocument.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Зливає джерело у поточний SolrDocument
-    
-
+---
+navigation:
+  - solrdocument.key.html: '« SolrDocument::key'
+  - solrdocument.next.html: 'SolrDocument::next »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::merge'
+---
 # SolrDocument::merge
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Записати дані в сокет
-
--   [« swooleeventwait](function.swoole-event-wait.html)
-    
--   [swoolegetlocalip »](function.swoole-get-local-ip.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Записати дані в сокет
-    
-
+---
+navigation:
+  - function.swoole-event-wait.html: « swooleeventwait
+  - function.swoole-get-local-ip.html: swoolegetlocalip »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleeventwrite
+---
 # swooleeventwrite
 
 (PECL swoole >= 1.9.0)

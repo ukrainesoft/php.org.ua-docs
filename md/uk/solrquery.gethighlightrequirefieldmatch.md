@@ -1,16 +1,11 @@
-Повертає, якщо поле буде виділено лише у тому випадку, якщо запит відповідає цьому конкретному полю
-
--   [« SolrQuery::getHighlightRegexSlop](solrquery.gethighlightregexslop.md)
-    
--   [SolrQuery::getHighlightSimplePost »](solrquery.gethighlightsimplepost.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає, якщо поле буде виділено лише у тому випадку, якщо запит відповідає цьому конкретному полю
-    
-
+---
+navigation:
+  - solrquery.gethighlightregexslop.md: '« SolrQuery::getHighlightRegexSlop'
+  - solrquery.gethighlightsimplepost.md: 'SolrQuery::getHighlightSimplePost »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightRequireFieldMatch'
+---
 # SolrQuery::getHighlightRequireFieldMatch
 
 (PECL solr> = 0.9.2)

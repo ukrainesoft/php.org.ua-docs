@@ -1,16 +1,11 @@
-Встановлює часовий пояс засобу форматування
-
--   [« IntlDateFormatter::setPattern](intldateformatter.setpattern.html)
-    
--   [ResourceBundle »](class.resourcebundle.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Встановлює часовий пояс засобу форматування
-    
-
+---
+navigation:
+  - intldateformatter.setpattern.html: '« IntlDateFormatter::setPattern'
+  - class.resourcebundle.html: ResourceBundle »
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::setTimeZone'
+---
 # IntlDateFormatter::setTimeZone
 
 # datefmtsettimezone

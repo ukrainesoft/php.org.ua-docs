@@ -1,25 +1,20 @@
-Налаштування під час виконання
-
--   [« Установка](var.installation.html)
-    
--   [Типи ресурсів »](var.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](var.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - var.installation.html: « Установка
+  - var.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - var.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Параметри конфігурації змінних**
 
-| Имя                                                                             | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func) | **`null`**   | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func) | **`null`** | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

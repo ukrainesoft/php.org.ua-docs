@@ -1,16 +1,11 @@
-Встановлення драйвера PHP MongoDB за допомогою PECL
-
--   [« Установка](mongodb.installation.html)
-    
--   [Установка драйвера PHP MongoDB на macOS помощью Homebrew »](mongodb.installation.homebrew.html)
-    
--   [PHP Manual](index.html)
-    
--   [Установка](mongodb.installation.html)
-    
--   Встановлення драйвера PHP MongoDB за допомогою PECL
-    
-
+---
+navigation:
+  - mongodb.installation.html: « Установка
+  - mongodb.installation.homebrew.html: Установка драйвера PHP MongoDB на macOS помощью Homebrew »
+  - index.html: PHP Manual
+  - mongodb.installation.html: Установка
+title: Встановлення драйвера PHP MongoDB за допомогою PECL
+---
 ## Встановлення драйвера PHP MongoDB за допомогою PECL
 
 Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/mongodb](https://pecl.php.net/package/mongodb)

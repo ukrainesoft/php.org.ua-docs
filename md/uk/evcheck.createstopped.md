@@ -1,16 +1,11 @@
-Створює зупинений екземпляр спостерігача EvCheck
-
--   [« EvCheck::construct](evcheck.construct.md)
-    
--   [EvChild »](class.evchild.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvCheck](class.evcheck.md)
-    
--   Створює зупинений екземпляр спостерігача EvCheck
-    
-
+---
+navigation:
+  - evcheck.construct.md: '« EvCheck::construct'
+  - class.evchild.md: EvChild »
+  - index.md: PHP Manual
+  - class.evcheck.md: EvCheck
+title: 'EvCheck::createStopped'
+---
 # EvCheck::createStopped
 
 (PECL ev >= 0.2.0)

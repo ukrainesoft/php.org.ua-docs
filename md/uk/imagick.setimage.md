@@ -1,16 +1,11 @@
-Замінює зображення в об'єкті
-
--   [« Imagick::setGravity](imagick.setgravity.md)
-    
--   [Imagick::setImageAlphaChannel »](imagick.setimagealphachannel.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Замінює зображення в об'єкті
-    
-
+---
+navigation:
+  - imagick.setgravity.md: '« Imagick::setGravity'
+  - imagick.setimagealphachannel.md: 'Imagick::setImageAlphaChannel »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImage'
+---
 # Imagick::setImage
 
 (PECL imagick 2, PECL imagick 3)

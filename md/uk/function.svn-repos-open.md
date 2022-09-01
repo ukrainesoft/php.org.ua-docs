@@ -1,16 +1,11 @@
-Відкриває репозиторій із загальним блокуванням
-
--   [« svnreposhotcopy](function.svn-repos-hotcopy.html)
-    
--   [svnreposrecover »](function.svn-repos-recover.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Відкриває репозиторій із загальним блокуванням
-    
-
+---
+navigation:
+  - function.svn-repos-hotcopy.html: « svnreposhotcopy
+  - function.svn-repos-recover.html: svnreposrecover »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnreposopen
+---
 # svnreposopen
 
 (PECL svn> = 0.1.0)

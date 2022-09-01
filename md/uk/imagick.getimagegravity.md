@@ -1,16 +1,11 @@
-Повертає значення гравітації (тяжіння)
-
--   [« Imagick::getImageGeometry](imagick.getimagegeometry.md)
-    
--   [Imagick::getImageGreenPrimary »](imagick.getimagegreenprimary.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає значення гравітації (тяжіння)
-    
-
+---
+navigation:
+  - imagick.getimagegeometry.md: '« Imagick::getImageGeometry'
+  - imagick.getimagegreenprimary.md: 'Imagick::getImageGreenPrimary »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageGravity'
+---
 # Imagick::getImageGravity
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

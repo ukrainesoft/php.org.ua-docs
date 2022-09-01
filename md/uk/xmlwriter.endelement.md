@@ -1,16 +1,11 @@
-Завершити поточний елемент
-
--   [« XMLWriter::endDtdEntity](xmlwriter.enddtdentity.md)
-    
--   [XMLWriter::endPi »](xmlwriter.endpi.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Завершити поточний елемент
-    
-
+---
+navigation:
+  - xmlwriter.enddtdentity.md: '« XMLWriter::endDtdEntity'
+  - xmlwriter.endpi.md: 'XMLWriter::endPi »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::endElement'
+---
 # XMLWriter::endElement
 
 # xmlwriterendelement
@@ -47,9 +42,9 @@ xmlwriter_end_element(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

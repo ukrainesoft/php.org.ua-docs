@@ -1,16 +1,11 @@
-Створює новий сокет
-
--   [« ZMQContext::getOpt](zmqcontext.getopt.html)
-    
--   [ZMQContext::isPersistent »](zmqcontext.ispersistent.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQContext](class.zmqcontext.html)
-    
--   Створює новий сокет
-    
-
+---
+navigation:
+  - zmqcontext.getopt.html: '« ZMQContext::getOpt'
+  - zmqcontext.ispersistent.html: 'ZMQContext::isPersistent »'
+  - index.html: PHP Manual
+  - class.zmqcontext.html: ZMQContext
+title: 'ZMQContext::getSocket'
+---
 # ZMQContext::getSocket
 
 (PECL zmq >= 0.5.0)

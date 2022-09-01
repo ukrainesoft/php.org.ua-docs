@@ -1,16 +1,11 @@
-Встановлює тривалість відображення кадру
-
--   [« Imagick::setImageScene](imagick.setimagescene.html)
-    
--   [Imagick::setImageType »](imagick.setimagetype.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює тривалість відображення кадру
-    
-
+---
+navigation:
+  - imagick.setimagescene.html: '« Imagick::setImageScene'
+  - imagick.setimagetype.html: 'Imagick::setImageType »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageTicksPerSecond'
+---
 # Imagick::setImageTicksPerSecond
 
 (PECL imagick 2, PECL imagick 3)

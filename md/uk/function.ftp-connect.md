@@ -1,16 +1,11 @@
-Встановлює з'єднання з сервером FTP
-
--   [« ftpclose](function.ftp-close.html)
-    
--   [ftpdelete »](function.ftp-delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Встановлює з'єднання з сервером FTP
-    
-
+---
+navigation:
+  - function.ftp-close.html: « ftpclose
+  - function.ftp-delete.html: ftpdelete »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpconnect
+---
 # ftpconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ ftp_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [FTPConnection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

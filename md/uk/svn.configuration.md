@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](svn.installation.html)
-    
--   [Типи ресурсів »](svn.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](svn.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - svn.installation.html: « Установка
+  - svn.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - svn.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

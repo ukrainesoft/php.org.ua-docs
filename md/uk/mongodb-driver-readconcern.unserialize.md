@@ -1,16 +1,11 @@
-Десеріалізація ReadConcern
-
--   [« MongoDBDriverReadConcern::serialize](mongodb-driver-readconcern.serialize.html)
-    
--   [MongoDBDriverCursor »](class.mongodb-driver-cursor.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
-    
--   Десеріалізація ReadConcern
-    
-
+---
+navigation:
+  - mongodb-driver-readconcern.serialize.html: '« MongoDBDriverReadConcern::serialize'
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor »
+  - index.md: PHP Manual
+  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+title: 'MongoDBDriverReadConcern::unserialize'
+---
 # MongoDBDriverReadConcern::unserialize
 
 (mongodb >=1.7.0)

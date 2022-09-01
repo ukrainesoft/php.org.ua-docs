@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](taint.configuration.html)
-    
--   [Додаткові подробиці »](taint.detail.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](taint.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - taint.configuration.html: « Налаштування під час виконання
+  - taint.detail.html: Додаткові подробиці »
+  - index.html: PHP Manual
+  - taint.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

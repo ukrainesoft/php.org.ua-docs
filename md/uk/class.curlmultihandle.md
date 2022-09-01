@@ -1,16 +1,11 @@
-Клас CurlMultiHandle
-
--   [« CurlHandle](class.curlhandle.md)
-    
--   [CurlShareHandle »](class.curlsharehandle.md)
-    
--   [PHP Manual](index.md)
-    
--   [cURL](book.curl.md)
-    
--   Клас CurlMultiHandle
-    
-
+---
+navigation:
+  - class.curlhandle.md: « CurlHandle
+  - class.curlsharehandle.md: CurlShareHandle »
+  - index.md: PHP Manual
+  - book.curl.md: cURL
+title: Клас CurlMultiHandle
+---
 # Клас CurlMultiHandle
 
 (PHP 8)

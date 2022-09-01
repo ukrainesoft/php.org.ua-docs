@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getEnumKind](ffi-ctype.getenumkind.html)
-    
--   [FFICType::getFuncParameterCount »](ffi-ctype.getfuncparametercount.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getenumkind.html: '« FFICType::getEnumKind'
+  - ffi-ctype.getfuncparametercount.html: 'FFICType::getFuncParameterCount »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getFuncABI'
+---
 # FFICType::getFuncABI
 
 (PHP 8> = 8.1.0)

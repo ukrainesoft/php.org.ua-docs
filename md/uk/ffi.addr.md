@@ -1,16 +1,11 @@
-Створює некерований покажчик даних C
-
--   [« FFI](class.ffi.html)
-    
--   [FFI::alignof »](ffi.alignof.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Створює некерований покажчик даних C
-    
-
+---
+navigation:
+  - class.ffi.html: « FFI
+  - ffi.alignof.html: 'FFI::alignof »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::addr'
+---
 # FFI::addr
 
 (PHP 7> = 7.4.0, PHP 8)

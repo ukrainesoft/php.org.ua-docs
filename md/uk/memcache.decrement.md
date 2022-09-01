@@ -1,16 +1,11 @@
-Декрементувати значення елемента
-
--   [« Memcache::connect](memcache.connect.html)
-    
--   [Memcache::delete »](memcache.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Декрементувати значення елемента
-    
-
+---
+navigation:
+  - memcache.connect.html: '« Memcache::connect'
+  - memcache.delete.html: 'Memcache::delete »'
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::decrement'
+---
 # Memcache::decrement
 
 (PECL memcache >= 0.2.0)

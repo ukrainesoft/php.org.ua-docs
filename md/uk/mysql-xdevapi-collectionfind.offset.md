@@ -1,16 +1,11 @@
-Пропускає вказану кількість елементів, що повертаються.
-
--   [« CollectionFind::lockShared](mysql-xdevapi-collectionfind.lockshared.html)
-    
--   [CollectionFind::sort »](mysql-xdevapi-collectionfind.sort.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Пропускає вказану кількість елементів, що повертаються.
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.lockshared.html: '« CollectionFind::lockShared'
+  - mysql-xdevapi-collectionfind.sort.html: 'CollectionFind::sort »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::offset'
+---
 # CollectionFind::offset
 
 (No version information available, might only be in Git)

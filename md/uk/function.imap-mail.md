@@ -1,16 +1,11 @@
-Надіслати email
-
--   [« imapmailmove](function.imap-mail-move.html)
-    
--   [imapmailboxmsginfo »](function.imap-mailboxmsginfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Надіслати email
-    
-
+---
+navigation:
+  - function.imap-mail-move.html: « imapmailmove
+  - function.imap-mailboxmsginfo.html: imapmailboxmsginfo »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapmail
+---
 # imapmail
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -61,9 +56,9 @@ imap_mail(    string $to,    string $subject,    string $message, �
 
 ### список змін
 
-| Версия | Описание                                                                        |
-|--------|---------------------------------------------------------------------------------|
-|        | `additional_headers` `cc` `bcc` і `return_path` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `additional_headers` `cc` `bcc` і `return_path` тепер допускають значення null. |
 
 ### Дивіться також
 

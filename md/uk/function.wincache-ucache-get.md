@@ -1,16 +1,11 @@
-Отримує змінну, що зберігається в кеші користувача.
-
--   [« wincacheucacheexists](function.wincache-ucache-exists.html)
-    
--   [wincacheucacheinc »](function.wincache-ucache-inc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Отримує змінну, що зберігається в кеші користувача.
-    
-
+---
+navigation:
+  - function.wincache-ucache-exists.html: « wincacheucacheexists
+  - function.wincache-ucache-inc.html: wincacheucacheinc »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucacheget
+---
 # wincacheucacheget
 
 (PECL wincache >= 1.1.0)

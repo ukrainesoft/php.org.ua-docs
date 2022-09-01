@@ -1,16 +1,11 @@
-Почати відтворення джерела
-
--   [« openalsourcepause](function.openal-source-pause.html)
-    
--   [openalsourcerewind »](function.openal-source-rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenAL](ref.openal.html)
-    
--   Почати відтворення джерела
-    
-
+---
+navigation:
+  - function.openal-source-pause.html: « openalsourcepause
+  - function.openal-source-rewind.html: openalsourcerewind »
+  - index.html: PHP Manual
+  - ref.openal.html: Функции OpenAL
+title: openalsourceplay
+---
 # openalsourceplay
 
 (PECL openal >= 0.1.0)

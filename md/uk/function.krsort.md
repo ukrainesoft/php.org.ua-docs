@@ -1,16 +1,11 @@
-Сортує масив за ключом у порядку зменшення
-
--   [« key](function.key.html)
-    
--   [ksort »](function.ksort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Сортує масив за ключом у порядку зменшення
-    
-
+---
+navigation:
+  - function.key.html: « key
+  - function.ksort.html: ksort »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: крсорт
+---
 # крсорт
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

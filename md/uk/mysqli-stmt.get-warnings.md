@@ -1,16 +1,11 @@
-Отримує результат від SHOW WARNINGS
-
--   [« mysqlistmt::getresult](mysqli-stmt.get-result.html)
-    
--   [mysqlistmt::$insertid »](mysqli-stmt.insert-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Отримує результат від SHOW WARNINGS
-    
-
+---
+navigation:
+  - mysqli-stmt.get-result.html: '« mysqlistmt::getresult'
+  - mysqli-stmt.insert-id.html: 'mysqlistmt::$insertid »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::getwarnings'
+---
 # mysqlistmt::getwarnings
 
 # mysqlistmtgetwarnings

@@ -1,16 +1,11 @@
-Готує результуючий набір на сервері для використання
-
--   [« mysqli::threadsafe](mysqli.thread-safe.html)
-    
--   [mysqli::$warningcount »](mysqli.warning-count.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Готує результуючий набір на сервері для використання
-    
-
+---
+navigation:
+  - mysqli.thread-safe.html: '« mysqli::threadsafe'
+  - mysqli.warning-count.html: 'mysqli::$warningcount »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::useresult'
+---
 # mysqli::useresult
 
 # mysqliuseresult

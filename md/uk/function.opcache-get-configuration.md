@@ -1,16 +1,11 @@
-Отримати конфігураційну інформацію кешу
-
--   [« opcachecompilefile](function.opcache-compile-file.html)
-    
--   [opcachegetstatus »](function.opcache-get-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OPcache](ref.opcache.html)
-    
--   Отримати конфігураційну інформацію кешу
-    
-
+---
+navigation:
+  - function.opcache-compile-file.html: « opcachecompilefile
+  - function.opcache-get-status.html: opcachegetstatus »
+  - index.html: PHP Manual
+  - ref.opcache.html: Функции OPcache
+title: opcachegetconfiguration
+---
 # opcachegetconfiguration
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)

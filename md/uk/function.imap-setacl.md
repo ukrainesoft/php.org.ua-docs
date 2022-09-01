@@ -1,16 +1,11 @@
-Встановлення ACL для заданої поштової скриньки
-
--   [« imapsetquota](function.imap-set-quota.html)
-    
--   [imapsetflagfull »](function.imap-setflag-full.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Встановлення ACL для заданої поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-set-quota.html: « imapsetquota
+  - function.imap-setflag-full.html: imapsetflagfull »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapsetacl
+---
 # imapsetacl
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

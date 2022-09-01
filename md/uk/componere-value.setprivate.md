@@ -1,16 +1,11 @@
-Зміна доступності
-
--   [« ComponereValue::construct](componere-value.construct.html)
-    
--   [ComponereValue::setProtected »](componere-value.setprotected.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereValue](class.componere-value.html)
-    
--   Зміна доступності
-    
-
+---
+navigation:
+  - componere-value.construct.html: '« ComponereValue::construct'
+  - componere-value.setprotected.html: 'ComponereValue::setProtected »'
+  - index.md: PHP Manual
+  - class.componere-value.html: ComponereValue
+title: 'ComponereValue::setPrivate'
+---
 # ComponereValue::setPrivate
 
 (Componere 2 >= 2.1.0)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« Mcrypt](book.mcrypt.html)
-    
--   [Встановлення та налаштування »](mcrypt.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](book.mcrypt.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.mcrypt.html: « Mcrypt
+  - mcrypt.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.mcrypt.html: Mcrypt
+title: Вступ
+---
 # Вступ
 
 **Увага**

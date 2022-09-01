@@ -1,16 +1,11 @@
-Клас MultipleIterator
-
--   [« LimitIterator::valid](limititerator.valid.md)
-    
--   [MultipleIterator::attachIterator »](multipleiterator.attachiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас MultipleIterator
-    
-
+---
+navigation:
+  - limititerator.valid.md: '« LimitIterator::valid'
+  - multipleiterator.attachiterator.md: 'MultipleIterator::attachIterator »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас MultipleIterator
+---
 # Клас MultipleIterator
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

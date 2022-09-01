@@ -1,16 +1,11 @@
-Відкриває файл, стислий за допомогою bzip2
-
--   [« bzflush](function.bzflush.md)
-    
--   [bzread »](function.bzread.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Відкриває файл, стислий за допомогою bzip2
-    
-
+---
+navigation:
+  - function.bzflush.md: « bzflush
+  - function.bzread.md: bzread »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzopen
+---
 # bzopen
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Псевдонім iswritable
-
--   [« iswritable](function.is-writable.html)
-    
--   [lchgrp »](function.lchgrp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Псевдонім iswritable
-    
-
+---
+navigation:
+  - function.is-writable.html: « iswritable
+  - function.lchgrp.html: lchgrp »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: ісwriteable
+---
 # ісwriteable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

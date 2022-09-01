@@ -1,16 +1,11 @@
-Збільшити збережене число
-
--   [« apcufetch](function.apcu-fetch.html)
-    
--   [apcukeyinfo »](function.apcu-key-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Збільшити збережене число
-    
-
+---
+navigation:
+  - function.apcu-fetch.html: « apcufetch
+  - function.apcu-key-info.html: apcukeyinfo »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcuinc
+---
 # apcuinc
 
 (PECL apcu >= 4.0.0)

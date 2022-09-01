@@ -1,16 +1,11 @@
-Зберігає кілька записів на вказаному сервері
-
--   [« Memcached::setMulti](memcached.setmulti.html)
-    
--   [Memcached::setOption »](memcached.setoption.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Зберігає кілька записів на вказаному сервері
-    
-
+---
+navigation:
+  - memcached.setmulti.html: '« Memcached::setMulti'
+  - memcached.setoption.html: 'Memcached::setOption »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::setMultiByKey'
+---
 # Memcached::setMultiByKey
 
 (PECL memcached >= 0.1.0)

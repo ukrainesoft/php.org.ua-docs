@@ -1,16 +1,11 @@
-Встановлює день, який є початком тижня
-
--   [« IntlCalendar::set](intlcalendar.set.md)
-    
--   [IntlCalendar::setLenient »](intlcalendar.setlenient.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Встановлює день, який є початком тижня
-    
-
+---
+navigation:
+  - intlcalendar.set.md: '« IntlCalendar::set'
+  - intlcalendar.setlenient.md: 'IntlCalendar::setLenient »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::setFirstDayOfWeek'
+---
 # IntlCalendar::setFirstDayOfWeek
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

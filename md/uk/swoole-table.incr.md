@@ -1,16 +1,11 @@
-Збільшує значення $rowkey та $columnkey
-
--   [« SwooleTable::get](swoole-table.get.html)
-    
--   [SwooleTable::key »](swoole-table.key.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Збільшує значення $rowkey та $columnkey
-    
-
+---
+navigation:
+  - swoole-table.get.html: '« SwooleTable::get'
+  - swoole-table.key.html: 'SwooleTable::key »'
+  - index.md: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::incr'
+---
 # SwooleTable::incr
 
 (PECL swoole >= 1.9.0)

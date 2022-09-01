@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getArrayElementType](ffi-ctype.getarrayelementtype.html)
-    
--   [FFICType::getAttributes »](ffi-ctype.getattributes.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getarrayelementtype.html: '« FFICType::getArrayElementType'
+  - ffi-ctype.getattributes.html: 'FFICType::getAttributes »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getArrayLength'
+---
 # FFICType::getArrayLength
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.phar.md)
-    
--   [Вимоги »](phar.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](book.phar.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.phar.md: « Введение
+  - phar.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.phar.md: Phar
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

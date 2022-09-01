@@ -1,16 +1,11 @@
-Отримує схему чергування зображень
-
--   [« Gmagick::getimageindex](gmagick.getimageindex.md)
-    
--   [Gmagick::getimageiterations »](gmagick.getimageiterations.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Отримує схему чергування зображень
-    
-
+---
+navigation:
+  - gmagick.getimageindex.md: '« Gmagick::getimageindex'
+  - gmagick.getimageiterations.md: 'Gmagick::getimageiterations »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimageinterlacescheme'
+---
 # Gmagick::getimageinterlacescheme
 
 (PECL gmagick >= Unknown)

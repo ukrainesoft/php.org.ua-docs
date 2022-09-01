@@ -1,16 +1,11 @@
-Побітове АБО
-
--   [« gmpnextprime](function.gmp-nextprime.html)
-    
--   [gmpperfectpower »](function.gmp-perfect-power.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Побітове АБО
-    
-
+---
+navigation:
+  - function.gmp-nextprime.html: « gmpnextprime
+  - function.gmp-perfect-power.html: gmpperfectpower »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpор
+---
 # gmpор
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

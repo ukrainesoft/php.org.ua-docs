@@ -1,16 +1,11 @@
-Вступ
-
--   [« Memcached](book.memcached.md)
-    
--   [Встановлення та налаштування »](memcached.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](book.memcached.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.memcached.md: « Memcached
+  - memcached.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.memcached.md: Memcached
+title: Вступ
+---
 # Вступ
 
 [» Memcached](http://www.memcached.org/) - це високопродуктивна та розподілена система кешування будь-яких об'єктів у пам'яті, призначена в першу чергу для прискорення динамічних веб-додатків за рахунок зниження навантаження на базу даних.

@@ -1,16 +1,11 @@
-Створює новий ітератор директорій на шляху
-
--   [« DirectoryIterator](class.directoryiterator.html)
-    
--   [DirectoryIterator::current »](directoryiterator.current.html)
-    
--   [PHP Manual](index.html)
-    
--   [DirectoryIterator](class.directoryiterator.html)
-    
--   Створює новий ітератор директорій на шляху
-    
-
+---
+navigation:
+  - class.directoryiterator.html: « DirectoryIterator
+  - directoryiterator.current.html: 'DirectoryIterator::current »'
+  - index.html: PHP Manual
+  - class.directoryiterator.html: DirectoryIterator
+title: 'DirectoryIterator::construct'
+---
 # DirectoryIterator::construct
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public **DirectoryIterator::construct**(string `$directory`
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
 
 ### Приклади
 

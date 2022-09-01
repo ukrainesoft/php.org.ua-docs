@@ -1,16 +1,11 @@
-Нова функціональність
-
--   [« Зміни, що ламають зворотну сумісність](migration70.incompatible.html)
-    
--   [Функціональність, оголошена застарілою в PHP 7.0.x](migration70.deprecated.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
-    
--   Нова функціональність
-    
-
+---
+navigation:
+  - migration70.incompatible.html: '« Зміни, що ламають зворотну сумісність'
+  - migration70.deprecated.html: 'Функціональність, оголошена застарілою в PHP 7.0.x'
+  - index.html: PHP Manual
+  - migration70.html: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Нова функціональність
+---
 ## Нова функціональність
 
 ### Оголошення скалярних типів

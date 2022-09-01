@@ -1,16 +1,11 @@
-Створює новий об'єкт документа PostScript
-
--   [«psmoveto](function.ps-moveto.html)
-    
--   [псopenfile »](function.ps-open-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Створює новий об'єкт документа PostScript
-    
-
+---
+navigation:
+  - function.ps-moveto.html: «psmoveto
+  - function.ps-open-file.html: псopenfile »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псnew
+---
 # псnew
 
 (PECL ps >= 1.1.0)

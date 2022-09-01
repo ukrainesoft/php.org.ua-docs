@@ -1,16 +1,11 @@
-Відповідає hl.fl
-
--   [« SolrQuery::addGroupSortField](solrquery.addgroupsortfield.html)
-    
--   [SolrQuery::addMltField »](solrquery.addmltfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Відповідає hl.fl
-    
-
+---
+navigation:
+  - solrquery.addgroupsortfield.html: '« SolrQuery::addGroupSortField'
+  - solrquery.addmltfield.html: 'SolrQuery::addMltField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::addHighlightField'
+---
 # SolrQuery::addHighlightField
 
 (PECL solr> = 0.9.2)

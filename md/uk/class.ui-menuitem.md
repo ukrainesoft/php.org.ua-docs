@@ -1,16 +1,11 @@
-Елемент меню
-
--   [« UIMenu::construct](ui-menu.construct.html)
-    
--   [ОЙMenuItem::disable »](ui-menuitem.disable.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент меню
-    
-
+---
+navigation:
+  - ui-menu.construct.html: '« UIMenu::construct'
+  - ui-menuitem.disable.html: 'ОЙMenuItem::disable »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент меню
+---
 # Елемент меню
 
 (UI 0.9.9)

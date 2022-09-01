@@ -1,16 +1,11 @@
-Перевіряє, чи є аргумент необов'язковим
-
--   [« ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md)
-    
--   [ReflectionParameter::isPassedByReference »](reflectionparameter.ispassedbyreference.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перевіряє, чи є аргумент необов'язковим
-    
-
+---
+navigation:
+  - reflectionparameter.isdefaultvalueconstant.md: '« ReflectionParameter::isDefaultValueConstant'
+  - reflectionparameter.ispassedbyreference.md: 'ReflectionParameter::isPassedByReference »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isOptional'
+---
 # ReflectionParameter::isOptional
 
 (PHP 5> = 5.0.3, PHP 7, PHP 8)

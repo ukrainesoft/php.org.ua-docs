@@ -1,16 +1,11 @@
-Математичні функції
-
--   [« GMP::unserialize](gmp.unserialize.md)
-    
--   [Введение »](intro.math.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні модулі](refs.math.md)
-    
--   Математичні функції
-    
-
+---
+navigation:
+  - gmp.unserialize.md: '« GMP::unserialize'
+  - intro.math.md: Введение »
+  - index.md: PHP Manual
+  - refs.math.md: Математичні модулі
+title: Математичні функції
+---
 # Математичні функції
 
 -   [Введение](intro.math.md)

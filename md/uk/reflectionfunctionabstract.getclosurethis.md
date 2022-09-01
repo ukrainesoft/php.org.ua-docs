@@ -1,16 +1,11 @@
-Повертає покажчик, прив'язаний до замикання
-
--   [« ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)
-    
--   [ReflectionFunctionAbstract::getClosureUsedVariables »](reflectionfunctionabstract.getclosureusedvariables.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Повертає покажчик, прив'язаний до замикання
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getclosurescopeclass.md: '« ReflectionFunctionAbstract::getClosureScopeClass'
+  - reflectionfunctionabstract.getclosureusedvariables.md: 'ReflectionFunctionAbstract::getClosureUsedVariables »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getClosureThis'
+---
 # ReflectionFunctionAbstract::getClosureThis
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

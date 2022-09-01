@@ -1,16 +1,11 @@
-Готується до пошуку (Z39.50 є)
-
--   [« yazitemorder](function.yaz-itemorder.html)
-    
--   [yazrange »](function.yaz-range.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Готується до пошуку (Z39.50 є)
-    
-
+---
+navigation:
+  - function.yaz-itemorder.html: « yazitemorder
+  - function.yaz-range.html: yazrange »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazpresent
+---
 # yazpresent
 
 (PHP 4> = 4.0.5, PECL yaz> = 0.9.0)

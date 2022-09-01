@@ -1,16 +1,11 @@
-Покращує якість зображення з шумом
-
--   [« Gmagick::embossimage](gmagick.embossimage.html)
-    
--   [Gmagick::equalizeimage »](gmagick.equalizeimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Покращує якість зображення з шумом
-    
-
+---
+navigation:
+  - gmagick.embossimage.html: '« Gmagick::embossimage'
+  - gmagick.equalizeimage.html: 'Gmagick::equalizeimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::enhanceimage'
+---
 # Gmagick::enhanceimage
 
 (PECL gmagick >= Unknown)

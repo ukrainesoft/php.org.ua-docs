@@ -1,16 +1,11 @@
-Відкриває постійне з'єднання з базою даних
-
--   [« odbcnumrows](function.odbc-num-rows.html)
-    
--   [odbcprepare »](function.odbc-prepare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Відкриває постійне з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.odbc-num-rows.html: « odbcnumrows
+  - function.odbc-prepare.html: odbcprepare »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcpconnect
+---
 # odbcpconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

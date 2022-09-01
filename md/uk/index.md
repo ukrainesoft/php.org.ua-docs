@@ -1,12 +1,9 @@
-Посібник з PHP
-
--   [Авторские права »](copyright.md)
-    
--   [PHP Manual](index.md)
-    
--   Посібник з PHP
-    
-
+---
+navigation:
+  - copyright.md: Авторские права »
+  - index.md: PHP Manual
+title: Посібник з PHP
+---
 # Посібник з PHP
 
 **від**  

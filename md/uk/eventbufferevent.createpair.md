@@ -1,16 +1,11 @@
-Створює дві буферні події, пов'язані один з одним
-
--   [« EventBufferEvent::construct](eventbufferevent.construct.md)
-    
--   [EventBufferEvent::disable »](eventbufferevent.disable.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Створює дві буферні події, пов'язані один з одним
-    
-
+---
+navigation:
+  - eventbufferevent.construct.md: '« EventBufferEvent::construct'
+  - eventbufferevent.disable.md: 'EventBufferEvent::disable »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::createPair'
+---
 # EventBufferEvent::createPair
 
 (PECL event >= 1.2.6-beta)
@@ -50,6 +45,6 @@ public
 
 ### список змін
 
-| Версия           | Описание              |
-|------------------|-----------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.9.0 | Метод став статичним. |

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](json.requirements.html)
-    
--   [Налаштування під час виконання »](json.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](json.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - json.requirements.html: « Вимоги
+  - json.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - json.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль JSON за замовчуванням входить до постачання PHP.

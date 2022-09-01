@@ -1,16 +1,11 @@
-Створити новий конвертер зображень
-
--   [« wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
-    
--   [wkhtmltoxImageConverter::convert »](wkhtmltox-image-converter.convert.html)
-    
--   [PHP Manual](index.html)
-    
--   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
-    
--   Створити новий конвертер зображень
-    
-
+---
+navigation:
+  - class.wkhtmltox-image-converter.html: « wkhtmltoxImageConverter
+  - wkhtmltox-image-converter.convert.html: 'wkhtmltoxImageConverter::convert »'
+  - index.html: PHP Manual
+  - class.wkhtmltox-image-converter.html: wkhtmltoxImageConverter
+title: 'wkhtmltoxImageConverter::construct'
+---
 # wkhtmltoxImageConverter::construct
 
 (wkhtmltox >= 0.1.0)
@@ -31,11 +26,11 @@ HTML
 
 `settings`
 
-| Название | Описание                                                                                                                        | Значения             | Версия |
-|----------|---------------------------------------------------------------------------------------------------------------------------------|----------------------|--------|
-| ін       | URL або шлях вхідного файлу, якщо "-", то використовується стандартне введення                                                  | /патх/то/маркуп.хтмл | \>     |
-| out      | шлях до вихідного файлу, якщо "-", то використовується стандартний висновок, за замовчуванням використовується внутрішній буфер | /патх/то/оутпут.пнг  | \>     |
-| fmt      | формат виводу для використання                                                                                                  |                      |        |
+| Название | Описание | Значения | Версия |
+| --- | --- | --- | --- |
+| ін | URL або шлях вхідного файлу, якщо "-", то використовується стандартне введення | /патх/то/маркуп.хтмл | \> |
+| out | шлях до вихідного файлу, якщо "-", то використовується стандартний висновок, за замовчуванням використовується внутрішній буфер | /патх/то/оутпут.пнг | \> |
+| fmt | формат виводу для використання |  |  |
 
 <table class="doctable table"><tbody class="tbody"><tr><td>""</td><td>за замовчуванням</td></tr><tr><td>jpg&lt; /td&gt;</td><td>висновок у форматі JPEG</td></tr><tr><td>png</td><td>висновок у форматі PNG</td></tr><tr><td>bmp</td><td>виведення у форматі растрового зображення</td></tr><tr><td>svg</td><td>виведення у форматі SVG</td></tr></tbody></table>
 

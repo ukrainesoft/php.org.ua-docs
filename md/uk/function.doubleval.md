@@ -1,16 +1,11 @@
-Псевдонім floatval
-
--   [« debugzvaldump](function.debug-zval-dump.html)
-    
--   [empty »](function.empty.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Псевдонім floatval
-    
-
+---
+navigation:
+  - function.debug-zval-dump.html: « debugzvaldump
+  - function.empty.html: empty »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: doubleval
+---
 # doubleval
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Построчно виводить автора та редакцію для файлу
-
--   [« svnauthsetparameter](function.svn-auth-set-parameter.html)
-    
--   [svncat »](function.svn-cat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Построчно виводить автора та редакцію для файлу
-    
-
+---
+navigation:
+  - function.svn-auth-set-parameter.html: « svnauthsetparameter
+  - function.svn-cat.html: svncat »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnblame
+---
 # svnblame
 
 (PECL svn >= 0.3.0)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](ev.global.constants.md)
-    
--   [Спостерігачі »](ev.watchers.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - ev.global.constants.md: « Обумовлені константи
+  - ev.watchers.md: Спостерігачі »
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Прості таймери**

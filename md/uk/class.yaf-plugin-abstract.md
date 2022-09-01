@@ -1,16 +1,11 @@
-Клас YafPluginAbstract
-
--   [« YafLoader::setLibraryPath](yaf-loader.setlibrarypath.html)
-    
--   [YafPluginAbstract::dispatchLoopShutdown »](yaf-plugin-abstract.dispatchloopshutdown.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafPluginAbstract
-    
-
+---
+navigation:
+  - yaf-loader.setlibrarypath.html: '« YafLoader::setLibraryPath'
+  - yaf-plugin-abstract.dispatchloopshutdown.html: 'YafPluginAbstract::dispatchLoopShutdown »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafPluginAbstract
+---
 # Клас YafPluginAbstract
 
 (Yaf >=1.0.0)

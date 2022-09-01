@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.pcre.md)
-    
--   [Вимоги »](pcre.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [PCRE](book.pcre.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.pcre.md: « Введение
+  - pcre.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.pcre.md: PCRE
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

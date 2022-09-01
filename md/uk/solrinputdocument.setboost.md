@@ -1,16 +1,11 @@
-Встановлює значення підвищення документа
-
--   [« SolrInputDocument::reset](solrinputdocument.reset.md)
-    
--   [SolrInputDocument::setFieldBoost »](solrinputdocument.setfieldboost.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Встановлює значення підвищення документа
-    
-
+---
+navigation:
+  - solrinputdocument.reset.md: '« SolrInputDocument::reset'
+  - solrinputdocument.setfieldboost.md: 'SolrInputDocument::setFieldBoost »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::setBoost'
+---
 # SolrInputDocument::setBoost
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Клас SimpleXMLElement
-
--   [« Робота з помилками XML](simplexml.examples-errors.html)
-    
--   [SimpleXMLElement::addAttribute »](simplexmlelement.addattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXML](book.simplexml.md)
-    
--   Клас SimpleXMLElement
-    
-
+---
+navigation:
+  - simplexml.examples-errors.html: « Робота з помилками XML
+  - simplexmlelement.addattribute.md: 'SimpleXMLElement::addAttribute »'
+  - index.md: PHP Manual
+  - book.simplexml.md: SimpleXML
+title: Клас SimpleXMLElement
+---
 # Клас SimpleXMLElement
 
 (PHP 5, PHP 7, PHP 8)
@@ -56,9 +51,9 @@ public xpath(string $expression): array|null|false
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **SimpleXMLElement** тепер реалізує інтерфейси [Stringable](class.stringable.md) [Countable](class.countable.md), і [RecursiveIterator](class.recursiveiterator.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SimpleXMLElement** тепер реалізує інтерфейси [Stringable](class.stringable.md) [Countable](class.countable.md), і [RecursiveIterator](class.recursiveiterator.md) |
 
 ## Зміст
 

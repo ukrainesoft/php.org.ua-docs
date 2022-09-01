@@ -1,16 +1,11 @@
-Включає або вимикає TermsComponent
-
--   [« SolrQuery::setStats](solrquery.setstats.html)
-    
--   [SolrQuery::setTermsField »](solrquery.settermsfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Включає або вимикає TermsComponent
-    
-
+---
+navigation:
+  - solrquery.setstats.html: '« SolrQuery::setStats'
+  - solrquery.settermsfield.html: 'SolrQuery::setTermsField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setTerms'
+---
 # SolrQuery::setTerms
 
 (PECL solr> = 0.9.2)

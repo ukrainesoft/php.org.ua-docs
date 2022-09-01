@@ -1,16 +1,11 @@
-Повертає інформацію про місцезнаходження для часового поясу
-
--   [« DateTimeZone::construct](datetimezone.construct.html)
-    
--   [DateTimeZone::getName »](datetimezone.getname.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeZone](class.datetimezone.html)
-    
--   Повертає інформацію про місцезнаходження для часового поясу
-    
-
+---
+navigation:
+  - datetimezone.construct.html: '« DateTimeZone::construct'
+  - datetimezone.getname.html: 'DateTimeZone::getName »'
+  - index.html: PHP Manual
+  - class.datetimezone.html: DateTimeZone
+title: 'DateTimeZone::getLocation'
+---
 # DateTimeZone::getLocation
 
 # timezonelocationget

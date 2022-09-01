@@ -1,16 +1,11 @@
-Перевірити, чи символ є титульним (Titlecase)
-
--   [« IntlChar::isspace](intlchar.isspace.md)
-    
--   [IntlChar::isUAlphabetic »](intlchar.isualphabetic.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи символ є титульним (Titlecase)
-    
-
+---
+navigation:
+  - intlchar.isspace.md: '« IntlChar::isspace'
+  - intlchar.isualphabetic.md: 'IntlChar::isUAlphabetic »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::istitle'
+---
 # IntlChar::istitle
 
 (PHP 7, PHP 8)

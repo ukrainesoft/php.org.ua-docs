@@ -1,16 +1,11 @@
-Встановлює м'який режим аналізатора
-
--   [« IntlDateFormatter::setCalendar](intldateformatter.setcalendar.md)
-    
--   [IntlDateFormatter::setPattern »](intldateformatter.setpattern.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Встановлює м'який режим аналізатора
-    
-
+---
+navigation:
+  - intldateformatter.setcalendar.md: '« IntlDateFormatter::setCalendar'
+  - intldateformatter.setpattern.md: 'IntlDateFormatter::setPattern »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::setLenient'
+---
 # IntlDateFormatter::setLenient
 
 # datefmtsetlenient

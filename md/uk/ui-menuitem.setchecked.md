@@ -1,16 +1,11 @@
-Вибрати пункт меню
-
--   [« UIMenuItem::onClick](ui-menuitem.onclick.html)
-    
--   [ОЙArea »](class.ui-area.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenuItem](class.ui-menuitem.html)
-    
--   Вибрати пункт меню
-    
-
+---
+navigation:
+  - ui-menuitem.onclick.html: '« UIMenuItem::onClick'
+  - class.ui-area.html: ОЙArea »
+  - index.md: PHP Manual
+  - class.ui-menuitem.html: ОЙMenuItem
+title: 'ОЙMenuItem::setChecked'
+---
 # ОЙMenuItem::setChecked
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Параболічний SAR
-
--   [« traderrsi](function.trader-rsi.html)
-    
--   [tradersarext »](function.trader-sarext.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Параболічний SAR
-    
-
+---
+navigation:
+  - function.trader-rsi.html: « traderrsi
+  - function.trader-sarext.html: tradersarext »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersar
+---
 # tradersar
 
 (PECL trader >= 0.2.0)

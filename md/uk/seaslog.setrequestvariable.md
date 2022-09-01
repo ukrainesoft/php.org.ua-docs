@@ -1,16 +1,11 @@
-Встановлює змінну запиту SeasLog вручну
-
--   [« SeasLog::setRequestID](seaslog.setrequestid.md)
-    
--   [SeasLog::warning »](seaslog.warning.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Встановлює змінну запиту SeasLog вручну
-    
-
+---
+navigation:
+  - seaslog.setrequestid.md: '« SeasLog::setRequestID'
+  - seaslog.warning.md: 'SeasLog::warning »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::setRequestVariable'
+---
 # SeasLog::setRequestVariable
 
 (PECL seaslog >=1.9.0)

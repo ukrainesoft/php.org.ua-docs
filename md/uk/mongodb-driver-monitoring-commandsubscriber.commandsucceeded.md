@@ -1,16 +1,11 @@
-Метод повідомлення про успішну команду
-
--   [« MongoDBDriverMonitoringCommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber »](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)
-    
--   Метод повідомлення про успішну команду
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsubscriber.commandstarted.html: '« MongoDBDriverMonitoringCommandSubscriber::commandStarted'
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber »
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandsubscriber.html: MongoDBDriverMonitoringCommandSubscriber
+title: 'MongoDBDriverMonitoringCommandSubscriber::commandSucceeded'
+---
 # MongoDBDriverMonitoringCommandSubscriber::commandSucceeded
 
 (mongodb >=1.3.0)

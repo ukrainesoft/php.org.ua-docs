@@ -1,16 +1,11 @@
-Отримати невідомий часовий пояс (unknown)
-
--   [« IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.html)
-    
--   [IntlTimeZone::getWindowsID »](intltimezone.getwindowsid.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Отримати невідомий часовий пояс (unknown)
-    
-
+---
+navigation:
+  - intltimezone.gettzdataversion.html: '« IntlTimeZone::getTZDataVersion'
+  - intltimezone.getwindowsid.html: 'IntlTimeZone::getWindowsID »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::getUnknown'
+---
 # IntlTimeZone::getUnknown
 
 # intltzgetunknown

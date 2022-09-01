@@ -1,16 +1,11 @@
-Налаштовує спостерігача
-
--   [« EvPeriodic::createStopped](evperiodic.createstopped.html)
-    
--   [EvPrepare »](class.evprepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvPeriodic](class.evperiodic.html)
-    
--   Налаштовує спостерігача
-    
-
+---
+navigation:
+  - evperiodic.createstopped.html: '« EvPeriodic::createStopped'
+  - class.evprepare.html: EvPrepare »
+  - index.html: PHP Manual
+  - class.evperiodic.html: EvPeriodic
+title: 'EvPeriodic::set'
+---
 # EvPeriodic::set
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Розділити DN на його складові
-
--   [« ldapexop](function.ldap-exop.html)
-    
--   [ldapfirstattribute »](function.ldap-first-attribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Розділити DN на його складові
-    
-
+---
+navigation:
+  - function.ldap-exop.html: « ldapexop
+  - function.ldap-first-attribute.html: ldapfirstattribute »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapexplodeдн
+---
 # ldapexplodeдн
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

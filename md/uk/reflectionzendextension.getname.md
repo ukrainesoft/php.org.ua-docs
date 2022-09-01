@@ -1,16 +1,11 @@
-Отримує ім'я
-
--   [« ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md)
-    
--   [ReflectionZendExtension::getURL »](reflectionzendextension.geturl.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.md)
-    
--   Отримує ім'я
-    
-
+---
+navigation:
+  - reflectionzendextension.getcopyright.md: '« ReflectionZendExtension::getCopyright'
+  - reflectionzendextension.geturl.md: 'ReflectionZendExtension::getURL »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::getName'
+---
 # ReflectionZendExtension::getName
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

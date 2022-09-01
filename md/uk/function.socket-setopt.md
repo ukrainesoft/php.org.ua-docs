@@ -1,16 +1,11 @@
-Псевдонім socketsetoption
-
--   [« socketsetoption](function.socket-set-option.html)
-    
--   [socketshutdown »](function.socket-shutdown.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Псевдонім socketsetoption
-    
-
+---
+navigation:
+  - function.socket-set-option.html: « socketsetoption
+  - function.socket-shutdown.html: socketshutdown »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketsetopt
+---
 # socketsetopt
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

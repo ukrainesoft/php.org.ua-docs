@@ -1,16 +1,11 @@
-Повертає WriteResult для операції запису помилкою, що закінчилася.
-
--   [« MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.html)
-    
--   [Class Tree »](mongodb.exceptions.tree.md)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.html)
-    
--   Повертає WriteResult для операції запису помилкою, що закінчилася.
-    
-
+---
+navigation:
+  - class.mongodb-driver-exception-writeexception.html: « MongoDBDriverExceptionWriteException
+  - mongodb.exceptions.tree.md: Class Tree »
+  - index.md: PHP Manual
+  - class.mongodb-driver-exception-writeexception.html: MongoDBDriverExceptionWriteException
+title: 'MongoDBDriverExceptionWriteException::getWriteResult'
+---
 # MongoDBDriverExceptionWriteException::getWriteResult
 
 (mongodb >= 1.0.0)

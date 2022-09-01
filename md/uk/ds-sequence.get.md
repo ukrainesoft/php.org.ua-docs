@@ -1,16 +1,11 @@
-Повертає значення за індексом
-
--   [« DsSequence::first](ds-sequence.first.html)
-    
--   [ДсSequence::insert »](ds-sequence.insert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає значення за індексом
-    
-
+---
+navigation:
+  - ds-sequence.first.html: '« DsSequence::first'
+  - ds-sequence.insert.html: 'ДсSequence::insert »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::get'
+---
 # ДсSequence::get
 
 (PECL ds >= 1.0.0)

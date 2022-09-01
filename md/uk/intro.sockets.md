@@ -1,16 +1,11 @@
-Вступ
-
--   [« Сокети](book.sockets.html)
-    
--   [Встановлення та налаштування »](sockets.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Сокети](book.sockets.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.sockets.html: « Сокети
+  - sockets.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.sockets.html: Сокети
+title: Вступ
+---
 # Вступ
 
 Модуль socket реалізує низькорівневий інтерфейс для функцій зв'язку сокетів, що базуються на популярних сокетах BSD, забезпечуючи можливість діяти як сервер сокетів, так і клієнт.

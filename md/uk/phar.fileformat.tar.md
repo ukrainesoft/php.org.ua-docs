@@ -1,16 +1,11 @@
-Phar-архіви, засновані на tar
-
--   [« Сравнение Phar, Tar и Zip](phar.fileformat.comparison.md)
-    
--   [Phar-архіви на основі zip »](phar.fileformat.zip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
-    
--   Phar-архіви, засновані на tar
-    
-
+---
+navigation:
+  - phar.fileformat.comparison.md: '« Сравнение Phar, Tar и Zip'
+  - phar.fileformat.zip.md: Phar-архіви на основі zip »
+  - index.md: PHP Manual
+  - phar.fileformat.md: Чим відрізняється phar від tar-або zip-архіву?
+title: 'Phar-архіви, засновані на tar'
+---
 ## Phar-архіви, засновані на tar
 
 Архіви, засновані на форматі файлу tar, наслідують більш сучасний формат USTAR. Конструкція заголовка tar-файлу робить їх більш ефективними для доступу, ніж формат zip-файлу, і майже настільки ж ефективними, як файли формату phar. Імена файлів обмежені 255 байтами, включаючи повний шлях до phar-архіву. Обмежень кількість файлів, що містяться в phar-архіві, заснованому на tar, немає. Ці архіви можуть бути повністю стиснуті в gzip або bzip2 форматі і, як і раніше, виконуватися модулем Phar.

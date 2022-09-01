@@ -1,16 +1,11 @@
-Повертає час останньої зміни поточного елементу DirectoryIterator
-
--   [« DirectoryIterator::getInode](directoryiterator.getinode.md)
-    
--   [DirectoryIterator::getOwner »](directoryiterator.getowner.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає час останньої зміни поточного елементу DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getinode.md: '« DirectoryIterator::getInode'
+  - directoryiterator.getowner.md: 'DirectoryIterator::getOwner »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getMTime'
+---
 # DirectoryIterator::getMTime
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає необроблений запит, надісланий на сервер Solr
-
--   [« SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.html)
-    
--   [SolrResponse::getRawRequestHeaders »](solrresponse.getrawrequestheaders.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrResponse](class.solrresponse.html)
-    
--   Повертає необроблений запит, надісланий на сервер Solr
-    
-
+---
+navigation:
+  - solrresponse.gethttpstatusmessage.html: '« SolrResponse::getHttpStatusMessage'
+  - solrresponse.getrawrequestheaders.html: 'SolrResponse::getRawRequestHeaders »'
+  - index.html: PHP Manual
+  - class.solrresponse.html: SolrResponse
+title: 'SolrResponse::getRawRequest'
+---
 # SolrResponse::getRawRequest
 
 (PECL solr> = 0.9.2)

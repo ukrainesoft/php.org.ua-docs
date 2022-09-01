@@ -1,16 +1,11 @@
-Нові можливості
-
--   [« Зміни, що ламають зворотну сумісність](migration56.incompatible.md)
-    
--   [Функціонал, оголошений застарілим у PHP 5.6.x »](migration56.deprecated.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
-    
--   Нові можливості
-    
-
+---
+navigation:
+  - migration56.incompatible.md: '« Зміни, що ламають зворотну сумісність'
+  - migration56.deprecated.md: 'Функціонал, оголошений застарілим у PHP 5.6.x »'
+  - index.md: PHP Manual
+  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
+title: Нові можливості
+---
 ## Нові можливості
 
 ### Константні вирази

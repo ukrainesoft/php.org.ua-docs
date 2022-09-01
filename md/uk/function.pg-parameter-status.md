@@ -1,16 +1,11 @@
-Перегляд поточних значень параметрів сервера
-
--   [« pgoptions](function.pg-options.html)
-    
--   [пгpconnect »](function.pg-pconnect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Перегляд поточних значень параметрів сервера
-    
-
+---
+navigation:
+  - function.pg-options.html: « pgoptions
+  - function.pg-pconnect.html: пгpconnect »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгparameterstatus
+---
 # пгparameterstatus
 
 (PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ pg_parameter_status(PgSql\Connection $connection = ?, string $param_name): strin
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

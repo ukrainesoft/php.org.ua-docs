@@ -1,16 +1,11 @@
-Встановити поле
-
--   [« UIControlsTab::pages](ui-controls-tab.pages.html)
-    
--   [ОЙControlsCheck »](class.ui-controls-check.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsTab](class.ui-controls-tab.html)
-    
--   Встановити поле
-    
-
+---
+navigation:
+  - ui-controls-tab.pages.html: '« UIControlsTab::pages'
+  - class.ui-controls-check.html: ОЙControlsCheck »
+  - index.html: PHP Manual
+  - class.ui-controls-tab.html: ОЙControlsTab
+title: 'ОЙControlsTab::setMargin'
+---
 # ОЙControlsTab::setMargin
 
 (UI 0.9.9)

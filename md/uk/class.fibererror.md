@@ -1,16 +1,11 @@
-FiberError
-
--   [« UnhandledMatchError](class.unhandledmatcherror.md)
-    
--   [Вбудовані інтерфейси та класи »](reserved.interfaces.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   FiberError
-    
-
+---
+navigation:
+  - class.unhandledmatcherror.md: « UnhandledMatchError
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: FiberError
+---
 # FiberError
 
 (PHP 8> = 8.1.0)

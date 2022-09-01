@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html)
-    
--   [FFIException »](class.ffi-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getstructfieldoffset.html: '« FFICType::getStructFieldOffset'
+  - class.ffi-exception.html: FFIException »
+  - index.md: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getStructFieldType'
+---
 # FFICType::getStructFieldType
 
 (PHP 8> = 8.1.0)

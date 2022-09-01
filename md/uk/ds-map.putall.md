@@ -1,16 +1,11 @@
-Зв'язує з колекцією всі пари ключ-значення з об'єкту класу traversable або масиву
-
--   [« DsMap::put](ds-map.put.html)
-    
--   [ДсMap::reduce »](ds-map.reduce.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Зв'язує з колекцією всі пари ключ-значення з об'єкту класу traversable або масиву
-    
-
+---
+navigation:
+  - ds-map.put.html: '« DsMap::put'
+  - ds-map.reduce.html: 'ДсMap::reduce »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::putAll'
+---
 # ДсMap::putAll
 
 (PECL ds >= 1.0.2)

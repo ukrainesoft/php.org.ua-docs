@@ -1,16 +1,11 @@
-Встановлює опцію
-
--   [« Imagick::setLastIterator](imagick.setlastiterator.md)
-    
--   [Imagick::setPage »](imagick.setpage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює опцію
-    
-
+---
+navigation:
+  - imagick.setlastiterator.md: '« Imagick::setLastIterator'
+  - imagick.setpage.md: 'Imagick::setPage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setOption'
+---
 # Imagick::setOption
 
 (PECL imagick 2, PECL imagick 3)

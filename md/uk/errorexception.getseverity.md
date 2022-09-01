@@ -1,16 +1,11 @@
-Отримує серйозність виключення
-
--   [« ErrorException::construct](errorexception.construct.md)
-    
--   [Error »](class.error.md)
-    
--   [PHP Manual](index.md)
-    
--   [ErrorException](class.errorexception.md)
-    
--   Отримує серйозність виключення
-    
-
+---
+navigation:
+  - errorexception.construct.md: '« ErrorException::construct'
+  - class.error.md: Error »
+  - index.md: PHP Manual
+  - class.errorexception.md: ErrorException
+title: 'ErrorException::getSeverity'
+---
 # ErrorException::getSeverity
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

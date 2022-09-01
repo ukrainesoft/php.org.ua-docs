@@ -1,16 +1,11 @@
-Правила
-
--   [« Глобальний простір імен](userlandnaming.globalnamespace.md)
-    
--   [Поради »](userlandnaming.tips.md)
-    
--   [PHP Manual](index.md)
-    
--   [Руководство по именованию](userlandnaming.md)
-    
--   Правила
-    
-
+---
+navigation:
+  - userlandnaming.globalnamespace.md: « Глобальний простір імен
+  - userlandnaming.tips.md: Поради »
+  - index.md: PHP Manual
+  - userlandnaming.md: Руководство по именованию
+title: Правила
+---
 ## Правила
 
 Наступний список правил дає огляд прав іменування, які PHP залишає собі при виборі нових ідентифікаторів. Повним керівництвом є офіційний[» Стандарт написания кода](https://github.com/php/php-src/raw/master/CODING_STANDARDS.md)":

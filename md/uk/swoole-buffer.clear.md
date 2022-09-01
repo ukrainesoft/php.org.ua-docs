@@ -1,16 +1,11 @@
-Скидає буфер пам'яті
-
--   [« SwooleBuffer::append](swoole-buffer.append.html)
-    
--   [SwooleBuffer::construct »](swoole-buffer.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleBuffer](class.swoole-buffer.html)
-    
--   Скидає буфер пам'яті
-    
-
+---
+navigation:
+  - swoole-buffer.append.html: '« SwooleBuffer::append'
+  - swoole-buffer.construct.html: 'SwooleBuffer::construct »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.html: SwooleBuffer
+title: 'SwooleBuffer::clear'
+---
 # SwooleBuffer::clear
 
 (PECL swoole >= 1.9.0)

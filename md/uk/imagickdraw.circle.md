@@ -1,16 +1,11 @@
-Малює коло
-
--   [« ImagickDraw::bezier](imagickdraw.bezier.html)
-    
--   [ImagickDraw::clear »](imagickdraw.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює коло
-    
-
+---
+navigation:
+  - imagickdraw.bezier.html: '« ImagickDraw::bezier'
+  - imagickdraw.clear.html: 'ImagickDraw::clear »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::circle'
+---
 # ImagickDraw::circle
 
 (PECL imagick 2, PECL imagick 3)

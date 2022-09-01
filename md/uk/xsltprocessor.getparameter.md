@@ -1,16 +1,11 @@
-Повертає значення параметра
-
--   [« XSLTProcessor::construct](xsltprocessor.construct.md)
-    
--   [XSLTProcessor::getSecurityPrefs »](xsltprocessor.getsecurityprefs.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Повертає значення параметра
-    
-
+---
+navigation:
+  - xsltprocessor.construct.md: '« XSLTProcessor::construct'
+  - xsltprocessor.getsecurityprefs.md: 'XSLTProcessor::getSecurityPrefs »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::getParameter'
+---
 # XSLTProcessor::getParameter
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Векторне арифметичне віднімання
-
--   [« traderstochrsi](function.trader-stochrsi.html)
-    
--   [tradersum »](function.trader-sum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Векторне арифметичне віднімання
-    
-
+---
+navigation:
+  - function.trader-stochrsi.html: « traderstochrsi
+  - function.trader-sum.html: tradersum »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradersub
+---
 # tradersub
 
 (PECL trader >= 0.2.0)

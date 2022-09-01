@@ -1,16 +1,11 @@
-Вимагати зіставлення полів при виділенні
-
--   [« SolrQuery::setHighlightRegexSlop](solrquery.sethighlightregexslop.html)
-    
--   [SolrQuery::setHighlightSimplePost »](solrquery.sethighlightsimplepost.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Вимагати зіставлення полів при виділенні
-    
-
+---
+navigation:
+  - solrquery.sethighlightregexslop.html: '« SolrQuery::setHighlightRegexSlop'
+  - solrquery.sethighlightsimplepost.html: 'SolrQuery::setHighlightSimplePost »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setHighlightRequireFieldMatch'
+---
 # SolrQuery::setHighlightRequireFieldMatch
 
 (PECL solr> = 0.9.2)

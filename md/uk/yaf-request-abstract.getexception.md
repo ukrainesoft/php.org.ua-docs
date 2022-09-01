@@ -1,16 +1,11 @@
-Призначення getException
-
--   [« YafRequestAbstract::getEnv](yaf-request-abstract.getenv.html)
-    
--   [YafRequestAbstract::getLanguage »](yaf-request-abstract.getlanguage.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Призначення getException
-    
-
+---
+navigation:
+  - yaf-request-abstract.getenv.html: '« YafRequestAbstract::getEnv'
+  - yaf-request-abstract.getlanguage.html: 'YafRequestAbstract::getLanguage »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getException'
+---
 # YafRequestAbstract::getException
 
 (Yaf >=1.0.0)

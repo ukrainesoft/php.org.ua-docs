@@ -1,16 +1,11 @@
-Додає псевдонім сервера до об'єкта HTTP-сервера
-
--   [« EventHttp::accept](eventhttp.accept.html)
-    
--   [EventHttp::bind »](eventhttp.bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttp](class.eventhttp.html)
-    
--   Додає псевдонім сервера до об'єкта HTTP-сервера
-    
-
+---
+navigation:
+  - eventhttp.accept.html: '« EventHttp::accept'
+  - eventhttp.bind.html: 'EventHttp::bind »'
+  - index.html: PHP Manual
+  - class.eventhttp.html: EventHttp
+title: 'EventHttp::addServerAlias'
+---
 # EventHttp::addServerAlias
 
 (PECL event >= 1.4.0-beta)

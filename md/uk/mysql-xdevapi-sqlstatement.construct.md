@@ -1,16 +1,11 @@
-Опис конструктора
-
--   [« SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.html)
-    
--   [SqlStatement::execute »](mysql-xdevapi-sqlstatement.execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
-    
--   Опис конструктора
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatement.bind.html: '« SqlStatement::bind'
+  - mysql-xdevapi-sqlstatement.execute.html: 'SqlStatement::execute »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+title: 'SqlStatement::construct'
+---
 # SqlStatement::construct
 
 (No version information available, might only be in Git)

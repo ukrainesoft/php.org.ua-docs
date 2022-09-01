@@ -1,16 +1,11 @@
-Отримання API плагінів mysqlnd
-
--   [« Сравнение плагинов mysqlnd с MySQL Proxy](mysqlnd.plugin.mysql-proxy.html)
-    
--   [Архитектура плагинов MySQL Native Driver »](mysqlnd.plugin.architecture.html)
-    
--   [PHP Manual](index.html)
-    
--   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.html)
-    
--   Отримання API плагінів mysqlnd
-    
-
+---
+navigation:
+  - mysqlnd.plugin.mysql-proxy.html: « Сравнение плагинов mysqlnd с MySQL Proxy
+  - mysqlnd.plugin.architecture.html: Архитектура плагинов MySQL Native Driver »
+  - index.html: PHP Manual
+  - mysqlnd.plugin.html: API для плагинов к встроенному драйверу MySQL
+title: Отримання API плагінів mysqlnd
+---
 ## Отримання API плагінів mysqlnd
 
 API плагінів `mysqlnd` є частиною стандартного модуля `ext/mysqlnd`. API плагінів `mysqlnd` почали розробляти у грудні 2009 року. Він розроблявся як частина репозиторію вихідних кодів PHP і, відповідно, доступний через публічний репозиторій Git або завантаження снапшота вихідних кодів.
@@ -19,11 +14,11 @@ API плагінів `mysqlnd` є частиною стандартного мо
 
 **Таблиця розрахунку MYSQLNDVERSIONВД**
 
-| Версия (часть)   | Пример |
-|------------------|--------|
-| Major            |        |
-| Minor            |        |
-| Patch            |        |
-| MYSQLNDVERSIONВД |        |
+| Версия (часть) | Пример |
+| --- | --- |
+| Major |  |
+| Minor |  |
+| Patch |  |
+| MYSQLNDVERSIONВД |  |
 
 У процесі розробки розробники повинні відстежувати версію `mysqlnd` на предмет сумісності та версійного тестування, оскільки версії `mysqlnd` мають властивість змінюватись і це може статися в процесі роботи над плагіном.

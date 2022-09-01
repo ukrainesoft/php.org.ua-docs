@@ -1,16 +1,11 @@
-Клас GearmanWorker
-
--   [« GearmanTask::uuid](gearmantask.uuid.html)
-    
--   [GearmanWorker::addFunction »](gearmanworker.addfunction.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gearman](book.gearman.html)
-    
--   Клас GearmanWorker
-    
-
+---
+navigation:
+  - gearmantask.uuid.html: '« GearmanTask::uuid'
+  - gearmanworker.addfunction.html: 'GearmanWorker::addFunction »'
+  - index.html: PHP Manual
+  - book.gearman.html: Gearman
+title: Клас GearmanWorker
+---
 # Клас GearmanWorker
 
 (PECL gearman >= 0.5.0)

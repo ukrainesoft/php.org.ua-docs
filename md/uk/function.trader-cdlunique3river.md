@@ -1,16 +1,11 @@
-Свічкова модель "Особлива западина три річки"
-
--   [« tradercdltristar](function.trader-cdltristar.html)
-    
--   [tradercdlupsidegap2crows »](function.trader-cdlupsidegap2crows.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Свічкова модель "Особлива западина три річки"
-    
-
+---
+navigation:
+  - function.trader-cdltristar.html: « tradercdltristar
+  - function.trader-cdlupsidegap2crows.html: tradercdlupsidegap2crows »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlunique3river
+---
 # tradercdlunique3river
 
 (PECL trader >= 0.2.0)

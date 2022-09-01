@@ -1,16 +1,11 @@
-Повертає значення вказаного параметра конфігурації
-
--   [« sqlsrvfreestmt](function.sqlsrv-free-stmt.html)
-    
--   [sqlsrvgetfield »](function.sqlsrv-get-field.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Повертає значення вказаного параметра конфігурації
-    
-
+---
+navigation:
+  - function.sqlsrv-free-stmt.html: « sqlsrvfreestmt
+  - function.sqlsrv-get-field.html: sqlsrvgetfield »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvgetconfig
+---
 # sqlsrvgetconfig
 
 (No version information available, might only be in Git)

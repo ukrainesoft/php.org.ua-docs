@@ -1,16 +1,11 @@
-Видаляє об'єкт Imagick
-
--   [« Imagick::despeckleImage](imagick.despeckleimage.md)
-    
--   [Imagick::displayImage »](imagick.displayimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Видаляє об'єкт Imagick
-    
-
+---
+navigation:
+  - imagick.despeckleimage.md: '« Imagick::despeckleImage'
+  - imagick.displayimage.md: 'Imagick::displayImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::destroy'
+---
 # Imagick::destroy
 
 (PECL imagick 2, PECL imagick 3)

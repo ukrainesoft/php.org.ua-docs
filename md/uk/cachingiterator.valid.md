@@ -1,16 +1,11 @@
-Перевіряє, чи є поточний елемент допустимим
-
--   [« CachingIterator::toString](cachingiterator.tostring.md)
-    
--   [CallbackFilterIterator »](class.callbackfilteriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Перевіряє, чи є поточний елемент допустимим
-    
-
+---
+navigation:
+  - cachingiterator.tostring.md: '« CachingIterator::toString'
+  - class.callbackfilteriterator.md: CallbackFilterIterator »
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::valid'
+---
 # CachingIterator::valid
 
 (PHP 5, PHP 7, PHP 8)

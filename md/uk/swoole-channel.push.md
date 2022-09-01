@@ -1,16 +1,11 @@
-Записує та передає дані в канал Swoole
-
--   [« SwooleChannel::pop](swoole-channel.pop.html)
-    
--   [SwooleChannel::stats »](swoole-channel.stats.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleChannel](class.swoole-channel.html)
-    
--   Записує та передає дані в канал Swoole
-    
-
+---
+navigation:
+  - swoole-channel.pop.html: '« SwooleChannel::pop'
+  - swoole-channel.stats.html: 'SwooleChannel::stats »'
+  - index.md: PHP Manual
+  - class.swoole-channel.html: SwooleChannel
+title: 'SwooleChannel::push'
+---
 # SwooleChannel::push
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Отримує записи MX, що відповідають переданому доменному імені хоста
-
--   [« gethostname](function.gethostname.html)
-    
--   [getprotobyname »](function.getprotobyname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Отримує записи MX, що відповідають переданому доменному імені хоста
-    
-
+---
+navigation:
+  - function.gethostname.html: « gethostname
+  - function.getprotobyname.html: getprotobyname »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: getmxrr
+---
 # getmxrr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

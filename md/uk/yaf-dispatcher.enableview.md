@@ -1,16 +1,11 @@
-Включає механізм перегляду
-
--   [« YafDispatcher::dispatch](yaf-dispatcher.dispatch.html)
-    
--   [YafDispatcher::flushInstantly »](yaf-dispatcher.flushinstantly.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Включає механізм перегляду
-    
-
+---
+navigation:
+  - yaf-dispatcher.dispatch.html: '« YafDispatcher::dispatch'
+  - yaf-dispatcher.flushinstantly.html: 'YafDispatcher::flushInstantly »'
+  - index.html: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::enableView'
+---
 # YafDispatcher::enableView
 
 (Yaf >=1.0.0)

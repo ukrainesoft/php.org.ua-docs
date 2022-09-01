@@ -1,16 +1,11 @@
-Версія gettext для повідомлень у множині
-
--   [« gettext](function.gettext.md)
-    
--   [textdomain »](function.textdomain.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции gettext](ref.gettext.md)
-    
--   Версія gettext для повідомлень у множині
-    
-
+---
+navigation:
+  - function.gettext.md: « gettext
+  - function.textdomain.md: textdomain »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: ngettext
+---
 # ngettext
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

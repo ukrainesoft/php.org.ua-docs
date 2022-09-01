@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](stream.installation.html)
-    
--   [Класи для роботи з потоками »](stream.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](stream.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - stream.installation.html: « Установка
+  - stream.resources.html: Класи для роботи з потоками »
+  - index.html: PHP Manual
+  - stream.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

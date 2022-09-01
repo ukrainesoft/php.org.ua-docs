@@ -1,16 +1,11 @@
-Отримує кількість стовпців
-
--   [« SqlStatementResult::getAffectedItemsCount](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html)
-    
--   [SqlStatementResult::getColumnNames »](mysql-xdevapi-sqlstatementresult.getcolumnnames.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує кількість стовпців
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html: '« SqlStatementResult::getAffectedItemsCount'
+  - mysql-xdevapi-sqlstatementresult.getcolumnnames.html: 'SqlStatementResult::getColumnNames »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getColumnsCount'
+---
 # SqlStatementResult::getColumnsCount
 
 (No version information available, might only be in Git)
@@ -37,9 +32,9 @@ public mysql_xdevapi\SqlStatementResult::getColumnsCount(): int
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Метод перейменований з getColumnCount() на getColumnsCount(). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод перейменований з getColumnCount() на getColumnsCount(). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Подання у вигляді рядка
-
--   [« ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md)
-    
--   [ReflectionFunctionAbstract »](class.reflectionfunctionabstract.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunction](class.reflectionfunction.md)
-    
--   Подання у вигляді рядка
-    
-
+---
+navigation:
+  - reflectionfunction.isdisabled.md: '« ReflectionFunction::isDisabled'
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract »
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
+title: 'ReflectionFunction::toString'
+---
 # ReflectionFunction::toString
 
 (PHP 5, PHP 7, PHP 8)

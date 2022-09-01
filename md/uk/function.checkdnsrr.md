@@ -1,16 +1,11 @@
-Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
-
--   [Мережеві функції](ref.network.md)
-    
--   [closelog »](function.closelog.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
-    
-
+---
+navigation:
+  - ref.network.md: Мережеві функції
+  - function.closelog.md: closelog »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: checkdnsrr
+---
 # checkdnsrr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

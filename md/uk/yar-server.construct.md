@@ -1,16 +1,11 @@
-Конструктор YarServer
-
--   [« YarServer](class.yar-server.html)
-    
--   [YarServer::handle »](yar-server.handle.html)
-    
--   [PHP Manual](index.html)
-    
--   [YarServer](class.yar-server.html)
-    
--   Конструктор YarServer
-    
-
+---
+navigation:
+  - class.yar-server.html: « YarServer
+  - yar-server.handle.html: 'YarServer::handle »'
+  - index.html: PHP Manual
+  - class.yar-server.html: YarServer
+title: 'YarServer::construct'
+---
 # YarServer::construct
 
 (PECL yar >= 1.0.0)

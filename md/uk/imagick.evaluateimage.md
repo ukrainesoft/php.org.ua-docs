@@ -1,16 +1,11 @@
-Застосовує вираз до зображення
-
--   [« Imagick::equalizeImage](imagick.equalizeimage.html)
-    
--   [Imagick::exportImagePixels »](imagick.exportimagepixels.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Застосовує вираз до зображення
-    
-
+---
+navigation:
+  - imagick.equalizeimage.html: '« Imagick::equalizeImage'
+  - imagick.exportimagepixels.html: 'Imagick::exportImagePixels »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::evaluateImage'
+---
 # Imagick::evaluateImage
 
 (PECL imagick 2, PECL imagick 3)

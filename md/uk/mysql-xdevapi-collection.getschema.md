@@ -1,16 +1,11 @@
-Повертає об'єкт Schema
-
--   [« Collection::getOne](mysql-xdevapi-collection.getone.html)
-    
--   [Collection::getSession »](mysql-xdevapi-collection.getsession.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Повертає об'єкт Schema
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.getone.html: '« Collection::getOne'
+  - mysql-xdevapi-collection.getsession.html: 'Collection::getSession »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::getSchema'
+---
 # Collection::getSchema
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Win32ServiceException](class.win32serviceexception.html)
-    
--   [win32service »](ref.win32service.html)
-    
--   [PHP Manual](index.html)
-    
--   [win32service](book.win32service.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - class.win32serviceexception.html: « Win32ServiceException
+  - ref.win32service.html: win32service »
+  - index.html: PHP Manual
+  - book.win32service.html: win32service
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Реєстрація скрипту PHP для запуску як служба**

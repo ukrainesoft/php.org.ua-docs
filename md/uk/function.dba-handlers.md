@@ -1,16 +1,11 @@
-Список доступних обробників
-
--   [« dbafirstkey](function.dba-firstkey.html)
-    
--   [dbainsert »](function.dba-insert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Список доступних обробників
-    
-
+---
+navigation:
+  - function.dba-firstkey.html: « dbafirstkey
+  - function.dba-insert.html: dbainsert »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbahandlers
+---
 # dbahandlers
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

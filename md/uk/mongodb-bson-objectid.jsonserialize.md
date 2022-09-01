@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.html)
-    
--   [MongoDBBSONObjectId::serialize »](mongodb-bson-objectid.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-objectid.gettimestamp.html: '« MongoDBBSONObjectId::getTimestamp'
+  - mongodb-bson-objectid.serialize.html: 'MongoDBBSONObjectId::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::jsonSerialize'
+---
 # MongoDBBSONObjectId::jsonSerialize
 
 (mongodb >=1.2.0)

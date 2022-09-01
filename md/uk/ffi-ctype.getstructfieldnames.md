@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getSize](ffi-ctype.getsize.html)
-    
--   [FFICType::getStructFieldOffset »](ffi-ctype.getstructfieldoffset.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getsize.html: '« FFICType::getSize'
+  - ffi-ctype.getstructfieldoffset.html: 'FFICType::getStructFieldOffset »'
+  - index.html: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getStructFieldNames'
+---
 # FFICType::getStructFieldNames
 
 (PHP 8> = 8.1.0)

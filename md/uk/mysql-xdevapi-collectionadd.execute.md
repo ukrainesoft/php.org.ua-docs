@@ -1,16 +1,11 @@
-Виконує затвердження
-
--   [« CollectionAdd::construct](mysql-xdevapi-collectionadd.construct.html)
-    
--   [mysqlxdevapiCollectionFind »](class.mysql-xdevapi-collectionfind.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionAdd](class.mysql-xdevapi-collectionadd.html)
-    
--   Виконує затвердження
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionadd.construct.html: '« CollectionAdd::construct'
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionadd.html: mysqlxdevapiCollectionAdd
+title: 'CollectionAdd::execute'
+---
 # CollectionAdd::execute
 
 (No version information available, might only be in Git)

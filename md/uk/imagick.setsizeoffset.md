@@ -1,16 +1,11 @@
-Встановлює розмір та усунення об'єкта Imagick
-
--   [« Imagick::setSize](imagick.setsize.md)
-    
--   [Imagick::setType »](imagick.settype.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює розмір та усунення об'єкта Imagick
-    
-
+---
+navigation:
+  - imagick.setsize.md: '« Imagick::setSize'
+  - imagick.settype.md: 'Imagick::setType »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setSizeOffset'
+---
 # Imagick::setSizeOffset
 
 (PECL imagick 2, PECL imagick 3)

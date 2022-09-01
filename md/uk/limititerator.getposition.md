@@ -1,16 +1,11 @@
-Повертає поточну позицію
-
--   [« LimitIterator::getInnerIterator](limititerator.getinneriterator.md)
-    
--   [LimitIterator::key »](limititerator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [LimitIterator](class.limititerator.md)
-    
--   Повертає поточну позицію
-    
-
+---
+navigation:
+  - limititerator.getinneriterator.md: '« LimitIterator::getInnerIterator'
+  - limititerator.key.md: 'LimitIterator::key »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::getPosition'
+---
 # LimitIterator::getPosition
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

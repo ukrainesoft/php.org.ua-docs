@@ -1,16 +1,11 @@
-Записує інформацію рівня "info" до журналу
-
--   [« SeasLog::getRequestVariable](seaslog.getrequestvariable.html)
-    
--   [SeasLog::log »](seaslog.log.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Записує інформацію рівня "info" до журналу
-    
-
+---
+navigation:
+  - seaslog.getrequestvariable.html: '« SeasLog::getRequestVariable'
+  - seaslog.log.html: 'SeasLog::log »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::info'
+---
 # SeasLog::info
 
 (PECL seaslog >=1.0.0)

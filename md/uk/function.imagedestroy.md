@@ -1,16 +1,11 @@
-Знищення зображення
-
--   [« imagedashedline](function.imagedashedline.html)
-    
--   [imageellipse »](function.imageellipse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Знищення зображення
-    
-
+---
+navigation:
+  - function.imagedashedline.html: « imagedashedline
+  - function.imageellipse.html: imageellipse »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagedestroy
+---
 # imagedestroy
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ imagedestroy(GdImage $image): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | Функція тепер є NOP.                                                                             |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер є NOP. |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

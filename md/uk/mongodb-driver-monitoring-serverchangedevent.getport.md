@@ -1,16 +1,11 @@
-Повертає порт, на якому прослуховується сервер
-
--   [« MongoDBDriverMonitoringServerChangedEvent::getNewDescription](mongodb-driver-monitoring-serverchangedevent.getnewdescription.html)
-    
--   [MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription »](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
-    
--   Повертає порт, на якому прослуховується сервер
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverchangedevent.getnewdescription.html: '« MongoDBDriverMonitoringServerChangedEvent::getNewDescription'
+  - mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.html: 'MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent
+title: 'MongoDBDriverMonitoringServerChangedEvent::getPort'
+---
 # MongoDBDriverMonitoringServerChangedEvent::getPort
 
 (mongodb >=1.13.0)

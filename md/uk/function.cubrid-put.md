@@ -1,16 +1,11 @@
-Оновлює стовпець за допомогою OID
-
--   [« cubridprepare](function.cubrid-prepare.html)
-    
--   [cubridrollback »](function.cubrid-rollback.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Оновлює стовпець за допомогою OID
-    
-
+---
+navigation:
+  - function.cubrid-prepare.html: « cubridprepare
+  - function.cubrid-rollback.html: cubridrollback »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridput
+---
 # cubridput
 
 (PECL CUBRID >= 8.3.0)

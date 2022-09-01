@@ -1,16 +1,11 @@
-Основи
-
--   [« Введение](oop5.intro.html)
-    
--   [Свойства »](language.oop5.properties.html)
-    
--   [PHP Manual](index.html)
-    
--   [Класи та об'єкти](language.oop5.html)
-    
--   Основи
-    
-
+---
+navigation:
+  - oop5.intro.html: « Введение
+  - language.oop5.properties.html: Свойства »
+  - index.html: PHP Manual
+  - language.oop5.html: Класи та об'єкти
+title: Основи
+---
 ## Основи
 
 ### class

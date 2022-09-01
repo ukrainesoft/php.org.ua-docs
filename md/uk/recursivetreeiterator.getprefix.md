@@ -1,16 +1,11 @@
-Отримання префіксу
-
--   [« RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.md)
-    
--   [RecursiveTreeIterator::key »](recursivetreeiterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Отримання префіксу
-    
-
+---
+navigation:
+  - recursivetreeiterator.getpostfix.md: '« RecursiveTreeIterator::getPostfix'
+  - recursivetreeiterator.key.md: 'RecursiveTreeIterator::key »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::getPrefix'
+---
 # RecursiveTreeIterator::getPrefix
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

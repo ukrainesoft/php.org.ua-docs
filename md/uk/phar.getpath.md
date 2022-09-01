@@ -1,16 +1,11 @@
-Отримати реальний шлях до Phar-архіву на диску
-
--   [« Phar::getModified](phar.getmodified.html)
-    
--   [Phar::getSignature »](phar.getsignature.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Отримати реальний шлях до Phar-архіву на диску
-    
-
+---
+navigation:
+  - phar.getmodified.html: '« Phar::getModified'
+  - phar.getsignature.html: 'Phar::getSignature »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getPath'
+---
 # Phar::getPath
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає поточний елемент
-
--   [« CachingIterator::count](cachingiterator.count.html)
-    
--   [CachingIterator::getCache »](cachingiterator.getcache.html)
-    
--   [PHP Manual](index.html)
-    
--   [CachingIterator](class.cachingiterator.html)
-    
--   Повертає поточний елемент
-    
-
+---
+navigation:
+  - cachingiterator.count.html: '« CachingIterator::count'
+  - cachingiterator.getcache.html: 'CachingIterator::getCache »'
+  - index.html: PHP Manual
+  - class.cachingiterator.html: CachingIterator
+title: 'CachingIterator::current'
+---
 # CachingIterator::current
 
 (PHP 5, PHP 7, PHP 8)

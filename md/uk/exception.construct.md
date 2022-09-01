@@ -1,16 +1,11 @@
-Створити виняток
-
--   [« Exception](class.exception.md)
-    
--   [Exception::getMessage »](exception.getmessage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Exception](class.exception.md)
-    
--   Створити виняток
-    
-
+---
+navigation:
+  - class.exception.md: « Exception
+  - exception.getmessage.md: 'Exception::getMessage »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
+title: 'Exception::construct'
+---
 # Exception::construct
 
 (PHP 5, PHP 7, PHP 8)

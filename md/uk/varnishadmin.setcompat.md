@@ -1,16 +1,11 @@
-Встановити параметр конфігурації класу compat
-
--   [« VarnishAdmin::isRunning](varnishadmin.isrunning.md)
-    
--   [VarnishAdmin::setHost »](varnishadmin.sethost.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Встановити параметр конфігурації класу compat
-    
-
+---
+navigation:
+  - varnishadmin.isrunning.md: '« VarnishAdmin::isRunning'
+  - varnishadmin.sethost.md: 'VarnishAdmin::setHost »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::setCompat'
+---
 # VarnishAdmin::setCompat
 
 (PECL varnish >= 0.9.2)

@@ -1,16 +1,11 @@
-Apache Solr
-
--   [« Модулі для роботи з пошуковими системами](refs.search.md)
-    
--   [Введение »](intro.solr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з пошуковими системами](refs.search.md)
-    
--   Apache Solr
-    
-
+---
+navigation:
+  - refs.search.md: « Модулі для роботи з пошуковими системами
+  - intro.solr.md: Введение »
+  - index.md: PHP Manual
+  - refs.search.md: Модулі для роботи з пошуковими системами
+title: Apache Solr
+---
 # Apache Solr
 
 -   [Введение](intro.solr.md)

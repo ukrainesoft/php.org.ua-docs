@@ -1,16 +1,11 @@
-Призначення isset
-
--   [« YafViewSimple::getScriptPath](yaf-view-simple.getscriptpath.html)
-    
--   [YafViewSimple::render »](yaf-view-simple.render.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Призначення isset
-    
-
+---
+navigation:
+  - yaf-view-simple.getscriptpath.html: '« YafViewSimple::getScriptPath'
+  - yaf-view-simple.render.html: 'YafViewSimple::render »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::isset'
+---
 # YafViewSimple::isset
 
 (Yaf >=1.0.0)

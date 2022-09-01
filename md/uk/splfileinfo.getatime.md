@@ -1,16 +1,11 @@
-Отримує час останнього доступу до файлу
-
--   [« SplFileInfo::construct](splfileinfo.construct.html)
-    
--   [SplFileInfo::getBasename »](splfileinfo.getbasename.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Отримує час останнього доступу до файлу
-    
-
+---
+navigation:
+  - splfileinfo.construct.html: '« SplFileInfo::construct'
+  - splfileinfo.getbasename.html: 'SplFileInfo::getBasename »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::getATime'
+---
 # SplFileInfo::getATime
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

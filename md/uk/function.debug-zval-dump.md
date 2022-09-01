@@ -1,16 +1,11 @@
-Виводить рядкову виставу внутрішньої структури zval
-
--   [« boolval](function.boolval.md)
-    
--   [doubleval »](function.doubleval.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Виводить рядкову виставу внутрішньої структури zval
-    
-
+---
+navigation:
+  - function.boolval.md: « boolval
+  - function.doubleval.md: doubleval »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: debugкликавdump
+---
 # debugкликавdump
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

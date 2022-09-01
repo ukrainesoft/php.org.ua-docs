@@ -1,16 +1,11 @@
-Серіалізує DBPointer
-
--   [« MongoDBBSONDBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.html)
-    
--   [MongoDBBSONDBPointer::toString »](mongodb-bson-dbpointer.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
-    
--   Серіалізує DBPointer
-    
-
+---
+navigation:
+  - mongodb-bson-dbpointer.jsonserialize.html: '« MongoDBBSONDBPointer::jsonSerialize'
+  - mongodb-bson-dbpointer.tostring.html: 'MongoDBBSONDBPointer::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer
+title: 'MongoDBBSONDBPointer::serialize'
+---
 # MongoDBBSONDBPointer::serialize
 
 (mongodb >=1.4.0)

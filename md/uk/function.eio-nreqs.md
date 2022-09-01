@@ -1,16 +1,11 @@
-Повертає кількість запитів, які потрібно виконати
-
--   [« eionready](function.eio-nready.html)
-    
--   [eionthreads »](function.eio-nthreads.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Повертає кількість запитів, які потрібно виконати
-    
-
+---
+navigation:
+  - function.eio-nready.html: « eionready
+  - function.eio-nthreads.html: eionthreads »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eionreqs
+---
 # eionreqs
 
 (PECL eio >= 0.0.1dev)

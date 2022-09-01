@@ -1,16 +1,11 @@
-Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
-
--   [« EventBufferEvent::connect](eventbufferevent.connect.md)
-    
--   [EventBufferEvent::construct »](eventbufferevent.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
-    
-
+---
+navigation:
+  - eventbufferevent.connect.md: '« EventBufferEvent::connect'
+  - eventbufferevent.construct.md: 'EventBufferEvent::construct »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::connectHost'
+---
 # EventBufferEvent::connectHost
 
 (PECL event >= 1.2.6-beta)

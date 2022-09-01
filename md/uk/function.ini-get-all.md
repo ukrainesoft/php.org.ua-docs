@@ -1,16 +1,11 @@
-Отримує всі налаштування конфігурації
-
--   [« inialter](function.ini-alter.html)
-    
--   [iniget »](function.ini-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримує всі налаштування конфігурації
-    
-
+---
+navigation:
+  - function.ini-alter.html: « inialter
+  - function.ini-get.html: iniget »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: inigetall
+---
 # inigetall
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

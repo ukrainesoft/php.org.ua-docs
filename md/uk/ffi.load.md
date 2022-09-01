@@ -1,16 +1,11 @@
-Завантажити декларації C із заголовного файлу
-
--   [« FFI::isNull](ffi.isnull.md)
-    
--   [FFI::memcmp »](ffi.memcmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Завантажити декларації C із заголовного файлу
-    
-
+---
+navigation:
+  - ffi.isnull.md: '« FFI::isNull'
+  - ffi.memcmp.md: 'FFI::memcmp »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::load'
+---
 # FFI::load
 
 (PHP 7> = 7.4.0, PHP 8)

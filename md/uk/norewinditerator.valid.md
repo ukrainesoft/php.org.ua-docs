@@ -1,16 +1,11 @@
-Перевіряє ітератор
-
--   [« NoRewindIterator::rewind](norewinditerator.rewind.html)
-    
--   [ParentIterator »](class.parentiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [NoRewindIterator](class.norewinditerator.html)
-    
--   Перевіряє ітератор
-    
-
+---
+navigation:
+  - norewinditerator.rewind.html: '« NoRewindIterator::rewind'
+  - class.parentiterator.html: ParentIterator »
+  - index.html: PHP Manual
+  - class.norewinditerator.html: NoRewindIterator
+title: 'NoRewindIterator::valid'
+---
 # NoRewindIterator::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

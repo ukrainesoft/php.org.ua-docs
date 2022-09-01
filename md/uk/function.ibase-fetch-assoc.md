@@ -1,16 +1,11 @@
-Витягує рядок результату із запиту у вигляді асоціативного масиву
-
--   [« ibaseexecute](function.ibase-execute.html)
-    
--   [ibasefetchobject »](function.ibase-fetch-object.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Витягує рядок результату із запиту у вигляді асоціативного масиву
-    
-
+---
+navigation:
+  - function.ibase-execute.html: « ibaseexecute
+  - function.ibase-fetch-object.html: ibasefetchobject »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasefetchassoc
+---
 # ibasefetchassoc
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Псевдонім ibaseerrcode
-
--   [« fbirddropдб](function.fbird-drop-db.html)
-    
--   [fbirderrmsg »](function.fbird-errmsg.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseerrcode
-    
-
+---
+navigation:
+  - function.fbird-drop-db.html: « fbirddropдб
+  - function.fbird-errmsg.html: fbirderrmsg »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirderrcode
+---
 # fbirderrcode
 
 (PHP 5, PHP 7 < 7.4.0)

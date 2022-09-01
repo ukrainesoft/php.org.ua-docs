@@ -1,16 +1,11 @@
-Розподіл чисел та отримання приватного та залишку
-
--   [« gmpdivдо](function.gmp-div-q.html)
-    
--   [gmpdivr »](function.gmp-div-r.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Розподіл чисел та отримання приватного та залишку
-    
-
+---
+navigation:
+  - function.gmp-div-q.html: « gmpdivдо
+  - function.gmp-div-r.html: gmpdivr »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpdivгр
+---
 # gmpdivгр
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

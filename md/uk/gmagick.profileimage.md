@@ -1,16 +1,11 @@
-Додає або видаляє профіль із зображення
-
--   [« Gmagick::previousimage](gmagick.previousimage.md)
-    
--   [Gmagick::quantizeimage »](gmagick.quantizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Додає або видаляє профіль із зображення
-    
-
+---
+navigation:
+  - gmagick.previousimage.md: '« Gmagick::previousimage'
+  - gmagick.quantizeimage.md: 'Gmagick::quantizeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::profileimage'
+---
 # Gmagick::profileimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Support Vector Machine (Додаткова векторна машина)
-
--   [« StompException::getDetails](stomp.getdetails.md)
-    
--   [Введение »](intro.svm.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   Support Vector Machine (Додаткова векторна машина)
-    
-
+---
+navigation:
+  - stomp.getdetails.md: '« StompException::getDetails'
+  - intro.svm.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: Support Vector Machine (Додаткова векторна машина)
+---
 # Support Vector Machine (Додаткова векторна машина)
 
 -   [Введение](intro.svm.md)

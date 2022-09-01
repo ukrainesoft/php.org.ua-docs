@@ -1,16 +1,11 @@
-Приведення Size
-
--   [« UIPoint](class.ui-point.html)
-    
--   [ОЙPoint::construct »](ui-point.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙPoint](class.ui-point.html)
-    
--   Приведення Size
-    
-
+---
+navigation:
+  - class.ui-point.html: « UIPoint
+  - ui-point.construct.html: 'ОЙPoint::construct »'
+  - index.md: PHP Manual
+  - class.ui-point.html: ОЙPoint
+title: 'ОЙPoint::at'
+---
 # ОЙPoint::at
 
 (UI 1.0.2)

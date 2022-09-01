@@ -1,16 +1,11 @@
-Розбір рядка заголовка листа
-
--   [« imaprfc822parseadrlist](function.imap-rfc822-parse-adrlist.html)
-    
--   [imaprfc822writeaddress »](function.imap-rfc822-write-address.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Розбір рядка заголовка листа
-    
-
+---
+navigation:
+  - function.imap-rfc822-parse-adrlist.html: « imaprfc822parseadrlist
+  - function.imap-rfc822-write-address.html: imaprfc822writeaddress »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaprfc822parseheaders
+---
 # imaprfc822parseheaders
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас SplTempFileObject
-
--   [« SplFileObject::valid](splfileobject.valid.md)
-    
--   [SplTempFileObject::construct »](spltempfileobject.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка файлов](spl.files.md)
-    
--   Клас SplTempFileObject
-    
-
+---
+navigation:
+  - splfileobject.valid.md: '« SplFileObject::valid'
+  - spltempfileobject.construct.md: 'SplTempFileObject::construct »'
+  - index.md: PHP Manual
+  - spl.files.md: Обработка файлов
+title: Клас SplTempFileObject
+---
 # Клас SplTempFileObject
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

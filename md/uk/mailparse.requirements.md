@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](mailparse.setup.md)
-    
--   [Установка »](mailparse.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mailparse.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - mailparse.setup.md: « Встановлення та налаштування
+  - mailparse.installation.md: Установка »
+  - index.md: PHP Manual
+  - mailparse.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

@@ -1,16 +1,11 @@
-Створює імітацію ефекту тривимірної кнопки
-
--   [« Gmagick::radialblurimage](gmagick.radialblurimage.md)
-    
--   [Gmagick::read »](gmagick.read.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Створює імітацію ефекту тривимірної кнопки
-    
-
+---
+navigation:
+  - gmagick.radialblurimage.md: '« Gmagick::radialblurimage'
+  - gmagick.read.md: 'Gmagick::read »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::raiseimage'
+---
 # Gmagick::raiseimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Повертає поточний вузол, який вказує ітератор
-
--   [« SplHeap::count](splheap.count.md)
-    
--   [SplHeap::extract »](splheap.extract.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplHeap](class.splheap.md)
-    
--   Повертає поточний вузол, який вказує ітератор
-    
-
+---
+navigation:
+  - splheap.count.md: '« SplHeap::count'
+  - splheap.extract.md: 'SplHeap::extract »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
+title: 'SplHeap::current'
+---
 # SplHeap::current
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

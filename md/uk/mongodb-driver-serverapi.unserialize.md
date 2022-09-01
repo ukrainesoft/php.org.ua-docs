@@ -1,16 +1,11 @@
-Десеріалізує ServerApi
-
--   [« MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.html)
-    
--   [MongoDBDriverWriteConcern »](class.mongodb-driver-writeconcern.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
-    
--   Десеріалізує ServerApi
-    
-
+---
+navigation:
+  - mongodb-driver-serverapi.serialize.html: '« MongoDBDriverServerApi::serialize'
+  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern »
+  - index.html: PHP Manual
+  - class.mongodb-driver-serverapi.html: MongoDBDriverServerApi
+title: 'MongoDBDriverServerApi::unserialize'
+---
 # MongoDBDriverServerApi::unserialize
 
 (mongodb >=1.10.0)

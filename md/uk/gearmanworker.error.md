@@ -1,16 +1,11 @@
-Отримання останньої виявленої помилки
-
--   [« GearmanWorker::echo](gearmanworker.echo.md)
-    
--   [GearmanWorker::getErrno »](gearmanworker.geterrno.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Отримання останньої виявленої помилки
-    
-
+---
+navigation:
+  - gearmanworker.echo.md: '« GearmanWorker::echo'
+  - gearmanworker.geterrno.md: 'GearmanWorker::getErrno »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::error'
+---
 # GearmanWorker::error
 
 (PECL gearman >= 0.5.0)

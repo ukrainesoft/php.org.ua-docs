@@ -1,16 +1,11 @@
-Атрибути RADIUS специфічні для різних виробників
-
--   [Типи атрибутів RADIUS](radius.constants.attributes.md)
-    
--   [Приклади »](radius.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](radius.constants.md)
-    
--   Атрибути RADIUS специфічні для різних виробників
-    
-
+---
+navigation:
+  - radius.constants.attributes.md: Типи атрибутів RADIUS
+  - radius.examples.md: Приклади »
+  - index.md: PHP Manual
+  - radius.constants.md: Обумовлені константи
+title: Атрибути RADIUS специфічні для різних виробників
+---
 ## Атрибути RADIUS специфічні для різних виробників
 
 **`RADIUS_VENDOR_MICROSOFT`** (int)

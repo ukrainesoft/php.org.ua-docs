@@ -1,16 +1,11 @@
-Інтерфейс CrudOperationSkippable
-
--   [« CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.html)
-    
--   [CrudOperationSkippable::skip »](mysql-xdevapi-crudoperationskippable.skip.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Інтерфейс CrudOperationSkippable
-    
-
+---
+navigation:
+  - mysql-xdevapi-crudoperationlimitable.limit.html: '« CrudOperationLimitable::limit'
+  - mysql-xdevapi-crudoperationskippable.skip.html: 'CrudOperationSkippable::skip »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Інтерфейс CrudOperationSkippable
+---
 # Інтерфейс CrudOperationSkippable
 
 (PECL mysql-xdevapi >= 8.0.11)

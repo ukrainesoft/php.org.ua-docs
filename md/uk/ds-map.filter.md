@@ -1,16 +1,11 @@
-Створює нову колекцію пар із елементів, вибраних за допомогою заданої callback-функції
-
--   [« DsMap::diff](ds-map.diff.html)
-    
--   [ДсMap::first »](ds-map.first.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Створює нову колекцію пар із елементів, вибраних за допомогою заданої callback-функції
-    
-
+---
+navigation:
+  - ds-map.diff.html: '« DsMap::diff'
+  - ds-map.first.html: 'ДсMap::first »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::filter'
+---
 # ДсMap::filter
 
 (PECL ds >= 1.0.0)

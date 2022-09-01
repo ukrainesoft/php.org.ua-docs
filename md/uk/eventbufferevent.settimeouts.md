@@ -1,16 +1,11 @@
-Встановлює час очікування та запису для події буфера
-
--   [« EventBufferEvent::setPriority](eventbufferevent.setpriority.html)
-    
--   [EventBufferEvent::setWatermark »](eventbufferevent.setwatermark.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Встановлює час очікування та запису для події буфера
-    
-
+---
+navigation:
+  - eventbufferevent.setpriority.html: '« EventBufferEvent::setPriority'
+  - eventbufferevent.setwatermark.html: 'EventBufferEvent::setWatermark »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::setTimeouts'
+---
 # EventBufferEvent::setTimeouts
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Клас NoRewindIterator
-
--   [« MultipleIterator::valid](multipleiterator.valid.md)
-    
--   [NoRewindIterator::construct »](norewinditerator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас NoRewindIterator
-    
-
+---
+navigation:
+  - multipleiterator.valid.md: '« MultipleIterator::valid'
+  - norewinditerator.construct.md: 'NoRewindIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас NoRewindIterator
+---
 # Клас NoRewindIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

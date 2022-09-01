@@ -1,16 +1,11 @@
-Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
-
--   [« SwooleLock::trylockread](swoole-lock.trylock-read.html)
-    
--   [SwooleLock::unlock »](swoole-lock.unlock.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleLock](class.swoole-lock.html)
-    
--   Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
-    
-
+---
+navigation:
+  - swoole-lock.trylock-read.html: '« SwooleLock::trylockread'
+  - swoole-lock.unlock.html: 'SwooleLock::unlock »'
+  - index.md: PHP Manual
+  - class.swoole-lock.html: SwooleLock
+title: 'SwooleLock::trylock'
+---
 # SwooleLock::trylock
 
 (PECL swoole >= 1.9.0)

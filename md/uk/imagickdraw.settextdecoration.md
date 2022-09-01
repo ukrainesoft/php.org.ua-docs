@@ -1,16 +1,11 @@
-Визначає оформлення
-
--   [« ImagickDraw::setTextAntialias](imagickdraw.settextantialias.md)
-    
--   [ImagickDraw::setTextEncoding »](imagickdraw.settextencoding.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Визначає оформлення
-    
-
+---
+navigation:
+  - imagickdraw.settextantialias.md: '« ImagickDraw::setTextAntialias'
+  - imagickdraw.settextencoding.md: 'ImagickDraw::setTextEncoding »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setTextDecoration'
+---
 # ImagickDraw::setTextDecoration
 
 (PECL imagick 2, PECL imagick 3)

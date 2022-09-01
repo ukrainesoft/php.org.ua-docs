@@ -1,16 +1,11 @@
-Створює новий об'єкт NoRewindIterator
-
--   [« NoRewindIterator](class.norewinditerator.md)
-    
--   [NoRewindIterator::current »](norewinditerator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [NoRewindIterator](class.norewinditerator.md)
-    
--   Створює новий об'єкт NoRewindIterator
-    
-
+---
+navigation:
+  - class.norewinditerator.md: « NoRewindIterator
+  - norewinditerator.current.md: 'NoRewindIterator::current »'
+  - index.md: PHP Manual
+  - class.norewinditerator.md: NoRewindIterator
+title: 'NoRewindIterator::construct'
+---
 # NoRewindIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

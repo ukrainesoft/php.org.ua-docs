@@ -1,16 +1,11 @@
-Копіює функцію у нове ім'я функції
-
--   [« runkit7functionadd](function.runkit7-function-add.html)
-    
--   [runkit7functionredefine »](function.runkit7-function-redefine.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Копіює функцію у нове ім'я функції
-    
-
+---
+navigation:
+  - function.runkit7-function-add.html: « runkit7functionadd
+  - function.runkit7-function-redefine.html: runkit7functionredefine »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7functioncopy
+---
 # runkit7functioncopy
 
 (PECL runkit7> = Unknown)

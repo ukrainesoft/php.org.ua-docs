@@ -1,16 +1,11 @@
-Перевіряє, чи кінець файлу досягнуто.
-
--   [« fdatasync](function.fdatasync.html)
-    
--   [fflush »](function.fflush.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Перевіряє, чи кінець файлу досягнуто.
-    
-
+---
+navigation:
+  - function.fdatasync.html: « fdatasync
+  - function.fflush.html: fflush »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: feof
+---
 # feof
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

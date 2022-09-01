@@ -1,14 +1,10 @@
-Довідник мови
-
--   [« Як змінити налаштування конфігурації](configuration.changes.md)
-    
--   [Основи синтаксису »](language.basic-syntax.html)
-    
--   [PHP Manual](index.md)
-    
--   Довідник мови
-    
-
+---
+navigation:
+  - configuration.changes.md: « Як змінити налаштування конфігурації
+  - language.basic-syntax.html: Основи синтаксису »
+  - index.md: PHP Manual
+title: Довідник мови
+---
 # Довідник мови
 
 -   [Основи синтаксису](language.basic-syntax.html)

@@ -1,16 +1,11 @@
-Виконує запит на видалення
-
--   [« TableDelete::construct](mysql-xdevapi-tabledelete.construct.html)
-    
--   [TableDelete::limit »](mysql-xdevapi-tabledelete.limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
-    
--   Виконує запит на видалення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tabledelete.construct.html: '« TableDelete::construct'
+  - mysql-xdevapi-tabledelete.limit.html: 'TableDelete::limit »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+title: 'TableDelete::execute'
+---
 # TableDelete::execute
 
 (No version information available, might only be in Git)

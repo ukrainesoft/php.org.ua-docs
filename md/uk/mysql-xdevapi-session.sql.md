@@ -1,16 +1,11 @@
-Виконує SQL запит
-
--   [« Session::setSavepoint](mysql-xdevapi-session.setsavepoint.html)
-    
--   [Session::startTransaction »](mysql-xdevapi-session.starttransaction.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Виконує SQL запит
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.setsavepoint.html: '« Session::setSavepoint'
+  - mysql-xdevapi-session.starttransaction.html: 'Session::startTransaction »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::sql'
+---
 # Session::sql
 
 (No version information available, might only be in Git)

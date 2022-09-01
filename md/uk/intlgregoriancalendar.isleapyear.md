@@ -1,16 +1,11 @@
-Визначає, чи цей рік є високосним.
-
--   [« IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md)
-    
--   [IntlGregorianCalendar::setGregorianChange »](intlgregoriancalendar.setgregorianchange.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlGregorianCalendar](class.intlgregoriancalendar.md)
-    
--   Визначає, чи цей рік є високосним.
-    
-
+---
+navigation:
+  - intlgregoriancalendar.getgregorianchange.md: '« IntlGregorianCalendar::getGregorianChange'
+  - intlgregoriancalendar.setgregorianchange.md: 'IntlGregorianCalendar::setGregorianChange »'
+  - index.md: PHP Manual
+  - class.intlgregoriancalendar.md: IntlGregorianCalendar
+title: 'IntlGregorianCalendar::isLeapYear'
+---
 # IntlGregorianCalendar::isLeapYear
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

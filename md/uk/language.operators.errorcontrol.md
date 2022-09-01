@@ -1,16 +1,11 @@
-Оператор управління помилками
-
--   [« Оператори порівняння](language.operators.comparison.md)
-    
--   [Оператори виконання »](language.operators.execution.md)
-    
--   [PHP Manual](index.md)
-    
--   [Оператори](language.operators.md)
-    
--   Оператор управління помилками
-    
-
+---
+navigation:
+  - language.operators.comparison.md: « Оператори порівняння
+  - language.operators.execution.md: Оператори виконання »
+  - index.md: PHP Manual
+  - language.operators.md: Оператори
+title: Оператор управління помилками
+---
 ## Оператор управління помилками
 
 PHP підтримує один оператор керування помилками: знак `@`. У випадку, якщо він передує будь-якому виразу в PHP-коді, будь-які повідомлення про помилки, що генеруються цим виразом, будуть пригнічені.

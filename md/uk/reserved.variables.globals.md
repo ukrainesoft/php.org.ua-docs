@@ -1,16 +1,11 @@
-Посилання на всі змінні глобальної області видимості
-
--   [« Суперглобальні змінні](language.variables.superglobals.md)
-    
--   [SERVER »](reserved.variables.server.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Посилання на всі змінні глобальної області видимості
-    
-
+---
+navigation:
+  - language.variables.superglobals.md: « Суперглобальні змінні
+  - reserved.variables.server.md: SERVER »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: $GLOBALS
+---
 # $GLOBALS
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

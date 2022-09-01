@@ -1,16 +1,11 @@
-Повертає поточний буфер
-
--   [« XMLWriter::openUri](xmlwriter.openuri.html)
-    
--   [XMLWriter::setIndent »](xmlwriter.setindent.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Повертає поточний буфер
-    
-
+---
+navigation:
+  - xmlwriter.openuri.html: '« XMLWriter::openUri'
+  - xmlwriter.setindent.html: 'XMLWriter::setIndent »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::outputMemory'
+---
 # XMLWriter::outputMemory
 
 # xmlwriteroutputmemory
@@ -51,9 +46,9 @@ xmlwriter_output_memory(XMLWriter $writer, bool $flush = true): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

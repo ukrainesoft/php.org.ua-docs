@@ -1,16 +1,11 @@
-Визначає, чи є зображення повнокольоровим
-
--   [« imageinterlace](function.imageinterlace.html)
-    
--   [imagejpeg »](function.imagejpeg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Визначає, чи є зображення повнокольоровим
-    
-
+---
+navigation:
+  - function.imageinterlace.html: « imageinterlace
+  - function.imagejpeg.html: imagejpeg »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imageistruecolor
+---
 # imageistruecolor
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ imageistruecolor(GdImage $image): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

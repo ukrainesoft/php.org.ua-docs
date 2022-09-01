@@ -1,16 +1,11 @@
-Збирає URL
-
--   [« YafRouteRewrite](class.yaf-route-rewrite.html)
-    
--   [YafRouteRewrite::construct »](yaf-route-rewrite.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteRewrite](class.yaf-route-rewrite.html)
-    
--   Збирає URL
-    
-
+---
+navigation:
+  - class.yaf-route-rewrite.html: « YafRouteRewrite
+  - yaf-route-rewrite.construct.html: 'YafRouteRewrite::construct »'
+  - index.md: PHP Manual
+  - class.yaf-route-rewrite.html: YafRouteRewrite
+title: 'YafRouteRewrite::assemble'
+---
 # YafRouteRewrite::assemble
 
 (Yaf >=2.3.0)

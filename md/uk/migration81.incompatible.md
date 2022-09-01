@@ -1,16 +1,11 @@
-Зміни, що ламають зворотну сумісність
-
--   [« Нові глобальні константи](migration81.constants.md)
-    
--   [Устаревшая функциональность »](migration81.deprecated.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.md)
-    
--   Зміни, що ламають зворотну сумісність
-    
-
+---
+navigation:
+  - migration81.constants.md: « Нові глобальні константи
+  - migration81.deprecated.md: Устаревшая функциональность »
+  - index.md: PHP Manual
+  - migration81.md: Миграция с PHP 8.0.x на PHP 8.1.x
+title: 'Зміни, що ламають зворотну сумісність'
+---
 ## Зміни, що ламають зворотну сумісність
 
 ### Ядро PHP

@@ -1,16 +1,11 @@
-Встановлення/отримання внутрішнього кодування скрипту
-
--   [« mbhttpoutput](function.mb-http-output.html)
-    
--   [мбlanguage »](function.mb-language.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Встановлення/отримання внутрішнього кодування скрипту
-    
-
+---
+navigation:
+  - function.mb-http-output.html: « mbhttpoutput
+  - function.mb-language.html: мбlanguage »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбinternalencoding
+---
 # мбinternalencoding
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ mb_internal_encoding(?string $encoding = null): string|bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`**                                                                                                                           |
-|        | Тепер викидається виняток [ValueError](class.valueerror.md), якщо значення параметра `encoding` є неприпустимим кодуванням. Раніше натомість видавалася помилка рівня **`E_WARNING`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
+|  | Тепер викидається виняток [ValueError](class.valueerror.md), якщо значення параметра `encoding` є неприпустимим кодуванням. Раніше натомість видавалася помилка рівня **`E_WARNING`** |
 
 ### Приклади
 

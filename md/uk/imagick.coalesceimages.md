@@ -1,16 +1,11 @@
-Компонує набір зображень
-
--   [« Imagick::clutImage](imagick.clutimage.md)
-    
--   [Imagick::colorFloodfillImage »](imagick.colorfloodfillimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Компонує набір зображень
-    
-
+---
+navigation:
+  - imagick.clutimage.md: '« Imagick::clutImage'
+  - imagick.colorfloodfillimage.md: 'Imagick::colorFloodfillImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::coalesceImages'
+---
 # Imagick::coalesceImages
 
 (PECL imagick 2, PECL imagick 3)

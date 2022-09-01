@@ -1,16 +1,11 @@
-Дожі-надгробки
-
--   [« tradercdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.html)
-    
--   [tradercdlhammer »](function.trader-cdlhammer.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Дожі-надгробки
-    
-
+---
+navigation:
+  - function.trader-cdlgapsidesidewhite.html: « tradercdlgapsidesidewhite
+  - function.trader-cdlhammer.html: tradercdlhammer »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlgravestonedoji
+---
 # tradercdlgravestonedoji
 
 (PECL trader >= 0.2.0)

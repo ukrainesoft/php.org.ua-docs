@@ -1,16 +1,11 @@
-Розшифровує дані
-
--   [« radiusdemanglemppekey](function.radius-demangle-mppe-key.html)
-    
--   [radiusgetattr »](function.radius-get-attr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Розшифровує дані
-    
-
+---
+navigation:
+  - function.radius-demangle-mppe-key.html: « radiusdemanglemppekey
+  - function.radius-get-attr.html: radiusgetattr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusdemangle
+---
 # radiusdemangle
 
 (PECL radius >= 1.2.0)

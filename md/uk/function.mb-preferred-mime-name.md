@@ -1,16 +1,11 @@
-Набір символів MIME
-
--   [« mbparsestr](function.mb-parse-str.html)
-    
--   [мбregexencoding »](function.mb-regex-encoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Набір символів MIME
-    
-
+---
+navigation:
+  - function.mb-parse-str.html: « mbparsestr
+  - function.mb-regex-encoding.html: мбregexencoding »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбpreferredmimename
+---
 # мбpreferredmimename
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

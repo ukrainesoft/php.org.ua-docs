@@ -1,16 +1,11 @@
-Переміщення на задану позицію у потоці
-
--   [« streamWrapper::streamread](streamwrapper.stream-read.html)
-    
--   [streamWrapper::streamsetoption »](streamwrapper.stream-set-option.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Переміщення на задану позицію у потоці
-    
-
+---
+navigation:
+  - streamwrapper.stream-read.html: '« streamWrapper::streamread'
+  - streamwrapper.stream-set-option.html: 'streamWrapper::streamsetoption »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streamseek'
+---
 # streamWrapper::streamseek
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримання налаштувань обробника
-
--   [« GearmanWorker::getErrno](gearmanworker.geterrno.html)
-    
--   [GearmanWorker::register »](gearmanworker.register.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Отримання налаштувань обробника
-    
-
+---
+navigation:
+  - gearmanworker.geterrno.html: '« GearmanWorker::getErrno'
+  - gearmanworker.register.html: 'GearmanWorker::register »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::options'
+---
 # GearmanWorker::options
 
 (PECL gearman >= 0.6.0)

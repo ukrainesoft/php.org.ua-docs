@@ -1,16 +1,11 @@
-З'єднання із зовнішньою базою імен
-
--   [« GenderGender](class.gender.md)
-    
--   [GenderGender::construct »](gender-gender.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [GenderGender](class.gender.md)
-    
--   З'єднання із зовнішньою базою імен
-    
-
+---
+navigation:
+  - class.gender.md: « GenderGender
+  - gender-gender.construct.html: 'GenderGender::construct »'
+  - index.md: PHP Manual
+  - class.gender.md: GenderGender
+title: 'GenderGender::connect'
+---
 # GenderGender::connect
 
 (PECL gender >= 0.6.0)

@@ -1,16 +1,11 @@
-Встановлює функцію спостерігача
-
--   [« Zookeeper::setLogStream](zookeeper.setlogstream.md)
-    
--   [ZookeeperConfig »](class.zookeeperconfig.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Встановлює функцію спостерігача
-    
-
+---
+navigation:
+  - zookeeper.setlogstream.md: '« Zookeeper::setLogStream'
+  - class.zookeeperconfig.md: ZookeeperConfig »
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::setWatcher'
+---
 # Zookeeper::setWatcher
 
 (PECL zookeeper >= 0.1.0)

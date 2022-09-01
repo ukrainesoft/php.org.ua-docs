@@ -1,16 +1,11 @@
-Отримати мітку часу Unix, що відповідає півночі на Великдень у заданому році
-
--   [« calтожд](function.cal-to-jd.html)
-    
--   [easterdays »](function.easter-days.html)
-    
--   [PHP Manual](index.html)
-    
--   [Календарь](ref.calendar.html)
-    
--   Отримати мітку часу Unix, що відповідає півночі на Великдень у заданому році
-    
-
+---
+navigation:
+  - function.cal-to-jd.html: « calтожд
+  - function.easter-days.html: easterdays »
+  - index.html: PHP Manual
+  - ref.calendar.html: Календарь
+title: easterdate
+---
 # easterdate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ easter_date(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `year` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `year` тепер допускає значення null. |
 
 ### Приклади
 

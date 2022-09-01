@@ -1,16 +1,11 @@
-Створити новий об'єкт SplFileInfo
-
--   [« SplFileInfo](class.splfileinfo.md)
-    
--   [SplFileInfo::getATime »](splfileinfo.getatime.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Створити новий об'єкт SplFileInfo
-    
-
+---
+navigation:
+  - class.splfileinfo.md: « SplFileInfo
+  - splfileinfo.getatime.md: 'SplFileInfo::getATime »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::construct'
+---
 # SplFileInfo::construct
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

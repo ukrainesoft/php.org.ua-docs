@@ -1,16 +1,11 @@
-Отримує автора SeasLog
-
--   [« Функции Seaslog](ref.seaslog.html)
-    
--   [seasloggetversion »](function.seaslog-get-version.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Seaslog](ref.seaslog.html)
-    
--   Отримує автора SeasLog
-    
-
+---
+navigation:
+  - ref.seaslog.html: « Функции Seaslog
+  - function.seaslog-get-version.html: seasloggetversion »
+  - index.html: PHP Manual
+  - ref.seaslog.html: Функции Seaslog
+title: seasloggetauthor
+---
 # seasloggetauthor
 
 (PECL seaslog >=1.0.0)

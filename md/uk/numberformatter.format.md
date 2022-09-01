@@ -1,16 +1,11 @@
-Форматує число
-
--   [« NumberFormatter::formatCurrency](numberformatter.formatcurrency.html)
-    
--   [NumberFormatter::getAttribute »](numberformatter.getattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [NumberFormatter](class.numberformatter.html)
-    
--   Форматує число
-    
-
+---
+navigation:
+  - numberformatter.formatcurrency.html: '« NumberFormatter::formatCurrency'
+  - numberformatter.getattribute.html: 'NumberFormatter::getAttribute »'
+  - index.html: PHP Manual
+  - class.numberformatter.html: NumberFormatter
+title: 'NumberFormatter::format'
+---
 # NumberFormatter::format
 
 # numfmtformat

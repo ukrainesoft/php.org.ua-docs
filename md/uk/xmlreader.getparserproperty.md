@@ -1,16 +1,11 @@
-Вказує, чи була певна властивість встановлена
-
--   [« XMLReader::getAttributeNs](xmlreader.getattributens.md)
-    
--   [XMLReader::isValid »](xmlreader.isvalid.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Вказує, чи була певна властивість встановлена
-    
-
+---
+navigation:
+  - xmlreader.getattributens.md: '« XMLReader::getAttributeNs'
+  - xmlreader.isvalid.md: 'XMLReader::isValid »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::getParserProperty'
+---
 # XMLReader::getParserProperty
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

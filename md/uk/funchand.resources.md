@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](funchand.configuration.md)
-    
--   [Обумовлені константи »](funchand.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](funchand.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - funchand.configuration.md: « Налаштування під час виконання
+  - funchand.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - funchand.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

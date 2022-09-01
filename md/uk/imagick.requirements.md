@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](imagick.setup.md)
-    
--   [Установка »](imagick.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](imagick.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - imagick.setup.md: « Встановлення та налаштування
+  - imagick.installation.md: Установка »
+  - index.md: PHP Manual
+  - imagick.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 ## Вимоги для встановлення на платформах, відмінних від Windows

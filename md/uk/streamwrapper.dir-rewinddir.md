@@ -1,16 +1,11 @@
-Дескриптор директорії переміщення їх у початок
-
--   [« streamWrapper::dirreaddir](streamwrapper.dir-readdir.html)
-    
--   [streamWrapper::mkdir »](streamwrapper.mkdir.md)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Дескриптор директорії переміщення їх у початок
-    
-
+---
+navigation:
+  - streamwrapper.dir-readdir.html: '« streamWrapper::dirreaddir'
+  - streamwrapper.mkdir.md: 'streamWrapper::mkdir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::dirrewinddir'
+---
 # streamWrapper::dirrewinddir
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

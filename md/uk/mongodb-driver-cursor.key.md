@@ -1,16 +1,11 @@
-Повертає індекс поточного результату у курсорі
-
--   [« MongoDBDriverCursor::isDead](mongodb-driver-cursor.isdead.html)
-    
--   [MongoDBDriverCursor::next »](mongodb-driver-cursor.next.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Повертає індекс поточного результату у курсорі
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.isdead.html: '« MongoDBDriverCursor::isDead'
+  - mongodb-driver-cursor.next.html: 'MongoDBDriverCursor::next »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::key'
+---
 # MongoDBDriverCursor::key
 
 (mongodb >=1.9.0)

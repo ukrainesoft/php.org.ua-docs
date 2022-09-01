@@ -1,16 +1,11 @@
-Видалення черги повідомлень
-
--   [« msgreceive](function.msg-receive.html)
-    
--   [msgsend »](function.msg-send.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Видалення черги повідомлень
-    
-
+---
+navigation:
+  - function.msg-receive.html: « msgreceive
+  - function.msg-send.html: msgsend »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: msgremovequeue
+---
 # msgremovequeue
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ msg_remove_queue(SysvMessageQueue $queue): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

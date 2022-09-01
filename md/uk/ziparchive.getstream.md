@@ -1,16 +1,11 @@
-Отримати дескриптор файлу елемента, визначений на ім'я елемента (тільки для читання)
-
--   [« ZipArchive::getStatusString](ziparchive.getstatusstring.html)
-    
--   [ZipArchive::getStreamIndex »](ziparchive.getstreamindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Отримати дескриптор файлу елемента, визначений на ім'я елемента (тільки для читання)
-    
-
+---
+navigation:
+  - ziparchive.getstatusstring.html: '« ZipArchive::getStatusString'
+  - ziparchive.getstreamindex.html: 'ZipArchive::getStreamIndex »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::getStream'
+---
 # ZipArchive::getStream
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

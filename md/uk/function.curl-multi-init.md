@@ -1,16 +1,11 @@
-Створює набір cURL-дескрипторів
-
--   [« curlmultiinforead](function.curl-multi-info-read.html)
-    
--   [curlmultiremovehandle »](function.curl-multi-remove-handle.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Створює набір cURL-дескрипторів
-    
-
+---
+navigation:
+  - function.curl-multi-info-read.html: « curlmultiinforead
+  - function.curl-multi-remove-handle.html: curlmultiremovehandle »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlmultiinit
+---
 # curlmultiinit
 
 (PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ curl_multi_init(): CurlMultiHandle
 
 ### список змін
 
-| Версия | Описание                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання повертає екземпляр [CurlMultiHandle](class.curlmultihandle.md); раніше, повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [CurlMultiHandle](class.curlmultihandle.md); раніше, повертався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Надіслати подію сигналу в цикл за замовчуванням
-
--   [« Ev::feedSignal](ev.feedsignal.md)
-    
--   [Ev::iteration »](ev.iteration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Надіслати подію сигналу в цикл за замовчуванням
-    
-
+---
+navigation:
+  - ev.feedsignal.md: '« Ev::feedSignal'
+  - ev.iteration.md: 'Ev::iteration »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::feedSignalEvent'
+---
 # Ev::feedSignalEvent
 
 (No version information available, might only be in Git)

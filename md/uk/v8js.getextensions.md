@@ -1,16 +1,11 @@
-Повертає масив зареєстрованих модулів
-
--   [« V8Js::executeString](v8js.executestring.md)
-    
--   [V8Js::getPendingException »](v8js.getpendingexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [V8Js](class.v8js.md)
-    
--   Повертає масив зареєстрованих модулів
-    
-
+---
+navigation:
+  - v8js.executestring.md: '« V8Js::executeString'
+  - v8js.getpendingexception.md: 'V8Js::getPendingException »'
+  - index.md: PHP Manual
+  - class.v8js.md: V8Js
+title: 'V8Js::getExtensions'
+---
 # V8Js::getExtensions
 
 (PECL v8js >= 0.1.0)

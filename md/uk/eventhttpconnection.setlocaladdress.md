@@ -1,16 +1,11 @@
-Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання
-
--   [« EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.html)
-    
--   [EventHttpConnection::setLocalPort »](eventhttpconnection.setlocalport.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpConnection](class.eventhttpconnection.html)
-    
--   Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання
-    
-
+---
+navigation:
+  - eventhttpconnection.setclosecallback.html: '« EventHttpConnection::setCloseCallback'
+  - eventhttpconnection.setlocalport.html: 'EventHttpConnection::setLocalPort »'
+  - index.html: PHP Manual
+  - class.eventhttpconnection.html: EventHttpConnection
+title: 'EventHttpConnection::setLocalAddress'
+---
 # EventHttpConnection::setLocalAddress
 
 (PECL event >= 1.2.6-beta)

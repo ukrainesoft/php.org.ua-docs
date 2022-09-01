@@ -1,16 +1,11 @@
-Повертає основний запит
-
--   [« SolrQuery::getMltQueryFields](solrquery.getmltqueryfields.html)
-    
--   [SolrQuery::getRows »](solrquery.getrows.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає основний запит
-    
-
+---
+navigation:
+  - solrquery.getmltqueryfields.html: '« SolrQuery::getMltQueryFields'
+  - solrquery.getrows.html: 'SolrQuery::getRows »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getQuery'
+---
 # SolrQuery::getQuery
 
 (PECL solr> = 0.9.2)

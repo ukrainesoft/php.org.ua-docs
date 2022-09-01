@@ -1,16 +1,11 @@
-Клас ParleStack
-
--   [« ParleRParser::validate](parle-rparser.validate.html)
-    
--   [ParleStack::pop »](parle-stack.pop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Parle](book.parle.html)
-    
--   Клас ParleStack
-    
-
+---
+navigation:
+  - parle-rparser.validate.html: '« ParleRParser::validate'
+  - parle-stack.pop.html: 'ParleStack::pop »'
+  - index.html: PHP Manual
+  - book.parle.html: Parle
+title: Клас ParleStack
+---
 # Клас ParleStack
 
 (PECL parle >= 0.7.0)

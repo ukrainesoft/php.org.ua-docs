@@ -1,16 +1,11 @@
-Кількість бітів збою
-
--   [« fanngetbitfaillimit](function.fann-get-bit-fail-limit.html)
-    
--   [fanngetcascadeactivationfunctionscount »](function.fann-get-cascade-activation-functions-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Кількість бітів збою
-    
-
+---
+navigation:
+  - function.fann-get-bit-fail-limit.html: « fanngetbitfaillimit
+  - function.fann-get-cascade-activation-functions-count.html: fanngetcascadeactivationfunctionscount »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetbitfail
+---
 # fanngetbitfail
 
 (PECL fann> = 1.0.0)

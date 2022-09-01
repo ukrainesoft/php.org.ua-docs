@@ -1,16 +1,11 @@
-Чекаємо, доки подія буде опублікована в базі даних
-
--   [« ibasetrans](function.ibase-trans.html)
-    
--   [IBM DB2 »](book.ibm-db2.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Чекаємо, доки подія буде опублікована в базі даних
-    
-
+---
+navigation:
+  - function.ibase-trans.html: « ibasetrans
+  - book.ibm-db2.html: IBM DB2 »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasewaitevent
+---
 # ibasewaitevent
 
 (PHP 5, PHP 7 < 7.4.0)

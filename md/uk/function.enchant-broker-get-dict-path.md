@@ -1,16 +1,11 @@
-Повертає шлях словника для заданого бекенду
-
--   [« enchantbrokerfree](function.enchant-broker-free.html)
-    
--   [enchantbrokergeterror »](function.enchant-broker-get-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Повертає шлях словника для заданого бекенду
-    
-
+---
+navigation:
+  - function.enchant-broker-free.html: « enchantbrokerfree
+  - function.enchant-broker-get-error.html: enchantbrokergeterror »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokergetdictpath
+---
 # enchantbrokergetdictpath
 
 (PHP 5 >= 5.3.1, PHP 7, PHP 8, PECL enchant >= 1.0.1)
@@ -45,9 +40,9 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

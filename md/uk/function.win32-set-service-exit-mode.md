@@ -1,16 +1,11 @@
-Визначає або повертає режим виходу для поточної запущеної служби
-
--   [« win32setserviceexitcode](function.win32-set-service-exit-code.html)
-    
--   [win32setservicestatus »](function.win32-set-service-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [win32service](ref.win32service.html)
-    
--   Визначає або повертає режим виходу для поточної запущеної служби
-    
-
+---
+navigation:
+  - function.win32-set-service-exit-code.html: « win32setserviceexitcode
+  - function.win32-set-service-status.html: win32setservicestatus »
+  - index.html: PHP Manual
+  - ref.win32service.html: win32service
+title: win32setserviceexitmode
+---
 # win32setserviceexitmode
 
 (PECL win32service >=0.4.0)
@@ -47,9 +42,9 @@ win32_set_service_exit_mode(bool $gracefulMode = true): bool
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`**                                                        |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
 
 ### Дивіться також

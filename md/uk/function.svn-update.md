@@ -1,16 +1,11 @@
-Оновлює робочу копію
-
--   [« svnstatus](function.svn-status.html)
-    
--   [TCP »](book.tcpwrap.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Оновлює робочу копію
-    
-
+---
+navigation:
+  - function.svn-status.html: « svnstatus
+  - book.tcpwrap.md: TCP »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnupdate
+---
 # svnupdate
 
 (PECL svn> = 0.1.0)

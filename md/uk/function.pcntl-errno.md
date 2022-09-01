@@ -1,16 +1,11 @@
-Псевдонім pcntlgetlasterror
-
--   [pcntlasyncsignals](function.pcntl-async-signals.html)
-    
--   [pcntlexec »](function.pcntl-exec.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Псевдонім pcntlgetlasterror
-    
-
+---
+navigation:
+  - function.pcntl-async-signals.html: pcntlasyncsignals
+  - function.pcntl-exec.html: pcntlexec »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlerrno
+---
 # pcntlerrno
 
 (PHP 5> = 5.3.4, PHP 7, PHP 8)

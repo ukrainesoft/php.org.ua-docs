@@ -1,16 +1,11 @@
-Оновлення опцій асинхронного введення-виводу
-
--   [« swooleasyncreadfile](function.swoole-async-readfile.html)
-    
--   [swooleasyncwrite »](function.swoole-async-write.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Оновлення опцій асинхронного введення-виводу
-    
-
+---
+navigation:
+  - function.swoole-async-readfile.html: « swooleasyncreadfile
+  - function.swoole-async-write.html: swooleasyncwrite »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleasyncset
+---
 # swooleasyncset
 
 (PECL swoole >= 1.9.0)

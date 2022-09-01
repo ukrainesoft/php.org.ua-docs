@@ -1,16 +1,11 @@
-Отримати останній код повернення Gearman
-
--   [« GearmanClient::removeOptions](gearmanclient.removeoptions.md)
-    
--   [GearmanClient::runTasks »](gearmanclient.runtasks.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Отримати останній код повернення Gearman
-    
-
+---
+navigation:
+  - gearmanclient.removeoptions.md: '« GearmanClient::removeOptions'
+  - gearmanclient.runtasks.md: 'GearmanClient::runTasks »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::returnCode'
+---
 # GearmanClient::returnCode
 
 (PECL gearman >= 0.5.0)

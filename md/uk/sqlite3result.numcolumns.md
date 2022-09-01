@@ -1,16 +1,11 @@
-Повертає кількість стовпців у результуючому наборі
-
--   [« SQLite3Result::finalize](sqlite3result.finalize.md)
-    
--   [SQLite3Result::reset »](sqlite3result.reset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Result](class.sqlite3result.md)
-    
--   Повертає кількість стовпців у результуючому наборі
-    
-
+---
+navigation:
+  - sqlite3result.finalize.md: '« SQLite3Result::finalize'
+  - sqlite3result.reset.md: 'SQLite3Result::reset »'
+  - index.md: PHP Manual
+  - class.sqlite3result.md: SQLite3Result
+title: 'SQLite3Result::numColumns'
+---
 # SQLite3Result::numColumns
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

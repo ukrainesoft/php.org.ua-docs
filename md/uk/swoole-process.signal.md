@@ -1,16 +1,11 @@
-Надсилає сигнал дочірнім процесам
-
--   [« SwooleProcess::read](swoole-process.read.html)
-    
--   [SwooleProcess::start »](swoole-process.start.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Надсилає сигнал дочірнім процесам
-    
-
+---
+navigation:
+  - swoole-process.read.html: '« SwooleProcess::read'
+  - swoole-process.start.html: 'SwooleProcess::start »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::signal'
+---
 # SwooleProcess::signal
 
 (PECL swoole >= 1.9.0)

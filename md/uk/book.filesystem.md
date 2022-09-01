@@ -1,16 +1,11 @@
-Файлова система
-
--   [« finfo::setflags](finfo.set-flags.html)
-    
--   [Введение »](intro.filesystem.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
-    
--   Файлова система
-    
-
+---
+navigation:
+  - finfo.set-flags.html: '« finfo::setflags'
+  - intro.filesystem.html: Введение »
+  - index.html: PHP Manual
+  - refs.fileprocess.file.html: Модулі для роботи з файловою системою
+title: Файлова система
+---
 # Файлова система
 
 -   [Введение](intro.filesystem.html)

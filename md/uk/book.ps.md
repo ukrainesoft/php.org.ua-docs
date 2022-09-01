@@ -1,16 +1,11 @@
-Створення документів PostScript
-
--   [« wkhtmltoxImageConverter::getVersion](wkhtmltox-image-converter.getversion.html)
-    
--   [Введение »](intro.ps.html)
-    
--   [PHP Manual](index.html)
-    
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
-    
--   Створення документів PostScript
-    
-
+---
+navigation:
+  - wkhtmltox-image-converter.getversion.html: '« wkhtmltoxImageConverter::getVersion'
+  - intro.ps.html: Введение »
+  - index.html: PHP Manual
+  - refs.utilspec.nontext.html: Генерація нетекстових MIME-форматів
+title: Створення документів PostScript
+---
 # Створення документів PostScript
 
 -   [Введение](intro.ps.html)

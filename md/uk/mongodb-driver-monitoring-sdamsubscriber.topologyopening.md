@@ -1,16 +1,11 @@
-Метод сповіщення про відкриття топології
-
--   [« MongoDBDriverMonitoringSDAMSubscriber::topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.html)
-    
--   [MongoDBDriverMonitoringSubscriber »](class.mongodb-driver-monitoring-subscriber.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   Метод сповіщення про відкриття топології
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.topologyclosed.html: '« MongoDBDriverMonitoringSDAMSubscriber::topologyClosed'
+  - class.mongodb-driver-monitoring-subscriber.html: MongoDBDriverMonitoringSubscriber »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
+---
 # MongoDBDriverMonitoringSDAMSubscriber::topologyOpening
 
 (mongodb >=1.13.0)

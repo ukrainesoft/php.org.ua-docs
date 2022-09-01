@@ -1,16 +1,11 @@
-Додати рамку до зображення
-
--   [« Gmagick::blurimage](gmagick.blurimage.html)
-    
--   [Gmagick::charcoalimage »](gmagick.charcoalimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Додати рамку до зображення
-    
-
+---
+navigation:
+  - gmagick.blurimage.html: '« Gmagick::blurimage'
+  - gmagick.charcoalimage.html: 'Gmagick::charcoalimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::borderimage'
+---
 # Gmagick::borderimage
 
 (PECL gmagick >= Unknown)

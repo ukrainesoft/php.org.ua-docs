@@ -1,16 +1,11 @@
-Отримує результат підготовленого запиту у вигляді об'єкта mysqliresult
-
--   [« mysqlistmt::freeresult](mysqli-stmt.free-result.html)
-    
--   [mysqlistmt::getwarnings »](mysqli-stmt.get-warnings.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Отримує результат підготовленого запиту у вигляді об'єкта mysqliresult
-    
-
+---
+navigation:
+  - mysqli-stmt.free-result.html: '« mysqlistmt::freeresult'
+  - mysqli-stmt.get-warnings.html: 'mysqlistmt::getwarnings »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::getresult'
+---
 # mysqlistmt::getresult
 
 # mysqlistmtgetresult

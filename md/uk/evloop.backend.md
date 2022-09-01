@@ -1,16 +1,11 @@
-Повертає ціле число, що описує бекенд, використовуваний libev
-
--   [« EvLoop](class.evloop.md)
-    
--   [EvLoop::check »](evloop.check.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Повертає ціле число, що описує бекенд, використовуваний libev
-    
-
+---
+navigation:
+  - class.evloop.md: « EvLoop
+  - evloop.check.md: 'EvLoop::check »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::backend'
+---
 # EvLoop::backend
 
 (PECL ev >= 0.2.0)

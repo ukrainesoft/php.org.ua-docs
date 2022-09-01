@@ -1,16 +1,11 @@
-Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
-
--   [« DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md)
-    
--   [DateInterval »](class.dateinterval.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeZone](class.datetimezone.md)
-    
--   Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
-    
-
+---
+navigation:
+  - datetimezone.listabbreviations.md: '« DateTimeZone::listAbbreviations'
+  - class.dateinterval.md: DateInterval »
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
+title: 'DateTimeZone::listIdentifiers'
+---
 # DateTimeZone::listIdentifiers
 
 # timezoneidentifierslist
@@ -51,10 +46,10 @@ timezone_identifiers_list(int $timezoneGroup = DateTimeZone::ALL, ?string $count
 
 ### список змін
 
-| Версия | Описание                                                          |
-|--------|-------------------------------------------------------------------|
-|        | До цієї версії, у разі виникнення помилки поверталося **`false`** |
-|        | `countryCode` тепер допускає значення null.                       |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
+|  | `countryCode` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](taint.requirements.md)
-    
--   [Налаштування під час виконання »](taint.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](taint.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - taint.requirements.md: « Вимоги
+  - taint.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - taint.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

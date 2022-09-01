@@ -1,16 +1,11 @@
-Конструктор класу YafRequestSimple
-
--   [« YafRequestSimple](class.yaf-request-simple.html)
-    
--   [YafRequestSimple::get »](yaf-request-simple.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestSimple](class.yaf-request-simple.html)
-    
--   Конструктор класу YafRequestSimple
-    
-
+---
+navigation:
+  - class.yaf-request-simple.html: « YafRequestSimple
+  - yaf-request-simple.get.html: 'YafRequestSimple::get »'
+  - index.html: PHP Manual
+  - class.yaf-request-simple.html: YafRequestSimple
+title: 'YafRequestSimple::construct'
+---
 # YafRequestSimple::construct
 
 (Yaf >=1.0.0)

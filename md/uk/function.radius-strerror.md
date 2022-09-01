@@ -1,16 +1,11 @@
-Повертає повідомлення про помилку
-
--   [« radiusserversecret](function.radius-server-secret.html)
-    
--   [Модулі для роботи з командним рядком »](refs.utilspec.cmdline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Повертає повідомлення про помилку
-    
-
+---
+navigation:
+  - function.radius-server-secret.html: « radiusserversecret
+  - refs.utilspec.cmdline.md: Модулі для роботи з командним рядком »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusstrerror
+---
 # radiusstrerror
 
 (PECL radius >= 1.1.0)

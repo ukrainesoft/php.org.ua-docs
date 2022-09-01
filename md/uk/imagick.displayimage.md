@@ -1,16 +1,11 @@
-Виводить зображення
-
--   [« Imagick::destroy](imagick.destroy.md)
-    
--   [Imagick::displayImages »](imagick.displayimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Виводить зображення
-    
-
+---
+navigation:
+  - imagick.destroy.md: '« Imagick::destroy'
+  - imagick.displayimages.md: 'Imagick::displayImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::displayImage'
+---
 # Imagick::displayImage
 
 (PECL imagick 2, PECL imagick 3)

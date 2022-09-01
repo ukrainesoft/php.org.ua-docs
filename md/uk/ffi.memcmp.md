@@ -1,16 +1,11 @@
-Порівнює дві області пам'яті
-
--   [« FFI::load](ffi.load.md)
-    
--   [FFI::memcpy »](ffi.memcpy.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Порівнює дві області пам'яті
-    
-
+---
+navigation:
+  - ffi.load.md: '« FFI::load'
+  - ffi.memcpy.md: 'FFI::memcpy »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::memcmp'
+---
 # FFI::memcmp
 
 (PHP 7> = 7.4.0, PHP 8)

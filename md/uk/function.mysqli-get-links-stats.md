@@ -1,16 +1,11 @@
-Повертає інформацію про відкриті та закешовані з'єднання MySQL
-
--   [« mysqligetclientstats](function.mysqli-get-client-stats.html)
-    
--   [mysqlireport »](function.mysqli-report.html)
-    
--   [PHP Manual](index.html)
-    
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
-    
--   Повертає інформацію про відкриті та закешовані з'єднання MySQL
-    
-
+---
+navigation:
+  - function.mysqli-get-client-stats.html: « mysqligetclientstats
+  - function.mysqli-report.html: mysqlireport »
+  - index.html: PHP Manual
+  - ref.mysqli.html: Синоніми та застарілі функції Mysqli
+title: mysqligetlinksstats
+---
 # mysqligetlinksstats
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

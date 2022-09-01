@@ -1,16 +1,11 @@
-Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
-
--   [« MongoDBDriverManager::executeWriteCommand](mongodb-driver-manager.executewritecommand.html)
-    
--   [MongoDBDriverManager::getReadConcern »](mongodb-driver-manager.getreadconcern.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
-    
-
+---
+navigation:
+  - mongodb-driver-manager.executewritecommand.html: '« MongoDBDriverManager::executeWriteCommand'
+  - mongodb-driver-manager.getreadconcern.html: 'MongoDBDriverManager::getReadConcern »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::getEncryptedFieldsMap'
+---
 # MongoDBDriverManager::getEncryptedFieldsMap
 
 (mongodb >=1.14.0)

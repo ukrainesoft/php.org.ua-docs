@@ -1,16 +1,11 @@
-Повертає кількість полів у результуючому наборі
-
--   [« db2nextresult](function.db2-next-result.html)
-    
--   [db2numrows »](function.db2-num-rows.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає кількість полів у результуючому наборі
-    
-
+---
+navigation:
+  - function.db2-next-result.html: « db2nextresult
+  - function.db2-num-rows.html: db2numrows »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2numfields
+---
 # db2numfields
 
 (PECL ibmdb2> = 1.0.0)

@@ -1,16 +1,11 @@
-Конструктор класу
-
--   [« SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.md)
-    
--   [SolrDisMaxQuery::removeBigramPhraseField »](solrdismaxquery.removebigramphrasefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Конструктор класу
-    
-
+---
+navigation:
+  - solrdismaxquery.adduserfield.md: '« SolrDisMaxQuery::addUserField'
+  - solrdismaxquery.removebigramphrasefield.md: 'SolrDisMaxQuery::removeBigramPhraseField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::construct'
+---
 # SolrDisMaxQuery::construct
 
 (No version information available, might only be in Git)

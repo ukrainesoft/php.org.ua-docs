@@ -1,16 +1,11 @@
-Переведення ітератора на початок
-
--   [« RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.md)
-    
--   [RecursiveTreeIterator::setPostfix »](recursivetreeiterator.setpostfix.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Переведення ітератора на початок
-    
-
+---
+navigation:
+  - recursivetreeiterator.nextelement.md: '« RecursiveTreeIterator::nextElement'
+  - recursivetreeiterator.setpostfix.md: 'RecursiveTreeIterator::setPostfix »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::rewind'
+---
 # RecursiveTreeIterator::rewind
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

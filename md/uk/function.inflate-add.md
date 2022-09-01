@@ -1,16 +1,11 @@
-Інкрементальне розпакувати закодовані дані
-
--   [« gzwrite](function.gzwrite.html)
-    
--   [inflategetreadlen »](function.inflate-get-read-len.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Інкрементальне розпакувати закодовані дані
-    
-
+---
+navigation:
+  - function.gzwrite.html: « gzwrite
+  - function.inflate-get-read-len.html: inflategetreadlen »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: inflateadd
+---
 # inflateadd
 
 (PHP 7, PHP 8)
@@ -51,9 +46,9 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### список змін
 
-| Версия | Описание                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------|
-|        | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.mbstring.md)
-    
--   [Вимоги »](mbstring.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Багатобайтові рядки](book.mbstring.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.mbstring.md: « Введение
+  - mbstring.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.mbstring.md: Багатобайтові рядки
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

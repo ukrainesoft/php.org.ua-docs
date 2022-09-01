@@ -1,16 +1,11 @@
-Клас ReflectionUnionType
-
--   [« ReflectionType::toString](reflectiontype.tostring.md)
-    
--   [ReflectionUnionType::getTypes »](reflectionuniontype.gettypes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionUnionType
-    
-
+---
+navigation:
+  - reflectiontype.tostring.md: '« ReflectionType::toString'
+  - reflectionuniontype.gettypes.md: 'ReflectionUnionType::getTypes »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionUnionType
+---
 # Клас ReflectionUnionType
 
 (PHP 8)

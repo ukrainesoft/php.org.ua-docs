@@ -1,16 +1,11 @@
-Встановлює цільовий кадр для відображення форми
-
--   [« fdfsetsubmitformaction](function.fdf-set-submit-form-action.html)
-    
--   [fdfsetvalue »](function.fdf-set-value.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Встановлює цільовий кадр для відображення форми
-    
-
+---
+navigation:
+  - function.fdf-set-submit-form-action.html: « fdfsetsubmitformaction
+  - function.fdf-set-value.html: fdfsetvalue »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfsettargetframe
+---
 # fdfsettargetframe
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

@@ -1,16 +1,11 @@
-Перевірити, чи є символ пробельним з точки зору ICU
-
--   [« IntlChar::isUWhiteSpace](intlchar.isuwhitespace.md)
-    
--   [IntlChar::isxdigit »](intlchar.isxdigit.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ пробельним з точки зору ICU
-    
-
+---
+navigation:
+  - intlchar.isuwhitespace.md: '« IntlChar::isUWhiteSpace'
+  - intlchar.isxdigit.md: 'IntlChar::isxdigit »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isWhitespace'
+---
 # IntlChar::isWhitespace
 
 (PHP 7, PHP 8)

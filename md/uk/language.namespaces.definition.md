@@ -1,16 +1,11 @@
-Визначення просторів імен
-
--   [« Огляд просторів імен](language.namespaces.rationale.html)
-    
--   [Определение подпространств имён »](language.namespaces.nested.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пространства имён](language.namespaces.html)
-    
--   Визначення просторів імен
-    
-
+---
+navigation:
+  - language.namespaces.rationale.html: « Огляд просторів імен
+  - language.namespaces.nested.html: Определение подпространств имён »
+  - index.html: PHP Manual
+  - language.namespaces.html: Пространства имён
+title: Визначення просторів імен
+---
 ## Визначення просторів імен
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

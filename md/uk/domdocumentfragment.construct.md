@@ -1,16 +1,11 @@
-Конструктор об'єкта DOMDocumentFragment
-
--   [« DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.html)
-    
--   [DOMDocumentType »](class.domdocumenttype.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocumentFragment](class.domdocumentfragment.html)
-    
--   Конструктор об'єкта DOMDocumentFragment
-    
-
+---
+navigation:
+  - domdocumentfragment.appendxml.html: '« DOMDocumentFragment::appendXML'
+  - class.domdocumenttype.html: DOMDocumentType »
+  - index.html: PHP Manual
+  - class.domdocumentfragment.html: DOMDocumentFragment
+title: 'DOMDocumentFragment::construct'
+---
 # DOMDocumentFragment::construct
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримати останнє повідомлення про помилку в об'єкті
-
--   [« IntlTimeZone::getErrorCode](intltimezone.geterrorcode.md)
-    
--   [IntlTimeZone::getGMT »](intltimezone.getgmt.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Отримати останнє повідомлення про помилку в об'єкті
-    
-
+---
+navigation:
+  - intltimezone.geterrorcode.md: '« IntlTimeZone::getErrorCode'
+  - intltimezone.getgmt.md: 'IntlTimeZone::getGMT »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getErrorMessage'
+---
 # IntlTimeZone::getErrorMessage
 
 # intltzgeterrormessage

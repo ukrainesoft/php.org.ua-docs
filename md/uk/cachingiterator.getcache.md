@@ -1,16 +1,11 @@
-Отримання вмісту кешу
-
--   [« CachingIterator::current](cachingiterator.current.md)
-    
--   [CachingIterator::getFlags »](cachingiterator.getflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Отримання вмісту кешу
-    
-
+---
+navigation:
+  - cachingiterator.current.md: '« CachingIterator::current'
+  - cachingiterator.getflags.md: 'CachingIterator::getFlags »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::getCache'
+---
 # CachingIterator::getCache
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

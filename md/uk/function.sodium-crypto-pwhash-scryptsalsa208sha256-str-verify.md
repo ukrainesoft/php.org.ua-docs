@@ -1,16 +1,11 @@
-Перевірити, що пароль є дійсним рядком перевірки пароля
-
--   [« sodiumcryptoкксserversessionkeys](function.sodium-crypto-kx-server-session-keys.html)
-    
--   [sodiumcryptopwhashscryptsalsa208sha256str »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Перевірити, що пароль є дійсним рядком перевірки пароля
-    
-
+---
+navigation:
+  - function.sodium-crypto-kx-server-session-keys.html: « sodiumcryptoкксserversessionkeys
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html: sodiumcryptopwhashscryptsalsa208sha256str »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptopwhashscryptsalsa208sha256strverify
+---
 # sodiumcryptopwhashscryptsalsa208sha256strverify
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Видаляє елемент із черги
-
--   [« SplQueue::construct](splqueue.construct.html)
-    
--   [SplQueue::enqueue »](splqueue.enqueue.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplQueue](class.splqueue.html)
-    
--   Видаляє елемент із черги
-    
-
+---
+navigation:
+  - splqueue.construct.html: '« SplQueue::construct'
+  - splqueue.enqueue.html: 'SplQueue::enqueue »'
+  - index.html: PHP Manual
+  - class.splqueue.html: SplQueue
+title: 'SplQueue::dequeue'
+---
 # SplQueue::dequeue
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

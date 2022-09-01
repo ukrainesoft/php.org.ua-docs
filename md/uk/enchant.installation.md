@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](enchant.requirements.html)
-    
--   [Налаштування під час виконання »](enchant.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](enchant.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - enchant.requirements.html: « Вимоги
+  - enchant.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - enchant.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Якщо встановлено [необхідні бібліотеки](enchant.requirements.html), то модуль можна встановити за допомогою опції **\-with-enchant=dir** при компіляції PHP.

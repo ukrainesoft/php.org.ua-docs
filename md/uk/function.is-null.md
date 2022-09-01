@@ -1,16 +1,11 @@
-Перевіряє, чи значення змінної дорівнює null
-
--   [« islong](function.is-long.html)
-    
--   [ісnumeric »](function.is-numeric.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Перевіряє, чи значення змінної дорівнює null
-    
-
+---
+navigation:
+  - function.is-long.html: « islong
+  - function.is-numeric.html: ісnumeric »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісnull
+---
 # ісnull
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

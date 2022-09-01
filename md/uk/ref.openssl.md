@@ -1,16 +1,11 @@
-Функції OpenSSL
-
--   [« Проверка сертификатов](openssl.cert.verification.html)
-    
--   [opensslcipherвербlength »](function.openssl-cipher-iv-length.html)
-    
--   [PHP Manual](index.html)
-    
--   [OpenSSL](book.openssl.html)
-    
--   Функції OpenSSL
-    
-
+---
+navigation:
+  - openssl.cert.verification.html: « Проверка сертификатов
+  - function.openssl-cipher-iv-length.html: opensslcipherвербlength »
+  - index.html: PHP Manual
+  - book.openssl.html: OpenSSL
+title: Функції OpenSSL
+---
 # Функції OpenSSL
 
 ## Зміст

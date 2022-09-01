@@ -1,16 +1,11 @@
-Отримує doc-коментарі
-
--   [« ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.html)
-    
--   [ReflectionClassConstant::getModifiers »](reflectionclassconstant.getmodifiers.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
-    
--   Отримує doc-коментарі
-    
-
+---
+navigation:
+  - reflectionclassconstant.getdeclaringclass.html: '« ReflectionClassConstant::getDeclaringClass'
+  - reflectionclassconstant.getmodifiers.html: 'ReflectionClassConstant::getModifiers »'
+  - index.html: PHP Manual
+  - class.reflectionclassconstant.html: ReflectionClassConstant
+title: 'ReflectionClassConstant::getDocComment'
+---
 # ReflectionClassConstant::getDocComment
 
 (PHP 7> = 7.1.0, PHP 8)

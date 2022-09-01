@@ -1,16 +1,11 @@
-Клас IntlRuleBasedBreakIterator
-
--   [« IntlBreakIterator::setText](intlbreakiterator.settext.html)
-    
--   [IntlRuleBasedBreakIterator::construct »](intlrulebasedbreakiterator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Клас IntlRuleBasedBreakIterator
-    
-
+---
+navigation:
+  - intlbreakiterator.settext.html: '« IntlBreakIterator::setText'
+  - intlrulebasedbreakiterator.construct.html: 'IntlRuleBasedBreakIterator::construct »'
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Клас IntlRuleBasedBreakIterator
+---
 # Клас IntlRuleBasedBreakIterator
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

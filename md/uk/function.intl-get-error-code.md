@@ -1,16 +1,11 @@
-Отримати код останньої помилки
-
--   [« intlerrorname](function.intl-error-name.html)
-    
--   [intlgeterrormessage »](function.intl-get-error-message.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции intl](ref.intl.md)
-    
--   Отримати код останньої помилки
-    
-
+---
+navigation:
+  - function.intl-error-name.html: « intlerrorname
+  - function.intl-get-error-message.html: intlgeterrormessage »
+  - index.md: PHP Manual
+  - ref.intl.md: Функции intl
+title: intlgeterrorcode
+---
 # intlgeterrorcode
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

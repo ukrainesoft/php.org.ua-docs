@@ -1,16 +1,11 @@
-Надсилання запиту CUBRID
-
--   [« cubridping](function.cubrid-ping.html)
-    
--   [cubridrealescapestring »](function.cubrid-real-escape-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Надсилання запиту CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-ping.html: « cubridping
+  - function.cubrid-real-escape-string.html: cubridrealescapestring »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridquery
+---
 # cubridquery
 
 (PECL CUBRID >= 8.3.1)

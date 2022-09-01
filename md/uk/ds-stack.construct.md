@@ -1,16 +1,11 @@
-Створює новий екземпляр класу
-
--   [« DsStack::clear](ds-stack.clear.html)
-    
--   [ДсStack::copy »](ds-stack.copy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Стек](class.ds-stack.html)
-    
--   Створює новий екземпляр класу
-    
-
+---
+navigation:
+  - ds-stack.clear.html: '« DsStack::clear'
+  - ds-stack.copy.html: 'ДсStack::copy »'
+  - index.html: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::construct'
+---
 # ДсStack::construct
 
 (PECL ds >= 1.0.0)

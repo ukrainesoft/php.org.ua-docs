@@ -1,16 +1,11 @@
-Список параметрів контексту
-
--   [« Контекстні опції Phar](context.phar.html)
-    
--   [Опции контекста Zip »](context.zip.html)
-    
--   [PHP Manual](index.html)
-    
--   [Контекстні опції та параметри](context.html)
-    
--   Список параметрів контексту
-    
-
+---
+navigation:
+  - context.phar.html: « Контекстні опції Phar
+  - context.zip.html: Опции контекста Zip »
+  - index.html: PHP Manual
+  - context.html: Контекстні опції та параметри
+title: Параметри контексту
+---
 # Параметри контексту
 
 Параметри контексту — Список параметрів контексту

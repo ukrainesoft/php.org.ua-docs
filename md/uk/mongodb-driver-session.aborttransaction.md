@@ -1,16 +1,11 @@
-Перериває транзакцію
-
--   [« MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   [MongoDBDriverSession::advanceClusterTime »](mongodb-driver-session.advanceclustertime.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Перериває транзакцію
-    
-
+---
+navigation:
+  - class.mongodb-driver-session.html: « MongoDBDriverSession
+  - mongodb-driver-session.advanceclustertime.html: 'MongoDBDriverSession::advanceClusterTime »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::abortTransaction'
+---
 # MongoDBDriverSession::abortTransaction
 
 (mongodb >=1.5.0)

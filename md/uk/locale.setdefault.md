@@ -1,16 +1,11 @@
-Встановити локаль за умовчанням під час виконання
-
--   [« Locale::parseLocale](locale.parselocale.html)
-    
--   [Normalizer »](class.normalizer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Locale](class.locale.html)
-    
--   Встановити локаль за умовчанням під час виконання
-    
-
+---
+navigation:
+  - locale.parselocale.html: '« Locale::parseLocale'
+  - class.normalizer.html: Normalizer »
+  - index.html: PHP Manual
+  - class.locale.html: Locale
+title: 'Locale::setDefault'
+---
 # Locale::setDefault
 
 # localesetdefault

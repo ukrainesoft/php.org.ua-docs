@@ -1,16 +1,11 @@
-Вибирає зріз масиву
-
--   [« arrayshift](function.array-shift.html)
-    
--   [arraysplice »](function.array-splice.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Вибирає зріз масиву
-    
-
+---
+navigation:
+  - function.array-shift.html: « arrayshift
+  - function.array-splice.html: arraysplice »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayslice
+---
 # arrayslice
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

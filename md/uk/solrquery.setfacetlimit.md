@@ -1,16 +1,11 @@
-Відповідає facet.limit
-
--   [« SolrQuery::setFacetEnumCacheMinDefaultFrequency](solrquery.setfacetenumcachemindefaultfrequency.html)
-    
--   [SolrQuery::setFacetMethod »](solrquery.setfacetmethod.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Відповідає facet.limit
-    
-
+---
+navigation:
+  - solrquery.setfacetenumcachemindefaultfrequency.html: '« SolrQuery::setFacetEnumCacheMinDefaultFrequency'
+  - solrquery.setfacetmethod.html: 'SolrQuery::setFacetMethod »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setFacetLimit'
+---
 # SolrQuery::setFacetLimit
 
 (PECL solr> = 0.9.2)

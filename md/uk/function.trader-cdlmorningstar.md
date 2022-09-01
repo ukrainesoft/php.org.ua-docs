@@ -1,16 +1,11 @@
-Ранкова зірка
-
--   [« tradercdlmorningdojistar](function.trader-cdlmorningdojistar.html)
-    
--   [tradercdlonneck »](function.trader-cdlonneck.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Ранкова зірка
-    
-
+---
+navigation:
+  - function.trader-cdlmorningdojistar.html: « tradercdlmorningdojistar
+  - function.trader-cdlonneck.html: tradercdlonneck »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlmorningstar
+---
 # tradercdlmorningstar
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Клас SwooleAsync
-
--   [« swooleversion](function.swoole-version.html)
-    
--   [SwooleAsync::dnsLookup »](swoole-async.dnslookup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleAsync
-    
-
+---
+navigation:
+  - function.swoole-version.html: « swooleversion
+  - swoole-async.dnslookup.html: 'SwooleAsync::dnsLookup »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleAsync
+---
 # Клас SwooleAsync
 
 (PECL swoole >= 1.9.0)

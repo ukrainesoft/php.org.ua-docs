@@ -1,16 +1,11 @@
-Видаляє артефакт зображення
-
--   [« Imagick::deconstructImages](imagick.deconstructimages.md)
-    
--   [Imagick::deleteImageProperty »](imagick.deleteimageproperty.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Видаляє артефакт зображення
-    
-
+---
+navigation:
+  - imagick.deconstructimages.md: '« Imagick::deconstructImages'
+  - imagick.deleteimageproperty.md: 'Imagick::deleteImageProperty »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::deleteImageArtifact'
+---
 # Imagick::deleteImageArtifact
 
 (PECL imagick 3)

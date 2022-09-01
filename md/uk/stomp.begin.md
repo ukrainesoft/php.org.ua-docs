@@ -1,16 +1,11 @@
-Створює транзакцію
-
--   [« Stomp::ack](stomp.ack.md)
-    
--   [Stomp::commit »](stomp.commit.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Створює транзакцію
-    
-
+---
+navigation:
+  - stomp.ack.md: '« Stomp::ack'
+  - stomp.commit.md: 'Stomp::commit »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::begin'
+---
 # Stomp::begin
 
 # stompbegin

@@ -1,31 +1,26 @@
-Налаштування під час виконання
-
--   [« Установка](igbinary.installation.html)
-    
--   [Функции Igbinary »](ref.igbinary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](igbinary.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - igbinary.installation.html: « Установка
+  - ref.igbinary.html: Функции Igbinary »
+  - index.html: PHP Manual
+  - igbinary.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Igbinary**
 
-| Имя                                                                                 | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [igbinary.compactstrings](igbinary.configuration.html#ini.igbinary.compact-strings) |              | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [igbinary.compactstrings](igbinary.configuration.html#ini.igbinary.compact-strings) |  | PHPINIALL |  |
 
 **Параметри конфігурації сесії, що впливають на поведінку Igbinary**
 
-| Имя                                                                          | По умолчанию | Место изменения | Список изменений |
-|------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [session.savehandler](igbinary.configuration.html#ini.igbinary.save-handler) | "files"      | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [session.savehandler](igbinary.configuration.html#ini.igbinary.save-handler) | "files" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

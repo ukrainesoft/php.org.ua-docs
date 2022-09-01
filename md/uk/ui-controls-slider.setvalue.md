@@ -1,16 +1,11 @@
-Встановити значення
-
--   [« UIControlsSlider::onChange](ui-controls-slider.onchange.html)
-    
--   [ОЙControlsProgress »](class.ui-controls-progress.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsSlider](class.ui-controls-slider.html)
-    
--   Встановити значення
-    
-
+---
+navigation:
+  - ui-controls-slider.onchange.html: '« UIControlsSlider::onChange'
+  - class.ui-controls-progress.html: ОЙControlsProgress »
+  - index.html: PHP Manual
+  - class.ui-controls-slider.html: ОЙControlsSlider
+title: 'ОЙControlsSlider::setValue'
+---
 # ОЙControlsSlider::setValue
 
 (UI 0.9.9)

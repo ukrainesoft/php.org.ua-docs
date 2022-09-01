@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.radius.md)
-    
--   [Вимоги »](radius.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Radius](book.radius.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.radius.md: « Введение
+  - radius.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.radius.md: Radius
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

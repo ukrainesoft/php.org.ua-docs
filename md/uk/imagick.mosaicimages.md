@@ -1,16 +1,11 @@
-Формує мозаїку із зображень
-
--   [« Imagick::morphology](imagick.morphology.md)
-    
--   [Imagick::motionBlurImage »](imagick.motionblurimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Формує мозаїку із зображень
-    
-
+---
+navigation:
+  - imagick.morphology.md: '« Imagick::morphology'
+  - imagick.motionblurimage.md: 'Imagick::motionBlurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::mosaicImages'
+---
 # Imagick::mosaicImages
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Відповідає facet.date.start
-
--   [« SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.md)
-    
--   [SolrQuery::setFacetEnumCacheMinDefaultFrequency »](solrquery.setfacetenumcachemindefaultfrequency.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Відповідає facet.date.start
-    
-
+---
+navigation:
+  - solrquery.setfacetdatehardend.md: '« SolrQuery::setFacetDateHardEnd'
+  - solrquery.setfacetenumcachemindefaultfrequency.md: 'SolrQuery::setFacetEnumCacheMinDefaultFrequency »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setFacetDateStart'
+---
 # SolrQuery::setFacetDateStart
 
 (PECL solr> = 0.9.2)

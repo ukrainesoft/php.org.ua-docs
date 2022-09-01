@@ -1,16 +1,11 @@
-Віддалені модулі та SAPI
-
--   [« Изменения в модулях SAPI](migration70.sapi-changes.html)
-    
--   [Другие изменения »](migration70.other-changes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
-    
--   Віддалені модулі та SAPI
-    
-
+---
+navigation:
+  - migration70.sapi-changes.html: « Изменения в модулях SAPI
+  - migration70.other-changes.html: Другие изменения »
+  - index.md: PHP Manual
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Віддалені модулі та SAPI
+---
 ## Віддалені модулі та SAPI
 
 ### Віддалені модулі

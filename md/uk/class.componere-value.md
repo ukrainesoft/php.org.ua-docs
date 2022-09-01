@@ -1,16 +1,11 @@
-Клас ComponereValue
-
--   [« ComponereMethod::getReflector](componere-method.getreflector.html)
-    
--   [ComponereValue::construct »](componere-value.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Componere](book.componere.md)
-    
--   Клас ComponereValue
-    
-
+---
+navigation:
+  - componere-method.getreflector.html: '« ComponereMethod::getReflector'
+  - componere-value.construct.html: 'ComponereValue::construct »'
+  - index.md: PHP Manual
+  - book.componere.md: Componere
+title: Клас ComponereValue
+---
 # Клас ComponereValue
 
 (Componere 2 >= 2.1.0)

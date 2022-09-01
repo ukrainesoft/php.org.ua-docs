@@ -1,16 +1,11 @@
-match
-
--   [« switch](control-structures.switch.html)
-    
--   [declare »](control-structures.declare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   match
-    
-
+---
+navigation:
+  - control-structures.switch.html: « switch
+  - control-structures.declare.html: declare »
+  - index.md: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: match
+---
 ## match
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Встановлює значення параметра для Memcached
-
--   [« Memcached::setMultiByKey](memcached.setmultibykey.html)
-    
--   [Memcached::setOptions »](memcached.setoptions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Встановлює значення параметра для Memcached
-    
-
+---
+navigation:
+  - memcached.setmultibykey.html: '« Memcached::setMultiByKey'
+  - memcached.setoptions.html: 'Memcached::setOptions »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::setOption'
+---
 # Memcached::setOption
 
 (PECL memcached >= 0.1.0)

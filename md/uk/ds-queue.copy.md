@@ -1,16 +1,11 @@
-Повертає поверхневу копію черги
-
--   [« DsQueue::construct](ds-queue.construct.html)
-    
--   [ДсQueue::count »](ds-queue.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Повертає поверхневу копію черги
-    
-
+---
+navigation:
+  - ds-queue.construct.html: '« DsQueue::construct'
+  - ds-queue.count.html: 'ДсQueue::count »'
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::copy'
+---
 # ДсQueue::copy
 
 (PECL ds >= 1.0.0)

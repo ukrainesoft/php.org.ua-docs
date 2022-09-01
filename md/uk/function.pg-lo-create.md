@@ -1,16 +1,11 @@
-Створює великий об'єкт
-
--   [« pgлоclose](function.pg-lo-close.html)
-    
--   [пглоexport »](function.pg-lo-export.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Створює великий об'єкт
-    
-
+---
+navigation:
+  - function.pg-lo-close.html: « pgлоclose
+  - function.pg-lo-export.html: пглоexport »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пглоcreate
+---
 # пглоcreate
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ OID великого об'єкта або **`false`** у разі виникне
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

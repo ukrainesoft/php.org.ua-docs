@@ -1,16 +1,11 @@
-Створює новий запит
-
--   [« MongoDBDriverQuery](class.mongodb-driver-query.html)
-    
--   [MongoDBDriverBulkWrite »](class.mongodb-driver-bulkwrite.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverQuery](class.mongodb-driver-query.html)
-    
--   Створює новий запит
-    
-
+---
+navigation:
+  - class.mongodb-driver-query.html: « MongoDBDriverQuery
+  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite »
+  - index.md: PHP Manual
+  - class.mongodb-driver-query.html: MongoDBDriverQuery
+title: 'MongoDBDriverQuery::construct'
+---
 # MongoDBDriverQuery::construct
 
 (mongodb >=1.0.0)
@@ -37,10 +32,10 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 **queryOptions**
 
-| Опция                                                                                                                                                                           | Тип  | Описание |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|----------|
-| allowDiskUse                                                                                                                                                                    | bool |          |
-| Дозволяє MongoDB використовувати тимчасові файли на диску для зберігання даних, що перевищують межу системної пам'яті 100 мегабайт, при обробці операції сортування блокування. |      |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| allowDiskUse | bool |  |
+| Дозволяє MongoDB використовувати тимчасові файли на диску для зберігання даних, що перевищують межу системної пам'яті 100 мегабайт, при обробці операції сортування блокування. |  |  |
 
 | | allowPartialResults | bool |
 
@@ -190,10 +185,10 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 ### список змін
 
-| Версия                                                               | Описание |
-|----------------------------------------------------------------------|----------|
-| PECL mongodb 1.14.0                                                  |          |
-| Додана опція `"let"`. Опція `"comment"` тепер приймає будь-який тип. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.14.0 |  |
+| Додана опція `"let"`. Опція `"comment"` тепер приймає будь-який тип. |  |
 
 | | PECL mongodb 1.8.0
 

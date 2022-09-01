@@ -1,16 +1,11 @@
-Синтаксис генераторів
-
--   [«Знайомство з генераторами](language.generators.overview.md)
-    
--   [Порівняння генераторів з об'єктами класу Iterator »](language.generators.comparison.md)
-    
--   [PHP Manual](index.md)
-    
--   [Генератори](language.generators.md)
-    
--   Синтаксис генераторів
-    
-
+---
+navigation:
+  - language.generators.overview.md: «Знайомство з генераторами
+  - language.generators.comparison.md: Порівняння генераторів з об'єктами класу Iterator »
+  - index.md: PHP Manual
+  - language.generators.md: Генератори
+title: Синтаксис генераторів
+---
 ## Синтаксис генераторів
 
 Генератор в цілому виглядає як звичайна функція, за винятком того, що замість повернення одного значення, генератор перебиратиме стільки значень, скільки необхідно. Будь-яка функція, що містить [yield](language.generators.syntax.html#control-structures.yield)є функцією генератора.

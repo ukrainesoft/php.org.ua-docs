@@ -1,16 +1,11 @@
-Перетворює рядок з одного кириличного кодування на інше
-
--   [« chunksplit](function.chunk-split.html)
-    
--   [convertuudecode »](function.convert-uudecode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перетворює рядок з одного кириличного кодування на інше
-    
-
+---
+navigation:
+  - function.chunk-split.html: « chunksplit
+  - function.convert-uudecode.html: convertuudecode »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: convertcyrstring
+---
 # convertcyrstring
 
 (PHP 4, PHP 5, PHP 7)

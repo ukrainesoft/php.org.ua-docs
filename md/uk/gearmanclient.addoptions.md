@@ -1,16 +1,11 @@
-Додати опції клієнтів
-
--   [« GearmanClient](class.gearmanclient.html)
-    
--   [GearmanClient::addServer »](gearmanclient.addserver.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Додати опції клієнтів
-    
-
+---
+navigation:
+  - class.gearmanclient.html: « GearmanClient
+  - gearmanclient.addserver.html: 'GearmanClient::addServer »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::addOptions'
+---
 # GearmanClient::addOptions
 
 (PECL gearman >= 0.6.0)

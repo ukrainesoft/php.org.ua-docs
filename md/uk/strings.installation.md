@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](strings.requirements.html)
-    
--   [Налаштування під час виконання »](strings.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](strings.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - strings.requirements.html: « Вимоги
+  - strings.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - strings.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для використання цих функцій не потрібне проведення установки, оскільки вони є частиною ядра PHP.

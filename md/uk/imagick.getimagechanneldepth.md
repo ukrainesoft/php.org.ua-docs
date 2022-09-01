@@ -1,16 +1,11 @@
-Повертає глибину для певного каналу зображення
-
--   [« Imagick::getImageBorderColor](imagick.getimagebordercolor.md)
-    
--   [Imagick::getImageChannelDistortion »](imagick.getimagechanneldistortion.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає глибину для певного каналу зображення
-    
-
+---
+navigation:
+  - imagick.getimagebordercolor.md: '« Imagick::getImageBorderColor'
+  - imagick.getimagechanneldistortion.md: 'Imagick::getImageChannelDistortion »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageChannelDepth'
+---
 # Imagick::getImageChannelDepth
 
 (PECL imagick 2, PECL imagick 3)

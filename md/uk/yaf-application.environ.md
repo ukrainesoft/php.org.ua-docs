@@ -1,16 +1,11 @@
-Отримати значення оточення
-
--   [« YafApplication::destruct](yaf-application.destruct.html)
-    
--   [YafApplication::execute »](yaf-application.execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Отримати значення оточення
-    
-
+---
+navigation:
+  - yaf-application.destruct.html: '« YafApplication::destruct'
+  - yaf-application.execute.html: 'YafApplication::execute »'
+  - index.md: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::environ'
+---
 # YafApplication::environ
 
 (Yaf >=1.0.0)

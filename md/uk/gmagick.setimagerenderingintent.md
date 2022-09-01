@@ -1,16 +1,11 @@
-Встановлює спосіб рендерингу зображення
-
--   [« Gmagick::setimageredprimary](gmagick.setimageredprimary.html)
-    
--   [Gmagick::setimageresolution »](gmagick.setimageresolution.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Встановлює спосіб рендерингу зображення
-    
-
+---
+navigation:
+  - gmagick.setimageredprimary.html: '« Gmagick::setimageredprimary'
+  - gmagick.setimageresolution.html: 'Gmagick::setimageresolution »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::setimagerenderingintent'
+---
 # Gmagick::setimagerenderingintent
 
 (PECL gmagick >= Unknown)

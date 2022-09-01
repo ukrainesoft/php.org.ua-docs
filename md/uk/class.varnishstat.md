@@ -1,16 +1,11 @@
-Клас VarnishStat
-
--   [« VarnishAdmin::stop](varnishadmin.stop.html)
-    
--   [VarnishStat::construct »](varnishstat.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Varnish](book.varnish.html)
-    
--   Клас VarnishStat
-    
-
+---
+navigation:
+  - varnishadmin.stop.html: '« VarnishAdmin::stop'
+  - varnishstat.construct.html: 'VarnishStat::construct »'
+  - index.html: PHP Manual
+  - book.varnish.html: Varnish
+title: Клас VarnishStat
+---
 # Клас VarnishStat
 
 (PECL varnish >= 0.3)

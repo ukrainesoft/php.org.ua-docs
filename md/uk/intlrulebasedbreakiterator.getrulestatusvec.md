@@ -1,16 +1,11 @@
-отримати значення статусів із правил зупинки, що визначили поточну позицію зупинки
-
--   [« IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.md)
-    
--   [IntlCodePointBreakIterator »](class.intlcodepointbreakiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)
-    
--   отримати значення статусів із правил зупинки, що визначили поточну позицію зупинки
-    
-
+---
+navigation:
+  - intlrulebasedbreakiterator.getrulestatus.md: '« IntlRuleBasedBreakIterator::getRuleStatus'
+  - class.intlcodepointbreakiterator.md: IntlCodePointBreakIterator »
+  - index.md: PHP Manual
+  - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator
+title: 'IntlRuleBasedBreakIterator::getRuleStatusVec'
+---
 # IntlRuleBasedBreakIterator::getRuleStatusVec
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

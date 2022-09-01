@@ -1,16 +1,11 @@
-Перевіряє, чи є на зображенні матовий канал
-
--   [« Gmagick::getimageiterations](gmagick.getimageiterations.md)
-    
--   [Gmagick::getimagemattecolor »](gmagick.getimagemattecolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Перевіряє, чи є на зображенні матовий канал
-    
-
+---
+navigation:
+  - gmagick.getimageiterations.md: '« Gmagick::getimageiterations'
+  - gmagick.getimagemattecolor.md: 'Gmagick::getimagemattecolor »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagematte'
+---
 # Gmagick::getimagematte
 
 (PECL gmagick >= Unknown)

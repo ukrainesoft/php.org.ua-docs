@@ -1,16 +1,11 @@
-Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
-
--   [« easterdays](function.easter-days.html)
-    
--   [gregoriantojd »](function.gregoriantojd.html)
-    
--   [PHP Manual](index.html)
-    
--   [Календарь](ref.calendar.html)
-    
--   Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
-    
-
+---
+navigation:
+  - function.easter-days.html: « easterdays
+  - function.gregoriantojd.html: gregoriantojd »
+  - index.html: PHP Manual
+  - ref.calendar.html: Календарь
+title: frenchtojd
+---
 # frenchtojd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює параметр дзвінка для запиту
-
--   [« YafRequestAbstract::setModuleName](yaf-request-abstract.setmodulename.html)
-    
--   [YafRequestAbstract::setRequestUri »](yaf-request-abstract.setrequesturi.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Встановлює параметр дзвінка для запиту
-    
-
+---
+navigation:
+  - yaf-request-abstract.setmodulename.html: '« YafRequestAbstract::setModuleName'
+  - yaf-request-abstract.setrequesturi.html: 'YafRequestAbstract::setRequestUri »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::setParam'
+---
 # YafRequestAbstract::setParam
 
 (Yaf >=1.0.0)

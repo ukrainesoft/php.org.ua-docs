@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineHttpClient::setData](swoole-coroutine-http-client.setdata.html)
-    
--   [SwooleCoroutineHttpClient::setHeaders »](swoole-coroutine-http-client.setheaders.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-http-client.setdata.html: '« SwooleCoroutineHttpClient::setData'
+  - swoole-coroutine-http-client.setheaders.html: 'SwooleCoroutineHttpClient::setHeaders »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::setDefer'
+---
 # SwooleCoroutineHttpClient::setDefer
 
 (PECL swoole >= 2.0.0)

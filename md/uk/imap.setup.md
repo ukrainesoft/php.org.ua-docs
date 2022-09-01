@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.imap.html)
-    
--   [Вимоги »](imap.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [IMAP](book.imap.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.imap.html: « Введение
+  - imap.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.imap.html: IMAP
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

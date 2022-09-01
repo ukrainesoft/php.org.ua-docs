@@ -1,16 +1,11 @@
-Перевіряє, чи кінець файлу досягнуто.
-
--   [« SplFileObject::current](splfileobject.current.html)
-    
--   [SplFileObject::fflush »](splfileobject.fflush.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Перевіряє, чи кінець файлу досягнуто.
-    
-
+---
+navigation:
+  - splfileobject.current.html: '« SplFileObject::current'
+  - splfileobject.fflush.html: 'SplFileObject::fflush »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::eof'
+---
 # SplFileObject::eof
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

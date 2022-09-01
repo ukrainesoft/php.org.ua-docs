@@ -1,16 +1,11 @@
-Ініціалізувати підсистему SFTP
-
--   [« ssh2sftpunlink](function.ssh2-sftp-unlink.html)
-    
--   [ssh2shell »](function.ssh2-shell.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Ініціалізувати підсистему SFTP
-    
-
+---
+navigation:
+  - function.ssh2-sftp-unlink.html: « ssh2sftpunlink
+  - function.ssh2-shell.html: ssh2shell »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2sftp
+---
 # ssh2sftp
 
 (PECL ssh2> = 0.9.0)

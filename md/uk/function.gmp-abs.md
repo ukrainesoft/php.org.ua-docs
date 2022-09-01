@@ -1,16 +1,11 @@
-Абсолютна величина
-
--   [« GMP Функції](ref.gmp.html)
-    
--   [gmpadd »](function.gmp-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Абсолютна величина
-    
-
+---
+navigation:
+  - ref.gmp.html: « GMP Функції
+  - function.gmp-add.html: gmpadd »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpabs
+---
 # gmpabs
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

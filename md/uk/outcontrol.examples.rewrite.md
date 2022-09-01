@@ -1,16 +1,11 @@
-Використання перезапису виводу
-
--   [« Базовое использование](outcontrol.examples.basic.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](outcontrol.examples.html)
-    
--   Використання перезапису виводу
-    
-
+---
+navigation:
+  - outcontrol.examples.basic.html: « Базовое использование
+  - ref.outcontrol.html: Функції контролю виведення
+  - index.html: PHP Manual
+  - outcontrol.examples.html: Приклади
+title: Використання перезапису виводу
+---
 ## Використання перезапису виводу
 
 Починаючи з PHP 7.1.0, [outputaddrewritevar()](function.output-add-rewrite-var.html) і [outputresetrewritevars()](function.output-reset-rewrite-vars.html) використовують окремий буфер виводу, тобто не використовують буфер виводу [прозорої підтримки sid](session.configuration.html#ini.session.use-trans-sid)

@@ -1,16 +1,11 @@
-Закінчення дочірніх елементів
-
--   [« RecursiveIteratorIterator::current](recursiveiteratoriterator.current.md)
-    
--   [RecursiveIteratorIterator::endIteration »](recursiveiteratoriterator.enditeration.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Закінчення дочірніх елементів
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.current.md: '« RecursiveIteratorIterator::current'
+  - recursiveiteratoriterator.enditeration.md: 'RecursiveIteratorIterator::endIteration »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::endChildren'
+---
 # RecursiveIteratorIterator::endChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

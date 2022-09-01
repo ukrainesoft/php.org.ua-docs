@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](wddx.constants.html)
-    
--   [Приклади wddx »](wddx.examples-serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [WDDX](book.wddx.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - wddx.constants.html: « Обумовлені константи
+  - wddx.examples-serialize.html: Приклади wddx »
+  - index.html: PHP Manual
+  - book.wddx.html: WDDX
+title: Приклади
+---
 # Приклади
 
 ## Зміст

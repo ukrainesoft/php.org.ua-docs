@@ -1,16 +1,11 @@
-Клас YafDispatcher
-
--   [« YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
-    
--   [YafDispatcher::autoRender »](yaf-dispatcher.autorender.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafDispatcher
-    
-
+---
+navigation:
+  - class.yaf-bootstrap-abstract.html: « YafBootstrapAbstract
+  - yaf-dispatcher.autorender.html: 'YafDispatcher::autoRender »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafDispatcher
+---
 # Клас YafDispatcher
 
 (Yaf >=1.0.0)

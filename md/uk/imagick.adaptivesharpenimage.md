@@ -1,16 +1,11 @@
-Адаптивна зміна різкості зображення
-
--   [« Imagick::adaptiveResizeImage](imagick.adaptiveresizeimage.md)
-    
--   [Imagick::adaptiveThresholdImage »](imagick.adaptivethresholdimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Адаптивна зміна різкості зображення
-    
-
+---
+navigation:
+  - imagick.adaptiveresizeimage.md: '« Imagick::adaptiveResizeImage'
+  - imagick.adaptivethresholdimage.md: 'Imagick::adaptiveThresholdImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::adaptiveSharpenImage'
+---
 # Imagick::adaptiveSharpenImage
 
 (PECL imagick 2, PECL imagick 3)

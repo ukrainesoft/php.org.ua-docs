@@ -1,16 +1,11 @@
-Отримує екземпляр запиту
-
--   [« YafDispatcher::getInstance](yaf-dispatcher.getinstance.html)
-    
--   [YafDispatcher::getRouter »](yaf-dispatcher.getrouter.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Отримує екземпляр запиту
-    
-
+---
+navigation:
+  - yaf-dispatcher.getinstance.html: '« YafDispatcher::getInstance'
+  - yaf-dispatcher.getrouter.html: 'YafDispatcher::getRouter »'
+  - index.html: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::getRequest'
+---
 # YafDispatcher::getRequest
 
 (Yaf >=1.0.0)

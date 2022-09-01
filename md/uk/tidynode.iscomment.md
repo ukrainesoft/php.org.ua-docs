@@ -1,16 +1,11 @@
-Перевіряє, чи є вузол коментарем
-
--   [« tidyNode::isAsp](tidynode.isasp.html)
-    
--   [tidyNode::isHtml »](tidynode.ishtml.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidyNode](class.tidynode.html)
-    
--   Перевіряє, чи є вузол коментарем
-    
-
+---
+navigation:
+  - tidynode.isasp.html: '« tidyNode::isAsp'
+  - tidynode.ishtml.html: 'tidyNode::isHtml »'
+  - index.html: PHP Manual
+  - class.tidynode.html: tidyNode
+title: 'tidyNode::isComment'
+---
 # tidyNode::isComment
 
 (PHP 5, PHP 7, PHP 8)

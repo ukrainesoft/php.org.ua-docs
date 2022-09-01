@@ -1,16 +1,11 @@
-Встановлює поточну точку
-
--   [«psmakespotcolor](function.ps-makespotcolor.html)
-    
--   [псnew »](function.ps-new.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює поточну точку
-    
-
+---
+navigation:
+  - function.ps-makespotcolor.html: «psmakespotcolor
+  - function.ps-new.html: псnew »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псmoveto
+---
 # псmoveto
 
 (PECL ps >= 1.1.0)

@@ -1,16 +1,11 @@
-Повертає код JavaScript
-
--   [« MongoDBBSONJavascript::serialize](mongodb-bson-javascript.serialize.html)
-    
--   [MongoDBBSONJavascript::unserialize »](mongodb-bson-javascript.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   Повертає код JavaScript
-    
-
+---
+navigation:
+  - mongodb-bson-javascript.serialize.html: '« MongoDBBSONJavascript::serialize'
+  - mongodb-bson-javascript.unserialize.html: 'MongoDBBSONJavascript::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+title: 'MongoDBBSONJavascript::toString'
+---
 # MongoDBBSONJavascript::toString
 
 (mongodb >=1.2.0)

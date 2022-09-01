@@ -1,16 +1,11 @@
-Запитує кілька записів із вказаного сервера
-
--   [« Memcached::getDelayed](memcached.getdelayed.md)
-    
--   [Memcached::getMulti »](memcached.getmulti.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Запитує кілька записів із вказаного сервера
-    
-
+---
+navigation:
+  - memcached.getdelayed.md: '« Memcached::getDelayed'
+  - memcached.getmulti.md: 'Memcached::getMulti »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getDelayedByKey'
+---
 # Memcached::getDelayedByKey
 
 (PECL memcached >= 0.1.0)

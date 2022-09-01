@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.memcache.md)
-    
--   [Вимоги »](memcache.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](book.memcache.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.memcache.md: « Введение
+  - memcache.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.memcache.md: Memcache
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

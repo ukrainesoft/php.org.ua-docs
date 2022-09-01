@@ -1,16 +1,11 @@
-Повертає тип операційної системи FTP-сервера
-
--   [« ftpsslconnect](function.ftp-ssl-connect.html)
-    
--   [FTPConnection »](class.ftp-connection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Повертає тип операційної системи FTP-сервера
-    
-
+---
+navigation:
+  - function.ftp-ssl-connect.html: « ftpsslconnect
+  - class.ftp-connection.html: FTPConnection »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpsystype
+---
 # ftpsystype
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ ftp_systype(FTP\Connection $ftp): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

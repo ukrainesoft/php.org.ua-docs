@@ -1,16 +1,11 @@
-Клас EvPrepare
-
--   [« EvPeriodic::set](evperiodic.set.md)
-    
--   [EvPrepare::construct »](evprepare.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Клас EvPrepare
-    
-
+---
+navigation:
+  - evperiodic.set.md: '« EvPeriodic::set'
+  - evprepare.construct.md: 'EvPrepare::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvPrepare
+---
 # Клас EvPrepare
 
 (PECL ev >= 0.2.0)

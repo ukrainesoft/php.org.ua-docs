@@ -1,16 +1,11 @@
-Закриває з'єднання з базою даних
-
--   [« db2clientinfo](function.db2-client-info.html)
-    
--   [db2columnprivileges »](function.db2-column-privileges.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Закриває з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.db2-client-info.html: « db2clientinfo
+  - function.db2-column-privileges.html: db2columnprivileges »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2close
+---
 # db2close
 
 (PECL ibmdb2> = 1.0.0)

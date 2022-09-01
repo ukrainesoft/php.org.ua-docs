@@ -1,16 +1,11 @@
-Видалення записів із бази даних
-
--   [« dbasecreate](function.dbase-create.html)
-    
--   [dbasegetheaderinfo »](function.dbase-get-header-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](ref.dbase.html)
-    
--   Видалення записів із бази даних
-    
-
+---
+navigation:
+  - function.dbase-create.html: « dbasecreate
+  - function.dbase-get-header-info.html: dbasegetheaderinfo »
+  - index.html: PHP Manual
+  - ref.dbase.html: dBase
+title: dbasedeleterecord
+---
 # dbasedeleterecord
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -45,8 +40,8 @@ dbase_delete_record(resource $database, int $number): bool
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Дивіться також

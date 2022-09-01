@@ -1,16 +1,11 @@
-Інтерфейс SchemaObject
-
--   [« Schema::getTables](mysql-xdevapi-schema.gettables.html)
-    
--   [SchemaObject::getSchema »](mysql-xdevapi-schemaobject.getschema.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Інтерфейс SchemaObject
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.gettables.html: '« Schema::getTables'
+  - mysql-xdevapi-schemaobject.getschema.html: 'SchemaObject::getSchema »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Інтерфейс SchemaObject
+---
 # Інтерфейс SchemaObject
 
 (PECL mysql-xdevapi >= 8.0.11)

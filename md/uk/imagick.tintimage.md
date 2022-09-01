@@ -1,16 +1,11 @@
-Застосовує вектор кольору до кожного пікселя зображення
-
--   [« Imagick::thumbnailImage](imagick.thumbnailimage.html)
-    
--   [Imagick::toString »](imagick.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Застосовує вектор кольору до кожного пікселя зображення
-    
-
+---
+navigation:
+  - imagick.thumbnailimage.html: '« Imagick::thumbnailImage'
+  - imagick.tostring.html: 'Imagick::toString »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::tintImage'
+---
 # Imagick::tintImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -41,8 +36,8 @@ public Imagick::tintImage(mixed $tint, mixed $opacity, bool $legacy = false): bo
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                                    |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє рядок, що представляє колір, як перший параметр і число з точкою, що плаває, що представляє значення непрозорості, як другий параметр. Попередні версії допускали лише об'єкти ImagickPixel. |
 
 ### Приклади

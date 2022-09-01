@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.array.html)
-    
--   [Вимоги »](array.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Масиви](book.array.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.array.html: « Введение
+  - array.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.array.html: Масиви
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

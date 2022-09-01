@@ -1,16 +1,11 @@
-Створити новий вузол посилання на суть
-
--   [« DOMDocument::createElementNS](domdocument.createelementns.md)
-    
--   [DOMDocument::createProcessingInstruction »](domdocument.createprocessinginstruction.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий вузол посилання на суть
-    
-
+---
+navigation:
+  - domdocument.createelementns.md: '« DOMDocument::createElementNS'
+  - domdocument.createprocessinginstruction.md: 'DOMDocument::createProcessingInstruction »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createEntityReference'
+---
 # DOMDocument::createEntityReference
 
 (PHP 5, PHP 7, PHP 8)

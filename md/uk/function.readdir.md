@@ -1,16 +1,11 @@
-Отримує елемент каталогу за його дескриптором
-
--   [« opendir](function.opendir.html)
-    
--   [rewinddir »](function.rewinddir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з каталогами](ref.dir.html)
-    
--   Отримує елемент каталогу за його дескриптором
-    
-
+---
+navigation:
+  - function.opendir.html: « opendir
+  - function.rewinddir.html: rewinddir »
+  - index.html: PHP Manual
+  - ref.dir.html: Функції для роботи з каталогами
+title: readdir
+---
 # readdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ readdir(?resource $dir_handle = null): string|false
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `dir_handle` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `dir_handle` тепер допускає значення null. |
 
 ### Приклади
 

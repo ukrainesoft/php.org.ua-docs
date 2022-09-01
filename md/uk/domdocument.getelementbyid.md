@@ -1,16 +1,11 @@
-Шукає елемент із певним ідентифікатором
-
--   [« DOMDocument::createTextNode](domdocument.createtextnode.html)
-    
--   [DOMDocument::getElementsByTagName »](domdocument.getelementsbytagname.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Шукає елемент із певним ідентифікатором
-    
-
+---
+navigation:
+  - domdocument.createtextnode.html: '« DOMDocument::createTextNode'
+  - domdocument.getelementsbytagname.html: 'DOMDocument::getElementsByTagName »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::getElementById'
+---
 # DOMDocument::getElementById
 
 (PHP 5, PHP 7, PHP 8)

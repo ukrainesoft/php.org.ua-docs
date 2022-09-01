@@ -1,16 +1,11 @@
-Копіює дані в іменовану пам'ять, що розділяється.
-
--   [« SyncSharedMemory::size](syncsharedmemory.size.md)
-    
--   [Інші базові модулі »](refs.basic.other.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncSharedMemory](class.syncsharedmemory.md)
-    
--   Копіює дані в іменовану пам'ять, що розділяється.
-    
-
+---
+navigation:
+  - syncsharedmemory.size.md: '« SyncSharedMemory::size'
+  - refs.basic.other.md: Інші базові модулі »
+  - index.md: PHP Manual
+  - class.syncsharedmemory.md: SyncSharedMemory
+title: 'Sync Shared Memory::write'
+---
 # Sync Shared Memory::write
 
 (PECL sync >= 1.1.0)

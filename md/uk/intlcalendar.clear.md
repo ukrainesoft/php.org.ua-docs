@@ -1,16 +1,11 @@
-Очищає поле чи всі поля
-
--   [« IntlCalendar::before](intlcalendar.before.md)
-    
--   [IntlCalendar::construct »](intlcalendar.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Очищає поле чи всі поля
-    
-
+---
+navigation:
+  - intlcalendar.before.md: '« IntlCalendar::before'
+  - intlcalendar.construct.md: 'IntlCalendar::construct »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::clear'
+---
 # IntlCalendar::clear
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

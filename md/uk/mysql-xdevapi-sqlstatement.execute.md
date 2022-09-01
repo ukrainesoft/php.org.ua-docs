@@ -1,16 +1,11 @@
-Виконує операцію
-
--   [« SqlStatement::construct](mysql-xdevapi-sqlstatement.construct.html)
-    
--   [SqlStatement::getNextResult »](mysql-xdevapi-sqlstatement.getnextresult.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
-    
--   Виконує операцію
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatement.construct.html: '« SqlStatement::construct'
+  - mysql-xdevapi-sqlstatement.getnextresult.html: 'SqlStatement::getNextResult »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+title: 'SqlStatement::execute'
+---
 # SqlStatement::execute
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Завантаження кількох файлів
-
--   [« Найбільш поширені помилки](features.file-upload.common-pitfalls.html)
-    
--   [Поддержка метода PUT »](features.file-upload.put-method.html)
-    
--   [PHP Manual](index.md)
-    
--   [Загрузка файлов на сервер](features.file-upload.html)
-    
--   Завантаження кількох файлів
-    
-
+---
+navigation:
+  - features.file-upload.common-pitfalls.html: « Найбільш поширені помилки
+  - features.file-upload.put-method.html: Поддержка метода PUT »
+  - index.md: PHP Manual
+  - features.file-upload.html: Загрузка файлов на сервер
+title: Завантаження кількох файлів
+---
 ## Завантаження кількох файлів
 
 Завантаження кількох файлів можна реалізувати, використовуючи, наприклад, різні значення `name` для тега `input`

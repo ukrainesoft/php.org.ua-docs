@@ -1,16 +1,11 @@
-Отримує список усіх заголовків HTTP-запиту
-
--   [« apachenote](function.apache-note.html)
-    
--   [apacheresponseheaders »](function.apache-response-headers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Apache](ref.apache.html)
-    
--   Отримує список усіх заголовків HTTP-запиту
-    
-
+---
+navigation:
+  - function.apache-note.html: « apachenote
+  - function.apache-response-headers.html: apacheresponseheaders »
+  - index.html: PHP Manual
+  - ref.apache.html: Функции Apache
+title: apacherequestheaders
+---
 # apacherequestheaders
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ apache_request_headers(): array
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | Ця функція стала доступною у SAPI FPM. |
+| Версия | Описание |
+| --- | --- |
+|  | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 

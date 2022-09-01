@@ -1,16 +1,11 @@
-Варіант 4: PHP поза деревом веб-документів
-
--   [« Вариант 3: использование опций docroot или userdir](security.cgi-bin.doc-root.html)
-    
--   [Если PHP установлен как модуль Apache »](security.apache.html)
-    
--   [PHP Manual](index.html)
-    
--   [Если PHP установлен как CGI](security.cgi-bin.html)
-    
--   Варіант 4: PHP поза деревом веб-документів
-    
-
+---
+navigation:
+  - security.cgi-bin.doc-root.html: '« Вариант 3: использование опций docroot или userdir'
+  - security.apache.html: Если PHP установлен как модуль Apache »
+  - index.html: PHP Manual
+  - security.cgi-bin.html: Если PHP установлен как CGI
+title: 'Варіант 4: PHP поза деревом веб-документів'
+---
 ## Варіант 4: PHP поза деревом веб-документів
 
 Один із способів істотно підвищити рівень безпеки - помістити модуль PHP, що виконується, поза деревом веб-документів, наприклад в /usr/local/bin. Єдиним недоліком такого підходу є те, що перший рядок кожного скрипту повинен мати вигляд:

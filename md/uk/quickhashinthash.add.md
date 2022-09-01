@@ -1,16 +1,11 @@
-Додати елемент у хеш
-
--   [« QuickHashIntHash](class.quickhashinthash.md)
-    
--   [QuickHashIntHash::construct »](quickhashinthash.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntHash](class.quickhashinthash.md)
-    
--   Додати елемент у хеш
-    
-
+---
+navigation:
+  - class.quickhashinthash.md: « QuickHashIntHash
+  - quickhashinthash.construct.md: 'QuickHashIntHash::construct »'
+  - index.md: PHP Manual
+  - class.quickhashinthash.md: QuickHashIntHash
+title: 'QuickHashIntHash::add'
+---
 # QuickHashIntHash::add
 
 (PECL quickhash >= Unknown)

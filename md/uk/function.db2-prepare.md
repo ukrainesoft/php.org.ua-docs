@@ -1,16 +1,11 @@
-Підготовляє SQL-запит до виконання
-
--   [« db2pconnect](function.db2-pconnect.html)
-    
--   [db2primarykeys »](function.db2-primary-keys.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Підготовляє SQL-запит до виконання
-    
-
+---
+navigation:
+  - function.db2-pconnect.html: « db2pconnect
+  - function.db2-primary-keys.html: db2primarykeys »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2prepare
+---
 # db2prepare
 
 (PECL ibmdb2> = 1.0.0)

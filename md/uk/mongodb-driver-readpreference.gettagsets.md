@@ -1,16 +1,11 @@
-Повертає параметр "tagSets" ReadPreference
-
--   [« MongoDBDriverReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.html)
-    
--   [MongoDBDriverReadPreference::serialize »](mongodb-driver-readpreference.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Повертає параметр "tagSets" ReadPreference
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.getmodestring.html: '« MongoDBDriverReadPreference::getModeString'
+  - mongodb-driver-readpreference.serialize.html: 'MongoDBDriverReadPreference::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::getTagSets'
+---
 # MongoDBDriverReadPreference::getTagSets
 
 (mongodb >=1.0.0)

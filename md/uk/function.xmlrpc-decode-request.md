@@ -1,16 +1,11 @@
-Декодує XML у типові типи PHP
-
--   [« Функції XML-RPC](ref.xmlrpc.md)
-    
--   [xmlrpcdecode »](function.xmlrpc-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції XML-RPC](ref.xmlrpc.md)
-    
--   Декодує XML у типові типи PHP
-    
-
+---
+navigation:
+  - ref.xmlrpc.md: « Функції XML-RPC
+  - function.xmlrpc-decode.html: xmlrpcdecode »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
+title: xmlrpcdecoderequest
+---
 # xmlrpcdecoderequest
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

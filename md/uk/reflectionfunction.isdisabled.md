@@ -1,16 +1,11 @@
-Перевіряє, що функцію вимкнено
-
--   [« ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md)
-    
--   [ReflectionFunction::toString »](reflectionfunction.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunction](class.reflectionfunction.md)
-    
--   Перевіряє, що функцію вимкнено
-    
-
+---
+navigation:
+  - reflectionfunction.invokeargs.md: '« ReflectionFunction::invokeArgs'
+  - reflectionfunction.tostring.md: 'ReflectionFunction::toString »'
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
+title: 'ReflectionFunction::isDisabled'
+---
 # ReflectionFunction::isDisabled
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

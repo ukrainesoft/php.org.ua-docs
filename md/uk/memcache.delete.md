@@ -1,16 +1,11 @@
-Видалити елемент із сервера
-
--   [« Memcache::decrement](memcache.decrement.html)
-    
--   [Memcache::flush »](memcache.flush.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Видалити елемент із сервера
-    
-
+---
+navigation:
+  - memcache.decrement.html: '« Memcache::decrement'
+  - memcache.flush.html: 'Memcache::flush »'
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::delete'
+---
 # Memcache::delete
 
 (PECL memcache >= 0.2.0)
@@ -41,8 +36,8 @@ Memcache::delete(string $key, int $timeout = 0): bool
 
 ### список змін
 
-| Версия   | Описание                                                                                                                                                                                                                                |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | Невідомо | Не рекомендується використовувати параметр `timeout`. Поведінка буде різнитися в різних версіях memcache, однак його встановлення в `0` безпечна. Інші значення цього параметра можуть призвести до помилок під час видалення елемента. |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Виключає АБО над двома варіантами
-
--   [« variantsub](function.variant-sub.html)
-    
--   [win32service »](book.win32service.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Виключає АБО над двома варіантами
-    
-
+---
+navigation:
+  - function.variant-sub.html: « variantsub
+  - book.win32service.html: win32service »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantxor
+---
 # variantxor
 
 (PHP 5, PHP 7, PHP 8)
@@ -46,12 +41,12 @@ variant_xor(mixed $left, mixed $right): variant
 **Правила виконання виключає АБО**
 
 | Если `left` | Если `right` | Тогда результат |
-|-------------|--------------|-----------------|
-| **`true`**  | **`true`**   | **`false`**     |
-| **`true`**  | **`false`**  | **`true`**      |
-| **`false`** | **`true`**   | **`true`**      |
-| **`false`** | **`false`**  | **`false`**     |
-| **`null`**  | **`null`**   | **`null`**      |
+| --- | --- | --- |
+| **`true`** | **`true`** | **`false`** |
+| **`true`** | **`false`** | **`true`** |
+| **`false`** | **`true`** | **`true`** |
+| **`false`** | **`false`** | **`false`** |
+| **`null`** | **`null`** | **`null`** |
 
 ### Помилки
 

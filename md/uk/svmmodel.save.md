@@ -1,16 +1,11 @@
-Зберегти готову модель у файл
-
--   [« SVMModel::predict](svmmodel.predict.md)
-    
--   [SVN »](book.svn.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVMModel](class.svmmodel.md)
-    
--   Зберегти готову модель у файл
-    
-
+---
+navigation:
+  - svmmodel.predict.md: '« SVMModel::predict'
+  - book.svn.md: SVN »
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::save'
+---
 # SVMModel::save
 
 (PECL svm >= 0.1.0)

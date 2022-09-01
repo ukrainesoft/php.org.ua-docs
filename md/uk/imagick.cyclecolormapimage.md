@@ -1,16 +1,11 @@
-Відображає колірну карту зображення
-
--   [« Imagick::current](imagick.current.md)
-    
--   [Imagick::decipherImage »](imagick.decipherimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Відображає колірну карту зображення
-    
-
+---
+navigation:
+  - imagick.current.md: '« Imagick::current'
+  - imagick.decipherimage.md: 'Imagick::decipherImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::cycleColormapImage'
+---
 # Imagick::cycleColormapImage
 
 (PECL imagick 2, PECL imagick 3)

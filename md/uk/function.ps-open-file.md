@@ -1,16 +1,11 @@
-Відкриває файл для виводу
-
--   [«psnew](function.ps-new.html)
-    
--   [псopenimagefile »](function.ps-open-image-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Відкриває файл для виводу
-    
-
+---
+navigation:
+  - function.ps-new.html: «psnew
+  - function.ps-open-image-file.html: псopenimagefile »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псopenfile
+---
 # псopenfile
 
 (PECL ps >= 1.1.0)

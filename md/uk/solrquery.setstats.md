@@ -1,16 +1,11 @@
-Включає або вимикає компонент Stats
-
--   [« SolrQuery::setStart](solrquery.setstart.md)
-    
--   [SolrQuery::setTerms »](solrquery.setterms.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Включає або вимикає компонент Stats
-    
-
+---
+navigation:
+  - solrquery.setstart.md: '« SolrQuery::setStart'
+  - solrquery.setterms.md: 'SolrQuery::setTerms »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setStats'
+---
 # SolrQuery::setStats
 
 (PECL solr> = 0.9.2)

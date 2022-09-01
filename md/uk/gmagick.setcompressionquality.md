@@ -1,16 +1,11 @@
-Встановлює якість стандартного стиснення об'єкта
-
--   [« Gmagick::separateimagechannel](gmagick.separateimagechannel.html)
-    
--   [Gmagick::setfilename »](gmagick.setfilename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Встановлює якість стандартного стиснення об'єкта
-    
-
+---
+navigation:
+  - gmagick.separateimagechannel.html: '« Gmagick::separateimagechannel'
+  - gmagick.setfilename.html: 'Gmagick::setfilename »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::setCompressionQuality'
+---
 # Gmagick::setCompressionQuality
 
 (No version information available, might only be in Git)

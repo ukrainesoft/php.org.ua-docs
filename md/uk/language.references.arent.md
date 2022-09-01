@@ -1,16 +1,11 @@
-Чим посилання не є
-
--   [« Що роблять посилання](language.references.whatdo.md)
-    
--   [Передача за посиланням](language.references.pass.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пояснення посилань](language.references.md)
-    
--   Чим посилання не є
-    
-
+---
+navigation:
+  - language.references.whatdo.md: « Що роблять посилання
+  - language.references.pass.md: Передача за посиланням
+  - index.md: PHP Manual
+  - language.references.md: Пояснення посилань
+title: Чим посилання не є
+---
 ## Чим посилання не є
 
 Як було зазначено, посилання є покажчиками. Це означає, що наступна конструкція не буде робити те, що ви очікуєте:

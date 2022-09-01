@@ -1,16 +1,11 @@
-Видаляє пікселі по краях зображення
-
--   [« Imagick::sharpenImage](imagick.sharpenimage.md)
-    
--   [Imagick::shearImage »](imagick.shearimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Видаляє пікселі по краях зображення
-    
-
+---
+navigation:
+  - imagick.sharpenimage.md: '« Imagick::sharpenImage'
+  - imagick.shearimage.md: 'Imagick::shearImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::shaveImage'
+---
 # Imagick::shaveImage
 
 (PECL imagick 2, PECL imagick 3)

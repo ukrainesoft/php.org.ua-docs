@@ -1,16 +1,11 @@
-Встановлює патерн для обведення контурів об'єкта.
-
--   [« ImagickDraw::setStrokeOpacity](imagickdraw.setstrokeopacity.html)
-    
--   [ImagickDraw::setStrokeWidth »](imagickdraw.setstrokewidth.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює патерн для обведення контурів об'єкта.
-    
-
+---
+navigation:
+  - imagickdraw.setstrokeopacity.html: '« ImagickDraw::setStrokeOpacity'
+  - imagickdraw.setstrokewidth.html: 'ImagickDraw::setStrokeWidth »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setStrokePatternURL'
+---
 # ImagickDraw::setStrokePatternURL
 
 (PECL imagick 2, PECL imagick 3)

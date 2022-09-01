@@ -1,16 +1,11 @@
-Клас LDAPConnection
-
--   [« ldapunbind](function.ldap-unbind.html)
-    
--   [LDAPResult »](class.ldap-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [LDAP](book.ldap.md)
-    
--   Клас LDAPConnection
-    
-
+---
+navigation:
+  - function.ldap-unbind.html: « ldapunbind
+  - class.ldap-result.html: LDAPResult »
+  - index.md: PHP Manual
+  - book.ldap.md: LDAP
+title: Клас LDAPConnection
+---
 # Клас LDAPConnection
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Інтерфейс CommonMarkInterfacesIVisitable
-
--   [« CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.html)
-    
--   [CommonMarkInterfacesIVisitable::accept »](commonmark-interfaces-ivisitable.accept.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Інтерфейс CommonMarkInterfacesIVisitable
-    
-
+---
+navigation:
+  - commonmark-interfaces-ivisitor.leave.html: '« CommonMarkInterfacesIVisitor::leave'
+  - commonmark-interfaces-ivisitable.accept.html: 'CommonMarkInterfacesIVisitable::accept »'
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Інтерфейс CommonMarkInterfacesIVisitable
+---
 # Інтерфейс CommonMarkInterfacesIVisitable
 
 (cmark >= 1.0.0)

@@ -1,16 +1,11 @@
-Підготовляє SQL вираз до виконання
-
--   [« mysqli::poll](mysqli.poll.html)
-    
--   [mysqli::query »](mysqli.query.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Підготовляє SQL вираз до виконання
-    
-
+---
+navigation:
+  - mysqli.poll.html: '« mysqli::poll'
+  - mysqli.query.html: 'mysqli::query »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::prepare'
+---
 # mysqli::prepare
 
 # mysqliprepare

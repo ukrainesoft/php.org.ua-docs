@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](recode.setup.md)
-    
--   [Установка »](recode.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](recode.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - recode.setup.md: « Встановлення та налаштування
+  - recode.installation.md: Установка »
+  - index.md: PHP Manual
+  - recode.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Ви повинні встановити GNU Recode 3.5 або вище. Цей пакет ви можете завантажити з сайту [» http://directory.fsf.org/AllGNUPackages/recode.html](http://directory.fsf.org/All_GNU_Packages/recode.html)

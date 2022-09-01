@@ -1,16 +1,11 @@
-Перемістити вказівник gz-файлу на початок
-
--   [« gzread](function.gzread.html)
-    
--   [gzseek »](function.gzseek.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Перемістити вказівник gz-файлу на початок
-    
-
+---
+navigation:
+  - function.gzread.html: « gzread
+  - function.gzseek.html: gzseek »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzrewind
+---
 # gzrewind
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

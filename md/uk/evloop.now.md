@@ -1,16 +1,11 @@
-Повертає поточний "event loop time"
-
--   [« EvLoop::loopFork](evloop.loopfork.html)
-    
--   [EvLoop::nowUpdate »](evloop.nowupdate.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Повертає поточний "event loop time"
-    
-
+---
+navigation:
+  - evloop.loopfork.html: '« EvLoop::loopFork'
+  - evloop.nowupdate.html: 'EvLoop::nowUpdate »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::now'
+---
 # EvLoop::now
 
 (PECL ev >= 0.2.0)

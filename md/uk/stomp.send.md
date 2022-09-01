@@ -1,16 +1,11 @@
-Надсилає повідомлення
-
--   [« Stomp::readFrame](stomp.readframe.html)
-    
--   [Stomp::setReadTimeout »](stomp.setreadtimeout.html)
-    
--   [PHP Manual](index.html)
-    
--   [Stomp](class.stomp.html)
-    
--   Надсилає повідомлення
-    
-
+---
+navigation:
+  - stomp.readframe.html: '« Stomp::readFrame'
+  - stomp.setreadtimeout.html: 'Stomp::setReadTimeout »'
+  - index.html: PHP Manual
+  - class.stomp.html: Stomp
+title: 'Stomp::send'
+---
 # Stomp::send
 
 # stompsend

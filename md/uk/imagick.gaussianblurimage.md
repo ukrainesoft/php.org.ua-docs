@@ -1,16 +1,11 @@
-Розмиває зображення
-
--   [« Imagick::gammaImage](imagick.gammaimage.md)
-    
--   [Imagick::getColorspace »](imagick.getcolorspace.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Розмиває зображення
-    
-
+---
+navigation:
+  - imagick.gammaimage.md: '« Imagick::gammaImage'
+  - imagick.getcolorspace.md: 'Imagick::getColorspace »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::gaussianBlurImage'
+---
 # Imagick::gaussianBlurImage
 
 (PECL imagick 2, PECL imagick 3)

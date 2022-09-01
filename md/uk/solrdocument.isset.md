@@ -1,16 +1,11 @@
-Перевіряє, чи існує поле
-
--   [« SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md)
-    
--   [SolrDocument::key »](solrdocument.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Перевіряє, чи існує поле
-    
-
+---
+navigation:
+  - solrdocument.haschilddocuments.md: '« SolrDocument::hasChildDocuments'
+  - solrdocument.key.md: 'SolrDocument::key »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::isset'
+---
 # SolrDocument::isset
 
 (PECL solr> = 0.9.2)

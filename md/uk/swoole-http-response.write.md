@@ -1,16 +1,11 @@
-Додає вміст тіла HTTP до HTTP-відповіді
-
--   [« SwooleHttpResponse::status](swoole-http-response.status.html)
-    
--   [SwooleHttpServer »](class.swoole-http-server.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Додає вміст тіла HTTP до HTTP-відповіді
-    
-
+---
+navigation:
+  - swoole-http-response.status.html: '« SwooleHttpResponse::status'
+  - class.swoole-http-server.html: SwooleHttpServer »
+  - index.html: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::write'
+---
 # SwooleHttpResponse::write
 
 (PECL swoole >= 1.9.0)

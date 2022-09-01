@@ -1,16 +1,11 @@
-Записує кадри у файловий дескриптор
-
--   [« Imagick::writeImages](imagick.writeimages.md)
-    
--   [ImagickDraw »](class.imagickdraw.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Записує кадри у файловий дескриптор
-    
-
+---
+navigation:
+  - imagick.writeimages.md: '« Imagick::writeImages'
+  - class.imagickdraw.md: ImagickDraw »
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::writeImagesFile'
+---
 # Imagick::writeImagesFile
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

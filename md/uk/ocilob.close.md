@@ -1,16 +1,11 @@
-Закриває дескриптор об'єкта LOB
-
--   [« OCILob::append](ocilob.append.md)
-    
--   [OCILob::eof »](ocilob.eof.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCILob](class.ocilob.md)
-    
--   Закриває дескриптор об'єкта LOB
-    
-
+---
+navigation:
+  - ocilob.append.md: '« OCILob::append'
+  - ocilob.eof.md: 'OCILob::eof »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::close'
+---
 # OCILob::close
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -35,8 +30,8 @@ public OCILob::close(): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                              |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

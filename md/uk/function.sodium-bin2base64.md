@@ -1,16 +1,11 @@
-Кодує необроблений двійковий рядок за допомогою base64
-
--   [« sodiumbase642bin](function.sodium-base642bin.html)
-    
--   [sodiumbin2hex »](function.sodium-bin2hex.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Кодує необроблений двійковий рядок за допомогою base64
-    
-
+---
+navigation:
+  - function.sodium-base642bin.html: « sodiumbase642bin
+  - function.sodium-bin2hex.html: sodiumbin2hex »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumbin2base64
+---
 # sodiumbin2base64
 
 (PHP 7> = 7.2.0, PHP 8)

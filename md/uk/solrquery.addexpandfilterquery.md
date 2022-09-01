@@ -1,16 +1,11 @@
-Перевизначає запит основного фільтра, визначає, які документи включити до основної групи
-
--   [« SolrQuery](class.solrquery.md)
-    
--   [SolrQuery::addExpandSortField »](solrquery.addexpandsortfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Перевизначає запит основного фільтра, визначає, які документи включити до основної групи
-    
-
+---
+navigation:
+  - class.solrquery.md: « SolrQuery
+  - solrquery.addexpandsortfield.md: 'SolrQuery::addExpandSortField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addExpandFilterQuery'
+---
 # SolrQuery::addExpandFilterQuery
 
 (PECL solr> = 2.2.0)

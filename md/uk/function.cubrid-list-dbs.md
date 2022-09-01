@@ -1,16 +1,11 @@
-Отримати масив зі списком усіх баз даних CUBRID
-
--   [« cubridfieldtype](function.cubrid-field-type.html)
-    
--   [cubridnumfields »](function.cubrid-num-fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Отримати масив зі списком усіх баз даних CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-field-type.html: « cubridfieldtype
+  - function.cubrid-num-fields.html: cubridnumfields »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridlistdbs
+---
 # cubridlistdbs
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи є властивість загальнодоступною
-
--   [« ReflectionProperty::isProtected](reflectionproperty.isprotected.html)
-    
--   [ReflectionProperty::isReadOnly »](reflectionproperty.isreadonly.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Перевіряє, чи є властивість загальнодоступною
-    
-
+---
+navigation:
+  - reflectionproperty.isprotected.html: '« ReflectionProperty::isProtected'
+  - reflectionproperty.isreadonly.html: 'ReflectionProperty::isReadOnly »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::isPublic'
+---
 # ReflectionProperty::isPublic
 
 (PHP 5, PHP 7, PHP 8)

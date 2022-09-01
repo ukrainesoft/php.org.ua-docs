@@ -1,16 +1,11 @@
-Малює дугу за годинниковою стрілкою
-
--   [«psarc](function.ps-arc.html)
-    
--   [псbeginpage »](function.ps-begin-page.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Малює дугу за годинниковою стрілкою
-    
-
+---
+navigation:
+  - function.ps-arc.html: «psarc
+  - function.ps-begin-page.html: псbeginpage »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псarcn
+---
 # псarcn
 
 (PECL ps >= 1.1.0)

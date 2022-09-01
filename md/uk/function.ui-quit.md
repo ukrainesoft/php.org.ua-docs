@@ -1,16 +1,11 @@
-Вийти із циклу UI
-
--   [« UIDrawTextFontfontFamilies](function.ui-draw-text-font-fontfamilies.html)
-    
--   [ОЙrun »](function.ui-run.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции UI](ref.ui.html)
-    
--   Вийти із циклу UI
-    
-
+---
+navigation:
+  - function.ui-draw-text-font-fontfamilies.html: « UIDrawTextFontfontFamilies
+  - function.ui-run.html: ОЙrun »
+  - index.html: PHP Manual
+  - ref.ui.html: Функции UI
+title: ОЙquit
+---
 # ОЙquit
 
 (UI 2.0.0)

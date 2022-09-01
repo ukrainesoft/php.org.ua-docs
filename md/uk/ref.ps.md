@@ -1,16 +1,11 @@
-Функції PS
-
--   [« Обумовлені константи](ps.constants.md)
-    
--   [псaddbookmark »](function.ps-add-bookmark.html)
-    
--   [PHP Manual](index.md)
-    
--   [ПС](book.ps.md)
-    
--   Функції PS
-    
-
+---
+navigation:
+  - ps.constants.md: « Обумовлені константи
+  - function.ps-add-bookmark.html: псaddbookmark »
+  - index.md: PHP Manual
+  - book.ps.md: ПС
+title: Функції PS
+---
 # Функції PS
 
 ## Контакти

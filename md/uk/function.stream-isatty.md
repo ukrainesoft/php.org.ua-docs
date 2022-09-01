@@ -1,16 +1,11 @@
-Перевіряє, чи є потік TTY
-
--   [« streamісlocal](function.stream-is-local.html)
-    
--   [streamnotificationcallback »](function.stream-notification-callback.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Перевіряє, чи є потік TTY
-    
-
+---
+navigation:
+  - function.stream-is-local.html: « streamісlocal
+  - function.stream-notification-callback.html: streamnotificationcallback »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamisatty
+---
 # streamisatty
 
 (PHP 7> = 7.2.0, PHP 8)

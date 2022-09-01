@@ -1,16 +1,11 @@
-Спроба завантажити клас усіма зареєстрованими функціями autoload()
-
--   [« iteratorтоarray](function.iterator-to-array.html)
-    
--   [splautoloadextensions »](function.spl-autoload-extensions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Спроба завантажити клас усіма зареєстрованими функціями autoload()
-    
-
+---
+navigation:
+  - function.iterator-to-array.html: « iteratorтоarray
+  - function.spl-autoload-extensions.html: splautoloadextensions »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: splautoloadcall
+---
 # splautoloadcall
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас SwooleProcess
-
--   [« SwooleMySQLException](class.swoole-mysql-exception.html)
-    
--   [SwooleProcess::alarm »](swoole-process.alarm.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleProcess
-    
-
+---
+navigation:
+  - class.swoole-mysql-exception.html: « SwooleMySQLException
+  - swoole-process.alarm.html: 'SwooleProcess::alarm »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleProcess
+---
 # Клас SwooleProcess
 
 (PECL swoole >= 1.9.0)

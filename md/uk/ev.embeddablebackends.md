@@ -1,16 +1,11 @@
-Повертає набір бекендів, які можна вбудувати в інші цикли подій
-
--   [« Ev::depth](ev.depth.md)
-    
--   [Ev::feedSignal »](ev.feedsignal.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Повертає набір бекендів, які можна вбудувати в інші цикли подій
-    
-
+---
+navigation:
+  - ev.depth.md: '« Ev::depth'
+  - ev.feedsignal.md: 'Ev::feedSignal »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev:: embeddableBackends'
+---
 # Ev:: embeddableBackends
 
 (PECL ev >= 0.2.0)

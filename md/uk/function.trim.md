@@ -1,16 +1,11 @@
-Видаляє пробіли (або інші символи) з початку та кінця рядка
-
--   [« substr](function.substr.html)
-    
--   [ucfirst »](function.ucfirst.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Видаляє пробіли (або інші символи) з початку та кінця рядка
-    
-
+---
+navigation:
+  - function.substr.html: « substr
+  - function.ucfirst.html: ucfirst »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: trim
+---
 # trim
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

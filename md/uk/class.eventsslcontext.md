@@ -1,16 +1,11 @@
-Клас EventSslContext
-
--   [« EventListener::setErrorCallback](eventlistener.seterrorcallback.md)
-    
--   [EventSslContext::construct »](eventsslcontext.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventSslContext
-    
-
+---
+navigation:
+  - eventlistener.seterrorcallback.md: '« EventListener::setErrorCallback'
+  - eventsslcontext.construct.md: 'EventSslContext::construct »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventSslContext
+---
 # Клас EventSslContext
 
 (PECL event >= 1.2.6-beta)

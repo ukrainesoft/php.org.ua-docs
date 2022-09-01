@@ -1,16 +1,11 @@
-Реєстрація функції користувача для використання в SQL-запитах
-
--   [« PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.html)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite (PDO)](ref.pdo-sqlite.html)
-    
--   Реєстрація функції користувача для використання в SQL-запитах
-    
-
+---
+navigation:
+  - pdo.sqlitecreatecollation.html: '« PDO::sqliteCreateCollation'
+  - refs.database.vendors.html: Модулі для роботи з базами даних окремих виробників
+  - index.html: PHP Manual
+  - ref.pdo-sqlite.html: SQLite (PDO)
+title: 'PDO::sqliteCreateFunction'
+---
 # PDO::sqliteCreateFunction
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdosqlite> = 1.0.0)
@@ -71,9 +66,9 @@ callback(mixed $value, mixed ...$values): mixed
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

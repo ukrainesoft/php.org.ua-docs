@@ -1,16 +1,11 @@
-Встановлює ітерацію зображення
-
--   [« Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.html)
-    
--   [Imagick::setImageMatte »](imagick.setimagematte.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює ітерацію зображення
-    
-
+---
+navigation:
+  - imagick.setimageinterpolatemethod.html: '« Imagick::setImageInterpolateMethod'
+  - imagick.setimagematte.html: 'Imagick::setImageMatte »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageIterations'
+---
 # Imagick::setImageIterations
 
 (PECL imagick 2, PECL imagick 3)

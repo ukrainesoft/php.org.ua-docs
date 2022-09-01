@@ -1,16 +1,11 @@
-Отримує набір символів
-
--   [« ColumnResult::construct](mysql-xdevapi-columnresult.construct.html)
-    
--   [ColumnResult::getCollationName »](mysql-xdevapi-columnresult.getcollationname.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує набір символів
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.construct.html: '« ColumnResult::construct'
+  - mysql-xdevapi-columnresult.getcollationname.html: 'ColumnResult::getCollationName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getCharacterSetName'
+---
 # ColumnResult::getCharacterSetName
 
 (No version information available, might only be in Git)

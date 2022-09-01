@@ -1,16 +1,11 @@
-Виділяє пам'ять під зазначену місткість
-
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   [ДсPriorityQueue::capacity »](ds-priorityqueue.capacity.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Виділяє пам'ять під зазначену місткість
-    
-
+---
+navigation:
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - ds-priorityqueue.capacity.html: 'ДсPriorityQueue::capacity »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::allocate'
+---
 # ДсPriorityQueue::allocate
 
 (PECL ds >= 1.0.0)

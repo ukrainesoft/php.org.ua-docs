@@ -1,16 +1,11 @@
-Порівнює скаляр з екземпляром перерахування або null
-
--   [« BackedEnum::from](backedenum.from.md)
-    
--   [Контекстні опції та параметри »](context.md)
-    
--   [PHP Manual](index.md)
-    
--   [BackedEnum](class.backedenum.md)
-    
--   Порівнює скаляр з екземпляром перерахування або null
-    
-
+---
+navigation:
+  - backedenum.from.md: '« BackedEnum::from'
+  - context.md: Контекстні опції та параметри »
+  - index.md: PHP Manual
+  - class.backedenum.md: BackedEnum
+title: 'BackedEnum::tryFrom'
+---
 # BackedEnum::tryFrom
 
 (PHP 8> = 8.1.0)

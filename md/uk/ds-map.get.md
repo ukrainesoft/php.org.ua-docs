@@ -1,16 +1,11 @@
-Повертає значення за ключем
-
--   [« DsMap::first](ds-map.first.html)
-    
--   [ДсMap::hasKey »](ds-map.haskey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає значення за ключем
-    
-
+---
+navigation:
+  - ds-map.first.html: '« DsMap::first'
+  - ds-map.haskey.html: 'ДсMap::hasKey »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::get'
+---
 # ДсMap::get
 
 (PECL ds >= 1.0.0)

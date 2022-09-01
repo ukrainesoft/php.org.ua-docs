@@ -1,16 +1,11 @@
-Опції OPcache
-
--   [« Preloading](opcache.preloading.html)
-    
--   [opcachecompilefile »](function.opcache-compile-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [OPcache](book.opcache.html)
-    
--   Опції OPcache
-    
-
+---
+navigation:
+  - opcache.preloading.html: « Preloading
+  - function.opcache-compile-file.html: opcachecompilefile »
+  - index.html: PHP Manual
+  - book.opcache.html: OPcache
+title: Опції OPcache
+---
 # Опції OPcache
 
 ## Зміст

@@ -1,16 +1,11 @@
-Створює екземпляр finfo
-
--   [« finfofile](function.finfo-file.html)
-    
--   [finfosetflags »](function.finfo-set-flags.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции модуля Fileinfo](ref.fileinfo.html)
-    
--   Створює екземпляр finfo
-    
-
+---
+navigation:
+  - function.finfo-file.html: « finfofile
+  - function.finfo-set-flags.html: finfosetflags »
+  - index.html: PHP Manual
+  - ref.fileinfo.html: Функции модуля Fileinfo
+title: finfoopen
+---
 # finfoopen
 
 # finfo::construct
@@ -51,10 +46,10 @@ public [finfo::construct](finfo.construct.html)(int `$flags` **`FILEINFO_NONE`**
 
 ### список змін
 
-| Версия | Описание                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [finfo](class.finfo.html); раніше повертався ресурс ([resource](language.types.resource.html) |
-|        | `magic_database` тепер допускає значення null.                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [finfo](class.finfo.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `magic_database` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Витяг наступного рядка з результуючого набору
-
--   [« PDOStatement::execute](pdostatement.execute.md)
-    
--   [PDOStatement::fetchAll »](pdostatement.fetchall.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Витяг наступного рядка з результуючого набору
-    
-
+---
+navigation:
+  - pdostatement.execute.md: '« PDOStatement::execute'
+  - pdostatement.fetchall.md: 'PDOStatement::fetchAll »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::fetch'
+---
 # PDOStatement::fetch
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

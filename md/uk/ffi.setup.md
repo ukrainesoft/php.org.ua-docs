@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ffi.html)
-    
--   [Вимоги »](ffi.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](book.ffi.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ffi.html: « Введение
+  - ffi.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.ffi.html: FFI
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

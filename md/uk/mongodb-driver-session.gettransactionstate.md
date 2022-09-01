@@ -1,16 +1,11 @@
-Повертає статус транзакції для поточної сесії
-
--   [« MongoDBDriverSession::getTransactionOptions](mongodb-driver-session.gettransactionoptions.html)
-    
--   [MongoDBDriverSession::isDirty »](mongodb-driver-session.isdirty.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Повертає статус транзакції для поточної сесії
-    
-
+---
+navigation:
+  - mongodb-driver-session.gettransactionoptions.html: '« MongoDBDriverSession::getTransactionOptions'
+  - mongodb-driver-session.isdirty.html: 'MongoDBDriverSession::isDirty »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::getTransactionState'
+---
 # MongoDBDriverSession::getTransactionState
 
 (mongodb >=1.7.0)

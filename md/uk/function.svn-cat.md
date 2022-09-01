@@ -1,16 +1,11 @@
-Повертає вміст файлу у репозиторії
-
--   [« svnblame](function.svn-blame.html)
-    
--   [svncheckout »](function.svn-checkout.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає вміст файлу у репозиторії
-    
-
+---
+navigation:
+  - function.svn-blame.html: « svnblame
+  - function.svn-checkout.html: svncheckout »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svncat
+---
 # svncat
 
 (PECL svn> = 0.1.0)

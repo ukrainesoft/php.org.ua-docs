@@ -1,16 +1,11 @@
-Скидає помилки в сокеті або за останнім кодом помилки
-
--   [« swooleasyncwritefile](function.swoole-async-writefile.html)
-    
--   [swooleclientselect »](function.swoole-client-select.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Скидає помилки в сокеті або за останнім кодом помилки
-    
-
+---
+navigation:
+  - function.swoole-async-writefile.html: « swooleasyncwritefile
+  - function.swoole-client-select.html: swooleclientselect »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleclearerror
+---
 # swooleclearerror
 
 (PECL swoole >= 4.6.0)

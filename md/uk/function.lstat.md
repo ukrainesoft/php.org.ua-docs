@@ -1,16 +1,11 @@
-Повертає інформацію про файл або символічне посилання
-
--   [« linkinfo](function.linkinfo.md)
-    
--   [mkdir »](function.mkdir.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає інформацію про файл або символічне посилання
-    
-
+---
+navigation:
+  - function.linkinfo.md: « linkinfo
+  - function.mkdir.md: mkdir »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: lstat
+---
 # lstat
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

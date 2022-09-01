@@ -1,16 +1,11 @@
-Отримує doc-коментар
-
--   [« ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.html)
-    
--   [ReflectionFunctionAbstract::getEndLine »](reflectionfunctionabstract.getendline.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Отримує doc-коментар
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getclosureusedvariables.html: '« ReflectionFunctionAbstract::getClosureUsedVariables'
+  - reflectionfunctionabstract.getendline.html: 'ReflectionFunctionAbstract::getEndLine »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getDocComment'
+---
 # ReflectionFunctionAbstract::getDocComment
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

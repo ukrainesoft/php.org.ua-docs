@@ -1,16 +1,11 @@
-Отримує з'єднання в мережі
-
--   [« fanngetcascadeweightmultiplier](function.fann-get-cascade-weight-multiplier.html)
-    
--   [fanngetconnectionrate »](function.fann-get-connection-rate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Отримує з'єднання в мережі
-    
-
+---
+navigation:
+  - function.fann-get-cascade-weight-multiplier.html: « fanngetcascadeweightmultiplier
+  - function.fann-get-connection-rate.html: fanngetconnectionrate »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetconnectionarray
+---
 # fanngetconnectionarray
 
 (PECL fann> = 1.0.0)

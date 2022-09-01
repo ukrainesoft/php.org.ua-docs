@@ -1,16 +1,11 @@
-Отримує значення для усунення
-
--   [« ArrayIterator::offsetExists](arrayiterator.offsetexists.html)
-    
--   [ArrayIterator::offsetSet »](arrayiterator.offsetset.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Отримує значення для усунення
-    
-
+---
+navigation:
+  - arrayiterator.offsetexists.html: '« ArrayIterator::offsetExists'
+  - arrayiterator.offsetset.html: 'ArrayIterator::offsetSet »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::offsetGet'
+---
 # ArrayIterator::offsetGet
 
 (PHP 5, PHP 7, PHP 8)

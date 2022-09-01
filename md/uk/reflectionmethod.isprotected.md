@@ -1,16 +1,11 @@
-Перевіряє, чи є метод захищеним
-
--   [« ReflectionMethod::isPrivate](reflectionmethod.isprivate.html)
-    
--   [ReflectionMethod::isPublic »](reflectionmethod.ispublic.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionMethod](class.reflectionmethod.html)
-    
--   Перевіряє, чи є метод захищеним
-    
-
+---
+navigation:
+  - reflectionmethod.isprivate.html: '« ReflectionMethod::isPrivate'
+  - reflectionmethod.ispublic.html: 'ReflectionMethod::isPublic »'
+  - index.html: PHP Manual
+  - class.reflectionmethod.html: ReflectionMethod
+title: 'ReflectionMethod::isProtected'
+---
 # ReflectionMethod::isProtected
 
 (PHP 5, PHP 7, PHP 8)

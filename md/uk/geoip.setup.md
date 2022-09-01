@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.geoip.html)
-    
--   [Вимоги »](geoip.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [GeoIP](book.geoip.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.geoip.html: « Введение
+  - geoip.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.geoip.html: GeoIP
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

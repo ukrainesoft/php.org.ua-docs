@@ -1,16 +1,11 @@
-Перевіряє, чи є словник чи ні. Використовується не пустий тег
-
--   [« enchantbrokerdescribe](function.enchant-broker-describe.html)
-    
--   [enchantbrokerfreedict »](function.enchant-broker-free-dict.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Перевіряє, чи є словник чи ні. Використовується не пустий тег
-    
-
+---
+navigation:
+  - function.enchant-broker-describe.html: « enchantbrokerdescribe
+  - function.enchant-broker-free-dict.html: enchantbrokerfreedict »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokerdictexists
+---
 # enchantbrokerdictexists
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -41,9 +36,9 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

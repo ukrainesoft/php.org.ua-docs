@@ -1,16 +1,11 @@
-Замінити масив на інший
-
--   [« ArrayObject::count](arrayobject.count.md)
-    
--   [ArrayObject::getArrayCopy »](arrayobject.getarraycopy.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Замінити масив на інший
-    
-
+---
+navigation:
+  - arrayobject.count.md: '« ArrayObject::count'
+  - arrayobject.getarraycopy.md: 'ArrayObject::getArrayCopy »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::exchangeArray'
+---
 # ArrayObject::exchangeArray
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримати значення errno
-
--   [« GearmanClient::error](gearmanclient.error.md)
-    
--   [GearmanClient::jobStatus »](gearmanclient.jobstatus.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Отримати значення errno
-    
-
+---
+navigation:
+  - gearmanclient.error.md: '« GearmanClient::error'
+  - gearmanclient.jobstatus.md: 'GearmanClient::jobStatus »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::getErrno'
+---
 # GearmanClient::getErrno
 
 (PECL gearman >= 0.5.0)

@@ -1,16 +1,11 @@
-Повертає всі попереджувальні повідомлення IMAP.
-
--   [« imap8bit](function.imap-8bit.html)
-    
--   [imapappend »](function.imap-append.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Повертає всі попереджувальні повідомлення IMAP.
-    
-
+---
+navigation:
+  - function.imap-8bit.html: « imap8bit
+  - function.imap-append.html: imapappend »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapalerts
+---
 # imapalerts
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

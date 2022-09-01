@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.dom.html)
-    
--   [Вимоги »](dom.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.dom.html: « Введение
+  - dom.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

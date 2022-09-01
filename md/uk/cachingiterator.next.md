@@ -1,16 +1,11 @@
-Переміщує ітератор до наступного елемента
-
--   [« CachingIterator::key](cachingiterator.key.md)
-    
--   [CachingIterator::offsetExists »](cachingiterator.offsetexists.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Переміщує ітератор до наступного елемента
-    
-
+---
+navigation:
+  - cachingiterator.key.md: '« CachingIterator::key'
+  - cachingiterator.offsetexists.md: 'CachingIterator::offsetExists »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::next'
+---
 # CachingIterator::next
 
 (PHP 5, PHP 7, PHP 8)

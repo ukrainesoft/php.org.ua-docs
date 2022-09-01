@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.mailparse.html)
-    
--   [Вимоги »](mailparse.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mailparse](book.mailparse.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.mailparse.html: « Введение
+  - mailparse.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.mailparse.html: Mailparse
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

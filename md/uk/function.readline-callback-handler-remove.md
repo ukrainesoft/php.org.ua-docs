@@ -1,16 +1,11 @@
-Видаляє раніше зареєстровану callback-функцію та відновлює термінал
-
--   [« readlinecallbackhandlerinstall](function.readline-callback-handler-install.html)
-    
--   [readlinecallbackreadchar »](function.readline-callback-read-char.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Readline](ref.readline.md)
-    
--   Видаляє раніше зареєстровану callback-функцію та відновлює термінал
-    
-
+---
+navigation:
+  - function.readline-callback-handler-install.html: « readlinecallbackhandlerinstall
+  - function.readline-callback-read-char.html: readlinecallbackreadchar »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlinecallbackhandlerremove
+---
 # readlinecallbackhandlerremove
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

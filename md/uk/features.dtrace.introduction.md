@@ -1,16 +1,11 @@
-Введення в PHP та DTrace
-
--   [Динамічна трасування DTrace](features.dtrace.html)
-    
--   [Использование PHP и DTrace »](features.dtrace.dtrace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Динамічна трасування DTrace](features.dtrace.html)
-    
--   Введення в PHP та DTrace
-    
-
+---
+navigation:
+  - features.dtrace.html: Динамічна трасування DTrace
+  - features.dtrace.dtrace.html: Использование PHP и DTrace »
+  - index.html: PHP Manual
+  - features.dtrace.html: Динамічна трасування DTrace
+title: Введення в PHP та DTrace
+---
 ## Введення в PHP та DTrace
 
 DTrace - це завжди доступний фреймворк трасування, що практично не споживає ресурсів. Він доступний на багатьох платформах, включаючи Solaris, macOS, Oracle Linux і BSD. DTrace може відстежувати поведінку операційної системи та запущених програм користувача. Він може показувати значення параметрів та використовується для виведення статистики продуктивності. Зонди відстежуються скриптами користувача, написаними скриптовою мовою DTrace D. Це дозволяє ефективно аналізувати зрізи даних.

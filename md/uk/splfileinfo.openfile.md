@@ -1,16 +1,11 @@
-Отримує об'єкт SplFileObject для файлу
-
--   [« SplFileInfo::isWritable](splfileinfo.iswritable.md)
-    
--   [SplFileInfo::setFileClass »](splfileinfo.setfileclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує об'єкт SplFileObject для файлу
-    
-
+---
+navigation:
+  - splfileinfo.iswritable.md: '« SplFileInfo::isWritable'
+  - splfileinfo.setfileclass.md: 'SplFileInfo::setFileClass »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::openFile'
+---
 # SplFileInfo::openFile
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `context` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 

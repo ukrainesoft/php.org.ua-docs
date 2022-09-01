@@ -1,16 +1,11 @@
-Повертає, чи використовувався в heartbeat потоковий протокол
-
--   [« MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent »](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.html)
-    
--   Повертає, чи використовувався в heartbeat потоковий протокол
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.html: MongoDBDriverMonitoringServerHeartbeatStartedEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited'
+---
 # MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited
 
 (mongodb >=1.13.0)

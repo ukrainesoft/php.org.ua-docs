@@ -1,16 +1,11 @@
-Обчислення квадратного кореня
-
--   [« gmpsign](function.gmp-sign.html)
-    
--   [gmpsqrtrem »](function.gmp-sqrtrem.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Обчислення квадратного кореня
-    
-
+---
+navigation:
+  - function.gmp-sign.html: « gmpsign
+  - function.gmp-sqrtrem.html: gmpsqrtrem »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpsqrt
+---
 # gmpsqrt
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

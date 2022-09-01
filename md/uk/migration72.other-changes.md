@@ -1,16 +1,11 @@
-Інші зміни
-
--   [« Функціонал, оголошений застарілим у PHP 7.2.x](migration72.deprecated.html)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x »](migration71.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
-    
--   Інші зміни
-    
-
+---
+navigation:
+  - migration72.deprecated.html: '« Функціонал, оголошений застарілим у PHP 7.2.x'
+  - migration71.html: Миграция с PHP 7.0.x на PHP 7.1.x »
+  - index.html: PHP Manual
+  - migration72.html: Миграция с PHP 7.1.x на PHP 7.2.x
+title: Інші зміни
+---
 ## Інші зміни
 
 ### Переміщення [utf8encode()](function.utf8-encode.html) і [utf8decode()](function.utf8-decode.html)

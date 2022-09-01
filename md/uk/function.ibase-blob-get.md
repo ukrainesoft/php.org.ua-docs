@@ -1,16 +1,11 @@
-Отримує кількість байтів від відкритого BLOB-об'єкта
-
--   [« ibaseblobecho](function.ibase-blob-echo.html)
-    
--   [ibaseblobimport »](function.ibase-blob-import.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Отримує кількість байтів від відкритого BLOB-об'єкта
-    
-
+---
+navigation:
+  - function.ibase-blob-echo.html: « ibaseblobecho
+  - function.ibase-blob-import.html: ibaseblobimport »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseblobget
+---
 # ibaseblobget
 
 (PHP 5, PHP 7 < 7.4.0)

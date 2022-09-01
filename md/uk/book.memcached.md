@@ -1,16 +1,11 @@
-Memcached
-
--   [« memcachedebug](function.memcache-debug.html)
-    
--   [Введение »](intro.memcached.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   Memcached
-    
-
+---
+navigation:
+  - function.memcache-debug.html: « memcachedebug
+  - intro.memcached.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: Memcached
+---
 # Memcached
 
 -   [Введение](intro.memcached.html)

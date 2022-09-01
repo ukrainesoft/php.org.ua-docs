@@ -1,16 +1,11 @@
-Вмикає/вимикає миттєве очищення
-
--   [« YafDispatcher::enableView](yaf-dispatcher.enableview.html)
-    
--   [YafDispatcher::getApplication »](yaf-dispatcher.getapplication.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Вмикає/вимикає миттєве очищення
-    
-
+---
+navigation:
+  - yaf-dispatcher.enableview.html: '« YafDispatcher::enableView'
+  - yaf-dispatcher.getapplication.html: 'YafDispatcher::getApplication »'
+  - index.html: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::flushInstantly'
+---
 # YafDispatcher::flushInstantly
 
 (Yaf >=1.0.0)

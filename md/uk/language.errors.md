@@ -1,16 +1,11 @@
-Помилки
-
--   [« Приклади](language.enumerations.examples.md)
-    
--   [Основи »](language.errors.basics.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Помилки
-    
-
+---
+navigation:
+  - language.enumerations.examples.md: « Приклади
+  - language.errors.basics.md: Основи »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Помилки
+---
 # Помилки
 
 ## Зміст

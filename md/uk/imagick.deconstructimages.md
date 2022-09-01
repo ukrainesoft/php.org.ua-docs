@@ -1,16 +1,11 @@
-Повертає певні піксельні різницю між зображеннями
-
--   [« Imagick::decipherImage](imagick.decipherimage.html)
-    
--   [Imagick::deleteImageArtifact »](imagick.deleteimageartifact.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає певні піксельні різницю між зображеннями
-    
-
+---
+navigation:
+  - imagick.decipherimage.html: '« Imagick::decipherImage'
+  - imagick.deleteimageartifact.html: 'Imagick::deleteImageArtifact »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::deconstructImages'
+---
 # Imagick::deconstructImages
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Розбирає рядок файлу відповідно до заданого формату
-
--   [« SplFileObject::fread](splfileobject.fread.md)
-    
--   [SplFileObject::fseek »](splfileobject.fseek.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Розбирає рядок файлу відповідно до заданого формату
-    
-
+---
+navigation:
+  - splfileobject.fread.md: '« SplFileObject::fread'
+  - splfileobject.fseek.md: 'SplFileObject::fseek »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fscanf'
+---
 # SplFileObject::fscanf
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

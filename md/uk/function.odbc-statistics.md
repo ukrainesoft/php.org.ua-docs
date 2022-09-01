@@ -1,16 +1,11 @@
-Отримує статистику про таблицю
-
--   [« odbcspecialcolumns](function.odbc-specialcolumns.html)
-    
--   [odbctableprivileges »](function.odbc-tableprivileges.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Отримує статистику про таблицю
-    
-
+---
+navigation:
+  - function.odbc-specialcolumns.html: « odbcspecialcolumns
+  - function.odbc-tableprivileges.html: odbctableprivileges »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcstatistics
+---
 # odbcstatistics
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

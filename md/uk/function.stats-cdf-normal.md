@@ -1,16 +1,11 @@
-Обчислює один із параметрів розподілу залежно від інших
-
--   [« statscdfnoncentralт](function.stats-cdf-noncentral-t.html)
-    
--   [statscdfpoisson »](function.stats-cdf-poisson.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює один із параметрів розподілу залежно від інших
-    
-
+---
+navigation:
+  - function.stats-cdf-noncentral-t.html: « statscdfnoncentralт
+  - function.stats-cdf-poisson.html: statscdfpoisson »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statscdfnormal
+---
 # statscdfnormal
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_normal(    float $par1,    float $par2,    float $par3, �
 **Значення, що повертаються, і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | му     | sigma  |
-|         | з                     | CDF    | му     | sigma  |
-|         | му                    | з      | CDF    | sigma  |
-|         | sigma                 | з      | CDF    | му     |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | му | sigma |
+|  | з | CDF | му | sigma |
+|  | му | з | CDF | sigma |
+|  | sigma | з | CDF | му |
 
 ### Список параметрів
 

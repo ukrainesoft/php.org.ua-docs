@@ -1,16 +1,11 @@
-Марубозу
-
--   [« tradercdllongline](function.trader-cdllongline.html)
-    
--   [tradercdlmatchinglow »](function.trader-cdlmatchinglow.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Марубозу
-    
-
+---
+navigation:
+  - function.trader-cdllongline.html: « tradercdllongline
+  - function.trader-cdlmatchinglow.html: tradercdlmatchinglow »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlmarubozu
+---
 # tradercdlmarubozu
 
 (PECL trader >= 0.2.0)

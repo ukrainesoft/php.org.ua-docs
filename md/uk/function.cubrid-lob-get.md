@@ -1,16 +1,11 @@
-Отримує дані BLOB/CLOB
-
--   [« cubridlobexport](function.cubrid-lob-export.html)
-    
--   [cubridlobsend »](function.cubrid-lob-send.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримує дані BLOB/CLOB
-    
-
+---
+navigation:
+  - function.cubrid-lob-export.html: « cubridlobexport
+  - function.cubrid-lob-send.html: cubridlobsend »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridлобget
+---
 # cubridлобget
 
 (PECL CUBRID >= 8.3.1)

@@ -1,16 +1,11 @@
-Отримує результат SHOW WARNINGS
-
--   [« mysqli::$serverversion](mysqli.get-server-version.html)
-    
--   [mysqli::$info »](mysqli.info.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Отримує результат SHOW WARNINGS
-    
-
+---
+navigation:
+  - mysqli.get-server-version.html: '« mysqli::$serverversion'
+  - mysqli.info.md: 'mysqli::$info »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::getwarnings'
+---
 # mysqli::getwarnings
 
 # mysqligetwarnings

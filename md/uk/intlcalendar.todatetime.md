@@ -1,16 +1,11 @@
-Перетворює IntlCalendar на об'єкт DateTime
-
--   [« IntlCalendar::setTimeZone](intlcalendar.settimezone.md)
-    
--   [IntlGregorianCalendar »](class.intlgregoriancalendar.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Перетворює IntlCalendar на об'єкт DateTime
-    
-
+---
+navigation:
+  - intlcalendar.settimezone.md: '« IntlCalendar::setTimeZone'
+  - class.intlgregoriancalendar.md: IntlGregorianCalendar »
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::toDateTime'
+---
 # IntlCalendar::toDateTime
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a2)

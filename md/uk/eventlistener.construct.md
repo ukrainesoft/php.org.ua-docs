@@ -1,16 +1,11 @@
-Створити новий слухач з'єднання, пов'язаний з базою подій
-
--   [« EventListener](class.eventlistener.md)
-    
--   [EventListener::disable »](eventlistener.disable.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventListener](class.eventlistener.md)
-    
--   Створити новий слухач з'єднання, пов'язаний з базою подій
-    
-
+---
+navigation:
+  - class.eventlistener.md: « EventListener
+  - eventlistener.disable.md: 'EventListener::disable »'
+  - index.md: PHP Manual
+  - class.eventlistener.md: EventListener
+title: 'EventListener::construct'
+---
 # EventListener::construct
 
 (PECL event >= 1.2.6-beta)
@@ -76,8 +71,8 @@ Callback-функція ([callable](language.types.callable.md)), яка буд�
 
 ### список змін
 
-| Версия           | Описание                              |
-|------------------|---------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.5.0 | Додано підтримку сокетів домену UNIX. |
 
 ### Приклади

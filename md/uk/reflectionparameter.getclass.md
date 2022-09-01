@@ -1,16 +1,11 @@
-Отримує об'єкт ReflectionClass для параметра, що відображається, або null
-
--   [« ReflectionParameter::getAttributes](reflectionparameter.getattributes.md)
-    
--   [ReflectionParameter::getDeclaringClass »](reflectionparameter.getdeclaringclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Отримує об'єкт ReflectionClass для параметра, що відображається, або null
-    
-
+---
+navigation:
+  - reflectionparameter.getattributes.md: '« ReflectionParameter::getAttributes'
+  - reflectionparameter.getdeclaringclass.md: 'ReflectionParameter::getDeclaringClass »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getClass'
+---
 # ReflectionParameter::getClass
 
 (PHP 5, PHP 7, PHP 8)

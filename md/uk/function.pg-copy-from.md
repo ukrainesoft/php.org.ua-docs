@@ -1,16 +1,11 @@
-Вставляє записи з масиву до таблиці
-
--   [« pgconvert](function.pg-convert.html)
-    
--   [пгcopyto »](function.pg-copy-to.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Вставляє записи з масиву до таблиці
-    
-
+---
+navigation:
+  - function.pg-convert.html: « pgconvert
+  - function.pg-copy-to.html: пгcopyto »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгcopyfrom
+---
 # пгcopyfrom
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

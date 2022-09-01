@@ -1,16 +1,11 @@
-Нормалізація рядка
-
--   [« Normalizer::isNormalized](normalizer.isnormalized.md)
-    
--   [MessageFormatter »](class.messageformatter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Normalizer](class.normalizer.md)
-    
--   Нормалізація рядка
-    
-
+---
+navigation:
+  - normalizer.isnormalized.md: '« Normalizer::isNormalized'
+  - class.messageformatter.md: MessageFormatter »
+  - index.md: PHP Manual
+  - class.normalizer.md: Normalizer
+title: 'Normalizer::normalize'
+---
 # Normalizer::normalize
 
 # normalizernormalize

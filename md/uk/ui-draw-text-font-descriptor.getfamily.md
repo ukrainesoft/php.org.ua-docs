@@ -1,16 +1,11 @@
-Отримує сімейство шрифтів
-
--   [« UIDrawTextFontDescriptor::construct](ui-draw-text-font-descriptor.construct.html)
-    
--   [ОЙDrawTextFontDescriptor::getItalic »](ui-draw-text-font-descriptor.getitalic.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
-    
--   Отримує сімейство шрифтів
-    
-
+---
+navigation:
+  - ui-draw-text-font-descriptor.construct.html: '« UIDrawTextFontDescriptor::construct'
+  - ui-draw-text-font-descriptor.getitalic.html: 'ОЙDrawTextFontDescriptor::getItalic »'
+  - index.html: PHP Manual
+  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor
+title: 'ОЙDrawTextFontDescriptor::getFamily'
+---
 # ОЙDrawTextFontDescriptor::getFamily
 
 (UI 1.0.3)

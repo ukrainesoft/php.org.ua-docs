@@ -1,16 +1,11 @@
-Створює новий екземпляр RRDGraph
-
--   [« RRDGraph](class.rrdgraph.html)
-    
--   [RRDGraph::save »](rrdgraph.save.html)
-    
--   [PHP Manual](index.html)
-    
--   [RRDGraph](class.rrdgraph.html)
-    
--   Створює новий екземпляр RRDGraph
-    
-
+---
+navigation:
+  - class.rrdgraph.html: « RRDGraph
+  - rrdgraph.save.html: 'RRDGraph::save »'
+  - index.html: PHP Manual
+  - class.rrdgraph.html: RRDGraph
+title: 'RRDGraph::construct'
+---
 # RRDGraph::construct
 
 (PECL rrd >= 0.9.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи існує поле
-
--   [« SolrInputDocument::destruct](solrinputdocument.destruct.md)
-    
--   [SolrInputDocument::getBoost »](solrinputdocument.getboost.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Перевіряє, чи існує поле
-    
-
+---
+navigation:
+  - solrinputdocument.destruct.md: '« SolrInputDocument::destruct'
+  - solrinputdocument.getboost.md: 'SolrInputDocument::getBoost »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::fieldExists'
+---
 # SolrInputDocument::fieldExists
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Ім'я класу, отримане за допомогою пізнього статичного зв'язування
-
--   [« enumexists](function.enum-exists.html)
-    
--   [getclassmethods »](function.get-class-methods.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Ім'я класу, отримане за допомогою пізнього статичного зв'язування
-    
-
+---
+navigation:
+  - function.enum-exists.html: « enumexists
+  - function.get-class-methods.html: getclassmethods »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getcalledclass
+---
 # getcalledclass
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

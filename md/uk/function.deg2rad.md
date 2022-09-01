@@ -1,16 +1,11 @@
-Перетворює значення градусів на радіани
-
--   [« decoct](function.decoct.html)
-    
--   [exp »](function.exp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Перетворює значення градусів на радіани
-    
-
+---
+navigation:
+  - function.decoct.html: « decoct
+  - function.exp.html: exp »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: deg2rad
+---
 # deg2rad
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

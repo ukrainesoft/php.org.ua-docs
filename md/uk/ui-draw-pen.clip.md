@@ -1,16 +1,11 @@
-Обрізати шлях
-
--   [« UIDrawPen](class.ui-draw-pen.html)
-    
--   [ОЙDrawPen::fill »](ui-draw-pen.fill.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawPen](class.ui-draw-pen.html)
-    
--   Обрізати шлях
-    
-
+---
+navigation:
+  - class.ui-draw-pen.html: « UIDrawPen
+  - ui-draw-pen.fill.html: 'ОЙDrawPen::fill »'
+  - index.html: PHP Manual
+  - class.ui-draw-pen.html: ОЙDrawPen
+title: 'ОЙDrawPen::clip'
+---
 # ОЙDrawPen::clip
 
 (UI 0.9.9)

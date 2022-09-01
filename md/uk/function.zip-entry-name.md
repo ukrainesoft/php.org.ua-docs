@@ -1,16 +1,11 @@
-Отримує ім'я дескриптора директорії
-
--   [« zipentryfilesize](function.zip-entry-filesize.html)
-    
--   [zipentryopen »](function.zip-entry-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zip](ref.zip.md)
-    
--   Отримує ім'я дескриптора директорії
-    
-
+---
+navigation:
+  - function.zip-entry-filesize.html: « zipentryfilesize
+  - function.zip-entry-open.html: zipentryopen »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipentryname
+---
 # zipentryname
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -41,9 +36,9 @@ zip_entry_name(resource $zip_entry): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
 
 ### Дивіться також
 

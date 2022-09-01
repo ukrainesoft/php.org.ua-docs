@@ -1,16 +1,11 @@
-Встановлює час очікування з'єднання
-
--   [« EventHttpConnection::setRetries](eventhttpconnection.setretries.html)
-    
--   [EventHttpRequest »](class.eventhttprequest.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpConnection](class.eventhttpconnection.html)
-    
--   Встановлює час очікування з'єднання
-    
-
+---
+navigation:
+  - eventhttpconnection.setretries.html: '« EventHttpConnection::setRetries'
+  - class.eventhttprequest.html: EventHttpRequest »
+  - index.html: PHP Manual
+  - class.eventhttpconnection.html: EventHttpConnection
+title: 'EventHttpConnection::setTimeout'
+---
 # EventHttpConnection::setTimeout
 
 (PECL event >= 1.2.6-beta)

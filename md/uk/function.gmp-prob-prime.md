@@ -1,16 +1,11 @@
-Перевіряє, чи є число "ймовірно простим"
-
--   [« gmppowm](function.gmp-powm.html)
-    
--   [gmprandombits »](function.gmp-random-bits.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Перевіряє, чи є число "ймовірно простим"
-    
-
+---
+navigation:
+  - function.gmp-powm.html: « gmppowm
+  - function.gmp-random-bits.html: gmprandombits »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpprobprime
+---
 # gmpprobprime
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::hasPreviousImage](imagick.haspreviousimage.html)
-    
--   [Imagick::identifyImage »](imagick.identifyimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.haspreviousimage.html: '« Imagick::hasPreviousImage'
+  - imagick.identifyimage.html: 'Imagick::identifyImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::identifyFormat'
+---
 # Imagick::identifyFormat
 
 (PECL imagick 3> = 3.3.0)

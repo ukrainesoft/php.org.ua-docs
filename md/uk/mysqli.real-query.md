@@ -1,16 +1,11 @@
-Виконання SQL запиту
-
--   [« mysqli::realescapestring](mysqli.real-escape-string.html)
-    
--   [mysqli::reapasyncquery »](mysqli.reap-async-query.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Виконання SQL запиту
-    
-
+---
+navigation:
+  - mysqli.real-escape-string.html: '« mysqli::realescapestring'
+  - mysqli.reap-async-query.html: 'mysqli::reapasyncquery »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::realquery'
+---
 # mysqli::realquery
 
 # mysqlirealquery

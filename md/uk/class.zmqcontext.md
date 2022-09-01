@@ -1,16 +1,11 @@
-Клас ZMQContext
-
--   [« ZMQ::construct](zmq.construct.md)
-    
--   [ZMQContext::construct »](zmqcontext.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обмін повідомленнями 0MQ](book.zmq.md)
-    
--   Клас ZMQContext
-    
-
+---
+navigation:
+  - zmq.construct.md: '« ZMQ::construct'
+  - zmqcontext.construct.md: 'ZMQContext::construct »'
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
+title: Клас ZMQContext
+---
 # Клас ZMQContext
 
 (PECL zmq >= 0.5.0)

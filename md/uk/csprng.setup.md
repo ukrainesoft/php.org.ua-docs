@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.csprng.md)
-    
--   [Вимоги »](csprng.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [CSPRNG](book.csprng.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.csprng.md: « Введение
+  - csprng.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.csprng.md: CSPRNG
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

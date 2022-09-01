@@ -1,16 +1,11 @@
-Серіалізація у BSON
-
--   [« Постійні дані](mongodb.persistence.html)
-    
--   [Десериализация из BSON »](mongodb.persistence.deserialization.html)
-    
--   [PHP Manual](index.html)
-    
--   [Постійні дані](mongodb.persistence.html)
-    
--   Серіалізація у BSON
-    
-
+---
+navigation:
+  - mongodb.persistence.html: « Постійні дані
+  - mongodb.persistence.deserialization.html: Десериализация из BSON »
+  - index.html: PHP Manual
+  - mongodb.persistence.html: Постійні дані
+title: Серіалізація у BSON
+---
 ## Серіалізація у BSON
 
 ## Масиви

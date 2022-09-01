@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.mcrypt.html)
-    
--   [Вимоги »](mcrypt.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](book.mcrypt.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.mcrypt.html: « Введение
+  - mcrypt.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.mcrypt.html: Mcrypt
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

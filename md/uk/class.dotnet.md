@@ -1,16 +1,11 @@
-Клас dotnet
-
--   [« com::construct](com.construct.html)
-    
--   [dotnet::construct »](dotnet.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [COM](book.com.html)
-    
--   Клас dotnet
-    
-
+---
+navigation:
+  - com.construct.html: '« com::construct'
+  - dotnet.construct.html: 'dotnet::construct »'
+  - index.html: PHP Manual
+  - book.com.html: COM
+title: Клас dotnet
+---
 # Клас dotnet
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

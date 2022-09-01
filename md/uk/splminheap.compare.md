@@ -1,16 +1,11 @@
-Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
-
--   [« SplMinHeap](class.splminheap.html)
-    
--   [SplPriorityQueue »](class.splpriorityqueue.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplMinHeap](class.splminheap.html)
-    
--   Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
-    
-
+---
+navigation:
+  - class.splminheap.html: « SplMinHeap
+  - class.splpriorityqueue.html: SplPriorityQueue »
+  - index.html: PHP Manual
+  - class.splminheap.html: SplMinHeap
+title: 'SplMinHeap::compare'
+---
 # SplMinHeap::compare
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

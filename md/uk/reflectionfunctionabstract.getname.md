@@ -1,16 +1,11 @@
-Отримує ім'я функції
-
--   [« ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.html)
-    
--   [ReflectionFunctionAbstract::getNamespaceName »](reflectionfunctionabstract.getnamespacename.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Отримує ім'я функції
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getfilename.html: '« ReflectionFunctionAbstract::getFileName'
+  - reflectionfunctionabstract.getnamespacename.html: 'ReflectionFunctionAbstract::getNamespaceName »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getName'
+---
 # ReflectionFunctionAbstract::getName
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

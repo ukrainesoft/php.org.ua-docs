@@ -1,16 +1,11 @@
-Конструктор класу RegexIterator
-
--   [« RegexIterator::accept](regexiterator.accept.md)
-    
--   [RegexIterator::getFlags »](regexiterator.getflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [RegexIterator](class.regexiterator.md)
-    
--   Конструктор класу RegexIterator
-    
-
+---
+navigation:
+  - regexiterator.accept.md: '« RegexIterator::accept'
+  - regexiterator.getflags.md: 'RegexIterator::getFlags »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
+title: 'RegexIterator::construct'
+---
 # RegexIterator::construct
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -52,13 +47,13 @@ int `$pregFlags`
 
 **[RegexIterator](class.regexiterator.md) pregflags**
 
-| режим работы              | доступные флаги                                         |
-|---------------------------|---------------------------------------------------------|
+| режим работы | доступные флаги |
+| --- | --- |
 | RegexIterator::ALLMATCHES | Дивіться [pregmatchall()](function.preg-match-all.html) |
-| RegexIterator::GETMATCH   | Дивіться [pregmatch()](function.preg-match.html)        |
-| RegexIterator::MATCH      | Дивіться [pregmatch()](function.preg-match.html)        |
-| RegexIterator::REPLACE    | ні                                                      |
-| RegexIterator::SPLIT      | Дивіться [pregsplit()](function.preg-split.html)        |
+| RegexIterator::GETMATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RegexIterator::MATCH | Дивіться [pregmatch()](function.preg-match.html) |
+| RegexIterator::REPLACE | ні |
+| RegexIterator::SPLIT | Дивіться [pregsplit()](function.preg-split.html) |
 
 ### Помилки
 

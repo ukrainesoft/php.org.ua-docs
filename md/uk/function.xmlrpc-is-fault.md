@@ -1,16 +1,11 @@
-Визначає, чи є масив значень уявленням помилки XMLRPC
-
--   [« xmlrpcgettype](function.xmlrpc-get-type.html)
-    
--   [xmlrpcparsemethoddescriptions »](function.xmlrpc-parse-method-descriptions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції XML-RPC](ref.xmlrpc.html)
-    
--   Визначає, чи є масив значень уявленням помилки XMLRPC
-    
-
+---
+navigation:
+  - function.xmlrpc-get-type.html: « xmlrpcgettype
+  - function.xmlrpc-parse-method-descriptions.html: xmlrpcparsemethoddescriptions »
+  - index.html: PHP Manual
+  - ref.xmlrpc.html: Функції XML-RPC
+title: xmlrpcісfault
+---
 # xmlrpcісfault
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7)

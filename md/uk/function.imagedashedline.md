@@ -1,16 +1,11 @@
-Малювання пунктирної лінії
-
--   [« imagecropauto](function.imagecropauto.html)
-    
--   [imagedestroy »](function.imagedestroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Малювання пунктирної лінії
-    
-
+---
+navigation:
+  - function.imagecropauto.html: « imagecropauto
+  - function.imagedestroy.html: imagedestroy »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagedashedline
+---
 # imagedashedline
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ imagedashedline(    GdImage $image,    int $x1,    int $y1,    i
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

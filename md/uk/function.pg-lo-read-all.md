@@ -1,16 +1,11 @@
-Читає вміст великого об'єкта та посилає безпосередньо до браузера
-
--   [« pgлоopen](function.pg-lo-open.html)
-    
--   [пглоread »](function.pg-lo-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Читає вміст великого об'єкта та посилає безпосередньо до браузера
-    
-
+---
+navigation:
+  - function.pg-lo-open.html: « pgлоopen
+  - function.pg-lo-read.html: пглоread »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пглоreadall
+---
 # пглоreadall
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pg_lo_read_all(PgSql\Lob $lob): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

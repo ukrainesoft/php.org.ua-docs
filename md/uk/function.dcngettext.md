@@ -1,16 +1,11 @@
-Версія dcgettext для множини
-
--   [« dcgettext](function.dcgettext.md)
-    
--   [dgettext »](function.dgettext.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции gettext](ref.gettext.md)
-    
--   Версія dcgettext для множини
-    
-
+---
+navigation:
+  - function.dcgettext.md: « dcgettext
+  - function.dgettext.md: dgettext »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: dcngettext
+---
 # dcngettext
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Тригонометричний вектор гіперболічного косинуса
-
--   [« tradercos](function.trader-cos.html)
-    
--   [traderdema »](function.trader-dema.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Тригонометричний вектор гіперболічного косинуса
-    
-
+---
+navigation:
+  - function.trader-cos.html: « tradercos
+  - function.trader-dema.html: traderdema »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercosh
+---
 # tradercosh
 
 (PECL trader >= 0.2.0)

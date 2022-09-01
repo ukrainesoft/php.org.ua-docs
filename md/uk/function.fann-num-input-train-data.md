@@ -1,16 +1,11 @@
-Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
-
--   [« fannmergetraindata](function.fann-merge-train-data.html)
-    
--   [fannnumoutputtraindata »](function.fann-num-output-train-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
-    
-
+---
+navigation:
+  - function.fann-merge-train-data.html: « fannmergetraindata
+  - function.fann-num-output-train-data.html: fannnumoutputtraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannnuminputtraindata
+---
 # fannnuminputtraindata
 
 (PECL fann> = 1.0.0)

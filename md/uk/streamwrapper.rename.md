@@ -1,16 +1,11 @@
-Перейменовує файл або директорію
-
--   [« streamWrapper::mkdir](streamwrapper.mkdir.md)
-    
--   [streamWrapper::rmdir »](streamwrapper.rmdir.md)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Перейменовує файл або директорію
-    
-
+---
+navigation:
+  - streamwrapper.mkdir.md: '« streamWrapper::mkdir'
+  - streamwrapper.rmdir.md: 'streamWrapper::rmdir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::rename'
+---
 # streamWrapper::rename
 
 (PHP 5, PHP 7, PHP 8)

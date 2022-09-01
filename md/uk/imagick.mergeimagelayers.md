@@ -1,16 +1,11 @@
-Об'єднує шари зображення
-
--   [« Imagick::medianFilterImage](imagick.medianfilterimage.html)
-    
--   [Imagick::minifyImage »](imagick.minifyimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Об'єднує шари зображення
-    
-
+---
+navigation:
+  - imagick.medianfilterimage.html: '« Imagick::medianFilterImage'
+  - imagick.minifyimage.html: 'Imagick::minifyImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::mergeImageLayers'
+---
 # Imagick::mergeImageLayers
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

@@ -1,16 +1,11 @@
-Прості приклади використання FFI
-
--   [« Приклади](ffi.examples.html)
-    
--   [Callback-функции PHP »](ffi.examples-callback.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](ffi.examples.html)
-    
--   Прості приклади використання FFI
-    
-
+---
+navigation:
+  - ffi.examples.html: « Приклади
+  - ffi.examples-callback.html: Callback-функции PHP »
+  - index.html: PHP Manual
+  - ffi.examples.html: Приклади
+title: Прості приклади використання FFI
+---
 ## Прості приклади використання FFI
 
 Перед зануренням у деталі FFI API, розгляньмо кілька прикладів спрощеного використання FFI API у стандартних завданнях.

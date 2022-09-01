@@ -1,16 +1,11 @@
-Отримати ім'я Unicode
-
--   [« IntlChar::charMirror](intlchar.charmirror.html)
-    
--   [IntlChar::charType »](intlchar.chartype.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати ім'я Unicode
-    
-
+---
+navigation:
+  - intlchar.charmirror.html: '« IntlChar::charMirror'
+  - intlchar.chartype.html: 'IntlChar::charType »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::charName'
+---
 # IntlChar::charName
 
 (PHP 7, PHP 8)

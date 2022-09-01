@@ -1,16 +1,11 @@
-Отримує метадані стовпця
-
--   [« RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.html)
-    
--   [RowResult::getWarnings »](mysql-xdevapi-rowresult.getwarnings.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
-    
--   Отримує метадані стовпця
-    
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.getcolumnnames.html: '« RowResult::getColumnNames'
+  - mysql-xdevapi-rowresult.getwarnings.html: 'RowResult::getWarnings »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+title: 'RowResult::getColumns'
+---
 # RowResult::getColumns
 
 (No version information available, might only be in Git)

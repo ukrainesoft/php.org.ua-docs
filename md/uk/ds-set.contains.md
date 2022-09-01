@@ -1,16 +1,11 @@
-Перевіряє, чи міститься в колекції задані значення
-
--   [« DsSet::construct](ds-set.construct.html)
-    
--   [ДсSet::copy »](ds-set.copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Перевіряє, чи міститься в колекції задані значення
-    
-
+---
+navigation:
+  - ds-set.construct.html: '« DsSet::construct'
+  - ds-set.copy.html: 'ДсSet::copy »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::contains'
+---
 # ДсSet::contains
 
 (PECL ds >= 1.0.0)

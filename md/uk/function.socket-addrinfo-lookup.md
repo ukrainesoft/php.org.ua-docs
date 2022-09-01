@@ -1,16 +1,11 @@
-Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
-
--   [« socketaddrinfoexplain](function.socket-addrinfo-explain.html)
-    
--   [socketbind »](function.socket-bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
-    
-
+---
+navigation:
+  - function.socket-addrinfo-explain.html: « socketaddrinfoexplain
+  - function.socket-bind.html: socketbind »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketaddrinfolookup
+---
 # socketaddrinfolookup
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -45,10 +40,10 @@ socket_addrinfo_lookup(string $host, ?string $service = null, array $hints = [])
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає масив екземплярів [AddressInfo](class.addressinfo.html); раніше повертався ресурс (resource). |
-|        | `service` тепер допускає значення null.                                                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає масив екземплярів [AddressInfo](class.addressinfo.html); раніше повертався ресурс (resource). |
+|  | `service` тепер допускає значення null. |
 
 ### Дивіться також
 

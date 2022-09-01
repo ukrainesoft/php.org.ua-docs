@@ -1,16 +1,11 @@
-Повертає ServerDescription сервера
-
--   [« MongoDBDriverServer::getPort](mongodb-driver-server.getport.html)
-    
--   [MongoDBDriverServer::getTags »](mongodb-driver-server.gettags.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Повертає ServerDescription сервера
-    
-
+---
+navigation:
+  - mongodb-driver-server.getport.html: '« MongoDBDriverServer::getPort'
+  - mongodb-driver-server.gettags.html: 'MongoDBDriverServer::getTags »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::getServerDescription'
+---
 # MongoDBDriverServer::getServerDescription
 
 (mongodb >=1.13.0)

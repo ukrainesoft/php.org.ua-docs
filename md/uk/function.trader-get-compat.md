@@ -1,16 +1,11 @@
-Отримує режим сумісності
-
--   [« traderfloor](function.trader-floor.html)
-    
--   [tradergetunstableperiod »](function.trader-get-unstable-period.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Отримує режим сумісності
-    
-
+---
+navigation:
+  - function.trader-floor.html: « traderfloor
+  - function.trader-get-unstable-period.html: tradergetunstableperiod »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradergetcompat
+---
 # tradergetcompat
 
 (PECL trader >= 0.2.2)

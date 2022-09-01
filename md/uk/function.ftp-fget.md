@@ -1,16 +1,11 @@
-Завантажує файл з FTP-сервера і зберігає його у попередньо відкритому файлі
-
--   [« ftpexec](function.ftp-exec.html)
-    
--   [ftpfput »](function.ftp-fput.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Завантажує файл з FTP-сервера і зберігає його у попередньо відкритому файлі
-    
-
+---
+navigation:
+  - function.ftp-exec.html: « ftpexec
+  - function.ftp-fput.html: ftpfput »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpfget
+---
 # ftpfget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $re
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 

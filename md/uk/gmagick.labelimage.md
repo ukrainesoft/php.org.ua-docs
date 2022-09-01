@@ -1,16 +1,11 @@
-Додає позначку до зображення
-
--   [« Gmagick::implodeimage](gmagick.implodeimage.md)
-    
--   [Gmagick::levelimage »](gmagick.levelimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Додає позначку до зображення
-    
-
+---
+navigation:
+  - gmagick.implodeimage.md: '« Gmagick::implodeimage'
+  - gmagick.levelimage.md: 'Gmagick::levelimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::labelimage'
+---
 # Gmagick::labelimage
 
 (PECL gmagick >= Unknown)

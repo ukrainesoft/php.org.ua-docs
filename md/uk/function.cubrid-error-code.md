@@ -1,16 +1,11 @@
-Отримати код помилки
-
--   [« cubriderrorcodefacility](function.cubrid-error-code-facility.html)
-    
--   [cubriderrormsg »](function.cubrid-error-msg.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримати код помилки
-    
-
+---
+navigation:
+  - function.cubrid-error-code-facility.html: « cubriderrorcodefacility
+  - function.cubrid-error-msg.html: cubriderrormsg »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubriderrorcode
+---
 # cubriderrorcode
 
 (PECL CUBRID >= 8.3.0)

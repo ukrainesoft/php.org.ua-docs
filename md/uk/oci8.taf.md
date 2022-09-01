@@ -1,16 +1,13 @@
-Підтримка прозорого для програм відновлення після відмови (Transparent Application Failover або TAF) для OCI8
-
--   [« Поддержка OCI8 Fast Application Notification (FAN)](oci8.fan.md)
-    
--   [OCI8 та динамічне трасування DTrace »](oci8.dtrace.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8](book.oci8.md)
-    
--   Підтримка прозорого для програм відновлення після відмови (Transparent Application Failover або TAF) для OCI8
-    
-
+---
+navigation:
+  - oci8.fan.md: « Поддержка OCI8 Fast Application Notification (FAN)
+  - oci8.dtrace.md: OCI8 та динамічне трасування DTrace »
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
+title: >-
+  Підтримка прозорого для програм відновлення після відмови (Transparent
+  Application Failover або TAF) для OCI8
+---
 # Підтримка прозорого для програм відновлення після відмови (Transparent Application Failover або TAF) для OCI8
 
 TAF - це механізм бази даних Oracle, що забезпечує високу доступність. Він дозволяє програмам PHP, що використовують OCI8, автоматично перепідключатися до резервної бази даних у разі збою на основний або при мережевих проблемах.

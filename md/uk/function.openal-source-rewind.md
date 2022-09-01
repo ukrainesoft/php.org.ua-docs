@@ -1,16 +1,11 @@
-Перемотати джерело на початок
-
--   [« openalsourceplay](function.openal-source-play.html)
-    
--   [openalsourceset »](function.openal-source-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Перемотати джерело на початок
-    
-
+---
+navigation:
+  - function.openal-source-play.html: « openalsourceplay
+  - function.openal-source-set.html: openalsourceset »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalsourcerewind
+---
 # openalsourcerewind
 
 (PECL openal >= 0.1.0)

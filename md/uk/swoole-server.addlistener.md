@@ -1,16 +1,11 @@
-Додає нового слухача на сервер
-
--   [« SwooleServer](class.swoole-server.html)
-    
--   [SwooleServer::addProcess »](swoole-server.addprocess.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Додає нового слухача на сервер
-    
-
+---
+navigation:
+  - class.swoole-server.html: « SwooleServer
+  - swoole-server.addprocess.html: 'SwooleServer::addProcess »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::addlistener'
+---
 # SwooleServer::addlistener
 
 (PECL swoole >= 1.9.0)

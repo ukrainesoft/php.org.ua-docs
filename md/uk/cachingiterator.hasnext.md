@@ -1,16 +1,11 @@
-Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
-
--   [« CachingIterator::getInnerIterator](cachingiterator.getinneriterator.md)
-    
--   [CachingIterator::key »](cachingiterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
-    
-
+---
+navigation:
+  - cachingiterator.getinneriterator.md: '« CachingIterator::getInnerIterator'
+  - cachingiterator.key.md: 'CachingIterator::key »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::hasNext'
+---
 # CachingIterator::hasNext
 
 (PHP 5, PHP 7, PHP 8)

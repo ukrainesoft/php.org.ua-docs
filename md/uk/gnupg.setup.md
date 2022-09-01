@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.gnupg.md)
-    
--   [Вимоги »](gnupg.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG](book.gnupg.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.gnupg.md: « Введение
+  - gnupg.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.gnupg.md: GnuPG
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

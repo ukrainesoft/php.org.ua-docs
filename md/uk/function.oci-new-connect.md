@@ -1,16 +1,11 @@
-Встановлює нове з'єднання із сервером Oracle
-
--   [« ocinewcollection](function.oci-new-collection.html)
-    
--   [ocinewcursor »](function.oci-new-cursor.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Встановлює нове з'єднання із сервером Oracle
-    
-
+---
+navigation:
+  - function.oci-new-collection.html: « ocinewcollection
+  - function.oci-new-cursor.html: ocinewcursor »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocinewconnect
+---
 # ocinewconnect
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -71,8 +66,8 @@ oci_new_connect(    string $username,    string $password,    ?strin
 
 ### список змін
 
-| Версия                 | Описание                                          |
-|------------------------|---------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `connection_string` тепер допускає значення null. |
 
 ### Приклади

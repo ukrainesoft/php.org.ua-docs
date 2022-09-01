@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](stream.setup.html)
-    
--   [Установка »](stream.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](stream.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - stream.setup.html: « Встановлення та налаштування
+  - stream.installation.html: Установка »
+  - index.html: PHP Manual
+  - stream.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

@@ -1,16 +1,11 @@
-Отримує останній шлях реєстратора SeasLog
-
--   [« SeasLog::getDatetimeFormat](seaslog.getdatetimeformat.md)
-    
--   [SeasLog::getRequestID »](seaslog.getrequestid.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Отримує останній шлях реєстратора SeasLog
-    
-
+---
+navigation:
+  - seaslog.getdatetimeformat.md: '« SeasLog::getDatetimeFormat'
+  - seaslog.getrequestid.md: 'SeasLog::getRequestID »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::getLastLogger'
+---
 # SeasLog::getLastLogger
 
 (PECL seaslog >=1.0.0)

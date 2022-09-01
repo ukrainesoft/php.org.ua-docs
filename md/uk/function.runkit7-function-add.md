@@ -1,16 +1,11 @@
-Додає нову функцію, функція аналогічна createfunction
-
--   [« runkit7constantremove](function.runkit7-constant-remove.html)
-    
--   [runkit7functioncopy »](function.runkit7-function-copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Додає нову функцію, функція аналогічна createfunction
-    
-
+---
+navigation:
+  - function.runkit7-constant-remove.html: « runkit7constantremove
+  - function.runkit7-function-copy.html: runkit7functioncopy »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7functionadd
+---
 # runkit7functionadd
 
 (PECL runkit7> = Unknown)

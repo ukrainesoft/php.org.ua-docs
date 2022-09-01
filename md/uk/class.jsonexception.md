@@ -1,16 +1,11 @@
-Клас JsonException
-
--   [« Обумовлені константи](json.constants.md)
-    
--   [JsonSerializable »](class.jsonserializable.md)
-    
--   [PHP Manual](index.md)
-    
--   [JSON](book.json.md)
-    
--   Клас JsonException
-    
-
+---
+navigation:
+  - json.constants.md: « Обумовлені константи
+  - class.jsonserializable.md: JsonSerializable »
+  - index.md: PHP Manual
+  - book.json.md: JSON
+title: Клас JsonException
+---
 # Клас JsonException
 
 (PHP 7> = 7.3.0, PHP 8)

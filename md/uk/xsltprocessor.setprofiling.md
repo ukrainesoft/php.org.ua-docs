@@ -1,16 +1,11 @@
-Встановлює файл для профілювання
-
--   [« XSLTProcessor::setParameter](xsltprocessor.setparameter.md)
-    
--   [XSLTProcessor::setSecurityPrefs »](xsltprocessor.setsecurityprefs.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Встановлює файл для профілювання
-    
-
+---
+navigation:
+  - xsltprocessor.setparameter.md: '« XSLTProcessor::setParameter'
+  - xsltprocessor.setsecurityprefs.md: 'XSLTProcessor::setSecurityPrefs »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::setProfiling'
+---
 # XSLTProcessor::setProfiling
 
 (PHP >= 5.3.0, PHP 7, PHP 8)

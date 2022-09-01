@@ -1,16 +1,11 @@
-Отримати кількість ідентифікаторів у групі схожих часових поясів, включаючи цей ідентифікатор
-
--   [« IntlTimeZone::construct](intltimezone.construct.md)
-    
--   [IntlTimeZone::createDefault »](intltimezone.createdefault.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Отримати кількість ідентифікаторів у групі схожих часових поясів, включаючи цей ідентифікатор
-    
-
+---
+navigation:
+  - intltimezone.construct.md: '« IntlTimeZone::construct'
+  - intltimezone.createdefault.md: 'IntlTimeZone::createDefault »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::countEquivalentIDs'
+---
 # IntlTimeZone::countEquivalentIDs
 
 # intltzcountequivalentids

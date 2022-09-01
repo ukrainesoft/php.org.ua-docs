@@ -1,16 +1,11 @@
-Клас EventHttpRequest
-
--   [« EventHttpConnection::setTimeout](eventhttpconnection.settimeout.html)
-    
--   [EventHttpRequest::addHeader »](eventhttprequest.addheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [Event](book.event.html)
-    
--   Клас EventHttpRequest
-    
-
+---
+navigation:
+  - eventhttpconnection.settimeout.html: '« EventHttpConnection::setTimeout'
+  - eventhttprequest.addheader.html: 'EventHttpRequest::addHeader »'
+  - index.html: PHP Manual
+  - book.event.html: Event
+title: Клас EventHttpRequest
+---
 # Клас EventHttpRequest
 
 (PECL event >= 1.4.0-beta)

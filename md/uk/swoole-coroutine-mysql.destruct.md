@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineMySQL::construct](swoole-coroutine-mysql.construct.html)
-    
--   [SwooleCoroutineMySQL::getDefer »](swoole-coroutine-mysql.getdefer.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-mysql.construct.html: '« SwooleCoroutineMySQL::construct'
+  - swoole-coroutine-mysql.getdefer.html: 'SwooleCoroutineMySQL::getDefer »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineMySQL::destruct'
+---
 # SwooleCoroutineMySQL::destruct
 
 (PECL swoole >= 2.0.0)

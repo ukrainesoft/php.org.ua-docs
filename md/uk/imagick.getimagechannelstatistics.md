@@ -1,16 +1,11 @@
-Повертає статистику для кожного каналу зображення
-
--   [« Imagick::getImageChannelRange](imagick.getimagechannelrange.md)
-    
--   [Imagick::getImageClipMask »](imagick.getimageclipmask.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає статистику для кожного каналу зображення
-    
-
+---
+navigation:
+  - imagick.getimagechannelrange.md: '« Imagick::getImageChannelRange'
+  - imagick.getimageclipmask.md: 'Imagick::getImageClipMask »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageChannelStatistics'
+---
 # Imagick::getImageChannelStatistics
 
 (PECL imagick 2, PECL imagick 3)

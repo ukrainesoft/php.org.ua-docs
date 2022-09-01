@@ -1,16 +1,11 @@
-Перевіряє доступність бази GeoIP
-
--   [« geoipdatabaseinfo](function.geoip-database-info.html)
-    
--   [geoipдбfilename »](function.geoip-db-filename.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Перевіряє доступність бази GeoIP
-    
-
+---
+navigation:
+  - function.geoip-database-info.html: « geoipdatabaseinfo
+  - function.geoip-db-filename.html: geoipдбfilename »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipдбavail
+---
 # geoipдбavail
 
 (PECL geoip >= 1.0.1)

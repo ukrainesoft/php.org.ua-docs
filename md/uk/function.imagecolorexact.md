@@ -1,16 +1,11 @@
-Отримання індексу заданого кольору
-
--   [« imagecolordeallocate](function.imagecolordeallocate.md)
-    
--   [imagecolorexactalpha »](function.imagecolorexactalpha.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання індексу заданого кольору
-    
-
+---
+navigation:
+  - function.imagecolordeallocate.md: « imagecolordeallocate
+  - function.imagecolorexactalpha.md: imagecolorexactalpha »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorexact
+---
 # imagecolorexact
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ imagecolorexact(    GdImage $image,    int $red,    int $green,  �
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

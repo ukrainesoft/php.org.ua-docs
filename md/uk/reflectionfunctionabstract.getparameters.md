@@ -1,16 +1,11 @@
-Отримує параметри
-
--   [« ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.html)
-    
--   [ReflectionFunctionAbstract::getReturnType »](reflectionfunctionabstract.getreturntype.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Отримує параметри
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getnumberofrequiredparameters.html: '« ReflectionFunctionAbstract::getNumberOfRequiredParameters'
+  - reflectionfunctionabstract.getreturntype.html: 'ReflectionFunctionAbstract::getReturnType »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getParameters'
+---
 # ReflectionFunctionAbstract::getParameters
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

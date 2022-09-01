@@ -1,16 +1,11 @@
-Запускає виконання завдання з високим пріоритетом
-
--   [« GearmanClient::doBackground](gearmanclient.dobackground.html)
-    
--   [GearmanClient::doHighBackground »](gearmanclient.dohighbackground.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Запускає виконання завдання з високим пріоритетом
-    
-
+---
+navigation:
+  - gearmanclient.dobackground.html: '« GearmanClient::doBackground'
+  - gearmanclient.dohighbackground.html: 'GearmanClient::doHighBackground »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::doHigh'
+---
 # GearmanClient::doHigh
 
 (PECL gearman >= 0.5.0)

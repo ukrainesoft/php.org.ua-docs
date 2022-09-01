@@ -1,16 +1,11 @@
-Клас EventListener
-
--   [« EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.html)
-    
--   [EventListener::construct »](eventlistener.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Event](book.event.html)
-    
--   Клас EventListener
-    
-
+---
+navigation:
+  - eventhttprequest.sendreplystart.html: '« EventHttpRequest::sendReplyStart'
+  - eventlistener.construct.html: 'EventListener::construct »'
+  - index.html: PHP Manual
+  - book.event.html: Event
+title: Клас EventListener
+---
 # Клас EventListener
 
 (PECL event >= 1.5.0)

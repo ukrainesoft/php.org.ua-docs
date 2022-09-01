@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](errorfunc.setup.md)
-    
--   [Установка »](errorfunc.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](errorfunc.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - errorfunc.setup.md: « Встановлення та налаштування
+  - errorfunc.installation.md: Установка »
+  - index.md: PHP Manual
+  - errorfunc.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

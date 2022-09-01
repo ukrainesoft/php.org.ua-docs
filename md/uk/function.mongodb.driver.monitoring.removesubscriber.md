@@ -1,16 +1,11 @@
-Скасує глобальну реєстрацію передплатника на подію моніторингу
-
--   [« MongoDBDriverMonitoringaddSubscriber](function.mongodb.driver.monitoring.addsubscriber.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent »](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції](ref.monitoring.functions.html)
-    
--   Скасує глобальну реєстрацію передплатника на подію моніторингу
-    
-
+---
+navigation:
+  - function.mongodb.driver.monitoring.addsubscriber.html: « MongoDBDriverMonitoringaddSubscriber
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent »
+  - index.html: PHP Manual
+  - ref.monitoring.functions.html: Функції
+title: MongoDBDriverMonitoringremoveSubscriber
+---
 # MongoDBDriverMonitoringremoveSubscriber
 
 (mongodb >=1.3.0)

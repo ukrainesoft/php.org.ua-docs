@@ -1,16 +1,11 @@
-Встановлює формат певного зображення
-
--   [« Imagick::setImageFilename](imagick.setimagefilename.md)
-    
--   [Imagick::setImageGamma »](imagick.setimagegamma.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює формат певного зображення
-    
-
+---
+navigation:
+  - imagick.setimagefilename.md: '« Imagick::setImageFilename'
+  - imagick.setimagegamma.md: 'Imagick::setImageGamma »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageFormat'
+---
 # Imagick::setImageFormat
 
 (PECL imagick 2, PECL imagick 3)

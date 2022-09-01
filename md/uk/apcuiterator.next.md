@@ -1,16 +1,11 @@
-Переміщує покажчик на наступний елемент
-
--   [« APCUIterator::key](apcuiterator.key.md)
-    
--   [APCUIterator::rewind »](apcuiterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Переміщує покажчик на наступний елемент
-    
-
+---
+navigation:
+  - apcuiterator.key.md: '« APCUIterator::key'
+  - apcuiterator.rewind.md: 'APCUIterator::rewind »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::next'
+---
 # APCUIterator::next
 
 (PECL apcu >= 5.0.0)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« Структури даних](book.ds.html)
-    
--   [Встановлення та налаштування »](ds.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Структури даних](book.ds.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.ds.html: « Структури даних
+  - ds.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.ds.html: Структури даних
+title: Вступ
+---
 # Вступ
 
 Ефективні структури даних для PHP 7 представлені як альтернативи для типу array.

@@ -1,16 +1,11 @@
-Повертає поточне значення
-
--   [« AppendIterator::construct](appenditerator.construct.md)
-    
--   [AppendIterator::getArrayIterator »](appenditerator.getarrayiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [AppendIterator](class.appenditerator.md)
-    
--   Повертає поточне значення
-    
-
+---
+navigation:
+  - appenditerator.construct.md: '« AppendIterator::construct'
+  - appenditerator.getarrayiterator.md: 'AppendIterator::getArrayIterator »'
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
+title: 'AppendIterator::current'
+---
 # AppendIterator::current
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

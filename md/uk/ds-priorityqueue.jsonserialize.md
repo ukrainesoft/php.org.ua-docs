@@ -1,16 +1,11 @@
-Повертає колекцію в JSON-виставу
-
--   [« DsPriorityQueue::isEmpty](ds-priorityqueue.isempty.html)
-    
--   [ДсPriorityQueue::peek »](ds-priorityqueue.peek.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Повертає колекцію в JSON-виставу
-    
-
+---
+navigation:
+  - ds-priorityqueue.isempty.html: '« DsPriorityQueue::isEmpty'
+  - ds-priorityqueue.peek.html: 'ДсPriorityQueue::peek »'
+  - index.html: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::jsonSerialize'
+---
 # ДсPriorityQueue::jsonSerialize
 
 (PECL ds >= 1.0.0)

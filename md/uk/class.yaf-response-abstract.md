@@ -1,16 +1,11 @@
-Клас YafResponseAbstract
-
--   [« YafRequestSimple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.html)
-    
--   [YafResponseAbstract::appendBody »](yaf-response-abstract.appendbody.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafResponseAbstract
-    
-
+---
+navigation:
+  - yaf-request-simple.isxmlhttprequest.html: '« YafRequestSimple::isXmlHttpRequest'
+  - yaf-response-abstract.appendbody.html: 'YafResponseAbstract::appendBody »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafResponseAbstract
+---
 # Клас YafResponseAbstract
 
 (Yaf >=1.0.0)

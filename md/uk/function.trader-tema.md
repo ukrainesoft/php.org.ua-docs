@@ -1,16 +1,11 @@
-Потрійна експоненційна ковзна середня
-
--   [« tradertanh](function.trader-tanh.html)
-    
--   [tradertrange »](function.trader-trange.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Потрійна експоненційна ковзна середня
-    
-
+---
+navigation:
+  - function.trader-tanh.html: « tradertanh
+  - function.trader-trange.html: tradertrange »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradertema
+---
 # tradertema
 
 (PECL trader >= 0.2.0)

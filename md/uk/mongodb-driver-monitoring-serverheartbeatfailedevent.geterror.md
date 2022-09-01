@@ -1,16 +1,11 @@
-Повертає виняток, пов'язаний з невдалим виконанням heartbeat
-
--   [« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
-    
--   Повертає виняток, пов'язаний з невдалим виконанням heartbeat
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.html: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.html: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.html: MongoDBDriverMonitoringServerHeartbeatFailedEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError'
+---
 # MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError
 
 (mongodb >=1.13.0)

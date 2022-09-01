@@ -1,16 +1,11 @@
-Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
-
--   [« mysqlistmt::sendlongdata](mysqli-stmt.send-long-data.html)
-    
--   [mysqlistmt::storeresult »](mysqli-stmt.store-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
-    
-
+---
+navigation:
+  - mysqli-stmt.send-long-data.html: '« mysqlistmt::sendlongdata'
+  - mysqli-stmt.store-result.html: 'mysqlistmt::storeresult »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$sqlstate'
+---
 # mysqlistmt::$sqlstate
 
 # mysqlistmtsqlstate

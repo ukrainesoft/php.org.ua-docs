@@ -1,16 +1,11 @@
-Конвертує IP-адресу, що читається, в її упаковане подання inaddr
-
--   [« inetntop](function.inet-ntop.html)
-    
--   [ip2long »](function.ip2long.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Конвертує IP-адресу, що читається, в її упаковане подання inaddr
-    
-
+---
+navigation:
+  - function.inet-ntop.html: « inetntop
+  - function.ip2long.html: ip2long »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: inetpton
+---
 # inetpton
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

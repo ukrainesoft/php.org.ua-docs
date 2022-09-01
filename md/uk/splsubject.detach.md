@@ -1,16 +1,11 @@
-Від'єднати спостерігача
-
--   [« SplSubject::attach](splsubject.attach.md)
-    
--   [SplSubject::notify »](splsubject.notify.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplSubject](class.splsubject.md)
-    
--   Від'єднати спостерігача
-    
-
+---
+navigation:
+  - splsubject.attach.md: '« SplSubject::attach'
+  - splsubject.notify.md: 'SplSubject::notify »'
+  - index.md: PHP Manual
+  - class.splsubject.md: SplSubject
+title: 'SplSubject::detach'
+---
 # SplSubject::detach
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

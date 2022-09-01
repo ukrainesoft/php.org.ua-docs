@@ -1,16 +1,11 @@
-Перевіряє існування сусідніх вузлів
-
--   [« tidyNode::hasChildren](tidynode.haschildren.md)
-    
--   [tidyNode::isAsp »](tidynode.isasp.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidyNode](class.tidynode.md)
-    
--   Перевіряє існування сусідніх вузлів
-    
-
+---
+navigation:
+  - tidynode.haschildren.md: '« tidyNode::hasChildren'
+  - tidynode.isasp.md: 'tidyNode::isAsp »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
+title: 'tidyNode::hasSiblings'
+---
 # tidyNode::hasSiblings
 
 (PHP 5, PHP 7, PHP 8)

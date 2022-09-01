@@ -1,16 +1,11 @@
-Зупиняє цикл подій
-
--   [« EvLoop::stat](evloop.stat.md)
-    
--   [EvLoop::suspend »](evloop.suspend.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Зупиняє цикл подій
-    
-
+---
+navigation:
+  - evloop.stat.md: '« EvLoop::stat'
+  - evloop.suspend.md: 'EvLoop::suspend »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::stop'
+---
 # EvLoop::stop
 
 (PECL ev >= 0.2.0)

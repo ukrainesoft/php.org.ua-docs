@@ -1,16 +1,11 @@
-Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
-
--   [« streamsocketrecvfrom](function.stream-socket-recvfrom.html)
-    
--   [streamsocketserver »](function.stream-socket-server.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
-    
-
+---
+navigation:
+  - function.stream-socket-recvfrom.html: « streamsocketrecvfrom
+  - function.stream-socket-server.html: streamsocketserver »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsocketsendto
+---
 # streamsocketsendto
 
 (PHP 5, PHP 7, PHP 8)

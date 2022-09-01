@@ -1,16 +1,11 @@
-Встановлює критерії сортування
-
--   [« CollectionFind::offset](mysql-xdevapi-collectionfind.offset.html)
-    
--   [mysqlxdevapiCollectionModify »](class.mysql-xdevapi-collectionmodify.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Встановлює критерії сортування
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.offset.html: '« CollectionFind::offset'
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::sort'
+---
 # CollectionFind::sort
 
 (No version information available, might only be in Git)

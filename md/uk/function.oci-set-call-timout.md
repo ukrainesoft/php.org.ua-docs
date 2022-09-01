@@ -1,16 +1,11 @@
-Встановлює час очікування у мілісекундах для викликів бази даних
-
--   [« ocisetaction](function.oci-set-action.html)
-    
--   [ocisetclientidentifier »](function.oci-set-client-identifier.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Встановлює час очікування у мілісекундах для викликів бази даних
-    
-
+---
+navigation:
+  - function.oci-set-action.html: « ocisetaction
+  - function.oci-set-client-identifier.html: ocisetclientidentifier »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocisetcalltimeout
+---
 # ocisetcalltimeout
 
 (PHP 7.2 >= 7.2.14, PHP 8, PHP 7 >= 7.3.1, PHP 8, PECL OCI8 >= 2.2.0)

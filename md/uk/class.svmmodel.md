@@ -1,16 +1,11 @@
-Клас SVMModel
-
--   [« SVM::train](svm.train.md)
-    
--   [SVMModel::checkProbabilityModel »](svmmodel.checkprobabilitymodel.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVM](book.svm.md)
-    
--   Клас SVMModel
-    
-
+---
+navigation:
+  - svm.train.md: '« SVM::train'
+  - svmmodel.checkprobabilitymodel.md: 'SVMModel::checkProbabilityModel »'
+  - index.md: PHP Manual
+  - book.svm.md: SVM
+title: Клас SVMModel
+---
 # Клас SVMModel
 
 (PECL svm >= 0.1.0)

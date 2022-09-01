@@ -1,16 +1,11 @@
-Установка прапорів
-
--   [« RegexIterator::getRegex](regexiterator.getregex.md)
-    
--   [RegexIterator::setMode »](regexiterator.setmode.md)
-    
--   [PHP Manual](index.md)
-    
--   [RegexIterator](class.regexiterator.md)
-    
--   Установка прапорів
-    
-
+---
+navigation:
+  - regexiterator.getregex.md: '« RegexIterator::getRegex'
+  - regexiterator.setmode.md: 'RegexIterator::setMode »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
+title: 'RegexIterator::setFlags'
+---
 # RegexIterator::setFlags
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public RegexIterator::setFlags(int $flags): void
 
 **Прапори [RegexIterator](class.regexiterator.md)**
 
-| значение | константа                                                                         |
-|----------|-----------------------------------------------------------------------------------|
-|          | [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key) |
+| значение | константа |
+| --- | --- |
+|  | [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key) |
 
 ### Значення, що повертаються
 

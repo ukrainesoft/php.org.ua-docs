@@ -1,16 +1,11 @@
-Отримати опис файлу, готового до читання/запису чи помилки
-
--   [« swooleclearerror](function.swoole-clear-error.html)
-    
--   [swoolecpunum »](function.swoole-cpu-num.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Отримати опис файлу, готового до читання/запису чи помилки
-    
-
+---
+navigation:
+  - function.swoole-clear-error.html: « swooleclearerror
+  - function.swoole-cpu-num.html: swoolecpunum »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleclientselect
+---
 # swooleclientselect
 
 (PECL swoole >= 1.9.0)

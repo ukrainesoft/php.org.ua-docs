@@ -1,16 +1,11 @@
-Гіперболічний арксинус
-
--   [« asin](function.asin.html)
-    
--   [atan2 »](function.atan2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Гіперболічний арксинус
-    
-
+---
+navigation:
+  - function.asin.html: « asin
+  - function.atan2.html: atan2 »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: asinh
+---
 # asinh
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює дату
-
--   [« DateTime::setstate](datetime.set-state.html)
-    
--   [DateTime::setISODate »](datetime.setisodate.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Встановлює дату
-    
-
+---
+navigation:
+  - datetime.set-state.html: '« DateTime::setstate'
+  - datetime.setisodate.md: 'DateTime::setISODate »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::setDate'
+---
 # DateTime::setDate
 
 # datedateset

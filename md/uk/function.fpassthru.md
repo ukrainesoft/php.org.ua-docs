@@ -1,16 +1,11 @@
-Виводить всі дані з файлового покажчика.
-
--   [« fopen](function.fopen.md)
-    
--   [fputcsv »](function.fputcsv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Виводить всі дані з файлового покажчика.
-    
-
+---
+navigation:
+  - function.fopen.md: « fopen
+  - function.fputcsv.md: fputcsv »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fpassthru
+---
 # fpassthru
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

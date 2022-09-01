@@ -1,16 +1,11 @@
-Форматує дату/час за Грінвічем з урахуванням поточної локалі
-
--   [« gmmktime](function.gmmktime.md)
-    
--   [idate »](function.idate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Форматує дату/час за Грінвічем з урахуванням поточної локалі
-    
-
+---
+navigation:
+  - function.gmmktime.md: « gmmktime
+  - function.idate.md: idate »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: gmstrftime
+---
 # gmstrftime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -50,9 +45,9 @@ gmstrftime(string $format, ?int $timestamp = null): string|false
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `timestamp` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timestamp` тепер допускає значення null. |
 
 ### Приклади
 

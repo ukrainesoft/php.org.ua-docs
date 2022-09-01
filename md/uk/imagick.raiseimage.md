@@ -1,16 +1,11 @@
-Створює імітацію ефекту 3D-кнопки
-
--   [« Imagick::radialBlurImage](imagick.radialblurimage.md)
-    
--   [Imagick::randomThresholdImage »](imagick.randomthresholdimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює імітацію ефекту 3D-кнопки
-    
-
+---
+navigation:
+  - imagick.radialblurimage.md: '« Imagick::radialBlurImage'
+  - imagick.randomthresholdimage.md: 'Imagick::randomThresholdImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::raiseImage'
+---
 # Imagick::raiseImage
 
 (PECL imagick 2, PECL imagick 3)

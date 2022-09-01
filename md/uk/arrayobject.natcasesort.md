@@ -1,16 +1,11 @@
-Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
-
--   [« ArrayObject::ksort](arrayobject.ksort.md)
-    
--   [ArrayObject::natsort »](arrayobject.natsort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
-    
-
+---
+navigation:
+  - arrayobject.ksort.md: '« ArrayObject::ksort'
+  - arrayobject.natsort.md: 'ArrayObject::natsort »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::natcasesort'
+---
 # ArrayObject::natcasesort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає рядок, що містить векторну графіку
-
--   [« ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md)
-    
--   [ImagickDraw::line »](imagickdraw.line.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає рядок, що містить векторну графіку
-    
-
+---
+navigation:
+  - imagickdraw.gettextundercolor.md: '« ImagickDraw::getTextUnderColor'
+  - imagickdraw.line.md: 'ImagickDraw::line »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getVectorGraphics'
+---
 # ImagickDraw::getVectorGraphics
 
 (PECL imagick 2, PECL imagick 3)

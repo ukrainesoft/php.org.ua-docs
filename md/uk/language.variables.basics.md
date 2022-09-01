@@ -1,16 +1,11 @@
-Основи
-
--   [« Змінні](language.variables.html)
-    
--   [Зумовлені змінні »](language.variables.predefined.html)
-    
--   [PHP Manual](index.html)
-    
--   [Змінні](language.variables.html)
-    
--   Основи
-    
-
+---
+navigation:
+  - language.variables.html: « Змінні
+  - language.variables.predefined.html: Зумовлені змінні »
+  - index.html: PHP Manual
+  - language.variables.html: Змінні
+title: Основи
+---
 ## Основи
 
 Змінні PHP представлені знаком долара з наступним ім'ям змінної. Ім'я змінної чутливе до регістру.

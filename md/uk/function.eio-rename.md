@@ -1,16 +1,11 @@
-Змінює ім'я або переміщує файл
-
--   [« eiorealpath](function.eio-realpath.html)
-    
--   [eiormdir »](function.eio-rmdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Змінює ім'я або переміщує файл
-    
-
+---
+navigation:
+  - function.eio-realpath.html: « eiorealpath
+  - function.eio-rmdir.html: eiormdir »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiorename
+---
 # eiorename
 
 (PECL eio >= 0.0.1dev)

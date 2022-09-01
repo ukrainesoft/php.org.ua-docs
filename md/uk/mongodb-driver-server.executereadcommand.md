@@ -1,16 +1,11 @@
-Виконує команду бази даних, яка читає на сервері
-
--   [« MongoDBDriverServer::executeQuery](mongodb-driver-server.executequery.html)
-    
--   [MongoDBDriverServer::executeReadWriteCommand »](mongodb-driver-server.executereadwritecommand.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Виконує команду бази даних, яка читає на сервері
-    
-
+---
+navigation:
+  - mongodb-driver-server.executequery.html: '« MongoDBDriverServer::executeQuery'
+  - mongodb-driver-server.executereadwritecommand.html: 'MongoDBDriverServer::executeReadWriteCommand »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::executeReadCommand'
+---
 # MongoDBDriverServer::executeReadCommand
 
 (mongodb >=1.4.0)
@@ -43,10 +38,10 @@ final public MongoDB\Driver\Server::executeReadCommand(string $db, MongoDB\Drive
 
 **options**
 
-| Опция                                  | Тип                                                               | Описание |
-|----------------------------------------|-------------------------------------------------------------------|----------|
-| readConcern                            | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |          |
-| Гарантія для застосування до операції. |                                                                   |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |  |
+| Гарантія для застосування до операції. |  |  |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 

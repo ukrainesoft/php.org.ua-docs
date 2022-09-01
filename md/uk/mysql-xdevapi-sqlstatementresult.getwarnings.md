@@ -1,16 +1,11 @@
-Отримує попередження від останньої операції
-
--   [« SqlStatementResult::getLastInsertId](mysql-xdevapi-sqlstatementresult.getlastinsertid.html)
-    
--   [SqlStatementResult::getWarningsCount »](mysql-xdevapi-sqlstatementresult.getwarningcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує попередження від останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getlastinsertid.html: '« SqlStatementResult::getLastInsertId'
+  - mysql-xdevapi-sqlstatementresult.getwarningcount.html: 'SqlStatementResult::getWarningsCount »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getWarnings'
+---
 # SqlStatementResult::getWarnings
 
 (No version information available, might only be in Git)

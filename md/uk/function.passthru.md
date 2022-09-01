@@ -1,16 +1,11 @@
-Виконати зовнішню програму та відобразити необроблений висновок
-
--   [« exec](function.exec.html)
-    
--   [procclose »](function.proc-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции запуска программ](ref.exec.html)
-    
--   Виконати зовнішню програму та відобразити необроблений висновок
-    
-
+---
+navigation:
+  - function.exec.html: « exec
+  - function.proc-close.html: procclose »
+  - index.html: PHP Manual
+  - ref.exec.html: Функции запуска программ
+title: passthru
+---
 # passthru
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

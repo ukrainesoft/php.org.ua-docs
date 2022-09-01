@@ -1,16 +1,11 @@
-Отримує ресурс рівнем нижче
-
--   [« streamWrapper::rmdir](streamwrapper.rmdir.md)
-    
--   [streamWrapper::streamclose »](streamwrapper.stream-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Отримує ресурс рівнем нижче
-    
-
+---
+navigation:
+  - streamwrapper.rmdir.md: '« streamWrapper::rmdir'
+  - streamwrapper.stream-close.html: 'streamWrapper::streamclose »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamcast'
+---
 # streamWrapper::streamcast
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

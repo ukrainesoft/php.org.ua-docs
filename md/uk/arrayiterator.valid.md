@@ -1,16 +1,11 @@
-Перевіряє, чи містить масив ще запису
-
--   [« ArrayIterator::unserialize](arrayiterator.unserialize.md)
-    
--   [CachingIterator »](class.cachingiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Перевіряє, чи містить масив ще запису
-    
-
+---
+navigation:
+  - arrayiterator.unserialize.md: '« ArrayIterator::unserialize'
+  - class.cachingiterator.md: CachingIterator »
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::valid'
+---
 # ArrayIterator::valid
 
 (PHP 5, PHP 7, PHP 8)

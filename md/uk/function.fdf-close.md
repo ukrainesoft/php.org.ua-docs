@@ -1,16 +1,11 @@
-Закриває FDF-документ
-
--   [« fdfaddtemplate](function.fdf-add-template.html)
-    
--   [fdfcreate »](function.fdf-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Закриває FDF-документ
-    
-
+---
+navigation:
+  - function.fdf-add-template.html: « fdfaddtemplate
+  - function.fdf-create.html: fdfcreate »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfclose
+---
 # fdfclose
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

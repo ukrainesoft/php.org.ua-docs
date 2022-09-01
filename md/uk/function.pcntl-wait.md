@@ -1,16 +1,11 @@
-Очікує чи повертає статус породженого дочірнього процесу
-
--   [pcntlunshare](function.pcntl-unshare.html)
-    
--   [pcntlwaitpid »](function.pcntl-waitpid.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Очікує чи повертає статус породженого дочірнього процесу
-    
-
+---
+navigation:
+  - function.pcntl-unshare.html: pcntlunshare
+  - function.pcntl-waitpid.html: pcntlwaitpid »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwait
+---
 # pcntlwait
 
 (PHP 5, PHP 7, PHP 8)

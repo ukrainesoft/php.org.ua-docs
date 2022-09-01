@@ -1,16 +1,11 @@
-Перевіряє досягнення кінця файлу за файловим покажчиком
-
--   [« streamWrapper::streamclose](streamwrapper.stream-close.html)
-    
--   [streamWrapper::streamflush »](streamwrapper.stream-flush.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Перевіряє досягнення кінця файлу за файловим покажчиком
-    
-
+---
+navigation:
+  - streamwrapper.stream-close.html: '« streamWrapper::streamclose'
+  - streamwrapper.stream-flush.html: 'streamWrapper::streamflush »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streameof'
+---
 # streamWrapper::streameof
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

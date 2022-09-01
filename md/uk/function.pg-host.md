@@ -1,16 +1,11 @@
-Повертає ім'я хоста, що відповідає підключенню
-
--   [« pggetresult](function.pg-get-result.html)
-    
--   [пгinsert »](function.pg-insert.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Повертає ім'я хоста, що відповідає підключенню
-    
-
+---
+navigation:
+  - function.pg-get-result.html: « pggetresult
+  - function.pg-insert.html: пгinsert »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгhost
+---
 # пгhost
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ pg_host(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `connection` тепер допускає значення null.                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

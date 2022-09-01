@@ -1,16 +1,11 @@
-Приймає з'єднання, створене слухачем
-
--   [« ssh2fingerprint](function.ssh2-fingerprint.html)
-    
--   [ssh2forwardlisten »](function.ssh2-forward-listen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Приймає з'єднання, створене слухачем
-    
-
+---
+navigation:
+  - function.ssh2-fingerprint.html: « ssh2fingerprint
+  - function.ssh2-forward-listen.html: ssh2forwardlisten »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2forwardaccept
+---
 # ssh2forwardaccept
 
 (PECL ssh2> = 0.9.0)

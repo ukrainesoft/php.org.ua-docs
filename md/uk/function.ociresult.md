@@ -1,16 +1,11 @@
-Псевдонім ociresult
-
--   [« ociplogon](function.ociplogon.md)
-    
--   [ocirollback »](function.ocirollback.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ociresult
-    
-
+---
+navigation:
+  - function.ociplogon.md: « ociplogon
+  - function.ocirollback.md: ocirollback »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ociresult
+---
 # ociresult
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

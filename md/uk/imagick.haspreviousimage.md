@@ -1,16 +1,11 @@
-Перевіряє, чи об'єкт має попереднє зображення
-
--   [« Imagick::hasNextImage](imagick.hasnextimage.md)
-    
--   [Imagick::identifyFormat »](imagick.identifyformat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перевіряє, чи об'єкт має попереднє зображення
-    
-
+---
+navigation:
+  - imagick.hasnextimage.md: '« Imagick::hasNextImage'
+  - imagick.identifyformat.md: 'Imagick::identifyFormat »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::hasPreviousImage'
+---
 # Imagick::hasPreviousImage
 
 (PECL imagick 2, PECL imagick 3)

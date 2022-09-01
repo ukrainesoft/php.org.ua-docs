@@ -1,16 +1,11 @@
-Отримує кодову точку символу Unicode
-
--   [« mblistencodings](function.mb-list-encodings.html)
-    
--   [мбoutputhandler »](function.mb-output-handler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Отримує кодову точку символу Unicode
-    
-
+---
+navigation:
+  - function.mb-list-encodings.html: « mblistencodings
+  - function.mb-output-handler.html: мбoutputhandler »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбord
+---
 # мбord
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -43,9 +38,9 @@ mb_ord(string $string, ?string $encoding = null): int|false
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

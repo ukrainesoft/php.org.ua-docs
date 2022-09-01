@@ -1,16 +1,11 @@
-Встановлює текст, який з'являється після виділення
-
--   [« SolrQuery::setHighlightRequireFieldMatch](solrquery.sethighlightrequirefieldmatch.md)
-    
--   [SolrQuery::setHighlightSimplePre »](solrquery.sethighlightsimplepre.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює текст, який з'являється після виділення
-    
-
+---
+navigation:
+  - solrquery.sethighlightrequirefieldmatch.md: '« SolrQuery::setHighlightRequireFieldMatch'
+  - solrquery.sethighlightsimplepre.md: 'SolrQuery::setHighlightSimplePre »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightSimplePost'
+---
 # SolrQuery::setHighlightSimplePost
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Запустити сервер RPC
-
--   [« YarServer::construct](yar-server.construct.html)
-    
--   [YarClient »](class.yar-client.html)
-    
--   [PHP Manual](index.md)
-    
--   [YarServer](class.yar-server.html)
-    
--   Запустити сервер RPC
-    
-
+---
+navigation:
+  - yar-server.construct.html: '« YarServer::construct'
+  - class.yar-client.html: YarClient »
+  - index.md: PHP Manual
+  - class.yar-server.html: YarServer
+title: 'YarServer::handle'
+---
 # YarServer::handle
 
 (PECL yar >= 1.0.0)

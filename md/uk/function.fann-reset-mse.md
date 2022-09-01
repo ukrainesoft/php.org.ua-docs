@@ -1,16 +1,11 @@
-Скидає середньоквадратичну помилку з мережі
-
--   [« fannreseterrstr](function.fann-reset-errstr.html)
-    
--   [fannrun »](function.fann-run.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Скидає середньоквадратичну помилку з мережі
-    
-
+---
+navigation:
+  - function.fann-reset-errstr.html: « fannreseterrstr
+  - function.fann-run.html: fannrun »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannresetMSE
+---
 # fannresetMSE
 
 (PECL fann> = 1.0.0)

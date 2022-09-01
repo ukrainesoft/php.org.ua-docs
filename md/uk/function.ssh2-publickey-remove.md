@@ -1,16 +1,11 @@
-Видаляє авторизований відкритий ключ
-
--   [« ssh2publickeylist](function.ssh2-publickey-list.html)
-    
--   [ssh2scprecv »](function.ssh2-scp-recv.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Видаляє авторизований відкритий ключ
-    
-
+---
+navigation:
+  - function.ssh2-publickey-list.html: « ssh2publickeylist
+  - function.ssh2-scp-recv.html: ssh2scprecv »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2publickeyremove
+---
 # ssh2publickeyremove
 
 (PECL ssh2> = 0.10)

@@ -1,16 +1,11 @@
-Встановлює кількість періодів стагнації каскадного виводу
-
--   [« fannsetcascadeoutputchangefraction](function.fann-set-cascade-output-change-fraction.html)
-    
--   [fannsetcascadeweightmultiplier »](function.fann-set-cascade-weight-multiplier.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює кількість періодів стагнації каскадного виводу
-    
-
+---
+navigation:
+  - function.fann-set-cascade-output-change-fraction.html: « fannsetcascadeoutputchangefraction
+  - function.fann-set-cascade-weight-multiplier.html: fannsetcascadeweightmultiplier »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascadeoutputstagnationepochs
+---
 # fannsetcascadeoutputstagnationepochs
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Зупинити цикл за замовчуванням
-
--   [« Ev::sleep](ev.sleep.html)
-    
--   [Ev::supportedBackends »](ev.supportedbackends.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](class.ev.html)
-    
--   Зупинити цикл за замовчуванням
-    
-
+---
+navigation:
+  - ev.sleep.html: '« Ev::sleep'
+  - ev.supportedbackends.html: 'Ev::supportedBackends »'
+  - index.html: PHP Manual
+  - class.ev.html: Єв
+title: 'Ev::stop'
+---
 # Ev::stop
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](mqseries.requirements.html)
-    
--   [Налаштування під час виконання »](mqseries.ini.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](mqseries.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - mqseries.requirements.html: « Вимоги
+  - mqseries.ini.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - mqseries.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

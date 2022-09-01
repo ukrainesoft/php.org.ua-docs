@@ -1,16 +1,11 @@
-Отримує модифікатори методу
-
--   [« ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md)
-    
--   [ReflectionMethod::getPrototype »](reflectionmethod.getprototype.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Отримує модифікатори методу
-    
-
+---
+navigation:
+  - reflectionmethod.getdeclaringclass.md: '« ReflectionMethod::getDeclaringClass'
+  - reflectionmethod.getprototype.md: 'ReflectionMethod::getPrototype »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::getModifiers'
+---
 # ReflectionMethod::getModifiers
 
 (PHP 5, PHP 7, PHP 8)

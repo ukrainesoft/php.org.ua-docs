@@ -1,16 +1,11 @@
-Клас Vector
-
--   [« DsSequence::unshift](ds-sequence.unshift.html)
-    
--   [ДсVector::allocate »](ds-vector.allocate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Структури даних](book.ds.html)
-    
--   Клас Vector
-    
-
+---
+navigation:
+  - ds-sequence.unshift.html: '« DsSequence::unshift'
+  - ds-vector.allocate.html: 'ДсVector::allocate »'
+  - index.html: PHP Manual
+  - book.ds.html: Структури даних
+title: Клас Vector
+---
 # Клас Vector
 
 (No version information available, might only be in Git)
@@ -94,8 +89,8 @@ public unshift(mixed $values = ?): void
 
 ## список змін
 
-| Версия        | Описание                                                  |
-|---------------|-----------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
 
 ## Зміст

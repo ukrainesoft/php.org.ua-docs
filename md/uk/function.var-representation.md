@@ -1,16 +1,11 @@
-Повертає коротке, читанне, розбірливе рядкове уявлення змінної
-
--   [« Функции varrepresentation](ref.var-representation.html)
-    
--   [Інші служби »](refs.remote.other.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции varrepresentation](ref.var-representation.html)
-    
--   Повертає коротке, читанне, розбірливе рядкове уявлення змінної
-    
-
+---
+navigation:
+  - ref.var-representation.html: « Функции varrepresentation
+  - refs.remote.other.md: Інші служби »
+  - index.md: PHP Manual
+  - ref.var-representation.html: Функции varrepresentation
+title: varrepresentation
+---
 # varrepresentation
 
 (PECL varrepresentation >= 0.1.0)

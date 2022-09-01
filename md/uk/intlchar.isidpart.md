@@ -1,16 +1,11 @@
-Перевірити, чи можна використовувати символ в ідентифікаторі
-
--   [« IntlChar::isIDIgnorable](intlchar.isidignorable.md)
-    
--   [IntlChar::isIDStart »](intlchar.isidstart.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи можна використовувати символ в ідентифікаторі
-    
-
+---
+navigation:
+  - intlchar.isidignorable.md: '« IntlChar::isIDIgnorable'
+  - intlchar.isidstart.md: 'IntlChar::isIDStart »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isIDPart'
+---
 # IntlChar::isIDPart
 
 (PHP 7, PHP 8)

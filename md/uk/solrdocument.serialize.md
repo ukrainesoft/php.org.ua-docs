@@ -1,16 +1,11 @@
-Використовується для серіалізації користувача
-
--   [« SolrDocument::rewind](solrdocument.rewind.md)
-    
--   [SolrDocument::set »](solrdocument.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Використовується для серіалізації користувача
-    
-
+---
+navigation:
+  - solrdocument.rewind.md: '« SolrDocument::rewind'
+  - solrdocument.set.md: 'SolrDocument::set »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::serialize'
+---
 # SolrDocument::serialize
 
 (PECL solr> = 0.9.2)

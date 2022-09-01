@@ -1,16 +1,11 @@
-Замикає та обводить контур
-
--   [«psclose](function.ps-close.html)
-    
--   [псclosepath »](function.ps-closepath.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Замикає та обводить контур
-    
-
+---
+navigation:
+  - function.ps-close.html: «psclose
+  - function.ps-closepath.html: псclosepath »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псclosepathstroke
+---
 # псclosepathstroke
 
 (PECL ps >= 1.1.0)

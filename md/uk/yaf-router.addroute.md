@@ -1,16 +1,11 @@
-Додає новий маршрут до маршрутизатора
-
--   [« YafRouter::addConfig](yaf-router.addconfig.html)
-    
--   [YafRouter::construct »](yaf-router.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouter](class.yaf-router.html)
-    
--   Додає новий маршрут до маршрутизатора
-    
-
+---
+navigation:
+  - yaf-router.addconfig.html: '« YafRouter::addConfig'
+  - yaf-router.construct.html: 'YafRouter::construct »'
+  - index.md: PHP Manual
+  - class.yaf-router.html: YafRouter
+title: 'YafRouter::addRoute'
+---
 # YafRouter::addRoute
 
 (Yaf >=1.0.0)

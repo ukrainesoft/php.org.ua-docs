@@ -1,16 +1,11 @@
-Закриває модуль mcrypt
-
--   [« mcryptlistmodes](function.mcrypt-list-modes.html)
-    
--   [mcryptmodulegetalgoblocksize »](function.mcrypt-module-get-algo-block-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Закриває модуль mcrypt
-    
-
+---
+navigation:
+  - function.mcrypt-list-modes.html: « mcryptlistmodes
+  - function.mcrypt-module-get-algo-block-size.html: mcryptmodulegetalgoblocksize »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptmoduleclose
+---
 # mcryptmoduleclose
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

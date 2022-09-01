@@ -1,16 +1,11 @@
-Повертає true, якщо властивості різні або false у противному випадку
-
--   [« svnфсnodeprop](function.svn-fs-node-prop.html)
-    
--   [svnфсrevisionprop »](function.svn-fs-revision-prop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає true, якщо властивості різні або false у противному випадку
-    
-
+---
+navigation:
+  - function.svn-fs-node-prop.html: « svnфсnodeprop
+  - function.svn-fs-revision-prop.html: svnфсrevisionprop »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсpropschanged
+---
 # svnфсpropschanged
 
 (PECL svn >= 0.2.0)

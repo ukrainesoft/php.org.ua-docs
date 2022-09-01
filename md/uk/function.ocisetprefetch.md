@@ -1,16 +1,11 @@
-Псевдонім ocisetprefetch
-
--   [« ociserverversion](function.ociserverversion.html)
-    
--   [ocistatementtype »](function.ocistatementtype.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ocisetprefetch
-    
-
+---
+navigation:
+  - function.ociserverversion.html: « ociserverversion
+  - function.ocistatementtype.html: ocistatementtype »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocisetprefetch
+---
 # ocisetprefetch
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

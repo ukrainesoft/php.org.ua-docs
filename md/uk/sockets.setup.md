@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.sockets.md)
-    
--   [Вимоги »](sockets.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сокети](book.sockets.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.sockets.md: « Введение
+  - sockets.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.sockets.md: Сокети
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

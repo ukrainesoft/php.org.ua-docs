@@ -1,16 +1,11 @@
-Драйвер MongoDB
-
--   [« db2tables](function.db2-tables.html)
-    
--   [Встановлення та налаштування »](mongodb.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   Драйвер MongoDB
-    
-
+---
+navigation:
+  - function.db2-tables.html: « db2tables
+  - mongodb.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: Драйвер MongoDB
+---
 # Драйвер MongoDB
 
 Цей модуль розроблено на основі бібліотек [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson). Він надає мінімальне API для ключового функціоналу драйвера: [команди](class.mongodb-driver-command.html) [запити](class.mongodb-driver-query.html) [записи](class.mongodb-driver-bulkwrite.html) [управление соединением](class.mongodb-driver-manager.html) і [сериализация BSON](book.bson.md)

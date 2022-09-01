@@ -1,16 +1,11 @@
-Отримує ім'я елемента XML
-
--   [« SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.html)
-    
--   [SimpleXMLElement::getNamespaces »](simplexmlelement.getnamespaces.html)
-    
--   [PHP Manual](index.html)
-    
--   [SimpleXMLElement](class.simplexmlelement.html)
-    
--   Отримує ім'я елемента XML
-    
-
+---
+navigation:
+  - simplexmlelement.getdocnamespaces.html: '« SimpleXMLElement::getDocNamespaces'
+  - simplexmlelement.getnamespaces.html: 'SimpleXMLElement::getNamespaces »'
+  - index.html: PHP Manual
+  - class.simplexmlelement.html: SimpleXMLElement
+title: 'SimpleXMLElement::getName'
+---
 # SimpleXMLElement::getName
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

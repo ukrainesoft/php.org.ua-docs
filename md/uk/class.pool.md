@@ -1,16 +1,11 @@
-Клас Pool
-
--   [« Collectable::isGarbage](collectable.isgarbage.md)
-    
--   [Pool::collect »](pool.collect.md)
-    
--   [PHP Manual](index.md)
-    
--   [pthreads](book.pthreads.md)
-    
--   Клас Pool
-    
-
+---
+navigation:
+  - collectable.isgarbage.md: '« Collectable::isGarbage'
+  - pool.collect.md: 'Pool::collect »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Pool
+---
 # Клас Pool
 
 (PECL pthreads >= 2.0.0)

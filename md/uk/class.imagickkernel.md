@@ -1,16 +1,11 @@
-Клас ImagickKernel
-
--   [« ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.md)
-    
--   [ImagickKernel::addKernel »](imagickkernel.addkernel.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImageMagick](book.imagick.md)
-    
--   Клас ImagickKernel
-    
-
+---
+navigation:
+  - imagickpixeliterator.synciterator.md: '« ImagickPixelIterator::syncIterator'
+  - imagickkernel.addkernel.md: 'ImagickKernel::addKernel »'
+  - index.md: PHP Manual
+  - book.imagick.md: ImageMagick
+title: Клас ImagickKernel
+---
 # Клас ImagickKernel
 
 (PECL imagick >= 3.3.0)

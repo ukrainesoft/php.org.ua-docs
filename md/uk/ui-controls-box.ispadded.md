@@ -1,16 +1,11 @@
-Визначення заповнення
-
--   [« UIControlsBox::getOrientation](ui-controls-box.getorientation.html)
-    
--   [ОЙControlsBox::setPadded »](ui-controls-box.setpadded.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsBox](class.ui-controls-box.html)
-    
--   Визначення заповнення
-    
-
+---
+navigation:
+  - ui-controls-box.getorientation.html: '« UIControlsBox::getOrientation'
+  - ui-controls-box.setpadded.html: 'ОЙControlsBox::setPadded »'
+  - index.md: PHP Manual
+  - class.ui-controls-box.html: ОЙControlsBox
+title: 'ОЙControlsBox::isPadded'
+---
 # ОЙControlsBox::isPadded
 
 (UI 0.9.9)

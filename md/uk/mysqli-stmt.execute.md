@@ -1,16 +1,11 @@
-Виконує підготовлене затвердження
-
--   [« mysqlistmt::$error](mysqli-stmt.error.html)
-    
--   [mysqlistmt::fetch »](mysqli-stmt.fetch.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Виконує підготовлене затвердження
-    
-
+---
+navigation:
+  - mysqli-stmt.error.html: '« mysqlistmt::$error'
+  - mysqli-stmt.fetch.html: 'mysqlistmt::fetch »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::execute'
+---
 # mysqlistmt::execute
 
 # mysqlistmtexecute
@@ -53,9 +48,9 @@ mysqli_stmt_execute(mysqli_stmt $statement, ?array $params = null): bool
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | Додано необов'язковий параметр `params` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано необов'язковий параметр `params` |
 
 ### Приклади
 

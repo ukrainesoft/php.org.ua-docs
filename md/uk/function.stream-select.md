@@ -1,16 +1,11 @@
-Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
-
--   [« streamresolveincludepath](function.stream-resolve-include-path.html)
-    
--   [streamsetblocking »](function.stream-set-blocking.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
-    
-
+---
+navigation:
+  - function.stream-resolve-include-path.html: « streamresolveincludepath
+  - function.stream-set-blocking.html: streamsetblocking »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamselect
+---
 # streamselect
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -67,9 +62,9 @@ stream_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Параметр `microseconds` тепер припускає значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `microseconds` тепер припускає значення **`null`** |
 
 ### Приклади
 

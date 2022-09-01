@@ -1,16 +1,11 @@
-Надсилає електронну пошту
-
--   [« ezmlmhash](function.ezmlm-hash.html)
-    
--   [Mailparse »](book.mailparse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Почта](ref.mail.html)
-    
--   Надсилає електронну пошту
-    
-
+---
+navigation:
+  - function.ezmlm-hash.html: « ezmlmhash
+  - book.mailparse.html: Mailparse »
+  - index.html: PHP Manual
+  - ref.mail.html: Почта
+title: mail
+---
 # mail
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -102,9 +97,9 @@ $text = str_replace("\n.", "\n..", $text);
 
 ### список змін
 
-| Версия | Описание                                                         |
-|--------|------------------------------------------------------------------|
-|        | Параметр `additional_headers` може набувати значення типу масив. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `additional_headers` може набувати значення типу масив. |
 
 ### Приклади
 

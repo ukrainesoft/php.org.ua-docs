@@ -1,16 +1,11 @@
-Повертає версію
-
--   [« Lua::eval](lua.eval.html)
-    
--   [Lua::include »](lua.include.html)
-    
--   [PHP Manual](index.html)
-    
--   [Lua](class.lua.html)
-    
--   Повертає версію
-    
-
+---
+navigation:
+  - lua.eval.html: '« Lua::eval'
+  - lua.include.html: 'Lua::include »'
+  - index.html: PHP Manual
+  - class.lua.html: Lua
+title: 'Lua::getVersion'
+---
 # Lua::getVersion
 
 (PECL lua> = 0.9.0)

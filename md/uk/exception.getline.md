@@ -1,16 +1,11 @@
-Отримує рядок, у якому виник виняток
-
--   [« Exception::getFile](exception.getfile.html)
-    
--   [Exception::getTrace »](exception.gettrace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Exception](class.exception.html)
-    
--   Отримує рядок, у якому виник виняток
-    
-
+---
+navigation:
+  - exception.getfile.html: '« Exception::getFile'
+  - exception.gettrace.html: 'Exception::getTrace »'
+  - index.html: PHP Manual
+  - class.exception.html: Exception
+title: 'Exception::getLine'
+---
 # Exception::getLine
 
 (PHP 5, PHP 7, PHP 8)

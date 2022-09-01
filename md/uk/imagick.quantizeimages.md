@@ -1,16 +1,11 @@
-Аналізує кольори у послідовності зображень
-
--   [« Imagick::quantizeImage](imagick.quantizeimage.md)
-    
--   [Imagick::queryFontMetrics »](imagick.queryfontmetrics.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Аналізує кольори у послідовності зображень
-    
-
+---
+navigation:
+  - imagick.quantizeimage.md: '« Imagick::quantizeImage'
+  - imagick.queryfontmetrics.md: 'Imagick::queryFontMetrics »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::quantizeImages'
+---
 # Imagick::quantizeImages
 
 (PECL imagick 2, PECL imagick 3)

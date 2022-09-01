@@ -1,16 +1,11 @@
-Отримує версію
-
--   [« ReflectionZendExtension::getURL](reflectionzendextension.geturl.md)
-    
--   [ReflectionZendExtension::toString »](reflectionzendextension.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.md)
-    
--   Отримує версію
-    
-
+---
+navigation:
+  - reflectionzendextension.geturl.md: '« ReflectionZendExtension::getURL'
+  - reflectionzendextension.tostring.md: 'ReflectionZendExtension::toString »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::getVersion'
+---
 # ReflectionZendExtension::getVersion
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

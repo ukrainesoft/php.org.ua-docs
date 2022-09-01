@@ -1,16 +1,11 @@
-Криптографічні модулі
-
--   [« InflateContext](class.inflatecontext.md)
-    
--   [CSPRNG »](book.csprng.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Криптографічні модулі
-    
-
+---
+navigation:
+  - class.inflatecontext.md: « InflateContext
+  - book.csprng.md: CSPRNG »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Криптографічні модулі
+---
 # Криптографічні модулі
 
 -   [CSPRNG](book.csprng.md)

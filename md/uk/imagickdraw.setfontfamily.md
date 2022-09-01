@@ -1,16 +1,11 @@
-Встановлює сімейство шрифтів для використання при анотуванні текстом
-
--   [« ImagickDraw::setFont](imagickdraw.setfont.md)
-    
--   [ImagickDraw::setFontSize »](imagickdraw.setfontsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює сімейство шрифтів для використання при анотуванні текстом
-    
-
+---
+navigation:
+  - imagickdraw.setfont.md: '« ImagickDraw::setFont'
+  - imagickdraw.setfontsize.md: 'ImagickDraw::setFontSize »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setFontFamily'
+---
 # ImagickDraw::setFontFamily
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Повертає ключ для поточного елемента
-
--   [« CachingIterator::hasNext](cachingiterator.hasnext.md)
-    
--   [CachingIterator::next »](cachingiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Повертає ключ для поточного елемента
-    
-
+---
+navigation:
+  - cachingiterator.hasnext.md: '« CachingIterator::hasNext'
+  - cachingiterator.next.md: 'CachingIterator::next »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::key'
+---
 # CachingIterator::key
 
 (PHP 5, PHP 7, PHP 8)

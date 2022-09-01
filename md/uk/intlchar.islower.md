@@ -1,16 +1,11 @@
-Перевірити, чи в нижньому регістрі символ
-
--   [« IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.md)
-    
--   [IntlChar::isMirrored »](intlchar.ismirrored.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи в нижньому регістрі символ
-    
-
+---
+navigation:
+  - intlchar.isjavaspacechar.md: '« IntlChar::isJavaSpaceChar'
+  - intlchar.ismirrored.md: 'IntlChar::isMirrored »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::islower'
+---
 # IntlChar::islower
 
 (PHP 7, PHP 8)

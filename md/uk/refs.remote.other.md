@@ -1,16 +1,11 @@
-Інші служби
-
--   [« varrepresentation](function.var-representation.html)
-    
--   [cURL »](book.curl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Інші служби
-    
-
+---
+navigation:
+  - function.var-representation.html: « varrepresentation
+  - book.curl.md: cURL »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Інші служби
+---
 # Інші служби
 
 -   [cURL](book.curl.md) — Клієнтська бібліотека роботи з URL

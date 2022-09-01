@@ -1,16 +1,11 @@
-Стан кешу
-
--   [« Yac::get](yac.getter.md)
-    
--   [Yac::set »](yac.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Стан кешу
-    
-
+---
+navigation:
+  - yac.getter.md: '« Yac::get'
+  - yac.set.md: 'Yac::set »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::info'
+---
 # Yac::info
 
 (PECL yac >= 1.0.0)

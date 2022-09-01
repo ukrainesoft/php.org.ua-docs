@@ -1,16 +1,11 @@
-Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
-
--   [« arrayreverse](function.array-reverse.html)
-    
--   [arrayshift »](function.array-shift.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
-    
-
+---
+navigation:
+  - function.array-reverse.html: « arrayreverse
+  - function.array-shift.html: arrayshift »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraysearch
+---
 # arraysearch
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

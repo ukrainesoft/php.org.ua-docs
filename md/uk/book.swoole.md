@@ -1,16 +1,11 @@
-Swoole
-
--   [« streamwrapperunregister](function.stream-wrapper-unregister.html)
-    
--   [Введение »](intro.swoole.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Swoole
-    
-
+---
+navigation:
+  - function.stream-wrapper-unregister.html: « streamwrapperunregister
+  - intro.swoole.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Swoole
+---
 # Swoole
 
 -   [Введение](intro.swoole.md)

@@ -1,16 +1,11 @@
-Знищити процес, відкритий за допомогою функції procopen
-
--   [« procopen](function.proc-open.html)
-    
--   [shellexec »](function.shell-exec.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции запуска программ](ref.exec.md)
-    
--   Знищити процес, відкритий за допомогою функції procopen
-    
-
+---
+navigation:
+  - function.proc-open.html: « procopen
+  - function.shell-exec.html: shellexec »
+  - index.md: PHP Manual
+  - ref.exec.md: Функции запуска программ
+title: procterminate
+---
 # procterminate
 
 (PHP 5, PHP 7, PHP 8)

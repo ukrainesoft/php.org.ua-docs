@@ -1,16 +1,11 @@
-Перевіряє, чи є ще результати
-
--   [« SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.html)
-    
--   [mysqlxdevapiSqlStatementResult »](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatement](class.mysql-xdevapi-sqlstatement.html)
-    
--   Перевіряє, чи є ще результати
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatement.getresult.html: '« SqlStatement::getResult'
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+title: 'SqlStatement::hasMoreResults'
+---
 # SqlStatement::hasMoreResults
 
 (No version information available, might only be in Git)

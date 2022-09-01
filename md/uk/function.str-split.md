@@ -1,16 +1,11 @@
-Перетворює рядок на масив
-
--   [« strshuffle](function.str-shuffle.html)
-    
--   [strstartswith »](function.str-starts-with.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Перетворює рядок на масив
-    
-
+---
+navigation:
+  - function.str-shuffle.html: « strshuffle
+  - function.str-starts-with.html: strstartswith »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strsplit
+---
 # strsplit
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ str_split(string $string, int $length = 1): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                       |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.html); раніше, натомість видавалася помилка рівня **`E_WARNING`**, а функція повертала **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.html); раніше, натомість видавалася помилка рівня **`E_WARNING`**, а функція повертала **`false`** |
 
 ### Приклади
 

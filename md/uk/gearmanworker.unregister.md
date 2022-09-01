@@ -1,16 +1,11 @@
-Видалити реєстрацію імені функції на всіх серверах завдань
-
--   [« GearmanWorker::timeout](gearmanworker.timeout.html)
-    
--   [GearmanWorker::unregisterAll »](gearmanworker.unregisterall.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Видалити реєстрацію імені функції на всіх серверах завдань
-    
-
+---
+navigation:
+  - gearmanworker.timeout.html: '« GearmanWorker::timeout'
+  - gearmanworker.unregisterall.html: 'GearmanWorker::unregisterAll »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::unregister'
+---
 # GearmanWorker::unregister
 
 (PECL gearman >= 0.6.0)

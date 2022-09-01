@@ -1,16 +1,11 @@
-Повертає будь-яку помилку гарантій запису, що відбувся
-
--   [« MongoDBDriverWriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.html)
-    
--   [MongoDBDriverWriteResult::getWriteErrors »](mongodb-driver-writeresult.getwriteerrors.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає будь-яку помилку гарантій запису, що відбувся
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getupsertedids.html: '« MongoDBDriverWriteResult::getUpsertedIds'
+  - mongodb-driver-writeresult.getwriteerrors.html: 'MongoDBDriverWriteResult::getWriteErrors »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getWriteConcernError'
+---
 # MongoDBDriverWriteResult::getWriteConcernError
 
 (mongodb >=1.0.0)

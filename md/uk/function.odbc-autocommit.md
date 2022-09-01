@@ -1,16 +1,11 @@
-Перемикає поведінку автоматичної фіксації
-
--   [« Функции ODBC](ref.uodbc.md)
-    
--   [odbcbinmode »](function.odbc-binmode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Перемикає поведінку автоматичної фіксації
-    
-
+---
+navigation:
+  - ref.uodbc.md: « Функции ODBC
+  - function.odbc-binmode.html: odbcbinmode »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcautocommit
+---
 # odbcautocommit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

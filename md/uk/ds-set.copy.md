@@ -1,16 +1,11 @@
-Повертає поверхневу копію колекції
-
--   [« DsSet::contains](ds-set.contains.html)
-    
--   [ДсSet::count »](ds-set.count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає поверхневу копію колекції
-    
-
+---
+navigation:
+  - ds-set.contains.html: '« DsSet::contains'
+  - ds-set.count.html: 'ДсSet::count »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::copy'
+---
 # ДсSet::copy
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Отримує попередження останньої операції
-
--   [« RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.html)
-    
--   [RowResult::getWarningsCount »](mysql-xdevapi-rowresult.getwarningscount.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
-    
--   Отримує попередження останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.getcolumns.html: '« RowResult::getColumns'
+  - mysql-xdevapi-rowresult.getwarningscount.html: 'RowResult::getWarningsCount »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+title: 'RowResult::getWarnings'
+---
 # RowResult::getWarnings
 
 (No version information available, might only be in Git)

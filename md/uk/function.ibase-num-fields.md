@@ -1,16 +1,11 @@
-Повертає кількість полів у результуючому наборі
-
--   [« ibasenameresult](function.ibase-name-result.html)
-    
--   [ibasenumparams »](function.ibase-num-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Повертає кількість полів у результуючому наборі
-    
-
+---
+navigation:
+  - function.ibase-name-result.html: « ibasenameresult
+  - function.ibase-num-params.html: ibasenumparams »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasenumfields
+---
 # ibasenumfields
 
 (PHP 5, PHP 7 < 7.4.0)

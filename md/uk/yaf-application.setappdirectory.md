@@ -1,16 +1,11 @@
-Змінити директорію програми
-
--   [« YafApplication::run](yaf-application.run.html)
-    
--   [YafBootstrapAbstract »](class.yaf-bootstrap-abstract.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Змінити директорію програми
-    
-
+---
+navigation:
+  - yaf-application.run.html: '« YafApplication::run'
+  - class.yaf-bootstrap-abstract.html: YafBootstrapAbstract »
+  - index.html: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::setAppDirectory'
+---
 # YafApplication::setAppDirectory
 
 (Yaf> = 2.1.4)

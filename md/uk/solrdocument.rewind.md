@@ -1,16 +1,11 @@
-Скидає внутрішній покажчик на початок
-
--   [« SolrDocument::reset](solrdocument.reset.md)
-    
--   [SolrDocument::serialize »](solrdocument.serialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Скидає внутрішній покажчик на початок
-    
-
+---
+navigation:
+  - solrdocument.reset.md: '« SolrDocument::reset'
+  - solrdocument.serialize.md: 'SolrDocument::serialize »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::rewind'
+---
 # SolrDocument::rewind
 
 (PECL solr> = 0.9.2)

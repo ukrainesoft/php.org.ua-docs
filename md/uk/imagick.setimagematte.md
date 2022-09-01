@@ -1,16 +1,11 @@
-Встановлює матовий канал зображення
-
--   [« Imagick::setImageIterations](imagick.setimageiterations.html)
-    
--   [Imagick::setImageMatteColor »](imagick.setimagemattecolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює матовий канал зображення
-    
-
+---
+navigation:
+  - imagick.setimageiterations.html: '« Imagick::setImageIterations'
+  - imagick.setimagemattecolor.html: 'Imagick::setImageMatteColor »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageMatte'
+---
 # Imagick::setImageMatte
 
 (PECL imagick 2, PECL imagick 3)

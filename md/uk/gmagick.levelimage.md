@@ -1,16 +1,11 @@
-Регулює рівні зображення
-
--   [« Gmagick::labelimage](gmagick.labelimage.html)
-    
--   [Gmagick::magnifyimage »](gmagick.magnifyimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Регулює рівні зображення
-    
-
+---
+navigation:
+  - gmagick.labelimage.html: '« Gmagick::labelimage'
+  - gmagick.magnifyimage.html: 'Gmagick::magnifyimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::levelimage'
+---
 # Gmagick::levelimage
 
 (PECL gmagick >= Unknown)

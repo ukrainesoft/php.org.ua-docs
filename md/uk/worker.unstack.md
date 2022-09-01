@@ -1,16 +1,11 @@
-Прибрати завдання зі стеку
-
--   [« Worker::stack](worker.stack.html)
-    
--   [Collectable »](class.collectable.html)
-    
--   [PHP Manual](index.html)
-    
--   [Worker](class.worker.html)
-    
--   Прибрати завдання зі стеку
-    
-
+---
+navigation:
+  - worker.stack.html: '« Worker::stack'
+  - class.collectable.html: Collectable »
+  - index.html: PHP Manual
+  - class.worker.html: Worker
+title: 'Worker::unstack'
+---
 # Worker::unstack
 
 (PECL pthreads >= 2.0.0)
@@ -35,9 +30,9 @@ public Worker::unstack(): int
 
 ### список змін
 
-| Версия | Описание                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------|
-| вз     | Прибрано параметр, у якому вказувалося завдання видалення. Тепер завжди видаляється перше завдання. |
+| Версия | Описание |
+| --- | --- |
+| вз | Прибрано параметр, у якому вказувалося завдання видалення. Тепер завжди видаляється перше завдання. |
 
 ### Приклади
 

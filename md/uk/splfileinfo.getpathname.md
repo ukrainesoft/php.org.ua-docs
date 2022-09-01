@@ -1,16 +1,11 @@
-Отримує шлях до файлу
-
--   [« SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)
-    
--   [SplFileInfo::getPerms »](splfileinfo.getperms.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує шлях до файлу
-    
-
+---
+navigation:
+  - splfileinfo.getpathinfo.md: '« SplFileInfo::getPathInfo'
+  - splfileinfo.getperms.md: 'SplFileInfo::getPerms »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getPathname'
+---
 # SplFileInfo::getPathname
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

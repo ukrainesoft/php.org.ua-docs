@@ -1,16 +1,11 @@
-Повертає шістнадцяткову виставу ObjectId
-
--   [« MongoDBBSONObjectId::serialize](mongodb-bson-objectid.serialize.html)
-    
--   [MongoDBBSONObjectId::unserialize »](mongodb-bson-objectid.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
-    
--   Повертає шістнадцяткову виставу ObjectId
-    
-
+---
+navigation:
+  - mongodb-bson-objectid.serialize.html: '« MongoDBBSONObjectId::serialize'
+  - mongodb-bson-objectid.unserialize.html: 'MongoDBBSONObjectId::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::function toString() { \[native code\] }'
+---
 # MongoDBBSONObjectId::function toString() { \[native code\] }
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Складання драйвера PHP MongoDB з вихідного коду
-
--   [« Установка драйвера PHP MongoDB под Windows](mongodb.installation.windows.md)
-    
--   [Налаштування під час виконання »](mongodb.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка](mongodb.installation.md)
-    
--   Складання драйвера PHP MongoDB з вихідного коду
-    
-
+---
+navigation:
+  - mongodb.installation.windows.md: « Установка драйвера PHP MongoDB под Windows
+  - mongodb.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - mongodb.installation.md: Установка
+title: Складання драйвера PHP MongoDB з вихідного коду
+---
 ## Складання драйвера PHP MongoDB з вихідного коду
 
 Розробники драйверів і людей, зацікавлені в найсвіжіших версіях, можуть зібрати драйвер з вихідних кодів, які знаходяться тут: [» GitHub](https://github.com/mongodb/mongo-php-driver). Запустіть наступні команди для клонування та складання проекту:

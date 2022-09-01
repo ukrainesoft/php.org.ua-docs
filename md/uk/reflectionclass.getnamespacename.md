@@ -1,16 +1,11 @@
-Повертає назву простору імен
-
--   [« ReflectionClass::getName](reflectionclass.getname.md)
-    
--   [ReflectionClass::getParentClass »](reflectionclass.getparentclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає назву простору імен
-    
-
+---
+navigation:
+  - reflectionclass.getname.md: '« ReflectionClass::getName'
+  - reflectionclass.getparentclass.md: 'ReflectionClass::getParentClass »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getNamespaceName'
+---
 # ReflectionClass::getNamespaceName
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

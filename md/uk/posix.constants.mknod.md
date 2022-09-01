@@ -1,16 +1,11 @@
-Константи posixmknod
-
--   [« Константи posixaccess](posix.constants.access.md)
-    
--   [Константи posixsetrlimit »](posix.constants.setrlimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](posix.constants.md)
-    
--   Константи posixmknod
-    
-
+---
+navigation:
+  - posix.constants.access.md: « Константи posixaccess
+  - posix.constants.setrlimit.md: Константи posixsetrlimit »
+  - index.md: PHP Manual
+  - posix.constants.md: Обумовлені константи
+title: 'Константи [posixmknod()](function.posix-mknod.html)'
+---
 ## Константи [posixmknod()](function.posix-mknod.html)
 
 > **Зауваження**

@@ -1,16 +1,11 @@
-Вставити сторінку
-
--   [« UIControlsTab::hasMargin](ui-controls-tab.hasmargin.html)
-    
--   [ОЙControlsTab::pages »](ui-controls-tab.pages.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsTab](class.ui-controls-tab.html)
-    
--   Вставити сторінку
-    
-
+---
+navigation:
+  - ui-controls-tab.hasmargin.html: '« UIControlsTab::hasMargin'
+  - ui-controls-tab.pages.html: 'ОЙControlsTab::pages »'
+  - index.md: PHP Manual
+  - class.ui-controls-tab.html: ОЙControlsTab
+title: 'ОЙControlsTab::insertAt'
+---
 # ОЙControlsTab::insertAt
 
 (UI 0.9.9)

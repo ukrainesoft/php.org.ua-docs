@@ -1,16 +1,11 @@
-Відправляє завдання конкретному воркеру для виконання
-
--   [« Pool::submit](pool.submit.md)
-    
--   [Volatile »](class.volatile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Pool](class.pool.md)
-    
--   Відправляє завдання конкретному воркеру для виконання
-    
-
+---
+navigation:
+  - pool.submit.md: '« Pool::submit'
+  - class.volatile.md: Volatile »
+  - index.md: PHP Manual
+  - class.pool.md: Pool
+title: 'Pool::submitTo'
+---
 # Pool::submitTo
 
 (PECL pthreads >= 2.0.0)

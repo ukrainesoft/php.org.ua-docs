@@ -1,16 +1,11 @@
-Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
-
--   [« wincachescachememinfo](function.wincache-scache-meminfo.html)
-    
--   [wincacheucachecas »](function.wincache-ucache-cas.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
-    
-
+---
+navigation:
+  - function.wincache-scache-meminfo.html: « wincachescachememinfo
+  - function.wincache-ucache-cas.html: wincacheucachecas »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucacheadd
+---
 # wincacheucacheadd
 
 (PECL wincache >= 1.1.0)

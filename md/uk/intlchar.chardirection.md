@@ -1,16 +1,11 @@
-Отримати категорію напряму листа для символу
-
--   [« IntlChar::charDigitValue](intlchar.chardigitvalue.html)
-    
--   [IntlChar::charFromName »](intlchar.charfromname.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати категорію напряму листа для символу
-    
-
+---
+navigation:
+  - intlchar.chardigitvalue.html: '« IntlChar::charDigitValue'
+  - intlchar.charfromname.html: 'IntlChar::charFromName »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::charDirection'
+---
 # IntlChar::charDirection
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Скидання біта
-
--   [« gmpbinomial](function.gmp-binomial.html)
-    
--   [gmpcmp »](function.gmp-cmp.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Скидання біта
-    
-
+---
+navigation:
+  - function.gmp-binomial.html: « gmpbinomial
+  - function.gmp-cmp.html: gmpcmp »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpclrbit
+---
 # gmpclrbit
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

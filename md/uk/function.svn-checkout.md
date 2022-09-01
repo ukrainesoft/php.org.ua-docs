@@ -1,16 +1,11 @@
-Отримує робочу копію з репозиторію
-
--   [« svncat](function.svn-cat.html)
-    
--   [svncleanup »](function.svn-cleanup.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Отримує робочу копію з репозиторію
-    
-
+---
+navigation:
+  - function.svn-cat.html: « svncat
+  - function.svn-cleanup.html: svncleanup »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svncheckout
+---
 # svncheckout
 
 (PECL svn> = 0.1.0)

@@ -1,16 +1,11 @@
-Детерміністичний висновок ключової пари з одного ключа
-
--   [« sodiumcryptoboxsecretkey](function.sodium-crypto-box-secretkey.html)
-    
--   [sodiumcryptobox »](function.sodium-crypto-box.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Детерміністичний висновок ключової пари з одного ключа
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-secretkey.html: « sodiumcryptoboxsecretkey
+  - function.sodium-crypto-box.html: sodiumcryptobox »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxseedkeypair
+---
 # sodiumcryptoboxseedkeypair
 
 (PHP 7> = 7.2.0, PHP 8)

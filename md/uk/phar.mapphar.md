@@ -1,16 +1,11 @@
-Прочитати поточний запущений phar-архів та зареєструвати його маніфест
-
--   [« Phar::loadPhar](phar.loadphar.md)
-    
--   [Phar::mount »](phar.mount.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Прочитати поточний запущений phar-архів та зареєструвати його маніфест
-    
-
+---
+navigation:
+  - phar.loadphar.md: '« Phar::loadPhar'
+  - phar.mount.md: 'Phar::mount »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::mapPhar'
+---
 # Phar::mapPhar
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

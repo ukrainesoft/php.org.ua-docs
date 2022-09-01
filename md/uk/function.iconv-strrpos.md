@@ -1,16 +1,11 @@
-Повертає позицію останнього входження підрядка
-
--   [« iconvstrpos](function.iconv-strpos.html)
-    
--   [iconvsubstr »](function.iconv-substr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции iconv](ref.iconv.html)
-    
--   Повертає позицію останнього входження підрядка
-    
-
+---
+navigation:
+  - function.iconv-strpos.html: « iconvstrpos
+  - function.iconv-substr.html: iconvsubstr »
+  - index.html: PHP Manual
+  - ref.iconv.html: Функции iconv
+title: iconvstrrpos
+---
 # iconvstrrpos
 
 (PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `encoding` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 

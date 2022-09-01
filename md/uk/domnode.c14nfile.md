@@ -1,16 +1,11 @@
-Канонізувати вузли у файл
-
--   [« DOMNode::C14N](domnode.c14n.md)
-    
--   [DOMNode::cloneNode »](domnode.clonenode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Канонізувати вузли у файл
-    
-
+---
+navigation:
+  - domnode.c14n.md: '« DOMNode::C14N'
+  - domnode.clonenode.md: 'DOMNode::cloneNode »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::C14NFile'
+---
 # DOMNode::C14NFile
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

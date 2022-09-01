@@ -1,16 +1,11 @@
-Exception
-
--   [« Зумовлені винятки](reserved.exceptions.html)
-    
--   [Exception::construct »](exception.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обумовлені винятки](reserved.exceptions.html)
-    
--   Exception
-    
-
+---
+navigation:
+  - reserved.exceptions.html: « Зумовлені винятки
+  - exception.construct.html: 'Exception::construct »'
+  - index.html: PHP Manual
+  - reserved.exceptions.html: Обумовлені винятки
+title: Exception
+---
 # Exception
 
 (PHP 5, PHP 7, PHP 8)

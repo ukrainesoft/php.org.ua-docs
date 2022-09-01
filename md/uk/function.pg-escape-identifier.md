@@ -1,16 +1,11 @@
-Екранує ідентифікатор для вставки у текстове поле
-
--   [« pgescapebytea](function.pg-escape-bytea.html)
-    
--   [пгescapeliteral »](function.pg-escape-literal.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Екранує ідентифікатор для вставки у текстове поле
-    
-
+---
+navigation:
+  - function.pg-escape-bytea.html: « pgescapebytea
+  - function.pg-escape-literal.html: пгescapeliteral »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгescapeidentifier
+---
 # пгescapeidentifier
 
 (PHP 5> = 5.4.4, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

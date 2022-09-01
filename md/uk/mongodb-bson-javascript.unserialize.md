@@ -1,16 +1,11 @@
-Десеріалізувати JavaScript
-
--   [« MongoDBBSONJavascript::toString](mongodb-bson-javascript.tostring.html)
-    
--   [MongoDBBSONMaxKey »](class.mongodb-bson-maxkey.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   Десеріалізувати JavaScript
-    
-
+---
+navigation:
+  - mongodb-bson-javascript.tostring.html: '« MongoDBBSONJavascript::toString'
+  - class.mongodb-bson-maxkey.html: MongoDBBSONMaxKey »
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+title: 'MongoDBBSONJavascript::unserialize'
+---
 # MongoDBBSONJavascript::unserialize
 
 (mongodb >=1.2.0)

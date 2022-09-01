@@ -1,16 +1,11 @@
-Модель поглинання
-
--   [« tradercdldragonflydoji](function.trader-cdldragonflydoji.html)
-    
--   [tradercdleveningdojistar »](function.trader-cdleveningdojistar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Модель поглинання
-    
-
+---
+navigation:
+  - function.trader-cdldragonflydoji.html: « tradercdldragonflydoji
+  - function.trader-cdleveningdojistar.html: tradercdleveningdojistar »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlengulfing
+---
 # tradercdlengulfing
 
 (PECL trader >= 0.2.0)

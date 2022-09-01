@@ -1,16 +1,11 @@
-Високий стрибок - бик/ведмідь визначається за довгим марубозом
-
--   [« tradercdlkicking](function.trader-cdlkicking.html)
-    
--   [tradercdlladderbottom »](function.trader-cdlladderbottom.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Високий стрибок - бик/ведмідь визначається за довгим марубозом
-    
-
+---
+navigation:
+  - function.trader-cdlkicking.html: « tradercdlkicking
+  - function.trader-cdlladderbottom.html: tradercdlladderbottom »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlkickingbylength
+---
 # tradercdlkickingbylength
 
 (PECL trader >= 0.2.0)

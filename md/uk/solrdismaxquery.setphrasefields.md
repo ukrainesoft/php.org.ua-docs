@@ -1,16 +1,11 @@
-Встановлює поля фрази та їх посилення (і відхилення) за допомогою параметра pf2
-
--   [« SolrDisMaxQuery::setMinimumMatch](solrdismaxquery.setminimummatch.html)
-    
--   [SolrDisMaxQuery::setPhraseSlop »](solrdismaxquery.setphraseslop.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
-    
--   Встановлює поля фрази та їх посилення (і відхилення) за допомогою параметра pf2
-    
-
+---
+navigation:
+  - solrdismaxquery.setminimummatch.html: '« SolrDisMaxQuery::setMinimumMatch'
+  - solrdismaxquery.setphraseslop.html: 'SolrDisMaxQuery::setPhraseSlop »'
+  - index.html: PHP Manual
+  - class.solrdismaxquery.html: SolrDisMaxQuery
+title: 'Solr DisMax Query::set Phrase Fields'
+---
 # Solr DisMax Query::set Phrase Fields
 
 (No version information available, might only be in Git)

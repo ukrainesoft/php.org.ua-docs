@@ -1,16 +1,11 @@
-Отримання інформації із структури даних черги повідомлень
-
--   [« msgsetqueue](function.msg-set-queue.html)
-    
--   [semacquire »](function.sem-acquire.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Отримання інформації із структури даних черги повідомлень
-    
-
+---
+navigation:
+  - function.msg-set-queue.html: « msgsetqueue
+  - function.sem-acquire.html: semacquire »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: msgстатиqueue
+---
 # msgстатиqueue
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ msg_stat_queue(SysvMessageQueue $queue): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

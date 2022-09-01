@@ -1,16 +1,11 @@
-Звільняє пам'ять від результату запиту
-
--   [« mysqlfieldtype](function.mysql-field-type.html)
-    
--   [mysqlgetclientinfo »](function.mysql-get-client-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Звільняє пам'ять від результату запиту
-    
-
+---
+navigation:
+  - function.mysql-field-type.html: « mysqlfieldtype
+  - function.mysql-get-client-info.html: mysqlgetclientinfo »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfreeresult
+---
 # mysqlfreeresult
 
 (PHP 4, PHP 5)

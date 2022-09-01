@@ -1,16 +1,11 @@
-Клас CommonMarkCQL
-
--   [« CommonMarkParser::finish](commonmark-parser.finish.html)
-    
--   [CommonMarkCQL::construct »](commonmark-cql.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   Клас CommonMarkCQL
-    
-
+---
+navigation:
+  - commonmark-parser.finish.html: '« CommonMarkParser::finish'
+  - commonmark-cql.construct.html: 'CommonMarkCQL::construct »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Клас CommonMarkCQL
+---
 # Клас CommonMarkCQL
 
 (cmark >= 1.1.0)

@@ -1,16 +1,11 @@
-Встановлює файл, який містить заміщувальні пари
-
--   [« pspellconfigpersonal](function.pspell-config-personal.html)
-    
--   [pspellconfigruntogether »](function.pspell-config-runtogether.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Встановлює файл, який містить заміщувальні пари
-    
-
+---
+navigation:
+  - function.pspell-config-personal.html: « pspellconfigpersonal
+  - function.pspell-config-runtogether.html: pspellconfigruntogether »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellconfigrepl
+---
 # pspellconfigrepl
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

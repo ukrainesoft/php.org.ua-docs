@@ -1,16 +1,11 @@
-Модулі для роботи з базами даних окремих виробників
-
--   [« PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md)
-    
--   [CUBRID »](book.cubrid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних](refs.database.md)
-    
--   Модулі для роботи з базами даних окремих виробників
-    
-
+---
+navigation:
+  - pdo.sqlitecreatefunction.md: '« PDO::sqliteCreateFunction'
+  - book.cubrid.md: CUBRID »
+  - index.md: PHP Manual
+  - refs.database.md: Модулі для роботи з базами даних
+title: Модулі для роботи з базами даних окремих виробників
+---
 # Модулі для роботи з базами даних окремих виробників
 
 -   [CUBRID](book.cubrid.md)

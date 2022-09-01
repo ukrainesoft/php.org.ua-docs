@@ -1,16 +1,11 @@
-Кількість пам'яті
-
--   [« VtifulKernelExcel::autoFilter](vtiful-kernel-excel.autoFilter.html)
-    
--   [VtifulKernelExcel::construct »](vtiful-kernel-excel.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Кількість пам'яті
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.autoFilter.html: '« VtifulKernelExcel::autoFilter'
+  - vtiful-kernel-excel.construct.html: 'VtifulKernelExcel::construct »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::constMemory'
+---
 # VtifulKernelExcel::constMemory
 
 (PECL xlswriter >= 1.2.1)

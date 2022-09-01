@@ -1,16 +1,11 @@
-Отримує тип файлу
-
--   [« SplFileInfo::getSize](splfileinfo.getsize.html)
-    
--   [SplFileInfo::isDir »](splfileinfo.isdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Отримує тип файлу
-    
-
+---
+navigation:
+  - splfileinfo.getsize.html: '« SplFileInfo::getSize'
+  - splfileinfo.isdir.html: 'SplFileInfo::isDir »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::getType'
+---
 # SplFileInfo::getType
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

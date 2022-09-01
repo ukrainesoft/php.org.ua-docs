@@ -1,16 +1,11 @@
-Створює точку збереження
-
--   [« Session::rollbackTo](mysql-xdevapi-session.rollbackto.html)
-    
--   [Session::sql »](mysql-xdevapi-session.sql.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Створює точку збереження
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.rollbackto.html: '« Session::rollbackTo'
+  - mysql-xdevapi-session.sql.html: 'Session::sql »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::setSavepoint'
+---
 # Session::setSavepoint
 
 (No version information available, might only be in Git)

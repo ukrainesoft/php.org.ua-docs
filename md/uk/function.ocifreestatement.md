@@ -1,16 +1,11 @@
-Псевдонім ocifreestatement
-
--   [« ocifreedesc](function.ocifreedesc.html)
-    
--   [ociinternaldebug »](function.ociinternaldebug.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ocifreestatement
-    
-
+---
+navigation:
+  - function.ocifreedesc.html: « ocifreedesc
+  - function.ociinternaldebug.html: ociinternaldebug »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocifreestatement
+---
 # ocifreestatement
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

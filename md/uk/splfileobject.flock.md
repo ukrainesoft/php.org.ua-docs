@@ -1,16 +1,11 @@
-Портоване блокування файлу
-
--   [« SplFileObject::fgetss](splfileobject.fgetss.md)
-    
--   [SplFileObject::fpassthru »](splfileobject.fpassthru.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Портоване блокування файлу
-    
-
+---
+navigation:
+  - splfileobject.fgetss.md: '« SplFileObject::fgetss'
+  - splfileobject.fpassthru.md: 'SplFileObject::fpassthru »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::flock'
+---
 # SplFileObject::flock
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

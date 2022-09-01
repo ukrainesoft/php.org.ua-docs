@@ -1,16 +1,11 @@
-Клас SwooleMySQL
-
--   [« SwooleMmap::open](swoole-mmap.open.html)
-    
--   [SwooleMySQL::close »](swoole-mysql.close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleMySQL
-    
-
+---
+navigation:
+  - swoole-mmap.open.html: '« SwooleMmap::open'
+  - swoole-mysql.close.html: 'SwooleMySQL::close »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleMySQL
+---
 # Клас SwooleMySQL
 
 (PECL swoole >= 1.9.0)

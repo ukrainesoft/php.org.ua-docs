@@ -1,16 +1,11 @@
-Псевдонім SolrParams::getParam
-
--   [« SolrParams::addParam](solrparams.addparam.md)
-    
--   [SolrParams::getParam »](solrparams.getparam.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrParams](class.solrparams.md)
-    
--   Псевдонім SolrParams::getParam
-    
-
+---
+navigation:
+  - solrparams.addparam.md: '« SolrParams::addParam'
+  - solrparams.getparam.md: 'SolrParams::getParam »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
+title: 'SolrParams::get'
+---
 # SolrParams::get
 
 (PECL solr> = 0.9.2)

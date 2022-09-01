@@ -1,16 +1,11 @@
-Свічкова модель "Поштовий голуб"
-
--   [« tradercdlhikkakemod](function.trader-cdlhikkakemod.html)
-    
--   [tradercdlidentical3crows »](function.trader-cdlidentical3crows.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Поштовий голуб"
-    
-
+---
+navigation:
+  - function.trader-cdlhikkakemod.html: « tradercdlhikkakemod
+  - function.trader-cdlidentical3crows.html: tradercdlidentical3crows »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlhomingpigeon
+---
 # tradercdlhomingpigeon
 
 (PECL trader >= 0.2.0)

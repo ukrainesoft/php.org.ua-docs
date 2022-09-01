@@ -1,16 +1,11 @@
-Запускає службу
-
--   [« win32startservicectrldispatcher](function.win32-start-service-ctrl-dispatcher.html)
-    
--   [win32stopservice »](function.win32-stop-service.html)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](ref.win32service.md)
-    
--   Запускає службу
-    
-
+---
+navigation:
+  - function.win32-start-service-ctrl-dispatcher.html: « win32startservicectrldispatcher
+  - function.win32-stop-service.html: win32stopservice »
+  - index.md: PHP Manual
+  - ref.win32service.md: win32service
+title: win32startservice
+---
 # win32startservice
 
 (PECL win32service >=0.1.0)
@@ -49,12 +44,12 @@ win32_start_service(string $servicename, string $machine = ?): void
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                          |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`**                                                   |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                        |
-| PECL win32service 0.3.0 | Ця функція більше не потребує привілею адміністратора, якщо коректно налаштовано ACL для користувача, що використовується.                                        |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 0.3.0 | Ця функція більше не потребує привілею адміністратора, якщо коректно налаштовано ACL для користувача, що використовується. |
 
 ### Дивіться також
 

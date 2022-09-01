@@ -1,16 +1,11 @@
-Полегшений протокол доступу до каталогів (LDAP)
-
--   [« GearmanException](class.gearmanexception.md)
-    
--   [Введение »](intro.ldap.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   Полегшений протокол доступу до каталогів (LDAP)
-    
-
+---
+navigation:
+  - class.gearmanexception.md: « GearmanException
+  - intro.ldap.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: Полегшений протокол доступу до каталогів (LDAP)
+---
 # Полегшений протокол доступу до каталогів (LDAP)
 
 -   [Введение](intro.ldap.md)

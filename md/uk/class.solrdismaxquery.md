@@ -1,16 +1,11 @@
-Клас SolrDisMaxQuery
-
--   [« SolrQuery::setTimeAllowed](solrquery.settimeallowed.html)
-    
--   [SolrDisMaxQuery::addBigramPhraseField »](solrdismaxquery.addbigramphrasefield.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Клас SolrDisMaxQuery
-    
-
+---
+navigation:
+  - solrquery.settimeallowed.html: '« SolrQuery::setTimeAllowed'
+  - solrdismaxquery.addbigramphrasefield.html: 'SolrDisMaxQuery::addBigramPhraseField »'
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Клас SolrDisMaxQuery
+---
 # Клас SolrDisMaxQuery
 
 (No version information available, might only be in Git)

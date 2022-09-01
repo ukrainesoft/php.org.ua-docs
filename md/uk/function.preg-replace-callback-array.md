@@ -1,16 +1,11 @@
-Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного дзвінка
-
--   [« pregquote](function.preg-quote.html)
-    
--   [pregreplacecallback »](function.preg-replace-callback.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного дзвінка
-    
-
+---
+navigation:
+  - function.preg-quote.html: « pregquote
+  - function.preg-replace-callback.html: pregreplacecallback »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: pregreplacecallbackarray
+---
 # pregreplacecallbackarray
 
 (PHP 7, PHP 8)
@@ -59,9 +54,9 @@ preg_replace_callback_array(    array $pattern,    string|array $subject
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

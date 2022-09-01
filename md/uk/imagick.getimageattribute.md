@@ -1,16 +1,11 @@
-Повертає іменований атрибут
-
--   [« Imagick::getImageArtifact](imagick.getimageartifact.html)
-    
--   [Imagick::getImageBackgroundColor »](imagick.getimagebackgroundcolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає іменований атрибут
-    
-
+---
+navigation:
+  - imagick.getimageartifact.html: '« Imagick::getImageArtifact'
+  - imagick.getimagebackgroundcolor.html: 'Imagick::getImageBackgroundColor »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageAttribute'
+---
 # Imagick::getImageAttribute
 
 (PECL imagick 2, PECL imagick 3)

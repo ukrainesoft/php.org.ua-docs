@@ -1,16 +1,11 @@
-Переміщує ітератор до наступного елемента
-
--   [« IteratorIterator::key](iteratoriterator.key.md)
-    
--   [IteratorIterator::rewind »](iteratoriterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [IteratorIterator](class.iteratoriterator.md)
-    
--   Переміщує ітератор до наступного елемента
-    
-
+---
+navigation:
+  - iteratoriterator.key.md: '« IteratorIterator::key'
+  - iteratoriterator.rewind.md: 'IteratorIterator::rewind »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
+title: 'IteratorIterator::next'
+---
 # IteratorIterator::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

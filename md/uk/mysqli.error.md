@@ -1,16 +1,11 @@
-Повертає рядок з описом останньої помилки
-
--   [« mysqli::$errorlist](mysqli.error-list.html)
-    
--   [mysqli::$fieldcount »](mysqli.field-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає рядок з описом останньої помилки
-    
-
+---
+navigation:
+  - mysqli.error-list.html: '« mysqli::$errorlist'
+  - mysqli.field-count.html: 'mysqli::$fieldcount »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$error'
+---
 # mysqli::$error
 
 # mysqlierror

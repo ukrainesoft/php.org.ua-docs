@@ -1,16 +1,11 @@
-Перевірити, чи переданий рядок відповідає заданій формі нормалізації
-
--   [« Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md)
-    
--   [Normalizer::normalize »](normalizer.normalize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Normalizer](class.normalizer.md)
-    
--   Перевірити, чи переданий рядок відповідає заданій формі нормалізації
-    
-
+---
+navigation:
+  - normalizer.getrawdecomposition.md: '« Normalizer::getRawDecomposition'
+  - normalizer.normalize.md: 'Normalizer::normalize »'
+  - index.md: PHP Manual
+  - class.normalizer.md: Normalizer
+title: 'Normalizer::isNormalized'
+---
 # Normalizer::isNormalized
 
 # normalizerісnormalized

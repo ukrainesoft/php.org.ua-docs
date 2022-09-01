@@ -1,16 +1,11 @@
-Переміщує ітератор на задану позицію
-
--   [« LimitIterator::rewind](limititerator.rewind.md)
-    
--   [LimitIterator::valid »](limititerator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [LimitIterator](class.limititerator.md)
-    
--   Переміщує ітератор на задану позицію
-    
-
+---
+navigation:
+  - limititerator.rewind.md: '« LimitIterator::rewind'
+  - limititerator.valid.md: 'LimitIterator::valid »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::seek'
+---
 # LimitIterator::seek
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

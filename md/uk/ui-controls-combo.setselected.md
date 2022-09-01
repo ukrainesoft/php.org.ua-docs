@@ -1,16 +1,11 @@
-Встановлює вибрану опцію
-
--   [« UIControlsCombo::onSelected](ui-controls-combo.onselected.html)
-    
--   [ОЙControlsEditableCombo »](class.ui-controls-editablecombo.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsCombo](class.ui-controls-combo.html)
-    
--   Встановлює вибрану опцію
-    
-
+---
+navigation:
+  - ui-controls-combo.onselected.html: '« UIControlsCombo::onSelected'
+  - class.ui-controls-editablecombo.html: ОЙControlsEditableCombo »
+  - index.md: PHP Manual
+  - class.ui-controls-combo.html: ОЙControlsCombo
+title: 'ОЙControlsCombo::setSelected'
+---
 # ОЙControlsCombo::setSelected
 
 (UI 0.9.9)

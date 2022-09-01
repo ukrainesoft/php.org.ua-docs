@@ -1,16 +1,11 @@
-скидає всі запитані дані клієнту
-
--   [« Функції FPM](ref.fpm.html)
-    
--   [fpmgetstatus »](function.fpm-get-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FPM](ref.fpm.html)
-    
--   скидає всі запитані дані клієнту
-    
-
+---
+navigation:
+  - ref.fpm.html: « Функції FPM
+  - function.fpm-get-status.html: fpmgetstatus »
+  - index.html: PHP Manual
+  - ref.fpm.html: Функції FPM
+title: fastcgifinishrequest
+---
 # fastcgifinishrequest
 
 (PHP 5> = 5.3.3, PHP 7, PHP 8)

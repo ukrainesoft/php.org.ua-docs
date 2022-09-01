@@ -1,16 +1,11 @@
-Повертає кількість рядків, порушених останнім SQL-запитом
-
--   [« PDOStatement::nextRowset](pdostatement.nextrowset.md)
-    
--   [PDOStatement::setAttribute »](pdostatement.setattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Повертає кількість рядків, порушених останнім SQL-запитом
-    
-
+---
+navigation:
+  - pdostatement.nextrowset.md: '« PDOStatement::nextRowset'
+  - pdostatement.setattribute.md: 'PDOStatement::setAttribute »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::rowCount'
+---
 # PDOStatement::rowCount
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

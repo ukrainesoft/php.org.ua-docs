@@ -1,16 +1,11 @@
-Чекає активності на будь-якому curlmulti з'єднанні
-
--   [« curlmultiremovehandle](function.curl-multi-remove-handle.html)
-    
--   [curlmultisetopt »](function.curl-multi-setopt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Чекає активності на будь-якому curlmulti з'єднанні
-    
-
+---
+navigation:
+  - function.curl-multi-remove-handle.html: « curlmultiremovehandle
+  - function.curl-multi-setopt.html: curlmultisetopt »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlmultiselect
+---
 # curlmultiselect
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-|        | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

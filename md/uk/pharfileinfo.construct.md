@@ -1,16 +1,11 @@
-Конструктор об'єкта PharFileInfo
-
--   [« PharFileInfo::compress](pharfileinfo.compress.html)
-    
--   [PharFileInfo::decompress »](pharfileinfo.decompress.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharFileInfo](class.pharfileinfo.html)
-    
--   Конструктор об'єкта PharFileInfo
-    
-
+---
+navigation:
+  - pharfileinfo.compress.html: '« PharFileInfo::compress'
+  - pharfileinfo.decompress.html: 'PharFileInfo::decompress »'
+  - index.html: PHP Manual
+  - class.pharfileinfo.html: PharFileInfo
+title: 'PharFileInfo::construct'
+---
 # PharFileInfo::construct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

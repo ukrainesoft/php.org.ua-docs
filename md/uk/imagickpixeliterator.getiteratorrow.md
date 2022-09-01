@@ -1,16 +1,11 @@
-Повертає поточний піксель ітератора ряду
-
--   [« ImagickPixelIterator::getCurrentIteratorRow](imagickpixeliterator.getcurrentiteratorrow.md)
-    
--   [ImagickPixelIterator::getNextIteratorRow »](imagickpixeliterator.getnextiteratorrow.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.md)
-    
--   Повертає поточний піксель ітератора ряду
-    
-
+---
+navigation:
+  - imagickpixeliterator.getcurrentiteratorrow.md: '« ImagickPixelIterator::getCurrentIteratorRow'
+  - imagickpixeliterator.getnextiteratorrow.md: 'ImagickPixelIterator::getNextIteratorRow »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
+title: 'ImagickPixelIterator::getIteratorRow'
+---
 # ImagickPixelIterator::getIteratorRow
 
 (PECL imagick 2, PECL imagick 3)

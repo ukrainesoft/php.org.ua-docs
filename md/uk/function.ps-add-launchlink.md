@@ -1,16 +1,11 @@
-Додає посилання, яке запускає файл
-
--   [«psaddbookmark](function.ps-add-bookmark.html)
-    
--   [псaddlocallink »](function.ps-add-locallink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Додає посилання, яке запускає файл
-    
-
+---
+navigation:
+  - function.ps-add-bookmark.html: «psaddbookmark
+  - function.ps-add-locallink.html: псaddlocallink »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псaddlaunchlink
+---
 # псaddlaunchlink
 
 (PECL ps >= 1.1.0)

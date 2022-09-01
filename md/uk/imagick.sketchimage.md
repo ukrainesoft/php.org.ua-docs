@@ -1,16 +1,11 @@
-Імітує малюнок олівцем
-
--   [« Imagick::sigmoidalContrastImage](imagick.sigmoidalcontrastimage.md)
-    
--   [Imagick::smushImages »](imagick.smushimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Імітує малюнок олівцем
-    
-
+---
+navigation:
+  - imagick.sigmoidalcontrastimage.md: '« Imagick::sigmoidalContrastImage'
+  - imagick.smushimages.md: 'Imagick::smushImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::sketchImage'
+---
 # Imagick::sketchImage
 
 (PECL imagick 2, PECL imagick 3)

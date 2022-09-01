@@ -1,16 +1,11 @@
-Деструктор класу YafResponseAbstract
-
--   [« YafResponseAbstract::construct](yaf-response-abstract.construct.html)
-    
--   [YafResponseAbstract::getBody »](yaf-response-abstract.getbody.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Деструктор класу YafResponseAbstract
-    
-
+---
+navigation:
+  - yaf-response-abstract.construct.html: '« YafResponseAbstract::construct'
+  - yaf-response-abstract.getbody.html: 'YafResponseAbstract::getBody »'
+  - index.html: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::destruct'
+---
 # YafResponseAbstract::destruct
 
 (Yaf >=1.0.0)

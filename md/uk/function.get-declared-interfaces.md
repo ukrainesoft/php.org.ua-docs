@@ -1,16 +1,11 @@
-Повертає масив усіх оголошених інтерфейсів
-
--   [« getdeclaredclasses](function.get-declared-classes.html)
-    
--   [getdeclaredtraits »](function.get-declared-traits.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Повертає масив усіх оголошених інтерфейсів
-    
-
+---
+navigation:
+  - function.get-declared-classes.html: « getdeclaredclasses
+  - function.get-declared-traits.html: getdeclaredtraits »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: getdeclaredinterfaces
+---
 # getdeclaredinterfaces
 
 (PHP 5, PHP 7, PHP 8)

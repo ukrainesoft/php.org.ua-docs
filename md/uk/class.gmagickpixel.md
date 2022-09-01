@@ -1,16 +1,11 @@
-Клас GmagickPixel
-
--   [« GmagickDraw::settextencoding](gmagickdraw.settextencoding.html)
-    
--   [GmagickPixel::construct »](gmagickpixel.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](book.gmagick.html)
-    
--   Клас GmagickPixel
-    
-
+---
+navigation:
+  - gmagickdraw.settextencoding.html: '« GmagickDraw::settextencoding'
+  - gmagickpixel.construct.html: 'GmagickPixel::construct »'
+  - index.html: PHP Manual
+  - book.gmagick.html: Gmagick
+title: Клас GmagickPixel
+---
 # Клас GmagickPixel
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Отримання елементів по локальному імені у заданому просторі імен
-
--   [« DOMElement::getElementsByTagName](domelement.getelementsbytagname.md)
-    
--   [DOMElement::hasAttribute »](domelement.hasattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Отримання елементів по локальному імені у заданому просторі імен
-    
-
+---
+navigation:
+  - domelement.getelementsbytagname.md: '« DOMElement::getElementsByTagName'
+  - domelement.hasattribute.md: 'DOMElement::hasAttribute »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::getElementsByTagNameNS'
+---
 # DOMElement::getElementsByTagNameNS
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ URI простір імен.
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `namespace` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `namespace` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Визначити, чи значення параметра за промовчанням константою
-
--   [« ReflectionParameter::isDefaultValueAvailable](reflectionparameter.isdefaultvalueavailable.html)
-    
--   [ReflectionParameter::isOptional »](reflectionparameter.isoptional.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionParameter](class.reflectionparameter.html)
-    
--   Визначити, чи значення параметра за промовчанням константою
-    
-
+---
+navigation:
+  - reflectionparameter.isdefaultvalueavailable.html: '« ReflectionParameter::isDefaultValueAvailable'
+  - reflectionparameter.isoptional.html: 'ReflectionParameter::isOptional »'
+  - index.html: PHP Manual
+  - class.reflectionparameter.html: ReflectionParameter
+title: 'ReflectionParameter::isDefaultValueConstant'
+---
 # ReflectionParameter::isDefaultValueConstant
 
 (PHP 5> = 5.4.6, PHP 7, PHP 8)

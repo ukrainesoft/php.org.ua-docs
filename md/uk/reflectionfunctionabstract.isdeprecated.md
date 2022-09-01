@@ -1,16 +1,11 @@
-Перевіряє, чи є функція застарілої
-
--   [« ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md)
-    
--   [ReflectionFunctionAbstract::isGenerator »](reflectionfunctionabstract.isgenerator.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перевіряє, чи є функція застарілої
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.isclosure.md: '« ReflectionFunctionAbstract::isClosure'
+  - reflectionfunctionabstract.isgenerator.md: 'ReflectionFunctionAbstract::isGenerator »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::isDeprecated'
+---
 # ReflectionFunctionAbstract::isDeprecated
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

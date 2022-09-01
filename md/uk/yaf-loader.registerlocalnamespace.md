@@ -1,16 +1,11 @@
-Реєструє префікс локального класу
-
--   [« YafLoader::isLocalName](yaf-loader.islocalname.html)
-    
--   [YafLoader::registerNamespace »](yaf-loader.registernamespace.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Реєструє префікс локального класу
-    
-
+---
+navigation:
+  - yaf-loader.islocalname.html: '« YafLoader::isLocalName'
+  - yaf-loader.registernamespace.html: 'YafLoader::registerNamespace »'
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::registerLocalNamespace'
+---
 # YafLoader::registerLocalNamespace
 
 (Yaf >=1.0.0)

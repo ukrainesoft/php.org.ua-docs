@@ -1,16 +1,11 @@
-Вектор найменшого числа
-
--   [« traderexp](function.trader-exp.html)
-    
--   [tradergetcompat »](function.trader-get-compat.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вектор найменшого числа
-    
-
+---
+navigation:
+  - function.trader-exp.html: « traderexp
+  - function.trader-get-compat.html: tradergetcompat »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderfloor
+---
 # traderfloor
 
 (PECL trader >= 0.2.0)

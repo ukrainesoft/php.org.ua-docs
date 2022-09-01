@@ -1,16 +1,11 @@
-Перевіряє, чи функція є певною користувачем
-
--   [« ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md)
-    
--   [ReflectionFunctionAbstract::isVariadic »](reflectionfunctionabstract.isvariadic.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перевіряє, чи функція є певною користувачем
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.isinternal.md: '« ReflectionFunctionAbstract::isInternal'
+  - reflectionfunctionabstract.isvariadic.md: 'ReflectionFunctionAbstract::isVariadic »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::isUserDefined'
+---
 # ReflectionFunctionAbstract::isUserDefined
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

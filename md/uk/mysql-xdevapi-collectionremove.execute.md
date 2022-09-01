@@ -1,16 +1,11 @@
-Виконує операцію видалення
-
--   [« CollectionRemove::construct](mysql-xdevapi-collectionremove.construct.html)
-    
--   [CollectionRemove::limit »](mysql-xdevapi-collectionremove.limit.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
-    
--   Виконує операцію видалення
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionremove.construct.html: '« CollectionRemove::construct'
+  - mysql-xdevapi-collectionremove.limit.html: 'CollectionRemove::limit »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove
+title: 'CollectionRemove::execute'
+---
 # CollectionRemove::execute
 
 (No version information available, might only be in Git)

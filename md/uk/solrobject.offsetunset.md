@@ -1,16 +1,11 @@
-Скидає значення якості
-
--   [« SolrObject::offsetSet](solrobject.offsetset.md)
-    
--   [SolrClient »](class.solrclient.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrObject](class.solrobject.md)
-    
--   Скидає значення якості
-    
-
+---
+navigation:
+  - solrobject.offsetset.md: '« SolrObject::offsetSet'
+  - class.solrclient.md: SolrClient »
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
+title: 'SolrObject::offsetUnset'
+---
 # SolrObject::offsetUnset
 
 (PECL solr> = 0.9.2)

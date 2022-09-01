@@ -1,16 +1,11 @@
-Отримати тип виключення
-
--   [« YarServerException](class.yar-server-exception.html)
-    
--   [YarClientException »](class.yar-client-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [YarServerException](class.yar-server-exception.html)
-    
--   Отримати тип виключення
-    
-
+---
+navigation:
+  - class.yar-server-exception.html: « YarServerException
+  - class.yar-client-exception.html: YarClientException »
+  - index.md: PHP Manual
+  - class.yar-server-exception.html: YarServerException
+title: 'YarServerException::getType'
+---
 # YarServerException::getType
 
 (PECL yar >= 1.0.0)

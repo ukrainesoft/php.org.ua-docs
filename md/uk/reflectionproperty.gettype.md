@@ -1,16 +1,11 @@
-Отримати тип властивості
-
--   [« ReflectionProperty::getName](reflectionproperty.getname.md)
-    
--   [ReflectionProperty::getValue »](reflectionproperty.getvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Отримати тип властивості
-    
-
+---
+navigation:
+  - reflectionproperty.getname.md: '« ReflectionProperty::getName'
+  - reflectionproperty.getvalue.md: 'ReflectionProperty::getValue »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getType'
+---
 # ReflectionProperty::getType
 
 (PHP 7> = 7.4.0, PHP 8)

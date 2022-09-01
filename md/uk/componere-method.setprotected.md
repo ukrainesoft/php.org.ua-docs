@@ -1,16 +1,11 @@
-Зміна доступності
-
--   [« ComponereMethod::setPrivate](componere-method.setprivate.html)
-    
--   [ComponereMethod::setStatic »](componere-method.setstatic.html)
-    
--   [PHP Manual](index.html)
-    
--   [ComponereMethod](class.componere-method.html)
-    
--   Зміна доступності
-    
-
+---
+navigation:
+  - componere-method.setprivate.html: '« ComponereMethod::setPrivate'
+  - componere-method.setstatic.html: 'ComponereMethod::setStatic »'
+  - index.html: PHP Manual
+  - class.componere-method.html: ComponereMethod
+title: 'ComponereMethod::setProtected'
+---
 # ComponereMethod::setProtected
 
 (Componere 2 >= 2.1.0)

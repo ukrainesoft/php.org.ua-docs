@@ -1,16 +1,11 @@
-Застаріла функціональність
-
--   [« Зміни, що ламають зворотну сумісність](migration81.incompatible.html)
-    
--   [Другие изменения »](migration81.other-changes.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
-    
--   Застаріла функціональність
-    
-
+---
+navigation:
+  - migration81.incompatible.html: '« Зміни, що ламають зворотну сумісність'
+  - migration81.other-changes.html: Другие изменения »
+  - index.html: PHP Manual
+  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x
+title: Застаріла функціональність
+---
 ## Застаріла функціональність
 
 ### Ядро PHP

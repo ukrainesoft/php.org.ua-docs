@@ -1,16 +1,11 @@
-Порівнює пріоритети для коректного розміщення елементів у чергу
-
--   [« SplPriorityQueue](class.splpriorityqueue.html)
-    
--   [SplPriorityQueue::count »](splpriorityqueue.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplPriorityQueue](class.splpriorityqueue.html)
-    
--   Порівнює пріоритети для коректного розміщення елементів у чергу
-    
-
+---
+navigation:
+  - class.splpriorityqueue.html: « SplPriorityQueue
+  - splpriorityqueue.count.html: 'SplPriorityQueue::count »'
+  - index.html: PHP Manual
+  - class.splpriorityqueue.html: SplPriorityQueue
+title: 'SplPriorityQueue::compare'
+---
 # SplPriorityQueue::compare
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

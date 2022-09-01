@@ -1,16 +1,11 @@
-Отримання дочірніх елементів
-
--   [« RecursiveTreeIterator::beginIteration](recursivetreeiterator.beginiteration.md)
-    
--   [RecursiveTreeIterator::callHasChildren »](recursivetreeiterator.callhaschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Отримання дочірніх елементів
-    
-
+---
+navigation:
+  - recursivetreeiterator.beginiteration.md: '« RecursiveTreeIterator::beginIteration'
+  - recursivetreeiterator.callhaschildren.md: 'RecursiveTreeIterator::callHasChildren »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::callGetChildren'
+---
 # RecursiveTreeIterator::callGetChildren
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Запустити вказану програму в області поточного процесу
-
--   [pcntlerrno](function.pcntl-errno.html)
-    
--   [pcntlfork »](function.pcntl-fork.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Запустити вказану програму в області поточного процесу
-    
-
+---
+navigation:
+  - function.pcntl-errno.html: pcntlerrno
+  - function.pcntl-fork.html: pcntlfork »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlexec
+---
 # pcntlexec
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

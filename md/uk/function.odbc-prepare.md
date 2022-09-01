@@ -1,16 +1,11 @@
-Підготовка запиту до виконання
-
--   [« odbcpconnect](function.odbc-pconnect.html)
-    
--   [odbcprimarykeys »](function.odbc-primarykeys.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Підготовка запиту до виконання
-    
-
+---
+navigation:
+  - function.odbc-pconnect.html: « odbcpconnect
+  - function.odbc-primarykeys.html: odbcprimarykeys »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcprepare
+---
 # odbcprepare
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає рядок, що описує помилку
-
--   [« curlmultisetopt](function.curl-multi-setopt.html)
-    
--   [curlpause »](function.curl-pause.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Повертає рядок, що описує помилку
-    
-
+---
+navigation:
+  - function.curl-multi-setopt.html: « curlmultisetopt
+  - function.curl-pause.html: curlpause »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlmultistrerror
+---
 # curlmultistrerror
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

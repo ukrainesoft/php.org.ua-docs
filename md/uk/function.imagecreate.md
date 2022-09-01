@@ -1,16 +1,11 @@
-Створення нового палітрового зображення
-
--   [« imagecopyresized](function.imagecopyresized.md)
-    
--   [imagecreatefromavif »](function.imagecreatefromavif.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Створення нового палітрового зображення
-    
-
+---
+navigation:
+  - function.imagecopyresized.md: « imagecopyresized
+  - function.imagecreatefromavif.md: imagecreatefromavif »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreate
+---
 # imagecreate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ imagecreate(int $width, int $height): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

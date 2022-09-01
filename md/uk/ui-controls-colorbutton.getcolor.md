@@ -1,16 +1,11 @@
-Отримати об'єкт Color
-
--   [« UIControlsColorButton](class.ui-controls-colorbutton.html)
-    
--   [ОЙControlsColorButton::onChange »](ui-controls-colorbutton.onchange.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsColorButton](class.ui-controls-colorbutton.html)
-    
--   Отримати об'єкт Color
-    
-
+---
+navigation:
+  - class.ui-controls-colorbutton.html: « UIControlsColorButton
+  - ui-controls-colorbutton.onchange.html: 'ОЙControlsColorButton::onChange »'
+  - index.md: PHP Manual
+  - class.ui-controls-colorbutton.html: ОЙControlsColorButton
+title: 'ОЙControlsColorButton::getColor'
+---
 # ОЙControlsColorButton::getColor
 
 (UI 0.9.9)

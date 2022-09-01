@@ -1,16 +1,11 @@
-Повертає масив змінних, що використовуються в замиканні.
-
--   [« ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.html)
-    
--   [ReflectionFunctionAbstract::getDocComment »](reflectionfunctionabstract.getdoccomment.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Повертає масив змінних, що використовуються в замиканні.
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getclosurethis.html: '« ReflectionFunctionAbstract::getClosureThis'
+  - reflectionfunctionabstract.getdoccomment.html: 'ReflectionFunctionAbstract::getDocComment »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getClosureUsedVariables'
+---
 # ReflectionFunctionAbstract::getClosureUsedVariables
 
 (PHP 8> = 8.1.0)

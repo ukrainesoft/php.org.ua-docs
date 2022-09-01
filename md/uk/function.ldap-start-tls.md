@@ -1,16 +1,11 @@
-Запуск TLS
-
--   [« ldapsort](function.ldap-sort.html)
-    
--   [ldapt61то](function.ldap-t61-to-8859.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Запуск TLS
-    
-
+---
+navigation:
+  - function.ldap-sort.html: « ldapsort
+  - function.ldap-t61-to-8859.html: ldapt61то
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapstarttls
+---
 # ldapstarttls
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

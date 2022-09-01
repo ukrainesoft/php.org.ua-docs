@@ -1,16 +1,11 @@
-Повертає опцію "wtimeout" WriteConcern
-
--   [« MongoDBDriverWriteConcern::getW](mongodb-driver-writeconcern.getw.html)
-    
--   [MongoDBDriverWriteConcern::isDefault »](mongodb-driver-writeconcern.isdefault.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
-    
--   Повертає опцію "wtimeout" WriteConcern
-    
-
+---
+navigation:
+  - mongodb-driver-writeconcern.getw.html: '« MongoDBDriverWriteConcern::getW'
+  - mongodb-driver-writeconcern.isdefault.html: 'MongoDBDriverWriteConcern::isDefault »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::getWtimeout'
+---
 # MongoDBDriverWriteConcern::getWtimeout
 
 (mongodb >=1.0.0)
@@ -37,8 +32,8 @@ final public MongoDB\Driver\WriteConcern::getWtimeout(): int
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                        |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.7.0 | У 32-розрядних системах метод завжди буде усікати значення `wTimeout`якщо воно виходить за межі 32-бітного діапазону. У цьому випадку буде видано попередження. |
 
 ### Приклади

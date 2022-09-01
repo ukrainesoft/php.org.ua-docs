@@ -1,16 +1,11 @@
-Повертає кількість стовпців у заданому виразі
-
--   [« mysqlistmt::fetch](mysqli-stmt.fetch.html)
-    
--   [mysqlistmt::freeresult »](mysqli-stmt.free-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає кількість стовпців у заданому виразі
-    
-
+---
+navigation:
+  - mysqli-stmt.fetch.html: '« mysqlistmt::fetch'
+  - mysqli-stmt.free-result.html: 'mysqlistmt::freeresult »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$fieldcount'
+---
 # mysqlistmt::$fieldcount
 
 # mysqlistmtfieldcount

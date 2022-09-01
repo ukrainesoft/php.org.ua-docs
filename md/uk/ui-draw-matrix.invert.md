@@ -1,16 +1,11 @@
-Інвертувати матрицю
-
--   [« UIDrawMatrix](class.ui-draw-matrix.html)
-    
--   [ОЙDrawMatrix::isInvertible »](ui-draw-matrix.isinvertible.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawMatrix](class.ui-draw-matrix.html)
-    
--   Інвертувати матрицю
-    
-
+---
+navigation:
+  - class.ui-draw-matrix.html: « UIDrawMatrix
+  - ui-draw-matrix.isinvertible.html: 'ОЙDrawMatrix::isInvertible »'
+  - index.html: PHP Manual
+  - class.ui-draw-matrix.html: ОЙDrawMatrix
+title: 'ОЙDrawMatrix::invert'
+---
 # ОЙDrawMatrix::invert
 
 (UI 0.9.9)

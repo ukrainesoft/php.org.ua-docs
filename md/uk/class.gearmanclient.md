@@ -1,16 +1,11 @@
-Клас GearmanClient
-
--   [« Базові клієнт та обробник Gearman, відправка завдань](gearman.examples-reverse-task.html)
-    
--   [GearmanClient::addOptions »](gearmanclient.addoptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gearman](book.gearman.md)
-    
--   Клас GearmanClient
-    
-
+---
+navigation:
+  - gearman.examples-reverse-task.html: '« Базові клієнт та обробник Gearman, відправка завдань'
+  - gearmanclient.addoptions.md: 'GearmanClient::addOptions »'
+  - index.md: PHP Manual
+  - book.gearman.md: Gearman
+title: Клас GearmanClient
+---
 # Клас GearmanClient
 
 (PECL gearman >= 0.5.0)

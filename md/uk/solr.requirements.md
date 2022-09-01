@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](solr.setup.html)
-    
--   [Установка »](solr.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](solr.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - solr.setup.html: « Встановлення та налаштування
+  - solr.installation.html: Установка »
+  - index.html: PHP Manual
+  - solr.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Модуль libxml і curl також повинні бути увімкнені, щоб модуль Apache Solr був доступний.

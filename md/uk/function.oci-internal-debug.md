@@ -1,16 +1,11 @@
-Вмикає або вимикає внутрішній висновок налагодження
-
--   [« Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   [ocibindbyname »](function.ocibindbyname.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Вмикає або вимикає внутрішній висновок налагодження
-    
-
+---
+navigation:
+  - oldaliases.oci8.md: « Устаревшие наименования и функции OCI8
+  - function.ocibindbyname.md: ocibindbyname »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ociinternaldebug
+---
 # ociinternaldebug
 
 (PHP 5, PHP 7, PECL OCI8 >= 1.1.0, PECL OCI8 <= 2.2.0)

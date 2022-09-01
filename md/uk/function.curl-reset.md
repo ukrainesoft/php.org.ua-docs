@@ -1,16 +1,11 @@
-Скинути налаштування обробника сесії libcurl
-
--   [« curlpause](function.curl-pause.html)
-    
--   [curlsetoptarray »](function.curl-setopt-array.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Скинути налаштування обробника сесії libcurl
-    
-
+---
+navigation:
+  - function.curl-pause.html: « curlpause
+  - function.curl-setopt-array.html: curlsetoptarray »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlreset
+---
 # curlreset
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ curl_reset(CurlHandle $handle): void
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

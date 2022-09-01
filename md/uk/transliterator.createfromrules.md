@@ -1,16 +1,11 @@
-Створити транслітератор на основі правил
-
--   [« Transliterator::create](transliterator.create.md)
-    
--   [Transliterator::createInverse »](transliterator.createinverse.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Створити транслітератор на основі правил
-    
-
+---
+navigation:
+  - transliterator.create.md: '« Transliterator::create'
+  - transliterator.createinverse.md: 'Transliterator::createInverse »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::createFromRules'
+---
 # Transliterator::createFromRules
 
 # transliteratorcreatefromrules

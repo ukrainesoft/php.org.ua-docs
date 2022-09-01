@@ -1,16 +1,11 @@
-Пряме введення/виведення (Direct IO)
-
--   [« Модулі для роботи з файловою системою](refs.fileprocess.file.html)
-    
--   [Введение »](intro.dio.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.html)
-    
--   Пряме введення/виведення (Direct IO)
-    
-
+---
+navigation:
+  - refs.fileprocess.file.html: « Модулі для роботи з файловою системою
+  - intro.dio.html: Введение »
+  - index.html: PHP Manual
+  - refs.fileprocess.file.html: Модулі для роботи з файловою системою
+title: Пряме введення/виведення (Direct IO)
+---
 # Пряме введення/виведення (Direct IO)
 
 -   [Введение](intro.dio.html)

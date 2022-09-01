@@ -1,16 +1,11 @@
-Свічкова модель "Суміжні білі свічки"
-
--   [« tradercdleveningstar](function.trader-cdleveningstar.html)
-    
--   [tradercdlgravestonedoji »](function.trader-cdlgravestonedoji.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Свічкова модель "Суміжні білі свічки"
-    
-
+---
+navigation:
+  - function.trader-cdleveningstar.html: « tradercdleveningstar
+  - function.trader-cdlgravestonedoji.html: tradercdlgravestonedoji »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlgapsidesidewhite
+---
 # tradercdlgapsidesidewhite
 
 (PECL trader >= 0.2.0)

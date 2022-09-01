@@ -1,16 +1,11 @@
-Повідомляє, чи є усунення зміщенням кордону
-
--   [« IntlBreakIterator::getText](intlbreakiterator.gettext.md)
-    
--   [IntlBreakIterator::last »](intlbreakiterator.last.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlBreakIterator](class.intlbreakiterator.md)
-    
--   Повідомляє, чи є усунення зміщенням кордону
-    
-
+---
+navigation:
+  - intlbreakiterator.gettext.md: '« IntlBreakIterator::getText'
+  - intlbreakiterator.last.md: 'IntlBreakIterator::last »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::isBoundary'
+---
 # IntlBreakIterator::isBoundary
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

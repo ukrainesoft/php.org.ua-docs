@@ -1,16 +1,11 @@
-Захоплює зображення вікна
-
--   [« imagegrabscreen](function.imagegrabscreen.html)
-    
--   [imageinterlace »](function.imageinterlace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Захоплює зображення вікна
-    
-
+---
+navigation:
+  - function.imagegrabscreen.html: « imagegrabscreen
+  - function.imageinterlace.html: imageinterlace »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagegrabwindow
+---
 # imagegrabwindow
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ ID вікна HWND.
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
-|        | `client_area` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int).                                     |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+|  | `client_area` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади
 

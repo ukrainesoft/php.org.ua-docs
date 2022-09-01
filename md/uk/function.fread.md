@@ -1,16 +1,11 @@
-Бінарно-безпечне читання файлу
-
--   [« fputs](function.fputs.md)
-    
--   [fscanf »](function.fscanf.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Бінарно-безпечне читання файлу
-    
-
+---
+navigation:
+  - function.fputs.md: « fputs
+  - function.fscanf.md: fscanf »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fread
+---
 # fread
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

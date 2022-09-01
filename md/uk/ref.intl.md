@@ -1,16 +1,11 @@
-Функції intl
-
--   [« IntlIterator::valid](intliterator.valid.md)
-    
--   [intlerrorname »](function.intl-error-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Функції intl
-    
-
+---
+navigation:
+  - intliterator.valid.md: '« IntlIterator::valid'
+  - function.intl-error-name.html: intlerrorname »
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Функції intl
+---
 # Функції intl
 
 ## Зміст

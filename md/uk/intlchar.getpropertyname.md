@@ -1,16 +1,11 @@
-Отримати Unicode ім'я властивості
-
--   [« IntlChar::getPropertyEnum](intlchar.getpropertyenum.html)
-    
--   [IntlChar::getPropertyValueEnum »](intlchar.getpropertyvalueenum.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати Unicode ім'я властивості
-    
-
+---
+navigation:
+  - intlchar.getpropertyenum.html: '« IntlChar::getPropertyEnum'
+  - intlchar.getpropertyvalueenum.html: 'IntlChar::getPropertyValueEnum »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::getPropertyName'
+---
 # IntlChar::getPropertyName
 
 (PHP 7, PHP 8)

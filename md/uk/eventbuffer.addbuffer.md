@@ -1,16 +1,11 @@
-Переміщає всі дані з буфера екземпляру EventBuffer
-
--   [« EventBuffer::add](eventbuffer.add.html)
-    
--   [EventBuffer::appendFrom »](eventbuffer.appendfrom.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Переміщає всі дані з буфера екземпляру EventBuffer
-    
-
+---
+navigation:
+  - eventbuffer.add.html: '« EventBuffer::add'
+  - eventbuffer.appendfrom.html: 'EventBuffer::appendFrom »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::addBuffer'
+---
 # EventBuffer::addBuffer
 
 (PECL event >= 1.2.6-beta)

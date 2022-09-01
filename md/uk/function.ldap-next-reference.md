@@ -1,16 +1,11 @@
-Повертає наступну довідку
-
--   [« ldapnextentry](function.ldap-next-entry.html)
-    
--   [ldapparseexop »](function.ldap-parse-exop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Повертає наступну довідку
-    
-
+---
+navigation:
+  - function.ldap-next-entry.html: « ldapnextentry
+  - function.ldap-parse-exop.html: ldapparseexop »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapnextreference
+---
 # ldapnextreference
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

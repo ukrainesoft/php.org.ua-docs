@@ -1,16 +1,11 @@
-Функція ініціалізує всі буфери, необхідні шифрування
-
--   [« mcryptgenericdeinit](function.mcrypt-generic-deinit.html)
-    
--   [mcryptgeneric »](function.mcrypt-generic.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Функція ініціалізує всі буфери, необхідні шифрування
-    
-
+---
+navigation:
+  - function.mcrypt-generic-deinit.html: « mcryptgenericdeinit
+  - function.mcrypt-generic.html: mcryptgeneric »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptgenericinit
+---
 # mcryptgenericinit
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

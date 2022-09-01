@@ -1,16 +1,11 @@
-Встановлює коефіцієнт відхилення триграми фрази (параметр ps3)
-
--   [« SolrDisMaxQuery::setTrigramPhraseFields](solrdismaxquery.settrigramphrasefields.md)
-    
--   [SolrDisMaxQuery::setUserFields »](solrdismaxquery.setuserfields.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Встановлює коефіцієнт відхилення триграми фрази (параметр ps3)
-    
-
+---
+navigation:
+  - solrdismaxquery.settrigramphrasefields.md: '« SolrDisMaxQuery::setTrigramPhraseFields'
+  - solrdismaxquery.setuserfields.md: 'SolrDisMaxQuery::setUserFields »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setTrigramPhraseSlop'
+---
 # SolrDisMaxQuery::setTrigramPhraseSlop
 
 (No version information available, might only be in Git)

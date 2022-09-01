@@ -1,16 +1,11 @@
-Читає та витягує дані з черги повідомлень
-
--   [« SwooleProcess::name](swoole-process.name.html)
-    
--   [SwooleProcess::push »](swoole-process.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Читає та витягує дані з черги повідомлень
-    
-
+---
+navigation:
+  - swoole-process.name.html: '« SwooleProcess::name'
+  - swoole-process.push.html: 'SwooleProcess::push »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::pop'
+---
 # SwooleProcess::pop
 
 (PECL swoole >= 1.9.0)

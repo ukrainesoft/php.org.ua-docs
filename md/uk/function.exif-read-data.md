@@ -1,16 +1,11 @@
-Читає заголовки EXIF ​​із файлів зображень
-
--   [« exifimagetype](function.exif-imagetype.html)
-    
--   [exiftagname »](function.exif-tagname.html)
-    
--   [PHP Manual](index.md)
-    
--   [Exif Функції](ref.exif.md)
-    
--   Читає заголовки EXIF ​​із файлів зображень
-    
-
+---
+navigation:
+  - function.exif-imagetype.html: « exifimagetype
+  - function.exif-tagname.html: exiftagname »
+  - index.md: PHP Manual
+  - ref.exif.md: Exif Функції
+title: exifreaddata
+---
 # exifreaddata
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -67,11 +62,11 @@ exif_read_data(    resource|string $file,    ?string $required_sections 
 
 ### список змін
 
-| Версия | Описание                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------|
-|        | `required_sections` тепер допускає значення null.                                                          |
-|        | Параметр `file` перейменований на `stream` і може приймати як локальний шлях до файлу, і потоковий ресурс. |
-|        | Додано підтримку наступних форматів EXIF:                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | `required_sections` тепер допускає значення null. |
+|  | Параметр `file` перейменований на `stream` і може приймати як локальний шлях до файлу, і потоковий ресурс. |
+|  | Додано підтримку наступних форматів EXIF: |
 
 -   Samsung
 -   DJI

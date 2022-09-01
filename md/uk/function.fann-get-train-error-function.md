@@ -1,16 +1,11 @@
-Повертає функцію обробки помилок, що використовується під час навчання
-
--   [« fanngettotalneurons](function.fann-get-total-neurons.html)
-    
--   [fanngettrainstopfunction »](function.fann-get-train-stop-function.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає функцію обробки помилок, що використовується під час навчання
-    
-
+---
+navigation:
+  - function.fann-get-total-neurons.html: « fanngettotalneurons
+  - function.fann-get-train-stop-function.html: fanngettrainstopfunction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngettrainerrorfunction
+---
 # fanngettrainerrorfunction
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи працює сервер Solr
-
--   [« SolrClient::optimize](solrclient.optimize.md)
-    
--   [SolrClient::query »](solrclient.query.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Перевіряє, чи працює сервер Solr
-    
-
+---
+navigation:
+  - solrclient.optimize.md: '« SolrClient::optimize'
+  - solrclient.query.md: 'SolrClient::query »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::ping'
+---
 # SolrClient::ping
 
 (PECL solr> = 0.9.2)

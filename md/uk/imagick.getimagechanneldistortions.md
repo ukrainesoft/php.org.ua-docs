@@ -1,16 +1,11 @@
-Повертає спотворення каналу
-
--   [« Imagick::getImageChannelDistortion](imagick.getimagechanneldistortion.md)
-    
--   [Imagick::getImageChannelExtrema »](imagick.getimagechannelextrema.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає спотворення каналу
-    
-
+---
+navigation:
+  - imagick.getimagechanneldistortion.md: '« Imagick::getImageChannelDistortion'
+  - imagick.getimagechannelextrema.md: 'Imagick::getImageChannelExtrema »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageChannelDistortions'
+---
 # Imagick::getImageChannelDistortions
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

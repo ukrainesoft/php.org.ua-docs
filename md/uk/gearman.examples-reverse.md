@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](gearman.examples.html)
-    
--   [Базовий клієнт та обробник Gearman, фоновий режим »](gearman.examples-reverse-bg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](gearman.examples.html)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - gearman.examples.html: « Приклади
+  - gearman.examples-reverse-bg.html: 'Базовий клієнт та обробник Gearman, фоновий режим »'
+  - index.html: PHP Manual
+  - gearman.examples.html: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 **Приклад #1 Базовий клієнт та обробник Gearman**

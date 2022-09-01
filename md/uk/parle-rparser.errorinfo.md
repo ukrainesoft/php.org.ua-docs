@@ -1,16 +1,11 @@
-Отримує інформацію про помилку
-
--   [« ParleRParser::dump](parle-rparser.dump.html)
-    
--   [ParleRParser::left »](parle-rparser.left.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Отримує інформацію про помилку
-    
-
+---
+navigation:
+  - parle-rparser.dump.html: '« ParleRParser::dump'
+  - parle-rparser.left.html: 'ParleRParser::left »'
+  - index.md: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::errorInfo'
+---
 # ParleRParser::errorInfo
 
 (PECL parle >= 0.7.0)

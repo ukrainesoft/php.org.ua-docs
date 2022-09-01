@@ -1,16 +1,11 @@
-Закриває дані BLOB/CLOB
-
--   [« cubridісinstance](function.cubrid-is-instance.html)
-    
--   [cubridlobexport »](function.cubrid-lob-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Закриває дані BLOB/CLOB
-    
-
+---
+navigation:
+  - function.cubrid-is-instance.html: « cubridісinstance
+  - function.cubrid-lob-export.html: cubridlobexport »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridлобclose
+---
 # cubridлобclose
 
 (PECL CUBRID >= 8.3.1)

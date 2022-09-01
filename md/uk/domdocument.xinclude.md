@@ -1,16 +1,11 @@
-Вставляє XInclude в об'єкті DOMDocument.
-
--   [« DOMDocument::validate](domdocument.validate.html)
-    
--   [DOMDocumentFragment »](class.domdocumentfragment.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Вставляє XInclude в об'єкті DOMDocument.
-    
-
+---
+navigation:
+  - domdocument.validate.html: '« DOMDocument::validate'
+  - class.domdocumentfragment.html: DOMDocumentFragment »
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::xinclude'
+---
 # DOMDocument::xinclude
 
 (PHP 5, PHP 7, PHP 8)

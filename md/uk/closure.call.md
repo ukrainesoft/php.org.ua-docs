@@ -1,16 +1,11 @@
-Зв'язує та запускає замикання
-
--   [« Closure::bindTo](closure.bindto.html)
-    
--   [Closure::fromCallable »](closure.fromcallable.html)
-    
--   [PHP Manual](index.html)
-    
--   [Closure](class.closure.html)
-    
--   Зв'язує та запускає замикання
-    
-
+---
+navigation:
+  - closure.bindto.html: '« Closure::bindTo'
+  - closure.fromcallable.html: 'Closure::fromCallable »'
+  - index.html: PHP Manual
+  - class.closure.html: Closure
+title: 'Closure::call'
+---
 # Closure::call
 
 (PHP 7, PHP 8)

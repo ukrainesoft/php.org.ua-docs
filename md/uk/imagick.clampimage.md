@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::chopImage](imagick.chopimage.md)
-    
--   [Imagick::clear »](imagick.clear.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.chopimage.md: '« Imagick::chopImage'
+  - imagick.clear.md: 'Imagick::clear »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clampImage'
+---
 # Imagick::clampImage
 
 (PECL imagick 3> = 3.3.0)

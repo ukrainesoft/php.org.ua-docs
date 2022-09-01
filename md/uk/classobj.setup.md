@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.classobj.html)
-    
--   [Вимоги »](classobj.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Класи та об'єкти](book.classobj.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.classobj.html: « Введение
+  - classobj.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.classobj.html: Класи та об'єкти
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.iconv.md)
-    
--   [Вимоги »](iconv.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [iconv](book.iconv.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.iconv.md: « Введение
+  - iconv.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.iconv.md: iconv
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

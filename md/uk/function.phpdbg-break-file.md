@@ -1,16 +1,11 @@
-Додати точку переривання на конкретний рядок файлу
-
--   [« Функции phpdbg](ref.phpdbg.md)
-    
--   [phpdbgbreakfunction »](function.phpdbg-break-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Додати точку переривання на конкретний рядок файлу
-    
-
+---
+navigation:
+  - ref.phpdbg.md: « Функции phpdbg
+  - function.phpdbg-break-function.html: phpdbgbreakfunction »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgbreakfile
+---
 # phpdbgbreakfile
 
 (PHP 5> = 5.6.3, PHP 7, PHP 8)

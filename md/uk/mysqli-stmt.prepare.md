@@ -1,16 +1,11 @@
-Готує затвердження SQL до виконання
-
--   [« mysqlistmt::$paramcount](mysqli-stmt.param-count.html)
-    
--   [mysqlistmt::reset »](mysqli-stmt.reset.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Готує затвердження SQL до виконання
-    
-
+---
+navigation:
+  - mysqli-stmt.param-count.html: '« mysqlistmt::$paramcount'
+  - mysqli-stmt.reset.html: 'mysqlistmt::reset »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::prepare'
+---
 # mysqlistmt::prepare
 
 # mysqlistmtprepare

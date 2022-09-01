@@ -1,16 +1,11 @@
-Робота зі з'єднаннями OCI8 та Connection Pooling
-
--   [« Приклади](oci8.examples.html)
-    
--   [Поддержка OCI8 Fast Application Notification (FAN) »](oci8.fan.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8](book.oci8.html)
-    
--   Робота зі з'єднаннями OCI8 та Connection Pooling
-    
-
+---
+navigation:
+  - oci8.examples.html: « Приклади
+  - oci8.fan.html: Поддержка OCI8 Fast Application Notification (FAN) »
+  - index.html: PHP Manual
+  - book.oci8.html: OCI8
+title: Робота зі з'єднаннями OCI8 та Connection Pooling
+---
 # Робота зі з'єднаннями OCI8 та Connection Pooling
 
 ## Функції підключення

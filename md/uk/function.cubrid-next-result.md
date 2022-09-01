@@ -1,16 +1,11 @@
-Отримує результат наступного запиту під час виконання кількох SQL-операторів
-
--   [« cubridmovecursor](function.cubrid-move-cursor.html)
-    
--   [cubridnumcols »](function.cubrid-num-cols.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримує результат наступного запиту під час виконання кількох SQL-операторів
-    
-
+---
+navigation:
+  - function.cubrid-move-cursor.html: « cubridmovecursor
+  - function.cubrid-num-cols.html: cubridnumcols »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridnextresult
+---
 # cubridnextresult
 
 (PECL CUBRID >= 8.4.0)

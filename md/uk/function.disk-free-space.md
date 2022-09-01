@@ -1,16 +1,11 @@
-Повертає розмір доступного простору в каталозі або файловій системі
-
--   [« dirname](function.dirname.html)
-    
--   [disktotalspace »](function.disk-total-space.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Повертає розмір доступного простору в каталозі або файловій системі
-    
-
+---
+navigation:
+  - function.dirname.html: « dirname
+  - function.disk-total-space.html: disktotalspace »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: diskfreespace
+---
 # diskfreespace
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

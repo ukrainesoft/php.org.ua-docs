@@ -1,16 +1,11 @@
-Відкриває потік для існуючого великого об'єкту
-
--   [« PDO::pgsqlLOBCreate](pdo.pgsqllobcreate.html)
-    
--   [PDO::pgsqlLOBUnlink »](pdo.pgsqllobunlink.html)
-    
--   [PHP Manual](index.html)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   Відкриває потік для існуючого великого об'єкту
-    
-
+---
+navigation:
+  - pdo.pgsqllobcreate.html: '« PDO::pgsqlLOBCreate'
+  - pdo.pgsqllobunlink.html: 'PDO::pgsqlLOBUnlink »'
+  - index.html: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: 'PDO::pgsqlLOBOpen'
+---
 # PDO::pgsqlLOBOpen
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL pdopgsql >= 1.0.2)

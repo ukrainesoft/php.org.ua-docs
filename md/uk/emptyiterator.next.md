@@ -1,16 +1,11 @@
-Метод next()
-
--   [« EmptyIterator::key](emptyiterator.key.md)
-    
--   [EmptyIterator::rewind »](emptyiterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [EmptyIterator](class.emptyiterator.md)
-    
--   Метод next()
-    
-
+---
+navigation:
+  - emptyiterator.key.md: '« EmptyIterator::key'
+  - emptyiterator.rewind.md: 'EmptyIterator::rewind »'
+  - index.md: PHP Manual
+  - class.emptyiterator.md: EmptyIterator
+title: 'EmptyIterator::next'
+---
 # EmptyIterator::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

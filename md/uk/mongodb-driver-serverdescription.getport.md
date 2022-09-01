@@ -1,16 +1,11 @@
-Повертає порт, на якому прослуховується цей сервер
-
--   [« MongoDBDriverServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.html)
-    
--   [MongoDBDriverServerDescription::getRoundTripTime »](mongodb-driver-serverdescription.getroundtriptime.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
-    
--   Повертає порт, на якому прослуховується цей сервер
-    
-
+---
+navigation:
+  - mongodb-driver-serverdescription.getlastupdatetime.html: '« MongoDBDriverServerDescription::getLastUpdateTime'
+  - mongodb-driver-serverdescription.getroundtriptime.html: 'MongoDBDriverServerDescription::getRoundTripTime »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getPort'
+---
 # MongoDBDriverServerDescription::getPort
 
 (mongodb >=1.13.0)

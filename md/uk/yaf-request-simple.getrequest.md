@@ -1,16 +1,11 @@
-Призначення getRequest
-
--   [« YafRequestSimple::getQuery](yaf-request-simple.getquery.html)
-    
--   [YafRequestSimple::isXmlHttpRequest »](yaf-request-simple.isxmlhttprequest.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestSimple](class.yaf-request-simple.html)
-    
--   Призначення getRequest
-    
-
+---
+navigation:
+  - yaf-request-simple.getquery.html: '« YafRequestSimple::getQuery'
+  - yaf-request-simple.isxmlhttprequest.html: 'YafRequestSimple::isXmlHttpRequest »'
+  - index.md: PHP Manual
+  - class.yaf-request-simple.html: YafRequestSimple
+title: 'YafRequestSimple::getRequest'
+---
 # YafRequestSimple::getRequest
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Змінює розмір зображення
-
--   [« Imagick::thresholdImage](imagick.thresholdimage.html)
-    
--   [Imagick::tintImage »](imagick.tintimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Змінює розмір зображення
-    
-
+---
+navigation:
+  - imagick.thresholdimage.html: '« Imagick::thresholdImage'
+  - imagick.tintimage.html: 'Imagick::tintImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::thumbnailImage'
+---
 # Imagick::thumbnailImage
 
 (PECL imagick 2, PECL imagick 3)

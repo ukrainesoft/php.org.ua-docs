@@ -1,16 +1,11 @@
-Обчислює відкритий ключ із секретного ключа
-
--   [« sodiumcryptoboxopen](function.sodium-crypto-box-open.html)
-    
--   [sodiumcryptoboxpublickey »](function.sodium-crypto-box-publickey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Обчислює відкритий ключ із секретного ключа
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-open.html: « sodiumcryptoboxopen
+  - function.sodium-crypto-box-publickey.html: sodiumcryptoboxpublickey »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxpublickeyfromsecretkey
+---
 # sodiumcryptoboxpublickeyfromsecretkey
 
 (PHP 7> = 7.2.0, PHP 8)

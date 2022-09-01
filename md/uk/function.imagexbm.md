@@ -1,16 +1,11 @@
-Виведення XBM зображення у браузер або файл
-
--   [« imagewebp](function.imagewebp.md)
-    
--   [iptcembed »](function.iptcembed.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Виведення XBM зображення у браузер або файл
-    
-
+---
+navigation:
+  - function.imagewebp.md: « imagewebp
+  - function.iptcembed.md: iptcembed »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagexbm
+---
 # imagexbm
 
 (PHP 5, PHP 7, PHP 8)
@@ -53,11 +48,11 @@ imagexbm(GdImage $image, ?string $filename, ?int $foreground_color = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-|        | `foreground_color` тепер допускає значення null.                                               |
-|        | Четвертий параметр, який не використовувався, було видалено.                                   |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | `foreground_color` тепер допускає значення null. |
+|  | Четвертий параметр, який не використовувався, було видалено. |
 
 ### Приклади
 

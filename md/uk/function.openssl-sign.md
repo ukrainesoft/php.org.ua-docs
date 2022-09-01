@@ -1,16 +1,11 @@
-Генерація підпису
-
--   [« opensslseal](function.openssl-seal.html)
-    
--   [opensslspkiexportchallenge »](function.openssl-spki-export-challenge.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Генерація підпису
-    
-
+---
+navigation:
+  - function.openssl-seal.html: « opensslseal
+  - function.openssl-spki-export-challenge.html: opensslspkiexportchallenge »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslsign
+---
 # opensslsign
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 

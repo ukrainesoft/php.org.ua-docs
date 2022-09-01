@@ -1,16 +1,11 @@
-Виводить один або більше рядків
-
--   [« crypt](function.crypt.md)
-    
--   [explode »](function.explode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Виводить один або більше рядків
-    
-
+---
+navigation:
+  - function.crypt.md: « crypt
+  - function.explode.md: explode »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: echo
+---
 # echo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

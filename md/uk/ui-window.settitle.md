@@ -1,16 +1,11 @@
-Заголовок вікна
-
--   [« UIWindow::setSize](ui-window.setsize.html)
-    
--   [ОЙControl »](class.ui-control.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Заголовок вікна
-    
-
+---
+navigation:
+  - ui-window.setsize.html: '« UIWindow::setSize'
+  - class.ui-control.html: ОЙControl »
+  - index.html: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::setTitle'
+---
 # ОЙWindow::setTitle
 
 (UI 0.9.9)

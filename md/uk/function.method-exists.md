@@ -1,16 +1,11 @@
-Перевіряє, чи існує метод у даному класі
-
--   [« issubclassоф](function.is-subclass-of.html)
-    
--   [propertyexists »](function.property-exists.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Перевіряє, чи існує метод у даному класі
-    
-
+---
+navigation:
+  - function.is-subclass-of.html: « issubclassоф
+  - function.property-exists.html: propertyexists »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: методexists
+---
 # методexists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

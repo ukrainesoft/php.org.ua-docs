@@ -1,16 +1,11 @@
-Отримати розмір вікна
-
--   [« UIWindow::error](ui-window.error.html)
-    
--   [ОЙWindow::getTitle »](ui-window.gettitle.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Отримати розмір вікна
-    
-
+---
+navigation:
+  - ui-window.error.html: '« UIWindow::error'
+  - ui-window.gettitle.html: 'ОЙWindow::getTitle »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::getSize'
+---
 # ОЙWindow::getSize
 
 (UI 0.9.9)

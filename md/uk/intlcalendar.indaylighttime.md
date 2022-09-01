@@ -1,16 +1,11 @@
-Визначає, чи час об'єкта переходить на літній час
-
--   [« IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.md)
-    
--   [IntlCalendar::isEquivalentTo »](intlcalendar.isequivalentto.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Визначає, чи час об'єкта переходить на літній час
-    
-
+---
+navigation:
+  - intlcalendar.getweekendtransition.md: '« IntlCalendar::getWeekendTransition'
+  - intlcalendar.isequivalentto.md: 'IntlCalendar::isEquivalentTo »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::inDaylightTime'
+---
 # IntlCalendar::inDaylightTime
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

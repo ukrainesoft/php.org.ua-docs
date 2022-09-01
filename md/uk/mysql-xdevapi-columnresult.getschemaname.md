@@ -1,16 +1,11 @@
-Отримує назву схеми
-
--   [« ColumnResult::getLength](mysql-xdevapi-columnresult.getlength.html)
-    
--   [ColumnResult::getTableLabel »](mysql-xdevapi-columnresult.gettablelabel.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує назву схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getlength.html: '« ColumnResult::getLength'
+  - mysql-xdevapi-columnresult.gettablelabel.html: 'ColumnResult::getTableLabel »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getSchemaName'
+---
 # ColumnResult::getSchemaName
 
 (No version information available, might only be in Git)

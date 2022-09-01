@@ -1,16 +1,11 @@
-Повертає граничну частоту, з якої ігноруватимуться слова, яких немає, принаймні, у такій кількості документів
-
--   [« SolrQuery::getMltMaxWordLength](solrquery.getmltmaxwordlength.md)
-    
--   [SolrQuery::getMltMinTermFrequency »](solrquery.getmltmintermfrequency.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає граничну частоту, з якої ігноруватимуться слова, яких немає, принаймні, у такій кількості документів
-    
-
+---
+navigation:
+  - solrquery.getmltmaxwordlength.md: '« SolrQuery::getMltMaxWordLength'
+  - solrquery.getmltmintermfrequency.md: 'SolrQuery::getMltMinTermFrequency »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltMinDocFrequency'
+---
 # SolrQuery::getMltMinDocFrequency
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Повідомляє eventbase припинити відправку подій
-
--   [« EventBase::reInit](eventbase.reinit.html)
-    
--   [EventBuffer »](class.eventbuffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBase](class.eventbase.html)
-    
--   Повідомляє eventbase припинити відправку подій
-    
-
+---
+navigation:
+  - eventbase.reinit.html: '« EventBase::reInit'
+  - class.eventbuffer.html: EventBuffer »
+  - index.html: PHP Manual
+  - class.eventbase.html: EventBase
+title: 'EventBase::stop'
+---
 # EventBase::stop
 
 (PECL event >= 1.2.6-beta)

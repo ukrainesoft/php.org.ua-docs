@@ -1,16 +1,11 @@
-Клас OCICollection
-
--   [« ociunregistertafcallback](function.oci-unregister-taf-callback.html)
-    
--   [OCICollection::append »](ocicollection.append.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8](book.oci8.md)
-    
--   Клас OCICollection
-    
-
+---
+navigation:
+  - function.oci-unregister-taf-callback.html: « ociunregistertafcallback
+  - ocicollection.append.md: 'OCICollection::append »'
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
+title: Клас OCICollection
+---
 # Клас OCICollection
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

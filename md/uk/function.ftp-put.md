@@ -1,16 +1,11 @@
-Завантажує файл на FTP-сервер
-
--   [« ftppasv](function.ftp-pasv.html)
-    
--   [ftppwd »](function.ftp-pwd.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Завантажує файл на FTP-сервер
-    
-
+---
+navigation:
+  - function.ftp-pasv.html: « ftppasv
+  - function.ftp-pwd.html: ftppwd »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpput
+---
 # ftpput
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ ftp_put(    FTP\Connection $ftp,    string $remote_filename,    stri
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 

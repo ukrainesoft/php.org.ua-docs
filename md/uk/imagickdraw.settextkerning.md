@@ -1,16 +1,11 @@
-Встановлює міжлітерний інтервал тексту
-
--   [« ImagickDraw::setTextInterwordSpacing](imagickdraw.settextinterwordspacing.html)
-    
--   [ImagickDraw::setTextUnderColor »](imagickdraw.settextundercolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює міжлітерний інтервал тексту
-    
-
+---
+navigation:
+  - imagickdraw.settextinterwordspacing.html: '« ImagickDraw::setTextInterwordSpacing'
+  - imagickdraw.settextundercolor.html: 'ImagickDraw::setTextUnderColor »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setTextKerning'
+---
 # ImagickDraw::setTextKerning
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

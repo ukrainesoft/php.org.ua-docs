@@ -1,16 +1,11 @@
-Перевірити, чи є символ керуючим
-
--   [« IntlChar::isblank](intlchar.isblank.html)
-    
--   [IntlChar::isdefined »](intlchar.isdefined.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевірити, чи є символ керуючим
-    
-
+---
+navigation:
+  - intlchar.isblank.html: '« IntlChar::isblank'
+  - intlchar.isdefined.html: 'IntlChar::isdefined »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::iscntrl'
+---
 # IntlChar::iscntrl
 
 (PHP 7, PHP 8)

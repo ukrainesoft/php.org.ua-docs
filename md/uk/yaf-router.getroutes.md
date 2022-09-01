@@ -1,16 +1,11 @@
-Отримує зареєстровані маршрути
-
--   [« YafRouter::getRoute](yaf-router.getroute.html)
-    
--   [YafRouter::route »](yaf-router.route.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRouter](class.yaf-router.html)
-    
--   Отримує зареєстровані маршрути
-    
-
+---
+navigation:
+  - yaf-router.getroute.html: '« YafRouter::getRoute'
+  - yaf-router.route.html: 'YafRouter::route »'
+  - index.html: PHP Manual
+  - class.yaf-router.html: YafRouter
+title: 'YafRouter::getRoutes'
+---
 # YafRouter::getRoutes
 
 (Yaf >=1.0.0)

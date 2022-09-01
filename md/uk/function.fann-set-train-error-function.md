@@ -1,16 +1,11 @@
-Встановлює функцію помилки під час тренування.
-
--   [« fannsetscalingparams](function.fann-set-scaling-params.html)
-    
--   [fannsettrainstopfunction »](function.fann-set-train-stop-function.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює функцію помилки під час тренування.
-    
-
+---
+navigation:
+  - function.fann-set-scaling-params.html: « fannsetscalingparams
+  - function.fann-set-train-stop-function.html: fannsettrainstopfunction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsettrainerrorfunction
+---
 # fannsettrainerrorfunction
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Отримання ідентифікатора семафору
-
--   [« semacquire](function.sem-acquire.html)
-    
--   [semrelease »](function.sem-release.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Отримання ідентифікатора семафору
-    
-
+---
+navigation:
+  - function.sem-acquire.html: « semacquire
+  - function.sem-release.html: semrelease »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: semget
+---
 # semget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,10 +46,10 @@ sem_get(    int $key,    int $max_acquire = 1,    int $permissions =
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше повертався ресурс (resource). |
-|        | Тип `auto_release` змінено з цілого числа (int) на логічне значення (bool).                                                           |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше повертався ресурс (resource). |
+|  | Тип `auto_release` змінено з цілого числа (int) на логічне значення (bool). |
 
 ### Примітки
 

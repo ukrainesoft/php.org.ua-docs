@@ -1,16 +1,11 @@
-Додає дані з файлу до активного контексту хешування
-
--   [« hashpbkdf2](function.hash-pbkdf2.html)
-    
--   [hashupdatestream »](function.hash-update-stream.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Hash](ref.hash.html)
-    
--   Додає дані з файлу до активного контексту хешування
-    
-
+---
+navigation:
+  - function.hash-pbkdf2.html: « hashpbkdf2
+  - function.hash-update-stream.html: hashupdatestream »
+  - index.html: PHP Manual
+  - ref.hash.html: Функции Hash
+title: hashupdatefile
+---
 # hashupdatefile
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
@@ -43,10 +38,10 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 
 ### список змін
 
-| Версия | Описание                                                       |
-|--------|----------------------------------------------------------------|
-|        | `stream_context` тепер допускає значення null.                 |
-|        | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | `stream_context` тепер допускає значення null. |
+|  | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Динамічно змінює ім'я заданого методу
-
--   [« runkit7methodremove](function.runkit7-method-remove.html)
-    
--   [runkit7objectid »](function.runkit7-object-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Динамічно змінює ім'я заданого методу
-    
-
+---
+navigation:
+  - function.runkit7-method-remove.html: « runkit7methodremove
+  - function.runkit7-object-id.html: runkit7objectid »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7методrename
+---
 # runkit7методrename
 
 (PECL runkit7> = Unknown)

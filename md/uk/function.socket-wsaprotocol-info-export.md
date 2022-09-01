@@ -1,16 +1,11 @@
-Експорт структури WSAPROTOCOLINFO
-
--   [« socketwrite](function.socket-write.html)
-    
--   [socketwsaprotocolinfoimport »](function.socket-wsaprotocol-info-import.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Експорт структури WSAPROTOCOLINFO
-    
-
+---
+navigation:
+  - function.socket-write.html: « socketwrite
+  - function.socket-wsaprotocol-info-import.html: socketwsaprotocolinfoimport »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketwsaprotocolinfoexport
+---
 # socketwsaprotocolinfoexport
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -43,9 +38,9 @@ socket_wsaprotocol_info_export(Socket $socket, int $process_id): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

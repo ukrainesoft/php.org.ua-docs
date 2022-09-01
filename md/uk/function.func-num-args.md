@@ -1,16 +1,11 @@
-Повертає кількість аргументів, переданих функції
-
--   [« funcgetargs](function.func-get-args.html)
-    
--   [functionexists »](function.function-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции управления функциями](ref.funchand.html)
-    
--   Повертає кількість аргументів, переданих функції
-    
-
+---
+navigation:
+  - function.func-get-args.html: « funcgetargs
+  - function.function-exists.html: functionexists »
+  - index.html: PHP Manual
+  - ref.funchand.html: Функции управления функциями
+title: funcnumargs
+---
 # funcnumargs
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

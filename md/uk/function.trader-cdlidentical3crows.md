@@ -1,16 +1,11 @@
-Свічкова модель "Три однакові ворони"
-
--   [« tradercdlhomingpigeon](function.trader-cdlhomingpigeon.html)
-    
--   [tradercdlinneck »](function.trader-cdlinneck.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Три однакові ворони"
-    
-
+---
+navigation:
+  - function.trader-cdlhomingpigeon.html: « tradercdlhomingpigeon
+  - function.trader-cdlinneck.html: tradercdlinneck »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlidentical3crows
+---
 # tradercdlidentical3crows
 
 (PECL trader >= 0.2.0)

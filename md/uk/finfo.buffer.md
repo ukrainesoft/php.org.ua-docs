@@ -1,16 +1,11 @@
-Псевдонім finfobuffer()
-
--   [« finfo](class.finfo.md)
-    
--   [finfo::construct »](finfo.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [finfo](class.finfo.md)
-    
--   Псевдонім finfobuffer()
-    
-
+---
+navigation:
+  - class.finfo.md: « finfo
+  - finfo.construct.md: 'finfo::construct »'
+  - index.md: PHP Manual
+  - class.finfo.md: finfo
+title: 'finfo::buffer'
+---
 # finfo::buffer
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)

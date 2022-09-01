@@ -1,16 +1,11 @@
-Radius
-
--   [« Служби автентифікації](refs.remote.auth.md)
-    
--   [Введение »](intro.radius.md)
-    
--   [PHP Manual](index.md)
-    
--   [Служби автентифікації](refs.remote.auth.md)
-    
--   Radius
-    
-
+---
+navigation:
+  - refs.remote.auth.md: « Служби автентифікації
+  - intro.radius.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.auth.md: Служби автентифікації
+title: Radius
+---
 # Radius
 
 -   [Введение](intro.radius.md)

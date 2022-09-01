@@ -1,16 +1,11 @@
-Відсотковий ціновий осцилятор
-
--   [« traderplusдм](function.trader-plus-dm.html)
-    
--   [traderroc »](function.trader-roc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Відсотковий ціновий осцилятор
-    
-
+---
+navigation:
+  - function.trader-plus-dm.html: « traderplusдм
+  - function.trader-roc.html: traderroc »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderppo
+---
 # traderppo
 
 (PECL trader >= 0.2.0)

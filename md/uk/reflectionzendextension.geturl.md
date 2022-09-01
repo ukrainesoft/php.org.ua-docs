@@ -1,16 +1,11 @@
-Отримує URL
-
--   [« ReflectionZendExtension::getName](reflectionzendextension.getname.md)
-    
--   [ReflectionZendExtension::getVersion »](reflectionzendextension.getversion.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.md)
-    
--   Отримує URL
-    
-
+---
+navigation:
+  - reflectionzendextension.getname.md: '« ReflectionZendExtension::getName'
+  - reflectionzendextension.getversion.md: 'ReflectionZendExtension::getVersion »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
+title: 'ReflectionZendExtension::getURL'
+---
 # ReflectionZendExtension::getURL
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

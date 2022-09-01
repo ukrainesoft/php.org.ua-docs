@@ -1,16 +1,11 @@
-Замінює кольори у зображенні
-
--   [« Imagick::clone](imagick.clone.md)
-    
--   [Imagick::coalesceImages »](imagick.coalesceimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Замінює кольори у зображенні
-    
-
+---
+navigation:
+  - imagick.clone.md: '« Imagick::clone'
+  - imagick.coalesceimages.md: 'Imagick::coalesceImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clutImage'
+---
 # Imagick::clutImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Отримати значення t для двовибіркового t-критерію Стьюдента для залежних вибірок
-
--   [« statsstatinnerproduct](function.stats-stat-innerproduct.html)
-    
--   [statsstatpercentile »](function.stats-stat-percentile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Отримати значення t для двовибіркового t-критерію Стьюдента для залежних вибірок
-    
-
+---
+navigation:
+  - function.stats-stat-innerproduct.html: « statsstatinnerproduct
+  - function.stats-stat-percentile.html: statsstatpercentile »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsстатиpairedт
+---
 # statsстатиpairedт
 
 (PECL stats >= 1.0.0)

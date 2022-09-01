@@ -1,16 +1,11 @@
-Витягує вузол з початку черги та пересортує її
-
--   [« SplPriorityQueue::current](splpriorityqueue.current.html)
-    
--   [SplPriorityQueue::getExtractFlags »](splpriorityqueue.getextractflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplPriorityQueue](class.splpriorityqueue.html)
-    
--   Витягує вузол з початку черги та пересортує її
-    
-
+---
+navigation:
+  - splpriorityqueue.current.html: '« SplPriorityQueue::current'
+  - splpriorityqueue.getextractflags.html: 'SplPriorityQueue::getExtractFlags »'
+  - index.html: PHP Manual
+  - class.splpriorityqueue.html: SplPriorityQueue
+title: 'SplPriorityQueue::extract'
+---
 # SplPriorityQueue::extract
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

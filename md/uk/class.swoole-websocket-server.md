@@ -1,16 +1,11 @@
-Клас SwooleWebSocketServer
-
--   [« SwooleWebSocketFrame](class.swoole-websocket-frame.html)
-    
--   [SwooleWebSocketServer::exist »](swoole-websocket-server.exist.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleWebSocketServer
-    
-
+---
+navigation:
+  - class.swoole-websocket-frame.html: « SwooleWebSocketFrame
+  - swoole-websocket-server.exist.html: 'SwooleWebSocketServer::exist »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleWebSocketServer
+---
 # Клас SwooleWebSocketServer
 
 (PECL swoole >= 1.9.0)

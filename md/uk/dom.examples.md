@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](dom.constants.md)
-    
--   [DOMAttr »](class.domattr.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - dom.constants.md: « Обумовлені константи
+  - class.domattr.md: DOMAttr »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Приклади
+---
 # Приклади
 
 Багато прикладів цього посібника вимагають XML-файл. Ми будемо використовувати book.xml, який має такий зміст:

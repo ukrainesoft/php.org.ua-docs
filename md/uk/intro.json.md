@@ -1,16 +1,11 @@
-Вступ
-
--   [« JSON](book.json.md)
-    
--   [Встановлення та налаштування »](json.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [JSON](book.json.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.json.md: « JSON
+  - json.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.json.md: JSON
+title: Вступ
+---
 # Вступ
 
 Модуль реалізує роботу з текстовим форматом обміну даними [» JavaScript Object Notation (JSON)](http://www.json.org/) Обробка здійснюється парсером, написаним спеціально для PHP та під ліцензією PHP.

@@ -1,16 +1,11 @@
-Повертає логічний ідентифікатор сеансу для цього сеансу
-
--   [« MongoDBDriverSession::getClusterTime](mongodb-driver-session.getclustertime.html)
-    
--   [MongoDBDriverSession::getOperationTime »](mongodb-driver-session.getoperationtime.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Повертає логічний ідентифікатор сеансу для цього сеансу
-    
-
+---
+navigation:
+  - mongodb-driver-session.getclustertime.html: '« MongoDBDriverSession::getClusterTime'
+  - mongodb-driver-session.getoperationtime.html: 'MongoDBDriverSession::getOperationTime »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::getLogicalSessionId'
+---
 # MongoDBDriverSession::getLogicalSessionId
 
 (mongodb >=1.4.0)

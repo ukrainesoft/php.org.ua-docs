@@ -1,16 +1,11 @@
-Перевірити, чи є параметр параметром зі змінною кількістю аргументів
-
--   [« ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.md)
-    
--   [ReflectionParameter::toString »](reflectionparameter.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перевірити, чи є параметр параметром зі змінною кількістю аргументів
-    
-
+---
+navigation:
+  - reflectionparameter.ispassedbyreference.md: '« ReflectionParameter::isPassedByReference'
+  - reflectionparameter.tostring.md: 'ReflectionParameter::toString »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isVariadic'
+---
 # ReflectionParameter::isVariadic
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Обчислює сходження масивів із додатковою перевіркою індексу
-
--   [« arrayflip](function.array-flip.html)
-    
--   [arrayintersectkey »](function.array-intersect-key.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислює сходження масивів із додатковою перевіркою індексу
-    
-
+---
+navigation:
+  - function.array-flip.html: « arrayflip
+  - function.array-intersect-key.html: arrayintersectkey »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayintersectassoc
+---
 # arrayintersectassoc
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_intersect_assoc(array $array, array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
 
 ### Приклади
 

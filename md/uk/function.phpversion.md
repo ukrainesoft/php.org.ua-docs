@@ -1,16 +1,11 @@
-Отримує поточну версію PHP
-
--   [« phpinfo](function.phpinfo.html)
-    
--   [putenv »](function.putenv.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Отримує поточну версію PHP
-    
-
+---
+navigation:
+  - function.phpinfo.html: « phpinfo
+  - function.putenv.html: putenv »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: phpversion
+---
 # phpversion
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ phpversion(?string $extension = null): string|false
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `extension` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 

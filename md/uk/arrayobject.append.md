@@ -1,16 +1,11 @@
-Додає значення до кінця масиву
-
--   [« ArrayObject](class.arrayobject.md)
-    
--   [ArrayObject::asort »](arrayobject.asort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Додає значення до кінця масиву
-    
-
+---
+navigation:
+  - class.arrayobject.md: « ArrayObject
+  - arrayobject.asort.md: 'ArrayObject::asort »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::append'
+---
 # ArrayObject::append
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перетворює колекцію на масив (array)
-
--   [« DsVector::sum](ds-vector.sum.html)
-    
--   [ДсVector::unshift »](ds-vector.unshift.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Перетворює колекцію на масив (array)
-    
-
+---
+navigation:
+  - ds-vector.sum.html: '« DsVector::sum'
+  - ds-vector.unshift.html: 'ДсVector::unshift »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::toArray'
+---
 # ДсVector::toArray
 
 (PECL ds >= 1.0.0)

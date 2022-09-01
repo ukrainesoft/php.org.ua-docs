@@ -1,16 +1,11 @@
-Визначення полів
-
--   [« UIWindow::hasBorders](ui-window.hasborders.html)
-    
--   [ОЙWindow::isFullScreen »](ui-window.isfullscreen.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Визначення полів
-    
-
+---
+navigation:
+  - ui-window.hasborders.html: '« UIWindow::hasBorders'
+  - ui-window.isfullscreen.html: 'ОЙWindow::isFullScreen »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::hasMargin'
+---
 # ОЙWindow::hasMargin
 
 (UI 0.9.9)

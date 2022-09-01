@@ -1,16 +1,11 @@
-Paragraph успадковує CommonMarkNode
-
--   [« CommonMarkNodeHeading::construct](commonmark-node-heading.construct.html)
-    
--   [CommonMarkNodeBlockQuote »](class.commonmark-node-blockquote.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Paragraph успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - commonmark-node-heading.construct.html: '« CommonMarkNodeHeading::construct'
+  - class.commonmark-node-blockquote.html: CommonMarkNodeBlockQuote »
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Paragraph успадковує CommonMarkNode
+---
 # Paragraph успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

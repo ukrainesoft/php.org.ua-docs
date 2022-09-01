@@ -1,16 +1,11 @@
-Визначає, чи запущено файбер
-
--   [« Fiber::getReturn](fiber.getreturn.md)
-    
--   [Fiber::isSuspended »](fiber.issuspended.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Визначає, чи запущено файбер
-    
-
+---
+navigation:
+  - fiber.getreturn.md: '« Fiber::getReturn'
+  - fiber.issuspended.md: 'Fiber::isSuspended »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::isStarted'
+---
 # Fiber::isStarted
 
 (PHP 8> = 8.1.0)

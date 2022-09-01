@@ -1,16 +1,11 @@
-Повертає стан результату запиту
-
--   [« pgresultseek](function.pg-result-seek.html)
-    
--   [пгselect »](function.pg-select.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає стан результату запиту
-    
-
+---
+navigation:
+  - function.pg-result-seek.html: « pgresultseek
+  - function.pg-select.html: пгselect »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгresultstatus
+---
 # пгresultstatus
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|in
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

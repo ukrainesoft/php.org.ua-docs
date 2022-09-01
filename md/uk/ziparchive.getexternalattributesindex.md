@@ -1,16 +1,11 @@
-Витягти зовнішні атрибути запису за її індексом
-
--   [« ZipArchive::getCommentName](ziparchive.getcommentname.html)
-    
--   [ZipArchive::getExternalAttributesName »](ziparchive.getexternalattributesname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Витягти зовнішні атрибути запису за її індексом
-    
-
+---
+navigation:
+  - ziparchive.getcommentname.html: '« ZipArchive::getCommentName'
+  - ziparchive.getexternalattributesname.html: 'ZipArchive::getExternalAttributesName »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::getExternalAttributesIndex'
+---
 # ZipArchive::getExternalAttributesIndex
 
 (PHP 5 >= 5.6.0, PHP 7, PHP 8, PECL zip >= 1.12.4)

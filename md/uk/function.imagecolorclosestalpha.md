@@ -1,16 +1,11 @@
-Отримання індексу кольору найближчого до заданого з урахуванням прозорості
-
--   [« imagecolorclosest](function.imagecolorclosest.md)
-    
--   [imagecolorclosesthwb »](function.imagecolorclosesthwb.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання індексу кольору найближчого до заданого з урахуванням прозорості
-    
-
+---
+navigation:
+  - function.imagecolorclosest.md: « imagecolorclosest
+  - function.imagecolorclosesthwb.md: imagecolorclosesthwb »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorclosestalpha
+---
 # imagecolorclosestalpha
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

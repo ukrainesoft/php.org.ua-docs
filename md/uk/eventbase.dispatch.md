@@ -1,16 +1,11 @@
-Відправляє очікувані події
-
--   [« EventBase::construct](eventbase.construct.html)
-    
--   [EventBase::exit »](eventbase.exit.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBase](class.eventbase.html)
-    
--   Відправляє очікувані події
-    
-
+---
+navigation:
+  - eventbase.construct.html: '« EventBase::construct'
+  - eventbase.exit.html: 'EventBase::exit »'
+  - index.html: PHP Manual
+  - class.eventbase.html: EventBase
+title: 'EventBase::dispatch'
+---
 # EventBase::dispatch
 
 (PECL event >= 1.2.6-beta)

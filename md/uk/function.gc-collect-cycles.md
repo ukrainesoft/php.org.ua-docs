@@ -1,16 +1,11 @@
-Примусовий запуск збирача сміття
-
--   [« extensionloaded](function.extension-loaded.html)
-    
--   [гкdisable »](function.gc-disable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Примусовий запуск збирача сміття
-    
-
+---
+navigation:
+  - function.extension-loaded.html: « extensionloaded
+  - function.gc-disable.html: гкdisable »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: гкcollectcycles
+---
 # гкcollectcycles
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

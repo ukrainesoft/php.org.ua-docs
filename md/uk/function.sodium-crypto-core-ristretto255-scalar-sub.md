@@ -1,16 +1,11 @@
-Віднімає скалярне значення
-
--   [« sodiumcryptocoreristretto255scalarreduce](function.sodium-crypto-core-ristretto255-scalar-reduce.html)
-    
--   [sodiumcryptocoreristretto255sub »](function.sodium-crypto-core-ristretto255-sub.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Віднімає скалярне значення
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-scalar-reduce.html: « sodiumcryptocoreristretto255scalarreduce
+  - function.sodium-crypto-core-ristretto255-sub.html: sodiumcryptocoreristretto255sub »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255scalarsub
+---
 # sodiumcryptocoreristretto255scalarsub
 
 (PHP 8> = 8.1.0)

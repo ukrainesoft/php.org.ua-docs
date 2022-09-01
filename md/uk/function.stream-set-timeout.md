@@ -1,16 +1,11 @@
-Встановити час очікування для потоку
-
--   [« streamsetreadbuffer](function.stream-set-read-buffer.html)
-    
--   [streamsetwritebuffer »](function.stream-set-write-buffer.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Встановити час очікування для потоку
-    
-
+---
+navigation:
+  - function.stream-set-read-buffer.html: « streamsetreadbuffer
+  - function.stream-set-write-buffer.html: streamsetwritebuffer »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamsettimeout
+---
 # streamsettimeout
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

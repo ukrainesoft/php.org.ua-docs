@@ -1,16 +1,11 @@
-Повертає останню помилку
-
--   [« ocidefineбname](function.oci-define-by-name.html)
-    
--   [ociexecute »](function.oci-execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає останню помилку
-    
-
+---
+navigation:
+  - function.oci-define-by-name.html: « ocidefineбname
+  - function.oci-execute.html: ociexecute »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocierror
+---
 # ocierror
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -39,17 +34,17 @@ oci_error(?resource $connection_or_statement = null): array|false
 
 **Опис масиву виводу **ocierror()****
 
-| Ключ Масива | Тип    | Описание                                                         |
-|-------------|--------|------------------------------------------------------------------|
-| `code`      | int    | Номер помилки Oracle.                                            |
-| `message`   | string | Текст помилки Oracle.                                            |
-| `offset`    | int    | Позиція помилки у запиті SQL. Якщо немає запиту, то дорівнює `0` |
-| `sqltext`   | string | Текст запиту SQL. Якщо немає запиту, рядок порожній.             |
+| Ключ Масива | Тип | Описание |
+| --- | --- | --- |
+| `code` | int | Номер помилки Oracle. |
+| `message` | string | Текст помилки Oracle. |
+| `offset` | int | Позиція помилки у запиті SQL. Якщо немає запиту, то дорівнює `0` |
+| `sqltext` | string | Текст запиту SQL. Якщо немає запиту, рядок порожній. |
 
 ### список змін
 
-| Версия                 | Описание                                                |
-|------------------------|---------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `connection_or_statement` тепер допускає значення null. |
 
 ### Приклади

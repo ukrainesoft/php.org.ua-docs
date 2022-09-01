@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](mysql-xdevapi.setup.html)
-    
--   [Установка »](mysql-xdevapi.installation.html)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mysql-xdevapi.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - mysql-xdevapi.setup.html: « Встановлення та налаштування
+  - mysql-xdevapi.installation.html: Установка »
+  - index.md: PHP Manual
+  - mysql-xdevapi.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для цього модуля потрібен сервер MySQL 8+ із включеним плагіном X (за замовчуванням).

@@ -1,16 +1,11 @@
-Повертає ключ metaphone для рядка
-
--   [« md5](function.md5.html)
-    
--   [moneyformat »](function.money-format.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Повертає ключ metaphone для рядка
-    
-
+---
+navigation:
+  - function.md5.html: « md5
+  - function.money-format.html: moneyformat »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: metaphone
+---
 # metaphone
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ metaphone(string $string, int $max_phonemes = 0): string
 
 ### список змін
 
-| Версия | Описание                                                 |
-|--------|----------------------------------------------------------|
-|        | Функція повертала **`false`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

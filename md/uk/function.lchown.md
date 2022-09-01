@@ -1,16 +1,11 @@
-Змінює власника символічного посилання
-
--   [« lchgrp](function.lchgrp.md)
-    
--   [link »](function.link.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Змінює власника символічного посилання
-    
-
+---
+navigation:
+  - function.lchgrp.md: « lchgrp
+  - function.link.md: link »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: lchown
+---
 # lchown
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

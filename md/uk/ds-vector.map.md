@@ -1,16 +1,11 @@
-Повертає результат застосування callback-функції до всіх значень вектора
-
--   [« DsVector::last](ds-vector.last.html)
-    
--   [ДсVector::merge »](ds-vector.merge.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає результат застосування callback-функції до всіх значень вектора
-    
-
+---
+navigation:
+  - ds-vector.last.html: '« DsVector::last'
+  - ds-vector.merge.html: 'ДсVector::merge »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::map'
+---
 # ДсVector::map
 
 (PECL ds >= 1.0.0)

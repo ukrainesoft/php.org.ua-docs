@@ -1,16 +1,11 @@
-Встановлює кількість рядків, які будуть автоматично вибрані в буфер
-
--   [« ocisetprefetchlob](function.oci-set-prefetch-lob.html)
-    
--   [ocistatementtype »](function.oci-statement-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Встановлює кількість рядків, які будуть автоматично вибрані в буфер
-    
-
+---
+navigation:
+  - function.oci-set-prefetch-lob.html: « ocisetprefetchlob
+  - function.oci-statement-type.html: ocistatementtype »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocisetprefetch
+---
 # ocisetprefetch
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -53,9 +48,9 @@ oci_set_prefetch(resource $statement, int $rows): bool
 
 ### список змін
 
-| Версия          | Описание                                                                                                                                       |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL OCI8 1.4   | До цієї версії `rows` мав бути >=1.                                                                                                            |
+| Версия | Описание |
+| --- | --- |
+| PECL OCI8 1.4 | До цієї версії `rows` мав бути >=1. |
 | PECL OCI8 1.3.4 | До цієї версії попередня вибірка була обмежена до меншого значення. `rows` рядків та 1024 `rows` байт. Тепер обмеження за розміром байт знято. |
 
 ### Приклади

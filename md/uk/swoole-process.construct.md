@@ -1,16 +1,11 @@
-Створює процес
-
--   [« SwooleProcess::close](swoole-process.close.html)
-    
--   [SwooleProcess::daemon »](swoole-process.daemon.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Створює процес
-    
-
+---
+navigation:
+  - swoole-process.close.html: '« SwooleProcess::close'
+  - swoole-process.daemon.html: 'SwooleProcess::daemon »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::construct'
+---
 # SwooleProcess::construct
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Змінює поточну umask
-
--   [« touch](function.touch.md)
-    
--   [unlink »](function.unlink.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Змінює поточну umask
-    
-
+---
+navigation:
+  - function.touch.md: « touch
+  - function.unlink.md: unlink »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: umask
+---
 # umask
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ umask(?int $mask = null): int
 
 ### список змін
 
-| Версия | Описание                                            |
-|--------|-----------------------------------------------------|
-|        | Параметр `mask` тепер припускає значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `mask` тепер припускає значення **`null`** |
 
 ### Приклади
 

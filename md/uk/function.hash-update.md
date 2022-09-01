@@ -1,16 +1,11 @@
-Додає дані до активного контексту хешування
-
--   [« hashupdatestream](function.hash-update-stream.html)
-    
--   [hash »](function.hash.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Додає дані до активного контексту хешування
-    
-
+---
+navigation:
+  - function.hash-update-stream.html: « hashupdatestream
+  - function.hash.md: hash »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashupdate
+---
 # hashupdate
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
@@ -39,9 +34,9 @@ hash_update(HashContext $context, string $data): bool
 
 ### список змін
 
-| Версия | Описание                                                     |
-|--------|--------------------------------------------------------------|
-|        | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Надсилання попередження (застарілий метод)
-
--   [« GearmanJob::unique](gearmanjob.unique.md)
-    
--   [GearmanJob::workload »](gearmanjob.workload.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Надсилання попередження (застарілий метод)
-    
-
+---
+navigation:
+  - gearmanjob.unique.md: '« GearmanJob::unique'
+  - gearmanjob.workload.md: 'GearmanJob::workload »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::warning'
+---
 # GearmanJob::warning
 
 (PECL gearman <= 0.5.0)

@@ -1,16 +1,11 @@
-Увімкнення або вимкнення інтерлейсингу
-
--   [« imagegrabwindow](function.imagegrabwindow.html)
-    
--   [imageistruecolor »](function.imageistruecolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Увімкнення або вимкнення інтерлейсингу
-    
-
+---
+navigation:
+  - function.imagegrabwindow.html: « imagegrabwindow
+  - function.imageistruecolor.html: imageistruecolor »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imageinterlace
+---
 # imageinterlace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,11 +38,11 @@ imageinterlace(GdImage $image, ?bool $enable = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **imageinterlace()** тепер повертає логічне значення (bool); раніше вона повертала ціле число (int). (Ненульове значення для зображень з інтерлейсингом, інакше - нуль). |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource).                                                                         |
-|        | `enable` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int).                                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | **imageinterlace()** тепер повертає логічне значення (bool); раніше вона повертала ціле число (int). (Ненульове значення для зображень з інтерлейсингом, інакше - нуль). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `enable` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади
 

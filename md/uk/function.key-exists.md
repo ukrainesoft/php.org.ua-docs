@@ -1,16 +1,11 @@
-Псевдонім arraykeyexists
-
--   [« inarray](function.in-array.html)
-    
--   [key »](function.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Псевдонім arraykeyexists
-    
-
+---
+navigation:
+  - function.in-array.html: « inarray
+  - function.key.md: key »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: keyexists
+---
 # keyexists
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

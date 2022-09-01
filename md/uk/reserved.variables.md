@@ -1,16 +1,11 @@
-Зумовлені змінні
-
--   [« Неявне використання механізму посилань](language.references.spot.md)
-    
--   [Суперглобальні змінні »](language.variables.superglobals.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Зумовлені змінні
-    
-
+---
+navigation:
+  - language.references.spot.md: « Неявне використання механізму посилань
+  - language.variables.superglobals.md: Суперглобальні змінні »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Зумовлені змінні
+---
 # Зумовлені змінні
 
 PHP надає всім скриптам велику кількість певних змінних. Ці змінні містять все, від [зовнішніх даних](language.variables.external.md) до змінних середовища оточення, від тексту повідомлень про помилки до останніх отриманих заголовків.

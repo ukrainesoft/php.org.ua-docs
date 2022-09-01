@@ -1,16 +1,11 @@
-Отримує розмір LOB-об'єкта
-
--   [« cubridlob2seek](function.cubrid-lob2-seek.html)
-    
--   [cubridlob2size »](function.cubrid-lob2-size.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримує розмір LOB-об'єкта
-    
-
+---
+navigation:
+  - function.cubrid-lob2-seek.html: « cubridlob2seek
+  - function.cubrid-lob2-size.html: cubridlob2size »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2size64
+---
 # cubridlob2size64
 
 (PECL CUBRID >= 8.4.1)

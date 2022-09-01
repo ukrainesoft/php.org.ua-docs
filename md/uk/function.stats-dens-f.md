@@ -1,16 +1,11 @@
-Щільність ймовірності розподілу Фішера
-
--   [« statsdensexponential](function.stats-dens-exponential.html)
-    
--   [statsdensgamma »](function.stats-dens-gamma.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Щільність ймовірності розподілу Фішера
-    
-
+---
+navigation:
+  - function.stats-dens-exponential.html: « statsdensexponential
+  - function.stats-dens-gamma.html: statsdensgamma »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsdensф
+---
 # statsdensф
 
 (PECL stats >= 1.0.0)

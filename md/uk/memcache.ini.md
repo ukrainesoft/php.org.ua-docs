@@ -1,42 +1,37 @@
-Налаштування під час виконання
-
--   [« Установка](memcache.installation.md)
-    
--   [Типи ресурсів »](memcache.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](memcache.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - memcache.installation.md: « Установка
+  - memcache.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - memcache.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Конфігураційні параметри Memcache**
 
-| Имя                                                                                  | По умолчанию | Место изменения | Список изменений               |
-|--------------------------------------------------------------------------------------|--------------|-----------------|--------------------------------|
-| [memcache.allowfailover](memcache.ini.html#ini.memcache.allow-failover)              | "1"          | PHPINIALL       | Доступно з memcache 2.0.2.     |
-| [memcache.maxfailoverattempts](memcache.ini.html#ini.memcache.max-failover-attempts) | "20"         | PHPINIALL       | Доступно з memcache 2.1.0.     |
-| [memcache.chunksize](memcache.ini.html#ini.memcache.chunk-size)                      | "8192"       | PHPINIALL       | Доступно з memcache 2.0.2.     |
-| [memcache.defaultport](memcache.ini.html#ini.memcache.default-port)                  | "11211"      | PHPINIALL       | Доступно з memcache 2.0.2.     |
-| [memcache.hashstrategy](memcache.ini.html#ini.memcache.hash-strategy)                | "standard"   | PHPINIALL       | Доступно з memcache 2.2.0.     |
-| [memcache.hashfunction](memcache.ini.html#ini.memcache.hash-function)                | "crc32"      | PHPINIALL       | Доступно з memcache 2.2.0.     |
-| [memcache.protocol](memcache.ini.html#ini.memcache.protocol)                         | ascii        | \>PHPINIALL     | Підтримується з memcache 3.0.0 |
-| [memcache.redundancy](memcache.ini.html#ini.memcache.redundancy)                     |              | \>PHPINIALL     | Підтримується з memcache 3.0.0 |
-| [memcache.sessionredundancy](memcache.ini.html#ini.memcache.session-redundancy)      |              | \>PHPINIALL     | Підтримується з memcache 3.0.0 |
-| [memcache.compressthreshold](memcache.ini.html#ini.memcache.compress-threshold)      |              | \>PHPINIALL     | Підтримується з memcache 3.0.3 |
-| [memcache.locktimeout](memcache.ini.html#ini.memcache.lock-timeout)                  |              | \>PHPINIALL     | Підтримується з memcache 3.0.4 |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [memcache.allowfailover](memcache.ini.html#ini.memcache.allow-failover) | "1" | PHPINIALL | Доступно з memcache 2.0.2. |
+| [memcache.maxfailoverattempts](memcache.ini.html#ini.memcache.max-failover-attempts) | "20" | PHPINIALL | Доступно з memcache 2.1.0. |
+| [memcache.chunksize](memcache.ini.html#ini.memcache.chunk-size) | "8192" | PHPINIALL | Доступно з memcache 2.0.2. |
+| [memcache.defaultport](memcache.ini.html#ini.memcache.default-port) | "11211" | PHPINIALL | Доступно з memcache 2.0.2. |
+| [memcache.hashstrategy](memcache.ini.html#ini.memcache.hash-strategy) | "standard" | PHPINIALL | Доступно з memcache 2.2.0. |
+| [memcache.hashfunction](memcache.ini.html#ini.memcache.hash-function) | "crc32" | PHPINIALL | Доступно з memcache 2.2.0. |
+| [memcache.protocol](memcache.ini.html#ini.memcache.protocol) | ascii | \>PHPINIALL | Підтримується з memcache 3.0.0 |
+| [memcache.redundancy](memcache.ini.html#ini.memcache.redundancy) |  | \>PHPINIALL | Підтримується з memcache 3.0.0 |
+| [memcache.sessionredundancy](memcache.ini.html#ini.memcache.session-redundancy) |  | \>PHPINIALL | Підтримується з memcache 3.0.0 |
+| [memcache.compressthreshold](memcache.ini.html#ini.memcache.compress-threshold) |  | \>PHPINIALL | Підтримується з memcache 3.0.3 |
+| [memcache.locktimeout](memcache.ini.html#ini.memcache.lock-timeout) |  | \>PHPINIALL | Підтримується з memcache 3.0.4 |
 
 **Параметри конфігурації сесії, що впливають на поведінку Memcache**
 
-| Имя                                                                | По умолчанию | Место изменения | Список изменений                          |
-|--------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
-| [session.savehandler](memcache.ini.html#ini.memcache.save-handler) | "files"      | PHPINIALL       | Підтримується, починаючи з memcache 2.1.2 |
-| [session.savepath](memcache.ini.html#ini.memcache.save-path)       | ""           | PHPINIALL       | Підтримується, починаючи з memcache 2.1.2 |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [session.savehandler](memcache.ini.html#ini.memcache.save-handler) | "files" | PHPINIALL | Підтримується, починаючи з memcache 2.1.2 |
+| [session.savepath](memcache.ini.html#ini.memcache.save-path) | "" | PHPINIALL | Підтримується, починаючи з memcache 2.1.2 |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

@@ -1,16 +1,11 @@
-Переміщує курсор до першого результату
-
--   [« MongoDBDriverCursor::next](mongodb-driver-cursor.next.html)
-    
--   [MongoDBDriverCursor::setTypeMap »](mongodb-driver-cursor.settypemap.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Переміщує курсор до першого результату
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.next.html: '« MongoDBDriverCursor::next'
+  - mongodb-driver-cursor.settypemap.html: 'MongoDBDriverCursor::setTypeMap »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::rewind'
+---
 # MongoDBDriverCursor::rewind
 
 (mongodb >=1.9.0)

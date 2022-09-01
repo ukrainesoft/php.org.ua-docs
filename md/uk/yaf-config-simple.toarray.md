@@ -1,16 +1,11 @@
-Повертає масив PHP
-
--   [« YafConfigSimple::set](yaf-config-simple.set.html)
-    
--   [YafConfigSimple::valid »](yaf-config-simple.valid.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Повертає масив PHP
-    
-
+---
+navigation:
+  - yaf-config-simple.set.html: '« YafConfigSimple::set'
+  - yaf-config-simple.valid.html: 'YafConfigSimple::valid »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::toArray'
+---
 # YafConfigSimple::toArray
 
 (Yaf >=1.0.0)

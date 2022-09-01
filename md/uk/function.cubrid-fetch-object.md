@@ -1,16 +1,11 @@
-Вийняти наступний рядок як об'єкт
-
--   [« cubridfetchlengths](function.cubrid-fetch-lengths.html)
-    
--   [cubridfetchrow »](function.cubrid-fetch-row.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Вийняти наступний рядок як об'єкт
-    
-
+---
+navigation:
+  - function.cubrid-fetch-lengths.html: « cubridfetchlengths
+  - function.cubrid-fetch-row.html: cubridfetchrow »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridfetchobject
+---
 # cubridfetchobject
 
 (PECL CUBRID >= 8.3.0)

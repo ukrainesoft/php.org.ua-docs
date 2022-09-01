@@ -1,16 +1,11 @@
-Встановлює змінну subprocessenv Apache
-
--   [« apacheresponseheaders](function.apache-response-headers.html)
-    
--   [getallheaders »](function.getallheaders.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Apache](ref.apache.md)
-    
--   Встановлює змінну subprocessenv Apache
-    
-
+---
+navigation:
+  - function.apache-response-headers.html: « apacheresponseheaders
+  - function.getallheaders.md: getallheaders »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: apachesetenv
+---
 # apachesetenv
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає індексний дескриптор файлу
-
--   [« filegroup](function.filegroup.html)
-    
--   [filemtime »](function.filemtime.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Повертає індексний дескриптор файлу
-    
-
+---
+navigation:
+  - function.filegroup.html: « filegroup
+  - function.filemtime.html: filemtime »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: fileinode
+---
 # fileinode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

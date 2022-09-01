@@ -1,16 +1,11 @@
-Перевіряє, чи є функція генератором
-
--   [« ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md)
-    
--   [ReflectionFunctionAbstract::isInternal »](reflectionfunctionabstract.isinternal.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перевіряє, чи є функція генератором
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.isdeprecated.md: '« ReflectionFunctionAbstract::isDeprecated'
+  - reflectionfunctionabstract.isinternal.md: 'ReflectionFunctionAbstract::isInternal »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::isGenerator'
+---
 # ReflectionFunctionAbstract::isGenerator
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

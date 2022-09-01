@@ -1,16 +1,11 @@
-Перевіряє, чи є ще набори рядків через мультизапит.
-
--   [« mysqlistmt::$insertід](mysqli-stmt.insert-id.html)
-    
--   [mysqlistmt::nextresult »](mysqli-stmt.next-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Перевіряє, чи є ще набори рядків через мультизапит.
-    
-
+---
+navigation:
+  - mysqli-stmt.insert-id.html: '« mysqlistmt::$insertід'
+  - mysqli-stmt.next-result.html: 'mysqlistmt::nextresult »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::moreresults'
+---
 # mysqlistmt::moreresults
 
 # mysqlistmtmoreresults

@@ -1,16 +1,11 @@
-Повертає кількість завершених, але необроблених процесів
-
--   [« eionop](function.eio-nop.html)
-    
--   [eionready »](function.eio-nready.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Повертає кількість завершених, але необроблених процесів
-    
-
+---
+navigation:
+  - function.eio-nop.html: « eionop
+  - function.eio-nready.html: eionready »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eionpending
+---
 # eionpending
 
 (PECL eio >= 0.0.1dev)

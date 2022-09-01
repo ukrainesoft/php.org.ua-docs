@@ -1,16 +1,11 @@
-Завантажити модуль swoole
-
--   [« swoolelasterror](function.swoole-last-error.html)
-    
--   [swooleselect »](function.swoole-select.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Завантажити модуль swoole
-    
-
+---
+navigation:
+  - function.swoole-last-error.html: « swoolelasterror
+  - function.swoole-select.html: swooleselect »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleloadmodule
+---
 # swooleloadmodule
 
 (PECL swoole >= 1.9.0)

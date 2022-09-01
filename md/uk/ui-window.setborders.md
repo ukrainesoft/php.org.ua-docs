@@ -1,16 +1,11 @@
-Використання рамок
-
--   [« UIWindow::save](ui-window.save.html)
-    
--   [ОЙWindow::setFullScreen »](ui-window.setfullscreen.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Використання рамок
-    
-
+---
+navigation:
+  - ui-window.save.html: '« UIWindow::save'
+  - ui-window.setfullscreen.html: 'ОЙWindow::setFullScreen »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::setBorders'
+---
 # ОЙWindow::setBorders
 
 (UI 0.9.9)

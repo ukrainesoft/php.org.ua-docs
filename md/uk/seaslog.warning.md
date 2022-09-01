@@ -1,16 +1,11 @@
-Записує інформацію рівня "warning" до журналу
-
--   [« SeasLog::setRequestVariable](seaslog.setrequestvariable.html)
-    
--   [SPL »](book.spl.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Записує інформацію рівня "warning" до журналу
-    
-
+---
+navigation:
+  - seaslog.setrequestvariable.html: '« SeasLog::setRequestVariable'
+  - book.spl.html: SPL »
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::warning'
+---
 # SeasLog::warning
 
 (PECL seaslog >=1.0.0)

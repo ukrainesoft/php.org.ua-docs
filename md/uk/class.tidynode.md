@@ -1,16 +1,11 @@
-Клас tidyNode
-
--   [« tidy::root](tidy.root.md)
-    
--   [tidyNode::construct »](tidynode.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Tidy](book.tidy.md)
-    
--   Клас tidyNode
-    
-
+---
+navigation:
+  - tidy.root.md: '« tidy::root'
+  - tidynode.construct.md: 'tidyNode::construct »'
+  - index.md: PHP Manual
+  - book.tidy.md: Tidy
+title: 'Клас [tidyNode](class.tidynode.md)'
+---
 # Клас [tidyNode](class.tidynode.md)
 
 (PHP 5, PHP 7, PHP 8)

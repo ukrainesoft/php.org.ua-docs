@@ -1,16 +1,11 @@
-Повертає ітератор до першого елементу
-
--   [« IteratorIterator::next](iteratoriterator.next.html)
-    
--   [IteratorIterator::valid »](iteratoriterator.valid.html)
-    
--   [PHP Manual](index.html)
-    
--   [IteratorIterator](class.iteratoriterator.html)
-    
--   Повертає ітератор до першого елементу
-    
-
+---
+navigation:
+  - iteratoriterator.next.html: '« IteratorIterator::next'
+  - iteratoriterator.valid.html: 'IteratorIterator::valid »'
+  - index.html: PHP Manual
+  - class.iteratoriterator.html: IteratorIterator
+title: 'IteratorIterator::rewind'
+---
 # IteratorIterator::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

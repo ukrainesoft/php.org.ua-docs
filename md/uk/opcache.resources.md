@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](opcache.configuration.md)
-    
--   [Preloading »](opcache.preloading.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](opcache.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - opcache.configuration.md: « Налаштування під час виконання
+  - opcache.preloading.md: Preloading »
+  - index.md: PHP Manual
+  - opcache.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

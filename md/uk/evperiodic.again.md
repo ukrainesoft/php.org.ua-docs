@@ -1,16 +1,11 @@
-Зупиняє та знову запускає періодичний спостерігач
-
--   [« EvPeriodic](class.evperiodic.md)
-    
--   [EvPeriodic::at »](evperiodic.at.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvPeriodic](class.evperiodic.md)
-    
--   Зупиняє та знову запускає періодичний спостерігач
-    
-
+---
+navigation:
+  - class.evperiodic.md: « EvPeriodic
+  - evperiodic.at.md: 'EvPeriodic::at »'
+  - index.md: PHP Manual
+  - class.evperiodic.md: EvPeriodic
+title: 'EvPeriodic::again'
+---
 # EvPeriodic::again
 
 (PECL ev >= 0.2.0)

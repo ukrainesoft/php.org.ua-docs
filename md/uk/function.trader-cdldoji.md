@@ -1,16 +1,11 @@
-Дожі
-
--   [« tradercdldarkcloudcover](function.trader-cdldarkcloudcover.html)
-    
--   [tradercdldojistar »](function.trader-cdldojistar.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Дожі
-    
-
+---
+navigation:
+  - function.trader-cdldarkcloudcover.html: « tradercdldarkcloudcover
+  - function.trader-cdldojistar.html: tradercdldojistar »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdldoji
+---
 # tradercdldoji
 
 (PECL trader >= 0.2.0)

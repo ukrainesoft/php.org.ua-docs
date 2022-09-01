@@ -1,16 +1,11 @@
-Оглядовий приклад модуля MySQL
-
--   [« Приклади](mysql.examples.md)
-    
--   [MySQL »](ref.mysql.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](mysql.examples.md)
-    
--   Оглядовий приклад модуля MySQL
-    
-
+---
+navigation:
+  - mysql.examples.md: « Приклади
+  - ref.mysql.md: MySQL »
+  - index.md: PHP Manual
+  - mysql.examples.md: Приклади
+title: Оглядовий приклад модуля MySQL
+---
 ## Оглядовий приклад модуля MySQL
 
 Цей простий приклад показує, як з'єднатися з базою даних, виконати запит, надрукувати результат та від'єднатися.

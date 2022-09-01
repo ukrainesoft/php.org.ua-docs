@@ -1,16 +1,11 @@
-Очистити всі функції зворотного виклику цієї задачі
-
--   [« GearmanClient::addTaskStatus](gearmanclient.addtaskstatus.md)
-    
--   [GearmanClient::clone »](gearmanclient.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Очистити всі функції зворотного виклику цієї задачі
-    
-
+---
+navigation:
+  - gearmanclient.addtaskstatus.md: '« GearmanClient::addTaskStatus'
+  - gearmanclient.clone.md: 'GearmanClient::clone »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::clearCallbacks'
+---
 # GearmanClient::clearCallbacks
 
 (PECL gearman >= 0.5.0)

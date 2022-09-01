@@ -1,16 +1,11 @@
-Конфігурування спостерігача
-
--   [« EvIo::createStopped](evio.createstopped.html)
-    
--   [EvLoop »](class.evloop.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvIo](class.evio.html)
-    
--   Конфігурування спостерігача
-    
-
+---
+navigation:
+  - evio.createstopped.html: '« EvIo::createStopped'
+  - class.evloop.html: EvLoop »
+  - index.html: PHP Manual
+  - class.evio.html: EvIo
+title: 'EvIo::set'
+---
 # EvIo::set
 
 (PECL ev >= 0.2.0)

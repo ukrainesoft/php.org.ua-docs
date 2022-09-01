@@ -1,16 +1,11 @@
-Змінює метадані потоку
-
--   [« streamWrapper::streamlock](streamwrapper.stream-lock.html)
-    
--   [streamWrapper::streamopen »](streamwrapper.stream-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Змінює метадані потоку
-    
-
+---
+navigation:
+  - streamwrapper.stream-lock.html: '« streamWrapper::streamlock'
+  - streamwrapper.stream-open.html: 'streamWrapper::streamopen »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::streammetadata'
+---
 # streamWrapper::streammetadata
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Відсікти уздовж зазначеного контуру з профілем 8BIM
-
--   [« Imagick::clipImagePath](imagick.clipimagepath.md)
-    
--   [Imagick::clone »](imagick.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Відсікти уздовж зазначеного контуру з профілем 8BIM
-    
-
+---
+navigation:
+  - imagick.clipimagepath.md: '« Imagick::clipImagePath'
+  - imagick.clone.md: 'Imagick::clone »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clipPathImage'
+---
 # Imagick::clipPathImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Серіалізує сховище
-
--   [« SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.md)
-    
--   [SplDoublyLinkedList::setIteratorMode »](spldoublylinkedlist.setiteratormode.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Серіалізує сховище
-    
-
+---
+navigation:
+  - spldoublylinkedlist.rewind.md: '« SplDoublyLinkedList::rewind'
+  - spldoublylinkedlist.setiteratormode.md: 'SplDoublyLinkedList::setIteratorMode »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::serialize'
+---
 # SplDoublyLinkedList::serialize
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

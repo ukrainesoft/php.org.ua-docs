@@ -1,16 +1,11 @@
-Вступ
-
--   [« MySQLi](book.mysqli.html)
-    
--   [Краткий обзор »](mysqli.overview.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQLi](book.mysqli.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.mysqli.html: « MySQLi
+  - mysqli.overview.html: Краткий обзор »
+  - index.html: PHP Manual
+  - book.mysqli.html: MySQLi
+title: Вступ
+---
 # Вступ
 
 Модуль `mysqli` дозволяє отримати доступ до функціональності, яку надає MySQL версії 4.1 і вище. Більше інформації про сервер баз даних MySQL ви можете отримати за адресою [» http://www.mysql.com/](http://www.mysql.com/)

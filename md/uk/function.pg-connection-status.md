@@ -1,16 +1,11 @@
-Визначає стан підключення
-
--   [« pgconnectionreset](function.pg-connection-reset.html)
-    
--   [пгconsumeinput »](function.pg-consume-input.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Визначає стан підключення
-    
-
+---
+navigation:
+  - function.pg-connection-reset.html: « pgconnectionreset
+  - function.pg-consume-input.html: пгconsumeinput »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгconnectionstatus
+---
 # пгconnectionstatus
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ pg_connection_status(PgSql\Connection $connection): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

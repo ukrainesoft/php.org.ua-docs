@@ -1,16 +1,11 @@
-Еквівалент функції exit
-
--   [« defined](function.defined.md)
-    
--   [eval »](function.eval.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Еквівалент функції exit
-    
-
+---
+navigation:
+  - function.defined.md: « defined
+  - function.eval.md: eval »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: die
+---
 # die
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

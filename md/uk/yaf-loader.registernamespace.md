@@ -1,16 +1,11 @@
-Реєструє простір імен шляхом пошуку
-
--   [« YafLoader::registerLocalNamespace](yaf-loader.registerlocalnamespace.html)
-    
--   [YafLoader::setLibraryPath »](yaf-loader.setlibrarypath.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Реєструє простір імен шляхом пошуку
-    
-
+---
+navigation:
+  - yaf-loader.registerlocalnamespace.html: '« YafLoader::registerLocalNamespace'
+  - yaf-loader.setlibrarypath.html: 'YafLoader::setLibraryPath »'
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::registerNamespace'
+---
 # YafLoader::registerNamespace
 
 (Yaf> = 3.2.0)

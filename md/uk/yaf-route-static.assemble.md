@@ -1,16 +1,11 @@
-Збирає URL
-
--   [« YafRouteStatic](class.yaf-route-static.html)
-    
--   [YafRouteStatic::match »](yaf-route-static.match.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteStatic](class.yaf-route-static.html)
-    
--   Збирає URL
-    
-
+---
+navigation:
+  - class.yaf-route-static.html: « YafRouteStatic
+  - yaf-route-static.match.html: 'YafRouteStatic::match »'
+  - index.md: PHP Manual
+  - class.yaf-route-static.html: YafRouteStatic
+title: 'YafRouteStatic::assemble'
+---
 # YafRouteStatic::assemble
 
 (Yaf >=2.3.0)

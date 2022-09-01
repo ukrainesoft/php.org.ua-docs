@@ -1,16 +1,11 @@
-Повертає значення за індексом
-
--   [« DsDeque::first](ds-deque.first.html)
-    
--   [ДсDeque::insert »](ds-deque.insert.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає значення за індексом
-    
-
+---
+navigation:
+  - ds-deque.first.html: '« DsDeque::first'
+  - ds-deque.insert.html: 'ДсDeque::insert »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::get'
+---
 # ДсDeque::get
 
 (PECL ds >= 1.0.0)

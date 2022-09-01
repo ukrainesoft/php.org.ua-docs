@@ -1,16 +1,11 @@
-Встановлює PDF-документ для відображення даних FDF
-
--   [« fdfsetencoding](function.fdf-set-encoding.html)
-    
--   [fdfsetflags »](function.fdf-set-flags.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює PDF-документ для відображення даних FDF
-    
-
+---
+navigation:
+  - function.fdf-set-encoding.html: « fdfsetencoding
+  - function.fdf-set-flags.html: fdfsetflags »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetfile
+---
 # fdfsetfile
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

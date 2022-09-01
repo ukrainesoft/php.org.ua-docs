@@ -1,16 +1,11 @@
-Встановлює режим звітування про помилки (errorreporting)
-
--   [« gnupgsetarmor](function.gnupg-setarmor.html)
-    
--   [gnupgsetsignmode »](function.gnupg-setsignmode.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Встановлює режим звітування про помилки (errorreporting)
-    
-
+---
+navigation:
+  - function.gnupg-setarmor.html: « gnupgsetarmor
+  - function.gnupg-setsignmode.html: gnupgsetsignmode »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgseterrormode
+---
 # gnupgseterrormode
 
 (PECL gnupg >= 0.6)

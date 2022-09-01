@@ -1,16 +1,11 @@
-Клас PhpToken
-
--   [« Приклади](tokenizer.examples.html)
-    
--   [PhpToken::construct »](phptoken.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Лексер (Tokenizer)](book.tokenizer.html)
-    
--   Клас PhpToken
-    
-
+---
+navigation:
+  - tokenizer.examples.html: « Приклади
+  - phptoken.construct.html: 'PhpToken::construct »'
+  - index.html: PHP Manual
+  - book.tokenizer.html: Лексер (Tokenizer)
+title: Клас PhpToken
+---
 # Клас PhpToken
 
 (PHP 8)

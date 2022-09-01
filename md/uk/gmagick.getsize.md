@@ -1,16 +1,11 @@
-Повертає розмір, пов'язаний із об'єктом Gmagick
-
--   [« Gmagick::getsamplingfactors](gmagick.getsamplingfactors.html)
-    
--   [Gmagick::getversion »](gmagick.getversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає розмір, пов'язаний із об'єктом Gmagick
-    
-
+---
+navigation:
+  - gmagick.getsamplingfactors.html: '« Gmagick::getsamplingfactors'
+  - gmagick.getversion.html: 'Gmagick::getversion »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::getsize'
+---
 # Gmagick::getsize
 
 (PECL gmagick >= Unknown)

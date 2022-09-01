@@ -1,16 +1,11 @@
-Перевіряє, чи є сервер основним членом набору реплік
-
--   [« MongoDBDriverServer::isPassive](mongodb-driver-server.ispassive.html)
-    
--   [MongoDBDriverServer::isSecondary »](mongodb-driver-server.issecondary.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Перевіряє, чи є сервер основним членом набору реплік
-    
-
+---
+navigation:
+  - mongodb-driver-server.ispassive.html: '« MongoDBDriverServer::isPassive'
+  - mongodb-driver-server.issecondary.html: 'MongoDBDriverServer::isSecondary »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::isPrimary'
+---
 # MongoDBDriverServer::isPrimary
 
 (mongodb >=1.0.0)

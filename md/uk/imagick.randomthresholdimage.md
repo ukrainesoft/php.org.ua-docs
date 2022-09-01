@@ -1,16 +1,11 @@
-Створює висококонтрастне двокольорове зображення
-
--   [« Imagick::raiseImage](imagick.raiseimage.html)
-    
--   [Imagick::readImage »](imagick.readimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Створює висококонтрастне двокольорове зображення
-    
-
+---
+navigation:
+  - imagick.raiseimage.html: '« Imagick::raiseImage'
+  - imagick.readimage.html: 'Imagick::readImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::randomThresholdImage'
+---
 # Imagick::randomThresholdImage
 
 (PECL imagick 2, PECL imagick 3)

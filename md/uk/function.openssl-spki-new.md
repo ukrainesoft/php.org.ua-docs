@@ -1,16 +1,11 @@
-Створення нового відкритого підписаного ключа з викликом
-
--   [« opensslspkiexport](function.openssl-spki-export.html)
-    
--   [opensslspkiverify »](function.openssl-spki-verify.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Створення нового відкритого підписаного ключа з викликом
-    
-
+---
+navigation:
+  - function.openssl-spki-export.html: « opensslspkiexport
+  - function.openssl-spki-verify.html: opensslspkiverify »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslspkinew
+---
 # opensslspkinew
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
 
 ### Приклади
 

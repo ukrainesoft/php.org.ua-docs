@@ -1,16 +1,11 @@
-Створює порожній об'єкт класу DOMDocumentType
-
--   [« DOMImplementation::createDocument](domimplementation.createdocument.html)
-    
--   [DOMImplementation::hasFeature »](domimplementation.hasfeature.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMImplementation](class.domimplementation.html)
-    
--   Створює порожній об'єкт класу DOMDocumentType
-    
-
+---
+navigation:
+  - domimplementation.createdocument.html: '« DOMImplementation::createDocument'
+  - domimplementation.hasfeature.html: 'DOMImplementation::hasFeature »'
+  - index.html: PHP Manual
+  - class.domimplementation.html: DOMImplementation
+title: 'DOMImplementation::createDocumentType'
+---
 # DOMImplementation::createDocumentType
 
 (PHP 5, PHP 7, PHP 8)

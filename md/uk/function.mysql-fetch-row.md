@@ -1,16 +1,11 @@
-Обробляє ряд результату запиту та повертає масив із числовими індексами
-
--   [« mysqlfetchobject](function.mysql-fetch-object.html)
-    
--   [mysqlfieldflags »](function.mysql-field-flags.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Обробляє ряд результату запиту та повертає масив із числовими індексами
-    
-
+---
+navigation:
+  - function.mysql-fetch-object.html: « mysqlfetchobject
+  - function.mysql-field-flags.html: mysqlfieldflags »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfetchrow
+---
 # mysqlfetchrow
 
 (PHP 4, PHP 5)

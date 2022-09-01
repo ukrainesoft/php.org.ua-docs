@@ -1,16 +1,11 @@
-Клас MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-
--   [« MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.html)
-    
--   Клас MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.html: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros »'
+  - index.html: PHP Manual
+  - mongodb.monitoring.html: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+---
 # Клас MongoDBDriverMonitoringServerHeartbeatSucceededEvent
 
 (mongodb >=1.13.0)

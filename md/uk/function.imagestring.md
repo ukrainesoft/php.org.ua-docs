@@ -1,16 +1,11 @@
-Малювання рядка тексту горизонтально
-
--   [« imagesettile](function.imagesettile.html)
-    
--   [imagestringup »](function.imagestringup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Малювання рядка тексту горизонтально
-    
-
+---
+navigation:
+  - function.imagesettile.html: « imagesettile
+  - function.imagestringup.html: imagestringup »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagestring
+---
 # imagestring
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,10 +52,10 @@ y-координата верхнього лівого кута.
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.html), і ціле число (int); раніше приймалося лише ціле число (int). |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource).                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.html), і ціле число (int); раніше приймалося лише ціле число (int). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

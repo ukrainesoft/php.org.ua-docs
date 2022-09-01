@@ -1,16 +1,11 @@
-Приклади
-
--   [« Отличия от стандартного Lua](reference.luasandbox.differences.md)
-    
--   [Базовое использование LuaSandbox »](luasandbox.examples-basic.html)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](book.luasandbox.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - reference.luasandbox.differences.md: « Отличия от стандартного Lua
+  - luasandbox.examples-basic.html: Базовое использование LuaSandbox »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
+title: Приклади
+---
 # Приклади
 
 ## Зміст

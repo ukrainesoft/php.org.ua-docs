@@ -1,16 +1,11 @@
-Інші зміни
-
--   [« Віддалені модулі та SAPI](migration70.removed-exts-sapis.html)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x »](migration56.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
-    
--   Інші зміни
-    
-
+---
+navigation:
+  - migration70.removed-exts-sapis.html: « Віддалені модулі та SAPI
+  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x »
+  - index.md: PHP Manual
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Інші зміни
+---
 ## Інші зміни
 
 ### Послаблення обмежень використання зарезервованих слів

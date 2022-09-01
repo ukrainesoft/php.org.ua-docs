@@ -1,16 +1,11 @@
-Отримує тип перерахування, якщо є
-
--   [« ReflectionEnum::construct](reflectionenum.construct.md)
-    
--   [ReflectionEnum::getCase »](reflectionenum.getcase.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionEnum](class.reflectionenum.md)
-    
--   Отримує тип перерахування, якщо є
-    
-
+---
+navigation:
+  - reflectionenum.construct.md: '« ReflectionEnum::construct'
+  - reflectionenum.getcase.md: 'ReflectionEnum::getCase »'
+  - index.md: PHP Manual
+  - class.reflectionenum.md: ReflectionEnum
+title: 'ReflectionEnum::getBackingType'
+---
 # ReflectionEnum::getBackingType
 
 (PHP 8> = 8.1.0)

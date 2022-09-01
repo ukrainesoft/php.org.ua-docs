@@ -1,16 +1,11 @@
-Створити стартовий тег елемента простору імен
-
--   [« XMLWriter::startElement](xmlwriter.startelement.md)
-    
--   [XMLWriter::startPi »](xmlwriter.startpi.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити стартовий тег елемента простору імен
-    
-
+---
+navigation:
+  - xmlwriter.startelement.md: '« XMLWriter::startElement'
+  - xmlwriter.startpi.md: 'XMLWriter::startPi »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startElementNs'
+---
 # XMLWriter::startElementNs
 
 # xmlwriterstartelementнс
@@ -59,9 +54,9 @@ URI простір імен. Якщо `namespace` дорівнює **`null`**, �
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

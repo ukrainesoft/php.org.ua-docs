@@ -1,16 +1,11 @@
-Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
-
--   [« mysqliresult::fetchobject](mysqli-result.fetch-object.html)
-    
--   [mysqliresult::$fieldcount »](mysqli-result.field-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
-    
-
+---
+navigation:
+  - mysqli-result.fetch-object.html: '« mysqliresult::fetchobject'
+  - mysqli-result.field-count.html: 'mysqliresult::$fieldcount »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::fetchrow'
+---
 # mysqliresult::fetchrow
 
 # mysqlifetchrow

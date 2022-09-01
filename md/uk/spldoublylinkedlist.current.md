@@ -1,16 +1,11 @@
-Повертає поточний елемент масиву
-
--   [« SplDoublyLinkedList::count](spldoublylinkedlist.count.md)
-    
--   [SplDoublyLinkedList::getIteratorMode »](spldoublylinkedlist.getiteratormode.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Повертає поточний елемент масиву
-    
-
+---
+navigation:
+  - spldoublylinkedlist.count.md: '« SplDoublyLinkedList::count'
+  - spldoublylinkedlist.getiteratormode.md: 'SplDoublyLinkedList::getIteratorMode »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::current'
+---
 # SplDoublyLinkedList::current
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

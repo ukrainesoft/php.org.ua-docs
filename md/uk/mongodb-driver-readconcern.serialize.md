@@ -1,16 +1,11 @@
-Серіалізація ReadConcern
-
--   [« MongoDBDriverReadConcern::isDefault](mongodb-driver-readconcern.isdefault.html)
-    
--   [MongoDBDriverReadConcern::unserialize »](mongodb-driver-readconcern.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html)
-    
--   Серіалізація ReadConcern
-    
-
+---
+navigation:
+  - mongodb-driver-readconcern.isdefault.html: '« MongoDBDriverReadConcern::isDefault'
+  - mongodb-driver-readconcern.unserialize.html: 'MongoDBDriverReadConcern::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+title: 'MongoDBDriverReadConcern::serialize'
+---
 # MongoDBDriverReadConcern::serialize
 
 (mongodb >=1.7.0)

@@ -1,16 +1,11 @@
-Повертає класи
-
--   [« ReflectionExtension::export](reflectionextension.export.md)
-    
--   [ReflectionExtension::getClassNames »](reflectionextension.getclassnames.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Повертає класи
-    
-
+---
+navigation:
+  - reflectionextension.export.md: '« ReflectionExtension::export'
+  - reflectionextension.getclassnames.md: 'ReflectionExtension::getClassNames »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::getClasses'
+---
 # ReflectionExtension::getClasses
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Конструктор класу variant
-
--   [« variant](class.variant.html)
-    
--   [COMPersistHelper »](class.compersisthelper.html)
-    
--   [PHP Manual](index.html)
-    
--   [variant](class.variant.html)
-    
--   Конструктор класу variant
-    
-
+---
+navigation:
+  - class.variant.html: « variant
+  - class.compersisthelper.html: COMPersistHelper »
+  - index.html: PHP Manual
+  - class.variant.html: variant
+title: 'variant:construct'
+---
 # variant:construct
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

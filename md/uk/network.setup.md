@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.network.md)
-    
--   [Вимоги »](network.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сеть](book.network.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.network.md: « Введение
+  - network.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.network.md: Сеть
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

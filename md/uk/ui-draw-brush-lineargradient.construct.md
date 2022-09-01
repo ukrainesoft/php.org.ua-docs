@@ -1,16 +1,11 @@
-Конструктор класу LinearGradient
-
--   [« UIDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.html)
-    
--   [ОЙDrawBrushRadialGradient »](class.ui-draw-brush-radialgradient.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawBrushLinearGradient](class.ui-draw-brush-lineargradient.html)
-    
--   Конструктор класу LinearGradient
-    
-
+---
+navigation:
+  - class.ui-draw-brush-lineargradient.html: « UIDrawBrushLinearGradient
+  - class.ui-draw-brush-radialgradient.html: ОЙDrawBrushRadialGradient »
+  - index.md: PHP Manual
+  - class.ui-draw-brush-lineargradient.html: ОЙDrawBrushLinearGradient
+title: 'ОЙDrawBrushLinearGradient::construct'
+---
 # ОЙDrawBrushLinearGradient::construct
 
 (UI 2.0.0)

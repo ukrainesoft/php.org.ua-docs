@@ -1,16 +1,11 @@
-Додає значення на початок вектора
-
--   [« DsVector::toArray](ds-vector.toarray.html)
-    
--   [Двостороння черга »](class.ds-deque.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Додає значення на початок вектора
-    
-
+---
+navigation:
+  - ds-vector.toarray.html: '« DsVector::toArray'
+  - class.ds-deque.html: Двостороння черга »
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::unshift'
+---
 # ДсVector::unshift
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Застосування гамма корекції до GD зображення
-
--   [« imagefttext](function.imagefttext.html)
-    
--   [imagegd2 »](function.imagegd2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Застосування гамма корекції до GD зображення
-    
-
+---
+navigation:
+  - function.imagefttext.html: « imagefttext
+  - function.imagegd2.html: imagegd2 »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagegammacorrect
+---
 # imagegammacorrect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

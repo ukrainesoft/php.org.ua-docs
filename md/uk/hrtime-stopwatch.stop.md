@@ -1,16 +1,11 @@
-Зупинити вимір
-
--   [« HRTimeStopWatch::start](hrtime-stopwatch.start.html)
-    
--   [HRTimeUnit »](class.hrtime-unit.html)
-    
--   [PHP Manual](index.md)
-    
--   [HRTimeStopWatch](class.hrtime-stopwatch.html)
-    
--   Зупинити вимір
-    
-
+---
+navigation:
+  - hrtime-stopwatch.start.html: '« HRTimeStopWatch::start'
+  - class.hrtime-unit.html: HRTimeUnit »
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.html: HRTimeStopWatch
+title: 'HRTimeStopWatch::stop'
+---
 # HRTimeStopWatch::stop
 
 (PECL hrtime >= 0.4.3)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](yaz.constants.html)
-    
--   [Функции YAZ »](ref.yaz.html)
-    
--   [PHP Manual](index.html)
-    
--   [YAZ](book.yaz.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - yaz.constants.html: « Обумовлені константи
+  - ref.yaz.html: Функции YAZ »
+  - index.html: PHP Manual
+  - book.yaz.html: YAZ
+title: Приклади
+---
 # Приклади
 
 PHP/YAZ зберігає список з'єднань з адресатами (Z-Асоціація). Ресурс надає з'єднання з адресатом.

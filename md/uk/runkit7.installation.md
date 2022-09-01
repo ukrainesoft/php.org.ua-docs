@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](runkit7.requirements.html)
-    
--   [Налаштування під час виконання »](runkit7.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](runkit7.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - runkit7.requirements.html: « Вимоги
+  - runkit7.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - runkit7.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

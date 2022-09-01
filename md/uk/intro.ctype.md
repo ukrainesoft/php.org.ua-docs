@@ -1,16 +1,11 @@
-Вступ
-
--   [« Ctype](book.ctype.md)
-    
--   [Встановлення та налаштування »](ctype.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ctype](book.ctype.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.ctype.md: « Ctype
+  - ctype.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ctype.md: Ctype
+title: Вступ
+---
 # Вступ
 
 Функції, представлені цим модулем, дозволяють перевірити належність символу або рядка певному класу символів, беручи до уваги поточні регіональні установки (дивіться також функцію [setlocale()](function.setlocale.md)

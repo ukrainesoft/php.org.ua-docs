@@ -1,16 +1,11 @@
-Налаштування контексту потоків для наступного завантаження або запису документа за допомогою libxml
-
--   [« libxmlsetexternalentityloader](function.libxml-set-external-entity-loader.html)
-    
--   [libxmluseinternalerrors »](function.libxml-use-internal-errors.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції libxml](ref.libxml.md)
-    
--   Налаштування контексту потоків для наступного завантаження або запису документа за допомогою libxml
-    
-
+---
+navigation:
+  - function.libxml-set-external-entity-loader.html: « libxmlsetexternalentityloader
+  - function.libxml-use-internal-errors.html: libxmluseinternalerrors »
+  - index.md: PHP Manual
+  - ref.libxml.md: Функції libxml
+title: libxmlsetstreamscontext
+---
 # libxmlsetstreamscontext
 
 (PHP 5, PHP 7, PHP 8)

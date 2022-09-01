@@ -1,16 +1,11 @@
-Повертає відомості про виключення
-
--   [« StompException](class.stompexception.md)
-    
--   [SVM »](book.svm.md)
-    
--   [PHP Manual](index.md)
-    
--   [StompException](class.stompexception.md)
-    
--   Повертає відомості про виключення
-    
-
+---
+navigation:
+  - class.stompexception.md: « StompException
+  - book.svm.md: SVM »
+  - index.md: PHP Manual
+  - class.stompexception.md: StompException
+title: 'StompException::getDetails'
+---
 # StompException::getDetails
 
 (PECL stomp >= 0.1.0)

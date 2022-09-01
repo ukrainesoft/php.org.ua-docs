@@ -1,16 +1,11 @@
-Масштабує зображення пропорційно половині його розміру
-
--   [« Imagick::mergeImageLayers](imagick.mergeimagelayers.md)
-    
--   [Imagick::modulateImage »](imagick.modulateimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Масштабує зображення пропорційно половині його розміру
-    
-
+---
+navigation:
+  - imagick.mergeimagelayers.md: '« Imagick::mergeImageLayers'
+  - imagick.modulateimage.md: 'Imagick::modulateImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::minifyImage'
+---
 # Imagick::minifyImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::fork](evloop.fork.html)
-    
--   [EvLoop::invokePending »](evloop.invokepending.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.fork.html: '« EvLoop::fork'
+  - evloop.invokepending.html: 'EvLoop::invokePending »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::idle'
+---
 # EvLoop::idle
 
 (PECL ev >= 0.2.0)

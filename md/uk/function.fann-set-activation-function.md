@@ -1,16 +1,11 @@
-Встановлює функцію активації для вказаного нейрона та шару
-
--   [« fannsetactivationfunctionoutput](function.fann-set-activation-function-output.html)
-    
--   [fannsetactivationsteepnesshidden »](function.fann-set-activation-steepness-hidden.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює функцію активації для вказаного нейрона та шару
-    
-
+---
+navigation:
+  - function.fann-set-activation-function-output.html: « fannsetactivationfunctionoutput
+  - function.fann-set-activation-steepness-hidden.html: fannsetactivationsteepnesshidden »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetactivationfunction
+---
 # fannsetactivationfunction
 
 (PECL fann> = 1.0.0)

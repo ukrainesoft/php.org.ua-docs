@@ -1,16 +1,11 @@
-Повертає правильно екранований рядок
-
--   [« SQLite3::enableExceptions](sqlite3.enableexceptions.html)
-    
--   [SQLite3::exec »](sqlite3.exec.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](class.sqlite3.html)
-    
--   Повертає правильно екранований рядок
-    
-
+---
+navigation:
+  - sqlite3.enableexceptions.html: '« SQLite3::enableExceptions'
+  - sqlite3.exec.html: 'SQLite3::exec »'
+  - index.html: PHP Manual
+  - class.sqlite3.html: SQLite3
+title: 'SQLite3::escapeString'
+---
 # SQLite3::escapeString
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

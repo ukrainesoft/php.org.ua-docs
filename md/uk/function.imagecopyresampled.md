@@ -1,16 +1,11 @@
-Копіювання та зміна розміру зображення з ресемплюванням
-
--   [« imagecopymergegray](function.imagecopymergegray.html)
-    
--   [imagecopyresized »](function.imagecopyresized.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Копіювання та зміна розміру зображення з ресемплюванням
-    
-
+---
+navigation:
+  - function.imagecopymergegray.html: « imagecopymergegray
+  - function.imagecopyresized.html: imagecopyresized »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagecopyresampled
+---
 # imagecopyresampled
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -77,9 +72,9 @@ y-координата вихідного зображення.
 
 ### список змін
 
-| Версия | Описание                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------|
-|        | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

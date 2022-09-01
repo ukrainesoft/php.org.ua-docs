@@ -1,16 +1,11 @@
-Клас Yaconf
-
--   [« Обумовлені константи](yaconf.constants.html)
-    
--   [Yaconf::get »](yaconf.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaconf](book.yaconf.html)
-    
--   Клас Yaconf
-    
-
+---
+navigation:
+  - yaconf.constants.html: « Обумовлені константи
+  - yaconf.get.html: 'Yaconf::get »'
+  - index.html: PHP Manual
+  - book.yaconf.html: Yaconf
+title: Клас Yaconf
+---
 # Клас Yaconf
 
 (PECL yaconf> = 1.0.0)

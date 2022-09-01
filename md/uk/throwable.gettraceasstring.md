@@ -1,16 +1,11 @@
-Отримує результати трасування стека у вигляді рядка
-
--   [« Throwable::getTrace](throwable.gettrace.md)
-    
--   [Throwable::getPrevious »](throwable.getprevious.md)
-    
--   [PHP Manual](index.md)
-    
--   [Throwable](class.throwable.md)
-    
--   Отримує результати трасування стека у вигляді рядка
-    
-
+---
+navigation:
+  - throwable.gettrace.md: '« Throwable::getTrace'
+  - throwable.getprevious.md: 'Throwable::getPrevious »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getTraceAsString'
+---
 # Throwable::getTraceAsString
 
 (PHP 7, PHP 8)

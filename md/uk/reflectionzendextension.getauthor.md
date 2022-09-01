@@ -1,16 +1,11 @@
-Отримує автора
-
--   [« ReflectionZendExtension::export](reflectionzendextension.export.html)
-    
--   [ReflectionZendExtension::getCopyright »](reflectionzendextension.getcopyright.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.html)
-    
--   Отримує автора
-    
-
+---
+navigation:
+  - reflectionzendextension.export.html: '« ReflectionZendExtension::export'
+  - reflectionzendextension.getcopyright.html: 'ReflectionZendExtension::getCopyright »'
+  - index.html: PHP Manual
+  - class.reflectionzendextension.html: ReflectionZendExtension
+title: 'ReflectionZendExtension::getAuthor'
+---
 # ReflectionZendExtension::getAuthor
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

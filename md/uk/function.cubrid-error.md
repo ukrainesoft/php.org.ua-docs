@@ -1,16 +1,11 @@
-Повертає текст останньої помилки, що сталася
-
--   [« cubriderrno](function.cubrid-errno.html)
-    
--   [cubridfetcharray »](function.cubrid-fetch-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Повертає текст останньої помилки, що сталася
-    
-
+---
+navigation:
+  - function.cubrid-errno.html: « cubriderrno
+  - function.cubrid-fetch-array.html: cubridfetcharray »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubriderror
+---
 # cubriderror
 
 (PECL CUBRID >= 8.3.1)

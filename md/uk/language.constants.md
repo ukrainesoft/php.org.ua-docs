@@ -1,16 +1,11 @@
-Константи
-
--   [« Змінні ззовні PHP](language.variables.external.html)
-    
--   [Синтаксис »](language.constants.syntax.html)
-    
--   [PHP Manual](index.html)
-    
--   [Довідник мови](langref.html)
-    
--   Константи
-    
-
+---
+navigation:
+  - language.variables.external.html: « Змінні ззовні PHP
+  - language.constants.syntax.html: Синтаксис »
+  - index.html: PHP Manual
+  - langref.html: Довідник мови
+title: Константи
+---
 # Константи
 
 ## Зміст

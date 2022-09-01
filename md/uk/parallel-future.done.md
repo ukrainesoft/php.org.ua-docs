@@ -1,16 +1,11 @@
-Визначення стану
-
--   [« parallelFuture::cancelled](parallel-future.cancelled.html)
-    
--   [parallelFuture::value »](parallel-future.value.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelFuture](class.parallel-future.html)
-    
--   Визначення стану
-    
-
+---
+navigation:
+  - parallel-future.cancelled.html: '« parallelFuture::cancelled'
+  - parallel-future.value.html: 'parallelFuture::value »'
+  - index.md: PHP Manual
+  - class.parallel-future.html: parallelFuture
+title: 'parallelFuture::done'
+---
 # parallelFuture::done
 
 parallelFuture::done — Визначення стану

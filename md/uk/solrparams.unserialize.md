@@ -1,16 +1,11 @@
-Використовується для серіалізації користувача
-
--   [« SolrParams::toString](solrparams.tostring.md)
-    
--   [SolrModifiableParams »](class.solrmodifiableparams.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrParams](class.solrparams.md)
-    
--   Використовується для серіалізації користувача
-    
-
+---
+navigation:
+  - solrparams.tostring.md: '« SolrParams::toString'
+  - class.solrmodifiableparams.md: SolrModifiableParams »
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
+title: 'SolrParams::unserialize'
+---
 # SolrParams::unserialize
 
 (PECL solr> = 0.9.2)

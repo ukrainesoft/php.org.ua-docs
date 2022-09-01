@@ -1,16 +1,11 @@
-Отримує статус декомпресії
-
--   [« inflategetreadlen](function.inflate-get-read-len.html)
-    
--   [inflateinit »](function.inflate-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Отримує статус декомпресії
-    
-
+---
+navigation:
+  - function.inflate-get-read-len.html: « inflategetreadlen
+  - function.inflate-init.html: inflateinit »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: inflategetstatus
+---
 # inflategetstatus
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -35,6 +30,6 @@ inflate_get_status(InflateContext $context): int
 
 ### список змін
 
-| Версия | Описание                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------|
-|        | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |

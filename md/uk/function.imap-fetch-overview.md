@@ -1,16 +1,11 @@
-Огляд інформації, що міститься в заголовках повідомлень
-
--   [« imapexpunge](function.imap-expunge.html)
-    
--   [imapfetchbody »](function.imap-fetchbody.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Огляд інформації, що міститься в заголовках повідомлень
-    
-
+---
+navigation:
+  - function.imap-expunge.html: « imapexpunge
+  - function.imap-fetchbody.html: imapfetchbody »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapfetchoverview
+---
 # imapfetchoverview
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -65,9 +60,9 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Викликає SOAP-функцію (застарілий метод)
-
--   [« SoapClient](class.soapclient.html)
-    
--   [SoapClient::construct »](soapclient.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapClient](class.soapclient.html)
-    
--   Викликає SOAP-функцію (застарілий метод)
-    
-
+---
+navigation:
+  - class.soapclient.html: « SoapClient
+  - soapclient.construct.html: 'SoapClient::construct »'
+  - index.html: PHP Manual
+  - class.soapclient.html: SoapClient
+title: 'SoapClient::call'
+---
 # SoapClient::call
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
-
--   [« fannsetactivationfunction](function.fann-set-activation-function.html)
-    
--   [fannsetactivationsteepnesslayer »](function.fann-set-activation-steepness-layer.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
-    
-
+---
+navigation:
+  - function.fann-set-activation-function.html: « fannsetactivationfunction
+  - function.fann-set-activation-steepness-layer.html: fannsetactivationsteepnesslayer »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetactivationsteepnesshidden
+---
 # fannsetactivationsteepnesshidden
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Ініціалізує сесію
-
--   [« SessionHandler::gc](sessionhandler.gc.md)
-    
--   [SessionHandler::read »](sessionhandler.read.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandler](class.sessionhandler.md)
-    
--   Ініціалізує сесію
-    
-
+---
+navigation:
+  - sessionhandler.gc.md: '« SessionHandler::gc'
+  - sessionhandler.read.md: 'SessionHandler::read »'
+  - index.md: PHP Manual
+  - class.sessionhandler.md: SessionHandler
+title: 'SessionHandler::open'
+---
 # SessionHandler::open
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

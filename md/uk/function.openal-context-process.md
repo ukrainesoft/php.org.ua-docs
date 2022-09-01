@@ -1,16 +1,11 @@
-Обробити вказаний контекст
-
--   [« openalcontextdestroy](function.openal-context-destroy.html)
-    
--   [openalcontextsuspend »](function.openal-context-suspend.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Обробити вказаний контекст
-    
-
+---
+navigation:
+  - function.openal-context-destroy.html: « openalcontextdestroy
+  - function.openal-context-suspend.html: openalcontextsuspend »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalcontextprocess
+---
 # openalcontextprocess
 
 (PECL openal >= 0.1.0)

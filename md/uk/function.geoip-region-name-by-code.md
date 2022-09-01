@@ -1,16 +1,11 @@
-Повертає назву регіону для обраної країни та код регіону
-
--   [« geoipregionбname](function.geoip-region-by-name.html)
-    
--   [geoipsetupcustomdirectory »](function.geoip-setup-custom-directory.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции GeoIP](ref.geoip.html)
-    
--   Повертає назву регіону для обраної країни та код регіону
-    
-
+---
+navigation:
+  - function.geoip-region-by-name.html: « geoipregionбname
+  - function.geoip-setup-custom-directory.html: geoipsetupcustomdirectory »
+  - index.html: PHP Manual
+  - ref.geoip.html: Функции GeoIP
+title: geoipregionnameбcode
+---
 # geoipregionnameбcode
 
 (PECL geoip >= 1.0.4)

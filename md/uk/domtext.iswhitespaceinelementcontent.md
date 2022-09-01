@@ -1,16 +1,11 @@
-Визначає, чи містить текстовий вузол пробіли у вмісті
-
--   [« DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.html)
-    
--   [DOMText::splitText »](domtext.splittext.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMText](class.domtext.html)
-    
--   Визначає, чи містить текстовий вузол пробіли у вмісті
-    
-
+---
+navigation:
+  - domtext.iselementcontentwhitespace.html: '« DOMText::isElementContentWhitespace'
+  - domtext.splittext.html: 'DOMText::splitText »'
+  - index.html: PHP Manual
+  - class.domtext.html: DOMText
+title: 'DOMText::isWhitespaceInElementContent'
+---
 # DOMText::isWhitespaceInElementContent
 
 (PHP 5, PHP 7, PHP 8)

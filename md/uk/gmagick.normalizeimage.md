@@ -1,16 +1,11 @@
-Підвищує контрастність кольорового зображення
-
--   [« Gmagick::nextimage](gmagick.nextimage.html)
-    
--   [Gmagick::oilpaintimage »](gmagick.oilpaintimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Підвищує контрастність кольорового зображення
-    
-
+---
+navigation:
+  - gmagick.nextimage.html: '« Gmagick::nextimage'
+  - gmagick.oilpaintimage.html: 'Gmagick::oilpaintimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::normalizeimage'
+---
 # Gmagick::normalizeimage
 
 (PECL gmagick >= Unknown)

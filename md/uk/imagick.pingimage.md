@@ -1,16 +1,11 @@
-Отримує основні атрибути зображення
-
--   [« Imagick::paintTransparentImage](imagick.painttransparentimage.html)
-    
--   [Imagick::pingImageBlob »](imagick.pingimageblob.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Отримує основні атрибути зображення
-    
-
+---
+navigation:
+  - imagick.painttransparentimage.html: '« Imagick::paintTransparentImage'
+  - imagick.pingimageblob.html: 'Imagick::pingImageBlob »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::pingImage'
+---
 # Imagick::pingImage
 
 (PECL imagick 2, PECL imagick 3)

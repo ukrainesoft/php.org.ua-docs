@@ -1,16 +1,11 @@
-Клас IntlTimeZone
-
--   [« IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md)
-    
--   [IntlTimeZone::construct »](intltimezone.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас IntlTimeZone
-    
-
+---
+navigation:
+  - intlgregoriancalendar.setgregorianchange.md: '« IntlGregorianCalendar::setGregorianChange'
+  - intltimezone.construct.md: 'IntlTimeZone::construct »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас IntlTimeZone
+---
 # Клас IntlTimeZone
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

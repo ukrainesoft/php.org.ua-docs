@@ -1,16 +1,11 @@
-Запитує статистику бази даних
-
--   [« ibaseconnect](function.ibase-connect.html)
-    
--   [ibasedeleteuser »](function.ibase-delete-user.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Запитує статистику бази даних
-    
-
+---
+navigation:
+  - function.ibase-connect.html: « ibaseconnect
+  - function.ibase-delete-user.html: ibasedeleteuser »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseдбinfo
+---
 # ibaseдбinfo
 
 (PHP 5, PHP 7 < 7.4.0)

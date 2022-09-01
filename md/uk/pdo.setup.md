@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.pdo.md)
-    
--   [Вимоги »](pdo.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](book.pdo.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.pdo.md: « Введение
+  - pdo.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.pdo.md: PDO
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

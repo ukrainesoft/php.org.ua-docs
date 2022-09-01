@@ -1,16 +1,11 @@
-Обчислює схожість двох сигнатур нечітких хешів
-
--   [« Функції ssdeep](ref.ssdeep.html)
-    
--   [ssdeepfuzzyhashfilename »](function.ssdeep-fuzzy-hash-filename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції ssdeep](ref.ssdeep.html)
-    
--   Обчислює схожість двох сигнатур нечітких хешів
-    
-
+---
+navigation:
+  - ref.ssdeep.html: « Функції ssdeep
+  - function.ssdeep-fuzzy-hash-filename.html: ssdeepfuzzyhashfilename »
+  - index.html: PHP Manual
+  - ref.ssdeep.html: Функції ssdeep
+title: ssdeepfuzzycompare
+---
 # ssdeepfuzzycompare
 
 (PECL ssdeep >= 1.0.0)

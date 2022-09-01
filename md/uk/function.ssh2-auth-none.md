@@ -1,16 +1,11 @@
-Аутентифікація як "none"
-
--   [« ssh2authhostbasedfile](function.ssh2-auth-hostbased-file.html)
-    
--   [ssh2authpassword »](function.ssh2-auth-password.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Аутентифікація як "none"
-    
-
+---
+navigation:
+  - function.ssh2-auth-hostbased-file.html: « ssh2authhostbasedfile
+  - function.ssh2-auth-password.html: ssh2authpassword »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2authnone
+---
 # ssh2authnone
 
 (PECL ssh2> = 0.9.0)

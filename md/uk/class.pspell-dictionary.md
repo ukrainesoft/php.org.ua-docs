@@ -1,16 +1,11 @@
-Клас PSpellDictionary
-
--   [« pspellsuggest](function.pspell-suggest.html)
-    
--   [PSpellConfig »](class.pspell-config.html)
-    
--   [PHP Manual](index.md)
-    
--   [Pspell](book.pspell.md)
-    
--   Клас PSpellDictionary
-    
-
+---
+navigation:
+  - function.pspell-suggest.html: « pspellsuggest
+  - class.pspell-config.html: PSpellConfig »
+  - index.md: PHP Manual
+  - book.pspell.md: Pspell
+title: Клас PSpellDictionary
+---
 # Клас PSpellDictionary
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Малювання лінії
-
--   [« imagelayereffect](function.imagelayereffect.html)
-    
--   [imageloadfont »](function.imageloadfont.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Малювання лінії
-    
-
+---
+navigation:
+  - function.imagelayereffect.html: « imagelayereffect
+  - function.imageloadfont.html: imageloadfont »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imageline
+---
 # imageline
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ y-координата другої точки.
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

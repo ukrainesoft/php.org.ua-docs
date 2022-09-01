@@ -1,16 +1,11 @@
-Повертає назву бази даних із виклику до mysqllistdbs
-
--   [« mysqldataseek](function.mysql-data-seek.html)
-    
--   [mysqlдбquery »](function.mysql-db-query.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає назву бази даних із виклику до mysqllistdbs
-    
-
+---
+navigation:
+  - function.mysql-data-seek.html: « mysqldataseek
+  - function.mysql-db-query.html: mysqlдбquery »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlдбname
+---
 # mysqlдбname
 
 (PHP 4, PHP 5)

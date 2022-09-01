@@ -1,16 +1,11 @@
-declare
-
--   [« match](control-structures.match.html)
-    
--   [return »](function.return.md)
-    
--   [PHP Manual](index.md)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   declare
-    
-
+---
+navigation:
+  - control-structures.match.html: « match
+  - function.return.md: return »
+  - index.md: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: declare
+---
 ## declare
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

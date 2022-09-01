@@ -1,16 +1,11 @@
-Відновлює попередній обробник помилок
-
--   [« errorreporting](function.error-reporting.html)
-    
--   [restoreexceptionhandler »](function.restore-exception-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции обработки ошибок](ref.errorfunc.md)
-    
--   Відновлює попередній обробник помилок
-    
-
+---
+navigation:
+  - function.error-reporting.html: « errorreporting
+  - function.restore-exception-handler.html: restoreexceptionhandler »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: restoreerrorhandler
+---
 # restoreerrorhandler
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

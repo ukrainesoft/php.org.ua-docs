@@ -1,16 +1,11 @@
-Застосовує до зображення ефект соляризації
-
--   [« Imagick::smushImages](imagick.smushimages.md)
-    
--   [Imagick::sparseColorImage »](imagick.sparsecolorimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Застосовує до зображення ефект соляризації
-    
-
+---
+navigation:
+  - imagick.smushimages.md: '« Imagick::smushImages'
+  - imagick.sparsecolorimage.md: 'Imagick::sparseColorImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::solarizeImage'
+---
 # Imagick::solarizeImage
 
 (PECL imagick 2, PECL imagick 3)

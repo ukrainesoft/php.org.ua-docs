@@ -1,16 +1,11 @@
-Малює пікселі прозорими
-
--   [« Imagick::transformImageColorspace](imagick.transformimagecolorspace.html)
-    
--   [Imagick::transposeImage »](imagick.transposeimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Малює пікселі прозорими
-    
-
+---
+navigation:
+  - imagick.transformimagecolorspace.html: '« Imagick::transformImageColorspace'
+  - imagick.transposeimage.html: 'Imagick::transposeImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::transparentPaintImage'
+---
 # Imagick::transparentPaintImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

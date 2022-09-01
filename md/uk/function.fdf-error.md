@@ -1,16 +1,11 @@
-Повертає опис помилки для коду помилки FDF
-
--   [« fdferrno](function.fdf-errno.html)
-    
--   [fdfgetap »](function.fdf-get-ap.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Повертає опис помилки для коду помилки FDF
-    
-
+---
+navigation:
+  - function.fdf-errno.html: « fdferrno
+  - function.fdf-get-ap.html: fdfgetap »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdferror
+---
 # fdferror
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

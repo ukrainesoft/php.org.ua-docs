@@ -1,16 +1,11 @@
-Розшифрувати дані
-
--   [« MongoDBDriverClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.html)
-    
--   [MongoDBDriverClientEncryption::encrypt »](mongodb-driver-clientencryption.encrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.html)
-    
--   Розшифрувати дані
-    
-
+---
+navigation:
+  - mongodb-driver-clientencryption.createdatakey.html: '« MongoDBDriverClientEncryption::createDataKey'
+  - mongodb-driver-clientencryption.encrypt.html: 'MongoDBDriverClientEncryption::encrypt »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-clientencryption.html: MongoDBDriverClientEncryption
+title: 'MongoDBDriverClientEncryption::decrypt'
+---
 # MongoDBDriverClientEncryption::decrypt
 
 (mongodb >=1.7.0)

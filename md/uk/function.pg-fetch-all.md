@@ -1,16 +1,11 @@
-Вибирає всі дані з результату запиту та поміщає їх у масив
-
--   [« pgfetchallcolumns](function.pg-fetch-all-columns.html)
-    
--   [пгfetcharray »](function.pg-fetch-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Вибирає всі дані з результату запиту та поміщає їх у масив
-    
-
+---
+navigation:
+  - function.pg-fetch-all-columns.html: « pgfetchallcolumns
+  - function.pg-fetch-array.html: пгfetcharray »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfetchall
+---
 # пгfetchall
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -43,11 +38,11 @@ pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Функція **пгfetchall()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків.                  |
-|        | Доданий параметр `mode`                                                                                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Функція **пгfetchall()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків. |
+|  | Доданий параметр `mode` |
 
 ### Приклади
 

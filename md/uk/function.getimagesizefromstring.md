@@ -1,16 +1,11 @@
-Отримання розміру зображення з рядка даних
-
--   [« getimagesize](function.getimagesize.md)
-    
--   [imagetypeтоextension »](function.image-type-to-extension.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання розміру зображення з рядка даних
-    
-
+---
+navigation:
+  - function.getimagesize.md: « getimagesize
+  - function.image-type-to-extension.html: imagetypeтоextension »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: getimagesizefromstring
+---
 # getimagesizefromstring
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

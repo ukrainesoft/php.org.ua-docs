@@ -1,16 +1,11 @@
-Перевіряє, чи існує властивість
-
--   [« SolrObject::getPropertyNames](solrobject.getpropertynames.html)
-    
--   [SolrObject::offsetGet »](solrobject.offsetget.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrObject](class.solrobject.html)
-    
--   Перевіряє, чи існує властивість
-    
-
+---
+navigation:
+  - solrobject.getpropertynames.html: '« SolrObject::getPropertyNames'
+  - solrobject.offsetget.html: 'SolrObject::offsetGet »'
+  - index.html: PHP Manual
+  - class.solrobject.html: SolrObject
+title: 'SolrObject::offsetExists'
+---
 # SolrObject::offsetExists
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Псевдонім OCICollection::getElem
-
--   [« ocicollassignelem](function.ocicollassignelem.md)
-    
--   [ocicollmax »](function.ocicollmax.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім OCICollection::getElem
-    
-
+---
+navigation:
+  - function.ocicollassignelem.md: « ocicollassignelem
+  - function.ocicollmax.md: ocicollmax »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicollgetelem
+---
 # ocicollgetelem
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

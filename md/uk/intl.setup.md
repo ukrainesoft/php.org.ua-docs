@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.intl.html)
-    
--   [Вимоги »](intl.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.intl.html: « Введение
+  - intl.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

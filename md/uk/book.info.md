@@ -1,16 +1,11 @@
-Опції та інформація PHP
-
--   [« outputresetrewritevars](function.output-reset-rewrite-vars.html)
-    
--   [Введение »](intro.info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Изменение поведения PHP](refs.basic.php.html)
-    
--   Опції та інформація PHP
-    
-
+---
+navigation:
+  - function.output-reset-rewrite-vars.html: « outputresetrewritevars
+  - intro.info.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.php.html: Изменение поведения PHP
+title: Опції та інформація PHP
+---
 # Опції та інформація PHP
 
 -   [Введение](intro.info.html)

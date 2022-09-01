@@ -1,16 +1,11 @@
-Клас FilterIterator
-
--   [« FilesystemIterator::setFlags](filesystemiterator.setflags.md)
-    
--   [FilterIterator::accept »](filteriterator.accept.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас FilterIterator
-    
-
+---
+navigation:
+  - filesystemiterator.setflags.md: '« FilesystemIterator::setFlags'
+  - filteriterator.accept.md: 'FilterIterator::accept »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас FilterIterator
+---
 # Клас FilterIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

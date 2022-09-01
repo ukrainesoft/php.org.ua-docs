@@ -1,16 +1,11 @@
-Виділення пам'яті під зазначену місткість
-
--   [« Послідовність](class.ds-sequence.html)
-    
--   [ДсSequence::apply »](ds-sequence.apply.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Виділення пам'яті під зазначену місткість
-    
-
+---
+navigation:
+  - class.ds-sequence.html: « Послідовність
+  - ds-sequence.apply.html: 'ДсSequence::apply »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::allocate'
+---
 # ДсSequence::allocate
 
 (PECL ds >= 1.0.0)

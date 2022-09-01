@@ -1,16 +1,11 @@
-Клас ParleToken
-
--   [« ParleStack::push](parle-stack.push.html)
-    
--   [ParleErrorInfo »](class.parle-errorinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Parle](book.parle.md)
-    
--   Клас ParleToken
-    
-
+---
+navigation:
+  - parle-stack.push.html: '« ParleStack::push'
+  - class.parle-errorinfo.html: ParleErrorInfo »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleToken
+---
 # Клас ParleToken
 
 (PECL parle >= 0.5.2)

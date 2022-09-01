@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](dba.examples.md)
-    
--   [Функції DBA »](ref.dba.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](dba.examples.md)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - dba.examples.md: « Приклади
+  - ref.dba.md: Функції DBA »
+  - index.md: PHP Manual
+  - dba.examples.md: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 **Приклад #1 DBA приклад**

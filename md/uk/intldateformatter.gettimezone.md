@@ -1,16 +1,11 @@
-Отримує часовий пояс засобу форматування
-
--   [« IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.html)
-    
--   [IntlDateFormatter::isLenient »](intldateformatter.islenient.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Отримує часовий пояс засобу форматування
-    
-
+---
+navigation:
+  - intldateformatter.getcalendarobject.html: '« IntlDateFormatter::getCalendarObject'
+  - intldateformatter.islenient.html: 'IntlDateFormatter::isLenient »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::getTimeZone'
+---
 # IntlDateFormatter::getTimeZone
 
 # datefmtgettimezone

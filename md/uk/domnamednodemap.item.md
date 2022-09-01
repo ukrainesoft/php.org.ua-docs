@@ -1,16 +1,11 @@
-Отримує вузол із заданим індексом
-
--   [« DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.html)
-    
--   [DOMNode »](class.domnode.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNamedNodeMap](class.domnamednodemap.html)
-    
--   Отримує вузол із заданим індексом
-    
-
+---
+navigation:
+  - domnamednodemap.getnameditemns.html: '« DOMNamedNodeMap::getNamedItemNS'
+  - class.domnode.html: DOMNode »
+  - index.html: PHP Manual
+  - class.domnamednodemap.html: DOMNamedNodeMap
+title: 'DOMNamedNodeMap::item'
+---
 # DOMNamedNodeMap::item
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Callback-функція за промовчанням для "to"
-
--   [« UConverter::setSubstChars](uconverter.setsubstchars.html)
-    
--   [UConverter::transcode »](uconverter.transcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Callback-функція за промовчанням для "to"
-    
-
+---
+navigation:
+  - uconverter.setsubstchars.html: '« UConverter::setSubstChars'
+  - uconverter.transcode.html: 'UConverter::transcode »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::toUCallback'
+---
 # UConverter::toUCallback
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

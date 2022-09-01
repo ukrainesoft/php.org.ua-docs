@@ -1,16 +1,11 @@
-Повертає мітки, на яких навчалася модель
-
--   [« SVMModel::construct](svmmodel.construct.html)
-    
--   [SVMModel::getNrClass »](svmmodel.getnrclass.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVMModel](class.svmmodel.html)
-    
--   Повертає мітки, на яких навчалася модель
-    
-
+---
+navigation:
+  - svmmodel.construct.html: '« SVMModel::construct'
+  - svmmodel.getnrclass.html: 'SVMModel::getNrClass »'
+  - index.html: PHP Manual
+  - class.svmmodel.html: SVMModel
+title: 'SVMModel::getLabels'
+---
 # SVMModel::getLabels
 
 (PECL svm >= 0.1.5)

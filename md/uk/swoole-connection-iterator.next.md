@@ -1,16 +1,11 @@
-Переходить до наступного з'єднання
-
--   [« SwooleConnectionIterator::key](swoole-connection-iterator.key.html)
-    
--   [SwooleConnectionIterator::offsetExists »](swoole-connection-iterator.offsetexists.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
-    
--   Переходить до наступного з'єднання
-    
-
+---
+navigation:
+  - swoole-connection-iterator.key.html: '« SwooleConnectionIterator::key'
+  - swoole-connection-iterator.offsetexists.html: 'SwooleConnectionIterator::offsetExists »'
+  - index.md: PHP Manual
+  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+title: 'SwooleConnectionIterator::next'
+---
 # SwooleConnectionIterator::next
 
 (PECL swoole >= 1.9.0)

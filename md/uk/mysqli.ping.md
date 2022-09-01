@@ -1,16 +1,11 @@
-Перевіряє працездатність з'єднання або намагається перепідключитися, якщо з'єднання розірвано
-
--   [« mysqli::options](mysqli.options.md)
-    
--   [mysqli::poll »](mysqli.poll.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Перевіряє працездатність з'єднання або намагається перепідключитися, якщо з'єднання розірвано
-    
-
+---
+navigation:
+  - mysqli.options.md: '« mysqli::options'
+  - mysqli.poll.md: 'mysqli::poll »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::ping'
+---
 # mysqli::ping
 
 # mysqliping

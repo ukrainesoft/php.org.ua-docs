@@ -1,16 +1,11 @@
-Вставляє значення за вказаним індексом
-
--   [« DsSequence::get](ds-sequence.get.html)
-    
--   [ДсSequence::join »](ds-sequence.join.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Вставляє значення за вказаним індексом
-    
-
+---
+navigation:
+  - ds-sequence.get.html: '« DsSequence::get'
+  - ds-sequence.join.html: 'ДсSequence::join »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::insert'
+---
 # ДсSequence::insert
 
 (PECL ds >= 1.0.0)

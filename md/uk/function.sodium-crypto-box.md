@@ -1,16 +1,11 @@
-Шифрування відкритим ключем з автентифікацією
-
--   [« sodiumcryptoboxseedkeypair](function.sodium-crypto-box-seed-keypair.html)
-    
--   [sodiumcryptocoreristretto255add »](function.sodium-crypto-core-ristretto255-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Шифрування відкритим ключем з автентифікацією
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-seed-keypair.html: « sodiumcryptoboxseedkeypair
+  - function.sodium-crypto-core-ristretto255-add.html: sodiumcryptocoreristretto255add »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptobox
+---
 # sodiumcryptobox
 
 (PHP 7> = 7.2.0, PHP 8)

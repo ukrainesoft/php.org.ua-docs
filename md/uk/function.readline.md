@@ -1,16 +1,11 @@
-Читає рядок
-
--   [« readlinewritehistory](function.readline-write-history.html)
-    
--   [Модулі для стиснення та архівації »](refs.compression.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Readline](ref.readline.md)
-    
--   Читає рядок
-    
-
+---
+navigation:
+  - function.readline-write-history.html: « readlinewritehistory
+  - refs.compression.md: Модулі для стиснення та архівації »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readline
+---
 # readline
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

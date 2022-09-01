@@ -1,16 +1,11 @@
-Додає граматичне правило
-
--   [« ParleParser::precedence](parle-parser.precedence.html)
-    
--   [ParleParser::reset »](parle-parser.reset.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Додає граматичне правило
-    
-
+---
+navigation:
+  - parle-parser.precedence.html: '« ParleParser::precedence'
+  - parle-parser.reset.html: 'ParleParser::reset »'
+  - index.html: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::push'
+---
 # ParleParser::push
 
 (PECL parle >= 0.5.1)

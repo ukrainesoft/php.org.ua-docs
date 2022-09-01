@@ -1,16 +1,11 @@
-Подання кольору
-
--   [« UIDrawMatrix::translate](ui-draw-matrix.translate.html)
-    
--   [ОЙDrawColor::construct »](ui-draw-color.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Подання кольору
-    
-
+---
+navigation:
+  - ui-draw-matrix.translate.html: '« UIDrawMatrix::translate'
+  - ui-draw-color.construct.html: 'ОЙDrawColor::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Подання кольору
+---
 # Подання кольору
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Повертає рядок із покажчика gz-файлу та видалити HTML-теги
-
--   [« gzgets](function.gzgets.html)
-    
--   [gzinflate »](function.gzinflate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Повертає рядок із покажчика gz-файлу та видалити HTML-теги
-    
-
+---
+navigation:
+  - function.gzgets.html: « gzgets
+  - function.gzinflate.html: gzinflate »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzgetss
+---
 # gzgetss
 
 (PHP 4, PHP 5, PHP 7)

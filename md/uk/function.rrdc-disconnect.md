@@ -1,16 +1,11 @@
-Закрити будь-які незавершені підключення до демона кешування rrd
-
--   [« rrdxport](function.rrd-xport.html)
-    
--   [RRDCreator »](class.rrdcreator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Закрити будь-які незавершені підключення до демона кешування rrd
-    
-
+---
+navigation:
+  - function.rrd-xport.html: « rrdxport
+  - class.rrdcreator.md: RRDCreator »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdcdisconnect
+---
 # rrdcdisconnect
 
 (PECL rrd >= 1.1.2)

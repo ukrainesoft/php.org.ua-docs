@@ -1,16 +1,11 @@
-Клас Volatile
-
--   [« Pool::submitTo](pool.submitTo.md)
-    
--   [Семафори »](book.sem.md)
-    
--   [PHP Manual](index.md)
-    
--   [pthreads](book.pthreads.md)
-    
--   Клас Volatile
-    
-
+---
+navigation:
+  - pool.submitTo.md: '« Pool::submitTo'
+  - book.sem.md: Семафори »
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Volatile
+---
 # Клас Volatile
 
 (PECL pthreads >= 3.0.0)

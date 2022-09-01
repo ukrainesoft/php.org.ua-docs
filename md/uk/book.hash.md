@@ -1,16 +1,11 @@
-Фреймворк хеш-кодів HASH
-
--   [« randomint](function.random-int.html)
-    
--   [Введение »](intro.hash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Криптографічні модулі](refs.crypto.html)
-    
--   Фреймворк хеш-кодів HASH
-    
-
+---
+navigation:
+  - function.random-int.html: « randomint
+  - intro.hash.html: Введение »
+  - index.html: PHP Manual
+  - refs.crypto.html: Криптографічні модулі
+title: Фреймворк хеш-кодів HASH
+---
 # Фреймворк хеш-кодів HASH
 
 -   [Введение](intro.hash.html)

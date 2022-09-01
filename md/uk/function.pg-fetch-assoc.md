@@ -1,16 +1,11 @@
-Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
-
--   [« pgfetcharray](function.pg-fetch-array.html)
-    
--   [пгfetchobject »](function.pg-fetch-object.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
-    
-
+---
+navigation:
+  - function.pg-fetch-array.html: « pgfetcharray
+  - function.pg-fetch-object.html: пгfetchobject »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгfetchassoc
+---
 # пгfetchassoc
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ pg_fetch_assoc(PgSql\Result $result, ?int $row = null): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

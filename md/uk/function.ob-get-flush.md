@@ -1,16 +1,11 @@
-Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
-
--   [« obgetcontents](function.ob-get-contents.html)
-    
--   [проgetlength »](function.ob-get-length.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
-    
-
+---
+navigation:
+  - function.ob-get-contents.html: « obgetcontents
+  - function.ob-get-length.html: проgetlength »
+  - index.html: PHP Manual
+  - ref.outcontrol.html: Функції контролю виведення
+title: проgetflush
+---
 # проgetflush
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

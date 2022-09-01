@@ -1,16 +1,11 @@
-Інтерфейс Hashable
-
--   [« DsCollection::toArray](ds-collection.toarray.html)
-    
--   [ДсHashable::equals »](ds-hashable.equals.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Інтерфейс Hashable
-    
-
+---
+navigation:
+  - ds-collection.toarray.html: '« DsCollection::toArray'
+  - ds-hashable.equals.html: 'ДсHashable::equals »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Інтерфейс Hashable
+---
 # Інтерфейс Hashable
 
 (No version information available, might only be in Git)

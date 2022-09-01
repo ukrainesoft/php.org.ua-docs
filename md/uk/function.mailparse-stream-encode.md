@@ -1,16 +1,11 @@
-Кодує потік з джерела файлу і пише у файл одержувач.
-
--   [« mailparserfc822parseaddresses](function.mailparse-rfc822-parse-addresses.html)
-    
--   [mailparseuudecodeall »](function.mailparse-uudecode-all.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Кодує потік з джерела файлу і пише у файл одержувач.
-    
-
+---
+navigation:
+  - function.mailparse-rfc822-parse-addresses.html: « mailparserfc822parseaddresses
+  - function.mailparse-uudecode-all.html: mailparseuudecodeall »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsestreamencode
+---
 # mailparsestreamencode
 
 (PECL mailparse >= 0.9.0)

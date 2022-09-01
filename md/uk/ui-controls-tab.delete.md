@@ -1,16 +1,11 @@
-Видалити сторінку
-
--   [« UIControlsTab::append](ui-controls-tab.append.html)
-    
--   [ОЙControlsTab::hasMargin »](ui-controls-tab.hasmargin.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsTab](class.ui-controls-tab.html)
-    
--   Видалити сторінку
-    
-
+---
+navigation:
+  - ui-controls-tab.append.html: '« UIControlsTab::append'
+  - ui-controls-tab.hasmargin.html: 'ОЙControlsTab::hasMargin »'
+  - index.md: PHP Manual
+  - class.ui-controls-tab.html: ОЙControlsTab
+title: 'ОЙControlsTab::delete'
+---
 # ОЙControlsTab::delete
 
 (UI 0.9.9)

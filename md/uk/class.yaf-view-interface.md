@@ -1,16 +1,11 @@
-Клас YafViewInterface
-
--   [« YafActionAbstract::getControllerName](yaf-controller-abstract.getcontrollername.html)
-    
--   [YafViewInterface::assign »](yaf-view-interface.assign.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafViewInterface
-    
-
+---
+navigation:
+  - yaf-controller-abstract.getcontrollername.html: '« YafActionAbstract::getControllerName'
+  - yaf-view-interface.assign.html: 'YafViewInterface::assign »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafViewInterface
+---
 # Клас YafViewInterface
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Список усіх відкритих файлів бази даних
-
--   [« dbakeysplit](function.dba-key-split.html)
-    
--   [dbanextkey »](function.dba-nextkey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції DBA](ref.dba.html)
-    
--   Список усіх відкритих файлів бази даних
-    
-
+---
+navigation:
+  - function.dba-key-split.html: « dbakeysplit
+  - function.dba-nextkey.html: dbanextkey »
+  - index.html: PHP Manual
+  - ref.dba.html: Функції DBA
+title: dbalist
+---
 # dbalist
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

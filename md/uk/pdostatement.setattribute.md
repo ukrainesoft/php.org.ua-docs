@@ -1,16 +1,11 @@
-Встановлює атрибут об'єкту PDOStatement
-
--   [« PDOStatement::rowCount](pdostatement.rowcount.md)
-    
--   [PDOStatement::setFetchMode »](pdostatement.setfetchmode.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Встановлює атрибут об'єкту PDOStatement
-    
-
+---
+navigation:
+  - pdostatement.rowcount.md: '« PDOStatement::rowCount'
+  - pdostatement.setfetchmode.md: 'PDOStatement::setFetchMode »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::setAttribute'
+---
 # PDOStatement::setAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)

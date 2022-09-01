@@ -1,16 +1,11 @@
-Повертає інформацію про посилання
-
--   [« link](function.link.md)
-    
--   [lstat »](function.lstat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає інформацію про посилання
-    
-
+---
+navigation:
+  - function.link.md: « link
+  - function.lstat.md: lstat »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: linkinfo
+---
 # linkinfo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

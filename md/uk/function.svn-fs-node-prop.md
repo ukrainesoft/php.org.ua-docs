@@ -1,16 +1,11 @@
-Повертає значення властивості для вузла
-
--   [« svnфсnodecreatedrev](function.svn-fs-node-created-rev.html)
-    
--   [svnфсpropschanged »](function.svn-fs-props-changed.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає значення властивості для вузла
-    
-
+---
+navigation:
+  - function.svn-fs-node-created-rev.html: « svnфсnodecreatedrev
+  - function.svn-fs-props-changed.html: svnфсpropschanged »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсnodeprop
+---
 # svnфсnodeprop
 
 (PECL svn> = 0.1.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи є змінним рядком
-
--   [« isscalar](function.is-scalar.html)
-    
--   [isset »](function.isset.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевіряє, чи є змінним рядком
-    
-
+---
+navigation:
+  - function.is-scalar.html: « isscalar
+  - function.isset.html: isset »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісstring
+---
 # ісstring
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

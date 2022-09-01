@@ -1,16 +1,11 @@
-Створити пакет ресурсів
-
--   [« ResourceBundle::count](resourcebundle.count.html)
-    
--   [ResourceBundle::getErrorCode »](resourcebundle.geterrorcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [ResourceBundle](class.resourcebundle.html)
-    
--   Створити пакет ресурсів
-    
-
+---
+navigation:
+  - resourcebundle.count.html: '« ResourceBundle::count'
+  - resourcebundle.geterrorcode.html: 'ResourceBundle::getErrorCode »'
+  - index.html: PHP Manual
+  - class.resourcebundle.html: ResourceBundle
+title: 'ResourceBundle::create'
+---
 # ResourceBundle::create
 
 # resourcebundlecreate

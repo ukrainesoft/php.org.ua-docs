@@ -1,16 +1,11 @@
-Розшифрування даних за допомогою відкритого ключа
-
--   [« opensslprivateencrypt](function.openssl-private-encrypt.html)
-    
--   [opensslpublicencrypt »](function.openssl-public-encrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Розшифрування даних за допомогою відкритого ключа
-    
-
+---
+navigation:
+  - function.openssl-private-encrypt.html: « opensslprivateencrypt
+  - function.openssl-public-encrypt.html: opensslpublicencrypt »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslpublicdecrypt
+---
 # opensslpublicdecrypt
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ openssl_public_decrypt(    string $data,    string &$decrypted_data,  
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Дивіться також
 

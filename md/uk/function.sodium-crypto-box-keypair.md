@@ -1,16 +1,11 @@
-Згенерувати випадковим чином секретний ключ та відповідний йому відкритий ключ
-
--   [« sodiumcryptoboxkeypairfromsecretkeyandpublickey](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html)
-    
--   [sodiumcryptoboxopen »](function.sodium-crypto-box-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Згенерувати випадковим чином секретний ключ та відповідний йому відкритий ключ
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html: « sodiumcryptoboxkeypairfromsecretkeyandpublickey
+  - function.sodium-crypto-box-open.html: sodiumcryptoboxopen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxkeypair
+---
 # sodiumcryptoboxkeypair
 
 (PHP 7> = 7.2.0, PHP 8)

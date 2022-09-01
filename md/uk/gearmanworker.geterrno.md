@@ -1,16 +1,11 @@
-Отримання номера помилки
-
--   [« GearmanWorker::error](gearmanworker.error.md)
-    
--   [GearmanWorker::options »](gearmanworker.options.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Отримання номера помилки
-    
-
+---
+navigation:
+  - gearmanworker.error.md: '« GearmanWorker::error'
+  - gearmanworker.options.md: 'GearmanWorker::options »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::getErrno'
+---
 # GearmanWorker::getErrno
 
 (PECL gearman >= 0.5.0)

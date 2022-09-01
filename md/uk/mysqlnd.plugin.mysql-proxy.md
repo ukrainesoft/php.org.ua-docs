@@ -1,16 +1,11 @@
-Порівняння плагінів mysqlnd з MySQL Proxy
-
--   [« API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.md)
-    
--   [Получение API плагинов mysqlnd »](mysqlnd.plugin.obtaining.md)
-    
--   [PHP Manual](index.md)
-    
--   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.md)
-    
--   Порівняння плагінів mysqlnd з MySQL Proxy
-    
-
+---
+navigation:
+  - mysqlnd.plugin.md: « API для плагинов к встроенному драйверу MySQL
+  - mysqlnd.plugin.obtaining.md: Получение API плагинов mysqlnd »
+  - index.md: PHP Manual
+  - mysqlnd.plugin.md: API для плагинов к встроенному драйверу MySQL
+title: Порівняння плагінів mysqlnd з MySQL Proxy
+---
 ## Порівняння плагінів mysqlnd з MySQL Proxy
 
 Плагіни `mysqlnd` і MySQL Proxy – це різні технології, що використовують різні підходи. Обидва варіанти є відповідними інструментами для вирішення різноманітних стандартних завдань, таких як балансування навантаження, моніторинг та покращення продуктивності. Важливою відмінністю є те, що MySQL Proxy працює з усіма клієнтами MySQL, тоді як плагіни `mysqlnd` - Тільки для PHP-додатків.

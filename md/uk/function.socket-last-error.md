@@ -1,16 +1,11 @@
-Повертає останню помилку на сокеті
-
--   [« socketimportstream](function.socket-import-stream.html)
-    
--   [socketlisten »](function.socket-listen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Повертає останню помилку на сокеті
-    
-
+---
+navigation:
+  - function.socket-import-stream.html: « socketimportstream
+  - function.socket-listen.html: socketlisten »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketlasterror
+---
 # socketlasterror
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -39,10 +34,10 @@ socket_last_error(?Socket $socket = null): int
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
-|        | `socket` тепер допускає значення null.                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер допускає значення null. |
 
 ### Приклади
 

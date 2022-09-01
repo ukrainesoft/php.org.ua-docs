@@ -1,16 +1,11 @@
-goto
-
--   [« includeonce](function.include-once.html)
-    
--   [Функції »](language.functions.md)
-    
--   [PHP Manual](index.md)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   goto
-    
-
+---
+navigation:
+  - function.include-once.html: « includeonce
+  - language.functions.md: Функції »
+  - index.md: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: goto
+---
 ## goto
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

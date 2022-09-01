@@ -1,16 +1,11 @@
-Отримати останнє повідомлення про помилку
-
--   [« rrdcreate](function.rrd-create.html)
-    
--   [rrdfetch »](function.rrd-fetch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Отримати останнє повідомлення про помилку
-    
-
+---
+navigation:
+  - function.rrd-create.html: « rrdcreate
+  - function.rrd-fetch.html: rrdfetch »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrderror
+---
 # rrderror
 
 (PECL rrd >= 0.9.0)

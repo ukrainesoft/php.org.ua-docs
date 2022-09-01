@@ -1,16 +1,11 @@
-Підключається до диспетчера служб
-
--   [« ibaseserverinfo](function.ibase-server-info.html)
-    
--   [ibaseservicedetach »](function.ibase-service-detach.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Підключається до диспетчера служб
-    
-
+---
+navigation:
+  - function.ibase-server-info.html: « ibaseserverinfo
+  - function.ibase-service-detach.html: ibaseservicedetach »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseserviceattach
+---
 # ibaseserviceattach
 
 (PHP 5, PHP 7 < 7.4.0)

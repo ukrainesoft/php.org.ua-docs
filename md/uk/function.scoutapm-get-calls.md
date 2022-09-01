@@ -1,16 +1,11 @@
-Повертає список викликів, що відбулися
-
--   [« Функции Scoutapm](ref.scoutapm.md)
-    
--   [scoutapmlistinstrumentedfunctions »](function.scoutapm-list-instrumented-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Scoutapm](ref.scoutapm.md)
-    
--   Повертає список викликів, що відбулися
-    
-
+---
+navigation:
+  - ref.scoutapm.md: « Функции Scoutapm
+  - function.scoutapm-list-instrumented-functions.html: scoutapmlistinstrumentedfunctions »
+  - index.md: PHP Manual
+  - ref.scoutapm.md: Функции Scoutapm
+title: scoutapmgetcalls
+---
 # scoutapmgetcalls
 
 (PECL scoutapm >= 1.0.0)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.scoutapm.md)
-    
--   [Вимоги »](scoutapm.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [ScoutAPM](book.scoutapm.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.scoutapm.md: « Введение
+  - scoutapm.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.scoutapm.md: ScoutAPM
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

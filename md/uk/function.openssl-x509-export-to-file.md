@@ -1,16 +1,11 @@
-Експортує сертифікат у файл
-
--   [« opensslx509checkpurpose](function.openssl-x509-checkpurpose.html)
-    
--   [opensslx509export »](function.openssl-x509-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Експортує сертифікат у файл
-    
-
+---
+navigation:
+  - function.openssl-x509-checkpurpose.html: « opensslx509checkpurpose
+  - function.openssl-x509-export.html: opensslx509export »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslx509exportтоfile
+---
 # opensslx509exportтоfile
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -45,6 +40,6 @@ openssl_x509_export_to_file(OpenSSLCertificate|string $certificate, string $outp
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                       |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

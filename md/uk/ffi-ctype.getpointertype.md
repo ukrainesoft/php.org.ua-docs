@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getName](ffi-ctype.getname.html)
-    
--   [FFICType::getSize »](ffi-ctype.getsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getname.html: '« FFICType::getName'
+  - ffi-ctype.getsize.html: 'FFICType::getSize »'
+  - index.html: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getPointerType'
+---
 # FFICType::getPointerType
 
 (PHP 8> = 8.1.0)

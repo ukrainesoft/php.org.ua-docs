@@ -1,16 +1,11 @@
-Деструктор
-
--   [« OAuth::construct](oauth.construct.md)
-    
--   [OAuth::disableDebug »](oauth.disabledebug.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Деструктор
-    
-
+---
+navigation:
+  - oauth.construct.md: '« OAuth::construct'
+  - oauth.disabledebug.md: 'OAuth::disableDebug »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::destruct'
+---
 # OAuth::destruct
 
 (PECL OAuth >= 0.99.9)

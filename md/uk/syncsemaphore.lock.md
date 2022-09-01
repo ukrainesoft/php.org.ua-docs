@@ -1,16 +1,11 @@
-Зменшує рахунок семафору або чекає
-
--   [« SyncSemaphore::construct](syncsemaphore.construct.md)
-    
--   [SyncSemaphore::unlock »](syncsemaphore.unlock.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncSemaphore](class.syncsemaphore.md)
-    
--   Зменшує рахунок семафору або чекає
-    
-
+---
+navigation:
+  - syncsemaphore.construct.md: '« SyncSemaphore::construct'
+  - syncsemaphore.unlock.md: 'SyncSemaphore::unlock »'
+  - index.md: PHP Manual
+  - class.syncsemaphore.md: SyncSemaphore
+title: 'SyncSemaphore::lock'
+---
 # SyncSemaphore::lock
 
 (PECL sync >= 1.0.0)

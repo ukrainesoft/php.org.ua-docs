@@ -1,16 +1,11 @@
-Генерує XML для методу запиту
-
--   [« xmlrpcdecode](function.xmlrpc-decode.html)
-    
--   [xmlrpcencode »](function.xmlrpc-encode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції XML-RPC](ref.xmlrpc.md)
-    
--   Генерує XML для методу запиту
-    
-
+---
+navigation:
+  - function.xmlrpc-decode.html: « xmlrpcdecode
+  - function.xmlrpc-encode.html: xmlrpcencode »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
+title: xmlrpcencoderequest
+---
 # xmlrpcencoderequest
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

@@ -1,16 +1,11 @@
-Закриває асинхронне з'єднання MySQL
-
--   [« SwooleMySQL](class.swoole-mysql.html)
-    
--   [SwooleMySQL::connect »](swoole-mysql.connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleMySQL](class.swoole-mysql.html)
-    
--   Закриває асинхронне з'єднання MySQL
-    
-
+---
+navigation:
+  - class.swoole-mysql.html: « SwooleMySQL
+  - swoole-mysql.connect.html: 'SwooleMySQL::connect »'
+  - index.md: PHP Manual
+  - class.swoole-mysql.html: SwooleMySQL
+title: 'SwooleMySQL::close'
+---
 # SwooleMySQL::close
 
 (PECL swoole >= 1.9.0)

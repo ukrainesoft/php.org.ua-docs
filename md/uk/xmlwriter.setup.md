@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xmlwriter.html)
-    
--   [Вимоги »](xmlwriter.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](book.xmlwriter.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xmlwriter.html: « Введение
+  - xmlwriter.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.xmlwriter.html: XMLWriter
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

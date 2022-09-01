@@ -1,16 +1,11 @@
-Повертає початкову дату періоду
-
--   [« DatePeriod::getRecurrences](dateperiod.getrecurrences.html)
-    
--   [Функції дати та часу »](ref.datetime.html)
-    
--   [PHP Manual](index.html)
-    
--   [DatePeriod](class.dateperiod.html)
-    
--   Повертає початкову дату періоду
-    
-
+---
+navigation:
+  - dateperiod.getrecurrences.html: '« DatePeriod::getRecurrences'
+  - ref.datetime.html: Функції дати та часу »
+  - index.html: PHP Manual
+  - class.dateperiod.html: DatePeriod
+title: 'DatePeriod::getStartDate'
+---
 # DatePeriod::getStartDate
 
 (PHP 5> = 5.6.5, PHP 7, PHP 8)

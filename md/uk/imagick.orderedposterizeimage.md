@@ -1,16 +1,11 @@
-Виконує впорядкований дизеринг
-
--   [« Imagick::optimizeImageLayers](imagick.optimizeimagelayers.md)
-    
--   [Imagick::paintFloodfillImage »](imagick.paintfloodfillimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Виконує впорядкований дизеринг
-    
-
+---
+navigation:
+  - imagick.optimizeimagelayers.md: '« Imagick::optimizeImageLayers'
+  - imagick.paintfloodfillimage.md: 'Imagick::paintFloodfillImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::orderedPosterizeImage'
+---
 # Imagick::orderedPosterizeImage
 
 (PECL imagick 2> = 2.2.2, PECL imagick 3)

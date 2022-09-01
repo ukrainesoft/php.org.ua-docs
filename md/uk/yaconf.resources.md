@@ -1,14 +1,9 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](yaconf.configuration.html)
-    
--   [Обумовлені константи »](yaconf.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](yaconf.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - yaconf.configuration.html: « Налаштування під час виконання
+  - yaconf.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - yaconf.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів

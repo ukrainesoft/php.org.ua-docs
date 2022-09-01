@@ -1,16 +1,11 @@
-Клас Collator
-
--   [« Основи використання модуля](intl.examples.basic.html)
-    
--   [Collator::asort »](collator.asort.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Клас Collator
-    
-
+---
+navigation:
+  - intl.examples.basic.html: « Основи використання модуля
+  - collator.asort.html: 'Collator::asort »'
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Клас Collator
+---
 # Клас Collator
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

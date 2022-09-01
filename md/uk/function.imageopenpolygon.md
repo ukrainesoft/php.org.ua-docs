@@ -1,16 +1,11 @@
-Малює відкритий полігон
-
--   [« imageloadfont](function.imageloadfont.html)
-    
--   [imagepalettecopy »](function.imagepalettecopy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Малює відкритий полігон
-    
-
+---
+navigation:
+  - function.imageloadfont.html: « imageloadfont
+  - function.imagepalettecopy.html: imagepalettecopy »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imageopenpolygon
+---
 # imageopenpolygon
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -61,10 +56,10 @@ imageopenpolygon(    GdImage $image,    array $points,    int $num_p
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | Параметр `num_points` оголошено застарілим.                                                      |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `num_points` оголошено застарілим. |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

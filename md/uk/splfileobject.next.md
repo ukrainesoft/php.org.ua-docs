@@ -1,16 +1,11 @@
-Читати наступний рядок
-
--   [« SplFileObject::key](splfileobject.key.md)
-    
--   [SplFileObject::rewind »](splfileobject.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Читати наступний рядок
-    
-
+---
+navigation:
+  - splfileobject.key.md: '« SplFileObject::key'
+  - splfileobject.rewind.md: 'SplFileObject::rewind »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::next'
+---
 # SplFileObject::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

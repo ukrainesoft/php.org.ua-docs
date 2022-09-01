@@ -1,16 +1,11 @@
-Конструктор DocResult
-
--   [« mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
-    
--   [DocResult::fetchAll »](mysql-xdevapi-docresult.fetchall.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
-    
--   Конструктор DocResult
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-docresult.html: « mysqlxdevapiDocResult
+  - mysql-xdevapi-docresult.fetchall.html: 'DocResult::fetchAll »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+title: 'DocResult::construct'
+---
 # DocResult::construct
 
 (No version information available, might only be in Git)

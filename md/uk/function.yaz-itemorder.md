@@ -1,16 +1,11 @@
-Підготовка запиту до Z39.50 Item Order з пакетом ILL-Request
-
--   [« yazhits](function.yaz-hits.html)
-    
--   [yazpresent »](function.yaz-present.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Підготовка запиту до Z39.50 Item Order з пакетом ILL-Request
-    
-
+---
+navigation:
+  - function.yaz-hits.html: « yazhits
+  - function.yaz-present.html: yazpresent »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazitemorder
+---
 # yazitemorder
 
 (PHP 4> = 4.0.5, PECL yaz> = 0.9.0)

@@ -1,16 +1,11 @@
-Повертає true, якщо операція пройшла успішно або false у противному випадку
-
--   [« svnфсbegintxn2](function.svn-fs-begin-txn2.html)
-    
--   [svnфсcheckpath »](function.svn-fs-check-path.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Повертає true, якщо операція пройшла успішно або false у противному випадку
-    
-
+---
+navigation:
+  - function.svn-fs-begin-txn2.html: « svnфсbegintxn2
+  - function.svn-fs-check-path.html: svnфсcheckpath »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnфсchangenodeprop
+---
 # svnфсchangenodeprop
 
 (PECL svn >= 0.2.0)

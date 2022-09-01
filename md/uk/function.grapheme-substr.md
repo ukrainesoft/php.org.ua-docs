@@ -1,16 +1,11 @@
-Повертає частину рядка
-
--   [« graphemestrstr](function.grapheme-strstr.html)
-    
--   [Функції IDN »](ref.intl.idn.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Grapheme](ref.intl.grapheme.html)
-    
--   Повертає частину рядка
-    
-
+---
+navigation:
+  - function.grapheme-strstr.html: « graphemestrstr
+  - ref.intl.idn.html: Функції IDN »
+  - index.html: PHP Manual
+  - ref.intl.grapheme.html: Функции Grapheme
+title: graphemesubstr
+---
 # graphemesubstr
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
@@ -47,9 +42,9 @@ grapheme_substr(string $string, int $offset, ?int $length = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція тепер послідовно притискає зсуви, що виходять за межі, до кордону рядка. Раніше в деяких випадках замість порожнього рядка поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер послідовно притискає зсуви, що виходять за межі, до кордону рядка. Раніше в деяких випадках замість порожнього рядка поверталося значення **`false`** |
 
 ### Приклади
 

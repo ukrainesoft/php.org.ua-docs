@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.zlib.html)
-    
--   [Вимоги »](zlib.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zlib](book.zlib.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.zlib.html: « Введение
+  - zlib.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.zlib.html: Zlib
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Визначає, чи лежить точка на кривій.
-
--   [« sodiumcryptocoreristretto255fromhash](function.sodium-crypto-core-ristretto255-from-hash.html)
-    
--   [sodiumcryptocoreristretto255random »](function.sodium-crypto-core-ristretto255-random.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Визначає, чи лежить точка на кривій.
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-from-hash.html: « sodiumcryptocoreristretto255fromhash
+  - function.sodium-crypto-core-ristretto255-random.html: sodiumcryptocoreristretto255random »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255ісvalidpoint
+---
 # sodiumcryptocoreristretto255ісvalidpoint
 
 (PHP 8> = 8.1.0)

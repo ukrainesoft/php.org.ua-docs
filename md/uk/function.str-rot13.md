@@ -1,16 +1,11 @@
-Виконує перетворення ROT13 над рядком
-
--   [« strreplace](function.str-replace.html)
-    
--   [strshuffle »](function.str-shuffle.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Виконує перетворення ROT13 над рядком
-    
-
+---
+navigation:
+  - function.str-replace.html: « strreplace
+  - function.str-shuffle.html: strshuffle »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strrot13
+---
 # strrot13
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

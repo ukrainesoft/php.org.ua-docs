@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](event.configuration.md)
-    
--   [Приклади »](event.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](event.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - event.configuration.md: « Налаштування під час виконання
+  - event.examples.md: Приклади »
+  - index.md: PHP Manual
+  - event.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

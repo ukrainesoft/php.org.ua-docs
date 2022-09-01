@@ -1,16 +1,11 @@
-Відкриває файловий покажчик процесу
-
--   [« pclose](function.pclose.md)
-    
--   [readfile »](function.readfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Відкриває файловий покажчик процесу
-    
-
+---
+navigation:
+  - function.pclose.md: « pclose
+  - function.readfile.md: readfile »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: popen
+---
 # popen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

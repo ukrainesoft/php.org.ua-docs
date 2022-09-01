@@ -1,16 +1,11 @@
-Знімає блокування, встановлене EventBuffer::lock
-
--   [« EventBuffer::unfreeze](eventbuffer.unfreeze.md)
-    
--   [EventBuffer::write »](eventbuffer.write.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Знімає блокування, встановлене EventBuffer::lock
-    
-
+---
+navigation:
+  - eventbuffer.unfreeze.md: '« EventBuffer::unfreeze'
+  - eventbuffer.write.md: 'EventBuffer::write »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::unlock'
+---
 # EventBuffer::unlock
 
 (PECL event >= 1.2.6-beta)

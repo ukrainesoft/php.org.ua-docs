@@ -1,16 +1,11 @@
-Повертає трасування стека
-
--   [« Throwable::getLine](throwable.getline.md)
-    
--   [Throwable::getTraceAsString »](throwable.gettraceasstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Throwable](class.throwable.md)
-    
--   Повертає трасування стека
-    
-
+---
+navigation:
+  - throwable.getline.md: '« Throwable::getLine'
+  - throwable.gettraceasstring.md: 'Throwable::getTraceAsString »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getTrace'
+---
 # Throwable::getTrace
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Eio
-
--   [« Модули для управления процессами программ](refs.fileprocess.process.html)
-    
--   [Введение »](intro.eio.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
-    
--   Eio
-    
-
+---
+navigation:
+  - refs.fileprocess.process.html: « Модули для управления процессами программ
+  - intro.eio.html: Введение »
+  - index.html: PHP Manual
+  - refs.fileprocess.process.html: Модули для управления процессами программ
+title: Eio
+---
 # Eio
 
 -   [Введение](intro.eio.html)

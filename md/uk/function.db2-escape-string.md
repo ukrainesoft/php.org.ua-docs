@@ -1,16 +1,11 @@
-Використовується для екранування деяких символів
-
--   [« db2cursortype](function.db2-cursor-type.html)
-    
--   [db2exec »](function.db2-exec.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Використовується для екранування деяких символів
-    
-
+---
+navigation:
+  - function.db2-cursor-type.html: « db2cursortype
+  - function.db2-exec.html: db2exec »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2escapestring
+---
 # db2escapestring
 
 (PECL ibmdb2> = 1.6.0)

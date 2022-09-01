@@ -1,16 +1,11 @@
-Повертає початкову позицію наступного збігу з регулярним виразом
-
--   [« mberegreplace](function.mb-ereg-replace.html)
-    
--   [мбeregsearchgetregs »](function.mb-ereg-search-getregs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Повертає початкову позицію наступного збігу з регулярним виразом
-    
-
+---
+navigation:
+  - function.mb-ereg-replace.html: « mberegreplace
+  - function.mb-ereg-search-getregs.html: мбeregsearchgetregs »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбeregsearchgetpos
+---
 # мбeregsearchgetpos
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

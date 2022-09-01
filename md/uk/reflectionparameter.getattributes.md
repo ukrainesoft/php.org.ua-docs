@@ -1,16 +1,11 @@
-Отримує атрибути
-
--   [« ReflectionParameter::export](reflectionparameter.export.md)
-    
--   [ReflectionParameter::getClass »](reflectionparameter.getclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Отримує атрибути
-    
-
+---
+navigation:
+  - reflectionparameter.export.md: '« ReflectionParameter::export'
+  - reflectionparameter.getclass.md: 'ReflectionParameter::getClass »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getAttributes'
+---
 # ReflectionParameter::getAttributes
 
 (PHP 8)

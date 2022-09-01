@@ -1,16 +1,11 @@
-Повертає MD5-хеш файлу
-
--   [« ltrim](function.ltrim.md)
-    
--   [md5 »](function.md5.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає MD5-хеш файлу
-    
-
+---
+navigation:
+  - function.ltrim.md: « ltrim
+  - function.md5.md: md5 »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: md5file
+---
 # md5file
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

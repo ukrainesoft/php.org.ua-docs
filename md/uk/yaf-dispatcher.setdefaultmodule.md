@@ -1,16 +1,11 @@
-Змінює стандартне ім'я модуля
-
--   [« YafDispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.html)
-    
--   [YafDispatcher::setErrorHandler »](yaf-dispatcher.seterrorhandler.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Змінює стандартне ім'я модуля
-    
-
+---
+navigation:
+  - yaf-dispatcher.setdefaultcontroller.html: '« YafDispatcher::setDefaultController'
+  - yaf-dispatcher.seterrorhandler.html: 'YafDispatcher::setErrorHandler »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::setDefaultModule'
+---
 # YafDispatcher::setDefaultModule
 
 (Yaf >=1.0.0)

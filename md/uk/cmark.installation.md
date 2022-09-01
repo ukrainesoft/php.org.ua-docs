@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](cmark.requirements.md)
-    
--   [CommonMarkNodeDocument »](class.commonmark-node-document.html)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](cmark.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - cmark.requirements.md: « Вимоги
+  - class.commonmark-node-document.html: CommonMarkNodeDocument »
+  - index.md: PHP Manual
+  - cmark.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Релізи модуля CommonMark розміщуються в PECL, а джерело - на [» github](https://github.com/krakjoe/cmark), найпростіший шлях для встановлення - за допомогою PECL: [» https://pecl.php.net/package/cmark](https://pecl.php.net/package/cmark)

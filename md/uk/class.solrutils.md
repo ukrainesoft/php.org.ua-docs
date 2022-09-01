@@ -1,16 +1,11 @@
-Клас SolrUtils
-
--   [« Приклади](solr.examples.md)
-    
--   [SolrUtils::digestXmlResponse »](solrutils.digestxmlresponse.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrUtils
-    
-
+---
+navigation:
+  - solr.examples.md: « Приклади
+  - solrutils.digestxmlresponse.md: 'SolrUtils::digestXmlResponse »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrUtils
+---
 # Клас SolrUtils
 
 (PECL solr> = 0.9.2)

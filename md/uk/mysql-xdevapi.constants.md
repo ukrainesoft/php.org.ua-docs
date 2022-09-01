@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Складання / Компіляція з вихідного коду](mysql-xdevapi.build.html)
-    
--   [Список изменений »](changelog.mysql_xdevapi.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - mysql-xdevapi.build.html: « Складання / Компіляція з вихідного коду
+  - changelog.mysql_xdevapi.html: Список изменений »
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

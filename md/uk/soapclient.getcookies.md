@@ -1,16 +1,11 @@
-Отримати список cookies
-
--   [« SoapClient::doRequest](soapclient.dorequest.html)
-    
--   [SoapClient::getFunctions »](soapclient.getfunctions.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapClient](class.soapclient.html)
-    
--   Отримати список cookies
-    
-
+---
+navigation:
+  - soapclient.dorequest.html: '« SoapClient::doRequest'
+  - soapclient.getfunctions.html: 'SoapClient::getFunctions »'
+  - index.html: PHP Manual
+  - class.soapclient.html: SoapClient
+title: 'SoapClient::getCookies'
+---
 # SoapClient::getCookies
 
 (PHP 5> = 5.4.30, PHP 7, PHP 8)

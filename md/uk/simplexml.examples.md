@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](simplexml.constants.md)
-    
--   [Базовое использование SimpleXML »](simplexml.examples-basic.html)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXML](book.simplexml.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - simplexml.constants.md: « Обумовлені константи
+  - simplexml.examples-basic.html: Базовое использование SimpleXML »
+  - index.md: PHP Manual
+  - book.simplexml.md: SimpleXML
+title: Приклади
+---
 # Приклади
 
 ## Зміст

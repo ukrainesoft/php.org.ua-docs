@@ -1,16 +1,11 @@
-Повертає частину рядка, що збіглася з регулярним виразом.
-
--   [« mberegsearchpos](function.mb-ereg-search-pos.html)
-    
--   [мбeregsearchsetpos »](function.mb-ereg-search-setpos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Повертає частину рядка, що збіглася з регулярним виразом.
-    
-
+---
+navigation:
+  - function.mb-ereg-search-pos.html: « mberegsearchpos
+  - function.mb-ereg-search-setpos.html: мбeregsearchsetpos »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбeregsearchregs
+---
 # мбeregsearchregs
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ mb_ereg_search_regs(?string $pattern = null, ?string $options = null): array|fal
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `pattern` і `options` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `pattern` і `options` тепер допускають значення null. |
 
 ### Примітки
 

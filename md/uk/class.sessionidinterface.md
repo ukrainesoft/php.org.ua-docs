@@ -1,16 +1,11 @@
-Інтерфейс SessionIdInterface
-
--   [« SessionHandlerInterface::write](sessionhandlerinterface.write.md)
-    
--   [SessionIdInterface::createsid »](sessionidinterface.create-sid.html)
-    
--   [PHP Manual](index.md)
-    
--   [Сессии](book.session.md)
-    
--   Інтерфейс SessionIdInterface
-    
-
+---
+navigation:
+  - sessionhandlerinterface.write.md: '« SessionHandlerInterface::write'
+  - sessionidinterface.create-sid.html: 'SessionIdInterface::createsid »'
+  - index.md: PHP Manual
+  - book.session.md: Сессии
+title: Інтерфейс SessionIdInterface
+---
 # Інтерфейс SessionIdInterface
 
 (PHP 5> = 5.5.1, PHP 7, PHP 8)

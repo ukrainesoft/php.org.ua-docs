@@ -1,16 +1,11 @@
-Видаляє одне з полів, що використовуються для виділення
-
--   [« SolrQuery::removeFilterQuery](solrquery.removefilterquery.md)
-    
--   [SolrQuery::removeMltField »](solrquery.removemltfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Видаляє одне з полів, що використовуються для виділення
-    
-
+---
+navigation:
+  - solrquery.removefilterquery.md: '« SolrQuery::removeFilterQuery'
+  - solrquery.removemltfield.md: 'SolrQuery::removeMltField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeHighlightField'
+---
 # SolrQuery::removeHighlightField
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-xattr
-
--   [« inotifyрмwatch](function.inotify-rm-watch.html)
-    
--   [Введение »](intro.xattr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
-    
--   xattr
-    
-
+---
+navigation:
+  - function.inotify-rm-watch.html: « inotifyрмwatch
+  - intro.xattr.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.file.md: Модулі для роботи з файловою системою
+title: xattr
+---
 # xattr
 
 -   [Введение](intro.xattr.md)

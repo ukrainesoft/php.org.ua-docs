@@ -1,16 +1,11 @@
-Конструктор класу YafApplication
-
--   [« YafApplication::clearLastError](yaf-application.clearlasterror.html)
-    
--   [YafApplication::destruct »](yaf-application.destruct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Конструктор класу YafApplication
-    
-
+---
+navigation:
+  - yaf-application.clearlasterror.html: '« YafApplication::clearLastError'
+  - yaf-application.destruct.html: 'YafApplication::destruct »'
+  - index.md: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::construct'
+---
 # YafApplication::construct
 
 (Yaf >=1.0.0)

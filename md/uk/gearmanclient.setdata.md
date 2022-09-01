@@ -1,16 +1,11 @@
-Встановити дані програми (застарілий метод)
-
--   [« GearmanClient::setCreatedCallback](gearmanclient.setcreatedcallback.md)
-    
--   [GearmanClient::setDataCallback »](gearmanclient.setdatacallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Встановити дані програми (застарілий метод)
-    
-
+---
+navigation:
+  - gearmanclient.setcreatedcallback.md: '« GearmanClient::setCreatedCallback'
+  - gearmanclient.setdatacallback.md: 'GearmanClient::setDataCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setData'
+---
 # GearmanClient::setData
 
 (PECL gearman <= 0.5.0)

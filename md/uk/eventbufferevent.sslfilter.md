@@ -1,16 +1,11 @@
-Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
-
--   [« EventBufferEvent::sslError](eventbufferevent.sslerror.md)
-    
--   [EventBufferEvent::sslGetCipherInfo »](eventbufferevent.sslgetcipherinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
-    
-
+---
+navigation:
+  - eventbufferevent.sslerror.md: '« EventBufferEvent::sslError'
+  - eventbufferevent.sslgetcipherinfo.md: 'EventBufferEvent::sslGetCipherInfo »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::sslFilter'
+---
 # EventBufferEvent::sslFilter
 
 (PECL event >= 1.2.6-beta)

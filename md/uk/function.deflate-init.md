@@ -1,16 +1,11 @@
-Ініціалізувати контекст інкрементального стиснення
-
--   [« deflateadd](function.deflate-add.html)
-    
--   [gzclose »](function.gzclose.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Ініціалізувати контекст інкрементального стиснення
-    
-
+---
+navigation:
+  - function.deflate-add.html: « deflateadd
+  - function.gzclose.md: gzclose »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: deflateinit
+---
 # deflateinit
 
 (PHP 7, PHP 8)
@@ -69,9 +64,9 @@ dictionary
 
 ### список змін
 
-| Версия | Описание                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [DeflateContext](class.deflatecontext.md); раніше, повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [DeflateContext](class.deflatecontext.md); раніше, повертався ресурс (resource). |
 
 ### Дивіться також
 

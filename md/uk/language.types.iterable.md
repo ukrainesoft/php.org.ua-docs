@@ -1,16 +1,11 @@
-Ітеровані
-
--   [« Масиви](language.types.array.md)
-    
--   [Об'єкти »](language.types.object.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи](language.types.md)
-    
--   Ітеровані
-    
-
+---
+navigation:
+  - language.types.array.md: « Масиви
+  - language.types.object.md: Об'єкти »
+  - index.md: PHP Manual
+  - language.types.md: Типи
+title: Ітеровані
+---
 ## Ітеровані
 
 [Iterable](language.types.iterable.md) - псевдотип, введений у PHP 7.1. Він приймає будь-який масив (array) або об'єкт, що реалізує інтерфейс [Traversable](class.traversable.md). Обидва ці типи ітеруються за допомогою [foreach](control-structures.foreach.html) і можуть бути використані з **yield from** в [генераторах](language.generators.md)

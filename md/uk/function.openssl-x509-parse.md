@@ -1,16 +1,11 @@
-Розібрати сертифікат X509 та отримати масив з даними про нього
-
--   [« opensslx509free](function.openssl-x509-free.html)
-    
--   [opensslx509read »](function.openssl-x509-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Розібрати сертифікат X509 та отримати масив з даними про нього
-    
-
+---
+navigation:
+  - function.openssl-x509-free.html: « opensslx509free
+  - function.openssl-x509-read.html: opensslx509read »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslx509parse
+---
 # opensslx509parse
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -41,6 +36,6 @@ openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = t
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

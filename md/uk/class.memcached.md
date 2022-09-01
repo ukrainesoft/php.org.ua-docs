@@ -1,16 +1,11 @@
-Клас Memcached
-
--   [« Поддержка сессий](memcached.sessions.html)
-    
--   [Memcached::add »](memcached.add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](book.memcached.html)
-    
--   Клас Memcached
-    
-
+---
+navigation:
+  - memcached.sessions.html: « Поддержка сессий
+  - memcached.add.html: 'Memcached::add »'
+  - index.html: PHP Manual
+  - book.memcached.html: Memcached
+title: Клас Memcached
+---
 # Клас Memcached
 
 (PECL memcached >= 0.1.0)

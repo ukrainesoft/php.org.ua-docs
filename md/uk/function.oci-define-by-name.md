@@ -1,16 +1,11 @@
-Порівняє змінну PHP стовпцю результату запиту
-
--   [« ociconnect](function.oci-connect.html)
-    
--   [ocierror »](function.oci-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Порівняє змінну PHP стовпцю результату запиту
-    
-
+---
+navigation:
+  - function.oci-connect.html: « ociconnect
+  - function.oci-error.html: ocierror »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocidefineбname
+---
 # ocidefineбname
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

@@ -1,16 +1,11 @@
-Встановлює межу усунення
-
--   [« TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.html)
-    
--   [TableSelect::orderby »](mysql-xdevapi-tableselect.orderby.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Встановлює межу усунення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.lockshared.html: '« TableSelect::lockShared'
+  - mysql-xdevapi-tableselect.orderby.html: 'TableSelect::orderby »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::offset'
+---
 # TableSelect::offset
 
 (No version information available, might only be in Git)

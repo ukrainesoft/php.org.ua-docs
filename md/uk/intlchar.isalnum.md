@@ -1,16 +1,11 @@
-Перевірити, чи є символ буквою чи цифрою
-
--   [« IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.md)
-    
--   [IntlChar::isalpha »](intlchar.isalpha.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ буквою чи цифрою
-    
-
+---
+navigation:
+  - intlchar.hasbinaryproperty.md: '« IntlChar::hasBinaryProperty'
+  - intlchar.isalpha.md: 'IntlChar::isalpha »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isalnum'
+---
 # IntlChar::isalnum
 
 (PHP 7, PHP 8)

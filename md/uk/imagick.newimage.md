@@ -1,16 +1,11 @@
-Створює нове зображення
-
--   [« Imagick::negateImage](imagick.negateimage.html)
-    
--   [Imagick::newPseudoImage »](imagick.newpseudoimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Створює нове зображення
-    
-
+---
+navigation:
+  - imagick.negateimage.html: '« Imagick::negateImage'
+  - imagick.newpseudoimage.html: 'Imagick::newPseudoImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::newImage'
+---
 # Imagick::newImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -53,8 +48,8 @@ public Imagick::newImage(    int $cols,    int $rows,    mixed $back
 
 ### список змін
 
-| Версия             | Описание                                                                                                        |
-|--------------------|-----------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер допускається рядок, що представляє колір, як третій параметр. Раніше допускався лише об'єкт ImagickPixel. |
 
 ### Приклади

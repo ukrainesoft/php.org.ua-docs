@@ -1,16 +1,11 @@
-Переказує число з десяткової системи числення у вісімкову
-
--   [« dechex](function.dechex.md)
-    
--   [deg2rad »](function.deg2rad.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Переказує число з десяткової системи числення у вісімкову
-    
-
+---
+navigation:
+  - function.dechex.md: « dechex
+  - function.deg2rad.md: deg2rad »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: decoct
+---
 # decoct
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

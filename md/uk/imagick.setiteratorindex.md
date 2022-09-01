@@ -1,16 +1,11 @@
-Встановлює позицію ітератора
-
--   [« Imagick::setInterlaceScheme](imagick.setinterlacescheme.md)
-    
--   [Imagick::setLastIterator »](imagick.setlastiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює позицію ітератора
-    
-
+---
+navigation:
+  - imagick.setinterlacescheme.md: '« Imagick::setInterlaceScheme'
+  - imagick.setlastiterator.md: 'Imagick::setLastIterator »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setIteratorIndex'
+---
 # Imagick::setIteratorIndex
 
 (PECL imagick 2, PECL imagick 3)

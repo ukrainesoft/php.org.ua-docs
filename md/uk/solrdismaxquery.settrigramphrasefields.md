@@ -1,16 +1,11 @@
-Безпосередньо встановлює поля триграми фрази (параметр pf3)
-
--   [« SolrDisMaxQuery::setTieBreaker](solrdismaxquery.settiebreaker.html)
-    
--   [SolrDisMaxQuery::setTrigramPhraseSlop »](solrdismaxquery.settrigramphraseslop.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
-    
--   Безпосередньо встановлює поля триграми фрази (параметр pf3)
-    
-
+---
+navigation:
+  - solrdismaxquery.settiebreaker.html: '« SolrDisMaxQuery::setTieBreaker'
+  - solrdismaxquery.settrigramphraseslop.html: 'SolrDisMaxQuery::setTrigramPhraseSlop »'
+  - index.html: PHP Manual
+  - class.solrdismaxquery.html: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setTrigramPhraseFields'
+---
 # SolrDisMaxQuery::setTrigramPhraseFields
 
 (No version information available, might only be in Git)

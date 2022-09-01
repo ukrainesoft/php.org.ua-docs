@@ -1,16 +1,11 @@
-Встановлення драйвера PHP MongoDB під Windows
-
--   [« Установка драйвера PHP MongoDB на macOS помощью Homebrew](mongodb.installation.homebrew.md)
-    
--   [Сборка драйвера PHP MongoDB из исходного кода »](mongodb.installation.manual.md)
-    
--   [PHP Manual](index.md)
-    
--   [Установка](mongodb.installation.md)
-    
--   Встановлення драйвера PHP MongoDB під Windows
-    
-
+---
+navigation:
+  - mongodb.installation.homebrew.md: « Установка драйвера PHP MongoDB на macOS помощью Homebrew
+  - mongodb.installation.manual.md: Сборка драйвера PHP MongoDB из исходного кода »
+  - index.md: PHP Manual
+  - mongodb.installation.md: Установка
+title: Встановлення драйвера PHP MongoDB під Windows
+---
 ## Встановлення драйвера PHP MongoDB під Windows
 
 Скомпільовані модулі для кожної версії доступні на сайті [» PECL](https://pecl.php.net/package/mongodb) для всіх комбінацій версій, потокобезпеки та бібліотек VC. Розархівуйте завантажений модуль та скопіюйте phpmongo.dll - директорію з модулями PHP (за замовчуванням "ext").

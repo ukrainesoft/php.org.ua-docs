@@ -1,16 +1,11 @@
-Emphasis успадковує CommonMarkNode
-
--   [« CommonMarkNodeTextStrong](class.commonmark-node-text-strong.html)
-    
--   [CommonMarkNodeThematicBreak »](class.commonmark-node-thematicbreak.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Emphasis успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-text-strong.html: « CommonMarkNodeTextStrong
+  - class.commonmark-node-thematicbreak.html: CommonMarkNodeThematicBreak »
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Emphasis успадковує CommonMarkNode
+---
 # Emphasis успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

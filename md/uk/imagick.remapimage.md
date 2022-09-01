@@ -1,16 +1,11 @@
-Перезначає кольори зображення
-
--   [« Imagick::reduceNoiseImage](imagick.reducenoiseimage.md)
-    
--   [Imagick::removeImage »](imagick.removeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перезначає кольори зображення
-    
-
+---
+navigation:
+  - imagick.reducenoiseimage.md: '« Imagick::reduceNoiseImage'
+  - imagick.removeimage.md: 'Imagick::removeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::remapImage'
+---
 # Imagick::remapImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

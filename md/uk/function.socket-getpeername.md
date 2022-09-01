@@ -1,16 +1,11 @@
-Запитує віддалену сторону зазначеного сокету, в результаті може бути повернутий хост/порт або шлях у файловій системі Unix, залежно від типу сокету
-
--   [« socketgetopt](function.socket-getopt.html)
-    
--   [socketgetsockname »](function.socket-getsockname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Запитує віддалену сторону зазначеного сокету, в результаті може бути повернутий хост/порт або шлях у файловій системі Unix, залежно від типу сокету
-    
-
+---
+navigation:
+  - function.socket-getopt.html: « socketgetopt
+  - function.socket-getsockname.html: socketgetsockname »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketgetpeername
+---
 # socketgetpeername
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ socket_getpeername(Socket $socket, string &$address, int &$port = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Примітки
 

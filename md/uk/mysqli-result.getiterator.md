@@ -1,16 +1,11 @@
-Витягує зовнішній ітератор
-
--   [« mysqliresult::free](mysqli-result.free.html)
-    
--   [mysqliresult::$lengths »](mysqli-result.lengths.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Витягує зовнішній ітератор
-    
-
+---
+navigation:
+  - mysqli-result.free.html: '« mysqliresult::free'
+  - mysqli-result.lengths.html: 'mysqliresult::$lengths »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::getIterator'
+---
 # mysqliresult::getIterator
 
 (PHP 8)

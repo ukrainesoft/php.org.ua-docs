@@ -1,16 +1,11 @@
-Псевдонім ibaseblobimport
-
--   [« fbirdblobget](function.fbird-blob-get.html)
-    
--   [fbirdblobinfo »](function.fbird-blob-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseblobimport
-    
-
+---
+navigation:
+  - function.fbird-blob-get.html: « fbirdblobget
+  - function.fbird-blob-info.html: fbirdblobinfo »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdblobimport
+---
 # fbirdblobimport
 
 (PHP 5, PHP 7 < 7.4.0)

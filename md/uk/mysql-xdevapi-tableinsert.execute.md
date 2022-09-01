@@ -1,16 +1,11 @@
-Виконує запит на вставку
-
--   [« TableInsert::construct](mysql-xdevapi-tableinsert.construct.html)
-    
--   [TableInsert::values »](mysql-xdevapi-tableinsert.values.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableInsert](class.mysql-xdevapi-tableinsert.html)
-    
--   Виконує запит на вставку
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableinsert.construct.html: '« TableInsert::construct'
+  - mysql-xdevapi-tableinsert.values.html: 'TableInsert::values »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tableinsert.html: mysqlxdevapiTableInsert
+title: 'TableInsert::execute'
+---
 # TableInsert::execute
 
 (No version information available, might only be in Git)

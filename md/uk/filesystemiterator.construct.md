@@ -1,16 +1,11 @@
-Створює новий ітератор файлової системи
-
--   [« FilesystemIterator](class.filesystemiterator.md)
-    
--   [FilesystemIterator::current »](filesystemiterator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilesystemIterator](class.filesystemiterator.md)
-    
--   Створює новий ітератор файлової системи
-    
-
+---
+navigation:
+  - class.filesystemiterator.md: « FilesystemIterator
+  - filesystemiterator.current.md: 'FilesystemIterator::current »'
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
+title: 'FilesystemIterator::construct'
+---
 # FilesystemIterator::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ public **FilesystemIterator::construct**(string `$directory`, int `$flags` = Fil
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 

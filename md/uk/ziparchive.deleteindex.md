@@ -1,16 +1,11 @@
-Видаляє елемент в архіві, використовуючи його індекс
-
--   [« ZipArchive::count](ziparchive.count.html)
-    
--   [ZipArchive::deleteName »](ziparchive.deletename.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Видаляє елемент в архіві, використовуючи його індекс
-    
-
+---
+navigation:
+  - ziparchive.count.html: '« ZipArchive::count'
+  - ziparchive.deletename.html: 'ZipArchive::deleteName »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::deleteIndex'
+---
 # ZipArchive::deleteIndex
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.5.0)

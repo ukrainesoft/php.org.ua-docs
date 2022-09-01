@@ -1,16 +1,11 @@
-Визначає, чи зберігати список заміщувальних пар разом зі списком слів
-
--   [« pspellconfigruntogether](function.pspell-config-runtogether.html)
-    
--   [pspellnewconfig »](function.pspell-new-config.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Визначає, чи зберігати список заміщувальних пар разом зі списком слів
-    
-
+---
+navigation:
+  - function.pspell-config-runtogether.html: « pspellconfigruntogether
+  - function.pspell-new-config.html: pspellnewconfig »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellconfigsaverepl
+---
 # pspellconfigsaverepl
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pspell_config_save_repl(PSpell\Config $config, bool $save): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 

@@ -1,16 +1,11 @@
-Повертає інформацію про типи даних, що підтримуються джерелом даних
-
--   [« odbcfreeresult](function.odbc-free-result.html)
-    
--   [odbclongreadlen »](function.odbc-longreadlen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає інформацію про типи даних, що підтримуються джерелом даних
-    
-
+---
+navigation:
+  - function.odbc-free-result.html: « odbcfreeresult
+  - function.odbc-longreadlen.html: odbclongreadlen »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcgettypeinfo
+---
 # odbcgettypeinfo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

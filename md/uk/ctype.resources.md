@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](ctype.configuration.html)
-    
--   [Обумовлені константи »](ctype.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ctype.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - ctype.configuration.html: « Налаштування під час виконання
+  - ctype.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - ctype.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

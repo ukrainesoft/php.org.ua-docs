@@ -1,16 +1,11 @@
-Встановлює ім'я поля, з якого потрібно отримати вираз
-
--   [« SolrQuery::setTerms](solrquery.setterms.md)
-    
--   [SolrQuery::setTermsIncludeLowerBound »](solrquery.settermsincludelowerbound.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює ім'я поля, з якого потрібно отримати вираз
-    
-
+---
+navigation:
+  - solrquery.setterms.md: '« SolrQuery::setTerms'
+  - solrquery.settermsincludelowerbound.md: 'SolrQuery::setTermsIncludeLowerBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsField'
+---
 # SolrQuery::setTermsField
 
 (PECL solr> = 0.9.2)

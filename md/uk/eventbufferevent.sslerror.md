@@ -1,16 +1,11 @@
-Повертає останню помилку OpenSSL, повідомлену буферною подією
-
--   [« EventBufferEvent::setWatermark](eventbufferevent.setwatermark.html)
-    
--   [EventBufferEvent::sslFilter »](eventbufferevent.sslfilter.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Повертає останню помилку OpenSSL, повідомлену буферною подією
-    
-
+---
+navigation:
+  - eventbufferevent.setwatermark.html: '« EventBufferEvent::setWatermark'
+  - eventbufferevent.sslfilter.html: 'EventBufferEvent::sslFilter »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::sslError'
+---
 # EventBufferEvent::sslError
 
 (PECL event >= 1.2.6-beta)

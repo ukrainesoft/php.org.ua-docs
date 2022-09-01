@@ -1,16 +1,11 @@
-Витягти зовнішні атрибути запису на її ім'я
-
--   [« ZipArchive::getExternalAttributesIndex](ziparchive.getexternalattributesindex.html)
-    
--   [ZipArchive::getFromIndex »](ziparchive.getfromindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Витягти зовнішні атрибути запису на її ім'я
-    
-
+---
+navigation:
+  - ziparchive.getexternalattributesindex.html: '« ZipArchive::getExternalAttributesIndex'
+  - ziparchive.getfromindex.html: 'ZipArchive::getFromIndex »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::getExternalAttributesName'
+---
 # ZipArchive::getExternalAttributesName
 
 (PHP 5 >= 5.6.0, PHP 7, PHP 8, PECL zip >= 1.12.4)

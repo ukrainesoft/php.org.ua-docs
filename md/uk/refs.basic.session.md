@@ -1,16 +1,11 @@
-Модулі для роботи із сесіями
-
--   [« fpmgetstatus](function.fpm-get-status.html)
-    
--   [Сессии »](book.session.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для роботи із сесіями
-    
-
+---
+navigation:
+  - function.fpm-get-status.html: « fpmgetstatus
+  - book.session.md: Сессии »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для роботи із сесіями
+---
 # Модулі для роботи із сесіями
 
 -   [Сессии](book.session.md) - Управління сесіями

@@ -1,16 +1,11 @@
-Отримує диференційовані запити SeasLog requestід
-
--   [« SeasLog::getLastLogger](seaslog.getlastlogger.md)
-    
--   [SeasLog::getRequestVariable »](seaslog.getrequestvariable.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Отримує диференційовані запити SeasLog requestід
-    
-
+---
+navigation:
+  - seaslog.getlastlogger.md: '« SeasLog::getLastLogger'
+  - seaslog.getrequestvariable.md: 'SeasLog::getRequestVariable »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::getRequestID'
+---
 # SeasLog::getRequestID
 
 (PECL seaslog >=1.0.0)

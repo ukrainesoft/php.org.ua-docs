@@ -1,16 +1,11 @@
-Закриває з'єднання ODBC
-
--   [« odbccloseall](function.odbc-close-all.html)
-    
--   [odbccolumnprivileges »](function.odbc-columnprivileges.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Закриває з'єднання ODBC
-    
-
+---
+navigation:
+  - function.odbc-close-all.html: « odbccloseall
+  - function.odbc-columnprivileges.html: odbccolumnprivileges »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcclose
+---
 # odbcclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

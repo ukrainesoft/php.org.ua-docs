@@ -1,16 +1,11 @@
-Перевіряє, чи заданий метод
-
--   [« ReflectionClass::hasConstant](reflectionclass.hasconstant.md)
-    
--   [ReflectionClass::hasProperty »](reflectionclass.hasproperty.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи заданий метод
-    
-
+---
+navigation:
+  - reflectionclass.hasconstant.md: '« ReflectionClass::hasConstant'
+  - reflectionclass.hasproperty.md: 'ReflectionClass::hasProperty »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::hasMethod'
+---
 # ReflectionClass::hasMethod
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

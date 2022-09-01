@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](sqlite3.requirements.md)
-    
--   [Налаштування під час виконання »](sqlite3.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](sqlite3.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - sqlite3.requirements.md: « Вимоги
+  - sqlite3.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - sqlite3.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 SQLite3 доступний за замовчуванням. Модуль можна вимкнути допомогою `--without-sqlite3` під час компіляції.

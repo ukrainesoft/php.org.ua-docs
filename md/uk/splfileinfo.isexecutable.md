@@ -1,16 +1,11 @@
-Вказує, чи файл виконуваний
-
--   [« SplFileInfo::isDir](splfileinfo.isdir.md)
-    
--   [SplFileInfo::isFile »](splfileinfo.isfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Вказує, чи файл виконуваний
-    
-
+---
+navigation:
+  - splfileinfo.isdir.md: '« SplFileInfo::isDir'
+  - splfileinfo.isfile.md: 'SplFileInfo::isFile »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::isExecutable'
+---
 # SplFileInfo::isExecutable
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

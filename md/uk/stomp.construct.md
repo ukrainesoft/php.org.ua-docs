@@ -1,16 +1,11 @@
-Відкриває з'єднання
-
--   [« Stomp::commit](stomp.commit.html)
-    
--   [Stomp::destruct »](stomp.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Stomp](class.stomp.html)
-    
--   Відкриває з'єднання
-    
-
+---
+navigation:
+  - stomp.commit.html: '« Stomp::commit'
+  - stomp.destruct.html: 'Stomp::destruct »'
+  - index.html: PHP Manual
+  - class.stomp.html: Stomp
+title: 'Stomp::construct'
+---
 # Stomp::construct
 
 # stompconnect
@@ -63,8 +58,8 @@ URI брокера
 
 ### список змін
 
-| Версия           | Описание                   |
-|------------------|----------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL Stomp 1.0.1 | Доданий параметр `headers` |
 
 ### Приклади

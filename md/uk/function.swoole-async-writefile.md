@@ -1,16 +1,11 @@
-Асинхронний запис даних у файл
-
--   [« swooleasyncwrite](function.swoole-async-write.html)
-    
--   [swooleclearerror »](function.swoole-clear-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Асинхронний запис даних у файл
-    
-
+---
+navigation:
+  - function.swoole-async-write.html: « swooleasyncwrite
+  - function.swoole-clear-error.html: swooleclearerror »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleasyncwritefile
+---
 # swooleasyncwritefile
 
 (PECL swoole >= 1.9.0)

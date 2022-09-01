@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Установка](var-representation.installation.html)
-    
--   [Функции varrepresentation »](ref.var-representation.html)
-    
--   [PHP Manual](index.md)
-    
--   [varrepresentation](book.var_representation.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - var-representation.installation.html: « Установка
+  - ref.var-representation.html: Функции varrepresentation »
+  - index.md: PHP Manual
+  - book.var_representation.md: varrepresentation
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

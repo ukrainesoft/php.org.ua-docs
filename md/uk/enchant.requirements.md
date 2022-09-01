@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](enchant.setup.md)
-    
--   [Установка »](enchant.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](enchant.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - enchant.setup.md: « Встановлення та налаштування
+  - enchant.installation.md: Установка »
+  - index.md: PHP Manual
+  - enchant.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Ця версія використовує функції [» библиотеки Enchant library](http://www.abisource.com/projects/enchant/), написана Dom Lachowicz. Вам потрібний Enchant версії 1.2.4 або вище. Enchant 2.0.0 або новіше підтримується тільки з PHP 8.0.0.

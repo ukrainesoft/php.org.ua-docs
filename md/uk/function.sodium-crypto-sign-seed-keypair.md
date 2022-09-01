@@ -1,16 +1,11 @@
-Детерміноване виведення пари ключів з одного ключа
-
--   [« sodiumcryptosignsecretkey](function.sodium-crypto-sign-secretkey.html)
-    
--   [sodiumcryptosignverifydetached »](function.sodium-crypto-sign-verify-detached.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Детерміноване виведення пари ключів з одного ключа
-    
-
+---
+navigation:
+  - function.sodium-crypto-sign-secretkey.html: « sodiumcryptosignsecretkey
+  - function.sodium-crypto-sign-verify-detached.html: sodiumcryptosignverifydetached »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptosignseedkeypair
+---
 # sodiumcryptosignseedkeypair
 
 (PHP 7> = 7.2.0, PHP 8)

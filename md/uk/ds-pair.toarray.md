@@ -1,16 +1,11 @@
-Перетворює пару на масив (array)
-
--   [« DsPair::jsonSerialize](ds-pair.jsonserialize.html)
-    
--   [Набор »](class.ds-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пара](class.ds-pair.html)
-    
--   Перетворює пару на масив (array)
-    
-
+---
+navigation:
+  - ds-pair.jsonserialize.html: '« DsPair::jsonSerialize'
+  - class.ds-set.html: Набор »
+  - index.md: PHP Manual
+  - class.ds-pair.html: Пара
+title: 'ДсPair::toArray'
+---
 # ДсPair::toArray
 
 (PECL ds >= 1.0.0)

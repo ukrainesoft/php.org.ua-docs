@@ -1,16 +1,11 @@
-Повертає індекс запису, що відповідає цьому WriteError
-
--   [« MongoDBDriverWriteError::getCode](mongodb-driver-writeerror.getcode.html)
-    
--   [MongoDBDriverWriteError::getInfo »](mongodb-driver-writeerror.getinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
-    
--   Повертає індекс запису, що відповідає цьому WriteError
-    
-
+---
+navigation:
+  - mongodb-driver-writeerror.getcode.html: '« MongoDBDriverWriteError::getCode'
+  - mongodb-driver-writeerror.getinfo.html: 'MongoDBDriverWriteError::getInfo »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeerror.html: MongoDBDriverWriteError
+title: 'MongoDBDriverWriteError::getIndex'
+---
 # MongoDBDriverWriteError::getIndex
 
 (mongodb >=1.0.0)

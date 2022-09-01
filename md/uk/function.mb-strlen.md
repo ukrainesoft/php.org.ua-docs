@@ -1,16 +1,11 @@
-Отримує довжину рядка
-
--   [« mbstristr](function.mb-stristr.html)
-    
--   [мбstrpos »](function.mb-strpos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Отримує довжину рядка
-    
-
+---
+navigation:
+  - function.mb-stristr.html: « mbstristr
+  - function.mb-strpos.html: мбstrpos »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrlen
+---
 # мбstrlen
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ mb_strlen(string $string, ?string $encoding = null): int
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

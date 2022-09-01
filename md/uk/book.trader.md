@@ -1,16 +1,11 @@
-Технічний аналіз для трейдерів
-
--   [« statsvariance](function.stats-variance.html)
-    
--   [Введение »](intro.trader.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні модулі](refs.math.md)
-    
--   Технічний аналіз для трейдерів
-    
-
+---
+navigation:
+  - function.stats-variance.html: « statsvariance
+  - intro.trader.md: Введение »
+  - index.md: PHP Manual
+  - refs.math.md: Математичні модулі
+title: Технічний аналіз для трейдерів
+---
 # Технічний аналіз для трейдерів
 
 -   [Введение](intro.trader.md)

@@ -1,16 +1,11 @@
-Клас YafRouteSimple
-
--   [« YafRouter::route](yaf-router.route.html)
-    
--   [YafRouteSimple::assemble »](yaf-route-simple.assemble.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafRouteSimple
-    
-
+---
+navigation:
+  - yaf-router.route.html: '« YafRouter::route'
+  - yaf-route-simple.assemble.html: 'YafRouteSimple::assemble »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafRouteSimple
+---
 # Клас YafRouteSimple
 
 (Yaf >=1.0.0)

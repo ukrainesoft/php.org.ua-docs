@@ -1,16 +1,11 @@
-Функції YAZ
-
--   [« Приклади](yaz.examples.md)
-    
--   [yazaddinfo »](function.yaz-addinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [YAZ](book.yaz.md)
-    
--   Функції YAZ
-    
-
+---
+navigation:
+  - yaz.examples.md: « Приклади
+  - function.yaz-addinfo.html: yazaddinfo »
+  - index.md: PHP Manual
+  - book.yaz.md: YAZ
+title: Функції YAZ
+---
 # Функції YAZ
 
 ## Зміст

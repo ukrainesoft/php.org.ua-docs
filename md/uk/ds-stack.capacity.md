@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsStack::allocate](ds-stack.allocate.html)
-    
--   [ДсStack::clear »](ds-stack.clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-stack.allocate.html: '« DsStack::allocate'
+  - ds-stack.clear.html: 'ДсStack::clear »'
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::capacity'
+---
 # ДсStack::capacity
 
 (PECL ds >= 1.0.0)

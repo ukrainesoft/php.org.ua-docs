@@ -1,16 +1,11 @@
-Копіювати масив PHP до таблиці
-
--   [« PDOPGSQL DSN](ref.pdo-pgsql.connection.html)
-    
--   [PDO::pgsqlCopyFromFile »](pdo.pgsqlcopyfromfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   Копіювати масив PHP до таблиці
-    
-
+---
+navigation:
+  - ref.pdo-pgsql.connection.html: « PDOPGSQL DSN
+  - pdo.pgsqlcopyfromfile.md: 'PDO::pgsqlCopyFromFile »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: 'PDO::pgsqlCopyFromArray'
+---
 # PDO::pgsqlCopyFromArray
 
 (PHP 5> = 5.3.3, PHP 7, PHP 8)

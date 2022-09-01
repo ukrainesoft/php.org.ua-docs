@@ -1,16 +1,11 @@
-Завантажує новий словник із установками на основі заданої конфігурації
-
--   [« pspellconfigsaverepl](function.pspell-config-save-repl.html)
-    
--   [pspellnewpersonal »](function.pspell-new-personal.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Завантажує новий словник із установками на основі заданої конфігурації
-    
-
+---
+navigation:
+  - function.pspell-config-save-repl.html: « pspellconfigsaverepl
+  - function.pspell-new-personal.html: pspellnewpersonal »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellnewconfig
+---
 # pspellnewconfig
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -37,10 +32,10 @@ pspell_new_config(PSpell\Config $config): PSpell\Dictionary|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше повертався ресурс ([resource](language.types.resource.md)              |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Встановлює дату та час на основі мітки часу Unix
-
--   [« DateTime::setTime](datetime.settime.md)
-    
--   [DateTime::setTimezone »](datetime.settimezone.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Встановлює дату та час на основі мітки часу Unix
-    
-
+---
+navigation:
+  - datetime.settime.md: '« DateTime::setTime'
+  - datetime.settimezone.md: 'DateTime::setTimezone »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::setTimestamp'
+---
 # DateTime::setTimestamp
 
 # datetimestampset

@@ -1,16 +1,11 @@
-Завершити поточний елемент DTD
-
--   [« XMLWriter::endDtdAttlist](xmlwriter.enddtdattlist.md)
-    
--   [XMLWriter::endDtdEntity »](xmlwriter.enddtdentity.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Завершити поточний елемент DTD
-    
-
+---
+navigation:
+  - xmlwriter.enddtdattlist.md: '« XMLWriter::endDtdAttlist'
+  - xmlwriter.enddtdentity.md: 'XMLWriter::endDtdEntity »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::endDtdElement'
+---
 # XMLWriter::endDtdElement
 
 # xmlwriterenddtdelement
@@ -47,9 +42,9 @@ xmlwriter_end_dtd_element(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Видаляє всі вихідні заголовки зі списку заголовків запиту
-
--   [« EventHttpRequest::cancel](eventhttprequest.cancel.md)
-    
--   [EventHttpRequest::closeConnection »](eventhttprequest.closeconnection.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Видаляє всі вихідні заголовки зі списку заголовків запиту
-    
-
+---
+navigation:
+  - eventhttprequest.cancel.md: '« EventHttpRequest::cancel'
+  - eventhttprequest.closeconnection.md: 'EventHttpRequest::closeConnection »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::clearHeaders'
+---
 # EventHttpRequest::clearHeaders
 
 (PECL event >= 1.4.0-beta)

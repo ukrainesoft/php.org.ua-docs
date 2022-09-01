@@ -1,16 +1,11 @@
-Встановити стовпець
-
--   [« VtifulKernelExcel::output](vtiful-kernel-excel.output.html)
-    
--   [VtifulKernelExcel::setRow »](vtiful-kernel-excel.setRow.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Встановити стовпець
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.output.html: '« VtifulKernelExcel::output'
+  - vtiful-kernel-excel.setRow.html: 'VtifulKernelExcel::setRow »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::setColumn'
+---
 # VtifulKernelExcel::setColumn
 
 (PECL xlswriter >= 1.2.1)

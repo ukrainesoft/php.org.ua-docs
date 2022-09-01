@@ -1,16 +1,11 @@
-Список всіх обробників виводу, що використовуються
-
--   [« obimplicitflush](function.ob-implicit-flush.html)
-    
--   [проstart »](function.ob-start.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   Список всіх обробників виводу, що використовуються
-    
-
+---
+navigation:
+  - function.ob-implicit-flush.html: « obimplicitflush
+  - function.ob-start.html: проstart »
+  - index.html: PHP Manual
+  - ref.outcontrol.html: Функції контролю виведення
+title: проlisthandlers
+---
 # проlisthandlers
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

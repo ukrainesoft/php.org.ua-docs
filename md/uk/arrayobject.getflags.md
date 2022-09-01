@@ -1,16 +1,11 @@
-Отримує прапори поведінки
-
--   [« ArrayObject::getArrayCopy](arrayobject.getarraycopy.md)
-    
--   [ArrayObject::getIterator »](arrayobject.getiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Отримує прапори поведінки
-    
-
+---
+navigation:
+  - arrayobject.getarraycopy.md: '« ArrayObject::getArrayCopy'
+  - arrayobject.getiterator.md: 'ArrayObject::getIterator »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::getFlags'
+---
 # ArrayObject::getFlags
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

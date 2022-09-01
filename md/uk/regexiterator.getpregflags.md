@@ -1,16 +1,11 @@
-Повертає прапори регулярного вираження
-
--   [« RegexIterator::getMode](regexiterator.getmode.html)
-    
--   [RegexIterator::getRegex »](regexiterator.getregex.html)
-    
--   [PHP Manual](index.html)
-    
--   [RegexIterator](class.regexiterator.html)
-    
--   Повертає прапори регулярного вираження
-    
-
+---
+navigation:
+  - regexiterator.getmode.html: '« RegexIterator::getMode'
+  - regexiterator.getregex.html: 'RegexIterator::getRegex »'
+  - index.html: PHP Manual
+  - class.regexiterator.html: RegexIterator
+title: 'RegexIterator::getPregFlags'
+---
 # RegexIterator::getPregFlags
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

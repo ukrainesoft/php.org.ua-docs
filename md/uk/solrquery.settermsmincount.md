@@ -1,16 +1,11 @@
-Встановлює мінімальну частоту документів
-
--   [« SolrQuery::setTermsMaxCount](solrquery.settermsmaxcount.md)
-    
--   [SolrQuery::setTermsPrefix »](solrquery.settermsprefix.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює мінімальну частоту документів
-    
-
+---
+navigation:
+  - solrquery.settermsmaxcount.md: '« SolrQuery::setTermsMaxCount'
+  - solrquery.settermsprefix.md: 'SolrQuery::setTermsPrefix »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsMinCount'
+---
 # SolrQuery::setTermsMinCount
 
 (PECL solr> = 0.9.2)

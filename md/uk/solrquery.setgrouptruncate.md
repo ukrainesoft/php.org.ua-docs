@@ -1,16 +1,11 @@
-Якщо true, підрахунок фасетів базується на найбільш релевантному документі кожної групи, що відповідає запиту
-
--   [« SolrQuery::setGroupOffset](solrquery.setgroupoffset.md)
-    
--   [SolrQuery::setHighlight »](solrquery.sethighlight.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Якщо true, підрахунок фасетів базується на найбільш релевантному документі кожної групи, що відповідає запиту
-    
-
+---
+navigation:
+  - solrquery.setgroupoffset.md: '« SolrQuery::setGroupOffset'
+  - solrquery.sethighlight.md: 'SolrQuery::setHighlight »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setGroupTruncate'
+---
 # SolrQuery::setGroupTruncate
 
 (PECL solr> = 2.2.0)

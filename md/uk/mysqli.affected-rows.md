@@ -1,16 +1,11 @@
-Отримує кількість рядків, порушених попередньою операцією MySQL
-
--   [« mysqli](class.mysqli.md)
-    
--   [mysqli::autocommit »](mysqli.autocommit.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Отримує кількість рядків, порушених попередньою операцією MySQL
-    
-
+---
+navigation:
+  - class.mysqli.md: « mysqli
+  - mysqli.autocommit.md: 'mysqli::autocommit »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$affectedrows'
+---
 # mysqli::$affectedrows
 
 # mysqliaffectedrows

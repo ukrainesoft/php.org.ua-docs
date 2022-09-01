@@ -1,16 +1,11 @@
-Створює масив
-
--   [« arraywalk](function.array-walk.html)
-    
--   [arsort »](function.arsort.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Створює масив
-    
-
+---
+navigation:
+  - function.array-walk.html: « arraywalk
+  - function.arsort.md: arsort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: array
+---
 # array
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

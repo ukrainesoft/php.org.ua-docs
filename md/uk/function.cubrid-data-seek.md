@@ -1,16 +1,11 @@
-Перемістити внутрішній покажчик у результуючому наборі CUBRID
-
--   [« cubridclose](function.cubrid-close.html)
-    
--   [cubridдбname »](function.cubrid-db-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Перемістити внутрішній покажчик у результуючому наборі CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-close.html: « cubridclose
+  - function.cubrid-db-name.html: cubridдбname »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubriddataseek
+---
 # cubriddataseek
 
 (PECL CUBRID >= 8.3.0)

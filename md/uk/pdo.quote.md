@@ -1,16 +1,11 @@
-Укладає рядок у лапки для використання у запиті
-
--   [« PDO::query](pdo.query.html)
-    
--   [PDO::rollBack »](pdo.rollback.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDO](class.pdo.html)
-    
--   Укладає рядок у лапки для використання у запиті
-    
-
+---
+navigation:
+  - pdo.query.html: '« PDO::query'
+  - pdo.rollback.html: 'PDO::rollBack »'
+  - index.html: PHP Manual
+  - class.pdo.html: PDO
+title: 'PDO::quote'
+---
 # PDO::quote
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.1)

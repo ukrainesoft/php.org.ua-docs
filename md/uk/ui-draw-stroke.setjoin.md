@@ -1,16 +1,11 @@
-Отримати з'єднання лінії
-
--   [« UIDrawStroke::setCap](ui-draw-stroke.setcap.html)
-    
--   [ОЙDrawStroke::setMiterLimit »](ui-draw-stroke.setmiterlimit.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawStroke](class.ui-draw-stroke.html)
-    
--   Отримати з'єднання лінії
-    
-
+---
+navigation:
+  - ui-draw-stroke.setcap.html: '« UIDrawStroke::setCap'
+  - ui-draw-stroke.setmiterlimit.html: 'ОЙDrawStroke::setMiterLimit »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.html: ОЙDrawStroke
+title: 'ОЙDrawStroke::setJoin'
+---
 # ОЙDrawStroke::setJoin
 
 (UI 0.9.9)

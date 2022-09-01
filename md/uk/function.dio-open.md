@@ -1,16 +1,11 @@
-Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
-
--   [« diofcntl](function.dio-fcntl.html)
-    
--   [dioread »](function.dio-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції прямого введення/виводу](ref.dio.html)
-    
--   Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
-    
-
+---
+navigation:
+  - function.dio-fcntl.html: « diofcntl
+  - function.dio-read.html: dioread »
+  - index.html: PHP Manual
+  - ref.dio.html: Функції прямого введення/виводу
+title: dioopen
+---
 # dioopen
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

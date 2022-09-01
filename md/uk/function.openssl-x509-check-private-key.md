@@ -1,16 +1,11 @@
-Перевірити, чи належить секретний ключ до сертифіката
-
--   [« opensslverify](function.openssl-verify.html)
-    
--   [opensslx509checkpurpose »](function.openssl-x509-checkpurpose.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Перевірити, чи належить секретний ключ до сертифіката
-    
-
+---
+navigation:
+  - function.openssl-verify.html: « opensslverify
+  - function.openssl-x509-checkpurpose.html: opensslx509checkpurpose »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslx509checkprivatekey
+---
 # opensslx509checkprivatekey
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,7 +42,7 @@ openssl_x509_check_private_key(OpenSSLCertificate|string $certificate, OpenSSLAs
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509`                                                                               |
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |

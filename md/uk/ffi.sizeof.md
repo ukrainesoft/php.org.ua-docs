@@ -1,16 +1,11 @@
-Повертає розмір даних або типу C
-
--   [« FFI::scope](ffi.scope.md)
-    
--   [FFI::string »](ffi.string.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Повертає розмір даних або типу C
-    
-
+---
+navigation:
+  - ffi.scope.md: '« FFI::scope'
+  - ffi.string.md: 'FFI::string »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::sizeof'
+---
 # FFI::sizeof
 
 (PHP 7> = 7.4.0, PHP 8)

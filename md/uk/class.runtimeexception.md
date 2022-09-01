@@ -1,16 +1,11 @@
-Клас RuntimeException
-
--   [« RangeException](class.rangeexception.html)
-    
--   [UnderflowException »](class.underflowexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [Исключения](spl.exceptions.html)
-    
--   Клас RuntimeException
-    
-
+---
+navigation:
+  - class.rangeexception.html: « RangeException
+  - class.underflowexception.html: UnderflowException »
+  - index.html: PHP Manual
+  - spl.exceptions.html: Исключения
+title: Клас RuntimeException
+---
 # Клас RuntimeException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

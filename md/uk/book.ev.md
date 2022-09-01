@@ -1,16 +1,11 @@
-Єв
-
--   [« eiowrite](function.eio-write.html)
-    
--   [Введение »](intro.ev.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
-    
--   Єв
-    
-
+---
+navigation:
+  - function.eio-write.html: « eiowrite
+  - intro.ev.html: Введение »
+  - index.html: PHP Manual
+  - refs.fileprocess.process.html: Модули для управления процессами программ
+title: Єв
+---
 # Єв
 
 -   [Введение](intro.ev.html)

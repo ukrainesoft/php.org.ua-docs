@@ -1,16 +1,11 @@
-Клас StompException
-
--   [« StompFrame::construct](stompframe.construct.md)
-    
--   [StompException::getDetails »](stomp.getdetails.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](book.stomp.md)
-    
--   Клас StompException
-    
-
+---
+navigation:
+  - stompframe.construct.md: '« StompFrame::construct'
+  - stomp.getdetails.md: 'StompException::getDetails »'
+  - index.md: PHP Manual
+  - book.stomp.md: Stomp
+title: Клас StompException
+---
 # Клас StompException
 
 (PECL stomp >= 0.1.0)

@@ -1,16 +1,11 @@
-Копіює метод з одного класу до іншого
-
--   [« runkit7methodadd](function.runkit7-method-add.html)
-    
--   [runkit7methodredefine »](function.runkit7-method-redefine.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Копіює метод з одного класу до іншого
-    
-
+---
+navigation:
+  - function.runkit7-method-add.html: « runkit7methodadd
+  - function.runkit7-method-redefine.html: runkit7methodredefine »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7методcopy
+---
 # runkit7методcopy
 
 (PECL runkit7> = Unknown)

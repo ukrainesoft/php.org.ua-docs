@@ -1,16 +1,11 @@
-Отримує початковий номер рядка
-
--   [« ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md)
-    
--   [ReflectionFunctionAbstract::getStaticVariables »](reflectionfunctionabstract.getstaticvariables.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Отримує початковий номер рядка
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getshortname.md: '« ReflectionFunctionAbstract::getShortName'
+  - reflectionfunctionabstract.getstaticvariables.md: 'ReflectionFunctionAbstract::getStaticVariables »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getStartLine'
+---
 # ReflectionFunctionAbstract::getStartLine
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

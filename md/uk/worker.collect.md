@@ -1,16 +1,11 @@
-Зібрати посилання на завершені завдання
-
--   [« Worker](class.worker.html)
-    
--   [Worker::getStacked »](worker.getstacked.html)
-    
--   [PHP Manual](index.html)
-    
--   [Worker](class.worker.html)
-    
--   Зібрати посилання на завершені завдання
-    
-
+---
+navigation:
+  - class.worker.html: « Worker
+  - worker.getstacked.html: 'Worker::getStacked »'
+  - index.html: PHP Manual
+  - class.worker.html: Worker
+title: 'Worker::collect'
+---
 # Worker::collect
 
 (PECL pthreads >= 3.0.0)

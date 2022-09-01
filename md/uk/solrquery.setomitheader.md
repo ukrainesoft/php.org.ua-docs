@@ -1,16 +1,11 @@
-Виключає заголовок з результатів, що повертаються.
-
--   [« SolrQuery::setMltMinWordLength](solrquery.setmltminwordlength.md)
-    
--   [SolrQuery::setQuery »](solrquery.setquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Виключає заголовок з результатів, що повертаються.
-    
-
+---
+navigation:
+  - solrquery.setmltminwordlength.md: '« SolrQuery::setMltMinWordLength'
+  - solrquery.setquery.md: 'SolrQuery::setQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setOmitHeader'
+---
 # SolrQuery::setOmitHeader
 
 (PECL solr> = 0.9.2)

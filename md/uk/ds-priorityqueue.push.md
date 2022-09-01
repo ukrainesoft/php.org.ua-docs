@@ -1,16 +1,11 @@
-Додає значення в чергу
-
--   [« DsPriorityQueue::pop](ds-priorityqueue.pop.html)
-    
--   [ДсPriorityQueue::toArray »](ds-priorityqueue.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Додає значення в чергу
-    
-
+---
+navigation:
+  - ds-priorityqueue.pop.html: '« DsPriorityQueue::pop'
+  - ds-priorityqueue.toarray.html: 'ДсPriorityQueue::toArray »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::push'
+---
 # ДсPriorityQueue::push
 
 (PECL ds >= 1.0.0)

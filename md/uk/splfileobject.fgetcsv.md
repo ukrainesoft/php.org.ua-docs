@@ -1,16 +1,11 @@
-Отримати рядок із файлу та його розбір як поля CSV
-
--   [« SplFileObject::fgetc](splfileobject.fgetc.html)
-    
--   [SplFileObject::fgets »](splfileobject.fgets.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Отримати рядок із файлу та його розбір як поля CSV
-    
-
+---
+navigation:
+  - splfileobject.fgetc.html: '« SplFileObject::fgetc'
+  - splfileobject.fgets.html: 'SplFileObject::fgets »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::fgetcsv'
+---
 # SplFileObject::fgetcsv
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"",
 
 ### список змін
 
-| Версия | Описание                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------|
-|        | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
 
 ### Приклади
 

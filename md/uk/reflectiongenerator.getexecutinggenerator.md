@@ -1,16 +1,11 @@
-Отримати запущений об'єкт Generator
-
--   [« ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.md)
-    
--   [ReflectionGenerator::getExecutingLine »](reflectiongenerator.getexecutingline.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionGenerator](class.reflectiongenerator.md)
-    
--   Отримати запущений об'єкт Generator
-    
-
+---
+navigation:
+  - reflectiongenerator.getexecutingfile.md: '« ReflectionGenerator::getExecutingFile'
+  - reflectiongenerator.getexecutingline.md: 'ReflectionGenerator::getExecutingLine »'
+  - index.md: PHP Manual
+  - class.reflectiongenerator.md: ReflectionGenerator
+title: 'ReflectionGenerator::getExecutingGenerator'
+---
 # ReflectionGenerator::getExecutingGenerator
 
 (PHP 7, PHP 8)

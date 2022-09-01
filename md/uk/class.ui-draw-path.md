@@ -1,16 +1,11 @@
-Шлях малювання
-
--   [« UIDrawPen::write](ui-draw-pen.write.html)
-    
--   [ОЙDrawPath::addRectangle »](ui-draw-path.addrectangle.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Шлях малювання
-    
-
+---
+navigation:
+  - ui-draw-pen.write.html: '« UIDrawPen::write'
+  - ui-draw-path.addrectangle.html: 'ОЙDrawPath::addRectangle »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Шлях малювання
+---
 # Шлях малювання
 
 (UI 0.9.9)

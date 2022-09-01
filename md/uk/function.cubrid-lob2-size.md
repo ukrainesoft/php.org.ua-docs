@@ -1,16 +1,11 @@
-Отримує розмір LOB-об'єкта
-
--   [« cubridlob2size64](function.cubrid-lob2-size64.html)
-    
--   [cubridlob2tell64 »](function.cubrid-lob2-tell64.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Отримує розмір LOB-об'єкта
-    
-
+---
+navigation:
+  - function.cubrid-lob2-size64.html: « cubridlob2size64
+  - function.cubrid-lob2-tell64.html: cubridlob2tell64 »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2size
+---
 # cubridlob2size
 
 (PECL CUBRID >= 8.4.1)

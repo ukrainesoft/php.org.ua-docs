@@ -1,16 +1,11 @@
-Несумісності
-
--   [« Налаштування під час виконання](mysqlnd.config.md)
-    
--   [Постоянное соединение »](mysqlnd.persist.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlnd](book.mysqlnd.md)
-    
--   Несумісності
-    
-
+---
+navigation:
+  - mysqlnd.config.md: « Налаштування під час виконання
+  - mysqlnd.persist.md: Постоянное соединение »
+  - index.md: PHP Manual
+  - book.mysqlnd.md: Mysqlnd
+title: Несумісності
+---
 # Несумісності
 
 Вбудований драйвер MySQL (mysqlnd), як правило, сумісний з клієнтською бібліотекою MySQL `libmysql`. Цей розділ описує несумісність цих бібліотек.

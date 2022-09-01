@@ -1,16 +1,11 @@
-Стиснути поточний файл за допомогою zlib або bzip2
-
--   [« PharFileInfo::chmod](pharfileinfo.chmod.html)
-    
--   [PharFileInfo::construct »](pharfileinfo.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharFileInfo](class.pharfileinfo.html)
-    
--   Стиснути поточний файл за допомогою zlib або bzip2
-    
-
+---
+navigation:
+  - pharfileinfo.chmod.html: '« PharFileInfo::chmod'
+  - pharfileinfo.construct.html: 'PharFileInfo::construct »'
+  - index.html: PHP Manual
+  - class.pharfileinfo.html: PharFileInfo
+title: 'PharFileInfo::compress'
+---
 # PharFileInfo::compress
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

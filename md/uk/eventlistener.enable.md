@@ -1,16 +1,11 @@
-Включає подію підключення до об'єкта слухача
-
--   [« EventListener::disable](eventlistener.disable.md)
-    
--   [EventListener::getBase »](eventlistener.getbase.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventListener](class.eventlistener.md)
-    
--   Включає подію підключення до об'єкта слухача
-    
-
+---
+navigation:
+  - eventlistener.disable.md: '« EventListener::disable'
+  - eventlistener.getbase.md: 'EventListener::getBase »'
+  - index.md: PHP Manual
+  - class.eventlistener.md: EventListener
+title: 'EventListener::enable'
+---
 # EventListener::enable
 
 (PECL event >= 1.2.6-beta)

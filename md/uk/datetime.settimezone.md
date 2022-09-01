@@ -1,16 +1,11 @@
-Встановлює часовий пояс для об'єкта класу DateTime
-
--   [« DateTime::setTimestamp](datetime.settimestamp.md)
-    
--   [DateTime::sub »](datetime.sub.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Встановлює часовий пояс для об'єкта класу DateTime
-    
-
+---
+navigation:
+  - datetime.settimestamp.md: '« DateTime::setTimestamp'
+  - datetime.sub.md: 'DateTime::sub »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::setTimezone'
+---
 # DateTime::setTimezone
 
 # datetimezoneset

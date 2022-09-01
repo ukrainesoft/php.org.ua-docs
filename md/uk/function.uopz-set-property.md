@@ -1,16 +1,11 @@
-Встановлює значення існуючої властивості класу чи екземпляра
-
--   [« uopzsetmock](function.uopz-set-mock.html)
-    
--   [uopzsetreturn »](function.uopz-set-return.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Встановлює значення існуючої властивості класу чи екземпляра
-    
-
+---
+navigation:
+  - function.uopz-set-mock.html: « uopzsetmock
+  - function.uopz-set-return.html: uopzsetreturn »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzsetproperty
+---
 # uopzsetproperty
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

@@ -1,16 +1,11 @@
-Повертає код помилки
-
--   [« Error::getPrevious](error.getprevious.md)
-    
--   [Error::getFile »](error.getfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Error](class.error.md)
-    
--   Повертає код помилки
-    
-
+---
+navigation:
+  - error.getprevious.md: '« Error::getPrevious'
+  - error.getfile.md: 'Error::getFile »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::getCode'
+---
 # Error::getCode
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає кількість елементів у хеші
-
--   [« QuickHashIntStringHash::get](quickhashintstringhash.get.html)
-    
--   [QuickHashIntStringHash::loadFromFile »](quickhashintstringhash.loadfromfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashIntStringHash](class.quickhashintstringhash.html)
-    
--   Повертає кількість елементів у хеші
-    
-
+---
+navigation:
+  - quickhashintstringhash.get.html: '« QuickHashIntStringHash::get'
+  - quickhashintstringhash.loadfromfile.html: 'QuickHashIntStringHash::loadFromFile »'
+  - index.html: PHP Manual
+  - class.quickhashintstringhash.html: QuickHashIntStringHash
+title: 'QuickHashIntStringHash::getSize'
+---
 # QuickHashIntStringHash::getSize
 
 (PECL quickhash >= Unknown)

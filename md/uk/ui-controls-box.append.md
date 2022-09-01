@@ -1,16 +1,11 @@
-Додати керуючий елемент
-
--   [« UIControlsBox](class.ui-controls-box.html)
-    
--   [ОЙControlsBox::construct »](ui-controls-box.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsBox](class.ui-controls-box.html)
-    
--   Додати керуючий елемент
-    
-
+---
+navigation:
+  - class.ui-controls-box.html: « UIControlsBox
+  - ui-controls-box.construct.html: 'ОЙControlsBox::construct »'
+  - index.md: PHP Manual
+  - class.ui-controls-box.html: ОЙControlsBox
+title: 'ОЙControlsBox::append'
+---
 # ОЙControlsBox::append
 
 (UI 0.9.9)

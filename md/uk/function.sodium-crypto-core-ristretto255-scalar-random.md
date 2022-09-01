@@ -1,16 +1,11 @@
-Генерує випадковий ключ
-
--   [« sodiumcryptocoreristretto255scalarnegate](function.sodium-crypto-core-ristretto255-scalar-negate.html)
-    
--   [sodiumcryptocoreristretto255scalarreduce »](function.sodium-crypto-core-ristretto255-scalar-reduce.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Генерує випадковий ключ
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-scalar-negate.html: « sodiumcryptocoreristretto255scalarnegate
+  - function.sodium-crypto-core-ristretto255-scalar-reduce.html: sodiumcryptocoreristretto255scalarreduce »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptocoreristretto255scalarrandom
+---
 # sodiumcryptocoreristretto255scalarrandom
 
 (PHP 8> = 8.1.0)

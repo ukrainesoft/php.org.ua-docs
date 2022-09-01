@@ -1,16 +1,11 @@
-Визначає тип поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getSize](directoryiterator.getsize.md)
-    
--   [DirectoryIterator::isDir »](directoryiterator.isdir.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Визначає тип поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getsize.md: '« DirectoryIterator::getSize'
+  - directoryiterator.isdir.md: 'DirectoryIterator::isDir »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getType'
+---
 # DirectoryIterator::getType
 
 (PHP 5, PHP 7, PHP 8)

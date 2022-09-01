@@ -1,16 +1,11 @@
-Задає кількість результатів, що повертаються кожної групи. Значення сервера за промовчанням - 1
-
--   [« SolrQuery::setGroupFormat](solrquery.setgroupformat.md)
-    
--   [SolrQuery::setGroupMain »](solrquery.setgroupmain.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Задає кількість результатів, що повертаються кожної групи. Значення сервера за промовчанням - 1
-    
-
+---
+navigation:
+  - solrquery.setgroupformat.md: '« SolrQuery::setGroupFormat'
+  - solrquery.setgroupmain.md: 'SolrQuery::setGroupMain »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setGroupLimit'
+---
 # SolrQuery::setGroupLimit
 
 (PECL solr> = 2.2.0)

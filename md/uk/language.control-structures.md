@@ -1,16 +1,11 @@
-Керуючі конструкції
-
--   [« Оператор перевірки типу](language.operators.type.md)
-    
--   [Введение »](control-structures.intro.html)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Керуючі конструкції
-    
-
+---
+navigation:
+  - language.operators.type.md: « Оператор перевірки типу
+  - control-structures.intro.html: Введение »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Керуючі конструкції
+---
 # Керуючі конструкції
 
 ## Зміст

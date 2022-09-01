@@ -1,16 +1,11 @@
-Вступ
-
--   [« URL](book.url.html)
-    
--   [Встановлення та налаштування »](url.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [URL](book.url.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.url.html: « URL
+  - url.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.url.html: URL
+title: Вступ
+---
 # Вступ
 
 Робота з рядками URL: кодування, декодування та розбір.

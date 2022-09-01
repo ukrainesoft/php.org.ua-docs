@@ -1,16 +1,11 @@
-Створює виняток
-
--   [« ErrorException](class.errorexception.md)
-    
--   [ErrorException::getSeverity »](errorexception.getseverity.md)
-    
--   [PHP Manual](index.md)
-    
--   [ErrorException](class.errorexception.md)
-    
--   Створює виняток
-    
-
+---
+navigation:
+  - class.errorexception.md: « ErrorException
+  - errorexception.getseverity.md: 'ErrorException::getSeverity »'
+  - index.md: PHP Manual
+  - class.errorexception.md: ErrorException
+title: 'ErrorException::construct'
+---
 # ErrorException::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -61,6 +56,6 @@ int `$severity` **`E_ERROR`**
 
 ### список змін
 
-| Версия | Описание                                                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `filename` і `line` тепер допускають значення null. Раніше їх значеннями за промовчанням були **`__FILE__`** і \*\*`__LINE__`\*\*відповідно. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` і `line` тепер допускають значення null. Раніше їх значеннями за промовчанням були **`__FILE__`** і \*\*`__LINE__`\*\*відповідно. |

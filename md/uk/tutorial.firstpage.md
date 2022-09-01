@@ -1,16 +1,11 @@
-Перша сторінка на PHP
-
--   [Що мені потрібно?](tutorial.requirements.html)
-    
--   [Робимо щось корисне »](tutorial.useful.html)
-    
--   [PHP Manual](index.html)
-    
--   [Простий підручник](tutorial.html)
-    
--   Перша сторінка на PHP
-    
-
+---
+navigation:
+  - tutorial.requirements.html: Що мені потрібно?
+  - tutorial.useful.html: Робимо щось корисне »
+  - index.html: PHP Manual
+  - tutorial.html: Простий підручник
+title: Перша сторінка на PHP
+---
 # Перша сторінка на PHP
 
 Створіть файл з ім'ям hello.php у кореневому каталозі веб-сервера (DOCUMENT)ROOT) і запишіть у нього наступне:

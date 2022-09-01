@@ -1,16 +1,11 @@
-Вступ
-
--   [« Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.html)
-    
--   [Розділювачі »](regexp.reference.delimiters.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - reference.pcre.pattern.syntax.html: « Опис синтаксису Perl-сумісних регулярних виразів
+  - regexp.reference.delimiters.html: Розділювачі »
+  - index.html: PHP Manual
+  - reference.pcre.pattern.syntax.html: Опис синтаксису Perl-сумісних регулярних виразів
+title: Вступ
+---
 ## Вступ
 
 Нижче наведено синтаксис та семантику регулярних виразів, що підтримуються бібліотекою PCRE. Регулярні вирази також описані в документації мови Perl і в багатьох інших книгах, деякі містять велику кількість прикладів. Докладно регулярні вирази описані в книзі Джеффрі Фрідла "Регулярні вирази" (Jeffrey Friedl "Mastering Regular Expressions"), опублікованій видавництвом O'Reilly (ISBN 1-56592-257-3). Опис нижче дано як довідкову інформацію.

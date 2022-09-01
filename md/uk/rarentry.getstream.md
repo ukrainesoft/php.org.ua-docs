@@ -1,16 +1,11 @@
-Отримати обробник для запису
-
--   [« RarEntry::getPackedSize](rarentry.getpackedsize.md)
-    
--   [RarEntry::getUnpackedSize »](rarentry.getunpackedsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarEntry](class.rarentry.md)
-    
--   Отримати обробник для запису
-    
-
+---
+navigation:
+  - rarentry.getpackedsize.md: '« RarEntry::getPackedSize'
+  - rarentry.getunpackedsize.md: 'RarEntry::getUnpackedSize »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getStream'
+---
 # RarEntry::getStream
 
 (PECL rar >= 2.0.0)
@@ -43,8 +38,8 @@ public RarEntry::getStream(string $password = ?): resource|false
 
 ### список змін
 
-| Версия         | Описание                                                                        |
-|----------------|---------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 3.0.0 | Підтримка RAR-архівів з іменами записів, що дублюються, тепер працює нормально. |
 
 ### Приклади

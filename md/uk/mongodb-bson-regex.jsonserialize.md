@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONRegex::getPattern](mongodb-bson-regex.getpattern.html)
-    
--   [MongoDBBSONRegex::serialize »](mongodb-bson-regex.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-regex.getpattern.html: '« MongoDBBSONRegex::getPattern'
+  - mongodb-bson-regex.serialize.html: 'MongoDBBSONRegex::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::jsonSerialize'
+---
 # MongoDBBSONRegex::jsonSerialize
 
 (mongodb >=1.2.0)

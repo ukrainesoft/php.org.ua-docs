@@ -1,16 +1,11 @@
-Повертає детальну інформацію про всі типи бази GeoIP
-
--   [« geoipдбfilename](function.geoip-db-filename.html)
-    
--   [geoipdomainбname »](function.geoip-domain-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Повертає детальну інформацію про всі типи бази GeoIP
-    
-
+---
+navigation:
+  - function.geoip-db-filename.html: « geoipдбfilename
+  - function.geoip-domain-by-name.html: geoipdomainбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipдбgetallinfo
+---
 # geoipдбgetallinfo
 
 (PECL geoip >= 1.0.1)

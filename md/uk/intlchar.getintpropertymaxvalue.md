@@ -1,16 +1,11 @@
-Отримати мінімальне значення для властивості Unicode
-
--   [« IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.html)
-    
--   [IntlChar::getIntPropertyMinValue »](intlchar.getintpropertyminvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати мінімальне значення для властивості Unicode
-    
-
+---
+navigation:
+  - intlchar.getfc-nfkc-closure.html: '« IntlChar::getFCNFKCClosure'
+  - intlchar.getintpropertyminvalue.md: 'IntlChar::getIntPropertyMinValue »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::getIntPropertyMaxValue'
+---
 # IntlChar::getIntPropertyMaxValue
 
 (PHP 7, PHP 8)

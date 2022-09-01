@@ -1,16 +1,11 @@
-Встановлює постійне з'єднання з сервером MySQL
-
--   [« mysqlnumrows](function.mysql-num-rows.html)
-    
--   [mysqlping »](function.mysql-ping.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Встановлює постійне з'єднання з сервером MySQL
-    
-
+---
+navigation:
+  - function.mysql-num-rows.html: « mysqlnumrows
+  - function.mysql-ping.html: mysqlping »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlpconnect
+---
 # mysqlpconnect
 
 (PHP 4, PHP 5)

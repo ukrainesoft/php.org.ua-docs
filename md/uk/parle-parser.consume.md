@@ -1,16 +1,11 @@
-Використовує дані для обробки
-
--   [« ParleParser::build](parle-parser.build.html)
-    
--   [ParleParser::dump »](parle-parser.dump.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Використовує дані для обробки
-    
-
+---
+navigation:
+  - parle-parser.build.html: '« ParleParser::build'
+  - parle-parser.dump.html: 'ParleParser::dump »'
+  - index.md: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::consume'
+---
 # ParleParser::consume
 
 (PECL parle >= 0.5.1)

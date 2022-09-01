@@ -1,16 +1,11 @@
-Функції
-
--   [« MongoDBBSON](book.bson.md)
-    
--   [MongoDBBSONfromJSON »](function.mongodb.bson-fromjson.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Функції
-    
-
+---
+navigation:
+  - book.bson.md: « MongoDBBSON
+  - function.mongodb.bson-fromjson.html: MongoDBBSONfromJSON »
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Функції
+---
 # Функції
 
 ## Зміст

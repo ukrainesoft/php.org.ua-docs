@@ -1,16 +1,11 @@
-Починає новий візерунок
-
--   [«psbeginpage](function.ps-begin-page.html)
-    
--   [псbegintemplate »](function.ps-begin-template.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Починає новий візерунок
-    
-
+---
+navigation:
+  - function.ps-begin-page.html: «psbeginpage
+  - function.ps-begin-template.html: псbegintemplate »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псbeginpattern
+---
 # псbeginpattern
 
 (PECL ps >= 1.2.0)

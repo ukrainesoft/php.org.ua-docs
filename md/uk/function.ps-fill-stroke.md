@@ -1,16 +1,11 @@
-Заповнює та обводить поточний шлях
-
--   [«psendtemplate](function.ps-end-template.html)
-    
--   [псfill »](function.ps-fill.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Заповнює та обводить поточний шлях
-    
-
+---
+navigation:
+  - function.ps-end-template.html: «psendtemplate
+  - function.ps-fill.html: псfill »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псfillstroke
+---
 # псfillstroke
 
 (PECL ps >= 1.1.0)

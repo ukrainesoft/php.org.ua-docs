@@ -1,16 +1,11 @@
-Конструктор, який забороняє створення екземпляра
-
--   [« Closure](class.closure.md)
-    
--   [Closure::bind »](closure.bind.md)
-    
--   [PHP Manual](index.md)
-    
--   [Closure](class.closure.md)
-    
--   Конструктор, який забороняє створення екземпляра
-    
-
+---
+navigation:
+  - class.closure.md: « Closure
+  - closure.bind.md: 'Closure::bind »'
+  - index.md: PHP Manual
+  - class.closure.md: Closure
+title: 'Closure::construct'
+---
 # Closure::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

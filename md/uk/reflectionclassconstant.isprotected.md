@@ -1,16 +1,11 @@
-Перевіряє, чи константа захищена
-
--   [« ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.html)
-    
--   [ReflectionClassConstant::isPublic »](reflectionclassconstant.ispublic.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
-    
--   Перевіряє, чи константа захищена
-    
-
+---
+navigation:
+  - reflectionclassconstant.isprivate.html: '« ReflectionClassConstant::isPrivate'
+  - reflectionclassconstant.ispublic.html: 'ReflectionClassConstant::isPublic »'
+  - index.html: PHP Manual
+  - class.reflectionclassconstant.html: ReflectionClassConstant
+title: 'ReflectionClassConstant::isProtected'
+---
 # ReflectionClassConstant::isProtected
 
 (PHP 7> = 7.1.0, PHP 8)

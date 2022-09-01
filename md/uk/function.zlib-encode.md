@@ -1,16 +1,11 @@
-Стиснення даних із зазначеним кодуванням
-
--   [« zlibdecode](function.zlib-decode.html)
-    
--   [zlibgetcodingtype »](function.zlib-get-coding-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Стиснення даних із зазначеним кодуванням
-    
-
+---
+navigation:
+  - function.zlib-decode.html: « zlibdecode
+  - function.zlib-get-coding-type.html: zlibgetcodingtype »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: zlibencode
+---
 # zlibencode
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

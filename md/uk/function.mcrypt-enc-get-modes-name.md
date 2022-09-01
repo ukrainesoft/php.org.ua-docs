@@ -1,16 +1,11 @@
-Повертає ім'я режиму, що використовується
-
--   [« mcryptencgetkeysize](function.mcrypt-enc-get-key-size.html)
-    
--   [mcryptencgetsupportedkeysizes »](function.mcrypt-enc-get-supported-key-sizes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Повертає ім'я режиму, що використовується
-    
-
+---
+navigation:
+  - function.mcrypt-enc-get-key-size.html: « mcryptencgetkeysize
+  - function.mcrypt-enc-get-supported-key-sizes.html: mcryptencgetsupportedkeysizes »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptencgetmodesname
+---
 # mcryptencgetmodesname
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

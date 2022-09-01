@@ -1,16 +1,11 @@
-Фільтрує змінну за допомогою певного фільтра
-
--   [« filtervararray](function.filter-var-array.html)
-    
--   [Управление функциями »](book.funchand.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції фільтрації даних](ref.filter.md)
-    
--   Фільтрує змінну за допомогою певного фільтра
-    
-
+---
+navigation:
+  - function.filter-var-array.html: « filtervararray
+  - book.funchand.md: Управление функциями »
+  - index.md: PHP Manual
+  - ref.filter.md: Функції фільтрації даних
+title: filtervar
+---
 # filtervar
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

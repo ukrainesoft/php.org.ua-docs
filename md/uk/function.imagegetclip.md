@@ -1,16 +1,11 @@
-Отримати прямокутник, що відсікає
-
--   [« imagegd](function.imagegd.html)
-    
--   [imagegetinterpolation »](function.imagegetinterpolation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Отримати прямокутник, що відсікає
-    
-
+---
+navigation:
+  - function.imagegd.html: « imagegd
+  - function.imagegetinterpolation.html: imagegetinterpolation »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagegetclip
+---
 # imagegetclip
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -42,9 +37,9 @@ imagegetclip(GdImage $image): array
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

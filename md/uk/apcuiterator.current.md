@@ -1,16 +1,11 @@
-Отримати поточний елемент
-
--   [« APCUIterator::construct](apcuiterator.construct.md)
-    
--   [APCUIterator::getTotalCount »](apcuiterator.gettotalcount.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Отримати поточний елемент
-    
-
+---
+navigation:
+  - apcuiterator.construct.md: '« APCUIterator::construct'
+  - apcuiterator.gettotalcount.md: 'APCUIterator::getTotalCount »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::current'
+---
 # APCUIterator::current
 
 (PECL apcu >= 5.0.0)

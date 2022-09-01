@@ -1,16 +1,11 @@
-Збільшує значення, пов'язане з ключем
-
--   [« wincacheucacheget](function.wincache-ucache-get.html)
-    
--   [wincacheucacheinfo »](function.wincache-ucache-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Збільшує значення, пов'язане з ключем
-    
-
+---
+navigation:
+  - function.wincache-ucache-get.html: « wincacheucacheget
+  - function.wincache-ucache-info.html: wincacheucacheinfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucacheinc
+---
 # wincacheucacheinc
 
 (PECL wincache >= 1.1.0)

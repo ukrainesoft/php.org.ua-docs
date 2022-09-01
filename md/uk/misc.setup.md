@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.misc.html)
-    
--   [Вимоги »](misc.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Misc.](book.misc.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.misc.html: « Введение
+  - misc.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.misc.html: Misc.
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

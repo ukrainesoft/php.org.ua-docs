@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](zlib.requirements.md)
-    
--   [Налаштування під час виконання »](zlib.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](zlib.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - zlib.requirements.md: « Вимоги
+  - zlib.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - zlib.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Підтримка Zlib у PHP відключена за умовчанням. Щоб її увімкнути, використовуйте опцію **\-with-zlib=DIR** під час збирання.

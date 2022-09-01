@@ -1,16 +1,11 @@
-Створює новий екземпляр класу
-
--   [« DsSet::clear](ds-set.clear.html)
-    
--   [ДсSet::contains »](ds-set.contains.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Створює новий екземпляр класу
-    
-
+---
+navigation:
+  - ds-set.clear.html: '« DsSet::clear'
+  - ds-set.contains.html: 'ДсSet::contains »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::construct'
+---
 # ДсSet::construct
 
 (PECL ds >= 1.0.0)

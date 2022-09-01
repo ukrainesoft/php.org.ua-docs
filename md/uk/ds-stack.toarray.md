@@ -1,16 +1,11 @@
-Перетворює колекцію на масив (array)
-
--   [« DsStack::push](ds-stack.push.html)
-    
--   [Черга »](class.ds-queue.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Перетворює колекцію на масив (array)
-    
-
+---
+navigation:
+  - ds-stack.push.html: '« DsStack::push'
+  - class.ds-queue.html: Черга »
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::toArray'
+---
 # ДсStack::toArray
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Встановлює сцену зображення
-
--   [« Gmagick::setimageresolution](gmagick.setimageresolution.html)
-    
--   [Gmagick::setimagetype »](gmagick.setimagetype.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Встановлює сцену зображення
-    
-
+---
+navigation:
+  - gmagick.setimageresolution.html: '« Gmagick::setimageresolution'
+  - gmagick.setimagetype.html: 'Gmagick::setimagetype »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::setimagescene'
+---
 # Gmagick::setimagescene
 
 (PECL gmagick >= Unknown)

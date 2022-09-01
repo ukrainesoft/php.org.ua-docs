@@ -1,16 +1,11 @@
-Розтискає поточний файл
-
--   [« PharFileInfo::construct](pharfileinfo.construct.md)
-    
--   [PharFileInfo::delMetadata »](pharfileinfo.delmetadata.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Розтискає поточний файл
-    
-
+---
+navigation:
+  - pharfileinfo.construct.md: '« PharFileInfo::construct'
+  - pharfileinfo.delmetadata.md: 'PharFileInfo::delMetadata »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::decompress'
+---
 # PharFileInfo::decompress
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

@@ -1,16 +1,11 @@
-Кодує рядок для MIME-заголовка
-
--   [« mbdetectorder](function.mb-detect-order.html)
-    
--   [мбencodenumericentity »](function.mb-encode-numericentity.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Кодує рядок для MIME-заголовка
-    
-
+---
+navigation:
+  - function.mb-detect-order.html: « mbdetectorder
+  - function.mb-encode-numericentity.html: мбencodenumericentity »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбencodemimeheader
+---
 # мбencodemimeheader
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ mb_encode_mimeheader(    string $string,    ?string $charset = null,  
 
 ### список змін
 
-| Версия | Описание                                                        |
-|--------|-----------------------------------------------------------------|
-|        | `charset` і `transfer_encoding` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `charset` і `transfer_encoding` тепер допускають значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Зміна поведінки PHP
-
--   [« Справочник функций](funcref.md)
-    
--   [APCu »](book.apcu.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Зміна поведінки PHP
-    
-
+---
+navigation:
+  - funcref.md: « Справочник функций
+  - book.apcu.md: APCu »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Зміна поведінки PHP
+---
 # Зміна поведінки PHP
 
 -   [APCu](book.apcu.md) — Користувальницький кеш APC

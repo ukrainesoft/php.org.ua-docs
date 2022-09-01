@@ -1,16 +1,11 @@
-Відповідає параметру stats.field
-
--   [« SolrQuery::addStatsFacet](solrquery.addstatsfacet.md)
-    
--   [SolrQuery::collapse »](solrquery.collapse.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Відповідає параметру stats.field
-    
-
+---
+navigation:
+  - solrquery.addstatsfacet.md: '« SolrQuery::addStatsFacet'
+  - solrquery.collapse.md: 'SolrQuery::collapse »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addStatsField'
+---
 # SolrQuery::addStatsField
 
 (PECL solr> = 0.9.2)

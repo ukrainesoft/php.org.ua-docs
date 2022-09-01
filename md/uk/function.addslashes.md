@@ -1,16 +1,11 @@
-Екранує рядок за допомогою слішів
-
--   [« addcslashes](function.addcslashes.md)
-    
--   [bin2hex »](function.bin2hex.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Екранує рядок за допомогою слішів
-    
-
+---
+navigation:
+  - function.addcslashes.md: « addcslashes
+  - function.bin2hex.md: bin2hex »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: addslashes
+---
 # addslashes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

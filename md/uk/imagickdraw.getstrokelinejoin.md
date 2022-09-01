@@ -1,16 +1,11 @@
-Повертає форму, яка використовуватиметься в кутах контурів під час їх обведення
-
--   [« ImagickDraw::getStrokeLineCap](imagickdraw.getstrokelinecap.md)
-    
--   [ImagickDraw::getStrokeMiterLimit »](imagickdraw.getstrokemiterlimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає форму, яка використовуватиметься в кутах контурів під час їх обведення
-    
-
+---
+navigation:
+  - imagickdraw.getstrokelinecap.md: '« ImagickDraw::getStrokeLineCap'
+  - imagickdraw.getstrokemiterlimit.md: 'ImagickDraw::getStrokeMiterLimit »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getStrokeLineJoin'
+---
 # ImagickDraw::getStrokeLineJoin
 
 (PECL imagick 2, PECL imagick 3)

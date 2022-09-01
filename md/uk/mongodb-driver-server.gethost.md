@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverServer::executeWriteCommand](mongodb-driver-server.executewritecommand.html)
-    
--   [MongoDBDriverServer::getInfo »](mongodb-driver-server.getinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - mongodb-driver-server.executewritecommand.html: '« MongoDBDriverServer::executeWriteCommand'
+  - mongodb-driver-server.getinfo.html: 'MongoDBDriverServer::getInfo »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::getHost'
+---
 # MongoDBDriverServer::getHost
 
 (mongodb >=1.0.0)

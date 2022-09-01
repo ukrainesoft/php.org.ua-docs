@@ -1,16 +1,11 @@
-Встановлює/отримує поточну мову
-
--   [« mbinternalencoding](function.mb-internal-encoding.html)
-    
--   [мбlistencodings »](function.mb-list-encodings.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Встановлює/отримує поточну мову
-    
-
+---
+navigation:
+  - function.mb-internal-encoding.html: « mbinternalencoding
+  - function.mb-list-encodings.html: мбlistencodings »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбlanguage
+---
 # мбlanguage
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -31,20 +26,20 @@ mb_language(?string $language = null): string|bool
 
 Використовується для кодування електронних листів. Допустимі мови перелічені в наступній таблиці.[мбsendmail()](function.mb-send-mail.html) використовує параметр для кодування електронної пошти.
 
-| Язык                            | Кодировка   | Кодирование      | Псевдоним               |
-|---------------------------------|-------------|------------------|-------------------------|
-| Німецька мова/de (German)       | ISO-8859-15 | Quoted-Printable | Німецька мова (Deutsch) |
-| Англійська мова/en              | ISO-8859-1  | Quoted-Printable |                         |
-| Вірменська мова/hy              | ArmSCII-8   | Quoted-Printable |                         |
-| Японська мова/ja                | ISO-2022-JP | BASE64           |                         |
-| Корейська мова/ko               | ISO-2022-KR | BASE64           |                         |
-| neutral                         | UTF-8       | BASE64           |                         |
-| Російська мова/ua               | KOI8-R      | Quoted-Printable |                         |
-| Турецька мова/tr                | ISO-8859-9  | Quoted-Printable |                         |
-| Українська мова/ua              | KOI8-U      | Quoted-Printable |                         |
-| uni                             | UTF-8       | BASE64           | Універсальний           |
-| Спрощена китайська мова/zh-cn   | ХЗ          | BASE64           |                         |
-| Традиційна китайська мова/zh-tw | BIG-5       | BASE64           |                         |
+| Язык | Кодировка | Кодирование | Псевдоним |
+| --- | --- | --- | --- |
+| Німецька мова/de (German) | ISO-8859-15 | Quoted-Printable | Німецька мова (Deutsch) |
+| Англійська мова/en | ISO-8859-1 | Quoted-Printable |  |
+| Вірменська мова/hy | ArmSCII-8 | Quoted-Printable |  |
+| Японська мова/ja | ISO-2022-JP | BASE64 |  |
+| Корейська мова/ko | ISO-2022-KR | BASE64 |  |
+| neutral | UTF-8 | BASE64 |  |
+| Російська мова/ua | KOI8-R | Quoted-Printable |  |
+| Турецька мова/tr | ISO-8859-9 | Quoted-Printable |  |
+| Українська мова/ua | KOI8-U | Quoted-Printable |  |
+| uni | UTF-8 | BASE64 | Універсальний |
+| Спрощена китайська мова/zh-cn | ХЗ | BASE64 |  |
+| Традиційна китайська мова/zh-tw | BIG-5 | BASE64 |  |
 
 ### Значення, що повертаються
 
@@ -52,9 +47,9 @@ mb_language(?string $language = null): string|bool
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `language` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `language` може набувати значення **`null`** |
 
 ### Дивіться також
 

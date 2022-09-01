@@ -1,16 +1,11 @@
-Клонувати
-
--   [« ReflectionProperty](class.reflectionproperty.md)
-    
--   [ReflectionProperty::construct »](reflectionproperty.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Клонувати
-    
-
+---
+navigation:
+  - class.reflectionproperty.md: « ReflectionProperty
+  - reflectionproperty.construct.md: 'ReflectionProperty::construct »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::clone'
+---
 # ReflectionProperty::clone
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ private ReflectionProperty::__clone(): void
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 

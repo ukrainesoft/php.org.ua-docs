@@ -1,16 +1,11 @@
-Нові класи та інтерфейси
-
--   [« Нові функції](migration70.new-functions.html)
-    
--   [Нові глобальні константи »](migration70.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
-    
--   Нові класи та інтерфейси
-    
-
+---
+navigation:
+  - migration70.new-functions.html: « Нові функції
+  - migration70.constants.md: Нові глобальні константи »
+  - index.md: PHP Manual
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Нові класи та інтерфейси
+---
 ## Нові класи та інтерфейси
 
 ### [Інтернаціоналізація](book.intl.md)

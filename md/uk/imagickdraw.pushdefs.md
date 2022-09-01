@@ -1,16 +1,11 @@
-Вказує, що наступні команди створюють іменовані елементи для ранньої обробки
-
--   [« ImagickDraw::pushClipPath](imagickdraw.pushclippath.html)
-    
--   [ImagickDraw::pushPattern »](imagickdraw.pushpattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Вказує, що наступні команди створюють іменовані елементи для ранньої обробки
-    
-
+---
+navigation:
+  - imagickdraw.pushclippath.html: '« ImagickDraw::pushClipPath'
+  - imagickdraw.pushpattern.html: 'ImagickDraw::pushPattern »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pushDefs'
+---
 # ImagickDraw::pushDefs
 
 (PECL imagick 2, PECL imagick 3)

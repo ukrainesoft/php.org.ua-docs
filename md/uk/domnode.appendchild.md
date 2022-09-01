@@ -1,16 +1,11 @@
-Додає новий дочірній вузол до кінця списку нащадків
-
--   [« DOMNode](class.domnode.md)
-    
--   [DOMNode::C14N »](domnode.c14n.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Додає новий дочірній вузол до кінця списку нащадків
-    
-
+---
+navigation:
+  - class.domnode.md: « DOMNode
+  - domnode.c14n.md: 'DOMNode::C14N »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::appendChild'
+---
 # DOMNode::appendChild
 
 (PHP 5, PHP 7, PHP 8)

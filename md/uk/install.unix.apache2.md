@@ -1,16 +1,11 @@
-Apache 2.x на Unix системах
-
--   [« Установка на Unix-системи](install.unix.md)
-    
--   [Установка Nginx 1.4.x на систему Unix »](install.unix.nginx.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення на Unix-системи](install.unix.md)
-    
--   Apache 2.x на Unix системах
-    
-
+---
+navigation:
+  - install.unix.md: « Установка на Unix-системи
+  - install.unix.nginx.md: Установка Nginx 1.4.x на систему Unix »
+  - index.md: PHP Manual
+  - install.unix.md: Встановлення на Unix-системи
+title: Apache 2.x на Unix системах
+---
 ## Apache 2.x на Unix системах
 
 Цей розділ описує інсталяцію PHP з Apache 2.x на Unix системах.

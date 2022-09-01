@@ -1,16 +1,11 @@
-Клас ParleRLexer
-
--   [« ParleLexer::reset](parle-lexer.reset.html)
-    
--   [ParleRLexer::advance »](parle-rlexer.advance.html)
-    
--   [PHP Manual](index.md)
-    
--   [Parle](book.parle.md)
-    
--   Клас ParleRLexer
-    
-
+---
+navigation:
+  - parle-lexer.reset.html: '« ParleLexer::reset'
+  - parle-rlexer.advance.html: 'ParleRLexer::advance »'
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleRLexer
+---
 # Клас ParleRLexer
 
 (PECL parle >= 0.5.1)

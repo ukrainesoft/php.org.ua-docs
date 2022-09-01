@@ -1,16 +1,11 @@
-Нанесення тексту на зображення за допомогою шрифтів FreeType 2
-
--   [« imageftbbox](function.imageftbbox.html)
-    
--   [imagegammacorrect »](function.imagegammacorrect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Нанесення тексту на зображення за допомогою шрифтів FreeType 2
-    
-
+---
+navigation:
+  - function.imageftbbox.html: « imageftbbox
+  - function.imagegammacorrect.html: imagegammacorrect »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagefttext
+---
 # imagefttext
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
@@ -79,8 +74,8 @@ $font = 'SomeFont';
 
 **Можливі значення масиву `options`**
 
-| Ключ          | Тип   | Значение                                 |
-|---------------|-------|------------------------------------------|
+| Ключ | Тип | Значение |
+| --- | --- | --- |
 | `linespacing` | float | Визначає малювання нижнього підкреслення |
 
 ### Значення, що повертаються
@@ -95,9 +90,9 @@ td>
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

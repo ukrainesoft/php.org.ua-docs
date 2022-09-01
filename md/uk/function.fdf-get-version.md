@@ -1,16 +1,11 @@
-Отримує номер версії для FDF API або файлу
-
--   [« fdfgetvalue](function.fdf-get-value.html)
-    
--   [fdfheader »](function.fdf-header.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Отримує номер версії для FDF API або файлу
-    
-
+---
+navigation:
+  - function.fdf-get-value.html: « fdfgetvalue
+  - function.fdf-header.html: fdfheader »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfgetversion
+---
 # fdfgetversion
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

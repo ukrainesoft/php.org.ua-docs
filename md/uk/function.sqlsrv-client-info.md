@@ -1,16 +1,11 @@
-Повертає інформацію про клієнта та зазначене підключення
-
--   [« sqlsrvcancel](function.sqlsrv-cancel.html)
-    
--   [sqlsrvclose »](function.sqlsrv-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Повертає інформацію про клієнта та зазначене підключення
-    
-
+---
+navigation:
+  - function.sqlsrv-cancel.html: « sqlsrvcancel
+  - function.sqlsrv-close.html: sqlsrvclose »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvclientinfo
+---
 # sqlsrvclientinfo
 
 (No version information available, might only be in Git)
@@ -37,12 +32,12 @@ sqlsrv_client_info(resource $conn): array
 
 **Масив, що повертається sqlsrvclientinfo**
 
-| Ключ          | Описание                                       |
-|---------------|------------------------------------------------|
-| DriverDllName | SQLNCLI10.DLL                                  |
-| DriverODBCVer | Версія ODBC (xx.yy)                            |
-| DriverVer     | Версія SQL Server Native Client DLL (10.5.xxx) |
-| ExtensionVer  | Версія phpsqlsrv.dll (2.0.xxx.x)               |
+| Ключ | Описание |
+| --- | --- |
+| DriverDllName | SQLNCLI10.DLL |
+| DriverODBCVer | Версія ODBC (xx.yy) |
+| DriverVer | Версія SQL Server Native Client DLL (10.5.xxx) |
+| ExtensionVer | Версія phpsqlsrv.dll (2.0.xxx.x) |
 
 ### Приклади
 

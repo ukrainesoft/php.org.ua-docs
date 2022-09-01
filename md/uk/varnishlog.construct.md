@@ -1,16 +1,11 @@
-Конструктор Varnishlog
-
--   [« VarnishLog](class.varnishlog.md)
-    
--   [VarnishLog::getLine »](varnishlog.getline.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishLog](class.varnishlog.md)
-    
--   Конструктор Varnishlog
-    
-
+---
+navigation:
+  - class.varnishlog.md: « VarnishLog
+  - varnishlog.getline.md: 'VarnishLog::getLine »'
+  - index.md: PHP Manual
+  - class.varnishlog.md: VarnishLog
+title: 'ВарнішЛог::construct'
+---
 # ВарнішЛог::construct
 
 (PECL varnish >= 0.6)

@@ -1,16 +1,11 @@
-Повертає кількість порушених запитом записів (кортежів)
-
--   [« Функции PostgreSQL](ref.pgsql.html)
-    
--   [пгcancelquery »](function.pg-cancel-query.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Повертає кількість порушених запитом записів (кортежів)
-    
-
+---
+navigation:
+  - ref.pgsql.html: « Функции PostgreSQL
+  - function.pg-cancel-query.html: пгcancelquery »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгaffectedrows
+---
 # пгaffectedrows
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pg_affected_rows(PgSql\Result $result): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

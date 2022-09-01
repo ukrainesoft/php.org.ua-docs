@@ -1,16 +1,11 @@
-Інтерпретує файл XML в об'єкт
-
--   [« simplexmlimportdom](function.simplexml-import-dom.html)
-    
--   [simplexmlloadstring »](function.simplexml-load-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции SimpleXML](ref.simplexml.md)
-    
--   Інтерпретує файл XML в об'єкт
-    
-
+---
+navigation:
+  - function.simplexml-import-dom.html: « simplexmlimportdom
+  - function.simplexml-load-string.html: simplexmlloadstring »
+  - index.md: PHP Manual
+  - ref.simplexml.md: Функции SimpleXML
+title: simplexmlloadfile
+---
 # simplexmlloadfile
 
 (PHP 5, PHP 7, PHP 8)

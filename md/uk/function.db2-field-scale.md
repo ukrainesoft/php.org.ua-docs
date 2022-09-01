@@ -1,16 +1,11 @@
-Повертає масштаб зазначеного стовпця у наборі результатів
-
--   [« db2fieldprecision](function.db2-field-precision.html)
-    
--   [db2fieldtype »](function.db2-field-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає масштаб зазначеного стовпця у наборі результатів
-    
-
+---
+navigation:
+  - function.db2-field-precision.html: « db2fieldprecision
+  - function.db2-field-type.html: db2fieldtype »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fieldscale
+---
 # db2fieldscale
 
 (PECL ibmdb2> = 1.0.0)

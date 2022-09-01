@@ -1,16 +1,11 @@
-Отримати ім'я функції генератора
-
--   [« ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.md)
-    
--   [ReflectionGenerator::getThis »](reflectiongenerator.getthis.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionGenerator](class.reflectiongenerator.md)
-    
--   Отримати ім'я функції генератора
-    
-
+---
+navigation:
+  - reflectiongenerator.getexecutingline.md: '« ReflectionGenerator::getExecutingLine'
+  - reflectiongenerator.getthis.md: 'ReflectionGenerator::getThis »'
+  - index.md: PHP Manual
+  - class.reflectiongenerator.md: ReflectionGenerator
+title: 'ReflectionGenerator::getFunction'
+---
 # ReflectionGenerator::getFunction
 
 (PHP 7, PHP 8)

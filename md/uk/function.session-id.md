@@ -1,16 +1,11 @@
-Отримує та/або встановлює ідентифікатор поточної сесії
-
--   [« sessiongetcookieparams](function.session-get-cookie-params.html)
-    
--   [sessionmodulename »](function.session-module-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Отримує та/або встановлює ідентифікатор поточної сесії
-    
-
+---
+navigation:
+  - function.session-get-cookie-params.html: « sessiongetcookieparams
+  - function.session-module-name.html: sessionmodulename »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessionід
+---
 # sessionід
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ session_id(?string $id = null): string|false
 
 ### список змін
 
-| Версия | Описание                        |
-|--------|---------------------------------|
-|        | `id` тепер може бути **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `id` тепер може бути **`null`** |
 
 ### Дивіться також
 

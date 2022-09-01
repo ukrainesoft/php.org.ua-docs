@@ -1,16 +1,11 @@
-Експортує дані BLOB/CLOB у файл
-
--   [« cubridlobclose](function.cubrid-lob-close.html)
-    
--   [cubridlobget »](function.cubrid-lob-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Експортує дані BLOB/CLOB у файл
-    
-
+---
+navigation:
+  - function.cubrid-lob-close.html: « cubridlobclose
+  - function.cubrid-lob-get.html: cubridlobget »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridлобexport
+---
 # cubridлобexport
 
 (PECL CUBRID >= 8.3.1)

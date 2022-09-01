@@ -1,16 +1,11 @@
-Генерує хеш SHA-256
-
--   [« Imagick::getImageScene](imagick.getimagescene.md)
-    
--   [Imagick::getImageSize »](imagick.getimagesize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Генерує хеш SHA-256
-    
-
+---
+navigation:
+  - imagick.getimagescene.md: '« Imagick::getImageScene'
+  - imagick.getimagesize.md: 'Imagick::getImageSize »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageSignature'
+---
 # Imagick::getImageSignature
 
 (PECL imagick 2, PECL imagick 3)

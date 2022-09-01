@@ -1,16 +1,11 @@
-Отримати текст
-
--   [« UIControlsLabel::construct](ui-controls-label.construct.html)
-    
--   [ОЙControlsLabel::setText »](ui-controls-label.settext.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsLabel](class.ui-controls-label.html)
-    
--   Отримати текст
-    
-
+---
+navigation:
+  - ui-controls-label.construct.html: '« UIControlsLabel::construct'
+  - ui-controls-label.settext.html: 'ОЙControlsLabel::setText »'
+  - index.html: PHP Manual
+  - class.ui-controls-label.html: ОЙControlsLabel
+title: 'ОЙControlsLabel::getText'
+---
 # ОЙControlsLabel::getText
 
 (UI 0.9.9)

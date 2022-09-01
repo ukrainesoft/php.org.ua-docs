@@ -1,16 +1,11 @@
-Вступ
-
--   [« WDDX](book.wddx.md)
-    
--   [Встановлення та налаштування »](wddx.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [WDDX](book.wddx.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.wddx.md: « WDDX
+  - wddx.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.wddx.md: WDDX
+title: Вступ
+---
 # Вступ
 
 **Увага**

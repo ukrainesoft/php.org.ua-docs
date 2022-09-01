@@ -1,16 +1,11 @@
-ValueError
-
--   [« TypeError](class.typeerror.md)
-    
--   [UnhandledMatchError »](class.unhandledmatcherror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   ValueError
-    
-
+---
+navigation:
+  - class.typeerror.md: « TypeError
+  - class.unhandledmatcherror.md: UnhandledMatchError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: ValueError
+---
 # ValueError
 
 (PHP 8)

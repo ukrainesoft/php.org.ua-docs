@@ -1,16 +1,11 @@
-Видалення блоку пам'яті, що розділяється
-
--   [« shmopclose](function.shmop-close.html)
-    
--   [shmopopen »](function.shmop-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пам'ять, що розділяється (shared)](ref.shmop.md)
-    
--   Видалення блоку пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shmop-close.html: « shmopclose
+  - function.shmop-open.html: shmopopen »
+  - index.md: PHP Manual
+  - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
+title: shmopdelete
+---
 # shmopdelete
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ shmop_delete(Shmop $shmop): bool
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

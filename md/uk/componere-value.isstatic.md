@@ -1,16 +1,11 @@
-Визначення доступності
-
--   [« ComponereValue::isProtected](componere-value.isprotected.html)
-    
--   [ComponereValue::hasDefault »](componere-value.hasdefault.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereValue](class.componere-value.html)
-    
--   Визначення доступності
-    
-
+---
+navigation:
+  - componere-value.isprotected.html: '« ComponereValue::isProtected'
+  - componere-value.hasdefault.html: 'ComponereValue::hasDefault »'
+  - index.md: PHP Manual
+  - class.componere-value.html: ComponereValue
+title: 'ComponereValue::isStatic'
+---
 # ComponereValue::isStatic
 
 (Componere 2 >= 2.1.0)

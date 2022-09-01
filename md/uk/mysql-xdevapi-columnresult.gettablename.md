@@ -1,16 +1,11 @@
-Отримує назву таблиці
-
--   [« ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.html)
-    
--   [ColumnResult::getType »](mysql-xdevapi-columnresult.gettype.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує назву таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.gettablelabel.html: '« ColumnResult::getTableLabel'
+  - mysql-xdevapi-columnresult.gettype.html: 'ColumnResult::getType »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getTableName'
+---
 # ColumnResult::getTableName
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Клас LuaSandboxError
-
--   [« LuaSandboxFunction::dump](luasandboxfunction.dump.html)
-    
--   [LuaSandboxErrorError »](class.luasandboxerrorerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](book.luasandbox.html)
-    
--   Клас LuaSandboxError
-    
-
+---
+navigation:
+  - luasandboxfunction.dump.html: '« LuaSandboxFunction::dump'
+  - class.luasandboxerrorerror.html: LuaSandboxErrorError »
+  - index.html: PHP Manual
+  - book.luasandbox.html: LuaSandbox
+title: Клас LuaSandboxError
+---
 # Клас LuaSandboxError
 
 (PECL luasandbox >= 1.0.0)

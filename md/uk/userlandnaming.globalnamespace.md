@@ -1,16 +1,11 @@
-Глобальний простір імен
-
--   [« Руководство по именованию](userlandnaming.html)
-    
--   [Правила »](userlandnaming.rules.html)
-    
--   [PHP Manual](index.html)
-    
--   [Руководство по именованию](userlandnaming.html)
-    
--   Глобальний простір імен
-    
-
+---
+navigation:
+  - userlandnaming.html: « Руководство по именованию
+  - userlandnaming.rules.html: Правила »
+  - index.html: PHP Manual
+  - userlandnaming.html: Руководство по именованию
+title: Глобальний простір імен
+---
 ## Глобальний простір імен
 
 Огляд конструкцій, що утворюють ідентифікатори в глобальному просторі імен.

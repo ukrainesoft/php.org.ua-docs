@@ -1,16 +1,11 @@
-Встановити дані, що містять XML для аналізу
-
--   [« XMLReader::setSchema](xmlreader.setschema.html)
-    
--   [XMLWriter »](book.xmlwriter.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](class.xmlreader.html)
-    
--   Встановити дані, що містять XML для аналізу
-    
-
+---
+navigation:
+  - xmlreader.setschema.html: '« XMLReader::setSchema'
+  - book.xmlwriter.html: XMLWriter »
+  - index.html: PHP Manual
+  - class.xmlreader.html: XMLReader
+title: 'XMLReader::XML'
+---
 # XMLReader::XML
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ public static XMLReader::XML(string $source, ?string $encoding = null, int $flag
 
 ### список змін
 
-| Версия | Описание                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-|        | **XMLReader::XML()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.html) |
+| Версия | Описание |
+| --- | --- |
+|  | **XMLReader::XML()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.html) |
 
 ### Дивіться також
 

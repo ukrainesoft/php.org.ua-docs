@@ -1,16 +1,11 @@
-Обчислює випадкове відхилення від експоненційного розподілу
-
--   [« statsrandgenchisquare](function.stats-rand-gen-chisquare.html)
-    
--   [statsrandgenf »](function.stats-rand-gen-f.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює випадкове відхилення від експоненційного розподілу
-    
-
+---
+navigation:
+  - function.stats-rand-gen-chisquare.html: « statsrandgenchisquare
+  - function.stats-rand-gen-f.html: statsrandgenf »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandгенexponential
+---
 # statsrandгенexponential
 
 (PECL stats >= 1.0.0)

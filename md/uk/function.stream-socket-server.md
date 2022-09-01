@@ -1,16 +1,11 @@
-Створює інтернет-сокет або доменний сокет Unix
-
--   [« streamsocketsendto](function.stream-socket-sendto.html)
-    
--   [streamsocketshutdown »](function.stream-socket-shutdown.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Створює інтернет-сокет або доменний сокет Unix
-    
-
+---
+navigation:
+  - function.stream-socket-sendto.html: « streamsocketsendto
+  - function.stream-socket-shutdown.html: streamsocketshutdown »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsocketserver
+---
 # streamsocketserver
 
 (PHP 5, PHP 7, PHP 8)
@@ -61,9 +56,9 @@ stream_socket_server(    string $address,    int &$error_code = null, �
 
 ### список змін
 
-| Версия | Описание                                         |
-|--------|--------------------------------------------------|
-|        | Параметр `context` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `context` тепер допускає значення null. |
 
 ### Приклади
 

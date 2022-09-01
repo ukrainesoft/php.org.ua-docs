@@ -1,16 +1,11 @@
-Бабка дожі
-
--   [« tradercdldojistar](function.trader-cdldojistar.html)
-    
--   [tradercdlengulfing »](function.trader-cdlengulfing.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Бабка дожі
-    
-
+---
+navigation:
+  - function.trader-cdldojistar.html: « tradercdldojistar
+  - function.trader-cdlengulfing.html: tradercdlengulfing »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdldragonflydoji
+---
 # tradercdldragonflydoji
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Встановити параметр конфігурації ident класу
-
--   [« VarnishAdmin::setHost](varnishadmin.sethost.html)
-    
--   [VarnishAdmin::setParam »](varnishadmin.setparam.html)
-    
--   [PHP Manual](index.html)
-    
--   [VarnishAdmin](class.varnishadmin.html)
-    
--   Встановити параметр конфігурації ident класу
-    
-
+---
+navigation:
+  - varnishadmin.sethost.html: '« VarnishAdmin::setHost'
+  - varnishadmin.setparam.html: 'VarnishAdmin::setParam »'
+  - index.html: PHP Manual
+  - class.varnishadmin.html: VarnishAdmin
+title: 'VarnishAdmin::setIdent'
+---
 # VarnishAdmin::setIdent
 
 (PECL varnish >= 0.8)

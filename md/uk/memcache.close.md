@@ -1,16 +1,11 @@
-Закрити з'єднання з сервером memcached
-
--   [« Memcache::addServer](memcache.addserver.html)
-    
--   [Memcache::connect »](memcache.connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Закрити з'єднання з сервером memcached
-    
-
+---
+navigation:
+  - memcache.addserver.html: '« Memcache::addServer'
+  - memcache.connect.html: 'Memcache::connect »'
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::close'
+---
 # Memcache::close
 
 (PECL memcache >= 0.4.0)

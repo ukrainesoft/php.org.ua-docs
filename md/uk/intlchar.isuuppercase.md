@@ -1,16 +1,11 @@
-Перевірити, чи символ символом у верхньому регістрі
-
--   [« IntlChar::isupper](intlchar.isupper.md)
-    
--   [IntlChar::isUWhiteSpace »](intlchar.isuwhitespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи символ символом у верхньому регістрі
-    
-
+---
+navigation:
+  - intlchar.isupper.md: '« IntlChar::isupper'
+  - intlchar.isuwhitespace.md: 'IntlChar::isUWhiteSpace »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isUUppercase'
+---
 # IntlChar::isUUppercase
 
 (PHP 7, PHP 8)

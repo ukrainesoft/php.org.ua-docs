@@ -1,16 +1,11 @@
-Отримання класу, що оголошує
-
--   [« ReflectionParameter::getClass](reflectionparameter.getclass.html)
-    
--   [ReflectionParameter::getDeclaringFunction »](reflectionparameter.getdeclaringfunction.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionParameter](class.reflectionparameter.html)
-    
--   Отримання класу, що оголошує
-    
-
+---
+navigation:
+  - reflectionparameter.getclass.html: '« ReflectionParameter::getClass'
+  - reflectionparameter.getdeclaringfunction.html: 'ReflectionParameter::getDeclaringFunction »'
+  - index.html: PHP Manual
+  - class.reflectionparameter.html: ReflectionParameter
+title: 'ReflectionParameter::getDeclaringClass'
+---
 # ReflectionParameter::getDeclaringClass
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

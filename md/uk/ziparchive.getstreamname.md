@@ -1,16 +1,11 @@
-Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
-
--   [« ZipArchive::getStreamIndex](ziparchive.getstreamindex.md)
-    
--   [ZipArchive::isCompressionMethodSupported »](ziparchive.iscompressionmethoddupported.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
-    
-
+---
+navigation:
+  - ziparchive.getstreamindex.md: '« ZipArchive::getStreamIndex'
+  - ziparchive.iscompressionmethoddupported.md: 'ZipArchive::isCompressionMethodSupported »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::getStreamName'
+---
 # ZipArchive::getStreamName
 
 (PHP 8 >= 8.2.0, PECL zip >= 1.20.0)

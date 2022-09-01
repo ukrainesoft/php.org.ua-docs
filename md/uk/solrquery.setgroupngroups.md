@@ -1,16 +1,11 @@
-Якщо true, Solr включає до результатів кількість груп, які відповідають запиту
-
--   [« SolrQuery::setGroupMain](solrquery.setgroupmain.md)
-    
--   [SolrQuery::setGroupOffset »](solrquery.setgroupoffset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Якщо true, Solr включає до результатів кількість груп, які відповідають запиту
-    
-
+---
+navigation:
+  - solrquery.setgroupmain.md: '« SolrQuery::setGroupMain'
+  - solrquery.setgroupoffset.md: 'SolrQuery::setGroupOffset »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setGroupNGroups'
+---
 # SolrQuery::setGroupNGroups
 
 (PECL solr> = 2.2.0)

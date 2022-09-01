@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.exif.md)
-    
--   [Вимоги »](exif.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Exif](book.exif.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.exif.md: « Введение
+  - exif.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.exif.md: Exif
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

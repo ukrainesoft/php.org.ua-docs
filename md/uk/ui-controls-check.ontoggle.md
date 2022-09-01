@@ -1,16 +1,11 @@
-Функція зворотного дзвінка перемикання
-
--   [« UIControlsCheck::isChecked](ui-controls-check.ischecked.html)
-    
--   [ОЙControlsCheck::setChecked »](ui-controls-check.setchecked.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsCheck](class.ui-controls-check.html)
-    
--   Функція зворотного дзвінка перемикання
-    
-
+---
+navigation:
+  - ui-controls-check.ischecked.html: '« UIControlsCheck::isChecked'
+  - ui-controls-check.setchecked.html: 'ОЙControlsCheck::setChecked »'
+  - index.md: PHP Manual
+  - class.ui-controls-check.html: ОЙControlsCheck
+title: 'ОЙControlsCheck::onToggle'
+---
 # ОЙControlsCheck::onToggle
 
 (UI 0.9.9)

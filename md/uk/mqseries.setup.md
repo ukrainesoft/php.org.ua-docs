@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.mqseries.html)
-    
--   [Вимоги »](mqseries.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [mqseries](book.mqseries.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.mqseries.html: « Введение
+  - mqseries.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.mqseries.html: mqseries
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

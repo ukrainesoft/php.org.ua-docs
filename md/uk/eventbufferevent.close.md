@@ -1,16 +1,11 @@
-Закриває дескриптор файлу, пов'язаний із поточною подією буфера
-
--   [« EventBufferEvent](class.eventbufferevent.html)
-    
--   [EventBufferEvent::connect »](eventbufferevent.connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Закриває дескриптор файлу, пов'язаний із поточною подією буфера
-    
-
+---
+navigation:
+  - class.eventbufferevent.html: « EventBufferEvent
+  - eventbufferevent.connect.html: 'EventBufferEvent::connect »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::close'
+---
 # EventBufferEvent::close
 
 (PECL event >= 1.10.0)

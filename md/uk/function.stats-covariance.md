@@ -1,16 +1,11 @@
-Обчислює коваріацію двох наборів даних
-
--   [« statscdfweibull](function.stats-cdf-weibull.html)
-    
--   [statsdensbeta »](function.stats-dens-beta.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює коваріацію двох наборів даних
-    
-
+---
+navigation:
+  - function.stats-cdf-weibull.html: « statscdfweibull
+  - function.stats-dens-beta.html: statsdensbeta »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscovariance
+---
 # statscovariance
 
 (PECL stats >= 1.0.0)

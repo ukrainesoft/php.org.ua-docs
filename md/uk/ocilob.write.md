@@ -1,16 +1,11 @@
-Записує дані в об'єкт LOB
-
--   [« OCILob::truncate](ocilob.truncate.md)
-    
--   [OCILob::writeTemporary »](ocilob.writetemporary.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCILob](class.ocilob.md)
-    
--   Записує дані в об'єкт LOB
-    
-
+---
+navigation:
+  - ocilob.truncate.md: '« OCILob::truncate'
+  - ocilob.writetemporary.md: 'OCILob::writeTemporary »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::write'
+---
 # OCILob::write
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -41,9 +36,9 @@ public OCILob::write(string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия                 | Описание                                                                                              |
-|------------------------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | `length` тепер допускає значення null.                                                                |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | `length` тепер допускає значення null. |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

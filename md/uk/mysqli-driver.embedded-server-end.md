@@ -1,16 +1,11 @@
-Зупиняє вбудований сервер
-
--   [« mysqlidriver](class.mysqli-driver.html)
-    
--   [mysqlidriver::embeddedserverstart »](mysqli-driver.embedded-server-start.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlidriver](class.mysqli-driver.html)
-    
--   Зупиняє вбудований сервер
-    
-
+---
+navigation:
+  - class.mysqli-driver.html: « mysqlidriver
+  - mysqli-driver.embedded-server-start.html: 'mysqlidriver::embeddedserverstart »'
+  - index.md: PHP Manual
+  - class.mysqli-driver.html: mysqlidriver
+title: 'mysqlidriver::embeddedserverend'
+---
 # mysqlidriver::embeddedserverend
 
 # mysqliembeddedserverend

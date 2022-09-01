@@ -1,16 +1,11 @@
-Оригінальне API MySQL
-
--   [« Warning::construct](mysql-xdevapi-warning.construct.html)
-    
--   [Введение »](intro.mysql.md)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](set.mysqlinfo.md)
-    
--   Оригінальне API MySQL
-    
-
+---
+navigation:
+  - mysql-xdevapi-warning.construct.html: '« Warning::construct'
+  - intro.mysql.md: Введение »
+  - index.md: PHP Manual
+  - set.mysqlinfo.md: MySQL
+title: Оригінальне API MySQL
+---
 # Оригінальне API MySQL
 
 -   [Введение](intro.mysql.md)

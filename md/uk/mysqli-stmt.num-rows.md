@@ -1,16 +1,11 @@
-Повертає кількість рядків, отриманих із сервера
-
--   [« mysqlistmt::nextresult](mysqli-stmt.next-result.html)
-    
--   [mysqlistmt::$paramcount »](mysqli-stmt.param-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає кількість рядків, отриманих із сервера
-    
-
+---
+navigation:
+  - mysqli-stmt.next-result.html: '« mysqlistmt::nextresult'
+  - mysqli-stmt.param-count.html: 'mysqlistmt::$paramcount »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$numrows'
+---
 # mysqlistmt::$numrows
 
 # mysqlistmt::numrows

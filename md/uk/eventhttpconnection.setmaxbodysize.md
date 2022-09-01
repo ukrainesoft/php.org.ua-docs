@@ -1,16 +1,11 @@
-Встановлює максимальний розмір тіла для підключення
-
--   [« EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.html)
-    
--   [EventHttpConnection::setMaxHeadersSize »](eventhttpconnection.setmaxheaderssize.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpConnection](class.eventhttpconnection.html)
-    
--   Встановлює максимальний розмір тіла для підключення
-    
-
+---
+navigation:
+  - eventhttpconnection.setlocalport.html: '« EventHttpConnection::setLocalPort'
+  - eventhttpconnection.setmaxheaderssize.html: 'EventHttpConnection::setMaxHeadersSize »'
+  - index.html: PHP Manual
+  - class.eventhttpconnection.html: EventHttpConnection
+title: 'EventHttpConnection::setMaxBodySize'
+---
 # EventHttpConnection::setMaxBodySize
 
 (PECL event >= 1.2.6-beta)

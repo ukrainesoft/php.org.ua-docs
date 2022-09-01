@@ -1,16 +1,11 @@
-Встановлює параметри з'єднання з сервером FTP
-
--   [« ftprmdir](function.ftp-rmdir.html)
-    
--   [ftpsite »](function.ftp-site.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Встановлює параметри з'єднання з сервером FTP
-    
-
+---
+navigation:
+  - function.ftp-rmdir.html: « ftprmdir
+  - function.ftp-site.html: ftpsite »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpsetoption
+---
 # ftpsetoption
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ ftp_set_option(FTP\Connection $ftp, int $option, int|bool $value): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

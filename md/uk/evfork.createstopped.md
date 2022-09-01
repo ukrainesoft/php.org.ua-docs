@@ -1,16 +1,11 @@
-Створити об'єкт класу EvFork, але не стартувати його
-
--   [« EvFork::construct](evfork.construct.md)
-    
--   [EvIdle »](class.evidle.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvFork](class.evfork.md)
-    
--   Створити об'єкт класу EvFork, але не стартувати його
-    
-
+---
+navigation:
+  - evfork.construct.md: '« EvFork::construct'
+  - class.evidle.md: EvIdle »
+  - index.md: PHP Manual
+  - class.evfork.md: EvFork
+title: 'EvFork::createStopped'
+---
 # EvFork::createStopped
 
 (PECL ev >= 0.2.0)

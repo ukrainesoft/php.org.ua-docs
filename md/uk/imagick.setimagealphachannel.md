@@ -1,16 +1,11 @@
-Встановлює альфа-канал зображення
-
--   [« Imagick::setImage](imagick.setimage.md)
-    
--   [Imagick::setImageArtifact »](imagick.setimageartifact.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює альфа-канал зображення
-    
-
+---
+navigation:
+  - imagick.setimage.md: '« Imagick::setImage'
+  - imagick.setimageartifact.md: 'Imagick::setImageArtifact »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageAlphaChannel'
+---
 # Imagick::setImageAlphaChannel
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

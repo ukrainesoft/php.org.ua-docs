@@ -1,16 +1,11 @@
-Перевіряє, чи є сервер пасивним членом набору реплік.
-
--   [« MongoDBDriverServer::isHidden](mongodb-driver-server.ishidden.html)
-    
--   [MongoDBDriverServer::isPrimary »](mongodb-driver-server.isprimary.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Перевіряє, чи є сервер пасивним членом набору реплік.
-    
-
+---
+navigation:
+  - mongodb-driver-server.ishidden.html: '« MongoDBDriverServer::isHidden'
+  - mongodb-driver-server.isprimary.html: 'MongoDBDriverServer::isPrimary »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::isPassive'
+---
 # MongoDBDriverServer::isPassive
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Відображення
-
--   [« CommonMarkParse](function.commonmark-parse.html)
-    
--   [CommonMarkRenderHTML »](function.commonmark-render-html.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CommonMark](ref.cmark.md)
-    
--   Відображення
-    
-
+---
+navigation:
+  - function.commonmark-parse.html: « CommonMarkParse
+  - function.commonmark-render-html.html: CommonMarkRenderHTML »
+  - index.md: PHP Manual
+  - ref.cmark.md: Функции CommonMark
+title: CommonMarkRender
+---
 # CommonMarkRender
 
 (cmark >= 1.0.0)

@@ -1,16 +1,11 @@
-GNU Recode
-
--   [« PSpellConfig](class.pspell-config.html)
-    
--   [Введение »](intro.recode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   GNU Recode
-    
-
+---
+navigation:
+  - class.pspell-config.html: « PSpellConfig
+  - intro.recode.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: GNU Recode
+---
 # GNU Recode
 
 -   [Введение](intro.recode.md)

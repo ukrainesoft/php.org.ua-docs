@@ -1,16 +1,11 @@
-Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix
-
--   [« Установка PHP на Lighttpd 1.4 на Unix-системах](install.unix.lighttpd-14.html)
-    
--   [Установка з інтерфейсами CGI та командного рядка »](install.unix.commandline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення на Unix-системи](install.unix.md)
-    
--   Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix
-    
-
+---
+navigation:
+  - install.unix.lighttpd-14.html: « Установка PHP на Lighttpd 1.4 на Unix-системах
+  - install.unix.commandline.md: Установка з інтерфейсами CGI та командного рядка »
+  - index.md: PHP Manual
+  - install.unix.md: Встановлення на Unix-системи
+title: Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix
+---
 ## Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix
 
 LiteSpeed ​​PHP – це оптимізована збірка PHP для роботи з продуктами LiteSpeed ​​через LiteSpeed ​​SAPI. LSPHP запускається як самостійний процес і має окремий файл, що виконується, який використовується як звичайний виконуваний файл командного рядка для запуску скриптів PHP.

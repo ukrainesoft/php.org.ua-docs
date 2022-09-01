@@ -1,16 +1,11 @@
-Закручує пікселі навколо центру зображення
-
--   [« Gmagick::stripimage](gmagick.stripimage.html)
-    
--   [Gmagick::thumbnailimage »](gmagick.thumbnailimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Закручує пікселі навколо центру зображення
-    
-
+---
+navigation:
+  - gmagick.stripimage.html: '« Gmagick::stripimage'
+  - gmagick.thumbnailimage.html: 'Gmagick::thumbnailimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::swirlimage'
+---
 # Gmagick::swirlimage
 
 (PECL gmagick >= Unknown)

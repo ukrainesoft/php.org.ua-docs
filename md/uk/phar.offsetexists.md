@@ -1,16 +1,11 @@
-Визначити, чи є файл у архіві
-
--   [« Phar::mungServer](phar.mungserver.html)
-    
--   [Phar::offsetGet »](phar.offsetget.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Визначити, чи є файл у архіві
-    
-
+---
+navigation:
+  - phar.mungserver.html: '« Phar::mungServer'
+  - phar.offsetget.html: 'Phar::offsetGet »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::offsetExists'
+---
 # Phar::offsetExists
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

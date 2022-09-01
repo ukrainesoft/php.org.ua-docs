@@ -1,16 +1,11 @@
-Робить одиночну, неблокуючу розгортку за вбудованим циклом
-
--   [« EvEmbed::set](evembed.set.md)
-    
--   [EvFork »](class.evfork.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvEmbed](class.evembed.md)
-    
--   Робить одиночну, неблокуючу розгортку за вбудованим циклом
-    
-
+---
+navigation:
+  - evembed.set.md: '« EvEmbed::set'
+  - class.evfork.md: EvFork »
+  - index.md: PHP Manual
+  - class.evembed.md: EvEmbed
+title: 'EvEmbed::sweep'
+---
 # EvEmbed::sweep
 
 (PECL ev >= 0.2.0)

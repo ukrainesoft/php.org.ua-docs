@@ -1,16 +1,11 @@
-Десятковий логарифм
-
--   [« lcgvalue](function.lcg-value.html)
-    
--   [log1p »](function.log1p.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Десятковий логарифм
-    
-
+---
+navigation:
+  - function.lcg-value.html: « lcgvalue
+  - function.log1p.md: log1p »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: log10
+---
 # log10
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

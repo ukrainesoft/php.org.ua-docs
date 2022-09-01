@@ -1,16 +1,11 @@
-Псевдонім ocifieldscale
-
--   [« ocicolumnprecision](function.ocicolumnprecision.md)
-    
--   [ocicolumnsize »](function.ocicolumnsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocifieldscale
-    
-
+---
+navigation:
+  - function.ocicolumnprecision.md: « ocicolumnprecision
+  - function.ocicolumnsize.md: ocicolumnsize »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicolumnscale
+---
 # ocicolumnscale
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

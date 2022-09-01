@@ -1,16 +1,11 @@
-Ініціалізація контексту інкрементального розпакування
-
--   [« inflategetstatus](function.inflate-get-status.html)
-    
--   [readgzfile »](function.readgzfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Ініціалізація контексту інкрементального розпакування
-    
-
+---
+navigation:
+  - function.inflate-get-status.html: « inflategetstatus
+  - function.readgzfile.md: readgzfile »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: inflateinit
+---
 # inflateinit
 
 (PHP 7, PHP 8)
@@ -65,9 +60,9 @@ dictionary
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [InflateContext](class.inflatecontext.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [InflateContext](class.inflatecontext.md); раніше повертався ресурс (resource). |
 
 ### Примітки
 

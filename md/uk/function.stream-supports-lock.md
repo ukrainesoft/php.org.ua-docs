@@ -1,16 +1,11 @@
-Визначає, чи підтримує потік блокування
-
--   [« streamsocketshutdown](function.stream-socket-shutdown.html)
-    
--   [streamwrapperregister »](function.stream-wrapper-register.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Визначає, чи підтримує потік блокування
-    
-
+---
+navigation:
+  - function.stream-socket-shutdown.html: « streamsocketshutdown
+  - function.stream-wrapper-register.html: streamwrapperregister »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsupportslock
+---
 # streamsupportslock
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

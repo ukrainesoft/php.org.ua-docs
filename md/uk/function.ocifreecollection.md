@@ -1,16 +1,11 @@
-Псевдонім OCICollection::free
-
--   [« ocifetchstatement](function.ocifetchstatement.html)
-    
--   [ocifreecursor »](function.ocifreecursor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім OCICollection::free
-    
-
+---
+navigation:
+  - function.ocifetchstatement.html: « ocifetchstatement
+  - function.ocifreecursor.html: ocifreecursor »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocifreecollection
+---
 # ocifreecollection
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

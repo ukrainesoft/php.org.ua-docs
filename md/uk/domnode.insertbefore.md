@@ -1,16 +1,11 @@
-Додає новий дочірній вузол перед вказаним вузлом
-
--   [« DOMNode::hasChildNodes](domnode.haschildnodes.md)
-    
--   [DOMNode::isDefaultNamespace »](domnode.isdefaultnamespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Додає новий дочірній вузол перед вказаним вузлом
-    
-
+---
+navigation:
+  - domnode.haschildnodes.md: '« DOMNode::hasChildNodes'
+  - domnode.isdefaultnamespace.md: 'DOMNode::isDefaultNamespace »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::insertBefore'
+---
 # DOMNode::insertBefore
 
 (PHP 5, PHP 7, PHP 8)

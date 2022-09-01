@@ -1,16 +1,11 @@
-Видаляє змінну з пам'яті, що розділяється
-
--   [« shmputvar](function.shm-put-var.html)
-    
--   [shmremove »](function.shm-remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Видаляє змінну з пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shm-put-var.html: « shmputvar
+  - function.shm-remove.html: shmremove »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: shmremovevar
+---
 # shmremovevar
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ shm_remove_var(SysvSharedMemory $shm, int $key): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------|
-|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

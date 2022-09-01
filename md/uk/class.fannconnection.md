@@ -1,16 +1,11 @@
-Клас FANNConnection
-
--   [« fanntrain](function.fann-train.html)
-    
--   [FANNConnection::construct »](fannconnection.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [FANN](book.fann.html)
-    
--   Клас FANNConnection
-    
-
+---
+navigation:
+  - function.fann-train.html: « fanntrain
+  - fannconnection.construct.html: 'FANNConnection::construct »'
+  - index.html: PHP Manual
+  - book.fann.html: FANN
+title: Клас FANNConnection
+---
 # Клас FANNConnection
 
 (No version information available, might only be in Git)

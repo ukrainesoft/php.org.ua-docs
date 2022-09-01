@@ -1,16 +1,11 @@
-Записати повний тег коментаря
-
--   [« XMLWriter::writeCdata](xmlwriter.writecdata.html)
-    
--   [XMLWriter::writeDtd »](xmlwriter.writedtd.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати повний тег коментаря
-    
-
+---
+navigation:
+  - xmlwriter.writecdata.html: '« XMLWriter::writeCdata'
+  - xmlwriter.writedtd.html: 'XMLWriter::writeDtd »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::writeComment'
+---
 # XMLWriter::writeComment
 
 # xmlwriterwritecomment
@@ -51,9 +46,9 @@ xmlwriter_write_comment(XMLWriter $writer, string $content): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

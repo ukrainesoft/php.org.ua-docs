@@ -1,16 +1,11 @@
-Якщо PHP встановлено як CGI
-
--   [« Общие рассуждения](security.general.html)
-    
--   [Можливі атаки »](security.cgi-bin.attacks.html)
-    
--   [PHP Manual](index.html)
-    
--   [Безпека](security.html)
-    
--   Якщо PHP встановлено як CGI
-    
-
+---
+navigation:
+  - security.general.html: « Общие рассуждения
+  - security.cgi-bin.attacks.html: Можливі атаки »
+  - index.html: PHP Manual
+  - security.html: Безпека
+title: Якщо PHP встановлено як CGI
+---
 # Якщо PHP встановлено як CGI
 
 ## Зміст

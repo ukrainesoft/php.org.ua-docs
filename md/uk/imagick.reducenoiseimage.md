@@ -1,16 +1,11 @@
-Згладжує контури зображення
-
--   [« Imagick::recolorImage](imagick.recolorimage.md)
-    
--   [Imagick::remapImage »](imagick.remapimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Згладжує контури зображення
-    
-
+---
+navigation:
+  - imagick.recolorimage.md: '« Imagick::recolorImage'
+  - imagick.remapimage.md: 'Imagick::remapImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::reduceNoiseImage'
+---
 # Imagick::reduceNoiseImage
 
 (PECL imagick 2, PECL imagick 3)

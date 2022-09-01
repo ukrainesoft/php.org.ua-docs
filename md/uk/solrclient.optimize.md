@@ -1,16 +1,11 @@
-Дефрагментує індекс
-
--   [« SolrClient::getOptions](solrclient.getoptions.html)
-    
--   [SolrClient::ping »](solrclient.ping.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Дефрагментує індекс
-    
-
+---
+navigation:
+  - solrclient.getoptions.html: '« SolrClient::getOptions'
+  - solrclient.ping.html: 'SolrClient::ping »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::optimize'
+---
 # SolrClient::optimize
 
 (PECL solr> = 0.9.2)

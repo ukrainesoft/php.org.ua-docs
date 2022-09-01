@@ -1,16 +1,11 @@
-Видаляє поле
-
--   [« SolrDocument::offsetSet](solrdocument.offsetset.md)
-    
--   [SolrDocument::reset »](solrdocument.reset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Видаляє поле
-    
-
+---
+navigation:
+  - solrdocument.offsetset.md: '« SolrDocument::offsetSet'
+  - solrdocument.reset.md: 'SolrDocument::reset »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::offsetUnset'
+---
 # SolrDocument::offsetUnset
 
 (PECL solr> = 0.9.2)

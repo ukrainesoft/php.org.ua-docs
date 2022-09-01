@@ -1,16 +1,11 @@
-Встановити параметр конфігурації timeout класу
-
--   [« VarnishAdmin::setSecret](varnishadmin.setsecret.html)
-    
--   [VarnishAdmin::start »](varnishadmin.start.html)
-    
--   [PHP Manual](index.html)
-    
--   [VarnishAdmin](class.varnishadmin.html)
-    
--   Встановити параметр конфігурації timeout класу
-    
-
+---
+navigation:
+  - varnishadmin.setsecret.html: '« VarnishAdmin::setSecret'
+  - varnishadmin.start.html: 'VarnishAdmin::start »'
+  - index.html: PHP Manual
+  - class.varnishadmin.html: VarnishAdmin
+title: 'VarnishAdmin::setTimeout'
+---
 # VarnishAdmin::setTimeout
 
 (PECL varnish >= 0.8)

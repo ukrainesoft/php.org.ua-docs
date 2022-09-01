@@ -1,16 +1,11 @@
-Пошта
-
--   [« Обумовлені константи](mail.constants.md)
-    
--   [ezmlmhash »](function.ezmlm-hash.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mail](book.mail.md)
-    
--   Пошта
-    
-
+---
+navigation:
+  - mail.constants.md: « Обумовлені константи
+  - function.ezmlm-hash.html: ezmlmhash »
+  - index.md: PHP Manual
+  - book.mail.md: Mail
+title: Пошта
+---
 # Пошта
 
 ## Зміст

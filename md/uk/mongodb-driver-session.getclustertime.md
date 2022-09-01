@@ -1,16 +1,11 @@
-Повертає час кластера для цього сеансу
-
--   [« MongoDBDriverSession::endSession](mongodb-driver-session.endsession.html)
-    
--   [MongoDBDriverSession::getLogicalSessionId »](mongodb-driver-session.getlogicalsessionid.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Повертає час кластера для цього сеансу
-    
-
+---
+navigation:
+  - mongodb-driver-session.endsession.html: '« MongoDBDriverSession::endSession'
+  - mongodb-driver-session.getlogicalsessionid.html: 'MongoDBDriverSession::getLogicalSessionId »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::getClusterTime'
+---
 # MongoDBDriverSession::getClusterTime
 
 (mongodb >=1.4.0)

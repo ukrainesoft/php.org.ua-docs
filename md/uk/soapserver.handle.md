@@ -1,16 +1,11 @@
-Обробка SOAP-запиту
-
--   [« SoapServer::getFunctions](soapserver.getfunctions.md)
-    
--   [SoapServer::setClass »](soapserver.setclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Обробка SOAP-запиту
-    
-
+---
+navigation:
+  - soapserver.getfunctions.md: '« SoapServer::getFunctions'
+  - soapserver.setclass.md: 'SoapServer::setClass »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::handle'
+---
 # SoapServer::handle
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ SOAP-запит. Якщо аргумент не заданий, передбач
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `request` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `request` тепер допускає значення null. |
 
 ### Приклади
 

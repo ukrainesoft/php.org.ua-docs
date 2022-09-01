@@ -1,16 +1,11 @@
-Здійснює пошук та заміну за регулярним виразом
-
--   [« Функции PCRE](ref.pcre.html)
-    
--   [preggrep »](function.preg-grep.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PCRE](ref.pcre.html)
-    
--   Здійснює пошук та заміну за регулярним виразом
-    
-
+---
+navigation:
+  - ref.pcre.html: « Функции PCRE
+  - function.preg-grep.html: preggrep »
+  - index.html: PHP Manual
+  - ref.pcre.html: Функции PCRE
+title: pregfilter
+---
 # pregfilter
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

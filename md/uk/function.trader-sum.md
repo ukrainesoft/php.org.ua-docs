@@ -1,16 +1,11 @@
-Підсумовування
-
--   [« tradersub](function.trader-sub.html)
-    
--   [tradert3 »](function.trader-t3.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Підсумовування
-    
-
+---
+navigation:
+  - function.trader-sub.html: « tradersub
+  - function.trader-t3.html: tradert3 »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersum
+---
 # tradersum
 
 (PECL trader >= 0.2.0)

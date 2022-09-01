@@ -1,16 +1,11 @@
-Повертає час останнього доступу до файлу
-
--   [« file](function.file.md)
-    
--   [filectime »](function.filectime.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає час останнього доступу до файлу
-    
-
+---
+navigation:
+  - function.file.md: « file
+  - function.filectime.md: filectime »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fileatime
+---
 # fileatime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

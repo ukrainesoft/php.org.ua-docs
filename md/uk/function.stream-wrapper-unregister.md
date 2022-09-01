@@ -1,16 +1,11 @@
-Скасує реєстрацію обгортки URL
-
--   [« streamwrapperrestore](function.stream-wrapper-restore.html)
-    
--   [Swoole »](book.swoole.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Скасує реєстрацію обгортки URL
-    
-
+---
+navigation:
+  - function.stream-wrapper-restore.html: « streamwrapperrestore
+  - book.swoole.md: Swoole »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamwrapperunregister
+---
 # streamwrapperunregister
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує останній код помилки засобу форматування
-
--   [« NumberFormatter::getAttribute](numberformatter.getattribute.md)
-    
--   [NumberFormatter::getErrorMessage »](numberformatter.geterrormessage.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Отримує останній код помилки засобу форматування
-    
-
+---
+navigation:
+  - numberformatter.getattribute.md: '« NumberFormatter::getAttribute'
+  - numberformatter.geterrormessage.md: 'NumberFormatter::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getErrorCode'
+---
 # NumberFormatter::getErrorCode
 
 # numfmtgeterrorcode

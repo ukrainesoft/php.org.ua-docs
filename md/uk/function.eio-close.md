@@ -1,16 +1,11 @@
-Закрити файл
-
--   [« eiochown](function.eio-chown.html)
-    
--   [eiocustom »](function.eio-custom.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Закрити файл
-    
-
+---
+navigation:
+  - function.eio-chown.html: « eiochown
+  - function.eio-custom.html: eiocustom »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eioclose
+---
 # eioclose
 
 (PECL eio >= 0.0.1dev)

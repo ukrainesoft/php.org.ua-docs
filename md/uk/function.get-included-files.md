@@ -1,16 +1,11 @@
-Повертає масив імен увімкнених у скрипт файлів
-
--   [« getincludepath](function.get-include-path.html)
-    
--   [getloadedextensions »](function.get-loaded-extensions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає масив імен увімкнених у скрипт файлів
-    
-
+---
+navigation:
+  - function.get-include-path.html: « getincludepath
+  - function.get-loaded-extensions.html: getloadedextensions »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getincludedfiles
+---
 # getincludedfiles
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

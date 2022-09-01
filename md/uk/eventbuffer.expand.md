@@ -1,16 +1,11 @@
-Резервує простір у буфері
-
--   [« EventBuffer::enableLocking](eventbuffer.enablelocking.html)
-    
--   [EventBuffer::freeze »](eventbuffer.freeze.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Резервує простір у буфері
-    
-
+---
+navigation:
+  - eventbuffer.enablelocking.html: '« EventBuffer::enableLocking'
+  - eventbuffer.freeze.html: 'EventBuffer::freeze »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::expand'
+---
 # EventBuffer::expand
 
 (PECL event >= 1.2.6-beta)

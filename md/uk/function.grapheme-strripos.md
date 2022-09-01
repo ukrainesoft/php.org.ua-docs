@@ -1,16 +1,11 @@
-Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
-
--   [« graphemestrpos](function.grapheme-strpos.html)
-    
--   [graphemestrrpos »](function.grapheme-strrpos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Grapheme](ref.intl.grapheme.html)
-    
--   Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
-    
-
+---
+navigation:
+  - function.grapheme-strpos.html: « graphemestrpos
+  - function.grapheme-strrpos.html: graphemestrrpos »
+  - index.html: PHP Manual
+  - ref.intl.grapheme.html: Функции Grapheme
+title: graphemestrripos
+---
 # graphemestrripos
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

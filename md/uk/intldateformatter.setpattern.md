@@ -1,16 +1,11 @@
-Встановлює шаблон, який використовується IntlDateFormatter
-
--   [« IntlDateFormatter::setLenient](intldateformatter.setlenient.html)
-    
--   [IntlDateFormatter::setTimeZone »](intldateformatter.settimezone.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Встановлює шаблон, який використовується IntlDateFormatter
-    
-
+---
+navigation:
+  - intldateformatter.setlenient.html: '« IntlDateFormatter::setLenient'
+  - intldateformatter.settimezone.html: 'IntlDateFormatter::setTimeZone »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::setPattern'
+---
 # IntlDateFormatter::setPattern
 
 # datefmtsetpattern

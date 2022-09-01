@@ -1,16 +1,11 @@
-Навчання на всьому обсязі даних на часовому інтервалі
-
--   [« fanntrainepoch](function.fann-train-epoch.html)
-    
--   [fanntrainвінfile »](function.fann-train-on-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Навчання на всьому обсязі даних на часовому інтервалі
-    
-
+---
+navigation:
+  - function.fann-train-epoch.html: « fanntrainepoch
+  - function.fann-train-on-file.html: fanntrainвінfile »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanntrainвінdata
+---
 # fanntrainвінdata
 
 (PECL fann> = 1.0.0)

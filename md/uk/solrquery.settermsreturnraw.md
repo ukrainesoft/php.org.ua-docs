@@ -1,16 +1,11 @@
-Повернути необроблені символи проіндексованого виразу
-
--   [« SolrQuery::setTermsPrefix](solrquery.settermsprefix.md)
-    
--   [SolrQuery::setTermsSort »](solrquery.settermssort.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повернути необроблені символи проіндексованого виразу
-    
-
+---
+navigation:
+  - solrquery.settermsprefix.md: '« SolrQuery::setTermsPrefix'
+  - solrquery.settermssort.md: 'SolrQuery::setTermsSort »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsReturnRaw'
+---
 # SolrQuery::setTermsReturnRaw
 
 (PECL solr> = 0.9.2)

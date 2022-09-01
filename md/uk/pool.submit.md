@@ -1,16 +1,11 @@
-Відправляє об'єкт на виконання
-
--   [« Pool::shutdown](pool.shutdown.html)
-    
--   [Pool::submitTo »](pool.submitTo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Pool](class.pool.html)
-    
--   Відправляє об'єкт на виконання
-    
-
+---
+navigation:
+  - pool.shutdown.html: '« Pool::shutdown'
+  - pool.submitTo.html: 'Pool::submitTo »'
+  - index.html: PHP Manual
+  - class.pool.html: Pool
+title: 'Pool::submit'
+---
 # Pool::submit
 
 (PECL pthreads >= 2.0.0)

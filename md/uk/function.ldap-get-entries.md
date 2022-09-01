@@ -1,16 +1,11 @@
-Отримує всі записи результату
-
--   [« ldapgetдн](function.ldap-get-dn.html)
-    
--   [ldapgetoption »](function.ldap-get-option.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Отримує всі записи результату
-    
-
+---
+navigation:
+  - function.ldap-get-dn.html: « ldapgetдн
+  - function.ldap-get-option.html: ldapgetoption »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapgetentries
+---
 # ldapgetentries
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,10 +52,10 @@ return_value[i]["attribute"][j] = j-ое значение атрибута i-о�
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md)       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

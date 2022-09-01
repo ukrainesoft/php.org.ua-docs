@@ -1,16 +1,11 @@
-Встановлює множник ваги
-
--   [« fannsetcascadeoutputstagnationepochs](function.fann-set-cascade-output-stagnation-epochs.html)
-    
--   [fannseterrorlog »](function.fann-set-error-log.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює множник ваги
-    
-
+---
+navigation:
+  - function.fann-set-cascade-output-stagnation-epochs.html: « fannsetcascadeoutputstagnationepochs
+  - function.fann-set-error-log.html: fannseterrorlog »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetcascadeweightmultiplier
+---
 # fannsetcascadeweightmultiplier
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Десеріалізує Symbol
-
--   [« MongoDBBSONSymbol::toString](mongodb-bson-symbol.tostring.html)
-    
--   [MongoDBBSONUndefined »](class.mongodb-bson-undefined.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
-    
--   Десеріалізує Symbol
-    
-
+---
+navigation:
+  - mongodb-bson-symbol.tostring.html: '« MongoDBBSONSymbol::toString'
+  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined »
+  - index.md: PHP Manual
+  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::unserialize'
+---
 # MongoDBBSONSymbol::unserialize
 
 (mongodb >=1.4.0)

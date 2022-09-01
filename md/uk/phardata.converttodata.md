@@ -1,16 +1,11 @@
-Конвертація phar-архіву в tar/zip-архів, що не запускається.
-
--   [« PharData::construct](phardata.construct.md)
-    
--   [PharData::convertToExecutable »](phardata.converttoexecutable.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Конвертація phar-архіву в tar/zip-архів, що не запускається.
-    
-
+---
+navigation:
+  - phardata.construct.md: '« PharData::construct'
+  - phardata.converttoexecutable.md: 'PharData::convertToExecutable »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::convertToData'
+---
 # PharData::convertToData
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -55,9 +50,9 @@ public PharData::convertToData(?int $format = null, ?int $compression = null, ?s
 
 ### список змін
 
-| Версия | Описание                                                             |
-|--------|----------------------------------------------------------------------|
-|        | `format` `compression` і `extension` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `format` `compression` і `extension` тепер допускають значення null. |
 
 ### Приклади
 

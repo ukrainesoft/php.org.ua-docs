@@ -1,16 +1,11 @@
-Перетворює текстове подання дати англійською мовою на мітку часу Unix
-
--   [« strptime](function.strptime.html)
-    
--   [time »](function.time.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції дати та часу](ref.datetime.html)
-    
--   Перетворює текстове подання дати англійською мовою на мітку часу Unix
-    
-
+---
+navigation:
+  - function.strptime.html: « strptime
+  - function.time.html: time »
+  - index.html: PHP Manual
+  - ref.datetime.html: Функції дати та часу
+title: strtotime
+---
 # strtotime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ strtotime(string $datetime, ?int $baseTimestamp = null): int|false
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `baseTimestamp` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `baseTimestamp` тепер допускає значення null. |
 
 ### Приклади
 

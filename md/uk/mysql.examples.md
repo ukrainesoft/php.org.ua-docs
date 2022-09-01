@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](mysql.constants.md)
-    
--   [Оглядовий приклад модуля MySQL](mysql.examples-basic.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL (Original)](book.mysql.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - mysql.constants.md: « Обумовлені константи
+  - mysql.examples-basic.html: Оглядовий приклад модуля MySQL
+  - index.md: PHP Manual
+  - book.mysql.md: MySQL (Original)
+title: Приклади
+---
 # Приклади
 
 ## Зміст

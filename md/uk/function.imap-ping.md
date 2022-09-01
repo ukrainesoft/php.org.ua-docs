@@ -1,16 +1,11 @@
-Перевірити, чи активний потік IMAP
-
--   [« imapopen](function.imap-open.html)
-    
--   [imapqprint »](function.imap-qprint.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Перевірити, чи активний потік IMAP
-    
-
+---
+navigation:
+  - function.imap-open.html: « imapopen
+  - function.imap-qprint.html: imapqprint »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapping
+---
 # imapping
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ imap_ping(IMAP\Connection $imap): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

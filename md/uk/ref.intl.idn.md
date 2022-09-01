@@ -1,16 +1,11 @@
-Функції IDN
-
--   [« graphemesubstr](function.grapheme-substr.html)
-    
--   [idnтоascii »](function.idn-to-ascii.html)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Функції IDN
-    
-
+---
+navigation:
+  - function.grapheme-substr.html: « graphemesubstr
+  - function.idn-to-ascii.html: idnтоascii »
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Функції IDN
+---
 # Функції IDN
 
 ## Зміст

@@ -1,16 +1,11 @@
-Книги про PHP
-
--   [Історія суміжних з PHP проектів](history.php.related.md)
-    
--   [Публікації, присвячені PHP »](history.php.publications.md)
-    
--   [PHP Manual](index.md)
-    
--   [Історія PHP та суміжних проектів](history.md)
-    
--   Книги про PHP
-    
-
+---
+navigation:
+  - history.php.related.md: Історія суміжних з PHP проектів
+  - history.php.publications.md: 'Публікації, присвячені PHP »'
+  - index.md: PHP Manual
+  - history.md: Історія PHP та суміжних проектів
+title: Книги про PHP
+---
 ## Книги про PHP
 
 Зі зростанням PHP, його почали впізнавати по всьому світу як популярну мову програмування. Одним з найцікавіших способів судження про це може стати огляд книг про PHP.

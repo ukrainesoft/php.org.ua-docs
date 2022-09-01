@@ -1,16 +1,11 @@
-Повертає відсоткове значення групового кешу
-
--   [« SolrQuery::getGroup](solrquery.getgroup.html)
-    
--   [SolrQuery::getGroupFacet »](solrquery.getgroupfacet.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає відсоткове значення групового кешу
-    
-
+---
+navigation:
+  - solrquery.getgroup.html: '« SolrQuery::getGroup'
+  - solrquery.getgroupfacet.html: 'SolrQuery::getGroupFacet »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getGroupCachePercent'
+---
 # SolrQuery::getGroupCachePercent
 
 (PECL solr> = 2.2.0)

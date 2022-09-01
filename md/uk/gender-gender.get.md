@@ -1,16 +1,11 @@
-Отримати підлогу на ім'я
-
--   [« GenderGender::country](gender-gender.country.html)
-    
--   [GenderGender::isNick »](gender-gender.isnick.html)
-    
--   [PHP Manual](index.md)
-    
--   [GenderGender](class.gender.md)
-    
--   Отримати підлогу на ім'я
-    
-
+---
+navigation:
+  - gender-gender.country.html: '« GenderGender::country'
+  - gender-gender.isnick.html: 'GenderGender::isNick »'
+  - index.md: PHP Manual
+  - class.gender.md: GenderGender
+title: 'GenderGender::get'
+---
 # GenderGender::get
 
 (PECL gender >= 0.6.0)

@@ -1,16 +1,11 @@
-Повертає вузол атрибуту
-
--   [« DOMElement::getAttribute](domelement.getattribute.html)
-    
--   [DOMElement::getAttributeNodeNS »](domelement.getattributenodens.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMElement](class.domelement.html)
-    
--   Повертає вузол атрибуту
-    
-
+---
+navigation:
+  - domelement.getattribute.html: '« DOMElement::getAttribute'
+  - domelement.getattributenodens.html: 'DOMElement::getAttributeNodeNS »'
+  - index.html: PHP Manual
+  - class.domelement.html: DOMElement
+title: 'DOMElement::getAttributeNode'
+---
 # DOMElement::getAttributeNode
 
 (PHP 5, PHP 7, PHP 8)

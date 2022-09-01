@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](varnish.installation.html)
-    
--   [Типи ресурсів »](varnish.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](varnish.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - varnish.installation.html: « Установка
+  - varnish.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - varnish.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

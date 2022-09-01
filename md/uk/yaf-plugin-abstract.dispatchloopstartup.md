@@ -1,16 +1,11 @@
-Хук перед відправкою циклу
-
--   [« YafPluginAbstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.html)
-    
--   [YafPluginAbstract::postDispatch »](yaf-plugin-abstract.postdispatch.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
-    
--   Хук перед відправкою циклу
-    
-
+---
+navigation:
+  - yaf-plugin-abstract.dispatchloopshutdown.html: '« YafPluginAbstract::dispatchLoopShutdown'
+  - yaf-plugin-abstract.postdispatch.html: 'YafPluginAbstract::postDispatch »'
+  - index.html: PHP Manual
+  - class.yaf-plugin-abstract.html: YafPluginAbstract
+title: 'YafPluginAbstract::dispatchLoopStartup'
+---
 # YafPluginAbstract::dispatchLoopStartup
 
 (Yaf >=1.0.0)

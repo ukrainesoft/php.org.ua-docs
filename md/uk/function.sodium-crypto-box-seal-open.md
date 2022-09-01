@@ -1,16 +1,11 @@
-Розшифровка відкритим ключем без автентифікації
-
--   [« sodiumcryptoboxpublickey](function.sodium-crypto-box-publickey.html)
-    
--   [sodiumcryptoboxseal »](function.sodium-crypto-box-seal.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Розшифровка відкритим ключем без автентифікації
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-publickey.html: « sodiumcryptoboxpublickey
+  - function.sodium-crypto-box-seal.html: sodiumcryptoboxseal »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxsealopen
+---
 # sodiumcryptoboxsealopen
 
 (PHP 7> = 7.2.0, PHP 8)

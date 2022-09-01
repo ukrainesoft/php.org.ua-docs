@@ -1,16 +1,11 @@
-Встановлення набору кольорів для заданого індексу панелі
-
--   [« imagecolorresolvealpha](function.imagecolorresolvealpha.md)
-    
--   [imagecolorsforindex »](function.imagecolorsforindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Встановлення набору кольорів для заданого індексу панелі
-    
-
+---
+navigation:
+  - function.imagecolorresolvealpha.md: « imagecolorresolvealpha
+  - function.imagecolorsforindex.md: imagecolorsforindex »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorset
+---
 # imagecolorset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ imagecolorset(    GdImage $image,    int $color,    int $red,   �
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

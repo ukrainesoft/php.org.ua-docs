@@ -1,16 +1,11 @@
-Дозволяє групувати результати з урахуванням унікальних значень запиту функції (параметр group.func)
-
--   [« SolrQuery::addGroupField](solrquery.addgroupfield.md)
-    
--   [SolrQuery::addGroupQuery »](solrquery.addgroupquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Дозволяє групувати результати з урахуванням унікальних значень запиту функції (параметр group.func)
-    
-
+---
+navigation:
+  - solrquery.addgroupfield.md: '« SolrQuery::addGroupField'
+  - solrquery.addgroupquery.md: 'SolrQuery::addGroupQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addGroupFunction'
+---
 # SolrQuery::addGroupFunction
 
 (PECL solr> = 2.2.0)

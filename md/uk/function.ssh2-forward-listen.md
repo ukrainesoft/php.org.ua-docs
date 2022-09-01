@@ -1,16 +1,11 @@
-Зв'язує порт на віддаленому сервері та прослуховує з'єднання
-
--   [« ssh2forwardaccept](function.ssh2-forward-accept.html)
-    
--   [ssh2methodsnegotiated »](function.ssh2-methods-negotiated.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Зв'язує порт на віддаленому сервері та прослуховує з'єднання
-    
-
+---
+navigation:
+  - function.ssh2-forward-accept.html: « ssh2forwardaccept
+  - function.ssh2-methods-negotiated.html: ssh2methodsnegotiated »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2forwardlisten
+---
 # ssh2forwardlisten
 
 (PECL ssh2> = 0.9.0)

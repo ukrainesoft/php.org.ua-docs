@@ -1,16 +1,11 @@
-Метод повідомлення про запущену команду
-
--   [« MongoDBDriverMonitoringCommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.html)
-    
--   [MongoDBDriverMonitoringCommandSubscriber::commandSucceeded »](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)
-    
--   Метод повідомлення про запущену команду
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsubscriber.commandfailed.html: '« MongoDBDriverMonitoringCommandSubscriber::commandFailed'
+  - mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html: 'MongoDBDriverMonitoringCommandSubscriber::commandSucceeded »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandsubscriber.html: MongoDBDriverMonitoringCommandSubscriber
+title: 'MongoDBDriverMonitoringCommandSubscriber::commandStarted'
+---
 # MongoDBDriverMonitoringCommandSubscriber::commandStarted
 
 (mongodb >=1.3.0)

@@ -1,16 +1,11 @@
-Інтерфейс Stringable
-
--   [« WeakMap::offsetUnset](weakmap.offsetunset.md)
-    
--   [Stringable::toString »](stringable.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-    
--   Інтерфейс Stringable
-    
-
+---
+navigation:
+  - weakmap.offsetunset.md: '« WeakMap::offsetUnset'
+  - stringable.tostring.md: 'Stringable::toString »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Інтерфейс Stringable
+---
 # Інтерфейс Stringable
 
 (PHP 8)

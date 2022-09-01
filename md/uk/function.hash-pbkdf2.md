@@ -1,16 +1,11 @@
-Формування ключа PBKDF2 для вхідних даних
-
--   [« hashinit](function.hash-init.html)
-    
--   [hashupdatefile »](function.hash-update-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Формування ключа PBKDF2 для вхідних даних
-    
-
+---
+navigation:
+  - function.hash-init.html: « hashinit
+  - function.hash-update-file.html: hashupdatefile »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashpbkdf2
+---
 # hashpbkdf2
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -61,9 +56,9 @@ hash_pbkdf2(    string $algo,    string $password,    string $salt,�
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | Заборонено використання некриптографічних функцій (adler32, crc32, crc32b, fnv132, fnv1a32, fnv164, fnv1a64, joaat). |
+| Версия | Описание |
+| --- | --- |
+|  | Заборонено використання некриптографічних функцій (adler32, crc32, crc32b, fnv132, fnv1a32, fnv164, fnv1a64, joaat). |
 
 ### Приклади
 

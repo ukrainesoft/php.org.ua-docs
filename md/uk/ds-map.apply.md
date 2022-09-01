@@ -1,16 +1,11 @@
-Оновлення всіх значень застосуванням до них переданої callback-функції
-
--   [« DsMap::allocate](ds-map.allocate.html)
-    
--   [ДсMap::capacity »](ds-map.capacity.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Оновлення всіх значень застосуванням до них переданої callback-функції
-    
-
+---
+navigation:
+  - ds-map.allocate.html: '« DsMap::allocate'
+  - ds-map.capacity.html: 'ДсMap::capacity »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::apply'
+---
 # ДсMap::apply
 
 (PECL ds >= 1.0.0)

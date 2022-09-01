@@ -1,16 +1,11 @@
-Встановлює текст, що з'являється перед виділеним виразом
-
--   [« SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md)
-    
--   [SolrQuery::setHighlightSnippets »](solrquery.sethighlightsnippets.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює текст, що з'являється перед виділеним виразом
-    
-
+---
+navigation:
+  - solrquery.sethighlightsimplepost.md: '« SolrQuery::setHighlightSimplePost'
+  - solrquery.sethighlightsnippets.md: 'SolrQuery::setHighlightSnippets »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightSimplePre'
+---
 # SolrQuery::setHighlightSimplePre
 
 (PECL solr> = 0.9.2)

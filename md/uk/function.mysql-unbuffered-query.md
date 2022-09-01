@@ -1,16 +1,11 @@
-Надсилає запит MySQL без авто-обробки результату та його буферизації
-
--   [« mysqlthreadід](function.mysql-thread-id.html)
-    
--   [Mysqlnd »](book.mysqlnd.md)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Надсилає запит MySQL без авто-обробки результату та його буферизації
-    
-
+---
+navigation:
+  - function.mysql-thread-id.html: « mysqlthreadід
+  - book.mysqlnd.md: Mysqlnd »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlunbufferedquery
+---
 # mysqlunbufferedquery
 
 (PHP 4> = 4.0.6, PHP 5)

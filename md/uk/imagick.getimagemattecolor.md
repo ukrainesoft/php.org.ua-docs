@@ -1,16 +1,11 @@
-Повертає матовий колір зображення
-
--   [« Imagick::getImageMatte](imagick.getimagematte.html)
-    
--   [Imagick::getImageMimeType »](imagick.getimagemimetype.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає матовий колір зображення
-    
-
+---
+navigation:
+  - imagick.getimagematte.html: '« Imagick::getImageMatte'
+  - imagick.getimagemimetype.html: 'Imagick::getImageMimeType »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageMatteColor'
+---
 # Imagick::getImageMatteColor
 
 (PECL imagick 2, PECL imagick 3)

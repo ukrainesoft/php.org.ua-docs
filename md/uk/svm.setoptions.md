@@ -1,16 +1,11 @@
-Встановити параметри навчання
-
--   [« SVM::getOptions](svm.getoptions.md)
-    
--   [SVM::train »](svm.train.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVM](class.svm.md)
-    
--   Встановити параметри навчання
-    
-
+---
+navigation:
+  - svm.getoptions.md: '« SVM::getOptions'
+  - svm.train.md: 'SVM::train »'
+  - index.md: PHP Manual
+  - class.svm.md: SVM
+title: 'SVM::setOptions'
+---
 # SVM::setOptions
 
 (PECL svm >= 0.1.0)

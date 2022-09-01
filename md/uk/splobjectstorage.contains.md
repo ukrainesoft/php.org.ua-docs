@@ -1,16 +1,11 @@
-Перевіряє, чи контейнер містить заданий об'єкт
-
--   [« SplObjectStorage::attach](splobjectstorage.attach.md)
-    
--   [SplObjectStorage::count »](splobjectstorage.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Перевіряє, чи контейнер містить заданий об'єкт
-    
-
+---
+navigation:
+  - splobjectstorage.attach.md: '« SplObjectStorage::attach'
+  - splobjectstorage.count.md: 'SplObjectStorage::count »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::contains'
+---
 # SplObjectStorage::contains
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

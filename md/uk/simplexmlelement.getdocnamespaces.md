@@ -1,16 +1,11 @@
-Повертає простір імен, оголошених у документі
-
--   [« SimpleXMLElement::count](simplexmlelement.count.md)
-    
--   [SimpleXMLElement::getName »](simplexmlelement.getname.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Повертає простір імен, оголошених у документі
-    
-
+---
+navigation:
+  - simplexmlelement.count.md: '« SimpleXMLElement::count'
+  - simplexmlelement.getname.md: 'SimpleXMLElement::getName »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::getDocNamespaces'
+---
 # SimpleXMLElement::getDocNamespaces
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

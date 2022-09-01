@@ -1,16 +1,11 @@
-DivisionByZeroError
-
--   [« AssertionError](class.assertionerror.md)
-    
--   [CompileError »](class.compileerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   DivisionByZeroError
-    
-
+---
+navigation:
+  - class.assertionerror.md: « AssertionError
+  - class.compileerror.md: CompileError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: DivisionByZeroError
+---
 # DivisionByZeroError
 
 (PHP 7, PHP 8)

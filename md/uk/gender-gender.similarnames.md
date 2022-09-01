@@ -1,16 +1,11 @@
-Отримати схожі імена
-
--   [« GenderGender::isNick](gender-gender.isnick.html)
-    
--   [Gettext »](book.gettext.md)
-    
--   [PHP Manual](index.md)
-    
--   [GenderGender](class.gender.md)
-    
--   Отримати схожі імена
-    
-
+---
+navigation:
+  - gender-gender.isnick.html: '« GenderGender::isNick'
+  - book.gettext.md: Gettext »
+  - index.md: PHP Manual
+  - class.gender.md: GenderGender
+title: 'GenderGender::similarNames'
+---
 # GenderGender::similarNames
 
 (PECL gender >= 0.9.0)

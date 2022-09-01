@@ -1,16 +1,11 @@
-Вступ
-
--   [« Enchant](book.enchant.html)
-    
--   [Встановлення та налаштування »](enchant.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Enchant](book.enchant.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.enchant.html: « Enchant
+  - enchant.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.enchant.html: Enchant
+title: Вступ
+---
 # Вступ
 
 Модуль Enchant є представленням у [» библиотеке Enchant](http://www.abisource.com/projects/enchant/). Enchant дозволяє забезпечити однаковість та узгодженість усіх бібліотек орфографії та реалізувати певні функції, які можуть бути відсутніми в будь-якій окремій бібліотеці. Все і скрізь має "просто працювати", за будь-якого визначення "просто працюючого".

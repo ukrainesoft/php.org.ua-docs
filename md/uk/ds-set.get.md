@@ -1,16 +1,11 @@
-Повертає значення за індексом
-
--   [« DsSet::first](ds-set.first.html)
-    
--   [ДсSet::intersect »](ds-set.intersect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає значення за індексом
-    
-
+---
+navigation:
+  - ds-set.first.html: '« DsSet::first'
+  - ds-set.intersect.html: 'ДсSet::intersect »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::get'
+---
 # ДсSet::get
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-SQLite3
-
--   [« PgSqlLob](class.pgsql-lob.html)
-    
--   [Введение »](intro.sqlite3.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.html)
-    
--   SQLite3
-    
-
+---
+navigation:
+  - class.pgsql-lob.html: « PgSqlLob
+  - intro.sqlite3.html: Введение »
+  - index.html: PHP Manual
+  - refs.database.vendors.html: Модулі для роботи з базами даних окремих виробників
+title: SQLite3
+---
 # SQLite3
 
 -   [Введение](intro.sqlite3.html)

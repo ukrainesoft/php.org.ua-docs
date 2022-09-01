@@ -1,16 +1,11 @@
-Повертає масив, що представляє метрики шрифту
-
--   [« Gmagick::quantizeimages](gmagick.quantizeimages.html)
-    
--   [Gmagick::queryfonts »](gmagick.queryfonts.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає масив, що представляє метрики шрифту
-    
-
+---
+navigation:
+  - gmagick.quantizeimages.html: '« Gmagick::quantizeimages'
+  - gmagick.queryfonts.html: 'Gmagick::queryfonts »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::queryfontmetrics'
+---
 # Gmagick::queryfontmetrics
 
 (PECL gmagick >= Unknown)

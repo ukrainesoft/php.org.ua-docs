@@ -1,16 +1,11 @@
-Отримує останній ідентифікатор вставки
-
--   [« SqlStatementResult::getGeneratedIds](mysql-xdevapi-sqlstatementresult.getgeneratedids.html)
-    
--   [SqlStatementResult::getWarnings »](mysql-xdevapi-sqlstatementresult.getwarnings.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує останній ідентифікатор вставки
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getgeneratedids.html: '« SqlStatementResult::getGeneratedIds'
+  - mysql-xdevapi-sqlstatementresult.getwarnings.html: 'SqlStatementResult::getWarnings »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getLastInsertId'
+---
 # SqlStatementResult::getLastInsertId
 
 (No version information available, might only be in Git)

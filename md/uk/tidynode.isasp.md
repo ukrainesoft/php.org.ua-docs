@@ -1,16 +1,11 @@
-Перевіряє поточний вузол на відповідність ASP
-
--   [« tidyNode::hasSiblings](tidynode.hassiblings.md)
-    
--   [tidyNode::isComment »](tidynode.iscomment.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidyNode](class.tidynode.md)
-    
--   Перевіряє поточний вузол на відповідність ASP
-    
-
+---
+navigation:
+  - tidynode.hassiblings.md: '« tidyNode::hasSiblings'
+  - tidynode.iscomment.md: 'tidyNode::isComment »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
+title: 'tidyNode::isAsp'
+---
 # tidyNode::isAsp
 
 (PHP 5, PHP 7, PHP 8)

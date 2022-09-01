@@ -1,16 +1,11 @@
-Вступ
-
--   [« uopz](book.uopz.html)
-    
--   [Встановлення та налаштування »](uopz.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [uopz](book.uopz.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.uopz.html: « uopz
+  - uopz.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.uopz.html: uopz
+title: Вступ
+---
 # Вступ
 
 Модуль uopz (User Operations for Zend) надає функціональність Zend Engine, що зазвичай використовується під час компіляції та виконання, щоб дозволити модифікацію внутрішніх структур, що представляють PHP-код, та для взаємодії користувача коду з віртуальною машиною.

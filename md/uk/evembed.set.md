@@ -1,16 +1,11 @@
-Налаштування спостерігача
-
--   [« EvEmbed::createStopped](evembed.createstopped.md)
-    
--   [EvEmbed::sweep »](evembed.sweep.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvEmbed](class.evembed.md)
-    
--   Налаштування спостерігача
-    
-
+---
+navigation:
+  - evembed.createstopped.md: '« EvEmbed::createStopped'
+  - evembed.sweep.md: 'EvEmbed::sweep »'
+  - index.md: PHP Manual
+  - class.evembed.md: EvEmbed
+title: 'EvEmbed::set'
+---
 # EvEmbed::set
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи пароль хешу відповідає
-
--   [« passwordneedsrehash](function.password-needs-rehash.html)
-    
--   [Sodium »](book.sodium.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції хешування паролів](ref.password.html)
-    
--   Перевіряє, чи пароль хешу відповідає
-    
-
+---
+navigation:
+  - function.password-needs-rehash.html: « passwordneedsrehash
+  - book.sodium.html: Sodium »
+  - index.html: PHP Manual
+  - ref.password.html: Функції хешування паролів
+title: passwordverify
+---
 # passwordverify
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

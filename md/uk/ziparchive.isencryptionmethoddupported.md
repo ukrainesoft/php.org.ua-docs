@@ -1,16 +1,11 @@
-Перевіряє, чи підтримується метод шифрування libzip
-
--   [« ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md)
-    
--   [ZipArchive::locateName »](ziparchive.locatename.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Перевіряє, чи підтримується метод шифрування libzip
-    
-
+---
+navigation:
+  - ziparchive.iscompressionmethoddupported.md: '« ZipArchive::isCompressionMethodSupported'
+  - ziparchive.locatename.md: 'ZipArchive::locateName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::isEncryptionMethodSupported'
+---
 # ZipArchive::isEncryptionMethodSupported
 
 (PHP >= 8.0.0, PECL zip >= 1.19.0)

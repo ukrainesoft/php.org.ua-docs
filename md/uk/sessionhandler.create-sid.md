@@ -1,16 +1,11 @@
-Повертає новий ідентифікатор сесії
-
--   [« SessionHandler::close](sessionhandler.close.html)
-    
--   [SessionHandler::destroy »](sessionhandler.destroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [SessionHandler](class.sessionhandler.html)
-    
--   Повертає новий ідентифікатор сесії
-    
-
+---
+navigation:
+  - sessionhandler.close.html: '« SessionHandler::close'
+  - sessionhandler.destroy.html: 'SessionHandler::destroy »'
+  - index.html: PHP Manual
+  - class.sessionhandler.html: SessionHandler
+title: 'SessionHandler::createsid'
+---
 # SessionHandler::createsid
 
 (PHP 5> = 5.5.1, PHP 7, PHP 8)

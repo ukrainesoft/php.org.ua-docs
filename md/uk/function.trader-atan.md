@@ -1,16 +1,11 @@
-Вектор тригонометричний арктангенс
-
--   [« traderasin](function.trader-asin.html)
-    
--   [traderatr »](function.trader-atr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вектор тригонометричний арктангенс
-    
-
+---
+navigation:
+  - function.trader-asin.html: « traderasin
+  - function.trader-atr.html: traderatr »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderatan
+---
 # traderatan
 
 (PECL trader >= 0.2.0)

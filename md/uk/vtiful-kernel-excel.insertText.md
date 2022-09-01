@@ -1,16 +1,11 @@
-Вставити текст
-
--   [« VtifulKernelExcel::insertImage](vtiful-kernel-excel.insertImage.html)
-    
--   [VtifulKernelExcel::mergeCells »](vtiful-kernel-excel.mergeCells.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Вставити текст
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.insertImage.html: '« VtifulKernelExcel::insertImage'
+  - vtiful-kernel-excel.mergeCells.html: 'VtifulKernelExcel::mergeCells »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::insertText'
+---
 # VtifulKernelExcel::insertText
 
 (PECL xlswriter >= 1.2.1)

@@ -1,16 +1,11 @@
-Повертає значення з початку черги
-
--   [« DsQueue::jsonSerialize](ds-queue.jsonserialize.html)
-    
--   [ДсQueue::pop »](ds-queue.pop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга](class.ds-queue.html)
-    
--   Повертає значення з початку черги
-    
-
+---
+navigation:
+  - ds-queue.jsonserialize.html: '« DsQueue::jsonSerialize'
+  - ds-queue.pop.html: 'ДсQueue::pop »'
+  - index.md: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::peek'
+---
 # ДсQueue::peek
 
 (PECL ds >= 1.0.0)

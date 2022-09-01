@@ -1,16 +1,11 @@
-Визначає поточну глибину рекурсії
-
--   [« RecursiveIteratorIterator::endIteration](recursiveiteratoriterator.enditeration.md)
-    
--   [RecursiveIteratorIterator::getInnerIterator »](recursiveiteratoriterator.getinneriterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Визначає поточну глибину рекурсії
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.enditeration.md: '« RecursiveIteratorIterator::endIteration'
+  - recursiveiteratoriterator.getinneriterator.md: 'RecursiveIteratorIterator::getInnerIterator »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::getDepth'
+---
 # RecursiveIteratorIterator::getDepth
 
 (PHP 5, PHP 7, PHP 8)

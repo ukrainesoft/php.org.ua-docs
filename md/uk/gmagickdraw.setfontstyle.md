@@ -1,16 +1,11 @@
-Встановлює стиль шрифту для використання під час анотації тексту
-
--   [« GmagickDraw::setfontsize](gmagickdraw.setfontsize.html)
-    
--   [GmagickDraw::setfontweight »](gmagickdraw.setfontweight.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Встановлює стиль шрифту для використання під час анотації тексту
-    
-
+---
+navigation:
+  - gmagickdraw.setfontsize.html: '« GmagickDraw::setfontsize'
+  - gmagickdraw.setfontweight.html: 'GmagickDraw::setfontweight »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::setfontstyle'
+---
 # GmagickDraw::setfontstyle
 
 (PECL gmagick >= Unknown)

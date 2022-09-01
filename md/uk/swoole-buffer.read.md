@@ -1,16 +1,11 @@
-Читає дані з буфера пам'яті на основі усунення та довжини
-
--   [« SwooleBuffer::expand](swoole-buffer.expand.html)
-    
--   [SwooleBuffer::recycle »](swoole-buffer.recycle.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleBuffer](class.swoole-buffer.html)
-    
--   Читає дані з буфера пам'яті на основі усунення та довжини
-    
-
+---
+navigation:
+  - swoole-buffer.expand.html: '« SwooleBuffer::expand'
+  - swoole-buffer.recycle.html: 'SwooleBuffer::recycle »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.html: SwooleBuffer
+title: 'SwooleBuffer::read'
+---
 # SwooleBuffer::read
 
 (PECL swoole >= 1.9.0)

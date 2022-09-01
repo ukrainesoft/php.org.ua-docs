@@ -1,16 +1,11 @@
-Записати повний тег CDATA
-
--   [« XMLWriter::writeAttributeNs](xmlwriter.writeattributens.html)
-    
--   [XMLWriter::writeComment »](xmlwriter.writecomment.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати повний тег CDATA
-    
-
+---
+navigation:
+  - xmlwriter.writeattributens.html: '« XMLWriter::writeAttributeNs'
+  - xmlwriter.writecomment.html: 'XMLWriter::writeComment »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::writeCdata'
+---
 # XMLWriter::writeCdata
 
 # xmlwriterwritecdata
@@ -51,9 +46,9 @@ xmlwriter_write_cdata(XMLWriter $writer, string $content): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Клас MongoDBBSONDBPointer (застарілий)
-
--   [« MongoDBBSONUTCDateTimeInterface::toString](mongodb-bson-utcdatetimeinterface.tostring.html)
-    
--   [MongoDBBSONDBPointer::construct »](mongodb-bson-dbpointer.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONDBPointer (застарілий)
-    
-
+---
+navigation:
+  - mongodb-bson-utcdatetimeinterface.tostring.html: '« MongoDBBSONUTCDateTimeInterface::toString'
+  - mongodb-bson-dbpointer.construct.html: 'MongoDBBSONDBPointer::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONDBPointer (застарілий)
+---
 # Клас MongoDBBSONDBPointer (застарілий)
 
 (mongodb >=1.4.0)
@@ -47,8 +42,8 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                           |
-|---------------------|--------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
 
 ## Зміст

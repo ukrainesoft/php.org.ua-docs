@@ -1,16 +1,11 @@
-Завантажити phar-архів із псевдонімом
-
--   [« Phar::isWritable](phar.iswritable.html)
-    
--   [Phar::mapPhar »](phar.mapphar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Завантажити phar-архів із псевдонімом
-    
-
+---
+navigation:
+  - phar.iswritable.html: '« Phar::isWritable'
+  - phar.mapphar.html: 'Phar::mapPhar »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::loadPhar'
+---
 # Phar::loadPhar
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

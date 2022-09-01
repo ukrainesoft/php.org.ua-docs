@@ -1,16 +1,11 @@
-Отримати та/або встановити поточний режим кешування
-
--   [« sessioncacheexpire](function.session-cache-expire.html)
-    
--   [sessioncommit »](function.session-commit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Отримати та/або встановити поточний режим кешування
-    
-
+---
+navigation:
+  - function.session-cache-expire.html: « sessioncacheexpire
+  - function.session-commit.html: sessioncommit »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessioncachelimiter
+---
 # sessioncachelimiter
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -41,12 +36,12 @@ session_cache_limiter(?string $value = null): string|false
 
 **Можливі значення**
 
-| Значение                                                                               | Посылаемый заголовок |
-|----------------------------------------------------------------------------------------|----------------------|
-| `public`                                                                               |                      |
-| Expires: (коли в майбутньому, залежно від session.cacheexpire)                         |                      |
-| Cache-Control: public, max-age=(колись у майбутньому, залежно від session.cacheexpire) |                      |
-| Last-Modified: (тимчасова мітка останнього збереження сесії)                           |                      |
+| Значение | Посылаемый заголовок |
+| --- | --- |
+| `public` |  |
+| Expires: (коли в майбутньому, залежно від session.cacheexpire) |  |
+| Cache-Control: public, max-age=(колись у майбутньому, залежно від session.cacheexpire) |  |
+| Last-Modified: (тимчасова мітка останнього збереження сесії) |  |
 
 `private_no_expire`
 
@@ -66,9 +61,9 @@ Expires: Thu, 19 Nov 1981 08:52:00 GMT Cache-Control: no-store, no-cache, must-r
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `value` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `value` може набувати значення **`null`** |
 
 ### Приклади
 

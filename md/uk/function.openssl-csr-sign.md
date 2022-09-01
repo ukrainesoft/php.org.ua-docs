@@ -1,16 +1,11 @@
-Підписати CSR за допомогою іншого сертифіката (або ним же) і створити сертифікат
-
--   [« opensslcsrnew](function.openssl-csr-new.html)
-    
--   [openssldecrypt »](function.openssl-decrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Підписати CSR за допомогою іншого сертифіката (або ним же) і створити сертифікат
-    
-
+---
+navigation:
+  - function.openssl-csr-new.html: « opensslcsrnew
+  - function.openssl-decrypt.html: openssldecrypt »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslcsrsign
+---
 # opensslcsrsign
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -59,12 +54,12 @@ openssl_csr_sign(    OpenSSLCertificateSigningRequest|string $csr,    Op
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | On success, this function returns an [OpenSSLCertificate](class.opensslcertificate.html) instance now; previously, a [resource](language.types.resource.html) of type `OpenSSL X.509` був returned.        |
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
-|        | `ca_certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR`                  |
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR`                 |
+| Версия | Описание |
+| --- | --- |
+|  | On success, this function returns an [OpenSSLCertificate](class.opensslcertificate.html) instance now; previously, a [resource](language.types.resource.html) of type `OpenSSL X.509` був returned. |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+|  | `ca_certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

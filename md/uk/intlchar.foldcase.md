@@ -1,16 +1,11 @@
-Здійснює перетворення регістра заданого символу
-
--   [« IntlChar::enumCharTypes](intlchar.enumchartypes.html)
-    
--   [IntlChar::forDigit »](intlchar.fordigit.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Здійснює перетворення регістра заданого символу
-    
-
+---
+navigation:
+  - intlchar.enumchartypes.html: '« IntlChar::enumCharTypes'
+  - intlchar.fordigit.html: 'IntlChar::forDigit »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::foldCase'
+---
 # IntlChar::foldCase
 
 (PHP 7, PHP 8)

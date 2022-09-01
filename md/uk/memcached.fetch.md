@@ -1,16 +1,11 @@
-Витягує наступний результат
-
--   [« Memcached::deleteMultiByKey](memcached.deletemultibykey.md)
-    
--   [Memcached::fetchAll »](memcached.fetchall.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Витягує наступний результат
-    
-
+---
+navigation:
+  - memcached.deletemultibykey.md: '« Memcached::deleteMultiByKey'
+  - memcached.fetchall.md: 'Memcached::fetchAll »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::fetch'
+---
 # Memcached::fetch
 
 (PECL memcached >= 0.1.0)

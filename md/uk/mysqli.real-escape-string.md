@@ -1,16 +1,11 @@
-Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
-
--   [« mysqli::realconnect](mysqli.real-connect.html)
-    
--   [mysqli::realquery »](mysqli.real-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
-    
-
+---
+navigation:
+  - mysqli.real-connect.html: '« mysqli::realconnect'
+  - mysqli.real-query.html: 'mysqli::realquery »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::realescapestring'
+---
 # mysqli::realescapestring
 
 # mysqli::escapestring

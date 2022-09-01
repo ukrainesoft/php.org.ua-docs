@@ -1,16 +1,11 @@
-Намалювати дугу
-
--   [« UIDrawPath::addRectangle](ui-draw-path.addrectangle.html)
-    
--   [ОЙDrawPath::bezierTo »](ui-draw-path.bezierto.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Намалювати дугу
-    
-
+---
+navigation:
+  - ui-draw-path.addrectangle.html: '« UIDrawPath::addRectangle'
+  - ui-draw-path.bezierto.html: 'ОЙDrawPath::bezierTo »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::arcTo'
+---
 # ОЙDrawPath::arcTo
 
 (UI 0.9.9)

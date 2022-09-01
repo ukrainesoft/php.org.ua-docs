@@ -1,16 +1,11 @@
-Повертає максимальну кількість виразів, які має повернути Solr
-
--   [« SolrQuery::getTermsIncludeUpperBound](solrquery.gettermsincludeupperbound.html)
-    
--   [SolrQuery::getTermsLowerBound »](solrquery.gettermslowerbound.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає максимальну кількість виразів, які має повернути Solr
-    
-
+---
+navigation:
+  - solrquery.gettermsincludeupperbound.html: '« SolrQuery::getTermsIncludeUpperBound'
+  - solrquery.gettermslowerbound.html: 'SolrQuery::getTermsLowerBound »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTermsLimit'
+---
 # SolrQuery::getTermsLimit
 
 (PECL solr> = 0.9.2)

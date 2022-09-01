@@ -1,16 +1,11 @@
-Розбиває рядок за допомогою роздільника
-
--   [« echo](function.echo.html)
-    
--   [fprintf »](function.fprintf.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Розбиває рядок за допомогою роздільника
-    
-
+---
+navigation:
+  - function.echo.html: « echo
+  - function.fprintf.html: fprintf »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: explode
+---
 # explode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ explode(string $separator, string $string, int $limit = PHP_INT_MAX): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **explode()** тепер викидає [TypeError](class.typeerror.html), якщо параметр `separator` є порожнім рядком (`""`). Раніше замість виключення **explode()** повертала **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | **explode()** тепер викидає [TypeError](class.typeerror.html), якщо параметр `separator` є порожнім рядком (`""`). Раніше замість виключення **explode()** повертала **`false`** |
 
 ### Приклади
 

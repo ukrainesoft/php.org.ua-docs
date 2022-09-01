@@ -1,16 +1,11 @@
-Закриває з'єднання з базою даних
-
--   [« cubridclientencoding](function.cubrid-client-encoding.html)
-    
--   [cubriddataseek »](function.cubrid-data-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Закриває з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.cubrid-client-encoding.html: « cubridclientencoding
+  - function.cubrid-data-seek.html: cubriddataseek »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridclose
+---
 # cubridclose
 
 (PECL CUBRID >= 8.3.1)

@@ -1,16 +1,11 @@
-Повертає код виключення
-
--   [« Throwable::getMessage](throwable.getmessage.md)
-    
--   [Throwable::getFile »](throwable.getfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Throwable](class.throwable.md)
-    
--   Повертає код виключення
-    
-
+---
+navigation:
+  - throwable.getmessage.md: '« Throwable::getMessage'
+  - throwable.getfile.md: 'Throwable::getFile »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getCode'
+---
 # Throwable::getCode
 
 (PHP 7, PHP 8)

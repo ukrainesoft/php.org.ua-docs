@@ -1,16 +1,11 @@
-Регулює контраст зображення
-
--   [« Imagick::shearImage](imagick.shearimage.md)
-    
--   [Imagick::sketchImage »](imagick.sketchimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Регулює контраст зображення
-    
-
+---
+navigation:
+  - imagick.shearimage.md: '« Imagick::shearImage'
+  - imagick.sketchimage.md: 'Imagick::sketchImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::sigmoidalContrastImage'
+---
 # Imagick::sigmoidalContrastImage
 
 (PECL imagick 2, PECL imagick 3)

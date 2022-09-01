@@ -1,16 +1,11 @@
-Прив'язує ім'я до сокету
-
--   [« socketaddrinfolookup](function.socket-addrinfo-lookup.html)
-    
--   [socketclearerror »](function.socket-clear-error.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Прив'язує ім'я до сокету
-    
-
+---
+navigation:
+  - function.socket-addrinfo-lookup.html: « socketaddrinfolookup
+  - function.socket-clear-error.html: socketclearerror »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketbind
+---
 # socketbind
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ socket_bind(Socket $socket, string $address, int $port = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Приклади
 

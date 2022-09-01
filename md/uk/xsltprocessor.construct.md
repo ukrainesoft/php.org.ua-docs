@@ -1,16 +1,11 @@
-Створює новий екземпляр класу XSLTProcessor
-
--   [« XSLTProcessor](class.xsltprocessor.md)
-    
--   [XSLTProcessor::getParameter »](xsltprocessor.getparameter.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Створює новий екземпляр класу XSLTProcessor
-    
-
+---
+navigation:
+  - class.xsltprocessor.md: « XSLTProcessor
+  - xsltprocessor.getparameter.md: 'XSLTProcessor::getParameter »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::construct'
+---
 # XSLTProcessor::construct
 
 (PHP 5, PHP 7, PHP 8)

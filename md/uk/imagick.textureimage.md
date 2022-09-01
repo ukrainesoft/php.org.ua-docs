@@ -1,16 +1,11 @@
-Багаторазово розміщує зображення текстури
-
--   [« Imagick::swirlImage](imagick.swirlimage.md)
-    
--   [Imagick::thresholdImage »](imagick.thresholdimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Багаторазово розміщує зображення текстури
-    
-
+---
+navigation:
+  - imagick.swirlimage.md: '« Imagick::swirlImage'
+  - imagick.thresholdimage.md: 'Imagick::thresholdImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::textureImage'
+---
 # Imagick::textureImage
 
 (PECL imagick 2, PECL imagick 3)

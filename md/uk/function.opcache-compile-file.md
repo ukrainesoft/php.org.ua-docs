@@ -1,16 +1,11 @@
-Скомпілювати та закешувати, але не виконувати скрипт PHP
-
--   [« Функции OPcache](ref.opcache.md)
-    
--   [opcachegetconfiguration »](function.opcache-get-configuration.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OPcache](ref.opcache.md)
-    
--   Скомпілювати та закешувати, але не виконувати скрипт PHP
-    
-
+---
+navigation:
+  - ref.opcache.md: « Функции OPcache
+  - function.opcache-get-configuration.html: opcachegetconfiguration »
+  - index.md: PHP Manual
+  - ref.opcache.md: Функции OPcache
+title: opcachecompilefile
+---
 # opcachecompilefile
 
 (PHP 5> = 5.5.5, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)

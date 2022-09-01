@@ -1,16 +1,11 @@
-Створити звичайний патч для двох рядків
-
--   [xdiffstringdiffbinary](function.xdiff-string-diff-binary.html)
-    
--   [xdiffstringmerge3 »](function.xdiff-string-merge3.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції xdiff](ref.xdiff.html)
-    
--   Створити звичайний патч для двох рядків
-    
-
+---
+navigation:
+  - function.xdiff-string-diff-binary.html: xdiffstringdiffbinary
+  - function.xdiff-string-merge3.html: xdiffstringmerge3 »
+  - index.html: PHP Manual
+  - ref.xdiff.html: Функції xdiff
+title: xdiffstringdiff
+---
 # xdiffstringdiff
 
 (PECL xdiff >= 0.2.0)

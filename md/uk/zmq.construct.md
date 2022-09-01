@@ -1,16 +1,11 @@
-Конструктор ZMQ
-
--   [« ZMQ](class.zmq.md)
-    
--   [ZMQContext »](class.zmqcontext.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQ](class.zmq.md)
-    
--   Конструктор ZMQ
-    
-
+---
+navigation:
+  - class.zmq.md: « ZMQ
+  - class.zmqcontext.md: ZMQContext »
+  - index.md: PHP Manual
+  - class.zmq.md: ZMQ
+title: 'ZMQ::construct'
+---
 # ZMQ::construct
 
 (PECL zmq >= 0.5.0)

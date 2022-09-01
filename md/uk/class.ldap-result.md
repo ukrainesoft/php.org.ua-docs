@@ -1,16 +1,11 @@
-Клас LDAPResult
-
--   [« LDAPConnection](class.ldap-connection.html)
-    
--   [LDAPResultEntry »](class.ldap-result-entry.html)
-    
--   [PHP Manual](index.html)
-    
--   [LDAP](book.ldap.html)
-    
--   Клас LDAPResult
-    
-
+---
+navigation:
+  - class.ldap-connection.html: « LDAPConnection
+  - class.ldap-result-entry.html: LDAPResultEntry »
+  - index.html: PHP Manual
+  - book.ldap.html: LDAP
+title: Клас LDAPResult
+---
 # Клас LDAPResult
 
 (PHP 8> = 8.1.0)

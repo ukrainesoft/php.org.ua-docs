@@ -1,16 +1,11 @@
-Створює новий об'єкт OAuth
-
--   [« OAuth](class.oauth.md)
-    
--   [OAuth::destruct »](oauth.destruct.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Створює новий об'єкт OAuth
-    
-
+---
+navigation:
+  - class.oauth.md: « OAuth
+  - oauth.destruct.md: 'OAuth::destruct »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::construct'
+---
 # OAuth::construct
 
 (PECL OAuth >= 0.99.1)

@@ -1,16 +1,11 @@
-Повертає ім'я стовпця у наборі результатів
-
--   [« db2fielddisplaysize](function.db2-field-display-size.html)
-    
--   [db2fieldnum »](function.db2-field-num.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає ім'я стовпця у наборі результатів
-    
-
+---
+navigation:
+  - function.db2-field-display-size.html: « db2fielddisplaysize
+  - function.db2-field-num.html: db2fieldnum »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fieldname
+---
 # db2fieldname
 
 (PECL ibmdb2> = 1.0.0)

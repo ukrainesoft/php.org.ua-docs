@@ -1,16 +1,11 @@
-Конструктор, який забороняє реалізацію
-
--   [« WeakReference](class.weakreference.md)
-    
--   [WeakReference::create »](weakreference.create.md)
-    
--   [PHP Manual](index.md)
-    
--   [WeakReference](class.weakreference.md)
-    
--   Конструктор, який забороняє реалізацію
-    
-
+---
+navigation:
+  - class.weakreference.md: « WeakReference
+  - weakreference.create.md: 'WeakReference::create »'
+  - index.md: PHP Manual
+  - class.weakreference.md: WeakReference
+title: 'WeakReference::construct'
+---
 # WeakReference::construct
 
 (PHP 7> = 7.4.0, PHP 8)

@@ -1,16 +1,11 @@
-Клас EventConfig
-
--   [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
-    
--   [EventConfig::avoidMethod »](eventconfig.avoidmethod.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventConfig
-    
-
+---
+navigation:
+  - eventbufferevent.about.callbacks.md: Про callback-функції подієвого буфера
+  - eventconfig.avoidmethod.md: 'EventConfig::avoidMethod »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventConfig
+---
 # Клас EventConfig
 
 (PECL event >= 1.2.6-beta)

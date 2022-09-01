@@ -1,16 +1,11 @@
-Керує згладжуванням тексту
-
--   [« ImagickDraw::setTextAlignment](imagickdraw.settextalignment.html)
-    
--   [ImagickDraw::setTextDecoration »](imagickdraw.settextdecoration.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Керує згладжуванням тексту
-    
-
+---
+navigation:
+  - imagickdraw.settextalignment.html: '« ImagickDraw::setTextAlignment'
+  - imagickdraw.settextdecoration.html: 'ImagickDraw::setTextDecoration »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setTextAntialias'
+---
 # ImagickDraw::setTextAntialias
 
 (PECL imagick 2, PECL imagick 3)

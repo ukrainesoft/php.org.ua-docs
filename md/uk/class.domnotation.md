@@ -1,16 +1,11 @@
-Клас DOMNotation
-
--   [« DOMNodeList::item](domnodelist.item.md)
-    
--   [DOMParentNode »](class.domparentnode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMNotation
-    
-
+---
+navigation:
+  - domnodelist.item.md: '« DOMNodeList::item'
+  - class.domparentnode.md: DOMParentNode »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMNotation
+---
 # Клас DOMNotation
 
 (PHP 5, PHP 7, PHP 8)

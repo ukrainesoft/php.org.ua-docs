@@ -1,16 +1,11 @@
-Callback-функції PHP
-
--   [« Прості приклади використання FFI](ffi.examples-basic.html)
-    
--   [Комплексний приклад PHP/FFI/preloading »](ffi.examples-complete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](ffi.examples.html)
-    
--   Callback-функції PHP
-    
-
+---
+navigation:
+  - ffi.examples-basic.html: « Прості приклади використання FFI
+  - ffi.examples-complete.html: Комплексний приклад PHP/FFI/preloading »
+  - index.html: PHP Manual
+  - ffi.examples.html: Приклади
+title: Callback-функції PHP
+---
 ## Callback-функції PHP
 
 Можна привласнити замикання PHP змінної типу "покажчик" (pointer) або передати його як аргумент функції:

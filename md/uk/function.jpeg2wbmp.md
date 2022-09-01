@@ -1,16 +1,11 @@
-Конвертує зображення з формату JPEG у WBMP
-
--   [« iptcparse](function.iptcparse.md)
-    
--   [png2wbmp »](function.png2wbmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Конвертує зображення з формату JPEG у WBMP
-    
-
+---
+navigation:
+  - function.iptcparse.md: « iptcparse
+  - function.png2wbmp.md: png2wbmp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: jpeg2wbmp
+---
 # jpeg2wbmp
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7)

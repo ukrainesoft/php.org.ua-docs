@@ -1,16 +1,11 @@
-Замінити підрядок у вузлі типу DOMCharacterData
-
--   [« DOMCharacterData::insertData](domcharacterdata.insertdata.md)
-    
--   [DOMCharacterData::substringData »](domcharacterdata.substringdata.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMCharacterData](class.domcharacterdata.md)
-    
--   Замінити підрядок у вузлі типу DOMCharacterData
-    
-
+---
+navigation:
+  - domcharacterdata.insertdata.md: '« DOMCharacterData::insertData'
+  - domcharacterdata.substringdata.md: 'DOMCharacterData::substringData »'
+  - index.md: PHP Manual
+  - class.domcharacterdata.md: DOMCharacterData
+title: 'DOMCharacterData::replaceData'
+---
 # DOMCharacterData::replaceData
 
 (PHP 5, PHP 7, PHP 8)

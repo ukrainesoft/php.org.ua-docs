@@ -1,16 +1,11 @@
-PostgreSQL
-
--   [« ociwritetemporarylob](function.ociwritetemporarylob.md)
-    
--   [Введение »](intro.pgsql.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   PostgreSQL
-    
-
+---
+navigation:
+  - function.ociwritetemporarylob.md: « ociwritetemporarylob
+  - intro.pgsql.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: PostgreSQL
+---
 # PostgreSQL
 
 -   [Введение](intro.pgsql.md)

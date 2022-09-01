@@ -1,16 +1,11 @@
-Створює засіб форматування повідомлень
-
--   [« MessageFormatter](class.messageformatter.md)
-    
--   [MessageFormatter::formatMessage »](messageformatter.formatmessage.md)
-    
--   [PHP Manual](index.md)
-    
--   [MessageFormatter](class.messageformatter.md)
-    
--   Створює засіб форматування повідомлень
-    
-
+---
+navigation:
+  - class.messageformatter.md: « MessageFormatter
+  - messageformatter.formatmessage.md: 'MessageFormatter::formatMessage »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
+title: 'MessageFormatter::create'
+---
 # MessageFormatter::create
 
 # MessageFormatter::construct

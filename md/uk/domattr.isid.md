@@ -1,16 +1,11 @@
-Перевіряє, чи є атрибут певним ідентифікатором
-
--   [« DOMAttr::construct](domattr.construct.md)
-    
--   [DOMCdataSection »](class.domcdatasection.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMAttr](class.domattr.md)
-    
--   Перевіряє, чи є атрибут певним ідентифікатором
-    
-
+---
+navigation:
+  - domattr.construct.md: '« DOMAttr::construct'
+  - class.domcdatasection.md: DOMCdataSection »
+  - index.md: PHP Manual
+  - class.domattr.md: DOMAttr
+title: 'DOMAttr::isId'
+---
 # DOMAttr::isId
 
 (PHP 5, PHP 7, PHP 8)

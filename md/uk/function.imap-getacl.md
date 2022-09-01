@@ -1,16 +1,11 @@
-Отримати ACL для заданої поштової скриньки
-
--   [« imapgetquotaroot](function.imap-get-quotaroot.html)
-    
--   [imapgetmailboxes »](function.imap-getmailboxes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Отримати ACL для заданої поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-get-quotaroot.html: « imapgetquotaroot
+  - function.imap-getmailboxes.html: imapgetmailboxes »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapgetacl
+---
 # imapgetacl
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_getacl(IMAP\Connection $imap, string $mailbox): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

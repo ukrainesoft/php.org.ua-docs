@@ -1,16 +1,11 @@
-Повертає тип даних зазначеного стовпця у наборі результатів
-
--   [« db2fieldscale](function.db2-field-scale.html)
-    
--   [db2fieldwidth »](function.db2-field-width.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає тип даних зазначеного стовпця у наборі результатів
-    
-
+---
+navigation:
+  - function.db2-field-scale.html: « db2fieldscale
+  - function.db2-field-width.html: db2fieldwidth »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fieldtype
+---
 # db2fieldtype
 
 (PECL ibmdb2> = 1.0.0)

@@ -1,16 +1,11 @@
-Клас ColumnResult
-
--   [« CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.html)
-    
--   [ColumnResult::construct »](mysql-xdevapi-columnresult.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас ColumnResult
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionremove.sort.html: '« CollectionRemove::sort'
+  - mysql-xdevapi-columnresult.construct.html: 'ColumnResult::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас ColumnResult
+---
 # Клас ColumnResult
 
 (PECL mysql-xdevapi >= 8.0.11)

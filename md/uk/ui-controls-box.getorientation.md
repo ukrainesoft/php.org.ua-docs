@@ -1,16 +1,11 @@
-Отримати орієнтацію
-
--   [« UIControlsBox::delete](ui-controls-box.delete.html)
-    
--   [ОЙControlsBox::isPadded »](ui-controls-box.ispadded.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsBox](class.ui-controls-box.html)
-    
--   Отримати орієнтацію
-    
-
+---
+navigation:
+  - ui-controls-box.delete.html: '« UIControlsBox::delete'
+  - ui-controls-box.ispadded.html: 'ОЙControlsBox::isPadded »'
+  - index.html: PHP Manual
+  - class.ui-controls-box.html: ОЙControlsBox
+title: 'ОЙControlsBox::getOrientation'
+---
 # ОЙControlsBox::getOrientation
 
 (UI 0.9.9)

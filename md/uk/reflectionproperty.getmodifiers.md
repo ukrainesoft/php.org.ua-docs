@@ -1,16 +1,11 @@
-Отримання модифікаторів властивостей класу
-
--   [« ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.html)
-    
--   [ReflectionProperty::getName »](reflectionproperty.getname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Отримання модифікаторів властивостей класу
-    
-
+---
+navigation:
+  - reflectionproperty.getdoccomment.html: '« ReflectionProperty::getDocComment'
+  - reflectionproperty.getname.html: 'ReflectionProperty::getName »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::getModifiers'
+---
 # ReflectionProperty::getModifiers
 
 (PHP 5, PHP 7, PHP 8)

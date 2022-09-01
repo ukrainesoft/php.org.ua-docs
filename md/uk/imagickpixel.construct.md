@@ -1,16 +1,11 @@
-Конструктор ImagickPixel
-
--   [« ImagickPixel::clear](imagickpixel.clear.md)
-    
--   [ImagickPixel::destroy »](imagickpixel.destroy.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Конструктор ImagickPixel
-    
-
+---
+navigation:
+  - imagickpixel.clear.md: '« ImagickPixel::clear'
+  - imagickpixel.destroy.md: 'ImagickPixel::destroy »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::construct'
+---
 # ImagickPixel::construct
 
 (PECL imagick 2, PECL imagick 3)

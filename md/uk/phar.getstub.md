@@ -1,16 +1,11 @@
-Отримати завантажувач PHP або завантажувач заглушки Phar-архіву
-
--   [« Phar::getSignature](phar.getsignature.html)
-    
--   [Phar::getSupportedCompression »](phar.getsupportedcompression.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Отримати завантажувач PHP або завантажувач заглушки Phar-архіву
-    
-
+---
+navigation:
+  - phar.getsignature.html: '« Phar::getSignature'
+  - phar.getsupportedcompression.html: 'Phar::getSupportedCompression »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getStub'
+---
 # Phar::getStub
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

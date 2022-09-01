@@ -1,16 +1,11 @@
-Чекає на активність введення-виводу для всіх підключень на клієнті
-
--   [« GearmanClient::timeout](gearmanclient.timeout.html)
-    
--   [GearmanJob »](class.gearmanjob.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Чекає на активність введення-виводу для всіх підключень на клієнті
-    
-
+---
+navigation:
+  - gearmanclient.timeout.html: '« GearmanClient::timeout'
+  - class.gearmanjob.html: GearmanJob »
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::wait'
+---
 # GearmanClient::wait
 
 (PECL gearman >= 0.6.0)

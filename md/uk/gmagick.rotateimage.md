@@ -1,16 +1,11 @@
-Повертає зображення
-
--   [« Gmagick::rollimage](gmagick.rollimage.html)
-    
--   [Gmagick::scaleimage »](gmagick.scaleimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає зображення
-    
-
+---
+navigation:
+  - gmagick.rollimage.html: '« Gmagick::rollimage'
+  - gmagick.scaleimage.html: 'Gmagick::scaleimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::rotateimage'
+---
 # Gmagick::rotateimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Об'єднати три рядки в один
-
--   [xdiffstringdiff](function.xdiff-string-diff.html)
-    
--   [xdiffstringpatchbinary »](function.xdiff-string-patch-binary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції xdiff](ref.xdiff.html)
-    
--   Об'єднати три рядки в один
-    
-
+---
+navigation:
+  - function.xdiff-string-diff.html: xdiffstringdiff
+  - function.xdiff-string-patch-binary.html: xdiffstringpatchbinary »
+  - index.html: PHP Manual
+  - ref.xdiff.html: Функції xdiff
+title: xdiffstringmerge3
+---
 # xdiffstringmerge3
 
 (PECL xdiff >= 0.2.0)

@@ -1,16 +1,11 @@
-Закриває встановлене з'єднання
-
--   [« SwooleClient](class.swoole-client.html)
-    
--   [SwooleClient::connect »](swoole-client.connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Закриває встановлене з'єднання
-    
-
+---
+navigation:
+  - class.swoole-client.html: « SwooleClient
+  - swoole-client.connect.html: 'SwooleClient::connect »'
+  - index.html: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::close'
+---
 # SwooleClient::close
 
 (PECL swoole >= 1.9.0)

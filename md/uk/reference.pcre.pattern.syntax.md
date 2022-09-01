@@ -1,16 +1,11 @@
-Синтаксис регулярних виразів
-
--   [Регулярні вирази PCRE](pcre.pattern.md)
-    
--   [Вступление »](regexp.introduction.md)
-    
--   [PHP Manual](index.md)
-    
--   [Регулярні вирази PCRE](pcre.pattern.md)
-    
--   Синтаксис регулярних виразів
-    
-
+---
+navigation:
+  - pcre.pattern.md: Регулярні вирази PCRE
+  - regexp.introduction.md: Вступление »
+  - index.md: PHP Manual
+  - pcre.pattern.md: Регулярні вирази PCRE
+title: Синтаксис регулярних виразів
+---
 # Синтаксис регулярних виразів
 
 ## Зміст

@@ -1,16 +1,11 @@
-Вирази
-
--   [Магічні константи](language.constants.magic.html)
-    
--   [Оператори »](language.operators.html)
-    
--   [PHP Manual](index.html)
-    
--   [Довідник мови](langref.html)
-    
--   Вирази
-    
-
+---
+navigation:
+  - language.constants.magic.html: Магічні константи
+  - language.operators.html: Оператори »
+  - index.html: PHP Manual
+  - langref.html: Довідник мови
+title: Вирази
+---
 # Вирази
 
 Вирази – це найважливіші будівельні елементи PHP. Майже все, що ви пишете в PHP, є виразом. Найпростіше і найточніше визначення виразу - "все що завгодно, що має значення".

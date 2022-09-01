@@ -1,16 +1,11 @@
-Повертає елементи на ім'я тега
-
--   [« DOMElement::getAttributeNS](domelement.getattributens.md)
-    
--   [DOMElement::getElementsByTagNameNS »](domelement.getelementsbytagnamens.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Повертає елементи на ім'я тега
-    
-
+---
+navigation:
+  - domelement.getattributens.md: '« DOMElement::getAttributeNS'
+  - domelement.getelementsbytagnamens.md: 'DOMElement::getElementsByTagNameNS »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::getElementsByTagName'
+---
 # DOMElement::getElementsByTagName
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює імпульс навчання
-
--   [« fannsetinputscalingparams](function.fann-set-input-scaling-params.html)
-    
--   [fannsetlearningrate »](function.fann-set-learning-rate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює імпульс навчання
-    
-
+---
+navigation:
+  - function.fann-set-input-scaling-params.html: « fannsetinputscalingparams
+  - function.fann-set-learning-rate.html: fannsetlearningrate »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetlearningmomentum
+---
 # fannsetlearningmomentum
 
 (PECL fann> = 1.0.0)

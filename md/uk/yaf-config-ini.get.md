@@ -1,16 +1,11 @@
-Отримує елемент
-
--   [« YafConfigIni::current](yaf-config-ini.current.html)
-    
--   [YafConfigIni::isset »](yaf-config-ini.isset.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigIni](class.yaf-config-ini.html)
-    
--   Отримує елемент
-    
-
+---
+navigation:
+  - yaf-config-ini.current.html: '« YafConfigIni::current'
+  - yaf-config-ini.isset.html: 'YafConfigIni::isset »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.html: YafConfigIni
+title: 'YafConfigIni::get'
+---
 # YafConfigIni::get
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Збільшує числове значення запису, що зберігається на вказаному сервері
-
--   [« Memcached::increment](memcached.increment.md)
-    
--   [Memcached::isPersistent »](memcached.ispersistent.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Збільшує числове значення запису, що зберігається на вказаному сервері
-    
-
+---
+navigation:
+  - memcached.increment.md: '« Memcached::increment'
+  - memcached.ispersistent.md: 'Memcached::isPersistent »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::incrementByKey'
+---
 # Memcached::incrementByKey
 
 (PECL memcached >= 2.0.0)

@@ -1,16 +1,11 @@
-Підготовка запиту до виконання
-
--   [« ocinumrows](function.oci-num-rows.html)
-    
--   [ocipasswordchange »](function.oci-password-change.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Підготовка запиту до виконання
-    
-
+---
+navigation:
+  - function.oci-num-rows.html: « ocinumrows
+  - function.oci-password-change.html: ocipasswordchange »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociparse
+---
 # ociparse
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

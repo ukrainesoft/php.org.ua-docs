@@ -1,16 +1,11 @@
-Встановлює дату та час на основі мітки часу Unix
-
--   [« DateTimeImmutable::setTime](datetimeimmutable.settime.md)
-    
--   [DateTimeImmutable::setTimezone »](datetimeimmutable.settimezone.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Встановлює дату та час на основі мітки часу Unix
-    
-
+---
+navigation:
+  - datetimeimmutable.settime.md: '« DateTimeImmutable::setTime'
+  - datetimeimmutable.settimezone.md: 'DateTimeImmutable::setTimezone »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::setTimestamp'
+---
 # DateTimeImmutable::setTimestamp
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

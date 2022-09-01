@@ -1,16 +1,11 @@
-Перетворює колекцію на масив (array)
-
--   [« DsQueue::push](ds-queue.push.html)
-    
--   [Черга з пріоритетом »](class.ds-priorityqueue.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Перетворює колекцію на масив (array)
-    
-
+---
+navigation:
+  - ds-queue.push.html: '« DsQueue::push'
+  - class.ds-priorityqueue.html: Черга з пріоритетом »
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::toArray'
+---
 # ДсQueue::toArray
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Призначення next
-
--   [« YafConfigSimple::key](yaf-config-simple.key.html)
-    
--   [YafConfigSimple::offsetExists »](yaf-config-simple.offsetexists.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Призначення next
-    
-
+---
+navigation:
+  - yaf-config-simple.key.html: '« YafConfigSimple::key'
+  - yaf-config-simple.offsetexists.html: 'YafConfigSimple::offsetExists »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::next'
+---
 # YafConfigSimple::next
 
 (Yaf >=1.0.0)

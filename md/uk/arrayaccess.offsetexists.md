@@ -1,16 +1,11 @@
-Визначає, чи існує задане усунення (ключ)
-
--   [« ArrayAccess](class.arrayaccess.html)
-    
--   [ArrayAccess::offsetGet »](arrayaccess.offsetget.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayAccess](class.arrayaccess.html)
-    
--   Визначає, чи існує задане усунення (ключ)
-    
-
+---
+navigation:
+  - class.arrayaccess.html: « ArrayAccess
+  - arrayaccess.offsetget.html: 'ArrayAccess::offsetGet »'
+  - index.html: PHP Manual
+  - class.arrayaccess.html: ArrayAccess
+title: 'ArrayAccess::offsetExists'
+---
 # ArrayAccess::offsetExists
 
 (PHP 5, PHP 7, PHP 8)

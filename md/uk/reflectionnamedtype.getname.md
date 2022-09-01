@@ -1,16 +1,11 @@
-Отримує ім'я типу у вигляді рядка
-
--   [« ReflectionNamedType](class.reflectionnamedtype.md)
-    
--   [ReflectionNamedType::isBuiltin »](reflectionnamedtype.isbuiltin.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionNamedType](class.reflectionnamedtype.md)
-    
--   Отримує ім'я типу у вигляді рядка
-    
-
+---
+navigation:
+  - class.reflectionnamedtype.md: « ReflectionNamedType
+  - reflectionnamedtype.isbuiltin.md: 'ReflectionNamedType::isBuiltin »'
+  - index.md: PHP Manual
+  - class.reflectionnamedtype.md: ReflectionNamedType
+title: 'ReflectionNamedType::getName'
+---
 # ReflectionNamedType::getName
 
 (PHP 7> = 7.1.0, PHP 8)

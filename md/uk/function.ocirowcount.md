@@ -1,16 +1,11 @@
-Псевдонім ocinumrows
-
--   [« ocirollback](function.ocirollback.md)
-    
--   [ocisavelob »](function.ocisavelob.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocinumrows
-    
-
+---
+navigation:
+  - function.ocirollback.md: « ocirollback
+  - function.ocisavelob.md: ocisavelob »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocirowcount
+---
 # ocirowcount
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

@@ -1,16 +1,11 @@
-Створення зв'язку в мережі
-
--   [« fannsetweightarray](function.fann-set-weight-array.html)
-    
--   [fannshuffletraindata »](function.fann-shuffle-train-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Створення зв'язку в мережі
-    
-
+---
+navigation:
+  - function.fann-set-weight-array.html: « fannsetweightarray
+  - function.fann-shuffle-train-data.html: fannshuffletraindata »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetweight
+---
 # fannsetweight
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Псевдонім ibaseadduser
-
--   [« Функции Firebird/InterBase](ref.ibase.html)
-    
--   [fbirdaffectedrows »](function.fbird-affected-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibaseadduser
-    
-
+---
+navigation:
+  - ref.ibase.html: « Функции Firebird/InterBase
+  - function.fbird-affected-rows.html: fbirdaffectedrows »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirdadduser
+---
 # fbirdadduser
 
 (PHP 5, PHP 7 < 7.4.0)

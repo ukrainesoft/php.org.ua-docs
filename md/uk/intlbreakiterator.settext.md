@@ -1,16 +1,11 @@
-Встановлює сканований текст
-
--   [« IntlBreakIterator::previous](intlbreakiterator.previous.md)
-    
--   [IntlRuleBasedBreakIterator »](class.intlrulebasedbreakiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlBreakIterator](class.intlbreakiterator.md)
-    
--   Встановлює сканований текст
-    
-
+---
+navigation:
+  - intlbreakiterator.previous.md: '« IntlBreakIterator::previous'
+  - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator »
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::setText'
+---
 # IntlBreakIterator::setText
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

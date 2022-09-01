@@ -1,16 +1,11 @@
-Модулі для стиснення та архівації
-
--   [« readline](function.readline.md)
-    
--   [Bzip2 »](book.bzip2.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для стиснення та архівації
-    
-
+---
+navigation:
+  - function.readline.md: « readline
+  - book.bzip2.md: Bzip2 »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для стиснення та архівації
+---
 # Модулі для стиснення та архівації
 
 -   [Bzip2](book.bzip2.md)

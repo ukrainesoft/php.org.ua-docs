@@ -1,16 +1,11 @@
-Видаляє базу даних
-
--   [« ibasedeleteuser](function.ibase-delete-user.html)
-    
--   [ibaseerrcode »](function.ibase-errcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Видаляє базу даних
-    
-
+---
+navigation:
+  - function.ibase-delete-user.html: « ibasedeleteuser
+  - function.ibase-errcode.html: ibaseerrcode »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasedropдб
+---
 # ibasedropдб
 
 (PHP 5, PHP 7 < 7.4.0)

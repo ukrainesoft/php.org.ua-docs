@@ -1,16 +1,11 @@
-Перевіряє, чи може атрибут вказуватися багаторазово в елементі коду
-
--   [« ReflectionAttribute::getTarget](reflectionattribute.gettarget.html)
-    
--   [ReflectionAttribute::newInstance »](reflectionattribute.newinstance.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionAttribute](class.reflectionattribute.html)
-    
--   Перевіряє, чи може атрибут вказуватися багаторазово в елементі коду
-    
-
+---
+navigation:
+  - reflectionattribute.gettarget.html: '« ReflectionAttribute::getTarget'
+  - reflectionattribute.newinstance.html: 'ReflectionAttribute::newInstance »'
+  - index.html: PHP Manual
+  - class.reflectionattribute.html: ReflectionAttribute
+title: 'ReflectionAttribute::isRepeated'
+---
 # ReflectionAttribute::isRepeated
 
 (PHP 8)

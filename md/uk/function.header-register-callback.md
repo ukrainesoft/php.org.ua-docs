@@ -1,16 +1,11 @@
-Викликає функцію заголовка
-
--   [« getservbyport](function.getservbyport.md)
-    
--   [headerremove »](function.header-remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Викликає функцію заголовка
-    
-
+---
+navigation:
+  - function.getservbyport.md: « getservbyport
+  - function.header-remove.html: headerremove »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: headerregistercallback
+---
 # headerregistercallback
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

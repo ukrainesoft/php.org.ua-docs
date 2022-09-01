@@ -1,16 +1,11 @@
-Видаляє та повертає останнє значення
-
--   [« DsVector::merge](ds-vector.merge.html)
-    
--   [ДсVector::push »](ds-vector.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Видаляє та повертає останнє значення
-    
-
+---
+navigation:
+  - ds-vector.merge.html: '« DsVector::merge'
+  - ds-vector.push.html: 'ДсVector::push »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::pop'
+---
 # ДсVector::pop
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-З'єднання з базою даних SQLite
-
--   [« SQLite (PDO)](ref.pdo-sqlite.html)
-    
--   [PDO::sqliteCreateAggregate »](pdo.sqlitecreateaggregate.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite (PDO)](ref.pdo-sqlite.html)
-    
--   З'єднання з базою даних SQLite
-    
-
+---
+navigation:
+  - ref.pdo-sqlite.html: « SQLite (PDO)
+  - pdo.sqlitecreateaggregate.html: 'PDO::sqliteCreateAggregate »'
+  - index.html: PHP Manual
+  - ref.pdo-sqlite.html: SQLite (PDO)
+title: PDOSQLITE DSN
+---
 # PDOSQLITE DSN
 
 (PHP 5> = 5.1.0, PHP 7, PECL PDOSQLITE> = 0.2.0)

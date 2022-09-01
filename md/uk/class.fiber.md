@@ -1,16 +1,11 @@
-Клас Fiber
-
--   [« Generator::wakeup](generator.wakeup.html)
-    
--   [Fiber::construct »](fiber.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   Клас Fiber
-    
-
+---
+navigation:
+  - generator.wakeup.html: '« Generator::wakeup'
+  - fiber.construct.html: 'Fiber::construct »'
+  - index.html: PHP Manual
+  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+title: Клас Fiber
+---
 # Клас Fiber
 
 (PHP 8> = 8.1.0)

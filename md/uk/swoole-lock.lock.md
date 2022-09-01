@@ -1,16 +1,11 @@
-Намагається отримати блокування. Заблокується, якщо блокування недоступне
-
--   [« SwooleLock::lockread](swoole-lock.lock-read.html)
-    
--   [SwooleLock::trylockread »](swoole-lock.trylock-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleLock](class.swoole-lock.html)
-    
--   Намагається отримати блокування. Заблокується, якщо блокування недоступне
-    
-
+---
+navigation:
+  - swoole-lock.lock-read.html: '« SwooleLock::lockread'
+  - swoole-lock.trylock-read.html: 'SwooleLock::trylockread »'
+  - index.md: PHP Manual
+  - class.swoole-lock.html: SwooleLock
+title: 'SwooleLock::lock'
+---
 # SwooleLock::lock
 
 (PECL swoole >= 1.9.0)

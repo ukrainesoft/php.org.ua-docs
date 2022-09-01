@@ -1,16 +1,11 @@
-Модулі для роботи із серверами
-
--   [« SolrMissingMandatoryParameterException](class.solrmissingmandatoryparameterexception.md)
-    
--   [Apache »](book.apache.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для роботи із серверами
-    
-
+---
+navigation:
+  - class.solrmissingmandatoryparameterexception.md: « SolrMissingMandatoryParameterException
+  - book.apache.md: Apache »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для роботи із серверами
+---
 # Модулі для роботи із серверами
 
 -   [Apache](book.apache.md)

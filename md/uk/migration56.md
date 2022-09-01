@@ -1,16 +1,11 @@
-Міграція з PHP 5.5.x на PHP 5.6.x
-
--   [« Другие изменения](migration70.other-changes.html)
-    
--   [Зміни, що ламають зворотну сумісність »](migration56.incompatible.md)
-    
--   [PHP Manual](index.md)
-    
--   [Appendices](appendices.md)
-    
--   Міграція з PHP 5.5.x на PHP 5.6.x
-    
-
+---
+navigation:
+  - migration70.other-changes.html: « Другие изменения
+  - migration56.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Міграція з PHP 5.5.x на PHP 5.6.x
+---
 # Міграція з PHP 5.5.x на PHP 5.6.x
 
 ## Зміст

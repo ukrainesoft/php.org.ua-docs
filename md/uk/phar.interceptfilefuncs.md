@@ -1,16 +1,11 @@
-Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
-
--   [« Phar::hasMetadata](phar.hasmetadata.html)
-    
--   [Phar::isBuffering »](phar.isbuffering.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
-    
-
+---
+navigation:
+  - phar.hasmetadata.html: '« Phar::hasMetadata'
+  - phar.isbuffering.html: 'Phar::isBuffering »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::interceptFileFuncs'
+---
 # Phar::interceptFileFuncs
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

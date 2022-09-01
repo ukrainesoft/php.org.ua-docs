@@ -1,16 +1,11 @@
-Повертає групові функції (значення параметрів group.func)
-
--   [« SolrQuery::getGroupFormat](solrquery.getgroupformat.md)
-    
--   [SolrQuery::getGroupLimit »](solrquery.getgrouplimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає групові функції (значення параметрів group.func)
-    
-
+---
+navigation:
+  - solrquery.getgroupformat.md: '« SolrQuery::getGroupFormat'
+  - solrquery.getgrouplimit.md: 'SolrQuery::getGroupLimit »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupFunctions'
+---
 # SolrQuery::getGroupFunctions
 
 (PECL solr> = 2.2.0)

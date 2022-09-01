@@ -1,16 +1,11 @@
-Клас YafExceptionTypeError
-
--   [« YafException::getPrevious](yaf-exception.getprevious.html)
-    
--   [YafExceptionStartupError »](class.yaf-exception-startuperror.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafExceptionTypeError
-    
-
+---
+navigation:
+  - yaf-exception.getprevious.html: '« YafException::getPrevious'
+  - class.yaf-exception-startuperror.html: YafExceptionStartupError »
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafExceptionTypeError
+---
 # Клас YafExceptionTypeError
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Як створюються формати документації
-
--   [Як допомогти в написанні документації](about.howtohelp.html)
-    
--   [Переклади »](about.translations.html)
-    
--   [PHP Manual](index.html)
-    
--   [Про це керівництво](about.html)
-    
--   Як створюються формати документації
-    
-
+---
+navigation:
+  - about.howtohelp.html: Як допомогти в написанні документації
+  - about.translations.html: Переклади »
+  - index.html: PHP Manual
+  - about.html: Про це керівництво
+title: Як створюються формати документації
+---
 ## Як створюються формати документації
 
 Цей посібник написано на XML з використанням [» DocBook XML DTD](http://www.oasis-open.org/docbook/xml/), за допомогою [» PhD](https://wiki.php.net/doc/phd/) (The ПОНЕДІЛОКP based ДocBook renderer, Генератор з формату Docbook на PHP) з метою підтримки та форматування.

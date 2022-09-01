@@ -1,16 +1,11 @@
-Створити файл із заданим вмістом у tar/zip-архіві
-
--   [« PharData::addFile](phardata.addfile.md)
-    
--   [PharData::buildFromDirectory »](phardata.buildfromdirectory.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Створити файл із заданим вмістом у tar/zip-архіві
-    
-
+---
+navigation:
+  - phardata.addfile.md: '« PharData::addFile'
+  - phardata.buildfromdirectory.md: 'PharData::buildFromDirectory »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::addFromString'
+---
 # PharData::addFromString
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

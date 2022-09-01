@@ -1,16 +1,11 @@
-Реєстрація модуля Javascript для V8Js
-
--   [« V8Js::getPendingException](v8js.getpendingexception.md)
-    
--   [V8JsException »](class.v8jsexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [V8Js](class.v8js.md)
-    
--   Реєстрація модуля Javascript для V8Js
-    
-
+---
+navigation:
+  - v8js.getpendingexception.md: '« V8Js::getPendingException'
+  - class.v8jsexception.md: V8JsException »
+  - index.md: PHP Manual
+  - class.v8js.md: V8Js
+title: 'V8Js::registerExtension'
+---
 # V8Js::registerExtension
 
 (PECL v8js >= 0.1.0)

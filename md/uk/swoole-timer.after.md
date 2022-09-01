@@ -1,16 +1,11 @@
-Запускає callback-функцію через певний проміжок часу
-
--   [« SwooleTimer](class.swoole-timer.html)
-    
--   [SwooleTimer::clear »](swoole-timer.clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTimer](class.swoole-timer.html)
-    
--   Запускає callback-функцію через певний проміжок часу
-    
-
+---
+navigation:
+  - class.swoole-timer.html: « SwooleTimer
+  - swoole-timer.clear.html: 'SwooleTimer::clear »'
+  - index.md: PHP Manual
+  - class.swoole-timer.html: SwooleTimer
+title: 'SwooleTimer::after'
+---
 # SwooleTimer::after
 
 (PECL swoole >= 1.9.0)

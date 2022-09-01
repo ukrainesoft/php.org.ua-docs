@@ -1,16 +1,11 @@
-Оголошує початок відображення контуру
-
--   [« ImagickDraw::pathMoveToRelative](imagickdraw.pathmovetorelative.html)
-    
--   [ImagickDraw::point »](imagickdraw.point.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Оголошує початок відображення контуру
-    
-
+---
+navigation:
+  - imagickdraw.pathmovetorelative.html: '« ImagickDraw::pathMoveToRelative'
+  - imagickdraw.point.html: 'ImagickDraw::point »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pathStart'
+---
 # ImagickDraw::pathStart
 
 (PECL imagick 2, PECL imagick 3)

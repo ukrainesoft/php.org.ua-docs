@@ -1,16 +1,11 @@
-Клас libXMLError
-
--   [« Обумовлені константи](libxml.constants.html)
-    
--   [Функції libxml »](ref.libxml.html)
-    
--   [PHP Manual](index.html)
-    
--   [libxml](book.libxml.html)
-    
--   Клас libXMLError
-    
-
+---
+navigation:
+  - libxml.constants.html: « Обумовлені константи
+  - ref.libxml.html: Функції libxml »
+  - index.html: PHP Manual
+  - book.libxml.html: libxml
+title: Клас libXMLError
+---
 # Клас libXMLError
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

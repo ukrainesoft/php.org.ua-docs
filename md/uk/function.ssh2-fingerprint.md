@@ -1,16 +1,11 @@
-Отримання відбитка віддаленого сервера
-
--   [« ssh2fetchstream](function.ssh2-fetch-stream.html)
-    
--   [ssh2forwardaccept »](function.ssh2-forward-accept.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Отримання відбитка віддаленого сервера
-    
-
+---
+navigation:
+  - function.ssh2-fetch-stream.html: « ssh2fetchstream
+  - function.ssh2-forward-accept.html: ssh2forwardaccept »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2fingerprint
+---
 # ssh2fingerprint
 
 (PECL ssh2> = 0.9.0)

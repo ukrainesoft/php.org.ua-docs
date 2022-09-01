@@ -1,16 +1,11 @@
-Перемістити позицію курсору на наступний атрибут
-
--   [« XMLReader::moveToFirstAttribute](xmlreader.movetofirstattribute.html)
-    
--   [XMLReader::next »](xmlreader.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](class.xmlreader.html)
-    
--   Перемістити позицію курсору на наступний атрибут
-    
-
+---
+navigation:
+  - xmlreader.movetofirstattribute.html: '« XMLReader::moveToFirstAttribute'
+  - xmlreader.next.html: 'XMLReader::next »'
+  - index.html: PHP Manual
+  - class.xmlreader.html: XMLReader
+title: 'XMLReader::moveToNextAttribute'
+---
 # XMLReader::moveToNextAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

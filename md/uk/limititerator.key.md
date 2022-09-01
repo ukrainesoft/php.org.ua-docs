@@ -1,16 +1,11 @@
-Отримання поточного ключа
-
--   [« LimitIterator::getPosition](limititerator.getposition.md)
-    
--   [LimitIterator::next »](limititerator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [LimitIterator](class.limititerator.md)
-    
--   Отримання поточного ключа
-    
-
+---
+navigation:
+  - limititerator.getposition.md: '« LimitIterator::getPosition'
+  - limititerator.next.md: 'LimitIterator::next »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::key'
+---
 # LimitIterator::key
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

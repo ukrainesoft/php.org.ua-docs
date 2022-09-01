@@ -1,16 +1,11 @@
-Отримати загальну кількість влучень у кеш
-
--   [« APCUIterator::getTotalCount](apcuiterator.gettotalcount.html)
-    
--   [APCUIterator::getTotalSize »](apcuiterator.gettotalsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [APCUIterator](class.apcuiterator.html)
-    
--   Отримати загальну кількість влучень у кеш
-    
-
+---
+navigation:
+  - apcuiterator.gettotalcount.html: '« APCUIterator::getTotalCount'
+  - apcuiterator.gettotalsize.html: 'APCUIterator::getTotalSize »'
+  - index.html: PHP Manual
+  - class.apcuiterator.html: APCUIterator
+title: 'APCUIterator::getTotalHits'
+---
 # APCUIterator::getTotalHits
 
 (PECL apcu >= 5.0.0)

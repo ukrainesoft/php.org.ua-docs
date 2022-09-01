@@ -1,16 +1,11 @@
-Клас Shmop
-
--   [« shmopwrite](function.shmop-write.html)
-    
--   [Sync »](book.sync.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управление разделяемой памятью](book.shmop.html)
-    
--   Клас Shmop
-    
-
+---
+navigation:
+  - function.shmop-write.html: « shmopwrite
+  - book.sync.html: Sync »
+  - index.html: PHP Manual
+  - book.shmop.html: Управление разделяемой памятью
+title: Клас Shmop
+---
 # Клас Shmop
 
 (PHP 8)

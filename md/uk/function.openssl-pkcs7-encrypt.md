@@ -1,16 +1,11 @@
-Шифрує повідомлення S/MIME
-
--   [« opensslpkcs7decrypt](function.openssl-pkcs7-decrypt.html)
-    
--   [opensslpkcs7read »](function.openssl-pkcs7-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Шифрує повідомлення S/MIME
-    
-
+---
+navigation:
+  - function.openssl-pkcs7-decrypt.html: « opensslpkcs7decrypt
+  - function.openssl-pkcs7-read.html: opensslpkcs7read »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkcs7encrypt
+---
 # opensslpkcs7encrypt
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_file
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

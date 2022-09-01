@@ -1,16 +1,11 @@
-Інтерфейс Reflector
-
--   [« ReflectionAttribute::newInstance](reflectionattribute.newinstance.html)
-    
--   [Reflector::export »](reflector.export.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Інтерфейс Reflector
-    
-
+---
+navigation:
+  - reflectionattribute.newinstance.html: '« ReflectionAttribute::newInstance'
+  - reflector.export.html: 'Reflector::export »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Інтерфейс Reflector
+---
 # Інтерфейс Reflector
 
 (PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ public __toString(): string
 
 ## список змін
 
-| Версия | Описание                                                                        |
-|--------|---------------------------------------------------------------------------------|
-|        | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
 
 ## Зміст
 

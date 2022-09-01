@@ -1,16 +1,11 @@
-Клас Ev
-
--   [« Режими роботи періодичних спостерігачів](ev.periodic-modes.html)
-    
--   [Ev::backend »](ev.backend.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас Ev
-    
-
+---
+navigation:
+  - ev.periodic-modes.html: « Режими роботи періодичних спостерігачів
+  - ev.backend.html: 'Ev::backend »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас Ev
+---
 # Клас Ev
 
 (PECL ev >= 0.2.0)

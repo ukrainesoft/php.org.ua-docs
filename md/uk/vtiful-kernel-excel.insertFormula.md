@@ -1,16 +1,11 @@
-Вставити формулу розрахунку
-
--   [« VtifulKernelExcel::header](vtiful-kernel-excel.header.html)
-    
--   [VtifulKernelExcel::insertImage »](vtiful-kernel-excel.insertImage.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Вставити формулу розрахунку
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.header.html: '« VtifulKernelExcel::header'
+  - vtiful-kernel-excel.insertImage.html: 'VtifulKernelExcel::insertImage »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::insertFormula'
+---
 # VtifulKernelExcel::insertFormula
 
 (PECL xlswriter >= 1.2.1)

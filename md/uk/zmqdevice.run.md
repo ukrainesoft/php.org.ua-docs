@@ -1,16 +1,11 @@
-Запуск нового пристрою
-
--   [« ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.html)
-    
--   [ZMQDevice::setIdleCallback »](zmqdevice.setidlecallback.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQDevice](class.zmqdevice.html)
-    
--   Запуск нового пристрою
-    
-
+---
+navigation:
+  - zmqdevice.gettimertimeout.html: '« ZMQDevice::getTimerTimeout'
+  - zmqdevice.setidlecallback.html: 'ZMQDevice::setIdleCallback »'
+  - index.html: PHP Manual
+  - class.zmqdevice.html: ZMQDevice
+title: 'ZMQDevice::run'
+---
 # ZMQDevice::run
 
 (No version information available, might only be in Git)

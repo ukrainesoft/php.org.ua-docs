@@ -1,16 +1,11 @@
-Конструктор об'єкта спостерігача EvSignal
-
--   [« EvSignal](class.evsignal.md)
-    
--   [EvSignal::createStopped »](evsignal.createstopped.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvSignal](class.evsignal.md)
-    
--   Конструктор об'єкта спостерігача EvSignal
-    
-
+---
+navigation:
+  - class.evsignal.md: « EvSignal
+  - evsignal.createstopped.md: 'EvSignal::createStopped »'
+  - index.md: PHP Manual
+  - class.evsignal.md: EvSignal
+title: 'EvSignal::construct'
+---
 # EvSignal::construct
 
 (PECL ev >= 0.2.0)

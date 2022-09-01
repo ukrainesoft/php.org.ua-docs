@@ -1,16 +1,11 @@
-Сортує поля у документі
-
--   [« SolrDocument::set](solrdocument.set.html)
-    
--   [SolrDocument::toArray »](solrdocument.toarray.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Сортує поля у документі
-    
-
+---
+navigation:
+  - solrdocument.set.html: '« SolrDocument::set'
+  - solrdocument.toarray.html: 'SolrDocument::toArray »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::sort'
+---
 # SolrDocument::sort
 
 (PECL solr> = 0.9.2)

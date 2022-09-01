@@ -1,16 +1,11 @@
-Малює вертикальну лінію
-
--   [« ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.html)
-    
--   [ImagickDraw::pathMoveToAbsolute »](imagickdraw.pathmovetoabsolute.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює вертикальну лінію
-    
-
+---
+navigation:
+  - imagickdraw.pathlinetoverticalabsolute.html: '« ImagickDraw::pathLineToVerticalAbsolute'
+  - imagickdraw.pathmovetoabsolute.html: 'ImagickDraw::pathMoveToAbsolute »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pathLineToVerticalRelative'
+---
 # ImagickDraw::pathLineToVerticalRelative
 
 (PECL imagick 2, PECL imagick 3)

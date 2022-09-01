@@ -1,16 +1,11 @@
-Вступ
-
--   [« Mysqlnd](book.mysqlnd.html)
-    
--   [Обзор »](mysqlnd.overview.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlnd](book.mysqlnd.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.mysqlnd.html: « Mysqlnd
+  - mysqlnd.overview.html: Обзор »
+  - index.html: PHP Manual
+  - book.mysqlnd.html: Mysqlnd
+title: Вступ
+---
 # Вступ
 
 MySQL Native Driver є заміною для клієнтської бібліотеки MySQL (libmysqlclient). MySQL Native Driver є частиною офіційних вихідних кодів PHP, починаючи з PHP 5.3.0.

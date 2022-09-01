@@ -1,16 +1,11 @@
-Встановлює блокування запису для цього OID
-
--   [« cubridlockread](function.cubrid-lock-read.html)
-    
--   [cubridmovecursor »](function.cubrid-move-cursor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Встановлює блокування запису для цього OID
-    
-
+---
+navigation:
+  - function.cubrid-lock-read.html: « cubridlockread
+  - function.cubrid-move-cursor.html: cubridmovecursor »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlockwrite
+---
 # cubridlockwrite
 
 (PECL CUBRID >= 8.3.0)

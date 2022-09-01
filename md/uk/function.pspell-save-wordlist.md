@@ -1,16 +1,11 @@
-Зберігає персональний список слів у файлі
-
--   [« pspellnew](function.pspell-new.html)
-    
--   [pspellstorereplacement »](function.pspell-store-replacement.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Зберігає персональний список слів у файлі
-    
-
+---
+navigation:
+  - function.pspell-new.html: « pspellnew
+  - function.pspell-store-replacement.html: pspellstorereplacement »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellsavewordlist
+---
 # pspellsavewordlist
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ pspell_save_wordlist(PSpell\Dictionary $dictionary): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

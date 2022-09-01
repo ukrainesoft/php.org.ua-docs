@@ -1,16 +1,11 @@
-Поділяє одне число на інше відповідно до IEEE 754
-
--   [« expm1](function.expm1.md)
-    
--   [floor »](function.floor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Поділяє одне число на інше відповідно до IEEE 754
-    
-
+---
+navigation:
+  - function.expm1.md: « expm1
+  - function.floor.md: floor »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: fdiv
+---
 # fdiv
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Повертає результат додавання всіх заданих значень у двосторонню чергу
-
--   [« DsDeque::map](ds-deque.map.html)
-    
--   [ДсDeque::pop »](ds-deque.pop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає результат додавання всіх заданих значень у двосторонню чергу
-    
-
+---
+navigation:
+  - ds-deque.map.html: '« DsDeque::map'
+  - ds-deque.pop.html: 'ДсDeque::pop »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::merge'
+---
 # ДсDeque::merge
 
 (PECL ds >= 1.0.0)

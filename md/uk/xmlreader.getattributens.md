@@ -1,16 +1,11 @@
-Отримати значення атрибуту по localname та URI
-
--   [« XMLReader::getAttributeNo](xmlreader.getattributeno.md)
-    
--   [XMLReader::getParserProperty »](xmlreader.getparserproperty.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Отримати значення атрибуту по localname та URI
-    
-
+---
+navigation:
+  - xmlreader.getattributeno.md: '« XMLReader::getAttributeNo'
+  - xmlreader.getparserproperty.md: 'XMLReader::getParserProperty »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::getAttributeNs'
+---
 # XMLReader::getAttributeNs
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ URI простір імен.
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Функція більше не може повертати **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не може повертати **`false`** |
 
 ### Дивіться також
 

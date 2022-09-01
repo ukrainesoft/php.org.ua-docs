@@ -1,16 +1,11 @@
-Встановіть функцію, яка буде викликана після завершення завдання
-
--   [« GearmanClient::setClientCallback](gearmanclient.setclientcallback.md)
-    
--   [GearmanClient::setContext »](gearmanclient.setcontext.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Встановіть функцію, яка буде викликана після завершення завдання
-    
-
+---
+navigation:
+  - gearmanclient.setclientcallback.md: '« GearmanClient::setClientCallback'
+  - gearmanclient.setcontext.md: 'GearmanClient::setContext »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setCompleteCallback'
+---
 # GearmanClient::setCompleteCallback
 
 (PECL gearman >= 0.5.0)

@@ -1,16 +1,11 @@
-Встановлення постфіксу
-
--   [« RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.md)
-    
--   [RecursiveTreeIterator::setPrefixPart »](recursivetreeiterator.setprefixpart.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Встановлення постфіксу
-    
-
+---
+navigation:
+  - recursivetreeiterator.rewind.md: '« RecursiveTreeIterator::rewind'
+  - recursivetreeiterator.setprefixpart.md: 'RecursiveTreeIterator::setPrefixPart »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::setPostfix'
+---
 # RecursiveTreeIterator::setPostfix
 
 (PHP 5> = 5.5.3, PHP 7, PHP 8)

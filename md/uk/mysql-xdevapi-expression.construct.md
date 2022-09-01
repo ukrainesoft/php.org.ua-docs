@@ -1,16 +1,11 @@
-Конструктор класу Expression
-
--   [« mysqlxdevapiExpression](class.mysql-xdevapi-expression.html)
-    
--   [mysqlxdevapiResult »](class.mysql-xdevapi-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiExpression](class.mysql-xdevapi-expression.html)
-    
--   Конструктор класу Expression
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-expression.html: « mysqlxdevapiExpression
+  - class.mysql-xdevapi-result.html: mysqlxdevapiResult »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-expression.html: mysqlxdevapiExpression
+title: 'Expression::construct'
+---
 # Expression::construct
 
 (No version information available, might only be in Git)

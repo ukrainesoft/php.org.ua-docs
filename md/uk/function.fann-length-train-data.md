@@ -1,16 +1,11 @@
-Повертає кількість шаблонів у навчальних даних
-
--   [« fanninitweights](function.fann-init-weights.html)
-    
--   [fannmergetraindata »](function.fann-merge-train-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає кількість шаблонів у навчальних даних
-    
-
+---
+navigation:
+  - function.fann-init-weights.html: « fanninitweights
+  - function.fann-merge-train-data.html: fannmergetraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannlengthtraindata
+---
 # fannlengthtraindata
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Закриває всі відкриті з'єднання
-
--   [« Memcached::prependByKey](memcached.prependbykey.md)
-    
--   [Memcached::replace »](memcached.replace.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Закриває всі відкриті з'єднання
-    
-
+---
+navigation:
+  - memcached.prependbykey.md: '« Memcached::prependByKey'
+  - memcached.replace.md: 'Memcached::replace »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::quit'
+---
 # Memcached::quit
 
 (PECL memcached >= 2.0.0)

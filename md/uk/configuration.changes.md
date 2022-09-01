@@ -1,16 +1,11 @@
-Як змінити налаштування конфігурації
-
--   [« Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
-    
--   [Довідник мови »](langref.html)
-    
--   [PHP Manual](index.html)
-    
--   [Конфігурація часу виконання](configuration.html)
-    
--   Як змінити налаштування конфігурації
-    
-
+---
+navigation:
+  - configuration.changes.modes.html: « Де можуть бути встановлені параметри конфігурації
+  - langref.html: Довідник мови »
+  - index.html: PHP Manual
+  - configuration.html: Конфігурація часу виконання
+title: Як змінити налаштування конфігурації
+---
 ## Як змінити налаштування конфігурації
 
 ### Запуск PHP як модуля Apache

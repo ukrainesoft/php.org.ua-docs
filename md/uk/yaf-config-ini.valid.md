@@ -1,16 +1,11 @@
-Призначення valid
-
--   [« YafConfigIni::toArray](yaf-config-ini.toarray.html)
-    
--   [YafConfigSimple »](class.yaf-config-simple.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigIni](class.yaf-config-ini.html)
-    
--   Призначення valid
-    
-
+---
+navigation:
+  - yaf-config-ini.toarray.html: '« YafConfigIni::toArray'
+  - class.yaf-config-simple.html: YafConfigSimple »
+  - index.md: PHP Manual
+  - class.yaf-config-ini.html: YafConfigIni
+title: 'YafConfigIni::valid'
+---
 # YafConfigIni::valid
 
 (Yaf >=1.0.0)

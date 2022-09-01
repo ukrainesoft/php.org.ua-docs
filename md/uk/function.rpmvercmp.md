@@ -1,16 +1,11 @@
-Порівняння версій двох RPM
-
--   [« rpminfo](function.rpminfo.md)
-    
--   [XLSWriter »](book.xlswriter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RpmInfo](ref.rpminfo.md)
-    
--   Порівняння версій двох RPM
-    
-
+---
+navigation:
+  - function.rpminfo.md: « rpminfo
+  - book.xlswriter.md: XLSWriter »
+  - index.md: PHP Manual
+  - ref.rpminfo.md: Функції RpmInfo
+title: rpmvercmp
+---
 # rpmvercmp
 
 (PECL rpminfo >= 0.1.0)

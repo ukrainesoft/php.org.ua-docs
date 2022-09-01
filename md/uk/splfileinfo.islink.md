@@ -1,16 +1,11 @@
-Вказує, чи є файл посиланням
-
--   [« SplFileInfo::isFile](splfileinfo.isfile.md)
-    
--   [SplFileInfo::isReadable »](splfileinfo.isreadable.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Вказує, чи є файл посиланням
-    
-
+---
+navigation:
+  - splfileinfo.isfile.md: '« SplFileInfo::isFile'
+  - splfileinfo.isreadable.md: 'SplFileInfo::isReadable »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::isLink'
+---
 # SplFileInfo::isLink
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

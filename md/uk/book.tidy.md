@@ -1,16 +1,11 @@
-Tidy
-
--   [« SwooleWebSocketServer::unpack](swoole-websocket-server.unpack.html)
-    
--   [Введение »](intro.tidy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   Tidy
-    
-
+---
+navigation:
+  - swoole-websocket-server.unpack.html: '« SwooleWebSocketServer::unpack'
+  - intro.tidy.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: Tidy
+---
 # Tidy
 
 -   [Введение](intro.tidy.html)

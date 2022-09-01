@@ -1,16 +1,11 @@
-Встановити чи видалити обробник події CTRL
-
--   [« sapiwindowsgeneratectrlevent](function.sapi-windows-generate-ctrl-event.html)
-    
--   [sapiwindowsvt100support »](function.sapi-windows-vt100-support.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Встановити чи видалити обробник події CTRL
-    
-
+---
+navigation:
+  - function.sapi-windows-generate-ctrl-event.html: « sapiwindowsgeneratectrlevent
+  - function.sapi-windows-vt100-support.html: sapiwindowsvt100support »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sapiwindowssetctrlhandler
+---
 # sapiwindowssetctrlhandler
 
 (PHP 7> = 7.4.0, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює UID поточного процесу
-
--   [« posixsetsid](function.posix-setsid.html)
-    
--   [posixstrerror »](function.posix-strerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Встановлює UID поточного процесу
-    
-
+---
+navigation:
+  - function.posix-setsid.html: « posixsetsid
+  - function.posix-strerror.html: posixstrerror »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixsetuid
+---
 # posixsetuid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

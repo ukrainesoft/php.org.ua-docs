@@ -1,16 +1,11 @@
-Перевіряє події та викликає callback-функції у циклі
-
--   [« EvLoop::resume](evloop.resume.html)
-    
--   [EvLoop::signal »](evloop.signal.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Перевіряє події та викликає callback-функції у циклі
-    
-
+---
+navigation:
+  - evloop.resume.html: '« EvLoop::resume'
+  - evloop.signal.html: 'EvLoop::signal »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::run'
+---
 # EvLoop::run
 
 (PECL ev >= 0.2.0)
@@ -38,10 +33,10 @@ public
 
 **Список можливих значень `flags`**
 
-| `flags`              | Описание                                                |
-|----------------------|---------------------------------------------------------|
-| **`0`**              | Стандартна поведінка, описана вище                      |
-| **`Ev::RUN_ONCE`**   | Блокує не більше одного (чекає, але не зациклює)        |
+| `flags` | Описание |
+| --- | --- |
+| **`0`** | Стандартна поведінка, описана вище |
+| **`Ev::RUN_ONCE`** | Блокує не більше одного (чекає, але не зациклює) |
 | **`Ev::RUN_NOWAIT`** | Не блокує нічого (витягує/обробляє події, але не чекає) |
 
 Дивіться [константи прапора запуску](class.ev.html#ev.constants.run-flags)

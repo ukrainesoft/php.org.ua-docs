@@ -1,16 +1,11 @@
-Отримання масиву помилок, що відбулися
-
--   [« libxmldisableentityloader](function.libxml-disable-entity-loader.html)
-    
--   [libxmlgetlasterror »](function.libxml-get-last-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції libxml](ref.libxml.md)
-    
--   Отримання масиву помилок, що відбулися
-    
-
+---
+navigation:
+  - function.libxml-disable-entity-loader.html: « libxmldisableentityloader
+  - function.libxml-get-last-error.html: libxmlgetlasterror »
+  - index.md: PHP Manual
+  - ref.libxml.md: Функції libxml
+title: libxmlgeterrors
+---
 # libxmlgeterrors
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

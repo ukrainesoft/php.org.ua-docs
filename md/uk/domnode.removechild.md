@@ -1,16 +1,11 @@
-Видаляє дочірній вузол зі списку нащадків
-
--   [« DOMNode::normalize](domnode.normalize.html)
-    
--   [DOMNode::replaceChild »](domnode.replacechild.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNode](class.domnode.html)
-    
--   Видаляє дочірній вузол зі списку нащадків
-    
-
+---
+navigation:
+  - domnode.normalize.html: '« DOMNode::normalize'
+  - domnode.replacechild.html: 'DOMNode::replaceChild »'
+  - index.html: PHP Manual
+  - class.domnode.html: DOMNode
+title: 'DOMNode::removeChild'
+---
 # DOMNode::removeChild
 
 (PHP 5, PHP 7, PHP 8)

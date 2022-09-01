@@ -1,16 +1,11 @@
-Декодує поле MIME-заголовка
-
--   [« iconvmimedecodeheaders](function.iconv-mime-decode-headers.html)
-    
--   [iconvmimeencode »](function.iconv-mime-encode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции iconv](ref.iconv.md)
-    
--   Декодує поле MIME-заголовка
-    
-
+---
+navigation:
+  - function.iconv-mime-decode-headers.html: « iconvmimedecodeheaders
+  - function.iconv-mime-encode.html: iconvmimeencode »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
+title: iconvmimedecode
+---
 # iconvmimedecode
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,10 +32,10 @@ iconv_mime_decode(string $string, int $mode = 0, ?string $encoding = null): stri
 
 **Бітові маски, що застосовуються в **iconvmimedecode()****
 
-| Значение | Константа                       | Описание                                                                                                                                                                                                                                                                                         |
-|----------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          | ICONVMIMEDECODESTRICT           | Якщо задано, заголовок декодується у повній відповідності до стандарту [» RFC2047](http://www.faqs.org/rfcs/rfc2047). Ця опція відключена за замовчуванням, оскільки існує безліч поштових програм, які не дотримуються специфікацій та формують некоректні з погляду стандарту `MIME`заголовки. |
-|          | ICONVMIMEDECODECONTINUEВІНERROR | Якщо поставлено, [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.html) намагатиметься пропускати граматичні помилки та продовжувати обробку заголовка.                                                                                                                             |
+| Значение | Константа | Описание |
+| --- | --- | --- |
+|  | ICONVMIMEDECODESTRICT | Якщо задано, заголовок декодується у повній відповідності до стандарту [» RFC2047](http://www.faqs.org/rfcs/rfc2047). Ця опція відключена за замовчуванням, оскільки існує безліч поштових програм, які не дотримуються специфікацій та формують некоректні з погляду стандарту `MIME`заголовки. |
+|  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо поставлено, [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.html) намагатиметься пропускати граматичні помилки та продовжувати обробку заголовка. |
 
 `encoding`
 
@@ -52,9 +47,9 @@ iconv_mime_decode(string $string, int $mode = 0, ?string $encoding = null): stri
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `encoding` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `encoding` тепер допускає значення null. |
 
 ### Приклади
 

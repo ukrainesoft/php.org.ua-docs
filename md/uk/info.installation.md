@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](info.requirements.md)
-    
--   [Налаштування під час виконання »](info.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](info.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - info.requirements.md: « Вимоги
+  - info.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - info.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для використання цих функцій не потрібне проведення установки, оскільки вони є частиною ядра PHP.

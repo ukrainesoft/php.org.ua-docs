@@ -1,16 +1,11 @@
-Отримати кількість повідомлень у поточній поштовій скриньці
-
--   [« imapmutf7тоutf8](function.imap-mutf7-to-utf8.html)
-    
--   [imapnumrecent »](function.imap-num-recent.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати кількість повідомлень у поточній поштовій скриньці
-    
-
+---
+navigation:
+  - function.imap-mutf7-to-utf8.html: « imapmutf7тоutf8
+  - function.imap-num-recent.html: imapnumrecent »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapnummsg
+---
 # imapnummsg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ imap_num_msg(IMAP\Connection $imap): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

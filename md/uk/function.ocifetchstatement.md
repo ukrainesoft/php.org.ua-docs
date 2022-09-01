@@ -1,16 +1,11 @@
-Псевдонім ocifetchall
-
--   [« ocifetchinto](function.ocifetchinto.html)
-    
--   [ocifreecollection »](function.ocifreecollection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ocifetchall
-    
-
+---
+navigation:
+  - function.ocifetchinto.html: « ocifetchinto
+  - function.ocifreecollection.html: ocifreecollection »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocifetchstatement
+---
 # ocifetchstatement
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

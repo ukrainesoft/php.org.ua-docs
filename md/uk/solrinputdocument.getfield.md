@@ -1,16 +1,11 @@
-Отримує поле на ім'я
-
--   [« SolrInputDocument::getChildDocumentsCount](solrinputdocument.getchilddocumentscount.md)
-    
--   [SolrInputDocument::getFieldBoost »](solrinputdocument.getfieldboost.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Отримує поле на ім'я
-    
-
+---
+navigation:
+  - solrinputdocument.getchilddocumentscount.md: '« SolrInputDocument::getChildDocumentsCount'
+  - solrinputdocument.getfieldboost.md: 'SolrInputDocument::getFieldBoost »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::getField'
+---
 # SolrInputDocument::getField
 
 (PECL solr> = 0.9.2)

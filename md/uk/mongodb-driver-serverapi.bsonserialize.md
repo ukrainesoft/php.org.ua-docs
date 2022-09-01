@@ -1,16 +1,11 @@
-Повертає об'єкт для серіалізації BSON
-
--   [« MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
-    
--   [MongoDBDriverServerApi::construct »](mongodb-driver-serverapi.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.html)
-    
--   Повертає об'єкт для серіалізації BSON
-    
-
+---
+navigation:
+  - class.mongodb-driver-serverapi.html: « MongoDBDriverServerApi
+  - mongodb-driver-serverapi.construct.html: 'MongoDBDriverServerApi::construct »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverapi.html: MongoDBDriverServerApi
+title: 'MongoDBDriverServerApi::bsonSerialize'
+---
 # MongoDBDriverServerApi::bsonSerialize
 
 (mongodb >=1.10.0)

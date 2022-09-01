@@ -1,16 +1,11 @@
-Збільшує вказаний генератор та повертає його нове значення
-
--   [« ibasefreeresult](function.ibase-free-result.html)
-    
--   [ibasemaintaindb »](function.ibase-maintain-db.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Збільшує вказаний генератор та повертає його нове значення
-    
-
+---
+navigation:
+  - function.ibase-free-result.html: « ibasefreeresult
+  - function.ibase-maintain-db.html: ibasemaintaindb »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseгенід
+---
 # ibaseгенід
 
 (PHP 5, PHP 7 < 7.4.0)

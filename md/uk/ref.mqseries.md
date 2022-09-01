@@ -1,16 +1,11 @@
-Функції mqseries
-
--   [« Обумовлені константи](mqseries.constants.html)
-    
--   [mqseriesback »](function.mqseries-back.html)
-    
--   [PHP Manual](index.html)
-    
--   [mqseries](book.mqseries.html)
-    
--   Функції mqseries
-    
-
+---
+navigation:
+  - mqseries.constants.html: « Обумовлені константи
+  - function.mqseries-back.html: mqseriesback »
+  - index.html: PHP Manual
+  - book.mqseries.html: mqseries
+title: Функції mqseries
+---
 # Функції mqseries
 
 ## Зміст

@@ -1,16 +1,11 @@
-Отримання поточного значення конфігурації конфігурації magicquotesruntime
-
--   [« getmagicquotesgpc](function.get-magic-quotes-gpc.html)
-    
--   [getrequiredfiles »](function.get-required-files.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримання поточного значення конфігурації конфігурації magicquotesruntime
-    
-
+---
+navigation:
+  - function.get-magic-quotes-gpc.html: « getmagicquotesgpc
+  - function.get-required-files.html: getrequiredfiles »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getmagicquotesruntime
+---
 # getmagicquotesruntime
 
 (PHP 4, PHP 5, PHP 7)
@@ -39,9 +34,9 @@ get_magic_quotes_runtime(): bool
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Функцію оголошено застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. |
 
 ### Приклади
 

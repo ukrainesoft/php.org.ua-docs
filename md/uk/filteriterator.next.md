@@ -1,16 +1,11 @@
-Переміщує ітератор до наступного елемента
-
--   [« FilterIterator::key](filteriterator.key.html)
-    
--   [FilterIterator::rewind »](filteriterator.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [FilterIterator](class.filteriterator.html)
-    
--   Переміщує ітератор до наступного елемента
-    
-
+---
+navigation:
+  - filteriterator.key.html: '« FilterIterator::key'
+  - filteriterator.rewind.html: 'FilterIterator::rewind »'
+  - index.html: PHP Manual
+  - class.filteriterator.html: FilterIterator
+title: 'FilterIterator::next'
+---
 # FilterIterator::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

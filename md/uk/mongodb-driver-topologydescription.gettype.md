@@ -1,16 +1,11 @@
-Повертає рядок, що позначає тип топології
-
--   [« MongoDBDriverTopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html)
-    
--   [MongoDBDriverTopologyDescription::hasReadableServer »](mongodb-driver-topologydescription.hasreadableserver.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.html)
-    
--   Повертає рядок, що позначає тип топології
-    
-
+---
+navigation:
+  - mongodb-driver-topologydescription.getservers.html: '« MongoDBDriverTopologyDescription::getServers'
+  - mongodb-driver-topologydescription.hasreadableserver.html: 'MongoDBDriverTopologyDescription::hasReadableServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription
+title: 'MongoDBDriverTopologyDescription::getType'
+---
 # MongoDBDriverTopologyDescription::getType
 
 (mongodb >=1.13.0)

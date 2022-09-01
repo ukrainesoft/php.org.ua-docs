@@ -1,16 +1,11 @@
-Перефарбовує зображення
-
--   [« Imagick::readimages](imagick.readimages.html)
-    
--   [Imagick::reduceNoiseImage »](imagick.reducenoiseimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Перефарбовує зображення
-    
-
+---
+navigation:
+  - imagick.readimages.html: '« Imagick::readimages'
+  - imagick.reducenoiseimage.html: 'Imagick::reduceNoiseImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::recolorImage'
+---
 # Imagick::recolorImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

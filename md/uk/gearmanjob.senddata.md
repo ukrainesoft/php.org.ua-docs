@@ -1,16 +1,11 @@
-Відправлення даних завдання, що виконується
-
--   [« GearmanJob::sendComplete](gearmanjob.sendcomplete.html)
-    
--   [GearmanJob::sendException »](gearmanjob.sendexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Відправлення даних завдання, що виконується
-    
-
+---
+navigation:
+  - gearmanjob.sendcomplete.html: '« GearmanJob::sendComplete'
+  - gearmanjob.sendexception.html: 'GearmanJob::sendException »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::sendData'
+---
 # GearmanJob::sendData
 
 (PECL gearman >= 0.6.0)

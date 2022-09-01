@@ -1,16 +1,11 @@
-(Не-) ініціалізує Eio
-
--   [« eiogrp](function.eio-grp.html)
-    
--   [eiolink »](function.eio-link.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   (Не-) ініціалізує Eio
-    
-
+---
+navigation:
+  - function.eio-grp.html: « eiogrp
+  - function.eio-link.html: eiolink »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eioinit
+---
 # eioinit
 
 (PECL eio = 1.0.0)

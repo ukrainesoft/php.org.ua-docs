@@ -1,16 +1,11 @@
-Переклад ітератора на початок
-
--   [« SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.html)
-    
--   [SplHeap::top »](splheap.top.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplHeap](class.splheap.html)
-    
--   Переклад ітератора на початок
-    
-
+---
+navigation:
+  - splheap.recoverfromcorruption.html: '« SplHeap::recoverFromCorruption'
+  - splheap.top.html: 'SplHeap::top »'
+  - index.html: PHP Manual
+  - class.splheap.html: SplHeap
+title: 'SplHeap::rewind'
+---
 # SplHeap::rewind
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

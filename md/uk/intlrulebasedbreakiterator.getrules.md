@@ -1,16 +1,11 @@
-Отримати набір правил, які використовуються під час створення цього об'єкта
-
--   [« IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.html)
-    
--   [IntlRuleBasedBreakIterator::getRuleStatus »](intlrulebasedbreakiterator.getrulestatus.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.html)
-    
--   Отримати набір правил, які використовуються під час створення цього об'єкта
-    
-
+---
+navigation:
+  - intlrulebasedbreakiterator.getbinaryrules.html: '« IntlRuleBasedBreakIterator::getBinaryRules'
+  - intlrulebasedbreakiterator.getrulestatus.html: 'IntlRuleBasedBreakIterator::getRuleStatus »'
+  - index.html: PHP Manual
+  - class.intlrulebasedbreakiterator.html: IntlRuleBasedBreakIterator
+title: 'IntlRuleBasedBreakIterator::getRules'
+---
 # IntlRuleBasedBreakIterator::getRules
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

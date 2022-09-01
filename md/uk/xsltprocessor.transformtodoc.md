@@ -1,16 +1,11 @@
-Перетворює на DOMDocument
-
--   [« XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.md)
-    
--   [XSLTProcessor::transformToUri »](xsltprocessor.transformtouri.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Перетворює на DOMDocument
-    
-
+---
+navigation:
+  - xsltprocessor.setsecurityprefs.md: '« XSLTProcessor::setSecurityPrefs'
+  - xsltprocessor.transformtouri.md: 'XSLTProcessor::transformToUri »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::transformToDoc'
+---
 # XSLTProcessor::transformToDoc
 
 (PHP 5, PHP 7, PHP 8)

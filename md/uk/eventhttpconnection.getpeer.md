@@ -1,16 +1,11 @@
-Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
-
--   [« EventHttpConnection::getBase](eventhttpconnection.getbase.md)
-    
--   [EventHttpConnection::makeRequest »](eventhttpconnection.makerequest.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpConnection](class.eventhttpconnection.md)
-    
--   Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
-    
-
+---
+navigation:
+  - eventhttpconnection.getbase.md: '« EventHttpConnection::getBase'
+  - eventhttpconnection.makerequest.md: 'EventHttpConnection::makeRequest »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::getPeer'
+---
 # EventHttpConnection::getPeer
 
 (PECL event >= 1.2.6-beta)

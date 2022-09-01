@@ -1,16 +1,11 @@
-Не використовується
-
--   [« LuaSandboxFunction::call](luasandboxfunction.call.md)
-    
--   [LuaSandboxFunction::dump »](luasandboxfunction.dump.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandboxFunction](class.luasandboxfunction.md)
-    
--   Не використовується
-    
-
+---
+navigation:
+  - luasandboxfunction.call.md: '« LuaSandboxFunction::call'
+  - luasandboxfunction.dump.md: 'LuaSandboxFunction::dump »'
+  - index.md: PHP Manual
+  - class.luasandboxfunction.md: LuaSandboxFunction
+title: 'LuaSandboxFunction::construct'
+---
 # LuaSandboxFunction::construct
 
 (PECL luasandbox >= 1.0.0)

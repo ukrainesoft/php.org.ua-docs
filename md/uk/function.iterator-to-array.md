@@ -1,16 +1,11 @@
-Копіює ітератор у масив
-
--   [« iteratorcount](function.iterator-count.html)
-    
--   [splautoloadcall »](function.spl-autoload-call.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Копіює ітератор у масив
-    
-
+---
+navigation:
+  - function.iterator-count.html: « iteratorcount
+  - function.spl-autoload-call.html: splautoloadcall »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: iteratorтоarray
+---
 # iteratorтоarray
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

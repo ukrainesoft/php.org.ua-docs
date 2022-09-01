@@ -1,16 +1,11 @@
-Вмикає/вимикає викидання винятків
-
--   [« YafDispatcher::setView](yaf-dispatcher.setview.html)
-    
--   [YafConfigAbstract »](class.yaf-config-abstract.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Вмикає/вимикає викидання винятків
-    
-
+---
+navigation:
+  - yaf-dispatcher.setview.html: '« YafDispatcher::setView'
+  - class.yaf-config-abstract.html: YafConfigAbstract »
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::throwException'
+---
 # YafDispatcher::throwException
 
 (Yaf >=1.0.0)

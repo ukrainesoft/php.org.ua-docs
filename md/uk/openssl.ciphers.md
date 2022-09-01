@@ -1,16 +1,11 @@
-Алгоритми шифрування
-
--   [« Алгоритми підпису](openssl.signature-algos.html)
-    
--   [Константи версій »](openssl.constversion.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені константи](openssl.constants.md)
-    
--   Алгоритми шифрування
-    
-
+---
+navigation:
+  - openssl.signature-algos.html: « Алгоритми підпису
+  - openssl.constversion.md: Константи версій »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
+title: Алгоритми шифрування
+---
 ## Алгоритми шифрування
 
 **`OPENSSL_CIPHER_RC2_40`** (int)

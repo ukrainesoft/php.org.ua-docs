@@ -1,16 +1,11 @@
-Перегляд списку розширених атрибутів файлу
-
--   [« xattrget](function.xattr-get.html)
-    
--   [xattrremove »](function.xattr-remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [xattr Функции](ref.xattr.md)
-    
--   Перегляд списку розширених атрибутів файлу
-    
-
+---
+navigation:
+  - function.xattr-get.html: « xattrget
+  - function.xattr-remove.html: xattrremove »
+  - index.md: PHP Manual
+  - ref.xattr.md: xattr Функции
+title: xattrlist
+---
 # xattrlist
 
 (PECL xattr >= 0.9.0)

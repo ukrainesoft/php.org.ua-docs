@@ -1,16 +1,11 @@
-Створює порт сервера
-
--   [« SwooleServer::defer](swoole-server.defer.html)
-    
--   [SwooleServerPort::destruct »](swoole-server-port.destruct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Створює порт сервера
-    
-
+---
+navigation:
+  - swoole-server.defer.html: '« SwooleServer::defer'
+  - swoole-server-port.destruct.html: 'SwooleServerPort::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServerPort::construct'
+---
 # SwooleServerPort::construct
 
 (PECL swoole >= 1.9.0)

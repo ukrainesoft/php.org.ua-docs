@@ -1,16 +1,11 @@
-Встановити метод стиснення запису, заданого на ім'я
-
--   [« ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md)
-    
--   [ZipArchive::setEncryptionIndex »](ziparchive.setencryptionindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Встановити метод стиснення запису, заданого на ім'я
-    
-
+---
+navigation:
+  - ziparchive.setcompressionindex.md: '« ZipArchive::setCompressionIndex'
+  - ziparchive.setencryptionindex.md: 'ZipArchive::setEncryptionIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::setCompressionName'
+---
 # ZipArchive::setCompressionName
 
 (PHP 7, PHP 8, PECL zip >= 1.13.0)

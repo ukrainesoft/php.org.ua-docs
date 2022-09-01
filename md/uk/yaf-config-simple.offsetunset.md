@@ -1,16 +1,11 @@
-Призначення offsetUnset
-
--   [« YafConfigSimple::offsetSet](yaf-config-simple.offsetset.html)
-    
--   [YafConfigSimple::readonly »](yaf-config-simple.readonly.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Призначення offsetUnset
-    
-
+---
+navigation:
+  - yaf-config-simple.offsetset.html: '« YafConfigSimple::offsetSet'
+  - yaf-config-simple.readonly.html: 'YafConfigSimple::readonly »'
+  - index.html: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::offsetUnset'
+---
 # YafConfigSimple::offsetUnset
 
 (Yaf >=1.0.0)

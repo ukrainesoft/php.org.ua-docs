@@ -1,16 +1,11 @@
-Затримка на задану кількість секунд та наносекунд
-
--   [« sysgetloadavg](function.sys-getloadavg.html)
-    
--   [timesleepuntil »](function.time-sleep-until.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Затримка на задану кількість секунд та наносекунд
-    
-
+---
+navigation:
+  - function.sys-getloadavg.html: « sysgetloadavg
+  - function.time-sleep-until.html: timesleepuntil »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: timenanosleep
+---
 # timenanosleep
 
 (PHP 5, PHP 7, PHP 8)

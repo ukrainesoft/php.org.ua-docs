@@ -1,16 +1,11 @@
-Отримати батьківський керуючий елемент
-
--   [« UIControl::enable](ui-control.enable.html)
-    
--   [ОЙControl::getTopLevel »](ui-control.gettoplevel.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControl](class.ui-control.html)
-    
--   Отримати батьківський керуючий елемент
-    
-
+---
+navigation:
+  - ui-control.enable.html: '« UIControl::enable'
+  - ui-control.gettoplevel.html: 'ОЙControl::getTopLevel »'
+  - index.md: PHP Manual
+  - class.ui-control.html: ОЙControl
+title: 'ОЙControl::getParent'
+---
 # ОЙControl::getParent
 
 (UI 0.9.9)

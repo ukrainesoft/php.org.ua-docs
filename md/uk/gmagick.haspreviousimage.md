@@ -1,16 +1,11 @@
-Перевіряє, чи є ще зображення в об'єкті під час ітерації назад
-
--   [« Gmagick::hasnextimage](gmagick.hasnextimage.html)
-    
--   [Gmagick::implodeimage »](gmagick.implodeimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Перевіряє, чи є ще зображення в об'єкті під час ітерації назад
-    
-
+---
+navigation:
+  - gmagick.hasnextimage.html: '« Gmagick::hasnextimage'
+  - gmagick.implodeimage.html: 'Gmagick::implodeimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::haspreviousimage'
+---
 # Gmagick::haspreviousimage
 
 (PECL gmagick >= Unknown)

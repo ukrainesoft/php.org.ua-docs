@@ -1,16 +1,11 @@
-Додати файли з директорії відповідно до шаблону регулярного виразу PCRE
-
--   [« ZipArchive::addGlob](ziparchive.addglob.md)
-    
--   [ZipArchive::clearError »](ziparchive.clearerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Додати файли з директорії відповідно до шаблону регулярного виразу PCRE
-    
-
+---
+navigation:
+  - ziparchive.addglob.md: '« ZipArchive::addGlob'
+  - ziparchive.clearerror.md: 'ZipArchive::clearError »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::addPattern'
+---
 # ZipArchive::addPattern
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL zip >= 1.9.0)

@@ -1,16 +1,11 @@
-Клас YarServer
-
--   [« Приклади](yar.examples.md)
-    
--   [YarServer::construct »](yar-server.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yar](book.yar.md)
-    
--   Клас YarServer
-    
-
+---
+navigation:
+  - yar.examples.md: « Приклади
+  - yar-server.construct.html: 'YarServer::construct »'
+  - index.md: PHP Manual
+  - book.yar.md: Yar
+title: Клас YarServer
+---
 # Клас YarServer
 
 (No version information available, might only be in Git)

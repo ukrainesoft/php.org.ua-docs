@@ -1,16 +1,11 @@
-Обчислення найбільшого спільного дільника
-
--   [« gmpfact](function.gmp-fact.html)
-    
--   [gmpgcdext »](function.gmp-gcdext.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Обчислення найбільшого спільного дільника
-    
-
+---
+navigation:
+  - function.gmp-fact.html: « gmpfact
+  - function.gmp-gcdext.html: gmpgcdext »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpgcd
+---
 # gmpgcd
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
-
--   [« Phar::canCompress](phar.cancompress.html)
-    
--   [Phar::compress »](phar.compress.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
-    
-
+---
+navigation:
+  - phar.cancompress.html: '« Phar::canCompress'
+  - phar.compress.html: 'Phar::compress »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::canWrite'
+---
 # Phar::canWrite
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

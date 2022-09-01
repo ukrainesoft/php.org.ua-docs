@@ -1,16 +1,11 @@
-Отримує номер порту, пов'язаного з інтернет-службою та протоколом
-
--   [« getprotobynumber](function.getprotobynumber.md)
-    
--   [getservbyport »](function.getservbyport.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Отримує номер порту, пов'язаного з інтернет-службою та протоколом
-    
-
+---
+navigation:
+  - function.getprotobynumber.md: « getprotobynumber
+  - function.getservbyport.md: getservbyport »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: getservbyname
+---
 # getservbyname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

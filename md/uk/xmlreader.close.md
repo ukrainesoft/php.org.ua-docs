@@ -1,16 +1,11 @@
-Закрити введення XMLReader
-
--   [« XMLReader](class.xmlreader.md)
-    
--   [XMLReader::expand »](xmlreader.expand.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Закрити введення XMLReader
-    
-
+---
+navigation:
+  - class.xmlreader.md: « XMLReader
+  - xmlreader.expand.md: 'XMLReader::expand »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::close'
+---
 # XMLReader::close
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

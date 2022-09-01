@@ -1,16 +1,11 @@
-Перевірити, чи поточна позиція коректна
-
--   [« IntlIterator::rewind](intliterator.rewind.html)
-    
--   [Функции intl »](ref.intl.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlIterator](class.intliterator.html)
-    
--   Перевірити, чи поточна позиція коректна
-    
-
+---
+navigation:
+  - intliterator.rewind.html: '« IntlIterator::rewind'
+  - ref.intl.html: Функции intl »
+  - index.html: PHP Manual
+  - class.intliterator.html: IntlIterator
+title: 'IntlIterator::valid'
+---
 # IntlIterator::valid
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

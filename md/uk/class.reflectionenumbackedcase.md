@@ -1,16 +1,11 @@
-Клас ReflectionEnumBackedCase
-
--   [« ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.html)
-    
--   [ReflectionEnumBackedCase::construct »](reflectionenumbackedcase.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionEnumBackedCase
-    
-
+---
+navigation:
+  - reflectionenumunitcase.getvalue.html: '« ReflectionEnumUnitCase::getValue'
+  - reflectionenumbackedcase.construct.html: 'ReflectionEnumBackedCase::construct »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionEnumBackedCase
+---
 # Клас ReflectionEnumBackedCase
 
 (PHP 8> = 8.1.0)

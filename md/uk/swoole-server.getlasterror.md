@@ -1,16 +1,11 @@
-Отримує код останньої помилки
-
--   [« SwooleServer::getClientList](swoole-server.getclientlist.html)
-    
--   [SwooleServer::heartbeat »](swoole-server.heartbeat.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Отримує код останньої помилки
-    
-
+---
+navigation:
+  - swoole-server.getclientlist.html: '« SwooleServer::getClientList'
+  - swoole-server.heartbeat.html: 'SwooleServer::heartbeat »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::getLastError'
+---
 # SwooleServer::getLastError
 
 (PECL swoole >= 1.9.0)

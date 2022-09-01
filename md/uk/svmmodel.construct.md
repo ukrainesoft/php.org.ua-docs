@@ -1,16 +1,11 @@
-Конструктор класу SVMModel
-
--   [« SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.md)
-    
--   [SVMModel::getLabels »](svmmodel.getlabels.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVMModel](class.svmmodel.md)
-    
--   Конструктор класу SVMModel
-    
-
+---
+navigation:
+  - svmmodel.checkprobabilitymodel.md: '« SVMModel::checkProbabilityModel'
+  - svmmodel.getlabels.md: 'SVMModel::getLabels »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
+title: 'SVMModel::construct'
+---
 # SVMModel::construct
 
 (PECL svm >= 0.1.0)

@@ -1,16 +1,11 @@
-Видаляє існуючу передплату
-
--   [« Stomp::subscribe](stomp.subscribe.html)
-    
--   [StompFrame »](class.stompframe.html)
-    
--   [PHP Manual](index.html)
-    
--   [Stomp](class.stomp.html)
-    
--   Видаляє існуючу передплату
-    
-
+---
+navigation:
+  - stomp.subscribe.html: '« Stomp::subscribe'
+  - class.stompframe.html: StompFrame »
+  - index.html: PHP Manual
+  - class.stomp.html: Stomp
+title: 'Stomp::unsubscribe'
+---
 # Stomp::unsubscribe
 
 # stompunsubscribe

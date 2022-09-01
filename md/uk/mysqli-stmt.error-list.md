@@ -1,16 +1,11 @@
-Повертає список помилок виконання останнього запиту
-
--   [« mysqlistmt::$errno](mysqli-stmt.errno.html)
-    
--   [mysqlistmt::$error »](mysqli-stmt.error.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає список помилок виконання останнього запиту
-    
-
+---
+navigation:
+  - mysqli-stmt.errno.html: '« mysqlistmt::$errno'
+  - mysqli-stmt.error.html: 'mysqlistmt::$error »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$errorlist'
+---
 # mysqlistmt::$errorlist
 
 # mysqlistmterrorlist

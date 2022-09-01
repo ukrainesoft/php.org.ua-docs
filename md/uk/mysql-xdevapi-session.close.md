@@ -1,16 +1,11 @@
-Закриває сесію
-
--   [« mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   [Session::commit »](mysql-xdevapi-session.commit.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Закриває сесію
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-session.html: « mysqlxdevapiSession
+  - mysql-xdevapi-session.commit.html: 'Session::commit »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::close'
+---
 # Session::close
 
 (No version information available, might only be in Git)

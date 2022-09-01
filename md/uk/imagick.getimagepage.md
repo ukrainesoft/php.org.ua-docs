@@ -1,16 +1,11 @@
-Повертає геометрію сторінки
-
--   [« Imagick::getImageOrientation](imagick.getimageorientation.md)
-    
--   [Imagick::getImagePixelColor »](imagick.getimagepixelcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає геометрію сторінки
-    
-
+---
+navigation:
+  - imagick.getimageorientation.md: '« Imagick::getImageOrientation'
+  - imagick.getimagepixelcolor.md: 'Imagick::getImagePixelColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImagePage'
+---
 # Imagick::getImagePage
 
 (PECL imagick 2, PECL imagick 3)

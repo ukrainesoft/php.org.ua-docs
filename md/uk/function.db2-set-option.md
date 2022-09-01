@@ -1,16 +1,11 @@
-Встановлення опції для з'єднання або ресурсу оператора
-
--   [« db2serverinfo](function.db2-server-info.html)
-    
--   [db2specialcolumns »](function.db2-special-columns.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Встановлення опції для з'єднання або ресурсу оператора
-    
-
+---
+navigation:
+  - function.db2-server-info.html: « db2serverinfo
+  - function.db2-special-columns.html: db2specialcolumns »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2setoption
+---
 # db2setoption
 
 (PECL ibmdb2> = 1.0.0)
@@ -147,31 +142,31 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 **Матриця ресурс/параметр**
 
-| Ключ            | Значение                    | Тип ресурса |
-|-----------------|-----------------------------|-------------|
-|                 |                             | З'єднання   |
-| autocommit      | `DB2_AUTOCOMMIT_ON`         | З           |
-| autocommit      | `DB2_AUTOCOMMIT_OFF`        | З           |
-| cursor          | `DB2_SCROLLABLE`            |             |
-| cursor          | `DB2_FORWARD_ONLY`          |             |
-| binmode         | `DB2_BINARY`                | З           |
-| binmode         | `DB2_CONVERT`               | З           |
-| binmode         | `DB2_PASSTHRU`              | З           |
-| db2attrcase     | `DB2_CASE_LOWER`            | З           |
-| db2attrcase     | `DB2_CASE_UPPER`            | З           |
-| db2attrcase     | `DB2_CASE_NATURAL`          | З           |
-| deferredprepare | `DB2_DEFERRED_PREPARE_ON`   |             |
-| deferredprepare | `DB2_DEFERRED_PREPARE_OFF`  |             |
-| і5fetchonly     | `DB2_I5_FETCH_ON`           |             |
-| і5fetchonly     | `DB2_I5_FETCH_OFF`          |             |
-| rowcount        | `DB2_ROWCOUNT_PREFETCH_ON`  |             |
-| rowcount        | `DB2_ROWCOUNT_PREFETCH_OFF` |             |
-| trusteduser     | `<USER NAME> (String)`      | З           |
-| trustedpassword | `<PASSWORD> (String)`       | З           |
-| userid          | `SQL_ATTR_INFO_USERID`      | З           |
-| acctstr         | `SQL_ATTR_INFO_ACCTSTR`     | З           |
-| applname        | `SQL_ATTR_INFO_APPLNAME`    | З           |
-| wrkstnname      | `SQL_ATTR_INFO_WRKSTNNAME`  | З           |
+| Ключ | Значение | Тип ресурса |
+| --- | --- | --- |
+|  |  | З'єднання |
+| autocommit | `DB2_AUTOCOMMIT_ON` | З |
+| autocommit | `DB2_AUTOCOMMIT_OFF` | З |
+| cursor | `DB2_SCROLLABLE` |  |
+| cursor | `DB2_FORWARD_ONLY` |  |
+| binmode | `DB2_BINARY` | З |
+| binmode | `DB2_CONVERT` | З |
+| binmode | `DB2_PASSTHRU` | З |
+| db2attrcase | `DB2_CASE_LOWER` | З |
+| db2attrcase | `DB2_CASE_UPPER` | З |
+| db2attrcase | `DB2_CASE_NATURAL` | З |
+| deferredprepare | `DB2_DEFERRED_PREPARE_ON` |  |
+| deferredprepare | `DB2_DEFERRED_PREPARE_OFF` |  |
+| і5fetchonly | `DB2_I5_FETCH_ON` |  |
+| і5fetchonly | `DB2_I5_FETCH_OFF` |  |
+| rowcount | `DB2_ROWCOUNT_PREFETCH_ON` |  |
+| rowcount | `DB2_ROWCOUNT_PREFETCH_OFF` |  |
+| trusteduser | `<USER NAME> (String)` | З |
+| trustedpassword | `<PASSWORD> (String)` | З |
+| userid | `SQL_ATTR_INFO_USERID` | З |
+| acctstr | `SQL_ATTR_INFO_ACCTSTR` | З |
+| applname | `SQL_ATTR_INFO_APPLNAME` | З |
+| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З |
 
 ### Значення, що повертаються
 

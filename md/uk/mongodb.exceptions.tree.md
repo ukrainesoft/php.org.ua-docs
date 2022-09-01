@@ -1,16 +1,11 @@
-MongoDB Exception Class Tree
-
--   [« MongoDBDriverExceptionWriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.html)
-    
--   [MySQL »](set.mysqlinfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverException](mongodb.exceptions.html)
-    
--   MongoDB Exception Class Tree
-    
-
+---
+navigation:
+  - mongodb-driver-writeexception.getwriteresult.html: '« MongoDBDriverExceptionWriteException::getWriteResult'
+  - set.mysqlinfo.html: MySQL »
+  - index.html: PHP Manual
+  - mongodb.exceptions.html: MongoDBDriverException
+title: MongoDB Exception Class Tree
+---
 # MongoDB Exception Class Tree
 
 Class hierarchy для MongoDB виразів є моделювання після того, що [SPL Exceptions](spl.exceptions.html). Base classes extend their SPL counterpart and all exception classes in the extension implemente the [MongoDBDriverExceptionException](class.mongodb-driver-exception-exception.html) interface.

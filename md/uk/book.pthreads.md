@@ -1,16 +1,11 @@
-pthreads
-
--   [« parallelSync::invoke](parallel-sync.invoke.html)
-    
--   [Введение »](intro.pthreads.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
-    
--   pthreads
-    
-
+---
+navigation:
+  - parallel-sync.invoke.html: '« parallelSync::invoke'
+  - intro.pthreads.html: Введение »
+  - index.html: PHP Manual
+  - refs.fileprocess.process.html: Модули для управления процессами программ
+title: pthreads
+---
 # pthreads
 
 -   [Введение](intro.pthreads.html)

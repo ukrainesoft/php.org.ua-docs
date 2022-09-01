@@ -1,16 +1,11 @@
-Визволяє ресурси, пов'язані з набором результатів
-
--   [« db2foreignkeys](function.db2-foreign-keys.html)
-    
--   [db2freestmt »](function.db2-free-stmt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Визволяє ресурси, пов'язані з набором результатів
-    
-
+---
+navigation:
+  - function.db2-foreign-keys.html: « db2foreignkeys
+  - function.db2-free-stmt.html: db2freestmt »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2freeresult
+---
 # db2freeresult
 
 (PECL ibmdb2> = 1.0.0)

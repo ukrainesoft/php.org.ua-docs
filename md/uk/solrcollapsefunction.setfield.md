@@ -1,16 +1,11 @@
-Встановлює поле для згортання
-
--   [« SolrCollapseFunction::getSize](solrcollapsefunction.getsize.md)
-    
--   [SolrCollapseFunction::setHint »](solrcollapsefunction.sethint.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.md)
-    
--   Встановлює поле для згортання
-    
-
+---
+navigation:
+  - solrcollapsefunction.getsize.md: '« SolrCollapseFunction::getSize'
+  - solrcollapsefunction.sethint.md: 'SolrCollapseFunction::setHint »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::setField'
+---
 # SolrCollapseFunction::setField
 
 (PECL solr> = 2.2.0)

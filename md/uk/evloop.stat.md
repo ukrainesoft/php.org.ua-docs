@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvStat, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::signal](evloop.signal.md)
-    
--   [EvLoop::stop »](evloop.stop.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Створює об'єкт спостерігача EvStat, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.signal.md: '« EvLoop::signal'
+  - evloop.stop.md: 'EvLoop::stop »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::stat'
+---
 # EvLoop::stat
 
 (PECL ev >= 0.2.0)

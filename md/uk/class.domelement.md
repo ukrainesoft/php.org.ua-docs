@@ -1,16 +1,11 @@
-Клас DOMElement
-
--   [« DOMDocumentType](class.domdocumenttype.html)
-    
--   [DOMElement::construct »](domelement.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Клас DOMElement
-    
-
+---
+navigation:
+  - class.domdocumenttype.html: « DOMDocumentType
+  - domelement.construct.html: 'DOMElement::construct »'
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Клас DOMElement
+---
 # Клас DOMElement
 
 (PHP 5, PHP 7, PHP 8)
@@ -215,10 +210,10 @@ tagName
 
 ## список змін
 
-| Версия | Описание                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------|
-|        | Додані властивості першихелементівChild, LastElementChild, ChildElementCount, попереднійElementSibling і NextElementSibling.     |
-|        | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) і [DOMChildNode](class.domchildnode.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості першихелементівChild, LastElementChild, ChildElementCount, попереднійElementSibling і NextElementSibling. |
+|  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) і [DOMChildNode](class.domchildnode.html) |
 
 ## Примітки
 

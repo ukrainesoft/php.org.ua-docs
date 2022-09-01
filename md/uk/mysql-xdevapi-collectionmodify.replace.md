@@ -1,16 +1,11 @@
-Замінює поле документа
-
--   [« CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.html)
-    
--   [CollectionModify::set »](mysql-xdevapi-collectionmodify.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Замінює поле документа
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.patch.html: '« CollectionModify::patch'
+  - mysql-xdevapi-collectionmodify.set.html: 'CollectionModify::set »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::replace'
+---
 # CollectionModify::replace
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
-
--   [« Closure::bind](closure.bind.md)
-    
--   [Closure::call »](closure.call.md)
-    
--   [PHP Manual](index.md)
-    
--   [Closure](class.closure.md)
-    
--   Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
-    
-
+---
+navigation:
+  - closure.bind.md: '« Closure::bind'
+  - closure.call.md: 'Closure::call »'
+  - index.md: PHP Manual
+  - class.closure.md: Closure
+title: 'Closure::bindTo'
+---
 # Closure::bindTo
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

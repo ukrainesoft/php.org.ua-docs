@@ -1,16 +1,11 @@
-Отримати контрольну суму CRC32
-
--   [« PharFileInfo::destruct](pharfileinfo.destruct.md)
-    
--   [PharFileInfo::getCompressedSize »](pharfileinfo.getcompressedsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Отримати контрольну суму CRC32
-    
-
+---
+navigation:
+  - pharfileinfo.destruct.md: '« PharFileInfo::destruct'
+  - pharfileinfo.getcompressedsize.md: 'PharFileInfo::getCompressedSize »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::getCRC32'
+---
 # PharFileInfo::getCRC32
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

@@ -1,16 +1,11 @@
-Інтерпретує рядок з XML в об'єкт
-
--   [« simplexmlloadfile](function.simplexml-load-file.html)
-    
--   [WDDX »](book.wddx.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции SimpleXML](ref.simplexml.md)
-    
--   Інтерпретує рядок з XML в об'єкт
-    
-
+---
+navigation:
+  - function.simplexml-load-file.html: « simplexmlloadfile
+  - book.wddx.md: WDDX »
+  - index.md: PHP Manual
+  - ref.simplexml.md: Функции SimpleXML
+title: simplexmlloadstring
+---
 # simplexmlloadstring
 
 (PHP 5, PHP 7, PHP 8)

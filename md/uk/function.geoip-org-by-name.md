@@ -1,16 +1,11 @@
-Повертає назву організації, яка володіє IP-адресою
-
--   [« geoipnetspeedcellбname](function.geoip-netspeedcell-by-name.html)
-    
--   [geoiprecordбname »](function.geoip-record-by-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции GeoIP](ref.geoip.html)
-    
--   Повертає назву організації, яка володіє IP-адресою
-    
-
+---
+navigation:
+  - function.geoip-netspeedcell-by-name.html: « geoipnetspeedcellбname
+  - function.geoip-record-by-name.html: geoiprecordбname »
+  - index.html: PHP Manual
+  - ref.geoip.html: Функции GeoIP
+title: geoiporgбname
+---
 # geoiporgбname
 
 (PECL geoip >= 0.2.0)

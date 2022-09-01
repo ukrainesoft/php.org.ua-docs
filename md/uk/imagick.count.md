@@ -1,16 +1,11 @@
-Отримує кількість зображень
-
--   [« Imagick::convolveImage](imagick.convolveimage.html)
-    
--   [Imagick::cropImage »](imagick.cropimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Отримує кількість зображень
-    
-
+---
+navigation:
+  - imagick.convolveimage.html: '« Imagick::convolveImage'
+  - imagick.cropimage.html: 'Imagick::cropImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::count'
+---
 # Imagick::count
 
 (PECL imagick 3> = 3.3.0)

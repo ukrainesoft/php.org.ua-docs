@@ -1,16 +1,11 @@
-Використовується в процесі завдання для надсилання результату в робочий процес після завершення завдання
-
--   [« SwooleServer::exist](swoole-server.exist.html)
-    
--   [SwooleServer::getClientInfo »](swoole-server.getclientinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Використовується в процесі завдання для надсилання результату в робочий процес після завершення завдання
-    
-
+---
+navigation:
+  - swoole-server.exist.html: '« SwooleServer::exist'
+  - swoole-server.getclientinfo.html: 'SwooleServer::getClientInfo »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::finish'
+---
 # SwooleServer::finish
 
 (PECL swoole >= 1.9.0)

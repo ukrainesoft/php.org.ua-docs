@@ -1,16 +1,11 @@
-Отримання функцій модуля
-
--   [« ReflectionExtension::getDependencies](reflectionextension.getdependencies.html)
-    
--   [ReflectionExtension::getINIEntries »](reflectionextension.getinientries.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionExtension](class.reflectionextension.html)
-    
--   Отримання функцій модуля
-    
-
+---
+navigation:
+  - reflectionextension.getdependencies.html: '« ReflectionExtension::getDependencies'
+  - reflectionextension.getinientries.html: 'ReflectionExtension::getINIEntries »'
+  - index.html: PHP Manual
+  - class.reflectionextension.html: ReflectionExtension
+title: 'ReflectionExtension::getFunctions'
+---
 # ReflectionExtension::getFunctions
 
 (PHP 5, PHP 7, PHP 8)

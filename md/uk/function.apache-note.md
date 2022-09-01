@@ -1,16 +1,11 @@
-Повертає та встановлює повідомлення до запиту Apache
-
--   [« apachelookupuri](function.apache-lookup-uri.html)
-    
--   [apacherequestheaders »](function.apache-request-headers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Apache](ref.apache.html)
-    
--   Повертає та встановлює повідомлення до запиту Apache
-    
-
+---
+navigation:
+  - function.apache-lookup-uri.html: « apachelookupuri
+  - function.apache-request-headers.html: apacherequestheaders »
+  - index.html: PHP Manual
+  - ref.apache.html: Функции Apache
+title: apachenote
+---
 # apachenote
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ apache_note(string $note_name, ?string $note_value = null): string|false
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `note_value` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `note_value` тепер допускає значення null. |
 
 ### Приклади
 

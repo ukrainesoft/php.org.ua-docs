@@ -1,16 +1,11 @@
-Функції SNMP
-
--   [« Обумовлені константи](snmp.constants.md)
-    
--   [snmpgetquickprint »](function.snmp-get-quick-print.html)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](book.snmp.md)
-    
--   Функції SNMP
-    
-
+---
+navigation:
+  - snmp.constants.md: « Обумовлені константи
+  - function.snmp-get-quick-print.html: snmpgetquickprint »
+  - index.md: PHP Manual
+  - book.snmp.md: SNMP
+title: Функції SNMP
+---
 # Функції SNMP
 
 ## Зміст

@@ -1,16 +1,11 @@
-Відкриває дескриптор каталогу
-
--   [« getcwd](function.getcwd.html)
-    
--   [readdir »](function.readdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з каталогами](ref.dir.html)
-    
--   Відкриває дескриптор каталогу
-    
-
+---
+navigation:
+  - function.getcwd.html: « getcwd
+  - function.readdir.html: readdir »
+  - index.html: PHP Manual
+  - ref.dir.html: Функції для роботи з каталогами
+title: opendir
+---
 # opendir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ opendir(string $directory, ?resource $context = null): resource|false
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `context` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Отримати код останньої помилки
-
--   [« YafApplication::getLastErrorMsg](yaf-application.getlasterrormsg.html)
-    
--   [YafApplication::getModules »](yaf-application.getmodules.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Отримати код останньої помилки
-    
-
+---
+navigation:
+  - yaf-application.getlasterrormsg.html: '« YafApplication::getLastErrorMsg'
+  - yaf-application.getmodules.html: 'YafApplication::getModules »'
+  - index.html: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::getLastErrorNo'
+---
 # YafApplication::getLastErrorNo
 
 (Yaf> = 2.1.2)

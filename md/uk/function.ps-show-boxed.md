@@ -1,16 +1,11 @@
-Виводить текст у поле
-
--   [«psshfill](function.ps-shfill.html)
-    
--   [псshowxy2 »](function.ps-show-xy2.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Виводить текст у поле
-    
-
+---
+navigation:
+  - function.ps-shfill.html: «psshfill
+  - function.ps-show-xy2.html: псshowxy2 »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псshowboxed
+---
 # псshowboxed
 
 (PECL ps >= 1.1.0)

@@ -1,16 +1,11 @@
-Повертає ідентифікатор групи поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getFilename](directoryiterator.getfilename.md)
-    
--   [DirectoryIterator::getInode »](directoryiterator.getinode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає ідентифікатор групи поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getfilename.md: '« DirectoryIterator::getFilename'
+  - directoryiterator.getinode.md: 'DirectoryIterator::getInode »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getGroup'
+---
 # DirectoryIterator::getGroup
 
 (PHP 5, PHP 7, PHP 8)

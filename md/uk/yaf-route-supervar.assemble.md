@@ -1,16 +1,11 @@
-Збирає URL
-
--   [« YafRouteSupervar](class.yaf-route-supervar.html)
-    
--   [YafRouteSupervar::construct »](yaf-route-supervar.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteSupervar](class.yaf-route-supervar.html)
-    
--   Збирає URL
-    
-
+---
+navigation:
+  - class.yaf-route-supervar.html: « YafRouteSupervar
+  - yaf-route-supervar.construct.html: 'YafRouteSupervar::construct »'
+  - index.md: PHP Manual
+  - class.yaf-route-supervar.html: YafRouteSupervar
+title: 'YafRouteSupervar::assemble'
+---
 # YafRouteSupervar::assemble
 
 (Yaf >=2.3.0)

@@ -1,16 +1,11 @@
-Видаляє теги HTML та PHP з рядка
-
--   [« strcspn](function.strcspn.html)
-    
--   [stripcslashes »](function.stripcslashes.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Видаляє теги HTML та PHP з рядка
-    
-
+---
+navigation:
+  - function.strcspn.html: « strcspn
+  - function.stripcslashes.html: stripcslashes »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: striptags
+---
 # striptags
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -56,10 +51,10 @@ strip_tags(string $string, array|string|null $allowed_tags = null): string
 
 ### список змін
 
-| Версия | Описание                                                  |
-|--------|-----------------------------------------------------------|
-|        | `allowed_tags` тепер допускає значення null.              |
-|        | `allowed_tags` Тепер альтернативно приймає масив (array). |
+| Версия | Описание |
+| --- | --- |
+|  | `allowed_tags` тепер допускає значення null. |
+|  | `allowed_tags` Тепер альтернативно приймає масив (array). |
 
 ### Приклади
 

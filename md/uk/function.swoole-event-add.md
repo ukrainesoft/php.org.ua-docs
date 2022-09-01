@@ -1,16 +1,11 @@
-Додати нових callback-функцій сокету до циклу подій
-
--   [« swooleerrorlog](function.swoole-error-log.html)
-    
--   [swooleeventdefer »](function.swoole-event-defer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Додати нових callback-функцій сокету до циклу подій
-    
-
+---
+navigation:
+  - function.swoole-error-log.html: « swooleerrorlog
+  - function.swoole-event-defer.html: swooleeventdefer »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleeventadd
+---
 # swooleeventadd
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового виводу
-
--   [« XMLWriter::fullEndElement](xmlwriter.fullendelement.html)
-    
--   [XMLWriter::openUri »](xmlwriter.openuri.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Створити новий об'єкт XMLWriter, використовуючи пам'ять для рядкового виводу
-    
-
+---
+navigation:
+  - xmlwriter.fullendelement.html: '« XMLWriter::fullEndElement'
+  - xmlwriter.openuri.html: 'XMLWriter::openUri »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::openMemory'
+---
 # XMLWriter::openMemory
 
 # xmlwriteropenmemory
@@ -45,9 +40,9 @@ xmlwriter_open_memory(): XMLWriter|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.html) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.html) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

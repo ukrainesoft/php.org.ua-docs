@@ -1,16 +1,11 @@
-Бінарно-безпечне порівняння рядків
-
--   [« strchr](function.strchr.html)
-    
--   [strcoll »](function.strcoll.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Бінарно-безпечне порівняння рядків
-    
-
+---
+navigation:
+  - function.strchr.html: « strchr
+  - function.strcoll.html: strcoll »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strcmp
+---
 # strcmp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

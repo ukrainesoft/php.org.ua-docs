@@ -1,16 +1,11 @@
-Повертає код помилки SQLSTATE
-
--   [« mysqlisqlexception](class.mysqli-sql-exception.html)
-    
--   [Синоніми та застарілі функції Mysqli »](ref.mysqli.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlisqlexception](class.mysqli-sql-exception.html)
-    
--   Повертає код помилки SQLSTATE
-    
-
+---
+navigation:
+  - class.mysqli-sql-exception.html: « mysqlisqlexception
+  - ref.mysqli.md: Синоніми та застарілі функції Mysqli »
+  - index.md: PHP Manual
+  - class.mysqli-sql-exception.html: mysqlisqlexception
+title: 'mysqlisqlexception::getSqlState'
+---
 # mysqlisqlexception::getSqlState
 
 (PHP 8> = 8.1.2)

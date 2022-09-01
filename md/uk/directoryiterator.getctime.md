@@ -1,16 +1,11 @@
-Повертає час останньої зміни inode поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getBasename](directoryiterator.getbasename.md)
-    
--   [DirectoryIterator::getExtension »](directoryiterator.getextension.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає час останньої зміни inode поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getbasename.md: '« DirectoryIterator::getBasename'
+  - directoryiterator.getextension.md: 'DirectoryIterator::getExtension »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getCTime'
+---
 # DirectoryIterator::getCTime
 
 (PHP 5, PHP 7, PHP 8)

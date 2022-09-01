@@ -1,16 +1,11 @@
-Повертає зображення у градаціях сірого з тривимірним ефектом
-
--   [« Imagick::edgeImage](imagick.edgeimage.md)
-    
--   [Imagick::encipherImage »](imagick.encipherimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає зображення у градаціях сірого з тривимірним ефектом
-    
-
+---
+navigation:
+  - imagick.edgeimage.md: '« Imagick::edgeImage'
+  - imagick.encipherimage.md: 'Imagick::encipherImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::embossImage'
+---
 # Imagick::embossImage
 
 (PECL imagick 2, PECL imagick 3)

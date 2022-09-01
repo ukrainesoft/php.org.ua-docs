@@ -1,16 +1,11 @@
-Отримати кількість вузлів у списку
-
--   [« DOMNodeList](class.domnodelist.md)
-    
--   [DOMNodeList::item »](domnodelist.item.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNodeList](class.domnodelist.md)
-    
--   Отримати кількість вузлів у списку
-    
-
+---
+navigation:
+  - class.domnodelist.md: « DOMNodeList
+  - domnodelist.item.md: 'DOMNodeList::item »'
+  - index.md: PHP Manual
+  - class.domnodelist.md: DOMNodeList
+title: 'DOMNodeList::count'
+---
 # DOMNodeList::count
 
 (PHP 7> = 7.2.0, PHP 8)

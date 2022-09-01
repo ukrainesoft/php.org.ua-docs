@@ -1,16 +1,11 @@
-Отримати текст коментаря з архіву RAR
-
--   [« RarArchive::close](rararchive.close.html)
-    
--   [RarArchive::getEntries »](rararchive.getentries.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarArchive](class.rararchive.html)
-    
--   Отримати текст коментаря з архіву RAR
-    
-
+---
+navigation:
+  - rararchive.close.html: '« RarArchive::close'
+  - rararchive.getentries.html: 'RarArchive::getEntries »'
+  - index.html: PHP Manual
+  - class.rararchive.html: RarArchive
+title: 'RarArchive::getComment'
+---
 # RarArchive::getComment
 
 # rarcommentget

@@ -1,16 +1,11 @@
-Дозволяє групувати документи, що відповідають цьому запиту
-
--   [« SolrQuery::addGroupFunction](solrquery.addgroupfunction.html)
-    
--   [SolrQuery::addGroupSortField »](solrquery.addgroupsortfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Дозволяє групувати документи, що відповідають цьому запиту
-    
-
+---
+navigation:
+  - solrquery.addgroupfunction.html: '« SolrQuery::addGroupFunction'
+  - solrquery.addgroupsortfield.html: 'SolrQuery::addGroupSortField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::addGroupQuery'
+---
 # SolrQuery::addGroupQuery
 
 (PECL solr> = 2.2.0)

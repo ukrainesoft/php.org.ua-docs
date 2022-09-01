@@ -1,16 +1,11 @@
-Клас YafLoader
-
--   [« YafViewSimple::setScriptPath](yaf-view-simple.setscriptpath.html)
-    
--   [YafLoader::autoload »](yaf-loader.autoload.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafLoader
-    
-
+---
+navigation:
+  - yaf-view-simple.setscriptpath.html: '« YafViewSimple::setScriptPath'
+  - yaf-loader.autoload.html: 'YafLoader::autoload »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafLoader
+---
 # Клас YafLoader
 
 (Yaf >=1.0.0)

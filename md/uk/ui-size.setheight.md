@@ -1,16 +1,11 @@
-Встановити висоту
-
--   [« UISize::of](ui-size.of.html)
-    
--   [ОЙSize::setWidth »](ui-size.setwidth.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙSize](class.ui-size.html)
-    
--   Встановити висоту
-    
-
+---
+navigation:
+  - ui-size.of.html: '« UISize::of'
+  - ui-size.setwidth.html: 'ОЙSize::setWidth »'
+  - index.md: PHP Manual
+  - class.ui-size.html: ОЙSize
+title: 'ОЙSize::setHeight'
+---
 # ОЙSize::setHeight
 
 (UI 0.9.9)

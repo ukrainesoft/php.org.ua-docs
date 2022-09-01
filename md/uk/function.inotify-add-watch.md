@@ -1,16 +1,11 @@
-Додати спостерігача для екземпляра inotify
-
--   [« Функции Inotify](ref.inotify.md)
-    
--   [inotifyinit »](function.inotify-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Inotify](ref.inotify.md)
-    
--   Додати спостерігача для екземпляра inotify
-    
-
+---
+navigation:
+  - ref.inotify.md: « Функции Inotify
+  - function.inotify-init.html: inotifyinit »
+  - index.md: PHP Manual
+  - ref.inotify.md: Функции Inotify
+title: inotifyaddwatch
+---
 # inotifyaddwatch
 
 (PECL inotify >= 0.1.2)

@@ -1,26 +1,21 @@
-Налаштування під час виконання
-
--   [« Установка](openssl.installation.html)
-    
--   [Типи ресурсів »](openssl.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](openssl.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - openssl.installation.html: « Установка
+  - openssl.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - openssl.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування openssl**
 
-| Имя            | По умолчанию | Место изменения | Список изменений |
-|----------------|--------------|-----------------|------------------|
-| openssl.cafile | ""           | PHPINIPERDIR    |                  |
-| openssl.capath | ""           | PHPINIPERDIR    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| openssl.cafile | "" | PHPINIPERDIR |  |
+| openssl.capath | "" | PHPINIPERDIR |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

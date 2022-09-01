@@ -1,16 +1,11 @@
-Pspell
-
--   [« mbsubstr](function.mb-substr.html)
-    
--   [Введение »](intro.pspell.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   Pspell
-    
-
+---
+navigation:
+  - function.mb-substr.html: « mbsubstr
+  - intro.pspell.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: Pspell
+---
 # Pspell
 
 -   [Введение](intro.pspell.md)

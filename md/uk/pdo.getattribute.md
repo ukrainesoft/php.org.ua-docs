@@ -1,16 +1,11 @@
-Отримати атрибут з'єднання з базою даних
-
--   [« PDO::exec](pdo.exec.md)
-    
--   [PDO::getAvailableDrivers »](pdo.getavailabledrivers.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Отримати атрибут з'єднання з базою даних
-    
-
+---
+navigation:
+  - pdo.exec.md: '« PDO::exec'
+  - pdo.getavailabledrivers.md: 'PDO::getAvailableDrivers »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::getAttribute'
+---
 # PDO::getAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)

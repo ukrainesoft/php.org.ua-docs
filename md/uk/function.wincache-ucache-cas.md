@@ -1,16 +1,11 @@
-Порівнює змінну зі старим значенням і надає їй нове значення
-
--   [« wincacheucacheadd](function.wincache-ucache-add.html)
-    
--   [wincacheucacheclear »](function.wincache-ucache-clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Порівнює змінну зі старим значенням і надає їй нове значення
-    
-
+---
+navigation:
+  - function.wincache-ucache-add.html: « wincacheucacheadd
+  - function.wincache-ucache-clear.html: wincacheucacheclear »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucachecas
+---
 # wincacheucachecas
 
 (PECL wincache >= 1.1.0)

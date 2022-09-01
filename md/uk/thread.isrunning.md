@@ -1,16 +1,11 @@
-Визначення стану
-
--   [« Threaded::extend](threaded.extend.html)
-    
--   [Threaded::isTerminated »](threaded.isterminated.html)
-    
--   [PHP Manual](index.html)
-    
--   [Threaded](class.threaded.html)
-    
--   Визначення стану
-    
-
+---
+navigation:
+  - threaded.extend.html: '« Threaded::extend'
+  - threaded.isterminated.html: 'Threaded::isTerminated »'
+  - index.html: PHP Manual
+  - class.threaded.html: Threaded
+title: 'Threaded::isRunning'
+---
 # Threaded::isRunning
 
 (PECL pthreads >= 2.0.0)

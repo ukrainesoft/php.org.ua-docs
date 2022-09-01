@@ -1,16 +1,11 @@
-Видалити файл із tar/zip-архіву
-
--   [« PharData::delMetadata](phardata.delmetadata.md)
-    
--   [PharData::destruct »](phardata.destruct.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Видалити файл із tar/zip-архіву
-    
-
+---
+navigation:
+  - phardata.delmetadata.md: '« PharData::delMetadata'
+  - phardata.destruct.md: 'PharData::destruct »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::delete'
+---
 # PharData::delete
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

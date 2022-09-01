@@ -1,16 +1,11 @@
-Призначення preResponse
-
--   [« YafPluginAbstract::preDispatch](yaf-plugin-abstract.predispatch.html)
-    
--   [YafPluginAbstract::routerShutdown »](yaf-plugin-abstract.routershutdown.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
-    
--   Призначення preResponse
-    
-
+---
+navigation:
+  - yaf-plugin-abstract.predispatch.html: '« YafPluginAbstract::preDispatch'
+  - yaf-plugin-abstract.routershutdown.html: 'YafPluginAbstract::routerShutdown »'
+  - index.md: PHP Manual
+  - class.yaf-plugin-abstract.html: YafPluginAbstract
+title: 'YafPluginAbstract::preResponse'
+---
 # YafPluginAbstract::preResponse
 
 (Yaf >=1.0.0)

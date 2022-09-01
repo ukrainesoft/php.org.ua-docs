@@ -1,16 +1,11 @@
-Порівняння генераторів з об'єктами класу Iterator
-
--   [« Синтаксис генераторів](language.generators.syntax.md)
-    
--   [Атрибути »](language.attributes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Генератори](language.generators.md)
-    
--   Порівняння генераторів з об'єктами класу Iterator
-    
-
+---
+navigation:
+  - language.generators.syntax.md: « Синтаксис генераторів
+  - language.attributes.md: Атрибути »
+  - index.md: PHP Manual
+  - language.generators.md: Генератори
+title: 'Порівняння генераторів з об''єктами класу [Iterator](class.iterator.md)'
+---
 ## Порівняння генераторів з об'єктами класу [Iterator](class.iterator.md)
 
 Головна перевага генераторів – це їхня простота. Набагато менше шаблонного коду треба написати порівняно з реалізацією об'єкта класу [Iterator](class.iterator.md), і цей код набагато простіший і зрозуміліший. Наприклад, ця функція і клас роблять те саме.

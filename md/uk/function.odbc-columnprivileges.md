@@ -1,16 +1,11 @@
-Перелічує стовпці та пов'язані привілеї для даної таблиці
-
--   [« odbcclose](function.odbc-close.html)
-    
--   [odbccolumns »](function.odbc-columns.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Перелічує стовпці та пов'язані привілеї для даної таблиці
-    
-
+---
+navigation:
+  - function.odbc-close.html: « odbcclose
+  - function.odbc-columns.html: odbccolumns »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbccolumnprivileges
+---
 # odbccolumnprivileges
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

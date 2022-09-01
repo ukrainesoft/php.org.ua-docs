@@ -1,16 +1,11 @@
-Клас ReflectionFunction
-
--   [« ReflectionExtension::toString](reflectionextension.tostring.html)
-    
--   [ReflectionFunction::construct »](reflectionfunction.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionFunction
-    
-
+---
+navigation:
+  - reflectionextension.tostring.html: '« ReflectionExtension::toString'
+  - reflectionfunction.construct.html: 'ReflectionFunction::construct »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionFunction
+---
 # Клас ReflectionFunction
 
 (PHP 5, PHP 7, PHP 8)

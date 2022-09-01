@@ -1,16 +1,11 @@
-Інформація про клас та об'єкт
-
--   [« usort](function.usort.md)
-    
--   [Введение »](intro.classobj.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
-    
--   Інформація про клас та об'єкт
-    
-
+---
+navigation:
+  - function.usort.md: « usort
+  - intro.classobj.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'
+title: Інформація про клас та об'єкт
+---
 # Інформація про клас та об'єкт
 
 -   [Введение](intro.classobj.md)

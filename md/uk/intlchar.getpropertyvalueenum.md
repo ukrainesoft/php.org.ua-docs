@@ -1,16 +1,11 @@
-Повернути числовий ідентифікатор властивості на його ім'я
-
--   [« IntlChar::getPropertyName](intlchar.getpropertyname.md)
-    
--   [IntlChar::getPropertyValueName »](intlchar.getpropertyvaluename.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Повернути числовий ідентифікатор властивості на його ім'я
-    
-
+---
+navigation:
+  - intlchar.getpropertyname.md: '« IntlChar::getPropertyName'
+  - intlchar.getpropertyvaluename.md: 'IntlChar::getPropertyValueName »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::getPropertyValueEnum'
+---
 # IntlChar::getPropertyValueEnum
 
 (PHP 7, PHP 8)

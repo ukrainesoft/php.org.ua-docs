@@ -1,16 +1,11 @@
-POSIX
-
--   [pcntlwtermsig](function.pcntl-wtermsig.html)
-    
--   [Введение »](intro.posix.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.md)
-    
--   POSIX
-    
-
+---
+navigation:
+  - function.pcntl-wtermsig.html: pcntlwtermsig
+  - intro.posix.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
+title: POSIX
+---
 # POSIX
 
 -   [Введение](intro.posix.md)

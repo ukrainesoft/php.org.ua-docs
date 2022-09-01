@@ -1,16 +1,11 @@
-Створення XML-аналізатора з підтримкою просторів імен
-
--   [« xmlparse](function.xml-parse.html)
-    
--   [xmlparsercreate »](function.xml-parser-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Створення XML-аналізатора з підтримкою просторів імен
-    
-
+---
+navigation:
+  - function.xml-parse.html: « xmlparse
+  - function.xml-parser-create.html: xmlparsercreate »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlparsercreateнс
+---
 # xmlparsercreateнс
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ xml_parser_create_ns(?string $encoding = null, string $separator = ":"): XMLPars
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.md); раніше повертався ресурс (resource) або **`false`** у разі виникнення помилки. |
-|        | `encoding` тепер допускає значення null.                                                                                                         |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.md); раніше повертався ресурс (resource) або **`false`** у разі виникнення помилки. |
+|  | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](memcached.setup.md)
-    
--   [Установка »](memcached.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](memcached.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - memcached.setup.md: « Встановлення та налаштування
+  - memcached.installation.md: Установка »
+  - index.md: PHP Manual
+  - memcached.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Цей модуль потребує наявність бібліотеки [» libmemcached](http://libmemcached.org/libMemcached.html) (версії 1.0.0 та новіші). Для підтримки SASL аутентифікації, libmemcached повинен бути зібраний з включеним SASL.

@@ -1,16 +1,11 @@
-Псевдонім ibaseblobclose
-
--   [« fbirdblobcancel](function.fbird-blob-cancel.html)
-    
--   [fbirdblobcreate »](function.fbird-blob-create.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibaseblobclose
-    
-
+---
+navigation:
+  - function.fbird-blob-cancel.html: « fbirdblobcancel
+  - function.fbird-blob-create.html: fbirdblobcreate »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirdblobclose
+---
 # fbirdblobclose
 
 (PHP 5, PHP 7 < 7.4.0)

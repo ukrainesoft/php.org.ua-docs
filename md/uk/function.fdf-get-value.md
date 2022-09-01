@@ -1,16 +1,11 @@
-Отримує значення поля
-
--   [« fdfgetstatus](function.fdf-get-status.html)
-    
--   [fdfgetversion »](function.fdf-get-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Отримує значення поля
-    
-
+---
+navigation:
+  - function.fdf-get-status.html: « fdfgetstatus
+  - function.fdf-get-version.html: fdfgetversion »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfgetvalue
+---
 # fdfgetvalue
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
@@ -45,9 +40,9 @@ fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | Додана підтримка масивів та параметра `which` |
+| Версия | Описание |
+| --- | --- |
+|  | Додана підтримка масивів та параметра `which` |
 
 ### Дивіться також
 

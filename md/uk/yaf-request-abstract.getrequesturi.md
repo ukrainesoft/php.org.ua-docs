@@ -1,16 +1,11 @@
-Призначення getRequestUri
-
--   [« YafRequestAbstract::getParams](yaf-request-abstract.getparams.html)
-    
--   [YafRequestAbstract::getServer »](yaf-request-abstract.getserver.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Призначення getRequestUri
-    
-
+---
+navigation:
+  - yaf-request-abstract.getparams.html: '« YafRequestAbstract::getParams'
+  - yaf-request-abstract.getserver.html: 'YafRequestAbstract::getServer »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getRequestUri'
+---
 # YafRequestAbstract::getRequestUri
 
 (Yaf >=1.0.0)

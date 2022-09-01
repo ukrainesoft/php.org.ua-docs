@@ -1,16 +1,11 @@
-Сортує елементи "натурально"
-
--   [« ArrayIterator::natcasesort](arrayiterator.natcasesort.md)
-    
--   [ArrayIterator::next »](arrayiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Сортує елементи "натурально"
-    
-
+---
+navigation:
+  - arrayiterator.natcasesort.md: '« ArrayIterator::natcasesort'
+  - arrayiterator.next.md: 'ArrayIterator::next »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::natsort'
+---
 # ArrayIterator::natsort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

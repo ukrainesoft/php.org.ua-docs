@@ -1,16 +1,11 @@
-Повертає змінну з пам'яті, що розділяється
-
--   [« shmdetach](function.shm-detach.html)
-    
--   [shmhasvar »](function.shm-has-var.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Повертає змінну з пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shm-detach.html: « shmdetach
+  - function.shm-has-var.html: shmhasvar »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: shmgetvar
+---
 # shmgetvar
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ shm_get_var(SysvSharedMemory $shm, int $key): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------|
-|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

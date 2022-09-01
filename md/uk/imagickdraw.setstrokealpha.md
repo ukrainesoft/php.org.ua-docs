@@ -1,16 +1,11 @@
-Визначає непрозорість обведення контурів об'єкта
-
--   [« ImagickDraw::setResolution](imagickdraw.setresolution.html)
-    
--   [ImagickDraw::setStrokeAntialias »](imagickdraw.setstrokeantialias.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Визначає непрозорість обведення контурів об'єкта
-    
-
+---
+navigation:
+  - imagickdraw.setresolution.html: '« ImagickDraw::setResolution'
+  - imagickdraw.setstrokeantialias.html: 'ImagickDraw::setStrokeAntialias »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setStrokeAlpha'
+---
 # ImagickDraw::setStrokeAlpha
 
 (PECL imagick 2, PECL imagick 3)

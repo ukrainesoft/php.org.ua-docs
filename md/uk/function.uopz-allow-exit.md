@@ -1,16 +1,11 @@
-Дозволяє керувати вимкненим опкодом exit
-
--   [« uopzaddfunction](function.uopz-add-function.html)
-    
--   [uopzbackup »](function.uopz-backup.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Дозволяє керувати вимкненим опкодом exit
-    
-
+---
+navigation:
+  - function.uopz-add-function.html: « uopzaddfunction
+  - function.uopz-backup.html: uopzbackup »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzallowexit
+---
 # uopzallowexit
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

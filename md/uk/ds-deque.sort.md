@@ -1,16 +1,11 @@
-Сортує двосторонню чергу
-
--   [« DsDeque::slice](ds-deque.slice.html)
-    
--   [ДсDeque::sorted »](ds-deque.sorted.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Сортує двосторонню чергу
-    
-
+---
+navigation:
+  - ds-deque.slice.html: '« DsDeque::slice'
+  - ds-deque.sorted.html: 'ДсDeque::sorted »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::sort'
+---
 # ДсDeque::sort
 
 (PECL ds >= 1.0.0)

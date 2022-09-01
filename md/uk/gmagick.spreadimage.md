@@ -1,16 +1,11 @@
-Випадково зміщує кожен піксель у блоці
-
--   [« Gmagick::solarizeimage](gmagick.solarizeimage.md)
-    
--   [Gmagick::stripimage »](gmagick.stripimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Випадково зміщує кожен піксель у блоці
-    
-
+---
+navigation:
+  - gmagick.solarizeimage.md: '« Gmagick::solarizeimage'
+  - gmagick.stripimage.md: 'Gmagick::stripimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::spreadimage'
+---
 # Gmagick::spreadimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Створює екземпляр PDO, що надає з'єднання з базою даних
-
--   [« PDO::commit](pdo.commit.md)
-    
--   [PDO::errorCode »](pdo.errorcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Створює екземпляр PDO, що надає з'єднання з базою даних
-    
-
+---
+navigation:
+  - pdo.commit.md: '« PDO::commit'
+  - pdo.errorcode.md: 'PDO::errorCode »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::construct'
+---
 # PDO::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

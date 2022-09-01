@@ -1,16 +1,11 @@
-Скасовує запит
-
--   [« eiobusy](function.eio-busy.html)
-    
--   [eiochmod »](function.eio-chmod.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Скасовує запит
-    
-
+---
+navigation:
+  - function.eio-busy.html: « eiobusy
+  - function.eio-chmod.html: eiochmod »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiocancel
+---
 # eiocancel
 
 (PECL eio >= 0.0.1dev)

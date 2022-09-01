@@ -1,16 +1,11 @@
-Застосування бінарного патча до рядка
-
--   [xdiffstringbdiff](function.xdiff-string-bdiff.html)
-    
--   [xdiffstringdiffbinary »](function.xdiff-string-diff-binary.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Застосування бінарного патча до рядка
-    
-
+---
+navigation:
+  - function.xdiff-string-bdiff.html: xdiffstringbdiff
+  - function.xdiff-string-diff-binary.html: xdiffstringdiffbinary »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdiffstringbpatch
+---
 # xdiffstringbpatch
 
 (PECL xdiff >= 1.5.0)

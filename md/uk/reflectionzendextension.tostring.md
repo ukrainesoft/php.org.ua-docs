@@ -1,16 +1,11 @@
-Обробник перетворення в рядок
-
--   [« ReflectionZendExtension::getVersion](reflectionzendextension.getversion.html)
-    
--   [ReflectionExtension »](class.reflectionextension.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionZendExtension](class.reflectionzendextension.html)
-    
--   Обробник перетворення в рядок
-    
-
+---
+navigation:
+  - reflectionzendextension.getversion.html: '« ReflectionZendExtension::getVersion'
+  - class.reflectionextension.html: ReflectionExtension »
+  - index.html: PHP Manual
+  - class.reflectionzendextension.html: ReflectionZendExtension
+title: 'ReflectionZendExtension::toString'
+---
 # ReflectionZendExtension::toString
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас The MongoDBDriverWriteConcernError
-
--   [« MongoDBDriverTopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.html)
-    
--   [MongoDBDriverWriteConcernError::getCode »](mongodb-driver-writeconcernerror.getcode.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас The MongoDBDriverWriteConcernError
-    
-
+---
+navigation:
+  - mongodb-driver-topologydescription.haswritableserver.html: '« MongoDBDriverTopologyDescription::hasWritableServer'
+  - mongodb-driver-writeconcernerror.getcode.html: 'MongoDBDriverWriteConcernError::getCode »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас The MongoDBDriverWriteConcernError
+---
 # Клас The MongoDBDriverWriteConcernError
 
 (mongodb >=1.0.0)

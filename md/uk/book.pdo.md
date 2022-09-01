@@ -1,16 +1,11 @@
-Об'єкти даних PHP
-
--   [« odbctables](function.odbc-tables.html)
-    
--   [Введение »](intro.pdo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Рівні абстракції](refs.database.abstract.md)
-    
--   Об'єкти даних PHP
-    
-
+---
+navigation:
+  - function.odbc-tables.html: « odbctables
+  - intro.pdo.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.abstract.md: Рівні абстракції
+title: Об'єкти даних PHP
+---
 # Об'єкти даних PHP
 
 -   [Введение](intro.pdo.md)

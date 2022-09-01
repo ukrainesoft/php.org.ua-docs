@@ -1,16 +1,11 @@
-Отримує інформацію про використання кеш-пам'яті опкодів
-
--   [« wincacheocachefileinfo](function.wincache-ocache-fileinfo.html)
-    
--   [wincacherefreshіфchanged »](function.wincache-refresh-if-changed.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Отримує інформацію про використання кеш-пам'яті опкодів
-    
-
+---
+navigation:
+  - function.wincache-ocache-fileinfo.html: « wincacheocachefileinfo
+  - function.wincache-refresh-if-changed.html: wincacherefreshіфchanged »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheocachememinfo
+---
 # wincacheocachememinfo
 
 (PECL wincache >= 1.0.0)

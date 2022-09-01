@@ -1,16 +1,11 @@
-Керуйте яскравістю, насиченістю та відтінком
-
--   [« Imagick::minifyImage](imagick.minifyimage.md)
-    
--   [Imagick::montageImage »](imagick.montageimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Керуйте яскравістю, насиченістю та відтінком
-    
-
+---
+navigation:
+  - imagick.minifyimage.md: '« Imagick::minifyImage'
+  - imagick.montageimage.md: 'Imagick::montageImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::modulateImage'
+---
 # Imagick::modulateImage
 
 (PECL imagick 2, PECL imagick 3)

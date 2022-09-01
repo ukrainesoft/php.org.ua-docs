@@ -1,16 +1,11 @@
-Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
-
--   [« datedefaulttimezoneget](function.date-default-timezone-get.html)
-    
--   [datediff »](function.date-diff.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
-    
-
+---
+navigation:
+  - function.date-default-timezone-get.html: « datedefaulttimezoneget
+  - function.date-diff.html: datediff »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datedefaulttimezoneset
+---
 # datedefaulttimezoneset
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

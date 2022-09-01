@@ -1,16 +1,11 @@
-Отримання імені модуля
-
--   [« ReflectionExtension::getINIEntries](reflectionextension.getinientries.html)
-    
--   [ReflectionExtension::getVersion »](reflectionextension.getversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionExtension](class.reflectionextension.html)
-    
--   Отримання імені модуля
-    
-
+---
+navigation:
+  - reflectionextension.getinientries.html: '« ReflectionExtension::getINIEntries'
+  - reflectionextension.getversion.html: 'ReflectionExtension::getVersion »'
+  - index.html: PHP Manual
+  - class.reflectionextension.html: ReflectionExtension
+title: 'ReflectionExtension::getName'
+---
 # ReflectionExtension::getName
 
 (PHP 5, PHP 7, PHP 8)

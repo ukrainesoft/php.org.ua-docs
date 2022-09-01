@@ -1,16 +1,11 @@
-Повертає опцію "w" WriteConcern
-
--   [« MongoDBDriverWriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.html)
-    
--   [MongoDBDriverWriteConcern::getWtimeout »](mongodb-driver-writeconcern.getwtimeout.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
-    
--   Повертає опцію "w" WriteConcern
-    
-
+---
+navigation:
+  - mongodb-driver-writeconcern.getjournal.html: '« MongoDBDriverWriteConcern::getJournal'
+  - mongodb-driver-writeconcern.getwtimeout.html: 'MongoDBDriverWriteConcern::getWtimeout »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::getW'
+---
 # MongoDBDriverWriteConcern::getW
 
 (mongodb >=1.0.0)

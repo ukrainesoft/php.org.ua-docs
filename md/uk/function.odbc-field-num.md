@@ -1,16 +1,11 @@
-Повертає номер стовпця
-
--   [« odbcfieldname](function.odbc-field-name.html)
-    
--   [odbcfieldprecision »](function.odbc-field-precision.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає номер стовпця
-    
-
+---
+navigation:
+  - function.odbc-field-name.html: « odbcfieldname
+  - function.odbc-field-precision.html: odbcfieldprecision »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcfieldnum
+---
 # odbcfieldnum
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

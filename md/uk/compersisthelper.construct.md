@@ -1,16 +1,11 @@
-Конструктор класу COMPersistHelper
-
--   [« COMPersistHelper](class.compersisthelper.html)
-    
--   [COMPersistHelper::GetCurFileName »](compersisthelper.getcurfilename.html)
-    
--   [PHP Manual](index.html)
-    
--   [COMPersistHelper](class.compersisthelper.html)
-    
--   Конструктор класу COMPersistHelper
-    
-
+---
+navigation:
+  - class.compersisthelper.html: « COMPersistHelper
+  - compersisthelper.getcurfilename.html: 'COMPersistHelper::GetCurFileName »'
+  - index.html: PHP Manual
+  - class.compersisthelper.html: COMPersistHelper
+title: 'COMPersistHelper::construct'
+---
 # COMPersistHelper::construct
 
 (PHP 5, PHP 7, PHP 8)

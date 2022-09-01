@@ -1,16 +1,11 @@
-Клас InfiniteIterator
-
--   [« GlobIterator::count](globiterator.count.md)
-    
--   [InfiniteIterator::construct »](infiniteiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас InfiniteIterator
-    
-
+---
+navigation:
+  - globiterator.count.md: '« GlobIterator::count'
+  - infiniteiterator.construct.md: 'InfiniteIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас InfiniteIterator
+---
 # Клас InfiniteIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

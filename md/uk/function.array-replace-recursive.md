@@ -1,16 +1,11 @@
-Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
-
--   [« arrayreduce](function.array-reduce.html)
-    
--   [arrayreplace »](function.array-replace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
-    
-
+---
+navigation:
+  - function.array-reduce.html: « arrayreduce
+  - function.array-replace.html: arrayreplace »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayreplacerecursive
+---
 # arrayreplacerecursive
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

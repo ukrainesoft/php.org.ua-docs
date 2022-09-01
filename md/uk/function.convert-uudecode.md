@@ -1,16 +1,11 @@
-Декодує рядок із формату uuencode у звичайний вигляд
-
--   [« convertcyrstring](function.convert-cyr-string.html)
-    
--   [convertuuencode »](function.convert-uuencode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Декодує рядок із формату uuencode у звичайний вигляд
-    
-
+---
+navigation:
+  - function.convert-cyr-string.html: « convertcyrstring
+  - function.convert-uuencode.html: convertuuencode »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: convertuudecode
+---
 # convertuudecode
 
 (PHP 5, PHP 7, PHP 8)

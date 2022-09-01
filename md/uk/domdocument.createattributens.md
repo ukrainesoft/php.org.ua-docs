@@ -1,16 +1,11 @@
-Створює новий атрибут вузла з відповідним простором імен
-
--   [« DOMDocument::createAttribute](domdocument.createattribute.html)
-    
--   [DOMDocument::createCDATASection »](domdocument.createcdatasection.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Створює новий атрибут вузла з відповідним простором імен
-    
-
+---
+navigation:
+  - domdocument.createattribute.html: '« DOMDocument::createAttribute'
+  - domdocument.createcdatasection.html: 'DOMDocument::createCDATASection »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::createAttributeNS'
+---
 # DOMDocument::createAttributeNS
 
 (PHP 5, PHP 7, PHP 8)

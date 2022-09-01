@@ -1,16 +1,11 @@
-Псевдонім gmpdivдо
-
--   [« gmpdivр](function.gmp-div-r.html)
-    
--   [gmpdivexact »](function.gmp-divexact.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Псевдонім gmpdivдо
-    
-
+---
+navigation:
+  - function.gmp-div-r.html: « gmpdivр
+  - function.gmp-divexact.html: gmpdivexact »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpdiv
+---
 # gmpdiv
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

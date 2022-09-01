@@ -1,16 +1,11 @@
-Реєстрація агрегуючої функції користувача для використання в SQL-запитах
-
--   [« PDOSQLITE DSN](ref.pdo-sqlite.connection.html)
-    
--   [PDO::sqliteCreateCollation »](pdo.sqlitecreatecollation.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite (PDO)](ref.pdo-sqlite.html)
-    
--   Реєстрація агрегуючої функції користувача для використання в SQL-запитах
-    
-
+---
+navigation:
+  - ref.pdo-sqlite.connection.html: « PDOSQLITE DSN
+  - pdo.sqlitecreatecollation.md: 'PDO::sqliteCreateCollation »'
+  - index.md: PHP Manual
+  - ref.pdo-sqlite.html: SQLite (PDO)
+title: 'PDO::sqliteCreateAggregate'
+---
 # PDO::sqliteCreateAggregate
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdosqlite> = 1.0.0)

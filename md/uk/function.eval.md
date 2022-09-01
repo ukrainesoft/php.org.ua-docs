@@ -1,16 +1,11 @@
-Виконує код PHP, що міститься у рядку
-
--   [« die](function.die.md)
-    
--   [exit »](function.exit.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Виконує код PHP, що міститься у рядку
-    
-
+---
+navigation:
+  - function.die.md: « die
+  - function.exit.md: exit »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: eval
+---
 # eval
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

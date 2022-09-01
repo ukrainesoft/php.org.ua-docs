@@ -1,16 +1,11 @@
-Отримати ім'я таблиці
-
--   [« Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.html)
-    
--   [Table::getSchema »](mysql-xdevapi-table.getschema.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Отримати ім'я таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.existsindatabase.html: '« Table::existsInDatabase'
+  - mysql-xdevapi-table.getschema.html: 'Table::getSchema »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::getName'
+---
 # Table::getName
 
 (No version information available, might only be in Git)

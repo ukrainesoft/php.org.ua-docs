@@ -1,16 +1,11 @@
-Скидає лексер
-
--   [« ParleLexer::push](parle-lexer.push.html)
-    
--   [ParleRLexer »](class.parle-rlexer.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleLexer](class.parle-lexer.html)
-    
--   Скидає лексер
-    
-
+---
+navigation:
+  - parle-lexer.push.html: '« ParleLexer::push'
+  - class.parle-rlexer.html: ParleRLexer »
+  - index.html: PHP Manual
+  - class.parle-lexer.html: ParleLexer
+title: 'ParleLexer::reset'
+---
 # ParleLexer::reset
 
 (PECL parle >= 0.7.1)

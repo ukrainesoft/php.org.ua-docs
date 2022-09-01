@@ -1,16 +1,11 @@
-Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
-
--   [« IntlCalendar::setRepeatedWallTimeOption](intlcalendar.setrepeatedwalltimeoption.md)
-    
--   [IntlCalendar::setTime »](intlcalendar.settime.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
-    
-
+---
+navigation:
+  - intlcalendar.setrepeatedwalltimeoption.md: '« IntlCalendar::setRepeatedWallTimeOption'
+  - intlcalendar.settime.md: 'IntlCalendar::setTime »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::setSkippedWallTimeOption'
+---
 # IntlCalendar::setSkippedWallTimeOption
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

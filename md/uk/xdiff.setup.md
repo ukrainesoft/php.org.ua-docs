@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xdiff.html)
-    
--   [Вимоги »](xdiff.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [xdiff](book.xdiff.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xdiff.html: « Введение
+  - xdiff.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.xdiff.html: xdiff
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

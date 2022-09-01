@@ -1,16 +1,11 @@
-Псевдонім ociconnect
-
--   [« ocilogoff](function.ocilogoff.html)
-    
--   [ocinewcollection »](function.ocinewcollection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ociconnect
-    
-
+---
+navigation:
+  - function.ocilogoff.html: « ocilogoff
+  - function.ocinewcollection.html: ocinewcollection »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocilogon
+---
 # ocilogon
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

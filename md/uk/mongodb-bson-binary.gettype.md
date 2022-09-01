@@ -1,16 +1,11 @@
-Повертає тип Binary
-
--   [« MongoDBBSONBinary::getData](mongodb-bson-binary.getdata.html)
-    
--   [MongoDBBSONBinary::jsonSerialize »](mongodb-bson-binary.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   Повертає тип Binary
-    
-
+---
+navigation:
+  - mongodb-bson-binary.getdata.html: '« MongoDBBSONBinary::getData'
+  - mongodb-bson-binary.jsonserialize.html: 'MongoDBBSONBinary::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::getType'
+---
 # MongoDBBSONBinary::getType
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Повертає значення group.offset
-
--   [« SolrQuery::getGroupNGroups](solrquery.getgroupngroups.md)
-    
--   [SolrQuery::getGroupQueries »](solrquery.getgroupqueries.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає значення group.offset
-    
-
+---
+navigation:
+  - solrquery.getgroupngroups.md: '« SolrQuery::getGroupNGroups'
+  - solrquery.getgroupqueries.md: 'SolrQuery::getGroupQueries »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroupOffset'
+---
 # SolrQuery::getGroupOffset
 
 (PECL solr> = 2.2.0)

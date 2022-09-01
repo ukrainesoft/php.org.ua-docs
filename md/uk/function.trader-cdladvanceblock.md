@@ -1,16 +1,11 @@
-Відбитий наступ
-
--   [« tradercdlabandonedbaby](function.trader-cdlabandonedbaby.html)
-    
--   [tradercdlbelthold »](function.trader-cdlbelthold.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Відбитий наступ
-    
-
+---
+navigation:
+  - function.trader-cdlabandonedbaby.html: « tradercdlabandonedbaby
+  - function.trader-cdlbelthold.html: tradercdlbelthold »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdladvanceblock
+---
 # tradercdladvanceblock
 
 (PECL trader >= 0.2.0)

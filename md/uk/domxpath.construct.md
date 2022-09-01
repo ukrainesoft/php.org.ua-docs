@@ -1,16 +1,11 @@
-Створює новий об'єкт класу DOMXPath
-
--   [« DOMXPath](class.domxpath.md)
-    
--   [DOMXPath::evaluate »](domxpath.evaluate.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMXPath](class.domxpath.md)
-    
--   Створює новий об'єкт класу DOMXPath
-    
-
+---
+navigation:
+  - class.domxpath.md: « DOMXPath
+  - domxpath.evaluate.md: 'DOMXPath::evaluate »'
+  - index.md: PHP Manual
+  - class.domxpath.md: DOMXPath
+title: 'DOMXPath::construct'
+---
 # DOMXPath::construct
 
 (PHP 5, PHP 7, PHP 8)

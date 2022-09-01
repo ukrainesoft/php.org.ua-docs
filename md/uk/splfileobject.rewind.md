@@ -1,16 +1,11 @@
-Перемотування файлового покажчика на початок файлу
-
--   [« SplFileObject::next](splfileobject.next.html)
-    
--   [SplFileObject::seek »](splfileobject.seek.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Перемотування файлового покажчика на початок файлу
-    
-
+---
+navigation:
+  - splfileobject.next.html: '« SplFileObject::next'
+  - splfileobject.seek.html: 'SplFileObject::seek »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::rewind'
+---
 # SplFileObject::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

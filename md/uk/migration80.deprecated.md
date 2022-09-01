@@ -1,16 +1,11 @@
-Функціональність, оголошена застарілою в PHP 8.0.x
-
--   [« Зміни, що ламають зворотну сумісність](migration80.incompatible.md)
-    
--   [Другие изменения »](migration80.other-changes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.4.x на PHP 8.0.x](migration80.md)
-    
--   Функціональність, оголошена застарілою в PHP 8.0.x
-    
-
+---
+navigation:
+  - migration80.incompatible.md: '« Зміни, що ламають зворотну сумісність'
+  - migration80.other-changes.html: Другие изменения »
+  - index.md: PHP Manual
+  - migration80.md: Миграция с PHP 7.4.x на PHP 8.0.x
+title: 'Функціональність, оголошена застарілою в PHP 8.0.x'
+---
 ## Функціональність, оголошена застарілою в PHP 8.0.x
 
 ### Ядро PHP

@@ -1,16 +1,11 @@
-Про це керівництво
-
--   [« Поради](userlandnaming.tips.md)
-    
--   [Формати »](about.formats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Appendices](appendices.md)
-    
--   Про це керівництво
-    
-
+---
+navigation:
+  - userlandnaming.tips.md: « Поради
+  - about.formats.md: Формати »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Про це керівництво
+---
 # Про це керівництво
 
 ## Зміст

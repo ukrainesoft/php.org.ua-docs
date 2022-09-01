@@ -1,16 +1,11 @@
-Повертає поточне налаштування згладжування обведення
-
--   [« ImagickDraw::getGravity](imagickdraw.getgravity.html)
-    
--   [ImagickDraw::getStrokeColor »](imagickdraw.getstrokecolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає поточне налаштування згладжування обведення
-    
-
+---
+navigation:
+  - imagickdraw.getgravity.html: '« ImagickDraw::getGravity'
+  - imagickdraw.getstrokecolor.html: 'ImagickDraw::getStrokeColor »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getStrokeAntialias'
+---
 # ImagickDraw::getStrokeAntialias
 
 (PECL imagick 2, PECL imagick 3)

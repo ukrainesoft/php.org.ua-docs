@@ -1,16 +1,11 @@
-Серіалізує MaxKey
-
--   [« MongoDBBSONMaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html)
-    
--   [MongoDBBSONMaxKey::unserialize »](mongodb-bson-maxkey.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
-    
--   Серіалізує MaxKey
-    
-
+---
+navigation:
+  - mongodb-bson-maxkey.jsonserialize.html: '« MongoDBBSONMaxKey::jsonSerialize'
+  - mongodb-bson-maxkey.unserialize.html: 'MongoDBBSONMaxKey::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-maxkey.html: MongoDBBSONMaxKey
+title: 'MongoDBBSONMaxKey::serialize'
+---
 # MongoDBBSONMaxKey::serialize
 
 (mongodb >=1.2.0)

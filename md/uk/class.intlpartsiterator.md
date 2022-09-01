@@ -1,16 +1,11 @@
-Клас IntlPartsIterator
-
--   [« IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.html)
-    
--   [IntlPartsIterator::getBreakIterator »](intlpartsiterator.getbreakiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Клас IntlPartsIterator
-    
-
+---
+navigation:
+  - intldatepatterngenerator.getbestpattern.html: '« IntlDatePatternGenerator::getBestPattern'
+  - intlpartsiterator.getbreakiterator.html: 'IntlPartsIterator::getBreakIterator »'
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Клас IntlPartsIterator
+---
 # Клас IntlPartsIterator
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

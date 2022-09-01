@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](lua.installation.html)
-    
--   [Типи ресурсів »](lua.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](lua.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - lua.installation.html: « Установка
+  - lua.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - lua.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

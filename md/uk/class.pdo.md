@@ -1,16 +1,11 @@
-Клас PDO
-
--   [« Великі об'єкти (LOB)](pdo.lobs.md)
-    
--   [PDO::beginTransaction »](pdo.begintransaction.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](book.pdo.md)
-    
--   Клас PDO
-    
-
+---
+navigation:
+  - pdo.lobs.md: « Великі об'єкти (LOB)
+  - pdo.begintransaction.md: 'PDO::beginTransaction »'
+  - index.md: PHP Manual
+  - book.pdo.md: PDO
+title: Клас PDO
+---
 # Клас PDO
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

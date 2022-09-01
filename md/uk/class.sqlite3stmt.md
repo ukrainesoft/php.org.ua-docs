@@ -1,16 +1,11 @@
-Клас SQLite3Stmt
-
--   [« SQLite3::version](sqlite3.version.html)
-    
--   [SQLite3Stmt::bindParam »](sqlite3stmt.bindparam.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](book.sqlite3.html)
-    
--   Клас SQLite3Stmt
-    
-
+---
+navigation:
+  - sqlite3.version.html: '« SQLite3::version'
+  - sqlite3stmt.bindparam.html: 'SQLite3Stmt::bindParam »'
+  - index.html: PHP Manual
+  - book.sqlite3.html: SQLite3
+title: Клас SQLite3Stmt
+---
 # Клас SQLite3Stmt
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

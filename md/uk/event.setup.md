@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.event.md)
-    
--   [Вимоги »](event.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.event.md: « Введение
+  - event.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Встановлення оброблювача нерозібраних оголошень сутностей
-
--   [« xmlsetstartnamespacedeclhandler](function.xml-set-start-namespace-decl-handler.html)
-    
--   [XmlParser »](class.xmlparser.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Встановлення оброблювача нерозібраних оголошень сутностей
-    
-
+---
+navigation:
+  - function.xml-set-start-namespace-decl-handler.html: « xmlsetstartnamespacedeclhandler
+  - class.xmlparser.md: XmlParser »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetunparsedentitydeclhandler
+---
 # xmlsetunparsedentitydeclhandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -81,6 +76,6 @@ handler(    XMLParser $parser,    string $entity_name,    string $ba
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

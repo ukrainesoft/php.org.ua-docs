@@ -1,16 +1,11 @@
-Отримати сигнал, через який було зупинено дочірній процес
-
--   [pcntlwifstopped](function.pcntl-wifstopped.html)
-    
--   [pcntlwtermsig »](function.pcntl-wtermsig.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Отримати сигнал, через який було зупинено дочірній процес
-    
-
+---
+navigation:
+  - function.pcntl-wifstopped.html: pcntlwifstopped
+  - function.pcntl-wtermsig.html: pcntlwtermsig »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwstopsig
+---
 # pcntlwstopsig
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає суб'єкт CSR
-
--   [« opensslcsrgetpublickey](function.openssl-csr-get-public-key.html)
-    
--   [opensslcsrnew »](function.openssl-csr-new.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Повертає суб'єкт CSR
-    
-
+---
+navigation:
+  - function.openssl-csr-get-public-key.html: « opensslcsrgetpublickey
+  - function.openssl-csr-new.html: opensslcsrnew »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslcsrgetsubject
+---
 # opensslcsrgetsubject
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ openssl_csr_get_subject(OpenSSLCertificateSigningRequest|string $csr, bool $shor
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає ефективний ідентифікатор користувача поточного процесу EUID
-
--   [« posixgetegid](function.posix-getegid.html)
-    
--   [posixgetgid »](function.posix-getgid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає ефективний ідентифікатор користувача поточного процесу EUID
-    
-
+---
+navigation:
+  - function.posix-getegid.html: « posixgetegid
+  - function.posix-getgid.html: posixgetgid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixgeteuid
+---
 # posixgeteuid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

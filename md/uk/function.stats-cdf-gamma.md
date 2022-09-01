@@ -1,16 +1,11 @@
-Обчислює один із параметрів Гамма-розподілу за рештою
-
--   [« statscdfф](function.stats-cdf-f.html)
-    
--   [statscdflaplace »](function.stats-cdf-laplace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює один із параметрів Гамма-розподілу за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-f.html: « statscdfф
+  - function.stats-cdf-laplace.html: statscdflaplace »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscdfgamma
+---
 # statscdfgamma
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_gamma(    float $par1,    float $par2,    float $par3,  
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | до     | theta  |
-|         | з                     | CDF    | до     | theta  |
-|         | до                    | з      | CDF    | theta  |
-|         | theta                 | з      | CDF    | до     |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | до | theta |
+|  | з | CDF | до | theta |
+|  | до | з | CDF | theta |
+|  | theta | з | CDF | до |
 
 ### Список параметрів
 

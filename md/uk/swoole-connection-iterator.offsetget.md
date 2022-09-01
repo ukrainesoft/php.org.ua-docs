@@ -1,16 +1,11 @@
-Зміщення для вилучення
-
--   [« SwooleConnectionIterator::offsetExists](swoole-connection-iterator.offsetexists.html)
-    
--   [SwooleConnectionIterator::offsetSet »](swoole-connection-iterator.offsetset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleConnectionIterator](class.swoole-connection-iterator.html)
-    
--   Зміщення для вилучення
-    
-
+---
+navigation:
+  - swoole-connection-iterator.offsetexists.html: '« SwooleConnectionIterator::offsetExists'
+  - swoole-connection-iterator.offsetset.html: 'SwooleConnectionIterator::offsetSet »'
+  - index.html: PHP Manual
+  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+title: 'SwooleConnectionIterator::offsetGet'
+---
 # SwooleConnectionIterator::offsetGet
 
 (PECL swoole >= 1.9.0)

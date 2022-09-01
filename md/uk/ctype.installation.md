@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ctype.requirements.html)
-    
--   [Налаштування під час виконання »](ctype.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ctype.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ctype.requirements.html: « Вимоги
+  - ctype.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - ctype.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Заборонити підтримку ctype можна за допомогою **\-disable-ctype**

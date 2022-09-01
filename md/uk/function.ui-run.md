@@ -1,16 +1,11 @@
-Увійти до циклу UI
-
--   [« UIquit](function.ui-quit.html)
-    
--   [ОЙDrawTextFontWeight »](class.ui-draw-text-font-weight.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции UI](ref.ui.md)
-    
--   Увійти до циклу UI
-    
-
+---
+navigation:
+  - function.ui-quit.html: « UIquit
+  - class.ui-draw-text-font-weight.html: ОЙDrawTextFontWeight »
+  - index.md: PHP Manual
+  - ref.ui.md: Функции UI
+title: ОЙrun
+---
 # ОЙrun
 
 (UI 2.0.0)

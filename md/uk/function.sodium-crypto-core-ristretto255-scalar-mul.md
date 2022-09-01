@@ -1,16 +1,11 @@
-Помножує скалярне значення
-
--   [« sodiumcryptocoreristretto255scalarinvert](function.sodium-crypto-core-ristretto255-scalar-invert.html)
-    
--   [sodiumcryptocoreristretto255scalarnegate »](function.sodium-crypto-core-ristretto255-scalar-negate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Помножує скалярне значення
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-scalar-invert.html: « sodiumcryptocoreristretto255scalarinvert
+  - function.sodium-crypto-core-ristretto255-scalar-negate.html: sodiumcryptocoreristretto255scalarnegate »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255scalarmul
+---
 # sodiumcryptocoreristretto255scalarmul
 
 (PHP 8> = 8.1.0)

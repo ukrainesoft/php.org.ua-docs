@@ -1,16 +1,11 @@
-Створити об'єкт події таймера
-
--   [« Event::signal](event.signal.md)
-    
--   [EventBase »](class.eventbase.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Створити об'єкт події таймера
-    
-
+---
+navigation:
+  - event.signal.md: '« Event::signal'
+  - class.eventbase.md: EventBase »
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::timer'
+---
 # Event::timer
 
 (PECL event >= 1.2.6-beta)

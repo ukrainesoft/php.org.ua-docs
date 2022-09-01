@@ -1,16 +1,11 @@
-Перевіряє, чи був цикл обробки подій завершено
-
--   [« EventBase::gotExit](eventbase.gotexit.md)
-    
--   [EventBase::loop »](eventbase.loop.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Перевіряє, чи був цикл обробки подій завершено
-    
-
+---
+navigation:
+  - eventbase.gotexit.md: '« EventBase::gotExit'
+  - eventbase.loop.md: 'EventBase::loop »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::gotStop'
+---
 # EventBase::gotStop
 
 (PECL event >= 1.2.6-beta)

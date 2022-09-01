@@ -1,16 +1,11 @@
-Функції PostgreSQL
-
--   [« Базовое использование](pgsql.examples-queries.html)
-    
--   [пгaffectedrows »](function.pg-affected-rows.html)
-    
--   [PHP Manual](index.md)
-    
--   [PostgreSQL](book.pgsql.md)
-    
--   Функції PostgreSQL
-    
-
+---
+navigation:
+  - pgsql.examples-queries.html: « Базовое использование
+  - function.pg-affected-rows.html: пгaffectedrows »
+  - index.md: PHP Manual
+  - book.pgsql.md: PostgreSQL
+title: Функції PostgreSQL
+---
 # Функції PostgreSQL
 
 ## Примітки

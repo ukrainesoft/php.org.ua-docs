@@ -1,16 +1,11 @@
-Функції GeoIP
-
--   [« Обумовлені константи](geoip.constants.html)
-    
--   [geoipasnumбname »](function.geoip-asnum-by-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [GeoIP](book.geoip.html)
-    
--   Функції GeoIP
-    
-
+---
+navigation:
+  - geoip.constants.html: « Обумовлені константи
+  - function.geoip-asnum-by-name.html: geoipasnumбname »
+  - index.html: PHP Manual
+  - book.geoip.html: GeoIP
+title: Функції GeoIP
+---
 # Функції GeoIP
 
 ## Зміст

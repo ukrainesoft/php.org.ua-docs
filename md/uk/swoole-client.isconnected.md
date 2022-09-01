@@ -1,16 +1,11 @@
-Перевіряє, чи підключено з'єднання
-
--   [« SwooleClient::getsockname](swoole-client.getsockname.html)
-    
--   [SwooleClient::on »](swoole-client.on.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Перевіряє, чи підключено з'єднання
-    
-
+---
+navigation:
+  - swoole-client.getsockname.html: '« SwooleClient::getsockname'
+  - swoole-client.on.html: 'SwooleClient::on »'
+  - index.md: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::isConnected'
+---
 # SwooleClient::isConnected
 
 (PECL swoole >= 1.9.0)

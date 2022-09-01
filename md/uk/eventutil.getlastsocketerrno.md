@@ -1,16 +1,11 @@
-Отримати номер останньої помилки сокету, що виникла
-
--   [« EventUtil::construct](eventutil.construct.md)
-    
--   [EventUtil::getLastSocketError »](eventutil.getlastsocketerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventUtil](class.eventutil.md)
-    
--   Отримати номер останньої помилки сокету, що виникла
-    
-
+---
+navigation:
+  - eventutil.construct.md: '« EventUtil::construct'
+  - eventutil.getlastsocketerror.md: 'EventUtil::getLastSocketError »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
+title: 'EventUtil::getLastSocketErrno'
+---
 # EventUtil::getLastSocketErrno
 
 (PECL event >= 1.2.6-beta)

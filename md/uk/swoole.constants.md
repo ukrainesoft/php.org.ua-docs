@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](swoole.resources.html)
-    
--   [Функции Swoole »](ref.swoole-funcs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - swoole.resources.html: « Типи ресурсів
+  - ref.swoole-funcs.html: Функции Swoole »
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

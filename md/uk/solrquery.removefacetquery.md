@@ -1,16 +1,11 @@
-Видаляє один із параметрів facet.query
-
--   [« SolrQuery::removeFacetField](solrquery.removefacetfield.html)
-    
--   [SolrQuery::removeField »](solrquery.removefield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Видаляє один із параметрів facet.query
-    
-
+---
+navigation:
+  - solrquery.removefacetfield.html: '« SolrQuery::removeFacetField'
+  - solrquery.removefield.html: 'SolrQuery::removeField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::removeFacetQuery'
+---
 # SolrQuery::removeFacetQuery
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Повертає зображення
-
--   [« Imagick::rollImage](imagick.rollimage.md)
-    
--   [Imagick::rotationalBlurImage »](imagick.rotationalblurimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає зображення
-    
-
+---
+navigation:
+  - imagick.rollimage.md: '« Imagick::rollImage'
+  - imagick.rotationalblurimage.md: 'Imagick::rotationalBlurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::rotateImage'
+---
 # Imagick::rotateImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -41,8 +36,8 @@ public Imagick::rotateImage(mixed $background, float $degrees): bool
 
 ### список змін
 
-| Версия             | Описание                                                                                                                             |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволено використання рядка, який представляє колір, як перший параметр. Попередні версії допускали лише об'єкт ImagickPixel. |
 
 ### Приклади

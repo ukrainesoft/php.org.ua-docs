@@ -1,16 +1,11 @@
-Бета
-
--   [« traderbbands](function.trader-bbands.html)
-    
--   [traderbop »](function.trader-bop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Бета
-    
-
+---
+navigation:
+  - function.trader-bbands.html: « traderbbands
+  - function.trader-bop.html: traderbop »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderbeta
+---
 # traderbeta
 
 (PECL trader >= 0.2.0)

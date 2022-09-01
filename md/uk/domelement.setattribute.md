@@ -1,16 +1,11 @@
-Додає новий або змінює існуючий атрибут
-
--   [« DOMElement::removeAttributeNS](domelement.removeattributens.html)
-    
--   [DOMElement::setAttributeNode »](domelement.setattributenode.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMElement](class.domelement.html)
-    
--   Додає новий або змінює існуючий атрибут
-    
-
+---
+navigation:
+  - domelement.removeattributens.html: '« DOMElement::removeAttributeNS'
+  - domelement.setattributenode.html: 'DOMElement::setAttributeNode »'
+  - index.html: PHP Manual
+  - class.domelement.html: DOMElement
+title: 'DOMElement::setAttribute'
+---
 # DOMElement::setAttribute
 
 (PHP 5, PHP 7, PHP 8)

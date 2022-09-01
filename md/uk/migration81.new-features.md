@@ -1,16 +1,11 @@
-Нова функціональність
-
--   [« Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
-    
--   [Нові класи та інтерфейси »](migration81.new-classes.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
-    
--   Нова функціональність
-    
-
+---
+navigation:
+  - migration81.html: « Миграция с PHP 8.0.x на PHP 8.1.x
+  - migration81.new-classes.html: Нові класи та інтерфейси »
+  - index.html: PHP Manual
+  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x
+title: Нова функціональність
+---
 ## Нова функціональність
 
 ### Ядро PHP

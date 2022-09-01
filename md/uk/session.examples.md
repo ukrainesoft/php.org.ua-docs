@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](session.constants.md)
-    
--   [Основи використання »](session.examples.basic.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сессии](book.session.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - session.constants.md: « Обумовлені константи
+  - session.examples.basic.md: Основи використання »
+  - index.md: PHP Manual
+  - book.session.md: Сессии
+title: Приклади
+---
 # Приклади
 
 ## Зміст

@@ -1,16 +1,11 @@
-Завантаження буфера з даними
-
--   [« openalbuffercreate](function.openal-buffer-create.html)
-    
--   [openalbufferdestroy »](function.openal-buffer-destroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenAL](ref.openal.html)
-    
--   Завантаження буфера з даними
-    
-
+---
+navigation:
+  - function.openal-buffer-create.html: « openalbuffercreate
+  - function.openal-buffer-destroy.html: openalbufferdestroy »
+  - index.html: PHP Manual
+  - ref.openal.html: Функции OpenAL
+title: openalbufferdata
+---
 # openalbufferdata
 
 (PECL openal >= 0.1.0)

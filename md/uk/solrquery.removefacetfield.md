@@ -1,16 +1,11 @@
-Видаляє один із параметрів facet.date
-
--   [« SolrQuery::removeFacetDateOther](solrquery.removefacetdateother.html)
-    
--   [SolrQuery::removeFacetQuery »](solrquery.removefacetquery.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Видаляє один із параметрів facet.date
-    
-
+---
+navigation:
+  - solrquery.removefacetdateother.html: '« SolrQuery::removeFacetDateOther'
+  - solrquery.removefacetquery.html: 'SolrQuery::removeFacetQuery »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::removeFacetField'
+---
 # SolrQuery::removeFacetField
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Перевіряє, чи були надіслані заголовки
-
--   [« headerslist](function.headers-list.html)
-    
--   [httpresponsecode »](function.http-response-code.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Перевіряє, чи були надіслані заголовки
-    
-
+---
+navigation:
+  - function.headers-list.html: « headerslist
+  - function.http-response-code.html: httpresponsecode »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: headerssent
+---
 # headerssent
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

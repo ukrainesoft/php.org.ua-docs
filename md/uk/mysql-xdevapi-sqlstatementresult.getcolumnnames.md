@@ -1,16 +1,11 @@
-Отримує імена стовпців
-
--   [« SqlStatementResult::getColumnsCount](mysql-xdevapi-sqlstatementresult.getcolumncount.html)
-    
--   [SqlStatementResult::getColumns »](mysql-xdevapi-sqlstatementresult.getcolumns.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує імена стовпців
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getcolumncount.html: '« SqlStatementResult::getColumnsCount'
+  - mysql-xdevapi-sqlstatementresult.getcolumns.html: 'SqlStatementResult::getColumns »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getColumnNames'
+---
 # SqlStatementResult::getColumnNames
 
 (No version information available, might only be in Git)

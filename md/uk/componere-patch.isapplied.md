@@ -1,16 +1,11 @@
-Визначення стану
-
--   [« ComponerePatch::revert](componere-patch.revert.html)
-    
--   [ComponerePatch::derive »](componere-patch.derive.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponerePatch](class.componere-patch.html)
-    
--   Визначення стану
-    
-
+---
+navigation:
+  - componere-patch.revert.html: '« ComponerePatch::revert'
+  - componere-patch.derive.html: 'ComponerePatch::derive »'
+  - index.md: PHP Manual
+  - class.componere-patch.html: ComponerePatch
+title: 'ComponerePatch::isApplied'
+---
 # ComponerePatch::isApplied
 
 (Componere 2 >= 2.1.0)

@@ -1,16 +1,11 @@
-Отримати наступний запис результату
-
--   [« ldapnextattribute](function.ldap-next-attribute.html)
-    
--   [ldapnextreference »](function.ldap-next-reference.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Отримати наступний запис результату
-    
-
+---
+navigation:
+  - function.ldap-next-attribute.html: « ldapnextattribute
+  - function.ldap-next-reference.html: ldapnextreference »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapnextentry
+---
 # ldapnextentry
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,11 +36,11 @@ ldap_next_entry(LDAP\Connection $ldap, LDAP\ResultEntry $entry): LDAP\ResultEntr
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md)     |
-|        | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                                |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

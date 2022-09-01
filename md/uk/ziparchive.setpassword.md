@@ -1,16 +1,11 @@
-Встановлення пароля для активного архіву
-
--   [« ZipArchive::setMtimeName](ziparchive.setmtimename.html)
-    
--   [ZipArchive::statIndex »](ziparchive.statindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Встановлення пароля для активного архіву
-    
-
+---
+navigation:
+  - ziparchive.setmtimename.html: '« ZipArchive::setMtimeName'
+  - ziparchive.statindex.html: 'ZipArchive::statIndex »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::setPassword'
+---
 # ZipArchive::setPassword
 
 (PHP 5 >= 5.6.0, PHP 7, PHP 8, PECL zip >= 1.12.4)

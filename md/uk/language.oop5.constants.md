@@ -1,16 +1,11 @@
-Константи класів
-
--   [« Свойства](language.oop5.properties.md)
-    
--   [Автоматичне завантаження класів »](language.oop5.autoload.md)
-    
--   [PHP Manual](index.md)
-    
--   [Класи та об'єкти](language.oop5.md)
-    
--   Константи класів
-    
-
+---
+navigation:
+  - language.oop5.properties.md: « Свойства
+  - language.oop5.autoload.md: Автоматичне завантаження класів »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Константи класів
+---
 ## Константи класів
 
 [Константи](language.constants.md) також можуть бути оголошені у межах одного класу. Область видимості констант за замовчуванням `public`

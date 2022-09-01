@@ -1,16 +1,11 @@
-Повертає діапазон каналів
-
--   [« Imagick::getImageChannelMean](imagick.getimagechannelmean.md)
-    
--   [Imagick::getImageChannelStatistics »](imagick.getimagechannelstatistics.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає діапазон каналів
-    
-
+---
+navigation:
+  - imagick.getimagechannelmean.md: '« Imagick::getImageChannelMean'
+  - imagick.getimagechannelstatistics.md: 'Imagick::getImageChannelStatistics »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageChannelRange'
+---
 # Imagick::getImageChannelRange
 
 (PECL imagick 2> = 2.2.1, PECL imagick 3)

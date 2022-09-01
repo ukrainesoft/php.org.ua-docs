@@ -1,16 +1,11 @@
-Директиви php.ini
-
--   [Список основних опцій конфігурації](configure.about.md)
-    
--   [Список директив php.ini »](ini.list.md)
-    
--   [PHP Manual](index.md)
-    
--   [Appendices](appendices.md)
-    
--   Директиви php.ini
-    
-
+---
+navigation:
+  - configure.about.md: Список основних опцій конфігурації
+  - ini.list.md: Список директив php.ini »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Директиви php.ini
+---
 # Директиви php.ini
 
 ## Зміст

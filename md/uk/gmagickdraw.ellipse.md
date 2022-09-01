@@ -1,16 +1,11 @@
-Малює еліпс на зображенні
-
--   [« GmagickDraw::bezier](gmagickdraw.bezier.md)
-    
--   [GmagickDraw::getfillcolor »](gmagickdraw.getfillcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Малює еліпс на зображенні
-    
-
+---
+navigation:
+  - gmagickdraw.bezier.md: '« GmagickDraw::bezier'
+  - gmagickdraw.getfillcolor.md: 'GmagickDraw::getfillcolor »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::ellipse'
+---
 # GmagickDraw::ellipse
 
 (PECL gmagick >= Unknown)

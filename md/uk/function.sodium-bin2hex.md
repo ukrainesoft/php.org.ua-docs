@@ -1,16 +1,11 @@
-Кодувати у шістнадцяткову виставу
-
--   [« sodiumbin2base64](function.sodium-bin2base64.html)
-    
--   [sodiumcompare »](function.sodium-compare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Кодувати у шістнадцяткову виставу
-    
-
+---
+navigation:
+  - function.sodium-bin2base64.html: « sodiumbin2base64
+  - function.sodium-compare.html: sodiumcompare »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumbin2hex
+---
 # sodiumbin2hex
 
 (PHP 7> = 7.2.0, PHP 8)

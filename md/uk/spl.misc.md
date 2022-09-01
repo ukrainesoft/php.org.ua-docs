@@ -1,16 +1,11 @@
-Різні класи та інтерфейси
-
--   [« SplTempFileObject::construct](spltempfileobject.construct.html)
-    
--   [ArrayObject »](class.arrayobject.html)
-    
--   [PHP Manual](index.html)
-    
--   [SPL](book.spl.html)
-    
--   Різні класи та інтерфейси
-    
-
+---
+navigation:
+  - spltempfileobject.construct.html: '« SplTempFileObject::construct'
+  - class.arrayobject.html: ArrayObject »
+  - index.html: PHP Manual
+  - book.spl.html: SPL
+title: Різні класи та інтерфейси
+---
 # Різні класи та інтерфейси
 
 ## Зміст

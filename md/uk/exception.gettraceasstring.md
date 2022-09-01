@@ -1,16 +1,11 @@
-Отримує трасування стека у вигляді рядка
-
--   [« Exception::getTrace](exception.gettrace.md)
-    
--   [Exception::toString »](exception.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Exception](class.exception.md)
-    
--   Отримує трасування стека у вигляді рядка
-    
-
+---
+navigation:
+  - exception.gettrace.md: '« Exception::getTrace'
+  - exception.tostring.md: 'Exception::toString »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
+title: 'Exception::getTraceAsString'
+---
 # Exception::getTraceAsString
 
 (PHP 5, PHP 7, PHP 8)

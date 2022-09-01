@@ -1,16 +1,11 @@
-Отримує значення ключа /STATUS
-
--   [« fdfgetopt](function.fdf-get-opt.html)
-    
--   [fdfgetvalue »](function.fdf-get-value.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Отримує значення ключа /STATUS
-    
-
+---
+navigation:
+  - function.fdf-get-opt.html: « fdfgetopt
+  - function.fdf-get-value.html: fdfgetvalue »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfgetstatus
+---
 # fdfgetstatus
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

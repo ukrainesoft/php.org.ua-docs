@@ -1,16 +1,11 @@
-Перемикає QueryParser на DisMax Query Parser
-
--   [« SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md)
-    
--   [SolrDisMaxQuery::useEDisMaxQueryParser »](solrdismaxquery.useedismaxqueryparser.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Перемикає QueryParser на DisMax Query Parser
-    
-
+---
+navigation:
+  - solrdismaxquery.setuserfields.md: '« SolrDisMaxQuery::setUserFields'
+  - solrdismaxquery.useedismaxqueryparser.md: 'SolrDisMaxQuery::useEDisMaxQueryParser »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::useDisMaxQueryParser'
+---
 # SolrDisMaxQuery::useDisMaxQueryParser
 
 (No version information available, might only be in Git)

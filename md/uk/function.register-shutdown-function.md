@@ -1,16 +1,11 @@
-Реєструє функцію, яка виконається після завершення роботи скрипту
-
--   [« getdefinedfunctions](function.get-defined-functions.html)
-    
--   [registertickfunction »](function.register-tick-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Реєструє функцію, яка виконається після завершення роботи скрипту
-    
-
+---
+navigation:
+  - function.get-defined-functions.html: « getdefinedfunctions
+  - function.register-tick-function.html: registertickfunction »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: registershutdownfunction
+---
 # registershutdownfunction
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевіряє, чи міститься у двосторонній черзі задані значення
-
--   [« DsDeque::construct](ds-deque.construct.html)
-    
--   [ДсDeque::copy »](ds-deque.copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Перевіряє, чи міститься у двосторонній черзі задані значення
-    
-
+---
+navigation:
+  - ds-deque.construct.html: '« DsDeque::construct'
+  - ds-deque.copy.html: 'ДсDeque::copy »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::contains'
+---
 # ДсDeque::contains
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Інкрементальне розбирає дані у буфер
-
--   [« mailparsemsgparsefile](function.mailparse-msg-parse-file.html)
-    
--   [mailparserfc822parseaddresses »](function.mailparse-rfc822-parse-addresses.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mailparse](ref.mailparse.html)
-    
--   Інкрементальне розбирає дані у буфер
-    
-
+---
+navigation:
+  - function.mailparse-msg-parse-file.html: « mailparsemsgparsefile
+  - function.mailparse-rfc822-parse-addresses.html: mailparserfc822parseaddresses »
+  - index.html: PHP Manual
+  - ref.mailparse.html: Mailparse
+title: mailparsemsgparse
+---
 # mailparsemsgparse
 
 (PECL mailparse >= 0.9.0)

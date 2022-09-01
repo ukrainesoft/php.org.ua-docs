@@ -1,16 +1,11 @@
-Встановлює режим вибірки за промовчанням для об'єкта запиту
-
--   [« PDOStatement::setAttribute](pdostatement.setattribute.html)
-    
--   [PDOException »](class.pdoexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Встановлює режим вибірки за промовчанням для об'єкта запиту
-    
-
+---
+navigation:
+  - pdostatement.setattribute.html: '« PDOStatement::setAttribute'
+  - class.pdoexception.html: PDOException »
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::setFetchMode'
+---
 # PDOStatement::setFetchMode
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)

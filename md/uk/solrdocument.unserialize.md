@@ -1,16 +1,11 @@
-Серіалізація об'єктів SolrDocument
-
--   [« SolrDocument::toArray](solrdocument.toarray.html)
-    
--   [SolrDocument::unset »](solrdocument.unset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Серіалізація об'єктів SolrDocument
-    
-
+---
+navigation:
+  - solrdocument.toarray.html: '« SolrDocument::toArray'
+  - solrdocument.unset.html: 'SolrDocument::unset »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::unserialize'
+---
 # SolrDocument::unserialize
 
 (PECL solr> = 0.9.2)

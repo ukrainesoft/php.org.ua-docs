@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](pcntl.configuration.html)
-    
--   [Обумовлені константи »](pcntl.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](pcntl.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - pcntl.configuration.html: « Налаштування під час виконання
+  - pcntl.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - pcntl.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

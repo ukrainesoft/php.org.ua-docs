@@ -1,16 +1,11 @@
-Отримати ідентифікатор постійного сокету
-
--   [« ZMQSocket::getEndpoints](zmqsocket.getendpoints.md)
-    
--   [ZMQSocket::getSocketType »](zmqsocket.getsockettype.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQSocket](class.zmqsocket.md)
-    
--   Отримати ідентифікатор постійного сокету
-    
-
+---
+navigation:
+  - zmqsocket.getendpoints.md: '« ZMQSocket::getEndpoints'
+  - zmqsocket.getsockettype.md: 'ZMQSocket::getSocketType »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::getPersistentId'
+---
 # ZMQSocket::getPersistentId
 
 (PECL zmq >= 0.5.0)

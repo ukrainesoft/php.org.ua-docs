@@ -1,16 +1,11 @@
-Створити новий об'єкт Entry
-
--   [« UIControlsEntry](class.ui-controls-entry.html)
-    
--   [ОЙControlsEntry::getText »](ui-controls-entry.gettext.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsEntry](class.ui-controls-entry.html)
-    
--   Створити новий об'єкт Entry
-    
-
+---
+navigation:
+  - class.ui-controls-entry.html: « UIControlsEntry
+  - ui-controls-entry.gettext.html: 'ОЙControlsEntry::getText »'
+  - index.md: PHP Manual
+  - class.ui-controls-entry.html: ОЙControlsEntry
+title: 'ОЙControlsEntry::construct'
+---
 # ОЙControlsEntry::construct
 
 (UI 0.9.9)

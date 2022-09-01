@@ -1,16 +1,11 @@
-Вступ
-
--   [« WinCache](book.wincache.md)
-    
--   [Встановлення та налаштування »](wincache.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [WinCache](book.wincache.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.wincache.md: « WinCache
+  - wincache.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.wincache.md: WinCache
+title: Вступ
+---
 # Вступ
 
 Windows Cache Extension для PHP - це модуль, що кешує, що дозволяє збільшити швидкість роботи PHP-додатків на Windows і Windows Server. Як тільки ви включаєте Windows Cache Extension і він завантажується двигуном PHP, програми починають отримувати всі його переваги без необхідності змінювати їхній код.

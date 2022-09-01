@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::extentImage](imagick.extentimage.md)
-    
--   [Imagick::flattenImages »](imagick.flattenimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.extentimage.md: '« Imagick::extentImage'
+  - imagick.flattenimages.md: 'Imagick::flattenImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::filter'
+---
 # Imagick::filter
 
 (PECL imagick 3> = 3.3.0)

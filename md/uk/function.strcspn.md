@@ -1,16 +1,11 @@
-Повертає довжину ділянки на початку рядка, що не відповідає масці
-
--   [« strcoll](function.strcoll.md)
-    
--   [striptags »](function.strip-tags.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає довжину ділянки на початку рядка, що не відповідає масці
-    
-
+---
+navigation:
+  - function.strcoll.md: « strcoll
+  - function.strip-tags.html: striptags »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strcspn
+---
 # strcspn
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -63,9 +58,9 @@ strcspn(    string $string,    string $characters,    int $offset = 
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 

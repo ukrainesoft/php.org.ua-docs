@@ -1,16 +1,11 @@
-Вивільняє некеровану структуру даних
-
--   [« FFI::cdef](ffi.cdef.md)
-    
--   [FFI::isNull »](ffi.isnull.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Вивільняє некеровану структуру даних
-    
-
+---
+navigation:
+  - ffi.cdef.md: '« FFI::cdef'
+  - ffi.isnull.md: 'FFI::isNull »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::free'
+---
 # FFI::free
 
 (PHP 7> = 7.4.0, PHP 8)

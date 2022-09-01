@@ -1,16 +1,11 @@
-Віднімає елемент
-
--   [« sodiumcryptocoreristretto255scalarsub](function.sodium-crypto-core-ristretto255-scalar-sub.html)
-    
--   [sodiumcryptogenerichashfinal »](function.sodium-crypto-generichash-final.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Віднімає елемент
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-scalar-sub.html: « sodiumcryptocoreristretto255scalarsub
+  - function.sodium-crypto-generichash-final.html: sodiumcryptogenerichashfinal »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptocoreristretto255sub
+---
 # sodiumcryptocoreristretto255sub
 
 (PHP 8> = 8.1.0)

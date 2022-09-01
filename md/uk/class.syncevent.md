@@ -1,16 +1,11 @@
-Клас SyncEvent
-
--   [« SyncSemaphore::unlock](syncsemaphore.unlock.md)
-    
--   [SyncEvent::construct »](syncevent.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Sync](book.sync.md)
-    
--   Клас SyncEvent
-    
-
+---
+navigation:
+  - syncsemaphore.unlock.md: '« SyncSemaphore::unlock'
+  - syncevent.construct.md: 'SyncEvent::construct »'
+  - index.md: PHP Manual
+  - book.sync.md: Sync
+title: Клас SyncEvent
+---
 # Клас SyncEvent
 
 (PECL sync >= 1.0.0)

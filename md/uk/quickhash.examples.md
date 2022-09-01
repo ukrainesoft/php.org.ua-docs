@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](quickhash.constants.md)
-    
--   [QuickHashIntSet »](class.quickhashintset.md)
-    
--   [PHP Manual](index.md)
-    
--   [Quickhash](book.quickhash.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - quickhash.constants.md: « Обумовлені константи
+  - class.quickhashintset.md: QuickHashIntSet »
+  - index.md: PHP Manual
+  - book.quickhash.md: Quickhash
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Приклад використання Quickhash**

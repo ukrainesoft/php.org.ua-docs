@@ -1,16 +1,11 @@
-Поділяє частини контексту виконання процесу
-
--   [pcntlstrerror](function.pcntl-strerror.html)
-    
--   [pcntlwait »](function.pcntl-wait.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Поділяє частини контексту виконання процесу
-    
-
+---
+navigation:
+  - function.pcntl-strerror.html: pcntlstrerror
+  - function.pcntl-wait.html: pcntlwait »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlunshare
+---
 # pcntlunshare
 
 (PHP 7> = 7.4.0, PHP 8)

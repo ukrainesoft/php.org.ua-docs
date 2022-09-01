@@ -1,16 +1,11 @@
-Приєднує бінарний атрибут
-
--   [« radiusputaddr](function.radius-put-addr.html)
-    
--   [radiusputint »](function.radius-put-int.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Приєднує бінарний атрибут
-    
-
+---
+navigation:
+  - function.radius-put-addr.html: « radiusputaddr
+  - function.radius-put-int.html: radiusputint »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusputattr
+---
 # radiusputattr
 
 (PECL radius >= 1.1.0)
@@ -57,8 +52,8 @@ radius_put_attr(    resource $radius_handle,    int $type,    string
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Клас YafBootstrapAbstract
-
--   [« YafApplication::setAppDirectory](yaf-application.setappdirectory.html)
-    
--   [YafDispatcher »](class.yaf-dispatcher.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafBootstrapAbstract
-    
-
+---
+navigation:
+  - yaf-application.setappdirectory.html: '« YafApplication::setAppDirectory'
+  - class.yaf-dispatcher.html: YafDispatcher »
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafBootstrapAbstract
+---
 # Клас YafBootstrapAbstract
 
 (No version information available, might only be in Git)

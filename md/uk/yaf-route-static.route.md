@@ -1,16 +1,11 @@
-Надсилає запит
-
--   [« YafRouteStatic::match](yaf-route-static.match.html)
-    
--   [YafRouteSupervar »](class.yaf-route-supervar.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRouteStatic](class.yaf-route-static.html)
-    
--   Надсилає запит
-    
-
+---
+navigation:
+  - yaf-route-static.match.html: '« YafRouteStatic::match'
+  - class.yaf-route-supervar.html: YafRouteSupervar »
+  - index.html: PHP Manual
+  - class.yaf-route-static.html: YafRouteStatic
+title: 'YafRouteStatic::route'
+---
 # YafRouteStatic::route
 
 (Yaf >=1.0.0)

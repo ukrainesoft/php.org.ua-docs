@@ -1,16 +1,11 @@
-Урізує розмір файлу
-
--   [« eiofsync](function.eio-fsync.html)
-    
--   [eiofutime »](function.eio-futime.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Урізує розмір файлу
-    
-
+---
+navigation:
+  - function.eio-fsync.html: « eiofsync
+  - function.eio-futime.html: eiofutime »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eioftruncate
+---
 # eioftruncate
 
 (PECL eio >= 0.0.1dev)

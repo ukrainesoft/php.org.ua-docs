@@ -1,16 +1,11 @@
-Визначення стилю
-
--   [« UIDrawTextFontDescriptor::getFamily](ui-draw-text-font-descriptor.getfamily.html)
-    
--   [ОЙDrawTextFontDescriptor::getSize »](ui-draw-text-font-descriptor.getsize.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
-    
--   Визначення стилю
-    
-
+---
+navigation:
+  - ui-draw-text-font-descriptor.getfamily.html: '« UIDrawTextFontDescriptor::getFamily'
+  - ui-draw-text-font-descriptor.getsize.html: 'ОЙDrawTextFontDescriptor::getSize »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor
+title: 'ОЙDrawTextFontDescriptor::getItalic'
+---
 # ОЙDrawTextFontDescriptor::getItalic
 
 (UI 1.0.3)

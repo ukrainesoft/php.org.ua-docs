@@ -1,16 +1,11 @@
-Розбиває рядок на фрагменти
-
--   [« chr](function.chr.md)
-    
--   [convertcyrstring »](function.convert-cyr-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Розбиває рядок на фрагменти
-    
-
+---
+navigation:
+  - function.chr.md: « chr
+  - function.convert-cyr-string.html: convertcyrstring »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: chunksplit
+---
 # chunksplit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

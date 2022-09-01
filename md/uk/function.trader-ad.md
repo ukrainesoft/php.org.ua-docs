@@ -1,16 +1,11 @@
-Індикатор Чайкіна Накопичення/Розпродаж
-
--   [« traderacos](function.trader-acos.html)
-    
--   [traderadd »](function.trader-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Індикатор Чайкіна Накопичення/Розпродаж
-    
-
+---
+navigation:
+  - function.trader-acos.html: « traderacos
+  - function.trader-add.html: traderadd »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderпекло
+---
 # traderпекло
 
 (PECL trader >= 0.2.0)

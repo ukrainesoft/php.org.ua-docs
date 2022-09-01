@@ -1,16 +1,11 @@
-Викликати callback-функції для операцій, що очікують
-
--   [« Функции ZooKeeper](ref.zookeeper.html)
-    
--   [Zookeeper »](class.zookeeper.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ZooKeeper](ref.zookeeper.html)
-    
--   Викликати callback-функції для операцій, що очікують
-    
-
+---
+navigation:
+  - ref.zookeeper.html: « Функции ZooKeeper
+  - class.zookeeper.html: Zookeeper »
+  - index.html: PHP Manual
+  - ref.zookeeper.html: Функции ZooKeeper
+title: zookeeperdispatch
+---
 # zookeeperdispatch
 
 (PECL zookeeper >= 0.4.0)

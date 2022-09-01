@@ -1,16 +1,11 @@
-Повертає колір вказаного індексу карти кольорів
-
--   [« Gmagick::getimagechanneldepth](gmagick.getimagechanneldepth.md)
-    
--   [Gmagick::getimagecolorspace »](gmagick.getimagecolorspace.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає колір вказаного індексу карти кольорів
-    
-
+---
+navigation:
+  - gmagick.getimagechanneldepth.md: '« Gmagick::getimagechanneldepth'
+  - gmagick.getimagecolorspace.md: 'Gmagick::getimagecolorspace »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagecolors'
+---
 # Gmagick::getimagecolors
 
 (PECL gmagick >= Unknown)

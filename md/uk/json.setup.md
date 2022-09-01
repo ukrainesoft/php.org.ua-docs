@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.json.md)
-    
--   [Вимоги »](json.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [JSON](book.json.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.json.md: « Введение
+  - json.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.json.md: JSON
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

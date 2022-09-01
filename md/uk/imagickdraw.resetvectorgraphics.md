@@ -1,16 +1,11 @@
-Скидає векторну графіку
-
--   [« ImagickDraw::render](imagickdraw.render.html)
-    
--   [ImagickDraw::rotate »](imagickdraw.rotate.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Скидає векторну графіку
-    
-
+---
+navigation:
+  - imagickdraw.render.html: '« ImagickDraw::render'
+  - imagickdraw.rotate.html: 'ImagickDraw::rotate »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::resetVectorGraphics'
+---
 # ImagickDraw::resetVectorGraphics
 
 (PECL imagick 2, PECL imagick 3)

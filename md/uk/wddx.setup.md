@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.wddx.html)
-    
--   [Вимоги »](wddx.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [WDDX](book.wddx.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.wddx.html: « Введение
+  - wddx.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.wddx.html: WDDX
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

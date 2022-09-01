@@ -1,16 +1,11 @@
-Вступ
-
--   [« APCu](book.apcu.md)
-    
--   [Встановлення та налаштування »](apcu.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCu](book.apcu.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.apcu.md: « APCu
+  - apcu.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.apcu.md: APCu
+title: Вступ
+---
 # Вступ
 
 APCu - це сховище "ключ-значення" у пам'яті для PHP. Ключі є рядками (string), а значення можуть бути будь-якими змінними PHP. APCu підтримує тільки кешування змінних у просторі користувача.

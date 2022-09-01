@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](sqlsrv.resources.html)
-    
--   [Функції SQLSRV »](ref.sqlsrv.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLSRV](book.sqlsrv.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - sqlsrv.resources.html: « Типи ресурсів
+  - ref.sqlsrv.html: Функції SQLSRV »
+  - index.html: PHP Manual
+  - book.sqlsrv.html: SQLSRV
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

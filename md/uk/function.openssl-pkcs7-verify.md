@@ -1,16 +1,11 @@
-Перевірити підпис повідомлення S/MIME
-
--   [« opensslpkcs7sign](function.openssl-pkcs7-sign.html)
-    
--   [opensslpkeyderive »](function.openssl-pkey-derive.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Перевірити підпис повідомлення S/MIME
-    
-
+---
+navigation:
+  - function.openssl-pkcs7-sign.html: « opensslpkcs7sign
+  - function.openssl-pkey-derive.html: opensslpkeyderive »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslpkcs7verify
+---
 # opensslpkcs7verify
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -59,10 +54,10 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | `signers_certificates_filename` `untrusted_certificates_filename` `content` і `output_filename` тепер допускають значення null. |
-|        | Доданий параметр `output_filename`                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | `signers_certificates_filename` `untrusted_certificates_filename` `content` і `output_filename` тепер допускають значення null. |
+|  | Доданий параметр `output_filename` |
 
 ### Примітки
 

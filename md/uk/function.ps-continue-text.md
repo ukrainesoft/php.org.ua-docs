@@ -1,16 +1,11 @@
-Продовжує текст у наступному рядку
-
--   [«psclosepath](function.ps-closepath.html)
-    
--   [псcurveto »](function.ps-curveto.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Продовжує текст у наступному рядку
-    
-
+---
+navigation:
+  - function.ps-closepath.html: «psclosepath
+  - function.ps-curveto.html: псcurveto »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псcontinuetext
+---
 # псcontinuetext
 
 (PECL ps >= 1.1.0)

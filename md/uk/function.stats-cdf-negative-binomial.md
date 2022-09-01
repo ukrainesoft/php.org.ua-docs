@@ -1,16 +1,11 @@
-Обчислює один із параметрів Негативного Біномінального розподілу за рештою
-
--   [« statscdflogistic](function.stats-cdf-logistic.html)
-    
--   [statscdfnoncentralchisquare »](function.stats-cdf-noncentral-chisquare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює один із параметрів Негативного Біномінального розподілу за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-logistic.html: « statscdflogistic
+  - function.stats-cdf-noncentral-chisquare.html: statscdfnoncentralchisquare »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statscdfnegativebinomial
+---
 # statscdfnegativebinomial
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_negative_binomial(    float $par1,    float $par2,    floa
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | р      | п      |
-|         | з                     | CDF    | р      | п      |
-|         | р                     | з      | CDF    | п      |
-|         | п                     | з      | CDF    | р      |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | р | п |
+|  | з | CDF | р | п |
+|  | р | з | CDF | п |
+|  | п | з | CDF | р |
 
 ### Список параметрів
 

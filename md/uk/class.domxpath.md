@@ -1,16 +1,11 @@
-Клас DOMXPath
-
--   [« DOMText::splitText](domtext.splittext.md)
-    
--   [DOMXPath::construct »](domxpath.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMXPath
-    
-
+---
+navigation:
+  - domtext.splittext.md: '« DOMText::splitText'
+  - domxpath.construct.md: 'DOMXPath::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMXPath
+---
 # Клас DOMXPath
 
 (PHP 5, PHP 7, PHP 8)
@@ -67,9 +62,9 @@ registerNodeNamespaces
 
 ## список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | Додано властивість registerNodeNamespaces. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано властивість registerNodeNamespaces. |
 
 ## Зміст
 

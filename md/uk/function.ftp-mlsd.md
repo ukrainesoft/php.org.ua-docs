@@ -1,16 +1,11 @@
-Повертає список файлів у заданій директорії
-
--   [« ftpmkdir](function.ftp-mkdir.html)
-    
--   [ftpнбcontinue »](function.ftp-nb-continue.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Повертає список файлів у заданій директорії
-    
-
+---
+navigation:
+  - function.ftp-mkdir.html: « ftpmkdir
+  - function.ftp-nb-continue.html: ftpнбcontinue »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpmlsd
+---
 # ftpmlsd
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -39,9 +34,9 @@ ftp_mlsd(FTP\Connection $ftp, string $directory): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Порівнює час двох об'єктів IntlCalendar щодо рівності
-
--   [« IntlCalendar::createInstance](intlcalendar.createinstance.md)
-    
--   [IntlCalendar::fieldDifference »](intlcalendar.fielddifference.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Порівнює час двох об'єктів IntlCalendar щодо рівності
-    
-
+---
+navigation:
+  - intlcalendar.createinstance.md: '« IntlCalendar::createInstance'
+  - intlcalendar.fielddifference.md: 'IntlCalendar::fieldDifference »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::equals'
+---
 # IntlCalendar::equals
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

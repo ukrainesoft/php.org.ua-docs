@@ -1,16 +1,11 @@
-Переходить до попереднього зображення в об'єкті
-
--   [« Imagick::previewImages](imagick.previewimages.md)
-    
--   [Imagick::profileImage »](imagick.profileimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Переходить до попереднього зображення в об'єкті
-    
-
+---
+navigation:
+  - imagick.previewimages.md: '« Imagick::previewImages'
+  - imagick.profileimage.md: 'Imagick::profileImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::previousImage'
+---
 # Imagick::previousImage
 
 (PECL imagick 2, PECL imagick 3)

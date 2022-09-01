@@ -1,16 +1,11 @@
-Планувальник виконання
-
--   [« UIArea::setSize](ui-area.setsize.html)
-    
--   [ОЙExecutor::construct »](ui-executor.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Планувальник виконання
-    
-
+---
+navigation:
+  - ui-area.setsize.html: '« UIArea::setSize'
+  - ui-executor.construct.html: 'ОЙExecutor::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Планувальник виконання
+---
 # Планувальник виконання
 
 (UI 2.0.0)

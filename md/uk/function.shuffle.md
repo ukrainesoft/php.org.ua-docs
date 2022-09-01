@@ -1,16 +1,11 @@
-Перемішує масив
-
--   [« rsort](function.rsort.html)
-    
--   [sizeof »](function.sizeof.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Перемішує масив
-    
-
+---
+navigation:
+  - function.rsort.html: « rsort
+  - function.sizeof.html: sizeof »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: shuffle
+---
 # shuffle
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ shuffle(array &$array): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
 
 ### Приклади
 

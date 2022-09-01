@@ -1,16 +1,11 @@
-Модулі лише для Windows
-
--   [« xmlrpcsettype](function.xmlrpc-set-type.html)
-    
--   [COM »](book.com.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі лише для Windows
-    
-
+---
+navigation:
+  - function.xmlrpc-set-type.html: « xmlrpcsettype
+  - book.com.md: COM »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі лише для Windows
+---
 # Модулі лише для Windows
 
 -   [COM](book.com.md) - COM і .Net (Windows)

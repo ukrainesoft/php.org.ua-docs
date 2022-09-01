@@ -1,16 +1,11 @@
-Створює новий об'єкт масиву
-
--   [« ArrayObject::asort](arrayobject.asort.md)
-    
--   [ArrayObject::count »](arrayobject.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Створює новий об'єкт масиву
-    
-
+---
+navigation:
+  - arrayobject.asort.md: '« ArrayObject::asort'
+  - arrayobject.count.md: 'ArrayObject::count »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::construct'
+---
 # ArrayObject::construct
 
 (PHP 5, PHP 7, PHP 8)

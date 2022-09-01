@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](wddx.requirements.md)
-    
--   [Налаштування під час виконання »](wddx.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](wddx.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - wddx.requirements.md: « Вимоги
+  - wddx.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - wddx.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 ## PHP 7.4

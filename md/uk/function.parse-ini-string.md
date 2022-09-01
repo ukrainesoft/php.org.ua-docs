@@ -1,16 +1,11 @@
-Розбирає рядок конфігурації
-
--   [« parseinifile](function.parse-ini-file.html)
-    
--   [pathinfo »](function.pathinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Розбирає рядок конфігурації
-    
-
+---
+navigation:
+  - function.parse-ini-file.html: « parseinifile
+  - function.pathinfo.md: pathinfo »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: parseinistring
+---
 # parseinistring
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас ZipArchive
-
--   [« Приклади](zip.examples.html)
-    
--   [ZipArchive::addEmptyDir »](ziparchive.addemptydir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zip](book.zip.html)
-    
--   Клас ZipArchive
-    
-
+---
+navigation:
+  - zip.examples.html: « Приклади
+  - ziparchive.addemptydir.html: 'ZipArchive::addEmptyDir »'
+  - index.html: PHP Manual
+  - book.zip.html: Zip
+title: 'Клас [ZipArchive](class.ziparchive.html)'
+---
 # Клас [ZipArchive](class.ziparchive.html)
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

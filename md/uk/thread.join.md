@@ -1,16 +1,11 @@
-Синхронізація
-
--   [« Thread::isStarted](thread.isstarted.md)
-    
--   [Thread::start »](thread.start.md)
-    
--   [PHP Manual](index.md)
-    
--   [Thread](class.thread.md)
-    
--   Синхронізація
-    
-
+---
+navigation:
+  - thread.isstarted.md: '« Thread::isStarted'
+  - thread.start.md: 'Thread::start »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
+title: 'Thread::join'
+---
 # Thread::join
 
 (PECL pthreads >= 2.0.0)

@@ -1,16 +1,11 @@
-Повертає ім'я файлу, в якому визначено клас
-
--   [« ReflectionClass::getExtensionName](reflectionclass.getextensionname.html)
-    
--   [ReflectionClass::getInterfaceNames »](reflectionclass.getinterfacenames.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає ім'я файлу, в якому визначено клас
-    
-
+---
+navigation:
+  - reflectionclass.getextensionname.html: '« ReflectionClass::getExtensionName'
+  - reflectionclass.getinterfacenames.html: 'ReflectionClass::getInterfaceNames »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getFileName'
+---
 # ReflectionClass::getFileName
 
 (PHP 5, PHP 7, PHP 8)

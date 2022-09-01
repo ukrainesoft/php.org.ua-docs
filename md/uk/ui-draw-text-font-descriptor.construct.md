@@ -1,16 +1,11 @@
-Конструктор класу Font Descriptor
-
--   [« UIDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
-    
--   [ОЙDrawTextFontDescriptor::getFamily »](ui-draw-text-font-descriptor.getfamily.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html)
-    
--   Конструктор класу Font Descriptor
-    
-
+---
+navigation:
+  - class.ui-draw-text-font-descriptor.html: « UIDrawTextFontDescriptor
+  - ui-draw-text-font-descriptor.getfamily.html: 'ОЙDrawTextFontDescriptor::getFamily »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor
+title: 'ОЙDrawTextFontDescriptor::construct'
+---
 # ОЙDrawTextFontDescriptor::construct
 
 (UI 0.9.9)

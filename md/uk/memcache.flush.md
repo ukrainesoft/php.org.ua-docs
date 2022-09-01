@@ -1,16 +1,11 @@
-Скинути всі існуючі елементи на сервер
-
--   [« Memcache::delete](memcache.delete.md)
-    
--   [Memcache::get »](memcache.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Скинути всі існуючі елементи на сервер
-    
-
+---
+navigation:
+  - memcache.delete.md: '« Memcache::delete'
+  - memcache.get.md: 'Memcache::get »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::flush'
+---
 # Memcache::flush
 
 (PECL memcache >= 1.0.0)

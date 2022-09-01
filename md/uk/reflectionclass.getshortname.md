@@ -1,16 +1,11 @@
-Повертає коротке ім'я
-
--   [« ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md)
-    
--   [ReflectionClass::getStartLine »](reflectionclass.getstartline.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає коротке ім'я
-    
-
+---
+navigation:
+  - reflectionclass.getreflectionconstants.md: '« ReflectionClass::getReflectionConstants'
+  - reflectionclass.getstartline.md: 'ReflectionClass::getStartLine »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getShortName'
+---
 # ReflectionClass::getShortName
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

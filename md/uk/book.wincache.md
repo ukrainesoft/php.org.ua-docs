@@ -1,16 +1,11 @@
-Windows Cache для PHP
-
--   [« uopzunsetreturn](function.uopz-unset-return.html)
-    
--   [Введение »](intro.wincache.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   Windows Cache для PHP
-    
-
+---
+navigation:
+  - function.uopz-unset-return.html: « uopzunsetreturn
+  - intro.wincache.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: Windows Cache для PHP
+---
 # Windows Cache для PHP
 
 -   [Введение](intro.wincache.md)

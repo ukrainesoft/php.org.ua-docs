@@ -1,16 +1,11 @@
-Конструктор YarClient
-
--   [« YarClient::call](yar-client.call.html)
-    
--   [YarClient::setOpt »](yar-client.setopt.html)
-    
--   [PHP Manual](index.html)
-    
--   [YarClient](class.yar-client.html)
-    
--   Конструктор YarClient
-    
-
+---
+navigation:
+  - yar-client.call.html: '« YarClient::call'
+  - yar-client.setopt.html: 'YarClient::setOpt »'
+  - index.html: PHP Manual
+  - class.yar-client.html: YarClient
+title: 'YarClient::construct'
+---
 # YarClient::construct
 
 (PECL yar >= 1.0.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи встановлено значення за промовчанням для властивості.
-
--   [« ReflectionProperty::getValue](reflectionproperty.getvalue.md)
-    
--   [ReflectionProperty::hasType »](reflectionproperty.hastype.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Перевіряє, чи встановлено значення за промовчанням для властивості.
-    
-
+---
+navigation:
+  - reflectionproperty.getvalue.md: '« ReflectionProperty::getValue'
+  - reflectionproperty.hastype.md: 'ReflectionProperty::hasType »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::hasDefaultValue'
+---
 # ReflectionProperty::hasDefaultValue
 
 (PHP 8)

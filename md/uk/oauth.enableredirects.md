@@ -1,16 +1,11 @@
-Включити переадресацію
-
--   [« OAuth::enableDebug](oauth.enabledebug.md)
-    
--   [OAuth::enableSSLChecks »](oauth.enablesslchecks.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Включити переадресацію
-    
-
+---
+navigation:
+  - oauth.enabledebug.md: '« OAuth::enableDebug'
+  - oauth.enablesslchecks.md: 'OAuth::enableSSLChecks »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::enableRedirects'
+---
 # OAuth::enableRedirects
 
 (PECL OAuth >= 0.99.9)

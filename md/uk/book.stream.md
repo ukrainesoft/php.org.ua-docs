@@ -1,16 +1,11 @@
-Потоки
-
--   [« SplSubject::notify](splsubject.notify.html)
-    
--   [Введение »](intro.stream.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   Потоки
-    
-
+---
+navigation:
+  - splsubject.notify.html: '« SplSubject::notify'
+  - intro.stream.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: Потоки
+---
 # Потоки
 
 -   [Введение](intro.stream.html)

@@ -1,16 +1,11 @@
-Конвертує phar-архів в інший формат файлу.
-
--   [« Phar::convertToData](phar.converttodata.html)
-    
--   [Phar::copy »](phar.copy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Конвертує phar-архів в інший формат файлу.
-    
-
+---
+navigation:
+  - phar.converttodata.html: '« Phar::convertToData'
+  - phar.copy.html: 'Phar::copy »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::convertToExecutable'
+---
 # Phar::convertToExecutable
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -59,9 +54,9 @@ public Phar::convertToExecutable(?int $format = null, ?int $compression = null, 
 
 ### список змін
 
-| Версия | Описание                                                             |
-|--------|----------------------------------------------------------------------|
-|        | `format` `compression` і `localName` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `format` `compression` і `localName` тепер допускають значення null. |
 
 ### Приклади
 

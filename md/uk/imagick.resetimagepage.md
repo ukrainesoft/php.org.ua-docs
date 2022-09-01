@@ -1,16 +1,11 @@
-Скидає сторінку зображення
-
--   [« Imagick::resampleImage](imagick.resampleimage.md)
-    
--   [Imagick::resizeImage »](imagick.resizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Скидає сторінку зображення
-    
-
+---
+navigation:
+  - imagick.resampleimage.md: '« Imagick::resampleImage'
+  - imagick.resizeimage.md: 'Imagick::resizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::resetImagePage'
+---
 # Imagick::resetImagePage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

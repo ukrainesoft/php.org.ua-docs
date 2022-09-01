@@ -1,16 +1,11 @@
-Встановлює зовнішній вигляд закінчення лінії
-
--   [«pssetgray](function.ps-setgray.html)
-    
--   [псsetlinejoin »](function.ps-setlinejoin.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює зовнішній вигляд закінчення лінії
-    
-
+---
+navigation:
+  - function.ps-setgray.html: «pssetgray
+  - function.ps-setlinejoin.html: псsetlinejoin »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetlinecap
+---
 # псsetlinecap
 
 (PECL ps >= 1.1.0)

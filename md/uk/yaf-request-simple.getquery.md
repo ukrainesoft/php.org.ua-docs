@@ -1,16 +1,11 @@
-Призначення getQuery
-
--   [« YafRequestSimple::getPost](yaf-request-simple.getpost.html)
-    
--   [YafRequestSimple::getRequest »](yaf-request-simple.getrequest.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestSimple](class.yaf-request-simple.html)
-    
--   Призначення getQuery
-    
-
+---
+navigation:
+  - yaf-request-simple.getpost.html: '« YafRequestSimple::getPost'
+  - yaf-request-simple.getrequest.html: 'YafRequestSimple::getRequest »'
+  - index.md: PHP Manual
+  - class.yaf-request-simple.html: YafRequestSimple
+title: 'YafRequestSimple::getQuery'
+---
 # YafRequestSimple::getQuery
 
 (Yaf >=1.0.0)

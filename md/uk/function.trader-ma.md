@@ -1,16 +1,11 @@
-Ковзна середня
-
--   [« traderlog10](function.trader-log10.html)
-    
--   [tradermacd »](function.trader-macd.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Ковзна середня
-    
-
+---
+navigation:
+  - function.trader-log10.html: « traderlog10
+  - function.trader-macd.html: tradermacd »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderма
+---
 # traderма
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
-
--   [« dnsgetrecord](function.dns-get-record.html)
-    
--   [gethostbyaddr »](function.gethostbyaddr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
-    
-
+---
+navigation:
+  - function.dns-get-record.html: « dnsgetrecord
+  - function.gethostbyaddr.md: gethostbyaddr »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: fsockopen
+---
 # fsockopen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -69,9 +64,9 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `timeout` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timeout` тепер допускає значення null. |
 
 ### Приклади
 

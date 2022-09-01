@@ -1,16 +1,11 @@
-Клас Stack
-
--   [« DsSet::xor](ds-set.xor.html)
-    
--   [ДсStack::allocate »](ds-stack.allocate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Клас Stack
-    
-
+---
+navigation:
+  - ds-set.xor.html: '« DsSet::xor'
+  - ds-stack.allocate.html: 'ДсStack::allocate »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Клас Stack
+---
 # Клас Stack
 
 (No version information available, might only be in Git)
@@ -53,8 +48,8 @@ public toArray(): array
 
 ## список змін
 
-| Версия        | Описание                                                |
-|---------------|---------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст

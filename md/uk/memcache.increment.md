@@ -1,16 +1,11 @@
-Збільшити значення елемента
-
--   [« Memcache::getVersion](memcache.getversion.md)
-    
--   [Memcache::pconnect »](memcache.pconnect.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Збільшити значення елемента
-    
-
+---
+navigation:
+  - memcache.getversion.md: '« Memcache::getVersion'
+  - memcache.pconnect.md: 'Memcache::pconnect »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::increment'
+---
 # Memcache::increment
 
 (PECL memcache >= 0.2.0)

@@ -1,16 +1,11 @@
-Декодує закодований URL-рядок
-
--   [« curlstrerror](function.curl-strerror.html)
-    
--   [curlversion »](function.curl-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Декодує закодований URL-рядок
-    
-
+---
+navigation:
+  - function.curl-strerror.html: « curlstrerror
+  - function.curl-version.html: curlversion »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlunescape
+---
 # curlunescape
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

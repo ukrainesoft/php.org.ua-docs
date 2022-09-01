@@ -1,16 +1,11 @@
-Псевдонім ocinewconnect
-
--   [« ocinewdescriptor](function.ocinewdescriptor.md)
-    
--   [ocinumcols »](function.ocinumcols.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocinewconnect
-    
-
+---
+navigation:
+  - function.ocinewdescriptor.md: « ocinewdescriptor
+  - function.ocinumcols.md: ocinumcols »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocinlogon
+---
 # ocinlogon
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

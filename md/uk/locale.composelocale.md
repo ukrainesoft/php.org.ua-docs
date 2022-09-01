@@ -1,16 +1,11 @@
-Повертає коректно відсортовані та розділені ідентифікатори локалі
-
--   [« Locale::canonicalize](locale.canonicalize.md)
-    
--   [Locale::filterMatches »](locale.filtermatches.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Повертає коректно відсортовані та розділені ідентифікатори локалі
-    
-
+---
+navigation:
+  - locale.canonicalize.md: '« Locale::canonicalize'
+  - locale.filtermatches.md: 'Locale::filterMatches »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::composeLocale'
+---
 # Locale::composeLocale
 
 # localecompose

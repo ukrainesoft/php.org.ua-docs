@@ -1,16 +1,11 @@
-Додає випадковий шум до зображення
-
--   [« Gmagick::addimage](gmagick.addimage.md)
-    
--   [Gmagick::annotateimage »](gmagick.annotateimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Додає випадковий шум до зображення
-    
-
+---
+navigation:
+  - gmagick.addimage.md: '« Gmagick::addimage'
+  - gmagick.annotateimage.md: 'Gmagick::annotateimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::addnoiseimage'
+---
 # Gmagick::addnoiseimage
 
 (PECL gmagick >= Unknown)

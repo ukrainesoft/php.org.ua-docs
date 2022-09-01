@@ -1,16 +1,11 @@
-Зчитує зображення з двійкового рядка
-
--   [« Imagick::readImage](imagick.readimage.html)
-    
--   [Imagick::readImageFile »](imagick.readimagefile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Зчитує зображення з двійкового рядка
-    
-
+---
+navigation:
+  - imagick.readimage.html: '« Imagick::readImage'
+  - imagick.readimagefile.html: 'Imagick::readImageFile »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::readImageBlob'
+---
 # Imagick::readImageBlob
 
 (PECL imagick 2, PECL imagick 3)

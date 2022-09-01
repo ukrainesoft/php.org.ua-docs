@@ -1,16 +1,11 @@
-Встановити параметр конфігурації host класу
-
--   [« VarnishAdmin::setCompat](varnishadmin.setcompat.md)
-    
--   [VarnishAdmin::setIdent »](varnishadmin.setident.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Встановити параметр конфігурації host класу
-    
-
+---
+navigation:
+  - varnishadmin.setcompat.md: '« VarnishAdmin::setCompat'
+  - varnishadmin.setident.md: 'VarnishAdmin::setIdent »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::setHost'
+---
 # VarnishAdmin::setHost
 
 (PECL varnish >= 0.8)

@@ -1,16 +1,11 @@
-Створює точну копію об'єкту Imagick
-
--   [« Imagick::clipPathImage](imagick.clippathimage.html)
-    
--   [Imagick::clutImage »](imagick.clutimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Створює точну копію об'єкту Imagick
-    
-
+---
+navigation:
+  - imagick.clippathimage.html: '« Imagick::clipPathImage'
+  - imagick.clutimage.html: 'Imagick::clutImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::clone'
+---
 # Imagick::clone
 
 (PECL imagick 2, PECL imagick 3)
@@ -39,8 +34,8 @@ public Imagick::clone(): Imagick
 
 ### список змін
 
-| Версия             | Описание                                                                      |
-|--------------------|-------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 3.1.0 | Метод застарів на користь ключового слова [clone](language.oop5.cloning.html) |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Правила дозволу імен
-
--   [« Використання просторів імен: перехід до глобальної функції/константи](language.namespaces.fallback.md)
-    
--   [Часті питання (FAQ): речі, які вам необхідно знати про простори імен »](language.namespaces.faq.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пространства имён](language.namespaces.md)
-    
--   Правила дозволу імен
-    
-
+---
+navigation:
+  - language.namespaces.fallback.md: '« Використання просторів імен: перехід до глобальної функції/константи'
+  - language.namespaces.faq.md: 'Часті питання (FAQ): речі, які вам необхідно знати про простори імен »'
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: Правила дозволу імен
+---
 ## Правила дозволу імен
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

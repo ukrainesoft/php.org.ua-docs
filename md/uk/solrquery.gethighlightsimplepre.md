@@ -1,16 +1,11 @@
-Повертає текст, що з'являється перед виділеним виразом
-
--   [« SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.md)
-    
--   [SolrQuery::getHighlightSnippets »](solrquery.gethighlightsnippets.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає текст, що з'являється перед виділеним виразом
-    
-
+---
+navigation:
+  - solrquery.gethighlightsimplepost.md: '« SolrQuery::getHighlightSimplePost'
+  - solrquery.gethighlightsnippets.md: 'SolrQuery::getHighlightSnippets »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightSimplePre'
+---
 # SolrQuery::getHighlightSimplePre
 
 (PECL solr> = 0.9.2)

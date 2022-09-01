@@ -1,16 +1,11 @@
-Визначає, чи включено буфер
-
--   [« SeasLog::getBuffer](seaslog.getbuffer.html)
-    
--   [SeasLog::getDatetimeFormat »](seaslog.getdatetimeformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Визначає, чи включено буфер
-    
-
+---
+navigation:
+  - seaslog.getbuffer.html: '« SeasLog::getBuffer'
+  - seaslog.getdatetimeformat.html: 'SeasLog::getDatetimeFormat »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::getBufferEnabled'
+---
 # SeasLog::getBufferEnabled
 
 (PECL seaslog >=1.0.0)

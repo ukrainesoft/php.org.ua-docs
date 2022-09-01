@@ -1,16 +1,11 @@
-Динамічно додає новий метод у заданий клас
-
--   [« runkit7import](function.runkit7-import.html)
-    
--   [runkit7methodcopy »](function.runkit7-method-copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Динамічно додає новий метод у заданий клас
-    
-
+---
+navigation:
+  - function.runkit7-import.html: « runkit7import
+  - function.runkit7-method-copy.html: runkit7methodcopy »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7методadd
+---
 # runkit7методadd
 
 (PECL runkit7> = Unknown)

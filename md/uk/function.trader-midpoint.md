@@ -1,16 +1,11 @@
-Середина відрізка за період
-
--   [« tradermfi](function.trader-mfi.html)
-    
--   [tradermidprice »](function.trader-midprice.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Середина відрізка за період
-    
-
+---
+navigation:
+  - function.trader-mfi.html: « tradermfi
+  - function.trader-midprice.html: tradermidprice »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermidpoint
+---
 # tradermidpoint
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Визначає, чи була встановлена ​​змінна значенням, відмінним від null
-
--   [« isstring](function.is-string.html)
-    
--   [printr »](function.print-r.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Визначає, чи була встановлена ​​змінна значенням, відмінним від null
-    
-
+---
+navigation:
+  - function.is-string.html: « isstring
+  - function.print-r.html: printr »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: isset
+---
 # isset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

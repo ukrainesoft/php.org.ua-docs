@@ -1,16 +1,11 @@
-Повертає поточний елемент у масиві
-
--   [« ArrayIterator::count](arrayiterator.count.html)
-    
--   [ArrayIterator::getArrayCopy »](arrayiterator.getarraycopy.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Повертає поточний елемент у масиві
-    
-
+---
+navigation:
+  - arrayiterator.count.html: '« ArrayIterator::count'
+  - arrayiterator.getarraycopy.html: 'ArrayIterator::getArrayCopy »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::current'
+---
 # ArrayIterator::current
 
 (PHP 5, PHP 7, PHP 8)

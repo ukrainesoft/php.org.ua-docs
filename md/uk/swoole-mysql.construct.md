@@ -1,16 +1,11 @@
-Створює асинхронний клієнт MySQL
-
--   [« SwooleMySQL::connect](swoole-mysql.connect.html)
-    
--   [SwooleMySQL::destruct »](swoole-mysql.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleMySQL](class.swoole-mysql.html)
-    
--   Створює асинхронний клієнт MySQL
-    
-
+---
+navigation:
+  - swoole-mysql.connect.html: '« SwooleMySQL::connect'
+  - swoole-mysql.destruct.html: 'SwooleMySQL::destruct »'
+  - index.html: PHP Manual
+  - class.swoole-mysql.html: SwooleMySQL
+title: 'SwooleMySQL::construct'
+---
 # SwooleMySQL::construct
 
 (PECL swoole >= 1.9.0)

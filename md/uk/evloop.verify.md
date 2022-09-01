@@ -1,16 +1,11 @@
-Виконує внутрішні перевірки узгодженості (для налагодження)
-
--   [« EvLoop::timer](evloop.timer.md)
-    
--   [EvPeriodic »](class.evperiodic.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Виконує внутрішні перевірки узгодженості (для налагодження)
-    
-
+---
+navigation:
+  - evloop.timer.md: '« EvLoop::timer'
+  - class.evperiodic.md: EvPeriodic »
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::verify'
+---
 # EvLoop::verify
 
 (PECL ev >= 0.2.0)

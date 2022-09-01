@@ -1,16 +1,11 @@
-Вступ
-
--   [« Сессии](book.session.md)
-    
--   [Встановлення та налаштування »](session.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сессии](book.session.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.session.md: « Сессии
+  - session.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.session.md: Сессии
+title: Вступ
+---
 # Вступ
 
 Підтримка сесій у PHP полягає у способі збереження деяких даних між кількома послідовними доступами.

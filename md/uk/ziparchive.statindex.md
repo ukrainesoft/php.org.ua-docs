@@ -1,16 +1,11 @@
-Отримання детальної інформації про елемент за його індексом
-
--   [« ZipArchive::setPassword](ziparchive.setpassword.md)
-    
--   [ZipArchive::statName »](ziparchive.statname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Отримання детальної інформації про елемент за його індексом
-    
-
+---
+navigation:
+  - ziparchive.setpassword.md: '« ZipArchive::setPassword'
+  - ziparchive.statname.md: 'ZipArchive::statName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::statIndex'
+---
 # ZipArchive::statIndex
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

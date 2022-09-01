@@ -1,16 +1,11 @@
-Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
-
--   [« hashfile](function.hash-file.html)
-    
--   [hashhkdf »](function.hash-hkdf.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Hash](ref.hash.md)
-    
--   Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
-    
-
+---
+navigation:
+  - function.hash-file.html: « hashfile
+  - function.hash-hkdf.html: hashhkdf »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
+title: hashfinal
+---
 # hashfinal
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
@@ -39,9 +34,9 @@ hash_final(HashContext $context, bool $binary = false): string
 
 ### список змін
 
-| Версия | Описание                                                     |
-|--------|--------------------------------------------------------------|
-|        | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає кількість документів, вибраних для оновлення
-
--   [« MongoDBDriverWriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.html)
-    
--   [MongoDBDriverWriteResult::getModifiedCount »](mongodb-driver-writeresult.getmodifiedcount.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає кількість документів, вибраних для оновлення
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getinsertedcount.html: '« MongoDBDriverWriteResult::getInsertedCount'
+  - mongodb-driver-writeresult.getmodifiedcount.html: 'MongoDBDriverWriteResult::getModifiedCount »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getMatchedCount'
+---
 # MongoDBDriverWriteResult::getMatchedCount
 
 (mongodb >=1.0.0)

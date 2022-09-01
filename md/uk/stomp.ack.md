@@ -1,16 +1,11 @@
-Підтверджує отримання повідомлення
-
--   [« Stomp::abort](stomp.abort.md)
-    
--   [Stomp::begin »](stomp.begin.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Підтверджує отримання повідомлення
-    
-
+---
+navigation:
+  - stomp.abort.md: '« Stomp::abort'
+  - stomp.begin.md: 'Stomp::begin »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::ack'
+---
 # Stomp::ack
 
 # stompack

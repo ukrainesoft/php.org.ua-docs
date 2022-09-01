@@ -1,16 +1,11 @@
-Отримати код останньої помилки об'єкта
-
--   [« UConverter::getDestinationType](uconverter.getdestinationtype.html)
-    
--   [UConverter::getErrorMessage »](uconverter.geterrormessage.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Отримати код останньої помилки об'єкта
-    
-
+---
+navigation:
+  - uconverter.getdestinationtype.html: '« UConverter::getDestinationType'
+  - uconverter.geterrormessage.html: 'UConverter::getErrorMessage »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::getErrorCode'
+---
 # UConverter::getErrorCode
 
 # intlgeterrorcode

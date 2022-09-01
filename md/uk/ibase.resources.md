@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](ibase.configuration.html)
-    
--   [Обумовлені константи »](ibase.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ibase.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - ibase.configuration.html: « Налаштування під час виконання
+  - ibase.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - ibase.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

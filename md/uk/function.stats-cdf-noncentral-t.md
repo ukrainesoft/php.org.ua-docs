@@ -1,16 +1,11 @@
-Обчислює один із параметрів нецентрального розподілу Стьюдента залежно від інших
-
--   [« statscdfnoncentralф](function.stats-cdf-noncentral-f.html)
-    
--   [statscdfnormal »](function.stats-cdf-normal.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює один із параметрів нецентрального розподілу Стьюдента залежно від інших
-    
-
+---
+navigation:
+  - function.stats-cdf-noncentral-f.html: « statscdfnoncentralф
+  - function.stats-cdf-normal.html: statscdfnormal »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscdfnoncentralт
+---
 # statscdfnoncentralт
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_noncentral_t(    float $par1,    float $par2,    float $pa
 **Значення, що повертаються, і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | ну     | му     |
-|         | з                     | CDF    | ну     | му     |
-|         | ну                    | з      | CDF    | му     |
-|         | му                    | з      | CDF    | ну     |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | ну | му |
+|  | з | CDF | ну | му |
+|  | ну | з | CDF | му |
+|  | му | з | CDF | ну |
 
 ### Список параметрів
 

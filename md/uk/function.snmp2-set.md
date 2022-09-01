@@ -1,16 +1,11 @@
-Встановлює значення об'єкта SNMP
-
--   [« snmp2realwalk](function.snmp2-real-walk.html)
-    
--   [snmp2walk »](function.snmp2-walk.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Встановлює значення об'єкта SNMP
-    
-
+---
+navigation:
+  - function.snmp2-real-walk.html: « snmp2realwalk
+  - function.snmp2-walk.html: snmp2walk »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmp2set
+---
 # snmp2set
 
 (PHP >= 5.2.0, PHP 7, PHP 8)

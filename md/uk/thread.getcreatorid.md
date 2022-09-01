@@ -1,16 +1,11 @@
-Ідентифікація
-
--   [« Thread](class.thread.html)
-    
--   [Thread::getCurrentThread »](thread.getcurrentthread.html)
-    
--   [PHP Manual](index.html)
-    
--   [Thread](class.thread.html)
-    
--   Ідентифікація
-    
-
+---
+navigation:
+  - class.thread.html: « Thread
+  - thread.getcurrentthread.html: 'Thread::getCurrentThread »'
+  - index.html: PHP Manual
+  - class.thread.html: Thread
+title: 'Thread::getCreatorId'
+---
 # Thread::getCreatorId
 
 (PECL pthreads >= 2.0.0)

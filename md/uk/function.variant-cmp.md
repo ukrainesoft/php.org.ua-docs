@@ -1,16 +1,11 @@
-Порівняти два варіанти
-
--   [« variantcat](function.variant-cat.html)
-    
--   [variantdatefromtimestamp »](function.variant-date-from-timestamp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Порівняти два варіанти
-    
-
+---
+navigation:
+  - function.variant-cat.html: « variantcat
+  - function.variant-date-from-timestamp.html: variantdatefromtimestamp »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantcmp
+---
 # variantcmp
 
 (PHP 5, PHP 7, PHP 8)
@@ -47,14 +42,14 @@ variant_cmp(    mixed $left,    mixed $right,    int $locale_id = LO
 
 **Прапори порівняння варіантів**
 
-| значение                  | описание                                     |
-|---------------------------|----------------------------------------------|
-| **`NORM_IGNORECASE`**     | Порівнювати реєстронезалежно                 |
-| **`NORM_IGNORENONSPACE`** | Ігнорувати символи, що не займають місця     |
-| **`NORM_IGNORESYMBOLS`**  | Ігнорувати символи                           |
-| **`NORM_IGNOREWIDTH`**    | Ігнорувати довжину рядка                     |
-| **`NORM_IGNOREKANATYPE`** | Ігнорувати тип Кану                          |
-| **`NORM_IGNOREKASHIDA`**  | Ігнорувати символи Кашиди для Арабської мови |
+| значение | описание |
+| --- | --- |
+| **`NORM_IGNORECASE`** | Порівнювати реєстронезалежно |
+| **`NORM_IGNORENONSPACE`** | Ігнорувати символи, що не займають місця |
+| **`NORM_IGNORESYMBOLS`** | Ігнорувати символи |
+| **`NORM_IGNOREWIDTH`** | Ігнорувати довжину рядка |
+| **`NORM_IGNOREKANATYPE`** | Ігнорувати тип Кану |
+| **`NORM_IGNOREKASHIDA`** | Ігнорувати символи Кашиди для Арабської мови |
 
 > **Зауваження**
 > 
@@ -68,9 +63,9 @@ variant_cmp(    mixed $left,    mixed $right,    int $locale_id = LO
 
 **Результати порівняння варіантів**
 
-| значение          | описание                                          |
-|-------------------|---------------------------------------------------|
-| **`VARCMP_LT`**   | `left` менше ніж `right`                          |
-| **`VARCMP_EQ`**   | `left` ідентичний `right`                         |
-| **`VARCMP_GT`**   | `left` більше ніж `right`                         |
+| значение | описание |
+| --- | --- |
+| **`VARCMP_LT`** | `left` менше ніж `right` |
+| **`VARCMP_EQ`** | `left` ідентичний `right` |
+| **`VARCMP_GT`** | `left` більше ніж `right` |
 | **`VARCMP_NULL`** | Обидва значення `left` і `right` рівні **`null`** |

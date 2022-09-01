@@ -1,16 +1,11 @@
-Виконує запит
-
--   [« pgqueryparams](function.pg-query-params.html)
-    
--   [пгresulterrorfield »](function.pg-result-error-field.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Виконує запит
-    
-
+---
+navigation:
+  - function.pg-query-params.html: « pgqueryparams
+  - function.pg-result-error-field.html: пгresulterrorfield »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгquery
+---
 # пгquery
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -59,10 +54,10 @@ pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

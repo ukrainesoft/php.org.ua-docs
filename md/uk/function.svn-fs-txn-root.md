@@ -1,16 +1,11 @@
-Створює та повертає корінь транзакції
-
--   [« svnфсrevisionroot](function.svn-fs-revision-root.html)
-    
--   [svnфсyoungestrev »](function.svn-fs-youngest-rev.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Створює та повертає корінь транзакції
-    
-
+---
+navigation:
+  - function.svn-fs-revision-root.html: « svnфсrevisionroot
+  - function.svn-fs-youngest-rev.html: svnфсyoungestrev »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсtxnroot
+---
 # svnфсtxnroot
 
 (PECL svn >= 0.2.0)

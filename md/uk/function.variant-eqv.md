@@ -1,16 +1,11 @@
-Побітова еквівалентність двох варіантів
-
--   [« variantdiv](function.variant-div.html)
-    
--   [variantfix »](function.variant-fix.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Побітова еквівалентність двох варіантів
-    
-
+---
+navigation:
+  - function.variant-div.html: « variantdiv
+  - function.variant-fix.html: variantfix »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: varianteqv
+---
 # varianteqv
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONInt64::construct](mongodb-bson-int64.construct.html)
-    
--   [MongoDBBSONInt64::serialize »](mongodb-bson-int64.serialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-int64.construct.html: '« MongoDBBSONInt64::construct'
+  - mongodb-bson-int64.serialize.html: 'MongoDBBSONInt64::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+title: 'MongoDBBSONInt64::jsonSerialize'
+---
 # MongoDBBSONInt64::jsonSerialize
 
 (mongodb >=1.5.0)

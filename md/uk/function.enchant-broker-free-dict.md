@@ -1,16 +1,11 @@
-Визволяє ресурс словника
-
--   [« enchantbrokerdictexists](function.enchant-broker-dict-exists.html)
-    
--   [enchantbrokerfree »](function.enchant-broker-free.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Визволяє ресурс словника
-    
-
+---
+navigation:
+  - function.enchant-broker-dict-exists.html: « enchantbrokerdictexists
+  - function.enchant-broker-free.html: enchantbrokerfree »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokerfreedict
+---
 # enchantbrokerfreedict
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -41,9 +36,9 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

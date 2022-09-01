@@ -1,16 +1,11 @@
-Призначення getViewpath
-
--   [« YafControllerAbstract::getView](yaf-controller-abstract.getview.html)
-    
--   [YafControllerAbstract::init »](yaf-controller-abstract.init.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Призначення getViewpath
-    
-
+---
+navigation:
+  - yaf-controller-abstract.getview.html: '« YafControllerAbstract::getView'
+  - yaf-controller-abstract.init.html: 'YafControllerAbstract::init »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::getViewpath'
+---
 # YafControllerAbstract::getViewpath
 
 (Yaf >=1.0.0)

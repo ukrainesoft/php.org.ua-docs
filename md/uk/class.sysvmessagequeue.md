@@ -1,16 +1,11 @@
-Клас SysvMessageQueue
-
--   [« shmremove](function.shm-remove.html)
-    
--   [SysvSemaphore »](class.sysvsemaphore.md)
-    
--   [PHP Manual](index.md)
-    
--   [Семафори](book.sem.md)
-    
--   Клас SysvMessageQueue
-    
-
+---
+navigation:
+  - function.shm-remove.html: « shmremove
+  - class.sysvsemaphore.md: SysvSemaphore »
+  - index.md: PHP Manual
+  - book.sem.md: Семафори
+title: Клас SysvMessageQueue
+---
 # Клас SysvMessageQueue
 
 (PHP 8)

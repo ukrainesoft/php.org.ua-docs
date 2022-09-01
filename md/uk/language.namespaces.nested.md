@@ -1,16 +1,11 @@
-Визначення підпросторів імен
-
--   [« Определение пространств имён](language.namespaces.definition.html)
-    
--   [Опис кількох просторів імен в одному файлі »](language.namespaces.definitionmultiple.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пространства имён](language.namespaces.html)
-    
--   Визначення підпросторів імен
-    
-
+---
+navigation:
+  - language.namespaces.definition.html: « Определение пространств имён
+  - language.namespaces.definitionmultiple.html: Опис кількох просторів імен в одному файлі »
+  - index.html: PHP Manual
+  - language.namespaces.html: Пространства имён
+title: Визначення підпросторів імен
+---
 ## Визначення підпросторів імен
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

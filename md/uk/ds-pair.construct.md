@@ -1,16 +1,11 @@
-Створює екземпляр класу
-
--   [« DsPair::clear](ds-pair.clear.html)
-    
--   [ДсPair::copy »](ds-pair.copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пара](class.ds-pair.html)
-    
--   Створює екземпляр класу
-    
-
+---
+navigation:
+  - ds-pair.clear.html: '« DsPair::clear'
+  - ds-pair.copy.html: 'ДсPair::copy »'
+  - index.md: PHP Manual
+  - class.ds-pair.html: Пара
+title: 'ДсPair::construct'
+---
 # ДсPair::construct
 
 (PECL ds >= 1.0.0)

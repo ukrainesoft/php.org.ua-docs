@@ -1,16 +1,11 @@
-Змінює значення прозорості кольору
-
--   [« Imagick::mapImage](imagick.mapimage.html)
-    
--   [Imagick::medianFilterImage »](imagick.medianfilterimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Змінює значення прозорості кольору
-    
-
+---
+navigation:
+  - imagick.mapimage.html: '« Imagick::mapImage'
+  - imagick.medianfilterimage.html: 'Imagick::medianFilterImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::matteFloodfillImage'
+---
 # Imagick::matteFloodfillImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -61,6 +56,6 @@ public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz, �
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                       |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє рядок, що представляє колір, як третій параметр. Попередні версії допускали лише об'єкт [ImagickPixel](class.imagickpixel.html) |

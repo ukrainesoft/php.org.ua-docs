@@ -1,16 +1,11 @@
-Змінні HTTP POST
-
--   [GET](reserved.variables.get.html)
-    
--   [FILES »](reserved.variables.files.html)
-    
--   [PHP Manual](index.html)
-    
--   [Зумовлені змінні](reserved.variables.html)
-    
--   Змінні HTTP POST
-    
-
+---
+navigation:
+  - reserved.variables.get.html: GET
+  - reserved.variables.files.html: FILES »
+  - index.html: PHP Manual
+  - reserved.variables.html: Зумовлені змінні
+title: POST
+---
 # POST
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

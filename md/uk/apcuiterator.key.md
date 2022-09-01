@@ -1,16 +1,11 @@
-Отримати ключ ітератора
-
--   [« APCUIterator::getTotalSize](apcuiterator.gettotalsize.md)
-    
--   [APCUIterator::next »](apcuiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Отримати ключ ітератора
-    
-
+---
+navigation:
+  - apcuiterator.gettotalsize.md: '« APCUIterator::getTotalSize'
+  - apcuiterator.next.md: 'APCUIterator::next »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::key'
+---
 # APCUIterator::key
 
 (PECL apcu >= 5.0.0)

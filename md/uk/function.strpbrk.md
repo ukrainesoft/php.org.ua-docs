@@ -1,16 +1,11 @@
-Шукає у рядку будь-який символ із заданого набору
-
--   [« strncmp](function.strncmp.html)
-    
--   [strpos »](function.strpos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Шукає у рядку будь-який символ із заданого набору
-    
-
+---
+navigation:
+  - function.strncmp.html: « strncmp
+  - function.strpos.html: strpos »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strpbrk
+---
 # strpbrk
 
 (PHP 5, PHP 7, PHP 8)

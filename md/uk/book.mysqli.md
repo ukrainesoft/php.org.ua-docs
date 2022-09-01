@@ -1,16 +1,11 @@
-Поліпшений модуль MySQL (MySQL Improved)
-
--   [« Кодування символів](mysqlinfo.concepts.charset.html)
-    
--   [Введение »](intro.mysqli.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](set.mysqlinfo.html)
-    
--   Поліпшений модуль MySQL (MySQL Improved)
-    
-
+---
+navigation:
+  - mysqlinfo.concepts.charset.html: « Кодування символів
+  - intro.mysqli.html: Введение »
+  - index.html: PHP Manual
+  - set.mysqlinfo.html: MySQL
+title: Поліпшений модуль MySQL (MySQL Improved)
+---
 # Поліпшений модуль MySQL (MySQL Improved)
 
 -   [Введение](intro.mysqli.html)

@@ -1,16 +1,11 @@
-Застарілі найменування та функції OCI8
-
--   [« OCILob::writeToFile](ocilob.writetofile.md)
-    
--   [ociinternaldebug »](function.oci-internal-debug.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8](book.oci8.md)
-    
--   Застарілі найменування та функції OCI8
-    
-
+---
+navigation:
+  - ocilob.writetofile.md: '« OCILob::writeToFile'
+  - function.oci-internal-debug.html: ociinternaldebug »
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
+title: Застарілі найменування та функції OCI8
+---
 # Застарілі найменування та функції OCI8
 
 ## Зміст

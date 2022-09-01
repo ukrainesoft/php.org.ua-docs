@@ -1,16 +1,11 @@
-Отримати ім'я вказаного стовпця
-
--   [« cubridfieldlen](function.cubrid-field-len.html)
-    
--   [cubridfieldseek »](function.cubrid-field-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Отримати ім'я вказаного стовпця
-    
-
+---
+navigation:
+  - function.cubrid-field-len.html: « cubridfieldlen
+  - function.cubrid-field-seek.html: cubridfieldseek »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfieldname
+---
 # cubridfieldname
 
 (PECL CUBRID >= 8.3.0)

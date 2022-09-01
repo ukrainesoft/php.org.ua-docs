@@ -1,16 +1,11 @@
-Опитування
-
--   [« parallelEvents::remove](parallel-events.remove.html)
-    
--   [parallelEventsInput »](class.parallel-events-input.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelEvents](class.parallel-events.html)
-    
--   Опитування
-    
-
+---
+navigation:
+  - parallel-events.remove.html: '« parallelEvents::remove'
+  - class.parallel-events-input.html: parallelEventsInput »
+  - index.md: PHP Manual
+  - class.parallel-events.html: parallelEvents
+title: 'parallelEvents::poll'
+---
 # parallelEvents::poll
 
 parallelEvents::poll — Опитування

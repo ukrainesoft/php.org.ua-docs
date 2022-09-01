@@ -1,16 +1,11 @@
-Оновлення даних у таблиці
-
--   [« pguntrace](function.pg-untrace.html)
-    
--   [пгversion »](function.pg-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Оновлення даних у таблиці
-    
-
+---
+navigation:
+  - function.pg-untrace.html: « pguntrace
+  - function.pg-version.html: пгversion »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгupdate
+---
 # пгupdate
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -59,9 +54,9 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

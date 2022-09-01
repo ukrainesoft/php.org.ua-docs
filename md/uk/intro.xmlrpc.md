@@ -1,16 +1,11 @@
-Вступ
-
--   [« XML-RPC](book.xmlrpc.html)
-    
--   [Встановлення та налаштування »](xmlrpc.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [XML-RPC](book.xmlrpc.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.xmlrpc.html: « XML-RPC
+  - xmlrpc.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.xmlrpc.html: XML-RPC
+title: Вступ
+---
 # Вступ
 
 Ці функції можуть бути використані для написання серверів та клієнтів XML-RPC. Ви можете знайти докладнішу інформацію про XML-RPC за посиланням [» http://www.xmlrpc.com/](http://www.xmlrpc.com/), і багато документації для цього модуля та його функцій за посиланням [» http://xmlrpc-epi.sourceforge.net/](http://xmlrpc-epi.sourceforge.net/)

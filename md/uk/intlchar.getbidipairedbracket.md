@@ -1,16 +1,11 @@
-Отримати парну дужку для символу
-
--   [« IntlChar::forDigit](intlchar.fordigit.html)
-    
--   [IntlChar::getBlockCode »](intlchar.getblockcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати парну дужку для символу
-    
-
+---
+navigation:
+  - intlchar.fordigit.html: '« IntlChar::forDigit'
+  - intlchar.getblockcode.html: 'IntlChar::getBlockCode »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::getBidiPairedBracket'
+---
 # IntlChar::getBidiPairedBracket
 
 (PHP 7, PHP 8)

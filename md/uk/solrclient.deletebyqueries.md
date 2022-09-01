@@ -1,16 +1,11 @@
-Видаляє всі документи, які відповідають будь-якому запиту
-
--   [« SolrClient::deleteByIds](solrclient.deletebyids.html)
-    
--   [SolrClient::deleteByQuery »](solrclient.deletebyquery.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Видаляє всі документи, які відповідають будь-якому запиту
-    
-
+---
+navigation:
+  - solrclient.deletebyids.html: '« SolrClient::deleteByIds'
+  - solrclient.deletebyquery.html: 'SolrClient::deleteByQuery »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::deleteByQueries'
+---
 # SolrClient::deleteByQueries
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Створення нового повнокольорового зображення
-
--   [« imagecreatefromxpm](function.imagecreatefromxpm.md)
-    
--   [imagecrop »](function.imagecrop.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Створення нового повнокольорового зображення
-    
-
+---
+navigation:
+  - function.imagecreatefromxpm.md: « imagecreatefromxpm
+  - function.imagecrop.md: imagecrop »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecreatetruecolor
+---
 # imagecreatetruecolor
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagecreatetruecolor(int $width, int $height): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Встановлює нове значення за заданим індексом
-
--   [« SplFixedArray::offsetGet](splfixedarray.offsetget.md)
-    
--   [SplFixedArray::offsetUnset »](splfixedarray.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFixedArray](class.splfixedarray.md)
-    
--   Встановлює нове значення за заданим індексом
-    
-
+---
+navigation:
+  - splfixedarray.offsetget.md: '« SplFixedArray::offsetGet'
+  - splfixedarray.offsetunset.md: 'SplFixedArray::offsetUnset »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::offsetSet'
+---
 # SplFixedArray::offsetSet
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас DOMCharacterData
-
--   [« DOMCdataSection::construct](domcdatasection.construct.md)
-    
--   [DOMCharacterData::appendData »](domcharacterdata.appenddata.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMCharacterData
-    
-
+---
+navigation:
+  - domcdatasection.construct.md: '« DOMCdataSection::construct'
+  - domcharacterdata.appenddata.md: 'DOMCharacterData::appendData »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMCharacterData
+---
 # Клас DOMCharacterData
 
 (PHP 5, PHP 7, PHP 8)
@@ -176,10 +171,10 @@ previousElementSibling
 
 ## список змін
 
-| Версия | Описание                                                                                 |
-|--------|------------------------------------------------------------------------------------------|
-|        | Додані властивості nextElementSibling і previousElementSibling.                          |
-|        | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Додані властивості nextElementSibling і previousElementSibling. |
+|  | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.md) |
 
 ## Дивіться також
 

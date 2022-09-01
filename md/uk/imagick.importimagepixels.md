@@ -1,16 +1,11 @@
-Імпортує пікселі зображення
-
--   [« Imagick::implodeImage](imagick.implodeimage.md)
-    
--   [Imagick::inverseFourierTransformImage »](imagick.inversefouriertransformimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Імпортує пікселі зображення
-    
-
+---
+navigation:
+  - imagick.implodeimage.md: '« Imagick::implodeImage'
+  - imagick.inversefouriertransformimage.md: 'Imagick::inverseFourierTransformImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::importImagePixels'
+---
 # Imagick::importImagePixels
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

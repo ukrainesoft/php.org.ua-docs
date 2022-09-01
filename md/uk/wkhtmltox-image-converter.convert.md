@@ -1,16 +1,11 @@
-Виконати перетворення зображень
-
--   [« wkhtmltoxImageConverter::construct](wkhtmltox-image-converter.construct.html)
-    
--   [wkhtmltoxImageConverter::getVersion »](wkhtmltox-image-converter.getversion.html)
-    
--   [PHP Manual](index.md)
-    
--   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.html)
-    
--   Виконати перетворення зображень
-    
-
+---
+navigation:
+  - wkhtmltox-image-converter.construct.html: '« wkhtmltoxImageConverter::construct'
+  - wkhtmltox-image-converter.getversion.html: 'wkhtmltoxImageConverter::getVersion »'
+  - index.md: PHP Manual
+  - class.wkhtmltox-image-converter.html: wkhtmltoxImageConverter
+title: 'wkhtmltoxImageConverter::convert'
+---
 # wkhtmltoxImageConverter::convert
 
 (wkhtmltox >= 0.1.0)

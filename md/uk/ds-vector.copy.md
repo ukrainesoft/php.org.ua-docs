@@ -1,16 +1,11 @@
-Повертає поверхневу копію вектора
-
--   [« DsVector::contains](ds-vector.contains.html)
-    
--   [ДсVector::count »](ds-vector.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає поверхневу копію вектора
-    
-
+---
+navigation:
+  - ds-vector.contains.html: '« DsVector::contains'
+  - ds-vector.count.html: 'ДсVector::count »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::copy'
+---
 # ДсVector::copy
 
 (PECL ds >= 1.0.0)

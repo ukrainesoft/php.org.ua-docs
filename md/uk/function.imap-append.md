@@ -1,16 +1,11 @@
-Додає рядкове повідомлення до вказаної поштової скриньки
-
--   [« imapalerts](function.imap-alerts.html)
-    
--   [imapbase64 »](function.imap-base64.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Додає рядкове повідомлення до вказаної поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-alerts.html: « imapalerts
+  - function.imap-base64.html: imapbase64 »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapappend
+---
 # imapappend
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -59,10 +54,10 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `options` і `internal_date` тепер допускають значення null.                                                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `options` і `internal_date` тепер допускають значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Визначає існування файлу і чи він доступний для читання
-
--   [« islink](function.is-link.html)
-    
--   [ісuploadedfile »](function.is-uploaded-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Визначає існування файлу і чи він доступний для читання
-    
-
+---
+navigation:
+  - function.is-link.html: « islink
+  - function.is-uploaded-file.html: ісuploadedfile »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ісreadable
+---
 # ісreadable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає масив із значень одного стовпця вхідного масиву
-
--   [« arraychunk](function.array-chunk.html)
-    
--   [arraycombine »](function.array-combine.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Повертає масив із значень одного стовпця вхідного масиву
-    
-
+---
+navigation:
+  - function.array-chunk.html: « arraychunk
+  - function.array-combine.html: arraycombine »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraycolumn
+---
 # arraycolumn
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ array_column(array $array, int|string|null $column_key, int|string|null $index_k
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Об'єкти в стовпцях, позначені параметром `index_key`, більше не будуть перетворені на рядок і натомість будуть видавати [TypeError](class.typeerror.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Об'єкти в стовпцях, позначені параметром `index_key`, більше не будуть перетворені на рядок і натомість будуть видавати [TypeError](class.typeerror.md) |
 
 ### Приклади
 

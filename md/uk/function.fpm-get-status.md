@@ -1,16 +1,11 @@
-Повертає поточний стан пулу FPM
-
--   [« fastcgifinishrequest](function.fastcgi-finish-request.html)
-    
--   [Модулі для роботи із сесіями »](refs.basic.session.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FPM](ref.fpm.md)
-    
--   Повертає поточний стан пулу FPM
-    
-
+---
+navigation:
+  - function.fastcgi-finish-request.html: « fastcgifinishrequest
+  - refs.basic.session.md: Модулі для роботи із сесіями »
+  - index.md: PHP Manual
+  - ref.fpm.md: Функції FPM
+title: fpmgetstatus
+---
 # fpmgetstatus
 
 (PHP 7> = 7.3, PHP 8)

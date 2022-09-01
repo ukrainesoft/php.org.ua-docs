@@ -1,16 +1,11 @@
-Призначення despeckleimage
-
--   [« Gmagick::deconstructimages](gmagick.deconstructimages.html)
-    
--   [Gmagick::destroy »](gmagick.destroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Призначення despeckleimage
-    
-
+---
+navigation:
+  - gmagick.deconstructimages.html: '« Gmagick::deconstructimages'
+  - gmagick.destroy.html: 'Gmagick::destroy »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::despeckleimage'
+---
 # Gmagick::despeckleimage
 
 (PECL gmagick >= Unknown)

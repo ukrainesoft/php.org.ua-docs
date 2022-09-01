@@ -1,16 +1,11 @@
-Оновлення всіх значень застосуванням до них переданої callback-функції
-
--   [« DsSequence::allocate](ds-sequence.allocate.html)
-    
--   [ДсSequence::capacity »](ds-sequence.capacity.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Оновлення всіх значень застосуванням до них переданої callback-функції
-    
-
+---
+navigation:
+  - ds-sequence.allocate.html: '« DsSequence::allocate'
+  - ds-sequence.capacity.html: 'ДсSequence::capacity »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::apply'
+---
 # ДсSequence::apply
 
 (PECL ds >= 1.0.0)

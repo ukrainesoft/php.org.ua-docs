@@ -1,16 +1,11 @@
-Нові функції
-
--   [" Нові можливості](migration71.new-features.html)
-    
--   [Нові глобальні константи »](migration71.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
-    
--   Нові функції
-    
-
+---
+navigation:
+  - migration71.new-features.html: '" Нові можливості'
+  - migration71.constants.md: Нові глобальні константи »
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Нові функції
+---
 ## Нові функції
 
 ### Ядро PHP

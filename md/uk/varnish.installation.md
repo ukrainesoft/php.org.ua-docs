@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](varnish.requirements.html)
-    
--   [Налаштування під час виконання »](varnish.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](varnish.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - varnish.requirements.html: « Вимоги
+  - varnish.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - varnish.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

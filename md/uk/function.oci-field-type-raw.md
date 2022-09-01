@@ -1,16 +1,11 @@
-Повертає вихідний тип поля Oracle
-
--   [« ocifieldsize](function.oci-field-size.html)
-    
--   [ocifieldtype »](function.oci-field-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Повертає вихідний тип поля Oracle
-    
-
+---
+navigation:
+  - function.oci-field-size.html: « ocifieldsize
+  - function.oci-field-type.html: ocifieldtype »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocifieldtyperaw
+---
 # ocifieldtyperaw
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

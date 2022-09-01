@@ -1,16 +1,11 @@
-Клас ReflectionProperty
-
--   [« ReflectionParameter::toString](reflectionparameter.tostring.md)
-    
--   [ReflectionProperty::clone »](reflectionproperty.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionProperty
-    
-
+---
+navigation:
+  - reflectionparameter.tostring.md: '« ReflectionParameter::toString'
+  - reflectionproperty.clone.md: 'ReflectionProperty::clone »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionProperty
+---
 # Клас ReflectionProperty
 
 (PHP 5, PHP 7, PHP 8)

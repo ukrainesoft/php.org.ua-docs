@@ -1,16 +1,11 @@
-Змінює кореневий каталог
-
--   [« chdir](function.chdir.md)
-    
--   [closedir »](function.closedir.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з каталогами](ref.dir.md)
-    
--   Змінює кореневий каталог
-    
-
+---
+navigation:
+  - function.chdir.md: « chdir
+  - function.closedir.md: closedir »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
+title: chroot
+---
 # chroot
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

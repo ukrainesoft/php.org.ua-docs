@@ -1,16 +1,11 @@
-Відкрити тунель через віддалений сервер
-
--   [« ssh2shell](function.ssh2-shell.html)
-    
--   [Stomp »](book.stomp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Відкрити тунель через віддалений сервер
-    
-
+---
+navigation:
+  - function.ssh2-shell.html: « ssh2shell
+  - book.stomp.html: Stomp »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2tunnel
+---
 # ssh2tunnel
 
 (PECL ssh2> = 0.9.0)

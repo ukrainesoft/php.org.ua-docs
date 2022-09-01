@@ -1,16 +1,11 @@
-Динамічна трасування DTrace
-
--   [« Питання продуктивності](features.gc.performance-considerations.html)
-    
--   [Введение в PHP и DTrace »](features.dtrace.introduction.md)
-    
--   [PHP Manual](index.md)
-    
--   [Відмітні особливості](features.md)
-    
--   Динамічна трасування DTrace
-    
-
+---
+navigation:
+  - features.gc.performance-considerations.html: « Питання продуктивності
+  - features.dtrace.introduction.md: Введение в PHP и DTrace »
+  - index.md: PHP Manual
+  - features.md: Відмітні особливості
+title: Динамічна трасування DTrace
+---
 # Динамічна трасування DTrace
 
 ## Зміст

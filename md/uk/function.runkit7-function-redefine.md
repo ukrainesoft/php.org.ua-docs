@@ -1,16 +1,11 @@
-Замінює визначення функції новою реалізацією
-
--   [« runkit7functioncopy](function.runkit7-function-copy.html)
-    
--   [runkit7functionremove »](function.runkit7-function-remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Замінює визначення функції новою реалізацією
-    
-
+---
+navigation:
+  - function.runkit7-function-copy.html: « runkit7functioncopy
+  - function.runkit7-function-remove.html: runkit7functionremove »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7functionredefine
+---
 # runkit7functionredefine
 
 (PECL runkit7> = Unknown)

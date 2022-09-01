@@ -1,16 +1,11 @@
-Повертає колір вказаного пікселя
-
--   [« Imagick::getImagePage](imagick.getimagepage.md)
-    
--   [Imagick::getImageProfile »](imagick.getimageprofile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає колір вказаного пікселя
-    
-
+---
+navigation:
+  - imagick.getimagepage.md: '« Imagick::getImagePage'
+  - imagick.getimageprofile.md: 'Imagick::getImageProfile »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImagePixelColor'
+---
 # Imagick::getImagePixelColor
 
 (PECL imagick 2, PECL imagick 3)

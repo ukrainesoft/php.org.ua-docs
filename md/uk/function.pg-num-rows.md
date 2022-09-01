@@ -1,16 +1,11 @@
-Повертає кількість рядків у вибірці
-
--   [« pgnumfields](function.pg-num-fields.html)
-    
--   [пгoptions »](function.pg-options.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Повертає кількість рядків у вибірці
-    
-
+---
+navigation:
+  - function.pg-num-fields.html: « pgnumfields
+  - function.pg-options.html: пгoptions »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгnumrows
+---
 # пгnumrows
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pg_num_rows(PgSql\Result $result): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

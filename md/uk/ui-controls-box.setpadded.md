@@ -1,16 +1,11 @@
-Встановити заповнення
-
--   [« UIControlsBox::isPadded](ui-controls-box.ispadded.html)
-    
--   [ОЙDrawPen »](class.ui-draw-pen.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsBox](class.ui-controls-box.html)
-    
--   Встановити заповнення
-    
-
+---
+navigation:
+  - ui-controls-box.ispadded.html: '« UIControlsBox::isPadded'
+  - class.ui-draw-pen.html: ОЙDrawPen »
+  - index.md: PHP Manual
+  - class.ui-controls-box.html: ОЙControlsBox
+title: 'ОЙControlsBox::setPadded'
+---
 # ОЙControlsBox::setPadded
 
 (UI 0.9.9)

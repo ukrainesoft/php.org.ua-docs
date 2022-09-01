@@ -1,16 +1,11 @@
-Клас OutOfRangeException
-
--   [« OutOfBoundsException](class.outofboundsexception.md)
-    
--   [OverflowException »](class.overflowexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [Исключения](spl.exceptions.md)
-    
--   Клас OutOfRangeException
-    
-
+---
+navigation:
+  - class.outofboundsexception.md: « OutOfBoundsException
+  - class.overflowexception.md: OverflowException »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
+title: Клас OutOfRangeException
+---
 # Клас OutOfRangeException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

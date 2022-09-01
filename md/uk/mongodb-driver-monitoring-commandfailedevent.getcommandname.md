@@ -1,16 +1,11 @@
-Повертає ім'я команди
-
--   [« MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros »](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   Повертає ім'я команди
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-commandfailedevent.html: « MongoDBDriverMonitoringCommandFailedEvent
+  - mongodb-driver-monitoring-commandfailedevent.getdurationmicros.html: 'MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getCommandName'
+---
 # MongoDBDriverMonitoringCommandFailedEvent::getCommandName
 
 (mongodb >=1.3.0)

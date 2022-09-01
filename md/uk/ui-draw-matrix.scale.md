@@ -1,16 +1,11 @@
-Масштабувати матрицю
-
--   [« UIDrawMatrix::rotate](ui-draw-matrix.rotate.html)
-    
--   [ОЙDrawMatrix::skew »](ui-draw-matrix.skew.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawMatrix](class.ui-draw-matrix.html)
-    
--   Масштабувати матрицю
-    
-
+---
+navigation:
+  - ui-draw-matrix.rotate.html: '« UIDrawMatrix::rotate'
+  - ui-draw-matrix.skew.html: 'ОЙDrawMatrix::skew »'
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.html: ОЙDrawMatrix
+title: 'ОЙDrawMatrix::scale'
+---
 # ОЙDrawMatrix::scale
 
 (UI 0.9.9)

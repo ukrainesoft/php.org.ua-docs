@@ -1,16 +1,11 @@
-Повертає поля запиту та їх підвищення
-
--   [« SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.md)
-    
--   [SolrQuery::getQuery »](solrquery.getquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає поля запиту та їх підвищення
-    
-
+---
+navigation:
+  - solrquery.getmltminwordlength.md: '« SolrQuery::getMltMinWordLength'
+  - solrquery.getquery.md: 'SolrQuery::getQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltQueryFields'
+---
 # SolrQuery::getMltQueryFields
 
 (PECL solr> = 0.9.2)

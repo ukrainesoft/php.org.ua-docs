@@ -1,16 +1,11 @@
-Виведення GD-зображення у браузер або файл
-
--   [« imagegd2](function.imagegd2.html)
-    
--   [imagegetclip »](function.imagegetclip.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Виведення GD-зображення у браузер або файл
-    
-
+---
+navigation:
+  - function.imagegd2.html: « imagegd2
+  - function.imagegetclip.html: imagegetclip »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagegd
+---
 # imagegd
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
@@ -45,11 +40,11 @@ imagegd(GdImage $image, ?string $file = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------------------|
-|        | `file` тепер допускає значення null.                                                                          |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource).             |
-|        | Тепер **imagegd()** дозволяє зберігати зображення "truecolor". Раніше вони неявно перетворювалися на палітру. |
+| Версия | Описание |
+| --- | --- |
+|  | `file` тепер допускає значення null. |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | Тепер **imagegd()** дозволяє зберігати зображення "truecolor". Раніше вони неявно перетворювалися на палітру. |
 
 ### Приклади
 

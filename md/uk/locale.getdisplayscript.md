@@ -1,16 +1,11 @@
-Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
-
--   [« Locale::getDisplayRegion](locale.getdisplayregion.md)
-    
--   [Locale::getDisplayVariant »](locale.getdisplayvariant.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
-    
-
+---
+navigation:
+  - locale.getdisplayregion.md: '« Locale::getDisplayRegion'
+  - locale.getdisplayvariant.md: 'Locale::getDisplayVariant »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::getDisplayScript'
+---
 # Locale::getDisplayScript
 
 # localegetdisplayscript
@@ -51,9 +46,9 @@ locale_get_display_script(string $locale, ?string $displayLocale = null): string
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `displayLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 

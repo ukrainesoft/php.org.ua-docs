@@ -1,16 +1,11 @@
-Відображення
-
--   [« CommonMarkRenderLatex](function.commonmark-render-latex.html)
-    
--   [CommonMarkRenderXML »](function.commonmark-render-xml.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CommonMark](ref.cmark.md)
-    
--   Відображення
-    
-
+---
+navigation:
+  - function.commonmark-render-latex.html: « CommonMarkRenderLatex
+  - function.commonmark-render-xml.html: CommonMarkRenderXML »
+  - index.md: PHP Manual
+  - ref.cmark.md: Функции CommonMark
+title: CommonMarkRenderMan
+---
 # CommonMarkRenderMan
 
 (cmark >= 1.0.0)

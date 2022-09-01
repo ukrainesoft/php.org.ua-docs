@@ -1,16 +1,11 @@
-Отримати копію підмножини з навчальних даних
-
--   [« fannshuffletraindata](function.fann-shuffle-train-data.html)
-    
--   [fanntestdata »](function.fann-test-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Отримати копію підмножини з навчальних даних
-    
-
+---
+navigation:
+  - function.fann-shuffle-train-data.html: « fannshuffletraindata
+  - function.fann-test-data.html: fanntestdata »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsubsettraindata
+---
 # fannsubsettraindata
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Встановити callback-функцію за таймером
-
--   [« ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.md)
-    
--   [ZMQDevice::setTimerTimeout »](zmqdevice.settimertimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQDevice](class.zmqdevice.md)
-    
--   Встановити callback-функцію за таймером
-    
-
+---
+navigation:
+  - zmqdevice.setidletimeout.md: '« ZMQDevice::setIdleTimeout'
+  - zmqdevice.settimertimeout.md: 'ZMQDevice::setTimerTimeout »'
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
+title: 'ZMQ Device::setTimer Callback'
+---
 # ZMQ Device::setTimer Callback
 
 (No version information available, might only be in Git)

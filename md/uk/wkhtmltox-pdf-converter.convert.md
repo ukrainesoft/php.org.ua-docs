@@ -1,16 +1,11 @@
-Виконати перетворення PDF
-
--   [« wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.html)
-    
--   [wkhtmltoxPDFConverter::getVersion »](wkhtmltox-pdf-converter.getversion.html)
-    
--   [PHP Manual](index.md)
-    
--   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
-    
--   Виконати перетворення PDF
-    
-
+---
+navigation:
+  - wkhtmltox-pdf-converter.construct.html: '« wkhtmltoxPDFConverter::construct'
+  - wkhtmltox-pdf-converter.getversion.html: 'wkhtmltoxPDFConverter::getVersion »'
+  - index.md: PHP Manual
+  - class.wkhtmltox-pdf-converter.html: wkhtmltoxPDFConverter
+title: 'wkhtmltoxPDFConverter::convert'
+---
 # wkhtmltoxPDFConverter::convert
 
 (wkhtmltox >= 0.1.0)

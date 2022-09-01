@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](mongodb.setup.html)
-    
--   [Установка »](mongodb.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](mongodb.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - mongodb.setup.html: « Встановлення та налаштування
+  - mongodb.installation.html: Установка »
+  - index.html: PHP Manual
+  - mongodb.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 # Вимоги
 
 Починаючи з версії 1.8.0, для роботи драйвера потрібен PHP 7.0 або вище. Попередні версії драйвера забезпечують сумісність із старими версіями PHP.

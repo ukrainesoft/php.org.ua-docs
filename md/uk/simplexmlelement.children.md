@@ -1,16 +1,11 @@
-Знаходить дочірні елементи цього вузла
-
--   [« SimpleXMLElement::attributes](simplexmlelement.attributes.md)
-    
--   [SimpleXMLElement::construct »](simplexmlelement.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Знаходить дочірні елементи цього вузла
-    
-
+---
+navigation:
+  - simplexmlelement.attributes.md: '« SimpleXMLElement::attributes'
+  - simplexmlelement.construct.md: 'SimpleXMLElement::construct »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::children'
+---
 # SimpleXMLElement::children
 
 (PHP 5, PHP 7, PHP 8)

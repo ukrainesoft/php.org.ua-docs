@@ -1,16 +1,11 @@
-Малює криву Безьє
-
--   [« GmagickDraw::arc](gmagickdraw.arc.html)
-    
--   [GmagickDraw::ellipse »](gmagickdraw.ellipse.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Малює криву Безьє
-    
-
+---
+navigation:
+  - gmagickdraw.arc.html: '« GmagickDraw::arc'
+  - gmagickdraw.ellipse.html: 'GmagickDraw::ellipse »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::bezier'
+---
 # GmagickDraw::bezier
 
 (PECL gmagick >= Unknown)

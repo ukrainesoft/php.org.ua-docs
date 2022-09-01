@@ -1,16 +1,11 @@
-Клас Socket
-
--   [« socketwsaprotocolinforelease](function.socket-wsaprotocol-info-release.html)
-    
--   [AddressInfo »](class.addressinfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Сокети](book.sockets.html)
-    
--   Клас Socket
-    
-
+---
+navigation:
+  - function.socket-wsaprotocol-info-release.html: « socketwsaprotocolinforelease
+  - class.addressinfo.html: AddressInfo »
+  - index.html: PHP Manual
+  - book.sockets.html: Сокети
+title: Клас Socket
+---
 # Клас Socket
 
 (PHP 8)

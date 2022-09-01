@@ -1,16 +1,11 @@
-Отримати величину сигми для регресійного типу
-
--   [« SVMModel::getSvmType](svmmodel.getsvmtype.html)
-    
--   [SVMModel::load »](svmmodel.load.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVMModel](class.svmmodel.html)
-    
--   Отримати величину сигми для регресійного типу
-    
-
+---
+navigation:
+  - svmmodel.getsvmtype.html: '« SVMModel::getSvmType'
+  - svmmodel.load.html: 'SVMModel::load »'
+  - index.html: PHP Manual
+  - class.svmmodel.html: SVMModel
+title: 'SVMModel::getSvrProbability'
+---
 # SVMModel::getSvrProbability
 
 (PECL svm >= 0.1.5)

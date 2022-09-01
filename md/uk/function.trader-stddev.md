@@ -1,16 +1,11 @@
-Стандартне відхилення
-
--   [« tradersqrt](function.trader-sqrt.html)
-    
--   [traderstoch »](function.trader-stoch.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Стандартне відхилення
-    
-
+---
+navigation:
+  - function.trader-sqrt.html: « tradersqrt
+  - function.trader-stoch.html: traderstoch »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderstddev
+---
 # traderstddev
 
 (PECL trader >= 0.2.0)

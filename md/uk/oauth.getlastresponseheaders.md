@@ -1,16 +1,11 @@
-Отримати заголовки останньої відповіді
-
--   [« OAuth::getLastResponse](oauth.getlastresponse.md)
-    
--   [OAuth::getLastResponseInfo »](oauth.getlastresponseinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Отримати заголовки останньої відповіді
-    
-
+---
+navigation:
+  - oauth.getlastresponse.md: '« OAuth::getLastResponse'
+  - oauth.getlastresponseinfo.md: 'OAuth::getLastResponseInfo »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::getLastResponseHeaders'
+---
 # OAuth::getLastResponseHeaders
 
 (No version information available, might only be in Git)

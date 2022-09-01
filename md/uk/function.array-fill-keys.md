@@ -1,16 +1,11 @@
-Створює масив та заповнює його значеннями з певними ключами
-
--   [« arraydiff](function.array-diff.html)
-    
--   [arrayfill »](function.array-fill.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Створює масив та заповнює його значеннями з певними ключами
-    
-
+---
+navigation:
+  - function.array-diff.html: « arraydiff
+  - function.array-fill.html: arrayfill »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayfillkeys
+---
 # arrayfillkeys
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

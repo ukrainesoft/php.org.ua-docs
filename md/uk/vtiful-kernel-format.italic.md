@@ -1,16 +1,11 @@
-Курсив
-
--   [« VtifulKernelFormat::bold](vtiful-kernel-format.bold.html)
-    
--   [VtifulKernelFormat::underline »](vtiful-kernel-format.underline.html)
-    
--   [PHP Manual](index.html)
-    
--   [VtifulKernelFormat](class.vtiful-kernel-format.html)
-    
--   Курсив
-    
-
+---
+navigation:
+  - vtiful-kernel-format.bold.html: '« VtifulKernelFormat::bold'
+  - vtiful-kernel-format.underline.html: 'VtifulKernelFormat::underline »'
+  - index.html: PHP Manual
+  - class.vtiful-kernel-format.html: VtifulKernelFormat
+title: 'VtifulKernelFormat::italic'
+---
 # VtifulKernelFormat::italic
 
 (PECL xlswriter >= 1.2.1)

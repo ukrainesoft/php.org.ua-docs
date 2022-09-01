@@ -1,16 +1,11 @@
-Нові функції
-
--   [« Нові класи та інтерфейси](migration74.new-classes.html)
-    
--   [Нові глобальні константи »](migration74.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
-    
--   Нові функції
-    
-
+---
+navigation:
+  - migration74.new-classes.html: « Нові класи та інтерфейси
+  - migration74.constants.md: Нові глобальні константи »
+  - index.md: PHP Manual
+  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
+title: Нові функції
+---
 ## Нові функції
 
 ### Ядро PHP

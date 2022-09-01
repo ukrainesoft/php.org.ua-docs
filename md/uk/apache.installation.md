@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](apache.requirements.html)
-    
--   [Налаштування під час виконання »](apache.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](apache.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - apache.requirements.html: « Вимоги
+  - apache.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - apache.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Установка PHP як модуля Apache описана в [відповідному розділі](install.html)

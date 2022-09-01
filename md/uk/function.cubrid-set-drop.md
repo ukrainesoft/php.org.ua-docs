@@ -1,16 +1,11 @@
-Видаляє елемент із стовпця заданого типу, використовуючи OID
-
--   [« cubridsetдбparameter](function.cubrid-set-db-parameter.html)
-    
--   [cubridsetquerytimeout »](function.cubrid-set-query-timeout.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Видаляє елемент із стовпця заданого типу, використовуючи OID
-    
-
+---
+navigation:
+  - function.cubrid-set-db-parameter.html: « cubridsetдбparameter
+  - function.cubrid-set-query-timeout.html: cubridsetquerytimeout »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridsetdrop
+---
 # cubridsetdrop
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Косінус
-
--   [« ceil](function.ceil.md)
-    
--   [cosh »](function.cosh.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Косінус
-    
-
+---
+navigation:
+  - function.ceil.md: « ceil
+  - function.cosh.md: cosh »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: cos
+---
 # cos
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

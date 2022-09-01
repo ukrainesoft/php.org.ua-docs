@@ -1,16 +1,11 @@
-Отримує загальну кількість нейронів у всій мережі
-
--   [« fanngettotalconnections](function.fann-get-total-connections.html)
-    
--   [fanngettrainerrorfunction »](function.fann-get-train-error-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Отримує загальну кількість нейронів у всій мережі
-    
-
+---
+navigation:
+  - function.fann-get-total-connections.html: « fanngettotalconnections
+  - function.fann-get-train-error-function.html: fanngettrainerrorfunction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngettotalneurons
+---
 # fanngettotalneurons
 
 (PECL fann> = 1.0.0)

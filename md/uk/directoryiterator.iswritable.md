@@ -1,16 +1,11 @@
-Визначає, чи доступний поточний елемент DirectoryIterator для запису
-
--   [« DirectoryIterator::isReadable](directoryiterator.isreadable.html)
-    
--   [DirectoryIterator::key »](directoryiterator.key.html)
-    
--   [PHP Manual](index.html)
-    
--   [DirectoryIterator](class.directoryiterator.html)
-    
--   Визначає, чи доступний поточний елемент DirectoryIterator для запису
-    
-
+---
+navigation:
+  - directoryiterator.isreadable.html: '« DirectoryIterator::isReadable'
+  - directoryiterator.key.html: 'DirectoryIterator::key »'
+  - index.html: PHP Manual
+  - class.directoryiterator.html: DirectoryIterator
+title: 'DirectoryIterator::isWritable'
+---
 # DirectoryIterator::isWritable
 
 (PHP 5, PHP 7, PHP 8)

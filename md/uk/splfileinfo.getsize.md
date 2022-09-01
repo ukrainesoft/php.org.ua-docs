@@ -1,16 +1,11 @@
-Отримує розмір файлу
-
--   [« SplFileInfo::getRealPath](splfileinfo.getrealpath.html)
-    
--   [SplFileInfo::getType »](splfileinfo.gettype.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Отримує розмір файлу
-    
-
+---
+navigation:
+  - splfileinfo.getrealpath.html: '« SplFileInfo::getRealPath'
+  - splfileinfo.gettype.html: 'SplFileInfo::getType »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::getSize'
+---
 # SplFileInfo::getSize
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

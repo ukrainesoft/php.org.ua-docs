@@ -1,16 +1,11 @@
-Визначає, чи надіслано запит
-
--   [« YafRequestAbstract::isCli](yaf-request-abstract.iscli.html)
-    
--   [YafRequestAbstract::isGet »](yaf-request-abstract.isget.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи надіслано запит
-    
-
+---
+navigation:
+  - yaf-request-abstract.iscli.html: '« YafRequestAbstract::isCli'
+  - yaf-request-abstract.isget.html: 'YafRequestAbstract::isGet »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isDispatched'
+---
 # YafRequestAbstract::isDispatched
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Інтерфейс RecursiveIterator
-
--   [« OuterIterator::getInnerIterator](outeriterator.getinneriterator.html)
-    
--   [RecursiveIterator::getChildren »](recursiveiterator.getchildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інтерфейси](spl.interfaces.html)
-    
--   Інтерфейс RecursiveIterator
-    
-
+---
+navigation:
+  - outeriterator.getinneriterator.html: '« OuterIterator::getInnerIterator'
+  - recursiveiterator.getchildren.html: 'RecursiveIterator::getChildren »'
+  - index.html: PHP Manual
+  - spl.interfaces.html: Інтерфейси
+title: Інтерфейс RecursiveIterator
+---
 # Інтерфейс RecursiveIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

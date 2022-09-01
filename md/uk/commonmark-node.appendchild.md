@@ -1,16 +1,11 @@
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-
--   [« CommonMarkNode](class.commonmark-node.html)
-    
--   [CommonMarkNode::prependChild »](commonmark-node.prependchild.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMarkNode](class.commonmark-node.html)
-    
--   Маніпуляції з AST (Абстрактне синтаксичне дерево)
-    
-
+---
+navigation:
+  - class.commonmark-node.html: « CommonMarkNode
+  - commonmark-node.prependchild.html: 'CommonMarkNode::prependChild »'
+  - index.html: PHP Manual
+  - class.commonmark-node.html: CommonMarkNode
+title: 'CommonMarkNode::appendChild'
+---
 # CommonMarkNode::appendChild
 
 (cmark >= 1.0.0)

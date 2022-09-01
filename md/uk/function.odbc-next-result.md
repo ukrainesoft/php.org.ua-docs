@@ -1,16 +1,11 @@
-Перевіряє, чи є кілька результатів.
-
--   [« odbclongreadlen](function.odbc-longreadlen.html)
-    
--   [odbcnumfields »](function.odbc-num-fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Перевіряє, чи є кілька результатів.
-    
-
+---
+navigation:
+  - function.odbc-longreadlen.html: « odbclongreadlen
+  - function.odbc-num-fields.html: odbcnumfields »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcnextresult
+---
 # odbcnextresult
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає крутість активації для нейрона, що поставляється, і номери шару.
-
--   [« fanngetactivationfunction](function.fann-get-activation-function.html)
-    
--   [fanngetbiasarray »](function.fann-get-bias-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає крутість активації для нейрона, що поставляється, і номери шару.
-    
-
+---
+navigation:
+  - function.fann-get-activation-function.html: « fanngetactivationfunction
+  - function.fann-get-bias-array.html: fanngetbiasarray »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetactivationsteepness
+---
 # fanngetactivationsteepness
 
 (PECL fann> = 1.0.0)

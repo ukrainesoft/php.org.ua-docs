@@ -1,16 +1,11 @@
-Відправляє зміни з робочої директорії до репозиторію
-
--   [« svnclientversion](function.svn-client-version.html)
-    
--   [svndelete »](function.svn-delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Відправляє зміни з робочої директорії до репозиторію
-    
-
+---
+navigation:
+  - function.svn-client-version.html: « svnclientversion
+  - function.svn-delete.html: svndelete »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svncommit
+---
 # svncommit
 
 (PECL svn> = 0.1.0)

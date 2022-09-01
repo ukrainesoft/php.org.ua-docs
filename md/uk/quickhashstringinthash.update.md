@@ -1,16 +1,11 @@
-Метод оновлює запис у хеші новим значенням
-
--   [« QuickHashStringIntHash::set](quickhashstringinthash.set.md)
-    
--   [QuickHashIntStringHash »](class.quickhashintstringhash.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashStringIntHash](class.quickhashstringinthash.md)
-    
--   Метод оновлює запис у хеші новим значенням
-    
-
+---
+navigation:
+  - quickhashstringinthash.set.md: '« QuickHashStringIntHash::set'
+  - class.quickhashintstringhash.md: QuickHashIntStringHash »
+  - index.md: PHP Manual
+  - class.quickhashstringinthash.md: QuickHashStringIntHash
+title: 'QuickHashStringIntHash::update'
+---
 # QuickHashStringIntHash::update
 
 (No version information available, might only be in Git)

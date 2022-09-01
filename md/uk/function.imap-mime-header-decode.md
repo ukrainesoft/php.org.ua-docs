@@ -1,16 +1,11 @@
-Декодувати елементи заголовка
-
--   [« imapmailboxmsginfo](function.imap-mailboxmsginfo.html)
-    
--   [imapmsgno »](function.imap-msgno.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Декодувати елементи заголовка
-    
-
+---
+navigation:
+  - function.imap-mailboxmsginfo.html: « imapmailboxmsginfo
+  - function.imap-msgno.html: imapmsgno »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapmimeheaderdecode
+---
 # imapmimeheaderdecode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

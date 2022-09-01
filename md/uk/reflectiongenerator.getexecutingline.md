@@ -1,16 +1,11 @@
-Отримати поточний рядок генератора, що виконується
-
--   [« ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md)
-    
--   [ReflectionGenerator::getFunction »](reflectiongenerator.getfunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionGenerator](class.reflectiongenerator.md)
-    
--   Отримати поточний рядок генератора, що виконується
-    
-
+---
+navigation:
+  - reflectiongenerator.getexecutinggenerator.md: '« ReflectionGenerator::getExecutingGenerator'
+  - reflectiongenerator.getfunction.md: 'ReflectionGenerator::getFunction »'
+  - index.md: PHP Manual
+  - class.reflectiongenerator.md: ReflectionGenerator
+title: 'ReflectionGenerator::getExecutingLine'
+---
 # ReflectionGenerator::getExecutingLine
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Створює структуру даних навчання із наданої користувачем функції
-
--   [« fanncreatestandard](function.fann-create-standard.html)
-    
--   [fanncreatetrain »](function.fann-create-train.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Створює структуру даних навчання із наданої користувачем функції
-    
-
+---
+navigation:
+  - function.fann-create-standard.html: « fanncreatestandard
+  - function.fann-create-train.html: fanncreatetrain »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanncreatetrainfromcallback
+---
 # fanncreatetrainfromcallback
 
 (PECL fann> = 1.0.0)

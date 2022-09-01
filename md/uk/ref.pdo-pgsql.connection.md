@@ -1,16 +1,11 @@
-З'єднання з базою даних PostgreSQL
-
--   [« PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   [PDO::pgsqlCopyFromArray »](pdo.pgsqlcopyfromarray.html)
-    
--   [PHP Manual](index.html)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   З'єднання з базою даних PostgreSQL
-    
-
+---
+navigation:
+  - ref.pdo-pgsql.html: « PostgreSQL (PDO)
+  - pdo.pgsqlcopyfromarray.html: 'PDO::pgsqlCopyFromArray »'
+  - index.html: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: PDOPGSQL DSN
+---
 # PDOPGSQL DSN
 
 (PHP 5> = 5.1.0, PHP 7, PECL PDOPGSQL >= 0.1.0)

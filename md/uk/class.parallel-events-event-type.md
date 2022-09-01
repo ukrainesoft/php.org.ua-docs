@@ -1,16 +1,11 @@
-Клас parallelEventsEventType
-
--   [« parallelEventsEvent](class.parallel-events-event.html)
-    
--   [parallelSync »](class.parallel-sync.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallel](book.parallel.md)
-    
--   Клас parallelEventsEventType
-    
-
+---
+navigation:
+  - class.parallel-events-event.html: « parallelEventsEvent
+  - class.parallel-sync.html: parallelSync »
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Клас parallelEventsEventType
+---
 # Клас parallelEventsEventType
 
 ## Огляд класів

@@ -1,16 +1,11 @@
-Змінює власника файлу
-
--   [« chmod](function.chmod.html)
-    
--   [clearstatcache »](function.clearstatcache.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Змінює власника файлу
-    
-
+---
+navigation:
+  - function.chmod.html: « chmod
+  - function.clearstatcache.html: clearstatcache »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: chown
+---
 # chown
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

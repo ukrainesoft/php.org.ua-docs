@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineHttpClient::close](swoole-coroutine-http-client.close.html)
-    
--   [SwooleCoroutineHttpClient::destruct »](swoole-coroutine-http-client.destruct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-http-client.close.html: '« SwooleCoroutineHttpClient::close'
+  - swoole-coroutine-http-client.destruct.html: 'SwooleCoroutineHttpClient::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::construct'
+---
 # SwooleCoroutineHttpClient::construct
 
 (PECL swoole >= 2.0.0)

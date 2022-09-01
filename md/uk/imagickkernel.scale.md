@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickKernel::getMatrix](imagickkernel.getmatrix.md)
-    
--   [ImagickKernel::separate »](imagickkernel.separate.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickKernel](class.imagickkernel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickkernel.getmatrix.md: '« ImagickKernel::getMatrix'
+  - imagickkernel.separate.md: 'ImagickKernel::separate »'
+  - index.md: PHP Manual
+  - class.imagickkernel.md: ImagickKernel
+title: 'ImagickKernel::scale'
+---
 # ImagickKernel::scale
 
 (PECL imagick >= 3.3.0)

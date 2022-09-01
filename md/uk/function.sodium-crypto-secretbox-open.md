@@ -1,16 +1,11 @@
-Розшифровка з використанням загального ключа з автентичністю
-
--   [« sodiumcryptosecretboxkeygen](function.sodium-crypto-secretbox-keygen.html)
-    
--   [sodiumcryptosecretbox »](function.sodium-crypto-secretbox.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Розшифровка з використанням загального ключа з автентичністю
-    
-
+---
+navigation:
+  - function.sodium-crypto-secretbox-keygen.html: « sodiumcryptosecretboxkeygen
+  - function.sodium-crypto-secretbox.html: sodiumcryptosecretbox »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosecretboxopen
+---
 # sodiumcryptosecretboxopen
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Увімкнути або вимкнути відступи
-
--   [« XMLWriter::outputMemory](xmlwriter.outputmemory.md)
-    
--   [XMLWriter::setIndentString »](xmlwriter.setindentstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Увімкнути або вимкнути відступи
-    
-
+---
+navigation:
+  - xmlwriter.outputmemory.md: '« XMLWriter::outputMemory'
+  - xmlwriter.setindentstring.md: 'XMLWriter::setIndentString »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::setIndent'
+---
 # XMLWriter::setIndent
 
 # xmlwritersetindent
@@ -51,9 +46,9 @@ xmlwriter_set_indent(XMLWriter $writer, bool $enable): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

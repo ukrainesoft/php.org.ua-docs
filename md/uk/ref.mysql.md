@@ -1,16 +1,11 @@
-Функції СУБД MySQL
-
--   [« Оглядовий приклад модуля MySQL](mysql.examples-basic.html)
-    
--   [mysqlaffectedrows »](function.mysql-affected-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL (Original)](book.mysql.html)
-    
--   Функції СУБД MySQL
-    
-
+---
+navigation:
+  - mysql.examples-basic.html: « Оглядовий приклад модуля MySQL
+  - function.mysql-affected-rows.html: mysqlaffectedrows »
+  - index.html: PHP Manual
+  - book.mysql.html: MySQL (Original)
+title: Функції СУБД MySQL
+---
 # Функції СУБД MySQL
 
 ## Примітки

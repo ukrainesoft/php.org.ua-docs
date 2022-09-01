@@ -1,16 +1,11 @@
-Викликає callback-функцію, задану першим параметром
-
--   [« SwooleCoroutine::calluserfuncarray](swoole-coroutine.call-user-func-array.html)
-    
--   [SwooleCoroutine::cliwait »](swoole-coroutine.cli-wait.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Викликає callback-функцію, задану першим параметром
-    
-
+---
+navigation:
+  - swoole-coroutine.call-user-func-array.html: '« SwooleCoroutine::calluserfuncarray'
+  - swoole-coroutine.cli-wait.html: 'SwooleCoroutine::cliwait »'
+  - index.html: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutine::calluserfunc'
+---
 # SwooleCoroutine::calluserfunc
 
 (PECL swoole >= 2.0.0)

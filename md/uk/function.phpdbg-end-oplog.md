@@ -1,16 +1,11 @@
-Опис
-
--   [« phpdbgcolor](function.phpdbg-color.html)
-    
--   [phpdbgexec »](function.phpdbg-exec.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - function.phpdbg-color.html: « phpdbgcolor
+  - function.phpdbg-exec.html: phpdbgexec »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgendoplog
+---
 # phpdbgendoplog
 
 (PHP 7, PHP 8)

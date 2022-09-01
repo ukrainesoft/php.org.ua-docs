@@ -1,16 +1,11 @@
-Додає або видаляє профіль зображення
-
--   [« Imagick::previousImage](imagick.previousimage.md)
-    
--   [Imagick::quantizeImage »](imagick.quantizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Додає або видаляє профіль зображення
-    
-
+---
+navigation:
+  - imagick.previousimage.md: '« Imagick::previousImage'
+  - imagick.quantizeimage.md: 'Imagick::quantizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::profileImage'
+---
 # Imagick::profileImage
 
 (PECL imagick 2, PECL imagick 3)

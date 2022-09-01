@@ -1,16 +1,11 @@
-Встановити завантажувач або заглушку в Phar-архів
-
--   [« Phar::setSignatureAlgorithm](phar.setsignaturealgorithm.md)
-    
--   [Phar::startBuffering »](phar.startbuffering.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Встановити завантажувач або заглушку в Phar-архів
-    
-
+---
+navigation:
+  - phar.setsignaturealgorithm.md: '« Phar::setSignatureAlgorithm'
+  - phar.startbuffering.md: 'Phar::startBuffering »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::setStub'
+---
 # Phar::setStub
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

@@ -1,16 +1,11 @@
-Зафарбовує канал непрозорості зображення
-
--   [« ImagickDraw::line](imagickdraw.line.html)
-    
--   [ImagickDraw::pathClose »](imagickdraw.pathclose.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Зафарбовує канал непрозорості зображення
-    
-
+---
+navigation:
+  - imagickdraw.line.html: '« ImagickDraw::line'
+  - imagickdraw.pathclose.html: 'ImagickDraw::pathClose »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::matte'
+---
 # ImagickDraw::matte
 
 (PECL imagick 2, PECL imagick 3)

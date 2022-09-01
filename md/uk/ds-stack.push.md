@@ -1,16 +1,11 @@
-Додає значення у стек
-
--   [« DsStack::pop](ds-stack.pop.html)
-    
--   [ДсStack::toArray »](ds-stack.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Додає значення у стек
-    
-
+---
+navigation:
+  - ds-stack.pop.html: '« DsStack::pop'
+  - ds-stack.toarray.html: 'ДсStack::toArray »'
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::push'
+---
 # ДсStack::push
 
 (PECL ds >= 1.0.0)

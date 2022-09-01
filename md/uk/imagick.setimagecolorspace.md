@@ -1,16 +1,11 @@
-Встановлює колірний простір зображення
-
--   [« Imagick::setImageColormapColor](imagick.setimagecolormapcolor.md)
-    
--   [Imagick::setImageCompose »](imagick.setimagecompose.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює колірний простір зображення
-    
-
+---
+navigation:
+  - imagick.setimagecolormapcolor.md: '« Imagick::setImageColormapColor'
+  - imagick.setimagecompose.md: 'Imagick::setImageCompose »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageColorspace'
+---
 # Imagick::setImageColorspace
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::blackThresholdImage](imagick.blackthresholdimage.md)
-    
--   [Imagick::blurImage »](imagick.blurimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.blackthresholdimage.md: '« Imagick::blackThresholdImage'
+  - imagick.blurimage.md: 'Imagick::blurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::blueShiftImage'
+---
 # Imagick::blueShiftImage
 
 (PECL imagick 3> = 3.3.0)

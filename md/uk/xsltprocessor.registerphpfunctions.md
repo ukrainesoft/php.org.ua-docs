@@ -1,16 +1,11 @@
-Включає можливість використовувати PHP функції як функції XSLT
-
--   [« XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.md)
-    
--   [XSLTProcessor::removeParameter »](xsltprocessor.removeparameter.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Включає можливість використовувати PHP функції як функції XSLT
-    
-
+---
+navigation:
+  - xsltprocessor.importstylesheet.md: '« XSLTProcessor::importStylesheet'
+  - xsltprocessor.removeparameter.md: 'XSLTProcessor::removeParameter »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::registerPHPFunctions'
+---
 # XSLTProcessor::registerPHPFunctions
 
 (PHP 5> = 5.0.4, PHP 7, PHP 8)

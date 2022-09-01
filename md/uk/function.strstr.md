@@ -1,16 +1,11 @@
-Знаходить перше входження підрядка
-
--   [« strspn](function.strspn.md)
-    
--   [strtok »](function.strtok.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Знаходить перше входження підрядка
-    
-
+---
+navigation:
+  - function.strspn.md: « strspn
+  - function.strtok.md: strtok »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strstr
+---
 # strstr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ strstr(string $haystack, string $needle, bool $before_needle = false): string|fa
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Передача цілого числа (int) `needle` більше не підтримується. |
-|        | Передача цілого числа (int) `needle` оголошено застарілою.    |
+| Версия | Описание |
+| --- | --- |
+|  | Передача цілого числа (int) `needle` більше не підтримується. |
+|  | Передача цілого числа (int) `needle` оголошено застарілою. |
 
 ### Приклади
 

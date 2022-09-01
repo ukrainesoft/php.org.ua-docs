@@ -1,16 +1,11 @@
-Читає дані з evbuffer та виснажує прочитані байти
-
--   [« EventBuffer::pullup](eventbuffer.pullup.md)
-    
--   [EventBuffer::readFrom »](eventbuffer.readfrom.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Читає дані з evbuffer та виснажує прочитані байти
-    
-
+---
+navigation:
+  - eventbuffer.pullup.md: '« EventBuffer::pullup'
+  - eventbuffer.readfrom.md: 'EventBuffer::readFrom »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::read'
+---
 # EventBuffer::read
 
 (PECL event >= 1.6.0)
@@ -41,8 +36,8 @@ public
 
 ### список змін
 
-| Версия           | Описание                                                                                                                                                                                      |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.6.0 | Перейменований з **EventBuffer::read()** (старе ім'я методу) **EventBuffer::read()**. . **EventBuffer::read()** тепер приймає лише аргумент `max_bytes`; повертає рядок замість цілого числа. |
 
 ### Дивіться також

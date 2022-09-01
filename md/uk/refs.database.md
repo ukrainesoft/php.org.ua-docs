@@ -1,16 +1,11 @@
-Модулі для роботи з базами даних
-
--   [« SodiumException](class.sodiumexception.html)
-    
--   [Рівні абстракції »](refs.database.abstract.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Модулі для роботи з базами даних
-    
-
+---
+navigation:
+  - class.sodiumexception.html: « SodiumException
+  - refs.database.abstract.html: Рівні абстракції »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Модулі для роботи з базами даних
+---
 # Модулі для роботи з базами даних
 
 -   [Рівні абстракції](refs.database.abstract.html)

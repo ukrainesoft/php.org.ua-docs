@@ -1,16 +1,11 @@
-while
-
--   [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.html)
-    
--   [do-while »](control-structures.do.while.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   while
-    
-
+---
+navigation:
+  - control-structures.alternative-syntax.html: Альтернативний синтаксис керуючих структур
+  - control-structures.do.while.html: do-while »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: while
+---
 ## while
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

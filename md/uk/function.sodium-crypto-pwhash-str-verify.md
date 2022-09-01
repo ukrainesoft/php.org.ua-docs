@@ -1,16 +1,11 @@
-Перевіряє, що пароль відповідає хешу
-
--   [« sodiumcryptopwhashstrneedsrehash](function.sodium-crypto-pwhash-str-needs-rehash.html)
-    
--   [sodiumcryptopwhashstr »](function.sodium-crypto-pwhash-str.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перевіряє, що пароль відповідає хешу
-    
-
+---
+navigation:
+  - function.sodium-crypto-pwhash-str-needs-rehash.html: « sodiumcryptopwhashstrneedsrehash
+  - function.sodium-crypto-pwhash-str.html: sodiumcryptopwhashstr »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptopwhashstrverify
+---
 # sodiumcryptopwhashstrverify
 
 (PHP 7> = 7.2.0, PHP 8)

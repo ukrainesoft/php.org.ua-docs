@@ -1,16 +1,11 @@
-Завершує роботу сокету на отримання та/або відправлення даних
-
--   [« socketsetopt](function.socket-setopt.html)
-    
--   [socketstrerror »](function.socket-strerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Завершує роботу сокету на отримання та/або відправлення даних
-    
-
+---
+navigation:
+  - function.socket-setopt.html: « socketsetopt
+  - function.socket-strerror.html: socketstrerror »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketshutdown
+---
 # socketshutdown
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -47,6 +42,6 @@ socket_shutdown(Socket $socket, int $mode = 2): bool
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |

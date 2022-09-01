@@ -1,16 +1,11 @@
-Різкість зображення
-
--   [« Imagick::uniqueImageColors](imagick.uniqueimagecolors.md)
-    
--   [Imagick::valid »](imagick.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Різкість зображення
-    
-
+---
+navigation:
+  - imagick.uniqueimagecolors.md: '« Imagick::uniqueImageColors'
+  - imagick.valid.md: 'Imagick::valid »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::unsharpMaskImage'
+---
 # Imagick::unsharpMaskImage
 
 (PECL imagick 2, PECL imagick 3)

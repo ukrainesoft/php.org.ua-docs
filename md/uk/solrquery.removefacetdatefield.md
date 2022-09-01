@@ -1,16 +1,11 @@
-Видаляє одне з полів дати фасету
-
--   [« SolrQuery::removeExpandSortField](solrquery.removeexpandsortfield.html)
-    
--   [SolrQuery::removeFacetDateOther »](solrquery.removefacetdateother.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Видаляє одне з полів дати фасету
-    
-
+---
+navigation:
+  - solrquery.removeexpandsortfield.html: '« SolrQuery::removeExpandSortField'
+  - solrquery.removefacetdateother.html: 'SolrQuery::removeFacetDateOther »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::removeFacetDateField'
+---
 # SolrQuery::removeFacetDateField
 
 (PECL solr> = 0.9.2)

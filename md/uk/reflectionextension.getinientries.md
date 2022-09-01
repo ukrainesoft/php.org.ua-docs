@@ -1,16 +1,11 @@
-Отримання ini-налаштувань модуля
-
--   [« ReflectionExtension::getFunctions](reflectionextension.getfunctions.md)
-    
--   [ReflectionExtension::getName »](reflectionextension.getname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Отримання ini-налаштувань модуля
-    
-
+---
+navigation:
+  - reflectionextension.getfunctions.md: '« ReflectionExtension::getFunctions'
+  - reflectionextension.getname.md: 'ReflectionExtension::getName »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::getINIEntries'
+---
 # ReflectionExtension::getINIEntries
 
 (PHP 5, PHP 7, PHP 8)

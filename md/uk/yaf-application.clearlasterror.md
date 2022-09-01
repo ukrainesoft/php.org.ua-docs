@@ -1,16 +1,11 @@
-Очищення інформації з останньої помилки
-
--   [« YafApplication::bootstrap](yaf-application.bootstrap.html)
-    
--   [YafApplication::construct »](yaf-application.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Очищення інформації з останньої помилки
-    
-
+---
+navigation:
+  - yaf-application.bootstrap.html: '« YafApplication::bootstrap'
+  - yaf-application.construct.html: 'YafApplication::construct »'
+  - index.md: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::clearLastError'
+---
 # YafApplication::clearLastError
 
 (Yaf> = 2.1.2)

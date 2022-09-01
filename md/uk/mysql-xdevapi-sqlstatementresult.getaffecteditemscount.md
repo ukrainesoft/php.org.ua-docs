@@ -1,16 +1,11 @@
-Отримує порушену кількість рядків
-
--   [« SqlStatementResult::fetchOne](mysql-xdevapi-sqlstatementresult.fetchone.html)
-    
--   [SqlStatementResult::getColumnsCount »](mysql-xdevapi-sqlstatementresult.getcolumncount.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує порушену кількість рядків
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.fetchone.html: '« SqlStatementResult::fetchOne'
+  - mysql-xdevapi-sqlstatementresult.getcolumncount.html: 'SqlStatementResult::getColumnsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getAffectedItemsCount'
+---
 # SqlStatementResult::getAffectedItemsCount
 
 (No version information available, might only be in Git)

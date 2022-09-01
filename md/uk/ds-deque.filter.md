@@ -1,16 +1,11 @@
-Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
-
--   [« DsDeque::count](ds-deque.count.html)
-    
--   [ДсDeque::find »](ds-deque.find.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
-    
-
+---
+navigation:
+  - ds-deque.count.html: '« DsDeque::count'
+  - ds-deque.find.html: 'ДсDeque::find »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::filter'
+---
 # ДсDeque::filter
 
 (PECL ds >= 1.0.0)

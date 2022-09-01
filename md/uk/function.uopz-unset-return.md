@@ -1,16 +1,11 @@
-Скасує раніше встановлене значення, що повертається для функції
-
--   [« uopzunsetmock](function.uopz-unset-mock.html)
-    
--   [WinCache »](book.wincache.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Скасує раніше встановлене значення, що повертається для функції
-    
-
+---
+navigation:
+  - function.uopz-unset-mock.html: « uopzunsetmock
+  - book.wincache.html: WinCache »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzunsetreturn
+---
 # uopzunsetreturn
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

@@ -1,16 +1,11 @@
-Перевіряє, чи існує опис файлу
-
--   [« SwooleWebSocketServer](class.swoole-websocket-server.html)
-    
--   [SwooleWebSocketServer::on »](swoole-websocket-server.on.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleWebSocketServer](class.swoole-websocket-server.html)
-    
--   Перевіряє, чи існує опис файлу
-    
-
+---
+navigation:
+  - class.swoole-websocket-server.html: « SwooleWebSocketServer
+  - swoole-websocket-server.on.html: 'SwooleWebSocketServer::on »'
+  - index.md: PHP Manual
+  - class.swoole-websocket-server.html: SwooleWebSocketServer
+title: 'SwooleWebSocketServer::exist'
+---
 # SwooleWebSocketServer::exist
 
 (PECL swoole >= 1.9.0)

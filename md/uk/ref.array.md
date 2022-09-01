@@ -1,16 +1,11 @@
-Функції для роботи з масивами
-
--   [« Сортування масивів](array.sorting.html)
-    
--   [arraychangekeycase »](function.array-change-key-case.html)
-    
--   [PHP Manual](index.html)
-    
--   [Масиви](book.array.html)
-    
--   Функції для роботи з масивами
-    
-
+---
+navigation:
+  - array.sorting.html: « Сортування масивів
+  - function.array-change-key-case.html: arraychangekeycase »
+  - index.html: PHP Manual
+  - book.array.html: Масиви
+title: Функції для роботи з масивами
+---
 # Функції для роботи з масивами
 
 # Дивіться також

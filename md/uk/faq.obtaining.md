@@ -1,16 +1,11 @@
-Отримання PHP
-
--   [« Списки розсилки](faq.mailinglist.md)
-    
--   [Питання щодо баз даних »](faq.databases.md)
-    
--   [PHP Manual](index.md)
-    
--   [ЧАВО](faq.md)
-    
--   Отримання PHP
-    
-
+---
+navigation:
+  - faq.mailinglist.md: « Списки розсилки
+  - faq.databases.md: Питання щодо баз даних »
+  - index.md: PHP Manual
+  - faq.md: ЧАВО
+title: Отримання PHP
+---
 # Отримання PHP
 
 Цей розділ містить інформацію про те, де отримати PHP та питання, що стосуються OC.

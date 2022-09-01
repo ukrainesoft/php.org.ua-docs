@@ -1,16 +1,11 @@
-Малює всі попередні команди малювання на зображенні
-
--   [« ImagickDraw::rectangle](imagickdraw.rectangle.md)
-    
--   [ImagickDraw::resetVectorGraphics »](imagickdraw.resetvectorgraphics.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює всі попередні команди малювання на зображенні
-    
-
+---
+navigation:
+  - imagickdraw.rectangle.md: '« ImagickDraw::rectangle'
+  - imagickdraw.resetvectorgraphics.md: 'ImagickDraw::resetVectorGraphics »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::render'
+---
 # ImagickDraw::render
 
 (PECL imagick 2, PECL imagick 3)

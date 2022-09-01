@@ -1,16 +1,11 @@
-Псевдонім Event::add
-
--   [« Event::addSignal](event.addsignal.html)
-    
--   [Event::construct »](event.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Event](class.event.html)
-    
--   Псевдонім Event::add
-    
-
+---
+navigation:
+  - event.addsignal.html: '« Event::addSignal'
+  - event.construct.html: 'Event::construct »'
+  - index.html: PHP Manual
+  - class.event.html: Event
+title: 'Event::addTimer'
+---
 # Event::addTimer
 
 (PECL event >= 1.2.6-beta)

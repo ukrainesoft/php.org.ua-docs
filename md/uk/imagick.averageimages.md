@@ -1,16 +1,11 @@
-Усереднює набір зображень
-
--   [« Imagick::autoLevelImage](imagick.autolevelimage.md)
-    
--   [Imagick::blackThresholdImage »](imagick.blackthresholdimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Усереднює набір зображень
-    
-
+---
+navigation:
+  - imagick.autolevelimage.md: '« Imagick::autoLevelImage'
+  - imagick.blackthresholdimage.md: 'Imagick::blackThresholdImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::averageImages'
+---
 # Imagick::averageImages
 
 (PECL imagick 2, PECL imagick 3)

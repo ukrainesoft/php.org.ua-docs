@@ -1,16 +1,11 @@
-Порівняти значення атрибута, знайденого у записі певної DN
-
--   [« ldapclose](function.ldap-close.html)
-    
--   [ldapconnect »](function.ldap-connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Порівняти значення атрибута, знайденого у записі певної DN
-    
-
+---
+navigation:
+  - function.ldap-close.html: « ldapclose
+  - function.ldap-connect.html: ldapconnect »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapcompare
+---
 # ldapcompare
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -53,11 +48,11 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $at
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 

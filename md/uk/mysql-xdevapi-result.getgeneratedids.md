@@ -1,16 +1,11 @@
-Отримує згенеровані ідентифікатори
-
--   [« Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.html)
-    
--   [Result::getWarnings »](mysql-xdevapi-result.getwarnings.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiResult](class.mysql-xdevapi-result.html)
-    
--   Отримує згенеровані ідентифікатори
-    
-
+---
+navigation:
+  - mysql-xdevapi-result.getautoincrementvalue.html: '« Result::getAutoIncrementValue'
+  - mysql-xdevapi-result.getwarnings.html: 'Result::getWarnings »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+title: 'Result::getGeneratedIds'
+---
 # Result::getGeneratedIds
 
 (No version information available, might only be in Git)

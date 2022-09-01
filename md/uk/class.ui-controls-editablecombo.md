@@ -1,16 +1,11 @@
-Редагований елемент управління "Комбо"
-
--   [« UIControlsCombo::setSelected](ui-controls-combo.setselected.html)
-    
--   [ОЙControlsEditableCombo::append »](ui-controls-editablecombo.append.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Редагований елемент управління "Комбо"
-    
-
+---
+navigation:
+  - ui-controls-combo.setselected.html: '« UIControlsCombo::setSelected'
+  - ui-controls-editablecombo.append.html: 'ОЙControlsEditableCombo::append »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Редагований елемент управління "Комбо"
+---
 # Редагований елемент управління "Комбо"
 
 (UI 0.9.9)

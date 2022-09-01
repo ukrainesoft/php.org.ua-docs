@@ -1,16 +1,11 @@
-Функціональність, оголошена застарілою PHP 7.0.x
-
--   [« Новая функциональность](migration70.new-features.html)
-    
--   [Змінені функції »](migration70.changed-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
-    
--   Функціональність, оголошена застарілою PHP 7.0.x
-    
-
+---
+navigation:
+  - migration70.new-features.html: « Новая функциональность
+  - migration70.changed-functions.html: Змінені функції »
+  - index.md: PHP Manual
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+title: 'Функціональність, оголошена застарілою PHP 7.0.x'
+---
 ## Функціональність, оголошена застарілою PHP 7.0.x
 
 ### Конструктори у стилі PHP 4

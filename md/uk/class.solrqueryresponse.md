@@ -1,16 +1,11 @@
-Клас SolrQueryResponse
-
--   [« SolrResponse::success](solrresponse.success.md)
-    
--   [SolrQueryResponse::construct »](solrqueryresponse.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrQueryResponse
-    
-
+---
+navigation:
+  - solrresponse.success.md: '« SolrResponse::success'
+  - solrqueryresponse.construct.md: 'SolrQueryResponse::construct »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrQueryResponse
+---
 # Клас SolrQueryResponse
 
 (PECL solr> = 0.9.2)

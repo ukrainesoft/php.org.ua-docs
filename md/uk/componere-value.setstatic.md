@@ -1,16 +1,11 @@
-Зміна доступності
-
--   [« ComponereValue::setProtected](componere-value.setprotected.html)
-    
--   [ComponereValue::isPrivate »](componere-value.isprivate.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereValue](class.componere-value.html)
-    
--   Зміна доступності
-    
-
+---
+navigation:
+  - componere-value.setprotected.html: '« ComponereValue::setProtected'
+  - componere-value.isprivate.html: 'ComponereValue::isPrivate »'
+  - index.md: PHP Manual
+  - class.componere-value.html: ComponereValue
+title: 'ComponereValue::setStatic'
+---
 # ComponereValue::setStatic
 
 (Componere 2 >= 2.1.0)

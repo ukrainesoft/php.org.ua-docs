@@ -1,16 +1,11 @@
-GNU Readline
-
--   [« Модулі для роботи з командним рядком](refs.utilspec.cmdline.md)
-    
--   [Введение »](intro.readline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з командним рядком](refs.utilspec.cmdline.md)
-    
--   GNU Readline
-    
-
+---
+navigation:
+  - refs.utilspec.cmdline.md: « Модулі для роботи з командним рядком
+  - intro.readline.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.cmdline.md: Модулі для роботи з командним рядком
+title: GNU Readline
+---
 # GNU Readline
 
 -   [Введение](intro.readline.md)

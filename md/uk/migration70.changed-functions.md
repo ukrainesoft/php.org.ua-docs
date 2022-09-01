@@ -1,16 +1,11 @@
-Змінені функції
-
--   [« Функціональність, оголошена застарілою в PHP 7.0.x](migration70.deprecated.html)
-    
--   [Нові функції »](migration70.new-functions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
-    
--   Змінені функції
-    
-
+---
+navigation:
+  - migration70.deprecated.html: '« Функціональність, оголошена застарілою в PHP 7.0.x'
+  - migration70.new-functions.html: Нові функції »
+  - index.html: PHP Manual
+  - migration70.html: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Змінені функції
+---
 ## Змінені функції
 
 ### Ядро PHP

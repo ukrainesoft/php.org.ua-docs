@@ -1,16 +1,11 @@
-Змінні HTTP-запиту
-
--   [FILES](reserved.variables.files.md)
-    
--   [SESSION »](reserved.variables.session.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Змінні HTTP-запиту
-    
-
+---
+navigation:
+  - reserved.variables.files.md: FILES
+  - reserved.variables.session.md: SESSION »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: REQUEST
+---
 # REQUEST
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

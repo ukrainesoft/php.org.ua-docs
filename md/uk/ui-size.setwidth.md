@@ -1,16 +1,11 @@
-Встановити ширину
-
--   [« UISize::setHeight](ui-size.setheight.html)
-    
--   [ОЙWindow »](class.ui-window.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙSize](class.ui-size.html)
-    
--   Встановити ширину
-    
-
+---
+navigation:
+  - ui-size.setheight.html: '« UISize::setHeight'
+  - class.ui-window.html: ОЙWindow »
+  - index.html: PHP Manual
+  - class.ui-size.html: ОЙSize
+title: 'ОЙSize::setWidth'
+---
 # ОЙSize::setWidth
 
 (UI 0.9.9)

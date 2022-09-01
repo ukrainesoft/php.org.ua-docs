@@ -1,16 +1,11 @@
-CompileError
-
--   [« DivisionByZeroError](class.divisionbyzeroerror.md)
-    
--   [ParseError »](class.parseerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   CompileError
-    
-
+---
+navigation:
+  - class.divisionbyzeroerror.md: « DivisionByZeroError
+  - class.parseerror.md: ParseError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: CompileError
+---
 # CompileError
 
 (PHP 7> 7.3.0, PHP 8)

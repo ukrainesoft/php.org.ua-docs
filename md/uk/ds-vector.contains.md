@@ -1,16 +1,11 @@
-Перевіряє, чи міститься у векторі задані значення
-
--   [« DsVector::construct](ds-vector.construct.html)
-    
--   [ДсVector::copy »](ds-vector.copy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Перевіряє, чи міститься у векторі задані значення
-    
-
+---
+navigation:
+  - ds-vector.construct.html: '« DsVector::construct'
+  - ds-vector.copy.html: 'ДсVector::copy »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::contains'
+---
 # ДсVector::contains
 
 (PECL ds >= 1.0.0)

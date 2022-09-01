@@ -1,16 +1,11 @@
-Застосувати звичайний патч до рядка
-
--   [xdiffstringpatchbinary](function.xdiff-string-patch-binary.html)
-    
--   [xdiffstringrabdiff »](function.xdiff-string-rabdiff.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Застосувати звичайний патч до рядка
-    
-
+---
+navigation:
+  - function.xdiff-string-patch-binary.html: xdiffstringpatchbinary
+  - function.xdiff-string-rabdiff.html: xdiffstringrabdiff »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdiffstringpatch
+---
 # xdiffstringpatch
 
 (PECL xdiff >= 0.2.0)

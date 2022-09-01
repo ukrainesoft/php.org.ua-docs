@@ -1,16 +1,11 @@
-Встановлює параметр автентифікації
-
--   [« svnauthgetparameter](function.svn-auth-get-parameter.html)
-    
--   [svnblame »](function.svn-blame.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Встановлює параметр автентифікації
-    
-
+---
+navigation:
+  - function.svn-auth-get-parameter.html: « svnauthgetparameter
+  - function.svn-blame.html: svnblame »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnauthsetparameter
+---
 # svnauthsetparameter
 
 (PECL svn >= 0.1.0)

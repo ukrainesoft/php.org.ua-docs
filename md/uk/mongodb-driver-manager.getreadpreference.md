@@ -1,16 +1,11 @@
-Повертає ReadPreference для Manager
-
--   [« MongoDBDriverManager::getReadConcern](mongodb-driver-manager.getreadconcern.html)
-    
--   [MongoDBDriverManager::getServers »](mongodb-driver-manager.getservers.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Повертає ReadPreference для Manager
-    
-
+---
+navigation:
+  - mongodb-driver-manager.getreadconcern.html: '« MongoDBDriverManager::getReadConcern'
+  - mongodb-driver-manager.getservers.html: 'MongoDBDriverManager::getServers »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::getReadPreference'
+---
 # MongoDBDriverManager::getReadPreference
 
 (mongodb >=1.0.0)

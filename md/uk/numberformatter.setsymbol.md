@@ -1,16 +1,11 @@
-Встановлює значення символу
-
--   [« NumberFormatter::setPattern](numberformatter.setpattern.md)
-    
--   [NumberFormatter::setTextAttribute »](numberformatter.settextattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Встановлює значення символу
-    
-
+---
+navigation:
+  - numberformatter.setpattern.md: '« NumberFormatter::setPattern'
+  - numberformatter.settextattribute.md: 'NumberFormatter::setTextAttribute »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::setSymbol'
+---
 # NumberFormatter::setSymbol
 
 # numfmtsetsymbol

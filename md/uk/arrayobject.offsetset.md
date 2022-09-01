@@ -1,16 +1,11 @@
-Встановлює нове значення за вказаним індексом
-
--   [« ArrayObject::offsetGet](arrayobject.offsetget.md)
-    
--   [ArrayObject::offsetUnset »](arrayobject.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Встановлює нове значення за вказаним індексом
-    
-
+---
+navigation:
+  - arrayobject.offsetget.md: '« ArrayObject::offsetGet'
+  - arrayobject.offsetunset.md: 'ArrayObject::offsetUnset »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::offsetSet'
+---
 # ArrayObject::offsetSet
 
 (PHP 5, PHP 7, PHP 8)

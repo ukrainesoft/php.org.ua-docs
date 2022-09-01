@@ -1,16 +1,11 @@
-Повертає статус файлу
-
--   [« eiolink](function.eio-link.html)
-    
--   [eiomkdir »](function.eio-mkdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Повертає статус файлу
-    
-
+---
+navigation:
+  - function.eio-link.html: « eiolink
+  - function.eio-mkdir.html: eiomkdir »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiolstat
+---
 # eiolstat
 
 (PECL eio >= 0.0.1dev)

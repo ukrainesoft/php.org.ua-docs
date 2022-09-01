@@ -1,16 +1,11 @@
-Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
-
--   [« eiosymlink](function.eio-symlink.html)
-    
--   [eiosync »](function.eio-sync.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
-    
-
+---
+navigation:
+  - function.eio-symlink.html: « eiosymlink
+  - function.eio-sync.html: eiosync »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiosyncfilerange
+---
 # eiosyncfilerange
 
 (PECL eio >= 0.0.1dev)

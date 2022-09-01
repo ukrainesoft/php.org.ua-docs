@@ -1,16 +1,11 @@
-Створює директорію
-
--   [« ftpmdtm](function.ftp-mdtm.html)
-    
--   [ftpmlsd »](function.ftp-mlsd.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Створює директорію
-    
-
+---
+navigation:
+  - function.ftp-mdtm.html: « ftpmdtm
+  - function.ftp-mlsd.html: ftpmlsd »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpmkdir
+---
 # ftpmkdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ ftp_mkdir(FTP\Connection $ftp, string $directory): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Клас SolrIllegalArgumentException
-
--   [« SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.md)
-    
--   [SolrIllegalArgumentException::getInternalInfo »](solrillegalargumentexception.getinternalinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrIllegalArgumentException
-    
-
+---
+navigation:
+  - solrserverexception.getinternalinfo.md: '« SolrServerException::getInternalInfo'
+  - solrillegalargumentexception.getinternalinfo.md: 'SolrIllegalArgumentException::getInternalInfo »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrIllegalArgumentException
+---
 # Клас SolrIllegalArgumentException
 
 (PECL solr> = 0.9.2)

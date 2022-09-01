@@ -1,16 +1,11 @@
-Створює асинхронний HTTP-клієнт
-
--   [« SwooleHttpClient::close](swoole-http-client.close.html)
-    
--   [SwooleHttpClient::destruct »](swoole-http-client.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Створює асинхронний HTTP-клієнт
-    
-
+---
+navigation:
+  - swoole-http-client.close.html: '« SwooleHttpClient::close'
+  - swoole-http-client.destruct.html: 'SwooleHttpClient::destruct »'
+  - index.html: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::construct'
+---
 # SwooleHttpClient::construct
 
 (PECL swoole >= 1.9.0)

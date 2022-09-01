@@ -1,16 +1,11 @@
-Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки
-
--   [« posixsetuid](function.posix-setuid.html)
-    
--   [posixtimes »](function.posix-times.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки
-    
-
+---
+navigation:
+  - function.posix-setuid.html: « posixsetuid
+  - function.posix-times.html: posixtimes »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixstrerror
+---
 # posixstrerror
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

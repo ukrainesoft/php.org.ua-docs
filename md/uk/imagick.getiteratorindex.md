@@ -1,16 +1,11 @@
-Повертає індекс поточного активного зображення
-
--   [« Imagick::getInterlaceScheme](imagick.getinterlacescheme.html)
-    
--   [Imagick::getNumberImages »](imagick.getnumberimages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає індекс поточного активного зображення
-    
-
+---
+navigation:
+  - imagick.getinterlacescheme.html: '« Imagick::getInterlaceScheme'
+  - imagick.getnumberimages.html: 'Imagick::getNumberImages »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getIteratorIndex'
+---
 # Imagick::getIteratorIndex
 
 (PECL imagick 2, PECL imagick 3)

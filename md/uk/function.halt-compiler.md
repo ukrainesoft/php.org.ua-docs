@@ -1,16 +1,11 @@
-Зупиняє роботу компілятора
-
--   [« getbrowser](function.get-browser.html)
-    
--   [highlightfile »](function.highlight-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Зупиняє роботу компілятора
-    
-
+---
+navigation:
+  - function.get-browser.html: « getbrowser
+  - function.highlight-file.html: highlightfile »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: haltcompiler
+---
 # haltcompiler
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

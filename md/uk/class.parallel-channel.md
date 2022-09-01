@@ -1,16 +1,11 @@
-Клас parallelChannel
-
--   [« parallelFuture::value](parallel-future.value.html)
-    
--   [parallelChannel::construct »](parallel-channel.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallel](book.parallel.html)
-    
--   Клас parallelChannel
-    
-
+---
+navigation:
+  - parallel-future.value.html: '« parallelFuture::value'
+  - parallel-channel.construct.html: 'parallelChannel::construct »'
+  - index.html: PHP Manual
+  - book.parallel.html: parallel
+title: Клас parallelChannel
+---
 # Клас parallelChannel
 
 ## Небуферизовані канали

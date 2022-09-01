@@ -1,16 +1,11 @@
-Закриває дескриптор ZIP-архіву
-
--   [« Функции Zip](ref.zip.md)
-    
--   [zipentryclose »](function.zip-entry-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zip](ref.zip.md)
-    
--   Закриває дескриптор ZIP-архіву
-    
-
+---
+navigation:
+  - ref.zip.md: « Функции Zip
+  - function.zip-entry-close.html: zipentryclose »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipclose
+---
 # zipclose
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -41,9 +36,9 @@ ZIP-файл має бути відкритий за допомогою функ
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md) |
 
 ### Дивіться також
 

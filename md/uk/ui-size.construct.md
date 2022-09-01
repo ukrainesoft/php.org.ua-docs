@@ -1,16 +1,11 @@
-Створити новий об'єкт Size
-
--   [« UISize](class.ui-size.html)
-    
--   [ОЙSize::getHeight »](ui-size.getheight.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙSize](class.ui-size.html)
-    
--   Створити новий об'єкт Size
-    
-
+---
+navigation:
+  - class.ui-size.html: « UISize
+  - ui-size.getheight.html: 'ОЙSize::getHeight »'
+  - index.html: PHP Manual
+  - class.ui-size.html: ОЙSize
+title: 'ОЙSize::construct'
+---
 # ОЙSize::construct
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Переклад файлового покажчика на заданий рядок
-
--   [« SplFileObject::rewind](splfileobject.rewind.md)
-    
--   [SplFileObject::setCsvControl »](splfileobject.setcsvcontrol.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Переклад файлового покажчика на заданий рядок
-    
-
+---
+navigation:
+  - splfileobject.rewind.md: '« SplFileObject::rewind'
+  - splfileobject.setcsvcontrol.md: 'SplFileObject::setCsvControl »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::seek'
+---
 # SplFileObject::seek
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

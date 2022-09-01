@@ -1,16 +1,11 @@
-Повертає тип інтернет-з'єднання
-
--   [« geoipdomainбname](function.geoip-domain-by-name.html)
-    
--   [geoipispбname »](function.geoip-isp-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Повертає тип інтернет-з'єднання
-    
-
+---
+navigation:
+  - function.geoip-domain-by-name.html: « geoipdomainбname
+  - function.geoip-isp-by-name.html: geoipispбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipідбname
+---
 # geoipідбname
 
 (PECL geoip >= 0.2.0)

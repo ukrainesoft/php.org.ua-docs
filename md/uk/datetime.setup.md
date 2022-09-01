@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.datetime.md)
-    
--   [Вимоги »](datetime.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Дата/время](book.datetime.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.datetime.md: « Введение
+  - datetime.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Масив переданих скрипту аргументів
-
--   [« $argc](reserved.variables.argc.md)
-    
--   [Обумовлені винятки »](reserved.exceptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Масив переданих скрипту аргументів
-    
-
+---
+navigation:
+  - reserved.variables.argc.md: « $argc
+  - reserved.exceptions.md: Обумовлені винятки »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: $argv
+---
 # $argv
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

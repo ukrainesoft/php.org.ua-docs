@@ -1,16 +1,11 @@
-Отримує поточну силу зіставлення
-
--   [« Collator::getSortKey](collator.getsortkey.md)
-    
--   [Collator::setAttribute »](collator.setattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Отримує поточну силу зіставлення
-    
-
+---
+navigation:
+  - collator.getsortkey.md: '« Collator::getSortKey'
+  - collator.setattribute.md: 'Collator::setAttribute »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::getStrength'
+---
 # Collator::getStrength
 
 # collatorgetstrength

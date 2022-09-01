@@ -1,16 +1,11 @@
-Арифметичний вектор поділу
-
--   [« traderdema](function.trader-dema.html)
-    
--   [traderdx »](function.trader-dx.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Арифметичний вектор поділу
-    
-
+---
+navigation:
+  - function.trader-dema.html: « traderdema
+  - function.trader-dx.html: traderdx »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderdiv
+---
 # traderdiv
 
 (PECL trader >= 0.2.0)

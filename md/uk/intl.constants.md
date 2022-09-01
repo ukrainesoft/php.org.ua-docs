@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](intl.resources.md)
-    
--   [Приклади »](intl.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - intl.resources.md: « Типи ресурсів
+  - intl.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 **`INTL_ICU_VERSION`** (string)

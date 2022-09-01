@@ -1,16 +1,11 @@
-MESA Адаптивна ковзна середня
-
--   [« tradermacdfix](function.trader-macdfix.html)
-    
--   [tradermavp »](function.trader-mavp.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   MESA Адаптивна ковзна середня
-    
-
+---
+navigation:
+  - function.trader-macdfix.html: « tradermacdfix
+  - function.trader-mavp.html: tradermavp »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermama
+---
 # tradermama
 
 (PECL trader >= 0.2.0)

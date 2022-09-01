@@ -1,16 +1,11 @@
-Оновлює параметри HTTP-клієнта
-
--   [« SwooleHttpClient::push](swoole-http-client.push.html)
-    
--   [SwooleHttpClient::setCookies »](swoole-http-client.setcookies.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Оновлює параметри HTTP-клієнта
-    
-
+---
+navigation:
+  - swoole-http-client.push.html: '« SwooleHttpClient::push'
+  - swoole-http-client.setcookies.html: 'SwooleHttpClient::setCookies »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::set'
+---
 # SwooleHttpClient::set
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Додає ще один параметр facet.date.other
-
--   [« SolrQuery::addFacetDateField](solrquery.addfacetdatefield.md)
-    
--   [SolrQuery::addFacetField »](solrquery.addfacetfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Додає ще один параметр facet.date.other
-    
-
+---
+navigation:
+  - solrquery.addfacetdatefield.md: '« SolrQuery::addFacetDateField'
+  - solrquery.addfacetfield.md: 'SolrQuery::addFacetField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addFacetDateOther'
+---
 # SolrQuery::addFacetDateOther
 
 (PECL solr> = 0.9.2)

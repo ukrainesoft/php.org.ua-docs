@@ -1,16 +1,11 @@
-Нові можливості
-
--   [« Миграция с PHP 7.2.x на PHP 7.3.x](migration73.md)
-    
--   [Нові функції »](migration73.new-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.md)
-    
--   Нові можливості
-    
-
+---
+navigation:
+  - migration73.md: « Миграция с PHP 7.2.x на PHP 7.3.x
+  - migration73.new-functions.html: Нові функції »
+  - index.md: PHP Manual
+  - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
+title: Нові можливості
+---
 ## Нові можливості
 
 ### Ядро PHP

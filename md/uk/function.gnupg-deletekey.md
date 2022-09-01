@@ -1,16 +1,11 @@
-Видаляє ключ зі зв'язування ключів
-
--   [« gnupgdecryptverify](function.gnupg-decryptverify.html)
-    
--   [gnupgencrypt »](function.gnupg-encrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [GnuPG Функції](ref.gnupg.html)
-    
--   Видаляє ключ зі зв'язування ключів
-    
-
+---
+navigation:
+  - function.gnupg-decryptverify.html: « gnupgdecryptverify
+  - function.gnupg-encrypt.html: gnupgencrypt »
+  - index.html: PHP Manual
+  - ref.gnupg.html: GnuPG Функції
+title: gnupgdeletekey
+---
 # gnupgdeletekey
 
 (PECL gnupg >= 0.5)

@@ -1,16 +1,11 @@
-Створити бінарний патч для двох рядків
-
--   [xdiffstringbdiffsize](function.xdiff-string-bdiff-size.html)
-    
--   [xdiffstringbpatch »](function.xdiff-string-bpatch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Створити бінарний патч для двох рядків
-    
-
+---
+navigation:
+  - function.xdiff-string-bdiff-size.html: xdiffstringbdiffsize
+  - function.xdiff-string-bpatch.html: xdiffstringbpatch »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdiffstringbdiff
+---
 # xdiffstringbdiff
 
 (PECL xdiff >= 1.5.0)

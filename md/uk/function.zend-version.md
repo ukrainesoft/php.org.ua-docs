@@ -1,16 +1,11 @@
-Отримує версію двигуна Zend
-
--   [« zendthreadід](function.zend-thread-id.html)
-    
--   [phpdbg »](book.phpdbg.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримує версію двигуна Zend
-    
-
+---
+navigation:
+  - function.zend-thread-id.html: « zendthreadід
+  - book.phpdbg.md: phpdbg »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: zendversion
+---
 # zendversion
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

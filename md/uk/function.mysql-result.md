@@ -1,16 +1,11 @@
-Повертає дані результату запиту
-
--   [« mysqlrealescapestring](function.mysql-real-escape-string.html)
-    
--   [mysqlselectdb »](function.mysql-select-db.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає дані результату запиту
-    
-
+---
+navigation:
+  - function.mysql-real-escape-string.html: « mysqlrealescapestring
+  - function.mysql-select-db.html: mysqlselectdb »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlresult
+---
 # mysqlresult
 
 (PHP 4, PHP 5)

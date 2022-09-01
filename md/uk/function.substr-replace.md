@@ -1,16 +1,11 @@
-Замінює частину рядка
-
--   [« substrcount](function.substr-count.html)
-    
--   [substr »](function.substr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Замінює частину рядка
-    
-
+---
+navigation:
+  - function.substr-count.html: « substrcount
+  - function.substr.html: substr »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: substrreplace
+---
 # substrreplace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ substr_replace(    array|string $string,    array|string $replace,   
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 

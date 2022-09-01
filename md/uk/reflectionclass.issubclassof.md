@@ -1,16 +1,11 @@
-Перевіряє, чи клас підкласом
-
--   [« ReflectionClass::isIterateable](reflectionclass.isiterateable.html)
-    
--   [ReflectionClass::isTrait »](reflectionclass.istrait.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Перевіряє, чи клас підкласом
-    
-
+---
+navigation:
+  - reflectionclass.isiterateable.html: '« ReflectionClass::isIterateable'
+  - reflectionclass.istrait.html: 'ReflectionClass::isTrait »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::isSubclassOf'
+---
 # ReflectionClass::isSubclassOf
 
 (PHP 5, PHP 7, PHP 8)

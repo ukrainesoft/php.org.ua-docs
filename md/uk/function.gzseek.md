@@ -1,16 +1,11 @@
-Перемістити вказівник на позицію в покажчику gz-файлу
-
--   [« gzrewind](function.gzrewind.md)
-    
--   [gztell »](function.gztell.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Перемістити вказівник на позицію в покажчику gz-файлу
-    
-
+---
+navigation:
+  - function.gzrewind.md: « gzrewind
+  - function.gztell.md: gztell »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzseek
+---
 # gzseek
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

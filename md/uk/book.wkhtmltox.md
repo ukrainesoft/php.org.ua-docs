@@ -1,16 +1,11 @@
-wkhtmltox
-
--   [« gnupgverify](function.gnupg-verify.html)
-    
--   [Введение »](intro.wkhtmltox.html)
-    
--   [PHP Manual](index.html)
-    
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.html)
-    
--   wkhtmltox
-    
-
+---
+navigation:
+  - function.gnupg-verify.html: « gnupgverify
+  - intro.wkhtmltox.html: Введение »
+  - index.html: PHP Manual
+  - refs.utilspec.nontext.html: Генерація нетекстових MIME-форматів
+title: wkhtmltox
+---
 # wkhtmltox
 
 -   [Введение](intro.wkhtmltox.html)

@@ -1,26 +1,21 @@
-Налаштування під час виконання
-
--   [« Установка](tidy.installation.md)
-    
--   [Типи ресурсів »](tidy.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](tidy.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - tidy.installation.md: « Установка
+  - tidy.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - tidy.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Параметри конфігурації Tidy**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений |
-|-----------------------------------------------------------------------|--------------|-----------------|------------------|
-| [tidy.defaultconfig](tidy.configuration.html#ini.tidy.default-config) | ""           | PHPINISYSTEM    |                  |
-| [tidy.cleanoutput](tidy.configuration.html#ini.tidy.clean-output)     | "0"          | PHPINIUSER      |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [tidy.defaultconfig](tidy.configuration.html#ini.tidy.default-config) | "" | PHPINISYSTEM |  |
+| [tidy.cleanoutput](tidy.configuration.html#ini.tidy.clean-output) | "0" | PHPINIUSER |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

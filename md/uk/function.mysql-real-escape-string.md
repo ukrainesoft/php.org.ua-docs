@@ -1,16 +1,11 @@
-Екранує спеціальні символи в рядках для використання у виразах SQL
-
--   [« mysqlquery](function.mysql-query.html)
-    
--   [mysqlresult »](function.mysql-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Екранує спеціальні символи в рядках для використання у виразах SQL
-    
-
+---
+navigation:
+  - function.mysql-query.html: « mysqlquery
+  - function.mysql-result.html: mysqlresult »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlrealescapestring
+---
 # mysqlrealescapestring
 
 (PHP 4> = 4.3.0, PHP 5)

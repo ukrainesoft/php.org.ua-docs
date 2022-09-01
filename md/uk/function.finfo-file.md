@@ -1,16 +1,11 @@
-Повертає інформацію про файл
-
--   [« finfoclose](function.finfo-close.html)
-    
--   [finfoopen »](function.finfo-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции модуля Fileinfo](ref.fileinfo.html)
-    
--   Повертає інформацію про файл
-    
-
+---
+navigation:
+  - function.finfo-close.html: « finfoclose
+  - function.finfo-open.html: finfoopen »
+  - index.html: PHP Manual
+  - ref.fileinfo.html: Функции модуля Fileinfo
+title: finfofile
+---
 # finfofile
 
 # finfo::file
@@ -59,10 +54,10 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `context` тепер допускає значення null.                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 

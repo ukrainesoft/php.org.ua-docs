@@ -1,16 +1,11 @@
-Мінус-спрямований рух
-
--   [« traderminusді](function.trader-minus-di.html)
-    
--   [tradermom »](function.trader-mom.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Мінус-спрямований рух
-    
-
+---
+navigation:
+  - function.trader-minus-di.html: « traderminusді
+  - function.trader-mom.html: tradermom »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderminusдм
+---
 # traderminusдм
 
 (PECL trader >= 0.2.0)

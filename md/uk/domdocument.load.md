@@ -1,16 +1,11 @@
-Завантаження XML із файлу
-
--   [« DOMDocument::importNode](domdocument.importnode.html)
-    
--   [DOMDocument::loadHTML »](domdocument.loadhtml.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Завантаження XML із файлу
-    
-
+---
+navigation:
+  - domdocument.importnode.html: '« DOMDocument::importNode'
+  - domdocument.loadhtml.html: 'DOMDocument::loadHTML »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::load'
+---
 # DOMDocument::load
 
 (PHP 5, PHP 7, PHP 8)

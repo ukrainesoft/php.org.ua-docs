@@ -1,16 +1,11 @@
-Встановлює артефакт зображення
-
--   [« Imagick::setImageAlphaChannel](imagick.setimagealphachannel.md)
-    
--   [Imagick::setImageAttribute »](imagick.setimageattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює артефакт зображення
-    
-
+---
+navigation:
+  - imagick.setimagealphachannel.md: '« Imagick::setImageAlphaChannel'
+  - imagick.setimageattribute.md: 'Imagick::setImageAttribute »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageArtifact'
+---
 # Imagick::setImageArtifact
 
 (PECL imagick 3)

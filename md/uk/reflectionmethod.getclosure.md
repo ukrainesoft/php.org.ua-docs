@@ -1,16 +1,11 @@
-Повертає динамічно створене замикання для методу
-
--   [« ReflectionMethod::export](reflectionmethod.export.html)
-    
--   [ReflectionMethod::getDeclaringClass »](reflectionmethod.getdeclaringclass.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionMethod](class.reflectionmethod.html)
-    
--   Повертає динамічно створене замикання для методу
-    
-
+---
+navigation:
+  - reflectionmethod.export.html: '« ReflectionMethod::export'
+  - reflectionmethod.getdeclaringclass.html: 'ReflectionMethod::getDeclaringClass »'
+  - index.html: PHP Manual
+  - class.reflectionmethod.html: ReflectionMethod
+title: 'ReflectionMethod::getClosure'
+---
 # ReflectionMethod::getClosure
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)
@@ -39,6 +34,6 @@ public ReflectionMethod::getClosure(?object $object = null): Closure
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `object` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `object` тепер допускає значення null. |

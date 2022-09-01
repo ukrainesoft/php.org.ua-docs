@@ -1,16 +1,11 @@
-Клас SwooleHttpServer
-
--   [« SwooleHttpResponse::write](swoole-http-response.write.html)
-    
--   [SwooleHttpServer::on »](swoole-http-server.on.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleHttpServer
-    
-
+---
+navigation:
+  - swoole-http-response.write.html: '« SwooleHttpResponse::write'
+  - swoole-http-server.on.html: 'SwooleHttpServer::on »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleHttpServer
+---
 # Клас SwooleHttpServer
 
 (PECL swoole >= 1.9.0)

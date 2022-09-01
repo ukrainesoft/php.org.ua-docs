@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineHttpClient::setHeaders](swoole-coroutine-http-client.setheaders.html)
-    
--   [SwooleCoroutineMySQL::close »](swoole-coroutine-mysql.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-http-client.setheaders.html: '« SwooleCoroutineHttpClient::setHeaders'
+  - swoole-coroutine-mysql.close.html: 'SwooleCoroutineMySQL::close »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::setMethod'
+---
 # SwooleCoroutineHttpClient::setMethod
 
 (PECL swoole >= 2.0.0)

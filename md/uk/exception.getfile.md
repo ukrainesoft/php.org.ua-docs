@@ -1,16 +1,11 @@
-Отримує файл, у якому виник виняток
-
--   [« Exception::getCode](exception.getcode.md)
-    
--   [Exception::getLine »](exception.getline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Exception](class.exception.md)
-    
--   Отримує файл, у якому виник виняток
-    
-
+---
+navigation:
+  - exception.getcode.md: '« Exception::getCode'
+  - exception.getline.md: 'Exception::getLine »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
+title: 'Exception::getFile'
+---
 # Exception::getFile
 
 (PHP 5, PHP 7, PHP 8)

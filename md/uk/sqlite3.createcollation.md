@@ -1,16 +1,11 @@
-Реєструє функцію PHP для використання як функцію сортування SQL
-
--   [« SQLite3::createAggregate](sqlite3.createaggregate.md)
-    
--   [SQLite3::createFunction »](sqlite3.createfunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Реєструє функцію PHP для використання як функцію сортування SQL
-    
-
+---
+navigation:
+  - sqlite3.createaggregate.md: '« SQLite3::createAggregate'
+  - sqlite3.createfunction.md: 'SQLite3::createFunction »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::createCollation'
+---
 # SQLite3::createCollation
 
 (PHP 5> = 5.3.11, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Помножити матрицю
-
--   [« UIDrawMatrix::isInvertible](ui-draw-matrix.isinvertible.html)
-    
--   [ОЙDrawMatrix::rotate »](ui-draw-matrix.rotate.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawMatrix](class.ui-draw-matrix.html)
-    
--   Помножити матрицю
-    
-
+---
+navigation:
+  - ui-draw-matrix.isinvertible.html: '« UIDrawMatrix::isInvertible'
+  - ui-draw-matrix.rotate.html: 'ОЙDrawMatrix::rotate »'
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.html: ОЙDrawMatrix
+title: 'ОЙDrawMatrix::multiply'
+---
 # ОЙDrawMatrix::multiply
 
 (UI 0.9.9)

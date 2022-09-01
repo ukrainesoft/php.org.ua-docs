@@ -1,16 +1,11 @@
-Встановлює початковий розмір кроку
-
--   [« fannsetrpropdeltamin](function.fann-set-rprop-delta-min.html)
-    
--   [fannsetrpropincreasefactor »](function.fann-set-rprop-increase-factor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює початковий розмір кроку
-    
-
+---
+navigation:
+  - function.fann-set-rprop-delta-min.html: « fannsetrpropdeltamin
+  - function.fann-set-rprop-increase-factor.html: fannsetrpropincreasefactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetrpropdeltazero
+---
 # fannsetrpropdeltazero
 
 (PECL fann> = 1.0.0)

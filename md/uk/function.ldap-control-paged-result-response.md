@@ -1,16 +1,11 @@
-Отримати вказівник на поточну сторінку LDAP
-
--   [« ldapconnect](function.ldap-connect.html)
-    
--   [ldapcontrolpagedresult »](function.ldap-control-paged-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Отримати вказівник на поточну сторінку LDAP
-    
-
+---
+navigation:
+  - function.ldap-connect.html: « ldapconnect
+  - function.ldap-control-paged-result.html: ldapcontrolpagedresult »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapcontrolpagedresultresponse
+---
 # ldapcontrolpagedresultresponse
 
 (PHP 5> = 5.4.0, PHP 7)
@@ -51,10 +46,10 @@ ldap_control_paged_result_response(    resource $link,    resource $resu
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Функцію було видалено.        |
-|        | Функцію оголошено застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію було видалено. |
+|  | Функцію оголошено застарілою. |
 
 ### Дивіться також
 

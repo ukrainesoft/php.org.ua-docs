@@ -1,16 +1,11 @@
-Створити словник, використовуючи файл PWL
-
--   [« enchantbrokerrequestdict](function.enchant-broker-request-dict.html)
-    
--   [enchantbrokersetdictpath »](function.enchant-broker-set-dict-path.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Enchant](ref.enchant.html)
-    
--   Створити словник, використовуючи файл PWL
-    
-
+---
+navigation:
+  - function.enchant-broker-request-dict.html: « enchantbrokerrequestdict
+  - function.enchant-broker-set-dict-path.html: enchantbrokersetdictpath »
+  - index.html: PHP Manual
+  - ref.enchant.html: Функции Enchant
+title: enchantbrokerrequestpwldict
+---
 # enchantbrokerrequestpwldict
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -41,10 +36,10 @@ enchant_broker_request_pwl_dict(EnchantBroker $broker, string $filename): Enchan
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                    |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html)                                   |
-|        | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

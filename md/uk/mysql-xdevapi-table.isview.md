@@ -1,16 +1,11 @@
-Перевірити, чи таблиця є поданням
-
--   [« Table::insert](mysql-xdevapi-table.insert.html)
-    
--   [Table::select »](mysql-xdevapi-table.select.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Перевірити, чи таблиця є поданням
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.insert.html: '« Table::insert'
+  - mysql-xdevapi-table.select.html: 'Table::select »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::isView'
+---
 # Table::isView
 
 (No version information available, might only be in Git)

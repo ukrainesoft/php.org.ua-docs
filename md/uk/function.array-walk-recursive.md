@@ -1,16 +1,11 @@
-Рекурсивно застосовує функцію користувача до кожного елементу масиву
-
--   [« arrayvalues](function.array-values.html)
-    
--   [arraywalk »](function.array-walk.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Рекурсивно застосовує функцію користувача до кожного елементу масиву
-    
-
+---
+navigation:
+  - function.array-values.html: « arrayvalues
+  - function.array-walk.html: arraywalk »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraywalkrecursive
+---
 # arraywalkrecursive
 
 (PHP 5, PHP 7, PHP 8)

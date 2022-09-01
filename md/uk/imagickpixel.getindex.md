@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickPixel::getHSL](imagickpixel.gethsl.md)
-    
--   [ImagickPixel::isPixelSimilar »](imagickpixel.ispixelsimilar.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickpixel.gethsl.md: '« ImagickPixel::getHSL'
+  - imagickpixel.ispixelsimilar.md: 'ImagickPixel::isPixelSimilar »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::getIndex'
+---
 # ImagickPixel::getIndex
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

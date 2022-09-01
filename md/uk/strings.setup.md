@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.strings.html)
-    
--   [Вимоги »](strings.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Рядки](book.strings.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.strings.html: « Введение
+  - strings.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.strings.html: Рядки
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

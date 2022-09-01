@@ -1,16 +1,11 @@
-Закриває сесію
-
--   [« SessionHandlerInterface](class.sessionhandlerinterface.md)
-    
--   [SessionHandlerInterface::destroy »](sessionhandlerinterface.destroy.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandlerInterface](class.sessionhandlerinterface.md)
-    
--   Закриває сесію
-    
-
+---
+navigation:
+  - class.sessionhandlerinterface.md: « SessionHandlerInterface
+  - sessionhandlerinterface.destroy.md: 'SessionHandlerInterface::destroy »'
+  - index.md: PHP Manual
+  - class.sessionhandlerinterface.md: SessionHandlerInterface
+title: 'SessionHandlerInterface::close'
+---
 # SessionHandlerInterface::close
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

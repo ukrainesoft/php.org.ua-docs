@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.rrd.html)
-    
--   [Вимоги »](rrd.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [RRD](book.rrd.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.rrd.html: « Введение
+  - rrd.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.rrd.html: RRD
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
-
--   [« tidy::isXhtml](tidy.isxhtml.html)
-    
--   [tidy::parseFile »](tidy.parsefile.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidy](class.tidy.html)
-    
--   Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
-    
-
+---
+navigation:
+  - tidy.isxhtml.html: '« tidy::isXhtml'
+  - tidy.parsefile.html: 'tidy::parseFile »'
+  - index.html: PHP Manual
+  - class.tidy.html: tidy
+title: 'tidy::isXml'
+---
 # tidy::isXml
 
 # tidyісxml

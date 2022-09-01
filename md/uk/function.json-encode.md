@@ -1,16 +1,11 @@
-Повертає JSON-подання даних
-
--   [« jsondecode](function.json-decode.html)
-    
--   [jsonlasterrormsg »](function.json-last-error-msg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции JSON](ref.json.html)
-    
--   Повертає JSON-подання даних
-    
-
+---
+navigation:
+  - function.json-decode.html: « jsondecode
+  - function.json-last-error-msg.html: jsonlasterrormsg »
+  - index.html: PHP Manual
+  - ref.json.html: Функции JSON
+title: jsonencode
+---
 # jsonencode
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8, PECL json> = 1.2.0)
@@ -55,12 +50,12 @@ json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags`                                                                                                      |
-|        | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags`                                                            |
-|        | Додано константу **`JSON_UNESCAPED_LINE_TERMINATORS`** для параметра `flags`                                                                                          |
-|        | При кодуванні чисел із плаваючою точкою використовується [serializeprecision](ini.core.html#ini.serialize-precision) замість [precision](ini.core.html#ini.precision) |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags` |
+|  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags` |
+|  | Додано константу **`JSON_UNESCAPED_LINE_TERMINATORS`** для параметра `flags` |
+|  | При кодуванні чисел із плаваючою точкою використовується [serializeprecision](ini.core.html#ini.serialize-precision) замість [precision](ini.core.html#ini.precision) |
 
 ### Приклади
 

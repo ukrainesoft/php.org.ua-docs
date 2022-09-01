@@ -1,16 +1,11 @@
-Вставляє один елемент для встановлення стовпця типу за допомогою OID
-
--   [« cubridseqput](function.cubrid-seq-put.html)
-    
--   [cubridsetautocommit »](function.cubrid-set-autocommit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Вставляє один елемент для встановлення стовпця типу за допомогою OID
-    
-
+---
+navigation:
+  - function.cubrid-seq-put.html: « cubridseqput
+  - function.cubrid-set-autocommit.html: cubridsetautocommit »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridsetadd
+---
 # cubridsetadd
 
 (PECL CUBRID >= 8.3.0)

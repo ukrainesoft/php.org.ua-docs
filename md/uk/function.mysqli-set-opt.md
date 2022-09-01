@@ -1,16 +1,11 @@
-Псевдонім mysqlioptions
-
--   [« mysqlireport](function.mysqli-report.html)
-    
--   [Список изменений »](changelog.mysqli.md)
-    
--   [PHP Manual](index.md)
-    
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-    
--   Псевдонім mysqlioptions
-    
-
+---
+navigation:
+  - function.mysqli-report.html: « mysqlireport
+  - changelog.mysqli.md: Список изменений »
+  - index.md: PHP Manual
+  - ref.mysqli.md: Синоніми та застарілі функції Mysqli
+title: 'mysqli::setopt'
+---
 # mysqli::setopt
 
 # mysqlisetopt

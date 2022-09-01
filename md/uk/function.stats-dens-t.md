@@ -1,16 +1,11 @@
-Щільність ймовірності розподілу Стьюдента
-
--   [« statsdenspmfpoisson](function.stats-dens-pmf-poisson.html)
-    
--   [statsdensuniform »](function.stats-dens-uniform.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Щільність ймовірності розподілу Стьюдента
-    
-
+---
+navigation:
+  - function.stats-dens-pmf-poisson.html: « statsdenspmfpoisson
+  - function.stats-dens-uniform.html: statsdensuniform »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdensт
+---
 # statsdensт
 
 (PECL stats >= 1.0.0)

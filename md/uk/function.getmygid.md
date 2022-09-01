@@ -1,16 +1,11 @@
-Отримати GID власника скрипта PHP
-
--   [« getlastmod](function.getlastmod.md)
-    
--   [getmyinode »](function.getmyinode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримати GID власника скрипта PHP
-    
-
+---
+navigation:
+  - function.getlastmod.md: « getlastmod
+  - function.getmyinode.md: getmyinode »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getmygid
+---
 # getmygid
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

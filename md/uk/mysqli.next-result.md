@@ -1,16 +1,11 @@
-Підготовка наступного доступного результуючого набору з multiquery
-
--   [« mysqli::multiquery](mysqli.multi-query.html)
-    
--   [mysqli::options »](mysqli.options.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Підготовка наступного доступного результуючого набору з multiquery
-    
-
+---
+navigation:
+  - mysqli.multi-query.html: '« mysqli::multiquery'
+  - mysqli.options.html: 'mysqli::options »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::nextresult'
+---
 # mysqli::nextresult
 
 # mysqlinextresult

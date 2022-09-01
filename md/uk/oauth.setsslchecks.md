@@ -1,16 +1,11 @@
-Проводити певні перевірки SSL для запиту
-
--   [« OAuth::setRSACertificate](oauth.setrsacertificate.html)
-    
--   [OAuth::setTimestamp »](oauth.settimestamp.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Проводити певні перевірки SSL для запиту
-    
-
+---
+navigation:
+  - oauth.setrsacertificate.html: '« OAuth::setRSACertificate'
+  - oauth.settimestamp.html: 'OAuth::setTimestamp »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::setSSLChecks'
+---
 # OAuth::setSSLChecks
 
 (No version information available, might only be in Git)

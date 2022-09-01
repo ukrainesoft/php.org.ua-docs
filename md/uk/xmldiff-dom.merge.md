@@ -1,16 +1,11 @@
-Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
-
--   [« XMLDiffDOM::diff](xmldiff-dom.diff.html)
-    
--   [XMLDiffMemory »](class.xmldiff-memory.html)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiffDOM](class.xmldiff-dom.html)
-    
--   Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
-    
-
+---
+navigation:
+  - xmldiff-dom.diff.html: '« XMLDiffDOM::diff'
+  - class.xmldiff-memory.html: XMLDiffMemory »
+  - index.md: PHP Manual
+  - class.xmldiff-dom.html: XMLDiffDOM
+title: 'XMLDiffDOM::merge'
+---
 # XMLDiffDOM::merge
 
 (PECL xmldiff >= 0.8.0)

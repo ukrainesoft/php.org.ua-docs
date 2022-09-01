@@ -1,16 +1,11 @@
-Резервування або використання блоку пам'яті, що розділяється
-
--   [« shmopdelete](function.shmop-delete.html)
-    
--   [shmopread »](function.shmop-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пам'ять, що розділяється (shared)](ref.shmop.md)
-    
--   Резервування або використання блоку пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shmop-delete.html: « shmopdelete
+  - function.shmop-read.html: shmopread »
+  - index.md: PHP Manual
+  - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
+title: shmopopen
+---
 # shmopopen
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -58,9 +53,9 @@ shmop_open(    int $key,    string $mode,    int $permissions,   
 
 ### список змін
 
-| Версия | Описание                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання повертається екземпляр [Shmop](class.shmop.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертається екземпляр [Shmop](class.shmop.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

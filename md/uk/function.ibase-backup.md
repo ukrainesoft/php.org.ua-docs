@@ -1,16 +1,11 @@
-Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
-
--   [« ibaseaffectedrows](function.ibase-affected-rows.html)
-    
--   [ibaseblobadd »](function.ibase-blob-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
-    
-
+---
+navigation:
+  - function.ibase-affected-rows.html: « ibaseaffectedrows
+  - function.ibase-blob-add.html: ibaseblobadd »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasebackup
+---
 # ibasebackup
 
 (PHP 5, PHP 7 < 7.4.0)

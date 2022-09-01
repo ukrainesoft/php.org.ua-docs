@@ -1,16 +1,11 @@
-Додає адаптивний фільтр розмиття до зображення
-
--   [« Imagick](class.imagick.html)
-    
--   [Imagick::adaptiveResizeImage »](imagick.adaptiveresizeimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Додає адаптивний фільтр розмиття до зображення
-    
-
+---
+navigation:
+  - class.imagick.html: « Imagick
+  - imagick.adaptiveresizeimage.html: 'Imagick::adaptiveResizeImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::adaptiveBlurImage'
+---
 # Imagick::adaptiveBlurImage
 
 (PECL imagick 2, PECL imagick 3)

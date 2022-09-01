@@ -1,16 +1,11 @@
-Стохастичний відносний індекс сили
-
--   [« traderstochf](function.trader-stochf.html)
-    
--   [tradersub »](function.trader-sub.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Стохастичний відносний індекс сили
-    
-
+---
+navigation:
+  - function.trader-stochf.html: « traderstochf
+  - function.trader-sub.html: tradersub »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderstochrsi
+---
 # traderstochrsi
 
 (PECL trader >= 0.2.0)

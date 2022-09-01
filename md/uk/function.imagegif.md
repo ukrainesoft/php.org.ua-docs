@@ -1,16 +1,11 @@
-Виводить зображення у браузер або пише у файл
-
--   [« imagegetinterpolation](function.imagegetinterpolation.html)
-    
--   [imagegrabscreen »](function.imagegrabscreen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Виводить зображення у браузер або пише у файл
-    
-
+---
+navigation:
+  - function.imagegetinterpolation.html: « imagegetinterpolation
+  - function.imagegrabscreen.html: imagegrabscreen »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagegif
+---
 # imagegif
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ imagegif(GdImage $image, resource|string|null $file = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

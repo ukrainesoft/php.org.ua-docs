@@ -1,16 +1,11 @@
-Повертає чисельний код помилки виконання останньої операції з MySQL
-
--   [« mysqldropдб](function.mysql-drop-db.html)
-    
--   [mysqlerror »](function.mysql-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає чисельний код помилки виконання останньої операції з MySQL
-    
-
+---
+navigation:
+  - function.mysql-drop-db.html: « mysqldropдб
+  - function.mysql-error.html: mysqlerror »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlerrno
+---
 # mysqlerrno
 
 (PHP 4, PHP 5)

@@ -1,16 +1,11 @@
-Отримує поточне значення Quickprint бібліотеки NET-SNMP
-
--   [« Функції SNMP](ref.snmp.md)
-    
--   [snmpgetvalueretrieval »](function.snmp-get-valueretrieval.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Отримує поточне значення Quickprint бібліотеки NET-SNMP
-    
-
+---
+navigation:
+  - ref.snmp.md: « Функції SNMP
+  - function.snmp-get-valueretrieval.html: snmpgetvalueretrieval »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpgetquickprint
+---
 # snmpgetquickprint
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримати значення атрибута з певним ім'ям
-
--   [« XMLReader::expand](xmlreader.expand.md)
-    
--   [XMLReader::getAttributeNo »](xmlreader.getattributeno.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Отримати значення атрибута з певним ім'ям
-    
-
+---
+navigation:
+  - xmlreader.expand.md: '« XMLReader::expand'
+  - xmlreader.getattributeno.md: 'XMLReader::getAttributeNo »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::getAttribute'
+---
 # XMLReader::getAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public XMLReader::getAttribute(string $name): ?string
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Функція більше не може повертати **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не може повертати **`false`** |
 
 ### Дивіться також
 

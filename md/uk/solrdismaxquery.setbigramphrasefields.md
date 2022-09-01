@@ -1,16 +1,11 @@
-Встановлює поля біграми фрази та їх посилення (і відхилення) за допомогою параметра pf2
-
--   [« SolrDisMaxQuery::removeUserField](solrdismaxquery.removeuserfield.md)
-    
--   [SolrDisMaxQuery::setBigramPhraseSlop »](solrdismaxquery.setbigramphraseslop.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Встановлює поля біграми фрази та їх посилення (і відхилення) за допомогою параметра pf2
-    
-
+---
+navigation:
+  - solrdismaxquery.removeuserfield.md: '« SolrDisMaxQuery::removeUserField'
+  - solrdismaxquery.setbigramphraseslop.md: 'SolrDisMaxQuery::setBigramPhraseSlop »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setBigramPhraseFields'
+---
 # SolrDisMaxQuery::setBigramPhraseFields
 
 (No version information available, might only be in Git)

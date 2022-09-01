@@ -1,16 +1,11 @@
-Перетворює задані символи або замінює підрядки
-
--   [« strtoupper](function.strtoupper.md)
-    
--   [substrcompare »](function.substr-compare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перетворює задані символи або замінює підрядки
-    
-
+---
+navigation:
+  - function.strtoupper.md: « strtoupper
+  - function.substr-compare.html: substrcompare »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strtr
+---
 # strtr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

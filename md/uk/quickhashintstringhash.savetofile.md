@@ -1,16 +1,11 @@
-Метод зберігає хеш у пам'яті на диску
-
--   [« QuickHashIntStringHash::loadFromString](quickhashintstringhash.loadfromstring.md)
-    
--   [QuickHashIntStringHash::saveToString »](quickhashintstringhash.savetostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntStringHash](class.quickhashintstringhash.md)
-    
--   Метод зберігає хеш у пам'яті на диску
-    
-
+---
+navigation:
+  - quickhashintstringhash.loadfromstring.md: '« QuickHashIntStringHash::loadFromString'
+  - quickhashintstringhash.savetostring.md: 'QuickHashIntStringHash::saveToString »'
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
+title: 'QuickHashIntStringHash::saveToFile'
+---
 # QuickHashIntStringHash::saveToFile
 
 (PECL quickhash >= Unknown)

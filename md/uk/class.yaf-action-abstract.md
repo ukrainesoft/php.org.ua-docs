@@ -1,16 +1,11 @@
-Клас YafActionAbstract
-
--   [« YafControllerAbstract::setViewpath](yaf-controller-abstract.setviewpath.html)
-    
--   [YafActionAbstract::execute »](yaf-action-abstract.execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafActionAbstract
-    
-
+---
+navigation:
+  - yaf-controller-abstract.setviewpath.html: '« YafControllerAbstract::setViewpath'
+  - yaf-action-abstract.execute.html: 'YafActionAbstract::execute »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafActionAbstract
+---
 # Клас YafActionAbstract
 
 (Yaf >=1.0.0)

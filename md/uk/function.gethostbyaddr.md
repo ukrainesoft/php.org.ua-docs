@@ -1,16 +1,11 @@
-Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
-
--   [« fsockopen](function.fsockopen.html)
-    
--   [gethostbyname »](function.gethostbyname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
-    
-
+---
+navigation:
+  - function.fsockopen.html: « fsockopen
+  - function.gethostbyname.html: gethostbyname »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: gethostbyaddr
+---
 # gethostbyaddr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

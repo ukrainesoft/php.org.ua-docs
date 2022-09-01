@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](geoip.requirements.html)
-    
--   [Налаштування під час виконання »](geoip.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](geoip.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - geoip.requirements.html: « Вимоги
+  - geoip.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - geoip.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

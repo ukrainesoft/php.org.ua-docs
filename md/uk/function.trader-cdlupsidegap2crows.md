@@ -1,16 +1,11 @@
-Свічкова модель "Перевернути дві ворони"
-
--   [« tradercdlunique3river](function.trader-cdlunique3river.html)
-    
--   [tradercdlxsidegap3methods »](function.trader-cdlxsidegap3methods.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Перевернути дві ворони"
-    
-
+---
+navigation:
+  - function.trader-cdlunique3river.html: « tradercdlunique3river
+  - function.trader-cdlxsidegap3methods.html: tradercdlxsidegap3methods »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlupsidegap2crows
+---
 # tradercdlupsidegap2crows
 
 (PECL trader >= 0.2.0)

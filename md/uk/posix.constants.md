@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](posix.resources.html)
-    
--   [Константи posixaccess »](posix.constants.access.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX](book.posix.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - posix.resources.html: « Типи ресурсів
+  - posix.constants.access.html: Константи posixaccess »
+  - index.html: PHP Manual
+  - book.posix.html: POSIX
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 ## Зміст

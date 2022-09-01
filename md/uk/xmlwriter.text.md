@@ -1,16 +1,11 @@
-Записати текст
-
--   [« XMLWriter::startPi](xmlwriter.startpi.html)
-    
--   [XMLWriter::writeAttribute »](xmlwriter.writeattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати текст
-    
-
+---
+navigation:
+  - xmlwriter.startpi.html: '« XMLWriter::startPi'
+  - xmlwriter.writeattribute.html: 'XMLWriter::writeAttribute »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::text'
+---
 # XMLWriter::text
 
 # xmlwritertext
@@ -51,6 +46,6 @@ xmlwriter_text(XMLWriter $writer, string $content): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |

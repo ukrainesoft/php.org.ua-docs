@@ -1,16 +1,11 @@
-Створити новий об'єкт Box
-
--   [« UIControlsBox::append](ui-controls-box.append.html)
-    
--   [ОЙControlsBox::delete »](ui-controls-box.delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsBox](class.ui-controls-box.html)
-    
--   Створити новий об'єкт Box
-    
-
+---
+navigation:
+  - ui-controls-box.append.html: '« UIControlsBox::append'
+  - ui-controls-box.delete.html: 'ОЙControlsBox::delete »'
+  - index.md: PHP Manual
+  - class.ui-controls-box.html: ОЙControlsBox
+title: 'ОЙControlsBox::construct'
+---
 # ОЙControlsBox::construct
 
 (UI 0.9.9)

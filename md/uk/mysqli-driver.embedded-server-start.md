@@ -1,16 +1,11 @@
-Ініціалізує та запускає вбудований сервер
-
--   [« mysqlidriver::embeddedserverend](mysqli-driver.embedded-server-end.html)
-    
--   [mysqlidriver::$reportmode »](mysqli-driver.report-mode.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlidriver](class.mysqli-driver.html)
-    
--   Ініціалізує та запускає вбудований сервер
-    
-
+---
+navigation:
+  - mysqli-driver.embedded-server-end.html: '« mysqlidriver::embeddedserverend'
+  - mysqli-driver.report-mode.html: 'mysqlidriver::$reportmode »'
+  - index.md: PHP Manual
+  - class.mysqli-driver.html: mysqlidriver
+title: 'mysqlidriver::embeddedserverstart'
+---
 # mysqlidriver::embeddedserverstart
 
 # mysqliembeddedserverstart

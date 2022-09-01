@@ -1,16 +1,11 @@
-Видаляє атрибут
-
--   [« DOMElement::hasAttributeNS](domelement.hasattributens.md)
-    
--   [DOMElement::removeAttributeNode »](domelement.removeattributenode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Видаляє атрибут
-    
-
+---
+navigation:
+  - domelement.hasattributens.md: '« DOMElement::hasAttributeNS'
+  - domelement.removeattributenode.md: 'DOMElement::removeAttributeNode »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::removeAttribute'
+---
 # DOMElement::removeAttribute
 
 (PHP 5, PHP 7, PHP 8)

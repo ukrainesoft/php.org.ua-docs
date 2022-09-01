@@ -1,16 +1,11 @@
-Отримує шлях посилання
-
--   [« SplFileInfo::getInode](splfileinfo.getinode.md)
-    
--   [SplFileInfo::getMTime »](splfileinfo.getmtime.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує шлях посилання
-    
-
+---
+navigation:
+  - splfileinfo.getinode.md: '« SplFileInfo::getInode'
+  - splfileinfo.getmtime.md: 'SplFileInfo::getMTime »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getLinkTarget'
+---
 # SplFileInfo::getLinkTarget
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

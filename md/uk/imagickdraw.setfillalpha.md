@@ -1,16 +1,11 @@
-Встановлює непрозорість при малюванні за допомогою кольору або текстури заливки.
-
--   [« ImagickDraw::setClipUnits](imagickdraw.setclipunits.html)
-    
--   [ImagickDraw::setFillColor »](imagickdraw.setfillcolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює непрозорість при малюванні за допомогою кольору або текстури заливки.
-    
-
+---
+navigation:
+  - imagickdraw.setclipunits.html: '« ImagickDraw::setClipUnits'
+  - imagickdraw.setfillcolor.html: 'ImagickDraw::setFillColor »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setFillAlpha'
+---
 # ImagickDraw::setFillAlpha
 
 (PECL imagick 2, PECL imagick 3)

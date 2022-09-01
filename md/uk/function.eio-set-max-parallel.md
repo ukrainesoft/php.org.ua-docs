@@ -1,16 +1,11 @@
-Встановлює максимальну кількість паралельних потоків
-
--   [« eiosetmaxidle](function.eio-set-max-idle.html)
-    
--   [eiosetmaxpollreqs »](function.eio-set-max-poll-reqs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Встановлює максимальну кількість паралельних потоків
-    
-
+---
+navigation:
+  - function.eio-set-max-idle.html: « eiosetmaxidle
+  - function.eio-set-max-poll-reqs.html: eiosetmaxpollreqs »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosetmaxparallel
+---
 # eiosetmaxparallel
 
 (PECL eio >= 0.0.1dev)

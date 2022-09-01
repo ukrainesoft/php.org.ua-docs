@@ -1,16 +1,11 @@
-Витягти метадані phar-архіву
-
--   [« Phar::getAlias](phar.getalias.html)
-    
--   [Phar::getModified »](phar.getmodified.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Витягти метадані phar-архіву
-    
-
+---
+navigation:
+  - phar.getalias.html: '« Phar::getAlias'
+  - phar.getmodified.html: 'Phar::getModified »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getMetadata'
+---
 # Phar::getMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
@@ -35,9 +30,9 @@ public Phar::getMetadata(array $unserializeOptions = []): mixed
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | Доданий параметр `unserializeOptions` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `unserializeOptions` |
 
 ### Приклади
 

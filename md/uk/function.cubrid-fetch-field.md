@@ -1,16 +1,11 @@
-Отримання інформації про стовпчик результуючого набору у вигляді об'єкта
-
--   [« cubridfetchassoc](function.cubrid-fetch-assoc.html)
-    
--   [cubridfetchlengths »](function.cubrid-fetch-lengths.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Отримання інформації про стовпчик результуючого набору у вигляді об'єкта
-    
-
+---
+navigation:
+  - function.cubrid-fetch-assoc.html: « cubridfetchassoc
+  - function.cubrid-fetch-lengths.html: cubridfetchlengths »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfetchfield
+---
 # cubridfetchfield
 
 (PECL CUBRID >= 8.3.1)

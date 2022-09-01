@@ -1,16 +1,11 @@
-Призначення key
-
--   [« YafSession::isset](yaf-session.isset.html)
-    
--   [YafSession::next »](yaf-session.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення key
-    
-
+---
+navigation:
+  - yaf-session.isset.html: '« YafSession::isset'
+  - yaf-session.next.html: 'YafSession::next »'
+  - index.html: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::key'
+---
 # YafSession::key
 
 (Yaf >=1.0.0)

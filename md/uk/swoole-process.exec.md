@@ -1,16 +1,11 @@
-Виконує системні команди
-
--   [« SwooleProcess::destruct](swoole-process.destruct.html)
-    
--   [SwooleProcess::exit »](swoole-process.exit.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Виконує системні команди
-    
-
+---
+navigation:
+  - swoole-process.destruct.html: '« SwooleProcess::destruct'
+  - swoole-process.exit.html: 'SwooleProcess::exit »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::exec'
+---
 # SwooleProcess::exec
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Отримує поточний ключ
-
--   [« NoRewindIterator::getInnerIterator](norewinditerator.getinneriterator.html)
-    
--   [NoRewindIterator::next »](norewinditerator.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [NoRewindIterator](class.norewinditerator.html)
-    
--   Отримує поточний ключ
-    
-
+---
+navigation:
+  - norewinditerator.getinneriterator.html: '« NoRewindIterator::getInnerIterator'
+  - norewinditerator.next.html: 'NoRewindIterator::next »'
+  - index.html: PHP Manual
+  - class.norewinditerator.html: NoRewindIterator
+title: 'NoRewindIterator::key'
+---
 # NoRewindIterator::key
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

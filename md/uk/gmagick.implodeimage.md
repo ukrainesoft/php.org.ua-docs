@@ -1,16 +1,11 @@
-Створює копію зображення
-
--   [« Gmagick::haspreviousimage](gmagick.haspreviousimage.md)
-    
--   [Gmagick::labelimage »](gmagick.labelimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Створює копію зображення
-    
-
+---
+navigation:
+  - gmagick.haspreviousimage.md: '« Gmagick::haspreviousimage'
+  - gmagick.labelimage.md: 'Gmagick::labelimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::implodeimage'
+---
 # Gmagick::implodeimage
 
 (PECL gmagick >= Unknown)

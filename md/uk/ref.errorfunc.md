@@ -1,16 +1,11 @@
-Функції обробки помилок
-
--   [« Приклади](errorfunc.examples.html)
-    
--   [debugbacktrace »](function.debug-backtrace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка ошибок](book.errorfunc.html)
-    
--   Функції обробки помилок
-    
-
+---
+navigation:
+  - errorfunc.examples.html: « Приклади
+  - function.debug-backtrace.html: debugbacktrace »
+  - index.html: PHP Manual
+  - book.errorfunc.html: Обработка ошибок
+title: Функції обробки помилок
+---
 # Функції обробки помилок
 
 # Дивіться також

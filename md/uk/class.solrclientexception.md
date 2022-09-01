@@ -1,16 +1,11 @@
-Клас SolrClientException
-
--   [« SolrException::getInternalInfo](solrexception.getinternalinfo.md)
-    
--   [SolrClientException::getInternalInfo »](solrclientexception.getinternalinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrClientException
-    
-
+---
+navigation:
+  - solrexception.getinternalinfo.md: '« SolrException::getInternalInfo'
+  - solrclientexception.getinternalinfo.md: 'SolrClientException::getInternalInfo »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrClientException
+---
 # Клас SolrClientException
 
 (PECL solr> = 0.9.2)

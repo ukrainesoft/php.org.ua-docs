@@ -1,16 +1,11 @@
-Клас YafExceptionLoadFailedView
-
--   [« YafExceptionLoadFailedAction](class.yaf-exception-loadfailed-action.html)
-    
--   [Yaconf »](book.yaconf.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafExceptionLoadFailedView
-    
-
+---
+navigation:
+  - class.yaf-exception-loadfailed-action.html: « YafExceptionLoadFailedAction
+  - book.yaconf.html: Yaconf »
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafExceptionLoadFailedView
+---
 # Клас YafExceptionLoadFailedView
 
 (Yaf >=1.0.0)

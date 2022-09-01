@@ -1,16 +1,11 @@
-Визначити, чи видимий елемент керування
-
--   [« UIControl::isEnabled](ui-control.isenabled.html)
-    
--   [ОЙControl::setParent »](ui-control.setparent.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControl](class.ui-control.html)
-    
--   Визначити, чи видимий елемент керування
-    
-
+---
+navigation:
+  - ui-control.isenabled.html: '« UIControl::isEnabled'
+  - ui-control.setparent.html: 'ОЙControl::setParent »'
+  - index.html: PHP Manual
+  - class.ui-control.html: ОЙControl
+title: 'ОЙControl::isVisible'
+---
 # ОЙControl::isVisible
 
 (UI 0.9.9)

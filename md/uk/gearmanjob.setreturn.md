@@ -1,16 +1,11 @@
-Встановлення значення, що повертається
-
--   [« GearmanJob::sendWarning](gearmanjob.sendwarning.md)
-    
--   [GearmanJob::status »](gearmanjob.status.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Встановлення значення, що повертається
-    
-
+---
+navigation:
+  - gearmanjob.sendwarning.md: '« GearmanJob::sendWarning'
+  - gearmanjob.status.md: 'GearmanJob::status »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::setReturn'
+---
 # GearmanJob::setReturn
 
 (PECL gearman >= 0.5.0)

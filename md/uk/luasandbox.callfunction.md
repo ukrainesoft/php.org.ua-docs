@@ -1,16 +1,11 @@
-Викликає функцію у глобальній змінній Lua
-
--   [« LuaSandbox](class.luasandbox.html)
-    
--   [LuaSandbox::disableProfiler »](luasandbox.disableprofiler.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](class.luasandbox.html)
-    
--   Викликає функцію у глобальній змінній Lua
-    
-
+---
+navigation:
+  - class.luasandbox.html: « LuaSandbox
+  - luasandbox.disableprofiler.html: 'LuaSandbox::disableProfiler »'
+  - index.html: PHP Manual
+  - class.luasandbox.html: LuaSandbox
+title: 'LuaSandbox::callFunction'
+---
 # LuaSandbox::callFunction
 
 (PECL luasandbox >= 1.0.0)

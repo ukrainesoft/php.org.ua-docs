@@ -1,16 +1,11 @@
-Створити файл rrd
-
--   [« Функції RRD](ref.rrd.md)
-    
--   [rrderror »](function.rrd-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Створити файл rrd
-    
-
+---
+navigation:
+  - ref.rrd.md: « Функції RRD
+  - function.rrd-error.html: rrderror »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdcreate
+---
 # rrdcreate
 
 (PECL rrd >= 0.9.0)

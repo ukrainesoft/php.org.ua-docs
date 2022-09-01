@@ -1,16 +1,11 @@
-Знайти простір імен для префікса
-
--   [« XMLReader::isValid](xmlreader.isvalid.md)
-    
--   [XMLReader::moveToAttribute »](xmlreader.movetoattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Знайти простір імен для префікса
-    
-
+---
+navigation:
+  - xmlreader.isvalid.md: '« XMLReader::isValid'
+  - xmlreader.movetoattribute.md: 'XMLReader::moveToAttribute »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::lookupNamespace'
+---
 # XMLReader::lookupNamespace
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -37,6 +32,6 @@ public XMLReader::lookupNamespace(string $prefix): ?string
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Функція більше не може повертати **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не може повертати **`false`** |

@@ -1,16 +1,11 @@
-Обчислює розбіжність масивів, використовуючи callback-функцію порівняння ключів
-
--   [« arraydiffuassoc](function.array-diff-uassoc.html)
-    
--   [arraydiff »](function.array-diff.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислює розбіжність масивів, використовуючи callback-функцію порівняння ключів
-    
-
+---
+navigation:
+  - function.array-diff-uassoc.html: « arraydiffuassoc
+  - function.array-diff.html: arraydiff »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraydiffukey
+---
 # arraydiffukey
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

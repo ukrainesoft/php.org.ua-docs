@@ -1,16 +1,11 @@
-Повертає колекцію в JSON-представництві
-
--   [« DsSet::join](ds-set.join.html)
-    
--   [ДсSet::last »](ds-set.last.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає колекцію в JSON-представництві
-    
-
+---
+navigation:
+  - ds-set.join.html: '« DsSet::join'
+  - ds-set.last.html: 'ДсSet::last »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::jsonSerialize'
+---
 # ДсSet::jsonSerialize
 
 (PECL ds >= 1.0.0)

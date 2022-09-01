@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](pcre.constants.html)
-    
--   [Регулярні вирази PCRE](pcre.pattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [PCRE](book.pcre.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - pcre.constants.html: « Обумовлені константи
+  - pcre.pattern.html: Регулярні вирази PCRE
+  - index.html: PHP Manual
+  - book.pcre.html: PCRE
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Приклади правильних шаблонів**

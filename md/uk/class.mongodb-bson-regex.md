@@ -1,16 +1,11 @@
-Клас MongoDBBSONRegex
-
--   [« MongoDBBSONObjectId::unserialize](mongodb-bson-objectid.unserialize.html)
-    
--   [MongoDBBSONRegex::construct »](mongodb-bson-regex.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Клас MongoDBBSONRegex
-    
-
+---
+navigation:
+  - mongodb-bson-objectid.unserialize.html: '« MongoDBBSONObjectId::unserialize'
+  - mongodb-bson-regex.construct.html: 'MongoDBBSONRegex::construct »'
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Клас MongoDBBSONRegex
+---
 # Клас MongoDBBSONRegex
 
 (mongodb >=1.0.0)
@@ -52,11 +47,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                                                                      |
-|---------------------|---------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+.                                          |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)                        |
-| PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 

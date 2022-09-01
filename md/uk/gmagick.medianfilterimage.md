@@ -1,16 +1,11 @@
-Застосовує цифровий фільтр
-
--   [« Gmagick::mapimage](gmagick.mapimage.md)
-    
--   [Gmagick::minifyimage »](gmagick.minifyimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Застосовує цифровий фільтр
-    
-
+---
+navigation:
+  - gmagick.mapimage.md: '« Gmagick::mapimage'
+  - gmagick.minifyimage.md: 'Gmagick::minifyimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::medianfilterimage'
+---
 # Gmagick::medianfilterimage
 
 (PECL gmagick >= Unknown)

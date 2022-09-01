@@ -1,16 +1,11 @@
-Повертає YAML-подання значення
-
--   [« yamlemitfile](function.yaml-emit-file.html)
-    
--   [yamlparsefile »](function.yaml-parse-file.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Yaml](ref.yaml.html)
-    
--   Повертає YAML-подання значення
-    
-
+---
+navigation:
+  - function.yaml-emit-file.html: « yamlemitfile
+  - function.yaml-parse-file.html: yamlparsefile »
+  - index.html: PHP Manual
+  - ref.yaml.html: Функции Yaml
+title: yamlemit
+---
 # yamlemit
 
 (PECL yaml >= 0.5.0)
@@ -49,8 +44,8 @@ yaml_emit(    mixed $data,    int $encoding = YAML_ANY_ENCODING,    
 
 ### список змін
 
-| Версия          | Описание                     |
-|-----------------|------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL yaml 1.1.0 | Доданий параметр `callbacks` |
 
 ### Приклади

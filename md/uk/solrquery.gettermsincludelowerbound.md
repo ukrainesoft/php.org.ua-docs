@@ -1,16 +1,11 @@
-Повертає, чи потрібно включати вираз нижньої межі до набору результатів
-
--   [« SolrQuery::getTermsField](solrquery.gettermsfield.md)
-    
--   [SolrQuery::getTermsIncludeUpperBound »](solrquery.gettermsincludeupperbound.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає, чи потрібно включати вираз нижньої межі до набору результатів
-    
-
+---
+navigation:
+  - solrquery.gettermsfield.md: '« SolrQuery::getTermsField'
+  - solrquery.gettermsincludeupperbound.md: 'SolrQuery::getTermsIncludeUpperBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsIncludeLowerBound'
+---
 # SolrQuery::getTermsIncludeLowerBound
 
 (PECL solr> = 0.9.2)

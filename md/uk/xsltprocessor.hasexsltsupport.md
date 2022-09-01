@@ -1,16 +1,11 @@
-Визначає чи PHP підтримку EXSLT
-
--   [« XSLTProcessor::getSecurityPrefs](xsltprocessor.getsecurityprefs.html)
-    
--   [XSLTProcessor::importStylesheet »](xsltprocessor.importstylesheet.html)
-    
--   [PHP Manual](index.html)
-    
--   [XSLTProcessor](class.xsltprocessor.html)
-    
--   Визначає чи PHP підтримку EXSLT
-    
-
+---
+navigation:
+  - xsltprocessor.getsecurityprefs.html: '« XSLTProcessor::getSecurityPrefs'
+  - xsltprocessor.importstylesheet.html: 'XSLTProcessor::importStylesheet »'
+  - index.html: PHP Manual
+  - class.xsltprocessor.html: XSLTProcessor
+title: 'XSLTProcessor::hasExsltSupport'
+---
 # XSLTProcessor::hasExsltSupport
 
 (PHP 5> = 5.0.4, PHP 7, PHP 8)

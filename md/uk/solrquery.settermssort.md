@@ -1,16 +1,11 @@
-Визначає, як сортувати повернені умови
-
--   [« SolrQuery::setTermsReturnRaw](solrquery.settermsreturnraw.md)
-    
--   [SolrQuery::setTermsUpperBound »](solrquery.settermsupperbound.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Визначає, як сортувати повернені умови
-    
-
+---
+navigation:
+  - solrquery.settermsreturnraw.md: '« SolrQuery::setTermsReturnRaw'
+  - solrquery.settermsupperbound.md: 'SolrQuery::setTermsUpperBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsSort'
+---
 # SolrQuery::setTermsSort
 
 (PECL solr> = 0.9.2)

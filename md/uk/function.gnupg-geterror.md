@@ -1,16 +1,11 @@
-Повертає текст повідомлення про помилку, якщо функція не була виконана
-
--   [« gnupggetengineinfo](function.gnupg-getengineinfo.html)
-    
--   [gnupggeterrorinfo »](function.gnupg-geterrorinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Повертає текст повідомлення про помилку, якщо функція не була виконана
-    
-
+---
+navigation:
+  - function.gnupg-getengineinfo.html: « gnupggetengineinfo
+  - function.gnupg-geterrorinfo.html: gnupggeterrorinfo »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupggeterror
+---
 # gnupggeterror
 
 (PECL gnupg >= 0.1)

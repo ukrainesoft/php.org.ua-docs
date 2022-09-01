@@ -1,16 +1,11 @@
-Починає отримувати дані із з'єднання
-
--   [« SwooleServer::reload](swoole-server.reload.html)
-    
--   [SwooleServer::send »](swoole-server.send.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Починає отримувати дані із з'єднання
-    
-
+---
+navigation:
+  - swoole-server.reload.html: '« SwooleServer::reload'
+  - swoole-server.send.html: 'SwooleServer::send »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::resume'
+---
 # SwooleServer::resume
 
 (PECL swoole >= 1.9.0)

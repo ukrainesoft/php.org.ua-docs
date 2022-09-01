@@ -1,16 +1,11 @@
-Оновлює статус служби
-
--   [« win32setserviceexitmode](function.win32-set-service-exit-mode.html)
-    
--   [win32startservicectrldispatcher »](function.win32-start-service-ctrl-dispatcher.html)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](ref.win32service.md)
-    
--   Оновлює статус служби
-    
-
+---
+navigation:
+  - function.win32-set-service-exit-mode.html: « win32setserviceexitmode
+  - function.win32-start-service-ctrl-dispatcher.html: win32startservicectrldispatcher »
+  - index.md: PHP Manual
+  - ref.win32service.md: win32service
+title: win32setservicestatus
+---
 # win32setservicestatus
 
 (PECL win32service >=0.1.0)
@@ -55,12 +50,12 @@ win32_set_service_status(int $status, int $checkpoint = 0): void
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                          |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**                                                      |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                               |
-| PECL win32service 0.2.0 | Функція працює тільки з `"cli"` SAPI.                                                                                                                             |
+| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 0.2.0 | Функція працює тільки з `"cli"` SAPI. |
 
 ### Дивіться також
 

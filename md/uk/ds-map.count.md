@@ -1,16 +1,11 @@
-Повертає кількість елементів колекції
-
--   [« DsMap::copy](ds-map.copy.html)
-    
--   [ДсMap::diff »](ds-map.diff.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає кількість елементів колекції
-    
-
+---
+navigation:
+  - ds-map.copy.html: '« DsMap::copy'
+  - ds-map.diff.html: 'ДсMap::diff »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::count'
+---
 # ДсMap::count
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Бінарне читання gz-файлу
-
--   [« gzputs](function.gzputs.md)
-    
--   [gzrewind »](function.gzrewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Бінарне читання gz-файлу
-    
-
+---
+navigation:
+  - function.gzputs.md: « gzputs
+  - function.gzrewind.md: gzrewind »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzread
+---
 # gzread
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ gzread(resource $stream, int $length): string|false
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | У разі виникнення помилки повертається **`false`**; раніше, повертався `0` |
+| Версия | Описание |
+| --- | --- |
+|  | У разі виникнення помилки повертається **`false`**; раніше, повертався `0` |
 
 ### Приклади
 

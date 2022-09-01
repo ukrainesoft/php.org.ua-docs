@@ -1,16 +1,11 @@
-Винятки
-
--   [« Помилки в PHP 7](language.errors.php7.html)
-    
--   [Наследование исключений »](language.exceptions.extending.html)
-    
--   [PHP Manual](index.html)
-    
--   [Довідник мови](langref.html)
-    
--   Винятки
-    
-
+---
+navigation:
+  - language.errors.php7.html: « Помилки в PHP 7
+  - language.exceptions.extending.html: Наследование исключений »
+  - index.html: PHP Manual
+  - langref.html: Довідник мови
+title: Винятки
+---
 # Винятки
 
 ## Зміст

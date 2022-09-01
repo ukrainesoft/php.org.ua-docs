@@ -1,16 +1,11 @@
-Повертає мінімальну кількість періодів
-
--   [« fanngetcascademincandepochs](function.fann-get-cascade-min-cand-epochs.html)
-    
--   [fanngetcascadenumcandidategroups »](function.fann-get-cascade-num-candidate-groups.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає мінімальну кількість періодів
-    
-
+---
+navigation:
+  - function.fann-get-cascade-min-cand-epochs.html: « fanngetcascademincandepochs
+  - function.fann-get-cascade-num-candidate-groups.html: fanngetcascadenumcandidategroups »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetcascademinoutepochs
+---
 # fanngetcascademinoutepochs
 
 (PECL fann> = 1.0.0)

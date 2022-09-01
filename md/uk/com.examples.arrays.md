@@ -1,16 +1,11 @@
-Масиви та властивості COM у стилі масивів
-
--   [« For Each](com.examples.foreach.html)
-    
--   [com »](class.com.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](com.examples.html)
-    
--   Масиви та властивості COM у стилі масивів
-    
-
+---
+navigation:
+  - com.examples.foreach.html: « For Each
+  - class.com.html: com »
+  - index.html: PHP Manual
+  - com.examples.html: Приклади
+title: Масиви та властивості COM у стилі масивів
+---
 ## Масиви та властивості COM у стилі масивів
 
 Багато властивостей об'єктів COM представляють свої властивості як масиви, чи з використанням синтаксису доступу як до масивів.

@@ -1,16 +1,11 @@
-Нахиляє поточну систему координат по вертикалі
-
--   [« ImagickDraw::skewX](imagickdraw.skewx.md)
-    
--   [ImagickDraw::translate »](imagickdraw.translate.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Нахиляє поточну систему координат по вертикалі
-    
-
+---
+navigation:
+  - imagickdraw.skewx.md: '« ImagickDraw::skewX'
+  - imagickdraw.translate.md: 'ImagickDraw::translate »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::skewY'
+---
 # ImagickDraw::skewY
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Видаляє прогалини (або інші символи) з початку рядка
-
--   [« localeconv](function.localeconv.md)
-    
--   [md5file »](function.md5-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Видаляє прогалини (або інші символи) з початку рядка
-    
-
+---
+navigation:
+  - function.localeconv.md: « localeconv
+  - function.md5-file.html: md5file »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: ltrim
+---
 # ltrim
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

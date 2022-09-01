@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Каталоги](book.dir.html)
-    
--   [Вимоги »](dir.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Каталоги](book.dir.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - book.dir.html: « Каталоги
+  - dir.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.dir.html: Каталоги
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

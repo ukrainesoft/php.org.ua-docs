@@ -1,16 +1,11 @@
-Встановлює затримку зображення
-
--   [« Imagick::setImageCompressionQuality](imagick.setimagecompressionquality.md)
-    
--   [Imagick::setImageDepth »](imagick.setimagedepth.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює затримку зображення
-    
-
+---
+navigation:
+  - imagick.setimagecompressionquality.md: '« Imagick::setImageCompressionQuality'
+  - imagick.setimagedepth.md: 'Imagick::setImageDepth »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageDelay'
+---
 # Imagick::setImageDelay
 
 (PECL imagick 2, PECL imagick 3)

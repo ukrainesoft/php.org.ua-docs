@@ -1,16 +1,11 @@
-Створює екземпляр об'єкта ReflectionEnumUnitCase
-
--   [« ReflectionEnumUnitCase](class.reflectionenumunitcase.html)
-    
--   [ReflectionEnumUnitCase::getEnum »](reflectionenumunitcase.getenum.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html)
-    
--   Створює екземпляр об'єкта ReflectionEnumUnitCase
-    
-
+---
+navigation:
+  - class.reflectionenumunitcase.html: « ReflectionEnumUnitCase
+  - reflectionenumunitcase.getenum.html: 'ReflectionEnumUnitCase::getEnum »'
+  - index.html: PHP Manual
+  - class.reflectionenumunitcase.html: ReflectionEnumUnitCase
+title: 'ReflectionEnumUnitCase::construct'
+---
 # ReflectionEnumUnitCase::construct
 
 (PHP 8> = 8.1.0)

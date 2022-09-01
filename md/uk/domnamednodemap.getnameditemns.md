@@ -1,16 +1,11 @@
-Отримує вузол із заданим локальним ім'ям та URI простору імен
-
--   [« DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.md)
-    
--   [DOMNamedNodeMap::item »](domnamednodemap.item.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNamedNodeMap](class.domnamednodemap.md)
-    
--   Отримує вузол із заданим локальним ім'ям та URI простору імен
-    
-
+---
+navigation:
+  - domnamednodemap.getnameditem.md: '« DOMNamedNodeMap::getNamedItem'
+  - domnamednodemap.item.md: 'DOMNamedNodeMap::item »'
+  - index.md: PHP Manual
+  - class.domnamednodemap.md: DOMNamedNodeMap
+title: 'DOMNamedNodeMap::getNamedItemNS'
+---
 # DOMNamedNodeMap::getNamedItemNS
 
 (PHP 5, PHP 7, PHP 8)

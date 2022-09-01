@@ -1,16 +1,11 @@
-Конструктор класу FilterIterator
-
--   [« FilterIterator::accept](filteriterator.accept.html)
-    
--   [FilterIterator::current »](filteriterator.current.html)
-    
--   [PHP Manual](index.html)
-    
--   [FilterIterator](class.filteriterator.html)
-    
--   Конструктор класу FilterIterator
-    
-
+---
+navigation:
+  - filteriterator.accept.html: '« FilterIterator::accept'
+  - filteriterator.current.html: 'FilterIterator::current »'
+  - index.html: PHP Manual
+  - class.filteriterator.html: FilterIterator
+title: 'FilterIterator::construct'
+---
 # FilterIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

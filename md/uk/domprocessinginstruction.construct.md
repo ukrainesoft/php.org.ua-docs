@@ -1,16 +1,11 @@
-Створює новий об'єкт класу DOMProcessingInstruction
-
--   [« DOMProcessingInstruction](class.domprocessinginstruction.md)
-    
--   [DOMText »](class.domtext.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMProcessingInstruction](class.domprocessinginstruction.md)
-    
--   Створює новий об'єкт класу DOMProcessingInstruction
-    
-
+---
+navigation:
+  - class.domprocessinginstruction.md: « DOMProcessingInstruction
+  - class.domtext.md: DOMText »
+  - index.md: PHP Manual
+  - class.domprocessinginstruction.md: DOMProcessingInstruction
+title: 'DOMProcessingInstruction::construct'
+---
 # DOMProcessingInstruction::construct
 
 (PHP 5, PHP 7, PHP 8)

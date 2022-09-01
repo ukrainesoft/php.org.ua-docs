@@ -1,16 +1,11 @@
-Клас ParleParserException
-
--   [« ParleLexerException](class.parle-lexerexception.html)
-    
--   [PCRE »](book.pcre.md)
-    
--   [PHP Manual](index.md)
-    
--   [Parle](book.parle.md)
-    
--   Клас ParleParserException
-    
-
+---
+navigation:
+  - class.parle-lexerexception.html: « ParleLexerException
+  - book.pcre.md: PCRE »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleParserException
+---
 # Клас ParleParserException
 
 (PECL parle >= 0.5.1)

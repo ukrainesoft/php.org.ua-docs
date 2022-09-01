@@ -1,16 +1,11 @@
-Об'єднує один вхідний документ в інший
-
--   [« SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.md)
-    
--   [SolrInputDocument::reset »](solrinputdocument.reset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Об'єднує один вхідний документ в інший
-    
-
+---
+navigation:
+  - solrinputdocument.haschilddocuments.md: '« SolrInputDocument::hasChildDocuments'
+  - solrinputdocument.reset.md: 'SolrInputDocument::reset »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::merge'
+---
 # SolrInputDocument::merge
 
 (PECL solr> = 0.9.2)

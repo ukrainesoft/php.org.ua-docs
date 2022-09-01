@@ -1,16 +1,11 @@
-Додати точку переривання на наступний опкод
-
--   [« phpdbgbreakmethod](function.phpdbg-break-method.html)
-    
--   [phpdbgclear »](function.phpdbg-clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции phpdbg](ref.phpdbg.html)
-    
--   Додати точку переривання на наступний опкод
-    
-
+---
+navigation:
+  - function.phpdbg-break-method.html: « phpdbgbreakmethod
+  - function.phpdbg-clear.html: phpdbgclear »
+  - index.html: PHP Manual
+  - ref.phpdbg.html: Функции phpdbg
+title: phpdbgbreaknext
+---
 # phpdbgbreaknext
 
 (PHP 5> = 5.6.3, PHP 7, PHP 8)

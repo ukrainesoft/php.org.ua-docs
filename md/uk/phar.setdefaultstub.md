@@ -1,16 +1,11 @@
-Встановити завантажувач PHP або початкову заглушку Phar-архіву завантажувач за замовчуванням
-
--   [« Phar::setAlias](phar.setalias.html)
-    
--   [Phar::setMetadata »](phar.setmetadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Встановити завантажувач PHP або початкову заглушку Phar-архіву завантажувач за замовчуванням
-    
-
+---
+navigation:
+  - phar.setalias.html: '« Phar::setAlias'
+  - phar.setmetadata.html: 'Phar::setMetadata »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::setDefaultStub'
+---
 # Phar::setDefaultStub
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -49,9 +44,9 @@ public Phar::setDefaultStub(?string $index = null, ?string $webIndex = null): bo
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `webIndex` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `webIndex` тепер допускає значення null. |
 
 ### Приклади
 

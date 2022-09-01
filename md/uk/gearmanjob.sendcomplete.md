@@ -1,16 +1,11 @@
-Надсилання результату та статусу завершення
-
--   [« GearmanJob::returnCode](gearmanjob.returncode.md)
-    
--   [GearmanJob::sendData »](gearmanjob.senddata.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Надсилання результату та статусу завершення
-    
-
+---
+navigation:
+  - gearmanjob.returncode.md: '« GearmanJob::returnCode'
+  - gearmanjob.senddata.md: 'GearmanJob::sendData »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::sendComplete'
+---
 # GearmanJob::sendComplete
 
 (PECL gearman >= 0.6.0)

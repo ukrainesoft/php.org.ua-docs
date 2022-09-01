@@ -1,16 +1,11 @@
-Відкат транзакції
-
--   [« cubridput](function.cubrid-put.html)
-    
--   [cubridschema »](function.cubrid-schema.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Відкат транзакції
-    
-
+---
+navigation:
+  - function.cubrid-put.html: « cubridput
+  - function.cubrid-schema.html: cubridschema »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridrollback
+---
 # cubridrollback
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Клас SplFixedArray
-
--   [« SplPriorityQueue::valid](splpriorityqueue.valid.md)
-    
--   [SplFixedArray::construct »](splfixedarray.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](spl.datastructures.md)
-    
--   Клас SplFixedArray
-    
-
+---
+navigation:
+  - splpriorityqueue.valid.md: '« SplPriorityQueue::valid'
+  - splfixedarray.construct.md: 'SplFixedArray::construct »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
+title: Клас SplFixedArray
+---
 # Клас SplFixedArray
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -59,10 +54,10 @@ public __wakeup(): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.md)                                                                    |
-|        | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Iterator](class.iterator.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.md) |
+|  | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Iterator](class.iterator.md) |
 
 ## Приклади
 

@@ -1,16 +1,11 @@
-Змінює права доступу до файлу
-
--   [« eiofallocate](function.eio-fallocate.html)
-    
--   [eiofchown »](function.eio-fchown.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Змінює права доступу до файлу
-    
-
+---
+navigation:
+  - function.eio-fallocate.html: « eiofallocate
+  - function.eio-fchown.html: eiofchown »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiofchmod
+---
 # eiofchmod
 
 (PECL eio >= 0.0.1dev)

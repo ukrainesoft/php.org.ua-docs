@@ -1,16 +1,11 @@
-Якщо true, результат першої команди групування полів використовується як основний список результатів у відповіді з використанням group.format=simple
-
--   [« SolrQuery::setGroupLimit](solrquery.setgrouplimit.html)
-    
--   [SolrQuery::setGroupNGroups »](solrquery.setgroupngroups.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Якщо true, результат першої команди групування полів використовується як основний список результатів у відповіді з використанням group.format=simple
-    
-
+---
+navigation:
+  - solrquery.setgrouplimit.html: '« SolrQuery::setGroupLimit'
+  - solrquery.setgroupngroups.html: 'SolrQuery::setGroupNGroups »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setGroupMain'
+---
 # SolrQuery::setGroupMain
 
 (PECL solr> = 2.2.0)

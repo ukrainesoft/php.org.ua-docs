@@ -1,16 +1,11 @@
-Математичні функції
-
--   [« Обумовлені константи](math.constants.md)
-    
--   [abs »](function.abs.md)
-    
--   [PHP Manual](index.md)
-    
--   [Math](book.math.md)
-    
--   Математичні функції
-    
-
+---
+navigation:
+  - math.constants.md: « Обумовлені константи
+  - function.abs.md: abs »
+  - index.md: PHP Manual
+  - book.math.md: Math
+title: Математичні функції
+---
 # Математичні функції
 
 ## Зміст

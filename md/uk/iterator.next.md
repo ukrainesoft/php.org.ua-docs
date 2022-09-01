@@ -1,16 +1,11 @@
-Переходить до наступного елементу
-
--   [« Iterator::key](iterator.key.md)
-    
--   [Iterator::rewind »](iterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [Iterator](class.iterator.md)
-    
--   Переходить до наступного елементу
-    
-
+---
+navigation:
+  - iterator.key.md: '« Iterator::key'
+  - iterator.rewind.md: 'Iterator::rewind »'
+  - index.md: PHP Manual
+  - class.iterator.md: Iterator
+title: 'Iterator::next'
+---
 # Iterator::next
 
 (PHP 5, PHP 7, PHP 8)

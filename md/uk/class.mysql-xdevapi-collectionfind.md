@@ -1,16 +1,11 @@
-Клас CollectionFind
-
--   [« CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.html)
-    
--   [CollectionFind::bind »](mysql-xdevapi-collectionfind.bind.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас CollectionFind
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionadd.execute.html: '« CollectionAdd::execute'
+  - mysql-xdevapi-collectionfind.bind.html: 'CollectionFind::bind »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас CollectionFind
+---
 # Клас CollectionFind
 
 (PECL mysql-xdevapi >= 8.0.11)

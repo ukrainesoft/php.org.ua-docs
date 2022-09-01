@@ -1,16 +1,11 @@
-Клас SwooleMySQLException
-
--   [« SwooleMySQL::query](swoole-mysql.query.html)
-    
--   [SwooleProcess »](class.swoole-process.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleMySQLException
-    
-
+---
+navigation:
+  - swoole-mysql.query.html: '« SwooleMySQL::query'
+  - class.swoole-process.html: SwooleProcess »
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleMySQLException
+---
 # Клас SwooleMySQLException
 
 (PECL swoole >= 1.9.0)

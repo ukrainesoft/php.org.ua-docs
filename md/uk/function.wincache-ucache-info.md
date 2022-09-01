@@ -1,16 +1,11 @@
-Отримує інформацію про дані, що зберігаються в кеші користувача
-
--   [« wincacheucacheinc](function.wincache-ucache-inc.html)
-    
--   [wincacheucachememinfo »](function.wincache-ucache-meminfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Отримує інформацію про дані, що зберігаються в кеші користувача
-    
-
+---
+navigation:
+  - function.wincache-ucache-inc.html: « wincacheucacheinc
+  - function.wincache-ucache-meminfo.html: wincacheucachememinfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucacheinfo
+---
 # wincacheucacheinfo
 
 (PECL wincache >= 1.1.0)

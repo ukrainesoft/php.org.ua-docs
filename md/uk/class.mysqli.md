@@ -1,16 +1,11 @@
-Клас mysqli
-
--   [« Основна інформація про функції модуля MySQLi](mysqli.summary.md)
-    
--   [mysqli::$affectedrows »](mysqli.affected-rows.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQLi](book.mysqli.md)
-    
--   Клас mysqli
-    
-
+---
+navigation:
+  - mysqli.summary.md: « Основна інформація про функції модуля MySQLi
+  - mysqli.affected-rows.html: 'mysqli::$affectedrows »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqli
+---
 # Клас mysqli
 
 (PHP 5, PHP 7, PHP 8)

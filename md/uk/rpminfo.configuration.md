@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка через PECL](rpminfo.installation.md)
-    
--   [Типи ресурсів »](rpminfo.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](rpminfo.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - rpminfo.installation.md: « Установка через PECL
+  - rpminfo.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - rpminfo.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

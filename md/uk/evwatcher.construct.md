@@ -1,16 +1,11 @@
-Анотація конструктор об'єкта спостерігача
-
--   [« EvWatcher::clear](evwatcher.clear.md)
-    
--   [EvWatcher::feed »](evwatcher.feed.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvWatcher](class.evwatcher.md)
-    
--   Анотація конструктор об'єкта спостерігача
-    
-
+---
+navigation:
+  - evwatcher.clear.md: '« EvWatcher::clear'
+  - evwatcher.feed.md: 'EvWatcher::feed »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::construct'
+---
 # EvWatcher::construct
 
 (PECL ev >= 0.2.0)

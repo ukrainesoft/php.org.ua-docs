@@ -1,16 +1,11 @@
-Серіалізує одне значення всередині пакету WDDX
-
--   [« wddxpacketstart](function.wddx-packet-start.html)
-    
--   [wddxserializevars »](function.wddx-serialize-vars.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції WDDX](ref.wddx.html)
-    
--   Серіалізує одне значення всередині пакету WDDX
-    
-
+---
+navigation:
+  - function.wddx-packet-start.html: « wddxpacketstart
+  - function.wddx-serialize-vars.html: wddxserializevars »
+  - index.html: PHP Manual
+  - ref.wddx.html: Функції WDDX
+title: wddxserializevalue
+---
 # wddxserializevalue
 
 (PHP 4, PHP 5, PHP 7)

@@ -1,16 +1,11 @@
-FTP
-
--   [« EventUtil::sslRandPoll](eventutil.sslrandpoll.md)
-    
--   [Введение »](intro.ftp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   FTP
-    
-
+---
+navigation:
+  - eventutil.sslrandpoll.md: '« EventUtil::sslRandPoll'
+  - intro.ftp.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: FTP
+---
 # FTP
 
 -   [Введение](intro.ftp.md)

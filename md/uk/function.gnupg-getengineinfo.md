@@ -1,16 +1,11 @@
-Повертає інформацію про двигун
-
--   [« gnupgexport](function.gnupg-export.html)
-    
--   [gnupggeterror »](function.gnupg-geterror.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Повертає інформацію про двигун
-    
-
+---
+navigation:
+  - function.gnupg-export.html: « gnupgexport
+  - function.gnupg-geterror.html: gnupggeterror »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupggetengineinfo
+---
 # gnupggetengineinfo
 
 (PECL gnupg >= 1.5)

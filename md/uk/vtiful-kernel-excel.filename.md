@@ -1,16 +1,11 @@
-Створити назву файлу
-
--   [« VtifulKernelExcel::data](vtiful-kernel-excel.data.html)
-    
--   [VtifulKernelExcel::getHandle »](vtiful-kernel-excel.getHandle.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Створити назву файлу
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.data.html: '« VtifulKernelExcel::data'
+  - vtiful-kernel-excel.getHandle.html: 'VtifulKernelExcel::getHandle »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::fileName'
+---
 # VtifulKernelExcel::fileName
 
 (PECL xlswriter >= 1.2.1)

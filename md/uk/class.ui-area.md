@@ -1,16 +1,11 @@
-Area
-
--   [« UIMenuItem::setChecked](ui-menuitem.setchecked.html)
-    
--   [ОЙArea::onDraw »](ui-area.ondraw.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Area
-    
-
+---
+navigation:
+  - ui-menuitem.setchecked.html: '« UIMenuItem::setChecked'
+  - ui-area.ondraw.html: 'ОЙArea::onDraw »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Area
+---
 # Area
 
 (UI 0.9.9)

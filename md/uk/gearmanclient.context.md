@@ -1,16 +1,11 @@
-Повертає контекст програми
-
--   [« GearmanClient::construct](gearmanclient.construct.html)
-    
--   [GearmanClient::data »](gearmanclient.data.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Повертає контекст програми
-    
-
+---
+navigation:
+  - gearmanclient.construct.html: '« GearmanClient::construct'
+  - gearmanclient.data.html: 'GearmanClient::data »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::context'
+---
 # GearmanClient::context
 
 (PECL gearman >= 0.6.0)

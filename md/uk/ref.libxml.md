@@ -1,16 +1,11 @@
-Функції libxml
-
--   [« libXMLError](class.libxmlerror.md)
-    
--   [libxmlclearerrors »](function.libxml-clear-errors.html)
-    
--   [PHP Manual](index.md)
-    
--   [libxml](book.libxml.md)
-    
--   Функції libxml
-    
-
+---
+navigation:
+  - class.libxmlerror.md: « libXMLError
+  - function.libxml-clear-errors.html: libxmlclearerrors »
+  - index.md: PHP Manual
+  - book.libxml.md: libxml
+title: Функції libxml
+---
 # Функції libxml
 
 ## Зміст

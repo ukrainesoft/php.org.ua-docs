@@ -1,16 +1,11 @@
-Коефіцієнт зміни курсу шкали: (ціна/попередня ціна)
-
--   [« traderrocp](function.trader-rocp.html)
-    
--   [traderrocr »](function.trader-rocr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Коефіцієнт зміни курсу шкали: (ціна/попередня ціна)
-    
-
+---
+navigation:
+  - function.trader-rocp.html: « traderrocp
+  - function.trader-rocr.html: traderrocr »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderrocr100
+---
 # traderrocr100
 
 (PECL trader >= 0.2.0)

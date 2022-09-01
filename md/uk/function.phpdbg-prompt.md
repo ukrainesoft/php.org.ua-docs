@@ -1,16 +1,11 @@
-Встановити запрошення командного рядка
-
--   [« phpdbggetexecutable](function.phpdbg-get-executable.html)
-    
--   [phpdbgstartoplog »](function.phpdbg-start-oplog.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Встановити запрошення командного рядка
-    
-
+---
+navigation:
+  - function.phpdbg-get-executable.html: « phpdbggetexecutable
+  - function.phpdbg-start-oplog.html: phpdbgstartoplog »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgprompt
+---
 # phpdbgprompt
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

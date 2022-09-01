@@ -1,16 +1,11 @@
-Відсотковий діапазон Вільямса
-
--   [« traderwclprice](function.trader-wclprice.html)
-    
--   [traderwma »](function.trader-wma.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Відсотковий діапазон Вільямса
-    
-
+---
+navigation:
+  - function.trader-wclprice.html: « traderwclprice
+  - function.trader-wma.html: traderwma »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderwillr
+---
 # traderwillr
 
 (PECL trader >= 0.2.0)

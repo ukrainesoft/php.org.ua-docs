@@ -1,16 +1,11 @@
-Записує великий тимчасовий об'єкт (LOB)
-
--   [« OCILob::write](ocilob.write.html)
-    
--   [OCILob::writeToFile »](ocilob.writetofile.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCILob](class.ocilob.html)
-    
--   Записує великий тимчасовий об'єкт (LOB)
-    
-
+---
+navigation:
+  - ocilob.write.html: '« OCILob::write'
+  - ocilob.writetofile.html: 'OCILob::writeToFile »'
+  - index.html: PHP Manual
+  - class.ocilob.html: OCILob
+title: 'OCILob::writeTemporary'
+---
 # OCILob::writeTemporary
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -46,8 +41,8 @@ public OCILob::writeTemporary(string $data, int $type = OCI_TEMP_CLOB): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

@@ -1,16 +1,11 @@
-Конструктор об'єкта EventHttpConnection
-
--   [« EventHttpConnection](class.eventhttpconnection.md)
-    
--   [EventHttpConnection::getBase »](eventhttpconnection.getbase.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpConnection](class.eventhttpconnection.md)
-    
--   Конструктор об'єкта EventHttpConnection
-    
-
+---
+navigation:
+  - class.eventhttpconnection.md: « EventHttpConnection
+  - eventhttpconnection.getbase.md: 'EventHttpConnection::getBase »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::construct'
+---
 # EventHttpConnection::construct
 
 (PECL event >= 1.2.6-beta)
@@ -74,6 +69,6 @@ public
 
 ### список змін
 
-| Версия           | Описание                        |
-|------------------|---------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.9.0 | Додана підтримка OpenSSL (`ctx` |

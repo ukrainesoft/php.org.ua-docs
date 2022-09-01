@@ -1,16 +1,11 @@
-Повертає пікове використання пам'яті в середовищі Lua
-
--   [« LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.md)
-    
--   [LuaSandbox::getProfilerFunctionReport »](luasandbox.getprofilerfunctionreport.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Повертає пікове використання пам'яті в середовищі Lua
-    
-
+---
+navigation:
+  - luasandbox.getmemoryusage.md: '« LuaSandbox::getMemoryUsage'
+  - luasandbox.getprofilerfunctionreport.md: 'LuaSandbox::getProfilerFunctionReport »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::getPeakMemoryUsage'
+---
 # LuaSandbox::getPeakMemoryUsage
 
 (PECL luasandbox >= 1.0.0)

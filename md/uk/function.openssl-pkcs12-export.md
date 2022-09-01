@@ -1,16 +1,11 @@
-Експортує сумісний з PKCS#12 файл сховища сертифікатів у змінну
-
--   [« opensslpkcs12exportтоfile](function.openssl-pkcs12-export-to-file.html)
-    
--   [opensslpkcs12read »](function.openssl-pkcs12-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Експортує сумісний з PKCS#12 файл сховища сертифікатів у змінну
-    
-
+---
+navigation:
+  - function.openssl-pkcs12-export-to-file.html: « opensslpkcs12exportтоfile
+  - function.openssl-pkcs12-read.html: opensslpkcs12read »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkcs12export
+---
 # opensslpkcs12export
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    str
 
 Масив опцій. Ключі, які не описані тут, будуть проігноровані.
 
-| Ключ             | Описание                                                                       |
-|------------------|--------------------------------------------------------------------------------|
-| `"extracerts"`   | масив додаткових сертифікатів або один сертифікат для включення файлу PKCS#12. |
-| `"friendlyname"` | рядок для використання сертифікатом та ключем                                  |
+| Ключ | Описание |
+| --- | --- |
+| `"extracerts"` | масив додаткових сертифікатів або один сертифікат для включення файлу PKCS#12. |
+| `"friendlyname"` | рядок для використання сертифікатом та ключем |
 
 ### Значення, що повертаються
 
@@ -58,7 +53,7 @@ openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    str
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR`                                                                         |
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

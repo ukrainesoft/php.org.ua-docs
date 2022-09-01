@@ -1,16 +1,11 @@
-Додає іменований профіль до об'єкту Gmagick
-
--   [« Gmagick::setimageiterations](gmagick.setimageiterations.md)
-    
--   [Gmagick::setimageredprimary »](gmagick.setimageredprimary.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Додає іменований профіль до об'єкту Gmagick
-    
-
+---
+navigation:
+  - gmagick.setimageiterations.md: '« Gmagick::setimageiterations'
+  - gmagick.setimageredprimary.md: 'Gmagick::setimageredprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageprofile'
+---
 # Gmagick::setimageprofile
 
 (PECL gmagick >= Unknown)

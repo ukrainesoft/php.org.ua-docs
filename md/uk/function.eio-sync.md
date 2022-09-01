@@ -1,16 +1,11 @@
-Записує кеш із буфера на диск
-
--   [« eiosyncfilerange](function.eio-sync-file-range.html)
-    
--   [eiosyncfs »](function.eio-syncfs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Записує кеш із буфера на диск
-    
-
+---
+navigation:
+  - function.eio-sync-file-range.html: « eiosyncfilerange
+  - function.eio-syncfs.html: eiosyncfs »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosync
+---
 # eiosync
 
 (PECL eio >= 0.0.1dev)

@@ -1,16 +1,11 @@
-Створює новий екземпляр
-
--   [« DsMap::clear](ds-map.clear.html)
-    
--   [ДсMap::copy »](ds-map.copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Створює новий екземпляр
-    
-
+---
+navigation:
+  - ds-map.clear.html: '« DsMap::clear'
+  - ds-map.copy.html: 'ДсMap::copy »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::construct'
+---
 # ДсMap::construct
 
 (PECL ds >= 1.0.0)

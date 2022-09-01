@@ -1,16 +1,11 @@
-Календар
-
--   [« Модулі для роботи з датою та часом](refs.calendar.html)
-    
--   [Введение »](intro.calendar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з датою та часом](refs.calendar.html)
-    
--   Календар
-    
-
+---
+navigation:
+  - refs.calendar.html: « Модулі для роботи з датою та часом
+  - intro.calendar.html: Введение »
+  - index.html: PHP Manual
+  - refs.calendar.html: Модулі для роботи з датою та часом
+title: Календар
+---
 # Календар
 
 -   [Введение](intro.calendar.html)

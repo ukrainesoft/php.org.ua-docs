@@ -1,16 +1,11 @@
-Визначає, чи потрібно повторно використовувати пароль
-
--   [« sodiumcryptopwhashscryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.html)
-    
--   [sodiumcryptopwhashstrverify »](function.sodium-crypto-pwhash-str-verify.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Визначає, чи потрібно повторно використовувати пароль
-    
-
+---
+navigation:
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256.html: « sodiumcryptopwhashscryptsalsa208sha256
+  - function.sodium-crypto-pwhash-str-verify.html: sodiumcryptopwhashstrverify »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptopwhashstrneedsrehash
+---
 # sodiumcryptopwhashstrneedsrehash
 
 (PHP 7> = 7.2.0, PHP 8)

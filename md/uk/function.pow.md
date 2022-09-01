@@ -1,16 +1,11 @@
-Зведення в ступінь
-
--   [« pi](function.pi.md)
-    
--   [rad2deg »](function.rad2deg.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Зведення в ступінь
-    
-
+---
+navigation:
+  - function.pi.md: « pi
+  - function.rad2deg.md: rad2deg »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: pow
+---
 # pow
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

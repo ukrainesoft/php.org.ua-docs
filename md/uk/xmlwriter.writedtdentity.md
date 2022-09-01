@@ -1,16 +1,11 @@
-Записати повний тег DTD запису
-
--   [« XMLWriter::writeDtdElement](xmlwriter.writedtdelement.html)
-    
--   [XMLWriter::writeElement »](xmlwriter.writeelement.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати повний тег DTD запису
-    
-
+---
+navigation:
+  - xmlwriter.writedtdelement.html: '« XMLWriter::writeDtdElement'
+  - xmlwriter.writeelement.html: 'XMLWriter::writeElement »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::writeDtdEntity'
+---
 # XMLWriter::writeDtdEntity
 
 # xmlwriterwritedtdentity
@@ -55,10 +50,10 @@ xmlwriter_write_dtd_entity(    XMLWriter $writer,    string $name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
-|        | `publicId` `systemId` і `notationData` тепер допускають значення null.                                                 |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+|  | `publicId` `systemId` і `notationData` тепер допускають значення null. |
 
 ### Дивіться також
 

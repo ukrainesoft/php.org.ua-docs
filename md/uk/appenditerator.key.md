@@ -1,16 +1,11 @@
-Повертає поточний ключ
-
--   [« AppendIterator::getIteratorIndex](appenditerator.getiteratorindex.html)
-    
--   [AppendIterator::next »](appenditerator.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [AppendIterator](class.appenditerator.html)
-    
--   Повертає поточний ключ
-    
-
+---
+navigation:
+  - appenditerator.getiteratorindex.html: '« AppendIterator::getIteratorIndex'
+  - appenditerator.next.html: 'AppendIterator::next »'
+  - index.html: PHP Manual
+  - class.appenditerator.html: AppendIterator
+title: 'AppendIterator::key'
+---
 # AppendIterator::key
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

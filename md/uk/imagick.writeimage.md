@@ -1,16 +1,11 @@
-Записує зображення за вказаним ім'ям файлу
-
--   [« Imagick::whiteThresholdImage](imagick.whitethresholdimage.md)
-    
--   [Imagick::writeImageFile »](imagick.writeimagefile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Записує зображення за вказаним ім'ям файлу
-    
-
+---
+navigation:
+  - imagick.whitethresholdimage.md: '« Imagick::whiteThresholdImage'
+  - imagick.writeimagefile.md: 'Imagick::writeImageFile »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::writeImage'
+---
 # Imagick::writeImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

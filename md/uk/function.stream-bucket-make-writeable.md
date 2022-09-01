@@ -1,16 +1,11 @@
-Повертає об'єкт кошика із бригади для подальшої роботи з ним
-
--   [« streambucketappend](function.stream-bucket-append.html)
-    
--   [streambucketnew »](function.stream-bucket-new.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Повертає об'єкт кошика із бригади для подальшої роботи з ним
-    
-
+---
+navigation:
+  - function.stream-bucket-append.html: « streambucketappend
+  - function.stream-bucket-new.html: streambucketnew »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streambucketmakewriteable
+---
 # streambucketmakewriteable
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Видаляє всі значення з колекції
-
--   [« DsSet::capacity](ds-set.capacity.html)
-    
--   [ДсSet::construct »](ds-set.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Видаляє всі значення з колекції
-    
-
+---
+navigation:
+  - ds-set.capacity.html: '« DsSet::capacity'
+  - ds-set.construct.html: 'ДсSet::construct »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::clear'
+---
 # ДсSet::clear
 
 (PECL ds >= 1.0.0)

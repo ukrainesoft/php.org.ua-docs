@@ -1,31 +1,26 @@
-Налаштування під час виконання
-
--   [« Установка](filesystem.installation.html)
-    
--   [Типи ресурсів »](filesystem.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](filesystem.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - filesystem.installation.html: « Установка
+  - filesystem.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - filesystem.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Директиви конфігурації файлової системи та потоків**
 
-| Имя                                                                                 | По умолчанию | Место изменения | Список изменений                        |
-|-------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------------------|
-| [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen)                  | "1"          | PHPINISYSTEM    |                                         |
-| [allowurlinclude](filesystem.configuration.html#ini.allow-url-include)              | "0"          | PHPINISYSTEM    | Оголошена застаріла з версії PHP 7.4.0. |
-| [useragent](filesystem.configuration.html#ini.user-agent)                           | NULL         | PHPINIALL       |                                         |
-| [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)    | "60"         | PHPINIALL       |                                         |
-| [from](filesystem.configuration.html#ini.from)                                      | ""           | PHPINIALL       |                                         |
-| [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) | "0"          | PHPINIALL       | Оголошена застаріла з версії PHP 8.1.0. |
-| [systempdir](filesystem.configuration.html#ini.sys-temp-dir)                        | ""           | PHPINISYSTEM    |                                         |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | "1" | PHPINISYSTEM |  |
+| [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | "0" | PHPINISYSTEM | Оголошена застаріла з версії PHP 7.4.0. |
+| [useragent](filesystem.configuration.html#ini.user-agent) | NULL | PHPINIALL |  |
+| [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout) | "60" | PHPINIALL |  |
+| [from](filesystem.configuration.html#ini.from) | "" | PHPINIALL |  |
+| [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) | "0" | PHPINIALL | Оголошена застаріла з версії PHP 8.1.0. |
+| [systempdir](filesystem.configuration.html#ini.sys-temp-dir) | "" | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

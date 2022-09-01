@@ -1,16 +1,11 @@
-Отримати останній код про помилку в об'єкті
-
--   [« IntlTimeZone::getEquivalentID](intltimezone.getequivalentid.md)
-    
--   [IntlTimeZone::getErrorMessage »](intltimezone.geterrormessage.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Отримати останній код про помилку в об'єкті
-    
-
+---
+navigation:
+  - intltimezone.getequivalentid.md: '« IntlTimeZone::getEquivalentID'
+  - intltimezone.geterrormessage.md: 'IntlTimeZone::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::getErrorCode'
+---
 # IntlTimeZone::getErrorCode
 
 # intltzgeterrorcode

@@ -1,16 +1,11 @@
-Отримує таке попередження
-
--   [« mysqliwarning::construct](mysqli-warning.construct.html)
-    
--   [mysqlisqlexception »](class.mysqli-sql-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliwarning](class.mysqli-warning.html)
-    
--   Отримує таке попередження
-    
-
+---
+navigation:
+  - mysqli-warning.construct.html: '« mysqliwarning::construct'
+  - class.mysqli-sql-exception.html: mysqlisqlexception »
+  - index.md: PHP Manual
+  - class.mysqli-warning.html: mysqliwarning
+title: 'mysqliwarning::next'
+---
 # mysqliwarning::next
 
 (PHP 5, PHP 7, PHP 8)

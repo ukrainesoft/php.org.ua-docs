@@ -1,16 +1,11 @@
-Запитує повернення допоміжних результатів для значень у цьому фасеті
-
--   [« SolrQuery::addSortField](solrquery.addsortfield.md)
-    
--   [SolrQuery::addStatsField »](solrquery.addstatsfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Запитує повернення допоміжних результатів для значень у цьому фасеті
-    
-
+---
+navigation:
+  - solrquery.addsortfield.md: '« SolrQuery::addSortField'
+  - solrquery.addstatsfield.md: 'SolrQuery::addStatsField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addStatsFacet'
+---
 # SolrQuery::addStatsFacet
 
 (PECL solr> = 0.9.2)

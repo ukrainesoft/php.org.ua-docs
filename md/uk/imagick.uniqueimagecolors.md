@@ -1,16 +1,11 @@
-Відкидає все, крім одного, будь-якого кольору пікселя
-
--   [« Imagick::trimImage](imagick.trimimage.md)
-    
--   [Imagick::unsharpMaskImage »](imagick.unsharpmaskimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Відкидає все, крім одного, будь-якого кольору пікселя
-    
-
+---
+navigation:
+  - imagick.trimimage.md: '« Imagick::trimImage'
+  - imagick.unsharpmaskimage.md: 'Imagick::unsharpMaskImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::uniqueImageColors'
+---
 # Imagick::uniqueImageColors
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Вивільняє ресурс сертифіката
-
--   [« opensslx509fingerprint](function.openssl-x509-fingerprint.html)
-    
--   [opensslx509parse »](function.openssl-x509-parse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Вивільняє ресурс сертифіката
-    
-
+---
+navigation:
+  - function.openssl-x509-fingerprint.html: « opensslx509fingerprint
+  - function.openssl-x509-parse.html: opensslx509parse »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslx509free
+---
 # opensslx509free
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -43,7 +38,7 @@ openssl_x509_free(OpenSSLCertificate $certificate): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                       |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла, оскільки не має сенсу.                                                                                                                                      |
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла, оскільки не має сенсу. |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

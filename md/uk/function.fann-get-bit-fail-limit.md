@@ -1,16 +1,11 @@
-Повертає межу збою бітів, використану під час навчання
-
--   [« fanngetbiasarray](function.fann-get-bias-array.html)
-    
--   [fanngetbitfail »](function.fann-get-bit-fail.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає межу збою бітів, використану під час навчання
-    
-
+---
+navigation:
+  - function.fann-get-bias-array.html: « fanngetbiasarray
+  - function.fann-get-bit-fail.html: fanngetbitfail »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetbitfaillimit
+---
 # fanngetbitfaillimit
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Скасування реєстрації функції як реалізацію методу autoload()
-
--   [« splautoloadregister](function.spl-autoload-register.html)
-    
--   [splautoload »](function.spl-autoload.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SPL](ref.spl.md)
-    
--   Скасування реєстрації функції як реалізацію методу autoload()
-    
-
+---
+navigation:
+  - function.spl-autoload-register.html: « splautoloadregister
+  - function.spl-autoload.html: splautoload »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: splautoloadunregister
+---
 # splautoloadunregister
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

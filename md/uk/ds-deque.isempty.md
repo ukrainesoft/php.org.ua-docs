@@ -1,16 +1,11 @@
-Перевіряє, чи порожня двостороння черга
-
--   [« DsDeque::insert](ds-deque.insert.html)
-    
--   [ДсDeque::join »](ds-deque.join.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Перевіряє, чи порожня двостороння черга
-    
-
+---
+navigation:
+  - ds-deque.insert.html: '« DsDeque::insert'
+  - ds-deque.join.html: 'ДсDeque::join »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::isEmpty'
+---
 # ДсDeque::isEmpty
 
 (PECL ds >= 1.0.0)

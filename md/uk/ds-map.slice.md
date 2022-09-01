@@ -1,16 +1,11 @@
-Повертає підмножину колекції із заданого діапазону
-
--   [« DsMap::skip](ds-map.skip.html)
-    
--   [ДсMap::sort »](ds-map.sort.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає підмножину колекції із заданого діапазону
-    
-
+---
+navigation:
+  - ds-map.skip.html: '« DsMap::skip'
+  - ds-map.sort.html: 'ДсMap::sort »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::slice'
+---
 # ДсMap::slice
 
 (PECL ds >= 1.0.0)

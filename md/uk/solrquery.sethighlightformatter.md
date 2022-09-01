@@ -1,16 +1,11 @@
-Задає засіб форматування для виведення виділення
-
--   [« SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md)
-    
--   [SolrQuery::setHighlightFragmenter »](solrquery.sethighlightfragmenter.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Задає засіб форматування для виведення виділення
-    
-
+---
+navigation:
+  - solrquery.sethighlightalternatefield.md: '« SolrQuery::setHighlightAlternateField'
+  - solrquery.sethighlightfragmenter.md: 'SolrQuery::setHighlightFragmenter »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightFormatter'
+---
 # SolrQuery::setHighlightFormatter
 
 (PECL solr> = 0.9.2)

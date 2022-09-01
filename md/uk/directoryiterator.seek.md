@@ -1,16 +1,11 @@
-Переміщує покажчик DirectoryIterator на певну позицію
-
--   [« DirectoryIterator::rewind](directoryiterator.rewind.md)
-    
--   [DirectoryIterator::toString »](directoryiterator.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Переміщує покажчик DirectoryIterator на певну позицію
-    
-
+---
+navigation:
+  - directoryiterator.rewind.md: '« DirectoryIterator::rewind'
+  - directoryiterator.tostring.md: 'DirectoryIterator::toString »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::seek'
+---
 # DirectoryIterator::seek
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

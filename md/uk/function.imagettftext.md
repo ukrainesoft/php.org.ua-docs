@@ -1,16 +1,11 @@
-Малювання тексту на зображенні шрифтом TrueType
-
--   [« imagettfbbox](function.imagettfbbox.md)
-    
--   [imagetypes »](function.imagetypes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Малювання тексту на зображенні шрифтом TrueType
-    
-
+---
+navigation:
+  - function.imagettfbbox.md: « imagettfbbox
+  - function.imagetypes.md: imagetypes »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagettftext
+---
 # imagettftext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -95,9 +90,9 @@ $font = 'SomeFont';
 
 ### список змін
 
-| Версия | Описание                   |
-|--------|----------------------------|
-|        | Доданий параметр `options` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `options` |
 
 ### Приклади
 

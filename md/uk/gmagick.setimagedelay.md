@@ -1,16 +1,11 @@
-Встановлює затримку зображення
-
--   [« Gmagick::setimagecompose](gmagick.setimagecompose.md)
-    
--   [Gmagick::setimagedepth »](gmagick.setimagedepth.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює затримку зображення
-    
-
+---
+navigation:
+  - gmagick.setimagecompose.md: '« Gmagick::setimagecompose'
+  - gmagick.setimagedepth.md: 'Gmagick::setimagedepth »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimagedelay'
+---
 # Gmagick::setimagedelay
 
 (PECL gmagick >= Unknown)

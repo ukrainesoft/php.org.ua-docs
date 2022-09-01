@@ -1,16 +1,11 @@
-Встановлює ітератор Imagick для першого зображення
-
--   [« Imagick::setFilename](imagick.setfilename.md)
-    
--   [Imagick::setFont »](imagick.setfont.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює ітератор Imagick для першого зображення
-    
-
+---
+navigation:
+  - imagick.setfilename.md: '« Imagick::setFilename'
+  - imagick.setfont.md: 'Imagick::setFont »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setFirstIterator'
+---
 # Imagick::setFirstIterator
 
 (PECL imagick 2, PECL imagick 3)

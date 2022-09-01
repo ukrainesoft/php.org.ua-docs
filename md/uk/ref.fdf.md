@@ -1,16 +1,11 @@
-FDF
-
--   [« Приклади](fdf.examples.md)
-    
--   [fdfadddocjavascript »](function.fdf-add-doc-javascript.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](book.fdf.md)
-    
--   FDF
-    
-
+---
+navigation:
+  - fdf.examples.md: « Приклади
+  - function.fdf-add-doc-javascript.html: fdfadddocjavascript »
+  - index.md: PHP Manual
+  - book.fdf.md: FDF
+title: FDF
+---
 # FDF
 
 ## Зміст

@@ -1,16 +1,11 @@
-Повертає назву вказаної колонки результату запиту
-
--   [« mysqlfieldlen](function.mysql-field-len.html)
-    
--   [mysqlfieldseek »](function.mysql-field-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає назву вказаної колонки результату запиту
-    
-
+---
+navigation:
+  - function.mysql-field-len.html: « mysqlfieldlen
+  - function.mysql-field-seek.html: mysqlfieldseek »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfieldname
+---
 # mysqlfieldname
 
 (PHP 4, PHP 5)

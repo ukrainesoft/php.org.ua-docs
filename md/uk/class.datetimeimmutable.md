@@ -1,16 +1,11 @@
-Клас DateTimeImmutable
-
--   [« DateTime::sub](datetime.sub.md)
-    
--   [DateTimeImmutable::add »](datetimeimmutable.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Дата/время](book.datetime.md)
-    
--   Клас DateTimeImmutable
-    
-
+---
+navigation:
+  - datetime.sub.md: '« DateTime::sub'
+  - datetimeimmutable.add.md: 'DateTimeImmutable::add »'
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Клас DateTimeImmutable
+---
 # Клас DateTimeImmutable
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -112,9 +107,9 @@ public __wakeup(): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Конструктор класу **DateTimeImmutable** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
+| Версия | Описание |
+| --- | --- |
+|  | Конструктор класу **DateTimeImmutable** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
 
 ## Зміст
 

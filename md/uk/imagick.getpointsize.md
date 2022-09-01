@@ -1,16 +1,11 @@
-Повертає розмір точки
-
--   [« Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.html)
-    
--   [Imagick::getQuantum »](imagick.getquantum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає розмір точки
-    
-
+---
+navigation:
+  - imagick.getpixelregioniterator.html: '« Imagick::getPixelRegionIterator'
+  - imagick.getquantum.html: 'Imagick::getQuantum »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getPointSize'
+---
 # Imagick::getPointSize
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

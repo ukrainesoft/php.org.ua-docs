@@ -1,16 +1,11 @@
-Повертає ідентифікатор поточного відсічного контуру
-
--   [« ImagickDraw::ellipse](imagickdraw.ellipse.html)
-    
--   [ImagickDraw::getClipRule »](imagickdraw.getcliprule.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає ідентифікатор поточного відсічного контуру
-    
-
+---
+navigation:
+  - imagickdraw.ellipse.html: '« ImagickDraw::ellipse'
+  - imagickdraw.getcliprule.html: 'ImagickDraw::getClipRule »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getClipPath'
+---
 # ImagickDraw::getClipPath
 
 (PECL imagick 2, PECL imagick 3)

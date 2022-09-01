@@ -1,16 +1,11 @@
-Відправляє блок даних як частину поточної фрагментованої відповіді
-
--   [« EventHttpRequest::sendReply](eventhttprequest.sendreply.md)
-    
--   [EventHttpRequest::sendReplyEnd »](eventhttprequest.sendreplyend.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Відправляє блок даних як частину поточної фрагментованої відповіді
-    
-
+---
+navigation:
+  - eventhttprequest.sendreply.md: '« EventHttpRequest::sendReply'
+  - eventhttprequest.sendreplyend.md: 'EventHttpRequest::sendReplyEnd »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::sendReplyChunk'
+---
 # EventHttpRequest::sendReplyChunk
 
 (PECL event >= 1.4.0-beta)

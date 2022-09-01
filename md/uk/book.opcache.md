@@ -1,16 +1,11 @@
-OPcache
-
--   [« FFIParserException](class.ffi-parserexception.html)
-    
--   [Введение »](intro.opcache.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   OPcache
-    
-
+---
+navigation:
+  - class.ffi-parserexception.html: « FFIParserException
+  - intro.opcache.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: OPcache
+---
 # OPcache
 
 -   [Введение](intro.opcache.md)

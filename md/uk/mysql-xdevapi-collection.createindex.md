@@ -1,16 +1,11 @@
-Створює індекс для колекції
-
--   [« Collection::count](mysql-xdevapi-collection.count.html)
-    
--   [Collection::dropIndex »](mysql-xdevapi-collection.dropindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Створює індекс для колекції
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.count.html: '« Collection::count'
+  - mysql-xdevapi-collection.dropindex.html: 'Collection::dropIndex »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::createIndex'
+---
 # Collection::createIndex
 
 (No version information available, might only be in Git)

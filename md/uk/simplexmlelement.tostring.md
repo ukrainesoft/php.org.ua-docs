@@ -1,16 +1,11 @@
-Повертає вміст рядка
-
--   [« SimpleXMLElement::saveXML](simplexmlelement.savexml.html)
-    
--   [SimpleXMLElement::xpath »](simplexmlelement.xpath.html)
-    
--   [PHP Manual](index.html)
-    
--   [SimpleXMLElement](class.simplexmlelement.html)
-    
--   Повертає вміст рядка
-    
-
+---
+navigation:
+  - simplexmlelement.savexml.html: '« SimpleXMLElement::saveXML'
+  - simplexmlelement.xpath.html: 'SimpleXMLElement::xpath »'
+  - index.html: PHP Manual
+  - class.simplexmlelement.html: SimpleXMLElement
+title: 'SimpleXMLElement::toString'
+---
 # SimpleXMLElement::toString
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

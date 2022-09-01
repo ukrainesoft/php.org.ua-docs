@@ -1,16 +1,11 @@
-Повертає об'єкт серіалізації BSON
-
--   [« MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
-    
--   [MongoDBDriverWriteConcern::construct »](mongodb-driver-writeconcern.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
-    
--   Повертає об'єкт серіалізації BSON
-    
-
+---
+navigation:
+  - class.mongodb-driver-writeconcern.html: « MongoDBDriverWriteConcern
+  - mongodb-driver-writeconcern.construct.html: 'MongoDBDriverWriteConcern::construct »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::bsonSerialize'
+---
 # MongoDBDriverWriteConcern::bsonSerialize
 
 (mongodb >=1.2.0)

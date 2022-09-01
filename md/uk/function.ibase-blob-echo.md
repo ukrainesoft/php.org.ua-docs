@@ -1,16 +1,11 @@
-Виводить вміст BLOB-об'єкта у браузер
-
--   [« ibaseblobcreate](function.ibase-blob-create.html)
-    
--   [ibaseblobget »](function.ibase-blob-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Виводить вміст BLOB-об'єкта у браузер
-    
-
+---
+navigation:
+  - function.ibase-blob-create.html: « ibaseblobcreate
+  - function.ibase-blob-get.html: ibaseblobget »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseblobecho
+---
 # ibaseblobecho
 
 (PHP 5, PHP 7 < 7.4.0)

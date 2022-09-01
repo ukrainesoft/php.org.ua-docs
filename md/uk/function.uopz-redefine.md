@@ -1,16 +1,11 @@
-Перевизначити константу
-
--   [« uopzoverload](function.uopz-overload.html)
-    
--   [uopzrename »](function.uopz-rename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Перевизначити константу
-    
-
+---
+navigation:
+  - function.uopz-overload.html: « uopzoverload
+  - function.uopz-rename.html: uopzrename »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzredefine
+---
 # uopzredefine
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7)

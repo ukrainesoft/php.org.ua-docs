@@ -1,16 +1,11 @@
-libxml
-
--   [« domimportsimplexml](function.dom-import-simplexml.html)
-    
--   [Введение »](intro.libxml.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка XML](refs.xml.html)
-    
--   libxml
-    
-
+---
+navigation:
+  - function.dom-import-simplexml.html: « domimportsimplexml
+  - intro.libxml.html: Введение »
+  - index.html: PHP Manual
+  - refs.xml.html: Обработка XML
+title: libxml
+---
 # libxml
 
 -   [Введение](intro.libxml.html)

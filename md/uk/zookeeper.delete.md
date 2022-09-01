@@ -1,16 +1,11 @@
-Видаляє синхронно вузол в zookeeper
-
--   [« Zookeeper::create](zookeeper.create.html)
-    
--   [Zookeeper::exists »](zookeeper.exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Видаляє синхронно вузол в zookeeper
-    
-
+---
+navigation:
+  - zookeeper.create.html: '« Zookeeper::create'
+  - zookeeper.exists.html: 'Zookeeper::exists »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::delete'
+---
 # Zookeeper::delete
 
 (PECL zookeeper >= 0.2.0)

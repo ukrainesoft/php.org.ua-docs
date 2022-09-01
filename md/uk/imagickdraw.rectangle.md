@@ -1,16 +1,11 @@
-Малює прямокутник
-
--   [« ImagickDraw::pushPattern](imagickdraw.pushpattern.html)
-    
--   [ImagickDraw::render »](imagickdraw.render.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює прямокутник
-    
-
+---
+navigation:
+  - imagickdraw.pushpattern.html: '« ImagickDraw::pushPattern'
+  - imagickdraw.render.html: 'ImagickDraw::render »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::rectangle'
+---
 # ImagickDraw::rectangle
 
 (PECL imagick 2, PECL imagick 3)

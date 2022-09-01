@@ -1,16 +1,11 @@
-Клас PSpellConfig
-
--   [« PSpellDictionary](class.pspell-dictionary.html)
-    
--   [Recode »](book.recode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Pspell](book.pspell.md)
-    
--   Клас PSpellConfig
-    
-
+---
+navigation:
+  - class.pspell-dictionary.html: « PSpellDictionary
+  - book.recode.md: Recode »
+  - index.md: PHP Manual
+  - book.pspell.md: Pspell
+title: Клас PSpellConfig
+---
 # Клас PSpellConfig
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Розшифровує та перевіряє підпис переданого тексту
-
--   [« gnupgdecrypt](function.gnupg-decrypt.html)
-    
--   [gnupgdeletekey »](function.gnupg-deletekey.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Розшифровує та перевіряє підпис переданого тексту
-    
-
+---
+navigation:
+  - function.gnupg-decrypt.html: « gnupgdecrypt
+  - function.gnupg-deletekey.html: gnupgdeletekey »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgdecryptverify
+---
 # gnupgdecryptverify
 
 (PECL gnupg >= 0.2)

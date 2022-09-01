@@ -1,16 +1,11 @@
-Викликає callback-функцію, задану у першому параметрі
-
--   [« calluserfuncarray](function.call-user-func-array.html)
-    
--   [createfunction »](function.create-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Викликає callback-функцію, задану у першому параметрі
-    
-
+---
+navigation:
+  - function.call-user-func-array.html: « calluserfuncarray
+  - function.create-function.html: createfunction »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: calluserfunc
+---
 # calluserfunc
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

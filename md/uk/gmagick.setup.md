@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.gmagick.html)
-    
--   [Вимоги »](gmagick.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](book.gmagick.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.gmagick.html: « Введение
+  - gmagick.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.gmagick.html: Gmagick
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

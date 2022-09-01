@@ -1,16 +1,11 @@
-Встановлює атрибут зображення
-
--   [« Imagick::setImageArtifact](imagick.setimageartifact.md)
-    
--   [Imagick::setImageBackgroundColor »](imagick.setimagebackgroundcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює атрибут зображення
-    
-
+---
+navigation:
+  - imagick.setimageartifact.md: '« Imagick::setImageArtifact'
+  - imagick.setimagebackgroundcolor.md: 'Imagick::setImageBackgroundColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageAttribute'
+---
 # Imagick::setImageAttribute
 
 (PECL imagick 2, PECL imagick 3)

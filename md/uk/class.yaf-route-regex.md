@@ -1,16 +1,11 @@
-Клас YafRouteRegex
-
--   [« YafRouteMap::route](yaf-route-map.route.html)
-    
--   [YafRouteRegex::assemble »](yaf-route-regex.assemble.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRouteRegex
-    
-
+---
+navigation:
+  - yaf-route-map.route.html: '« YafRouteMap::route'
+  - yaf-route-regex.assemble.html: 'YafRouteRegex::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRouteRegex
+---
 # Клас YafRouteRegex
 
 (Yaf >=1.0.0)

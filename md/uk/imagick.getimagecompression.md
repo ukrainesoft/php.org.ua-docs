@@ -1,16 +1,11 @@
-Повертає поточний тип компресії зображення
-
--   [« Imagick::getImageCompose](imagick.getimagecompose.md)
-    
--   [Imagick::getImageCompressionQuality »](imagick.getimagecompressionquality.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає поточний тип компресії зображення
-    
-
+---
+navigation:
+  - imagick.getimagecompose.md: '« Imagick::getImageCompose'
+  - imagick.getimagecompressionquality.md: 'Imagick::getImageCompressionQuality »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageCompression'
+---
 # Imagick::getImageCompression
 
 (PECL imagick 3> = 3.3.0)

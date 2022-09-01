@@ -1,16 +1,11 @@
-Отримати інформацію про статус поштової скриньки
-
--   [« imapsort](function.imap-sort.html)
-    
--   [imapsubscribe »](function.imap-subscribe.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати інформацію про статус поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-sort.html: « imapsort
+  - function.imap-subscribe.html: imapsubscribe »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapstatus
+---
 # imapstatus
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -58,9 +53,9 @@ imap_status(IMAP\Connection $imap, string $mailbox, int $flags): stdClass|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

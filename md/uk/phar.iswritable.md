@@ -1,16 +1,11 @@
-Перевіряє, чи можна модифікувати phar-архів
-
--   [« Phar::isValidPharFilename](phar.isvalidpharfilename.md)
-    
--   [Phar::loadPhar »](phar.loadphar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Перевіряє, чи можна модифікувати phar-архів
-    
-
+---
+navigation:
+  - phar.isvalidpharfilename.md: '« Phar::isValidPharFilename'
+  - phar.loadphar.md: 'Phar::loadPhar »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::isWritable'
+---
 # Phar::isWritable
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

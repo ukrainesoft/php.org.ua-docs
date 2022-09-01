@@ -1,16 +1,11 @@
-Отримує статистику каналу Swoole
-
--   [« SwooleChannel::push](swoole-channel.push.html)
-    
--   [SwooleClient »](class.swoole-client.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleChannel](class.swoole-channel.html)
-    
--   Отримує статистику каналу Swoole
-    
-
+---
+navigation:
+  - swoole-channel.push.html: '« SwooleChannel::push'
+  - class.swoole-client.html: SwooleClient »
+  - index.md: PHP Manual
+  - class.swoole-channel.html: SwooleChannel
+title: 'SwooleChannel::stats'
+---
 # SwooleChannel::stats
 
 (PECL swoole >= 1.9.0)

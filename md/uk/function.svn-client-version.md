@@ -1,16 +1,11 @@
-Повертає версію клієнтських бібліотек SVN
-
--   [« svncleanup](function.svn-cleanup.html)
-    
--   [svncommit »](function.svn-commit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає версію клієнтських бібліотек SVN
-    
-
+---
+navigation:
+  - function.svn-cleanup.html: « svncleanup
+  - function.svn-commit.html: svncommit »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnclientversion
+---
 # svnclientversion
 
 (PECL svn> = 0.1.0)

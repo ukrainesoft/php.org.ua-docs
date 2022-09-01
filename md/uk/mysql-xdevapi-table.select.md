@@ -1,16 +1,11 @@
-Вибрати рядки з таблиці
-
--   [« Table::isView](mysql-xdevapi-table.isview.html)
-    
--   [Table::update »](mysql-xdevapi-table.update.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Вибрати рядки з таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.isview.html: '« Table::isView'
+  - mysql-xdevapi-table.update.html: 'Table::update »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::select'
+---
 # Table::select
 
 (No version information available, might only be in Git)

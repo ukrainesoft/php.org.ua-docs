@@ -1,16 +1,11 @@
-Отримує повний буфер, що містить згенеровані дані PS
-
--   [«psfindfont](function.ps-findfont.html)
-    
--   [псgetparameter »](function.ps-get-parameter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Отримує повний буфер, що містить згенеровані дані PS
-    
-
+---
+navigation:
+  - function.ps-findfont.html: «psfindfont
+  - function.ps-get-parameter.html: псgetparameter »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псgetbuffer
+---
 # псgetbuffer
 
 (PECL ps >= 1.1.0)

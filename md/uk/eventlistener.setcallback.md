@@ -1,16 +1,11 @@
-Ціль setCallback
-
--   [« EventListener::getSocketName](eventlistener.getsocketname.html)
-    
--   [EventListener::setErrorCallback »](eventlistener.seterrorcallback.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventListener](class.eventlistener.html)
-    
--   Ціль setCallback
-    
-
+---
+navigation:
+  - eventlistener.getsocketname.html: '« EventListener::getSocketName'
+  - eventlistener.seterrorcallback.html: 'EventListener::setErrorCallback »'
+  - index.html: PHP Manual
+  - class.eventlistener.html: EventListener
+title: 'EventListener::setCallback'
+---
 # EventListener::setCallback
 
 (PECL event >= 1.2.6-beta)

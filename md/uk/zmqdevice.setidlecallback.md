@@ -1,16 +1,11 @@
-Встановити callback-функцію бездіяльності
-
--   [« ZMQDevice::run](zmqdevice.run.md)
-    
--   [ZMQDevice::setIdleTimeout »](zmqdevice.setidletimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQDevice](class.zmqdevice.md)
-    
--   Встановити callback-функцію бездіяльності
-    
-
+---
+navigation:
+  - zmqdevice.run.md: '« ZMQDevice::run'
+  - zmqdevice.setidletimeout.md: 'ZMQDevice::setIdleTimeout »'
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
+title: 'ZMQ Device::set Idle Callback'
+---
 # ZMQ Device::set Idle Callback
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Отримує статус зазначеного документа
-
--   [« tidy::getRelease](tidy.getrelease.md)
-    
--   [tidy::head »](tidy.head.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Отримує статус зазначеного документа
-    
-
+---
+navigation:
+  - tidy.getrelease.md: '« tidy::getRelease'
+  - tidy.head.md: 'tidy::head »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::getStatus'
+---
 # tidy::getStatus
 
 # tidygetstatus

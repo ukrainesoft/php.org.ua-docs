@@ -1,16 +1,11 @@
-Вийняти елемент
-
--   [« Yaconf](class.yaconf.md)
-    
--   [Yaconf::has »](yaconf.has.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yaconf](class.yaconf.md)
-    
--   Вийняти елемент
-    
-
+---
+navigation:
+  - class.yaconf.md: « Yaconf
+  - yaconf.has.md: 'Yaconf::has »'
+  - index.md: PHP Manual
+  - class.yaconf.md: Yaconf
+title: 'Yaconf::get'
+---
 # Yaconf::get
 
 (PECL yaconf> = 1.0.0)

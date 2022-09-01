@@ -1,16 +1,11 @@
-Отримання частини рядка
-
--   [« iconvstrrpos](function.iconv-strrpos.html)
-    
--   [iconv »](function.iconv.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции iconv](ref.iconv.html)
-    
--   Отримання частини рядка
-    
-
+---
+navigation:
+  - function.iconv-strrpos.html: « iconvstrrpos
+  - function.iconv.html: iconv »
+  - index.html: PHP Manual
+  - ref.iconv.html: Функции iconv
+title: iconvsubstr
+---
 # iconvsubstr
 
 (PHP 5, PHP 7, PHP 8)
@@ -57,10 +52,10 @@ iconv_substr(    string $string,    int $offset,    ?int $length = n
 
 ### список змін
 
-| Версия | Описание                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------|
-|        | `length` і `encoding` тепер допускають значення null.                                                                    |
-|        | Якщо `string` має довжину рівну `offset`, буде повернуто порожній рядок. Раніше у таких випадках поверталося **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | `length` і `encoding` тепер допускають значення null. |
+|  | Якщо `string` має довжину рівну `offset`, буде повернуто порожній рядок. Раніше у таких випадках поверталося **`false`** |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](tokenizer.requirements.html)
-    
--   [Налаштування під час виконання »](tokenizer.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](tokenizer.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - tokenizer.requirements.html: « Вимоги
+  - tokenizer.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - tokenizer.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Ці функції включені за промовчанням. Можна вимкнути підтримку лексера (tokenizer) з **\-disable-tokenizer**

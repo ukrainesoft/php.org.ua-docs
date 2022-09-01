@@ -1,16 +1,11 @@
-Отримати розмір файлу після застосування бінарного патчу
-
--   [« Функції xdiff](ref.xdiff.html)
-    
--   [xdifffilebdiff »](function.xdiff-file-bdiff.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції xdiff](ref.xdiff.html)
-    
--   Отримати розмір файлу після застосування бінарного патчу
-    
-
+---
+navigation:
+  - ref.xdiff.html: « Функції xdiff
+  - function.xdiff-file-bdiff.html: xdifffilebdiff »
+  - index.html: PHP Manual
+  - ref.xdiff.html: Функції xdiff
+title: xdifffilebdiffsize
+---
 # xdifffilebdiffsize
 
 (PECL xdiff >= 1.5.0)

@@ -1,16 +1,11 @@
-Отримати об'єкт таблиці колекції
-
--   [« Schema::getCollection](mysql-xdevapi-schema.getcollection.html)
-    
--   [Schema::getCollections »](mysql-xdevapi-schema.getcollections.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Отримати об'єкт таблиці колекції
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.getcollection.html: '« Schema::getCollection'
+  - mysql-xdevapi-schema.getcollections.html: 'Schema::getCollections »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::getCollectionAsTable'
+---
 # Schema::getCollectionAsTable
 
 (No version information available, might only be in Git)

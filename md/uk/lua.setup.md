@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.lua.md)
-    
--   [Вимоги »](lua.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Lua](book.lua.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.lua.md: « Введение
+  - lua.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.lua.md: Lua
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

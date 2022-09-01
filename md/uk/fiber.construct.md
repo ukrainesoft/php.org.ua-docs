@@ -1,16 +1,11 @@
-Створює новий екземпляр Fiber
-
--   [« Fiber](class.fiber.md)
-    
--   [Fiber::start »](fiber.start.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Створює новий екземпляр Fiber
-    
-
+---
+navigation:
+  - class.fiber.md: « Fiber
+  - fiber.start.md: 'Fiber::start »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::construct'
+---
 # Fiber::construct
 
 (PHP 8> = 8.1.0)

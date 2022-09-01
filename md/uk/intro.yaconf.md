@@ -1,16 +1,11 @@
-Вступ
-
--   [« Yaconf](book.yaconf.md)
-    
--   [Встановлення та налаштування »](yaconf.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yaconf](book.yaconf.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.yaconf.md: « Yaconf
+  - yaconf.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.yaconf.md: Yaconf
+title: Вступ
+---
 # Вступ
 
 Ще один контейнер конфігурацій (`Yet Another Configurations Container`, Yaconf) - контейнер конфігурацій, який розбирає INI-файли та зберігає результат у PHP при його запуску, результат зберігається протягом усього життєвого циклу PHP.

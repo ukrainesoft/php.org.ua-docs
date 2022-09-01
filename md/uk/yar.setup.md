@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.yar.html)
-    
--   [Вимоги »](yar.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yar](book.yar.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.yar.html: « Введение
+  - yar.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.yar.html: Yar
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

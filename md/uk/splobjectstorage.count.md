@@ -1,16 +1,11 @@
-Повертає кількість об'єктів у контейнері
-
--   [« SplObjectStorage::contains](splobjectstorage.contains.md)
-    
--   [SplObjectStorage::current »](splobjectstorage.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Повертає кількість об'єктів у контейнері
-    
-
+---
+navigation:
+  - splobjectstorage.contains.md: '« SplObjectStorage::contains'
+  - splobjectstorage.current.md: 'SplObjectStorage::current »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::count'
+---
 # SplObjectStorage::count
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

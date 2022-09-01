@@ -1,16 +1,11 @@
-Установка оброблювача за замовчуванням
-
--   [« xmlsetcharacterdatahandler](function.xml-set-character-data-handler.html)
-    
--   [xmlsetelementhandler »](function.xml-set-element-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Установка оброблювача за замовчуванням
-    
-
+---
+navigation:
+  - function.xml-set-character-data-handler.html: « xmlsetcharacterdatahandler
+  - function.xml-set-element-handler.html: xmlsetelementhandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetdefaulthandler
+---
 # xmlsetdefaulthandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -59,6 +54,6 @@ handler(XmlParser $parser, string $data)
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

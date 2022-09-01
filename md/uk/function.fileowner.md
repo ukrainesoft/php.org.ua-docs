@@ -1,16 +1,11 @@
-Повертає ідентифікатор власника файлу
-
--   [« filemtime](function.filemtime.html)
-    
--   [fileperms »](function.fileperms.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Повертає ідентифікатор власника файлу
-    
-
+---
+navigation:
+  - function.filemtime.html: « filemtime
+  - function.fileperms.html: fileperms »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: fileowner
+---
 # fileowner
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

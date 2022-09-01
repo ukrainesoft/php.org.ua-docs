@@ -1,16 +1,11 @@
-Оголошує токен з правою асоціативністю
-
--   [« ParleParser::reset](parle-parser.reset.html)
-    
--   [ParleParser::sigil »](parle-parser.sigil.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Оголошує токен з правою асоціативністю
-    
-
+---
+navigation:
+  - parle-parser.reset.html: '« ParleParser::reset'
+  - parle-parser.sigil.html: 'ParleParser::sigil »'
+  - index.md: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::right'
+---
 # ParleParser::right
 
 (PECL parle >= 0.5.1)

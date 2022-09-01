@@ -1,16 +1,11 @@
-Метод сповіщення про закриття сервера
-
--   [« MongoDBDriverMonitoringSDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   Метод сповіщення про закриття сервера
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.serverchanged.html: '« MongoDBDriverMonitoringSDAMSubscriber::serverChanged'
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.html: 'MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::serverClosed'
+---
 # MongoDBDriverMonitoringSDAMSubscriber::serverClosed
 
 (mongodb >=1.13.0)

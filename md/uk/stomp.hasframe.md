@@ -1,16 +1,11 @@
-Перевіряє, чи можливе читання кадру
-
--   [« Stomp::getSessionId](stomp.getsessionid.md)
-    
--   [Stomp::readFrame »](stomp.readframe.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Перевіряє, чи можливе читання кадру
-    
-
+---
+navigation:
+  - stomp.getsessionid.md: '« Stomp::getSessionId'
+  - stomp.readframe.md: 'Stomp::readFrame »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::hasFrame'
+---
 # Stomp::hasFrame
 
 # stomphasframe

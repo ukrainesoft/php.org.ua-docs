@@ -1,16 +1,11 @@
-Розшифровує зображення
-
--   [« Imagick::cycleColormapImage](imagick.cyclecolormapimage.html)
-    
--   [Imagick::deconstructImages »](imagick.deconstructimages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Розшифровує зображення
-    
-
+---
+navigation:
+  - imagick.cyclecolormapimage.html: '« Imagick::cycleColormapImage'
+  - imagick.deconstructimages.html: 'Imagick::deconstructImages »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::decipherImage'
+---
 # Imagick::decipherImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

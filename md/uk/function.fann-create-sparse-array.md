@@ -1,16 +1,11 @@
-Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
-
--   [« fanncreateshortcut](function.fann-create-shortcut.html)
-    
--   [fanncreatesparse »](function.fann-create-sparse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
-    
-
+---
+navigation:
+  - function.fann-create-shortcut.html: « fanncreateshortcut
+  - function.fann-create-sparse.html: fanncreatesparse »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanncreatesparsearray
+---
 # fanncreatesparsearray
 
 (PECL fann> = 1.0.0)

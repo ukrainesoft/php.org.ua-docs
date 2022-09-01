@@ -1,16 +1,11 @@
-Серіалізувати JavaScript
-
--   [« MongoDBBSONJavascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.html)
-    
--   [MongoDBBSONJavascript::toString »](mongodb-bson-javascript.tostring.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   Серіалізувати JavaScript
-    
-
+---
+navigation:
+  - mongodb-bson-javascript.jsonserialize.html: '« MongoDBBSONJavascript::jsonSerialize'
+  - mongodb-bson-javascript.tostring.html: 'MongoDBBSONJavascript::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+title: 'MongoDBBSONJavascript::serialize'
+---
 # MongoDBBSONJavascript::serialize
 
 (mongodb >=1.2.0)

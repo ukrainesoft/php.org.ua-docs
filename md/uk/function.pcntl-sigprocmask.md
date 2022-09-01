@@ -1,16 +1,11 @@
-Задає та витягує список сигналів, що блокуються.
-
--   [pcntlsignal](function.pcntl-signal.html)
-    
--   [pcntlsigtimedwait »](function.pcntl-sigtimedwait.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Задає та витягує список сигналів, що блокуються.
-    
-
+---
+navigation:
+  - function.pcntl-signal.html: pcntlsignal
+  - function.pcntl-sigtimedwait.html: pcntlsigtimedwait »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlsigprocmask
+---
 # pcntlsigprocmask
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

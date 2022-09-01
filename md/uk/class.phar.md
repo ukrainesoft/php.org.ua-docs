@@ -1,16 +1,11 @@
-Клас Phar
-
--   [« Формат подписи Phar](phar.fileformat.signature.md)
-    
--   [Phar::addEmptyDir »](phar.addemptydir.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](book.phar.md)
-    
--   Клас Phar
-    
-
+---
+navigation:
+  - phar.fileformat.signature.md: « Формат подписи Phar
+  - phar.addemptydir.md: 'Phar::addEmptyDir »'
+  - index.md: PHP Manual
+  - book.phar.md: Phar
+title: Клас Phar
+---
 # Клас Phar
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

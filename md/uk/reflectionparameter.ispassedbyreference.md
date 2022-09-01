@@ -1,16 +1,11 @@
-Перевіряє, чи передано параметр за посиланням
-
--   [« ReflectionParameter::isOptional](reflectionparameter.isoptional.md)
-    
--   [ReflectionParameter::isVariadic »](reflectionparameter.isvariadic.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перевіряє, чи передано параметр за посиланням
-    
-
+---
+navigation:
+  - reflectionparameter.isoptional.md: '« ReflectionParameter::isOptional'
+  - reflectionparameter.isvariadic.md: 'ReflectionParameter::isVariadic »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isPassedByReference'
+---
 # ReflectionParameter::isPassedByReference
 
 (PHP 5, PHP 7, PHP 8)

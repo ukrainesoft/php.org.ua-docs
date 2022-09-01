@@ -1,16 +1,11 @@
-Америка
-
--   [« Африка](timezones.africa.html)
-    
--   [Антарктика »](timezones.antarctica.html)
-    
--   [PHP Manual](index.html)
-    
--   [Список підтримуваних часових поясів](timezones.html)
-    
--   Америка
-    
-
+---
+navigation:
+  - timezones.africa.html: « Африка
+  - timezones.antarctica.html: Антарктика »
+  - index.html: PHP Manual
+  - timezones.html: Список підтримуваних часових поясів
+title: Америка
+---
 ## Америка
 
 < td>America/Dawson< td>America/Los\_Angeles< td>America/Puerto\_Rico< td>America/Yellowknife

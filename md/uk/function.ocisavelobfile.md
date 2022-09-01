@@ -1,16 +1,11 @@
-Псевдонім OCILob::import
-
--   [« ocisavelob](function.ocisavelob.html)
-    
--   [ociserverversion »](function.ociserverversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім OCILob::import
-    
-
+---
+navigation:
+  - function.ocisavelob.html: « ocisavelob
+  - function.ociserverversion.html: ociserverversion »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocisavelobfile
+---
 # ocisavelobfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

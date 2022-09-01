@@ -1,16 +1,11 @@
-Клас Spoofchecker
-
--   [« ResourceBundle::getLocales](resourcebundle.locales.md)
-    
--   [Spoofchecker::areConfusable »](spoofchecker.areconfusable.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас Spoofchecker
-    
-
+---
+navigation:
+  - resourcebundle.locales.md: '« ResourceBundle::getLocales'
+  - spoofchecker.areconfusable.md: 'Spoofchecker::areConfusable »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас Spoofchecker
+---
 # Клас Spoofchecker
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
@@ -131,9 +126,9 @@ public setChecks(int $checks): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Додані константи класу, які використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
+| Версия | Описание |
+| --- | --- |
+|  | Додані константи класу, які використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
 
 ## Зміст
 

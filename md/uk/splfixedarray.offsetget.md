@@ -1,16 +1,11 @@
-Повертає значення за вказаним індексом
-
--   [« SplFixedArray::offsetExists](splfixedarray.offsetexists.md)
-    
--   [SplFixedArray::offsetSet »](splfixedarray.offsetset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFixedArray](class.splfixedarray.md)
-    
--   Повертає значення за вказаним індексом
-    
-
+---
+navigation:
+  - splfixedarray.offsetexists.md: '« SplFixedArray::offsetExists'
+  - splfixedarray.offsetset.md: 'SplFixedArray::offsetSet »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::offsetGet'
+---
 # SplFixedArray::offsetGet
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

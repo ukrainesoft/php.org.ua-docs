@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](yaz.installation.html)
-    
--   [Типи ресурсів »](yaz.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](yaz.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - yaz.installation.html: « Установка
+  - yaz.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - yaz.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

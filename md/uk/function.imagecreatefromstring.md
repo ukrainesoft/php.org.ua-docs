@@ -1,16 +1,11 @@
-Створення нового зображення з потоку, представленого рядком
-
--   [« imagecreatefrompng](function.imagecreatefrompng.html)
-    
--   [imagecreatefromtga »](function.imagecreatefromtga.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Створення нового зображення з потоку, представленого рядком
-    
-
+---
+navigation:
+  - function.imagecreatefrompng.html: « imagecreatefrompng
+  - function.imagecreatefromtga.html: imagecreatefromtga »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromstring
+---
 # imagecreatefromstring
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ imagecreatefromstring(string $data): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
-|        | Додана підтримка WEBP (якщо підтримується libgd).                                                                               |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+|  | Додана підтримка WEBP (якщо підтримується libgd). |
 
 ### Приклади
 

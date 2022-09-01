@@ -1,16 +1,11 @@
-Створити ідентифікатор сесії
-
--   [« SessionIdInterface](class.sessionidinterface.md)
-    
--   [SessionUpdateTimestampHandlerInterface »](class.sessionupdatetimestamphandlerinterface.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionIdInterface](class.sessionidinterface.md)
-    
--   Створити ідентифікатор сесії
-    
-
+---
+navigation:
+  - class.sessionidinterface.md: « SessionIdInterface
+  - class.sessionupdatetimestamphandlerinterface.md: SessionUpdateTimestampHandlerInterface »
+  - index.md: PHP Manual
+  - class.sessionidinterface.md: SessionIdInterface
+title: 'SessionIdInterface::createsid'
+---
 # SessionIdInterface::createsid
 
 (PHP 5> = 5.5.1, PHP 7, PHP 8)

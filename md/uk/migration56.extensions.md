@@ -1,16 +1,11 @@
-Інші зміни у модулях
-
--   [« Изменения OpenSSL в PHP 5.6.x](migration56.openssl.md)
-    
--   [Нові глобальні константи »](migration56.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
-    
--   Інші зміни у модулях
-    
-
+---
+navigation:
+  - migration56.openssl.md: « Изменения OpenSSL в PHP 5.6.x
+  - migration56.constants.md: Нові глобальні константи »
+  - index.md: PHP Manual
+  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
+title: Інші зміни у модулях
+---
 ## Інші зміни у модулях
 
 ### [cURL](book.curl.md)

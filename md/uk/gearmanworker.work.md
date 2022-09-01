@@ -1,16 +1,11 @@
-Очікування та виконання завдань
-
--   [« GearmanWorker::wait](gearmanworker.wait.md)
-    
--   [GearmanException »](class.gearmanexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Очікування та виконання завдань
-    
-
+---
+navigation:
+  - gearmanworker.wait.md: '« GearmanWorker::wait'
+  - class.gearmanexception.md: GearmanException »
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::work'
+---
 # GearmanWorker::work
 
 (PECL gearman >= 0.5.0)

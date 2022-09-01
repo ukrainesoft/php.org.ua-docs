@@ -1,16 +1,11 @@
-Встановлює кількість каскадних періодів застою кандидатів
-
--   [« fannsetcascadecandidatelimit](function.fann-set-cascade-candidate-limit.html)
-    
--   [fannsetcascademaxcandepochs »](function.fann-set-cascade-max-cand-epochs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює кількість каскадних періодів застою кандидатів
-    
-
+---
+navigation:
+  - function.fann-set-cascade-candidate-limit.html: « fannsetcascadecandidatelimit
+  - function.fann-set-cascade-max-cand-epochs.html: fannsetcascademaxcandepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascadecandidatestagnationepochs
+---
 # fannsetcascadecandidatestagnationepochs
 
 (PECL fann> = 1.0.0)

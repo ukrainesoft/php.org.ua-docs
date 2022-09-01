@@ -1,16 +1,11 @@
-Модулі для роботи з поштою
-
--   [« ImagickKernel::separate](imagickkernel.separate.html)
-    
--   [IMAP »](book.imap.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Модулі для роботи з поштою
-    
-
+---
+navigation:
+  - imagickkernel.separate.html: '« ImagickKernel::separate'
+  - book.imap.html: IMAP »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Модулі для роботи з поштою
+---
 # Модулі для роботи з поштою
 
 -   [IMAP](book.imap.html) - IMAP, POP3 та NNTP

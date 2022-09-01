@@ -1,16 +1,11 @@
-успадкування
-
--   [" Область видимості](language.oop5.visibility.html)
-    
--   [Оператор роздільної здатності видимості (::) »](language.oop5.paamayim-nekudotayim.html)
-    
--   [PHP Manual](index.html)
-    
--   [Класи та об'єкти](language.oop5.html)
-    
--   успадкування
-    
-
+---
+navigation:
+  - language.oop5.visibility.html: '" Область видимості'
+  - language.oop5.paamayim-nekudotayim.html: 'Оператор роздільної здатності видимості (::) »'
+  - index.html: PHP Manual
+  - language.oop5.html: Класи та об'єкти
+title: успадкування
+---
 ## успадкування
 
 Спадкування - це принцип програмування, що добре зарекомендував себе, і PHP використовує цей принцип у своїй об'єктній моделі. Цей принцип вплине на те, як багато класів та об'єктів пов'язані один з одним.

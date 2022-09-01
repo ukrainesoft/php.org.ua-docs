@@ -1,16 +1,11 @@
-Перевіряє, чи існує поле у ​​документі
-
--   [« SolrDocument::destruct](solrdocument.destruct.md)
-    
--   [SolrDocument::get »](solrdocument.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Перевіряє, чи існує поле у ​​документі
-    
-
+---
+navigation:
+  - solrdocument.destruct.md: '« SolrDocument::destruct'
+  - solrdocument.get.md: 'SolrDocument::get »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::fieldExists'
+---
 # SolrDocument::fieldExists
 
 (PECL solr> = 0.9.2)

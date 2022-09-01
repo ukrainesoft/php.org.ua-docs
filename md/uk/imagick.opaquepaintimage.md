@@ -1,16 +1,11 @@
-Змінює значення кольору будь-якого пікселя, що відповідає цільовому
-
--   [« Imagick::oilPaintImage](imagick.oilpaintimage.md)
-    
--   [Imagick::optimizeImageLayers »](imagick.optimizeimagelayers.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Змінює значення кольору будь-якого пікселя, що відповідає цільовому
-    
-
+---
+navigation:
+  - imagick.oilpaintimage.md: '« Imagick::oilPaintImage'
+  - imagick.optimizeimagelayers.md: 'Imagick::optimizeImageLayers »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::opaquePaintImage'
+---
 # Imagick::opaquePaintImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

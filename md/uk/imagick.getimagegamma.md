@@ -1,16 +1,11 @@
-Повертає гаму зображення
-
--   [« Imagick::getImageFormat](imagick.getimageformat.md)
-    
--   [Imagick::getImageGeometry »](imagick.getimagegeometry.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає гаму зображення
-    
-
+---
+navigation:
+  - imagick.getimageformat.md: '« Imagick::getImageFormat'
+  - imagick.getimagegeometry.md: 'Imagick::getImageGeometry »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageGamma'
+---
 # Imagick::getImageGamma
 
 (PECL imagick 2, PECL imagick 3)

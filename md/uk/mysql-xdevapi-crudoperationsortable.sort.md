@@ -1,16 +1,11 @@
-Сортує результати
-
--   [« mysqlxdevapiCrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
-    
--   [mysqlxdevapiDatabaseObject »](class.mysql-xdevapi-databaseobject.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
-    
--   Сортує результати
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-crudoperationsortable.html: « mysqlxdevapiCrudOperationSortable
+  - class.mysql-xdevapi-databaseobject.html: mysqlxdevapiDatabaseObject »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-crudoperationsortable.html: mysqlxdevapiCrudOperationSortable
+title: 'CrudOperationSortable::sort'
+---
 # CrudOperationSortable::sort
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Повертає екземпляр класу Directory
-
--   [« closedir](function.closedir.md)
-    
--   [getcwd »](function.getcwd.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з каталогами](ref.dir.md)
-    
--   Повертає екземпляр класу Directory
-    
-
+---
+navigation:
+  - function.closedir.md: « closedir
+  - function.getcwd.md: getcwd »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
+title: dir
+---
 # dir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ dir(string $directory, ?resource $context = null): Directory|false
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `context` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 

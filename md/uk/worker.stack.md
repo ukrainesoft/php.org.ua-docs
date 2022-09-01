@@ -1,16 +1,11 @@
-Покласти завдання на стек
-
--   [« Worker::shutdown](worker.shutdown.html)
-    
--   [Worker::unstack »](worker.unstack.html)
-    
--   [PHP Manual](index.html)
-    
--   [Worker](class.worker.html)
-    
--   Покласти завдання на стек
-    
-
+---
+navigation:
+  - worker.shutdown.html: '« Worker::shutdown'
+  - worker.unstack.html: 'Worker::unstack »'
+  - index.html: PHP Manual
+  - class.worker.html: Worker
+title: 'Worker::stack'
+---
 # Worker::stack
 
 (PECL pthreads >= 2.0.0)

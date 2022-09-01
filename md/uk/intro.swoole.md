@@ -1,16 +1,11 @@
-Вступ
-
--   [« Swoole](book.swoole.md)
-    
--   [Встановлення та налаштування »](swoole.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.swoole.md: « Swoole
+  - swoole.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Вступ
+---
 # Вступ
 
 Swoole - це високопродуктивний мережевий фреймворк, що використовує асинхронну неблокуючу модель введення-виводу, що керується подіями. Він може використовуватися для розробки високопродуктивних, масштабованих паралельних TCP, UDP, сокетів Unix, HTTP, Websocket сервісів. Для початку, будь ласка, подивіться [» Документацию Swoole](https://www.swoole.co.uk/docs/)

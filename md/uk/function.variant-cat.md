@@ -1,16 +1,11 @@
-Об'єднання (конкатенація) значень двох варіантів
-
--   [« variantcast](function.variant-cast.html)
-    
--   [variantcmp »](function.variant-cmp.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Об'єднання (конкатенація) значень двох варіантів
-    
-
+---
+navigation:
+  - function.variant-cast.html: « variantcast
+  - function.variant-cmp.html: variantcmp »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantcat
+---
 # variantcat
 
 (PHP 5, PHP 7, PHP 8)

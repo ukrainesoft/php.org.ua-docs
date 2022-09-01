@@ -1,16 +1,11 @@
-Отримати ім'я помилки за її кодом
-
--   [« Функции intl](ref.intl.md)
-    
--   [intlgeterrorcode »](function.intl-get-error-code.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции intl](ref.intl.md)
-    
--   Отримати ім'я помилки за її кодом
-    
-
+---
+navigation:
+  - ref.intl.md: « Функции intl
+  - function.intl-get-error-code.html: intlgeterrorcode »
+  - index.md: PHP Manual
+  - ref.intl.md: Функции intl
+title: intlerrorname
+---
 # intlerrorname
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

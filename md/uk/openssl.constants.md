@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](openssl.resources.md)
-    
--   [Прапори перевірки »](openssl.purpose-check.html)
-    
--   [PHP Manual](index.md)
-    
--   [OpenSSL](book.openssl.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - openssl.resources.md: « Типи ресурсів
+  - openssl.purpose-check.html: Прапори перевірки »
+  - index.md: PHP Manual
+  - book.openssl.md: OpenSSL
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 ## Зміст

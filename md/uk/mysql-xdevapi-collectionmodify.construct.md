@@ -1,16 +1,11 @@
-Конструктор класу CollectionModify
-
--   [« CollectionModify::bind](mysql-xdevapi-collectionmodify.bind.html)
-    
--   [CollectionModify::execute »](mysql-xdevapi-collectionmodify.execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Конструктор класу CollectionModify
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.bind.html: '« CollectionModify::bind'
+  - mysql-xdevapi-collectionmodify.execute.html: 'CollectionModify::execute »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::construct'
+---
 # CollectionModify::construct
 
 (No version information available, might only be in Git)

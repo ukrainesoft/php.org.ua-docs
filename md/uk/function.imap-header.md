@@ -1,16 +1,11 @@
-Псевдонім imapheaderinfo
-
--   [« imapgetsubscribed](function.imap-getsubscribed.html)
-    
--   [imapheaderinfo »](function.imap-headerinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Псевдонім imapheaderinfo
-    
-
+---
+navigation:
+  - function.imap-getsubscribed.html: « imapgetsubscribed
+  - function.imap-headerinfo.html: imapheaderinfo »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapheader
+---
 # imapheader
 
 (PHP 4, PHP 5, PHP 7)

@@ -1,16 +1,11 @@
-Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
-
--   [« snmpv3get](function.snmp3-get.html)
-    
--   [snmpv3realwalk »](function.snmp3-real-walk.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
-    
-
+---
+navigation:
+  - function.snmp3-get.html: « snmpv3get
+  - function.snmp3-real-walk.html: snmpv3realwalk »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpv3getnext
+---
 # snmpv3getnext
 
 (PHP 5, PHP 7, PHP 8)
@@ -73,9 +68,9 @@ snmp3_getnext(    string $hostname,    string $security_name,    str
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Видаляє вже певну константу
-
--   [« runkit7constantredefine](function.runkit7-constant-redefine.html)
-    
--   [runkit7functionadd »](function.runkit7-function-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Видаляє вже певну константу
-    
-
+---
+navigation:
+  - function.runkit7-constant-redefine.html: « runkit7constantredefine
+  - function.runkit7-function-add.html: runkit7functionadd »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7constantremove
+---
 # runkit7constantremove
 
 (PECL runkit7> = Unknown)

@@ -1,16 +1,11 @@
-Скасує зареєстрований обробник події
-
--   [« ibasefieldinfo](function.ibase-field-info.html)
-    
--   [ibasefreequery »](function.ibase-free-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Скасує зареєстрований обробник події
-    
-
+---
+navigation:
+  - function.ibase-field-info.html: « ibasefieldinfo
+  - function.ibase-free-query.html: ibasefreequery »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasefreeeventhandler
+---
 # ibasefreeeventhandler
 
 (PHP 5, PHP 7 < 7.4.0)

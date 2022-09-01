@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](dbase.resources.md)
-    
--   [dBase »](ref.dbase.md)
-    
--   [PHP Manual](index.md)
-    
--   [dBase](book.dbase.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - dbase.resources.md: « Типи ресурсів
+  - ref.dbase.md: dBase »
+  - index.md: PHP Manual
+  - book.dbase.md: dBase
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

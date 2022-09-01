@@ -1,16 +1,11 @@
-Змінює дату та час останньої модифікації та доступу до файлу
-
--   [« eioftruncate](function.eio-ftruncate.html)
-    
--   [eiogeteventstream »](function.eio-get-event-stream.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Змінює дату та час останньої модифікації та доступу до файлу
-    
-
+---
+navigation:
+  - function.eio-ftruncate.html: « eioftruncate
+  - function.eio-get-event-stream.html: eiogeteventstream »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiofutime
+---
 # eiofutime
 
 (PECL eio >= 0.0.1dev)

@@ -1,16 +1,11 @@
-Запускає аналіз XML-документа
-
--   [« xmlparseintostruct](function.xml-parse-into-struct.html)
-    
--   [xmlparsercreatens »](function.xml-parser-create-ns.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Запускає аналіз XML-документа
-    
-
+---
+navigation:
+  - function.xml-parse-into-struct.html: « xmlparseintostruct
+  - function.xml-parser-create-ns.html: xmlparsercreatens »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlparse
+---
 # xmlparse
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 
 ### список змін
 
-| Версия | Описание                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

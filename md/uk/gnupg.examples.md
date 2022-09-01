@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](gnupg.constants.md)
-    
--   [Прозоре підписування тексту »](gnupg.examples-clearsign.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG](book.gnupg.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - gnupg.constants.md: « Обумовлені константи
+  - gnupg.examples-clearsign.html: Прозоре підписування тексту »
+  - index.md: PHP Manual
+  - book.gnupg.md: GnuPG
+title: Приклади
+---
 # Приклади
 
 ## Зміст

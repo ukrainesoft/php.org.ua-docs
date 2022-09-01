@@ -1,16 +1,11 @@
-Повертає ім'я поля з результату запиту
-
--   [« ocifieldісnull](function.oci-field-is-null.html)
-    
--   [ocifieldprecision »](function.oci-field-precision.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Повертає ім'я поля з результату запиту
-    
-
+---
+navigation:
+  - function.oci-field-is-null.html: « ocifieldісnull
+  - function.oci-field-precision.html: ocifieldprecision »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocifieldname
+---
 # ocifieldname
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

@@ -1,16 +1,11 @@
-Збільшує час операції для сеансу
-
--   [« MongoDBDriverSession::advanceClusterTime](mongodb-driver-session.advanceclustertime.html)
-    
--   [MongoDBDriverSession::commitTransaction »](mongodb-driver-session.committransaction.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Збільшує час операції для сеансу
-    
-
+---
+navigation:
+  - mongodb-driver-session.advanceclustertime.html: '« MongoDBDriverSession::advanceClusterTime'
+  - mongodb-driver-session.committransaction.html: 'MongoDBDriverSession::commitTransaction »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::advanceOperationTime'
+---
 # MongoDBDriverSession::advanceOperationTime
 
 (mongodb >=1.4.0)

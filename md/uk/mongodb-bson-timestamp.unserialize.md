@@ -1,16 +1,11 @@
-Десеріалізує Timestamp
-
--   [« MongoDBBSONTimestamp::toString](mongodb-bson-timestamp.tostring.html)
-    
--   [MongoDBBSONUTCDateTime »](class.mongodb-bson-utcdatetime.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   Десеріалізує Timestamp
-    
-
+---
+navigation:
+  - mongodb-bson-timestamp.tostring.html: '« MongoDBBSONTimestamp::toString'
+  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime »
+  - index.html: PHP Manual
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::unserialize'
+---
 # MongoDBBSONTimestamp::unserialize
 
 (mongodb >=1.2.0)

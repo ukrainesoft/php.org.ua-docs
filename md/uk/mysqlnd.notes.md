@@ -1,16 +1,11 @@
-Зауваження
-
--   [« Статистика](mysqlnd.stats.md)
-    
--   [Управление памятью »](mysqlnd.memory.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlnd](book.mysqlnd.md)
-    
--   Зауваження
-    
-
+---
+navigation:
+  - mysqlnd.stats.md: « Статистика
+  - mysqlnd.memory.md: Управление памятью »
+  - index.md: PHP Manual
+  - book.mysqlnd.md: Mysqlnd
+title: Зауваження
+---
 # Зауваження
 
 Цей розділ містить різноманітні зауваження щодо використання вбудованого драйвера MySQL.

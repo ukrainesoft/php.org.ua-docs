@@ -1,16 +1,11 @@
-Підготовляє SQL-вираз до виконання
-
--   [« cubridpconnect](function.cubrid-pconnect.html)
-    
--   [cubridput »](function.cubrid-put.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Підготовляє SQL-вираз до виконання
-    
-
+---
+navigation:
+  - function.cubrid-pconnect.html: « cubridpconnect
+  - function.cubrid-put.html: cubridput »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridprepare
+---
 # cubridprepare
 
 (PECL CUBRID >= 8.3.0)

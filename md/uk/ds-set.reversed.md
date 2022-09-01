@@ -1,16 +1,11 @@
-Повертає перегорнуту копію колекції
-
--   [« DsSet::reverse](ds-set.reverse.html)
-    
--   [ДсSet::slice »](ds-set.slice.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає перегорнуту копію колекції
-    
-
+---
+navigation:
+  - ds-set.reverse.html: '« DsSet::reverse'
+  - ds-set.slice.html: 'ДсSet::slice »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::reversed'
+---
 # ДсSet::reversed
 
 (PECL ds >= 1.0.0)

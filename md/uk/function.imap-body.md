@@ -1,16 +1,11 @@
-Прочитати тіло повідомлення
-
--   [« imapbinary](function.imap-binary.html)
-    
--   [imapbodystruct »](function.imap-bodystruct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Прочитати тіло повідомлення
-    
-
+---
+navigation:
+  - function.imap-binary.html: « imapbinary
+  - function.imap-bodystruct.html: imapbodystruct »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapbody
+---
 # imapbody
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,6 +46,6 @@ imap_body(IMAP\Connection $imap, int $message_num, int $flags = 0): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |

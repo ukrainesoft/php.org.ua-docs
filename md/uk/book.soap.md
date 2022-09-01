@@ -1,16 +1,11 @@
-SOAP
-
--   [« OAuthException](class.oauthexception.md)
-    
--   [Введение »](intro.soap.md)
-    
--   [PHP Manual](index.md)
-    
--   [Веб-сервіси](refs.webservice.md)
-    
--   SOAP
-    
-
+---
+navigation:
+  - class.oauthexception.md: « OAuthException
+  - intro.soap.md: Введение »
+  - index.md: PHP Manual
+  - refs.webservice.md: Веб-сервіси
+title: SOAP
+---
 # SOAP
 
 -   [Введение](intro.soap.md)

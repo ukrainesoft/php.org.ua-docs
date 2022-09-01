@@ -1,16 +1,11 @@
-Встановлює з'єднання з сервером mysql
-
--   [« mysqli::query](mysqli.query.md)
-    
--   [mysqli::realescapestring »](mysqli.real-escape-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Встановлює з'єднання з сервером mysql
-    
-
+---
+navigation:
+  - mysqli.query.md: '« mysqli::query'
+  - mysqli.real-escape-string.html: 'mysqli::realescapestring »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::realconnect'
+---
 # mysqli::realconnect
 
 # mysqlirealconnect
@@ -84,13 +79,13 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 
 **Прапори, що підтримуються**
 
-| Имя                                             | Описание                                                                                                                               |
-|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **`MYSQLI_CLIENT_COMPRESS`**                    | Використовувати протокол стиснення                                                                                                     |
-| **`MYSQLI_CLIENT_FOUND_ROWS`**                  | Повертати кількість рядків, що підійшли умовам вибірки, замість кількості порушених запитом рядків                                     |
-| **`MYSQLI_CLIENT_IGNORE_SPACE`**                | Допускати пробіли після назв функцій. Робить усі імена функцій зарезервованими словами.                                                |
-| **`MYSQLI_CLIENT_INTERACTIVE`**                 | Допускати `interactive_timeout` секунд (замість `wait_timeout`) простою, перш ніж закрити з'єднання                                    |
-| **`MYSQLI_CLIENT_SSL`**                         | Використовувати SSL (шифрування)                                                                                                       |
+| Имя | Описание |
+| --- | --- |
+| **`MYSQLI_CLIENT_COMPRESS`** | Використовувати протокол стиснення |
+| **`MYSQLI_CLIENT_FOUND_ROWS`** | Повертати кількість рядків, що підійшли умовам вибірки, замість кількості порушених запитом рядків |
+| **`MYSQLI_CLIENT_IGNORE_SPACE`** | Допускати пробіли після назв функцій. Робить усі імена функцій зарезервованими словами. |
+| **`MYSQLI_CLIENT_INTERACTIVE`** | Допускати `interactive_timeout` секунд (замість `wait_timeout`) простою, перш ніж закрити з'єднання |
+| **`MYSQLI_CLIENT_SSL`** | Використовувати SSL (шифрування) |
 | **`MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT`** | Аналогічно **`MYSQLI_CLIENT_SSL`**, але забороняє перевірку сертифіката SSL. Працює тільки з MySQL Native Driver та MySQL 5.6 та вище. |
 
 > **Зауваження**

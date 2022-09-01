@@ -1,16 +1,11 @@
-Конструктор об'єкта спостерігача EvPeriodic
-
--   [« EvPeriodic::at](evperiodic.at.md)
-    
--   [EvPeriodic::createStopped »](evperiodic.createstopped.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvPeriodic](class.evperiodic.md)
-    
--   Конструктор об'єкта спостерігача EvPeriodic
-    
-
+---
+navigation:
+  - evperiodic.at.md: '« EvPeriodic::at'
+  - evperiodic.createstopped.md: 'EvPeriodic::createStopped »'
+  - index.md: PHP Manual
+  - class.evperiodic.md: EvPeriodic
+title: 'EvPeriodic::construct'
+---
 # EvPeriodic::construct
 
 (PECL ev >= 0.2.0)

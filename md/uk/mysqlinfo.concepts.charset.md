@@ -1,16 +1,11 @@
-Кодування символів
-
--   [« Буферизовані та небуферизовані запити](mysqlinfo.concepts.buffering.md)
-    
--   [MySQLi »](book.mysqli.md)
-    
--   [PHP Manual](index.md)
-    
--   [Основні поняття](mysqlinfo.concepts.md)
-    
--   Кодування символів
-    
-
+---
+navigation:
+  - mysqlinfo.concepts.buffering.md: « Буферизовані та небуферизовані запити
+  - book.mysqli.md: MySQLi »
+  - index.md: PHP Manual
+  - mysqlinfo.concepts.md: Основні поняття
+title: Кодування символів
+---
 ## Кодування символів
 
 В ідеальному випадку кодування символів має встановлюватися на рівні сервера і робити це згідно з описом у розділі [» Конфігурація кодування символів](http://dev.mysql.com/doc/mysql/en/charset-configuration.html) документації MySQL сервера. В якості альтернативи кожен MySQL API пропонує метод встановлення кодування символів під час виконання.

@@ -1,16 +1,11 @@
-Повертає помилки останнього опитування
-
--   [« ZMQPoll::count](zmqpoll.count.html)
-    
--   [ZMQPoll::poll »](zmqpoll.poll.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQPoll](class.zmqpoll.html)
-    
--   Повертає помилки останнього опитування
-    
-
+---
+navigation:
+  - zmqpoll.count.html: '« ZMQPoll::count'
+  - zmqpoll.poll.html: 'ZMQPoll::poll »'
+  - index.html: PHP Manual
+  - class.zmqpoll.html: ZMQPoll
+title: 'ZMQPoll::getLastErrors'
+---
 # ZMQPoll::getLastErrors
 
 (PECL zmq >= 0.5.0)

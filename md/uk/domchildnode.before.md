@@ -1,16 +1,11 @@
-Додає вузли перед вузлом
-
--   [« DOMChildNode::after](domchildnode.after.html)
-    
--   [DOMChildNode::remove »](domchildnode.remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMChildNode](class.domchildnode.html)
-    
--   Додає вузли перед вузлом
-    
-
+---
+navigation:
+  - domchildnode.after.html: '« DOMChildNode::after'
+  - domchildnode.remove.html: 'DOMChildNode::remove »'
+  - index.html: PHP Manual
+  - class.domchildnode.html: DOMChildNode
+title: 'DOMChildNode::before'
+---
 # DOMChildNode::before
 
 (PHP 8)

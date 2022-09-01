@@ -1,16 +1,11 @@
-Встановити, чи має відключення клієнта переривати виконання скрипту
-
--   [« hrtime](function.hrtime.html)
-    
--   [pack »](function.pack.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Встановити, чи має відключення клієнта переривати виконання скрипту
-    
-
+---
+navigation:
+  - function.hrtime.html: « hrtime
+  - function.pack.html: pack »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: ignoreuserabort
+---
 # ignoreuserabort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ ignore_user_abort(?bool $enable = null): int
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `enable` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `enable` тепер допускає значення null. |
 
 ### Приклади
 

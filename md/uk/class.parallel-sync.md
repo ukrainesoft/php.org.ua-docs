@@ -1,16 +1,11 @@
-Клас parallelSync
-
--   [« parallelEventsEventType](class.parallel-events-event-type.html)
-    
--   [parallelSync::construct »](parallel-sync.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallel](book.parallel.md)
-    
--   Клас parallelSync
-    
-
+---
+navigation:
+  - class.parallel-events-event-type.html: « parallelEventsEventType
+  - parallel-sync.construct.html: 'parallelSync::construct »'
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Клас parallelSync
+---
 # Клас parallelSync
 
 ## Синхронізація низького рівня

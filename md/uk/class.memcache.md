@@ -1,16 +1,11 @@
-Клас Memcache
-
--   [« Базовое использование](memcache.examples-overview.html)
-    
--   [Memcache::add »](memcache.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](book.memcache.md)
-    
--   Клас Memcache
-    
-
+---
+navigation:
+  - memcache.examples-overview.html: « Базовое использование
+  - memcache.add.md: 'Memcache::add »'
+  - index.md: PHP Manual
+  - book.memcache.md: Memcache
+title: Клас Memcache
+---
 # Клас Memcache
 
 (PECL memcache >= 0.2.0)

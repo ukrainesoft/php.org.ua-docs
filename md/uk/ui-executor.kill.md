@@ -1,16 +1,11 @@
-Зупинити виконавця
-
--   [« UIExecutor::construct](ui-executor.construct.html)
-    
--   [ОЙExecutor::onExecute »](ui-executor.onexecute.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙExecutor](class.ui-executor.html)
-    
--   Зупинити виконавця
-    
-
+---
+navigation:
+  - ui-executor.construct.html: '« UIExecutor::construct'
+  - ui-executor.onexecute.html: 'ОЙExecutor::onExecute »'
+  - index.html: PHP Manual
+  - class.ui-executor.html: ОЙExecutor
+title: 'ОЙExecutor::kill'
+---
 # ОЙExecutor::kill
 
 (UI 2.0.0)

@@ -1,16 +1,11 @@
-Створює новий об'єкт QuickHashStringIntHash
-
--   [« QuickHashStringIntHash::add](quickhashstringinthash.add.html)
-    
--   [QuickHashStringIntHash::delete »](quickhashstringinthash.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashStringIntHash](class.quickhashstringinthash.html)
-    
--   Створює новий об'єкт QuickHashStringIntHash
-    
-
+---
+navigation:
+  - quickhashstringinthash.add.html: '« QuickHashStringIntHash::add'
+  - quickhashstringinthash.delete.html: 'QuickHashStringIntHash::delete »'
+  - index.html: PHP Manual
+  - class.quickhashstringinthash.html: QuickHashStringIntHash
+title: 'QuickHashStringIntHash::construct'
+---
 # QuickHashStringIntHash::construct
 
 (No version information available, might only be in Git)

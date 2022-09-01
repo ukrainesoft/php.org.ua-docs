@@ -1,16 +1,11 @@
-Розбір XML
-
--   [« XMLDiffFile::merge](xmldiff-file.merge.html)
-    
--   [Введение »](intro.xml.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка XML](refs.xml.md)
-    
--   Розбір XML
-    
-
+---
+navigation:
+  - xmldiff-file.merge.html: '« XMLDiffFile::merge'
+  - intro.xml.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
+title: Розбір XML
+---
 # Розбір XML
 
 -   [Введение](intro.xml.md)

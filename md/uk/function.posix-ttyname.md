@@ -1,16 +1,11 @@
-Визначає ім'я термінального пристрою
-
--   [« posixtimes](function.posix-times.html)
-    
--   [posixuname »](function.posix-uname.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Визначає ім'я термінального пристрою
-    
-
+---
+navigation:
+  - function.posix-times.html: « posixtimes
+  - function.posix-uname.html: posixuname »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixttyname
+---
 # posixttyname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

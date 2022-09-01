@@ -1,16 +1,11 @@
-Встановлює поле для використання для подібності
-
--   [« SolrQuery::addHighlightField](solrquery.addhighlightfield.html)
-    
--   [SolrQuery::addMltQueryField »](solrquery.addmltqueryfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює поле для використання для подібності
-    
-
+---
+navigation:
+  - solrquery.addhighlightfield.html: '« SolrQuery::addHighlightField'
+  - solrquery.addmltqueryfield.html: 'SolrQuery::addMltQueryField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::addMltField'
+---
 # SolrQuery::addMltField
 
 (PECL solr> = 0.9.2)

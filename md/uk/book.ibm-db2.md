@@ -1,16 +1,11 @@
-IBM DB2, Cloudscape та Apache Derby
-
--   [« ibasewaitevent](function.ibase-wait-event.html)
-    
--   [Введение »](intro.ibm-db2.html)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   IBM DB2, Cloudscape та Apache Derby
-    
-
+---
+navigation:
+  - function.ibase-wait-event.html: « ibasewaitevent
+  - intro.ibm-db2.html: Введение »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: 'IBM DB2, Cloudscape та Apache Derby'
+---
 # IBM DB2, Cloudscape та Apache Derby
 
 -   [Введение](intro.ibm-db2.html)

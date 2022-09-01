@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.filesystem.md)
-    
--   [Вимоги »](filesystem.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Файлова система](book.filesystem.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.filesystem.md: « Введение
+  - filesystem.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.filesystem.md: Файлова система
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

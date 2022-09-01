@@ -1,16 +1,11 @@
-Вийняти елемент із сервера
-
--   [« Memcache::flush](memcache.flush.html)
-    
--   [Memcache::getExtendedStats »](memcache.getextendedstats.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Вийняти елемент із сервера
-    
-
+---
+navigation:
+  - memcache.flush.html: '« Memcache::flush'
+  - memcache.getextendedstats.html: 'Memcache::getExtendedStats »'
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::get'
+---
 # Memcache::get
 
 (PECL memcache >= 0.2.0)

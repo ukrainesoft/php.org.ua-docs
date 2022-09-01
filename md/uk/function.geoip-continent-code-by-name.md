@@ -1,16 +1,11 @@
-Отримати двосимвольний код континенту
-
--   [« geoipasnumбname](function.geoip-asnum-by-name.html)
-    
--   [geoipcountrycodeбname »](function.geoip-country-code-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Отримати двосимвольний код континенту
-    
-
+---
+navigation:
+  - function.geoip-asnum-by-name.html: « geoipasnumбname
+  - function.geoip-country-code-by-name.html: geoipcountrycodeбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipcontinentcodeбname
+---
 # geoipcontinentcodeбname
 
 (PECL geoip >= 1.0.3)
@@ -37,14 +32,14 @@ geoip_continent_code_by_name(string $hostname): string
 
 **Константи кодів**
 
-| Код  | Имя континента   |
-|------|------------------|
-| `AF` | Африка           |
-| `AN` | Антарктика       |
-| `AS` | Азія             |
-| `EU` | Європа           |
+| Код | Имя континента |
+| --- | --- |
+| `AF` | Африка |
+| `AN` | Антарктика |
+| `AS` | Азія |
+| `EU` | Європа |
 | `NA` | Північна Америка |
-| `OC` | Океанія          |
+| `OC` | Океанія |
 | `SA` | Південна Америка |
 
 ### Приклади

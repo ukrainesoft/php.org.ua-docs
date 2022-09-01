@@ -1,16 +1,11 @@
-Метод видаляє запис із набору
-
--   [« QuickHashIntSet::construct](quickhashintset.construct.html)
-    
--   [QuickHashIntSet::exists »](quickhashintset.exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashIntSet](class.quickhashintset.html)
-    
--   Метод видаляє запис із набору
-    
-
+---
+navigation:
+  - quickhashintset.construct.html: '« QuickHashIntSet::construct'
+  - quickhashintset.exists.html: 'QuickHashIntSet::exists »'
+  - index.html: PHP Manual
+  - class.quickhashintset.html: QuickHashIntSet
+title: 'QuickHashIntSet::delete'
+---
 # QuickHashIntSet::delete
 
 (PECL quickhash >= Unknown)

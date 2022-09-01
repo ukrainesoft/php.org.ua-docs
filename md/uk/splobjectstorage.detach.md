@@ -1,16 +1,11 @@
-Видаляє об'єкт з контейнера
-
--   [« SplObjectStorage::current](splobjectstorage.current.md)
-    
--   [SplObjectStorage::getHash »](splobjectstorage.gethash.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Видаляє об'єкт з контейнера
-    
-
+---
+navigation:
+  - splobjectstorage.current.md: '« SplObjectStorage::current'
+  - splobjectstorage.gethash.md: 'SplObjectStorage::getHash »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::detach'
+---
 # SplObjectStorage::detach
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

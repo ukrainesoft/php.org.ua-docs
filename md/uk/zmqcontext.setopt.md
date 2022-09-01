@@ -1,16 +1,11 @@
-Встановити опцію сокету
-
--   [« ZMQContext::isPersistent](zmqcontext.ispersistent.md)
-    
--   [ZMQSocket »](class.zmqsocket.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQContext](class.zmqcontext.md)
-    
--   Встановити опцію сокету
-    
-
+---
+navigation:
+  - zmqcontext.ispersistent.md: '« ZMQContext::isPersistent'
+  - class.zmqsocket.md: ZMQSocket »
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
+title: 'ZMQContext::setOpt'
+---
 # ZMQContext::setOpt
 
 (PECL zmq >= 1.0.4)

@@ -1,16 +1,11 @@
-Визначає колір як прозорий
-
--   [« imagecolorstotal](function.imagecolorstotal.md)
-    
--   [imageconvolution »](function.imageconvolution.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Визначає колір як прозорий
-    
-
+---
+navigation:
+  - function.imagecolorstotal.md: « imagecolorstotal
+  - function.imageconvolution.md: imageconvolution »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: зображенняcolortransparent
+---
 # зображенняcolortransparent
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ imagecolortransparent(GdImage $image, ?int $color = null): int
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-|        | `color` тепер допускає значення null.                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+|  | `color` тепер допускає значення null. |
 
 ### Приклади
 

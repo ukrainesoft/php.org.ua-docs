@@ -1,16 +1,11 @@
-Загальна функція запису до журналу
-
--   [« SeasLog::info](seaslog.info.html)
-    
--   [SeasLog::notice »](seaslog.notice.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Загальна функція запису до журналу
-    
-
+---
+navigation:
+  - seaslog.info.html: '« SeasLog::info'
+  - seaslog.notice.html: 'SeasLog::notice »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::log'
+---
 # SeasLog::log
 
 (PECL seaslog >=1.0.0)

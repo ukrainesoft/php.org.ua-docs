@@ -1,16 +1,11 @@
-Ключове слово static
-
--   [« Оператор роздільної здатності видимості (::)](language.oop5.paamayim-nekudotayim.html)
-    
--   [Абстрактні класи »](language.oop5.abstract.html)
-    
--   [PHP Manual](index.html)
-    
--   [Класи та об'єкти](language.oop5.html)
-    
--   Ключове слово static
-    
-
+---
+navigation:
+  - language.oop5.paamayim-nekudotayim.html: '« Оператор роздільної здатності видимості (::)'
+  - language.oop5.abstract.html: Абстрактні класи »
+  - index.html: PHP Manual
+  - language.oop5.html: Класи та об'єкти
+title: Ключове слово static
+---
 ## Ключове слово static
 
 **Підказка**

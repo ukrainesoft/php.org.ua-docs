@@ -1,16 +1,11 @@
-Додає ключ для шифрування
-
--   [« gnupgadddecryptkey](function.gnupg-adddecryptkey.html)
-    
--   [gnupgaddsignkey »](function.gnupg-addsignkey.html)
-    
--   [PHP Manual](index.html)
-    
--   [GnuPG Функції](ref.gnupg.html)
-    
--   Додає ключ для шифрування
-    
-
+---
+navigation:
+  - function.gnupg-adddecryptkey.html: « gnupgadddecryptkey
+  - function.gnupg-addsignkey.html: gnupgaddsignkey »
+  - index.html: PHP Manual
+  - ref.gnupg.html: GnuPG Функції
+title: gnupgaddencryptkey
+---
 # gnupgaddencryptkey
 
 (PECL gnupg >= 0.5)

@@ -1,16 +1,11 @@
-Повертає мінімальне значення
-
--   [« SolrCollapseFunction::getMax](solrcollapsefunction.getmax.md)
-    
--   [SolrCollapseFunction::getNullPolicy »](solrcollapsefunction.getnullpolicy.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.md)
-    
--   Повертає мінімальне значення
-    
-
+---
+navigation:
+  - solrcollapsefunction.getmax.md: '« SolrCollapseFunction::getMax'
+  - solrcollapsefunction.getnullpolicy.md: 'SolrCollapseFunction::getNullPolicy »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::getMin'
+---
 # SolrCollapseFunction::getMin
 
 (PECL solr> = 2.2.0)

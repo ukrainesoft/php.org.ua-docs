@@ -1,16 +1,11 @@
-Перетворює на URI
-
--   [« XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.md)
-    
--   [XSLTProcessor::transformToXml »](xsltprocessor.transformtoxml.md)
-    
--   [PHP Manual](index.md)
-    
--   [XSLTProcessor](class.xsltprocessor.md)
-    
--   Перетворює на URI
-    
-
+---
+navigation:
+  - xsltprocessor.transformtodoc.md: '« XSLTProcessor::transformToDoc'
+  - xsltprocessor.transformtoxml.md: 'XSLTProcessor::transformToXml »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
+title: 'XSLTProcessor::transformToUri'
+---
 # XSLTProcessor::transformToUri
 
 (PHP 5, PHP 7, PHP 8)

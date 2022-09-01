@@ -1,16 +1,11 @@
-Перемикається на вказану базу даних та надсилає запит
-
--   [« mysqlдбname](function.mysql-db-name.html)
-    
--   [mysqldropdb »](function.mysql-drop-db.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Перемикається на вказану базу даних та надсилає запит
-    
-
+---
+navigation:
+  - function.mysql-db-name.html: « mysqlдбname
+  - function.mysql-drop-db.html: mysqldropdb »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlдбquery
+---
 # mysqlдбquery
 
 (PHP 4, PHP 5)

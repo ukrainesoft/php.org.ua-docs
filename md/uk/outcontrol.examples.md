@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](outcontrol.constants.md)
-    
--   [Базовое использование »](outcontrol.examples.basic.md)
-    
--   [PHP Manual](index.md)
-    
--   [Контроль виведення](book.outcontrol.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - outcontrol.constants.md: « Обумовлені константи
+  - outcontrol.examples.basic.md: Базовое использование »
+  - index.md: PHP Manual
+  - book.outcontrol.md: Контроль виведення
+title: Приклади
+---
 # Приклади
 
 ## Зміст

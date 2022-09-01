@@ -1,16 +1,11 @@
-Десеріалізує параметр data в об'єкт GMP
-
--   [« GMP::serialize](gmp.serialize.md)
-    
--   [Math »](book.math.md)
-    
--   [PHP Manual](index.md)
-    
--   [GMP](class.gmp.md)
-    
--   Десеріалізує параметр data в об'єкт GMP
-    
-
+---
+navigation:
+  - gmp.serialize.md: '« GMP::serialize'
+  - book.math.md: Math »
+  - index.md: PHP Manual
+  - class.gmp.md: GMP
+title: 'GMP::unserialize'
+---
 # GMP::unserialize
 
 (PHP 8> = 8.1.0)

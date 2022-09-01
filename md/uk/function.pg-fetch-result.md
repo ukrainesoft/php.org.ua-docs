@@ -1,16 +1,11 @@
-Повертає запис із результату запиту
-
--   [« pgfetchobject](function.pg-fetch-object.html)
-    
--   [пгfetchrow »](function.pg-fetch-row.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Повертає запис із результату запиту
-    
-
+---
+navigation:
+  - function.pg-fetch-object.html: « pgfetchobject
+  - function.pg-fetch-row.html: пгfetchrow »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгfetchresult
+---
 # пгfetchresult
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає true, якщо вказана функція визначена
-
--   [« funcnumargs](function.func-num-args.html)
-    
--   [getdefinedfunctions »](function.get-defined-functions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции управления функциями](ref.funchand.html)
-    
--   Повертає true, якщо вказана функція визначена
-    
-
+---
+navigation:
+  - function.func-num-args.html: « funcnumargs
+  - function.get-defined-functions.html: getdefinedfunctions »
+  - index.html: PHP Manual
+  - ref.funchand.html: Функции управления функциями
+title: functionexists
+---
 # functionexists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

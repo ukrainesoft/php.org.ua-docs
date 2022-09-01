@@ -1,16 +1,11 @@
-COM та .Net (Windows)
-
--   [Модулі тільки для Windows](refs.utilspec.windows.md)
-    
--   [Введение »](intro.com.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі лише для Windows](refs.utilspec.windows.md)
-    
--   COM та .Net (Windows)
-    
-
+---
+navigation:
+  - refs.utilspec.windows.md: Модулі тільки для Windows
+  - intro.com.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.windows.md: Модулі лише для Windows
+title: COM та .Net (Windows)
+---
 # COM та .Net (Windows)
 
 -   [Введение](intro.com.md)

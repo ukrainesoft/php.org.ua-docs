@@ -1,16 +1,11 @@
-Порівняння двох документів XML
-
--   [« XMLDiffMemory](class.xmldiff-memory.html)
-    
--   [XMLDiffMemory::merge »](xmldiff-memory.merge.html)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiffMemory](class.xmldiff-memory.html)
-    
--   Порівняння двох документів XML
-    
-
+---
+navigation:
+  - class.xmldiff-memory.html: « XMLDiffMemory
+  - xmldiff-memory.merge.html: 'XMLDiffMemory::merge »'
+  - index.md: PHP Manual
+  - class.xmldiff-memory.html: XMLDiffMemory
+title: 'XMLDiffMemory::diff'
+---
 # XMLDiffMemory::diff
 
 (PECL xmldiff >= 0.8.0)

@@ -1,16 +1,11 @@
-Повертає постійне з'єднання з базою даних
-
--   [« db2pclose](function.db2-pclose.html)
-    
--   [db2prepare »](function.db2-prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає постійне з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.db2-pclose.html: « db2pclose
+  - function.db2-prepare.html: db2prepare »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2pconnect
+---
 # db2pconnect
 
 (PECL ibmdb2> = 1.0.0)
@@ -213,11 +208,11 @@ db2 каталог tcpip node loopback remote server db2 catalog database ас a
 
 ### список змін
 
-| Версия       | Описание                                                                                                                                                                                   |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ibmdb2 1.9.0 | Активні транзакції у постійному з'єднанні будуть відкочуватися наприкінці кожного запиту.                                                                                                  |
-| ibmdb2 1.8.0 | Параметр `i5_libl` доступний для користувачів i5/OS.                                                                                                                                       |
-| ibmdb2 1.7.0 | Доступний параметр `trustedcontext`                                                                                                                                                        |
+| Версия | Описание |
+| --- | --- |
+| ibmdb2 1.9.0 | Активні транзакції у постійному з'єднанні будуть відкочуватися наприкінці кожного запиту. |
+| ibmdb2 1.8.0 | Параметр `i5_libl` доступний для користувачів i5/OS. |
+| ibmdb2 1.7.0 | Доступний параметр `trustedcontext` |
 | ibmdb2 1.5.1 | Параметри `i5_lib` `i5_naming` `i5_commit` `i5_query_optimize` `i5_dbcs_alloc` `i5_date_fmt` `i5_date_sep` `i5_time_fmt` `i5_time_sep` і `i5_decimal_sep` доступні для користувачів i5/OS. |
 
 ### Приклади

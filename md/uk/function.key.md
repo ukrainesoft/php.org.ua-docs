@@ -1,16 +1,11 @@
-Вибирає ключ із масиву
-
--   [« keyexists](function.key-exists.html)
-    
--   [krsort »](function.krsort.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Вибирає ключ із масиву
-    
-
+---
+navigation:
+  - function.key-exists.html: « keyexists
+  - function.krsort.md: krsort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: key
+---
 # key
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ key(array|object $array): int|string|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 

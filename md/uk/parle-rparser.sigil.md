@@ -1,16 +1,11 @@
-Витягує збігову частину за правилом
-
--   [« ParleRParser::right](parle-rparser.right.html)
-    
--   [ParleRParser::token »](parle-rparser.token.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRParser](class.parle-rparser.html)
-    
--   Витягує збігову частину за правилом
-    
-
+---
+navigation:
+  - parle-rparser.right.html: '« ParleRParser::right'
+  - parle-rparser.token.html: 'ParleRParser::token »'
+  - index.md: PHP Manual
+  - class.parle-rparser.html: ParleRParser
+title: 'ParleRParser::sigil'
+---
 # ParleRParser::sigil
 
 (PECL parle >= 0.7.0)

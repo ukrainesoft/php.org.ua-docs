@@ -1,16 +1,11 @@
-Запустити вимір часу
-
--   [« HRTimeStopWatch::isRunning](hrtime-stopwatch.isrunning.html)
-    
--   [HRTimeStopWatch::stop »](hrtime-stopwatch.stop.html)
-    
--   [PHP Manual](index.md)
-    
--   [HRTimeStopWatch](class.hrtime-stopwatch.html)
-    
--   Запустити вимір часу
-    
-
+---
+navigation:
+  - hrtime-stopwatch.isrunning.html: '« HRTimeStopWatch::isRunning'
+  - hrtime-stopwatch.stop.html: 'HRTimeStopWatch::stop »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.html: HRTimeStopWatch
+title: 'HRTimeStopWatch::start'
+---
 # HRTimeStopWatch::start
 
 (PECL hrtime >= 0.4.3)

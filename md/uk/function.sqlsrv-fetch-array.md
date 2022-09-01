@@ -1,16 +1,11 @@
-Повертає рядок як масив
-
--   [« sqlsrvexecute](function.sqlsrv-execute.html)
-    
--   [sqlsrvfetchobject »](function.sqlsrv-fetch-object.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Повертає рядок як масив
-    
-
+---
+navigation:
+  - function.sqlsrv-execute.html: « sqlsrvexecute
+  - function.sqlsrv-fetch-object.html: sqlsrvfetchobject »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvfetcharray
+---
 # sqlsrvfetcharray
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Повертає внутрішній ітератор
-
--   [« CachingIterator::getFlags](cachingiterator.getflags.md)
-    
--   [CachingIterator::hasNext »](cachingiterator.hasnext.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Повертає внутрішній ітератор
-    
-
+---
+navigation:
+  - cachingiterator.getflags.md: '« CachingIterator::getFlags'
+  - cachingiterator.hasnext.md: 'CachingIterator::hasNext »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::getInnerIterator'
+---
 # CachingIterator::getInnerIterator
 
 (PHP 5, PHP 7, PHP 8)

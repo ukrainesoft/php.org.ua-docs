@@ -1,16 +1,11 @@
-Швидко розбирає вхідний рядок
-
--   [« MessageFormatter::getPattern](messageformatter.getpattern.html)
-    
--   [MessageFormatter::parse »](messageformatter.parse.html)
-    
--   [PHP Manual](index.html)
-    
--   [MessageFormatter](class.messageformatter.html)
-    
--   Швидко розбирає вхідний рядок
-    
-
+---
+navigation:
+  - messageformatter.getpattern.html: '« MessageFormatter::getPattern'
+  - messageformatter.parse.html: 'MessageFormatter::parse »'
+  - index.html: PHP Manual
+  - class.messageformatter.html: MessageFormatter
+title: 'MessageFormatter::parseMessage'
+---
 # MessageFormatter::parseMessage
 
 # msgfmtparsemessage

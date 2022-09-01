@@ -1,16 +1,11 @@
-Закриває пов'язане HTTP-з'єднання
-
--   [« EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.html)
-    
--   [EventHttpRequest::construct »](eventhttprequest.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Закриває пов'язане HTTP-з'єднання
-    
-
+---
+navigation:
+  - eventhttprequest.clearheaders.html: '« EventHttpRequest::clearHeaders'
+  - eventhttprequest.construct.html: 'EventHttpRequest::construct »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::closeConnection'
+---
 # EventHttpRequest::closeConnection
 
 (PECL event >= 1.8.0)

@@ -1,16 +1,11 @@
-Записує інформацію рівня "emergency" до журналу
-
--   [« SeasLog::destruct](seaslog.destruct.md)
-    
--   [SeasLog::error »](seaslog.error.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Записує інформацію рівня "emergency" до журналу
-    
-
+---
+navigation:
+  - seaslog.destruct.md: '« SeasLog::destruct'
+  - seaslog.error.md: 'SeasLog::error »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::emergency'
+---
 # SeasLog::emergency
 
 (PECL seaslog >=1.0.0)

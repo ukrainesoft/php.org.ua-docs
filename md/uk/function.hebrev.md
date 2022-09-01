@@ -1,16 +1,11 @@
-Перетворює текст на івриті з логічного кодування на візуальне
-
--   [« gethtmltranslationtable](function.get-html-translation-table.html)
-    
--   [hebrevc »](function.hebrevc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Перетворює текст на івриті з логічного кодування на візуальне
-    
-
+---
+navigation:
+  - function.get-html-translation-table.html: « gethtmltranslationtable
+  - function.hebrevc.html: hebrevc »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: hebrev
+---
 # hebrev
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

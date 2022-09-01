@@ -1,16 +1,11 @@
-Повертає властивості
-
--   [« ReflectionClass::getParentClass](reflectionclass.getparentclass.md)
-    
--   [ReflectionClass::getProperty »](reflectionclass.getproperty.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає властивості
-    
-
+---
+navigation:
+  - reflectionclass.getparentclass.md: '« ReflectionClass::getParentClass'
+  - reflectionclass.getproperty.md: 'ReflectionClass::getProperty »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getProperties'
+---
 # ReflectionClass::getProperties
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public ReflectionClass::getProperties(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `filter` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filter` тепер допускає значення null. |
 
 ### Приклади
 

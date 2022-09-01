@@ -1,16 +1,11 @@
-Виконує оператор вибірки
-
--   [« TableSelect::construct](mysql-xdevapi-tableselect.construct.html)
-    
--   [TableSelect::groupBy »](mysql-xdevapi-tableselect.groupby.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Виконує оператор вибірки
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.construct.html: '« TableSelect::construct'
+  - mysql-xdevapi-tableselect.groupby.html: 'TableSelect::groupBy »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::execute'
+---
 # TableSelect::execute
 
 (No version information available, might only be in Git)

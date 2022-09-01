@@ -1,16 +1,11 @@
-Встановлює зсув згасання sarprop
-
--   [« fannsetsarproptemperature](function.fann-set-sarprop-temperature.html)
-    
--   [fannsetscalingparams »](function.fann-set-scaling-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює зсув згасання sarprop
-    
-
+---
+navigation:
+  - function.fann-set-sarprop-temperature.html: « fannsetsarproptemperature
+  - function.fann-set-scaling-params.html: fannsetscalingparams »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetsarpropweightdecayshift
+---
 # fannsetsarpropweightdecayshift
 
 (PECL fann> = 1.0.0)

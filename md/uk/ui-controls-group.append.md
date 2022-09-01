@@ -1,16 +1,11 @@
-Додати керуючий елемент
-
--   [« UIControlsGroup](class.ui-controls-group.html)
-    
--   [ОЙControlsGroup::construct »](ui-controls-group.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsGroup](class.ui-controls-group.html)
-    
--   Додати керуючий елемент
-    
-
+---
+navigation:
+  - class.ui-controls-group.html: « UIControlsGroup
+  - ui-controls-group.construct.html: 'ОЙControlsGroup::construct »'
+  - index.md: PHP Manual
+  - class.ui-controls-group.html: ОЙControlsGroup
+title: 'ОЙControlsGroup::append'
+---
 # ОЙControlsGroup::append
 
 (No version information available, might only be in Git)

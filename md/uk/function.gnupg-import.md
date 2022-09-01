@@ -1,16 +1,11 @@
-Імпортує ключ
-
--   [« gnupggettrustlist](function.gnupg-gettrustlist.html)
-    
--   [gnupginit »](function.gnupg-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Імпортує ключ
-    
-
+---
+navigation:
+  - function.gnupg-gettrustlist.html: « gnupggettrustlist
+  - function.gnupg-init.html: gnupginit »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgimport
+---
 # gnupgimport
 
 (PECL gnupg >= 0.3)

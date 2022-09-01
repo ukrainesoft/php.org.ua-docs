@@ -1,16 +1,11 @@
-Надсилає серверу команду SITE
-
--   [« ftpsetoption](function.ftp-set-option.html)
-    
--   [ftpsize »](function.ftp-size.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Надсилає серверу команду SITE
-    
-
+---
+navigation:
+  - function.ftp-set-option.html: « ftpsetoption
+  - function.ftp-size.html: ftpsize »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpsite
+---
 # ftpsite
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

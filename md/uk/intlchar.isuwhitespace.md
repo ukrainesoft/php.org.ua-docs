@@ -1,16 +1,11 @@
-Перевірити, чи має символ властивості WhiteSpace (пробіловий символ)
-
--   [« IntlChar::isUUppercase](intlchar.isuuppercase.md)
-    
--   [IntlChar::isWhitespace »](intlchar.iswhitespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи має символ властивості WhiteSpace (пробіловий символ)
-    
-
+---
+navigation:
+  - intlchar.isuuppercase.md: '« IntlChar::isUUppercase'
+  - intlchar.iswhitespace.md: 'IntlChar::isWhitespace »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isUWhiteSpace'
+---
 # IntlChar::isUWhiteSpace
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Інтерполює кольори
-
--   [« Imagick::solarizeImage](imagick.solarizeimage.md)
-    
--   [Imagick::spliceImage »](imagick.spliceimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Інтерполює кольори
-    
-
+---
+navigation:
+  - imagick.solarizeimage.md: '« Imagick::solarizeImage'
+  - imagick.spliceimage.md: 'Imagick::spliceImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::sparseColorImage'
+---
 # Imagick::sparseColorImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

@@ -1,16 +1,11 @@
-Прочитати вміст поточного вузла як рядок
-
--   [« XMLReader::readOuterXml](xmlreader.readouterxml.md)
-    
--   [XMLReader::setParserProperty »](xmlreader.setparserproperty.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Прочитати вміст поточного вузла як рядок
-    
-
+---
+navigation:
+  - xmlreader.readouterxml.md: '« XMLReader::readOuterXml'
+  - xmlreader.setparserproperty.md: 'XMLReader::setParserProperty »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::readString'
+---
 # XMLReader::readString
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Свічкова модель "Східчасте дно"
-
--   [« tradercdlkickingbylength](function.trader-cdlkickingbylength.html)
-    
--   [tradercdllongleggeddoji »](function.trader-cdllongleggeddoji.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Свічкова модель "Східчасте дно"
-    
-
+---
+navigation:
+  - function.trader-cdlkickingbylength.html: « tradercdlkickingbylength
+  - function.trader-cdllongleggeddoji.html: tradercdllongleggeddoji »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlladderbottom
+---
 # tradercdlladderbottom
 
 (PECL trader >= 0.2.0)

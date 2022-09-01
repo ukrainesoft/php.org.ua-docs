@@ -1,16 +1,11 @@
-Відновлює скасовану раніше вбудовану обгортку
-
--   [« streamwrapperregister](function.stream-wrapper-register.html)
-    
--   [streamwrapperunregister »](function.stream-wrapper-unregister.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Відновлює скасовану раніше вбудовану обгортку
-    
-
+---
+navigation:
+  - function.stream-wrapper-register.html: « streamwrapperregister
+  - function.stream-wrapper-unregister.html: streamwrapperunregister »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamwrapperrestore
+---
 # streamwrapperrestore
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

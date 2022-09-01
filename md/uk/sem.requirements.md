@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](sem.setup.html)
-    
--   [Установка »](sem.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](sem.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - sem.setup.html: « Встановлення та налаштування
+  - sem.installation.html: Установка »
+  - index.html: PHP Manual
+  - sem.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

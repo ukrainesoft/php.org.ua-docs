@@ -1,16 +1,11 @@
-Отримати текстове подання країни
-
--   [« GenderGender::construct](gender-gender.construct.html)
-    
--   [GenderGender::get »](gender-gender.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [GenderGender](class.gender.md)
-    
--   Отримати текстове подання країни
-    
-
+---
+navigation:
+  - gender-gender.construct.html: '« GenderGender::construct'
+  - gender-gender.get.html: 'GenderGender::get »'
+  - index.md: PHP Manual
+  - class.gender.md: GenderGender
+title: 'GenderGender::country'
+---
 # GenderGender::country
 
 (PECL gender >= 0.8.0)

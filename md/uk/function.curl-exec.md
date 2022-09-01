@@ -1,16 +1,11 @@
-Виконує запит cURL
-
--   [« curlescape](function.curl-escape.html)
-    
--   [curlfilecreate »](function.curl-file-create.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Виконує запит cURL
-    
-
+---
+navigation:
+  - function.curl-escape.html: « curlescape
+  - function.curl-file-create.html: curlfilecreate »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlexec
+---
 # curlexec
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ curl_exec(CurlHandle $handle): string|bool
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

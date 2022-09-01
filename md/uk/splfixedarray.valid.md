@@ -1,16 +1,11 @@
-Перевіряє масив на наявність елементів
-
--   [« SplFixedArray::toArray](splfixedarray.toarray.html)
-    
--   [SplFixedArray::wakeup »](splfixedarray.wakeup.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFixedArray](class.splfixedarray.html)
-    
--   Перевіряє масив на наявність елементів
-    
-
+---
+navigation:
+  - splfixedarray.toarray.html: '« SplFixedArray::toArray'
+  - splfixedarray.wakeup.html: 'SplFixedArray::wakeup »'
+  - index.html: PHP Manual
+  - class.splfixedarray.html: SplFixedArray
+title: 'SplFixedArray::valid'
+---
 # SplFixedArray::valid
 
 (PHP 5> = 5.3.0, PHP 7)

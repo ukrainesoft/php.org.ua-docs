@@ -1,16 +1,11 @@
-Синхронізує поточний стан файлу із фізичним пристроєм
-
--   [« eiofstatvfs](function.eio-fstatvfs.html)
-    
--   [eioftruncate »](function.eio-ftruncate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Синхронізує поточний стан файлу із фізичним пристроєм
-    
-
+---
+navigation:
+  - function.eio-fstatvfs.html: « eiofstatvfs
+  - function.eio-ftruncate.html: eioftruncate »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiofsync
+---
 # eiofsync
 
 (PECL eio >= 0.0.1dev)

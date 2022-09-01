@@ -1,16 +1,11 @@
-Клас YarConcurrentClient
-
--   [« YarClient::setOpt](yar-client.setopt.html)
-    
--   [YarConcurrentClient::call »](yar-concurrent-client.call.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yar](book.yar.html)
-    
--   Клас YarConcurrentClient
-    
-
+---
+navigation:
+  - yar-client.setopt.html: '« YarClient::setOpt'
+  - yar-concurrent-client.call.html: 'YarConcurrentClient::call »'
+  - index.html: PHP Manual
+  - book.yar.html: Yar
+title: Клас YarConcurrentClient
+---
 # Клас YarConcurrentClient
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Виконання PHP-файлів
-
--   [« Опції](features.commandline.options.md)
-    
--   [Потоки введення/виводу »](features.commandline.io-streams.html)
-    
--   [PHP Manual](index.md)
-    
--   [Використання PHP у командному рядку](features.commandline.md)
-    
--   Виконання PHP-файлів
-    
-
+---
+navigation:
+  - features.commandline.options.md: « Опції
+  - features.commandline.io-streams.html: Потоки введення/виводу »
+  - index.md: PHP Manual
+  - features.commandline.md: Використання PHP у командному рядку
+title: Виконання PHP-файлів
+---
 ## Виконання PHP-файлів
 
 У CLI SAPI є три різні способи запуску PHP-коду:

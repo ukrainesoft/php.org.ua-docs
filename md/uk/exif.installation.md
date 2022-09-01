@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](exif.requirements.md)
-    
--   [Налаштування під час виконання »](exif.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](exif.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - exif.requirements.md: « Вимоги
+  - exif.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - exif.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Щоб увімкнути підтримку exif, налаштуйте PHP з опцією **\-enable-exif**

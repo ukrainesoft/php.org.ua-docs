@@ -1,16 +1,11 @@
-Отримати хеш повідомлення
-
--   [« sodiumcryptogenerichashupdate](function.sodium-crypto-generichash-update.html)
-    
--   [sodiumcryptokdfderivefromkey »](function.sodium-crypto-kdf-derive-from-key.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Отримати хеш повідомлення
-    
-
+---
+navigation:
+  - function.sodium-crypto-generichash-update.html: « sodiumcryptogenerichashupdate
+  - function.sodium-crypto-kdf-derive-from-key.html: sodiumcryptokdfderivefromkey »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptogenerichash
+---
 # sodiumcryptogenerichash
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Повертає ідентифікатор з'єднання із сервером для команди
-
--   [« MongoDBDriverMonitoringCommandSucceededEvent::getServer](mongodb-driver-monitoring-commandsucceededevent.getserver.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent::getServiceId »](mongodb-driver-monitoring-commandsucceededevent.getserviceid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
-    
--   Повертає ідентифікатор з'єднання із сервером для команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getserver.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getServer'
+  - mongodb-driver-monitoring-commandsucceededevent.getserviceid.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getServiceId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId'
+---
 # MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId
 
 (mongodb >=1.14.0)

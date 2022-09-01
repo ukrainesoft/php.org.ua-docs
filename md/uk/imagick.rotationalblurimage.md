@@ -1,16 +1,11 @@
-Застосовує обертальне розмиття до зображення
-
--   [« Imagick::rotateImage](imagick.rotateimage.md)
-    
--   [Imagick::roundCorners »](imagick.roundcorners.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Застосовує обертальне розмиття до зображення
-    
-
+---
+navigation:
+  - imagick.rotateimage.md: '« Imagick::rotateImage'
+  - imagick.roundcorners.md: 'Imagick::roundCorners »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::rotationalBlurImage'
+---
 # Imagick::rotationalBlurImage
 
 (PECL imagick 3> = 3.3.0)

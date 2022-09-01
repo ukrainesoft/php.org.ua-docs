@@ -1,16 +1,11 @@
-Клас ParleLexer
-
--   [« Пример использования парсера](parle.examples.parser.html)
-    
--   [ParleLexer::advance »](parle-lexer.advance.html)
-    
--   [PHP Manual](index.html)
-    
--   [Parle](book.parle.html)
-    
--   Клас ParleLexer
-    
-
+---
+navigation:
+  - parle.examples.parser.html: « Пример использования парсера
+  - parle-lexer.advance.html: 'ParleLexer::advance »'
+  - index.html: PHP Manual
+  - book.parle.html: Parle
+title: Клас ParleLexer
+---
 # Клас ParleLexer
 
 (PECL parle >= 0.5.1)

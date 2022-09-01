@@ -1,16 +1,11 @@
-Бича/ведмежа модель "Три методи"
-
--   [« tradercdlrickshawman](function.trader-cdlrickshawman.html)
-    
--   [tradercdlseparatinglines »](function.trader-cdlseparatinglines.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Бича/ведмежа модель "Три методи"
-    
-
+---
+navigation:
+  - function.trader-cdlrickshawman.html: « tradercdlrickshawman
+  - function.trader-cdlseparatinglines.html: tradercdlseparatinglines »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlrisefall3methods
+---
 # tradercdlrisefall3methods
 
 (PECL trader >= 0.2.0)

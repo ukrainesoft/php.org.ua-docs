@@ -1,16 +1,11 @@
-Повертає артефакт зображення
-
--   [« Imagick::getImageAlphaChannel](imagick.getimagealphachannel.html)
-    
--   [Imagick::getImageAttribute »](imagick.getimageattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає артефакт зображення
-    
-
+---
+navigation:
+  - imagick.getimagealphachannel.html: '« Imagick::getImageAlphaChannel'
+  - imagick.getimageattribute.html: 'Imagick::getImageAttribute »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageArtifact'
+---
 # Imagick::getImageArtifact
 
 (PECL imagick 3)

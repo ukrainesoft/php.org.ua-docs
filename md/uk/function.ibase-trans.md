@@ -1,16 +1,11 @@
-Починає транзакцію
-
--   [« ibaseseteventhandler](function.ibase-set-event-handler.html)
-    
--   [ibasewaitevent »](function.ibase-wait-event.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Починає транзакцію
-    
-
+---
+navigation:
+  - function.ibase-set-event-handler.html: « ibaseseteventhandler
+  - function.ibase-wait-event.html: ibasewaitevent »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasetrans
+---
 # ibasetrans
 
 (PHP 5, PHP 7 < 7.4.0)

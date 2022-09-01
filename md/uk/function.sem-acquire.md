@@ -1,16 +1,11 @@
-Захоплення семафору
-
--   [« msgstatqueue](function.msg-stat-queue.html)
-    
--   [semget »](function.sem-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Захоплення семафору
-    
-
+---
+navigation:
+  - function.msg-stat-queue.html: « msgstatqueue
+  - function.sem-get.html: semget »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: semacquire
+---
 # semacquire
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ sem_acquire(SysvSemaphore $semaphore, bool $non_blocking = false): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

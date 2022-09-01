@@ -1,16 +1,11 @@
-Реєстрація користувача функції сортування для використання в SQL-запитах
-
--   [« PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.md)
-    
--   [PDO::sqliteCreateFunction »](pdo.sqlitecreatefunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite (PDO)](ref.pdo-sqlite.html)
-    
--   Реєстрація користувача функції сортування для використання в SQL-запитах
-    
-
+---
+navigation:
+  - pdo.sqlitecreateaggregate.md: '« PDO::sqliteCreateAggregate'
+  - pdo.sqlitecreatefunction.md: 'PDO::sqliteCreateFunction »'
+  - index.md: PHP Manual
+  - ref.pdo-sqlite.html: SQLite (PDO)
+title: 'PDO::sqliteCreateCollation'
+---
 # PDO::sqliteCreateCollation
 
 (PHP 5> = 5.3.11, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює позицію для виведення тексту
-
--   [«pssetparameter](function.ps-set-parameter.html)
-    
--   [псsetvalue »](function.ps-set-value.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює позицію для виведення тексту
-    
-
+---
+navigation:
+  - function.ps-set-parameter.html: «pssetparameter
+  - function.ps-set-value.html: псsetvalue »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsettextpos
+---
 # псsettextpos
 
 (PECL ps >= 1.1.0)

@@ -1,16 +1,11 @@
-Вибір порога кожного пікселя в залежності від діапазону інтенсивності
-
--   [« Imagick::adaptiveSharpenImage](imagick.adaptivesharpenimage.md)
-    
--   [Imagick::addImage »](imagick.addimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Вибір порога кожного пікселя в залежності від діапазону інтенсивності
-    
-
+---
+navigation:
+  - imagick.adaptivesharpenimage.md: '« Imagick::adaptiveSharpenImage'
+  - imagick.addimage.md: 'Imagick::addImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::adaptiveThresholdImage'
+---
 # Imagick::adaptiveThresholdImage
 
 (PECL imagick 2, PECL imagick 3)

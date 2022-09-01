@@ -1,16 +1,11 @@
-Зміщує зображення
-
--   [« Gmagick::resizeimage](gmagick.resizeimage.md)
-    
--   [Gmagick::rotateimage »](gmagick.rotateimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Зміщує зображення
-    
-
+---
+navigation:
+  - gmagick.resizeimage.md: '« Gmagick::resizeimage'
+  - gmagick.rotateimage.md: 'Gmagick::rotateimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::rollimage'
+---
 # Gmagick::rollimage
 
 (PECL gmagick >= Unknown)

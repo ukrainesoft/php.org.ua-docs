@@ -1,16 +1,11 @@
-Призначення returnResponse
-
--   [« YafDispatcher::registerPlugin](yaf-dispatcher.registerplugin.html)
-    
--   [YafDispatcher::setDefaultAction »](yaf-dispatcher.setdefaultaction.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Призначення returnResponse
-    
-
+---
+navigation:
+  - yaf-dispatcher.registerplugin.html: '« YafDispatcher::registerPlugin'
+  - yaf-dispatcher.setdefaultaction.html: 'YafDispatcher::setDefaultAction »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::returnResponse'
+---
 # YafDispatcher::returnResponse
 
 (Yaf >=1.0.0)

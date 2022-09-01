@@ -1,16 +1,11 @@
-Виведення PNG зображення у браузер або файл
-
--   [« imagepalettetotruecolor](function.imagepalettetotruecolor.md)
-    
--   [imagepolygon »](function.imagepolygon.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Виведення PNG зображення у браузер або файл
-    
-
+---
+navigation:
+  - function.imagepalettetotruecolor.md: « imagepalettetotruecolor
+  - function.imagepolygon.md: imagepolygon »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagepng
+---
 # imagepng
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -61,9 +56,9 @@ imagepng(    GdImage $image,    resource|string|null $file = null,   
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

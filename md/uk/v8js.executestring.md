@@ -1,16 +1,11 @@
-Виконати рядок як код Javascript
-
--   [« V8Js::construct](v8js.construct.md)
-    
--   [V8Js::getExtensions »](v8js.getextensions.md)
-    
--   [PHP Manual](index.md)
-    
--   [V8Js](class.v8js.md)
-    
--   Виконати рядок як код Javascript
-    
-
+---
+navigation:
+  - v8js.construct.md: '« V8Js::construct'
+  - v8js.getextensions.md: 'V8Js::getExtensions »'
+  - index.md: PHP Manual
+  - class.v8js.md: V8Js
+title: 'V8Js::executeString'
+---
 # V8Js::executeString
 
 (PECL v8js >= 0.1.0)

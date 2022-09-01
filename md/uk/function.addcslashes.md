@@ -1,16 +1,11 @@
-Екранує рядок слішами у стилі мови C
-
--   [« Функції для роботи з рядками](ref.strings.md)
-    
--   [addslashes »](function.addslashes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Екранує рядок слішами у стилі мови C
-    
-
+---
+navigation:
+  - ref.strings.md: « Функції для роботи з рядками
+  - function.addslashes.md: addslashes »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: addcslashes
+---
 # addcslashes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Використовується для setRequestEngine
-
--   [« OAuth::setNonce](oauth.setnonce.html)
-    
--   [OAuth::setRSACertificate »](oauth.setrsacertificate.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Використовується для setRequestEngine
-    
-
+---
+navigation:
+  - oauth.setnonce.html: '« OAuth::setNonce'
+  - oauth.setrsacertificate.html: 'OAuth::setRSACertificate »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::setRequestEngine'
+---
 # OAuth::setRequestEngine
 
 (PECL OAuth >= 1.0.0)

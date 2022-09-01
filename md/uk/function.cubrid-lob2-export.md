@@ -1,16 +1,11 @@
-Експортує LOB-об'єкт у файл
-
--   [« cubridlob2close](function.cubrid-lob2-close.html)
-    
--   [cubridlob2import »](function.cubrid-lob2-import.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Експортує LOB-об'єкт у файл
-    
-
+---
+navigation:
+  - function.cubrid-lob2-close.html: « cubridlob2close
+  - function.cubrid-lob2-import.html: cubridlob2import »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2export
+---
 # cubridlob2export
 
 (PECL CUBRID >= 8.4.1)

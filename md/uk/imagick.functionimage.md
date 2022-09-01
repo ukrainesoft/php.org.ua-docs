@@ -1,16 +1,11 @@
-Застосовує функцію зображення
-
--   [« Imagick::frameImage](imagick.frameimage.md)
-    
--   [Imagick::fxImage »](imagick.fximage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Застосовує функцію зображення
-    
-
+---
+navigation:
+  - imagick.frameimage.md: '« Imagick::frameImage'
+  - imagick.fximage.md: 'Imagick::fxImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::functionImage'
+---
 # Imagick::functionImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

@@ -1,16 +1,11 @@
-Отримує рядок скрипта, в якому цей об'єкт було викинуто
-
--   [« Throwable::getFile](throwable.getfile.md)
-    
--   [Throwable::getTrace »](throwable.gettrace.md)
-    
--   [PHP Manual](index.md)
-    
--   [Throwable](class.throwable.md)
-    
--   Отримує рядок скрипта, в якому цей об'єкт було викинуто
-    
-
+---
+navigation:
+  - throwable.getfile.md: '« Throwable::getFile'
+  - throwable.gettrace.md: 'Throwable::getTrace »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getLine'
+---
 # Throwable::getLine
 
 (PHP 7, PHP 8)

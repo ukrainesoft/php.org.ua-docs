@@ -1,16 +1,11 @@
-Скласти клас
-
--   [« uopzbackup](function.uopz-backup.html)
-    
--   [uopzcopy »](function.uopz-copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Скласти клас
-    
-
+---
+navigation:
+  - function.uopz-backup.html: « uopzbackup
+  - function.uopz-copy.html: uopzcopy »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzcompose
+---
 # uopzcompose
 
 (PECL uopz 1, PECL uopz 2)

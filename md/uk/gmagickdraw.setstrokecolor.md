@@ -1,16 +1,11 @@
-Встановлює колір для обведення контурів об'єкта.
-
--   [« GmagickDraw::setfontweight](gmagickdraw.setfontweight.md)
-    
--   [GmagickDraw::setstrokeopacity »](gmagickdraw.setstrokeopacity.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Встановлює колір для обведення контурів об'єкта.
-    
-
+---
+navigation:
+  - gmagickdraw.setfontweight.md: '« GmagickDraw::setfontweight'
+  - gmagickdraw.setstrokeopacity.md: 'GmagickDraw::setstrokeopacity »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::setstrokecolor'
+---
 # GmagickDraw::setstrokecolor
 
 (PECL gmagick >= Unknown)

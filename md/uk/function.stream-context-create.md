@@ -1,16 +1,11 @@
-Створює контекст потоку
-
--   [« streambucketprepend](function.stream-bucket-prepend.html)
-    
--   [streamcontextgetdefault »](function.stream-context-get-default.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Створює контекст потоку
-    
-
+---
+navigation:
+  - function.stream-bucket-prepend.html: « streambucketprepend
+  - function.stream-context-get-default.html: streamcontextgetdefault »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcontextcreate
+---
 # streamcontextcreate
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ stream_context_create(?array $options = null, ?array $params = null): resource
 
 ### список змін
 
-| Версия | Описание                                                       |
-|--------|----------------------------------------------------------------|
-|        | Параметри `options` і `params` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметри `options` і `params` тепер допускають значення null. |
 
 ### Приклади
 

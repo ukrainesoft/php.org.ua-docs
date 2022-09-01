@@ -1,16 +1,11 @@
-Створює новий пул воркерів
-
--   [« Pool::collect](pool.collect.md)
-    
--   [Pool::resize »](pool.resize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Pool](class.pool.md)
-    
--   Створює новий пул воркерів
-    
-
+---
+navigation:
+  - pool.collect.md: '« Pool::collect'
+  - pool.resize.md: 'Pool::resize »'
+  - index.md: PHP Manual
+  - class.pool.md: Pool
+title: 'Pool::construct'
+---
 # Pool::construct
 
 (PECL pthreads >= 2.0.0)

@@ -1,16 +1,11 @@
-Завантажує модуль PHP під час виконання
-
--   [« clisetprocesstitle](function.cli-set-process-title.html)
-    
--   [extensionloaded »](function.extension-loaded.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Завантажує модуль PHP під час виконання
-    
-
+---
+navigation:
+  - function.cli-set-process-title.html: « clisetprocesstitle
+  - function.extension-loaded.html: extensionloaded »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: дл
+---
 # дл
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

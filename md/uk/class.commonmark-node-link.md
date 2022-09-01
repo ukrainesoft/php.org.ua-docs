@@ -1,16 +1,11 @@
-Link успадковує CommonMarkNode
-
--   [« CommonMarkNodeImage::construct](commonmark-node-image.construct.html)
-    
--   [CommonMarkNodeLink::construct »](commonmark-node-link.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   Link успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - commonmark-node-image.construct.html: '« CommonMarkNodeImage::construct'
+  - commonmark-node-link.construct.html: 'CommonMarkNodeLink::construct »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Link успадковує CommonMarkNode
+---
 # Link успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

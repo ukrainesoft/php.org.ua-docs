@@ -1,16 +1,11 @@
-Оновлює рядок таблиці за $rowkey
-
--   [« SwooleTable::rewind](swoole-table.rewind.html)
-    
--   [SwooleTable::valid »](swoole-table.valid.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Оновлює рядок таблиці за $rowkey
-    
-
+---
+navigation:
+  - swoole-table.rewind.html: '« SwooleTable::rewind'
+  - swoole-table.valid.html: 'SwooleTable::valid »'
+  - index.html: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::set'
+---
 # SwooleTable::set
 
 (PECL swoole >= 1.9.0)

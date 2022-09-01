@@ -1,16 +1,11 @@
-Отримує поблажливість, що використовується для IntlDateFormatter
-
--   [« IntlDateFormatter::getTimeZone](intldateformatter.gettimezone.html)
-    
--   [IntlDateFormatter::localtime »](intldateformatter.localtime.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Отримує поблажливість, що використовується для IntlDateFormatter
-    
-
+---
+navigation:
+  - intldateformatter.gettimezone.html: '« IntlDateFormatter::getTimeZone'
+  - intldateformatter.localtime.html: 'IntlDateFormatter::localtime »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::isLenient'
+---
 # IntlDateFormatter::isLenient
 
 # datefmtісlenient

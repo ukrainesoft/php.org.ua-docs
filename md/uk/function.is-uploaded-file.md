@@ -1,16 +1,11 @@
-Визначає, чи файл завантажений за допомогою HTTP POST
-
--   [« isreadable](function.is-readable.html)
-    
--   [ісwritable »](function.is-writable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Визначає, чи файл завантажений за допомогою HTTP POST
-    
-
+---
+navigation:
+  - function.is-readable.html: « isreadable
+  - function.is-writable.html: ісwritable »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ісuploadedfile
+---
 # ісuploadedfile
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)

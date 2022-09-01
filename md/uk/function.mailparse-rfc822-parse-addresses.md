@@ -1,16 +1,11 @@
-Розібрати адреси відповідно до RFC 822
-
--   [« mailparsemsgparse](function.mailparse-msg-parse.html)
-    
--   [mailparsestreamencode »](function.mailparse-stream-encode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mailparse](ref.mailparse.html)
-    
--   Розібрати адреси відповідно до RFC 822
-    
-
+---
+navigation:
+  - function.mailparse-msg-parse.html: « mailparsemsgparse
+  - function.mailparse-stream-encode.html: mailparsestreamencode »
+  - index.html: PHP Manual
+  - ref.mailparse.html: Mailparse
+title: mailparserfc822parseaddresses
+---
 # mailparserfc822parseaddresses
 
 (PECL mailparse >= 0.9.0)

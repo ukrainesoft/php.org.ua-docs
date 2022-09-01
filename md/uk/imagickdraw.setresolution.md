@@ -1,16 +1,11 @@
-Встановлює дозвіл
-
--   [« ImagickDraw::setGravity](imagickdraw.setgravity.html)
-    
--   [ImagickDraw::setStrokeAlpha »](imagickdraw.setstrokealpha.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює дозвіл
-    
-
+---
+navigation:
+  - imagickdraw.setgravity.html: '« ImagickDraw::setGravity'
+  - imagickdraw.setstrokealpha.html: 'ImagickDraw::setStrokeAlpha »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setResolution'
+---
 # ImagickDraw::setResolution
 
 (PECL imagick 3> = 3.1.0)

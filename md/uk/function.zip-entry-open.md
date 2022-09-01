@@ -1,16 +1,11 @@
-Відкриває директорію для читання
-
--   [« zipentryname](function.zip-entry-name.html)
-    
--   [zipentryread »](function.zip-entry-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zip](ref.zip.html)
-    
--   Відкриває директорію для читання
-    
-
+---
+navigation:
+  - function.zip-entry-name.html: « zipentryname
+  - function.zip-entry-read.html: zipentryread »
+  - index.html: PHP Manual
+  - ref.zip.html: Функции Zip
+title: zipentryopen
+---
 # zipentryopen
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -57,9 +52,9 @@ zip_entry_open(resource $zip_dp, resource $zip_entry, string $mode = "rb"): bool
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | Функція застаріла на користь Object API. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API. |
 
 ### Дивіться також
 

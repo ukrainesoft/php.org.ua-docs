@@ -1,16 +1,11 @@
-Отримує інформацію про файли, закешовані в кеші сесії
-
--   [« wincacherplistmeminfo](function.wincache-rplist-meminfo.html)
-    
--   [wincachescachememinfo »](function.wincache-scache-meminfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Отримує інформацію про файли, закешовані в кеші сесії
-    
-
+---
+navigation:
+  - function.wincache-rplist-meminfo.html: « wincacherplistmeminfo
+  - function.wincache-scache-meminfo.html: wincachescachememinfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincachescacheinfo
+---
 # wincachescacheinfo
 
 (PECL wincache >= 1.1.0)

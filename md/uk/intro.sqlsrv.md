@@ -1,16 +1,11 @@
-Вступ
-
--   [« SQLSRV](book.sqlsrv.md)
-    
--   [Встановлення та налаштування »](sqlsrv.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLSRV](book.sqlsrv.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.sqlsrv.md: « SQLSRV
+  - sqlsrv.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.sqlsrv.md: SQLSRV
+title: Вступ
+---
 # Вступ
 
 Модуль SQLSRV дозволяє підключитися до баз даних Microsoft SQL Server або SQL Azure. Реліз драйвера версії 3.0 підтримує SQL Server, починаючи з версії SQL Server 2005, включаючи Server 2012 та SQL Server 2012 LocalDB. Детальний опис LocalDB можна прочитати тут: [» Драйвер PHP Driver для SQL Server, поддержка LocalDB](http://msdn.microsoft.com/en-us/library/hh487161.aspx) і [» SQL Server 2012 Express LocalDB](http://msdn.microsoft.com/en-us/library/hh510202(SQL.110).aspx)

@@ -1,16 +1,11 @@
-Змінює роздільну здатність зображення до бажаного
-
--   [« Gmagick::removeimageprofile](gmagick.removeimageprofile.md)
-    
--   [Gmagick::resizeimage »](gmagick.resizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Змінює роздільну здатність зображення до бажаного
-    
-
+---
+navigation:
+  - gmagick.removeimageprofile.md: '« Gmagick::removeimageprofile'
+  - gmagick.resizeimage.md: 'Gmagick::resizeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::resampleimage'
+---
 # Gmagick::resampleimage
 
 (PECL gmagick >= Unknown)

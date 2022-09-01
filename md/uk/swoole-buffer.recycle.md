@@ -1,16 +1,11 @@
-Звільняє пам'ять для ОС, яка не використовується буфером пам'яті
-
--   [« SwooleBuffer::read](swoole-buffer.read.html)
-    
--   [SwooleBuffer::substr »](swoole-buffer.substr.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleBuffer](class.swoole-buffer.html)
-    
--   Звільняє пам'ять для ОС, яка не використовується буфером пам'яті
-    
-
+---
+navigation:
+  - swoole-buffer.read.html: '« SwooleBuffer::read'
+  - swoole-buffer.substr.html: 'SwooleBuffer::substr »'
+  - index.html: PHP Manual
+  - class.swoole-buffer.html: SwooleBuffer
+title: 'SwooleBuffer::recycle'
+---
 # SwooleBuffer::recycle
 
 (PECL swoole >= 1.9.0)

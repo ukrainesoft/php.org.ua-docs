@@ -1,16 +1,11 @@
-Вимкнути керуючий елемент
-
--   [« UIControl::destroy](ui-control.destroy.html)
-    
--   [ОЙControl::enable »](ui-control.enable.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControl](class.ui-control.html)
-    
--   Вимкнути керуючий елемент
-    
-
+---
+navigation:
+  - ui-control.destroy.html: '« UIControl::destroy'
+  - ui-control.enable.html: 'ОЙControl::enable »'
+  - index.html: PHP Manual
+  - class.ui-control.html: ОЙControl
+title: 'ОЙControl::disable'
+---
 # ОЙControl::disable
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Витягує перший ключ
-
--   [« dbafetch](function.dba-fetch.html)
-    
--   [dbahandlers »](function.dba-handlers.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Витягує перший ключ
-    
-
+---
+navigation:
+  - function.dba-fetch.html: « dbafetch
+  - function.dba-handlers.html: dbahandlers »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbafirstkey
+---
 # dbafirstkey
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує локальне ім'я сокета з'єднання
-
--   [« SwooleClient::getpeername](swoole-client.getpeername.html)
-    
--   [SwooleClient::isConnected »](swoole-client.isconnected.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Отримує локальне ім'я сокета з'єднання
-    
-
+---
+navigation:
+  - swoole-client.getpeername.html: '« SwooleClient::getpeername'
+  - swoole-client.isconnected.html: 'SwooleClient::isConnected »'
+  - index.html: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::getsockname'
+---
 # SwooleClient::getsockname
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Конструктор SoapHeader
-
--   [« SoapHeader](class.soapheader.html)
-    
--   [SoapParam »](class.soapparam.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapHeader](class.soapheader.html)
-    
--   Конструктор SoapHeader
-    
-
+---
+navigation:
+  - class.soapheader.html: « SoapHeader
+  - class.soapparam.html: SoapParam »
+  - index.html: PHP Manual
+  - class.soapheader.html: SoapHeader
+title: 'SoapHeader::construct'
+---
 # SoapHeader::construct
 
 (PHP 5, PHP 7, PHP 8)

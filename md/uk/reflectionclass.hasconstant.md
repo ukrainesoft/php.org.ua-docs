@@ -1,16 +1,11 @@
-Перевіряє, чи визначено константу
-
--   [« ReflectionClass::getTraits](reflectionclass.gettraits.html)
-    
--   [ReflectionClass::hasMethod »](reflectionclass.hasmethod.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Перевіряє, чи визначено константу
-    
-
+---
+navigation:
+  - reflectionclass.gettraits.html: '« ReflectionClass::getTraits'
+  - reflectionclass.hasmethod.html: 'ReflectionClass::hasMethod »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::hasConstant'
+---
 # ReflectionClass::hasConstant
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

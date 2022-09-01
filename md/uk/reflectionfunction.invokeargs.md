@@ -1,16 +1,11 @@
-Виклик функції передачі аргументів
-
--   [« ReflectionFunction::invoke](reflectionfunction.invoke.md)
-    
--   [ReflectionFunction::isDisabled »](reflectionfunction.isdisabled.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunction](class.reflectionfunction.md)
-    
--   Виклик функції передачі аргументів
-    
-
+---
+navigation:
+  - reflectionfunction.invoke.md: '« ReflectionFunction::invoke'
+  - reflectionfunction.isdisabled.md: 'ReflectionFunction::isDisabled »'
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
+title: 'ReflectionFunction::invokeArgs'
+---
 # ReflectionFunction::invokeArgs
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

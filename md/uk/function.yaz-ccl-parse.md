@@ -1,16 +1,11 @@
-Викликає парсер CCL
-
--   [« yazcclconf](function.yaz-ccl-conf.html)
-    
--   [yazclose »](function.yaz-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Викликає парсер CCL
-    
-
+---
+navigation:
+  - function.yaz-ccl-conf.html: « yazcclconf
+  - function.yaz-close.html: yazclose »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazcclparse
+---
 # yazcclparse
 
 (PHP 4> = 4.0.5, PECL yaz> = 0.9.0)

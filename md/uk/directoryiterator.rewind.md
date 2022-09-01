@@ -1,16 +1,11 @@
-Встановлює покажчик на перший елемент DirectoryIterator
-
--   [« DirectoryIterator::next](directoryiterator.next.md)
-    
--   [DirectoryIterator::seek »](directoryiterator.seek.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Встановлює покажчик на перший елемент DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.next.md: '« DirectoryIterator::next'
+  - directoryiterator.seek.md: 'DirectoryIterator::seek »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::rewind'
+---
 # DirectoryIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)

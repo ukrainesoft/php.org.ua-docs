@@ -1,16 +1,11 @@
-Сортує вектор
-
--   [« DsVector::slice](ds-vector.slice.html)
-    
--   [ДсVector::sorted »](ds-vector.sorted.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Сортує вектор
-    
-
+---
+navigation:
+  - ds-vector.slice.html: '« DsVector::slice'
+  - ds-vector.sorted.html: 'ДсVector::sorted »'
+  - index.html: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::sort'
+---
 # ДсVector::sort
 
 (PECL ds >= 1.0.0)

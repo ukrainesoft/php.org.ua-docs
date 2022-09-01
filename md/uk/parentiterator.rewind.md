@@ -1,16 +1,11 @@
-Перекладає ітератор на початок
-
--   [« ParentIterator::next](parentiterator.next.html)
-    
--   [RecursiveArrayIterator »](class.recursivearrayiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParentIterator](class.parentiterator.html)
-    
--   Перекладає ітератор на початок
-    
-
+---
+navigation:
+  - parentiterator.next.html: '« ParentIterator::next'
+  - class.recursivearrayiterator.html: RecursiveArrayIterator »
+  - index.html: PHP Manual
+  - class.parentiterator.html: ParentIterator
+title: 'ParentIterator::rewind'
+---
 # ParentIterator::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

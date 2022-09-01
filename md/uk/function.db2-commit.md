@@ -1,16 +1,11 @@
-Підтверджує транзакцію
-
--   [« db2columns](function.db2-columns.html)
-    
--   [db2connerror »](function.db2-conn-error.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Підтверджує транзакцію
-    
-
+---
+navigation:
+  - function.db2-columns.html: « db2columns
+  - function.db2-conn-error.html: db2connerror »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2commit
+---
 # db2commit
 
 (PECL ibmdb2> = 1.0.0)

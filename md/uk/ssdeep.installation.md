@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ssdeep.requirements.md)
-    
--   [Налаштування під час виконання »](ssdeep.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](ssdeep.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ssdeep.requirements.md: « Вимоги
+  - ssdeep.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - ssdeep.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

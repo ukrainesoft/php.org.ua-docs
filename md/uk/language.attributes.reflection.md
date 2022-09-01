@@ -1,16 +1,11 @@
-Читання атрибутів за допомогою Reflection API
-
--   [« Синтаксис атрибутів](language.attributes.syntax.html)
-    
--   [Оголошення класів атрибутів »](language.attributes.classes.html)
-    
--   [PHP Manual](index.html)
-    
--   [Атрибути](language.attributes.html)
-    
--   Читання атрибутів за допомогою Reflection API
-    
-
+---
+navigation:
+  - language.attributes.syntax.html: « Синтаксис атрибутів
+  - language.attributes.classes.html: Оголошення класів атрибутів »
+  - index.html: PHP Manual
+  - language.attributes.html: Атрибути
+title: Читання атрибутів за допомогою Reflection API
+---
 ## Читання атрибутів за допомогою Reflection API
 
 Для доступу до атрибутів класів, методів, функцій, параметрів, властивостей та констант класу, в Reflection API присутній метод **getAttributes()** для кожного з цих об'єктів рефлексії. Цей метод повертає масив екземплярів [ReflectionAttribute](class.reflectionattribute.html), у кожного з яких можна запросити ім'я атрибуту та його аргументи, а також створити об'єкт, який представляє атрибут.

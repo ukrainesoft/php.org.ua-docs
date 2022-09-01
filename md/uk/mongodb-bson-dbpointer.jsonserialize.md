@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONDBPointer::construct](mongodb-bson-dbpointer.construct.html)
-    
--   [MongoDBBSONDBPointer::serialize »](mongodb-bson-dbpointer.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-dbpointer.construct.html: '« MongoDBBSONDBPointer::construct'
+  - mongodb-bson-dbpointer.serialize.html: 'MongoDBBSONDBPointer::serialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer
+title: 'MongoDBBSONDBPointer::jsonSerialize'
+---
 # MongoDBBSONDBPointer::jsonSerialize
 
 (mongodb >=1.4.0)

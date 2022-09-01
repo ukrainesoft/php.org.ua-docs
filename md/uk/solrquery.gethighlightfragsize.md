@@ -1,16 +1,11 @@
-Повертає кількість символів фрагментів для виділення
-
--   [« SolrQuery::getHighlightFragmenter](solrquery.gethighlightfragmenter.html)
-    
--   [SolrQuery::getHighlightHighlightMultiTerm »](solrquery.gethighlighthighlightmultiterm.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає кількість символів фрагментів для виділення
-    
-
+---
+navigation:
+  - solrquery.gethighlightfragmenter.html: '« SolrQuery::getHighlightFragmenter'
+  - solrquery.gethighlighthighlightmultiterm.html: 'SolrQuery::getHighlightHighlightMultiTerm »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getHighlightFragsize'
+---
 # SolrQuery::getHighlightFragsize
 
 (PECL solr> = 0.9.2)

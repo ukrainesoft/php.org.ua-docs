@@ -1,16 +1,11 @@
-Викликає Lua-функцію
-
--   [« LuaSandboxFunction](class.luasandboxfunction.html)
-    
--   [LuaSandboxFunction::construct »](luasandboxfunction.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandboxFunction](class.luasandboxfunction.html)
-    
--   Викликає Lua-функцію
-    
-
+---
+navigation:
+  - class.luasandboxfunction.html: « LuaSandboxFunction
+  - luasandboxfunction.construct.html: 'LuaSandboxFunction::construct »'
+  - index.html: PHP Manual
+  - class.luasandboxfunction.html: LuaSandboxFunction
+title: 'LuaSandboxFunction::call'
+---
 # LuaSandboxFunction::call
 
 (PECL luasandbox >= 1.0.0)

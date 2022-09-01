@@ -1,16 +1,11 @@
-Приєднує атрибут IP-адреси
-
--   [« radiusgetvendorattr](function.radius-get-vendor-attr.html)
-    
--   [radiusputattr »](function.radius-put-attr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Приєднує атрибут IP-адреси
-    
-
+---
+navigation:
+  - function.radius-get-vendor-attr.html: « radiusgetvendorattr
+  - function.radius-put-attr.html: radiusputattr »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusputaddr
+---
 # radiusputaddr
 
 (PECL radius >= 1.1.0)
@@ -57,6 +52,6 @@ radius_put_addr(    resource $radius_handle,    int $type,    string
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |

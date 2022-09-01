@@ -1,16 +1,11 @@
-Клас WeakReference
-
--   [« Fiber::getCurrent](fiber.getcurrent.html)
-    
--   [WeakReference::construct »](weakreference.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   Клас WeakReference
-    
-
+---
+navigation:
+  - fiber.getcurrent.html: '« Fiber::getCurrent'
+  - weakreference.construct.html: 'WeakReference::construct »'
+  - index.html: PHP Manual
+  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+title: Клас WeakReference
+---
 # Клас WeakReference
 
 (PHP 7> = 7.4.0, PHP 8)

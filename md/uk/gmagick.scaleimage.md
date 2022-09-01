@@ -1,16 +1,11 @@
-Масштабує розмір зображення
-
--   [« Gmagick::rotateimage](gmagick.rotateimage.md)
-    
--   [Gmagick::separateimagechannel »](gmagick.separateimagechannel.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Масштабує розмір зображення
-    
-
+---
+navigation:
+  - gmagick.rotateimage.md: '« Gmagick::rotateimage'
+  - gmagick.separateimagechannel.md: 'Gmagick::separateimagechannel »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::scaleimage'
+---
 # Gmagick::scaleimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Експорт
-
--   [« Reflector](class.reflector.html)
-    
--   [Reflector::toString »](reflector.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflector](class.reflector.html)
-    
--   Експорт
-    
-
+---
+navigation:
+  - class.reflector.html: « Reflector
+  - reflector.tostring.html: 'Reflector::toString »'
+  - index.html: PHP Manual
+  - class.reflector.html: Reflector
+title: 'Reflector::export'
+---
 # Reflector::export
 
 (PHP 5, PHP 7)

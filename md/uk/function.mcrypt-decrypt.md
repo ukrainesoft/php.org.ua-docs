@@ -1,16 +1,11 @@
-Розшифровує дані із заданими параметрами
-
--   [« mcryptcreateверб](function.mcrypt-create-iv.html)
-    
--   [mcryptencgetalgorithmsname »](function.mcrypt-enc-get-algorithms-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Розшифровує дані із заданими параметрами
-    
-
+---
+navigation:
+  - function.mcrypt-create-iv.html: « mcryptcreateверб
+  - function.mcrypt-enc-get-algorithms-name.html: mcryptencgetalgorithmsname »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptdecrypt
+---
 # mcryptdecrypt
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

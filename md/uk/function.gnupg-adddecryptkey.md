@@ -1,16 +1,11 @@
-Додати ключ для розшифровки
-
--   [« GnuPG Функції](ref.gnupg.md)
-    
--   [gnupgaddencryptkey »](function.gnupg-addencryptkey.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Додати ключ для розшифровки
-    
-
+---
+navigation:
+  - ref.gnupg.md: « GnuPG Функції
+  - function.gnupg-addencryptkey.html: gnupgaddencryptkey »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgadddecryptkey
+---
 # gnupgadddecryptkey
 
 (PECL gnupg >= 0.5)

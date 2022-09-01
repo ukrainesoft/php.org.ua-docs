@@ -1,16 +1,11 @@
-Закриває з'єднання із системним журналом
-
--   [« checkdnsrr](function.checkdnsrr.md)
-    
--   [dnscheckrecord »](function.dns-check-record.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Закриває з'єднання із системним журналом
-    
-
+---
+navigation:
+  - function.checkdnsrr.md: « checkdnsrr
+  - function.dns-check-record.html: dnscheckrecord »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: closelog
+---
 # closelog
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

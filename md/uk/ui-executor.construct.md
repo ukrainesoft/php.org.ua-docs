@@ -1,16 +1,11 @@
-Створити новий об'єкт Executor
-
--   [« UIExecutor](class.ui-executor.html)
-    
--   [ОЙExecutor::kill »](ui-executor.kill.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙExecutor](class.ui-executor.html)
-    
--   Створити новий об'єкт Executor
-    
-
+---
+navigation:
+  - class.ui-executor.html: « UIExecutor
+  - ui-executor.kill.html: 'ОЙExecutor::kill »'
+  - index.md: PHP Manual
+  - class.ui-executor.html: ОЙExecutor
+title: 'ОЙExecutor::construct'
+---
 # ОЙExecutor::construct
 
 (UI 2.0.0)

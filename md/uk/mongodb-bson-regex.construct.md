@@ -1,16 +1,11 @@
-Створює новий Regex
-
--   [« MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   [MongoDBBSONRegex::getFlags »](mongodb-bson-regex.getflags.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   Створює новий Regex
-    
-
+---
+navigation:
+  - class.mongodb-bson-regex.html: « MongoDBBSONRegex
+  - mongodb-bson-regex.getflags.html: 'MongoDBBSONRegex::getFlags »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::construct'
+---
 # MongoDBBSONRegex::construct
 
 (mongodb >=1.0.0)
@@ -42,10 +37,10 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 ### список змін
 
-| Версия                                                                       | Описание |
-|------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.2.0                                                           |          |
-| Аргумент `flags` є необов'язковим і за умовчанням дорівнює порожньому рядку. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.2.0 |  |
+| Аргумент `flags` є необов'язковим і за умовчанням дорівнює порожньому рядку. |  |
 
 Символи в аргументі `flags` будуть відсортовані в алфавітному порядку під час побудови регулярного виразу. Раніше символи зберігалися у вказаному порядку.
 

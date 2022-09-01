@@ -1,16 +1,11 @@
-іф
-
--   [« Введение](control-structures.intro.html)
-    
--   [else »](control-structures.else.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   іф
-    
-
+---
+navigation:
+  - control-structures.intro.html: « Введение
+  - control-structures.else.html: else »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: іф
+---
 ## іф
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

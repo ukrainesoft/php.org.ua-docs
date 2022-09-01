@@ -1,16 +1,11 @@
-Повертає інформацію про слова, що входять до рядка
-
--   [« strstartswith](function.str-starts-with.html)
-    
--   [strcasecmp »](function.strcasecmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає інформацію про слова, що входять до рядка
-    
-
+---
+navigation:
+  - function.str-starts-with.html: « strstartswith
+  - function.strcasecmp.md: strcasecmp »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strсловоcount
+---
 # strсловоcount
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ str_word_count(string $string, int $format = 0, ?string $characters = null): arr
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `characters` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `characters` тепер допускає значення null. |
 
 ### Приклади
 

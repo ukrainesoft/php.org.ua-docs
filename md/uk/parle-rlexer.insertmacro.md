@@ -1,16 +1,11 @@
-Вставляє макрос регулярного виразу
-
--   [« ParleRLexer::getToken](parle-rlexer.gettoken.html)
-    
--   [ParleRLexer::push »](parle-rlexer.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRLexer](class.parle-rlexer.html)
-    
--   Вставляє макрос регулярного виразу
-    
-
+---
+navigation:
+  - parle-rlexer.gettoken.html: '« ParleRLexer::getToken'
+  - parle-rlexer.push.html: 'ParleRLexer::push »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.html: ParleRLexer
+title: 'ParleRLexer::insertMacro'
+---
 # ParleRLexer::insertMacro
 
 (PECL parle >= 0.5.1)

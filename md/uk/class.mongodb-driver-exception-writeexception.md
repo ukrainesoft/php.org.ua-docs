@@ -1,16 +1,11 @@
-Клас MongoDBDriverExceptionWriteException
-
--   [« MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)
-    
--   [MongoDBDriverExceptionWriteException::getWriteResult »](mongodb-driver-writeexception.getwriteresult.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverException](mongodb.exceptions.md)
-    
--   Клас MongoDBDriverExceptionWriteException
-    
-
+---
+navigation:
+  - class.mongodb-driver-exception-unexpectedvalueexception.html: « MongoDBDriverExceptionUnexpectedValueException
+  - mongodb-driver-writeexception.getwriteresult.html: 'MongoDBDriverExceptionWriteException::getWriteResult »'
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
+title: Клас MongoDBDriverExceptionWriteException
+---
 # Клас MongoDBDriverExceptionWriteException
 
 (mongodb >= 1.0.0)
@@ -108,10 +103,10 @@ writeResult
 
 ## список змін
 
-| Версия                                                                                                                                                                                                                            | Описание |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.5.0                                                                                                                                                                                                                |          |
-| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.5.0 |  |
+| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |  |
 
 ## Зміст
 

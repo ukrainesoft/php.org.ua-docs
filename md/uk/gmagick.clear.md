@@ -1,16 +1,11 @@
-Зачищає всі ресурси, пов'язані з об'єктом Gmagick
-
--   [« Gmagick::chopimage](gmagick.chopimage.md)
-    
--   [Gmagick::commentimage »](gmagick.commentimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Зачищає всі ресурси, пов'язані з об'єктом Gmagick
-    
-
+---
+navigation:
+  - gmagick.chopimage.md: '« Gmagick::chopimage'
+  - gmagick.commentimage.md: 'Gmagick::commentimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::clear'
+---
 # Gmagick::clear
 
 (PECL gmagick >= Unknown)

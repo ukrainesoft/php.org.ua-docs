@@ -1,16 +1,11 @@
-Повертає ідентифікатор топології, пов'язаний із цим сервером
-
--   [« MongoDBDriverMonitoringServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.html)
-    
--   [MongoDBDriverMonitoringServerOpeningEvent »](class.mongodb-driver-monitoring-serveropeningevent.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
-    
--   Повертає ідентифікатор топології, пов'язаний із цим сервером
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverclosedevent.getport.html: '« MongoDBDriverMonitoringServerClosedEvent::getPort'
+  - class.mongodb-driver-monitoring-serveropeningevent.html: MongoDBDriverMonitoringServerOpeningEvent »
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serverclosedevent.html: MongoDBDriverMonitoringServerClosedEvent
+title: 'MongoDBDriverMonitoringServerClosedEvent::getTopologyId'
+---
 # MongoDBDriverMonitoringServerClosedEvent::getTopologyId
 
 (mongodb >=1.13.0)

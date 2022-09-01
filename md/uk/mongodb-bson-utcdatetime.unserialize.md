@@ -1,16 +1,11 @@
-Десеріалізує UTCDateTime
-
--   [« MongoDBBSONUTCDateTime::toString](mongodb-bson-utcdatetime.tostring.html)
-    
--   [MongoDBBSONType »](class.mongodb-bson-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
-    
--   Десеріалізує UTCDateTime
-    
-
+---
+navigation:
+  - mongodb-bson-utcdatetime.tostring.html: '« MongoDBBSONUTCDateTime::toString'
+  - class.mongodb-bson-type.html: MongoDBBSONType »
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+title: 'MongoDBBSONUTCDateTime::unserialize'
+---
 # MongoDBBSONUTCDateTime::unserialize
 
 (mongodb >=1.2.0)

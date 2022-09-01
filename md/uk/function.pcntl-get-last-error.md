@@ -1,16 +1,11 @@
-Отримати код останньої помилки, що виникла в pcntl-функції
-
--   [pcntlfork](function.pcntl-fork.html)
-    
--   [pcntlgetpriority »](function.pcntl-getpriority.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Отримати код останньої помилки, що виникла в pcntl-функції
-    
-
+---
+navigation:
+  - function.pcntl-fork.html: pcntlfork
+  - function.pcntl-getpriority.html: pcntlgetpriority »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlgetlasterror
+---
 # pcntlgetlasterror
 
 (PHP 5> = 5.3.4, PHP 7, PHP 8)

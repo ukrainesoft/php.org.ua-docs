@@ -1,16 +1,11 @@
-ParseError
-
--   [« CompileError](class.compileerror.md)
-    
--   [TypeError »](class.typeerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   ParseError
-    
-
+---
+navigation:
+  - class.compileerror.md: « CompileError
+  - class.typeerror.md: TypeError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: ParseError
+---
 # ParseError
 
 (PHP 7, PHP 8)

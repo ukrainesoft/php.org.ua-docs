@@ -1,16 +1,11 @@
-Отримує новий об'єкт схеми
-
--   [« Session::getDefaultSchema](mysql-xdevapi-session.getdefaultschema.html)
-    
--   [Session::getSchemas »](mysql-xdevapi-session.getschemas.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Отримує новий об'єкт схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.getdefaultschema.html: '« Session::getDefaultSchema'
+  - mysql-xdevapi-session.getschemas.html: 'Session::getSchemas »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::getSchema'
+---
 # Session::getSchema
 
 (No version information available, might only be in Git)

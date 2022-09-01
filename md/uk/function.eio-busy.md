@@ -1,16 +1,11 @@
-Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
-
--   [« Eio Функции](ref.eio.html)
-    
--   [eiocancel »](function.eio-cancel.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
-    
-
+---
+navigation:
+  - ref.eio.html: « Eio Функции
+  - function.eio-cancel.html: eiocancel »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiobusy
+---
 # eiobusy
 
 (PECL eio >= 0.0.1dev)

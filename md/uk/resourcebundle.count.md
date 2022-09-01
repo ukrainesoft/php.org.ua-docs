@@ -1,16 +1,11 @@
-Отримати кількість елементів у пакеті
-
--   [« ResourceBundle](class.resourcebundle.html)
-    
--   [ResourceBundle::create »](resourcebundle.create.html)
-    
--   [PHP Manual](index.html)
-    
--   [ResourceBundle](class.resourcebundle.html)
-    
--   Отримати кількість елементів у пакеті
-    
-
+---
+navigation:
+  - class.resourcebundle.html: « ResourceBundle
+  - resourcebundle.create.html: 'ResourceBundle::create »'
+  - index.html: PHP Manual
+  - class.resourcebundle.html: ResourceBundle
+title: 'ResourceBundle::count'
+---
 # ResourceBundle::count
 
 # resourcebundlecount

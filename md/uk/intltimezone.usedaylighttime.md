@@ -1,16 +1,11 @@
-Перевірити, що в даному часовому поясі використовується літній час
-
--   [« IntlTimeZone::toDateTimeZone](intltimezone.todatetimezone.md)
-    
--   [IntlDateFormatter »](class.intldateformatter.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Перевірити, що в даному часовому поясі використовується літній час
-    
-
+---
+navigation:
+  - intltimezone.todatetimezone.md: '« IntlTimeZone::toDateTimeZone'
+  - class.intldateformatter.md: IntlDateFormatter »
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::useDaylightTime'
+---
 # IntlTimeZone::useDaylightTime
 
 # intltzusedaylighttime

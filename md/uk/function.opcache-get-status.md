@@ -1,16 +1,11 @@
-Отримати інформацію про стан кешу
-
--   [« opcachegetconfiguration](function.opcache-get-configuration.html)
-    
--   [opcacheinvalidate »](function.opcache-invalidate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OPcache](ref.opcache.html)
-    
--   Отримати інформацію про стан кешу
-    
-
+---
+navigation:
+  - function.opcache-get-configuration.html: « opcachegetconfiguration
+  - function.opcache-invalidate.html: opcacheinvalidate »
+  - index.html: PHP Manual
+  - ref.opcache.html: Функции OPcache
+title: opcachegetstatus
+---
 # opcachegetstatus
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)

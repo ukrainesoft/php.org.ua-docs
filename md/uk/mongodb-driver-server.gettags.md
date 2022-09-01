@@ -1,16 +1,11 @@
-Повертає масив тегів, що описують сервер у наборі реплік
-
--   [« MongoDBDriverServer::getServerDescription](mongodb-driver-server.getserverdescription.html)
-    
--   [MongoDBDriverServer::getType »](mongodb-driver-server.gettype.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Повертає масив тегів, що описують сервер у наборі реплік
-    
-
+---
+navigation:
+  - mongodb-driver-server.getserverdescription.html: '« MongoDBDriverServer::getServerDescription'
+  - mongodb-driver-server.gettype.html: 'MongoDBDriverServer::getType »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::getTags'
+---
 # MongoDBDriverServer::getTags
 
 (mongodb >=1.0.0)

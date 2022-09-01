@@ -1,16 +1,11 @@
-Клас EvFork
-
--   [« EvEmbed::sweep](evembed.sweep.md)
-    
--   [EvFork::construct »](evfork.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Клас EvFork
-    
-
+---
+navigation:
+  - evembed.sweep.md: '« EvEmbed::sweep'
+  - evfork.construct.md: 'EvFork::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvFork
+---
 # Клас EvFork
 
 (PECL ev >= 0.2.0)

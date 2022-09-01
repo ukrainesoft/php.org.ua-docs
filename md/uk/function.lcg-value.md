@@ -1,16 +1,11 @@
-Комбінований лінійний конгруентний генератор
-
--   [« isnan](function.is-nan.html)
-    
--   [log10 »](function.log10.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Комбінований лінійний конгруентний генератор
-    
-
+---
+navigation:
+  - function.is-nan.html: « isnan
+  - function.log10.html: log10 »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: lcgvalue
+---
 # lcgvalue
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

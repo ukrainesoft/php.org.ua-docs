@@ -1,16 +1,11 @@
-Вступ
-
--   [« SNMP](book.snmp.md)
-    
--   [Встановлення та налаштування »](snmp.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](book.snmp.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.snmp.md: « SNMP
+  - snmp.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.snmp.md: SNMP
+title: Вступ
+---
 # Вступ
 
 Модуль SNMP надає простий та зручний набір інструментів для керування віддаленими пристроями через Simple Network Management Protocol (простий протокол керування мережами).

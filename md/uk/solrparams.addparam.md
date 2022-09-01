@@ -1,16 +1,11 @@
-Додає параметр до об'єкту
-
--   [« SolrParams::add](solrparams.add.html)
-    
--   [SolrParams::get »](solrparams.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrParams](class.solrparams.html)
-    
--   Додає параметр до об'єкту
-    
-
+---
+navigation:
+  - solrparams.add.html: '« SolrParams::add'
+  - solrparams.get.html: 'SolrParams::get »'
+  - index.html: PHP Manual
+  - class.solrparams.html: SolrParams
+title: 'SolrParams::addParam'
+---
 # SolrParams::addParam
 
 (PECL solr> = 0.9.2)

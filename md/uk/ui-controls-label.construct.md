@@ -1,16 +1,11 @@
-Створити новий об'єкт Label
-
--   [« UIControlsLabel](class.ui-controls-label.html)
-    
--   [ОЙControlsLabel::getText »](ui-controls-label.gettext.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsLabel](class.ui-controls-label.html)
-    
--   Створити новий об'єкт Label
-    
-
+---
+navigation:
+  - class.ui-controls-label.html: « UIControlsLabel
+  - ui-controls-label.gettext.html: 'ОЙControlsLabel::getText »'
+  - index.html: PHP Manual
+  - class.ui-controls-label.html: ОЙControlsLabel
+title: 'ОЙControlsLabel::construct'
+---
 # ОЙControlsLabel::construct
 
 (UI 0.9.9)

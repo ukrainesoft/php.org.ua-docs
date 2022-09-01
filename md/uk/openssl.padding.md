@@ -1,16 +1,11 @@
-Прапори заповнення для асиметричного шифрування
-
--   [« Прапори перевірки](openssl.purpose-check.html)
-    
--   [Типи ключів »](openssl.key-types.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обумовлені константи](openssl.constants.html)
-    
--   Прапори заповнення для асиметричного шифрування
-    
-
+---
+navigation:
+  - openssl.purpose-check.html: « Прапори перевірки
+  - openssl.key-types.html: Типи ключів »
+  - index.html: PHP Manual
+  - openssl.constants.html: Обумовлені константи
+title: Прапори заповнення для асиметричного шифрування
+---
 ## Прапори заповнення для асиметричного шифрування
 
 **`OPENSSL_PKCS1_PADDING`** (int)

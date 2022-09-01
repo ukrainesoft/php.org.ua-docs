@@ -1,16 +1,11 @@
-Метод повертає серіалізовану версію хешу
-
--   [« QuickHashIntHash::saveToFile](quickhashinthash.savetofile.html)
-    
--   [QuickHashIntHash::set »](quickhashinthash.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashIntHash](class.quickhashinthash.html)
-    
--   Метод повертає серіалізовану версію хешу
-    
-
+---
+navigation:
+  - quickhashinthash.savetofile.html: '« QuickHashIntHash::saveToFile'
+  - quickhashinthash.set.html: 'QuickHashIntHash::set »'
+  - index.html: PHP Manual
+  - class.quickhashinthash.html: QuickHashIntHash
+title: 'QuickHashIntHash::saveToString'
+---
 # QuickHashIntHash::saveToString
 
 (PECL quickhash >= Unknown)

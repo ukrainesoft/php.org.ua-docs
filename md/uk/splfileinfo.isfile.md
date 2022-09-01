@@ -1,16 +1,11 @@
-Вказує, чи об'єкт посилається на звичайний файл
-
--   [« SplFileInfo::isExecutable](splfileinfo.isexecutable.md)
-    
--   [SplFileInfo::isLink »](splfileinfo.islink.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Вказує, чи об'єкт посилається на звичайний файл
-    
-
+---
+navigation:
+  - splfileinfo.isexecutable.md: '« SplFileInfo::isExecutable'
+  - splfileinfo.islink.md: 'SplFileInfo::isLink »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::isFile'
+---
 # SplFileInfo::isFile
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

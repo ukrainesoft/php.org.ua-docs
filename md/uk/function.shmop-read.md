@@ -1,16 +1,11 @@
-Читання даних з ділянки пам'яті, що розділяється
-
--   [« shmopopen](function.shmop-open.html)
-    
--   [shmopsize »](function.shmop-size.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пам'ять, що розділяється (shared)](ref.shmop.md)
-    
--   Читання даних з ділянки пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shmop-open.html: « shmopopen
+  - function.shmop-size.html: shmopsize »
+  - index.md: PHP Manual
+  - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
+title: shmopread
+---
 # shmopread
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ shmop_read(Shmop $shmop, int $offset, int $size): string
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

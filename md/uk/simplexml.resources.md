@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](simplexml.configuration.md)
-    
--   [Обумовлені константи »](simplexml.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](simplexml.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - simplexml.configuration.md: « Налаштування під час виконання
+  - simplexml.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - simplexml.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

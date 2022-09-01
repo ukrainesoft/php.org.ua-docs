@@ -1,16 +1,11 @@
-Повертає значення, пов'язане із зазначеним ключем
-
--   [« Imagick::getNumberImages](imagick.getnumberimages.md)
-    
--   [Imagick::getPackageName »](imagick.getpackagename.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає значення, пов'язане із зазначеним ключем
-    
-
+---
+navigation:
+  - imagick.getnumberimages.md: '« Imagick::getNumberImages'
+  - imagick.getpackagename.md: 'Imagick::getPackageName »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getOption'
+---
 # Imagick::getOption
 
 (PECL imagick 2, PECL imagick 3)

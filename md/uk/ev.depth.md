@@ -1,16 +1,11 @@
-Здобути глибину рекурсії
-
--   [« Ev::backend](ev.backend.md)
-    
--   [Ev::embeddableBackends »](ev.embeddablebackends.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Здобути глибину рекурсії
-    
-
+---
+navigation:
+  - ev.backend.md: '« Ev::backend'
+  - ev.embeddablebackends.md: 'Ev::embeddableBackends »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::depth'
+---
 # Ev::depth
 
 (PECL ev >= 0.2.0)

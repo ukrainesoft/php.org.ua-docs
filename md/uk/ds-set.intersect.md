@@ -1,16 +1,11 @@
-Створює новий набір, створений перетином з іншим набором
-
--   [« DsSet::get](ds-set.get.html)
-    
--   [ДсSet::isEmpty »](ds-set.isempty.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Створює новий набір, створений перетином з іншим набором
-    
-
+---
+navigation:
+  - ds-set.get.html: '« DsSet::get'
+  - ds-set.isempty.html: 'ДсSet::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::intersect'
+---
 # ДсSet::intersect
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає коментар ZIP-архіву
-
--   [« ZipArchive::extractTo](ziparchive.extractto.md)
-    
--   [ZipArchive::getCommentIndex »](ziparchive.getcommentindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Повертає коментар ZIP-архіву
-    
-
+---
+navigation:
+  - ziparchive.extractto.md: '« ZipArchive::extractTo'
+  - ziparchive.getcommentindex.md: 'ZipArchive::getCommentIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::getArchiveComment'
+---
 # ZipArchive::getArchiveComment
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

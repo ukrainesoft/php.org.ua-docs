@@ -1,16 +1,11 @@
-Служби автентифікації
-
--   [« openalstream](function.openal-stream.html)
-    
--   [Radius »](book.radius.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Служби автентифікації
-    
-
+---
+navigation:
+  - function.openal-stream.html: « openalstream
+  - book.radius.html: Radius »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Служби автентифікації
+---
 # Служби автентифікації
 
 -   [Radius](book.radius.html)

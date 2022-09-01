@@ -1,16 +1,11 @@
-Відправляє запит і чекає на відповідь
-
--   [« radiussaltencryptattr](function.radius-salt-encrypt-attr.html)
-    
--   [radiusserversecret »](function.radius-server-secret.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Відправляє запит і чекає на відповідь
-    
-
+---
+navigation:
+  - function.radius-salt-encrypt-attr.html: « radiussaltencryptattr
+  - function.radius-server-secret.html: radiusserversecret »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiussendrequest
+---
 # radiussendrequest
 
 (PECL radius >= 1.1.0)

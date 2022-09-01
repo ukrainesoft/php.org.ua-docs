@@ -1,16 +1,11 @@
-Створює новий Timestamp
-
--   [« MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   [MongoDBBSONTimestamp::getIncrement »](mongodb-bson-timestamp.getincrement.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   Створює новий Timestamp
-    
-
+---
+navigation:
+  - class.mongodb-bson-timestamp.html: « MongoDBBSONTimestamp
+  - mongodb-bson-timestamp.getincrement.html: 'MongoDBBSONTimestamp::getIncrement »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::construct'
+---
 # MongoDBBSONTimestamp::construct
 
 (mongodb >=1.0.0)

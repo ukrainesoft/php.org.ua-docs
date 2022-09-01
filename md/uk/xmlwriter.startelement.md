@@ -1,16 +1,11 @@
-Створити стартовий тег елемента
-
--   [« XMLWriter::startDtdEntity](xmlwriter.startdtdentity.md)
-    
--   [XMLWriter::startElementNs »](xmlwriter.startelementns.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити стартовий тег елемента
-    
-
+---
+navigation:
+  - xmlwriter.startdtdentity.md: '« XMLWriter::startDtdEntity'
+  - xmlwriter.startelementns.md: 'XMLWriter::startElementNs »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startElement'
+---
 # XMLWriter::startElement
 
 # xmlwriterstartelement
@@ -51,9 +46,9 @@ xmlwriter_start_element(XMLWriter $writer, string $name): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

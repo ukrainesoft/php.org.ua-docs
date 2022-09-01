@@ -1,16 +1,11 @@
-Інтерфейс Countable
-
--   [« Інтерфейси](spl.interfaces.html)
-    
--   [Countable::count »](countable.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інтерфейси](spl.interfaces.html)
-    
--   Інтерфейс Countable
-    
-
+---
+navigation:
+  - spl.interfaces.html: « Інтерфейси
+  - countable.count.html: 'Countable::count »'
+  - index.html: PHP Manual
+  - spl.interfaces.html: Інтерфейси
+title: Інтерфейс Countable
+---
 # Інтерфейс Countable
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

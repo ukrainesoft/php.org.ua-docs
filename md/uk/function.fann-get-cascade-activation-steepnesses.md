@@ -1,16 +1,11 @@
-Повертає крутість каскадної активації
-
--   [« fanngetcascadeactivationsteepnessescount](function.fann-get-cascade-activation-steepnesses-count.html)
-    
--   [fanngetcascadecandidatechangefraction »](function.fann-get-cascade-candidate-change-fraction.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає крутість каскадної активації
-    
-
+---
+navigation:
+  - function.fann-get-cascade-activation-steepnesses-count.html: « fanngetcascadeactivationsteepnessescount
+  - function.fann-get-cascade-candidate-change-fraction.html: fanngetcascadecandidatechangefraction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetcascadeactivationsteepnesses
+---
 # fanngetcascadeactivationsteepnesses
 
 (PECL fann> = 1.0.0)

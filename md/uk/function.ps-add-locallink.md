@@ -1,16 +1,11 @@
-Додає посилання на сторінку того самого документа
-
--   [«psaddlaunchlink](function.ps-add-launchlink.html)
-    
--   [псaddnote »](function.ps-add-note.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Додає посилання на сторінку того самого документа
-    
-
+---
+navigation:
+  - function.ps-add-launchlink.html: «psaddlaunchlink
+  - function.ps-add-note.html: псaddnote »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псaddlocallink
+---
 # псaddlocallink
 
 (PECL ps >= 1.1.0)

@@ -1,16 +1,11 @@
-Повертає кількість стовпців у результуючому наборі
-
--   [« PDOStatement::closeCursor](pdostatement.closecursor.md)
-    
--   [PDOStatement::debugDumpParams »](pdostatement.debugdumpparams.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Повертає кількість стовпців у результуючому наборі
-    
-
+---
+navigation:
+  - pdostatement.closecursor.md: '« PDOStatement::closeCursor'
+  - pdostatement.debugdumpparams.md: 'PDOStatement::debugDumpParams »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::columnCount'
+---
 # PDOStatement::columnCount
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)

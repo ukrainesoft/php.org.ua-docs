@@ -1,16 +1,11 @@
-Реєструє обгортку URL, реалізовану у вигляді PHP-класу
-
--   [« streamsupportslock](function.stream-supports-lock.html)
-    
--   [streamwrapperrestore »](function.stream-wrapper-restore.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Реєструє обгортку URL, реалізовану у вигляді PHP-класу
-    
-
+---
+navigation:
+  - function.stream-supports-lock.html: « streamsupportslock
+  - function.stream-wrapper-restore.html: streamwrapperrestore »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamwrapperregister
+---
 # streamwrapperregister
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

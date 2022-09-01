@@ -1,16 +1,11 @@
-Отримати список доступних методів хешування
-
--   [« opensslgetcurvenames](function.openssl-get-curve-names.html)
-    
--   [opensslgetprivatekey »](function.openssl-get-privatekey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Отримати список доступних методів хешування
-    
-
+---
+navigation:
+  - function.openssl-get-curve-names.html: « opensslgetcurvenames
+  - function.openssl-get-privatekey.html: opensslgetprivatekey »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslgetмдметодів
+---
 # opensslgetмдметодів
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

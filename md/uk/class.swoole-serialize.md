@@ -1,16 +1,11 @@
-Клас SwooleSerialize
-
--   [« SwooleRedisServer::start](swoole-redis-server.start.html)
-    
--   [SwooleSerialize::pack »](swoole-serialize.pack.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleSerialize
-    
-
+---
+navigation:
+  - swoole-redis-server.start.html: '« SwooleRedisServer::start'
+  - swoole-serialize.pack.html: 'SwooleSerialize::pack »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleSerialize
+---
 # Клас SwooleSerialize
 
 (PECL swoole >= 1.9.0)

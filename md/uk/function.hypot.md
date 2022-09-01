@@ -1,16 +1,11 @@
-Розраховує довжину гіпотенузи прямокутного трикутника
-
--   [« hexdec](function.hexdec.md)
-    
--   [intdiv »](function.intdiv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Розраховує довжину гіпотенузи прямокутного трикутника
-    
-
+---
+navigation:
+  - function.hexdec.md: « hexdec
+  - function.intdiv.md: intdiv »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: hypot
+---
 # hypot
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

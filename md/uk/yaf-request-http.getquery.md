@@ -1,16 +1,11 @@
-Отримує параметр запиту
-
--   [« YafRequestHttp::getPost](yaf-request-http.getpost.html)
-    
--   [YafRequestHttp::getRaw »](yaf-request-http.getraw.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestHttp](class.yaf-request-http.html)
-    
--   Отримує параметр запиту
-    
-
+---
+navigation:
+  - yaf-request-http.getpost.html: '« YafRequestHttp::getPost'
+  - yaf-request-http.getraw.html: 'YafRequestHttp::getRaw »'
+  - index.md: PHP Manual
+  - class.yaf-request-http.html: YafRequestHttp
+title: 'YafRequestHttp::getQuery'
+---
 # YafRequestHttp::getQuery
 
 (Yaf >=1.0.0)

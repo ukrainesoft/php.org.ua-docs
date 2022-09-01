@@ -1,16 +1,11 @@
-Створити стартовий тег PI
-
--   [« XMLWriter::startElementNs](xmlwriter.startelementns.md)
-    
--   [XMLWriter::text »](xmlwriter.text.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити стартовий тег PI
-    
-
+---
+navigation:
+  - xmlwriter.startelementns.md: '« XMLWriter::startElementNs'
+  - xmlwriter.text.md: 'XMLWriter::text »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startPi'
+---
 # XMLWriter::startPi
 
 # xmlwriterstartпі
@@ -51,9 +46,9 @@ xmlwriter_start_pi(XMLWriter $writer, string $target): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

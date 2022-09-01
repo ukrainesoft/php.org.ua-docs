@@ -1,16 +1,11 @@
-Перевіряє, чи порожня змінна
-
--   [« doubleval](function.doubleval.html)
-    
--   [floatval »](function.floatval.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевіряє, чи порожня змінна
-    
-
+---
+navigation:
+  - function.doubleval.html: « doubleval
+  - function.floatval.html: floatval »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: empty
+---
 # empty
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

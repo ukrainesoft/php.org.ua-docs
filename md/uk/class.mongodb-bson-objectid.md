@@ -1,16 +1,11 @@
-Клас MongoDBBSONObjectId
-
--   [« MongoDBBSONMinKey::unserialize](mongodb-bson-minkey.unserialize.html)
-    
--   [MongoDBBSONObjectId::construct »](mongodb-bson-objectid.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONObjectId
-    
-
+---
+navigation:
+  - mongodb-bson-minkey.unserialize.html: '« MongoDBBSONMinKey::unserialize'
+  - mongodb-bson-objectid.construct.html: 'MongoDBBSONObjectId::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONObjectId
+---
 # Клас MongoDBBSONObjectId
 
 (mongodb >=1.0.0)
@@ -60,11 +55,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия                                                             | Описание                                                           |
-|--------------------------------------------------------------------|--------------------------------------------------------------------|
-| PECL mongodb 1.12.0                                                | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
-| PECL mongodb 1.3.0                                                 |                                                                    |
-| Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |                                                                    |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
+| PECL mongodb 1.3.0 |  |
+| Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |  |
 
 Реалізує інтерфейс [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
 

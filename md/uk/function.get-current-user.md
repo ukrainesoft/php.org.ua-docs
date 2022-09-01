@@ -1,16 +1,11 @@
-Отримує ім'я власника поточного скрипту PHP
-
--   [« getcfgvar](function.get-cfg-var.html)
-    
--   [getdefinedconstants »](function.get-defined-constants.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримує ім'я власника поточного скрипту PHP
-    
-
+---
+navigation:
+  - function.get-cfg-var.html: « getcfgvar
+  - function.get-defined-constants.html: getdefinedconstants »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getcurrentuser
+---
 # getcurrentuser
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

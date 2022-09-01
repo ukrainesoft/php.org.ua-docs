@@ -1,16 +1,11 @@
-Обробка тексту
-
--   [« SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.html)
-    
--   [CommonMark »](book.cmark.html)
-    
--   [PHP Manual](index.html)
-    
--   [Справочник функций](funcref.html)
-    
--   Обробка тексту
-    
-
+---
+navigation:
+  - sessionupdatetimestamphandlerinterface.validateid.html: '« SessionUpdateTimestampHandlerInterface::validateId'
+  - book.cmark.html: CommonMark »
+  - index.html: PHP Manual
+  - funcref.html: Справочник функций
+title: Обробка тексту
+---
 # Обробка тексту
 
 -   [CommonMark](book.cmark.html)

@@ -1,16 +1,11 @@
-Отримує параметр дзвінка
-
--   [« YafRequestAbstract::getModuleName](yaf-request-abstract.getmodulename.html)
-    
--   [YafRequestAbstract::getParams »](yaf-request-abstract.getparams.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Отримує параметр дзвінка
-    
-
+---
+navigation:
+  - yaf-request-abstract.getmodulename.html: '« YafRequestAbstract::getModuleName'
+  - yaf-request-abstract.getparams.html: 'YafRequestAbstract::getParams »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getParam'
+---
 # YafRequestAbstract::getParam
 
 (Yaf >=1.0.0)

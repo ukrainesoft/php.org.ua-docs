@@ -1,16 +1,11 @@
-Клас ExecutionStatus
-
--   [« Executable::execute](mysql-xdevapi-executable.execute.html)
-    
--   [ExecutionStatus::construct »](mysql-xdevapi-executionstatus.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас ExecutionStatus
-    
-
+---
+navigation:
+  - mysql-xdevapi-executable.execute.html: '« Executable::execute'
+  - mysql-xdevapi-executionstatus.construct.html: 'ExecutionStatus::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас ExecutionStatus
+---
 # Клас ExecutionStatus
 
 (PECL mysql-xdevapi >= 8.0.11)

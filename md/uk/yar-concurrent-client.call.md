@@ -1,16 +1,11 @@
-Зареєструвати конкурентний виклик
-
--   [« YarConcurrentClient](class.yar-concurrent-client.html)
-    
--   [YarConcurrentClient::loop »](yar-concurrent-client.loop.html)
-    
--   [PHP Manual](index.md)
-    
--   [YarConcurrentClient](class.yar-concurrent-client.html)
-    
--   Зареєструвати конкурентний виклик
-    
-
+---
+navigation:
+  - class.yar-concurrent-client.html: « YarConcurrentClient
+  - yar-concurrent-client.loop.html: 'YarConcurrentClient::loop »'
+  - index.md: PHP Manual
+  - class.yar-concurrent-client.html: YarConcurrentClient
+title: 'YarConcurrentClient::call'
+---
 # YarConcurrentClient::call
 
 (PECL yar >= 1.0.0)

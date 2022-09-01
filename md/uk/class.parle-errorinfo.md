@@ -1,16 +1,11 @@
-Клас ParleErrorInfo
-
--   [« ParleToken](class.parle-token.html)
-    
--   [ParleLexerException »](class.parle-lexerexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [Parle](book.parle.md)
-    
--   Клас ParleErrorInfo
-    
-
+---
+navigation:
+  - class.parle-token.html: « ParleToken
+  - class.parle-lexerexception.html: ParleLexerException »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleErrorInfo
+---
 # Клас ParleErrorInfo
 
 (PECL parle >= 0.5.2)

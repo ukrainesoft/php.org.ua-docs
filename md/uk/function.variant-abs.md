@@ -1,16 +1,11 @@
-Отримати абсолютне значення варіанта
-
--   [« comprinttypeinfo](function.com-print-typeinfo.html)
-    
--   [variantadd »](function.variant-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Отримати абсолютне значення варіанта
-    
-
+---
+navigation:
+  - function.com-print-typeinfo.html: « comprinttypeinfo
+  - function.variant-add.html: variantadd »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantabs
+---
 # variantabs
 
 (PHP 5, PHP 7, PHP 8)

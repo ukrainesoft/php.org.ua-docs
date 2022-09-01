@@ -1,16 +1,11 @@
-Переміщує покажчик масиву вперед на один елемент
-
--   [« natsort](function.natsort.md)
-    
--   [pos »](function.pos.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Переміщує покажчик масиву вперед на один елемент
-    
-
+---
+navigation:
+  - function.natsort.md: « natsort
+  - function.pos.md: pos »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: next
+---
 # next
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ next(array|object &$array): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.md) |
 
 ### Приклади
 

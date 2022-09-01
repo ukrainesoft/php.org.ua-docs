@@ -1,16 +1,11 @@
-Перетворення Гільберта - Phasor Components
-
--   [« traderхтdcphase](function.trader-ht-dcphase.html)
-    
--   [traderхтsine »](function.trader-ht-sine.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Перетворення Гільберта - Phasor Components
-    
-
+---
+navigation:
+  - function.trader-ht-dcphase.html: « traderхтdcphase
+  - function.trader-ht-sine.html: traderхтsine »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтphasor
+---
 # traderхтphasor
 
 (PECL trader >= 0.2.0)

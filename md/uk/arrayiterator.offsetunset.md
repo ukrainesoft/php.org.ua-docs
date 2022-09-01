@@ -1,16 +1,11 @@
-Скидає значення зі зміщення
-
--   [« ArrayIterator::offsetSet](arrayiterator.offsetset.html)
-    
--   [ArrayIterator::rewind »](arrayiterator.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Скидає значення зі зміщення
-    
-
+---
+navigation:
+  - arrayiterator.offsetset.html: '« ArrayIterator::offsetSet'
+  - arrayiterator.rewind.html: 'ArrayIterator::rewind »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::offsetUnset'
+---
 # ArrayIterator::offsetUnset
 
 (PHP 5, PHP 7, PHP 8)

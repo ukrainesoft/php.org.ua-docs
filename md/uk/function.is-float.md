@@ -1,16 +1,11 @@
-Перевіряє, чи є змінна числом з плаваючою точкою
-
--   [« isdouble](function.is-double.html)
-    
--   [ісint »](function.is-int.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевіряє, чи є змінна числом з плаваючою точкою
-    
-
+---
+navigation:
+  - function.is-double.html: « isdouble
+  - function.is-int.html: ісint »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісfloat
+---
 # ісfloat
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

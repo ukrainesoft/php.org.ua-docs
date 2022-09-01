@@ -1,16 +1,11 @@
-Повертає інформацію про систему
-
--   [« posixttyname](function.posix-ttyname.html)
-    
--   [Запуск програми "](book.exec.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає інформацію про систему
-    
-
+---
+navigation:
+  - function.posix-ttyname.html: « posixttyname
+  - book.exec.html: Запуск програми "
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixuname
+---
 # posixuname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

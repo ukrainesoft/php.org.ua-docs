@@ -1,16 +1,11 @@
-Здійснює перетворення типу C
-
--   [« FFI::arrayType](ffi.arraytype.html)
-    
--   [FFI::cdef »](ffi.cdef.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Здійснює перетворення типу C
-    
-
+---
+navigation:
+  - ffi.arraytype.html: '« FFI::arrayType'
+  - ffi.cdef.html: 'FFI::cdef »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::cast'
+---
 # FFI::cast
 
 (PHP 7> = 7.4.0, PHP 8)

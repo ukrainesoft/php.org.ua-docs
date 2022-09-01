@@ -1,16 +1,11 @@
-Клас GdFont
-
--   [« GdImage](class.gdimage.md)
-    
--   [Gmagick »](book.gmagick.md)
-    
--   [PHP Manual](index.md)
-    
--   [ДД](book.image.md)
-    
--   Клас GdFont
-    
-
+---
+navigation:
+  - class.gdimage.md: « GdImage
+  - book.gmagick.md: Gmagick »
+  - index.md: PHP Manual
+  - book.image.md: ДД
+title: Клас GdFont
+---
 # Клас GdFont
 
 (PHP 8> = 8.1.0)

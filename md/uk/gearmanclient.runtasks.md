@@ -1,16 +1,11 @@
-Запустити список завдань у паралельному режимі
-
--   [« GearmanClient::returnCode](gearmanclient.returncode.md)
-    
--   [GearmanClient::setClientCallback »](gearmanclient.setclientcallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Запустити список завдань у паралельному режимі
-    
-
+---
+navigation:
+  - gearmanclient.returncode.md: '« GearmanClient::returnCode'
+  - gearmanclient.setclientcallback.md: 'GearmanClient::setClientCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::runTasks'
+---
 # GearmanClient::runTasks
 
 (PECL gearman >= 0.5.0)

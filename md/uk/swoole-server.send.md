@@ -1,16 +1,11 @@
-Надсилає дані клієнту
-
--   [« SwooleServer::resume](swoole-server.resume.html)
-    
--   [SwooleServer::sendfile »](swoole-server.sendfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Надсилає дані клієнту
-    
-
+---
+navigation:
+  - swoole-server.resume.html: '« SwooleServer::resume'
+  - swoole-server.sendfile.html: 'SwooleServer::sendfile »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::send'
+---
 # SwooleServer::send
 
 (PECL swoole >= 1.9.0)

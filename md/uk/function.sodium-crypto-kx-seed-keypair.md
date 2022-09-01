@@ -1,16 +1,11 @@
-Опис
-
--   [« sodiumcryptoкксsecretkey](function.sodium-crypto-kx-secretkey.html)
-    
--   [sodiumcryptoкксserversessionkeys »](function.sodium-crypto-kx-server-session-keys.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - function.sodium-crypto-kx-secretkey.html: « sodiumcryptoкксsecretkey
+  - function.sodium-crypto-kx-server-session-keys.html: sodiumcryptoкксserversessionkeys »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoкксseedkeypair
+---
 # sodiumcryptoкксseedkeypair
 
 (PHP 7> = 7.2.0, PHP 8)

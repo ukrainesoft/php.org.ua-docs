@@ -1,16 +1,11 @@
-Десеріалізує Undefined
-
--   [« MongoDBBSONUndefined::toString](mongodb-bson-undefined.tostring.html)
-    
--   [MongoDBDriverMonitoring »](mongodb.monitoring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
-    
--   Десеріалізує Undefined
-    
-
+---
+navigation:
+  - mongodb-bson-undefined.tostring.html: '« MongoDBBSONUndefined::toString'
+  - mongodb.monitoring.html: MongoDBDriverMonitoring »
+  - index.html: PHP Manual
+  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined
+title: 'MongoDBBSONUndefined::unserialize'
+---
 # MongoDBBSONUndefined::unserialize
 
 (mongodb >=1.4.0)

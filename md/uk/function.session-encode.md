@@ -1,16 +1,11 @@
-Кодує дані поточної сесії у форматі рядка сесії
-
--   [« sessiondestroy](function.session-destroy.html)
-    
--   [sessiongc »](function.session-gc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Кодує дані поточної сесії у форматі рядка сесії
-    
-
+---
+navigation:
+  - function.session-destroy.html: « sessiondestroy
+  - function.session-gc.html: sessiongc »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionencode
+---
 # sessionencode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

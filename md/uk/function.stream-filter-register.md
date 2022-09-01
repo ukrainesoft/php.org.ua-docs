@@ -1,16 +1,11 @@
-Реєструє потоковий фільтр, визначений користувачем
-
--   [« streamfilterprepend](function.stream-filter-prepend.html)
-    
--   [streamfilterremove »](function.stream-filter-remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Реєструє потоковий фільтр, визначений користувачем
-    
-
+---
+navigation:
+  - function.stream-filter-prepend.html: « streamfilterprepend
+  - function.stream-filter-remove.html: streamfilterremove »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamfilterregister
+---
 # streamfilterregister
 
 (PHP 5, PHP 7, PHP 8)

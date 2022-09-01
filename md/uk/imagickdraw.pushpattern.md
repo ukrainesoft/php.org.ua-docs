@@ -1,16 +1,11 @@
-Вказує, що наступні команди до ImagickDraw::opPattern() становлять визначення іменованого патерну
-
--   [« ImagickDraw::pushDefs](imagickdraw.pushdefs.html)
-    
--   [ImagickDraw::rectangle »](imagickdraw.rectangle.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Вказує, що наступні команди до ImagickDraw::opPattern() становлять визначення іменованого патерну
-    
-
+---
+navigation:
+  - imagickdraw.pushdefs.html: '« ImagickDraw::pushDefs'
+  - imagickdraw.rectangle.html: 'ImagickDraw::rectangle »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pushPattern'
+---
 # ImagickDraw::pushPattern
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](enchant.constants.md)
-    
--   [Функции Enchant »](ref.enchant.md)
-    
--   [PHP Manual](index.md)
-    
--   [Enchant](book.enchant.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - enchant.constants.md: « Обумовлені константи
+  - ref.enchant.md: Функции Enchant »
+  - index.md: PHP Manual
+  - book.enchant.md: Enchant
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Приклад використання Enchant**

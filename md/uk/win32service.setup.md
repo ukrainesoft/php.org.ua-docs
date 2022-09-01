@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.win32service.html)
-    
--   [Вимоги »](win32service.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [win32service](book.win32service.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.win32service.html: « Введение
+  - win32service.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.win32service.html: win32service
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

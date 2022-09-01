@@ -1,16 +1,11 @@
-Коментарі
-
--   [« Разделение инструкций](language.basic-syntax.instruction-separation.html)
-    
--   [Типи »](language.types.md)
-    
--   [PHP Manual](index.md)
-    
--   [Основи синтаксису](language.basic-syntax.html)
-    
--   Коментарі
-    
-
+---
+navigation:
+  - language.basic-syntax.instruction-separation.html: « Разделение инструкций
+  - language.types.md: Типи »
+  - index.md: PHP Manual
+  - language.basic-syntax.html: Основи синтаксису
+title: Коментарі
+---
 ## Коментарі
 
 PHP підтримує коментарі у стилі 'C', 'C++' та оболонки Unix (стиль Perl). Наприклад:

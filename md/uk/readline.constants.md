@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](readline.resources.md)
-    
--   [Функции Readline »](ref.readline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Readline](book.readline.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - readline.resources.md: « Типи ресурсів
+  - ref.readline.md: Функции Readline »
+  - index.md: PHP Manual
+  - book.readline.md: Readline
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

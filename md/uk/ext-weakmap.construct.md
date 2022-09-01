@@ -1,16 +1,11 @@
-Створює нову колекцію (map)
-
--   [« WeakMap](class.weakmap.md)
-    
--   [WeakMap::count »](weakmap.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [WeakMap](class.weakmap.md)
-    
--   Створює нову колекцію (map)
-    
-
+---
+navigation:
+  - class.weakmap.md: « WeakMap
+  - weakmap.count.md: 'WeakMap::count »'
+  - index.md: PHP Manual
+  - class.weakmap.md: WeakMap
+title: 'WeakMap::construct'
+---
 # WeakMap::construct
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineClient::getpeername](swoole-coroutine-client.getpeername.html)
-    
--   [SwooleCoroutineClient::isConnected »](swoole-coroutine-client.isconnected.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-client.getpeername.html: '« SwooleCoroutineClient::getpeername'
+  - swoole-coroutine-client.isconnected.html: 'SwooleCoroutineClient::isConnected »'
+  - index.html: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineClient::getsockname'
+---
 # SwooleCoroutineClient::getsockname
 
 (PECL swoole >= 2.0.0)

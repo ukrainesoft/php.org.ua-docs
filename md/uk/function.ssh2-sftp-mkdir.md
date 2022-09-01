@@ -1,16 +1,11 @@
-Створити директорію
-
--   [« ssh2sftplstat](function.ssh2-sftp-lstat.html)
-    
--   [ssh2sftpreadlink »](function.ssh2-sftp-readlink.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Створити директорію
-    
-
+---
+navigation:
+  - function.ssh2-sftp-lstat.html: « ssh2sftplstat
+  - function.ssh2-sftp-readlink.html: ssh2sftpreadlink »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2sftpmkdir
+---
 # ssh2sftpmkdir
 
 (PECL ssh2> = 0.9.0)

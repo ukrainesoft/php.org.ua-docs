@@ -1,16 +1,11 @@
-Оголошує токен з лівою асоціативністю
-
--   [« ParleParser::errorInfo](parle-parser.errorinfo.html)
-    
--   [ParleParser::nonassoc »](parle-parser.nonassoc.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Оголошує токен з лівою асоціативністю
-    
-
+---
+navigation:
+  - parle-parser.errorinfo.html: '« ParleParser::errorInfo'
+  - parle-parser.nonassoc.html: 'ParleParser::nonassoc »'
+  - index.md: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::left'
+---
 # ParleParser::left
 
 (PECL parle >= 0.5.1)

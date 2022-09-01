@@ -1,16 +1,11 @@
-YAZ
-
--   [« VarnishLog::getTagName](varnishlog.gettagname.md)
-    
--   [Введение »](intro.yaz.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   YAZ
-    
-
+---
+navigation:
+  - varnishlog.gettagname.md: '« VarnishLog::getTagName'
+  - intro.yaz.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: YAZ
+---
 # YAZ
 
 -   [Введение](intro.yaz.md)

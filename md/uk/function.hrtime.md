@@ -1,16 +1,11 @@
-Отримати системний час високої роздільної здатності
-
--   [« highlightstring](function.highlight-string.html)
-    
--   [ignoreuserabort »](function.ignore-user-abort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Отримати системний час високої роздільної здатності
-    
-
+---
+navigation:
+  - function.highlight-string.html: « highlightstring
+  - function.ignore-user-abort.html: ignoreuserabort »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: hrtime
+---
 # hrtime
 
 (PHP 7> = 7.3.0, PHP 8)

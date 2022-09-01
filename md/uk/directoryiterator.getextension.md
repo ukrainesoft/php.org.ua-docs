@@ -1,16 +1,11 @@
-Повертає розширення файлу
-
--   [« DirectoryIterator::getCTime](directoryiterator.getctime.html)
-    
--   [DirectoryIterator::getFilename »](directoryiterator.getfilename.html)
-    
--   [PHP Manual](index.html)
-    
--   [DirectoryIterator](class.directoryiterator.html)
-    
--   Повертає розширення файлу
-    
-
+---
+navigation:
+  - directoryiterator.getctime.html: '« DirectoryIterator::getCTime'
+  - directoryiterator.getfilename.html: 'DirectoryIterator::getFilename »'
+  - index.html: PHP Manual
+  - class.directoryiterator.html: DirectoryIterator
+title: 'DirectoryIterator::getExtension'
+---
 # DirectoryIterator::getExtension
 
 (PHP 5> = 5.3.6, PHP 7, PHP 8)

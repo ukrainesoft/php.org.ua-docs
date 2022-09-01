@@ -1,16 +1,11 @@
-Функції парсера XML
-
--   [Приклад використання зовнішніх сутностей XML](example.xml-external-entity.html)
-    
--   [xmlerrorstring »](function.xml-error-string.html)
-    
--   [PHP Manual](index.html)
-    
--   [Разбор XML](book.xml.html)
-    
--   Функції парсера XML
-    
-
+---
+navigation:
+  - example.xml-external-entity.html: Приклад використання зовнішніх сутностей XML
+  - function.xml-error-string.html: xmlerrorstring »
+  - index.html: PHP Manual
+  - book.xml.html: Разбор XML
+title: Функції парсера XML
+---
 # Функції парсера XML
 
 ## Зміст

@@ -1,16 +1,11 @@
-Повертає кількість полів результату запиту
-
--   [« mysqllisttables](function.mysql-list-tables.html)
-    
--   [mysqlnumrows »](function.mysql-num-rows.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає кількість полів результату запиту
-    
-
+---
+navigation:
+  - function.mysql-list-tables.html: « mysqllisttables
+  - function.mysql-num-rows.html: mysqlnumrows »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlnumfields
+---
 # mysqlnumfields
 
 (PHP 4, PHP 5)

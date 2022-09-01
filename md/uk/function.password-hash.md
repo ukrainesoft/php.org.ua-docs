@@ -1,16 +1,11 @@
-Створює хеш пароля
-
--   [« passwordgetinfo](function.password-get-info.html)
-    
--   [passwordneedsrehash »](function.password-needs-rehash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції хешування паролів](ref.password.html)
-    
--   Створює хеш пароля
-    
-
+---
+navigation:
+  - function.password-get-info.html: « passwordgetinfo
+  - function.password-needs-rehash.html: passwordneedsrehash »
+  - index.html: PHP Manual
+  - ref.password.html: Функції хешування паролів
+title: passwordhash
+---
 # passwordhash
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -88,14 +83,14 @@ password_hash(string $password, string|int|null $algo, array $options = []): str
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | **passwordhash()** більше не повертає **`false`** у разі виникнення помилки.                         |
-|        | Параметр `algo` тепер допускає значення null.                                                        |
-|        | Параметр `algo` Тепер чекає рядок (string), але все ще приймає число (int) для зворотної сумісності. |
-|        | Модуль sodium забезпечує альтернативну реалізацію паролів Argon2.                                    |
-|        | Додано підтримку алгоритму хешування паролів Argon2id за допомогою **`PASSWORD_ARGON2ID`**           |
-|        | Додано підтримку хешуючого алгоритму Argon2i за допомогою **`PASSWORD_ARGON2I`**                     |
+| Версия | Описание |
+| --- | --- |
+|  | **passwordhash()** більше не повертає **`false`** у разі виникнення помилки. |
+|  | Параметр `algo` тепер допускає значення null. |
+|  | Параметр `algo` Тепер чекає рядок (string), але все ще приймає число (int) для зворотної сумісності. |
+|  | Модуль sodium забезпечує альтернативну реалізацію паролів Argon2. |
+|  | Додано підтримку алгоритму хешування паролів Argon2id за допомогою **`PASSWORD_ARGON2ID`** |
+|  | Додано підтримку хешуючого алгоритму Argon2i за допомогою **`PASSWORD_ARGON2I`** |
 
 ### Приклади
 

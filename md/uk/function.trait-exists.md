@@ -1,16 +1,11 @@
-Перевіряє, чи існує трейт
-
--   [« propertyexists](function.property-exists.html)
-    
--   [Ctype »](book.ctype.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
-    
--   Перевіряє, чи існує трейт
-    
-
+---
+navigation:
+  - function.property-exists.html: « propertyexists
+  - book.ctype.html: Ctype »
+  - index.html: PHP Manual
+  - ref.classobj.html: Функції роботи з класами та об'єктами
+title: traitexists
+---
 # traitexists
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

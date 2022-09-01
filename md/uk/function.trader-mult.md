@@ -1,16 +1,11 @@
-Арифметичний вектор твору
-
--   [« tradermom](function.trader-mom.html)
-    
--   [tradernatr »](function.trader-natr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Арифметичний вектор твору
-    
-
+---
+navigation:
+  - function.trader-mom.html: « tradermom
+  - function.trader-natr.html: tradernatr »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermult
+---
 # tradermult
 
 (PECL trader >= 0.2.0)

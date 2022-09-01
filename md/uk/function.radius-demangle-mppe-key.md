@@ -1,16 +1,11 @@
-Отримує mppe-ключі зі спотворених даних
-
--   [« radiuscvtstring](function.radius-cvt-string.html)
-    
--   [radiusdemangle »](function.radius-demangle.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Отримує mppe-ключі зі спотворених даних
-    
-
+---
+navigation:
+  - function.radius-cvt-string.html: « radiuscvtstring
+  - function.radius-demangle.html: radiusdemangle »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusdemanglemppekey
+---
 # radiusdemanglemppekey
 
 (PECL radius >= 1.2.0)

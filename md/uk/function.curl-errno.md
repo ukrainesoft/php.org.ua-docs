@@ -1,16 +1,11 @@
-Повертає код останньої помилки
-
--   [« curlcopyhandle](function.curl-copy-handle.html)
-    
--   [curlerror »](function.curl-error.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Повертає код останньої помилки
-    
-
+---
+navigation:
+  - function.curl-copy-handle.html: « curlcopyhandle
+  - function.curl-error.html: curlerror »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlerrno
+---
 # curlerrno
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ curl_errno(CurlHandle $handle): int
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

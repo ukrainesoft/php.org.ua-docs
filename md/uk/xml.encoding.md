@@ -1,16 +1,11 @@
-Кодування символів
-
--   [« Коди помилок](xml.error-codes.html)
-    
--   [Приклади »](xml.examples.html)
-    
--   [PHP Manual](index.html)
-    
--   [Разбор XML](book.xml.html)
-    
--   Кодування символів
-    
-
+---
+navigation:
+  - xml.error-codes.html: « Коди помилок
+  - xml.examples.html: Приклади »
+  - index.html: PHP Manual
+  - book.xml.html: Разбор XML
+title: Кодування символів
+---
 # Кодування символів
 
 Модуль XML у PHP підтримує набір символів [» Unicode](http://www.unicode.org/) через різні кодування символів. Є два типи кодувань символів у цьому модулі, вихідне кодування та цільове кодування. Внутрішнє подання документа в PHP завжди кодоване в `UTF-8`

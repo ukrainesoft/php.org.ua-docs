@@ -1,16 +1,11 @@
-Експортує модуль
-
--   [« ReflectionExtension::construct](reflectionextension.construct.md)
-    
--   [ReflectionExtension::getClasses »](reflectionextension.getclasses.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Експортує модуль
-    
-
+---
+navigation:
+  - reflectionextension.construct.md: '« ReflectionExtension::construct'
+  - reflectionextension.getclasses.md: 'ReflectionExtension::getClasses »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::export'
+---
 # ReflectionExtension::export
 
 (PHP 5, PHP 7)

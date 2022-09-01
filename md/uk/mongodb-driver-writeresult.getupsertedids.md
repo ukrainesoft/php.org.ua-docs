@@ -1,16 +1,11 @@
-Повертає масив ідентифікаторів для об'єднаних документів
-
--   [« MongoDBDriverWriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.html)
-    
--   [MongoDBDriverWriteResult::getWriteConcernError »](mongodb-driver-writeresult.getwriteconcernerror.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає масив ідентифікаторів для об'єднаних документів
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getupsertedcount.html: '« MongoDBDriverWriteResult::getUpsertedCount'
+  - mongodb-driver-writeresult.getwriteconcernerror.html: 'MongoDBDriverWriteResult::getWriteConcernError »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getUpsertedIds'
+---
 # MongoDBDriverWriteResult::getUpsertedIds
 
 (mongodb >=1.0.0)

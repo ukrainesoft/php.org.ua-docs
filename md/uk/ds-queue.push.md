@@ -1,16 +1,11 @@
-Додає значення в чергу
-
--   [« DsQueue::pop](ds-queue.pop.html)
-    
--   [ДсQueue::toArray »](ds-queue.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга](class.ds-queue.html)
-    
--   Додає значення в чергу
-    
-
+---
+navigation:
+  - ds-queue.pop.html: '« DsQueue::pop'
+  - ds-queue.toarray.html: 'ДсQueue::toArray »'
+  - index.md: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::push'
+---
 # ДсQueue::push
 
 (PECL ds >= 1.0.0)

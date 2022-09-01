@@ -1,16 +1,11 @@
-Обчислює унікальний ідентифікатор об'єктів контейнера
-
--   [« SplObjectStorage::detach](splobjectstorage.detach.md)
-    
--   [SplObjectStorage::getInfo »](splobjectstorage.getinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Обчислює унікальний ідентифікатор об'єктів контейнера
-    
-
+---
+navigation:
+  - splobjectstorage.detach.md: '« SplObjectStorage::detach'
+  - splobjectstorage.getinfo.md: 'SplObjectStorage::getInfo »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::getHash'
+---
 # SplObjectStorage::getHash
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

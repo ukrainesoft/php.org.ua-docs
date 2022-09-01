@@ -1,16 +1,11 @@
-Сеттер
-
--   [« YafConfigAbstract::readonly](yaf-config-abstract.readonly.html)
-    
--   [YafConfigAbstract::toArray »](yaf-config-abstract.toarray.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafConfigAbstract](class.yaf-config-abstract.html)
-    
--   Сеттер
-    
-
+---
+navigation:
+  - yaf-config-abstract.readonly.html: '« YafConfigAbstract::readonly'
+  - yaf-config-abstract.toarray.html: 'YafConfigAbstract::toArray »'
+  - index.html: PHP Manual
+  - class.yaf-config-abstract.html: YafConfigAbstract
+title: 'YafConfigAbstract::set'
+---
 # YafConfigAbstract::set
 
 (Yaf >=1.0.0)

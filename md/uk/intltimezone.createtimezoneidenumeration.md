@@ -1,16 +1,11 @@
-Отримати перерахування з ідентифікаторів системних часових поясів за умовами фільтрації
-
--   [« IntlTimeZone::createTimeZone](intltimezone.createtimezone.md)
-    
--   [IntlTimeZone::fromDateTimeZone »](intltimezone.fromdatetimezone.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlTimeZone](class.intltimezone.md)
-    
--   Отримати перерахування з ідентифікаторів системних часових поясів за умовами фільтрації
-    
-
+---
+navigation:
+  - intltimezone.createtimezone.md: '« IntlTimeZone::createTimeZone'
+  - intltimezone.fromdatetimezone.md: 'IntlTimeZone::fromDateTimeZone »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
+title: 'IntlTimeZone::createTimeZoneIDEnumeration'
+---
 # IntlTimeZone::createTimeZoneIDEnumeration
 
 # intltzcreatetimezoneідenumeration

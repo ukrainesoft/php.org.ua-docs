@@ -1,16 +1,11 @@
-Використання Phar-архівів: класи Phar та PharData
-
--   [« Использование Phar-архивов: обёртка потока phar](phar.using.stream.md)
-    
--   [Создание Phar-архивов »](phar.creating.md)
-    
--   [PHP Manual](index.md)
-    
--   [Использование Phar-архивов](phar.using.md)
-    
--   Використання Phar-архівів: класи Phar та PharData
-    
-
+---
+navigation:
+  - phar.using.stream.md: '« Использование Phar-архивов: обёртка потока phar'
+  - phar.creating.md: Создание Phar-архивов »
+  - index.md: PHP Manual
+  - phar.using.md: Использование Phar-архивов
+title: 'Використання Phar-архівів: класи Phar та PharData'
+---
 ## Використання Phar-архівів: класи Phar та PharData
 
 Клас [Phar](class.phar.md) підтримує читання та обробку Phar-архівів, а також ітерацію через успадковану функціональність класу [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md). Завдяки підтримці інтерфейсу [ArrayAccess](class.arrayaccess.md), доступ до файлів всередині Phar-архіву може бути отриманий, якби вони були частиною асоціативного масиву.

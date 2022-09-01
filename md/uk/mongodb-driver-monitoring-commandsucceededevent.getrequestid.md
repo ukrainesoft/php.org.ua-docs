@@ -1,16 +1,11 @@
-Повертає ідентифікатор запиту команди
-
--   [« MongoDBDriverMonitoringCommandSucceededEvent::getReply](mongodb-driver-monitoring-commandsucceededevent.getreply.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent::getServer »](mongodb-driver-monitoring-commandsucceededevent.getserver.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
-    
--   Повертає ідентифікатор запиту команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getreply.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getReply'
+  - mongodb-driver-monitoring-commandsucceededevent.getserver.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getServer »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getRequestId'
+---
 # MongoDBDriverMonitoringCommandSucceededEvent::getRequestId
 
 (mongodb >=1.3.0)

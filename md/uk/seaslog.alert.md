@@ -1,16 +1,11 @@
-Записує інформацію рівня "alert" у журнал
-
--   [« SeasLog](class.seaslog.md)
-    
--   [SeasLog::analyzerCount »](seaslog.analyzercount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Записує інформацію рівня "alert" у журнал
-    
-
+---
+navigation:
+  - class.seaslog.md: « SeasLog
+  - seaslog.analyzercount.md: 'SeasLog::analyzerCount »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::alert'
+---
 # SeasLog::alert
 
 (PECL seaslog >=1.0.0)

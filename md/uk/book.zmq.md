@@ -1,16 +1,11 @@
-ZMQ
-
--   [« yazwait](function.yaz-wait.html)
-    
--   [Введение »](intro.zmq.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   ZMQ
-    
-
+---
+navigation:
+  - function.yaz-wait.html: « yazwait
+  - intro.zmq.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: ZMQ
+---
 # ZMQ
 
 -   [Введение](intro.zmq.md)

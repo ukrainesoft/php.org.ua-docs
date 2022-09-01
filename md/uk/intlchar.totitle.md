@@ -1,16 +1,11 @@
-Перетворює символ Unicode у titlecase
-
--   [« IntlChar::tolower](intlchar.tolower.html)
-    
--   [IntlChar::toupper »](intlchar.toupper.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перетворює символ Unicode у titlecase
-    
-
+---
+navigation:
+  - intlchar.tolower.html: '« IntlChar::tolower'
+  - intlchar.toupper.html: 'IntlChar::toupper »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::totitle'
+---
 # IntlChar::totitle
 
 (PHP 7, PHP 8)

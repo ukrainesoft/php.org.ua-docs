@@ -1,16 +1,11 @@
-Встановлює дію JavaScript для поля
-
--   [« fdfsetflags](function.fdf-set-flags.html)
-    
--   [fdfsetвінimportjavascript »](function.fdf-set-on-import-javascript.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Встановлює дію JavaScript для поля
-    
-
+---
+navigation:
+  - function.fdf-set-flags.html: « fdfsetflags
+  - function.fdf-set-on-import-javascript.html: fdfsetвінimportjavascript »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfsetjavascriptaction
+---
 # fdfsetjavascriptaction
 
 (PHP 4> = 4.0.2, PHP 5 <5.3.0, PECL fdf SVN)

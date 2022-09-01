@@ -1,16 +1,11 @@
-Отримати час очікування таймера
-
--   [« ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.html)
-    
--   [ZMQDevice::run »](zmqdevice.run.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQDevice](class.zmqdevice.html)
-    
--   Отримати час очікування таймера
-    
-
+---
+navigation:
+  - zmqdevice.getidletimeout.html: '« ZMQDevice::getIdleTimeout'
+  - zmqdevice.run.html: 'ZMQDevice::run »'
+  - index.html: PHP Manual
+  - class.zmqdevice.html: ZMQDevice
+title: 'ZMQDevice::getTimerTimeout'
+---
 # ZMQDevice::getTimerTimeout
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Встановлює кодування символів FDF
-
--   [« fdfsetап](function.fdf-set-ap.html)
-    
--   [fdfsetfile »](function.fdf-set-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює кодування символів FDF
-    
-
+---
+navigation:
+  - function.fdf-set-ap.html: « fdfsetап
+  - function.fdf-set-file.html: fdfsetfile »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetencoding
+---
 # fdfsetencoding
 
 (PHP 4> = 4.0.7, PHP 5 <5.3.0, PECL fdf SVN)

@@ -1,16 +1,11 @@
-Повертає назву таблиці, якій належить зазначене поле
-
--   [« mysqlfieldseek](function.mysql-field-seek.html)
-    
--   [mysqlfieldtype »](function.mysql-field-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає назву таблиці, якій належить зазначене поле
-    
-
+---
+navigation:
+  - function.mysql-field-seek.html: « mysqlfieldseek
+  - function.mysql-field-type.html: mysqlfieldtype »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfieldtable
+---
 # mysqlfieldtable
 
 (PHP 4, PHP 5)

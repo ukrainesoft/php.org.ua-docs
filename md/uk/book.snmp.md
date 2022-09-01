@@ -1,16 +1,11 @@
-SNMP
-
--   [« scoutapmlistinstrumentedfunctions](function.scoutapm-list-instrumented-functions.html)
-    
--   [Введение »](intro.snmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   SNMP
-    
-
+---
+navigation:
+  - function.scoutapm-list-instrumented-functions.html: « scoutapmlistinstrumentedfunctions
+  - intro.snmp.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: SNMP
+---
 # SNMP
 
 -   [Введение](intro.snmp.md)

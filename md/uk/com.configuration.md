@@ -1,31 +1,26 @@
-Налаштування під час виконання
-
--   [« Установка](com.installation.html)
-    
--   [Типи ресурсів »](com.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](com.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - com.installation.html: « Установка
+  - com.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - com.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції конфігурації Com**
 
-| Имя                                                                                        | По умолчанию | Место изменения | Список изменений      |
-|--------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------|
-| [com.allowdcom](com.configuration.html#ini.com.allow-dcom)                                 | "0"          | PHPINISYSTEM    |                       |
-| [com.autoregistertypelib](com.configuration.html#ini.com.autoregister-typelib)             | "0"          | PHPINIALL       |                       |
-| [com.autoregisterverbose](com.configuration.html#ini.com.autoregister-verbose)             | "0"          | PHPINIALL       |                       |
-| [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1"          | PHPINIALL       |                       |
-| [com.codepage](com.configuration.html#ini.com.code-page)                                   | ""           | PHPINIALL       |                       |
-| [com.dotnetversion](com.configuration.html#ini.com.dotnet-version)                         | ""           | PHPINISYSTEM    | Починаючи з PHP 8.0.0 |
-| [com.typelibfile](com.configuration.html#ini.com.typelib-file)                             | ""           | PHPINISYSTEM    |                       |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [com.allowdcom](com.configuration.html#ini.com.allow-dcom) | "0" | PHPINISYSTEM |  |
+| [com.autoregistertypelib](com.configuration.html#ini.com.autoregister-typelib) | "0" | PHPINIALL |  |
+| [com.autoregisterverbose](com.configuration.html#ini.com.autoregister-verbose) | "0" | PHPINIALL |  |
+| [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1" | PHPINIALL |  |
+| [com.codepage](com.configuration.html#ini.com.code-page) | "" | PHPINIALL |  |
+| [com.dotnetversion](com.configuration.html#ini.com.dotnet-version) | "" | PHPINISYSTEM | Починаючи з PHP 8.0.0 |
+| [com.typelibfile](com.configuration.html#ini.com.typelib-file) | "" | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

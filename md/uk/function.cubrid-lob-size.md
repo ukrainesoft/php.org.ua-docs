@@ -1,16 +1,11 @@
-Отримує розмір даних BLOB/CLOB
-
--   [« cubridlobsend](function.cubrid-lob-send.html)
-    
--   [cubridlob2bind »](function.cubrid-lob2-bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Отримує розмір даних BLOB/CLOB
-    
-
+---
+navigation:
+  - function.cubrid-lob-send.html: « cubridlobsend
+  - function.cubrid-lob2-bind.html: cubridlob2bind »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridлобsize
+---
 # cubridлобsize
 
 (PECL CUBRID >= 8.3.1)
@@ -37,9 +32,9 @@ cubrid_lob_size(resource $lob_identifier): string
 
 ### список змін
 
-| Версия | Описание                                                |
-|--------|---------------------------------------------------------|
-|        | Тип значення, що повертається змінений з int на string. |
+| Версия | Описание |
+| --- | --- |
+|  | Тип значення, що повертається змінений з int на string. |
 
 ### Приклади
 

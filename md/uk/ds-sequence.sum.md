@@ -1,16 +1,11 @@
-Повертає суму всіх значень колекції
-
--   [« DsSequence::sorted](ds-sequence.sorted.html)
-    
--   [ДсSequence::unshift »](ds-sequence.unshift.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає суму всіх значень колекції
-    
-
+---
+navigation:
+  - ds-sequence.sorted.html: '« DsSequence::sorted'
+  - ds-sequence.unshift.html: 'ДсSequence::unshift »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::sum'
+---
 # ДсSequence::sum
 
 (PECL ds >= 1.0.0)

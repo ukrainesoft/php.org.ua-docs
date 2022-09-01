@@ -1,16 +1,11 @@
-Перевіряє, чи є змінна скалярним значенням
-
--   [« isresource](function.is-resource.html)
-    
--   [ісstring »](function.is-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Перевіряє, чи є змінна скалярним значенням
-    
-
+---
+navigation:
+  - function.is-resource.html: « isresource
+  - function.is-string.html: ісstring »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісscalar
+---
 # ісscalar
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

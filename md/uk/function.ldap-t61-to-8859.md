@@ -1,16 +1,11 @@
-Перекладає символи з кодування t61 ISO-8859
-
--   [« ldapstarttls](function.ldap-start-tls.html)
-    
--   [ldapunbind »](function.ldap-unbind.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Перекладає символи з кодування t61 ISO-8859
-    
-
+---
+navigation:
+  - function.ldap-start-tls.html: « ldapstarttls
+  - function.ldap-unbind.html: ldapunbind »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapt61то
+---
 # ldapt61то
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

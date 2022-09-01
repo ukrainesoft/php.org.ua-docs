@@ -1,16 +1,11 @@
-Обгортка для розширеної операції Refresh
-
--   [« ldapexoppasswd](function.ldap-exop-passwd.html)
-    
--   [ldapexopwhoami »](function.ldap-exop-whoami.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Обгортка для розширеної операції Refresh
-    
-
+---
+navigation:
+  - function.ldap-exop-passwd.html: « ldapexoppasswd
+  - function.ldap-exop-whoami.html: ldapexopwhoami »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapexoprefresh
+---
 # ldapexoprefresh
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -45,9 +40,9 @@ ldap_exop_refresh(LDAP\Connection $ldap, string $dn, int $ttl): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Додає поле для оновлення
-
--   [« TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.html)
-    
--   [TableUpdate::where »](mysql-xdevapi-tableupdate.where.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   Додає поле для оновлення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.orderby.html: '« TableUpdate::orderby'
+  - mysql-xdevapi-tableupdate.where.html: 'TableUpdate::where »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+title: 'TableUpdate::set'
+---
 # TableUpdate::set
 
 (No version information available, might only be in Git)

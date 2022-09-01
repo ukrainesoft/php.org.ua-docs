@@ -1,16 +1,11 @@
-Отримати імена заявлених модулів
-
--   [« YafApplication::getLastErrorNo](yaf-application.getlasterrorno.html)
-    
--   [YafApplication::run »](yaf-application.run.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Отримати імена заявлених модулів
-    
-
+---
+navigation:
+  - yaf-application.getlasterrorno.html: '« YafApplication::getLastErrorNo'
+  - yaf-application.run.html: 'YafApplication::run »'
+  - index.md: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::getModules'
+---
 # YafApplication::getModules
 
 (Yaf >=1.0.0)

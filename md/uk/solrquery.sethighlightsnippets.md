@@ -1,16 +1,11 @@
-Встановлює максимальну кількість виділених фрагментів для створення кожного поля
-
--   [« SolrQuery::setHighlightSimplePre](solrquery.sethighlightsimplepre.md)
-    
--   [SolrQuery::setHighlightUsePhraseHighlighter »](solrquery.sethighlightusephrasehighlighter.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює максимальну кількість виділених фрагментів для створення кожного поля
-    
-
+---
+navigation:
+  - solrquery.sethighlightsimplepre.md: '« SolrQuery::setHighlightSimplePre'
+  - solrquery.sethighlightusephrasehighlighter.md: 'SolrQuery::setHighlightUsePhraseHighlighter »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightSnippets'
+---
 # SolrQuery::setHighlightSnippets
 
 (PECL solr> = 0.9.2)

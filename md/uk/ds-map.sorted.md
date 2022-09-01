@@ -1,16 +1,11 @@
-Повертає відсортовану за значенням копію колекції
-
--   [« DsMap::sort](ds-map.sort.html)
-    
--   [ДсMap::sum »](ds-map.sum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає відсортовану за значенням копію колекції
-    
-
+---
+navigation:
+  - ds-map.sort.html: '« DsMap::sort'
+  - ds-map.sum.html: 'ДсMap::sum »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::sorted'
+---
 # ДсMap::sorted
 
 (PECL ds >= 1.0.0)

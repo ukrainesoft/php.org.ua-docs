@@ -1,16 +1,11 @@
-Розпаковує всі файли в поточному Phar-архіві
-
--   [« Phar::decompress](phar.decompress.html)
-    
--   [Phar::delMetadata »](phar.delmetadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Розпаковує всі файли в поточному Phar-архіві
-    
-
+---
+navigation:
+  - phar.decompress.html: '« Phar::decompress'
+  - phar.delmetadata.html: 'Phar::delMetadata »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::decompressFiles'
+---
 # Phar::decompressFiles
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

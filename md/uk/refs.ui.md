@@ -1,16 +1,11 @@
-Модулі для роботи з GUI
-
--   [« XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.md)
-    
--   [UI »](book.ui.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для роботи з GUI
-    
-
+---
+navigation:
+  - xsltprocessor.transformtoxml.md: '« XSLTProcessor::transformToXml'
+  - book.ui.md: UI »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для роботи з GUI
+---
 # Модулі для роботи з GUI
 
 -   [ОЙ](book.ui.md)

@@ -1,16 +1,11 @@
-Отримує довжину рядка в одиницях графеми
-
--   [« graphemestristr](function.grapheme-stristr.html)
-    
--   [graphemestrpos »](function.grapheme-strpos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Grapheme](ref.intl.grapheme.md)
-    
--   Отримує довжину рядка в одиницях графеми
-    
-
+---
+navigation:
+  - function.grapheme-stristr.html: « graphemestristr
+  - function.grapheme-strpos.html: graphemestrpos »
+  - index.md: PHP Manual
+  - ref.intl.grapheme.md: Функции Grapheme
+title: graphemestrlen
+---
 # graphemestrlen
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

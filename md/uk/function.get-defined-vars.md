@@ -1,16 +1,11 @@
-Повертає масив усіх певних змінних
-
--   [« getdebugtype](function.get-debug-type.html)
-    
--   [getresourceid »](function.get-resource-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Повертає масив усіх певних змінних
-    
-
+---
+navigation:
+  - function.get-debug-type.html: « getdebugtype
+  - function.get-resource-id.html: getresourceid »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: getdefinedvars
+---
 # getdefinedvars
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

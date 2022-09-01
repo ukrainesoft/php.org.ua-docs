@@ -1,16 +1,11 @@
-Відображає шаблон представлення
-
--   [« YafControllerAbstract::redirect](yaf-controller-abstract.redirect.html)
-    
--   [YafControllerAbstract::setViewpath »](yaf-controller-abstract.setviewpath.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Відображає шаблон представлення
-    
-
+---
+navigation:
+  - yaf-controller-abstract.redirect.html: '« YafControllerAbstract::redirect'
+  - yaf-controller-abstract.setviewpath.html: 'YafControllerAbstract::setViewpath »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::render'
+---
 # YafControllerAbstract::render
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Виводить стек викликів функцій у масив
-
--   [« Функции обработки ошибок](ref.errorfunc.md)
-    
--   [debugprintbacktrace »](function.debug-print-backtrace.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции обработки ошибок](ref.errorfunc.md)
-    
--   Виводить стек викликів функцій у масив
-    
-
+---
+navigation:
+  - ref.errorfunc.md: « Функции обработки ошибок
+  - function.debug-print-backtrace.html: debugprintbacktrace »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: debugbacktrace
+---
 # debugbacktrace
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -43,15 +38,15 @@ debug_backtrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT, int $limit = 0): 
 
 **Список можливих елементів масивів, що повертаються функцією **debugbacktrace()****
 
-| Имя      | Тип    | Описание                                                                                                                                                                                |
-|----------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| function | string | Ім'я поточної функції. Дивіться також [FUNCTION](language.constants.predefined.md)                                                                                                      |
-| line     | int    | Поточний номер рядка. Дивіться також [LINE](language.constants.predefined.md)                                                                                                           |
-| file     | string | Назва поточного файлу. Дивіться також [FILE](language.constants.predefined.md)                                                                                                          |
-| class    | string | Ім'я поточного [класса](language.oop5.md). Дивіться також [CLASS](language.constants.predefined.md)                                                                                     |
-| object   | object | Поточний [об'єкт](language.oop5.md)                                                                                                                                                     |
-| type     | string | Поточний тип дзвінка функції. Якщо це виклик методу об'єкта, буде виведено "->". Якщо це виклик статичного методу класу, то "::". Якщо це простий виклик функції, нічого не виводиться. |
-| args     | array  | При знаходженні всередині функції буде виведено список аргументів цієї функції. Якщо всередині файлу буде виведено список файлів, що включаються.                                       |
+| Имя | Тип | Описание |
+| --- | --- | --- |
+| function | string | Ім'я поточної функції. Дивіться також [FUNCTION](language.constants.predefined.md) |
+| line | int | Поточний номер рядка. Дивіться також [LINE](language.constants.predefined.md) |
+| file | string | Назва поточного файлу. Дивіться також [FILE](language.constants.predefined.md) |
+| class | string | Ім'я поточного [класса](language.oop5.md). Дивіться також [CLASS](language.constants.predefined.md) |
+| object | object | Поточний [об'єкт](language.oop5.md) |
+| type | string | Поточний тип дзвінка функції. Якщо це виклик методу об'єкта, буде виведено "->". Якщо це виклик статичного методу класу, то "::". Якщо це простий виклик функції, нічого не виводиться. |
+| args | array | При знаходженні всередині функції буде виведено список аргументів цієї функції. Якщо всередині файлу буде виведено список файлів, що включаються. |
 
 ### Приклади
 

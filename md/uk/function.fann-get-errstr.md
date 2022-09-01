@@ -1,16 +1,11 @@
-Повертає останній рядок помилки
-
--   [« fanngeterrno](function.fann-get-errno.html)
-    
--   [fanngetlayerarray »](function.fann-get-layer-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає останній рядок помилки
-    
-
+---
+navigation:
+  - function.fann-get-errno.html: « fanngeterrno
+  - function.fann-get-layer-array.html: fanngetlayerarray »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngeterrstr
+---
 # fanngeterrstr
 
 (PECL fann> = 1.0.0)

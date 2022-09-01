@@ -1,16 +1,11 @@
-Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
-
--   [« SyncSharedMemory::construct](syncsharedmemory.construct.html)
-    
--   [SyncSharedMemory::read »](syncsharedmemory.read.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncSharedMemory](class.syncsharedmemory.html)
-    
--   Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
-    
-
+---
+navigation:
+  - syncsharedmemory.construct.html: '« SyncSharedMemory::construct'
+  - syncsharedmemory.read.html: 'SyncSharedMemory::read »'
+  - index.html: PHP Manual
+  - class.syncsharedmemory.html: SyncSharedMemory
+title: 'SyncSharedMemory::first'
+---
 # SyncSharedMemory::first
 
 (PECL sync >= 1.1.0)

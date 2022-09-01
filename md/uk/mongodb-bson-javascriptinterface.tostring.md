@@ -1,16 +1,11 @@
-Повертає код JavascriptInterface
-
--   [« MongoDBBSONJavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.html)
-    
--   [MongoDBBSONMaxKeyInterface »](class.mongodb-bson-maxkeyinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
-    
--   Повертає код JavascriptInterface
-    
-
+---
+navigation:
+  - mongodb-bson-javascriptinterface.getscope.html: '« MongoDBBSONJavascriptInterface::getScope'
+  - class.mongodb-bson-maxkeyinterface.html: MongoDBBSONMaxKeyInterface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascriptinterface.html: MongoDBBSONJavascriptInterface
+title: 'MongoDBBSONJavascriptInterface::toString'
+---
 # MongoDBBSONJavascriptInterface::toString
 
 (mongodb >=1.3.0)

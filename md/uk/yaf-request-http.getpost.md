@@ -1,16 +1,11 @@
-Отримує змінну POST
-
--   [« YafRequestHttp::getFiles](yaf-request-http.getfiles.html)
-    
--   [YafRequestHttp::getQuery »](yaf-request-http.getquery.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestHttp](class.yaf-request-http.html)
-    
--   Отримує змінну POST
-    
-
+---
+navigation:
+  - yaf-request-http.getfiles.html: '« YafRequestHttp::getFiles'
+  - yaf-request-http.getquery.html: 'YafRequestHttp::getQuery »'
+  - index.md: PHP Manual
+  - class.yaf-request-http.html: YafRequestHttp
+title: 'YafRequestHttp::getPost'
+---
 # YafRequestHttp::getPost
 
 (Yaf >=1.0.0)

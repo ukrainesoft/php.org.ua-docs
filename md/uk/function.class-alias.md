@@ -1,16 +1,11 @@
-Створює псевдонім для вказаного класу
-
--   [autoload](function.autoload.html)
-    
--   [classexists »](function.class-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
-    
--   Створює псевдонім для вказаного класу
-    
-
+---
+navigation:
+  - function.autoload.html: autoload
+  - function.class-exists.html: classexists »
+  - index.html: PHP Manual
+  - ref.classobj.html: Функції роботи з класами та об'єктами
+title: classalias
+---
 # classalias
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

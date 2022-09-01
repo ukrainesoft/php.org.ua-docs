@@ -1,16 +1,11 @@
-Додає файл до форми повідомлення
-
--   [« SwooleHttpClient](class.swoole-http-client.html)
-    
--   [SwooleHttpClient::close »](swoole-http-client.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Додає файл до форми повідомлення
-    
-
+---
+navigation:
+  - class.swoole-http-client.html: « SwooleHttpClient
+  - swoole-http-client.close.html: 'SwooleHttpClient::close »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::addFile'
+---
 # SwooleHttpClient::addFile
 
 (PECL swoole >= 1.9.0)

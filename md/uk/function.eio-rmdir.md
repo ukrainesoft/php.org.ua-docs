@@ -1,16 +1,11 @@
-Видаляє директорію
-
--   [« eiorename](function.eio-rename.html)
-    
--   [eioseek »](function.eio-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Видаляє директорію
-    
-
+---
+navigation:
+  - function.eio-rename.html: « eiorename
+  - function.eio-seek.html: eioseek »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiormdir
+---
 # eiormdir
 
 (PECL eio >= 0.0.1dev)

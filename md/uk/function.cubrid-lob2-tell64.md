@@ -1,16 +1,11 @@
-Повідомляє положення курсору LOB-об'єкта
-
--   [« cubridlob2size](function.cubrid-lob2-size.html)
-    
--   [cubridlob2tell »](function.cubrid-lob2-tell.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Повідомляє положення курсору LOB-об'єкта
-    
-
+---
+navigation:
+  - function.cubrid-lob2-size.html: « cubridlob2size
+  - function.cubrid-lob2-tell.html: cubridlob2tell »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2tell64
+---
 # cubridlob2tell64
 
 (PECL CUBRID >= 8.4.1)

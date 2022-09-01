@@ -1,16 +1,11 @@
-Повертає тимчасову мітку Unix
-
--   [« DateTimeInterface::getOffset](datetime.getoffset.html)
-    
--   [DateTimeInterface::getTimezone »](datetime.gettimezone.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeInterface](class.datetimeinterface.html)
-    
--   Повертає тимчасову мітку Unix
-    
-
+---
+navigation:
+  - datetime.getoffset.html: '« DateTimeInterface::getOffset'
+  - datetime.gettimezone.html: 'DateTimeInterface::getTimezone »'
+  - index.html: PHP Manual
+  - class.datetimeinterface.html: DateTimeInterface
+title: 'DateTimeInterface::getTimestamp'
+---
 # DateTimeInterface::getTimestamp
 
 # DateTimeImmutable::getTimestamp
@@ -61,9 +56,9 @@ date_timestamp_get(DateTimeInterface $object): int
 
 ### список змін
 
-| Версия | Описание                                                            |
-|--------|---------------------------------------------------------------------|
-|        | Функції більше не повертають **`false`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функції більше не повертають **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

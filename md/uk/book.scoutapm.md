@@ -1,16 +1,11 @@
-ScoutAPM
-
--   [« RRDUpdater::update](rrdupdater.update.html)
-    
--   [Введение »](intro.scoutapm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   ScoutAPM
-    
-
+---
+navigation:
+  - rrdupdater.update.html: '« RRDUpdater::update'
+  - intro.scoutapm.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: ScoutAPM
+---
 # ScoutAPM
 
 -   [Введение](intro.scoutapm.html)

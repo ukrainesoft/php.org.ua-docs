@@ -1,16 +1,11 @@
-Скидає буфер виводу у файл
-
--   [« SplFileObject::eof](splfileobject.eof.html)
-    
--   [SplFileObject::fgetc »](splfileobject.fgetc.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Скидає буфер виводу у файл
-    
-
+---
+navigation:
+  - splfileobject.eof.html: '« SplFileObject::eof'
+  - splfileobject.fgetc.html: 'SplFileObject::fgetc »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::fflush'
+---
 # SplFileObject::fflush
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

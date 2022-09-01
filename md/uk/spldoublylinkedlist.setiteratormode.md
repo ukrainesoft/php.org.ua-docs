@@ -1,16 +1,11 @@
-Встановлює режим ітерації
-
--   [« SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.md)
-    
--   [SplDoublyLinkedList::shift »](spldoublylinkedlist.shift.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Встановлює режим ітерації
-    
-
+---
+navigation:
+  - spldoublylinkedlist.serialize.md: '« SplDoublyLinkedList::serialize'
+  - spldoublylinkedlist.shift.md: 'SplDoublyLinkedList::shift »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::setIteratorMode'
+---
 # SplDoublyLinkedList::setIteratorMode
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

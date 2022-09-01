@@ -1,16 +1,11 @@
-Встановлює параметри конфігурації libmagic
-
--   [« finfoopen](function.finfo-open.html)
-    
--   [mimecontenttype »](function.mime-content-type.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции модуля Fileinfo](ref.fileinfo.md)
-    
--   Встановлює параметри конфігурації libmagic
-    
-
+---
+navigation:
+  - function.finfo-open.html: « finfoopen
+  - function.mime-content-type.html: mimecontenttype »
+  - index.md: PHP Manual
+  - ref.fileinfo.md: Функции модуля Fileinfo
+title: finfosetflags
+---
 # finfosetflags
 
 # finfo::setflags
@@ -51,6 +46,6 @@ public finfo::set_flags(int $flags): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

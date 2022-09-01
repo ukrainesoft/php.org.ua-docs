@@ -1,16 +1,11 @@
-Повертає ідентифікатор сесії клієнта, дійсний лише в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
-
--   [« Zookeeper::getChildren](zookeeper.getchildren.html)
-    
--   [Zookeeper::getConfig »](zookeeper.getconfig.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Повертає ідентифікатор сесії клієнта, дійсний лише в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
-    
-
+---
+navigation:
+  - zookeeper.getchildren.html: '« Zookeeper::getChildren'
+  - zookeeper.getconfig.html: 'Zookeeper::getConfig »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::getClientId'
+---
 # Zookeeper::getClientId
 
 (PECL zookeeper >= 0.1.0)

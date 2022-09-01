@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xmldiff.html)
-    
--   [Вимоги »](xmldiff.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLDiff](book.xmldiff.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xmldiff.html: « Введение
+  - xmldiff.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.xmldiff.html: XMLDiff
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

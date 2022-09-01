@@ -1,16 +1,11 @@
-Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
-
--   [« strlen](function.strlen.md)
-    
--   [strnatcmp »](function.strnatcmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
-    
-
+---
+navigation:
+  - function.strlen.md: « strlen
+  - function.strnatcmp.md: strnatcmp »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strnatcasecmp
+---
 # strnatcasecmp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

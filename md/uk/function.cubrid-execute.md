@@ -1,16 +1,11 @@
-Виконує підготовлений SQL-оператор
-
--   [« cubriderrormsg](function.cubrid-error-msg.html)
-    
--   [cubridfetch »](function.cubrid-fetch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Виконує підготовлений SQL-оператор
-    
-
+---
+navigation:
+  - function.cubrid-error-msg.html: « cubriderrormsg
+  - function.cubrid-fetch.html: cubridfetch »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridexecute
+---
 # cubridexecute
 
 (PECL CUBRID >= 8.3.0)
@@ -62,9 +57,9 @@ SQL для виконання.
 
 ### список змін
 
-| Версия | Описание                                          |
-|--------|---------------------------------------------------|
-|        | Додано новий параметр **`CUBRID_EXEC_QUERY_ALL`** |
+| Версия | Описание |
+| --- | --- |
+|  | Додано новий параметр **`CUBRID_EXEC_QUERY_ALL`** |
 
 ### Приклади
 

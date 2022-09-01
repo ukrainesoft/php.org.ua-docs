@@ -1,16 +1,11 @@
-Малює криву Безьє
-
--   [« ImagickDraw::arc](imagickdraw.arc.html)
-    
--   [ImagickDraw::circle »](imagickdraw.circle.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює криву Безьє
-    
-
+---
+navigation:
+  - imagickdraw.arc.html: '« ImagickDraw::arc'
+  - imagickdraw.circle.html: 'ImagickDraw::circle »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::bezier'
+---
 # ImagickDraw::bezier
 
 (PECL imagick 2, PECL imagick 3)

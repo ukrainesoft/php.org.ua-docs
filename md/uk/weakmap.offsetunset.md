@@ -1,16 +1,11 @@
-Видаляє запис із колекції (map)
-
--   [« WeakMap::offsetSet](weakmap.offsetset.html)
-    
--   [Stringable »](class.stringable.html)
-    
--   [PHP Manual](index.html)
-    
--   [WeakMap](class.weakmap.html)
-    
--   Видаляє запис із колекції (map)
-    
-
+---
+navigation:
+  - weakmap.offsetset.html: '« WeakMap::offsetSet'
+  - class.stringable.html: Stringable »
+  - index.html: PHP Manual
+  - class.weakmap.html: WeakMap
+title: 'WeakMap::offsetUnset'
+---
 # WeakMap::offsetUnset
 
 (PHP 8)

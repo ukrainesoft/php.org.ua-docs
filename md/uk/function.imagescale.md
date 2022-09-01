@@ -1,16 +1,11 @@
-Масштабувати зображення за заданою шириною та висотою
-
--   [« imagesavealpha](function.imagesavealpha.md)
-    
--   [imagesetbrush »](function.imagesetbrush.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Масштабувати зображення за заданою шириною та висотою
-    
-
+---
+navigation:
+  - function.imagesavealpha.md: « imagesavealpha
+  - function.imagesetbrush.md: imagesetbrush »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagescale
+---
 # imagescale
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ imagescale(    GdImage $image,    int $width,    int $height = -1, 
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource).                               |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

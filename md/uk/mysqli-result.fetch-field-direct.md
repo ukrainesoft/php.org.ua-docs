@@ -1,16 +1,11 @@
-Отримання метаданих конкретного поля
-
--   [« mysqliresult::fetchcolumn](mysqli-result.fetch-column.html)
-    
--   [mysqliresult::fetchfield »](mysqli-result.fetch-field.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Отримання метаданих конкретного поля
-    
-
+---
+navigation:
+  - mysqli-result.fetch-column.html: '« mysqliresult::fetchcolumn'
+  - mysqli-result.fetch-field.html: 'mysqliresult::fetchfield »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::fetchfielddirect'
+---
 # mysqliresult::fetchfielddirect
 
 # mysqlifetchfielddirect
@@ -51,19 +46,19 @@ mysqli_fetch_field_direct(mysqli_result $result, int $index): object|false
 
 **Властивості об'єкту**
 
-| Свойство  | Описание                                                           |
-|-----------|--------------------------------------------------------------------|
-| name      | Ім'я стовпця                                                       |
-| orgname   | Вихідне ім'я стовпця, якщо він має псевдонім                       |
-| table     | Ім'я таблиці, якій належить стовпець (якщо не обчислено)           |
-| orgtable  | Початкове ім'я таблиці, якщо є псевдонім                           |
-| def       | Зарезервовано для стандартного значення, на даний момент завжди "" |
-| maxlength | Максимальна ширина поля результуючого набору.                      |
-| length    | Ширина поля, як вона задана щодо таблиці.                          |
-| charsetnr | Кількість наборів символів для поля.                               |
-| flags     | Ціла кількість, що представляє бітові прапори для поля.            |
-| type      | Тип даних поля                                                     |
-| decimals  | Число знаків після коми (для числових полів)                       |
+| Свойство | Описание |
+| --- | --- |
+| name | Ім'я стовпця |
+| orgname | Вихідне ім'я стовпця, якщо він має псевдонім |
+| table | Ім'я таблиці, якій належить стовпець (якщо не обчислено) |
+| orgtable | Початкове ім'я таблиці, якщо є псевдонім |
+| def | Зарезервовано для стандартного значення, на даний момент завжди "" |
+| maxlength | Максимальна ширина поля результуючого набору. |
+| length | Ширина поля, як вона задана щодо таблиці. |
+| charsetnr | Кількість наборів символів для поля. |
+| flags | Ціла кількість, що представляє бітові прапори для поля. |
+| type | Тип даних поля |
+| decimals | Число знаків після коми (для числових полів) |
 
 ### Приклади
 

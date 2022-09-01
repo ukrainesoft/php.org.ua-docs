@@ -1,16 +1,11 @@
-Відновлює раніше зупинений цикл подій
-
--   [« EvLoop::prepare](evloop.prepare.md)
-    
--   [EvLoop::run »](evloop.run.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Відновлює раніше зупинений цикл подій
-    
-
+---
+navigation:
+  - evloop.prepare.md: '« EvLoop::prepare'
+  - evloop.run.md: 'EvLoop::run »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::resume'
+---
 # EvLoop::resume
 
 (PECL ev >= 0.2.0)

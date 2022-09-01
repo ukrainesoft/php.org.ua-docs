@@ -1,16 +1,11 @@
-Отримує код помилки XML-аналізатора
-
--   [« xmlgetcurrentlinenumber](function.xml-get-current-line-number.html)
-    
--   [xmlparseintostruct »](function.xml-parse-into-struct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции парсера XML](ref.xml.html)
-    
--   Отримує код помилки XML-аналізатора
-    
-
+---
+navigation:
+  - function.xml-get-current-line-number.html: « xmlgetcurrentlinenumber
+  - function.xml-parse-into-struct.html: xmlparseintostruct »
+  - index.html: PHP Manual
+  - ref.xml.html: Функции парсера XML
+title: xmlgeterrorcode
+---
 # xmlgeterrorcode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ xml_get_error_code(XMLParser $parser): int
 
 ### список змін
 
-| Версия | Описание                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

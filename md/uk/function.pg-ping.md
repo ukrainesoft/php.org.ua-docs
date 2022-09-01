@@ -1,16 +1,11 @@
-Перевірка з'єднання з базою даних
-
--   [« pgpconnect](function.pg-pconnect.html)
-    
--   [пгport »](function.pg-port.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Перевірка з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.pg-pconnect.html: « pgpconnect
+  - function.pg-port.html: пгport »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгping
+---
 # пгping
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | `connection` тепер допускає значення null.                                                                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

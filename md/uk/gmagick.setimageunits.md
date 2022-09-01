@@ -1,16 +1,11 @@
-Встановлює одиниці роздільної здатності зображення
-
--   [« Gmagick::setimagetype](gmagick.setimagetype.md)
-    
--   [Gmagick::setimagewhitepoint »](gmagick.setimagewhitepoint.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює одиниці роздільної здатності зображення
-    
-
+---
+navigation:
+  - gmagick.setimagetype.md: '« Gmagick::setimagetype'
+  - gmagick.setimagewhitepoint.md: 'Gmagick::setimagewhitepoint »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageunits'
+---
 # Gmagick::setimageunits
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](rar.requirements.html)
-    
--   [Налаштування під час виконання »](rar.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](rar.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - rar.requirements.html: « Вимоги
+  - rar.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - rar.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль Rar в даний час доступний у PECL [» https://pecl.php.net/package/rar](https://pecl.php.net/package/rar)

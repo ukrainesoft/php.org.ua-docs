@@ -1,16 +1,11 @@
-Операція поділу для чисел довільної точності
-
--   [« bccomp](function.bccomp.md)
-    
--   [bcmod »](function.bcmod.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции BC Math](ref.bc.md)
-    
--   Операція поділу для чисел довільної точності
-    
-
+---
+navigation:
+  - function.bccomp.md: « bccomp
+  - function.bcmod.md: bcmod »
+  - index.md: PHP Manual
+  - ref.bc.md: Функции BC Math
+title: bcdiv
+---
 # bcdiv
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ bcdiv(string $num1, string $num2, ?int $scale = null): string
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `scale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `scale` тепер допускає значення null. |
 
 ### Приклади
 

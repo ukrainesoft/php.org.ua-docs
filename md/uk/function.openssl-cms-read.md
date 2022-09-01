@@ -1,16 +1,11 @@
-Експортує файл CMS до масиву сертифікатів PEM
-
--   [« opensslcmsencrypt](function.openssl-cms-encrypt.html)
-    
--   [opensslcmssign »](function.openssl-cms-sign.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Експортує файл CMS до масиву сертифікатів PEM
-    
-
+---
+navigation:
+  - function.openssl-cms-encrypt.html: « opensslcmsencrypt
+  - function.openssl-cms-sign.html: opensslcmssign »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslcmsread
+---
 # opensslcmsread
 
 (PHP 8)

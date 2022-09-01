@@ -1,16 +1,11 @@
-Встановлює прапори
-
--   [« MultipleIterator::rewind](multipleiterator.rewind.md)
-    
--   [MultipleIterator::valid »](multipleiterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [MultipleIterator](class.multipleiterator.md)
-    
--   Встановлює прапори
-    
-
+---
+navigation:
+  - multipleiterator.rewind.md: '« MultipleIterator::rewind'
+  - multipleiterator.valid.md: 'MultipleIterator::valid »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
+title: 'MultipleIterator::setFlags'
+---
 # MultipleIterator::setFlags
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

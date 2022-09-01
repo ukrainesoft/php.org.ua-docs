@@ -1,16 +1,11 @@
-Реєстронезалежний варіант функції strstr
-
--   [« stripslashes](function.stripslashes.md)
-    
--   [strlen »](function.strlen.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Реєстронезалежний варіант функції strstr
-    
-
+---
+navigation:
+  - function.stripslashes.md: « stripslashes
+  - function.strlen.md: strlen »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: stristr
+---
 # stristr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Передача цілого числа (int) `needle` більше не підтримується. |
-|        | Передача цілого числа (int) `needle` оголошено застарілою.    |
+| Версия | Описание |
+| --- | --- |
+|  | Передача цілого числа (int) `needle` більше не підтримується. |
+|  | Передача цілого числа (int) `needle` оголошено застарілою. |
 
 ### Приклади
 

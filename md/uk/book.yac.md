@@ -1,16 +1,11 @@
-Yac
-
--   [« xhprofsampleenable](function.xhprof-sample-enable.html)
-    
--   [Введение »](intro.yac.md)
-    
--   [PHP Manual](index.md)
-    
--   [Изменение поведения PHP](refs.basic.php.md)
-    
--   Yac
-    
-
+---
+navigation:
+  - function.xhprof-sample-enable.html: « xhprofsampleenable
+  - intro.yac.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
+title: Yac
+---
 # Yac
 
 -   [Введение](intro.yac.md)

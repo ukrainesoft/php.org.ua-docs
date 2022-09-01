@@ -1,16 +1,11 @@
-Конструктор класу YafException
-
--   [« YafException](class.yaf-exception.html)
-    
--   [YafException::getPrevious »](yaf-exception.getprevious.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafException](class.yaf-exception.html)
-    
--   Конструктор класу YafException
-    
-
+---
+navigation:
+  - class.yaf-exception.html: « YafException
+  - yaf-exception.getprevious.html: 'YafException::getPrevious »'
+  - index.html: PHP Manual
+  - class.yaf-exception.html: YafException
+title: 'YafException::construct'
+---
 # YafException::construct
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](outcontrol.resources.html)
-    
--   [Приклади »](outcontrol.examples.html)
-    
--   [PHP Manual](index.html)
-    
--   [Контроль виведення](book.outcontrol.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - outcontrol.resources.html: « Типи ресурсів
+  - outcontrol.examples.html: Приклади »
+  - index.html: PHP Manual
+  - book.outcontrol.html: Контроль виведення
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи завжди доступні як частина ядра PHP.

@@ -1,16 +1,11 @@
-Повертає розмір файлу
-
--   [« fileperms](function.fileperms.html)
-    
--   [filetype »](function.filetype.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Повертає розмір файлу
-    
-
+---
+navigation:
+  - function.fileperms.html: « fileperms
+  - function.filetype.html: filetype »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: filesize
+---
 # filesize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Створює випадковий загальний хеш-ключ
-
--   [« sodiumcryptogenerichashinit](function.sodium-crypto-generichash-init.html)
-    
--   [sodiumcryptogenerichashupdate »](function.sodium-crypto-generichash-update.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Створює випадковий загальний хеш-ключ
-    
-
+---
+navigation:
+  - function.sodium-crypto-generichash-init.html: « sodiumcryptogenerichashinit
+  - function.sodium-crypto-generichash-update.html: sodiumcryptogenerichashupdate »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptogenerichashkeygen
+---
 # sodiumcryptogenerichashkeygen
 
 (PHP 7> = 7.2.0, PHP 8)

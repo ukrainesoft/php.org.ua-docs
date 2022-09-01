@@ -1,16 +1,11 @@
-Призначення prependBody
-
--   [« YafResponseAbstract::getHeader](yaf-response-abstract.getheader.html)
-    
--   [YafResponseAbstract::response »](yaf-response-abstract.response.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Призначення prependBody
-    
-
+---
+navigation:
+  - yaf-response-abstract.getheader.html: '« YafResponseAbstract::getHeader'
+  - yaf-response-abstract.response.html: 'YafResponseAbstract::response »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::prependBody'
+---
 # YafResponseAbstract::prependBody
 
 (Yaf >=1.0.0)

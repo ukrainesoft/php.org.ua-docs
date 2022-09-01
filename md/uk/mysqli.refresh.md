@@ -1,16 +1,11 @@
-Оновлення
-
--   [« mysqli::reapasyncquery](mysqli.reap-async-query.html)
-    
--   [mysqli::releasesavepoint »](mysqli.release-savepoint.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Оновлення
-    
-
+---
+navigation:
+  - mysqli.reap-async-query.html: '« mysqli::reapasyncquery'
+  - mysqli.release-savepoint.html: 'mysqli::releasesavepoint »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::refresh'
+---
 # mysqli::refresh
 
 # mysqlirefresh

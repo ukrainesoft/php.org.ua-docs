@@ -1,16 +1,11 @@
-Фіксує транзакцію ODBC
-
--   [« odbccolumns](function.odbc-columns.html)
-    
--   [odbcconnect »](function.odbc-connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Фіксує транзакцію ODBC
-    
-
+---
+navigation:
+  - function.odbc-columns.html: « odbccolumns
+  - function.odbc-connect.html: odbcconnect »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbccommit
+---
 # odbccommit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

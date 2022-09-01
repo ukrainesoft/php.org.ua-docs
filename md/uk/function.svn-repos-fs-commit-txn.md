@@ -1,16 +1,11 @@
-Відправлення транзакції та повернення номера ревізії
-
--   [« svnreposфсbegintxnforcommit](function.svn-repos-fs-begin-txn-for-commit.html)
-    
--   [svnreposfs »](function.svn-repos-fs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Відправлення транзакції та повернення номера ревізії
-    
-
+---
+navigation:
+  - function.svn-repos-fs-begin-txn-for-commit.html: « svnreposфсbegintxnforcommit
+  - function.svn-repos-fs.html: svnreposfs »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnreposфсcommittxn
+---
 # svnreposфсcommittxn
 
 (PECL svn >= 0.2.0)

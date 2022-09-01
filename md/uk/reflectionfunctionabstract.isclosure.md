@@ -1,16 +1,11 @@
-Перевіряє, чи є функція замикання (Closure)
-
--   [« ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.html)
-    
--   [ReflectionFunctionAbstract::isDeprecated »](reflectionfunctionabstract.isdeprecated.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
-    
--   Перевіряє, чи є функція замикання (Closure)
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.innamespace.html: '« ReflectionFunctionAbstract::inNamespace'
+  - reflectionfunctionabstract.isdeprecated.html: 'ReflectionFunctionAbstract::isDeprecated »'
+  - index.html: PHP Manual
+  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::isClosure'
+---
 # ReflectionFunctionAbstract::isClosure
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

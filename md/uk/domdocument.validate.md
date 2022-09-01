@@ -1,16 +1,11 @@
-Перевіряє документ на відповідність його DTD
-
--   [« DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md)
-    
--   [DOMDocument::xinclude »](domdocument.xinclude.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Перевіряє документ на відповідність його DTD
-    
-
+---
+navigation:
+  - domdocument.schemavalidatesource.md: '« DOMDocument::schemaValidateSource'
+  - domdocument.xinclude.md: 'DOMDocument::xinclude »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::validate'
+---
 # DOMDocument::validate
 
 (PHP 5, PHP 7, PHP 8)

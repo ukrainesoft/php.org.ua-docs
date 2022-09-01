@@ -1,16 +1,11 @@
-Псевдонім iniset
-
--   [« getrusage](function.getrusage.md)
-    
--   [inigetall »](function.ini-get-all.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Псевдонім iniset
-    
-
+---
+navigation:
+  - function.getrusage.md: « getrusage
+  - function.ini-get-all.html: inigetall »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: inialter
+---
 # inialter
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

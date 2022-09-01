@@ -1,16 +1,11 @@
-Отримує дані з віддаленого сокету
-
--   [« SwooleClient::pipe](swoole-client.pipe.html)
-    
--   [SwooleClient::resume »](swoole-client.resume.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Отримує дані з віддаленого сокету
-    
-
+---
+navigation:
+  - swoole-client.pipe.html: '« SwooleClient::pipe'
+  - swoole-client.resume.html: 'SwooleClient::resume »'
+  - index.md: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::recv'
+---
 # SwooleClient::recv
 
 (PECL swoole >= 1.9.0)

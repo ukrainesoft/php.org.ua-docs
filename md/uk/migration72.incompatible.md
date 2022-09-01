@@ -1,16 +1,11 @@
-Зміни, що ламають зворотну сумісність
-
--   [« Нові глобальні константи](migration72.constants.md)
-    
--   [Функціонал, оголошений застарілим у PHP 7.2.x »](migration72.deprecated.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.md)
-    
--   Зміни, що ламають зворотну сумісність
-    
-
+---
+navigation:
+  - migration72.constants.md: « Нові глобальні константи
+  - migration72.deprecated.md: 'Функціонал, оголошений застарілим у PHP 7.2.x »'
+  - index.md: PHP Manual
+  - migration72.md: Миграция с PHP 7.1.x на PHP 7.2.x
+title: 'Зміни, що ламають зворотну сумісність'
+---
 ## Зміни, що ламають зворотну сумісність
 
 ### Запобігання поверненню негативного нуля з [numberformat()](function.number-format.html)

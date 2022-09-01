@@ -1,16 +1,11 @@
-Створює зупинений спостерігач EvPeriodic
-
--   [« EvPeriodic::construct](evperiodic.construct.html)
-    
--   [EvPeriodic::set »](evperiodic.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvPeriodic](class.evperiodic.html)
-    
--   Створює зупинений спостерігач EvPeriodic
-    
-
+---
+navigation:
+  - evperiodic.construct.html: '« EvPeriodic::construct'
+  - evperiodic.set.html: 'EvPeriodic::set »'
+  - index.html: PHP Manual
+  - class.evperiodic.html: EvPeriodic
+title: 'EvPeriodic::createStopped'
+---
 # EvPeriodic::createStopped
 
 (PECL ev >= 0.2.0)

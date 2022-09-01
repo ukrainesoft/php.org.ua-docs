@@ -1,16 +1,11 @@
-Фільтрування даних
-
--   [« ctypexdigit](function.ctype-xdigit.html)
-    
--   [Введение »](intro.filter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
-    
--   Фільтрування даних
-    
-
+---
+navigation:
+  - function.ctype-xdigit.html: « ctypexdigit
+  - intro.filter.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'
+title: Фільтрування даних
+---
 # Фільтрування даних
 
 -   [Введение](intro.filter.md)

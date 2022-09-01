@@ -1,16 +1,11 @@
-Перевіряє, чи змінна ітерується
-
--   [« isinteger](function.is-integer.html)
-    
--   [ісlong »](function.is-long.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевіряє, чи змінна ітерується
-    
-
+---
+navigation:
+  - function.is-integer.html: « isinteger
+  - function.is-long.html: ісlong »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісiterable
+---
 # ісiterable
 
 (PHP 7> = 7.1.0, PHP 8)

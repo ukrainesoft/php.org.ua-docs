@@ -1,16 +1,11 @@
-Функції Mhash
-
--   [« Приклади](mhash.examples.md)
-    
--   [mhashcount »](function.mhash-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mhash](book.mhash.md)
-    
--   Функції Mhash
-    
-
+---
+navigation:
+  - mhash.examples.md: « Приклади
+  - function.mhash-count.html: mhashcount »
+  - index.md: PHP Manual
+  - book.mhash.md: Mhash
+title: Функції Mhash
+---
 # Функції Mhash
 
 ## Зміст

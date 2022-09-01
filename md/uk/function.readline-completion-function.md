@@ -1,16 +1,11 @@
-Зареєструвати функцію автодоповнення
-
--   [« readlineclearhistory](function.readline-clear-history.html)
-    
--   [readlineinfo »](function.readline-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Readline](ref.readline.md)
-    
--   Зареєструвати функцію автодоповнення
-    
-
+---
+navigation:
+  - function.readline-clear-history.html: « readlineclearhistory
+  - function.readline-info.html: readlineinfo »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlinecompletionfunction
+---
 # readlinecompletionfunction
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

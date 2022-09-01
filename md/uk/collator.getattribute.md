@@ -1,16 +1,11 @@
-Отримує значення атрибуту зіставлення
-
--   [« Collator::create](collator.create.md)
-    
--   [Collator::getErrorCode »](collator.geterrorcode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Отримує значення атрибуту зіставлення
-    
-
+---
+navigation:
+  - collator.create.md: '« Collator::create'
+  - collator.geterrorcode.md: 'Collator::getErrorCode »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::getAttribute'
+---
 # Collator::getAttribute
 
 # collatorgetattribute

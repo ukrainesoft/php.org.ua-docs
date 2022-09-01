@@ -1,16 +1,11 @@
-Гіперболічний косинус
-
--   [« cos](function.cos.md)
-    
--   [decbin »](function.decbin.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Гіперболічний косинус
-    
-
+---
+navigation:
+  - function.cos.md: « cos
+  - function.decbin.md: decbin »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: cosh
+---
 # cosh
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

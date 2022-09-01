@@ -1,16 +1,11 @@
-Список підтримуваних транспортних протоколів
-
--   [« Шифруючі фільтри](filters.encryption.md)
-    
--   [Інтернет-сокети: TCP, UDP, SSL та TLS »](transports.inet.md)
-    
--   [PHP Manual](index.md)
-    
--   [Appendices](appendices.md)
-    
--   Список підтримуваних транспортних протоколів
-    
-
+---
+navigation:
+  - filters.encryption.md: « Шифруючі фільтри
+  - transports.inet.md: 'Інтернет-сокети: TCP, UDP, SSL та TLS »'
+  - index.md: PHP Manual
+  - appendices.md: Appendices
+title: Список підтримуваних транспортних протоколів
+---
 # Список підтримуваних транспортних протоколів
 
 ## Зміст

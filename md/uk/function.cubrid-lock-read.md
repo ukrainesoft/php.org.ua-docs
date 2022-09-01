@@ -1,16 +1,11 @@
-Встановлює блокування читання для цього OID
-
--   [« cubridlob2write](function.cubrid-lob2-write.html)
-    
--   [cubridlockwrite »](function.cubrid-lock-write.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Встановлює блокування читання для цього OID
-    
-
+---
+navigation:
+  - function.cubrid-lob2-write.html: « cubridlob2write
+  - function.cubrid-lock-write.html: cubridlockwrite »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlockread
+---
 # cubridlockread
 
 (PECL CUBRID >= 8.3.0)

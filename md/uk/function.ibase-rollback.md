@@ -1,16 +1,11 @@
-Відкочує транзакцію
-
--   [« ibaserollbackret](function.ibase-rollback-ret.html)
-    
--   [ibaseserverinfo »](function.ibase-server-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Відкочує транзакцію
-    
-
+---
+navigation:
+  - function.ibase-rollback-ret.html: « ibaserollbackret
+  - function.ibase-server-info.html: ibaseserverinfo »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaserollback
+---
 # ibaserollback
 
 (PHP 5, PHP 7 < 7.4.0)

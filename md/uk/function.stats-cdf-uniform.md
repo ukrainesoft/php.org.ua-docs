@@ -1,16 +1,11 @@
-Обчислює один із параметрів рівномірного розподілу за рештою
-
--   [« statscdfт](function.stats-cdf-t.html)
-    
--   [statscdfweibull »](function.stats-cdf-weibull.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює один із параметрів рівномірного розподілу за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-t.html: « statscdfт
+  - function.stats-cdf-weibull.html: statscdfweibull »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statscdfuniform
+---
 # statscdfuniform
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_uniform(    float $par1,    float $par2,    float $par3, 
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | а      | в      |
-|         | з                     | CDF    | а      | в      |
-|         | а                     | з      | CDF    | в      |
-|         | в                     | з      | CDF    | а      |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | а | в |
+|  | з | CDF | а | в |
+|  | а | з | CDF | в |
+|  | в | з | CDF | а |
 
 ### Список параметрів
 

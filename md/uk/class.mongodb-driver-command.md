@@ -1,16 +1,11 @@
-Клас The MongoDBDriverCommand
-
--   [« MongoDBDriverManager::startSession](mongodb-driver-manager.startsession.html)
-    
--   [MongoDBDriverCommand::construct »](mongodb-driver-command.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас The MongoDBDriverCommand
-    
-
+---
+navigation:
+  - mongodb-driver-manager.startsession.html: '« MongoDBDriverManager::startSession'
+  - mongodb-driver-command.construct.html: 'MongoDBDriverCommand::construct »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас The MongoDBDriverCommand
+---
 # Клас The MongoDBDriverCommand
 
 (mongodb >=1.0.0)

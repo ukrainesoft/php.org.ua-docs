@@ -1,16 +1,11 @@
-Отримати розмір даних, що повертаються
-
--   [« GearmanTask::data](gearmantask.data.md)
-    
--   [GearmanTask::function »](gearmantask.function.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Отримати розмір даних, що повертаються
-    
-
+---
+navigation:
+  - gearmantask.data.md: '« GearmanTask::data'
+  - gearmantask.function.md: 'GearmanTask::function »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::dataSize'
+---
 # GearmanTask::dataSize
 
 (PECL gearman >= 0.5.0)

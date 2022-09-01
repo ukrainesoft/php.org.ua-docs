@@ -1,16 +1,11 @@
-Три наступаючі білі солдати
-
--   [« tradercdl3starsinsouth](function.trader-cdl3starsinsouth.html)
-    
--   [tradercdlabandonedbaby »](function.trader-cdlabandonedbaby.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Три наступаючі білі солдати
-    
-
+---
+navigation:
+  - function.trader-cdl3starsinsouth.html: « tradercdl3starsinsouth
+  - function.trader-cdlabandonedbaby.html: tradercdlabandonedbaby »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdl3whitesoldiers
+---
 # tradercdl3whitesoldiers
 
 (PECL trader >= 0.2.0)

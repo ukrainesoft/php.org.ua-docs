@@ -1,16 +1,11 @@
-Клас MongoDBDriverCursor
-
--   [« MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.html)
-    
--   [MongoDBDriverCursor::construct »](mongodb-driver-cursor.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverCursor
-    
-
+---
+navigation:
+  - mongodb-driver-readconcern.unserialize.html: '« MongoDBDriverReadConcern::unserialize'
+  - mongodb-driver-cursor.construct.html: 'MongoDBDriverCursor::construct »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverCursor
+---
 # Клас MongoDBDriverCursor
 
 (mongodb >=1.0.0)
@@ -54,9 +49,9 @@ public valid(): bool
 
 ## список змін
 
-| Версия             | Описание                                                                                                                                  |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.9.0 | Реалізує [Iterator](class.iterator.html)                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.9.0 | Реалізує [Iterator](class.iterator.html) |
 | PECL mongodb 1.6.0 | Реалізує [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html), який успадковує [Traversable](class.traversable.html) |
 
 ## Приклади

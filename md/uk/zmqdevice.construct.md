@@ -1,16 +1,11 @@
-Створює новий пристрій
-
--   [« ZMQDevice](class.zmqdevice.md)
-    
--   [ZMQDevice::getIdleTimeout »](zmqdevice.getidletimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQDevice](class.zmqdevice.md)
-    
--   Створює новий пристрій
-    
-
+---
+navigation:
+  - class.zmqdevice.md: « ZMQDevice
+  - zmqdevice.getidletimeout.md: 'ZMQDevice::getIdleTimeout »'
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
+title: 'ZMQDevice::construct'
+---
 # ZMQDevice::construct
 
 (PECL zmq >= 0.5.0)

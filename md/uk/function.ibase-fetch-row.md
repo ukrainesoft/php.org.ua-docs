@@ -1,16 +1,11 @@
-Витягує рядок із бази даних InterBase
-
--   [« ibasefetchobject](function.ibase-fetch-object.html)
-    
--   [ibasefieldinfo »](function.ibase-field-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Витягує рядок із бази даних InterBase
-    
-
+---
+navigation:
+  - function.ibase-fetch-object.html: « ibasefetchobject
+  - function.ibase-field-info.html: ibasefieldinfo »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasefetchrow
+---
 # ibasefetchrow
 
 (PHP 5, PHP 7 < 7.4.0)

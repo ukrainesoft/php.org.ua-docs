@@ -1,16 +1,11 @@
-Видаляє зображення зі списку
-
--   [« Gmagick::reducenoiseimage](gmagick.reducenoiseimage.html)
-    
--   [Gmagick::removeimageprofile »](gmagick.removeimageprofile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Видаляє зображення зі списку
-    
-
+---
+navigation:
+  - gmagick.reducenoiseimage.html: '« Gmagick::reducenoiseimage'
+  - gmagick.removeimageprofile.html: 'Gmagick::removeimageprofile »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::removeimage'
+---
 # Gmagick::removeimage
 
 (PECL gmagick >= Unknown)

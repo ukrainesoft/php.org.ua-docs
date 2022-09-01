@@ -1,16 +1,11 @@
-Виконати зовнішню програму
-
--   [« escapeshellcmd](function.escapeshellcmd.md)
-    
--   [passthru »](function.passthru.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции запуска программ](ref.exec.md)
-    
--   Виконати зовнішню програму
-    
-
+---
+navigation:
+  - function.escapeshellcmd.md: « escapeshellcmd
+  - function.passthru.md: passthru »
+  - index.md: PHP Manual
+  - ref.exec.md: Функции запуска программ
+title: exec
+---
 # exec
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

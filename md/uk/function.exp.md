@@ -1,16 +1,11 @@
-Обчислює ступінь числа e
-
--   [« deg2rad](function.deg2rad.md)
-    
--   [expm1 »](function.expm1.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Обчислює ступінь числа e
-    
-
+---
+navigation:
+  - function.deg2rad.md: « deg2rad
+  - function.expm1.md: expm1 »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: exp
+---
 # exp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

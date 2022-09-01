@@ -1,16 +1,11 @@
-Отримати статус буфера виводу
-
--   [« obgetlevel](function.ob-get-level.html)
-    
--   [проgzhandler »](function.ob-gzhandler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   Отримати статус буфера виводу
-    
-
+---
+navigation:
+  - function.ob-get-level.html: « obgetlevel
+  - function.ob-gzhandler.html: проgzhandler »
+  - index.html: PHP Manual
+  - ref.outcontrol.html: Функції контролю виведення
+title: проgetstatus
+---
 # проgetstatus
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -39,13 +34,13 @@ Array ( level => 2 type => 0 status => 0 name => URL-Rewriter del => 1 )
 
 **Результати простого виклику **проgetstatus()****
 
-| Ключ  | Значение                                                                     |
-|-------|------------------------------------------------------------------------------|
-| level | Рівень вкладеності висновку                                                  |
-| type  | `PHP_OUTPUT_HANDLER_INTERNAL (0)` або `PHP_OUTPUT_HANDLER_USER (1)`          |
-| type  | `0` (внутрішній обробник) або `1` (наданий користувачем обробник)            |
-| name  | Назва діючого обробника виводу або 'default output handler', якщо не заданий |
-| del   | Прапор очищення, встановлений [проstart()](function.ob-start.html)           |
+| Ключ | Значение |
+| --- | --- |
+| level | Рівень вкладеності висновку |
+| type | `PHP_OUTPUT_HANDLER_INTERNAL (0)` або `PHP_OUTPUT_HANDLER_USER (1)` |
+| type | `0` (внутрішній обробник) або `1` (наданий користувачем обробник) |
+| name | Назва діючого обробника виводу або 'default output handler', якщо не заданий |
+| del | Прапор очищення, встановлений [проstart()](function.ob-start.html) |
 
 Якщо функція викликана з `full_status` **`true`**, Повертається масив з елементів рівнів активних буферів. Як ключ використовується рівень виведення, і кожен елемент масиву містить масив інформації про статус одного з активних елементів виведення.
 
@@ -82,11 +77,11 @@ Array
 
 **Повні результати **проgetstatus()****
 
-| Ключ      | Значение                                                         |
-|-----------|------------------------------------------------------------------|
+| Ключ | Значение |
+| --- | --- |
 | chunksize | Розмір порції, встановлений [проstart()](function.ob-start.html) |
-| size      |                                                                  |
-| blocksize |                                                                  |
+| size |  |
+| blocksize |  |
 
 ### Дивіться також
 

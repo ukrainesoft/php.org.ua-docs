@@ -1,16 +1,11 @@
-Застосувати бінарний патч до файлу
-
--   [xdifffilebdiff](function.xdiff-file-bdiff.html)
-    
--   [xdifffilediffbinary »](function.xdiff-file-diff-binary.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Застосувати бінарний патч до файлу
-    
-
+---
+navigation:
+  - function.xdiff-file-bdiff.html: xdifffilebdiff
+  - function.xdiff-file-diff-binary.html: xdifffilediffbinary »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdifffilebpatch
+---
 # xdifffilebpatch
 
 (PECL xdiff >= 1.5.0)

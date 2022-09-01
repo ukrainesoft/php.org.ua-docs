@@ -1,16 +1,11 @@
-Робота зі з'єднаннями
-
--   [« Робота з віддаленими файлами](features.remote-files.html)
-    
--   [Постійні з'єднання з базами даних »](features.persistent-connections.html)
-    
--   [PHP Manual](index.md)
-    
--   [Відмітні особливості](features.md)
-    
--   Робота зі з'єднаннями
-    
-
+---
+navigation:
+  - features.remote-files.html: « Робота з віддаленими файлами
+  - features.persistent-connections.html: Постійні з'єднання з базами даних »
+  - index.md: PHP Manual
+  - features.md: Відмітні особливості
+title: Робота зі з'єднаннями
+---
 # Робота зі з'єднаннями
 
 Статус з'єднання зберігається внутрішніми механізмами PHP. Нижче перераховані чотири можливі стани:

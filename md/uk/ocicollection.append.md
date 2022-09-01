@@ -1,16 +1,11 @@
-Додає елемент до колекції
-
--   [« OCICollection](class.ocicollection.md)
-    
--   [OCICollection::assign »](ocicollection.assign.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCICollection](class.ocicollection.md)
-    
--   Додає елемент до колекції
-    
-
+---
+navigation:
+  - class.ocicollection.md: « OCICollection
+  - ocicollection.assign.md: 'OCICollection::assign »'
+  - index.md: PHP Manual
+  - class.ocicollection.md: OCICollection
+title: 'OCICollection::append'
+---
 # OCICollection::append
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -37,8 +32,8 @@ public OCICollection::append(string $value): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                                   |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

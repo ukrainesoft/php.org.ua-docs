@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](ldap.examples.md)
-    
--   [LDAP Controls »](ldap.examples-controls.html)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](ldap.examples.md)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - ldap.examples.md: « Приклади
+  - ldap.examples-controls.html: LDAP Controls »
+  - index.md: PHP Manual
+  - ldap.examples.md: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 Отримати інформацію для всіх записів, де прізвище починається з "S" з сервера каталогів, показуючи в результаті ім'я та адресу електронної пошти.

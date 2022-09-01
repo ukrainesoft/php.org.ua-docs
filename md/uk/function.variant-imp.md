@@ -1,16 +1,11 @@
-Побітова імплікація над двома варіантами
-
--   [« variantidiv](function.variant-idiv.html)
-    
--   [variantint »](function.variant-int.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Побітова імплікація над двома варіантами
-    
-
+---
+navigation:
+  - function.variant-idiv.html: « variantidiv
+  - function.variant-int.html: variantint »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantimp
+---
 # variantimp
 
 (PHP 5, PHP 7, PHP 8)
@@ -46,16 +41,16 @@ variant_imp(mixed $left, mixed $right): variant
 **Таблиця імплікації варіантів**
 
 | Если `left` | Если `right` | Тогда результат |
-|-------------|--------------|-----------------|
-| **`true`**  | **`true`**   | **`true`**      |
-| **`true`**  | **`false`**  | **`false`**     |
-| **`true`**  | **`null`**   | **`true`**      |
-| **`false`** | **`true`**   | **`true`**      |
-| **`false`** | **`false`**  | **`true`**      |
-| **`false`** | **`null`**   | **`true`**      |
-| **`null`**  | **`true`**   | **`true`**      |
-| **`null`**  | **`false`**  | **`null`**      |
-| **`null`**  | **`null`**   | **`null`**      |
+| --- | --- | --- |
+| **`true`** | **`true`** | **`true`** |
+| **`true`** | **`false`** | **`false`** |
+| **`true`** | **`null`** | **`true`** |
+| **`false`** | **`true`** | **`true`** |
+| **`false`** | **`false`** | **`true`** |
+| **`false`** | **`null`** | **`true`** |
+| **`null`** | **`true`** | **`true`** |
+| **`null`** | **`false`** | **`null`** |
+| **`null`** | **`null`** | **`null`** |
 
 ### Помилки
 

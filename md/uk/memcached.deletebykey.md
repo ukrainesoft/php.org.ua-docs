@@ -1,16 +1,11 @@
-Видаляє запис із вказаного сервера
-
--   [« Memcached::delete](memcached.delete.md)
-    
--   [Memcached::deleteMulti »](memcached.deletemulti.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Видаляє запис із вказаного сервера
-    
-
+---
+navigation:
+  - memcached.delete.md: '« Memcached::delete'
+  - memcached.deletemulti.md: 'Memcached::deleteMulti »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::deleteByKey'
+---
 # Memcached::deleteByKey
 
 (PECL memcached >= 0.1.0)

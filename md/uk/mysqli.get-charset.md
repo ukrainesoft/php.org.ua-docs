@@ -1,16 +1,11 @@
-Повертає об'єкт, що описує кодування
-
--   [« mysqli::$fieldcount](mysqli.field-count.html)
-    
--   [mysqli::$clientinfo »](mysqli.get-client-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає об'єкт, що описує кодування
-    
-
+---
+navigation:
+  - mysqli.field-count.html: '« mysqli::$fieldcount'
+  - mysqli.get-client-info.html: 'mysqli::$clientinfo »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::getcharset'
+---
 # mysqli::getcharset
 
 # mysqligetcharset

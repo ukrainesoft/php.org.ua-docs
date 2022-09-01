@@ -1,16 +1,11 @@
-Перевіряє, чи є змінна ресурсом
-
--   [« isreal](function.is-real.html)
-    
--   [ісscalar »](function.is-scalar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевіряє, чи є змінна ресурсом
-    
-
+---
+navigation:
+  - function.is-real.html: « isreal
+  - function.is-scalar.html: ісscalar »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісresource
+---
 # ісresource
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

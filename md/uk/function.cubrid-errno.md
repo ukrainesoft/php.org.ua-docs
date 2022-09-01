@@ -1,16 +1,11 @@
-Повертає код помилки попередньої операції CUBRID
-
--   [« cubridдбname](function.cubrid-db-name.html)
-    
--   [cubriderror »](function.cubrid-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Повертає код помилки попередньої операції CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-db-name.html: « cubridдбname
+  - function.cubrid-error.html: cubriderror »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubriderrno
+---
 # cubriderrno
 
 (PECL CUBRID >= 8.3.1)

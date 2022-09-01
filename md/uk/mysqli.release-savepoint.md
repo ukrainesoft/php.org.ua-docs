@@ -1,16 +1,11 @@
-Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції
-
--   [« mysqli::refresh](mysqli.refresh.md)
-    
--   [mysqli::rollback »](mysqli.rollback.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції
-    
-
+---
+navigation:
+  - mysqli.refresh.md: '« mysqli::refresh'
+  - mysqli.rollback.md: 'mysqli::rollback »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::releasesavepoint'
+---
 # mysqli::releasesavepoint
 
 # mysqlireleasesavepoint

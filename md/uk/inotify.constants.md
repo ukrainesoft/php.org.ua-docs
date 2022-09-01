@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](inotify.resources.html)
-    
--   [Функции Inotify »](ref.inotify.html)
-    
--   [PHP Manual](index.html)
-    
--   [Inotify](book.inotify.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - inotify.resources.html: « Типи ресурсів
+  - ref.inotify.html: Функции Inotify »
+  - index.html: PHP Manual
+  - book.inotify.html: Inotify
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

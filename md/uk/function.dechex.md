@@ -1,16 +1,11 @@
-Переводить число з десяткової системи числення до шістнадцяткової
-
--   [« decbin](function.decbin.html)
-    
--   [decoct »](function.decoct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Переводить число з десяткової системи числення до шістнадцяткової
-    
-
+---
+navigation:
+  - function.decbin.html: « decbin
+  - function.decoct.html: decoct »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: dechex
+---
 # dechex
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

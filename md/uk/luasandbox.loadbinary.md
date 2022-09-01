@@ -1,16 +1,11 @@
-Завантажує попередньо скомпільований двійковий фрагмент у середу Lua
-
--   [« LuaSandbox::getVersionInfo](luasandbox.getversioninfo.html)
-    
--   [LuaSandbox::loadString »](luasandbox.loadstring.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](class.luasandbox.html)
-    
--   Завантажує попередньо скомпільований двійковий фрагмент у середу Lua
-    
-
+---
+navigation:
+  - luasandbox.getversioninfo.html: '« LuaSandbox::getVersionInfo'
+  - luasandbox.loadstring.html: 'LuaSandbox::loadString »'
+  - index.html: PHP Manual
+  - class.luasandbox.html: LuaSandbox
+title: 'LuaSandbox::loadBinary'
+---
 # LuaSandbox::loadBinary
 
 (PECL luasandbox >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає поточну позначку часу Unix з мікросекундами
-
--   [« localtime](function.localtime.md)
-    
--   [mktime »](function.mktime.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Повертає поточну позначку часу Unix з мікросекундами
-    
-
+---
+navigation:
+  - function.localtime.md: « localtime
+  - function.mktime.md: mktime »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: microtime
+---
 # microtime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

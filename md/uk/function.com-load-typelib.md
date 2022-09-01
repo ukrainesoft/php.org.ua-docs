@@ -1,16 +1,11 @@
-Завантаження Typelib
-
--   [« comgetactiveobject](function.com-get-active-object.html)
-    
--   [commessagepump »](function.com-message-pump.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Завантаження Typelib
-    
-
+---
+navigation:
+  - function.com-get-active-object.html: « comgetactiveobject
+  - function.com-message-pump.html: commessagepump »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: comloadtypelib
+---
 # comloadtypelib
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

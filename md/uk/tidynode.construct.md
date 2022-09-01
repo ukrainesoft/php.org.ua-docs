@@ -1,16 +1,11 @@
-Приватний конструктор, який унеможливлює пряме створення об'єкта
-
--   [« tidyNode](class.tidynode.html)
-    
--   [tidyNode::getParent »](tidynode.getparent.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidyNode](class.tidynode.html)
-    
--   Приватний конструктор, який унеможливлює пряме створення об'єкта
-    
-
+---
+navigation:
+  - class.tidynode.html: « tidyNode
+  - tidynode.getparent.html: 'tidyNode::getParent »'
+  - index.html: PHP Manual
+  - class.tidynode.html: tidyNode
+title: 'tidyNode::construct'
+---
 # tidyNode::construct
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює масив каскадних функцій активації кандидатів
-
--   [« fannsetcallback](function.fann-set-callback.html)
-    
--   [fannsetcascadeactivationsteepnesses »](function.fann-set-cascade-activation-steepnesses.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює масив каскадних функцій активації кандидатів
-    
-
+---
+navigation:
+  - function.fann-set-callback.html: « fannsetcallback
+  - function.fann-set-cascade-activation-steepnesses.html: fannsetcascadeactivationsteepnesses »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetcascadeactivationфункцій
+---
 # fannsetcascadeactivationфункцій
 
 (PECL fann> = 1.0.0)

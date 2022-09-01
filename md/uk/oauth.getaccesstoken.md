@@ -1,16 +1,11 @@
-Отримати токен доступу
-
--   [« OAuth::generateSignature](oauth.generatesignature.md)
-    
--   [OAuth::getCAPath »](oauth.getcapath.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Отримати токен доступу
-    
-
+---
+navigation:
+  - oauth.generatesignature.md: '« OAuth::generateSignature'
+  - oauth.getcapath.md: 'OAuth::getCAPath »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::getAccessToken'
+---
 # OAuth::getAccessToken
 
 (PECL OAuth >= 0.99.1)
@@ -49,10 +44,10 @@ URL до API видачі токена доступу.
 
 ### список змін
 
-| Версия            | Описание                                                                   |
-|-------------------|----------------------------------------------------------------------------|
-| PECL oauth 1.0.0  | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
-| PECL oauth 0.99.9 | Доданий параметр `verifier_token`                                          |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
+| PECL oauth 0.99.9 | Доданий параметр `verifier_token` |
 
 ### Приклади
 

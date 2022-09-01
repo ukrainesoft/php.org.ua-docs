@@ -1,16 +1,11 @@
-Вступ
-
--   [« Mailparse](book.mailparse.md)
-    
--   [Встановлення та налаштування »](mailparse.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](book.mailparse.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.mailparse.md: « Mailparse
+  - mailparse.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.mailparse.md: Mailparse
+title: Вступ
+---
 # Вступ
 
 Mailparse – це модуль для аналізу та роботи з поштовими повідомленнями. Модуль працює з повідомленнями, сумісними з [» RFC 822](http://www.faqs.org/rfcs/rfc822) і [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) `MIME`

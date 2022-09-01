@@ -1,16 +1,11 @@
-Додати відро на початок бригади
-
--   [« streambucketnew](function.stream-bucket-new.html)
-    
--   [streamcontextcreate »](function.stream-context-create.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Додати відро на початок бригади
-    
-
+---
+navigation:
+  - function.stream-bucket-new.html: « streambucketnew
+  - function.stream-context-create.html: streamcontextcreate »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streambucketprepend
+---
 # streambucketprepend
 
 (PHP 5, PHP 7, PHP 8)

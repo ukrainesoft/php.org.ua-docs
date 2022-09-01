@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](xhprof.constants.md)
-    
--   [Функции Xhprof »](ref.xhprof.md)
-    
--   [PHP Manual](index.md)
-    
--   [Xhprof](book.xhprof.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - xhprof.constants.md: « Обумовлені константи
+  - ref.xhprof.md: Функции Xhprof »
+  - index.md: PHP Manual
+  - book.xhprof.md: Xhprof
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Приклади використання Xhprof, опціонально з GUI**

@@ -1,16 +1,11 @@
-Отримує поточний ключ
-
--   [« SolrDocument::isset](solrdocument.isset.md)
-    
--   [SolrDocument::merge »](solrdocument.merge.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Отримує поточний ключ
-    
-
+---
+navigation:
+  - solrdocument.isset.md: '« SolrDocument::isset'
+  - solrdocument.merge.md: 'SolrDocument::merge »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::key'
+---
 # SolrDocument::key
 
 (PECL solr> = 0.9.2)

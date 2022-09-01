@@ -1,16 +1,11 @@
-Вектор натуральний логарифм
-
--   [« traderlinearreg](function.trader-linearreg.html)
-    
--   [traderlog10 »](function.trader-log10.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вектор натуральний логарифм
-    
-
+---
+navigation:
+  - function.trader-linearreg.html: « traderlinearreg
+  - function.trader-log10.html: traderlog10 »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderлн
+---
 # traderлн
 
 (PECL trader >= 0.2.0)

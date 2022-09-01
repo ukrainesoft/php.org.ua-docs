@@ -1,16 +1,11 @@
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-
--   [« CommonMarkNode::replace](commonmark-node.replace.html)
-    
--   [CommonMarkNode::accept »](commonmark-node.accept.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkNode](class.commonmark-node.html)
-    
--   Маніпуляції з AST (Абстрактне синтаксичне дерево)
-    
-
+---
+navigation:
+  - commonmark-node.replace.html: '« CommonMarkNode::replace'
+  - commonmark-node.accept.html: 'CommonMarkNode::accept »'
+  - index.md: PHP Manual
+  - class.commonmark-node.html: CommonMarkNode
+title: 'CommonMarkNode::unlink'
+---
 # CommonMarkNode::unlink
 
 (cmark >= 1.0.0)

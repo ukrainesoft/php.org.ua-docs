@@ -1,16 +1,11 @@
-Збирає посилання на виконані завдання
-
--   [« Pool](class.pool.md)
-    
--   [Pool::construct »](pool.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Pool](class.pool.md)
-    
--   Збирає посилання на виконані завдання
-    
-
+---
+navigation:
+  - class.pool.md: « Pool
+  - pool.construct.md: 'Pool::construct »'
+  - index.md: PHP Manual
+  - class.pool.md: Pool
+title: 'Pool::collect'
+---
 # Pool::collect
 
 (PECL pthreads >= 2.0.0)
@@ -37,9 +32,9 @@ Callback - функція збирача, яка повертає логічне
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-| вз     | Тепер повертається ціле число, а параметр `collector` тепер необов'язковий. |
+| Версия | Описание |
+| --- | --- |
+| вз | Тепер повертається ціле число, а параметр `collector` тепер необов'язковий. |
 
 ### Приклади
 

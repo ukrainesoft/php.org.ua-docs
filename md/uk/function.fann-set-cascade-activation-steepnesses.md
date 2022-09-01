@@ -1,16 +1,11 @@
-Встановлює масив крутості включення кандидатів у каскад
-
--   [« fannsetcascadeactivationfunctions](function.fann-set-cascade-activation-functions.html)
-    
--   [fannsetcascadecandidatechangefraction »](function.fann-set-cascade-candidate-change-fraction.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює масив крутості включення кандидатів у каскад
-    
-
+---
+navigation:
+  - function.fann-set-cascade-activation-functions.html: « fannsetcascadeactivationfunctions
+  - function.fann-set-cascade-candidate-change-fraction.html: fannsetcascadecandidatechangefraction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetcascadeactivationsteepnesses
+---
 # fannsetcascadeactivationsteepnesses
 
 (PECL fann> = 1.0.0)

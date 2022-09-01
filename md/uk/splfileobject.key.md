@@ -1,16 +1,11 @@
-Отримати номер рядка
-
--   [« SplFileObject::hasChildren](splfileobject.haschildren.md)
-    
--   [SplFileObject::next »](splfileobject.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Отримати номер рядка
-    
-
+---
+navigation:
+  - splfileobject.haschildren.md: '« SplFileObject::hasChildren'
+  - splfileobject.next.md: 'SplFileObject::next »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::key'
+---
 # SplFileObject::key
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

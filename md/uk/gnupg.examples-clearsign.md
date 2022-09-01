@@ -1,16 +1,11 @@
-Прозоре підписування тексту
-
--   [« Приклади](gnupg.examples.html)
-    
--   [GnuPG Функції »](ref.gnupg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](gnupg.examples.html)
-    
--   Прозоре підписування тексту
-    
-
+---
+navigation:
+  - gnupg.examples.html: « Приклади
+  - ref.gnupg.html: GnuPG Функції »
+  - index.html: PHP Manual
+  - gnupg.examples.html: Приклади
+title: Прозоре підписування тексту
+---
 ## Прозоре підписування тексту
 
 Це приклад створення чистого підпису надісланого тексту.

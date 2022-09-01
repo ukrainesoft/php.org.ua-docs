@@ -1,16 +1,11 @@
-Клас GearmanJob
-
--   [« GearmanClient::wait](gearmanclient.wait.html)
-    
--   [GearmanJob::complete »](gearmanjob.complete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gearman](book.gearman.html)
-    
--   Клас GearmanJob
-    
-
+---
+navigation:
+  - gearmanclient.wait.html: '« GearmanClient::wait'
+  - gearmanjob.complete.html: 'GearmanJob::complete »'
+  - index.html: PHP Manual
+  - book.gearman.html: Gearman
+title: Клас GearmanJob
+---
 # Клас GearmanJob
 
 (PECL gearman >= 0.5.0)

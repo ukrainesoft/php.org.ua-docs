@@ -1,16 +1,11 @@
-Клас DOMAttr
-
--   [« Приклади](dom.examples.md)
-    
--   [DOMAttr::construct »](domattr.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMAttr
-    
-
+---
+navigation:
+  - dom.examples.md: « Приклади
+  - domattr.construct.md: 'DOMAttr::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: 'Клас [DOMAttr](class.domattr.md)'
+---
 # Клас [DOMAttr](class.domattr.md)
 
 (PHP 5, PHP 7, PHP 8)

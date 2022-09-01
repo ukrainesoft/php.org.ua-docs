@@ -1,16 +1,11 @@
-Скасує створення BLOB-об'єкта
-
--   [« ibaseblobadd](function.ibase-blob-add.html)
-    
--   [ibaseblobclose »](function.ibase-blob-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Скасує створення BLOB-об'єкта
-    
-
+---
+navigation:
+  - function.ibase-blob-add.html: « ibaseblobadd
+  - function.ibase-blob-close.html: ibaseblobclose »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseblobcancel
+---
 # ibaseblobcancel
 
 (PHP 5, PHP 7 < 7.4.0)

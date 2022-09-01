@@ -1,16 +1,11 @@
-Повертає порядковий номер іменованого поля
-
--   [« pgfieldname](function.pg-field-name.html)
-    
--   [пгfieldprtlen »](function.pg-field-prtlen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає порядковий номер іменованого поля
-    
-
+---
+navigation:
+  - function.pg-field-name.html: « pgfieldname
+  - function.pg-field-prtlen.html: пгfieldprtlen »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfieldnum
+---
 # пгfieldnum
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pg_field_num(PgSql\Result $result, string $field): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

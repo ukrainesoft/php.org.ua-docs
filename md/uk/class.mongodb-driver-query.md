@@ -1,16 +1,11 @@
-Клас MongoDBDriverQuery
-
--   [« MongoDBDriverCommand::construct](mongodb-driver-command.construct.html)
-    
--   [MongoDBDriverQuery::construct »](mongodb-driver-query.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverQuery
-    
-
+---
+navigation:
+  - mongodb-driver-command.construct.html: '« MongoDBDriverCommand::construct'
+  - mongodb-driver-query.construct.html: 'MongoDBDriverQuery::construct »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverQuery
+---
 # Клас MongoDBDriverQuery
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Клас StompFrame
-
--   [« Stomp::unsubscribe](stomp.unsubscribe.html)
-    
--   [StompFrame::construct »](stompframe.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Stomp](book.stomp.html)
-    
--   Клас StompFrame
-    
-
+---
+navigation:
+  - stomp.unsubscribe.html: '« Stomp::unsubscribe'
+  - stompframe.construct.html: 'StompFrame::construct »'
+  - index.html: PHP Manual
+  - book.stomp.html: Stomp
+title: Клас StompFrame
+---
 # Клас StompFrame
 
 (PECL stomp >= 0.1.0)

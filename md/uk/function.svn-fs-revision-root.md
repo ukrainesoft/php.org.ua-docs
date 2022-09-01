@@ -1,16 +1,11 @@
-Повертає дескриптор певної версії кореневої директорії репозиторію
-
--   [« svnфсrevisionprop](function.svn-fs-revision-prop.html)
-    
--   [svnфсtxnroot »](function.svn-fs-txn-root.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Повертає дескриптор певної версії кореневої директорії репозиторію
-    
-
+---
+navigation:
+  - function.svn-fs-revision-prop.html: « svnфсrevisionprop
+  - function.svn-fs-txn-root.html: svnфсtxnroot »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnфсrevisionroot
+---
 # svnфсrevisionroot
 
 (PECL svn >= 0.1.0)

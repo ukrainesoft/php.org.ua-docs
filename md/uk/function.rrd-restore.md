@@ -1,16 +1,11 @@
-Відновлює файл RRD із дампи XML
-
--   [« rrdlastupdate](function.rrd-lastupdate.html)
-    
--   [rrdtune »](function.rrd-tune.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції RRD](ref.rrd.html)
-    
--   Відновлює файл RRD із дампи XML
-    
-
+---
+navigation:
+  - function.rrd-lastupdate.html: « rrdlastupdate
+  - function.rrd-tune.html: rrdtune »
+  - index.html: PHP Manual
+  - ref.rrd.html: Функції RRD
+title: rrdrestore
+---
 # rrdrestore
 
 (PECL rrd >= 0.9.0)

@@ -1,16 +1,11 @@
-Видаляє користувача з безпечної бази даних
-
--   [« ibaseдбinfo](function.ibase-db-info.html)
-    
--   [ibasedropdb »](function.ibase-drop-db.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Видаляє користувача з безпечної бази даних
-    
-
+---
+navigation:
+  - function.ibase-db-info.html: « ibaseдбinfo
+  - function.ibase-drop-db.html: ibasedropdb »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasedeleteuser
+---
 # ibasedeleteuser
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Запускає нейронну мережу із заданими даними
-
--   [« fannresetMSE](function.fann-reset-mse.html)
-    
--   [fannsavetrain »](function.fann-save-train.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Запускає нейронну мережу із заданими даними
-    
-
+---
+navigation:
+  - function.fann-reset-mse.html: « fannresetMSE
+  - function.fann-save-train.html: fannsavetrain »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannrun
+---
 # fannrun
 
 (PECL fann> = 1.0.0)

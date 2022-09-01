@@ -1,16 +1,11 @@
-Повертає код помилки виконання останнього запиту
-
--   [« mysqlistmt::dataseek](mysqli-stmt.data-seek.html)
-    
--   [mysqlistmt::$errorlist »](mysqli-stmt.error-list.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає код помилки виконання останнього запиту
-    
-
+---
+navigation:
+  - mysqli-stmt.data-seek.html: '« mysqlistmt::dataseek'
+  - mysqli-stmt.error-list.html: 'mysqlistmt::$errorlist »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$errno'
+---
 # mysqlistmt::$errno
 
 # mysqlistmterrno

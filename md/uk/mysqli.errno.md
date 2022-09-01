@@ -1,16 +1,11 @@
-Повертає код помилки останнього виклику функції
-
--   [« mysqli::dumpdebuginfo](mysqli.dump-debug-info.html)
-    
--   [mysqli::$errorlist »](mysqli.error-list.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає код помилки останнього виклику функції
-    
-
+---
+navigation:
+  - mysqli.dump-debug-info.html: '« mysqli::dumpdebuginfo'
+  - mysqli.error-list.html: 'mysqli::$errorlist »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$errno'
+---
 # mysqli::$errno
 
 # mysqlierrno

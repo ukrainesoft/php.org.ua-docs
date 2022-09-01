@@ -1,16 +1,11 @@
-Зміщує колірну карту зображення
-
--   [« Gmagick::current](gmagick.current.md)
-    
--   [Gmagick::deconstructimages »](gmagick.deconstructimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Зміщує колірну карту зображення
-    
-
+---
+navigation:
+  - gmagick.current.md: '« Gmagick::current'
+  - gmagick.deconstructimages.md: 'Gmagick::deconstructimages »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::cyclecolormapimage'
+---
 # Gmagick::cyclecolormapimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Встановлює стиль шрифту для використання під час анотування текстом
-
--   [« ImagickDraw::setFontStretch](imagickdraw.setfontstretch.md)
-    
--   [ImagickDraw::setFontWeight »](imagickdraw.setfontweight.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює стиль шрифту для використання під час анотування текстом
-    
-
+---
+navigation:
+  - imagickdraw.setfontstretch.md: '« ImagickDraw::setFontStretch'
+  - imagickdraw.setfontweight.md: 'ImagickDraw::setFontWeight »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setFontStyle'
+---
 # ImagickDraw::setFontStyle
 
 (PECL imagick 2, PECL imagick 3)

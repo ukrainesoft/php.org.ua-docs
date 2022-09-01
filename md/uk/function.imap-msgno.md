@@ -1,16 +1,11 @@
-Отримати номер повідомлення із заданим UID
-
--   [« imapmimeheaderdecode](function.imap-mime-header-decode.html)
-    
--   [imapmutf7тоutf8 »](function.imap-mutf7-to-utf8.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Отримати номер повідомлення із заданим UID
-    
-
+---
+navigation:
+  - function.imap-mime-header-decode.html: « imapmimeheaderdecode
+  - function.imap-mutf7-to-utf8.html: imapmutf7тоutf8 »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapmsgno
+---
 # imapmsgno
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ UID повідомлення
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

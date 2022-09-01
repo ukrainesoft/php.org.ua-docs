@@ -1,16 +1,11 @@
-Встановлює початкові значення для генератора випадкових чисел
-
--   [« statsrandranf](function.stats-rand-ranf.html)
-    
--   [statsskew »](function.stats-skew.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Встановлює початкові значення для генератора випадкових чисел
-    
-
+---
+navigation:
+  - function.stats-rand-ranf.html: « statsrandranf
+  - function.stats-skew.html: statsskew »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandsetall
+---
 # statsrandsetall
 
 (PECL stats >= 1.0.0)

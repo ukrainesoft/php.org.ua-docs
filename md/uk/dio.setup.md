@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.dio.md)
-    
--   [Вимоги »](dio.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пряме введення/виведення (Direct IO)](book.dio.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.dio.md: « Введение
+  - dio.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.dio.md: Пряме введення/виведення (Direct IO)
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

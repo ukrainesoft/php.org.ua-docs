@@ -1,16 +1,11 @@
-Створити новий об'єкт Stroke
-
--   [« UIDrawStroke](class.ui-draw-stroke.html)
-    
--   [ОЙDrawStroke::getCap »](ui-draw-stroke.getcap.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawStroke](class.ui-draw-stroke.html)
-    
--   Створити новий об'єкт Stroke
-    
-
+---
+navigation:
+  - class.ui-draw-stroke.html: « UIDrawStroke
+  - ui-draw-stroke.getcap.html: 'ОЙDrawStroke::getCap »'
+  - index.html: PHP Manual
+  - class.ui-draw-stroke.html: ОЙDrawStroke
+title: 'ОЙDrawStroke::construct'
+---
 # ОЙDrawStroke::construct
 
 (UI 0.9.9)

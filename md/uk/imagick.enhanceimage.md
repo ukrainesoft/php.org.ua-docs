@@ -1,16 +1,11 @@
-Покращує якість шумного зображення
-
--   [« Imagick::encipherImage](imagick.encipherimage.md)
-    
--   [Imagick::equalizeImage »](imagick.equalizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Покращує якість шумного зображення
-    
-
+---
+navigation:
+  - imagick.encipherimage.md: '« Imagick::encipherImage'
+  - imagick.equalizeimage.md: 'Imagick::equalizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::enhanceImage'
+---
 # Imagick::enhanceImage
 
 (PECL imagick 2, PECL imagick 3)

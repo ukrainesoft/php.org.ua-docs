@@ -1,16 +1,11 @@
-Створює новий об'єкт SyncSharedMemory
-
--   [« SyncSharedMemory](class.syncsharedmemory.html)
-    
--   [SyncSharedMemory::first »](syncsharedmemory.first.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncSharedMemory](class.syncsharedmemory.html)
-    
--   Створює новий об'єкт SyncSharedMemory
-    
-
+---
+navigation:
+  - class.syncsharedmemory.html: « SyncSharedMemory
+  - syncsharedmemory.first.html: 'SyncSharedMemory::first »'
+  - index.html: PHP Manual
+  - class.syncsharedmemory.html: SyncSharedMemory
+title: 'SyncSharedMemory::construct'
+---
 # SyncSharedMemory::construct
 
 (PECL sync >= 1.1.0)

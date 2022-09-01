@@ -1,16 +1,11 @@
-Додати текст
-
--   [« UIControlsMultilineEntry](class.ui-controls-multilineentry.html)
-    
--   [ОЙControlsMultilineEntry::construct »](ui-controls-multilineentry.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
-    
--   Додати текст
-    
-
+---
+navigation:
+  - class.ui-controls-multilineentry.html: « UIControlsMultilineEntry
+  - ui-controls-multilineentry.construct.html: 'ОЙControlsMultilineEntry::construct »'
+  - index.html: PHP Manual
+  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::append'
+---
 # ОЙControlsMultilineEntry::append
 
 (UI 0.9.9)

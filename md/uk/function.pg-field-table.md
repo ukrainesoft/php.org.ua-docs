@@ -1,16 +1,11 @@
-Повертає назву або ідентифікатор таблиці, що містить задане поле
-
--   [« pgfieldsize](function.pg-field-size.html)
-    
--   [пгfieldtypeoid »](function.pg-field-type-oid.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає назву або ідентифікатор таблиці, що містить задане поле
-    
-
+---
+navigation:
+  - function.pg-field-size.html: « pgfieldsize
+  - function.pg-field-type-oid.html: пгfieldtypeoid »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfieldtable
+---
 # пгfieldtable
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

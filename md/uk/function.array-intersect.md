@@ -1,16 +1,11 @@
-Обчислює сходження масивів
-
--   [« arrayintersectukey](function.array-intersect-ukey.html)
-    
--   [arrayісlist »](function.array-is-list.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Обчислює сходження масивів
-    
-
+---
+navigation:
+  - function.array-intersect-ukey.html: « arrayintersectukey
+  - function.array-is-list.html: arrayісlist »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayintersect
+---
 # arrayintersect
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_intersect(array $array, array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
 
 ### Приклади
 

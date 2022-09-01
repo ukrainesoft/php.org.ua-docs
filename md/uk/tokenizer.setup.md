@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.tokenizer.html)
-    
--   [Вимоги »](tokenizer.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Лексер (Tokenizer)](book.tokenizer.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.tokenizer.html: « Введение
+  - tokenizer.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.tokenizer.html: Лексер (Tokenizer)
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

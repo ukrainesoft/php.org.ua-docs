@@ -1,16 +1,11 @@
-Випадково зміщує кожен піксель у блоці
-
--   [« Imagick::spliceImage](imagick.spliceimage.html)
-    
--   [Imagick::statisticImage »](imagick.statisticimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Випадково зміщує кожен піксель у блоці
-    
-
+---
+navigation:
+  - imagick.spliceimage.html: '« Imagick::spliceImage'
+  - imagick.statisticimage.html: 'Imagick::statisticImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::spreadImage'
+---
 # Imagick::spreadImage
 
 (PECL imagick 2, PECL imagick 3)

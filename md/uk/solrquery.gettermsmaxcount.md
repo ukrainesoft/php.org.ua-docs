@@ -1,16 +1,11 @@
-Повертає максимальну частоту документа
-
--   [« SolrQuery::getTermsLowerBound](solrquery.gettermslowerbound.md)
-    
--   [SolrQuery::getTermsMinCount »](solrquery.gettermsmincount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає максимальну частоту документа
-    
-
+---
+navigation:
+  - solrquery.gettermslowerbound.md: '« SolrQuery::getTermsLowerBound'
+  - solrquery.gettermsmincount.md: 'SolrQuery::getTermsMinCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsMaxCount'
+---
 # SolrQuery::getTermsMaxCount
 
 (PECL solr> = 0.9.2)

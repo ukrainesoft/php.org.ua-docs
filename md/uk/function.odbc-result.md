@@ -1,16 +1,11 @@
-Отримує дані результату
-
--   [« odbcresultall](function.odbc-result-all.html)
-    
--   [odbcrollback »](function.odbc-rollback.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Отримує дані результату
-    
-
+---
+navigation:
+  - function.odbc-result-all.html: « odbcresultall
+  - function.odbc-rollback.html: odbcrollback »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcresult
+---
 # odbcresult
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

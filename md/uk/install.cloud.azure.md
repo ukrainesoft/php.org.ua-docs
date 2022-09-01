@@ -1,16 +1,11 @@
-Azure App Services
-
--   [« Установка на платформах Cloud Computing](install.cloud.html)
-    
--   [Amazon EC2 »](install.cloud.ec2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Установка на платформах Cloud Computing](install.cloud.html)
-    
--   Azure App Services
-    
-
+---
+navigation:
+  - install.cloud.html: « Установка на платформах Cloud Computing
+  - install.cloud.ec2.html: Amazon EC2 »
+  - index.html: PHP Manual
+  - install.cloud.html: Установка на платформах Cloud Computing
+title: Azure App Services
+---
 ## Azure App Services
 
 PHP часто встановлюється на хмарний сервіс Azure App Services (також відомий як Microsoft Azure, Windows Azure та Azure Web Apps).

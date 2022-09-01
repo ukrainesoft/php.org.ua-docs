@@ -1,16 +1,11 @@
-Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
-
--   [xdifffilepatch](function.xdiff-file-patch.html)
-    
--   [xdiffstringbdiffsize »](function.xdiff-string-bdiff-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції xdiff](ref.xdiff.html)
-    
--   Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
-    
-
+---
+navigation:
+  - function.xdiff-file-patch.html: xdifffilepatch
+  - function.xdiff-string-bdiff-size.html: xdiffstringbdiffsize »
+  - index.html: PHP Manual
+  - ref.xdiff.html: Функції xdiff
+title: xdifffilerabdiff
+---
 # xdifffilerabdiff
 
 (PECL xdiff >= 1.5.0)

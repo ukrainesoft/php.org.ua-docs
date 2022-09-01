@@ -1,16 +1,11 @@
-Порівняння двох файлів XML
-
--   [« XMLDiffFile](class.xmldiff-file.html)
-    
--   [XMLDiffFile::merge »](xmldiff-file.merge.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLDiffFile](class.xmldiff-file.html)
-    
--   Порівняння двох файлів XML
-    
-
+---
+navigation:
+  - class.xmldiff-file.html: « XMLDiffFile
+  - xmldiff-file.merge.html: 'XMLDiffFile::merge »'
+  - index.html: PHP Manual
+  - class.xmldiff-file.html: XMLDiffFile
+title: 'XMLDiffFile::diff'
+---
 # XMLDiffFile::diff
 
 (PECL xmldiff >= 0.8.0)

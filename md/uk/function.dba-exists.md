@@ -1,16 +1,11 @@
-Перевіряє, чи існує ключ
-
--   [« dbadelete](function.dba-delete.html)
-    
--   [dbafetch »](function.dba-fetch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Перевіряє, чи існує ключ
-    
-
+---
+navigation:
+  - function.dba-delete.html: « dbadelete
+  - function.dba-fetch.html: dbafetch »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbaexists
+---
 # dbaexists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

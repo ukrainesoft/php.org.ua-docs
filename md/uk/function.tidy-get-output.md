@@ -1,16 +1,11 @@
-Повертає рядок, який представляє розібрану tidy-розмітку
-
--   [« tidyerrorcount](function.tidy-error-count.html)
-    
--   [tidywarningcount »](function.tidy-warning-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Tidy](ref.tidy.md)
-    
--   Повертає рядок, який представляє розібрану tidy-розмітку
-    
-
+---
+navigation:
+  - function.tidy-error-count.html: « tidyerrorcount
+  - function.tidy-warning-count.html: tidywarningcount »
+  - index.md: PHP Manual
+  - ref.tidy.md: Tidy
+title: tidygetoutput
+---
 # tidygetoutput
 
 (PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)

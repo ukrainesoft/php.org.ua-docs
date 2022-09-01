@@ -1,16 +1,11 @@
-Конструктор класу
-
--   [« Yac::add](yac.add.html)
-    
--   [Yac::delete »](yac.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yac](class.yac.html)
-    
--   Конструктор класу
-    
-
+---
+navigation:
+  - yac.add.html: '« Yac::add'
+  - yac.delete.html: 'Yac::delete »'
+  - index.html: PHP Manual
+  - class.yac.html: Yac
+title: 'Yac::construct'
+---
 # Yac::construct
 
 (PECL yac >= 1.0.0)

@@ -1,16 +1,11 @@
-Ім'я файлу результуючого зображення
-
--   [« Imagick::getCopyright](imagick.getcopyright.html)
-    
--   [Imagick::getFont »](imagick.getfont.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Ім'я файлу результуючого зображення
-    
-
+---
+navigation:
+  - imagick.getcopyright.html: '« Imagick::getCopyright'
+  - imagick.getfont.html: 'Imagick::getFont »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getFilename'
+---
 # Imagick::getFilename
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Замикає шлях
-
--   [«psclosepathstroke](function.ps-closepath-stroke.html)
-    
--   [псcontinuetext »](function.ps-continue-text.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Замикає шлях
-    
-
+---
+navigation:
+  - function.ps-closepath-stroke.html: «psclosepathstroke
+  - function.ps-continue-text.html: псcontinuetext »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псclosepath
+---
 # псclosepath
 
 (PECL ps >= 1.1.0)

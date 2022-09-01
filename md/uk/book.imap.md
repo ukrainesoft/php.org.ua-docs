@@ -1,16 +1,11 @@
-IMAP, POP3 та NNTP
-
--   [« Модулі для роботи з поштою](refs.remote.mail.html)
-    
--   [Введение »](intro.imap.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з поштою](refs.remote.mail.html)
-    
--   IMAP, POP3 та NNTP
-    
-
+---
+navigation:
+  - refs.remote.mail.html: « Модулі для роботи з поштою
+  - intro.imap.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.mail.html: Модулі для роботи з поштою
+title: 'IMAP, POP3 та NNTP'
+---
 # IMAP, POP3 та NNTP
 
 -   [Введение](intro.imap.html)

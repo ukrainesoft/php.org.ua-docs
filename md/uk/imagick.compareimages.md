@@ -1,16 +1,11 @@
-Порівнює зображення з відновленим зображенням
-
--   [« Imagick::compareImageLayers](imagick.compareimagelayers.md)
-    
--   [Imagick::compositeImage »](imagick.compositeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Порівнює зображення з відновленим зображенням
-    
-
+---
+navigation:
+  - imagick.compareimagelayers.md: '« Imagick::compareImageLayers'
+  - imagick.compositeimage.md: 'Imagick::compositeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::compareImages'
+---
 # Imagick::compareImages
 
 (PECL imagick 2, PECL imagick 3)

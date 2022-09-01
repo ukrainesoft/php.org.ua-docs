@@ -1,16 +1,11 @@
-Робота з просторами імен XML
-
--   [« Створення простого XML-документу](example.xmlwriter-simple.html)
-    
--   [Робота з об'єктно-орієнтованим API »](example.xmlwriter-oop.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](xmlwriter.examples.html)
-    
--   Робота з просторами імен XML
-    
-
+---
+navigation:
+  - example.xmlwriter-simple.html: « Створення простого XML-документу
+  - example.xmlwriter-oop.html: Робота з об'єктно-орієнтованим API »
+  - index.html: PHP Manual
+  - xmlwriter.examples.html: Приклади
+title: Робота з просторами імен XML
+---
 ## Робота з просторами імен XML
 
 У цьому прикладі демонструється створення елементів просторі імен.

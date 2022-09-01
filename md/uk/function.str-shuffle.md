@@ -1,16 +1,11 @@
-Переставляє символи у рядку випадковим чином
-
--   [« strrot13](function.str-rot13.html)
-    
--   [strsplit »](function.str-split.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Переставляє символи у рядку випадковим чином
-    
-
+---
+navigation:
+  - function.str-rot13.html: « strrot13
+  - function.str-split.html: strsplit »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strshuffle
+---
 # strshuffle
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ str_shuffle(string $string): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
 
 ### Приклади
 

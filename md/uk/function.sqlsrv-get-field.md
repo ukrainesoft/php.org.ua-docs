@@ -1,16 +1,11 @@
-Отримує дані поля з поточного вибраного рядка
-
--   [« sqlsrvgetconfig](function.sqlsrv-get-config.html)
-    
--   [sqlsrvhasrows »](function.sqlsrv-has-rows.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Отримує дані поля з поточного вибраного рядка
-    
-
+---
+navigation:
+  - function.sqlsrv-get-config.html: « sqlsrvgetconfig
+  - function.sqlsrv-has-rows.html: sqlsrvhasrows »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvgetfield
+---
 # sqlsrvgetfield
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Збирає URL
-
--   [« YafRouteSimple](class.yaf-route-simple.html)
-    
--   [YafRouteSimple::construct »](yaf-route-simple.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteSimple](class.yaf-route-simple.html)
-    
--   Збирає URL
-    
-
+---
+navigation:
+  - class.yaf-route-simple.html: « YafRouteSimple
+  - yaf-route-simple.construct.html: 'YafRouteSimple::construct »'
+  - index.md: PHP Manual
+  - class.yaf-route-simple.html: YafRouteSimple
+title: 'YafRouteSimple::assemble'
+---
 # YafRouteSimple::assemble
 
 (Yaf >=2.3.0)

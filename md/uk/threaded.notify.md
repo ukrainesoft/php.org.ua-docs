@@ -1,16 +1,11 @@
-Синхронізація
-
--   [« Threaded::merge](threaded.merge.md)
-    
--   [Threaded::notifyOne »](threaded.notifyone.md)
-    
--   [PHP Manual](index.md)
-    
--   [Threaded](class.threaded.md)
-    
--   Синхронізація
-    
-
+---
+navigation:
+  - threaded.merge.md: '« Threaded::merge'
+  - threaded.notifyone.md: 'Threaded::notifyOne »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::notify'
+---
 # Threaded::notify
 
 (PECL pthreads >= 2.0.0)

@@ -1,16 +1,11 @@
-Зменшує колекцію до одного значення, використовуючи callback-функцію
-
--   [« DsSet::merge](ds-set.merge.html)
-    
--   [ДсSet::remove »](ds-set.remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Зменшує колекцію до одного значення, використовуючи callback-функцію
-    
-
+---
+navigation:
+  - ds-set.merge.html: '« DsSet::merge'
+  - ds-set.remove.html: 'ДсSet::remove »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::reduce'
+---
 # ДсSet::reduce
 
 (PECL ds >= 1.0.0)

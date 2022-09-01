@@ -1,16 +1,11 @@
-Створює новий екземпляр
-
--   [« DsVector::clear](ds-vector.clear.html)
-    
--   [ДсVector::contains »](ds-vector.contains.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Створює новий екземпляр
-    
-
+---
+navigation:
+  - ds-vector.clear.html: '« DsVector::clear'
+  - ds-vector.contains.html: 'ДсVector::contains »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::construct'
+---
 # ДсVector::construct
 
 (PECL ds >= 1.0.0)

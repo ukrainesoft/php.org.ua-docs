@@ -1,16 +1,11 @@
-Видалити елемент із пулу опитування
-
--   [« ZMQPoll::poll](zmqpoll.poll.md)
-    
--   [ZMQDevice »](class.zmqdevice.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQPoll](class.zmqpoll.md)
-    
--   Видалити елемент із пулу опитування
-    
-
+---
+navigation:
+  - zmqpoll.poll.md: '« ZMQPoll::poll'
+  - class.zmqdevice.md: ZMQDevice »
+  - index.md: PHP Manual
+  - class.zmqpoll.md: ZMQPoll
+title: 'ZMQPoll::remove'
+---
 # ZMQPoll::remove
 
 (PECL zmq >= 0.5.0)

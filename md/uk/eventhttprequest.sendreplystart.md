@@ -1,16 +1,11 @@
-Ініціює фрагментарну відповідь
-
--   [« EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md)
-    
--   [EventListener »](class.eventlistener.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Ініціює фрагментарну відповідь
-    
-
+---
+navigation:
+  - eventhttprequest.sendreplyend.md: '« EventHttpRequest::sendReplyEnd'
+  - class.eventlistener.md: EventListener »
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::sendReplyStart'
+---
 # EventHttpRequest::sendReplyStart
 
 (PECL event >= 1.4.0-beta)

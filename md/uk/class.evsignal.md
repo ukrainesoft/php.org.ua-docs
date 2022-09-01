@@ -1,16 +1,11 @@
-Клас EvSignal
-
--   [« EvPrepare::createStopped](evprepare.createstopped.html)
-    
--   [EvSignal::construct »](evsignal.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас EvSignal
-    
-
+---
+navigation:
+  - evprepare.createstopped.html: '« EvPrepare::createStopped'
+  - evsignal.construct.html: 'EvSignal::construct »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас EvSignal
+---
 # Клас EvSignal
 
 (PECL ev >= 0.2.0)

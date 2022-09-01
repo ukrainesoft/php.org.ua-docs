@@ -1,16 +1,11 @@
-Повернути версію сервера
-
--   [« Memcache::getStats](memcache.getstats.md)
-    
--   [Memcache::increment »](memcache.increment.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Повернути версію сервера
-    
-
+---
+navigation:
+  - memcache.getstats.md: '« Memcache::getStats'
+  - memcache.increment.md: 'Memcache::increment »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::getVersion'
+---
 # Memcache::getVersion
 
 (PECL memcache >= 0.2.0)

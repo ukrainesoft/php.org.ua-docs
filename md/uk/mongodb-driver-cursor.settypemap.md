@@ -1,16 +1,11 @@
-Встановлює карту типу для десеріалізації BSON
-
--   [« MongoDBDriverCursor::rewind](mongodb-driver-cursor.rewind.html)
-    
--   [MongoDBDriverCursor::toArray »](mongodb-driver-cursor.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Встановлює карту типу для десеріалізації BSON
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.rewind.html: '« MongoDBDriverCursor::rewind'
+  - mongodb-driver-cursor.toarray.html: 'MongoDBDriverCursor::toArray »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::setTypeMap'
+---
 # MongoDBDriverCursor::setTypeMap
 
 (mongodb >=1.0.0)

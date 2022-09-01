@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](mcrypt.setup.md)
-    
--   [Установка »](mcrypt.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mcrypt.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - mcrypt.setup.md: « Встановлення та налаштування
+  - mcrypt.installation.md: Установка »
+  - index.md: PHP Manual
+  - mcrypt.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Ці функції працюють використовуючи [» mcrypt](http://mcrypt.sourceforge.net/). Для того, щоб використовувати їх, завантажте libmcrypt-x.x.tar.gz з [» http://mcrypt.sourceforge.net/](http://mcrypt.sourceforge.net/) та дотримуйтесь інструкцій з встановлення.

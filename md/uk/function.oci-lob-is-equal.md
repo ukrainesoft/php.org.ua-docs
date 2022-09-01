@@ -1,16 +1,11 @@
-Порівнює два об'єкти LOB/FILE
-
--   [« ocilobcopy](function.oci-lob-copy.html)
-    
--   [ocinewcollection »](function.oci-new-collection.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Порівнює два об'єкти LOB/FILE
-    
-
+---
+navigation:
+  - function.oci-lob-copy.html: « ocilobcopy
+  - function.oci-new-collection.html: ocinewcollection »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociлобісequal
+---
 # ociлобісequal
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

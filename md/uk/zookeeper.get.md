@@ -1,16 +1,11 @@
-Синхронно отримує дані, пов'язані з вузлом
-
--   [« Zookeeper::exists](zookeeper.exists.md)
-    
--   [Zookeeper::getAcl »](zookeeper.getacl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Синхронно отримує дані, пов'язані з вузлом
-    
-
+---
+navigation:
+  - zookeeper.exists.md: '« Zookeeper::exists'
+  - zookeeper.getacl.md: 'Zookeeper::getAcl »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::get'
+---
 # Zookeeper::get
 
 (PECL zookeeper >= 0.1.0)

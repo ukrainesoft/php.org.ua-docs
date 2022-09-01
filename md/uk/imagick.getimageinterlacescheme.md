@@ -1,16 +1,11 @@
-Отримує схему надрядкового зображення
-
--   [« Imagick::getImageIndex](imagick.getimageindex.html)
-    
--   [Imagick::getImageInterpolateMethod »](imagick.getimageinterpolatemethod.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Отримує схему надрядкового зображення
-    
-
+---
+navigation:
+  - imagick.getimageindex.html: '« Imagick::getImageIndex'
+  - imagick.getimageinterpolatemethod.html: 'Imagick::getImageInterpolateMethod »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageInterlaceScheme'
+---
 # Imagick::getImageInterlaceScheme
 
 (PECL imagick 2, PECL imagick 3)

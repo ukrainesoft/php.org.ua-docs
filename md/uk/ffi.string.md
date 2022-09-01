@@ -1,16 +1,11 @@
-Створює рядок PHP з пам'яті
-
--   [« FFI::sizeof](ffi.sizeof.md)
-    
--   [FFI::type »](ffi.type.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](class.ffi.md)
-    
--   Створює рядок PHP з пам'яті
-    
-
+---
+navigation:
+  - ffi.sizeof.md: '« FFI::sizeof'
+  - ffi.type.md: 'FFI::type »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
+title: 'FFI::string'
+---
 # FFI::string
 
 (PHP 7> = 7.4.0, PHP 8)
@@ -41,6 +36,6 @@ public static FFI::string(FFI\CData &$ptr, ?int $size = null): string
 
 ### список змін
 
-| Версия | Описание                                                                     |
-|--------|------------------------------------------------------------------------------|
-|        | `size` тепер припускає значення null; раніше значенням за умовчанням був `0` |
+| Версия | Описание |
+| --- | --- |
+|  | `size` тепер припускає значення null; раніше значенням за умовчанням був `0` |

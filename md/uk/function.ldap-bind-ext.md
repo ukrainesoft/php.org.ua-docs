@@ -1,16 +1,11 @@
-Прив'язати до директорії LDAP
-
--   [« ldapadd](function.ldap-add.html)
-    
--   [ldapbind »](function.ldap-bind.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Прив'язати до директорії LDAP
-    
-
+---
+navigation:
+  - function.ldap-add.html: « ldapadd
+  - function.ldap-bind.html: ldapbind »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapbindext
+---
 # ldapbindext
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -35,11 +30,11 @@ ldap_bind_ext(    LDAP\Connection $ldap,    ?string $dn = null,    ?
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                            |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 
 ### Дивіться також
 

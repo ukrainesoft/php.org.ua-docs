@@ -1,16 +1,11 @@
-Відновлює отримання даних
-
--   [« SwooleClient::recv](swoole-client.recv.html)
-    
--   [SwooleClient::send »](swoole-client.send.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Відновлює отримання даних
-    
-
+---
+navigation:
+  - swoole-client.recv.html: '« SwooleClient::recv'
+  - swoole-client.send.html: 'SwooleClient::send »'
+  - index.md: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::resume'
+---
 # SwooleClient::resume
 
 (PECL swoole >= 1.9.0)

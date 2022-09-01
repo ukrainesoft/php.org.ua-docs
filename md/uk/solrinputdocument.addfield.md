@@ -1,16 +1,11 @@
-Додає поле до документа
-
--   [« SolrInputDocument::addChildDocuments](solrinputdocument.addchilddocuments.html)
-    
--   [SolrInputDocument::clear »](solrinputdocument.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Додає поле до документа
-    
-
+---
+navigation:
+  - solrinputdocument.addchilddocuments.html: '« SolrInputDocument::addChildDocuments'
+  - solrinputdocument.clear.html: 'SolrInputDocument::clear »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::addField'
+---
 # SolrInputDocument::addField
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Представляє об'єкт у вигляді рядка
-
--   [« Serializable](class.serializable.md)
-    
--   [Serializable::unserialize »](serializable.unserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Serializable](class.serializable.md)
-    
--   Представляє об'єкт у вигляді рядка
-    
-
+---
+navigation:
+  - class.serializable.md: « Serializable
+  - serializable.unserialize.md: 'Serializable::unserialize »'
+  - index.md: PHP Manual
+  - class.serializable.md: Serializable
+title: 'Serializable::serialize'
+---
 # Serializable::serialize
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

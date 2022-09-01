@@ -1,16 +1,11 @@
-Отримати параметри конфігурації поточного екземпляра varnish
-
--   [« VarnishAdmin::getPanic](varnishadmin.getpanic.md)
-    
--   [VarnishAdmin::isRunning »](varnishadmin.isrunning.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Отримати параметри конфігурації поточного екземпляра varnish
-    
-
+---
+navigation:
+  - varnishadmin.getpanic.md: '« VarnishAdmin::getPanic'
+  - varnishadmin.isrunning.md: 'VarnishAdmin::isRunning »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::getParams'
+---
 # VarnishAdmin::getParams
 
 (PECL varnish >= 0.4)

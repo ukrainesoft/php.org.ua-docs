@@ -1,16 +1,11 @@
-Видаляє та повертає значення з найвищим пріоритетом
-
--   [« DsPriorityQueue::peek](ds-priorityqueue.peek.html)
-    
--   [ДсPriorityQueue::push »](ds-priorityqueue.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Видаляє та повертає значення з найвищим пріоритетом
-    
-
+---
+navigation:
+  - ds-priorityqueue.peek.html: '« DsPriorityQueue::peek'
+  - ds-priorityqueue.push.html: 'ДсPriorityQueue::push »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::pop'
+---
 # ДсPriorityQueue::pop
 
 (PECL ds >= 1.0.0)

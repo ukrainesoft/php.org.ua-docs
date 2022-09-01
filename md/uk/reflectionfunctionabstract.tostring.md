@@ -1,16 +1,11 @@
-Перетворення на рядок
-
--   [« ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md)
-    
--   [ReflectionMethod »](class.reflectionmethod.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перетворення на рядок
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.returnsreference.md: '« ReflectionFunctionAbstract::returnsReference'
+  - class.reflectionmethod.md: ReflectionMethod »
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::toString'
+---
 # ReflectionFunctionAbstract::toString
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

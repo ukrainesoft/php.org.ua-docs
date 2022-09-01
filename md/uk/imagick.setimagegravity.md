@@ -1,16 +1,11 @@
-Встановлює гравітацію зображення
-
--   [« Imagick::setImageGamma](imagick.setimagegamma.md)
-    
--   [Imagick::setImageGreenPrimary »](imagick.setimagegreenprimary.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює гравітацію зображення
-    
-
+---
+navigation:
+  - imagick.setimagegamma.md: '« Imagick::setImageGamma'
+  - imagick.setimagegreenprimary.md: 'Imagick::setImageGreenPrimary »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageGravity'
+---
 # Imagick::setImageGravity
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

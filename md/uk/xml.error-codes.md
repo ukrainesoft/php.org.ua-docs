@@ -1,16 +1,11 @@
-Коди помилок
-
--   [« Приведення до одного регістру](xml.case-folding.html)
-    
--   [Кодування символів »](xml.encoding.md)
-    
--   [PHP Manual](index.md)
-    
--   [Разбор XML](book.xml.md)
-    
--   Коди помилок
-    
-
+---
+navigation:
+  - xml.case-folding.html: « Приведення до одного регістру
+  - xml.encoding.md: Кодування символів »
+  - index.md: PHP Manual
+  - book.xml.md: Разбор XML
+title: Коди помилок
+---
 # Коди помилок
 
 Наступні константи визначені для кодів помилок XML (повертаються функцією) [xmlparse()](function.xml-parse.html)

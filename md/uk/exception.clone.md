@@ -1,16 +1,11 @@
-Клонувати виняток
-
--   [« Exception::toString](exception.tostring.md)
-    
--   [ErrorException »](class.errorexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [Exception](class.exception.md)
-    
--   Клонувати виняток
-    
-
+---
+navigation:
+  - exception.tostring.md: '« Exception::toString'
+  - class.errorexception.md: ErrorException »
+  - index.md: PHP Manual
+  - class.exception.md: Exception
+title: 'Exception::clone'
+---
 # Exception::clone
 
 (PHP 5, PHP 7, PHP 8)
@@ -39,6 +34,6 @@ private Exception::__clone(): void
 
 ### список змін
 
-| Версия | Описание                                                     |
-|--------|--------------------------------------------------------------|
-|        | Метод **Exception::clone()** більше не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод **Exception::clone()** більше не є остаточним (final). |

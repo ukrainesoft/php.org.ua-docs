@@ -1,16 +1,11 @@
-Позначити повідомлення для видалення
-
--   [« imapcreatemailbox](function.imap-createmailbox.html)
-    
--   [imapdeletemailbox »](function.imap-deletemailbox.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Позначити повідомлення для видалення
-    
-
+---
+navigation:
+  - function.imap-createmailbox.html: « imapcreatemailbox
+  - function.imap-deletemailbox.html: imapdeletemailbox »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapdelete
+---
 # imapdelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

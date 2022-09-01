@@ -1,16 +1,11 @@
-Повертає номер останнього рядка
-
--   [« ReflectionClass::getDocComment](reflectionclass.getdoccomment.md)
-    
--   [ReflectionClass::getExtension »](reflectionclass.getextension.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає номер останнього рядка
-    
-
+---
+navigation:
+  - reflectionclass.getdoccomment.md: '« ReflectionClass::getDocComment'
+  - reflectionclass.getextension.md: 'ReflectionClass::getExtension »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getEndLine'
+---
 # ReflectionClass::getEndLine
 
 (PHP 5, PHP 7, PHP 8)

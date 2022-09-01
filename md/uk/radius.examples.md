@@ -1,16 +1,11 @@
-Приклади
-
--   [Атрибути RADIUS специфічні для різних виробників.](radius.constants.vendor-specific.html)
-    
--   [Функции Radius »](ref.radius.md)
-    
--   [PHP Manual](index.md)
-    
--   [Radius](book.radius.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - radius.constants.vendor-specific.html: Атрибути RADIUS специфічні для різних виробників.
+  - ref.radius.md: Функции Radius »
+  - index.md: PHP Manual
+  - book.radius.md: Radius
+title: Приклади
+---
 # Приклади
 
 Як почати?

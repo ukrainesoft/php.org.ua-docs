@@ -1,16 +1,11 @@
-Змінює користувача у безпечній базі даних
-
--   [« ibasemaintainдб](function.ibase-maintain-db.html)
-    
--   [ibasenameresult »](function.ibase-name-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Змінює користувача у безпечній базі даних
-    
-
+---
+navigation:
+  - function.ibase-maintain-db.html: « ibasemaintainдб
+  - function.ibase-name-result.html: ibasenameresult »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasemodifyuser
+---
 # ibasemodifyuser
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Інтерфейс MongoDBBSONType
-
--   [« MongoDBBSONUTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.html)
-    
--   [MongoDBBSONPersistable »](class.mongodb-bson-persistable.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Інтерфейс MongoDBBSONType
-    
-
+---
+navigation:
+  - mongodb-bson-utcdatetime.unserialize.html: '« MongoDBBSONUTCDateTime::unserialize'
+  - class.mongodb-bson-persistable.html: MongoDBBSONPersistable »
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONType
+---
 # Інтерфейс MongoDBBSONType
 
 (mongodb >=1.0.0)

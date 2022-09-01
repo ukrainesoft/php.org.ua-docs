@@ -1,16 +1,11 @@
-Повертає відповідним чином локалізоване ім'я мови для заданої локалі
-
--   [« Locale::getDefault](locale.getdefault.html)
-    
--   [Locale::getDisplayName »](locale.getdisplayname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Locale](class.locale.html)
-    
--   Повертає відповідним чином локалізоване ім'я мови для заданої локалі
-    
-
+---
+navigation:
+  - locale.getdefault.html: '« Locale::getDefault'
+  - locale.getdisplayname.html: 'Locale::getDisplayName »'
+  - index.html: PHP Manual
+  - class.locale.html: Locale
+title: 'Locale::getDisplayLanguage'
+---
 # Locale::getDisplayLanguage
 
 # localegetdisplaylanguage
@@ -51,9 +46,9 @@ locale_get_display_language(string $locale, ?string $displayLocale = null): stri
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `displayLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 

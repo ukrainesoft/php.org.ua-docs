@@ -1,16 +1,13 @@
-Огляд архітектури драйвера та її особливостей
-
--   [« Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
-    
--   [Архитектура »](mongodb.overview.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDB](set.mongodb.html)
-    
--   Огляд архітектури драйвера та її особливостей
-    
-
+---
+navigation:
+  - mongodb.tutorial.apm.html: >-
+      « Моніторинг продуктивності програми (Application Performance Monitoring
+      або APM)
+  - mongodb.overview.html: Архитектура »
+  - index.html: PHP Manual
+  - set.mongodb.html: MongoDB
+title: Огляд архітектури драйвера та її особливостей
+---
 # Огляд архітектури драйвера та її особливостей
 
 -   [Архитектура](mongodb.overview.html) - Огляд архітектури

@@ -1,16 +1,11 @@
-Визволяє ресурси, пов'язані з цим об'єктом
-
--   [« ImagickPixel::construct](imagickpixel.construct.html)
-    
--   [ImagickPixel::getColor »](imagickpixel.getcolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Визволяє ресурси, пов'язані з цим об'єктом
-    
-
+---
+navigation:
+  - imagickpixel.construct.html: '« ImagickPixel::construct'
+  - imagickpixel.getcolor.html: 'ImagickPixel::getColor »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::destroy'
+---
 # ImagickPixel::destroy
 
 (PECL imagick 2, PECL imagick 3)

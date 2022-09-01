@@ -1,16 +1,11 @@
-Повертає інформацію про права на файл
-
--   [« fileowner](function.fileowner.html)
-    
--   [filesize »](function.filesize.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Повертає інформацію про права на файл
-    
-
+---
+navigation:
+  - function.fileowner.html: « fileowner
+  - function.filesize.html: filesize »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: fileperms
+---
 # fileperms
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

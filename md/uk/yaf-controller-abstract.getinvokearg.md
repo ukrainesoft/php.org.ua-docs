@@ -1,16 +1,11 @@
-Призначення getInvokeArg
-
--   [« YafControllerAbstract::forward](yaf-controller-abstract.forward.html)
-    
--   [YafControllerAbstract::getInvokeArgs »](yaf-controller-abstract.getinvokeargs.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Призначення getInvokeArg
-    
-
+---
+navigation:
+  - yaf-controller-abstract.forward.html: '« YafControllerAbstract::forward'
+  - yaf-controller-abstract.getinvokeargs.html: 'YafControllerAbstract::getInvokeArgs »'
+  - index.html: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::getInvokeArg'
+---
 # YafControllerAbstract::getInvokeArg
 
 (Yaf >=1.0.0)

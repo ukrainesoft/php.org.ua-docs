@@ -1,16 +1,11 @@
-Повертає метадані результуючої таблиці запиту, що готується.
-
--   [« mysqlistmt::reset](mysqli-stmt.reset.html)
-    
--   [mysqlistmt::sendlongdata »](mysqli-stmt.send-long-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає метадані результуючої таблиці запиту, що готується.
-    
-
+---
+navigation:
+  - mysqli-stmt.reset.html: '« mysqlistmt::reset'
+  - mysqli-stmt.send-long-data.html: 'mysqlistmt::sendlongdata »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::resultmetadata'
+---
 # mysqlistmt::resultmetadata
 
 # mysqlistmtresultmetadata

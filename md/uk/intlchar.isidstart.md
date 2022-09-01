@@ -1,16 +1,11 @@
-Перевірити, чи можна використовувати символ на початку ідентифікатора
-
--   [« IntlChar::isIDPart](intlchar.isidpart.md)
-    
--   [IntlChar::isISOControl »](intlchar.isisocontrol.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи можна використовувати символ на початку ідентифікатора
-    
-
+---
+navigation:
+  - intlchar.isidpart.md: '« IntlChar::isIDPart'
+  - intlchar.isisocontrol.md: 'IntlChar::isISOControl »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isIDStart'
+---
 # IntlChar::isIDStart
 
 (PHP 7, PHP 8)

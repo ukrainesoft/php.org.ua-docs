@@ -1,16 +1,11 @@
-Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
-
--   [« fanncreateshortcutarray](function.fann-create-shortcut-array.html)
-    
--   [fanncreatesparsearray »](function.fann-create-sparse-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
-    
-
+---
+navigation:
+  - function.fann-create-shortcut-array.html: « fanncreateshortcutarray
+  - function.fann-create-sparse-array.html: fanncreatesparsearray »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncreateshortcut
+---
 # fanncreateshortcut
 
 (PECL fann> = 1.0.0)

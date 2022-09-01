@@ -1,16 +1,11 @@
-Повертає дані Binary
-
--   [« MongoDBBSONBinary::serialize](mongodb-bson-binary.serialize.html)
-    
--   [MongoDBBSONBinary::unserialize »](mongodb-bson-binary.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   Повертає дані Binary
-    
-
+---
+navigation:
+  - mongodb-bson-binary.serialize.html: '« MongoDBBSONBinary::serialize'
+  - mongodb-bson-binary.unserialize.html: 'MongoDBBSONBinary::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::toString'
+---
 # MongoDBBSONBinary::toString
 
 (mongodb >=1.2.0)

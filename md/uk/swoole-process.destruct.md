@@ -1,16 +1,11 @@
-Знищує процес
-
--   [« SwooleProcess::daemon](swoole-process.daemon.html)
-    
--   [SwooleProcess::exec »](swoole-process.exec.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Знищує процес
-    
-
+---
+navigation:
+  - swoole-process.daemon.html: '« SwooleProcess::daemon'
+  - swoole-process.exec.html: 'SwooleProcess::exec »'
+  - index.md: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::destruct'
+---
 # SwooleProcess::destruct
 
 (PECL swoole >= 1.9.0)

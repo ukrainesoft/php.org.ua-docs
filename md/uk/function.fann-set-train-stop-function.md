@@ -1,16 +1,11 @@
-Встановлює функцію зупинки під час тренування.
-
--   [« fannsettrainerrorfunction](function.fann-set-train-error-function.html)
-    
--   [fannsettrainingalgorithm »](function.fann-set-training-algorithm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює функцію зупинки під час тренування.
-    
-
+---
+navigation:
+  - function.fann-set-train-error-function.html: « fannsettrainerrorfunction
+  - function.fann-set-training-algorithm.html: fannsettrainingalgorithm »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsettrainstopfunction
+---
 # fannsettrainstopfunction
 
 (PECL fann> = 1.0.0)

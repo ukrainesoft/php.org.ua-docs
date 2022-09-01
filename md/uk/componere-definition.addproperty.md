@@ -1,16 +1,11 @@
-Додає властивість
-
--   [« ComponereDefinition::addConstant](componere-definition.addconstant.html)
-    
--   [ComponereDefinition::register »](componere-definition.register.html)
-    
--   [PHP Manual](index.html)
-    
--   [ComponereDefinition](class.componere-definition.html)
-    
--   Додає властивість
-    
-
+---
+navigation:
+  - componere-definition.addconstant.html: '« ComponereDefinition::addConstant'
+  - componere-definition.register.html: 'ComponereDefinition::register »'
+  - index.html: PHP Manual
+  - class.componere-definition.html: ComponereDefinition
+title: 'ComponereDefinition::addProperty'
+---
 # ComponereDefinition::addProperty
 
 (Componere 2 >= 2.1.0)

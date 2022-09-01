@@ -1,16 +1,11 @@
-Вибирає заголовки групи за максимальним значенням числового поля або запиту функції
-
--   [« SolrCollapseFunction::setHint](solrcollapsefunction.sethint.html)
-    
--   [SolrCollapseFunction::setMin »](solrcollapsefunction.setmin.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.html)
-    
--   Вибирає заголовки групи за максимальним значенням числового поля або запиту функції
-    
-
+---
+navigation:
+  - solrcollapsefunction.sethint.html: '« SolrCollapseFunction::setHint'
+  - solrcollapsefunction.setmin.html: 'SolrCollapseFunction::setMin »'
+  - index.html: PHP Manual
+  - class.solrcollapsefunction.html: SolrCollapseFunction
+title: 'SolrCollapseFunction::setMax'
+---
 # SolrCollapseFunction::setMax
 
 (PECL solr> = 2.2.0)

@@ -1,16 +1,11 @@
-Функції SQLSRV
-
--   [« Обумовлені константи](sqlsrv.constants.html)
-    
--   [sqlsrvbegintransaction »](function.sqlsrv-begin-transaction.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLSRV](book.sqlsrv.html)
-    
--   Функції SQLSRV
-    
-
+---
+navigation:
+  - sqlsrv.constants.html: « Обумовлені константи
+  - function.sqlsrv-begin-transaction.html: sqlsrvbegintransaction »
+  - index.html: PHP Manual
+  - book.sqlsrv.html: SQLSRV
+title: Функції SQLSRV
+---
 # Функції SQLSRV
 
 ## Зміст

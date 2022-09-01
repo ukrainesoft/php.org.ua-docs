@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](datetime.resources.md)
-    
--   [Приклади »](datetime.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Дата/время](book.datetime.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - datetime.resources.md: « Типи ресурсів
+  - datetime.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 [Константи`DATE_`](class.datetimeinterface.html#datetime.constants.types) пропонують стандартні уявлення дати, які можуть бути використані разом із функціями форматування дати (наприклад [date()](function.date.md)

@@ -1,16 +1,11 @@
-Інші зміни
-
--   [« Змінені функції](migration71.changed-functions.html)
-    
--   [Поддержка Windows »](migration71.windows-support.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
-    
--   Інші зміни
-    
-
+---
+navigation:
+  - migration71.changed-functions.html: « Змінені функції
+  - migration71.windows-support.html: Поддержка Windows »
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Інші зміни
+---
 ## Інші зміни
 
 ### Зауваження та попередження під час виконання арифметичних операцій з некоректними рядками

@@ -1,16 +1,11 @@
-Псевдонім OCICollection::assignElem
-
--   [« ocicollassign](function.ocicollassign.html)
-    
--   [ocicollgetelem »](function.ocicollgetelem.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім OCICollection::assignElem
-    
-
+---
+navigation:
+  - function.ocicollassign.html: « ocicollassign
+  - function.ocicollgetelem.html: ocicollgetelem »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocicollassignelem
+---
 # ocicollassignelem
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

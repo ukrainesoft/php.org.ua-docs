@@ -1,16 +1,11 @@
-Отримує вбудоване прев'ю зображення
-
--   [« exiftagname](function.exif-tagname.html)
-    
--   [readexifdata »](function.read-exif-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Exif Функції](ref.exif.html)
-    
--   Отримує вбудоване прев'ю зображення
-    
-
+---
+navigation:
+  - function.exif-tagname.html: « exiftagname
+  - function.read-exif-data.html: readexifdata »
+  - index.html: PHP Manual
+  - ref.exif.html: Exif Функції
+title: exifthumbnail
+---
 # exifthumbnail
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ exif_thumbnail(    resource|string $file,    int &$width = null,    
 
 ### список змін
 
-| Версия | Описание                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------|
-|        | Параметр `file` перейменований на `stream` і може приймати як локальний шлях до файлу, і потоковий ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `file` перейменований на `stream` і може приймати як локальний шлях до файлу, і потоковий ресурс. |
 
 ### Приклади
 

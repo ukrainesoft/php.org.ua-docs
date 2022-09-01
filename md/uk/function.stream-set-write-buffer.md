@@ -1,16 +1,11 @@
-Встановлює буферизацію файлу під час запису у вказаний потік
-
--   [« streamsettimeout](function.stream-set-timeout.html)
-    
--   [streamsocketaccept »](function.stream-socket-accept.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Встановлює буферизацію файлу під час запису у вказаний потік
-    
-
+---
+navigation:
+  - function.stream-set-timeout.html: « streamsettimeout
+  - function.stream-socket-accept.html: streamsocketaccept »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamsetwritebuffer
+---
 # streamsetwritebuffer
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

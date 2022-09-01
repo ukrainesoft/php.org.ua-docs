@@ -1,16 +1,11 @@
-Приймає кілька змінних і, за потреби, фільтрує їх
-
--   [« filterlist](function.filter-list.html)
-    
--   [filtervar »](function.filter-var.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції фільтрації даних](ref.filter.html)
-    
--   Приймає кілька змінних і, за потреби, фільтрує їх
-    
-
+---
+navigation:
+  - function.filter-list.html: « filterlist
+  - function.filter-var.html: filtervar »
+  - index.html: PHP Manual
+  - ref.filter.html: Функції фільтрації даних
+title: filtervararray
+---
 # filtervararray
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

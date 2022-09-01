@@ -1,16 +1,11 @@
-Клас parallelRuntime
-
--   [« parallelrun](parallel.run.html)
-    
--   [parallelRuntime::construct »](parallel-runtime.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallel](book.parallel.html)
-    
--   Клас parallelRuntime
-    
-
+---
+navigation:
+  - parallel.run.html: « parallelrun
+  - parallel-runtime.construct.html: 'parallelRuntime::construct »'
+  - index.html: PHP Manual
+  - book.parallel.html: parallel
+title: Клас parallelRuntime
+---
 # Клас parallelRuntime
 
 ## Об'єкти під час виконання

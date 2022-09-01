@@ -1,16 +1,11 @@
-Повертає прапори, пов'язані із зазначеним полем результату запиту
-
--   [« mysqlfetchrow](function.mysql-fetch-row.html)
-    
--   [mysqlfieldlen »](function.mysql-field-len.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає прапори, пов'язані із зазначеним полем результату запиту
-    
-
+---
+navigation:
+  - function.mysql-fetch-row.html: « mysqlfetchrow
+  - function.mysql-field-len.html: mysqlfieldlen »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlfieldflags
+---
 # mysqlfieldflags
 
 (PHP 4, PHP 5)

@@ -1,16 +1,11 @@
-Повертає дані про MySQL-клієнт
-
--   [« mysqlfreeresult](function.mysql-free-result.html)
-    
--   [mysqlgethostinfo »](function.mysql-get-host-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає дані про MySQL-клієнт
-    
-
+---
+navigation:
+  - function.mysql-free-result.html: « mysqlfreeresult
+  - function.mysql-get-host-info.html: mysqlgethostinfo »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlgetclientinfo
+---
 # mysqlgetclientinfo
 
 (PHP 4> = 4.0.5, PHP 5)

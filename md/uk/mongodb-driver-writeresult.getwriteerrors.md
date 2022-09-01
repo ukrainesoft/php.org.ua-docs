@@ -1,16 +1,11 @@
-Повертає будь-які помилки запису, що відбулися
-
--   [« MongoDBDriverWriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.html)
-    
--   [MongoDBDriverWriteResult::isAcknowledged »](mongodb-driver-writeresult.isacknowledged.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає будь-які помилки запису, що відбулися
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getwriteconcernerror.html: '« MongoDBDriverWriteResult::getWriteConcernError'
+  - mongodb-driver-writeresult.isacknowledged.html: 'MongoDBDriverWriteResult::isAcknowledged »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getWriteErrors'
+---
 # MongoDBDriverWriteResult::getWriteErrors
 
 (mongodb >=1.0.0)

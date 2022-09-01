@@ -1,16 +1,11 @@
-Відкат транзакції
-
--   [« PDO::quote](pdo.quote.md)
-    
--   [PDO::setAttribute »](pdo.setattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Відкат транзакції
-    
-
+---
+navigation:
+  - pdo.quote.md: '« PDO::quote'
+  - pdo.setattribute.md: 'PDO::setAttribute »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::rollBack'
+---
 # PDO::rollBack
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

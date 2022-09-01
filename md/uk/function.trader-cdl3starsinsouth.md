@@ -1,16 +1,11 @@
-Три південні зірки
-
--   [« tradercdl3outside](function.trader-cdl3outside.html)
-    
--   [tradercdl3whitesoldiers »](function.trader-cdl3whitesoldiers.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Три південні зірки
-    
-
+---
+navigation:
+  - function.trader-cdl3outside.html: « tradercdl3outside
+  - function.trader-cdl3whitesoldiers.html: tradercdl3whitesoldiers »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdl3starsinsouth
+---
 # tradercdl3starsinsouth
 
 (PECL trader >= 0.2.0)

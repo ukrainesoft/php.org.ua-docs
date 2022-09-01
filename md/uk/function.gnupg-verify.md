@@ -1,16 +1,11 @@
-Перевіряє підпис тексту
-
--   [« gnupgsign](function.gnupg-sign.html)
-    
--   [wkhtmltox »](book.wkhtmltox.html)
-    
--   [PHP Manual](index.html)
-    
--   [GnuPG Функції](ref.gnupg.html)
-    
--   Перевіряє підпис тексту
-    
-
+---
+navigation:
+  - function.gnupg-sign.html: « gnupgsign
+  - book.wkhtmltox.html: wkhtmltox »
+  - index.html: PHP Manual
+  - ref.gnupg.html: GnuPG Функції
+title: gnupgverify
+---
 # gnupgverify
 
 (PECL gnupg >= 0.1)

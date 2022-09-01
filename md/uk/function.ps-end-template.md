@@ -1,16 +1,11 @@
-Завершує шаблон
-
--   [«psendpattern](function.ps-end-pattern.html)
-    
--   [псfillstroke »](function.ps-fill-stroke.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Завершує шаблон
-    
-
+---
+navigation:
+  - function.ps-end-pattern.html: «psendpattern
+  - function.ps-fill-stroke.html: псfillstroke »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псendtemplate
+---
 # псendtemplate
 
 (PECL ps >= 1.2.0)

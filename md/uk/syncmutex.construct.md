@@ -1,16 +1,11 @@
-Створює новий об'єкт SyncMutex
-
--   [« SyncMutex](class.syncmutex.md)
-    
--   [SyncMutex::lock »](syncmutex.lock.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncMutex](class.syncmutex.md)
-    
--   Створює новий об'єкт SyncMutex
-    
-
+---
+navigation:
+  - class.syncmutex.md: « SyncMutex
+  - syncmutex.lock.md: 'SyncMutex::lock »'
+  - index.md: PHP Manual
+  - class.syncmutex.md: SyncMutex
+title: 'SyncMutex::construct'
+---
 # SyncMutex::construct
 
 (PECL sync >= 1.0.0)

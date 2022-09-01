@@ -1,16 +1,11 @@
-Callback-функція, що перетворює кодування символів у вихідному буфері
-
--   [« mbord](function.mb-ord.html)
-    
--   [мбparsestr »](function.mb-parse-str.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Callback-функція, що перетворює кодування символів у вихідному буфері
-    
-
+---
+navigation:
+  - function.mb-ord.html: « mbord
+  - function.mb-parse-str.html: мбparsestr »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбoutputhandler
+---
 # мбoutputhandler
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

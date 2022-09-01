@@ -1,16 +1,11 @@
-Закриття клієнта
-
--   [« mysqlxdevapiClient](class.mysql-xdevapi-client.html)
-    
--   [Client::construct »](mysql-xdevapi-client.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiClient](class.mysql-xdevapi-client.html)
-    
--   Закриття клієнта
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-client.html: « mysqlxdevapiClient
+  - mysql-xdevapi-client.construct.html: 'Client::construct »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-client.html: mysqlxdevapiClient
+title: 'mysqlxdevapiClient::close'
+---
 # mysqlxdevapiClient::close
 
 (No version information available, might only be in Git)

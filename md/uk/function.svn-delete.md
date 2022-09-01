@@ -1,16 +1,11 @@
-Видаляє елементи з робочої копії або репозиторію
-
--   [« svncommit](function.svn-commit.html)
-    
--   [svndiff »](function.svn-diff.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Видаляє елементи з робочої копії або репозиторію
-    
-
+---
+navigation:
+  - function.svn-commit.html: « svncommit
+  - function.svn-diff.html: svndiff »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svndelete
+---
 # svndelete
 
 (PECL svn >= 0.4.0)

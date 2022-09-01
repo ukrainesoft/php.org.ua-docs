@@ -1,16 +1,11 @@
-Примушує бібліотеку читати цей файл конфігурації
-
--   [« radiusclose](function.radius-close.html)
-    
--   [radiuscreaterequest »](function.radius-create-request.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Примушує бібліотеку читати цей файл конфігурації
-    
-
+---
+navigation:
+  - function.radius-close.html: « radiusclose
+  - function.radius-create-request.html: radiuscreaterequest »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusconfig
+---
 # radiusconfig
 
 (PECL radius >= 1.1.0)

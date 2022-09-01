@@ -1,16 +1,11 @@
-Клас Lua
-
--   [« Типи ресурсів](lua.resources.html)
-    
--   [Lua::assign »](lua.assign.html)
-    
--   [PHP Manual](index.html)
-    
--   [Lua](book.lua.html)
-    
--   Клас Lua
-    
-
+---
+navigation:
+  - lua.resources.html: « Типи ресурсів
+  - lua.assign.html: 'Lua::assign »'
+  - index.html: PHP Manual
+  - book.lua.html: Lua
+title: Клас Lua
+---
 # Клас Lua
 
 (PECL lua> = 0.9.0)

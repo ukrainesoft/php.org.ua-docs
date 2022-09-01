@@ -1,16 +1,11 @@
-Повертає текст, який з'являється після виділеного виразу
-
--   [« SolrQuery::getHighlightRequireFieldMatch](solrquery.gethighlightrequirefieldmatch.html)
-    
--   [SolrQuery::getHighlightSimplePre »](solrquery.gethighlightsimplepre.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає текст, який з'являється після виділеного виразу
-    
-
+---
+navigation:
+  - solrquery.gethighlightrequirefieldmatch.html: '« SolrQuery::getHighlightRequireFieldMatch'
+  - solrquery.gethighlightsimplepre.html: 'SolrQuery::getHighlightSimplePre »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getHighlightSimplePost'
+---
 # SolrQuery::getHighlightSimplePost
 
 (PECL solr> = 0.9.2)

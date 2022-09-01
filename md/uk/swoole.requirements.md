@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](swoole.setup.md)
-    
--   [Установка »](swoole.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](swoole.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - swoole.setup.md: « Встановлення та налаштування
+  - swoole.installation.md: Установка »
+  - index.md: PHP Manual
+  - swoole.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

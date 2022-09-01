@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xml.md)
-    
--   [Вимоги »](xml.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Разбор XML](book.xml.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xml.md: « Введение
+  - xml.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.xml.md: Разбор XML
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

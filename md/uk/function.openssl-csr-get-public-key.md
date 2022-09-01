@@ -1,16 +1,11 @@
-Повертає відкритий ключ CSR
-
--   [« opensslcsrexport](function.openssl-csr-export.html)
-    
--   [opensslcsrgetsubject »](function.openssl-csr-get-subject.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Повертає відкритий ключ CSR
-    
-
+---
+navigation:
+  - function.openssl-csr-export.html: « opensslcsrexport
+  - function.openssl-csr-get-subject.html: opensslcsrgetsubject »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslcsrgetpublickey
+---
 # opensslcsrgetpublickey
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -43,10 +38,10 @@ openssl_csr_get_public_key(OpenSSLCertificateSigningRequest|string $csr, bool $s
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key`              |
-|        | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

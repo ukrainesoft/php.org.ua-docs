@@ -1,16 +1,11 @@
-Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
-
--   [« isа](function.is-a.html)
-    
--   [methodexists »](function.method-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
-    
--   Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
-    
-
+---
+navigation:
+  - function.is-a.html: « isа
+  - function.method-exists.html: methodexists »
+  - index.html: PHP Manual
+  - ref.classobj.html: Функції роботи з класами та об'єктами
+title: ісsubclassоф
+---
 # ісsubclassоф
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

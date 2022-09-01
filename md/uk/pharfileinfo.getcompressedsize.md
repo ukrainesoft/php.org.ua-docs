@@ -1,16 +1,11 @@
-Отримати реальний розмір файлу на диску з урахуванням стиснення
-
--   [« PharFileInfo::getCRC32](pharfileinfo.getcrc32.html)
-    
--   [PharFileInfo::getContent »](pharfileinfo.getcontent.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharFileInfo](class.pharfileinfo.html)
-    
--   Отримати реальний розмір файлу на диску з урахуванням стиснення
-    
-
+---
+navigation:
+  - pharfileinfo.getcrc32.html: '« PharFileInfo::getCRC32'
+  - pharfileinfo.getcontent.html: 'PharFileInfo::getContent »'
+  - index.html: PHP Manual
+  - class.pharfileinfo.html: PharFileInfo
+title: 'PharFileInfo::getCompressedSize'
+---
 # PharFileInfo::getCompressedSize
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

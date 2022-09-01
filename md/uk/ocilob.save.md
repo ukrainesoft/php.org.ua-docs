@@ -1,16 +1,11 @@
-Зберігає дані в LOB
-
--   [« OCILob::rewind](ocilob.rewind.html)
-    
--   [OCILob::saveFile »](ocilob.savefile.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCILob](class.ocilob.html)
-    
--   Зберігає дані в LOB
-    
-
+---
+navigation:
+  - ocilob.rewind.html: '« OCILob::rewind'
+  - ocilob.savefile.html: 'OCILob::saveFile »'
+  - index.html: PHP Manual
+  - class.ocilob.html: OCILob
+title: 'OCILob::save'
+---
 # OCILob::save
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -41,8 +36,8 @@ public OCILob::save(string $data, int $offset = 0): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

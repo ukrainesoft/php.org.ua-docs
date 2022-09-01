@@ -1,16 +1,11 @@
-Переказує кількість днів з юліанського календаря на дату за єврейським календарем
-
--   [« jdtogregorian](function.jdtogregorian.html)
-    
--   [jdtojulian »](function.jdtojulian.html)
-    
--   [PHP Manual](index.html)
-    
--   [Календарь](ref.calendar.html)
-    
--   Переказує кількість днів з юліанського календаря на дату за єврейським календарем
-    
-
+---
+navigation:
+  - function.jdtogregorian.html: « jdtogregorian
+  - function.jdtojulian.html: jdtojulian »
+  - index.html: PHP Manual
+  - ref.calendar.html: Календарь
+title: jdtojewish
+---
 # jdtojewish
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Класи типів BSON та функції серіалізації
-
--   [« MongoDBDriverWriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.html)
-    
--   [Функції »](ref.bson.functions.md)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDB](set.mongodb.md)
-    
--   Класи типів BSON та функції серіалізації
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.isacknowledged.html: '« MongoDBDriverWriteResult::isAcknowledged'
+  - ref.bson.functions.md: Функції »
+  - index.md: PHP Manual
+  - set.mongodb.md: MongoDB
+title: Класи типів BSON та функції серіалізації
+---
 # Класи типів BSON та функції серіалізації
 
 -   [Функції](ref.bson.functions.md)

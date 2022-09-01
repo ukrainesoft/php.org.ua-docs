@@ -1,16 +1,11 @@
-Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
-
--   [« openlog](function.openlog.md)
-    
--   [setcookie »](function.setcookie.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
-    
-
+---
+navigation:
+  - function.openlog.md: « openlog
+  - function.setcookie.md: setcookie »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: pfsockopen
+---
 # pfsockopen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ pfsockopen(    string $hostname,    int $port = -1,    int &$error_c
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `timeout` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timeout` тепер допускає значення null. |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Встановлює значення ключа /STATUS
-
--   [« fdfsetopt](function.fdf-set-opt.html)
-    
--   [fdfsetsubmitformaction »](function.fdf-set-submit-form-action.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Встановлює значення ключа /STATUS
-    
-
+---
+navigation:
+  - function.fdf-set-opt.html: « fdfsetopt
+  - function.fdf-set-submit-form-action.html: fdfsetsubmitformaction »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfsetstatus
+---
 # fdfsetstatus
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

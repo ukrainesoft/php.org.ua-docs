@@ -1,16 +1,11 @@
-Встановлює гравітацію
-
--   [« Imagick::setFormat](imagick.setformat.md)
-    
--   [Imagick::setImage »](imagick.setimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює гравітацію
-    
-
+---
+navigation:
+  - imagick.setformat.md: '« Imagick::setFormat'
+  - imagick.setimage.md: 'Imagick::setImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setGravity'
+---
 # Imagick::setGravity
 
 (PECL imagick 2> = 2.2.0, PECL imagick 3)

@@ -1,16 +1,11 @@
-Експортує функції
-
--   [« ReflectionFunction::construct](reflectionfunction.construct.html)
-    
--   [ReflectionFunction::getClosure »](reflectionfunction.getclosure.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunction](class.reflectionfunction.html)
-    
--   Експортує функції
-    
-
+---
+navigation:
+  - reflectionfunction.construct.html: '« ReflectionFunction::construct'
+  - reflectionfunction.getclosure.html: 'ReflectionFunction::getClosure »'
+  - index.html: PHP Manual
+  - class.reflectionfunction.html: ReflectionFunction
+title: 'ReflectionFunction::export'
+---
 # ReflectionFunction::export
 
 (PHP 5, PHP 7)

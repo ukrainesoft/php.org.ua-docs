@@ -1,16 +1,11 @@
-Вступ
-
--   [« SVN](book.svn.md)
-    
--   [Встановлення та налаштування »](svn.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVN](book.svn.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.svn.md: « SVN
+  - svn.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.svn.md: SVN
+title: Вступ
+---
 # Вступ
 
 Модуль реалізує роботу PHP з [» Subversion](http://subversion.apache.org/) (SVN), системою управління версіями, що дозволяє PHP-скриптам взаємодіяти з SVN-репозиторіями та робочими копіями без безпосереднього виклику утиліти svn з командного рядка.

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](phar.requirements.md)
-    
--   [Налаштування під час виконання »](phar.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](phar.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - phar.requirements.md: « Вимоги
+  - phar.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - phar.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Модуль Phar поставляється з PHP і включений за замовчуванням. Для відключення підтримки Phar, використовуйте **\-disable-phar**

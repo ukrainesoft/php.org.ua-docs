@@ -1,16 +1,11 @@
-Перевірити, чи підтримує обладнання AES256-GCM
-
--   [« sodiumcryptoaeadaes256gcmencrypt](function.sodium-crypto-aead-aes256gcm-encrypt.html)
-    
--   [sodiumcryptoaeadaes256gcmkeygen »](function.sodium-crypto-aead-aes256gcm-keygen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перевірити, чи підтримує обладнання AES256-GCM
-    
-
+---
+navigation:
+  - function.sodium-crypto-aead-aes256gcm-encrypt.html: « sodiumcryptoaeadaes256gcmencrypt
+  - function.sodium-crypto-aead-aes256gcm-keygen.html: sodiumcryptoaeadaes256gcmkeygen »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoaeadaes256gcmісavailable
+---
 # sodiumcryptoaeadaes256gcmісavailable
 
 (PHP 7> = 7.2.0, PHP 8)

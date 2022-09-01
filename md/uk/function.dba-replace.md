@@ -1,16 +1,11 @@
-Перезаписати або вставити запис
-
--   [« dbapopen](function.dba-popen.html)
-    
--   [dbasync »](function.dba-sync.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Перезаписати або вставити запис
-    
-
+---
+navigation:
+  - function.dba-popen.html: « dbapopen
+  - function.dba-sync.html: dbasync »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbareplace
+---
 # dbareplace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

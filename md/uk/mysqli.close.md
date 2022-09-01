@@ -1,16 +1,11 @@
-Закриває раніше відкрите з'єднання з базою даних
-
--   [« mysqli::charactersetname](mysqli.character-set-name.html)
-    
--   [mysqli::commit »](mysqli.commit.md)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Закриває раніше відкрите з'єднання з базою даних
-    
-
+---
+navigation:
+  - mysqli.character-set-name.html: '« mysqli::charactersetname'
+  - mysqli.commit.md: 'mysqli::commit »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::close'
+---
 # mysqli::close
 
 # mysqliclose

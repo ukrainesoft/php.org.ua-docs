@@ -1,16 +1,11 @@
-Отримання констант
-
--   [« ReflectionExtension::getClassNames](reflectionextension.getclassnames.md)
-    
--   [ReflectionExtension::getDependencies »](reflectionextension.getdependencies.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Отримання констант
-    
-
+---
+navigation:
+  - reflectionextension.getclassnames.md: '« ReflectionExtension::getClassNames'
+  - reflectionextension.getdependencies.md: 'ReflectionExtension::getDependencies »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::getConstants'
+---
 # ReflectionExtension::getConstants
 
 (PHP 5, PHP 7, PHP 8)

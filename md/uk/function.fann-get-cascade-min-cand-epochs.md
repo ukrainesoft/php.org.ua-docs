@@ -1,16 +1,11 @@
-Отримує найменший період кандидата
-
--   [« fanngetcascademaxoutepochs](function.fann-get-cascade-max-out-epochs.html)
-    
--   [fanngetcascademinoutepochs »](function.fann-get-cascade-min-out-epochs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Отримує найменший період кандидата
-    
-
+---
+navigation:
+  - function.fann-get-cascade-max-out-epochs.html: « fanngetcascademaxoutepochs
+  - function.fann-get-cascade-min-out-epochs.html: fanngetcascademinoutepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascademincandepochs
+---
 # fanngetcascademincandepochs
 
 (PECL fann> = 1.0.0)

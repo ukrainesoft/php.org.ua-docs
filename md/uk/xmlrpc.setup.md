@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xmlrpc.html)
-    
--   [Вимоги »](xmlrpc.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [XML-RPC](book.xmlrpc.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xmlrpc.html: « Введение
+  - xmlrpc.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.xmlrpc.html: XML-RPC
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

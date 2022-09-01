@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](gmp.setup.html)
-    
--   [Установка »](gmp.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](gmp.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - gmp.setup.html: « Встановлення та налаштування
+  - gmp.installation.html: Установка »
+  - index.html: PHP Manual
+  - gmp.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Бібліотеку GMP можна завантажити тут [» http://gmplib.org/#DOWNLOAD](http://gmplib.org/#DOWNLOAD). На цьому сайті також є посібник з GMP.

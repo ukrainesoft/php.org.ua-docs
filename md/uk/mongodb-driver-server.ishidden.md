@@ -1,16 +1,11 @@
-Перевіряє, чи сервер прихованим членом набору реплік
-
--   [« MongoDBDriverServer::isArbiter](mongodb-driver-server.isarbiter.html)
-    
--   [MongoDBDriverServer::isPassive »](mongodb-driver-server.ispassive.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Перевіряє, чи сервер прихованим членом набору реплік
-    
-
+---
+navigation:
+  - mongodb-driver-server.isarbiter.html: '« MongoDBDriverServer::isArbiter'
+  - mongodb-driver-server.ispassive.html: 'MongoDBDriverServer::isPassive »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::isHidden'
+---
 # MongoDBDriverServer::isHidden
 
 (mongodb >=1.0.0)

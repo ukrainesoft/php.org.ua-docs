@@ -1,16 +1,11 @@
-Встановити тип авторизації
-
--   [« OAuth::getRequestToken](oauth.getrequesttoken.html)
-    
--   [OAuth::setCAPath »](oauth.setcapath.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Встановити тип авторизації
-    
-
+---
+navigation:
+  - oauth.getrequesttoken.html: '« OAuth::getRequestToken'
+  - oauth.setcapath.html: 'OAuth::setCAPath »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::setAuthType'
+---
 # OAuth::setAuthType
 
 (PECL OAuth >= 0.99.1)
@@ -53,6 +48,6 @@ public OAuth::setAuthType(int $auth_type): bool
 
 ### список змін
 
-| Версия           | Описание                                                                   |
-|------------------|----------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |

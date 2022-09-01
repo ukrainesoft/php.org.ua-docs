@@ -1,16 +1,11 @@
-Вийняти/декодувати секцію із повідомленням
-
--   [« mailparsemsgextractpartfile](function.mailparse-msg-extract-part-file.html)
-    
--   [mailparsemsgextractwholepartfile »](function.mailparse-msg-extract-whole-part-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Вийняти/декодувати секцію із повідомленням
-    
-
+---
+navigation:
+  - function.mailparse-msg-extract-part-file.html: « mailparsemsgextractpartfile
+  - function.mailparse-msg-extract-whole-part-file.html: mailparsemsgextractwholepartfile »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsgextractpart
+---
 # mailparsemsgextractpart
 
 (PECL mailparse >= 0.9.0)

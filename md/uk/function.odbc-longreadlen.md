@@ -1,16 +1,11 @@
-Обробляє стовпці LONG
-
--   [« odbcgettypeinfo](function.odbc-gettypeinfo.html)
-    
--   [odbcnextresult »](function.odbc-next-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Обробляє стовпці LONG
-    
-
+---
+navigation:
+  - function.odbc-gettypeinfo.html: « odbcgettypeinfo
+  - function.odbc-next-result.html: odbcnextresult »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbclongreadlen
+---
 # odbclongreadlen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

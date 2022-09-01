@@ -1,16 +1,11 @@
-Згортає набір результатів до одного документа на групу
-
--   [« SolrQuery::addStatsField](solrquery.addstatsfield.html)
-    
--   [SolrQuery::construct »](solrquery.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Згортає набір результатів до одного документа на групу
-    
-
+---
+navigation:
+  - solrquery.addstatsfield.html: '« SolrQuery::addStatsField'
+  - solrquery.construct.html: 'SolrQuery::construct »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::collapse'
+---
 # SolrQuery::collapse
 
 (No version information available, might only be in Git)

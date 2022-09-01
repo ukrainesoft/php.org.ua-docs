@@ -1,16 +1,11 @@
-Отримати статистику сервера
-
--   [« Memcache::getServerStatus](memcache.getserverstatus.md)
-    
--   [Memcache::getVersion »](memcache.getversion.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Отримати статистику сервера
-    
-
+---
+navigation:
+  - memcache.getserverstatus.md: '« Memcache::getServerStatus'
+  - memcache.getversion.md: 'Memcache::getVersion »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::getStats'
+---
 # Memcache::getStats
 
 (PECL memcache >= 0.2.0)

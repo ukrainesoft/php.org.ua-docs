@@ -1,16 +1,11 @@
-Виклик сервісу
-
--   [« YarClient](class.yar-client.html)
-    
--   [YarClient::construct »](yar-client.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YarClient](class.yar-client.html)
-    
--   Виклик сервісу
-    
-
+---
+navigation:
+  - class.yar-client.html: « YarClient
+  - yar-client.construct.html: 'YarClient::construct »'
+  - index.md: PHP Manual
+  - class.yar-client.html: YarClient
+title: 'YarClient::call'
+---
 # YarClient::call
 
 (PECL yar >= 1.0.0)

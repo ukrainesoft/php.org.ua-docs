@@ -1,16 +1,11 @@
-Отримання класу, що оголошує
-
--   [« ReflectionProperty::getAttributes](reflectionproperty.getattributes.md)
-    
--   [ReflectionProperty::getDefaultValue »](reflectionproperty.getdefaultvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Отримання класу, що оголошує
-    
-
+---
+navigation:
+  - reflectionproperty.getattributes.md: '« ReflectionProperty::getAttributes'
+  - reflectionproperty.getdefaultvalue.md: 'ReflectionProperty::getDefaultValue »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getDeclaringClass'
+---
 # ReflectionProperty::getDeclaringClass
 
 (PHP 5, PHP 7, PHP 8)

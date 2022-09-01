@@ -1,16 +1,11 @@
-Створює новий Undefined (не використовується)
-
--   [« MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
-    
--   [MongoDBBSONUndefined::jsonSerialize »](mongodb-bson-undefined.jsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONUndefined](class.mongodb-bson-undefined.html)
-    
--   Створює новий Undefined (не використовується)
-    
-
+---
+navigation:
+  - class.mongodb-bson-undefined.html: « MongoDBBSONUndefined
+  - mongodb-bson-undefined.jsonserialize.html: 'MongoDBBSONUndefined::jsonSerialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined
+title: 'MongoDBBSONUndefined::construct'
+---
 # MongoDBBSONUndefined::construct
 
 (mongodb >=1.4.0)

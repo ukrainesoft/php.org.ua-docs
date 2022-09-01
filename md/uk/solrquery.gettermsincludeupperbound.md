@@ -1,16 +1,11 @@
-Повертає, чи потрібно включати вираз верхнього кордону набір результатів
-
--   [« SolrQuery::getTermsIncludeLowerBound](solrquery.gettermsincludelowerbound.html)
-    
--   [SolrQuery::getTermsLimit »](solrquery.gettermslimit.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає, чи потрібно включати вираз верхнього кордону набір результатів
-    
-
+---
+navigation:
+  - solrquery.gettermsincludelowerbound.html: '« SolrQuery::getTermsIncludeLowerBound'
+  - solrquery.gettermslimit.html: 'SolrQuery::getTermsLimit »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTermsIncludeUpperBound'
+---
 # SolrQuery::getTermsIncludeUpperBound
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsQueue::allocate](ds-queue.allocate.html)
-    
--   [ДсQueue::clear »](ds-queue.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-queue.allocate.html: '« DsQueue::allocate'
+  - ds-queue.clear.html: 'ДсQueue::clear »'
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::capacity'
+---
 # ДсQueue::capacity
 
 (PECL ds >= 1.0.0)

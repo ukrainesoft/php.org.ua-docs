@@ -1,16 +1,11 @@
-Перетворення на рядок
-
--   [« ReflectionParameter::isVariadic](reflectionparameter.isvariadic.md)
-    
--   [ReflectionProperty »](class.reflectionproperty.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перетворення на рядок
-    
-
+---
+navigation:
+  - reflectionparameter.isvariadic.md: '« ReflectionParameter::isVariadic'
+  - class.reflectionproperty.md: ReflectionProperty »
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::toString'
+---
 # ReflectionParameter::toString
 
 (PHP 5, PHP 7, PHP 8)

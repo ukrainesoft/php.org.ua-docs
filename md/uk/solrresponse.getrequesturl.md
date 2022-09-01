@@ -1,16 +1,11 @@
-Повертає повну URL-адресу, на яку було надіслано запит
-
--   [« SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.html)
-    
--   [SolrResponse::getResponse »](solrresponse.getresponse.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrResponse](class.solrresponse.html)
-    
--   Повертає повну URL-адресу, на яку було надіслано запит
-    
-
+---
+navigation:
+  - solrresponse.getrawresponseheaders.html: '« SolrResponse::getRawResponseHeaders'
+  - solrresponse.getresponse.html: 'SolrResponse::getResponse »'
+  - index.html: PHP Manual
+  - class.solrresponse.html: SolrResponse
+title: 'SolrResponse::getRequestUrl'
+---
 # SolrResponse::getRequestUrl
 
 (PECL solr> = 0.9.2)

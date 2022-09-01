@@ -1,16 +1,11 @@
-Функції Seaslog
-
--   [« Приклади](seaslog.examples.md)
-    
--   [seasloggetauthor »](function.seaslog-get-author.html)
-    
--   [PHP Manual](index.md)
-    
--   [Seaslog](book.seaslog.md)
-    
--   Функції Seaslog
-    
-
+---
+navigation:
+  - seaslog.examples.md: « Приклади
+  - function.seaslog-get-author.html: seasloggetauthor »
+  - index.md: PHP Manual
+  - book.seaslog.md: Seaslog
+title: Функції Seaslog
+---
 # Функції Seaslog
 
 ## Зміст

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.funchand.md)
-    
--   [Вимоги »](funchand.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Управление функциями](book.funchand.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.funchand.md: « Введение
+  - funchand.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.funchand.md: Управление функциями
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

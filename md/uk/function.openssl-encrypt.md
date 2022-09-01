@@ -1,16 +1,11 @@
-Шифрує дані
-
--   [« openssldigest](function.openssl-digest.html)
-    
--   [opensslerrorstring »](function.openssl-error-string.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Шифрує дані
-    
-
+---
+navigation:
+  - function.openssl-digest.html: « openssldigest
+  - function.openssl-error-string.html: opensslerrorstring »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslencrypt
+---
 # opensslencrypt
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -71,9 +66,9 @@ openssl_encrypt(    string $data,    string $cipher_algo,    string 
 
 ### список змін
 
-| Версия | Описание                                    |
-|--------|---------------------------------------------|
-|        | Додані параметри `tag` `aad` і `tag_length` |
+| Версия | Описание |
+| --- | --- |
+|  | Додані параметри `tag` `aad` і `tag_length` |
 
 ### Приклади
 

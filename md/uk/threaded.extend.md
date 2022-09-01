@@ -1,16 +1,11 @@
-Обробка під час виконання
-
--   [« Threaded::count](threaded.count.md)
-    
--   [Threaded::isRunning »](thread.isrunning.md)
-    
--   [PHP Manual](index.md)
-    
--   [Threaded](class.threaded.md)
-    
--   Обробка під час виконання
-    
-
+---
+navigation:
+  - threaded.count.md: '« Threaded::count'
+  - thread.isrunning.md: 'Threaded::isRunning »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::extend'
+---
 # Threaded::extend
 
 (PECL pthreads >= 2.0.8)

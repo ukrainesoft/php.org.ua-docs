@@ -1,25 +1,20 @@
-Налаштування під час виконання
-
--   [« Сборка драйвера PHP MongoDB из исходного кода](mongodb.installation.manual.md)
-    
--   [Обумовлені константи »](mongodb.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mongodb.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - mongodb.installation.manual.md: « Сборка драйвера PHP MongoDB из исходного кода
+  - mongodb.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - mongodb.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 # Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування mongodb**
 
-| Имя                                                           | По умолчанию | Место изменения | Список изменений |
-|---------------------------------------------------------------|--------------|-----------------|------------------|
-| [mongodb.debug](mongodb.configuration.html#ini.mongodb.debug) | ""           | PHPINIALL       |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [mongodb.debug](mongodb.configuration.html#ini.mongodb.debug) | "" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

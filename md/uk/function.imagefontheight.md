@@ -1,16 +1,11 @@
-Отримання висоти шрифту
-
--   [« imageflip](function.imageflip.html)
-    
--   [imagefontwidth »](function.imagefontwidth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Отримання висоти шрифту
-    
-
+---
+navigation:
+  - function.imageflip.html: « imageflip
+  - function.imagefontwidth.html: imagefontwidth »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagefontheight
+---
 # imagefontheight
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ imagefontheight(GdFont|int $font): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.html), і ціле число (int); раніше приймалося лише ціле число (int). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.html), і ціле число (int); раніше приймалося лише ціле число (int). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Перемістити курсор на наступний вузол, пропускаючи всі піддерева
-
--   [« XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.md)
-    
--   [XMLReader::open »](xmlreader.open.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Перемістити курсор на наступний вузол, пропускаючи всі піддерева
-    
-
+---
+navigation:
+  - xmlreader.movetonextattribute.md: '« XMLReader::moveToNextAttribute'
+  - xmlreader.open.md: 'XMLReader::open »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::next'
+---
 # XMLReader::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public XMLReader::next(?string $name = null): bool
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `name` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Дивіться також
 

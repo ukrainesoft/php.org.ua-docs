@@ -1,16 +1,11 @@
-Вимкнення можливості завантаження сутностей із зовнішніх джерел
-
--   [« libxmlclearerrors](function.libxml-clear-errors.html)
-    
--   [libxmlgeterrors »](function.libxml-get-errors.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції libxml](ref.libxml.md)
-    
--   Вимкнення можливості завантаження сутностей із зовнішніх джерел
-    
-
+---
+navigation:
+  - function.libxml-clear-errors.html: « libxmlclearerrors
+  - function.libxml-get-errors.html: libxmlgeterrors »
+  - index.md: PHP Manual
+  - ref.libxml.md: Функції libxml
+title: libxmldisableentityloader
+---
 # libxmldisableentityloader
 
 (PHP 5> = 5.2.11, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Видаляє збережене значення з кешу
-
--   [« apcudec](function.apcu-dec.html)
-    
--   [apcuenabled »](function.apcu-enabled.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Видаляє збережене значення з кешу
-    
-
+---
+navigation:
+  - function.apcu-dec.html: « apcudec
+  - function.apcu-enabled.html: apcuenabled »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcudelete
+---
 # apcudelete
 
 (PECL apcu >= 4.0.0)

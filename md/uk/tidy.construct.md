@@ -1,16 +1,11 @@
-Створює новий tidy-об'єкт
-
--   [« tidy::cleanRepair](tidy.cleanrepair.md)
-    
--   [tidy::diagnose »](tidy.diagnose.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Створює новий tidy-об'єкт
-    
-
+---
+navigation:
+  - tidy.cleanrepair.md: '« tidy::cleanRepair'
+  - tidy.diagnose.md: 'tidy::diagnose »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::construct'
+---
 # tidy::construct
 
 (PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
@@ -49,9 +44,9 @@ bool `$useIncludePath` **`false`**
 
 ### список змін
 
-| Версия | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-|        | `filename` `config` `encoding` і `useIncludePath` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` `config` `encoding` і `useIncludePath` тепер допускають значення null. |
 
 ### Приклади
 

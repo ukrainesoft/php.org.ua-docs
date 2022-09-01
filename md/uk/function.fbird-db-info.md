@@ -1,16 +1,11 @@
-Псевдонім ibaseдбinfo
-
--   [« fbirdconnect](function.fbird-connect.html)
-    
--   [fbirddeleteuser »](function.fbird-delete-user.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseдбinfo
-    
-
+---
+navigation:
+  - function.fbird-connect.html: « fbirdconnect
+  - function.fbird-delete-user.html: fbirddeleteuser »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdдбinfo
+---
 # fbirdдбinfo
 
 (PHP 5, PHP 7 < 7.4.0)

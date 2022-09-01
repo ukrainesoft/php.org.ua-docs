@@ -1,16 +1,11 @@
-Встановити початковий стан RNG
-
--   [« gmprandomrange](function.gmp-random-range.html)
-    
--   [gmprandom »](function.gmp-random.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Встановити початковий стан RNG
-    
-
+---
+navigation:
+  - function.gmp-random-range.html: « gmprandomrange
+  - function.gmp-random.html: gmprandom »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmprandomseed
+---
 # gmprandomseed
 
 (PHP 7, PHP 8)

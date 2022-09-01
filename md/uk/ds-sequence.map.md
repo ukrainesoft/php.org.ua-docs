@@ -1,16 +1,11 @@
-Повертає результат застосування callback-функції до всіх значень колекції
-
--   [« DsSequence::last](ds-sequence.last.html)
-    
--   [ДсSequence::merge »](ds-sequence.merge.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає результат застосування callback-функції до всіх значень колекції
-    
-
+---
+navigation:
+  - ds-sequence.last.html: '« DsSequence::last'
+  - ds-sequence.merge.html: 'ДсSequence::merge »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::map'
+---
 # ДсSequence::map
 
 (PECL ds >= 1.0.0)

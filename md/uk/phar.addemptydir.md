@@ -1,16 +1,11 @@
-Додає в phar-архів порожню директорію
-
--   [« Phar](class.phar.html)
-    
--   [Phar::addFile »](phar.addfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Додає в phar-архів порожню директорію
-    
-
+---
+navigation:
+  - class.phar.html: « Phar
+  - phar.addfile.html: 'Phar::addFile »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::addEmptyDir'
+---
 # Phar::addEmptyDir
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

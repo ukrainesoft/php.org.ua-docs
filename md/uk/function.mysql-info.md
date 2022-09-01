@@ -1,16 +1,11 @@
-Повертає інформацію про останній запит
-
--   [« mysqlgetserverinfo](function.mysql-get-server-info.html)
-    
--   [mysqlinsertid »](function.mysql-insert-id.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає інформацію про останній запит
-    
-
+---
+navigation:
+  - function.mysql-get-server-info.html: « mysqlgetserverinfo
+  - function.mysql-insert-id.html: mysqlinsertid »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlinfo
+---
 # mysqlinfo
 
 (PHP 4> = 4.3.0, PHP 5)

@@ -1,16 +1,11 @@
-Повертає попередній Throwable
-
--   [« Throwable::getTraceAsString](throwable.gettraceasstring.html)
-    
--   [Throwable::toString »](throwable.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [Throwable](class.throwable.html)
-    
--   Повертає попередній Throwable
-    
-
+---
+navigation:
+  - throwable.gettraceasstring.html: '« Throwable::getTraceAsString'
+  - throwable.tostring.html: 'Throwable::toString »'
+  - index.html: PHP Manual
+  - class.throwable.html: Throwable
+title: 'Throwable::getPrevious'
+---
 # Throwable::getPrevious
 
 (PHP 7, PHP 8)

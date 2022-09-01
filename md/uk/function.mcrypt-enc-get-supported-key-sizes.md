@@ -1,16 +1,11 @@
-Повертає масив з допустимими розмірами ключа для алгоритму
-
--   [« mcryptencgetmodesname](function.mcrypt-enc-get-modes-name.html)
-    
--   [mcryptencісblockalgorithmmode »](function.mcrypt-enc-is-block-algorithm-mode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Повертає масив з допустимими розмірами ключа для алгоритму
-    
-
+---
+navigation:
+  - function.mcrypt-enc-get-modes-name.html: « mcryptencgetmodesname
+  - function.mcrypt-enc-is-block-algorithm-mode.html: mcryptencісblockalgorithmmode »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptencgetsupportedkeysizes
+---
 # mcryptencgetsupportedkeysizes
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

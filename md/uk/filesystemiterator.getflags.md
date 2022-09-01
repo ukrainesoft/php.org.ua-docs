@@ -1,16 +1,11 @@
-Отримання прапорів налаштувань об'єкта
-
--   [« FilesystemIterator::current](filesystemiterator.current.html)
-    
--   [FilesystemIterator::key »](filesystemiterator.key.html)
-    
--   [PHP Manual](index.html)
-    
--   [FilesystemIterator](class.filesystemiterator.html)
-    
--   Отримання прапорів налаштувань об'єкта
-    
-
+---
+navigation:
+  - filesystemiterator.current.html: '« FilesystemIterator::current'
+  - filesystemiterator.key.html: 'FilesystemIterator::key »'
+  - index.html: PHP Manual
+  - class.filesystemiterator.html: FilesystemIterator
+title: 'FilesystemIterator::getFlags'
+---
 # FilesystemIterator::getFlags
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

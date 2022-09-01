@@ -1,16 +1,11 @@
-Повертає опис для опції із зазначеною назвою
-
--   [« tidy::getOpt](tidy.getopt.md)
-    
--   [tidy::getRelease »](tidy.getrelease.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Повертає опис для опції із зазначеною назвою
-    
-
+---
+navigation:
+  - tidy.getopt.md: '« tidy::getOpt'
+  - tidy.getrelease.md: 'tidy::getRelease »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::getOptDoc'
+---
 # tidy::getOptDoc
 
 # tidygetoptdoc

@@ -1,16 +1,11 @@
-Перевіряє, чи визначений клас у просторі імен
-
--   [« ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md)
-    
--   [ReflectionClass::isAbstract »](reflectionclass.isabstract.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи визначений клас у просторі імен
-    
-
+---
+navigation:
+  - reflectionclass.implementsinterface.md: '« ReflectionClass::implementsInterface'
+  - reflectionclass.isabstract.md: 'ReflectionClass::isAbstract »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::inNamespace'
+---
 # ReflectionClass::inNamespace
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

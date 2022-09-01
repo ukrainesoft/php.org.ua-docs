@@ -1,16 +1,11 @@
-В алфавітному порядку
-
--   [« Список/класифікація модулів](extensions.md)
-    
--   [По составу »](extensions.membership.md)
-    
--   [PHP Manual](index.md)
-    
--   [Список/класифікація модулів](extensions.md)
-    
--   В алфавітному порядку
-    
-
+---
+navigation:
+  - extensions.md: « Список/класифікація модулів
+  - extensions.membership.md: По составу »
+  - index.md: PHP Manual
+  - extensions.md: Список/класифікація модулів
+title: В алфавітному порядку
+---
 ## В алфавітному порядку
 
 -   [Apache](book.apache.md)

@@ -1,16 +1,11 @@
-Callback-функції
-
--   [« Про постійні (persistent) події](event.persistence.md)
-    
--   [Створення подій для сигналів »](event.constructing.signal.events.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Callback-функції
-    
-
+---
+navigation:
+  - event.persistence.md: « Про постійні (persistent) події
+  - event.constructing.signal.events.md: Створення подій для сигналів »
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Callback-функції
+---
 # Callback-функції
 
 Якщо для події зареєстрована callback-функція, вона буде викликана, коли подія перейде в активний статус. Для прив'язування функції до події необхідно передати її як параметр [callable](language.types.callable.md) в [Event::construct()](event.construct.md) або [Event::set()](event.set.md) або в один із фабричних методів, таких як [Event::timer()](event.timer.md)

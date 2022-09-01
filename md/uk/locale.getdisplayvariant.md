@@ -1,16 +1,11 @@
-Повертає відповідним чином локалізовану назву варіанта для заданої локалі
-
--   [« Locale::getDisplayScript](locale.getdisplayscript.md)
-    
--   [Locale::getKeywords »](locale.getkeywords.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Повертає відповідним чином локалізовану назву варіанта для заданої локалі
-    
-
+---
+navigation:
+  - locale.getdisplayscript.md: '« Locale::getDisplayScript'
+  - locale.getkeywords.md: 'Locale::getKeywords »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::getDisplayVariant'
+---
 # Locale::getDisplayVariant
 
 # localegetdisplayvariant
@@ -51,9 +46,9 @@ locale_get_display_variant(string $locale, ?string $displayLocale = null): strin
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `displayLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 

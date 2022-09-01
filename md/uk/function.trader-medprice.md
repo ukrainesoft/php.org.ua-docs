@@ -1,16 +1,11 @@
-Середня ціна
-
--   [« tradermaxindex](function.trader-maxindex.html)
-    
--   [tradermfi »](function.trader-mfi.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Середня ціна
-    
-
+---
+navigation:
+  - function.trader-maxindex.html: « tradermaxindex
+  - function.trader-mfi.html: tradermfi »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermedprice
+---
 # tradermedprice
 
 (PECL trader >= 0.2.0)

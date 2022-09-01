@@ -1,16 +1,11 @@
-Встановити квоту для заданої поштової скриньки
-
--   [« imapsearch](function.imap-search.html)
-    
--   [imapsetacl »](function.imap-setacl.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Встановити квоту для заданої поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-search.html: « imapsearch
+  - function.imap-setacl.html: imapsetacl »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapsetquota
+---
 # imapsetquota
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

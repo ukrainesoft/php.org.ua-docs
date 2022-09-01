@@ -1,16 +1,11 @@
-Отримує змінну запиту SeasLog
-
--   [« SeasLog::getRequestID](seaslog.getrequestid.md)
-    
--   [SeasLog::info »](seaslog.info.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Отримує змінну запиту SeasLog
-    
-
+---
+navigation:
+  - seaslog.getrequestid.md: '« SeasLog::getRequestID'
+  - seaslog.info.md: 'SeasLog::info »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::getRequestVariable'
+---
 # SeasLog::getRequestVariable
 
 (PECL seaslog >=1.9.0)

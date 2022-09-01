@@ -1,16 +1,11 @@
-Відкат поточної транзакції
-
--   [« mysqli::releasesavepoint](mysqli.release-savepoint.html)
-    
--   [mysqli::savepoint »](mysqli.savepoint.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Відкат поточної транзакції
-    
-
+---
+navigation:
+  - mysqli.release-savepoint.html: '« mysqli::releasesavepoint'
+  - mysqli.savepoint.html: 'mysqli::savepoint »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::rollback'
+---
 # mysqli::rollback
 
 # mysqlirollback
@@ -55,9 +50,9 @@ mysqli_rollback(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `name` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Приклади
 

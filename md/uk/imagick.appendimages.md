@@ -1,16 +1,11 @@
-Об'єднує набір зображень
-
--   [« Imagick::annotateImage](imagick.annotateimage.html)
-    
--   [Imagick::autoLevelImage »](imagick.autolevelimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Об'єднує набір зображень
-    
-
+---
+navigation:
+  - imagick.annotateimage.html: '« Imagick::annotateImage'
+  - imagick.autolevelimage.html: 'Imagick::autoLevelImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::appendImages'
+---
 # Imagick::appendImages
 
 (PECL imagick 2, PECL imagick 3)

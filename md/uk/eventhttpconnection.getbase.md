@@ -1,16 +1,11 @@
-Повертає базу подій, пов'язану зі з'єднанням
-
--   [« EventHttpConnection::construct](eventhttpconnection.construct.md)
-    
--   [EventHttpConnection::getPeer »](eventhttpconnection.getpeer.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpConnection](class.eventhttpconnection.md)
-    
--   Повертає базу подій, пов'язану зі з'єднанням
-    
-
+---
+navigation:
+  - eventhttpconnection.construct.md: '« EventHttpConnection::construct'
+  - eventhttpconnection.getpeer.md: 'EventHttpConnection::getPeer »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
+title: 'EventHttpConnection::getBase'
+---
 # EventHttpConnection::getBase
 
 (PECL event >= 1.2.6-beta)

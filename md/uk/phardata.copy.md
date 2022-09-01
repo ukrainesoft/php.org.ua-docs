@@ -1,16 +1,11 @@
-Копіювати файл з tar/zip-архіву в новий файл усередині нього ж
-
--   [« PharData::convertToExecutable](phardata.converttoexecutable.html)
-    
--   [PharData::decompress »](phardata.decompress.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharData](class.phardata.html)
-    
--   Копіювати файл з tar/zip-архіву в новий файл усередині нього ж
-    
-
+---
+navigation:
+  - phardata.converttoexecutable.html: '« PharData::convertToExecutable'
+  - phardata.decompress.html: 'PharData::decompress »'
+  - index.html: PHP Manual
+  - class.phardata.html: PharData
+title: 'PharData::copy'
+---
 # PharData::copy
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

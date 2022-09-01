@@ -1,16 +1,11 @@
-Клас SNMPException
-
--   [« SNMP::walk](snmp.walk.md)
-    
--   [Сокети »](book.sockets.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](book.snmp.md)
-    
--   Клас SNMPException
-    
-
+---
+navigation:
+  - snmp.walk.md: '« SNMP::walk'
+  - book.sockets.md: Сокети »
+  - index.md: PHP Manual
+  - book.snmp.md: SNMP
+title: Клас SNMPException
+---
 # Клас SNMPException
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

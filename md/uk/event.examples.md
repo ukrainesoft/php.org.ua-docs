@@ -1,16 +1,11 @@
-Приклади
-
--   [« Типи ресурсів](event.resources.md)
-    
--   [Прапори подій »](event.flags.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - event.resources.md: « Типи ресурсів
+  - event.flags.md: Прапори подій »
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Простий клієнт HTTP**

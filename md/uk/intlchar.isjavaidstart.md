@@ -1,16 +1,11 @@
-Перевірити, чи символ може бути першим в ідентифікаторі Java
-
--   [« IntlChar::isJavaIDPart](intlchar.isjavaidpart.html)
-    
--   [IntlChar::isJavaSpaceChar »](intlchar.isjavaspacechar.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевірити, чи символ може бути першим в ідентифікаторі Java
-    
-
+---
+navigation:
+  - intlchar.isjavaidpart.html: '« IntlChar::isJavaIDPart'
+  - intlchar.isjavaspacechar.html: 'IntlChar::isJavaSpaceChar »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::isJavaIDStart'
+---
 # IntlChar::isJavaIDStart
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Завантаження XML з рядка
-
--   [« DOMDocument::loadHTMLFile](domdocument.loadhtmlfile.md)
-    
--   [DOMDocument::normalizeDocument »](domdocument.normalizedocument.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Завантаження XML з рядка
-    
-
+---
+navigation:
+  - domdocument.loadhtmlfile.md: '« DOMDocument::loadHTMLFile'
+  - domdocument.normalizedocument.md: 'DOMDocument::normalizeDocument »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::loadXML'
+---
 # DOMDocument::loadXML
 
 (PHP 5, PHP 7, PHP 8)

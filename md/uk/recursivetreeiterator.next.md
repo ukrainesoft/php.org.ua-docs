@@ -1,16 +1,11 @@
-Перехід до наступного елементу
-
--   [« RecursiveTreeIterator::key](recursivetreeiterator.key.html)
-    
--   [RecursiveTreeIterator::nextElement »](recursivetreeiterator.nextelement.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
-    
--   Перехід до наступного елементу
-    
-
+---
+navigation:
+  - recursivetreeiterator.key.html: '« RecursiveTreeIterator::key'
+  - recursivetreeiterator.nextelement.html: 'RecursiveTreeIterator::nextElement »'
+  - index.html: PHP Manual
+  - class.recursivetreeiterator.html: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::next'
+---
 # RecursiveTreeIterator::next
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

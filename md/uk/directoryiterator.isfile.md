@@ -1,16 +1,11 @@
-Визначає, чи поточний елемент DirectoryIterator є звичайним файлом
-
--   [« DirectoryIterator::isExecutable](directoryiterator.isexecutable.md)
-    
--   [DirectoryIterator::isLink »](directoryiterator.islink.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Визначає, чи поточний елемент DirectoryIterator є звичайним файлом
-    
-
+---
+navigation:
+  - directoryiterator.isexecutable.md: '« DirectoryIterator::isExecutable'
+  - directoryiterator.islink.md: 'DirectoryIterator::isLink »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::isFile'
+---
 # DirectoryIterator::isFile
 
 (PHP 5, PHP 7, PHP 8)

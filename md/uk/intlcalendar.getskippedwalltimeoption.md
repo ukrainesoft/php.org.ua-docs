@@ -1,16 +1,11 @@
-Отримує поведінку для обробки пропущеного часу процесора
-
--   [« IntlCalendar::getRepeatedWallTimeOption](intlcalendar.getrepeatedwalltimeoption.html)
-    
--   [IntlCalendar::getTime »](intlcalendar.gettime.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Отримує поведінку для обробки пропущеного часу процесора
-    
-
+---
+navigation:
+  - intlcalendar.getrepeatedwalltimeoption.html: '« IntlCalendar::getRepeatedWallTimeOption'
+  - intlcalendar.gettime.html: 'IntlCalendar::getTime »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::getSkippedWallTimeOption'
+---
 # IntlCalendar::getSkippedWallTimeOption
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

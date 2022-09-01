@@ -1,16 +1,11 @@
-Visitation
-
--   [« CommonMarkNode::unlink](commonmark-node.unlink.html)
-    
--   [CommonMarkInterfacesIVisitor »](class.commonmark-interfaces-ivisitor.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkNode](class.commonmark-node.html)
-    
--   Visitation
-    
-
+---
+navigation:
+  - commonmark-node.unlink.html: '« CommonMarkNode::unlink'
+  - class.commonmark-interfaces-ivisitor.html: CommonMarkInterfacesIVisitor »
+  - index.md: PHP Manual
+  - class.commonmark-node.html: CommonMarkNode
+title: 'CommonMarkNode::accept'
+---
 # CommonMarkNode::accept
 
 (cmark >= 1.0.0)

@@ -1,16 +1,11 @@
-Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше доданого об'єкту ImagickDraw
-
--   [« ImagickDraw::polyline](imagickdraw.polyline.html)
-    
--   [ImagickDraw::popClipPath »](imagickdraw.popclippath.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Знищує поточний об'єкт ImagickDraw у стеку та повертається до раніше доданого об'єкту ImagickDraw
-    
-
+---
+navigation:
+  - imagickdraw.polyline.html: '« ImagickDraw::polyline'
+  - imagickdraw.popclippath.html: 'ImagickDraw::popClipPath »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pop'
+---
 # ImagickDraw::pop
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Серіалізує Binary
-
--   [« MongoDBBSONBinary::jsonSerialize](mongodb-bson-binary.jsonserialize.html)
-    
--   [MongoDBBSONBinary::toString »](mongodb-bson-binary.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   Серіалізує Binary
-    
-
+---
+navigation:
+  - mongodb-bson-binary.jsonserialize.html: '« MongoDBBSONBinary::jsonSerialize'
+  - mongodb-bson-binary.tostring.html: 'MongoDBBSONBinary::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::serialize'
+---
 # MongoDBBSONBinary::serialize
 
 (mongodb >=1.2.0)

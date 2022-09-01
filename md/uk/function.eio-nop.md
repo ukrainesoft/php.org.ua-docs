@@ -1,16 +1,11 @@
-Прохід по циклу запиту, не здійснюючи жодних операцій
-
--   [« eiomknod](function.eio-mknod.html)
-    
--   [eionpending »](function.eio-npending.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Прохід по циклу запиту, не здійснюючи жодних операцій
-    
-
+---
+navigation:
+  - function.eio-mknod.html: « eiomknod
+  - function.eio-npending.html: eionpending »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eionop
+---
 # eionop
 
 (PECL eio >= 0.0.1dev)

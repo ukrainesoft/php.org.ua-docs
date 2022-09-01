@@ -1,16 +1,11 @@
-Встановлює прапори для об'єкта CachingIterator
-
--   [« CachingIterator::rewind](cachingiterator.rewind.md)
-    
--   [CachingIterator::toString »](cachingiterator.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Встановлює прапори для об'єкта CachingIterator
-    
-
+---
+navigation:
+  - cachingiterator.rewind.md: '« CachingIterator::rewind'
+  - cachingiterator.tostring.md: 'CachingIterator::toString »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::setFlags'
+---
 # CachingIterator::setFlags
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

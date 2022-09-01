@@ -1,16 +1,11 @@
-Встановлює режим аналізу
-
--   [« SolrResponse::getResponse](solrresponse.getresponse.md)
-    
--   [SolrResponse::success »](solrresponse.success.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrResponse](class.solrresponse.md)
-    
--   Встановлює режим аналізу
-    
-
+---
+navigation:
+  - solrresponse.getresponse.md: '« SolrResponse::getResponse'
+  - solrresponse.success.md: 'SolrResponse::success »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
+title: 'SolrResponse::setParseMode'
+---
 # SolrResponse::setParseMode
 
 (PECL solr> = 0.9.2)

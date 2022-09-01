@@ -1,16 +1,11 @@
-Потоки для взаємодії з процесами
-
--   [« ogg://](wrappers.audio.md)
-    
--   [Безпека »](security.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримувані протоколи та обгортки](wrappers.md)
-    
--   Потоки для взаємодії з процесами
-    
-
+---
+navigation:
+  - wrappers.audio.md: '« ogg://'
+  - security.md: Безпека »
+  - index.md: PHP Manual
+  - wrappers.md: Підтримувані протоколи та обгортки
+title: 'expect://'
+---
 # expect://
 
 expect:// - Потоки для взаємодії з процесами
@@ -32,17 +27,17 @@ expect:// (PECL)
 
 **Основна інформація**
 
-| Атрибут                                                                         | Поддержка |
-|---------------------------------------------------------------------------------|-----------|
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні        |
-| Читання                                                                         | Так       |
-| Запис                                                                           | Так       |
-| Додавання                                                                       | Так       |
-| Одночасне читання та запис                                                      | Ні        |
-| Підтримка [stat()](function.stat.md)                                            | Ні        |
-| Підтримка [unlink()](function.unlink.md)                                        | Ні        |
-| Підтримка [rename()](function.rename.md)                                        | Ні        |
-| Підтримка [mkdir()](function.mkdir.md)                                          | Ні        |
-| Підтримка [rmdir()](function.rmdir.md)                                          | Ні        |
+| Атрибут | Поддержка |
+| --- | --- |
+| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
+| Читання | Так |
+| Запис | Так |
+| Додавання | Так |
+| Одночасне читання та запис | Ні |
+| Підтримка [stat()](function.stat.md) | Ні |
+| Підтримка [unlink()](function.unlink.md) | Ні |
+| Підтримка [rename()](function.rename.md) | Ні |
+| Підтримка [mkdir()](function.mkdir.md) | Ні |
+| Підтримка [rmdir()](function.rmdir.md) | Ні |
 
 ### Приклади

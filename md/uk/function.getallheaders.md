@@ -1,16 +1,11 @@
-Повертає всі заголовки HTTP-запиту
-
--   [« apachesetenv](function.apache-setenv.html)
-    
--   [virtual »](function.virtual.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Apache](ref.apache.md)
-    
--   Повертає всі заголовки HTTP-запиту
-    
-
+---
+navigation:
+  - function.apache-setenv.html: « apachesetenv
+  - function.virtual.md: virtual »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: getallheaders
+---
 # getallheaders
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ getallheaders(): array
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | Ця функція стала доступною у SAPI FPM. |
+| Версия | Описание |
+| --- | --- |
+|  | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 

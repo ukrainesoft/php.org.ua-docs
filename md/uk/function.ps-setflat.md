@@ -1,16 +1,11 @@
-Встановлює площинність
-
--   [«pssetdash](function.ps-setdash.html)
-    
--   [псsetfont »](function.ps-setfont.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює площинність
-    
-
+---
+navigation:
+  - function.ps-setdash.html: «pssetdash
+  - function.ps-setfont.html: псsetfont »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetflat
+---
 # псsetflat
 
 (PECL ps >= 1.1.0)

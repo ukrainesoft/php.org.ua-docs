@@ -1,16 +1,11 @@
-Вступ
-
--   [« Yaf](book.yaf.md)
-    
--   [Встановлення та налаштування »](yaf.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.yaf.md: « Yaf
+  - yaf.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Вступ
+---
 # Вступ
 
 Модуль `Yet Another Framework` (Yaf) є PHP-фреймворком для розробки веб-застосунків.

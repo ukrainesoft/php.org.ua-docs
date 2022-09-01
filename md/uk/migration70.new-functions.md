@@ -1,16 +1,11 @@
-Нові функції
-
--   [« Змінені функції](migration70.changed-functions.html)
-    
--   [Нові класи та інтерфейси »](migration70.classes.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
-    
--   Нові функції
-    
-
+---
+navigation:
+  - migration70.changed-functions.html: « Змінені функції
+  - migration70.classes.md: Нові класи та інтерфейси »
+  - index.md: PHP Manual
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Нові функції
+---
 ## Нові функції
 
 ### [Замикання](class.closure.md)

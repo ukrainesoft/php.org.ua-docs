@@ -1,16 +1,11 @@
-Створити стислий рядок gzip
-
--   [« gzdeflate](function.gzdeflate.md)
-    
--   [gzeof »](function.gzeof.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Створити стислий рядок gzip
-    
-
+---
+navigation:
+  - function.gzdeflate.md: « gzdeflate
+  - function.gzeof.md: gzeof »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzencode
+---
 # gzencode
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

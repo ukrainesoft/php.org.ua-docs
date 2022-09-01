@@ -1,16 +1,11 @@
-parallel
-
--   [« system](function.system.html)
-    
--   [Введение »](intro.parallel.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.html)
-    
--   parallel
-    
-
+---
+navigation:
+  - function.system.html: « system
+  - intro.parallel.html: Введение »
+  - index.html: PHP Manual
+  - refs.fileprocess.process.html: Модули для управления процессами программ
+title: parallel
+---
 # parallel
 
 -   [Введение](intro.parallel.html)

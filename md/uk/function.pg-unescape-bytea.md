@@ -1,16 +1,11 @@
-Забирає екранування двійкових даних типу bytea
-
--   [« pgtty](function.pg-tty.html)
-    
--   [пгuntrace »](function.pg-untrace.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Забирає екранування двійкових даних типу bytea
-    
-
+---
+navigation:
+  - function.pg-tty.html: « pgtty
+  - function.pg-untrace.html: пгuntrace »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгunescapebytea
+---
 # пгunescapebytea
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

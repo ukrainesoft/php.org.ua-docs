@@ -1,16 +1,11 @@
-Додає поле до документа
-
--   [« SolrDocument](class.solrdocument.md)
-    
--   [SolrDocument::clear »](solrdocument.clear.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Додає поле до документа
-    
-
+---
+navigation:
+  - class.solrdocument.md: « SolrDocument
+  - solrdocument.clear.md: 'SolrDocument::clear »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::addField'
+---
 # SolrDocument::addField
 
 (PECL solr> = 0.9.2)

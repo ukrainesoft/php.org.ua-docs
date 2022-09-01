@@ -1,16 +1,11 @@
-Видаляє вузол, що знаходиться на початку двозв'язкового списку
-
--   [« SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.html)
-    
--   [SplDoublyLinkedList::top »](spldoublylinkedlist.top.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Видаляє вузол, що знаходиться на початку двозв'язкового списку
-    
-
+---
+navigation:
+  - spldoublylinkedlist.setiteratormode.html: '« SplDoublyLinkedList::setIteratorMode'
+  - spldoublylinkedlist.top.html: 'SplDoublyLinkedList::top »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::shift'
+---
 # SplDoublyLinkedList::shift
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

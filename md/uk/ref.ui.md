@@ -1,16 +1,11 @@
-Функції UI
-
--   [« UIDrawTextFontDescriptor::getWeight](ui-draw-text-font-descriptor.getweight.html)
-    
--   [ОЙDrawTextFontfontFamilies »](function.ui-draw-text-font-fontfamilies.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Функції UI
-    
-
+---
+navigation:
+  - ui-draw-text-font-descriptor.getweight.html: '« UIDrawTextFontDescriptor::getWeight'
+  - function.ui-draw-text-font-fontfamilies.html: ОЙDrawTextFontfontFamilies »
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Функції UI
+---
 # Функції UI
 
 ## Зміст

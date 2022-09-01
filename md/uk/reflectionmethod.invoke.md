@@ -1,16 +1,11 @@
-Виклик
-
--   [« ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)
-    
--   [ReflectionMethod::invokeArgs »](reflectionmethod.invokeargs.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Виклик
-    
-
+---
+navigation:
+  - reflectionmethod.getprototype.md: '« ReflectionMethod::getPrototype'
+  - reflectionmethod.invokeargs.md: 'ReflectionMethod::invokeArgs »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::invoke'
+---
 # ReflectionMethod::invoke
 
 (PHP 5, PHP 7, PHP 8)

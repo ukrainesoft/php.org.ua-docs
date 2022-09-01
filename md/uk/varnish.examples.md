@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](varnish.constants.md)
-    
--   [Простое использование VarnishAdmin »](varnish.example.admin.md)
-    
--   [PHP Manual](index.md)
-    
--   [Varnish](book.varnish.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - varnish.constants.md: « Обумовлені константи
+  - varnish.example.admin.md: Простое использование VarnishAdmin »
+  - index.md: PHP Manual
+  - book.varnish.md: Varnish
+title: Приклади
+---
 # Приклади
 
 ## Зміст

@@ -1,16 +1,11 @@
-Видаляє одне з полів запиту moreLikeThis
-
--   [« SolrQuery::removeMltField](solrquery.removemltfield.html)
-    
--   [SolrQuery::removeSortField »](solrquery.removesortfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Видаляє одне з полів запиту moreLikeThis
-    
-
+---
+navigation:
+  - solrquery.removemltfield.html: '« SolrQuery::removeMltField'
+  - solrquery.removesortfield.html: 'SolrQuery::removeSortField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::removeMltQueryField'
+---
 # SolrQuery::removeMltQueryField
 
 (PECL solr> = 0.9.2)

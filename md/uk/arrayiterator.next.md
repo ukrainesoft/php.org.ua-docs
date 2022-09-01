@@ -1,16 +1,11 @@
-Переміщує покажчик за наступний запис
-
--   [« ArrayIterator::natsort](arrayiterator.natsort.md)
-    
--   [ArrayIterator::offsetExists »](arrayiterator.offsetexists.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Переміщує покажчик за наступний запис
-    
-
+---
+navigation:
+  - arrayiterator.natsort.md: '« ArrayIterator::natsort'
+  - arrayiterator.offsetexists.md: 'ArrayIterator::offsetExists »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::next'
+---
 # ArrayIterator::next
 
 (PHP 5, PHP 7, PHP 8)

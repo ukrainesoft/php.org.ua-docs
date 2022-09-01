@@ -1,16 +1,11 @@
-Виділяє пам'ять під зазначену місткість
-
--   [« Вектор](class.ds-vector.html)
-    
--   [ДсVector::apply »](ds-vector.apply.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Виділяє пам'ять під зазначену місткість
-    
-
+---
+navigation:
+  - class.ds-vector.html: « Вектор
+  - ds-vector.apply.html: 'ДсVector::apply »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::allocate'
+---
 # ДсVector::allocate
 
 (PECL ds >= 1.0.0)

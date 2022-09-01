@@ -1,16 +1,11 @@
-Генерує випадковий ключ.cryptostream
-
--   [« sodiumcryptosign](function.sodium-crypto-sign.html)
-    
--   [sodiumcryptostreamxchacha20keygen »](function.sodium-crypto-stream-xchacha20-keygen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Генерує випадковий ключ.cryptostream
-    
-
+---
+navigation:
+  - function.sodium-crypto-sign.html: « sodiumcryptosign
+  - function.sodium-crypto-stream-xchacha20-keygen.html: sodiumcryptostreamxchacha20keygen »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptostreamkeygen
+---
 # sodiumcryptostreamkeygen
 
 (PHP 7> = 7.2.0, PHP 8)

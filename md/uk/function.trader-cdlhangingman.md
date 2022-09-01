@@ -1,16 +1,11 @@
-Вісельник
-
--   [« tradercdlhammer](function.trader-cdlhammer.html)
-    
--   [tradercdlharami »](function.trader-cdlharami.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вісельник
-    
-
+---
+navigation:
+  - function.trader-cdlhammer.html: « tradercdlhammer
+  - function.trader-cdlharami.html: tradercdlharami »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlhangingman
+---
 # tradercdlhangingman
 
 (PECL trader >= 0.2.0)

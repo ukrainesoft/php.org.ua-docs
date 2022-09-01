@@ -1,16 +1,11 @@
-Виконує команду обслуговування на сервері бази даних
-
--   [« ibasegenід](function.ibase-gen-id.html)
-    
--   [ibasemodifyuser »](function.ibase-modify-user.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Виконує команду обслуговування на сервері бази даних
-    
-
+---
+navigation:
+  - function.ibase-gen-id.html: « ibasegenід
+  - function.ibase-modify-user.html: ibasemodifyuser »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibasemaintainдб
+---
 # ibasemaintainдб
 
 (PHP 5, PHP 7 < 7.4.0)

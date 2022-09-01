@@ -1,16 +1,11 @@
-Клас wkhtmltoxImageConverter
-
--   [« wkhtmltoxPDFObject::construct](wkhtmltox-pdf-object.construct.html)
-    
--   [wkhtmltoxImageConverter::construct »](wkhtmltox-image-converter.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [wkhtmltox](book.wkhtmltox.md)
-    
--   Клас wkhtmltoxImageConverter
-    
-
+---
+navigation:
+  - wkhtmltox-pdf-object.construct.html: '« wkhtmltoxPDFObject::construct'
+  - wkhtmltox-image-converter.construct.html: 'wkhtmltoxImageConverter::construct »'
+  - index.md: PHP Manual
+  - book.wkhtmltox.md: wkhtmltox
+title: Клас wkhtmltoxImageConverter
+---
 # Клас wkhtmltoxImageConverter
 
 (wkhtmltox >= 0.1.0)

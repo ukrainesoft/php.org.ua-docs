@@ -1,16 +1,11 @@
-Встановлює ім'я файлу для надсилання методом POST
-
--   [« CURLFile::setMimeType](curlfile.setmimetype.html)
-    
--   [CURLStringFile »](class.curlstringfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [CURLFile](class.curlfile.html)
-    
--   Встановлює ім'я файлу для надсилання методом POST
-    
-
+---
+navigation:
+  - curlfile.setmimetype.html: '« CURLFile::setMimeType'
+  - class.curlstringfile.html: CURLStringFile »
+  - index.html: PHP Manual
+  - class.curlfile.html: CURLFile
+title: 'CURLFile::setPostFilename'
+---
 # CURLFile::setPostFilename
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

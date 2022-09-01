@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](wkhtmltox.requirements.md)
-    
--   [Налаштування під час виконання »](wkhtmltox.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](wkhtmltox.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - wkhtmltox.requirements.md: « Вимоги
+  - wkhtmltox.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - wkhtmltox.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Вихідний код цього модуля та двійкові файли для Windows доступні [» github](https://github.com/krakjoe/wkhtmltox)

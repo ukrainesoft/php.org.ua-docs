@@ -1,16 +1,11 @@
-Аналізує кольори еталонного зображення
-
--   [« Gmagick::profileimage](gmagick.profileimage.md)
-    
--   [Gmagick::quantizeimages »](gmagick.quantizeimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Аналізує кольори еталонного зображення
-    
-
+---
+navigation:
+  - gmagick.profileimage.md: '« Gmagick::profileimage'
+  - gmagick.quantizeimages.md: 'Gmagick::quantizeimages »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::quantizeimage'
+---
 # Gmagick::quantizeimage
 
 (PECL gmagick >= Unknown)

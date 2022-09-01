@@ -1,16 +1,11 @@
-Серіалізація даних YAML
-
--   [« V8JsException::getJsTrace](v8jsexception.getjstrace.html)
-    
--   [Введение »](intro.yaml.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші базові модулі](refs.basic.other.html)
-    
--   Серіалізація даних YAML
-    
-
+---
+navigation:
+  - v8jsexception.getjstrace.html: '« V8JsException::getJsTrace'
+  - intro.yaml.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.other.html: Інші базові модулі
+title: Серіалізація даних YAML
+---
 # Серіалізація даних YAML
 
 -   [Введение](intro.yaml.html)

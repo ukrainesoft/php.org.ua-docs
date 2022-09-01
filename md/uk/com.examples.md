@@ -1,16 +1,11 @@
-Приклади
-
--   [« Ошибки и их обработка](com.error-handling.html)
-    
--   [For Each »](com.examples.foreach.md)
-    
--   [PHP Manual](index.md)
-    
--   [COM](book.com.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - com.error-handling.html: « Ошибки и их обработка
+  - com.examples.foreach.md: For Each »
+  - index.md: PHP Manual
+  - book.com.md: COM
+title: Приклади
+---
 # Приклади
 
 ## Зміст

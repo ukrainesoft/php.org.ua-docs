@@ -1,16 +1,11 @@
-Створює ітератор, що фільтрує, на основі іншого ітератора.
-
--   [« CallbackFilterIterator::accept](callbackfilteriterator.accept.md)
-    
--   [DirectoryIterator »](class.directoryiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [CallbackFilterIterator](class.callbackfilteriterator.md)
-    
--   Створює ітератор, що фільтрує, на основі іншого ітератора.
-    
-
+---
+navigation:
+  - callbackfilteriterator.accept.md: '« CallbackFilterIterator::accept'
+  - class.directoryiterator.md: DirectoryIterator »
+  - index.md: PHP Manual
+  - class.callbackfilteriterator.md: CallbackFilterIterator
+title: 'CallbackFilterIterator::construct'
+---
 # CallbackFilterIterator::construct
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

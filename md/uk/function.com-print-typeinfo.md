@@ -1,16 +1,11 @@
-Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
-
--   [« commessagepump](function.com-message-pump.html)
-    
--   [variantabs »](function.variant-abs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
-    
-
+---
+navigation:
+  - function.com-message-pump.html: « commessagepump
+  - function.variant-abs.html: variantabs »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: comprinttypeinfo
+---
 # comprinttypeinfo
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

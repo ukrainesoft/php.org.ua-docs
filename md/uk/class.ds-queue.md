@@ -1,16 +1,11 @@
-Клас Queue
-
--   [« DsStack::toArray](ds-stack.toarray.html)
-    
--   [ДсQueue::allocate »](ds-queue.allocate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Структури даних](book.ds.html)
-    
--   Клас Queue
-    
-
+---
+navigation:
+  - ds-stack.toarray.html: '« DsStack::toArray'
+  - ds-queue.allocate.html: 'ДсQueue::allocate »'
+  - index.html: PHP Manual
+  - book.ds.html: Структури даних
+title: Клас Queue
+---
 # Клас Queue
 
 (No version information available, might only be in Git)
@@ -61,8 +56,8 @@ public toArray(): array
 
 ## список змін
 
-| Версия        | Описание                                                  |
-|---------------|-----------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
 
 ## Зміст

@@ -1,16 +1,11 @@
-Конвертує ціле число в IPv4-адресу
-
--   [« ip2long](function.ip2long.html)
-    
--   [netgetinterfaces »](function.net-get-interfaces.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Конвертує ціле число в IPv4-адресу
-    
-
+---
+navigation:
+  - function.ip2long.html: « ip2long
+  - function.net-get-interfaces.html: netgetinterfaces »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: long2ip
+---
 # long2ip
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ long2ip(int $ip): string|false
 
 ### список змін
 
-| Версия | Описание                                          |
-|--------|---------------------------------------------------|
-|        | Тип параметра `ip` змінено з типу string тип int. |
+| Версия | Описание |
+| --- | --- |
+|  | Тип параметра `ip` змінено з типу string тип int. |
 
 ### Примітки
 

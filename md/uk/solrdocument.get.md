@@ -1,16 +1,11 @@
-Доступ до поля як властивості
-
--   [« SolrDocument::fieldExists](solrdocument.fieldexists.html)
-    
--   [SolrDocument::getChildDocuments »](solrdocument.getchilddocuments.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Доступ до поля як властивості
-    
-
+---
+navigation:
+  - solrdocument.fieldexists.html: '« SolrDocument::fieldExists'
+  - solrdocument.getchilddocuments.html: 'SolrDocument::getChildDocuments »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::get'
+---
 # SolrDocument::get
 
 (PECL solr> = 0.9.2)

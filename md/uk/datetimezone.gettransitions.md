@@ -1,16 +1,11 @@
-Повертає всі переходи для часового поясу
-
--   [« DateTimeZone::getOffset](datetimezone.getoffset.html)
-    
--   [DateTimeZone::listAbbreviations »](datetimezone.listabbreviations.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeZone](class.datetimezone.html)
-    
--   Повертає всі переходи для часового поясу
-    
-
+---
+navigation:
+  - datetimezone.getoffset.html: '« DateTimeZone::getOffset'
+  - datetimezone.listabbreviations.html: 'DateTimeZone::listAbbreviations »'
+  - index.html: PHP Manual
+  - class.datetimezone.html: DateTimeZone
+title: 'DateTimeZone::getTransitions'
+---
 # DateTimeZone::getTransitions
 
 # timezonetransitionsget
@@ -55,13 +50,13 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 **Структура переходів масиву**
 
-| Ключ     | Тип    | Описание                                                                                                                                       |
-|----------|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| `ts`     | int    | Мітка часу Unix                                                                                                                                |
-| `time`   | string | **`DateTimeInterface::ISO8601_EXPANDED`** (PHP 8.2 і пізніші версії) або **`DateTimeInterface::ISO8601`** (PHP 8.1 і раніше версії) строк часу |
-| `offset` | int    | Зміщення від UTC за секунди                                                                                                                    |
-| `isdst`  | bool   | Чи активний літній час                                                                                                                         |
-| `abbr`   | string | Абревіатура часового поясу                                                                                                                     |
+| Ключ | Тип | Описание |
+| --- | --- | --- |
+| `ts` | int | Мітка часу Unix |
+| `time` | string | **`DateTimeInterface::ISO8601_EXPANDED`** (PHP 8.2 і пізніші версії) або **`DateTimeInterface::ISO8601`** (PHP 8.1 і раніше версії) строк часу |
+| `offset` | int | Зміщення від UTC за секунди |
+| `isdst` | bool | Чи активний літній час |
+| `abbr` | string | Абревіатура часового поясу |
 
 ### Приклади
 

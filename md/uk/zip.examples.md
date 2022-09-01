@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](zip.constants.md)
-    
--   [ZipArchive »](class.ziparchive.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zip](book.zip.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - zip.constants.md: « Обумовлені константи
+  - class.ziparchive.md: ZipArchive »
+  - index.md: PHP Manual
+  - book.zip.md: Zip
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Створення Zip-архіву**

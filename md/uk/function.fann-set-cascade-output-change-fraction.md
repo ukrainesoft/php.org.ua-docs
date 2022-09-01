@@ -1,16 +1,11 @@
-Встановлює частку зміни каскадних вихідних даних
-
--   [« fannsetcascadenumcandidategroups](function.fann-set-cascade-num-candidate-groups.html)
-    
--   [fannsetcascadeoutputstagnationepochs »](function.fann-set-cascade-output-stagnation-epochs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює частку зміни каскадних вихідних даних
-    
-
+---
+navigation:
+  - function.fann-set-cascade-num-candidate-groups.html: « fannsetcascadenumcandidategroups
+  - function.fann-set-cascade-output-stagnation-epochs.html: fannsetcascadeoutputstagnationepochs »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetcascadeoutputchangefraction
+---
 # fannsetcascadeoutputchangefraction
 
 (PECL fann> = 1.0.0)

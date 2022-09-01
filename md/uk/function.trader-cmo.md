@@ -1,16 +1,11 @@
-Осцилятор цінових моментів Чанде
-
--   [« traderceil](function.trader-ceil.html)
-    
--   [tradercorrel »](function.trader-correl.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Осцилятор цінових моментів Чанде
-    
-
+---
+navigation:
+  - function.trader-ceil.html: « traderceil
+  - function.trader-correl.html: tradercorrel »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercmo
+---
 # tradercmo
 
 (PECL trader >= 0.2.0)

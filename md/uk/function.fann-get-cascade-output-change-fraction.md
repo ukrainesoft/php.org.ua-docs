@@ -1,16 +1,11 @@
-Повертає частку зміни виходу каскаду
-
--   [« fanngetcascadenumcandidates](function.fann-get-cascade-num-candidates.html)
-    
--   [fanngetcascadeoutputstagnationepochs »](function.fann-get-cascade-output-stagnation-epochs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає частку зміни виходу каскаду
-    
-
+---
+navigation:
+  - function.fann-get-cascade-num-candidates.html: « fanngetcascadenumcandidates
+  - function.fann-get-cascade-output-stagnation-epochs.html: fanngetcascadeoutputstagnationepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadeoutputchangefraction
+---
 # fanngetcascadeoutputchangefraction
 
 (PECL fann> = 1.0.0)

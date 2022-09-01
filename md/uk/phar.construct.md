@@ -1,16 +1,11 @@
-Створює об'єкт Phar-архіву
-
--   [« Phar::compressFiles](phar.compressfiles.md)
-    
--   [Phar::convertToData »](phar.converttodata.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Створює об'єкт Phar-архіву
-    
-
+---
+navigation:
+  - phar.compressfiles.md: '« Phar::compressFiles'
+  - phar.converttodata.md: 'Phar::convertToData »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::construct'
+---
 # Phar::construct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає один стовпець з рядка у наборі результатів
-
--   [« db2procedures](function.db2-procedures.html)
-    
--   [db2rollback »](function.db2-rollback.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає один стовпець з рядка у наборі результатів
-    
-
+---
+navigation:
+  - function.db2-procedures.html: « db2procedures
+  - function.db2-rollback.html: db2rollback »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2result
+---
 # db2result
 
 (PECL ibmdb2> = 1.0.0)

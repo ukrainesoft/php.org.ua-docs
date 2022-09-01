@@ -1,16 +1,11 @@
-Обрізає великий об'єкт
-
--   [« pgлоtell](function.pg-lo-tell.html)
-    
--   [пглоunlink »](function.pg-lo-unlink.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Обрізає великий об'єкт
-    
-
+---
+navigation:
+  - function.pg-lo-tell.html: « pgлоtell
+  - function.pg-lo-unlink.html: пглоunlink »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пглоtruncate
+---
 # пглоtruncate
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

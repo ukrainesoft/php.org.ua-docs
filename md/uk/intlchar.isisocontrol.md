@@ -1,16 +1,11 @@
-Перевірити, чи є символ керуючим відповідно до ISO
-
--   [« IntlChar::isIDStart](intlchar.isidstart.md)
-    
--   [IntlChar::isJavaIDPart »](intlchar.isjavaidpart.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ керуючим відповідно до ISO
-    
-
+---
+navigation:
+  - intlchar.isidstart.md: '« IntlChar::isIDStart'
+  - intlchar.isjavaidpart.md: 'IntlChar::isJavaIDPart »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isISOControl'
+---
 # IntlChar::isISOControl
 
 (PHP 7, PHP 8)

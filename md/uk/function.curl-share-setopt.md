@@ -1,16 +1,11 @@
-Встановити опції оброблюваного cURL
-
--   [« curlshareinit](function.curl-share-init.html)
-    
--   [curlsharestrerror »](function.curl-share-strerror.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Встановити опції оброблюваного cURL
-    
-
+---
+navigation:
+  - function.curl-share-init.html: « curlshareinit
+  - function.curl-share-strerror.html: curlsharestrerror »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlsharesetopt
+---
 # curlsharesetopt
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -33,17 +28,17 @@ curl_share_setopt(CurlShareHandle $share_handle, int $option, mixed $value): boo
 
 `option`
 
-| Опция                   | Описание                                         |
-|-------------------------|--------------------------------------------------|
-| **`CURLSHOPT_SHARE`**   | Задає тип даних, які потрібно розділяти.         |
+| Опция | Описание |
+| --- | --- |
+| **`CURLSHOPT_SHARE`** | Задає тип даних, які потрібно розділяти. |
 | **`CURLSHOPT_UNSHARE`** | Вказує тип даних, які більше не треба розділяти. |
 
 `value`
 
-| Значение                         | Описание                                                                                                                                                                                                                                                        |
-|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`CURL_LOCK_DATA_COOKIE`**      | Поділяє дані cookie.                                                                                                                                                                                                                                            |
-| **`CURL_LOCK_DATA_DNS`**         | Поділяє кеш DNS. Зверніть увагу, що якщо ви використовуєте множинний обробник cURL, всі додані обробники за умовчанням будуть розділяти DNS-кеш.                                                                                                                |
+| Значение | Описание |
+| --- | --- |
+| **`CURL_LOCK_DATA_COOKIE`** | Поділяє дані cookie. |
+| **`CURL_LOCK_DATA_DNS`** | Поділяє кеш DNS. Зверніть увагу, що якщо ви використовуєте множинний обробник cURL, всі додані обробники за умовчанням будуть розділяти DNS-кеш. |
 | **`CURL_LOCK_DATA_SSL_SESSION`** | Розділяє ідентифікатори сесії SSL, скорочуючи час, що витрачається на підтвердження (handshake) SSL при повторному з'єднанні з тим самим сервером. Зверніть увагу, що ідентифікатори сесії SSL за замовчуванням перевикористовуватимуться тим самим обробником. |
 
 ### Значення, що повертаються
@@ -52,9 +47,9 @@ curl_share_setopt(CurlShareHandle $share_handle, int $option, mixed $value): boo
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
+| Версия | Описание |
+| --- | --- |
+|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Приклади
 

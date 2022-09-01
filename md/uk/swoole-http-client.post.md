@@ -1,16 +1,11 @@
-Надсилає HTTP-запит POST на віддалений сервер
-
--   [« SwooleHttpClient::on](swoole-http-client.on.html)
-    
--   [SwooleHttpClient::push »](swoole-http-client.push.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Надсилає HTTP-запит POST на віддалений сервер
-    
-
+---
+navigation:
+  - swoole-http-client.on.html: '« SwooleHttpClient::on'
+  - swoole-http-client.push.html: 'SwooleHttpClient::push »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::post'
+---
 # SwooleHttpClient::post
 
 (PECL swoole >= 1.9.0)

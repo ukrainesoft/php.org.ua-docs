@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::setImageBias](imagick.setimagebias.html)
-    
--   [Imagick::setImageBluePrimary »](imagick.setimageblueprimary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.setimagebias.html: '« Imagick::setImageBias'
+  - imagick.setimageblueprimary.html: 'Imagick::setImageBluePrimary »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageBiasQuantum'
+---
 # Imagick::setImageBiasQuantum
 
 (PECL imagick 3> = 3.3.0)

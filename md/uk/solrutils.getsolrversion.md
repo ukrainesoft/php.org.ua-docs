@@ -1,16 +1,11 @@
-Повертає поточну версію модуля Solr
-
--   [« SolrUtils::escapeQueryChars](solrutils.escapequerychars.md)
-    
--   [SolrUtils::queryPhrase »](solrutils.queryphrase.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrUtils](class.solrutils.md)
-    
--   Повертає поточну версію модуля Solr
-    
-
+---
+navigation:
+  - solrutils.escapequerychars.md: '« SolrUtils::escapeQueryChars'
+  - solrutils.queryphrase.md: 'SolrUtils::queryPhrase »'
+  - index.md: PHP Manual
+  - class.solrutils.md: SolrUtils
+title: 'SolrUtils::getSolrVersion'
+---
 # SolrUtils::getSolrVersion
 
 (PECL solr> = 0.9.2)

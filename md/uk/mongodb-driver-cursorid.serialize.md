@@ -1,16 +1,11 @@
-Серіалізація CursorId
-
--   [« MongoDBDriverCursorId::construct](mongodb-driver-cursorid.construct.html)
-    
--   [MongoDBDriverCursorId::toString »](mongodb-driver-cursorid.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
-    
--   Серіалізація CursorId
-    
-
+---
+navigation:
+  - mongodb-driver-cursorid.construct.html: '« MongoDBDriverCursorId::construct'
+  - mongodb-driver-cursorid.tostring.html: 'MongoDBDriverCursorId::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId
+title: 'MongoDBDriverCursorId::serialize'
+---
 # MongoDBDriverCursorId::serialize
 
 (mongodb >=1.7.0)

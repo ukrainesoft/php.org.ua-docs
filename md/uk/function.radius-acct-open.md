@@ -1,16 +1,11 @@
-Створює дескриптор Radius для обліку
-
--   [« Функции Radius](ref.radius.html)
-    
--   [radiusaddserver »](function.radius-add-server.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Створює дескриптор Radius для обліку
-    
-
+---
+navigation:
+  - ref.radius.html: « Функции Radius
+  - function.radius-add-server.html: radiusaddserver »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusacctopen
+---
 # radiusacctopen
 
 (PECL radius >= 1.1.0)

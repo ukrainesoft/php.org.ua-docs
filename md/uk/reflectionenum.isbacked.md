@@ -1,16 +1,11 @@
-Визначає, чи є перелік типовим
-
--   [« ReflectionEnum::hasCase](reflectionenum.hascase.md)
-    
--   [ReflectionEnumUnitCase »](class.reflectionenumunitcase.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionEnum](class.reflectionenum.md)
-    
--   Визначає, чи є перелік типовим
-    
-
+---
+navigation:
+  - reflectionenum.hascase.md: '« ReflectionEnum::hasCase'
+  - class.reflectionenumunitcase.md: ReflectionEnumUnitCase »
+  - index.md: PHP Manual
+  - class.reflectionenum.md: ReflectionEnum
+title: 'ReflectionEnum::isBacked'
+---
 # ReflectionEnum::isBacked
 
 (PHP 8> = 8.1.0)

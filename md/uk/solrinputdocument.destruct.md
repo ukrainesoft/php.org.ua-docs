@@ -1,16 +1,11 @@
-Деструктор
-
--   [« SolrInputDocument::deleteField](solrinputdocument.deletefield.html)
-    
--   [SolrInputDocument::fieldExists »](solrinputdocument.fieldexists.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Деструктор
-    
-
+---
+navigation:
+  - solrinputdocument.deletefield.html: '« SolrInputDocument::deleteField'
+  - solrinputdocument.fieldexists.html: 'SolrInputDocument::fieldExists »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::destruct'
+---
 # SolrInputDocument::destruct
 
 (PECL solr> = 0.9.2)

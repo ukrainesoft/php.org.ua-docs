@@ -1,16 +1,11 @@
-Встановлює ліміт результату
-
--   [« mysqlxdevapiCrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html)
-    
--   [mysqlxdevapiCrudOperationSkippable »](class.mysql-xdevapi-crudoperationskippable.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.html)
-    
--   Встановлює ліміт результату
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-crudoperationlimitable.html: « mysqlxdevapiCrudOperationLimitable
+  - class.mysql-xdevapi-crudoperationskippable.html: mysqlxdevapiCrudOperationSkippable »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-crudoperationlimitable.html: mysqlxdevapiCrudOperationLimitable
+title: 'CrudOperationLimitable::limit'
+---
 # CrudOperationLimitable::limit
 
 (No version information available, might only be in Git)

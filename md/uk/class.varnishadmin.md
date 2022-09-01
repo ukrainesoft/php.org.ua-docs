@@ -1,16 +1,11 @@
-Клас VarnishAdmin
-
--   [« Простое использование VarnishLog](varnish.example.log.html)
-    
--   [VarnishAdmin::auth »](varnishadmin.auth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Varnish](book.varnish.html)
-    
--   Клас VarnishAdmin
-    
-
+---
+navigation:
+  - varnish.example.log.html: « Простое использование VarnishLog
+  - varnishadmin.auth.html: 'VarnishAdmin::auth »'
+  - index.html: PHP Manual
+  - book.varnish.html: Varnish
+title: Клас VarnishAdmin
+---
 # Клас VarnishAdmin
 
 (PECL varnish >= 0.3)

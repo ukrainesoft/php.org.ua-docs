@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickPixel::setColorValue](imagickpixel.setcolorvalue.md)
-    
--   [ImagickPixel::setHSL »](imagickpixel.sethsl.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickpixel.setcolorvalue.md: '« ImagickPixel::setColorValue'
+  - imagickpixel.sethsl.md: 'ImagickPixel::setHSL »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::setColorValueQuantum'
+---
 # ImagickPixel::setColorValueQuantum
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

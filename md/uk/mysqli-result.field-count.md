@@ -1,16 +1,11 @@
-Отримує кількість полів у наборі результатів
-
--   [« mysqliresult::fetchrow](mysqli-result.fetch-row.html)
-    
--   [mysqliresult::fieldseek »](mysqli-result.field-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Отримує кількість полів у наборі результатів
-    
-
+---
+navigation:
+  - mysqli-result.fetch-row.html: '« mysqliresult::fetchrow'
+  - mysqli-result.field-seek.html: 'mysqliresult::fieldseek »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::$fieldcount'
+---
 # mysqliresult::$fieldcount
 
 # mysqlinumfields

@@ -1,16 +1,11 @@
-Надсилання статусу завдання (застарілий метод)
-
--   [« GearmanJob::setReturn](gearmanjob.setreturn.html)
-    
--   [GearmanJob::unique »](gearmanjob.unique.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Надсилання статусу завдання (застарілий метод)
-    
-
+---
+navigation:
+  - gearmanjob.setreturn.html: '« GearmanJob::setReturn'
+  - gearmanjob.unique.html: 'GearmanJob::unique »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::status'
+---
 # GearmanJob::status
 
 (PECL gearman <= 0.5.0)

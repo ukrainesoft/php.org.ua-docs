@@ -1,16 +1,11 @@
-Змінює місцями ключі зі своїми значеннями у масиві
-
--   [« arrayfilter](function.array-filter.html)
-    
--   [arrayintersectassoc »](function.array-intersect-assoc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Змінює місцями ключі зі своїми значеннями у масиві
-    
-
+---
+navigation:
+  - function.array-filter.html: « arrayfilter
+  - function.array-intersect-assoc.html: arrayintersectassoc »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayflip
+---
 # arrayflip
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

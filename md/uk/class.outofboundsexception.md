@@ -1,16 +1,11 @@
-Клас OutOfBoundsException
-
--   [« LogicException](class.logicexception.html)
-    
--   [OutOfRangeException »](class.outofrangeexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [Исключения](spl.exceptions.html)
-    
--   Клас OutOfBoundsException
-    
-
+---
+navigation:
+  - class.logicexception.html: « LogicException
+  - class.outofrangeexception.html: OutOfRangeException »
+  - index.html: PHP Manual
+  - spl.exceptions.html: Исключения
+title: Клас OutOfBoundsException
+---
 # Клас OutOfBoundsException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

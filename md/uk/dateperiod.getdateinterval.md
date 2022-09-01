@@ -1,16 +1,11 @@
-Повертає інтервал
-
--   [« DatePeriod::construct](dateperiod.construct.md)
-    
--   [DatePeriod::getEndDate »](dateperiod.getenddate.md)
-    
--   [PHP Manual](index.md)
-    
--   [DatePeriod](class.dateperiod.md)
-    
--   Повертає інтервал
-    
-
+---
+navigation:
+  - dateperiod.construct.md: '« DatePeriod::construct'
+  - dateperiod.getenddate.md: 'DatePeriod::getEndDate »'
+  - index.md: PHP Manual
+  - class.dateperiod.md: DatePeriod
+title: 'DatePeriod::getDateInterval'
+---
 # DatePeriod::getDateInterval
 
 (PHP 5> = 5.6.5, PHP 7, PHP 8)

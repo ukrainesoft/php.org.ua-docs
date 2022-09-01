@@ -1,16 +1,11 @@
-Обмеження часу виконання скрипту
-
--   [« setincludepath](function.set-include-path.html)
-    
--   [sysgettempdir »](function.sys-get-temp-dir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Обмеження часу виконання скрипту
-    
-
+---
+navigation:
+  - function.set-include-path.html: « setincludepath
+  - function.sys-get-temp-dir.html: sysgettempdir »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: settimelimit
+---
 # settimelimit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

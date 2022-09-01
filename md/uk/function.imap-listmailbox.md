@@ -1,16 +1,11 @@
-Псевдонім imaplist
-
--   [« imaplist](function.imap-list.html)
-    
--   [imaplistscan »](function.imap-listscan.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Псевдонім imaplist
-    
-
+---
+navigation:
+  - function.imap-list.html: « imaplist
+  - function.imap-listscan.html: imaplistscan »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imaplistmailbox
+---
 # imaplistmailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

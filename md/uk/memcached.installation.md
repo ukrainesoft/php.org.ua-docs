@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](memcached.requirements.md)
-    
--   [Налаштування під час виконання »](memcached.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](memcached.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - memcached.requirements.md: « Вимоги
+  - memcached.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - memcached.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/memcached](https://pecl.php.net/package/memcached)

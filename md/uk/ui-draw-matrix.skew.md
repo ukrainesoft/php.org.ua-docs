@@ -1,16 +1,11 @@
-Нахилити матрицю
-
--   [« UIDrawMatrix::scale](ui-draw-matrix.scale.html)
-    
--   [ОЙDrawMatrix::translate »](ui-draw-matrix.translate.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawMatrix](class.ui-draw-matrix.html)
-    
--   Нахилити матрицю
-    
-
+---
+navigation:
+  - ui-draw-matrix.scale.html: '« UIDrawMatrix::scale'
+  - ui-draw-matrix.translate.html: 'ОЙDrawMatrix::translate »'
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.html: ОЙDrawMatrix
+title: 'ОЙDrawMatrix::skew'
+---
 # ОЙDrawMatrix::skew
 
 (UI 0.9.9)

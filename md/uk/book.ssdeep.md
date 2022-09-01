@@ -1,16 +1,11 @@
-Нечітке хешування ssdeep
-
--   [« pregsplit](function.preg-split.html)
-    
--   [Введение »](intro.ssdeep.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка текста](refs.basic.text.html)
-    
--   Нечітке хешування ssdeep
-    
-
+---
+navigation:
+  - function.preg-split.html: « pregsplit
+  - intro.ssdeep.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.text.html: Обработка текста
+title: Нечітке хешування ssdeep
+---
 # Нечітке хешування ssdeep
 
 -   [Введение](intro.ssdeep.html)

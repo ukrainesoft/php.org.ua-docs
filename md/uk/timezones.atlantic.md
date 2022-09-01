@@ -1,16 +1,11 @@
-Атлантика
-
--   [« Азия](timezones.asia.html)
-    
--   [Австралія »](timezones.australia.html)
-    
--   [PHP Manual](index.html)
-    
--   [Список підтримуваних часових поясів](timezones.html)
-    
--   Атлантика
-    
-
+---
+navigation:
+  - timezones.asia.html: « Азия
+  - timezones.australia.html: Австралія »
+  - index.html: PHP Manual
+  - timezones.html: Список підтримуваних часових поясів
+title: Атлантика
+---
 ## Атлантика
 
 < td class="empty"> 

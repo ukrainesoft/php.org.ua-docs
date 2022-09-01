@@ -1,16 +1,11 @@
-Замінює значення за вказаним індексом
-
--   [« DsSequence::rotate](ds-sequence.rotate.html)
-    
--   [ДсSequence::shift »](ds-sequence.shift.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Замінює значення за вказаним індексом
-    
-
+---
+navigation:
+  - ds-sequence.rotate.html: '« DsSequence::rotate'
+  - ds-sequence.shift.html: 'ДсSequence::shift »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::set'
+---
 # ДсSequence::set
 
 (PECL ds >= 1.0.0)

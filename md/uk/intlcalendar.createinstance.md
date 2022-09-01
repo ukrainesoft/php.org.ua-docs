@@ -1,16 +1,11 @@
-Створює новий об'єкт IntlCalendar
-
--   [« IntlCalendar::construct](intlcalendar.construct.md)
-    
--   [IntlCalendar::equals »](intlcalendar.equals.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Створює новий об'єкт IntlCalendar
-    
-
+---
+navigation:
+  - intlcalendar.construct.md: '« IntlCalendar::construct'
+  - intlcalendar.equals.md: 'IntlCalendar::equals »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::createInstance'
+---
 # IntlCalendar::createInstance
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

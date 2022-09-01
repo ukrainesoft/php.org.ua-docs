@@ -1,16 +1,11 @@
-Обчислює ексцес даних у масиві
-
--   [« statsharmonicmean](function.stats-harmonic-mean.html)
-    
--   [statsrandgenbeta »](function.stats-rand-gen-beta.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює ексцес даних у масиві
-    
-
+---
+navigation:
+  - function.stats-harmonic-mean.html: « statsharmonicmean
+  - function.stats-rand-gen-beta.html: statsrandgenbeta »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statskurtosis
+---
 # statskurtosis
 
 (PECL stats >= 1.0.0)

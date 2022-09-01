@@ -1,16 +1,11 @@
-Конструктор об'єкту EvEmbed
-
--   [« EvEmbed](class.evembed.html)
-    
--   [EvEmbed::createStopped »](evembed.createstopped.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvEmbed](class.evembed.html)
-    
--   Конструктор об'єкту EvEmbed
-    
-
+---
+navigation:
+  - class.evembed.html: « EvEmbed
+  - evembed.createstopped.html: 'EvEmbed::createStopped »'
+  - index.html: PHP Manual
+  - class.evembed.html: EvEmbed
+title: 'EvEmbed::construct'
+---
 # EvEmbed::construct
 
 (PECL ev >= 0.2.0)

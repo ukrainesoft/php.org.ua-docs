@@ -1,16 +1,11 @@
-Встановлює колірний простір зображення
-
--   [« Gmagick::setimagechanneldepth](gmagick.setimagechanneldepth.html)
-    
--   [Gmagick::setimagecompose »](gmagick.setimagecompose.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Встановлює колірний простір зображення
-    
-
+---
+navigation:
+  - gmagick.setimagechanneldepth.html: '« Gmagick::setimagechanneldepth'
+  - gmagick.setimagecompose.html: 'Gmagick::setimagecompose »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::setimagecolorspace'
+---
 # Gmagick::setimagecolorspace
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Повертає рядок із описом останньої помилки підключення
-
--   [« Функции Stomp](ref.stomp.md)
-    
--   [stompversion »](function.stomp-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Stomp](ref.stomp.md)
-    
--   Повертає рядок із описом останньої помилки підключення
-    
-
+---
+navigation:
+  - ref.stomp.md: « Функции Stomp
+  - function.stomp-version.html: stompversion »
+  - index.md: PHP Manual
+  - ref.stomp.md: Функции Stomp
+title: stompconnecterror
+---
 # stompconnecterror
 
 (PECL stomp >= 0.3.0)

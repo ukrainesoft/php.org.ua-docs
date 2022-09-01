@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleRedisServer::format](swoole-redis-server.format.html)
-    
--   [SwooleRedisServer::start »](swoole-redis-server.start.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleRedisServer](class.swoole-redis-server.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-redis-server.format.html: '« SwooleRedisServer::format'
+  - swoole-redis-server.start.html: 'SwooleRedisServer::start »'
+  - index.html: PHP Manual
+  - class.swoole-redis-server.html: SwooleRedisServer
+title: 'SwooleRedisServer::setHandler'
+---
 # SwooleRedisServer::setHandler
 
 (PECL swoole >= 1.9.0)

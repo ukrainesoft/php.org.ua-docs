@@ -1,16 +1,11 @@
-Кешує змінну
-
--   [« apcusmainfo](function.apcu-sma-info.html)
-    
--   [APCUIterator »](class.apcuiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Кешує змінну
-    
-
+---
+navigation:
+  - function.apcu-sma-info.html: « apcusmainfo
+  - class.apcuiterator.html: APCUIterator »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcustore
+---
 # apcustore
 
 (PECL apcu >= 4.0.0)

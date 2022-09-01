@@ -1,16 +1,11 @@
-Дешифрування даних
-
--   [« mcryptmoduleselftest](function.mcrypt-module-self-test.html)
-    
--   [Mhash »](book.mhash.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Дешифрування даних
-    
-
+---
+navigation:
+  - function.mcrypt-module-self-test.html: « mcryptmoduleselftest
+  - book.mhash.md: Mhash »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mdecryptgeneric
+---
 # mdecryptgeneric
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

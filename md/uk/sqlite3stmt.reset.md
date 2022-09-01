@@ -1,16 +1,11 @@
-Скидає підготовлений запит
-
--   [« SQLite3Stmt::readOnly](sqlite3stmt.readonly.md)
-    
--   [SQLite3Result »](class.sqlite3result.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Stmt](class.sqlite3stmt.md)
-    
--   Скидає підготовлений запит
-    
-
+---
+navigation:
+  - sqlite3stmt.readonly.md: '« SQLite3Stmt::readOnly'
+  - class.sqlite3result.md: SQLite3Result »
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::reset'
+---
 # SQLite3Stmt::reset
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

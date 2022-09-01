@@ -1,16 +1,11 @@
-Повертає функції каскадної активації
-
--   [« fanngetcascadeactivationfunctionscount](function.fann-get-cascade-activation-functions-count.html)
-    
--   [fanngetcascadeactivationsteepnessescount »](function.fann-get-cascade-activation-steepnesses-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає функції каскадної активації
-    
-
+---
+navigation:
+  - function.fann-get-cascade-activation-functions-count.html: « fanngetcascadeactivationfunctionscount
+  - function.fann-get-cascade-activation-steepnesses-count.html: fanngetcascadeactivationsteepnessescount »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadeactivationфункцій
+---
 # fanngetcascadeactivationфункцій
 
 (PECL fann> = 1.0.0)

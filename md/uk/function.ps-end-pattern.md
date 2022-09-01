@@ -1,16 +1,11 @@
-Завершує шаблон
-
--   [«psendpage](function.ps-end-page.html)
-    
--   [псendtemplate »](function.ps-end-template.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Завершує шаблон
-    
-
+---
+navigation:
+  - function.ps-end-page.html: «psendpage
+  - function.ps-end-template.html: псendtemplate »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псendpattern
+---
 # псendpattern
 
 (PECL ps >= 1.2.0)

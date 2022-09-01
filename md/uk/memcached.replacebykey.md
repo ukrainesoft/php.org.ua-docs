@@ -1,16 +1,11 @@
-Замінює існуючий запис із заданим ключем на вказаному сервері
-
--   [« Memcached::replace](memcached.replace.html)
-    
--   [Memcached::resetServerList »](memcached.resetserverlist.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Замінює існуючий запис із заданим ключем на вказаному сервері
-    
-
+---
+navigation:
+  - memcached.replace.html: '« Memcached::replace'
+  - memcached.resetserverlist.html: 'Memcached::resetServerList »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::replaceByKey'
+---
 # Memcached::replaceByKey
 
 (PECL memcached >= 0.1.0)

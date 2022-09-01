@@ -1,16 +1,11 @@
-Повертає код останньої помилки оброблюваного обробника curl
-
--   [« curlshareclose](function.curl-share-close.html)
-    
--   [curlshareinit »](function.curl-share-init.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Повертає код останньої помилки оброблюваного обробника curl
-    
-
+---
+navigation:
+  - function.curl-share-close.html: « curlshareclose
+  - function.curl-share-init.html: curlshareinit »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlshareerrno
+---
 # curlshareerrno
 
 (PHP 7> = 7.1.0, PHP 8)
@@ -37,10 +32,10 @@ curl_share_errno(CurlShareHandle $share_handle): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------|
-|        | Функція більше не повертає **`false`** у разі виникнення помилки.                                                         |
-|        | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
+|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Дивіться також
 

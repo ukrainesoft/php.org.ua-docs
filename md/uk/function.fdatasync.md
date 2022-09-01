@@ -1,16 +1,11 @@
-Синхронізує дані (але не метадані) з файлом
-
--   [« fclose](function.fclose.html)
-    
--   [feof »](function.feof.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Синхронізує дані (але не метадані) з файлом
-    
-
+---
+navigation:
+  - function.fclose.html: « fclose
+  - function.feof.html: feof »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: fdatasync
+---
 # fdatasync
 
 (PHP 8> = 8.1.0)

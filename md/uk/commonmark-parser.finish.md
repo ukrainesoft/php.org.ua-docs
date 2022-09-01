@@ -1,16 +1,11 @@
-Розбір
-
--   [« CommonMarkParser::parse](commonmark-parser.parse.html)
-    
--   [CommonMarkCQL »](class.commonmark-cql.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkParser](class.commonmark-parser.html)
-    
--   Розбір
-    
-
+---
+navigation:
+  - commonmark-parser.parse.html: '« CommonMarkParser::parse'
+  - class.commonmark-cql.html: CommonMarkCQL »
+  - index.md: PHP Manual
+  - class.commonmark-parser.html: CommonMarkParser
+title: 'CommonMarkParser::finish'
+---
 # CommonMarkParser::finish
 
 (cmark >= 1.0.0)

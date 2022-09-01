@@ -1,16 +1,11 @@
-Метод сповіщення про відкриття сервера
-
--   [« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber::topologyChanged »](mongodb-driver-monitoring-sdamsubscriber.topologychanged.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   Метод сповіщення про відкриття сервера
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.html: '« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded'
+  - mongodb-driver-monitoring-sdamsubscriber.topologychanged.html: 'MongoDBDriverMonitoringSDAMSubscriber::topologyChanged »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::serverOpening'
+---
 # MongoDBDriverMonitoringSDAMSubscriber::serverOpening
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](xmlwriter.constants.html)
-    
--   [Створення простого XML-документу](example.xmlwriter-simple.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](book.xmlwriter.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - xmlwriter.constants.html: « Обумовлені константи
+  - example.xmlwriter-simple.html: Створення простого XML-документу
+  - index.html: PHP Manual
+  - book.xmlwriter.html: XMLWriter
+title: Приклади
+---
 # Приклади
 
 ## Зміст

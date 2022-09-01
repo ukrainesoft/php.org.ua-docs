@@ -1,16 +1,11 @@
-Коефіцієнт зміни у відсотках: (ціна-попередня ціна)/попередня ціна
-
--   [« traderroc](function.trader-roc.html)
-    
--   [traderrocr100 »](function.trader-rocr100.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Коефіцієнт зміни у відсотках: (ціна-попередня ціна)/попередня ціна
-    
-
+---
+navigation:
+  - function.trader-roc.html: « traderroc
+  - function.trader-rocr100.html: traderrocr100 »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderrocp
+---
 # traderrocp
 
 (PECL trader >= 0.2.0)

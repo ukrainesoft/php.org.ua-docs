@@ -1,16 +1,11 @@
-WDDX
-
--   [« simplexmlloadstring](function.simplexml-load-string.html)
-    
--   [Введение »](intro.wddx.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обработка XML](refs.xml.html)
-    
--   WDDX
-    
-
+---
+navigation:
+  - function.simplexml-load-string.html: « simplexmlloadstring
+  - intro.wddx.html: Введение »
+  - index.html: PHP Manual
+  - refs.xml.html: Обработка XML
+title: WDDX
+---
 # WDDX
 
 -   [Введение](intro.wddx.html)

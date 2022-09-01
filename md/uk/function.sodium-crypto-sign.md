@@ -1,16 +1,11 @@
-Підписати повідомлення
-
--   [« sodiumcryptosignverifydetached](function.sodium-crypto-sign-verify-detached.html)
-    
--   [sodiumcryptostreamkeygen »](function.sodium-crypto-stream-keygen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Підписати повідомлення
-    
-
+---
+navigation:
+  - function.sodium-crypto-sign-verify-detached.html: « sodiumcryptosignverifydetached
+  - function.sodium-crypto-stream-keygen.html: sodiumcryptostreamkeygen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosign
+---
 # sodiumcryptosign
 
 (PHP 7> = 7.2.0, PHP 8)

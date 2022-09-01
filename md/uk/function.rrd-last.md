@@ -1,16 +1,11 @@
-Повертає позначку часу unix останнього зразка
-
--   [« rrdinfo](function.rrd-info.html)
-    
--   [rrdlastupdate »](function.rrd-lastupdate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції RRD](ref.rrd.html)
-    
--   Повертає позначку часу unix останнього зразка
-    
-
+---
+navigation:
+  - function.rrd-info.html: « rrdinfo
+  - function.rrd-lastupdate.html: rrdlastupdate »
+  - index.html: PHP Manual
+  - ref.rrd.html: Функції RRD
+title: rrdlast
+---
 # rrdlast
 
 (PECL rrd >= 0.9.0)

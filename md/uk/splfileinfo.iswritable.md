@@ -1,16 +1,11 @@
-Вказує, чи файл доступний для запису
-
--   [« SplFileInfo::isReadable](splfileinfo.isreadable.md)
-    
--   [SplFileInfo::openFile »](splfileinfo.openfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Вказує, чи файл доступний для запису
-    
-
+---
+navigation:
+  - splfileinfo.isreadable.md: '« SplFileInfo::isReadable'
+  - splfileinfo.openfile.md: 'SplFileInfo::openFile »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::isWritable'
+---
 # SplFileInfo::isWritable
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

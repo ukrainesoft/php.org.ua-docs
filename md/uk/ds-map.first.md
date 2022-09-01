@@ -1,16 +1,11 @@
-Повертає перший елемент колекції
-
--   [« DsMap::filter](ds-map.filter.html)
-    
--   [ДсMap::get »](ds-map.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає перший елемент колекції
-    
-
+---
+navigation:
+  - ds-map.filter.html: '« DsMap::filter'
+  - ds-map.get.html: 'ДсMap::get »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::first'
+---
 # ДсMap::first
 
 (PECL ds >= 1.0.0)

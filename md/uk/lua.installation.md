@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](lua.requirements.html)
-    
--   [Налаштування під час виконання »](lua.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](lua.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - lua.requirements.html: « Вимоги
+  - lua.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - lua.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

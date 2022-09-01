@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](funchand.resources.html)
-    
--   [Функции управления функциями »](ref.funchand.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управление функциями](book.funchand.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - funchand.resources.html: « Типи ресурсів
+  - ref.funchand.html: Функции управления функциями »
+  - index.html: PHP Manual
+  - book.funchand.html: Управление функциями
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

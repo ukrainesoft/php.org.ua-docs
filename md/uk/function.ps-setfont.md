@@ -1,16 +1,11 @@
-Встановлює шрифт, який використовуватиметься для наступного висновку
-
--   [«pssetflat](function.ps-setflat.html)
-    
--   [псsetgray »](function.ps-setgray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює шрифт, який використовуватиметься для наступного висновку
-    
-
+---
+navigation:
+  - function.ps-setflat.html: «pssetflat
+  - function.ps-setgray.html: псsetgray »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: пссетфонт
+---
 # пссетфонт
 
 (PECL ps >= 1.1.0)

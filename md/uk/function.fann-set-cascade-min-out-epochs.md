@@ -1,16 +1,11 @@
-Встановлює мінімальні епохи вихідних даних
-
--   [« fannsetcascademincandepochs](function.fann-set-cascade-min-cand-epochs.html)
-    
--   [fannsetcascadenumcandidategroups »](function.fann-set-cascade-num-candidate-groups.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює мінімальні епохи вихідних даних
-    
-
+---
+navigation:
+  - function.fann-set-cascade-min-cand-epochs.html: « fannsetcascademincandepochs
+  - function.fann-set-cascade-num-candidate-groups.html: fannsetcascadenumcandidategroups »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascademinoutepochs
+---
 # fannsetcascademinoutepochs
 
 (PECL fann> = 1.0.0)

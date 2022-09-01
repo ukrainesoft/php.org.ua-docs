@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](seaslog.constants.md)
-    
--   [Функции Seaslog »](ref.seaslog.md)
-    
--   [PHP Manual](index.md)
-    
--   [Seaslog](book.seaslog.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - seaslog.constants.md: « Обумовлені константи
+  - ref.seaslog.md: Функции Seaslog »
+  - index.md: PHP Manual
+  - book.seaslog.md: Seaslog
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Отримує та встановлює базовий шлях**

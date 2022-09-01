@@ -1,16 +1,11 @@
-Функції URL
-
--   [« Обумовлені константи](url.constants.md)
-    
--   [base64decode »](function.base64-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [URL](book.url.md)
-    
--   Функції URL
-    
-
+---
+navigation:
+  - url.constants.md: « Обумовлені константи
+  - function.base64-decode.html: base64decode »
+  - index.md: PHP Manual
+  - book.url.md: URL
+title: Функції URL
+---
 # Функції URL
 
 ## Зміст

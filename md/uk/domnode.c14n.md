@@ -1,16 +1,11 @@
-Канонізувати вузли в рядок
-
--   [« DOMNode::appendChild](domnode.appendchild.md)
-    
--   [DOMNode::C14NFile »](domnode.c14nfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Канонізувати вузли в рядок
-    
-
+---
+navigation:
+  - domnode.appendchild.md: '« DOMNode::appendChild'
+  - domnode.c14nfile.md: 'DOMNode::C14NFile »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::C14N'
+---
 # DOMNode::C14N
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає коефіцієнт відхилення від ідеального розміру фрагмента
-
--   [« SolrQuery::getHighlightRegexPattern](solrquery.gethighlightregexpattern.md)
-    
--   [SolrQuery::getHighlightRequireFieldMatch »](solrquery.gethighlightrequirefieldmatch.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає коефіцієнт відхилення від ідеального розміру фрагмента
-    
-
+---
+navigation:
+  - solrquery.gethighlightregexpattern.md: '« SolrQuery::getHighlightRegexPattern'
+  - solrquery.gethighlightrequirefieldmatch.md: 'SolrQuery::getHighlightRequireFieldMatch »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightRegexSlop'
+---
 # SolrQuery::getHighlightRegexSlop
 
 (PECL solr> = 0.9.2)

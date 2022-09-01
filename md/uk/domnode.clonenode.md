@@ -1,16 +1,11 @@
-Клонує вузол
-
--   [« DOMNode::C14NFile](domnode.c14nfile.html)
-    
--   [DOMNode::getLineNo »](domnode.getlineno.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNode](class.domnode.html)
-    
--   Клонує вузол
-    
-
+---
+navigation:
+  - domnode.c14nfile.html: '« DOMNode::C14NFile'
+  - domnode.getlineno.html: 'DOMNode::getLineNo »'
+  - index.html: PHP Manual
+  - class.domnode.html: DOMNode
+title: 'DOMNode::cloneNode'
+---
 # DOMNode::cloneNode
 
 (PHP 5, PHP 7, PHP 8)

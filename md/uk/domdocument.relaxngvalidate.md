@@ -1,16 +1,11 @@
-Здійснює перевірку документа на правильність побудови за допомогою relaxNG
-
--   [« DOMDocument::registerNodeClass](domdocument.registernodeclass.md)
-    
--   [DOMDocument::relaxNGValidateSource »](domdocument.relaxngvalidatesource.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Здійснює перевірку документа на правильність побудови за допомогою relaxNG
-    
-
+---
+navigation:
+  - domdocument.registernodeclass.md: '« DOMDocument::registerNodeClass'
+  - domdocument.relaxngvalidatesource.md: 'DOMDocument::relaxNGValidateSource »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::relaxNGValidate'
+---
 # DOMDocument::relaxNGValidate
 
 (PHP 5, PHP 7, PHP 8)

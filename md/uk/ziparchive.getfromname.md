@@ -1,16 +1,11 @@
-Повертає вміст елемента на його ім'я
-
--   [« ZipArchive::getFromIndex](ziparchive.getfromindex.md)
-    
--   [ZipArchive::getNameIndex »](ziparchive.getnameindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Повертає вміст елемента на його ім'я
-    
-
+---
+navigation:
+  - ziparchive.getfromindex.md: '« ZipArchive::getFromIndex'
+  - ziparchive.getnameindex.md: 'ZipArchive::getNameIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::getFromName'
+---
 # ZipArchive::getFromName
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

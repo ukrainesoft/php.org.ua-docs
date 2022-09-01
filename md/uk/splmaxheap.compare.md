@@ -1,16 +1,11 @@
-Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
-
--   [« SplMaxHeap](class.splmaxheap.md)
-    
--   [SplMinHeap »](class.splminheap.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplMaxHeap](class.splmaxheap.md)
-    
--   Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
-    
-
+---
+navigation:
+  - class.splmaxheap.md: « SplMaxHeap
+  - class.splminheap.md: SplMinHeap »
+  - index.md: PHP Manual
+  - class.splmaxheap.md: SplMaxHeap
+title: 'SplMaxHeap::compare'
+---
 # SplMaxHeap::compare
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

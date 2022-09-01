@@ -1,16 +1,11 @@
-Список розділів php.ini
-
--   [« Список директив php.ini](ini.list.md)
-    
--   [Опис вбудованих директив php.ini »](ini.core.md)
-    
--   [PHP Manual](index.md)
-    
--   [Директиви php.ini](ini.md)
-    
--   Список розділів php.ini
-    
-
+---
+navigation:
+  - ini.list.md: « Список директив php.ini
+  - ini.core.md: Опис вбудованих директив php.ini »
+  - index.md: PHP Manual
+  - ini.md: Директиви php.ini
+title: Список розділів php.ini
+---
 ## Список розділів php.ini
 
 У цьому списку вказані розділи, в яких можна налаштувати PHP залежно від хоста або шляху. Ці розділи необов'язкові.
@@ -21,10 +16,10 @@
 
 **Розділи**
 
-| Название                                    | Место изменения | История изменений |
-|---------------------------------------------|-----------------|-------------------|
-| [\[HOST=\]](ini.sections.html#ini.per-host) | PHPINISYSTEM    |                   |
-| [\[PATH=\]](ini.sections.html#ini.per-path) | PHPINISYSTEM    |                   |
+| Название | Место изменения | История изменений |
+| --- | --- | --- |
+| [\[HOST=\]](ini.sections.html#ini.per-host) | PHPINISYSTEM |  |
+| [\[PATH=\]](ini.sections.html#ini.per-path) | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

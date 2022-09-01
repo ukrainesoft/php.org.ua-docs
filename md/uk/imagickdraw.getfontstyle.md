@@ -1,16 +1,11 @@
-Повертає стиль шрифту
-
--   [« ImagickDraw::getFontStretch](imagickdraw.getfontstretch.md)
-    
--   [ImagickDraw::getFontWeight »](imagickdraw.getfontweight.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає стиль шрифту
-    
-
+---
+navigation:
+  - imagickdraw.getfontstretch.md: '« ImagickDraw::getFontStretch'
+  - imagickdraw.getfontweight.md: 'ImagickDraw::getFontWeight »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFontStyle'
+---
 # ImagickDraw::getFontStyle
 
 (PECL imagick 2, PECL imagick 3)

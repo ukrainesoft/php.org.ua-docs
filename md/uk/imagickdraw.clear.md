@@ -1,16 +1,11 @@
-Очищає ImagickDraw
-
--   [« ImagickDraw::circle](imagickdraw.circle.html)
-    
--   [ImagickDraw::clone »](imagickdraw.clone.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Очищає ImagickDraw
-    
-
+---
+navigation:
+  - imagickdraw.circle.html: '« ImagickDraw::circle'
+  - imagickdraw.clone.html: 'ImagickDraw::clone »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::clear'
+---
 # ImagickDraw::clear
 
 (PECL imagick 2, PECL imagick 3)

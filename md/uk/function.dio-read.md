@@ -1,16 +1,11 @@
-Прочитай байти із файлового дескриптора
-
--   [« dioopen](function.dio-open.html)
-    
--   [dioseek »](function.dio-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції прямого введення/виводу](ref.dio.md)
-    
--   Прочитай байти із файлового дескриптора
-    
-
+---
+navigation:
+  - function.dio-open.html: « dioopen
+  - function.dio-seek.html: dioseek »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
+title: dioread
+---
 # dioread
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

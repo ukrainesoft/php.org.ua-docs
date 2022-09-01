@@ -1,16 +1,11 @@
-Завершення навігації по нащадкам елемента
-
--   [« RecursiveTreeIterator::current](recursivetreeiterator.current.html)
-    
--   [RecursiveTreeIterator::endIteration »](recursivetreeiterator.enditeration.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.html)
-    
--   Завершення навігації по нащадкам елемента
-    
-
+---
+navigation:
+  - recursivetreeiterator.current.html: '« RecursiveTreeIterator::current'
+  - recursivetreeiterator.enditeration.html: 'RecursiveTreeIterator::endIteration »'
+  - index.html: PHP Manual
+  - class.recursivetreeiterator.html: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::endChildren'
+---
 # RecursiveTreeIterator::endChildren
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

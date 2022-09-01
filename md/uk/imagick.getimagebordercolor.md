@@ -1,16 +1,11 @@
-Повертає колір рамки зображення
-
--   [« Imagick::getImageBluePrimary](imagick.getimageblueprimary.html)
-    
--   [Imagick::getImageChannelDepth »](imagick.getimagechanneldepth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає колір рамки зображення
-    
-
+---
+navigation:
+  - imagick.getimageblueprimary.html: '« Imagick::getImageBluePrimary'
+  - imagick.getimagechanneldepth.html: 'Imagick::getImageChannelDepth »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageBorderColor'
+---
 # Imagick::getImageBorderColor
 
 (PECL imagick 2, PECL imagick 3)

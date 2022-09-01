@@ -1,16 +1,11 @@
-Клас SqlStatement
-
--   [« Session::startTransaction](mysql-xdevapi-session.starttransaction.html)
-    
--   [SqlStatement::bind »](mysql-xdevapi-sqlstatement.bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас SqlStatement
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.starttransaction.html: '« Session::startTransaction'
+  - mysql-xdevapi-sqlstatement.bind.html: 'SqlStatement::bind »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас SqlStatement
+---
 # Клас SqlStatement
 
 (PECL mysql-xdevapi >= 8.0.11)

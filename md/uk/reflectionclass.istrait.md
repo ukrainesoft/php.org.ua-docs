@@ -1,16 +1,11 @@
-Перевіряє, чи це трейтом
-
--   [« ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md)
-    
--   [ReflectionClass::isUserDefined »](reflectionclass.isuserdefined.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи це трейтом
-    
-
+---
+navigation:
+  - reflectionclass.issubclassof.md: '« ReflectionClass::isSubclassOf'
+  - reflectionclass.isuserdefined.md: 'ReflectionClass::isUserDefined »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isTrait'
+---
 # ReflectionClass::isTrait
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

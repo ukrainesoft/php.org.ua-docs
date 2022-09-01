@@ -1,16 +1,11 @@
-Перетворити секретний ключ із системи Ed25519 на секретний ключ Curve25519
-
--   [« sodiumcryptosigned25519пктоcurve25519](function.sodium-crypto-sign-ed25519-pk-to-curve25519.html)
-    
--   [sodiumcryptosignkeypairfromsecretkeyandpublickey »](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Перетворити секретний ключ із системи Ed25519 на секретний ключ Curve25519
-    
-
+---
+navigation:
+  - function.sodium-crypto-sign-ed25519-pk-to-curve25519.html: « sodiumcryptosigned25519пктоcurve25519
+  - function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.html: sodiumcryptosignkeypairfromsecretkeyandpublickey »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosigned25519сктоcurve25519
+---
 # sodiumcryptosigned25519сктоcurve25519
 
 (PHP 7> = 7.2.0, PHP 8)

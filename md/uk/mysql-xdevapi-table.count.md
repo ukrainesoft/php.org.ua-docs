@@ -1,16 +1,11 @@
-Отримати кількість рядків
-
--   [« Table::construct](mysql-xdevapi-table.construct.html)
-    
--   [Table::delete »](mysql-xdevapi-table.delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Отримати кількість рядків
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.construct.html: '« Table::construct'
+  - mysql-xdevapi-table.delete.html: 'Table::delete »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::count'
+---
 # Table::count
 
 (No version information available, might only be in Git)

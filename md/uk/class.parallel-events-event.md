@@ -1,16 +1,11 @@
-Клас parallelEventsEvent
-
--   [« parallelEventsInput::remove](parallel-events-input.remove.html)
-    
--   [parallelEventsEventType »](class.parallel-events-event-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallel](book.parallel.html)
-    
--   Клас parallelEventsEvent
-    
-
+---
+navigation:
+  - parallel-events-input.remove.html: '« parallelEventsInput::remove'
+  - class.parallel-events-event-type.html: parallelEventsEventType »
+  - index.html: PHP Manual
+  - book.parallel.html: parallel
+title: Клас parallelEventsEvent
+---
 # Клас parallelEventsEvent
 
 ## Об'єкти подій

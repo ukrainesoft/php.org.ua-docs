@@ -1,16 +1,11 @@
-Перевіряє, чи існує зсув
-
--   [« ArrayIterator::next](arrayiterator.next.md)
-    
--   [ArrayIterator::offsetGet »](arrayiterator.offsetget.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Перевіряє, чи існує зсув
-    
-
+---
+navigation:
+  - arrayiterator.next.md: '« ArrayIterator::next'
+  - arrayiterator.offsetget.md: 'ArrayIterator::offsetGet »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::offsetExists'
+---
 # ArrayIterator::offsetExists
 
 (PHP 5, PHP 7, PHP 8)

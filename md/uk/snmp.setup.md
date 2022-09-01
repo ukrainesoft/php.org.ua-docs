@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.snmp.md)
-    
--   [Вимоги »](snmp.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](book.snmp.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.snmp.md: « Введение
+  - snmp.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.snmp.md: SNMP
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Може бути викликана коли є запити, що очікують виконання
-
--   [« eioopen](function.eio-open.html)
-    
--   [eioread »](function.eio-read.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Може бути викликана коли є запити, що очікують виконання
-    
-
+---
+navigation:
+  - function.eio-open.html: « eioopen
+  - function.eio-read.html: eioread »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiopoll
+---
 # eiopoll
 
 (PECL eio >= 0.0.1dev)

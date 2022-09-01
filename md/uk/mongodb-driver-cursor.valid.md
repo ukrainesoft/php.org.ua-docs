@@ -1,16 +1,11 @@
-Перевіряє, чи поточна позиція курсора коректна
-
--   [« MongoDBDriverCursor::toArray](mongodb-driver-cursor.toarray.html)
-    
--   [MongoDBDriverCursorId »](class.mongodb-driver-cursorid.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Перевіряє, чи поточна позиція курсора коректна
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.toarray.html: '« MongoDBDriverCursor::toArray'
+  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId »
+  - index.html: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::valid'
+---
 # MongoDBDriverCursor::valid
 
 (mongodb >=1.9.0)

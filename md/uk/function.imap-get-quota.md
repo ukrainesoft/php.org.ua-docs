@@ -1,16 +1,11 @@
-Отримати налаштування рівня квоти та статистику використання поштових скриньок
-
--   [« imapгк](function.imap-gc.html)
-    
--   [imapgetquotaroot »](function.imap-get-quotaroot.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Отримати налаштування рівня квоти та статистику використання поштових скриньок
-    
-
+---
+navigation:
+  - function.imap-gc.html: « imapгк
+  - function.imap-get-quotaroot.html: imapgetquotaroot »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapgetquota
+---
 # imapgetquota
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ imap_get_quota(IMAP\Connection $imap, string $quota_root): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

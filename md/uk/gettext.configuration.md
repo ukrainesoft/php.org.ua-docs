@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](gettext.installation.md)
-    
--   [Типи ресурсів »](gettext.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](gettext.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - gettext.installation.md: « Установка
+  - gettext.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - gettext.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

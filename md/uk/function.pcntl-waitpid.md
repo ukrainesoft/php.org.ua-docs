@@ -1,16 +1,11 @@
-Очікує чи повертає статус породженого дочірнього процесу
-
--   [pcntlwait](function.pcntl-wait.html)
-    
--   [pcntlwexitstatus »](function.pcntl-wexitstatus.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Очікує чи повертає статус породженого дочірнього процесу
-    
-
+---
+navigation:
+  - function.pcntl-wait.html: pcntlwait
+  - function.pcntl-wexitstatus.html: pcntlwexitstatus »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlwaitpid
+---
 # pcntlwaitpid
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

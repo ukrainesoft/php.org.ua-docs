@@ -1,16 +1,11 @@
-Сканує файл у форматі resolv.conf
-
--   [« EventDnsBase::loadHosts](eventdnsbase.loadhosts.md)
-    
--   [EventDnsBase::setOption »](eventdnsbase.setoption.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventDnsBase](class.eventdnsbase.md)
-    
--   Сканує файл у форматі resolv.conf
-    
-
+---
+navigation:
+  - eventdnsbase.loadhosts.md: '« EventDnsBase::loadHosts'
+  - eventdnsbase.setoption.md: 'EventDnsBase::setOption »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::parseResolvConf'
+---
 # EventDnsBase::parseResolvConf
 
 (PECL event >= 1.2.6-beta)

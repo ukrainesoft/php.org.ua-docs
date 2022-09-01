@@ -1,16 +1,11 @@
-Виконує SQL-запит та повертає кількість порушених рядків
-
--   [« PDO::errorInfo](pdo.errorinfo.md)
-    
--   [PDO::getAttribute »](pdo.getattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Виконує SQL-запит та повертає кількість порушених рядків
-    
-
+---
+navigation:
+  - pdo.errorinfo.md: '« PDO::errorInfo'
+  - pdo.getattribute.md: 'PDO::getAttribute »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::exec'
+---
 # PDO::exec
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

@@ -1,16 +1,11 @@
-Замінює всі входження рядка пошуку на рядок заміни
-
--   [« strrepeat](function.str-repeat.html)
-    
--   [strrot13 »](function.str-rot13.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Замінює всі входження рядка пошуку на рядок заміни
-    
-
+---
+navigation:
+  - function.str-repeat.html: « strrepeat
+  - function.str-rot13.html: strrot13 »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strreplace
+---
 # strreplace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

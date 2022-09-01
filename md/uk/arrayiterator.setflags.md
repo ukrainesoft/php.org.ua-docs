@@ -1,16 +1,11 @@
-Встановлює прапори, що змінюють поведінку.
-
--   [« ArrayIterator::serialize](arrayiterator.serialize.md)
-    
--   [ArrayIterator::uasort »](arrayiterator.uasort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Встановлює прапори, що змінюють поведінку.
-    
-
+---
+navigation:
+  - arrayiterator.serialize.md: '« ArrayIterator::serialize'
+  - arrayiterator.uasort.md: 'ArrayIterator::uasort »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::setFlags'
+---
 # ArrayIterator::setFlags
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -35,10 +30,10 @@ public ArrayIterator::setFlags(int $flags): void
 
 **Прапори поведінки ArrayIterator**
 
-| значение | константа                                                                                      |
-|----------|------------------------------------------------------------------------------------------------|
-|          | [ArrayIterator::STDPROPLIST](class.arrayiterator.html#arrayiterator.constants.std-prop-list)   |
-|          | [ArrayIterator::ARRAYАСPROPS](class.arrayiterator.html#arrayiterator.constants.array-as-props) |
+| значение | константа |
+| --- | --- |
+|  | [ArrayIterator::STDPROPLIST](class.arrayiterator.html#arrayiterator.constants.std-prop-list) |
+|  | [ArrayIterator::ARRAYАСPROPS](class.arrayiterator.html#arrayiterator.constants.array-as-props) |
 
 ### Значення, що повертаються
 

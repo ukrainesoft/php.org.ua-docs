@@ -1,16 +1,11 @@
-Отримати настройки квоти для кожного користувача
-
--   [« imapgetquota](function.imap-get-quota.html)
-    
--   [imapgetacl »](function.imap-getacl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати настройки квоти для кожного користувача
-    
-
+---
+navigation:
+  - function.imap-get-quota.html: « imapgetquota
+  - function.imap-getacl.html: imapgetacl »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapgetquotaroot
+---
 # imapgetquotaroot
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ imap_get_quotaroot(IMAP\Connection $imap, string $mailbox): array|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

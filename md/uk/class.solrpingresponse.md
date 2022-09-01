@@ -1,16 +1,11 @@
-Клас SolrPingResponse
-
--   [« SolrUpdateResponse::destruct](solrupdateresponse.destruct.md)
-    
--   [SolrPingResponse::construct »](solrpingresponse.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrPingResponse
-    
-
+---
+navigation:
+  - solrupdateresponse.destruct.md: '« SolrUpdateResponse::destruct'
+  - solrpingresponse.construct.md: 'SolrPingResponse::construct »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrPingResponse
+---
 # Клас SolrPingResponse
 
 (PECL solr> = 0.9.2)

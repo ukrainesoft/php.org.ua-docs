@@ -1,16 +1,11 @@
-Створює масив, що містить діапазон елементів
-
--   [« prev](function.prev.html)
-    
--   [reset »](function.reset.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Створює масив, що містить діапазон елементів
-    
-
+---
+navigation:
+  - function.prev.html: « prev
+  - function.reset.html: reset »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: range
+---
 # range
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

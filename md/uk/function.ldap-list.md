@@ -1,16 +1,11 @@
-Однорівневий пошук
-
--   [« ldapgetvalues](function.ldap-get-values.html)
-    
--   [ldapmodaddext »](function.ldap-mod_add-ext.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Однорівневий пошук
-    
-
+---
+navigation:
+  - function.ldap-get-values.html: « ldapgetvalues
+  - function.ldap-mod_add-ext.html: ldapmodaddext »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldaplist
+---
 # ldaplist
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -88,12 +83,12 @@ ldap_list(    LDAP\Connection|array $ldap,    array|string $base,   �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                            |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                    |
-|        | Додано підтримку параметра `controls`                                                                                                                |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResult](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 

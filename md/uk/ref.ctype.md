@@ -1,16 +1,11 @@
-Опції Ctype
-
--   [« Обумовлені константи](ctype.constants.html)
-    
--   [ctypealnum »](function.ctype-alnum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ctype](book.ctype.html)
-    
--   Опції Ctype
-    
-
+---
+navigation:
+  - ctype.constants.html: « Обумовлені константи
+  - function.ctype-alnum.html: ctypealnum »
+  - index.html: PHP Manual
+  - book.ctype.html: Ctype
+title: Опції Ctype
+---
 # Опції Ctype
 
 ## Зміст

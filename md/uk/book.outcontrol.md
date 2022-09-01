@@ -1,16 +1,11 @@
-Управління буфером виводу
-
--   [« opcachereset](function.opcache-reset.html)
-    
--   [Введение »](intro.outcontrol.html)
-    
--   [PHP Manual](index.html)
-    
--   [Изменение поведения PHP](refs.basic.php.html)
-    
--   Управління буфером виводу
-    
-
+---
+navigation:
+  - function.opcache-reset.html: « opcachereset
+  - intro.outcontrol.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.php.html: Изменение поведения PHP
+title: Управління буфером виводу
+---
 # Управління буфером виводу
 
 -   [Введение](intro.outcontrol.html)

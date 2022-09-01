@@ -1,16 +1,11 @@
-Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
-
--   [« fanncreatesparse](function.fann-create-sparse.html)
-    
--   [fanncreatestandard »](function.fann-create-standard.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
-    
-
+---
+navigation:
+  - function.fann-create-sparse.html: « fanncreatesparse
+  - function.fann-create-standard.html: fanncreatestandard »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncreatestandardarray
+---
 # fanncreatestandardarray
 
 (PECL fann> = 1.0.0)

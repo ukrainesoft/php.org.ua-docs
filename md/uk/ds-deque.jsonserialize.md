@@ -1,16 +1,11 @@
-Повертає колекцію в JSON-представництві
-
--   [« DsDeque::join](ds-deque.join.html)
-    
--   [ДсDeque::last »](ds-deque.last.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає колекцію в JSON-представництві
-    
-
+---
+navigation:
+  - ds-deque.join.html: '« DsDeque::join'
+  - ds-deque.last.html: 'ДсDeque::last »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::jsonSerialize'
+---
 # ДсDeque::jsonSerialize
 
 (PECL ds >= 1.0.0)

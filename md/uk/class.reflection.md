@@ -1,16 +1,11 @@
-Клас Reflection
-
--   [« Расширение](reflection.extending.html)
-    
--   [Reflection::export »](reflection.export.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас Reflection
-    
-
+---
+navigation:
+  - reflection.extending.html: « Расширение
+  - reflection.export.html: 'Reflection::export »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас Reflection
+---
 # Клас Reflection
 
 (PHP 5, PHP 7, PHP 8)

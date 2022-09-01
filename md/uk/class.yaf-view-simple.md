@@ -1,16 +1,11 @@
-Клас YafViewSimple
-
--   [« YafViewInterface::setScriptPath](yaf-view-interface.setscriptpath.html)
-    
--   [YafViewSimple::assign »](yaf-view-simple.assign.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaf](book.yaf.html)
-    
--   Клас YafViewSimple
-    
-
+---
+navigation:
+  - yaf-view-interface.setscriptpath.html: '« YafViewInterface::setScriptPath'
+  - yaf-view-simple.assign.html: 'YafViewSimple::assign »'
+  - index.html: PHP Manual
+  - book.yaf.html: Yaf
+title: Клас YafViewSimple
+---
 # Клас YafViewSimple
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-\>Повертає ім'я n-ого стовпця
-
--   [« SQLite3Result](class.sqlite3result.html)
-    
--   [SQLite3Result::columnType »](sqlite3result.columntype.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3Result](class.sqlite3result.html)
-    
--   \>Повертає ім'я n-ого стовпця
-    
-
+---
+navigation:
+  - class.sqlite3result.html: « SQLite3Result
+  - sqlite3result.columntype.html: 'SQLite3Result::columnType »'
+  - index.html: PHP Manual
+  - class.sqlite3result.html: SQLite3Result
+title: 'SQLite3Result::columnName'
+---
 # SQLite3Result::columnName
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

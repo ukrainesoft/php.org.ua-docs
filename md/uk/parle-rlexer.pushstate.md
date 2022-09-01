@@ -1,16 +1,11 @@
-Просуває новий початковий стан
-
--   [« ParleRLexer::push](parle-rlexer.push.html)
-    
--   [ParleRLexer::reset »](parle-rlexer.reset.html)
-    
--   [PHP Manual](index.html)
-    
--   [ParleRLexer](class.parle-rlexer.html)
-    
--   Просуває новий початковий стан
-    
-
+---
+navigation:
+  - parle-rlexer.push.html: '« ParleRLexer::push'
+  - parle-rlexer.reset.html: 'ParleRLexer::reset »'
+  - index.html: PHP Manual
+  - class.parle-rlexer.html: ParleRLexer
+title: 'ParleRLexer::pushState'
+---
 # ParleRLexer::pushState
 
 (PECL parle >= 0.5.1)

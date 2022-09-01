@@ -1,16 +1,11 @@
-Обробляє дані з файлу відповідно до формату
-
--   [« fread](function.fread.md)
-    
--   [fseek »](function.fseek.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Обробляє дані з файлу відповідно до формату
-    
-
+---
+navigation:
+  - function.fread.md: « fread
+  - function.fseek.md: fseek »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fscanf
+---
 # fscanf
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

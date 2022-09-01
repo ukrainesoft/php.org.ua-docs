@@ -1,16 +1,11 @@
-Повертає тип стиснення об'єкта
-
--   [« Imagick::getColorspace](imagick.getcolorspace.html)
-    
--   [Imagick::getCompressionQuality »](imagick.getcompressionquality.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає тип стиснення об'єкта
-    
-
+---
+navigation:
+  - imagick.getcolorspace.html: '« Imagick::getColorspace'
+  - imagick.getcompressionquality.html: 'Imagick::getCompressionQuality »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getCompression'
+---
 # Imagick::getCompression
 
 (PECL imagick 2, PECL imagick 3)

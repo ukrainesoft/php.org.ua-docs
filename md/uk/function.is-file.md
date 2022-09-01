@@ -1,16 +1,11 @@
-Визначає, чи файл звичайним файлом
-
--   [« isexecutable](function.is-executable.html)
-    
--   [ісlink »](function.is-link.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Визначає, чи файл звичайним файлом
-    
-
+---
+navigation:
+  - function.is-executable.html: « isexecutable
+  - function.is-link.html: ісlink »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ісfile
+---
 # ісfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

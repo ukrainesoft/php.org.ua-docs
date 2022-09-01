@@ -1,16 +1,11 @@
-Керує обробкою двійкових даних стовпця
-
--   [« odbcautocommit](function.odbc-autocommit.html)
-    
--   [odbccloseall »](function.odbc-close-all.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Керує обробкою двійкових даних стовпця
-    
-
+---
+navigation:
+  - function.odbc-autocommit.html: « odbcautocommit
+  - function.odbc-close-all.html: odbccloseall »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcbinmode
+---
 # odbcbinmode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -31,14 +26,14 @@ odbc_binmode(resource $statement, int $mode): bool
 
 **Обробка LONGVARBINARY**
 
-| binmode                     | longreadlen | result                   |
-|-----------------------------|-------------|--------------------------|
-| **`ODBC_BINMODE_PASSTHRU`** |             | passthru                 |
-| **`ODBC_BINMODE_RETURN`**   |             | passthru                 |
-| **`ODBC_BINMODE_CONVERT`**  |             | passthru                 |
-| **`ODBC_BINMODE_PASSTHRU`** | \>          | passthru                 |
-| **`ODBC_BINMODE_RETURN`**   | \>          | повернути як є           |
-| **`ODBC_BINMODE_CONVERT`**  | \>          | повернути у вигляді char |
+| binmode | longreadlen | result |
+| --- | --- | --- |
+| **`ODBC_BINMODE_PASSTHRU`** |  | passthru |
+| **`ODBC_BINMODE_RETURN`** |  | passthru |
+| **`ODBC_BINMODE_CONVERT`** |  | passthru |
+| **`ODBC_BINMODE_PASSTHRU`** | \> | passthru |
+| **`ODBC_BINMODE_RETURN`** | \> | повернути як є |
+| **`ODBC_BINMODE_CONVERT`** | \> | повернути у вигляді char |
 
 Якщо використовується [odbcfetchinto()](function.odbc-fetch-into.html), passthru означає, що для цих стовпців повертається порожній рядок. Якщо використовується [odbcresult()](function.odbc-result.html), passthru означає, що дані надсилаються клієнту безпосередньо (тобто друкуються).
 

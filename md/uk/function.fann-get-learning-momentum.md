@@ -1,16 +1,11 @@
-Повертає імпульс навчання
-
--   [« fanngetlayerarray](function.fann-get-layer-array.html)
-    
--   [fanngetlearningrate »](function.fann-get-learning-rate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає імпульс навчання
-    
-
+---
+navigation:
+  - function.fann-get-layer-array.html: « fanngetlayerarray
+  - function.fann-get-learning-rate.html: fanngetlearningrate »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetlearningmomentum
+---
 # fanngetlearningmomentum
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Векторний тригонометричний тангенс
-
--   [« traderтз](function.trader-t3.html)
-    
--   [tradertanh »](function.trader-tanh.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Векторний тригонометричний тангенс
-    
-
+---
+navigation:
+  - function.trader-t3.html: « traderтз
+  - function.trader-tanh.html: tradertanh »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertan
+---
 # tradertan
 
 (PECL trader >= 0.2.0)

@@ -1,26 +1,21 @@
-Налаштування під час виконання
-
--   [« Установка](ffi.installation.md)
-    
--   [Типи ресурсів »](ffi.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](ffi.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - ffi.installation.md: « Установка
+  - ffi.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - ffi.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування FFI**
 
-| Имя                                                   | По умолчанию | Место изменения | Список изменений |
-|-------------------------------------------------------|--------------|-----------------|------------------|
-| [ffi.enable](ffi.configuration.html#ini.ffi.enable)   | "preload"    | PHPINISYSTEM    |                  |
-| [ffi.preload](ffi.configuration.html#ini.ffi.preload) | ""           | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [ffi.enable](ffi.configuration.html#ini.ffi.enable) | "preload" | PHPINISYSTEM |  |
+| [ffi.preload](ffi.configuration.html#ini.ffi.preload) | "" | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

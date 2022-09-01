@@ -1,16 +1,11 @@
-Повертає результат додавання всіх заданих елементів до колекції
-
--   [« DsMap::map](ds-map.map.html)
-    
--   [ДсMap::pairs »](ds-map.pairs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає результат додавання всіх заданих елементів до колекції
-    
-
+---
+navigation:
+  - ds-map.map.html: '« DsMap::map'
+  - ds-map.pairs.html: 'ДсMap::pairs »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::merge'
+---
 # ДсMap::merge
 
 (PECL ds >= 1.0.0)

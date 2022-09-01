@@ -1,16 +1,11 @@
-Отримати значення
-
--   [« UIControlsProgress](class.ui-controls-progress.html)
-    
--   [ОЙControlsProgress::setValue »](ui-controls-progress.setvalue.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsProgress](class.ui-controls-progress.html)
-    
--   Отримати значення
-    
-
+---
+navigation:
+  - class.ui-controls-progress.html: « UIControlsProgress
+  - ui-controls-progress.setvalue.html: 'ОЙControlsProgress::setValue »'
+  - index.md: PHP Manual
+  - class.ui-controls-progress.html: ОЙControlsProgress
+title: 'ОЙControlsProgress::getValue'
+---
 # ОЙControlsProgress::getValue
 
 (UI 0.9.9)

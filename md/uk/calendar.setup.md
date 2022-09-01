@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.calendar.md)
-    
--   [Вимоги »](calendar.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](book.calendar.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.calendar.md: « Введение
+  - calendar.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.calendar.md: Календарь
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

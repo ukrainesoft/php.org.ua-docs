@@ -1,16 +1,11 @@
-Отримати ім'я файлу, з якого запущено генератор
-
--   [« ReflectionGenerator::construct](reflectiongenerator.construct.html)
-    
--   [ReflectionGenerator::getExecutingGenerator »](reflectiongenerator.getexecutinggenerator.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionGenerator](class.reflectiongenerator.html)
-    
--   Отримати ім'я файлу, з якого запущено генератор
-    
-
+---
+navigation:
+  - reflectiongenerator.construct.html: '« ReflectionGenerator::construct'
+  - reflectiongenerator.getexecutinggenerator.html: 'ReflectionGenerator::getExecutingGenerator »'
+  - index.html: PHP Manual
+  - class.reflectiongenerator.html: ReflectionGenerator
+title: 'ReflectionGenerator::getExecutingFile'
+---
 # ReflectionGenerator::getExecutingFile
 
 (PHP 7, PHP 8)

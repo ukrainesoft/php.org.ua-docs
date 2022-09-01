@@ -1,16 +1,11 @@
-Отримує параметри зі списку аргументів командного рядка
-
--   [« getmyuid](function.getmyuid.md)
-    
--   [getrusage »](function.getrusage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримує параметри зі списку аргументів командного рядка
-    
-
+---
+navigation:
+  - function.getmyuid.md: « getmyuid
+  - function.getrusage.md: getrusage »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getopt
+---
 # getopt
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -69,9 +64,9 @@ getopt(string $short_options, array $long_options = [], int &$rest_index = null)
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Доданий параметр `rest_index` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `rest_index` |
 
 ### Приклади
 

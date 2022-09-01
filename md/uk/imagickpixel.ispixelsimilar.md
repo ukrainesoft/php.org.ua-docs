@@ -1,16 +1,11 @@
-Перевіряє відстань між цим кольором та іншим
-
--   [« ImagickPixel::getIndex](imagickpixel.getindex.html)
-    
--   [ImagickPixel::isPixelSimilarQuantum »](imagickpixel.ispixelsimilarquantum.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Перевіряє відстань між цим кольором та іншим
-    
-
+---
+navigation:
+  - imagickpixel.getindex.html: '« ImagickPixel::getIndex'
+  - imagickpixel.ispixelsimilarquantum.html: 'ImagickPixel::isPixelSimilarQuantum »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::isPixelSimilar'
+---
 # ImagickPixel::isPixelSimilar
 
 (PECL imagick 3> = 3.3.0)

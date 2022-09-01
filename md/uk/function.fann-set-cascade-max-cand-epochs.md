@@ -1,16 +1,11 @@
-Встановлює максимальний період кандидата
-
--   [« fannsetcascadecandidatestagnationepochs](function.fann-set-cascade-candidate-stagnation-epochs.html)
-    
--   [fannsetcascademaxoutepochs »](function.fann-set-cascade-max-out-epochs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює максимальний період кандидата
-    
-
+---
+navigation:
+  - function.fann-set-cascade-candidate-stagnation-epochs.html: « fannsetcascadecandidatestagnationepochs
+  - function.fann-set-cascade-max-out-epochs.html: fannsetcascademaxoutepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascademaxcandepochs
+---
 # fannsetcascademaxcandepochs
 
 (PECL fann> = 1.0.0)

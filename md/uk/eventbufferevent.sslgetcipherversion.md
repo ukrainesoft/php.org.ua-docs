@@ -1,16 +1,11 @@
-Повертає версію шифру, який використовується поточним SSL-з'єднанням
-
--   [« EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md)
-    
--   [EventBufferEvent::sslGetProtocol »](eventbufferevent.sslgetprotocol.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Повертає версію шифру, який використовується поточним SSL-з'єднанням
-    
-
+---
+navigation:
+  - eventbufferevent.sslgetciphername.md: '« EventBufferEvent::sslGetCipherName'
+  - eventbufferevent.sslgetprotocol.md: 'EventBufferEvent::sslGetProtocol »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::sslGetCipherVersion'
+---
 # EventBufferEvent::sslGetCipherVersion
 
 (PECL event >= 1.10.0)

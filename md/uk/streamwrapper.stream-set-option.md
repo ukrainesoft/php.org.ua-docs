@@ -1,16 +1,11 @@
-Зміна налаштувань потоку
-
--   [« streamWrapper::streamseek](streamwrapper.stream-seek.html)
-    
--   [streamWrapper::streamstat »](streamwrapper.stream-stat.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Зміна налаштувань потоку
-    
-
+---
+navigation:
+  - streamwrapper.stream-seek.html: '« streamWrapper::streamseek'
+  - streamwrapper.stream-stat.html: 'streamWrapper::streamstat »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamsetoption'
+---
 # streamWrapper::streamsetoption
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

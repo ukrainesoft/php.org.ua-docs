@@ -1,16 +1,11 @@
-Надати значення, що повертається для існуючої функції
-
--   [« uopzsetproperty](function.uopz-set-property.html)
-    
--   [uopzsetstatic »](function.uopz-set-static.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Надати значення, що повертається для існуючої функції
-    
-
+---
+navigation:
+  - function.uopz-set-property.html: « uopzsetproperty
+  - function.uopz-set-static.html: uopzsetstatic »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzsetreturn
+---
 # uopzsetreturn
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

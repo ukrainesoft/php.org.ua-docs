@@ -1,16 +1,11 @@
-Перевіряє, чи існує таймер
-
--   [« SwooleTimer::clear](swoole-timer.clear.html)
-    
--   [SwooleTimer::tick »](swoole-timer.tick.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleTimer](class.swoole-timer.html)
-    
--   Перевіряє, чи існує таймер
-    
-
+---
+navigation:
+  - swoole-timer.clear.html: '« SwooleTimer::clear'
+  - swoole-timer.tick.html: 'SwooleTimer::tick »'
+  - index.html: PHP Manual
+  - class.swoole-timer.html: SwooleTimer
+title: 'SwooleTimer::exists'
+---
 # SwooleTimer::exists
 
 (PECL swoole >= 1.9.0)

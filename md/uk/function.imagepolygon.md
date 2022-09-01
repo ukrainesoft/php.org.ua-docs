@@ -1,16 +1,11 @@
-Малювання багатокутника
-
--   [« imagepng](function.imagepng.html)
-    
--   [imagerectangle »](function.imagerectangle.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Малювання багатокутника
-    
-
+---
+navigation:
+  - function.imagepng.html: « imagepng
+  - function.imagerectangle.html: imagerectangle »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagepolygon
+---
 # imagepolygon
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -61,10 +56,10 @@ imagepolygon(    GdImage $image,    array $points,    int $num_point
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | Параметр `num_points` оголошено застарілим.                                                       |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `num_points` оголошено застарілим. |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

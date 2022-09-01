@@ -1,16 +1,11 @@
-Попросити libevent не використати певний метод події
-
--   [« EventConfig](class.eventconfig.html)
-    
--   [EventConfig::construct »](eventconfig.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventConfig](class.eventconfig.html)
-    
--   Попросити libevent не використати певний метод події
-    
-
+---
+navigation:
+  - class.eventconfig.html: « EventConfig
+  - eventconfig.construct.html: 'EventConfig::construct »'
+  - index.html: PHP Manual
+  - class.eventconfig.html: EventConfig
+title: 'EventConfig::avoidMethod'
+---
 # EventConfig::avoidMethod
 
 (PECL event >= 1.2.6-beta)

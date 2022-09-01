@@ -1,16 +1,11 @@
-Клас PharData
-
--   [« Phar::webPhar](phar.webphar.md)
-    
--   [PharData::addEmptyDir »](phardata.addemptydir.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](book.phar.md)
-    
--   Клас PharData
-    
-
+---
+navigation:
+  - phar.webphar.md: '« Phar::webPhar'
+  - phardata.addemptydir.md: 'PharData::addEmptyDir »'
+  - index.md: PHP Manual
+  - book.phar.md: Phar
+title: Клас PharData
+---
 # Клас PharData
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

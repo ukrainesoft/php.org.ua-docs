@@ -1,16 +1,11 @@
-Математичні модулі
-
--   [« mailparseuudecodeall](function.mailparse-uudecode-all.html)
-    
--   [BC Math »](book.bc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Математичні модулі
-    
-
+---
+navigation:
+  - function.mailparse-uudecode-all.html: « mailparseuudecodeall
+  - book.bc.md: BC Math »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Математичні модулі
+---
 # Математичні модулі
 
 -   [BC Math](book.bc.md) — Обчислення над числами з довільною точністю BCMath

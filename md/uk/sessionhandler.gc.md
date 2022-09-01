@@ -1,16 +1,11 @@
-Очищує старі сесії
-
--   [« SessionHandler::destroy](sessionhandler.destroy.md)
-    
--   [SessionHandler::open »](sessionhandler.open.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandler](class.sessionhandler.md)
-    
--   Очищує старі сесії
-    
-
+---
+navigation:
+  - sessionhandler.destroy.md: '« SessionHandler::destroy'
+  - sessionhandler.open.md: 'SessionHandler::open »'
+  - index.md: PHP Manual
+  - class.sessionhandler.md: SessionHandler
+title: 'SessionHandler::gc'
+---
 # SessionHandler::gc
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)
@@ -43,6 +38,6 @@ public SessionHandler::gc(int $max_lifetime): int|false
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | До цієї версії, у разі успішного виконання ця функція повертала **`true`** |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі успішного виконання ця функція повертала **`true`** |

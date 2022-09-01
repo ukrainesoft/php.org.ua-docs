@@ -1,16 +1,11 @@
-Встановлює заголовок відповіді
-
--   [« YafResponseAbstract::setBody](yaf-response-abstract.setbody.html)
-    
--   [YafResponseAbstract::setRedirect »](yaf-response-abstract.setredirect.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Встановлює заголовок відповіді
-    
-
+---
+navigation:
+  - yaf-response-abstract.setbody.html: '« YafResponseAbstract::setBody'
+  - yaf-response-abstract.setredirect.html: 'YafResponseAbstract::setRedirect »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::setHeader'
+---
 # YafResponseAbstract::setHeader
 
 (Yaf >=1.0.0)

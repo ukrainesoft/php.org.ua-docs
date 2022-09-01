@@ -1,16 +1,11 @@
-Отримати HTTP-інформацію про останню відповідь
-
--   [« OAuth::getLastResponseHeaders](oauth.getlastresponseheaders.html)
-    
--   [OAuth::getRequestHeader »](oauth.getrequestheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Отримати HTTP-інформацію про останню відповідь
-    
-
+---
+navigation:
+  - oauth.getlastresponseheaders.html: '« OAuth::getLastResponseHeaders'
+  - oauth.getrequestheader.html: 'OAuth::getRequestHeader »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::getLastResponseInfo'
+---
 # OAuth::getLastResponseInfo
 
 (PECL OAuth >= 0.99.1)

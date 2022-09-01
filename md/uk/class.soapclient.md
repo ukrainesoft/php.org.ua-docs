@@ -1,16 +1,11 @@
-Клас SoapClient
-
--   [« usesoaperrorhandler](function.use-soap-error-handler.html)
-    
--   [SoapClient::call »](soapclient.call.md)
-    
--   [PHP Manual](index.md)
-    
--   [SOAP](book.soap.md)
-    
--   Клас SoapClient
-    
-
+---
+navigation:
+  - function.use-soap-error-handler.html: « usesoaperrorhandler
+  - soapclient.call.md: 'SoapClient::call »'
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
+title: 'Клас [SoapClient](class.soapclient.md)'
+---
 # Клас [SoapClient](class.soapclient.md)
 
 (PHP 5, PHP 7, PHP 8)

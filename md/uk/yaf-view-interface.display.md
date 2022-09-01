@@ -1,16 +1,11 @@
-Малює та виводить шаблон
-
--   [« YafViewInterface::assign](yaf-view-interface.assign.html)
-    
--   [YafViewInterface::getScriptPath »](yaf-view-interface.getscriptpath.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewInterface](class.yaf-view-interface.html)
-    
--   Малює та виводить шаблон
-    
-
+---
+navigation:
+  - yaf-view-interface.assign.html: '« YafViewInterface::assign'
+  - yaf-view-interface.getscriptpath.html: 'YafViewInterface::getScriptPath »'
+  - index.md: PHP Manual
+  - class.yaf-view-interface.html: YafViewInterface
+title: 'YafViewInterface::display'
+---
 # YafViewInterface::display
 
 (Yaf >=1.0.0)

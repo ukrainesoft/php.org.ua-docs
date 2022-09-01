@@ -1,16 +1,11 @@
-Заповнює область затіненням
-
--   [«psshading](function.ps-shading.html)
-    
--   [псshowboxed »](function.ps-show-boxed.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Заповнює область затіненням
-    
-
+---
+navigation:
+  - function.ps-shading.html: «psshading
+  - function.ps-show-boxed.html: псshowboxed »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псshfill
+---
 # псshfill
 
 (PECL ps >= 1.3.0)

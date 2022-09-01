@@ -1,16 +1,11 @@
-Visitation
-
--   [« CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.html)
-    
--   [CommonMarkParser »](class.commonmark-parser.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.html)
-    
--   Visitation
-    
-
+---
+navigation:
+  - class.commonmark-interfaces-ivisitable.html: « CommonMarkInterfacesIVisitable
+  - class.commonmark-parser.html: CommonMarkParser »
+  - index.html: PHP Manual
+  - class.commonmark-interfaces-ivisitable.html: CommonMarkInterfacesIVisitable
+title: 'CommonMarkInterfacesIVisitable::accept'
+---
 # CommonMarkInterfacesIVisitable::accept
 
 (cmark >= 1.0.0)

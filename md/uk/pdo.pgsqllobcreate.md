@@ -1,16 +1,11 @@
-Створити новий великий об'єкт (LOB)
-
--   [« PDO::pgsqlGetPid](pdo.pgsqlgetpid.html)
-    
--   [PDO::pgsqlLOBOpen »](pdo.pgsqllobopen.html)
-    
--   [PHP Manual](index.html)
-    
--   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
-    
--   Створити новий великий об'єкт (LOB)
-    
-
+---
+navigation:
+  - pdo.pgsqlgetpid.html: '« PDO::pgsqlGetPid'
+  - pdo.pgsqllobopen.html: 'PDO::pgsqlLOBOpen »'
+  - index.html: PHP Manual
+  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+title: 'PDO::pgsqlLOBCreate'
+---
 # PDO::pgsqlLOBCreate
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL pdopgsql >= 1.0.2)

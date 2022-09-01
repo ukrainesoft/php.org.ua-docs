@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::flopImage](imagick.flopimage.md)
-    
--   [Imagick::frameImage »](imagick.frameimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.flopimage.md: '« Imagick::flopImage'
+  - imagick.frameimage.md: 'Imagick::frameImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::forwardFourierTransformImage'
+---
 # Imagick::forwardFourierTransformImage
 
 (PECL imagick 3> = 3.3.0)

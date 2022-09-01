@@ -1,16 +1,11 @@
-Побітове І над двома варіантами
-
--   [« variantadd](function.variant-add.html)
-    
--   [variantcast »](function.variant-cast.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Побітове І над двома варіантами
-    
-
+---
+navigation:
+  - function.variant-add.html: « variantadd
+  - function.variant-cast.html: variantcast »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantand
+---
 # variantand
 
 (PHP 5, PHP 7, PHP 8)
@@ -46,16 +41,16 @@ variant_and(mixed $left, mixed $right): variant
 **Правила І для варіантів**
 
 | Если `left` равен | и `right` равен | результат будет |
-|-------------------|-----------------|-----------------|
-| **`true`**        | **`true`**      | **`true`**      |
-| **`true`**        | **`false`**     | **`false`**     |
-| **`true`**        | **`null`**      | **`null`**      |
-| **`false`**       | **`true`**      | **`false`**     |
-| **`false`**       | **`false`**     | **`false`**     |
-| **`false`**       | **`null`**      | **`false`**     |
-| **`null`**        | **`true`**      | **`null`**      |
-| **`null`**        | **`false`**     | **`false`**     |
-| **`null`**        | **`null`**      | **`null`**      |
+| --- | --- | --- |
+| **`true`** | **`true`** | **`true`** |
+| **`true`** | **`false`** | **`false`** |
+| **`true`** | **`null`** | **`null`** |
+| **`false`** | **`true`** | **`false`** |
+| **`false`** | **`false`** | **`false`** |
+| **`false`** | **`null`** | **`false`** |
+| **`null`** | **`true`** | **`null`** |
+| **`null`** | **`false`** | **`false`** |
+| **`null`** | **`null`** | **`null`** |
 
 ### Помилки
 

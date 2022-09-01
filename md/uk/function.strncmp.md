@@ -1,16 +1,11 @@
-Бінарно-безпечне порівняння перших n символів рядків
-
--   [« strncasecmp](function.strncasecmp.html)
-    
--   [strpbrk »](function.strpbrk.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Бінарно-безпечне порівняння перших n символів рядків
-    
-
+---
+navigation:
+  - function.strncasecmp.html: « strncasecmp
+  - function.strpbrk.html: strpbrk »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strncmp
+---
 # strncmp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

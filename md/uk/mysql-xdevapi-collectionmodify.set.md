@@ -1,16 +1,11 @@
-Встановлює атрибут документа
-
--   [« CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.html)
-    
--   [CollectionModify::skip »](mysql-xdevapi-collectionmodify.skip.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Встановлює атрибут документа
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.replace.html: '« CollectionModify::replace'
+  - mysql-xdevapi-collectionmodify.skip.html: 'CollectionModify::skip »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::set'
+---
 # CollectionModify::set
 
 (No version information available, might only be in Git)

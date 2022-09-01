@@ -1,16 +1,11 @@
-Визначає, чи допустиме поточне значення ітератора
-
--   [« SplObjectStorage::unserialize](splobjectstorage.unserialize.html)
-    
--   [Ітератори »](spl.iterators.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplObjectStorage](class.splobjectstorage.html)
-    
--   Визначає, чи допустиме поточне значення ітератора
-    
-
+---
+navigation:
+  - splobjectstorage.unserialize.html: '« SplObjectStorage::unserialize'
+  - spl.iterators.html: Ітератори »
+  - index.html: PHP Manual
+  - class.splobjectstorage.html: SplObjectStorage
+title: 'SplObjectStorage::valid'
+---
 # SplObjectStorage::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

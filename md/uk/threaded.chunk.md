@@ -1,16 +1,11 @@
-Обробка
-
--   [« Threaded](class.threaded.md)
-    
--   [Threaded::count »](threaded.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [Threaded](class.threaded.md)
-    
--   Обробка
-    
-
+---
+navigation:
+  - class.threaded.md: « Threaded
+  - threaded.count.md: 'Threaded::count »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::chunk'
+---
 # Threaded::chunk
 
 (PECL pthreads >= 2.0.0)

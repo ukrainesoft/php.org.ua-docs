@@ -1,16 +1,11 @@
-Приклади
-
--   [« Типи ресурсів](v8js.resources.html)
-    
--   [V8Js »](class.v8js.html)
-    
--   [PHP Manual](index.html)
-    
--   [V8js](book.v8js.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - v8js.resources.html: « Типи ресурсів
+  - class.v8js.html: V8Js »
+  - index.html: PHP Manual
+  - book.v8js.html: V8js
+title: Приклади
+---
 # Приклади
 
 Основи використання

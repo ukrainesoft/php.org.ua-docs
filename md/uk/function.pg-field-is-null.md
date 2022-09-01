@@ -1,16 +1,11 @@
-Перевірка поля на значення SQL NULL
-
--   [« pgfetchrow](function.pg-fetch-row.html)
-    
--   [пгfieldname »](function.pg-field-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Перевірка поля на значення SQL NULL
-    
-
+---
+navigation:
+  - function.pg-fetch-row.html: « pgfetchrow
+  - function.pg-field-name.html: пгfieldname »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгfieldісnull
+---
 # пгfieldісnull
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

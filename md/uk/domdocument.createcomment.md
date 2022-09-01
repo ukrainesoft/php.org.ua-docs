@@ -1,16 +1,11 @@
-Створити новий вузол коментаря
-
--   [« DOMDocument::createCDATASection](domdocument.createcdatasection.md)
-    
--   [DOMDocument::createDocumentFragment »](domdocument.createdocumentfragment.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий вузол коментаря
-    
-
+---
+navigation:
+  - domdocument.createcdatasection.md: '« DOMDocument::createCDATASection'
+  - domdocument.createdocumentfragment.md: 'DOMDocument::createDocumentFragment »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createComment'
+---
 # DOMDocument::createComment
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public DOMDocument::createComment(string $data): DOMComment
 
 ### список змін
 
-| Версия | Описание                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.md). Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.md). Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 

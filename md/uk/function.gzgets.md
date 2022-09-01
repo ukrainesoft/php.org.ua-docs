@@ -1,16 +1,11 @@
-Отримати рядок із покажчика файлу
-
--   [« gzgetc](function.gzgetc.md)
-    
--   [gzgetss »](function.gzgetss.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Отримати рядок із покажчика файлу
-    
-
+---
+navigation:
+  - function.gzgetc.md: « gzgetc
+  - function.gzgetss.md: gzgetss »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzgets
+---
 # gzgets
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ gzgets(resource $stream, ?int $length = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-|        | `length` тепер припускає значення null; раніше значення за умовчанням було `1024` |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер припускає значення null; раніше значення за умовчанням було `1024` |
 
 ### Приклади
 

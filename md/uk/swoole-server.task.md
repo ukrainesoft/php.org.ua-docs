@@ -1,16 +1,11 @@
-Надсилає дані в робочі процеси завдання
-
--   [« SwooleServer::stop](swoole-server.stop.html)
-    
--   [SwooleServer::taskwait »](swoole-server.taskwait.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Надсилає дані в робочі процеси завдання
-    
-
+---
+navigation:
+  - swoole-server.stop.html: '« SwooleServer::stop'
+  - swoole-server.taskwait.html: 'SwooleServer::taskwait »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::task'
+---
 # SwooleServer::task
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи порожня колекція
-
--   [« DsMap::intersect](ds-map.intersect.html)
-    
--   [ДсMap::jsonSerialize »](ds-map.jsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Перевіряє, чи порожня колекція
-    
-
+---
+navigation:
+  - ds-map.intersect.html: '« DsMap::intersect'
+  - ds-map.jsonserialize.html: 'ДсMap::jsonSerialize »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::isEmpty'
+---
 # ДсMap::isEmpty
 
 (PECL ds >= 1.0.0)

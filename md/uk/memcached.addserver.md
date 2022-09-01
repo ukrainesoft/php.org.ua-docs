@@ -1,16 +1,11 @@
-Додає сервер у пул
-
--   [« Memcached::addByKey](memcached.addbykey.html)
-    
--   [Memcached::addServers »](memcached.addservers.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Додає сервер у пул
-    
-
+---
+navigation:
+  - memcached.addbykey.html: '« Memcached::addByKey'
+  - memcached.addservers.html: 'Memcached::addServers »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::addServer'
+---
 # Memcached::addServer
 
 (PECL memcached >= 0.1.0)

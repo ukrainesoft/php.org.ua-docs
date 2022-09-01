@@ -1,16 +1,11 @@
-Повертає ключ поточного елемента масиву
-
--   [« ArrayIterator::getFlags](arrayiterator.getflags.md)
-    
--   [ArrayIterator::ksort »](arrayiterator.ksort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Повертає ключ поточного елемента масиву
-    
-
+---
+navigation:
+  - arrayiterator.getflags.md: '« ArrayIterator::getFlags'
+  - arrayiterator.ksort.md: 'ArrayIterator::ksort »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::key'
+---
 # ArrayIterator::key
 
 (PHP 5, PHP 7, PHP 8)

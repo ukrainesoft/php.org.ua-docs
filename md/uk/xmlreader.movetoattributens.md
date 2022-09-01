@@ -1,16 +1,11 @@
-Перемістити курсор до іменованого атрибуту
-
--   [« XMLReader::moveToAttributeNo](xmlreader.movetoattributeno.html)
-    
--   [XMLReader::moveToElement »](xmlreader.movetoelement.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](class.xmlreader.html)
-    
--   Перемістити курсор до іменованого атрибуту
-    
-
+---
+navigation:
+  - xmlreader.movetoattributeno.html: '« XMLReader::moveToAttributeNo'
+  - xmlreader.movetoelement.html: 'XMLReader::moveToElement »'
+  - index.html: PHP Manual
+  - class.xmlreader.html: XMLReader
+title: 'XMLReader::moveToAttributeNs'
+---
 # XMLReader::moveToAttributeNs
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

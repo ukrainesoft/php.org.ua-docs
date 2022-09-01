@@ -1,16 +1,11 @@
-Масштабує розмір зображення
-
--   [« Imagick::sampleImage](imagick.sampleimage.md)
-    
--   [Imagick::segmentImage »](imagick.segmentimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Масштабує розмір зображення
-    
-
+---
+navigation:
+  - imagick.sampleimage.md: '« Imagick::sampleImage'
+  - imagick.segmentimage.md: 'Imagick::segmentImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::scaleImage'
+---
 # Imagick::scaleImage
 
 (PECL imagick 2, PECL imagick 3)
@@ -45,8 +40,8 @@ public Imagick::scaleImage(    int $cols,    int $rows,    bool $bes
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                    |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL imagick 2.1.0 | Доданий необов'язковий параметр fit. Метод тепер підтримує пропорційне масштабування. Передайте нуль як будь-який параметр для пропорційного масштабування. |
 
 ### Приклади

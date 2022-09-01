@@ -1,16 +1,11 @@
-Псевдонім ibaseerrmsg
-
--   [« fbirderrcode](function.fbird-errcode.html)
-    
--   [fbirdexecute »](function.fbird-execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibaseerrmsg
-    
-
+---
+navigation:
+  - function.fbird-errcode.html: « fbirderrcode
+  - function.fbird-execute.html: fbirdexecute »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirderrmsg
+---
 # fbirderrmsg
 
 (PHP 5, PHP 7 < 7.4.0)

@@ -1,16 +1,11 @@
-Визначає повний шлях по даному рядку зі шляхом
-
--   [« ssh2sftpreadlink](function.ssh2-sftp-readlink.html)
-    
--   [ssh2sftprename »](function.ssh2-sftp-rename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Визначає повний шлях по даному рядку зі шляхом
-    
-
+---
+navigation:
+  - function.ssh2-sftp-readlink.html: « ssh2sftpreadlink
+  - function.ssh2-sftp-rename.html: ssh2sftprename »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2sftprealpath
+---
 # ssh2sftprealpath
 
 (PECL ssh2> = 0.9.0)

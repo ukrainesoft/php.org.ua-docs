@@ -1,16 +1,11 @@
-Повертає інформацію про заданий хеш
-
--   [« passwordalgos](function.password-algos.html)
-    
--   [passwordhash »](function.password-hash.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції хешування паролів](ref.password.md)
-    
--   Повертає інформацію про заданий хеш
-    
-
+---
+navigation:
+  - function.password-algos.html: « passwordalgos
+  - function.password-hash.html: passwordhash »
+  - index.md: PHP Manual
+  - ref.password.md: Функції хешування паролів
+title: passwordgetinfo
+---
 # passwordgetinfo
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

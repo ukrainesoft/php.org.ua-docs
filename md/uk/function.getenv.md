@@ -1,16 +1,11 @@
-Отримання значення змінної оточення
-
--   [« getresources](function.get-resources.html)
-    
--   [getlastmod »](function.getlastmod.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Отримання значення змінної оточення
-    
-
+---
+navigation:
+  - function.get-resources.html: « getresources
+  - function.getlastmod.html: getlastmod »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: getenv
+---
 # getenv
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ getenv(): array
 
 ### список змін
 
-| Версия | Описание                                                                                                      |
-|--------|---------------------------------------------------------------------------------------------------------------|
-|        | Параметр `varname` тепер може бути опущений для одержання асоціативного масиву (array) всіх змінних оточення. |
-|        | Було додано параметр `local_only`                                                                             |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `varname` тепер може бути опущений для одержання асоціативного масиву (array) всіх змінних оточення. |
+|  | Було додано параметр `local_only` |
 
 ### Приклади
 

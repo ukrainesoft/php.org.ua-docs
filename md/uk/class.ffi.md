@@ -1,16 +1,11 @@
-Основний інтерфейс до коду та даних C
-
--   [« Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.html)
-    
--   [FFI::addr »](ffi.addr.md)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](book.ffi.md)
-    
--   Основний інтерфейс до коду та даних C
-    
-
+---
+navigation:
+  - ffi.examples-complete.html: « Комплексний приклад PHP/FFI/preloading
+  - ffi.addr.md: 'FFI::addr »'
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
+title: Основний інтерфейс до коду та даних C
+---
 # Основний інтерфейс до коду та даних C
 
 (PHP 7> = 7.4.0, PHP 8)

@@ -1,16 +1,11 @@
-Повертає текст останньої помилки, що сталася
-
--   [« cubriderrorcode](function.cubrid-error-code.html)
-    
--   [cubridexecute »](function.cubrid-execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Повертає текст останньої помилки, що сталася
-    
-
+---
+navigation:
+  - function.cubrid-error-code.html: « cubriderrorcode
+  - function.cubrid-execute.html: cubridexecute »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubriderrormsg
+---
 # cubriderrormsg
 
 (PECL CUBRID >= 8.3.0)

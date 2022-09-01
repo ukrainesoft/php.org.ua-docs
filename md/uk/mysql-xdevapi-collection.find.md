@@ -1,16 +1,11 @@
-Шукає документ
-
--   [« Collection::existsInDatabase](mysql-xdevapi-collection.existsindatabase.html)
-    
--   [Collection::getName »](mysql-xdevapi-collection.getname.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Шукає документ
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.existsindatabase.html: '« Collection::existsInDatabase'
+  - mysql-xdevapi-collection.getname.html: 'Collection::getName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::find'
+---
 # Collection::find
 
 (No version information available, might only be in Git)

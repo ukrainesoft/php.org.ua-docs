@@ -1,16 +1,11 @@
-Отримати назву локального або віддаленого сокету
-
--   [« streamsocketenablecrypto](function.stream-socket-enable-crypto.html)
-    
--   [streamsocketpair »](function.stream-socket-pair.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Отримати назву локального або віддаленого сокету
-    
-
+---
+navigation:
+  - function.stream-socket-enable-crypto.html: « streamsocketenablecrypto
+  - function.stream-socket-pair.html: streamsocketpair »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsocketgetname
+---
 # streamsocketgetname
 
 (PHP 5, PHP 7, PHP 8)

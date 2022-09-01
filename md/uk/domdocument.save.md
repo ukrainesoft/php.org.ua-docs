@@ -1,16 +1,11 @@
-Зберігає XML-дерево з внутрішнього подання до файлу
-
--   [« DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.md)
-    
--   [DOMDocument::saveHTML »](domdocument.savehtml.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Зберігає XML-дерево з внутрішнього подання до файлу
-    
-
+---
+navigation:
+  - domdocument.relaxngvalidatesource.md: '« DOMDocument::relaxNGValidateSource'
+  - domdocument.savehtml.md: 'DOMDocument::saveHTML »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::save'
+---
 # DOMDocument::save
 
 (PHP 5, PHP 7, PHP 8)

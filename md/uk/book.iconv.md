@@ -1,16 +1,11 @@
-iconv
-
--   [« textdomain](function.textdomain.md)
-    
--   [Введение »](intro.iconv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   iconv
-    
-
+---
+navigation:
+  - function.textdomain.md: « textdomain
+  - intro.iconv.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: iconv
+---
 # iconv
 
 -   [Введение](intro.iconv.md)

@@ -1,16 +1,11 @@
-Скидає значення полів документа
-
--   [« CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.html)
-    
--   [mysqlxdevapiCollectionRemove »](class.mysql-xdevapi-collectionremove.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Скидає значення полів документа
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.sort.html: '« CollectionModify::sort'
+  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::unset'
+---
 # CollectionModify::unset
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Створення Phar-архівів: Вступ
-
--   [« Создание Phar-архивов](phar.creating.md)
-    
--   [Чим відрізняється phar від tar-або zip-архіву? »](phar.fileformat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Создание Phar-архивов](phar.creating.md)
-    
--   Створення Phar-архівів: Вступ
-    
-
+---
+navigation:
+  - phar.creating.md: « Создание Phar-архивов
+  - phar.fileformat.md: Чим відрізняється phar від tar-або zip-архіву? »
+  - index.md: PHP Manual
+  - phar.creating.md: Создание Phar-архивов
+title: 'Створення Phar-архівів: Вступ'
+---
 ## Створення Phar-архівів: Вступ
 
 Має бути написано в найближчому майбутньому. Перед читанням цього обов'язково прочитайте [Як використовувати Phar-архіви](phar.using.md)

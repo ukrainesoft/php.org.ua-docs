@@ -1,16 +1,11 @@
-Перевірити документ за допомогою XSD
-
--   [« XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.md)
-    
--   [XMLReader::XML »](xmlreader.xml.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Перевірити документ за допомогою XSD
-    
-
+---
+navigation:
+  - xmlreader.setrelaxngschemasource.md: '« XMLReader::setRelaxNGSchemaSource'
+  - xmlreader.xml.md: 'XMLReader::XML »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::setSchema'
+---
 # XMLReader::setSchema
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

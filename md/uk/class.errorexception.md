@@ -1,16 +1,11 @@
-ErrorException
-
--   [« Exception::clone](exception.clone.md)
-    
--   [ErrorException::construct »](errorexception.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   ErrorException
-    
-
+---
+navigation:
+  - exception.clone.md: '« Exception::clone'
+  - errorexception.construct.md: 'ErrorException::construct »'
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: ErrorException
+---
 # ErrorException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає результат додавання всіх заданих значень до набору
-
--   [« DsSet::last](ds-set.last.html)
-    
--   [ДсSet::reduce »](ds-set.reduce.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає результат додавання всіх заданих значень до набору
-    
-
+---
+navigation:
+  - ds-set.last.html: '« DsSet::last'
+  - ds-set.reduce.html: 'ДсSet::reduce »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::merge'
+---
 # ДсSet::merge
 
 (PECL ds >= 1.0.3)

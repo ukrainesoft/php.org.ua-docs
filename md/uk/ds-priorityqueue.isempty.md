@@ -1,16 +1,11 @@
-Перевіряє, чи порожня колекція
-
--   [« DsPriorityQueue::count](ds-priorityqueue.count.html)
-    
--   [ДсPriorityQueue::jsonSerialize »](ds-priorityqueue.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Перевіряє, чи порожня колекція
-    
-
+---
+navigation:
+  - ds-priorityqueue.count.html: '« DsPriorityQueue::count'
+  - ds-priorityqueue.jsonserialize.html: 'ДсPriorityQueue::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::isEmpty'
+---
 # ДсPriorityQueue::isEmpty
 
 (PECL ds >= 1.0.0)

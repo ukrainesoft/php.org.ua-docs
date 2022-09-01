@@ -1,16 +1,11 @@
-Тестування з набором вхідних даних та бажаним результатом
-
--   [« fanntestdata](function.fann-test-data.html)
-    
--   [fanntrainepoch »](function.fann-train-epoch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Тестування з набором вхідних даних та бажаним результатом
-    
-
+---
+navigation:
+  - function.fann-test-data.html: « fanntestdata
+  - function.fann-train-epoch.html: fanntrainepoch »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanntest
+---
 # fanntest
 
 (PECL fann> = 1.0.0)

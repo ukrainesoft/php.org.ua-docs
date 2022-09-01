@@ -1,16 +1,11 @@
-Створює нову пару ключів.
-
--   [« sodiumcryptoкксclientsessionkeys](function.sodium-crypto-kx-client-session-keys.html)
-    
--   [sodiumcryptoкксpublickey »](function.sodium-crypto-kx-publickey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Створює нову пару ключів.
-    
-
+---
+navigation:
+  - function.sodium-crypto-kx-client-session-keys.html: « sodiumcryptoкксclientsessionkeys
+  - function.sodium-crypto-kx-publickey.html: sodiumcryptoкксpublickey »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoкксkeypair
+---
 # sodiumcryptoкксkeypair
 
 (PHP 7> = 7.2.0, PHP 8)

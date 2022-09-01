@@ -1,16 +1,11 @@
-Отримує середнє завантаження системи
-
--   [« sleep](function.sleep.html)
-    
--   [timenanosleep »](function.time-nanosleep.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Отримує середнє завантаження системи
-    
-
+---
+navigation:
+  - function.sleep.html: « sleep
+  - function.time-nanosleep.html: timenanosleep »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: sysgetloadavg
+---
 # sysgetloadavg
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

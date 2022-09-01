@@ -1,16 +1,11 @@
-Отримує ключ із пароля, використовуючи Argon2
-
--   [« sodiumcryptopwhashstr](function.sodium-crypto-pwhash-str.html)
-    
--   [sodiumcryptoscalarmultbase »](function.sodium-crypto-scalarmult-base.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Отримує ключ із пароля, використовуючи Argon2
-    
-
+---
+navigation:
+  - function.sodium-crypto-pwhash-str.html: « sodiumcryptopwhashstr
+  - function.sodium-crypto-scalarmult-base.html: sodiumcryptoscalarmultbase »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptopwhash
+---
 # sodiumcryptopwhash
 
 (PHP 7> = 7.2.0, PHP 8)

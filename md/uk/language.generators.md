@@ -1,16 +1,11 @@
-Генератори
-
--   [« Fibers](language.fibers.md)
-    
--   [Знайомство з генераторами](language.generators.overview.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Генератори
-    
-
+---
+navigation:
+  - language.fibers.md: « Fibers
+  - language.generators.overview.md: Знайомство з генераторами
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Генератори
+---
 # Генератори
 
 ## Зміст

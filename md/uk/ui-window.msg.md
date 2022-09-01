@@ -1,16 +1,11 @@
-Показати блок повідомлення
-
--   [« UIWindow::isFullScreen](ui-window.isfullscreen.html)
-    
--   [ОЙWindow::onClosing »](ui-window.onclosing.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Показати блок повідомлення
-    
-
+---
+navigation:
+  - ui-window.isfullscreen.html: '« UIWindow::isFullScreen'
+  - ui-window.onclosing.html: 'ОЙWindow::onClosing »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::msg'
+---
 # ОЙWindow::msg
 
 (UI 0.9.9)

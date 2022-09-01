@@ -1,16 +1,11 @@
-Очистити кеш APCu
-
--   [« apcucas](function.apcu-cas.html)
-    
--   [apcudec »](function.apcu-dec.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Очистити кеш APCu
-    
-
+---
+navigation:
+  - function.apcu-cas.html: « apcucas
+  - function.apcu-dec.html: apcudec »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcuclearcache
+---
 # apcuclearcache
 
 (PECL apcu >= 4.0.0)

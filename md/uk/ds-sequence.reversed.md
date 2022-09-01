@@ -1,16 +1,11 @@
-Повертає перегорнуту копію колекції
-
--   [« DsSequence::reverse](ds-sequence.reverse.html)
-    
--   [ДсSequence::rotate »](ds-sequence.rotate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає перегорнуту копію колекції
-    
-
+---
+navigation:
+  - ds-sequence.reverse.html: '« DsSequence::reverse'
+  - ds-sequence.rotate.html: 'ДсSequence::rotate »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::reversed'
+---
 # ДсSequence::reversed
 
 (PECL ds >= 1.0.0)

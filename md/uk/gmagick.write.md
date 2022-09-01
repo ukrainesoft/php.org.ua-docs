@@ -1,16 +1,11 @@
-Псевдонім Gmagick::writeimage
-
--   [« Gmagick::trimimage](gmagick.trimimage.md)
-    
--   [Gmagick::writeimage »](gmagick.writeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Псевдонім Gmagick::writeimage
-    
-
+---
+navigation:
+  - gmagick.trimimage.md: '« Gmagick::trimimage'
+  - gmagick.writeimage.md: 'Gmagick::writeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::write'
+---
 # Gmagick::write
 
 (PECL gmagick >= Unknown)

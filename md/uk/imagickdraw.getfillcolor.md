@@ -1,16 +1,11 @@
-Повертає колір заливки
-
--   [« ImagickDraw::getClipUnits](imagickdraw.getclipunits.html)
-    
--   [ImagickDraw::getFillOpacity »](imagickdraw.getfillopacity.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає колір заливки
-    
-
+---
+navigation:
+  - imagickdraw.getclipunits.html: '« ImagickDraw::getClipUnits'
+  - imagickdraw.getfillopacity.html: 'ImagickDraw::getFillOpacity »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getFillColor'
+---
 # ImagickDraw::getFillColor
 
 (PECL imagick 2, PECL imagick 3)

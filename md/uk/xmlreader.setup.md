@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xmlreader.html)
-    
--   [Вимоги »](xmlreader.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](book.xmlreader.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xmlreader.html: « Введение
+  - xmlreader.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.xmlreader.html: XMLReader
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

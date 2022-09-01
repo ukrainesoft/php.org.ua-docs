@@ -1,16 +1,11 @@
-Отримати попередній виняток
-
--   [« YafException::construct](yaf-exception.construct.html)
-    
--   [YafExceptionTypeError »](class.yaf-exception-typeerror.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafException](class.yaf-exception.html)
-    
--   Отримати попередній виняток
-    
-
+---
+navigation:
+  - yaf-exception.construct.html: '« YafException::construct'
+  - class.yaf-exception-typeerror.html: YafExceptionTypeError »
+  - index.md: PHP Manual
+  - class.yaf-exception.html: YafException
+title: 'YafException::getPrevious'
+---
 # YafException::getPrevious
 
 (Yaf >=1.0.0)

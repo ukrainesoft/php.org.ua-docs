@@ -1,16 +1,11 @@
-Перетворити часовий пояс на часовий пояс для Windows
-
--   [« IntlTimeZone::getUnknown](intltimezone.getunknown.html)
-    
--   [IntlTimeZone::hasSameRules »](intltimezone.hassamerules.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Перетворити часовий пояс на часовий пояс для Windows
-    
-
+---
+navigation:
+  - intltimezone.getunknown.html: '« IntlTimeZone::getUnknown'
+  - intltimezone.hassamerules.html: 'IntlTimeZone::hasSameRules »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::getWindowsID'
+---
 # IntlTimeZone::getWindowsID
 
 # intltzgetwindowsід

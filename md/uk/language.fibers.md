@@ -1,16 +1,11 @@
-Fibers
-
--   [« Наследование исключений](language.exceptions.extending.md)
-    
--   [Генератори »](language.generators.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Fibers
-    
-
+---
+navigation:
+  - language.exceptions.extending.md: « Наследование исключений
+  - language.generators.md: Генератори »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Fibers
+---
 # Fibers
 
 ### Огляд файберів

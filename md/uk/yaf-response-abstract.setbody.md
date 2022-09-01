@@ -1,16 +1,11 @@
-Встановлює вміст відповіді
-
--   [« YafResponseAbstract::setAllHeaders](yaf-response-abstract.setallheaders.html)
-    
--   [YafResponseAbstract::setHeader »](yaf-response-abstract.setheader.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Встановлює вміст відповіді
-    
-
+---
+navigation:
+  - yaf-response-abstract.setallheaders.html: '« YafResponseAbstract::setAllHeaders'
+  - yaf-response-abstract.setheader.html: 'YafResponseAbstract::setHeader »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::setBody'
+---
 # YafResponseAbstract::setBody
 
 (Yaf >=1.0.0)

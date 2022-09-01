@@ -1,16 +1,11 @@
-Видаляє визначення функції
-
--   [« runkit7functionredefine](function.runkit7-function-redefine.html)
-    
--   [runkit7functionrename »](function.runkit7-function-rename.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Видаляє визначення функції
-    
-
+---
+navigation:
+  - function.runkit7-function-redefine.html: « runkit7functionredefine
+  - function.runkit7-function-rename.html: runkit7functionrename »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7functionremove
+---
 # runkit7functionremove
 
 (PECL runkit7> = Unknown)

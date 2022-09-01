@@ -1,16 +1,11 @@
-Виконати налаштоване очищення та відновлення розібраної розмітки
-
--   [« tidy::body](tidy.body.md)
-    
--   [tidy::construct »](tidy.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Виконати налаштоване очищення та відновлення розібраної розмітки
-    
-
+---
+navigation:
+  - tidy.body.md: '« tidy::body'
+  - tidy.construct.md: 'tidy::construct »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::cleanRepair'
+---
 # tidy::cleanRepair
 
 # tidycleanrepair

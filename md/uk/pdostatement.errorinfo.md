@@ -1,16 +1,11 @@
-Отримання розширеної інформації про помилку, що сталася внаслідок роботи об'єкта PDOStatement
-
--   [« PDOStatement::errorCode](pdostatement.errorcode.html)
-    
--   [PDOStatement::execute »](pdostatement.execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Отримання розширеної інформації про помилку, що сталася внаслідок роботи об'єкта PDOStatement
-    
-
+---
+navigation:
+  - pdostatement.errorcode.html: '« PDOStatement::errorCode'
+  - pdostatement.execute.html: 'PDOStatement::execute »'
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::errorInfo'
+---
 # PDOStatement::errorInfo
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
@@ -31,11 +26,11 @@ public PDOStatement::errorInfo(): array
 
 **PDOStatement::errorInfo()** повертає масив з інформацією про помилку, що відповідає останній операції об'єкта PDOStatement. Масив складається як мінімум із наступних полів:
 
-| Элемент | Информация                                                                                                  |
-|---------|-------------------------------------------------------------------------------------------------------------|
-|         | Код помилки SQLSTATE (п'ятисимвольний код, що складається з букв та цифр, визначений у стандарті ANSI SQL). |
-|         | Код помилки повертається драйвером.                                                                         |
-|         | Повідомлення про помилку, яке повертається драйвером.                                                       |
+| Элемент | Информация |
+| --- | --- |
+|  | Код помилки SQLSTATE (п'ятисимвольний код, що складається з букв та цифр, визначений у стандарті ANSI SQL). |
+|  | Код помилки повертається драйвером. |
+|  | Повідомлення про помилку, яке повертається драйвером. |
 
 ### Приклади
 

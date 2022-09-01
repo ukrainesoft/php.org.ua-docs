@@ -1,16 +1,11 @@
-Клас com
-
--   [« Масиви та властивості COM у стилі масивів](com.examples.arrays.md)
-    
--   [com::construct »](com.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [COM](book.com.md)
-    
--   Клас com
-    
-
+---
+navigation:
+  - com.examples.arrays.md: « Масиви та властивості COM у стилі масивів
+  - com.construct.md: 'com::construct »'
+  - index.md: PHP Manual
+  - book.com.md: COM
+title: Клас com
+---
 # Клас com
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

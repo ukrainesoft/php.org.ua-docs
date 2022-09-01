@@ -1,14 +1,10 @@
-ЧАВО: Часті питання та відповіді на них
-
--   [« UIExceptionRuntimeException](class.ui-exception-runtimeexception.html)
-    
--   [Загальна інформація "](faq.general.html)
-    
--   [PHP Manual](index.html)
-    
--   ЧАВО: Часті питання та відповіді на них
-    
-
+---
+navigation:
+  - class.ui-exception-runtimeexception.html: « UIExceptionRuntimeException
+  - faq.general.html: Загальна інформація "
+  - index.html: PHP Manual
+title: 'ЧАВО: Часті питання та відповіді на них'
+---
 # ЧАВО: Часті питання та відповіді на них
 
 -   [Загальна інформація](faq.general.html)

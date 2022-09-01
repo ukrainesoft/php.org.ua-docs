@@ -1,16 +1,11 @@
-Отримує значення символу
-
--   [« NumberFormatter::getPattern](numberformatter.getpattern.md)
-    
--   [NumberFormatter::getTextAttribute »](numberformatter.gettextattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Отримує значення символу
-    
-
+---
+navigation:
+  - numberformatter.getpattern.md: '« NumberFormatter::getPattern'
+  - numberformatter.gettextattribute.md: 'NumberFormatter::getTextAttribute »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getSymbol'
+---
 # NumberFormatter::getSymbol
 
 # numfmtgetsymbol

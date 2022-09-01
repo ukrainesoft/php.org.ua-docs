@@ -1,16 +1,11 @@
-Повертає максимальну кількість лічильників обмежень, яка має бути повернена для полів фасету
-
--   [« SolrQuery::getFacetFields](solrquery.getfacetfields.md)
-    
--   [SolrQuery::getFacetMethod »](solrquery.getfacetmethod.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає максимальну кількість лічильників обмежень, яка має бути повернена для полів фасету
-    
-
+---
+navigation:
+  - solrquery.getfacetfields.md: '« SolrQuery::getFacetFields'
+  - solrquery.getfacetmethod.md: 'SolrQuery::getFacetMethod »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacetLimit'
+---
 # SolrQuery::getFacetLimit
 
 (PECL solr> = 0.9.2)

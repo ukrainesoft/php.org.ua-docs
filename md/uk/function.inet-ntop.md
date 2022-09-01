@@ -1,16 +1,11 @@
-Конвертує упаковану інтернет-адресу в формат, що читається
-
--   [httpresponsecode](function.http-response-code.html)
-    
--   [inetpton »](function.inet-pton.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Конвертує упаковану інтернет-адресу в формат, що читається
-    
-
+---
+navigation:
+  - function.http-response-code.html: httpresponsecode
+  - function.inet-pton.html: inetpton »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: inetntop
+---
 # inetntop
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

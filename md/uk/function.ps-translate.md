@@ -1,16 +1,11 @@
-Змінює систему координат
-
--   [«pssymbol](function.ps-symbol.html)
-    
--   [RpmInfo »](book.rpminfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Змінює систему координат
-    
-
+---
+navigation:
+  - function.ps-symbol.html: «pssymbol
+  - book.rpminfo.md: RpmInfo »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псtranslate
+---
 # псtranslate
 
 (PECL ps >= 1.1.0)

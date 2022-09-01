@@ -1,16 +1,11 @@
-Витягує вміст усіх метатегів із файлу та повертає масив.
-
--   [« getheaders](function.get-headers.html)
-    
--   [httpbuildquery »](function.http-build-query.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції URL](ref.url.html)
-    
--   Витягує вміст усіх метатегів із файлу та повертає масив.
-    
-
+---
+navigation:
+  - function.get-headers.html: « getheaders
+  - function.http-build-query.html: httpbuildquery »
+  - index.html: PHP Manual
+  - ref.url.html: Функції URL
+title: getmetatags
+---
 # getmetatags
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає інформацію про сервер
-
--   [« sqlsrvsendstreamdata](function.sqlsrv-send-stream-data.html)
-    
--   [Модулі для роботи з датою та часом »](refs.calendar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Повертає інформацію про сервер
-    
-
+---
+navigation:
+  - function.sqlsrv-send-stream-data.html: « sqlsrvsendstreamdata
+  - refs.calendar.html: Модулі для роботи з датою та часом »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvserverinfo
+---
 # sqlsrvserverinfo
 
 (No version information available, might only be in Git)
@@ -37,10 +32,10 @@ sqlsrv_server_info(resource $conn): array
 
 **Повертається масив**
 
-| CurrentDatabase  | Подключённая база данных. |
-|------------------|---------------------------|
-| SQLServerVersion | Версія SQL Server.        |
-| SQLServerName    | Ім'я сервера.             |
+| CurrentDatabase | Подключённая база данных. |
+| --- | --- |
+| SQLServerVersion | Версія SQL Server. |
+| SQLServerName | Ім'я сервера. |
 
 ### Приклади
 

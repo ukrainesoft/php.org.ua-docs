@@ -1,16 +1,11 @@
-Створює значення PHP із збереженого уявлення функцією igbinaryserialize
-
--   [« igbinaryserialize](function.igbinary-serialize.html)
-    
--   [JSON »](book.json.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Igbinary](ref.igbinary.md)
-    
--   Створює значення PHP із збереженого уявлення функцією igbinaryserialize
-    
-
+---
+navigation:
+  - function.igbinary-serialize.html: « igbinaryserialize
+  - book.json.md: JSON »
+  - index.md: PHP Manual
+  - ref.igbinary.md: Функции Igbinary
+title: igbinaryunserialize
+---
 # igbinaryunserialize
 
 (PECL igbinary >= 1.1.1)

@@ -1,16 +1,11 @@
-Повертає базу подій, пов'язану із слухачем подій
-
--   [« EventListener::enable](eventlistener.enable.html)
-    
--   [EventListener::getSocketName »](eventlistener.getsocketname.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventListener](class.eventlistener.html)
-    
--   Повертає базу подій, пов'язану із слухачем подій
-    
-
+---
+navigation:
+  - eventlistener.enable.html: '« EventListener::enable'
+  - eventlistener.getsocketname.html: 'EventListener::getSocketName »'
+  - index.html: PHP Manual
+  - class.eventlistener.html: EventListener
+title: 'EventListener::getBase'
+---
 # EventListener::getBase
 
 (PECL event >= 1.2.6-beta)

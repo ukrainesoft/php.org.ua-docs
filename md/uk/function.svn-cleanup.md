@@ -1,16 +1,11 @@
-Рекурсивно очищає робочу копію директорії, завершує незакінчені операції та знімає блокування.
-
--   [« svncheckout](function.svn-checkout.html)
-    
--   [svnclientversion »](function.svn-client-version.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Рекурсивно очищає робочу копію директорії, завершує незакінчені операції та знімає блокування.
-    
-
+---
+navigation:
+  - function.svn-checkout.html: « svncheckout
+  - function.svn-client-version.html: svnclientversion »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svncleanup
+---
 # svncleanup
 
 (PECL svn >= 0.1.0)

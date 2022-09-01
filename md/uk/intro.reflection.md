@@ -1,16 +1,11 @@
-Вступ
-
--   [« Reflection](book.reflection.html)
-    
--   [Встановлення та налаштування »](reflection.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.reflection.html: « Reflection
+  - reflection.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Вступ
+---
 # Вступ
 
 PHP включає повноцінний Reflection API, який надає можливість проводити інтроспекцію класів, інтерфейсів, функцій, методів та модулів. Крім того, Reflection API дозволяє отримувати doc-блоки коментарів функцій, класів та методів.

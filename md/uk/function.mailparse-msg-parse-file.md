@@ -1,16 +1,11 @@
-Розібрати файл
-
--   [« mailparsemsggetstructure](function.mailparse-msg-get-structure.html)
-    
--   [mailparsemsgparse »](function.mailparse-msg-parse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Розібрати файл
-    
-
+---
+navigation:
+  - function.mailparse-msg-get-structure.html: « mailparsemsggetstructure
+  - function.mailparse-msg-parse.html: mailparsemsgparse »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsgparsefile
+---
 # mailparsemsgparsefile
 
 (PECL mailparse >= 0.9.0)

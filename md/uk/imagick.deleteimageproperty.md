@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::deleteImageArtifact](imagick.deleteimageartifact.md)
-    
--   [Imagick::deskewImage »](imagick.deskewimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.deleteimageartifact.md: '« Imagick::deleteImageArtifact'
+  - imagick.deskewimage.md: 'Imagick::deskewImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::deleteImageProperty'
+---
 # Imagick::deleteImageProperty
 
 (PECL imagick 3> = 3.3.0)

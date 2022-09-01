@@ -1,16 +1,11 @@
-Повертає ідентифікатор типу заданого поля
-
--   [« pgfieldtable](function.pg-field-table.html)
-    
--   [пгfieldtype »](function.pg-field-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Повертає ідентифікатор типу заданого поля
-    
-
+---
+navigation:
+  - function.pg-field-table.html: « pgfieldtable
+  - function.pg-field-type.html: пгfieldtype »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгfieldtypeoid
+---
 # пгfieldtypeoid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ OID базового типу значень поля.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

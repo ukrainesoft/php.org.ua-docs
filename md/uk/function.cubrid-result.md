@@ -1,16 +1,11 @@
-Отримати значення із заданого стовпця заданого рядка
-
--   [« cubridrealescapestring](function.cubrid-real-escape-string.html)
-    
--   [cubridunbufferedquery »](function.cubrid-unbuffered-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Отримати значення із заданого стовпця заданого рядка
-    
-
+---
+navigation:
+  - function.cubrid-real-escape-string.html: « cubridrealescapestring
+  - function.cubrid-unbuffered-query.html: cubridunbufferedquery »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridresult
+---
 # cubridresult
 
 (PECL CUBRID >= 8.3.0)

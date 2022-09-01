@@ -1,16 +1,11 @@
-Сортування за допомогою заданої користувачем функції та збереження ключів
-
--   [« ArrayIterator::setFlags](arrayiterator.setflags.md)
-    
--   [ArrayIterator::uksort »](arrayiterator.uksort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Сортування за допомогою заданої користувачем функції та збереження ключів
-    
-
+---
+navigation:
+  - arrayiterator.setflags.md: '« ArrayIterator::setFlags'
+  - arrayiterator.uksort.md: 'ArrayIterator::uksort »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::uasort'
+---
 # ArrayIterator::uasort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

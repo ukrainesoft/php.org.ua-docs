@@ -1,16 +1,11 @@
-Напівжирний
-
--   [« VtifulKernelFormat::align](vtiful-kernel-format.align.html)
-    
--   [VtifulKernelFormat::italic »](vtiful-kernel-format.italic.html)
-    
--   [PHP Manual](index.html)
-    
--   [VtifulKernelFormat](class.vtiful-kernel-format.html)
-    
--   Напівжирний
-    
-
+---
+navigation:
+  - vtiful-kernel-format.align.html: '« VtifulKernelFormat::align'
+  - vtiful-kernel-format.italic.html: 'VtifulKernelFormat::italic »'
+  - index.html: PHP Manual
+  - class.vtiful-kernel-format.html: VtifulKernelFormat
+title: 'VtifulKernelFormat::bold'
+---
 # VtifulKernelFormat::bold
 
 (PECL xlswriter >= 1.2.1)

@@ -1,16 +1,11 @@
-Встановлює температуру sarprop
-
--   [« fannsetsarpropsteperrorthresholdfactor](function.fann-set-sarprop-step-error-threshold-factor.html)
-    
--   [fannsetsarpropweightdecayshift »](function.fann-set-sarprop-weight-decay-shift.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює температуру sarprop
-    
-
+---
+navigation:
+  - function.fann-set-sarprop-step-error-threshold-factor.html: « fannsetsarpropsteperrorthresholdfactor
+  - function.fann-set-sarprop-weight-decay-shift.html: fannsetsarpropweightdecayshift »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetsarproptemperature
+---
 # fannsetsarproptemperature
 
 (PECL fann> = 1.0.0)

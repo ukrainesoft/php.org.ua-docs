@@ -1,16 +1,11 @@
-Отримати рядкове подання причини зворотного виклику
-
--   [« UConverter::getSubstChars](uconverter.getsubstchars.html)
-    
--   [UConverter::setDestinationEncoding »](uconverter.setdestinationencoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [UConverter](class.uconverter.html)
-    
--   Отримати рядкове подання причини зворотного виклику
-    
-
+---
+navigation:
+  - uconverter.getsubstchars.html: '« UConverter::getSubstChars'
+  - uconverter.setdestinationencoding.html: 'UConverter::setDestinationEncoding »'
+  - index.html: PHP Manual
+  - class.uconverter.html: UConverter
+title: 'UConverter::reasonText'
+---
 # UConverter::reasonText
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

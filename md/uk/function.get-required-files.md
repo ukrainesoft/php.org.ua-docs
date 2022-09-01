@@ -1,16 +1,11 @@
-Псевдонім getincludedfiles
-
--   [« getmagicquotesruntime](function.get-magic-quotes-runtime.html)
-    
--   [getresources »](function.get-resources.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Псевдонім getincludedfiles
-    
-
+---
+navigation:
+  - function.get-magic-quotes-runtime.html: « getmagicquotesruntime
+  - function.get-resources.html: getresources »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getrequiredfiles
+---
 # getrequiredfiles
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

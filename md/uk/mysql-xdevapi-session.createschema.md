@@ -1,16 +1,11 @@
-Створює нову схему
-
--   [« Session::construct](mysql-xdevapi-session.construct.html)
-    
--   [Session::dropSchema »](mysql-xdevapi-session.dropschema.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Створює нову схему
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.construct.html: '« Session::construct'
+  - mysql-xdevapi-session.dropschema.html: 'Session::dropSchema »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::createSchema'
+---
 # Session::createSchema
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Повертає наступний рядок із результату запиту у вигляді об'єкта
-
--   [« ocifetchassoc](function.oci-fetch-assoc.html)
-    
--   [ocifetchrow »](function.oci-fetch-row.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає наступний рядок із результату запиту у вигляді об'єкта
-    
-
+---
+navigation:
+  - function.oci-fetch-assoc.html: « ocifetchassoc
+  - function.oci-fetch-row.html: ocifetchrow »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifetchobject
+---
 # ocifetchobject
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

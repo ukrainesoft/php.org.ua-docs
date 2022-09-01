@@ -1,16 +1,11 @@
-Визначає найбільш підходящий формат дати/часу
-
--   [« IntlDatePatternGenerator::create](intldatepatterngenerator.create.md)
-    
--   [IntlPartsIterator »](class.intlpartsiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
-    
--   Визначає найбільш підходящий формат дати/часу
-    
-
+---
+navigation:
+  - intldatepatterngenerator.create.md: '« IntlDatePatternGenerator::create'
+  - class.intlpartsiterator.md: IntlPartsIterator »
+  - index.md: PHP Manual
+  - class.intldatepatterngenerator.md: IntlDatePatternGenerator
+title: 'IntlDatePatternGenerator::getBestPattern'
+---
 # IntlDatePatternGenerator::getBestPattern
 
 (PHP 8> = 8.1.0)

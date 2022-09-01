@@ -1,16 +1,11 @@
-Клас OpenSSLCertificateSigningRequest
-
--   [« OpenSSLCertificate](class.opensslcertificate.md)
-    
--   [OpenSSLAsymmetricKey »](class.opensslasymmetrickey.md)
-    
--   [PHP Manual](index.md)
-    
--   [OpenSSL](book.openssl.md)
-    
--   Клас OpenSSLCertificateSigningRequest
-    
-
+---
+navigation:
+  - class.opensslcertificate.md: « OpenSSLCertificate
+  - class.opensslasymmetrickey.md: OpenSSLAsymmetricKey »
+  - index.md: PHP Manual
+  - book.openssl.md: OpenSSL
+title: Клас OpenSSLCertificateSigningRequest
+---
 # Клас OpenSSLCertificateSigningRequest
 
 (PHP 8)

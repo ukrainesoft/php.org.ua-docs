@@ -1,16 +1,11 @@
-Запит для сервера завершити виконання процесу MySQL
-
--   [« mysqli::$insertід](mysqli.insert-id.html)
-    
--   [mysqli::moreresults »](mysqli.more-results.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Запит для сервера завершити виконання процесу MySQL
-    
-
+---
+navigation:
+  - mysqli.insert-id.html: '« mysqli::$insertід'
+  - mysqli.more-results.html: 'mysqli::moreresults »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::kill'
+---
 # mysqli::kill
 
 # mysqlikill

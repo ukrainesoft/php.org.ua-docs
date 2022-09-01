@@ -1,16 +1,11 @@
-Видаляє область зображення та підрізає його
-
--   [« Gmagick::charcoalimage](gmagick.charcoalimage.html)
-    
--   [Gmagick::clear »](gmagick.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Видаляє область зображення та підрізає його
-    
-
+---
+navigation:
+  - gmagick.charcoalimage.html: '« Gmagick::charcoalimage'
+  - gmagick.clear.html: 'Gmagick::clear »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::chopimage'
+---
 # Gmagick::chopimage
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Клас MongoDBDriverServer
-
--   [« MongoDBDriverCursorInterface::toArray](mongodb-driver-cursorinterface.toarray.html)
-    
--   [MongoDBDriverServer::construct »](mongodb-driver-server.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас MongoDBDriverServer
-    
-
+---
+navigation:
+  - mongodb-driver-cursorinterface.toarray.html: '« MongoDBDriverCursorInterface::toArray'
+  - mongodb-driver-server.construct.html: 'MongoDBDriverServer::construct »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас MongoDBDriverServer
+---
 # Клас MongoDBDriverServer
 
 (mongodb >=1.0.0)
@@ -148,10 +143,10 @@ final public isSecondary(): bool
 
 ## список змін
 
-| Версия                                                           | Описание |
-|------------------------------------------------------------------|----------|
-| PECL mongodb 1.11.0                                              |          |
-| Додано константу **`MongoDB\Driver\Server::TYPE_LOAD_BALANCER`** |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.11.0 |  |
+| Додано константу **`MongoDB\Driver\Server::TYPE_LOAD_BALANCER`** |  |
 
 ## Зміст
 

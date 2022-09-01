@@ -1,16 +1,11 @@
-Анулює закешований скрипт
-
--   [« opcachegetstatus](function.opcache-get-status.html)
-    
--   [opcacheісscriptcached »](function.opcache-is-script-cached.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OPcache](ref.opcache.md)
-    
--   Анулює закешований скрипт
-    
-
+---
+navigation:
+  - function.opcache-get-status.html: « opcachegetstatus
+  - function.opcache-is-script-cached.html: opcacheісscriptcached »
+  - index.md: PHP Manual
+  - ref.opcache.md: Функции OPcache
+title: opcacheinvalidate
+---
 # opcacheinvalidate
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache >= 7.0.0)

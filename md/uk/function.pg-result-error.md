@@ -1,16 +1,11 @@
-Повертає повідомлення про помилку, пов'язане із запитом результату
-
--   [« pgresulterrorfield](function.pg-result-error-field.html)
-    
--   [пгresultseek »](function.pg-result-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає повідомлення про помилку, пов'язане із запитом результату
-    
-
+---
+navigation:
+  - function.pg-result-error-field.html: « pgresulterrorfield
+  - function.pg-result-seek.html: пгresultseek »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгresulterror
+---
 # пгresulterror
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pg_result_error(PgSql\Result $result): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

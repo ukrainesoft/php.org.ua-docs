@@ -1,16 +1,11 @@
-Закрити файловий дескриптор
-
--   [« Функції прямого введення/виводу](ref.dio.html)
-    
--   [diofcntl »](function.dio-fcntl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції прямого введення/виводу](ref.dio.html)
-    
--   Закрити файловий дескриптор
-    
-
+---
+navigation:
+  - ref.dio.html: « Функції прямого введення/виводу
+  - function.dio-fcntl.html: diofcntl »
+  - index.html: PHP Manual
+  - ref.dio.html: Функції прямого введення/виводу
+title: dioclose
+---
 # dioclose
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

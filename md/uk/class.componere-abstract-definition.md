@@ -1,16 +1,11 @@
-Клас ComponereAbstractDefinition
-
--   [« Установка](componere.installation.md)
-    
--   [ComponereAbstractDefinition::addInterface »](componere-abstract-definition.addinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [Componere](book.componere.md)
-    
--   Клас ComponereAbstractDefinition
-    
-
+---
+navigation:
+  - componere.installation.md: « Установка
+  - componere-abstract-definition.addinterface.html: 'ComponereAbstractDefinition::addInterface »'
+  - index.md: PHP Manual
+  - book.componere.md: Componere
+title: Клас ComponereAbstractDefinition
+---
 # Клас ComponereAbstractDefinition
 
 (Componere 2 >= 2.1.0)

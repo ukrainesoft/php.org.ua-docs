@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](mcrypt.requirements.html)
-    
--   [Налаштування під час виконання »](mcrypt.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](mcrypt.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - mcrypt.requirements.html: « Вимоги
+  - mcrypt.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - mcrypt.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль був переміщений до репозиторію [» PECL](https://pecl.php.net/) і більше не постачається з PHP 7.2.0

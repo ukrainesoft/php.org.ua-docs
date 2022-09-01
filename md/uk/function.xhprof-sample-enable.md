@@ -1,16 +1,11 @@
-Запуск семплюючого режиму профілювання XHProf
-
--   [« xhprofsampledisable](function.xhprof-sample-disable.html)
-    
--   [Yac »](book.yac.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Xhprof](ref.xhprof.html)
-    
--   Запуск семплюючого режиму профілювання XHProf
-    
-
+---
+navigation:
+  - function.xhprof-sample-disable.html: « xhprofsampledisable
+  - book.yac.html: Yac »
+  - index.html: PHP Manual
+  - ref.xhprof.html: Функции Xhprof
+title: xhprofsampleenable
+---
 # xhprofsampleenable
 
 (PECL xhprof >= 0.9.0)

@@ -1,16 +1,11 @@
-Отримує внутрішній ітератор
-
--   [« IteratorIterator::current](iteratoriterator.current.html)
-    
--   [IteratorIterator::key »](iteratoriterator.key.html)
-    
--   [PHP Manual](index.html)
-    
--   [IteratorIterator](class.iteratoriterator.html)
-    
--   Отримує внутрішній ітератор
-    
-
+---
+navigation:
+  - iteratoriterator.current.html: '« IteratorIterator::current'
+  - iteratoriterator.key.html: 'IteratorIterator::key »'
+  - index.html: PHP Manual
+  - class.iteratoriterator.html: IteratorIterator
+title: 'IteratorIterator::getInnerIterator'
+---
 # IteratorIterator::getInnerIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

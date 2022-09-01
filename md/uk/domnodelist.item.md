@@ -1,16 +1,11 @@
-Отримує вузол із заданим індексом
-
--   [« DOMNodeList::count](domnodelist.count.html)
-    
--   [DOMNotation »](class.domnotation.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNodeList](class.domnodelist.html)
-    
--   Отримує вузол із заданим індексом
-    
-
+---
+navigation:
+  - domnodelist.count.html: '« DOMNodeList::count'
+  - class.domnotation.html: DOMNotation »
+  - index.html: PHP Manual
+  - class.domnodelist.html: DOMNodeList
+title: 'DOMNodeList::item'
+---
 # DOMNodeList::item
 
 (PHP 5, PHP 7, PHP 8)

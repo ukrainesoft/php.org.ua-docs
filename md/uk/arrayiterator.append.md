@@ -1,16 +1,11 @@
-Додати елемент
-
--   [« ArrayIterator](class.arrayiterator.html)
-    
--   [ArrayIterator::asort »](arrayiterator.asort.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Додати елемент
-    
-
+---
+navigation:
+  - class.arrayiterator.html: « ArrayIterator
+  - arrayiterator.asort.html: 'ArrayIterator::asort »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::append'
+---
 # ArrayIterator::append
 
 (PHP 5, PHP 7, PHP 8)

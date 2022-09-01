@@ -1,16 +1,11 @@
-Повертає один рядок результату до масиву
-
--   [« odbcfetcharray](function.odbc-fetch-array.html)
-    
--   [odbcfetchobject »](function.odbc-fetch-object.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає один рядок результату до масиву
-    
-
+---
+navigation:
+  - function.odbc-fetch-array.html: « odbcfetcharray
+  - function.odbc-fetch-object.html: odbcfetchobject »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcfetchinto
+---
 # odbcfetchinto
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає ключ soundex для рядка
-
--   [« similartext](function.similar-text.html)
-    
--   [sprintf »](function.sprintf.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Повертає ключ soundex для рядка
-    
-
+---
+navigation:
+  - function.similar-text.html: « similartext
+  - function.sprintf.html: sprintf »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: soundex
+---
 # soundex
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ soundex(string $string): string
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | До цієї версії при виклику функції з порожнім рядком поверталося **`false`** без особливих причин. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії при виклику функції з порожнім рядком поверталося **`false`** без особливих причин. |
 
 ### Приклади
 

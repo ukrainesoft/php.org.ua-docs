@@ -1,16 +1,11 @@
-Обробляє таке правило лексера
-
--   [« ParleLexer](class.parle-lexer.html)
-    
--   [ParleLexer::build »](parle-lexer.build.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleLexer](class.parle-lexer.html)
-    
--   Обробляє таке правило лексера
-    
-
+---
+navigation:
+  - class.parle-lexer.html: « ParleLexer
+  - parle-lexer.build.html: 'ParleLexer::build »'
+  - index.md: PHP Manual
+  - class.parle-lexer.html: ParleLexer
+title: 'ParleLexer::advance'
+---
 # ParleLexer::advance
 
 (PECL parle >= 0.5.1)

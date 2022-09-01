@@ -1,16 +1,11 @@
-Перевіряє, чи є поточний елемент допустимим
-
--   [« SimpleXMLIterator::rewind](simplexmliterator.rewind.md)
-    
--   [Функции SimpleXML »](ref.simplexml.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLIterator](class.simplexmliterator.md)
-    
--   Перевіряє, чи є поточний елемент допустимим
-    
-
+---
+navigation:
+  - simplexmliterator.rewind.md: '« SimpleXMLIterator::rewind'
+  - ref.simplexml.md: Функции SimpleXML »
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::valid'
+---
 # SimpleXMLIterator::valid
 
 (PHP 5, PHP 7, PHP 8)

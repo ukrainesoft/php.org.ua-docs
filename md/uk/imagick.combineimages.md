@@ -1,16 +1,11 @@
-Поєднує одне або кілька зображень в одне зображення
-
--   [« Imagick::colorMatrixImage](imagick.colormatriximage.html)
-    
--   [Imagick::commentImage »](imagick.commentimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Поєднує одне або кілька зображень в одне зображення
-    
-
+---
+navigation:
+  - imagick.colormatriximage.html: '« Imagick::colorMatrixImage'
+  - imagick.commentimage.html: 'Imagick::commentImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::combineImages'
+---
 # Imagick::combineImages
 
 (PECL imagick 2, PECL imagick 3)

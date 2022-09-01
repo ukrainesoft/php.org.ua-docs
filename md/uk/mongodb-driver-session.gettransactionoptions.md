@@ -1,16 +1,11 @@
-Повертає налаштування поточної транзакції
-
--   [« MongoDBDriverSession::getServer](mongodb-driver-session.getserver.html)
-    
--   [MongoDBDriverSession::getTransactionState »](mongodb-driver-session.gettransactionstate.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Повертає налаштування поточної транзакції
-    
-
+---
+navigation:
+  - mongodb-driver-session.getserver.html: '« MongoDBDriverSession::getServer'
+  - mongodb-driver-session.gettransactionstate.html: 'MongoDBDriverSession::getTransactionState »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::getTransactionOptions'
+---
 # MongoDBDriverSession::getTransactionOptions
 
 (mongodb >=1.7.0)

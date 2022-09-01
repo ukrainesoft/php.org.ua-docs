@@ -1,16 +1,11 @@
-Нові функції
-
--   [" Нові можливості](migration73.new-features.html)
-    
--   [Нові глобальні константи »](migration73.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.html)
-    
--   Нові функції
-    
-
+---
+navigation:
+  - migration73.new-features.html: '" Нові можливості'
+  - migration73.constants.html: Нові глобальні константи »
+  - index.html: PHP Manual
+  - migration73.html: Миграция с PHP 7.2.x на PHP 7.3.x
+title: Нові функції
+---
 ## Нові функції
 
 ### Ядро PHP

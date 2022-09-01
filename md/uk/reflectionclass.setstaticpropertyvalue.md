@@ -1,16 +1,11 @@
-Встановлює значення статичної властивості
-
--   [« ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)
-    
--   [ReflectionClass::toString »](reflectionclass.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Встановлює значення статичної властивості
-    
-
+---
+navigation:
+  - reflectionclass.newinstancewithoutconstructor.md: '« ReflectionClass::newInstanceWithoutConstructor'
+  - reflectionclass.tostring.md: 'ReflectionClass::toString »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::setStaticPropertyValue'
+---
 # ReflectionClass::setStaticPropertyValue
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

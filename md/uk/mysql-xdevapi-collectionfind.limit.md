@@ -1,16 +1,11 @@
-Обмежує кількість документів, що повертаються.
-
--   [« CollectionFind::having](mysql-xdevapi-collectionfind.having.html)
-    
--   [CollectionFind::lockExclusive »](mysql-xdevapi-collectionfind.lockexclusive.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Обмежує кількість документів, що повертаються.
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.having.html: '« CollectionFind::having'
+  - mysql-xdevapi-collectionfind.lockexclusive.html: 'CollectionFind::lockExclusive »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::limit'
+---
 # CollectionFind::limit
 
 (No version information available, might only be in Git)

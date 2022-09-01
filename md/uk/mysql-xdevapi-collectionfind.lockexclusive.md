@@ -1,16 +1,11 @@
-Виконує операцію з EXCLUSIVE LOCK
-
--   [« CollectionFind::limit](mysql-xdevapi-collectionfind.limit.html)
-    
--   [CollectionFind::lockShared »](mysql-xdevapi-collectionfind.lockshared.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Виконує операцію з EXCLUSIVE LOCK
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.limit.html: '« CollectionFind::limit'
+  - mysql-xdevapi-collectionfind.lockshared.html: 'CollectionFind::lockShared »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::lockExclusive'
+---
 # CollectionFind::lockExclusive
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« Igbinary](book.igbinary.html)
-    
--   [Встановлення та налаштування »](igbinary.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Igbinary](book.igbinary.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.igbinary.html: « Igbinary
+  - igbinary.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.igbinary.html: Igbinary
+title: Вступ
+---
 # Вступ
 
 Igbinary – це невелика заміна стандартного серіалізатора PHP. Замість багато часу і місця текстового уявлення, використовуваного PHP [serialize()](function.serialize.html), Igbinary зберігає структури даних PHP у компактній двійковій формі. Економія пам'яті значна при використанні memcached, APCu або аналогічних сховищ на основі пам'яті для серіалізованих даних. Типове скорочення вимог щодо зберігання становить близько 50%. Точний відсоток залежить від даних.

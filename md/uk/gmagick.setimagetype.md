@@ -1,16 +1,11 @@
-Встановлює тип зображення
-
--   [« Gmagick::setimagescene](gmagick.setimagescene.html)
-    
--   [Gmagick::setimageunits »](gmagick.setimageunits.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Встановлює тип зображення
-    
-
+---
+navigation:
+  - gmagick.setimagescene.html: '« Gmagick::setimagescene'
+  - gmagick.setimageunits.html: 'Gmagick::setimageunits »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::setimagetype'
+---
 # Gmagick::setimagetype
 
 (PECL gmagick >= Unknown)

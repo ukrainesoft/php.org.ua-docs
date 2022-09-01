@@ -1,16 +1,11 @@
-Повертає масив доступних драйверів PDO
-
--   [« PDO::getAttribute](pdo.getattribute.md)
-    
--   [PDO::inTransaction »](pdo.intransaction.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Повертає масив доступних драйверів PDO
-    
-
+---
+navigation:
+  - pdo.getattribute.md: '« PDO::getAttribute'
+  - pdo.intransaction.md: 'PDO::inTransaction »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::getAvailableDrivers'
+---
 # PDO::getAvailableDrivers
 
 # pdodrivers

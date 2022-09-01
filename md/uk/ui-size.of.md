@@ -1,16 +1,11 @@
-Приведення Point
-
--   [« UISize::getWidth](ui-size.getwidth.html)
-    
--   [ОЙSize::setHeight »](ui-size.setheight.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙSize](class.ui-size.html)
-    
--   Приведення Point
-    
-
+---
+navigation:
+  - ui-size.getwidth.html: '« UISize::getWidth'
+  - ui-size.setheight.html: 'ОЙSize::setHeight »'
+  - index.md: PHP Manual
+  - class.ui-size.html: ОЙSize
+title: 'ОЙSize::of'
+---
 # ОЙSize::of
 
 (UI 1.0.2)

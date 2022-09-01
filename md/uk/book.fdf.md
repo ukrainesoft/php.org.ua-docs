@@ -1,16 +1,11 @@
-Формат даних форм
-
--   [« Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
-    
--   [Введение »](intro.fdf.md)
-    
--   [PHP Manual](index.md)
-    
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
-    
--   Формат даних форм
-    
-
+---
+navigation:
+  - refs.utilspec.nontext.md: « Генерація нетекстових MIME-форматів
+  - intro.fdf.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
+title: Формат даних форм
+---
 # Формат даних форм
 
 -   [Введение](intro.fdf.md)

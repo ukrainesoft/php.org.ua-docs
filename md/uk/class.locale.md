@@ -1,16 +1,11 @@
-Клас Locale
-
--   [« NumberFormatter::setTextAttribute](numberformatter.settextattribute.html)
-    
--   [Locale::acceptFromHttp »](locale.acceptfromhttp.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Клас Locale
-    
-
+---
+navigation:
+  - numberformatter.settextattribute.html: '« NumberFormatter::setTextAttribute'
+  - locale.acceptfromhttp.html: 'Locale::acceptFromHttp »'
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Клас Locale
+---
 # Клас Locale
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

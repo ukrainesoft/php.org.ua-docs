@@ -1,16 +1,11 @@
-Читає дані великого об'єкту
-
--   [« pgлоreadall](function.pg-lo-read-all.html)
-    
--   [пглоseek »](function.pg-lo-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Читає дані великого об'єкту
-    
-
+---
+navigation:
+  - function.pg-lo-read-all.html: « pgлоreadall
+  - function.pg-lo-seek.html: пглоseek »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоread
+---
 # пглоread
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_lo_read(PgSql\Lob $lob, int $length = 8192): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

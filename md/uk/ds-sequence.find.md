@@ -1,16 +1,11 @@
-Пошук індексу за значенням
-
--   [« DsSequence::filter](ds-sequence.filter.html)
-    
--   [ДсSequence::first »](ds-sequence.first.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Пошук індексу за значенням
-    
-
+---
+navigation:
+  - ds-sequence.filter.html: '« DsSequence::filter'
+  - ds-sequence.first.html: 'ДсSequence::first »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::find'
+---
 # ДсSequence::find
 
 (PECL ds >= 1.0.0)

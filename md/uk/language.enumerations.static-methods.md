@@ -1,16 +1,11 @@
-Статичні методи перерахувань
-
--   [« Методи перерахувань](language.enumerations.methods.md)
-    
--   [Константи перерахувань »](language.enumerations.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Перечисления](language.enumerations.md)
-    
--   Статичні методи перерахувань
-    
-
+---
+navigation:
+  - language.enumerations.methods.md: « Методи перерахувань
+  - language.enumerations.constants.md: Константи перерахувань »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
+title: Статичні методи перерахувань
+---
 ## Статичні методи перерахувань
 
 Переліки можуть мати статичні методи. Використання статичних методів у перерахуванні насамперед призначено для альтернативних конструкторів. Наприклад:

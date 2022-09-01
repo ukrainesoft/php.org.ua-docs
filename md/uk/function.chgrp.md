@@ -1,16 +1,11 @@
-Змінює групу файлу
-
--   [« basename](function.basename.html)
-    
--   [chmod »](function.chmod.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Змінює групу файлу
-    
-
+---
+navigation:
+  - function.basename.html: « basename
+  - function.chmod.html: chmod »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: chgrp
+---
 # chgrp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

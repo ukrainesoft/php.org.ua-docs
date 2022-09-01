@@ -1,16 +1,11 @@
-Повертає повідомлення, що описує результат виконання останньої операції
-
--   [« Memcached::getResultCode](memcached.getresultcode.md)
-    
--   [Memcached::getServerByKey »](memcached.getserverbykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Повертає повідомлення, що описує результат виконання останньої операції
-    
-
+---
+navigation:
+  - memcached.getresultcode.md: '« Memcached::getResultCode'
+  - memcached.getserverbykey.md: 'Memcached::getServerByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getResultMessage'
+---
 # Memcached::getResultMessage
 
 (PECL memcached >= 1.0.0)

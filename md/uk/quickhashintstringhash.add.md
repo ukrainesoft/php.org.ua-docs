@@ -1,16 +1,11 @@
-Метод додає новий запис у хеш
-
--   [« QuickHashIntStringHash](class.quickhashintstringhash.md)
-    
--   [QuickHashIntStringHash::construct »](quickhashintstringhash.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntStringHash](class.quickhashintstringhash.md)
-    
--   Метод додає новий запис у хеш
-    
-
+---
+navigation:
+  - class.quickhashintstringhash.md: « QuickHashIntStringHash
+  - quickhashintstringhash.construct.md: 'QuickHashIntStringHash::construct »'
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
+title: 'QuickHashIntStringHash::add'
+---
 # QuickHashIntStringHash::add
 
 (PECL quickhash >= Unknown)

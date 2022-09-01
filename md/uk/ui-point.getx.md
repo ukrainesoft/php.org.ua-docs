@@ -1,16 +1,11 @@
-Отримує X
-
--   [« UIPoint::construct](ui-point.construct.html)
-    
--   [ОЙPoint::getY »](ui-point.gety.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙPoint](class.ui-point.html)
-    
--   Отримує X
-    
-
+---
+navigation:
+  - ui-point.construct.html: '« UIPoint::construct'
+  - ui-point.gety.html: 'ОЙPoint::getY »'
+  - index.html: PHP Manual
+  - class.ui-point.html: ОЙPoint
+title: 'ОЙPoint::getX'
+---
 # ОЙPoint::getX
 
 (UI 0.9.9)

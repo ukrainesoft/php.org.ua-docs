@@ -1,16 +1,11 @@
-Встановлює опції для сокету
-
--   [« socketsetnonblock](function.socket-set-nonblock.html)
-    
--   [socketsetopt »](function.socket-setopt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Встановлює опції для сокету
-    
-
+---
+navigation:
+  - function.socket-set-nonblock.html: « socketsetnonblock
+  - function.socket-setopt.html: socketsetopt »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketsetoption
+---
 # socketsetoption
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ socket_set_option(    Socket $socket,    int $level,    int $option,
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Асинхронне читання файлу
-
--   [« swooleasyncread](function.swoole-async-read.html)
-    
--   [swooleasyncset »](function.swoole-async-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Асинхронне читання файлу
-    
-
+---
+navigation:
+  - function.swoole-async-read.html: « swooleasyncread
+  - function.swoole-async-set.html: swooleasyncset »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleasyncreadfile
+---
 # swooleasyncreadfile
 
 (PECL swoole >= 1.9.0)

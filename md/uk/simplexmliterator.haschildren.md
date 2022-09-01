@@ -1,16 +1,11 @@
-Перевіряє, чи поточний елемент має вкладені елементи
-
--   [« SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md)
-    
--   [SimpleXMLIterator::key »](simplexmliterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLIterator](class.simplexmliterator.md)
-    
--   Перевіряє, чи поточний елемент має вкладені елементи
-    
-
+---
+navigation:
+  - simplexmliterator.getchildren.md: '« SimpleXMLIterator::getChildren'
+  - simplexmliterator.key.md: 'SimpleXMLIterator::key »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::hasChildren'
+---
 # SimpleXMLIterator::hasChildren
 
 (PHP 5, PHP 7, PHP 8)

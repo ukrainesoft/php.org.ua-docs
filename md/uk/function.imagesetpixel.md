@@ -1,16 +1,11 @@
-Малювання точки
-
--   [« imagesetinterpolation](function.imagesetinterpolation.html)
-    
--   [imagesetstyle »](function.imagesetstyle.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Малювання точки
-    
-
+---
+navigation:
+  - function.imagesetinterpolation.html: « imagesetinterpolation
+  - function.imagesetstyle.html: imagesetstyle »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagesetpixel
+---
 # imagesetpixel
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ y-координат.
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

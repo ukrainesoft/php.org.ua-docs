@@ -1,16 +1,11 @@
-Отримання розміру зображення
-
--   [« gdinfo](function.gd-info.html)
-    
--   [getimagesizefromstring »](function.getimagesizefromstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання розміру зображення
-    
-
+---
+navigation:
+  - function.gd-info.html: « gdinfo
+  - function.getimagesizefromstring.md: getimagesizefromstring »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: getimagesize
+---
 # getimagesize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -99,9 +94,9 @@ if ($size && $fp) {
 
 ### список змін
 
-| Версия | Описание               |
-|--------|------------------------|
-|        | Додано підтримку WebP. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку WebP. |
 
 ### Приклади
 

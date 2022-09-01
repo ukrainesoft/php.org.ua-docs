@@ -1,16 +1,11 @@
-YafRegistry реалізує шаблон проектування "Одиночка"
-
--   [« YafRegistry](class.yaf-registry.html)
-    
--   [YafRegistry::del »](yaf-registry.del.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRegistry](class.yaf-registry.html)
-    
--   YafRegistry реалізує шаблон проектування "Одиночка"
-    
-
+---
+navigation:
+  - class.yaf-registry.html: « YafRegistry
+  - yaf-registry.del.html: 'YafRegistry::del »'
+  - index.html: PHP Manual
+  - class.yaf-registry.html: YafRegistry
+title: 'YafRegistry::construct'
+---
 # YafRegistry::construct
 
 (Yaf >=1.0.0)

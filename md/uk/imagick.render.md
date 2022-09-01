@@ -1,16 +1,11 @@
-Відображає усі попередні команди малювання
-
--   [« Imagick::removeImageProfile](imagick.removeimageprofile.html)
-    
--   [Imagick::resampleImage »](imagick.resampleimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Відображає усі попередні команди малювання
-    
-
+---
+navigation:
+  - imagick.removeimageprofile.html: '« Imagick::removeImageProfile'
+  - imagick.resampleimage.html: 'Imagick::resampleImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::render'
+---
 # Imagick::render
 
 (PECL imagick 2, PECL imagick 3)

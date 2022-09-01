@@ -1,16 +1,11 @@
-Нові можливості
-
--   [« Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
-    
--   [Нові класи та інтерфейси »](migration74.new-classes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.md)
-    
--   Нові можливості
-    
-
+---
+navigation:
+  - migration74.md: « Миграция с PHP 7.3.x на PHP 7.4.x
+  - migration74.new-classes.html: Нові класи та інтерфейси »
+  - index.md: PHP Manual
+  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
+title: Нові можливості
+---
 ## Нові можливості
 
 ### Ядро PHP

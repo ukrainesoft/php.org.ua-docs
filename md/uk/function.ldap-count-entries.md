@@ -1,16 +1,11 @@
-Порахувати кількість записів у результатах пошуку
-
--   [« ldapcontrolpagedresult](function.ldap-control-paged-result.html)
-    
--   [ldapcountreferences »](function.ldap-count-references.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Порахувати кількість записів у результатах пошуку
-    
-
+---
+navigation:
+  - function.ldap-control-paged-result.html: « ldapcontrolpagedresult
+  - function.ldap-count-references.html: ldapcountreferences »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapcountentries
+---
 # ldapcountentries
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md)       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

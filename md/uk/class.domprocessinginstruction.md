@@ -1,16 +1,11 @@
-Клас DOMProcessingInstruction
-
--   [« DOMParentNode::prepend](domparentnode.prepend.html)
-    
--   [DOMProcessingInstruction::construct »](domprocessinginstruction.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Клас DOMProcessingInstruction
-    
-
+---
+navigation:
+  - domparentnode.prepend.html: '« DOMParentNode::prepend'
+  - domprocessinginstruction.construct.html: 'DOMProcessingInstruction::construct »'
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Клас DOMProcessingInstruction
+---
 # Клас DOMProcessingInstruction
 
 (PHP 5, PHP 7, PHP 8)

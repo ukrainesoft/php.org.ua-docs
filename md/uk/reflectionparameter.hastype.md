@@ -1,16 +1,11 @@
-Перевірити, чи вказано тип параметра
-
--   [« ReflectionParameter::getType](reflectionparameter.gettype.md)
-    
--   [ReflectionParameter::isArray »](reflectionparameter.isarray.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перевірити, чи вказано тип параметра
-    
-
+---
+navigation:
+  - reflectionparameter.gettype.md: '« ReflectionParameter::getType'
+  - reflectionparameter.isarray.md: 'ReflectionParameter::isArray »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::hasType'
+---
 # ReflectionParameter::hasType
 
 (PHP 7, PHP 8)

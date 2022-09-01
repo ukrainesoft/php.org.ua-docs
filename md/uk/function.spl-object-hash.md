@@ -1,16 +1,11 @@
-Повертає хеш-ідентифікатор для об'єкту
-
--   [« splclasses](function.spl-classes.html)
-    
--   [splobjectid »](function.spl-object-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SPL](ref.spl.md)
-    
--   Повертає хеш-ідентифікатор для об'єкту
-    
-
+---
+navigation:
+  - function.spl-classes.html: « splclasses
+  - function.spl-object-id.html: splobjectid »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: splobjecthash
+---
 # splobjecthash
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

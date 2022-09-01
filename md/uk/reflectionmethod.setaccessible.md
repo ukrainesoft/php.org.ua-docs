@@ -1,16 +1,11 @@
-Робить метод доступним
-
--   [« ReflectionMethod::isStatic](reflectionmethod.isstatic.md)
-    
--   [ReflectionMethod::toString »](reflectionmethod.tostring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Робить метод доступним
-    
-
+---
+navigation:
+  - reflectionmethod.isstatic.md: '« ReflectionMethod::isStatic'
+  - reflectionmethod.tostring.md: 'ReflectionMethod::toString »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::setAccessible'
+---
 # ReflectionMethod::setAccessible
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8)

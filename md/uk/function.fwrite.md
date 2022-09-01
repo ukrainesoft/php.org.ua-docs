@@ -1,16 +1,11 @@
-Бінарно-безпечний запис у файл
-
--   [« ftruncate](function.ftruncate.md)
-    
--   [glob »](function.glob.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Бінарно-безпечний запис у файл
-    
-
+---
+navigation:
+  - function.ftruncate.md: « ftruncate
+  - function.glob.md: glob »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fwrite
+---
 # fwrite
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ fwrite(resource $stream, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | Параметр `length` тепер припускає значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `length` тепер припускає значення **`null`** |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Закриває великий об'єкт
-
--   [« pglastoid](function.pg-last-oid.html)
-    
--   [пглоcreate »](function.pg-lo-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Закриває великий об'єкт
-    
-
+---
+navigation:
+  - function.pg-last-oid.html: « pglastoid
+  - function.pg-lo-create.html: пглоcreate »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоclose
+---
 # пглоclose
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

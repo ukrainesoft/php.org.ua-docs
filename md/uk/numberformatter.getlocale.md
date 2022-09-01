@@ -1,16 +1,11 @@
-Отримує локаль засобу форматування
-
--   [« NumberFormatter::getErrorMessage](numberformatter.geterrormessage.html)
-    
--   [NumberFormatter::getPattern »](numberformatter.getpattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [NumberFormatter](class.numberformatter.html)
-    
--   Отримує локаль засобу форматування
-    
-
+---
+navigation:
+  - numberformatter.geterrormessage.html: '« NumberFormatter::getErrorMessage'
+  - numberformatter.getpattern.html: 'NumberFormatter::getPattern »'
+  - index.html: PHP Manual
+  - class.numberformatter.html: NumberFormatter
+title: 'NumberFormatter::getLocale'
+---
 # NumberFormatter::getLocale
 
 # numfmtgetlocale

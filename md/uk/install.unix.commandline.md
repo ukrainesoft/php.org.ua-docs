@@ -1,16 +1,11 @@
-Установка з інтерфейсами CGI та командного рядка
-
--   [Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix](install.unix.litespeed.html)
-    
--   [OpenBSD, замечания по установке »](install.unix.openbsd.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення на Unix-системи](install.unix.html)
-    
--   Установка з інтерфейсами CGI та командного рядка
-    
-
+---
+navigation:
+  - install.unix.litespeed.html: Веб-сервер LiteSpeed/OpenLiteSpeed ​​на системах Unix
+  - install.unix.openbsd.html: 'OpenBSD, замечания по установке »'
+  - index.html: PHP Manual
+  - install.unix.html: Встановлення на Unix-системи
+title: Установка з інтерфейсами CGI та командного рядка
+---
 ## Установка з інтерфейсами CGI та командного рядка
 
 За замовчуванням, PHP збирається одночасно як CLI та CGI програма, яка може бути використана для обробки CGI-запитів. PHP як модуль сервера виграє у продуктивності, проте PHP CGI дозволяє запускати PHP від ​​користувача, відмінного від того, під яким виконується сервер.

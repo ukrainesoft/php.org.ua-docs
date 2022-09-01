@@ -1,16 +1,11 @@
-Додає лапки
-
--   [« Session::listClients](mysql-xdevapi-session.listclients.html)
-    
--   [Session::releaseSavepoint »](mysql-xdevapi-session.releasesavepoint.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Додає лапки
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.listclients.html: '« Session::listClients'
+  - mysql-xdevapi-session.releasesavepoint.html: 'Session::releaseSavepoint »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::quoteName'
+---
 # Session::quoteName
 
 (No version information available, might only be in Git)

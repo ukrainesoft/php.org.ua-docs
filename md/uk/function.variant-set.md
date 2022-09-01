@@ -1,16 +1,11 @@
-Присвоєння нового значення об'єкту варіанта
-
--   [« variantsettype](function.variant-set-type.html)
-    
--   [variantsub »](function.variant-sub.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Присвоєння нового значення об'єкту варіанта
-    
-
+---
+navigation:
+  - function.variant-set-type.html: « variantsettype
+  - function.variant-sub.html: variantsub »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantset
+---
 # variantset
 
 (PHP 5, PHP 7, PHP 8)

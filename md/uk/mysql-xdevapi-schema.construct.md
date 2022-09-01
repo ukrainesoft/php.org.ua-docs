@@ -1,16 +1,11 @@
-Конструктор
-
--   [« mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   [Schema::createCollection »](mysql-xdevapi-schema.createcollection.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-schema.html: « mysqlxdevapiSchema
+  - mysql-xdevapi-schema.createcollection.html: 'Schema::createCollection »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::construct'
+---
 # Schema::construct
 
 (No version information available, might only be in Git)

@@ -1,25 +1,20 @@
-Налаштування під час виконання
-
--   [« Установка](curl.installation.html)
-    
--   [Типи ресурсів »](curl.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](curl.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - curl.installation.html: « Установка
+  - curl.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - curl.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Налаштування конфігурації cURL**
 
-| Имя                                                    | По умолчанию | Место изменения | Список изменений |
-|--------------------------------------------------------|--------------|-----------------|------------------|
-| [curl.cainfo](curl.configuration.html#ini.curl.cainfo) | NULL         | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [curl.cainfo](curl.configuration.html#ini.curl.cainfo) | NULL | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
 

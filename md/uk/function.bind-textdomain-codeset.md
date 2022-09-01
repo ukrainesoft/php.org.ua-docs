@@ -1,16 +1,11 @@
-Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
-
--   [« Функции gettext](ref.gettext.html)
-    
--   [bindtextdomain »](function.bindtextdomain.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции gettext](ref.gettext.html)
-    
--   Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
-    
-
+---
+navigation:
+  - ref.gettext.html: « Функции gettext
+  - function.bindtextdomain.html: bindtextdomain »
+  - index.html: PHP Manual
+  - ref.gettext.html: Функции gettext
+title: bindtextdomaincodeset
+---
 # bindtextdomaincodeset
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ bind_textdomain_codeset(string $domain, ?string $codeset): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------|
-|        | `codeset` тепер допускає значення null. Раніше було неможливо отримати поточне встановлене кодування. |
+| Версия | Описание |
+| --- | --- |
+|  | `codeset` тепер допускає значення null. Раніше було неможливо отримати поточне встановлене кодування. |
 
 ### Примітки
 

@@ -1,16 +1,11 @@
-Створення об'єкту GearmanJob
-
--   [« GearmanJob::complete](gearmanjob.complete.md)
-    
--   [GearmanJob::data »](gearmanjob.data.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Створення об'єкту GearmanJob
-    
-
+---
+navigation:
+  - gearmanjob.complete.md: '« GearmanJob::complete'
+  - gearmanjob.data.md: 'GearmanJob::data »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::construct'
+---
 # GearmanJob::construct
 
 (PECL gearman >= 0.5.0)

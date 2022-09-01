@@ -1,16 +1,11 @@
-Отримати імена стовпців у результуючому наборі
-
--   [« cubridcolsize](function.cubrid-col-size.html)
-    
--   [cubridcolumntypes »](function.cubrid-column-types.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Отримати імена стовпців у результуючому наборі
-    
-
+---
+navigation:
+  - function.cubrid-col-size.html: « cubridcolsize
+  - function.cubrid-column-types.html: cubridcolumntypes »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridcolumnnames
+---
 # cubridcolumnnames
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Встановити набір перевірок
-
--   [« Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.html)
-    
--   [Transliterator »](class.transliterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [Spoofchecker](class.spoofchecker.html)
-    
--   Встановити набір перевірок
-    
-
+---
+navigation:
+  - spoofchecker.setallowedlocales.html: '« Spoofchecker::setAllowedLocales'
+  - class.transliterator.html: Transliterator »
+  - index.html: PHP Manual
+  - class.spoofchecker.html: Spoofchecker
+title: 'Spoofchecker::setChecks'
+---
 # Spoofchecker::setChecks
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)

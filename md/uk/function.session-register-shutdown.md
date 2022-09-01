@@ -1,16 +1,11 @@
-Функція завершення сесії
-
--   [« sessionregenerateід](function.session-regenerate-id.html)
-    
--   [sessionreset »](function.session-reset.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Функція завершення сесії
-    
-
+---
+navigation:
+  - function.session-regenerate-id.html: « sessionregenerateід
+  - function.session-reset.html: sessionreset »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionregistershutdown
+---
 # sessionregistershutdown
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

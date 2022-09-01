@@ -1,16 +1,11 @@
-Повертає індекс елемента у архіві
-
--   [« ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md)
-    
--   [ZipArchive::open »](ziparchive.open.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Повертає індекс елемента у архіві
-    
-
+---
+navigation:
+  - ziparchive.isencryptionmethoddupported.md: '« ZipArchive::isEncryptionMethodSupported'
+  - ziparchive.open.md: 'ZipArchive::open »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::locateName'
+---
 # ZipArchive::locateName
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.5.0)

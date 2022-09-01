@@ -1,16 +1,11 @@
-Повертає товщину шрифту
-
--   [« ImagickDraw::getFontStyle](imagickdraw.getfontstyle.md)
-    
--   [ImagickDraw::getGravity »](imagickdraw.getgravity.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає товщину шрифту
-    
-
+---
+navigation:
+  - imagickdraw.getfontstyle.md: '« ImagickDraw::getFontStyle'
+  - imagickdraw.getgravity.md: 'ImagickDraw::getGravity »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFontWeight'
+---
 # ImagickDraw::getFontWeight
 
 (PECL imagick 2, PECL imagick 3)

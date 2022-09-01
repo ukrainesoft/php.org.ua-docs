@@ -1,16 +1,11 @@
-Перевірка, чи закритий ітератор
-
--   [« Generator::throw](generator.throw.html)
-    
--   [Generator::wakeup »](generator.wakeup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Generator](class.generator.html)
-    
--   Перевірка, чи закритий ітератор
-    
-
+---
+navigation:
+  - generator.throw.html: '« Generator::throw'
+  - generator.wakeup.html: 'Generator::wakeup »'
+  - index.html: PHP Manual
+  - class.generator.html: Generator
+title: 'Generator::valid'
+---
 # Generator::valid
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

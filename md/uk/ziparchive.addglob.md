@@ -1,16 +1,11 @@
-Додати файли з директорії відповідно до шаблону
-
--   [« ZipArchive::addFromString](ziparchive.addfromstring.html)
-    
--   [ZipArchive::addPattern »](ziparchive.addpattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Додати файли з директорії відповідно до шаблону
-    
-
+---
+navigation:
+  - ziparchive.addfromstring.html: '« ZipArchive::addFromString'
+  - ziparchive.addpattern.html: 'ZipArchive::addPattern »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::addGlob'
+---
 # ZipArchive::addGlob
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL zip >= 1.9.0)
@@ -80,10 +75,10 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 ### список змін
 
-| Версия | Описание                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------|
-|        | Доданий параметр `"flags"` в `options`                                                        |
-|        | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"` і `"enc_password"` в `options` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `"flags"` в `options` |
+|  | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"` і `"enc_password"` в `options` |
 
 ### Приклади
 

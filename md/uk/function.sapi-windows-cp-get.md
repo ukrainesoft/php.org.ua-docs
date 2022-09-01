@@ -1,16 +1,11 @@
-Отримати поточну кодову сторінку
-
--   [« sapiwindowsспconv](function.sapi-windows-cp-conv.html)
-    
--   [sapiwindowsспісutf8 »](function.sapi-windows-cp-is-utf8.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Отримати поточну кодову сторінку
-    
-
+---
+navigation:
+  - function.sapi-windows-cp-conv.html: « sapiwindowsспconv
+  - function.sapi-windows-cp-is-utf8.html: sapiwindowsспісutf8 »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: sapiwindowsспget
+---
 # sapiwindowsспget
 
 (PHP 7> = 7.1.0, PHP 8)

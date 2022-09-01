@@ -1,16 +1,11 @@
-Витягує тег із позначеного атрибуту
-
--   [« radiusgettaggedattrdata](function.radius-get-tagged-attr-data.html)
-    
--   [radiusgetvendorattr »](function.radius-get-vendor-attr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Витягує тег із позначеного атрибуту
-    
-
+---
+navigation:
+  - function.radius-get-tagged-attr-data.html: « radiusgettaggedattrdata
+  - function.radius-get-vendor-attr.html: radiusgetvendorattr »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusgettaggedattrtag
+---
 # radiusgettaggedattrtag
 
 (PECL radius >= 1.3.0)

@@ -1,16 +1,11 @@
-Свічкова модель "На лінії шиї"
-
--   [« tradercdlidentical3crows](function.trader-cdlidentical3crows.html)
-    
--   [tradercdlinvertedhammer »](function.trader-cdlinvertedhammer.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "На лінії шиї"
-    
-
+---
+navigation:
+  - function.trader-cdlidentical3crows.html: « tradercdlidentical3crows
+  - function.trader-cdlinvertedhammer.html: tradercdlinvertedhammer »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlinneck
+---
 # tradercdlinneck
 
 (PECL trader >= 0.2.0)

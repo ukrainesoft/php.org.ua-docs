@@ -1,16 +1,11 @@
-Видаляє всі параметри
-
--   [« YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   [YafRequestAbstract::getActionName »](yaf-request-abstract.getactionname.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Видаляє всі параметри
-    
-
+---
+navigation:
+  - class.yaf-request-abstract.html: « YafRequestAbstract
+  - yaf-request-abstract.getactionname.html: 'YafRequestAbstract::getActionName »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::clearParams'
+---
 # YafRequestAbstract::clearParams
 
 (No version information available, might only be in Git)

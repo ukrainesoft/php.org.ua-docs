@@ -1,16 +1,11 @@
-Отримати текст
-
--   [« UIControlsButton::construct](ui-controls-button.construct.html)
-    
--   [ОЙControlsButton::onClick »](ui-controls-button.onclick.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsButton](class.ui-controls-button.html)
-    
--   Отримати текст
-    
-
+---
+navigation:
+  - ui-controls-button.construct.html: '« UIControlsButton::construct'
+  - ui-controls-button.onclick.html: 'ОЙControlsButton::onClick »'
+  - index.md: PHP Manual
+  - class.ui-controls-button.html: ОЙControlsButton
+title: 'ОЙControlsButton::getText'
+---
 # ОЙControlsButton::getText
 
 (UI 0.9.9)

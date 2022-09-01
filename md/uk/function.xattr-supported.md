@@ -1,16 +1,11 @@
-Перевірка підтримки розширених атрибутів
-
--   [« xattrset](function.xattr-set.html)
-    
--   [xdiff »](book.xdiff.md)
-    
--   [PHP Manual](index.md)
-    
--   [xattr Функции](ref.xattr.md)
-    
--   Перевірка підтримки розширених атрибутів
-    
-
+---
+navigation:
+  - function.xattr-set.html: « xattrset
+  - book.xdiff.md: xdiff »
+  - index.md: PHP Manual
+  - ref.xattr.md: xattr Функции
+title: xattrsupported
+---
 # xattrsupported
 
 (PECL xattr >= 1.0.0)

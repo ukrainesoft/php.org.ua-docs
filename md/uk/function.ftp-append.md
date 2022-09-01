@@ -1,16 +1,11 @@
-Додає вміст файлу до кінця іншого файлу на FTP-сервері
-
--   [« ftpalloc](function.ftp-alloc.html)
-    
--   [ftpcdup »](function.ftp-cdup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Додає вміст файлу до кінця іншого файлу на FTP-сервері
-    
-
+---
+navigation:
+  - function.ftp-alloc.html: « ftpalloc
+  - function.ftp-cdup.html: ftpcdup »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftpappend
+---
 # ftpappend
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -45,6 +40,6 @@ ftp_append(    FTP\Connection $ftp,    string $remote_filename,    s
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

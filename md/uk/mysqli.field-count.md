@@ -1,16 +1,11 @@
-Повертає кількість стовпців, зачеплених останнім запитом
-
--   [« mysqli::$error](mysqli.error.html)
-    
--   [mysqli::getcharset »](mysqli.get-charset.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає кількість стовпців, зачеплених останнім запитом
-    
-
+---
+navigation:
+  - mysqli.error.html: '« mysqli::$error'
+  - mysqli.get-charset.html: 'mysqli::getcharset »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::$fieldcount'
+---
 # mysqli::$fieldcount
 
 # mysqlifieldcount

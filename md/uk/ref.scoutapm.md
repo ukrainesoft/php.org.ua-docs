@@ -1,16 +1,11 @@
-Функції Scoutapm
-
--   [« Обумовлені константи](scoutapm.constants.md)
-    
--   [scoutapmgetcalls »](function.scoutapm-get-calls.html)
-    
--   [PHP Manual](index.md)
-    
--   [ScoutAPM](book.scoutapm.md)
-    
--   Функції Scoutapm
-    
-
+---
+navigation:
+  - scoutapm.constants.md: « Обумовлені константи
+  - function.scoutapm-get-calls.html: scoutapmgetcalls »
+  - index.md: PHP Manual
+  - book.scoutapm.md: ScoutAPM
+title: Функції Scoutapm
+---
 # Функції Scoutapm
 
 ## Зміст

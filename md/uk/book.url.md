@@ -1,16 +1,11 @@
-URL
-
--   [« tokenname](function.token-name.html)
-    
--   [Введение »](intro.url.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   URL
-    
-
+---
+navigation:
+  - function.token-name.html: « tokenname
+  - intro.url.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: URL
+---
 # URL
 
 -   [Введение](intro.url.md)

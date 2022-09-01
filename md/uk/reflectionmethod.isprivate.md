@@ -1,16 +1,11 @@
-Перевіряє, чи є метод закритим
-
--   [« ReflectionMethod::isFinal](reflectionmethod.isfinal.html)
-    
--   [ReflectionMethod::isProtected »](reflectionmethod.isprotected.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionMethod](class.reflectionmethod.html)
-    
--   Перевіряє, чи є метод закритим
-    
-
+---
+navigation:
+  - reflectionmethod.isfinal.html: '« ReflectionMethod::isFinal'
+  - reflectionmethod.isprotected.html: 'ReflectionMethod::isProtected »'
+  - index.html: PHP Manual
+  - class.reflectionmethod.html: ReflectionMethod
+title: 'ReflectionMethod::isPrivate'
+---
 # ReflectionMethod::isPrivate
 
 (PHP 5, PHP 7, PHP 8)

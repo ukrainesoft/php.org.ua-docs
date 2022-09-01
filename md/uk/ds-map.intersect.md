@@ -1,16 +1,11 @@
-Створює нову колекцію пар, створену перетином з іншою колекцією пар
-
--   [« DsMap::hasValue](ds-map.hasvalue.html)
-    
--   [ДсMap::isEmpty »](ds-map.isempty.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Створює нову колекцію пар, створену перетином з іншою колекцією пар
-    
-
+---
+navigation:
+  - ds-map.hasvalue.html: '« DsMap::hasValue'
+  - ds-map.isempty.html: 'ДсMap::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::intersect'
+---
 # ДсMap::intersect
 
 (PECL ds >= 1.0.0)

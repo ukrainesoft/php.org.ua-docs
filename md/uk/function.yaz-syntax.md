@@ -1,16 +1,11 @@
-Задає синтаксис, що віддається перевагу, для видобутого запису
-
--   [« yazsort](function.yaz-sort.html)
-    
--   [yazwait »](function.yaz-wait.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Задає синтаксис, що віддається перевагу, для видобутого запису
-    
-
+---
+navigation:
+  - function.yaz-sort.html: « yazsort
+  - function.yaz-wait.html: yazwait »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazsyntax
+---
 # yazsyntax
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

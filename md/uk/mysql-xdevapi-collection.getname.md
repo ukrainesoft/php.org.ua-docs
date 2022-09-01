@@ -1,16 +1,11 @@
-Отримує назву колекції
-
--   [« Collection::find](mysql-xdevapi-collection.find.html)
-    
--   [Collection::getOne »](mysql-xdevapi-collection.getone.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Отримує назву колекції
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.find.html: '« Collection::find'
+  - mysql-xdevapi-collection.getone.html: 'Collection::getOne »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::getName'
+---
 # Collection::getName
 
 (No version information available, might only be in Git)

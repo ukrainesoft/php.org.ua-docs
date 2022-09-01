@@ -1,16 +1,11 @@
-Повертає використовуваний метод події
-
--   [« EventBase::getFeatures](eventbase.getfeatures.md)
-    
--   [EventBase::getTimeOfDayCached »](eventbase.gettimeofdaycached.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Повертає використовуваний метод події
-    
-
+---
+navigation:
+  - eventbase.getfeatures.md: '« EventBase::getFeatures'
+  - eventbase.gettimeofdaycached.md: 'EventBase::getTimeOfDayCached »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::getMethod'
+---
 # EventBase::getMethod
 
 (PECL event >= 1.2.6-beta)

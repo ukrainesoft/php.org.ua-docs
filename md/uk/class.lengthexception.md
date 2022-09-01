@@ -1,16 +1,11 @@
-Клас LengthException
-
--   [« InvalidArgumentException](class.invalidargumentexception.md)
-    
--   [LogicException »](class.logicexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [Исключения](spl.exceptions.md)
-    
--   Клас LengthException
-    
-
+---
+navigation:
+  - class.invalidargumentexception.md: « InvalidArgumentException
+  - class.logicexception.md: LogicException »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
+title: Клас LengthException
+---
 # Клас LengthException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

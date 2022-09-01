@@ -1,16 +1,11 @@
-Надсилання даних завдання (застарілий метод)
-
--   [« GearmanTask::returnCode](gearmantask.returncode.md)
-    
--   [GearmanTask::sendWorkload »](gearmantask.sendworkload.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Надсилання даних завдання (застарілий метод)
-    
-
+---
+navigation:
+  - gearmantask.returncode.md: '« GearmanTask::returnCode'
+  - gearmantask.sendworkload.md: 'GearmanTask::sendWorkload »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::sendData'
+---
 # GearmanTask::sendData
 
 (PECL gearman <= 0.5.0)

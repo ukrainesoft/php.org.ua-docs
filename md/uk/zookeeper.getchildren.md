@@ -1,16 +1,11 @@
-Виводить список нащадків вузла синхронно
-
--   [« Zookeeper::getAcl](zookeeper.getacl.html)
-    
--   [Zookeeper::getClientId »](zookeeper.getclientid.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Виводить список нащадків вузла синхронно
-    
-
+---
+navigation:
+  - zookeeper.getacl.html: '« Zookeeper::getAcl'
+  - zookeeper.getclientid.html: 'Zookeeper::getClientId »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::getChildren'
+---
 # Zookeeper::getChildren
 
 (PECL zookeeper >= 0.1.0)

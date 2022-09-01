@@ -1,16 +1,11 @@
-Налаштовує спостерігача
-
--   [« EvStat::prev](evstat.prev.md)
-    
--   [EvStat::stat »](evstat.stat.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvStat](class.evstat.md)
-    
--   Налаштовує спостерігача
-    
-
+---
+navigation:
+  - evstat.prev.md: '« EvStat::prev'
+  - evstat.stat.md: 'EvStat::stat »'
+  - index.md: PHP Manual
+  - class.evstat.md: EvStat
+title: 'EvStat::set'
+---
 # EvStat::set
 
 (PECL ev >= 0.2.0)

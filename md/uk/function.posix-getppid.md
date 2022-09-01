@@ -1,16 +1,11 @@
-Повертає ідентифікатор батьківського процесу
-
--   [« posixgetpid](function.posix-getpid.html)
-    
--   [posixgetpwnam »](function.posix-getpwnam.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає ідентифікатор батьківського процесу
-    
-
+---
+navigation:
+  - function.posix-getpid.html: « posixgetpid
+  - function.posix-getpwnam.html: posixgetpwnam »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixgetppid
+---
 # posixgetppid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

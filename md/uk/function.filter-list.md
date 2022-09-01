@@ -1,16 +1,11 @@
-Повертає список усіх підтримуваних фільтрів
-
--   [« filterinput](function.filter-input.html)
-    
--   [filtervararray »](function.filter-var-array.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції фільтрації даних](ref.filter.html)
-    
--   Повертає список усіх підтримуваних фільтрів
-    
-
+---
+navigation:
+  - function.filter-input.html: « filterinput
+  - function.filter-var-array.html: filtervararray »
+  - index.html: PHP Manual
+  - ref.filter.html: Функції фільтрації даних
+title: filterlist
+---
 # filterlist
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

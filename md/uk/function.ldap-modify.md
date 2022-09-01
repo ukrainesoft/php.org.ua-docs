@@ -1,16 +1,11 @@
-Псевдонім ldapmodreplace
-
--   [« ldapmodifybatch](function.ldap-modify-batch.html)
-    
--   [ldapnextattribute »](function.ldap-next-attribute.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Псевдонім ldapmodreplace
-    
-
+---
+navigation:
+  - function.ldap-modify-batch.html: « ldapmodifybatch
+  - function.ldap-next-attribute.html: ldapnextattribute »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapmodify
+---
 # ldapmodify
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

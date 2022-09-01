@@ -1,16 +1,11 @@
-Функції Oracle (PDOOCI)
-
--   [« PDOSQLSRV DSN](ref.pdo-sqlsrv.connection.html)
-    
--   [PDOOCI DSN »](ref.pdo-oci.connection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Драйвери PDO](pdo.drivers.md)
-    
--   Функції Oracle (PDOOCI)
-    
-
+---
+navigation:
+  - ref.pdo-sqlsrv.connection.html: « PDOSQLSRV DSN
+  - ref.pdo-oci.connection.html: PDOOCI DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
+title: Функції Oracle (PDOOCI)
+---
 # Функції Oracle (PDOOCI)
 
 ## Встановлення

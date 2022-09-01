@@ -1,16 +1,11 @@
-Завантажує код Lua у середу Lua
-
--   [« LuaSandbox::loadBinary](luasandbox.loadbinary.md)
-    
--   [LuaSandbox::pauseUsageTimer »](luasandbox.pauseusagetimer.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Завантажує код Lua у середу Lua
-    
-
+---
+navigation:
+  - luasandbox.loadbinary.md: '« LuaSandbox::loadBinary'
+  - luasandbox.pauseusagetimer.md: 'LuaSandbox::pauseUsageTimer »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::loadString'
+---
 # LuaSandbox::loadString
 
 (PECL luasandbox >= 1.0.0)

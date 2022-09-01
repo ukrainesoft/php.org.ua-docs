@@ -1,16 +1,11 @@
-Клас SwooleException
-
--   [« SwooleEvent::write](swoole-event.write.html)
-    
--   [SwooleHttpClient »](class.swoole-http-client.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleException
-    
-
+---
+navigation:
+  - swoole-event.write.html: '« SwooleEvent::write'
+  - class.swoole-http-client.html: SwooleHttpClient »
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleException
+---
 # Клас SwooleException
 
 (PECL swoole >= 1.9.0)

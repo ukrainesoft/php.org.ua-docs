@@ -1,16 +1,11 @@
-xdiff
-
--   [« xattrsupported](function.xattr-supported.html)
-    
--   [Введение »](intro.xdiff.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
-    
--   xdiff
-    
-
+---
+navigation:
+  - function.xattr-supported.html: « xattrsupported
+  - intro.xdiff.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.file.md: Модулі для роботи з файловою системою
+title: xdiff
+---
 # xdiff
 
 -   [Введение](intro.xdiff.md)

@@ -1,16 +1,11 @@
-Визначає, чи можлива навігація за вмістом поточного елемента
-
--   [« RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md)
-    
--   [RecursiveTreeIterator »](class.recursivetreeiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveRegexIterator](class.recursiveregexiterator.md)
-    
--   Визначає, чи можлива навігація за вмістом поточного елемента
-    
-
+---
+navigation:
+  - recursiveregexiterator.getchildren.md: '« RecursiveRegexIterator::getChildren'
+  - class.recursivetreeiterator.md: RecursiveTreeIterator »
+  - index.md: PHP Manual
+  - class.recursiveregexiterator.md: RecursiveRegexIterator
+title: 'RecursiveRegexIterator::hasChildren'
+---
 # RecursiveRegexIterator::hasChildren
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

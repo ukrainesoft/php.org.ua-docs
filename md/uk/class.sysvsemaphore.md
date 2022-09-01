@@ -1,16 +1,11 @@
-Клас SysvSemaphore
-
--   [« SysvMessageQueue](class.sysvmessagequeue.html)
-    
--   [SysvSharedMemory »](class.sysvsharedmemory.html)
-    
--   [PHP Manual](index.html)
-    
--   [Семафори](book.sem.html)
-    
--   Клас SysvSemaphore
-    
-
+---
+navigation:
+  - class.sysvmessagequeue.html: « SysvMessageQueue
+  - class.sysvsharedmemory.html: SysvSharedMemory »
+  - index.html: PHP Manual
+  - book.sem.html: Семафори
+title: Клас SysvSemaphore
+---
 # Клас SysvSemaphore
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Встановлює коефіцієнт, який фрагментатор регулярного виразу може відхилитися від ідеального розміру фрагмента
-
--   [« SolrQuery::setHighlightRegexPattern](solrquery.sethighlightregexpattern.html)
-    
--   [SolrQuery::setHighlightRequireFieldMatch »](solrquery.sethighlightrequirefieldmatch.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює коефіцієнт, який фрагментатор регулярного виразу може відхилитися від ідеального розміру фрагмента
-    
-
+---
+navigation:
+  - solrquery.sethighlightregexpattern.html: '« SolrQuery::setHighlightRegexPattern'
+  - solrquery.sethighlightrequirefieldmatch.html: 'SolrQuery::setHighlightRequireFieldMatch »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setHighlightRegexSlop'
+---
 # SolrQuery::setHighlightRegexSlop
 
 (PECL solr> = 0.9.2)

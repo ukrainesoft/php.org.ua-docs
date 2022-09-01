@@ -1,16 +1,11 @@
-Отримання doc-коментаря для якості
-
--   [« ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.md)
-    
--   [ReflectionProperty::getModifiers »](reflectionproperty.getmodifiers.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Отримання doc-коментаря для якості
-    
-
+---
+navigation:
+  - reflectionproperty.getdefaultvalue.md: '« ReflectionProperty::getDefaultValue'
+  - reflectionproperty.getmodifiers.md: 'ReflectionProperty::getModifiers »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getDocComment'
+---
 # ReflectionProperty::getDocComment
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

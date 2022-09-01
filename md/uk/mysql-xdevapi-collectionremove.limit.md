@@ -1,16 +1,11 @@
-Обмежує кількість документів для видалення
-
--   [« CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.html)
-    
--   [CollectionRemove::sort »](mysql-xdevapi-collectionremove.sort.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
-    
--   Обмежує кількість документів для видалення
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionremove.execute.html: '« CollectionRemove::execute'
+  - mysql-xdevapi-collectionremove.sort.html: 'CollectionRemove::sort »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove
+title: 'CollectionRemove::limit'
+---
 # CollectionRemove::limit
 
 (No version information available, might only be in Git)

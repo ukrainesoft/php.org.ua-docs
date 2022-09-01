@@ -1,16 +1,11 @@
-Отримує ім'я хоста
-
--   [« gethostbynamel](function.gethostbynamel.md)
-    
--   [getmxrr »](function.getmxrr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Отримує ім'я хоста
-    
-
+---
+navigation:
+  - function.gethostbynamel.md: « gethostbynamel
+  - function.getmxrr.md: getmxrr »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: gethostname
+---
 # gethostname
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

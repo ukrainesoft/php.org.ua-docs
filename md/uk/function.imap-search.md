@@ -1,16 +1,11 @@
-Отримати повідомлення, які відповідають заданим критеріям
-
--   [« imapscanmailbox](function.imap-scanmailbox.html)
-    
--   [imapsetquota »](function.imap-set-quota.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати повідомлення, які відповідають заданим критеріям
-    
-
+---
+navigation:
+  - function.imap-scanmailbox.html: « imapscanmailbox
+  - function.imap-set-quota.html: imapsetquota »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapsearch
+---
 # imapsearch
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -78,9 +73,9 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

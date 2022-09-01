@@ -1,16 +1,11 @@
-Варіант 2: використання cgi.forceredirect
-
--   [Варіант 1: обслуговуються лише загальнодоступні файли](security.cgi-bin.default.html)
-    
--   [Вариант 3: использование опций docroot или userdir »](security.cgi-bin.doc-root.html)
-    
--   [PHP Manual](index.md)
-    
--   [Если PHP установлен как CGI](security.cgi-bin.html)
-    
--   Варіант 2: використання cgi.forceredirect
-    
-
+---
+navigation:
+  - security.cgi-bin.default.html: 'Варіант 1: обслуговуються лише загальнодоступні файли'
+  - security.cgi-bin.doc-root.html: 'Вариант 3: использование опций docroot или userdir »'
+  - index.md: PHP Manual
+  - security.cgi-bin.html: Если PHP установлен как CGI
+title: 'Варіант 2: використання `cgi.force_redirect`'
+---
 ## Варіант 2: використання `cgi.force_redirect`
 
 Конфігураційна директива [cgi.forceredirect](ini.core.html#ini.cgi.force-redirect) запобігає спробам безпосереднього виклику PHP за адресою виду [http://my.host/cgi-bin/php/secretdir/script.php](http://my.host/cgi-bin/php/secretdir/script.php). Замість цього PHP оброблятиме запит лише в тому випадку, якщо він був перенаправлений веб-сервером.

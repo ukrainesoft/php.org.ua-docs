@@ -1,16 +1,11 @@
-Встановити функцію зворотного виклику, коли завдання ставиться у чергу
-
--   [« GearmanClient::setContext](gearmanclient.setcontext.md)
-    
--   [GearmanClient::setData »](gearmanclient.setdata.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Встановити функцію зворотного виклику, коли завдання ставиться у чергу
-    
-
+---
+navigation:
+  - gearmanclient.setcontext.md: '« GearmanClient::setContext'
+  - gearmanclient.setdata.md: 'GearmanClient::setData »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setCreatedCallback'
+---
 # GearmanClient::setCreatedCallback
 
 (PECL gearman >= 0.5.0)

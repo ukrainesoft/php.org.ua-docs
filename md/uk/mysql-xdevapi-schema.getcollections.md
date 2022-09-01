@@ -1,16 +1,11 @@
-Отримати всі колекції схеми
-
--   [« Schema::getCollectionAsTable](mysql-xdevapi-schema.getcollectionastable.html)
-    
--   [Schema::getName »](mysql-xdevapi-schema.getname.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Отримати всі колекції схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.getcollectionastable.html: '« Schema::getCollectionAsTable'
+  - mysql-xdevapi-schema.getname.html: 'Schema::getName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::getCollections'
+---
 # Schema::getCollections
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Пошук мовних позначок найбільш відповідних заданої локалі
-
--   [« Locale::getScript](locale.getscript.md)
-    
--   [Locale::parseLocale »](locale.parselocale.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Пошук мовних позначок найбільш відповідних заданої локалі
-    
-
+---
+navigation:
+  - locale.getscript.md: '« Locale::getScript'
+  - locale.parselocale.md: 'Locale::parseLocale »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::lookup'
+---
 # Locale::lookup
 
 # localelookup
@@ -61,9 +56,9 @@ locale_lookup(    array $languageTag,    string $locale,    bool $ca
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `defaultLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `defaultLocale` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Клас PgSqlConnection
-
--   [« pgversion](function.pg-version.html)
-    
--   [PgSqlResult »](class.pgsql-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [PostgreSQL](book.pgsql.md)
-    
--   Клас PgSqlConnection
-    
-
+---
+navigation:
+  - function.pg-version.html: « pgversion
+  - class.pgsql-result.html: PgSqlResult »
+  - index.md: PHP Manual
+  - book.pgsql.md: PostgreSQL
+title: Клас PgSqlConnection
+---
 # Клас PgSqlConnection
 
 (PHP 8> = 8.1.0)

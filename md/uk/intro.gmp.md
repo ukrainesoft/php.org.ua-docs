@@ -1,16 +1,11 @@
-Вступ
-
--   [« GMP](book.gmp.md)
-    
--   [Встановлення та налаштування »](gmp.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [GMP](book.gmp.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.gmp.md: « GMP
+  - gmp.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.gmp.md: GMP
+title: Вступ
+---
 # Вступ
 
 Ці функції дозволяють працювати з цілими числами довільної довжини, використовуючи бібліотеку GNU MP.

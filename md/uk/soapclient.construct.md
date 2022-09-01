@@ -1,16 +1,11 @@
-Конструктор класу SoapClient
-
--   [« SoapClient::call](soapclient.call.md)
-    
--   [SoapClient::doRequest »](soapclient.dorequest.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapClient](class.soapclient.md)
-    
--   Конструктор класу SoapClient
-    
-
+---
+navigation:
+  - soapclient.call.md: '« SoapClient::call'
+  - soapclient.dorequest.md: 'SoapClient::doRequest »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::construct'
+---
 # SoapClient::construct
 
 (PHP 5, PHP 7, PHP 8)

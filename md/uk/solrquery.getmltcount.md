@@ -1,16 +1,11 @@
-Повертає кількість схожих документів, що повертаються для кожного результату
-
--   [« SolrQuery::getMltBoost](solrquery.getmltboost.md)
-    
--   [SolrQuery::getMltFields »](solrquery.getmltfields.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає кількість схожих документів, що повертаються для кожного результату
-    
-
+---
+navigation:
+  - solrquery.getmltboost.md: '« SolrQuery::getMltBoost'
+  - solrquery.getmltfields.md: 'SolrQuery::getMltFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltCount'
+---
 # SolrQuery::getMltCount
 
 (PECL solr> = 0.9.2)

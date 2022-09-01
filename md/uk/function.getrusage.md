@@ -1,16 +1,11 @@
-Отримує інформацію про використання поточного ресурсу
-
--   [« getopt](function.getopt.md)
-    
--   [inialter »](function.ini-alter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримує інформацію про використання поточного ресурсу
-    
-
+---
+navigation:
+  - function.getopt.md: « getopt
+  - function.ini-alter.html: inialter »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getrusage
+---
 # getrusage
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ getrusage(int $mode = 0): array|false
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | Додано підтримку цієї функції у Windows. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку цієї функції у Windows. |
 
 ### Приклади
 

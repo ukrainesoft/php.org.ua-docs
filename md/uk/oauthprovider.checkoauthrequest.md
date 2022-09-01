@@ -1,16 +1,11 @@
-Перевірка запиту oauth
-
--   [« OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md)
-    
--   [OAuthProvider::construct »](oauthprovider.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Перевірка запиту oauth
-    
-
+---
+navigation:
+  - oauthprovider.calltokenhandler.md: '« OAuthProvider::calltokenHandler'
+  - oauthprovider.construct.md: 'OAuthProvider::construct »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::checkOAuthRequest'
+---
 # OAuthProvider::checkOAuthRequest
 
 (PECL OAuth >= 1.0.0)

@@ -1,16 +1,11 @@
-Запускає системний виклик select() для заданих масивів сокетів із зазначеним часом очікування
-
--   [« socketrecvmsg](function.socket-recvmsg.html)
-    
--   [socketsend »](function.socket-send.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Запускає системний виклик select() для заданих масивів сокетів із зазначеним часом очікування
-    
-
+---
+navigation:
+  - function.socket-recvmsg.html: « socketrecvmsg
+  - function.socket-send.html: socketsend »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketselect
+---
 # socketselect
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Переміщення до наступної позиції
-
--   [« LimitIterator::key](limititerator.key.md)
-    
--   [LimitIterator::rewind »](limititerator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [LimitIterator](class.limititerator.md)
-    
--   Переміщення до наступної позиції
-    
-
+---
+navigation:
+  - limititerator.key.md: '« LimitIterator::key'
+  - limititerator.rewind.md: 'LimitIterator::rewind »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
+title: 'LimitIterator::next'
+---
 # LimitIterator::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

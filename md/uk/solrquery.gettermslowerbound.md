@@ -1,16 +1,11 @@
-Повертає вираз для початку
-
--   [« SolrQuery::getTermsLimit](solrquery.gettermslimit.md)
-    
--   [SolrQuery::getTermsMaxCount »](solrquery.gettermsmaxcount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає вираз для початку
-    
-
+---
+navigation:
+  - solrquery.gettermslimit.md: '« SolrQuery::getTermsLimit'
+  - solrquery.gettermsmaxcount.md: 'SolrQuery::getTermsMaxCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTermsLowerBound'
+---
 # SolrQuery::getTermsLowerBound
 
 (PECL solr> = 0.9.2)

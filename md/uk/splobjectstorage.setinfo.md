@@ -1,16 +1,11 @@
-Асоціює дані з поточним об'єктом контейнера
-
--   [« SplObjectStorage::serialize](splobjectstorage.serialize.md)
-    
--   [SplObjectStorage::unserialize »](splobjectstorage.unserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Асоціює дані з поточним об'єктом контейнера
-    
-
+---
+navigation:
+  - splobjectstorage.serialize.md: '« SplObjectStorage::serialize'
+  - splobjectstorage.unserialize.md: 'SplObjectStorage::unserialize »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::setInfo'
+---
 # SplObjectStorage::setInfo
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

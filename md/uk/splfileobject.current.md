@@ -1,16 +1,11 @@
-Отримати поточний рядок файлу
-
--   [« SplFileObject::construct](splfileobject.construct.md)
-    
--   [SplFileObject::eof »](splfileobject.eof.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Отримати поточний рядок файлу
-    
-
+---
+navigation:
+  - splfileobject.construct.md: '« SplFileObject::construct'
+  - splfileobject.eof.md: 'SplFileObject::eof »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::current'
+---
 # SplFileObject::current
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

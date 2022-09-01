@@ -1,16 +1,11 @@
-Запускає сервер Swoole
-
--   [« SwooleServer::shutdown](swoole-server.shutdown.html)
-    
--   [SwooleServer::stats »](swoole-server.stats.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Запускає сервер Swoole
-    
-
+---
+navigation:
+  - swoole-server.shutdown.html: '« SwooleServer::shutdown'
+  - swoole-server.stats.html: 'SwooleServer::stats »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::start'
+---
 # SwooleServer::start
 
 (PECL swoole >= 1.9.0)

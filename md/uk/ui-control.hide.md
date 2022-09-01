@@ -1,16 +1,11 @@
-Приховати елемент керування
-
--   [« UIControl::getTopLevel](ui-control.gettoplevel.html)
-    
--   [ОЙControl::isEnabled »](ui-control.isenabled.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControl](class.ui-control.html)
-    
--   Приховати елемент керування
-    
-
+---
+navigation:
+  - ui-control.gettoplevel.html: '« UIControl::getTopLevel'
+  - ui-control.isenabled.html: 'ОЙControl::isEnabled »'
+  - index.md: PHP Manual
+  - class.ui-control.html: ОЙControl
+title: 'ОЙControl::hide'
+---
 # ОЙControl::hide
 
 (UI 0.9.9)

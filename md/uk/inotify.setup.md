@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.inotify.html)
-    
--   [Вимоги »](inotify.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Inotify](book.inotify.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.inotify.html: « Введение
+  - inotify.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.inotify.html: Inotify
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

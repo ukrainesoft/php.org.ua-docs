@@ -1,16 +1,11 @@
-Перевіряє, чи є властивість readonly-властивістю
-
--   [« ReflectionProperty::isPublic](reflectionproperty.ispublic.html)
-    
--   [ReflectionProperty::isStatic »](reflectionproperty.isstatic.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Перевіряє, чи є властивість readonly-властивістю
-    
-
+---
+navigation:
+  - reflectionproperty.ispublic.html: '« ReflectionProperty::isPublic'
+  - reflectionproperty.isstatic.html: 'ReflectionProperty::isStatic »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::isReadOnly'
+---
 # ReflectionProperty::isReadOnly
 
 (PHP 8> = 8.1.0)

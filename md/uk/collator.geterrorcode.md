@@ -1,16 +1,11 @@
-Отримує останній код помилки Collator
-
--   [« Collator::getAttribute](collator.getattribute.html)
-    
--   [Collator::getErrorMessage »](collator.geterrormessage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Collator](class.collator.html)
-    
--   Отримує останній код помилки Collator
-    
-
+---
+navigation:
+  - collator.getattribute.html: '« Collator::getAttribute'
+  - collator.geterrormessage.html: 'Collator::getErrorMessage »'
+  - index.html: PHP Manual
+  - class.collator.html: Collator
+title: 'Collator::getErrorCode'
+---
 # Collator::getErrorCode
 
 # collatorgeterrorcode

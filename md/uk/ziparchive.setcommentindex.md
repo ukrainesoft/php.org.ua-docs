@@ -1,16 +1,11 @@
-Встановлює коментар до елемента за його індексом
-
--   [« ZipArchive::setArchiveComment](ziparchive.setarchivecomment.html)
-    
--   [ZipArchive::setCommentName »](ziparchive.setcommentname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Встановлює коментар до елемента за його індексом
-    
-
+---
+navigation:
+  - ziparchive.setarchivecomment.html: '« ZipArchive::setArchiveComment'
+  - ziparchive.setcommentname.html: 'ZipArchive::setCommentName »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::setCommentIndex'
+---
 # ZipArchive::setCommentIndex
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.4.0)

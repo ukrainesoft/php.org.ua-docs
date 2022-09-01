@@ -1,16 +1,11 @@
-Встановлює значення поля
-
--   [« fdfsettargetframe](function.fdf-set-target-frame.html)
-    
--   [fdfsetversion »](function.fdf-set-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює значення поля
-    
-
+---
+navigation:
+  - function.fdf-set-target-frame.html: « fdfsettargetframe
+  - function.fdf-set-version.html: fdfsetversion »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetvalue
+---
 # fdfsetvalue
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

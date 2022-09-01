@@ -1,16 +1,11 @@
-Повертає локаль, для якої було створено засіб форматування
-
--   [« MessageFormatter::getErrorMessage](messageformatter.geterrormessage.html)
-    
--   [MessageFormatter::getPattern »](messageformatter.getpattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [MessageFormatter](class.messageformatter.html)
-    
--   Повертає локаль, для якої було створено засіб форматування
-    
-
+---
+navigation:
+  - messageformatter.geterrormessage.html: '« MessageFormatter::getErrorMessage'
+  - messageformatter.getpattern.html: 'MessageFormatter::getPattern »'
+  - index.html: PHP Manual
+  - class.messageformatter.html: MessageFormatter
+title: 'MessageFormatter::getLocale'
+---
 # MessageFormatter::getLocale
 
 # msgfmtgetlocale

@@ -1,16 +1,11 @@
-Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
-
--   [« ZipArchive::addPattern](ziparchive.addpattern.md)
-    
--   [ZipArchive::close »](ziparchive.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
-    
-
+---
+navigation:
+  - ziparchive.addpattern.md: '« ZipArchive::addPattern'
+  - ziparchive.close.md: 'ZipArchive::close »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::clearError'
+---
 # ZipArchive::clearError
 
 (PHP 8 >= 8.2.0, PECL zip >= 1.20.0)

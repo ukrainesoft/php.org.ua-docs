@@ -1,16 +1,11 @@
-Повертає нормалізований HSL-колір об'єкту ImagickPixel
-
--   [« ImagickPixel::getColorValueQuantum](imagickpixel.getcolorvaluequantum.html)
-    
--   [ImagickPixel::getIndex »](imagickpixel.getindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixel](class.imagickpixel.html)
-    
--   Повертає нормалізований HSL-колір об'єкту ImagickPixel
-    
-
+---
+navigation:
+  - imagickpixel.getcolorvaluequantum.html: '« ImagickPixel::getColorValueQuantum'
+  - imagickpixel.getindex.html: 'ImagickPixel::getIndex »'
+  - index.html: PHP Manual
+  - class.imagickpixel.html: ImagickPixel
+title: 'ImagickPixel::getHSL'
+---
 # ImagickPixel::getHSL
 
 (PECL imagick 2, PECL imagick 3)

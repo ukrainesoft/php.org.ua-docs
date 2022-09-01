@@ -1,16 +1,11 @@
-Отримати інформацію про поточну поштову скриньку
-
--   [« imapmail](function.imap-mail.html)
-    
--   [imapmimeheaderdecode »](function.imap-mime-header-decode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Отримати інформацію про поточну поштову скриньку
-    
-
+---
+navigation:
+  - function.imap-mail.html: « imapmail
+  - function.imap-mime-header-decode.html: imapmimeheaderdecode »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapmailboxmsginfo
+---
 # imapmailboxmsginfo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

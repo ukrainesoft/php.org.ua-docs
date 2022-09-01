@@ -1,16 +1,11 @@
-Встановлює вибір із умовою
-
--   [« TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.html)
-    
--   [TableSelect::limit »](mysql-xdevapi-tableselect.limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Встановлює вибір із умовою
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.groupby.html: '« TableSelect::groupBy'
+  - mysql-xdevapi-tableselect.limit.html: 'TableSelect::limit »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::having'
+---
 # TableSelect::having
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Створити тег документа
-
--   [« XMLWriter::startComment](xmlwriter.startcomment.md)
-    
--   [XMLWriter::startDtd »](xmlwriter.startdtd.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити тег документа
-    
-
+---
+navigation:
+  - xmlwriter.startcomment.md: '« XMLWriter::startComment'
+  - xmlwriter.startdtd.md: 'XMLWriter::startDtd »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startDocument'
+---
 # XMLWriter::startDocument
 
 # xmlwriterstartdocument
@@ -59,9 +54,9 @@ xmlwriter_start_document(    XMLWriter $writer,    ?string $version = "1
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

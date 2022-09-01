@@ -1,16 +1,11 @@
-Створює новий список із елементів, вибраних за допомогою заданої callback-функції
-
--   [« DsSet::diff](ds-set.diff.html)
-    
--   [ДсSet::first »](ds-set.first.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Створює новий список із елементів, вибраних за допомогою заданої callback-функції
-    
-
+---
+navigation:
+  - ds-set.diff.html: '« DsSet::diff'
+  - ds-set.first.html: 'ДсSet::first »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::filter'
+---
 # ДсSet::filter
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ldap.requirements.html)
-    
--   [Налаштування під час виконання »](ldap.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ldap.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ldap.requirements.html: « Вимоги
+  - ldap.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - ldap.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Підтримка LDAP у PHP недоступна за промовчанням. Для активації потрібно використовувати опцію **\-with-ldap=DIR** при компіляції PHP, де DIR – це каталог встановлення бази LDAP. Для включення підтримки SASL, переконайтеся, що використана опція **\-with-ldap-sasl=DIR**, і що sasl.h існує у системі.

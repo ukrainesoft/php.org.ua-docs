@@ -1,16 +1,11 @@
-Встановлює дату ISO
-
--   [« DateTimeImmutable::setDate](datetimeimmutable.setdate.html)
-    
--   [DateTimeImmutable::setTime »](datetimeimmutable.settime.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeImmutable](class.datetimeimmutable.html)
-    
--   Встановлює дату ISO
-    
-
+---
+navigation:
+  - datetimeimmutable.setdate.html: '« DateTimeImmutable::setDate'
+  - datetimeimmutable.settime.html: 'DateTimeImmutable::setTime »'
+  - index.html: PHP Manual
+  - class.datetimeimmutable.html: DateTimeImmutable
+title: 'DateTimeImmutable::setISODate'
+---
 # DateTimeImmutable::setISODate
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

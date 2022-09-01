@@ -1,16 +1,11 @@
-Виходить із циклу подій, доступно лише на стороні клієнта
-
--   [« SwooleEvent::del](swoole-event.del.html)
-    
--   [SwooleEvent::set »](swoole-event.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleEvent](class.swoole-event.html)
-    
--   Виходить із циклу подій, доступно лише на стороні клієнта
-    
-
+---
+navigation:
+  - swoole-event.del.html: '« SwooleEvent::del'
+  - swoole-event.set.html: 'SwooleEvent::set »'
+  - index.html: PHP Manual
+  - class.swoole-event.html: SwooleEvent
+title: 'SwooleEvent::exit'
+---
 # SwooleEvent::exit
 
 (PECL swoole >= 1.9.0)

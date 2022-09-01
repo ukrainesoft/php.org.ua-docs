@@ -1,16 +1,11 @@
-Встановлює фільтр пошуку
-
--   [« TableUpdate::set](mysql-xdevapi-tableupdate.set.html)
-    
--   [mysqlxdevapiWarning »](class.mysql-xdevapi-warning.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableUpdate](class.mysql-xdevapi-tableupdate.html)
-    
--   Встановлює фільтр пошуку
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableupdate.set.html: '« TableUpdate::set'
+  - class.mysql-xdevapi-warning.html: mysqlxdevapiWarning »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+title: 'TableUpdate::where'
+---
 # TableUpdate::where
 
 (No version information available, might only be in Git)

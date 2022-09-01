@@ -1,16 +1,11 @@
-Встановити буферизацію читання файлу на вказаному потоці
-
--   [« streamsetchunksize](function.stream-set-chunk-size.html)
-    
--   [streamsettimeout »](function.stream-set-timeout.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Встановити буферизацію читання файлу на вказаному потоці
-    
-
+---
+navigation:
+  - function.stream-set-chunk-size.html: « streamsetchunksize
+  - function.stream-set-timeout.html: streamsettimeout »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamsetreadbuffer
+---
 # streamsetreadbuffer
 
 (PHP 5> = 5.3.3, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Додати опцію
-
--   [« UIControlsEditableCombo](class.ui-controls-editablecombo.html)
-    
--   [ОЙControlsEditableCombo::getText »](ui-controls-editablecombo.gettext.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
-    
--   Додати опцію
-    
-
+---
+navigation:
+  - class.ui-controls-editablecombo.html: « UIControlsEditableCombo
+  - ui-controls-editablecombo.gettext.html: 'ОЙControlsEditableCombo::getText »'
+  - index.md: PHP Manual
+  - class.ui-controls-editablecombo.html: ОЙControlsEditableCombo
+title: 'ОЙControlsEditableCombo::append'
+---
 # ОЙControlsEditableCombo::append
 
 (UI 0.9.9)

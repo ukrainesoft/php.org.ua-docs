@@ -1,16 +1,11 @@
-Видаляє весь вміст кешу користувача.
-
--   [« wincacheucachecas](function.wincache-ucache-cas.html)
-    
--   [wincacheucachedec »](function.wincache-ucache-dec.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Видаляє весь вміст кешу користувача.
-    
-
+---
+navigation:
+  - function.wincache-ucache-cas.html: « wincacheucachecas
+  - function.wincache-ucache-dec.html: wincacheucachedec »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucacheclear
+---
 # wincacheucacheclear
 
 (PECL wincache >= 1.1.0)

@@ -1,16 +1,11 @@
-Повертає масив, що представляє метрики шрифту
-
--   [« Imagick::quantizeImages](imagick.quantizeimages.md)
-    
--   [Imagick::queryFonts »](imagick.queryfonts.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає масив, що представляє метрики шрифту
-    
-
+---
+navigation:
+  - imagick.quantizeimages.md: '« Imagick::quantizeImages'
+  - imagick.queryfonts.md: 'Imagick::queryFonts »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::queryFontMetrics'
+---
 # Imagick::queryFontMetrics
 
 (PECL imagick 2, PECL imagick 3)

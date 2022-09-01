@@ -1,16 +1,11 @@
-Відкриває з'єднання з сервером MySQL
-
--   [« mysqlclose](function.mysql-close.html)
-    
--   [mysqlcreatedb »](function.mysql-create-db.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Відкриває з'єднання з сервером MySQL
-    
-
+---
+navigation:
+  - function.mysql-close.html: « mysqlclose
+  - function.mysql-create-db.html: mysqlcreatedb »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlconnect
+---
 # mysqlconnect
 
 (PHP 4, PHP 5)

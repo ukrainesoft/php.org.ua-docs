@@ -1,16 +1,11 @@
-Увімкнути перевірки SSL
-
--   [« OAuth::enableRedirects](oauth.enableredirects.md)
-    
--   [OAuth::fetch »](oauth.fetch.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Увімкнути перевірки SSL
-    
-
+---
+navigation:
+  - oauth.enableredirects.md: '« OAuth::enableRedirects'
+  - oauth.fetch.md: 'OAuth::fetch »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::enableSSLChecks'
+---
 # OAuth::enableSSLChecks
 
 (PECL OAuth >= 0.99.5)
@@ -35,8 +30,8 @@ public OAuth::enableSSLChecks(): bool
 
 ### список змін
 
-| Версия            | Описание                       |
-|-------------------|--------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 0.99.8 | Додано властивість `sslChecks` |
 
 ### Дивіться також

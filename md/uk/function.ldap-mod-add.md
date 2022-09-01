@@ -1,16 +1,11 @@
-Додати значення атрибуту до поточних атрибутів
-
--   [« ldapmodaddext](function.ldap-mod_add-ext.html)
-    
--   [ldapmoddelext »](function.ldap-mod_del-ext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Додати значення атрибуту до поточних атрибутів
-    
-
+---
+navigation:
+  - function.ldap-mod_add-ext.html: « ldapmodaddext
+  - function.ldap-mod_del-ext.html: ldapmoddelext »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapmodadd
+---
 # ldapmodadd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,11 +44,11 @@ ldap_mod_add(    LDAP\Connection $ldap,    string $dn,    array $ent
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Примітки
 

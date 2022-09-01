@@ -1,16 +1,11 @@
-Вивантажує стан пристрою
-
--   [« ParleRLexer::consume](parle-rlexer.consume.html)
-    
--   [ParleRLexer::getToken »](parle-rlexer.gettoken.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRLexer](class.parle-rlexer.html)
-    
--   Вивантажує стан пристрою
-    
-
+---
+navigation:
+  - parle-rlexer.consume.html: '« ParleRLexer::consume'
+  - parle-rlexer.gettoken.html: 'ParleRLexer::getToken »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.html: ParleRLexer
+title: 'ParleRLexer::dump'
+---
 # ParleRLexer::dump
 
 (PECL parle >= 0.5.1)

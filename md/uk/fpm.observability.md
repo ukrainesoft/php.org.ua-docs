@@ -1,16 +1,11 @@
-Спостережуваність
-
--   [« Встановлення та налаштування](fpm.setup.html)
-    
--   [Сторінка стану »](fpm.status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Менеджер процесів FastCGI](book.fpm.html)
-    
--   Спостережуваність
-    
-
+---
+navigation:
+  - fpm.setup.html: « Встановлення та налаштування
+  - fpm.status.html: Сторінка стану »
+  - index.html: PHP Manual
+  - book.fpm.html: Менеджер процесів FastCGI
+title: Спостережуваність
+---
 # Спостережуваність
 
 ## Зміст

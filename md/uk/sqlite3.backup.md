@@ -1,16 +1,11 @@
-Резервне копіювання однієї бази даних до іншої
-
--   [« SQLite3](class.sqlite3.md)
-    
--   [SQLite3::busyTimeout »](sqlite3.busytimeout.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Резервне копіювання однієї бази даних до іншої
-    
-
+---
+navigation:
+  - class.sqlite3.md: « SQLite3
+  - sqlite3.busytimeout.md: 'SQLite3::busyTimeout »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::backup'
+---
 # SQLite3::backup
 
 (PHP 7> = 7.4.0, PHP 8)

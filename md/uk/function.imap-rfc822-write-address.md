@@ -1,16 +1,11 @@
-Отримати коректно сформовану e-mail адресу, задану ім'ям скриньки, хоста та персональною інформацією
-
--   [« imaprfc822parseheaders](function.imap-rfc822-parse-headers.html)
-    
--   [imapsavebody »](function.imap-savebody.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати коректно сформовану e-mail адресу, задану ім'ям скриньки, хоста та персональною інформацією
-    
-
+---
+navigation:
+  - function.imap-rfc822-parse-headers.html: « imaprfc822parseheaders
+  - function.imap-savebody.html: imapsavebody »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaprfc822writeaddress
+---
 # imaprfc822writeaddress
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює параметр expand.q
-
--   [« SolrQuery::setExpand](solrquery.setexpand.md)
-    
--   [SolrQuery::setExpandRows »](solrquery.setexpandrows.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює параметр expand.q
-    
-
+---
+navigation:
+  - solrquery.setexpand.md: '« SolrQuery::setExpand'
+  - solrquery.setexpandrows.md: 'SolrQuery::setExpandRows »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setExpandQuery'
+---
 # SolrQuery::setExpandQuery
 
 (PECL solr> = 2.2.0)

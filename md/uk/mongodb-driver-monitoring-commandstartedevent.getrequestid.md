@@ -1,16 +1,11 @@
-Повертає ідентифікатор запиту команди
-
--   [« MongoDBDriverMonitoringCommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.html)
-    
--   [MongoDBDriverMonitoringCommandStartedEvent::getServer »](mongodb-driver-monitoring-commandstartedevent.getserver.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.html)
-    
--   Повертає ідентифікатор запиту команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandstartedevent.getoperationid.html: '« MongoDBDriverMonitoringCommandStartedEvent::getOperationId'
+  - mongodb-driver-monitoring-commandstartedevent.getserver.html: 'MongoDBDriverMonitoringCommandStartedEvent::getServer »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-commandstartedevent.html: MongoDBDriverMonitoringCommandStartedEvent
+title: 'MongoDBDriverMonitoringCommandStartedEvent::getRequestId'
+---
 # MongoDBDriverMonitoringCommandStartedEvent::getRequestId
 
 (mongodb >=1.3.0)

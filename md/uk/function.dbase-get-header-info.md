@@ -1,16 +1,11 @@
-Отримує інформацію про властивості полів бази даних
-
--   [« dbasedeleterecord](function.dbase-delete-record.html)
-    
--   [dbasegetrecordwithnames »](function.dbase-get-record-with-names.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](ref.dbase.html)
-    
--   Отримує інформацію про властивості полів бази даних
-    
-
+---
+navigation:
+  - function.dbase-delete-record.html: « dbasedeleterecord
+  - function.dbase-get-record-with-names.html: dbasegetrecordwithnames »
+  - index.html: PHP Manual
+  - ref.dbase.html: dBase
+title: dbasegetheaderinfo
+---
 # dbasegetheaderinfo
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -65,8 +60,8 @@ offset
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

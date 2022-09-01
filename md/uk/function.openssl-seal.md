@@ -1,16 +1,11 @@
-Запечатати (зашифрувати) дані
-
--   [« opensslrandompseudobytes](function.openssl-random-pseudo-bytes.html)
-    
--   [opensslsign »](function.openssl-sign.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Запечатати (зашифрувати) дані
-    
-
+---
+navigation:
+  - function.openssl-random-pseudo-bytes.html: « opensslrandompseudobytes
+  - function.openssl-sign.html: opensslsign »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslseal
+---
 # opensslseal
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -61,11 +56,11 @@ openssl_seal(    string $data,    string &$sealed_data,    array &$e
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався масив (array) ресурсів ([resource](language.types.resource.md)) типу `OpenSSL key` |
-|        | `cipher_algo` більше не є необов'язковим параметром.                                                                                                                                                            |
-|        | `iv` тепер допускає значення null.                                                                                                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався масив (array) ресурсів ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | `cipher_algo` більше не є необов'язковим параметром. |
+|  | `iv` тепер допускає значення null. |
 
 ### Приклади
 

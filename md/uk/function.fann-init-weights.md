@@ -1,16 +1,11 @@
-Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen
-
--   [« fanngettrainingalgorithm](function.fann-get-training-algorithm.html)
-    
--   [fannlengthtraindata »](function.fann-length-train-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen
-    
-
+---
+navigation:
+  - function.fann-get-training-algorithm.html: « fanngettrainingalgorithm
+  - function.fann-length-train-data.html: fannlengthtraindata »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanninitweights
+---
 # fanninitweights
 
 (PECL fann> = 1.0.0)

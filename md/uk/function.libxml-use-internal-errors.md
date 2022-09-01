@@ -1,16 +1,11 @@
-Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
-
--   [« libxmlsetstreamscontext](function.libxml-set-streams-context.html)
-    
--   [SimpleXML »](book.simplexml.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції libxml](ref.libxml.html)
-    
--   Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
-    
-
+---
+navigation:
+  - function.libxml-set-streams-context.html: « libxmlsetstreamscontext
+  - book.simplexml.html: SimpleXML »
+  - index.html: PHP Manual
+  - ref.libxml.html: Функції libxml
+title: libxmluseinternalerrors
+---
 # libxmluseinternalerrors
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ libxml_use_internal_errors(?bool $use_errors = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                   |
-|--------|--------------------------------------------------------------------------------------------|
-|        | `use_errors` тепер допускає значення null. Раніше значенням за умовчанням було **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | `use_errors` тепер допускає значення null. Раніше значенням за умовчанням було **`false`** |
 
 ### Приклади
 

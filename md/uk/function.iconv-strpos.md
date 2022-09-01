@@ -1,16 +1,11 @@
-Повертає позицію першого входження підрядка
-
--   [« iconvstrlen](function.iconv-strlen.html)
-    
--   [iconvstrrpos »](function.iconv-strrpos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции iconv](ref.iconv.html)
-    
--   Повертає позицію першого входження підрядка
-    
-
+---
+navigation:
+  - function.iconv-strlen.html: « iconvstrlen
+  - function.iconv-strrpos.html: iconvstrrpos »
+  - index.html: PHP Manual
+  - ref.iconv.html: Функции iconv
+title: iconvstrpos
+---
 # iconvstrpos
 
 (PHP 5, PHP 7, PHP 8)
@@ -59,10 +54,10 @@ iconv_strpos(    string $haystack,    string $needle,    int $offset
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `encoding` тепер допускає значення null. |
-|        | Підтримка негативних значень `offset`    |
+| Версия | Описание |
+| --- | --- |
+|  | `encoding` тепер допускає значення null. |
+|  | Підтримка негативних значень `offset` |
 
 ### Дивіться також
 

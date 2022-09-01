@@ -1,16 +1,11 @@
-Отримати товщину
-
--   [« UIDrawStroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html)
-    
--   [ОЙDrawStroke::setCap »](ui-draw-stroke.setcap.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawStroke](class.ui-draw-stroke.html)
-    
--   Отримати товщину
-    
-
+---
+navigation:
+  - ui-draw-stroke.getmiterlimit.html: '« UIDrawStroke::getMiterLimit'
+  - ui-draw-stroke.setcap.html: 'ОЙDrawStroke::setCap »'
+  - index.html: PHP Manual
+  - class.ui-draw-stroke.html: ОЙDrawStroke
+title: 'ОЙDrawStroke::getThickness'
+---
 # ОЙDrawStroke::getThickness
 
 (UI 0.9.9)

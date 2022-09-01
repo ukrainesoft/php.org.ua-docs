@@ -1,16 +1,11 @@
-Знищити об'єкт Gmagick
-
--   [« Gmagick::despeckleimage](gmagick.despeckleimage.md)
-    
--   [Gmagick::drawimage »](gmagick.drawimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Знищити об'єкт Gmagick
-    
-
+---
+navigation:
+  - gmagick.despeckleimage.md: '« Gmagick::despeckleimage'
+  - gmagick.drawimage.md: 'Gmagick::drawimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::destroy'
+---
 # Gmagick::destroy
 
 (PECL gmagick >= Unknown)

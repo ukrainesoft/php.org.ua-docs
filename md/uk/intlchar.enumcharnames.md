@@ -1,16 +1,11 @@
-Перелічує всі присвоєні символи Unicode у заданому діапазоні
-
--   [« IntlChar::digit](intlchar.digit.md)
-    
--   [IntlChar::enumCharTypes »](intlchar.enumchartypes.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перелічує всі присвоєні символи Unicode у заданому діапазоні
-    
-
+---
+navigation:
+  - intlchar.digit.md: '« IntlChar::digit'
+  - intlchar.enumchartypes.md: 'IntlChar::enumCharTypes »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::enumCharNames'
+---
 # IntlChar::enumCharNames
 
 (PHP 7, PHP 8)

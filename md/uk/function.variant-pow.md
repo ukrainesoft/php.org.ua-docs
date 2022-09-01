@@ -1,16 +1,11 @@
-Зводить один варіант у ступінь, заданий у другому
-
--   [« variantор](function.variant-or.html)
-    
--   [variantround »](function.variant-round.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Зводить один варіант у ступінь, заданий у другому
-    
-
+---
+navigation:
+  - function.variant-or.html: « variantор
+  - function.variant-round.html: variantround »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantpow
+---
 # variantpow
 
 (PHP 5, PHP 7, PHP 8)

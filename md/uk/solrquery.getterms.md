@@ -1,16 +1,11 @@
-Повертає, чи включено Terms Component
-
--   [« SolrQuery::getStatsFields](solrquery.getstatsfields.html)
-    
--   [SolrQuery::getTermsField »](solrquery.gettermsfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає, чи включено Terms Component
-    
-
+---
+navigation:
+  - solrquery.getstatsfields.html: '« SolrQuery::getStatsFields'
+  - solrquery.gettermsfield.html: 'SolrQuery::getTermsField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTerms'
+---
 # SolrQuery::getTerms
 
 (PECL solr> = 0.9.2)

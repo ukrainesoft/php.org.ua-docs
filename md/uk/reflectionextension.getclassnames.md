@@ -1,16 +1,11 @@
-Отримання імен класів
-
--   [« ReflectionExtension::getClasses](reflectionextension.getclasses.md)
-    
--   [ReflectionExtension::getConstants »](reflectionextension.getconstants.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Отримання імен класів
-    
-
+---
+navigation:
+  - reflectionextension.getclasses.md: '« ReflectionExtension::getClasses'
+  - reflectionextension.getconstants.md: 'ReflectionExtension::getConstants »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::getClassNames'
+---
 # ReflectionExtension::getClassNames
 
 (PHP 5, PHP 7, PHP 8)

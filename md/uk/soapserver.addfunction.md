@@ -1,16 +1,11 @@
-Додає одну або кілька функцій для обробки запитів SOAP
-
--   [« SoapServer](class.soapserver.html)
-    
--   [SoapServer::addSoapHeader »](soapserver.addsoapheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapServer](class.soapserver.html)
-    
--   Додає одну або кілька функцій для обробки запитів SOAP
-    
-
+---
+navigation:
+  - class.soapserver.html: « SoapServer
+  - soapserver.addsoapheader.html: 'SoapServer::addSoapHeader »'
+  - index.html: PHP Manual
+  - class.soapserver.html: SoapServer
+title: 'SoapServer::addFunction'
+---
 # SoapServer::addFunction
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Визначає, чи запит надіслано
-
--   [« YafRequestAbstract::isPut](yaf-request-abstract.isput.html)
-    
--   [YafRequestAbstract::isXmlHttpRequest »](yaf-request-abstract.isxmlhttprequest.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи запит надіслано
-    
-
+---
+navigation:
+  - yaf-request-abstract.isput.html: '« YafRequestAbstract::isPut'
+  - yaf-request-abstract.isxmlhttprequest.html: 'YafRequestAbstract::isXmlHttpRequest »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isRouted'
+---
 # YafRequestAbstract::isRouted
 
 (Yaf >=1.0.0)

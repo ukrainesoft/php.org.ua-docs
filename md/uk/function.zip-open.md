@@ -1,16 +1,11 @@
-Відкриває ZIP-архів
-
--   [« zipentryread](function.zip-entry-read.html)
-    
--   [zipread »](function.zip-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zip](ref.zip.md)
-    
--   Відкриває ZIP-архів
-    
-
+---
+navigation:
+  - function.zip-entry-read.html: « zipentryread
+  - function.zip-read.html: zipread »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
+title: zipopen
+---
 # zipopen
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -41,9 +36,9 @@ zip_open(string $filename): resource|int|false
 
 ### список змін
 
-| Версия | Описание                                                                                   |
-|--------|--------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::open()](ziparchive.open.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::open()](ziparchive.open.md) |
 
 ### Дивіться також
 

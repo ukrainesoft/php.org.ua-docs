@@ -1,16 +1,11 @@
-Отримує згенеровані ідентифікатори
-
--   [« SqlStatementResult::getColumns](mysql-xdevapi-sqlstatementresult.getcolumns.html)
-    
--   [SqlStatementResult::getLastInsertId »](mysql-xdevapi-sqlstatementresult.getlastinsertid.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує згенеровані ідентифікатори
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getcolumns.html: '« SqlStatementResult::getColumns'
+  - mysql-xdevapi-sqlstatementresult.getlastinsertid.html: 'SqlStatementResult::getLastInsertId »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::getGeneratedIds'
+---
 # SqlStatementResult::getGeneratedIds
 
 (No version information available, might only be in Git)

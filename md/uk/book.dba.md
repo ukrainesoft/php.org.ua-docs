@@ -1,16 +1,11 @@
-Database (dbm-style) Abstraction Layer
-
--   [« Рівні абстракції](refs.database.abstract.md)
-    
--   [Введение »](intro.dba.md)
-    
--   [PHP Manual](index.md)
-    
--   [Рівні абстракції](refs.database.abstract.md)
-    
--   Database (dbm-style) Abstraction Layer
-    
-
+---
+navigation:
+  - refs.database.abstract.md: « Рівні абстракції
+  - intro.dba.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.abstract.md: Рівні абстракції
+title: Database (dbm-style) Abstraction Layer
+---
 # Database (dbm-style) Abstraction Layer
 
 -   [Введение](intro.dba.md)

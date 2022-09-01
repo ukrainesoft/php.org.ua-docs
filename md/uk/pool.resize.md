@@ -1,16 +1,11 @@
-Змінює розмір пулу
-
--   [« Pool::construct](pool.construct.md)
-    
--   [Pool::shutdown »](pool.shutdown.md)
-    
--   [PHP Manual](index.md)
-    
--   [Pool](class.pool.md)
-    
--   Змінює розмір пулу
-    
-
+---
+navigation:
+  - pool.construct.md: '« Pool::construct'
+  - pool.shutdown.md: 'Pool::shutdown »'
+  - index.md: PHP Manual
+  - class.pool.md: Pool
+title: 'Pool::resize'
+---
 # Pool::resize
 
 (PECL pthreads >= 2.0.0)

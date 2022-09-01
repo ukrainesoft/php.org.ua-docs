@@ -1,16 +1,11 @@
-Встановлює колірний простір
-
--   [« Imagick::setBackgroundColor](imagick.setbackgroundcolor.html)
-    
--   [Imagick::setCompression »](imagick.setcompression.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює колірний простір
-    
-
+---
+navigation:
+  - imagick.setbackgroundcolor.html: '« Imagick::setBackgroundColor'
+  - imagick.setcompression.html: 'Imagick::setCompression »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setColorspace'
+---
 # Imagick::setColorspace
 
 (PECL imagick 3)

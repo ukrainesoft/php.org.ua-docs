@@ -1,16 +1,11 @@
-Перехід до наступного елементу
-
--   [« RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md)
-    
--   [RecursiveDirectoryIterator::rewind »](recursivedirectoryiterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-    
--   Перехід до наступного елементу
-    
-
+---
+navigation:
+  - recursivedirectoryiterator.key.md: '« RecursiveDirectoryIterator::key'
+  - recursivedirectoryiterator.rewind.md: 'RecursiveDirectoryIterator::rewind »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::next'
+---
 # RecursiveDirectoryIterator::next
 
 (PHP 5, PHP 7, PHP 8)

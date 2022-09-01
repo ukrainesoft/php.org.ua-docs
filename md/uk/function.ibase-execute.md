@@ -1,16 +1,11 @@
-Виконує попередньо підготовлений запит
-
--   [« ibaseerrmsg](function.ibase-errmsg.html)
-    
--   [ibasefetchassoc »](function.ibase-fetch-assoc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Виконує попередньо підготовлений запит
-    
-
+---
+navigation:
+  - function.ibase-errmsg.html: « ibaseerrmsg
+  - function.ibase-fetch-assoc.html: ibasefetchassoc »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseexecute
+---
 # ibaseexecute
 
 (PHP 5, PHP 7 < 7.4.0)

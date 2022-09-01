@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ssh2.html)
-    
--   [Вимоги »](ssh2.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [SSH2](book.ssh2.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ssh2.html: « Введение
+  - ssh2.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.ssh2.html: SSH2
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

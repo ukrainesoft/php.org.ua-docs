@@ -1,16 +1,11 @@
-Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями
-
--   [« EventHttp::setCallback](eventhttp.setcallback.md)
-    
--   [EventHttp::setMaxBodySize »](eventhttp.setmaxbodysize.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями
-    
-
+---
+navigation:
+  - eventhttp.setcallback.md: '« EventHttp::setCallback'
+  - eventhttp.setmaxbodysize.md: 'EventHttp::setMaxBodySize »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::setDefaultCallback'
+---
 # EventHttp::setDefaultCallback
 
 (PECL event >= 1.4.0-beta)

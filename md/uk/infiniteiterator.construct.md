@@ -1,16 +1,11 @@
-Конструктор класу InfiniteIterator
-
--   [« InfiniteIterator](class.infiniteiterator.md)
-    
--   [InfiniteIterator::next »](infiniteiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [InfiniteIterator](class.infiniteiterator.md)
-    
--   Конструктор класу InfiniteIterator
-    
-
+---
+navigation:
+  - class.infiniteiterator.md: « InfiniteIterator
+  - infiniteiterator.next.md: 'InfiniteIterator::next »'
+  - index.md: PHP Manual
+  - class.infiniteiterator.md: InfiniteIterator
+title: 'InfiniteIterator::construct'
+---
 # InfiniteIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Видалити значення атрибута з поточних атрибутів
-
--   [« ldapmoddelext](function.ldap-mod_del-ext.html)
-    
--   [ldapmodreplaceext »](function.ldap-mod_replace-ext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Видалити значення атрибута з поточних атрибутів
-    
-
+---
+navigation:
+  - function.ldap-mod_del-ext.html: « ldapmoddelext
+  - function.ldap-mod_replace-ext.html: ldapmodreplaceext »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapmoddel
+---
 # ldapmoddel
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,11 +42,11 @@ ldap_mod_del(    LDAP\Connection $ldap,    string $dn,    array $ent
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                      |
-|        | Додано підтримку параметра `controls`                                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Синхронізує базу даних
-
--   [« dbareplace](function.dba-replace.html)
-    
--   [ODBC »](book.uodbc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції DBA](ref.dba.html)
-    
--   Синхронізує базу даних
-    
-
+---
+navigation:
+  - function.dba-replace.html: « dbareplace
+  - book.uodbc.html: ODBC »
+  - index.html: PHP Manual
+  - ref.dba.html: Функції DBA
+title: dbasync
+---
 # dbasync
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

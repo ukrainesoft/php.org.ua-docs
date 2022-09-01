@@ -1,16 +1,11 @@
-Повертає OID останньому доданому до бази рядка
-
--   [« pglastnotice](function.pg-last-notice.html)
-    
--   [пглоclose »](function.pg-lo-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає OID останньому доданому до бази рядка
-    
-
+---
+navigation:
+  - function.pg-last-notice.html: « pglastnotice
+  - function.pg-lo-close.html: пглоclose »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгlastoid
+---
 # пгlastoid
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

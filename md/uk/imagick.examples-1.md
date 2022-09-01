@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](imagick.examples.md)
-    
--   [Imagick »](class.imagick.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](imagick.examples.md)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - imagick.examples.md: « Приклади
+  - class.imagick.md: Imagick »
+  - index.md: PHP Manual
+  - imagick.examples.md: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 У PHP дуже легко керувати об'єктом Imagick, використовуючи об'єктно-орієнтований інтерфейс. Ось невеликий приклад, як зробити мініатюру:

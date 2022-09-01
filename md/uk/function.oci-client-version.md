@@ -1,16 +1,11 @@
-Повертає версію клієнтської бібліотеки
-
--   [« ocicancel](function.oci-cancel.html)
-    
--   [ociclose »](function.oci-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає версію клієнтської бібліотеки
-    
-
+---
+navigation:
+  - function.oci-cancel.html: « ocicancel
+  - function.oci-close.html: ociclose »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociclientversion
+---
 # ociclientversion
 
 (PHP 5> = 5.3.7, PHP 7, PHP 8, PECL OCI8> = 1.4.6)

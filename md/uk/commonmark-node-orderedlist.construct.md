@@ -1,16 +1,11 @@
-Конструктор класу OrderedList
-
--   [« CommonMarkNodeOrderedList](class.commonmark-node-orderedlist.html)
-    
--   [CommonMarkNodeItem »](class.commonmark-node-item.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkNodeOrderedList](class.commonmark-node-orderedlist.html)
-    
--   Конструктор класу OrderedList
-    
-
+---
+navigation:
+  - class.commonmark-node-orderedlist.html: « CommonMarkNodeOrderedList
+  - class.commonmark-node-item.html: CommonMarkNodeItem »
+  - index.md: PHP Manual
+  - class.commonmark-node-orderedlist.html: CommonMarkNodeOrderedList
+title: 'CommonMarkNodeOrderedList::construct'
+---
 # CommonMarkNodeOrderedList::construct
 
 (cmark >= 1.0.0)

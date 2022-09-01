@@ -1,16 +1,11 @@
-Інформація про файл
-
--   [« scandir](function.scandir.md)
-    
--   [Введение »](intro.fileinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
-    
--   Інформація про файл
-    
-
+---
+navigation:
+  - function.scandir.md: « scandir
+  - intro.fileinfo.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.file.md: Модулі для роботи з файловою системою
+title: Інформація про файл
+---
 # Інформація про файл
 
 -   [Введение](intro.fileinfo.md)

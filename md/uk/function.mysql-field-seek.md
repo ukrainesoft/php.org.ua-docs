@@ -1,16 +1,11 @@
-Встановлює внутрішній покажчик результату на передане усунення поля
-
--   [« mysqlfieldname](function.mysql-field-name.html)
-    
--   [mysqlfieldtable »](function.mysql-field-table.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Встановлює внутрішній покажчик результату на передане усунення поля
-    
-
+---
+navigation:
+  - function.mysql-field-name.html: « mysqlfieldname
+  - function.mysql-field-table.html: mysqlfieldtable »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfieldseek
+---
 # mysqlfieldseek
 
 (PHP 4, PHP 5)

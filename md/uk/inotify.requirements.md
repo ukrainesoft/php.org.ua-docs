@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](inotify.setup.html)
-    
--   [Встановлення та налаштування »](inotify.install.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](inotify.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - inotify.setup.html: « Встановлення та налаштування
+  - inotify.install.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - inotify.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для роботи модуля потрібен Linux 2.6.13 або нова та відповідна бібліотека libC.

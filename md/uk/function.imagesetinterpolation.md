@@ -1,16 +1,11 @@
-Встановлює метод інтерполяції
-
--   [« imagesetclip](function.imagesetclip.html)
-    
--   [imagesetpixel »](function.imagesetpixel.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Встановлює метод інтерполяції
-    
-
+---
+navigation:
+  - function.imagesetclip.html: « imagesetclip
+  - function.imagesetpixel.html: imagesetpixel »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagesetinterpolation
+---
 # imagesetinterpolation
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -63,9 +58,9 @@ imagesetinterpolation(GdImage $image, int $method = IMG_BILINEAR_FIXED): bool
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

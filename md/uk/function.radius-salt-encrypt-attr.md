@@ -1,16 +1,11 @@
-Зашифровує значення за допомогою солі
-
--   [« radiusrequestauthenticator](function.radius-request-authenticator.html)
-    
--   [radiussendrequest »](function.radius-send-request.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Зашифровує значення за допомогою солі
-    
-
+---
+navigation:
+  - function.radius-request-authenticator.html: « radiusrequestauthenticator
+  - function.radius-send-request.html: radiussendrequest »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiussaltencryptattr
+---
 # radiussaltencryptattr
 
 (PECL radius >= 1.3.0)

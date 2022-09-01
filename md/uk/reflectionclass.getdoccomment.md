@@ -1,16 +1,11 @@
-Повертає doc-блоки коментарів
-
--   [« ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.html)
-    
--   [ReflectionClass::getEndLine »](reflectionclass.getendline.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає doc-блоки коментарів
-    
-
+---
+navigation:
+  - reflectionclass.getdefaultproperties.html: '« ReflectionClass::getDefaultProperties'
+  - reflectionclass.getendline.html: 'ReflectionClass::getEndLine »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getDocComment'
+---
 # ReflectionClass::getDocComment
 
 (PHP 5, PHP 7, PHP 8)

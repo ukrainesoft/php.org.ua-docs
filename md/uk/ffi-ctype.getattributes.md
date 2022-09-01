@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getArrayLength](ffi-ctype.getarraylength.html)
-    
--   [FFICType::getEnumKind »](ffi-ctype.getenumkind.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getarraylength.html: '« FFICType::getArrayLength'
+  - ffi-ctype.getenumkind.html: 'FFICType::getEnumKind »'
+  - index.html: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getAttributes'
+---
 # FFICType::getAttributes
 
 (PHP 8> = 8.1.0)

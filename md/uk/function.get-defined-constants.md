@@ -1,16 +1,11 @@
-Повертає асоціативний масив з іменами всіх констант та їх значень
-
--   [« getcurrentuser](function.get-current-user.html)
-    
--   [getextensionfuncs »](function.get-extension-funcs.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає асоціативний масив з іменами всіх констант та їх значень
-    
-
+---
+navigation:
+  - function.get-current-user.html: « getcurrentuser
+  - function.get-extension-funcs.html: getextensionfuncs »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getdefinedconstants
+---
 # getdefinedconstants
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

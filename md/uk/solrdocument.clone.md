@@ -1,16 +1,11 @@
-Створює копію об'єкта SolrDocument
-
--   [« SolrDocument::clear](solrdocument.clear.md)
-    
--   [SolrDocument::construct »](solrdocument.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Створює копію об'єкта SolrDocument
-    
-
+---
+navigation:
+  - solrdocument.clear.md: '« SolrDocument::clear'
+  - solrdocument.construct.md: 'SolrDocument::construct »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::clone'
+---
 # SolrDocument::clone
 
 (PECL solr> = 0.9.2)

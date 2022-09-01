@@ -1,16 +1,11 @@
-Малює дугу
-
--   [« GmagickDraw::annotate](gmagickdraw.annotate.html)
-    
--   [GmagickDraw::bezier »](gmagickdraw.bezier.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Малює дугу
-    
-
+---
+navigation:
+  - gmagickdraw.annotate.html: '« GmagickDraw::annotate'
+  - gmagickdraw.bezier.html: 'GmagickDraw::bezier »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::arc'
+---
 # GmagickDraw::arc
 
 (PECL gmagick >= Unknown)

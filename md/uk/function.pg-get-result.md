@@ -1,16 +1,11 @@
-Отримання результату асинхронного запиту
-
--   [« pggetpid](function.pg-get-pid.html)
-    
--   [пгhost »](function.pg-host.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Отримання результату асинхронного запиту
-    
-
+---
+navigation:
+  - function.pg-get-pid.html: « pggetpid
+  - function.pg-host.html: пгhost »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгgetresult
+---
 # пгgetresult
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -39,10 +34,10 @@ pg_get_result(PgSql\Connection $connection): PgSql\Result|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

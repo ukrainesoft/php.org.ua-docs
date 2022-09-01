@@ -1,16 +1,11 @@
-Встановлення інформації у структурі даних черги повідомлень
-
--   [« msgsend](function.msg-send.html)
-    
--   [msgstatqueue »](function.msg-stat-queue.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Встановлення інформації у структурі даних черги повідомлень
-    
-
+---
+navigation:
+  - function.msg-send.html: « msgsend
+  - function.msg-stat-queue.html: msgstatqueue »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: msgsetqueue
+---
 # msgsetqueue
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ msg_set_queue(SysvMessageQueue $queue, array $data): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                   |
-|--------|----------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

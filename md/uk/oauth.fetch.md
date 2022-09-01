@@ -1,16 +1,11 @@
-Видобути захищений ресурс OAuth
-
--   [« OAuth::enableSSLChecks](oauth.enablesslchecks.md)
-    
--   [OAuth::generateSignature »](oauth.generatesignature.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Видобути захищений ресурс OAuth
-    
-
+---
+navigation:
+  - oauth.enablesslchecks.md: '« OAuth::enableSSLChecks'
+  - oauth.generatesignature.md: 'OAuth::generateSignature »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::fetch'
+---
 # OAuth::fetch
 
 (PECL OAuth >= 0.99.1)
@@ -51,11 +46,11 @@ HEAD (**`OAUTH_HTTP_METHOD_HEAD`**) може бути корисним для в
 
 ### список змін
 
-| Версия            | Описание                                                                   |
-|-------------------|----------------------------------------------------------------------------|
-| PECL oauth 1.0.0  | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
-| PECL oauth 0.99.5 | Доданий параметр `http_method`                                             |
-| PECL oauth 0.99.8 | Доданий параметр `http_headers`                                            |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
+| PECL oauth 0.99.5 | Доданий параметр `http_method` |
+| PECL oauth 0.99.8 | Доданий параметр `http_headers` |
 
 ### Приклади
 

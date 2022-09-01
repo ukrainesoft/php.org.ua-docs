@@ -1,16 +1,11 @@
-Збір циклічних посилань
-
--   [« Основи підрахунку посилань](features.gc.refcounting-basics.html)
-    
--   [Питання продуктивності »](features.gc.performance-considerations.html)
-    
--   [PHP Manual](index.md)
-    
--   [Сборка мусора](features.gc.md)
-    
--   Збір циклічних посилань
-    
-
+---
+navigation:
+  - features.gc.refcounting-basics.html: « Основи підрахунку посилань
+  - features.gc.performance-considerations.html: Питання продуктивності »
+  - index.md: PHP Manual
+  - features.gc.md: Сборка мусора
+title: Збір циклічних посилань
+---
 ## Збір циклічних посилань
 
 Зазвичай механізми підрахунку посилань у пам'яті, наприклад, використовуваний у PHP раніше, не вирішують проблему витоку пам'яті через циклічні посилання. Починаючи з версії 5.3.0, у PHP реалізовано синхронний механізм із дослідження "[» Concurrent Cycle Collection in Reference Counted Systems](https://pages.cs.wisc.edu/~cymen/misc/interests/Bacon01Concurrent.pdf)", У якому розглядається це питання.

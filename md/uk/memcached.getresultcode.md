@@ -1,16 +1,11 @@
-Повертає результуючий код останньої виконаної операції
-
--   [« Memcached::getOption](memcached.getoption.html)
-    
--   [Memcached::getResultMessage »](memcached.getresultmessage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Повертає результуючий код останньої виконаної операції
-    
-
+---
+navigation:
+  - memcached.getoption.html: '« Memcached::getOption'
+  - memcached.getresultmessage.html: 'Memcached::getResultMessage »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::getResultCode'
+---
 # Memcached::getResultCode
 
 (PECL memcached >= 0.1.0)

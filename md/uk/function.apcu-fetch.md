@@ -1,16 +1,11 @@
-Витягує з кеша змінну змінну
-
--   [« apcuexists](function.apcu-exists.html)
-    
--   [apcuinc »](function.apcu-inc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Витягує з кеша змінну змінну
-    
-
+---
+navigation:
+  - function.apcu-exists.html: « apcuexists
+  - function.apcu-inc.html: apcuinc »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcufetch
+---
 # apcufetch
 
 (PECL apcu >= 4.0.0)
@@ -41,8 +36,8 @@ apcu_fetch(mixed $key, bool &$success = ?): mixed
 
 ### список змін
 
-| Версия           | Описание                   |
-|------------------|----------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL apcu 3.0.17 | Доданий параметр `success` |
 
 ### Приклади

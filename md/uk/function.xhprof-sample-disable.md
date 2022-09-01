@@ -1,16 +1,11 @@
-Зупинити семплююче профіль xhprof
-
--   [« xhprofenable](function.xhprof-enable.html)
-    
--   [xhprofsampleenable »](function.xhprof-sample-enable.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Xhprof](ref.xhprof.html)
-    
--   Зупинити семплююче профіль xhprof
-    
-
+---
+navigation:
+  - function.xhprof-enable.html: « xhprofenable
+  - function.xhprof-sample-enable.html: xhprofsampleenable »
+  - index.html: PHP Manual
+  - ref.xhprof.html: Функции Xhprof
+title: xhprofsampledisable
+---
 # xhprofsampledisable
 
 (PECL xhprof >= 0.9.0)

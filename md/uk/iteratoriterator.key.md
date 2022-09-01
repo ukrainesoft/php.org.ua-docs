@@ -1,16 +1,11 @@
-Отримує ключ поточного елемента
-
--   [« IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)
-    
--   [IteratorIterator::next »](iteratoriterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [IteratorIterator](class.iteratoriterator.md)
-    
--   Отримує ключ поточного елемента
-    
-
+---
+navigation:
+  - iteratoriterator.getinneriterator.md: '« IteratorIterator::getInnerIterator'
+  - iteratoriterator.next.md: 'IteratorIterator::next »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
+title: 'IteratorIterator::key'
+---
 # IteratorIterator::key
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

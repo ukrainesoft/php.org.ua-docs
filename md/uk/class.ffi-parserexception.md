@@ -1,16 +1,11 @@
-Виключення парсера FFI
-
--   [« FFIException](class.ffi-exception.html)
-    
--   [OPcache »](book.opcache.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](book.ffi.html)
-    
--   Виключення парсера FFI
-    
-
+---
+navigation:
+  - class.ffi-exception.html: « FFIException
+  - book.opcache.html: OPcache »
+  - index.html: PHP Manual
+  - book.ffi.html: FFI
+title: Виключення парсера FFI
+---
 # Виключення парсера FFI
 
 (PHP 7> = 7.4.0, PHP 8)

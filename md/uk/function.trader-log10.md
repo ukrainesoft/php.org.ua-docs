@@ -1,16 +1,11 @@
-Вектор логарифму на основі-10
-
--   [« traderлн](function.trader-ln.html)
-    
--   [traderma »](function.trader-ma.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вектор логарифму на основі-10
-    
-
+---
+navigation:
+  - function.trader-ln.html: « traderлн
+  - function.trader-ma.html: traderma »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderlog10
+---
 # traderlog10
 
 (PECL trader >= 0.2.0)

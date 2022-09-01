@@ -1,16 +1,11 @@
-Видаляє екранування символів
-
--   [« stripos](function.stripos.md)
-    
--   [stristr »](function.stristr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Видаляє екранування символів
-    
-
+---
+navigation:
+  - function.stripos.md: « stripos
+  - function.stristr.md: stristr »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: stripslashes
+---
 # stripslashes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
-
--   [« geoiptimezoneбcountryandregion](function.geoip-time-zone-by-country-and-region.html)
-    
--   [Введение »](intro.fann.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
-    
-
+---
+navigation:
+  - function.geoip-time-zone-by-country-and-region.html: « geoiptimezoneбcountryandregion
+  - intro.fann.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
+---
 # Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
 
 -   [Введение](intro.fann.md)

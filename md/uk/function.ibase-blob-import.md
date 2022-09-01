@@ -1,16 +1,11 @@
-Створює BLOB-об'єкт, копіює файл і закриває його.
-
--   [« ibaseblobget](function.ibase-blob-get.html)
-    
--   [ibaseblobinfo »](function.ibase-blob-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Створює BLOB-об'єкт, копіює файл і закриває його.
-    
-
+---
+navigation:
+  - function.ibase-blob-get.html: « ibaseblobget
+  - function.ibase-blob-info.html: ibaseblobinfo »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseblobimport
+---
 # ibaseblobimport
 
 (PHP 5, PHP 7 < 7.4.0)

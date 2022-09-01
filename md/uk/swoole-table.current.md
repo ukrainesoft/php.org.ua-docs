@@ -1,16 +1,11 @@
-Отримує поточний рядок
-
--   [« SwooleTable::create](swoole-table.create.html)
-    
--   [SwooleTable::decr »](swoole-table.decr.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Отримує поточний рядок
-    
-
+---
+navigation:
+  - swoole-table.create.html: '« SwooleTable::create'
+  - swoole-table.decr.html: 'SwooleTable::decr »'
+  - index.md: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::current'
+---
 # SwooleTable::current
 
 (PECL swoole >= 1.9.0)

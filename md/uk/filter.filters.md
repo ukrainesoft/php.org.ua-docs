@@ -1,16 +1,11 @@
-Типи фільтрів
-
--   [« Типи ресурсів](filter.resources.md)
-    
--   [Фільтри валідації даних »](filter.filters.validate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Filter](book.filter.md)
-    
--   Типи фільтрів
-    
-
+---
+navigation:
+  - filter.resources.md: « Типи ресурсів
+  - filter.filters.validate.md: Фільтри валідації даних »
+  - index.md: PHP Manual
+  - book.filter.md: Filter
+title: Типи фільтрів
+---
 # Типи фільтрів
 
 ## Зміст

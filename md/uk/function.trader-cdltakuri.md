@@ -1,16 +1,11 @@
-Такурі (Стрекоза Доджі з дуже довгою нижньою тінню)
-
--   [« tradercdlsticksandwich](function.trader-cdlsticksandwich.html)
-    
--   [tradercdltasukigap »](function.trader-cdltasukigap.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Такурі (Стрекоза Доджі з дуже довгою нижньою тінню)
-    
-
+---
+navigation:
+  - function.trader-cdlsticksandwich.html: « tradercdlsticksandwich
+  - function.trader-cdltasukigap.html: tradercdltasukigap »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdltakuri
+---
 # tradercdltakuri
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Скидає буфер виводу у файл
-
--   [« feof](function.feof.html)
-    
--   [fgetc »](function.fgetc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Скидає буфер виводу у файл
-    
-
+---
+navigation:
+  - function.feof.html: « feof
+  - function.fgetc.html: fgetc »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: fflush
+---
 # fflush
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

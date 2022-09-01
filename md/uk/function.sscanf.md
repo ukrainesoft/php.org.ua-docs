@@ -1,16 +1,11 @@
-Розбирає рядок відповідно до заданого формату
-
--   [« sprintf](function.sprintf.md)
-    
--   [strcontains »](function.str-contains.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Розбирає рядок відповідно до заданого формату
-    
-
+---
+navigation:
+  - function.sprintf.md: « sprintf
+  - function.str-contains.html: strcontains »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: sscanf
+---
 # sscanf
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)

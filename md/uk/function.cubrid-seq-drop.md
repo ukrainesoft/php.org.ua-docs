@@ -1,16 +1,11 @@
-Видаляє елемент зі стовпця типу послідовності, використовуючи OID
-
--   [« cubridschema](function.cubrid-schema.html)
-    
--   [cubridseqinsert »](function.cubrid-seq-insert.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Видаляє елемент зі стовпця типу послідовності, використовуючи OID
-    
-
+---
+navigation:
+  - function.cubrid-schema.html: « cubridschema
+  - function.cubrid-seq-insert.html: cubridseqinsert »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridseqdrop
+---
 # cubridseqdrop
 
 (PECL CUBRID >= 8.3.0)

@@ -1,16 +1,11 @@
-Повертає вирівнювання тексту
-
--   [« ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.md)
-    
--   [ImagickDraw::getTextAntialias »](imagickdraw.gettextantialias.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає вирівнювання тексту
-    
-
+---
+navigation:
+  - imagickdraw.getstrokewidth.md: '« ImagickDraw::getStrokeWidth'
+  - imagickdraw.gettextantialias.md: 'ImagickDraw::getTextAntialias »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getTextAlignment'
+---
 # ImagickDraw::getTextAlignment
 
 (PECL imagick 2, PECL imagick 3)

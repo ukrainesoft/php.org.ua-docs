@@ -1,16 +1,11 @@
-Отримує змінну SERVER
-
--   [« YafRequestAbstract::getRequestUri](yaf-request-abstract.getrequesturi.html)
-    
--   [YafRequestAbstract::isCli »](yaf-request-abstract.iscli.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Отримує змінну SERVER
-    
-
+---
+navigation:
+  - yaf-request-abstract.getrequesturi.html: '« YafRequestAbstract::getRequestUri'
+  - yaf-request-abstract.iscli.html: 'YafRequestAbstract::isCli »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getServer'
+---
 # YafRequestAbstract::getServer
 
 (Yaf >=1.0.0)

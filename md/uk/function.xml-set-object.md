@@ -1,16 +1,11 @@
-Використання XML-аналізатора всередині об'єкта
-
--   [« xmlsetnotationdeclhandler](function.xml-set-notation-decl-handler.html)
-    
--   [xmlsetprocessinginstructionhandler »](function.xml-set-processing-instruction-handler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции парсера XML](ref.xml.html)
-    
--   Використання XML-аналізатора всередині об'єкта
-    
-
+---
+navigation:
+  - function.xml-set-notation-decl-handler.html: « xmlsetnotationdeclhandler
+  - function.xml-set-processing-instruction-handler.html: xmlsetprocessinginstructionhandler »
+  - index.html: PHP Manual
+  - ref.xml.html: Функции парсера XML
+title: xmlsetobject
+---
 # xmlsetobject
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ xml_set_object(XMLParser $parser, object $object): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

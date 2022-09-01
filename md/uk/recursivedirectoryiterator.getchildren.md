@@ -1,16 +1,11 @@
-Якщо поточний елемент є директорією, метод повертає нею ітератор
-
--   [« RecursiveDirectoryIterator::construct](recursivedirectoryiterator.construct.html)
-    
--   [RecursiveDirectoryIterator::getSubPath »](recursivedirectoryiterator.getsubpath.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
-    
--   Якщо поточний елемент є директорією, метод повертає нею ітератор
-    
-
+---
+navigation:
+  - recursivedirectoryiterator.construct.html: '« RecursiveDirectoryIterator::construct'
+  - recursivedirectoryiterator.getsubpath.html: 'RecursiveDirectoryIterator::getSubPath »'
+  - index.html: PHP Manual
+  - class.recursivedirectoryiterator.html: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::getChildren'
+---
 # RecursiveDirectoryIterator::getChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

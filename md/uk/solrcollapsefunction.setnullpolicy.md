@@ -1,16 +1,11 @@
-Встановлює NULL-політику
-
--   [« SolrCollapseFunction::setMin](solrcollapsefunction.setmin.md)
-    
--   [SolrCollapseFunction::setSize »](solrcollapsefunction.setsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrCollapseFunction](class.solrcollapsefunction.md)
-    
--   Встановлює NULL-політику
-    
-
+---
+navigation:
+  - solrcollapsefunction.setmin.md: '« SolrCollapseFunction::setMin'
+  - solrcollapsefunction.setsize.md: 'SolrCollapseFunction::setSize »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
+title: 'SolrCollapseFunction::setNullPolicy'
+---
 # SolrCollapseFunction::setNullPolicy
 
 (PECL solr> = 2.2.0)

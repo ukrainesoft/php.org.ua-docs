@@ -1,16 +1,11 @@
-Швидкий стохастичний осцилятор
-
--   [« traderstoch](function.trader-stoch.html)
-    
--   [traderstochrsi »](function.trader-stochrsi.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Швидкий стохастичний осцилятор
-    
-
+---
+navigation:
+  - function.trader-stoch.html: « traderstoch
+  - function.trader-stochrsi.html: traderstochrsi »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderstochf
+---
 # traderstochf
 
 (PECL trader >= 0.2.0)

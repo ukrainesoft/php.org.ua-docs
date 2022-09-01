@@ -1,16 +1,11 @@
-Задає ім'я класу, який використовуватиметься методом SplFileInfo::openFile
-
--   [« SplFileInfo::openFile](splfileinfo.openfile.html)
-    
--   [SplFileInfo::setInfoClass »](splfileinfo.setinfoclass.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Задає ім'я класу, який використовуватиметься методом SplFileInfo::openFile
-    
-
+---
+navigation:
+  - splfileinfo.openfile.html: '« SplFileInfo::openFile'
+  - splfileinfo.setinfoclass.html: 'SplFileInfo::setInfoClass »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::setFileClass'
+---
 # SplFileInfo::setFileClass
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

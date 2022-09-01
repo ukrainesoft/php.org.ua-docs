@@ -1,16 +1,11 @@
-Цілі
-
--   [« parallelEvents::setInput](parallel-events.setinput.html)
-    
--   [parallelEvents::addFuture »](parallel-events.addfuture.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelEvents](class.parallel-events.html)
-    
--   Цілі
-    
-
+---
+navigation:
+  - parallel-events.setinput.html: '« parallelEvents::setInput'
+  - parallel-events.addfuture.html: 'parallelEvents::addFuture »'
+  - index.md: PHP Manual
+  - class.parallel-events.html: parallelEvents
+title: 'parallelEvents::addChannel'
+---
 # parallelEvents::addChannel
 
 parallelEvents::addChannel — Цілі

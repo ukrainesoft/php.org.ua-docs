@@ -1,16 +1,11 @@
-Кількість крутості активації
-
--   [« fanngetcascadeactivationfunctions](function.fann-get-cascade-activation-functions.html)
-    
--   [fanngetcascadeactivationsteepnesses »](function.fann-get-cascade-activation-steepnesses.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Кількість крутості активації
-    
-
+---
+navigation:
+  - function.fann-get-cascade-activation-functions.html: « fanngetcascadeactivationfunctions
+  - function.fann-get-cascade-activation-steepnesses.html: fanngetcascadeactivationsteepnesses »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetcascadeactivationsteepnessescount
+---
 # fanngetcascadeactivationsteepnessescount
 
 (PECL fann> = 1.0.0)

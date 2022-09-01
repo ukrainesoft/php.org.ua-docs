@@ -1,16 +1,11 @@
-Створити об'єкт події сигналу
-
--   [« Event::setTimer](event.settimer.md)
-    
--   [Event::timer »](event.timer.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Створити об'єкт події сигналу
-    
-
+---
+navigation:
+  - event.settimer.md: '« Event::setTimer'
+  - event.timer.md: 'Event::timer »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::signal'
+---
 # Event::signal
 
 (PECL event >= 1.2.6-beta)

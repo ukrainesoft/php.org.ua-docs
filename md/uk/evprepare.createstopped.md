@@ -1,16 +1,11 @@
-Створити об'єкт класу EvPrepare, але не стартувати його
-
--   [« EvPrepare::construct](evprepare.construct.html)
-    
--   [EvSignal »](class.evsignal.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvPrepare](class.evprepare.html)
-    
--   Створити об'єкт класу EvPrepare, але не стартувати його
-    
-
+---
+navigation:
+  - evprepare.construct.html: '« EvPrepare::construct'
+  - class.evsignal.html: EvSignal »
+  - index.html: PHP Manual
+  - class.evprepare.html: EvPrepare
+title: 'EvPrepare::createStopped'
+---
 # EvPrepare::createStopped
 
 (PECL ev >= 0.2.0)

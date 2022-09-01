@@ -1,16 +1,11 @@
-Повертає позначку часу Unix для заданої дати
-
--   [« microtime](function.microtime.html)
-    
--   [strftime »](function.strftime.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції дати та часу](ref.datetime.html)
-    
--   Повертає позначку часу Unix для заданої дати
-    
-
+---
+navigation:
+  - function.microtime.html: « microtime
+  - function.strftime.html: strftime »
+  - index.html: PHP Manual
+  - ref.datetime.html: Функції дати та часу
+title: mktime
+---
 # mktime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -65,10 +60,10 @@ mktime(    int $hour,    ?int $minute = null,    ?int $second = null
 
 ### список змін
 
-| Версия | Описание                                                                 |
-|--------|--------------------------------------------------------------------------|
-|        | `hour` більше не є необов'язковим.                                       |
-|        | `minute` `second` `month` `day` і `year` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `hour` більше не є необов'язковим. |
+|  | `minute` `second` `month` `day` і `year` тепер допускають значення null. |
 
 ### Приклади
 

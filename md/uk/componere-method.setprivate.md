@@ -1,16 +1,11 @@
-Зміна доступності
-
--   [« ComponereMethod::construct](componere-method.construct.html)
-    
--   [ComponereMethod::setProtected »](componere-method.setprotected.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereMethod](class.componere-method.html)
-    
--   Зміна доступності
-    
-
+---
+navigation:
+  - componere-method.construct.html: '« ComponereMethod::construct'
+  - componere-method.setprotected.html: 'ComponereMethod::setProtected »'
+  - index.md: PHP Manual
+  - class.componere-method.html: ComponereMethod
+title: 'ComponereMethod::setPrivate'
+---
 # ComponereMethod::setPrivate
 
 (Componere 2 >= 2.1.0)

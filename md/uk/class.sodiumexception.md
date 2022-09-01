@@ -1,16 +1,11 @@
-Клас SodiumException
-
--   [« sodiumunpad](function.sodium-unpad.html)
-    
--   [Модулі для роботи з базами даних](refs.database.md)
-    
--   [PHP Manual](index.md)
-    
--   [Sodium](book.sodium.md)
-    
--   Клас SodiumException
-    
-
+---
+navigation:
+  - function.sodium-unpad.html: « sodiumunpad
+  - refs.database.md: Модулі для роботи з базами даних
+  - index.md: PHP Manual
+  - book.sodium.md: Sodium
+title: Клас SodiumException
+---
 # Клас SodiumException
 
 (PHP 7> = 7.2.0, PHP 8)

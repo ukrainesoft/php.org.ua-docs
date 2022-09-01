@@ -1,16 +1,11 @@
-Призначення import
-
--   [« YafLoader::getLocalNamespace](yaf-loader.getnamespaces.html)
-    
--   [YafLoader::isLocalName »](yaf-loader.islocalname.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Призначення import
-    
-
+---
+navigation:
+  - yaf-loader.getnamespaces.html: '« YafLoader::getLocalNamespace'
+  - yaf-loader.islocalname.html: 'YafLoader::isLocalName »'
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::import'
+---
 # YafLoader::import
 
 (Yaf >=1.0.0)

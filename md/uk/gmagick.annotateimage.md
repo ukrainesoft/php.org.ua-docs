@@ -1,16 +1,11 @@
-Підписати зображення текстом
-
--   [« Gmagick::addnoiseimage](gmagick.addnoiseimage.html)
-    
--   [Gmagick::blurimage »](gmagick.blurimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Підписати зображення текстом
-    
-
+---
+navigation:
+  - gmagick.addnoiseimage.html: '« Gmagick::addnoiseimage'
+  - gmagick.blurimage.html: 'Gmagick::blurimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::annotateimage'
+---
 # Gmagick::annotateimage
 
 (PECL gmagick >= Unknown)

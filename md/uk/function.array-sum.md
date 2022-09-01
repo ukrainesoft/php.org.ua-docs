@@ -1,16 +1,11 @@
-Обчислює суму значень масиву
-
--   [« arraysplice](function.array-splice.html)
-    
--   [arrayudiffassoc »](function.array-udiff-assoc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислює суму значень масиву
-    
-
+---
+navigation:
+  - function.array-splice.html: « arraysplice
+  - function.array-udiff-assoc.html: arrayudiffassoc »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraysum
+---
 # arraysum
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

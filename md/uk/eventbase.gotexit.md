@@ -1,16 +1,11 @@
-Перевіряє, чи був цикл обробки подій завершено
-
--   [« EventBase::getTimeOfDayCached](eventbase.gettimeofdaycached.html)
-    
--   [EventBase::gotStop »](eventbase.gotstop.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBase](class.eventbase.html)
-    
--   Перевіряє, чи був цикл обробки подій завершено
-    
-
+---
+navigation:
+  - eventbase.gettimeofdaycached.html: '« EventBase::getTimeOfDayCached'
+  - eventbase.gotstop.html: 'EventBase::gotStop »'
+  - index.html: PHP Manual
+  - class.eventbase.html: EventBase
+title: 'EventBase::gotExit'
+---
 # EventBase::gotExit
 
 (PECL event >= 1.2.6-beta)

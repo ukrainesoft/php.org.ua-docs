@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.wkhtmltox.md)
-    
--   [Вимоги »](wkhtmltox.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [wkhtmltox](book.wkhtmltox.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.wkhtmltox.md: « Введение
+  - wkhtmltox.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.wkhtmltox.md: wkhtmltox
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

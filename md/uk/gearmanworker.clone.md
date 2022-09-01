@@ -1,16 +1,11 @@
-Створення копії оброблювача
-
--   [« GearmanWorker::addServers](gearmanworker.addservers.md)
-    
--   [GearmanWorker::construct »](gearmanworker.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Створення копії оброблювача
-    
-
+---
+navigation:
+  - gearmanworker.addservers.md: '« GearmanWorker::addServers'
+  - gearmanworker.construct.md: 'GearmanWorker::construct »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::clone'
+---
 # GearmanWorker::clone
 
 (PECL gearman >= 0.5.0)

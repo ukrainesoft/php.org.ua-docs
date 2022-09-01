@@ -1,16 +1,11 @@
-Отримати статистику з усіх серверів у пулі
-
--   [« Memcache::get](memcache.get.md)
-    
--   [Memcache::getServerStatus »](memcache.getserverstatus.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Отримати статистику з усіх серверів у пулі
-    
-
+---
+navigation:
+  - memcache.get.md: '« Memcache::get'
+  - memcache.getserverstatus.md: 'Memcache::getServerStatus »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::getExtendedStats'
+---
 # Memcache::getExtendedStats
 
 (PECL memcache >= 2.0.0)

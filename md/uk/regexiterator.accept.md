@@ -1,16 +1,11 @@
-Перевірка відповідності регулярному виразу
-
--   [« RegexIterator](class.regexiterator.html)
-    
--   [RegexIterator::construct »](regexiterator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [RegexIterator](class.regexiterator.html)
-    
--   Перевірка відповідності регулярному виразу
-    
-
+---
+navigation:
+  - class.regexiterator.html: « RegexIterator
+  - regexiterator.construct.html: 'RegexIterator::construct »'
+  - index.html: PHP Manual
+  - class.regexiterator.html: RegexIterator
+title: 'RegexIterator::accept'
+---
 # RegexIterator::accept
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

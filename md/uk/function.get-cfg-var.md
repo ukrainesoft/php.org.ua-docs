@@ -1,16 +1,11 @@
-Витягує значення налаштування конфігурації PHP
-
--   [« gcstatus](function.gc-status.html)
-    
--   [getcurrentuser »](function.get-current-user.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Витягує значення налаштування конфігурації PHP
-    
-
+---
+navigation:
+  - function.gc-status.html: « gcstatus
+  - function.get-current-user.html: getcurrentuser »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getcfgvar
+---
 # getcfgvar
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

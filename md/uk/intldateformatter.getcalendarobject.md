@@ -1,16 +1,11 @@
-Отримує копію об'єкта календаря засобу форматування
-
--   [« IntlDateFormatter::getTimeZoneId](intldateformatter.gettimezoneid.md)
-    
--   [IntlDateFormatter::getTimeZone »](intldateformatter.gettimezone.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDateFormatter](class.intldateformatter.md)
-    
--   Отримує копію об'єкта календаря засобу форматування
-    
-
+---
+navigation:
+  - intldateformatter.gettimezoneid.md: '« IntlDateFormatter::getTimeZoneId'
+  - intldateformatter.gettimezone.md: 'IntlDateFormatter::getTimeZone »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
+title: 'IntlDateFormatter::getCalendarObject'
+---
 # IntlDateFormatter::getCalendarObject
 
 # datefmtgetcalendarobject

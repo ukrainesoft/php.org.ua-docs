@@ -1,16 +1,11 @@
-Псевдонім sessionwriteclose
-
--   [« sessioncachelimiter](function.session-cache-limiter.html)
-    
--   [sessioncreateid »](function.session-create-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Псевдонім sessionwriteclose
-    
-
+---
+navigation:
+  - function.session-cache-limiter.html: « sessioncachelimiter
+  - function.session-create-id.html: sessioncreateid »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessioncommit
+---
 # sessioncommit
 
 (PHP 4> = 4.4.0, PHP 5, PHP 7, PHP 8)

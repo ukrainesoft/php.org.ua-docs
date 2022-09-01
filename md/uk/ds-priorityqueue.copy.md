@@ -1,16 +1,11 @@
-Повертає поверхневу копію черги
-
--   [« DsPriorityQueue::construct](ds-priorityqueue.construct.html)
-    
--   [ДсPriorityQueue::count »](ds-priorityqueue.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга з пріоритетом](class.ds-priorityqueue.html)
-    
--   Повертає поверхневу копію черги
-    
-
+---
+navigation:
+  - ds-priorityqueue.construct.html: '« DsPriorityQueue::construct'
+  - ds-priorityqueue.count.html: 'ДсPriorityQueue::count »'
+  - index.html: PHP Manual
+  - class.ds-priorityqueue.html: Черга з пріоритетом
+title: 'ДсPriorityQueue::copy'
+---
 # ДсPriorityQueue::copy
 
 (PECL ds >= 1.0.0)

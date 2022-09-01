@@ -1,16 +1,11 @@
-Встановлює дату ISO
-
--   [« DateTime::setDate](datetime.setdate.md)
-    
--   [DateTime::setTime »](datetime.settime.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Встановлює дату ISO
-    
-
+---
+navigation:
+  - datetime.setdate.md: '« DateTime::setDate'
+  - datetime.settime.md: 'DateTime::setTime »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::setISODate'
+---
 # DateTime::setISODate
 
 # dateisodateset

@@ -1,16 +1,11 @@
-Повертає кількість попереджень із останнього запиту заданого підключення
-
--   [« mysqli::useresult](mysqli.use-result.html)
-    
--   [mysqlistmt »](class.mysqli-stmt.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає кількість попереджень із останнього запиту заданого підключення
-    
-
+---
+navigation:
+  - mysqli.use-result.html: '« mysqli::useresult'
+  - class.mysqli-stmt.html: mysqlistmt »
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::$warningcount'
+---
 # mysqli::$warningcount
 
 # mysqliwarningcount

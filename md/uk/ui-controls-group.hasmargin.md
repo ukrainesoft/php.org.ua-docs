@@ -1,16 +1,11 @@
-Визначення поля
-
--   [« UIControlsGroup::getTitle](ui-controls-group.gettitle.html)
-    
--   [ОЙControlsGroup::setMargin »](ui-controls-group.setmargin.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsGroup](class.ui-controls-group.html)
-    
--   Визначення поля
-    
-
+---
+navigation:
+  - ui-controls-group.gettitle.html: '« UIControlsGroup::getTitle'
+  - ui-controls-group.setmargin.html: 'ОЙControlsGroup::setMargin »'
+  - index.html: PHP Manual
+  - class.ui-controls-group.html: ОЙControlsGroup
+title: 'ОЙControlsGroup::hasMargin'
+---
 # ОЙControlsGroup::hasMargin
 
 (UI 0.9.9)

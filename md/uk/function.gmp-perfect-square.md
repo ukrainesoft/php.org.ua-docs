@@ -1,16 +1,11 @@
-Перевірка числа на точний квадрат
-
--   [« gmpperfectpower](function.gmp-perfect-power.html)
-    
--   [gmppopcount »](function.gmp-popcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Перевірка числа на точний квадрат
-    
-
+---
+navigation:
+  - function.gmp-perfect-power.html: « gmpperfectpower
+  - function.gmp-popcount.html: gmppopcount »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpperfectsquare
+---
 # gmpperfectsquare
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

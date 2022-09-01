@@ -1,16 +1,11 @@
-Отримання висоти зображення
-
--   [« imagesx](function.imagesx.html)
-    
--   [imagetruecolortopalette »](function.imagetruecolortopalette.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Отримання висоти зображення
-    
-
+---
+navigation:
+  - function.imagesx.html: « imagesx
+  - function.imagetruecolortopalette.html: imagetruecolortopalette »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagesy
+---
 # imagesy
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ imagesy(GdImage $image): int
 
 ### список змін
 
-| Версия | Описание                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає останнє значення вектора
-
--   [« DsVector::jsonSerialize](ds-vector.jsonserialize.html)
-    
--   [ДсVector::map »](ds-vector.map.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає останнє значення вектора
-    
-
+---
+navigation:
+  - ds-vector.jsonserialize.html: '« DsVector::jsonSerialize'
+  - ds-vector.map.html: 'ДсVector::map »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::last'
+---
 # ДсVector::last
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« pthreads](book.pthreads.md)
-    
--   [Встановлення та налаштування »](pthreads.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [pthreads](book.pthreads.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.pthreads.md: « pthreads
+  - pthreads.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Вступ
+---
 # Вступ
 
 pthreads надає об'єктно-орієнтований API до роботи з багатопоточністю в PHP. Програми на PHP можуть створювати, читати, записувати, запускати та виконувати синхронізацію з об'єктами Threads, Workers та Threaded.

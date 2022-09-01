@@ -1,16 +1,11 @@
-Повертає поверхневу копію колекції
-
--   [« DsStack::construct](ds-stack.construct.html)
-    
--   [ДсStack::count »](ds-stack.count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Повертає поверхневу копію колекції
-    
-
+---
+navigation:
+  - ds-stack.construct.html: '« DsStack::construct'
+  - ds-stack.count.html: 'ДсStack::count »'
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::copy'
+---
 # ДсStack::copy
 
 (PECL ds >= 1.0.0)

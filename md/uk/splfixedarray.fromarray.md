@@ -1,16 +1,11 @@
-Імпортує PHP-масив у об'єкт класу SplFixedArray
-
--   [« SplFixedArray::current](splfixedarray.current.html)
-    
--   [SplFixedArray::getSize »](splfixedarray.getsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFixedArray](class.splfixedarray.html)
-    
--   Імпортує PHP-масив у об'єкт класу SplFixedArray
-    
-
+---
+navigation:
+  - splfixedarray.current.html: '« SplFixedArray::current'
+  - splfixedarray.getsize.html: 'SplFixedArray::getSize »'
+  - index.html: PHP Manual
+  - class.splfixedarray.html: SplFixedArray
+title: 'SplFixedArray::fromArray'
+---
 # SplFixedArray::fromArray
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Відкриває постійне з'єднання із сервером PostgreSQL
-
--   [« pgparameterstatus](function.pg-parameter-status.html)
-    
--   [пгping »](function.pg-ping.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Відкриває постійне з'єднання із сервером PostgreSQL
-    
-
+---
+navigation:
+  - function.pg-parameter-status.html: « pgparameterstatus
+  - function.pg-ping.html: пгping »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгpconnect
+---
 # пгpconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ pg_pconnect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                            |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

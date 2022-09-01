@@ -1,16 +1,11 @@
-Видаляє всі поточні параметри
-
--   [« SQLite3Stmt::bindValue](sqlite3stmt.bindvalue.md)
-    
--   [SQLite3Stmt::close »](sqlite3stmt.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Stmt](class.sqlite3stmt.md)
-    
--   Видаляє всі поточні параметри
-    
-
+---
+navigation:
+  - sqlite3stmt.bindvalue.md: '« SQLite3Stmt::bindValue'
+  - sqlite3stmt.close.md: 'SQLite3Stmt::close »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::clear'
+---
 # SQLite3Stmt::clear
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

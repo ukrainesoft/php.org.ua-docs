@@ -1,16 +1,11 @@
-Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
-
--   [« DateTimeImmutable](class.datetimeimmutable.md)
-    
--   [DateTimeImmutable::construct »](datetimeimmutable.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
-    
-
+---
+navigation:
+  - class.datetimeimmutable.md: « DateTimeImmutable
+  - datetimeimmutable.construct.md: 'DateTimeImmutable::construct »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::add'
+---
 # DateTimeImmutable::add
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

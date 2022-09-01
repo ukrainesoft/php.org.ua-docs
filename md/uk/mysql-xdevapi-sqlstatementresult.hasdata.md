@@ -1,16 +1,11 @@
-Перевіряє, чи є у результату дані
-
--   [« SqlStatementResult::getWarningsCount](mysql-xdevapi-sqlstatementresult.getwarningcount.html)
-    
--   [SqlStatementResult::nextResult »](mysql-xdevapi-sqlstatementresult.nextresult.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Перевіряє, чи є у результату дані
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.getwarningcount.html: '« SqlStatementResult::getWarningsCount'
+  - mysql-xdevapi-sqlstatementresult.nextresult.html: 'SqlStatementResult::nextResult »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::hasData'
+---
 # SqlStatementResult::hasData
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Видалити елемент керування
-
--   [« UIControlsBox::construct](ui-controls-box.construct.html)
-    
--   [ОЙControlsBox::getOrientation »](ui-controls-box.getorientation.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsBox](class.ui-controls-box.html)
-    
--   Видалити елемент керування
-    
-
+---
+navigation:
+  - ui-controls-box.construct.html: '« UIControlsBox::construct'
+  - ui-controls-box.getorientation.html: 'ОЙControlsBox::getOrientation »'
+  - index.md: PHP Manual
+  - class.ui-controls-box.html: ОЙControlsBox
+title: 'ОЙControlsBox::delete'
+---
 # ОЙControlsBox::delete
 
 (UI 0.9.9)

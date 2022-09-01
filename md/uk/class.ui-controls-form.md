@@ -1,16 +1,11 @@
-Елемент управління "Форма" (розташування)
-
--   [« UIControlsPicker::construct](ui-controls-picker.construct.html)
-    
--   [ОЙControlsForm::append »](ui-controls-form.append.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління "Форма" (розташування)
-    
-
+---
+navigation:
+  - ui-controls-picker.construct.html: '« UIControlsPicker::construct'
+  - ui-controls-form.append.html: 'ОЙControlsForm::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Форма" (розташування)
+---
 # Елемент управління "Форма" (розташування)
 
 (UI 0.9.9)

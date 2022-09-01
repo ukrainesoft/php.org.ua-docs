@@ -1,16 +1,11 @@
-Пошук індексу за значенням
-
--   [« DsDeque::filter](ds-deque.filter.html)
-    
--   [ДсDeque::first »](ds-deque.first.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Пошук індексу за значенням
-    
-
+---
+navigation:
+  - ds-deque.filter.html: '« DsDeque::filter'
+  - ds-deque.first.html: 'ДсDeque::first »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::find'
+---
 # ДсDeque::find
 
 (PECL ds >= 1.0.0)

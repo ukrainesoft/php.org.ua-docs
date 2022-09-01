@@ -1,16 +1,11 @@
-Переміщує всі дані з вихідного буфера на початок поточного буфера
-
--   [« EventBuffer::prepend](eventbuffer.prepend.md)
-    
--   [EventBuffer::pullup »](eventbuffer.pullup.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Переміщує всі дані з вихідного буфера на початок поточного буфера
-    
-
+---
+navigation:
+  - eventbuffer.prepend.md: '« EventBuffer::prepend'
+  - eventbuffer.pullup.md: 'EventBuffer::pullup »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::prependBuffer'
+---
 # EventBuffer::prependBuffer
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Очікує сигнали протягом заданого часу
-
--   [pcntlsigprocmask](function.pcntl-sigprocmask.html)
-    
--   [pcntlsigwaitinfo »](function.pcntl-sigwaitinfo.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Очікує сигнали протягом заданого часу
-    
-
+---
+navigation:
+  - function.pcntl-sigprocmask.html: pcntlsigprocmask
+  - function.pcntl-sigwaitinfo.html: pcntlsigwaitinfo »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlsigtimedwait
+---
 # pcntlsigtimedwait
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

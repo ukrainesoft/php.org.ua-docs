@@ -1,16 +1,11 @@
-Перевіряє, чи існує об'єкт у базі даних
-
--   [« mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
-    
--   [DatabaseObject::getName »](mysql-xdevapi-databaseobject.getname.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiDatabaseObject](class.mysql-xdevapi-databaseobject.html)
-    
--   Перевіряє, чи існує об'єкт у базі даних
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-databaseobject.html: « mysqlxdevapiDatabaseObject
+  - mysql-xdevapi-databaseobject.getname.html: 'DatabaseObject::getName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-databaseobject.html: mysqlxdevapiDatabaseObject
+title: 'DatabaseObject::existsInDatabase'
+---
 # DatabaseObject::existsInDatabase
 
 (No version information available, might only be in Git)

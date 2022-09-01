@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.libxml.md)
-    
--   [Вимоги »](libxml.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [libxml](book.libxml.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.libxml.md: « Введение
+  - libxml.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.libxml.md: libxml
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Повертає внутрішню інформацію про те, де було викинуто виняток
-
--   [« SolrIllegalOperationException](class.solrillegaloperationexception.html)
-    
--   [SolrMissingMandatoryParameterException »](class.solrmissingmandatoryparameterexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrIllegalOperationException](class.solrillegaloperationexception.html)
-    
--   Повертає внутрішню інформацію про те, де було викинуто виняток
-    
-
+---
+navigation:
+  - class.solrillegaloperationexception.html: « SolrIllegalOperationException
+  - class.solrmissingmandatoryparameterexception.html: SolrMissingMandatoryParameterException »
+  - index.html: PHP Manual
+  - class.solrillegaloperationexception.html: SolrIllegalOperationException
+title: 'SolrIllegalOperationException::getInternalInfo'
+---
 # SolrIllegalOperationException::getInternalInfo
 
 (PECL solr> = 0.9.2)

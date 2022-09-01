@@ -1,16 +1,11 @@
-Повертає дескриптор цілого об'єкта для даного об'єкта
-
--   [« runkit7methodrename](function.runkit7-method-rename.html)
-    
--   [runkit7superglobals »](function.runkit7-superglobals.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Повертає дескриптор цілого об'єкта для даного об'єкта
-    
-
+---
+navigation:
+  - function.runkit7-method-rename.html: « runkit7methodrename
+  - function.runkit7-superglobals.html: runkit7superglobals »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7objectід
+---
 # runkit7objectід
 
 (PECL runkit7> = Unknown)

@@ -1,16 +1,11 @@
-Отримання розширеного потоку даних
-
--   [« ssh2exec](function.ssh2-exec.html)
-    
--   [ssh2fingerprint »](function.ssh2-fingerprint.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Отримання розширеного потоку даних
-    
-
+---
+navigation:
+  - function.ssh2-exec.html: « ssh2exec
+  - function.ssh2-fingerprint.html: ssh2fingerprint »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2fetchstream
+---
 # ssh2fetchstream
 
 (PECL ssh2> = 0.9.0)

@@ -1,16 +1,11 @@
-Шифрує текст із заданими параметрами
-
--   [« mcryptencselftest](function.mcrypt-enc-self-test.html)
-    
--   [mcryptgenericdeinit »](function.mcrypt-generic-deinit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Шифрує текст із заданими параметрами
-    
-
+---
+navigation:
+  - function.mcrypt-enc-self-test.html: « mcryptencselftest
+  - function.mcrypt-generic-deinit.html: mcryptgenericdeinit »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptencrypt
+---
 # mcryptencrypt
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

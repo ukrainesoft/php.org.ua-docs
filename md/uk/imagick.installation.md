@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](imagick.requirements.md)
-    
--   [Налаштування під час виконання »](imagick.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](imagick.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - imagick.requirements.md: « Вимоги
+  - imagick.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - imagick.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

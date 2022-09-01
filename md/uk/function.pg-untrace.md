@@ -1,16 +1,11 @@
-Вимикає трасування з'єднання з PostgreSQL
-
--   [« pgunescapebytea](function.pg-unescape-bytea.html)
-    
--   [пгupdate »](function.pg-update.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Вимикає трасування з'єднання з PostgreSQL
-    
-
+---
+navigation:
+  - function.pg-unescape-bytea.html: « pgunescapebytea
+  - function.pg-update.html: пгupdate »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгuntrace
+---
 # пгuntrace
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ pg_untrace(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | `connection` тепер допускає значення null.                                                                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

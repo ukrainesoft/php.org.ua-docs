@@ -1,16 +1,11 @@
-Повертає колір під текстом
-
--   [« ImagickDraw::getTextKerning](imagickdraw.gettextkerning.md)
-    
--   [ImagickDraw::getVectorGraphics »](imagickdraw.getvectorgraphics.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає колір під текстом
-    
-
+---
+navigation:
+  - imagickdraw.gettextkerning.md: '« ImagickDraw::getTextKerning'
+  - imagickdraw.getvectorgraphics.md: 'ImagickDraw::getVectorGraphics »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getTextUnderColor'
+---
 # ImagickDraw::getTextUnderColor
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Конструктор ImagickPixelIterator
-
--   [« ImagickPixelIterator::clear](imagickpixeliterator.clear.md)
-    
--   [ImagickPixelIterator::destroy »](imagickpixeliterator.destroy.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.md)
-    
--   Конструктор ImagickPixelIterator
-    
-
+---
+navigation:
+  - imagickpixeliterator.clear.md: '« ImagickPixelIterator::clear'
+  - imagickpixeliterator.destroy.md: 'ImagickPixelIterator::destroy »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
+title: 'ImagickPixelIterator::construct'
+---
 # ImagickPixelIterator::construct
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Десеріалізує MinKey
-
--   [« MongoDBBSONMinKey::serialize](mongodb-bson-minkey.serialize.html)
-    
--   [MongoDBBSONObjectId »](class.mongodb-bson-objectid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
-    
--   Десеріалізує MinKey
-    
-
+---
+navigation:
+  - mongodb-bson-minkey.serialize.html: '« MongoDBBSONMinKey::serialize'
+  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId »
+  - index.md: PHP Manual
+  - class.mongodb-bson-minkey.html: MongoDBBSONMinKey
+title: 'MongoDBBSONMinKey::unserialize'
+---
 # MongoDBBSONMinKey::unserialize
 
 (mongodb >=1.2.0)

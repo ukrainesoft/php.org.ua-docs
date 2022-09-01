@@ -1,16 +1,11 @@
-Отримати екземпляр класу конфігурації
-
--   [« YafApplication::getAppDirectory](yaf-application.getappdirectory.html)
-    
--   [YafApplication::getDispatcher »](yaf-application.getdispatcher.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Отримати екземпляр класу конфігурації
-    
-
+---
+navigation:
+  - yaf-application.getappdirectory.html: '« YafApplication::getAppDirectory'
+  - yaf-application.getdispatcher.html: 'YafApplication::getDispatcher »'
+  - index.html: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::getConfig'
+---
 # YafApplication::getConfig
 
 (Yaf >=1.0.0)

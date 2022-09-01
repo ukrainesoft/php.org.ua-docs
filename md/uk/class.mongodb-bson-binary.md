@@ -1,16 +1,11 @@
-Клас MongoDBBSONBinary
-
--   [« MongoDBBSONtoRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.html)
-    
--   [MongoDBBSONBinary::construct »](mongodb-bson-binary.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONBinary
-    
-
+---
+navigation:
+  - function.mongodb.bson-torelaxedextendedjson.html: « MongoDBBSONtoRelaxedExtendedJSON
+  - mongodb-bson-binary.construct.html: 'MongoDBBSONBinary::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONBinary
+---
 # Клас MongoDBBSONBinary
 
 (mongodb >=1.0.0)
@@ -128,10 +123,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия                                                             | Описание |
-|--------------------------------------------------------------------|----------|
-| PECL mongodb 1.12.0                                                |          |
-| Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 |  |
+| Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |  |
 
 Доданий тип **`MongoDB\BSON\Binary::TYPE_COLUMN`**
 

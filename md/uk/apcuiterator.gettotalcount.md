@@ -1,16 +1,11 @@
-Отримати загальну кількість записів
-
--   [« APCUIterator::current](apcuiterator.current.md)
-    
--   [APCUIterator::getTotalHits »](apcuiterator.gettotalhits.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Отримати загальну кількість записів
-    
-
+---
+navigation:
+  - apcuiterator.current.md: '« APCUIterator::current'
+  - apcuiterator.gettotalhits.md: 'APCUIterator::getTotalHits »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::getTotalCount'
+---
 # APCUIterator::getTotalCount
 
 (PECL apcu >= 5.0.0)

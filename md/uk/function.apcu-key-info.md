@@ -1,16 +1,11 @@
-Отримати детальну інформацію про ключ у кеші
-
--   [« apcuinc](function.apcu-inc.html)
-    
--   [apcusmainfo »](function.apcu-sma-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции APCu](ref.apcu.md)
-    
--   Отримати детальну інформацію про ключ у кеші
-    
-
+---
+navigation:
+  - function.apcu-inc.html: « apcuinc
+  - function.apcu-sma-info.html: apcusmainfo »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcukeyinfo
+---
 # apcukeyinfo
 
 (No version information available, might only be in Git)

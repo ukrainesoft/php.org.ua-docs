@@ -1,16 +1,11 @@
-Отримує об'єкт класу SimpleXMLElement із вузла DOM
-
--   [« Функции SimpleXML](ref.simplexml.md)
-    
--   [simplexmlloadfile »](function.simplexml-load-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции SimpleXML](ref.simplexml.md)
-    
--   Отримує об'єкт класу SimpleXMLElement із вузла DOM
-    
-
+---
+navigation:
+  - ref.simplexml.md: « Функции SimpleXML
+  - function.simplexml-load-file.html: simplexmlloadfile »
+  - index.md: PHP Manual
+  - ref.simplexml.md: Функции SimpleXML
+title: simplexmlimportdom
+---
 # simplexmlimportdom
 
 (PHP 5, PHP 7, PHP 8)

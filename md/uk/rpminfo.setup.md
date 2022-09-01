@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.rpminfo.md)
-    
--   [Вимоги »](rpminfo.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [RpmInfo](book.rpminfo.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.rpminfo.md: « Введение
+  - rpminfo.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.rpminfo.md: RpmInfo
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Встановлює значення за заданим індексом $index у $value
-
--   [« SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.md)
-    
--   [SplDoublyLinkedList::offsetUnset »](spldoublylinkedlist.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Встановлює значення за заданим індексом $index у $value
-    
-
+---
+navigation:
+  - spldoublylinkedlist.offsetget.md: '« SplDoublyLinkedList::offsetGet'
+  - spldoublylinkedlist.offsetunset.md: 'SplDoublyLinkedList::offsetUnset »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::offsetSet'
+---
 # SplDoublyLinkedList::offsetSet
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.expect.md)
-    
--   [Вимоги »](expect.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Expect](book.expect.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.expect.md: « Введение
+  - expect.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.expect.md: Expect
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

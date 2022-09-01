@@ -1,16 +1,11 @@
-Додати пункт меню із чекбоксом
-
--   [« UIMenu::appendAbout](ui-menu.appendabout.html)
-    
--   [ОЙMenu::appendPreferences »](ui-menu.appendpreferences.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenu](class.ui-menu.html)
-    
--   Додати пункт меню із чекбоксом
-    
-
+---
+navigation:
+  - ui-menu.appendabout.html: '« UIMenu::appendAbout'
+  - ui-menu.appendpreferences.html: 'ОЙMenu::appendPreferences »'
+  - index.md: PHP Manual
+  - class.ui-menu.html: ОЙMenu
+title: 'ОЙMenu::appendCheck'
+---
 # ОЙMenu::appendCheck
 
 (UI 0.9.9)

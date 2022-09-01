@@ -1,16 +1,11 @@
-Вступ
-
--   [« cURL](book.curl.html)
-    
--   [Встановлення та налаштування »](curl.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [cURL](book.curl.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.curl.html: « cURL
+  - curl.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.curl.html: cURL
+title: Вступ
+---
 # Вступ
 
 У PHP включена підтримка libcurl - бібліотека функцій, написана Денієлом Стенбергом (Daniel Stenberg), яка дозволяє взаємодіяти з безліччю різних серверів за багатьма різними протоколами. В даний час libcurl підтримує протоколи http, https, ftp, gopher, telnet, dict, file та ldap. libcurl також вміє працювати з сертифікатами HTTPS, надсилати запити до HTTP-серверів методами POST та PUT, завантажувати файли за протоколами HTTP та FTP (останнє можна зробити за допомогою модуля FTP), використовувати проксі-сервери, cookies та автентифікацію користувачів.

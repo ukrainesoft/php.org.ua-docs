@@ -1,16 +1,11 @@
-elseif/else if
-
--   [« else](control-structures.else.html)
-    
--   [Альтернативний синтаксис керуючих структур »](control-structures.alternative-syntax.html)
-    
--   [PHP Manual](index.md)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   elseif/else if
-    
-
+---
+navigation:
+  - control-structures.else.html: « else
+  - control-structures.alternative-syntax.html: Альтернативний синтаксис керуючих структур »
+  - index.md: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: elseif/else if
+---
 ## elseif/else if
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

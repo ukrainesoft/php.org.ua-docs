@@ -1,16 +1,11 @@
-Експорт
-
--   [« ReflectionParameter::construct](reflectionparameter.construct.html)
-    
--   [ReflectionParameter::getAttributes »](reflectionparameter.getattributes.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionParameter](class.reflectionparameter.html)
-    
--   Експорт
-    
-
+---
+navigation:
+  - reflectionparameter.construct.html: '« ReflectionParameter::construct'
+  - reflectionparameter.getattributes.html: 'ReflectionParameter::getAttributes »'
+  - index.html: PHP Manual
+  - class.reflectionparameter.html: ReflectionParameter
+title: 'ReflectionParameter::export'
+---
 # ReflectionParameter::export
 
 (PHP 5, PHP 7)

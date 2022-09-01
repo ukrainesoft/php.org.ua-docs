@@ -1,16 +1,11 @@
-Конструктор класу Heading
-
--   [« CommonMarkNodeHeading](class.commonmark-node-heading.html)
-    
--   [CommonMarkNodeParagraph »](class.commonmark-node-paragraph.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMarkNodeHeading](class.commonmark-node-heading.html)
-    
--   Конструктор класу Heading
-    
-
+---
+navigation:
+  - class.commonmark-node-heading.html: « CommonMarkNodeHeading
+  - class.commonmark-node-paragraph.html: CommonMarkNodeParagraph »
+  - index.html: PHP Manual
+  - class.commonmark-node-heading.html: CommonMarkNodeHeading
+title: 'CommonMarkNodeHeading::construct'
+---
 # CommonMarkNodeHeading::construct
 
 (cmark >= 1.0.0)

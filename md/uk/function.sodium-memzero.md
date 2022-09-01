@@ -1,16 +1,11 @@
-Перезаписує рядок символами NULL
-
--   [« sodiummemcmp](function.sodium-memcmp.html)
-    
--   [sodiumpad »](function.sodium-pad.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перезаписує рядок символами NULL
-    
-
+---
+navigation:
+  - function.sodium-memcmp.html: « sodiummemcmp
+  - function.sodium-pad.html: sodiumpad »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiummemzero
+---
 # sodiummemzero
 
 (PHP 7> = 7.2.0, PHP 8)

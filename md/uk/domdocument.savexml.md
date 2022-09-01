@@ -1,16 +1,11 @@
-Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
-
--   [« DOMDocument::saveHTMLFile](domdocument.savehtmlfile.md)
-    
--   [DOMDocument::schemaValidate »](domdocument.schemavalidate.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Зберігає XML-дерево з внутрішньої вистави у вигляді рядка
-    
-
+---
+navigation:
+  - domdocument.savehtmlfile.md: '« DOMDocument::saveHTMLFile'
+  - domdocument.schemavalidate.md: 'DOMDocument::schemaValidate »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::saveXML'
+---
 # DOMDocument::saveXML
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Створює оточення для з'єднання із сервером CUBRID
-
--   [« cubridcommit](function.cubrid-commit.html)
-    
--   [cubridconnect »](function.cubrid-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Створює оточення для з'єднання із сервером CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-commit.html: « cubridcommit
+  - function.cubrid-connect.html: cubridconnect »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridconnectwithurl
+---
 # cubridconnectwithurl
 
 (PECL CUBRID >= 8.3.1)

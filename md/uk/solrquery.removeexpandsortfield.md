@@ -1,16 +1,11 @@
-Видаляє розширене поле сортування за допомогою параметра expand.sort
-
--   [« SolrQuery::removeExpandFilterQuery](solrquery.removeexpandfilterquery.md)
-    
--   [SolrQuery::removeFacetDateField »](solrquery.removefacetdatefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Видаляє розширене поле сортування за допомогою параметра expand.sort
-    
-
+---
+navigation:
+  - solrquery.removeexpandfilterquery.md: '« SolrQuery::removeExpandFilterQuery'
+  - solrquery.removefacetdatefield.md: 'SolrQuery::removeFacetDateField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeExpandSortField'
+---
 # SolrQuery::removeExpandSortField
 
 (PECL solr> = 2.2.0)

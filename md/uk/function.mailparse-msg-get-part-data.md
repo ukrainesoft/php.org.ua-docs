@@ -1,16 +1,11 @@
-Повернути асоціативний масив з інформацією про повідомлення
-
--   [« mailparsemsgfree](function.mailparse-msg-free.html)
-    
--   [mailparsemsggetpart »](function.mailparse-msg-get-part.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Повернути асоціативний масив з інформацією про повідомлення
-    
-
+---
+navigation:
+  - function.mailparse-msg-free.html: « mailparsemsgfree
+  - function.mailparse-msg-get-part.html: mailparsemsggetpart »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsggetpartdata
+---
 # mailparsemsggetpartdata
 
 (PECL mailparse >= 0.9.0)

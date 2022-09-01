@@ -1,16 +1,11 @@
-Отримати символ із покажчика на gz-файл
-
--   [« gzfile](function.gzfile.md)
-    
--   [gzgets »](function.gzgets.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Zlib](ref.zlib.md)
-    
--   Отримати символ із покажчика на gz-файл
-    
-
+---
+navigation:
+  - function.gzfile.md: « gzfile
+  - function.gzgets.md: gzgets »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
+title: gzgetc
+---
 # gzgetc
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

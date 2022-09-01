@@ -1,16 +1,11 @@
-Накладання викривляючої матриці 3х3, використовуючи коефіцієнт та зміщення
-
--   [« imagecolortransparent](function.imagecolortransparent.html)
-    
--   [imagecopy »](function.imagecopy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Накладання викривляючої матриці 3х3, використовуючи коефіцієнт та зміщення
-    
-
+---
+navigation:
+  - function.imagecolortransparent.html: « imagecolortransparent
+  - function.imagecopy.html: imagecopy »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imageconvolution
+---
 # imageconvolution
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ imageconvolution(    GdImage $image,    array $matrix,    float $div
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

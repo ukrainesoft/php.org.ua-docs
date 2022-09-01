@@ -1,16 +1,11 @@
-Повертає коментар елемента, використовуючи його індекс
-
--   [« ZipArchive::getArchiveComment](ziparchive.getarchivecomment.html)
-    
--   [ZipArchive::getCommentName »](ziparchive.getcommentname.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Повертає коментар елемента, використовуючи його індекс
-    
-
+---
+navigation:
+  - ziparchive.getarchivecomment.html: '« ZipArchive::getArchiveComment'
+  - ziparchive.getcommentname.html: 'ZipArchive::getCommentName »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::getCommentIndex'
+---
 # ZipArchive::getCommentIndex
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.4.0)

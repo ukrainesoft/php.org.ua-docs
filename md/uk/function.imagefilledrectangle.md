@@ -1,16 +1,11 @@
-Малювання зафарбованого прямокутника
-
--   [« imagefilledpolygon](function.imagefilledpolygon.md)
-    
--   [imagefilltoborder »](function.imagefilltoborder.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Малювання зафарбованого прямокутника
-    
-
+---
+navigation:
+  - function.imagefilledpolygon.md: « imagefilledpolygon
+  - function.imagefilltoborder.md: imagefilltoborder »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagefilledrectangle
+---
 # imagefilledrectangle
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ y-координата точки 2.
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

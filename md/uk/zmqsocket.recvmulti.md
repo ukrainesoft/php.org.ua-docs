@@ -1,16 +1,11 @@
-Отримати повідомлення, що складається з кількох частин
-
--   [« ZMQSocket::recv](zmqsocket.recv.html)
-    
--   [ZMQSocket::send »](zmqsocket.send.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQSocket](class.zmqsocket.html)
-    
--   Отримати повідомлення, що складається з кількох частин
-    
-
+---
+navigation:
+  - zmqsocket.recv.html: '« ZMQSocket::recv'
+  - zmqsocket.send.html: 'ZMQSocket::send »'
+  - index.html: PHP Manual
+  - class.zmqsocket.html: ZMQSocket
+title: 'ZMQSocket::recvMulti'
+---
 # ZMQSocket::recvMulti
 
 (PECL zmq >= 0.8.0)

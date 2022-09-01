@@ -1,16 +1,11 @@
-Клас ReflectionClassConstant
-
--   [« ReflectionClass::toString](reflectionclass.tostring.md)
-    
--   [ReflectionClassConstant::construct »](reflectionclassconstant.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionClassConstant
-    
-
+---
+navigation:
+  - reflectionclass.tostring.md: '« ReflectionClass::toString'
+  - reflectionclassconstant.construct.md: 'ReflectionClassConstant::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionClassConstant
+---
 # Клас ReflectionClassConstant
 
 (PHP 7> = 7.1.0, PHP 8)

@@ -1,16 +1,11 @@
-Включає кешування для угруповання результатів
-
--   [« SolrQuery::setGroup](solrquery.setgroup.md)
-    
--   [SolrQuery::setGroupFacet »](solrquery.setgroupfacet.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Включає кешування для угруповання результатів
-    
-
+---
+navigation:
+  - solrquery.setgroup.md: '« SolrQuery::setGroup'
+  - solrquery.setgroupfacet.md: 'SolrQuery::setGroupFacet »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setGroupCachePercent'
+---
 # SolrQuery::setGroupCachePercent
 
 (PECL solr> = 2.2.0)

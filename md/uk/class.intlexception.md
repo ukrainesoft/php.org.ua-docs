@@ -1,16 +1,11 @@
-Клас винятків для помилок intl
-
--   [« IntlChar::toupper](intlchar.toupper.html)
-    
--   [IntlIterator »](class.intliterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Клас винятків для помилок intl
-    
-
+---
+navigation:
+  - intlchar.toupper.html: '« IntlChar::toupper'
+  - class.intliterator.html: IntlIterator »
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Клас винятків для помилок intl
+---
 # Клас винятків для помилок intl
 
 (PHP 5 > 5.5.0, PHP 7, PHP 8, PECL intl > 3.0.0a1)

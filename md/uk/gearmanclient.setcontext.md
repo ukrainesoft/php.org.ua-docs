@@ -1,16 +1,11 @@
-Встановити контекст програми
-
--   [« GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.md)
-    
--   [GearmanClient::setCreatedCallback »](gearmanclient.setcreatedcallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Встановити контекст програми
-    
-
+---
+navigation:
+  - gearmanclient.setcompletecallback.md: '« GearmanClient::setCompleteCallback'
+  - gearmanclient.setcreatedcallback.md: 'GearmanClient::setCreatedCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setContext'
+---
 # GearmanClient::setContext
 
 (PECL gearman >= 0.6.0)

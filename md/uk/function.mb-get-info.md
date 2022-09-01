@@ -1,16 +1,11 @@
-Отримує внутрішні налаштування mbstring
-
--   [« mberegi](function.mb-eregi.html)
-    
--   [мбhttpinput »](function.mb-http-input.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Отримує внутрішні налаштування mbstring
-    
-
+---
+navigation:
+  - function.mb-eregi.html: « mberegi
+  - function.mb-http-input.html: мбhttpinput »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбgetinfo
+---
 # мбgetinfo
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ mb_get_info(string $type = "all"): array|string|int|false
 
 ### список змін
 
-| Версия | Описание                                                              |
-|--------|-----------------------------------------------------------------------|
-|        | `type` більше не підтримує `"func_overload"` і `"func_overload_list"` |
+| Версия | Описание |
+| --- | --- |
+|  | `type` більше не підтримує `"func_overload"` і `"func_overload_list"` |
 
 ### Дивіться також
 

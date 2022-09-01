@@ -1,16 +1,11 @@
-Callback-функції як об'єкти першого класу
-
--   [« Стрілкові функції](functions.arrow.html)
-    
--   [Класи та об'єкти »](language.oop5.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції](language.functions.html)
-    
--   Callback-функції як об'єкти першого класу
-    
-
+---
+navigation:
+  - functions.arrow.html: « Стрілкові функції
+  - language.oop5.html: Класи та об'єкти »
+  - index.html: PHP Manual
+  - language.functions.html: Функції
+title: Callback-функції як об'єкти першого класу
+---
 ## Callback-функції як об'єкти першого класу
 
 Callback-функції як об'єкти першого класу представлені в PHP 8.1.0 як спосіб створення [анонімних функцій](functions.anonymous.html) з [callback-функций](language.types.callable.html). Синтаксис замінює існуючий синтаксис виклику з використанням рядків та масивів. Перевага синтаксису полягає в тому, що він доступний для статичного аналізу та використовує область видимості у точці, де отримана callback-функція.

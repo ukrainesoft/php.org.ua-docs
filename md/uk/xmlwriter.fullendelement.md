@@ -1,16 +1,11 @@
-Завершити поточний елемент
-
--   [« XMLWriter::flush](xmlwriter.flush.html)
-    
--   [XMLWriter::openMemory »](xmlwriter.openmemory.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Завершити поточний елемент
-    
-
+---
+navigation:
+  - xmlwriter.flush.html: '« XMLWriter::flush'
+  - xmlwriter.openmemory.html: 'XMLWriter::openMemory »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::fullEndElement'
+---
 # XMLWriter::fullEndElement
 
 # xmlwriterfullendelement
@@ -47,9 +42,9 @@ xmlwriter_full_end_element(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

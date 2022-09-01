@@ -1,16 +1,11 @@
-Закриває сесію
-
--   [« SessionHandler](class.sessionhandler.md)
-    
--   [SessionHandler::createsid »](sessionhandler.create-sid.html)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandler](class.sessionhandler.md)
-    
--   Закриває сесію
-    
-
+---
+navigation:
+  - class.sessionhandler.md: « SessionHandler
+  - sessionhandler.create-sid.html: 'SessionHandler::createsid »'
+  - index.md: PHP Manual
+  - class.sessionhandler.md: SessionHandler
+title: 'SessionHandler::close'
+---
 # SessionHandler::close
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

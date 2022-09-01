@@ -1,16 +1,11 @@
-Клас SQLite3
-
--   [« Обумовлені константи](sqlite3.constants.html)
-    
--   [SQLite3::backup »](sqlite3.backup.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](book.sqlite3.html)
-    
--   Клас SQLite3
-    
-
+---
+navigation:
+  - sqlite3.constants.html: « Обумовлені константи
+  - sqlite3.backup.html: 'SQLite3::backup »'
+  - index.html: PHP Manual
+  - book.sqlite3.html: SQLite3
+title: Клас SQLite3
+---
 # Клас SQLite3
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

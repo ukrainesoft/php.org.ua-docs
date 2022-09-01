@@ -1,16 +1,11 @@
-Створює копію зображення
-
--   [« Imagick::identifyImage](imagick.identifyimage.md)
-    
--   [Imagick::importImagePixels »](imagick.importimagepixels.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює копію зображення
-    
-
+---
+navigation:
+  - imagick.identifyimage.md: '« Imagick::identifyImage'
+  - imagick.importimagepixels.md: 'Imagick::importImagePixels »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::implodeImage'
+---
 # Imagick::implodeImage
 
 (PECL imagick 2, PECL imagick 3)

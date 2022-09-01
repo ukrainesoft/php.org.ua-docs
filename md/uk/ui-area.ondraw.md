@@ -1,16 +1,11 @@
-Функція зворотного виклику під час малювання
-
--   [« UIArea](class.ui-area.html)
-    
--   [ОЙArea::onKey »](ui-area.onkey.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙArea](class.ui-area.html)
-    
--   Функція зворотного виклику під час малювання
-    
-
+---
+navigation:
+  - class.ui-area.html: « UIArea
+  - ui-area.onkey.html: 'ОЙArea::onKey »'
+  - index.html: PHP Manual
+  - class.ui-area.html: ОЙArea
+title: 'ОЙArea::onDraw'
+---
 # ОЙArea::onDraw
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Додає значення в поле без перенесення до найважливіших полів
-
--   [« IntlCalendar::isWeekend](intlcalendar.isweekend.md)
-    
--   [IntlCalendar::set »](intlcalendar.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Додає значення в поле без перенесення до найважливіших полів
-    
-
+---
+navigation:
+  - intlcalendar.isweekend.md: '« IntlCalendar::isWeekend'
+  - intlcalendar.set.md: 'IntlCalendar::set »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::roll'
+---
 # IntlCalendar::roll
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

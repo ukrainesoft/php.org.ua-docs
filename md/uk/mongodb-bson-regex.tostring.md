@@ -1,16 +1,11 @@
-Повертає рядкову виставу Regex
-
--   [« MongoDBBSONRegex::serialize](mongodb-bson-regex.serialize.html)
-    
--   [MongoDBBSONRegex::unserialize »](mongodb-bson-regex.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   Повертає рядкову виставу Regex
-    
-
+---
+navigation:
+  - mongodb-bson-regex.serialize.html: '« MongoDBBSONRegex::serialize'
+  - mongodb-bson-regex.unserialize.html: 'MongoDBBSONRegex::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::toString'
+---
 # MongoDBBSONRegex::toString
 
 (mongodb >=1.0.0)

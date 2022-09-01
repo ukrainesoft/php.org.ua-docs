@@ -1,16 +1,11 @@
-Створює новий об'єкт Spin
-
--   [« UIControlsSpin](class.ui-controls-spin.html)
-    
--   [ОЙControlsSpin::getValue »](ui-controls-spin.getvalue.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsSpin](class.ui-controls-spin.html)
-    
--   Створює новий об'єкт Spin
-    
-
+---
+navigation:
+  - class.ui-controls-spin.html: « UIControlsSpin
+  - ui-controls-spin.getvalue.html: 'ОЙControlsSpin::getValue »'
+  - index.html: PHP Manual
+  - class.ui-controls-spin.html: ОЙControlsSpin
+title: 'ОЙControlsSpin::construct'
+---
 # ОЙControlsSpin::construct
 
 (UI 0.9.9)

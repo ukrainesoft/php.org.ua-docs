@@ -1,16 +1,11 @@
-Опції RADIUS
-
--   [« Обумовлені константи](radius.constants.html)
-    
--   [типи пакетів RADIUS »](radius.constants.packets.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обумовлені константи](radius.constants.html)
-    
--   Опції RADIUS
-    
-
+---
+navigation:
+  - radius.constants.html: « Обумовлені константи
+  - radius.constants.packets.html: типи пакетів RADIUS »
+  - index.html: PHP Manual
+  - radius.constants.html: Обумовлені константи
+title: Опції RADIUS
+---
 ## Опції RADIUS
 
 Деякі функції RADIUS приймають опціональні прапори як маски біта. Константи, які мають ці опції, описані нижче.

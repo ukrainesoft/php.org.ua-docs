@@ -1,16 +1,11 @@
-Повертає документ FDF у вигляді рядка
-
--   [« fdfremoveitem](function.fdf-remove-item.html)
-    
--   [fdfsave »](function.fdf-save.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Повертає документ FDF у вигляді рядка
-    
-
+---
+navigation:
+  - function.fdf-remove-item.html: « fdfremoveitem
+  - function.fdf-save.html: fdfsave »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsavestring
+---
 # fdfsavestring
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

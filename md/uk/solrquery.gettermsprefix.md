@@ -1,16 +1,11 @@
-Повертає префікс виразу
-
--   [« SolrQuery::getTermsMinCount](solrquery.gettermsmincount.html)
-    
--   [SolrQuery::getTermsReturnRaw »](solrquery.gettermsreturnraw.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає префікс виразу
-    
-
+---
+navigation:
+  - solrquery.gettermsmincount.html: '« SolrQuery::getTermsMinCount'
+  - solrquery.gettermsreturnraw.html: 'SolrQuery::getTermsReturnRaw »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTermsPrefix'
+---
 # SolrQuery::getTermsPrefix
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Перевіряє наявність цифрових символів у рядку
-
--   [« ctypecntrl](function.ctype-cntrl.html)
-    
--   [ctypegraph »](function.ctype-graph.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції Ctype](ref.ctype.html)
-    
--   Перевіряє наявність цифрових символів у рядку
-    
-
+---
+navigation:
+  - function.ctype-cntrl.html: « ctypecntrl
+  - function.ctype-graph.html: ctypegraph »
+  - index.html: PHP Manual
+  - ref.ctype.html: Опції Ctype
+title: ctypedigit
+---
 # ctypedigit
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

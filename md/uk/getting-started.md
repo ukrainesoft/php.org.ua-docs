@@ -1,14 +1,10 @@
-Приступаючи до роботи
-
--   [« Предисловие](preface.md)
-    
--   [Введение »](introduction.md)
-    
--   [PHP Manual](index.md)
-    
--   Приступаючи до роботи
-    
-
+---
+navigation:
+  - preface.md: « Предисловие
+  - introduction.md: Введение »
+  - index.md: PHP Manual
+title: Приступаючи до роботи
+---
 # Приступаючи до роботи
 
 -   [Введение](introduction.md)

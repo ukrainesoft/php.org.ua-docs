@@ -1,16 +1,11 @@
-Відкочує транзакцію, розпочату sqlsrvbegintransaction
-
--   [« sqlsrvquery](function.sqlsrv-query.html)
-    
--   [sqlsrvrowsaffected »](function.sqlsrv-rows-affected.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Відкочує транзакцію, розпочату sqlsrvbegintransaction
-    
-
+---
+navigation:
+  - function.sqlsrv-query.html: « sqlsrvquery
+  - function.sqlsrv-rows-affected.html: sqlsrvrowsaffected »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvrollback
+---
 # sqlsrvrollback
 
 (No version information available, might only be in Git)

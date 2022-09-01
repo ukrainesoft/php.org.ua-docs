@@ -1,16 +1,11 @@
-Сплескує колекцію до одного значення використовуючи callback-функцію
-
--   [« DsSequence::push](ds-sequence.push.html)
-    
--   [ДсSequence::remove »](ds-sequence.remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Сплескує колекцію до одного значення використовуючи callback-функцію
-    
-
+---
+navigation:
+  - ds-sequence.push.html: '« DsSequence::push'
+  - ds-sequence.remove.html: 'ДсSequence::remove »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::reduce'
+---
 # ДсSequence::reduce
 
 (PECL ds >= 1.0.0)

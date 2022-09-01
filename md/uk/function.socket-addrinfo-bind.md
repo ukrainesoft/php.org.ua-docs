@@ -1,16 +1,11 @@
-Створити та прив'язати до сокету із вказаного addrinfo
-
--   [« socketaccept](function.socket-accept.html)
-    
--   [socketaddrinfoconnect »](function.socket-addrinfo-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Створити та прив'язати до сокету із вказаного addrinfo
-    
-
+---
+navigation:
+  - function.socket-accept.html: « socketaccept
+  - function.socket-addrinfo-connect.html: socketaddrinfoconnect »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketaddrinfobind
+---
 # socketaddrinfobind
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -37,10 +32,10 @@ socket_addrinfo_bind(AddressInfo $address): Socket|false
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
-|        | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource).                  |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+|  | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

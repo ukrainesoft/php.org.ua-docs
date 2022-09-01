@@ -1,16 +1,11 @@
-Встановити текст
-
--   [« UIControlsMultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.html)
-    
--   [ОЙControlsSpin »](class.ui-controls-spin.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
-    
--   Встановити текст
-    
-
+---
+navigation:
+  - ui-controls-multilineentry.setreadonly.html: '« UIControlsMultilineEntry::setReadOnly'
+  - class.ui-controls-spin.html: ОЙControlsSpin »
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::setText'
+---
 # ОЙControlsMultilineEntry::setText
 
 (UI 0.9.9)

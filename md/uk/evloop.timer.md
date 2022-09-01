@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvTimer, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::suspend](evloop.suspend.html)
-    
--   [EvLoop::verify »](evloop.verify.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Створює об'єкт спостерігача EvTimer, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.suspend.html: '« EvLoop::suspend'
+  - evloop.verify.html: 'EvLoop::verify »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::timer'
+---
 # EvLoop::timer
 
 (PECL ev >= 0.2.0)

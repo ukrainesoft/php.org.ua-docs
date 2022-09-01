@@ -1,16 +1,11 @@
-Повертає перший елемент колекції
-
--   [« DsSequence::find](ds-sequence.find.html)
-    
--   [ДсSequence::get »](ds-sequence.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає перший елемент колекції
-    
-
+---
+navigation:
+  - ds-sequence.find.html: '« DsSequence::find'
+  - ds-sequence.get.html: 'ДсSequence::get »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::first'
+---
 # ДсSequence::first
 
 (PECL ds >= 1.0.0)

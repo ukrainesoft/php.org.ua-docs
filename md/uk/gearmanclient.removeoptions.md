@@ -1,16 +1,11 @@
-Видалити опції клієнта
-
--   [« GearmanClient::ping](gearmanclient.ping.html)
-    
--   [GearmanClient::returnCode »](gearmanclient.returncode.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Видалити опції клієнта
-    
-
+---
+navigation:
+  - gearmanclient.ping.html: '« GearmanClient::ping'
+  - gearmanclient.returncode.html: 'GearmanClient::returnCode »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::removeOptions'
+---
 # GearmanClient::removeOptions
 
 (PECL gearman >= 0.6.0)

@@ -1,16 +1,11 @@
-Призначення autoload
-
--   [« YafLoader](class.yaf-loader.html)
-    
--   [YafLoader::clearLocalNamespace »](yaf-loader.clearlocalnamespace.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Призначення autoload
-    
-
+---
+navigation:
+  - class.yaf-loader.html: « YafLoader
+  - yaf-loader.clearlocalnamespace.html: 'YafLoader::clearLocalNamespace »'
+  - index.html: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::autoload'
+---
 # YafLoader::autoload
 
 (Yaf >=1.0.0)

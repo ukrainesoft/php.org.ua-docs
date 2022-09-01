@@ -1,16 +1,11 @@
-Надсилає HTTP-запит після встановлення параметрів
-
--   [« SwooleHttpClient::download](swoole-http-client.download.html)
-    
--   [SwooleHttpClient::get »](swoole-http-client.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Надсилає HTTP-запит після встановлення параметрів
-    
-
+---
+navigation:
+  - swoole-http-client.download.html: '« SwooleHttpClient::download'
+  - swoole-http-client.get.html: 'SwooleHttpClient::get »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::execute'
+---
 # SwooleHttpClient::execute
 
 (PECL swoole >= 1.9.0)

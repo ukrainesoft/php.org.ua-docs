@@ -1,16 +1,11 @@
-Клас SwooleTable
-
--   [« SwooleServer::tick](swoole-server.tick.html)
-    
--   [SwooleTable::column »](swoole-table.column.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleTable
-    
-
+---
+navigation:
+  - swoole-server.tick.html: '« SwooleServer::tick'
+  - swoole-table.column.html: 'SwooleTable::column »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleTable
+---
 # Клас SwooleTable
 
 (PECL swoole >= 1.9.0)

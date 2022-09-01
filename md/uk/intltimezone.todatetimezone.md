@@ -1,16 +1,11 @@
-Перетворити на об'єкт DateTimeZone
-
--   [« IntlTimeZone::hasSameRules](intltimezone.hassamerules.html)
-    
--   [IntlTimeZone::useDaylightTime »](intltimezone.usedaylighttime.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Перетворити на об'єкт DateTimeZone
-    
-
+---
+navigation:
+  - intltimezone.hassamerules.html: '« IntlTimeZone::hasSameRules'
+  - intltimezone.usedaylighttime.html: 'IntlTimeZone::useDaylightTime »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::toDateTimeZone'
+---
 # IntlTimeZone::toDateTimeZone
 
 # intltzтоdatetimezone

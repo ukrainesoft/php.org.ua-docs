@@ -1,16 +1,11 @@
-Функції Memcache
-
--   [« Memcache::setServerParams](memcache.setserverparams.html)
-    
--   [memcachedebug »](function.memcache-debug.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](book.memcache.html)
-    
--   Функції Memcache
-    
-
+---
+navigation:
+  - memcache.setserverparams.html: '« Memcache::setServerParams'
+  - function.memcache-debug.html: memcachedebug »
+  - index.html: PHP Manual
+  - book.memcache.html: Memcache
+title: Функції Memcache
+---
 # Функції Memcache
 
 ## Зміст

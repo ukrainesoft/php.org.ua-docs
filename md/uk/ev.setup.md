@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ev.md)
-    
--   [Вимоги »](ev.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ev.md: « Введение
+  - ev.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Клас MongoDBBSONMinKey
-
--   [« MongoDBBSONMaxKey::unserialize](mongodb-bson-maxkey.unserialize.html)
-    
--   [MongoDBBSONMinKey::construct »](mongodb-bson-minkey.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONMinKey
-    
-
+---
+navigation:
+  - mongodb-bson-maxkey.unserialize.html: '« MongoDBBSONMaxKey::unserialize'
+  - mongodb-bson-minkey.construct.html: 'MongoDBBSONMinKey::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONMinKey
+---
 # Клас MongoDBBSONMinKey
 
 (mongodb >=1.0.0)
@@ -49,9 +44,9 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия             | Описание                                                                                                  |
-|--------------------|-----------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.html)                  |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.html) |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст

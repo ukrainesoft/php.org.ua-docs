@@ -1,16 +1,11 @@
-Обумовлені винятки
-
--   [« $argv](reserved.variables.argv.html)
-    
--   [Exception »](class.exception.html)
-    
--   [PHP Manual](index.html)
-    
--   [Довідник мови](langref.html)
-    
--   Обумовлені винятки
-    
-
+---
+navigation:
+  - reserved.variables.argv.html: « $argv
+  - class.exception.html: Exception »
+  - index.html: PHP Manual
+  - langref.html: Довідник мови
+title: Обумовлені винятки
+---
 # Обумовлені винятки
 
 ## Зміст

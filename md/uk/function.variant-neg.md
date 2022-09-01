@@ -1,16 +1,11 @@
-Логічне заперечення над варіантом
-
--   [« variantmul](function.variant-mul.html)
-    
--   [variantnot »](function.variant-not.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Логічне заперечення над варіантом
-    
-
+---
+navigation:
+  - function.variant-mul.html: « variantmul
+  - function.variant-not.html: variantnot »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantneg
+---
 # variantneg
 
 (PHP 5, PHP 7, PHP 8)

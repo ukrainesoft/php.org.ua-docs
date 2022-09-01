@@ -1,16 +1,11 @@
-Створює новий вузол cdata
-
--   [« DOMDocument::createAttributeNS](domdocument.createattributens.md)
-    
--   [DOMDocument::createComment »](domdocument.createcomment.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створює новий вузол cdata
-    
-
+---
+navigation:
+  - domdocument.createattributens.md: '« DOMDocument::createAttributeNS'
+  - domdocument.createcomment.md: 'DOMDocument::createComment »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createCDATASection'
+---
 # DOMDocument::createCDATASection
 
 (PHP 5, PHP 7, PHP 8)

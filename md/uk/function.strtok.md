@@ -1,16 +1,11 @@
-Розбиває рядок на токени
-
--   [« strstr](function.strstr.md)
-    
--   [strtolower »](function.strtolower.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Розбиває рядок на токени
-    
-
+---
+navigation:
+  - function.strstr.md: « strstr
+  - function.strtolower.md: strtolower »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strtok
+---
 # strtok
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

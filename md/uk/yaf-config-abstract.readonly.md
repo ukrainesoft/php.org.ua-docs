@@ -1,16 +1,11 @@
-Знаходить конфігурацію лише для читання
-
--   [« YafConfigAbstract::get](yaf-config-abstract.get.html)
-    
--   [YafConfigAbstract::set »](yaf-config-abstract.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigAbstract](class.yaf-config-abstract.html)
-    
--   Знаходить конфігурацію лише для читання
-    
-
+---
+navigation:
+  - yaf-config-abstract.get.html: '« YafConfigAbstract::get'
+  - yaf-config-abstract.set.html: 'YafConfigAbstract::set »'
+  - index.md: PHP Manual
+  - class.yaf-config-abstract.html: YafConfigAbstract
+title: 'YafConfigAbstract::readonly'
+---
 # YafConfigAbstract::readonly
 
 (Yaf >=1.0.0)

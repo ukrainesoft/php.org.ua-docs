@@ -1,16 +1,11 @@
-Отримати алфавіт для локалі
-
--   [« Locale::getRegion](locale.getregion.md)
-    
--   [Locale::lookup »](locale.lookup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Отримати алфавіт для локалі
-    
-
+---
+navigation:
+  - locale.getregion.md: '« Locale::getRegion'
+  - locale.lookup.md: 'Locale::lookup »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::getScript'
+---
 # Locale::getScript
 
 # localegetscript

@@ -1,16 +1,11 @@
-Включити/вимкнути виведення налагоджувальної інформації
-
--   [« Функции Memcache](ref.memcache.md)
-    
--   [Memcached »](book.memcached.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Memcache](ref.memcache.md)
-    
--   Включити/вимкнути виведення налагоджувальної інформації
-    
-
+---
+navigation:
+  - ref.memcache.md: « Функции Memcache
+  - book.memcached.md: Memcached »
+  - index.md: PHP Manual
+  - ref.memcache.md: Функции Memcache
+title: memcachedebug
+---
 # memcachedebug
 
 (PECL memcache >= 0.2.0)

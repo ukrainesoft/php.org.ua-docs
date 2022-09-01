@@ -1,16 +1,11 @@
-Звільняє дескриптор
-
--   [« ocifieldtype](function.oci-field-type.html)
-    
--   [ocifreestatement »](function.oci-free-statement.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Звільняє дескриптор
-    
-
+---
+navigation:
+  - function.oci-field-type.html: « ocifieldtype
+  - function.oci-free-statement.html: ocifreestatement »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocifreedescriptor
+---
 # ocifreedescriptor
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

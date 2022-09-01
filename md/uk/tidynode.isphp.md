@@ -1,16 +1,11 @@
-Перевіряє, чи є поточний вузол PHP-кодом
-
--   [« tidyNode::isJste](tidynode.isjste.md)
-    
--   [tidyNode::isText »](tidynode.istext.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidyNode](class.tidynode.md)
-    
--   Перевіряє, чи є поточний вузол PHP-кодом
-    
-
+---
+navigation:
+  - tidynode.isjste.md: '« tidyNode::isJste'
+  - tidynode.istext.md: 'tidyNode::isText »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
+title: 'tidyNode::isPhp'
+---
 # tidyNode::isPhp
 
 (PHP 5, PHP 7, PHP 8)

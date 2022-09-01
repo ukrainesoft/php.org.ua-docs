@@ -1,16 +1,11 @@
-Відновлює початкове значення конфігураційної установки includepath
-
--   [« putenv](function.putenv.md)
-    
--   [setincludepath »](function.set-include-path.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Відновлює початкове значення конфігураційної установки includepath
-    
-
+---
+navigation:
+  - function.putenv.md: « putenv
+  - function.set-include-path.html: setincludepath »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: restoreincludepath
+---
 # restoreincludepath
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7)

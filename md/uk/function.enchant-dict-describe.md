@@ -1,16 +1,11 @@
-Повертає інформацію про словник
-
--   [« enchantdictcheck](function.enchant-dict-check.html)
-    
--   [enchantdictgeterror »](function.enchant-dict-get-error.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Enchant](ref.enchant.html)
-    
--   Повертає інформацію про словник
-    
-
+---
+navigation:
+  - function.enchant-dict-check.html: « enchantdictcheck
+  - function.enchant-dict-get-error.html: enchantdictgeterror »
+  - index.html: PHP Manual
+  - ref.enchant.html: Функции Enchant
+title: enchantdictdescribe
+---
 # enchantdictdescribe
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -37,10 +32,10 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | До цієї версії функція повертала **`false`** у разі виникнення помилки.                                                                               |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

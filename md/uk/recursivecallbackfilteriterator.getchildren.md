@@ -1,16 +1,11 @@
-Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
-
--   [« RecursiveCallbackFilterIterator::construct](recursivecallbackfilteriterator.construct.html)
-    
--   [RecursiveCallbackFilterIterator::hasChildren »](recursivecallbackfilteriterator.haschildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html)
-    
--   Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
-    
-
+---
+navigation:
+  - recursivecallbackfilteriterator.construct.html: '« RecursiveCallbackFilterIterator::construct'
+  - recursivecallbackfilteriterator.haschildren.html: 'RecursiveCallbackFilterIterator::hasChildren »'
+  - index.html: PHP Manual
+  - class.recursivecallbackfilteriterator.html: RecursiveCallbackFilterIterator
+title: 'RecursiveCallbackFilterIterator::getChildren'
+---
 # RecursiveCallbackFilterIterator::getChildren
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

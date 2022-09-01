@@ -1,16 +1,11 @@
-Клас YafRouteSupervar
-
--   [« YafRouteStatic::route](yaf-route-static.route.html)
-    
--   [YafRouteSupervar::assemble »](yaf-route-supervar.assemble.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRouteSupervar
-    
-
+---
+navigation:
+  - yaf-route-static.route.html: '« YafRouteStatic::route'
+  - yaf-route-supervar.assemble.html: 'YafRouteSupervar::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRouteSupervar
+---
 # Клас YafRouteSupervar
 
 (Yaf >=1.0.0)

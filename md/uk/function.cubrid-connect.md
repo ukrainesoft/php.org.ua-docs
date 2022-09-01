@@ -1,16 +1,11 @@
-Відкриває з'єднання з сервером CUBRID
-
--   [« cubridconnectwithurl](function.cubrid-connect-with-url.html)
-    
--   [cubridcurrentoid »](function.cubrid-current-oid.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Відкриває з'єднання з сервером CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-connect-with-url.html: « cubridconnectwithurl
+  - function.cubrid-current-oid.html: cubridcurrentoid »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridconnect
+---
 # cubridconnect
 
 (PECL CUBRID >= 8.3.1)

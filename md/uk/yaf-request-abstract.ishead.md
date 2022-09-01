@@ -1,16 +1,11 @@
-Визначає, чи є запит HEAD-запитом
-
--   [« YafRequestAbstract::isGet](yaf-request-abstract.isget.html)
-    
--   [YafRequestAbstract::isOptions »](yaf-request-abstract.isoptions.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи є запит HEAD-запитом
-    
-
+---
+navigation:
+  - yaf-request-abstract.isget.html: '« YafRequestAbstract::isGet'
+  - yaf-request-abstract.isoptions.html: 'YafRequestAbstract::isOptions »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isHead'
+---
 # YafRequestAbstract::isHead
 
 (Yaf >=1.0.0)

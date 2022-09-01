@@ -1,16 +1,11 @@
-Повідомляє положення курсору LOB-об'єкта
-
--   [« cubridlob2tell64](function.cubrid-lob2-tell64.html)
-    
--   [cubridlob2write »](function.cubrid-lob2-write.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Повідомляє положення курсору LOB-об'єкта
-    
-
+---
+navigation:
+  - function.cubrid-lob2-tell64.html: « cubridlob2tell64
+  - function.cubrid-lob2-write.html: cubridlob2write »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2tell
+---
 # cubridlob2tell
 
 (PECL CUBRID >= 8.4.1)

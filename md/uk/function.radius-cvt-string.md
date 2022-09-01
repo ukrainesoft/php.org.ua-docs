@@ -1,16 +1,11 @@
-Перетворює необроблені дані на рядок
-
--   [« radiuscvtint](function.radius-cvt-int.html)
-    
--   [radiusdemanglemppekey »](function.radius-demangle-mppe-key.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Перетворює необроблені дані на рядок
-    
-
+---
+navigation:
+  - function.radius-cvt-int.html: « radiuscvtint
+  - function.radius-demangle-mppe-key.html: radiusdemanglemppekey »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiuscvtstring
+---
 # radiuscvtstring
 
 (PECL radius >= 1.1.0)

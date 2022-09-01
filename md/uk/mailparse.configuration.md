@@ -1,25 +1,20 @@
-Налаштування під час виконання
-
--   [« Установка](mailparse.installation.md)
-    
--   [Типи ресурсів »](mailparse.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mailparse.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - mailparse.installation.md: « Установка
+  - mailparse.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - mailparse.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Mailparse**
 
-| Имя                                                                            | По умолчанию | Место изменения | Список изменений |
-|--------------------------------------------------------------------------------|--------------|-----------------|------------------|
-| [mailparse.defcharset](mailparse.configuration.html#ini.mailparse.def_charset) | "us-ascii"   | PHPINISYSTEM    |                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [mailparse.defcharset](mailparse.configuration.html#ini.mailparse.def_charset) | "us-ascii" | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

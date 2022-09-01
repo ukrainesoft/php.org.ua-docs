@@ -1,16 +1,11 @@
-Опис конструктора
-
--   [« Session::commit](mysql-xdevapi-session.commit.html)
-    
--   [Session::createSchema »](mysql-xdevapi-session.createschema.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Опис конструктора
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.commit.html: '« Session::commit'
+  - mysql-xdevapi-session.createschema.html: 'Session::createSchema »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::construct'
+---
 # Session::construct
 
 (No version information available, might only be in Git)

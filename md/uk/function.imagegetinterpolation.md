@@ -1,16 +1,11 @@
-Отримує метод інтерполяції
-
--   [« imagegetclip](function.imagegetclip.md)
-    
--   [imagegif »](function.imagegif.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримує метод інтерполяції
-    
-
+---
+navigation:
+  - function.imagegetclip.md: « imagegetclip
+  - function.imagegif.md: imagegif »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagegetinterpolation
+---
 # imagegetinterpolation
 
 (PHP 8)
@@ -37,9 +32,9 @@ imagegetinterpolation(GdImage $image): int
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

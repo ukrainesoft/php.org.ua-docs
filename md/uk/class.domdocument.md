@@ -1,16 +1,11 @@
-Клас DOMDocument
-
--   [« DOMComment::construct](domcomment.construct.html)
-    
--   [DOMDocument::construct »](domdocument.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Клас DOMDocument
-    
-
+---
+navigation:
+  - domcomment.construct.html: '« DOMComment::construct'
+  - domdocument.construct.html: 'DOMDocument::construct »'
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Клас DOMDocument
+---
 # Клас DOMDocument
 
 (PHP 5, PHP 7, PHP 8)
@@ -357,10 +352,10 @@ xmlVersion
 
 ## список змін
 
-| Версия | Описание                                                                                |
-|--------|-----------------------------------------------------------------------------------------|
-|        | Клас **DOMDocument** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) |
-|        | Нереалізований метод **DOMDocument::renameNode()** був видалений.                       |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **DOMDocument** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) |
+|  | Нереалізований метод **DOMDocument::renameNode()** був видалений. |
 
 ## Примітки
 

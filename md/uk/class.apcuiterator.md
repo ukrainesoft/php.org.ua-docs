@@ -1,16 +1,11 @@
-Клас APCUIterator
-
--   [« apcustore](function.apcu-store.html)
-    
--   [APCUIterator::construct »](apcuiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCu](book.apcu.md)
-    
--   Клас APCUIterator
-    
-
+---
+navigation:
+  - function.apcu-store.html: « apcustore
+  - apcuiterator.construct.md: 'APCUIterator::construct »'
+  - index.md: PHP Manual
+  - book.apcu.md: APCu
+title: Клас APCUIterator
+---
 # Клас APCUIterator
 
 (PECL apcu >= 5.0.0)

@@ -1,16 +1,11 @@
-win32service
-
--   [« variantxor](function.variant-xor.html)
-    
--   [Введение »](intro.win32service.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі лише для Windows](refs.utilspec.windows.md)
-    
--   win32service
-    
-
+---
+navigation:
+  - function.variant-xor.html: « variantxor
+  - intro.win32service.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.windows.md: Модулі лише для Windows
+title: win32service
+---
 # win32service
 
 -   [Введение](intro.win32service.md)

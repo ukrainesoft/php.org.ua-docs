@@ -1,16 +1,11 @@
-Псевдонім getmxrr
-
--   [« dnscheckrecord](function.dns-check-record.html)
-    
--   [dnsgetrecord »](function.dns-get-record.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Псевдонім getmxrr
-    
-
+---
+navigation:
+  - function.dns-check-record.html: « dnscheckrecord
+  - function.dns-get-record.html: dnsgetrecord »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: dnsgetмкс
+---
 # dnsgetмкс
 
 (PHP 5, PHP 7, PHP 8)

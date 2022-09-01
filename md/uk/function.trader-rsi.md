@@ -1,16 +1,11 @@
-Індекс відносної сили
-
--   [« traderrocr](function.trader-rocr.html)
-    
--   [tradersar »](function.trader-sar.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Індекс відносної сили
-    
-
+---
+navigation:
+  - function.trader-rocr.html: « traderrocr
+  - function.trader-sar.html: tradersar »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderrsi
+---
 # traderrsi
 
 (PECL trader >= 0.2.0)

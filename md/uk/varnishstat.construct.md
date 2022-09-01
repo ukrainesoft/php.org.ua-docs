@@ -1,16 +1,11 @@
-Конструктор VarnishStat
-
--   [« VarnishStat](class.varnishstat.html)
-    
--   [VarnishStat::getSnapshot »](varnishstat.getsnapshot.html)
-    
--   [PHP Manual](index.html)
-    
--   [VarnishStat](class.varnishstat.html)
-    
--   Конструктор VarnishStat
-    
-
+---
+navigation:
+  - class.varnishstat.html: « VarnishStat
+  - varnishstat.getsnapshot.html: 'VarnishStat::getSnapshot »'
+  - index.html: PHP Manual
+  - class.varnishstat.html: VarnishStat
+title: 'ВарнішСтат::construct'
+---
 # ВарнішСтат::construct
 
 (PECL varnish >= 0.3)

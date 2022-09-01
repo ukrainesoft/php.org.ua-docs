@@ -1,16 +1,11 @@
-Встановити або отримати час очікування imap
-
--   [« imapthread](function.imap-thread.html)
-    
--   [imapuid »](function.imap-uid.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Встановити або отримати час очікування imap
-    
-
+---
+navigation:
+  - function.imap-thread.html: « imapthread
+  - function.imap-uid.html: imapuid »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imaptimeout
+---
 # imaptimeout
 
 (PHP 4> = 4.3.3, PHP 5, PHP 7, PHP 8)

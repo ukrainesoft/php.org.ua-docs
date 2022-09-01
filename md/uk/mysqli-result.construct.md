@@ -1,16 +1,11 @@
-Конструктор об'єкту mysqliresult
-
--   [« mysqliresult](class.mysqli-result.html)
-    
--   [mysqliresult::$currentfield »](mysqli-result.current-field.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Конструктор об'єкту mysqliresult
-    
-
+---
+navigation:
+  - class.mysqli-result.html: « mysqliresult
+  - mysqli-result.current-field.html: 'mysqliresult::$currentfield »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::construct'
+---
 # mysqliresult::construct
 
 (PHP 5, PHP 7, PHP 8)

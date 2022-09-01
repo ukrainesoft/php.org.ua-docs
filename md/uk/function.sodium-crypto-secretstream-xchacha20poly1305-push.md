@@ -1,16 +1,11 @@
-Шифрує фрагмент даних, щоб його можна було безпечно розшифрувати потоковим API
-
--   [« sodiumcryptosecretstreamxchacha20poly1305pull](function.sodium-crypto-secretstream-xchacha20poly1305-pull.html)
-    
--   [sodiumcryptosecretstreamxchacha20poly1305rekey »](function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Шифрує фрагмент даних, щоб його можна було безпечно розшифрувати потоковим API
-    
-
+---
+navigation:
+  - function.sodium-crypto-secretstream-xchacha20poly1305-pull.html: « sodiumcryptosecretstreamxchacha20poly1305pull
+  - function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html: sodiumcryptosecretstreamxchacha20poly1305rekey »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosecretstreamxchacha20poly1305push
+---
 # sodiumcryptosecretstreamxchacha20poly1305push
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Додає/вставляє нове значення за вказаним індексом
-
--   [« SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   [SplDoublyLinkedList::bottom »](spldoublylinkedlist.bottom.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Додає/вставляє нове значення за вказаним індексом
-    
-
+---
+navigation:
+  - class.spldoublylinkedlist.md: « SplDoublyLinkedList
+  - spldoublylinkedlist.bottom.md: 'SplDoublyLinkedList::bottom »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::add'
+---
 # SplDoublyLinkedList::add
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](swoole.configuration.md)
-    
--   [Обумовлені константи »](swoole.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](swoole.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - swoole.configuration.md: « Налаштування під час виконання
+  - swoole.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - swoole.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

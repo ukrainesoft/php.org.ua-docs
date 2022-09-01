@@ -1,16 +1,11 @@
-Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
-
--   [« db2commit](function.db2-commit.html)
-    
--   [db2connerrormsg »](function.db2-conn-errormsg.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
-    
-
+---
+navigation:
+  - function.db2-commit.html: « db2commit
+  - function.db2-conn-errormsg.html: db2connerrormsg »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2connerror
+---
 # db2connerror
 
 (PECL ibmdb2> = 1.0.0)

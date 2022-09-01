@@ -1,16 +1,11 @@
-Індикатор Балансового об'єму
-
--   [« tradernatr](function.trader-natr.html)
-    
--   [traderplusdi »](function.trader-plus-di.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Індикатор Балансового об'єму
-    
-
+---
+navigation:
+  - function.trader-natr.html: « tradernatr
+  - function.trader-plus-di.html: traderplusdi »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderobv
+---
 # traderobv
 
 (PECL trader >= 0.2.0)

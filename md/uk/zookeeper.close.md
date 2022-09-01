@@ -1,16 +1,11 @@
-Закриває обробник zookeeper та звільняє будь-які ресурси
-
--   [« Zookeeper::addAuth](zookeeper.addauth.md)
-    
--   [Zookeeper::connect »](zookeeper.connect.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zookeeper](class.zookeeper.md)
-    
--   Закриває обробник zookeeper та звільняє будь-які ресурси
-    
-
+---
+navigation:
+  - zookeeper.addauth.md: '« Zookeeper::addAuth'
+  - zookeeper.connect.md: 'Zookeeper::connect »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
+title: 'Zookeeper::close'
+---
 # Zookeeper::close
 
 (PECL zookeeper >= 0.5.0)

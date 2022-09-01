@@ -1,16 +1,11 @@
-Додати лист
-
--   [« VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   [VtifulKernelExcel::autoFilter »](vtiful-kernel-excel.autoFilter.html)
-    
--   [PHP Manual](index.html)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Додати лист
-    
-
+---
+navigation:
+  - class.vtiful-kernel-excel.html: « VtifulKernelExcel
+  - vtiful-kernel-excel.autoFilter.html: 'VtifulKernelExcel::autoFilter »'
+  - index.html: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::addSheet'
+---
 # VtifulKernelExcel::addSheet
 
 (PECL xlswriter >= 1.2.1)

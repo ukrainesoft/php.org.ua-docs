@@ -1,16 +1,11 @@
-Перевірити, чи зашифрований текст містить допустимий тег
-
--   [« sodiumcryptoaeadchacha20poly1305encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.html)
-    
--   [sodiumcryptoaeadchacha20poly1305ietfencrypt »](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Перевірити, чи зашифрований текст містить допустимий тег
-    
-
+---
+navigation:
+  - function.sodium-crypto-aead-chacha20poly1305-encrypt.html: « sodiumcryptoaeadchacha20poly1305encrypt
+  - function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html: sodiumcryptoaeadchacha20poly1305ietfencrypt »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoaeadchacha20poly1305ietfdecrypt
+---
 # sodiumcryptoaeadchacha20poly1305ietfdecrypt
 
 (PHP 7> = 7.2.0, PHP 8)

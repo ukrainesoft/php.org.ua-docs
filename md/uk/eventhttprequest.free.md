@@ -1,16 +1,11 @@
-Звільняє об'єкт та видаляє пов'язані події
-
--   [« EventHttpRequest::findHeader](eventhttprequest.findheader.md)
-    
--   [EventHttpRequest::getBufferEvent »](eventhttprequest.getbufferevent.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Звільняє об'єкт та видаляє пов'язані події
-    
-
+---
+navigation:
+  - eventhttprequest.findheader.md: '« EventHttpRequest::findHeader'
+  - eventhttprequest.getbufferevent.md: 'EventHttpRequest::getBufferEvent »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::free'
+---
 # EventHttpRequest::free
 
 (PECL event >= 1.4.0-beta)

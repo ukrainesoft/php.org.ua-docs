@@ -1,16 +1,11 @@
-Повертає стиль шрифту
-
--   [« GmagickDraw::getfontsize](gmagickdraw.getfontsize.md)
-    
--   [GmagickDraw::getfontweight »](gmagickdraw.getfontweight.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Повертає стиль шрифту
-    
-
+---
+navigation:
+  - gmagickdraw.getfontsize.md: '« GmagickDraw::getfontsize'
+  - gmagickdraw.getfontweight.md: 'GmagickDraw::getfontweight »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getfontstyle'
+---
 # GmagickDraw::getfontstyle
 
 (PECL gmagick >= Unknown)

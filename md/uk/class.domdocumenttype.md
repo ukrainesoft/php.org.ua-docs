@@ -1,16 +1,11 @@
-Клас DOMDocumentType
-
--   [« DOMDocumentFragment::construct](domdocumentfragment.construct.md)
-    
--   [DOMElement »](class.domelement.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMDocumentType
-    
-
+---
+navigation:
+  - domdocumentfragment.construct.md: '« DOMDocumentFragment::construct'
+  - class.domelement.md: DOMElement »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMDocumentType
+---
 # Клас DOMDocumentType
 
 (PHP 5, PHP 7, PHP 8)

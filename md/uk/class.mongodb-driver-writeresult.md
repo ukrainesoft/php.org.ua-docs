@@ -1,16 +1,11 @@
-Клас MongoDBDriverWriteResult
-
--   [« MongoDBDriverWriteError::getMessage](mongodb-driver-writeerror.getmessage.html)
-    
--   [MongoDBDriverWriteResult::getDeletedCount »](mongodb-driver-writeresult.getdeletedcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverWriteResult
-    
-
+---
+navigation:
+  - mongodb-driver-writeerror.getmessage.html: '« MongoDBDriverWriteError::getMessage'
+  - mongodb-driver-writeresult.getdeletedcount.html: 'MongoDBDriverWriteResult::getDeletedCount »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverWriteResult
+---
 # Клас MongoDBDriverWriteResult
 
 (mongodb >=1.0.0)

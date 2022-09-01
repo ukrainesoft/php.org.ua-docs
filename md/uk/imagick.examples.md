@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](imagick.constants.md)
-    
--   [Базовое использование »](imagick.examples-1.html)
-    
--   [PHP Manual](index.md)
-    
--   [ImageMagick](book.imagick.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - imagick.constants.md: « Обумовлені константи
+  - imagick.examples-1.html: Базовое использование »
+  - index.md: PHP Manual
+  - book.imagick.md: ImageMagick
+title: Приклади
+---
 # Приклади
 
 ## Зміст

@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](sqlsrv.setup.md)
-    
--   [Установка »](sqlsrv.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](sqlsrv.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - sqlsrv.setup.md: « Встановлення та налаштування
+  - sqlsrv.installation.md: Установка »
+  - index.md: PHP Manual
+  - sqlsrv.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Модуль SQLSRV може використовуватися в таких операційних системах:

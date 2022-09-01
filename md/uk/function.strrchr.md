@@ -1,16 +1,11 @@
-Знаходить останнє входження символу в рядку
-
--   [« strpos](function.strpos.md)
-    
--   [strrev »](function.strrev.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Знаходить останнє входження символу в рядку
-    
-
+---
+navigation:
+  - function.strpos.md: « strpos
+  - function.strrev.md: strrev »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strrchr
+---
 # strrchr
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,10 +38,10 @@ strrchr(string $haystack, string $needle): string|false
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Передача цілого числа (int) `needle` більше не підтримується. |
-|        | Передача цілого числа (int) `needle` оголошено застарілою.    |
+| Версия | Описание |
+| --- | --- |
+|  | Передача цілого числа (int) `needle` більше не підтримується. |
+|  | Передача цілого числа (int) `needle` оголошено застарілою. |
 
 ### Приклади
 

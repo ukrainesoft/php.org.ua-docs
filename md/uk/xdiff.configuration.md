@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](xdiff.installation.html)
-    
--   [Типи ресурсів »](xdiff.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](xdiff.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - xdiff.installation.html: « Установка
+  - xdiff.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - xdiff.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

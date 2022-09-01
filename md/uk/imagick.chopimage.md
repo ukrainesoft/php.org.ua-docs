@@ -1,16 +1,11 @@
-Видаляє область зображення та обрізає його
-
--   [« Imagick::charcoalImage](imagick.charcoalimage.html)
-    
--   [Imagick::clampImage »](imagick.clampimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Видаляє область зображення та обрізає його
-    
-
+---
+navigation:
+  - imagick.charcoalimage.html: '« Imagick::charcoalImage'
+  - imagick.clampimage.html: 'Imagick::clampImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::chopImage'
+---
 # Imagick::chopImage
 
 (PECL imagick 2, PECL imagick 3)

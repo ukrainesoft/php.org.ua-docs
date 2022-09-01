@@ -1,16 +1,11 @@
-Вступ
-
--   [« ImageMagick](book.imagick.html)
-    
--   [Встановлення та налаштування »](imagick.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImageMagick](book.imagick.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.imagick.html: « ImageMagick
+  - imagick.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.imagick.html: ImageMagick
+title: Вступ
+---
 # Вступ
 
 Imagick є вбудованим PHP модулем для створення і зміни зображень використовуючи API ImageMagick.

@@ -1,16 +1,11 @@
-Отримує значення
-
--   [« ReflectionProperty::getType](reflectionproperty.gettype.html)
-    
--   [ReflectionProperty::hasDefaultValue »](reflectionproperty.hasdefaultvalue.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Отримує значення
-    
-
+---
+navigation:
+  - reflectionproperty.gettype.html: '« ReflectionProperty::getType'
+  - reflectionproperty.hasdefaultvalue.html: 'ReflectionProperty::hasDefaultValue »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::getValue'
+---
 # ReflectionProperty::getValue
 
 (PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ public ReflectionProperty::getValue(?object $object = null): mixed
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `object` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `object` тепер допускає значення null. |
 
 ### Приклади
 

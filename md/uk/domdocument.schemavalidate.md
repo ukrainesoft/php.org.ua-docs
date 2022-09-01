@@ -1,16 +1,11 @@
-Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
-
--   [« DOMDocument::saveXML](domdocument.savexml.md)
-    
--   [DOMDocument::schemaValidateSource »](domdocument.schemavalidatesource.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
-    
-
+---
+navigation:
+  - domdocument.savexml.md: '« DOMDocument::saveXML'
+  - domdocument.schemavalidatesource.md: 'DOMDocument::schemaValidateSource »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::schemaValidate'
+---
 # DOMDocument::schemaValidate
 
 (PHP 5, PHP 7, PHP 8)

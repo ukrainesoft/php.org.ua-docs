@@ -1,16 +1,11 @@
-Додає кількість (зі знаком) часу у полі
-
--   [« IntlCalendar](class.intlcalendar.md)
-    
--   [IntlCalendar::after »](intlcalendar.after.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Додає кількість (зі знаком) часу у полі
-    
-
+---
+navigation:
+  - class.intlcalendar.md: « IntlCalendar
+  - intlcalendar.after.md: 'IntlCalendar::after »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::add'
+---
 # IntlCalendar::add
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

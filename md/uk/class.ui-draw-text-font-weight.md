@@ -1,16 +1,11 @@
-Налаштування зображення шрифту
-
--   [« UIrun](function.ui-run.html)
-    
--   [ОЙDrawTextFontItalic »](class.ui-draw-text-font-italic.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Налаштування зображення шрифту
-    
-
+---
+navigation:
+  - function.ui-run.html: « UIrun
+  - class.ui-draw-text-font-italic.html: ОЙDrawTextFontItalic »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Налаштування зображення шрифту
+---
 # Налаштування зображення шрифту
 
 (UI 0.9.9)

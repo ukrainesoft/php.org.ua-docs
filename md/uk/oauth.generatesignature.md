@@ -1,16 +1,11 @@
-Згенерувати підпис
-
--   [« OAuth::fetch](oauth.fetch.md)
-    
--   [OAuth::getAccessToken »](oauth.getaccesstoken.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Згенерувати підпис
-    
-
+---
+navigation:
+  - oauth.fetch.md: '« OAuth::fetch'
+  - oauth.getaccesstoken.md: 'OAuth::getAccessToken »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::generateSignature'
+---
 # OAuth::generateSignature
 
 (No version information available, might only be in Git)

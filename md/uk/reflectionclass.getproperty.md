@@ -1,16 +1,11 @@
-Повертає екземпляр ReflectionProperty для якості класу
-
--   [« ReflectionClass::getProperties](reflectionclass.getproperties.md)
-    
--   [ReflectionClass::getReflectionConstant »](reflectionclass.getreflectionconstant.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає екземпляр ReflectionProperty для якості класу
-    
-
+---
+navigation:
+  - reflectionclass.getproperties.md: '« ReflectionClass::getProperties'
+  - reflectionclass.getreflectionconstant.md: 'ReflectionClass::getReflectionConstant »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getProperty'
+---
 # ReflectionClass::getProperty
 
 (PHP 5, PHP 7, PHP 8)

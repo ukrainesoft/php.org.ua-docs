@@ -1,16 +1,11 @@
-Створення нового об'єкта SimpleXMLElement
-
--   [« SimpleXMLElement::children](simplexmlelement.children.html)
-    
--   [SimpleXMLElement::count »](simplexmlelement.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [SimpleXMLElement](class.simplexmlelement.html)
-    
--   Створення нового об'єкта SimpleXMLElement
-    
-
+---
+navigation:
+  - simplexmlelement.children.html: '« SimpleXMLElement::children'
+  - simplexmlelement.count.html: 'SimpleXMLElement::count »'
+  - index.html: PHP Manual
+  - class.simplexmlelement.html: SimpleXMLElement
+title: 'SimpleXMLElement::construct'
+---
 # SimpleXMLElement::construct
 
 (PHP 5, PHP 7, PHP 8)

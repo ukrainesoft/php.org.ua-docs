@@ -1,16 +1,11 @@
-Спадкування винятків
-
--   [« Исключения](language.exceptions.md)
-    
--   [Fibers »](language.fibers.md)
-    
--   [PHP Manual](index.md)
-    
--   [Исключения](language.exceptions.md)
-    
--   Спадкування винятків
-    
-
+---
+navigation:
+  - language.exceptions.md: « Исключения
+  - language.fibers.md: Fibers »
+  - index.md: PHP Manual
+  - language.exceptions.md: Исключения
+title: Спадкування винятків
+---
 ## Спадкування винятків
 
 Визначений користувачем клас виключення має бути визначений, як клас розширюючий (успадкований) вбудований клас Exception. Нижче наведено методи та властивості класу Exception, доступні дочірнім класам.

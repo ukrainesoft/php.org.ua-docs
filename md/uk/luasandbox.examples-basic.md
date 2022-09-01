@@ -1,16 +1,11 @@
-Базове використання LuaSandbox
-
--   [« Приклади](luasandbox.examples.md)
-    
--   [LuaSandbox »](class.luasandbox.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](luasandbox.examples.md)
-    
--   Базове використання LuaSandbox
-    
-
+---
+navigation:
+  - luasandbox.examples.md: « Приклади
+  - class.luasandbox.md: LuaSandbox »
+  - index.md: PHP Manual
+  - luasandbox.examples.md: Приклади
+title: Базове використання LuaSandbox
+---
 ## Базове використання LuaSandbox
 
 Після того, як ви скомпілювали PHP з підтримкою LuaSandbox, ви можете почати використовувати LuaSandbox для безпечного виконання наданого користувачем коду Lua.

@@ -1,16 +1,11 @@
-Створення нового зображення на основі GD файлу або URL
-
--   [« imagecreatefromgd2part](function.imagecreatefromgd2part.html)
-    
--   [imagecreatefromgif »](function.imagecreatefromgif.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Створення нового зображення на основі GD файлу або URL
-    
-
+---
+navigation:
+  - function.imagecreatefromgd2part.html: « imagecreatefromgd2part
+  - function.imagecreatefromgif.html: imagecreatefromgif »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagecreatefromgd
+---
 # imagecreatefromgd
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagecreatefromgd(string $filename): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
 
 ### Приклади
 

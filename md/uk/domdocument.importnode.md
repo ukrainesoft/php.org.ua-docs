@@ -1,16 +1,11 @@
-Імпортувати вузол у поточний документ
-
--   [« DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.md)
-    
--   [DOMDocument::load »](domdocument.load.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Імпортувати вузол у поточний документ
-    
-
+---
+navigation:
+  - domdocument.getelementsbytagnamens.md: '« DOMDocument::getElementsByTagNameNS'
+  - domdocument.load.md: 'DOMDocument::load »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::importNode'
+---
 # DOMDocument::importNode
 
 (PHP 5, PHP 7, PHP 8)

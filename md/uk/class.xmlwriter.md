@@ -1,16 +1,11 @@
-Клас XMLWriter
-
--   [« Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.html)
-    
--   [XMLWriter::endAttribute »](xmlwriter.endattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](book.xmlwriter.md)
-    
--   Клас XMLWriter
-    
-
+---
+navigation:
+  - example.xmlwriter-oop.html: « Робота з об'єктно-орієнтованим API
+  - xmlwriter.endattribute.md: 'XMLWriter::endAttribute »'
+  - index.md: PHP Manual
+  - book.xmlwriter.md: XMLWriter
+title: Клас XMLWriter
+---
 # Клас XMLWriter
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)

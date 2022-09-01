@@ -1,16 +1,11 @@
-Створює завдання (застарілий метод)
-
--   [« GearmanTask::construct](gearmantask.construct.md)
-    
--   [GearmanTask::data »](gearmantask.data.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Створює завдання (застарілий метод)
-    
-
+---
+navigation:
+  - gearmantask.construct.md: '« GearmanTask::construct'
+  - gearmantask.data.md: 'GearmanTask::data »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::create'
+---
 # GearmanTask::create
 
 (PECL gearman <= 0.5.0)

@@ -1,16 +1,11 @@
-Видаляє файл на FTP-сервері
-
--   [« ftpconnect](function.ftp-connect.html)
-    
--   [ftpexec »](function.ftp-exec.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Видаляє файл на FTP-сервері
-    
-
+---
+navigation:
+  - function.ftp-connect.html: « ftpconnect
+  - function.ftp-exec.html: ftpexec »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpdelete
+---
 # ftpdelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ ftp_delete(FTP\Connection $ftp, string $filename): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

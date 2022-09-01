@@ -1,16 +1,11 @@
-Задає ім'я класу, об'єкти якого створюватимуться методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
-
--   [« SplFileInfo::setFileClass](splfileinfo.setfileclass.html)
-    
--   [SplFileInfo::toString »](splfileinfo.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Задає ім'я класу, об'єкти якого створюватимуться методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
-    
-
+---
+navigation:
+  - splfileinfo.setfileclass.html: '« SplFileInfo::setFileClass'
+  - splfileinfo.tostring.html: 'SplFileInfo::toString »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::setInfoClass'
+---
 # SplFileInfo::setInfoClass
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

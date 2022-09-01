@@ -1,16 +1,11 @@
-dBase
-
--   [« cubridsendglo](function.cubrid-send-glo.html)
-    
--   [Введение »](intro.dbase.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-    
--   dBase
-    
-
+---
+navigation:
+  - function.cubrid-send-glo.html: « cubridsendglo
+  - intro.dbase.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
+title: dBase
+---
 # dBase
 
 -   [Введение](intro.dbase.md)

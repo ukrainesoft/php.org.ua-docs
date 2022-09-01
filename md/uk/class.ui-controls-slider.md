@@ -1,16 +1,11 @@
-Елемент управління "Слайдер"
-
--   [« UIControlsSpin::setValue](ui-controls-spin.setvalue.html)
-    
--   [ОЙControlsSlider::construct »](ui-controls-slider.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Елемент управління "Слайдер"
-    
-
+---
+navigation:
+  - ui-controls-spin.setvalue.html: '« UIControlsSpin::setValue'
+  - ui-controls-slider.construct.html: 'ОЙControlsSlider::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Елемент управління "Слайдер"
+---
 # Елемент управління "Слайдер"
 
 (UI 0.9.9)

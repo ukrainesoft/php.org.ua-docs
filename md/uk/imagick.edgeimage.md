@@ -1,16 +1,11 @@
-Підсилює краї зображення
-
--   [« Imagick::drawImage](imagick.drawimage.html)
-    
--   [Imagick::embossImage »](imagick.embossimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Підсилює краї зображення
-    
-
+---
+navigation:
+  - imagick.drawimage.html: '« Imagick::drawImage'
+  - imagick.embossimage.html: 'Imagick::embossImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::edgeImage'
+---
 # Imagick::edgeImage
 
 (PECL imagick 2, PECL imagick 3)

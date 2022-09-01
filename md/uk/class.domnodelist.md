@@ -1,16 +1,11 @@
-Клас DOMNodeList
-
--   [« DOMNode::replaceChild](domnode.replacechild.md)
-    
--   [DOMNodeList::count »](domnodelist.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMNodeList
-    
-
+---
+navigation:
+  - domnode.replacechild.md: '« DOMNode::replaceChild'
+  - domnodelist.count.md: 'DOMNodeList::count »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMNodeList
+---
 # Клас DOMNodeList
 
 (PHP 5, PHP 7, PHP 8)
@@ -54,10 +49,10 @@ length
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                       |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **DOMNodeList** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
-|        | Реалізовано інтерфейс [Countable](class.countable.md) та повертає значення властивості [length](class.domnodelist.html#domnodelist.props.length)                               |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **DOMNodeList** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
+|  | Реалізовано інтерфейс [Countable](class.countable.md) та повертає значення властивості [length](class.domnodelist.html#domnodelist.props.length) |
 
 ## Дивіться також
 

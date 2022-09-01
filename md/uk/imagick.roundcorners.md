@@ -1,16 +1,11 @@
-Заокруглює кути зображення
-
--   [« Imagick::rotationalBlurImage](imagick.rotationalblurimage.html)
-    
--   [Imagick::sampleImage »](imagick.sampleimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Заокруглює кути зображення
-    
-
+---
+navigation:
+  - imagick.rotationalblurimage.html: '« Imagick::rotationalBlurImage'
+  - imagick.sampleimage.html: 'Imagick::sampleImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::roundCorners'
+---
 # Imagick::roundCorners
 
 (PECL imagick 2, PECL imagick 3)

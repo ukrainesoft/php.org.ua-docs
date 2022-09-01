@@ -1,16 +1,11 @@
-Додає дані до наявного запису на заданому сервері
-
--   [« Memcached::append](memcached.append.md)
-    
--   [Memcached::cas »](memcached.cas.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Додає дані до наявного запису на заданому сервері
-    
-
+---
+navigation:
+  - memcached.append.md: '« Memcached::append'
+  - memcached.cas.md: 'Memcached::cas »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::appendByKey'
+---
 # Memcached::appendByKey
 
 (PECL memcached >= 0.1.0)

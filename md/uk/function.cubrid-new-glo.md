@@ -1,16 +1,11 @@
-Створює екземпляр glo
-
--   [« cubridloadfromglo](function.cubrid-load-from-glo.html)
-    
--   [cubridsaveтоglo »](function.cubrid-save-to-glo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Застарілі псевдоніми та функції CUBRID](oldaliases.cubrid.md)
-    
--   Створює екземпляр glo
-    
-
+---
+navigation:
+  - function.cubrid-load-from-glo.html: « cubridloadfromglo
+  - function.cubrid-save-to-glo.html: cubridsaveтоglo »
+  - index.md: PHP Manual
+  - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
+title: cubridnewglo
+---
 # cubridnewglo
 
 (PECL CUBRID >= 8.3.0)

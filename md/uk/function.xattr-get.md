@@ -1,16 +1,11 @@
-Отримання розширених атрибутів файлу
-
--   [« xattr Функции](ref.xattr.md)
-    
--   [xattrlist »](function.xattr-list.html)
-    
--   [PHP Manual](index.md)
-    
--   [xattr Функции](ref.xattr.md)
-    
--   Отримання розширених атрибутів файлу
-    
-
+---
+navigation:
+  - ref.xattr.md: « xattr Функции
+  - function.xattr-list.html: xattrlist »
+  - index.md: PHP Manual
+  - ref.xattr.md: xattr Функции
+title: xattrget
+---
 # xattrget
 
 (PECL xattr >= 0.9.0)

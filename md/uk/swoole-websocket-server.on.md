@@ -1,16 +1,11 @@
-Зареєструвати callback-функцію події
-
--   [« SwooleWebSocketServer::exist](swoole-websocket-server.exist.html)
-    
--   [SwooleWebSocketServer::pack »](swoole-websocket-server.pack.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleWebSocketServer](class.swoole-websocket-server.html)
-    
--   Зареєструвати callback-функцію події
-    
-
+---
+navigation:
+  - swoole-websocket-server.exist.html: '« SwooleWebSocketServer::exist'
+  - swoole-websocket-server.pack.html: 'SwooleWebSocketServer::pack »'
+  - index.html: PHP Manual
+  - class.swoole-websocket-server.html: SwooleWebSocketServer
+title: 'SwooleWebSocketServer::on'
+---
 # SwooleWebSocketServer::on
 
 (PECL swoole >= 1.9.0)

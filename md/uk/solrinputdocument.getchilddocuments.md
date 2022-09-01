@@ -1,16 +1,11 @@
-Повертає масив дочірніх документів (SolrInputDocument)
-
--   [« SolrInputDocument::getBoost](solrinputdocument.getboost.md)
-    
--   [SolrInputDocument::getChildDocumentsCount »](solrinputdocument.getchilddocumentscount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Повертає масив дочірніх документів (SolrInputDocument)
-    
-
+---
+navigation:
+  - solrinputdocument.getboost.md: '« SolrInputDocument::getBoost'
+  - solrinputdocument.getchilddocumentscount.md: 'SolrInputDocument::getChildDocumentsCount »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::getChildDocuments'
+---
 # SolrInputDocument::getChildDocuments
 
 (PECL solr> = 2.3.0)

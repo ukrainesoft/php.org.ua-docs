@@ -1,16 +1,11 @@
-Створити нову поштову скриньку
-
--   [« imapcreate](function.imap-create.html)
-    
--   [imapdelete »](function.imap-delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Створити нову поштову скриньку
-    
-
+---
+navigation:
+  - function.imap-create.html: « imapcreate
+  - function.imap-delete.html: imapdelete »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapcreatemailbox
+---
 # imapcreatemailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

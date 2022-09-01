@@ -1,16 +1,11 @@
-Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
-
--   [« EventHttp::removeServerAlias](eventhttp.removeserveralias.md)
-    
--   [EventHttp::setCallback »](eventhttp.setcallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
-    
-
+---
+navigation:
+  - eventhttp.removeserveralias.md: '« EventHttp::removeServerAlias'
+  - eventhttp.setcallback.md: 'EventHttp::setCallback »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::setAllowedMethods'
+---
 # EventHttp::setAllowedMethods
 
 (PECL event >= 1.4.0-beta)

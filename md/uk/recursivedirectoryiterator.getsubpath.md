@@ -1,16 +1,11 @@
-Повертає шлях до піддиректорії
-
--   [« RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md)
-    
--   [RecursiveDirectoryIterator::getSubPathname »](recursivedirectoryiterator.getsubpathname.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-    
--   Повертає шлях до піддиректорії
-    
-
+---
+navigation:
+  - recursivedirectoryiterator.getchildren.md: '« RecursiveDirectoryIterator::getChildren'
+  - recursivedirectoryiterator.getsubpathname.md: 'RecursiveDirectoryIterator::getSubPathname »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
+title: 'RecursiveDirectoryIterator::getSubPath'
+---
 # RecursiveDirectoryIterator::getSubPath
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

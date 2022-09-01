@@ -1,16 +1,11 @@
-Повертає ціле число, що описує бекенд, використовуваний libev
-
--   [« Ev](class.ev.md)
-    
--   [Ev::depth »](ev.depth.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Повертає ціле число, що описує бекенд, використовуваний libev
-    
-
+---
+navigation:
+  - class.ev.md: « Ev
+  - ev.depth.md: 'Ev::depth »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::backend'
+---
 # Ev::backend
 
 (PECL ev >= 0.2.0)

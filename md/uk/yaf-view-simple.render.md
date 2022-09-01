@@ -1,16 +1,11 @@
-Малює шаблон
-
--   [« YafViewSimple::isset](yaf-view-simple.isset.html)
-    
--   [YafViewSimple::set »](yaf-view-simple.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Малює шаблон
-    
-
+---
+navigation:
+  - yaf-view-simple.isset.html: '« YafViewSimple::isset'
+  - yaf-view-simple.set.html: 'YafViewSimple::set »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::render'
+---
 # YafViewSimple::render
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Набір значень ключових слів мовного стандарту
-
--   [« IntlCalendar::getGreatestMinimum](intlcalendar.getgreatestminimum.html)
-    
--   [IntlCalendar::getLeastMaximum »](intlcalendar.getleastmaximum.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Набір значень ключових слів мовного стандарту
-    
-
+---
+navigation:
+  - intlcalendar.getgreatestminimum.html: '« IntlCalendar::getGreatestMinimum'
+  - intlcalendar.getleastmaximum.html: 'IntlCalendar::getLeastMaximum »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::getKeywordValuesForLocale'
+---
 # IntlCalendar::getKeywordValuesForLocale
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

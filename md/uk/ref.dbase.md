@@ -1,16 +1,11 @@
-dBase
-
--   [« Обумовлені константи](dbase.constants.html)
-    
--   [dbaseaddrecord »](function.dbase-add-record.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](book.dbase.html)
-    
--   dBase
-    
-
+---
+navigation:
+  - dbase.constants.html: « Обумовлені константи
+  - function.dbase-add-record.html: dbaseaddrecord »
+  - index.html: PHP Manual
+  - book.dbase.html: dBase
+title: dBase
+---
 # dBase
 
 ## Приклади

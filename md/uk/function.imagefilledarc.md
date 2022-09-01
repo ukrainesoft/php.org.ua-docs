@@ -1,16 +1,11 @@
-Малювання та заливання дуги
-
--   [« imagefill](function.imagefill.md)
-    
--   [imagefilledellipse »](function.imagefilledellipse.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Малювання та заливання дуги
-    
-
+---
+navigation:
+  - function.imagefill.md: « imagefill
+  - function.imagefilledellipse.md: imagefilledellipse »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagefilledarc
+---
 # imagefilledarc
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -76,9 +71,9 @@ y-координат центру.
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

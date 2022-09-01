@@ -1,16 +1,11 @@
-Додає посилання на сторінку в іншому PDF-документі
-
--   [«psaddnote](function.ps-add-note.html)
-    
--   [псaddweblink »](function.ps-add-weblink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Додає посилання на сторінку в іншому PDF-документі
-    
-
+---
+navigation:
+  - function.ps-add-note.html: «psaddnote
+  - function.ps-add-weblink.html: псaddweblink »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псaddpdflink
+---
 # псaddpdflink
 
 (PECL ps >= 1.1.0)

@@ -1,16 +1,11 @@
-Конструктор спостерігача EvPrepare
-
--   [« EvPrepare](class.evprepare.md)
-    
--   [EvPrepare::createStopped »](evprepare.createstopped.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvPrepare](class.evprepare.md)
-    
--   Конструктор спостерігача EvPrepare
-    
-
+---
+navigation:
+  - class.evprepare.md: « EvPrepare
+  - evprepare.createstopped.md: 'EvPrepare::createStopped »'
+  - index.md: PHP Manual
+  - class.evprepare.md: EvPrepare
+title: 'EvPrepare::construct'
+---
 # EvPrepare::construct
 
 (PECL ev >= 0.2.0)

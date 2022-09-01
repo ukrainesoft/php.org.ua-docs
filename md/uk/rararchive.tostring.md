@@ -1,16 +1,11 @@
-Отримати текстове уявлення
-
--   [« RarArchive::setAllowBroken](rararchive.setallowbroken.html)
-    
--   [RarEntry »](class.rarentry.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarArchive](class.rararchive.html)
-    
--   Отримати текстове уявлення
-    
-
+---
+navigation:
+  - rararchive.setallowbroken.html: '« RarArchive::setAllowBroken'
+  - class.rarentry.html: RarEntry »
+  - index.html: PHP Manual
+  - class.rararchive.html: RarArchive
+title: 'RarArchive::function toString() { \[native code\] }'
+---
 # RarArchive::function toString() { \[native code\] }
 
 (PECL rar >= 2.0.0)

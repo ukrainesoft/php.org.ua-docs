@@ -1,16 +1,11 @@
-Клас ResourceBundle
-
--   [« IntlDateFormatter::setTimeZone](intldateformatter.settimezone.md)
-    
--   [ResourceBundle::count »](resourcebundle.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас ResourceBundle
-    
-
+---
+navigation:
+  - intldateformatter.settimezone.md: '« IntlDateFormatter::setTimeZone'
+  - resourcebundle.count.md: 'ResourceBundle::count »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас ResourceBundle
+---
 # Клас ResourceBundle
 
 (PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
@@ -56,10 +51,10 @@ public static getLocales(string $bundle): array|false
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Traversable](class.traversable.md) |
-|        | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.md)                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Traversable](class.traversable.md) |
+|  | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.md) |
 
 ## Дивіться також
 

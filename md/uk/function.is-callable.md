@@ -1,16 +1,11 @@
-Перевіряє, що значення може бути викликане як функція у поточній області видимості
-
--   [« isbool](function.is-bool.html)
-    
--   [ісcountable »](function.is-countable.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевіряє, що значення може бути викликане як функція у поточній області видимості
-    
-
+---
+navigation:
+  - function.is-bool.html: « isbool
+  - function.is-countable.html: ісcountable »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісcallable
+---
 # ісcallable
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

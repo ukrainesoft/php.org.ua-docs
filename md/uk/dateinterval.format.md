@@ -1,16 +1,11 @@
-Форматує інтервал
-
--   [« DateInterval::createFromDateString](dateinterval.createfromdatestring.html)
-    
--   [DatePeriod »](class.dateperiod.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateInterval](class.dateinterval.html)
-    
--   Форматує інтервал
-    
-
+---
+navigation:
+  - dateinterval.createfromdatestring.html: '« DateInterval::createFromDateString'
+  - class.dateperiod.html: DatePeriod »
+  - index.html: PHP Manual
+  - class.dateinterval.html: DateInterval
+title: 'DateInterval::format'
+---
 # DateInterval::format
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public DateInterval::format(string $format): string
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | Додані символи, що форматують. `F` і `f` |
+| Версия | Описание |
+| --- | --- |
+|  | Додані символи, що форматують. `F` і `f` |
 
 ### Приклади
 

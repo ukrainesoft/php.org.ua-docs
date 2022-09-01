@@ -1,16 +1,11 @@
-Дескриптор шрифту
-
--   [« UIDrawTextFont::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.html)
-    
--   [ОЙDrawTextFontDescriptor::construct »](ui-draw-text-font-descriptor.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Дескриптор шрифту
-    
-
+---
+navigation:
+  - ui-draw-text-font.getunderlinethickness.html: '« UIDrawTextFont::getUnderlineThickness'
+  - ui-draw-text-font-descriptor.construct.html: 'ОЙDrawTextFontDescriptor::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Дескриптор шрифту
+---
 # Дескриптор шрифту
 
 (UI 0.9.9)

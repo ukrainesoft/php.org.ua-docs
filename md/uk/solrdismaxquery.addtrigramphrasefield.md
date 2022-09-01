@@ -1,16 +1,11 @@
-Додає поле триграми (параметр pf3)
-
--   [« SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.md)
-    
--   [SolrDisMaxQuery::addUserField »](solrdismaxquery.adduserfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Додає поле триграми (параметр pf3)
-    
-
+---
+navigation:
+  - solrdismaxquery.addqueryfield.md: '« SolrDisMaxQuery::addQueryField'
+  - solrdismaxquery.adduserfield.md: 'SolrDisMaxQuery::addUserField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::addTrigramPhraseField'
+---
 # SolrDisMaxQuery::addTrigramPhraseField
 
 (No version information available, might only be in Git)

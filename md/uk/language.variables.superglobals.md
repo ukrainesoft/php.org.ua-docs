@@ -1,16 +1,11 @@
-Вбудовані змінні, які завжди доступні у всіх областях
-
--   [«Зумовлені змінні](reserved.variables.md)
-    
--   [$GLOBALS »](reserved.variables.globals.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Вбудовані змінні, які завжди доступні у всіх областях
-    
-
+---
+navigation:
+  - reserved.variables.md: «Зумовлені змінні
+  - reserved.variables.globals.md: $GLOBALS »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: Суперглобальні змінні
+---
 # Суперглобальні змінні
 
 Суперглобальні змінні — Вбудовані змінні, які завжди доступні в усіх сферах.

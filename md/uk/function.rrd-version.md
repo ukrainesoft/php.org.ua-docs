@@ -1,16 +1,11 @@
-Отримує інформацію про базову бібліотеку rrdtool
-
--   [« rrdupdate](function.rrd-update.html)
-    
--   [rrdxport »](function.rrd-xport.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Отримує інформацію про базову бібліотеку rrdtool
-    
-
+---
+navigation:
+  - function.rrd-update.html: « rrdupdate
+  - function.rrd-xport.html: rrdxport »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdversion
+---
 # rrdversion
 
 (PECL rrd >= 1.0.0)

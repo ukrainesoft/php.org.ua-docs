@@ -1,16 +1,11 @@
-Список доступних фільтрів
-
--   [« Список типов ресурсов](resource.html)
-    
--   [Стрічкові фільтри »](filters.string.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Список доступних фільтрів
-    
-
+---
+navigation:
+  - resource.html: « Список типов ресурсов
+  - filters.string.html: Стрічкові фільтри »
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Список доступних фільтрів
+---
 # Список доступних фільтрів
 
 ## Зміст

@@ -1,16 +1,11 @@
-Перевіряє, чи є константа класу варіантом перерахування
-
--   [« ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.html)
-    
--   [ReflectionClassConstant::isFinal »](reflectionclassconstant.isfinal.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
-    
--   Перевіряє, чи є константа класу варіантом перерахування
-    
-
+---
+navigation:
+  - reflectionclassconstant.getvalue.html: '« ReflectionClassConstant::getValue'
+  - reflectionclassconstant.isfinal.html: 'ReflectionClassConstant::isFinal »'
+  - index.html: PHP Manual
+  - class.reflectionclassconstant.html: ReflectionClassConstant
+title: 'ReflectionClassConstant::isEnumCase'
+---
 # ReflectionClassConstant::isEnumCase
 
 (PHP 8> = 8.1.0)

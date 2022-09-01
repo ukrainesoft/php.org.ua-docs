@@ -1,16 +1,11 @@
-Повертає внутрішні параметри клієнта
-
--   [« SolrClient::getDebug](solrclient.getdebug.md)
-    
--   [SolrClient::optimize »](solrclient.optimize.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Повертає внутрішні параметри клієнта
-    
-
+---
+navigation:
+  - solrclient.getdebug.md: '« SolrClient::getDebug'
+  - solrclient.optimize.md: 'SolrClient::optimize »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::getOptions'
+---
 # SolrClient::getOptions
 
 (PECL solr> = 0.9.6)

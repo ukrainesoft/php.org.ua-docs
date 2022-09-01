@@ -1,16 +1,11 @@
-Клас DOMException
-
--   [« DOMEntityReference::construct](domentityreference.construct.html)
-    
--   [DOMImplementation »](class.domimplementation.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Клас DOMException
-    
-
+---
+navigation:
+  - domentityreference.construct.html: '« DOMEntityReference::construct'
+  - class.domimplementation.html: DOMImplementation »
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Клас DOMException
+---
 # Клас DOMException
 
 (PHP 5, PHP 7, PHP 8)

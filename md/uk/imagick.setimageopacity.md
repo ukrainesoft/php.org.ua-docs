@@ -1,16 +1,11 @@
-Встановлює рівень непрозорості зображення
-
--   [« Imagick::setImageMatteColor](imagick.setimagemattecolor.md)
-    
--   [Imagick::setImageOrientation »](imagick.setimageorientation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює рівень непрозорості зображення
-    
-
+---
+navigation:
+  - imagick.setimagemattecolor.md: '« Imagick::setImageMatteColor'
+  - imagick.setimageorientation.md: 'Imagick::setImageOrientation »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageOpacity'
+---
 # Imagick::setImageOpacity
 
 (PECL imagick 2, PECL imagick 3)

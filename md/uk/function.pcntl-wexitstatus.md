@@ -1,16 +1,11 @@
-Отримати код повернення завершеного дочірнього процесу
-
--   [pcntlwaitpid](function.pcntl-waitpid.html)
-    
--   [pcntlwifexited »](function.pcntl-wifexited.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Отримати код повернення завершеного дочірнього процесу
-    
-
+---
+navigation:
+  - function.pcntl-waitpid.html: pcntlwaitpid
+  - function.pcntl-wifexited.html: pcntlwifexited »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwexitstatus
+---
 # pcntlwexitstatus
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Виправляє документ
-
--   [« CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.html)
-    
--   [CollectionModify::replace »](mysql-xdevapi-collectionmodify.replace.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Виправляє документ
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.limit.html: '« CollectionModify::limit'
+  - mysql-xdevapi-collectionmodify.replace.html: 'CollectionModify::replace »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::patch'
+---
 # CollectionModify::patch
 
 (No version information available, might only be in Git)

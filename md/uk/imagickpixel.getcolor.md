@@ -1,16 +1,11 @@
-Повертає колір
-
--   [« ImagickPixel::destroy](imagickpixel.destroy.md)
-    
--   [ImagickPixel::getColorAsString »](imagickpixel.getcolorasstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Повертає колір
-    
-
+---
+navigation:
+  - imagickpixel.destroy.md: '« ImagickPixel::destroy'
+  - imagickpixel.getcolorasstring.md: 'ImagickPixel::getColorAsString »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::getColor'
+---
 # ImagickPixel::getColor
 
 (PECL imagick 2, PECL imagick 3)
@@ -33,11 +28,11 @@ public ImagickPixel::getColor(int $normalized = 0): array
 
 **Список можливих значень для `normalized`**
 
-| `normalized` | Описание                                                                                                                                                      |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`0`**      | Значення RGB повертаються як цілі числа (int) у діапазоні від `0` до `255` (Включно). Альфа-значення повертається як ціле число (int) і одно або `0`, або `1` |
-| **`1`**      | Значення RGBA повертаються як числа з плаваючою точкою (float) у діапазоні від `0` до `1` (Включно).                                                          |
-| **`2`**      | Значення RGBA повертаються як цілі числа (int) у діапазоні від `0` до `255` (Включно).                                                                        |
+| `normalized` | Описание |
+| --- | --- |
+| **`0`** | Значення RGB повертаються як цілі числа (int) у діапазоні від `0` до `255` (Включно). Альфа-значення повертається як ціле число (int) і одно або `0`, або `1` |
+| **`1`** | Значення RGBA повертаються як числа з плаваючою точкою (float) у діапазоні від `0` до `1` (Включно). |
+| **`2`** | Значення RGBA повертаються як цілі числа (int) у діапазоні від `0` до `255` (Включно). |
 
 ### Значення, що повертаються
 

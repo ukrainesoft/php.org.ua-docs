@@ -1,16 +1,11 @@
-Визначення стану
-
--   [« Worker::getStacked](worker.getstacked.md)
-    
--   [Worker::shutdown »](worker.shutdown.md)
-    
--   [PHP Manual](index.md)
-    
--   [Worker](class.worker.md)
-    
--   Визначення стану
-    
-
+---
+navigation:
+  - worker.getstacked.md: '« Worker::getStacked'
+  - worker.shutdown.md: 'Worker::shutdown »'
+  - index.md: PHP Manual
+  - class.worker.md: Worker
+title: 'Worker::isShutdown'
+---
 # Worker::isShutdown
 
 (PECL pthreads >= 2.0.0)

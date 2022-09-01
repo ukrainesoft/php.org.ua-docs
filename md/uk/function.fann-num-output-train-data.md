@@ -1,16 +1,11 @@
-Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних
-
--   [« fannnuminputtraindata](function.fann-num-input-train-data.html)
-    
--   [fannprinterror »](function.fann-print-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних
-    
-
+---
+navigation:
+  - function.fann-num-input-train-data.html: « fannnuminputtraindata
+  - function.fann-print-error.html: fannprinterror »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannnumoutputtraindata
+---
 # fannnumoutputtraindata
 
 (PECL fann> = 1.0.0)

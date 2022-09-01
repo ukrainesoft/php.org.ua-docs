@@ -1,16 +1,11 @@
-Повертає список усіх HTTP-заголовків відповіді Apache
-
--   [« apacherequestheaders](function.apache-request-headers.html)
-    
--   [apachesetenv »](function.apache-setenv.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Apache](ref.apache.md)
-    
--   Повертає список усіх HTTP-заголовків відповіді Apache
-    
-
+---
+navigation:
+  - function.apache-request-headers.html: « apacherequestheaders
+  - function.apache-setenv.html: apachesetenv »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
+title: apacheresponseheaders
+---
 # apacheresponseheaders
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

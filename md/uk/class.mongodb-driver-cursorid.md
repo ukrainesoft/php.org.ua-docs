@@ -1,16 +1,11 @@
-Клас MongoDBDriverCursorId
-
--   [« MongoDBDriverCursor::valid](mongodb-driver-cursor.valid.html)
-    
--   [MongoDBDriverCursorId::construct »](mongodb-driver-cursorid.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Клас MongoDBDriverCursorId
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.valid.html: '« MongoDBDriverCursor::valid'
+  - mongodb-driver-cursorid.construct.html: 'MongoDBDriverCursorId::construct »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Клас MongoDBDriverCursorId
+---
 # Клас MongoDBDriverCursorId
 
 (mongodb >=1.0.0)
@@ -47,10 +42,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                           |
-|---------------------|--------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
-| PECL mongodb 1.7.0  | Реалізує [Serializable](class.serializable.md)                     |
+| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.md) |
 
 ## Зміст
 

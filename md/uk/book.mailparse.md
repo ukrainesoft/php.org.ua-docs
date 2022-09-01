@@ -1,16 +1,11 @@
-Mailparse
-
--   [« mail](function.mail.md)
-    
--   [Введение »](intro.mailparse.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з поштою](refs.remote.mail.md)
-    
--   Mailparse
-    
-
+---
+navigation:
+  - function.mail.md: « mail
+  - intro.mailparse.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.mail.md: Модулі для роботи з поштою
+title: Mailparse
+---
 # Mailparse
 
 -   [Введение](intro.mailparse.md)

@@ -1,16 +1,11 @@
-Клас Closure
-
--   [« Serializable::unserialize](serializable.unserialize.html)
-    
--   [Closure::construct »](closure.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.html)
-    
--   Клас Closure
-    
-
+---
+navigation:
+  - serializable.unserialize.html: '« Serializable::unserialize'
+  - closure.construct.html: 'Closure::construct »'
+  - index.html: PHP Manual
+  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+title: Клас Closure
+---
 # Клас Closure
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

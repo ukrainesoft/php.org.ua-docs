@@ -1,16 +1,11 @@
-Клас RarException
-
--   [« RarEntry::toString](rarentry.tostring.md)
-    
--   [RarException::isUsingExceptions »](rarexception.isusingexceptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [Rar](book.rar.md)
-    
--   Клас RarException
-    
-
+---
+navigation:
+  - rarentry.tostring.md: '« RarEntry::toString'
+  - rarexception.isusingexceptions.md: 'RarException::isUsingExceptions »'
+  - index.md: PHP Manual
+  - book.rar.md: Rar
+title: Клас RarException
+---
 # Клас RarException
 
 (PECL rar >= 2.0.0)

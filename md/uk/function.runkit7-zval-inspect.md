@@ -1,16 +1,11 @@
-Повертає інформацію про передане значення з типами даних, кількістю посилань і так далі
-
--   [« runkit7superglobals](function.runkit7-superglobals.html)
-    
--   [uopz »](book.uopz.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Повертає інформацію про передане значення з типами даних, кількістю посилань і так далі
-    
-
+---
+navigation:
+  - function.runkit7-superglobals.html: « runkit7superglobals
+  - book.uopz.md: uopz »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7кликавinspect
+---
 # runkit7кликавinspect
 
 (PECL runkit7> = Unknown)

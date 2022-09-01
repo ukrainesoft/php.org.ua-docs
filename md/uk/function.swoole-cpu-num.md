@@ -1,16 +1,11 @@
-Отримати кількість CPU
-
--   [« swooleclientselect](function.swoole-client-select.html)
-    
--   [swooleerrno »](function.swoole-errno.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Отримати кількість CPU
-    
-
+---
+navigation:
+  - function.swoole-client-select.html: « swooleclientselect
+  - function.swoole-errno.html: swooleerrno »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swoolecpunum
+---
 # swoolecpunum
 
 (PECL swoole >= 1.9.0)

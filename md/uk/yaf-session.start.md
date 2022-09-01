@@ -1,16 +1,11 @@
-Призначення start
-
--   [« YafSession::set](yaf-session.set.html)
-    
--   [YafSession::unset »](yaf-session.unset.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення start
-    
-
+---
+navigation:
+  - yaf-session.set.html: '« YafSession::set'
+  - yaf-session.unset.html: 'YafSession::unset »'
+  - index.html: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::start'
+---
 # YafSession::start
 
 (Yaf >=1.0.0)

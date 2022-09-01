@@ -1,16 +1,11 @@
-Встановлення налаштувань клієнта
-
--   [« GearmanClient::setFailCallback](gearmanclient.setfailcallback.md)
-    
--   [GearmanClient::setStatusCallback »](gearmanclient.setstatuscallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Встановлення налаштувань клієнта
-    
-
+---
+navigation:
+  - gearmanclient.setfailcallback.md: '« GearmanClient::setFailCallback'
+  - gearmanclient.setstatuscallback.md: 'GearmanClient::setStatusCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setOptions'
+---
 # GearmanClient::setOptions
 
 (PECL gearman >= 0.5.0)

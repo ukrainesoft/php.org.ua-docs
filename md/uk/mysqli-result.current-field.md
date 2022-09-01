@@ -1,16 +1,11 @@
-Отримує зміщення вказівника по відношенню до поточного поля
-
--   [« mysqliresult::construct](mysqli-result.construct.html)
-    
--   [mysqliresult::dataseek »](mysqli-result.data-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Отримує зміщення вказівника по відношенню до поточного поля
-    
-
+---
+navigation:
+  - mysqli-result.construct.html: '« mysqliresult::construct'
+  - mysqli-result.data-seek.html: 'mysqliresult::dataseek »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::$currentfield'
+---
 # mysqliresult::$currentfield
 
 # mysqlifieldtell

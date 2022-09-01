@@ -1,16 +1,11 @@
-Переносить рядок за вказаною кількістю символів
-
--   [« vsprintf](function.vsprintf.md)
-    
--   [Список изменений »](changelog.strings.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Переносить рядок за вказаною кількістю символів
-    
-
+---
+navigation:
+  - function.vsprintf.md: « vsprintf
+  - changelog.strings.md: Список изменений »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: Wordwrap
+---
 # Wordwrap
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

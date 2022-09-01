@@ -1,16 +1,11 @@
-Отримує існуючий вміст
-
--   [« YafResponseAbstract::destruct](yaf-response-abstract.destruct.html)
-    
--   [YafResponseAbstract::getHeader »](yaf-response-abstract.getheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Отримує існуючий вміст
-    
-
+---
+navigation:
+  - yaf-response-abstract.destruct.html: '« YafResponseAbstract::destruct'
+  - yaf-response-abstract.getheader.html: 'YafResponseAbstract::getHeader »'
+  - index.html: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::getBody'
+---
 # YafResponseAbstract::getBody
 
 (Yaf >=1.0.0)

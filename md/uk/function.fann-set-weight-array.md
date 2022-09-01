@@ -1,16 +1,11 @@
-Створення зв'язків у мережі
-
--   [« fannsettrainingalgorithm](function.fann-set-training-algorithm.html)
-    
--   [fannsetweight »](function.fann-set-weight.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Створення зв'язків у мережі
-    
-
+---
+navigation:
+  - function.fann-set-training-algorithm.html: « fannsettrainingalgorithm
+  - function.fann-set-weight.html: fannsetweight »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetweightarray
+---
 # fannsetweightarray
 
 (PECL fann> = 1.0.0)

@@ -1,16 +1,11 @@
-Робить поточний процес лідером сесії
-
--   [« posixsetrlimit](function.posix-setrlimit.html)
-    
--   [posixsetuid »](function.posix-setuid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Робить поточний процес лідером сесії
-    
-
+---
+navigation:
+  - function.posix-setrlimit.html: « posixsetrlimit
+  - function.posix-setuid.html: posixsetuid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixsetsid
+---
 # posixsetsid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

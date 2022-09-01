@@ -1,16 +1,11 @@
-Задає критерій сортування
-
--   [« yazsetoption](function.yaz-set-option.html)
-    
--   [yazsyntax »](function.yaz-syntax.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Задає критерій сортування
-    
-
+---
+navigation:
+  - function.yaz-set-option.html: « yazsetoption
+  - function.yaz-syntax.html: yazsyntax »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazsort
+---
 # yazsort
 
 (PHP 4> = 4.0.7, PECL yaz> = 0.9.0)

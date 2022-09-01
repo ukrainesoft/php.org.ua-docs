@@ -1,16 +1,11 @@
-Перевіряє, чи є поточний рядок коректним
-
--   [« SwooleTable::set](swoole-table.set.html)
-    
--   [SwooleTimer »](class.swoole-timer.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Перевіряє, чи є поточний рядок коректним
-    
-
+---
+navigation:
+  - swoole-table.set.html: '« SwooleTable::set'
+  - class.swoole-timer.html: SwooleTimer »
+  - index.html: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::valid'
+---
 # SwooleTable::valid
 
 (PECL swoole >= 1.9.0)

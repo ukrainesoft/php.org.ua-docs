@@ -1,16 +1,11 @@
-Гіперболічний синус
-
--   [« sin](function.sin.md)
-    
--   [sqrt »](function.sqrt.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Гіперболічний синус
-    
-
+---
+navigation:
+  - function.sin.md: « sin
+  - function.sqrt.md: sqrt »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: sinh
+---
 # sinh
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

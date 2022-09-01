@@ -1,16 +1,11 @@
-Повертає кількість кольорів, пов'язаних з цим кольором
-
--   [« ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.md)
-    
--   [ImagickPixel::getColorQuantum »](imagickpixel.getcolorquantum.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Повертає кількість кольорів, пов'язаних з цим кольором
-    
-
+---
+navigation:
+  - imagickpixel.getcolorasstring.md: '« ImagickPixel::getColorAsString'
+  - imagickpixel.getcolorquantum.md: 'ImagickPixel::getColorQuantum »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::getColorCount'
+---
 # ImagickPixel::getColorCount
 
 (PECL imagick 2, PECL imagick 3)

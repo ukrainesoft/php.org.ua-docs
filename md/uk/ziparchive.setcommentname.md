@@ -1,16 +1,11 @@
-Встановлює коментар до елемента, заданого на ім'я
-
--   [« ZipArchive::setCommentIndex](ziparchive.setcommentindex.md)
-    
--   [ZipArchive::setCompressionIndex »](ziparchive.setcompressionindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Встановлює коментар до елемента, заданого на ім'я
-    
-
+---
+navigation:
+  - ziparchive.setcommentindex.md: '« ZipArchive::setCommentIndex'
+  - ziparchive.setcompressionindex.md: 'ZipArchive::setCompressionIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::setCommentName'
+---
 # ZipArchive::setCommentName
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.4.0)

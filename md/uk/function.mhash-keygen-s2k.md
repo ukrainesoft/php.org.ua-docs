@@ -1,16 +1,11 @@
-Генерація ключа
-
--   [« mhashgethashname](function.mhash-get-hash-name.html)
-    
--   [mhash »](function.mhash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Mhash](ref.mhash.html)
-    
--   Генерація ключа
-    
-
+---
+navigation:
+  - function.mhash-get-hash-name.html: « mhashgethashname
+  - function.mhash.html: mhash »
+  - index.html: PHP Manual
+  - ref.mhash.html: Функции Mhash
+title: mhashkeygens2k
+---
 # mhashkeygens2k
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -57,6 +52,6 @@ mhash_keygen_s2k(    int $algo,    string $password,    string $salt
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |

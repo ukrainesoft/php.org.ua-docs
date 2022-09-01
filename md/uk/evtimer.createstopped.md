@@ -1,16 +1,11 @@
-Створює зупинений спостерігач EvTimer
-
--   [« EvTimer::construct](evtimer.construct.html)
-    
--   [EvTimer::set »](evtimer.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvTimer](class.evtimer.html)
-    
--   Створює зупинений спостерігач EvTimer
-    
-
+---
+navigation:
+  - evtimer.construct.html: '« EvTimer::construct'
+  - evtimer.set.html: 'EvTimer::set »'
+  - index.html: PHP Manual
+  - class.evtimer.html: EvTimer
+title: 'EvTimer::createStopped'
+---
 # EvTimer::createStopped
 
 (PECL ev >= 0.2.0)

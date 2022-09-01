@@ -1,16 +1,11 @@
-Встановлює ім'я файлу зображення
-
--   [« Imagick::setImageExtent](imagick.setimageextent.md)
-    
--   [Imagick::setImageFormat »](imagick.setimageformat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює ім'я файлу зображення
-    
-
+---
+navigation:
+  - imagick.setimageextent.md: '« Imagick::setImageExtent'
+  - imagick.setimageformat.md: 'Imagick::setImageFormat »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageFilename'
+---
 # Imagick::setImageFilename
 
 (PECL imagick 2, PECL imagick 3)

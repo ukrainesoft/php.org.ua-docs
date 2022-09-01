@@ -1,16 +1,11 @@
-Перекодує з одного файла до іншого відповідно до заданих параметрів
-
--   [« Функции Recode](ref.recode.html)
-    
--   [recodestring »](function.recode-string.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Recode](ref.recode.html)
-    
--   Перекодує з одного файла до іншого відповідно до заданих параметрів
-    
-
+---
+navigation:
+  - ref.recode.html: « Функции Recode
+  - function.recode-string.html: recodestring »
+  - index.html: PHP Manual
+  - ref.recode.html: Функции Recode
+title: recodefile
+---
 # recodefile
 
 (PHP 4, PHP 5, PHP 7 < 7.4.0)

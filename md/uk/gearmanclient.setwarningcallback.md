@@ -1,16 +1,11 @@
-Установка callback-функції, що обслуговує попередження оброблювача завдань
-
--   [« GearmanClient::setTimeout](gearmanclient.settimeout.html)
-    
--   [GearmanClient::setWorkloadCallback »](gearmanclient.setworkloadcallback.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Установка callback-функції, що обслуговує попередження оброблювача завдань
-    
-
+---
+navigation:
+  - gearmanclient.settimeout.html: '« GearmanClient::setTimeout'
+  - gearmanclient.setworkloadcallback.html: 'GearmanClient::setWorkloadCallback »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::setWarningCallback'
+---
 # GearmanClient::setWarningCallback
 
 (PECL gearman >= 0.5.0)

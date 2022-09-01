@@ -1,16 +1,11 @@
-Повертає версію використовуваного MySQL протоколу
-
--   [« mysqli::$hostinfo](mysqli.get-host-info.html)
-    
--   [mysqli::$serverinfo »](mysqli.get-server-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає версію використовуваного MySQL протоколу
-    
-
+---
+navigation:
+  - mysqli.get-host-info.html: '« mysqli::$hostinfo'
+  - mysqli.get-server-info.html: 'mysqli::$serverinfo »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::$protocolversion'
+---
 # mysqli::$protocolversion
 
 # mysqligetprotoinfo

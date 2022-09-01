@@ -1,16 +1,11 @@
-Псевдонім OCILob::save
-
--   [« ocirowcount](function.ocirowcount.html)
-    
--   [ocisavelobfile »](function.ocisavelobfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім OCILob::save
-    
-
+---
+navigation:
+  - function.ocirowcount.html: « ocirowcount
+  - function.ocisavelobfile.html: ocisavelobfile »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocisavelob
+---
 # ocisavelob
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

@@ -1,16 +1,11 @@
-Додає в phar-архів файл із рядка
-
--   [« Phar::addFile](phar.addfile.html)
-    
--   [Phar::apiVersion »](phar.apiversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Додає в phar-архів файл із рядка
-    
-
+---
+navigation:
+  - phar.addfile.html: '« Phar::addFile'
+  - phar.apiversion.html: 'Phar::apiVersion »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::addFromString'
+---
 # Phar::addFromString
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

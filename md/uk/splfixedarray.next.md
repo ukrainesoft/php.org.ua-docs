@@ -1,16 +1,11 @@
-Переходить до наступного елементу масиву
-
--   [« SplFixedArray::key](splfixedarray.key.html)
-    
--   [SplFixedArray::offsetExists »](splfixedarray.offsetexists.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFixedArray](class.splfixedarray.html)
-    
--   Переходить до наступного елементу масиву
-    
-
+---
+navigation:
+  - splfixedarray.key.html: '« SplFixedArray::key'
+  - splfixedarray.offsetexists.html: 'SplFixedArray::offsetExists »'
+  - index.html: PHP Manual
+  - class.splfixedarray.html: SplFixedArray
+title: 'SplFixedArray::next'
+---
 # SplFixedArray::next
 
 (PHP 5> = 5.3.0, PHP 7)

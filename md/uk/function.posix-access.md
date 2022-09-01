@@ -1,16 +1,11 @@
-Визначає доступність файлу
-
--   [« POSIX Функции](ref.posix.html)
-    
--   [posixctermid »](function.posix-ctermid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Визначає доступність файлу
-    
-
+---
+navigation:
+  - ref.posix.html: « POSIX Функции
+  - function.posix-ctermid.html: posixctermid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixaccess
+---
 # posixaccess
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

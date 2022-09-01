@@ -1,16 +1,11 @@
-Перевірка, чи є властивість статичним
-
--   [« ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md)
-    
--   [ReflectionProperty::setAccessible »](reflectionproperty.setaccessible.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Перевірка, чи є властивість статичним
-    
-
+---
+navigation:
+  - reflectionproperty.isreadonly.md: '« ReflectionProperty::isReadOnly'
+  - reflectionproperty.setaccessible.md: 'ReflectionProperty::setAccessible »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::isStatic'
+---
 # ReflectionProperty::isStatic
 
 (PHP 5, PHP 7, PHP 8)

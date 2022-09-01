@@ -1,16 +1,11 @@
-Передати значення у генератор
-
--   [« Generator::rewind](generator.rewind.md)
-    
--   [Generator::throw »](generator.throw.md)
-    
--   [PHP Manual](index.md)
-    
--   [Generator](class.generator.md)
-    
--   Передати значення у генератор
-    
-
+---
+navigation:
+  - generator.rewind.md: '« Generator::rewind'
+  - generator.throw.md: 'Generator::throw »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
+title: 'Generator::send'
+---
 # Generator::send
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Витягує секретний ключ із ключової пари cryptobox
-
--   [« sodiumcryptoboxseal](function.sodium-crypto-box-seal.html)
-    
--   [sodiumcryptoboxseedkeypair »](function.sodium-crypto-box-seed-keypair.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Витягує секретний ключ із ключової пари cryptobox
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-seal.html: « sodiumcryptoboxseal
+  - function.sodium-crypto-box-seed-keypair.html: sodiumcryptoboxseedkeypair »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoboxsecretkey
+---
 # sodiumcryptoboxsecretkey
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Функція густини ймовірності рівномірного розподілу
-
--   [« statsdensт](function.stats-dens-t.html)
-    
--   [statsdensweibull »](function.stats-dens-weibull.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Функція густини ймовірності рівномірного розподілу
-    
-
+---
+navigation:
+  - function.stats-dens-t.html: « statsdensт
+  - function.stats-dens-weibull.html: statsdensweibull »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdensuniform
+---
 # statsdensuniform
 
 (PECL stats >= 1.0.0)

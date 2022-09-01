@@ -1,16 +1,11 @@
-Конструктор об'єкта циклу подій
-
--   [« EvLoop::child](evloop.child.md)
-    
--   [EvLoop::defaultLoop »](evloop.defaultloop.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Конструктор об'єкта циклу подій
-    
-
+---
+navigation:
+  - evloop.child.md: '« EvLoop::child'
+  - evloop.defaultloop.md: 'EvLoop::defaultLoop »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::construct'
+---
 # EvLoop::construct
 
 (PECL ev >= 0.2.0)

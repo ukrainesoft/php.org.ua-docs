@@ -1,16 +1,11 @@
-Перевірити, чи символ
-
--   [« IntlChar::iscntrl](intlchar.iscntrl.html)
-    
--   [IntlChar::isdigit »](intlchar.isdigit.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевірити, чи символ
-    
-
+---
+navigation:
+  - intlchar.iscntrl.html: '« IntlChar::iscntrl'
+  - intlchar.isdigit.html: 'IntlChar::isdigit »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::isdefined'
+---
 # IntlChar::isdefined
 
 (PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає локальну мітку часу Unix для часу за Грінвічем
-
--   [« gmdate](function.gmdate.md)
-    
--   [gmstrftime »](function.gmstrftime.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Повертає локальну мітку часу Unix для часу за Грінвічем
-    
-
+---
+navigation:
+  - function.gmdate.md: « gmdate
+  - function.gmstrftime.md: gmstrftime »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: gmmktime
+---
 # gmmktime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -61,10 +56,10 @@ gmmktime(    int $hour,    ?int $minute = null,    ?int $second = nu
 
 ### список змін
 
-| Версия | Описание                                                                 |
-|--------|--------------------------------------------------------------------------|
-|        | `hour` більше не є необов'язковим.                                       |
-|        | `minute` `second` `month` `day` і `year` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `hour` більше не є необов'язковим. |
+|  | `minute` `second` `month` `day` і `year` тепер допускають значення null. |
 
 ### Приклади
 

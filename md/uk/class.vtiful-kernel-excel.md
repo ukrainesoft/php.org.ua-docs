@@ -1,16 +1,11 @@
-Клас VtifulKernelExcel
-
--   [« Обумовлені константи](xlswriter.constants.md)
-    
--   [VtifulKernelExcel::addSheet »](vtiful-kernel-excel.addSheet.html)
-    
--   [PHP Manual](index.md)
-    
--   [XLSWriter](book.xlswriter.md)
-    
--   Клас VtifulKernelExcel
-    
-
+---
+navigation:
+  - xlswriter.constants.md: « Обумовлені константи
+  - vtiful-kernel-excel.addSheet.html: 'VtifulKernelExcel::addSheet »'
+  - index.md: PHP Manual
+  - book.xlswriter.md: XLSWriter
+title: Клас VtifulKernelExcel
+---
 # Клас VtifulKernelExcel
 
 (PECL xlswriter >= 1.2.1)

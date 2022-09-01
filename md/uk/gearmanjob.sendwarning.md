@@ -1,16 +1,11 @@
-Надсилання попередження
-
--   [« GearmanJob::sendStatus](gearmanjob.sendstatus.html)
-    
--   [GearmanJob::setReturn »](gearmanjob.setreturn.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Надсилання попередження
-    
-
+---
+navigation:
+  - gearmanjob.sendstatus.html: '« GearmanJob::sendStatus'
+  - gearmanjob.setreturn.html: 'GearmanJob::setReturn »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::sendWarning'
+---
 # GearmanJob::sendWarning
 
 (PECL gearman >= 0.6.0)

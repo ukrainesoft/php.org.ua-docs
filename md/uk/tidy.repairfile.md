@@ -1,16 +1,11 @@
-Відновлює розмітку файлу та повертає його у вигляді рядка
-
--   [« tidy::parseString](tidy.parsestring.md)
-    
--   [tidy::repairString »](tidy.repairstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Відновлює розмітку файлу та повертає його у вигляді рядка
-    
-
+---
+navigation:
+  - tidy.parsestring.md: '« tidy::parseString'
+  - tidy.repairstring.md: 'tidy::repairString »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::repairFile'
+---
 # tidy::repairFile
 
 # tidyrepairfile
@@ -61,10 +56,10 @@ tidy_repair_file(    string $filename,    array|string|null $config = nu
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | **tidy::repairFile()** тепер статичний метод.         |
-|        | `config` і `encoding` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | **tidy::repairFile()** тепер статичний метод. |
+|  | `config` і `encoding` тепер допускають значення null. |
 
 ### Приклади
 

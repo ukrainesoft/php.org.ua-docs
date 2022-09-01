@@ -1,16 +1,11 @@
-Gearman
-
--   [« FTPConnection](class.ftp-connection.html)
-    
--   [Введение »](intro.gearman.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   Gearman
-    
-
+---
+navigation:
+  - class.ftp-connection.html: « FTPConnection
+  - intro.gearman.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: Gearman
+---
 # Gearman
 
 -   [Введение](intro.gearman.md)

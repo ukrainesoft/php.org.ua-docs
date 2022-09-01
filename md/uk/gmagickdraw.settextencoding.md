@@ -1,16 +1,11 @@
-Задає кодовий набір тексту
-
--   [« GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.html)
-    
--   [GmagickPixel »](class.gmagickpixel.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Задає кодовий набір тексту
-    
-
+---
+navigation:
+  - gmagickdraw.settextdecoration.html: '« GmagickDraw::settextdecoration'
+  - class.gmagickpixel.html: GmagickPixel »
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::settextencoding'
+---
 # GmagickDraw::settextencoding
 
 (PECL gmagick >= Unknown)

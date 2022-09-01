@@ -1,16 +1,11 @@
-Задає ідентифікатор клієнта
-
--   [« ocisetcalltimeout](function.oci-set-call-timout.html)
-    
--   [ocisetclientinfo »](function.oci-set-client-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Задає ідентифікатор клієнта
-    
-
+---
+navigation:
+  - function.oci-set-call-timout.html: « ocisetcalltimeout
+  - function.oci-set-client-info.html: ocisetclientinfo »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocisetclientidentifier
+---
 # ocisetclientidentifier
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)

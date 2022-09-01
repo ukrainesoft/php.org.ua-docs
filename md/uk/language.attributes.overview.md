@@ -1,16 +1,11 @@
-Введення в атрибути
-
--   [« Атрибути](language.attributes.md)
-    
--   [Синтаксис атрибутів »](language.attributes.syntax.md)
-    
--   [PHP Manual](index.md)
-    
--   [Атрибути](language.attributes.md)
-    
--   Введення в атрибути
-    
-
+---
+navigation:
+  - language.attributes.md: « Атрибути
+  - language.attributes.syntax.md: Синтаксис атрибутів »
+  - index.md: PHP Manual
+  - language.attributes.md: Атрибути
+title: Введення в атрибути
+---
 ## Введення в атрибути
 
 (PHP 8)

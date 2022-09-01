@@ -1,16 +1,11 @@
-Клас MongoDBBSONDecimal128
-
--   [« MongoDBBSONBinary::unserialize](mongodb-bson-binary.unserialize.html)
-    
--   [MongoDBBSONDecimal128::construct »](mongodb-bson-decimal128.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Клас MongoDBBSONDecimal128
-    
-
+---
+navigation:
+  - mongodb-bson-binary.unserialize.html: '« MongoDBBSONBinary::unserialize'
+  - mongodb-bson-decimal128.construct.html: 'MongoDBBSONDecimal128::construct »'
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Клас MongoDBBSONDecimal128
+---
 # Клас MongoDBBSONDecimal128
 
 (mongodb >=1.2.0)
@@ -52,11 +47,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                                                                      |
-|---------------------|---------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+.                                          |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONDecimal128Interface](class.mongodb-bson-decimal128interface.html)              |
-| PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONDecimal128Interface](class.mongodb-bson-decimal128interface.html) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 

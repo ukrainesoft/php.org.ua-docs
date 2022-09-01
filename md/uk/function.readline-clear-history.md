@@ -1,16 +1,11 @@
-Очищує історію команд
-
--   [« readlinecallbackreadchar](function.readline-callback-read-char.html)
-    
--   [readlinecompletionfunction »](function.readline-completion-function.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Readline](ref.readline.md)
-    
--   Очищує історію команд
-    
-
+---
+navigation:
+  - function.readline-callback-read-char.html: « readlinecallbackreadchar
+  - function.readline-completion-function.html: readlinecompletionfunction »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
+title: readlineclearhistory
+---
 # readlineclearhistory
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

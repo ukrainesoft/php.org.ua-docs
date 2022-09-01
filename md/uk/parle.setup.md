@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.parle.html)
-    
--   [Вимоги »](parle.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Parle](book.parle.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.parle.html: « Введение
+  - parle.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.parle.html: Parle
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

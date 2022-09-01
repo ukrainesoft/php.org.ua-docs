@@ -1,16 +1,11 @@
-Здійснює перехід до попереднього зображення в об'єкті
-
--   [« Gmagick::oilpaintimage](gmagick.oilpaintimage.md)
-    
--   [Gmagick::profileimage »](gmagick.profileimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Здійснює перехід до попереднього зображення в об'єкті
-    
-
+---
+navigation:
+  - gmagick.oilpaintimage.md: '« Gmagick::oilpaintimage'
+  - gmagick.profileimage.md: 'Gmagick::profileimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::previousimage'
+---
 # Gmagick::previousimage
 
 (PECL gmagick >= Unknown)

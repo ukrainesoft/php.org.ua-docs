@@ -1,16 +1,11 @@
-Отримує всі параметри дзвінка
-
--   [« YafRequestAbstract::getParam](yaf-request-abstract.getparam.html)
-    
--   [YafRequestAbstract::getRequestUri »](yaf-request-abstract.getrequesturi.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Отримує всі параметри дзвінка
-    
-
+---
+navigation:
+  - yaf-request-abstract.getparam.html: '« YafRequestAbstract::getParam'
+  - yaf-request-abstract.getrequesturi.html: 'YafRequestAbstract::getRequestUri »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::getParams'
+---
 # YafRequestAbstract::getParams
 
 (Yaf >=1.0.0)

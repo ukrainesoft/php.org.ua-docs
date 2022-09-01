@@ -1,16 +1,11 @@
-Клас SwooleMmap
-
--   [« SwooleLock::unlock](swoole-lock.unlock.html)
-    
--   [SwooleMmap::open »](swoole-mmap.open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleMmap
-    
-
+---
+navigation:
+  - swoole-lock.unlock.html: '« SwooleLock::unlock'
+  - swoole-mmap.open.html: 'SwooleMmap::open »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleMmap
+---
 # Клас SwooleMmap
 
 (PECL swoole >= 1.9.0)

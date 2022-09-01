@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](enchant.resources.md)
-    
--   [Приклади »](enchant.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Enchant](book.enchant.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - enchant.resources.md: « Типи ресурсів
+  - enchant.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.enchant.md: Enchant
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 **`LIBENCHANT_VERSION`** (string)

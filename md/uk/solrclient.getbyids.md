@@ -1,16 +1,11 @@
-Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
-
--   [« SolrClient::getById](solrclient.getbyid.html)
-    
--   [SolrClient::getDebug »](solrclient.getdebug.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
-    
-
+---
+navigation:
+  - solrclient.getbyid.html: '« SolrClient::getById'
+  - solrclient.getdebug.html: 'SolrClient::getDebug »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::getByIds'
+---
 # SolrClient::getByIds
 
 (PECL solr> = 2.2.0)

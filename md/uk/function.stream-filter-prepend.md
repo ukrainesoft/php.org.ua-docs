@@ -1,16 +1,11 @@
-Прикріплює фільтр до потоку
-
--   [« streamfilterappend](function.stream-filter-append.html)
-    
--   [streamfilterregister »](function.stream-filter-register.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Прикріплює фільтр до потоку
-    
-
+---
+navigation:
+  - function.stream-filter-append.html: « streamfilterappend
+  - function.stream-filter-register.html: streamfilterregister »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamfilterprepend
+---
 # streamfilterprepend
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

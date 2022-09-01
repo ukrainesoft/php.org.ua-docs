@@ -1,16 +1,11 @@
-Перевіряє, чи поточна позиція є внутрішньо коректною
-
--   [« SolrDocument::unset](solrdocument.unset.html)
-    
--   [SolrDocumentField »](class.solrdocumentfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Перевіряє, чи поточна позиція є внутрішньо коректною
-    
-
+---
+navigation:
+  - solrdocument.unset.html: '« SolrDocument::unset'
+  - class.solrdocumentfield.html: SolrDocumentField »
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::valid'
+---
 # SolrDocument::valid
 
 (PECL solr> = 0.9.2)

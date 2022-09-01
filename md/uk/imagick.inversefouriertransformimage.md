@@ -1,16 +1,11 @@
-Реалізує дискретне перетворення Фур'є
-
--   [« Imagick::importImagePixels](imagick.importimagepixels.md)
-    
--   [Imagick::labelImage »](imagick.labelimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Реалізує дискретне перетворення Фур'є
-    
-
+---
+navigation:
+  - imagick.importimagepixels.md: '« Imagick::importImagePixels'
+  - imagick.labelimage.md: 'Imagick::labelImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::inverseFourierTransformImage'
+---
 # Imagick::inverseFourierTransformImage
 
 (PECL imagick 3> = 3.3.0)

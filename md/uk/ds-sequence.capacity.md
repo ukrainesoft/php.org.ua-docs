@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsSequence::apply](ds-sequence.apply.html)
-    
--   [ДсSequence::contains »](ds-sequence.contains.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-sequence.apply.html: '« DsSequence::apply'
+  - ds-sequence.contains.html: 'ДсSequence::contains »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::capacity'
+---
 # ДсSequence::capacity
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Порівнює скаляр з екземпляром перерахування
-
--   [« BackedEnum](class.backedenum.html)
-    
--   [BackedEnum::tryFrom »](backedenum.tryfrom.html)
-    
--   [PHP Manual](index.html)
-    
--   [BackedEnum](class.backedenum.html)
-    
--   Порівнює скаляр з екземпляром перерахування
-    
-
+---
+navigation:
+  - class.backedenum.html: « BackedEnum
+  - backedenum.tryfrom.html: 'BackedEnum::tryFrom »'
+  - index.html: PHP Manual
+  - class.backedenum.html: BackedEnum
+title: 'BackedEnum::from'
+---
 # BackedEnum::from
 
 (PHP 8> = 8.1.0)

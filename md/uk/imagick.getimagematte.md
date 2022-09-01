@@ -1,16 +1,11 @@
-Повертає, якщо зображення містить матовий канал
-
--   [« Imagick::getImageLength](imagick.getimagelength.md)
-    
--   [Imagick::getImageMatteColor »](imagick.getimagemattecolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає, якщо зображення містить матовий канал
-    
-
+---
+navigation:
+  - imagick.getimagelength.md: '« Imagick::getImageLength'
+  - imagick.getimagemattecolor.md: 'Imagick::getImageMatteColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageMatte'
+---
 # Imagick::getImageMatte
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Індекс спрямованого руху
-
--   [« traderdiv](function.trader-div.html)
-    
--   [traderema »](function.trader-ema.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Індекс спрямованого руху
-    
-
+---
+navigation:
+  - function.trader-div.html: « traderdiv
+  - function.trader-ema.html: traderema »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderдкс
+---
 # traderдкс
 
 (PECL trader >= 0.2.0)

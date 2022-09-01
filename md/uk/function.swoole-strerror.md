@@ -1,16 +1,11 @@
-Конвертувати Errno у повідомлення про помилки
-
--   [« swoolesetprocessname](function.swoole-set-process-name.html)
-    
--   [swooletimerafter »](function.swoole-timer-after.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Конвертувати Errno у повідомлення про помилки
-    
-
+---
+navigation:
+  - function.swoole-set-process-name.html: « swoolesetprocessname
+  - function.swoole-timer-after.html: swooletimerafter »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swoolestrerror
+---
 # swoolestrerror
 
 (PECL swoole >= 1.9.0)

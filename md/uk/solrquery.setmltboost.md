@@ -1,16 +1,11 @@
-Встановлює, чи буде запит посилено релевантністю цікавого виразу
-
--   [« SolrQuery::setMlt](solrquery.setmlt.md)
-    
--   [SolrQuery::setMltCount »](solrquery.setmltcount.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює, чи буде запит посилено релевантністю цікавого виразу
-    
-
+---
+navigation:
+  - solrquery.setmlt.md: '« SolrQuery::setMlt'
+  - solrquery.setmltcount.md: 'SolrQuery::setMltCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMltBoost'
+---
 # SolrQuery::setMltBoost
 
 (PECL solr> = 0.9.2)

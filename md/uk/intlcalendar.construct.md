@@ -1,16 +1,11 @@
-Закритий конструктор для заборони створення екземплярів
-
--   [« IntlCalendar::clear](intlcalendar.clear.md)
-    
--   [IntlCalendar::createInstance »](intlcalendar.createinstance.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Закритий конструктор для заборони створення екземплярів
-    
-
+---
+navigation:
+  - intlcalendar.clear.md: '« IntlCalendar::clear'
+  - intlcalendar.createinstance.md: 'IntlCalendar::createInstance »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::construct'
+---
 # IntlCalendar::construct
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

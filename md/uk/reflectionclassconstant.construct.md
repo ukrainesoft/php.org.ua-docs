@@ -1,16 +1,11 @@
-Створює ReflectionClassConstant
-
--   [« ReflectionClassConstant](class.reflectionclassconstant.html)
-    
--   [ReflectionClassConstant::export »](reflectionclassconstant.export.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
-    
--   Створює ReflectionClassConstant
-    
-
+---
+navigation:
+  - class.reflectionclassconstant.html: « ReflectionClassConstant
+  - reflectionclassconstant.export.html: 'ReflectionClassConstant::export »'
+  - index.html: PHP Manual
+  - class.reflectionclassconstant.html: ReflectionClassConstant
+title: 'ReflectionClassConstant::construct'
+---
 # ReflectionClassConstant::construct
 
 (PHP 7> = 7.1.0, PHP 8)

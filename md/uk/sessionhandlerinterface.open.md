@@ -1,16 +1,11 @@
-Ініціалізує сесію
-
--   [« SessionHandlerInterface::gc](sessionhandlerinterface.gc.md)
-    
--   [SessionHandlerInterface::read »](sessionhandlerinterface.read.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandlerInterface](class.sessionhandlerinterface.md)
-    
--   Ініціалізує сесію
-    
-
+---
+navigation:
+  - sessionhandlerinterface.gc.md: '« SessionHandlerInterface::gc'
+  - sessionhandlerinterface.read.md: 'SessionHandlerInterface::read »'
+  - index.md: PHP Manual
+  - class.sessionhandlerinterface.md: SessionHandlerInterface
+title: 'SessionHandlerInterface::open'
+---
 # SessionHandlerInterface::open
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

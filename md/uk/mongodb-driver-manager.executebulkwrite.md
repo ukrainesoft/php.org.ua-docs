@@ -1,16 +1,11 @@
-Виконує одну або кілька операцій запису
-
--   [« MongoDBDriverManager::createClientEncryption](mongodb-driver-manager.createclientencryption.html)
-    
--   [MongoDBDriverManager::executeCommand »](mongodb-driver-manager.executecommand.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Виконує одну або кілька операцій запису
-    
-
+---
+navigation:
+  - mongodb-driver-manager.createclientencryption.html: '« MongoDBDriverManager::createClientEncryption'
+  - mongodb-driver-manager.executecommand.html: 'MongoDBDriverManager::executeCommand »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::executeBulkWrite'
+---
 # MongoDBDriverManager::executeBulkWrite
 
 (mongodb >=1.0.0)
@@ -41,10 +36,10 @@ final public MongoDB\Driver\Manager::executeBulkWrite(string $namespace, MongoDB
 
 **options**
 
-| Опция                          | Тип                                                       | Описание |
-|--------------------------------|-----------------------------------------------------------|----------|
-| session                        | [MongoDBDriverSession](class.mongodb-driver-session.html) |          |
-| Сесія зв'язування з операцією. |                                                           |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| session | [MongoDBDriverSession](class.mongodb-driver-session.html) |  |
+| Сесія зв'язування з операцією. |  |  |
 
 | | writeConcern | [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
 
@@ -70,10 +65,10 @@ final public MongoDB\Driver\Manager::executeBulkWrite(string $namespace, MongoDB
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                                                                                                                               |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)                                                                             |
-| PECL mongodb 1.4.0 | Третій параметр `options` тепер масив. Для зворотної сумісності цей параметр ще приймає об'єкт [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)                                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) |
+| PECL mongodb 1.4.0 | Третій параметр `options` тепер масив. Для зворотної сумісності цей параметр ще приймає об'єкт [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html) |
 | PECL mongodb 1.3.0 | Тепер викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `bulk` не містить операцій запису. Раніше викидалося [MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.html) |
 
 ### Приклади

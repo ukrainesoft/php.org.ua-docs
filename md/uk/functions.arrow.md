@@ -1,16 +1,11 @@
-Стрілочні функції
-
--   [« Анонімні функції](functions.anonymous.md)
-    
--   [Callback-функції як об'єкти першого класу »](functions.first_class_callable_syntax.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції](language.functions.md)
-    
--   Стрілочні функції
-    
-
+---
+navigation:
+  - functions.anonymous.md: « Анонімні функції
+  - functions.first_class_callable_syntax.md: Callback-функції як об'єкти першого класу »
+  - index.md: PHP Manual
+  - language.functions.md: Функції
+title: Стрілочні функції
+---
 ## Стрілочні функції
 
 Стрілецькі функції з'явилися в PHP 7.4, як більш лаконічний синтаксис для [анонімних функцій](functions.anonymous.md)
@@ -94,9 +89,9 @@ var_export($x);  // Выведет 1
 
 ### список змін
 
-| Версия | Описание                          |
-|--------|-----------------------------------|
-|        | Стали доступні стрілочні функції. |
+| Версия | Описание |
+| --- | --- |
+|  | Стали доступні стрілочні функції. |
 
 ### Примітки
 

@@ -1,16 +1,11 @@
-Додає коментар
-
--   [« ImagickDraw::color](imagickdraw.color.html)
-    
--   [ImagickDraw::composite »](imagickdraw.composite.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Додає коментар
-    
-
+---
+navigation:
+  - imagickdraw.color.html: '« ImagickDraw::color'
+  - imagickdraw.composite.html: 'ImagickDraw::composite »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::comment'
+---
 # ImagickDraw::comment
 
 (PECL imagick 2, PECL imagick 3)

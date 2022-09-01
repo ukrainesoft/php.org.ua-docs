@@ -1,16 +1,11 @@
-Виконати команду бази даних на сервері
-
--   [« MongoDBDriverServer::executeBulkWrite](mongodb-driver-server.executebulkwrite.html)
-    
--   [MongoDBDriverServer::executeQuery »](mongodb-driver-server.executequery.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Виконати команду бази даних на сервері
-    
-
+---
+navigation:
+  - mongodb-driver-server.executebulkwrite.html: '« MongoDBDriverServer::executeBulkWrite'
+  - mongodb-driver-server.executequery.html: 'MongoDBDriverServer::executeQuery »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::executeCommand'
+---
 # MongoDBDriverServer::executeCommand
 
 (mongodb >=1.0.0)
@@ -43,10 +38,10 @@ final public MongoDB\Driver\Server::executeCommand(string $db, MongoDB\Driver\Co
 
 **options**
 
-| Опция                                  | Тип                                                               | Описание |
-|----------------------------------------|-------------------------------------------------------------------|----------|
-| readConcern                            | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |          |
-| Гарантія для застосування до операції. |                                                                   |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |  |
+| Гарантія для застосування до операції. |  |  |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 
@@ -81,10 +76,10 @@ final public MongoDB\Driver\Server::executeCommand(string $db, MongoDB\Driver\Co
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                                                   |
-|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) |
-| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)                                            |
+| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html) |
 
 ### Примітки
 

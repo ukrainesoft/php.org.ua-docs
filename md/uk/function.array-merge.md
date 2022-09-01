@@ -1,16 +1,11 @@
-Зливає один або більше масивів
-
--   [« arraymergerecursive](function.array-merge-recursive.html)
-    
--   [arraymultisort »](function.array-multisort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Зливає один або більше масивів
-    
-
+---
+navigation:
+  - function.array-merge-recursive.html: « arraymergerecursive
+  - function.array-multisort.html: arraymultisort »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraymerge
+---
 # arraymerge
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_merge(array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | Функцію тепер можна викликати без будь-яких параметрів. Раніше був потрібний хоча б один параметр. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію тепер можна викликати без будь-яких параметрів. Раніше був потрібний хоча б один параметр. |
 
 ### Приклади
 

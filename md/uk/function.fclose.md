@@ -1,16 +1,11 @@
-Закриває відкритий дескриптор файлу
-
--   [« diskfreespace](function.diskfreespace.md)
-    
--   [fdatasync »](function.fdatasync.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Закриває відкритий дескриптор файлу
-    
-
+---
+navigation:
+  - function.diskfreespace.md: « diskfreespace
+  - function.fdatasync.md: fdatasync »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fclose
+---
 # fclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

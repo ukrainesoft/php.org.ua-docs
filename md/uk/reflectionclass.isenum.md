@@ -1,16 +1,11 @@
-Повертає, чи є клас перерахуванням
-
--   [« ReflectionClass::isCloneable](reflectionclass.iscloneable.md)
-    
--   [ReflectionClass::isFinal »](reflectionclass.isfinal.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає, чи є клас перерахуванням
-    
-
+---
+navigation:
+  - reflectionclass.iscloneable.md: '« ReflectionClass::isCloneable'
+  - reflectionclass.isfinal.md: 'ReflectionClass::isFinal »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isEnum'
+---
 # ReflectionClass::isEnum
 
 (PHP 8> = 8.1.0)

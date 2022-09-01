@@ -1,16 +1,11 @@
-Перевірити, чи є рядки підозрілими
-
--   [« Spoofchecker](class.spoofchecker.md)
-    
--   [Spoofchecker::construct »](spoofchecker.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Spoofchecker](class.spoofchecker.md)
-    
--   Перевірити, чи є рядки підозрілими
-    
-
+---
+navigation:
+  - class.spoofchecker.md: « Spoofchecker
+  - spoofchecker.construct.md: 'Spoofchecker::construct »'
+  - index.md: PHP Manual
+  - class.spoofchecker.md: Spoofchecker
+title: 'Spoofchecker::areConfusable'
+---
 # Spoofchecker::areConfusable
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)

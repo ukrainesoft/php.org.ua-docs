@@ -1,16 +1,11 @@
-Надсилає повідомлення робочим процесам за ідентифікатором
-
--   [« SwooleServer::sendfile](swoole-server.sendfile.html)
-    
--   [SwooleServer::sendto »](swoole-server.sendto.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Надсилає повідомлення робочим процесам за ідентифікатором
-    
-
+---
+navigation:
+  - swoole-server.sendfile.html: '« SwooleServer::sendfile'
+  - swoole-server.sendto.html: 'SwooleServer::sendto »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::sendMessage'
+---
 # SwooleServer::sendMessage
 
 (PECL swoole >= 1.9.0)

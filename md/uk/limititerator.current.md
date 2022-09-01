@@ -1,16 +1,11 @@
-Отримання поточного елемента
-
--   [« LimitIterator::construct](limititerator.construct.html)
-    
--   [LimitIterator::getInnerIterator »](limititerator.getinneriterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [LimitIterator](class.limititerator.html)
-    
--   Отримання поточного елемента
-    
-
+---
+navigation:
+  - limititerator.construct.html: '« LimitIterator::construct'
+  - limititerator.getinneriterator.html: 'LimitIterator::getInnerIterator »'
+  - index.html: PHP Manual
+  - class.limititerator.html: LimitIterator
+title: 'LimitIterator::current'
+---
 # LimitIterator::current
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

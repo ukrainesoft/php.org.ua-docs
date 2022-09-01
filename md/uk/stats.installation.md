@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](stats.requirements.md)
-    
--   [Налаштування під час виконання »](stats.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](stats.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - stats.requirements.md: « Вимоги
+  - stats.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - stats.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

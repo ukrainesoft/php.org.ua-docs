@@ -1,16 +1,11 @@
-Створює директорію в робочій копії чи репозиторії
-
--   [« svnлс](function.svn-ls.html)
-    
--   [svnreposcreate »](function.svn-repos-create.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Створює директорію в робочій копії чи репозиторії
-    
-
+---
+navigation:
+  - function.svn-ls.html: « svnлс
+  - function.svn-repos-create.html: svnreposcreate »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnmkdir
+---
 # svnmkdir
 
 (PECL svn >= 0.4.0)

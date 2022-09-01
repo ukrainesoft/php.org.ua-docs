@@ -1,16 +1,11 @@
-Отримує список процедур, що зберігаються у певному джерелі даних
-
--   [« odbcprocedurecolumns](function.odbc-procedurecolumns.html)
-    
--   [odbcresultall »](function.odbc-result-all.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Отримує список процедур, що зберігаються у певному джерелі даних
-    
-
+---
+navigation:
+  - function.odbc-procedurecolumns.html: « odbcprocedurecolumns
+  - function.odbc-result-all.html: odbcresultall »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcprocedures
+---
 # odbcprocedures
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -64,9 +59,9 @@ odbc_procedures(    resource $odbc,    ?string $catalog = null,    ?
 
 ### список змін
 
-| Версия | Описание                                                                         |
-|--------|----------------------------------------------------------------------------------|
-|        | До цієї версії функцію можна було викликати лише з одним чи чотирма аргументами. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії функцію можна було викликати лише з одним чи чотирма аргументами. |
 
 ### Приклади
 

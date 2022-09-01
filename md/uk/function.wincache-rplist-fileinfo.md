@@ -1,16 +1,11 @@
-Отримує інформацію про дозвіл кешу шляху до файлу роздільної здатності
-
--   [« wincacherefreshіфchanged](function.wincache-refresh-if-changed.html)
-    
--   [wincacherplistmeminfo »](function.wincache-rplist-meminfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Отримує інформацію про дозвіл кешу шляху до файлу роздільної здатності
-    
-
+---
+navigation:
+  - function.wincache-refresh-if-changed.html: « wincacherefreshіфchanged
+  - function.wincache-rplist-meminfo.html: wincacherplistmeminfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacherplistfileinfo
+---
 # wincacherplistfileinfo
 
 (PECL wincache >= 1.0.0)

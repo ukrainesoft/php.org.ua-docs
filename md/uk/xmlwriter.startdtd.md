@@ -1,16 +1,11 @@
-Створити стартовий DTD тег
-
--   [« XMLWriter::startDocument](xmlwriter.startdocument.md)
-    
--   [XMLWriter::startDtdAttlist »](xmlwriter.startdtdattlist.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити стартовий DTD тег
-    
-
+---
+navigation:
+  - xmlwriter.startdocument.md: '« XMLWriter::startDocument'
+  - xmlwriter.startdtdattlist.md: 'XMLWriter::startDtdAttlist »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startDtd'
+---
 # XMLWriter::startDtd
 
 # xmlwriterstartdtd
@@ -59,9 +54,9 @@ xmlwriter_start_dtd(    XMLWriter $writer,    string $qualifiedName,  
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

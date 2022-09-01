@@ -1,16 +1,11 @@
-Переміщує курсор на вибрану позицію
-
--   [« ArrayIterator::rewind](arrayiterator.rewind.md)
-    
--   [ArrayIterator::serialize »](arrayiterator.serialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Переміщує курсор на вибрану позицію
-    
-
+---
+navigation:
+  - arrayiterator.rewind.md: '« ArrayIterator::rewind'
+  - arrayiterator.serialize.md: 'ArrayIterator::serialize »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::seek'
+---
 # ArrayIterator::seek
 
 (PHP 5, PHP 7, PHP 8)

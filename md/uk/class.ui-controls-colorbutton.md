@@ -1,16 +1,11 @@
-Елемент управління "Кнопка з палітрою кольорів"
-
--   [« UIControlsButton::setText](ui-controls-button.settext.html)
-    
--   [ОЙControlsColorButton::getColor »](ui-controls-colorbutton.getcolor.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління "Кнопка з палітрою кольорів"
-    
-
+---
+navigation:
+  - ui-controls-button.settext.html: '« UIControlsButton::setText'
+  - ui-controls-colorbutton.getcolor.html: 'ОЙControlsColorButton::getColor »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Кнопка з палітрою кольорів"
+---
 # Елемент управління "Кнопка з палітрою кольорів"
 
 (UI 0.9.9)

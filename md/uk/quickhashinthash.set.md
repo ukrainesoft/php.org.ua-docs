@@ -1,16 +1,11 @@
-Метод оновлює запис у хеші новим значенням або додає новий, якщо запис не існує
-
--   [« QuickHashIntHash::saveToString](quickhashinthash.savetostring.md)
-    
--   [QuickHashIntHash::update »](quickhashinthash.update.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntHash](class.quickhashinthash.md)
-    
--   Метод оновлює запис у хеші новим значенням або додає новий, якщо запис не існує
-    
-
+---
+navigation:
+  - quickhashinthash.savetostring.md: '« QuickHashIntHash::saveToString'
+  - quickhashinthash.update.md: 'QuickHashIntHash::update »'
+  - index.md: PHP Manual
+  - class.quickhashinthash.md: QuickHashIntHash
+title: 'QuickHashIntHash::set'
+---
 # QuickHashIntHash::set
 
 (PECL quickhash >= Unknown)

@@ -1,16 +1,11 @@
-Отримати повну назву країни
-
--   [« geoipcountrycode3бname](function.geoip-country-code3-by-name.html)
-    
--   [geoipdatabaseinfo »](function.geoip-database-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции GeoIP](ref.geoip.html)
-    
--   Отримати повну назву країни
-    
-
+---
+navigation:
+  - function.geoip-country-code3-by-name.html: « geoipcountrycode3бname
+  - function.geoip-database-info.html: geoipdatabaseinfo »
+  - index.html: PHP Manual
+  - ref.geoip.html: Функции GeoIP
+title: geoipcountrynameбname
+---
 # geoipcountrynameбname
 
 (PECL geoip >= 0.2.0)

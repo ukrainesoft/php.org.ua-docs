@@ -1,16 +1,11 @@
-Конструктор контексту OpenSSL для використання у класах Event
-
--   [« EventSslContext](class.eventsslcontext.md)
-    
--   [EventUtil »](class.eventutil.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventSslContext](class.eventsslcontext.md)
-    
--   Конструктор контексту OpenSSL для використання у класах Event
-    
-
+---
+navigation:
+  - class.eventsslcontext.md: « EventSslContext
+  - class.eventutil.md: EventUtil »
+  - index.md: PHP Manual
+  - class.eventsslcontext.md: EventSslContext
+title: 'EventSslContext::construct'
+---
 # EventSslContext::construct
 
 (PECL event >= 1.2.6-beta)

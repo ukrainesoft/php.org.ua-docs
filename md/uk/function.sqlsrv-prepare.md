@@ -1,16 +1,11 @@
-Підготовка запиту до виконання
-
--   [« sqlsrvnumrows](function.sqlsrv-num-rows.html)
-    
--   [sqlsrvquery »](function.sqlsrv-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Підготовка запиту до виконання
-    
-
+---
+navigation:
+  - function.sqlsrv-num-rows.html: « sqlsrvnumrows
+  - function.sqlsrv-query.html: sqlsrvquery »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvprepare
+---
 # sqlsrvprepare
 
 (No version information available, might only be in Git)
@@ -47,12 +42,12 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 
 **Структура масиву**
 
-| Элемент                     | Описание                                                                                                                                                                         |
-|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| $value                      | Рядкове значення, змінна PHP або змінна PHP, передана за посиланням.                                                                                                             |
+| Элемент | Описание |
+| --- | --- |
+| $value | Рядкове значення, змінна PHP або змінна PHP, передана за посиланням. |
 | $direction (необов'язковий) | Одна з наступних констант SQLSRV, що використовуються для вказівки напряму параметра: SQLSRVPARAMIN, SQLSRVPARAMOUT, SQLSRVPARAMINOUT. Значення за промовчанням - SQLSRVPARAMIN. |
-| $phpType (необов'язковий)   | Константа SQLSRVPHPTYPE, що вказує тип даних PHP значення, що повертається.                                                                                                      |
-| $sqlType (необов'язковий)   | Константа SQLSRVSQLTYPEвказує тип даних SQL Server вхідного значення.                                                                                                            |
+| $phpType (необов'язковий) | Константа SQLSRVPHPTYPE, що вказує тип даних PHP значення, що повертається. |
+| $sqlType (необов'язковий) | Константа SQLSRVSQLTYPEвказує тип даних SQL Server вхідного значення. |
 
 `options`
 
@@ -60,11 +55,11 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 
 **Опції запиту**
 
-| Ключ                   | Значения                                                                             | Описание                                                                                                                                                                                                                                                                                                   |
-|------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| QueryTimeout           | Позитивне ціле значення.                                                             | Встановлює час очікування в секундах. За замовчуванням драйвер очікуватиме результатів нескінченно.                                                                                                                                                                                                        |
-| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`**                              | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.html) |
-| Scrollable             | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.                                                                                                                                                               |
+| Ключ | Значения | Описание |
+| --- | --- | --- |
+| QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер очікуватиме результатів нескінченно. |
+| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.html) |
+| Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
 
 ### Значення, що повертаються
 

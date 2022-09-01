@@ -1,16 +1,11 @@
-varrepresentation
-
--   [« DsPriorityQueue::toArray](ds-priorityqueue.toarray.html)
-    
--   [Введение »](intro.var_representation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   varrepresentation
-    
-
+---
+navigation:
+  - ds-priorityqueue.toarray.html: '« DsPriorityQueue::toArray'
+  - intro.var_representation.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: varrepresentation
+---
 # varrepresentation
 
 -   [Введение](intro.var_representation.md)

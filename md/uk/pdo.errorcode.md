@@ -1,16 +1,11 @@
-Повертає код SQLSTATE результату останньої операції з базою даних
-
--   [« PDO::construct](pdo.construct.md)
-    
--   [PDO::errorInfo »](pdo.errorinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Повертає код SQLSTATE результату останньої операції з базою даних
-    
-
+---
+navigation:
+  - pdo.construct.md: '« PDO::construct'
+  - pdo.errorinfo.md: 'PDO::errorInfo »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::errorCode'
+---
 # PDO::errorCode
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

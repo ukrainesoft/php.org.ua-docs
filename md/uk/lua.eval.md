@@ -1,16 +1,11 @@
-Розбирає рядок як код Lua
-
--   [« Lua::construct](lua.construct.md)
-    
--   [Lua::getVersion »](lua.getversion.md)
-    
--   [PHP Manual](index.md)
-    
--   [Lua](class.lua.md)
-    
--   Розбирає рядок як код Lua
-    
-
+---
+navigation:
+  - lua.construct.md: '« Lua::construct'
+  - lua.getversion.md: 'Lua::getVersion »'
+  - index.md: PHP Manual
+  - class.lua.md: Lua
+title: 'Lua::eval'
+---
 # Lua::eval
 
 (PECL lua> = 0.9.0)

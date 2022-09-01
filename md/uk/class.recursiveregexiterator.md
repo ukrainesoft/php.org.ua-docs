@@ -1,16 +1,11 @@
-Клас RecursiveRegexIterator
-
--   [« RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md)
-    
--   [RecursiveRegexIterator::construct »](recursiveregexiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RecursiveRegexIterator
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.valid.md: '« RecursiveIteratorIterator::valid'
+  - recursiveregexiterator.construct.md: 'RecursiveRegexIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveRegexIterator
+---
 # Клас RecursiveRegexIterator
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

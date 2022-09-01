@@ -1,16 +1,11 @@
-Від'єднує ітератор
-
--   [« MultipleIterator::current](multipleiterator.current.html)
-    
--   [MultipleIterator::getFlags »](multipleiterator.getflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [MultipleIterator](class.multipleiterator.html)
-    
--   Від'єднує ітератор
-    
-
+---
+navigation:
+  - multipleiterator.current.html: '« MultipleIterator::current'
+  - multipleiterator.getflags.html: 'MultipleIterator::getFlags »'
+  - index.html: PHP Manual
+  - class.multipleiterator.html: MultipleIterator
+title: 'MultipleIterator::detachIterator'
+---
 # MultipleIterator::detachIterator
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

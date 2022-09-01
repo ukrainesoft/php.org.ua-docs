@@ -1,16 +1,11 @@
-Повертає масив усіх підтримуваних кодувань
-
--   [« mblanguage](function.mb-language.html)
-    
--   [мбord »](function.mb-ord.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Повертає масив усіх підтримуваних кодувань
-    
-
+---
+navigation:
+  - function.mb-language.html: « mblanguage
+  - function.mb-ord.html: мбord »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбlistencodings
+---
 # мбlistencodings
 
 (PHP 5, PHP 7, PHP 8)

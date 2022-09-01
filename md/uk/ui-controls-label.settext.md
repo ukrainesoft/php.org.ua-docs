@@ -1,16 +1,11 @@
-Встановити текст
-
--   [« UIControlsLabel::getText](ui-controls-label.gettext.html)
-    
--   [ОЙControlsEntry »](class.ui-controls-entry.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsLabel](class.ui-controls-label.html)
-    
--   Встановити текст
-    
-
+---
+navigation:
+  - ui-controls-label.gettext.html: '« UIControlsLabel::getText'
+  - class.ui-controls-entry.html: ОЙControlsEntry »
+  - index.html: PHP Manual
+  - class.ui-controls-label.html: ОЙControlsLabel
+title: 'ОЙControlsLabel::setText'
+---
 # ОЙControlsLabel::setText
 
 (UI 0.9.9)

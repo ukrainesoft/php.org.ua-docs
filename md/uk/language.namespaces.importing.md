@@ -1,16 +1,11 @@
-Використання просторів імен: імпорт/створення псевдоніма імені
-
--   [« Ключевое слово namespace и константаNAMESPACE](language.namespaces.nsconstants.md)
-    
--   [Глобальний простір »](language.namespaces.global.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пространства имён](language.namespaces.md)
-    
--   Використання просторів імен: імпорт/створення псевдоніма імені
-    
-
+---
+navigation:
+  - language.namespaces.nsconstants.md: « Ключевое слово namespace и константаNAMESPACE
+  - language.namespaces.global.md: Глобальний простір »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: 'Використання просторів імен: імпорт/створення псевдоніма імені'
+---
 ## Використання просторів імен: імпорт/створення псевдоніма імені
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

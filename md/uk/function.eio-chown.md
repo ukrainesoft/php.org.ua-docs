@@ -1,16 +1,11 @@
-Змінює права доступу до файлу/директорії
-
--   [« eiochmod](function.eio-chmod.html)
-    
--   [eioclose »](function.eio-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Змінює права доступу до файлу/директорії
-    
-
+---
+navigation:
+  - function.eio-chmod.html: « eiochmod
+  - function.eio-close.html: eioclose »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiochown
+---
 # eiochown
 
 (PECL eio >= 0.0.1dev)

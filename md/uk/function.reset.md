@@ -1,16 +1,11 @@
-Встановлює внутрішній покажчик масиву на його перший елемент
-
--   [« range](function.range.html)
-    
--   [rsort »](function.rsort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Встановлює внутрішній покажчик масиву на його перший елемент
-    
-
+---
+navigation:
+  - function.range.html: « range
+  - function.rsort.html: rsort »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: reset
+---
 # reset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ reset(array|object &$array): mixed
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [getmangledobjectvars()](function.get-mangled-object-vars.html)або використовуйте [ArrayIterator](class.arrayiterator.html) |
 
 ### Приклади
 

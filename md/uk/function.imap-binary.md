@@ -1,16 +1,11 @@
-Конвертує 8-бітний рядок у рядок base64
-
--   [« imapbase64](function.imap-base64.html)
-    
--   [imapbody »](function.imap-body.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Конвертує 8-бітний рядок у рядок base64
-    
-
+---
+navigation:
+  - function.imap-base64.html: « imapbase64
+  - function.imap-body.html: imapbody »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapbinary
+---
 # imapbinary
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

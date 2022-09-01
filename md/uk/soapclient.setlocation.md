@@ -1,16 +1,11 @@
-Встановлює адресу веб-служби, що використовується
-
--   [« SoapClient::setCookie](soapclient.setcookie.md)
-    
--   [SoapClient::setSoapHeaders »](soapclient.setsoapheaders.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapClient](class.soapclient.md)
-    
--   Встановлює адресу веб-служби, що використовується
-    
-
+---
+navigation:
+  - soapclient.setcookie.md: '« SoapClient::setCookie'
+  - soapclient.setsoapheaders.md: 'SoapClient::setSoapHeaders »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::setLocation'
+---
 # SoapClient::setLocation
 
 (PHP 5> = 5.0.4, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ public SoapClient::__setLocation(?string $location = null): ?string
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `location` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `location` тепер допускає значення null. |
 
 ### Приклади
 

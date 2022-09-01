@@ -1,16 +1,11 @@
-Повертає абсолютне відхилення масиву значень
-
--   [« Функції статистики](ref.stats.html)
-    
--   [statscdfbeta »](function.stats-cdf-beta.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Повертає абсолютне відхилення масиву значень
-    
-
+---
+navigation:
+  - ref.stats.html: « Функції статистики
+  - function.stats-cdf-beta.html: statscdfbeta »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsabsolutedeviation
+---
 # statsabsolutedeviation
 
 (PECL stats >= 1.0.0)

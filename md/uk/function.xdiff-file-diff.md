@@ -1,16 +1,11 @@
-Створити уніфікований патч із порівняння двох файлів
-
--   [xdifffilediffbinary](function.xdiff-file-diff-binary.html)
-    
--   [xdifffilemerge3 »](function.xdiff-file-merge3.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Створити уніфікований патч із порівняння двох файлів
-    
-
+---
+navigation:
+  - function.xdiff-file-diff-binary.html: xdifffilediffbinary
+  - function.xdiff-file-merge3.html: xdifffilemerge3 »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdifffilediff
+---
 # xdifffilediff
 
 (PECL xdiff >= 0.2.0)

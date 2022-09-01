@@ -1,16 +1,11 @@
-Конструктор класу ReflectionProperty
-
--   [« ReflectionProperty::clone](reflectionproperty.clone.html)
-    
--   [ReflectionProperty::export »](reflectionproperty.export.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Конструктор класу ReflectionProperty
-    
-
+---
+navigation:
+  - reflectionproperty.clone.html: '« ReflectionProperty::clone'
+  - reflectionproperty.export.html: 'ReflectionProperty::export »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::construct'
+---
 # ReflectionProperty::construct
 
 (PHP 5, PHP 7, PHP 8)

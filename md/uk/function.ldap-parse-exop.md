@@ -1,16 +1,11 @@
-Розбір результуючого об'єкта виконання розширеної операції LDAP
-
--   [« ldapnextreference](function.ldap-next-reference.html)
-    
--   [ldapparsereference »](function.ldap-parse-reference.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Розбір результуючого об'єкта виконання розширеної операції LDAP
-    
-
+---
+navigation:
+  - function.ldap-next-reference.html: « ldapnextreference
+  - function.ldap-parse-reference.html: ldapparsereference »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapparseexop
+---
 # ldapparseexop
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -49,10 +44,10 @@ ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md)       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Застосовує callback-функцію до всіх елементів зазначених масивів
-
--   [« arraykeys](function.array-keys.html)
-    
--   [arraymergerecursive »](function.array-merge-recursive.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Застосовує callback-функцію до всіх елементів зазначених масивів
-    
-
+---
+navigation:
+  - function.array-keys.html: « arraykeys
+  - function.array-merge-recursive.html: arraymergerecursive »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arraymap
+---
 # arraymap
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ array_map(?callable $callback, array $array, array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | Якщо параметр `callback` очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня **`E_WARNING`** |
+| Версия | Описание |
+| --- | --- |
+|  | Якщо параметр `callback` очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня **`E_WARNING`** |
 
 ### Приклади
 

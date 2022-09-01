@@ -1,16 +1,11 @@
-Клас RegexIterator
-
--   [« RecursiveTreeIterator::valid](recursivetreeiterator.valid.md)
-    
--   [RegexIterator::accept »](regexiterator.accept.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RegexIterator
-    
-
+---
+navigation:
+  - recursivetreeiterator.valid.md: '« RecursiveTreeIterator::valid'
+  - regexiterator.accept.md: 'RegexIterator::accept »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RegexIterator
+---
 # Клас RegexIterator
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

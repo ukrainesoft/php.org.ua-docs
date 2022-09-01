@@ -1,16 +1,11 @@
-Знищує тренувальні дані
-
--   [« fanndescaletrain](function.fann-descale-train.html)
-    
--   [fanndestroy »](function.fann-destroy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Знищує тренувальні дані
-    
-
+---
+navigation:
+  - function.fann-descale-train.html: « fanndescaletrain
+  - function.fann-destroy.html: fanndestroy »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanndestroytrain
+---
 # fanndestroytrain
 
 (PECL fann> = 1.0.0)

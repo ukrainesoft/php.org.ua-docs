@@ -1,16 +1,11 @@
-Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
-
--   [« SolrClient::request](solrclient.request.html)
-    
--   [SolrClient::setResponseWriter »](solrclient.setresponsewriter.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
-    
-
+---
+navigation:
+  - solrclient.request.html: '« SolrClient::request'
+  - solrclient.setresponsewriter.html: 'SolrClient::setResponseWriter »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::rollback'
+---
 # SolrClient::rollback
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
-
--   [« graphemeextract](function.grapheme-extract.html)
-    
--   [graphemestristr »](function.grapheme-stristr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Grapheme](ref.intl.grapheme.md)
-    
--   Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
-    
-
+---
+navigation:
+  - function.grapheme-extract.html: « graphemeextract
+  - function.grapheme-stristr.html: graphemestristr »
+  - index.md: PHP Manual
+  - ref.intl.grapheme.md: Функции Grapheme
+title: graphemestripos
+---
 # graphemestripos
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
@@ -47,9 +42,9 @@ grapheme_stripos(string $haystack, string $needle, int $offset = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Додано підтримку негативних значень `offset` |
+| Версия | Описание |
+| --- | --- |
+|  | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 

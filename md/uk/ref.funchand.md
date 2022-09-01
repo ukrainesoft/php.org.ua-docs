@@ -1,16 +1,11 @@
-Функції керування функціями
-
--   [« Обумовлені константи](funchand.constants.md)
-    
--   [calluserfuncarray »](function.call-user-func-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Управление функциями](book.funchand.md)
-    
--   Функції керування функціями
-    
-
+---
+navigation:
+  - funchand.constants.md: « Обумовлені константи
+  - function.call-user-func-array.html: calluserfuncarray »
+  - index.md: PHP Manual
+  - book.funchand.md: Управление функциями
+title: Функції керування функціями
+---
 # Функції керування функціями
 
 ## Зміст

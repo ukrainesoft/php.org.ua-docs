@@ -1,16 +1,11 @@
-Вступ
-
--   [« LuaSandbox](book.luasandbox.md)
-    
--   [Встановлення та налаштування »](luasandbox.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](book.luasandbox.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.luasandbox.md: « LuaSandbox
+  - luasandbox.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
+title: Вступ
+---
 # Вступ
 
 LuaSandbox - це модуль для PHP 7 та PHP 8, що дозволяє безпечно запускати ненадійний код Lua 5.1 із PHP.

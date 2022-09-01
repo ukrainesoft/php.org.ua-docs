@@ -1,16 +1,11 @@
-Встановлює ACL, пов'язаний із вузлом синхронно
-
--   [« Zookeeper::set](zookeeper.set.html)
-    
--   [Zookeeper::setDebugLevel »](zookeeper.setdebuglevel.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Встановлює ACL, пов'язаний із вузлом синхронно
-    
-
+---
+navigation:
+  - zookeeper.set.html: '« Zookeeper::set'
+  - zookeeper.setdebuglevel.html: 'Zookeeper::setDebugLevel »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::setAcl'
+---
 # Zookeeper::setAcl
 
 (PECL zookeeper >= 0.1.0)

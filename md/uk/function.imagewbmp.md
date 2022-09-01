@@ -1,16 +1,11 @@
-Виводить зображення у браузер або пише у файл
-
--   [« imagetypes](function.imagetypes.md)
-    
--   [imagewebp »](function.imagewebp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Виводить зображення у браузер або пише у файл
-    
-
+---
+navigation:
+  - function.imagetypes.md: « imagetypes
+  - function.imagewebp.md: imagewebp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagewbmp
+---
 # imagewbmp
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
-|        | `foreground_color` тепер допускає значення null.                                                |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+|  | `foreground_color` тепер допускає значення null. |
 
 ### Приклади
 

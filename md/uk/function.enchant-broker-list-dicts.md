@@ -1,16 +1,11 @@
-Повертає список доступних словників
-
--   [« enchantbrokerinit](function.enchant-broker-init.html)
-    
--   [enchantbrokerrequestdict »](function.enchant-broker-request-dict.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Enchant](ref.enchant.html)
-    
--   Повертає список доступних словників
-    
-
+---
+navigation:
+  - function.enchant-broker-init.html: « enchantbrokerinit
+  - function.enchant-broker-request-dict.html: enchantbrokerrequestdict »
+  - index.html: PHP Manual
+  - ref.enchant.html: Функции Enchant
+title: enchantbrokerlistdicts
+---
 # enchantbrokerlistdicts
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 1.0.1)
@@ -37,10 +32,10 @@ enchant_broker_list_dicts(EnchantBroker $broker): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | До цієї версії функція повертала **`false`** у разі виникнення помилки.                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

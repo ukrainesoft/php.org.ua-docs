@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.enchant.md)
-    
--   [Вимоги »](enchant.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Enchant](book.enchant.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.enchant.md: « Введение
+  - enchant.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.enchant.md: Enchant
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

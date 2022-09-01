@@ -1,16 +1,11 @@
-Перетворює необроблені дані на IP-адресу
-
--   [« radiuscreaterequest](function.radius-create-request.html)
-    
--   [radiuscvtint »](function.radius-cvt-int.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Перетворює необроблені дані на IP-адресу
-    
-
+---
+navigation:
+  - function.radius-create-request.html: « radiuscreaterequest
+  - function.radius-cvt-int.html: radiuscvtint »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiuscvtaddr
+---
 # radiuscvtaddr
 
 (PECL radius >= 1.1.0)

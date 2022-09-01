@@ -1,16 +1,11 @@
-Отримує поточні параметри FTP-з'єднання
-
--   [« ftpfput](function.ftp-fput.html)
-    
--   [ftpget »](function.ftp-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Отримує поточні параметри FTP-з'єднання
-    
-
+---
+navigation:
+  - function.ftp-fput.html: « ftpfput
+  - function.ftp-get.html: ftpget »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpgetoption
+---
 # ftpgetoption
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ ftp_get_option(FTP\Connection $ftp, int $option): int|bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

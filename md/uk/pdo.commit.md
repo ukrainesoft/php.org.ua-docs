@@ -1,16 +1,11 @@
-Фіксує транзакцію
-
--   [« PDO::beginTransaction](pdo.begintransaction.md)
-    
--   [PDO::construct »](pdo.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Фіксує транзакцію
-    
-
+---
+navigation:
+  - pdo.begintransaction.md: '« PDO::beginTransaction'
+  - pdo.construct.md: 'PDO::construct »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::commit'
+---
 # PDO::commit
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

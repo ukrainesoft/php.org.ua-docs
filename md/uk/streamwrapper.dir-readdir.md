@@ -1,16 +1,11 @@
-Читання запису з дескриптора директорії
-
--   [« streamWrapper::diropendir](streamwrapper.dir-opendir.html)
-    
--   [streamWrapper::dirrewinddir »](streamwrapper.dir-rewinddir.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Читання запису з дескриптора директорії
-    
-
+---
+navigation:
+  - streamwrapper.dir-opendir.html: '« streamWrapper::diropendir'
+  - streamwrapper.dir-rewinddir.html: 'streamWrapper::dirrewinddir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::dirreaddir'
+---
 # streamWrapper::dirreaddir
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

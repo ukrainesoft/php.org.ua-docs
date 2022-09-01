@@ -1,16 +1,11 @@
-Зняти з повідомлення встановлені прапори
-
--   [« imapcheck](function.imap-check.html)
-    
--   [imapclose »](function.imap-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Зняти з повідомлення встановлені прапори
-    
-
+---
+navigation:
+  - function.imap-check.html: « imapcheck
+  - function.imap-close.html: imapclose »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapclearflagfull
+---
 # imapclearflagfull
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,  �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

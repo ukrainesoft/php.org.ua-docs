@@ -1,16 +1,11 @@
-Нахиляє поточну систему координат по горизонталі
-
--   [« ImagickDraw::setViewbox](imagickdraw.setviewbox.html)
-    
--   [ImagickDraw::skewY »](imagickdraw.skewy.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Нахиляє поточну систему координат по горизонталі
-    
-
+---
+navigation:
+  - imagickdraw.setviewbox.html: '« ImagickDraw::setViewbox'
+  - imagickdraw.skewy.html: 'ImagickDraw::skewY »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::skewX'
+---
 # ImagickDraw::skewX
 
 (PECL imagick 2, PECL imagick 3)

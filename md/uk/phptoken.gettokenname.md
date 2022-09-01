@@ -1,16 +1,11 @@
-Повертає ім'я токена
-
--   [« PhpToken::construct](phptoken.construct.md)
-    
--   [PhpToken::is »](phptoken.is.md)
-    
--   [PHP Manual](index.md)
-    
--   [PhpToken](class.phptoken.md)
-    
--   Повертає ім'я токена
-    
-
+---
+navigation:
+  - phptoken.construct.md: '« PhpToken::construct'
+  - phptoken.is.md: 'PhpToken::is »'
+  - index.md: PHP Manual
+  - class.phptoken.md: PhpToken
+title: 'PhpToken::getTokenName'
+---
 # PhpToken::getTokenName
 
 (PHP 8)

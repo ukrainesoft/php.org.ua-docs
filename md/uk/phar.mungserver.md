@@ -1,16 +1,11 @@
-Визначити список до чотирьох $SERVER-змінних, які мають бути змінені для запуску
-
--   [« Phar::mount](phar.mount.md)
-    
--   [Phar::offsetExists »](phar.offsetexists.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Визначити список до чотирьох $SERVER-змінних, які мають бути змінені для запуску
-    
-
+---
+navigation:
+  - phar.mount.md: '« Phar::mount'
+  - phar.offsetexists.md: 'Phar::offsetExists »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::mungServer'
+---
 # Phar::mungServer
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

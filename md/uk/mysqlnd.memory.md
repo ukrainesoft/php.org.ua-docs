@@ -1,16 +1,11 @@
-Управління пам'яттю
-
--   [« Замечания](mysqlnd.notes.html)
-    
--   [API для плагинов к встроенному драйверу MySQL »](mysqlnd.plugin.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlnd](book.mysqlnd.html)
-    
--   Управління пам'яттю
-    
-
+---
+navigation:
+  - mysqlnd.notes.html: « Замечания
+  - mysqlnd.plugin.html: API для плагинов к встроенному драйверу MySQL »
+  - index.html: PHP Manual
+  - book.mysqlnd.html: Mysqlnd
+title: Управління пам'яттю
+---
 # Управління пам'яттю
 
 *Вступ*

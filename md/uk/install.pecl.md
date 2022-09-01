@@ -1,16 +1,11 @@
-Встановлення модулів PECL
-
--   [« Настройка](install.fpm.configuration.html)
-    
--   [Введение в установку PECL »](install.pecl.intro.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](install.html)
-    
--   Встановлення модулів PECL
-    
-
+---
+navigation:
+  - install.fpm.configuration.html: « Настройка
+  - install.pecl.intro.html: Введение в установку PECL »
+  - index.html: PHP Manual
+  - install.html: Встановлення та налаштування
+title: Встановлення модулів PECL
+---
 # Встановлення модулів PECL
 
 ## Зміст

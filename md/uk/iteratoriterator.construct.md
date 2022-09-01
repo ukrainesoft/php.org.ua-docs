@@ -1,16 +1,11 @@
-Створює ітератор із чогось, що є обхідним (traversable)
-
--   [« IteratorIterator](class.iteratoriterator.md)
-    
--   [IteratorIterator::current »](iteratoriterator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [IteratorIterator](class.iteratoriterator.md)
-    
--   Створює ітератор із чогось, що є обхідним (traversable)
-    
-
+---
+navigation:
+  - class.iteratoriterator.md: « IteratorIterator
+  - iteratoriterator.current.md: 'IteratorIterator::current »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
+title: 'IteratorIterator::construct'
+---
 # IteratorIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-XSL
-
--   [« XMLWriter::writeRaw](xmlwriter.writeraw.md)
-    
--   [Введение »](intro.xsl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка XML](refs.xml.md)
-    
--   XSL
-    
-
+---
+navigation:
+  - xmlwriter.writeraw.md: '« XMLWriter::writeRaw'
+  - intro.xsl.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
+title: XSL
+---
 # XSL
 
 -   [Введение](intro.xsl.md)

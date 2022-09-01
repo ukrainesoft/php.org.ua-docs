@@ -1,16 +1,11 @@
-Обробляє ряд результату запиту та повертає об'єкт
-
--   [« mysqlfetchlengths](function.mysql-fetch-lengths.html)
-    
--   [mysqlfetchrow »](function.mysql-fetch-row.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Обробляє ряд результату запиту та повертає об'єкт
-    
-
+---
+navigation:
+  - function.mysql-fetch-lengths.html: « mysqlfetchlengths
+  - function.mysql-fetch-row.html: mysqlfetchrow »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlfetchobject
+---
 # mysqlfetchobject
 
 (PHP 4, PHP 5)

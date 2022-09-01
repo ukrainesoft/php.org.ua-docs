@@ -1,16 +1,11 @@
-Метод повідомлення про успішний heartbeat сервер
-
--   [« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber::serverOpening »](mongodb-driver-monitoring-sdamsubscriber.serveropening.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   Метод повідомлення про успішний heartbeat сервер
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html: '« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted'
+  - mongodb-driver-monitoring-sdamsubscriber.serveropening.html: 'MongoDBDriverMonitoringSDAMSubscriber::serverOpening »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded'
+---
 # MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань
-
--   [« mberegreplacecallback](function.mb-ereg-replace-callback.html)
-    
--   [мбeregsearchgetpos »](function.mb-ereg-search-getpos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань
-    
-
+---
+navigation:
+  - function.mb-ereg-replace-callback.html: « mberegreplacecallback
+  - function.mb-ereg-search-getpos.html: мбeregsearchgetpos »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбeregreplace
+---
 # мбeregreplace
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -51,11 +46,11 @@ mb_ereg_replace(    string $pattern,    string $replacement,    stri
 
 ### список змін
 
-| Версия | Описание                                                         |
-|--------|------------------------------------------------------------------|
-|        | `options` тепер допускає значення null.                          |
-|        | Функція перевіряє, чи коректна `string` для поточного кодування. |
-|        | Модифікатор `e` оголошено застарілим.                            |
+| Версия | Описание |
+| --- | --- |
+|  | `options` тепер допускає значення null. |
+|  | Функція перевіряє, чи коректна `string` для поточного кодування. |
+|  | Модифікатор `e` оголошено застарілим. |
 
 ### Примітки
 

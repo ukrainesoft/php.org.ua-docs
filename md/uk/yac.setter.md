@@ -1,16 +1,11 @@
-Сеттер
-
--   [« Yac::set](yac.set.md)
-    
--   [Обработка аудио форматов »](refs.utilspec.audio.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Сеттер
-    
-
+---
+navigation:
+  - yac.set.md: '« Yac::set'
+  - refs.utilspec.audio.md: Обработка аудио форматов »
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::set'
+---
 # Yac::set
 
 (PECL yac >= 1.0.0)

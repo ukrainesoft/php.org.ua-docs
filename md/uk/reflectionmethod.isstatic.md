@@ -1,16 +1,11 @@
-Перевіряє, чи є метод статичним
-
--   [« ReflectionMethod::isPublic](reflectionmethod.ispublic.html)
-    
--   [ReflectionMethod::setAccessible »](reflectionmethod.setaccessible.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionMethod](class.reflectionmethod.html)
-    
--   Перевіряє, чи є метод статичним
-    
-
+---
+navigation:
+  - reflectionmethod.ispublic.html: '« ReflectionMethod::isPublic'
+  - reflectionmethod.setaccessible.html: 'ReflectionMethod::setAccessible »'
+  - index.html: PHP Manual
+  - class.reflectionmethod.html: ReflectionMethod
+title: 'ReflectionMethod::isStatic'
+---
 # ReflectionMethod::isStatic
 
 (PHP 5, PHP 7, PHP 8)

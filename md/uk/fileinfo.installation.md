@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](fileinfo.requirements.md)
-    
--   [Налаштування під час виконання »](fileinfo.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](fileinfo.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - fileinfo.requirements.md: « Вимоги
+  - fileinfo.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - fileinfo.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль увімкнено за замовчуванням.

@@ -1,16 +1,11 @@
-Просте використання VarnishLog
-
--   [« Простое использование VarnishStat](varnish.example.stat.md)
-    
--   [VarnishAdmin »](class.varnishadmin.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](varnish.examples.md)
-    
--   Просте використання VarnishLog
-    
-
+---
+navigation:
+  - varnish.example.stat.md: « Простое использование VarnishStat
+  - class.varnishadmin.md: VarnishAdmin »
+  - index.md: PHP Manual
+  - varnish.examples.md: Приклади
+title: Просте використання VarnishLog
+---
 ## Просте використання VarnishLog
 
 Даний приклад ілюструє читання рядків журналу varnish з пам'яті, що розділяється

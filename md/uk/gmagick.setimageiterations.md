@@ -1,16 +1,11 @@
-Встановлює ітерацію зображення
-
--   [« Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.md)
-    
--   [Gmagick::setimageprofile »](gmagick.setimageprofile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює ітерацію зображення
-    
-
+---
+navigation:
+  - gmagick.setimageinterlacescheme.md: '« Gmagick::setimageinterlacescheme'
+  - gmagick.setimageprofile.md: 'Gmagick::setimageprofile »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageiterations'
+---
 # Gmagick::setimageiterations
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Вибирає рядок результату запиту та поміщає дані до масиву
-
--   [« pgfetchresult](function.pg-fetch-result.html)
-    
--   [пгfieldісnull »](function.pg-field-is-null.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Вибирає рядок результату запиту та поміщає дані до масиву
-    
-
+---
+navigation:
+  - function.pg-fetch-result.html: « pgfetchresult
+  - function.pg-field-is-null.html: пгfieldісnull »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfetchrow
+---
 # пгfetchrow
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ pg_fetch_row(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_NUM): arr
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

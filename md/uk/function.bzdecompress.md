@@ -1,16 +1,11 @@
-Розпаковує дані, стиснуті з використанням bzip2
-
--   [« bzcompress](function.bzcompress.md)
-    
--   [bzerrno »](function.bzerrno.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Розпаковує дані, стиснуті з використанням bzip2
-    
-
+---
+navigation:
+  - function.bzcompress.md: « bzcompress
+  - function.bzerrno.md: bzerrno »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzdecompress
+---
 # bzdecompress
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ bzdecompress(string $data, bool $use_less_memory = false): string|int|false
 
 ### список змін
 
-| Версия | Описание                                                                            |
-|--------|-------------------------------------------------------------------------------------|
-|        | Тип `use_less_memory` змінено з int на bool. Раніше значенням за умовчанням був `0` |
+| Версия | Описание |
+| --- | --- |
+|  | Тип `use_less_memory` змінено з int на bool. Раніше значенням за умовчанням був `0` |
 
 ### Приклади
 

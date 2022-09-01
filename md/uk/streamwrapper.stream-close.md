@@ -1,16 +1,11 @@
-Закриває ресурс
-
--   [« streamWrapper::streamcast](streamwrapper.stream-cast.html)
-    
--   [streamWrapper::streameof »](streamwrapper.stream-eof.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Закриває ресурс
-    
-
+---
+navigation:
+  - streamwrapper.stream-cast.html: '« streamWrapper::streamcast'
+  - streamwrapper.stream-eof.html: 'streamWrapper::streameof »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamclose'
+---
 # streamWrapper::streamclose
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

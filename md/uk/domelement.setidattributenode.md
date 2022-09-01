@@ -1,16 +1,11 @@
-Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
-
--   [« DOMElement::setIdAttribute](domelement.setidattribute.md)
-    
--   [DOMElement::setIdAttributeNS »](domelement.setidattributens.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
-    
-
+---
+navigation:
+  - domelement.setidattribute.md: '« DOMElement::setIdAttribute'
+  - domelement.setidattributens.md: 'DOMElement::setIdAttributeNS »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::setIdAttributeNode'
+---
 # DOMElement::setIdAttributeNode
 
 (PHP 5, PHP 7, PHP 8)

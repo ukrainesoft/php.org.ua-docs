@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](pgsql.examples.html)
-    
--   [Базовое использование »](pgsql.examples-queries.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](pgsql.examples.html)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - pgsql.examples.html: « Приклади
+  - pgsql.examples-queries.html: Базовое использование »
+  - index.html: PHP Manual
+  - pgsql.examples.html: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 Цей простий приклад показує, як виконати з'єднання з БД, надіслати запит, вивести його результат і закрити з'єднання з PostgreSQL.

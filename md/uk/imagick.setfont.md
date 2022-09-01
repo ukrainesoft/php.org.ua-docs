@@ -1,16 +1,11 @@
-Встановлює шрифт
-
--   [« Imagick::setFirstIterator](imagick.setfirstiterator.html)
-    
--   [Imagick::setFormat »](imagick.setformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює шрифт
-    
-
+---
+navigation:
+  - imagick.setfirstiterator.html: '« Imagick::setFirstIterator'
+  - imagick.setformat.html: 'Imagick::setFormat »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setFont'
+---
 # Imagick::setFont
 
 (PECL imagick 2> = 2.1.0, PECL imagick 3)

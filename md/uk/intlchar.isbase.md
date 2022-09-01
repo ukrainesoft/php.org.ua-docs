@@ -1,16 +1,11 @@
-Перевірити, чи є символ базовим
-
--   [« IntlChar::isalpha](intlchar.isalpha.md)
-    
--   [IntlChar::isblank »](intlchar.isblank.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ базовим
-    
-
+---
+navigation:
+  - intlchar.isalpha.md: '« IntlChar::isalpha'
+  - intlchar.isblank.md: 'IntlChar::isblank »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isbase'
+---
 # IntlChar::isbase
 
 (PHP 7, PHP 8)

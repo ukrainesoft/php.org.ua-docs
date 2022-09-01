@@ -1,16 +1,11 @@
-Клас RecursiveFilterIterator
-
--   [« RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md)
-    
--   [RecursiveFilterIterator::construct »](recursivefilteriterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RecursiveFilterIterator
-    
-
+---
+navigation:
+  - recursivedirectoryiterator.rewind.md: '« RecursiveDirectoryIterator::rewind'
+  - recursivefilteriterator.construct.md: 'RecursiveFilterIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveFilterIterator
+---
 # Клас RecursiveFilterIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

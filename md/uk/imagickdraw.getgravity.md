@@ -1,16 +1,11 @@
-Повертає гравітацію розміщення тексту
-
--   [« ImagickDraw::getFontWeight](imagickdraw.getfontweight.md)
-    
--   [ImagickDraw::getStrokeAntialias »](imagickdraw.getstrokeantialias.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає гравітацію розміщення тексту
-    
-
+---
+navigation:
+  - imagickdraw.getfontweight.md: '« ImagickDraw::getFontWeight'
+  - imagickdraw.getstrokeantialias.md: 'ImagickDraw::getStrokeAntialias »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getGravity'
+---
 # ImagickDraw::getGravity
 
 (PECL imagick 2, PECL imagick 3)

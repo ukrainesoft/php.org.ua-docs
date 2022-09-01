@@ -1,16 +1,11 @@
-Повертає ідентифікатор топології
-
--   [« MongoDBDriverMonitoringTopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.html)
-    
--   [MongoDBDriverMonitoringCommandSubscriber »](class.mongodb-driver-monitoring-commandsubscriber.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringTopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.html)
-    
--   Повертає ідентифікатор топології
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-topologyopeningevent.html: « MongoDBDriverMonitoringTopologyOpeningEvent
+  - class.mongodb-driver-monitoring-commandsubscriber.html: MongoDBDriverMonitoringCommandSubscriber »
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-topologyopeningevent.html: MongoDBDriverMonitoringTopologyOpeningEvent
+title: 'MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId'
+---
 # MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Видаляє поле з документа
-
--   [« SolrDocument::unserialize](solrdocument.unserialize.html)
-    
--   [SolrDocument::valid »](solrdocument.valid.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDocument](class.solrdocument.html)
-    
--   Видаляє поле з документа
-    
-
+---
+navigation:
+  - solrdocument.unserialize.html: '« SolrDocument::unserialize'
+  - solrdocument.valid.html: 'SolrDocument::valid »'
+  - index.html: PHP Manual
+  - class.solrdocument.html: SolrDocument
+title: 'SolrDocument::unset'
+---
 # SolrDocument::unset
 
 (PECL solr> = 0.9.2)

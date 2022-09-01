@@ -1,16 +1,11 @@
-Виводить файл
-
--   [« popen](function.popen.md)
-    
--   [readlink »](function.readlink.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Виводить файл
-    
-
+---
+navigation:
+  - function.popen.md: « popen
+  - function.readlink.md: readlink »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: readfile
+---
 # readfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

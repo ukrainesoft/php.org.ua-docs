@@ -1,16 +1,11 @@
-Запис у сокет
-
--   [« socketstrerror](function.socket-strerror.html)
-    
--   [socketwsaprotocolinfoexport »](function.socket-wsaprotocol-info-export.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Запис у сокет
-    
-
+---
+navigation:
+  - function.socket-strerror.html: « socketstrerror
+  - function.socket-wsaprotocol-info-export.html: socketwsaprotocolinfoexport »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketwrite
+---
 # socketwrite
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ socket_write(Socket $socket, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
-|        | `length` тепер допускає значення null.                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `length` тепер допускає значення null. |
 
 ### Примітки
 

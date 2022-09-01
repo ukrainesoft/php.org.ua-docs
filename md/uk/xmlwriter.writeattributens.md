@@ -1,16 +1,11 @@
-Записати повний атрибут простору імен
-
--   [« XMLWriter::writeAttribute](xmlwriter.writeattribute.html)
-    
--   [XMLWriter::writeCdata »](xmlwriter.writecdata.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати повний атрибут простору імен
-    
-
+---
+navigation:
+  - xmlwriter.writeattribute.html: '« XMLWriter::writeAttribute'
+  - xmlwriter.writecdata.html: 'XMLWriter::writeCdata »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::writeAttributeNs'
+---
 # XMLWriter::writeAttributeNs
 
 # xmlwriterwriteattributeнс
@@ -63,9 +58,9 @@ URI простір імен. Якщо `namespace` дорівнює **`null`**, �
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Серіалізація
-
--   [« Список значений](language.enumerations.listing.md)
-    
--   [Приклади »](language.enumerations.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Перечисления](language.enumerations.md)
-    
--   Серіалізація
-    
-
+---
+navigation:
+  - language.enumerations.listing.md: « Список значений
+  - language.enumerations.examples.md: Приклади »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
+title: Серіалізація
+---
 ## Серіалізація
 
 Перерахування серіалізуються інакше, ніж об'єкти. Зокрема, у них є новий код серіалізації, `"E"`, Що вказує ім'я варіанта перерахування. Потім процедура десеріалізації може використовувати це для встановлення змінної існуюче одноелементне значення. Це гарантує, що:

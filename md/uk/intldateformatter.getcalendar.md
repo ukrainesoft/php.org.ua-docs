@@ -1,16 +1,11 @@
-Отримує тип календаря, який використовується IntlDateFormatter
-
--   [« IntlDateFormatter::formatObject](intldateformatter.formatobject.html)
-    
--   [IntlDateFormatter::getDateType »](intldateformatter.getdatetype.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlDateFormatter](class.intldateformatter.html)
-    
--   Отримує тип календаря, який використовується IntlDateFormatter
-    
-
+---
+navigation:
+  - intldateformatter.formatobject.html: '« IntlDateFormatter::formatObject'
+  - intldateformatter.getdatetype.html: 'IntlDateFormatter::getDateType »'
+  - index.html: PHP Manual
+  - class.intldateformatter.html: IntlDateFormatter
+title: 'IntlDateFormatter::getCalendar'
+---
 # IntlDateFormatter::getCalendar
 
 # datefmtgetcalendar

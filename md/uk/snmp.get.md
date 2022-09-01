@@ -1,16 +1,11 @@
-Отримує об'єкт SNMP
-
--   [« SNMP::construct](snmp.construct.md)
-    
--   [SNMP::getErrno »](snmp.geterrno.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](class.snmp.md)
-    
--   Отримує об'єкт SNMP
-    
-
+---
+navigation:
+  - snmp.construct.md: '« SNMP::construct'
+  - snmp.geterrno.md: 'SNMP::getErrno »'
+  - index.md: PHP Manual
+  - class.snmp.md: SNMP
+title: 'SNMP::get'
+---
 # SNMP::get
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

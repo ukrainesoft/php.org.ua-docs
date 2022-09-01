@@ -1,16 +1,11 @@
-Порівнює зображення з відновленим зображенням
-
--   [« Imagick::getImageDispose](imagick.getimagedispose.md)
-    
--   [Imagick::getImageExtrema »](imagick.getimageextrema.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Порівнює зображення з відновленим зображенням
-    
-
+---
+navigation:
+  - imagick.getimagedispose.md: '« Imagick::getImageDispose'
+  - imagick.getimageextrema.md: 'Imagick::getImageExtrema »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageDistortion'
+---
 # Imagick::getImageDistortion
 
 (PECL imagick 2, PECL imagick 3)

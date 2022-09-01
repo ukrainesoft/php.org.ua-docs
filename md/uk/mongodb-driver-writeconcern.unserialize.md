@@ -1,16 +1,11 @@
-Десеріалізація WriteConcern
-
--   [« MongoDBDriverWriteConcern::serialize](mongodb-driver-writeconcern.serialize.html)
-    
--   [MongoDBDriverReadPreference »](class.mongodb-driver-readpreference.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)
-    
--   Десеріалізація WriteConcern
-    
-
+---
+navigation:
+  - mongodb-driver-writeconcern.serialize.html: '« MongoDBDriverWriteConcern::serialize'
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference »
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+title: 'MongoDBDriverWriteConcern::unserialize'
+---
 # MongoDBDriverWriteConcern::unserialize
 
 (mongodb >=1.7.0)

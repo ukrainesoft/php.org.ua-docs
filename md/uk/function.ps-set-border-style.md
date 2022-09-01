@@ -1,16 +1,11 @@
-Встановлює стиль межі анотацій
-
--   [«pssetborderdash](function.ps-set-border-dash.html)
-    
--   [псsetinfo »](function.ps-set-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює стиль межі анотацій
-    
-
+---
+navigation:
+  - function.ps-set-border-dash.html: «pssetborderdash
+  - function.ps-set-info.html: псsetinfo »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetborderstyle
+---
 # псsetborderstyle
 
 (PECL ps >= 1.1.0)

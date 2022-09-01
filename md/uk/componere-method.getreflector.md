@@ -1,16 +1,11 @@
-Reflection
-
--   [« ComponereMethod::setStatic](componere-method.setstatic.html)
-    
--   [ComponereValue »](class.componere-value.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereMethod](class.componere-method.html)
-    
--   Reflection
-    
-
+---
+navigation:
+  - componere-method.setstatic.html: '« ComponereMethod::setStatic'
+  - class.componere-value.html: ComponereValue »
+  - index.md: PHP Manual
+  - class.componere-method.html: ComponereMethod
+title: 'ComponereMethod::getReflector'
+---
 # ComponereMethod::getReflector
 
 (Componere 2 >= 2.1.0)

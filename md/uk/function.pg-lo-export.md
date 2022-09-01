@@ -1,16 +1,11 @@
-Виведення великого об'єкта у файл
-
--   [« pgлоcreate](function.pg-lo-create.html)
-    
--   [пглоimport »](function.pg-lo-import.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Виведення великого об'єкта у файл
-    
-
+---
+navigation:
+  - function.pg-lo-create.html: « pgлоcreate
+  - function.pg-lo-import.html: пглоimport »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоexport
+---
 # пглоexport
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ OID великий об'єкт у базі даних.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

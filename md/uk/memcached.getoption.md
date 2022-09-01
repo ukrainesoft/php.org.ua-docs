@@ -1,16 +1,11 @@
-Отримує значення Memcached параметра
-
--   [« Memcached::getMultiByKey](memcached.getmultibykey.html)
-    
--   [Memcached::getResultCode »](memcached.getresultcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Отримує значення Memcached параметра
-    
-
+---
+navigation:
+  - memcached.getmultibykey.html: '« Memcached::getMultiByKey'
+  - memcached.getresultcode.html: 'Memcached::getResultCode »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::getOption'
+---
 # Memcached::getOption
 
 (PECL memcached >= 0.1.0)

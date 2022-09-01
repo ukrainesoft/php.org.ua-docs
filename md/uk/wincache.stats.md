@@ -1,16 +1,11 @@
-Скрипт статистики WinCache
-
--   [« Налаштування під час виконання](wincache.configuration.md)
-    
--   [Обработчик сессий WinCache »](wincache.sessionhandler.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](wincache.setup.md)
-    
--   Скрипт статистики WinCache
-    
-
+---
+navigation:
+  - wincache.configuration.md: « Налаштування під час виконання
+  - wincache.sessionhandler.md: Обработчик сессий WinCache »
+  - index.md: PHP Manual
+  - wincache.setup.md: Встановлення та налаштування
+title: Скрипт статистики WinCache
+---
 ## Скрипт статистики WinCache
 
 Інсталяційний пакет WinCache містить PHP-скрипт, wincache.php, який можна використовувати для отримання статистики використання кеша.

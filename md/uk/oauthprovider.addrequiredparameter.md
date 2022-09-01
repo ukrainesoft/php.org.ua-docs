@@ -1,16 +1,11 @@
-Додати необхідні параметри
-
--   [« OAuthProvider](class.oauthprovider.md)
-    
--   [OAuthProvider::callconsumerHandler »](oauthprovider.callconsumerhandler.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Додати необхідні параметри
-    
-
+---
+navigation:
+  - class.oauthprovider.md: « OAuthProvider
+  - oauthprovider.callconsumerhandler.md: 'OAuthProvider::callconsumerHandler »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::addRequiredParameter'
+---
 # OAuthProvider::addRequiredParameter
 
 (PECL OAuth >= 1.0.0)

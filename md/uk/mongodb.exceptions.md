@@ -1,16 +1,11 @@
-Класи винятків
-
--   [« MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.html)
-    
--   [MongoDBDriverExceptionAuthenticationException »](class.mongodb-driver-exception-authenticationexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDB](set.mongodb.html)
-    
--   Класи винятків
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-subscriber.html: « MongoDBDriverMonitoringSubscriber
+  - class.mongodb-driver-exception-authenticationexception.html: MongoDBDriverExceptionAuthenticationException »
+  - index.html: PHP Manual
+  - set.mongodb.html: MongoDB
+title: Класи винятків
+---
 # Класи винятків
 
 -   [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html) - Клас MongoDBDriverExceptionAuthenticationException

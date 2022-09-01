@@ -1,16 +1,11 @@
-Визначає, чи доступний файл для запису
-
--   [« isuploadedfile](function.is-uploaded-file.html)
-    
--   [ісwriteable »](function.is-writeable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Визначає, чи доступний файл для запису
-    
-
+---
+navigation:
+  - function.is-uploaded-file.html: « isuploadedfile
+  - function.is-writeable.html: ісwriteable »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ісwritable
+---
 # ісwritable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

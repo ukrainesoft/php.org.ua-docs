@@ -1,16 +1,11 @@
-Перетворити доменне ім'я на формат IDNA ASCII
-
--   [« Функції IDN](ref.intl.idn.md)
-    
--   [idnтоutf8 »](function.idn-to-utf8.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IDN](ref.intl.idn.md)
-    
--   Перетворити доменне ім'я на формат IDNA ASCII
-    
-
+---
+navigation:
+  - ref.intl.idn.md: « Функції IDN
+  - function.idn-to-utf8.html: idnтоutf8 »
+  - index.md: PHP Manual
+  - ref.intl.idn.md: Функції IDN
+title: idnтоascii
+---
 # idnтоascii
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.2, PECL idn >= 0.1)
@@ -51,10 +46,10 @@ idn_to_ascii(    string $domain,    int $flags = IDNA_DEFAULT,    in
 
 ### список змін
 
-| Версия | Описание                                                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер значення за замовчуванням `variant` змінено на **`INTL_IDNA_VARIANT_UTS46`** замість застарілої константи **`INTL_IDNA_VARIANT_2003`** |
-|        | **`INTL_IDNA_VARIANT_2003`** оголошено застарілою, замість неї використовуйте **`INTL_IDNA_VARIANT_UTS46`**                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер значення за замовчуванням `variant` змінено на **`INTL_IDNA_VARIANT_UTS46`** замість застарілої константи **`INTL_IDNA_VARIANT_2003`** |
+|  | **`INTL_IDNA_VARIANT_2003`** оголошено застарілою, замість неї використовуйте **`INTL_IDNA_VARIANT_UTS46`** |
 
 ### Приклади
 

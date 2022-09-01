@@ -1,16 +1,11 @@
-Перетворює рядок у кодуванні base64 на необроблений двійковий файл
-
--   [« sodiumadd](function.sodium-add.html)
-    
--   [sodiumbin2base64 »](function.sodium-bin2base64.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Перетворює рядок у кодуванні base64 на необроблений двійковий файл
-    
-
+---
+navigation:
+  - function.sodium-add.html: « sodiumadd
+  - function.sodium-bin2base64.html: sodiumbin2base64 »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumbase642bin
+---
 # sodiumbase642bin
 
 (PHP 7> = 7.2.0, PHP 8)

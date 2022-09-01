@@ -1,16 +1,11 @@
-Псевдонім ibaseclose
-
--   [« fbirdblobopen](function.fbird-blob-open.html)
-    
--   [fbirdcommitret »](function.fbird-commit-ret.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaseclose
-    
-
+---
+navigation:
+  - function.fbird-blob-open.html: « fbirdblobopen
+  - function.fbird-commit-ret.html: fbirdcommitret »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdclose
+---
 # fbirdclose
 
 (PHP 5, PHP 7 < 7.4.0)

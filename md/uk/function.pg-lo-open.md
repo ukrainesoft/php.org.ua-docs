@@ -1,16 +1,11 @@
-Відкриває великий об'єкт бази даних
-
--   [« pgлоimport](function.pg-lo-import.html)
-    
--   [пглоreadall »](function.pg-lo-read-all.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Відкриває великий об'єкт бази даних
-    
-
+---
+navigation:
+  - function.pg-lo-import.html: « pgлоimport
+  - function.pg-lo-read-all.html: пглоreadall »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоopen
+---
 # пглоopen
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -59,10 +54,10 @@ OID великий об'єкт у базі даних.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше повертався ресурс ([resource](language.types.resource.md)                                        |
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

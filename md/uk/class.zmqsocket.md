@@ -1,16 +1,11 @@
-Клас ZMQSocket
-
--   [« ZMQContext::setOpt](zmqcontext.setopt.html)
-    
--   [ZMQSocket::bind »](zmqsocket.bind.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обмін повідомленнями 0MQ](book.zmq.html)
-    
--   Клас ZMQSocket
-    
-
+---
+navigation:
+  - zmqcontext.setopt.html: '« ZMQContext::setOpt'
+  - zmqsocket.bind.html: 'ZMQSocket::bind »'
+  - index.html: PHP Manual
+  - book.zmq.html: Обмін повідомленнями 0MQ
+title: Клас ZMQSocket
+---
 # Клас ZMQSocket
 
 (PECL zmq >= 0.5.0)

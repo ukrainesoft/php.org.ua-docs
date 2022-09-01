@@ -1,16 +1,11 @@
-Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
-
--   [« mysqliresult::dataseek](mysqli-result.data-seek.html)
-    
--   [mysqliresult::fetcharray »](mysqli-result.fetch-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqliresult](class.mysqli-result.html)
-    
--   Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
-    
-
+---
+navigation:
+  - mysqli-result.data-seek.html: '« mysqliresult::dataseek'
+  - mysqli-result.fetch-array.html: 'mysqliresult::fetcharray »'
+  - index.md: PHP Manual
+  - class.mysqli-result.html: mysqliresult
+title: 'mysqliresult::fetchall'
+---
 # mysqliresult::fetchall
 
 # mysqlifetchall
@@ -55,9 +50,9 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 
 ### список змін
 
-| Версия | Описание                                            |
-|--------|-----------------------------------------------------|
-|        | Тепер також доступно при збиранні з libmysqlclient. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер також доступно при збиранні з libmysqlclient. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
-
--   [« jdtojewish](function.jdtojewish.md)
-    
--   [jdtounix »](function.jdtounix.md)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](ref.calendar.md)
-    
--   Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
-    
-
+---
+navigation:
+  - function.jdtojewish.md: « jdtojewish
+  - function.jdtounix.md: jdtounix »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: jdtojulian
+---
 # jdtojulian
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

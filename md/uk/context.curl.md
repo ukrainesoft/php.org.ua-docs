@@ -1,16 +1,11 @@
-Список опцій контексту CURL
-
--   [« Опции контекста SSL](context.ssl.md)
-    
--   [Контекстні опції Phar »](context.phar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Контекстні опції та параметри](context.md)
-    
--   Список опцій контексту CURL
-    
-
+---
+navigation:
+  - context.ssl.md: « Опции контекста SSL
+  - context.phar.md: Контекстні опції Phar »
+  - index.md: PHP Manual
+  - context.md: Контекстні опції та параметри
+title: Опції контексту CURL
+---
 # Опції контексту CURL
 
 Опції контексту CURL - Список опцій контексту CURL

@@ -1,16 +1,11 @@
-Клас IntlDatePatternGenerator
-
--   [« IntlCodePointBreakIterator::getLastCodePoint](intlcodepointbreakiterator.getlastcodepoint.html)
-    
--   [IntlDatePatternGenerator::create »](intldatepatterngenerator.create.html)
-    
--   [PHP Manual](index.html)
-    
--   [intl](book.intl.html)
-    
--   Клас IntlDatePatternGenerator
-    
-
+---
+navigation:
+  - intlcodepointbreakiterator.getlastcodepoint.html: '« IntlCodePointBreakIterator::getLastCodePoint'
+  - intldatepatterngenerator.create.html: 'IntlDatePatternGenerator::create »'
+  - index.html: PHP Manual
+  - book.intl.html: intl
+title: Клас IntlDatePatternGenerator
+---
 # Клас IntlDatePatternGenerator
 
 (PHP 8> = 8.1.0)

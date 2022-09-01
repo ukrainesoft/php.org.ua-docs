@@ -1,16 +1,11 @@
-Встановлює товщину шрифту
-
--   [« ImagickDraw::setFontStyle](imagickdraw.setfontstyle.html)
-    
--   [ImagickDraw::setGravity »](imagickdraw.setgravity.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Встановлює товщину шрифту
-    
-
+---
+navigation:
+  - imagickdraw.setfontstyle.html: '« ImagickDraw::setFontStyle'
+  - imagickdraw.setgravity.html: 'ImagickDraw::setGravity »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setFontWeight'
+---
 # ImagickDraw::setFontWeight
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Отримує трасування стека у вигляді рядка
-
--   [« Error::getTrace](error.gettrace.html)
-    
--   [Error::toString »](error.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [Error](class.error.html)
-    
--   Отримує трасування стека у вигляді рядка
-    
-
+---
+navigation:
+  - error.gettrace.html: '« Error::getTrace'
+  - error.tostring.html: 'Error::toString »'
+  - index.html: PHP Manual
+  - class.error.html: Error
+title: 'Error::getTraceAsString'
+---
 # Error::getTraceAsString
 
 (PHP 7, PHP 8)

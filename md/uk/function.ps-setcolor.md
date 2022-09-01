@@ -1,16 +1,11 @@
-Встановлює поточний колір
-
--   [«pssetvalue](function.ps-set-value.html)
-    
--   [псsetdash »](function.ps-setdash.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює поточний колір
-    
-
+---
+navigation:
+  - function.ps-set-value.html: «pssetvalue
+  - function.ps-setdash.html: псsetdash »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetcolor
+---
 # псsetcolor
 
 (PECL ps >= 1.1.0)

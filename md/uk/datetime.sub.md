@@ -1,16 +1,11 @@
-Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
-
--   [« DateTime::setTimezone](datetime.settimezone.md)
-    
--   [DateTimeImmutable »](class.datetimeimmutable.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
-    
-
+---
+navigation:
+  - datetime.settimezone.md: '« DateTime::setTimezone'
+  - class.datetimeimmutable.md: DateTimeImmutable »
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::sub'
+---
 # DateTime::sub
 
 # datesub

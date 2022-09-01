@@ -1,16 +1,11 @@
-Клас ReflectionFunctionAbstract
-
--   [« ReflectionFunction::toString](reflectionfunction.tostring.md)
-    
--   [ReflectionFunctionAbstract::clone »](reflectionfunctionabstract.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionFunctionAbstract
-    
-
+---
+navigation:
+  - reflectionfunction.tostring.md: '« ReflectionFunction::toString'
+  - reflectionfunctionabstract.clone.md: 'ReflectionFunctionAbstract::clone »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionFunctionAbstract
+---
 # Клас ReflectionFunctionAbstract
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

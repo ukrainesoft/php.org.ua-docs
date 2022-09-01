@@ -1,16 +1,11 @@
-Щільність ймовірності розподілу Коші
-
--   [« statsdensbeta](function.stats-dens-beta.html)
-    
--   [statsdenschisquare »](function.stats-dens-chisquare.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Щільність ймовірності розподілу Коші
-    
-
+---
+navigation:
+  - function.stats-dens-beta.html: « statsdensbeta
+  - function.stats-dens-chisquare.html: statsdenschisquare »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdenscauchy
+---
 # statsdenscauchy
 
 (PECL stats >= 1.0.0)

@@ -1,16 +1,11 @@
-Свічкова модель "Високий стрибок"
-
--   [« tradercdlinvertedhammer](function.trader-cdlinvertedhammer.html)
-    
--   [tradercdlkickingbylength »](function.trader-cdlkickingbylength.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Високий стрибок"
-    
-
+---
+navigation:
+  - function.trader-cdlinvertedhammer.html: « tradercdlinvertedhammer
+  - function.trader-cdlkickingbylength.html: tradercdlkickingbylength »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlkicking
+---
 # tradercdlkicking
 
 (PECL trader >= 0.2.0)

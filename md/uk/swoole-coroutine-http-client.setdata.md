@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineHttpClient::setCookies](swoole-coroutine-http-client.setcookies.html)
-    
--   [SwooleCoroutineHttpClient::setDefer »](swoole-coroutine-http-client.setdefer.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-http-client.setcookies.html: '« SwooleCoroutineHttpClient::setCookies'
+  - swoole-coroutine-http-client.setdefer.html: 'SwooleCoroutineHttpClient::setDefer »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::setData'
+---
 # SwooleCoroutineHttpClient::setData
 
 (PECL swoole >= 2.0.0)

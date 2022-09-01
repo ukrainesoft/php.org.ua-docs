@@ -1,16 +1,11 @@
-Клас Result
-
--   [« Expression::construct](mysql-xdevapi-expression.construct.html)
-    
--   [Result::construct »](mysql-xdevapi-result.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Result
-    
-
+---
+navigation:
+  - mysql-xdevapi-expression.construct.html: '« Expression::construct'
+  - mysql-xdevapi-result.construct.html: 'Result::construct »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Result
+---
 # Клас Result
 
 (PECL mysql-xdevapi >= 8.0.11)

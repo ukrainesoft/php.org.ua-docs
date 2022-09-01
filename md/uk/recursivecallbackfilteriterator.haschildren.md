@@ -1,16 +1,11 @@
-Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи
-
--   [« RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.html)
-    
--   [RecursiveDirectoryIterator »](class.recursivedirectoryiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html)
-    
--   Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи
-    
-
+---
+navigation:
+  - recursivecallbackfilteriterator.getchildren.html: '« RecursiveCallbackFilterIterator::getChildren'
+  - class.recursivedirectoryiterator.html: RecursiveDirectoryIterator »
+  - index.html: PHP Manual
+  - class.recursivecallbackfilteriterator.html: RecursiveCallbackFilterIterator
+title: 'RecursiveCallbackFilterIterator::hasChildren'
+---
 # RecursiveCallbackFilterIterator::hasChildren
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Частота таймера в тиках за секунду
-
--   [« HRTimePerformanceCounter](class.hrtime-performancecounter.html)
-    
--   [HRTimePerformanceCounter::getTicks »](hrtime-performancecounter.getticks.html)
-    
--   [PHP Manual](index.md)
-    
--   [HRTimePerformanceCounter](class.hrtime-performancecounter.html)
-    
--   Частота таймера в тиках за секунду
-    
-
+---
+navigation:
+  - class.hrtime-performancecounter.html: « HRTimePerformanceCounter
+  - hrtime-performancecounter.getticks.html: 'HRTimePerformanceCounter::getTicks »'
+  - index.md: PHP Manual
+  - class.hrtime-performancecounter.html: HRTimePerformanceCounter
+title: 'HRTimePerformanceCounter::getFrequency'
+---
 # HRTimePerformanceCounter::getFrequency
 
 (PECL hrtime >= 0.4.3)

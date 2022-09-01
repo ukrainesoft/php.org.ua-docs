@@ -1,16 +1,11 @@
-Встановлює якість стандартного стиснення об'єкта
-
--   [« Imagick::setCompression](imagick.setcompression.md)
-    
--   [Imagick::setFilename »](imagick.setfilename.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює якість стандартного стиснення об'єкта
-    
-
+---
+navigation:
+  - imagick.setcompression.md: '« Imagick::setCompression'
+  - imagick.setfilename.md: 'Imagick::setFilename »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setCompressionQuality'
+---
 # Imagick::setCompressionQuality
 
 (PECL imagick 2, PECL imagick 3)

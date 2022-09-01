@@ -1,16 +1,11 @@
-Десеріалізує Decimal128
-
--   [« MongoDBBSONDecimal128::toString](mongodb-bson-decimal128.tostring.html)
-    
--   [MongoDBBSONJavascript »](class.mongodb-bson-javascript.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
-    
--   Десеріалізує Decimal128
-    
-
+---
+navigation:
+  - mongodb-bson-decimal128.tostring.html: '« MongoDBBSONDecimal128::toString'
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript »
+  - index.md: PHP Manual
+  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128
+title: 'MongoDBBSONDecimal128::unserialize'
+---
 # MongoDBBSONDecimal128::unserialize
 
 (mongodb >=1.2.0)

@@ -1,16 +1,11 @@
-Скидає курсор файлового покажчика
-
--   [« rename](function.rename.html)
-    
--   [rmdir »](function.rmdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Скидає курсор файлового покажчика
-    
-
+---
+navigation:
+  - function.rename.html: « rename
+  - function.rmdir.html: rmdir »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: rewind
+---
 # rewind
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

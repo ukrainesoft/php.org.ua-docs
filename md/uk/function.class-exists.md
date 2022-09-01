@@ -1,16 +1,11 @@
-Перевіряє, чи був оголошений клас
-
--   [« classalias](function.class-alias.html)
-    
--   [enumexists »](function.enum-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
-    
--   Перевіряє, чи був оголошений клас
-    
-
+---
+navigation:
+  - function.class-alias.html: « classalias
+  - function.enum-exists.html: enumexists »
+  - index.html: PHP Manual
+  - ref.classobj.html: Функції роботи з класами та об'єктами
+title: classexists
+---
 # classexists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

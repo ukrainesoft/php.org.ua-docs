@@ -1,16 +1,11 @@
-HTTP Cookies
-
--   [ENV](reserved.variables.environment.md)
-    
--   [$phperrormsg »](reserved.variables.phperrormsg.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   HTTP Cookies
-    
-
+---
+navigation:
+  - reserved.variables.environment.md: ENV
+  - reserved.variables.phperrormsg.md: $phperrormsg »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: COOKIE
+---
 # COOKIE
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

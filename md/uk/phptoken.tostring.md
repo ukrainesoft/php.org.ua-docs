@@ -1,16 +1,11 @@
-Повертає текстовий вміст токена
-
--   [« PhpToken::isIgnorable](phptoken.isignorable.html)
-    
--   [PhpToken::tokenize »](phptoken.tokenize.html)
-    
--   [PHP Manual](index.html)
-    
--   [PhpToken](class.phptoken.html)
-    
--   Повертає текстовий вміст токена
-    
-
+---
+navigation:
+  - phptoken.isignorable.html: '« PhpToken::isIgnorable'
+  - phptoken.tokenize.html: 'PhpToken::tokenize »'
+  - index.html: PHP Manual
+  - class.phptoken.html: PhpToken
+title: 'PhpToken::function toString() { \[native code\] }'
+---
 # PhpToken::function toString() { \[native code\] }
 
 (PHP 8)

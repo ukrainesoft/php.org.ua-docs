@@ -1,16 +1,11 @@
-Видаляє функцію зі списку зареєстрованих для виконання на кожному тику
-
--   [« registertickfunction](function.register-tick-function.html)
-    
--   [Quickhash »](book.quickhash.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Видаляє функцію зі списку зареєстрованих для виконання на кожному тику
-    
-
+---
+navigation:
+  - function.register-tick-function.html: « registertickfunction
+  - book.quickhash.md: Quickhash »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: unregistertickfunction
+---
 # unregistertickfunction
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)

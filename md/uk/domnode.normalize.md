@@ -1,16 +1,11 @@
-Нормалізує вузол
-
--   [« DOMNode::lookupPrefix](domnode.lookupprefix.md)
-    
--   [DOMNode::removeChild »](domnode.removechild.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Нормалізує вузол
-    
-
+---
+navigation:
+  - domnode.lookupprefix.md: '« DOMNode::lookupPrefix'
+  - domnode.removechild.md: 'DOMNode::removeChild »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::normalize'
+---
 # DOMNode::normalize
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас ReflectionGenerator
-
--   [« ReflectionUnionType::getTypes](reflectionuniontype.gettypes.html)
-    
--   [ReflectionGenerator::construct »](reflectiongenerator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionGenerator
-    
-
+---
+navigation:
+  - reflectionuniontype.gettypes.html: '« ReflectionUnionType::getTypes'
+  - reflectiongenerator.construct.html: 'ReflectionGenerator::construct »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionGenerator
+---
 # Клас ReflectionGenerator
 
 (PHP 7, PHP 8)
@@ -49,9 +44,9 @@ public getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT): array
 
 ## список змін
 
-| Версия | Описание                         |
-|--------|----------------------------------|
-|        | Клас тепер є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Клас тепер є остаточним (final). |
 
 ## Зміст
 

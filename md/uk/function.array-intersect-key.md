@@ -1,16 +1,11 @@
-Обчислити перетин масивів, порівнюючи ключі
-
--   [« arrayintersectassoc](function.array-intersect-assoc.html)
-    
--   [arrayintersectuassoc »](function.array-intersect-uassoc.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислити перетин масивів, порівнюючи ключі
-    
-
+---
+navigation:
+  - function.array-intersect-assoc.html: « arrayintersectassoc
+  - function.array-intersect-uassoc.html: arrayintersectuassoc »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayintersectkey
+---
 # arrayintersectkey
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_intersect_key(array $array, array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
 
 ### Приклади
 

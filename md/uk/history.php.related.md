@@ -1,16 +1,11 @@
-Історія суміжних з PHP проектів
-
--   [« Історія PHP](history.php.md)
-    
--   [Книги о PHP »](history.php.books.md)
-    
--   [PHP Manual](index.md)
-    
--   [Історія PHP та суміжних проектів](history.md)
-    
--   Історія суміжних з PHP проектів
-    
-
+---
+navigation:
+  - history.php.md: « Історія PHP
+  - history.php.books.md: Книги о PHP »
+  - index.md: PHP Manual
+  - history.md: Історія PHP та суміжних проектів
+title: Історія суміжних з PHP проектів
+---
 ## Історія суміжних з PHP проектів
 
 ### PEAR

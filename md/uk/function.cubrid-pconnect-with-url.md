@@ -1,16 +1,11 @@
-Відкриває постійне з'єднання із сервером CUBRID
-
--   [« cubridnumrows](function.cubrid-num-rows.html)
-    
--   [cubridpconnect »](function.cubrid-pconnect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Відкриває постійне з'єднання із сервером CUBRID
-    
-
+---
+navigation:
+  - function.cubrid-num-rows.html: « cubridnumrows
+  - function.cubrid-pconnect.html: cubridpconnect »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridpconnectwithurl
+---
 # cubridpconnectwithurl
 
 (PECL CUBRID >= 8.3.1)

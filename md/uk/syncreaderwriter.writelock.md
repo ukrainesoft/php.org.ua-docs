@@ -1,16 +1,11 @@
-Чекає на ексклюзивне блокування запису
-
--   [« SyncReaderWriter::readunlock](syncreaderwriter.readunlock.html)
-    
--   [SyncReaderWriter::writeunlock »](syncreaderwriter.writeunlock.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncReaderWriter](class.syncreaderwriter.html)
-    
--   Чекає на ексклюзивне блокування запису
-    
-
+---
+navigation:
+  - syncreaderwriter.readunlock.html: '« SyncReaderWriter::readunlock'
+  - syncreaderwriter.writeunlock.html: 'SyncReaderWriter::writeunlock »'
+  - index.html: PHP Manual
+  - class.syncreaderwriter.html: SyncReaderWriter
+title: 'SyncReaderWriter::writelock'
+---
 # SyncReaderWriter::writelock
 
 (PECL sync >= 1.0.0)

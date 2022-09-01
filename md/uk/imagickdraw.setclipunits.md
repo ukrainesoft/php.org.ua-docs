@@ -1,16 +1,11 @@
-Встановлює інтерпретацію одиниць траєкторії відсічного контуру
-
--   [« ImagickDraw::setClipRule](imagickdraw.setcliprule.md)
-    
--   [ImagickDraw::setFillAlpha »](imagickdraw.setfillalpha.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює інтерпретацію одиниць траєкторії відсічного контуру
-    
-
+---
+navigation:
+  - imagickdraw.setcliprule.md: '« ImagickDraw::setClipRule'
+  - imagickdraw.setfillalpha.md: 'ImagickDraw::setFillAlpha »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setClipUnits'
+---
 # ImagickDraw::setClipUnits
 
 (PECL imagick 2, PECL imagick 3)

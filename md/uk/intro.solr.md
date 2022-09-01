@@ -1,16 +1,11 @@
-Вступ
-
--   [« Solr](book.solr.html)
-    
--   [Встановлення та налаштування »](solr.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.solr.html: « Solr
+  - solr.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Вступ
+---
 # Вступ
 
 Модуль Solr дозволяє ефективно взаємодіяти з сервером Apache Solr у PHP.

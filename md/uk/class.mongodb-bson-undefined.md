@@ -1,16 +1,11 @@
-Клас MongoDBBSONUndefined (застаріло)
-
--   [« MongoDBBSONSymbol::unserialize](mongodb-bson-symbol.unserialize.html)
-    
--   [MongoDBBSONUndefined::construct »](mongodb-bson-undefined.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Клас MongoDBBSONUndefined (застаріло)
-    
-
+---
+navigation:
+  - mongodb-bson-symbol.unserialize.html: '« MongoDBBSONSymbol::unserialize'
+  - mongodb-bson-undefined.construct.html: 'MongoDBBSONUndefined::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Клас MongoDBBSONUndefined (застаріло)
+---
 # Клас MongoDBBSONUndefined (застаріло)
 
 (mongodb >=1.4.0)
@@ -48,8 +43,8 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                           |
-|---------------------|--------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
 
 ## Зміст

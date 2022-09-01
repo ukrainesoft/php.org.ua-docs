@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.trader.md)
-    
--   [Вимоги »](trader.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Trader](book.trader.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.trader.md: « Введение
+  - trader.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.trader.md: Trader
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

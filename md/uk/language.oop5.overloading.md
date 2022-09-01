@@ -1,16 +1,11 @@
-Перевантаження
-
--   [« Анонімні класи](language.oop5.anonymous.html)
-    
--   [Ітератори об'єктів »](language.oop5.iterations.html)
-    
--   [PHP Manual](index.html)
-    
--   [Класи та об'єкти](language.oop5.html)
-    
--   Перевантаження
-    
-
+---
+navigation:
+  - language.oop5.anonymous.html: « Анонімні класи
+  - language.oop5.iterations.html: Ітератори об'єктів »
+  - index.html: PHP Manual
+  - language.oop5.html: Класи та об'єкти
+title: Перевантаження
+---
 ## Перевантаження
 
 Перевантаження в PHP означає можливість динамічно створювати властивості та методи. Ці динамічні сутності обробляються за допомогою магічних методів, які можна створити в класі різних видів дій.

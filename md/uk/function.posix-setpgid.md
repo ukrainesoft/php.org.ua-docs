@@ -1,16 +1,11 @@
-Встановлює ідентифікатор групи процесу для менеджера завдань
-
--   [« posixsetgid](function.posix-setgid.html)
-    
--   [posixsetrlimit »](function.posix-setrlimit.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Встановлює ідентифікатор групи процесу для менеджера завдань
-    
-
+---
+navigation:
+  - function.posix-setgid.html: « posixsetgid
+  - function.posix-setrlimit.html: posixsetrlimit »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixsetpgid
+---
 # posixsetpgid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

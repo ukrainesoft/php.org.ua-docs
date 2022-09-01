@@ -1,16 +1,11 @@
-Повертає межу кандидата
-
--   [« fanngetcascadecandidatechangefraction](function.fann-get-cascade-candidate-change-fraction.html)
-    
--   [fanngetcascadecandidatestagnationepochs »](function.fann-get-cascade-candidate-stagnation-epochs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає межу кандидата
-    
-
+---
+navigation:
+  - function.fann-get-cascade-candidate-change-fraction.html: « fanngetcascadecandidatechangefraction
+  - function.fann-get-cascade-candidate-stagnation-epochs.html: fanngetcascadecandidatestagnationepochs »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetcascadecandidatelimit
+---
 # fanngetcascadecandidatelimit
 
 (PECL fann> = 1.0.0)

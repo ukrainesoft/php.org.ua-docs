@@ -1,16 +1,11 @@
-Серіалізує Regex
-
--   [« MongoDBBSONRegex::jsonSerialize](mongodb-bson-regex.jsonserialize.html)
-    
--   [MongoDBBSONRegex::toString »](mongodb-bson-regex.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   Серіалізує Regex
-    
-
+---
+navigation:
+  - mongodb-bson-regex.jsonserialize.html: '« MongoDBBSONRegex::jsonSerialize'
+  - mongodb-bson-regex.tostring.html: 'MongoDBBSONRegex::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::serialize'
+---
 # MongoDBBSONRegex::serialize
 
 (mongodb >=1.2.0)

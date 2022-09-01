@@ -1,16 +1,11 @@
-Перевести подію у стан очікування
-
--   [« Event](class.event.md)
-    
--   [Event::addSignal »](event.addsignal.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Перевести подію у стан очікування
-    
-
+---
+navigation:
+  - class.event.md: « Event
+  - event.addsignal.md: 'Event::addSignal »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::add'
+---
 # Event::add
 
 (PECL event >= 1.2.6-beta)

@@ -1,16 +1,11 @@
-Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
-
--   [« EventHttp](class.eventhttp.md)
-    
--   [EventHttp::addServerAlias »](eventhttp.addserveralias.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttp](class.eventhttp.md)
-    
--   Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
-    
-
+---
+navigation:
+  - class.eventhttp.md: « EventHttp
+  - eventhttp.addserveralias.md: 'EventHttp::addServerAlias »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
+title: 'EventHttp::accept'
+---
 # EventHttp::accept
 
 (PECL event >= 1.2.6-beta)

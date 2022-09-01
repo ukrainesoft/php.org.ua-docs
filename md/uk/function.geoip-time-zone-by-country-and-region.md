@@ -1,16 +1,11 @@
-Повертає часовий пояс для коду країни та регіону
-
--   [« geoipsetupcustomdirectory](function.geoip-setup-custom-directory.html)
-    
--   [FANN »](book.fann.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции GeoIP](ref.geoip.html)
-    
--   Повертає часовий пояс для коду країни та регіону
-    
-
+---
+navigation:
+  - function.geoip-setup-custom-directory.html: « geoipsetupcustomdirectory
+  - book.fann.html: FANN »
+  - index.html: PHP Manual
+  - ref.geoip.html: Функции GeoIP
+title: geoiptimezoneбcountryandregion
+---
 # geoiptimezoneбcountryandregion
 
 (PECL geoip >= 1.0.4)

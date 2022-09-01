@@ -1,16 +1,11 @@
-Повертає масив, що містить аргументи функції
-
--   [« funcgetarg](function.func-get-arg.html)
-    
--   [funcnumargs »](function.func-num-args.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Повертає масив, що містить аргументи функції
-    
-
+---
+navigation:
+  - function.func-get-arg.html: « funcgetarg
+  - function.func-num-args.html: funcnumargs »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: funcgetargs
+---
 # funcgetargs
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

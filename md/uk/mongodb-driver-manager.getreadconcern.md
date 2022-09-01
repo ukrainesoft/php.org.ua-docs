@@ -1,16 +1,11 @@
-Повертає ReadConcern для Manager
-
--   [« MongoDBDriverManager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.html)
-    
--   [MongoDBDriverManager::getReadPreference »](mongodb-driver-manager.getreadpreference.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Повертає ReadConcern для Manager
-    
-
+---
+navigation:
+  - mongodb-driver-manager.getencryptedfieldsmap.html: '« MongoDBDriverManager::getEncryptedFieldsMap'
+  - mongodb-driver-manager.getreadpreference.html: 'MongoDBDriverManager::getReadPreference »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::getReadConcern'
+---
 # MongoDBDriverManager::getReadConcern
 
 (mongodb >=1.1.0)

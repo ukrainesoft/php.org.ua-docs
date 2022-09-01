@@ -1,16 +1,11 @@
-Надіслати повідомлення, що складається з кількох частин
-
--   [« ZMQSocket::send](zmqsocket.send.html)
-    
--   [ZMQSocket::setSockOpt »](zmqsocket.setsockopt.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQSocket](class.zmqsocket.html)
-    
--   Надіслати повідомлення, що складається з кількох частин
-    
-
+---
+navigation:
+  - zmqsocket.send.html: '« ZMQSocket::send'
+  - zmqsocket.setsockopt.html: 'ZMQSocket::setSockOpt »'
+  - index.html: PHP Manual
+  - class.zmqsocket.html: ZMQSocket
+title: 'ZMQSocket::sendmulti'
+---
 # ZMQSocket::sendmulti
 
 (PECL zmq >= 0.8.0)

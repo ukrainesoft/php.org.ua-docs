@@ -1,16 +1,11 @@
-Очищає всі ресурси, пов'язані з об'єктом Imagick
-
--   [« Imagick::clampImage](imagick.clampimage.md)
-    
--   [Imagick::clipImage »](imagick.clipimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Очищає всі ресурси, пов'язані з об'єктом Imagick
-    
-
+---
+navigation:
+  - imagick.clampimage.md: '« Imagick::clampImage'
+  - imagick.clipimage.md: 'Imagick::clipImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clear'
+---
 # Imagick::clear
 
 (PECL imagick 2, PECL imagick 3)

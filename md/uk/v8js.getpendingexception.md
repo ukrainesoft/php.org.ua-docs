@@ -1,16 +1,11 @@
-Повертає очікуваний непойманий виняток Javascript
-
--   [« V8Js::getExtensions](v8js.getextensions.html)
-    
--   [V8Js::registerExtension »](v8js.registerextension.html)
-    
--   [PHP Manual](index.html)
-    
--   [V8Js](class.v8js.html)
-    
--   Повертає очікуваний непойманий виняток Javascript
-    
-
+---
+navigation:
+  - v8js.getextensions.html: '« V8Js::getExtensions'
+  - v8js.registerextension.html: 'V8Js::registerExtension »'
+  - index.html: PHP Manual
+  - class.v8js.html: V8Js
+title: 'V8Js::getPendingException'
+---
 # V8Js::getPendingException
 
 (PECL v8js >= 0.1.0)

@@ -1,16 +1,11 @@
-Змінює режим доступу до файлу
-
--   [« chgrp](function.chgrp.md)
-    
--   [chown »](function.chown.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Змінює режим доступу до файлу
-    
-
+---
+navigation:
+  - function.chgrp.md: « chgrp
+  - function.chown.md: chown »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: chmod
+---
 # chmod
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

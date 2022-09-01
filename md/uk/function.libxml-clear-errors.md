@@ -1,16 +1,11 @@
-Очищення буфера помилок libxml
-
--   [« Функції libxml](ref.libxml.md)
-    
--   [libxmldisableentityloader »](function.libxml-disable-entity-loader.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції libxml](ref.libxml.md)
-    
--   Очищення буфера помилок libxml
-    
-
+---
+navigation:
+  - ref.libxml.md: « Функції libxml
+  - function.libxml-disable-entity-loader.html: libxmldisableentityloader »
+  - index.md: PHP Manual
+  - ref.libxml.md: Функції libxml
+title: libxmlclearerrors
+---
 # libxmlclearerrors
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

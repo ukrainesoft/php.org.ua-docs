@@ -1,16 +1,11 @@
-Отримує матрицю афінного перетворення
-
--   [« imageaffinematrixconcat](function.imageaffinematrixconcat.md)
-    
--   [imagealphablending »](function.imagealphablending.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримує матрицю афінного перетворення
-    
-
+---
+navigation:
+  - function.imageaffinematrixconcat.md: « imageaffinematrixconcat
+  - function.imagealphablending.md: imagealphablending »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageaffinematrixget
+---
 # imageaffinematrixget
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

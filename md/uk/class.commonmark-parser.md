@@ -1,16 +1,11 @@
-Клас CommonMarkParser
-
--   [« CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.html)
-    
--   [CommonMarkParser::construct »](commonmark-parser.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   Клас CommonMarkParser
-    
-
+---
+navigation:
+  - commonmark-interfaces-ivisitable.accept.html: '« CommonMarkInterfacesIVisitable::accept'
+  - commonmark-parser.construct.html: 'CommonMarkParser::construct »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Клас CommonMarkParser
+---
 # Клас CommonMarkParser
 
 (cmark >= 1.0.0)

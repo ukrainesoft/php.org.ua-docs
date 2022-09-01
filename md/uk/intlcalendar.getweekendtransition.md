@@ -1,16 +1,11 @@
-Отримує час, коли вихідні починаються або закінчуються.
-
--   [« IntlCalendar::getType](intlcalendar.gettype.html)
-    
--   [IntlCalendar::inDaylightTime »](intlcalendar.indaylighttime.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Отримує час, коли вихідні починаються або закінчуються.
-    
-
+---
+navigation:
+  - intlcalendar.gettype.html: '« IntlCalendar::getType'
+  - intlcalendar.indaylighttime.html: 'IntlCalendar::inDaylightTime »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::getWeekendTransition'
+---
 # IntlCalendar::getWeekendTransition
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

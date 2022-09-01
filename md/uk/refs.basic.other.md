@@ -1,16 +1,11 @@
-Інші базові модулі
-
--   [« SyncSharedMemory::write](syncsharedmemory.write.md)
-    
--   [GeoIP »](book.geoip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Інші базові модулі
-    
-
+---
+navigation:
+  - syncsharedmemory.write.md: '« SyncSharedMemory::write'
+  - book.geoip.md: GeoIP »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Інші базові модулі
+---
 # Інші базові модулі
 
 -   [GeoIP](book.geoip.md) - Geo IP Location

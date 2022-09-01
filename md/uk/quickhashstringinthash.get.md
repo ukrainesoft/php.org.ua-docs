@@ -1,16 +1,11 @@
-Метод отримує значення з хеша за його ключем
-
--   [« QuickHashStringIntHash::exists](quickhashstringinthash.exists.html)
-    
--   [QuickHashStringIntHash::getSize »](quickhashstringinthash.getsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashStringIntHash](class.quickhashstringinthash.html)
-    
--   Метод отримує значення з хеша за його ключем
-    
-
+---
+navigation:
+  - quickhashstringinthash.exists.html: '« QuickHashStringIntHash::exists'
+  - quickhashstringinthash.getsize.html: 'QuickHashStringIntHash::getSize »'
+  - index.html: PHP Manual
+  - class.quickhashstringinthash.html: QuickHashStringIntHash
+title: 'QuickHashStringIntHash::get'
+---
 # QuickHashStringIntHash::get
 
 (No version information available, might only be in Git)

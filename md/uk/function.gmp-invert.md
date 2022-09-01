@@ -1,16 +1,11 @@
-Інверсія залишку від розподілу
-
--   [« gmpintval](function.gmp-intval.html)
-    
--   [gmpjacobi »](function.gmp-jacobi.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Інверсія залишку від розподілу
-    
-
+---
+navigation:
+  - function.gmp-intval.html: « gmpintval
+  - function.gmp-jacobi.html: gmpjacobi »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpinvert
+---
 # gmpinvert
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

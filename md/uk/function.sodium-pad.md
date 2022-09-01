@@ -1,16 +1,11 @@
-Доповнює рядок відступами
-
--   [« sodiummemzero](function.sodium-memzero.html)
-    
--   [sodiumunpad »](function.sodium-unpad.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Доповнює рядок відступами
-    
-
+---
+navigation:
+  - function.sodium-memzero.html: « sodiummemzero
+  - function.sodium-unpad.html: sodiumunpad »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumpad
+---
 # sodiumpad
 
 (PHP 7> = 7.2.0, PHP 8)

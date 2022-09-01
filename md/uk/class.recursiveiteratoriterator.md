@@ -1,16 +1,11 @@
-Клас RecursiveIteratorIterator
-
--   [« RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.md)
-    
--   [RecursiveIteratorIterator::beginChildren »](recursiveiteratoriterator.beginchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RecursiveIteratorIterator
-    
-
+---
+navigation:
+  - recursivefilteriterator.haschildren.md: '« RecursiveFilterIterator::hasChildren'
+  - recursiveiteratoriterator.beginchildren.md: 'RecursiveIteratorIterator::beginChildren »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveIteratorIterator
+---
 # Клас RecursiveIteratorIterator
 
 (PHP 5, PHP 7, PHP 8)

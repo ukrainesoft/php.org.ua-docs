@@ -1,16 +1,11 @@
-Припиняє отримання даних
-
--   [« SwooleClient::on](swoole-client.on.html)
-    
--   [SwooleClient::pipe »](swoole-client.pipe.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Припиняє отримання даних
-    
-
+---
+navigation:
+  - swoole-client.on.html: '« SwooleClient::on'
+  - swoole-client.pipe.html: 'SwooleClient::pipe »'
+  - index.md: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::pause'
+---
 # SwooleClient::pause
 
 (PECL swoole >= 1.9.0)

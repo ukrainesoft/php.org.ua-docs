@@ -1,16 +1,11 @@
-Виконує вхід на FTP-сервер
-
--   [« ftpget](function.ftp-get.html)
-    
--   [ftpmdtm »](function.ftp-mdtm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Виконує вхід на FTP-сервер
-    
-
+---
+navigation:
+  - function.ftp-get.html: « ftpget
+  - function.ftp-mdtm.html: ftpmdtm »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftplogin
+---
 # ftplogin
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

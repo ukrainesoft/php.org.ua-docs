@@ -1,16 +1,11 @@
-Надсилає запит
-
--   [« YafDispatcher::disableView](yaf-dispatcher.disableview.html)
-    
--   [YafDispatcher::enableView »](yaf-dispatcher.enableview.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Надсилає запит
-    
-
+---
+navigation:
+  - yaf-dispatcher.disableview.html: '« YafDispatcher::disableView'
+  - yaf-dispatcher.enableview.html: 'YafDispatcher::enableView »'
+  - index.html: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::dispatch'
+---
 # YafDispatcher::dispatch
 
 (Yaf >=1.0.0)

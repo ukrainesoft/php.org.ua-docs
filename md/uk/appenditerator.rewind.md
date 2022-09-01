@@ -1,16 +1,11 @@
-Перемотує ітератор
-
--   [« AppendIterator::next](appenditerator.next.md)
-    
--   [AppendIterator::valid »](appenditerator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [AppendIterator](class.appenditerator.md)
-    
--   Перемотує ітератор
-    
-
+---
+navigation:
+  - appenditerator.next.md: '« AppendIterator::next'
+  - appenditerator.valid.md: 'AppendIterator::valid »'
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
+title: 'AppendIterator::rewind'
+---
 # AppendIterator::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

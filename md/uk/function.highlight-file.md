@@ -1,16 +1,11 @@
-Підсвічування синтаксису файлу
-
--   [haltcompiler](function.halt-compiler.html)
-    
--   [highlightstring »](function.highlight-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Підсвічування синтаксису файлу
-    
-
+---
+navigation:
+  - function.halt-compiler.html: haltcompiler
+  - function.highlight-string.html: highlightstring »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: highlightfile
+---
 # highlightfile
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

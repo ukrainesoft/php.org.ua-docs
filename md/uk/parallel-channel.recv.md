@@ -1,16 +1,11 @@
-Спільне використання
-
--   [« parallelChannel::open](parallel-channel.open.html)
-    
--   [parallelChannel::send »](parallel-channel.send.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallelChannel](class.parallel-channel.html)
-    
--   Спільне використання
-    
-
+---
+navigation:
+  - parallel-channel.open.html: '« parallelChannel::open'
+  - parallel-channel.send.html: 'parallelChannel::send »'
+  - index.html: PHP Manual
+  - class.parallel-channel.html: parallelChannel
+title: 'parallelChannel::recv'
+---
 # parallelChannel::recv
 
 parallelChannel::recv — Спільне використання

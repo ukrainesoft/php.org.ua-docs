@@ -1,16 +1,11 @@
-Розшифровує переданий текст
-
--   [« gnupgclearsignkeys](function.gnupg-clearsignkeys.html)
-    
--   [gnupgdecryptverify »](function.gnupg-decryptverify.html)
-    
--   [PHP Manual](index.html)
-    
--   [GnuPG Функції](ref.gnupg.html)
-    
--   Розшифровує переданий текст
-    
-
+---
+navigation:
+  - function.gnupg-clearsignkeys.html: « gnupgclearsignkeys
+  - function.gnupg-decryptverify.html: gnupgdecryptverify »
+  - index.html: PHP Manual
+  - ref.gnupg.html: GnuPG Функції
+title: gnupgdecrypt
+---
 # gnupgdecrypt
 
 (PECL gnupg >= 0.1)

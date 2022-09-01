@@ -1,16 +1,11 @@
-Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order
-
--   [« SeasLog::analyzerCount](seaslog.analyzercount.html)
-    
--   [SeasLog::closeLoggerStream »](seaslog.closeloggerstream.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order
-    
-
+---
+navigation:
+  - seaslog.analyzercount.html: '« SeasLog::analyzerCount'
+  - seaslog.closeloggerstream.html: 'SeasLog::closeLoggerStream »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::analyzerDetail'
+---
 # SeasLog::analyzerDetail
 
 (PECL seaslog >=1.1.6)

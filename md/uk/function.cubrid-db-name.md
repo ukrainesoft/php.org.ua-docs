@@ -1,16 +1,11 @@
-Отримання імені бази даних з результату cubridlistdbs
-
--   [« cubriddataseek](function.cubrid-data-seek.html)
-    
--   [cubriderrno »](function.cubrid-errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Отримання імені бази даних з результату cubridlistdbs
-    
-
+---
+navigation:
+  - function.cubrid-data-seek.html: « cubriddataseek
+  - function.cubrid-errno.html: cubriderrno »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridдбname
+---
 # cubridдбname
 
 (PECL CUBRID >= 8.3.1)

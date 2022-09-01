@@ -1,16 +1,11 @@
-Встановлює режим сумісності
-
--   [« tradersarext](function.trader-sarext.html)
-    
--   [tradersetunstableperiod »](function.trader-set-unstable-period.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Встановлює режим сумісності
-    
-
+---
+navigation:
+  - function.trader-sarext.html: « tradersarext
+  - function.trader-set-unstable-period.html: tradersetunstableperiod »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersetcompat
+---
 # tradersetcompat
 
 (PECL trader >= 0.2.2)

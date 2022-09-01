@@ -1,16 +1,11 @@
-Читає дані сесії
-
--   [« SessionHandlerInterface::open](sessionhandlerinterface.open.md)
-    
--   [SessionHandlerInterface::write »](sessionhandlerinterface.write.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandlerInterface](class.sessionhandlerinterface.md)
-    
--   Читає дані сесії
-    
-
+---
+navigation:
+  - sessionhandlerinterface.open.md: '« SessionHandlerInterface::open'
+  - sessionhandlerinterface.write.md: 'SessionHandlerInterface::write »'
+  - index.md: PHP Manual
+  - class.sessionhandlerinterface.md: SessionHandlerInterface
+title: 'SessionHandlerInterface::read'
+---
 # SessionHandlerInterface::read
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

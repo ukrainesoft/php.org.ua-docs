@@ -1,16 +1,11 @@
-Повертає індекс поточної позиції
-
--   [« IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md)
-    
--   [IntlBreakIterator::first »](intlbreakiterator.first.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlBreakIterator](class.intlbreakiterator.md)
-    
--   Повертає індекс поточної позиції
-    
-
+---
+navigation:
+  - intlbreakiterator.createwordinstance.md: '« IntlBreakIterator::createWordInstance'
+  - intlbreakiterator.first.md: 'IntlBreakIterator::first »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
+title: 'IntlBreakIterator::current'
+---
 # IntlBreakIterator::current
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

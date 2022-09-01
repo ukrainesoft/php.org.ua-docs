@@ -1,16 +1,11 @@
-Встановлює ширину обведення, що використовується для відображення контурів об'єкта
-
--   [« GmagickDraw::setstrokeopacity](gmagickdraw.setstrokeopacity.html)
-    
--   [GmagickDraw::settextdecoration »](gmagickdraw.settextdecoration.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Встановлює ширину обведення, що використовується для відображення контурів об'єкта
-    
-
+---
+navigation:
+  - gmagickdraw.setstrokeopacity.html: '« GmagickDraw::setstrokeopacity'
+  - gmagickdraw.settextdecoration.html: 'GmagickDraw::settextdecoration »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::setstrokewidth'
+---
 # GmagickDraw::setstrokewidth
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Встановити обробник tokenHandler
-
--   [« OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md)
-    
--   [OAuthException »](class.oauthexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Встановити обробник tokenHandler
-    
-
+---
+navigation:
+  - oauthprovider.timestampnoncehandler.md: '« OAuthProvider::timestampNonceHandler'
+  - class.oauthexception.md: OAuthException »
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::tokenHandler'
+---
 # OAuthProvider::tokenHandler
 
 (PECL OAuth >= 1.0.0)

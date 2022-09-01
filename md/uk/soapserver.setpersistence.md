@@ -1,16 +1,11 @@
-Встановлює режим збереження SoapServer
-
--   [« SoapServer::setObject](soapserver.setobject.md)
-    
--   [SoapFault »](class.soapfault.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Встановлює режим збереження SoapServer
-    
-
+---
+navigation:
+  - soapserver.setobject.md: '« SoapServer::setObject'
+  - class.soapfault.md: SoapFault »
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::setPersistence'
+---
 # SoapServer::setPersistence
 
 (PHP 5, PHP 7, PHP 8)

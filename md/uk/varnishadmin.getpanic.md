@@ -1,16 +1,11 @@
-Отримати останнє критичне повідомлення на екземплярі varnish
-
--   [« VarnishAdmin::disconnect](varnishadmin.disconnect.md)
-    
--   [VarnishAdmin::getParams »](varnishadmin.getparams.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Отримати останнє критичне повідомлення на екземплярі varnish
-    
-
+---
+navigation:
+  - varnishadmin.disconnect.md: '« VarnishAdmin::disconnect'
+  - varnishadmin.getparams.md: 'VarnishAdmin::getParams »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::getPanic'
+---
 # VarnishAdmin::getPanic
 
 (PECL varnish >= 0.4)

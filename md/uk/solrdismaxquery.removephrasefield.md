@@ -1,16 +1,11 @@
-Видаляє поле фрази (параметра)
-
--   [« SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.md)
-    
--   [SolrDisMaxQuery::removeQueryField »](solrdismaxquery.removequeryfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Видаляє поле фрази (параметра)
-    
-
+---
+navigation:
+  - solrdismaxquery.removeboostquery.md: '« SolrDisMaxQuery::removeBoostQuery'
+  - solrdismaxquery.removequeryfield.md: 'SolrDisMaxQuery::removeQueryField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::removePhraseField'
+---
 # SolrDisMaxQuery::removePhraseField
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Визначає бази даних у сеансі
-
--   [« yazconnect](function.yaz-connect.html)
-    
--   [yazelement »](function.yaz-element.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Визначає бази даних у сеансі
-    
-
+---
+navigation:
+  - function.yaz-connect.html: « yazconnect
+  - function.yaz-element.html: yazelement »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazdatabase
+---
 # yazdatabase
 
 (PHP 4> = 4.0.6, PECL yaz> = 0.9.0)

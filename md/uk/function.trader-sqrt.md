@@ -1,16 +1,11 @@
-Вектор квадратний корінь
-
--   [« tradersma](function.trader-sma.html)
-    
--   [traderstddev »](function.trader-stddev.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Вектор квадратний корінь
-    
-
+---
+navigation:
+  - function.trader-sma.html: « tradersma
+  - function.trader-stddev.html: traderstddev »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradersqrt
+---
 # tradersqrt
 
 (PECL trader >= 0.2.0)

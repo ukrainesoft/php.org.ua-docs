@@ -1,16 +1,11 @@
-Отримання імені простору імен
-
--   [« ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md)
-    
--   [ReflectionFunctionAbstract::getNumberOfParameters »](reflectionfunctionabstract.getnumberofparameters.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Отримання імені простору імен
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.getname.md: '« ReflectionFunctionAbstract::getName'
+  - reflectionfunctionabstract.getnumberofparameters.md: 'ReflectionFunctionAbstract::getNumberOfParameters »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::getNamespaceName'
+---
 # ReflectionFunctionAbstract::getNamespaceName
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

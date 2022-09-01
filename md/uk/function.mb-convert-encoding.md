@@ -1,16 +1,11 @@
-Перетворює рядок з одного кодування символів на інший
-
--   [« mbconvertcase](function.mb-convert-case.html)
-    
--   [мбconvertkana »](function.mb-convert-kana.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Перетворює рядок з одного кодування символів на інший
-    
-
+---
+navigation:
+  - function.mb-convert-case.html: « mbconvertcase
+  - function.mb-convert-kana.html: мбconvertkana »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбconvertencoding
+---
 # мбconvertencoding
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -53,12 +48,12 @@ mb_convert_encoding(array|string $string, string $to_encoding, array|string|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-|        | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `to_encoding`   |
-|        | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `from_encoding` |
-|        | Тепер `from_encoding` може бути **`null`**                                                                                        |
-|        | Функція тепер також приймає масив (array) `string`. Раніше підтримувалися лише рядки (string).                                    |
+| Версия | Описание |
+| --- | --- |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `to_encoding` |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `from_encoding` |
+|  | Тепер `from_encoding` може бути **`null`** |
+|  | Функція тепер також приймає масив (array) `string`. Раніше підтримувалися лише рядки (string). |
 
 ### Приклади
 

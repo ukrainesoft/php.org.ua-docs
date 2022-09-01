@@ -1,16 +1,11 @@
-Звільняє пам'ять, зайняту даними результату
-
--   [« cubridfetch](function.cubrid-fetch.html)
-    
--   [cubridgetautocommit »](function.cubrid-get-autocommit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Звільняє пам'ять, зайняту даними результату
-    
-
+---
+navigation:
+  - function.cubrid-fetch.html: « cubridfetch
+  - function.cubrid-get-autocommit.html: cubridgetautocommit »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridfreeresult
+---
 # cubridfreeresult
 
 (PECL CUBRID >= 8.3.0)

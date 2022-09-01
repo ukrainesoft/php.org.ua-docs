@@ -1,16 +1,11 @@
-Повертає кількість стовпців у наборі результатів
-
--   [« cubridnextresult](function.cubrid-next-result.html)
-    
--   [cubridnumrows »](function.cubrid-num-rows.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Повертає кількість стовпців у наборі результатів
-    
-
+---
+navigation:
+  - function.cubrid-next-result.html: « cubridnextresult
+  - function.cubrid-num-rows.html: cubridnumrows »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridnumcols
+---
 # cubridnumcols
 
 (PECL CUBRID >= 8.3.0)

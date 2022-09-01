@@ -1,16 +1,11 @@
-Отримати поточний елемент
-
--   [« IntlIterator](class.intliterator.md)
-    
--   [IntlIterator::key »](intliterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlIterator](class.intliterator.md)
-    
--   Отримати поточний елемент
-    
-
+---
+navigation:
+  - class.intliterator.md: « IntlIterator
+  - intliterator.key.md: 'IntlIterator::key »'
+  - index.md: PHP Manual
+  - class.intliterator.md: IntlIterator
+title: 'IntlIterator::current'
+---
 # IntlIterator::current
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевіряє, чи існують записи
-
--   [« apcuentry](function.apcu-entry.html)
-    
--   [apcufetch »](function.apcu-fetch.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Перевіряє, чи існують записи
-    
-
+---
+navigation:
+  - function.apcu-entry.html: « apcuentry
+  - function.apcu-fetch.html: apcufetch »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcuexists
+---
 # apcuexists
 
 (PECL apcu >= 4.0.0)

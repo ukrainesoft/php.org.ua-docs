@@ -1,16 +1,11 @@
-Читає повідомлення, що очікують, з черги
-
--   [« inotifyqueuelen](function.inotify-queue-len.html)
-    
--   [inotifyрмwatch »](function.inotify-rm-watch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Inotify](ref.inotify.md)
-    
--   Читає повідомлення, що очікують, з черги
-    
-
+---
+navigation:
+  - function.inotify-queue-len.html: « inotifyqueuelen
+  - function.inotify-rm-watch.html: inotifyрмwatch »
+  - index.md: PHP Manual
+  - ref.inotify.md: Функции Inotify
+title: inotifyread
+---
 # inotifyread
 
 (PECL inotify >= 0.1.2)

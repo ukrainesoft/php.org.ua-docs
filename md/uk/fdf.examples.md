@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](fdf.constants.md)
-    
--   [FDF »](ref.fdf.md)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](book.fdf.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - fdf.constants.md: « Обумовлені константи
+  - ref.fdf.md: FDF »
+  - index.md: PHP Manual
+  - book.fdf.md: FDF
+title: Приклади
+---
 # Приклади
 
 Наступний приклад показує просту обробку даних.

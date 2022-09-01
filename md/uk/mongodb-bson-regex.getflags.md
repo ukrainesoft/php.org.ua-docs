@@ -1,16 +1,11 @@
-Повертає прапори Regex
-
--   [« MongoDBBSONRegex::construct](mongodb-bson-regex.construct.html)
-    
--   [MongoDBBSONRegex::getPattern »](mongodb-bson-regex.getpattern.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   Повертає прапори Regex
-    
-
+---
+navigation:
+  - mongodb-bson-regex.construct.html: '« MongoDBBSONRegex::construct'
+  - mongodb-bson-regex.getpattern.html: 'MongoDBBSONRegex::getPattern »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::getFlags'
+---
 # MongoDBBSONRegex::getFlags
 
 (mongodb >=1.0.0)

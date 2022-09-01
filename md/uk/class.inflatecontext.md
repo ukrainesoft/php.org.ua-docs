@@ -1,16 +1,11 @@
-Клас InflateContext
-
--   [« DeflateContext](class.deflatecontext.md)
-    
--   [Криптографічні модулі »](refs.crypto.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zlib](book.zlib.md)
-    
--   Клас InflateContext
-    
-
+---
+navigation:
+  - class.deflatecontext.md: « DeflateContext
+  - refs.crypto.md: Криптографічні модулі »
+  - index.md: PHP Manual
+  - book.zlib.md: Zlib
+title: Клас InflateContext
+---
 # Клас InflateContext
 
 (PHP 8)

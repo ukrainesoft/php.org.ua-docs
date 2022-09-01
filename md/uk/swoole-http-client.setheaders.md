@@ -1,16 +1,11 @@
-Встановлює заголовки HTTP-запиту
-
--   [« SwooleHttpClient::setData](swoole-http-client.setdata.html)
-    
--   [SwooleHttpClient::setMethod »](swoole-http-client.setmethod.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Встановлює заголовки HTTP-запиту
-    
-
+---
+navigation:
+  - swoole-http-client.setdata.html: '« SwooleHttpClient::setData'
+  - swoole-http-client.setmethod.html: 'SwooleHttpClient::setMethod »'
+  - index.html: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::setHeaders'
+---
 # SwooleHttpClient::setHeaders
 
 (PECL swoole >= 1.9.0)

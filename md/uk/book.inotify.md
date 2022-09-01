@@ -1,16 +1,11 @@
-Inotify
-
--   [« unlink](function.unlink.md)
-    
--   [Введение »](intro.inotify.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
-    
--   Inotify
-    
-
+---
+navigation:
+  - function.unlink.md: « unlink
+  - intro.inotify.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.file.md: Модулі для роботи з файловою системою
+title: Inotify
+---
 # Inotify
 
 -   [Введение](intro.inotify.md)

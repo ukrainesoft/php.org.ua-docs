@@ -1,16 +1,11 @@
-Повертає шлях поточної директорії
-
--   [« posixgetlasterror](function.posix-get-last-error.html)
-    
--   [posixgetegid »](function.posix-getegid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає шлях поточної директорії
-    
-
+---
+navigation:
+  - function.posix-get-last-error.html: « posixgetlasterror
+  - function.posix-getegid.html: posixgetegid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixgetcwd
+---
 # posixgetcwd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

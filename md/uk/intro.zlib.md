@@ -1,16 +1,11 @@
-Вступ
-
--   [« Zlib](book.zlib.md)
-    
--   [Встановлення та налаштування »](zlib.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zlib](book.zlib.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.zlib.md: « Zlib
+  - zlib.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.zlib.md: Zlib
+title: Вступ
+---
 # Вступ
 
 Модуль дозволяє прозоро читати та записувати стислі файли gzip (.gz), використовуючи більшість функцій [файлової системи](book.filesystem.md), які працюють зі стислими файлами gzip (і стиснутими файлами теж, але без використання сокетів).

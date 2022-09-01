@@ -1,16 +1,11 @@
-Сортує колекцію за значеннями
-
--   [« DsMap::slice](ds-map.slice.html)
-    
--   [ДсMap::sorted »](ds-map.sorted.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Сортує колекцію за значеннями
-    
-
+---
+navigation:
+  - ds-map.slice.html: '« DsMap::slice'
+  - ds-map.sorted.html: 'ДсMap::sorted »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::sort'
+---
 # ДсMap::sort
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Видаляє запит фільтра
-
--   [« SolrQuery::removeField](solrquery.removefield.md)
-    
--   [SolrQuery::removeHighlightField »](solrquery.removehighlightfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Видаляє запит фільтра
-    
-
+---
+navigation:
+  - solrquery.removefield.md: '« SolrQuery::removeField'
+  - solrquery.removehighlightfield.md: 'SolrQuery::removeHighlightField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeFilterQuery'
+---
 # SolrQuery::removeFilterQuery
 
 (PECL solr> = 0.9.2)

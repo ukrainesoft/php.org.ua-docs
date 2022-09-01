@@ -1,16 +1,11 @@
-Повертає усунення часового поясу
-
--   [« DateTimeInterface::format](datetime.format.md)
-    
--   [DateTimeInterface::getTimestamp »](datetime.gettimestamp.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeInterface](class.datetimeinterface.md)
-    
--   Повертає усунення часового поясу
-    
-
+---
+navigation:
+  - datetime.format.md: '« DateTimeInterface::format'
+  - datetime.gettimestamp.md: 'DateTimeInterface::getTimestamp »'
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
+title: 'DateTimeInterface::getOffset'
+---
 # DateTimeInterface::getOffset
 
 # DateTimeImmutable::getOffset
@@ -59,9 +54,9 @@ date_offset_get(DateTimeInterface $object): int
 
 ### список змін
 
-| Версия | Описание                                                          |
-|--------|-------------------------------------------------------------------|
-|        | До цієї версії, у разі виникнення помилки поверталося **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
 
 ### Приклади
 

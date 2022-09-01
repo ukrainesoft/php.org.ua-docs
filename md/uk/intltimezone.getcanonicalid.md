@@ -1,16 +1,11 @@
-Отримати канонічний системний ідентифікатор часового поясу або нормалізований ідентифікатор часового поясу за заданим ідентифікатором часового поясу
-
--   [« IntlTimeZone::fromDateTimeZone](intltimezone.fromdatetimezone.html)
-    
--   [IntlTimeZone::getDisplayName »](intltimezone.getdisplayname.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Отримати канонічний системний ідентифікатор часового поясу або нормалізований ідентифікатор часового поясу за заданим ідентифікатором часового поясу
-    
-
+---
+navigation:
+  - intltimezone.fromdatetimezone.html: '« IntlTimeZone::fromDateTimeZone'
+  - intltimezone.getdisplayname.html: 'IntlTimeZone::getDisplayName »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::getCanonicalID'
+---
 # IntlTimeZone::getCanonicalID
 
 # intltzgetcanonicalід

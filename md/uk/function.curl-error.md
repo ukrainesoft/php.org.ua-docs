@@ -1,16 +1,11 @@
-Повертає рядок із описом останньої помилки поточного сеансу
-
--   [« curlerrno](function.curl-errno.html)
-    
--   [curlescape »](function.curl-escape.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции cURL](ref.curl.md)
-    
--   Повертає рядок із описом останньої помилки поточного сеансу
-    
-
+---
+navigation:
+  - function.curl-errno.html: « curlerrno
+  - function.curl-escape.html: curlescape »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
+title: curlerror
+---
 # curlerror
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ curl_error(CurlHandle $handle): string
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 

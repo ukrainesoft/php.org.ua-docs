@@ -1,16 +1,11 @@
-Розархівація LZF
-
--   [« lzfcompress](function.lzf-compress.html)
-    
--   [lzfoptimizedfor »](function.lzf-optimized-for.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LZF](ref.lzf.md)
-    
--   Розархівація LZF
-    
-
+---
+navigation:
+  - function.lzf-compress.html: « lzfcompress
+  - function.lzf-optimized-for.html: lzfoptimizedfor »
+  - index.md: PHP Manual
+  - ref.lzf.md: Функції LZF
+title: lzfdecompress
+---
 # lzfdecompress
 
 (PECL lzf >= 0.1.0)

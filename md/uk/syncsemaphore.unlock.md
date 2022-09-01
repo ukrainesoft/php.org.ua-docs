@@ -1,16 +1,11 @@
-Збільшує рахунок семафору
-
--   [« SyncSemaphore::lock](syncsemaphore.lock.md)
-    
--   [SyncEvent »](class.syncevent.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncSemaphore](class.syncsemaphore.md)
-    
--   Збільшує рахунок семафору
-    
-
+---
+navigation:
+  - syncsemaphore.lock.md: '« SyncSemaphore::lock'
+  - class.syncevent.md: SyncEvent »
+  - index.md: PHP Manual
+  - class.syncsemaphore.md: SyncSemaphore
+title: 'SyncSemaphore::unlock'
+---
 # SyncSemaphore::unlock
 
 (PECL sync >= 1.0.0)

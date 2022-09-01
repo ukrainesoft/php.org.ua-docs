@@ -1,16 +1,11 @@
-Малює текст на зображенні
-
--   [« ImagickDraw::affine](imagickdraw.affine.html)
-    
--   [ImagickDraw::arc »](imagickdraw.arc.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює текст на зображенні
-    
-
+---
+navigation:
+  - imagickdraw.affine.html: '« ImagickDraw::affine'
+  - imagickdraw.arc.html: 'ImagickDraw::arc »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::annotation'
+---
 # ImagickDraw::annotation
 
 (PECL imagick 2, PECL imagick 3)

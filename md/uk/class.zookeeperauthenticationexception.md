@@ -1,16 +1,11 @@
-Клас ZookeeperAuthenticationException
-
--   [« ZookeeperException](class.zookeeperexception.html)
-    
--   [ZookeeperConnectionException »](class.zookeeperconnectionexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZooKeeper](book.zookeeper.html)
-    
--   Клас ZookeeperAuthenticationException
-    
-
+---
+navigation:
+  - class.zookeeperexception.html: « ZookeeperException
+  - class.zookeeperconnectionexception.html: ZookeeperConnectionException »
+  - index.html: PHP Manual
+  - book.zookeeper.html: ZooKeeper
+title: Клас ZookeeperAuthenticationException
+---
 # Клас ZookeeperAuthenticationException
 
 (PECL zookeeper >= 0.3.0)

@@ -1,16 +1,11 @@
-Псевдонім implode
-
--   [« implode](function.implode.html)
-    
--   [lcfirst »](function.lcfirst.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Псевдонім implode
-    
-
+---
+navigation:
+  - function.implode.html: « implode
+  - function.lcfirst.html: lcfirst »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: join
+---
 # join
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

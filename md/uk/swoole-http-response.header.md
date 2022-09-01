@@ -1,16 +1,11 @@
-Встановлює заголовки HTTP-відповіді
-
--   [« SwooleHttpResponse::gzip](swoole-http-response.gzip.html)
-    
--   [SwooleHttpResponse::initHeader »](swoole-http-response.initheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Встановлює заголовки HTTP-відповіді
-    
-
+---
+navigation:
+  - swoole-http-response.gzip.html: '« SwooleHttpResponse::gzip'
+  - swoole-http-response.initheader.html: 'SwooleHttpResponse::initHeader »'
+  - index.html: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::header'
+---
 # SwooleHttpResponse::header
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Робить активним наступний результат вказаного оператора
-
--   [« sqlsrvhasrows](function.sqlsrv-has-rows.html)
-    
--   [sqlsrvnumfields »](function.sqlsrv-num-fields.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Робить активним наступний результат вказаного оператора
-    
-
+---
+navigation:
+  - function.sqlsrv-has-rows.html: « sqlsrvhasrows
+  - function.sqlsrv-num-fields.html: sqlsrvnumfields »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvnextresult
+---
 # sqlsrvnextresult
 
 (No version information available, might only be in Git)

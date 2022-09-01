@@ -1,16 +1,11 @@
-Фіксує транзакцію, не закриваючи її
-
--   [« ibaseclose](function.ibase-close.html)
-    
--   [ibasecommit »](function.ibase-commit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Фіксує транзакцію, не закриваючи її
-    
-
+---
+navigation:
+  - function.ibase-close.html: « ibaseclose
+  - function.ibase-commit.html: ibasecommit »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibasecommitret
+---
 # ibasecommitret
 
 (PHP 5, PHP 7 < 7.4.0)

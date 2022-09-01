@@ -1,16 +1,11 @@
-Клас GlobIterator
-
--   [« FilterIterator::valid](filteriterator.valid.html)
-    
--   [GlobIterator::construct »](globiterator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ітератори](spl.iterators.html)
-    
--   Клас GlobIterator
-    
-
+---
+navigation:
+  - filteriterator.valid.html: '« FilterIterator::valid'
+  - globiterator.construct.html: 'GlobIterator::construct »'
+  - index.html: PHP Manual
+  - spl.iterators.html: Ітератори
+title: Клас GlobIterator
+---
 # Клас GlobIterator
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

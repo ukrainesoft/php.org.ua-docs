@@ -1,16 +1,11 @@
-Перемішує навчальні дані у випадковому порядку
-
--   [« fannsetweight](function.fann-set-weight.html)
-    
--   [fannsubsettraindata »](function.fann-subset-train-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Перемішує навчальні дані у випадковому порядку
-    
-
+---
+navigation:
+  - function.fann-set-weight.html: « fannsetweight
+  - function.fann-subset-train-data.html: fannsubsettraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannshuffletraindata
+---
 # fannshuffletraindata
 
 (PECL fann> = 1.0.0)

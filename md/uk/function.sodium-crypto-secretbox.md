@@ -1,16 +1,11 @@
-Шифрування із загальним ключем з автентифікацією
-
--   [« sodiumcryptosecretboxopen](function.sodium-crypto-secretbox-open.html)
-    
--   [sodiumcryptosecretstreamxchacha20poly1305initpull »](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Шифрування із загальним ключем з автентифікацією
-    
-
+---
+navigation:
+  - function.sodium-crypto-secretbox-open.html: « sodiumcryptosecretboxopen
+  - function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html: sodiumcryptosecretstreamxchacha20poly1305initpull »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptosecretbox
+---
 # sodiumcryptosecretbox
 
 (PHP 7> = 7.2.0, PHP 8)

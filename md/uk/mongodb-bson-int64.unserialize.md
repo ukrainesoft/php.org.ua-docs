@@ -1,16 +1,11 @@
-Десеріалізує Int64
-
--   [« MongoDBBSONInt64::toString](mongodb-bson-int64.tostring.html)
-    
--   [MongoDBBSONSymbol »](class.mongodb-bson-symbol.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
-    
--   Десеріалізує Int64
-    
-
+---
+navigation:
+  - mongodb-bson-int64.tostring.html: '« MongoDBBSONInt64::toString'
+  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol »
+  - index.md: PHP Manual
+  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+title: 'MongoDBBSONInt64::unserialize'
+---
 # MongoDBBSONInt64::unserialize
 
 (mongodb >=1.5.0)

@@ -1,16 +1,11 @@
-Призначення set
-
--   [« YafConfigIni::rewind](yaf-config-ini.rewind.html)
-    
--   [YafConfigIni::toArray »](yaf-config-ini.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigIni](class.yaf-config-ini.html)
-    
--   Призначення set
-    
-
+---
+navigation:
+  - yaf-config-ini.rewind.html: '« YafConfigIni::rewind'
+  - yaf-config-ini.toarray.html: 'YafConfigIni::toArray »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.html: YafConfigIni
+title: 'YafConfigIni::set'
+---
 # YafConfigIni::set
 
 (Yaf >=1.0.0)

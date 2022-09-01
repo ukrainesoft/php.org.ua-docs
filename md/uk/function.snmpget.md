@@ -1,16 +1,11 @@
-Отримує об'єкт SNMP
-
--   [« snmpv3walk](function.snmp3-walk.html)
-    
--   [snmpgetnext »](function.snmpgetnext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Отримує об'єкт SNMP
-    
-
+---
+navigation:
+  - function.snmp3-walk.html: « snmpv3walk
+  - function.snmpgetnext.html: snmpgetnext »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmpget
+---
 # snmpget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

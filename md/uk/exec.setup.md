@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.exec.html)
-    
--   [Вимоги »](exec.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Запуск програми](book.exec.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.exec.html: « Введение
+  - exec.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.exec.html: Запуск програми
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

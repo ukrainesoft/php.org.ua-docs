@@ -1,16 +1,11 @@
-Функції SSH2
-
--   [« Обумовлені константи](ssh2.constants.md)
-    
--   [ssh2authagent »](function.ssh2-auth-agent.html)
-    
--   [PHP Manual](index.md)
-    
--   [SSH2](book.ssh2.md)
-    
--   Функції SSH2
-    
-
+---
+navigation:
+  - ssh2.constants.md: « Обумовлені константи
+  - function.ssh2-auth-agent.html: ssh2authagent »
+  - index.md: PHP Manual
+  - book.ssh2.md: SSH2
+title: Функції SSH2
+---
 # Функції SSH2
 
 ## Зміст

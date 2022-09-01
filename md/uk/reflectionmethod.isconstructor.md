@@ -1,16 +1,11 @@
-Перевіряє, чи є метод конструктором
-
--   [« ReflectionMethod::isAbstract](reflectionmethod.isabstract.html)
-    
--   [ReflectionMethod::isDestructor »](reflectionmethod.isdestructor.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionMethod](class.reflectionmethod.html)
-    
--   Перевіряє, чи є метод конструктором
-    
-
+---
+navigation:
+  - reflectionmethod.isabstract.html: '« ReflectionMethod::isAbstract'
+  - reflectionmethod.isdestructor.html: 'ReflectionMethod::isDestructor »'
+  - index.html: PHP Manual
+  - class.reflectionmethod.html: ReflectionMethod
+title: 'ReflectionMethod::isConstructor'
+---
 # ReflectionMethod::isConstructor
 
 (PHP 5, PHP 7, PHP 8)

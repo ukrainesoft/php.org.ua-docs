@@ -1,16 +1,11 @@
-Повертає правило заливання
-
--   [« ImagickDraw::getFillOpacity](imagickdraw.getfillopacity.md)
-    
--   [ImagickDraw::getFont »](imagickdraw.getfont.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає правило заливання
-    
-
+---
+navigation:
+  - imagickdraw.getfillopacity.md: '« ImagickDraw::getFillOpacity'
+  - imagickdraw.getfont.md: 'ImagickDraw::getFont »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFillRule'
+---
 # ImagickDraw::getFillRule
 
 (PECL imagick 2, PECL imagick 3)

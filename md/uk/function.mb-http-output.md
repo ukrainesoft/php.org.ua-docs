@@ -1,16 +1,11 @@
-Встановлення/отримання кодування символів виводу HTTP
-
--   [« mbhttpinput](function.mb-http-input.html)
-    
--   [мбinternalencoding »](function.mb-internal-encoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Встановлення/отримання кодування символів виводу HTTP
-    
-
+---
+navigation:
+  - function.mb-http-input.html: « mbhttpinput
+  - function.mb-internal-encoding.html: мбinternalencoding »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбhttpoutput
+---
 # мбhttpoutput
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ mb_http_output(?string $encoding = null): string|bool
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

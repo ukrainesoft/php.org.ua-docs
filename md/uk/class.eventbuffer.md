@@ -1,16 +1,11 @@
-Клас EventBuffer
-
--   [« EventBase::stop](eventbase.stop.md)
-    
--   [EventBuffer::add »](eventbuffer.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventBuffer
-    
-
+---
+navigation:
+  - eventbase.stop.md: '« EventBase::stop'
+  - eventbuffer.add.md: 'EventBuffer::add »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventBuffer
+---
 # Клас EventBuffer
 
 (PECL event >= 1.5.0)

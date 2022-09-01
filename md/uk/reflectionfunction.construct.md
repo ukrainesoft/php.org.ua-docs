@@ -1,16 +1,11 @@
-Конструктор класу ReflectionFunction
-
--   [« ReflectionFunction](class.reflectionfunction.md)
-    
--   [ReflectionFunction::export »](reflectionfunction.export.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunction](class.reflectionfunction.md)
-    
--   Конструктор класу ReflectionFunction
-    
-
+---
+navigation:
+  - class.reflectionfunction.md: « ReflectionFunction
+  - reflectionfunction.export.md: 'ReflectionFunction::export »'
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
+title: 'ReflectionFunction::construct'
+---
 # ReflectionFunction::construct
 
 (PHP 5, PHP 7, PHP 8)

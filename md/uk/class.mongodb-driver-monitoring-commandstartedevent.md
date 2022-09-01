@@ -1,16 +1,11 @@
-Клас MongoDBDriverMonitoringCommandStartedEvent
-
--   [« MongoDBDriverMonitoringCommandFailedEvent::getServiceId](mongodb-driver-monitoring-commandfailedevent.getserviceid.html)
-    
--   [MongoDBDriverMonitoringCommandStartedEvent::getCommand »](mongodb-driver-monitoring-commandstartedevent.getcommand.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Клас MongoDBDriverMonitoringCommandStartedEvent
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getserviceid.html: '« MongoDBDriverMonitoringCommandFailedEvent::getServiceId'
+  - mongodb-driver-monitoring-commandstartedevent.getcommand.html: 'MongoDBDriverMonitoringCommandStartedEvent::getCommand »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Клас MongoDBDriverMonitoringCommandStartedEvent
+---
 # Клас MongoDBDriverMonitoringCommandStartedEvent
 
 (mongodb >=1.3.0)

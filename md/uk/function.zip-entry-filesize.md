@@ -1,16 +1,11 @@
-Повертає реальний розмір файлу для дескриптора директорії
-
--   [« zipentrycompressionmethod](function.zip-entry-compressionmethod.html)
-    
--   [zipentryname »](function.zip-entry-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zip](ref.zip.html)
-    
--   Повертає реальний розмір файлу для дескриптора директорії
-    
-
+---
+navigation:
+  - function.zip-entry-compressionmethod.html: « zipentrycompressionmethod
+  - function.zip-entry-name.html: zipentryname »
+  - index.html: PHP Manual
+  - ref.zip.html: Функции Zip
+title: zipentryfilesize
+---
 # zipentryfilesize
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -41,9 +36,9 @@ zip_entry_filesize(resource $zip_entry): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
 
 ### Дивіться також
 

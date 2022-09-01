@@ -1,16 +1,11 @@
-Встановлює опцію парсера
-
--   [« XMLReader::readString](xmlreader.readstring.html)
-    
--   [XMLReader::setRelaxNGSchema »](xmlreader.setrelaxngschema.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLReader](class.xmlreader.html)
-    
--   Встановлює опцію парсера
-    
-
+---
+navigation:
+  - xmlreader.readstring.html: '« XMLReader::readString'
+  - xmlreader.setrelaxngschema.html: 'XMLReader::setRelaxNGSchema »'
+  - index.html: PHP Manual
+  - class.xmlreader.html: XMLReader
+title: 'XMLReader::setParserProperty'
+---
 # XMLReader::setParserProperty
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

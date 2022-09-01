@@ -1,16 +1,11 @@
-Створити заглушку у форматі phar-архіву
-
--   [« Phar::count](phar.count.md)
-    
--   [Phar::decompress »](phar.decompress.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Створити заглушку у форматі phar-архіву
-    
-
+---
+navigation:
+  - phar.count.md: '« Phar::count'
+  - phar.decompress.md: 'Phar::decompress »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::createDefaultStub'
+---
 # Phar::createDefaultStub
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -61,9 +56,9 @@ php myphar.phar
 
 ### список змін
 
-| Версия | Описание                                             |
-|--------|------------------------------------------------------|
-|        | `index` і `webIndex` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `index` і `webIndex` тепер допускають значення null. |
 
 ### Приклади
 

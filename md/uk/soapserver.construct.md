@@ -1,16 +1,11 @@
-Конструктор SoapServer
-
--   [« SoapServer::addSoapHeader](soapserver.addsoapheader.md)
-    
--   [SoapServer::fault »](soapserver.fault.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Конструктор SoapServer
-    
-
+---
+navigation:
+  - soapserver.addsoapheader.md: '« SoapServer::addSoapHeader'
+  - soapserver.fault.md: 'SoapServer::fault »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::construct'
+---
 # SoapServer::construct
 
 (PHP 5, PHP 7, PHP 8)

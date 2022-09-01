@@ -1,16 +1,11 @@
-Отримує ширину рядка
-
--   [«psstringgeometry](function.ps-string-geometry.html)
-    
--   [псstroke »](function.ps-stroke.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Отримує ширину рядка
-    
-
+---
+navigation:
+  - function.ps-string-geometry.html: «psstringgeometry
+  - function.ps-stroke.html: псstroke »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псstringwidth
+---
 # псstringwidth
 
 (PECL ps >= 1.1.0)

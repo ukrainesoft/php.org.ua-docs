@@ -1,16 +1,11 @@
-Конструктор MaxKey
-
--   [« MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
-    
--   [MongoDBBSONMaxKey::jsonSerialize »](mongodb-bson-maxkey.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.html)
-    
--   Конструктор MaxKey
-    
-
+---
+navigation:
+  - class.mongodb-bson-maxkey.html: « MongoDBBSONMaxKey
+  - mongodb-bson-maxkey.jsonserialize.html: 'MongoDBBSONMaxKey::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-maxkey.html: MongoDBBSONMaxKey
+title: 'MongoDBBSONMaxKey::construct'
+---
 # MongoDBBSONMaxKey::construct
 
 (mongodb >=1.0.0)

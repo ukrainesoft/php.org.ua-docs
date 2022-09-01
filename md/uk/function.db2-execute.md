@@ -1,16 +1,11 @@
-Виконує підготовлений SQL-запит
-
--   [« db2exec](function.db2-exec.html)
-    
--   [db2fetcharray »](function.db2-fetch-array.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Виконує підготовлений SQL-запит
-    
-
+---
+navigation:
+  - function.db2-exec.html: « db2exec
+  - function.db2-fetch-array.html: db2fetcharray »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2execute
+---
 # db2execute
 
 (PECL ibmdb2> = 1.0.0)

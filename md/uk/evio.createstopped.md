@@ -1,16 +1,11 @@
-Створює зупинений об'єкт спостерігача EvIo
-
--   [« EvIo::construct](evio.construct.md)
-    
--   [EvIo::set »](evio.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvIo](class.evio.md)
-    
--   Створює зупинений об'єкт спостерігача EvIo
-    
-
+---
+navigation:
+  - evio.construct.md: '« EvIo::construct'
+  - evio.set.md: 'EvIo::set »'
+  - index.md: PHP Manual
+  - class.evio.md: EvIo
+title: 'EvIo::createStopped'
+---
 # EvIo::createStopped
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Отримати найбільше значення статусу правил зупинки, що визначило поточну позицію зупинки
-
--   [« IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.html)
-    
--   [IntlRuleBasedBreakIterator::getRuleStatusVec »](intlrulebasedbreakiterator.getrulestatusvec.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.html)
-    
--   Отримати найбільше значення статусу правил зупинки, що визначило поточну позицію зупинки
-    
-
+---
+navigation:
+  - intlrulebasedbreakiterator.getrules.html: '« IntlRuleBasedBreakIterator::getRules'
+  - intlrulebasedbreakiterator.getrulestatusvec.html: 'IntlRuleBasedBreakIterator::getRuleStatusVec »'
+  - index.html: PHP Manual
+  - class.intlrulebasedbreakiterator.html: IntlRuleBasedBreakIterator
+title: 'IntlRuleBasedBreakIterator::getRuleStatus'
+---
 # IntlRuleBasedBreakIterator::getRuleStatus
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

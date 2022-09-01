@@ -1,16 +1,11 @@
-Запуск програм у системі
-
--   [« posixuname](function.posix-uname.html)
-    
--   [Введение »](intro.exec.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.md)
-    
--   Запуск програм у системі
-    
-
+---
+navigation:
+  - function.posix-uname.html: « posixuname
+  - intro.exec.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
+title: Запуск програм у системі
+---
 # Запуск програм у системі
 
 -   [Введение](intro.exec.md)

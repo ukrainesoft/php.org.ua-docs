@@ -1,16 +1,11 @@
-Перетворення Гільберта – тренд проти циклу
-
--   [« traderхтtrendline](function.trader-ht-trendline.html)
-    
--   [traderkama »](function.trader-kama.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Перетворення Гільберта – тренд проти циклу
-    
-
+---
+navigation:
+  - function.trader-ht-trendline.html: « traderхтtrendline
+  - function.trader-kama.html: traderkama »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтtrendmode
+---
 # traderхтtrendmode
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Додавання нового зображення до списку зображень об'єкта Gmagick
-
--   [« Gmagick](class.gmagick.md)
-    
--   [Gmagick::addnoiseimage »](gmagick.addnoiseimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Додавання нового зображення до списку зображень об'єкта Gmagick
-    
-
+---
+navigation:
+  - class.gmagick.md: « Gmagick
+  - gmagick.addnoiseimage.md: 'Gmagick::addnoiseimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::addimage'
+---
 # Gmagick::addimage
 
 (PECL gmagick >= Unknown)

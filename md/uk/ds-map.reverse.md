@@ -1,16 +1,11 @@
-Перевертає поточну колекцію
-
--   [« DsMap::remove](ds-map.remove.html)
-    
--   [ДсMap::reversed »](ds-map.reversed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Перевертає поточну колекцію
-    
-
+---
+navigation:
+  - ds-map.remove.html: '« DsMap::remove'
+  - ds-map.reversed.html: 'ДсMap::reversed »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::reverse'
+---
 # ДсMap::reverse
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи існує колекція у базі даних
-
--   [« Collection::dropIndex](mysql-xdevapi-collection.dropindex.html)
-    
--   [Collection::find »](mysql-xdevapi-collection.find.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Перевіряє, чи існує колекція у базі даних
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.dropindex.html: '« Collection::dropIndex'
+  - mysql-xdevapi-collection.find.html: 'Collection::find »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::existsInDatabase'
+---
 # Collection::existsInDatabase
 
 (No version information available, might only be in Git)

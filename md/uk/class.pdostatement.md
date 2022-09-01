@@ -1,16 +1,11 @@
-Клас PDOStatement
-
--   [« PDO::setAttribute](pdo.setattribute.html)
-    
--   [PDOStatement::bindColumn »](pdostatement.bindcolumn.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDO](book.pdo.html)
-    
--   Клас PDOStatement
-    
-
+---
+navigation:
+  - pdo.setattribute.html: '« PDO::setAttribute'
+  - pdostatement.bindcolumn.html: 'PDOStatement::bindColumn »'
+  - index.html: PHP Manual
+  - book.pdo.html: PDO
+title: Клас PDOStatement
+---
 # Клас PDOStatement
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 1.0.0)
@@ -81,9 +76,9 @@ queryString
 
 ## список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **PDOStatement** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.html) |
+| Версия | Описание |
+| --- | --- |
+|  | **PDOStatement** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.html) |
 
 ## Зміст
 

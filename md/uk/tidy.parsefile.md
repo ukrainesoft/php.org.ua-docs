@@ -1,16 +1,11 @@
-Розбір розмітки у файлі або URI
-
--   [« tidy::isXml](tidy.isxml.html)
-    
--   [tidy::parseString »](tidy.parsestring.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidy](class.tidy.html)
-    
--   Розбір розмітки у файлі або URI
-    
-
+---
+navigation:
+  - tidy.isxml.html: '« tidy::isXml'
+  - tidy.parsestring.html: 'tidy::parseString »'
+  - index.html: PHP Manual
+  - class.tidy.html: tidy
+title: 'tidy::parseFile'
+---
 # tidy::parseFile
 
 # tidyparsefile
@@ -61,9 +56,9 @@ tidy_parse_file(    string $filename,    array|string|null $config = nul
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `config` і `encoding` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `config` і `encoding` тепер допускають значення null. |
 
 ### Приклади
 

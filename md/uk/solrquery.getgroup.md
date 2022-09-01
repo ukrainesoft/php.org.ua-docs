@@ -1,16 +1,11 @@
-Повертає true, якщо угруповання увімкнено
-
--   [« SolrQuery::getFilterQueries](solrquery.getfilterqueries.md)
-    
--   [SolrQuery::getGroupCachePercent »](solrquery.getgroupcachepercent.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає true, якщо угруповання увімкнено
-    
-
+---
+navigation:
+  - solrquery.getfilterqueries.md: '« SolrQuery::getFilterQueries'
+  - solrquery.getgroupcachepercent.md: 'SolrQuery::getGroupCachePercent »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getGroup'
+---
 # SolrQuery::getGroup
 
 (PECL solr> = 2.2.0)

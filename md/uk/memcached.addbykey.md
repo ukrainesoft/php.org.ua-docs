@@ -1,16 +1,11 @@
-Додає новий елемент на заданий сервер
-
--   [« Memcached::add](memcached.add.md)
-    
--   [Memcached::addServer »](memcached.addserver.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Додає новий елемент на заданий сервер
-    
-
+---
+navigation:
+  - memcached.add.md: '« Memcached::add'
+  - memcached.addserver.md: 'Memcached::addServer »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::addByKey'
+---
 # Memcached::addByKey
 
 (PECL memcached >= 0.1.0)

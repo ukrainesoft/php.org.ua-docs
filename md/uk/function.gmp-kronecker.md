@@ -1,16 +1,11 @@
-Символ Кронекера - Якобі.
-
--   [« gmpjacobi](function.gmp-jacobi.html)
-    
--   [gmplcm »](function.gmp-lcm.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Символ Кронекера - Якобі.
-    
-
+---
+navigation:
+  - function.gmp-jacobi.html: « gmpjacobi
+  - function.gmp-lcm.html: gmplcm »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpkronecker
+---
 # gmpkronecker
 
 (PHP 7> = 7.3.0, PHP 8)

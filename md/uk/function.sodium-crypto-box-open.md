@@ -1,16 +1,11 @@
-Розшифровка відкритого ключа з автентифікацією
-
--   [« sodiumcryptoboxkeypair](function.sodium-crypto-box-keypair.html)
-    
--   [sodiumcryptoboxpublickeyfromsecretkey »](function.sodium-crypto-box-publickey-from-secretkey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Розшифровка відкритого ключа з автентифікацією
-    
-
+---
+navigation:
+  - function.sodium-crypto-box-keypair.html: « sodiumcryptoboxkeypair
+  - function.sodium-crypto-box-publickey-from-secretkey.html: sodiumcryptoboxpublickeyfromsecretkey »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoboxopen
+---
 # sodiumcryptoboxopen
 
 (PHP 7> = 7.2.0, PHP 8)

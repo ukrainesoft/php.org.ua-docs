@@ -1,16 +1,11 @@
-Реєструє callback-функцію для дозволу скасування під час закриття архіву
-
--   [« ZipArchive::open](ziparchive.open.html)
-    
--   [ZipArchive::registerProgressCallback »](ziparchive.registerprogresscallback.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Реєструє callback-функцію для дозволу скасування під час закриття архіву
-    
-
+---
+navigation:
+  - ziparchive.open.html: '« ZipArchive::open'
+  - ziparchive.registerprogresscallback.html: 'ZipArchive::registerProgressCallback »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::registerCancelCallback'
+---
 # ZipArchive::registerCancelCallback
 
 (PHP >= 8.0.0, PECL zip >= 1.17.0)

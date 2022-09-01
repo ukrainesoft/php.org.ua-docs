@@ -1,16 +1,11 @@
-Встановлює критерії сортування видалення
-
--   [« TableDelete::limit](mysql-xdevapi-tabledelete.limit.html)
-    
--   [TableDelete::where »](mysql-xdevapi-tabledelete.where.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
-    
--   Встановлює критерії сортування видалення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tabledelete.limit.html: '« TableDelete::limit'
+  - mysql-xdevapi-tabledelete.where.html: 'TableDelete::where »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+title: 'TableDelete::orderby'
+---
 # TableDelete::orderby
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Клас SwooleHttpRequest
-
--   [« SwooleHttpClient::upgrade](swoole-http-client.upgrade.html)
-    
--   [SwooleHttpRequest::destruct »](swoole-http-request.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleHttpRequest
-    
-
+---
+navigation:
+  - swoole-http-client.upgrade.html: '« SwooleHttpClient::upgrade'
+  - swoole-http-request.destruct.html: 'SwooleHttpRequest::destruct »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleHttpRequest
+---
 # Клас SwooleHttpRequest
 
 (PECL swoole >= 1.9.0)

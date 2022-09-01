@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.opcache.md)
-    
--   [Вимоги »](opcache.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [OPcache](book.opcache.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.opcache.md: « Введение
+  - opcache.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.opcache.md: OPcache
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

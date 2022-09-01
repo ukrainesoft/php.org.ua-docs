@@ -1,16 +1,11 @@
-Прив'язка змінних до параметрів запиту, що готується.
-
--   [« mysqlistmt::attrset](mysqli-stmt.attr-set.html)
-    
--   [mysqlistmt::bindresult »](mysqli-stmt.bind-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Прив'язка змінних до параметрів запиту, що готується.
-    
-
+---
+navigation:
+  - mysqli-stmt.attr-set.html: '« mysqlistmt::attrset'
+  - mysqli-stmt.bind-result.html: 'mysqlistmt::bindresult »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::bindparam'
+---
 # mysqlistmt::bindparam
 
 # mysqlistmtbindparam
@@ -55,12 +50,12 @@ mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,  
 
 **Символи, що задають тип**
 
-| Символ | Описание                                                                          |
-|--------|-----------------------------------------------------------------------------------|
-| і      | відповідна змінна має тип integer                                                 |
-| д      | відповідна змінна має тип double                                                  |
-| з      | відповідна змінна має тип string                                                  |
-| в      | відповідна змінна є великим двійковим об'єктом (blob) і пересилатиметься пакетами |
+| Символ | Описание |
+| --- | --- |
+| і | відповідна змінна має тип integer |
+| д | відповідна змінна має тип double |
+| з | відповідна змінна має тип string |
+| в | відповідна змінна є великим двійковим об'єктом (blob) і пересилатиметься пакетами |
 
 `var`
 

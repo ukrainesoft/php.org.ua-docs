@@ -1,16 +1,11 @@
-Інформація про сервер та середовище виконання
-
--   [« $GLOBALS](reserved.variables.globals.md)
-    
--   [GET »](reserved.variables.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Інформація про сервер та середовище виконання
-    
-
+---
+navigation:
+  - reserved.variables.globals.md: « $GLOBALS
+  - reserved.variables.get.md: GET »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: SERVER
+---
 # SERVER
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

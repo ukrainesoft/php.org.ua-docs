@@ -1,16 +1,11 @@
-Серіалізує ObjectId
-
--   [« MongoDBBSONObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.html)
-    
--   [MongoDBBSONObjectId::toString »](mongodb-bson-objectid.tostring.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
-    
--   Серіалізує ObjectId
-    
-
+---
+navigation:
+  - mongodb-bson-objectid.jsonserialize.html: '« MongoDBBSONObjectId::jsonSerialize'
+  - mongodb-bson-objectid.tostring.html: 'MongoDBBSONObjectId::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::serialize'
+---
 # MongoDBBSONObjectId::serialize
 
 (mongodb >=1.2.0)

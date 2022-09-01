@@ -1,16 +1,11 @@
-Локаль для використання у перевірках
-
--   [« Spoofchecker::isSuspicious](spoofchecker.issuspicious.md)
-    
--   [Spoofchecker::setChecks »](spoofchecker.setchecks.md)
-    
--   [PHP Manual](index.md)
-    
--   [Spoofchecker](class.spoofchecker.md)
-    
--   Локаль для використання у перевірках
-    
-
+---
+navigation:
+  - spoofchecker.issuspicious.md: '« Spoofchecker::isSuspicious'
+  - spoofchecker.setchecks.md: 'Spoofchecker::setChecks »'
+  - index.md: PHP Manual
+  - class.spoofchecker.md: Spoofchecker
+title: 'Spoofchecker::setAllowedLocales'
+---
 # Spoofchecker::setAllowedLocales
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)

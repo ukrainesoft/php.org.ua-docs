@@ -1,16 +1,11 @@
-Повертає попередній ряд
-
--   [« ImagickPixelIterator::getNextIteratorRow](imagickpixeliterator.getnextiteratorrow.html)
-    
--   [ImagickPixelIterator::newPixelIterator »](imagickpixeliterator.newpixeliterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickPixelIterator](class.imagickpixeliterator.html)
-    
--   Повертає попередній ряд
-    
-
+---
+navigation:
+  - imagickpixeliterator.getnextiteratorrow.html: '« ImagickPixelIterator::getNextIteratorRow'
+  - imagickpixeliterator.newpixeliterator.html: 'ImagickPixelIterator::newPixelIterator »'
+  - index.html: PHP Manual
+  - class.imagickpixeliterator.html: ImagickPixelIterator
+title: 'ImagickPixelIterator::getPreviousIteratorRow'
+---
 # ImagickPixelIterator::getPreviousIteratorRow
 
 (PECL imagick 2, PECL imagick 3)

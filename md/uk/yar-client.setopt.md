@@ -1,16 +1,11 @@
-Задати контекст дзвінка
-
--   [« YarClient::construct](yar-client.construct.html)
-    
--   [YarConcurrentClient »](class.yar-concurrent-client.html)
-    
--   [PHP Manual](index.md)
-    
--   [YarClient](class.yar-client.html)
-    
--   Задати контекст дзвінка
-    
-
+---
+navigation:
+  - yar-client.construct.html: '« YarClient::construct'
+  - class.yar-concurrent-client.html: YarConcurrentClient »
+  - index.md: PHP Manual
+  - class.yar-client.html: YarClient
+title: 'YarClient::setOpt'
+---
 # YarClient::setOpt
 
 (PECL yar >= 1.0.0)

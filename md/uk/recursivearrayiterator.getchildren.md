@@ -1,16 +1,11 @@
-Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)
-
--   [« RecursiveArrayIterator](class.recursivearrayiterator.md)
-    
--   [RecursiveArrayIterator::hasChildren »](recursivearrayiterator.haschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveArrayIterator](class.recursivearrayiterator.md)
-    
--   Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)
-    
-
+---
+navigation:
+  - class.recursivearrayiterator.md: « RecursiveArrayIterator
+  - recursivearrayiterator.haschildren.md: 'RecursiveArrayIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.recursivearrayiterator.md: RecursiveArrayIterator
+title: 'RecursiveArrayIterator::getChildren'
+---
 # RecursiveArrayIterator::getChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Функціонал, оголошений застарілим у PHP 7.1.x
-
--   [« Зміни, що ламають зворотну сумісність](migration71.incompatible.html)
-    
--   [Змінені функції »](migration71.changed-functions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
-    
--   Функціонал, оголошений застарілим у PHP 7.1.x
-    
-
+---
+navigation:
+  - migration71.incompatible.html: '« Зміни, що ламають зворотну сумісність'
+  - migration71.changed-functions.html: Змінені функції »
+  - index.html: PHP Manual
+  - migration71.html: Миграция с PHP 7.0.x на PHP 7.1.x
+title: 'Функціонал, оголошений застарілим у PHP 7.1.x'
+---
 ## Функціонал, оголошений застарілим у PHP 7.1.x
 
 ### ext/mcrypt

@@ -1,16 +1,11 @@
-Повертає шрифт
-
--   [« GmagickDraw::getfillopacity](gmagickdraw.getfillopacity.md)
-    
--   [GmagickDraw::getfontsize »](gmagickdraw.getfontsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Повертає шрифт
-    
-
+---
+navigation:
+  - gmagickdraw.getfillopacity.md: '« GmagickDraw::getfillopacity'
+  - gmagickdraw.getfontsize.md: 'GmagickDraw::getfontsize »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getfont'
+---
 # GmagickDraw::getfont
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Визначити, чи пройшов файл перевірку CRC
-
--   [« PharFileInfo::hasMetadata](pharfileinfo.hasmetadata.md)
-    
--   [PharFileInfo::isCompressed »](pharfileinfo.iscompressed.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Визначити, чи пройшов файл перевірку CRC
-    
-
+---
+navigation:
+  - pharfileinfo.hasmetadata.md: '« PharFileInfo::hasMetadata'
+  - pharfileinfo.iscompressed.md: 'PharFileInfo::isCompressed »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::isCRCChecked'
+---
 # PharFileInfo::isCRCChecked
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

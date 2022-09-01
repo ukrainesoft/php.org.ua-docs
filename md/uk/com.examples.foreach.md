@@ -1,16 +1,11 @@
-For Each
-
--   [« Приклади](com.examples.html)
-    
--   [Масиви та властивості COM у стилі масивів »](com.examples.arrays.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](com.examples.html)
-    
--   For Each
-    
-
+---
+navigation:
+  - com.examples.html: « Приклади
+  - com.examples.arrays.html: Масиви та властивості COM у стилі масивів »
+  - index.html: PHP Manual
+  - com.examples.html: Приклади
+title: For Each
+---
 ## For Each
 
 Ви можете використовувати конструкцію [foreach](control-structures.foreach.html) для ітерації контенту стандартного COM/OLE IEnumVariant. Іншими словами, це означає, що ви можете використовувати foreach там, де ви використовували `For Each` у коді VB/ASP.

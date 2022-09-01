@@ -1,16 +1,11 @@
-Знищує всю мережу та правильно звільняє всю пов'язану пам'ять
-
--   [« fanndestroytrain](function.fann-destroy-train.html)
-    
--   [fannduplicatetraindata »](function.fann-duplicate-train-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Знищує всю мережу та правильно звільняє всю пов'язану пам'ять
-    
-
+---
+navigation:
+  - function.fann-destroy-train.html: « fanndestroytrain
+  - function.fann-duplicate-train-data.html: fannduplicatetraindata »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanndestroy
+---
 # fanndestroy
 
 (PECL fann> = 1.0.0)

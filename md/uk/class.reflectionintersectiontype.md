@@ -1,16 +1,11 @@
-Клас ReflectionIntersectionType
-
--   [« ReflectionFiber::getTrace](reflectionfiber.gettrace.html)
-    
--   [ReflectionIntersectionType::getTypes »](reflectionintersectiontype.gettypes.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](book.reflection.html)
-    
--   Клас ReflectionIntersectionType
-    
-
+---
+navigation:
+  - reflectionfiber.gettrace.html: '« ReflectionFiber::getTrace'
+  - reflectionintersectiontype.gettypes.html: 'ReflectionIntersectionType::getTypes »'
+  - index.html: PHP Manual
+  - book.reflection.html: Reflection
+title: Клас ReflectionIntersectionType
+---
 # Клас ReflectionIntersectionType
 
 (PHP 8> = 8.1.0)

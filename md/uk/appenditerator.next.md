@@ -1,16 +1,11 @@
-Переходить до наступного елементу
-
--   [« AppendIterator::key](appenditerator.key.md)
-    
--   [AppendIterator::rewind »](appenditerator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [AppendIterator](class.appenditerator.md)
-    
--   Переходить до наступного елементу
-    
-
+---
+navigation:
+  - appenditerator.key.md: '« AppendIterator::key'
+  - appenditerator.rewind.md: 'AppendIterator::rewind »'
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
+title: 'AppendIterator::next'
+---
 # AppendIterator::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

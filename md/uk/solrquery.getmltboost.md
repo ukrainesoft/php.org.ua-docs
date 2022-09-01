@@ -1,16 +1,11 @@
-Повертає, чи буде запит посилений релевантністю виразу, що цікавить.
-
--   [« SolrQuery::getMlt](solrquery.getmlt.html)
-    
--   [SolrQuery::getMltCount »](solrquery.getmltcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає, чи буде запит посилений релевантністю виразу, що цікавить.
-    
-
+---
+navigation:
+  - solrquery.getmlt.html: '« SolrQuery::getMlt'
+  - solrquery.getmltcount.html: 'SolrQuery::getMltCount »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getMltBoost'
+---
 # SolrQuery::getMltBoost
 
 (PECL solr> = 0.9.2)

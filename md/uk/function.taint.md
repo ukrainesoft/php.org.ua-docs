@@ -1,16 +1,11 @@
-Зіпсувати рядок
-
--   [« istainted](function.is-tainted.html)
-    
--   [untaint »](function.untaint.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Taint](ref.taint.html)
-    
--   Зіпсувати рядок
-    
-
+---
+navigation:
+  - function.is-tainted.html: « istainted
+  - function.untaint.html: untaint »
+  - index.html: PHP Manual
+  - ref.taint.html: Функции Taint
+title: taint
+---
 # taint
 
 (PECL taint >=0.1.0)

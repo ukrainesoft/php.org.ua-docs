@@ -1,16 +1,11 @@
-Обчислює доповнення до одиниці числа
-
--   [« gmpcmp](function.gmp-cmp.html)
-    
--   [gmpdivq »](function.gmp-div-q.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Обчислює доповнення до одиниці числа
-    
-
+---
+navigation:
+  - function.gmp-cmp.html: « gmpcmp
+  - function.gmp-div-q.html: gmpdivq »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpcom
+---
 # gmpcom
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

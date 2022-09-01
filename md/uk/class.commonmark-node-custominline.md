@@ -1,16 +1,11 @@
-CustomInline успадковує CommonMarkNode
-
--   [« CommonMarkNodeCustomBlock](class.commonmark-node-customblock.html)
-    
--   [CommonMarkNode »](class.commonmark-node.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   CustomInline успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-customblock.html: « CommonMarkNodeCustomBlock
+  - class.commonmark-node.html: CommonMarkNode »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: CustomInline успадковує CommonMarkNode
+---
 # CustomInline успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

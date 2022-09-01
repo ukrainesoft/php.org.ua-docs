@@ -1,16 +1,11 @@
-Перетворення PNG файлу на WBMP
-
--   [« jpeg2wbmp](function.jpeg2wbmp.md)
-    
--   [GdImage »](class.gdimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Перетворення PNG файлу на WBMP
-    
-
+---
+navigation:
+  - function.jpeg2wbmp.md: « jpeg2wbmp
+  - class.gdimage.md: GdImage »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: png2wbmp
+---
 # png2wbmp
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7)

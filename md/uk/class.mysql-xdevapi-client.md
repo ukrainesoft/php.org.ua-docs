@@ -1,16 +1,11 @@
-Клас Client
-
--   [« BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.html)
-    
--   [mysqlxdevapiClient::close »](mysql-xdevapi-client.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Client
-    
-
+---
+navigation:
+  - mysql-xdevapi-baseresult.getwarningscount.html: '« BaseResult::getWarningsCount'
+  - mysql-xdevapi-client.close.html: 'mysqlxdevapiClient::close »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Client
+---
 # Клас Client
 
 (No version information available, might only be in Git)

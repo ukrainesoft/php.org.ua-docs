@@ -1,16 +1,11 @@
-Встановлює кількість груп кандидатів
-
--   [« fannsetcascademinoutepochs](function.fann-set-cascade-min-out-epochs.html)
-    
--   [fannsetcascadeoutputchangefraction »](function.fann-set-cascade-output-change-fraction.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Встановлює кількість груп кандидатів
-    
-
+---
+navigation:
+  - function.fann-set-cascade-min-out-epochs.html: « fannsetcascademinoutepochs
+  - function.fann-set-cascade-output-change-fraction.html: fannsetcascadeoutputchangefraction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetcascadenumcandidategroups
+---
 # fannsetcascadenumcandidategroups
 
 (PECL fann> = 1.0.0)

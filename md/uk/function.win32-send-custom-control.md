@@ -1,16 +1,11 @@
-Відправляє налаштований елемент керування до служби
-
--   [« win32queryservicestatus](function.win32-query-service-status.html)
-    
--   [win32setserviceexitcode »](function.win32-set-service-exit-code.html)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](ref.win32service.md)
-    
--   Відправляє налаштований елемент керування до служби
-    
-
+---
+navigation:
+  - function.win32-query-service-status.html: « win32queryservicestatus
+  - function.win32-set-service-exit-code.html: win32setserviceexitcode »
+  - index.md: PHP Manual
+  - ref.win32service.md: win32service
+title: win32sendcustomcontrol
+---
 # win32sendcustomcontrol
 
 (PECL win32service >=0.4.0)
@@ -57,11 +52,11 @@ win32_send_custom_control(string $servicename, int $control, string $machine = ?
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                          |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**                                                      |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                               |
+| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
 
 ### Дивіться також
 

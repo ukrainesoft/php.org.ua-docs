@@ -1,16 +1,11 @@
-Нічого не робить
-
--   [« bzerrstr](function.bzerrstr.html)
-    
--   [bzopen »](function.bzopen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Bzip2](ref.bzip2.html)
-    
--   Нічого не робить
-    
-
+---
+navigation:
+  - function.bzerrstr.html: « bzerrstr
+  - function.bzopen.html: bzopen »
+  - index.html: PHP Manual
+  - ref.bzip2.html: Функції Bzip2
+title: bzflush
+---
 # bzflush
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

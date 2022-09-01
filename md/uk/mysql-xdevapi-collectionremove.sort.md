@@ -1,16 +1,11 @@
-Встановлює критерії сортування
-
--   [« CollectionRemove::limit](mysql-xdevapi-collectionremove.limit.html)
-    
--   [mysqlxdevapiColumnResult »](class.mysql-xdevapi-columnresult.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
-    
--   Встановлює критерії сортування
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionremove.limit.html: '« CollectionRemove::limit'
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove
+title: 'CollectionRemove::sort'
+---
 # CollectionRemove::sort
 
 (No version information available, might only be in Git)

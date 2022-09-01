@@ -1,16 +1,11 @@
-Переміщує ітератор до наступного елемента
-
--   [« SimpleXMLIterator::key](simplexmliterator.key.md)
-    
--   [SimpleXMLIterator::rewind »](simplexmliterator.rewind.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLIterator](class.simplexmliterator.md)
-    
--   Переміщує ітератор до наступного елемента
-    
-
+---
+navigation:
+  - simplexmliterator.key.md: '« SimpleXMLIterator::key'
+  - simplexmliterator.rewind.md: 'SimpleXMLIterator::rewind »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::next'
+---
 # SimpleXMLIterator::next
 
 (PHP 5, PHP 7, PHP 8)

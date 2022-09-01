@@ -1,16 +1,11 @@
-Отримує прототип методу (якщо такий є)
-
--   [« ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md)
-    
--   [ReflectionMethod::invoke »](reflectionmethod.invoke.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Отримує прототип методу (якщо такий є)
-    
-
+---
+navigation:
+  - reflectionmethod.getmodifiers.md: '« ReflectionMethod::getModifiers'
+  - reflectionmethod.invoke.md: 'ReflectionMethod::invoke »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::getPrototype'
+---
 # ReflectionMethod::getPrototype
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

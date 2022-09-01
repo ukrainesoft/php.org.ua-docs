@@ -1,16 +1,11 @@
-Встановлює URL-адресу для використання як зразка заливки для заливки об'єктів
-
--   [« ImagickDraw::setFillOpacity](imagickdraw.setfillopacity.md)
-    
--   [ImagickDraw::setFillRule »](imagickdraw.setfillrule.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює URL-адресу для використання як зразка заливки для заливки об'єктів
-    
-
+---
+navigation:
+  - imagickdraw.setfillopacity.md: '« ImagickDraw::setFillOpacity'
+  - imagickdraw.setfillrule.md: 'ImagickDraw::setFillRule »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setFillPatternURL'
+---
 # ImagickDraw::setFillPatternURL
 
 (PECL imagick 2, PECL imagick 3)

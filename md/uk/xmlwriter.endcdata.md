@@ -1,16 +1,11 @@
-Завершити поточну секцію CDATA
-
--   [« XMLWriter::endAttribute](xmlwriter.endattribute.md)
-    
--   [XMLWriter::endComment »](xmlwriter.endcomment.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Завершити поточну секцію CDATA
-    
-
+---
+navigation:
+  - xmlwriter.endattribute.md: '« XMLWriter::endAttribute'
+  - xmlwriter.endcomment.md: 'XMLWriter::endComment »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::endCdata'
+---
 # XMLWriter::endCdata
 
 # xmlwriterendcdata
@@ -47,9 +42,9 @@ xmlwriter_end_cdata(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

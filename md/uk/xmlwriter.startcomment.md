@@ -1,16 +1,11 @@
-Створює стартовий коментар
-
--   [« XMLWriter::startCdata](xmlwriter.startcdata.md)
-    
--   [XMLWriter::startDocument »](xmlwriter.startdocument.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створює стартовий коментар
-    
-
+---
+navigation:
+  - xmlwriter.startcdata.md: '« XMLWriter::startCdata'
+  - xmlwriter.startdocument.md: 'XMLWriter::startDocument »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startComment'
+---
 # XMLWriter::startComment
 
 # xmlwriterstartcomment
@@ -47,9 +42,9 @@ xmlwriter_start_comment(XMLWriter $writer): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

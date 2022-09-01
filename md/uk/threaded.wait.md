@@ -1,16 +1,11 @@
-Синхронізація
-
--   [« Threaded::synchronized](threaded.synchronized.html)
-    
--   [Thread »](class.thread.html)
-    
--   [PHP Manual](index.html)
-    
--   [Threaded](class.threaded.html)
-    
--   Синхронізація
-    
-
+---
+navigation:
+  - threaded.synchronized.html: '« Threaded::synchronized'
+  - class.thread.html: Thread »
+  - index.html: PHP Manual
+  - class.threaded.html: Threaded
+title: 'Threaded::wait'
+---
 # Threaded::wait
 
 (PECL pthreads >= 2.0.0)

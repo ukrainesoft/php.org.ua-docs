@@ -1,16 +1,11 @@
-Серіалізує UTCDateTime
-
--   [« MongoDBBSONUTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.html)
-    
--   [MongoDBBSONUTCDateTime::toDateTime »](mongodb-bson-utcdatetime.todatetime.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
-    
--   Серіалізує UTCDateTime
-    
-
+---
+navigation:
+  - mongodb-bson-utcdatetime.jsonserialize.html: '« MongoDBBSONUTCDateTime::jsonSerialize'
+  - mongodb-bson-utcdatetime.todatetime.html: 'MongoDBBSONUTCDateTime::toDateTime »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+title: 'MongoDBBSONUTCDateTime::serialize'
+---
 # MongoDBBSONUTCDateTime::serialize
 
 (mongodb >=1.2.0)

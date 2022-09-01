@@ -1,16 +1,11 @@
-Перевіряє існування змінної вказаного типу
-
--   [« Функції фільтрації даних](ref.filter.html)
-    
--   [filterid »](function.filter-id.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції фільтрації даних](ref.filter.html)
-    
--   Перевіряє існування змінної вказаного типу
-    
-
+---
+navigation:
+  - ref.filter.html: « Функції фільтрації даних
+  - function.filter-id.html: filterid »
+  - index.html: PHP Manual
+  - ref.filter.html: Функції фільтрації даних
+title: filterhasvar
+---
 # filterhasvar
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

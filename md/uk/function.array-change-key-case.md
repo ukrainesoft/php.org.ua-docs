@@ -1,16 +1,11 @@
-Змінює регістр усіх ключів у масиві
-
--   [« Функції для роботи з масивами](ref.array.md)
-    
--   [arraychunk »](function.array-chunk.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Змінює регістр усіх ключів у масиві
-    
-
+---
+navigation:
+  - ref.array.md: « Функції для роботи з масивами
+  - function.array-chunk.html: arraychunk »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraychangekeycase
+---
 # arraychangekeycase
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає вміст елемента за його індексом
-
--   [« ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md)
-    
--   [ZipArchive::getFromName »](ziparchive.getfromname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Повертає вміст елемента за його індексом
-    
-
+---
+navigation:
+  - ziparchive.getexternalattributesname.md: '« ZipArchive::getExternalAttributesName'
+  - ziparchive.getfromname.md: 'ZipArchive::getFromName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::getFromIndex'
+---
 # ZipArchive::getFromIndex
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

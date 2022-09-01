@@ -1,16 +1,11 @@
-Динамічно конструює новий тип масиву
-
--   [« FFI::alignof](ffi.alignof.html)
-    
--   [FFI::cast »](ffi.cast.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Динамічно конструює новий тип масиву
-    
-
+---
+navigation:
+  - ffi.alignof.html: '« FFI::alignof'
+  - ffi.cast.html: 'FFI::cast »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::arrayType'
+---
 # FFI::arrayType
 
 (PHP 7> = 7.4.0, PHP 8)

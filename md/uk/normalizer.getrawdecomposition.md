@@ -1,16 +1,11 @@
-Витягує властивість DecompositionMapping для заданого символу UTF-8
-
--   [« Normalizer](class.normalizer.md)
-    
--   [Normalizer::isNormalized »](normalizer.isnormalized.md)
-    
--   [PHP Manual](index.md)
-    
--   [Normalizer](class.normalizer.md)
-    
--   Витягує властивість DecompositionMapping для заданого символу UTF-8
-    
-
+---
+navigation:
+  - class.normalizer.md: « Normalizer
+  - normalizer.isnormalized.md: 'Normalizer::isNormalized »'
+  - index.md: PHP Manual
+  - class.normalizer.md: Normalizer
+title: 'Normalizer::getRawDecomposition'
+---
 # Normalizer::getRawDecomposition
 
 # normalizergetrawdecomposition

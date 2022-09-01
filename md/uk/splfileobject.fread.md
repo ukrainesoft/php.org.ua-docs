@@ -1,16 +1,11 @@
-Читання з файлу
-
--   [« SplFileObject::fputcsv](splfileobject.fputcsv.html)
-    
--   [SplFileObject::fscanf »](splfileobject.fscanf.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Читання з файлу
-    
-
+---
+navigation:
+  - splfileobject.fputcsv.html: '« SplFileObject::fputcsv'
+  - splfileobject.fscanf.html: 'SplFileObject::fscanf »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::fread'
+---
 # SplFileObject::fread
 
 (PHP 5> = 5.5.11, PHP 7, PHP 8)

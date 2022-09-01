@@ -1,16 +1,11 @@
-Повертає останнє повідомлення про помилку підключення та значення SQLCODE
-
--   [« db2connerror](function.db2-conn-error.html)
-    
--   [db2connect »](function.db2-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає останнє повідомлення про помилку підключення та значення SQLCODE
-    
-
+---
+navigation:
+  - function.db2-conn-error.html: « db2connerror
+  - function.db2-connect.html: db2connect »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2connerrormsg
+---
 # db2connerrormsg
 
 (PECL ibmdb2> = 1.0.0)

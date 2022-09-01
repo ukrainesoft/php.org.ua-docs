@@ -1,16 +1,11 @@
-Document Object Model
-
--   [« Обработка XML](refs.xml.md)
-    
--   [Введение »](intro.dom.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка XML](refs.xml.md)
-    
--   Document Object Model
-    
-
+---
+navigation:
+  - refs.xml.md: « Обработка XML
+  - intro.dom.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
+title: Document Object Model
+---
 # Document Object Model
 
 -   [Введение](intro.dom.md)

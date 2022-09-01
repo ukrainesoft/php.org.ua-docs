@@ -1,16 +1,11 @@
-Огляд просторів імен
-
--   [« Пространства имён](language.namespaces.html)
-    
--   [Определение пространств имён »](language.namespaces.definition.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пространства имён](language.namespaces.html)
-    
--   Огляд просторів імен
-    
-
+---
+navigation:
+  - language.namespaces.html: « Пространства имён
+  - language.namespaces.definition.html: Определение пространств имён »
+  - index.html: PHP Manual
+  - language.namespaces.html: Пространства имён
+title: Огляд просторів імен
+---
 ## Огляд просторів імен
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

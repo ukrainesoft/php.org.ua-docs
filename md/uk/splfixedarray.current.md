@@ -1,16 +1,11 @@
-Повертає поточний елемент масиву
-
--   [« SplFixedArray::count](splfixedarray.count.md)
-    
--   [SplFixedArray::fromArray »](splfixedarray.fromarray.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFixedArray](class.splfixedarray.md)
-    
--   Повертає поточний елемент масиву
-    
-
+---
+navigation:
+  - splfixedarray.count.md: '« SplFixedArray::count'
+  - splfixedarray.fromarray.md: 'SplFixedArray::fromArray »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
+title: 'SplFixedArray::current'
+---
 # SplFixedArray::current
 
 (PHP 5> = 5.3.0, PHP 7)

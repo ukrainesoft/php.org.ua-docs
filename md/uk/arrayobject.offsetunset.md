@@ -1,16 +1,11 @@
-Видаляє значення за вказаним індексом
-
--   [« ArrayObject::offsetSet](arrayobject.offsetset.md)
-    
--   [ArrayObject::serialize »](arrayobject.serialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Видаляє значення за вказаним індексом
-    
-
+---
+navigation:
+  - arrayobject.offsetset.md: '« ArrayObject::offsetSet'
+  - arrayobject.serialize.md: 'ArrayObject::serialize »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::offsetUnset'
+---
 # ArrayObject::offsetUnset
 
 (PHP 5, PHP 7, PHP 8)

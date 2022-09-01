@@ -1,16 +1,11 @@
-Клас EmptyIterator
-
--   [« DirectoryIterator::valid](directoryiterator.valid.html)
-    
--   [EmptyIterator::current »](emptyiterator.current.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ітератори](spl.iterators.html)
-    
--   Клас EmptyIterator
-    
-
+---
+navigation:
+  - directoryiterator.valid.html: '« DirectoryIterator::valid'
+  - emptyiterator.current.html: 'EmptyIterator::current »'
+  - index.html: PHP Manual
+  - spl.iterators.html: Ітератори
+title: Клас EmptyIterator
+---
 # Клас EmptyIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

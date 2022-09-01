@@ -1,16 +1,11 @@
-Паттерн Харамі
-
--   [« tradercdlhangingman](function.trader-cdlhangingman.html)
-    
--   [tradercdlharamicross »](function.trader-cdlharamicross.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Паттерн Харамі
-    
-
+---
+navigation:
+  - function.trader-cdlhangingman.html: « tradercdlhangingman
+  - function.trader-cdlharamicross.html: tradercdlharamicross »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlharami
+---
 # tradercdlharami
 
 (PECL trader >= 0.2.0)

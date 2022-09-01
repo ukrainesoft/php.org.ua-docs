@@ -1,16 +1,11 @@
-Отримати опцію сокету
-
--   [« ZMQSocket::getSocketType](zmqsocket.getsockettype.html)
-    
--   [ZMQSocket::isPersistent »](zmqsocket.ispersistent.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZMQSocket](class.zmqsocket.html)
-    
--   Отримати опцію сокету
-    
-
+---
+navigation:
+  - zmqsocket.getsockettype.html: '« ZMQSocket::getSocketType'
+  - zmqsocket.ispersistent.html: 'ZMQSocket::isPersistent »'
+  - index.html: PHP Manual
+  - class.zmqsocket.html: ZMQSocket
+title: 'ZMQSocket::getSockOpt'
+---
 # ZMQSocket::getSockOpt
 
 (PECL zmq >= 0.5.0)

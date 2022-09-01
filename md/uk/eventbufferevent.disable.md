@@ -1,16 +1,11 @@
-Вимикає читання, запис або те й інше в події буфера
-
--   [« EventBufferEvent::createPair](eventbufferevent.createpair.md)
-    
--   [EventBufferEvent::enable »](eventbufferevent.enable.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Вимикає читання, запис або те й інше в події буфера
-    
-
+---
+navigation:
+  - eventbufferevent.createpair.md: '« EventBufferEvent::createPair'
+  - eventbufferevent.enable.md: 'EventBufferEvent::enable »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::disable'
+---
 # EventBufferEvent::disable
 
 (PECL event >= 1.2.6-beta)

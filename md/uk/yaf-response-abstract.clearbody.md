@@ -1,16 +1,11 @@
-Скидає все існуюче тіло відповіді
-
--   [« YafResponseAbstract::appendBody](yaf-response-abstract.appendbody.html)
-    
--   [YafResponseAbstract::clearHeaders »](yaf-response-abstract.clearheaders.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Скидає все існуюче тіло відповіді
-    
-
+---
+navigation:
+  - yaf-response-abstract.appendbody.html: '« YafResponseAbstract::appendBody'
+  - yaf-response-abstract.clearheaders.html: 'YafResponseAbstract::clearHeaders »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::clearBody'
+---
 # YafResponseAbstract::clearBody
 
 (Yaf >=1.0.0)

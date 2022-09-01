@@ -1,16 +1,11 @@
-Призначення set
-
--   [« YafSession::rewind](yaf-session.rewind.html)
-    
--   [YafSession::start »](yaf-session.start.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення set
-    
-
+---
+navigation:
+  - yaf-session.rewind.html: '« YafSession::rewind'
+  - yaf-session.start.html: 'YafSession::start »'
+  - index.md: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::set'
+---
 # YafSession::set
 
 (Yaf >=1.0.0)

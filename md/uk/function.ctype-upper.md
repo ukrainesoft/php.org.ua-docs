@@ -1,16 +1,11 @@
-Перевіряє наявність символів у верхньому регістрі
-
--   [« ctypespace](function.ctype-space.html)
-    
--   [ctypexdigit »](function.ctype-xdigit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції Ctype](ref.ctype.html)
-    
--   Перевіряє наявність символів у верхньому регістрі
-    
-
+---
+navigation:
+  - function.ctype-space.html: « ctypespace
+  - function.ctype-xdigit.html: ctypexdigit »
+  - index.html: PHP Manual
+  - ref.ctype.html: Опції Ctype
+title: ctypeupper
+---
 # ctypeupper
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

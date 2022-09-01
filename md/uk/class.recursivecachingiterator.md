@@ -1,16 +1,11 @@
-Клас RecursiveCachingIterator
-
--   [« RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.md)
-    
--   [RecursiveCachingIterator::construct »](recursivecachingiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RecursiveCachingIterator
-    
-
+---
+navigation:
+  - recursivearrayiterator.haschildren.md: '« RecursiveArrayIterator::hasChildren'
+  - recursivecachingiterator.construct.md: 'RecursiveCachingIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveCachingIterator
+---
 # Клас RecursiveCachingIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

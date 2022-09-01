@@ -1,16 +1,11 @@
-Прив'язує значення до заповнювача
-
--   [« mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
-    
--   [CollectionRemove::construct »](mysql-xdevapi-collectionremove.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionRemove](class.mysql-xdevapi-collectionremove.html)
-    
--   Прив'язує значення до заповнювача
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-collectionremove.html: « mysqlxdevapiCollectionRemove
+  - mysql-xdevapi-collectionremove.construct.html: 'CollectionRemove::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove
+title: 'CollectionRemove::bind'
+---
 # CollectionRemove::bind
 
 (No version information available, might only be in Git)

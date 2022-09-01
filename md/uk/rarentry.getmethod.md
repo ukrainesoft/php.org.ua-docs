@@ -1,16 +1,11 @@
-Повертає метод компресії елемента
-
--   [« RarEntry::getHostOs](rarentry.gethostos.md)
-    
--   [RarEntry::getName »](rarentry.getname.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarEntry](class.rarentry.md)
-    
--   Повертає метод компресії елемента
-    
-
+---
+navigation:
+  - rarentry.gethostos.md: '« RarEntry::getHostOs'
+  - rarentry.getname.md: 'RarEntry::getName »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getMethod'
+---
 # RarEntry::getMethod
 
 (PECL rar >= 0.1)

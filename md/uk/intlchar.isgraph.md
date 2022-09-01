@@ -1,16 +1,11 @@
-Перевірити, чи є символ графічним символом
-
--   [« IntlChar::isdigit](intlchar.isdigit.html)
-    
--   [IntlChar::isIDIgnorable »](intlchar.isidignorable.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перевірити, чи є символ графічним символом
-    
-
+---
+navigation:
+  - intlchar.isdigit.html: '« IntlChar::isdigit'
+  - intlchar.isidignorable.html: 'IntlChar::isIDIgnorable »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::isgraph'
+---
 # IntlChar::isgraph
 
 (PHP 7, PHP 8)

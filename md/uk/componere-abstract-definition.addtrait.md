@@ -1,16 +1,11 @@
-Додає трейт
-
--   [« ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.html)
-    
--   [ComponereAbstractDefinition::getReflector »](componere-abstract-definition.getreflector.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
-    
--   Додає трейт
-    
-
+---
+navigation:
+  - componere-abstract-definition.addmethod.html: '« ComponereAbstractDefinition::addMethod'
+  - componere-abstract-definition.getreflector.html: 'ComponereAbstractDefinition::getReflector »'
+  - index.md: PHP Manual
+  - class.componere-abstract-definition.html: ComponereAbstractDefinition
+title: 'ComponereAbstractDefinition::addTrait'
+---
 # ComponereAbstractDefinition::addTrait
 
 (Componere 2 >= 2.1.0)

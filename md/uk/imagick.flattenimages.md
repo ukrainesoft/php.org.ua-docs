@@ -1,16 +1,11 @@
-Поєднує послідовність зображень
-
--   [« Imagick::filter](imagick.filter.md)
-    
--   [Imagick::flipImage »](imagick.flipimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Поєднує послідовність зображень
-    
-
+---
+navigation:
+  - imagick.filter.md: '« Imagick::filter'
+  - imagick.flipimage.md: 'Imagick::flipImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::flattenImages'
+---
 # Imagick::flattenImages
 
 (PECL imagick 2, PECL imagick 3)

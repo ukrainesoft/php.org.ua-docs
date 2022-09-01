@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](opcache.requirements.md)
-    
--   [Налаштування під час виконання »](opcache.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](opcache.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - opcache.requirements.md: « Вимоги
+  - opcache.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - opcache.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 OPcache можна збирати тільки як модуль, що розділяється. Якщо ви заборонили збирання модулів за замовчуванням за допомогою **\-disable-all**, то вам буде необхідно компілювати PHP з ключем **\-enable-opcache** для увімкнення OPcache.

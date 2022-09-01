@@ -1,16 +1,11 @@
-Ключові ідентифікатори
-
--   [« UIDrawLineJoin](class.ui-draw-line-join.html)
-    
--   [ОЙExceptionInvalidArgumentException »](class.ui-exception-invalidargumentexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Ключові ідентифікатори
-    
-
+---
+navigation:
+  - class.ui-draw-line-join.html: « UIDrawLineJoin
+  - class.ui-exception-invalidargumentexception.html: ОЙExceptionInvalidArgumentException »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Ключові ідентифікатори
+---
 # Ключові ідентифікатори
 
 (UI 1.0.0)

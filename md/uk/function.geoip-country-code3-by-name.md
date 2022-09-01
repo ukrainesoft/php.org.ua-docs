@@ -1,16 +1,11 @@
-Отримати трисимвольний код країни
-
--   [« geoipcountrycodeбname](function.geoip-country-code-by-name.html)
-    
--   [geoipcountrynameбname »](function.geoip-country-name-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Отримати трисимвольний код країни
-    
-
+---
+navigation:
+  - function.geoip-country-code-by-name.html: « geoipcountrycodeбname
+  - function.geoip-country-name-by-name.html: geoipcountrynameбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipcountrycode3бname
+---
 # geoipcountrycode3бname
 
 (PECL geoip >= 0.2.0)

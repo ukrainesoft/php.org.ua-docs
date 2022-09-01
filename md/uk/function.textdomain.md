@@ -1,16 +1,11 @@
-Встановлює домен за замовчуванням
-
--   [« ngettext](function.ngettext.md)
-    
--   [iconv »](book.iconv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции gettext](ref.gettext.md)
-    
--   Встановлює домен за замовчуванням
-    
-
+---
+navigation:
+  - function.ngettext.md: « ngettext
+  - book.iconv.md: iconv »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: textdomain
+---
 # textdomain
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

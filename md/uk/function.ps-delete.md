@@ -1,16 +1,11 @@
-Видаляє всі ресурси документа PostScript
-
--   [«pscurveto](function.ps-curveto.html)
-    
--   [псendpage »](function.ps-end-page.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Видаляє всі ресурси документа PostScript
-    
-
+---
+navigation:
+  - function.ps-curveto.html: «pscurveto
+  - function.ps-end-page.html: псendpage »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псdelete
+---
 # псdelete
 
 (PECL ps >= 1.1.0)

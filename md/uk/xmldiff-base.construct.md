@@ -1,16 +1,11 @@
-Конструктор
-
--   [« XMLDiffBase](class.xmldiff-base.html)
-    
--   [XMLDiffBase::diff »](xmldiff-base.diff.html)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiffBase](class.xmldiff-base.html)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - class.xmldiff-base.html: « XMLDiffBase
+  - xmldiff-base.diff.html: 'XMLDiffBase::diff »'
+  - index.md: PHP Manual
+  - class.xmldiff-base.html: XMLDiffBase
+title: 'XMLDiffBase::construct'
+---
 # XMLDiffBase::construct
 
 (PECL xmldiff >= 0.8.0)

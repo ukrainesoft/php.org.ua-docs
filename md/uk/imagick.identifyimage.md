@@ -1,16 +1,11 @@
-Визначає зображення та отримує атрибути
-
--   [« Imagick::identifyFormat](imagick.identifyformat.md)
-    
--   [Imagick::implodeImage »](imagick.implodeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Визначає зображення та отримує атрибути
-    
-
+---
+navigation:
+  - imagick.identifyformat.md: '« Imagick::identifyFormat'
+  - imagick.implodeimage.md: 'Imagick::implodeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::identifyImage'
+---
 # Imagick::identifyImage
 
 (PECL imagick 2, PECL imagick 3)

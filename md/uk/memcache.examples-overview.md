@@ -1,16 +1,11 @@
-Базове використання
-
--   [« Приклади](memcache.examples.md)
-    
--   [Memcache »](class.memcache.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](memcache.examples.md)
-    
--   Базове використання
-    
-
+---
+navigation:
+  - memcache.examples.md: « Приклади
+  - class.memcache.md: Memcache »
+  - index.md: PHP Manual
+  - memcache.examples.md: Приклади
+title: Базове використання
+---
 ## Базове використання
 
 **Приклад #1 Приклад використання модуля memcache**

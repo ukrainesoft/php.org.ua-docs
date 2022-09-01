@@ -1,16 +1,11 @@
-Перевіряє документ за допомогою relaxNG
-
--   [« DOMDocument::relaxNGValidate](domdocument.relaxngvalidate.html)
-    
--   [DOMDocument::save »](domdocument.save.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Перевіряє документ за допомогою relaxNG
-    
-
+---
+navigation:
+  - domdocument.relaxngvalidate.html: '« DOMDocument::relaxNGValidate'
+  - domdocument.save.html: 'DOMDocument::save »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::relaxNGValidateSource'
+---
 # DOMDocument::relaxNGValidateSource
 
 (PHP 5, PHP 7, PHP 8)

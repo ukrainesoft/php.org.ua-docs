@@ -1,16 +1,11 @@
-Перевіряє, чи є у масиві значення
-
--   [« extract](function.extract.html)
-    
--   [keyexists »](function.key-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Перевіряє, чи є у масиві значення
-    
-
+---
+navigation:
+  - function.extract.html: « extract
+  - function.key-exists.html: keyexists »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: інarray
+---
 # інarray
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

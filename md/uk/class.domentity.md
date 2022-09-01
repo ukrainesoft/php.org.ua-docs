@@ -1,16 +1,11 @@
-Клас DOMEntity
-
--   [« DOMElement::setIdAttributeNS](domelement.setidattributens.html)
-    
--   [DOMEntityReference »](class.domentityreference.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOM](book.dom.html)
-    
--   Клас DOMEntity
-    
-
+---
+navigation:
+  - domelement.setidattributens.html: '« DOMElement::setIdAttributeNS'
+  - class.domentityreference.html: DOMEntityReference »
+  - index.html: PHP Manual
+  - book.dom.html: DOM
+title: Клас DOMEntity
+---
 # Клас DOMEntity
 
 (PHP 5, PHP 7, PHP 8)

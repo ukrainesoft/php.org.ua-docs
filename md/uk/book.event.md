@@ -1,16 +1,11 @@
-Event
-
--   [« CURLStringFile::construct](curlstringfile.construct.html)
-    
--   [Введение »](intro.event.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   Event
-    
-
+---
+navigation:
+  - curlstringfile.construct.html: '« CURLStringFile::construct'
+  - intro.event.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: Event
+---
 # Event
 
 -   [Введение](intro.event.html)

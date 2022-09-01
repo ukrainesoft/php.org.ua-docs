@@ -1,16 +1,11 @@
-Повертає поточний ключ
-
--   [« SimpleXMLIterator::hasChildren](simplexmliterator.haschildren.md)
-    
--   [SimpleXMLIterator::next »](simplexmliterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLIterator](class.simplexmliterator.md)
-    
--   Повертає поточний ключ
-    
-
+---
+navigation:
+  - simplexmliterator.haschildren.md: '« SimpleXMLIterator::hasChildren'
+  - simplexmliterator.next.md: 'SimpleXMLIterator::next »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
+title: 'SimpleXMLIterator::key'
+---
 # SimpleXMLIterator::key
 
 (PHP 5, PHP 7, PHP 8)

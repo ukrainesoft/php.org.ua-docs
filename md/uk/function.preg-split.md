@@ -1,16 +1,11 @@
-Розбиває рядок за регулярним виразом
-
--   [« pregreplace](function.preg-replace.html)
-    
--   [ssdeep »](book.ssdeep.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PCRE](ref.pcre.html)
-    
--   Розбиває рядок за регулярним виразом
-    
-
+---
+navigation:
+  - function.preg-replace.html: « pregreplace
+  - book.ssdeep.html: ssdeep »
+  - index.html: PHP Manual
+  - ref.pcre.html: Функции PCRE
+title: pregsplit
+---
 # pregsplit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

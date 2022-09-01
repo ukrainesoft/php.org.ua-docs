@@ -1,16 +1,11 @@
-Повертають статус повідомлення про помилку, системний та/або zip-статус
-
--   [« ZipArchive::getNameIndex](ziparchive.getnameindex.html)
-    
--   [ZipArchive::getStream »](ziparchive.getstream.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Повертають статус повідомлення про помилку, системний та/або zip-статус
-    
-
+---
+navigation:
+  - ziparchive.getnameindex.html: '« ZipArchive::getNameIndex'
+  - ziparchive.getstream.html: 'ZipArchive::getStream »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::getStatusString'
+---
 # ZipArchive::getStatusString
 
 (PHP 5> = 5.2.7, PHP 7, PHP 8)
@@ -35,7 +30,7 @@ public ZipArchive::getStatusString(): string
 
 ### список змін
 
-| Версия | Описание                                                        |
-|--------|-----------------------------------------------------------------|
-|        | Метод можна викликати у закритому архіві.                       |
-|        | Метод більше не повертає **`false`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Метод можна викликати у закритому архіві. |
+|  | Метод більше не повертає **`false`** у разі виникнення помилки. |

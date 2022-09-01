@@ -1,16 +1,11 @@
-Повертає кількість входжень підрядка
-
--   [« mbsubstitutecharacter](function.mb-substitute-character.html)
-    
--   [мбsubstr »](function.mb-substr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Повертає кількість входжень підрядка
-    
-
+---
+navigation:
+  - function.mb-substitute-character.html: « mbsubstitutecharacter
+  - function.mb-substr.html: мбsubstr »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбsubstrcount
+---
 # мбsubstrcount
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ mb_substr_count(string $haystack, string $needle, ?string $encoding = null): int
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

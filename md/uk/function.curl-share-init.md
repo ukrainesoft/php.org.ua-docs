@@ -1,16 +1,11 @@
-Ініціалізація оброблюваного обробника cURL
-
--   [« curlshareerrno](function.curl-share-errno.html)
-    
--   [curlsharesetopt »](function.curl-share-setopt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции cURL](ref.curl.html)
-    
--   Ініціалізація оброблюваного обробника cURL
-    
-
+---
+navigation:
+  - function.curl-share-errno.html: « curlshareerrno
+  - function.curl-share-setopt.html: curlsharesetopt »
+  - index.html: PHP Manual
+  - ref.curl.html: Функции cURL
+title: curlshareinit
+---
 # curlshareinit
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ curl_share_init(): CurlShareHandle
 
 ### список змін
 
-| Версия | Описание                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------|
-|        | Функція повертає екземпляр [CurlShareHandle](class.curlsharehandle.html); раніше, повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція повертає екземпляр [CurlShareHandle](class.curlsharehandle.html); раніше, повертався ресурс (resource). |
 
 ### Приклади
 

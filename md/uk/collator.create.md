@@ -1,16 +1,11 @@
-Створює новий екземпляр Collator
-
--   [« Collator::construct](collator.construct.html)
-    
--   [Collator::getAttribute »](collator.getattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [Collator](class.collator.html)
-    
--   Створює новий екземпляр Collator
-    
-
+---
+navigation:
+  - collator.construct.html: '« Collator::construct'
+  - collator.getattribute.html: 'Collator::getAttribute »'
+  - index.html: PHP Manual
+  - class.collator.html: Collator
+title: 'Collator::create'
+---
 # Collator::create
 
 # collatorcreate

@@ -1,16 +1,11 @@
-Отримує початкові значення генератора випадкових чисел
-
--   [« statsrandgenт](function.stats-rand-gen-t.html)
-    
--   [statsrandphraseтоseeds »](function.stats-rand-phrase-to-seeds.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Отримує початкові значення генератора випадкових чисел
-    
-
+---
+navigation:
+  - function.stats-rand-gen-t.html: « statsrandgenт
+  - function.stats-rand-phrase-to-seeds.html: statsrandphraseтоseeds »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandgetseeds
+---
 # statsrandgetseeds
 
 (PECL stats >= 1.0.0)

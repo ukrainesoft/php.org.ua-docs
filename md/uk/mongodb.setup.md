@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« MongoDB](set.mongodb.md)
-    
--   [Вимоги »](mongodb.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDB](set.mongodb.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - set.mongodb.md: « MongoDB
+  - mongodb.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - set.mongodb.md: MongoDB
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 -   [Вимоги](mongodb.requirements.md)

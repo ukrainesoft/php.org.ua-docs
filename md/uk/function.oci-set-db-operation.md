@@ -1,16 +1,11 @@
-Задає операцію бази даних
-
--   [« ocisetclientinfo](function.oci-set-client-info.html)
-    
--   [ocisetedition »](function.oci-set-edition.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Задає операцію бази даних
-    
-
+---
+navigation:
+  - function.oci-set-client-info.html: « ocisetclientinfo
+  - function.oci-set-edition.html: ocisetedition »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocisetдбoperation
+---
 # ocisetдбoperation
 
 (PHP 7> = 7.2.14, PHP 8, PHP 7> = 7.3.1, PHP 8, PECL OCI8> = 2.2.0)

@@ -1,16 +1,11 @@
-Повертає перегорнуту копію двосторонньої черги
-
--   [« DsDeque::reverse](ds-deque.reverse.html)
-    
--   [ДсDeque::rotate »](ds-deque.rotate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає перегорнуту копію двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.reverse.html: '« DsDeque::reverse'
+  - ds-deque.rotate.html: 'ДсDeque::rotate »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::reversed'
+---
 # ДсDeque::reversed
 
 (PECL ds >= 1.0.0)

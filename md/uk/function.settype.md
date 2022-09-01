@@ -1,16 +1,11 @@
-Задає тип змінної
-
--   [« serialize](function.serialize.html)
-    
--   [strval »](function.strval.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Задає тип змінної
-    
-
+---
+navigation:
+  - function.serialize.html: « serialize
+  - function.strval.html: strval »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: settype
+---
 # settype
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

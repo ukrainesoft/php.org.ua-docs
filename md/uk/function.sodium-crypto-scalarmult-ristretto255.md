@@ -1,16 +1,11 @@
-Обчислює загальний секрет
-
--   [« sodiumcryptoscalarmultristretto255base](function.sodium-crypto-scalarmult-ristretto255-base.html)
-    
--   [sodiumcryptoscalarmult »](function.sodium-crypto-scalarmult.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Обчислює загальний секрет
-    
-
+---
+navigation:
+  - function.sodium-crypto-scalarmult-ristretto255-base.html: « sodiumcryptoscalarmultristretto255base
+  - function.sodium-crypto-scalarmult.html: sodiumcryptoscalarmult »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoscalarmultristretto255
+---
 # sodiumcryptoscalarmultristretto255
 
 (PHP 8> = 8.1.1)

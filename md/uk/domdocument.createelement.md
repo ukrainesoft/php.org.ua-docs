@@ -1,16 +1,11 @@
-Створити новий вузол елемента
-
--   [« DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.md)
-    
--   [DOMDocument::createElementNS »](domdocument.createelementns.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий вузол елемента
-    
-
+---
+navigation:
+  - domdocument.createdocumentfragment.md: '« DOMDocument::createDocumentFragment'
+  - domdocument.createelementns.md: 'DOMDocument::createElementNS »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createElement'
+---
 # DOMDocument::createElement
 
 (PHP 5, PHP 7, PHP 8)

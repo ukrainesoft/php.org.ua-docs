@@ -1,16 +1,11 @@
-Функція зворотного виклику миші
-
--   [« UIArea::onKey](ui-area.onkey.html)
-    
--   [ОЙArea::redraw »](ui-area.redraw.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙArea](class.ui-area.html)
-    
--   Функція зворотного виклику миші
-    
-
+---
+navigation:
+  - ui-area.onkey.html: '« UIArea::onKey'
+  - ui-area.redraw.html: 'ОЙArea::redraw »'
+  - index.html: PHP Manual
+  - class.ui-area.html: ОЙArea
+title: 'ОЙArea::onMouse'
+---
 # ОЙArea::onMouse
 
 (UI 0.9.9)

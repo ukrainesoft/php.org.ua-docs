@@ -1,16 +1,11 @@
-Представляє позицію (x, y)
-
--   [« Установка](ui.installation.md)
-    
--   [ОЙPoint::at »](ui-point.at.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Представляє позицію (x, y)
-    
-
+---
+navigation:
+  - ui.installation.md: « Установка
+  - ui-point.at.html: 'ОЙPoint::at »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: 'Представляє позицію (x, y)'
+---
 # Представляє позицію (x, y)
 
 (UI 0.9.9)

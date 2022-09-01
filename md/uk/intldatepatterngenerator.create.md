@@ -1,16 +1,11 @@
-Створює новий екземпляр IntlDatePatternGenerator
-
--   [« IntlDatePatternGenerator](class.intldatepatterngenerator.md)
-    
--   [IntlDatePatternGenerator::getBestPattern »](intldatepatterngenerator.getbestpattern.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
-    
--   Створює новий екземпляр IntlDatePatternGenerator
-    
-
+---
+navigation:
+  - class.intldatepatterngenerator.md: « IntlDatePatternGenerator
+  - intldatepatterngenerator.getbestpattern.md: 'IntlDatePatternGenerator::getBestPattern »'
+  - index.md: PHP Manual
+  - class.intldatepatterngenerator.md: IntlDatePatternGenerator
+title: 'IntlDatePatternGenerator::create'
+---
 # IntlDatePatternGenerator::create
 
 # IntlDatePatternGenerator::construct

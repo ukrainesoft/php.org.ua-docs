@@ -1,16 +1,11 @@
-Розшифровує дані
-
--   [« opensslcsrsign](function.openssl-csr-sign.html)
-    
--   [opensslдхcomputekey »](function.openssl-dh-compute-key.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Розшифровує дані
-    
-
+---
+navigation:
+  - function.openssl-csr-sign.html: « opensslcsrsign
+  - function.openssl-dh-compute-key.html: opensslдхcomputekey »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: openssldecrypt
+---
 # openssldecrypt
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -71,10 +66,10 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string 
 
 ### список змін
 
-| Версия | Описание                                     |
-|--------|----------------------------------------------|
-|        | Параметр `tag` тепер допускає значення null. |
-|        | Додані параметри `tag` і `aad`               |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `tag` тепер допускає значення null. |
+|  | Додані параметри `tag` і `aad` |
 
 ### Дивіться також
 

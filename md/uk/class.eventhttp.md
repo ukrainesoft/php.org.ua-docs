@@ -1,16 +1,11 @@
-Клас EventHttp
-
--   [« EventDnsBase::setSearchNdots](eventdnsbase.setsearchndots.md)
-    
--   [EventHttp::accept »](eventhttp.accept.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](book.event.md)
-    
--   Клас EventHttp
-    
-
+---
+navigation:
+  - eventdnsbase.setsearchndots.md: '« EventDnsBase::setSearchNdots'
+  - eventhttp.accept.md: 'EventHttp::accept »'
+  - index.md: PHP Manual
+  - book.event.md: Event
+title: Клас EventHttp
+---
 # Клас EventHttp
 
 (PECL event >= 1.4.0-beta)

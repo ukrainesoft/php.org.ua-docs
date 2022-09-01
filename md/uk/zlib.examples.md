@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](zlib.constants.md)
-    
--   [Функции Zlib »](ref.zlib.md)
-    
--   [PHP Manual](index.md)
-    
--   [Zlib](book.zlib.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - zlib.constants.md: « Обумовлені константи
+  - ref.zlib.md: Функции Zlib »
+  - index.md: PHP Manual
+  - book.zlib.md: Zlib
+title: Приклади
+---
 # Приклади
 
 У цьому прикладі відкривається тимчасовий файл, записується рядок, а потім двічі виводиться вміст.

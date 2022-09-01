@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](iconv.requirements.md)
-    
--   [Налаштування під час виконання »](iconv.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](iconv.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - iconv.requirements.md: « Вимоги
+  - iconv.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - iconv.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль увімкнено за замовчуванням, щоб його вимкнути, використовуйте опцію **\-without-iconv**

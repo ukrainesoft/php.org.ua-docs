@@ -1,16 +1,11 @@
-mqseries
-
--   [« MemcachedException](class.memcachedexception.md)
-    
--   [Введение »](intro.mqseries.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   mqseries
-    
-
+---
+navigation:
+  - class.memcachedexception.md: « MemcachedException
+  - intro.mqseries.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: mqseries
+---
 # mqseries
 
 -   [Введение](intro.mqseries.md)

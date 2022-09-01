@@ -1,16 +1,11 @@
-Зменшує значення у таблиці Swoole за $rowkey та $columnkey
-
--   [« SwooleTable::current](swoole-table.current.html)
-    
--   [SwooleTable::del »](swoole-table.del.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Зменшує значення у таблиці Swoole за $rowkey та $columnkey
-    
-
+---
+navigation:
+  - swoole-table.current.html: '« SwooleTable::current'
+  - swoole-table.del.html: 'SwooleTable::del »'
+  - index.md: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::decor'
+---
 # SwooleTable::decor
 
 (PECL swoole >= 1.9.0)

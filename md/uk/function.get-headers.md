@@ -1,16 +1,11 @@
-Повертає всі заголовки з відповіді сервера на запит HTTP
-
--   [« base64encode](function.base64-encode.html)
-    
--   [getmetatags »](function.get-meta-tags.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції URL](ref.url.html)
-    
--   Повертає всі заголовки з відповіді сервера на запит HTTP
-    
-
+---
+navigation:
+  - function.base64-encode.html: « base64encode
+  - function.get-meta-tags.html: getmetatags »
+  - index.html: PHP Manual
+  - ref.url.html: Функції URL
+title: getheaders
+---
 # getheaders
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,10 +40,10 @@ get_headers(string $url, bool $associative = false, ?resource $context = null): 
 
 ### список змін
 
-| Версия | Описание                                                                                   |
-|--------|--------------------------------------------------------------------------------------------|
-|        | Тип параметра `associative` був змінений із цілого числа (int) на логічне значення (bool). |
-|        | Доданий параметр `context`                                                                 |
+| Версия | Описание |
+| --- | --- |
+|  | Тип параметра `associative` був змінений із цілого числа (int) на логічне значення (bool). |
+|  | Доданий параметр `context` |
 
 ### Приклади
 

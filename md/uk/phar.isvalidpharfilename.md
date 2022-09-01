@@ -1,16 +1,11 @@
-Перевіряє, що ім'я файлу є коректним ім'ям phar-архіву
-
--   [« Phar::isFileFormat](phar.isfileformat.md)
-    
--   [Phar::isWritable »](phar.iswritable.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Перевіряє, що ім'я файлу є коректним ім'ям phar-архіву
-    
-
+---
+navigation:
+  - phar.isfileformat.md: '« Phar::isFileFormat'
+  - phar.iswritable.md: 'Phar::isWritable »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::isValidPharFilename'
+---
 # Phar::isValidPharFilename
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.0)

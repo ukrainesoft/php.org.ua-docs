@@ -1,16 +1,11 @@
-Звільняє пам'ять, яку використовує менеджер пам'яті Zend Engine
-
--   [« gcenabled](function.gc-enabled.html)
-    
--   [гкstatus »](function.gc-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Звільняє пам'ять, яку використовує менеджер пам'яті Zend Engine
-    
-
+---
+navigation:
+  - function.gc-enabled.html: « gcenabled
+  - function.gc-status.html: гкstatus »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: гкmemcaches
+---
 # гкmemcaches
 
 (PHP 7, PHP 8)

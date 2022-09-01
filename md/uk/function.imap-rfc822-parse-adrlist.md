@@ -1,16 +1,11 @@
-Розбір адресного рядка
-
--   [« imapreopen](function.imap-reopen.html)
-    
--   [imaprfc822parseheaders »](function.imap-rfc822-parse-headers.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Розбір адресного рядка
-    
-
+---
+navigation:
+  - function.imap-reopen.html: « imapreopen
+  - function.imap-rfc822-parse-headers.html: imaprfc822parseheaders »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imaprfc822parseadrlist
+---
 # imaprfc822parseadrlist
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

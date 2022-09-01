@@ -1,16 +1,11 @@
-Шифрує повідомлення, використовуючи одноразовий номер та секретний ключ (без автентифікації)
-
--   [« sodiumcryptostreamxchacha20keygen](function.sodium-crypto-stream-xchacha20-keygen.html)
-    
--   [sodiumcryptostreamxchacha20 »](function.sodium-crypto-stream-xchacha20.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Шифрує повідомлення, використовуючи одноразовий номер та секретний ключ (без автентифікації)
-    
-
+---
+navigation:
+  - function.sodium-crypto-stream-xchacha20-keygen.html: « sodiumcryptostreamxchacha20keygen
+  - function.sodium-crypto-stream-xchacha20.html: sodiumcryptostreamxchacha20 »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptostreamxchacha20xor
+---
 # sodiumcryptostreamxchacha20xor
 
 (PHP 8> = 8.1.0)

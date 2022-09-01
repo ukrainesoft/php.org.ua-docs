@@ -1,16 +1,11 @@
-XMLWriter
-
--   [« XMLReader::XML](xmlreader.xml.md)
-    
--   [Введение »](intro.xmlwriter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка XML](refs.xml.md)
-    
--   XMLWriter
-    
-
+---
+navigation:
+  - xmlreader.xml.md: '« XMLReader::XML'
+  - intro.xmlwriter.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
+title: XMLWriter
+---
 # XMLWriter
 
 -   [Введение](intro.xmlwriter.md)

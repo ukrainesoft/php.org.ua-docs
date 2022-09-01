@@ -1,16 +1,11 @@
-Перевіряє, чи визначено інтерфейс
-
--   [« getparentclass](function.get-parent-class.html)
-    
--   [ісa »](function.is-a.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
-    
--   Перевіряє, чи визначено інтерфейс
-    
-
+---
+navigation:
+  - function.get-parent-class.html: « getparentclass
+  - function.is-a.html: ісa »
+  - index.html: PHP Manual
+  - ref.classobj.html: Функції роботи з класами та об'єктами
+title: interfaceexists
+---
 # interfaceexists
 
 (PHP 5> = 5.0.2, PHP 7, PHP 8)

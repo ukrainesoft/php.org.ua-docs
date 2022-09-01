@@ -1,16 +1,11 @@
-Перевіряє, чи є клас абстрактним
-
--   [« ReflectionClass::inNamespace](reflectionclass.innamespace.md)
-    
--   [ReflectionClass::isAnonymous »](reflectionclass.isanonymous.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи є клас абстрактним
-    
-
+---
+navigation:
+  - reflectionclass.innamespace.md: '« ReflectionClass::inNamespace'
+  - reflectionclass.isanonymous.md: 'ReflectionClass::isAnonymous »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isAbstract'
+---
 # ReflectionClass::isAbstract
 
 (PHP 5, PHP 7, PHP 8)

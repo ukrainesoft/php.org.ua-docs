@@ -1,16 +1,11 @@
-Створити об'єкт UConverter
-
--   [« UConverter](class.uconverter.md)
-    
--   [UConverter::convert »](uconverter.convert.md)
-    
--   [PHP Manual](index.md)
-    
--   [UConverter](class.uconverter.md)
-    
--   Створити об'єкт UConverter
-    
-
+---
+navigation:
+  - class.uconverter.md: « UConverter
+  - uconverter.convert.md: 'UConverter::convert »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::construct'
+---
 # UConverter::construct
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

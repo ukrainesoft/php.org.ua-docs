@@ -1,16 +1,11 @@
-Встановлює міжмовний інтервал тексту
-
--   [« ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.md)
-    
--   [ImagickDraw::setTextKerning »](imagickdraw.settextkerning.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює міжмовний інтервал тексту
-    
-
+---
+navigation:
+  - imagickdraw.settextinterlinespacing.md: '« ImagickDraw::setTextInterlineSpacing'
+  - imagickdraw.settextkerning.md: 'ImagickDraw::setTextKerning »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setTextInterwordSpacing'
+---
 # ImagickDraw::setTextInterwordSpacing
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

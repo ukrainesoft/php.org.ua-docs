@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](ds.constants.md)
-    
--   [Коллекция »](class.ds-collection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](book.ds.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - ds.constants.md: « Обумовлені константи
+  - class.ds-collection.html: Коллекция »
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Vector**

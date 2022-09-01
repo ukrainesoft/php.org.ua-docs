@@ -1,16 +1,11 @@
-Керує яскравістю, насиченістю та відтінком
-
--   [« Gmagick::minifyimage](gmagick.minifyimage.html)
-    
--   [Gmagick::motionblurimage »](gmagick.motionblurimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Керує яскравістю, насиченістю та відтінком
-    
-
+---
+navigation:
+  - gmagick.minifyimage.html: '« Gmagick::minifyimage'
+  - gmagick.motionblurimage.html: 'Gmagick::motionblurimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::modulateimage'
+---
 # Gmagick::modulateimage
 
 (PECL gmagick >= Unknown)

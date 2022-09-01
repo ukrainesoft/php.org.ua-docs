@@ -1,16 +1,11 @@
-Вхід
-
--   [« parallelEvents::setTimeout](parallel-events.settimeout.html)
-    
--   [parallelEvents::addChannel »](parallel-events.addchannel.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallelEvents](class.parallel-events.html)
-    
--   Вхід
-    
-
+---
+navigation:
+  - parallel-events.settimeout.html: '« parallelEvents::setTimeout'
+  - parallel-events.addchannel.html: 'parallelEvents::addChannel »'
+  - index.html: PHP Manual
+  - class.parallel-events.html: parallelEvents
+title: 'parallelEvents::setInput'
+---
 # parallelEvents::setInput
 
 parallelEvents::setInput — Вхід

@@ -1,16 +1,11 @@
-Клас ParentIterator
-
--   [« NoRewindIterator::valid](norewinditerator.valid.html)
-    
--   [ParentIterator::accept »](parentiterator.accept.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ітератори](spl.iterators.html)
-    
--   Клас ParentIterator
-    
-
+---
+navigation:
+  - norewinditerator.valid.html: '« NoRewindIterator::valid'
+  - parentiterator.accept.html: 'ParentIterator::accept »'
+  - index.html: PHP Manual
+  - spl.iterators.html: Ітератори
+title: Клас ParentIterator
+---
 # Клас ParentIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.xattr.md)
-    
--   [Вимоги »](xattr.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [xattr](book.xattr.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.xattr.md: « Введение
+  - xattr.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.xattr.md: xattr
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

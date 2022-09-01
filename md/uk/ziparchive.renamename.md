@@ -1,16 +1,11 @@
-Перейменовує елемент на його ім'я
-
--   [« ZipArchive::renameIndex](ziparchive.renameindex.md)
-    
--   [ZipArchive::replaceFile »](ziparchive.replacefile.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Перейменовує елемент на його ім'я
-    
-
+---
+navigation:
+  - ziparchive.renameindex.md: '« ZipArchive::renameIndex'
+  - ziparchive.replacefile.md: 'ZipArchive::replaceFile »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::renameName'
+---
 # ZipArchive::renameName
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.5.0)

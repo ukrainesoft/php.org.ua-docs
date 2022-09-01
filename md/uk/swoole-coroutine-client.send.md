@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineClient::recv](swoole-coroutine-client.recv.html)
-    
--   [SwooleCoroutineClient::sendfile »](swoole-coroutine-client.sendfile.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-client.recv.html: '« SwooleCoroutineClient::recv'
+  - swoole-coroutine-client.sendfile.html: 'SwooleCoroutineClient::sendfile »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineClient::send'
+---
 # SwooleCoroutineClient::send
 
 (PECL swoole >= 2.0.0)

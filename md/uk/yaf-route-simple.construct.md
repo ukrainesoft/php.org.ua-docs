@@ -1,16 +1,11 @@
-Конструктор класу YafRouteSimple
-
--   [« YafRouteSimple::assemble](yaf-route-simple.assemble.html)
-    
--   [YafRouteSimple::route »](yaf-route-simple.route.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRouteSimple](class.yaf-route-simple.html)
-    
--   Конструктор класу YafRouteSimple
-    
-
+---
+navigation:
+  - yaf-route-simple.assemble.html: '« YafRouteSimple::assemble'
+  - yaf-route-simple.route.html: 'YafRouteSimple::route »'
+  - index.html: PHP Manual
+  - class.yaf-route-simple.html: YafRouteSimple
+title: 'YafRouteSimple::construct'
+---
 # YafRouteSimple::construct
 
 (Yaf >=1.0.0)

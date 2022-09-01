@@ -1,16 +1,11 @@
-Встановлює значення сірого
-
--   [«pssetfont](function.ps-setfont.html)
-    
--   [псsetlinecap »](function.ps-setlinecap.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Встановлює значення сірого
-    
-
+---
+navigation:
+  - function.ps-setfont.html: «pssetfont
+  - function.ps-setlinecap.html: псsetlinecap »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псsetgray
+---
 # псsetgray
 
 (PECL ps >= 1.1.0)

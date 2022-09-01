@@ -1,16 +1,11 @@
-Конструктор класу YafRequestHttp
-
--   [« YafRequestHttp](class.yaf-request-http.html)
-    
--   [YafRequestHttp::get »](yaf-request-http.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRequestHttp](class.yaf-request-http.html)
-    
--   Конструктор класу YafRequestHttp
-    
-
+---
+navigation:
+  - class.yaf-request-http.html: « YafRequestHttp
+  - yaf-request-http.get.html: 'YafRequestHttp::get »'
+  - index.md: PHP Manual
+  - class.yaf-request-http.html: YafRequestHttp
+title: 'YafRequestHttp::construct'
+---
 # YafRequestHttp::construct
 
 (Yaf >=1.0.0)

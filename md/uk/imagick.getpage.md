@@ -1,16 +1,11 @@
-Повертає геометрію сторінки
-
--   [« Imagick::getPackageName](imagick.getpackagename.md)
-    
--   [Imagick::getPixelIterator »](imagick.getpixeliterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає геометрію сторінки
-    
-
+---
+navigation:
+  - imagick.getpackagename.md: '« Imagick::getPackageName'
+  - imagick.getpixeliterator.md: 'Imagick::getPixelIterator »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getPage'
+---
 # Imagick::getPage
 
 (PECL imagick 2, PECL imagick 3)

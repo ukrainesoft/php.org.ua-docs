@@ -1,16 +1,11 @@
-Отримує інформацію про з'єднання з описом файлу
-
--   [« SwooleServer::finish](swoole-server.finish.html)
-    
--   [SwooleServer::getClientList »](swoole-server.getclientlist.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Отримує інформацію про з'єднання з описом файлу
-    
-
+---
+navigation:
+  - swoole-server.finish.html: '« SwooleServer::finish'
+  - swoole-server.getclientlist.html: 'SwooleServer::getClientList »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::getClientInfo'
+---
 # SwooleServer::getClientInfo
 
 (PECL swoole >= 1.9.0)

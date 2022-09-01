@@ -1,16 +1,11 @@
-Змінені функції
-
--   [« Функціонал, оголошений застарілим у PHP 5.6.x](migration56.deprecated.md)
-    
--   [Нові функції »](migration56.new-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.md)
-    
--   Змінені функції
-    
-
+---
+navigation:
+  - migration56.deprecated.md: '« Функціонал, оголошений застарілим у PHP 5.6.x'
+  - migration56.new-functions.html: Нові функції »
+  - index.md: PHP Manual
+  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
+title: Змінені функції
+---
 ## Змінені функції
 
 ### Ядро PHP

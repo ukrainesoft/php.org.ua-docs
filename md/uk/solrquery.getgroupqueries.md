@@ -1,16 +1,11 @@
-Повертає всі параметри group.query
-
--   [« SolrQuery::getGroupOffset](solrquery.getgroupoffset.html)
-    
--   [SolrQuery::getGroupSortFields »](solrquery.getgroupsortfields.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає всі параметри group.query
-    
-
+---
+navigation:
+  - solrquery.getgroupoffset.html: '« SolrQuery::getGroupOffset'
+  - solrquery.getgroupsortfields.html: 'SolrQuery::getGroupSortFields »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getGroupQueries'
+---
 # SolrQuery::getGroupQueries
 
 (PECL solr> = 2.2.0)

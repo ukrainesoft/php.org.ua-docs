@@ -1,16 +1,11 @@
-Отримує дані профілювача
-
--   [« LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md)
-    
--   [LuaSandbox::getVersionInfo »](luasandbox.getversioninfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](class.luasandbox.md)
-    
--   Отримує дані профілювача
-    
-
+---
+navigation:
+  - luasandbox.getpeakmemoryusage.md: '« LuaSandbox::getPeakMemoryUsage'
+  - luasandbox.getversioninfo.md: 'LuaSandbox::getVersionInfo »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
+title: 'LuaSandbox::getProfilerFunctionReport'
+---
 # LuaSandbox::getProfilerFunctionReport
 
 (PECL luasandbox >= 1.1.0)

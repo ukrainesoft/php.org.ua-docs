@@ -1,16 +1,11 @@
-Повертає максимальну кількість умов запиту, які будуть включені до будь-якого згенерованого запиту
-
--   [« SolrQuery::getMltFields](solrquery.getmltfields.html)
-    
--   [SolrQuery::getMltMaxNumTokens »](solrquery.getmltmaxnumtokens.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає максимальну кількість умов запиту, які будуть включені до будь-якого згенерованого запиту
-    
-
+---
+navigation:
+  - solrquery.getmltfields.html: '« SolrQuery::getMltFields'
+  - solrquery.getmltmaxnumtokens.html: 'SolrQuery::getMltMaxNumTokens »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getMltMaxNumQueryTerms'
+---
 # SolrQuery::getMltMaxNumQueryTerms
 
 (PECL solr> = 0.9.2)

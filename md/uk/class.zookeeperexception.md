@@ -1,16 +1,11 @@
-Клас ZookeeperException
-
--   [« ZookeeperConfig::set](zookeeperconfig.set.md)
-    
--   [ZookeeperAuthenticationException »](class.zookeeperauthenticationexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZooKeeper](book.zookeeper.md)
-    
--   Клас ZookeeperException
-    
-
+---
+navigation:
+  - zookeeperconfig.set.md: '« ZookeeperConfig::set'
+  - class.zookeeperauthenticationexception.md: ZookeeperAuthenticationException »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
+title: Клас ZookeeperException
+---
 # Клас ZookeeperException
 
 (PECL zookeeper >= 0.3.0)

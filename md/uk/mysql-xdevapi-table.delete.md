@@ -1,16 +1,11 @@
-Видалити рядки з таблиці
-
--   [« Table::count](mysql-xdevapi-table.count.html)
-    
--   [Table::existsInDatabase »](mysql-xdevapi-table.existsindatabase.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Видалити рядки з таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.count.html: '« Table::count'
+  - mysql-xdevapi-table.existsindatabase.html: 'Table::existsInDatabase »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::delete'
+---
 # Table::delete
 
 (No version information available, might only be in Git)

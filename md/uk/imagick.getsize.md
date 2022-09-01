@@ -1,16 +1,11 @@
-Повертає розмір, пов'язаний із об'єктом Imagick
-
--   [« Imagick::getSamplingFactors](imagick.getsamplingfactors.md)
-    
--   [Imagick::getSizeOffset »](imagick.getsizeoffset.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає розмір, пов'язаний із об'єктом Imagick
-    
-
+---
+navigation:
+  - imagick.getsamplingfactors.md: '« Imagick::getSamplingFactors'
+  - imagick.getsizeoffset.md: 'Imagick::getSizeOffset »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getSize'
+---
 # Imagick::getSize
 
 (PECL imagick 2, PECL imagick 3)

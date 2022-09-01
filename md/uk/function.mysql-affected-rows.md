@@ -1,16 +1,11 @@
-Повертає число порушених минулою операцією рядів
-
--   [« MySQL](ref.mysql.html)
-    
--   [mysqlclientencoding »](function.mysql-client-encoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає число порушених минулою операцією рядів
-    
-
+---
+navigation:
+  - ref.mysql.html: « MySQL
+  - function.mysql-client-encoding.html: mysqlclientencoding »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlaffectedrows
+---
 # mysqlaffectedrows
 
 (PHP 4, PHP 5)

@@ -1,16 +1,11 @@
-Перевіряє, чи правильно задано слово
-
--   [« enchantdictadd](function.enchant-dict-add.html)
-    
--   [enchantdictdescribe »](function.enchant-dict-describe.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Перевіряє, чи правильно задано слово
-    
-
+---
+navigation:
+  - function.enchant-dict-add.html: « enchantdictadd
+  - function.enchant-dict-describe.html: enchantdictdescribe »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictcheck
+---
 # enchantdictcheck
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -41,6 +36,6 @@ enchant_dict_check(EnchantDictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

@@ -1,16 +1,11 @@
-Повідомляє про можливості браузера користувача
-
--   [« exit](function.exit.html)
-    
--   [haltcompiler »](function.halt-compiler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Повідомляє про можливості браузера користувача
-    
-
+---
+navigation:
+  - function.exit.html: « exit
+  - function.halt-compiler.html: haltcompiler »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: getbrowser
+---
 # getbrowser
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

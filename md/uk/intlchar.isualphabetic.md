@@ -1,16 +1,11 @@
-Перевірити, чи встановлено символ символу Alphabetic
-
--   [« IntlChar::istitle](intlchar.istitle.md)
-    
--   [IntlChar::isULowercase »](intlchar.isulowercase.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи встановлено символ символу Alphabetic
-    
-
+---
+navigation:
+  - intlchar.istitle.md: '« IntlChar::istitle'
+  - intlchar.isulowercase.md: 'IntlChar::isULowercase »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isUAlphabetic'
+---
 # IntlChar::isUAlphabetic
 
 (PHP 7, PHP 8)

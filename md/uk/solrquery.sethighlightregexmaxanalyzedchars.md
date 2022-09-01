@@ -1,16 +1,11 @@
-Задає максимальну кількість символів для аналізу
-
--   [« SolrQuery::setHighlightMergeContiguous](solrquery.sethighlightmergecontiguous.md)
-    
--   [SolrQuery::setHighlightRegexPattern »](solrquery.sethighlightregexpattern.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Задає максимальну кількість символів для аналізу
-    
-
+---
+navigation:
+  - solrquery.sethighlightmergecontiguous.md: '« SolrQuery::setHighlightMergeContiguous'
+  - solrquery.sethighlightregexpattern.md: 'SolrQuery::setHighlightRegexPattern »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightRegexMaxAnalyzedChars'
+---
 # SolrQuery::setHighlightRegexMaxAnalyzedChars
 
 (PECL solr> = 0.9.2)

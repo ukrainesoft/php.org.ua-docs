@@ -1,16 +1,11 @@
-Закриває з'єднання YAZ
-
--   [« yazcclparse](function.yaz-ccl-parse.html)
-    
--   [yazconnect »](function.yaz-connect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции YAZ](ref.yaz.html)
-    
--   Закриває з'єднання YAZ
-    
-
+---
+navigation:
+  - function.yaz-ccl-parse.html: « yazcclparse
+  - function.yaz-connect.html: yazconnect »
+  - index.html: PHP Manual
+  - ref.yaz.html: Функции YAZ
+title: yazclose
+---
 # yazclose
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)

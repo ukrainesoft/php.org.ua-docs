@@ -1,16 +1,11 @@
-Вступ
-
--   [« Сеть](book.network.md)
-    
--   [Встановлення та налаштування »](network.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сеть](book.network.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.network.md: « Сеть
+  - network.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.network.md: Сеть
+title: Вступ
+---
 # Вступ
 
 Надає різні функції для роботи з мережею.

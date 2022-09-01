@@ -1,16 +1,11 @@
-Видаляє сервери з ансамблю
-
--   [« ZookeeperConfig::get](zookeeperconfig.get.md)
-    
--   [ZookeeperConfig::set »](zookeeperconfig.set.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZookeeperConfig](class.zookeeperconfig.md)
-    
--   Видаляє сервери з ансамблю
-    
-
+---
+navigation:
+  - zookeeperconfig.get.md: '« ZookeeperConfig::get'
+  - zookeeperconfig.set.md: 'ZookeeperConfig::set »'
+  - index.md: PHP Manual
+  - class.zookeeperconfig.md: ZookeeperConfig
+title: 'ZookeeperConfig::remove'
+---
 # ZookeeperConfig::remove
 
 (PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)

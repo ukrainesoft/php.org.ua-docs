@@ -1,16 +1,11 @@
-Повертає середній гармонійний масив значень
-
--   [« statsdensweibull](function.stats-dens-weibull.html)
-    
--   [statskurtosis »](function.stats-kurtosis.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Повертає середній гармонійний масив значень
-    
-
+---
+navigation:
+  - function.stats-dens-weibull.html: « statsdensweibull
+  - function.stats-kurtosis.html: statskurtosis »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsharmonicmean
+---
 # statsharmonicmean
 
 (PECL stats >= 1.0.0)

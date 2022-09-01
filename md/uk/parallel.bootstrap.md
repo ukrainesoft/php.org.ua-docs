@@ -1,16 +1,11 @@
-Початкове завантаження
-
--   [« Функціональний API](functional.parallel.html)
-    
--   [parallelrun »](parallel.run.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функціональний API](functional.parallel.html)
-    
--   Початкове завантаження
-    
-
+---
+navigation:
+  - functional.parallel.html: « Функціональний API
+  - parallel.run.html: parallelrun »
+  - index.html: PHP Manual
+  - functional.parallel.html: Функціональний API
+title: parallelbootstrap
+---
 # parallelbootstrap
 
 parallelbootstrap — Початкове завантаження

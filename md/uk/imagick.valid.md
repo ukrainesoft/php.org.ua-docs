@@ -1,16 +1,11 @@
-Перевіряє, чи поточний елемент є коректним
-
--   [« Imagick::unsharpMaskImage](imagick.unsharpmaskimage.md)
-    
--   [Imagick::vignetteImage »](imagick.vignetteimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перевіряє, чи поточний елемент є коректним
-    
-
+---
+navigation:
+  - imagick.unsharpmaskimage.md: '« Imagick::unsharpMaskImage'
+  - imagick.vignetteimage.md: 'Imagick::vignetteImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::valid'
+---
 # Imagick::valid
 
 (PECL imagick 2, PECL imagick 3)

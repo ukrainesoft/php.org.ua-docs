@@ -1,16 +1,11 @@
-Конструктор Table
-
--   [« mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   [Table::count »](mysql-xdevapi-table.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Конструктор Table
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-table.html: « mysqlxdevapiTable
+  - mysql-xdevapi-table.count.html: 'Table::count »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::construct'
+---
 # Table::construct
 
 (No version information available, might only be in Git)

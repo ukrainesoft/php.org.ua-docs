@@ -1,16 +1,11 @@
-Вступ
-
--   [« OCI8](book.oci8.html)
-    
--   [Встановлення та налаштування »](oci8.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8](book.oci8.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.oci8.html: « OCI8
+  - oci8.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.oci8.html: OCI8
+title: Вступ
+---
 # Вступ
 
 Ці функції дозволяють працювати з базою даних Oracle Database. Підтримуються SQL та PL/SQL-вирази. Основний функціонал є підтримкою транзакцій, прив'язкою змінних PHP до відповідних плейсхолдерів Oracle, розширеною підтримкою великих об'єктів (LOB) і колекцій. Також підтримуються кешування результатів та такі можливості масштабування Oracle, як пул постійних з'єднань бази даних (Database Resident Connection Pooling, DRCP).

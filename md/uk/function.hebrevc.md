@@ -1,16 +1,11 @@
-Перетворює текст на івриті з логічного кодування на візуальне з перетворенням перекладу рядка
-
--   [« hebrev](function.hebrev.md)
-    
--   [hex2bin »](function.hex2bin.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перетворює текст на івриті з логічного кодування на візуальне з перетворенням перекладу рядка
-    
-
+---
+navigation:
+  - function.hebrev.md: « hebrev
+  - function.hex2bin.md: hex2bin »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: hebrevc
+---
 # hebrevc
 
 (PHP 4, PHP 5, PHP 7)

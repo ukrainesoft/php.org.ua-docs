@@ -1,16 +1,11 @@
-Створює функцію під час виконання
-
--   [« uopzflags](function.uopz-flags.html)
-    
--   [uopzgetexitstatus »](function.uopz-get-exit-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Створює функцію під час виконання
-    
-
+---
+navigation:
+  - function.uopz-flags.html: « uopzflags
+  - function.uopz-get-exit-status.html: uopzgetexitstatus »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzfunction
+---
 # uopzfunction
 
 (PECL uopz 1, PECL uopz 2)

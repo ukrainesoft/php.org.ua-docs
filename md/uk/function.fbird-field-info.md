@@ -1,16 +1,11 @@
-Псевдонім ibasefieldinfo
-
--   [« fbirdfetchrow](function.fbird-fetch-row.html)
-    
--   [fbirdfreeeventhandler »](function.fbird-free-event-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibasefieldinfo
-    
-
+---
+navigation:
+  - function.fbird-fetch-row.html: « fbirdfetchrow
+  - function.fbird-free-event-handler.html: fbirdfreeeventhandler »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdfieldinfo
+---
 # fbirdfieldinfo
 
 (PHP 5, PHP 7 < 7.4.0)

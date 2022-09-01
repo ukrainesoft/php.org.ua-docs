@@ -1,16 +1,11 @@
-Створює зупинений об'єкт спостерігача EvStat
-
--   [« EvStat::construct](evstat.construct.md)
-    
--   [EvStat::prev »](evstat.prev.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvStat](class.evstat.md)
-    
--   Створює зупинений об'єкт спостерігача EvStat
-    
-
+---
+navigation:
+  - evstat.construct.md: '« EvStat::construct'
+  - evstat.prev.md: 'EvStat::prev »'
+  - index.md: PHP Manual
+  - class.evstat.md: EvStat
+title: 'EvStat::createStopped'
+---
 # EvStat::createStopped
 
 (PECL ev >= 0.2.0)

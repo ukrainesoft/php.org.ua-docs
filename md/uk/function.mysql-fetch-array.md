@@ -1,16 +1,11 @@
-Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
-
--   [« mysqlescapestring](function.mysql-escape-string.html)
-    
--   [mysqlfetchassoc »](function.mysql-fetch-assoc.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
-    
-
+---
+navigation:
+  - function.mysql-escape-string.html: « mysqlescapestring
+  - function.mysql-fetch-assoc.html: mysqlfetchassoc »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlfetcharray
+---
 # mysqlfetcharray
 
 (PHP 4, PHP 5)

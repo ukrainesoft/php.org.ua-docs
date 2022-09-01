@@ -1,16 +1,11 @@
-Отримати час запуску останньої ітерації циклу за замовчуванням
-
--   [« Ev::iteration](ev.iteration.md)
-    
--   [Ev::nowUpdate »](ev.nowupdate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Отримати час запуску останньої ітерації циклу за замовчуванням
-    
-
+---
+navigation:
+  - ev.iteration.md: '« Ev::iteration'
+  - ev.nowupdate.md: 'Ev::nowUpdate »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::now'
+---
 # Ev::now
 
 (PECL ev >= 0.2.0)

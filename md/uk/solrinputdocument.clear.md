@@ -1,16 +1,11 @@
-Скидає вхідний документ
-
--   [« SolrInputDocument::addField](solrinputdocument.addfield.md)
-    
--   [SolrInputDocument::clone »](solrinputdocument.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Скидає вхідний документ
-    
-
+---
+navigation:
+  - solrinputdocument.addfield.md: '« SolrInputDocument::addField'
+  - solrinputdocument.clone.md: 'SolrInputDocument::clone »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::clear'
+---
 # SolrInputDocument::clear
 
 (PECL solr> = 0.9.2)

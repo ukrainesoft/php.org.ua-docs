@@ -1,16 +1,11 @@
-Шукає повідомлення у поточному домені
-
--   [« dngettext](function.dngettext.md)
-    
--   [ngettext »](function.ngettext.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции gettext](ref.gettext.md)
-    
--   Шукає повідомлення у поточному домені
-    
-
+---
+navigation:
+  - function.dngettext.md: « dngettext
+  - function.ngettext.md: ngettext »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
+title: gettext
+---
 # gettext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

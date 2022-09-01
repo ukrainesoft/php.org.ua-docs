@@ -1,16 +1,11 @@
-Синхронно отримує ACL, пов'язаний із вузлом
-
--   [« Zookeeper::get](zookeeper.get.html)
-    
--   [Zookeeper::getChildren »](zookeeper.getchildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Синхронно отримує ACL, пов'язаний із вузлом
-    
-
+---
+navigation:
+  - zookeeper.get.html: '« Zookeeper::get'
+  - zookeeper.getchildren.html: 'Zookeeper::getChildren »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::getAcl'
+---
 # Zookeeper::getAcl
 
 (PECL zookeeper >= 0.1.0)

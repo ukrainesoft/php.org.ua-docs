@@ -1,16 +1,11 @@
-Декодує дані сесії із закодованого рядка сесії
-
--   [« sessioncreateід](function.session-create-id.html)
-    
--   [sessiondestroy »](function.session-destroy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Декодує дані сесії із закодованого рядка сесії
-    
-
+---
+navigation:
+  - function.session-create-id.html: « sessioncreateід
+  - function.session-destroy.html: sessiondestroy »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessiondecode
+---
 # sessiondecode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

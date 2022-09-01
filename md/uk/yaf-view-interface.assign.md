@@ -1,16 +1,11 @@
-Призначає значення для движка відображення
-
--   [« YafViewInterface](class.yaf-view-interface.html)
-    
--   [YafViewInterface::display »](yaf-view-interface.display.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewInterface](class.yaf-view-interface.html)
-    
--   Призначає значення для движка відображення
-    
-
+---
+navigation:
+  - class.yaf-view-interface.html: « YafViewInterface
+  - yaf-view-interface.display.html: 'YafViewInterface::display »'
+  - index.md: PHP Manual
+  - class.yaf-view-interface.html: YafViewInterface
+title: 'YafViewInterface::assign'
+---
 # YafViewInterface::assign
 
 (Yaf >=1.0.0)

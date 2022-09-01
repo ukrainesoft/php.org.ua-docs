@@ -1,16 +1,11 @@
-Призначення route
-
--   [« YafRouteSupervar::construct](yaf-route-supervar.construct.html)
-    
--   [YafSession »](class.yaf-session.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouteSupervar](class.yaf-route-supervar.html)
-    
--   Призначення route
-    
-
+---
+navigation:
+  - yaf-route-supervar.construct.html: '« YafRouteSupervar::construct'
+  - class.yaf-session.html: YafSession »
+  - index.md: PHP Manual
+  - class.yaf-route-supervar.html: YafRouteSupervar
+title: 'YafRouteSupervar::route'
+---
 # YafRouteSupervar::route
 
 (Yaf >=1.0.0)

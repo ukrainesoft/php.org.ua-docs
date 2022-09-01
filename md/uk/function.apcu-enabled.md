@@ -1,16 +1,11 @@
-Чи можливо використовувати APCu у поточному оточенні
-
--   [« apcudelete](function.apcu-delete.html)
-    
--   [apcuentry »](function.apcu-entry.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Чи можливо використовувати APCu у поточному оточенні
-    
-
+---
+navigation:
+  - function.apcu-delete.html: « apcudelete
+  - function.apcu-entry.html: apcuentry »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcuenabled
+---
 # apcuenabled
 
 (PECL apcu >= 4.0.3)

@@ -1,16 +1,11 @@
-Перевіряє, чи доступне значення за промовчанням
-
--   [« ReflectionParameter::isCallable](reflectionparameter.iscallable.md)
-    
--   [ReflectionParameter::isDefaultValueConstant »](reflectionparameter.isdefaultvalueconstant.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перевіряє, чи доступне значення за промовчанням
-    
-
+---
+navigation:
+  - reflectionparameter.iscallable.md: '« ReflectionParameter::isCallable'
+  - reflectionparameter.isdefaultvalueconstant.md: 'ReflectionParameter::isDefaultValueConstant »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isDefaultValueAvailable'
+---
 # ReflectionParameter::isDefaultValueAvailable
 
 (PHP 5> = 5.0.3, PHP 7, PHP 8)

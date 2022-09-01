@@ -1,16 +1,11 @@
-Викликає функцію бібліотеки C fcntl для файлового дескриптора
-
--   [« dioclose](function.dio-close.html)
-    
--   [dioopen »](function.dio-open.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції прямого введення/виводу](ref.dio.md)
-    
--   Викликає функцію бібліотеки C fcntl для файлового дескриптора
-    
-
+---
+navigation:
+  - function.dio-close.html: « dioclose
+  - function.dio-open.html: dioopen »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
+title: diofcntl
+---
 # diofcntl
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

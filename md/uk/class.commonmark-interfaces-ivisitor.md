@@ -1,16 +1,11 @@
-Інтерфейс CommonMarkInterfacesIVisitor
-
--   [« CommonMarkNode::accept](commonmark-node.accept.html)
-    
--   [CommonMarkInterfacesIVisitor::enter »](commonmark-interfaces-ivisitor.enter.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   Інтерфейс CommonMarkInterfacesIVisitor
-    
-
+---
+navigation:
+  - commonmark-node.accept.html: '« CommonMarkNode::accept'
+  - commonmark-interfaces-ivisitor.enter.html: 'CommonMarkInterfacesIVisitor::enter »'
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: Інтерфейс CommonMarkInterfacesIVisitor
+---
 # Інтерфейс CommonMarkInterfacesIVisitor
 
 (cmark >= 1.0.0)

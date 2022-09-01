@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutine::cliwait](swoole-coroutine.cli-wait.html)
-    
--   [SwooleCoroutineClient::close »](swoole-coroutine-client.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine.cli-wait.html: '« SwooleCoroutine::cliwait'
+  - swoole-coroutine-client.close.html: 'SwooleCoroutineClient::close »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutine::create'
+---
 # SwooleCoroutine::create
 
 (PECL swoole >= 2.0.0)

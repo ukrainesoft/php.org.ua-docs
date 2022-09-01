@@ -1,16 +1,11 @@
-Клас YafSession
-
--   [« YafRouteSupervar::route](yaf-route-supervar.route.html)
-    
--   [YafSession::construct »](yaf-session.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafSession
-    
-
+---
+navigation:
+  - yaf-route-supervar.route.html: '« YafRouteSupervar::route'
+  - yaf-session.construct.html: 'YafSession::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafSession
+---
 # Клас YafSession
 
 (Yaf >=1.0.0)

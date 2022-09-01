@@ -1,16 +1,11 @@
-Перехід до першого дочірнього елемента
-
--   [« RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   [RecursiveIteratorIterator::beginIteration »](recursiveiteratoriterator.beginiteration.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Перехід до першого дочірнього елемента
-    
-
+---
+navigation:
+  - class.recursiveiteratoriterator.md: « RecursiveIteratorIterator
+  - recursiveiteratoriterator.beginiteration.md: 'RecursiveIteratorIterator::beginIteration »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::beginChildren'
+---
 # RecursiveIteratorIterator::beginChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

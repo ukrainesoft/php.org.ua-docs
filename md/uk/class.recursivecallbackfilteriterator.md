@@ -1,16 +1,11 @@
-Клас RecursiveCallbackFilterIterator
-
--   [« RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.md)
-    
--   [RecursiveCallbackFilterIterator::construct »](recursivecallbackfilteriterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ітератори](spl.iterators.md)
-    
--   Клас RecursiveCallbackFilterIterator
-    
-
+---
+navigation:
+  - recursivecachingiterator.haschildren.md: '« RecursiveCachingIterator::hasChildren'
+  - recursivecallbackfilteriterator.construct.md: 'RecursiveCallbackFilterIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
+title: Клас RecursiveCallbackFilterIterator
+---
 # Клас RecursiveCallbackFilterIterator
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

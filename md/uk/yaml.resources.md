@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](yaml.configuration.html)
-    
--   [Обумовлені константи »](yaml.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](yaml.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - yaml.configuration.html: « Налаштування під час виконання
+  - yaml.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - yaml.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

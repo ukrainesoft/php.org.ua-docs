@@ -1,16 +1,11 @@
-Функції запуску програм
-
--   [« Обумовлені константи](exec.constants.html)
-    
--   [escapeshellarg »](function.escapeshellarg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Запуск програми](book.exec.html)
-    
--   Функції запуску програм
-    
-
+---
+navigation:
+  - exec.constants.html: « Обумовлені константи
+  - function.escapeshellarg.html: escapeshellarg »
+  - index.html: PHP Manual
+  - book.exec.html: Запуск програми
+title: Функції запуску програм
+---
 # Функції запуску програм
 
 ## Примітки

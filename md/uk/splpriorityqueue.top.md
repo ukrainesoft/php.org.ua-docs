@@ -1,16 +1,11 @@
-Повертає вузол, що знаходиться на початку черги
-
--   [« SplPriorityQueue::setExtractFlags](splpriorityqueue.setextractflags.html)
-    
--   [SplPriorityQueue::valid »](splpriorityqueue.valid.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplPriorityQueue](class.splpriorityqueue.html)
-    
--   Повертає вузол, що знаходиться на початку черги
-    
-
+---
+navigation:
+  - splpriorityqueue.setextractflags.html: '« SplPriorityQueue::setExtractFlags'
+  - splpriorityqueue.valid.html: 'SplPriorityQueue::valid »'
+  - index.html: PHP Manual
+  - class.splpriorityqueue.html: SplPriorityQueue
+title: 'SplPriorityQueue::top'
+---
 # SplPriorityQueue::top
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

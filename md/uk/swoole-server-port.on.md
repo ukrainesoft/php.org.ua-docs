@@ -1,16 +1,11 @@
-Реєструє callback-функції події
-
--   [« SwooleServerPort::destruct](swoole-server-port.destruct.html)
-    
--   [SwooleServerPort::set »](swoole-server-port.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Реєструє callback-функції події
-    
-
+---
+navigation:
+  - swoole-server-port.destruct.html: '« SwooleServerPort::destruct'
+  - swoole-server-port.set.html: 'SwooleServerPort::set »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServerPort::on'
+---
 # SwooleServerPort::on
 
 (PECL swoole >= 1.9.0)

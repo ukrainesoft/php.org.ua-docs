@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.mysql-xdevapi.html)
-    
--   [Вимоги »](mysql-xdevapi.requirements.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.mysql-xdevapi.html: « Введение
+  - mysql-xdevapi.requirements.html: Вимоги »
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

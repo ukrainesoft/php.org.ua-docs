@@ -1,16 +1,11 @@
-Зменшує значення, пов'язане з ключем
-
--   [« wincacheucacheclear](function.wincache-ucache-clear.html)
-    
--   [wincacheucachedelete »](function.wincache-ucache-delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Зменшує значення, пов'язане з ключем
-    
-
+---
+navigation:
+  - function.wincache-ucache-clear.html: « wincacheucacheclear
+  - function.wincache-ucache-delete.html: wincacheucachedelete »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincacheucachedec
+---
 # wincacheucachedec
 
 (PECL wincache >= 1.1.0)

@@ -1,16 +1,11 @@
-Додає фільтр розмиття до зображення
-
--   [« Imagick::blueShiftImage](imagick.blueshiftimage.md)
-    
--   [Imagick::borderImage »](imagick.borderimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Додає фільтр розмиття до зображення
-    
-
+---
+navigation:
+  - imagick.blueshiftimage.md: '« Imagick::blueShiftImage'
+  - imagick.borderimage.md: 'Imagick::borderImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::blurImage'
+---
 # Imagick::blurImage
 
 (PECL imagick 2, PECL imagick 3)

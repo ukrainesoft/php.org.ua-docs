@@ -1,16 +1,11 @@
-Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
-
--   [« posixsetegid](function.posix-setegid.html)
-    
--   [posixsetgid »](function.posix-setgid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
-    
-
+---
+navigation:
+  - function.posix-setegid.html: « posixsetegid
+  - function.posix-setgid.html: posixsetgid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixseteuid
+---
 # posixseteuid
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

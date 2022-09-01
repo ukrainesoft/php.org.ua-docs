@@ -1,16 +1,11 @@
-Перевантажити опкод VM
-
--   [« uopzimplement](function.uopz-implement.html)
-    
--   [uopzredefine »](function.uopz-redefine.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Перевантажити опкод VM
-    
-
+---
+navigation:
+  - function.uopz-implement.html: « uopzimplement
+  - function.uopz-redefine.html: uopzredefine »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzoverload
+---
 # uopzoverload
 
 (PECL uopz 1, PECL uopz 2)

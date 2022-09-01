@@ -1,16 +1,11 @@
-Відкриває з'єднання з сервером memcached
-
--   [« Memcache::close](memcache.close.md)
-    
--   [Memcache::decrement »](memcache.decrement.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcache](class.memcache.md)
-    
--   Відкриває з'єднання з сервером memcached
-    
-
+---
+navigation:
+  - memcache.close.md: '« Memcache::close'
+  - memcache.decrement.md: 'Memcache::decrement »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
+title: 'Memcache::connect'
+---
 # Memcache::connect
 
 (PECL memcache >= 0.2.0)

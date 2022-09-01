@@ -1,16 +1,11 @@
-Створює базу даних
-
--   [« dbaseclose](function.dbase-close.html)
-    
--   [dbasedeleterecord »](function.dbase-delete-record.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](ref.dbase.html)
-    
--   Створює базу даних
-    
-
+---
+navigation:
+  - function.dbase-close.html: « dbaseclose
+  - function.dbase-delete-record.html: dbasedeleterecord »
+  - index.html: PHP Manual
+  - ref.dbase.html: dBase
+title: dbasecreate
+---
 # dbasecreate
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -53,9 +48,9 @@ dbase_create(string $path, array $fields, int $type = DBASE_TYPE_DBASE): resourc
 
 ### список змін
 
-| Версия      | Описание                                      |
-|-------------|-----------------------------------------------|
-| dbase 7.0.0 | Доданий параметр `type`                       |
+| Версия | Описание |
+| --- | --- |
+| dbase 7.0.0 | Доданий параметр `type` |
 | dbase 7.0.0 | Повертається тепер має тип resource а не int. |
 
 ### Приклади

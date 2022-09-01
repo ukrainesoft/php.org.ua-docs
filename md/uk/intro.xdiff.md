@@ -1,16 +1,11 @@
-Вступ
-
--   [xdiff](book.xdiff.md)
-    
--   [Встановлення та налаштування »](xdiff.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [xdiff](book.xdiff.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.xdiff.md: xdiff
+  - xdiff.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.xdiff.md: xdiff
+title: Вступ
+---
 # Вступ
 
 Модуль xdiff дозволяє створювати та застосовувати файли виправлень, що містять різницю між різними версіями файлів.

@@ -1,16 +1,11 @@
-Переміщує покажчик на початкову позицію
-
--   [« LimitIterator::next](limititerator.next.html)
-    
--   [LimitIterator::seek »](limititerator.seek.html)
-    
--   [PHP Manual](index.html)
-    
--   [LimitIterator](class.limititerator.html)
-    
--   Переміщує покажчик на початкову позицію
-    
-
+---
+navigation:
+  - limititerator.next.html: '« LimitIterator::next'
+  - limititerator.seek.html: 'LimitIterator::seek »'
+  - index.html: PHP Manual
+  - class.limititerator.html: LimitIterator
+title: 'LimitIterator::rewind'
+---
 # LimitIterator::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

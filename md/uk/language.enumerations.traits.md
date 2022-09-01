@@ -1,16 +1,11 @@
-Трейти
-
--   [« Константи перерахувань](language.enumerations.constants.html)
-    
--   [Значення перерахування у постійних виразах »](language.enumerations.expressions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Перечисления](language.enumerations.html)
-    
--   Трейти
-    
-
+---
+navigation:
+  - language.enumerations.constants.html: « Константи перерахувань
+  - language.enumerations.expressions.html: Значення перерахування у постійних виразах »
+  - index.html: PHP Manual
+  - language.enumerations.html: Перечисления
+title: Трейти
+---
 ## Трейти
 
 Переліки можуть використовувати трейти, які будуть поводитися так само, як і класи. Застереження полягає в тому, що трейти, що використовуються (`use`) у перерахуванні не повинні містити властивостей. Вони можуть включати лише методи та статичні методи. Трейт із властивостями призведе до фатальної помилки.

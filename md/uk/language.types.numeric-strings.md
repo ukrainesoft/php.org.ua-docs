@@ -1,16 +1,11 @@
-Числові рядки
-
--   [« Рядки](language.types.string.md)
-    
--   [Масиви »](language.types.array.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи](language.types.md)
-    
--   Числові рядки
-    
-
+---
+navigation:
+  - language.types.string.md: « Рядки
+  - language.types.array.md: Масиви »
+  - index.md: PHP Manual
+  - language.types.md: Типи
+title: Числові рядки
+---
 ## Числові рядки
 
 У PHP, рядок (string) вважається числовим, якщо його можна інтерпретувати як ціле (int) число або як число з плаваючою точкою (float).

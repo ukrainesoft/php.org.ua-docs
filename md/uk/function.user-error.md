@@ -1,16 +1,11 @@
-Псевдонім triggererror
-
--   [« triggererror](function.trigger-error.html)
-    
--   [FFI »](book.ffi.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции обработки ошибок](ref.errorfunc.html)
-    
--   Псевдонім triggererror
-    
-
+---
+navigation:
+  - function.trigger-error.html: « triggererror
+  - book.ffi.html: FFI »
+  - index.html: PHP Manual
+  - ref.errorfunc.html: Функции обработки ошибок
+title: usererror
+---
 # usererror
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

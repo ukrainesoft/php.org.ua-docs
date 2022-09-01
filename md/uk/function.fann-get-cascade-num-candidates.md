@@ -1,16 +1,11 @@
-Повертає кількість кандидатів, використаних під час навчання
-
--   [« fanngetcascadenumcandidategroups](function.fann-get-cascade-num-candidate-groups.html)
-    
--   [fanngetcascadeoutputchangefraction »](function.fann-get-cascade-output-change-fraction.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає кількість кандидатів, використаних під час навчання
-    
-
+---
+navigation:
+  - function.fann-get-cascade-num-candidate-groups.html: « fanngetcascadenumcandidategroups
+  - function.fann-get-cascade-output-change-fraction.html: fanngetcascadeoutputchangefraction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetcascadenumcandidates
+---
 # fanngetcascadenumcandidates
 
 (PECL fann> = 1.0.0)

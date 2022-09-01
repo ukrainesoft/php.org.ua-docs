@@ -1,16 +1,11 @@
-Перевіряє варіант перерахування
-
--   [« ReflectionEnum::getCases](reflectionenum.getcases.html)
-    
--   [ReflectionEnum::isBacked »](reflectionenum.isbacked.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionEnum](class.reflectionenum.html)
-    
--   Перевіряє варіант перерахування
-    
-
+---
+navigation:
+  - reflectionenum.getcases.html: '« ReflectionEnum::getCases'
+  - reflectionenum.isbacked.html: 'ReflectionEnum::isBacked »'
+  - index.html: PHP Manual
+  - class.reflectionenum.html: ReflectionEnum
+title: 'ReflectionEnum::hasCase'
+---
 # ReflectionEnum::hasCase
 
 (PHP 8> = 8.1.0)

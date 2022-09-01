@@ -1,16 +1,11 @@
-Повертає поточну позицію читання/запису в покажчику gz-файлу
-
--   [« gzseek](function.gzseek.html)
-    
--   [gzuncompress »](function.gzuncompress.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Повертає поточну позицію читання/запису в покажчику gz-файлу
-    
-
+---
+navigation:
+  - function.gzseek.html: « gzseek
+  - function.gzuncompress.html: gzuncompress »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gztell
+---
 # gztell
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

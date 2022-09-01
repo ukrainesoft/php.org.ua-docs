@@ -1,16 +1,11 @@
-Подання у вигляді рядка
-
--   [« Reflector::export](reflector.export.md)
-    
--   [ReflectionException »](class.reflectionexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflector](class.reflector.md)
-    
--   Подання у вигляді рядка
-    
-
+---
+navigation:
+  - reflector.export.md: '« Reflector::export'
+  - class.reflectionexception.md: ReflectionException »
+  - index.md: PHP Manual
+  - class.reflector.md: Reflector
+title: 'Reflector::function toString() { \[native code\] }'
+---
 # Reflector::function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)

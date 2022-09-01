@@ -1,16 +1,11 @@
-Повертає останню помилку поточної сесії перевірки
-
--   [« enchantdictdescribe](function.enchant-dict-describe.html)
-    
--   [enchantdictісadded »](function.enchant-dict-is-added.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Повертає останню помилку поточної сесії перевірки
-    
-
+---
+navigation:
+  - function.enchant-dict-describe.html: « enchantdictdescribe
+  - function.enchant-dict-is-added.html: enchantdictісadded »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictgeterror
+---
 # enchantdictgeterror
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -37,6 +32,6 @@ enchant_dict_get_error(EnchantDictionary $dictionary): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

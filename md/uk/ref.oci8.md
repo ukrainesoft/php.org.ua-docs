@@ -1,16 +1,11 @@
-OCI8 Функції
-
--   [« Типи даних, що підтримуються](oci8.datatypes.html)
-    
--   [ocibindarrayбname »](function.oci-bind-array-by-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8](book.oci8.html)
-    
--   OCI8 Функції
-    
-
+---
+navigation:
+  - oci8.datatypes.html: '« Типи даних, що підтримуються'
+  - function.oci-bind-array-by-name.html: ocibindarrayбname »
+  - index.html: PHP Manual
+  - book.oci8.html: OCI8
+title: OCI8 Функції
+---
 # OCI8 Функції
 
 ## Зміст

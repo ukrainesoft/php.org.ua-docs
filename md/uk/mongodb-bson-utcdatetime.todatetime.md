@@ -1,16 +1,11 @@
-Повертає уявлення DateTime цього UTCDateTime
-
--   [« MongoDBBSONUTCDateTime::serialize](mongodb-bson-utcdatetime.serialize.html)
-    
--   [MongoDBBSONUTCDateTime::toString »](mongodb-bson-utcdatetime.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
-    
--   Повертає уявлення DateTime цього UTCDateTime
-    
-
+---
+navigation:
+  - mongodb-bson-utcdatetime.serialize.html: '« MongoDBBSONUTCDateTime::serialize'
+  - mongodb-bson-utcdatetime.tostring.html: 'MongoDBBSONUTCDateTime::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+title: 'MongoDBBSONUTCDateTime::toDateTime'
+---
 # MongoDBBSONUTCDateTime::toDateTime
 
 (mongodb >=1.0.0)

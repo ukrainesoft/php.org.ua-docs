@@ -1,16 +1,11 @@
-Конструктор
-
--   [« SolrQuery::collapse](solrquery.collapse.html)
-    
--   [SolrQuery::destruct »](solrquery.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - solrquery.collapse.html: '« SolrQuery::collapse'
+  - solrquery.destruct.html: 'SolrQuery::destruct »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::construct'
+---
 # SolrQuery::construct
 
 (PECL solr> = 0.9.2)
@@ -39,6 +34,6 @@ public **SolrQuery::construct**(string `$q`
 
 ### список змін
 
-| Версия          | Описание                                                                                                                                            |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL solr 2.0.0 | Якщо `q` був неприпустимим, викидається виняток [SolrIllegalArgumentException](class.solrillegalargumentexception.html). Раніше видавалась помилка. |

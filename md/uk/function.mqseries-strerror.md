@@ -1,16 +1,11 @@
-Отримати повідомлення про помилку, що відповідає її коду (MQRC)
-
--   [« mqseriesset](function.mqseries-set.html)
-    
--   [Сеть »](book.network.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   Отримати повідомлення про помилку, що відповідає її коду (MQRC)
-    
-
+---
+navigation:
+  - function.mqseries-set.html: « mqseriesset
+  - book.network.md: Сеть »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesstrerror
+---
 # mqseriesstrerror
 
 (PECL mqseries >= 0.10.0)

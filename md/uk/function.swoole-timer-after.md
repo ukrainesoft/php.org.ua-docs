@@ -1,16 +1,11 @@
-Запуск callback-функції один раз у майбутньому
-
--   [« swoolestrerror](function.swoole-strerror.html)
-    
--   [swooletimerexists »](function.swoole-timer-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Запуск callback-функції один раз у майбутньому
-    
-
+---
+navigation:
+  - function.swoole-strerror.html: « swoolestrerror
+  - function.swoole-timer-exists.html: swooletimerexists »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooletimerafter
+---
 # swooletimerafter
 
 (PECL swoole >= 1.9.0)

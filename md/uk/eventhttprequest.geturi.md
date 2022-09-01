@@ -1,16 +1,11 @@
-Повертає URI запиту
-
--   [« EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.html)
-    
--   [EventHttpRequest::removeHeader »](eventhttprequest.removeheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Повертає URI запиту
-    
-
+---
+navigation:
+  - eventhttprequest.getresponsecode.html: '« EventHttpRequest::getResponseCode'
+  - eventhttprequest.removeheader.html: 'EventHttpRequest::removeHeader »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::getUri'
+---
 # EventHttpRequest::getUri
 
 (PECL event >= 1.4.0-beta)

@@ -1,16 +1,11 @@
-Включає/вимикає авторендеринг
-
--   [« YafDispatcher](class.yaf-dispatcher.html)
-    
--   [YafDispatcher::catchException »](yaf-dispatcher.catchexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Включає/вимикає авторендеринг
-    
-
+---
+navigation:
+  - class.yaf-dispatcher.html: « YafDispatcher
+  - yaf-dispatcher.catchexception.html: 'YafDispatcher::catchException »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::autoRender'
+---
 # YafDispatcher::autoRender
 
 (Yaf >=1.0.0)

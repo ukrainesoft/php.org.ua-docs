@@ -1,16 +1,11 @@
-Встановлює дані, що містять схему RelaxNG
-
--   [« XMLReader::setRelaxNGSchema](xmlreader.setrelaxngschema.md)
-    
--   [XMLReader::setSchema »](xmlreader.setschema.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Встановлює дані, що містять схему RelaxNG
-    
-
+---
+navigation:
+  - xmlreader.setrelaxngschema.md: '« XMLReader::setRelaxNGSchema'
+  - xmlreader.setschema.md: 'XMLReader::setSchema »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::setRelaxNGSchemaSource'
+---
 # XMLReader::setRelaxNGSchemaSource
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

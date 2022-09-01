@@ -1,16 +1,11 @@
-Отримує двигун відображення
-
--   [« YafControllerAbstract::getResponse](yaf-controller-abstract.getresponse.html)
-    
--   [YafControllerAbstract::getViewpath »](yaf-controller-abstract.getviewpath.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Отримує двигун відображення
-    
-
+---
+navigation:
+  - yaf-controller-abstract.getresponse.html: '« YafControllerAbstract::getResponse'
+  - yaf-controller-abstract.getviewpath.html: 'YafControllerAbstract::getViewpath »'
+  - index.html: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::getView'
+---
 # YafControllerAbstract::getView
 
 (Yaf >=1.0.0)

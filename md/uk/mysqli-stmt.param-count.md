@@ -1,16 +1,11 @@
-Повертає кількість параметрів у запиті
-
--   [« mysqlistmt::$numrows](mysqli-stmt.num-rows.html)
-    
--   [mysqlistmt::prepare »](mysqli-stmt.prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Повертає кількість параметрів у запиті
-    
-
+---
+navigation:
+  - mysqli-stmt.num-rows.html: '« mysqlistmt::$numrows'
+  - mysqli-stmt.prepare.html: 'mysqlistmt::prepare »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$paramcount'
+---
 # mysqlistmt::$paramcount
 
 # mysqlistmtparamcount

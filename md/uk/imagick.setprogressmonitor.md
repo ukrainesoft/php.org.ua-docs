@@ -1,16 +1,11 @@
-Встановлює callback-функцію, яка буде викликатись під час обробки зображення Imagick
-
--   [« Imagick::setPointSize](imagick.setpointsize.html)
-    
--   [Imagick::setRegistry »](imagick.setregistry.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює callback-функцію, яка буде викликатись під час обробки зображення Imagick
-    
-
+---
+navigation:
+  - imagick.setpointsize.html: '« Imagick::setPointSize'
+  - imagick.setregistry.html: 'Imagick::setRegistry »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setProgressMonitor'
+---
 # Imagick::setProgressMonitor
 
 (PECL imagick 3> = 3.3.0)

@@ -1,16 +1,11 @@
-Отримання індексу заданого кольору та альфа компонента
-
--   [« imagecolorexact](function.imagecolorexact.md)
-    
--   [imagecolormatch »](function.imagecolormatch.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання індексу заданого кольору та альфа компонента
-    
-
+---
+navigation:
+  - function.imagecolorexact.md: « imagecolorexact
+  - function.imagecolormatch.md: imagecolormatch »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorexactalpha
+---
 # imagecolorexactalpha
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ imagecolorexactalpha(    GdImage $image,    int $red,    int $green,
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

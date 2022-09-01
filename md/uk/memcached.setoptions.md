@@ -1,16 +1,11 @@
-Встановлює кілька параметрів Memcached
-
--   [« Memcached::setOption](memcached.setoption.md)
-    
--   [Memcached::setSaslAuthData »](memcached.setsaslauthdata.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Встановлює кілька параметрів Memcached
-    
-
+---
+navigation:
+  - memcached.setoption.md: '« Memcached::setOption'
+  - memcached.setsaslauthdata.md: 'Memcached::setSaslAuthData »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::setOptions'
+---
 # Memcached::setOptions
 
 (PECL memcached >= 2.0.0)

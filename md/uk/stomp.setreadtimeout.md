@@ -1,16 +1,11 @@
-Встановлює граничний час очікування операції читання
-
--   [« Stomp::send](stomp.send.md)
-    
--   [Stomp::subscribe »](stomp.subscribe.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Встановлює граничний час очікування операції читання
-    
-
+---
+navigation:
+  - stomp.send.md: '« Stomp::send'
+  - stomp.subscribe.md: 'Stomp::subscribe »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::setReadTimeout'
+---
 # Stomp::setReadTimeout
 
 # stompsetreadtimeout

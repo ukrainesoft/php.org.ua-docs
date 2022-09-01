@@ -1,16 +1,11 @@
-Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
-
--   [« Phar::getPath](phar.getpath.html)
-    
--   [Phar::getStub »](phar.getstub.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
-    
-
+---
+navigation:
+  - phar.getpath.html: '« Phar::getPath'
+  - phar.getstub.html: 'Phar::getStub »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getSignature'
+---
 # Phar::getSignature
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

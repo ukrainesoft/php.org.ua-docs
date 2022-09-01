@@ -1,16 +1,11 @@
-Створює новий екземпляр RRDCreator
-
--   [« RRDCreator::addDataSource](rrdcreator.adddatasource.md)
-    
--   [RRDCreator::save »](rrdcreator.save.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRDCreator](class.rrdcreator.md)
-    
--   Створює новий екземпляр RRDCreator
-    
-
+---
+navigation:
+  - rrdcreator.adddatasource.md: '« RRDCreator::addDataSource'
+  - rrdcreator.save.md: 'RRDCreator::save »'
+  - index.md: PHP Manual
+  - class.rrdcreator.md: RRDCreator
+title: 'RRDCreator::construct'
+---
 # RRDCreator::construct
 
 (PECL rrd >= 0.9.0)

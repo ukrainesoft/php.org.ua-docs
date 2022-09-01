@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](password.requirements.html)
-    
--   [Налаштування під час виконання »](password.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](password.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - password.requirements.html: « Вимоги
+  - password.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - password.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для використання цих функцій не потрібне проведення установки, оскільки вони є частиною ядра PHP.

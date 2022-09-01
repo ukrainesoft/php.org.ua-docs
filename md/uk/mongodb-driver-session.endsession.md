@@ -1,16 +1,11 @@
-Завершує сеанс
-
--   [« MongoDBDriverSession::construct](mongodb-driver-session.construct.html)
-    
--   [MongoDBDriverSession::getClusterTime »](mongodb-driver-session.getclustertime.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Завершує сеанс
-    
-
+---
+navigation:
+  - mongodb-driver-session.construct.html: '« MongoDBDriverSession::construct'
+  - mongodb-driver-session.getclustertime.html: 'MongoDBDriverSession::getClusterTime »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::endSession'
+---
 # MongoDBDriverSession::endSession
 
 (mongodb >=1.5.0)

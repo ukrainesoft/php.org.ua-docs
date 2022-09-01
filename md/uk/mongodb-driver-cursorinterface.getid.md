@@ -1,16 +1,11 @@
-Повертає ідентифікатор курсору
-
--   [« MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
-    
--   [MongoDBDriverCursorInterface::getServer »](mongodb-driver-cursorinterface.getserver.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
-    
--   Повертає ідентифікатор курсору
-    
-
+---
+navigation:
+  - class.mongodb-driver-cursorinterface.html: « MongoDBDriverCursorInterface
+  - mongodb-driver-cursorinterface.getserver.html: 'MongoDBDriverCursorInterface::getServer »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+title: 'MongoDBDriverCursorInterface::getId'
+---
 # MongoDBDriverCursorInterface::getId
 
 (mongodb >=1.6.0)

@@ -1,16 +1,11 @@
-Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
-
--   [« RRDGraph::save](rrdgraph.save.md)
-    
--   [RRDGraph::setOptions »](rrdgraph.setoptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRDGraph](class.rrdgraph.md)
-    
--   Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
-    
-
+---
+navigation:
+  - rrdgraph.save.md: '« RRDGraph::save'
+  - rrdgraph.setoptions.md: 'RRDGraph::setOptions »'
+  - index.md: PHP Manual
+  - class.rrdgraph.md: RRDGraph
+title: 'RRDGraph::saveVerbose'
+---
 # RRDGraph::saveVerbose
 
 (PECL rrd >= 0.9.0)

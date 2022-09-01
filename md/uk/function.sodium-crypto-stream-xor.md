@@ -1,16 +1,11 @@
-Шифрує повідомлення без автентифікації
-
--   [« sodiumcryptostreamxchacha20](function.sodium-crypto-stream-xchacha20.html)
-    
--   [sodiumcryptostream »](function.sodium-crypto-stream.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Шифрує повідомлення без автентифікації
-    
-
+---
+navigation:
+  - function.sodium-crypto-stream-xchacha20.html: « sodiumcryptostreamxchacha20
+  - function.sodium-crypto-stream.html: sodiumcryptostream »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptostreamxor
+---
 # sodiumcryptostreamxor
 
 (PHP 7> = 7.2.0, PHP 8)

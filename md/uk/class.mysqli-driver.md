@@ -1,16 +1,11 @@
-Клас mysqlidriver
-
--   [« mysqliresult::$numrows](mysqli-result.num-rows.html)
-    
--   [mysqlidriver::embeddedserverend »](mysqli-driver.embedded-server-end.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQLi](book.mysqli.html)
-    
--   Клас mysqlidriver
-    
-
+---
+navigation:
+  - mysqli-result.num-rows.html: '« mysqliresult::$numrows'
+  - mysqli-driver.embedded-server-end.html: 'mysqlidriver::embeddedserverend »'
+  - index.html: PHP Manual
+  - book.mysqli.html: MySQLi
+title: Клас mysqlidriver
+---
 # Клас mysqlidriver
 
 (PHP 5, PHP 7, PHP 8)

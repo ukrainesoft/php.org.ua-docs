@@ -1,16 +1,11 @@
-Відкриває зображення з файлу
-
--   [«psopenfile](function.ps-open-file.html)
-    
--   [псopenimage »](function.ps-open-image.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Відкриває зображення з файлу
-    
-
+---
+navigation:
+  - function.ps-open-file.html: «psopenfile
+  - function.ps-open-image.html: псopenimage »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псopenimagefile
+---
 # псopenimagefile
 
 (PECL ps >= 1.1.0)

@@ -1,16 +1,11 @@
-Основи використання модуля
-
--   [« Приклади](intl.examples.md)
-    
--   [Collator »](class.collator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](intl.examples.md)
-    
--   Основи використання модуля
-    
-
+---
+navigation:
+  - intl.examples.md: « Приклади
+  - class.collator.md: Collator »
+  - index.md: PHP Manual
+  - intl.examples.md: Приклади
+title: Основи використання модуля
+---
 ## Основи використання модуля
 
 Кожен модуль надає два типи API: процедурний та об'єктно-орієнтований. Вони ідентичні та описуються у відповідних розділах керівництва.

@@ -1,16 +1,11 @@
-Обробка змінних
-
--   [« ReflectionException](class.reflectionexception.md)
-    
--   [Введение »](intro.var.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
-    
--   Обробка змінних
-    
-
+---
+navigation:
+  - class.reflectionexception.md: « ReflectionException
+  - intro.var.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'
+title: Обробка змінних
+---
 # Обробка змінних
 
 -   [Введение](intro.var.md)

@@ -1,16 +1,11 @@
-Реєструє плагін
-
--   [« YafDispatcher::initView](yaf-dispatcher.initview.html)
-    
--   [YafDispatcher::returnResponse »](yaf-dispatcher.returnresponse.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Реєструє плагін
-    
-
+---
+navigation:
+  - yaf-dispatcher.initview.html: '« YafDispatcher::initView'
+  - yaf-dispatcher.returnresponse.html: 'YafDispatcher::returnResponse »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::registerPlugin'
+---
 # YafDispatcher::registerPlugin
 
 (Yaf >=1.0.0)

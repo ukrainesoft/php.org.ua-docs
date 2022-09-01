@@ -1,16 +1,11 @@
-Повертає масив трейтів, що використовуються у цьому класі
-
--   [« ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md)
-    
--   [ReflectionClass::hasConstant »](reflectionclass.hasconstant.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає масив трейтів, що використовуються у цьому класі
-    
-
+---
+navigation:
+  - reflectionclass.gettraitnames.md: '« ReflectionClass::getTraitNames'
+  - reflectionclass.hasconstant.md: 'ReflectionClass::hasConstant »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getTraits'
+---
 # ReflectionClass::getTraits
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Визначає, чи є запит AJAX-запитом
-
--   [« YafRequestSimple::getRequest](yaf-request-simple.getrequest.html)
-    
--   [YafResponseAbstract »](class.yaf-response-abstract.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestSimple](class.yaf-request-simple.html)
-    
--   Визначає, чи є запит AJAX-запитом
-    
-
+---
+navigation:
+  - yaf-request-simple.getrequest.html: '« YafRequestSimple::getRequest'
+  - class.yaf-response-abstract.html: YafResponseAbstract »
+  - index.html: PHP Manual
+  - class.yaf-request-simple.html: YafRequestSimple
+title: 'YafRequestSimple::isXmlHttpRequest'
+---
 # YafRequestSimple::isXmlHttpRequest
 
 (Yaf >=1.0.0)

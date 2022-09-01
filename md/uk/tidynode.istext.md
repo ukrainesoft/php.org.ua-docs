@@ -1,16 +1,11 @@
-Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)
-
--   [« tidyNode::isPhp](tidynode.isphp.html)
-    
--   [Tidy »](ref.tidy.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidyNode](class.tidynode.html)
-    
--   Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)
-    
-
+---
+navigation:
+  - tidynode.isphp.html: '« tidyNode::isPhp'
+  - ref.tidy.html: Tidy »
+  - index.html: PHP Manual
+  - class.tidynode.html: tidyNode
+title: 'tidyNode::isText'
+---
 # tidyNode::isText
 
 (PHP 5, PHP 7, PHP 8)

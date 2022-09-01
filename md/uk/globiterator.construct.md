@@ -1,16 +1,11 @@
-Створює ітератор директорії, використовуючи glob-вираз
-
--   [« GlobIterator](class.globiterator.md)
-    
--   [GlobIterator::count »](globiterator.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [GlobIterator](class.globiterator.md)
-    
--   Створює ітератор директорії, використовуючи glob-вираз
-    
-
+---
+navigation:
+  - class.globiterator.md: « GlobIterator
+  - globiterator.count.md: 'GlobIterator::count »'
+  - index.md: PHP Manual
+  - class.globiterator.md: GlobIterator
+title: 'GlobIterator::construct'
+---
 # GlobIterator::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ public **GlobIterator::construct**(string `$pattern`, int `$flags` = FilesystemI
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. Раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. Раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 

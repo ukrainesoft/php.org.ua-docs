@@ -1,16 +1,11 @@
-Призупинити вказаний контекст
-
--   [« openalcontextprocess](function.openal-context-process.html)
-    
--   [openaldeviceclose »](function.openal-device-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Призупинити вказаний контекст
-    
-
+---
+navigation:
+  - function.openal-context-process.html: « openalcontextprocess
+  - function.openal-device-close.html: openaldeviceclose »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalcontextsuspend
+---
 # openalcontextsuspend
 
 (PECL openal >= 0.1.0)

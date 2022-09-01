@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](url.configuration.html)
-    
--   [Обумовлені константи »](url.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](url.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - url.configuration.html: « Налаштування під час виконання
+  - url.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - url.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

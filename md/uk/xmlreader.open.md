@@ -1,16 +1,11 @@
-Встановити URI, що містить XML-документ для аналізу
-
--   [« XMLReader::next](xmlreader.next.md)
-    
--   [XMLReader::read »](xmlreader.read.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Встановити URI, що містить XML-документ для аналізу
-    
-
+---
+navigation:
+  - xmlreader.next.md: '« XMLReader::next'
+  - xmlreader.read.md: 'XMLReader::read »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::open'
+---
 # XMLReader::open
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ URI, що вказує на документ.
 
 ### список змін
 
-| Версия | Описание                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------|
-|        | **XMLReader::open()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.md) |
+| Версия | Описание |
+| --- | --- |
+|  | **XMLReader::open()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.md) |
 
 ### Дивіться також
 

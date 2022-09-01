@@ -1,16 +1,11 @@
-Додає поле сортування групи (параметр group.sort)
-
--   [« SolrQuery::addGroupQuery](solrquery.addgroupquery.html)
-    
--   [SolrQuery::addHighlightField »](solrquery.addhighlightfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Додає поле сортування групи (параметр group.sort)
-    
-
+---
+navigation:
+  - solrquery.addgroupquery.html: '« SolrQuery::addGroupQuery'
+  - solrquery.addhighlightfield.html: 'SolrQuery::addHighlightField »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::addGroupSortField'
+---
 # SolrQuery::addGroupSortField
 
 (PECL solr> = 2.2.0)

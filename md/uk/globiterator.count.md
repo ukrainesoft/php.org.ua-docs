@@ -1,16 +1,11 @@
-Визначає кількість директорій та файлів
-
--   [« GlobIterator::construct](globiterator.construct.html)
-    
--   [InfiniteIterator »](class.infiniteiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [GlobIterator](class.globiterator.html)
-    
--   Визначає кількість директорій та файлів
-    
-
+---
+navigation:
+  - globiterator.construct.html: '« GlobIterator::construct'
+  - class.infiniteiterator.html: InfiniteIterator »
+  - index.html: PHP Manual
+  - class.globiterator.html: GlobIterator
+title: 'GlobIterator::count'
+---
 # GlobIterator::count
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

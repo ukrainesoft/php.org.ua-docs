@@ -1,16 +1,11 @@
-Повертає інформацію про базу GeoIP
-
--   [« geoipcountrynameбname](function.geoip-country-name-by-name.html)
-    
--   [geoipдбavail »](function.geoip-db-avail.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Повертає інформацію про базу GeoIP
-    
-
+---
+navigation:
+  - function.geoip-country-name-by-name.html: « geoipcountrynameбname
+  - function.geoip-db-avail.html: geoipдбavail »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipdatabaseinfo
+---
 # geoipdatabaseinfo
 
 (PECL geoip >= 0.2.0)

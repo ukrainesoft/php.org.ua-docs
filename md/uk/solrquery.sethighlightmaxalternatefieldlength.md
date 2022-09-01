@@ -1,16 +1,11 @@
-Встановлює максимальну кількість символів поля для повернення
-
--   [« SolrQuery::setHighlightHighlightMultiTerm](solrquery.sethighlighthighlightmultiterm.html)
-    
--   [SolrQuery::setHighlightMaxAnalyzedChars »](solrquery.sethighlightmaxanalyzedchars.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює максимальну кількість символів поля для повернення
-    
-
+---
+navigation:
+  - solrquery.sethighlighthighlightmultiterm.html: '« SolrQuery::setHighlightHighlightMultiTerm'
+  - solrquery.sethighlightmaxanalyzedchars.html: 'SolrQuery::setHighlightMaxAnalyzedChars »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setHighlightMaxAlternateFieldLength'
+---
 # SolrQuery::setHighlightMaxAlternateFieldLength
 
 (PECL solr> = 0.9.2)

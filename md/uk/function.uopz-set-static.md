@@ -1,16 +1,11 @@
-Встановлює статичні змінні у сфері видимості функції чи методу
-
--   [« uopzsetreturn](function.uopz-set-return.html)
-    
--   [uopzundefine »](function.uopz-undefine.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Встановлює статичні змінні у сфері видимості функції чи методу
-    
-
+---
+navigation:
+  - function.uopz-set-return.html: « uopzsetreturn
+  - function.uopz-undefine.html: uopzundefine »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzsetstatic
+---
 # uopzsetstatic
 
 (PECL uopz 5, PECL uopz, PECL uopz 7)

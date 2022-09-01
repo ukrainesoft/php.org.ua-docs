@@ -1,16 +1,11 @@
-Надає кожному з'єднанню випадкову вагу між minweight та maxweight
-
--   [« fannprinterror](function.fann-print-error.html)
-    
--   [fannreadtrainfromfile »](function.fann-read-train-from-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Надає кожному з'єднанню випадкову вагу між minweight та maxweight
-    
-
+---
+navigation:
+  - function.fann-print-error.html: « fannprinterror
+  - function.fann-read-train-from-file.html: fannreadtrainfromfile »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannrandomizeweights
+---
 # fannrandomizeweights
 
 (PECL fann> = 1.0.0)

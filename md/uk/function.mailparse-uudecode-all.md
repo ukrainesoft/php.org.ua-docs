@@ -1,16 +1,11 @@
-Сканує дані із вказаного файлу та витягує всі вкладені файли, кодовані в uuencode
-
--   [« mailparsestreamencode](function.mailparse-stream-encode.html)
-    
--   [Математичні модулі »](refs.math.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Сканує дані із вказаного файлу та витягує всі вкладені файли, кодовані в uuencode
-    
-
+---
+navigation:
+  - function.mailparse-stream-encode.html: « mailparsestreamencode
+  - refs.math.md: Математичні модулі »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparseuudecodeall
+---
 # mailparseuudecodeall
 
 (PECL mailparse >= 0.9.0)

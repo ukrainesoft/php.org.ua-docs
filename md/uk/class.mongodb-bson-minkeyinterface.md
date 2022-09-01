@@ -1,16 +1,11 @@
-Інтерфейс MongoDBBSONMinKeyInterface
-
--   [« MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.html)
-    
--   [MongoDBBSONObjectIdInterface »](class.mongodb-bson-objectidinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSON](book.bson.md)
-    
--   Інтерфейс MongoDBBSONMinKeyInterface
-    
-
+---
+navigation:
+  - class.mongodb-bson-maxkeyinterface.html: « MongoDBBSONMaxKeyInterface
+  - class.mongodb-bson-objectidinterface.html: MongoDBBSONObjectIdInterface »
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
+title: Інтерфейс MongoDBBSONMinKeyInterface
+---
 # Інтерфейс MongoDBBSONMinKeyInterface
 
 (mongodb >=1.3.0)

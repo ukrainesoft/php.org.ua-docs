@@ -1,16 +1,11 @@
-Returns the topology ID associated with this server
-
--   [« MongoDBDriverMonitoringServerOpeningEvent::getPort](mongodb-driver-monitoring-serveropeningevent.getport.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent »](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
-    
--   Returns the topology ID associated with this server
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serveropeningevent.getport.html: '« MongoDBDriverMonitoringServerOpeningEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.html: MongoDBDriverMonitoringServerHeartbeatFailedEvent »
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serveropeningevent.html: MongoDBDriverMonitoringServerOpeningEvent
+title: 'MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
+---
 # MongoDBDriverMonitoringServerOpeningEvent::getTopologyId
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Отримує ім'я діючого маршруту
-
--   [« YafRouter::construct](yaf-router.construct.html)
-    
--   [YafRouter::getRoute »](yaf-router.getroute.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafRouter](class.yaf-router.html)
-    
--   Отримує ім'я діючого маршруту
-    
-
+---
+navigation:
+  - yaf-router.construct.html: '« YafRouter::construct'
+  - yaf-router.getroute.html: 'YafRouter::getRoute »'
+  - index.md: PHP Manual
+  - class.yaf-router.html: YafRouter
+title: 'YafRouter::getCurrentRoute'
+---
 # YafRouter::getCurrentRoute
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Змінні
-
--   [Маніпуляції з типами](language.types.type-juggling.html)
-    
--   [Основи »](language.variables.basics.html)
-    
--   [PHP Manual](index.html)
-    
--   [Довідник мови](langref.html)
-    
--   Змінні
-    
-
+---
+navigation:
+  - language.types.type-juggling.html: Маніпуляції з типами
+  - language.variables.basics.html: Основи »
+  - index.html: PHP Manual
+  - langref.html: Довідник мови
+title: Змінні
+---
 # Змінні
 
 ## Зміст

@@ -1,16 +1,11 @@
-Повертає дані, що асоціюються з поточним об'єктом
-
--   [« SplObjectStorage::getHash](splobjectstorage.gethash.md)
-    
--   [SplObjectStorage::key »](splobjectstorage.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Повертає дані, що асоціюються з поточним об'єктом
-    
-
+---
+navigation:
+  - splobjectstorage.gethash.md: '« SplObjectStorage::getHash'
+  - splobjectstorage.key.md: 'SplObjectStorage::key »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::getInfo'
+---
 # SplObjectStorage::getInfo
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

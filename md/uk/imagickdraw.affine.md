@@ -1,16 +1,11 @@
-Регулює поточну матрицю афінного перетворення
-
--   [« ImagickDraw](class.imagickdraw.md)
-    
--   [ImagickDraw::annotation »](imagickdraw.annotation.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Регулює поточну матрицю афінного перетворення
-    
-
+---
+navigation:
+  - class.imagickdraw.md: « ImagickDraw
+  - imagickdraw.annotation.md: 'ImagickDraw::annotation »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::affine'
+---
 # ImagickDraw::affine
 
 (PECL imagick 2, PECL imagick 3)

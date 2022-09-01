@@ -1,16 +1,11 @@
-Закручує пікселі навколо центру зображення
-
--   [« Imagick::subImageMatch](imagick.subimagematch.html)
-    
--   [Imagick::textureImage »](imagick.textureimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Закручує пікселі навколо центру зображення
-    
-
+---
+navigation:
+  - imagick.subimagematch.html: '« Imagick::subImageMatch'
+  - imagick.textureimage.html: 'Imagick::textureImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::swirlImage'
+---
 # Imagick::swirlImage
 
 (PECL imagick 2, PECL imagick 3)

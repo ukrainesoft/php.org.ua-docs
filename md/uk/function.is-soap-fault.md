@@ -1,16 +1,11 @@
-Перевіряє, чи сталася помилка під час виклику SOAP
-
--   [« Функции SOAP](ref.soap.md)
-    
--   [usesoaperrorhandler »](function.use-soap-error-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции SOAP](ref.soap.md)
-    
--   Перевіряє, чи сталася помилка під час виклику SOAP
-    
-
+---
+navigation:
+  - ref.soap.md: « Функции SOAP
+  - function.use-soap-error-handler.html: usesoaperrorhandler »
+  - index.md: PHP Manual
+  - ref.soap.md: Функции SOAP
+title: ісsoapfault
+---
 # ісsoapfault
 
 (PHP 5, PHP 7, PHP 8)

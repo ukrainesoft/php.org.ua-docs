@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Налаштування під час виконання](quickhash.configuration.md)
-    
--   [Приклади »](quickhash.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Quickhash](book.quickhash.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - quickhash.configuration.md: « Налаштування під час виконання
+  - quickhash.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.quickhash.md: Quickhash
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

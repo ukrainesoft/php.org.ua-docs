@@ -1,16 +1,11 @@
-Створює IntlCalendar з об'єкта або рядка DateTime
-
--   [« IntlCalendar::fieldDifference](intlcalendar.fielddifference.md)
-    
--   [IntlCalendar::get »](intlcalendar.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Створює IntlCalendar з об'єкта або рядка DateTime
-    
-
+---
+navigation:
+  - intlcalendar.fielddifference.md: '« IntlCalendar::fieldDifference'
+  - intlcalendar.get.md: 'IntlCalendar::get »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::fromDateTime'
+---
 # IntlCalendar::fromDateTime
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a2)

@@ -1,16 +1,11 @@
-Повертає ідентифікатор операції команди
-
--   [« MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros](mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent::getReply »](mongodb-driver-monitoring-commandsucceededevent.getreply.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
-    
--   Повертає ідентифікатор операції команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
+  - mongodb-driver-monitoring-commandsucceededevent.getreply.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getReply »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId'
+---
 # MongoDBDriverMonitoringCommandSucceededEvent::getOperationId
 
 (mongodb >=1.3.0)

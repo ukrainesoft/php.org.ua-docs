@@ -1,16 +1,11 @@
-Адаптивна ковзна середня Кауфмана
-
--   [« traderхтtrendmode](function.trader-ht-trendmode.html)
-    
--   [traderlinearregangle »](function.trader-linearreg-angle.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Адаптивна ковзна середня Кауфмана
-    
-
+---
+navigation:
+  - function.trader-ht-trendmode.html: « traderхтtrendmode
+  - function.trader-linearreg-angle.html: traderlinearregangle »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderkama
+---
 # traderkama
 
 (PECL trader >= 0.2.0)

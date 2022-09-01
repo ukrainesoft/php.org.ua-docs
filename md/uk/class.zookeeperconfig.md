@@ -1,16 +1,11 @@
-Клас ZookeeperConfig
-
--   [« Zookeeper::setWatcher](zookeeper.setwatcher.html)
-    
--   [ZookeeperConfig::add »](zookeeperconfig.add.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZooKeeper](book.zookeeper.html)
-    
--   Клас ZookeeperConfig
-    
-
+---
+navigation:
+  - zookeeper.setwatcher.html: '« Zookeeper::setWatcher'
+  - zookeeperconfig.add.html: 'ZookeeperConfig::add »'
+  - index.html: PHP Manual
+  - book.zookeeper.html: ZooKeeper
+title: Клас ZookeeperConfig
+---
 # Клас ZookeeperConfig
 
 (PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)

@@ -1,16 +1,11 @@
-Реєструє передплату на вказану розсилку
-
--   [« Stomp::setReadTimeout](stomp.setreadtimeout.md)
-    
--   [Stomp::unsubscribe »](stomp.unsubscribe.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Реєструє передплату на вказану розсилку
-    
-
+---
+navigation:
+  - stomp.setreadtimeout.md: '« Stomp::setReadTimeout'
+  - stomp.unsubscribe.md: 'Stomp::unsubscribe »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::subscribe'
+---
 # Stomp::subscribe
 
 # stompsubscribe

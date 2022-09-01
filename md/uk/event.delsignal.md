@@ -1,16 +1,11 @@
-Псевдонім Event::del
-
--   [« Event::del](event.del.md)
-    
--   [Event::delTimer »](event.deltimer.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Псевдонім Event::del
-    
-
+---
+navigation:
+  - event.del.md: '« Event::del'
+  - event.deltimer.md: 'Event::delTimer »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::delSignal'
+---
 # Event::delSignal
 
 (PECL event >= 1.2.6-beta)

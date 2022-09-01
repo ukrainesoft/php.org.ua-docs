@@ -1,16 +1,11 @@
-Повертає ID процесу поточного підключення
-
--   [« mysqli::storeresult](mysqli.store-result.html)
-    
--   [mysqli::threadsafe »](mysqli.thread-safe.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає ID процесу поточного підключення
-    
-
+---
+navigation:
+  - mysqli.store-result.html: '« mysqli::storeresult'
+  - mysqli.thread-safe.html: 'mysqli::threadsafe »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$threadід'
+---
 # mysqli::$threadід
 
 # mysqlithreadід

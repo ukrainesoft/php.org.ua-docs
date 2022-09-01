@@ -1,16 +1,11 @@
-Щільність ймовірності бета-розподілу
-
--   [« statscovariance](function.stats-covariance.html)
-    
--   [statsdenscauchy »](function.stats-dens-cauchy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Щільність ймовірності бета-розподілу
-    
-
+---
+navigation:
+  - function.stats-covariance.html: « statscovariance
+  - function.stats-dens-cauchy.html: statsdenscauchy »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsdensbeta
+---
 # statsdensbeta
 
 (PECL stats >= 1.0.0)

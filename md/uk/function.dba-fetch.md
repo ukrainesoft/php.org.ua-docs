@@ -1,16 +1,11 @@
-Витягує дані за вказаним ключем
-
--   [« dbaexists](function.dba-exists.html)
-    
--   [dbafirstkey »](function.dba-firstkey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Витягує дані за вказаним ключем
-    
-
+---
+navigation:
+  - function.dba-exists.html: « dbaexists
+  - function.dba-firstkey.html: dbafirstkey »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbafetch
+---
 # dbafetch
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

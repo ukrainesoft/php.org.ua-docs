@@ -1,16 +1,11 @@
-Зручний метод налаштування розміру кадрування та геометрії зображення
-
--   [« Imagick::toString](imagick.tostring.html)
-    
--   [Imagick::transformImageColorspace »](imagick.transformimagecolorspace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Зручний метод налаштування розміру кадрування та геометрії зображення
-    
-
+---
+navigation:
+  - imagick.tostring.html: '« Imagick::toString'
+  - imagick.transformimagecolorspace.html: 'Imagick::transformImageColorspace »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::transformImage'
+---
 # Imagick::transformImage
 
 (PECL imagick 2, PECL imagick 3)

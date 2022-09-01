@@ -1,16 +1,11 @@
-Розподіл чисел
-
--   [« gmpcom](function.gmp-com.html)
-    
--   [gmpdivqr »](function.gmp-div-qr.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Розподіл чисел
-    
-
+---
+navigation:
+  - function.gmp-com.html: « gmpcom
+  - function.gmp-div-qr.html: gmpdivqr »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpdivдо
+---
 # gmpdivдо
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

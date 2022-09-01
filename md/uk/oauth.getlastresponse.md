@@ -1,16 +1,11 @@
-Отримати останню відповідь
-
--   [« OAuth::getCAPath](oauth.getcapath.html)
-    
--   [OAuth::getLastResponseHeaders »](oauth.getlastresponseheaders.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](class.oauth.html)
-    
--   Отримати останню відповідь
-    
-
+---
+navigation:
+  - oauth.getcapath.html: '« OAuth::getCAPath'
+  - oauth.getlastresponseheaders.html: 'OAuth::getLastResponseHeaders »'
+  - index.html: PHP Manual
+  - class.oauth.html: OAuth
+title: 'OAuth::getLastResponse'
+---
 # OAuth::getLastResponse
 
 (PECL OAuth >= 0.99.1)

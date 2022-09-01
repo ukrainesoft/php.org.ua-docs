@@ -1,16 +1,11 @@
-Зіставлення з шаблоном Parle
-
--   [« Обумовлені константи](parle.constants.html)
-    
--   [Представления символов »](parle.regex.chars.html)
-    
--   [PHP Manual](index.html)
-    
--   [Parle](book.parle.html)
-    
--   Зіставлення з шаблоном Parle
-    
-
+---
+navigation:
+  - parle.constants.html: « Обумовлені константи
+  - parle.regex.chars.html: Представления символов »
+  - index.html: PHP Manual
+  - book.parle.html: Parle
+title: Зіставлення з шаблоном Parle
+---
 # Зіставлення з шаблоном Parle
 
 ## Зміст

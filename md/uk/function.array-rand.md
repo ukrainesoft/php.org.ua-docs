@@ -1,16 +1,11 @@
-Вибирає один або кілька випадкових ключів із масиву
-
--   [« arraypush](function.array-push.html)
-    
--   [arrayreduce »](function.array-reduce.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Вибирає один або кілька випадкових ключів із масиву
-    
-
+---
+navigation:
+  - function.array-push.html: « arraypush
+  - function.array-reduce.html: arrayreduce »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayrand
+---
 # arrayrand
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_rand(array $array, int $num = 1): int|string|array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) |
 
 ### Приклади
 

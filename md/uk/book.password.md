@@ -1,16 +1,11 @@
-Хешування паролів
-
--   [« OpenSSLAsymmetricKey](class.opensslasymmetrickey.html)
-    
--   [Введение »](intro.password.html)
-    
--   [PHP Manual](index.html)
-    
--   [Криптографічні модулі](refs.crypto.html)
-    
--   Хешування паролів
-    
-
+---
+navigation:
+  - class.opensslasymmetrickey.html: « OpenSSLAsymmetricKey
+  - intro.password.html: Введение »
+  - index.html: PHP Manual
+  - refs.crypto.html: Криптографічні модулі
+title: Хешування паролів
+---
 # Хешування паролів
 
 -   [Введение](intro.password.html)

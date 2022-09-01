@@ -1,16 +1,11 @@
-Отримує значення налаштування конфігурації
-
--   [« inigetall](function.ini-get-all.html)
-    
--   [inirestore »](function.ini-restore.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримує значення налаштування конфігурації
-    
-
+---
+navigation:
+  - function.ini-get-all.html: « inigetall
+  - function.ini-restore.html: inirestore »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: iniget
+---
 # iniget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

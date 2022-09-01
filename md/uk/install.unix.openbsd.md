@@ -1,16 +1,11 @@
-OpenBSD, зауваження щодо встановлення
-
--   [« Установка з інтерфейсами CGI та командного рядка](install.unix.commandline.md)
-    
--   [Інструкції з інсталяції для ОС Solaris »](install.unix.solaris.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення на Unix-системи](install.unix.md)
-    
--   OpenBSD, зауваження щодо встановлення
-    
-
+---
+navigation:
+  - install.unix.commandline.md: « Установка з інтерфейсами CGI та командного рядка
+  - install.unix.solaris.md: Інструкції з інсталяції для ОС Solaris »
+  - index.md: PHP Manual
+  - install.unix.md: Встановлення на Unix-системи
+title: 'OpenBSD, зауваження щодо встановлення'
+---
 ## OpenBSD, зауваження щодо встановлення
 
 Ця секція містить зауваження та поради щодо встановлення PHP на [» OpenBSD 5.8](http://www.openbsd.org/)

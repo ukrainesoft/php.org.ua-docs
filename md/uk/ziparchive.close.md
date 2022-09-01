@@ -1,16 +1,11 @@
-Закриває активний архів (відкритий або новостворений)
-
--   [« ZipArchive::clearError](ziparchive.clearerror.md)
-    
--   [ZipArchive::count »](ziparchive.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Закриває активний архів (відкритий або новостворений)
-    
-
+---
+navigation:
+  - ziparchive.clearerror.md: '« ZipArchive::clearError'
+  - ziparchive.count.md: 'ZipArchive::count »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::close'
+---
 # ZipArchive::close
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)

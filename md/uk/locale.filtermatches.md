@@ -1,16 +1,11 @@
-Перевірити, чи тег фільтра мови локалі відповідає
-
--   [« Locale::composeLocale](locale.composelocale.md)
-    
--   [Locale::getAllVariants »](locale.getallvariants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Перевірити, чи тег фільтра мови локалі відповідає
-    
-
+---
+navigation:
+  - locale.composelocale.md: '« Locale::composeLocale'
+  - locale.getallvariants.md: 'Locale::getAllVariants »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::filterMatches'
+---
 # Locale::filterMatches
 
 # localefiltermatches

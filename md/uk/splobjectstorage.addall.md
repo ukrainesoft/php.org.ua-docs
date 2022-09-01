@@ -1,16 +1,11 @@
-Додає всі об'єкти з іншого контейнера
-
--   [« SplObjectStorage](class.splobjectstorage.md)
-    
--   [SplObjectStorage::attach »](splobjectstorage.attach.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Додає всі об'єкти з іншого контейнера
-    
-
+---
+navigation:
+  - class.splobjectstorage.md: « SplObjectStorage
+  - splobjectstorage.attach.md: 'SplObjectStorage::attach »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::addAll'
+---
 # SplObjectStorage::addAll
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

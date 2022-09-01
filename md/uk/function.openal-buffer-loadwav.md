@@ -1,16 +1,11 @@
-Завантажити файл у форматі wav у буфер
-
--   [« openalbufferget](function.openal-buffer-get.html)
-    
--   [openalcontextcreate »](function.openal-context-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Завантажити файл у форматі wav у буфер
-    
-
+---
+navigation:
+  - function.openal-buffer-get.html: « openalbufferget
+  - function.openal-context-create.html: openalcontextcreate »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalbufferloadwav
+---
 # openalbufferloadwav
 
 (PECL openal >= 0.1.0)

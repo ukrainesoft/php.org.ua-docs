@@ -1,16 +1,11 @@
-Отримує зареєстровані ітератори
-
--   [« MultipleIterator::getFlags](multipleiterator.getflags.md)
-    
--   [MultipleIterator::next »](multipleiterator.next.md)
-    
--   [PHP Manual](index.md)
-    
--   [MultipleIterator](class.multipleiterator.md)
-    
--   Отримує зареєстровані ітератори
-    
-
+---
+navigation:
+  - multipleiterator.getflags.md: '« MultipleIterator::getFlags'
+  - multipleiterator.next.md: 'MultipleIterator::next »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
+title: 'MultipleIterator::key'
+---
 # MultipleIterator::key
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ public MultipleIterator::key(): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидається виняток [RuntimeException](class.runtimeexception.md), якщо **MultipleIterator::key()** викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидається виняток [RuntimeException](class.runtimeexception.md), якщо **MultipleIterator::key()** викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 

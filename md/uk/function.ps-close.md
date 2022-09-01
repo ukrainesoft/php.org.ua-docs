@@ -1,16 +1,11 @@
-Закриває документ PostScript
-
--   [«pscloseimage](function.ps-close-image.html)
-    
--   [псclosepathstroke »](function.ps-closepath-stroke.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Закриває документ PostScript
-    
-
+---
+navigation:
+  - function.ps-close-image.html: «pscloseimage
+  - function.ps-closepath-stroke.html: псclosepathstroke »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псclose
+---
 # псclose
 
 (PECL ps >= 1.1.0)

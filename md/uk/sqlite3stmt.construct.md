@@ -1,16 +1,11 @@
-Конструктор класу SQLite3Stmt
-
--   [« SQLite3Stmt::close](sqlite3stmt.close.md)
-    
--   [SQLite3Stmt::execute »](sqlite3stmt.execute.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Stmt](class.sqlite3stmt.md)
-    
--   Конструктор класу SQLite3Stmt
-    
-
+---
+navigation:
+  - sqlite3stmt.close.md: '« SQLite3Stmt::close'
+  - sqlite3stmt.execute.md: 'SQLite3Stmt::execute »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::construct'
+---
 # SQLite3Stmt::construct
 
 (No version information available, might only be in Git)

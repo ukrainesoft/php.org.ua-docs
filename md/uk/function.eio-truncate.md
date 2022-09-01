@@ -1,16 +1,11 @@
-Урізує розмір файлу
-
--   [« eiosyncfs](function.eio-syncfs.html)
-    
--   [eiounlink »](function.eio-unlink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Урізує розмір файлу
-    
-
+---
+navigation:
+  - function.eio-syncfs.html: « eiosyncfs
+  - function.eio-unlink.html: eiounlink »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiotruncate
+---
 # eiotruncate
 
 (PECL eio >= 0.0.1dev)

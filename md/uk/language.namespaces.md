@@ -1,16 +1,11 @@
-Простори імен
-
--   [« Журнал изменений ООП](language.oop5.changelog.html)
-    
--   [Огляд просторів імен »](language.namespaces.rationale.html)
-    
--   [PHP Manual](index.html)
-    
--   [Довідник мови](langref.html)
-    
--   Простори імен
-    
-
+---
+navigation:
+  - language.oop5.changelog.html: « Журнал изменений ООП
+  - language.namespaces.rationale.html: Огляд просторів імен »
+  - index.html: PHP Manual
+  - langref.html: Довідник мови
+title: Простори імен
+---
 # Простори імен
 
 ## Зміст

@@ -1,16 +1,11 @@
-Отримує схему стиснення зображення
-
--   [« Imagick::getImageWidth](imagick.getimagewidth.html)
-    
--   [Imagick::getIteratorIndex »](imagick.getiteratorindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Отримує схему стиснення зображення
-    
-
+---
+navigation:
+  - imagick.getimagewidth.html: '« Imagick::getImageWidth'
+  - imagick.getiteratorindex.html: 'Imagick::getIteratorIndex »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getInterlaceScheme'
+---
 # Imagick::getInterlaceScheme
 
 (PECL imagick 2, PECL imagick 3)

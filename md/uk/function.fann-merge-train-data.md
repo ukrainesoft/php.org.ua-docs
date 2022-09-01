@@ -1,16 +1,11 @@
-Об'єднує навчальні дані
-
--   [« fannlengthtraindata](function.fann-length-train-data.html)
-    
--   [fannnuminputtraindata »](function.fann-num-input-train-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Об'єднує навчальні дані
-    
-
+---
+navigation:
+  - function.fann-length-train-data.html: « fannlengthtraindata
+  - function.fann-num-input-train-data.html: fannnuminputtraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannmergetraindata
+---
 # fannmergetraindata
 
 (PECL fann> = 1.0.0)

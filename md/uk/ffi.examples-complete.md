@@ -1,16 +1,11 @@
-Комплексний приклад PHP/FFI/preloading
-
--   [« Callback-функции PHP](ffi.examples-callback.html)
-    
--   [FFI »](class.ffi.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](ffi.examples.md)
-    
--   Комплексний приклад PHP/FFI/preloading
-    
-
+---
+navigation:
+  - ffi.examples-callback.html: « Callback-функции PHP
+  - class.ffi.md: FFI »
+  - index.md: PHP Manual
+  - ffi.examples.md: Приклади
+title: Комплексний приклад PHP/FFI/preloading
+---
 ## Комплексний приклад PHP/FFI/preloading
 
 php.ini

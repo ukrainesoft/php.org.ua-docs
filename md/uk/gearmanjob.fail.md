@@ -1,16 +1,11 @@
-Надсилання статусу невдалої операції (застарілий метод)
-
--   [« GearmanJob::exception](gearmanjob.exception.md)
-    
--   [GearmanJob::functionName »](gearmanjob.functionname.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Надсилання статусу невдалої операції (застарілий метод)
-    
-
+---
+navigation:
+  - gearmanjob.exception.md: '« GearmanJob::exception'
+  - gearmanjob.functionname.md: 'GearmanJob::functionName »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::fail'
+---
 # GearmanJob::fail
 
 (PECL gearman <= 0.5.0)

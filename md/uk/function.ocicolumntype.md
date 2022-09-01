@@ -1,16 +1,11 @@
-Псевдонім ocifieldtype
-
--   [« ocicolumnsize](function.ocicolumnsize.md)
-    
--   [ocicolumntyperaw »](function.ocicolumntyperaw.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocifieldtype
-    
-
+---
+navigation:
+  - function.ocicolumnsize.md: « ocicolumnsize
+  - function.ocicolumntyperaw.md: ocicolumntyperaw »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocicolumntype
+---
 # ocicolumntype
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

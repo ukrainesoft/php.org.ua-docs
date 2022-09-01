@@ -1,16 +1,11 @@
-Повертає коди країни та регіону
-
--   [« geoiprecordбname](function.geoip-record-by-name.html)
-    
--   [geoipregionnameбcode »](function.geoip-region-name-by-code.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Повертає коди країни та регіону
-    
-
+---
+navigation:
+  - function.geoip-record-by-name.html: « geoiprecordбname
+  - function.geoip-region-name-by-code.html: geoipregionnameбcode »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipregionбname
+---
 # geoipregionбname
 
 (PECL geoip >= 0.2.0)

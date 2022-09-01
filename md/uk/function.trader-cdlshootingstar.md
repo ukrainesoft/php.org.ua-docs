@@ -1,16 +1,11 @@
-Падаюча зірка
-
--   [« tradercdlseparatinglines](function.trader-cdlseparatinglines.html)
-    
--   [tradercdlshortline »](function.trader-cdlshortline.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Падаюча зірка
-    
-
+---
+navigation:
+  - function.trader-cdlseparatinglines.html: « tradercdlseparatinglines
+  - function.trader-cdlshortline.html: tradercdlshortline »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlshootingstar
+---
 # tradercdlshootingstar
 
 (PECL trader >= 0.2.0)

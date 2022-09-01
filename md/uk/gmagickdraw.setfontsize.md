@@ -1,16 +1,11 @@
-Встановлює розмір шрифту для використання під час анотації тексту
-
--   [« GmagickDraw::setfont](gmagickdraw.setfont.md)
-    
--   [GmagickDraw::setfontstyle »](gmagickdraw.setfontstyle.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Встановлює розмір шрифту для використання під час анотації тексту
-    
-
+---
+navigation:
+  - gmagickdraw.setfont.md: '« GmagickDraw::setfont'
+  - gmagickdraw.setfontstyle.md: 'GmagickDraw::setfontstyle »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::setfontsize'
+---
 # GmagickDraw::setfontsize
 
 (PECL gmagick >= Unknown)

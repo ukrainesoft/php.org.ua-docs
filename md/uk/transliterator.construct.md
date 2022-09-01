@@ -1,16 +1,11 @@
-Приватний конструктор
-
--   [« Transliterator](class.transliterator.md)
-    
--   [Transliterator::create »](transliterator.create.md)
-    
--   [PHP Manual](index.md)
-    
--   [Transliterator](class.transliterator.md)
-    
--   Приватний конструктор
-    
-
+---
+navigation:
+  - class.transliterator.md: « Transliterator
+  - transliterator.create.md: 'Transliterator::create »'
+  - index.md: PHP Manual
+  - class.transliterator.md: Transliterator
+title: 'Transliterator::construct'
+---
 # Transliterator::construct
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)

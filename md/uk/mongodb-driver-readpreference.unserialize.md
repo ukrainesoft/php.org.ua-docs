@@ -1,16 +1,11 @@
-Десеріалізація ReadPreference
-
--   [« MongoDBDriverReadPreference::serialize](mongodb-driver-readpreference.serialize.html)
-    
--   [MongoDBDriverReadConcern »](class.mongodb-driver-readconcern.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Десеріалізація ReadPreference
-    
-
+---
+navigation:
+  - mongodb-driver-readpreference.serialize.html: '« MongoDBDriverReadPreference::serialize'
+  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern »
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::unserialize'
+---
 # MongoDBDriverReadPreference::unserialize
 
 (mongodb >=1.7.0)

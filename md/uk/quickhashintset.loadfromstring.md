@@ -1,16 +1,11 @@
-Фабричний метод створює набір з рядка
-
--   [« QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.md)
-    
--   [QuickHashIntSet::saveToFile »](quickhashintset.savetofile.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntSet](class.quickhashintset.md)
-    
--   Фабричний метод створює набір з рядка
-    
-
+---
+navigation:
+  - quickhashintset.loadfromfile.md: '« QuickHashIntSet::loadFromFile'
+  - quickhashintset.savetofile.md: 'QuickHashIntSet::saveToFile »'
+  - index.md: PHP Manual
+  - class.quickhashintset.md: QuickHashIntSet
+title: 'QuickHashIntSet::loadFromString'
+---
 # QuickHashIntSet::loadFromString
 
 (PECL quickhash >= Unknown)

@@ -1,16 +1,11 @@
-Закриває файловий покажчик процесу
-
--   [« pathinfo](function.pathinfo.md)
-    
--   [popen »](function.popen.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Закриває файловий покажчик процесу
-    
-
+---
+navigation:
+  - function.pathinfo.md: « pathinfo
+  - function.popen.md: popen »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: pclose
+---
 # pclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

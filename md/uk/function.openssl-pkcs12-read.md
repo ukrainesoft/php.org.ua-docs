@@ -1,16 +1,11 @@
-Розбирає сховище сертифікатів PKCS#12 масив
-
--   [« opensslpkcs12export](function.openssl-pkcs12-export.html)
-    
--   [opensslpkcs7decrypt »](function.openssl-pkcs7-decrypt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Розбирає сховище сертифікатів PKCS#12 масив
-    
-
+---
+navigation:
+  - function.openssl-pkcs12-export.html: « opensslpkcs12export
+  - function.openssl-pkcs7-decrypt.html: opensslpkcs7decrypt »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslpkcs12read
+---
 # opensslpkcs12read
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

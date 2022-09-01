@@ -1,16 +1,11 @@
-Малює криву
-
--   [«pscontinuetext](function.ps-continue-text.html)
-    
--   [псdelete »](function.ps-delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Малює криву
-    
-
+---
+navigation:
+  - function.ps-continue-text.html: «pscontinuetext
+  - function.ps-delete.html: псdelete »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псcurveto
+---
 # псcurveto
 
 (PECL ps >= 1.1.0)

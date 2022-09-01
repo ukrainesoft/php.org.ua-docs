@@ -1,16 +1,11 @@
-Сортує масив у порядку зменшення та підтримує асоціацію індексів
-
--   [« array](function.array.html)
-    
--   [asort »](function.asort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Сортує масив у порядку зменшення та підтримує асоціацію індексів
-    
-
+---
+navigation:
+  - function.array.html: « array
+  - function.asort.html: asort »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arsort
+---
 # arsort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

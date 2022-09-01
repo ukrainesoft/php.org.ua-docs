@@ -1,16 +1,11 @@
-Повертає масив, що містить довжини всіх стовпців поточного рядка
-
--   [« cubridfetchfield](function.cubrid-fetch-field.html)
-    
--   [cubridfetchobject »](function.cubrid-fetch-object.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-    
--   Повертає масив, що містить довжини всіх стовпців поточного рядка
-    
-
+---
+navigation:
+  - function.cubrid-fetch-field.html: « cubridfetchfield
+  - function.cubrid-fetch-object.html: cubridfetchobject »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
+title: cubridfetchlengths
+---
 # cubridfetchlengths
 
 (PECL CUBRID >= 8.3.0)

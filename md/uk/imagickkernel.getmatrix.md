@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickKernel::fromMatrix](imagickkernel.frommatrix.md)
-    
--   [ImagickKernel::scale »](imagickkernel.scale.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickKernel](class.imagickkernel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickkernel.frommatrix.md: '« ImagickKernel::fromMatrix'
+  - imagickkernel.scale.md: 'ImagickKernel::scale »'
+  - index.md: PHP Manual
+  - class.imagickkernel.md: ImagickKernel
+title: 'ImagickKernel::getMatrix'
+---
 # ImagickKernel::getMatrix
 
 (PECL imagick >= 3.3.0)

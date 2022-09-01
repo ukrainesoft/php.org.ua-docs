@@ -1,16 +1,11 @@
-Моментум
-
--   [« traderminusдм](function.trader-minus-dm.html)
-    
--   [tradermult »](function.trader-mult.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Моментум
-    
-
+---
+navigation:
+  - function.trader-minus-dm.html: « traderminusдм
+  - function.trader-mult.html: tradermult »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermom
+---
 # tradermom
 
 (PECL trader >= 0.2.0)

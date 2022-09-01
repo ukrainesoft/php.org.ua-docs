@@ -1,16 +1,11 @@
-Повертає колір вказаного індексу палітри
-
--   [« Imagick::getImageClipMask](imagick.getimageclipmask.html)
-    
--   [Imagick::getImageColors »](imagick.getimagecolors.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає колір вказаного індексу палітри
-    
-
+---
+navigation:
+  - imagick.getimageclipmask.html: '« Imagick::getImageClipMask'
+  - imagick.getimagecolors.html: 'Imagick::getImageColors »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageColormapColor'
+---
 # Imagick::getImageColormapColor
 
 (PECL imagick 2, PECL imagick 3)

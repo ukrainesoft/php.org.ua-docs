@@ -1,16 +1,11 @@
-Повертає вектор у JSON-представництві
-
--   [« DsVector::join](ds-vector.join.html)
-    
--   [ДсVector::last »](ds-vector.last.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає вектор у JSON-представництві
-    
-
+---
+navigation:
+  - ds-vector.join.html: '« DsVector::join'
+  - ds-vector.last.html: 'ДсVector::last »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::jsonSerialize'
+---
 # ДсVector::jsonSerialize
 
 (PECL ds >= 1.0.0)

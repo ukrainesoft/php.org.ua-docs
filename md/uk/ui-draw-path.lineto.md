@@ -1,16 +1,11 @@
-Намалювати лінію
-
--   [« UIDrawPath::end](ui-draw-path.end.html)
-    
--   [ОЙDrawPath::newFigure »](ui-draw-path.newfigure.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Намалювати лінію
-    
-
+---
+navigation:
+  - ui-draw-path.end.html: '« UIDrawPath::end'
+  - ui-draw-path.newfigure.html: 'ОЙDrawPath::newFigure »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::lineTo'
+---
 # ОЙDrawPath::lineTo
 
 (UI 0.9.9)

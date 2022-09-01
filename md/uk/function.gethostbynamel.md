@@ -1,16 +1,11 @@
-Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
-
--   [« gethostbyname](function.gethostbyname.html)
-    
--   [gethostname »](function.gethostname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
-    
-
+---
+navigation:
+  - function.gethostbyname.html: « gethostbyname
+  - function.gethostname.html: gethostname »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: gethostbynamel
+---
 # gethostbynamel
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

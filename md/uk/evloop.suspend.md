@@ -1,16 +1,11 @@
-Припиняє цикл
-
--   [« EvLoop::stop](evloop.stop.html)
-    
--   [EvLoop::timer »](evloop.timer.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Припиняє цикл
-    
-
+---
+navigation:
+  - evloop.stop.html: '« EvLoop::stop'
+  - evloop.timer.html: 'EvLoop::timer »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::suspend'
+---
 # EvLoop::suspend
 
 (PECL ev >= 0.2.0)

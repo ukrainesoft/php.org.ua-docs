@@ -1,16 +1,11 @@
-Встановлює частку каскадної зміни кандидата
-
--   [« fannsetcascadeactivationsteepnesses](function.fann-set-cascade-activation-steepnesses.html)
-    
--   [fannsetcascadecandidatelimit »](function.fann-set-cascade-candidate-limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює частку каскадної зміни кандидата
-    
-
+---
+navigation:
+  - function.fann-set-cascade-activation-steepnesses.html: « fannsetcascadeactivationsteepnesses
+  - function.fann-set-cascade-candidate-limit.html: fannsetcascadecandidatelimit »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetcascadecandidatechangefraction
+---
 # fannsetcascadecandidatechangefraction
 
 (PECL fann> = 1.0.0)

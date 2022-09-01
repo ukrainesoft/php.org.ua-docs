@@ -1,16 +1,11 @@
-Визначає іменовану константу
-
--   [« constant](function.constant.md)
-    
--   [defined »](function.defined.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Визначає іменовану константу
-    
-
+---
+navigation:
+  - function.constant.md: « constant
+  - function.defined.md: defined »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: define
+---
 # define
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -61,11 +56,11 @@ define(string $constant_name, mixed $value, bool $case_insensitive = false): boo
 
 ### список змін
 
-| Версия | Описание                                                                                                                   |
-|--------|----------------------------------------------------------------------------------------------------------------------------|
-|        | Передача **`true`** в `case_insensitive` тепер видає помилку рівня **`E_WARNING`**. Передача **`false`** все ще дозволено. |
-|        | Параметр `case_insensitive` оголошено застарілим та буде видалено у версії 8.0.0.                                          |
-|        | Допустимі значення типу array.                                                                                             |
+| Версия | Описание |
+| --- | --- |
+|  | Передача **`true`** в `case_insensitive` тепер видає помилку рівня **`E_WARNING`**. Передача **`false`** все ще дозволено. |
+|  | Параметр `case_insensitive` оголошено застарілим та буде видалено у версії 8.0.0. |
+|  | Допустимі значення типу array. |
 
 ### Приклади
 

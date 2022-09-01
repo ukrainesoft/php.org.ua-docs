@@ -1,16 +1,11 @@
-Десеріалізація
-
--   [« ArrayIterator::uksort](arrayiterator.uksort.html)
-    
--   [ArrayIterator::valid »](arrayiterator.valid.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Десеріалізація
-    
-
+---
+navigation:
+  - arrayiterator.uksort.html: '« ArrayIterator::uksort'
+  - arrayiterator.valid.html: 'ArrayIterator::valid »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::unserialize'
+---
 # ArrayIterator::unserialize
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

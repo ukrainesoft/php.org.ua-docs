@@ -1,16 +1,11 @@
-Призначення getScriptPath
-
--   [« YafViewInterface::display](yaf-view-interface.display.html)
-    
--   [YafViewInterface::render »](yaf-view-interface.render.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewInterface](class.yaf-view-interface.html)
-    
--   Призначення getScriptPath
-    
-
+---
+navigation:
+  - yaf-view-interface.display.html: '« YafViewInterface::display'
+  - yaf-view-interface.render.html: 'YafViewInterface::render »'
+  - index.md: PHP Manual
+  - class.yaf-view-interface.html: YafViewInterface
+title: 'YafViewInterface::getScriptPath'
+---
 # YafViewInterface::getScriptPath
 
 (Yaf >=1.0.0)

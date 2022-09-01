@@ -1,16 +1,11 @@
-Отримати "вік" символьного коду
-
--   [« IntlChar](class.intlchar.md)
-    
--   [IntlChar::charDigitValue »](intlchar.chardigitvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати "вік" символьного коду
-    
-
+---
+navigation:
+  - class.intlchar.md: « IntlChar
+  - intlchar.chardigitvalue.md: 'IntlChar::charDigitValue »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::charAge'
+---
 # IntlChar::charAge
 
 (PHP 7, PHP 8)

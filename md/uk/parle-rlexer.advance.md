@@ -1,16 +1,11 @@
-Обробка наступного правила лексера
-
--   [« ParleRLexer](class.parle-rlexer.html)
-    
--   [ParleRLexer::build »](parle-rlexer.build.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleRLexer](class.parle-rlexer.html)
-    
--   Обробка наступного правила лексера
-    
-
+---
+navigation:
+  - class.parle-rlexer.html: « ParleRLexer
+  - parle-rlexer.build.html: 'ParleRLexer::build »'
+  - index.md: PHP Manual
+  - class.parle-rlexer.html: ParleRLexer
+title: 'ParleRLexer::advance'
+---
 # ParleRLexer::advance
 
 (PECL parle >= 0.5.1)

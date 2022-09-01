@@ -1,16 +1,11 @@
-Створення XML-аналізатора
-
--   [« xmlparsercreateнс](function.xml-parser-create-ns.html)
-    
--   [xmlparserfree »](function.xml-parser-free.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции парсера XML](ref.xml.html)
-    
--   Створення XML-аналізатора
-    
-
+---
+navigation:
+  - function.xml-parser-create-ns.html: « xmlparsercreateнс
+  - function.xml-parser-free.html: xmlparserfree »
+  - index.html: PHP Manual
+  - ref.xml.html: Функции парсера XML
+title: xmlparsercreate
+---
 # xmlparsercreate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,10 +32,10 @@ xml_parser_create(?string $encoding = null): XMLParser
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.html); раніше повертався ресурс (resource) або **`false`** у разі виникнення помилки. |
-|        | `encoding` тепер допускає значення null.                                                                                                           |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.html); раніше повертався ресурс (resource) або **`false`** у разі виникнення помилки. |
+|  | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 

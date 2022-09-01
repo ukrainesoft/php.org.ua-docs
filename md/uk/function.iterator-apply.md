@@ -1,16 +1,11 @@
-Викликає функцію кожного елемента в итераторе
-
--   [« classuses](function.class-uses.html)
-    
--   [iteratorcount »](function.iterator-count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SPL](ref.spl.md)
-    
--   Викликає функцію кожного елемента в итераторе
-    
-
+---
+navigation:
+  - function.class-uses.html: « classuses
+  - function.iterator-count.html: iteratorcount »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: iteratorapply
+---
 # iteratorapply
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

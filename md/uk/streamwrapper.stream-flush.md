@@ -1,16 +1,11 @@
-Скидає висновок
-
--   [« streamWrapper::streameof](streamwrapper.stream-eof.html)
-    
--   [streamWrapper::streamlock »](streamwrapper.stream-lock.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Скидає висновок
-    
-
+---
+navigation:
+  - streamwrapper.stream-eof.html: '« streamWrapper::streameof'
+  - streamwrapper.stream-lock.html: 'streamWrapper::streamlock »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::streamflush'
+---
 # streamWrapper::streamflush
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

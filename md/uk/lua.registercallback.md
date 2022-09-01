@@ -1,16 +1,11 @@
-Зареєструвати функцію PHP у Lua
-
--   [« Lua::include](lua.include.html)
-    
--   [LuaClosure »](class.luaclosure.html)
-    
--   [PHP Manual](index.html)
-    
--   [Lua](class.lua.html)
-    
--   Зареєструвати функцію PHP у Lua
-    
-
+---
+navigation:
+  - lua.include.html: '« Lua::include'
+  - class.luaclosure.html: LuaClosure »
+  - index.html: PHP Manual
+  - class.lua.html: Lua
+title: 'Lua::registerCallback'
+---
 # Lua::registerCallback
 
 (No version information available, might only be in Git)

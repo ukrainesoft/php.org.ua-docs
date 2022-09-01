@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.svn.md)
-    
--   [Вимоги »](svn.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [SVN](book.svn.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.svn.md: « Введение
+  - svn.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.svn.md: SVN
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

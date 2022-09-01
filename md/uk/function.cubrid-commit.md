@@ -1,16 +1,11 @@
-Підтвердження транзакції
-
--   [« cubridcolumntypes](function.cubrid-column-types.html)
-    
--   [cubridconnectwithurl »](function.cubrid-connect-with-url.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Підтвердження транзакції
-    
-
+---
+navigation:
+  - function.cubrid-column-types.html: « cubridcolumntypes
+  - function.cubrid-connect-with-url.html: cubridconnectwithurl »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridcommit
+---
 # cubridcommit
 
 (PECL CUBRID >= 8.3.0)

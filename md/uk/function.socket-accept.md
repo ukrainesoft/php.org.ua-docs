@@ -1,16 +1,11 @@
-Приймає з'єднання на сокеті
-
--   [« Функции сокета](ref.sockets.md)
-    
--   [socketaddrinfobind »](function.socket-addrinfo-bind.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Приймає з'єднання на сокеті
-    
-
+---
+navigation:
+  - ref.sockets.md: « Функции сокета
+  - function.socket-addrinfo-bind.html: socketaddrinfobind »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketaccept
+---
 # socketaccept
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ socket_accept(Socket $socket): Socket|false
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
 
 ### Дивіться також
 

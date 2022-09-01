@@ -1,16 +1,11 @@
-Створює копію SolrDocument
-
--   [« SolrInputDocument::clear](solrinputdocument.clear.html)
-    
--   [SolrInputDocument::construct »](solrinputdocument.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Створює копію SolrDocument
-    
-
+---
+navigation:
+  - solrinputdocument.clear.html: '« SolrInputDocument::clear'
+  - solrinputdocument.construct.html: 'SolrInputDocument::construct »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::clone'
+---
 # SolrInputDocument::clone
 
 (PECL solr> = 0.9.2)

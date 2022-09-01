@@ -1,16 +1,11 @@
-Очищає ресурси, пов'язані з цим об'єктом
-
--   [« ImagickPixel](class.imagickpixel.md)
-    
--   [ImagickPixel::construct »](imagickpixel.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Очищає ресурси, пов'язані з цим об'єктом
-    
-
+---
+navigation:
+  - class.imagickpixel.md: « ImagickPixel
+  - imagickpixel.construct.md: 'ImagickPixel::construct »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::clear'
+---
 # ImagickPixel::clear
 
 (PECL imagick 2, PECL imagick 3)

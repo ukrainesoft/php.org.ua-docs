@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](session.configuration.html)
-    
--   [Обумовлені константи »](session.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](session.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - session.configuration.html: « Налаштування під час виконання
+  - session.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - session.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

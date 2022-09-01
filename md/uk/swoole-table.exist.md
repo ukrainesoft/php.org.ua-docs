@@ -1,16 +1,11 @@
-Перевіряє, чи існує рядок $rowkey
-
--   [« SwooleTable::destroy](swoole-table.destroy.html)
-    
--   [SwooleTable::get »](swoole-table.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Перевіряє, чи існує рядок $rowkey
-    
-
+---
+navigation:
+  - swoole-table.destroy.html: '« SwooleTable::destroy'
+  - swoole-table.get.html: 'SwooleTable::get »'
+  - index.html: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::exist'
+---
 # SwooleTable::exist
 
 (PECL swoole >= 1.9.0)

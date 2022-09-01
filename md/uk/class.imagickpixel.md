@@ -1,16 +1,11 @@
-Клас ImagickPixel
-
--   [« ImagickDraw::translate](imagickdraw.translate.html)
-    
--   [ImagickPixel::clear »](imagickpixel.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImageMagick](book.imagick.html)
-    
--   Клас ImagickPixel
-    
-
+---
+navigation:
+  - imagickdraw.translate.html: '« ImagickDraw::translate'
+  - imagickpixel.clear.html: 'ImagickPixel::clear »'
+  - index.html: PHP Manual
+  - book.imagick.html: ImageMagick
+title: 'Клас [ImagickPixel](class.imagickpixel.html)'
+---
 # Клас [ImagickPixel](class.imagickpixel.html)
 
 (PECL imagick 2, PECL imagick 3)

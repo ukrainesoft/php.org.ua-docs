@@ -1,16 +1,11 @@
-Отримати всі рядки
-
--   [« DocResult::construct](mysql-xdevapi-docresult.construct.html)
-    
--   [DocResult::fetchOne »](mysql-xdevapi-docresult.fetchone.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
-    
--   Отримати всі рядки
-    
-
+---
+navigation:
+  - mysql-xdevapi-docresult.construct.html: '« DocResult::construct'
+  - mysql-xdevapi-docresult.fetchone.html: 'DocResult::fetchOne »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+title: 'DocResult::fetchAll'
+---
 # DocResult::fetchAll
 
 (No version information available, might only be in Git)

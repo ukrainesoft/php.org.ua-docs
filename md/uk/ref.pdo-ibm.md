@@ -1,16 +1,11 @@
-Функції IBM (PDOIBM)
-
--   [« PDOFIREBIRD DSN](ref.pdo-firebird.connection.html)
-    
--   [PDOIBM DSN »](ref.pdo-ibm.connection.html)
-    
--   [PHP Manual](index.md)
-    
--   [Драйвери PDO](pdo.drivers.md)
-    
--   Функції IBM (PDOIBM)
-    
-
+---
+navigation:
+  - ref.pdo-firebird.connection.html: « PDOFIREBIRD DSN
+  - ref.pdo-ibm.connection.html: PDOIBM DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
+title: Функції IBM (PDOIBM)
+---
 # Функції IBM (PDOIBM)
 
 ## Вступ

@@ -1,16 +1,11 @@
-Повідомити спостерігача
-
--   [« SplSubject::detach](splsubject.detach.md)
-    
--   [Потоки »](book.stream.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplSubject](class.splsubject.md)
-    
--   Повідомити спостерігача
-    
-
+---
+navigation:
+  - splsubject.detach.md: '« SplSubject::detach'
+  - book.stream.md: Потоки »
+  - index.md: PHP Manual
+  - class.splsubject.md: SplSubject
+title: 'SplSubject::notify'
+---
 # SplSubject::notify
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Закрити вказівник відкритого gz-файлу
-
--   [« deflateinit](function.deflate-init.html)
-    
--   [gzcompress »](function.gzcompress.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Закрити вказівник відкритого gz-файлу
-    
-
+---
+navigation:
+  - function.deflate-init.html: « deflateinit
+  - function.gzcompress.html: gzcompress »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzclose
+---
 # gzclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

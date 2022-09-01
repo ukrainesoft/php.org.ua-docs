@@ -1,16 +1,11 @@
-Виконує одиночне завдання та повертає результат
-
--   [« GearmanClient::doLowBackground](gearmanclient.dolowbackground.md)
-    
--   [GearmanClient::doStatus »](gearmanclient.dostatus.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Виконує одиночне завдання та повертає результат
-    
-
+---
+navigation:
+  - gearmanclient.dolowbackground.md: '« GearmanClient::doLowBackground'
+  - gearmanclient.dostatus.md: 'GearmanClient::doStatus »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::doNormal'
+---
 # GearmanClient::doNormal
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now
-
--   [« Ev::now](ev.now.html)
-    
--   [Ev::recommendedBackends »](ev.recommendedbackends.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](class.ev.html)
-    
--   Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now
-    
-
+---
+navigation:
+  - ev.now.html: '« Ev::now'
+  - ev.recommendedbackends.html: 'Ev::recommendedBackends »'
+  - index.html: PHP Manual
+  - class.ev.html: Єв
+title: 'Ev::nowUpdate'
+---
 # Ev::nowUpdate
 
 (PECL ev >= 0.2.0)

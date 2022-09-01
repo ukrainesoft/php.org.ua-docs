@@ -1,16 +1,11 @@
-Підтримка Windows
-
--   [« Прочие изменения](migration71.other-changes.html)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x »](migration70.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
-    
--   Підтримка Windows
-    
-
+---
+navigation:
+  - migration71.other-changes.html: « Прочие изменения
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x »
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Підтримка Windows
+---
 ## Підтримка Windows
 
 ### Підтримка довгих та UTF-8 шляхів

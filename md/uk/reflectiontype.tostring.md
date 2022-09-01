@@ -1,16 +1,11 @@
-Перетворення на рядок
-
--   [« ReflectionType::allowsNull](reflectiontype.allowsnull.md)
-    
--   [ReflectionUnionType »](class.reflectionuniontype.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionType](class.reflectiontype.md)
-    
--   Перетворення на рядок
-    
-
+---
+navigation:
+  - reflectiontype.allowsnull.md: '« ReflectionType::allowsNull'
+  - class.reflectionuniontype.md: ReflectionUnionType »
+  - index.md: PHP Manual
+  - class.reflectiontype.md: ReflectionType
+title: 'ReflectionType::function toString() { \[native code\] }'
+---
 # ReflectionType::function toString() { \[native code\] }
 
 (PHP 7, PHP 8)
@@ -39,9 +34,9 @@ public ReflectionType::__toString(): string
 
 ### список змін
 
-| Версия | Описание                                             |
-|--------|------------------------------------------------------|
-|        | **ReflectionType::toString()** оголошено застарілим. |
+| Версия | Описание |
+| --- | --- |
+|  | **ReflectionType::toString()** оголошено застарілим. |
 
 ### Приклади
 

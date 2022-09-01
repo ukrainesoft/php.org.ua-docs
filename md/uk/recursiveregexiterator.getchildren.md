@@ -1,16 +1,11 @@
-Повертає ітератор для поточного елемента
-
--   [« RecursiveRegexIterator::construct](recursiveregexiterator.construct.md)
-    
--   [RecursiveRegexIterator::hasChildren »](recursiveregexiterator.haschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveRegexIterator](class.recursiveregexiterator.md)
-    
--   Повертає ітератор для поточного елемента
-    
-
+---
+navigation:
+  - recursiveregexiterator.construct.md: '« RecursiveRegexIterator::construct'
+  - recursiveregexiterator.haschildren.md: 'RecursiveRegexIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.recursiveregexiterator.md: RecursiveRegexIterator
+title: 'RecursiveRegexIterator::getChildren'
+---
 # RecursiveRegexIterator::getChildren
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

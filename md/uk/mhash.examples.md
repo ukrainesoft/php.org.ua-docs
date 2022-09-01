@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](mhash.constants.md)
-    
--   [Функции Mhash »](ref.mhash.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mhash](book.mhash.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - mhash.constants.md: « Обумовлені константи
+  - ref.mhash.md: Функции Mhash »
+  - index.md: PHP Manual
+  - book.mhash.md: Mhash
+title: Приклади
+---
 # Приклади
 
 **Приклад #1 Обчислення MD5 та HMAC та друк їх у шістнадцятковому вигляді**

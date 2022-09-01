@@ -1,16 +1,11 @@
-Створює нове слабке посилання
-
--   [« WeakReference::construct](weakreference.construct.md)
-    
--   [WeakReference::get »](weakreference.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [WeakReference](class.weakreference.md)
-    
--   Створює нове слабке посилання
-    
-
+---
+navigation:
+  - weakreference.construct.md: '« WeakReference::construct'
+  - weakreference.get.md: 'WeakReference::get »'
+  - index.md: PHP Manual
+  - class.weakreference.md: WeakReference
+title: 'WeakReference::create'
+---
 # WeakReference::create
 
 (PHP 7> = 7.4.0, PHP 8)

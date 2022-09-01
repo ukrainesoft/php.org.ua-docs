@@ -1,16 +1,11 @@
-Перевіряє, чи порожня колекція
-
--   [« DsStack::count](ds-stack.count.html)
-    
--   [ДсStack::jsonSerialize »](ds-stack.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Перевіряє, чи порожня колекція
-    
-
+---
+navigation:
+  - ds-stack.count.html: '« DsStack::count'
+  - ds-stack.jsonserialize.html: 'ДсStack::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::isEmpty'
+---
 # ДсStack::isEmpty
 
 (PECL ds >= 1.0.0)

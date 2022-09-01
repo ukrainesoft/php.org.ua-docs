@@ -1,16 +1,11 @@
-Повертає кінцеву дату періоду
-
--   [« DatePeriod::getDateInterval](dateperiod.getdateinterval.md)
-    
--   [DatePeriod::getRecurrences »](dateperiod.getrecurrences.md)
-    
--   [PHP Manual](index.md)
-    
--   [DatePeriod](class.dateperiod.md)
-    
--   Повертає кінцеву дату періоду
-    
-
+---
+navigation:
+  - dateperiod.getdateinterval.md: '« DatePeriod::getDateInterval'
+  - dateperiod.getrecurrences.md: 'DatePeriod::getRecurrences »'
+  - index.md: PHP Manual
+  - class.dateperiod.md: DatePeriod
+title: 'DatePeriod::getEndDate'
+---
 # DatePeriod::getEndDate
 
 (PHP 5> = 5.6.5, PHP 7, PHP 8)

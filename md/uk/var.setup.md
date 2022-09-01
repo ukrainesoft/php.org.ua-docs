@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.var.html)
-    
--   [Вимоги »](var.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Обробка змінних](book.var.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.var.html: « Введение
+  - var.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.var.html: Обробка змінних
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

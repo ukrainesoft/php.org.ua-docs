@@ -1,16 +1,11 @@
-Вечірня зірка
-
--   [« tradercdleveningdojistar](function.trader-cdleveningdojistar.html)
-    
--   [tradercdlgapsidesidewhite »](function.trader-cdlgapsidesidewhite.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вечірня зірка
-    
-
+---
+navigation:
+  - function.trader-cdleveningdojistar.html: « tradercdleveningdojistar
+  - function.trader-cdlgapsidesidewhite.html: tradercdlgapsidesidewhite »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdleveningstar
+---
 # tradercdleveningstar
 
 (PECL trader >= 0.2.0)

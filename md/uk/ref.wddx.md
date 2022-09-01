@@ -1,16 +1,11 @@
-Функції WDDX
-
--   [« Приклади wddx](wddx.examples-serialize.html)
-    
--   [wddxaddvars »](function.wddx-add-vars.html)
-    
--   [PHP Manual](index.md)
-    
--   [WDDX](book.wddx.md)
-    
--   Функції WDDX
-    
-
+---
+navigation:
+  - wddx.examples-serialize.html: « Приклади wddx
+  - function.wddx-add-vars.html: wddxaddvars »
+  - index.md: PHP Manual
+  - book.wddx.md: WDDX
+title: Функції WDDX
+---
 # Функції WDDX
 
 ## Зміст

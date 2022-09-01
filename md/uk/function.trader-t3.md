@@ -1,16 +1,11 @@
-Потрійна експоненційна ковзна середня
-
--   [« tradersum](function.trader-sum.html)
-    
--   [tradertan »](function.trader-tan.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Потрійна експоненційна ковзна середня
-    
-
+---
+navigation:
+  - function.trader-sum.html: « tradersum
+  - function.trader-tan.html: tradertan »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderтз
+---
 # traderтз
 
 (PECL trader >= 0.2.0)

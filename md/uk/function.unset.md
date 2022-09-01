@@ -1,16 +1,11 @@
-Видаляє змінну
-
--   [« unserialize](function.unserialize.html)
-    
--   [vardump »](function.var-dump.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Видаляє змінну
-    
-
+---
+navigation:
+  - function.unserialize.html: « unserialize
+  - function.var-dump.html: vardump »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: unset
+---
 # unset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

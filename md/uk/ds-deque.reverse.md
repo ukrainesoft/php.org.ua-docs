@@ -1,16 +1,11 @@
-Перевертає поточну двосторонню чергу
-
--   [« DsDeque::remove](ds-deque.remove.html)
-    
--   [ДсDeque::reversed »](ds-deque.reversed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Перевертає поточну двосторонню чергу
-    
-
+---
+navigation:
+  - ds-deque.remove.html: '« DsDeque::remove'
+  - ds-deque.reversed.html: 'ДсDeque::reversed »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::reverse'
+---
 # ДсDeque::reverse
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Визначає, чи є поточний елемент масивом чи об'єктом
-
--   [« RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.md)
-    
--   [RecursiveCachingIterator »](class.recursivecachingiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveArrayIterator](class.recursivearrayiterator.md)
-    
--   Визначає, чи є поточний елемент масивом чи об'єктом
-    
-
+---
+navigation:
+  - recursivearrayiterator.getchildren.md: '« RecursiveArrayIterator::getChildren'
+  - class.recursivecachingiterator.md: RecursiveCachingIterator »
+  - index.md: PHP Manual
+  - class.recursivearrayiterator.md: RecursiveArrayIterator
+title: 'RecursiveArrayIterator::hasChildren'
+---
 # RecursiveArrayIterator::hasChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

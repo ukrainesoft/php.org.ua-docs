@@ -1,16 +1,11 @@
-Повертає інформацію про протокол MySQL
-
--   [« mysqlgethostinfo](function.mysql-get-host-info.html)
-    
--   [mysqlgetserverinfo »](function.mysql-get-server-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає інформацію про протокол MySQL
-    
-
+---
+navigation:
+  - function.mysql-get-host-info.html: « mysqlgethostinfo
+  - function.mysql-get-server-info.html: mysqlgetserverinfo »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlgetprotoinfo
+---
 # mysqlgetprotoinfo
 
 (PHP 4> = 4.0.5, PHP 5)

@@ -1,16 +1,11 @@
-Встановлює генератор текстових фрагментів для виділеного тексту
-
--   [« SolrQuery::setHighlightFormatter](solrquery.sethighlightformatter.html)
-    
--   [SolrQuery::setHighlightFragsize »](solrquery.sethighlightfragsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює генератор текстових фрагментів для виділеного тексту
-    
-
+---
+navigation:
+  - solrquery.sethighlightformatter.html: '« SolrQuery::setHighlightFormatter'
+  - solrquery.sethighlightfragsize.html: 'SolrQuery::setHighlightFragsize »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setHighlightFragmenter'
+---
 # SolrQuery::setHighlightFragmenter
 
 (PECL solr> = 0.9.2)

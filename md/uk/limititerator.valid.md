@@ -1,16 +1,11 @@
-Перевіряє валідність поточного елемента
-
--   [« LimitIterator::seek](limititerator.seek.html)
-    
--   [MultipleIterator »](class.multipleiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [LimitIterator](class.limititerator.html)
-    
--   Перевіряє валідність поточного елемента
-    
-
+---
+navigation:
+  - limititerator.seek.html: '« LimitIterator::seek'
+  - class.multipleiterator.html: MultipleIterator »
+  - index.html: PHP Manual
+  - class.limititerator.html: LimitIterator
+title: 'LimitIterator::valid'
+---
 # LimitIterator::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

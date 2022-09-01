@@ -1,16 +1,11 @@
-Переміщує ітератор на наступний рядок
-
--   [« SwooleTable::key](swoole-table.key.html)
-    
--   [SwooleTable::rewind »](swoole-table.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleTable](class.swoole-table.html)
-    
--   Переміщує ітератор на наступний рядок
-    
-
+---
+navigation:
+  - swoole-table.key.html: '« SwooleTable::key'
+  - swoole-table.rewind.html: 'SwooleTable::rewind »'
+  - index.html: PHP Manual
+  - class.swoole-table.html: SwooleTable
+title: 'SwooleTable::next'
+---
 # SwooleTable::next
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Видаляє файл або директорію
-
--   [« svnфсcopy](function.svn-fs-copy.html)
-    
--   [svnфсdirentries »](function.svn-fs-dir-entries.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Видаляє файл або директорію
-    
-
+---
+navigation:
+  - function.svn-fs-copy.html: « svnфсcopy
+  - function.svn-fs-dir-entries.html: svnфсdirentries »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсdelete
+---
 # svnфсdelete
 
 (PECL svn >= 0.2.0)

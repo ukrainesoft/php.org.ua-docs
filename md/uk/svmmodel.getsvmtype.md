@@ -1,16 +1,11 @@
-Отримати тип SVM, з яким навчалася модель
-
--   [« SVMModel::getNrClass](svmmodel.getnrclass.html)
-    
--   [SVMModel::getSvrProbability »](svmmodel.getsvrprobability.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVMModel](class.svmmodel.html)
-    
--   Отримати тип SVM, з яким навчалася модель
-    
-
+---
+navigation:
+  - svmmodel.getnrclass.html: '« SVMModel::getNrClass'
+  - svmmodel.getsvrprobability.html: 'SVMModel::getSvrProbability »'
+  - index.html: PHP Manual
+  - class.svmmodel.html: SVMModel
+title: 'SVMModel::getSvmType'
+---
 # SVMModel::getSvmType
 
 (PECL svm >= 0.1.5)

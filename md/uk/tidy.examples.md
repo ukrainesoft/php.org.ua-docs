@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](tidy.constants.md)
-    
--   [Пример использования Tidy »](tidy.examples.basic.md)
-    
--   [PHP Manual](index.md)
-    
--   [Tidy](book.tidy.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - tidy.constants.md: « Обумовлені константи
+  - tidy.examples.basic.md: Пример использования Tidy »
+  - index.md: PHP Manual
+  - book.tidy.md: Tidy
+title: Приклади
+---
 # Приклади
 
 ## Зміст

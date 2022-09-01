@@ -1,16 +1,11 @@
-Повертає параметр автентифікації
-
--   [« svnadd](function.svn-add.html)
-    
--   [svnauthsetparameter »](function.svn-auth-set-parameter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SVN](ref.svn.html)
-    
--   Повертає параметр автентифікації
-    
-
+---
+navigation:
+  - function.svn-add.html: « svnadd
+  - function.svn-auth-set-parameter.html: svnauthsetparameter »
+  - index.html: PHP Manual
+  - ref.svn.html: Функції SVN
+title: svnauthgetparameter
+---
 # svnauthgetparameter
 
 (PECL svn >= 0.1.0)

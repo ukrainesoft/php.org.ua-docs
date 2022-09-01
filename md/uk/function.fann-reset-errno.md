@@ -1,16 +1,11 @@
-Скидає номер останньої помилки
-
--   [« fannreadtrainfromfile](function.fann-read-train-from-file.html)
-    
--   [fannreseterrstr »](function.fann-reset-errstr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Скидає номер останньої помилки
-    
-
+---
+navigation:
+  - function.fann-read-train-from-file.html: « fannreadtrainfromfile
+  - function.fann-reset-errstr.html: fannreseterrstr »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannreseterrno
+---
 # fannreseterrno
 
 (PECL fann> = 1.0.0)

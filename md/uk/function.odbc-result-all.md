@@ -1,16 +1,11 @@
-Виводить результат у вигляді HTML-таблиці
-
--   [« odbcprocedures](function.odbc-procedures.html)
-    
--   [odbcresult »](function.odbc-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Виводить результат у вигляді HTML-таблиці
-    
-
+---
+navigation:
+  - function.odbc-procedures.html: « odbcprocedures
+  - function.odbc-result.html: odbcresult »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcresultall
+---
 # odbcresultall
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,6 +42,6 @@ odbc_result_all(resource $statement, string $format = ""): int|false
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Функцію оголошено застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. |

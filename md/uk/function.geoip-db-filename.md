@@ -1,16 +1,11 @@
-Повертає ім'я файлу відповідної бази GeoIP
-
--   [« geoipдбavail](function.geoip-db-avail.html)
-    
--   [geoipдбgetallinfo »](function.geoip-db-get-all-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Повертає ім'я файлу відповідної бази GeoIP
-    
-
+---
+navigation:
+  - function.geoip-db-avail.html: « geoipдбavail
+  - function.geoip-db-get-all-info.html: geoipдбgetallinfo »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipдбfilename
+---
 # geoipдбfilename
 
 (PECL geoip >= 1.0.1)

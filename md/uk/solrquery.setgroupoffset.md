@@ -1,16 +1,11 @@
-Встановлює параметр group.offset
-
--   [« SolrQuery::setGroupNGroups](solrquery.setgroupngroups.md)
-    
--   [SolrQuery::setGroupTruncate »](solrquery.setgrouptruncate.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює параметр group.offset
-    
-
+---
+navigation:
+  - solrquery.setgroupngroups.md: '« SolrQuery::setGroupNGroups'
+  - solrquery.setgrouptruncate.md: 'SolrQuery::setGroupTruncate »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setGroupOffset'
+---
 # SolrQuery::setGroupOffset
 
 (PECL solr> = 2.2.0)

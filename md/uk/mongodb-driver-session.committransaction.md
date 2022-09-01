@@ -1,16 +1,11 @@
-Фіксує транзакцію
-
--   [« MongoDBDriverSession::advanceOperationTime](mongodb-driver-session.advanceoperationtime.html)
-    
--   [MongoDBDriverSession::construct »](mongodb-driver-session.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Фіксує транзакцію
-    
-
+---
+navigation:
+  - mongodb-driver-session.advanceoperationtime.html: '« MongoDBDriverSession::advanceOperationTime'
+  - mongodb-driver-session.construct.html: 'MongoDBDriverSession::construct »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::commitTransaction'
+---
 # MongoDBDriverSession::commitTransaction
 
 (mongodb >=1.5.0)

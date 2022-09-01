@@ -1,16 +1,11 @@
-Перетворює значення з радіанів на градуси
-
--   [« pow](function.pow.md)
-    
--   [rand »](function.rand.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Перетворює значення з радіанів на градуси
-    
-
+---
+navigation:
+  - function.pow.md: « pow
+  - function.rand.md: rand »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: rad2deg
+---
 # rad2deg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

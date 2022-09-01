@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](strings.configuration.md)
-    
--   [Обумовлені константи »](string.constants.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](strings.setup.md)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - strings.configuration.md: « Налаштування під час виконання
+  - string.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - strings.setup.md: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

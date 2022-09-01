@@ -1,16 +1,11 @@
-Реєструє callback-функцію, яка буде викликатись при публікації подій
-
--   [« ibaseservicedetach](function.ibase-service-detach.html)
-    
--   [ibasetrans »](function.ibase-trans.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Реєструє callback-функцію, яка буде викликатись при публікації подій
-    
-
+---
+navigation:
+  - function.ibase-service-detach.html: « ibaseservicedetach
+  - function.ibase-trans.html: ibasetrans »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseseteventhandler
+---
 # ibaseseteventhandler
 
 (PHP 5, PHP 7 < 7.4.0)

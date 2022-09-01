@@ -1,16 +1,11 @@
-Ігнорує слова довжиною менше N символів
-
--   [« pspellconfigdictdir](function.pspell-config-dict-dir.html)
-    
--   [pspellconfigmode »](function.pspell-config-mode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Ігнорує слова довжиною менше N символів
-    
-
+---
+navigation:
+  - function.pspell-config-dict-dir.html: « pspellconfigdictdir
+  - function.pspell-config-mode.html: pspellconfigmode »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellconfigignore
+---
 # pspellconfigignore
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pspell_config_ignore(PSpell\Config $config, int $min_length): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

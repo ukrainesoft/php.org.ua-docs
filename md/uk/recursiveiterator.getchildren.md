@@ -1,16 +1,11 @@
-Повертає ітератор для поточного елемента
-
--   [« RecursiveIterator](class.recursiveiterator.html)
-    
--   [RecursiveIterator::hasChildren »](recursiveiterator.haschildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveIterator](class.recursiveiterator.html)
-    
--   Повертає ітератор для поточного елемента
-    
-
+---
+navigation:
+  - class.recursiveiterator.html: « RecursiveIterator
+  - recursiveiterator.haschildren.html: 'RecursiveIterator::hasChildren »'
+  - index.html: PHP Manual
+  - class.recursiveiterator.html: RecursiveIterator
+title: 'RecursiveIterator::getChildren'
+---
 # RecursiveIterator::getChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

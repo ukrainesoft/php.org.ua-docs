@@ -1,16 +1,11 @@
-Встановлює колір
-
--   [« ImagickPixel::isSimilar](imagickpixel.issimilar.md)
-    
--   [ImagickPixel::setColorCount »](imagickpixel.setcolorcount.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Встановлює колір
-    
-
+---
+navigation:
+  - imagickpixel.issimilar.md: '« ImagickPixel::isSimilar'
+  - imagickpixel.setcolorcount.md: 'ImagickPixel::setColorCount »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::setColor'
+---
 # ImagickPixel::setColor
 
 (PECL imagick 2, PECL imagick 3)

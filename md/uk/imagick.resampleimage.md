@@ -1,16 +1,11 @@
-Перетворює зображення до бажаного дозволу
-
--   [« Imagick::render](imagick.render.md)
-    
--   [Imagick::resetImagePage »](imagick.resetimagepage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перетворює зображення до бажаного дозволу
-    
-
+---
+navigation:
+  - imagick.render.md: '« Imagick::render'
+  - imagick.resetimagepage.md: 'Imagick::resetImagePage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::resampleImage'
+---
 # Imagick::resampleImage
 
 (PECL imagick 2, PECL imagick 3)

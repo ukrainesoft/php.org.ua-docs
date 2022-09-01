@@ -1,16 +1,11 @@
-Отримує призначену змінну
-
--   [« YafViewSimple::eval](yaf-view-simple.eval.html)
-    
--   [YafViewSimple::getScriptPath »](yaf-view-simple.getscriptpath.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Отримує призначену змінну
-    
-
+---
+navigation:
+  - yaf-view-simple.eval.html: '« YafViewSimple::eval'
+  - yaf-view-simple.getscriptpath.html: 'YafViewSimple::getScriptPath »'
+  - index.html: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::get'
+---
 # YafViewSimple::get
 
 (Yaf >=1.0.0)

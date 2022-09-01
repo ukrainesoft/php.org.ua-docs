@@ -1,16 +1,11 @@
-Очистити всі зареєстровані дзвінки
-
--   [« YarConcurrentClient::loop](yar-concurrent-client.loop.html)
-    
--   [YarServerException »](class.yar-server-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [YarConcurrentClient](class.yar-concurrent-client.html)
-    
--   Очистити всі зареєстровані дзвінки
-    
-
+---
+navigation:
+  - yar-concurrent-client.loop.html: '« YarConcurrentClient::loop'
+  - class.yar-server-exception.html: YarServerException »
+  - index.md: PHP Manual
+  - class.yar-concurrent-client.html: YarConcurrentClient
+title: 'YarConcurrentClient::reset'
+---
 # YarConcurrentClient::reset
 
 (PECL yar >= 1.2.4)

@@ -1,16 +1,11 @@
-Відкриває ресурс потоку для читання BLOB
-
--   [« SQLite3::open](sqlite3.open.html)
-    
--   [SQLite3::prepare »](sqlite3.prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](class.sqlite3.html)
-    
--   Відкриває ресурс потоку для читання BLOB
-    
-
+---
+navigation:
+  - sqlite3.open.html: '« SQLite3::open'
+  - sqlite3.prepare.html: 'SQLite3::prepare »'
+  - index.html: PHP Manual
+  - class.sqlite3.html: SQLite3
+title: 'SQLite3::openBlob'
+---
 # SQLite3::openBlob
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ SELECT `column` FROM `database``table` WHERE rowid = `rowid`
 
 ### список змін
 
-| Версия | Описание                                                                                 |
-|--------|------------------------------------------------------------------------------------------|
-|        | Доданий параметр `flags`, Що дозволяє записати BLOB; раніше підтримувалося лише читання. |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags`, Що дозволяє записати BLOB; раніше підтримувалося лише читання. |
 
 ### Приклади
 

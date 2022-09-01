@@ -1,16 +1,11 @@
-Завантажує файл із FTP-сервера
-
--   [« ftpgetoption](function.ftp-get-option.html)
-    
--   [ftplogin »](function.ftp-login.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Завантажує файл із FTP-сервера
-    
-
+---
+navigation:
+  - function.ftp-get-option.html: « ftpgetoption
+  - function.ftp-login.html: ftplogin »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftpget
+---
 # ftpget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ ftp_get(    FTP\Connection $ftp,    string $local_filename,    strin
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 

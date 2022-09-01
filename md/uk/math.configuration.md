@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](math.installation.html)
-    
--   [Типи ресурсів »](math.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](math.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - math.installation.html: « Установка
+  - math.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - math.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

@@ -1,16 +1,11 @@
-Вступ
-
--   [« FDF](book.fdf.html)
-    
--   [Встановлення та налаштування »](fdf.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](book.fdf.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.fdf.html: « FDF
+  - fdf.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.fdf.html: FDF
+title: Вступ
+---
 # Вступ
 
 Формат даних форм (FDF) – це формат для обробки форм у документах PDF. Докладніше цей формат описаний у документації на сайті [» http://www.adobe.com/devnet/acrobat/fdftoolkit.html](http://www.adobe.com/devnet/acrobat/fdftoolkit.html)

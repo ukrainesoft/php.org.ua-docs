@@ -1,16 +1,11 @@
-Створює tar/zip-архів із файлів у директорії
-
--   [« PharData::addFromString](phardata.addfromstring.html)
-    
--   [PharData::buildFromIterator »](phardata.buildfromiterator.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharData](class.phardata.html)
-    
--   Створює tar/zip-архів із файлів у директорії
-    
-
+---
+navigation:
+  - phardata.addfromstring.html: '« PharData::addFromString'
+  - phardata.buildfromiterator.html: 'PharData::buildFromIterator »'
+  - index.html: PHP Manual
+  - class.phardata.html: PharData
+title: 'PharData::buildFromDirectory'
+---
 # PharData::buildFromDirectory
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -45,9 +40,9 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | **PharData::buildFromDirectory()** більше не повертає значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | **PharData::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 

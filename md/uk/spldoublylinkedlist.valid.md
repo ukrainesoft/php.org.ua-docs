@@ -1,16 +1,11 @@
-Перевіряє, чи містить вузли двозв'язковий список
-
--   [« SplDoublyLinkedList::unshift](spldoublylinkedlist.unshift.md)
-    
--   [SplStack »](class.splstack.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Перевіряє, чи містить вузли двозв'язковий список
-    
-
+---
+navigation:
+  - spldoublylinkedlist.unshift.md: '« SplDoublyLinkedList::unshift'
+  - class.splstack.md: SplStack »
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::valid'
+---
 # SplDoublyLinkedList::valid
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

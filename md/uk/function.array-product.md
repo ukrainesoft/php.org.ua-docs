@@ -1,16 +1,11 @@
-Обчислити добуток значень масиву
-
--   [« arraypop](function.array-pop.html)
-    
--   [arraypush »](function.array-push.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Обчислити добуток значень масиву
-    
-
+---
+navigation:
+  - function.array-pop.html: « arraypop
+  - function.array-push.html: arraypush »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayproduct
+---
 # arrayproduct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

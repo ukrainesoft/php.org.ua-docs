@@ -1,16 +1,11 @@
-Сортує записи LDAP
-
--   [« ldapsetrebindproc](function.ldap-set-rebind-proc.html)
-    
--   [ldapstarttls »](function.ldap-start-tls.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Сортує записи LDAP
-    
-
+---
+navigation:
+  - function.ldap-set-rebind-proc.html: « ldapsetrebindproc
+  - function.ldap-start-tls.html: ldapstarttls »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapsort
+---
 # ldapsort
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7)
@@ -51,9 +46,9 @@ ldap_sort(resource $link, resource $result, string $sortfilter): bool
 
 ### список змін
 
-| Версия | Описание               |
-|--------|------------------------|
-|        | Функцію було видалено. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію було видалено. |
 
 ### Приклади
 

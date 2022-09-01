@@ -1,16 +1,11 @@
-Повертає log(1 + number), розрахований так, що результат точний, навіть якщо значення number близько до нуля
-
--   [« log10](function.log10.md)
-    
--   [log »](function.log.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Повертає log(1 + number), розрахований так, що результат точний, навіть якщо значення number близько до нуля
-    
-
+---
+navigation:
+  - function.log10.md: « log10
+  - function.log.md: log »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: log1p
+---
 # log1p
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

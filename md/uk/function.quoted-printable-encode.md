@@ -1,16 +1,11 @@
-Перетворює 8-бітовий рядок за допомогою методу quoted-printable
-
--   [« quotedprintabledecode](function.quoted-printable-decode.html)
-    
--   [quotemeta »](function.quotemeta.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Перетворює 8-бітовий рядок за допомогою методу quoted-printable
-    
-
+---
+navigation:
+  - function.quoted-printable-decode.html: « quotedprintabledecode
+  - function.quotemeta.html: quotemeta »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: quotedprintableencode
+---
 # quotedprintableencode
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Затримка виконання у мікросекундах
-
--   [« unpack](function.unpack.md)
-    
--   [Список изменений »](changelog.misc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Затримка виконання у мікросекундах
-    
-
+---
+navigation:
+  - function.unpack.md: « unpack
+  - changelog.misc.md: Список изменений »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: usleep
+---
 # usleep
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-NULL
-
--   [« Ресурс](language.types.resource.html)
-    
--   [Функції зворотного дзвінка (callback-функції) »](language.types.callable.html)
-    
--   [PHP Manual](index.html)
-    
--   [Типи](language.types.html)
-    
--   NULL
-    
-
+---
+navigation:
+  - language.types.resource.html: « Ресурс
+  - language.types.callable.html: Функції зворотного дзвінка (callback-функції) »
+  - index.html: PHP Manual
+  - language.types.html: Типи
+title: 'NULL'
+---
 ## NULL
 
 Спеціальне значення **`null`** є змінною без значення . **`null`** - Це єдине можливе значення типу null.

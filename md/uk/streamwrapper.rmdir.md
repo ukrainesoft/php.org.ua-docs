@@ -1,16 +1,11 @@
-Видаляє директорію
-
--   [« streamWrapper::rename](streamwrapper.rename.md)
-    
--   [streamWrapper::streamcast »](streamwrapper.stream-cast.html)
-    
--   [PHP Manual](index.md)
-    
--   [streamWrapper](class.streamwrapper.md)
-    
--   Видаляє директорію
-    
-
+---
+navigation:
+  - streamwrapper.rename.md: '« streamWrapper::rename'
+  - streamwrapper.stream-cast.html: 'streamWrapper::streamcast »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
+title: 'streamWrapper::rmdir'
+---
 # streamWrapper::rmdir
 
 (PHP 5, PHP 7, PHP 8)

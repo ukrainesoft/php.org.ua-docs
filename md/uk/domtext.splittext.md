@@ -1,16 +1,11 @@
-Розділяє вузол на два, починаючи із заданої позиції
-
--   [« DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.html)
-    
--   [DOMXPath »](class.domxpath.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMText](class.domtext.html)
-    
--   Розділяє вузол на два, починаючи із заданої позиції
-    
-
+---
+navigation:
+  - domtext.iswhitespaceinelementcontent.html: '« DOMText::isWhitespaceInElementContent'
+  - class.domxpath.html: DOMXPath »
+  - index.html: PHP Manual
+  - class.domtext.html: DOMText
+title: 'DOMText::splitText'
+---
 # DOMText::splitText
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« ScoutAPM](book.scoutapm.html)
-    
--   [Встановлення та налаштування »](scoutapm.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [ScoutAPM](book.scoutapm.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.scoutapm.html: « ScoutAPM
+  - scoutapm.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.scoutapm.html: ScoutAPM
+title: Вступ
+---
 # Вступ
 
 > **Зауваження**: Для Windows-платформ цей модуль недоступний.

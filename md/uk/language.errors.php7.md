@@ -1,16 +1,11 @@
-Помилки у PHP 7
-
--   [« Основи](language.errors.basics.md)
-    
--   [Исключения »](language.exceptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [Ошибки](language.errors.md)
-    
--   Помилки у PHP 7
-    
-
+---
+navigation:
+  - language.errors.basics.md: « Основи
+  - language.exceptions.md: Исключения »
+  - index.md: PHP Manual
+  - language.errors.md: Ошибки
+title: Помилки у PHP 7
+---
 ## Помилки у PHP 7
 
 У PHP 7 механізм повідомлення про помилки було сильно змінено. Традиційне сповіщення про помилку в PHP 5 було замінено на новий механізм, в якому більшість помилок викликаються за допомогою винятків класу [Error](class.error.md)

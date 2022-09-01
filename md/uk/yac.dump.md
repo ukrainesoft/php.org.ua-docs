@@ -1,16 +1,11 @@
-Дамп кеша
-
--   [« Yac::delete](yac.delete.md)
-    
--   [Yac::flush »](yac.flush.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Дамп кеша
-    
-
+---
+navigation:
+  - yac.delete.md: '« Yac::delete'
+  - yac.flush.md: 'Yac::flush »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::dump'
+---
 # Yac::dump
 
 (PECL yac >= 1.0.0)

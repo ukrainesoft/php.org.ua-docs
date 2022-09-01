@@ -1,16 +1,11 @@
-Додати керуючий елемент
-
--   [« UIControlsForm](class.ui-controls-form.html)
-    
--   [ОЙControlsForm::delete »](ui-controls-form.delete.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsForm](class.ui-controls-form.html)
-    
--   Додати керуючий елемент
-    
-
+---
+navigation:
+  - class.ui-controls-form.html: « UIControlsForm
+  - ui-controls-form.delete.html: 'ОЙControlsForm::delete »'
+  - index.md: PHP Manual
+  - class.ui-controls-form.html: ОЙControlsForm
+title: 'ОЙControlsForm::append'
+---
 # ОЙControlsForm::append
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Функція густини ймовірності негативного біномінального розподілу
-
--   [« statsdenspmfhypergeometric](function.stats-dens-pmf-hypergeometric.html)
-    
--   [statsdenspmfpoisson »](function.stats-dens-pmf-poisson.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Функція густини ймовірності негативного біномінального розподілу
-    
-
+---
+navigation:
+  - function.stats-dens-pmf-hypergeometric.html: « statsdenspmfhypergeometric
+  - function.stats-dens-pmf-poisson.html: statsdenspmfpoisson »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsdenspmfnegativebinomial
+---
 # statsdenspmfnegativebinomial
 
 (PECL stats >= 1.0.0)

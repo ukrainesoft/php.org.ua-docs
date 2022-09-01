@@ -1,16 +1,11 @@
-Переміщує дані між файлами
-
--   [« eioseek](function.eio-seek.html)
-    
--   [eiosetmaxidle »](function.eio-set-max-idle.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Переміщує дані між файлами
-    
-
+---
+navigation:
+  - function.eio-seek.html: « eioseek
+  - function.eio-set-max-idle.html: eiosetmaxidle »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiosendfile
+---
 # eiosendfile
 
 (PECL eio >= 0.0.1dev)

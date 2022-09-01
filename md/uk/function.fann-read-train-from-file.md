@@ -1,16 +1,11 @@
-Читає файл, у якому зберігаються дані навчання
-
--   [« fannrandomizeweights](function.fann-randomize-weights.html)
-    
--   [fannreseterrno »](function.fann-reset-errno.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Читає файл, у якому зберігаються дані навчання
-    
-
+---
+navigation:
+  - function.fann-randomize-weights.html: « fannrandomizeweights
+  - function.fann-reset-errno.html: fannreseterrno »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannreadtrainfromfile
+---
 # fannreadtrainfromfile
 
 (PECL fann> = 1.0.0)

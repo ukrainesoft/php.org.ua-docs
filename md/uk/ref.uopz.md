@@ -1,16 +1,11 @@
-Функції Uopz
-
--   [« Обумовлені константи](uopz.constants.html)
-    
--   [uopzaddfunction »](function.uopz-add-function.html)
-    
--   [PHP Manual](index.html)
-    
--   [uopz](book.uopz.html)
-    
--   Функції Uopz
-    
-
+---
+navigation:
+  - uopz.constants.html: « Обумовлені константи
+  - function.uopz-add-function.html: uopzaddfunction »
+  - index.html: PHP Manual
+  - book.uopz.html: uopz
+title: Функції Uopz
+---
 # Функції Uopz
 
 ## Зміст

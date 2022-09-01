@@ -1,16 +1,11 @@
-Повертає набір бекендів, які підтримуються поточною конфігурацією libev
-
--   [« Ev::stop](ev.stop.md)
-    
--   [Ev::suspend »](ev.suspend.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Повертає набір бекендів, які підтримуються поточною конфігурацією libev
-    
-
+---
+navigation:
+  - ev.stop.md: '« Ev::stop'
+  - ev.suspend.md: 'Ev::suspend »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::supportedBackends'
+---
 # Ev::supportedBackends
 
 (PECL ev >= 0.2.0)

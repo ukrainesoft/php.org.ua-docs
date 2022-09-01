@@ -1,16 +1,11 @@
-UnhandledMatchError
-
--   [« ValueError](class.valueerror.md)
-    
--   [FiberError »](class.fibererror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   UnhandledMatchError
-    
-
+---
+navigation:
+  - class.valueerror.md: « ValueError
+  - class.fibererror.md: FiberError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: UnhandledMatchError
+---
 # UnhandledMatchError
 
 (PHP 8)

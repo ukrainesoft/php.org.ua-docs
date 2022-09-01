@@ -1,16 +1,11 @@
-Звільняє всі ресурси для вказаного оператора
-
--   [« sqlsrvfieldmetadata](function.sqlsrv-field-metadata.html)
-    
--   [sqlsrvgetconfig »](function.sqlsrv-get-config.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Звільняє всі ресурси для вказаного оператора
-    
-
+---
+navigation:
+  - function.sqlsrv-field-metadata.html: « sqlsrvfieldmetadata
+  - function.sqlsrv-get-config.html: sqlsrvgetconfig »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvfreestmt
+---
 # sqlsrvfreestmt
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Встановлює значення для усунення
-
--   [« ArrayIterator::offsetGet](arrayiterator.offsetget.html)
-    
--   [ArrayIterator::offsetUnset »](arrayiterator.offsetunset.html)
-    
--   [PHP Manual](index.html)
-    
--   [ArrayIterator](class.arrayiterator.html)
-    
--   Встановлює значення для усунення
-    
-
+---
+navigation:
+  - arrayiterator.offsetget.html: '« ArrayIterator::offsetGet'
+  - arrayiterator.offsetunset.html: 'ArrayIterator::offsetUnset »'
+  - index.html: PHP Manual
+  - class.arrayiterator.html: ArrayIterator
+title: 'ArrayIterator::offsetSet'
+---
 # ArrayIterator::offsetSet
 
 (PHP 5, PHP 7, PHP 8)

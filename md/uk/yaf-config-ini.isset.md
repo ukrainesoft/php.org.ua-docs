@@ -1,16 +1,11 @@
-Визначає, чи існує ключ
-
--   [« YafConfigIni::get](yaf-config-ini.get.html)
-    
--   [YafConfigIni::key »](yaf-config-ini.key.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigIni](class.yaf-config-ini.html)
-    
--   Визначає, чи існує ключ
-    
-
+---
+navigation:
+  - yaf-config-ini.get.html: '« YafConfigIni::get'
+  - yaf-config-ini.key.html: 'YafConfigIni::key »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.html: YafConfigIni
+title: 'YafConfigIni::isset'
+---
 # YafConfigIni::isset
 
 (Yaf >=1.0.0)

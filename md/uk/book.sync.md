@@ -1,16 +1,11 @@
-Sync
-
--   [« Shmop](class.shmop.md)
-    
--   [Введение »](intro.sync.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.md)
-    
--   Sync
-    
-
+---
+navigation:
+  - class.shmop.md: « Shmop
+  - intro.sync.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
+title: Sync
+---
 # Sync
 
 -   [Введение](intro.sync.md)

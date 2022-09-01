@@ -1,16 +1,11 @@
-Підготовляє SQL-запит для виконання
-
--   [« SQLite3::openBlob](sqlite3.openblob.html)
-    
--   [SQLite3::query »](sqlite3.query.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](class.sqlite3.html)
-    
--   Підготовляє SQL-запит для виконання
-    
-
+---
+navigation:
+  - sqlite3.openblob.html: '« SQLite3::openBlob'
+  - sqlite3.query.html: 'SQLite3::query »'
+  - index.html: PHP Manual
+  - class.sqlite3.html: SQLite3
+title: 'SQLite3::prepare'
+---
 # SQLite3::prepare
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

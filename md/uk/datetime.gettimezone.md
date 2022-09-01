@@ -1,16 +1,11 @@
-Повертає часовий пояс щодо поточного значення DateTime
-
--   [« DateTimeInterface::getTimestamp](datetime.gettimestamp.md)
-    
--   [DateTime::wakeup »](datetime.wakeup.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeInterface](class.datetimeinterface.md)
-    
--   Повертає часовий пояс щодо поточного значення DateTime
-    
-
+---
+navigation:
+  - datetime.gettimestamp.md: '« DateTimeInterface::getTimestamp'
+  - datetime.wakeup.md: 'DateTime::wakeup »'
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
+title: 'DateTimeInterface::getTimezone'
+---
 # DateTimeInterface::getTimezone
 
 # DateTimeImmutable::getTimezone

@@ -1,16 +1,11 @@
-Перевірити, чи заданий для властивості тип
-
--   [« ReflectionProperty::hasDefaultValue](reflectionproperty.hasdefaultvalue.html)
-    
--   [ReflectionProperty::isDefault »](reflectionproperty.isdefault.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionProperty](class.reflectionproperty.html)
-    
--   Перевірити, чи заданий для властивості тип
-    
-
+---
+navigation:
+  - reflectionproperty.hasdefaultvalue.html: '« ReflectionProperty::hasDefaultValue'
+  - reflectionproperty.isdefault.html: 'ReflectionProperty::isDefault »'
+  - index.html: PHP Manual
+  - class.reflectionproperty.html: ReflectionProperty
+title: 'ReflectionProperty::hasType'
+---
 # ReflectionProperty::hasType
 
 (PHP 7> = 7.4.0, PHP 8)

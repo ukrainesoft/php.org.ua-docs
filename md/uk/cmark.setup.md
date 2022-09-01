@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.cmark.md)
-    
--   [Вимоги »](cmark.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.cmark.md: « Введение
+  - cmark.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Створює новий об'єкт Picker
-
--   [« UIControlsPicker](class.ui-controls-picker.html)
-    
--   [ОЙControlsForm »](class.ui-controls-form.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsPicker](class.ui-controls-picker.html)
-    
--   Створює новий об'єкт Picker
-    
-
+---
+navigation:
+  - class.ui-controls-picker.html: « UIControlsPicker
+  - class.ui-controls-form.html: ОЙControlsForm »
+  - index.html: PHP Manual
+  - class.ui-controls-picker.html: ОЙControlsPicker
+title: 'ОЙControlsPicker::construct'
+---
 # ОЙControlsPicker::construct
 
 (UI 0.9.9)

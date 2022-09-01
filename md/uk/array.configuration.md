@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](array.installation.html)
-    
--   [Типи ресурсів »](array.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](array.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - array.installation.html: « Установка
+  - array.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - array.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

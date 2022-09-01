@@ -1,16 +1,11 @@
-Повертає ім'я команди
-
--   [« MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros »](mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
-    
--   Повертає ім'я команди
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-commandsucceededevent.html: « MongoDBDriverMonitoringCommandSucceededEvent
+  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+title: 'MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
+---
 # MongoDBDriverMonitoringCommandSucceededEvent::getCommandName
 
 (mongodb >=1.3.0)

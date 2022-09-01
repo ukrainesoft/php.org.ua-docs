@@ -1,16 +1,11 @@
-Повертає наступний ресурс дочірнього запиту з батьківського запиту, що має неявні результуючі набори Oracle Database
-
--   [« ocifreestatement](function.oci-free-statement.html)
-    
--   [ocilobcopy »](function.oci-lob-copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає наступний ресурс дочірнього запиту з батьківського запиту, що має неявні результуючі набори Oracle Database
-    
-
+---
+navigation:
+  - function.oci-free-statement.html: « ocifreestatement
+  - function.oci-lob-copy.html: ocilobcopy »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocigetimplicitresultset
+---
 # ocigetimplicitresultset
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8, PECL OCI8> = 2.0.0)

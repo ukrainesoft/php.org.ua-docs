@@ -1,16 +1,11 @@
-Робить кольори палітрової версії зображення більш відповідними truecolor версії
-
--   [« imagecolorexactalpha](function.imagecolorexactalpha.md)
-    
--   [imagecolorresolve »](function.imagecolorresolve.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Робить кольори палітрової версії зображення більш відповідними truecolor версії
-    
-
+---
+navigation:
+  - function.imagecolorexactalpha.md: « imagecolorexactalpha
+  - function.imagecolorresolve.md: imagecolorresolve »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolormatch
+---
 # imagecolormatch
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ imagecolormatch(GdImage $image1, GdImage $image2): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------|
-|        | `image1` і `image2` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image1` і `image2` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

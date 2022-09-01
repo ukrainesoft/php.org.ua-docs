@@ -1,16 +1,11 @@
-Обробник зміни
-
--   [« UIControlsSpin::getValue](ui-controls-spin.getvalue.html)
-    
--   [ОЙControlsSpin::setValue »](ui-controls-spin.setvalue.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsSpin](class.ui-controls-spin.html)
-    
--   Обробник зміни
-    
-
+---
+navigation:
+  - ui-controls-spin.getvalue.html: '« UIControlsSpin::getValue'
+  - ui-controls-spin.setvalue.html: 'ОЙControlsSpin::setValue »'
+  - index.html: PHP Manual
+  - class.ui-controls-spin.html: ОЙControlsSpin
+title: 'ОЙControlsSpin::onChange'
+---
 # ОЙControlsSpin::onChange
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Повертає профілі зображень
-
--   [« Imagick::getImageProfile](imagick.getimageprofile.md)
-    
--   [Imagick::getImageProperties »](imagick.getimageproperties.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає профілі зображень
-    
-
+---
+navigation:
+  - imagick.getimageprofile.md: '« Imagick::getImageProfile'
+  - imagick.getimageproperties.md: 'Imagick::getImageProperties »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageProfiles'
+---
 # Imagick::getImageProfiles
 
 (PECL imagick 2, PECL imagick 3)

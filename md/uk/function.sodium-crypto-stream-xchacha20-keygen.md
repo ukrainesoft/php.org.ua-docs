@@ -1,16 +1,11 @@
-Повертає безпечний випадковий ключ
-
--   [« sodiumcryptostreamkeygen](function.sodium-crypto-stream-keygen.html)
-    
--   [sodiumcryptostreamxchacha20xor »](function.sodium-crypto-stream-xchacha20-xor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Повертає безпечний випадковий ключ
-    
-
+---
+navigation:
+  - function.sodium-crypto-stream-keygen.html: « sodiumcryptostreamkeygen
+  - function.sodium-crypto-stream-xchacha20-xor.html: sodiumcryptostreamxchacha20xor »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptostreamxchacha20keygen
+---
 # sodiumcryptostreamxchacha20keygen
 
 (PHP 8> = 8.1.0)

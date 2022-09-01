@@ -1,16 +1,11 @@
-Базові клієнт та обробник Gearman, відправка завдань
-
--   [« Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.html)
-    
--   [GearmanClient »](class.gearmanclient.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](gearman.examples.md)
-    
--   Базові клієнт та обробник Gearman, відправка завдань
-    
-
+---
+navigation:
+  - gearman.examples-reverse-bg.html: '« Базовий клієнт та обробник Gearman, фоновий режим'
+  - class.gearmanclient.md: GearmanClient »
+  - index.md: PHP Manual
+  - gearman.examples.md: Приклади
+title: 'Базові клієнт та обробник Gearman, відправка завдань'
+---
 ## Базові клієнт та обробник Gearman, відправка завдань
 
 **Приклад #1 Базові клієнт та обробник Gearman, відправлення завдань**

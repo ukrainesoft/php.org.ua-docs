@@ -1,16 +1,11 @@
-З'єднання з базою даних CUBRID
-
--   [« CUBRID (PDO)](ref.pdo-cubrid.html)
-    
--   [PDO::cubridschema »](pdo.cubrid-schema.html)
-    
--   [PHP Manual](index.md)
-    
--   [CUBRID (PDO)](ref.pdo-cubrid.html)
-    
--   З'єднання з базою даних CUBRID
-    
-
+---
+navigation:
+  - ref.pdo-cubrid.html: « CUBRID (PDO)
+  - pdo.cubrid-schema.html: 'PDO::cubridschema »'
+  - index.md: PHP Manual
+  - ref.pdo-cubrid.html: CUBRID (PDO)
+title: PDOCUBRID DSN
+---
 # PDOCUBRID DSN
 
 (PECL PDOCUBRID >= 8.3.0.0001)

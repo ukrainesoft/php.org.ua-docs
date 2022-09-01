@@ -1,16 +1,11 @@
-Переміщення ітератора до наступного елементу
-
--   [« RecursiveIteratorIterator::key](recursiveiteratoriterator.key.md)
-    
--   [RecursiveIteratorIterator::nextElement »](recursiveiteratoriterator.nextelement.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Переміщення ітератора до наступного елементу
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.key.md: '« RecursiveIteratorIterator::key'
+  - recursiveiteratoriterator.nextelement.md: 'RecursiveIteratorIterator::nextElement »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::next'
+---
 # RecursiveIteratorIterator::next
 
 (PHP 5, PHP 7, PHP 8)

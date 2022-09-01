@@ -1,16 +1,11 @@
-Повертає потенційний тип зображення
-
--   [« Gmagick::getimagesignature](gmagick.getimagesignature.md)
-    
--   [Gmagick::getimageunits »](gmagick.getimageunits.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає потенційний тип зображення
-    
-
+---
+navigation:
+  - gmagick.getimagesignature.md: '« Gmagick::getimagesignature'
+  - gmagick.getimageunits.md: 'Gmagick::getimageunits »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagetype'
+---
 # Gmagick::getimagetype
 
 (PECL gmagick >= Unknown)

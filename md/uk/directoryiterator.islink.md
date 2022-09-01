@@ -1,16 +1,11 @@
-Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
-
--   [« DirectoryIterator::isFile](directoryiterator.isfile.html)
-    
--   [DirectoryIterator::isReadable »](directoryiterator.isreadable.html)
-    
--   [PHP Manual](index.html)
-    
--   [DirectoryIterator](class.directoryiterator.html)
-    
--   Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
-    
-
+---
+navigation:
+  - directoryiterator.isfile.html: '« DirectoryIterator::isFile'
+  - directoryiterator.isreadable.html: 'DirectoryIterator::isReadable »'
+  - index.html: PHP Manual
+  - class.directoryiterator.html: DirectoryIterator
+title: 'DirectoryIterator::isLink'
+---
 # DirectoryIterator::isLink
 
 (PHP 5, PHP 7, PHP 8)

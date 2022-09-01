@@ -1,16 +1,11 @@
-Витягти конкретну секцію тіла повідомлення
-
--   [« imapfetchoverview](function.imap-fetch-overview.html)
-    
--   [imapfetchheader »](function.imap-fetchheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Витягти конкретну секцію тіла повідомлення
-    
-
+---
+navigation:
+  - function.imap-fetch-overview.html: « imapfetchoverview
+  - function.imap-fetchheader.html: imapfetchheader »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapfetchbody
+---
 # imapfetchbody
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ imap_fetchbody(    IMAP\Connection $imap,    int $message_num,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

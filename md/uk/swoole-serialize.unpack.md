@@ -1,16 +1,11 @@
-Десеріалізувати дані
-
--   [« SwooleSerialize::pack](swoole-serialize.pack.html)
-    
--   [SwooleServer »](class.swoole-server.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleSerialize](class.swoole-serialize.html)
-    
--   Десеріалізувати дані
-    
-
+---
+navigation:
+  - swoole-serialize.pack.html: '« SwooleSerialize::pack'
+  - class.swoole-server.html: SwooleServer »
+  - index.html: PHP Manual
+  - class.swoole-serialize.html: SwooleSerialize
+title: 'SwooleSerialize::unpack'
+---
 # SwooleSerialize::unpack
 
 (PECL swoole >= 1.9.0)

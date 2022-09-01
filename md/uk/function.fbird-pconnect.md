@@ -1,16 +1,11 @@
-Псевдонім ibasepconnect
-
--   [« fbirdparaminfo](function.fbird-param-info.html)
-    
--   [fbirdprepare »](function.fbird-prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibasepconnect
-    
-
+---
+navigation:
+  - function.fbird-param-info.html: « fbirdparaminfo
+  - function.fbird-prepare.html: fbirdprepare »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirdpconnect
+---
 # fbirdpconnect
 
 (PHP 5, PHP 7 < 7.4.0)

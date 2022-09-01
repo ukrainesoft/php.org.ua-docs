@@ -1,16 +1,11 @@
-OAuth
-
--   [« Веб-сервіси](refs.webservice.md)
-    
--   [Введение »](intro.oauth.md)
-    
--   [PHP Manual](index.md)
-    
--   [Веб-сервіси](refs.webservice.md)
-    
--   OAuth
-    
-
+---
+navigation:
+  - refs.webservice.md: « Веб-сервіси
+  - intro.oauth.md: Введение »
+  - index.md: PHP Manual
+  - refs.webservice.md: Веб-сервіси
+title: OAuth
+---
 # OAuth
 
 -   [Введение](intro.oauth.md)

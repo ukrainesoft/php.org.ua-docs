@@ -1,16 +1,11 @@
-Повертає відсортовану за значенням копію колекції
-
--   [« DsSequence::sort](ds-sequence.sort.html)
-    
--   [ДсSequence::sum »](ds-sequence.sum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає відсортовану за значенням копію колекції
-    
-
+---
+navigation:
+  - ds-sequence.sort.html: '« DsSequence::sort'
+  - ds-sequence.sum.html: 'ДсSequence::sum »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::sorted'
+---
 # ДсSequence::sorted
 
 (PECL ds >= 1.0.0)

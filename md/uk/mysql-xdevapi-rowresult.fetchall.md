@@ -1,16 +1,11 @@
-Отримує всі рядки з результату
-
--   [« RowResult::construct](mysql-xdevapi-rowresult.construct.html)
-    
--   [RowResult::fetchOne »](mysql-xdevapi-rowresult.fetchone.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
-    
--   Отримує всі рядки з результату
-    
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.construct.html: '« RowResult::construct'
+  - mysql-xdevapi-rowresult.fetchone.html: 'RowResult::fetchOne »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+title: 'RowResult::fetchAll'
+---
 # RowResult::fetchAll
 
 (No version information available, might only be in Git)

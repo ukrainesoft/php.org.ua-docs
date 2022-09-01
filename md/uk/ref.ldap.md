@@ -1,16 +1,11 @@
-Функції LDAP
-
--   [« LDAP Controls](ldap.examples-controls.html)
-    
--   [ldapтоt61 »](function.ldap-8859-to-t61.html)
-    
--   [PHP Manual](index.html)
-    
--   [LDAP](book.ldap.html)
-    
--   Функції LDAP
-    
-
+---
+navigation:
+  - ldap.examples-controls.html: « LDAP Controls
+  - function.ldap-8859-to-t61.html: ldapтоt61 »
+  - index.html: PHP Manual
+  - book.ldap.html: LDAP
+title: Функції LDAP
+---
 # Функції LDAP
 
 ## Зміст

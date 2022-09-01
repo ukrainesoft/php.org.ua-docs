@@ -1,16 +1,11 @@
-Регулює рівні зображення
-
--   [« Imagick::labelImage](imagick.labelimage.html)
-    
--   [Imagick::linearStretchImage »](imagick.linearstretchimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Регулює рівні зображення
-    
-
+---
+navigation:
+  - imagick.labelimage.html: '« Imagick::labelImage'
+  - imagick.linearstretchimage.html: 'Imagick::linearStretchImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::levelImage'
+---
 # Imagick::levelImage
 
 (PECL imagick 2, PECL imagick 3)

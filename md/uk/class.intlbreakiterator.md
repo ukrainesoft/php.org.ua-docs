@@ -1,16 +1,11 @@
-Клас IntlBreakIterator
-
--   [« Transliterator::transliterate](transliterator.transliterate.md)
-    
--   [IntlBreakIterator::construct »](intlbreakiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас IntlBreakIterator
-    
-
+---
+navigation:
+  - transliterator.transliterate.md: '« Transliterator::transliterate'
+  - intlbreakiterator.construct.md: 'IntlBreakIterator::construct »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас IntlBreakIterator
+---
 # Клас IntlBreakIterator
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -187,9 +182,9 @@ public setText(string $text): ?bool
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 

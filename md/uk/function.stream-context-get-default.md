@@ -1,16 +1,11 @@
-Отримує контекст потоку за промовчанням
-
--   [« streamcontextcreate](function.stream-context-create.html)
-    
--   [streamcontextgetoptions »](function.stream-context-get-options.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Отримує контекст потоку за промовчанням
-    
-
+---
+navigation:
+  - function.stream-context-create.html: « streamcontextcreate
+  - function.stream-context-get-options.html: streamcontextgetoptions »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamcontextgetdefault
+---
 # streamcontextgetdefault
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ stream_context_get_default(?array $options = null): resource
 
 ### список змін
 
-| Версия | Описание                                         |
-|--------|--------------------------------------------------|
-|        | Параметр `options` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `options` тепер допускає значення null. |
 
 ### Приклади
 

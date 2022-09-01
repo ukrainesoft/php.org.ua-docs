@@ -1,16 +1,11 @@
-Декодує посилання на числовий рядок HTML на символ
-
--   [« mbdecodemimeheader](function.mb-decode-mimeheader.html)
-    
--   [мбdetectencoding »](function.mb-detect-encoding.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Декодує посилання на числовий рядок HTML на символ
-    
-
+---
+navigation:
+  - function.mb-decode-mimeheader.html: « mbdecodemimeheader
+  - function.mb-detect-encoding.html: мбdetectencoding »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбdecodenumericentity
+---
 # мбdecodenumericentity
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ mb_decode_numericentity(string $string, array $map, ?string $encoding = null): s
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

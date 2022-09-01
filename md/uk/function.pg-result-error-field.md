@@ -1,16 +1,11 @@
-Повертає конкретне поле зі звіту про помилки
-
--   [« pgquery](function.pg-query.html)
-    
--   [пгresulterror »](function.pg-result-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає конкретне поле зі звіту про помилки
-    
-
+---
+navigation:
+  - function.pg-query.html: « pgquery
+  - function.pg-result-error.html: пгresulterror »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгresulterrorfield
+---
 # пгresulterrorfield
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

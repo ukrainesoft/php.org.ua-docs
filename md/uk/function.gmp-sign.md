@@ -1,16 +1,11 @@
-Знак числа
-
--   [« gmpsetbit](function.gmp-setbit.html)
-    
--   [gmpsqrt »](function.gmp-sqrt.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Знак числа
-    
-
+---
+navigation:
+  - function.gmp-setbit.html: « gmpsetbit
+  - function.gmp-sqrt.html: gmpsqrt »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpsign
+---
 # gmpsign
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує номер рядка, в якому сталася помилка
-
--   [« Error::getFile](error.getfile.html)
-    
--   [Error::getTrace »](error.gettrace.html)
-    
--   [PHP Manual](index.html)
-    
--   [Error](class.error.html)
-    
--   Отримує номер рядка, в якому сталася помилка
-    
-
+---
+navigation:
+  - error.getfile.html: '« Error::getFile'
+  - error.gettrace.html: 'Error::getTrace »'
+  - index.html: PHP Manual
+  - class.error.html: Error
+title: 'Error::getLine'
+---
 # Error::getLine
 
 (PHP 7, PHP 8)

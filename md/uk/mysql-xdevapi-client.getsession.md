@@ -1,16 +1,11 @@
-Отримує сеанс клієнта
-
--   [« Client::construct](mysql-xdevapi-client.construct.html)
-    
--   [mysqlxdevapiCollection »](class.mysql-xdevapi-collection.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiClient](class.mysql-xdevapi-client.html)
-    
--   Отримує сеанс клієнта
-    
-
+---
+navigation:
+  - mysql-xdevapi-client.construct.html: '« Client::construct'
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-client.html: mysqlxdevapiClient
+title: 'Client::getClient'
+---
 # Client::getClient
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Цілочисельний поділ
-
--   [« hypot](function.hypot.md)
-    
--   [ісfinite »](function.is-finite.html)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Цілочисельний поділ
-    
-
+---
+navigation:
+  - function.hypot.md: « hypot
+  - function.is-finite.html: ісfinite »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: intdiv
+---
 # intdiv
 
 (PHP 7, PHP 8)

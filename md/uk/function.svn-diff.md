@@ -1,16 +1,11 @@
-Рекурсивно показує різницю двох файлів
-
--   [« svndelete](function.svn-delete.html)
-    
--   [svnexport »](function.svn-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Рекурсивно показує різницю двох файлів
-    
-
+---
+navigation:
+  - function.svn-delete.html: « svndelete
+  - function.svn-export.html: svnexport »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svndiff
+---
 # svndiff
 
 (PECL svn> = 0.1.0)

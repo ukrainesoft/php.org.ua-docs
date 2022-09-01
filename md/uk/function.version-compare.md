@@ -1,16 +1,11 @@
-Порівнює два "стандартизовані" рядки з номером версії PHP
-
--   [« sysgettempdir](function.sys-get-temp-dir.html)
-    
--   [zendthreadid »](function.zend-thread-id.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Порівнює два "стандартизовані" рядки з номером версії PHP
-    
-
+---
+navigation:
+  - function.sys-get-temp-dir.html: « sysgettempdir
+  - function.zend-thread-id.html: zendthreadid »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: versioncompare
+---
 # versioncompare
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Отримує стиль формату дати та часу SeasLog
-
--   [« SeasLog::getBufferEnabled](seaslog.getbufferenabled.html)
-    
--   [SeasLog::getLastLogger »](seaslog.getlastlogger.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Отримує стиль формату дати та часу SeasLog
-    
-
+---
+navigation:
+  - seaslog.getbufferenabled.html: '« SeasLog::getBufferEnabled'
+  - seaslog.getlastlogger.html: 'SeasLog::getLastLogger »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::getDatetimeFormat'
+---
 # SeasLog::getDatetimeFormat
 
 (PECL seaslog >=1.0.0)

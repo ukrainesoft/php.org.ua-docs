@@ -1,16 +1,11 @@
-Закриває сесію SNMP
-
--   [« SNMP](class.snmp.html)
-    
--   [SNMP::construct »](snmp.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SNMP](class.snmp.html)
-    
--   Закриває сесію SNMP
-    
-
+---
+navigation:
+  - class.snmp.html: « SNMP
+  - snmp.construct.html: 'SNMP::construct »'
+  - index.html: PHP Manual
+  - class.snmp.html: SNMP
+title: 'SNMP::close'
+---
 # SNMP::close
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

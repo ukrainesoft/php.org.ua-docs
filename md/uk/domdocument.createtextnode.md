@@ -1,16 +1,11 @@
-Створити новий текстовий вузол
-
--   [« DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md)
-    
--   [DOMDocument::getElementById »](domdocument.getelementbyid.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий текстовий вузол
-    
-
+---
+navigation:
+  - domdocument.createprocessinginstruction.md: '« DOMDocument::createProcessingInstruction'
+  - domdocument.getelementbyid.md: 'DOMDocument::getElementById »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createTextNode'
+---
 # DOMDocument::createTextNode
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public DOMDocument::createTextNode(string $data): DOMText
 
 ### список змін
 
-| Версия | Описание                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.md). Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.md). Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 

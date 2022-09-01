@@ -1,16 +1,11 @@
-Строкове подання помилки
-
--   [« Error::getTraceAsString](error.gettraceasstring.md)
-    
--   [Error::clone »](error.clone.md)
-    
--   [PHP Manual](index.md)
-    
--   [Error](class.error.md)
-    
--   Строкове подання помилки
-    
-
+---
+navigation:
+  - error.gettraceasstring.md: '« Error::getTraceAsString'
+  - error.clone.md: 'Error::clone »'
+  - index.md: PHP Manual
+  - class.error.md: Error
+title: 'Error::function toString() { \[native code\] }'
+---
 # Error::function toString() { \[native code\] }
 
 (PHP 7, PHP 8)

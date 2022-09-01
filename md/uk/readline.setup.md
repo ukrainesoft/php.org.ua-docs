@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.readline.html)
-    
--   [Вимоги »](readline.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Readline](book.readline.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.readline.html: « Введение
+  - readline.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.readline.html: Readline
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

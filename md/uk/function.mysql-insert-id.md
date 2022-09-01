@@ -1,16 +1,11 @@
-Повертає ідентифікатор, згенерований при останньому INSERT-запиті
-
--   [« mysqlinfo](function.mysql-info.html)
-    
--   [mysqllistdbs »](function.mysql-list-dbs.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає ідентифікатор, згенерований при останньому INSERT-запиті
-    
-
+---
+navigation:
+  - function.mysql-info.html: « mysqlinfo
+  - function.mysql-list-dbs.html: mysqllistdbs »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlinsertід
+---
 # mysqlinsertід
 
 (PHP 4, PHP 5)

@@ -1,16 +1,11 @@
-Псевдонім DateTimeZone::getTransitions
-
--   [« timezoneopen](function.timezone-open.html)
-    
--   [timezoneversionget »](function.timezone-version-get.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTimeZone::getTransitions
-    
-
+---
+navigation:
+  - function.timezone-open.html: « timezoneopen
+  - function.timezone-version-get.html: timezoneversionget »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: timezonetransitionsget
+---
 # timezonetransitionsget
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

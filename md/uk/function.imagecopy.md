@@ -1,16 +1,11 @@
-Копіювання частини зображення
-
--   [« imageconvolution](function.imageconvolution.md)
-    
--   [imagecopymerge »](function.imagecopymerge.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Копіювання частини зображення
-    
-
+---
+navigation:
+  - function.imageconvolution.md: « imageconvolution
+  - function.imagecopymerge.md: imagecopymerge »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecopy
+---
 # imagecopy
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -65,9 +60,9 @@ y-координата вихідного зображення.
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає масив входжень, які відповідають шаблону
-
--   [« pregfilter](function.preg-filter.html)
-    
--   [preglasterrormsg »](function.preg-last-error-msg.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Повертає масив входжень, які відповідають шаблону
-    
-
+---
+navigation:
+  - function.preg-filter.html: « pregfilter
+  - function.preg-last-error-msg.html: preglasterrormsg »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: preggrep
+---
 # preggrep
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

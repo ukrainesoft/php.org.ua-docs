@@ -1,16 +1,11 @@
-Закриває об'єкт LOB
-
--   [« cubridlob2bind](function.cubrid-lob2-bind.html)
-    
--   [cubridlob2export »](function.cubrid-lob2-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Закриває об'єкт LOB
-    
-
+---
+navigation:
+  - function.cubrid-lob2-bind.html: « cubridlob2bind
+  - function.cubrid-lob2-export.html: cubridlob2export »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubridlob2close
+---
 # cubridlob2close
 
 (PECL CUBRID >= 8.4.1)

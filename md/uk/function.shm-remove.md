@@ -1,16 +1,11 @@
-Видаляє пам'ять, що розділяється, з систем Unix
-
--   [« shmremovevar](function.shm-remove-var.html)
-    
--   [SysvMessageQueue »](class.sysvmessagequeue.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Видаляє пам'ять, що розділяється, з систем Unix
-    
-
+---
+navigation:
+  - function.shm-remove-var.html: « shmremovevar
+  - class.sysvmessagequeue.html: SysvMessageQueue »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: shmremove
+---
 # shmremove
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ shm_remove(SysvSharedMemory $shm): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------|
-|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Клас ImagickPixelIterator
-
--   [« ImagickPixel::setIndex](imagickpixel.setindex.md)
-    
--   [ImagickPixelIterator::clear »](imagickpixeliterator.clear.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImageMagick](book.imagick.md)
-    
--   Клас ImagickPixelIterator
-    
-
+---
+navigation:
+  - imagickpixel.setindex.md: '« ImagickPixel::setIndex'
+  - imagickpixeliterator.clear.md: 'ImagickPixelIterator::clear »'
+  - index.md: PHP Manual
+  - book.imagick.md: ImageMagick
+title: 'Клас [ImagickPixelIterator](class.imagickpixeliterator.md)'
+---
 # Клас [ImagickPixelIterator](class.imagickpixeliterator.md)
 
 (PECL imagick 2, PECL imagick 3)

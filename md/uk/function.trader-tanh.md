@@ -1,16 +1,11 @@
-Тригонометричний вектор Тан
-
--   [« tradertan](function.trader-tan.html)
-    
--   [tradertema »](function.trader-tema.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Тригонометричний вектор Тан
-    
-
+---
+navigation:
+  - function.trader-tan.html: « tradertan
+  - function.trader-tema.html: tradertema »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradertanh
+---
 # tradertanh
 
 (PECL trader >= 0.2.0)

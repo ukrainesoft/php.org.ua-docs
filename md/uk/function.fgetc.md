@@ -1,16 +1,11 @@
-Зчитує символ із файлу
-
--   [« fflush](function.fflush.md)
-    
--   [fgetcsv »](function.fgetcsv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Зчитує символ із файлу
-    
-
+---
+navigation:
+  - function.fflush.md: « fflush
+  - function.fgetcsv.md: fgetcsv »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fgetc
+---
 # fgetc
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

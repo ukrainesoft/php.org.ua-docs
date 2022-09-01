@@ -1,16 +1,11 @@
-Повертає поточний стан транзакції на сервері
-
--   [« pgtrace](function.pg-trace.html)
-    
--   [пгtty »](function.pg-tty.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Повертає поточний стан транзакції на сервері
-    
-
+---
+navigation:
+  - function.pg-trace.html: « pgtrace
+  - function.pg-tty.html: пгtty »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгtransactionstatus
+---
 # пгtransactionstatus
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pg_transaction_status(PgSql\Connection $connection): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Клас YafRequestAbstract
-
--   [« YafRegistry::set](yaf-registry.set.html)
-    
--   [YafRequestAbstract::clearParams »](yaf-request-abstract.clearparams.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRequestAbstract
-    
-
+---
+navigation:
+  - yaf-registry.set.html: '« YafRegistry::set'
+  - yaf-request-abstract.clearparams.html: 'YafRequestAbstract::clearParams »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRequestAbstract
+---
 # Клас YafRequestAbstract
 
 (Yaf >=1.0.0)

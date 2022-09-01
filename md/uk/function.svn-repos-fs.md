@@ -1,16 +1,11 @@
-Повертає дескриптор файлової системи для репозиторію
-
--   [« svnreposфсcommittxn](function.svn-repos-fs-commit-txn.html)
-    
--   [svnreposhotcopy »](function.svn-repos-hotcopy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає дескриптор файлової системи для репозиторію
-    
-
+---
+navigation:
+  - function.svn-repos-fs-commit-txn.html: « svnreposфсcommittxn
+  - function.svn-repos-hotcopy.html: svnreposhotcopy »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnreposфс
+---
 # svnreposфс
 
 (PECL svn >= 0.1.0)

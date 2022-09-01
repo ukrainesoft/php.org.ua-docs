@@ -1,16 +1,11 @@
-Псевдонім opensslpkeygetpublic
-
--   [« opensslgetprivatekey](function.openssl-get-privatekey.html)
-    
--   [opensslopen »](function.openssl-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Псевдонім opensslpkeygetpublic
-    
-
+---
+navigation:
+  - function.openssl-get-privatekey.html: « opensslgetprivatekey
+  - function.openssl-open.html: opensslopen »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslgetpublickey
+---
 # opensslgetpublickey
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

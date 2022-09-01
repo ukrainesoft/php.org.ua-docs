@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](funchand.setup.html)
-    
--   [Установка »](funchand.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](funchand.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - funchand.setup.html: « Встановлення та налаштування
+  - funchand.installation.html: Установка »
+  - index.html: PHP Manual
+  - funchand.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

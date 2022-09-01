@@ -1,16 +1,11 @@
-Знімає з повідомлення позначку видалення
-
--   [« imapuid](function.imap-uid.html)
-    
--   [imapunsubscribe »](function.imap-unsubscribe.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Знімає з повідомлення позначку видалення
-    
-
+---
+navigation:
+  - function.imap-uid.html: « imapuid
+  - function.imap-unsubscribe.html: imapunsubscribe »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapundelete
+---
 # imapundelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

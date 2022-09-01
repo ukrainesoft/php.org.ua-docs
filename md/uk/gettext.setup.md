@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.gettext.md)
-    
--   [Вимоги »](gettext.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gettext](book.gettext.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.gettext.md: « Введение
+  - gettext.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.gettext.md: Gettext
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

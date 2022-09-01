@@ -1,16 +1,11 @@
-Отримує шлях без імені файлу
-
--   [« SplFileInfo::getOwner](splfileinfo.getowner.md)
-    
--   [SplFileInfo::getPathInfo »](splfileinfo.getpathinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує шлях без імені файлу
-    
-
+---
+navigation:
+  - splfileinfo.getowner.md: '« SplFileInfo::getOwner'
+  - splfileinfo.getpathinfo.md: 'SplFileInfo::getPathInfo »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getPath'
+---
 # SplFileInfo::getPath
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

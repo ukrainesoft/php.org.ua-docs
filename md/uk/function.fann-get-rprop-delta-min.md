@@ -1,16 +1,11 @@
-Повертає мінімальний розмір кроку
-
--   [« fanngetrpropdeltamax](function.fann-get-rprop-delta-max.html)
-    
--   [fanngetrpropdeltazero »](function.fann-get-rprop-delta-zero.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає мінімальний розмір кроку
-    
-
+---
+navigation:
+  - function.fann-get-rprop-delta-max.html: « fanngetrpropdeltamax
+  - function.fann-get-rprop-delta-zero.html: fanngetrpropdeltazero »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetrpropdeltamin
+---
 # fanngetrpropdeltamin
 
 (PECL fann> = 1.0.0)

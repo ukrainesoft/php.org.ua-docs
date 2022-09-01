@@ -1,16 +1,11 @@
-Додає тег, отриманий у запиті
-
--   [« Функції RpmInfo](ref.rpminfo.md)
-    
--   [rpmdbinfo »](function.rpmdbinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RpmInfo](ref.rpminfo.md)
-    
--   Додає тег, отриманий у запиті
-    
-
+---
+navigation:
+  - ref.rpminfo.md: « Функції RpmInfo
+  - function.rpmdbinfo.md: rpmdbinfo »
+  - index.md: PHP Manual
+  - ref.rpminfo.md: Функції RpmInfo
+title: rpmaddtag
+---
 # rpmaddtag
 
 (PECL rpminfo >= 0.5.0)

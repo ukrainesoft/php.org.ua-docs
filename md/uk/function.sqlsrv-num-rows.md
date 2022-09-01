@@ -1,16 +1,11 @@
-Отримує кількість рядків у наборі результатів
-
--   [« sqlsrvnumfields](function.sqlsrv-num-fields.html)
-    
--   [sqlsrvprepare »](function.sqlsrv-prepare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SQLSRV](ref.sqlsrv.html)
-    
--   Отримує кількість рядків у наборі результатів
-    
-
+---
+navigation:
+  - function.sqlsrv-num-fields.html: « sqlsrvnumfields
+  - function.sqlsrv-prepare.html: sqlsrvprepare »
+  - index.html: PHP Manual
+  - ref.sqlsrv.html: Функції SQLSRV
+title: sqlsrvnumrows
+---
 # sqlsrvnumrows
 
 (No version information available, might only be in Git)

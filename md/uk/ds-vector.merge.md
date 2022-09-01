@@ -1,16 +1,11 @@
-Повертає результат додавання всіх заданих значень вектор
-
--   [« DsVector::map](ds-vector.map.html)
-    
--   [ДсVector::pop »](ds-vector.pop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Повертає результат додавання всіх заданих значень вектор
-    
-
+---
+navigation:
+  - ds-vector.map.html: '« DsVector::map'
+  - ds-vector.pop.html: 'ДсVector::pop »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::merge'
+---
 # ДсVector::merge
 
 (PECL ds >= 1.0.0)

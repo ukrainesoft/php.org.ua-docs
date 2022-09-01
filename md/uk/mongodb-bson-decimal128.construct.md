@@ -1,16 +1,11 @@
-Створює новий Decimal128
-
--   [« MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
-    
--   [MongoDBBSONDecimal128::jsonSerialize »](mongodb-bson-decimal128.jsonserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html)
-    
--   Створює новий Decimal128
-    
-
+---
+navigation:
+  - class.mongodb-bson-decimal128.html: « MongoDBBSONDecimal128
+  - mongodb-bson-decimal128.jsonserialize.html: 'MongoDBBSONDecimal128::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128
+title: 'MongoDBBSONDecimal128::construct'
+---
 # MongoDBBSONDecimal128::construct
 
 (mongodb >=1.2.0)

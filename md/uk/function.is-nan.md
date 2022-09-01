@@ -1,16 +1,11 @@
-Перевіряє, чи є значення "не числом"
-
--   [« isinfinite](function.is-infinite.html)
-    
--   [lcgvalue »](function.lcg-value.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Перевіряє, чи є значення "не числом"
-    
-
+---
+navigation:
+  - function.is-infinite.html: « isinfinite
+  - function.lcg-value.html: lcgvalue »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: ісnan
+---
 # ісnan
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Створює 3D-ефект
-
--   [« Imagick::setType](imagick.settype.md)
-    
--   [Imagick::shadowImage »](imagick.shadowimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює 3D-ефект
-    
-
+---
+navigation:
+  - imagick.settype.md: '« Imagick::setType'
+  - imagick.shadowimage.md: 'Imagick::shadowImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::shadeImage'
+---
 # Imagick::shadeImage
 
 (PECL imagick 2, PECL imagick 3)

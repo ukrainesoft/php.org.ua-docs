@@ -1,16 +1,11 @@
-Закриває з'єднання з FTP-сервером
-
--   [« ftpchmod](function.ftp-chmod.html)
-    
--   [ftpconnect »](function.ftp-connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Закриває з'єднання з FTP-сервером
-    
-
+---
+navigation:
+  - function.ftp-chmod.html: « ftpchmod
+  - function.ftp-connect.html: ftpconnect »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpclose
+---
 # ftpclose
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ ftp_close(FTP\Connection $ftp): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

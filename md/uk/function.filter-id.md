@@ -1,16 +1,11 @@
-Повертає ідентифікатор, що належить іменованому фільтру
-
--   [« filterhasvar](function.filter-has-var.html)
-    
--   [filterinputarray »](function.filter-input-array.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції фільтрації даних](ref.filter.html)
-    
--   Повертає ідентифікатор, що належить іменованому фільтру
-    
-
+---
+navigation:
+  - function.filter-has-var.html: « filterhasvar
+  - function.filter-input-array.html: filterinputarray »
+  - index.html: PHP Manual
+  - ref.filter.html: Функції фільтрації даних
+title: filterід
+---
 # filterід
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

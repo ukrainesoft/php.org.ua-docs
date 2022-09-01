@@ -1,16 +1,11 @@
-Видаляє всі значення
-
--   [« Коллекция](class.ds-collection.html)
-    
--   [ДсCollection::copy »](ds-collection.copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция](class.ds-collection.html)
-    
--   Видаляє всі значення
-    
-
+---
+navigation:
+  - class.ds-collection.html: « Коллекция
+  - ds-collection.copy.html: 'ДсCollection::copy »'
+  - index.md: PHP Manual
+  - class.ds-collection.html: Коллекция
+title: 'ДсCollection::clear'
+---
 # ДсCollection::clear
 
 (PECL ds >= 1.0.0)

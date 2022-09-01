@@ -1,16 +1,11 @@
-Захоплення за пояс
-
--   [« tradercdladvanceblock](function.trader-cdladvanceblock.html)
-    
--   [tradercdlbreakaway »](function.trader-cdlbreakaway.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Захоплення за пояс
-    
-
+---
+navigation:
+  - function.trader-cdladvanceblock.html: « tradercdladvanceblock
+  - function.trader-cdlbreakaway.html: tradercdlbreakaway »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlbelthold
+---
 # tradercdlbelthold
 
 (PECL trader >= 0.2.0)

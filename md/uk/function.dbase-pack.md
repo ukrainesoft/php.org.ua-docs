@@ -1,16 +1,11 @@
-Фіксує видалення з бази даних
-
--   [« dbaseopen](function.dbase-open.html)
-    
--   [dbasereplacerecord »](function.dbase-replace-record.html)
-    
--   [PHP Manual](index.md)
-    
--   [dBase](ref.dbase.md)
-    
--   Фіксує видалення з бази даних
-    
-
+---
+navigation:
+  - function.dbase-open.html: « dbaseopen
+  - function.dbase-replace-record.html: dbasereplacerecord »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
+title: dbasepack
+---
 # dbasepack
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -37,8 +32,8 @@ dbase_pack(resource $database): bool
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

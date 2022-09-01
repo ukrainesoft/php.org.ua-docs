@@ -1,16 +1,11 @@
-Підготовляє запит для подальшого зв'язування псевдозмінних та виконання
-
--   [« ibasepconnect](function.ibase-pconnect.html)
-    
--   [ibasequery »](function.ibase-query.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Підготовляє запит для подальшого зв'язування псевдозмінних та виконання
-    
-
+---
+navigation:
+  - function.ibase-pconnect.html: « ibasepconnect
+  - function.ibase-query.html: ibasequery »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseprepare
+---
 # ibaseprepare
 
 (PHP 5, PHP 7 < 7.4.0)

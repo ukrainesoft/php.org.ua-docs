@@ -1,16 +1,11 @@
-Призначення preDispatch
-
--   [« YafPluginAbstract::postDispatch](yaf-plugin-abstract.postdispatch.html)
-    
--   [YafPluginAbstract::preResponse »](yaf-plugin-abstract.preresponse.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafPluginAbstract](class.yaf-plugin-abstract.html)
-    
--   Призначення preDispatch
-    
-
+---
+navigation:
+  - yaf-plugin-abstract.postdispatch.html: '« YafPluginAbstract::postDispatch'
+  - yaf-plugin-abstract.preresponse.html: 'YafPluginAbstract::preResponse »'
+  - index.md: PHP Manual
+  - class.yaf-plugin-abstract.html: YafPluginAbstract
+title: 'YafPluginAbstract::preDispatch'
+---
 # YafPluginAbstract::preDispatch
 
 (Yaf >=1.0.0)

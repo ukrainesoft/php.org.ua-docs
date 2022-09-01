@@ -1,16 +1,11 @@
-Надіслати подію CTRL іншому процесу
-
--   [« sapiwindowsспset](function.sapi-windows-cp-set.html)
-    
--   [sapiwindowssetctrlhandler »](function.sapi-windows-set-ctrl-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Надіслати подію CTRL іншому процесу
-    
-
+---
+navigation:
+  - function.sapi-windows-cp-set.html: « sapiwindowsспset
+  - function.sapi-windows-set-ctrl-handler.html: sapiwindowssetctrlhandler »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sapiwindowsgeneratectrlevent
+---
 # sapiwindowsgeneratectrlevent
 
 (PHP 7> = 7.4.0, PHP 8)

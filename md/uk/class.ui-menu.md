@@ -1,16 +1,11 @@
-Меню
-
--   [« UIControl::show](ui-control.show.html)
-    
--   [ОЙMenu::append »](ui-menu.append.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Меню
-    
-
+---
+navigation:
+  - ui-control.show.html: '« UIControl::show'
+  - ui-menu.append.html: 'ОЙMenu::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Меню
+---
 # Меню
 
 (UI 0.9.9)

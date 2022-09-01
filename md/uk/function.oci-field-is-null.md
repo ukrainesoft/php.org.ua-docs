@@ -1,16 +1,11 @@
-Перевіряє, чи дорівнює поле в поточному отриманому ряду null
-
--   [« ocifetch](function.oci-fetch.html)
-    
--   [ocifieldname »](function.oci-field-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Перевіряє, чи дорівнює поле в поточному отриманому ряду null
-    
-
+---
+navigation:
+  - function.oci-fetch.html: « ocifetch
+  - function.oci-field-name.html: ocifieldname »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocifieldісnull
+---
 # ocifieldісnull
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

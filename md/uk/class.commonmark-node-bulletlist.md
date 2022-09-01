@@ -1,16 +1,11 @@
-BulletList успадковує CommonMarkNode
-
--   [« CommonMarkNodeBlockQuote](class.commonmark-node-blockquote.html)
-    
--   [CommonMarkNodeBulletList::construct »](commonmark-node-bulletlist.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   BulletList успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-blockquote.html: « CommonMarkNodeBlockQuote
+  - commonmark-node-bulletlist.construct.html: 'CommonMarkNodeBulletList::construct »'
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: BulletList успадковує CommonMarkNode
+---
 # BulletList успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

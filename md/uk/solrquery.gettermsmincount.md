@@ -1,16 +1,11 @@
-Повертає мінімальну частоту повернення документів для включення
-
--   [« SolrQuery::getTermsMaxCount](solrquery.gettermsmaxcount.html)
-    
--   [SolrQuery::getTermsPrefix »](solrquery.gettermsprefix.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає мінімальну частоту повернення документів для включення
-    
-
+---
+navigation:
+  - solrquery.gettermsmaxcount.html: '« SolrQuery::getTermsMaxCount'
+  - solrquery.gettermsprefix.html: 'SolrQuery::getTermsPrefix »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTermsMinCount'
+---
 # SolrQuery::getTermsMinCount
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Встановлює шаблон, який використовується засобом форматування
-
--   [« MessageFormatter::parse](messageformatter.parse.html)
-    
--   [IntlCalendar »](class.intlcalendar.html)
-    
--   [PHP Manual](index.html)
-    
--   [MessageFormatter](class.messageformatter.html)
-    
--   Встановлює шаблон, який використовується засобом форматування
-    
-
+---
+navigation:
+  - messageformatter.parse.html: '« MessageFormatter::parse'
+  - class.intlcalendar.html: IntlCalendar »
+  - index.html: PHP Manual
+  - class.messageformatter.html: MessageFormatter
+title: 'MessageFormatter::setPattern'
+---
 # MessageFormatter::setPattern
 
 # msgfmtsetpattern

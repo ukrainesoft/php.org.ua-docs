@@ -1,16 +1,11 @@
-Задати колір
-
--   [« GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.md)
-    
--   [GmagickPixel::setcolorvalue »](gmagickpixel.setcolorvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickPixel](class.gmagickpixel.md)
-    
--   Задати колір
-    
-
+---
+navigation:
+  - gmagickpixel.getcolorvalue.md: '« GmagickPixel::getcolorvalue'
+  - gmagickpixel.setcolorvalue.md: 'GmagickPixel::setcolorvalue »'
+  - index.md: PHP Manual
+  - class.gmagickpixel.md: GmagickPixel
+title: 'GmagickPixel::setcolor'
+---
 # GmagickPixel::setcolor
 
 (PECL gmagick >= Unknown)

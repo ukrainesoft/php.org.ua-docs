@@ -1,16 +1,11 @@
-Повертає кількість рядків, на які вплинув попередній запит
-
--   [« ibaseadduser](function.ibase-add-user.html)
-    
--   [ibasebackup »](function.ibase-backup.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Повертає кількість рядків, на які вплинув попередній запит
-    
-
+---
+navigation:
+  - function.ibase-add-user.html: « ibaseadduser
+  - function.ibase-backup.html: ibasebackup »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: ibaseaffectedrows
+---
 # ibaseaffectedrows
 
 (PHP 5, PHP 7 < 7.4.0)

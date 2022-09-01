@@ -1,16 +1,11 @@
-Створити бінарний патч порівнюючи два файли
-
--   [xdifffilebdiffsize](function.xdiff-file-bdiff-size.html)
-    
--   [xdifffilebpatch »](function.xdiff-file-bpatch.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції xdiff](ref.xdiff.md)
-    
--   Створити бінарний патч порівнюючи два файли
-    
-
+---
+navigation:
+  - function.xdiff-file-bdiff-size.html: xdifffilebdiffsize
+  - function.xdiff-file-bpatch.html: xdifffilebpatch »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
+title: xdifffilebdiff
+---
 # xdifffilebdiff
 
 (PECL xdiff >= 1.5.0)

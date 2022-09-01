@@ -1,16 +1,11 @@
-Видаляє всі значення
-
--   [« Пара](class.ds-pair.html)
-    
--   [ДсPair::construct »](ds-pair.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пара](class.ds-pair.html)
-    
--   Видаляє всі значення
-    
-
+---
+navigation:
+  - class.ds-pair.html: « Пара
+  - ds-pair.construct.html: 'ДсPair::construct »'
+  - index.html: PHP Manual
+  - class.ds-pair.html: Пара
+title: 'ДсPair::clear'
+---
 # ДсPair::clear
 
 (No version information available, might only be in Git)

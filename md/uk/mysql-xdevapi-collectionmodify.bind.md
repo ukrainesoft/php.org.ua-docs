@@ -1,16 +1,11 @@
-Прив'язує значення до заповнювача запиту
-
--   [« CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.html)
-    
--   [CollectionModify::construct »](mysql-xdevapi-collectionmodify.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Прив'язує значення до заповнювача запиту
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.arrayinsert.html: '« CollectionModify::arrayInsert'
+  - mysql-xdevapi-collectionmodify.construct.html: 'CollectionModify::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::bind'
+---
 # CollectionModify::bind
 
 (No version information available, might only be in Git)

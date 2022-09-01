@@ -1,16 +1,11 @@
-Малює горизонтальну лінію
-
--   [« ImagickDraw::pathLineToHorizontalAbsolute](imagickdraw.pathlinetohorizontalabsolute.html)
-    
--   [ImagickDraw::pathLineToRelative »](imagickdraw.pathlinetorelative.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Малює горизонтальну лінію
-    
-
+---
+navigation:
+  - imagickdraw.pathlinetohorizontalabsolute.html: '« ImagickDraw::pathLineToHorizontalAbsolute'
+  - imagickdraw.pathlinetorelative.html: 'ImagickDraw::pathLineToRelative »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::pathLineToHorizontalRelative'
+---
 # ImagickDraw::pathLineToHorizontalRelative
 
 (PECL imagick 2, PECL imagick 3)

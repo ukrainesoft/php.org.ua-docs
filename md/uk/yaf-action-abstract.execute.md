@@ -1,16 +1,11 @@
-Точка входу для Action-класів
-
--   [« YafActionAbstract](class.yaf-action-abstract.html)
-    
--   [YafActionAbstract::getController »](yaf-action-abstract.getcontroller.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafActionAbstract](class.yaf-action-abstract.html)
-    
--   Точка входу для Action-класів
-    
-
+---
+navigation:
+  - class.yaf-action-abstract.html: « YafActionAbstract
+  - yaf-action-abstract.getcontroller.html: 'YafActionAbstract::getController »'
+  - index.md: PHP Manual
+  - class.yaf-action-abstract.html: YafActionAbstract
+title: 'YafActionAbstract::execute'
+---
 # YafActionAbstract::execute
 
 (Yaf >=1.0.0)

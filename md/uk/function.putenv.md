@@ -1,16 +1,11 @@
-Встановлює значення змінного середовища
-
--   [« phpversion](function.phpversion.html)
-    
--   [restoreincludepath »](function.restore-include-path.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Встановлює значення змінного середовища
-    
-
+---
+navigation:
+  - function.phpversion.html: « phpversion
+  - function.restore-include-path.html: restoreincludepath »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: putenv
+---
 # putenv
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

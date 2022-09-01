@@ -1,16 +1,11 @@
-Визначає, чи є документ XHTML-документом
-
--   [« tidy::html](tidy.html.md)
-    
--   [tidy::isXml »](tidy.isxml.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Визначає, чи є документ XHTML-документом
-    
-
+---
+navigation:
+  - tidy.html.md: '« tidy::html'
+  - tidy.isxml.md: 'tidy::isXml »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::isXhtml'
+---
 # tidy::isXhtml
 
 # tidyісxhtml

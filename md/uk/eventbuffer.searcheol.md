@@ -1,16 +1,11 @@
-Сканує буфер на наявність кінця рядка
-
--   [« EventBuffer::search](eventbuffer.search.md)
-    
--   [EventBuffer::substr »](eventbuffer.substr.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Сканує буфер на наявність кінця рядка
-    
-
+---
+navigation:
+  - eventbuffer.search.md: '« EventBuffer::search'
+  - eventbuffer.substr.md: 'EventBuffer::substr »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::searchEol'
+---
 # EventBuffer::searchEol
 
 (PECL event >= 1.5.0)

@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](yaconf.requirements.md)
-    
--   [Налаштування під час виконання »](yaconf.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](yaconf.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - yaconf.requirements.md: « Вимоги
+  - yaconf.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - yaconf.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

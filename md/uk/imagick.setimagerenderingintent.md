@@ -1,16 +1,11 @@
-Встановлює схему передачі кольору зображення
-
--   [« Imagick::setImageRedPrimary](imagick.setimageredprimary.md)
-    
--   [Imagick::setImageResolution »](imagick.setimageresolution.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює схему передачі кольору зображення
-    
-
+---
+navigation:
+  - imagick.setimageredprimary.md: '« Imagick::setImageRedPrimary'
+  - imagick.setimageresolution.md: 'Imagick::setImageResolution »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageRenderingIntent'
+---
 # Imagick::setImageRenderingIntent
 
 (PECL imagick 2, PECL imagick 3)

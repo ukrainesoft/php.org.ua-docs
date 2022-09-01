@@ -1,16 +1,11 @@
-Слухає по заданому IP та порту, тип сокету
-
--   [« SwooleServer::heartbeat](swoole-server.heartbeat.html)
-    
--   [SwooleServer::on »](swoole-server.on.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Слухає по заданому IP та порту, тип сокету
-    
-
+---
+navigation:
+  - swoole-server.heartbeat.html: '« SwooleServer::heartbeat'
+  - swoole-server.on.html: 'SwooleServer::on »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::listen'
+---
 # SwooleServer::listen
 
 (PECL swoole >= 1.9.0)

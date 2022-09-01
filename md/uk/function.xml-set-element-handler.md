@@ -1,16 +1,11 @@
-Установка обробника початкового та кінцевого елементів
-
--   [« xmlsetdefaulthandler](function.xml-set-default-handler.html)
-    
--   [xmlsetendnamespacedeclhandler »](function.xml-set-end-namespace-decl-handler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции парсера XML](ref.xml.html)
-    
--   Установка обробника початкового та кінцевого елементів
-    
-
+---
+navigation:
+  - function.xml-set-default-handler.html: « xmlsetdefaulthandler
+  - function.xml-set-end-namespace-decl-handler.html: xmlsetendnamespacedeclhandler »
+  - index.html: PHP Manual
+  - ref.xml.html: Функции парсера XML
+title: xmlsetelementhandler
+---
 # xmlsetelementhandler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -77,6 +72,6 @@ end_element(resource $parser, string $name)
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |

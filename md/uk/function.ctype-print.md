@@ -1,16 +1,11 @@
-Перевіряє наявність друкованих символів
-
--   [« ctypelower](function.ctype-lower.html)
-    
--   [ctypepunct »](function.ctype-punct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції Ctype](ref.ctype.md)
-    
--   Перевіряє наявність друкованих символів
-    
-
+---
+navigation:
+  - function.ctype-lower.html: « ctypelower
+  - function.ctype-punct.html: ctypepunct »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
+title: ctypeprint
+---
 # ctypeprint
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлює максимальну кількість виразів запиту, що включаються.
-
--   [« SolrQuery::setMltCount](solrquery.setmltcount.md)
-    
--   [SolrQuery::setMltMaxNumTokens »](solrquery.setmltmaxnumtokens.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює максимальну кількість виразів запиту, що включаються.
-    
-
+---
+navigation:
+  - solrquery.setmltcount.md: '« SolrQuery::setMltCount'
+  - solrquery.setmltmaxnumtokens.md: 'SolrQuery::setMltMaxNumTokens »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setMltMaxNumQueryTerms'
+---
 # SolrQuery::setMltMaxNumQueryTerms
 
 (PECL solr> = 0.9.2)

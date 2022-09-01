@@ -1,16 +1,11 @@
-Повертає компонент збільшення Timestamp
-
--   [« MongoDBBSONTimestamp::construct](mongodb-bson-timestamp.construct.html)
-    
--   [MongoDBBSONTimestamp::getTimestamp »](mongodb-bson-timestamp.gettimestamp.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.html)
-    
--   Повертає компонент збільшення Timestamp
-    
-
+---
+navigation:
+  - mongodb-bson-timestamp.construct.html: '« MongoDBBSONTimestamp::construct'
+  - mongodb-bson-timestamp.gettimestamp.html: 'MongoDBBSONTimestamp::getTimestamp »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+title: 'MongoDBBSONTimestamp::getIncrement'
+---
 # MongoDBBSONTimestamp::getIncrement
 
 (mongodb >=1.3.0)

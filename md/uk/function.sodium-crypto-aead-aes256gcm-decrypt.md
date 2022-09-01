@@ -1,16 +1,11 @@
-Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM
-
--   [« sodiumcompare](function.sodium-compare.html)
-    
--   [sodiumcryptoaeadaes256gcmencrypt »](function.sodium-crypto-aead-aes256gcm-encrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM
-    
-
+---
+navigation:
+  - function.sodium-compare.html: « sodiumcompare
+  - function.sodium-crypto-aead-aes256gcm-encrypt.html: sodiumcryptoaeadaes256gcmencrypt »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoaeadaes256gcmdecrypt
+---
 # sodiumcryptoaeadaes256gcmdecrypt
 
 (PHP 7> = 7.2.0, PHP 8)

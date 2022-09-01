@@ -1,16 +1,11 @@
-Використовувати SpanScorer для виділення виразів
-
--   [« SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.html)
-    
--   [SolrQuery::setHighlightMaxAlternateFieldLength »](solrquery.sethighlightmaxalternatefieldlength.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Використовувати SpanScorer для виділення виразів
-    
-
+---
+navigation:
+  - solrquery.sethighlightfragsize.html: '« SolrQuery::setHighlightFragsize'
+  - solrquery.sethighlightmaxalternatefieldlength.html: 'SolrQuery::setHighlightMaxAlternateFieldLength »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setHighlightHighlightMultiTerm'
+---
 # SolrQuery::setHighlightHighlightMultiTerm
 
 (PECL solr> = 0.9.2)

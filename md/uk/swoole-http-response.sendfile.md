@@ -1,16 +1,11 @@
-Відправляє файл через HTTP-відповідь
-
--   [« SwooleHttpResponse::rawcookie](swoole-http-response.rawcookie.html)
-    
--   [SwooleHttpResponse::status »](swoole-http-response.status.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Відправляє файл через HTTP-відповідь
-    
-
+---
+navigation:
+  - swoole-http-response.rawcookie.html: '« SwooleHttpResponse::rawcookie'
+  - swoole-http-response.status.html: 'SwooleHttpResponse::status »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::sendfile'
+---
 # SwooleHttpResponse::sendfile
 
 (PECL swoole >= 1.9.0)

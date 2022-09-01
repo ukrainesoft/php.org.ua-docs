@@ -1,16 +1,11 @@
-Отримати шлях до завантаженого файлу php.ini
-
--   [« memorygetusage](function.memory-get-usage.html)
-    
--   [phpiniscannedfiles »](function.php-ini-scanned-files.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Отримати шлях до завантаженого файлу php.ini
-    
-
+---
+navigation:
+  - function.memory-get-usage.html: « memorygetusage
+  - function.php-ini-scanned-files.html: phpiniscannedfiles »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: phpiniloadedfile
+---
 # phpiniloadedfile
 
 (PHP 5> = 5.2.4, PHP 7, PHP 8)

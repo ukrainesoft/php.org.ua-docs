@@ -1,16 +1,11 @@
-Повертає нижню межу першого діапазону дат для всіх аспектів дати у цьому полі
-
--   [« SolrQuery::getFacetDateOther](solrquery.getfacetdateother.md)
-    
--   [SolrQuery::getFacetFields »](solrquery.getfacetfields.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає нижню межу першого діапазону дат для всіх аспектів дати у цьому полі
-    
-
+---
+navigation:
+  - solrquery.getfacetdateother.md: '« SolrQuery::getFacetDateOther'
+  - solrquery.getfacetfields.md: 'SolrQuery::getFacetFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFacetDateStart'
+---
 # SolrQuery::getFacetDateStart
 
 (PECL solr> = 0.9.2)

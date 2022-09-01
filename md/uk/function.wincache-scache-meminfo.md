@@ -1,16 +1,11 @@
-Отримує інформацію про використання кеш-пам'яті сесії
-
--   [« wincachescacheinfo](function.wincache-scache-info.html)
-    
--   [wincacheucacheadd »](function.wincache-ucache-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Отримує інформацію про використання кеш-пам'яті сесії
-    
-
+---
+navigation:
+  - function.wincache-scache-info.html: « wincachescacheinfo
+  - function.wincache-ucache-add.html: wincacheucacheadd »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincachescachememinfo
+---
 # wincachescachememinfo
 
 (PECL wincache >= 1.1.0)

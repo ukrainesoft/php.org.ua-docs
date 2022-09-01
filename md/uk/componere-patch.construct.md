@@ -1,16 +1,11 @@
-Конструктор класу Patch
-
--   [« ComponerePatch](class.componere-patch.html)
-    
--   [ComponerePatch::apply »](componere-patch.apply.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponerePatch](class.componere-patch.html)
-    
--   Конструктор класу Patch
-    
-
+---
+navigation:
+  - class.componere-patch.html: « ComponerePatch
+  - componere-patch.apply.html: 'ComponerePatch::apply »'
+  - index.md: PHP Manual
+  - class.componere-patch.html: ComponerePatch
+title: 'ComponerePatch::construct'
+---
 # ComponerePatch::construct
 
 (Componere 2 >= 2.1.0)

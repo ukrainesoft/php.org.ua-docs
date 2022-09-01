@@ -1,16 +1,11 @@
-Перехід до наступного набору рядків через запит
-
--   [« PDOStatement::getIterator](pdostatement.getiterator.html)
-    
--   [PDOStatement::rowCount »](pdostatement.rowcount.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Перехід до наступного набору рядків через запит
-    
-
+---
+navigation:
+  - pdostatement.getiterator.html: '« PDOStatement::getIterator'
+  - pdostatement.rowcount.html: 'PDOStatement::rowCount »'
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::nextRowset'
+---
 # PDOStatement::nextRowset
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)

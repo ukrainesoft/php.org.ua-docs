@@ -1,16 +1,11 @@
-Реєструє callback-функцію для надання оновлень під час закриття архіву
-
--   [« ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md)
-    
--   [ZipArchive::renameIndex »](ziparchive.renameindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Реєструє callback-функцію для надання оновлень під час закриття архіву
-    
-
+---
+navigation:
+  - ziparchive.registercancelcallback.md: '« ZipArchive::registerCancelCallback'
+  - ziparchive.renameindex.md: 'ZipArchive::renameIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::registerProgressCallback'
+---
 # ZipArchive::registerProgressCallback
 
 (PHP >= 8.0.0, PECL zip >= 1.17.0)

@@ -1,16 +1,11 @@
-Перетворює MIME-кодований текст на UTF-8
-
--   [« imaputf8тоmutf7](function.imap-utf8-to-mutf7.html)
-    
--   [IMAPConnection »](class.imap-connection.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Перетворює MIME-кодований текст на UTF-8
-    
-
+---
+navigation:
+  - function.imap-utf8-to-mutf7.html: « imaputf8тоmutf7
+  - class.imap-connection.html: IMAPConnection »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaputf8
+---
 # imaputf8
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

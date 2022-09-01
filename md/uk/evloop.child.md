@@ -1,16 +1,11 @@
-Створює об'єкт EvChild, пов'язаний із поточним циклом подій
-
--   [« EvLoop::check](evloop.check.md)
-    
--   [EvLoop::construct »](evloop.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvLoop](class.evloop.md)
-    
--   Створює об'єкт EvChild, пов'язаний із поточним циклом подій
-    
-
+---
+navigation:
+  - evloop.check.md: '« EvLoop::check'
+  - evloop.construct.md: 'EvLoop::construct »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
+title: 'EvLoop::child'
+---
 # EvLoop::child
 
 (PECL ev >= 0.2.0)

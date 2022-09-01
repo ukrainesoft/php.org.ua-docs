@@ -1,16 +1,11 @@
-Очистити останню помилку
-
--   [« debugprintbacktrace](function.debug-print-backtrace.html)
-    
--   [errorgetlast »](function.error-get-last.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции обработки ошибок](ref.errorfunc.html)
-    
--   Очистити останню помилку
-    
-
+---
+navigation:
+  - function.debug-print-backtrace.html: « debugprintbacktrace
+  - function.error-get-last.html: errorgetlast »
+  - index.html: PHP Manual
+  - ref.errorfunc.html: Функции обработки ошибок
+title: errorclearlast
+---
 # errorclearlast
 
 (PHP 7, PHP 8)

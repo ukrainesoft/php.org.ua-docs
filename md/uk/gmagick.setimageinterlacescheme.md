@@ -1,16 +1,11 @@
-Встановлює схему надстрокової розгортки зображення
-
--   [« Gmagick::setimageindex](gmagick.setimageindex.md)
-    
--   [Gmagick::setimageiterations »](gmagick.setimageiterations.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Встановлює схему надстрокової розгортки зображення
-    
-
+---
+navigation:
+  - gmagick.setimageindex.md: '« Gmagick::setimageindex'
+  - gmagick.setimageiterations.md: 'Gmagick::setimageiterations »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::setimageinterlacescheme'
+---
 # Gmagick::setimageinterlacescheme
 
 (PECL gmagick >= Unknown)

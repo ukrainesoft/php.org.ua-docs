@@ -1,16 +1,11 @@
-Серіалізує Int64
-
--   [« MongoDBBSONInt64::jsonSerialize](mongodb-bson-int64.jsonserialize.html)
-    
--   [MongoDBBSONInt64::toString »](mongodb-bson-int64.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONInt64](class.mongodb-bson-int64.html)
-    
--   Серіалізує Int64
-    
-
+---
+navigation:
+  - mongodb-bson-int64.jsonserialize.html: '« MongoDBBSONInt64::jsonSerialize'
+  - mongodb-bson-int64.tostring.html: 'MongoDBBSONInt64::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+title: 'MongoDBBSONInt64::serialize'
+---
 # MongoDBBSONInt64::serialize
 
 (mongodb >=1.5.0)

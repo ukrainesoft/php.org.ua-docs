@@ -1,16 +1,11 @@
-Перевертає рядок задом наперед
-
--   [« strrchr](function.strrchr.md)
-    
--   [strripos »](function.strripos.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Перевертає рядок задом наперед
-    
-
+---
+navigation:
+  - function.strrchr.md: « strrchr
+  - function.strripos.md: strripos »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: стр'їв
+---
 # стр'їв
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

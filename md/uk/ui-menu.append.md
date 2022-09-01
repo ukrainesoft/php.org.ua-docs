@@ -1,16 +1,11 @@
-Додати пункт меню
-
--   [« UIMenu](class.ui-menu.html)
-    
--   [ОЙMenu::appendAbout »](ui-menu.appendabout.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenu](class.ui-menu.html)
-    
--   Додати пункт меню
-    
-
+---
+navigation:
+  - class.ui-menu.html: « UIMenu
+  - ui-menu.appendabout.html: 'ОЙMenu::appendAbout »'
+  - index.md: PHP Manual
+  - class.ui-menu.html: ОЙMenu
+title: 'ОЙMenu::append'
+---
 # ОЙMenu::append
 
 (UI 0.9.9)

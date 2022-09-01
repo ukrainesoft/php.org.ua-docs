@@ -1,16 +1,11 @@
-Відкриває базу даних
-
--   [« dbanextkey](function.dba-nextkey.html)
-    
--   [dbaoptimize »](function.dba-optimize.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Відкриває базу даних
-    
-
+---
+navigation:
+  - function.dba-nextkey.html: « dbanextkey
+  - function.dba-optimize.html: dbaoptimize »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbaopen
+---
 # dbaopen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -78,9 +73,9 @@ dba_open(    string $path,    string $mode,    string $handler = ?,�
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Драйвер `lmdb` тепер підтримує додатковий параметр `$mapsize` |
+| Версия | Описание |
+| --- | --- |
+|  | Драйвер `lmdb` тепер підтримує додатковий параметр `$mapsize` |
 
 ### Дивіться також
 

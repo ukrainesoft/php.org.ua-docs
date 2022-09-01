@@ -1,16 +1,11 @@
-Отримує схеми
-
--   [« Session::getSchema](mysql-xdevapi-session.getschema.html)
-    
--   [Session::getServerVersion »](mysql-xdevapi-session.getserverversion.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Отримує схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.getschema.html: '« Session::getSchema'
+  - mysql-xdevapi-session.getserverversion.html: 'Session::getServerVersion »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::getSchemas'
+---
 # Session::getSchemas
 
 (No version information available, might only be in Git)

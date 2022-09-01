@@ -1,16 +1,11 @@
-Знаходить перше входження підрядка у рядку
-
--   [« mbstrrpos](function.mb-strrpos.html)
-    
--   [мбstrtolower »](function.mb-strtolower.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Знаходить перше входження підрядка у рядку
-    
-
+---
+navigation:
+  - function.mb-strrpos.html: « mbstrrpos
+  - function.mb-strtolower.html: мбstrtolower »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrstr
+---
 # мбstrstr
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ mb_strstr(    string $haystack,    string $needle,    bool $before_n
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | `needle` тепер приймає порожній рядок.                      |
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `needle` тепер приймає порожній рядок. |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Додає інтерфейс
-
--   [« ComponereAbstractDefinition](class.componere-abstract-definition.html)
-    
--   [ComponereAbstractDefinition::addMethod »](componere-abstract-definition.addmethod.html)
-    
--   [PHP Manual](index.html)
-    
--   [ComponereAbstractDefinition](class.componere-abstract-definition.html)
-    
--   Додає інтерфейс
-    
-
+---
+navigation:
+  - class.componere-abstract-definition.html: « ComponereAbstractDefinition
+  - componere-abstract-definition.addmethod.html: 'ComponereAbstractDefinition::addMethod »'
+  - index.html: PHP Manual
+  - class.componere-abstract-definition.html: ComponereAbstractDefinition
+title: 'ComponereAbstractDefinition::addInterface'
+---
 # ComponereAbstractDefinition::addInterface
 
 (Componere 2 >= 2.1.0)

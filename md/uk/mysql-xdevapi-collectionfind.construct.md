@@ -1,16 +1,11 @@
-Конструктор класу CollectionFind
-
--   [« CollectionFind::bind](mysql-xdevapi-collectionfind.bind.html)
-    
--   [CollectionFind::execute »](mysql-xdevapi-collectionfind.execute.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Конструктор класу CollectionFind
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.bind.html: '« CollectionFind::bind'
+  - mysql-xdevapi-collectionfind.execute.html: 'CollectionFind::execute »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::construct'
+---
 # CollectionFind::construct
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
-
--   [« fannsetlearningrate](function.fann-set-learning-rate.html)
-    
--   [fannsetquickpropdecay »](function.fann-set-quickprop-decay.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
-    
-
+---
+navigation:
+  - function.fann-set-learning-rate.html: « fannsetlearningrate
+  - function.fann-set-quickprop-decay.html: fannsetquickpropdecay »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannsetoutputscalingparams
+---
 # fannsetoutputscalingparams
 
 (PECL fann> = 1.0.0)

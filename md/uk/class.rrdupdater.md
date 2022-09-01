@@ -1,16 +1,11 @@
-Клас RRDUpdater
-
--   [« RRDGraph::setOptions](rrdgraph.setoptions.html)
-    
--   [RRDUpdater::construct »](rrdupdater.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [RRD](book.rrd.html)
-    
--   Клас RRDUpdater
-    
-
+---
+navigation:
+  - rrdgraph.setoptions.html: '« RRDGraph::setOptions'
+  - rrdupdater.construct.html: 'RRDUpdater::construct »'
+  - index.html: PHP Manual
+  - book.rrd.html: RRD
+title: Клас RRDUpdater
+---
 # Клас RRDUpdater
 
 (PECL rrd >= 0.9.0)

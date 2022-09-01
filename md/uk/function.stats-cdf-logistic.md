@@ -1,16 +1,11 @@
-Обчислює один із параметрів логістичного розподілу за рештою
-
--   [« statscdflaplace](function.stats-cdf-laplace.html)
-    
--   [statscdfnegativebinomial »](function.stats-cdf-negative-binomial.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює один із параметрів логістичного розподілу за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-laplace.html: « statscdflaplace
+  - function.stats-cdf-negative-binomial.html: statscdfnegativebinomial »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statscdflogistic
+---
 # statscdflogistic
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_logistic(    float $par1,    float $par2,    float $par3,�
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | му     | з      |
-|         | з                     | CDF    | му     | з      |
-|         | му                    | з      | CDF    | з      |
-|         | з                     | з      | CDF    | му     |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | му | з |
+|  | з | CDF | му | з |
+|  | му | з | CDF | з |
+|  | з | з | CDF | му |
 
 ### Список параметрів
 

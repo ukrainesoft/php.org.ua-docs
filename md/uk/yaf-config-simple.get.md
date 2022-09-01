@@ -1,16 +1,11 @@
-Призначення get
-
--   [« YafConfigSimple::current](yaf-config-simple.current.html)
-    
--   [YafConfigSimple::isset »](yaf-config-simple.isset.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Призначення get
-    
-
+---
+navigation:
+  - yaf-config-simple.current.html: '« YafConfigSimple::current'
+  - yaf-config-simple.isset.html: 'YafConfigSimple::isset »'
+  - index.html: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::get'
+---
 # YafConfigSimple::get
 
 (Yaf >=1.0.0)

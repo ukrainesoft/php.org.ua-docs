@@ -1,16 +1,11 @@
-Встановлює прапори поведінки
-
--   [« ArrayObject::serialize](arrayobject.serialize.md)
-    
--   [ArrayObject::setIteratorClass »](arrayobject.setiteratorclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Встановлює прапори поведінки
-    
-
+---
+navigation:
+  - arrayobject.serialize.md: '« ArrayObject::serialize'
+  - arrayobject.setiteratorclass.md: 'ArrayObject::setIteratorClass »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::setFlags'
+---
 # ArrayObject::setFlags
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -35,10 +30,10 @@ public ArrayObject::setFlags(int $flags): void
 
 **Прапори поведінки ArrayObject**
 
-| Значение | Константа                                                                                |
-|----------|------------------------------------------------------------------------------------------|
-|          | [ArrayObject::STDPROPLIST](class.arrayobject.html#arrayobject.constants.std-prop-list)   |
-|          | [ArrayObject::ARRAYАСPROPS](class.arrayobject.html#arrayobject.constants.array-as-props) |
+| Значение | Константа |
+| --- | --- |
+|  | [ArrayObject::STDPROPLIST](class.arrayobject.html#arrayobject.constants.std-prop-list) |
+|  | [ArrayObject::ARRAYАСPROPS](class.arrayobject.html#arrayobject.constants.array-as-props) |
 
 ### Значення, що повертаються
 

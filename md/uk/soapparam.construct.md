@@ -1,16 +1,11 @@
-Конструктор SoapParam
-
--   [« SoapParam](class.soapparam.html)
-    
--   [SoapVar »](class.soapvar.html)
-    
--   [PHP Manual](index.html)
-    
--   [SoapParam](class.soapparam.html)
-    
--   Конструктор SoapParam
-    
-
+---
+navigation:
+  - class.soapparam.html: « SoapParam
+  - class.soapvar.html: SoapVar »
+  - index.html: PHP Manual
+  - class.soapparam.html: SoapParam
+title: 'SoapParam::construct'
+---
 # SoapParam::construct
 
 (PHP 5, PHP 7, PHP 8)

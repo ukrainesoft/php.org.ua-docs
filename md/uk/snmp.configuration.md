@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](snmp.installation.html)
-    
--   [Типи ресурсів »](snmp.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](snmp.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - snmp.installation.html: « Установка
+  - snmp.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - snmp.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

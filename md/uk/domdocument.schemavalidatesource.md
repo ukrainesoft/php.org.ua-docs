@@ -1,16 +1,11 @@
-Перевіряє дійсність документа, ґрунтуючись на схемі
-
--   [« DOMDocument::schemaValidate](domdocument.schemavalidate.html)
-    
--   [DOMDocument::validate »](domdocument.validate.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Перевіряє дійсність документа, ґрунтуючись на схемі
-    
-
+---
+navigation:
+  - domdocument.schemavalidate.html: '« DOMDocument::schemaValidate'
+  - domdocument.validate.html: 'DOMDocument::validate »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::schemaValidateSource'
+---
 # DOMDocument::schemaValidateSource
 
 (PHP 5, PHP 7, PHP 8)

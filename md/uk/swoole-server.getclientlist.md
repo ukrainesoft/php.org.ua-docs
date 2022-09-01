@@ -1,16 +1,11 @@
-Отримує всі встановлені з'єднання
-
--   [« SwooleServer::getClientInfo](swoole-server.getclientinfo.html)
-    
--   [SwooleServer::getLastError »](swoole-server.getlasterror.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Отримує всі встановлені з'єднання
-    
-
+---
+navigation:
+  - swoole-server.getclientinfo.html: '« SwooleServer::getClientInfo'
+  - swoole-server.getlasterror.html: 'SwooleServer::getLastError »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::getClientList'
+---
 # SwooleServer::getClientList
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Метод rewind()
-
--   [« EmptyIterator::next](emptyiterator.next.md)
-    
--   [EmptyIterator::valid »](emptyiterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [EmptyIterator](class.emptyiterator.md)
-    
--   Метод rewind()
-    
-
+---
+navigation:
+  - emptyiterator.next.md: '« EmptyIterator::next'
+  - emptyiterator.valid.md: 'EmptyIterator::valid »'
+  - index.md: PHP Manual
+  - class.emptyiterator.md: EmptyIterator
+title: 'EmptyIterator::rewind'
+---
 # EmptyIterator::rewind
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

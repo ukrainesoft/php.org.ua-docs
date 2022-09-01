@@ -1,16 +1,11 @@
-Асинхронний запис даних до потоку файлу
-
--   [« swooleasyncset](function.swoole-async-set.html)
-    
--   [swooleasyncwritefile »](function.swoole-async-writefile.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Асинхронний запис даних до потоку файлу
-    
-
+---
+navigation:
+  - function.swoole-async-set.html: « swooleasyncset
+  - function.swoole-async-writefile.html: swooleasyncwritefile »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swooleasyncwrite
+---
 # swooleasyncwrite
 
 (PECL swoole >= 1.9.0)

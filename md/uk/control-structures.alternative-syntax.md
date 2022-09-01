@@ -1,16 +1,11 @@
-Альтернативний синтаксис керуючих структур
-
--   [« elseif/else if](control-structures.elseif.html)
-    
--   [while »](control-structures.while.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   Альтернативний синтаксис керуючих структур
-    
-
+---
+navigation:
+  - control-structures.elseif.html: « elseif/else if
+  - control-structures.while.html: while »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: Альтернативний синтаксис керуючих структур
+---
 ## Альтернативний синтаксис керуючих структур
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Замінити значення наявного елемента
-
--   [« Memcache::pconnect](memcache.pconnect.html)
-    
--   [Memcache::set »](memcache.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcache](class.memcache.html)
-    
--   Замінити значення наявного елемента
-    
-
+---
+navigation:
+  - memcache.pconnect.html: '« Memcache::pconnect'
+  - memcache.set.html: 'Memcache::set »'
+  - index.html: PHP Manual
+  - class.memcache.html: Memcache
+title: 'Memcache::replace'
+---
 # Memcache::replace
 
 (PECL memcache >= 0.2.0)

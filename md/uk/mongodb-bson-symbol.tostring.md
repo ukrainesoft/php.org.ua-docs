@@ -1,16 +1,11 @@
-Повертає Symbol у вигляді рядка
-
--   [« MongoDBBSONSymbol::serialize](mongodb-bson-symbol.serialize.html)
-    
--   [MongoDBBSONSymbol::unserialize »](mongodb-bson-symbol.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
-    
--   Повертає Symbol у вигляді рядка
-    
-
+---
+navigation:
+  - mongodb-bson-symbol.serialize.html: '« MongoDBBSONSymbol::serialize'
+  - mongodb-bson-symbol.unserialize.html: 'MongoDBBSONSymbol::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::toString'
+---
 # MongoDBBSONSymbol::toString
 
 (mongodb >=1.4.0)

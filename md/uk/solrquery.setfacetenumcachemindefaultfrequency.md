@@ -1,16 +1,11 @@
-Встановлює мінімальну частоту документа, що використовується для визначення кількості виразів
-
--   [« SolrQuery::setFacetDateStart](solrquery.setfacetdatestart.md)
-    
--   [SolrQuery::setFacetLimit »](solrquery.setfacetlimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює мінімальну частоту документа, що використовується для визначення кількості виразів
-    
-
+---
+navigation:
+  - solrquery.setfacetdatestart.md: '« SolrQuery::setFacetDateStart'
+  - solrquery.setfacetlimit.md: 'SolrQuery::setFacetLimit »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setFacetEnumCacheMinDefaultFrequency'
+---
 # SolrQuery::setFacetEnumCacheMinDefaultFrequency
 
 (PECL solr> = 0.9.2)

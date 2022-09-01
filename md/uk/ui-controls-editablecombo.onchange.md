@@ -1,16 +1,11 @@
-Обробник зміни
-
--   [« UIControlsEditableCombo::getText](ui-controls-editablecombo.gettext.html)
-    
--   [ОЙControlsEditableCombo::setText »](ui-controls-editablecombo.settext.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsEditableCombo](class.ui-controls-editablecombo.html)
-    
--   Обробник зміни
-    
-
+---
+navigation:
+  - ui-controls-editablecombo.gettext.html: '« UIControlsEditableCombo::getText'
+  - ui-controls-editablecombo.settext.html: 'ОЙControlsEditableCombo::setText »'
+  - index.md: PHP Manual
+  - class.ui-controls-editablecombo.html: ОЙControlsEditableCombo
+title: 'ОЙControlsEditableCombo::onChange'
+---
 # ОЙControlsEditableCombo::onChange
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Загальний розмір кешу
-
--   [« APCUIterator::getTotalHits](apcuiterator.gettotalhits.md)
-    
--   [APCUIterator::key »](apcuiterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Загальний розмір кешу
-    
-
+---
+navigation:
+  - apcuiterator.gettotalhits.md: '« APCUIterator::getTotalHits'
+  - apcuiterator.key.md: 'APCUIterator::key »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::getTotalSize'
+---
 # APCUIterator::getTotalSize
 
 (PECL apcu >= 5.0.0)

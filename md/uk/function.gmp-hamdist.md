@@ -1,16 +1,11 @@
-Відстань Хеммінга
-
--   [« gmpgcdext](function.gmp-gcdext.html)
-    
--   [gmpimport »](function.gmp-import.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Відстань Хеммінга
-    
-
+---
+navigation:
+  - function.gmp-gcdext.html: « gmpgcdext
+  - function.gmp-import.html: gmpimport »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmphamdist
+---
 # gmphamdist
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

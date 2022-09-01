@@ -1,16 +1,11 @@
-Клас MongoDBDriverWriteConcern
-
--   [« MongoDBDriverServerApi::unserialize](mongodb-driver-serverapi.unserialize.html)
-    
--   [MongoDBDriverWriteConcern::bsonSerialize »](mongodb-driver-writeconcern.bsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriver](book.mongodb.html)
-    
--   Клас MongoDBDriverWriteConcern
-    
-
+---
+navigation:
+  - mongodb-driver-serverapi.unserialize.html: '« MongoDBDriverServerApi::unserialize'
+  - mongodb-driver-writeconcern.bsonserialize.html: 'MongoDBDriverWriteConcern::bsonSerialize »'
+  - index.html: PHP Manual
+  - book.mongodb.html: MongoDBDriver
+title: Клас MongoDBDriverWriteConcern
+---
 # Клас MongoDBDriverWriteConcern
 
 (mongodb >=1.0.0)
@@ -63,9 +58,9 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия             | Описание                                                                 |
-|--------------------|--------------------------------------------------------------------------|
-| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.html)                         |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.html) |
 | PECL mongodb 1.2.0 | Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.html) |
 
 ## Зміст

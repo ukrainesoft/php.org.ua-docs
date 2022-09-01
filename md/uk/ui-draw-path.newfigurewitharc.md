@@ -1,16 +1,11 @@
-Намалювати фігуру з дугою
-
--   [« UIDrawPath::newFigure](ui-draw-path.newfigure.html)
-    
--   [ОЙDrawMatrix »](class.ui-draw-matrix.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Намалювати фігуру з дугою
-    
-
+---
+navigation:
+  - ui-draw-path.newfigure.html: '« UIDrawPath::newFigure'
+  - class.ui-draw-matrix.html: ОЙDrawMatrix »
+  - index.html: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::newFigureWithArc'
+---
 # ОЙDrawPath::newFigureWithArc
 
 (UI 0.9.9)

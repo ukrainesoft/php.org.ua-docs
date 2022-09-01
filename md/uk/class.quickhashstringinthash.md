@@ -1,16 +1,11 @@
-Клас QuickHashStringIntHash
-
--   [« QuickHashIntHash::update](quickhashinthash.update.md)
-    
--   [QuickHashStringIntHash::add »](quickhashstringinthash.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Quickhash](book.quickhash.md)
-    
--   Клас QuickHashStringIntHash
-    
-
+---
+navigation:
+  - quickhashinthash.update.md: '« QuickHashIntHash::update'
+  - quickhashstringinthash.add.md: 'QuickHashStringIntHash::add »'
+  - index.md: PHP Manual
+  - book.quickhash.md: Quickhash
+title: Клас QuickHashStringIntHash
+---
 # Клас QuickHashStringIntHash
 
 (No version information available, might only be in Git)

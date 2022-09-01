@@ -1,16 +1,11 @@
-Повертає час зміни індексного дескриптора файлу
-
--   [« fileatime](function.fileatime.md)
-    
--   [filegroup »](function.filegroup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає час зміни індексного дескриптора файлу
-    
-
+---
+navigation:
+  - function.fileatime.md: « fileatime
+  - function.filegroup.md: filegroup »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: filectime
+---
 # filectime
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

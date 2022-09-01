@@ -1,16 +1,11 @@
-Елемент управління "Радіо"
-
--   [« UIControlsEditableCombo::setText](ui-controls-editablecombo.settext.html)
-    
--   [ОЙControlsRadio::append »](ui-controls-radio.append.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Елемент управління "Радіо"
-    
-
+---
+navigation:
+  - ui-controls-editablecombo.settext.html: '« UIControlsEditableCombo::setText'
+  - ui-controls-radio.append.html: 'ОЙControlsRadio::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Елемент управління "Радіо"
+---
 # Елемент управління "Радіо"
 
 (UI 0.9.9)

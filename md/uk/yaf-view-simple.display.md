@@ -1,16 +1,11 @@
-Малює та відображає
-
--   [« YafViewSimple::construct](yaf-view-simple.construct.html)
-    
--   [YafViewSimple::eval »](yaf-view-simple.eval.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Малює та відображає
-    
-
+---
+navigation:
+  - yaf-view-simple.construct.html: '« YafViewSimple::construct'
+  - yaf-view-simple.eval.html: 'YafViewSimple::eval »'
+  - index.html: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::display'
+---
 # YafViewSimple::display
 
 (Yaf >=1.0.0)

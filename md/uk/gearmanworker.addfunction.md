@@ -1,16 +1,11 @@
-Реєстрація та додавання callback-функції
-
--   [« GearmanWorker](class.gearmanworker.html)
-    
--   [GearmanWorker::addOptions »](gearmanworker.addoptions.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Реєстрація та додавання callback-функції
-    
-
+---
+navigation:
+  - class.gearmanworker.html: « GearmanWorker
+  - gearmanworker.addoptions.html: 'GearmanWorker::addOptions »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::addFunction'
+---
 # GearmanWorker::addFunction
 
 (PECL gearman >= 0.5.0)

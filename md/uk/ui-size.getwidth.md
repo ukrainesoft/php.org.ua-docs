@@ -1,16 +1,11 @@
-Отримує ширину
-
--   [« UISize::getHeight](ui-size.getheight.html)
-    
--   [ОЙSize::of »](ui-size.of.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙSize](class.ui-size.html)
-    
--   Отримує ширину
-    
-
+---
+navigation:
+  - ui-size.getheight.html: '« UISize::getHeight'
+  - ui-size.of.html: 'ОЙSize::of »'
+  - index.html: PHP Manual
+  - class.ui-size.html: ОЙSize
+title: 'ОЙSize::getWidth'
+---
 # ОЙSize::getWidth
 
 (UI 0.9.9)

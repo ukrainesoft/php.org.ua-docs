@@ -1,16 +1,11 @@
-Перевірити, чи клієнт вимкнено
-
--   [« Різні функції](ref.misc.md)
-    
--   [connectionstatus »](function.connection-status.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Перевірити, чи клієнт вимкнено
-    
-
+---
+navigation:
+  - ref.misc.md: « Різні функції
+  - function.connection-status.html: connectionstatus »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: connectionaborted
+---
 # connectionaborted
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

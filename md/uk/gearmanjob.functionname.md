@@ -1,16 +1,11 @@
-Отримання імені функції
-
--   [« GearmanJob::fail](gearmanjob.fail.md)
-    
--   [GearmanJob::handle »](gearmanjob.handle.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanJob](class.gearmanjob.md)
-    
--   Отримання імені функції
-    
-
+---
+navigation:
+  - gearmanjob.fail.md: '« GearmanJob::fail'
+  - gearmanjob.handle.md: 'GearmanJob::handle »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
+title: 'GearmanJob::functionName'
+---
 # GearmanJob::functionName
 
 (PECL gearman >= 0.5.0)

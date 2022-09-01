@@ -1,16 +1,11 @@
-Повертає внутрішню інформацію про те, де було викинуто виняток
-
--   [« SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-    
--   [SolrIllegalOperationException »](class.solrillegaloperationexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-    
--   Повертає внутрішню інформацію про те, де було викинуто виняток
-    
-
+---
+navigation:
+  - class.solrillegalargumentexception.md: « SolrIllegalArgumentException
+  - class.solrillegaloperationexception.md: SolrIllegalOperationException »
+  - index.md: PHP Manual
+  - class.solrillegalargumentexception.md: SolrIllegalArgumentException
+title: 'SolrIllegalArgumentException::getInternalInfo'
+---
 # SolrIllegalArgumentException::getInternalInfo
 
 (PECL solr> = 0.9.2)

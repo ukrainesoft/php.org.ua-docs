@@ -1,16 +1,11 @@
-Повертає довжину (точність) поля
-
--   [« odbcfetchrow](function.odbc-fetch-row.html)
-    
--   [odbcfieldname »](function.odbc-field-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає довжину (точність) поля
-    
-
+---
+navigation:
+  - function.odbc-fetch-row.html: « odbcfetchrow
+  - function.odbc-field-name.html: odbcfieldname »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcfieldlen
+---
 # odbcfieldlen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

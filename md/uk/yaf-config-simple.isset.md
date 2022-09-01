@@ -1,16 +1,11 @@
-Призначення isset
-
--   [« YafConfigSimple::get](yaf-config-simple.get.html)
-    
--   [YafConfigSimple::key »](yaf-config-simple.key.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafConfigSimple](class.yaf-config-simple.html)
-    
--   Призначення isset
-    
-
+---
+navigation:
+  - yaf-config-simple.get.html: '« YafConfigSimple::get'
+  - yaf-config-simple.key.html: 'YafConfigSimple::key »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.html: YafConfigSimple
+title: 'YafConfigSimple::isset'
+---
 # YafConfigSimple::isset
 
 (Yaf >=1.0.0)

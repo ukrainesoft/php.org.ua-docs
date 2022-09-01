@@ -1,16 +1,11 @@
-Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
-
--   [« snmp2get](function.snmp2-get.html)
-    
--   [snmp2realwalk »](function.snmp2-real-walk.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
-    
-
+---
+navigation:
+  - function.snmp2-get.html: « snmp2get
+  - function.snmp2-real-walk.html: snmp2realwalk »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmp2getnext
+---
 # snmp2getnext
 
 (PHP >= 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Копіює вказану кількість байтів з початку буфера
-
--   [« EventBuffer::construct](eventbuffer.construct.html)
-    
--   [EventBuffer::drain »](eventbuffer.drain.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Копіює вказану кількість байтів з початку буфера
-    
-
+---
+navigation:
+  - eventbuffer.construct.html: '« EventBuffer::construct'
+  - eventbuffer.drain.html: 'EventBuffer::drain »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::copyout'
+---
 # EventBuffer::copyout
 
 (PECL event >= 1.2.6-beta)

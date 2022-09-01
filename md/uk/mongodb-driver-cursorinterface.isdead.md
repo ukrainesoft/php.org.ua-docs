@@ -1,16 +1,11 @@
-Перевірити, чи можна ще отримати з курсору результати
-
--   [« MongoDBDriverCursorInterface::getServer](mongodb-driver-cursorinterface.getserver.html)
-    
--   [MongoDBDriverCursorInterface::setTypeMap »](mongodb-driver-cursorinterface.settypemap.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
-    
--   Перевірити, чи можна ще отримати з курсору результати
-    
-
+---
+navigation:
+  - mongodb-driver-cursorinterface.getserver.html: '« MongoDBDriverCursorInterface::getServer'
+  - mongodb-driver-cursorinterface.settypemap.html: 'MongoDBDriverCursorInterface::setTypeMap »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+title: 'MongoDBDriverCursorInterface::isDead'
+---
 # MongoDBDriverCursorInterface::isDead
 
 (mongodb >=1.6.0)

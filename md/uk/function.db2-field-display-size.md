@@ -1,16 +1,11 @@
-Повертає максимальну кількість байтів, необхідну для відображення стовпця
-
--   [« db2fetchrow](function.db2-fetch-row.html)
-    
--   [db2fieldname »](function.db2-field-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає максимальну кількість байтів, необхідну для відображення стовпця
-    
-
+---
+navigation:
+  - function.db2-fetch-row.html: « db2fetchrow
+  - function.db2-field-name.html: db2fieldname »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2fielddisplaysize
+---
 # db2fielddisplaysize
 
 (PECL ibmdb2> = 1.0.0)

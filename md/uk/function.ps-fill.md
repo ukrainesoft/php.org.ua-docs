@@ -1,16 +1,11 @@
-Заповнює поточний шлях
-
--   [«psfillstroke](function.ps-fill-stroke.html)
-    
--   [псfindfont »](function.ps-findfont.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Заповнює поточний шлях
-    
-
+---
+navigation:
+  - function.ps-fill-stroke.html: «psfillstroke
+  - function.ps-findfont.html: псfindfont »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псfill
+---
 # псfill
 
 (PECL ps >= 1.1.0)

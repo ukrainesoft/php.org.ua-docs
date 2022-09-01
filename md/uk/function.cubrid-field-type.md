@@ -1,16 +1,11 @@
-Отримати тип зазначеного стовпця
-
--   [« cubridfieldtable](function.cubrid-field-table.html)
-    
--   [cubridlistdbs »](function.cubrid-list-dbs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.html)
-    
--   Отримати тип зазначеного стовпця
-    
-
+---
+navigation:
+  - function.cubrid-field-table.html: « cubridfieldtable
+  - function.cubrid-list-dbs.html: cubridlistdbs »
+  - index.html: PHP Manual
+  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+title: cubridfieldtype
+---
 # cubridfieldtype
 
 (PECL CUBRID >= 8.3.0)

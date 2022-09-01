@@ -1,16 +1,11 @@
-Встановлення обробника входу в межі простору імен
-
--   [« xmlsetprocessinginstructionhandler](function.xml-set-processing-instruction-handler.html)
-    
--   [xmlsetunparsedentitydeclhandler »](function.xml-set-unparsed-entity-decl-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Встановлення обробника входу в межі простору імен
-    
-
+---
+navigation:
+  - function.xml-set-processing-instruction-handler.html: « xmlsetprocessinginstructionhandler
+  - function.xml-set-unparsed-entity-decl-handler.html: xmlsetunparsedentitydeclhandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetstartnamespacedeclhandler
+---
 # xmlsetstartnamespacedeclhandler
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -63,9 +58,9 @@ handler(XMLParser $parser, string $prefix, string $uri)
 
 ### список змін
 
-| Версия | Описание                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

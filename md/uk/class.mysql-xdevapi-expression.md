@@ -1,16 +1,11 @@
-Клас Expression
-
--   [« ExecutionStatus::construct](mysql-xdevapi-executionstatus.construct.html)
-    
--   [Expression::construct »](mysql-xdevapi-expression.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Expression
-    
-
+---
+navigation:
+  - mysql-xdevapi-executionstatus.construct.html: '« ExecutionStatus::construct'
+  - mysql-xdevapi-expression.construct.html: 'Expression::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Expression
+---
 # Клас Expression
 
 (PECL mysql-xdevapi >= 8.0.11)

@@ -1,16 +1,11 @@
-Отримує запис із певного сервера
-
--   [« Memcached::getAllKeys](memcached.getallkeys.html)
-    
--   [Memcached::getDelayed »](memcached.getdelayed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Отримує запис із певного сервера
-    
-
+---
+navigation:
+  - memcached.getallkeys.html: '« Memcached::getAllKeys'
+  - memcached.getdelayed.html: 'Memcached::getDelayed »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::getByKey'
+---
 # Memcached::getByKey
 
 (PECL memcached >= 0.1.0)
@@ -49,8 +44,8 @@ Callback-функція для читання, що кешується, або *
 
 ### список змін
 
-| Версия               | Описание                                                                                                                                                                    |
-|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL memcached 3.0.0 | Видалено параметр `&cas_token`. Замість нього додано параметр `flags`, в який можна передати значення **`Memcached::GET_EXTENDED`** для того, щоб було повернуто токен CAS. |
 
 ### Дивіться також

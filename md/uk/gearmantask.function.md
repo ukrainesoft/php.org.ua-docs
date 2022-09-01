@@ -1,16 +1,11 @@
-Отримати ім'я пов'язаної функції (застарілий метод)
-
--   [« GearmanTask::dataSize](gearmantask.datasize.html)
-    
--   [GearmanTask::functionName »](gearmantask.functionname.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanTask](class.gearmantask.html)
-    
--   Отримати ім'я пов'язаної функції (застарілий метод)
-    
-
+---
+navigation:
+  - gearmantask.datasize.html: '« GearmanTask::dataSize'
+  - gearmantask.functionname.html: 'GearmanTask::functionName »'
+  - index.html: PHP Manual
+  - class.gearmantask.html: GearmanTask
+title: 'GearmanTask::function'
+---
 # GearmanTask::function
 
 (PECL gearman <= 0.5.0)

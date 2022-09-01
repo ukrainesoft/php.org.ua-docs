@@ -1,16 +1,11 @@
-Глобальний простір
-
--   [« Использование пространств имён: импорт/создание псевдонима имени](language.namespaces.importing.md)
-    
--   [Використання просторів імен: перехід до глобальної функції/константи »](language.namespaces.fallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [Пространства имён](language.namespaces.md)
-    
--   Глобальний простір
-    
-
+---
+navigation:
+  - language.namespaces.importing.md: '« Использование пространств имён: импорт/создание псевдонима имени'
+  - language.namespaces.fallback.md: 'Використання просторів імен: перехід до глобальної функції/константи »'
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
+title: Глобальний простір
+---
 ## Глобальний простір
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

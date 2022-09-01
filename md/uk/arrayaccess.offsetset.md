@@ -1,16 +1,11 @@
-Надає значення заданому зміщенню
-
--   [« ArrayAccess::offsetGet](arrayaccess.offsetget.md)
-    
--   [ArrayAccess::offsetUnset »](arrayaccess.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayAccess](class.arrayaccess.md)
-    
--   Надає значення заданому зміщенню
-    
-
+---
+navigation:
+  - arrayaccess.offsetget.md: '« ArrayAccess::offsetGet'
+  - arrayaccess.offsetunset.md: 'ArrayAccess::offsetUnset »'
+  - index.md: PHP Manual
+  - class.arrayaccess.md: ArrayAccess
+title: 'ArrayAccess::offsetSet'
+---
 # ArrayAccess::offsetSet
 
 (PHP 5, PHP 7, PHP 8)

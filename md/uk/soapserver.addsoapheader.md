@@ -1,16 +1,11 @@
-Додати заголовок SOAP у відповідь
-
--   [« SoapServer::addFunction](soapserver.addfunction.md)
-    
--   [SoapServer::construct »](soapserver.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Додати заголовок SOAP у відповідь
-    
-
+---
+navigation:
+  - soapserver.addfunction.md: '« SoapServer::addFunction'
+  - soapserver.construct.md: 'SoapServer::construct »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::addSoapHeader'
+---
 # SoapServer::addSoapHeader
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

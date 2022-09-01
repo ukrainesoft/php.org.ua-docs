@@ -1,16 +1,11 @@
-Повертає кількість помилок конфігурації Tidy, що зустрілися під час розгляду документа
-
--   [« tidyaccesscount](function.tidy-access-count.html)
-    
--   [tidyerrorcount »](function.tidy-error-count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Tidy](ref.tidy.html)
-    
--   Повертає кількість помилок конфігурації Tidy, що зустрілися під час розгляду документа
-    
-
+---
+navigation:
+  - function.tidy-access-count.html: « tidyaccesscount
+  - function.tidy-error-count.html: tidyerrorcount »
+  - index.html: PHP Manual
+  - ref.tidy.html: Tidy
+title: tidyconfigcount
+---
 # tidyconfigcount
 
 (PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)

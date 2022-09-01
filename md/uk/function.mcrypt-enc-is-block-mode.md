@@ -1,16 +1,11 @@
-Перевіряє, чи поточний режим повертає блоки
-
--   [« mcryptencісblockalgorithm](function.mcrypt-enc-is-block-algorithm.html)
-    
--   [mcryptencselftest »](function.mcrypt-enc-self-test.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mcrypt](ref.mcrypt.html)
-    
--   Перевіряє, чи поточний режим повертає блоки
-    
-
+---
+navigation:
+  - function.mcrypt-enc-is-block-algorithm.html: « mcryptencісblockalgorithm
+  - function.mcrypt-enc-self-test.html: mcryptencselftest »
+  - index.html: PHP Manual
+  - ref.mcrypt.html: Mcrypt
+title: mcryptencісblockmode
+---
 # mcryptencісblockmode
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

@@ -1,16 +1,11 @@
-Відкладає виконання скрипту до заданого часу
-
--   [« timenanosleep](function.time-nanosleep.html)
-    
--   [uniqid »](function.uniqid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Відкладає виконання скрипту до заданого часу
-    
-
+---
+navigation:
+  - function.time-nanosleep.html: « timenanosleep
+  - function.uniqid.md: uniqid »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: timesleepuntil
+---
 # timesleepuntil
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

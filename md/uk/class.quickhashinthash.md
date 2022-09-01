@@ -1,16 +1,11 @@
-Клас QuickHashIntHash
-
--   [« QuickHashIntSet::saveToString](quickhashintset.savetostring.md)
-    
--   [QuickHashIntHash::add »](quickhashinthash.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Quickhash](book.quickhash.md)
-    
--   Клас QuickHashIntHash
-    
-
+---
+navigation:
+  - quickhashintset.savetostring.md: '« QuickHashIntSet::saveToString'
+  - quickhashinthash.add.md: 'QuickHashIntHash::add »'
+  - index.md: PHP Manual
+  - book.quickhash.md: Quickhash
+title: Клас QuickHashIntHash
+---
 # Клас QuickHashIntHash
 
 (PECL quickhash >= Unknown)

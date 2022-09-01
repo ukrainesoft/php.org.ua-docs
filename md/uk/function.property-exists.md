@@ -1,16 +1,11 @@
-Перевіряє, чи містить об'єкт чи клас зазначений атрибут
-
--   [« methodexists](function.method-exists.html)
-    
--   [traitexists »](function.trait-exists.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.md)
-    
--   Перевіряє, чи містить об'єкт чи клас зазначений атрибут
-    
-
+---
+navigation:
+  - function.method-exists.html: « methodexists
+  - function.trait-exists.html: traitexists »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
+title: propertyexists
+---
 # propertyexists
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

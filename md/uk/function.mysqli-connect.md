@@ -1,16 +1,11 @@
-Псевдонім mysqli::construct
-
--   [« Синоніми та застарілі функції Mysqli](ref.mysqli.html)
-    
--   [mysqli::escapestring »](function.mysqli-escape-string.html)
-    
--   [PHP Manual](index.html)
-    
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
-    
--   Псевдонім mysqli::construct
-    
-
+---
+navigation:
+  - ref.mysqli.html: « Синоніми та застарілі функції Mysqli
+  - function.mysqli-escape-string.html: 'mysqli::escapestring »'
+  - index.html: PHP Manual
+  - ref.mysqli.html: Синоніми та застарілі функції Mysqli
+title: mysqliconnect
+---
 # mysqliconnect
 
 (PHP 5, PHP 7, PHP 8)

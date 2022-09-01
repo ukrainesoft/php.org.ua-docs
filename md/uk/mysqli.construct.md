@@ -1,16 +1,11 @@
-Встановлює нове з'єднання з сервером MySQL
-
--   [« mysqli::$connecterror](mysqli.connect-error.html)
-    
--   [mysqli::debug »](mysqli.debug.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Встановлює нове з'єднання з сервером MySQL
-    
-
+---
+navigation:
+  - mysqli.connect-error.html: '« mysqli::$connecterror'
+  - mysqli.debug.html: 'mysqli::debug »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::construct'
+---
 # mysqli::construct
 
 # mysqli::connect

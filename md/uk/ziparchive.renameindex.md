@@ -1,16 +1,11 @@
-Перейменовує елемент за його індексом
-
--   [« ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.html)
-    
--   [ZipArchive::renameName »](ziparchive.renamename.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Перейменовує елемент за його індексом
-    
-
+---
+navigation:
+  - ziparchive.registerprogresscallback.html: '« ZipArchive::registerProgressCallback'
+  - ziparchive.renamename.html: 'ZipArchive::renameName »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ZipArchive::renameIndex'
+---
 # ZipArchive::renameIndex
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.5.0)

@@ -1,16 +1,11 @@
-Повертає хост запиту
-
--   [« EventHttpRequest::getConnection](eventhttprequest.getconnection.md)
-    
--   [EventHttpRequest::getInputBuffer »](eventhttprequest.getinputbuffer.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Повертає хост запиту
-    
-
+---
+navigation:
+  - eventhttprequest.getconnection.md: '« EventHttpRequest::getConnection'
+  - eventhttprequest.getinputbuffer.md: 'EventHttpRequest::getInputBuffer »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::getHost'
+---
 # EventHttpRequest::getHost
 
 (PECL event >= 1.4.0-beta)

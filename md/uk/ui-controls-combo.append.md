@@ -1,16 +1,11 @@
-Додати опцію
-
--   [« UIControlsCombo](class.ui-controls-combo.html)
-    
--   [ОЙControlsCombo::getSelected »](ui-controls-combo.getselected.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsCombo](class.ui-controls-combo.html)
-    
--   Додати опцію
-    
-
+---
+navigation:
+  - class.ui-controls-combo.html: « UIControlsCombo
+  - ui-controls-combo.getselected.html: 'ОЙControlsCombo::getSelected »'
+  - index.html: PHP Manual
+  - class.ui-controls-combo.html: ОЙControlsCombo
+title: 'ОЙControlsCombo::append'
+---
 # ОЙControlsCombo::append
 
 (UI 0.9.9)

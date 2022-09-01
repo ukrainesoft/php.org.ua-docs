@@ -1,16 +1,11 @@
-Клас DOMNode
-
--   [« DOMNamedNodeMap::item](domnamednodemap.item.md)
-    
--   [DOMNode::appendChild »](domnode.appendchild.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMNode
-    
-
+---
+navigation:
+  - domnamednodemap.item.md: '« DOMNamedNodeMap::item'
+  - domnode.appendchild.md: 'DOMNode::appendChild »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMNode
+---
 # Клас DOMNode
 
 (PHP 5, PHP 7, PHP 8)
@@ -199,9 +194,9 @@ textContent
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Нереалізовані методи **DOMNode::compareDocumentPosition()** **DOMNode::isEqualNode()** **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізовані методи **DOMNode::compareDocumentPosition()** **DOMNode::isEqualNode()** **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
 
 ## Примітки
 

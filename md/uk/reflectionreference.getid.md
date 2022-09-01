@@ -1,16 +1,11 @@
-Отримати унікальний ідентифікатор посилання
-
--   [« ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.md)
-    
--   [ReflectionAttribute »](class.reflectionattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionReference](class.reflectionreference.md)
-    
--   Отримати унікальний ідентифікатор посилання
-    
-
+---
+navigation:
+  - reflectionreference.fromarrayelement.md: '« ReflectionReference::fromArrayElement'
+  - class.reflectionattribute.md: ReflectionAttribute »
+  - index.md: PHP Manual
+  - class.reflectionreference.md: ReflectionReference
+title: 'ReflectionReference::getId'
+---
 # ReflectionReference::getId
 
 (PHP 7> = 7.4.0, PHP 8)

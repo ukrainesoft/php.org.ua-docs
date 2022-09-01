@@ -1,16 +1,11 @@
-Повертає кількість рядів результату запиту
-
--   [« mysqlnumfields](function.mysql-num-fields.html)
-    
--   [mysqlpconnect »](function.mysql-pconnect.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає кількість рядів результату запиту
-    
-
+---
+navigation:
+  - function.mysql-num-fields.html: « mysqlnumfields
+  - function.mysql-pconnect.html: mysqlpconnect »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlnumrows
+---
 # mysqlnumrows
 
 (PHP 4, PHP 5)

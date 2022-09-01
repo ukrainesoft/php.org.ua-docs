@@ -1,16 +1,11 @@
-LineBreak успадковує CommonMarkNode
-
--   [« CommonMarkNodeSoftBreak](class.commonmark-node-softbreak.html)
-    
--   [CommonMarkNodeCode »](class.commonmark-node-code.html)
-    
--   [PHP Manual](index.html)
-    
--   [CommonMark](book.cmark.html)
-    
--   LineBreak успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-softbreak.html: « CommonMarkNodeSoftBreak
+  - class.commonmark-node-code.html: CommonMarkNodeCode »
+  - index.html: PHP Manual
+  - book.cmark.html: CommonMark
+title: LineBreak успадковує CommonMarkNode
+---
 # LineBreak успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

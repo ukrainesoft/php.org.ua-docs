@@ -1,16 +1,11 @@
-Повертає порт, на якому прослуховується сервер
-
--   [« MongoDBDriverMonitoringServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.html)
-    
--   [MongoDBDriverMonitoringServerClosedEvent::getTopologyId »](mongodb-driver-monitoring-serverclosedevent.gettopologyid.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
-    
--   Повертає порт, на якому прослуховується сервер
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverclosedevent.gethost.html: '« MongoDBDriverMonitoringServerClosedEvent::getHost'
+  - mongodb-driver-monitoring-serverclosedevent.gettopologyid.html: 'MongoDBDriverMonitoringServerClosedEvent::getTopologyId »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serverclosedevent.html: MongoDBDriverMonitoringServerClosedEvent
+title: 'MongoDBDriverMonitoringServerClosedEvent::getPort'
+---
 # MongoDBDriverMonitoringServerClosedEvent::getPort
 
 (mongodb >=1.13.0)

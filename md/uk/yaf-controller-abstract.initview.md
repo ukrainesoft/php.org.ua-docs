@@ -1,16 +1,11 @@
-Призначення initView
-
--   [« YafControllerAbstract::init](yaf-controller-abstract.init.html)
-    
--   [YafControllerAbstract::redirect »](yaf-controller-abstract.redirect.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Призначення initView
-    
-
+---
+navigation:
+  - yaf-controller-abstract.init.html: '« YafControllerAbstract::init'
+  - yaf-controller-abstract.redirect.html: 'YafControllerAbstract::redirect »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::initView'
+---
 # YafControllerAbstract::initView
 
 (Yaf >=1.0.0)

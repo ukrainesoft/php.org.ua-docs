@@ -1,16 +1,11 @@
-Перевіряє, чи кінець файлу (EOF) досягнуто.
-
--   [« SplFileObject::toString](splfileobject.tostring.md)
-    
--   [SplTempFileObject »](class.spltempfileobject.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Перевіряє, чи кінець файлу (EOF) досягнуто.
-    
-
+---
+navigation:
+  - splfileobject.tostring.md: '« SplFileObject::toString'
+  - class.spltempfileobject.md: SplTempFileObject »
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::valid'
+---
 # SplFileObject::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

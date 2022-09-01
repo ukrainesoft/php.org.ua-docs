@@ -1,16 +1,11 @@
-Створює новий Server (не використовується)
-
--   [« MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   [MongoDBDriverServer::executeBulkWrite »](mongodb-driver-server.executebulkwrite.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Створює новий Server (не використовується)
-    
-
+---
+navigation:
+  - class.mongodb-driver-server.html: « MongoDBDriverServer
+  - mongodb-driver-server.executebulkwrite.html: 'MongoDBDriverServer::executeBulkWrite »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::construct'
+---
 # MongoDBDriverServer::construct
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Псевдонім imaprenamemailbox
-
--   [« imapqprint](function.imap-qprint.html)
-    
--   [imaprenamemailbox »](function.imap-renamemailbox.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Псевдонім imaprenamemailbox
-    
-
+---
+navigation:
+  - function.imap-qprint.html: « imapqprint
+  - function.imap-renamemailbox.html: imaprenamemailbox »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imaprename
+---
 # imaprename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

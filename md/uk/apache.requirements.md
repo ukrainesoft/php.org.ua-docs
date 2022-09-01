@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](apache.setup.md)
-    
--   [Установка »](apache.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](apache.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - apache.setup.md: « Встановлення та налаштування
+  - apache.installation.md: Установка »
+  - index.md: PHP Manual
+  - apache.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

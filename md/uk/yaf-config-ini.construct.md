@@ -1,16 +1,11 @@
-Конструктор класу YafConfigIni
-
--   [« YafConfigIni](class.yaf-config-ini.html)
-    
--   [YafConfigIni::count »](yaf-config-ini.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafConfigIni](class.yaf-config-ini.html)
-    
--   Конструктор класу YafConfigIni
-    
-
+---
+navigation:
+  - class.yaf-config-ini.html: « YafConfigIni
+  - yaf-config-ini.count.html: 'YafConfigIni::count »'
+  - index.html: PHP Manual
+  - class.yaf-config-ini.html: YafConfigIni
+title: 'YafConfigIni::construct'
+---
 # YafConfigIni::construct
 
 (Yaf >=1.0.0)

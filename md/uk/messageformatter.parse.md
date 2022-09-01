@@ -1,16 +1,11 @@
-Розбирає рядок згідно шаблону
-
--   [« MessageFormatter::parseMessage](messageformatter.parsemessage.html)
-    
--   [MessageFormatter::setPattern »](messageformatter.setpattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [MessageFormatter](class.messageformatter.html)
-    
--   Розбирає рядок згідно шаблону
-    
-
+---
+navigation:
+  - messageformatter.parsemessage.html: '« MessageFormatter::parseMessage'
+  - messageformatter.setpattern.html: 'MessageFormatter::setPattern »'
+  - index.html: PHP Manual
+  - class.messageformatter.html: MessageFormatter
+title: 'MessageFormatter::parse'
+---
 # MessageFormatter::parse
 
 # msgfmtparse

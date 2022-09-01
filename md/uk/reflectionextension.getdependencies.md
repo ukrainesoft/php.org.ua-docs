@@ -1,16 +1,11 @@
-Отримання залежностей
-
--   [« ReflectionExtension::getConstants](reflectionextension.getconstants.md)
-    
--   [ReflectionExtension::getFunctions »](reflectionextension.getfunctions.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Отримання залежностей
-    
-
+---
+navigation:
+  - reflectionextension.getconstants.md: '« ReflectionExtension::getConstants'
+  - reflectionextension.getfunctions.md: 'ReflectionExtension::getFunctions »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::getDependencies'
+---
 # ReflectionExtension::getDependencies
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

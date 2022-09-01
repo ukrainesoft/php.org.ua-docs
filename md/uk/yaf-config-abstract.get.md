@@ -1,16 +1,11 @@
-Геттер
-
--   [« YafConfigAbstract](class.yaf-config-abstract.html)
-    
--   [YafConfigAbstract::readonly »](yaf-config-abstract.readonly.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafConfigAbstract](class.yaf-config-abstract.html)
-    
--   Геттер
-    
-
+---
+navigation:
+  - class.yaf-config-abstract.html: « YafConfigAbstract
+  - yaf-config-abstract.readonly.html: 'YafConfigAbstract::readonly »'
+  - index.html: PHP Manual
+  - class.yaf-config-abstract.html: YafConfigAbstract
+title: 'YafConfigAbstract::get'
+---
 # YafConfigAbstract::get
 
 (Yaf >=1.0.0)

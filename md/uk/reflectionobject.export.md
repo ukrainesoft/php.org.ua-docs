@@ -1,16 +1,11 @@
-Експорт
-
--   [« ReflectionObject::construct](reflectionobject.construct.md)
-    
--   [ReflectionParameter »](class.reflectionparameter.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionObject](class.reflectionobject.md)
-    
--   Експорт
-    
-
+---
+navigation:
+  - reflectionobject.construct.md: '« ReflectionObject::construct'
+  - class.reflectionparameter.md: ReflectionParameter »
+  - index.md: PHP Manual
+  - class.reflectionobject.md: ReflectionObject
+title: 'ReflectionObject::export'
+---
 # ReflectionObject::export
 
 (PHP 5, PHP 7)

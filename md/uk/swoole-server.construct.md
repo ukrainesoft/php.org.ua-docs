@@ -1,16 +1,11 @@
-Створює сервер Swoole
-
--   [« SwooleServer::connectionlist](swoole-server.connection-list.html)
-    
--   [SwooleServer::defer »](swoole-server.defer.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Створює сервер Swoole
-    
-
+---
+navigation:
+  - swoole-server.connection-list.html: '« SwooleServer::connectionlist'
+  - swoole-server.defer.html: 'SwooleServer::defer »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::construct'
+---
 # SwooleServer::construct
 
 (PECL swoole >= 1.9.0)

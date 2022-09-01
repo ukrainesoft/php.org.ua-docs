@@ -1,16 +1,11 @@
-Повертає час обходу сервера у мілісекундах
-
--   [« MongoDBDriverServerDescription::getPort](mongodb-driver-serverdescription.getport.html)
-    
--   [MongoDBDriverServerDescription::getType »](mongodb-driver-serverdescription.gettype.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
-    
--   Повертає час обходу сервера у мілісекундах
-    
-
+---
+navigation:
+  - mongodb-driver-serverdescription.getport.html: '« MongoDBDriverServerDescription::getPort'
+  - mongodb-driver-serverdescription.gettype.html: 'MongoDBDriverServerDescription::getType »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getRoundTripTime'
+---
 # MongoDBDriverServerDescription::getRoundTripTime
 
 (mongodb >=1.13.0)

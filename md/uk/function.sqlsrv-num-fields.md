@@ -1,16 +1,11 @@
-Витягує кількість полів (стовпців) оператора
-
--   [« sqlsrvnextresult](function.sqlsrv-next-result.html)
-    
--   [sqlsrvnumrows »](function.sqlsrv-num-rows.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Витягує кількість полів (стовпців) оператора
-    
-
+---
+navigation:
+  - function.sqlsrv-next-result.html: « sqlsrvnextresult
+  - function.sqlsrv-num-rows.html: sqlsrvnumrows »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvnumfields
+---
 # sqlsrvnumfields
 
 (No version information available, might only be in Git)

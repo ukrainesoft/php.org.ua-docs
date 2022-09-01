@@ -1,16 +1,11 @@
-Встановлює оператор складеного зображення
-
--   [« Imagick::setImageColorspace](imagick.setimagecolorspace.html)
-    
--   [Imagick::setImageCompression »](imagick.setimagecompression.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює оператор складеного зображення
-    
-
+---
+navigation:
+  - imagick.setimagecolorspace.html: '« Imagick::setImageColorspace'
+  - imagick.setimagecompression.html: 'Imagick::setImageCompression »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageCompose'
+---
 # Imagick::setImageCompose
 
 (PECL imagick 2, PECL imagick 3)

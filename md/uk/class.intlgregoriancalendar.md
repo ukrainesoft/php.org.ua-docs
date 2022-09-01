@@ -1,16 +1,11 @@
-Клас IntlGregorianCalendar
-
--   [« IntlCalendar::toDateTime](intlcalendar.todatetime.md)
-    
--   [IntlGregorianCalendar::construct »](intlgregoriancalendar.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас IntlGregorianCalendar
-    
-
+---
+navigation:
+  - intlcalendar.todatetime.md: '« IntlCalendar::toDateTime'
+  - intlgregoriancalendar.construct.md: 'IntlGregorianCalendar::construct »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас IntlGregorianCalendar
+---
 # Клас IntlGregorianCalendar
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

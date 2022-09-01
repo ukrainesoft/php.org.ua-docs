@@ -1,16 +1,11 @@
-Призначення setScriptPath
-
--   [« YafViewInterface::render](yaf-view-interface.render.html)
-    
--   [YafViewSimple »](class.yaf-view-simple.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewInterface](class.yaf-view-interface.html)
-    
--   Призначення setScriptPath
-    
-
+---
+navigation:
+  - yaf-view-interface.render.html: '« YafViewInterface::render'
+  - class.yaf-view-simple.html: YafViewSimple »
+  - index.md: PHP Manual
+  - class.yaf-view-interface.html: YafViewInterface
+title: 'YafViewInterface::setScriptPath'
+---
 # YafViewInterface::setScriptPath
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Вставити рядки таблиці
-
--   [« Table::getSession](mysql-xdevapi-table.getsession.html)
-    
--   [Table::isView »](mysql-xdevapi-table.isview.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Вставити рядки таблиці
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.getsession.html: '« Table::getSession'
+  - mysql-xdevapi-table.isview.html: 'Table::isView »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::insert'
+---
 # Table::insert
 
 (No version information available, might only be in Git)

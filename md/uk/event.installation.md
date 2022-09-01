@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](event.requirements.md)
-    
--   [Налаштування під час виконання »](event.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](event.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - event.requirements.md: « Вимоги
+  - event.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - event.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

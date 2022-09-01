@@ -1,16 +1,11 @@
-Повертає відсічну маску зображення
-
--   [« Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.html)
-    
--   [Imagick::getImageColormapColor »](imagick.getimagecolormapcolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає відсічну маску зображення
-    
-
+---
+navigation:
+  - imagick.getimagechannelstatistics.html: '« Imagick::getImageChannelStatistics'
+  - imagick.getimagecolormapcolor.html: 'Imagick::getImageColormapColor »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageClipMask'
+---
 # Imagick::getImageClipMask
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

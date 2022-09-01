@@ -1,16 +1,11 @@
-Приєднує атрибут IP-адреси конкретного постачальника
-
--   [« radiusputstring](function.radius-put-string.html)
-    
--   [radiusputvendorattr »](function.radius-put-vendor-attr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Приєднує атрибут IP-адреси конкретного постачальника
-    
-
+---
+navigation:
+  - function.radius-put-string.html: « radiusputstring
+  - function.radius-put-vendor-attr.html: radiusputvendorattr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusputvendoraddr
+---
 # radiusputvendoraddr
 
 (PECL radius >= 1.1.0)
@@ -61,6 +56,6 @@ ID виробника (Vendor).
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |

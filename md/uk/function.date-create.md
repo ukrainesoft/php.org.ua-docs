@@ -1,16 +1,11 @@
-Створює новий об'єкт DateTime
-
--   [« datecreateimmutable](function.date-create-immutable.html)
-    
--   [datedateset »](function.date-date-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Створює новий об'єкт DateTime
-    
-
+---
+navigation:
+  - function.date-create-immutable.html: « datecreateimmutable
+  - function.date-date-set.html: datedateset »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datecreate
+---
 # datecreate
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

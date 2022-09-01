@@ -1,16 +1,11 @@
-Повертає індекс поточного активного зображення
-
--   [« Imagick::getImageHistogram](imagick.getimagehistogram.md)
-    
--   [Imagick::getImageInterlaceScheme »](imagick.getimageinterlacescheme.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає індекс поточного активного зображення
-    
-
+---
+navigation:
+  - imagick.getimagehistogram.md: '« Imagick::getImageHistogram'
+  - imagick.getimageinterlacescheme.md: 'Imagick::getImageInterlaceScheme »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageIndex'
+---
 # Imagick::getImageIndex
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
-
--   [« Closure::construct](closure.construct.html)
-    
--   [Closure::bindTo »](closure.bindto.html)
-    
--   [PHP Manual](index.html)
-    
--   [Closure](class.closure.html)
-    
--   Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
-    
-
+---
+navigation:
+  - closure.construct.html: '« Closure::construct'
+  - closure.bindto.html: 'Closure::bindTo »'
+  - index.html: PHP Manual
+  - class.closure.html: Closure
+title: 'Closure::bind'
+---
 # Closure::bind
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

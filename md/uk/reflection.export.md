@@ -1,16 +1,11 @@
-Експортує Reflection
-
--   [« Reflection](class.reflection.html)
-    
--   [Reflection::getModifierNames »](reflection.getmodifiernames.html)
-    
--   [PHP Manual](index.html)
-    
--   [Reflection](class.reflection.html)
-    
--   Експортує Reflection
-    
-
+---
+navigation:
+  - class.reflection.html: « Reflection
+  - reflection.getmodifiernames.html: 'Reflection::getModifierNames »'
+  - index.html: PHP Manual
+  - class.reflection.html: Reflection
+title: 'Reflection::export'
+---
 # Reflection::export
 
 (PHP 5, PHP 7)

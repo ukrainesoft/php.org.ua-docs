@@ -1,16 +1,11 @@
-Exif Функції
-
--   [« Обумовлені константи](exif.constants.md)
-    
--   [exifimagetype »](function.exif-imagetype.html)
-    
--   [PHP Manual](index.md)
-    
--   [Exif](book.exif.md)
-    
--   Exif Функції
-    
-
+---
+navigation:
+  - exif.constants.md: « Обумовлені константи
+  - function.exif-imagetype.html: exifimagetype »
+  - index.md: PHP Manual
+  - book.exif.md: Exif
+title: Exif Функції
+---
 # Exif Функції
 
 ## Зміст

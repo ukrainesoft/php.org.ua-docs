@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](zip.requirements.md)
-    
--   [Налаштування під час виконання »](zip.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](zip.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - zip.requirements.md: « Вимоги
+  - zip.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - zip.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 ## Системи Linux

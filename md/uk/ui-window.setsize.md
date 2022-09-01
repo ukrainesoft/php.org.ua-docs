@@ -1,16 +1,11 @@
-Встановити розмір
-
--   [« UIWindow::setMargin](ui-window.setmargin.html)
-    
--   [ОЙWindow::setTitle »](ui-window.settitle.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙWindow](class.ui-window.html)
-    
--   Встановити розмір
-    
-
+---
+navigation:
+  - ui-window.setmargin.html: '« UIWindow::setMargin'
+  - ui-window.settitle.html: 'ОЙWindow::setTitle »'
+  - index.md: PHP Manual
+  - class.ui-window.html: ОЙWindow
+title: 'ОЙWindow::setSize'
+---
 # ОЙWindow::setSize
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Отримує скалярне значення варіанта перерахування
-
--   [« ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.md)
-    
--   [ReflectionZendExtension »](class.reflectionzendextension.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
-    
--   Отримує скалярне значення варіанта перерахування
-    
-
+---
+navigation:
+  - reflectionenumbackedcase.construct.md: '« ReflectionEnumBackedCase::construct'
+  - class.reflectionzendextension.md: ReflectionZendExtension »
+  - index.md: PHP Manual
+  - class.reflectionenumbackedcase.md: ReflectionEnumBackedCase
+title: 'ReflectionEnumBackedCase::getBackingValue'
+---
 # ReflectionEnumBackedCase::getBackingValue
 
 (PHP 8> = 8.1.0)

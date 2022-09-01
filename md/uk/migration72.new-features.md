@@ -1,16 +1,11 @@
-Нові можливості
-
--   [« Миграция с PHP 7.1.x на PHP 7.2.x](migration72.md)
-    
--   [Нові функції »](migration72.new-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.md)
-    
--   Нові можливості
-    
-
+---
+navigation:
+  - migration72.md: « Миграция с PHP 7.1.x на PHP 7.2.x
+  - migration72.new-functions.html: Нові функції »
+  - index.md: PHP Manual
+  - migration72.md: Миграция с PHP 7.1.x на PHP 7.2.x
+title: Нові можливості
+---
 ## Нові можливості
 
 ### Новий тип object

@@ -1,16 +1,11 @@
-Повертає значення вказаного параметра конфігурації для документа tidy
-
--   [« tidy::getHtmlVer](tidy.gethtmlver.md)
-    
--   [tidy::getOptDoc »](tidy.getoptdoc.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Повертає значення вказаного параметра конфігурації для документа tidy
-    
-
+---
+navigation:
+  - tidy.gethtmlver.md: '« tidy::getHtmlVer'
+  - tidy.getoptdoc.md: 'tidy::getOptDoc »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::getOpt'
+---
 # tidy::getOpt
 
 # tidygetopt

@@ -1,16 +1,11 @@
-Отримує поточний ключ
-
--   [« FilterIterator::getInnerIterator](filteriterator.getinneriterator.html)
-    
--   [FilterIterator::next »](filteriterator.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [FilterIterator](class.filteriterator.html)
-    
--   Отримує поточний ключ
-    
-
+---
+navigation:
+  - filteriterator.getinneriterator.html: '« FilterIterator::getInnerIterator'
+  - filteriterator.next.html: 'FilterIterator::next »'
+  - index.html: PHP Manual
+  - class.filteriterator.html: FilterIterator
+title: 'FilterIterator::key'
+---
 # FilterIterator::key
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

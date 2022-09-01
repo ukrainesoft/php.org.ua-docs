@@ -1,16 +1,11 @@
-Синхронізує поточний стан файлу із фізичним пристроєм
-
--   [« eiofchown](function.eio-fchown.html)
-    
--   [eiofstat »](function.eio-fstat.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Синхронізує поточний стан файлу із фізичним пристроєм
-    
-
+---
+navigation:
+  - function.eio-fchown.html: « eiofchown
+  - function.eio-fstat.html: eiofstat »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiofdatasync
+---
 # eiofdatasync
 
 (PECL eio >= 0.0.1dev)

@@ -1,16 +1,11 @@
-Перевіряє, чи є поточний елемент допустимим
-
--   [« FilterIterator::rewind](filteriterator.rewind.md)
-    
--   [GlobIterator »](class.globiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [FilterIterator](class.filteriterator.md)
-    
--   Перевіряє, чи є поточний елемент допустимим
-    
-
+---
+navigation:
+  - filteriterator.rewind.md: '« FilterIterator::rewind'
+  - class.globiterator.md: GlobIterator »
+  - index.md: PHP Manual
+  - class.filteriterator.md: FilterIterator
+title: 'FilterIterator::valid'
+---
 # FilterIterator::valid
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

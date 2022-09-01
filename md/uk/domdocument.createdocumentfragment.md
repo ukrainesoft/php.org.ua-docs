@@ -1,16 +1,11 @@
-Створити новий фрагмент документа
-
--   [« DOMDocument::createComment](domdocument.createcomment.md)
-    
--   [DOMDocument::createElement »](domdocument.createelement.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий фрагмент документа
-    
-
+---
+navigation:
+  - domdocument.createcomment.md: '« DOMDocument::createComment'
+  - domdocument.createelement.md: 'DOMDocument::createElement »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createDocumentFragment'
+---
 # DOMDocument::createDocumentFragment
 
 (PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public DOMDocument::createDocumentFragment(): DOMDocumentFragment
 
 ### список змін
 
-| Версия | Описание                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.md). Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | У разі виникнення помилки тепер викидає виняток [DomException](class.domexception.md). Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 

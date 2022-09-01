@@ -1,16 +1,11 @@
-Модифікована модель свічка "Крюк"
-
--   [« tradercdlhikkake](function.trader-cdlhikkake.html)
-    
--   [tradercdlhomingpigeon »](function.trader-cdlhomingpigeon.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Модифікована модель свічка "Крюк"
-    
-
+---
+navigation:
+  - function.trader-cdlhikkake.html: « tradercdlhikkake
+  - function.trader-cdlhomingpigeon.html: tradercdlhomingpigeon »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlhikkakemod
+---
 # tradercdlhikkakemod
 
 (PECL trader >= 0.2.0)

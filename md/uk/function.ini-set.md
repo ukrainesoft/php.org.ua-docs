@@ -1,16 +1,11 @@
-Встановлює налаштування конфігурації
-
--   [« inirestore](function.ini-restore.html)
-    
--   [memorygetpeakusage »](function.memory-get-peak-usage.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Встановлює налаштування конфігурації
-    
-
+---
+navigation:
+  - function.ini-restore.html: « inirestore
+  - function.memory-get-peak-usage.html: memorygetpeakusage »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: iniset
+---
 # iniset
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ ini_set(string $option, string|int|float|bool|null $value): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `value` тепер приймає будь-який скалярний тип (включаючи **`null`**). Раніше допускалися лише строкові (string) значення. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `value` тепер приймає будь-який скалярний тип (включаючи **`null`**). Раніше допускалися лише строкові (string) значення. |
 
 ### Приклади
 

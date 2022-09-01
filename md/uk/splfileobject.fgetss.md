@@ -1,16 +1,11 @@
-Отримати рядок із файлу та видалити теги HTML
-
--   [« SplFileObject::fgets](splfileobject.fgets.md)
-    
--   [SplFileObject::flock »](splfileobject.flock.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Отримати рядок із файлу та видалити теги HTML
-    
-
+---
+navigation:
+  - splfileobject.fgets.md: '« SplFileObject::fgets'
+  - splfileobject.flock.md: 'SplFileObject::flock »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fgetss'
+---
 # SplFileObject::fgetss
 
 (PHP 5> = 5.1.0, PHP 7)

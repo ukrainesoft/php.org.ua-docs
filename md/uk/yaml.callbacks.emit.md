@@ -1,16 +1,11 @@
-Публікуючі callback-функції
-
--   [« Callback-функции парсинга](yaml.callbacks.parse.html)
-    
--   [Функции Yaml »](ref.yaml.html)
-    
--   [PHP Manual](index.html)
-    
--   [Callback-функции](yaml.callbacks.html)
-    
--   Публікуючі callback-функції
-    
-
+---
+navigation:
+  - yaml.callbacks.parse.html: « Callback-функции парсинга
+  - ref.yaml.html: Функции Yaml »
+  - index.html: PHP Manual
+  - yaml.callbacks.html: Callback-функции
+title: Публікуючі callback-функції
+---
 ## Публікуючі callback-функції
 
 Публікуючі callback-функції викликаються тоді, коли за допомогою [yamlemit()](function.yaml-emit.html) або [yamlemitfile()](function.yaml-emit-file.html) публікуються екземпляри зареєстрованих класів. У функцію передається об'єкт, що публікується. Callback-функція повинна повернути масив із двома ключами: "`tag`"і"`data`". Значення, пов'язане з ключем"`tag`" має бути рядком, що містить тег YAML для виведення. Значення, пов'язане з ключем "`data`" повинно бути закодовано як YAML та опубліковано замість перехопленого об'єкта.

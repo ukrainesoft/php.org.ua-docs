@@ -1,16 +1,11 @@
-Аналізує кольори еталонного зображення
-
--   [« Imagick::profileImage](imagick.profileimage.md)
-    
--   [Imagick::quantizeImages »](imagick.quantizeimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Аналізує кольори еталонного зображення
-    
-
+---
+navigation:
+  - imagick.profileimage.md: '« Imagick::profileImage'
+  - imagick.quantizeimages.md: 'Imagick::quantizeImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::quantizeImage'
+---
 # Imagick::quantizeImage
 
 (PECL imagick 2, PECL imagick 3)

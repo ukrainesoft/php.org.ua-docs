@@ -1,16 +1,11 @@
-Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
-
--   [« strtr](function.strtr.html)
-    
--   [substrcount »](function.substr-count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
-    
-
+---
+navigation:
+  - function.strtr.html: « strtr
+  - function.substr-count.html: substrcount »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: substrcompare
+---
 # substrcompare
 
 (PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ substr_compare(    string $haystack,    string $needle,    int $offs
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `length` тепер допускає значення null.     |
-|        | `offset` тепер може бути рівним `haystack` |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
+|  | `offset` тепер може бути рівним `haystack` |
 
 ### Приклади
 

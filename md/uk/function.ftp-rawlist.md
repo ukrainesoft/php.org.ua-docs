@@ -1,16 +1,11 @@
-Повертає докладний список файлів у заданій директорії
-
--   [« ftpraw](function.ftp-raw.html)
-    
--   [ftprename »](function.ftp-rename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Повертає докладний список файлів у заданій директорії
-    
-
+---
+navigation:
+  - function.ftp-raw.html: « ftpraw
+  - function.ftp-rename.html: ftprename »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftprawlist
+---
 # ftprawlist
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ ftp_rawlist(FTP\Connection $ftp, string $directory, bool $recursive = false): ar
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Отримує певні значення
-
--   [«psgetparameter](function.ps-get-parameter.html)
-    
--   [псhyphenate »](function.ps-hyphenate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Отримує певні значення
-    
-
+---
+navigation:
+  - function.ps-get-parameter.html: «psgetparameter
+  - function.ps-hyphenate.html: псhyphenate »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псgetvalue
+---
 # псgetvalue
 
 (PECL ps >= 1.1.0)

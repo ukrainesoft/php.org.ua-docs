@@ -1,16 +1,11 @@
-Перейменовує файл
-
--   [« ssh2sftprealpath](function.ssh2-sftp-realpath.html)
-    
--   [ssh2sftprmdir »](function.ssh2-sftp-rmdir.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Перейменовує файл
-    
-
+---
+navigation:
+  - function.ssh2-sftp-realpath.html: « ssh2sftprealpath
+  - function.ssh2-sftp-rmdir.html: ssh2sftprmdir »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2sftprename
+---
 # ssh2sftprename
 
 (PECL ssh2> = 0.9.0)

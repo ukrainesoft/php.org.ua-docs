@@ -1,16 +1,11 @@
-Повертає під-колекцію із заданого діапазону
-
--   [« DsSequence::shift](ds-sequence.shift.html)
-    
--   [ДсSequence::sort »](ds-sequence.sort.html)
-    
--   [PHP Manual](index.html)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Повертає під-колекцію із заданого діапазону
-    
-
+---
+navigation:
+  - ds-sequence.shift.html: '« DsSequence::shift'
+  - ds-sequence.sort.html: 'ДсSequence::sort »'
+  - index.html: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::slice'
+---
 # ДсSequence::slice
 
 (PECL ds >= 1.0.0)

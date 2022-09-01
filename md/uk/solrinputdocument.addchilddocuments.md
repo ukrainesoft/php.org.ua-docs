@@ -1,16 +1,11 @@
-Додає масив дочірніх документів
-
--   [« SolrInputDocument::addChildDocument](solrinputdocument.addchilddocument.html)
-    
--   [SolrInputDocument::addField »](solrinputdocument.addfield.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Додає масив дочірніх документів
-    
-
+---
+navigation:
+  - solrinputdocument.addchilddocument.html: '« SolrInputDocument::addChildDocument'
+  - solrinputdocument.addfield.html: 'SolrInputDocument::addField »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::addChildDocuments'
+---
 # SolrInputDocument::addChildDocuments
 
 (PECL solr> = 2.3.0)

@@ -1,16 +1,11 @@
-Очищаючі фільтри
-
--   [« Фільтри валідації даних](filter.filters.validate.md)
-    
--   [Інші фільтри »](filter.filters.misc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи фільтрів](filter.filters.md)
-    
--   Очищаючі фільтри
-    
-
+---
+navigation:
+  - filter.filters.validate.md: « Фільтри валідації даних
+  - filter.filters.misc.md: Інші фільтри »
+  - index.md: PHP Manual
+  - filter.filters.md: Типи фільтрів
+title: Очищаючі фільтри
+---
 ## Очищаючі фільтри
 
 **Список фільтрів, що очищають**
@@ -43,8 +38,8 @@ filter.default_flags = 0
 
 ### список змін
 
-| Версия | Описание                                                                               |
-|--------|----------------------------------------------------------------------------------------|
-|        | Вилучена **`FILTER_SANITIZE_MAGIC_QUOTES`**                                            |
-|        | Додана **`FILTER_SANITIZE_ADD_SLASHES`** для заміни **`FILTER_SANITIZE_MAGIC_QUOTES`** |
-|        | **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошено застарілою.                               |
+| Версия | Описание |
+| --- | --- |
+|  | Вилучена **`FILTER_SANITIZE_MAGIC_QUOTES`** |
+|  | Додана **`FILTER_SANITIZE_ADD_SLASHES`** для заміни **`FILTER_SANITIZE_MAGIC_QUOTES`** |
+|  | **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошено застарілою. |

@@ -1,16 +1,11 @@
-Створює новий стек, реалізований за допомогою двозв'язкового списку
-
--   [« SplStack](class.splstack.md)
-    
--   [SplStack::setIteratorMode »](splstack.setiteratormode.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplStack](class.splstack.md)
-    
--   Створює новий стек, реалізований за допомогою двозв'язкового списку
-    
-
+---
+navigation:
+  - class.splstack.md: « SplStack
+  - splstack.setiteratormode.md: 'SplStack::setIteratorMode »'
+  - index.md: PHP Manual
+  - class.splstack.md: SplStack
+title: 'SplStack::construct'
+---
 # SplStack::construct
 
 (PHP 5> = 5.3.0, PHP 7)

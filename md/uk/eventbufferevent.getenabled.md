@@ -1,16 +1,11 @@
-Повертає бітову маску подій, які активовані для буферної події.
-
--   [« EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.md)
-    
--   [EventBufferEvent::getInput »](eventbufferevent.getinput.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Повертає бітову маску подій, які активовані для буферної події.
-    
-
+---
+navigation:
+  - eventbufferevent.getdnserrorstring.md: '« EventBufferEvent::getDnsErrorString'
+  - eventbufferevent.getinput.md: 'EventBufferEvent::getInput »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::getEnabled'
+---
 # EventBufferEvent::getEnabled
 
 (PECL event >= 1.2.6-beta)

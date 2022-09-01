@@ -1,16 +1,11 @@
-Повертає ексцес та асиметрію певного каналу
-
--   [« Imagick::getImageChannelExtrema](imagick.getimagechannelextrema.md)
-    
--   [Imagick::getImageChannelMean »](imagick.getimagechannelmean.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає ексцес та асиметрію певного каналу
-    
-
+---
+navigation:
+  - imagick.getimagechannelextrema.md: '« Imagick::getImageChannelExtrema'
+  - imagick.getimagechannelmean.md: 'Imagick::getImageChannelMean »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageChannelKurtosis'
+---
 # Imagick::getImageChannelKurtosis
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

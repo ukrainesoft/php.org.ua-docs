@@ -1,16 +1,11 @@
-Створити новий атрибут
-
--   [« DOMDocument::construct](domdocument.construct.md)
-    
--   [DOMDocument::createAttributeNS »](domdocument.createattributens.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMDocument](class.domdocument.md)
-    
--   Створити новий атрибут
-    
-
+---
+navigation:
+  - domdocument.construct.md: '« DOMDocument::construct'
+  - domdocument.createattributens.md: 'DOMDocument::createAttributeNS »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
+title: 'DOMDocument::createAttribute'
+---
 # DOMDocument::createAttribute
 
 (PHP 5, PHP 7, PHP 8)

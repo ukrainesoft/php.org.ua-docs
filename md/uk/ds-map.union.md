@@ -1,16 +1,11 @@
-Створює нову колекцію пар із елементів двох колекцій
-
--   [« DsMap::toArray](ds-map.toarray.html)
-    
--   [ДсMap::values »](ds-map.values.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Створює нову колекцію пар із елементів двох колекцій
-    
-
+---
+navigation:
+  - ds-map.toarray.html: '« DsMap::toArray'
+  - ds-map.values.html: 'ДсMap::values »'
+  - index.html: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::union'
+---
 # ДсMap::union
 
 (PECL ds >= 1.0.0)

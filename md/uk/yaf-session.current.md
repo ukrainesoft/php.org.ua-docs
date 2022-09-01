@@ -1,16 +1,11 @@
-Призначення current
-
--   [« YafSession::count](yaf-session.count.html)
-    
--   [YafSession::del »](yaf-session.del.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення current
-    
-
+---
+navigation:
+  - yaf-session.count.html: '« YafSession::count'
+  - yaf-session.del.html: 'YafSession::del »'
+  - index.html: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::current'
+---
 # YafSession::current
 
 (Yaf >=1.0.0)

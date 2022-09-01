@@ -1,16 +1,11 @@
-Задає користувальницький обробник винятків
-
--   [« seterrorhandler](function.set-error-handler.html)
-    
--   [triggererror »](function.trigger-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции обработки ошибок](ref.errorfunc.md)
-    
--   Задає користувальницький обробник винятків
-    
-
+---
+navigation:
+  - function.set-error-handler.html: « seterrorhandler
+  - function.trigger-error.html: triggererror »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: setexceptionhandler
+---
 # setexceptionhandler
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](cubrid.constants.md)
-    
--   [Функции CUBRID »](ref.cubrid.md)
-    
--   [PHP Manual](index.md)
-    
--   [CUBRID](book.cubrid.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - cubrid.constants.md: « Обумовлені константи
+  - ref.cubrid.md: Функции CUBRID »
+  - index.md: PHP Manual
+  - book.cubrid.md: CUBRID
+title: Приклади
+---
 # Приклади
 
 Простий приклад, у якому встановлюється з'єднання з CUBRID. У цьому розділі розповідається про самі базові речі та особливості, на які слід звернути увагу. Наступний код здійснюватиме з'єднання з CUBRID, що передбачає, що сервер та брокер CUBRID запущені.

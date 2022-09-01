@@ -1,16 +1,11 @@
-Перевіряє, чи властивість захищена
-
--   [« ReflectionProperty::isPromoted](reflectionproperty.ispromoted.md)
-    
--   [ReflectionProperty::isPublic »](reflectionproperty.ispublic.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Перевіряє, чи властивість захищена
-    
-
+---
+navigation:
+  - reflectionproperty.ispromoted.md: '« ReflectionProperty::isPromoted'
+  - reflectionproperty.ispublic.md: 'ReflectionProperty::isPublic »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::isProtected'
+---
 # ReflectionProperty::isProtected
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.dbase.html)
-    
--   [Вимоги »](dbase.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](book.dbase.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.dbase.html: « Введение
+  - dbase.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.dbase.html: dBase
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Приєднує бінарний атрибут, що залежить від постачальника
-
--   [« radiusputvendoraddr](function.radius-put-vendor-addr.html)
-    
--   [radiusputvendorint »](function.radius-put-vendor-int.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Приєднує бінарний атрибут, що залежить від постачальника
-    
-
+---
+navigation:
+  - function.radius-put-vendor-addr.html: « radiusputvendoraddr
+  - function.radius-put-vendor-int.html: radiusputvendorint »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusputvendorattr
+---
 # radiusputvendorattr
 
 (PECL radius >= 1.1.0)
@@ -61,8 +56,8 @@ ID виробника (Vendor).
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Приклади

@@ -1,16 +1,11 @@
-Повертає область видимості документа JavascriptInterface
-
--   [« MongoDBBSONJavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.html)
-    
--   [MongoDBBSONJavascriptInterface::toString »](mongodb-bson-javascriptinterface.tostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
-    
--   Повертає область видимості документа JavascriptInterface
-    
-
+---
+navigation:
+  - mongodb-bson-javascriptinterface.getcode.html: '« MongoDBBSONJavascriptInterface::getCode'
+  - mongodb-bson-javascriptinterface.tostring.html: 'MongoDBBSONJavascriptInterface::toString »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-javascriptinterface.html: MongoDBBSONJavascriptInterface
+title: 'MongoDBBSONJavascriptInterface::getScope'
+---
 # MongoDBBSONJavascriptInterface::getScope
 
 (mongodb >=1.3.0)

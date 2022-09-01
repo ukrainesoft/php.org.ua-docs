@@ -1,16 +1,11 @@
-Зв'язує параметри запиту видалення
-
--   [« mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
-    
--   [TableDelete::construct »](mysql-xdevapi-tabledelete.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
-    
--   Зв'язує параметри запиту видалення
-    
-
+---
+navigation:
+  - class.mysql-xdevapi-tabledelete.html: « mysqlxdevapiTableDelete
+  - mysql-xdevapi-tabledelete.construct.html: 'TableDelete::construct »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+title: 'TableDelete::bind'
+---
 # TableDelete::bind
 
 (No version information available, might only be in Git)

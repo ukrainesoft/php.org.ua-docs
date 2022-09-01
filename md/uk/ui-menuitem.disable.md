@@ -1,16 +1,11 @@
-Вимкнути пункт меню
-
--   [« UIMenuItem](class.ui-menuitem.html)
-    
--   [ОЙMenuItem::enable »](ui-menuitem.enable.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenuItem](class.ui-menuitem.html)
-    
--   Вимкнути пункт меню
-    
-
+---
+navigation:
+  - class.ui-menuitem.html: « UIMenuItem
+  - ui-menuitem.enable.html: 'ОЙMenuItem::enable »'
+  - index.md: PHP Manual
+  - class.ui-menuitem.html: ОЙMenuItem
+title: 'ОЙMenuItem::disable'
+---
 # ОЙMenuItem::disable
 
 (UI 0.9.9)

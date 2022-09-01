@@ -1,16 +1,11 @@
-Отримує ексклюзивне блокування для цього ключа
-
--   [« wincachefcachememinfo](function.wincache-fcache-meminfo.html)
-    
--   [wincacheocachefileinfo »](function.wincache-ocache-fileinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Отримує ексклюзивне блокування для цього ключа
-    
-
+---
+navigation:
+  - function.wincache-fcache-meminfo.html: « wincachefcachememinfo
+  - function.wincache-ocache-fileinfo.html: wincacheocachefileinfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincachelock
+---
 # wincachelock
 
 (PECL wincache >= 1.1.0)

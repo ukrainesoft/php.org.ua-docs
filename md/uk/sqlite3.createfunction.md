@@ -1,16 +1,11 @@
-Реєструє функцію PHP для використання як скалярну функцію SQL
-
--   [« SQLite3::createCollation](sqlite3.createcollation.md)
-    
--   [SQLite3::enableExceptions »](sqlite3.enableexceptions.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Реєструє функцію PHP для використання як скалярну функцію SQL
-    
-
+---
+navigation:
+  - sqlite3.createcollation.md: '« SQLite3::createCollation'
+  - sqlite3.enableexceptions.md: 'SQLite3::enableExceptions »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::createFunction'
+---
 # SQLite3::createFunction
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -63,9 +58,9 @@ callback(mixed $value, mixed ...$values): mixed
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

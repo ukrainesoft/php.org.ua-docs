@@ -1,16 +1,11 @@
-Отримує всі об'єкти SNMP з агента
-
--   [« snmpset](function.snmpset.html)
-    
--   [snmpwalkoid »](function.snmpwalkoid.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Отримує всі об'єкти SNMP з агента
-    
-
+---
+navigation:
+  - function.snmpset.html: « snmpset
+  - function.snmpwalkoid.html: snmpwalkoid »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmpwalk
+---
 # snmpwalk
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

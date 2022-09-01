@@ -1,16 +1,11 @@
-Визначає, чи запит POST-запитом
-
--   [« YafRequestAbstract::isOptions](yaf-request-abstract.isoptions.html)
-    
--   [YafRequestAbstract::isPut »](yaf-request-abstract.isput.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи запит POST-запитом
-    
-
+---
+navigation:
+  - yaf-request-abstract.isoptions.html: '« YafRequestAbstract::isOptions'
+  - yaf-request-abstract.isput.html: 'YafRequestAbstract::isPut »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isPost'
+---
 # YafRequestAbstract::isPost
 
 (Yaf >=1.0.0)

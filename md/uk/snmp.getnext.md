@@ -1,16 +1,11 @@
-Отримати об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
-
--   [« SNMP::getError](snmp.geterror.html)
-    
--   [SNMP::set »](snmp.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [SNMP](class.snmp.html)
-    
--   Отримати об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
-    
-
+---
+navigation:
+  - snmp.geterror.html: '« SNMP::getError'
+  - snmp.set.html: 'SNMP::set »'
+  - index.html: PHP Manual
+  - class.snmp.html: SNMP
+title: 'SNMP::getnext'
+---
 # SNMP::getnext
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

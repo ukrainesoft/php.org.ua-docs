@@ -1,16 +1,11 @@
-Визначення кодування символів вхідних даних HTTP-запиту
-
--   [« mbgetinfo](function.mb-get-info.html)
-    
--   [мбhttpoutput »](function.mb-http-output.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Визначення кодування символів вхідних даних HTTP-запиту
-    
-
+---
+navigation:
+  - function.mb-get-info.html: « mbgetinfo
+  - function.mb-http-output.html: мбhttpoutput »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбhttpinput
+---
 # мбhttpinput
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ mb_http_input(?string $type = null): array|string|false
 
 ### список змін
 
-| Версия | Описание                                   |
-|--------|--------------------------------------------|
-|        | `type` тепер може задаватися як **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `type` тепер може задаватися як **`null`** |
 
 ### Дивіться також
 

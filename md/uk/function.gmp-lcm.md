@@ -1,16 +1,11 @@
-Обчислює найменше загальне кратне
-
--   [« gmpkronecker](function.gmp-kronecker.html)
-    
--   [gmplegendre »](function.gmp-legendre.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Обчислює найменше загальне кратне
-    
-
+---
+navigation:
+  - function.gmp-kronecker.html: « gmpkronecker
+  - function.gmp-legendre.html: gmplegendre »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmplcm
+---
 # gmplcm
 
 (PHP 7> = 7.3.0, PHP 8)

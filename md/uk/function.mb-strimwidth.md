@@ -1,16 +1,11 @@
-Отримання рядка, обрізаного до заданого розміру
-
--   [« mbstrcut](function.mb-strcut.html)
-    
--   [мбstripos »](function.mb-stripos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Отримання рядка, обрізаного до заданого розміру
-    
-
+---
+navigation:
+  - function.mb-strcut.html: « mbstrcut
+  - function.mb-stripos.html: мбstripos »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrimwidth
+---
 # мбstrimwidth
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ mb_strimwidth(    string $string,    int $start,    int $width,  �
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
-|        | Додано підтримку негативних `start` і `width`               |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
+|  | Додано підтримку негативних `start` і `width` |
 
 ### Приклади
 

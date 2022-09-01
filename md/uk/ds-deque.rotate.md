@@ -1,16 +1,11 @@
-Перемотує двосторонню чергу на задану кількість значень
-
--   [« DsDeque::reversed](ds-deque.reversed.html)
-    
--   [ДсDeque::set »](ds-deque.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Перемотує двосторонню чергу на задану кількість значень
-    
-
+---
+navigation:
+  - ds-deque.reversed.html: '« DsDeque::reversed'
+  - ds-deque.set.html: 'ДсDeque::set »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::rotate'
+---
 # ДсDeque::rotate
 
 (PECL ds >= 1.0.0)

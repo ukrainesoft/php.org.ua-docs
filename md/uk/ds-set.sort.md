@@ -1,16 +1,11 @@
-Сортує колекцію
-
--   [« DsSet::slice](ds-set.slice.html)
-    
--   [ДсSet::sorted »](ds-set.sorted.html)
-    
--   [PHP Manual](index.md)
-    
--   [Набор](class.ds-set.html)
-    
--   Сортує колекцію
-    
-
+---
+navigation:
+  - ds-set.slice.html: '« DsSet::slice'
+  - ds-set.sorted.html: 'ДсSet::sorted »'
+  - index.md: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::sort'
+---
 # ДсSet::sort
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Метод сповіщення про зміну опису сервера
-
--   [« MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber::serverClosed »](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
-    
--   Метод сповіщення про зміну опису сервера
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: « MongoDBDriverMonitoringSDAMSubscriber
+  - mongodb-driver-monitoring-sdamsubscriber.serverclosed.html: 'MongoDBDriverMonitoringSDAMSubscriber::serverClosed »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+title: 'MongoDBDriverMonitoringSDAMSubscriber::serverChanged'
+---
 # MongoDBDriverMonitoringSDAMSubscriber::serverChanged
 
 (mongodb >=1.13.0)

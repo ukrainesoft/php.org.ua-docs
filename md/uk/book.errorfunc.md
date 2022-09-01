@@ -1,16 +1,11 @@
-Обробка та логування помилок
-
--   [« Componerecastбref](componere.cast_by_ref.html)
-    
--   [Введение »](intro.errorfunc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Изменение поведения PHP](refs.basic.php.html)
-    
--   Обробка та логування помилок
-    
-
+---
+navigation:
+  - componere.cast_by_ref.html: « Componerecastбref
+  - intro.errorfunc.html: Введение »
+  - index.html: PHP Manual
+  - refs.basic.php.html: Изменение поведения PHP
+title: Обробка та логування помилок
+---
 # Обробка та логування помилок
 
 -   [Введение](intro.errorfunc.html)

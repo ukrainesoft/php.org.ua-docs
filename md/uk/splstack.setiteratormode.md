@@ -1,16 +1,11 @@
-Встановлює режим ітератора
-
--   [« SplStack::construct](splstack.construct.md)
-    
--   [SplQueue »](class.splqueue.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplStack](class.splstack.md)
-    
--   Встановлює режим ітератора
-    
-
+---
+navigation:
+  - splstack.construct.md: '« SplStack::construct'
+  - class.splqueue.md: SplQueue »
+  - index.md: PHP Manual
+  - class.splstack.md: SplStack
+title: 'SplStack::setIteratorMode'
+---
 # SplStack::setIteratorMode
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

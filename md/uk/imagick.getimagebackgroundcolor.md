@@ -1,16 +1,11 @@
-Повертає колір фону зображення
-
--   [« Imagick::getImageAttribute](imagick.getimageattribute.md)
-    
--   [Imagick::getImageBlob »](imagick.getimageblob.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає колір фону зображення
-    
-
+---
+navigation:
+  - imagick.getimageattribute.md: '« Imagick::getImageAttribute'
+  - imagick.getimageblob.md: 'Imagick::getImageBlob »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageBackgroundColor'
+---
 # Imagick::getImageBackgroundColor
 
 (PECL imagick 2, PECL imagick 3)

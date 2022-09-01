@@ -1,16 +1,11 @@
-Отримує атрибути
-
--   [« ReflectionProperty::export](reflectionproperty.export.md)
-    
--   [ReflectionProperty::getDeclaringClass »](reflectionproperty.getdeclaringclass.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionProperty](class.reflectionproperty.md)
-    
--   Отримує атрибути
-    
-
+---
+navigation:
+  - reflectionproperty.export.md: '« ReflectionProperty::export'
+  - reflectionproperty.getdeclaringclass.md: 'ReflectionProperty::getDeclaringClass »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
+title: 'ReflectionProperty::getAttributes'
+---
 # ReflectionProperty::getAttributes
 
 (PHP 8)

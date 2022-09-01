@@ -1,16 +1,11 @@
-Малює лінію
-
--   [« ImagickDraw::pathFinish](imagickdraw.pathfinish.md)
-    
--   [ImagickDraw::pathLineToHorizontalAbsolute »](imagickdraw.pathlinetohorizontalabsolute.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює лінію
-    
-
+---
+navigation:
+  - imagickdraw.pathfinish.md: '« ImagickDraw::pathFinish'
+  - imagickdraw.pathlinetohorizontalabsolute.md: 'ImagickDraw::pathLineToHorizontalAbsolute »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::pathLineToAbsolute'
+---
 # ImagickDraw::pathLineToAbsolute
 
 (PECL imagick 2)

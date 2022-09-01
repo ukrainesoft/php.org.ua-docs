@@ -1,16 +1,11 @@
-Щільність ймовірності розподілу Лапласа
-
--   [« statsdensgamma](function.stats-dens-gamma.html)
-    
--   [statsdenslogistic »](function.stats-dens-logistic.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Щільність ймовірності розподілу Лапласа
-    
-
+---
+navigation:
+  - function.stats-dens-gamma.html: « statsdensgamma
+  - function.stats-dens-logistic.html: statsdenslogistic »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsdenslaplace
+---
 # statsdenslaplace
 
 (PECL stats >= 1.0.0)

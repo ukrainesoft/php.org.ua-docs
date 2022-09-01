@@ -1,16 +1,11 @@
-Встановлює нестабільний період
-
--   [« tradersetcompat](function.trader-set-compat.html)
-    
--   [tradersin »](function.trader-sin.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Встановлює нестабільний період
-    
-
+---
+navigation:
+  - function.trader-set-compat.html: « tradersetcompat
+  - function.trader-sin.html: tradersin »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradersetunstableперіод
+---
 # tradersetunstableперіод
 
 (PECL trader >= 0.2.2)

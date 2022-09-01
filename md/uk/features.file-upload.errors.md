@@ -1,16 +1,11 @@
-Пояснення повідомлень про помилки
-
--   [« Завантаження файлів методом POST](features.file-upload.post-method.html)
-    
--   [Найпоширеніші помилки »](features.file-upload.common-pitfalls.html)
-    
--   [PHP Manual](index.md)
-    
--   [Загрузка файлов на сервер](features.file-upload.html)
-    
--   Пояснення повідомлень про помилки
-    
-
+---
+navigation:
+  - features.file-upload.post-method.html: « Завантаження файлів методом POST
+  - features.file-upload.common-pitfalls.html: Найпоширеніші помилки »
+  - index.md: PHP Manual
+  - features.file-upload.html: Загрузка файлов на сервер
+title: Пояснення повідомлень про помилки
+---
 ## Пояснення повідомлень про помилки
 
 PHP повертає код помилки поряд з іншими атрибутами прийнятого файлу. Він розташований у масиві, що створюється PHP при завантаженні файлу, і може бути отриманий при зверненні по ключу `error`. Іншими словами, код помилки можна знайти в [FILES\['userfile'\]\['error'\]](reserved.variables.files.md)

@@ -1,16 +1,11 @@
-Робота з формами
-
--   [« Робимо щось корисне](tutorial.useful.html)
-    
--   [Що далі? »](tutorial.whatsnext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Простий підручник](tutorial.html)
-    
--   Робота з формами
-    
-
+---
+navigation:
+  - tutorial.useful.html: « Робимо щось корисне
+  - tutorial.whatsnext.html: Що далі? »
+  - index.html: PHP Manual
+  - tutorial.html: Простий підручник
+title: Робота з формами
+---
 # Робота з формами
 
 Одна з найголовніших переваг PHP - те, як він працює з формами HTML. Тут основним є те, що кожен елемент форми автоматично стає доступним вашим програмам на PHP. Для детальної інформації про використання форм у PHP читайте розділ [Змінні із зовнішніх джерел](language.variables.external.html). Ось приклад форми HTML:

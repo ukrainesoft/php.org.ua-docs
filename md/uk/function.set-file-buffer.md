@@ -1,16 +1,11 @@
-Псевдонім streamsetwritebuffer
-
--   [« rmdir](function.rmdir.html)
-    
--   [stat »](function.stat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Псевдонім streamsetwritebuffer
-    
-
+---
+navigation:
+  - function.rmdir.html: « rmdir
+  - function.stat.html: stat »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: setfilebuffer
+---
 # setfilebuffer
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Базові засади управління сесіями
-
--   [« Безпека сесій](session.security.md)
-    
--   [INI-налаштування безпеки сесій »](session.security.ini.md)
-    
--   [PHP Manual](index.md)
-    
--   [Безпека сесій](session.security.md)
-    
--   Базові засади управління сесіями
-    
-
+---
+navigation:
+  - session.security.md: « Безпека сесій
+  - session.security.ini.md: INI-налаштування безпеки сесій »
+  - index.md: PHP Manual
+  - session.security.md: Безпека сесій
+title: Базові засади управління сесіями
+---
 ## Базові засади управління сесіями
 
 ### Безпека сесії

@@ -1,16 +1,11 @@
-Задає вирівнювання тексту
-
--   [« ImagickDraw::setStrokeWidth](imagickdraw.setstrokewidth.html)
-    
--   [ImagickDraw::setTextAntialias »](imagickdraw.settextantialias.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Задає вирівнювання тексту
-    
-
+---
+navigation:
+  - imagickdraw.setstrokewidth.html: '« ImagickDraw::setStrokeWidth'
+  - imagickdraw.settextantialias.html: 'ImagickDraw::setTextAntialias »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setTextAlignment'
+---
 # ImagickDraw::setTextAlignment
 
 (PECL imagick 2, PECL imagick 3)

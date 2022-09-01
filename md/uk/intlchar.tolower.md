@@ -1,16 +1,11 @@
-Перетворення символу Unicode на нижній регістр
-
--   [« IntlChar::ord](intlchar.ord.md)
-    
--   [IntlChar::totitle »](intlchar.totitle.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перетворення символу Unicode на нижній регістр
-    
-
+---
+navigation:
+  - intlchar.ord.md: '« IntlChar::ord'
+  - intlchar.totitle.md: 'IntlChar::totitle »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::tolower'
+---
 # IntlChar::tolower
 
 (PHP 7, PHP 8)

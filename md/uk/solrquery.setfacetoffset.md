@@ -1,16 +1,11 @@
-Встановлює зміщення до списку обмежень для розбиття на сторінки
-
--   [« SolrQuery::setFacetMissing](solrquery.setfacetmissing.md)
-    
--   [SolrQuery::setFacetPrefix »](solrquery.setfacetprefix.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює зміщення до списку обмежень для розбиття на сторінки
-    
-
+---
+navigation:
+  - solrquery.setfacetmissing.md: '« SolrQuery::setFacetMissing'
+  - solrquery.setfacetprefix.md: 'SolrQuery::setFacetPrefix »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setFacetOffset'
+---
 # SolrQuery::setFacetOffset
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Остаточний, граничний осцилятор
-
--   [« tradertypprice](function.trader-typprice.html)
-    
--   [tradervar »](function.trader-var.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Остаточний, граничний осцилятор
-    
-
+---
+navigation:
+  - function.trader-typprice.html: « tradertypprice
+  - function.trader-var.html: tradervar »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderultosc
+---
 # traderultosc
 
 (PECL trader >= 0.2.0)

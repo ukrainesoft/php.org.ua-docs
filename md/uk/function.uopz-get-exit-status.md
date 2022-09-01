@@ -1,16 +1,11 @@
-Отримати останній встановлений статус виходу
-
--   [« uopzfunction](function.uopz-function.html)
-    
--   [uopzgethook »](function.uopz-get-hook.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Отримати останній встановлений статус виходу
-    
-
+---
+navigation:
+  - function.uopz-function.html: « uopzfunction
+  - function.uopz-get-hook.html: uopzgethook »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzgetexitstatus
+---
 # uopzgetexitstatus
 
 (PECL uopz 5, PECL uopz, PECL uopz 7)

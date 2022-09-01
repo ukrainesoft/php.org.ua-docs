@@ -1,16 +1,11 @@
-Вивільнити MIME-ресурс
-
--   [« mailparsemsgextractwholepartfile](function.mailparse-msg-extract-whole-part-file.html)
-    
--   [mailparsemsggetpartdata »](function.mailparse-msg-get-part-data.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mailparse](ref.mailparse.html)
-    
--   Вивільнити MIME-ресурс
-    
-
+---
+navigation:
+  - function.mailparse-msg-extract-whole-part-file.html: « mailparsemsgextractwholepartfile
+  - function.mailparse-msg-get-part-data.html: mailparsemsggetpartdata »
+  - index.html: PHP Manual
+  - ref.mailparse.html: Mailparse
+title: mailparsemsgfree
+---
 # mailparsemsgfree
 
 (PECL mailparse >= 0.9.0)

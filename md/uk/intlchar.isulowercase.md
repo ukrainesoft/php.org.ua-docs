@@ -1,16 +1,11 @@
-Перевірити, чи символ символом в нижньому регістрі
-
--   [« IntlChar::isUAlphabetic](intlchar.isualphabetic.md)
-    
--   [IntlChar::isupper »](intlchar.isupper.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи символ символом в нижньому регістрі
-    
-
+---
+navigation:
+  - intlchar.isualphabetic.md: '« IntlChar::isUAlphabetic'
+  - intlchar.isupper.md: 'IntlChar::isupper »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isULowercase'
+---
 # IntlChar::isULowercase
 
 (PHP 7, PHP 8)

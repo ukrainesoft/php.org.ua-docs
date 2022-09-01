@@ -1,16 +1,11 @@
-Опитує канали/слухачів/потоки щодо подій
-
--   [« ssh2methodsnegotiated](function.ssh2-methods-negotiated.html)
-    
--   [ssh2publickeyadd »](function.ssh2-publickey-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SSH2](ref.ssh2.html)
-    
--   Опитує канали/слухачів/потоки щодо подій
-    
-
+---
+navigation:
+  - function.ssh2-methods-negotiated.html: « ssh2methodsnegotiated
+  - function.ssh2-publickey-add.html: ssh2publickeyadd »
+  - index.html: PHP Manual
+  - ref.ssh2.html: Функції SSH2
+title: ssh2poll
+---
 # ssh2poll
 
 (PECL ssh2> = 0.9.0)

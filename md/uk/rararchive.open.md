@@ -1,16 +1,11 @@
-Відкриває архів RAR
-
--   [« RarArchive::isSolid](rararchive.issolid.md)
-    
--   [RarArchive::setAllowBroken »](rararchive.setallowbroken.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarArchive](class.rararchive.md)
-    
--   Відкриває архів RAR
-    
-
+---
+navigation:
+  - rararchive.issolid.md: '« RarArchive::isSolid'
+  - rararchive.setallowbroken.md: 'RarArchive::setAllowBroken »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
+title: 'RarArchive::open'
+---
 # RarArchive::open
 
 # raropen
@@ -63,8 +58,8 @@ rar_open(string $filename, string $password = NULL, callable $volume_callback = 
 
 ### список змін
 
-| Версия         | Описание                      |
-|----------------|-------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 3.0.0 | Був доданий `volume_callback` |
 
 ### Приклади

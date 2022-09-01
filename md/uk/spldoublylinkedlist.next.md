@@ -1,16 +1,11 @@
-Переміщує ітератор до наступного елемента
-
--   [« SplDoublyLinkedList::key](spldoublylinkedlist.key.md)
-    
--   [SplDoublyLinkedList::offsetExists »](spldoublylinkedlist.offsetexists.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Переміщує ітератор до наступного елемента
-    
-
+---
+navigation:
+  - spldoublylinkedlist.key.md: '« SplDoublyLinkedList::key'
+  - spldoublylinkedlist.offsetexists.md: 'SplDoublyLinkedList::offsetExists »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::next'
+---
 # SplDoublyLinkedList::next
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

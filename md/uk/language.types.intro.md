@@ -1,16 +1,11 @@
-Вступ
-
--   [« Типи](language.types.md)
-    
--   [Булев »](language.types.boolean.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи](language.types.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - language.types.md: « Типи
+  - language.types.boolean.md: Булев »
+  - index.md: PHP Manual
+  - language.types.md: Типи
+title: Вступ
+---
 ## Вступ
 
 PHP підтримує десять найпростіших типів.

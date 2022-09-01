@@ -1,16 +1,11 @@
-Створює новий об'єкт DateTimeZone
-
--   [« DateTimeZone](class.datetimezone.md)
-    
--   [DateTimeZone::getLocation »](datetimezone.getlocation.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeZone](class.datetimezone.md)
-    
--   Створює новий об'єкт DateTimeZone
-    
-
+---
+navigation:
+  - class.datetimezone.md: « DateTimeZone
+  - datetimezone.getlocation.md: 'DateTimeZone::getLocation »'
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
+title: 'DateTimeZone::construct'
+---
 # DateTimeZone::construct
 
 # timezoneopen

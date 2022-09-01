@@ -1,16 +1,11 @@
-Клас IntlCalendar
-
--   [« MessageFormatter::setPattern](messageformatter.setpattern.md)
-    
--   [IntlCalendar::add »](intlcalendar.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас IntlCalendar
-    
-
+---
+navigation:
+  - messageformatter.setpattern.md: '« MessageFormatter::setPattern'
+  - intlcalendar.add.md: 'IntlCalendar::add »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас IntlCalendar
+---
 # Клас IntlCalendar
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

@@ -1,16 +1,11 @@
-Завдання callback-функції, що збирає інформацію про стан обробника завдань
-
--   [« GearmanClient::setOptions](gearmanclient.setoptions.html)
-    
--   [GearmanClient::setTimeout »](gearmanclient.settimeout.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Завдання callback-функції, що збирає інформацію про стан обробника завдань
-    
-
+---
+navigation:
+  - gearmanclient.setoptions.html: '« GearmanClient::setOptions'
+  - gearmanclient.settimeout.html: 'GearmanClient::setTimeout »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::setStatusCallback'
+---
 # GearmanClient::setStatusCallback
 
 (PECL gearman >= 0.5.0)

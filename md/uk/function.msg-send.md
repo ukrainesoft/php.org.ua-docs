@@ -1,16 +1,11 @@
-Надсилання повідомлення до черги повідомлень
-
--   [« msgremovequeue](function.msg-remove-queue.html)
-    
--   [msgsetqueue »](function.msg-set-queue.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Надсилання повідомлення до черги повідомлень
-    
-
+---
+navigation:
+  - function.msg-remove-queue.html: « msgremovequeue
+  - function.msg-set-queue.html: msgsetqueue »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: msgsend
+---
 # msgsend
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -63,9 +58,9 @@ msg_send(    SysvMessageQueue $queue,    int $message_type,    strin
 
 ### список змін
 
-| Версия | Описание                                                                                                                   |
-|--------|----------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

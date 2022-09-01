@@ -1,16 +1,11 @@
-Експортувати в бінарний рядок
-
--   [« gmpdivexact](function.gmp-divexact.html)
-    
--   [gmpfact »](function.gmp-fact.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Експортувати в бінарний рядок
-    
-
+---
+navigation:
+  - function.gmp-divexact.html: « gmpdivexact
+  - function.gmp-fact.html: gmpfact »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpexport
+---
 # gmpexport
 
 (PHP 5> = 5.6.1, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ GMP-число для експорту
 
 ### список змін
 
-| Версия | Описание                                                          |
-|--------|-------------------------------------------------------------------|
-|        | Функція більше не повертає **`false`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
 
 ### Приклади
 

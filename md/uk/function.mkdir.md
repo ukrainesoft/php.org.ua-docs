@@ -1,16 +1,11 @@
-Створює директорію
-
--   [« lstat](function.lstat.md)
-    
--   [moveuploadedfile »](function.move-uploaded-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Створює директорію
-    
-
+---
+navigation:
+  - function.lstat.md: « lstat
+  - function.move-uploaded-file.html: moveuploadedfile »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: mkdir
+---
 # mkdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

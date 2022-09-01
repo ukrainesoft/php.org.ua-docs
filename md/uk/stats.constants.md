@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](stats.resources.md)
-    
--   [Функції статистики »](ref.stats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Статистика](book.stats.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - stats.resources.md: « Типи ресурсів
+  - ref.stats.md: Функції статистики »
+  - index.md: PHP Manual
+  - book.stats.md: Статистика
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

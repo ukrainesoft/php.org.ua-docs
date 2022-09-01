@@ -1,16 +1,11 @@
-Додає значення на початок послідовності
-
--   [« DsSequence::sum](ds-sequence.sum.html)
-    
--   [Вектор »](class.ds-vector.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Додає значення на початок послідовності
-    
-
+---
+navigation:
+  - ds-sequence.sum.html: '« DsSequence::sum'
+  - class.ds-vector.html: Вектор »
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::unshift'
+---
 # ДсSequence::unshift
 
 (PECL ds >= 1.0.0)

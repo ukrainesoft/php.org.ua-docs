@@ -1,16 +1,11 @@
-Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
-
--   [« SNMP::close](snmp.close.html)
-    
--   [SNMP::get »](snmp.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [SNMP](class.snmp.html)
-    
--   Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
-    
-
+---
+navigation:
+  - snmp.close.html: '« SNMP::close'
+  - snmp.get.html: 'SNMP::get »'
+  - index.html: PHP Manual
+  - class.snmp.html: SNMP
+title: 'SNMP::construct'
+---
 # SNMP::construct
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

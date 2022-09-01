@@ -1,16 +1,11 @@
-Перенаправлення функцій WinCache
-
--   [« Обработчик сессий WinCache](wincache.sessionhandler.html)
-    
--   [Типи ресурсів »](wincache.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](wincache.setup.html)
-    
--   Перенаправлення функцій WinCache
-    
-
+---
+navigation:
+  - wincache.sessionhandler.html: « Обработчик сессий WinCache
+  - wincache.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - wincache.setup.html: Встановлення та налаштування
+title: Перенаправлення функцій WinCache
+---
 ## Перенаправлення функцій WinCache
 
 *ЗВЕРНІТЬ УВАГУ:* [wincache.rerouteini](wincache.configuration.html#ini.wincache.rerouteini) видалено у WinCache 1.3.7.0. Вона була замінена автоматичним перенаправленням. Дивіться [wincache.rerouteenabled](wincache.configuration.html#ini.wincache.reroute_enabled)

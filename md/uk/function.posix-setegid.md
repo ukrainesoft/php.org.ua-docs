@@ -1,16 +1,11 @@
-Встановлює ефективний ідентифікатор групи для поточного процесу EGID
-
--   [« posixmknod](function.posix-mknod.html)
-    
--   [posixseteuid »](function.posix-seteuid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Встановлює ефективний ідентифікатор групи для поточного процесу EGID
-    
-
+---
+navigation:
+  - function.posix-mknod.html: « posixmknod
+  - function.posix-seteuid.html: posixseteuid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixsetegid
+---
 # posixsetegid
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)

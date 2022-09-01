@@ -1,16 +1,11 @@
-Quickhash
-
--   [« unregistertickfunction](function.unregister-tick-function.html)
-    
--   [Введение »](intro.quickhash.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
-    
--   Quickhash
-    
-
+---
+navigation:
+  - function.unregister-tick-function.html: « unregistertickfunction
+  - intro.quickhash.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'
+title: Quickhash
+---
 # Quickhash
 
 -   [Введение](intro.quickhash.md)

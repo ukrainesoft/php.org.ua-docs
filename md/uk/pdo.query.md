@@ -1,16 +1,11 @@
-Підготовляє та виконує вираз SQL без заповнювачів
-
--   [« PDO::prepare](pdo.prepare.md)
-    
--   [PDO::quote »](pdo.quote.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDO](class.pdo.md)
-    
--   Підготовляє та виконує вираз SQL без заповнювачів
-    
-
+---
+navigation:
+  - pdo.prepare.md: '« PDO::prepare'
+  - pdo.quote.md: 'PDO::quote »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
+title: 'PDO::query'
+---
 # PDO::query
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)

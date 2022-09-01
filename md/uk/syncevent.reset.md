@@ -1,16 +1,11 @@
-Скидає ручну подію
-
--   [« SyncEvent::fire](syncevent.fire.md)
-    
--   [SyncEvent::wait »](syncevent.wait.md)
-    
--   [PHP Manual](index.md)
-    
--   [SyncEvent](class.syncevent.md)
-    
--   Скидає ручну подію
-    
-
+---
+navigation:
+  - syncevent.fire.md: '« SyncEvent::fire'
+  - syncevent.wait.md: 'SyncEvent::wait »'
+  - index.md: PHP Manual
+  - class.syncevent.md: SyncEvent
+title: 'SyncEvent::reset'
+---
 # SyncEvent::reset
 
 (PECL sync >= 1.0.0)

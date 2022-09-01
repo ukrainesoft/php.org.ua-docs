@@ -1,16 +1,11 @@
-Включає читання, запис або те й інше в події буфера
-
--   [« EventBufferEvent::disable](eventbufferevent.disable.md)
-    
--   [EventBufferEvent::free »](eventbufferevent.free.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Включає читання, запис або те й інше в події буфера
-    
-
+---
+navigation:
+  - eventbufferevent.disable.md: '« EventBufferEvent::disable'
+  - eventbufferevent.free.md: 'EventBufferEvent::free »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::enable'
+---
 # EventBufferEvent::enable
 
 (PECL event >= 1.2.6-beta)

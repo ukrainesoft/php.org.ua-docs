@@ -1,16 +1,11 @@
-Повернути цілу частину варіанта
-
--   [« varianteqv](function.variant-eqv.html)
-    
--   [variantgettype »](function.variant-get-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции COM](ref.com.html)
-    
--   Повернути цілу частину варіанта
-    
-
+---
+navigation:
+  - function.variant-eqv.html: « varianteqv
+  - function.variant-get-type.html: variantgettype »
+  - index.html: PHP Manual
+  - ref.com.html: Функции COM
+title: variantfix
+---
 # variantfix
 
 (PHP 5, PHP 7, PHP 8)

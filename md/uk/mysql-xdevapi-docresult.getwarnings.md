@@ -1,16 +1,11 @@
-Отримати попередження з останньої операції
-
--   [« DocResult::fetchOne](mysql-xdevapi-docresult.fetchone.html)
-    
--   [DocResult::getWarningsCount »](mysql-xdevapi-docresult.getwarningscount.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiDocResult](class.mysql-xdevapi-docresult.html)
-    
--   Отримати попередження з останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-docresult.fetchone.html: '« DocResult::fetchOne'
+  - mysql-xdevapi-docresult.getwarningscount.html: 'DocResult::getWarningsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+title: 'DocResult::getWarnings'
+---
 # DocResult::getWarnings
 
 (No version information available, might only be in Git)

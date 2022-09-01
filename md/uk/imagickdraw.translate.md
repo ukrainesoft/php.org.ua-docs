@@ -1,16 +1,11 @@
-Застосовує перенесення до поточної системи координат
-
--   [« ImagickDraw::skewY](imagickdraw.skewy.md)
-    
--   [ImagickPixel »](class.imagickpixel.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Застосовує перенесення до поточної системи координат
-    
-
+---
+navigation:
+  - imagickdraw.skewy.md: '« ImagickDraw::skewY'
+  - class.imagickpixel.md: ImagickPixel »
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::translate'
+---
 # ImagickDraw::translate
 
 (PECL imagick 2, PECL imagick 3)

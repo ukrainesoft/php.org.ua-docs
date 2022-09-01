@@ -1,16 +1,11 @@
-Встановлення на macOS
-
--   [« Инструкции по установке на Debian GNU/Linux](install.unix.debian.html)
-    
--   [Использование пакетов »](install.macosx.packages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](install.html)
-    
--   Встановлення на macOS
-    
-
+---
+navigation:
+  - install.unix.debian.html: « Инструкции по установке на Debian GNU/Linux
+  - install.macosx.packages.html: Использование пакетов »
+  - index.html: PHP Manual
+  - install.html: Встановлення та налаштування
+title: Встановлення на macOS
+---
 # Встановлення на macOS
 
 ## Зміст

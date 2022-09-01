@@ -1,16 +1,11 @@
-Перемістити курсор до атрибуту із заданим ім'ям
-
--   [« XMLReader::lookupNamespace](xmlreader.lookupnamespace.md)
-    
--   [XMLReader::moveToAttributeNo »](xmlreader.movetoattributeno.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Перемістити курсор до атрибуту із заданим ім'ям
-    
-
+---
+navigation:
+  - xmlreader.lookupnamespace.md: '« XMLReader::lookupNamespace'
+  - xmlreader.movetoattributeno.md: 'XMLReader::moveToAttributeNo »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::moveToAttribute'
+---
 # XMLReader::moveToAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

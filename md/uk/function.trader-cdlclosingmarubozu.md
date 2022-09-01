@@ -1,16 +1,11 @@
-Закриття марубозу
-
--   [« tradercdlbreakaway](function.trader-cdlbreakaway.html)
-    
--   [tradercdlconcealbabyswall »](function.trader-cdlconcealbabyswall.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Закриття марубозу
-    
-
+---
+navigation:
+  - function.trader-cdlbreakaway.html: « tradercdlbreakaway
+  - function.trader-cdlconcealbabyswall.html: tradercdlconcealbabyswall »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlclosingmarubozu
+---
 # tradercdlclosingmarubozu
 
 (PECL trader >= 0.2.0)

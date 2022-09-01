@@ -1,16 +1,11 @@
-Отримує об'єкт SplFileInfo для заданого шляху
-
--   [« SplFileInfo::getPath](splfileinfo.getpath.md)
-    
--   [SplFileInfo::getPathname »](splfileinfo.getpathname.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує об'єкт SplFileInfo для заданого шляху
-    
-
+---
+navigation:
+  - splfileinfo.getpath.md: '« SplFileInfo::getPath'
+  - splfileinfo.getpathname.md: 'SplFileInfo::getPathname »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getPathInfo'
+---
 # SplFileInfo::getPathInfo
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public SplFileInfo::getPathInfo(?string $class = null): ?SplFileInfo
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `class` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `class` тепер допускає значення null. |
 
 ### Приклади
 

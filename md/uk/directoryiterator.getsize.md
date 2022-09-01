@@ -1,16 +1,11 @@
-Повертає розмір поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getPerms](directoryiterator.getperms.md)
-    
--   [DirectoryIterator::getType »](directoryiterator.gettype.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає розмір поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getperms.md: '« DirectoryIterator::getPerms'
+  - directoryiterator.gettype.md: 'DirectoryIterator::getType »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getSize'
+---
 # DirectoryIterator::getSize
 
 (PHP 5, PHP 7, PHP 8)

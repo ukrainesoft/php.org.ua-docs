@@ -1,16 +1,11 @@
-Синонім для mysqlistmtexecute
-
--   [« mysqli::escapestring](function.mysqli-escape-string.html)
-    
--   [mysqligetclientstats »](function.mysqli-get-client-stats.html)
-    
--   [PHP Manual](index.html)
-    
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.html)
-    
--   Синонім для mysqlistmtexecute
-    
-
+---
+navigation:
+  - function.mysqli-escape-string.html: '« mysqli::escapestring'
+  - function.mysqli-get-client-stats.html: mysqligetclientstats »
+  - index.html: PHP Manual
+  - ref.mysqli.html: Синоніми та застарілі функції Mysqli
+title: mysqliexecute
+---
 # mysqliexecute
 
 (PHP 5, PHP 7, PHP 8)

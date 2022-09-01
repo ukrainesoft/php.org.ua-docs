@@ -1,16 +1,11 @@
-Опис
-
--   [« EventBuffer::drain](eventbuffer.drain.md)
-    
--   [EventBuffer::expand »](eventbuffer.expand.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - eventbuffer.drain.md: '« EventBuffer::drain'
+  - eventbuffer.expand.md: 'EventBuffer::expand »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::enableLocking'
+---
 # EventBuffer::enableLocking
 
 (PECL event >= 1.2.6-beta)

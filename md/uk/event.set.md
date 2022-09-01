@@ -1,16 +1,11 @@
-Переконфігурувати подію
-
--   [« Event::pending](event.pending.md)
-    
--   [Event::setPriority »](event.setpriority.md)
-    
--   [PHP Manual](index.md)
-    
--   [Event](class.event.md)
-    
--   Переконфігурувати подію
-    
-
+---
+navigation:
+  - event.pending.md: '« Event::pending'
+  - event.setpriority.md: 'Event::setPriority »'
+  - index.md: PHP Manual
+  - class.event.md: Event
+title: 'Event::set'
+---
 # Event::set
 
 (PECL event >= 1.2.6-beta)

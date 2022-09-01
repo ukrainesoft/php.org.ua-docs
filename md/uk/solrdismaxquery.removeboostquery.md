@@ -1,16 +1,11 @@
-Видаляє часткове підвищення запиту на ім'я поля (bq)
-
--   [« SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.md)
-    
--   [SolrDisMaxQuery::removePhraseField »](solrdismaxquery.removephrasefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Видаляє часткове підвищення запиту на ім'я поля (bq)
-    
-
+---
+navigation:
+  - solrdismaxquery.removebigramphrasefield.md: '« SolrDisMaxQuery::removeBigramPhraseField'
+  - solrdismaxquery.removephrasefield.md: 'SolrDisMaxQuery::removePhraseField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::removeBoostQuery'
+---
 # SolrDisMaxQuery::removeBoostQuery
 
 (No version information available, might only be in Git)

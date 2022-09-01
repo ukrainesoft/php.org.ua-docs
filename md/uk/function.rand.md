@@ -1,16 +1,11 @@
-Генерує випадкове число
-
--   [« rad2deg](function.rad2deg.md)
-    
--   [round »](function.round.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Генерує випадкове число
-    
-
+---
+navigation:
+  - function.rad2deg.md: « rad2deg
+  - function.round.md: round »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: rand
+---
 # rand
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ rand(int $min, int $max): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Для **rand()** [произведено исправление бага](migration72.incompatible.html#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
-|        | [**rand()**стала синонімом функції](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) [мтrand()](function.mt-rand.html)                                                                                                                                           |
+| Версия | Описание |
+| --- | --- |
+|  | Для **rand()** [произведено исправление бага](migration72.incompatible.html#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
+|  | [\*\*rand()\*\*стала синонімом функції](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) [мтrand()](function.mt-rand.html) |
 
 ### Приклади
 

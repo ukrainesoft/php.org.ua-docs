@@ -1,16 +1,11 @@
-Перевіряє, чи є значення нескінченним
-
--   [« isfinite](function.is-finite.html)
-    
--   [ісnan »](function.is-nan.html)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Перевіряє, чи є значення нескінченним
-    
-
+---
+navigation:
+  - function.is-finite.html: « isfinite
+  - function.is-nan.html: ісnan »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: ісinfinite
+---
 # ісinfinite
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

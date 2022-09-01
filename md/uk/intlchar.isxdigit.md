@@ -1,16 +1,11 @@
-Перевірити, чи є символ шістнадцятковою цифрою
-
--   [« IntlChar::isWhitespace](intlchar.iswhitespace.md)
-    
--   [IntlChar::ord »](intlchar.ord.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ шістнадцятковою цифрою
-    
-
+---
+navigation:
+  - intlchar.iswhitespace.md: '« IntlChar::isWhitespace'
+  - intlchar.ord.md: 'IntlChar::ord »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isxdigit'
+---
 # IntlChar::isxdigit
 
 (PHP 7, PHP 8)

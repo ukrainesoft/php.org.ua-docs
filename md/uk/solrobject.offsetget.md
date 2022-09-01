@@ -1,16 +1,11 @@
-Використовується для отримання властивості
-
--   [« SolrObject::offsetExists](solrobject.offsetexists.html)
-    
--   [SolrObject::offsetSet »](solrobject.offsetset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrObject](class.solrobject.html)
-    
--   Використовується для отримання властивості
-    
-
+---
+navigation:
+  - solrobject.offsetexists.html: '« SolrObject::offsetExists'
+  - solrobject.offsetset.html: 'SolrObject::offsetSet »'
+  - index.html: PHP Manual
+  - class.solrobject.html: SolrObject
+title: 'SolrObject::offsetGet'
+---
 # SolrObject::offsetGet
 
 (PECL solr> = 0.9.2)

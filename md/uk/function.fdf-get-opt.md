@@ -1,16 +1,11 @@
-Отримує значення з масиву opt поля
-
--   [« fdfgetflags](function.fdf-get-flags.html)
-    
--   [fdfgetstatus »](function.fdf-get-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Отримує значення з масиву opt поля
-    
-
+---
+navigation:
+  - function.fdf-get-flags.html: « fdfgetflags
+  - function.fdf-get-status.html: fdfgetstatus »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfgetopt
+---
 # fdfgetopt
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECLv)

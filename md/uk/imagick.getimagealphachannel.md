@@ -1,16 +1,11 @@
-Перевіряє, чи є зображення альфа-канал
-
--   [« Imagick::getImage](imagick.getimage.html)
-    
--   [Imagick::getImageArtifact »](imagick.getimageartifact.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Перевіряє, чи є зображення альфа-канал
-    
-
+---
+navigation:
+  - imagick.getimage.html: '« Imagick::getImage'
+  - imagick.getimageartifact.html: 'Imagick::getImageArtifact »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageAlphaChannel'
+---
 # Imagick::getImageAlphaChannel
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)
@@ -39,6 +34,6 @@ public Imagick::getImageAlphaChannel(): bool
 
 ### список змін
 
-| Версия        | Описание                                                                     |
-|---------------|------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | imagick 3.6.0 | Тепер повертає логічне значення (bool); раніше поверталося ціле число (int). |

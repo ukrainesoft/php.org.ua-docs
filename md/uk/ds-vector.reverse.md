@@ -1,16 +1,11 @@
-Перевертає поточний вектор
-
--   [« DsVector::remove](ds-vector.remove.html)
-    
--   [ДсVector::reversed »](ds-vector.reversed.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Перевертає поточний вектор
-    
-
+---
+navigation:
+  - ds-vector.remove.html: '« DsVector::remove'
+  - ds-vector.reversed.html: 'ДсVector::reversed »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::reverse'
+---
 # ДсVector::reverse
 
 (PECL ds >= 1.0.0)

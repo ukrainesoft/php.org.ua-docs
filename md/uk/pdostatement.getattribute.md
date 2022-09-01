@@ -1,16 +1,11 @@
-Отримання значення атрибуту запиту PDOStatement
-
--   [« PDOStatement::fetchObject](pdostatement.fetchobject.html)
-    
--   [PDOStatement::getColumnMeta »](pdostatement.getcolumnmeta.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDOStatement](class.pdostatement.html)
-    
--   Отримання значення атрибуту запиту PDOStatement
-    
-
+---
+navigation:
+  - pdostatement.fetchobject.html: '« PDOStatement::fetchObject'
+  - pdostatement.getcolumnmeta.html: 'PDOStatement::getColumnMeta »'
+  - index.html: PHP Manual
+  - class.pdostatement.html: PDOStatement
+title: 'PDOStatement::getAttribute'
+---
 # PDOStatement::getAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)

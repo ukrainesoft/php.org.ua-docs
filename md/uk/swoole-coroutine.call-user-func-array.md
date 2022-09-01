@@ -1,16 +1,11 @@
-Викликає callback-функцію з масивом параметрів
-
--   [« SwooleCoroutine](class.swoole-coroutine.html)
-    
--   [SwooleCoroutine::calluserfunc »](swoole-coroutine.call-user-func.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Викликає callback-функцію з масивом параметрів
-    
-
+---
+navigation:
+  - class.swoole-coroutine.html: « SwooleCoroutine
+  - swoole-coroutine.call-user-func.html: 'SwooleCoroutine::calluserfunc »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutine::calluserfuncarray'
+---
 # SwooleCoroutine::calluserfuncarray
 
 (PECL swoole >= 2.0.0)

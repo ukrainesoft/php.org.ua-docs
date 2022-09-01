@@ -1,16 +1,11 @@
-Повертає код помилки роботи з bzip2
-
--   [« bzdecompress](function.bzdecompress.md)
-    
--   [bzerror »](function.bzerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Повертає код помилки роботи з bzip2
-    
-
+---
+navigation:
+  - function.bzdecompress.md: « bzdecompress
+  - function.bzerror.md: bzerror »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzerrno
+---
 # bzerrno
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевіряє наявність будь-яких друкованих символів, крім пробілу
-
--   [« ctypedigit](function.ctype-digit.html)
-    
--   [ctypelower »](function.ctype-lower.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції Ctype](ref.ctype.html)
-    
--   Перевіряє наявність будь-яких друкованих символів, крім пробілу
-    
-
+---
+navigation:
+  - function.ctype-digit.html: « ctypedigit
+  - function.ctype-lower.html: ctypelower »
+  - index.html: PHP Manual
+  - ref.ctype.html: Опції Ctype
+title: ctypegraph
+---
 # ctypegraph
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

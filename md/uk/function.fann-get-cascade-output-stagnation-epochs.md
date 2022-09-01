@@ -1,16 +1,11 @@
-Повертає кількість каскадних періодів застою кандидатів
-
--   [« fanngetcascadeoutputchangefraction](function.fann-get-cascade-output-change-fraction.html)
-    
--   [fanngetcascadeweightmultiplier »](function.fann-get-cascade-weight-multiplier.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає кількість каскадних періодів застою кандидатів
-    
-
+---
+navigation:
+  - function.fann-get-cascade-output-change-fraction.html: « fanngetcascadeoutputchangefraction
+  - function.fann-get-cascade-weight-multiplier.html: fanngetcascadeweightmultiplier »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadeoutputstagnationepochs
+---
 # fanngetcascadeoutputstagnationepochs
 
 (PECL fann> = 1.0.0)

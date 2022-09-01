@@ -1,16 +1,11 @@
-Побітове виключне АБО
-
--   [« gmptestbit](function.gmp-testbit.html)
-    
--   [GMP »](class.gmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Побітове виключне АБО
-    
-
+---
+navigation:
+  - function.gmp-testbit.html: « gmptestbit
+  - class.gmp.md: GMP »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpxor
+---
 # gmpxor
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

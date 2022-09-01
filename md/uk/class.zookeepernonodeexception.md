@@ -1,16 +1,11 @@
-Клас ZookeeperNoNodeException
-
--   [« ZookeeperMarshallingException](class.zookeepermarshallingexception.md)
-    
--   [ZookeeperOperationTimeoutException »](class.zookeeperoperationtimeoutexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZooKeeper](book.zookeeper.md)
-    
--   Клас ZookeeperNoNodeException
-    
-
+---
+navigation:
+  - class.zookeepermarshallingexception.md: « ZookeeperMarshallingException
+  - class.zookeeperoperationtimeoutexception.md: ZookeeperOperationTimeoutException »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
+title: Клас ZookeeperNoNodeException
+---
 # Клас ZookeeperNoNodeException
 
 (PECL zookeeper >= 0.3.0)

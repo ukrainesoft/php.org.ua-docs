@@ -1,16 +1,11 @@
-Отримує дані із сокету, підключеного чи ні
-
--   [« streamsocketpair](function.stream-socket-pair.html)
-    
--   [streamsocketsendto »](function.stream-socket-sendto.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Отримує дані із сокету, підключеного чи ні
-    
-
+---
+navigation:
+  - function.stream-socket-pair.html: « streamsocketpair
+  - function.stream-socket-sendto.html: streamsocketsendto »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamsocketrecvfrom
+---
 # streamsocketrecvfrom
 
 (PHP 5, PHP 7, PHP 8)

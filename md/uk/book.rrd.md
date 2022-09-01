@@ -1,16 +1,11 @@
-RRDtool
-
--   [« syslog](function.syslog.html)
-    
--   [Введение »](intro.rrd.html)
-    
--   [PHP Manual](index.html)
-    
--   [Інші служби](refs.remote.other.html)
-    
--   RRDtool
-    
-
+---
+navigation:
+  - function.syslog.html: « syslog
+  - intro.rrd.html: Введение »
+  - index.html: PHP Manual
+  - refs.remote.other.html: Інші служби
+title: RRDtool
+---
 # RRDtool
 
 -   [Введение](intro.rrd.html)

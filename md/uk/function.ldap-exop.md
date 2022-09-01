@@ -1,16 +1,11 @@
-Виконує розширену операцію
-
--   [« ldapexopwhoami](function.ldap-exop-whoami.html)
-    
--   [ldapexplodedn »](function.ldap-explode-dn.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Виконує розширену операцію
-    
-
+---
+navigation:
+  - function.ldap-exop-whoami.html: « ldapexopwhoami
+  - function.ldap-explode-dn.html: ldapexplodedn »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapexop
+---
 # ldapexop
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -57,10 +52,10 @@ ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    stri
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Додана підтримка `controls`                                                                                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Додана підтримка `controls` |
 
 ### Приклади
 

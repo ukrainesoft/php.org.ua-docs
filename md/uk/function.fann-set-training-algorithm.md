@@ -1,16 +1,11 @@
-Встановлює алгоритм навчання
-
--   [« fannsettrainstopfunction](function.fann-set-train-stop-function.html)
-    
--   [fannsetweightarray »](function.fann-set-weight-array.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює алгоритм навчання
-    
-
+---
+navigation:
+  - function.fann-set-train-stop-function.html: « fannsettrainstopfunction
+  - function.fann-set-weight-array.html: fannsetweightarray »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsettrainingalgorithm
+---
 # fannsettrainingalgorithm
 
 (PECL fann> = 1.0.0)

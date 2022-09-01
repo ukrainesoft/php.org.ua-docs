@@ -1,16 +1,11 @@
-Приведення варіанта до іншого типу "за місцем"
-
--   [« variantround](function.variant-round.html)
-    
--   [variantset »](function.variant-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции COM](ref.com.md)
-    
--   Приведення варіанта до іншого типу "за місцем"
-    
-
+---
+navigation:
+  - function.variant-round.html: « variantround
+  - function.variant-set.html: variantset »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
+title: variantsettype
+---
 # variantsettype
 
 (PHP 5, PHP 7, PHP 8)

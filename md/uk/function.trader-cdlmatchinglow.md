@@ -1,16 +1,11 @@
-Свічкова модель "Збіг за нижнім рівнем"
-
--   [« tradercdlmarubozu](function.trader-cdlmarubozu.html)
-    
--   [tradercdlmathold »](function.trader-cdlmathold.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Свічкова модель "Збіг за нижнім рівнем"
-    
-
+---
+navigation:
+  - function.trader-cdlmarubozu.html: « tradercdlmarubozu
+  - function.trader-cdlmathold.html: tradercdlmathold »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlmatchinglow
+---
 # tradercdlmatchinglow
 
 (PECL trader >= 0.2.0)

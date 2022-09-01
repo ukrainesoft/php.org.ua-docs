@@ -1,16 +1,11 @@
-Замінює старе значення на нове
-
--   [« apcucacheinfo](function.apcu-cache-info.html)
-    
--   [apcuclearcache »](function.apcu-clear-cache.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции APCu](ref.apcu.html)
-    
--   Замінює старе значення на нове
-    
-
+---
+navigation:
+  - function.apcu-cache-info.html: « apcucacheinfo
+  - function.apcu-clear-cache.html: apcuclearcache »
+  - index.html: PHP Manual
+  - ref.apcu.html: Функции APCu
+title: apcucas
+---
 # apcucas
 
 (PECL apcu >= 4.0.0)

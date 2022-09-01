@@ -1,16 +1,11 @@
-Повертає довжину зображення у байтах
-
--   [« Imagick::getImageIterations](imagick.getimageiterations.md)
-    
--   [Imagick::getImageMatte »](imagick.getimagematte.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає довжину зображення у байтах
-    
-
+---
+navigation:
+  - imagick.getimageiterations.md: '« Imagick::getImageIterations'
+  - imagick.getimagematte.md: 'Imagick::getImageMatte »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageLength'
+---
 # Imagick::getImageLength
 
 (PECL imagick 2, PECL imagick 3)

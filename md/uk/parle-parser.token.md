@@ -1,16 +1,11 @@
-Оголошує токен
-
--   [« ParleParser::sigil](parle-parser.sigil.html)
-    
--   [ParleParser::tokenId »](parle-parser.tokenid.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleParser](class.parle-parser.html)
-    
--   Оголошує токен
-    
-
+---
+navigation:
+  - parle-parser.sigil.html: '« ParleParser::sigil'
+  - parle-parser.tokenid.html: 'ParleParser::tokenId »'
+  - index.md: PHP Manual
+  - class.parle-parser.html: ParleParser
+title: 'ParleParser::token'
+---
 # ParleParser::token
 
 (PECL parle >= 0.5.1)

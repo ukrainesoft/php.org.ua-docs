@@ -1,16 +1,11 @@
-Стандартна бібліотека PHP (SPL)
-
--   [« SeasLog::warning](seaslog.warning.md)
-    
--   [Введение »](intro.spl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші базові модулі](refs.basic.other.md)
-    
--   Стандартна бібліотека PHP (SPL)
-    
-
+---
+navigation:
+  - seaslog.warning.md: '« SeasLog::warning'
+  - intro.spl.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
+title: Стандартна бібліотека PHP (SPL)
+---
 # Стандартна бібліотека PHP (SPL)
 
 -   [Введение](intro.spl.md)

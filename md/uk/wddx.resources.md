@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](wddx.configuration.html)
-    
--   [Обумовлені константи »](wddx.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](wddx.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - wddx.configuration.html: « Налаштування під час виконання
+  - wddx.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - wddx.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Модуль визначає ідентифікатор пакета WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.html)

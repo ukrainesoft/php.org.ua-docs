@@ -1,16 +1,11 @@
-Перетворення GMP числа в рядок
-
--   [« gmpsqrtrem](function.gmp-sqrtrem.html)
-    
--   [gmpsub »](function.gmp-sub.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Перетворення GMP числа в рядок
-    
-
+---
+navigation:
+  - function.gmp-sqrtrem.html: « gmpsqrtrem
+  - function.gmp-sub.html: gmpsub »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpstrval
+---
 # gmpstrval
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Огляд
-
--   [« Введение](intro.mysqlnd.md)
-    
--   [Установка »](mysqlnd.install.md)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlnd](book.mysqlnd.md)
-    
--   Огляд
-    
-
+---
+navigation:
+  - intro.mysqlnd.md: « Введение
+  - mysqlnd.install.md: Установка »
+  - index.md: PHP Manual
+  - book.mysqlnd.md: Mysqlnd
+title: Огляд
+---
 # Огляд
 
 *Чим він не є*

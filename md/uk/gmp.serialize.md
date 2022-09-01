@@ -1,16 +1,11 @@
-Серіалізує об'єкт GMP
-
--   [« GMP](class.gmp.md)
-    
--   [GMP::unserialize »](gmp.unserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [GMP](class.gmp.md)
-    
--   Серіалізує об'єкт GMP
-    
-
+---
+navigation:
+  - class.gmp.md: « GMP
+  - gmp.unserialize.md: 'GMP::unserialize »'
+  - index.md: PHP Manual
+  - class.gmp.md: GMP
+title: 'GMP::serialize'
+---
 # GMP::serialize
 
 (PHP 8> = 8.1.0)

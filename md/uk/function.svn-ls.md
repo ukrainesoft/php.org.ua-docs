@@ -1,16 +1,11 @@
-Повертає список вмісту директорії репозиторію URL, опційно для конкретної ревізії
-
--   [« svnlog](function.svn-log.html)
-    
--   [svnmkdir »](function.svn-mkdir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає список вмісту директорії репозиторію URL, опційно для конкретної ревізії
-    
-
+---
+navigation:
+  - function.svn-log.html: « svnlog
+  - function.svn-mkdir.html: svnmkdir »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnлс
+---
 # svnлс
 
 (PECL svn >= 0.1.0)

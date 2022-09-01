@@ -1,16 +1,11 @@
-Вставляє значення за вказаним індексом
-
--   [« DsVector::get](ds-vector.get.html)
-    
--   [ДсVector::isEmpty »](ds-vector.isempty.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Вставляє значення за вказаним індексом
-    
-
+---
+navigation:
+  - ds-vector.get.html: '« DsVector::get'
+  - ds-vector.isempty.html: 'ДсVector::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::insert'
+---
 # ДсVector::insert
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Вказує, чи є пріоритетна черга у пошкодженому стані
-
--   [« SplPriorityQueue::insert](splpriorityqueue.insert.html)
-    
--   [SplPriorityQueue::isEmpty »](splpriorityqueue.isempty.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplPriorityQueue](class.splpriorityqueue.html)
-    
--   Вказує, чи є пріоритетна черга у пошкодженому стані
-    
-
+---
+navigation:
+  - splpriorityqueue.insert.html: '« SplPriorityQueue::insert'
+  - splpriorityqueue.isempty.html: 'SplPriorityQueue::isEmpty »'
+  - index.html: PHP Manual
+  - class.splpriorityqueue.html: SplPriorityQueue
+title: 'SplPriorityQueue::isCorrupted'
+---
 # SplPriorityQueue::isCorrupted
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

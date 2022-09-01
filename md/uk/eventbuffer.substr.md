@@ -1,16 +1,11 @@
-Обрізає частину даних буфера
-
--   [« EventBuffer::searchEol](eventbuffer.searcheol.md)
-    
--   [EventBuffer::unfreeze »](eventbuffer.unfreeze.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBuffer](class.eventbuffer.md)
-    
--   Обрізає частину даних буфера
-    
-
+---
+navigation:
+  - eventbuffer.searcheol.md: '« EventBuffer::searchEol'
+  - eventbuffer.unfreeze.md: 'EventBuffer::unfreeze »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
+title: 'EventBuffer::substr'
+---
 # EventBuffer::substr
 
 (PECL event >= 1.6.0)

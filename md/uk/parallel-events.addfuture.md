@@ -1,16 +1,11 @@
-Цілі
-
--   [« parallelEvents::addChannel](parallel-events.addchannel.html)
-    
--   [parallelEvents::remove »](parallel-events.remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [parallelEvents](class.parallel-events.html)
-    
--   Цілі
-    
-
+---
+navigation:
+  - parallel-events.addchannel.html: '« parallelEvents::addChannel'
+  - parallel-events.remove.html: 'parallelEvents::remove »'
+  - index.html: PHP Manual
+  - class.parallel-events.html: parallelEvents
+title: 'parallelEvents::addFuture'
+---
 # parallelEvents::addFuture
 
 parallelEvents::addFuture — Цілі

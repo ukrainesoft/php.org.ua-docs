@@ -1,16 +1,11 @@
-Малює багатокутник
-
--   [« GmagickDraw::point](gmagickdraw.point.html)
-    
--   [GmagickDraw::polyline »](gmagickdraw.polyline.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Малює багатокутник
-    
-
+---
+navigation:
+  - gmagickdraw.point.html: '« GmagickDraw::point'
+  - gmagickdraw.polyline.html: 'GmagickDraw::polyline »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::polygon'
+---
 # GmagickDraw::polygon
 
 (PECL gmagick >= Unknown)

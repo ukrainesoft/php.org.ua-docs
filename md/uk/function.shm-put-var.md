@@ -1,16 +1,11 @@
-Вставляє або оновлює змінну в пам'яті, що розділяється
-
--   [« shmhasvar](function.shm-has-var.html)
-    
--   [shmremovevar »](function.shm-remove-var.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Вставляє або оновлює змінну в пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shm-has-var.html: « shmhasvar
+  - function.shm-remove-var.html: shmremovevar »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: shmputvar
+---
 # shmputvar
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ shm_put_var(SysvSharedMemory $shm, int $key, mixed $value): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                         |
-|--------|------------------------------------------------------------------------------------------------------------------|
-|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

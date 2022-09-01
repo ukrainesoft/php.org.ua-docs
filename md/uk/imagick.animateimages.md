@@ -1,16 +1,11 @@
-Анімація одного або кількох зображень
-
--   [« Imagick::affineTransformImage](imagick.affinetransformimage.md)
-    
--   [Imagick::annotateImage »](imagick.annotateimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Анімація одного або кількох зображень
-    
-
+---
+navigation:
+  - imagick.affinetransformimage.md: '« Imagick::affineTransformImage'
+  - imagick.annotateimage.md: 'Imagick::annotateImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::animateImages'
+---
 # Imagick::animateImages
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

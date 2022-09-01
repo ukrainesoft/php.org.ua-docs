@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [«Метадані](mysqli.quickstart.metadata.html)
-    
--   [Вимоги »](mysqli.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQLi](book.mysqli.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - mysqli.quickstart.metadata.html: «Метадані
+  - mysqli.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.mysqli.html: MySQLi
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

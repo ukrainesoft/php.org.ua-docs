@@ -1,16 +1,11 @@
-Перевірити, що подія перебуває у стані очікування або що вона запланована
-
--   [« Event::getSupportedMethods](event.getsupportedmethods.html)
-    
--   [Event::set »](event.set.html)
-    
--   [PHP Manual](index.html)
-    
--   [Event](class.event.html)
-    
--   Перевірити, що подія перебуває у стані очікування або що вона запланована
-    
-
+---
+navigation:
+  - event.getsupportedmethods.html: '« Event::getSupportedMethods'
+  - event.set.html: 'Event::set »'
+  - index.html: PHP Manual
+  - class.event.html: Event
+title: 'Event::pending'
+---
 # Event::pending
 
 (PECL event >= 1.2.6-beta)

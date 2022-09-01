@@ -1,16 +1,11 @@
-Повертає тип вказаного поля з результату запиту
-
--   [« mysqlfieldtable](function.mysql-field-table.html)
-    
--   [mysqlfreeresult »](function.mysql-free-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає тип вказаного поля з результату запиту
-    
-
+---
+navigation:
+  - function.mysql-field-table.html: « mysqlfieldtable
+  - function.mysql-free-result.html: mysqlfreeresult »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlfieldtype
+---
 # mysqlfieldtype
 
 (PHP 4, PHP 5)

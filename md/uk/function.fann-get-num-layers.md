@@ -1,16 +1,11 @@
-Отримує кількість шарів у нейронній мережі
-
--   [« fanngetnuminput](function.fann-get-num-input.html)
-    
--   [fanngetnumoutput »](function.fann-get-num-output.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Отримує кількість шарів у нейронній мережі
-    
-
+---
+navigation:
+  - function.fann-get-num-input.html: « fanngetnuminput
+  - function.fann-get-num-output.html: fanngetnumoutput »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetnumlayers
+---
 # fanngetnumlayers
 
 (PECL fann> = 1.0.0)

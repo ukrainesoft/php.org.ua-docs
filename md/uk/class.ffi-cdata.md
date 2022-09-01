@@ -1,16 +1,11 @@
-Доступ до даних C
-
--   [« FFI::typeof](ffi.typeof.md)
-    
--   [FFICType »](class.ffi-ctype.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](book.ffi.md)
-    
--   Доступ до даних C
-    
-
+---
+navigation:
+  - ffi.typeof.md: '« FFI::typeof'
+  - class.ffi-ctype.html: FFICType »
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
+title: Доступ до даних C
+---
 # Доступ до даних C
 
 (PHP 7> = 7.4.0, PHP 8)

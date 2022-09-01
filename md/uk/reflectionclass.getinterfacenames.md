@@ -1,16 +1,11 @@
-Повертає імена інтерфейсів
-
--   [« ReflectionClass::getFileName](reflectionclass.getfilename.md)
-    
--   [ReflectionClass::getInterfaces »](reflectionclass.getinterfaces.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає імена інтерфейсів
-    
-
+---
+navigation:
+  - reflectionclass.getfilename.md: '« ReflectionClass::getFileName'
+  - reflectionclass.getinterfaces.md: 'ReflectionClass::getInterfaces »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getInterfaceNames'
+---
 # ReflectionClass::getInterfaceNames
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

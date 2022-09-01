@@ -1,16 +1,11 @@
-Завдання частини префіксу
-
--   [« RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.md)
-    
--   [RecursiveTreeIterator::valid »](recursivetreeiterator.valid.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Завдання частини префіксу
-    
-
+---
+navigation:
+  - recursivetreeiterator.setpostfix.md: '« RecursiveTreeIterator::setPostfix'
+  - recursivetreeiterator.valid.md: 'RecursiveTreeIterator::valid »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::setPrefixPart'
+---
 # RecursiveTreeIterator::setPrefixPart
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

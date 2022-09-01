@@ -1,16 +1,11 @@
-Конструктор класу ZMQSocket
-
--   [« ZMQSocket::connect](zmqsocket.connect.md)
-    
--   [ZMQSocket::disconnect »](zmqsocket.disconnect.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQSocket](class.zmqsocket.md)
-    
--   Конструктор класу ZMQSocket
-    
-
+---
+navigation:
+  - zmqsocket.connect.md: '« ZMQSocket::connect'
+  - zmqsocket.disconnect.md: 'ZMQSocket::disconnect »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::construct'
+---
 # ZMQSocket::construct
 
 (PECL zmq >= 0.5.0)

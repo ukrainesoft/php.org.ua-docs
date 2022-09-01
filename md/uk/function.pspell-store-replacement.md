@@ -1,16 +1,11 @@
-Зберігає заміщувальну пару для слова
-
--   [« pspellsavewordlist](function.pspell-save-wordlist.html)
-    
--   [pspellsuggest »](function.pspell-suggest.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Зберігає заміщувальну пару для слова
-    
-
+---
+navigation:
+  - function.pspell-save-wordlist.html: « pspellsavewordlist
+  - function.pspell-suggest.html: pspellsuggest »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellstorereplacement
+---
 # pspellstorereplacement
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ pspell_store_replacement(PSpell\Dictionary $dictionary, string $misspelled, stri
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

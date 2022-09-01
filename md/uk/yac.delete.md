@@ -1,16 +1,11 @@
-Видаляє елементи з кешу
-
--   [« Yac::construct](yac.construct.html)
-    
--   [Yac::dump »](yac.dump.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yac](class.yac.html)
-    
--   Видаляє елементи з кешу
-    
-
+---
+navigation:
+  - yac.construct.html: '« Yac::construct'
+  - yac.dump.html: 'Yac::dump »'
+  - index.html: PHP Manual
+  - class.yac.html: Yac
+title: 'Yac::delete'
+---
 # Yac::delete
 
 (PECL yac >= 1.0.0)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« XMLWriter](book.xmlwriter.md)
-    
--   [Встановлення та налаштування »](xmlwriter.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](book.xmlwriter.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.xmlwriter.md: « XMLWriter
+  - xmlwriter.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.xmlwriter.md: XMLWriter
+title: Вступ
+---
 # Вступ
 
 XMLWriter є модулем PHP. Він створює xmlWriter API на основі бібліотеки libxml.

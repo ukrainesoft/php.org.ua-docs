@@ -1,16 +1,11 @@
-Отримання значення налаштування XML-аналізатора
-
--   [« xmlparserfree](function.xml-parser-free.html)
-    
--   [xmlparsersetoption »](function.xml-parser-set-option.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции парсера XML](ref.xml.html)
-    
--   Отримання значення налаштування XML-аналізатора
-    
-
+---
+navigation:
+  - function.xml-parser-free.html: « xmlparserfree
+  - function.xml-parser-set-option.html: xmlparsersetoption »
+  - index.html: PHP Manual
+  - ref.xml.html: Функции парсера XML
+title: xmlparsergetoption
+---
 # xmlparsergetoption
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,7 +36,7 @@ xml_parser_get_option(XMLParser $parser, int $option): string|int
 
 ### список змін
 
-| Версия | Описание                                                                                                    |
-|--------|-------------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
-|        | Тепер параметр `options` підтримує **`XML_OPTION_SKIP_TAGSTART`** і **`XML_OPTION_SKIP_WHITE`**             |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+|  | Тепер параметр `options` підтримує **`XML_OPTION_SKIP_TAGSTART`** і **`XML_OPTION_SKIP_WHITE`** |

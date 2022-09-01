@@ -1,16 +1,11 @@
-Що таке PHP?
-
--   [« Введение](introduction.html)
-    
--   [Можливості PHP »](intro-whatcando.html)
-    
--   [PHP Manual](index.html)
-    
--   [Введение](introduction.html)
-    
--   Що таке PHP?
-    
-
+---
+navigation:
+  - introduction.html: « Введение
+  - intro-whatcando.html: Можливості PHP »
+  - index.html: PHP Manual
+  - introduction.html: Введение
+title: Що таке PHP?
+---
 ## Що таке PHP?
 
 PHP (рекурсивний акронім словосполучення `PHP: Hypertext Preprocessor`) – це поширена мова програмування загального призначення з відкритим вихідним кодом. PHP спеціально сконструйований для веб-розробок, і його код може впроваджуватися безпосередньо в HTML.

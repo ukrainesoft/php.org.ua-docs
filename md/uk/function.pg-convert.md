@@ -1,16 +1,11 @@
-Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
-
--   [« pgconsumeinput](function.pg-consume-input.html)
-    
--   [пгcopyfrom »](function.pg-copy-from.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
-    
-
+---
+navigation:
+  - function.pg-consume-input.html: « pgconsumeinput
+  - function.pg-copy-from.html: пгcopyfrom »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгconvert
+---
 # пгconvert
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

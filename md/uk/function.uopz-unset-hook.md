@@ -1,16 +1,11 @@
-Видаляє раніше встановлену функцію або метод
-
--   [« uopzundefine](function.uopz-undefine.html)
-    
--   [uopzunsetmock »](function.uopz-unset-mock.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Видаляє раніше встановлену функцію або метод
-    
-
+---
+navigation:
+  - function.uopz-undefine.html: « uopzundefine
+  - function.uopz-unset-mock.html: uopzunsetmock »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzunsethook
+---
 # uopzunsethook
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

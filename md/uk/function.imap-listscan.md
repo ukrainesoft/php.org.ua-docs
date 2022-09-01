@@ -1,16 +1,11 @@
-Отримати список поштових скриньок, імена яких містять заданий рядок
-
--   [« imaplistmailbox](function.imap-listmailbox.html)
-    
--   [imaplistsubscribed »](function.imap-listsubscribed.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Отримати список поштових скриньок, імена яких містять заданий рядок
-    
-
+---
+navigation:
+  - function.imap-listmailbox.html: « imaplistmailbox
+  - function.imap-listsubscribed.html: imaplistsubscribed »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imaplistscan
+---
 # imaplistscan
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ imap_listscan(    IMAP\Connection $imap,    string $reference,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 

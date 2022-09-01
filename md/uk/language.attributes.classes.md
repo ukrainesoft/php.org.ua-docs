@@ -1,16 +1,11 @@
-Оголошення класів атрибутів
-
--   [« Чтение атрибутов с помощью Reflection API](language.attributes.reflection.html)
-    
--   [Пояснення посилань »](language.references.html)
-    
--   [PHP Manual](index.html)
-    
--   [Атрибути](language.attributes.html)
-    
--   Оголошення класів атрибутів
-    
-
+---
+navigation:
+  - language.attributes.reflection.html: « Чтение атрибутов с помощью Reflection API
+  - language.references.html: Пояснення посилань »
+  - index.html: PHP Manual
+  - language.attributes.html: Атрибути
+title: Оголошення класів атрибутів
+---
 ## Оголошення класів атрибутів
 
 Створювати класи для атрибутів необов'язково, але рекомендується. У найпростішому випадку потрібно просто порожній клас з атрибутом `#[Attribute]`, який можна імпортувати з глобального простору назв за допомогою оператора use.

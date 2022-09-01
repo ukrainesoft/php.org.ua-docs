@@ -1,16 +1,11 @@
-Повертає тип змінної
-
--   [« getresourcetype](function.get-resource-type.html)
-    
--   [intval »](function.intval.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Повертає тип змінної
-    
-
+---
+navigation:
+  - function.get-resource-type.html: « getresourcetype
+  - function.intval.html: intval »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: gettype
+---
 # gettype
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -48,9 +43,9 @@ gettype(mixed $value): string
 
 ### список змін
 
-| Версия | Описание                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------|
-|        | Для закритих ресурсів тепер повертається `'resource (closed)'`. Раніше для закритих ресурсів поверталося `'unknown type'` |
+| Версия | Описание |
+| --- | --- |
+|  | Для закритих ресурсів тепер повертається `'resource (closed)'`. Раніше для закритих ресурсів поверталося `'unknown type'` |
 
 ### Приклади
 

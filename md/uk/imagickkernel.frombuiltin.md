@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.md)
-    
--   [ImagickKernel::fromMatrix »](imagickkernel.frommatrix.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickKernel](class.imagickkernel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickkernel.addunitykernel.md: '« ImagickKernel::addUnityKernel'
+  - imagickkernel.frommatrix.md: 'ImagickKernel::fromMatrix »'
+  - index.md: PHP Manual
+  - class.imagickkernel.md: ImagickKernel
+title: 'ImagickKernel::fromBuiltIn'
+---
 # ImagickKernel::fromBuiltIn
 
 (PECL imagick >= 3.3.0)

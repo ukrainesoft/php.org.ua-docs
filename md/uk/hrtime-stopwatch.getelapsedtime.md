@@ -1,16 +1,11 @@
-Отримати сумарний час всіх інтервалів
-
--   [« HRTimeStopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.html)
-    
--   [HRTimeStopWatch::getLastElapsedTicks »](hrtime-stopwatch.getlastelapsedticks.html)
-    
--   [PHP Manual](index.md)
-    
--   [HRTimeStopWatch](class.hrtime-stopwatch.html)
-    
--   Отримати сумарний час всіх інтервалів
-    
-
+---
+navigation:
+  - hrtime-stopwatch.getelapsedticks.html: '« HRTimeStopWatch::getElapsedTicks'
+  - hrtime-stopwatch.getlastelapsedticks.html: 'HRTimeStopWatch::getLastElapsedTicks »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.html: HRTimeStopWatch
+title: 'HRTimeStopWatch::getElapsedTime'
+---
 # HRTimeStopWatch::getElapsedTime
 
 (PECL hrtime >= 0.4.3)

@@ -1,16 +1,11 @@
-Налаштовує пов'язані з безпекою параметри сесії SNMPv3
-
--   [« SNMP::set](snmp.set.md)
-    
--   [SNMP::walk »](snmp.walk.md)
-    
--   [PHP Manual](index.md)
-    
--   [SNMP](class.snmp.md)
-    
--   Налаштовує пов'язані з безпекою параметри сесії SNMPv3
-    
-
+---
+navigation:
+  - snmp.set.md: '« SNMP::set'
+  - snmp.walk.md: 'SNMP::walk »'
+  - index.md: PHP Manual
+  - class.snmp.md: SNMP
+title: 'SNMP::setSecurity'
+---
 # SNMP::setSecurity
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

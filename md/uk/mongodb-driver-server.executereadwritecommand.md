@@ -1,16 +1,11 @@
-Виконує команду бази даних, яка читає та пише на сервері
-
--   [« MongoDBDriverServer::executeReadCommand](mongodb-driver-server.executereadcommand.html)
-    
--   [MongoDBDriverServer::executeWriteCommand »](mongodb-driver-server.executewritecommand.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Виконує команду бази даних, яка читає та пише на сервері
-    
-
+---
+navigation:
+  - mongodb-driver-server.executereadcommand.html: '« MongoDBDriverServer::executeReadCommand'
+  - mongodb-driver-server.executewritecommand.html: 'MongoDBDriverServer::executeWriteCommand »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::executeReadWriteCommand'
+---
 # MongoDBDriverServer::executeReadWriteCommand
 
 (mongodb >=1.4.0)
@@ -41,10 +36,10 @@ final public MongoDB\Driver\Server::executeReadWriteCommand(string $db, MongoDB\
 
 **options**
 
-| Опция                                  | Тип                                                               | Описание |
-|----------------------------------------|-------------------------------------------------------------------|----------|
-| readConcern                            | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |          |
-| Гарантія для застосування до операції. |                                                                   |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.html) |  |
+| Гарантія для застосування до операції. |  |  |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 
@@ -75,8 +70,8 @@ final public MongoDB\Driver\Server::executeReadWriteCommand(string $db, MongoDB\
 
 ### список змін
 
-| Версия             | Описание                                                                                                                                                                                                     |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.4.4 | [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) буде викинуто, якщо опція `"session"` використовується у поєднанні з непідтвердженим записом. |
 
 ### Примітки

@@ -1,16 +1,11 @@
-Створює детерміновану послідовність байтів із початкового числа.
-
--   [« sodiumcryptostreamxor](function.sodium-crypto-stream-xor.html)
-    
--   [sodiumhex2bin »](function.sodium-hex2bin.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Створює детерміновану послідовність байтів із початкового числа.
-    
-
+---
+navigation:
+  - function.sodium-crypto-stream-xor.html: « sodiumcryptostreamxor
+  - function.sodium-hex2bin.html: sodiumhex2bin »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptostream
+---
 # sodiumcryptostream
 
 (PHP 7> = 7.2.0, PHP 8)

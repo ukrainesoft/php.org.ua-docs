@@ -1,16 +1,11 @@
-Повертає статичні властивості
-
--   [« ReflectionClass::getStartLine](reflectionclass.getstartline.md)
-    
--   [ReflectionClass::getStaticPropertyValue »](reflectionclass.getstaticpropertyvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає статичні властивості
-    
-
+---
+navigation:
+  - reflectionclass.getstartline.md: '« ReflectionClass::getStartLine'
+  - reflectionclass.getstaticpropertyvalue.md: 'ReflectionClass::getStaticPropertyValue »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getStaticProperties'
+---
 # ReflectionClass::getStaticProperties
 
 (PHP 5, PHP 7, PHP 8)

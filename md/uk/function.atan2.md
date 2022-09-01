@@ -1,16 +1,11 @@
-Арктангенс двох змінних
-
--   [« asinh](function.asinh.html)
-    
--   [atan »](function.atan.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Арктангенс двох змінних
-    
-
+---
+navigation:
+  - function.asinh.html: « asinh
+  - function.atan.html: atan »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: atan2
+---
 # atan2
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Змінює поточний стан буферизації великого об'єкта (LOB)
-
--   [« OCILob::seek](ocilob.seek.md)
-    
--   [OCILob::size »](ocilob.size.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCILob](class.ocilob.md)
-    
--   Змінює поточний стан буферизації великого об'єкта (LOB)
-    
-
+---
+navigation:
+  - ocilob.seek.md: '« OCILob::seek'
+  - ocilob.size.md: 'OCILob::size »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::setBuffering'
+---
 # OCILob::setBuffering
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -39,8 +34,8 @@ public OCILob::setBuffering(bool $mode): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                              |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

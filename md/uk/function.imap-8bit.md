@@ -1,16 +1,11 @@
-Конвертує 8-бітний рядок у рядок у форматі quoted-printable
-
--   [« Функции IMAP](ref.imap.md)
-    
--   [imapalerts »](function.imap-alerts.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Конвертує 8-бітний рядок у рядок у форматі quoted-printable
-    
-
+---
+navigation:
+  - ref.imap.md: « Функции IMAP
+  - function.imap-alerts.html: imapalerts »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imap8bit
+---
 # imap8bit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

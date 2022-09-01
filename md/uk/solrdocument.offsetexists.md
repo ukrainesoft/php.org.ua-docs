@@ -1,16 +1,11 @@
-Перевіряє, чи існує конкретне поле
-
--   [« SolrDocument::next](solrdocument.next.md)
-    
--   [SolrDocument::offsetGet »](solrdocument.offsetget.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Перевіряє, чи існує конкретне поле
-    
-
+---
+navigation:
+  - solrdocument.next.md: '« SolrDocument::next'
+  - solrdocument.offsetget.md: 'SolrDocument::offsetGet »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::offsetExists'
+---
 # SolrDocument::offsetExists
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Виконання
-
--   [« parallelbootstrap](parallel.bootstrap.md)
-    
--   [parallelRuntime »](class.parallel-runtime.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функціональний API](functional.parallel.md)
-    
--   Виконання
-    
-
+---
+navigation:
+  - parallel.bootstrap.md: « parallelbootstrap
+  - class.parallel-runtime.html: parallelRuntime »
+  - index.md: PHP Manual
+  - functional.parallel.md: Функціональний API
+title: parallelrun
+---
 # parallelrun
 
 parallelrun - Виконання

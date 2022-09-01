@@ -1,16 +1,11 @@
-Встановлення/отримання списку кодувань для механізмів визначення кодування
-
--   [« mbdetectencoding](function.mb-detect-encoding.html)
-    
--   [мбencodemimeheader »](function.mb-encode-mimeheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Встановлення/отримання списку кодувань для механізмів визначення кодування
-    
-
+---
+navigation:
+  - function.mb-detect-encoding.html: « mbdetectencoding
+  - function.mb-encode-mimeheader.html: мбencodemimeheader »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбdetectorder
+---
 # мбdetectorder
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ mb_detect_order(array|string|null $encoding = null): array|bool
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

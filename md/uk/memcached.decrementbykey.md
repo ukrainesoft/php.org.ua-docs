@@ -1,16 +1,11 @@
-Зменшує числове значення запису, що зберігається на певному сервері
-
--   [« Memcached::decrement](memcached.decrement.html)
-    
--   [Memcached::delete »](memcached.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Зменшує числове значення запису, що зберігається на певному сервері
-    
-
+---
+navigation:
+  - memcached.decrement.html: '« Memcached::decrement'
+  - memcached.delete.html: 'Memcached::delete »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::decrementByKey'
+---
 # Memcached::decrementByKey
 
 (PECL memcached >= 2.0.0)

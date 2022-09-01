@@ -1,16 +1,11 @@
-Скасує встановлену точку збереження
-
--   [« Session::quoteName](mysql-xdevapi-session.quotename.html)
-    
--   [Session::rollback »](mysql-xdevapi-session.rollback.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Скасує встановлену точку збереження
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.quotename.html: '« Session::quoteName'
+  - mysql-xdevapi-session.rollback.html: 'Session::rollback »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::releaseSavepoint'
+---
 # Session::releaseSavepoint
 
 (No version information available, might only be in Git)

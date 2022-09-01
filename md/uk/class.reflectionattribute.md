@@ -1,16 +1,11 @@
-Клас ReflectionAttribute
-
--   [« ReflectionReference::getId](reflectionreference.getid.md)
-    
--   [ReflectionAttribute::construct »](reflectionattribute.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Клас ReflectionAttribute
-    
-
+---
+navigation:
+  - reflectionreference.getid.md: '« ReflectionReference::getId'
+  - reflectionattribute.construct.md: 'ReflectionAttribute::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Клас ReflectionAttribute
+---
 # Клас ReflectionAttribute
 
 (PHP 8)

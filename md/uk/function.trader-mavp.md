@@ -1,16 +1,11 @@
-Ковзна середня зі змінним періодом
-
--   [« tradermama](function.trader-mama.html)
-    
--   [tradermax »](function.trader-max.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Ковзна середня зі змінним періодом
-    
-
+---
+navigation:
+  - function.trader-mama.html: « tradermama
+  - function.trader-max.html: tradermax »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradermavp
+---
 # tradermavp
 
 (PECL trader >= 0.2.0)

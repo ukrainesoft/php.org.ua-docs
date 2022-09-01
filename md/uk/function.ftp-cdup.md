@@ -1,16 +1,11 @@
-Переходить до батьківської директорії
-
--   [« ftpappend](function.ftp-append.html)
-    
--   [ftpchdir »](function.ftp-chdir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Переходить до батьківської директорії
-    
-
+---
+navigation:
+  - function.ftp-append.html: « ftpappend
+  - function.ftp-chdir.html: ftpchdir »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpcdup
+---
 # ftpcdup
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ ftp_cdup(FTP\Connection $ftp): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

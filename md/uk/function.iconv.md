@@ -1,16 +1,11 @@
-Перетворює рядок з одного кодування символів на інший
-
--   [« iconvsubstr](function.iconv-substr.html)
-    
--   [проiconvhandler »](function.ob-iconv-handler.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции iconv](ref.iconv.html)
-    
--   Перетворює рядок з одного кодування символів на інший
-    
-
+---
+navigation:
+  - function.iconv-substr.html: « iconvsubstr
+  - function.ob-iconv-handler.html: проiconvhandler »
+  - index.html: PHP Manual
+  - ref.iconv.html: Функции iconv
+title: iconv
+---
 # iconv
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

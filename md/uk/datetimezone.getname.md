@@ -1,16 +1,11 @@
-Повертає ім'я часового поясу
-
--   [« DateTimeZone::getLocation](datetimezone.getlocation.html)
-    
--   [DateTimeZone::getOffset »](datetimezone.getoffset.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeZone](class.datetimezone.html)
-    
--   Повертає ім'я часового поясу
-    
-
+---
+navigation:
+  - datetimezone.getlocation.html: '« DateTimeZone::getLocation'
+  - datetimezone.getoffset.html: 'DateTimeZone::getOffset »'
+  - index.html: PHP Manual
+  - class.datetimezone.html: DateTimeZone
+title: 'DateTimeZone::getName'
+---
 # DateTimeZone::getName
 
 # timezonenameget

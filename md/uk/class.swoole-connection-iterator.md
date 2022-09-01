@@ -1,16 +1,11 @@
-Клас SwooleConnectionIterator
-
--   [« SwooleClient::wakeup](swoole-client.wakeup.html)
-    
--   [SwooleConnectionIterator::count »](swoole-connection-iterator.count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleConnectionIterator
-    
-
+---
+navigation:
+  - swoole-client.wakeup.html: '« SwooleClient::wakeup'
+  - swoole-connection-iterator.count.html: 'SwooleConnectionIterator::count »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleConnectionIterator
+---
 # Клас SwooleConnectionIterator
 
 (PECL swoole >= 1.9.0)

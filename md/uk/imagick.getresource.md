@@ -1,16 +1,11 @@
-Повертає розмір пам'яті вказаного ресурсу.
-
--   [« Imagick::getReleaseDate](imagick.getreleasedate.md)
-    
--   [Imagick::getResourceLimit »](imagick.getresourcelimit.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає розмір пам'яті вказаного ресурсу.
-    
-
+---
+navigation:
+  - imagick.getreleasedate.md: '« Imagick::getReleaseDate'
+  - imagick.getresourcelimit.md: 'Imagick::getResourceLimit »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getResource'
+---
 # Imagick::getResource
 
 (PECL imagick 2, PECL imagick 3)

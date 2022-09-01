@@ -1,16 +1,11 @@
-Читає дані буфера
-
--   [« EventBufferEvent::getOutput](eventbufferevent.getoutput.html)
-    
--   [EventBufferEvent::readBuffer »](eventbufferevent.readbuffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Читає дані буфера
-    
-
+---
+navigation:
+  - eventbufferevent.getoutput.html: '« EventBufferEvent::getOutput'
+  - eventbufferevent.readbuffer.html: 'EventBufferEvent::readBuffer »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::read'
+---
 # EventBufferEvent::read
 
 (PECL event >= 1.2.6-beta)

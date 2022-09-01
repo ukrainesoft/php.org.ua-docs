@@ -1,16 +1,11 @@
-Припиняє отримання даних від з'єднання
-
--   [« SwooleServer::on](swoole-server.on.html)
-    
--   [SwooleServer::protect »](swoole-server.protect.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Припиняє отримання даних від з'єднання
-    
-
+---
+navigation:
+  - swoole-server.on.html: '« SwooleServer::on'
+  - swoole-server.protect.html: 'SwooleServer::protect »'
+  - index.html: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::pause'
+---
 # SwooleServer::pause
 
 (PECL swoole >= 1.9.0)

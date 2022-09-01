@@ -1,16 +1,11 @@
-Повертає суму всіх значень колекції
-
--   [« DsMap::sorted](ds-map.sorted.html)
-    
--   [ДсMap::toArray »](ds-map.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає суму всіх значень колекції
-    
-
+---
+navigation:
+  - ds-map.sorted.html: '« DsMap::sorted'
+  - ds-map.toarray.html: 'ДсMap::toArray »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::sum'
+---
 # ДсMap::sum
 
 (No version information available, might only be in Git)

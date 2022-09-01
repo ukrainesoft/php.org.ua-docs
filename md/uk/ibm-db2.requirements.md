@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](ibm-db2.setup.html)
-    
--   [Установка »](ibm-db2.installation.html)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](ibm-db2.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - ibm-db2.setup.html: « Встановлення та налаштування
+  - ibm-db2.installation.html: Установка »
+  - index.md: PHP Manual
+  - ibm-db2.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для з'єднання з IBM DB2 Universal Database під Linux, UNIX і Windows, IBM Cloudscape або Apache Derby, ви повинні встановити клієнта IBM DB2 Universal Database на тій же машині, де працюватиме PHP. Модуль розроблявся та тестувався з DB2 версії 8.2.

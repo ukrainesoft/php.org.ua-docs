@@ -1,16 +1,11 @@
-Повертає масив імен трейтів, що використовуються у цьому класі
-
--   [« ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.html)
-    
--   [ReflectionClass::getTraits »](reflectionclass.gettraits.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Повертає масив імен трейтів, що використовуються у цьому класі
-    
-
+---
+navigation:
+  - reflectionclass.gettraitaliases.html: '« ReflectionClass::getTraitAliases'
+  - reflectionclass.gettraits.html: 'ReflectionClass::getTraits »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getTraitNames'
+---
 # ReflectionClass::getTraitNames
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

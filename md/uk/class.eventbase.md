@@ -1,16 +1,11 @@
-Клас EventBase
-
--   [« Event::timer](event.timer.html)
-    
--   [EventBase::construct »](eventbase.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Event](book.event.html)
-    
--   Клас EventBase
-    
-
+---
+navigation:
+  - event.timer.html: '« Event::timer'
+  - eventbase.construct.html: 'EventBase::construct »'
+  - index.html: PHP Manual
+  - book.event.html: Event
+title: Клас EventBase
+---
 # Клас EventBase
 
 (PECL event >= 1.2.6-beta)

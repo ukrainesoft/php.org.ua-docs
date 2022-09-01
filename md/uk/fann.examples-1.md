@@ -1,16 +1,11 @@
-Навчання XOR
-
--   [« Приклади](fann.examples.md)
-    
--   [Функции Fann »](ref.fann.md)
-    
--   [PHP Manual](index.md)
-    
--   [Приклади](fann.examples.md)
-    
--   Навчання XOR
-    
-
+---
+navigation:
+  - fann.examples.md: « Приклади
+  - ref.fann.md: Функции Fann »
+  - index.md: PHP Manual
+  - fann.examples.md: Приклади
+title: Навчання XOR
+---
 ## Навчання XOR
 
 Цей приклад показує, як навчити мережу функції XOR

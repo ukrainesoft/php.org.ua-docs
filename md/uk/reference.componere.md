@@ -1,16 +1,11 @@
-Функції Componere
-
--   [« ComponereValue::hasDefault](componere-value.hasdefault.html)
-    
--   [Componerecast »](componere.cast.md)
-    
--   [PHP Manual](index.md)
-    
--   [Componere](book.componere.md)
-    
--   Функції Componere
-    
-
+---
+navigation:
+  - componere-value.hasdefault.html: '« ComponereValue::hasDefault'
+  - componere.cast.md: Componerecast »
+  - index.md: PHP Manual
+  - book.componere.md: Componere
+title: Функції Componere
+---
 # Функції Componere
 
 ## Зміст

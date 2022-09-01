@@ -1,16 +1,11 @@
-Конструктор класу григоріанського календаря
-
--   [« IntlGregorianCalendar](class.intlgregoriancalendar.md)
-    
--   [IntlGregorianCalendar::getGregorianChange »](intlgregoriancalendar.getgregorianchange.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlGregorianCalendar](class.intlgregoriancalendar.md)
-    
--   Конструктор класу григоріанського календаря
-    
-
+---
+navigation:
+  - class.intlgregoriancalendar.md: « IntlGregorianCalendar
+  - intlgregoriancalendar.getgregorianchange.md: 'IntlGregorianCalendar::getGregorianChange »'
+  - index.md: PHP Manual
+  - class.intlgregoriancalendar.md: IntlGregorianCalendar
+title: 'Intel GregorianCalendar::construct'
+---
 # Intel GregorianCalendar::construct
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

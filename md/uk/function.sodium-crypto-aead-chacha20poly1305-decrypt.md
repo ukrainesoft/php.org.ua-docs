@@ -1,16 +1,11 @@
-Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
-
--   [« sodiumcryptoaeadaes256gcmkeygen](function.sodium-crypto-aead-aes256gcm-keygen.html)
-    
--   [sodiumcryptoaeadchacha20poly1305encrypt »](function.sodium-crypto-aead-chacha20poly1305-encrypt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
-    
-
+---
+navigation:
+  - function.sodium-crypto-aead-aes256gcm-keygen.html: « sodiumcryptoaeadaes256gcmkeygen
+  - function.sodium-crypto-aead-chacha20poly1305-encrypt.html: sodiumcryptoaeadchacha20poly1305encrypt »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptoaeadchacha20poly1305decrypt
+---
 # sodiumcryptoaeadchacha20poly1305decrypt
 
 (PHP 7> = 7.2.0, PHP 8)

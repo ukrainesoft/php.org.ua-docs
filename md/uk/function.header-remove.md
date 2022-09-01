@@ -1,16 +1,11 @@
-Видаляє раніше встановлені заголовки
-
--   [« headerregistercallback](function.header-register-callback.html)
-    
--   [header »](function.header.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Видаляє раніше встановлені заголовки
-    
-
+---
+navigation:
+  - function.header-register-callback.html: « headerregistercallback
+  - function.header.md: header »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: headerremove
+---
 # headerremove
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ header_remove(?string $name = null): void
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `name` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Приклади
 

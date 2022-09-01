@@ -1,16 +1,11 @@
-Витягує елемент із архіву
-
--   [« RarEntry](class.rarentry.md)
-    
--   [RarEntry::getAttr »](rarentry.getattr.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarEntry](class.rarentry.md)
-    
--   Витягує елемент із архіву
-    
-
+---
+navigation:
+  - class.rarentry.md: « RarEntry
+  - rarentry.getattr.md: 'RarEntry::getAttr »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::extract'
+---
 # RarEntry::extract
 
 (PECL rar >= 0.1)
@@ -53,9 +48,9 @@ public RarEntry::extract(    string $dir,    string $filepath = "",  �
 
 ### список змін
 
-| Версия         | Описание                                                                 |
-|----------------|--------------------------------------------------------------------------|
-| PECL rar 3.0.0 | Було додано параметр `extended_data`                                     |
+| Версия | Описание |
+| --- | --- |
+| PECL rar 3.0.0 | Було додано параметр `extended_data` |
 | PECL rar 3.0.0 | Виправлена ​​підтримка RAR архівів з іменами елементів, що повторюються. |
 
 ### Приклади

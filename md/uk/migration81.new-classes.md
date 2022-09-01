@@ -1,16 +1,11 @@
-Нові класи та інтерфейси
-
--   [« Новая функциональность](migration81.new-features.html)
-    
--   [Нові функції »](migration81.new-functions.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.md)
-    
--   Нові класи та інтерфейси
-    
-
+---
+navigation:
+  - migration81.new-features.html: « Новая функциональность
+  - migration81.new-functions.html: Нові функції »
+  - index.md: PHP Manual
+  - migration81.md: Миграция с PHP 8.0.x на PHP 8.1.x
+title: Нові класи та інтерфейси
+---
 ## Нові класи та інтерфейси
 
 ### CURL

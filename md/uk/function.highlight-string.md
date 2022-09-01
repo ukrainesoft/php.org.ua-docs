@@ -1,16 +1,11 @@
-Підсвічування синтаксису рядка
-
--   [« highlightfile](function.highlight-file.html)
-    
--   [hrtime »](function.hrtime.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Підсвічування синтаксису рядка
-    
-
+---
+navigation:
+  - function.highlight-file.html: « highlightfile
+  - function.hrtime.html: hrtime »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: highlightstring
+---
 # highlightstring
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

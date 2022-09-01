@@ -1,16 +1,11 @@
-Задає кодовий набір тексту
-
--   [« ImagickDraw::setTextDecoration](imagickdraw.settextdecoration.html)
-    
--   [ImagickDraw::setTextInterlineSpacing »](imagickdraw.settextinterlinespacing.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Задає кодовий набір тексту
-    
-
+---
+navigation:
+  - imagickdraw.settextdecoration.html: '« ImagickDraw::setTextDecoration'
+  - imagickdraw.settextinterlinespacing.html: 'ImagickDraw::setTextInterlineSpacing »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setTextEncoding'
+---
 # ImagickDraw::setTextEncoding
 
 (PECL imagick 2, PECL imagick 3)

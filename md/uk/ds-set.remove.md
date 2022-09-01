@@ -1,16 +1,11 @@
-Видаляє всі задані значення з набору
-
--   [« DsSet::reduce](ds-set.reduce.html)
-    
--   [ДсSet::reverse »](ds-set.reverse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Видаляє всі задані значення з набору
-    
-
+---
+navigation:
+  - ds-set.reduce.html: '« DsSet::reduce'
+  - ds-set.reverse.html: 'ДсSet::reverse »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::remove'
+---
 # ДсSet::remove
 
 (PECL ds >= 1.0.0)

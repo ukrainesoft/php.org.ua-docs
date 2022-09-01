@@ -1,16 +1,11 @@
-Клас Session
-
--   [« SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.html)
-    
--   [Session::close »](mysql-xdevapi-session.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас Session
-    
-
+---
+navigation:
+  - mysql-xdevapi-schemaobject.getschema.html: '« SchemaObject::getSchema'
+  - mysql-xdevapi-session.close.html: 'Session::close »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас Session
+---
 # Клас Session
 
 (PECL mysql-xdevapi >= 8.0.11)

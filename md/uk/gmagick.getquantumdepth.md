@@ -1,16 +1,11 @@
-Повертає глибину кольору (біт на канал) об'єкта Gmagick у вигляді рядка
-
--   [« Gmagick::getpackagename](gmagick.getpackagename.md)
-    
--   [Gmagick::getreleasedate »](gmagick.getreleasedate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає глибину кольору (біт на канал) об'єкта Gmagick у вигляді рядка
-    
-
+---
+navigation:
+  - gmagick.getpackagename.md: '« Gmagick::getpackagename'
+  - gmagick.getreleasedate.md: 'Gmagick::getreleasedate »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getquantumdepth'
+---
 # Gmagick::getquantumdepth
 
 (PECL gmagick >= Unknown)

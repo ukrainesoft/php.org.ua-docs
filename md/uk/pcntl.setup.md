@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.pcntl.md)
-    
--   [Вимоги »](pcntl.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [PCNTL](book.pcntl.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.pcntl.md: « Введение
+  - pcntl.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.pcntl.md: PCNTL
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

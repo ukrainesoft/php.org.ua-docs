@@ -1,16 +1,11 @@
-Конструктор
-
--   [« VtifulKernelExcel::constMemory](vtiful-kernel-excel.constMemory.html)
-    
--   [VtifulKernelExcel::data »](vtiful-kernel-excel.data.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.constMemory.html: '« VtifulKernelExcel::constMemory'
+  - vtiful-kernel-excel.data.html: 'VtifulKernelExcel::data »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::construct'
+---
 # VtifulKernelExcel::construct
 
 (PECL xlswriter >= 1.2.1)

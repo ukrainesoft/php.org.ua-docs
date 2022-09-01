@@ -1,16 +1,11 @@
-Запускає транзакцію
-
--   [« MongoDBDriverSession::isInTransaction](mongodb-driver-session.isintransaction.html)
-    
--   [MongoDBDriverClientEncryption »](class.mongodb-driver-clientencryption.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Запускає транзакцію
-    
-
+---
+navigation:
+  - mongodb-driver-session.isintransaction.html: '« MongoDBDriverSession::isInTransaction'
+  - class.mongodb-driver-clientencryption.html: MongoDBDriverClientEncryption »
+  - index.html: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::startTransaction'
+---
 # MongoDBDriverSession::startTransaction
 
 (mongodb >=1.5.0)
@@ -35,10 +30,10 @@ final public MongoDB\Driver\Session::startTransaction(?array $options = null): v
 
 **options**
 
-| Опция                                                                                                      | Тип     | Описание |
-|------------------------------------------------------------------------------------------------------------|---------|----------|
-| maxCommitTimeMS                                                                                            | integer |          |
-| Максимальний період часу в мілісекундах, протягом якого може виконуватись одна команда `commitTransaction` |         |          |
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| maxCommitTimeMS | integer |  |
+| Максимальний період часу в мілісекундах, протягом якого може виконуватись одна команда `commitTransaction` |  |  |
 
 Якщо зазначено, `maxCommitTimeMS` має бути 32-розрядним цілим числом зі знаком, великим або рівним нулю.
 
@@ -68,10 +63,10 @@ final public MongoDB\Driver\Session::startTransaction(?array $options = null): v
 
 ### список змін
 
-| Версия                               | Описание |
-|--------------------------------------|----------|
-| PECL mongodb 1.6.0                   |          |
-| Доданий параметр `"maxCommitTimeMS"` |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.6.0 |  |
+| Доданий параметр `"maxCommitTimeMS"` |  |
 
 ### Дивіться також
 

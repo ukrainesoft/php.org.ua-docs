@@ -1,16 +1,11 @@
-Знищує всі дані сесії
-
--   [« sessiondecode](function.session-decode.html)
-    
--   [sessionencode »](function.session-encode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Знищує всі дані сесії
-    
-
+---
+navigation:
+  - function.session-decode.html: « sessiondecode
+  - function.session-encode.html: sessionencode »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessiondestroy
+---
 # sessiondestroy
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Обробник обраної опції
-
--   [« UIControlsCombo::getSelected](ui-controls-combo.getselected.html)
-    
--   [ОЙControlsCombo::setSelected »](ui-controls-combo.setselected.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsCombo](class.ui-controls-combo.html)
-    
--   Обробник обраної опції
-    
-
+---
+navigation:
+  - ui-controls-combo.getselected.html: '« UIControlsCombo::getSelected'
+  - ui-controls-combo.setselected.html: 'ОЙControlsCombo::setSelected »'
+  - index.html: PHP Manual
+  - class.ui-controls-combo.html: ОЙControlsCombo
+title: 'ОЙControlsCombo::onSelected'
+---
 # ОЙControlsCombo::onSelected
 
 (UI 0.9.9)

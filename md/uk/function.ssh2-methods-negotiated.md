@@ -1,16 +1,11 @@
-Повертає список узгоджених методів
-
--   [« ssh2forwardlisten](function.ssh2-forward-listen.html)
-    
--   [ssh2poll »](function.ssh2-poll.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Повертає список узгоджених методів
-    
-
+---
+navigation:
+  - function.ssh2-forward-listen.html: « ssh2forwardlisten
+  - function.ssh2-poll.html: ssh2poll »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2методівnegotiated
+---
 # ssh2методівnegotiated
 
 (PECL ssh2> = 0.9.0)

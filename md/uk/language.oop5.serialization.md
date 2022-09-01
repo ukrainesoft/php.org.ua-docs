@@ -1,16 +1,11 @@
-Серіалізація об'єктів
-
--   [« Об'єкти та посилання](language.oop5.references.html)
-    
--   [Коваріантність та контраваріантність »](language.oop5.variance.html)
-    
--   [PHP Manual](index.html)
-    
--   [Класи та об'єкти](language.oop5.html)
-    
--   Серіалізація об'єктів
-    
-
+---
+navigation:
+  - language.oop5.references.html: « Об'єкти та посилання
+  - language.oop5.variance.html: Коваріантність та контраваріантність »
+  - index.html: PHP Manual
+  - language.oop5.html: Класи та об'єкти
+title: Серіалізація об'єктів
+---
 ## Серіалізація об'єктів
 
 ## Серіалізація об'єктів - збереження об'єктів між сесіями

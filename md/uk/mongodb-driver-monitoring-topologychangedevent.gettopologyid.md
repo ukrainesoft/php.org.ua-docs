@@ -1,16 +1,11 @@
-Повертає ідентифікатор топології
-
--   [« MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.html)
-    
--   [MongoDBDriverMonitoringTopologyClosedEvent »](class.mongodb-driver-monitoring-topologyclosedevent.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
-    
--   Повертає ідентифікатор топології
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.html: '« MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription'
+  - class.mongodb-driver-monitoring-topologyclosedevent.html: MongoDBDriverMonitoringTopologyClosedEvent »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-topologychangedevent.html: MongoDBDriverMonitoringTopologyChangedEvent
+title: 'MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId'
+---
 # MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId
 
 (mongodb >=1.13.0)

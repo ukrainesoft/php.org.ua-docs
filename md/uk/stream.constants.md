@@ -1,23 +1,18 @@
-Обумовлені константи
-
--   [« Класи для роботи з потоками](stream.resources.md)
-    
--   [Поточні фільтри »](stream.filters.md)
-    
--   [PHP Manual](index.md)
-    
--   [Потоки](book.stream.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - stream.resources.md: « Класи для роботи з потоками
+  - stream.filters.md: Поточні фільтри »
+  - index.md: PHP Manual
+  - book.stream.md: Потоки
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-| Константа                 | Описание                                                                                                                                                                                                                                           |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **`STREAM_FILTER_READ`**  | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.html). Вказує на те, що заданий фільтр може використовуватись лише в операціях читання (*reading*  |
+| Константа | Описание |
+| --- | --- |
+| **`STREAM_FILTER_READ`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.html). Вказує на те, що заданий фільтр може використовуватись лише в операціях читання (*reading* |
 | **`STREAM_FILTER_WRITE`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.html). Вказує на те, що заданий фільтр може використовуватись тільки в операціях запису (*writing* |
 | **`STREAM_FILTER_ALL`** | Еквівалентно запису \`STREAM\_FILTER\_READ |
 | **`PSFS_PASS_ON`** | `Return Code` вказує, що фільтр користувача повернув бакети (buckets) в `$out` |

@@ -1,16 +1,11 @@
-Зменшує зображення до обмеженої кількості рівнів кольору
-
--   [« Imagick::polaroidImage](imagick.polaroidimage.md)
-    
--   [Imagick::previewImages »](imagick.previewimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Зменшує зображення до обмеженої кількості рівнів кольору
-    
-
+---
+navigation:
+  - imagick.polaroidimage.md: '« Imagick::polaroidImage'
+  - imagick.previewimages.md: 'Imagick::previewImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::posterizeImage'
+---
 # Imagick::posterizeImage
 
 (PECL imagick 2, PECL imagick 3)

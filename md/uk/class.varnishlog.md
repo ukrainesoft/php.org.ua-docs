@@ -1,16 +1,11 @@
-Клас VarnishLog
-
--   [« VarnishStat::getSnapshot](varnishstat.getsnapshot.html)
-    
--   [VarnishLog::construct »](varnishlog.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Varnish](book.varnish.html)
-    
--   Клас VarnishLog
-    
-
+---
+navigation:
+  - varnishstat.getsnapshot.html: '« VarnishStat::getSnapshot'
+  - varnishlog.construct.html: 'VarnishLog::construct »'
+  - index.html: PHP Manual
+  - book.varnish.html: Varnish
+title: Клас VarnishLog
+---
 # Клас VarnishLog
 
 (PECL varnish >= 0.6)

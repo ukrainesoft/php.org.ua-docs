@@ -1,16 +1,11 @@
-1-денна швидкість зміни (ROC) потрійний гладкою EMA
-
--   [« tradertrima](function.trader-trima.html)
-    
--   [tradertsf »](function.trader-tsf.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   1-денна швидкість зміни (ROC) потрійний гладкою EMA
-    
-
+---
+navigation:
+  - function.trader-trima.html: « tradertrima
+  - function.trader-tsf.html: tradertsf »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradertrix
+---
 # tradertrix
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Встановити опції сокету
-
--   [« EventUtil::getSocketName](eventutil.getsocketname.html)
-    
--   [EventUtil::sslRandPoll »](eventutil.sslrandpoll.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventUtil](class.eventutil.html)
-    
--   Встановити опції сокету
-    
-
+---
+navigation:
+  - eventutil.getsocketname.html: '« EventUtil::getSocketName'
+  - eventutil.sslrandpoll.html: 'EventUtil::sslRandPoll »'
+  - index.html: PHP Manual
+  - class.eventutil.html: EventUtil
+title: 'EventUtil::setSocketOption'
+---
 # EventUtil::setSocketOption
 
 (PECL event >= 1.6.0)

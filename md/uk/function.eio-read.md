@@ -1,16 +1,11 @@
-Читає дані з файлу, починаючи із заданого усунення
-
--   [« eiopoll](function.eio-poll.html)
-    
--   [eioreadahead »](function.eio-readahead.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Читає дані з файлу, починаючи із заданого усунення
-    
-
+---
+navigation:
+  - function.eio-poll.html: « eiopoll
+  - function.eio-readahead.html: eioreadahead »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eioread
+---
 # eioread
 
 (PECL eio >= 0.0.1dev)

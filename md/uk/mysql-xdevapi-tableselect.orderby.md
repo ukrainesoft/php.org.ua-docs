@@ -1,16 +1,11 @@
-Встановлює критерії сортування вибірки
-
--   [« TableSelect::offset](mysql-xdevapi-tableselect.offset.html)
-    
--   [TableSelect::where »](mysql-xdevapi-tableselect.where.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Встановлює критерії сортування вибірки
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.offset.html: '« TableSelect::offset'
+  - mysql-xdevapi-tableselect.where.html: 'TableSelect::where »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::orderby'
+---
 # TableSelect::orderby
 
 (No version information available, might only be in Git)

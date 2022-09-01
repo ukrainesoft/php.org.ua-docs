@@ -1,16 +1,11 @@
-Клас EnchantBroker
-
--   [« enchantdictsuggest](function.enchant-dict-suggest.html)
-    
--   [EnchantDictionary »](class.enchantdictionary.html)
-    
--   [PHP Manual](index.html)
-    
--   [Enchant](book.enchant.html)
-    
--   Клас EnchantBroker
-    
-
+---
+navigation:
+  - function.enchant-dict-suggest.html: « enchantdictsuggest
+  - class.enchantdictionary.html: EnchantDictionary »
+  - index.html: PHP Manual
+  - book.enchant.html: Enchant
+title: Клас EnchantBroker
+---
 # Клас EnchantBroker
 
 (PHP 8)

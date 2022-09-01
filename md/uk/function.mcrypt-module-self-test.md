@@ -1,16 +1,11 @@
-Функція запускає самоперевірку вказаного модуля
-
--   [« mcryptmoduleopen](function.mcrypt-module-open.html)
-    
--   [mdecryptgeneric »](function.mdecrypt-generic.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Функція запускає самоперевірку вказаного модуля
-    
-
+---
+navigation:
+  - function.mcrypt-module-open.html: « mcryptmoduleopen
+  - function.mdecrypt-generic.html: mdecryptgeneric »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmoduleselftest
+---
 # mcryptmoduleselftest
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

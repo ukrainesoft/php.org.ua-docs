@@ -1,16 +1,11 @@
-Ще один RPC-фреймворк
-
--   [« SoapVar::construct](soapvar.construct.md)
-    
--   [Введение »](intro.yar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Веб-сервіси](refs.webservice.md)
-    
--   Ще один RPC-фреймворк
-    
-
+---
+navigation:
+  - soapvar.construct.md: '« SoapVar::construct'
+  - intro.yar.md: Введение »
+  - index.md: PHP Manual
+  - refs.webservice.md: Веб-сервіси
+title: Ще один RPC-фреймворк
+---
 # Ще один RPC-фреймворк
 
 -   [Введение](intro.yar.md)

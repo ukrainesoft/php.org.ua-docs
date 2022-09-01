@@ -1,16 +1,11 @@
-Клас SolrInputDocument
-
--   [« SolrUtils::queryPhrase](solrutils.queryphrase.html)
-    
--   [SolrInputDocument::addChildDocument »](solrinputdocument.addchilddocument.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Клас SolrInputDocument
-    
-
+---
+navigation:
+  - solrutils.queryphrase.html: '« SolrUtils::queryPhrase'
+  - solrinputdocument.addchilddocument.html: 'SolrInputDocument::addChildDocument »'
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Клас SolrInputDocument
+---
 # Клас SolrInputDocument
 
 (PECL solr> = 0.9.2)

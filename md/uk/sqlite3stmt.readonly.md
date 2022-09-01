@@ -1,16 +1,11 @@
-Перевіряє, чи є підготовлений запит лише для читання
-
--   [« SQLite3Stmt::paramCount](sqlite3stmt.paramcount.md)
-    
--   [SQLite3Stmt::reset »](sqlite3stmt.reset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Stmt](class.sqlite3stmt.md)
-    
--   Перевіряє, чи є підготовлений запит лише для читання
-    
-
+---
+navigation:
+  - sqlite3stmt.paramcount.md: '« SQLite3Stmt::paramCount'
+  - sqlite3stmt.reset.md: 'SQLite3Stmt::reset »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
+title: 'SQLite3Stmt::readOnly'
+---
 # SQLite3Stmt::readOnly
 
 (PHP 5> = 5.3.6, PHP 7, PHP 8)

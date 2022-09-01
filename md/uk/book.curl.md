@@ -1,16 +1,11 @@
-Клієнтська бібліотека роботи з URL
-
--   [« Інші служби](refs.remote.other.md)
-    
--   [Введение »](intro.curl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Інші служби](refs.remote.other.md)
-    
--   Клієнтська бібліотека роботи з URL
-    
-
+---
+navigation:
+  - refs.remote.other.md: « Інші служби
+  - intro.curl.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
+title: Клієнтська бібліотека роботи з URL
+---
 # Клієнтська бібліотека роботи з URL
 
 -   [Введение](intro.curl.md)

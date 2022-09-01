@@ -1,16 +1,11 @@
-Імпорт шляху без версії до репозиторії
-
--   [« svnфсyoungestrev](function.svn-fs-youngest-rev.html)
-    
--   [svnlog »](function.svn-log.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Імпорт шляху без версії до репозиторії
-    
-
+---
+navigation:
+  - function.svn-fs-youngest-rev.html: « svnфсyoungestrev
+  - function.svn-log.html: svnlog »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnimport
+---
 # svnimport
 
 (PECL svn >= 0.2.0)

@@ -1,16 +1,11 @@
-Перевіряє, чи існує заданий атрибут
-
--   [« DOMElement::hasAttribute](domelement.hasattribute.md)
-    
--   [DOMElement::removeAttribute »](domelement.removeattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Перевіряє, чи існує заданий атрибут
-    
-
+---
+navigation:
+  - domelement.hasattribute.md: '« DOMElement::hasAttribute'
+  - domelement.removeattribute.md: 'DOMElement::removeAttribute »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::hasAttributeNS'
+---
 # DOMElement::hasAttributeNS
 
 (PHP 5, PHP 7, PHP 8)

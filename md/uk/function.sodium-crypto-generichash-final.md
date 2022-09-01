@@ -1,16 +1,11 @@
-Закінчити хешування
-
--   [« sodiumcryptocoreristretto255sub](function.sodium-crypto-core-ristretto255-sub.html)
-    
--   [sodiumcryptogenerichashinit »](function.sodium-crypto-generichash-init.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Закінчити хешування
-    
-
+---
+navigation:
+  - function.sodium-crypto-core-ristretto255-sub.html: « sodiumcryptocoreristretto255sub
+  - function.sodium-crypto-generichash-init.html: sodiumcryptogenerichashinit »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumcryptogenerichashfinal
+---
 # sodiumcryptogenerichashfinal
 
 (PHP 7> = 7.2.0, PHP 8)

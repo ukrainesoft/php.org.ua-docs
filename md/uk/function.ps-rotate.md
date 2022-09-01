@@ -1,16 +1,11 @@
-Встановлює коефіцієнт обертання
-
--   [«psrestore](function.ps-restore.html)
-    
--   [псsave »](function.ps-save.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Встановлює коефіцієнт обертання
-    
-
+---
+navigation:
+  - function.ps-restore.html: «psrestore
+  - function.ps-save.html: псsave »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псrotate
+---
 # псrotate
 
 (PECL ps >= 1.1.0)

@@ -1,16 +1,11 @@
-Перераховує підписи ключа
-
--   [« gnupgkeyinfo](function.gnupg-keyinfo.html)
-    
--   [gnupgsetarmor »](function.gnupg-setarmor.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Перераховує підписи ключа
-    
-
+---
+navigation:
+  - function.gnupg-keyinfo.html: « gnupgkeyinfo
+  - function.gnupg-setarmor.html: gnupgsetarmor »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupglistsignatures
+---
 # gnupglistsignatures
 
 (PECL gnupg >= 0.5)

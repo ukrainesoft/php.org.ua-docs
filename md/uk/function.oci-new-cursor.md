@@ -1,16 +1,11 @@
-Повертає ідентифікатор створеного курсору
-
--   [« ocinewconnect](function.oci-new-connect.html)
-    
--   [ocinewdescriptor »](function.oci-new-descriptor.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає ідентифікатор створеного курсору
-    
-
+---
+navigation:
+  - function.oci-new-connect.html: « ocinewconnect
+  - function.oci-new-descriptor.html: ocinewdescriptor »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocinewcursor
+---
 # ocinewcursor
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

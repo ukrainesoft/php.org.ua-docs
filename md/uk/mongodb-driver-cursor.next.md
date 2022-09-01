@@ -1,16 +1,11 @@
-Переміщує курсор на наступний результат
-
--   [« MongoDBDriverCursor::key](mongodb-driver-cursor.key.html)
-    
--   [MongoDBDriverCursor::rewind »](mongodb-driver-cursor.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Переміщує курсор на наступний результат
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.key.html: '« MongoDBDriverCursor::key'
+  - mongodb-driver-cursor.rewind.html: 'MongoDBDriverCursor::rewind »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::next'
+---
 # MongoDBDriverCursor::next
 
 (mongodb >=1.9.0)

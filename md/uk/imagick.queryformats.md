@@ -1,16 +1,11 @@
-Повертає формати, що підтримуються Imagick
-
--   [« Imagick::queryFonts](imagick.queryfonts.html)
-    
--   [Imagick::radialBlurImage »](imagick.radialblurimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає формати, що підтримуються Imagick
-    
-
+---
+navigation:
+  - imagick.queryfonts.html: '« Imagick::queryFonts'
+  - imagick.radialblurimage.html: 'Imagick::radialBlurImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::queryFormats'
+---
 # Imagick::queryFormats
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Отримати останнє повідомлення про помилку
-
--   [« swoolegetlocalіп](function.swoole-get-local-ip.html)
-    
--   [swooleloadmodule »](function.swoole-load-module.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Swoole](ref.swoole-funcs.html)
-    
--   Отримати останнє повідомлення про помилку
-    
-
+---
+navigation:
+  - function.swoole-get-local-ip.html: « swoolegetlocalіп
+  - function.swoole-load-module.html: swooleloadmodule »
+  - index.html: PHP Manual
+  - ref.swoole-funcs.html: Функции Swoole
+title: swoolelasterror
+---
 # swoolelasterror
 
 (PECL swoole >= 1.9.0)

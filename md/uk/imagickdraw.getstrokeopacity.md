@@ -1,16 +1,11 @@
-Повертає непрозорість обведених контурів об'єкта
-
--   [« ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.md)
-    
--   [ImagickDraw::getStrokeWidth »](imagickdraw.getstrokewidth.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає непрозорість обведених контурів об'єкта
-    
-
+---
+navigation:
+  - imagickdraw.getstrokemiterlimit.md: '« ImagickDraw::getStrokeMiterLimit'
+  - imagickdraw.getstrokewidth.md: 'ImagickDraw::getStrokeWidth »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getStrokeOpacity'
+---
 # ImagickDraw::getStrokeOpacity
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Задає випуск бази даних
-
--   [« ocisetдбoperation](function.oci-set-db-operation.html)
-    
--   [ocisetmodulename »](function.oci-set-module-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Задає випуск бази даних
-    
-
+---
+navigation:
+  - function.oci-set-db-operation.html: « ocisetдбoperation
+  - function.oci-set-module-name.html: ocisetmodulename »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocisetedition
+---
 # ocisetedition
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)

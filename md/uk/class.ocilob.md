@@ -1,16 +1,11 @@
-Клас OCILob
-
--   [« OCICollection::trim](ocicollection.trim.html)
-    
--   [OCILob::append »](ocilob.append.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8](book.oci8.html)
-    
--   Клас OCILob
-    
-
+---
+navigation:
+  - ocicollection.trim.html: '« OCICollection::trim'
+  - ocilob.append.html: 'OCILob::append »'
+  - index.html: PHP Manual
+  - book.oci8.html: OCI8
+title: Клас OCILob
+---
 # Клас OCILob
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

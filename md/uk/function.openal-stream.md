@@ -1,16 +1,11 @@
-Почати потокову передачу з джерела
-
--   [« openalsourcestop](function.openal-source-stop.html)
-    
--   [Служби аутентифікації »](refs.remote.auth.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenAL](ref.openal.html)
-    
--   Почати потокову передачу з джерела
-    
-
+---
+navigation:
+  - function.openal-source-stop.html: « openalsourcestop
+  - refs.remote.auth.html: Служби аутентифікації »
+  - index.html: PHP Manual
+  - ref.openal.html: Функции OpenAL
+title: openalstream
+---
 # openalstream
 
 (PECL openal >= 0.1.0)

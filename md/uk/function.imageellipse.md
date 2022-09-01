@@ -1,16 +1,11 @@
-Малювання еліпса
-
--   [« imagedestroy](function.imagedestroy.md)
-    
--   [imagefill »](function.imagefill.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Малювання еліпса
-    
-
+---
+navigation:
+  - function.imagedestroy.md: « imagedestroy
+  - function.imagefill.md: imagefill »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageellipse
+---
 # imageellipse
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ y-координат центру.
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

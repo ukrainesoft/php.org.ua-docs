@@ -1,16 +1,11 @@
-Повертає поточне налаштування згладжування тексту
-
--   [« ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.md)
-    
--   [ImagickDraw::getTextDecoration »](imagickdraw.gettextdecoration.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає поточне налаштування згладжування тексту
-    
-
+---
+navigation:
+  - imagickdraw.gettextalignment.md: '« ImagickDraw::getTextAlignment'
+  - imagickdraw.gettextdecoration.md: 'ImagickDraw::getTextDecoration »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getTextAntialias'
+---
 # ImagickDraw::getTextAntialias
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Задає, які помилки PHP потраплять у звіт
-
--   [« errorlog](function.error-log.html)
-    
--   [restoreerrorhandler »](function.restore-error-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции обработки ошибок](ref.errorfunc.md)
-    
--   Задає, які помилки PHP потраплять у звіт
-    
-
+---
+navigation:
+  - function.error-log.html: « errorlog
+  - function.restore-error-handler.html: restoreerrorhandler »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
+title: errorreporting
+---
 # errorreporting
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ error_reporting(?int $error_level = null): int
 
 ### список змін
 
-| Версия | Описание                                    |
-|--------|---------------------------------------------|
-|        | `error_level` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `error_level` тепер допускає значення null. |
 
 ### Приклади
 

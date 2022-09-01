@@ -1,16 +1,11 @@
-Встановлює значення параметра конфігурації
-
--   [« EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.md)
-    
--   [EventDnsBase::setSearchNdots »](eventdnsbase.setsearchndots.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventDnsBase](class.eventdnsbase.md)
-    
--   Встановлює значення параметра конфігурації
-    
-
+---
+navigation:
+  - eventdnsbase.parseresolvconf.md: '« EventDnsBase::parseResolvConf'
+  - eventdnsbase.setsearchndots.md: 'EventDnsBase::setSearchNdots »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
+title: 'EventDnsBase::setOption'
+---
 # EventDnsBase::setOption
 
 (PECL event >= 1.2.6-beta)

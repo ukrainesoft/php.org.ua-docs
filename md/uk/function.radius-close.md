@@ -1,16 +1,11 @@
-Звільняє всі ресурси
-
--   [« radiusauthopen](function.radius-auth-open.html)
-    
--   [radiusconfig »](function.radius-config.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Звільняє всі ресурси
-    
-
+---
+navigation:
+  - function.radius-auth-open.html: « radiusauthopen
+  - function.radius-config.html: radiusconfig »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusclose
+---
 # radiusclose
 
 (PECL radius >= 1.1.0)

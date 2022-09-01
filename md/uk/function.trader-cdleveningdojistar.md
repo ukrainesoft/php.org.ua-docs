@@ -1,16 +1,11 @@
-Вечірня дожі-зірка
-
--   [« tradercdlengulfing](function.trader-cdlengulfing.html)
-    
--   [tradercdleveningstar »](function.trader-cdleveningstar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Вечірня дожі-зірка
-    
-
+---
+navigation:
+  - function.trader-cdlengulfing.html: « tradercdlengulfing
+  - function.trader-cdleveningstar.html: tradercdleveningstar »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdleveningdojistar
+---
 # tradercdleveningdojistar
 
 (PECL trader >= 0.2.0)

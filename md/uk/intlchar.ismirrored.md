@@ -1,16 +1,11 @@
-Перевірити, якщо у символу властивість BidiMirrored
-
--   [« IntlChar::islower](intlchar.islower.md)
-    
--   [IntlChar::isprint »](intlchar.isprint.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, якщо у символу властивість BidiMirrored
-    
-
+---
+navigation:
+  - intlchar.islower.md: '« IntlChar::islower'
+  - intlchar.isprint.md: 'IntlChar::isprint »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isMirrored'
+---
 # IntlChar::isMirrored
 
 (PHP 7, PHP 8)

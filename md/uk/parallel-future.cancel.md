@@ -1,16 +1,11 @@
-Припинення
-
--   [« parallelFuture](class.parallel-future.html)
-    
--   [parallelFuture::cancelled »](parallel-future.cancelled.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelFuture](class.parallel-future.html)
-    
--   Припинення
-    
-
+---
+navigation:
+  - class.parallel-future.html: « parallelFuture
+  - parallel-future.cancelled.html: 'parallelFuture::cancelled »'
+  - index.md: PHP Manual
+  - class.parallel-future.html: parallelFuture
+title: 'parallelFuture::cancel'
+---
 # parallelFuture::cancel
 
 parallelFuture::cancel — Припинення

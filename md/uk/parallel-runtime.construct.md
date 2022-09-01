@@ -1,16 +1,11 @@
-Конструктор класу Runtime
-
--   [« parallelRuntime](class.parallel-runtime.html)
-    
--   [parallelRuntime::run »](parallel-runtime.run.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelRuntime](class.parallel-runtime.html)
-    
--   Конструктор класу Runtime
-    
-
+---
+navigation:
+  - class.parallel-runtime.html: « parallelRuntime
+  - parallel-runtime.run.html: 'parallelRuntime::run »'
+  - index.md: PHP Manual
+  - class.parallel-runtime.html: parallelRuntime
+title: 'parallelRuntime::construct'
+---
 # parallelRuntime::construct
 
 parallelRuntime::construct - Конструктор класу Runtime

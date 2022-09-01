@@ -1,16 +1,11 @@
-Повертає версію сервера MySQL, представлену у вигляді integer
-
--   [« mysqli::$serverinfo](mysqli.get-server-info.html)
-    
--   [mysqli::getwarnings »](mysqli.get-warnings.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqli](class.mysqli.md)
-    
--   Повертає версію сервера MySQL, представлену у вигляді integer
-    
-
+---
+navigation:
+  - mysqli.get-server-info.html: '« mysqli::$serverinfo'
+  - mysqli.get-warnings.html: 'mysqli::getwarnings »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
+title: 'mysqli::$serverversion'
+---
 # mysqli::$serverversion
 
 # mysqligetserverversion

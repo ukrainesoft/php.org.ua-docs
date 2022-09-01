@@ -1,16 +1,11 @@
-Додає ітератор
-
--   [« AppendIterator](class.appenditerator.md)
-    
--   [AppendIterator::construct »](appenditerator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [AppendIterator](class.appenditerator.md)
-    
--   Додає ітератор
-    
-
+---
+navigation:
+  - class.appenditerator.md: « AppendIterator
+  - appenditerator.construct.md: 'AppendIterator::construct »'
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
+title: 'AppendIterator::append'
+---
 # AppendIterator::append
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

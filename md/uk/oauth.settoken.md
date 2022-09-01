@@ -1,16 +1,11 @@
-Задати токен та його пароль
-
--   [« OAuth::setTimestamp](oauth.settimestamp.md)
-    
--   [OAuth::setVersion »](oauth.setversion.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Задати токен та його пароль
-    
-
+---
+navigation:
+  - oauth.settimestamp.md: '« OAuth::setTimestamp'
+  - oauth.setversion.md: 'OAuth::setVersion »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::setToken'
+---
 # OAuth::setToken
 
 (PECL OAuth >= 0.99.1)

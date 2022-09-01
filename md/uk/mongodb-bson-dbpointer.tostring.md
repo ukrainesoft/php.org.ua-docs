@@ -1,16 +1,11 @@
-Повертає порожній рядок
-
--   [« MongoDBBSONDBPointer::serialize](mongodb-bson-dbpointer.serialize.html)
-    
--   [MongoDBBSONDBPointer::unserialize »](mongodb-bson-dbpointer.unserialize.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.html)
-    
--   Повертає порожній рядок
-    
-
+---
+navigation:
+  - mongodb-bson-dbpointer.serialize.html: '« MongoDBBSONDBPointer::serialize'
+  - mongodb-bson-dbpointer.unserialize.html: 'MongoDBBSONDBPointer::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer
+title: 'MongoDBBSONDBPointer::toString'
+---
 # MongoDBBSONDBPointer::toString
 
 (mongodb >=1.4.0)

@@ -1,16 +1,11 @@
-Масштабує дані у вхідному векторі після отримання їх на основі раніше розрахованих параметрів
-
--   [« fanncreatetrain](function.fann-create-train.html)
-    
--   [fanndescaleoutput »](function.fann-descale-output.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Масштабує дані у вхідному векторі після отримання їх на основі раніше розрахованих параметрів
-    
-
+---
+navigation:
+  - function.fann-create-train.html: « fanncreatetrain
+  - function.fann-descale-output.html: fanndescaleoutput »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanndescaleinput
+---
 # fanndescaleinput
 
 (PECL fann> = 1.0.0)

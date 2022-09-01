@@ -1,16 +1,11 @@
-Отримати текст помилки за її кодом
-
--   [pcntlsigwaitinfo](function.pcntl-sigwaitinfo.html)
-    
--   [pcntlunshare »](function.pcntl-unshare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PCNTL](ref.pcntl.html)
-    
--   Отримати текст помилки за її кодом
-    
-
+---
+navigation:
+  - function.pcntl-sigwaitinfo.html: pcntlsigwaitinfo
+  - function.pcntl-unshare.html: pcntlunshare »
+  - index.html: PHP Manual
+  - ref.pcntl.html: Функції PCNTL
+title: pcntlstrerror
+---
 # pcntlstrerror
 
 (PHP 5> = 5.3.4, PHP 7, PHP 8)

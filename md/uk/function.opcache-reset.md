@@ -1,16 +1,11 @@
-Скидає вміст кешу опкодів
-
--   [« opcacheісscriptcached](function.opcache-is-script-cached.html)
-    
--   [Контроль виведення »](book.outcontrol.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OPcache](ref.opcache.md)
-    
--   Скидає вміст кешу опкодів
-    
-
+---
+navigation:
+  - function.opcache-is-script-cached.html: « opcacheісscriptcached
+  - book.outcontrol.md: Контроль виведення »
+  - index.md: PHP Manual
+  - ref.opcache.md: Функции OPcache
+title: opcachereset
+---
 # opcachereset
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache >= 7.0.0)

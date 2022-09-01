@@ -1,16 +1,11 @@
-Функції Bzip2
-
--   [« Приклади](bzip2.examples.md)
-    
--   [bzclose »](function.bzclose.md)
-    
--   [PHP Manual](index.md)
-    
--   [Bzip2](book.bzip2.md)
-    
--   Функції Bzip2
-    
-
+---
+navigation:
+  - bzip2.examples.md: « Приклади
+  - function.bzclose.md: bzclose »
+  - index.md: PHP Manual
+  - book.bzip2.md: Bzip2
+title: Функції Bzip2
+---
 # Функції Bzip2
 
 ## Зміст

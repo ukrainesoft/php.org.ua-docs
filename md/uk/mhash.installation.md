@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](mhash.requirements.md)
-    
--   [Налаштування під час виконання »](mhash.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](mhash.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - mhash.requirements.md: « Вимоги
+  - mhash.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - mhash.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Необхідно скомпілювати PHP з опцією **\-with-mhash=DIR**. Можна примусово вказати директорію з mhash.

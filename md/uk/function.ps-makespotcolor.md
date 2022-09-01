@@ -1,16 +1,11 @@
-Створює плашковий колір
-
--   [«pslineto](function.ps-lineto.html)
-    
--   [псmoveto »](function.ps-moveto.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Створює плашковий колір
-    
-
+---
+navigation:
+  - function.ps-lineto.html: «pslineto
+  - function.ps-moveto.html: псmoveto »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псmakespotcolor
+---
 # псmakespotcolor
 
 (PECL ps >= 1.1.0)

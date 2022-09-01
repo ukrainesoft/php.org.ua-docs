@@ -1,16 +1,11 @@
-Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
-
--   [« pgexecute](function.pg-execute.html)
-    
--   [пгfetchall »](function.pg-fetch-all.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
-    
-
+---
+navigation:
+  - function.pg-execute.html: « pgexecute
+  - function.pg-fetch-all.html: пгfetchall »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгfetchallcolumns
+---
 # пгfetchallcolumns
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

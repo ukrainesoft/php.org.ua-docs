@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](shmop.setup.html)
-    
--   [Установка »](shmop.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](shmop.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - shmop.setup.html: « Встановлення та налаштування
+  - shmop.installation.html: Установка »
+  - index.html: PHP Manual
+  - shmop.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для збирання цього модуля не потрібні зовнішні бібліотеки.

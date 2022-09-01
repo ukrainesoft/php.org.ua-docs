@@ -1,16 +1,11 @@
-Встановлює функцію активації для всіх нейронів у наданому шарі
-
--   [« fannsetactivationfunctionhidden](function.fann-set-activation-function-hidden.html)
-    
--   [fannsetactivationfunctionoutput »](function.fann-set-activation-function-output.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює функцію активації для всіх нейронів у наданому шарі
-    
-
+---
+navigation:
+  - function.fann-set-activation-function-hidden.html: « fannsetactivationfunctionhidden
+  - function.fann-set-activation-function-output.html: fannsetactivationfunctionoutput »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetactivationfunctionlayer
+---
 # fannsetactivationfunctionlayer
 
 (PECL fann> = 1.0.0)

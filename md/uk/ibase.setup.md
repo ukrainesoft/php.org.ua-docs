@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ibase.md)
-    
--   [Вимоги »](ibase.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Firebird/InterBase](book.ibase.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ibase.md: « Введение
+  - ibase.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.ibase.md: Firebird/InterBase
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

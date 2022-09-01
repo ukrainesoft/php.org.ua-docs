@@ -1,16 +1,11 @@
-Повертає inode поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getGroup](directoryiterator.getgroup.md)
-    
--   [DirectoryIterator::getMTime »](directoryiterator.getmtime.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає inode поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getgroup.md: '« DirectoryIterator::getGroup'
+  - directoryiterator.getmtime.md: 'DirectoryIterator::getMTime »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getInode'
+---
 # DirectoryIterator::getInode
 
 (PHP 5, PHP 7, PHP 8)

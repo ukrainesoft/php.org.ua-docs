@@ -1,16 +1,11 @@
-Метод current()
-
--   [« EmptyIterator](class.emptyiterator.md)
-    
--   [EmptyIterator::key »](emptyiterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [EmptyIterator](class.emptyiterator.md)
-    
--   Метод current()
-    
-
+---
+navigation:
+  - class.emptyiterator.md: « EmptyIterator
+  - emptyiterator.key.md: 'EmptyIterator::key »'
+  - index.md: PHP Manual
+  - class.emptyiterator.md: EmptyIterator
+title: 'EmptyIterator::current'
+---
 # EmptyIterator::current
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

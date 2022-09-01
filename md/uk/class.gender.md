@@ -1,16 +1,11 @@
-Клас GenderGender
-
--   [« Пример использования](gender.example.admin.md)
-    
--   [GenderGender::connect »](gender-gender.connect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Gender](book.gender.md)
-    
--   Клас GenderGender
-    
-
+---
+navigation:
+  - gender.example.admin.md: « Пример использования
+  - gender-gender.connect.html: 'GenderGender::connect »'
+  - index.md: PHP Manual
+  - book.gender.md: Gender
+title: Клас GenderGender
+---
 # Клас GenderGender
 
 (PECL gender >= 0.6.0)

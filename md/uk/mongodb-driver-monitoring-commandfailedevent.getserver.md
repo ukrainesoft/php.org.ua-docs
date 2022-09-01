@@ -1,16 +1,11 @@
-Повертає сервер, на якому було виконано команду
-
--   [« MongoDBDriverMonitoringCommandFailedEvent::getRequestId](mongodb-driver-monitoring-commandfailedevent.getrequestid.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId »](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   Повертає сервер, на якому було виконано команду
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getrequestid.html: '« MongoDBDriverMonitoringCommandFailedEvent::getRequestId'
+  - mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html: 'MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getServer'
+---
 # MongoDBDriverMonitoringCommandFailedEvent::getServer
 
 (mongodb >=1.3.0)

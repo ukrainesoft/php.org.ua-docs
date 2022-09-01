@@ -1,16 +1,11 @@
-Перенаправляє на URL
-
--   [« YafControllerAbstract::initView](yaf-controller-abstract.initview.html)
-    
--   [YafControllerAbstract::render »](yaf-controller-abstract.render.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Перенаправляє на URL
-    
-
+---
+navigation:
+  - yaf-controller-abstract.initview.html: '« YafControllerAbstract::initView'
+  - yaf-controller-abstract.render.html: 'YafControllerAbstract::render »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::redirect'
+---
 # YafControllerAbstract::redirect
 
 (Yaf >=1.0.0)

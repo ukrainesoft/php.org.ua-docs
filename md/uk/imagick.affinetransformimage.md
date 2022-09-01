@@ -1,16 +1,11 @@
-Перетворення зображення
-
--   [« Imagick::addNoiseImage](imagick.addnoiseimage.md)
-    
--   [Imagick::animateImages »](imagick.animateimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перетворення зображення
-    
-
+---
+navigation:
+  - imagick.addnoiseimage.md: '« Imagick::addNoiseImage'
+  - imagick.animateimages.md: 'Imagick::animateImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::affineTransformImage'
+---
 # Imagick::affineTransformImage
 
 (PECL imagick 2, PECL imagick 3)

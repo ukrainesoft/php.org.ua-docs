@@ -1,16 +1,11 @@
-Скидає результати виконання підготовленого запиту
-
--   [« mysqlistmt::prepare](mysqli-stmt.prepare.html)
-    
--   [mysqlistmt::resultmetadata »](mysqli-stmt.result-metadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Скидає результати виконання підготовленого запиту
-    
-
+---
+navigation:
+  - mysqli-stmt.prepare.html: '« mysqlistmt::prepare'
+  - mysqli-stmt.result-metadata.html: 'mysqlistmt::resultmetadata »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::reset'
+---
 # mysqlistmt::reset
 
 # mysqlistmtreset

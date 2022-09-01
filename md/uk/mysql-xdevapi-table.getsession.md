@@ -1,16 +1,11 @@
-Отримати таблицю сесій
-
--   [« Table::getSchema](mysql-xdevapi-table.getschema.html)
-    
--   [Table::insert »](mysql-xdevapi-table.insert.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiTable](class.mysql-xdevapi-table.html)
-    
--   Отримати таблицю сесій
-    
-
+---
+navigation:
+  - mysql-xdevapi-table.getschema.html: '« Table::getSchema'
+  - mysql-xdevapi-table.insert.html: 'Table::insert »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+title: 'Table::getSession'
+---
 # Table::getSession
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutine::calluserfunc](swoole-coroutine.call-user-func.html)
-    
--   [SwooleCoroutine::create »](swoole-coroutine.create.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine.call-user-func.html: '« SwooleCoroutine::calluserfunc'
+  - swoole-coroutine.create.html: 'SwooleCoroutine::create »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutine::cliwait'
+---
 # SwooleCoroutine::cliwait
 
 (PECL swoole >= 2.0.0)

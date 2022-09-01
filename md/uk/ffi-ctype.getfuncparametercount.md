@@ -1,16 +1,11 @@
-Опис
-
--   [« FFICType::getFuncABI](ffi-ctype.getfuncabi.html)
-    
--   [FFICType::getFuncParameterType »](ffi-ctype.getfuncparametertype.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFICType](class.ffi-ctype.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - ffi-ctype.getfuncabi.html: '« FFICType::getFuncABI'
+  - ffi-ctype.getfuncparametertype.html: 'FFICType::getFuncParameterType »'
+  - index.html: PHP Manual
+  - class.ffi-ctype.html: FFICType
+title: 'FFICType::getFuncParameterCount'
+---
 # FFICType::getFuncParameterCount
 
 (PHP 8> = 8.1.0)

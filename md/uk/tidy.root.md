@@ -1,16 +1,11 @@
-Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
-
--   [« tidy::repairString](tidy.repairstring.md)
-    
--   [tidyNode »](class.tidynode.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
-    
-
+---
+navigation:
+  - tidy.repairstring.md: '« tidy::repairString'
+  - class.tidynode.md: tidyNode »
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::root'
+---
 # tidy::root
 
 # tidygetroot

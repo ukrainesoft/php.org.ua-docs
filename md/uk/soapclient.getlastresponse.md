@@ -1,16 +1,11 @@
-Повертає останню SOAP-відповідь
-
--   [« SoapClient::getLastRequestHeaders](soapclient.getlastrequestheaders.md)
-    
--   [SoapClient::getLastResponseHeaders »](soapclient.getlastresponseheaders.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapClient](class.soapclient.md)
-    
--   Повертає останню SOAP-відповідь
-    
-
+---
+navigation:
+  - soapclient.getlastrequestheaders.md: '« SoapClient::getLastRequestHeaders'
+  - soapclient.getlastresponseheaders.md: 'SoapClient::getLastResponseHeaders »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
+title: 'SoapClient::getLastResponse'
+---
 # SoapClient::getLastResponse
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає виділене поле для використання як резервну копію або за замовчуванням
-
--   [« SolrQuery::getHighlight](solrquery.gethighlight.md)
-    
--   [SolrQuery::getHighlightFields »](solrquery.gethighlightfields.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає виділене поле для використання як резервну копію або за замовчуванням
-    
-
+---
+navigation:
+  - solrquery.gethighlight.md: '« SolrQuery::getHighlight'
+  - solrquery.gethighlightfields.md: 'SolrQuery::getHighlightFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlightAlternateField'
+---
 # SolrQuery::getHighlightAlternateField
 
 (PECL solr> = 0.9.2)

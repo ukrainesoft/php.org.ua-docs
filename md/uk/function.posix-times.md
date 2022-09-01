@@ -1,16 +1,11 @@
-Повертає інформацію про використання процесорного часу
-
--   [« posixstrerror](function.posix-strerror.html)
-    
--   [posixttyname »](function.posix-ttyname.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає інформацію про використання процесорного часу
-    
-
+---
+navigation:
+  - function.posix-strerror.html: « posixstrerror
+  - function.posix-ttyname.html: posixttyname »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixtimes
+---
 # posixtimes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

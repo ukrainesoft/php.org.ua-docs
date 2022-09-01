@@ -1,16 +1,11 @@
-Вставляє значення за вказаним індексом
-
--   [« DsDeque::get](ds-deque.get.html)
-    
--   [ДсDeque::isEmpty »](ds-deque.isempty.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Вставляє значення за вказаним індексом
-    
-
+---
+navigation:
+  - ds-deque.get.html: '« DsDeque::get'
+  - ds-deque.isempty.html: 'ДсDeque::isEmpty »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::insert'
+---
 # ДсDeque::insert
 
 (PECL ds >= 1.0.0)

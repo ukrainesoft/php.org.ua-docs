@@ -1,16 +1,11 @@
-Виконує SHARED LOCK
-
--   [« TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.html)
-    
--   [TableSelect::offset »](mysql-xdevapi-tableselect.offset.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableSelect](class.mysql-xdevapi-tableselect.html)
-    
--   Виконує SHARED LOCK
-    
-
+---
+navigation:
+  - mysql-xdevapi-tableselect.lockexclusive.html: '« TableSelect::lockExclusive'
+  - mysql-xdevapi-tableselect.offset.html: 'TableSelect::offset »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+title: 'TableSelect::lockShared'
+---
 # TableSelect::lockShared
 
 (No version information available, might only be in Git)

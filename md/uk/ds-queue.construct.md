@@ -1,16 +1,11 @@
-Створює новий екземпляр
-
--   [« DsQueue::clear](ds-queue.clear.html)
-    
--   [ДсQueue::copy »](ds-queue.copy.html)
-    
--   [PHP Manual](index.html)
-    
--   [Черга](class.ds-queue.html)
-    
--   Створює новий екземпляр
-    
-
+---
+navigation:
+  - ds-queue.clear.html: '« DsQueue::clear'
+  - ds-queue.copy.html: 'ДсQueue::copy »'
+  - index.html: PHP Manual
+  - class.ds-queue.html: Черга
+title: 'ДсQueue::construct'
+---
 # ДсQueue::construct
 
 (PECL ds >= 1.0.0)

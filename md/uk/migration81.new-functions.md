@@ -1,16 +1,11 @@
-Нові функції
-
--   [« Нові класи та інтерфейси](migration81.new-classes.html)
-    
--   [Нові глобальні константи »](migration81.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
-    
--   Нові функції
-    
-
+---
+navigation:
+  - migration81.new-classes.html: « Нові класи та інтерфейси
+  - migration81.constants.html: Нові глобальні константи »
+  - index.html: PHP Manual
+  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x
+title: Нові функції
+---
 ## Нові функції
 
 ### Ядро PHP

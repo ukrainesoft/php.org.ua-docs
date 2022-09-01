@@ -1,16 +1,11 @@
-Повертає максимально можливе випадкове число
-
--   [« fmod](function.fmod.md)
-    
--   [hexdec »](function.hexdec.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Повертає максимально можливе випадкове число
-    
-
+---
+navigation:
+  - function.fmod.md: « fmod
+  - function.hexdec.md: hexdec »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: getrandmax
+---
 # getrandmax
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

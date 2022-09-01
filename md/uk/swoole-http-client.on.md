@@ -1,16 +1,11 @@
-Реєструє callback-функцію на ім'я події
-
--   [« SwooleHttpClient::isConnected](swoole-http-client.isconnected.html)
-    
--   [SwooleHttpClient::post »](swoole-http-client.post.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Реєструє callback-функцію на ім'я події
-    
-
+---
+navigation:
+  - swoole-http-client.isconnected.html: '« SwooleHttpClient::isConnected'
+  - swoole-http-client.post.html: 'SwooleHttpClient::post »'
+  - index.html: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::on'
+---
 # SwooleHttpClient::on
 
 (PECL swoole >= 1.9.0)

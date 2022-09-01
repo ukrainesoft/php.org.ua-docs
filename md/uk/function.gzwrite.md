@@ -1,16 +1,11 @@
-Бінарний запис у gz-файл
-
--   [« gzuncompress](function.gzuncompress.html)
-    
--   [inflateadd »](function.inflate-add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Бінарний запис у gz-файл
-    
-
+---
+navigation:
+  - function.gzuncompress.html: « gzuncompress
+  - function.inflate-add.html: inflateadd »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzwrite
+---
 # gzwrite
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,10 +40,10 @@ gzwrite(resource $stream, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                                                                       |
-|--------|--------------------------------------------------------------------------------|
-|        | `length` тепер припускає значення null; раніше значенням за умовчанням був `0` |
-|        | У разі помилки функція повертає **`false`**. раніше повертався `0`             |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер припускає значення null; раніше значенням за умовчанням був `0` |
+|  | У разі помилки функція повертає **`false`**. раніше повертався `0` |
 
 ### Приклади
 

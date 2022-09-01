@@ -1,16 +1,11 @@
-Перетворення числа GMP на ціле число
-
--   [« gmpinit](function.gmp-init.html)
-    
--   [gmpinvert »](function.gmp-invert.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Перетворення числа GMP на ціле число
-    
-
+---
+navigation:
+  - function.gmp-init.html: « gmpinit
+  - function.gmp-invert.html: gmpinvert »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpintval
+---
 # gmpintval
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

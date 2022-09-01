@@ -1,16 +1,11 @@
-Встановлення Nginx 1.4.x на систему Unix
-
--   [Apache 2.x на Unix системах](install.unix.apache2.md)
-    
--   [Установка PHP на Lighttpd 1.4 на Unix-системах »](install.unix.lighttpd-14.html)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення на Unix-системи](install.unix.md)
-    
--   Встановлення Nginx 1.4.x на систему Unix
-    
-
+---
+navigation:
+  - install.unix.apache2.md: Apache 2.x на Unix системах
+  - install.unix.lighttpd-14.html: Установка PHP на Lighttpd 1.4 на Unix-системах »
+  - index.md: PHP Manual
+  - install.unix.md: Встановлення на Unix-системи
+title: Встановлення Nginx 1.4.x на систему Unix
+---
 ## Встановлення Nginx 1.4.x на систему Unix
 
 Ця документація описує процес встановлення та налаштування PHP з PHP-FPM для Nginx 1.4.x HTTP сервера.

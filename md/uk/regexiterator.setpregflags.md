@@ -1,16 +1,11 @@
-Завдання прапорів регулярного вираження
-
--   [« RegexIterator::setMode](regexiterator.setmode.md)
-    
--   [Інтерфейси »](spl.interfaces.md)
-    
--   [PHP Manual](index.md)
-    
--   [RegexIterator](class.regexiterator.md)
-    
--   Завдання прапорів регулярного вираження
-    
-
+---
+navigation:
+  - regexiterator.setmode.md: '« RegexIterator::setMode'
+  - spl.interfaces.md: Інтерфейси »
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
+title: 'RegexIterator::setPregFlags'
+---
 # RegexIterator::setPregFlags
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

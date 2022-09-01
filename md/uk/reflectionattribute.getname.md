@@ -1,16 +1,11 @@
-Повертає ім'я атрибуту
-
--   [« ReflectionAttribute::getArguments](reflectionattribute.getarguments.html)
-    
--   [ReflectionAttribute::getTarget »](reflectionattribute.gettarget.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionAttribute](class.reflectionattribute.html)
-    
--   Повертає ім'я атрибуту
-    
-
+---
+navigation:
+  - reflectionattribute.getarguments.html: '« ReflectionAttribute::getArguments'
+  - reflectionattribute.gettarget.html: 'ReflectionAttribute::getTarget »'
+  - index.html: PHP Manual
+  - class.reflectionattribute.html: ReflectionAttribute
+title: 'ReflectionAttribute::getName'
+---
 # ReflectionAttribute::getName
 
 (PHP 8)

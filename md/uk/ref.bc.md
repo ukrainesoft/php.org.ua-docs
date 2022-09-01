@@ -1,16 +1,11 @@
-Функції BC Math
-
--   [« Обумовлені константи](bc.constants.html)
-    
--   [bcadd »](function.bcadd.html)
-    
--   [PHP Manual](index.html)
-    
--   [BC Math](book.bc.html)
-    
--   Функції BC Math
-    
-
+---
+navigation:
+  - bc.constants.html: « Обумовлені константи
+  - function.bcadd.html: bcadd »
+  - index.html: PHP Manual
+  - book.bc.html: BC Math
+title: Функції BC Math
+---
 # Функції BC Math
 
 ## Зміст

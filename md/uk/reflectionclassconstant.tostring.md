@@ -1,16 +1,11 @@
-Повертає рядкове представлення об'єкта ReflectionClassConstant
-
--   [« ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.html)
-    
--   [ReflectionEnum »](class.reflectionenum.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
-    
--   Повертає рядкове представлення об'єкта ReflectionClassConstant
-    
-
+---
+navigation:
+  - reflectionclassconstant.ispublic.html: '« ReflectionClassConstant::isPublic'
+  - class.reflectionenum.html: ReflectionEnum »
+  - index.html: PHP Manual
+  - class.reflectionclassconstant.html: ReflectionClassConstant
+title: 'ReflectionClassConstant::toString'
+---
 # ReflectionClassConstant::toString
 
 (PHP 7> = 7.1.0, PHP 8)

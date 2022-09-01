@@ -1,16 +1,11 @@
-Приєднує рядковий атрибут
-
--   [« radiusputint](function.radius-put-int.html)
-    
--   [radiusputvendoraddr »](function.radius-put-vendor-addr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Приєднує рядковий атрибут
-    
-
+---
+navigation:
+  - function.radius-put-int.html: « radiusputint
+  - function.radius-put-vendor-addr.html: radiusputvendoraddr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiusputstring
+---
 # radiusputstring
 
 (PECL radius >= 1.1.0)
@@ -57,8 +52,8 @@ radius_put_string(    resource $radius_handle,    int $type,    stri
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Приклади

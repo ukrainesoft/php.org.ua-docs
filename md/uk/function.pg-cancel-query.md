@@ -1,16 +1,11 @@
-Зупинення асинхронного запиту.
-
--   [« pgaffectedrows](function.pg-affected-rows.html)
-    
--   [пгclientencoding »](function.pg-client-encoding.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Зупинення асинхронного запиту.
-    
-
+---
+navigation:
+  - function.pg-affected-rows.html: « pgaffectedrows
+  - function.pg-client-encoding.html: пгclientencoding »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгcancelquery
+---
 # пгcancelquery
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ pg_cancel_query(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

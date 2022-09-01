@@ -1,16 +1,11 @@
-Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
-
--   [« MongoDBDriverCursor::getServer](mongodb-driver-cursor.getserver.html)
-    
--   [MongoDBDriverCursor::key »](mongodb-driver-cursor.key.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.getserver.html: '« MongoDBDriverCursor::getServer'
+  - mongodb-driver-cursor.key.html: 'MongoDBDriverCursor::key »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::isDead'
+---
 # MongoDBDriverCursor::isDead
 
 (mongodb >=1.0.0)

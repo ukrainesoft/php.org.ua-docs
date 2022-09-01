@@ -1,16 +1,11 @@
-Повертає поверхневу копію колекції
-
--   [« DsDeque::contains](ds-deque.contains.html)
-    
--   [ДсDeque::count »](ds-deque.count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає поверхневу копію колекції
-    
-
+---
+navigation:
+  - ds-deque.contains.html: '« DsDeque::contains'
+  - ds-deque.count.html: 'ДсDeque::count »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::copy'
+---
 # ДсDeque::copy
 
 (PECL ds >= 1.0.0)

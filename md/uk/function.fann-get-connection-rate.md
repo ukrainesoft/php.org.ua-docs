@@ -1,16 +1,11 @@
-Отримує швидкість з'єднання, що використовується під час створення мережі
-
--   [« fanngetconnectionarray](function.fann-get-connection-array.html)
-    
--   [fanngeterrno »](function.fann-get-errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Отримує швидкість з'єднання, що використовується під час створення мережі
-    
-
+---
+navigation:
+  - function.fann-get-connection-array.html: « fanngetconnectionarray
+  - function.fann-get-errno.html: fanngeterrno »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetconnectionrate
+---
 # fanngetconnectionrate
 
 (PECL fann> = 1.0.0)

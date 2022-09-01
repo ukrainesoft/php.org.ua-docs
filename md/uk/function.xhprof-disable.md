@@ -1,16 +1,11 @@
-Зупиняє профіль xhprof
-
--   [« Функции Xhprof](ref.xhprof.md)
-    
--   [xhprofenable »](function.xhprof-enable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Xhprof](ref.xhprof.md)
-    
--   Зупиняє профіль xhprof
-    
-
+---
+navigation:
+  - ref.xhprof.md: « Функции Xhprof
+  - function.xhprof-enable.html: xhprofenable »
+  - index.md: PHP Manual
+  - ref.xhprof.md: Функции Xhprof
+title: xhprofdisable
+---
 # xhprofdisable
 
 (PECL xhprof >= 0.9.0)

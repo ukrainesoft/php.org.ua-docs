@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.fileinfo.md)
-    
--   [Вимоги »](fileinfo.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [FileInfo](book.fileinfo.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.fileinfo.md: « Введение
+  - fileinfo.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.fileinfo.md: FileInfo
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

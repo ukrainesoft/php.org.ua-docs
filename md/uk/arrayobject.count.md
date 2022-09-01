@@ -1,16 +1,11 @@
-Отримати кількість загальнодоступних властивостей ArrayObject
-
--   [« ArrayObject::construct](arrayobject.construct.md)
-    
--   [ArrayObject::exchangeArray »](arrayobject.exchangearray.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Отримати кількість загальнодоступних властивостей ArrayObject
-    
-
+---
+navigation:
+  - arrayobject.construct.md: '« ArrayObject::construct'
+  - arrayobject.exchangearray.md: 'ArrayObject::exchangeArray »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::count'
+---
 # ArrayObject::count
 
 (PHP 5, PHP 7, PHP 8)

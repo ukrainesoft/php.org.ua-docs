@@ -1,16 +1,11 @@
-Клонує поточний об'єкт ImagickDraw і додає його до стек
-
--   [« ImagickDraw::popPattern](imagickdraw.poppattern.html)
-    
--   [ImagickDraw::pushClipPath »](imagickdraw.pushclippath.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Клонує поточний об'єкт ImagickDraw і додає його до стек
-    
-
+---
+navigation:
+  - imagickdraw.poppattern.html: '« ImagickDraw::popPattern'
+  - imagickdraw.pushclippath.html: 'ImagickDraw::pushClipPath »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::push'
+---
 # ImagickDraw::push
 
 (PECL imagick 2, PECL imagick 3)

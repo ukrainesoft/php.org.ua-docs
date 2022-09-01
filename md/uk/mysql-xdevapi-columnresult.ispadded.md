@@ -1,16 +1,11 @@
-Перевіряє, чи доповнюється
-
--   [« ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.html)
-    
--   [mysqlxdevapiCrudOperationBindable »](class.mysql-xdevapi-crudoperationbindable.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Перевіряє, чи доповнюється
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.isnumbersigned.html: '« ColumnResult::isNumberSigned'
+  - class.mysql-xdevapi-crudoperationbindable.html: mysqlxdevapiCrudOperationBindable »
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::isPadded'
+---
 # ColumnResult::isPadded
 
 (No version information available, might only be in Git)

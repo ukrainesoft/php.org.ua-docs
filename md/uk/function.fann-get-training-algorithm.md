@@ -1,16 +1,11 @@
-Повертає алгоритм навчання
-
--   [« fanngettrainstopfunction](function.fann-get-train-stop-function.html)
-    
--   [fanninitweights »](function.fann-init-weights.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає алгоритм навчання
-    
-
+---
+navigation:
+  - function.fann-get-train-stop-function.html: « fanngettrainstopfunction
+  - function.fann-init-weights.html: fanninitweights »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngettrainingalgorithm
+---
 # fanngettrainingalgorithm
 
 (PECL fann> = 1.0.0)

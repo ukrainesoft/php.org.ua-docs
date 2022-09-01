@@ -1,16 +1,11 @@
-Встановлює новий термін зберігання для запису
-
--   [« Memcached::setSaslAuthData](memcached.setsaslauthdata.md)
-    
--   [Memcached::touchByKey »](memcached.touchbykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Встановлює новий термін зберігання для запису
-    
-
+---
+navigation:
+  - memcached.setsaslauthdata.md: '« Memcached::setSaslAuthData'
+  - memcached.touchbykey.md: 'Memcached::touchByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::touch'
+---
 # Memcached::touch
 
 (PECL memcached >= 2.0.0)

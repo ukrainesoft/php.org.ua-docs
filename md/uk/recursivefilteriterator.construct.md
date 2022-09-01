@@ -1,16 +1,11 @@
-Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора RecursiveIterator
-
--   [« RecursiveFilterIterator](class.recursivefilteriterator.html)
-    
--   [RecursiveFilterIterator::getChildren »](recursivefilteriterator.getchildren.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveFilterIterator](class.recursivefilteriterator.html)
-    
--   Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора RecursiveIterator
-    
-
+---
+navigation:
+  - class.recursivefilteriterator.html: « RecursiveFilterIterator
+  - recursivefilteriterator.getchildren.html: 'RecursiveFilterIterator::getChildren »'
+  - index.html: PHP Manual
+  - class.recursivefilteriterator.html: RecursiveFilterIterator
+title: 'RecursiveFilterIterator::construct'
+---
 # RecursiveFilterIterator::construct
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

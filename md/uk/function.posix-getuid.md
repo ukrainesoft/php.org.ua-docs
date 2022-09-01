@@ -1,16 +1,11 @@
-Повертає фактичний ідентифікатор користувача поточного процесу UID
-
--   [« posixgetsid](function.posix-getsid.html)
-    
--   [posixinitgroups »](function.posix-initgroups.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Повертає фактичний ідентифікатор користувача поточного процесу UID
-    
-
+---
+navigation:
+  - function.posix-getsid.html: « posixgetsid
+  - function.posix-initgroups.html: posixinitgroups »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixgetuid
+---
 # posixgetuid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

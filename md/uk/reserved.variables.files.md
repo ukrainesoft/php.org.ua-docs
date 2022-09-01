@@ -1,16 +1,11 @@
-Змінні файли, завантажені за HTTP
-
--   [POST](reserved.variables.post.md)
-    
--   [REQUEST »](reserved.variables.request.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Змінні файли, завантажені за HTTP
-    
-
+---
+navigation:
+  - reserved.variables.post.md: POST
+  - reserved.variables.request.md: REQUEST »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: FILES
+---
 # FILES
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає попередній опис сервера
-
--   [« MongoDBDriverMonitoringServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.html)
-    
--   [MongoDBDriverMonitoringServerChangedEvent::getTopologyId »](mongodb-driver-monitoring-serverchangedevent.gettopologyid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
-    
--   Повертає попередній опис сервера
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serverchangedevent.getport.html: '« MongoDBDriverMonitoringServerChangedEvent::getPort'
+  - mongodb-driver-monitoring-serverchangedevent.gettopologyid.html: 'MongoDBDriverMonitoringServerChangedEvent::getTopologyId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent
+title: 'MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription'
+---
 # MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription
 
 (mongodb >=1.13.0)

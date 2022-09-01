@@ -1,16 +1,11 @@
-Повертає час максимального очікування операції читання
-
--   [« Stomp::error](stomp.error.md)
-    
--   [Stomp::getSessionId »](stomp.getsessionid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Повертає час максимального очікування операції читання
-    
-
+---
+navigation:
+  - stomp.error.md: '« Stomp::error'
+  - stomp.getsessionid.md: 'Stomp::getSessionId »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::getReadTimeout'
+---
 # Stomp::getReadTimeout
 
 # stompgetreadtimeout

@@ -1,16 +1,11 @@
-Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
-
--   [« bzerrno](function.bzerrno.md)
-    
--   [bzerrstr »](function.bzerrstr.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
-    
-
+---
+navigation:
+  - function.bzerrno.md: « bzerrno
+  - function.bzerrstr.md: bzerrstr »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzerror
+---
 # bzerror
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

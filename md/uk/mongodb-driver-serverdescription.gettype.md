@@ -1,16 +1,11 @@
-Повертає рядок, який позначає тип сервера
-
--   [« MongoDBDriverServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.html)
-    
--   [MongoDBDriverTopologyDescription »](class.mongodb-driver-topologydescription.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.html)
-    
--   Повертає рядок, який позначає тип сервера
-    
-
+---
+navigation:
+  - mongodb-driver-serverdescription.getroundtriptime.html: '« MongoDBDriverServerDescription::getRoundTripTime'
+  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription »
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+title: 'MongoDBDriverServerDescription::getType'
+---
 # MongoDBDriverServerDescription::getType
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Повертає список баз даних, доступних на сервері
-
--   [« mysqlinsertід](function.mysql-insert-id.html)
-    
--   [mysqllistfields »](function.mysql-list-fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає список баз даних, доступних на сервері
-    
-
+---
+navigation:
+  - function.mysql-insert-id.html: « mysqlinsertід
+  - function.mysql-list-fields.html: mysqllistfields »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqllistdbs
+---
 # mysqllistdbs
 
 (PHP 4, PHP 5)

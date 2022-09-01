@@ -1,16 +1,11 @@
-Тихоокеанський
-
--   [« Індійська](timezones.indian.md)
-    
--   [Інші »](timezones.others.md)
-    
--   [PHP Manual](index.md)
-    
--   [Список підтримуваних часових поясів](timezones.md)
-    
--   Тихоокеанський
-    
-
+---
+navigation:
+  - timezones.indian.md: « Індійська
+  - timezones.others.md: Інші »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
+title: Тихоокеанський
+---
 ## Тихоокеанський
 
 < td>Pacific/Galapagos

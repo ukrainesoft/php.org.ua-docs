@@ -1,16 +1,11 @@
-Додає примітку до поточної сторінки
-
--   [«psaddlocallink](function.ps-add-locallink.html)
-    
--   [псaddpdflink »](function.ps-add-pdflink.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Додає примітку до поточної сторінки
-    
-
+---
+navigation:
+  - function.ps-add-locallink.html: «psaddlocallink
+  - function.ps-add-pdflink.html: псaddpdflink »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псaddnote
+---
 # псaddnote
 
 (PECL ps >= 1.1.0)

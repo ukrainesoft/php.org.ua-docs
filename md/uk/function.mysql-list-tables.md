@@ -1,16 +1,11 @@
-Повертає список таблиць бази даних MySQL
-
--   [« mysqllistprocesses](function.mysql-list-processes.html)
-    
--   [mysqlnumfields »](function.mysql-num-fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає список таблиць бази даних MySQL
-    
-
+---
+navigation:
+  - function.mysql-list-processes.html: « mysqllistprocesses
+  - function.mysql-num-fields.html: mysqlnumfields »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqllisttables
+---
 # mysqllisttables
 
 (PHP 4, PHP 5)
@@ -51,9 +46,9 @@ mysql_list_tables(string $database, resource $link_identifier = NULL): resource|
 
 ### список змін
 
-| Версия | Описание                      |
-|--------|-------------------------------|
-|        | Функція позначена застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція позначена застарілою. |
 
 ### Приклади
 

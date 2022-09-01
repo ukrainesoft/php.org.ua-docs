@@ -1,16 +1,11 @@
-Повертає поточний час базовий подій
-
--   [« EventBase::getMethod](eventbase.getmethod.md)
-    
--   [EventBase::gotExit »](eventbase.gotexit.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Повертає поточний час базовий подій
-    
-
+---
+navigation:
+  - eventbase.getmethod.md: '« EventBase::getMethod'
+  - eventbase.gotexit.md: 'EventBase::gotExit »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::getTimeOfDayCached'
+---
 # EventBase::getTimeOfDayCached
 
 (PECL event >= 1.2.6-beta)

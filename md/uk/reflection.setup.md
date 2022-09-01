@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.reflection.md)
-    
--   [Вимоги »](reflection.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.reflection.md: « Введение
+  - reflection.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

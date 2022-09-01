@@ -1,16 +1,11 @@
-Перевіряє, чи допустиме значення null для параметра
-
--   [« ReflectionParameter](class.reflectionparameter.md)
-    
--   [ReflectionParameter::canBePassedByValue »](reflectionparameter.canbepassedbyvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Перевіряє, чи допустиме значення null для параметра
-    
-
+---
+navigation:
+  - class.reflectionparameter.md: « ReflectionParameter
+  - reflectionparameter.canbepassedbyvalue.md: 'ReflectionParameter::canBePassedByValue »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::allowsNull'
+---
 # ReflectionParameter::allowsNull
 
 (PHP 5, PHP 7, PHP 8)

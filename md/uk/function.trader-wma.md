@@ -1,16 +1,11 @@
-Зважене ковзне середнє
-
--   [« traderwillr](function.trader-willr.html)
-    
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Зважене ковзне середнє
-    
-
+---
+navigation:
+  - function.trader-willr.html: « traderwillr
+  - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderwma
+---
 # traderwma
 
 (PECL trader >= 0.2.0)

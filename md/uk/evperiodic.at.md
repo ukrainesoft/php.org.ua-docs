@@ -1,16 +1,11 @@
-Повертає абсолютний час, коли спостерігач запуститься наступного разу
-
--   [« EvPeriodic::again](evperiodic.again.html)
-    
--   [EvPeriodic::construct »](evperiodic.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvPeriodic](class.evperiodic.html)
-    
--   Повертає абсолютний час, коли спостерігач запуститься наступного разу
-    
-
+---
+navigation:
+  - evperiodic.again.html: '« EvPeriodic::again'
+  - evperiodic.construct.html: 'EvPeriodic::construct »'
+  - index.html: PHP Manual
+  - class.evperiodic.html: EvPeriodic
+title: 'EvPeriodic::at'
+---
 # EvPeriodic::at
 
 (PECL ev >= 0.2.0)

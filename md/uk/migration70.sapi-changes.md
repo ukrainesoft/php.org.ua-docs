@@ -1,16 +1,11 @@
-Зміни у модулях SAPI
-
--   [« Нові глобальні константи](migration70.constants.md)
-    
--   [Віддалені модулі та SAPI »](migration70.removed-exts-sapis.html)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.md)
-    
--   Зміни у модулях SAPI
-    
-
+---
+navigation:
+  - migration70.constants.md: « Нові глобальні константи
+  - migration70.removed-exts-sapis.html: Віддалені модулі та SAPI »
+  - index.md: PHP Manual
+  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+title: Зміни у модулях SAPI
+---
 ## Зміни у модулях SAPI
 
 ### [FPM](book.fpm.md)

@@ -1,16 +1,11 @@
-Отримати заголовок
-
--   [« UIControlsGroup::construct](ui-controls-group.construct.html)
-    
--   [ОЙControlsGroup::hasMargin »](ui-controls-group.hasmargin.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsGroup](class.ui-controls-group.html)
-    
--   Отримати заголовок
-    
-
+---
+navigation:
+  - ui-controls-group.construct.html: '« UIControlsGroup::construct'
+  - ui-controls-group.hasmargin.html: 'ОЙControlsGroup::hasMargin »'
+  - index.html: PHP Manual
+  - class.ui-controls-group.html: ОЙControlsGroup
+title: 'ОЙControlsGroup::getTitle'
+---
 # ОЙControlsGroup::getTitle
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Повертає відповідь від сервера
-
--   [« SolrPingResponse::destruct](solrpingresponse.destruct.html)
-    
--   [SolrGenericResponse »](class.solrgenericresponse.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrPingResponse](class.solrpingresponse.html)
-    
--   Повертає відповідь від сервера
-    
-
+---
+navigation:
+  - solrpingresponse.destruct.html: '« SolrPingResponse::destruct'
+  - class.solrgenericresponse.html: SolrGenericResponse »
+  - index.html: PHP Manual
+  - class.solrpingresponse.html: SolrPingResponse
+title: 'SolrPingResponse::getResponse'
+---
 # SolrPingResponse::getResponse
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-MQSeries MQCONNX
-
--   [« mqseriesconn](function.mqseries-conn.html)
-    
--   [mqseriesdisc »](function.mqseries-disc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции mqseries](ref.mqseries.html)
-    
--   MQSeries MQCONNX
-    
-
+---
+navigation:
+  - function.mqseries-conn.html: « mqseriesconn
+  - function.mqseries-disc.html: mqseriesdisc »
+  - index.html: PHP Manual
+  - ref.mqseries.html: Функции mqseries
+title: mqseriesconnx
+---
 # mqseriesconnx
 
 (PECL mqseries >= 0.10.0)

@@ -1,16 +1,11 @@
-Створює складне зображення
-
--   [« Imagick::modulateImage](imagick.modulateimage.html)
-    
--   [Imagick::morphImages »](imagick.morphimages.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Створює складне зображення
-    
-
+---
+navigation:
+  - imagick.modulateimage.html: '« Imagick::modulateImage'
+  - imagick.morphimages.html: 'Imagick::morphImages »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::montageImage'
+---
 # Imagick::montageImage
 
 (PECL imagick 2, PECL imagick 3)

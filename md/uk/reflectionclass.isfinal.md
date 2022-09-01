@@ -1,16 +1,11 @@
-Перевіряє, чи клас остаточним (final)
-
--   [« ReflectionClass::isEnum](reflectionclass.isenum.md)
-    
--   [ReflectionClass::isInstance »](reflectionclass.isinstance.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Перевіряє, чи клас остаточним (final)
-    
-
+---
+navigation:
+  - reflectionclass.isenum.md: '« ReflectionClass::isEnum'
+  - reflectionclass.isinstance.md: 'ReflectionClass::isInstance »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::isFinal'
+---
 # ReflectionClass::isFinal
 
 (PHP 5, PHP 7, PHP 8)

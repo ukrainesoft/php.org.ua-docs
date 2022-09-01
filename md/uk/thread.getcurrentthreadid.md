@@ -1,16 +1,11 @@
-Ідентифікація
-
--   [« Thread::getCurrentThread](thread.getcurrentthread.md)
-    
--   [Thread::getThreadId »](thread.getthreadid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Thread](class.thread.md)
-    
--   Ідентифікація
-    
-
+---
+navigation:
+  - thread.getcurrentthread.md: '« Thread::getCurrentThread'
+  - thread.getthreadid.md: 'Thread::getThreadId »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
+title: 'Thread::getCurrentThreadId'
+---
 # Thread::getCurrentThreadId
 
 (PECL pthreads >= 2.0.0)

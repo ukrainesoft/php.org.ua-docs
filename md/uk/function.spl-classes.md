@@ -1,16 +1,11 @@
-Повертає доступні класи SPL
-
--   [« splautoload](function.spl-autoload.html)
-    
--   [splobjecthash »](function.spl-object-hash.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SPL](ref.spl.md)
-    
--   Повертає доступні класи SPL
-    
-
+---
+navigation:
+  - function.spl-autoload.html: « splautoload
+  - function.spl-object-hash.html: splobjecthash »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
+title: splclasses
+---
 # splclasses
 
 (PHP 5, PHP 7, PHP 8)

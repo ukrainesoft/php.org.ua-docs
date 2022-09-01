@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Встановлення та налаштування](hrtime.setup.md)
-    
--   [Приклади »](hrtime.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](hrtime.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - hrtime.setup.md: « Встановлення та налаштування
+  - hrtime.examples.md: Приклади »
+  - index.md: PHP Manual
+  - hrtime.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

@@ -1,16 +1,11 @@
-Створити новий об'єкт макету тексту
-
--   [« UIDrawTextLayout](class.ui-draw-text-layout.html)
-    
--   [ОЙDrawTextLayout::setColor »](ui-draw-text-layout.setcolor.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawTextLayout](class.ui-draw-text-layout.html)
-    
--   Створити новий об'єкт макету тексту
-    
-
+---
+navigation:
+  - class.ui-draw-text-layout.html: « UIDrawTextLayout
+  - ui-draw-text-layout.setcolor.html: 'ОЙDrawTextLayout::setColor »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-layout.html: ОЙDrawTextLayout
+title: 'ОЙDrawTextLayout::construct'
+---
 # ОЙDrawTextLayout::construct
 
 (UI 0.9.9)

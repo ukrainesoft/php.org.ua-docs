@@ -1,16 +1,11 @@
-Визначення стану
-
--   [« Threaded::isRunning](thread.isrunning.md)
-    
--   [Threaded::merge »](threaded.merge.md)
-    
--   [PHP Manual](index.md)
-    
--   [Threaded](class.threaded.md)
-    
--   Визначення стану
-    
-
+---
+navigation:
+  - thread.isrunning.md: '« Threaded::isRunning'
+  - threaded.merge.md: 'Threaded::merge »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::isTerminated'
+---
 # Threaded::isTerminated
 
 (PECL pthreads >= 2.0.0)

@@ -1,16 +1,11 @@
-Повертає довжину файлу з цієї файлової системи
-
--   [« svnфсfilecontents](function.svn-fs-file-contents.html)
-    
--   [svnфсісdir »](function.svn-fs-is-dir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає довжину файлу з цієї файлової системи
-    
-
+---
+navigation:
+  - function.svn-fs-file-contents.html: « svnфсfilecontents
+  - function.svn-fs-is-dir.html: svnфсісdir »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсfilelength
+---
 # svnфсfilelength
 
 (PECL svn >= 0.1.0)

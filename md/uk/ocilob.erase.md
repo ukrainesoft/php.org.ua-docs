@@ -1,16 +1,11 @@
-Очищає вказану частину об'єкта LOB
-
--   [« OCILob::eof](ocilob.eof.html)
-    
--   [OCILob::export »](ocilob.export.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCILob](class.ocilob.html)
-    
--   Очищає вказану частину об'єкта LOB
-    
-
+---
+navigation:
+  - ocilob.eof.html: '« OCILob::eof'
+  - ocilob.export.html: 'OCILob::export »'
+  - index.html: PHP Manual
+  - class.ocilob.html: OCILob
+title: 'OCILob::erase'
+---
 # OCILob::erase
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -39,9 +34,9 @@ public OCILob::erase(?int $offset = null, ?int $length = null): int|false
 
 ### список змін
 
-| Версия                 | Описание                                                                                                |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | `offset` і `length` тепер допускають значення null.                                                     |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | `offset` і `length` тепер допускають значення null. |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

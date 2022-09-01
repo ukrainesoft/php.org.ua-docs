@@ -1,16 +1,11 @@
-Клас SolrParams
-
--   [« SolrGenericResponse::destruct](solrgenericresponse.destruct.html)
-    
--   [SolrParams::add »](solrparams.add.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Клас SolrParams
-    
-
+---
+navigation:
+  - solrgenericresponse.destruct.html: '« SolrGenericResponse::destruct'
+  - solrparams.add.html: 'SolrParams::add »'
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Клас SolrParams
+---
 # Клас SolrParams
 
 (PECL solr> = 0.9.2)

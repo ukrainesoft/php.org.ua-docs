@@ -1,16 +1,11 @@
-Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
-
--   [« EventConfig::requireFeatures](eventconfig.requirefeatures.md)
-    
--   [EventConfig::setMaxDispatchInterval »](eventconfig.setmaxdispatchinterval.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventConfig](class.eventconfig.md)
-    
--   Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
-    
-
+---
+navigation:
+  - eventconfig.requirefeatures.md: '« EventConfig::requireFeatures'
+  - eventconfig.setmaxdispatchinterval.md: 'EventConfig::setMaxDispatchInterval »'
+  - index.md: PHP Manual
+  - class.eventconfig.md: EventConfig
+title: 'EventConfig::setFlags'
+---
 # EventConfig::setFlags
 
 (PECL event >= 2.0.2-alpha)

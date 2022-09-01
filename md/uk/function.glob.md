@@ -1,16 +1,11 @@
-Знаходить файлові шляхи, що збігаються із шаблоном
-
--   [« fwrite](function.fwrite.md)
-    
--   [ісdir »](function.is-dir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Знаходить файлові шляхи, що збігаються із шаблоном
-    
-
+---
+navigation:
+  - function.fwrite.md: « fwrite
+  - function.is-dir.html: ісdir »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: glob
+---
 # glob
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Перевірка, чи реалізована певна можливість у реалізації DOM
-
--   [« DOMImplementation::createDocumentType](domimplementation.createdocumenttype.html)
-    
--   [DOMNamedNodeMap »](class.domnamednodemap.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMImplementation](class.domimplementation.html)
-    
--   Перевірка, чи реалізована певна можливість у реалізації DOM
-    
-
+---
+navigation:
+  - domimplementation.createdocumenttype.html: '« DOMImplementation::createDocumentType'
+  - class.domnamednodemap.html: DOMNamedNodeMap »
+  - index.html: PHP Manual
+  - class.domimplementation.html: DOMImplementation
+title: 'DOMImplementation::hasFeature'
+---
 # DOMImplementation::hasFeature
 
 (PHP 5, PHP 7, PHP 8)

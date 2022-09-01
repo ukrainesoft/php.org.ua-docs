@@ -1,16 +1,11 @@
-Повертає інформацію про помилку
-
--   [« gnupggeterror](function.gnupg-geterror.html)
-    
--   [gnupggetprotocol »](function.gnupg-getprotocol.html)
-    
--   [PHP Manual](index.html)
-    
--   [GnuPG Функції](ref.gnupg.html)
-    
--   Повертає інформацію про помилку
-    
-
+---
+navigation:
+  - function.gnupg-geterror.html: « gnupggeterror
+  - function.gnupg-getprotocol.html: gnupggetprotocol »
+  - index.html: PHP Manual
+  - ref.gnupg.html: GnuPG Функції
+title: gnupggeterrorinfo
+---
 # gnupggeterrorinfo
 
 (PECL gnupg >= 1.5)

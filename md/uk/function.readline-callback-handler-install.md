@@ -1,16 +1,11 @@
-Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
-
--   [« readlineaddhistory](function.readline-add-history.html)
-    
--   [readlinecallbackhandlerremove »](function.readline-callback-handler-remove.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Readline](ref.readline.html)
-    
--   Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
-    
-
+---
+navigation:
+  - function.readline-add-history.html: « readlineaddhistory
+  - function.readline-callback-handler-remove.html: readlinecallbackhandlerremove »
+  - index.html: PHP Manual
+  - ref.readline.html: Функции Readline
+title: readlinecallbackhandlerinstall
+---
 # readlinecallbackhandlerinstall
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

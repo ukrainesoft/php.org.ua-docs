@@ -1,16 +1,11 @@
-Повертає ширину рядка
-
--   [« mbstrtoupper](function.mb-strtoupper.html)
-    
--   [мбsubstitutecharacter »](function.mb-substitute-character.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Повертає ширину рядка
-    
-
+---
+navigation:
+  - function.mb-strtoupper.html: « mbstrtoupper
+  - function.mb-substitute-character.html: мбsubstitutecharacter »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrwidth
+---
 # мбstrwidth
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ mb_strwidth(string $string, ?string $encoding = null): int
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

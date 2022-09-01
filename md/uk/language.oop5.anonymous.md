@@ -1,16 +1,11 @@
-Анонімні класи
-
--   [« Трейти](language.oop5.traits.md)
-    
--   [Перегрузка »](language.oop5.overloading.md)
-    
--   [PHP Manual](index.md)
-    
--   [Класи та об'єкти](language.oop5.md)
-    
--   Анонімні класи
-    
-
+---
+navigation:
+  - language.oop5.traits.md: « Трейти
+  - language.oop5.overloading.md: Перегрузка »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Анонімні класи
+---
 ## Анонімні класи
 
 Анонімні класи корисні, коли потрібно створити прості одноразові об'єкти.

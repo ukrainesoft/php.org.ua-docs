@@ -1,16 +1,11 @@
-Отримує вузол, що знаходиться наприкінці двозв'язкового списку
-
--   [« SplDoublyLinkedList::shift](spldoublylinkedlist.shift.html)
-    
--   [SplDoublyLinkedList::unserialize »](spldoublylinkedlist.unserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Отримує вузол, що знаходиться наприкінці двозв'язкового списку
-    
-
+---
+navigation:
+  - spldoublylinkedlist.shift.html: '« SplDoublyLinkedList::shift'
+  - spldoublylinkedlist.unserialize.html: 'SplDoublyLinkedList::unserialize »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::top'
+---
 # SplDoublyLinkedList::top
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає строкове значення змінної
-
--   [« settype](function.settype.md)
-    
--   [unserialize »](function.unserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Повертає строкове значення змінної
-    
-
+---
+navigation:
+  - function.settype.md: « settype
+  - function.unserialize.md: unserialize »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: strval
+---
 # strval
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

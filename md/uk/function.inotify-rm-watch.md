@@ -1,16 +1,11 @@
-Видалити спостерігача
-
--   [« inotifyread](function.inotify-read.html)
-    
--   [xattr »](book.xattr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Inotify](ref.inotify.html)
-    
--   Видалити спостерігача
-    
-
+---
+navigation:
+  - function.inotify-read.html: « inotifyread
+  - book.xattr.html: xattr »
+  - index.html: PHP Manual
+  - ref.inotify.html: Функции Inotify
+title: inotifyрмwatch
+---
 # inotifyрмwatch
 
 (PECL inotify >= 0.1.2)

@@ -1,16 +1,11 @@
-Підключення до інтерфейсу адміністрування екземпляра varnish
-
--   [« VarnishAdmin::clearPanic](varnishadmin.clearpanic.md)
-    
--   [VarnishAdmin::construct »](varnishadmin.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [VarnishAdmin](class.varnishadmin.md)
-    
--   Підключення до інтерфейсу адміністрування екземпляра varnish
-    
-
+---
+navigation:
+  - varnishadmin.clearpanic.md: '« VarnishAdmin::clearPanic'
+  - varnishadmin.construct.md: 'VarnishAdmin::construct »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
+title: 'VarnishAdmin::connect'
+---
 # VarnishAdmin::connect
 
 (PECL varnish >= 0.3)

@@ -1,16 +1,11 @@
-Додає поле до документа
-
--   [« SolrDocument::offsetGet](solrdocument.offsetget.md)
-    
--   [SolrDocument::offsetUnset »](solrdocument.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Додає поле до документа
-    
-
+---
+navigation:
+  - solrdocument.offsetget.md: '« SolrDocument::offsetGet'
+  - solrdocument.offsetunset.md: 'SolrDocument::offsetUnset »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::offsetSet'
+---
 # SolrDocument::offsetSet
 
 (PECL solr> = 0.9.2)

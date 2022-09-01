@@ -1,16 +1,11 @@
-Повертає гістограму зображення
-
--   [« Gmagick::getimageheight](gmagick.getimageheight.md)
-    
--   [Gmagick::getimageindex »](gmagick.getimageindex.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Повертає гістограму зображення
-    
-
+---
+navigation:
+  - gmagick.getimageheight.md: '« Gmagick::getimageheight'
+  - gmagick.getimageindex.md: 'Gmagick::getimageindex »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::getimagehistogram'
+---
 # Gmagick::getimagehistogram
 
 (PECL gmagick >= Unknown)

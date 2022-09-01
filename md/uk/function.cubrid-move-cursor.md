@@ -1,16 +1,11 @@
-Переміщує курсор у результаті
-
--   [« cubridlockwrite](function.cubrid-lock-write.html)
-    
--   [cubridnextresult »](function.cubrid-next-result.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Переміщує курсор у результаті
-    
-
+---
+navigation:
+  - function.cubrid-lock-write.html: « cubridlockwrite
+  - function.cubrid-next-result.html: cubridnextresult »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridmovecursor
+---
 # cubridmovecursor
 
 (PECL CUBRID >= 8.3.0)

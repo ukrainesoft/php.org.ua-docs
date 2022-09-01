@@ -1,16 +1,11 @@
-Осцилятор Чайкіна
-
--   [« traderadd](function.trader-add.html)
-    
--   [traderadx »](function.trader-adx.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Осцилятор Чайкіна
-    
-
+---
+navigation:
+  - function.trader-add.html: « traderadd
+  - function.trader-adx.html: traderadx »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderadosc
+---
 # traderadosc
 
 (PECL trader >= 0.2.0)

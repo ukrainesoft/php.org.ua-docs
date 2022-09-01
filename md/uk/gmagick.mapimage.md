@@ -1,16 +1,11 @@
-Замінює кольори зображення на найближчий колір із еталонного зображення
-
--   [« Gmagick::magnifyimage](gmagick.magnifyimage.html)
-    
--   [Gmagick::medianfilterimage »](gmagick.medianfilterimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Замінює кольори зображення на найближчий колір із еталонного зображення
-    
-
+---
+navigation:
+  - gmagick.magnifyimage.html: '« Gmagick::magnifyimage'
+  - gmagick.medianfilterimage.html: 'Gmagick::medianfilterimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::mapimage'
+---
 # Gmagick::mapimage
 
 (PECL gmagick >= Unknown)

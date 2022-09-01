@@ -1,16 +1,11 @@
-Клас OAuthProvider
-
--   [« OAuth::setVersion](oauth.setversion.md)
-    
--   [OAuthProvider::addRequiredParameter »](oauthprovider.addrequiredparameter.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](book.oauth.md)
-    
--   Клас OAuthProvider
-    
-
+---
+navigation:
+  - oauth.setversion.md: '« OAuth::setVersion'
+  - oauthprovider.addrequiredparameter.md: 'OAuthProvider::addRequiredParameter »'
+  - index.md: PHP Manual
+  - book.oauth.md: OAuth
+title: Клас OAuthProvider
+---
 # Клас OAuthProvider
 
 (PECL OAuth >= 1.0.0)

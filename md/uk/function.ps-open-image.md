@@ -1,16 +1,11 @@
-Зчитує зображення для подальшого розміщення
-
--   [«psopenimagefile](function.ps-open-image-file.html)
-    
--   [псopenmemoryimage »](function.ps-open-memory-image.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Зчитує зображення для подальшого розміщення
-    
-
+---
+navigation:
+  - function.ps-open-image-file.html: «psopenimagefile
+  - function.ps-open-memory-image.html: псopenmemoryimage »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псopenimage
+---
 # псopenimage
 
 (PECL ps >= 1.1.0)

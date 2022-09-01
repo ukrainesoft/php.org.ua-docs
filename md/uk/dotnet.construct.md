@@ -1,16 +1,11 @@
-Конструктор класу dotnet
-
--   [« dotnet](class.dotnet.html)
-    
--   [variant »](class.variant.html)
-    
--   [PHP Manual](index.html)
-    
--   [dotnet](class.dotnet.html)
-    
--   Конструктор класу dotnet
-    
-
+---
+navigation:
+  - class.dotnet.html: « dotnet
+  - class.variant.html: variant »
+  - index.html: PHP Manual
+  - class.dotnet.html: dotnet
+title: 'dotnet::construct'
+---
 # dotnet::construct
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

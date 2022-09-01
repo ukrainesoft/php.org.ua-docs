@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.luasandbox.md)
-    
--   [Вимоги »](luasandbox.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [LuaSandbox](book.luasandbox.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.luasandbox.md: « Введение
+  - luasandbox.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

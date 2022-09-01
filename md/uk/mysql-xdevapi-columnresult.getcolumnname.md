@@ -1,16 +1,11 @@
-Отримує назву стовпця
-
--   [« ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.html)
-    
--   [ColumnResult::getFractionalDigits »](mysql-xdevapi-columnresult.getfractionaldigits.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiColumnResult](class.mysql-xdevapi-columnresult.html)
-    
--   Отримує назву стовпця
-    
-
+---
+navigation:
+  - mysql-xdevapi-columnresult.getcolumnlabel.html: '« ColumnResult::getColumnLabel'
+  - mysql-xdevapi-columnresult.getfractionaldigits.html: 'ColumnResult::getFractionalDigits »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+title: 'ColumnResult::getColumnName'
+---
 # ColumnResult::getColumnName
 
 (No version information available, might only be in Git)

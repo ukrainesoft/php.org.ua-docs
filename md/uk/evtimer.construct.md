@@ -1,16 +1,11 @@
-Конструктор об'єкта спостерігача EvTimer
-
--   [« EvTimer::again](evtimer.again.html)
-    
--   [EvTimer::createStopped »](evtimer.createstopped.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvTimer](class.evtimer.html)
-    
--   Конструктор об'єкта спостерігача EvTimer
-    
-
+---
+navigation:
+  - evtimer.again.html: '« EvTimer::again'
+  - evtimer.createstopped.html: 'EvTimer::createStopped »'
+  - index.html: PHP Manual
+  - class.evtimer.html: EvTimer
+title: 'EvTimer::construct'
+---
 # EvTimer::construct
 
 (PECL ev >= 0.2.0)

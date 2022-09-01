@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ui.html)
-    
--   [Вимоги »](ui.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ui.html: « Введение
+  - ui.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

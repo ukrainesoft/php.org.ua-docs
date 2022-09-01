@@ -1,16 +1,11 @@
-Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
-
--   [« DirectoryIterator::isDir](directoryiterator.isdir.md)
-    
--   [DirectoryIterator::isExecutable »](directoryiterator.isexecutable.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
-    
-
+---
+navigation:
+  - directoryiterator.isdir.md: '« DirectoryIterator::isDir'
+  - directoryiterator.isexecutable.md: 'DirectoryIterator::isExecutable »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::isDot'
+---
 # DirectoryIterator::isDot
 
 (PHP 5, PHP 7, PHP 8)

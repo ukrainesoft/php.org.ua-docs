@@ -1,16 +1,11 @@
-Завершити процес Apache після закінчення поточного запиту
-
--   [« Функции Apache](ref.apache.html)
-    
--   [apachegetmodules »](function.apache-get-modules.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Apache](ref.apache.html)
-    
--   Завершити процес Apache після закінчення поточного запиту
-    
-
+---
+navigation:
+  - ref.apache.html: « Функции Apache
+  - function.apache-get-modules.html: apachegetmodules »
+  - index.html: PHP Manual
+  - ref.apache.html: Функции Apache
+title: apachechildterminate
+---
 # apachechildterminate
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-VarnishAdmin constructor
-
--   [« VarnishAdmin::connect](varnishadmin.connect.html)
-    
--   [VarnishAdmin::disconnect »](varnishadmin.disconnect.html)
-    
--   [PHP Manual](index.html)
-    
--   [VarnishAdmin](class.varnishadmin.html)
-    
--   VarnishAdmin constructor
-    
-
+---
+navigation:
+  - varnishadmin.connect.html: '« VarnishAdmin::connect'
+  - varnishadmin.disconnect.html: 'VarnishAdmin::disconnect »'
+  - index.html: PHP Manual
+  - class.varnishadmin.html: VarnishAdmin
+title: 'VarnishAdmin::construct'
+---
 # VarnishAdmin::construct
 
 (PECL varnish >= 0.3)

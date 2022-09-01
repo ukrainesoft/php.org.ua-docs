@@ -1,16 +1,11 @@
-Перетворення символу Unicode у верхній регістр
-
--   [« IntlChar::totitle](intlchar.totitle.md)
-    
--   [IntlException »](class.intlexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перетворення символу Unicode у верхній регістр
-    
-
+---
+navigation:
+  - intlchar.totitle.md: '« IntlChar::totitle'
+  - class.intlexception.md: IntlException »
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::toupper'
+---
 # IntlChar::toupper
 
 (PHP 7, PHP 8)

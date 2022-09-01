@@ -1,16 +1,11 @@
-Повертає вихідний код без коментарів та пробілів
-
--   [« pack](function.pack.html)
-    
--   [sapiwindowsспconv »](function.sapi-windows-cp-conv.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні функції](ref.misc.html)
-    
--   Повертає вихідний код без коментарів та пробілів
-    
-
+---
+navigation:
+  - function.pack.html: « pack
+  - function.sapi-windows-cp-conv.html: sapiwindowsспconv »
+  - index.html: PHP Manual
+  - ref.misc.html: Різні функції
+title: phpstripwhitespace
+---
 # phpstripwhitespace
 
 (PHP 5, PHP 7, PHP 8)

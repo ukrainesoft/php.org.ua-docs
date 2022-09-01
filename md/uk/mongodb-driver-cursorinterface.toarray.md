@@ -1,16 +1,11 @@
-Повернути всі результати для даного курсору у вигляді масиву
-
--   [« MongoDBDriverCursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.html)
-    
--   [MongoDBDriverServer »](class.mongodb-driver-server.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.html)
-    
--   Повернути всі результати для даного курсору у вигляді масиву
-    
-
+---
+navigation:
+  - mongodb-driver-cursorinterface.settypemap.html: '« MongoDBDriverCursorInterface::setTypeMap'
+  - class.mongodb-driver-server.html: MongoDBDriverServer »
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+title: 'MongoDBDriverCursorInterface::toArray'
+---
 # MongoDBDriverCursorInterface::toArray
 
 (mongodb >=1.6.0)

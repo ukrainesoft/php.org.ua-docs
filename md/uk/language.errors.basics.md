@@ -1,16 +1,11 @@
-Основи
-
--   [« Ошибки](language.errors.html)
-    
--   [Помилки у PHP 7 »](language.errors.php7.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ошибки](language.errors.html)
-    
--   Основи
-    
-
+---
+navigation:
+  - language.errors.html: « Ошибки
+  - language.errors.php7.html: Помилки у PHP 7 »
+  - index.html: PHP Manual
+  - language.errors.html: Ошибки
+title: Основи
+---
 ## Основи
 
 PHP повідомляє про помилки у відповідь на деякі внутрішні помилкові обставини. Вони можуть бути використані для сповіщення про різні стани, а також можуть виводитися на екран і записуватися в логі за бажанням.

@@ -1,16 +1,11 @@
-Повторення
-
--   [« Подмаски](regexp.reference.subpatterns.html)
-    
--   [Зворотні посилання »](regexp.reference.back-references.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.html)
-    
--   Повторення
-    
-
+---
+navigation:
+  - regexp.reference.subpatterns.html: « Подмаски
+  - regexp.reference.back-references.html: Зворотні посилання »
+  - index.html: PHP Manual
+  - reference.pcre.pattern.syntax.html: Опис синтаксису Perl-сумісних регулярних виразів
+title: Повторення
+---
 ## Повторення
 
 Повторення задається за допомогою квантифікаторів, наступних за будь-яким із наведених нижче елементів:

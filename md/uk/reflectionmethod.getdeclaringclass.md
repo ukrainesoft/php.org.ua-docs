@@ -1,16 +1,11 @@
-Отримує клас, що оголошує відбитий метод
-
--   [« ReflectionMethod::getClosure](reflectionmethod.getclosure.md)
-    
--   [ReflectionMethod::getModifiers »](reflectionmethod.getmodifiers.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Отримує клас, що оголошує відбитий метод
-    
-
+---
+navigation:
+  - reflectionmethod.getclosure.md: '« ReflectionMethod::getClosure'
+  - reflectionmethod.getmodifiers.md: 'ReflectionMethod::getModifiers »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::getDeclaringClass'
+---
 # ReflectionMethod::getDeclaringClass
 
 (PHP 5, PHP 7, PHP 8)

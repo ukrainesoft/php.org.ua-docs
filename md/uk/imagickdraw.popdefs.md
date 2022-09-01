@@ -1,16 +1,11 @@
-Завершує список визначень
-
--   [« ImagickDraw::popClipPath](imagickdraw.popclippath.html)
-    
--   [ImagickDraw::popPattern »](imagickdraw.poppattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Завершує список визначень
-    
-
+---
+navigation:
+  - imagickdraw.popclippath.html: '« ImagickDraw::popClipPath'
+  - imagickdraw.poppattern.html: 'ImagickDraw::popPattern »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::popDefs'
+---
 # ImagickDraw::popDefs
 
 (PECL imagick 2, PECL imagick 3)

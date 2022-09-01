@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.yaml.html)
-    
--   [Вимоги »](yaml.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Yaml](book.yaml.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.yaml.html: « Введение
+  - yaml.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.yaml.html: Yaml
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

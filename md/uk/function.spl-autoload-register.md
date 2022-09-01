@@ -1,16 +1,11 @@
-Реєструє задану функцію як реалізацію методу autoload()
-
--   [« splautoloadfunctions](function.spl-autoload-functions.html)
-    
--   [splautoloadunregister »](function.spl-autoload-unregister.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Реєструє задану функцію як реалізацію методу autoload()
-    
-
+---
+navigation:
+  - function.spl-autoload-functions.html: « splautoloadfunctions
+  - function.spl-autoload-unregister.html: splautoloadunregister »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: splautoloadregister
+---
 # splautoloadregister
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ callback(string $class_name): void
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `callback` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `callback` тепер допускає значення null. |
 
 ### Приклади
 

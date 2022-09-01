@@ -1,16 +1,11 @@
-Повертає копію колекції
-
--   [« DsCollection::clear](ds-collection.clear.html)
-    
--   [ДсCollection::isEmpty »](ds-collection.isempty.html)
-    
--   [PHP Manual](index.html)
-    
--   [Коллекция](class.ds-collection.html)
-    
--   Повертає копію колекції
-    
-
+---
+navigation:
+  - ds-collection.clear.html: '« DsCollection::clear'
+  - ds-collection.isempty.html: 'ДсCollection::isEmpty »'
+  - index.html: PHP Manual
+  - class.ds-collection.html: Коллекция
+title: 'ДсCollection::copy'
+---
 # ДсCollection::copy
 
 (PECL ds >= 1.0.0)

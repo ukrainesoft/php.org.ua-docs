@@ -1,16 +1,11 @@
-Перекодує рядок відповідно до заданих параметрів
-
--   [« recodefile](function.recode-file.html)
-    
--   [recode »](function.recode.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Recode](ref.recode.html)
-    
--   Перекодує рядок відповідно до заданих параметрів
-    
-
+---
+navigation:
+  - function.recode-file.html: « recodefile
+  - function.recode.html: recode »
+  - index.html: PHP Manual
+  - ref.recode.html: Функции Recode
+title: recodestring
+---
 # recodestring
 
 (PHP 4, PHP 5, PHP 7 < 7.4.0)

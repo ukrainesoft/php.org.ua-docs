@@ -1,16 +1,11 @@
-Клас EvIdle
-
--   [« EvFork::createStopped](evfork.createstopped.md)
-    
--   [EvIdle::construct »](evidle.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Клас EvIdle
-    
-
+---
+navigation:
+  - evfork.createstopped.md: '« EvFork::createStopped'
+  - evidle.construct.md: 'EvIdle::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Клас EvIdle
+---
 # Клас EvIdle
 
 (PECL ev >= 0.2.0)

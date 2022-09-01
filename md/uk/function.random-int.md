@@ -1,16 +1,11 @@
-Генерує криптографічно безпечні псевдовипадкові цілі числа
-
--   [« randombytes](function.random-bytes.html)
-    
--   [Hash »](book.hash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CSPRNG](ref.csprng.html)
-    
--   Генерує криптографічно безпечні псевдовипадкові цілі числа
-    
-
+---
+navigation:
+  - function.random-bytes.html: « randombytes
+  - book.hash.html: Hash »
+  - index.html: PHP Manual
+  - ref.csprng.html: Функции CSPRNG
+title: randomint
+---
 # randomint
 
 (PHP 7, PHP 8)

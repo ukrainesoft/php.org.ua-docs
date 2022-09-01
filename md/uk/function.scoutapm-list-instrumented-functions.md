@@ -1,16 +1,11 @@
-Список функцій, які scoutapm буде використовувати
-
--   [« scoutapmgetcalls](function.scoutapm-get-calls.html)
-    
--   [SNMP »](book.snmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Scoutapm](ref.scoutapm.md)
-    
--   Список функцій, які scoutapm буде використовувати
-    
-
+---
+navigation:
+  - function.scoutapm-get-calls.html: « scoutapmgetcalls
+  - book.snmp.md: SNMP »
+  - index.md: PHP Manual
+  - ref.scoutapm.md: Функции Scoutapm
+title: scoutapmlistinstrumentedфункцій
+---
 # scoutapmlistinstrumentedфункцій
 
 (PECL scoutapm >= 1.0.2)

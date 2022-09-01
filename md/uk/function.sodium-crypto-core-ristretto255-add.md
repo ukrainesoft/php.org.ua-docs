@@ -1,16 +1,11 @@
-Додає елемент
-
--   [« sodiumcryptobox](function.sodium-crypto-box.html)
-    
--   [sodiumcryptocoreristretto255fromhash »](function.sodium-crypto-core-ristretto255-from-hash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Додає елемент
-    
-
+---
+navigation:
+  - function.sodium-crypto-box.html: « sodiumcryptobox
+  - function.sodium-crypto-core-ristretto255-from-hash.html: sodiumcryptocoreristretto255fromhash »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptocoreristretto255add
+---
 # sodiumcryptocoreristretto255add
 
 (PHP 8> = 8.1.0)

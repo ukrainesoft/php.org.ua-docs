@@ -1,16 +1,11 @@
-Знімає ексклюзивне блокування цього ключа
-
--   [« wincacheucacheset](function.wincache-ucache-set.html)
-    
--   [Сборка для Windows »](wincache.win32build.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Знімає ексклюзивне блокування цього ключа
-    
-
+---
+navigation:
+  - function.wincache-ucache-set.html: « wincacheucacheset
+  - wincache.win32build.html: Сборка для Windows »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincacheunlock
+---
 # wincacheunlock
 
 (PECL wincache >= 1.1.0)

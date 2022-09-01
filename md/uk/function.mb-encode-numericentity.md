@@ -1,16 +1,11 @@
-Кодує символ у числове HTML-посилання
-
--   [« mbencodemimeheader](function.mb-encode-mimeheader.html)
-    
--   [мбencodingaliases »](function.mb-encoding-aliases.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Кодує символ у числове HTML-посилання
-    
-
+---
+navigation:
+  - function.mb-encode-mimeheader.html: « mbencodemimeheader
+  - function.mb-encoding-aliases.html: мбencodingaliases »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбencodenumericentity
+---
 # мбencodenumericentity
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ mb_encode_numericentity(    string $string,    array $map,    ?strin
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 

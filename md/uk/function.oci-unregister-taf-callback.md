@@ -1,16 +1,11 @@
-Видалити реєстрацію користувача callback-функції для Oracle Database TAF
-
--   [« ocistatementtype](function.oci-statement-type.html)
-    
--   [OCICollection »](class.ocicollection.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Видалити реєстрацію користувача callback-функції для Oracle Database TAF
-    
-
+---
+navigation:
+  - function.oci-statement-type.html: « ocistatementtype
+  - class.ocicollection.md: OCICollection »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociunregistertafcallback
+---
 # ociunregistertafcallback
 
 (PHP 7.0 >= 7.0.23, PHP 8, PHP 7 >= 7.1.9, PHP 8, PECL OCI8 >= 2.1.7)

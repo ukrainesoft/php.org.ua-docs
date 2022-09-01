@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](ev.requirements.md)
-    
--   [Налаштування під час виконання »](ev.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](ev.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - ev.requirements.md: « Вимоги
+  - ev.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - ev.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

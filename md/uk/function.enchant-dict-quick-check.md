@@ -1,16 +1,11 @@
-Перевірити, чи правильно написано слово та запропонувати варіанти заміни
-
--   [« enchantdictісінsession](function.enchant-dict-is-in-session.html)
-    
--   [enchantdictstorereplacement »](function.enchant-dict-store-replacement.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Перевірити, чи правильно написано слово та запропонувати варіанти заміни
-    
-
+---
+navigation:
+  - function.enchant-dict-is-in-session.html: « enchantdictісінsession
+  - function.enchant-dict-store-replacement.html: enchantdictstorereplacement »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictquickcheck
+---
 # enchantdictquickcheck
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant:0.2.0-1.0.1)
@@ -45,9 +40,9 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

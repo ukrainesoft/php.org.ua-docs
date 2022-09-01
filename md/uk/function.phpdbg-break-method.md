@@ -1,16 +1,11 @@
-Додати точку переривання на виклик методу класу
-
--   [« phpdbgbreakfunction](function.phpdbg-break-function.html)
-    
--   [phpdbgbreaknext »](function.phpdbg-break-next.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Додати точку переривання на виклик методу класу
-    
-
+---
+navigation:
+  - function.phpdbg-break-function.html: « phpdbgbreakfunction
+  - function.phpdbg-break-next.html: phpdbgbreaknext »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbgbreakметод
+---
 # phpdbgbreakметод
 
 (PHP 5> = 5.6.3, PHP 7, PHP 8)

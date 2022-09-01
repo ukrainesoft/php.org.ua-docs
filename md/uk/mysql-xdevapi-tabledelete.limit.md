@@ -1,16 +1,11 @@
-Обмежує рядки для видалення
-
--   [« TableDelete::execute](mysql-xdevapi-tabledelete.execute.html)
-    
--   [TableDelete::orderby »](mysql-xdevapi-tabledelete.orderby.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiTableDelete](class.mysql-xdevapi-tabledelete.html)
-    
--   Обмежує рядки для видалення
-    
-
+---
+navigation:
+  - mysql-xdevapi-tabledelete.execute.html: '« TableDelete::execute'
+  - mysql-xdevapi-tabledelete.orderby.html: 'TableDelete::orderby »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+title: 'TableDelete::limit'
+---
 # TableDelete::limit
 
 (No version information available, might only be in Git)

@@ -1,16 +1,11 @@
-Встановлює ідентифікатор групи для поточного процесу GID
-
--   [« posixseteuid](function.posix-seteuid.html)
-    
--   [posixsetpgid »](function.posix-setpgid.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Встановлює ідентифікатор групи для поточного процесу GID
-    
-
+---
+navigation:
+  - function.posix-seteuid.html: « posixseteuid
+  - function.posix-setpgid.html: posixsetpgid »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixsetgid
+---
 # posixsetgid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

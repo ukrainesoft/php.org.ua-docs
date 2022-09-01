@@ -1,16 +1,11 @@
-Клас DOMNamedNodeMap
-
--   [« DOMImplementation::hasFeature](domimplementation.hasfeature.md)
-    
--   [DOMNamedNodeMap::count »](domnamednodemap.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOM](book.dom.md)
-    
--   Клас DOMNamedNodeMap
-    
-
+---
+navigation:
+  - domimplementation.hasfeature.md: '« DOMImplementation::hasFeature'
+  - domnamednodemap.count.md: 'DOMNamedNodeMap::count »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
+title: Клас DOMNamedNodeMap
+---
 # Клас DOMNamedNodeMap
 
 (PHP 5, PHP 7, PHP 8)
@@ -56,10 +51,10 @@ length
 
 ## список змін
 
-| Версия | Описание                                                                                                                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були вилучені. |
-|        | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md)            |
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були вилучені. |
+|  | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 

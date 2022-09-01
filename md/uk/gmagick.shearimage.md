@@ -1,16 +1,11 @@
-Створює паралелограм
-
--   [« Gmagick::setsize](gmagick.setsize.md)
-    
--   [Gmagick::solarizeimage »](gmagick.solarizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Створює паралелограм
-    
-
+---
+navigation:
+  - gmagick.setsize.md: '« Gmagick::setsize'
+  - gmagick.solarizeimage.md: 'Gmagick::solarizeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::shearimage'
+---
 # Gmagick::shearimage
 
 (PECL gmagick >= Unknown)

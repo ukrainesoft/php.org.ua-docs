@@ -1,16 +1,11 @@
-Додає дані на початок існуючого запису
-
--   [« Memcached::isPristine](memcached.ispristine.html)
-    
--   [Memcached::prependByKey »](memcached.prependbykey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Додає дані на початок існуючого запису
-    
-
+---
+navigation:
+  - memcached.ispristine.html: '« Memcached::isPristine'
+  - memcached.prependbykey.html: 'Memcached::prependByKey »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::prepend'
+---
 # Memcached::prepend
 
 (PECL memcached >= 0.1.0)

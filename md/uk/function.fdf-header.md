@@ -1,16 +1,11 @@
-Встановлює специфічні для FDF вихідні заголовки
-
--   [« fdfgetversion](function.fdf-get-version.html)
-    
--   [fdfnextfieldname »](function.fdf-next-field-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює специфічні для FDF вихідні заголовки
-    
-
+---
+navigation:
+  - function.fdf-get-version.html: « fdfgetversion
+  - function.fdf-next-field-name.html: fdfnextfieldname »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfheader
+---
 # fdfheader
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVNf)

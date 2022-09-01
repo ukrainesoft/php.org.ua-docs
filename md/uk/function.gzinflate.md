@@ -1,16 +1,11 @@
-Розпакувати стислий рядок
-
--   [« gzgetss](function.gzgetss.html)
-    
--   [gzopen »](function.gzopen.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zlib](ref.zlib.html)
-    
--   Розпакувати стислий рядок
-    
-
+---
+navigation:
+  - function.gzgetss.html: « gzgetss
+  - function.gzopen.html: gzopen »
+  - index.html: PHP Manual
+  - ref.zlib.html: Функции Zlib
+title: gzinflate
+---
 # gzinflate
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

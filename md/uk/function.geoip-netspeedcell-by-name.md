@@ -1,16 +1,11 @@
-Отримати швидкість з'єднання з мережею Інтернет
-
--   [« geoipispбname](function.geoip-isp-by-name.html)
-    
--   [geoiporgбname »](function.geoip-org-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Отримати швидкість з'єднання з мережею Інтернет
-    
-
+---
+navigation:
+  - function.geoip-isp-by-name.html: « geoipispбname
+  - function.geoip-org-by-name.html: geoiporgбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipnetspeedcellбname
+---
 # geoipnetspeedcellбname
 
 (PECL geoip >= 1.1.0)

@@ -1,16 +1,11 @@
-Записує інформацію рівня "debug" у журнал
-
--   [« SeasLog::critical](seaslog.critical.md)
-    
--   [SeasLog::destruct »](seaslog.destruct.md)
-    
--   [PHP Manual](index.md)
-    
--   [SeasLog](class.seaslog.md)
-    
--   Записує інформацію рівня "debug" у журнал
-    
-
+---
+navigation:
+  - seaslog.critical.md: '« SeasLog::critical'
+  - seaslog.destruct.md: 'SeasLog::destruct »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
+title: 'SeasLog::debug'
+---
 # SeasLog::debug
 
 (PECL seaslog >=1.0.0)

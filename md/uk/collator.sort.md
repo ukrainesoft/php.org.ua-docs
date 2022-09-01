@@ -1,16 +1,11 @@
-Сортує масив із використанням зазначеного засобу сортування
-
--   [« Collator::sortWithSortKeys](collator.sortwithsortkeys.html)
-    
--   [NumberFormatter »](class.numberformatter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Collator](class.collator.html)
-    
--   Сортує масив із використанням зазначеного засобу сортування
-    
-
+---
+navigation:
+  - collator.sortwithsortkeys.html: '« Collator::sortWithSortKeys'
+  - class.numberformatter.html: NumberFormatter »
+  - index.html: PHP Manual
+  - class.collator.html: Collator
+title: 'Collator::sort'
+---
 # Collator::sort
 
 # collatorsort

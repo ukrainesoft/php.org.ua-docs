@@ -1,16 +1,11 @@
-Отримати код регіону, який відповідає заданому ідентифікатору системного часового поясу
-
--   [« IntlTimeZone::getRawOffset](intltimezone.getrawoffset.html)
-    
--   [IntlTimeZone::getTZDataVersion »](intltimezone.gettzdataversion.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Отримати код регіону, який відповідає заданому ідентифікатору системного часового поясу
-    
-
+---
+navigation:
+  - intltimezone.getrawoffset.html: '« IntlTimeZone::getRawOffset'
+  - intltimezone.gettzdataversion.html: 'IntlTimeZone::getTZDataVersion »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::getRegion'
+---
 # IntlTimeZone::getRegion
 
 # intltzgetregion

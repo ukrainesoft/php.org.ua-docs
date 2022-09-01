@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](reflection.constants.md)
-    
--   [Расширение »](reflection.extending.md)
-    
--   [PHP Manual](index.md)
-    
--   [Reflection](book.reflection.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - reflection.constants.md: « Обумовлені константи
+  - reflection.extending.md: Расширение »
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
+title: Приклади
+---
 # Приклади
 
 У документації Reflection ви зможете зустріти безліч прикладів, найчастіше в описі конструкторів класів.

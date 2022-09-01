@@ -1,16 +1,11 @@
-Метод перевіряє, чи є ключ частиною набору
-
--   [« QuickHashIntSet::delete](quickhashintset.delete.html)
-    
--   [QuickHashIntSet::getSize »](quickhashintset.getsize.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashIntSet](class.quickhashintset.html)
-    
--   Метод перевіряє, чи є ключ частиною набору
-    
-
+---
+navigation:
+  - quickhashintset.delete.html: '« QuickHashIntSet::delete'
+  - quickhashintset.getsize.html: 'QuickHashIntSet::getSize »'
+  - index.html: PHP Manual
+  - class.quickhashintset.html: QuickHashIntSet
+title: 'QuickHashIntSet::exists'
+---
 # QuickHashIntSet::exists
 
 (PECL quickhash >= Unknown)

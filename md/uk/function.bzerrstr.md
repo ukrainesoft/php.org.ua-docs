@@ -1,16 +1,11 @@
-Повертає рядок помилки роботи з bzip2
-
--   [« bzerror](function.bzerror.html)
-    
--   [bzflush »](function.bzflush.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Bzip2](ref.bzip2.html)
-    
--   Повертає рядок помилки роботи з bzip2
-    
-
+---
+navigation:
+  - function.bzerror.html: « bzerror
+  - function.bzflush.html: bzflush »
+  - index.html: PHP Manual
+  - ref.bzip2.html: Функції Bzip2
+title: bzerrstr
+---
 # bzerrstr
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

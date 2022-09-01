@@ -1,16 +1,11 @@
-Малює шаблон
-
--   [« YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.html)
-    
--   [YafViewInterface::setScriptPath »](yaf-view-interface.setscriptpath.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewInterface](class.yaf-view-interface.html)
-    
--   Малює шаблон
-    
-
+---
+navigation:
+  - yaf-view-interface.getscriptpath.html: '« YafViewInterface::getScriptPath'
+  - yaf-view-interface.setscriptpath.html: 'YafViewInterface::setScriptPath »'
+  - index.md: PHP Manual
+  - class.yaf-view-interface.html: YafViewInterface
+title: 'YafViewInterface::render'
+---
 # YafViewInterface::render
 
 (Yaf >=1.0.0)

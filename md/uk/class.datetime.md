@@ -1,16 +1,11 @@
-Клас DateTime
-
--   [« Арифметика дати/часу](datetime.examples-arithmetic.html)
-    
--   [DateTime::add »](datetime.add.md)
-    
--   [PHP Manual](index.md)
-    
--   [Дата/время](book.datetime.md)
-    
--   Клас DateTime
-    
-
+---
+navigation:
+  - datetime.examples-arithmetic.html: « Арифметика дати/часу
+  - datetime.add.md: 'DateTime::add »'
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Клас DateTime
+---
 # Клас DateTime
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -116,10 +111,10 @@ public __wakeup(): void
 
 ## список змін
 
-| Версия | Описание                                                                                                                           |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-|        | Константи класу тепер **DateTime** визначено в [DateTimeInterface](class.datetimeinterface.md)                                     |
-|        | Конструктор класу **DateTime** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
+| Версия | Описание |
+| --- | --- |
+|  | Константи класу тепер **DateTime** визначено в [DateTimeInterface](class.datetimeinterface.md) |
+|  | Конструктор класу **DateTime** тепер включає поточні мікросекунди. До цього він завжди ініціалізував мікросекунди зі значенням `0` |
 
 ## Зміст
 

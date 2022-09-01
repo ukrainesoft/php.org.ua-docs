@@ -1,16 +1,11 @@
-Створює об'єкт ітератор класу APCUIterator
-
--   [« APCUIterator](class.apcuiterator.md)
-    
--   [APCUIterator::current »](apcuiterator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [APCUIterator](class.apcuiterator.md)
-    
--   Створює об'єкт ітератор класу APCUIterator
-    
-
+---
+navigation:
+  - class.apcuiterator.md: « APCUIterator
+  - apcuiterator.current.md: 'APCUIterator::current »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
+title: 'APCUIterator::construct'
+---
 # APCUIterator::construct
 
 (PECL apcu >= 5.0.0)

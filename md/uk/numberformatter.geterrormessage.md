@@ -1,16 +1,11 @@
-Отримує останнє повідомлення про помилку засобу форматування
-
--   [« NumberFormatter::getErrorCode](numberformatter.geterrorcode.md)
-    
--   [NumberFormatter::getLocale »](numberformatter.getlocale.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Отримує останнє повідомлення про помилку засобу форматування
-    
-
+---
+navigation:
+  - numberformatter.geterrorcode.md: '« NumberFormatter::getErrorCode'
+  - numberformatter.getlocale.md: 'NumberFormatter::getLocale »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getErrorMessage'
+---
 # NumberFormatter::getErrorMessage
 
 # numfmtgeterrormessage

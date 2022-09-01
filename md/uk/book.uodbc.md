@@ -1,16 +1,11 @@
-ODBC (Unified)
-
--   [« dbasync](function.dba-sync.html)
-    
--   [Введение »](intro.uodbc.md)
-    
--   [PHP Manual](index.md)
-    
--   [Рівні абстракції](refs.database.abstract.md)
-    
--   ODBC (Unified)
-    
-
+---
+navigation:
+  - function.dba-sync.html: « dbasync
+  - intro.uodbc.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.abstract.md: Рівні абстракції
+title: ODBC (Unified)
+---
 # ODBC (Unified)
 
 -   [Введение](intro.uodbc.md)

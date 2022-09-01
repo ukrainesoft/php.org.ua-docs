@@ -1,16 +1,11 @@
-Отримує кількість попереджень останньої операції
-
--   [« RowResult::getWarnings](mysql-xdevapi-rowresult.getwarnings.html)
-    
--   [mysqlxdevapiSchema »](class.mysql-xdevapi-schema.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
-    
--   Отримує кількість попереджень останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.getwarnings.html: '« RowResult::getWarnings'
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+title: 'RowResult::getWarningsCount'
+---
 # RowResult::getWarningsCount
 
 (No version information available, might only be in Git)

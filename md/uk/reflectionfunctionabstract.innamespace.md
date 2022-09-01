@@ -1,16 +1,11 @@
-Перевіряє, чи функція знаходиться в просторі імен
-
--   [« ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md)
-    
--   [ReflectionFunctionAbstract::isClosure »](reflectionfunctionabstract.isclosure.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перевіряє, чи функція знаходиться в просторі імен
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.hastentativereturntype.md: '« ReflectionFunctionAbstract::hasTentativeReturnType'
+  - reflectionfunctionabstract.isclosure.md: 'ReflectionFunctionAbstract::isClosure »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::inNamespace'
+---
 # ReflectionFunctionAbstract::inNamespace
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

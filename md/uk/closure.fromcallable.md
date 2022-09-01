@@ -1,16 +1,11 @@
-Конвертує callable у замикання
-
--   [« Closure::call](closure.call.html)
-    
--   [Generator »](class.generator.html)
-    
--   [PHP Manual](index.html)
-    
--   [Closure](class.closure.html)
-    
--   Конвертує callable у замикання
-    
-
+---
+navigation:
+  - closure.call.html: '« Closure::call'
+  - class.generator.html: Generator »
+  - index.html: PHP Manual
+  - class.closure.html: Closure
+title: 'Closure::fromCallable'
+---
 # Closure::fromCallable
 
 (PHP 7> = 7.1.0)

@@ -1,16 +1,11 @@
-Задає поле резервного копіювання для використання
-
--   [« SolrQuery::setHighlight](solrquery.sethighlight.md)
-    
--   [SolrQuery::setHighlightFormatter »](solrquery.sethighlightformatter.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Задає поле резервного копіювання для використання
-    
-
+---
+navigation:
+  - solrquery.sethighlight.md: '« SolrQuery::setHighlight'
+  - solrquery.sethighlightformatter.md: 'SolrQuery::setHighlightFormatter »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setHighlightAlternateField'
+---
 # SolrQuery::setHighlightAlternateField
 
 (PECL solr> = 0.9.2)

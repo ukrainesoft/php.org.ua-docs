@@ -1,16 +1,11 @@
-Отримує раніше встановлений обробник на функцію чи метод
-
--   [« uopzgetexitstatus](function.uopz-get-exit-status.html)
-    
--   [uopzgetmock »](function.uopz-get-mock.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Отримує раніше встановлений обробник на функцію чи метод
-    
-
+---
+navigation:
+  - function.uopz-get-exit-status.html: « uopzgetexitstatus
+  - function.uopz-get-mock.html: uopzgetmock »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzgethook
+---
 # uopzgethook
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

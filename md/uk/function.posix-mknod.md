@@ -1,16 +1,11 @@
-Створює спеціальний або звичайний файл (POSIX.1)
-
--   [« posixmkfifo](function.posix-mkfifo.html)
-    
--   [posixsetegid »](function.posix-setegid.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Створює спеціальний або звичайний файл (POSIX.1)
-    
-
+---
+navigation:
+  - function.posix-mkfifo.html: « posixmkfifo
+  - function.posix-setegid.html: posixsetegid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixmknod
+---
 # posixmknod
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

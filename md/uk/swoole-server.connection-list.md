@@ -1,16 +1,11 @@
-Отримує всі встановлені з'єднання
-
--   [« SwooleServer::connectioninfo](swoole-server.connection-info.html)
-    
--   [SwooleServer::construct »](swoole-server.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Отримує всі встановлені з'єднання
-    
-
+---
+navigation:
+  - swoole-server.connection-info.html: '« SwooleServer::connectioninfo'
+  - swoole-server.construct.html: 'SwooleServer::construct »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::connectionlist'
+---
 # SwooleServer::connectionlist
 
 (PECL swoole >= 1.9.0)

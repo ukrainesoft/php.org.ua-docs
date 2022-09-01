@@ -1,16 +1,11 @@
-Оператори
-
--   [« Вирази](language.expressions.md)
-    
--   [Приоритет оператора »](language.operators.precedence.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Оператори
-    
-
+---
+navigation:
+  - language.expressions.md: « Вирази
+  - language.operators.precedence.md: Приоритет оператора »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Оператори
+---
 # Оператори
 
 ## Зміст

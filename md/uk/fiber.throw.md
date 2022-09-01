@@ -1,16 +1,11 @@
-Відновлює виконання файбера за винятком
-
--   [« Fiber::resume](fiber.resume.md)
-    
--   [Fiber::getReturn »](fiber.getreturn.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Відновлює виконання файбера за винятком
-    
-
+---
+navigation:
+  - fiber.resume.md: '« Fiber::resume'
+  - fiber.getreturn.md: 'Fiber::getReturn »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::throw'
+---
 # Fiber::throw
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](sodium.installation.html)
-    
--   [Типи ресурсів »](sodium.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](sodium.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - sodium.installation.html: « Установка
+  - sodium.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - sodium.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

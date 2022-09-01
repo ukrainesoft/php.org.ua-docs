@@ -1,16 +1,11 @@
-Отримання унікального ідентифікатора задачі
-
--   [« GearmanTask::taskNumerator](gearmantask.tasknumerator.md)
-    
--   [GearmanTask::uuid »](gearmantask.uuid.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Отримання унікального ідентифікатора задачі
-    
-
+---
+navigation:
+  - gearmantask.tasknumerator.md: '« GearmanTask::taskNumerator'
+  - gearmantask.uuid.md: 'GearmanTask::uuid »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::unique'
+---
 # GearmanTask::unique
 
 (PECL gearman >= 0.6.0)

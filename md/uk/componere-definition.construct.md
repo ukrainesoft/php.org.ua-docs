@@ -1,16 +1,11 @@
-Визначення конструктора
-
--   [« ComponereDefinition](class.componere-definition.html)
-    
--   [ComponereDefinition::addConstant »](componere-definition.addconstant.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereDefinition](class.componere-definition.html)
-    
--   Визначення конструктора
-    
-
+---
+navigation:
+  - class.componere-definition.html: « ComponereDefinition
+  - componere-definition.addconstant.html: 'ComponereDefinition::addConstant »'
+  - index.md: PHP Manual
+  - class.componere-definition.html: ComponereDefinition
+title: 'ComponereDefinition::construct'
+---
 # ComponereDefinition::construct
 
 (Componere 2 >= 2.1.0)

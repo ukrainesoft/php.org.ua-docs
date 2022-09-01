@@ -1,16 +1,11 @@
-Згенерувати буфер OpenAL
-
--   [« Функции OpenAL](ref.openal.md)
-    
--   [openalbufferdata »](function.openal-buffer-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Згенерувати буфер OpenAL
-    
-
+---
+navigation:
+  - ref.openal.md: « Функции OpenAL
+  - function.openal-buffer-data.html: openalbufferdata »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openalbuffercreate
+---
 # openalbuffercreate
 
 (PECL openal >= 0.1.0)

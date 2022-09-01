@@ -1,16 +1,11 @@
-Перевірка, чи має поточний елемент нащадки
-
--   [« RecursiveTreeIterator::callGetChildren](recursivetreeiterator.callgetchildren.md)
-    
--   [RecursiveTreeIterator::construct »](recursivetreeiterator.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Перевірка, чи має поточний елемент нащадки
-    
-
+---
+navigation:
+  - recursivetreeiterator.callgetchildren.md: '« RecursiveTreeIterator::callGetChildren'
+  - recursivetreeiterator.construct.md: 'RecursiveTreeIterator::construct »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::callHasChildren'
+---
 # RecursiveTreeIterator::callHasChildren
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

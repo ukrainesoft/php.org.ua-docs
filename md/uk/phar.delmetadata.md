@@ -1,16 +1,11 @@
-Видалити глобальні метадані в архіві phar
-
--   [« Phar::decompressFiles](phar.decompressfiles.html)
-    
--   [Phar::delete »](phar.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Видалити глобальні метадані в архіві phar
-    
-
+---
+navigation:
+  - phar.decompressfiles.html: '« Phar::decompressFiles'
+  - phar.delete.html: 'Phar::delete »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::delMetadata'
+---
 # Phar::delMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.0)

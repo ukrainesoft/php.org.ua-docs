@@ -1,16 +1,11 @@
-Набуває вигляду поля
-
--   [« fdferror](function.fdf-error.html)
-    
--   [fdfgetattachment »](function.fdf-get-attachment.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Набуває вигляду поля
-    
-
+---
+navigation:
+  - function.fdf-error.html: « fdferror
+  - function.fdf-get-attachment.html: fdfgetattachment »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfgetап
+---
 # fdfgetап
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

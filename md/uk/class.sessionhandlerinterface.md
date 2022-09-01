@@ -1,16 +1,11 @@
-Клас SessionHandlerInterface
-
--   [« SessionHandler::write](sessionhandler.write.html)
-    
--   [SessionHandlerInterface::close »](sessionhandlerinterface.close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Сессии](book.session.html)
-    
--   Клас SessionHandlerInterface
-    
-
+---
+navigation:
+  - sessionhandler.write.html: '« SessionHandler::write'
+  - sessionhandlerinterface.close.html: 'SessionHandlerInterface::close »'
+  - index.html: PHP Manual
+  - book.session.html: Сессии
+title: Клас SessionHandlerInterface
+---
 # Клас SessionHandlerInterface
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

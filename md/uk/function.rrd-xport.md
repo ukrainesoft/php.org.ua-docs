@@ -1,16 +1,11 @@
-Експортує інформацію про базу даних RRD
-
--   [« rrdversion](function.rrd-version.html)
-    
--   [rrdcdisconnect »](function.rrdc-disconnect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RRD](ref.rrd.md)
-    
--   Експортує інформацію про базу даних RRD
-    
-
+---
+navigation:
+  - function.rrd-version.html: « rrdversion
+  - function.rrdc-disconnect.html: rrdcdisconnect »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
+title: rrdxport
+---
 # rrdxport
 
 (PECL rrd >= 0.9.0)

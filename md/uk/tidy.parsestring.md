@@ -1,16 +1,11 @@
-Розбір документа, що зберігається у рядку
-
--   [« tidy::parseFile](tidy.parsefile.md)
-    
--   [tidy::repairFile »](tidy.repairfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Розбір документа, що зберігається у рядку
-    
-
+---
+navigation:
+  - tidy.parsefile.md: '« tidy::parseFile'
+  - tidy.repairfile.md: 'tidy::repairFile »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::parseString'
+---
 # tidy::parseString
 
 # tidyparsestring
@@ -57,9 +52,9 @@ tidy_parse_string(string $string, array|string|null $config = null, ?string $enc
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | `config` і `encoding` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `config` і `encoding` тепер допускають значення null. |
 
 ### Приклади
 

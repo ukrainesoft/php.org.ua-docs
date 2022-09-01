@@ -1,16 +1,11 @@
-Передає дані на обробку
-
--   [« ParleLexer::callout](parle-lexer.callout.html)
-    
--   [ParleLexer::dump »](parle-lexer.dump.html)
-    
--   [PHP Manual](index.md)
-    
--   [ParleLexer](class.parle-lexer.html)
-    
--   Передає дані на обробку
-    
-
+---
+navigation:
+  - parle-lexer.callout.html: '« ParleLexer::callout'
+  - parle-lexer.dump.html: 'ParleLexer::dump »'
+  - index.md: PHP Manual
+  - class.parle-lexer.html: ParleLexer
+title: 'ParleLexer::consume'
+---
 # ParleLexer::consume
 
 (PECL parle >= 0.5.1)

@@ -1,16 +1,11 @@
-Повертає перший елемент колекції
-
--   [« DsSet::filter](ds-set.filter.html)
-    
--   [ДсSet::get »](ds-set.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає перший елемент колекції
-    
-
+---
+navigation:
+  - ds-set.filter.html: '« DsSet::filter'
+  - ds-set.get.html: 'ДсSet::get »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::first'
+---
 # ДсSet::first
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Клас UConverter
-
--   [« IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md)
-    
--   [UConverter::construct »](uconverter.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Клас UConverter
-    
-
+---
+navigation:
+  - intlpartsiterator.getbreakiterator.md: '« IntlPartsIterator::getBreakIterator'
+  - uconverter.construct.md: 'UConverter::construct »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Клас UConverter
+---
 # Клас UConverter
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

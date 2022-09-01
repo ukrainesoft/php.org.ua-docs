@@ -1,16 +1,11 @@
-Реєстрація
-
--   [« ComponereDefinition::addProperty](componere-definition.addproperty.html)
-    
--   [ComponereDefinition::isRegistered »](componere-definition.isregistered.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereDefinition](class.componere-definition.html)
-    
--   Реєстрація
-    
-
+---
+navigation:
+  - componere-definition.addproperty.html: '« ComponereDefinition::addProperty'
+  - componere-definition.isregistered.html: 'ComponereDefinition::isRegistered »'
+  - index.md: PHP Manual
+  - class.componere-definition.html: ComponereDefinition
+title: 'ComponereDefinition::register'
+---
 # ComponereDefinition::register
 
 (Componere 2 >= 2.1.0)

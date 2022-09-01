@@ -1,16 +1,11 @@
-Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
-
--   [« sqlsrvclientinfo](function.sqlsrv-client-info.html)
-    
--   [sqlsrvcommit »](function.sqlsrv-commit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SQLSRV](ref.sqlsrv.md)
-    
--   Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
-    
-
+---
+navigation:
+  - function.sqlsrv-client-info.html: « sqlsrvclientinfo
+  - function.sqlsrv-commit.html: sqlsrvcommit »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
+title: sqlsrvclose
+---
 # sqlsrvclose
 
 (No version information available, might only be in Git)

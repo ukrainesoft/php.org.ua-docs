@@ -1,16 +1,11 @@
-Довгоногій дожі
-
--   [« tradercdlpiercing](function.trader-cdlpiercing.html)
-    
--   [tradercdlrisefall3methods »](function.trader-cdlrisefall3methods.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Довгоногій дожі
-    
-
+---
+navigation:
+  - function.trader-cdlpiercing.html: « tradercdlpiercing
+  - function.trader-cdlrisefall3methods.html: tradercdlrisefall3methods »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlrickshawman
+---
 # tradercdlrickshawman
 
 (PECL trader >= 0.2.0)

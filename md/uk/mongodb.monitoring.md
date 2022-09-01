@@ -1,16 +1,11 @@
-Класи моніторингу та функції передплатника
-
--   [« MongoDBBSONUndefined::unserialize](mongodb-bson-undefined.unserialize.html)
-    
--   [Функції »](ref.monitoring.functions.md)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDB](set.mongodb.md)
-    
--   Класи моніторингу та функції передплатника
-    
-
+---
+navigation:
+  - mongodb-bson-undefined.unserialize.html: '« MongoDBBSONUndefined::unserialize'
+  - ref.monitoring.functions.md: Функції »
+  - index.md: PHP Manual
+  - set.mongodb.md: MongoDB
+title: Класи моніторингу та функції передплатника
+---
 # Класи моніторингу та функції передплатника
 
 -   [Функції](ref.monitoring.functions.md)

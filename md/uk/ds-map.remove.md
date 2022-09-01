@@ -1,16 +1,11 @@
-Видаляє та повертає значення за ключом
-
--   [« DsMap::reduce](ds-map.reduce.html)
-    
--   [ДсMap::reverse »](ds-map.reverse.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Видаляє та повертає значення за ключом
-    
-
+---
+navigation:
+  - ds-map.reduce.html: '« DsMap::reduce'
+  - ds-map.reverse.html: 'ДсMap::reverse »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::remove'
+---
 # ДсMap::remove
 
 (PECL ds >= 1.0.0)

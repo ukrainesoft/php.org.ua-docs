@@ -1,16 +1,11 @@
-Перетворює необроблені дані на ціле число
-
--   [« radiuscvtaddr](function.radius-cvt-addr.html)
-    
--   [radiuscvtstring »](function.radius-cvt-string.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Radius](ref.radius.md)
-    
--   Перетворює необроблені дані на ціле число
-    
-
+---
+navigation:
+  - function.radius-cvt-addr.html: « radiuscvtaddr
+  - function.radius-cvt-string.html: radiuscvtstring »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
+title: radiuscvtint
+---
 # radiuscvtint
 
 (PECL radius >= 1.1.0)

@@ -1,16 +1,11 @@
-Прив'язка сокету
-
--   [« ZMQSocket](class.zmqsocket.md)
-    
--   [ZMQSocket::connect »](zmqsocket.connect.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQSocket](class.zmqsocket.md)
-    
--   Прив'язка сокету
-    
-
+---
+navigation:
+  - class.zmqsocket.md: « ZMQSocket
+  - zmqsocket.connect.md: 'ZMQSocket::connect »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::bind'
+---
 # ZMQSocket::bind
 
 (PECL zmq >= 0.5.0)

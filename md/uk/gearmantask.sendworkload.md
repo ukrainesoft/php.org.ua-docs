@@ -1,16 +1,11 @@
-Надсилання даних завдання
-
--   [« GearmanTask::sendData](gearmantask.senddata.html)
-    
--   [GearmanTask::taskDenominator »](gearmantask.taskdenominator.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanTask](class.gearmantask.html)
-    
--   Надсилання даних завдання
-    
-
+---
+navigation:
+  - gearmantask.senddata.html: '« GearmanTask::sendData'
+  - gearmantask.taskdenominator.html: 'GearmanTask::taskDenominator »'
+  - index.html: PHP Manual
+  - class.gearmantask.html: GearmanTask
+title: 'GearmanTask::sendWorkload'
+---
 # GearmanTask::sendWorkload
 
 (PECL gearman >= 0.6.0)

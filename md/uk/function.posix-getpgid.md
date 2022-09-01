@@ -1,16 +1,11 @@
-Повертає ID групи поточного процесу для менеджера завдань
-
--   [« posixgetlogin](function.posix-getlogin.html)
-    
--   [posixgetpgrp »](function.posix-getpgrp.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Повертає ID групи поточного процесу для менеджера завдань
-    
-
+---
+navigation:
+  - function.posix-getlogin.html: « posixgetlogin
+  - function.posix-getpgrp.html: posixgetpgrp »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixgetpgid
+---
 # posixgetpgid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

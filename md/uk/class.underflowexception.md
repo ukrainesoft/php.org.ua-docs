@@ -1,16 +1,11 @@
-Клас UnderflowException
-
--   [« RuntimeException](class.runtimeexception.html)
-    
--   [UnexpectedValueException »](class.unexpectedvalueexception.html)
-    
--   [PHP Manual](index.html)
-    
--   [Исключения](spl.exceptions.html)
-    
--   Клас UnderflowException
-    
-
+---
+navigation:
+  - class.runtimeexception.html: « RuntimeException
+  - class.unexpectedvalueexception.html: UnexpectedValueException »
+  - index.html: PHP Manual
+  - spl.exceptions.html: Исключения
+title: Клас UnderflowException
+---
 # Клас UnderflowException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

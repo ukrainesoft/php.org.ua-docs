@@ -1,16 +1,11 @@
-Видаляє поле зі списку полів
-
--   [« SolrQuery::removeFacetQuery](solrquery.removefacetquery.md)
-    
--   [SolrQuery::removeFilterQuery »](solrquery.removefilterquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Видаляє поле зі списку полів
-    
-
+---
+navigation:
+  - solrquery.removefacetquery.md: '« SolrQuery::removeFacetQuery'
+  - solrquery.removefilterquery.md: 'SolrQuery::removeFilterQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::removeField'
+---
 # SolrQuery::removeField
 
 (PECL solr> = 0.9.2)

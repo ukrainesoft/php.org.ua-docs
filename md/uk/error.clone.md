@@ -1,16 +1,11 @@
-Клонує помилку
-
--   [« Error::toString](error.tostring.html)
-    
--   [ArgumentCountError »](class.argumentcounterror.html)
-    
--   [PHP Manual](index.html)
-    
--   [Error](class.error.html)
-    
--   Клонує помилку
-    
-
+---
+navigation:
+  - error.tostring.html: '« Error::toString'
+  - class.argumentcounterror.html: ArgumentCountError »
+  - index.html: PHP Manual
+  - class.error.html: Error
+title: 'Error::clone'
+---
 # Error::clone
 
 (PHP 7, PHP 8)
@@ -39,6 +34,6 @@ private Error::__clone(): void
 
 ### список змін
 
-| Версия | Описание                                                 |
-|--------|----------------------------------------------------------|
-|        | Метод **Error::clone()** більше не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод **Error::clone()** більше не є остаточним (final). |

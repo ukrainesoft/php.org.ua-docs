@@ -1,16 +1,11 @@
-Швидке визначення відповідних параметрів для обробки зображень
-
--   [« Imagick::posterizeImage](imagick.posterizeimage.html)
-    
--   [Imagick::previousImage »](imagick.previousimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Швидке визначення відповідних параметрів для обробки зображень
-    
-
+---
+navigation:
+  - imagick.posterizeimage.html: '« Imagick::posterizeImage'
+  - imagick.previousimage.html: 'Imagick::previousImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::previewImages'
+---
 # Imagick::previewImages
 
 (PECL imagick 2, PECL imagick 3)

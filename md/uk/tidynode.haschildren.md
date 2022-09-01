@@ -1,16 +1,11 @@
-Перевіряє існування нащадків біля вузла
-
--   [« tidyNode::getParent](tidynode.getparent.md)
-    
--   [tidyNode::hasSiblings »](tidynode.hassiblings.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidyNode](class.tidynode.md)
-    
--   Перевіряє існування нащадків біля вузла
-    
-
+---
+navigation:
+  - tidynode.getparent.md: '« tidyNode::getParent'
+  - tidynode.hassiblings.md: 'tidyNode::hasSiblings »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
+title: 'tidyNode::hasChildren'
+---
 # tidyNode::hasChildren
 
 (PHP 5, PHP 7, PHP 8)

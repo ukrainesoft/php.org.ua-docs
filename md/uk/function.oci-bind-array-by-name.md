@@ -1,16 +1,11 @@
-Пов'язує PHP масив з масивом Oracle PL/SQL
-
--   [« OCI8 Функции](ref.oci8.html)
-    
--   [ocibindбname »](function.oci-bind-by-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Пов'язує PHP масив з масивом Oracle PL/SQL
-    
-
+---
+navigation:
+  - ref.oci8.html: « OCI8 Функции
+  - function.oci-bind-by-name.html: ocibindбname »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocibindarrayбname
+---
 # ocibindarrayбname
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8, PECL OCI8> = 1.2.0)

@@ -1,16 +1,11 @@
-Перезапускає всі робочі процеси
-
--   [« SwooleServer::protect](swoole-server.protect.html)
-    
--   [SwooleServer::resume »](swoole-server.resume.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Перезапускає всі робочі процеси
-    
-
+---
+navigation:
+  - swoole-server.protect.html: '« SwooleServer::protect'
+  - swoole-server.resume.html: 'SwooleServer::resume »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::reload'
+---
 # SwooleServer::reload
 
 (PECL swoole >= 1.9.0)

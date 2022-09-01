@@ -1,16 +1,11 @@
-Додавання об'єкта для перетворення
-
--   [« wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
-    
--   [wkhtmltoxPDFConverter::construct »](wkhtmltox-pdf-converter.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.html)
-    
--   Додавання об'єкта для перетворення
-    
-
+---
+navigation:
+  - class.wkhtmltox-pdf-converter.html: « wkhtmltoxPDFConverter
+  - wkhtmltox-pdf-converter.construct.html: 'wkhtmltoxPDFConverter::construct »'
+  - index.md: PHP Manual
+  - class.wkhtmltox-pdf-converter.html: wkhtmltoxPDFConverter
+title: 'wkhtmltoxPDFConverter::add'
+---
 # wkhtmltoxPDFConverter::add
 
 (wkhtmltox >= 0.1.0)

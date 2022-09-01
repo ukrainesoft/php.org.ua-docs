@@ -1,16 +1,11 @@
-Масштабує зображення з піксельною вибіркою
-
--   [« Imagick::roundCorners](imagick.roundcorners.html)
-    
--   [Imagick::scaleImage »](imagick.scaleimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Масштабує зображення з піксельною вибіркою
-    
-
+---
+navigation:
+  - imagick.roundcorners.html: '« Imagick::roundCorners'
+  - imagick.scaleimage.html: 'Imagick::scaleImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::sampleImage'
+---
 # Imagick::sampleImage
 
 (PECL imagick 2, PECL imagick 3)

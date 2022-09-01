@@ -1,16 +1,11 @@
-Перелік послідовностей символів Unicode згрупованих за ними категоріями
-
--   [« IntlChar::enumCharNames](intlchar.enumcharnames.html)
-    
--   [IntlChar::foldCase »](intlchar.foldcase.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Перелік послідовностей символів Unicode згрупованих за ними категоріями
-    
-
+---
+navigation:
+  - intlchar.enumcharnames.html: '« IntlChar::enumCharNames'
+  - intlchar.foldcase.html: 'IntlChar::foldCase »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::enumCharTypes'
+---
 # IntlChar::enumCharTypes
 
 (PHP 7, PHP 8)

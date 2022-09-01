@@ -1,16 +1,11 @@
-Перевірити, чи будуть функції повертати помилки або викидати винятки
-
--   [« RarException](class.rarexception.html)
-    
--   [RarException::setUsingExceptions »](rarexception.setusingexceptions.html)
-    
--   [PHP Manual](index.html)
-    
--   [RarException](class.rarexception.html)
-    
--   Перевірити, чи будуть функції повертати помилки або викидати винятки
-    
-
+---
+navigation:
+  - class.rarexception.html: « RarException
+  - rarexception.setusingexceptions.html: 'RarException::setUsingExceptions »'
+  - index.html: PHP Manual
+  - class.rarexception.html: RarException
+title: 'RarException::isUsingExceptions'
+---
 # RarException::isUsingExceptions
 
 (PECL rar >= 2.0.0)

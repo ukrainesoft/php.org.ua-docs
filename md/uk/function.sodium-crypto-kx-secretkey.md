@@ -1,16 +1,11 @@
-Витягує секретний ключ із пари ключів cryptoккс
-
--   [« sodiumcryptoкксpublickey](function.sodium-crypto-kx-publickey.html)
-    
--   [sodiumcryptoкксseedkeypair »](function.sodium-crypto-kx-seed-keypair.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Витягує секретний ключ із пари ключів cryptoккс
-    
-
+---
+navigation:
+  - function.sodium-crypto-kx-publickey.html: « sodiumcryptoкксpublickey
+  - function.sodium-crypto-kx-seed-keypair.html: sodiumcryptoкксseedkeypair »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoкксsecretkey
+---
 # sodiumcryptoкксsecretkey
 
 (PHP 7> = 7.2.0, PHP 8)

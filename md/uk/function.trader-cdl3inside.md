@@ -1,16 +1,11 @@
-Три дні зсередини вгору та три дні зсередини вниз
-
--   [« tradercdl3blackcrows](function.trader-cdl3blackcrows.html)
-    
--   [tradercdl3linestrike »](function.trader-cdl3linestrike.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Три дні зсередини вгору та три дні зсередини вниз
-    
-
+---
+navigation:
+  - function.trader-cdl3blackcrows.html: « tradercdl3blackcrows
+  - function.trader-cdl3linestrike.html: tradercdl3linestrike »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdl3inside
+---
 # tradercdl3inside
 
 (PECL trader >= 0.2.0)

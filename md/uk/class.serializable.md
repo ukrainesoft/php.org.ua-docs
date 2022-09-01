@@ -1,16 +1,11 @@
-Інтерфейс Serializable
-
--   [« ArrayAccess::offsetUnset](arrayaccess.offsetunset.md)
-    
--   [Serializable::serialize »](serializable.serialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-    
--   Інтерфейс Serializable
-    
-
+---
+navigation:
+  - arrayaccess.offsetunset.md: '« ArrayAccess::offsetUnset'
+  - serializable.serialize.md: 'Serializable::serialize »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Інтерфейс Serializable
+---
 # Інтерфейс Serializable
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

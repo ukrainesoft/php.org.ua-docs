@@ -1,16 +1,11 @@
-Повертає тип сортування фасету
-
--   [« SolrQuery::getFacetQueries](solrquery.getfacetqueries.html)
-    
--   [SolrQuery::getFields »](solrquery.getfields.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає тип сортування фасету
-    
-
+---
+navigation:
+  - solrquery.getfacetqueries.html: '« SolrQuery::getFacetQueries'
+  - solrquery.getfields.html: 'SolrQuery::getFields »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getFacetSort'
+---
 # SolrQuery::getFacetSort
 
 (PECL solr> = 0.9.2)

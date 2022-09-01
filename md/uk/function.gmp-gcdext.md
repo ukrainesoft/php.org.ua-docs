@@ -1,16 +1,11 @@
-Обчислення НОД та множників
-
--   [« gmpgcd](function.gmp-gcd.html)
-    
--   [gmphamdist »](function.gmp-hamdist.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Обчислення НОД та множників
-    
-
+---
+navigation:
+  - function.gmp-gcd.html: « gmpgcd
+  - function.gmp-hamdist.html: gmphamdist »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpgcdext
+---
 # gmpgcdext
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

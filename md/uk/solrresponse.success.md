@@ -1,16 +1,11 @@
-Чи був запит успішним?
-
--   [« SolrResponse::setParseMode](solrresponse.setparsemode.md)
-    
--   [SolrQueryResponse »](class.solrqueryresponse.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrResponse](class.solrresponse.md)
-    
--   Чи був запит успішним?
-    
-
+---
+navigation:
+  - solrresponse.setparsemode.md: '« SolrResponse::setParseMode'
+  - class.solrqueryresponse.md: SolrQueryResponse »
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
+title: 'SolrResponse::success'
+---
 # SolrResponse::success
 
 (PECL solr> = 0.9.2)

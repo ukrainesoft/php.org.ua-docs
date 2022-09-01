@@ -1,16 +1,11 @@
-Ітератори об'єктів
-
--   [« Перегрузка](language.oop5.overloading.md)
-    
--   [Магічні методи »](language.oop5.magic.md)
-    
--   [PHP Manual](index.md)
-    
--   [Класи та об'єкти](language.oop5.md)
-    
--   Ітератори об'єктів
-    
-
+---
+navigation:
+  - language.oop5.overloading.md: « Перегрузка
+  - language.oop5.magic.md: Магічні методи »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
+title: Ітератори об'єктів
+---
 ## Ітератори об'єктів
 
 PHP надає такий спосіб оголошення об'єктів, який дає можливість пройти за списком елементів даного об'єкта, наприклад, за допомогою оператора [foreach](control-structures.foreach.html). За умовчанням, у цьому обході (ітерації) братимуть участь усі [видимі](language.oop5.visibility.md) характеристики об'єкта.

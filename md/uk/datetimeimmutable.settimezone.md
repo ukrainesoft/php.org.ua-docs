@@ -1,16 +1,11 @@
-Встановлює часовий пояс
-
--   [« DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.md)
-    
--   [DateTimeImmutable::sub »](datetimeimmutable.sub.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeImmutable](class.datetimeimmutable.md)
-    
--   Встановлює часовий пояс
-    
-
+---
+navigation:
+  - datetimeimmutable.settimestamp.md: '« DateTimeImmutable::setTimestamp'
+  - datetimeimmutable.sub.md: 'DateTimeImmutable::sub »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
+title: 'DateTimeImmutable::setTimezone'
+---
 # DateTimeImmutable::setTimezone
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

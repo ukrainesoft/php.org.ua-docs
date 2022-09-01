@@ -1,16 +1,11 @@
-Отримати двосимвольний код країни
-
--   [« geoipcontinentcodeбname](function.geoip-continent-code-by-name.html)
-    
--   [geoipcountrycode3бname »](function.geoip-country-code3-by-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Отримати двосимвольний код країни
-    
-
+---
+navigation:
+  - function.geoip-continent-code-by-name.html: « geoipcontinentcodeбname
+  - function.geoip-country-code3-by-name.html: geoipcountrycode3бname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipcountrycodeбname
+---
 # geoipcountrycodeбname
 
 (PECL geoip >= 0.2.0)

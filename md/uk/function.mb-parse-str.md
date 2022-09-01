@@ -1,16 +1,11 @@
-Розбір даних запитів GET/POST/COOKIE та встановлення значень глобальних змінних
-
--   [« mboutputhandler](function.mb-output-handler.html)
-    
--   [мбpreferredmimename »](function.mb-preferred-mime-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Розбір даних запитів GET/POST/COOKIE та встановлення значень глобальних змінних
-    
-
+---
+navigation:
+  - function.mb-output-handler.html: « mboutputhandler
+  - function.mb-preferred-mime-name.html: мбpreferredmimename »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбparsestr
+---
 # мбparsestr
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ mb_parse_str(string $string, array &$result): bool
 
 ### список змін
 
-| Версия | Описание                                                                    |
-|--------|-----------------------------------------------------------------------------|
-|        | Другий параметр став обов'язковим.                                          |
-|        | Виклик функції **мбparsestr()** без другого параметра оголошено застарілим. |
+| Версия | Описание |
+| --- | --- |
+|  | Другий параметр став обов'язковим. |
+|  | Виклик функції **мбparsestr()** без другого параметра оголошено застарілим. |
 
 ### Дивіться також
 

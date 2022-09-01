@@ -1,16 +1,11 @@
-Викликається, як тільки застосовується фільтр
-
--   [« phpuserfilter](class.php-user-filter.html)
-    
--   [phpuserfilter::onClose »](php-user-filter.onclose.html)
-    
--   [PHP Manual](index.html)
-    
--   [phpuserfilter](class.php-user-filter.html)
-    
--   Викликається, як тільки застосовується фільтр
-    
-
+---
+navigation:
+  - class.php-user-filter.html: « phpuserfilter
+  - php-user-filter.onclose.html: 'phpuserfilter::onClose »'
+  - index.html: PHP Manual
+  - class.php-user-filter.html: phpuserfilter
+title: 'phpuserfilter::filter'
+---
 # phpuserfilter::filter
 
 (PHP 5, PHP 7, PHP 8)
@@ -47,8 +42,8 @@ public php_user_filter::filter(    resource $in,    resource $out,   
 
 Метод **filter()** повинен повертати одне із трьох значень.
 
-| Возвращаемое значение                   | Описание                                                                                                                |
-|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| **`PSFS_PASS_ON`**                      | Фільтр відпрацював успішно, дані доступні через аргумент `out` `bucket brigade`                                         |
-| **`PSFS_FEED_ME`**                      | Фільтр відпрацював успішно, проте доступних для виведення даних немає. Потрібні дані з потоку або попереднього фільтра. |
-| **`PSFS_ERR_FATAL`** (за замовчуванням) | Фільтр викликав помилку, що не обробляється, і не може продовжити виконання.                                            |
+| Возвращаемое значение | Описание |
+| --- | --- |
+| **`PSFS_PASS_ON`** | Фільтр відпрацював успішно, дані доступні через аргумент `out` `bucket brigade` |
+| **`PSFS_FEED_ME`** | Фільтр відпрацював успішно, проте доступних для виведення даних немає. Потрібні дані з потоку або попереднього фільтра. |
+| **`PSFS_ERR_FATAL`** (за замовчуванням) | Фільтр викликав помилку, що не обробляється, і не може продовжити виконання. |

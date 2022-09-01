@@ -1,16 +1,11 @@
-Конструктор об'єкту EvCheck
-
--   [« EvCheck](class.evcheck.html)
-    
--   [EvCheck::createStopped »](evcheck.createstopped.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvCheck](class.evcheck.html)
-    
--   Конструктор об'єкту EvCheck
-    
-
+---
+navigation:
+  - class.evcheck.html: « EvCheck
+  - evcheck.createstopped.html: 'EvCheck::createStopped »'
+  - index.html: PHP Manual
+  - class.evcheck.html: EvCheck
+title: 'EvCheck::construct'
+---
 # EvCheck::construct
 
 (PECL ev >= 0.2.0)

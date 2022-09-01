@@ -1,16 +1,11 @@
-Встановити шлях запиту токена
-
--   [« OAuthProvider::setParam](oauthprovider.setparam.md)
-    
--   [OAuthProvider::timestampNonceHandler »](oauthprovider.timestampnoncehandler.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Встановити шлях запиту токена
-    
-
+---
+navigation:
+  - oauthprovider.setparam.md: '« OAuthProvider::setParam'
+  - oauthprovider.timestampnoncehandler.md: 'OAuthProvider::timestampNonceHandler »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::setRequestTokenPath'
+---
 # OAuthProvider::setRequestTokenPath
 
 (PECL OAuth >= 1.0.0)

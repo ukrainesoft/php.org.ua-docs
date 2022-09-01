@@ -1,16 +1,11 @@
-Визначає, чи дорівнює поточний екземпляр переданому об'єкту
-
--   [« Хешируемое](class.ds-hashable.html)
-    
--   [ДсHashable::hash »](ds-hashable.hash.html)
-    
--   [PHP Manual](index.html)
-    
--   [Хешируемое](class.ds-hashable.html)
-    
--   Визначає, чи дорівнює поточний екземпляр переданому об'єкту
-    
-
+---
+navigation:
+  - class.ds-hashable.html: « Хешируемое
+  - ds-hashable.hash.html: 'ДсHashable::hash »'
+  - index.html: PHP Manual
+  - class.ds-hashable.html: Хешируемое
+title: 'ДсHashable::equals'
+---
 # ДсHashable::equals
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsMap::apply](ds-map.apply.html)
-    
--   [ДсMap::clear »](ds-map.clear.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-map.apply.html: '« DsMap::apply'
+  - ds-map.clear.html: 'ДсMap::clear »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::capacity'
+---
 # ДсMap::capacity
 
 (PECL ds >= 1.0.0)

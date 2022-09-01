@@ -1,16 +1,11 @@
-Виводить текст у заданій позиції
-
--   [«psshowxy2](function.ps-show-xy2.html)
-    
--   [псshow2 »](function.ps-show2.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Виводить текст у заданій позиції
-    
-
+---
+navigation:
+  - function.ps-show-xy2.html: «psshowxy2
+  - function.ps-show2.html: псshow2 »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псshowзі
+---
 # псshowзі
 
 (PECL ps >= 1.1.0)

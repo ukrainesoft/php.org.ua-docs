@@ -1,16 +1,11 @@
-Клас Worker
-
--   [« Thread::start](thread.start.md)
-    
--   [Worker::collect »](worker.collect.md)
-    
--   [PHP Manual](index.md)
-    
--   [pthreads](book.pthreads.md)
-    
--   Клас Worker
-    
-
+---
+navigation:
+  - thread.start.md: '« Thread::start'
+  - worker.collect.md: 'Worker::collect »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Worker
+---
 # Клас Worker
 
 (PECL pthreads >= 2.0.0)

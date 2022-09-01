@@ -1,16 +1,11 @@
-Читає значення символічного посилання
-
--   [« eioreaddir](function.eio-readdir.html)
-    
--   [eiorealpath »](function.eio-realpath.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Читає значення символічного посилання
-    
-
+---
+navigation:
+  - function.eio-readdir.html: « eioreaddir
+  - function.eio-realpath.html: eiorealpath »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eioreadlink
+---
 # eioreadlink
 
 (PECL eio >= 0.0.1dev)

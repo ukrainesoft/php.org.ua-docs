@@ -1,16 +1,11 @@
-Встановлює новий термін зберігання для запису на вказаному сервері
-
--   [« Memcached::touch](memcached.touch.md)
-    
--   [MemcachedException »](class.memcachedexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Встановлює новий термін зберігання для запису на вказаному сервері
-    
-
+---
+navigation:
+  - memcached.touch.md: '« Memcached::touch'
+  - class.memcachedexception.md: MemcachedException »
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::touchByKey'
+---
 # Memcached::touchByKey
 
 (PECL memcached >= 2.0.0)

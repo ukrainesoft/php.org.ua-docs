@@ -1,16 +1,11 @@
-Створює новий об'єкт Slider
-
--   [« UIControlsSlider](class.ui-controls-slider.html)
-    
--   [ОЙControlsSlider::getValue »](ui-controls-slider.getvalue.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsSlider](class.ui-controls-slider.html)
-    
--   Створює новий об'єкт Slider
-    
-
+---
+navigation:
+  - class.ui-controls-slider.html: « UIControlsSlider
+  - ui-controls-slider.getvalue.html: 'ОЙControlsSlider::getValue »'
+  - index.md: PHP Manual
+  - class.ui-controls-slider.html: ОЙControlsSlider
+title: 'ОЙControlsSlider::construct'
+---
 # ОЙControlsSlider::construct
 
 (UI 0.9.9)

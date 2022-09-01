@@ -1,16 +1,11 @@
-Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
-
--   [« XMLDiffBase::diff](xmldiff-base.diff.html)
-    
--   [XMLDiffDOM »](class.xmldiff-dom.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLDiffBase](class.xmldiff-base.html)
-    
--   Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
-    
-
+---
+navigation:
+  - xmldiff-base.diff.html: '« XMLDiffBase::diff'
+  - class.xmldiff-dom.html: XMLDiffDOM »
+  - index.html: PHP Manual
+  - class.xmldiff-base.html: XMLDiffBase
+title: 'XMLDiffBase::merge'
+---
 # XMLDiffBase::merge
 
 (PECL xmldiff >= 0.8.0)

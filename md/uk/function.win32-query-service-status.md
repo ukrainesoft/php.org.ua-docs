@@ -1,16 +1,11 @@
-Запитує статус сервісу
-
--   [« win32pauseservice](function.win32-pause-service.html)
-    
--   [win32sendcustomcontrol »](function.win32-send-custom-control.html)
-    
--   [PHP Manual](index.html)
-    
--   [win32service](ref.win32service.html)
-    
--   Запитує статус сервісу
-    
-
+---
+navigation:
+  - function.win32-pause-service.html: « win32pauseservice
+  - function.win32-send-custom-control.html: win32sendcustomcontrol »
+  - index.html: PHP Manual
+  - ref.win32service.html: win32service
+title: win32queryservicestatus
+---
 # win32queryservicestatus
 
 (PECL win32service >=0.1.0)
@@ -83,11 +78,11 @@ dwServiceFlags. Дивіться [Константи прапорів служб
 
 ### список змін
 
-| Версия                  | Описание                                                                                                                                                              |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) у разі невірних даних у параметрах раніше поверталося **`false`**                                                         |
+| Версия | Описание |
+| --- | --- |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) у разі невірних даних у параметрах раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип повернення тепер array, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                                    |
+| PECL win32service 1.0.0 | Тип повернення тепер array, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
 
 ### Дивіться також
 

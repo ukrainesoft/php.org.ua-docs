@@ -1,16 +1,11 @@
-Обчислює один із параметрів нецентрального розподілу Фішера за рештою
-
--   [« statscdfnoncentralchisquare](function.stats-cdf-noncentral-chisquare.html)
-    
--   [statscdfnoncentralt »](function.stats-cdf-noncentral-t.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює один із параметрів нецентрального розподілу Фішера за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-noncentral-chisquare.html: « statscdfnoncentralchisquare
+  - function.stats-cdf-noncentral-t.html: statscdfnoncentralt »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscdfnoncentralф
+---
 # statscdfnoncentralф
 
 (PECL stats >= 1.0.0)
@@ -30,12 +25,12 @@ stats_cdf_noncentral_f(    float $par1,    float $par2,    float $pa
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` | `par4` |
-|---------|-----------------------|--------|--------|--------|--------|
-|         | CDF                   | з      | nu1    | nu2    | lambda |
-|         | з                     | CDF    | nu1    | nu2    | lambda |
-|         | nu1                   | з      | CDF    | nu2    | lambda |
-|         | nu2                   | з      | CDF    | nu1    | lambda |
-|         | lambda                | з      | CDF    | nu1    | nu2    |
+| --- | --- | --- | --- | --- | --- |
+|  | CDF | з | nu1 | nu2 | lambda |
+|  | з | CDF | nu1 | nu2 | lambda |
+|  | nu1 | з | CDF | nu2 | lambda |
+|  | nu2 | з | CDF | nu1 | lambda |
+|  | lambda | з | CDF | nu1 | nu2 |
 
 ### Список параметрів
 

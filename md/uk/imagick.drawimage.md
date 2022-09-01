@@ -1,16 +1,11 @@
-Виконує рендеринг об'єкту ImagickDraw на поточному зображенні
-
--   [« Imagick::distortImage](imagick.distortimage.md)
-    
--   [Imagick::edgeImage »](imagick.edgeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Виконує рендеринг об'єкту ImagickDraw на поточному зображенні
-    
-
+---
+navigation:
+  - imagick.distortimage.md: '« Imagick::distortImage'
+  - imagick.edgeimage.md: 'Imagick::edgeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::drawImage'
+---
 # Imagick::drawImage
 
 (PECL imagick 2, PECL imagick 3)

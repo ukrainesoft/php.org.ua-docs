@@ -1,16 +1,11 @@
-Псевдонім ibaseserviceattach
-
--   [« fbirdserverinfo](function.fbird-server-info.html)
-    
--   [fbirdservicedetach »](function.fbird-service-detach.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Псевдонім ibaseserviceattach
-    
-
+---
+navigation:
+  - function.fbird-server-info.html: « fbirdserverinfo
+  - function.fbird-service-detach.html: fbirdservicedetach »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: fbirdserviceattach
+---
 # fbirdserviceattach
 
 (PHP 5, PHP 7 < 7.4.0)

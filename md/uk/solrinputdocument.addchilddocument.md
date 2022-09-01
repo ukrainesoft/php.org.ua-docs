@@ -1,16 +1,11 @@
-Додає дочірній документ для блокової індексації
-
--   [« SolrInputDocument](class.solrinputdocument.html)
-    
--   [SolrInputDocument::addChildDocuments »](solrinputdocument.addchilddocuments.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Додає дочірній документ для блокової індексації
-    
-
+---
+navigation:
+  - class.solrinputdocument.html: « SolrInputDocument
+  - solrinputdocument.addchilddocuments.html: 'SolrInputDocument::addChildDocuments »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::addChildDocument'
+---
 # SolrInputDocument::addChildDocument
 
 (PECL solr> = 2.3.0)

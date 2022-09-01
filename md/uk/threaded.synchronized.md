@@ -1,16 +1,11 @@
-Синхронізація
-
--   [« Threaded::shift](threaded.shift.md)
-    
--   [Threaded::wait »](threaded.wait.md)
-    
--   [PHP Manual](index.md)
-    
--   [Threaded](class.threaded.md)
-    
--   Синхронізація
-    
-
+---
+navigation:
+  - threaded.shift.md: '« Threaded::shift'
+  - threaded.wait.md: 'Threaded::wait »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
+title: 'Threaded::synchronized'
+---
 # Threaded::synchronized
 
 (PECL pthreads >= 2.0.0)

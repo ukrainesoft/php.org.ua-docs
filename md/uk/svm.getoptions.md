@@ -1,16 +1,11 @@
-Отримати поточні параметри навчання
-
--   [« SVM::crossvalidate](svm.crossvalidate.html)
-    
--   [SVM::setOptions »](svm.setoptions.html)
-    
--   [PHP Manual](index.html)
-    
--   [SVM](class.svm.html)
-    
--   Отримати поточні параметри навчання
-    
-
+---
+navigation:
+  - svm.crossvalidate.html: '« SVM::crossvalidate'
+  - svm.setoptions.html: 'SVM::setOptions »'
+  - index.html: PHP Manual
+  - class.svm.html: SVM
+title: 'SVM::getOptions'
+---
 # SVM::getOptions
 
 (PECL svm >= 0.1.0)

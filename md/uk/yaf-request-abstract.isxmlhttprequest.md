@@ -1,16 +1,11 @@
-Визначає, чи є запит AJAX-запитом
-
--   [« YafRequestAbstract::isRouted](yaf-request-abstract.isrouted.html)
-    
--   [YafRequestAbstract::setActionName »](yaf-request-abstract.setactionname.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRequestAbstract](class.yaf-request-abstract.html)
-    
--   Визначає, чи є запит AJAX-запитом
-    
-
+---
+navigation:
+  - yaf-request-abstract.isrouted.html: '« YafRequestAbstract::isRouted'
+  - yaf-request-abstract.setactionname.html: 'YafRequestAbstract::setActionName »'
+  - index.html: PHP Manual
+  - class.yaf-request-abstract.html: YafRequestAbstract
+title: 'YafRequestAbstract::isXmlHttpRequest'
+---
 # YafRequestAbstract::isXmlHttpRequest
 
 (Yaf >=1.0.0)

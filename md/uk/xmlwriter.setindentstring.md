@@ -1,16 +1,11 @@
-Встановити рядок, який використовується для відступів
-
--   [« XMLWriter::setIndent](xmlwriter.setindent.html)
-    
--   [XMLWriter::startAttribute »](xmlwriter.startattribute.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Встановити рядок, який використовується для відступів
-    
-
+---
+navigation:
+  - xmlwriter.setindent.html: '« XMLWriter::setIndent'
+  - xmlwriter.startattribute.html: 'XMLWriter::startAttribute »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::setIndentString'
+---
 # XMLWriter::setIndentString
 
 # xmlwritersetindentstring
@@ -51,9 +46,9 @@ xmlwriter_set_indent_string(XMLWriter $writer, string $indentation): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Примітки
 

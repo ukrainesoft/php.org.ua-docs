@@ -1,16 +1,11 @@
-Найменше значення за вказаний період
-
--   [« tradermidprice](function.trader-midprice.html)
-    
--   [traderminindex »](function.trader-minindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Найменше значення за вказаний період
-    
-
+---
+navigation:
+  - function.trader-midprice.html: « tradermidprice
+  - function.trader-minindex.html: traderminindex »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermin
+---
 # tradermin
 
 (PECL trader >= 0.2.0)

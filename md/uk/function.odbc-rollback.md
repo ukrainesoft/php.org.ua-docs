@@ -1,16 +1,11 @@
-Відкочує транзакцію
-
--   [« odbcresult](function.odbc-result.html)
-    
--   [odbcsetoption »](function.odbc-setoption.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Відкочує транзакцію
-    
-
+---
+navigation:
+  - function.odbc-result.html: « odbcresult
+  - function.odbc-setoption.html: odbcsetoption »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcrollback
+---
 # odbcrollback
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

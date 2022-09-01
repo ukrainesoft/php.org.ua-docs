@@ -1,16 +1,11 @@
-Записує дані у великий об'єкт
-
--   [« pgлоunlink](function.pg-lo-unlink.html)
-    
--   [пгmetadata »](function.pg-meta-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Записує дані у великий об'єкт
-    
-
+---
+navigation:
+  - function.pg-lo-unlink.html: « pgлоunlink
+  - function.pg-meta-data.html: пгmetadata »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоwrite
+---
 # пглоwrite
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -51,10 +46,10 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | `length` тепер допускає значення null.                                                                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 

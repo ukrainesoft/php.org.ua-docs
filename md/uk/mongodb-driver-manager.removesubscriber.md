@@ -1,16 +1,11 @@
-Скасує реєстрацію передплатника на подію моніторингу в даному об'єкті Manager
-
--   [« MongoDBDriverManager::getWriteConcern](mongodb-driver-manager.getwriteconcern.html)
-    
--   [MongoDBDriverManager::selectServer »](mongodb-driver-manager.selectserver.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverManager](class.mongodb-driver-manager.html)
-    
--   Скасує реєстрацію передплатника на подію моніторингу в даному об'єкті Manager
-    
-
+---
+navigation:
+  - mongodb-driver-manager.getwriteconcern.html: '« MongoDBDriverManager::getWriteConcern'
+  - mongodb-driver-manager.selectserver.html: 'MongoDBDriverManager::selectServer »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-manager.html: MongoDBDriverManager
+title: 'MongoDBDriverManager::removeSubscriber'
+---
 # MongoDBDriverManager::removeSubscriber
 
 (mongodb >=1.10.0)

@@ -1,16 +1,11 @@
-Переходить до іншої дії
-
--   [« YafControllerAbstract::display](yaf-controller-abstract.display.html)
-    
--   [YafControllerAbstract::getInvokeArg »](yaf-controller-abstract.getinvokearg.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafControllerAbstract](class.yaf-controller-abstract.html)
-    
--   Переходить до іншої дії
-    
-
+---
+navigation:
+  - yaf-controller-abstract.display.html: '« YafControllerAbstract::display'
+  - yaf-controller-abstract.getinvokearg.html: 'YafControllerAbstract::getInvokeArg »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.html: YafControllerAbstract
+title: 'YafControllerAbstract::forward'
+---
 # YafControllerAbstract::forward
 
 (Yaf >=1.0.0)

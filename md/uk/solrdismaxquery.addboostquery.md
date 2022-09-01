@@ -1,16 +1,11 @@
-Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
-
--   [« SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md)
-    
--   [SolrDisMaxQuery::addPhraseField »](solrdismaxquery.addphrasefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.md)
-    
--   Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
-    
-
+---
+navigation:
+  - solrdismaxquery.addbigramphrasefield.md: '« SolrDisMaxQuery::addBigramPhraseField'
+  - solrdismaxquery.addphrasefield.md: 'SolrDisMaxQuery::addPhraseField »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::addBoostQuery'
+---
 # SolrDisMaxQuery::addBoostQuery
 
 (No version information available, might only be in Git)

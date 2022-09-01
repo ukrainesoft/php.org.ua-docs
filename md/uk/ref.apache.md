@@ -1,16 +1,11 @@
-Функції Apache
-
--   [« Обумовлені константи](apache.constants.md)
-    
--   [apachechildterminate »](function.apache-child-terminate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Apache](book.apache.md)
-    
--   Функції Apache
-    
-
+---
+navigation:
+  - apache.constants.md: « Обумовлені константи
+  - function.apache-child-terminate.html: apachechildterminate »
+  - index.md: PHP Manual
+  - book.apache.md: Apache
+title: Функції Apache
+---
 # Функції Apache
 
 ## Зміст

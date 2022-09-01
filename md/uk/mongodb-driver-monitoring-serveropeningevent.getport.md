@@ -1,16 +1,11 @@
-Повертає порт, на якому прослуховується сервер
-
--   [« MongoDBDriverMonitoringServerOpeningEvent::getHost](mongodb-driver-monitoring-serveropeningevent.gethost.html)
-    
--   [MongoDBDriverMonitoringServerOpeningEvent::getTopologyId »](mongodb-driver-monitoring-serveropeningevent.gettopologyid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
-    
--   Повертає порт, на якому прослуховується сервер
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-serveropeningevent.gethost.html: '« MongoDBDriverMonitoringServerOpeningEvent::getHost'
+  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.html: 'MongoDBDriverMonitoringServerOpeningEvent::getTopologyId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serveropeningevent.html: MongoDBDriverMonitoringServerOpeningEvent
+title: 'MongoDBDriverMonitoringServerOpeningEvent::getPort'
+---
 # MongoDBDriverMonitoringServerOpeningEvent::getPort
 
 (mongodb >=1.13.0)

@@ -1,16 +1,11 @@
-Перевірка допустимості елемента
-
--   [« RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.md)
-    
--   [RegexIterator »](class.regexiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveTreeIterator](class.recursivetreeiterator.md)
-    
--   Перевірка допустимості елемента
-    
-
+---
+navigation:
+  - recursivetreeiterator.setprefixpart.md: '« RecursiveTreeIterator::setPrefixPart'
+  - class.regexiterator.md: RegexIterator »
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
+title: 'RecursiveTreeIterator::valid'
+---
 # RecursiveTreeIterator::valid
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

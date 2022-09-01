@@ -1,16 +1,11 @@
-Змінні змінних
-
--   [« Область видимості змінної](language.variables.scope.md)
-    
--   [Змінні ззовні PHP »](language.variables.external.md)
-    
--   [PHP Manual](index.md)
-    
--   [Змінні](language.variables.md)
-    
--   Змінні змінних
-    
-
+---
+navigation:
+  - language.variables.scope.md: « Область видимості змінної
+  - language.variables.external.md: Змінні ззовні PHP »
+  - index.md: PHP Manual
+  - language.variables.md: Змінні
+title: Змінні змінних
+---
 ## Змінні змінних
 
 Іноді буває зручно мати змінними імена змінних. Тобто ім'я змінної, яке може бути визначено та змінено динамічно. Звичайна змінна визначається приблизно таким виразом:

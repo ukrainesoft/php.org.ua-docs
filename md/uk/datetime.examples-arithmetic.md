@@ -1,16 +1,11 @@
-Арифметика дати/часу
-
--   [« Приклади](datetime.examples.html)
-    
--   [DateTime »](class.datetime.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](datetime.examples.html)
-    
--   Арифметика дати/часу
-    
-
+---
+navigation:
+  - datetime.examples.html: « Приклади
+  - class.datetime.html: DateTime »
+  - index.html: PHP Manual
+  - datetime.examples.html: Приклади
+title: Арифметика дати/часу
+---
 ## Арифметика дати/часу
 
 У наступних прикладах показуються деякі підводні камені обчислень дати/часу, щодо переходів на літній та зимовий час (DST), та місяців, що мають різну кількість днів.

@@ -1,16 +1,11 @@
-Об'єднує елементи масиву в рядок
-
--   [« htmlspecialchars](function.htmlspecialchars.md)
-    
--   [join »](function.join.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Об'єднує елементи масиву в рядок
-    
-
+---
+navigation:
+  - function.htmlspecialchars.md: « htmlspecialchars
+  - function.join.md: join »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: implode
+---
 # implode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ implode(array $array, string $separator): string
 
 ### список змін
 
-| Версия | Описание                                                                                                |
-|--------|---------------------------------------------------------------------------------------------------------|
-|        | Передача `separator` після `array` більше не підтримується.                                             |
-|        | Передача `separator` після `array` (Тобто використання недокументованого порядку параметрів) застаріла. |
+| Версия | Описание |
+| --- | --- |
+|  | Передача `separator` після `array` більше не підтримується. |
+|  | Передача `separator` після `array` (Тобто використання недокументованого порядку параметрів) застаріла. |
 
 ### Приклади
 

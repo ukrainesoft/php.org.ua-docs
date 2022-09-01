@@ -1,16 +1,11 @@
-Функції SPL
-
--   [« UnexpectedValueException](class.unexpectedvalueexception.md)
-    
--   [classimplements »](function.class-implements.html)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Функції SPL
-    
-
+---
+navigation:
+  - class.unexpectedvalueexception.md: « UnexpectedValueException
+  - function.class-implements.html: classimplements »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Функції SPL
+---
 # Функції SPL
 
 ## Зміст

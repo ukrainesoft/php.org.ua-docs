@@ -1,16 +1,11 @@
-Вступ
-
--   [« Radius](book.radius.md)
-    
--   [Встановлення та налаштування »](radius.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Radius](book.radius.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.radius.md: « Radius
+  - radius.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.radius.md: Radius
+title: Вступ
+---
 # Вступ
 
 Пакет базується на бібліотеці libradius (Remote Authentication Dial In User Service) з FreeBSD. Він дозволяє проводити облік та автентифікацію клієнтів шляхом запитів до віддалених мережевих сервісів.

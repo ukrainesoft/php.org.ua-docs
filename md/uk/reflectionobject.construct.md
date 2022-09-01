@@ -1,16 +1,11 @@
-Конструктор класу ReflectionObject
-
--   [« ReflectionObject](class.reflectionobject.md)
-    
--   [ReflectionObject::export »](reflectionobject.export.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionObject](class.reflectionobject.md)
-    
--   Конструктор класу ReflectionObject
-    
-
+---
+navigation:
+  - class.reflectionobject.md: « ReflectionObject
+  - reflectionobject.export.md: 'ReflectionObject::export »'
+  - index.md: PHP Manual
+  - class.reflectionobject.md: ReflectionObject
+title: 'ReflectionObject::construct'
+---
 # ReflectionObject::construct
 
 (PHP 5, PHP 7, PHP 8)

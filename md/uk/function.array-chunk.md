@@ -1,16 +1,11 @@
-Розбиває масив на частини
-
--   [« arraychangekeycase](function.array-change-key-case.html)
-    
--   [arraycolumn »](function.array-column.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Розбиває масив на частини
-    
-
+---
+navigation:
+  - function.array-change-key-case.html: « arraychangekeycase
+  - function.array-column.html: arraycolumn »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraychunk
+---
 # arraychunk
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ array_chunk(array $array, int $length, bool $preserve_keys = false): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Якщо параметр `length` менше `1`, буде викинуто виняток [ValueError](class.valueerror.md); раніше, натомість видавалася помилка рівня **`E_WARNING`** та функція повертала **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | Якщо параметр `length` менше `1`, буде викинуто виняток [ValueError](class.valueerror.md); раніше, натомість видавалася помилка рівня **`E_WARNING`** та функція повертала **`null`** |
 
 ### Приклади
 

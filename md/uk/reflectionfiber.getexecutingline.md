@@ -1,16 +1,11 @@
-Отримує номер рядка поточної точки виконання
-
--   [« ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md)
-    
--   [ReflectionFiber::getFiber »](reflectionfiber.getfiber.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFiber](class.reflectionfiber.md)
-    
--   Отримує номер рядка поточної точки виконання
-    
-
+---
+navigation:
+  - reflectionfiber.getexecutingfile.md: '« ReflectionFiber::getExecutingFile'
+  - reflectionfiber.getfiber.md: 'ReflectionFiber::getFiber »'
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::getExecutingLine'
+---
 # ReflectionFiber::getExecutingLine
 
 (PHP 8> = 8.1.0)

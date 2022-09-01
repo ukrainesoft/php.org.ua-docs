@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineMySQL::setDefer](swoole-coroutine-mysql.setdefer.html)
-    
--   [SwooleCoroutine::resume »](swoole-coroutine.resume.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-mysql.setdefer.html: '« SwooleCoroutineMySQL::setDefer'
+  - swoole-coroutine.resume.html: 'SwooleCoroutine::resume »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutine::getuid'
+---
 # SwooleCoroutine::getuid
 
 (PECL swoole >= 2.0.0)

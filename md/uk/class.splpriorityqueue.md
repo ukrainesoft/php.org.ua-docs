@@ -1,16 +1,11 @@
-Клас SplPriorityQueue
-
--   [« SplMinHeap::compare](splminheap.compare.md)
-    
--   [SplPriorityQueue::compare »](splpriorityqueue.compare.md)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](spl.datastructures.md)
-    
--   Клас SplPriorityQueue
-    
-
+---
+navigation:
+  - splminheap.compare.md: '« SplMinHeap::compare'
+  - splpriorityqueue.compare.md: 'SplPriorityQueue::compare »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
+title: Клас SplPriorityQueue
+---
 # Клас SplPriorityQueue
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

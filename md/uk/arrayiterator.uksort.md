@@ -1,16 +1,11 @@
-Сортування за ключами за допомогою функції порівняння
-
--   [« ArrayIterator::uasort](arrayiterator.uasort.md)
-    
--   [ArrayIterator::unserialize »](arrayiterator.unserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Сортування за ключами за допомогою функції порівняння
-    
-
+---
+navigation:
+  - arrayiterator.uasort.md: '« ArrayIterator::uasort'
+  - arrayiterator.unserialize.md: 'ArrayIterator::unserialize »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::uksort'
+---
 # ArrayIterator::uksort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

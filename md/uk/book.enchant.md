@@ -1,16 +1,11 @@
-Бібліотека перевірки правопису Enchant
-
--   [« Підтримка мов та кодувань](refs.international.md)
-    
--   [Введение »](intro.enchant.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   Бібліотека перевірки правопису Enchant
-    
-
+---
+navigation:
+  - refs.international.md: « Підтримка мов та кодувань
+  - intro.enchant.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: Бібліотека перевірки правопису Enchant
+---
 # Бібліотека перевірки правопису Enchant
 
 -   [Введение](intro.enchant.md)

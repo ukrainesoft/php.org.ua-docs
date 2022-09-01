@@ -1,16 +1,11 @@
-Встановлення якості прослуховувача
-
--   [« openallistenerget](function.openal-listener-get.html)
-    
--   [openalsourcecreate »](function.openal-source-create.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenAL](ref.openal.md)
-    
--   Встановлення якості прослуховувача
-    
-
+---
+navigation:
+  - function.openal-listener-get.html: « openallistenerget
+  - function.openal-source-create.html: openalsourcecreate »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
+title: openallistenerset
+---
 # openallistenerset
 
 (PECL openal >= 0.1.0)

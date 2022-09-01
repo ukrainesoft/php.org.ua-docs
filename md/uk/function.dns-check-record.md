@@ -1,16 +1,11 @@
-Псевдонім checkdnsrr
-
--   [« closelog](function.closelog.md)
-    
--   [dnsgetmx »](function.dns-get-mx.html)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Псевдонім checkdnsrr
-    
-
+---
+navigation:
+  - function.closelog.md: « closelog
+  - function.dns-get-mx.html: dnsgetmx »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: dnscheckrecord
+---
 # dnscheckrecord
 
 (PHP 5, PHP 7, PHP 8)

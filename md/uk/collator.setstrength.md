@@ -1,16 +1,11 @@
-Встановлює силу зіставлення
-
--   [« Collator::setAttribute](collator.setattribute.md)
-    
--   [Collator::sortWithSortKeys »](collator.sortwithsortkeys.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Встановлює силу зіставлення
-    
-
+---
+navigation:
+  - collator.setattribute.md: '« Collator::setAttribute'
+  - collator.sortwithsortkeys.md: 'Collator::sortWithSortKeys »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::setStrength'
+---
 # Collator::setStrength
 
 # collatorsetstrength

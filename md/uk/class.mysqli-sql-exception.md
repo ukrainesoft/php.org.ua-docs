@@ -1,16 +1,11 @@
-Клас mysqlisqlexception
-
--   [« mysqliwarning::next](mysqli-warning.next.html)
-    
--   [mysqlisqlexception::getSqlState »](mysqli-sql-exception.getsqlstate.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQLi](book.mysqli.md)
-    
--   Клас mysqlisqlexception
-    
-
+---
+navigation:
+  - mysqli-warning.next.html: '« mysqliwarning::next'
+  - mysqli-sql-exception.getsqlstate.html: 'mysqlisqlexception::getSqlState »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
+title: Клас mysqlisqlexception
+---
 # Клас mysqlisqlexception
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає максимальну область, що обмежує між зображеннями
-
--   [« Imagick::compareImageChannels](imagick.compareimagechannels.md)
-    
--   [Imagick::compareImages »](imagick.compareimages.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає максимальну область, що обмежує між зображеннями
-    
-
+---
+navigation:
+  - imagick.compareimagechannels.md: '« Imagick::compareImageChannels'
+  - imagick.compareimages.md: 'Imagick::compareImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::compareImageLayers'
+---
 # Imagick::compareImageLayers
 
 (PECL imagick 2, PECL imagick 3)

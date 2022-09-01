@@ -1,16 +1,11 @@
-Додати сторінку
-
--   [« UIControlsTab](class.ui-controls-tab.html)
-    
--   [ОЙControlsTab::delete »](ui-controls-tab.delete.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsTab](class.ui-controls-tab.html)
-    
--   Додати сторінку
-    
-
+---
+navigation:
+  - class.ui-controls-tab.html: « UIControlsTab
+  - ui-controls-tab.delete.html: 'ОЙControlsTab::delete »'
+  - index.html: PHP Manual
+  - class.ui-controls-tab.html: ОЙControlsTab
+title: 'ОЙControlsTab::append'
+---
 # ОЙControlsTab::append
 
 (UI 0.9.9)

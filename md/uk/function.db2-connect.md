@@ -1,16 +1,11 @@
-Повертає з'єднання з базою даних
-
--   [« db2connerrormsg](function.db2-conn-errormsg.html)
-    
--   [db2cursortype »](function.db2-cursor-type.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.db2-conn-errormsg.html: « db2connerrormsg
+  - function.db2-cursor-type.html: db2cursortype »
+  - index.html: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2connect
+---
 # db2connect
 
 (PECL ibmdb2> = 1.0.0)

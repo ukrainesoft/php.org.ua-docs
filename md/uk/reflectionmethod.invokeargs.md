@@ -1,16 +1,11 @@
-Виклик методу з передачею аргументів масивом
-
--   [« ReflectionMethod::invoke](reflectionmethod.invoke.md)
-    
--   [ReflectionMethod::isAbstract »](reflectionmethod.isabstract.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Виклик методу з передачею аргументів масивом
-    
-
+---
+navigation:
+  - reflectionmethod.invoke.md: '« ReflectionMethod::invoke'
+  - reflectionmethod.isabstract.md: 'ReflectionMethod::isAbstract »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::invokeArgs'
+---
 # ReflectionMethod::invokeArgs
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

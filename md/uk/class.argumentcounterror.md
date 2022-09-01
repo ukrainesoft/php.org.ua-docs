@@ -1,16 +1,11 @@
-ArgumentCountError
-
--   [« Error::clone](error.clone.md)
-    
--   [ArithmeticError »](class.arithmeticerror.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обумовлені винятки](reserved.exceptions.md)
-    
--   ArgumentCountError
-    
-
+---
+navigation:
+  - error.clone.md: '« Error::clone'
+  - class.arithmeticerror.md: ArithmeticError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
+title: ArgumentCountError
+---
 # ArgumentCountError
 
 (PHP 7> = PHP 7.1.0, PHP 8)

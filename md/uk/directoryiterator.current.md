@@ -1,16 +1,11 @@
-Повертає поточний елемент DirectoryIterator
-
--   [« DirectoryIterator::construct](directoryiterator.construct.md)
-    
--   [DirectoryIterator::getATime »](directoryiterator.getatime.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає поточний елемент DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.construct.md: '« DirectoryIterator::construct'
+  - directoryiterator.getatime.md: 'DirectoryIterator::getATime »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::current'
+---
 # DirectoryIterator::current
 
 (PHP 5, PHP 7, PHP 8)

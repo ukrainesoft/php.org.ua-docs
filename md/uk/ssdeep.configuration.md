@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](ssdeep.installation.html)
-    
--   [Типи ресурсів »](ssdeep.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ssdeep.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - ssdeep.installation.html: « Установка
+  - ssdeep.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - ssdeep.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

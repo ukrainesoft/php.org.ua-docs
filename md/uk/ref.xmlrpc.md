@@ -1,16 +1,11 @@
-Функції XML-RPC
-
--   [« Обумовлені константи](xmlrpc.constants.md)
-    
--   [xmlrpcdecoderequest »](function.xmlrpc-decode-request.html)
-    
--   [PHP Manual](index.md)
-    
--   [XML-RPC](book.xmlrpc.md)
-    
--   Функції XML-RPC
-    
-
+---
+navigation:
+  - xmlrpc.constants.md: « Обумовлені константи
+  - function.xmlrpc-decode-request.html: xmlrpcdecoderequest »
+  - index.md: PHP Manual
+  - book.xmlrpc.md: XML-RPC
+title: Функції XML-RPC
+---
 # Функції XML-RPC
 
 ## Зміст

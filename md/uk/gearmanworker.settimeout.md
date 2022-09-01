@@ -1,16 +1,11 @@
-Завдання часу очікування на введення/виведення на сокеті
-
--   [« GearmanWorker::setOptions](gearmanworker.setoptions.html)
-    
--   [GearmanWorker::timeout »](gearmanworker.timeout.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanWorker](class.gearmanworker.html)
-    
--   Завдання часу очікування на введення/виведення на сокеті
-    
-
+---
+navigation:
+  - gearmanworker.setoptions.html: '« GearmanWorker::setOptions'
+  - gearmanworker.timeout.html: 'GearmanWorker::timeout »'
+  - index.html: PHP Manual
+  - class.gearmanworker.html: GearmanWorker
+title: 'GearmanWorker::setTimeout'
+---
 # GearmanWorker::setTimeout
 
 (PECL gearman >= 0.6.0)

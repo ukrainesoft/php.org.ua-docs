@@ -1,16 +1,11 @@
-Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
-
--   [« DirectoryIterator::getATime](directoryiterator.getatime.md)
-    
--   [DirectoryIterator::getCTime »](directoryiterator.getctime.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
-    
-
+---
+navigation:
+  - directoryiterator.getatime.md: '« DirectoryIterator::getATime'
+  - directoryiterator.getctime.md: 'DirectoryIterator::getCTime »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getBasename'
+---
 # DirectoryIterator::getBasename
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас MongoDBBSONUTCDateTime
-
--   [« MongoDBBSONTimestamp::unserialize](mongodb-bson-timestamp.unserialize.html)
-    
--   [MongoDBBSONUTCDateTime::construct »](mongodb-bson-utcdatetime.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Клас MongoDBBSONUTCDateTime
-    
-
+---
+navigation:
+  - mongodb-bson-timestamp.unserialize.html: '« MongoDBBSONTimestamp::unserialize'
+  - mongodb-bson-utcdatetime.construct.html: 'MongoDBBSONUTCDateTime::construct »'
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Клас MongoDBBSONUTCDateTime
+---
 # Клас MongoDBBSONUTCDateTime
 
 (mongodb >=1.0.0)
@@ -49,11 +44,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия              | Описание                                                                                                      |
-|---------------------|---------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+.                                          |
-| PECL mongodb 1.3.0  | Реалізує інтерфейс [MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)            |
-| PECL mongodb 1.2.0  | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 

@@ -1,16 +1,11 @@
-Перевіряє, чи є черга порожньою
-
--   [« SplPriorityQueue::isCorrupted](splpriorityqueue.iscorrupted.md)
-    
--   [SplPriorityQueue::key »](splpriorityqueue.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplPriorityQueue](class.splpriorityqueue.md)
-    
--   Перевіряє, чи є черга порожньою
-    
-
+---
+navigation:
+  - splpriorityqueue.iscorrupted.md: '« SplPriorityQueue::isCorrupted'
+  - splpriorityqueue.key.md: 'SplPriorityQueue::key »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::isEmpty'
+---
 # SplPriorityQueue::isEmpty
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

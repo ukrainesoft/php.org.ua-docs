@@ -1,16 +1,11 @@
-Відновлює виконання файбера зі значенням
-
--   [« Fiber::start](fiber.start.md)
-    
--   [Fiber::throw »](fiber.throw.md)
-    
--   [PHP Manual](index.md)
-    
--   [Fiber](class.fiber.md)
-    
--   Відновлює виконання файбера зі значенням
-    
-
+---
+navigation:
+  - fiber.start.md: '« Fiber::start'
+  - fiber.throw.md: 'Fiber::throw »'
+  - index.md: PHP Manual
+  - class.fiber.md: Fiber
+title: 'Fiber::resume'
+---
 # Fiber::resume
 
 (PHP 8> = 8.1.0)

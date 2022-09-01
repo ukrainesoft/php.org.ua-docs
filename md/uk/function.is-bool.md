@@ -1,16 +1,11 @@
-Перевіряє, чи є змінна булевою
-
--   [« isarray](function.is-array.html)
-    
--   [ісcallable »](function.is-callable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Перевіряє, чи є змінна булевою
-    
-
+---
+navigation:
+  - function.is-array.html: « isarray
+  - function.is-callable.html: ісcallable »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісbool
+---
 # ісbool
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

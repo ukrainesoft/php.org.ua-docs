@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONSymbol::construct](mongodb-bson-symbol.construct.html)
-    
--   [MongoDBBSONSymbol::serialize »](mongodb-bson-symbol.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONSymbol](class.mongodb-bson-symbol.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-symbol.construct.html: '« MongoDBBSONSymbol::construct'
+  - mongodb-bson-symbol.serialize.html: 'MongoDBBSONSymbol::serialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol
+title: 'MongoDBBSONSymbol::jsonSerialize'
+---
 # MongoDBBSONSymbol::jsonSerialize
 
 (mongodb >=1.4.0)

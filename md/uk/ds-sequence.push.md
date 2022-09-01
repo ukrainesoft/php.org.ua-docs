@@ -1,16 +1,11 @@
-Додає значення до кінця послідовності
-
--   [« DsSequence::pop](ds-sequence.pop.html)
-    
--   [ДсSequence::reduce »](ds-sequence.reduce.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Додає значення до кінця послідовності
-    
-
+---
+navigation:
+  - ds-sequence.pop.html: '« DsSequence::pop'
+  - ds-sequence.reduce.html: 'ДсSequence::reduce »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::push'
+---
 # ДсSequence::push
 
 (PECL ds >= 1.0.0)

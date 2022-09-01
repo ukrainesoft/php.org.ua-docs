@@ -1,16 +1,11 @@
-Встановлює умову для агрегатних функцій
-
--   [« CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.html)
-    
--   [CollectionFind::limit »](mysql-xdevapi-collectionfind.limit.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Встановлює умову для агрегатних функцій
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.groupby.html: '« CollectionFind::groupBy'
+  - mysql-xdevapi-collectionfind.limit.html: 'CollectionFind::limit »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::having'
+---
 # CollectionFind::having
 
 (No version information available, might only be in Git)

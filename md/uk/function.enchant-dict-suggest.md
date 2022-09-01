@@ -1,16 +1,11 @@
-Поверне список можливих варіантів для слова з помилкою
-
--   [« enchantdictstorereplacement](function.enchant-dict-store-replacement.html)
-    
--   [EnchantBroker »](class.enchantbroker.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Поверне список можливих варіантів для слова з помилкою
-    
-
+---
+navigation:
+  - function.enchant-dict-store-replacement.html: « enchantdictstorereplacement
+  - class.enchantbroker.md: EnchantBroker »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictsuggest
+---
 # enchantdictsuggest
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -39,9 +34,9 @@ enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

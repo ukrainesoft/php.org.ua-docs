@@ -1,16 +1,11 @@
-Повернути номер помилки LDAP останньої команди
-
--   [« ldaperr2str](function.ldap-err2str.html)
-    
--   [ldaperror »](function.ldap-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Повернути номер помилки LDAP останньої команди
-    
-
+---
+navigation:
+  - function.ldap-err2str.html: « ldaperr2str
+  - function.ldap-error.html: ldaperror »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldaperrno
+---
 # ldaperrno
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ ldap_errno(LDAP\Connection $ldap): int
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

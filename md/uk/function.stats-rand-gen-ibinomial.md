@@ -1,16 +1,11 @@
-Обчислює випадкове відхилення від біномінального розподілу
-
--   [« statsrandgenibinomialnegative](function.stats-rand-gen-ibinomial-negative.html)
-    
--   [statsrandgenint »](function.stats-rand-gen-int.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює випадкове відхилення від біномінального розподілу
-    
-
+---
+navigation:
+  - function.stats-rand-gen-ibinomial-negative.html: « statsrandgenibinomialnegative
+  - function.stats-rand-gen-int.html: statsrandgenint »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statsrandгенibinomial
+---
 # statsrandгенibinomial
 
 (PECL stats >= 1.0.0)

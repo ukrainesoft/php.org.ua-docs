@@ -1,16 +1,11 @@
-Переносить слово
-
--   [«psgetvalue](function.ps-get-value.html)
-    
--   [псincludefile »](function.ps-include-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Переносить слово
-    
-
+---
+navigation:
+  - function.ps-get-value.html: «psgetvalue
+  - function.ps-include-file.html: псincludefile »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псhyphenate
+---
 # псhyphenate
 
 (PECL ps >= 1.1.1)

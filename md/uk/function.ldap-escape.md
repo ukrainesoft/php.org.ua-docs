@@ -1,16 +1,11 @@
-Екранування рядка для використання у фільтрі LDAP або DN
-
--   [« ldaperror](function.ldap-error.html)
-    
--   [ldapexoppasswd »](function.ldap-exop-passwd.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції LDAP](ref.ldap.html)
-    
--   Екранування рядка для використання у фільтрі LDAP або DN
-    
-
+---
+navigation:
+  - function.ldap-error.html: « ldaperror
+  - function.ldap-exop-passwd.html: ldapexoppasswd »
+  - index.html: PHP Manual
+  - ref.ldap.html: Функції LDAP
+title: ldapescape
+---
 # ldapescape
 
 (PHP 5> = 5.6.0, PHP 7, PHP 8)

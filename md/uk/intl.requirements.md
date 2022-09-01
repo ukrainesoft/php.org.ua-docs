@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](intl.setup.html)
-    
--   [Установка »](intl.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](intl.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - intl.setup.html: « Встановлення та налаштування
+  - intl.installation.html: Установка »
+  - index.html: PHP Manual
+  - intl.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для встановлення даного модуля необхідно попередньо встановити бібліотеку [» ICU](http://www.icu-project.org/) версії 4.0.0 та вище. Починаючи з PHP 7.4.0, потрібно ICU 50.1 або новіше.

@@ -1,16 +1,11 @@
-Генерує одне випадкове відхилення від t-розподілу
-
--   [« statsrandgennormal](function.stats-rand-gen-normal.html)
-    
--   [statsrandgetseeds »](function.stats-rand-get-seeds.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Генерує одне випадкове відхилення від t-розподілу
-    
-
+---
+navigation:
+  - function.stats-rand-gen-normal.html: « statsrandgennormal
+  - function.stats-rand-get-seeds.html: statsrandgetseeds »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsrandгент
+---
 # statsrandгент
 
 (PECL stats >= 1.0.0)

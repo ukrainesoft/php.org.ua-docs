@@ -1,16 +1,11 @@
-Завантажує файл із віддаленого сервера
-
--   [« SwooleHttpClient::destruct](swoole-http-client.destruct.html)
-    
--   [SwooleHttpClient::execute »](swoole-http-client.execute.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleHttpClient](class.swoole-http-client.html)
-    
--   Завантажує файл із віддаленого сервера
-    
-
+---
+navigation:
+  - swoole-http-client.destruct.html: '« SwooleHttpClient::destruct'
+  - swoole-http-client.execute.html: 'SwooleHttpClient::execute »'
+  - index.html: PHP Manual
+  - class.swoole-http-client.html: SwooleHttpClient
+title: 'SwooleHttpClient::download'
+---
 # SwooleHttpClient::download
 
 (PECL swoole >= 1.9.0)

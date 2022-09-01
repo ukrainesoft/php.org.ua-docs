@@ -1,16 +1,11 @@
-Повернути список певних функцій
-
--   [« SoapServer::fault](soapserver.fault.md)
-    
--   [SoapServer::handle »](soapserver.handle.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Повернути список певних функцій
-    
-
+---
+navigation:
+  - soapserver.fault.md: '« SoapServer::fault'
+  - soapserver.handle.md: 'SoapServer::handle »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::getFunctions'
+---
 # SoapServer::getFunctions
 
 (PHP 5, PHP 7, PHP 8)

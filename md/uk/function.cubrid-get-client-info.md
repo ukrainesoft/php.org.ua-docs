@@ -1,16 +1,11 @@
-Повертає версію клієнтської бібліотеки
-
--   [« cubridgetclassname](function.cubrid-get-class-name.html)
-    
--   [cubridgetдбparameter »](function.cubrid-get-db-parameter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Повертає версію клієнтської бібліотеки
-    
-
+---
+navigation:
+  - function.cubrid-get-class-name.html: « cubridgetclassname
+  - function.cubrid-get-db-parameter.html: cubridgetдбparameter »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridgetclientinfo
+---
 # cubridgetclientinfo
 
 (PECL CUBRID >= 8.3.0)

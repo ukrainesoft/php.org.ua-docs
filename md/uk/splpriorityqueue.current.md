@@ -1,16 +1,11 @@
-Повертає поточний вузол, який вказує ітератор
-
--   [« SplPriorityQueue::count](splpriorityqueue.count.md)
-    
--   [SplPriorityQueue::extract »](splpriorityqueue.extract.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplPriorityQueue](class.splpriorityqueue.md)
-    
--   Повертає поточний вузол, який вказує ітератор
-    
-
+---
+navigation:
+  - splpriorityqueue.count.md: '« SplPriorityQueue::count'
+  - splpriorityqueue.extract.md: 'SplPriorityQueue::extract »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
+title: 'SplPriorityQueue::current'
+---
 # SplPriorityQueue::current
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

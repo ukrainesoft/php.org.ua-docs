@@ -1,16 +1,11 @@
-Повертає останню помилку, пов'язану із вказівником на ресурс
-
--   [« eiogeteventstream](function.eio-get-event-stream.html)
-    
--   [eiogrpadd »](function.eio-grp-add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Повертає останню помилку, пов'язану із вказівником на ресурс
-    
-
+---
+navigation:
+  - function.eio-get-event-stream.html: « eiogeteventstream
+  - function.eio-grp-add.html: eiogrpadd »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiogetlasterror
+---
 # eiogetlasterror
 
 (PECL eio >= 1.0.0)

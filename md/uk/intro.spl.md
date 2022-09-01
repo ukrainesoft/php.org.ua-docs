@@ -1,16 +1,11 @@
-Вступ
-
--   [« SPL](book.spl.md)
-    
--   [Встановлення та налаштування »](spl.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [SPL](book.spl.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.spl.md: « SPL
+  - spl.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.spl.md: SPL
+title: Вступ
+---
 # Вступ
 
 Стандартна бібліотека PHP (SPL) - це набір інтерфейсів та класів, призначених для вирішення стандартних завдань.

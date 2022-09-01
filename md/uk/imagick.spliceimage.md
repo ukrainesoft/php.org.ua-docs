@@ -1,16 +1,11 @@
-Склеює суцільний колір у зображення
-
--   [« Imagick::sparseColorImage](imagick.sparsecolorimage.md)
-    
--   [Imagick::spreadImage »](imagick.spreadimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Склеює суцільний колір у зображення
-    
-
+---
+navigation:
+  - imagick.sparsecolorimage.md: '« Imagick::sparseColorImage'
+  - imagick.spreadimage.md: 'Imagick::spreadImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::spliceImage'
+---
 # Imagick::spliceImage
 
 (PECL imagick 2, PECL imagick 3)

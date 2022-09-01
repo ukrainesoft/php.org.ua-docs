@@ -1,16 +1,11 @@
-Переходить до наступного зображення
-
--   [« Imagick::newPseudoImage](imagick.newpseudoimage.md)
-    
--   [Imagick::normalizeImage »](imagick.normalizeimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Переходить до наступного зображення
-    
-
+---
+navigation:
+  - imagick.newpseudoimage.md: '« Imagick::newPseudoImage'
+  - imagick.normalizeimage.md: 'Imagick::normalizeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::nextImage'
+---
 # Imagick::nextImage
 
 (PECL imagick 2, PECL imagick 3)

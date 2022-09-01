@@ -1,16 +1,11 @@
-Видалити глобальні метадані для zip-архіву
-
--   [« PharData::decompressFiles](phardata.decompressfiles.md)
-    
--   [PharData::delete »](phardata.delete.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Видалити глобальні метадані для zip-архіву
-    
-
+---
+navigation:
+  - phardata.decompressfiles.md: '« PharData::decompressFiles'
+  - phardata.delete.md: 'PharData::delete »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::delMetadata'
+---
 # PharData::delMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

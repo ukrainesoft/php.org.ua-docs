@@ -1,16 +1,11 @@
-Додати змінну до кешу
-
--   [« Функции APCu](ref.apcu.md)
-    
--   [apcucacheinfo »](function.apcu-cache-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции APCu](ref.apcu.md)
-    
--   Додати змінну до кешу
-    
-
+---
+navigation:
+  - ref.apcu.md: « Функции APCu
+  - function.apcu-cache-info.html: apcucacheinfo »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
+title: apcuadd
+---
 # apcuadd
 
 (PECL apcu >= 4.0.0)

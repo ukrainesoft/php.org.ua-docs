@@ -1,16 +1,11 @@
-Повертає ім'я сервера хоста
-
--   [« MongoDBDriverMonitoringServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
-    
--   [MongoDBDriverMonitoringServerClosedEvent::getPort »](mongodb-driver-monitoring-serverclosedevent.getport.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
-    
--   Повертає ім'я сервера хоста
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-serverclosedevent.html: « MongoDBDriverMonitoringServerClosedEvent
+  - mongodb-driver-monitoring-serverclosedevent.getport.html: 'MongoDBDriverMonitoringServerClosedEvent::getPort »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverclosedevent.html: MongoDBDriverMonitoringServerClosedEvent
+title: 'MongoDBDriverMonitoringServerClosedEvent::getHost'
+---
 # MongoDBDriverMonitoringServerClosedEvent::getHost
 
 (mongodb >=1.13.0)

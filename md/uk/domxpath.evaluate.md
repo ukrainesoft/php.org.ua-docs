@@ -1,16 +1,11 @@
-Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
-
--   [« DOMXPath::construct](domxpath.construct.md)
-    
--   [DOMXPath::query »](domxpath.query.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMXPath](class.domxpath.md)
-    
--   Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
-    
-
+---
+navigation:
+  - domxpath.construct.md: '« DOMXPath::construct'
+  - domxpath.query.md: 'DOMXPath::query »'
+  - index.md: PHP Manual
+  - class.domxpath.md: DOMXPath
+title: 'DOMXPath::evaluate'
+---
 # DOMXPath::evaluate
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

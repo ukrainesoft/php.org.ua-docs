@@ -1,16 +1,11 @@
-Інтерфейс MongoDBBSONMaxKeyInterface
-
--   [« MongoDBBSONJavascriptInterface::toString](mongodb-bson-javascriptinterface.tostring.html)
-    
--   [MongoDBBSONMinKeyInterface »](class.mongodb-bson-minkeyinterface.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSON](book.bson.html)
-    
--   Інтерфейс MongoDBBSONMaxKeyInterface
-    
-
+---
+navigation:
+  - mongodb-bson-javascriptinterface.tostring.html: '« MongoDBBSONJavascriptInterface::toString'
+  - class.mongodb-bson-minkeyinterface.html: MongoDBBSONMinKeyInterface »
+  - index.html: PHP Manual
+  - book.bson.html: MongoDBBSON
+title: Інтерфейс MongoDBBSONMaxKeyInterface
+---
 # Інтерфейс MongoDBBSONMaxKeyInterface
 
 (mongodb >=1.3.0)

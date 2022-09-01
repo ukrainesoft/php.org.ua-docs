@@ -1,16 +1,11 @@
-Видаляє краї із зображення
-
--   [« Gmagick::thumbnailimage](gmagick.thumbnailimage.html)
-    
--   [Gmagick::write »](gmagick.write.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Видаляє краї із зображення
-    
-
+---
+navigation:
+  - gmagick.thumbnailimage.html: '« Gmagick::thumbnailimage'
+  - gmagick.write.html: 'Gmagick::write »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::trimimage'
+---
 # Gmagick::trimimage
 
 (PECL gmagick >= Unknown)

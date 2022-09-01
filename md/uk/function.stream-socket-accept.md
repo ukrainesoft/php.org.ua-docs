@@ -1,16 +1,11 @@
-Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
-
--   [« streamsetwritebuffer](function.stream-set-write-buffer.html)
-    
--   [streamsocketclient »](function.stream-socket-client.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
-    
-
+---
+navigation:
+  - function.stream-set-write-buffer.html: « streamsetwritebuffer
+  - function.stream-socket-client.html: streamsocketclient »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamsocketaccept
+---
 # streamsocketaccept
 
 (PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_nam
 
 ### список змін
 
-| Версия | Описание                                |
-|--------|-----------------------------------------|
-|        | `timeout` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timeout` тепер допускає значення null. |
 
 ### Примітки
 

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.password.md)
-    
--   [Вимоги »](password.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Хеширование паролей](book.password.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.password.md: « Введение
+  - password.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.password.md: Хеширование паролей
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Питання безпеки](win32service.security.md)
-    
--   [Побутові маски типу служби Win32Service](win32service.constants.servicetype.md)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](book.win32service.md)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - win32service.security.md: « Питання безпеки
+  - win32service.constants.servicetype.md: Побутові маски типу служби Win32Service
+  - index.md: PHP Manual
+  - book.win32service.md: win32service
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 ## Зміст

@@ -1,16 +1,11 @@
-Повертає файл, на який вказує символічне посилання
-
--   [« readfile](function.readfile.html)
-    
--   [realpathcacheget »](function.realpath-cache-get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Повертає файл, на який вказує символічне посилання
-    
-
+---
+navigation:
+  - function.readfile.html: « readfile
+  - function.realpath-cache-get.html: realpathcacheget »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: readlink
+---
 # readlink
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

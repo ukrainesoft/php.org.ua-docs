@@ -1,16 +1,11 @@
-Псевдонім ocinewdescriptor
-
--   [« ocinewcursor](function.ocinewcursor.html)
-    
--   [ocinlogon »](function.ocinlogon.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ocinewdescriptor
-    
-
+---
+navigation:
+  - function.ocinewcursor.html: « ocinewcursor
+  - function.ocinlogon.html: ocinlogon »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocinewdescriptor
+---
 # ocinewdescriptor
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

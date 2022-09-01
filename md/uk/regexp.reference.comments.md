@@ -1,16 +1,11 @@
-Коментарі
-
--   [« Умовні підмаски](regexp.reference.conditional.html)
-    
--   [Рекурсивні шаблони »](regexp.reference.recursive.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.html)
-    
--   Коментарі
-    
-
+---
+navigation:
+  - regexp.reference.conditional.html: « Умовні підмаски
+  - regexp.reference.recursive.html: Рекурсивні шаблони »
+  - index.html: PHP Manual
+  - reference.pcre.pattern.syntax.html: Опис синтаксису Perl-сумісних регулярних виразів
+title: Коментарі
+---
 ## Коментарі
 
 Службова послідовність (?# позначає початок коментаря, який триває до найближчої дужки, що закриває. Вкладені дужки не допускаються. Символи, що знаходяться всередині коментаря, не беруть участі в зіставленні шаблону.

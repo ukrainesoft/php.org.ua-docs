@@ -1,16 +1,11 @@
-Перехід до наступного об'єкту
-
--   [« SplObjectStorage::key](splobjectstorage.key.md)
-    
--   [SplObjectStorage::offsetExists »](splobjectstorage.offsetexists.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Перехід до наступного об'єкту
-    
-
+---
+navigation:
+  - splobjectstorage.key.md: '« SplObjectStorage::key'
+  - splobjectstorage.offsetexists.md: 'SplObjectStorage::offsetExists »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::next'
+---
 # SplObjectStorage::next
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

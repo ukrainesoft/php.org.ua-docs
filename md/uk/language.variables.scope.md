@@ -1,16 +1,11 @@
-Область видимості змінної
-
--   [«Зумовлені змінні](language.variables.predefined.md)
-    
--   [Змінні змінні »](language.variables.variable.md)
-    
--   [PHP Manual](index.md)
-    
--   [Змінні](language.variables.md)
-    
--   Область видимості змінної
-    
-
+---
+navigation:
+  - language.variables.predefined.md: «Зумовлені змінні
+  - language.variables.variable.md: Змінні змінні »
+  - index.md: PHP Manual
+  - language.variables.md: Змінні
+title: Область видимості змінної
+---
 ## Область видимості змінної
 
 Область видимості змінної – це контекст, у якому ця змінна визначена. У більшості випадків всі змінні PHP мають лише одну область видимості. Ця єдина область видимості охоплює також файли, що включаються (include) і необхідні (require). Наприклад:

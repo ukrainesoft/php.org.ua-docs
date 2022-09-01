@@ -1,16 +1,11 @@
-Малює прямокутник
-
--   [« GmagickDraw::polyline](gmagickdraw.polyline.html)
-    
--   [GmagickDraw::rotate »](gmagickdraw.rotate.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Малює прямокутник
-    
-
+---
+navigation:
+  - gmagickdraw.polyline.html: '« GmagickDraw::polyline'
+  - gmagickdraw.rotate.html: 'GmagickDraw::rotate »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::rectangle'
+---
 # GmagickDraw::rectangle
 
 (PECL gmagick >= Unknown)

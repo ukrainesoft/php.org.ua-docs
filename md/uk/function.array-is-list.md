@@ -1,16 +1,11 @@
-Перевіряє, чи є даний array списком
-
--   [« arrayintersect](function.array-intersect.html)
-    
--   [arraykeyexists »](function.array-key-exists.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з масивами](ref.array.html)
-    
--   Перевіряє, чи є даний array списком
-    
-
+---
+navigation:
+  - function.array-intersect.html: « arrayintersect
+  - function.array-key-exists.html: arraykeyexists »
+  - index.html: PHP Manual
+  - ref.array.html: Функції для роботи з масивами
+title: arrayісlist
+---
 # arrayісlist
 
 (PHP 8> = 8.1.0)

@@ -1,16 +1,11 @@
-Повертає числовий код результату останнього невдалого запиту SQLite
-
--   [« SQLite3::exec](sqlite3.exec.html)
-    
--   [SQLite3::lastErrorMsg »](sqlite3.lasterrormsg.html)
-    
--   [PHP Manual](index.html)
-    
--   [SQLite3](class.sqlite3.html)
-    
--   Повертає числовий код результату останнього невдалого запиту SQLite
-    
-
+---
+navigation:
+  - sqlite3.exec.html: '« SQLite3::exec'
+  - sqlite3.lasterrormsg.html: 'SQLite3::lastErrorMsg »'
+  - index.html: PHP Manual
+  - class.sqlite3.html: SQLite3
+title: 'SQLite3::lastErrorCode'
+---
 # SQLite3::lastErrorCode
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

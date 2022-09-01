@@ -1,16 +1,11 @@
-Встановлює умову для зупинки
-
--   [« SolrQuery::setTermsSort](solrquery.settermssort.md)
-    
--   [SolrQuery::setTimeAllowed »](solrquery.settimeallowed.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Встановлює умову для зупинки
-    
-
+---
+navigation:
+  - solrquery.settermssort.md: '« SolrQuery::setTermsSort'
+  - solrquery.settimeallowed.md: 'SolrQuery::setTimeAllowed »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::setTermsUpperBound'
+---
 # SolrQuery::setTermsUpperBound
 
 (PECL solr> = 0.9.2)

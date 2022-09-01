@@ -1,16 +1,11 @@
-Клас SplMinHeap
-
--   [« SplMaxHeap::compare](splmaxheap.compare.html)
-    
--   [SplMinHeap::compare »](splminheap.compare.html)
-    
--   [PHP Manual](index.html)
-    
--   [Структури даних](spl.datastructures.html)
-    
--   Клас SplMinHeap
-    
-
+---
+navigation:
+  - splmaxheap.compare.html: '« SplMaxHeap::compare'
+  - splminheap.compare.html: 'SplMinHeap::compare »'
+  - index.html: PHP Manual
+  - spl.datastructures.html: Структури даних
+title: Клас SplMinHeap
+---
 # Клас SplMinHeap
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Встановити псевдонім для Phar-архіву
-
--   [« Phar::running](phar.running.md)
-    
--   [Phar::setDefaultStub »](phar.setdefaultstub.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Встановити псевдонім для Phar-архіву
-    
-
+---
+navigation:
+  - phar.running.md: '« Phar::running'
+  - phar.setdefaultstub.md: 'Phar::setDefaultStub »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::setAlias'
+---
 # Phar::setAlias
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.1)

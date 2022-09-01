@@ -1,16 +1,11 @@
-Конструктор SoapVar
-
--   [« SoapVar](class.soapvar.md)
-    
--   [Yar »](book.yar.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapVar](class.soapvar.md)
-    
--   Конструктор SoapVar
-    
-
+---
+navigation:
+  - class.soapvar.md: « SoapVar
+  - book.yar.md: Yar »
+  - index.md: PHP Manual
+  - class.soapvar.md: SoapVar
+title: 'SoapVar::construct'
+---
 # SoapVar::construct
 
 (PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ public **SoapVar::construct**
 
 ### список змін
 
-| Версия | Описание                                                                                |
-|--------|-----------------------------------------------------------------------------------------|
-|        | `typeName` `typeNamespace` `nodeName` і `nodeNamespace` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `typeName` `typeNamespace` `nodeName` і `nodeNamespace` тепер допускають значення null. |
 
 ### Приклади
 

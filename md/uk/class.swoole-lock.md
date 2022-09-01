@@ -1,16 +1,11 @@
-Клас SwooleLock
-
--   [« SwooleHttpServer::start](swoole-http-server.start.html)
-    
--   [SwooleLock::construct »](swoole-lock.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleLock
-    
-
+---
+navigation:
+  - swoole-http-server.start.html: '« SwooleHttpServer::start'
+  - swoole-lock.construct.html: 'SwooleLock::construct »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleLock
+---
 # Клас SwooleLock
 
 (PECL swoole >= 1.9.0)

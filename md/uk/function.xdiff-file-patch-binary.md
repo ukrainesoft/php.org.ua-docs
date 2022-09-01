@@ -1,16 +1,11 @@
-Псевдонім для xdifffilebpatch
-
--   [xdifffilemerge3](function.xdiff-file-merge3.html)
-    
--   [xdifffilepatch »](function.xdiff-file-patch.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції xdiff](ref.xdiff.html)
-    
--   Псевдонім для xdifffilebpatch
-    
-
+---
+navigation:
+  - function.xdiff-file-merge3.html: xdifffilemerge3
+  - function.xdiff-file-patch.html: xdifffilepatch »
+  - index.html: PHP Manual
+  - ref.xdiff.html: Функції xdiff
+title: xdifffilepatchbinary
+---
 # xdifffilepatchbinary
 
 (PECL xdiff >= 0.2.0)

@@ -1,16 +1,11 @@
-SolrInputDocument повертає еквівалент об'єкта
-
--   [« SolrDocument::getFieldNames](solrdocument.getfieldnames.md)
-    
--   [SolrDocument::hasChildDocuments »](solrdocument.haschilddocuments.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   SolrInputDocument повертає еквівалент об'єкта
-    
-
+---
+navigation:
+  - solrdocument.getfieldnames.md: '« SolrDocument::getFieldNames'
+  - solrdocument.haschilddocuments.md: 'SolrDocument::hasChildDocuments »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::getInputDocument'
+---
 # SolrDocument::getInputDocument
 
 (PECL solr> = 0.9.2)

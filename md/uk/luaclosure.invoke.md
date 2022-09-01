@@ -1,16 +1,11 @@
-Виклик замикання Lua
-
--   [« LuaClosure](class.luaclosure.html)
-    
--   [LuaSandbox »](book.luasandbox.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaClosure](class.luaclosure.html)
-    
--   Виклик замикання Lua
-    
-
+---
+navigation:
+  - class.luaclosure.html: « LuaClosure
+  - book.luasandbox.html: LuaSandbox »
+  - index.html: PHP Manual
+  - class.luaclosure.html: LuaClosure
+title: 'LuaClosure::invoke'
+---
 # LuaClosure::invoke
 
 (PECL lua> = 0.9.0)

@@ -1,16 +1,11 @@
-Отримує псевдоніми відомого типу кодування
-
--   [« mbencodenumericentity](function.mb-encode-numericentity.html)
-    
--   [мбeregmatch »](function.mb-ereg-match.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Отримує псевдоніми відомого типу кодування
-    
-
+---
+navigation:
+  - function.mb-encode-numericentity.html: « mbencodenumericentity
+  - function.mb-ereg-match.html: мбeregmatch »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбencodingaliases
+---
 # мбencodingaliases
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

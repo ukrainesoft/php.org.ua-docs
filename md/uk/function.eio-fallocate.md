@@ -1,16 +1,11 @@
-Дозволяє безпосередньо керувати розміром використовуваного дискового простору для файлу
-
--   [« eioeventloop](function.eio-event-loop.html)
-    
--   [eiofchmod »](function.eio-fchmod.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Дозволяє безпосередньо керувати розміром використовуваного дискового простору для файлу
-    
-
+---
+navigation:
+  - function.eio-event-loop.html: « eioeventloop
+  - function.eio-fchmod.html: eiofchmod »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eiofallocate
+---
 # eiofallocate
 
 (PECL eio >= 0.0.1dev)

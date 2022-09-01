@@ -1,16 +1,11 @@
-Закрити фігуру
-
--   [« UIDrawPath::bezierTo](ui-draw-path.bezierto.html)
-    
--   [ОЙDrawPath::construct »](ui-draw-path.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙDrawPath](class.ui-draw-path.html)
-    
--   Закрити фігуру
-    
-
+---
+navigation:
+  - ui-draw-path.bezierto.html: '« UIDrawPath::bezierTo'
+  - ui-draw-path.construct.html: 'ОЙDrawPath::construct »'
+  - index.html: PHP Manual
+  - class.ui-draw-path.html: ОЙDrawPath
+title: 'ОЙDrawPath::closeFigure'
+---
 # ОЙDrawPath::closeFigure
 
 (UI 0.9.9)

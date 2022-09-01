@@ -1,16 +1,11 @@
-Відкриває документ FDF
-
--   [« fdfopenstring](function.fdf-open-string.html)
-    
--   [fdfremoveitem »](function.fdf-remove-item.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Відкриває документ FDF
-    
-
+---
+navigation:
+  - function.fdf-open-string.html: « fdfopenstring
+  - function.fdf-remove-item.html: fdfremoveitem »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfopen
+---
 # fdfopen
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

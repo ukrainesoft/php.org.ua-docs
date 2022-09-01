@@ -1,16 +1,11 @@
-Приведення до типу
-
--   [« Функции Componere](reference.componere.md)
-    
--   [Componerecastбref »](componere.cast_by_ref.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Componere](reference.componere.md)
-    
--   Приведення до типу
-    
-
+---
+navigation:
+  - reference.componere.md: « Функции Componere
+  - componere.cast_by_ref.md: Componerecastбref »
+  - index.md: PHP Manual
+  - reference.componere.md: Функции Componere
+title: Componerecast
+---
 # Componerecast
 
 (Componere 2 >= 2.1.2)

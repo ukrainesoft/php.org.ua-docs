@@ -1,16 +1,11 @@
-Функції PCNTL
-
--   [« Базовое применение](pcntl.example.md)
-    
--   [pcntlalarm »](function.pcntl-alarm.html)
-    
--   [PHP Manual](index.md)
-    
--   [PCNTL](book.pcntl.md)
-    
--   Функції PCNTL
-    
-
+---
+navigation:
+  - pcntl.example.md: « Базовое применение
+  - function.pcntl-alarm.html: pcntlalarm »
+  - index.md: PHP Manual
+  - book.pcntl.md: PCNTL
+title: Функції PCNTL
+---
 # Функції PCNTL
 
 # Дивіться також

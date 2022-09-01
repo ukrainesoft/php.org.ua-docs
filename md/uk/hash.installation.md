@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](hash.requirements.md)
-    
--   [Налаштування під час виконання »](hash.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](hash.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - hash.requirements.md: « Вимоги
+  - hash.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - hash.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 З версії PHP 5.1.2 модуль Hash за замовчуванням поставляється і збирається разом з PHP.

@@ -1,16 +1,11 @@
-Елемент управління "Сітка" (розміщення)
-
--   [« UIControlsForm::setPadded](ui-controls-form.setpadded.html)
-    
--   [ОЙControlsGrid::append »](ui-controls-grid.append.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Елемент управління "Сітка" (розміщення)
-    
-
+---
+navigation:
+  - ui-controls-form.setpadded.html: '« UIControlsForm::setPadded'
+  - ui-controls-grid.append.html: 'ОЙControlsGrid::append »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Елемент управління "Сітка" (розміщення)
+---
 # Елемент управління "Сітка" (розміщення)
 
 (UI 0.9.9)

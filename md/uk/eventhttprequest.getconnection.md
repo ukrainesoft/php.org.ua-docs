@@ -1,16 +1,11 @@
-Повертає об'єкт EventHttpConnection
-
--   [« EventHttpRequest::getCommand](eventhttprequest.getcommand.md)
-    
--   [EventHttpRequest::getHost »](eventhttprequest.gethost.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Повертає об'єкт EventHttpConnection
-    
-
+---
+navigation:
+  - eventhttprequest.getcommand.md: '« EventHttpRequest::getCommand'
+  - eventhttprequest.gethost.md: 'EventHttpRequest::getHost »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::getConnection'
+---
 # EventHttpRequest::getConnection
 
 (PECL event >= 1.8.0)

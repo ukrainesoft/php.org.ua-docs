@@ -1,16 +1,11 @@
-Визначення поля
-
--   [« UIControlsTab::delete](ui-controls-tab.delete.html)
-    
--   [ОЙControlsTab::insertAt »](ui-controls-tab.insertat.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsTab](class.ui-controls-tab.html)
-    
--   Визначення поля
-    
-
+---
+navigation:
+  - ui-controls-tab.delete.html: '« UIControlsTab::delete'
+  - ui-controls-tab.insertat.html: 'ОЙControlsTab::insertAt »'
+  - index.md: PHP Manual
+  - class.ui-controls-tab.html: ОЙControlsTab
+title: 'ОЙControlsTab::hasMargin'
+---
 # ОЙControlsTab::hasMargin
 
 (UI 0.9.9)

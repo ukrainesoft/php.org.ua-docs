@@ -1,16 +1,11 @@
-includeonce
-
--   [« requireonce](function.require-once.html)
-    
--   [goto »](control-structures.goto.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   includeonce
-    
-
+---
+navigation:
+  - function.require-once.html: « requireonce
+  - control-structures.goto.html: goto »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: includeonce
+---
 ## includeonce
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Вступ
-
--   [« Дата/время](book.datetime.md)
-    
--   [Встановлення та налаштування »](datetime.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Дата/время](book.datetime.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.datetime.md: « Дата/время
+  - datetime.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
+title: Вступ
+---
 # Вступ
 
 Клас [DateTimeImmutable](class.datetimeimmutable.md) та пов'язані з ним класи дозволяють отримати інформацію про дату та час. Об'єкти можуть бути створені шляхом передачі рядкового подання інформації про дату та час або з поточного часу системи.

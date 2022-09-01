@@ -1,16 +1,11 @@
-Нові глобальні константи
-
--   [« Нові функції](migration71.new-functions.html)
-    
--   [Зміни, що ламають зворотну сумісність »](migration71.incompatible.md)
-    
--   [PHP Manual](index.md)
-    
--   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.md)
-    
--   Нові глобальні константи
-    
-
+---
+navigation:
+  - migration71.new-functions.html: « Нові функції
+  - migration71.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
+  - index.md: PHP Manual
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+title: Нові глобальні константи
+---
 ## Нові глобальні константи
 
 ### [Обумовлені константи ядра PHP](reserved.constants.md)

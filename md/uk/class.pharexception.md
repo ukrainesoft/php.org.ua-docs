@@ -1,16 +1,11 @@
-Клас PharException
-
--   [« PharFileInfo::setMetadata](pharfileinfo.setmetadata.md)
-    
--   [Rar »](book.rar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](book.phar.md)
-    
--   Клас PharException
-    
-
+---
+navigation:
+  - pharfileinfo.setmetadata.md: '« PharFileInfo::setMetadata'
+  - book.rar.md: Rar »
+  - index.md: PHP Manual
+  - book.phar.md: Phar
+title: Клас PharException
+---
 # Клас PharException
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

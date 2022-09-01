@@ -1,16 +1,11 @@
-Підмаски
-
--   [« Установка внутренних опций](regexp.reference.internal-options.html)
-    
--   [Повторение »](regexp.reference.repetition.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
-    
--   Підмаски
-    
-
+---
+navigation:
+  - regexp.reference.internal-options.html: « Установка внутренних опций
+  - regexp.reference.repetition.md: Повторение »
+  - index.md: PHP Manual
+  - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів
+title: Підмаски
+---
 ## Підмаски
 
 Підмаски обмежуються круглими дужками, які можуть бути вкладеними. Використання частини шаблону як підмаски має такі функції:

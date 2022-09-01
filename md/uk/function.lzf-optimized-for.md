@@ -1,16 +1,11 @@
-Визначає режим оптимізації модуля LZF
-
--   [« lzfdecompress](function.lzf-decompress.html)
-    
--   [Phar »](book.phar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LZF](ref.lzf.md)
-    
--   Визначає режим оптимізації модуля LZF
-    
-
+---
+navigation:
+  - function.lzf-decompress.html: « lzfdecompress
+  - book.phar.md: Phar »
+  - index.md: PHP Manual
+  - ref.lzf.md: Функції LZF
+title: lzfoptimizedfor
+---
 # lzfoptimizedfor
 
 (PECL lzf >= 1.0.0)

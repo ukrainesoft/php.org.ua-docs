@@ -1,16 +1,11 @@
-Встановлює зовнішній вигляд пунктирної лінії
-
--   [«pssetoverprintmode](function.ps-setoverprintmode.html)
-    
--   [псshadingpattern »](function.ps-shading-pattern.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює зовнішній вигляд пунктирної лінії
-    
-
+---
+navigation:
+  - function.ps-setoverprintmode.html: «pssetoverprintmode
+  - function.ps-shading-pattern.html: псshadingpattern »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetpolydash
+---
 # псsetpolydash
 
 (PECL ps >= 1.1.0)

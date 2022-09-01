@@ -1,16 +1,11 @@
-Встановлює необроблені cookie у HTTP-відповідь
-
--   [« SwooleHttpResponse::initHeader](swoole-http-response.initheader.html)
-    
--   [SwooleHttpResponse::sendfile »](swoole-http-response.sendfile.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleHttpResponse](class.swoole-http-response.html)
-    
--   Встановлює необроблені cookie у HTTP-відповідь
-    
-
+---
+navigation:
+  - swoole-http-response.initheader.html: '« SwooleHttpResponse::initHeader'
+  - swoole-http-response.sendfile.html: 'SwooleHttpResponse::sendfile »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.html: SwooleHttpResponse
+title: 'SwooleHttpResponse::rawcookie'
+---
 # SwooleHttpResponse::rawcookie
 
 (PECL swoole >= 1.9.0)

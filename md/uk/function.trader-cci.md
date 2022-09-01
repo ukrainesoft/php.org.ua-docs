@@ -1,16 +1,11 @@
-Індекс товарного каналу
-
--   [« traderbop](function.trader-bop.html)
-    
--   [tradercdl2crows »](function.trader-cdl2crows.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Індекс товарного каналу
-    
-
+---
+navigation:
+  - function.trader-bop.html: « traderbop
+  - function.trader-cdl2crows.html: tradercdl2crows »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercci
+---
 # tradercci
 
 (PECL trader >= 0.2.0)

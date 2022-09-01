@@ -1,16 +1,11 @@
-Відрив
-
--   [« tradercdlbelthold](function.trader-cdlbelthold.html)
-    
--   [tradercdlclosingmarubozu »](function.trader-cdlclosingmarubozu.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Відрив
-    
-
+---
+navigation:
+  - function.trader-cdlbelthold.html: « tradercdlbelthold
+  - function.trader-cdlclosingmarubozu.html: tradercdlclosingmarubozu »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlbreakaway
+---
 # tradercdlbreakaway
 
 (PECL trader >= 0.2.0)

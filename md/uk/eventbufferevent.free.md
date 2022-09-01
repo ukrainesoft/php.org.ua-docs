@@ -1,16 +1,11 @@
-Звільняє подію буфера
-
--   [« EventBufferEvent::enable](eventbufferevent.enable.html)
-    
--   [EventBufferEvent::getDnsErrorString »](eventbufferevent.getdnserrorstring.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Звільняє подію буфера
-    
-
+---
+navigation:
+  - eventbufferevent.enable.html: '« EventBufferEvent::enable'
+  - eventbufferevent.getdnserrorstring.html: 'EventBufferEvent::getDnsErrorString »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::free'
+---
 # EventBufferEvent::free
 
 (PECL event >= 1.2.6-beta)

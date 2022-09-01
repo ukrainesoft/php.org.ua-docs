@@ -1,16 +1,11 @@
-Отримати масив імен mime-секцій у заданому повідомленні
-
--   [« mailparsemsggetpart](function.mailparse-msg-get-part.html)
-    
--   [mailparsemsgparsefile »](function.mailparse-msg-parse-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mailparse](ref.mailparse.md)
-    
--   Отримати масив імен mime-секцій у заданому повідомленні
-    
-
+---
+navigation:
+  - function.mailparse-msg-get-part.html: « mailparsemsggetpart
+  - function.mailparse-msg-parse-file.html: mailparsemsgparsefile »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
+title: mailparsemsggetstructure
+---
 # mailparsemsggetstructure
 
 (PECL mailparse >= 0.9.0)

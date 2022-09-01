@@ -1,16 +1,11 @@
-Отримує прапори поведінки
-
--   [« ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.md)
-    
--   [ArrayIterator::key »](arrayiterator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Отримує прапори поведінки
-    
-
+---
+navigation:
+  - arrayiterator.getarraycopy.md: '« ArrayIterator::getArrayCopy'
+  - arrayiterator.key.md: 'ArrayIterator::key »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::getFlags'
+---
 # ArrayIterator::getFlags
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

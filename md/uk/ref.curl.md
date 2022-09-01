@@ -1,16 +1,11 @@
-Функції cURL
-
--   [« Простий приклад використання curl](curl.examples-basic.html)
-    
--   [curlclose »](function.curl-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [cURL](book.curl.html)
-    
--   Функції cURL
-    
-
+---
+navigation:
+  - curl.examples-basic.html: « Простий приклад використання curl
+  - function.curl-close.html: curlclose »
+  - index.html: PHP Manual
+  - book.curl.html: cURL
+title: Функції cURL
+---
 # Функції cURL
 
 ## Зміст

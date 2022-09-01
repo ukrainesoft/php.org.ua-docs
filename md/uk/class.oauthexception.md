@@ -1,16 +1,11 @@
-Клас OAuthException
-
--   [« OAuthProvider::tokenHandler](oauthprovider.tokenhandler.html)
-    
--   [SOAP »](book.soap.html)
-    
--   [PHP Manual](index.html)
-    
--   [OAuth](book.oauth.html)
-    
--   Клас OAuthException
-    
-
+---
+navigation:
+  - oauthprovider.tokenhandler.html: '« OAuthProvider::tokenHandler'
+  - book.soap.html: SOAP »
+  - index.html: PHP Manual
+  - book.oauth.html: OAuth
+title: Клас OAuthException
+---
 # Клас OAuthException
 
 (PECL OAuth >= 0.99.1)

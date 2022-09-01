@@ -1,16 +1,11 @@
-Визначити, чи змінювався phar-архів
-
--   [« Phar::getMetadata](phar.getmetadata.html)
-    
--   [Phar::getPath »](phar.getpath.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Визначити, чи змінювався phar-архів
-    
-
+---
+navigation:
+  - phar.getmetadata.html: '« Phar::getMetadata'
+  - phar.getpath.html: 'Phar::getPath »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::getModified'
+---
 # Phar::getModified
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

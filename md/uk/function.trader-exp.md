@@ -1,16 +1,11 @@
-Арифметичний вектор зведення в ступінь
-
--   [« tradererrno](function.trader-errno.html)
-    
--   [traderfloor »](function.trader-floor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Арифметичний вектор зведення в ступінь
-    
-
+---
+navigation:
+  - function.trader-errno.html: « tradererrno
+  - function.trader-floor.html: traderfloor »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderexp
+---
 # traderexp
 
 (PECL trader >= 0.2.0)

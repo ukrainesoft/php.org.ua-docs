@@ -1,16 +1,11 @@
-Взаємодіє з libeio, поки всі запити не будуть виконані
-
--   [« eiodup2](function.eio-dup2.html)
-    
--   [eiofallocate »](function.eio-fallocate.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Взаємодіє з libeio, поки всі запити не будуть виконані
-    
-
+---
+navigation:
+  - function.eio-dup2.html: « eiodup2
+  - function.eio-fallocate.html: eiofallocate »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eioeventloop
+---
 # eioeventloop
 
 (PECL eio >= 0.0.1dev)

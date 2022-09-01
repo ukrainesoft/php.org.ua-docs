@@ -1,16 +1,11 @@
-Встановлює клас, який обробляє SOAP-запити
-
--   [« SoapServer::handle](soapserver.handle.md)
-    
--   [SoapServer::setObject »](soapserver.setobject.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Встановлює клас, який обробляє SOAP-запити
-    
-
+---
+navigation:
+  - soapserver.handle.md: '« SoapServer::handle'
+  - soapserver.setobject.md: 'SoapServer::setObject »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::setClass'
+---
 # SoapServer::setClass
 
 (PHP 5, PHP 7, PHP 8)

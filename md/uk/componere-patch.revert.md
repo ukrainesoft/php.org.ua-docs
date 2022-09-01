@@ -1,16 +1,11 @@
-скасування
-
--   [« ComponerePatch::apply](componere-patch.apply.html)
-    
--   [ComponerePatch::isApplied »](componere-patch.isapplied.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponerePatch](class.componere-patch.html)
-    
--   скасування
-    
-
+---
+navigation:
+  - componere-patch.apply.html: '« ComponerePatch::apply'
+  - componere-patch.isapplied.html: 'ComponerePatch::isApplied »'
+  - index.md: PHP Manual
+  - class.componere-patch.html: ComponerePatch
+title: 'ComponerePatch::revert'
+---
 # ComponerePatch::revert
 
 (Componere 2 >= 2.1.0)

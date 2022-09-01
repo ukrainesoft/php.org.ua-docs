@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](zip.setup.md)
-    
--   [Установка »](zip.installation.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](zip.setup.md)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - zip.setup.md: « Встановлення та налаштування
+  - zip.installation.md: Установка »
+  - index.md: PHP Manual
+  - zip.setup.md: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для модуля потрібно [» libzip](https://libzip.org/). Версія 1.1.2 була включена до PHP до версії 7.3.

@@ -1,16 +1,11 @@
-Зберігає у кеш
-
--   [« Yac](class.yac.md)
-    
--   [Yac::construct »](yac.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Зберігає у кеш
-    
-
+---
+navigation:
+  - class.yac.md: « Yac
+  - yac.construct.md: 'Yac::construct »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::add'
+---
 # Yac::add
 
 (PECL yac >= 1.0.0)

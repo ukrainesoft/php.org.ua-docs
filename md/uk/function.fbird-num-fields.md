@@ -1,16 +1,11 @@
-Псевдонім ibasenumfields
-
--   [« fbirdnameresult](function.fbird-name-result.html)
-    
--   [fbirdnumparams »](function.fbird-num-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibasenumfields
-    
-
+---
+navigation:
+  - function.fbird-name-result.html: « fbirdnameresult
+  - function.fbird-num-params.html: fbirdnumparams »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdnumfields
+---
 # fbirdnumfields
 
 (PHP 5, PHP 7 < 7.4.0)

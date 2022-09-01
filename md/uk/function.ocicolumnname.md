@@ -1,16 +1,11 @@
-Псевдонім ocifieldname
-
--   [« ocicolumnisnull](function.ocicolumnisnull.html)
-    
--   [ocicolumnprecision »](function.ocicolumnprecision.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ocifieldname
-    
-
+---
+navigation:
+  - function.ocicolumnisnull.html: « ocicolumnisnull
+  - function.ocicolumnprecision.html: ocicolumnprecision »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocicolumnname
+---
 # ocicolumnname
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

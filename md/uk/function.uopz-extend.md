@@ -1,16 +1,11 @@
-Розширити клас під час виконання
-
--   [« uopzdelete](function.uopz-delete.html)
-    
--   [uopzflags »](function.uopz-flags.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Розширити клас під час виконання
-    
-
+---
+navigation:
+  - function.uopz-delete.html: « uopzdelete
+  - function.uopz-flags.html: uopzflags »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzextend
+---
 # uopzextend
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7 < 7.1.0)

@@ -1,16 +1,11 @@
-Додає файл до ZIP-архіву, використовуючи його вміст
-
--   [« ZipArchive::addFile](ziparchive.addfile.md)
-    
--   [ZipArchive::addGlob »](ziparchive.addglob.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Додає файл до ZIP-архіву, використовуючи його вміст
-    
-
+---
+navigation:
+  - ziparchive.addfile.md: '« ZipArchive::addFile'
+  - ziparchive.addglob.md: 'ZipArchive::addGlob »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::addFromString'
+---
 # ZipArchive::addFromString
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)
@@ -47,9 +42,9 @@ public ZipArchive::addFromString(string $name, string $content, int $flags = Zip
 
 ### список змін
 
-| Версия | Описание                 |
-|--------|--------------------------|
-|        | Доданий параметр `flags` |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 

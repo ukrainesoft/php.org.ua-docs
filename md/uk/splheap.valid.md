@@ -1,16 +1,11 @@
-Перевіряє, чи містить купа ще елементи
-
--   [« SplHeap::top](splheap.top.html)
-    
--   [SplMaxHeap »](class.splmaxheap.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplHeap](class.splheap.html)
-    
--   Перевіряє, чи містить купа ще елементи
-    
-
+---
+navigation:
+  - splheap.top.html: '« SplHeap::top'
+  - class.splmaxheap.html: SplMaxHeap »
+  - index.html: PHP Manual
+  - class.splheap.html: SplHeap
+title: 'SplHeap::valid'
+---
 # SplHeap::valid
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

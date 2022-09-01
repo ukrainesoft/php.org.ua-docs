@@ -1,16 +1,11 @@
-Читає частину потоку, що залишилася, в рядок
-
--   [« streamfilterremove](function.stream-filter-remove.html)
-    
--   [streamgetfilters »](function.stream-get-filters.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Читає частину потоку, що залишилася, в рядок
-    
-
+---
+navigation:
+  - function.stream-filter-remove.html: « streamfilterremove
+  - function.stream-get-filters.html: streamgetfilters »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamgetcontents
+---
 # streamgetcontents
 
 (PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ stream_get_contents(resource $stream, ?int $length = null, int $offset = -1): st
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 

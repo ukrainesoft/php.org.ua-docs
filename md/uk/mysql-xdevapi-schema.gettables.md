@@ -1,16 +1,11 @@
-Отримати таблиці схеми
-
--   [« Schema::getTable](mysql-xdevapi-schema.gettable.html)
-    
--   [mysqlxdevapiSchemaObject »](class.mysql-xdevapi-schemaobject.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSchema](class.mysql-xdevapi-schema.html)
-    
--   Отримати таблиці схеми
-    
-
+---
+navigation:
+  - mysql-xdevapi-schema.gettable.html: '« Schema::getTable'
+  - class.mysql-xdevapi-schemaobject.html: mysqlxdevapiSchemaObject »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+title: 'Schema::getTables'
+---
 # Schema::getTables
 
 (No version information available, might only be in Git)

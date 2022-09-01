@@ -1,16 +1,11 @@
-Ініціалізує новий дескриптор об'єкта LOB чи FILE
-
--   [« ocinewcursor](function.oci-new-cursor.html)
-    
--   [ocinumfields »](function.oci-num-fields.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Ініціалізує новий дескриптор об'єкта LOB чи FILE
-    
-
+---
+navigation:
+  - function.oci-new-cursor.html: « ocinewcursor
+  - function.oci-num-fields.html: ocinumfields »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocinewdescriptor
+---
 # ocinewdescriptor
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

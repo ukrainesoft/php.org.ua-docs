@@ -1,16 +1,11 @@
-Повертає первинну червону точку
-
--   [« Gmagick::getimageprofile](gmagick.getimageprofile.html)
-    
--   [Gmagick::getimagerenderingintent »](gmagick.getimagerenderingintent.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає первинну червону точку
-    
-
+---
+navigation:
+  - gmagick.getimageprofile.html: '« Gmagick::getimageprofile'
+  - gmagick.getimagerenderingintent.html: 'Gmagick::getimagerenderingintent »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::getimageredprimary'
+---
 # Gmagick::getimageredprimary
 
 (PECL gmagick >= Unknown)

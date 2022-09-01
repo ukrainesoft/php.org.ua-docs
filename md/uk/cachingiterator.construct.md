@@ -1,16 +1,11 @@
-Створює новий об'єкт CachingIterator для ітератора
-
--   [« CachingIterator](class.cachingiterator.md)
-    
--   [CachingIterator::count »](cachingiterator.count.md)
-    
--   [PHP Manual](index.md)
-    
--   [CachingIterator](class.cachingiterator.md)
-    
--   Створює новий об'єкт CachingIterator для ітератора
-    
-
+---
+navigation:
+  - class.cachingiterator.md: « CachingIterator
+  - cachingiterator.count.md: 'CachingIterator::count »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
+title: 'CachingIterator::construct'
+---
 # CachingIterator::construct
 
 (PHP 5, PHP 7, PHP 8)

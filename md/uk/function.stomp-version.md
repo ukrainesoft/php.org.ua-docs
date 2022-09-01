@@ -1,16 +1,11 @@
-Повертає поточну версію модуля Stomp
-
--   [« stompconnecterror](function.stomp-connect-error.html)
-    
--   [Stomp »](class.stomp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Stomp](ref.stomp.md)
-    
--   Повертає поточну версію модуля Stomp
-    
-
+---
+navigation:
+  - function.stomp-connect-error.html: « stompconnecterror
+  - class.stomp.md: Stomp »
+  - index.md: PHP Manual
+  - ref.stomp.md: Функции Stomp
+title: stompversion
+---
 # stompversion
 
 (PECL stomp >= 0.1.0)

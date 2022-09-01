@@ -1,16 +1,11 @@
-Отримує вузол, вказаний на ім'я
-
--   [« DOMNamedNodeMap::count](domnamednodemap.count.html)
-    
--   [DOMNamedNodeMap::getNamedItemNS »](domnamednodemap.getnameditemns.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNamedNodeMap](class.domnamednodemap.html)
-    
--   Отримує вузол, вказаний на ім'я
-    
-
+---
+navigation:
+  - domnamednodemap.count.html: '« DOMNamedNodeMap::count'
+  - domnamednodemap.getnameditemns.html: 'DOMNamedNodeMap::getNamedItemNS »'
+  - index.html: PHP Manual
+  - class.domnamednodemap.html: DOMNamedNodeMap
+title: 'DOMNamedNodeMap::getNamedItem'
+---
 # DOMNamedNodeMap::getNamedItem
 
 (PHP 5, PHP 7, PHP 8)

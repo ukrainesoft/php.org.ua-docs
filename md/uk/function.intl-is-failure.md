@@ -1,16 +1,11 @@
-Перевірити, чи є код помилки ознакою збою
-
--   [« intlgeterrormessage](function.intl-get-error-message.html)
-    
--   [Багатобайтові рядки »](book.mbstring.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции intl](ref.intl.md)
-    
--   Перевірити, чи є код помилки ознакою збою
-    
-
+---
+navigation:
+  - function.intl-get-error-message.html: « intlgeterrormessage
+  - book.mbstring.md: Багатобайтові рядки »
+  - index.md: PHP Manual
+  - ref.intl.md: Функции intl
+title: intlісfailure
+---
 # intlісfailure
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)

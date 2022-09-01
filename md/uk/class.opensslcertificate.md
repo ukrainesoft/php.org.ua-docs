@@ -1,16 +1,11 @@
-Клас OpenSSLCertificate
-
--   [« opensslx509verify](function.openssl-x509-verify.html)
-    
--   [OpenSSLCertificateSigningRequest »](class.opensslcertificatesigningrequest.html)
-    
--   [PHP Manual](index.html)
-    
--   [OpenSSL](book.openssl.html)
-    
--   Клас OpenSSLCertificate
-    
-
+---
+navigation:
+  - function.openssl-x509-verify.html: « opensslx509verify
+  - class.opensslcertificatesigningrequest.html: OpenSSLCertificateSigningRequest »
+  - index.html: PHP Manual
+  - book.openssl.html: OpenSSL
+title: Клас OpenSSLCertificate
+---
 # Клас OpenSSLCertificate
 
 (PHP 8)

@@ -1,16 +1,11 @@
-Синхронізує зміни у файлі (включаючи метадані)
-
--   [« fstat](function.fstat.html)
-    
--   [ftell »](function.ftell.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції файлової системи](ref.filesystem.html)
-    
--   Синхронізує зміни у файлі (включаючи метадані)
-    
-
+---
+navigation:
+  - function.fstat.html: « fstat
+  - function.ftell.html: ftell »
+  - index.html: PHP Manual
+  - ref.filesystem.html: Функції файлової системи
+title: fsync
+---
 # fsync
 
 (PHP 8> = 8.1.0)

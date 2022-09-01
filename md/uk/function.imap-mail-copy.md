@@ -1,16 +1,11 @@
-Копіювати повідомлення до вказаної поштової скриньки
-
--   [« imapmailcompose](function.imap-mail-compose.html)
-    
--   [imapmailmove »](function.imap-mail-move.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Копіювати повідомлення до вказаної поштової скриньки
-    
-
+---
+navigation:
+  - function.imap-mail-compose.html: « imapmailcompose
+  - function.imap-mail-move.html: imapmailmove »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapmailcopy
+---
 # imapmailcopy
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -56,9 +51,9 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

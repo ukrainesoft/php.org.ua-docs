@@ -1,16 +1,11 @@
-Поточний файл
-
--   [« FilesystemIterator::construct](filesystemiterator.construct.html)
-    
--   [FilesystemIterator::getFlags »](filesystemiterator.getflags.html)
-    
--   [PHP Manual](index.html)
-    
--   [FilesystemIterator](class.filesystemiterator.html)
-    
--   Поточний файл
-    
-
+---
+navigation:
+  - filesystemiterator.construct.html: '« FilesystemIterator::construct'
+  - filesystemiterator.getflags.html: 'FilesystemIterator::getFlags »'
+  - index.html: PHP Manual
+  - class.filesystemiterator.html: FilesystemIterator
+title: 'FilesystemIterator::current'
+---
 # FilesystemIterator::current
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

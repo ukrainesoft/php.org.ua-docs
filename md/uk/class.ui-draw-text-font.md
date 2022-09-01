@@ -1,16 +1,11 @@
-Подає шрифт
-
--   [« UIDrawTextLayout::setWidth](ui-draw-text-layout.setwidth.html)
-    
--   [ОЙDrawTextFont::construct »](ui-draw-text-font.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Подає шрифт
-    
-
+---
+navigation:
+  - ui-draw-text-layout.setwidth.html: '« UIDrawTextLayout::setWidth'
+  - ui-draw-text-font.construct.html: 'ОЙDrawTextFont::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Подає шрифт
+---
 # Подає шрифт
 
 (UI 0.9.9)

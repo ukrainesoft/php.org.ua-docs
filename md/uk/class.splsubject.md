@@ -1,16 +1,11 @@
-Інтерфейс SplSubject
-
--   [« SplObserver::update](splobserver.update.html)
-    
--   [SplSubject::attach »](splsubject.attach.html)
-    
--   [PHP Manual](index.html)
-    
--   [Різні класи та інтерфейси](spl.misc.html)
-    
--   Інтерфейс SplSubject
-    
-
+---
+navigation:
+  - splobserver.update.html: '« SplObserver::update'
+  - splsubject.attach.html: 'SplSubject::attach »'
+  - index.html: PHP Manual
+  - spl.misc.html: Різні класи та інтерфейси
+title: Інтерфейс SplSubject
+---
 # Інтерфейс SplSubject
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

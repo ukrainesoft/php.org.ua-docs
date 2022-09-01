@@ -1,16 +1,11 @@
-Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
-
--   [« EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.md)
-    
--   [EventBufferEvent::write »](eventbufferevent.write.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
-    
-
+---
+navigation:
+  - eventbufferevent.sslrenegotiate.md: '« EventBufferEvent::sslRenegotiate'
+  - eventbufferevent.write.md: 'EventBufferEvent::write »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::sslSocket'
+---
 # EventBufferEvent::sslSocket
 
 (PECL event >= 1.2.6-beta)

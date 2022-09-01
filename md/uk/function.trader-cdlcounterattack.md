@@ -1,16 +1,11 @@
-Контратака
-
--   [« tradercdlconcealbabyswall](function.trader-cdlconcealbabyswall.html)
-    
--   [tradercdldarkcloudcover »](function.trader-cdldarkcloudcover.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Контратака
-    
-
+---
+navigation:
+  - function.trader-cdlconcealbabyswall.html: « tradercdlconcealbabyswall
+  - function.trader-cdldarkcloudcover.html: tradercdldarkcloudcover »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlcounterattack
+---
 # tradercdlcounterattack
 
 (PECL trader >= 0.2.0)

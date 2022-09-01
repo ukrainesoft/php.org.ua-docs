@@ -1,16 +1,11 @@
-Приведення рядка до нижнього регістру
-
--   [« mbstrstr](function.mb-strstr.html)
-    
--   [мбstrtoupper »](function.mb-strtoupper.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-    
--   Приведення рядка до нижнього регістру
-    
-
+---
+navigation:
+  - function.mb-strstr.html: « mbstrstr
+  - function.mb-strtoupper.html: мбstrtoupper »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
+title: мбstrtolower
+---
 # мбstrtolower
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Закриває базу даних
-
--   [« dbaseaddrecord](function.dbase-add-record.html)
-    
--   [dbasecreate »](function.dbase-create.html)
-    
--   [PHP Manual](index.html)
-    
--   [dBase](ref.dbase.html)
-    
--   Закриває базу даних
-    
-
+---
+navigation:
+  - function.dbase-add-record.html: « dbaseaddrecord
+  - function.dbase-create.html: dbasecreate »
+  - index.html: PHP Manual
+  - ref.dbase.html: dBase
+title: dbaseclose
+---
 # dbaseclose
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -37,8 +32,8 @@ dbase_close(resource $database): bool
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

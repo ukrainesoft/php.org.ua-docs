@@ -1,16 +1,11 @@
-Розпакувати двійкові дані, отримані від клієнта
-
--   [« SwooleWebSocketServer::push](swoole-websocket-server.push.html)
-    
--   [Tidy »](book.tidy.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleWebSocketServer](class.swoole-websocket-server.html)
-    
--   Розпакувати двійкові дані, отримані від клієнта
-    
-
+---
+navigation:
+  - swoole-websocket-server.push.html: '« SwooleWebSocketServer::push'
+  - book.tidy.html: Tidy »
+  - index.html: PHP Manual
+  - class.swoole-websocket-server.html: SwooleWebSocketServer
+title: 'SwooleWebSocketServer::unpack'
+---
 # SwooleWebSocketServer::unpack
 
 (PECL swoole >= 1.9.0)

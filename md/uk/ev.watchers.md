@@ -1,16 +1,11 @@
-Спостерігачі
-
--   [« Приклади](ev.examples.html)
-    
--   [Watcher callbacks »](ev.watcher-callbacks.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Спостерігачі
-    
-
+---
+navigation:
+  - ev.examples.html: « Приклади
+  - ev.watcher-callbacks.html: Watcher callbacks »
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Спостерігачі
+---
 # Спостерігачі
 
 Спостерігач - це об'єкт, який створений для стеження за якоюсь конкретною подією. Наприклад, наступний код чекатиме, коли **`STDIN`** стане читаним:

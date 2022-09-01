@@ -1,16 +1,11 @@
-Конвертує рядок, що містить IPv4-адресу в ціле число
-
--   [« inetpton](function.inet-pton.html)
-    
--   [long2ip »](function.long2ip.md)
-    
--   [PHP Manual](index.md)
-    
--   [Мережеві функції](ref.network.md)
-    
--   Конвертує рядок, що містить IPv4-адресу в ціле число
-    
-
+---
+navigation:
+  - function.inet-pton.html: « inetpton
+  - function.long2ip.md: long2ip »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
+title: ip2long
+---
 # ip2long
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає версію бібліотеки SQLite3, містить як рядкову константу, так і цифрову
-
--   [« SQLite3::setAuthorizer](sqlite3.setauthorizer.md)
-    
--   [SQLite3Stmt »](class.sqlite3stmt.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3](class.sqlite3.md)
-    
--   Повертає версію бібліотеки SQLite3, містить як рядкову константу, так і цифрову
-    
-
+---
+navigation:
+  - sqlite3.setauthorizer.md: '« SQLite3::setAuthorizer'
+  - class.sqlite3stmt.md: SQLite3Stmt »
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
+title: 'SQLite3::version'
+---
 # SQLite3::version
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає об'єкт Session
-
--   [« Collection::getSchema](mysql-xdevapi-collection.getschema.html)
-    
--   [Collection::modify »](mysql-xdevapi-collection.modify.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Повертає об'єкт Session
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.getschema.html: '« Collection::getSchema'
+  - mysql-xdevapi-collection.modify.html: 'Collection::modify »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::getSession'
+---
 # Collection::getSession
 
 (No version information available, might only be in Git)

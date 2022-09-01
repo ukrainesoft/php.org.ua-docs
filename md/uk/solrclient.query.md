@@ -1,16 +1,11 @@
-Надсилає запит на сервер
-
--   [« SolrClient::ping](solrclient.ping.html)
-    
--   [SolrClient::request »](solrclient.request.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrClient](class.solrclient.html)
-    
--   Надсилає запит на сервер
-    
-
+---
+navigation:
+  - solrclient.ping.html: '« SolrClient::ping'
+  - solrclient.request.html: 'SolrClient::request »'
+  - index.html: PHP Manual
+  - class.solrclient.html: SolrClient
+title: 'SolrClient::query'
+---
 # SolrClient::query
 
 (PECL solr> = 0.9.2)

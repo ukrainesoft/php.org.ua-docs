@@ -1,16 +1,11 @@
-Клас LimitIterator
-
--   [« IteratorIterator::valid](iteratoriterator.valid.html)
-    
--   [LimitIterator::construct »](limititerator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Ітератори](spl.iterators.html)
-    
--   Клас LimitIterator
-    
-
+---
+navigation:
+  - iteratoriterator.valid.html: '« IteratorIterator::valid'
+  - limititerator.construct.html: 'LimitIterator::construct »'
+  - index.html: PHP Manual
+  - spl.iterators.html: Ітератори
+title: Клас LimitIterator
+---
 # Клас LimitIterator
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

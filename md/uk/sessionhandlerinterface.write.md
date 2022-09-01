@@ -1,16 +1,11 @@
-Записати дані сесії
-
--   [« SessionHandlerInterface::read](sessionhandlerinterface.read.md)
-    
--   [SessionIdInterface »](class.sessionidinterface.md)
-    
--   [PHP Manual](index.md)
-    
--   [SessionHandlerInterface](class.sessionhandlerinterface.md)
-    
--   Записати дані сесії
-    
-
+---
+navigation:
+  - sessionhandlerinterface.read.md: '« SessionHandlerInterface::read'
+  - class.sessionidinterface.md: SessionIdInterface »
+  - index.md: PHP Manual
+  - class.sessionhandlerinterface.md: SessionHandlerInterface
+title: 'SessionHandlerInterface::write'
+---
 # SessionHandlerInterface::write
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

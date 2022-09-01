@@ -1,16 +1,11 @@
-Надати перевагу вибору словників для мови
-
--   [« enchantbrokersetdictpath](function.enchant-broker-set-dict-path.html)
-    
--   [enchantdictaddтоpersonal »](function.enchant-dict-add-to-personal.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Надати перевагу вибору словників для мови
-    
-
+---
+navigation:
+  - function.enchant-broker-set-dict-path.html: « enchantbrokersetdictpath
+  - function.enchant-dict-add-to-personal.html: enchantdictaddтоpersonal »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantbrokersetordering
+---
 # enchantbrokersetordering
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
@@ -45,6 +40,6 @@ enchant_broker_set_ordering(EnchantBroker $broker, string $tag, string $ordering
 
 ### список змін
 
-| Версия | Описание                                                                                                                              |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

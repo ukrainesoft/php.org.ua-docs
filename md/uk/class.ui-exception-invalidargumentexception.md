@@ -1,16 +1,11 @@
-InvalidArgumentException
-
--   [« UIKey](class.ui-key.html)
-    
--   [ОЙExceptionRuntimeException »](class.ui-exception-runtimeexception.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   InvalidArgumentException
-    
-
+---
+navigation:
+  - class.ui-key.html: « UIKey
+  - class.ui-exception-runtimeexception.html: ОЙExceptionRuntimeException »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: InvalidArgumentException
+---
 # InvalidArgumentException
 
 (UI 1.0.3)

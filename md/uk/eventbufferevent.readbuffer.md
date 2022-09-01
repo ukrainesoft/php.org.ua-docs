@@ -1,16 +1,11 @@
-Зливає весь вміст буфера введення та поміщає його у буфер
-
--   [« EventBufferEvent::read](eventbufferevent.read.md)
-    
--   [EventBufferEvent::setCallbacks »](eventbufferevent.setcallbacks.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Зливає весь вміст буфера введення та поміщає його у буфер
-    
-
+---
+navigation:
+  - eventbufferevent.read.md: '« EventBufferEvent::read'
+  - eventbufferevent.setcallbacks.md: 'EventBufferEvent::setCallbacks »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'EventBufferEvent::readBuffer'
+---
 # EventBufferEvent::readBuffer
 
 (PECL event >= 1.2.6-beta)

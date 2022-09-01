@@ -1,16 +1,11 @@
-Виправлення сходження/розходження ковзної середньої 12/26
-
--   [« tradermacdext](function.trader-macdext.html)
-    
--   [tradermama »](function.trader-mama.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Виправлення сходження/розходження ковзної середньої 12/26
-    
-
+---
+navigation:
+  - function.trader-macdext.html: « tradermacdext
+  - function.trader-mama.html: tradermama »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermacdfix
+---
 # tradermacdfix
 
 (PECL trader >= 0.2.0)

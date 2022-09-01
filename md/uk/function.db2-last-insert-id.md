@@ -1,16 +1,11 @@
-Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні
-
--   [« db2getoption](function.db2-get-option.html)
-    
--   [db2lobread »](function.db2-lob-read.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції IBM DB2](ref.ibm-db2.html)
-    
--   Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні
-    
-
+---
+navigation:
+  - function.db2-get-option.html: « db2getoption
+  - function.db2-lob-read.html: db2lobread »
+  - index.md: PHP Manual
+  - ref.ibm-db2.html: Функції IBM DB2
+title: db2lastinsertід
+---
 # db2lastinsertід
 
 (PECL ibmdb2> = 1.7.1)

@@ -1,16 +1,11 @@
-Обчислює один із параметрів розподілу Фішера за рештою
-
--   [« statscdfexponential](function.stats-cdf-exponential.html)
-    
--   [statscdfgamma »](function.stats-cdf-gamma.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює один із параметрів розподілу Фішера за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-exponential.html: « statscdfexponential
+  - function.stats-cdf-gamma.html: statscdfgamma »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscdfф
+---
 # statscdfф
 
 (PECL stats >= 1.0.0)
@@ -30,11 +25,11 @@ stats_cdf_f(    float $par1,    float $par2,    float $par3,    
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-|---------|-----------------------|--------|--------|--------|
-|         | CDF                   | з      | д 1    | д 2    |
-|         | з                     | CDF    | д 1    | д 2    |
-|         | д 1                   | з      | CDF    | д 2    |
-|         | д 2                   | з      | CDF    | д 1    |
+| --- | --- | --- | --- | --- |
+|  | CDF | з | д 1 | д 2 |
+|  | з | CDF | д 1 | д 2 |
+|  | д 1 | з | CDF | д 2 |
+|  | д 2 | з | CDF | д 1 |
 
 ### Список параметрів
 

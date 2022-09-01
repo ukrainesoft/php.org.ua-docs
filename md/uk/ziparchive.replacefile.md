@@ -1,16 +1,11 @@
-Замінює файл у ZIP-архіві вказаним шляхом
-
--   [« ZipArchive::renameName](ziparchive.renamename.md)
-    
--   [ZipArchive::setArchiveComment »](ziparchive.setarchivecomment.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZipArchive](class.ziparchive.md)
-    
--   Замінює файл у ZIP-архіві вказаним шляхом
-    
-
+---
+navigation:
+  - ziparchive.renamename.md: '« ZipArchive::renameName'
+  - ziparchive.setarchivecomment.md: 'ZipArchive::setArchiveComment »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
+title: 'ZipArchive::replaceFile'
+---
 # ZipArchive::replaceFile
 
 (PHP >= 8.0.0, PECL zip >= 1.18.0)

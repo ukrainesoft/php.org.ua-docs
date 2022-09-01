@@ -1,16 +1,11 @@
-Визначення "тільки для читання"
-
--   [« UIControlsMultilineEntry::getText](ui-controls-multilineentry.gettext.html)
-    
--   [ОЙControlsMultilineEntry::onChange »](ui-controls-multilineentry.onchange.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsMultilineEntry](class.ui-controls-multilineentry.html)
-    
--   Визначення "тільки для читання"
-    
-
+---
+navigation:
+  - ui-controls-multilineentry.gettext.html: '« UIControlsMultilineEntry::getText'
+  - ui-controls-multilineentry.onchange.html: 'ОЙControlsMultilineEntry::onChange »'
+  - index.md: PHP Manual
+  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry
+title: 'ОЙControlsMultilineEntry::isReadOnly'
+---
 # ОЙControlsMultilineEntry::isReadOnly
 
 (UI 0.9.9)

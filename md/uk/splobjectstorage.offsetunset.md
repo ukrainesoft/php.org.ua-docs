@@ -1,16 +1,11 @@
-Видаляє об'єкт із контейнера
-
--   [« SplObjectStorage::offsetSet](splobjectstorage.offsetset.md)
-    
--   [SplObjectStorage::removeAll »](splobjectstorage.removeall.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplObjectStorage](class.splobjectstorage.md)
-    
--   Видаляє об'єкт із контейнера
-    
-
+---
+navigation:
+  - splobjectstorage.offsetset.md: '« SplObjectStorage::offsetSet'
+  - splobjectstorage.removeall.md: 'SplObjectStorage::removeAll »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
+title: 'SplObjectStorage::offsetUnset'
+---
 # SplObjectStorage::offsetUnset
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

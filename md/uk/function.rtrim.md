@@ -1,16 +1,11 @@
-Видаляє прогалини (або інші символи) з кінця рядка
-
--   [« quotemeta](function.quotemeta.html)
-    
--   [setlocale »](function.setlocale.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Видаляє прогалини (або інші символи) з кінця рядка
-    
-
+---
+navigation:
+  - function.quotemeta.html: « quotemeta
+  - function.setlocale.html: setlocale »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: rtrim
+---
 # rtrim
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

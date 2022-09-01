@@ -1,16 +1,11 @@
-Ініціалізує виставу та повертає її
-
--   [« YafDispatcher::getRouter](yaf-dispatcher.getrouter.html)
-    
--   [YafDispatcher::registerPlugin »](yaf-dispatcher.registerplugin.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Ініціалізує виставу та повертає її
-    
-
+---
+navigation:
+  - yaf-dispatcher.getrouter.html: '« YafDispatcher::getRouter'
+  - yaf-dispatcher.registerplugin.html: 'YafDispatcher::registerPlugin »'
+  - index.html: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::initView'
+---
 # YafDispatcher::initView
 
 (Yaf >=1.0.0)

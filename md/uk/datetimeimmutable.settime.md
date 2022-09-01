@@ -1,16 +1,11 @@
-Встановлює час
-
--   [« DateTimeImmutable::setISODate](datetimeimmutable.setisodate.html)
-    
--   [DateTimeImmutable::setTimestamp »](datetimeimmutable.settimestamp.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateTimeImmutable](class.datetimeimmutable.html)
-    
--   Встановлює час
-    
-
+---
+navigation:
+  - datetimeimmutable.setisodate.html: '« DateTimeImmutable::setISODate'
+  - datetimeimmutable.settimestamp.html: 'DateTimeImmutable::setTimestamp »'
+  - index.html: PHP Manual
+  - class.datetimeimmutable.html: DateTimeImmutable
+title: 'DateTimeImmutable::setTime'
+---
 # DateTimeImmutable::setTime
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ public DateTimeImmutable::setTime(    int $hour,    int $minute,    
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                   |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Поведінка з подвоєнням існуючого годинника (під час резервного переходу на літній час) змінилася. Раніше PHP вибирав друге входження (після переходу на літній час) замість першого входження (до переходу на літній час). |
-|        | Доданий параметр `microsecond`                                                                                                                                                                                             |
+| Версия | Описание |
+| --- | --- |
+|  | Поведінка з подвоєнням існуючого годинника (під час резервного переходу на літній час) змінилася. Раніше PHP вибирав друге входження (після переходу на літній час) замість першого входження (до переходу на літній час). |
+|  | Доданий параметр `microsecond` |
 
 ### Приклади
 

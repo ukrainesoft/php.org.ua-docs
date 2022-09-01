@@ -1,16 +1,11 @@
-Отримує клас, що оголошує
-
--   [« ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.html)
-    
--   [ReflectionClassConstant::getDocComment »](reflectionclassconstant.getdoccomment.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
-    
--   Отримує клас, що оголошує
-    
-
+---
+navigation:
+  - reflectionclassconstant.getattributes.html: '« ReflectionClassConstant::getAttributes'
+  - reflectionclassconstant.getdoccomment.html: 'ReflectionClassConstant::getDocComment »'
+  - index.html: PHP Manual
+  - class.reflectionclassconstant.html: ReflectionClassConstant
+title: 'ReflectionClassConstant::getDeclaringClass'
+---
 # ReflectionClassConstant::getDeclaringClass
 
 (PHP 7> = 7.1.0, PHP 8)

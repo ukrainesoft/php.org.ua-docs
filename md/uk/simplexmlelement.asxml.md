@@ -1,16 +1,11 @@
-Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
-
--   [« SimpleXMLElement::addChild](simplexmlelement.addchild.md)
-    
--   [SimpleXMLElement::attributes »](simplexmlelement.attributes.md)
-    
--   [PHP Manual](index.md)
-    
--   [SimpleXMLElement](class.simplexmlelement.md)
-    
--   Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
-    
-
+---
+navigation:
+  - simplexmlelement.addchild.md: '« SimpleXMLElement::addChild'
+  - simplexmlelement.attributes.md: 'SimpleXMLElement::attributes »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
+title: 'SimpleXMLElement::asXML'
+---
 # SimpleXMLElement::asXML
 
 (PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public SimpleXMLElement::asXML(?string $filename = null): string|bool
 
 ### список змін
 
-| Версия | Описание                                 |
-|--------|------------------------------------------|
-|        | `filename` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` тепер допускає значення null. |
 
 ### Приклади
 

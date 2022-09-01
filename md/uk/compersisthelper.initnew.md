@@ -1,16 +1,11 @@
-Ініціалізує об'єкт у стан за замовчуванням
-
--   [« COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md)
-    
--   [COMPersistHelper::LoadFromFile »](compersisthelper.loadfromfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [COMPersistHelper](class.compersisthelper.md)
-    
--   Ініціалізує об'єкт у стан за замовчуванням
-    
-
+---
+navigation:
+  - compersisthelper.getmaxstreamsize.md: '« COMPersistHelper::GetMaxStreamSize'
+  - compersisthelper.loadfromfile.md: 'COMPersistHelper::LoadFromFile »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::InitNew'
+---
 # COMPersistHelper::InitNew
 
 (PHP 5, PHP 7, PHP 8)

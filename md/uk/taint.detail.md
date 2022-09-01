@@ -1,16 +1,13 @@
-Додаткові подробиці
-
--   [« Типи ресурсів](taint.resources.md)
-    
--   [Функції та оператори, які можуть поширювати сумнівний символ зіпсованого рядка »](taint.detail.basic.md)
-    
--   [PHP Manual](index.md)
-    
--   [Taint](book.taint.md)
-    
--   Додаткові подробиці
-    
-
+---
+navigation:
+  - taint.resources.md: « Типи ресурсів
+  - taint.detail.basic.md: >-
+      Функції та оператори, які можуть поширювати сумнівний символ зіпсованого
+      рядка »
+  - index.md: PHP Manual
+  - book.taint.md: Taint
+title: Додаткові подробиці
+---
 # Додаткові подробиці
 
 ## Зміст

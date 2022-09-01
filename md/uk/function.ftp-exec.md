@@ -1,16 +1,11 @@
-Запитує виконання команди на FTP-сервері
-
--   [« ftpdelete](function.ftp-delete.html)
-    
--   [ftpfget »](function.ftp-fget.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції FTP](ref.ftp.md)
-    
--   Запитує виконання команди на FTP-сервері
-    
-
+---
+navigation:
+  - function.ftp-delete.html: « ftpdelete
+  - function.ftp-fget.html: ftpfget »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
+title: ftpexec
+---
 # ftpexec
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ ftp_exec(FTP\Connection $ftp, string $command): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

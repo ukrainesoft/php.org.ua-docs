@@ -1,16 +1,11 @@
-Переклад файлового покажчика на позицію
-
--   [« SplFileObject::fscanf](splfileobject.fscanf.html)
-    
--   [SplFileObject::fstat »](splfileobject.fstat.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileObject](class.splfileobject.html)
-    
--   Переклад файлового покажчика на позицію
-    
-
+---
+navigation:
+  - splfileobject.fscanf.html: '« SplFileObject::fscanf'
+  - splfileobject.fstat.html: 'SplFileObject::fstat »'
+  - index.html: PHP Manual
+  - class.splfileobject.html: SplFileObject
+title: 'SplFileObject::fseek'
+---
 # SplFileObject::fseek
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

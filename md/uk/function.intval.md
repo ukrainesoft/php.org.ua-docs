@@ -1,16 +1,11 @@
-Повертає ціле значення змінної
-
--   [« gettype](function.gettype.html)
-    
--   [ісarray »](function.is-array.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Повертає ціле значення змінної
-    
-
+---
+navigation:
+  - function.gettype.html: « gettype
+  - function.is-array.html: ісarray »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: intval
+---
 # intval
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

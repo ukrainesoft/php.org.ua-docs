@@ -1,16 +1,11 @@
-Повертає максимальну кількість елементів у колекції
-
--   [« OCICollection::getElem](ocicollection.getelem.html)
-    
--   [OCICollection::size »](ocicollection.size.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCICollection](class.ocicollection.html)
-    
--   Повертає максимальну кількість елементів у колекції
-    
-
+---
+navigation:
+  - ocicollection.getelem.html: '« OCICollection::getElem'
+  - ocicollection.size.html: 'OCICollection::size »'
+  - index.html: PHP Manual
+  - class.ocicollection.html: OCICollection
+title: 'OCICollection::max'
+---
 # OCICollection::max
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -37,8 +32,8 @@ public OCICollection::max(): int|false
 
 ### список змін
 
-| Версия                 | Описание                                                                                                                     |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

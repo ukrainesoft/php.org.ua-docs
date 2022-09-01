@@ -1,16 +1,11 @@
-Визначити, чи має параметр бути типу callable
-
--   [« ReflectionParameter::isArray](reflectionparameter.isarray.md)
-    
--   [ReflectionParameter::isDefaultValueAvailable »](reflectionparameter.isdefaultvalueavailable.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Визначити, чи має параметр бути типу callable
-    
-
+---
+navigation:
+  - reflectionparameter.isarray.md: '« ReflectionParameter::isArray'
+  - reflectionparameter.isdefaultvalueavailable.md: 'ReflectionParameter::isDefaultValueAvailable »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::isCallable'
+---
 # ReflectionParameter::isCallable
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

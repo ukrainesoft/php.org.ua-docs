@@ -1,16 +1,11 @@
-Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
-
--   [« DateTimeZone::getTransitions](datetimezone.gettransitions.md)
-    
--   [DateTimeZone::listIdentifiers »](datetimezone.listidentifiers.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTimeZone](class.datetimezone.md)
-    
--   Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
-    
-
+---
+navigation:
+  - datetimezone.gettransitions.md: '« DateTimeZone::getTransitions'
+  - datetimezone.listidentifiers.md: 'DateTimeZone::listIdentifiers »'
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
+title: 'DateTimeZone::listAbbreviations'
+---
 # DateTimeZone::listAbbreviations
 
 # timezoneabbreviationslist

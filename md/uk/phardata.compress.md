@@ -1,16 +1,11 @@
-Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
-
--   [« PharData::buildFromIterator](phardata.buildfromiterator.md)
-    
--   [PharData::compressFiles »](phardata.compressfiles.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharData](class.phardata.md)
-    
--   Стискає весь архів tar/zip, використовуючи стиснення Gzip або Bzip2
-    
-
+---
+navigation:
+  - phardata.buildfromiterator.md: '« PharData::buildFromIterator'
+  - phardata.compressfiles.md: 'PharData::compressFiles »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
+title: 'PharData::compress'
+---
 # PharData::compress
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -49,9 +44,9 @@ public PharData::compress(int $compression, ?string $extension = null): ?PharDat
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `extension` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 

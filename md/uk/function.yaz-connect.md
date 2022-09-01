@@ -1,16 +1,11 @@
-Готує з'єднання із сервером Z39.50
-
--   [« yazclose](function.yaz-close.html)
-    
--   [yazdatabase »](function.yaz-database.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Готує з'єднання із сервером Z39.50
-    
-
+---
+navigation:
+  - function.yaz-close.html: « yazclose
+  - function.yaz-database.html: yazdatabase »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazconnect
+---
 # yazconnect
 
 (PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
@@ -105,9 +100,9 @@ maximumRecordSize
 
 ### список змін
 
-| Версия | Описание                       |
-|--------|--------------------------------|
-|        | Було додано параметр `options` |
+| Версия | Описание |
+| --- | --- |
+|  | Було додано параметр `options` |
 
 ### Дивіться також
 

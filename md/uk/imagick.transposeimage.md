@@ -1,16 +1,11 @@
-Створює вертикальне дзеркальне відображення
-
--   [« Imagick::transparentPaintImage](imagick.transparentpaintimage.md)
-    
--   [Imagick::transverseImage »](imagick.transverseimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Створює вертикальне дзеркальне відображення
-    
-
+---
+navigation:
+  - imagick.transparentpaintimage.md: '« Imagick::transparentPaintImage'
+  - imagick.transverseimage.md: 'Imagick::transverseImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::transposeImage'
+---
 # Imagick::transposeImage
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Скидає покажчик результуючого набору на перший рядок
-
--   [« SQLite3Result::numColumns](sqlite3result.numcolumns.md)
-    
--   [SQLSRV »](book.sqlsrv.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLite3Result](class.sqlite3result.md)
-    
--   Скидає покажчик результуючого набору на перший рядок
-    
-
+---
+navigation:
+  - sqlite3result.numcolumns.md: '« SQLite3Result::numColumns'
+  - book.sqlsrv.md: SQLSRV »
+  - index.md: PHP Manual
+  - class.sqlite3result.md: SQLite3Result
+title: 'SQLite3Result::reset'
+---
 # SQLite3Result::reset
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

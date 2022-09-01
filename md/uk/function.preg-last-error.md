@@ -1,16 +1,11 @@
-Повертає код помилки виконання останнього регулярного виразу PCRE
-
--   [« preglasterrormsg](function.preg-last-error-msg.html)
-    
--   [pregmatchall »](function.preg-match-all.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PCRE](ref.pcre.md)
-    
--   Повертає код помилки виконання останнього регулярного виразу PCRE
-    
-
+---
+navigation:
+  - function.preg-last-error-msg.html: « preglasterrormsg
+  - function.preg-match-all.html: pregmatchall »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
+title: preglasterror
+---
 # preglasterror
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

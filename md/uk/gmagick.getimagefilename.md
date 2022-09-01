@@ -1,16 +1,11 @@
-Повертає ім'я файлу конкретного зображення у послідовності
-
--   [« Gmagick::getimageextrema](gmagick.getimageextrema.html)
-    
--   [Gmagick::getimageformat »](gmagick.getimageformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає ім'я файлу конкретного зображення у послідовності
-    
-
+---
+navigation:
+  - gmagick.getimageextrema.html: '« Gmagick::getimageextrema'
+  - gmagick.getimageformat.html: 'Gmagick::getimageformat »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::getimagefilename'
+---
 # Gmagick::getimagefilename
 
 (PECL gmagick >= Unknown)

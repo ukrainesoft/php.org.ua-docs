@@ -1,16 +1,11 @@
-Підписати повідомлення S/MIME
-
--   [« opensslpkcs7read](function.openssl-pkcs7-read.html)
-    
--   [opensslpkcs7verify »](function.openssl-pkcs7-verify.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Підписати повідомлення S/MIME
-    
-
+---
+navigation:
+  - function.openssl-pkcs7-read.html: « opensslpkcs7read
+  - function.openssl-pkcs7-verify.html: opensslpkcs7verify »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslpkcs7sign
+---
 # opensslpkcs7sign
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -61,10 +56,10 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                            |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR`                                                                              |
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` ор `OpenSSL X.509 CSR` |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` ор `OpenSSL X.509 CSR` |
 
 ### Приклади
 

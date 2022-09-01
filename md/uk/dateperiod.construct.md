@@ -1,16 +1,11 @@
-Створює новий об'єкт DatePeriod
-
--   [« DatePeriod](class.dateperiod.html)
-    
--   [DatePeriod::getDateInterval »](dateperiod.getdateinterval.html)
-    
--   [PHP Manual](index.html)
-    
--   [DatePeriod](class.dateperiod.html)
-    
--   Створює новий об'єкт DatePeriod
-    
-
+---
+navigation:
+  - class.dateperiod.html: « DatePeriod
+  - dateperiod.getdateinterval.html: 'DatePeriod::getDateInterval »'
+  - index.html: PHP Manual
+  - class.dateperiod.html: DatePeriod
+title: 'DatePeriod::construct'
+---
 # DatePeriod::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -63,9 +58,9 @@ public **DatePeriod::construct**(string `$isostr`, int `$options`
 
 ### список змін
 
-| Версия | Описание                          |
-|--------|-----------------------------------|
-|        | `recurrences` має бути більше `0` |
+| Версия | Описание |
+| --- | --- |
+|  | `recurrences` має бути більше `0` |
 
 ### Приклади
 

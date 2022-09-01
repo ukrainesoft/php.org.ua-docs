@@ -1,16 +1,11 @@
-За складом
-
--   [" В алфавітному порядку](extensions.alphabetical.md)
-    
--   [Станом "](extensions.state.md)
-    
--   [PHP Manual](index.md)
-    
--   [Список/класифікація модулів](extensions.md)
-    
--   За складом
-    
-
+---
+navigation:
+  - extensions.alphabetical.md: '" В алфавітному порядку'
+  - extensions.state.md: Станом "
+  - index.md: PHP Manual
+  - extensions.md: Список/класифікація модулів
+title: За складом
+---
 ## За складом
 
 ## Модулі, що входять до складу ядра

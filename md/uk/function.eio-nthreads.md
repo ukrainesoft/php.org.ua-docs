@@ -1,16 +1,11 @@
-Повертає кількість потоків, що використовуються в даний момент
-
--   [« eionreqs](function.eio-nreqs.html)
-    
--   [eioopen »](function.eio-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Повертає кількість потоків, що використовуються в даний момент
-    
-
+---
+navigation:
+  - function.eio-nreqs.html: « eionreqs
+  - function.eio-open.html: eioopen »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eionthreads
+---
 # eionthreads
 
 (PECL eio >= 0.0.1dev)

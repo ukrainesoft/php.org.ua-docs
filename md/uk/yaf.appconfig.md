@@ -1,16 +1,11 @@
-Конфігурація програми
-
--   [« Приклади](yaf.tutorials.md)
-    
--   [YafApplication »](class.yaf-application.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Конфігурація програми
-    
-
+---
+navigation:
+  - yaf.tutorials.md: « Приклади
+  - class.yaf-application.html: YafApplication »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Конфігурація програми
+---
 # Конфігурація програми
 
 Ви повинні встановити конфігурацію у вигляді масиву або INI файлу (Дивіться [YafConfigIni](class.yaf-config-ini.html)) у конструкторі [YafApplication::construct()](yaf-application.construct.html)
@@ -44,24 +39,24 @@ product : yaf; user configuration list here
 
 **Конфігурація Yaf програми**
 
-| Имя                                      | По умолчанию                                          | Список изменений |
-|------------------------------------------|-------------------------------------------------------|------------------|
-| аплікатион.директорій                    |                                                       |                  |
-| application.ext                          | "php"                                                 |                  |
-| application.view.ext                     | "phtml"                                               |                  |
-| application.modules                      | "index"                                               |                  |
-| application.library                      | application.directory. "/library"                     |                  |
-| аплікатион.лібрарі.директорій            | application.directory. "/library"                     |                  |
-| application.library.namespace            | ""                                                    |                  |
-| application.bootstrap                    | application.directory. "/Bootstrap" . application.ext |                  |
-| application.baseUri                      | ""                                                    |                  |
-| application.dispatcher.defaultRoute      |                                                       |                  |
-| application.dispatcher.throwException    |                                                       |                  |
-| application.dispatcher.catchException    |                                                       |                  |
-| application.dispatcher.defaultModule     | "index"                                               |                  |
-| application.dispatcher.defaultController | "index"                                               |                  |
-| application.dispatcher.defaultAction     | "index"                                               |                  |
-| application.system                       |                                                       |                  |
+| Имя | По умолчанию | Список изменений |
+| --- | --- | --- |
+| аплікатион.директорій |  |  |
+| application.ext | "php" |  |
+| application.view.ext | "phtml" |  |
+| application.modules | "index" |  |
+| application.library | application.directory. "/library" |  |
+| аплікатион.лібрарі.директорій | application.directory. "/library" |  |
+| application.library.namespace | "" |  |
+| application.bootstrap | application.directory. "/Bootstrap" . application.ext |  |
+| application.baseUri | "" |  |
+| application.dispatcher.defaultRoute |  |  |
+| application.dispatcher.throwException |  |  |
+| application.dispatcher.catchException |  |  |
+| application.dispatcher.defaultModule | "index" |  |
+| application.dispatcher.defaultController | "index" |  |
+| application.dispatcher.defaultAction | "index" |  |
+| application.system |  |  |
 
 Коротке пояснення конфігураційних директив.
 

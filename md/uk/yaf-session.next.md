@@ -1,16 +1,11 @@
-Призначення next
-
--   [« YafSession::key](yaf-session.key.html)
-    
--   [YafSession::offsetExists »](yaf-session.offsetexists.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafSession](class.yaf-session.html)
-    
--   Призначення next
-    
-
+---
+navigation:
+  - yaf-session.key.html: '« YafSession::key'
+  - yaf-session.offsetexists.html: 'YafSession::offsetExists »'
+  - index.html: PHP Manual
+  - class.yaf-session.html: YafSession
+title: 'YafSession::next'
+---
 # YafSession::next
 
 (Yaf >=1.0.0)

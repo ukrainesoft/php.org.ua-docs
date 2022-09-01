@@ -1,16 +1,11 @@
-Установка обробника виходу межі простору імен
-
--   [« xmlsetelementhandler](function.xml-set-element-handler.html)
-    
--   [xmlsetexternalentityrefhandler »](function.xml-set-external-entity-ref-handler.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции парсера XML](ref.xml.md)
-    
--   Установка обробника виходу межі простору імен
-    
-
+---
+navigation:
+  - function.xml-set-element-handler.html: « xmlsetelementhandler
+  - function.xml-set-external-entity-ref-handler.html: xmlsetexternalentityrefhandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
+title: xmlsetendnamespacedeclhandler
+---
 # xmlsetendnamespacedeclhandler
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -63,9 +58,9 @@ handler(XMLParser $parser, string $prefix)
 
 ### список змін
 
-| Версия | Описание                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------|
-|        | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

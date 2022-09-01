@@ -1,16 +1,11 @@
-Повертає SVN-статус файлів та директорій робочої копії
-
--   [« svnrevert](function.svn-revert.html)
-    
--   [svnupdate »](function.svn-update.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає SVN-статус файлів та директорій робочої копії
-    
-
+---
+navigation:
+  - function.svn-revert.html: « svnrevert
+  - function.svn-update.html: svnupdate »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnstatus
+---
 # svnstatus
 
 (PECL svn> = 0.1.0)

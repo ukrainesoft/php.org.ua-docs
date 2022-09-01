@@ -1,16 +1,11 @@
-Встановлює маску кліпу
-
--   [« Imagick::setImageChannelDepth](imagick.setimagechanneldepth.md)
-    
--   [Imagick::setImageColormapColor »](imagick.setimagecolormapcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює маску кліпу
-    
-
+---
+navigation:
+  - imagick.setimagechanneldepth.md: '« Imagick::setImageChannelDepth'
+  - imagick.setimagecolormapcolor.md: 'Imagick::setImageColormapColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageClipMask'
+---
 # Imagick::setImageClipMask
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

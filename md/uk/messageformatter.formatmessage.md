@@ -1,16 +1,11 @@
-Швидко форматує повідомлення
-
--   [« MessageFormatter::create](messageformatter.create.html)
-    
--   [MessageFormatter::format »](messageformatter.format.html)
-    
--   [PHP Manual](index.html)
-    
--   [MessageFormatter](class.messageformatter.html)
-    
--   Швидко форматує повідомлення
-    
-
+---
+navigation:
+  - messageformatter.create.html: '« MessageFormatter::create'
+  - messageformatter.format.html: 'MessageFormatter::format »'
+  - index.html: PHP Manual
+  - class.messageformatter.html: MessageFormatter
+title: 'MessageFormatter::formatMessage'
+---
 # MessageFormatter::formatMessage
 
 # msgfmtformatmessage

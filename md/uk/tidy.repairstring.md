@@ -1,16 +1,11 @@
-Відновлює рядок, використовуючи наскільки можна конфігураційний файл
-
--   [« tidy::repairFile](tidy.repairfile.html)
-    
--   [tidy::root »](tidy.root.html)
-    
--   [PHP Manual](index.html)
-    
--   [tidy](class.tidy.html)
-    
--   Відновлює рядок, використовуючи наскільки можна конфігураційний файл
-    
-
+---
+navigation:
+  - tidy.repairfile.html: '« tidy::repairFile'
+  - tidy.root.html: 'tidy::root »'
+  - index.html: PHP Manual
+  - class.tidy.html: tidy
+title: 'tidy::repairString'
+---
 # tidy::repairString
 
 # tidyrepairstring
@@ -57,11 +52,11 @@ tidy_repair_string(string $string, array|string|null $config = null, ?string $en
 
 ### список змін
 
-| Версия | Описание                                              |
-|--------|-------------------------------------------------------|
-|        | **tidy::repairString()** тепер статичний метод.       |
-|        | `config` і `encoding` тепер допускають значення null. |
-|        | Функція більше не приймає параметр `useIncludePath`   |
+| Версия | Описание |
+| --- | --- |
+|  | **tidy::repairString()** тепер статичний метод. |
+|  | `config` і `encoding` тепер допускають значення null. |
+|  | Функція більше не приймає параметр `useIncludePath` |
 
 ### Приклади
 

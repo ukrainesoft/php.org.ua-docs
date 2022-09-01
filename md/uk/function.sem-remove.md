@@ -1,16 +1,11 @@
-Видалення семафору
-
--   [« semrelease](function.sem-release.html)
-    
--   [shmattach »](function.shm-attach.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції семафорів](ref.sem.html)
-    
--   Видалення семафору
-    
-
+---
+navigation:
+  - function.sem-release.html: « semrelease
+  - function.shm-attach.html: shmattach »
+  - index.html: PHP Manual
+  - ref.sem.html: Функції семафорів
+title: semremove
+---
 # semremove
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ sem_remove(SysvSemaphore $semaphore): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

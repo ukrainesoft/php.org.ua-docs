@@ -1,16 +1,11 @@
-Повертає значення атрибуту
-
--   [« DOMElement::construct](domelement.construct.md)
-    
--   [DOMElement::getAttributeNode »](domelement.getattributenode.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Повертає значення атрибуту
-    
-
+---
+navigation:
+  - domelement.construct.md: '« DOMElement::construct'
+  - domelement.getattributenode.md: 'DOMElement::getAttributeNode »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::getAttribute'
+---
 # DOMElement::getAttribute
 
 (PHP 5, PHP 7, PHP 8)

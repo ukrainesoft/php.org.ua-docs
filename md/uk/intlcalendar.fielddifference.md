@@ -1,16 +1,11 @@
-Обчислює різницю між заданим часом та часом об'єкта
-
--   [« IntlCalendar::equals](intlcalendar.equals.html)
-    
--   [IntlCalendar::fromDateTime »](intlcalendar.fromdatetime.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Обчислює різницю між заданим часом та часом об'єкта
-    
-
+---
+navigation:
+  - intlcalendar.equals.html: '« IntlCalendar::equals'
+  - intlcalendar.fromdatetime.html: 'IntlCalendar::fromDateTime »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::fieldDifference'
+---
 # IntlCalendar::fieldDifference
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

@@ -1,16 +1,11 @@
-Отримує базові атрибути зображення спрощеним способом
-
--   [« Imagick::pingImageBlob](imagick.pingimageblob.html)
-    
--   [Imagick::polaroidImage »](imagick.polaroidimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Отримує базові атрибути зображення спрощеним способом
-    
-
+---
+navigation:
+  - imagick.pingimageblob.html: '« Imagick::pingImageBlob'
+  - imagick.polaroidimage.html: 'Imagick::polaroidImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::pingImageFile'
+---
 # Imagick::pingImageFile
 
 (PECL imagick 2, PECL imagick 3)

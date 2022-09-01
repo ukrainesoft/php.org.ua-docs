@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](oauth.installation.html)
-    
--   [Типи ресурсів »](oauth.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](oauth.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - oauth.installation.html: « Установка
+  - oauth.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - oauth.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

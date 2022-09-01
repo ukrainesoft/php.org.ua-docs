@@ -1,16 +1,11 @@
-Повертає об'єкт серіалізації BSON
-
--   [« MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   [MongoDBDriverReadPreference::construct »](mongodb-driver-readpreference.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)
-    
--   Повертає об'єкт серіалізації BSON
-    
-
+---
+navigation:
+  - class.mongodb-driver-readpreference.html: « MongoDBDriverReadPreference
+  - mongodb-driver-readpreference.construct.html: 'MongoDBDriverReadPreference::construct »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+title: 'MongoDBDriverReadPreference::bsonSerialize'
+---
 # MongoDBDriverReadPreference::bsonSerialize
 
 (mongodb >=1.2.0)

@@ -1,16 +1,11 @@
-Змінює початкове число генератора псевдовипадкових чисел
-
--   [« sqrt](function.sqrt.html)
-    
--   [tan »](function.tan.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні функції](ref.math.html)
-    
--   Змінює початкове число генератора псевдовипадкових чисел
-    
-
+---
+navigation:
+  - function.sqrt.html: « sqrt
+  - function.tan.html: tan »
+  - index.html: PHP Manual
+  - ref.math.html: Математичні функції
+title: srand
+---
 # srand
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ srand(int $seed = 0, int $mode = MT_RAND_MT19937): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **srand()** [стала синонимом](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) функції [мтsrand()](function.mt-srand.html) |
+| Версия | Описание |
+| --- | --- |
+|  | **srand()** [стала синонимом](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) функції [мтsrand()](function.mt-srand.html) |
 
 ### Приклади
 

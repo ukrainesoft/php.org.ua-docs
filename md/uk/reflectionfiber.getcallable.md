@@ -1,16 +1,11 @@
-Отримує об'єкт, що використовується для створення файбера
-
--   [« ReflectionFiber::construct](reflectionfiber.construct.md)
-    
--   [ReflectionFiber::getExecutingFile »](reflectionfiber.getexecutingfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFiber](class.reflectionfiber.md)
-    
--   Отримує об'єкт, що використовується для створення файбера
-    
-
+---
+navigation:
+  - reflectionfiber.construct.md: '« ReflectionFiber::construct'
+  - reflectionfiber.getexecutingfile.md: 'ReflectionFiber::getExecutingFile »'
+  - index.md: PHP Manual
+  - class.reflectionfiber.md: ReflectionFiber
+title: 'ReflectionFiber::getCallable'
+---
 # ReflectionFiber::getCallable
 
 (PHP 8> = 8.1.0)

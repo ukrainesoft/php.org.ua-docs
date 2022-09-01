@@ -1,16 +1,11 @@
-Sodium
-
--   [« passwordverify](function.password-verify.html)
-    
--   [Введение »](intro.sodium.html)
-    
--   [PHP Manual](index.html)
-    
--   [Криптографічні модулі](refs.crypto.html)
-    
--   Sodium
-    
-
+---
+navigation:
+  - function.password-verify.html: « passwordverify
+  - intro.sodium.html: Введение »
+  - index.html: PHP Manual
+  - refs.crypto.html: Криптографічні модулі
+title: Sodium
+---
 # Sodium
 
 -   [Введение](intro.sodium.html)

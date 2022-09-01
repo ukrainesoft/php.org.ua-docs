@@ -1,16 +1,11 @@
-Шифрує зображення
-
--   [« Imagick::embossImage](imagick.embossimage.md)
-    
--   [Imagick::enhanceImage »](imagick.enhanceimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Шифрує зображення
-    
-
+---
+navigation:
+  - imagick.embossimage.md: '« Imagick::embossImage'
+  - imagick.enhanceimage.md: 'Imagick::enhanceImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::encipherImage'
+---
 # Imagick::encipherImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](ssh2.setup.html)
-    
--   [Установка »](ssh2.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](ssh2.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - ssh2.setup.html: « Встановлення та налаштування
+  - ssh2.installation.html: Установка »
+  - index.html: PHP Manual
+  - ssh2.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Для встановлення SSH2 потрібна наявність встановлених бібліотек [» OpenSSL](http://www.openssl.org/) і [» libssh2](http://libssh2.org/). Переконайтеся, що вказані бібліотеки є в системі. Типовою назвою пакета може бути `openssl-dev`

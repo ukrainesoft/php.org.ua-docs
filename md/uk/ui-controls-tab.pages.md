@@ -1,16 +1,11 @@
-Кількість сторінок
-
--   [« UIControlsTab::insertAt](ui-controls-tab.insertat.html)
-    
--   [ОЙControlsTab::setMargin »](ui-controls-tab.setmargin.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsTab](class.ui-controls-tab.html)
-    
--   Кількість сторінок
-    
-
+---
+navigation:
+  - ui-controls-tab.insertat.html: '« UIControlsTab::insertAt'
+  - ui-controls-tab.setmargin.html: 'ОЙControlsTab::setMargin »'
+  - index.md: PHP Manual
+  - class.ui-controls-tab.html: ОЙControlsTab
+title: 'ОЙControlsTab::pages'
+---
 # ОЙControlsTab::pages
 
 (UI 0.9.9)

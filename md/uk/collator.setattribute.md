@@ -1,16 +1,11 @@
-Встановлює атрибут зіставлення
-
--   [« Collator::getStrength](collator.getstrength.html)
-    
--   [Collator::setStrength »](collator.setstrength.html)
-    
--   [PHP Manual](index.html)
-    
--   [Collator](class.collator.html)
-    
--   Встановлює атрибут зіставлення
-    
-
+---
+navigation:
+  - collator.getstrength.html: '« Collator::getStrength'
+  - collator.setstrength.html: 'Collator::setStrength »'
+  - index.html: PHP Manual
+  - class.collator.html: Collator
+title: 'Collator::setAttribute'
+---
 # Collator::setAttribute
 
 # collatorsetattribute

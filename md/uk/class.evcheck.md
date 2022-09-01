@@ -1,16 +1,11 @@
-Клас EvCheck
-
--   [« Ev::verify](ev.verify.html)
-    
--   [EvCheck::construct »](evcheck.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас EvCheck
-    
-
+---
+navigation:
+  - ev.verify.html: '« Ev::verify'
+  - evcheck.construct.html: 'EvCheck::construct »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас EvCheck
+---
 # Клас EvCheck
 
 (PECL ev >= 0.2.0)

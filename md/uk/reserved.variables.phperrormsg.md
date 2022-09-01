@@ -1,16 +1,11 @@
-Попереднє повідомлення про помилку
-
--   [COOKIE](reserved.variables.cookies.md)
-    
--   [$httpresponseheader »](reserved.variables.httpresponseheader.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Попереднє повідомлення про помилку
-    
-
+---
+navigation:
+  - reserved.variables.cookies.md: COOKIE
+  - reserved.variables.httpresponseheader.md: $httpresponseheader »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: $phperrormsg
+---
 # $phperrormsg
 
 (PHP 4, PHP 5, PHP 7)
@@ -33,10 +28,10 @@ $phperrormsg є змінною, що містить текст останньо�
 
 ### список змін
 
-| Версия | Описание                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Директива [trackerrors](errorfunc.configuration.html#ini.track-errors), через яку стає доступним $phperrormsg була видалена.              |
-|        | Директива [trackerrors](errorfunc.configuration.html#ini.track-errors), через яку стає доступним $phperrormsg, була оголошена застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Директива [trackerrors](errorfunc.configuration.html#ini.track-errors), через яку стає доступним $phperrormsg була видалена. |
+|  | Директива [trackerrors](errorfunc.configuration.html#ini.track-errors), через яку стає доступним $phperrormsg, була оголошена застарілою. |
 
 ### Приклади
 

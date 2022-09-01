@@ -1,16 +1,11 @@
-Параметри ключа/сертифіката
-
--   [« Інші константи](openssl.constants.other.html)
-    
--   [Проверка сертификатов »](openssl.cert.verification.html)
-    
--   [PHP Manual](index.html)
-    
--   [OpenSSL](book.openssl.html)
-    
--   Параметри ключа/сертифіката
-    
-
+---
+navigation:
+  - openssl.constants.other.html: « Інші константи
+  - openssl.cert.verification.html: Проверка сертификатов »
+  - index.html: PHP Manual
+  - book.openssl.html: OpenSSL
+title: Параметри ключа/сертифіката
+---
 # Параметри ключа/сертифіката
 
 Деякі функції openssl потребують параметрів у вигляді ключа або сертифіката. Можна використовувати один із таких варіантів:

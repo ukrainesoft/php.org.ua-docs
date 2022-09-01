@@ -1,16 +1,11 @@
-Повертає інформацію про рядок буфера
-
--   [« Функции модуля Fileinfo](ref.fileinfo.md)
-    
--   [finfoclose »](function.finfo-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции модуля Fileinfo](ref.fileinfo.md)
-    
--   Повертає інформацію про рядок буфера
-    
-
+---
+navigation:
+  - ref.fileinfo.md: « Функции модуля Fileinfo
+  - function.finfo-close.html: finfoclose »
+  - index.md: PHP Manual
+  - ref.fileinfo.md: Функции модуля Fileinfo
+title: finfobuffer
+---
 # finfobuffer
 
 # finfo::buffer
@@ -57,10 +52,10 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### список змін
 
-| Версия | Описание                                                                                                                         |
-|--------|----------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | `context` тепер допускає значення null.                                                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 

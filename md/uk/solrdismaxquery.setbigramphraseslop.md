@@ -1,16 +1,11 @@
-Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)
-
--   [« SolrDisMaxQuery::setBigramPhraseFields](solrdismaxquery.setbigramphrasefields.html)
-    
--   [SolrDisMaxQuery::setBoostFunction »](solrdismaxquery.setboostfunction.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
-    
--   Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)
-    
-
+---
+navigation:
+  - solrdismaxquery.setbigramphrasefields.html: '« SolrDisMaxQuery::setBigramPhraseFields'
+  - solrdismaxquery.setboostfunction.html: 'SolrDisMaxQuery::setBoostFunction »'
+  - index.html: PHP Manual
+  - class.solrdismaxquery.html: SolrDisMaxQuery
+title: 'SolrDisMaxQuery::setBigramPhraseSlop'
+---
 # SolrDisMaxQuery::setBigramPhraseSlop
 
 (No version information available, might only be in Git)

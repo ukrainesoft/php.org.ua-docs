@@ -1,16 +1,11 @@
-Встановлює певні значення
-
--   [«pssettextpos](function.ps-set-text-pos.html)
-    
--   [псsetcolor »](function.ps-setcolor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює певні значення
-    
-
+---
+navigation:
+  - function.ps-set-text-pos.html: «pssettextpos
+  - function.ps-setcolor.html: псsetcolor »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetvalue
+---
 # псsetvalue
 
 (PECL ps >= 1.1.0)

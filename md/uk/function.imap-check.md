@@ -1,16 +1,11 @@
-Перевірити поточну поштову скриньку
-
--   [« imapbodystruct](function.imap-bodystruct.html)
-    
--   [imapclearflagfull »](function.imap-clearflag-full.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Перевірити поточну поштову скриньку
-    
-
+---
+navigation:
+  - function.imap-bodystruct.html: « imapbodystruct
+  - function.imap-clearflag-full.html: imapclearflagfull »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapcheck
+---
 # imapcheck
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ imap_check(IMAP\Connection $imap): stdClass|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Визначає рядковий префікс, за допомогою якого обмежуються вирази, на яких виконується фасет
-
--   [« SolrQuery::setFacetOffset](solrquery.setfacetoffset.html)
-    
--   [SolrQuery::setFacetSort »](solrquery.setfacetsort.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Визначає рядковий префікс, за допомогою якого обмежуються вирази, на яких виконується фасет
-    
-
+---
+navigation:
+  - solrquery.setfacetoffset.html: '« SolrQuery::setFacetOffset'
+  - solrquery.setfacetsort.html: 'SolrQuery::setFacetSort »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setFacetPrefix'
+---
 # SolrQuery::setFacetPrefix
 
 (PECL solr> = 0.9.2)

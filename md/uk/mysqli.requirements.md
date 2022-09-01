@@ -1,16 +1,11 @@
-Вимоги
-
--   [« Встановлення та налаштування](mysqli.setup.html)
-    
--   [Установка »](mysqli.installation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](mysqli.setup.html)
-    
--   Вимоги
-    
-
+---
+navigation:
+  - mysqli.setup.html: « Встановлення та налаштування
+  - mysqli.installation.html: Установка »
+  - index.html: PHP Manual
+  - mysqli.setup.html: Встановлення та налаштування
+title: Вимоги
+---
 ## Вимоги
 
 Щоб ці функції були доступні, PHP має бути зібраний за допомогою модуля mysqli.

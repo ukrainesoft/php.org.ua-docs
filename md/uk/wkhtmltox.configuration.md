@@ -1,18 +1,13 @@
-Налаштування під час виконання
-
--   [« Установка](wkhtmltox.installation.md)
-    
--   [wkhtmltoxPDFConverter »](class.wkhtmltox-pdf-converter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](wkhtmltox.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - wkhtmltox.installation.md: « Установка
+  - class.wkhtmltox-pdf-converter.html: wkhtmltoxPDFConverter »
+  - index.md: PHP Manual
+  - wkhtmltox.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
-| Название          | Описание                                       | Значение по умолчанию | Уровень изменения | Версия       |
-|-------------------|------------------------------------------------|-----------------------|-------------------|--------------|
-| вхтмлтьох.графікс | дозволити libwkhtmltox використовувати графіку | Off                   | PHPINISYSTEM      | PHPINIPERDIR |
+| Название | Описание | Значение по умолчанию | Уровень изменения | Версия |
+| --- | --- | --- | --- | --- |
+| вхтмлтьох.графікс | дозволити libwkhtmltox використовувати графіку | Off | PHPINISYSTEM | PHPINIPERDIR |

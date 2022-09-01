@@ -1,16 +1,11 @@
-Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
-
--   [« Phar::buildFromIterator](phar.buildfromiterator.html)
-    
--   [Phar::canWrite »](phar.canwrite.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
-    
-
+---
+navigation:
+  - phar.buildfromiterator.html: '« Phar::buildFromIterator'
+  - phar.canwrite.html: 'Phar::canWrite »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::canCompress'
+---
 # Phar::canCompress
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

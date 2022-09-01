@@ -1,16 +1,11 @@
-Додає кілька серверів у пул
-
--   [« Memcached::addServer](memcached.addserver.md)
-    
--   [Memcached::append »](memcached.append.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Додає кілька серверів у пул
-    
-
+---
+navigation:
+  - memcached.addserver.md: '« Memcached::addServer'
+  - memcached.append.md: 'Memcached::append »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::addServers'
+---
 # Memcached::addServers
 
 (PECL memcached >= 0.1.1)

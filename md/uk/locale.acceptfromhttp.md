@@ -1,16 +1,11 @@
-Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
-
--   [« Locale](class.locale.md)
-    
--   [Locale::canonicalize »](locale.canonicalize.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
-    
-
+---
+navigation:
+  - class.locale.md: « Locale
+  - locale.canonicalize.md: 'Locale::canonicalize »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::acceptFromHttp'
+---
 # Locale::acceptFromHttp
 
 # localeacceptfromhttp

@@ -1,16 +1,11 @@
-Встановити текст
-
--   [« UIControlsCheck::setChecked](ui-controls-check.setchecked.html)
-    
--   [ОЙControlsButton »](class.ui-controls-button.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙControlsCheck](class.ui-controls-check.html)
-    
--   Встановити текст
-    
-
+---
+navigation:
+  - ui-controls-check.setchecked.html: '« UIControlsCheck::setChecked'
+  - class.ui-controls-button.html: ОЙControlsButton »
+  - index.html: PHP Manual
+  - class.ui-controls-check.html: ОЙControlsCheck
+title: 'ОЙControlsCheck::setText'
+---
 # ОЙControlsCheck::setText
 
 (UI 0.9.9)

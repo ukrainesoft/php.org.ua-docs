@@ -1,16 +1,11 @@
-Встановлює стиснення зображення
-
--   [« Imagick::setImageCompose](imagick.setimagecompose.md)
-    
--   [Imagick::setImageCompressionQuality »](imagick.setimagecompressionquality.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює стиснення зображення
-    
-
+---
+navigation:
+  - imagick.setimagecompose.md: '« Imagick::setImageCompose'
+  - imagick.setimagecompressionquality.md: 'Imagick::setImageCompressionQuality »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImageCompression'
+---
 # Imagick::setImageCompression
 
 (PECL imagick 2, PECL imagick 3)

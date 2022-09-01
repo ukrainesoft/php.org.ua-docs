@@ -1,16 +1,11 @@
-Видаляє запис бази даних, визначену ключем
-
--   [« dbaclose](function.dba-close.html)
-    
--   [dbaexists »](function.dba-exists.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції DBA](ref.dba.md)
-    
--   Видаляє запис бази даних, визначену ключем
-    
-
+---
+navigation:
+  - function.dba-close.html: « dbaclose
+  - function.dba-exists.html: dbaexists »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
+title: dbadelete
+---
 # dbadelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Представляє розміри (ширина, висота)
-
--   [« UIPoint::setY](ui-point.sety.html)
-    
--   [ОЙSize::construct »](ui-size.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Представляє розміри (ширина, висота)
-    
-
+---
+navigation:
+  - ui-point.sety.html: '« UIPoint::setY'
+  - ui-size.construct.html: 'ОЙSize::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: 'Представляє розміри (ширина, висота)'
+---
 # Представляє розміри (ширина, висота)
 
 (UI 0.9.9)

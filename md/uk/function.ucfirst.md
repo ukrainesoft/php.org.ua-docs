@@ -1,16 +1,11 @@
-Перетворює перший символ рядка у верхній регістр
-
--   [« trim](function.trim.html)
-    
--   [ucwords »](function.ucwords.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Перетворює перший символ рядка у верхній регістр
-    
-
+---
+navigation:
+  - function.trim.html: « trim
+  - function.ucwords.html: ucwords »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: ucfirst
+---
 # ucfirst
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

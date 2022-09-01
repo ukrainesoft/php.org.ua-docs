@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Встановлення та налаштування](gender.setup.html)
-    
--   [Приклади »](gender.examples.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](gender.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - gender.setup.html: « Встановлення та налаштування
+  - gender.examples.html: Приклади »
+  - index.html: PHP Manual
+  - gender.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

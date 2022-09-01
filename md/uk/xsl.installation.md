@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](xsl.requirements.md)
-    
--   [Налаштування під час виконання »](xsl.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](xsl.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - xsl.requirements.md: « Вимоги
+  - xsl.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - xsl.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 PHP містить модуль XSL за промовчанням. Модуль може бути активований додаванням аргументу **\-with-xsl=DIR** у рядок конфігурації (`DIR` - Шлях установки libxslt).

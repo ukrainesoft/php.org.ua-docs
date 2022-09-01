@@ -1,16 +1,11 @@
-Перевірити, чи можна модифікувати tar/zip-архів
-
--   [« PharData::extractTo](phardata.extractto.html)
-    
--   [PharData::offsetSet »](phardata.offsetset.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharData](class.phardata.html)
-    
--   Перевірити, чи можна модифікувати tar/zip-архів
-    
-
+---
+navigation:
+  - phardata.extractto.html: '« PharData::extractTo'
+  - phardata.offsetset.html: 'PharData::offsetSet »'
+  - index.html: PHP Manual
+  - class.phardata.html: PharData
+title: 'PharData::isWritable'
+---
 # PharData::isWritable
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

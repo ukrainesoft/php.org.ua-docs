@@ -1,16 +1,11 @@
-Створює об'єкт класу DateInterval із дати у відносному форматі
-
--   [« DateInterval::construct](dateinterval.construct.html)
-    
--   [DateInterval::format »](dateinterval.format.html)
-    
--   [PHP Manual](index.html)
-    
--   [DateInterval](class.dateinterval.html)
-    
--   Створює об'єкт класу DateInterval із дати у відносному форматі
-    
-
+---
+navigation:
+  - dateinterval.construct.html: '« DateInterval::construct'
+  - dateinterval.format.html: 'DateInterval::format »'
+  - index.html: PHP Manual
+  - class.dateinterval.html: DateInterval
+title: 'DateInterval::createFromDateString'
+---
 # DateInterval::createFromDateString
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ public static DateInterval::createFromDateString(string $datetime): DateInterval
 
 ### список змін
 
-| Версия | Описание                                                                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тільки властивості `from_string` і `date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.html) за допомогою цього. |
+| Версия | Описание |
+| --- | --- |
+|  | Тільки властивості `from_string` і `date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.html) за допомогою цього. |
 
 ### Приклади
 

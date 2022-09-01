@@ -1,16 +1,11 @@
-Зчитує наступний запис у ZIP-архіві
-
--   [« zipopen](function.zip-open.html)
-    
--   [Zlib »](book.zlib.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Zip](ref.zip.html)
-    
--   Зчитує наступний запис у ZIP-архіві
-    
-
+---
+navigation:
+  - function.zip-open.html: « zipopen
+  - book.zlib.html: Zlib »
+  - index.html: PHP Manual
+  - ref.zip.html: Функции Zip
+title: zipread
+---
 # zipread
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
@@ -41,9 +36,9 @@ ZIP-файл, попередньо відкритий за допомогою ф
 
 ### список змін
 
-| Версия | Описание                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
 
 ### Дивіться також
 

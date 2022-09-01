@@ -1,16 +1,11 @@
-Виконати команду через оболонку та повернути висновок у вигляді рядка
-
--   [« procterminate](function.proc-terminate.html)
-    
--   [system »](function.system.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции запуска программ](ref.exec.md)
-    
--   Виконати команду через оболонку та повернути висновок у вигляді рядка
-    
-
+---
+navigation:
+  - function.proc-terminate.html: « procterminate
+  - function.system.md: system »
+  - index.md: PHP Manual
+  - ref.exec.md: Функции запуска программ
+title: shellexec
+---
 # shellexec
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

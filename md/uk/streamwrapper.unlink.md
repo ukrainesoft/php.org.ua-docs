@@ -1,16 +1,11 @@
-Видалення файлу
-
--   [« streamWrapper::streamwrite](streamwrapper.stream-write.html)
-    
--   [streamWrapper::urlstat »](streamwrapper.url-stat.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Видалення файлу
-    
-
+---
+navigation:
+  - streamwrapper.stream-write.html: '« streamWrapper::streamwrite'
+  - streamwrapper.url-stat.html: 'streamWrapper::urlstat »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::unlink'
+---
 # streamWrapper::unlink
 
 (PHP 5, PHP 7, PHP 8)

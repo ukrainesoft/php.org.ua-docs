@@ -1,16 +1,11 @@
-Повертає, чи включена статистика
-
--   [« SolrQuery::getStart](solrquery.getstart.md)
-    
--   [SolrQuery::getStatsFacets »](solrquery.getstatsfacets.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає, чи включена статистика
-    
-
+---
+navigation:
+  - solrquery.getstart.md: '« SolrQuery::getStart'
+  - solrquery.getstatsfacets.md: 'SolrQuery::getStatsFacets »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getStats'
+---
 # SolrQuery::getStats
 
 (PECL solr> = 0.9.2)

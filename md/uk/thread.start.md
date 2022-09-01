@@ -1,16 +1,11 @@
-Виконання
-
--   [« Thread::join](thread.join.md)
-    
--   [Worker »](class.worker.md)
-    
--   [PHP Manual](index.md)
-    
--   [Thread](class.thread.md)
-    
--   Виконання
-    
-
+---
+navigation:
+  - thread.join.md: '« Thread::join'
+  - class.worker.md: Worker »
+  - index.md: PHP Manual
+  - class.thread.md: Thread
+title: 'Thread::start'
+---
 # Thread::start
 
 (PECL pthreads >= 2.0.0)

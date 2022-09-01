@@ -1,16 +1,11 @@
-Створює спеціальний fifo файл (іменований канал-pipe)
-
--   [« posixkill](function.posix-kill.html)
-    
--   [posixmknod »](function.posix-mknod.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Створює спеціальний fifo файл (іменований канал-pipe)
-    
-
+---
+navigation:
+  - function.posix-kill.html: « posixkill
+  - function.posix-mknod.html: posixmknod »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixmkfifo
+---
 # posixmkfifo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

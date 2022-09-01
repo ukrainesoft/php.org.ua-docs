@@ -1,16 +1,11 @@
-Перевірити різницю між цим кольором та іншим
-
--   [« ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md)
-    
--   [ImagickPixel::setColor »](imagickpixel.setcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Перевірити різницю між цим кольором та іншим
-    
-
+---
+navigation:
+  - imagickpixel.ispixelsimilarquantum.md: '« ImagickPixel::isPixelSimilarQuantum'
+  - imagickpixel.setcolor.md: 'ImagickPixel::setColor »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::isSimilar'
+---
 # ImagickPixel::isSimilar
 
 (PECL imagick 2, PECL imagick 3)

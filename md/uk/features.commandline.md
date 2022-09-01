@@ -1,16 +1,11 @@
-Використання PHP у командному рядку
-
--   [« Постійні з'єднання з базами даних](features.persistent-connections.html)
-    
--   [Введение »](features.commandline.introduction.md)
-    
--   [PHP Manual](index.md)
-    
--   [Відмітні особливості](features.md)
-    
--   Використання PHP у командному рядку
-    
-
+---
+navigation:
+  - features.persistent-connections.html: « Постійні з'єднання з базами даних
+  - features.commandline.introduction.md: Введение »
+  - index.md: PHP Manual
+  - features.md: Відмітні особливості
+title: Використання PHP у командному рядку
+---
 # Використання PHP у командному рядку
 
 ## Зміст

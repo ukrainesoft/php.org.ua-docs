@@ -1,16 +1,11 @@
-Повертає рядок, що містить тип використовуваної сполуки
-
--   [« mysqli::getconnectionstats](mysqli.get-connection-stats.html)
-    
--   [mysqli::$protocolversion »](mysqli.get-proto-info.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Повертає рядок, що містить тип використовуваної сполуки
-    
-
+---
+navigation:
+  - mysqli.get-connection-stats.html: '« mysqli::getconnectionstats'
+  - mysqli.get-proto-info.html: 'mysqli::$protocolversion »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::$hostinfo'
+---
 # mysqli::$hostinfo
 
 # mysqligethostinfo

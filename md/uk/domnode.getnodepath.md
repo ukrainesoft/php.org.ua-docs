@@ -1,16 +1,11 @@
-Отримання XPath вузла
-
--   [« DOMNode::getLineNo](domnode.getlineno.md)
-    
--   [DOMNode::hasAttributes »](domnode.hasattributes.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMNode](class.domnode.md)
-    
--   Отримання XPath вузла
-    
-
+---
+navigation:
+  - domnode.getlineno.md: '« DOMNode::getLineNo'
+  - domnode.hasattributes.md: 'DOMNode::hasAttributes »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
+title: 'DOMNode::getNodePath'
+---
 # DOMNode::getNodePath
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

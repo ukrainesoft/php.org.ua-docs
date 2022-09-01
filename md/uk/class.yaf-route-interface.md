@@ -1,16 +1,11 @@
-Клас YafRouteInterface
-
--   [« YafResponseAbstract::toString](yaf-response-abstract.tostring.html)
-    
--   [YafRouteInterface::assemble »](yaf-route-interface.assemble.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRouteInterface
-    
-
+---
+navigation:
+  - yaf-response-abstract.tostring.html: '« YafResponseAbstract::toString'
+  - yaf-route-interface.assemble.html: 'YafRouteInterface::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRouteInterface
+---
 # Клас YafRouteInterface
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Клас SwooleClient
-
--   [« SwooleChannel::stats](swoole-channel.stats.html)
-    
--   [SwooleClient::close »](swoole-client.close.html)
-    
--   [PHP Manual](index.html)
-    
--   [Swoole](book.swoole.html)
-    
--   Клас SwooleClient
-    
-
+---
+navigation:
+  - swoole-channel.stats.html: '« SwooleChannel::stats'
+  - swoole-client.close.html: 'SwooleClient::close »'
+  - index.html: PHP Manual
+  - book.swoole.html: Swoole
+title: Клас SwooleClient
+---
 # Клас SwooleClient
 
 (PECL swoole >= 1.9.0)

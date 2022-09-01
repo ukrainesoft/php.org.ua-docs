@@ -1,16 +1,11 @@
-Перетворення Гільберта – миттєва лінія тренду
-
--   [« traderхтsine](function.trader-ht-sine.html)
-    
--   [traderхтtrendmode »](function.trader-ht-trendmode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Перетворення Гільберта – миттєва лінія тренду
-    
-
+---
+navigation:
+  - function.trader-ht-sine.html: « traderхтsine
+  - function.trader-ht-trendmode.html: traderхтtrendmode »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтtrendline
+---
 # traderхтtrendline
 
 (PECL trader >= 0.2.0)

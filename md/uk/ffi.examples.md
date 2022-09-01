@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](ffi.constants.md)
-    
--   [Прості приклади використання FFI »](ffi.examples-basic.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](book.ffi.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - ffi.constants.md: « Обумовлені константи
+  - ffi.examples-basic.html: Прості приклади використання FFI »
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
+title: Приклади
+---
 # Приклади
 
 ## Зміст

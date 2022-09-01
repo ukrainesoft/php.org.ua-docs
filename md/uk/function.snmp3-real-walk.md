@@ -1,16 +1,11 @@
-Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
-
--   [« snmpv3getnext](function.snmp3-getnext.html)
-    
--   [snmpv3set »](function.snmp3-set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SNMP](ref.snmp.md)
-    
--   Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
-    
-
+---
+navigation:
+  - function.snmp3-getnext.html: « snmpv3getnext
+  - function.snmp3-set.html: snmpv3set »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
+title: snmpv3realwalk
+---
 # snmpv3realwalk
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -73,9 +68,9 @@ snmp3_real_walk(    string $hostname,    string $security_name,    s
 
 ### список змін
 
-| Версия | Описание                                                                                     |
-|--------|----------------------------------------------------------------------------------------------|
-|        | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 

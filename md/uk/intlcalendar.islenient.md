@@ -1,16 +1,11 @@
-Визначає, чи інтерпретація дати/часу є м'якою.
-
--   [« IntlCalendar::isEquivalentTo](intlcalendar.isequivalentto.md)
-    
--   [IntlCalendar::isSet »](intlcalendar.isset.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Визначає, чи інтерпретація дати/часу є м'якою.
-    
-
+---
+navigation:
+  - intlcalendar.isequivalentto.md: '« IntlCalendar::isEquivalentTo'
+  - intlcalendar.isset.md: 'IntlCalendar::isSet »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::isLenient'
+---
 # IntlCalendar::isLenient
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

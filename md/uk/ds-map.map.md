@@ -1,16 +1,11 @@
-Повертає результат застосування callback-функції до всіх значень колекції
-
--   [« DsMap::last](ds-map.last.html)
-    
--   [ДсMap::merge »](ds-map.merge.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає результат застосування callback-функції до всіх значень колекції
-    
-
+---
+navigation:
+  - ds-map.last.html: '« DsMap::last'
+  - ds-map.merge.html: 'ДсMap::merge »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::map'
+---
 # ДсMap::map
 
 (PECL ds >= 1.0.0)

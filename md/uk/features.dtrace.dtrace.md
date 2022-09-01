@@ -1,16 +1,11 @@
-Використання PHP та DTrace
-
--   [« Введение в PHP и DTrace](features.dtrace.introduction.md)
-    
--   [Використання SystemTap із статичними зондами PHP DTrace »](features.dtrace.systemtap.md)
-    
--   [PHP Manual](index.md)
-    
--   [Динамічна трасування DTrace](features.dtrace.md)
-    
--   Використання PHP та DTrace
-    
-
+---
+navigation:
+  - features.dtrace.introduction.md: « Введение в PHP и DTrace
+  - features.dtrace.systemtap.md: Використання SystemTap із статичними зондами PHP DTrace »
+  - index.md: PHP Manual
+  - features.dtrace.md: Динамічна трасування DTrace
+title: Використання PHP та DTrace
+---
 ## Використання PHP та DTrace
 
 PHP може бути налаштований зі статичними зондами DTrace на платформах, що підтримують динамічне трасування DTrace.
@@ -40,19 +35,19 @@ PHP може бути налаштований зі статичними зон�
 
 **Наступні статичні зонди доступні в PHP**
 
-| Имя зонда             | Описание зонда                                                                                                                                | Аргументы зонда                                                             |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| `request-startup`     | Спрацьовує на початку запиту.                                                                                                                 | char file, char requesturi, char requestметод                               |
-| `request-shutdown`    | Спрацьовує після закінчення запиту.                                                                                                           | char file, char requesturi, char requestметод                               |
-| `compile-file-entry`  | Спрацьовує коли починається компіляція скрипта.                                                                                               | char compilefile, char compilefiletranslated                                |
-| `compile-file-return` | Спрацьовує, коли закінчується компіляція скрипту.                                                                                             | char compilefile, char compilefiletranslated                                |
-| `execute-entry`       | Спрацьовує, коли запускається масив байт-коду. Наприклад, коли викликаються функції, відновлюється робота генератора чи відбувається include. | char requestfile, int lineno                                                |
-| `execute-return`      | Спрацьовує після відпрацювання масиву байт-коду.                                                                                              | char requestfile, int lineno                                                |
-| `function-entry`      | Спрацьовує, коли PHP починає запуск функції або методу.                                                                                       | char functionname, char requestfile, int lineno, char classname, char scope |
-| `function-return`     | Спрацьовує, коли PHP повертається з функції або методу.                                                                                       | char functionname, char requestfile, int lineno, char classname, char scope |
-| `exception-thrown`    | Спрацьовує, коли викинуто виняток.                                                                                                            | char classname                                                              |
-| `exception-caught`    | Спрацьовує, коли виняток спійманий.                                                                                                           | char classname                                                              |
-| `error`               | Спрацьовує якщо сталася помилка, незалежно від рівня [errorreporting](errorfunc.configuration.html#ini.error-reporting)                       | char errormsg, char requestfile, int lineno                                 |
+| Имя зонда | Описание зонда | Аргументы зонда |
+| --- | --- | --- |
+| `request-startup` | Спрацьовує на початку запиту. | char file, char requesturi, char requestметод |
+| `request-shutdown` | Спрацьовує після закінчення запиту. | char file, char requesturi, char requestметод |
+| `compile-file-entry` | Спрацьовує коли починається компіляція скрипта. | char compilefile, char compilefiletranslated |
+| `compile-file-return` | Спрацьовує, коли закінчується компіляція скрипту. | char compilefile, char compilefiletranslated |
+| `execute-entry` | Спрацьовує, коли запускається масив байт-коду. Наприклад, коли викликаються функції, відновлюється робота генератора чи відбувається include. | char requestfile, int lineno |
+| `execute-return` | Спрацьовує після відпрацювання масиву байт-коду. | char requestfile, int lineno |
+| `function-entry` | Спрацьовує, коли PHP починає запуск функції або методу. | char functionname, char requestfile, int lineno, char classname, char scope |
+| `function-return` | Спрацьовує, коли PHP повертається з функції або методу. | char functionname, char requestfile, int lineno, char classname, char scope |
+| `exception-thrown` | Спрацьовує, коли викинуто виняток. | char classname |
+| `exception-caught` | Спрацьовує, коли виняток спійманий. | char classname |
+| `error` | Спрацьовує якщо сталася помилка, незалежно від рівня [errorreporting](errorfunc.configuration.html#ini.error-reporting) | char errormsg, char requestfile, int lineno |
 
 Модулі PHP можуть містити додаткові зонди.
 

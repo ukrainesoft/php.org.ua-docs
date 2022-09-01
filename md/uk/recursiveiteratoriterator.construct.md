@@ -1,16 +1,11 @@
-Конструктор класу RecursiveIteratorIterator
-
--   [« RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.md)
-    
--   [RecursiveIteratorIterator::current »](recursiveiteratoriterator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Конструктор класу RecursiveIteratorIterator
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.callhaschildren.md: '« RecursiveIteratorIterator::callHasChildren'
+  - recursiveiteratoriterator.current.md: 'RecursiveIteratorIterator::current »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::construct'
+---
 # RecursiveIteratorIterator::construct
 
 (PHP 5> = 5.1.3, PHP 7, PHP 8)

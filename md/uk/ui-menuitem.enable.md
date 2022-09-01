@@ -1,16 +1,11 @@
-Увімкнути пункт меню
-
--   [« UIMenuItem::disable](ui-menuitem.disable.html)
-    
--   [ОЙMenuItem::isChecked »](ui-menuitem.ischecked.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙMenuItem](class.ui-menuitem.html)
-    
--   Увімкнути пункт меню
-    
-
+---
+navigation:
+  - ui-menuitem.disable.html: '« UIMenuItem::disable'
+  - ui-menuitem.ischecked.html: 'ОЙMenuItem::isChecked »'
+  - index.md: PHP Manual
+  - class.ui-menuitem.html: ОЙMenuItem
+title: 'ОЙMenuItem::enable'
+---
 # ОЙMenuItem::enable
 
 (UI 0.9.9)

@@ -1,16 +1,11 @@
-Повертає колір заливки
-
--   [« GmagickDraw::ellipse](gmagickdraw.ellipse.md)
-    
--   [GmagickDraw::getfillopacity »](gmagickdraw.getfillopacity.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Повертає колір заливки
-    
-
+---
+navigation:
+  - gmagickdraw.ellipse.md: '« GmagickDraw::ellipse'
+  - gmagickdraw.getfillopacity.md: 'GmagickDraw::getfillopacity »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getfillcolor'
+---
 # GmagickDraw::getfillcolor
 
 (PECL gmagick >= Unknown)

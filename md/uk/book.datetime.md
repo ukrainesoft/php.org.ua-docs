@@ -1,16 +1,11 @@
-дата і час
-
--   [« unixtojd](function.unixtojd.html)
-    
--   [Введение »](intro.datetime.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з датою та часом](refs.calendar.html)
-    
--   дата і час
-    
-
+---
+navigation:
+  - function.unixtojd.html: « unixtojd
+  - intro.datetime.html: Введение »
+  - index.html: PHP Manual
+  - refs.calendar.html: Модулі для роботи з датою та часом
+title: дата і час
+---
 # дата і час
 
 -   [Введение](intro.datetime.html)

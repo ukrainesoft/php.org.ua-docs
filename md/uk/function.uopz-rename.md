@@ -1,16 +1,11 @@
-Перейменувати функцію під час виконання
-
--   [« uopzredefine](function.uopz-redefine.html)
-    
--   [uopzrestore »](function.uopz-restore.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Перейменувати функцію під час виконання
-    
-
+---
+navigation:
+  - function.uopz-redefine.html: « uopzredefine
+  - function.uopz-restore.html: uopzrestore »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzrename
+---
 # uopzrename
 
 (PECL uopz 1, PECL uopz 2)

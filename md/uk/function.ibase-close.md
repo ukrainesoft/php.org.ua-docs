@@ -1,16 +1,11 @@
-Закриває з'єднання з базою даних InterBase
-
--   [« ibaseblobopen](function.ibase-blob-open.html)
-    
--   [ibasecommitret »](function.ibase-commit-ret.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Закриває з'єднання з базою даних InterBase
-    
-
+---
+navigation:
+  - function.ibase-blob-open.html: « ibaseblobopen
+  - function.ibase-commit-ret.html: ibasecommitret »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseclose
+---
 # ibaseclose
 
 (PHP 5, PHP 7 < 7.4.0)

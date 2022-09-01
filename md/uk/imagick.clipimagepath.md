@@ -1,16 +1,11 @@
-Опис
-
--   [« Imagick::clipImage](imagick.clipimage.md)
-    
--   [Imagick::clipPathImage »](imagick.clippathimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagick.clipimage.md: '« Imagick::clipImage'
+  - imagick.clippathimage.md: 'Imagick::clipPathImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clipImagePath'
+---
 # Imagick::clipImagePath
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

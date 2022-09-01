@@ -1,16 +1,11 @@
-Конструктор Javascript
-
--   [« MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   [MongoDBBSONJavascript::getCode »](mongodb-bson-javascript.getcode.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONJavascript](class.mongodb-bson-javascript.html)
-    
--   Конструктор Javascript
-    
-
+---
+navigation:
+  - class.mongodb-bson-javascript.html: « MongoDBBSONJavascript
+  - mongodb-bson-javascript.getcode.html: 'MongoDBBSONJavascript::getCode »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+title: 'MongoDBBSONJavascript::construct'
+---
 # MongoDBBSONJavascript::construct
 
 (mongodb >=1.0.0)
@@ -40,10 +35,10 @@ final public MongoDB\BSON\Javascript::__construct(string $code, array|object|nul
 
 ### список змін
 
-| Версия                                                                                                                                                                                                                                             | Описание |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.2.0                                                                                                                                                                                                                                 |          |
-| Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `code` містить null-байти. Раніше, в такому випадку, аргумент обрізався про першого null-байту, що зустрівся. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.2.0 |  |
+| Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `code` містить null-байти. Раніше, в такому випадку, аргумент обрізався про першого null-байту, що зустрівся. |  |
 
 ### Приклади
 

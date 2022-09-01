@@ -1,16 +1,11 @@
-Викликає callback-функцію з масивом параметрів
-
--   [« Функции управления функциями](ref.funchand.md)
-    
--   [calluserfunc »](function.call-user-func.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции управления функциями](ref.funchand.md)
-    
--   Викликає callback-функцію з масивом параметрів
-    
-
+---
+navigation:
+  - ref.funchand.md: « Функции управления функциями
+  - function.call-user-func.html: calluserfunc »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
+title: calluserfuncarray
+---
 # calluserfuncarray
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ call_user_func_array(callable $callback, array $args): mixed
 
 ### список змін
 
-| Версия | Описание                                                                               |
-|--------|----------------------------------------------------------------------------------------|
-|        | Ключі параметра `args` тепер інтерпретуються як імена параметрів, а чи не ігноруються. |
+| Версия | Описание |
+| --- | --- |
+|  | Ключі параметра `args` тепер інтерпретуються як імена параметрів, а чи не ігноруються. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](pspell.installation.md)
-    
--   [Типи ресурсів »](pspell.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](pspell.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - pspell.installation.md: « Установка
+  - pspell.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - pspell.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Цей модуль не визначає жодних директив конфігурації в php.ini.

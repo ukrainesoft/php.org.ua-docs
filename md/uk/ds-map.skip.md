@@ -1,16 +1,11 @@
-Повертає пару за індексом позиції
-
--   [« DsMap::reversed](ds-map.reversed.html)
-    
--   [ДсMap::slice »](ds-map.slice.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає пару за індексом позиції
-    
-
+---
+navigation:
+  - ds-map.reversed.html: '« DsMap::reversed'
+  - ds-map.slice.html: 'ДсMap::slice »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::skip'
+---
 # ДсMap::skip
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.errorfunc.md)
-    
--   [Вимоги »](errorfunc.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Обработка ошибок](book.errorfunc.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.errorfunc.md: « Введение
+  - errorfunc.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.errorfunc.md: Обработка ошибок
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

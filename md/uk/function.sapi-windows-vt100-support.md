@@ -1,16 +1,11 @@
-Отримати або встановити підтримку VT100 для заданого потоку, пов'язаного з буфером виведення консолі Windows
-
--   [« sapiwindowssetctrlhandler](function.sapi-windows-set-ctrl-handler.html)
-    
--   [showsource »](function.show-source.html)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Отримати або встановити підтримку VT100 для заданого потоку, пов'язаного з буфером виведення консолі Windows
-    
-
+---
+navigation:
+  - function.sapi-windows-set-ctrl-handler.html: « sapiwindowssetctrlhandler
+  - function.show-source.html: showsource »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: sapiwindowsvt100support
+---
 # sapiwindowsvt100support
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -53,9 +48,9 @@ sapi_windows_vt100_support(resource $stream, ?bool $enable = null): bool
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `enable` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `enable` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повернути перший ідентифікатор результату
-
--   [« ldapfirstattribute](function.ldap-first-attribute.html)
-    
--   [ldapfirstreference »](function.ldap-first-reference.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції LDAP](ref.ldap.md)
-    
--   Повернути перший ідентифікатор результату
-    
-
+---
+navigation:
+  - function.ldap-first-attribute.html: « ldapfirstattribute
+  - function.ldap-first-reference.html: ldapfirstreference »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
+title: ldapfirstentry
+---
 # ldapfirstentry
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,11 +38,11 @@ ldap_first_entry(LDAP\Connection $ldap, LDAP\Result $result): LDAP\ResultEntry|f
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md)       |
-|        | Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше повертався ресурс ([resource](language.types.resource.md)                 |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

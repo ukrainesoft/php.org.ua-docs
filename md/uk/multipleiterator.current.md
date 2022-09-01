@@ -1,16 +1,11 @@
-Отримує зареєстровані ітератори
-
--   [« MultipleIterator::countIterators](multipleiterator.countiterators.md)
-    
--   [MultipleIterator::detachIterator »](multipleiterator.detachiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [MultipleIterator](class.multipleiterator.md)
-    
--   Отримує зареєстровані ітератори
-    
-
+---
+navigation:
+  - multipleiterator.countiterators.md: '« MultipleIterator::countIterators'
+  - multipleiterator.detachiterator.md: 'MultipleIterator::detachIterator »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
+title: 'MultipleIterator::current'
+---
 # MultipleIterator::current
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ public MultipleIterator::current(): array
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Тепер викидається виняток [RuntimeException](class.runtimeexception.md), якщо [MultipleIterator::key()](multipleiterator.key.md) викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидається виняток [RuntimeException](class.runtimeexception.md), якщо [MultipleIterator::key()](multipleiterator.key.md) викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 

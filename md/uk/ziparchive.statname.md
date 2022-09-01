@@ -1,16 +1,11 @@
-Отримання детальної інформації про елемент на ім'я
-
--   [« ZipArchive::statIndex](ziparchive.statindex.html)
-    
--   [ZipArchive::unchangeAll »](ziparchive.unchangeall.html)
-    
--   [PHP Manual](index.html)
-    
--   [ZipArchive](class.ziparchive.html)
-    
--   Отримання детальної інформації про елемент на ім'я
-    
-
+---
+navigation:
+  - ziparchive.statindex.html: '« ZipArchive::statIndex'
+  - ziparchive.unchangeall.html: 'ZipArchive::unchangeAll »'
+  - index.html: PHP Manual
+  - class.ziparchive.html: ZipArchive
+title: 'ЖипАрхіві::статнаме'
+---
 # ЖипАрхіві::статнаме
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.5.0)

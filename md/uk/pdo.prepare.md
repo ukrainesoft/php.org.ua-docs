@@ -1,16 +1,11 @@
-Підготовляє запит до виконання та повертає пов'язаний із цим запитом об'єкт
-
--   [« PDO::lastInsertId](pdo.lastinsertid.html)
-    
--   [PDO::query »](pdo.query.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDO](class.pdo.html)
-    
--   Підготовляє запит до виконання та повертає пов'язаний із цим запитом об'єкт
-    
-
+---
+navigation:
+  - pdo.lastinsertid.html: '« PDO::lastInsertId'
+  - pdo.query.html: 'PDO::query »'
+  - index.html: PHP Manual
+  - class.pdo.html: PDO
+title: 'PDO::prepare'
+---
 # PDO::prepare
 
 (PHP 5 >= 5.1.0, PHP 7, PHP 8, PHP 8, PECL pdo >= 0.1.0)

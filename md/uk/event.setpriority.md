@@ -1,16 +1,11 @@
-Задати пріоритет події
-
--   [« Event::set](event.set.html)
-    
--   [Event::setTimer »](event.settimer.html)
-    
--   [PHP Manual](index.html)
-    
--   [Event](class.event.html)
-    
--   Задати пріоритет події
-    
-
+---
+navigation:
+  - event.set.html: '« Event::set'
+  - event.settimer.html: 'Event::setTimer »'
+  - index.html: PHP Manual
+  - class.event.html: Event
+title: 'Event::setPriority'
+---
 # Event::setPriority
 
 (PECL event >= 1.2.6-beta)

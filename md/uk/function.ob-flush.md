@@ -1,16 +1,11 @@
-Скинути (надіслати) буфер виводу
-
--   [« obendflush](function.ob-end-flush.html)
-    
--   [проgetclean »](function.ob-get-clean.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції контролю виведення](ref.outcontrol.html)
-    
--   Скинути (надіслати) буфер виводу
-    
-
+---
+navigation:
+  - function.ob-end-flush.html: « obendflush
+  - function.ob-get-clean.html: проgetclean »
+  - index.html: PHP Manual
+  - ref.outcontrol.html: Функції контролю виведення
+title: проflush
+---
 # проflush
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

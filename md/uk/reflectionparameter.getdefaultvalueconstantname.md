@@ -1,16 +1,11 @@
-Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
-
--   [« ReflectionParameter::getDefaultValue](reflectionparameter.getdefaultvalue.md)
-    
--   [ReflectionParameter::getName »](reflectionparameter.getname.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
-    
-
+---
+navigation:
+  - reflectionparameter.getdefaultvalue.md: '« ReflectionParameter::getDefaultValue'
+  - reflectionparameter.getname.md: 'ReflectionParameter::getName »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getDefaultValueConstantName'
+---
 # ReflectionParameter::getDefaultValueConstantName
 
 (PHP 5> = 5.4.6, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public ReflectionParameter::getDefaultValueConstantName(): ?string
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Метод дозволяє отримувати імена значень за промовчанням для вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Метод дозволяє отримувати імена значень за промовчанням для вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
 
 ### Приклади
 

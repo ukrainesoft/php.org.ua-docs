@@ -1,16 +1,11 @@
-Починає нову сторінку
-
--   [«psarcn](function.ps-arcn.html)
-    
--   [псbeginpattern »](function.ps-begin-pattern.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Починає нову сторінку
-    
-
+---
+navigation:
+  - function.ps-arcn.html: «psarcn
+  - function.ps-begin-pattern.html: псbeginpattern »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псbeginpage
+---
 # псbeginpage
 
 (PECL ps >= 1.1.0)

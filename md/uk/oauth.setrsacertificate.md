@@ -1,16 +1,11 @@
-Встановити сертифікат RSA
-
--   [« OAuth::setRequestEngine](oauth.setrequestengine.md)
-    
--   [OAuth::setSSLChecks »](oauth.setsslchecks.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuth](class.oauth.md)
-    
--   Встановити сертифікат RSA
-    
-
+---
+navigation:
+  - oauth.setrequestengine.md: '« OAuth::setRequestEngine'
+  - oauth.setsslchecks.md: 'OAuth::setSSLChecks »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
+title: 'OAuth::setRSACertificate'
+---
 # OAuth::setRSACertificate
 
 (PECL OAuth >= 1.0.0)
@@ -41,8 +36,8 @@ public OAuth::setRSACertificate(string $cert): mixed
 
 ### список змін
 
-| Версия           | Описание                                                                   |
-|------------------|----------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Приклади

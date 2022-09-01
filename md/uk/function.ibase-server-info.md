@@ -1,16 +1,11 @@
-Запитує інформацію про сервер бази даних
-
--   [« ibaserollback](function.ibase-rollback.html)
-    
--   [ibaseserviceattach »](function.ibase-service-attach.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Firebird/InterBase](ref.ibase.html)
-    
--   Запитує інформацію про сервер бази даних
-    
-
+---
+navigation:
+  - function.ibase-rollback.html: « ibaserollback
+  - function.ibase-service-attach.html: ibaseserviceattach »
+  - index.html: PHP Manual
+  - ref.ibase.html: Функции Firebird/InterBase
+title: ibaseserverinfo
+---
 # ibaseserverinfo
 
 (PHP 5, PHP 7 < 7.4.0)

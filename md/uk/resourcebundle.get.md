@@ -1,16 +1,11 @@
-Отримати дані з пакета
-
--   [« ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.html)
-    
--   [ResourceBundle::getLocales »](resourcebundle.locales.html)
-    
--   [PHP Manual](index.html)
-    
--   [ResourceBundle](class.resourcebundle.html)
-    
--   Отримати дані з пакета
-    
-
+---
+navigation:
+  - resourcebundle.geterrormessage.html: '« ResourceBundle::getErrorMessage'
+  - resourcebundle.locales.html: 'ResourceBundle::getLocales »'
+  - index.html: PHP Manual
+  - class.resourcebundle.html: ResourceBundle
+title: 'ResourceBundle::get'
+---
 # ResourceBundle::get
 
 # resourcebundleget

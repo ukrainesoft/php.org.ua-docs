@@ -1,16 +1,11 @@
-Видаляє значення за вказаним індексом $index
-
--   [« SplDoublyLinkedList::offsetSet](spldoublylinkedlist.offsetset.html)
-    
--   [SplDoublyLinkedList::pop »](spldoublylinkedlist.pop.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Видаляє значення за вказаним індексом $index
-    
-
+---
+navigation:
+  - spldoublylinkedlist.offsetset.html: '« SplDoublyLinkedList::offsetSet'
+  - spldoublylinkedlist.pop.html: 'SplDoublyLinkedList::pop »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::offsetUnset'
+---
 # SplDoublyLinkedList::offsetUnset
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

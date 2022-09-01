@@ -1,16 +1,11 @@
-Повертає поточний час
-
--   [« getdate](function.getdate.md)
-    
--   [gmdate »](function.gmdate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Повертає поточний час
-    
-
+---
+navigation:
+  - function.getdate.md: « getdate
+  - function.gmdate.md: gmdate »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: gettimeofday
+---
 # gettimeofday
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

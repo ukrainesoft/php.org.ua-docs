@@ -1,16 +1,11 @@
-Сортує масив із збереженням асоціації індексу
-
--   [« Collator](class.collator.md)
-    
--   [Collator::compare »](collator.compare.md)
-    
--   [PHP Manual](index.md)
-    
--   [Collator](class.collator.md)
-    
--   Сортує масив із збереженням асоціації індексу
-    
-
+---
+navigation:
+  - class.collator.md: « Collator
+  - collator.compare.md: 'Collator::compare »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
+title: 'Collator::asort'
+---
 # Collator::asort
 
 # collatorasort

@@ -1,16 +1,11 @@
-Пошук наступного простого числа
-
--   [« gmpneg](function.gmp-neg.html)
-    
--   [gmpor »](function.gmp-or.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Пошук наступного простого числа
-    
-
+---
+navigation:
+  - function.gmp-neg.html: « gmpneg
+  - function.gmp-or.html: gmpor »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpnextprime
+---
 # gmpnextprime
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

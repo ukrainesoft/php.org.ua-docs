@@ -1,16 +1,11 @@
-Експортувати сокет у потік, що інкапсулює сокет
-
--   [« socketcreate](function.socket-create.html)
-    
--   [socketgetoption »](function.socket-get-option.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Експортувати сокет у потік, що інкапсулює сокет
-    
-
+---
+navigation:
+  - function.socket-create.html: « socketcreate
+  - function.socket-get-option.html: socketgetoption »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketexportstream
+---
 # socketexportstream
 
 (PHP 7> = 7.0.7, PHP 8)
@@ -37,6 +32,6 @@ socket_export_stream(Socket $socket): resource|false
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |

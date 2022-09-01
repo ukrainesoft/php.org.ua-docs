@@ -1,16 +1,11 @@
-Повертає основну точку синього кольору зображення
-
--   [« Imagick::getImageBlob](imagick.getimageblob.md)
-    
--   [Imagick::getImageBorderColor »](imagick.getimagebordercolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає основну точку синього кольору зображення
-    
-
+---
+navigation:
+  - imagick.getimageblob.md: '« Imagick::getImageBlob'
+  - imagick.getimagebordercolor.md: 'Imagick::getImageBorderColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageBluePrimary'
+---
 # Imagick::getImageBluePrimary
 
 (PECL imagick 2, PECL imagick 3)

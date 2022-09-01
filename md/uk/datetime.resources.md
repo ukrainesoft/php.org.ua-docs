@@ -1,16 +1,11 @@
-Типи ресурсів
-
--   [« Налаштування під час виконання](datetime.configuration.html)
-    
--   [Обумовлені константи »](datetime.constants.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](datetime.setup.html)
-    
--   Типи ресурсів
-    
-
+---
+navigation:
+  - datetime.configuration.html: « Налаштування під час виконання
+  - datetime.constants.html: Обумовлені константи »
+  - index.html: PHP Manual
+  - datetime.setup.html: Встановлення та налаштування
+title: Типи ресурсів
+---
 ## Типи ресурсів
 
 Цей модуль не визначає будь-яких типів ресурсів.

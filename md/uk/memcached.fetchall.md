@@ -1,16 +1,11 @@
-Витягує всі отримані записи
-
--   [« Memcached::fetch](memcached.fetch.html)
-    
--   [Memcached::flush »](memcached.flush.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Витягує всі отримані записи
-    
-
+---
+navigation:
+  - memcached.fetch.html: '« Memcached::fetch'
+  - memcached.flush.html: 'Memcached::flush »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::fetchAll'
+---
 # Memcached::fetchAll
 
 (PECL memcached >= 0.1.0)

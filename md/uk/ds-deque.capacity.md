@@ -1,16 +1,11 @@
-Повертає поточну місткість
-
--   [« DsDeque::apply](ds-deque.apply.html)
-    
--   [ДсDeque::clear »](ds-deque.clear.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає поточну місткість
-    
-
+---
+navigation:
+  - ds-deque.apply.html: '« DsDeque::apply'
+  - ds-deque.clear.html: 'ДсDeque::clear »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::capacity'
+---
 # ДсDeque::capacity
 
 (PECL ds >= 1.0.0)

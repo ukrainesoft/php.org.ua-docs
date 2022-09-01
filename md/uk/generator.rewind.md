@@ -1,16 +1,11 @@
-Перемотати ітератор
-
--   [« Generator::next](generator.next.html)
-    
--   [Generator::send »](generator.send.html)
-    
--   [PHP Manual](index.html)
-    
--   [Generator](class.generator.html)
-    
--   Перемотати ітератор
-    
-
+---
+navigation:
+  - generator.next.html: '« Generator::next'
+  - generator.send.html: 'Generator::send »'
+  - index.html: PHP Manual
+  - class.generator.html: Generator
+title: 'Generator::rewind'
+---
 # Generator::rewind
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

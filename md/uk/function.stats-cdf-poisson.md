@@ -1,16 +1,11 @@
-Обчислює один із параметрів розподілу Пуассона за рештою
-
--   [« statscdfnormal](function.stats-cdf-normal.html)
-    
--   [statscdft »](function.stats-cdf-t.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції статистики](ref.stats.md)
-    
--   Обчислює один із параметрів розподілу Пуассона за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-normal.html: « statscdfnormal
+  - function.stats-cdf-t.html: statscdft »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
+title: statscdfpoisson
+---
 # statscdfpoisson
 
 (PECL stats >= 1.0.0)
@@ -30,10 +25,10 @@ stats_cdf_poisson(float $par1, float $par2, int $which): float
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` |
-|---------|-----------------------|--------|--------|
-|         | CDF                   | з      | lambda |
-|         | з                     | CDF    | lambda |
-|         | lambda                | з      | CDF    |
+| --- | --- | --- | --- |
+|  | CDF | з | lambda |
+|  | з | CDF | lambda |
+|  | lambda | з | CDF |
 
 ### Список параметрів
 

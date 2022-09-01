@@ -1,16 +1,11 @@
-Отримує текстовий атрибут
-
--   [« NumberFormatter::getSymbol](numberformatter.getsymbol.md)
-    
--   [NumberFormatter::parseCurrency »](numberformatter.parsecurrency.md)
-    
--   [PHP Manual](index.md)
-    
--   [NumberFormatter](class.numberformatter.md)
-    
--   Отримує текстовий атрибут
-    
-
+---
+navigation:
+  - numberformatter.getsymbol.md: '« NumberFormatter::getSymbol'
+  - numberformatter.parsecurrency.md: 'NumberFormatter::parseCurrency »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
+title: 'NumberFormatter::getTextAttribute'
+---
 # NumberFormatter::getTextAttribute
 
 # numfmtgettextattribute

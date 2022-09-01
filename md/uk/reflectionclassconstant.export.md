@@ -1,16 +1,11 @@
-Експорт
-
--   [« ReflectionClassConstant::construct](reflectionclassconstant.construct.md)
-    
--   [ReflectionClassConstant::getAttributes »](reflectionclassconstant.getattributes.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.md)
-    
--   Експорт
-    
-
+---
+navigation:
+  - reflectionclassconstant.construct.md: '« ReflectionClassConstant::construct'
+  - reflectionclassconstant.getattributes.md: 'ReflectionClassConstant::getAttributes »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::export'
+---
 # ReflectionClassConstant::export
 
 (PHP 7> = 7.1.0)

@@ -1,16 +1,11 @@
-Повертає затримку сервера у мілісекундах
-
--   [« MongoDBDriverServer::getInfo](mongodb-driver-server.getinfo.html)
-    
--   [MongoDBDriverServer::getPort »](mongodb-driver-server.getport.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Повертає затримку сервера у мілісекундах
-    
-
+---
+navigation:
+  - mongodb-driver-server.getinfo.html: '« MongoDBDriverServer::getInfo'
+  - mongodb-driver-server.getport.html: 'MongoDBDriverServer::getPort »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::getLatency'
+---
 # MongoDBDriverServer::getLatency
 
 (mongodb >=1.0.0)
@@ -39,8 +34,8 @@ final public MongoDB\Driver\Server::getLatency(): ?integer
 
 ### список змін
 
-| Версия              | Описание                                                                                                                                                             |
-|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.11.0 | Метод поверне \*\*`null`\*\*якщо затримка не була виміряна. У попередніх версіях завжди поверталося ціле число, а невстановлене значення могло відображатися як `-1` |
 
 ### Приклади

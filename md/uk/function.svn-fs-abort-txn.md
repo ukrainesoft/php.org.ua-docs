@@ -1,16 +1,11 @@
-Скасує транзакцію
-
--   [« svnexport](function.svn-export.html)
-    
--   [svnфсapplytext »](function.svn-fs-apply-text.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Скасує транзакцію
-    
-
+---
+navigation:
+  - function.svn-export.html: « svnexport
+  - function.svn-fs-apply-text.html: svnфсapplytext »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсaborttxn
+---
 # svnфсaborttxn
 
 (PECL svn >= 0.2.0)

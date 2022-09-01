@@ -1,16 +1,11 @@
-Отримує шлях зареєстрованого простору імен
-
--   [« YafLoader::getLocalNamespace](yaf-loader.getlocalnamespace.html)
-    
--   [YafLoader::getLocalNamespace »](yaf-loader.getnamespaces.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Отримує шлях зареєстрованого простору імен
-    
-
+---
+navigation:
+  - yaf-loader.getlocalnamespace.html: '« YafLoader::getLocalNamespace'
+  - yaf-loader.getnamespaces.html: 'YafLoader::getLocalNamespace »'
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::getNamespacePath'
+---
 # YafLoader::getNamespacePath
 
 (Yaf> = 3.2.0)

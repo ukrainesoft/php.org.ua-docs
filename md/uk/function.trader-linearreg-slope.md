@@ -1,16 +1,11 @@
-Лінійний регресійний нахил
-
--   [« traderlinearregintercept](function.trader-linearreg-intercept.html)
-    
--   [traderlinearreg »](function.trader-linearreg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Лінійний регресійний нахил
-    
-
+---
+navigation:
+  - function.trader-linearreg-intercept.html: « traderlinearregintercept
+  - function.trader-linearreg.html: traderlinearreg »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderlinearregslope
+---
 # traderlinearregslope
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Приклади
-
--   [« Кодування символів](xml.encoding.md)
-    
--   [Приклад Структури Елементу XML »](example.xml-structure.html)
-    
--   [PHP Manual](index.md)
-    
--   [Разбор XML](book.xml.md)
-    
--   Приклади
-    
-
+---
+navigation:
+  - xml.encoding.md: « Кодування символів
+  - example.xml-structure.html: Приклад Структури Елементу XML »
+  - index.md: PHP Manual
+  - book.xml.md: Разбор XML
+title: Приклади
+---
 # Приклади
 
 ## Зміст

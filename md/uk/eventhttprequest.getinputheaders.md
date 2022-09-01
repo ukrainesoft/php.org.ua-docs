@@ -1,16 +1,11 @@
-Повертає асоціативний масив вхідних заголовків
-
--   [« EventHttpRequest::getInputBuffer](eventhttprequest.getinputbuffer.html)
-    
--   [EventHttpRequest::getOutputBuffer »](eventhttprequest.getoutputbuffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Повертає асоціативний масив вхідних заголовків
-    
-
+---
+navigation:
+  - eventhttprequest.getinputbuffer.html: '« EventHttpRequest::getInputBuffer'
+  - eventhttprequest.getoutputbuffer.html: 'EventHttpRequest::getOutputBuffer »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::getInputHeaders'
+---
 # EventHttpRequest::getInputHeaders
 
 (PECL event >= 1.4.0-beta)

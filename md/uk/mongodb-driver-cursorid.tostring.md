@@ -1,16 +1,11 @@
-Рядкове подання ідентифікатора курсора
-
--   [« MongoDBDriverCursorId::serialize](mongodb-driver-cursorid.serialize.html)
-    
--   [MongoDBDriverCursorId::unserialize »](mongodb-driver-cursorid.unserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html)
-    
--   Рядкове подання ідентифікатора курсора
-    
-
+---
+navigation:
+  - mongodb-driver-cursorid.serialize.html: '« MongoDBDriverCursorId::serialize'
+  - mongodb-driver-cursorid.unserialize.html: 'MongoDBDriverCursorId::unserialize »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId
+title: 'MongoDBDriverCursorId::function toString() { \[native code\] }'
+---
 # MongoDBDriverCursorId::function toString() { \[native code\] }
 
 (mongodb >=1.0.0)

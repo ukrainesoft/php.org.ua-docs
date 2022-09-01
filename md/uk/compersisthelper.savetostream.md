@@ -1,16 +1,11 @@
-Зберігає об'єкт у потоці
-
--   [« COMPersistHelper::SaveToFile](compersisthelper.savetofile.md)
-    
--   [comexception »](class.com-exception.html)
-    
--   [PHP Manual](index.md)
-    
--   [COMPersistHelper](class.compersisthelper.md)
-    
--   Зберігає об'єкт у потоці
-    
-
+---
+navigation:
+  - compersisthelper.savetofile.md: '« COMPersistHelper::SaveToFile'
+  - class.com-exception.html: comexception »
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
+title: 'COMPersistHelper::SaveToStream'
+---
 # COMPersistHelper::SaveToStream
 
 (PHP 5, PHP 7, PHP 8)

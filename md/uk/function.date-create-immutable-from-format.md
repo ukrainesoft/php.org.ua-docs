@@ -1,16 +1,11 @@
-Псевдонім DateTimeImmutable::createFromFormat
-
--   [« datecreatefromformat](function.date-create-from-format.html)
-    
--   [datecreateimmutable »](function.date-create-immutable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTimeImmutable::createFromFormat
-    
-
+---
+navigation:
+  - function.date-create-from-format.html: « datecreatefromformat
+  - function.date-create-immutable.html: datecreateimmutable »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datecreateimmutablefromformat
+---
 # datecreateimmutablefromformat
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

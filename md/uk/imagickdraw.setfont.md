@@ -1,16 +1,11 @@
-Встановлює вказаний шрифт для використання під час анотування текстом
-
--   [« ImagickDraw::setFillRule](imagickdraw.setfillrule.md)
-    
--   [ImagickDraw::setFontFamily »](imagickdraw.setfontfamily.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Встановлює вказаний шрифт для використання під час анотування текстом
-    
-
+---
+navigation:
+  - imagickdraw.setfillrule.md: '« ImagickDraw::setFillRule'
+  - imagickdraw.setfontfamily.md: 'ImagickDraw::setFontFamily »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::setFont'
+---
 # ImagickDraw::setFont
 
 (PECL imagick 2, PECL imagick 3)

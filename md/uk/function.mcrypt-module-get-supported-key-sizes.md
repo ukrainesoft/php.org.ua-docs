@@ -1,16 +1,11 @@
-Повертає список підтримуваних розмірів ключів для відкритого алгоритму
-
--   [« mcryptmodulegetalgokeysize](function.mcrypt-module-get-algo-key-size.html)
-    
--   [mcryptmoduleісblockalgorithmmode »](function.mcrypt-module-is-block-algorithm-mode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Повертає список підтримуваних розмірів ключів для відкритого алгоритму
-    
-
+---
+navigation:
+  - function.mcrypt-module-get-algo-key-size.html: « mcryptmodulegetalgokeysize
+  - function.mcrypt-module-is-block-algorithm-mode.html: mcryptmoduleісblockalgorithmmode »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmodulegetsupportedkeysizes
+---
 # mcryptmodulegetsupportedkeysizes
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

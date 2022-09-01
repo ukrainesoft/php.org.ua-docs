@@ -1,16 +1,11 @@
-MQSeries MQPUT
-
--   [« mqseriesput1](function.mqseries-put1.html)
-    
--   [mqseriesset »](function.mqseries-set.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции mqseries](ref.mqseries.html)
-    
--   MQSeries MQPUT
-    
-
+---
+navigation:
+  - function.mqseries-put1.html: « mqseriesput1
+  - function.mqseries-set.html: mqseriesset »
+  - index.html: PHP Manual
+  - ref.mqseries.html: Функции mqseries
+title: mqseriesput
+---
 # mqseriesput
 
 (PECL mqseries >= 0.10.0)

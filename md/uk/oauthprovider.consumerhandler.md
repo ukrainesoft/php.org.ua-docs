@@ -1,16 +1,11 @@
-Встановити обробник consumerHandler
-
--   [« OAuthProvider::construct](oauthprovider.construct.md)
-    
--   [OAuthProvider::generateToken »](oauthprovider.generatetoken.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Встановити обробник consumerHandler
-    
-
+---
+navigation:
+  - oauthprovider.construct.md: '« OAuthProvider::construct'
+  - oauthprovider.generatetoken.md: 'OAuthProvider::generateToken »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::consumerHandler'
+---
 # OAuthProvider::consumerHandler
 
 (PECL OAuth >= 1.0.0)

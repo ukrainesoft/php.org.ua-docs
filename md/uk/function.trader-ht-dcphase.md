@@ -1,16 +1,11 @@
-Перетворення Гільберта - Фаза домінуючого циклу
-
--   [« traderхтdcperiod](function.trader-ht-dcperiod.html)
-    
--   [traderхтphasor »](function.trader-ht-phasor.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Перетворення Гільберта - Фаза домінуючого циклу
-    
-
+---
+navigation:
+  - function.trader-ht-dcperiod.html: « traderхтdcperiod
+  - function.trader-ht-phasor.html: traderхтphasor »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderхтdcphase
+---
 # traderхтdcphase
 
 (PECL trader >= 0.2.0)

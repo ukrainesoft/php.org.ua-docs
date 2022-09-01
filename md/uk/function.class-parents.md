@@ -1,16 +1,11 @@
-Повертає список батьківських класів заданого класу
-
--   [« classimplements](function.class-implements.html)
-    
--   [classuses »](function.class-uses.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Повертає список батьківських класів заданого класу
-    
-
+---
+navigation:
+  - function.class-implements.html: « classimplements
+  - function.class-uses.html: classuses »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: classparents
+---
 # classparents
 
 (PHP 5, PHP 7, PHP 8)

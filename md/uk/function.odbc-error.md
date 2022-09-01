@@ -1,16 +1,11 @@
-Повертає останній код помилки
-
--   [« odbcдо](function.odbc-do.html)
-    
--   [odbcerrormsg »](function.odbc-errormsg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає останній код помилки
-    
-
+---
+navigation:
+  - function.odbc-do.html: « odbcдо
+  - function.odbc-errormsg.html: odbcerrormsg »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcerror
+---
 # odbcerror
 
 (PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ odbc_error(?resource $odbc = null): string
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `odbc` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `odbc` тепер допускає значення null. |
 
 ### Дивіться також
 

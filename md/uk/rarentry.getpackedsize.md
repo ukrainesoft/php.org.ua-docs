@@ -1,16 +1,11 @@
-Повертає розмір стисненого елемента
-
--   [« RarEntry::getName](rarentry.getname.md)
-    
--   [RarEntry::getStream »](rarentry.getstream.md)
-    
--   [PHP Manual](index.md)
-    
--   [RarEntry](class.rarentry.md)
-    
--   Повертає розмір стисненого елемента
-    
-
+---
+navigation:
+  - rarentry.getname.md: '« RarEntry::getName'
+  - rarentry.getstream.md: 'RarEntry::getStream »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
+title: 'RarEntry::getPackedSize'
+---
 # RarEntry::getPackedSize
 
 (PECL rar >= 0.1)
@@ -39,8 +34,8 @@ public RarEntry::getPackedSize(): int
 
 ### список змін
 
-| Версия         | Описание                                                                                                                                                                          |
-|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 2.0.0 | Даний метод тепер повертає правильні значення для стиснутих даних більше 2 ГБ на платформах з 64 бітними цілими (int) і ніколи не повертає негативні значення на всіх платформах. |
 
 ### Приклади

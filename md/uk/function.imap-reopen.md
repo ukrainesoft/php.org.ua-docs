@@ -1,16 +1,11 @@
-Перевідкриває потік IMAP до нової скриньки
-
--   [« imaprenamemailbox](function.imap-renamemailbox.html)
-    
--   [imaprfc822parseadrlist »](function.imap-rfc822-parse-adrlist.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Перевідкриває потік IMAP до нової скриньки
-    
-
+---
+navigation:
+  - function.imap-renamemailbox.html: « imaprenamemailbox
+  - function.imap-rfc822-parse-adrlist.html: imaprfc822parseadrlist »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapreopen
+---
 # imapreopen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -59,9 +54,9 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

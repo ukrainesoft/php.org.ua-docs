@@ -1,16 +1,11 @@
-Відвідування
-
--   [« CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.html)
-    
--   [CommonMarkInterfacesIVisitor::leave »](commonmark-interfaces-ivisitor.leave.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.html)
-    
--   Відвідування
-    
-
+---
+navigation:
+  - class.commonmark-interfaces-ivisitor.html: « CommonMarkInterfacesIVisitor
+  - commonmark-interfaces-ivisitor.leave.html: 'CommonMarkInterfacesIVisitor::leave »'
+  - index.md: PHP Manual
+  - class.commonmark-interfaces-ivisitor.html: CommonMarkInterfacesIVisitor
+title: 'CommonMarkInterfacesIVisitor::enter'
+---
 # CommonMarkInterfacesIVisitor::enter
 
 (cmark >= 1.0.0)

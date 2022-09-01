@@ -1,16 +1,11 @@
-Повертає порт, який слухає сервер
-
--   [« MongoDBDriverServer::getLatency](mongodb-driver-server.getlatency.html)
-    
--   [MongoDBDriverServer::getServerDescription »](mongodb-driver-server.getserverdescription.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverServer](class.mongodb-driver-server.html)
-    
--   Повертає порт, який слухає сервер
-    
-
+---
+navigation:
+  - mongodb-driver-server.getlatency.html: '« MongoDBDriverServer::getLatency'
+  - mongodb-driver-server.getserverdescription.html: 'MongoDBDriverServer::getServerDescription »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.html: MongoDBDriverServer
+title: 'MongoDBDriverServer::getPort'
+---
 # MongoDBDriverServer::getPort
 
 (mongodb >=1.0.0)

@@ -1,16 +1,11 @@
-Повертає шістнадцяткову виставу ObjectIdInterface
-
--   [« MongoDBBSONObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.html)
-    
--   [MongoDBBSONRegexInterface »](class.mongodb-bson-regexinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.html)
-    
--   Повертає шістнадцяткову виставу ObjectIdInterface
-    
-
+---
+navigation:
+  - mongodb-bson-objectidinterface.gettimestamp.html: '« MongoDBBSONObjectIdInterface::getTimestamp'
+  - class.mongodb-bson-regexinterface.html: MongoDBBSONRegexInterface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectidinterface.html: MongoDBBSONObjectIdInterface
+title: 'MongoDBBSONObjectIdInterface::toString'
+---
 # MongoDBBSONObjectIdInterface::toString
 
 (mongodb >=1.3.0)

@@ -1,16 +1,11 @@
-Перевести подію в пасивний стан
-
--   [« Event::construct](event.construct.html)
-    
--   [Event::delSignal »](event.delsignal.html)
-    
--   [PHP Manual](index.html)
-    
--   [Event](class.event.html)
-    
--   Перевести подію в пасивний стан
-    
-
+---
+navigation:
+  - event.construct.html: '« Event::construct'
+  - event.delsignal.html: 'Event::delSignal »'
+  - index.html: PHP Manual
+  - class.event.html: Event
+title: 'Event::del'
+---
 # Event::del
 
 (PECL event >= 1.2.6-beta)

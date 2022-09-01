@@ -1,16 +1,11 @@
-Клас LuaSandboxFatalError
-
--   [« LuaSandboxErrorError](class.luasandboxerrorerror.html)
-    
--   [LuaSandboxMemoryError »](class.luasandboxmemoryerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandbox](book.luasandbox.html)
-    
--   Клас LuaSandboxFatalError
-    
-
+---
+navigation:
+  - class.luasandboxerrorerror.html: « LuaSandboxErrorError
+  - class.luasandboxmemoryerror.html: LuaSandboxMemoryError »
+  - index.html: PHP Manual
+  - book.luasandbox.html: LuaSandbox
+title: Клас LuaSandboxFatalError
+---
 # Клас LuaSandboxFatalError
 
 (PECL luasandbox >= 1.0.0)

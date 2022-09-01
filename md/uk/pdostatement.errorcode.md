@@ -1,16 +1,11 @@
-Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
-
--   [« PDOStatement::debugDumpParams](pdostatement.debugdumpparams.md)
-    
--   [PDOStatement::errorInfo »](pdostatement.errorinfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [PDOStatement](class.pdostatement.md)
-    
--   Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
-    
-
+---
+navigation:
+  - pdostatement.debugdumpparams.md: '« PDOStatement::debugDumpParams'
+  - pdostatement.errorinfo.md: 'PDOStatement::errorInfo »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
+title: 'PDOStatement::errorCode'
+---
 # PDOStatement::errorCode
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)

@@ -1,16 +1,11 @@
-Отримує рядок із потокового ресурсу до вказаного роздільника
-
--   [« streamgetfilters](function.stream-get-filters.html)
-    
--   [streamgetmetadata »](function.stream-get-meta-data.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Отримує рядок із потокового ресурсу до вказаного роздільника
-    
-
+---
+navigation:
+  - function.stream-get-filters.html: « streamgetfilters
+  - function.stream-get-meta-data.html: streamgetmetadata »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamgetline
+---
 # streamgetline
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Створює нове зображення з файлу чи URL
-
--   [« imagecreatefromtga](function.imagecreatefromtga.html)
-    
--   [imagecreatefromwebp »](function.imagecreatefromwebp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Створює нове зображення з файлу чи URL
-    
-
+---
+navigation:
+  - function.imagecreatefromtga.html: « imagecreatefromtga
+  - function.imagecreatefromwebp.html: imagecreatefromwebp »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagecreatefrombmp
+---
 # imagecreatefrombmp
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ imagecreatefromwbmp(string $filename): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
 
 ### Приклади
 

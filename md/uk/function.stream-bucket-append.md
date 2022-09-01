@@ -1,16 +1,11 @@
-Додати відро (bucket) до бригади (brigade)
-
--   [« Функції для роботи з потоками](ref.stream.md)
-    
--   [streambucketmakewriteable »](function.stream-bucket-make-writeable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Додати відро (bucket) до бригади (brigade)
-    
-
+---
+navigation:
+  - ref.stream.md: « Функції для роботи з потоками
+  - function.stream-bucket-make-writeable.html: streambucketmakewriteable »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streambucketappend
+---
 # streambucketappend
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Очищення (нормалізація)
-
--   [« Перевірка (валідація)](filter.examples.validation.html)
-    
--   [Функції фільтрації даних »](ref.filter.html)
-    
--   [PHP Manual](index.html)
-    
--   [Приклади](filter.examples.html)
-    
--   Очищення (нормалізація)
-    
-
+---
+navigation:
+  - filter.examples.validation.html: « Перевірка (валідація)
+  - ref.filter.html: Функції фільтрації даних »
+  - index.html: PHP Manual
+  - filter.examples.html: Приклади
+title: Очищення (нормалізація)
+---
 ## Очищення (нормалізація)
 
 **Приклад #1 Нормалізація та валідація e-mail адрес**

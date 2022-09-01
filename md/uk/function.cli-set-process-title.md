@@ -1,16 +1,11 @@
-Встановлює заголовок процесу
-
--   [« cligetprocesstitle](function.cli-get-process-title.html)
-    
--   [dl »](function.dl.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Встановлює заголовок процесу
-    
-
+---
+navigation:
+  - function.cli-get-process-title.html: « cligetprocesstitle
+  - function.dl.html: dl »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: clisetprocesstitle
+---
 # clisetprocesstitle
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

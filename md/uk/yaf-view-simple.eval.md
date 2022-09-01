@@ -1,16 +1,11 @@
-Малює шаблон
-
--   [« YafViewSimple::display](yaf-view-simple.display.html)
-    
--   [YafViewSimple::get »](yaf-view-simple.get.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Малює шаблон
-    
-
+---
+navigation:
+  - yaf-view-simple.display.html: '« YafViewSimple::display'
+  - yaf-view-simple.get.html: 'YafViewSimple::get »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::eval'
+---
 # YafViewSimple::eval
 
 (Yaf> = 2.2.0)

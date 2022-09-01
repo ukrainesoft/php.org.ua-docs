@@ -1,16 +1,11 @@
-Підключається до віддаленого порту TCP або UDP
-
--   [« SwooleClient::close](swoole-client.close.html)
-    
--   [SwooleClient::construct »](swoole-client.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Підключається до віддаленого порту TCP або UDP
-    
-
+---
+navigation:
+  - swoole-client.close.html: '« SwooleClient::close'
+  - swoole-client.construct.html: 'SwooleClient::construct »'
+  - index.html: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::connect'
+---
 # SwooleClient::connect
 
 (PECL swoole >= 1.9.0)

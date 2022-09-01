@@ -1,16 +1,11 @@
-Вказує, чи є файл доступним для читання
-
--   [« SplFileInfo::isLink](splfileinfo.islink.html)
-    
--   [SplFileInfo::isWritable »](splfileinfo.iswritable.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFileInfo](class.splfileinfo.html)
-    
--   Вказує, чи є файл доступним для читання
-    
-
+---
+navigation:
+  - splfileinfo.islink.html: '« SplFileInfo::isLink'
+  - splfileinfo.iswritable.html: 'SplFileInfo::isWritable »'
+  - index.html: PHP Manual
+  - class.splfileinfo.html: SplFileInfo
+title: 'SplFileInfo::isReadable'
+---
 # SplFileInfo::isReadable
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

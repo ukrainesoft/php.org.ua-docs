@@ -1,16 +1,11 @@
-Пошук одиниці в числі
-
--   [« gmpscan0](function.gmp-scan0.html)
-    
--   [gmpsetbit »](function.gmp-setbit.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Пошук одиниці в числі
-    
-
+---
+navigation:
+  - function.gmp-scan0.html: « gmpscan0
+  - function.gmp-setbit.html: gmpsetbit »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpscan1
+---
 # gmpscan1
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

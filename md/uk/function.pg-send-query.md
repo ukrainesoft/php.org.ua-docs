@@ -1,16 +1,11 @@
-Надсилає асинхронний запит
-
--   [« pgsendqueryparams](function.pg-send-query-params.html)
-    
--   [пгsetclientencoding »](function.pg-set-client-encoding.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Надсилає асинхронний запит
-    
-
+---
+navigation:
+  - function.pg-send-query-params.html: « pgsendqueryparams
+  - function.pg-set-client-encoding.html: пгsetclientencoding »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгsendquery
+---
 # пгsendquery
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_send_query(PgSql\Connection $connection, string $query): int|bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Клас SolrClient
-
--   [« SolrObject::offsetUnset](solrobject.offsetunset.html)
-    
--   [SolrClient::addDocument »](solrclient.adddocument.html)
-    
--   [PHP Manual](index.html)
-    
--   [Solr](book.solr.html)
-    
--   Клас SolrClient
-    
-
+---
+navigation:
+  - solrobject.offsetunset.html: '« SolrObject::offsetUnset'
+  - solrclient.adddocument.html: 'SolrClient::addDocument »'
+  - index.html: PHP Manual
+  - book.solr.html: Solr
+title: Клас SolrClient
+---
 # Клас SolrClient
 
 (PECL solr> = 0.9.2)

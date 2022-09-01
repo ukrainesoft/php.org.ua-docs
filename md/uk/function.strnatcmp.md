@@ -1,16 +1,11 @@
-Порівняння рядків із використанням алгоритму "natural order"
-
--   [« strnatcasecmp](function.strnatcasecmp.html)
-    
--   [strncasecmp »](function.strncasecmp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Порівняння рядків із використанням алгоритму "natural order"
-    
-
+---
+navigation:
+  - function.strnatcasecmp.html: « strnatcasecmp
+  - function.strncasecmp.html: strncasecmp »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strnatcmp
+---
 # strnatcmp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

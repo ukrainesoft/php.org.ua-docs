@@ -1,16 +1,11 @@
-Створює копію структури fann
-
--   [« fannclearscalingparams](function.fann-clear-scaling-params.html)
-    
--   [fanncreatefromfile »](function.fann-create-from-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Створює копію структури fann
-    
-
+---
+navigation:
+  - function.fann-clear-scaling-params.html: « fannclearscalingparams
+  - function.fann-create-from-file.html: fanncreatefromfile »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanncopy
+---
 # fanncopy
 
 (PECL fann> = 1.0.0)

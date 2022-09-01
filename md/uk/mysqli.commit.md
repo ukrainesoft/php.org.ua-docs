@@ -1,16 +1,11 @@
-Фіксує поточну транзакцію
-
--   [« mysqli::close](mysqli.close.html)
-    
--   [mysqli::$connecterrno »](mysqli.connect-errno.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Фіксує поточну транзакцію
-    
-
+---
+navigation:
+  - mysqli.close.html: '« mysqli::close'
+  - mysqli.connect-errno.html: 'mysqli::$connecterrno »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::commit'
+---
 # mysqli::commit
 
 # mysqlicommit
@@ -55,9 +50,9 @@ mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### список змін
 
-| Версия | Описание                             |
-|--------|--------------------------------------|
-|        | `name` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `name` тепер допускає значення null. |
 
 ### Приклади
 

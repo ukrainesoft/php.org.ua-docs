@@ -1,16 +1,11 @@
-Витягує наступний ключ
-
--   [« dbalist](function.dba-list.html)
-    
--   [dbaopen »](function.dba-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції DBA](ref.dba.html)
-    
--   Витягує наступний ключ
-    
-
+---
+navigation:
+  - function.dba-list.html: « dbalist
+  - function.dba-open.html: dbaopen »
+  - index.html: PHP Manual
+  - ref.dba.html: Функції DBA
+title: dbanextkey
+---
 # dbanextkey
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

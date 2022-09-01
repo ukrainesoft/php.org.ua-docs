@@ -1,16 +1,11 @@
-Клас GearmanTask
-
--   [« GearmanJob::workloadSize](gearmanjob.workloadsize.md)
-    
--   [GearmanTask::construct »](gearmantask.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gearman](book.gearman.md)
-    
--   Клас GearmanTask
-    
-
+---
+navigation:
+  - gearmanjob.workloadsize.md: '« GearmanJob::workloadSize'
+  - gearmantask.construct.md: 'GearmanTask::construct »'
+  - index.md: PHP Manual
+  - book.gearman.md: Gearman
+title: Клас GearmanTask
+---
 # Клас GearmanTask
 
 (PECL gearman >= 0.5.0)

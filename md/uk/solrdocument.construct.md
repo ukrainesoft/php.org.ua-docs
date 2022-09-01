@@ -1,16 +1,11 @@
-Конструктор
-
--   [« SolrDocument::clone](solrdocument.clone.md)
-    
--   [SolrDocument::current »](solrdocument.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrDocument](class.solrdocument.md)
-    
--   Конструктор
-    
-
+---
+navigation:
+  - solrdocument.clone.md: '« SolrDocument::clone'
+  - solrdocument.current.md: 'SolrDocument::current »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
+title: 'SolrDocument::construct'
+---
 # SolrDocument::construct
 
 (PECL solr> = 0.9.2)

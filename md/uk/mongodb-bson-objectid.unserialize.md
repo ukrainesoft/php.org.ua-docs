@@ -1,16 +1,11 @@
-Десеріалізує ObjectId
-
--   [« MongoDBBSONObjectId::toString](mongodb-bson-objectid.tostring.html)
-    
--   [MongoDBBSONRegex »](class.mongodb-bson-regex.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
-    
--   Десеріалізує ObjectId
-    
-
+---
+navigation:
+  - mongodb-bson-objectid.tostring.html: '« MongoDBBSONObjectId::toString'
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex »
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::unserialize'
+---
 # MongoDBBSONObjectId::unserialize
 
 (mongodb >=1.2.0)

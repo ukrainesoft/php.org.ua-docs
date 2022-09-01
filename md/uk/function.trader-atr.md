@@ -1,16 +1,11 @@
-Середній дійсний діапазон
-
--   [« traderatan](function.trader-atan.html)
-    
--   [traderavgprice »](function.trader-avgprice.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Середній дійсний діапазон
-    
-
+---
+navigation:
+  - function.trader-atan.html: « traderatan
+  - function.trader-avgprice.html: traderavgprice »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderatr
+---
 # traderatr
 
 (PECL trader >= 0.2.0)

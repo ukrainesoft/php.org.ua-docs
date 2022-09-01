@@ -1,16 +1,11 @@
-Додати сервер завдань для клієнта
-
--   [« GearmanClient::addOptions](gearmanclient.addoptions.md)
-    
--   [GearmanClient::addServers »](gearmanclient.addservers.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Додати сервер завдань для клієнта
-    
-
+---
+navigation:
+  - gearmanclient.addoptions.md: '« GearmanClient::addOptions'
+  - gearmanclient.addservers.md: 'GearmanClient::addServers »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::addServer'
+---
 # GearmanClient::addServer
 
 (PECL gearman >= 0.5.0)

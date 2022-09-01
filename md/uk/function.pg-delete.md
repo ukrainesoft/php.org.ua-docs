@@ -1,16 +1,11 @@
-Видаляє записи
-
--   [« pgdbname](function.pg-dbname.html)
-    
--   [пгendcopy »](function.pg-end-copy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Видаляє записи
-    
-
+---
+navigation:
+  - function.pg-dbname.html: « pgdbname
+  - function.pg-end-copy.html: пгendcopy »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгdelete
+---
 # пгdelete
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

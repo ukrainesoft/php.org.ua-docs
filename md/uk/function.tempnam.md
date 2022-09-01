@@ -1,16 +1,11 @@
-Створює файл із унікальним ім'ям
-
--   [« symlink](function.symlink.md)
-    
--   [tmpfile »](function.tmpfile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Створює файл із унікальним ім'ям
-    
-
+---
+navigation:
+  - function.symlink.md: « symlink
+  - function.tmpfile.md: tmpfile »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: tempnam
+---
 # tempnam
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ tempnam(string $directory, string $prefix): string|false
 
 ### список змін
 
-| Версия | Описание                                                                               |
-|--------|----------------------------------------------------------------------------------------|
-|        | **tempnam()** тепер видає повідомлення при поверненні до тимчасового каталогу системи. |
+| Версия | Описание |
+| --- | --- |
+|  | **tempnam()** тепер видає повідомлення при поверненні до тимчасового каталогу системи. |
 
 ### Приклади
 

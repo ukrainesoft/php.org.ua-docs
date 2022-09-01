@@ -1,16 +1,11 @@
-Опис
-
--   [« SwooleCoroutineHttpClient::recv](swoole-coroutine-http-client.recv.html)
-    
--   [SwooleCoroutineHttpClient::setCookies »](swoole-coroutine-http-client.setcookies.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleCoroutine](class.swoole-coroutine.html)
-    
--   Опис
-    
-
+---
+navigation:
+  - swoole-coroutine-http-client.recv.html: '« SwooleCoroutineHttpClient::recv'
+  - swoole-coroutine-http-client.setcookies.html: 'SwooleCoroutineHttpClient::setCookies »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.html: SwooleCoroutine
+title: 'SwooleCoroutineHttpClient::set'
+---
 # SwooleCoroutineHttpClient::set
 
 (PECL swoole >= 2.0.0)

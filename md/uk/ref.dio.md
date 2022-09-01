@@ -1,16 +1,11 @@
-Функції прямого введення/виводу
-
--   [« Обумовлені константи](dio.constants.md)
-    
--   [dioclose »](function.dio-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Пряме введення/виведення (Direct IO)](book.dio.md)
-    
--   Функції прямого введення/виводу
-    
-
+---
+navigation:
+  - dio.constants.md: « Обумовлені константи
+  - function.dio-close.html: dioclose »
+  - index.md: PHP Manual
+  - book.dio.md: Пряме введення/виведення (Direct IO)
+title: Функції прямого введення/виводу
+---
 # Функції прямого введення/виводу
 
 ## Зміст

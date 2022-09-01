@@ -1,16 +1,11 @@
-Повертає суму всіх значень двосторонньої черги
-
--   [« DsDeque::sorted](ds-deque.sorted.html)
-    
--   [ДсDeque::toArray »](ds-deque.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Повертає суму всіх значень двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.sorted.html: '« DsDeque::sorted'
+  - ds-deque.toarray.html: 'ДсDeque::toArray »'
+  - index.md: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::sum'
+---
 # ДсDeque::sum
 
 (PECL ds >= 1.0.0)

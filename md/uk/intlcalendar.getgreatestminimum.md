@@ -1,16 +1,11 @@
-Отримує найбільше локальне мінімальне значення поля
-
--   [« IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.md)
-    
--   [IntlCalendar::getKeywordValuesForLocale »](intlcalendar.getkeywordvaluesforlocale.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує найбільше локальне мінімальне значення поля
-    
-
+---
+navigation:
+  - intlcalendar.getfirstdayofweek.md: '« IntlCalendar::getFirstDayOfWeek'
+  - intlcalendar.getkeywordvaluesforlocale.md: 'IntlCalendar::getKeywordValuesForLocale »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getGreatestMinimum'
+---
 # IntlCalendar::getGreatestMinimum
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

@@ -1,16 +1,11 @@
-Обчислює розбіжність масивів із додатковою перевіркою індексу
-
--   [« arraycountvalues](function.array-count-values.html)
-    
--   [arraydiffkey »](function.array-diff-key.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислює розбіжність масивів із додатковою перевіркою індексу
-    
-
+---
+navigation:
+  - function.array-count-values.html: « arraycountvalues
+  - function.array-diff-key.html: arraydiffkey »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraydiffassoc
+---
 # arraydiffassoc
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ array_diff_assoc(array $array, array ...$arrays): array
 
 ### список змін
 
-| Версия | Описание                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------|
-|        | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
 
 ### Приклади
 

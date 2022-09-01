@@ -1,16 +1,11 @@
-Завершує процес головного сервера, функцію можна викликати у робочих процесах
-
--   [« SwooleServer::set](swoole-server.set.html)
-    
--   [SwooleServer::start »](swoole-server.start.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Завершує процес головного сервера, функцію можна викликати у робочих процесах
-    
-
+---
+navigation:
+  - swoole-server.set.html: '« SwooleServer::set'
+  - swoole-server.start.html: 'SwooleServer::start »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::shutdown'
+---
 # SwooleServer::shutdown
 
 (PECL swoole >= 1.9.0)

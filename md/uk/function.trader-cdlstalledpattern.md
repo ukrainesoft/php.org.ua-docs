@@ -1,16 +1,11 @@
-Гальмування
-
--   [« tradercdlspinningtop](function.trader-cdlspinningtop.html)
-    
--   [tradercdlsticksandwich »](function.trader-cdlsticksandwich.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Гальмування
-    
-
+---
+navigation:
+  - function.trader-cdlspinningtop.html: « tradercdlspinningtop
+  - function.trader-cdlsticksandwich.html: tradercdlsticksandwich »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradercdlstalledpattern
+---
 # tradercdlstalledpattern
 
 (PECL trader >= 0.2.0)

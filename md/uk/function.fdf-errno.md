@@ -1,16 +1,11 @@
-Повертає код помилки для останньої операції FDF
-
--   [« fdfenumvalues](function.fdf-enum-values.html)
-    
--   [fdferror »](function.fdf-error.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Повертає код помилки для останньої операції FDF
-    
-
+---
+navigation:
+  - function.fdf-enum-values.html: « fdfenumvalues
+  - function.fdf-error.html: fdferror »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdferrno
+---
 # fdferrno
 
 (PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)

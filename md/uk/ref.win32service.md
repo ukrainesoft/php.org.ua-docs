@@ -1,16 +1,11 @@
-win32service
-
--   [« Приклади](win32service.examples.md)
-    
--   [win32continueservice »](function.win32-continue-service.html)
-    
--   [PHP Manual](index.md)
-    
--   [win32service](book.win32service.md)
-    
--   win32service
-    
-
+---
+navigation:
+  - win32service.examples.md: « Приклади
+  - function.win32-continue-service.html: win32continueservice »
+  - index.md: PHP Manual
+  - book.win32service.md: win32service
+title: win32service
+---
 # win32service
 
 ## Зміст

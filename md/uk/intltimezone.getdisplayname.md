@@ -1,16 +1,11 @@
-Отримати ім'я часового поясу для відображення користувача
-
--   [« IntlTimeZone::getCanonicalID](intltimezone.getcanonicalid.html)
-    
--   [IntlTimeZone::getDSTSavings »](intltimezone.getdstsavings.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlTimeZone](class.intltimezone.html)
-    
--   Отримати ім'я часового поясу для відображення користувача
-    
-
+---
+navigation:
+  - intltimezone.getcanonicalid.html: '« IntlTimeZone::getCanonicalID'
+  - intltimezone.getdstsavings.html: 'IntlTimeZone::getDSTSavings »'
+  - index.html: PHP Manual
+  - class.intltimezone.html: IntlTimeZone
+title: 'IntlTimeZone::getDisplayName'
+---
 # IntlTimeZone::getDisplayName
 
 # intltzgetdisplayname

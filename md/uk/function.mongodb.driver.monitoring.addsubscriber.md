@@ -1,16 +1,11 @@
-Глобальна реєстрація передплатника на подію моніторингу
-
--   [« Функції](ref.monitoring.functions.html)
-    
--   [MongoDBDriverMonitoringremoveSubscriber »](function.mongodb.driver.monitoring.removesubscriber.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції](ref.monitoring.functions.html)
-    
--   Глобальна реєстрація передплатника на подію моніторингу
-    
-
+---
+navigation:
+  - ref.monitoring.functions.html: « Функції
+  - function.mongodb.driver.monitoring.removesubscriber.html: MongoDBDriverMonitoringremoveSubscriber »
+  - index.html: PHP Manual
+  - ref.monitoring.functions.html: Функції
+title: MongoDBDriverMonitoringaddSubscriber
+---
 # MongoDBDriverMonitoringaddSubscriber
 
 (mongodb >=1.3.0)

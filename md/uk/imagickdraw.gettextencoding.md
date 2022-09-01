@@ -1,16 +1,11 @@
-Повертає кодовий набір, який використовується для текстових анотацій
-
--   [« ImagickDraw::getTextDecoration](imagickdraw.gettextdecoration.html)
-    
--   [ImagickDraw::getTextInterlineSpacing »](imagickdraw.gettextinterlinespacing.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Повертає кодовий набір, який використовується для текстових анотацій
-    
-
+---
+navigation:
+  - imagickdraw.gettextdecoration.html: '« ImagickDraw::getTextDecoration'
+  - imagickdraw.gettextinterlinespacing.html: 'ImagickDraw::getTextInterlineSpacing »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::getTextEncoding'
+---
 # ImagickDraw::getTextEncoding
 
 (PECL imagick 2, PECL imagick 3)

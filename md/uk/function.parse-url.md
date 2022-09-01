@@ -1,16 +1,11 @@
-Розбирає URL та повертає його компоненти
-
--   [httpbuildquery](function.http-build-query.html)
-    
--   [rawurldecode »](function.rawurldecode.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції URL](ref.url.md)
-    
--   Розбирає URL та повертає його компоненти
-    
-
+---
+navigation:
+  - function.http-build-query.html: httpbuildquery
+  - function.rawurldecode.md: rawurldecode »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
+title: parseurl
+---
 # parseurl
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -67,9 +62,9 @@ http://example.com/foo?# → query = "",   fragment = ""
 
 ### список змін
 
-| Версия | Описание                                                                |
-|--------|-------------------------------------------------------------------------|
-|        | **parseurl()** тепер розрізняє відсутні та порожні запити та фрагменти. |
+| Версия | Описание |
+| --- | --- |
+|  | **parseurl()** тепер розрізняє відсутні та порожні запити та фрагменти. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Налаштовує, чи повертатиметься цикл
-
--   [« EvWatcher::invoke](evwatcher.invoke.md)
-    
--   [EvWatcher::setCallback »](evwatcher.setcallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvWatcher](class.evwatcher.md)
-    
--   Налаштовує, чи повертатиметься цикл
-    
-
+---
+navigation:
+  - evwatcher.invoke.md: '« EvWatcher::invoke'
+  - evwatcher.setcallback.md: 'EvWatcher::setCallback »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
+title: 'EvWatcher::keepalive'
+---
 # EvWatcher::keepalive
 
 (PECL ev >= 0.2.0)

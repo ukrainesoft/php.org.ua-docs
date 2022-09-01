@@ -1,27 +1,22 @@
-Налаштування під час виконання
-
--   [« Установка](intl.installation.md)
-    
--   [Типи ресурсів »](intl.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](intl.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - intl.installation.md: « Установка
+  - intl.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - intl.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Intl**
 
-| Имя                                                                   | По умолчанию | Место изменения | Список изменений        |
-|-----------------------------------------------------------------------|--------------|-----------------|-------------------------|
-| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |              | PHPINIALL       |                         |
-| [intl.errorlevel](intl.configuration.html#ini.intl.error-level)       |              | PHPINIALL       |                         |
-| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |              | PHPINIALL       | Доступно з PECL 3.0.0a1 |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |  | PHPINIALL |  |
+| [intl.errorlevel](intl.configuration.html#ini.intl.error-level) |  | PHPINIALL |  |
+| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |  | PHPINIALL | Доступно з PECL 3.0.0a1 |
 
 Коротке пояснення конфігураційних директив.
 

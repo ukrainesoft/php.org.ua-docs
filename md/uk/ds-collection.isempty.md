@@ -1,16 +1,11 @@
-Перевіряє, чи порожня колекція
-
--   [« DsCollection::copy](ds-collection.copy.html)
-    
--   [ДсCollection::toArray »](ds-collection.toarray.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция](class.ds-collection.html)
-    
--   Перевіряє, чи порожня колекція
-    
-
+---
+navigation:
+  - ds-collection.copy.html: '« DsCollection::copy'
+  - ds-collection.toarray.html: 'ДсCollection::toArray »'
+  - index.md: PHP Manual
+  - class.ds-collection.html: Коллекция
+title: 'ДсCollection::isEmpty'
+---
 # ДсCollection::isEmpty
 
 (PECL ds >= 1.0.0)

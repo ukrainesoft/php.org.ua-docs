@@ -1,16 +1,11 @@
-Завершує визначення шляху відсічного контуру
-
--   [« ImagickDraw::pop](imagickdraw.pop.html)
-    
--   [ImagickDraw::popDefs »](imagickdraw.popdefs.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Завершує визначення шляху відсічного контуру
-    
-
+---
+navigation:
+  - imagickdraw.pop.html: '« ImagickDraw::pop'
+  - imagickdraw.popdefs.html: 'ImagickDraw::popDefs »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::popClipPath'
+---
 # ImagickDraw::popClipPath
 
 (PECL imagick 2, PECL imagick 3)

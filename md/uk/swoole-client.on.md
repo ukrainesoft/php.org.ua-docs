@@ -1,16 +1,11 @@
-Додає callback-функції, спричинені подіями
-
--   [« SwooleClient::isConnected](swoole-client.isconnected.html)
-    
--   [SwooleClient::pause »](swoole-client.pause.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Додає callback-функції, спричинені подіями
-    
-
+---
+navigation:
+  - swoole-client.isconnected.html: '« SwooleClient::isConnected'
+  - swoole-client.pause.html: 'SwooleClient::pause »'
+  - index.html: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::on'
+---
 # SwooleClient::on
 
 (PECL swoole >= 1.9.0)

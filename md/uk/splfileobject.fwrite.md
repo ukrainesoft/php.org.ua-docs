@@ -1,16 +1,11 @@
-Запис у файл
-
--   [« SplFileObject::ftruncate](splfileobject.ftruncate.md)
-    
--   [SplFileObject::getChildren »](splfileobject.getchildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Запис у файл
-    
-
+---
+navigation:
+  - splfileobject.ftruncate.md: '« SplFileObject::ftruncate'
+  - splfileobject.getchildren.md: 'SplFileObject::getChildren »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fwrite'
+---
 # SplFileObject::fwrite
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ public SplFileObject::fwrite(string $data, int $length = 0): int|false
 
 ### список змін
 
-| Версия | Описание                                                                   |
-|--------|----------------------------------------------------------------------------|
-|        | Функція тепер повертає **`false`** замість нуля у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає **`false`** замість нуля у разі виникнення помилки. |
 
 ### Приклади
 

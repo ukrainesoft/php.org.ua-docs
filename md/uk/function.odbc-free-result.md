@@ -1,16 +1,11 @@
-Визволяє ресурси, пов'язані з результатом
-
--   [« odbcforeignkeys](function.odbc-foreignkeys.html)
-    
--   [odbcgettypeinfo »](function.odbc-gettypeinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции ODBC](ref.uodbc.md)
-    
--   Визволяє ресурси, пов'язані з результатом
-    
-
+---
+navigation:
+  - function.odbc-foreignkeys.html: « odbcforeignkeys
+  - function.odbc-gettypeinfo.html: odbcgettypeinfo »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
+title: odbcfreeresult
+---
 # odbcfreeresult
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

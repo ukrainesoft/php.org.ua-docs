@@ -1,16 +1,11 @@
-Вказує, чи перебуває купа в пошкодженому стані
-
--   [« SplHeap::insert](splheap.insert.md)
-    
--   [SplHeap::isEmpty »](splheap.isempty.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplHeap](class.splheap.md)
-    
--   Вказує, чи перебуває купа в пошкодженому стані
-    
-
+---
+navigation:
+  - splheap.insert.md: '« SplHeap::insert'
+  - splheap.isempty.md: 'SplHeap::isEmpty »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
+title: 'SplHeap::isCorrupted'
+---
 # SplHeap::isCorrupted
 
 (PHP 7, PHP 8)

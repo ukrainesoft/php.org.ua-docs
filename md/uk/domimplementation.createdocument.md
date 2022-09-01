@@ -1,16 +1,11 @@
-Створює об'єкт класу DOMDocument заданого типу з його елементом
-
--   [« DOMImplementation::construct](domimplementation.construct.html)
-    
--   [DOMImplementation::createDocumentType »](domimplementation.createdocumenttype.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMImplementation](class.domimplementation.html)
-    
--   Створює об'єкт класу DOMDocument заданого типу з його елементом
-    
-
+---
+navigation:
+  - domimplementation.construct.html: '« DOMImplementation::construct'
+  - domimplementation.createdocumenttype.html: 'DOMImplementation::createDocumentType »'
+  - index.html: PHP Manual
+  - class.domimplementation.html: DOMImplementation
+title: 'DOMImplementation::createDocument'
+---
 # DOMImplementation::createDocument
 
 (PHP 5, PHP 7, PHP 8)
@@ -57,10 +52,10 @@ URI простору імен створюваного елемента document
 
 ### список змін
 
-| Версия | Описание                                  |
-|--------|-------------------------------------------|
-|        | `namespace` тепер допускає значення null. |
-|        | `doctype` тепер допускає значення null.   |
+| Версия | Описание |
+| --- | --- |
+|  | `namespace` тепер допускає значення null. |
+|  | `doctype` тепер допускає значення null. |
 
 ### Дивіться також
 

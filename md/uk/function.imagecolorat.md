@@ -1,16 +1,11 @@
-Отримання індексу кольору пікселя
-
--   [« imagecolorallocatealpha](function.imagecolorallocatealpha.md)
-    
--   [imagecolorclosest »](function.imagecolorclosest.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Отримання індексу кольору пікселя
-    
-
+---
+navigation:
+  - function.imagecolorallocatealpha.md: « imagecolorallocatealpha
+  - function.imagecolorclosest.md: imagecolorclosest »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagecolorat
+---
 # imagecolorat
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ y-координата пікселя.
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

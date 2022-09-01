@@ -1,16 +1,11 @@
-Видаляє всі значення з двосторонньої черги
-
--   [« DsDeque::capacity](ds-deque.capacity.html)
-    
--   [ДсDeque::construct »](ds-deque.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [Двостороння черга](class.ds-deque.html)
-    
--   Видаляє всі значення з двосторонньої черги
-    
-
+---
+navigation:
+  - ds-deque.capacity.html: '« DsDeque::capacity'
+  - ds-deque.construct.html: 'ДсDeque::construct »'
+  - index.html: PHP Manual
+  - class.ds-deque.html: Двостороння черга
+title: 'ДсDeque::clear'
+---
 # ДсDeque::clear
 
 (PECL ds >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає дату релізу ImageMagick
-
--   [« Imagick::getRegistry](imagick.getregistry.md)
-    
--   [Imagick::getResource »](imagick.getresource.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає дату релізу ImageMagick
-    
-
+---
+navigation:
+  - imagick.getregistry.md: '« Imagick::getRegistry'
+  - imagick.getresource.md: 'Imagick::getResource »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getReleaseDate'
+---
 # Imagick::getReleaseDate
 
 (PECL imagick 2, PECL imagick 3)

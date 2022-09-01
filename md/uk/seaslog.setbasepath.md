@@ -1,16 +1,11 @@
-Встановлює базовий шлях SeasLog
-
--   [« SeasLog::notice](seaslog.notice.html)
-    
--   [SeasLog::setDatetimeFormat »](seaslog.setdatetimeformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Встановлює базовий шлях SeasLog
-    
-
+---
+navigation:
+  - seaslog.notice.html: '« SeasLog::notice'
+  - seaslog.setdatetimeformat.html: 'SeasLog::setDatetimeFormat »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::setBasePath'
+---
 # SeasLog::setBasePath
 
 (PECL seaslog >=1.0.0)

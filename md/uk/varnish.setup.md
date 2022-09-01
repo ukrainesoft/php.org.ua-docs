@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.varnish.md)
-    
--   [Вимоги »](varnish.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Varnish](book.varnish.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.varnish.md: « Введение
+  - varnish.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.varnish.md: Varnish
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

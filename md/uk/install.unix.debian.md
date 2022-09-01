@@ -1,16 +1,11 @@
-Інструкції зі встановлення на Debian GNU/Linux
-
--   [« Інструкції з інсталяції для ОС Solaris](install.unix.solaris.md)
-    
--   [Установка на macOS »](install.macosx.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення на Unix-системи](install.unix.md)
-    
--   Інструкції зі встановлення на Debian GNU/Linux
-    
-
+---
+navigation:
+  - install.unix.solaris.md: « Інструкції з інсталяції для ОС Solaris
+  - install.macosx.md: Установка на macOS »
+  - index.md: PHP Manual
+  - install.unix.md: Встановлення на Unix-системи
+title: Інструкції зі встановлення на Debian GNU/Linux
+---
 ## Інструкції зі встановлення на Debian GNU/Linux
 
 Розділ містить інформацію та підказки, які стосуються встановлення PHP на [» Debian GNU/Linux](http://www.debian.org/)

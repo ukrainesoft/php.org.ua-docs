@@ -1,16 +1,11 @@
-Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
-
--   [« MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html)
-    
--   [MongoDBDriverMonitoringCommandSubscriber::commandFailed »](mongodb-driver-monitoring-commandsubscriber.commandfailed.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoring](mongodb.monitoring.md)
-    
--   Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html: '« MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId'
+  - mongodb-driver-monitoring-commandsubscriber.commandfailed.html: 'MongoDBDriverMonitoringCommandSubscriber::commandFailed »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
+title: Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
+---
 # Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
 
 (mongodb >=1.3.0)
@@ -45,8 +40,8 @@ abstract public commandSucceeded(MongoDB\Driver\Monitoring\CommandSucceededEvent
 
 ## список змін
 
-| Версия              | Описание                                                                                                                                                                                                                                                                                                                |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст

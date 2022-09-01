@@ -1,16 +1,11 @@
-Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
-
--   [« SoapServer::setClass](soapserver.setclass.md)
-    
--   [SoapServer::setPersistence »](soapserver.setpersistence.md)
-    
--   [PHP Manual](index.md)
-    
--   [SoapServer](class.soapserver.md)
-    
--   Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
-    
-
+---
+navigation:
+  - soapserver.setclass.md: '« SoapServer::setClass'
+  - soapserver.setpersistence.md: 'SoapServer::setPersistence »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
+title: 'SoapServer::setObject'
+---
 # SoapServer::setObject
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

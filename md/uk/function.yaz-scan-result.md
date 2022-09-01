@@ -1,16 +1,11 @@
-Повертає результат запиту сканування
-
--   [« yazrecord](function.yaz-record.html)
-    
--   [yazscan »](function.yaz-scan.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции YAZ](ref.yaz.md)
-    
--   Повертає результат запиту сканування
-    
-
+---
+navigation:
+  - function.yaz-record.html: « yazrecord
+  - function.yaz-scan.html: yazscan »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
+title: yazscanresult
+---
 # yazscanresult
 
 (PHP 4> = 4.0.5, PECL yaz> = 0.9.0)

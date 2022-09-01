@@ -1,16 +1,11 @@
-Визначення заповнення
-
--   [« UIControlsForm::delete](ui-controls-form.delete.html)
-    
--   [ОЙControlsForm::setPadded »](ui-controls-form.setpadded.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsForm](class.ui-controls-form.html)
-    
--   Визначення заповнення
-    
-
+---
+navigation:
+  - ui-controls-form.delete.html: '« UIControlsForm::delete'
+  - ui-controls-form.setpadded.html: 'ОЙControlsForm::setPadded »'
+  - index.md: PHP Manual
+  - class.ui-controls-form.html: ОЙControlsForm
+title: 'ОЙControlsForm::isPadded'
+---
 # ОЙControlsForm::isPadded
 
 (UI 0.9.9)

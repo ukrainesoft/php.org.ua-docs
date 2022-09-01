@@ -1,16 +1,11 @@
-Відправляє HTML-відповідь клієнту
-
--   [« EventHttpRequest::sendError](eventhttprequest.senderror.html)
-    
--   [EventHttpRequest::sendReplyChunk »](eventhttprequest.sendreplychunk.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventHttpRequest](class.eventhttprequest.html)
-    
--   Відправляє HTML-відповідь клієнту
-    
-
+---
+navigation:
+  - eventhttprequest.senderror.html: '« EventHttpRequest::sendError'
+  - eventhttprequest.sendreplychunk.html: 'EventHttpRequest::sendReplyChunk »'
+  - index.html: PHP Manual
+  - class.eventhttprequest.html: EventHttpRequest
+title: 'EventHttpRequest::sendReply'
+---
 # EventHttpRequest::sendReply
 
 (PECL event >= 1.4.0-beta)

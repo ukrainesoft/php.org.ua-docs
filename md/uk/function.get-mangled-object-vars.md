@@ -1,16 +1,11 @@
-Повертає масив спотворених властивостей об'єкту
-
--   [« getdeclaredtraits](function.get-declared-traits.html)
-    
--   [getobjectvars »](function.get-object-vars.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції роботи з класами та об'єктами](ref.classobj.html)
-    
--   Повертає масив спотворених властивостей об'єкту
-    
-
+---
+navigation:
+  - function.get-declared-traits.html: « getdeclaredtraits
+  - function.get-object-vars.html: getobjectvars »
+  - index.html: PHP Manual
+  - ref.classobj.html: Функції роботи з класами та об'єктами
+title: getmangledobjectvars
+---
 # getmangledobjectvars
 
 (PHP 7> = 7.4.0, PHP 8)

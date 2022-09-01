@@ -1,16 +1,11 @@
-Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
-
--   [« socketsendmsg](function.socket-sendmsg.html)
-    
--   [socketsetblock »](function.socket-set-block.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
-    
-
+---
+navigation:
+  - function.socket-sendmsg.html: « socketsendmsg
+  - function.socket-set-block.html: socketsetblock »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketsendto
+---
 # socketsendto
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -61,10 +56,10 @@ IP-адреса віддаленого хоста.
 
 ### список змін
 
-| Версия | Описание                                                                                    |
-|--------|---------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
-|        | `port` тепер допускає значення null.                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `port` тепер допускає значення null. |
 
 ### Приклади
 

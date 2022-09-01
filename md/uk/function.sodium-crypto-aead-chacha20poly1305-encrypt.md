@@ -1,16 +1,11 @@
-Шифрує, а потім перевіряє справжність за допомогою ChaCha20-Poly1305
-
--   [« sodiumcryptoaeadchacha20poly1305decrypt](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
-    
--   [sodiumcryptoaeadchacha20poly1305ietfdecrypt »](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Шифрує, а потім перевіряє справжність за допомогою ChaCha20-Poly1305
-    
-
+---
+navigation:
+  - function.sodium-crypto-aead-chacha20poly1305-decrypt.html: « sodiumcryptoaeadchacha20poly1305decrypt
+  - function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html: sodiumcryptoaeadchacha20poly1305ietfdecrypt »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoaeadchacha20poly1305encrypt
+---
 # sodiumcryptoaeadchacha20poly1305encrypt
 
 (PHP 7> = 7.2.0, PHP 8)

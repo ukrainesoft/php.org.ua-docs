@@ -1,16 +1,11 @@
-Закриває з'єднання з базою даних
-
--   [« cubridcurrentoid](function.cubrid-current-oid.html)
-    
--   [cubriddrop »](function.cubrid-drop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции CUBRID](ref.cubrid.md)
-    
--   Закриває з'єднання з базою даних
-    
-
+---
+navigation:
+  - function.cubrid-current-oid.html: « cubridcurrentoid
+  - function.cubrid-drop.html: cubriddrop »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
+title: cubriddisconnect
+---
 # cubriddisconnect
 
 (PECL CUBRID >= 8.3.0)

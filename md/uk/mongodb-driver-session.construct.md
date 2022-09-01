@@ -1,16 +1,11 @@
-Створює новий сеанс (не використовується)
-
--   [« MongoDBDriverSession::commitTransaction](mongodb-driver-session.committransaction.html)
-    
--   [MongoDBDriverSession::endSession »](mongodb-driver-session.endsession.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverSession](class.mongodb-driver-session.html)
-    
--   Створює новий сеанс (не використовується)
-    
-
+---
+navigation:
+  - mongodb-driver-session.committransaction.html: '« MongoDBDriverSession::commitTransaction'
+  - mongodb-driver-session.endsession.html: 'MongoDBDriverSession::endSession »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.html: MongoDBDriverSession
+title: 'MongoDBDriverSession::construct'
+---
 # MongoDBDriverSession::construct
 
 (mongodb >=1.4.0)

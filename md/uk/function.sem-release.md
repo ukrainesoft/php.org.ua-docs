@@ -1,16 +1,11 @@
-Звільнення семафору
-
--   [« semget](function.sem-get.html)
-    
--   [semremove »](function.sem-remove.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції семафорів](ref.sem.md)
-    
--   Звільнення семафору
-    
-
+---
+navigation:
+  - function.sem-get.html: « semget
+  - function.sem-remove.html: semremove »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
+title: semrelease
+---
 # semrelease
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ sem_release(SysvSemaphore $semaphore): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

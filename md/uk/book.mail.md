@@ -1,16 +1,11 @@
-Mail
-
--   [« IMAPConnection](class.imap-connection.html)
-    
--   [Введение »](intro.mail.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи з поштою](refs.remote.mail.md)
-    
--   Mail
-    
-
+---
+navigation:
+  - class.imap-connection.html: « IMAPConnection
+  - intro.mail.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.mail.md: Модулі для роботи з поштою
+title: Mail
+---
 # Mail
 
 -   [Введение](intro.mail.md)

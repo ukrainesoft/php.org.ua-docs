@@ -1,16 +1,11 @@
-Повертає точну копію тренувальних даних
-
--   [« fanndestroy](function.fann-destroy.html)
-    
--   [fanngetactivationfunction »](function.fann-get-activation-function.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає точну копію тренувальних даних
-    
-
+---
+navigation:
+  - function.fann-destroy.html: « fanndestroy
+  - function.fann-get-activation-function.html: fanngetactivationfunction »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fannduplicatetraindata
+---
 # fannduplicatetraindata
 
 (PECL fann> = 1.0.0)

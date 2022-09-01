@@ -1,16 +1,11 @@
-Додає константу
-
--   [« ComponereDefinition::construct](componere-definition.construct.html)
-    
--   [ComponereDefinition::addProperty »](componere-definition.addproperty.html)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereDefinition](class.componere-definition.html)
-    
--   Додає константу
-    
-
+---
+navigation:
+  - componere-definition.construct.html: '« ComponereDefinition::construct'
+  - componere-definition.addproperty.html: 'ComponereDefinition::addProperty »'
+  - index.md: PHP Manual
+  - class.componere-definition.html: ComponereDefinition
+title: 'ComponereDefinition::addConstant'
+---
 # ComponereDefinition::addConstant
 
 (Componere 2 >= 2.1.0)

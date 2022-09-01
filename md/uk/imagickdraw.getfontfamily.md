@@ -1,16 +1,11 @@
-Повертає сімейство шрифтів
-
--   [« ImagickDraw::getFont](imagickdraw.getfont.md)
-    
--   [ImagickDraw::getFontSize »](imagickdraw.getfontsize.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає сімейство шрифтів
-    
-
+---
+navigation:
+  - imagickdraw.getfont.md: '« ImagickDraw::getFont'
+  - imagickdraw.getfontsize.md: 'ImagickDraw::getFontSize »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFontFamily'
+---
 # ImagickDraw::getFontFamily
 
 (PECL imagick 2, PECL imagick 3)

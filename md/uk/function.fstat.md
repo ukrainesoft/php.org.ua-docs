@@ -1,16 +1,11 @@
-Отримує інформацію про файл, використовуючи відкритий файловий покажчик
-
--   [« fseek](function.fseek.md)
-    
--   [fsync »](function.fsync.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Отримує інформацію про файл, використовуючи відкритий файловий покажчик
-    
-
+---
+navigation:
+  - function.fseek.md: « fseek
+  - function.fsync.md: fsync »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: fstat
+---
 # fstat
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

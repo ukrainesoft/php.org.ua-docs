@@ -1,16 +1,11 @@
-Повертає масив запитів фільтра
-
--   [« SolrQuery::getFields](solrquery.getfields.md)
-    
--   [SolrQuery::getGroup »](solrquery.getgroup.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає масив запитів фільтра
-    
-
+---
+navigation:
+  - solrquery.getfields.md: '« SolrQuery::getFields'
+  - solrquery.getgroup.md: 'SolrQuery::getGroup »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getFilterQueries'
+---
 # SolrQuery::getFilterQueries
 
 (PECL solr> = 0.9.2)

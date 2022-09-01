@@ -1,16 +1,11 @@
-Повертає відповідним чином локалізовану назву регіону для заданої локалі
-
--   [« Locale::getDisplayName](locale.getdisplayname.md)
-    
--   [Locale::getDisplayScript »](locale.getdisplayscript.md)
-    
--   [PHP Manual](index.md)
-    
--   [Locale](class.locale.md)
-    
--   Повертає відповідним чином локалізовану назву регіону для заданої локалі
-    
-
+---
+navigation:
+  - locale.getdisplayname.md: '« Locale::getDisplayName'
+  - locale.getdisplayscript.md: 'Locale::getDisplayScript »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
+title: 'Locale::getDisplayRegion'
+---
 # Locale::getDisplayRegion
 
 # localegetdisplayregion
@@ -51,9 +46,9 @@ locale_get_display_region(string $locale, ?string $displayLocale = null): string
 
 ### список змін
 
-| Версия | Описание                                      |
-|--------|-----------------------------------------------|
-|        | `displayLocale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 

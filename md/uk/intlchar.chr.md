@@ -1,16 +1,11 @@
-Отримати символ Unicode за його кодом
-
--   [« IntlChar::charType](intlchar.chartype.md)
-    
--   [IntlChar::digit »](intlchar.digit.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Отримати символ Unicode за його кодом
-    
-
+---
+navigation:
+  - intlchar.chartype.md: '« IntlChar::charType'
+  - intlchar.digit.md: 'IntlChar::digit »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::chr'
+---
 # IntlChar::chr
 
 (PHP 7, PHP 8)

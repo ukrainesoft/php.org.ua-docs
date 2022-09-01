@@ -1,16 +1,11 @@
-Визначення меж тексту, що виводиться шрифтом freetype2
-
--   [« imagefontwidth](function.imagefontwidth.html)
-    
--   [imagefttext »](function.imagefttext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Визначення меж тексту, що виводиться шрифтом freetype2
-    
-
+---
+navigation:
+  - function.imagefontwidth.html: « imagefontwidth
+  - function.imagefttext.html: imagefttext »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imageftbbox
+---
 # imageftbbox
 
 (PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
@@ -51,8 +46,8 @@ imageftbbox(    float $size,    float $angle,    string $font_filena
 
 **Можливі ключі масиву `options`**
 
-| Ключ          | Тип   | Значение                         |
-|---------------|-------|----------------------------------|
+| Ключ | Тип | Значение |
+| --- | --- | --- |
 | `linespacing` | float | Визначає малювання підкреслювань |
 
 ### Значення, що повертаються

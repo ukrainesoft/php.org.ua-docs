@@ -1,16 +1,11 @@
-Додавання налаштувань обробника
-
--   [« GearmanWorker::addFunction](gearmanworker.addfunction.md)
-    
--   [GearmanWorker::addServer »](gearmanworker.addserver.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanWorker](class.gearmanworker.md)
-    
--   Додавання налаштувань обробника
-    
-
+---
+navigation:
+  - gearmanworker.addfunction.md: '« GearmanWorker::addFunction'
+  - gearmanworker.addserver.md: 'GearmanWorker::addServer »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
+title: 'GearmanWorker::addOptions'
+---
 # GearmanWorker::addOptions
 
 (PECL gearman >= 0.6.0)

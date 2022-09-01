@@ -1,16 +1,11 @@
-Отримує статистику сервера Swoole
-
--   [« SwooleServer::start](swoole-server.start.html)
-    
--   [SwooleServer::stop »](swoole-server.stop.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Отримує статистику сервера Swoole
-    
-
+---
+navigation:
+  - swoole-server.start.html: '« SwooleServer::start'
+  - swoole-server.stop.html: 'SwooleServer::stop »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::stats'
+---
 # SwooleServer::stats
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Знищує контекст
-
--   [« openalcontextcurrent](function.openal-context-current.html)
-    
--   [openalcontextprocess »](function.openal-context-process.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenAL](ref.openal.html)
-    
--   Знищує контекст
-    
-
+---
+navigation:
+  - function.openal-context-current.html: « openalcontextcurrent
+  - function.openal-context-process.html: openalcontextprocess »
+  - index.html: PHP Manual
+  - ref.openal.html: Функции OpenAL
+title: openalcontextdestroy
+---
 # openalcontextdestroy
 
 (PECL openal >= 0.1.0)

@@ -1,16 +1,11 @@
-Повертає представлення BSON значення PHP
-
--   [« MongoDBBSONfromJSON](function.mongodb.bson-fromjson.html)
-    
--   [MongoDBBSONtoCanonicalExtendedJSON »](function.mongodb.bson-tocanonicalextendedjson.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції](ref.bson.functions.md)
-    
--   Повертає представлення BSON значення PHP
-    
-
+---
+navigation:
+  - function.mongodb.bson-fromjson.html: « MongoDBBSONfromJSON
+  - function.mongodb.bson-tocanonicalextendedjson.html: MongoDBBSONtoCanonicalExtendedJSON »
+  - index.md: PHP Manual
+  - ref.bson.functions.md: Функції
+title: MongoDBBSONвідPHP
+---
 # MongoDBBSONвідPHP
 
 (mongodb >=1.0.0)

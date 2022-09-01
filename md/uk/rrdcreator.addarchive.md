@@ -1,16 +1,11 @@
-Додає RRA - архів значень даних для кожного джерела даних
-
--   [« RRDCreator](class.rrdcreator.md)
-    
--   [RRDCreator::addDataSource »](rrdcreator.adddatasource.md)
-    
--   [PHP Manual](index.md)
-    
--   [RRDCreator](class.rrdcreator.md)
-    
--   Додає RRA - архів значень даних для кожного джерела даних
-    
-
+---
+navigation:
+  - class.rrdcreator.md: « RRDCreator
+  - rrdcreator.adddatasource.md: 'RRDCreator::addDataSource »'
+  - index.md: PHP Manual
+  - class.rrdcreator.md: RRDCreator
+title: 'RRDCreator::addArchive'
+---
 # RRDCreator::addArchive
 
 (PECL rrd >= 0.9.0)

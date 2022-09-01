@@ -1,16 +1,11 @@
-Встановлює позицію ітератора на кордоні безпосередньо перед поточною
-
--   [« IntlBreakIterator::preceding](intlbreakiterator.preceding.html)
-    
--   [IntlBreakIterator::setText »](intlbreakiterator.settext.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlBreakIterator](class.intlbreakiterator.html)
-    
--   Встановлює позицію ітератора на кордоні безпосередньо перед поточною
-    
-
+---
+navigation:
+  - intlbreakiterator.preceding.html: '« IntlBreakIterator::preceding'
+  - intlbreakiterator.settext.html: 'IntlBreakIterator::setText »'
+  - index.html: PHP Manual
+  - class.intlbreakiterator.html: IntlBreakIterator
+title: 'IntlBreakIterator::previous'
+---
 # IntlBreakIterator::previous
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає максимальну кількість періодів
-
--   [« fanngetcascademaxcandepochs](function.fann-get-cascade-max-cand-epochs.html)
-    
--   [fanngetcascademincandepochs »](function.fann-get-cascade-min-cand-epochs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає максимальну кількість періодів
-    
-
+---
+navigation:
+  - function.fann-get-cascade-max-cand-epochs.html: « fanngetcascademaxcandepochs
+  - function.fann-get-cascade-min-cand-epochs.html: fanngetcascademincandepochs »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetcascademaxoutepochs
+---
 # fanngetcascademaxoutepochs
 
 (PECL fann> = 1.0.0)

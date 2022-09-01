@@ -1,16 +1,11 @@
-Очищення результату запиту та звільнення пам'яті
-
--   [« pgflush](function.pg-flush.html)
-    
--   [пгgetnotify »](function.pg-get-notify.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Очищення результату запиту та звільнення пам'яті
-    
-
+---
+navigation:
+  - function.pg-flush.html: « pgflush
+  - function.pg-get-notify.html: пгgetnotify »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгfreeresult
+---
 # пгfreeresult
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -43,9 +38,9 @@ pg_free_result(PgSql\Result $result): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

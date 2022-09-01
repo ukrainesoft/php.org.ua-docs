@@ -1,16 +1,11 @@
-Повертає документ метаданих для WriteError
-
--   [« MongoDBDriverWriteError::getIndex](mongodb-driver-writeerror.getindex.html)
-    
--   [MongoDBDriverWriteError::getMessage »](mongodb-driver-writeerror.getmessage.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.html)
-    
--   Повертає документ метаданих для WriteError
-    
-
+---
+navigation:
+  - mongodb-driver-writeerror.getindex.html: '« MongoDBDriverWriteError::getIndex'
+  - mongodb-driver-writeerror.getmessage.html: 'MongoDBDriverWriteError::getMessage »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeerror.html: MongoDBDriverWriteError
+title: 'MongoDBDriverWriteError::getInfo'
+---
 # MongoDBDriverWriteError::getInfo
 
 (mongodb >=1.0.0)

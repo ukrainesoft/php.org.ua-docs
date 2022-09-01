@@ -1,16 +1,11 @@
-Повертає та/або встановлює модуль поточної сесії
-
--   [« sessionід](function.session-id.html)
-    
--   [sessionname »](function.session-name.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи із сесіями](ref.session.md)
-    
--   Повертає та/або встановлює модуль поточної сесії
-    
-
+---
+navigation:
+  - function.session-id.html: « sessionід
+  - function.session-name.html: sessionname »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
+title: sessionmodulename
+---
 # sessionmodulename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -37,7 +32,7 @@ session_module_name(?string $module = null): string|false
 
 ### список змін
 
-| Версия | Описание                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------|
-|        | `module` тепер може бути **`null`**                                                                |
-|        | На даний момент заборонено встановлювати ім'я модуля на значення `"user"`. Раніше це ігнорувалося. |
+| Версия | Описание |
+| --- | --- |
+|  | `module` тепер може бути **`null`** |
+|  | На даний момент заборонено встановлювати ім'я модуля на значення `"user"`. Раніше це ігнорувалося. |

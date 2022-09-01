@@ -1,16 +1,11 @@
-Додає неіснуючу функцію чи метод
-
--   [« Функції Uopz](ref.uopz.html)
-    
--   [uopzallowexit »](function.uopz-allow-exit.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції Uopz](ref.uopz.html)
-    
--   Додає неіснуючу функцію чи метод
-    
-
+---
+navigation:
+  - ref.uopz.html: « Функції Uopz
+  - function.uopz-allow-exit.html: uopzallowexit »
+  - index.html: PHP Manual
+  - ref.uopz.html: Функції Uopz
+title: uopzaddfunction
+---
 # uopzaddfunction
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

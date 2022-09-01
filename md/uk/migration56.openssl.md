@@ -1,16 +1,11 @@
-Зміни OpenSSL у PHP 5.6.x
-
--   [« Нові функції](migration56.new-functions.html)
-    
--   [Другие изменения в модулях »](migration56.extensions.html)
-    
--   [PHP Manual](index.html)
-    
--   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
-    
--   Зміни OpenSSL у PHP 5.6.x
-    
-
+---
+navigation:
+  - migration56.new-functions.html: « Нові функції
+  - migration56.extensions.html: Другие изменения в модулях »
+  - index.html: PHP Manual
+  - migration56.html: Миграция с PHP 5.5.x на PHP 5.6.x
+title: Зміни OpenSSL у PHP 5.6.x
+---
 ## Зміни OpenSSL у PHP 5.6.x
 
 ### Обгортки потоків тепер за промовчанням перевіряють сертифікати вузлів та імена хостів при використанні SSL/TLS
@@ -100,14 +95,14 @@ openssl dhparam -out /path/to/my/certs/dh-2048.pem 2048
 
 **Вибрана версія протоколу та відповідні опції**
 
-| Протокол                    | Флаг клиента                              | Флаг сервера                              | Транспорт    |
-|-----------------------------|-------------------------------------------|-------------------------------------------|--------------|
-| Будь-які версії TLS або SSL | **`STREAM_CRYPTO_METHOD_ANY_CLIENT`**     | **`STREAM_CRYPTO_METHOD_ANY_SERVER`**     | `ssl://`     |
-| Будь-яка версія TLS         | **`STREAM_CRYPTO_METHOD_TLS_CLIENT`**     | **`STREAM_CRYPTO_METHOD_TLS_SERVER`**     | `tls://`     |
-| TLS 1.0                     | **`STREAM_CRYPTO_METHOD_TLSv1_0_CLIENT`** | **`STREAM_CRYPTO_METHOD_TLSv1_0_SERVER`** | `tlsv1.0://` |
-| TLS 1.1                     | **`STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT`** | **`STREAM_CRYPTO_METHOD_TLSv1_1_SERVER`** | `tlsv1.1://` |
-| TLS 1.2                     | **`STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT`** | **`STREAM_CRYPTO_METHOD_TLSv1_2_SERVER`** | `tlsv1.2://` |
-| SSL 3                       | **`STREAM_CRYPTO_METHOD_SSLv3_CLIENT`**   | **`STREAM_CRYPTO_METHOD_SSLv3_SERVER`**   | `sslv3://`   |
+| Протокол | Флаг клиента | Флаг сервера | Транспорт |
+| --- | --- | --- | --- |
+| Будь-які версії TLS або SSL | **`STREAM_CRYPTO_METHOD_ANY_CLIENT`** | **`STREAM_CRYPTO_METHOD_ANY_SERVER`** | `ssl://` |
+| Будь-яка версія TLS | **`STREAM_CRYPTO_METHOD_TLS_CLIENT`** | **`STREAM_CRYPTO_METHOD_TLS_SERVER`** | `tls://` |
+| TLS 1.0 | **`STREAM_CRYPTO_METHOD_TLSv1_0_CLIENT`** | **`STREAM_CRYPTO_METHOD_TLSv1_0_SERVER`** | `tlsv1.0://` |
+| TLS 1.1 | **`STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT`** | **`STREAM_CRYPTO_METHOD_TLSv1_1_SERVER`** | `tlsv1.1://` |
+| TLS 1.2 | **`STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT`** | **`STREAM_CRYPTO_METHOD_TLSv1_2_SERVER`** | `tlsv1.2://` |
+| SSL 3 | **`STREAM_CRYPTO_METHOD_SSLv3_CLIENT`** | **`STREAM_CRYPTO_METHOD_SSLv3_SERVER`** | `sslv3://` |
 
 ```php
 <?php

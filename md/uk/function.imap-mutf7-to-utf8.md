@@ -1,16 +1,11 @@
-Декодувати змінений рядок UTF-7 у UTF-8
-
--   [« imapmsgno](function.imap-msgno.html)
-    
--   [imapnummsg »](function.imap-num-msg.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Декодувати змінений рядок UTF-7 у UTF-8
-    
-
+---
+navigation:
+  - function.imap-msgno.html: « imapmsgno
+  - function.imap-num-msg.html: imapnummsg »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapmutf7тоutf8
+---
 # imapmutf7тоutf8
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

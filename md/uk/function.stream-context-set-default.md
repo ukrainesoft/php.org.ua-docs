@@ -1,16 +1,11 @@
-Встановити контекст потоку за промовчанням
-
--   [« streamcontextgetparams](function.stream-context-get-params.html)
-    
--   [streamcontextsetoption »](function.stream-context-set-option.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з потоками](ref.stream.html)
-    
--   Встановити контекст потоку за промовчанням
-    
-
+---
+navigation:
+  - function.stream-context-get-params.html: « streamcontextgetparams
+  - function.stream-context-set-option.html: streamcontextsetoption »
+  - index.html: PHP Manual
+  - ref.stream.html: Функції для роботи з потоками
+title: streamcontextsetdefault
+---
 # streamcontextsetdefault
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

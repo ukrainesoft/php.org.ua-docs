@@ -1,16 +1,11 @@
-Встановлює зовнішній вигляд поля
-
--   [« fdfsave](function.fdf-save.html)
-    
--   [fdfsetencoding »](function.fdf-set-encoding.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Встановлює зовнішній вигляд поля
-    
-
+---
+navigation:
+  - function.fdf-save.html: « fdfsave
+  - function.fdf-set-encoding.html: fdfsetencoding »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfsetап
+---
 # fdfsetап
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

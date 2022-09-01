@@ -1,16 +1,11 @@
-Видаляє краї із зображення
-
--   [« Imagick::transverseImage](imagick.transverseimage.md)
-    
--   [Imagick::uniqueImageColors »](imagick.uniqueimagecolors.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Видаляє краї із зображення
-    
-
+---
+navigation:
+  - imagick.transverseimage.md: '« Imagick::transverseImage'
+  - imagick.uniqueimagecolors.md: 'Imagick::uniqueImageColors »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::trimImage'
+---
 # Imagick::trimImage
 
 (PECL imagick 2, PECL imagick 3)

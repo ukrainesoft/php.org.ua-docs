@@ -1,16 +1,11 @@
-Обчислює біномний коефіцієнт
-
--   [« gmpand](function.gmp-and.html)
-    
--   [gmpclrbit »](function.gmp-clrbit.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Обчислює біномний коефіцієнт
-    
-
+---
+navigation:
+  - function.gmp-and.html: « gmpand
+  - function.gmp-clrbit.html: gmpclrbit »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmpbinomial
+---
 # gmpbinomial
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -43,6 +38,6 @@ gmp_binomial(GMP|int|string $n, int $k): GMP
 
 ### список змін
 
-| Версия | Описание                                                          |
-|--------|-------------------------------------------------------------------|
-|        | Функція більше не повертає **`false`** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |

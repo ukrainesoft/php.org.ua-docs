@@ -1,16 +1,11 @@
-Представляє макет тексту
-
--   [« UIDrawBrushRadialGradient::construct](ui-draw-brush-radialgradient.construct.html)
-    
--   [ОЙDrawTextLayout::construct »](ui-draw-text-layout.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙ](book.ui.md)
-    
--   Представляє макет тексту
-    
-
+---
+navigation:
+  - ui-draw-brush-radialgradient.construct.html: '« UIDrawBrushRadialGradient::construct'
+  - ui-draw-text-layout.construct.html: 'ОЙDrawTextLayout::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
+title: Представляє макет тексту
+---
 # Представляє макет тексту
 
 (UI 0.9.9)

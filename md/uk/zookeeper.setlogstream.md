@@ -1,16 +1,11 @@
-Встановлює потік, який використовуватиметься бібліотекою для логування
-
--   [« Zookeeper::setDeterministicConnOrder](zookeeper.setdeterministicconnorder.html)
-    
--   [Zookeeper::setWatcher »](zookeeper.setwatcher.html)
-    
--   [PHP Manual](index.html)
-    
--   [Zookeeper](class.zookeeper.html)
-    
--   Встановлює потік, який використовуватиметься бібліотекою для логування
-    
-
+---
+navigation:
+  - zookeeper.setdeterministicconnorder.html: '« Zookeeper::setDeterministicConnOrder'
+  - zookeeper.setwatcher.html: 'Zookeeper::setWatcher »'
+  - index.html: PHP Manual
+  - class.zookeeper.html: Zookeeper
+title: 'Zookeeper::setLogStream'
+---
 # Zookeeper::setLogStream
 
 (PECL zookeeper >= 0.1.0)

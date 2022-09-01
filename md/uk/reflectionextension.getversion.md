@@ -1,16 +1,11 @@
-Отримання версії модуля
-
--   [« ReflectionExtension::getName](reflectionextension.getname.md)
-    
--   [ReflectionExtension::info »](reflectionextension.info.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionExtension](class.reflectionextension.md)
-    
--   Отримання версії модуля
-    
-
+---
+navigation:
+  - reflectionextension.getname.md: '« ReflectionExtension::getName'
+  - reflectionextension.info.md: 'ReflectionExtension::info »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
+title: 'ReflectionExtension::getVersion'
+---
 # ReflectionExtension::getVersion
 
 (PHP 5, PHP 7, PHP 8)

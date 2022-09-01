@@ -1,16 +1,11 @@
-Повертає заданий ліміт ресурсів
-
--   [« Imagick::getResource](imagick.getresource.md)
-    
--   [Imagick::getSamplingFactors »](imagick.getsamplingfactors.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає заданий ліміт ресурсів
-    
-
+---
+navigation:
+  - imagick.getresource.md: '« Imagick::getResource'
+  - imagick.getsamplingfactors.md: 'Imagick::getSamplingFactors »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getResourceLimit'
+---
 # Imagick::getResourceLimit
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Клас SwooleAtomic
-
--   [« SwooleAsync::writeFile](swoole-async.writefile.html)
-    
--   [SwooleAtomic::add »](swoole-atomic.add.html)
-    
--   [PHP Manual](index.md)
-    
--   [Swoole](book.swoole.md)
-    
--   Клас SwooleAtomic
-    
-
+---
+navigation:
+  - swoole-async.writefile.html: '« SwooleAsync::writeFile'
+  - swoole-atomic.add.html: 'SwooleAtomic::add »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
+title: Клас SwooleAtomic
+---
 # Клас SwooleAtomic
 
 (PECL swoole >= 1.9.0)

@@ -1,16 +1,11 @@
-Мінус-спрямований індикатор
-
--   [« traderminmaxindex](function.trader-minmaxindex.html)
-    
--   [traderminusdm »](function.trader-minus-dm.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Мінус-спрямований індикатор
-    
-
+---
+navigation:
+  - function.trader-minmaxindex.html: « traderminmaxindex
+  - function.trader-minus-dm.html: traderminusdm »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: traderminusді
+---
 # traderminusді
 
 (PECL trader >= 0.2.0)

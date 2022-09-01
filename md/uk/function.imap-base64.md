@@ -1,16 +1,11 @@
-Декодувати текст закодований BASE64
-
--   [« imapappend](function.imap-append.html)
-    
--   [imapbinary »](function.imap-binary.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Декодувати текст закодований BASE64
-    
-
+---
+navigation:
+  - function.imap-append.html: « imapappend
+  - function.imap-binary.html: imapbinary »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapbase64
+---
 # imapbase64
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

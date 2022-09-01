@@ -1,16 +1,11 @@
-Інтерфейс CrudOperationLimitable
-
--   [« CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.html)
-    
--   [CrudOperationLimitable::limit »](mysql-xdevapi-crudoperationlimitable.limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Інтерфейс CrudOperationLimitable
-    
-
+---
+navigation:
+  - mysql-xdevapi-crudoperationbindable.bind.html: '« CrudOperationBindable::bind'
+  - mysql-xdevapi-crudoperationlimitable.limit.html: 'CrudOperationLimitable::limit »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Інтерфейс CrudOperationLimitable
+---
 # Інтерфейс CrudOperationLimitable
 
 (PECL mysql-xdevapi >= 8.0.11)

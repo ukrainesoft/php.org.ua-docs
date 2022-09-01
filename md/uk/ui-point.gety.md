@@ -1,16 +1,11 @@
-Отримати Y
-
--   [« UIPoint::getX](ui-point.getx.html)
-    
--   [ОЙPoint::setX »](ui-point.setx.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙPoint](class.ui-point.html)
-    
--   Отримати Y
-    
-
+---
+navigation:
+  - ui-point.getx.html: '« UIPoint::getX'
+  - ui-point.setx.html: 'ОЙPoint::setX »'
+  - index.html: PHP Manual
+  - class.ui-point.html: ОЙPoint
+title: 'ОЙPoint::getY'
+---
 # ОЙPoint::getY
 
 (UI 0.9.9)

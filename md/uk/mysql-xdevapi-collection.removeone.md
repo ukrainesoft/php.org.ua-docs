@@ -1,16 +1,11 @@
-Видаляє один документ із колекції
-
--   [« Collection::remove](mysql-xdevapi-collection.remove.html)
-    
--   [Collection::replaceOne »](mysql-xdevapi-collection.replaceone.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Видаляє один документ із колекції
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.remove.html: '« Collection::remove'
+  - mysql-xdevapi-collection.replaceone.html: 'Collection::replaceOne »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::removeOne'
+---
 # Collection::removeOne
 
 (No version information available, might only be in Git)

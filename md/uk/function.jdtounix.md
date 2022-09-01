@@ -1,16 +1,11 @@
-Перекладає число днів у юліанському літочисленні у мітку часу Unix
-
--   [« jdtojulian](function.jdtojulian.md)
-    
--   [jewishtojd »](function.jewishtojd.md)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](ref.calendar.md)
-    
--   Перекладає число днів у юліанському літочисленні у мітку часу Unix
-    
-
+---
+navigation:
+  - function.jdtojulian.md: « jdtojulian
+  - function.jewishtojd.md: jewishtojd »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: jdtounix
+---
 # jdtounix
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -41,10 +36,10 @@ jdtounix(int $julian_day): int
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | Функція більше не повертає **`false`** у разі виникнення помилки, натомість викидає [ValueError](class.valueerror.md) |
-|        | Збільшено верхню межу `julian_day`. Раніше він був `2465342` незалежно від архітектури.                               |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки, натомість викидає [ValueError](class.valueerror.md) |
+|  | Збільшено верхню межу `julian_day`. Раніше він був `2465342` незалежно від архітектури. |
 
 ### Дивіться також
 

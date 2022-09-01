@@ -1,16 +1,11 @@
-Записує зображення або послідовність зображень
-
--   [« Imagick::writeImageFile](imagick.writeimagefile.html)
-    
--   [Imagick::writeImagesFile »](imagick.writeimagesfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Записує зображення або послідовність зображень
-    
-
+---
+navigation:
+  - imagick.writeimagefile.html: '« Imagick::writeImageFile'
+  - imagick.writeimagesfile.html: 'Imagick::writeImagesFile »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::writeImages'
+---
 # Imagick::writeImages
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

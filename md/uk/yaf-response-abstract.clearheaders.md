@@ -1,16 +1,11 @@
-Скидає всі встановлені заголовки
-
--   [« YafResponseAbstract::clearBody](yaf-response-abstract.clearbody.html)
-    
--   [YafResponseAbstract::construct »](yaf-response-abstract.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafResponseAbstract](class.yaf-response-abstract.html)
-    
--   Скидає всі встановлені заголовки
-    
-
+---
+navigation:
+  - yaf-response-abstract.clearbody.html: '« YafResponseAbstract::clearBody'
+  - yaf-response-abstract.construct.html: 'YafResponseAbstract::construct »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.html: YafResponseAbstract
+title: 'YafResponseAbstract::clearHeaders'
+---
 # YafResponseAbstract::clearHeaders
 
 (Yaf >=1.0.0)

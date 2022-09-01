@@ -1,16 +1,11 @@
-Повертає рядкову виставу RegexInterface
-
--   [« MongoDBBSONRegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.html)
-    
--   [MongoDBBSONTimestampInterface »](class.mongodb-bson-timestampinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.html)
-    
--   Повертає рядкову виставу RegexInterface
-    
-
+---
+navigation:
+  - mongodb-bson-regexinterface.getpattern.html: '« MongoDBBSONRegexInterface::getPattern'
+  - class.mongodb-bson-timestampinterface.html: MongoDBBSONTimestampInterface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-regexinterface.html: MongoDBBSONRegexInterface
+title: 'MongoDBBSONRegexInterface::toString'
+---
 # MongoDBBSONRegexInterface::toString
 
 (mongodb >=1.3.0)

@@ -1,16 +1,11 @@
-Малює прямокутник із закругленими кутами.
-
--   [« ImagickDraw::rotate](imagickdraw.rotate.md)
-    
--   [ImagickDraw::scale »](imagickdraw.scale.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Малює прямокутник із закругленими кутами.
-    
-
+---
+navigation:
+  - imagickdraw.rotate.md: '« ImagickDraw::rotate'
+  - imagickdraw.scale.md: 'ImagickDraw::scale »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::roundRectangle'
+---
 # ImagickDraw::roundRectangle
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Отримати дескриптор завдання
-
--   [« GearmanTask::isRunning](gearmantask.isrunning.html)
-    
--   [GearmanTask::recvData »](gearmantask.recvdata.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanTask](class.gearmantask.html)
-    
--   Отримати дескриптор завдання
-    
-
+---
+navigation:
+  - gearmantask.isrunning.html: '« GearmanTask::isRunning'
+  - gearmantask.recvdata.html: 'GearmanTask::recvData »'
+  - index.html: PHP Manual
+  - class.gearmantask.html: GearmanTask
+title: 'GearmanTask::jobHandle'
+---
 # GearmanTask::jobHandle
 
 # gearmanjobhandle

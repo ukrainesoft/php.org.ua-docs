@@ -1,16 +1,11 @@
-Повертає статус файлу
-
--   [« eiosetminparallel](function.eio-set-min-parallel.html)
-    
--   [eiostatvfs »](function.eio-statvfs.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Повертає статус файлу
-    
-
+---
+navigation:
+  - function.eio-set-min-parallel.html: « eiosetminparallel
+  - function.eio-statvfs.html: eiostatvfs »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eioстати
+---
 # eioстати
 
 (PECL eio >= 0.0.1dev)

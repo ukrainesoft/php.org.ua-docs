@@ -1,16 +1,11 @@
-Повертає код JavascriptInterface
-
--   [« MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
-    
--   [MongoDBBSONJavascriptInterface::getScope »](mongodb-bson-javascriptinterface.getscope.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.html)
-    
--   Повертає код JavascriptInterface
-    
-
+---
+navigation:
+  - class.mongodb-bson-javascriptinterface.html: « MongoDBBSONJavascriptInterface
+  - mongodb-bson-javascriptinterface.getscope.html: 'MongoDBBSONJavascriptInterface::getScope »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascriptinterface.html: MongoDBBSONJavascriptInterface
+title: 'MongoDBBSONJavascriptInterface::getCode'
+---
 # MongoDBBSONJavascriptInterface::getCode
 
 (mongodb >=1.3.0)

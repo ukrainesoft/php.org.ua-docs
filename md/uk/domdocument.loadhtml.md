@@ -1,16 +1,11 @@
-Завантаження HTML з рядка
-
--   [« DOMDocument::load](domdocument.load.html)
-    
--   [DOMDocument::loadHTMLFile »](domdocument.loadhtmlfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMDocument](class.domdocument.html)
-    
--   Завантаження HTML з рядка
-    
-
+---
+navigation:
+  - domdocument.load.html: '« DOMDocument::load'
+  - domdocument.loadhtmlfile.html: 'DOMDocument::loadHTMLFile »'
+  - index.html: PHP Manual
+  - class.domdocument.html: DOMDocument
+title: 'DOMDocument::loadHTML'
+---
 # DOMDocument::loadHTML
 
 (PHP 5, PHP 7, PHP 8)

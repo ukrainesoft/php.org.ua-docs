@@ -1,16 +1,11 @@
-Відправляє дані у віддалений сокет блокуючим способом
-
--   [« SwooleServer::sendto](swoole-server.sendto.html)
-    
--   [SwooleServer::set »](swoole-server.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Відправляє дані у віддалений сокет блокуючим способом
-    
-
+---
+navigation:
+  - swoole-server.sendto.html: '« SwooleServer::sendto'
+  - swoole-server.set.html: 'SwooleServer::set »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::sendwait'
+---
 # SwooleServer::sendwait
 
 (PECL swoole >= 1.9.0)

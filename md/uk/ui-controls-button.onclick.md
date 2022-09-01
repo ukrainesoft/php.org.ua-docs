@@ -1,16 +1,11 @@
-Обробник кліку
-
--   [« UIControlsButton::getText](ui-controls-button.gettext.html)
-    
--   [ОЙControlsButton::setText »](ui-controls-button.settext.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsButton](class.ui-controls-button.html)
-    
--   Обробник кліку
-    
-
+---
+navigation:
+  - ui-controls-button.gettext.html: '« UIControlsButton::getText'
+  - ui-controls-button.settext.html: 'ОЙControlsButton::setText »'
+  - index.md: PHP Manual
+  - class.ui-controls-button.html: ОЙControlsButton
+title: 'ОЙControlsButton::onClick'
+---
 # ОЙControlsButton::onClick
 
 (UI 0.9.9)

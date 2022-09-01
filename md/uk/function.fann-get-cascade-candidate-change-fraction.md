@@ -1,16 +1,11 @@
-Повертає частку зміни каскаду кандидата
-
--   [« fanngetcascadeactivationsteepnesses](function.fann-get-cascade-activation-steepnesses.html)
-    
--   [fanngetcascadecandidatelimit »](function.fann-get-cascade-candidate-limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Повертає частку зміни каскаду кандидата
-    
-
+---
+navigation:
+  - function.fann-get-cascade-activation-steepnesses.html: « fanngetcascadeactivationsteepnesses
+  - function.fann-get-cascade-candidate-limit.html: fanngetcascadecandidatelimit »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fanngetcascadecandidatechangefraction
+---
 # fanngetcascadecandidatechangefraction
 
 (PECL fann> = 1.0.0)

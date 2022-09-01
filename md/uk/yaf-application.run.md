@@ -1,16 +1,11 @@
-Запустити YafApplication
-
--   [« YafApplication::getModules](yaf-application.getmodules.html)
-    
--   [YafApplication::setAppDirectory »](yaf-application.setappdirectory.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafApplication](class.yaf-application.html)
-    
--   Запустити YafApplication
-    
-
+---
+navigation:
+  - yaf-application.getmodules.html: '« YafApplication::getModules'
+  - yaf-application.setappdirectory.html: 'YafApplication::setAppDirectory »'
+  - index.md: PHP Manual
+  - class.yaf-application.html: YafApplication
+title: 'YafApplication::run'
+---
 # YafApplication::run
 
 (Yaf >=1.0.0)

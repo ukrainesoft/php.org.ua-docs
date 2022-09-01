@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.lzf.html)
-    
--   [Вимоги »](lzf.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [LZF](book.lzf.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.lzf.html: « Введение
+  - lzf.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.lzf.html: LZF
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

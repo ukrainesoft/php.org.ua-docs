@@ -1,16 +1,11 @@
-Повертає масив, що містить усі поля у документі
-
--   [« SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.html)
-    
--   [SolrInputDocument::hasChildDocuments »](solrinputdocument.haschilddocuments.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Повертає масив, що містить усі поля у документі
-    
-
+---
+navigation:
+  - solrinputdocument.getfieldcount.html: '« SolrInputDocument::getFieldCount'
+  - solrinputdocument.haschilddocuments.html: 'SolrInputDocument::hasChildDocuments »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::getFieldNames'
+---
 # SolrInputDocument::getFieldNames
 
 (PECL solr> = 0.9.2)

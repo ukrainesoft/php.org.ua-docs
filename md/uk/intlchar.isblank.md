@@ -1,16 +1,11 @@
-Перевірити, чи є символ "порожнім" чи "горизонтальним пропуском"
-
--   [« IntlChar::isbase](intlchar.isbase.md)
-    
--   [IntlChar::iscntrl »](intlchar.iscntrl.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlChar](class.intlchar.md)
-    
--   Перевірити, чи є символ "порожнім" чи "горизонтальним пропуском"
-    
-
+---
+navigation:
+  - intlchar.isbase.md: '« IntlChar::isbase'
+  - intlchar.iscntrl.md: 'IntlChar::iscntrl »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
+title: 'IntlChar::isblank'
+---
 # IntlChar::isblank
 
 (PHP 7, PHP 8)

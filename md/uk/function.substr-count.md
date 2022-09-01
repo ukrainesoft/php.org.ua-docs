@@ -1,16 +1,11 @@
-Повертає кількість входжень підрядка
-
--   [« substrcompare](function.substr-compare.html)
-    
--   [substrreplace »](function.substr-replace.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає кількість входжень підрядка
-    
-
+---
+navigation:
+  - function.substr-compare.html: « substrcompare
+  - function.substr-replace.html: substrreplace »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: substrcount
+---
 # substrcount
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ substr_count(    string $haystack,    string $needle,    int $offset
 
 ### список змін
 
-| Версия | Описание                                                                                      |
-|--------|-----------------------------------------------------------------------------------------------|
-|        | `length` тепер допускає значення null.                                                        |
-|        | Додано підтримку негативних значень `offset` і `length`. . `length` тепер також може бути `0` |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
+|  | Додано підтримку негативних значень `offset` і `length`. . `length` тепер також може бути `0` |
 
 ### Приклади
 

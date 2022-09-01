@@ -1,16 +1,11 @@
-Додає дані з об'єкта LOB до кінця іншого об'єкта
-
--   [« OCILob](class.ocilob.md)
-    
--   [OCILob::close »](ocilob.close.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCILob](class.ocilob.md)
-    
--   Додає дані з об'єкта LOB до кінця іншого об'єкта
-    
-
+---
+navigation:
+  - class.ocilob.md: « OCILob
+  - ocilob.close.md: 'OCILob::close »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
+title: 'OCILob::append'
+---
 # OCILob::append
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -39,8 +34,8 @@ public OCILob::append(OCILob $from): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                              |
-|------------------------|-------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

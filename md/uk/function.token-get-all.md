@@ -1,16 +1,11 @@
-Розбиває переданий вихідний код на PHP-лексеми
-
--   [« Функции PHP-лексера (tokenizer)](ref.tokenizer.html)
-    
--   [tokenname »](function.token-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PHP-лексера (tokenizer)](ref.tokenizer.html)
-    
--   Розбиває переданий вихідний код на PHP-лексеми
-    
-
+---
+navigation:
+  - ref.tokenizer.html: « Функции PHP-лексера (tokenizer)
+  - function.token-name.html: tokenname »
+  - index.html: PHP Manual
+  - ref.tokenizer.html: Функции PHP-лексера (tokenizer)
+title: tokengetall
+---
 # tokengetall
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)

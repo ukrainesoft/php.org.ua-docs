@@ -1,16 +1,11 @@
-Встановлює певні параметри
-
--   [«pssetinfo](function.ps-set-info.html)
-    
--   [псsettextpos »](function.ps-set-text-pos.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює певні параметри
-    
-
+---
+navigation:
+  - function.ps-set-info.html: «pssetinfo
+  - function.ps-set-text-pos.html: псsettextpos »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetparameter
+---
 # псsetparameter
 
 (PECL ps >= 1.1.0)

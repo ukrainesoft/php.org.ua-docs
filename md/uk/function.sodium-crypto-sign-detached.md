@@ -1,16 +1,11 @@
-Підписати повідомлення
-
--   [« sodiumcryptoshorthash](function.sodium-crypto-shorthash.html)
-    
--   [sodiumcryptosigned25519пктоcurve25519 »](function.sodium-crypto-sign-ed25519-pk-to-curve25519.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Підписати повідомлення
-    
-
+---
+navigation:
+  - function.sodium-crypto-shorthash.html: « sodiumcryptoshorthash
+  - function.sodium-crypto-sign-ed25519-pk-to-curve25519.html: sodiumcryptosigned25519пктоcurve25519 »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptosigndetached
+---
 # sodiumcryptosigndetached
 
 (PHP 7> = 7.2.0, PHP 8)

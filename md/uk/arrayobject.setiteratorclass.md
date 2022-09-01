@@ -1,16 +1,11 @@
-Встановлює ім'я класу ітератора ArrayObject
-
--   [« ArrayObject::setFlags](arrayobject.setflags.md)
-    
--   [ArrayObject::uasort »](arrayobject.uasort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayObject](class.arrayobject.md)
-    
--   Встановлює ім'я класу ітератора ArrayObject
-    
-
+---
+navigation:
+  - arrayobject.setflags.md: '« ArrayObject::setFlags'
+  - arrayobject.uasort.md: 'ArrayObject::uasort »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
+title: 'ArrayObject::setIteratorClass'
+---
 # ArrayObject::setIteratorClass
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

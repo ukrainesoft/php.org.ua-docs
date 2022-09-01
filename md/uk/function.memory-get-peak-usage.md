@@ -1,16 +1,11 @@
-Повертає пікове значення об'єму пам'яті, виділене PHP
-
--   [« iniset](function.ini-set.html)
-    
--   [memorygetusage »](function.memory-get-usage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Опції PHP/інформаційні функції](ref.info.html)
-    
--   Повертає пікове значення об'єму пам'яті, виділене PHP
-    
-
+---
+navigation:
+  - function.ini-set.html: « iniset
+  - function.memory-get-usage.html: memorygetusage »
+  - index.html: PHP Manual
+  - ref.info.html: Опції PHP/інформаційні функції
+title: memorygetpeakusage
+---
 # memorygetpeakusage
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Псевдонім rtrim
-
--   [« bin2hex](function.bin2hex.html)
-    
--   [chr »](function.chr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Псевдонім rtrim
-    
-
+---
+navigation:
+  - function.bin2hex.html: « bin2hex
+  - function.chr.html: chr »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: chop
+---
 # chop
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає попередження та помилки
-
--   [« DateTime::createFromInterface](datetime.createfrominterface.md)
-    
--   [DateTime::modify »](datetime.modify.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateTime](class.datetime.md)
-    
--   Повертає попередження та помилки
-    
-
+---
+navigation:
+  - datetime.createfrominterface.md: '« DateTime::createFromInterface'
+  - datetime.modify.md: 'DateTime::modify »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
+title: 'DateTime::getLastErrors'
+---
 # DateTime::getLastErrors
 
 # dategetlasterrors

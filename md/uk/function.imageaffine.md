@@ -1,16 +1,11 @@
-Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
-
--   [« image2wbmp](function.image2wbmp.md)
-    
--   [imageaffinematrixconcat »](function.imageaffinematrixconcat.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
-    
-
+---
+navigation:
+  - function.image2wbmp.md: « image2wbmp
+  - function.imageaffinematrixconcat.md: imageaffinematrixconcat »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imageaffine
+---
 # imageaffine
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)
@@ -47,7 +42,7 @@ imageaffine(GdImage $image, array $affine, ?array $clip = null): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | `clip` тепер допускає значення null.                                                                                          |
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `clip` тепер допускає значення null. |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |

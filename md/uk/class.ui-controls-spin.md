@@ -1,16 +1,11 @@
-Елемент управління "Спін"
-
--   [« UIControlsMultilineEntry::setText](ui-controls-multilineentry.settext.html)
-    
--   [ОЙControlsSpin::construct »](ui-controls-spin.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Елемент управління "Спін"
-    
-
+---
+navigation:
+  - ui-controls-multilineentry.settext.html: '« UIControlsMultilineEntry::setText'
+  - ui-controls-spin.construct.html: 'ОЙControlsSpin::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Елемент управління "Спін"
+---
 # Елемент управління "Спін"
 
 (UI 0.9.9)

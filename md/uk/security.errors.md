@@ -1,16 +1,11 @@
-Повідомлення про помилки
-
--   [SQL-ін'єкції](security.database.sql-injection.html)
-    
--   [Дані, введені користувачем »](security.variables.html)
-    
--   [PHP Manual](index.html)
-    
--   [Безпека](security.html)
-    
--   Повідомлення про помилки
-    
-
+---
+navigation:
+  - security.database.sql-injection.html: SQL-ін'єкції
+  - security.variables.html: 'Дані, введені користувачем »'
+  - index.html: PHP Manual
+  - security.html: Безпека
+title: Повідомлення про помилки
+---
 # Повідомлення про помилки
 
 З погляду безпеки висновок повідомлень про помилки несе як плюси, і мінуси.

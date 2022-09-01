@@ -1,16 +1,11 @@
-Установка на Unix-системи
-
--   [« Общие инструкции по установке](install.general.html)
-    
--   [Apache 2.x на Unix системах](install.unix.apache2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](install.html)
-    
--   Установка на Unix-системи
-    
-
+---
+navigation:
+  - install.general.html: « Общие инструкции по установке
+  - install.unix.apache2.html: Apache 2.x на Unix системах
+  - index.html: PHP Manual
+  - install.html: Встановлення та налаштування
+title: Установка на Unix-системи
+---
 # Установка на Unix-системи
 
 ## Зміст

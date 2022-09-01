@@ -1,16 +1,11 @@
-Малює ламану лінію
-
--   [« GmagickDraw::polygon](gmagickdraw.polygon.html)
-    
--   [GmagickDraw::rectangle »](gmagickdraw.rectangle.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Малює ламану лінію
-    
-
+---
+navigation:
+  - gmagickdraw.polygon.html: '« GmagickDraw::polygon'
+  - gmagickdraw.rectangle.html: 'GmagickDraw::rectangle »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::polyline'
+---
 # GmagickDraw::polyline
 
 (PECL gmagick >= Unknown)

@@ -1,16 +1,11 @@
-Створює затінення для подальшого використання
-
--   [«psshadingpattern](function.ps-shading-pattern.html)
-    
--   [псshfill »](function.ps-shfill.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Створює затінення для подальшого використання
-    
-
+---
+navigation:
+  - function.ps-shading-pattern.html: «psshadingpattern
+  - function.ps-shfill.html: псshfill »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псshading
+---
 # псshading
 
 (PECL ps >= 1.3.0)

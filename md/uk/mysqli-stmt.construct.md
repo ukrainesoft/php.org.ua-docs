@@ -1,16 +1,11 @@
-Конструктор для об'єкту mysqlistmt
-
--   [« mysqlistmt::close](mysqli-stmt.close.html)
-    
--   [mysqlistmt::dataseek »](mysqli-stmt.data-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Конструктор для об'єкту mysqlistmt
-    
-
+---
+navigation:
+  - mysqli-stmt.close.html: '« mysqlistmt::close'
+  - mysqli-stmt.data-seek.html: 'mysqlistmt::dataseek »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::construct'
+---
 # mysqlistmt::construct
 
 (PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ public **mysqlistmt::construct**[mysqli](class.mysqli.md) `$mysql`, ?string `$qu
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `query` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `query` тепер допускає значення null. |
 
 ### Дивіться також
 

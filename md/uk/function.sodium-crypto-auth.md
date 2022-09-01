@@ -1,16 +1,11 @@
-Обчислити тег для повідомлення
-
--   [« sodiumcryptoauthverify](function.sodium-crypto-auth-verify.html)
-    
--   [sodiumcryptoboxkeypairfromsecretkeyandpublickey »](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Обчислити тег для повідомлення
-    
-
+---
+navigation:
+  - function.sodium-crypto-auth-verify.html: « sodiumcryptoauthverify
+  - function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html: sodiumcryptoboxkeypairfromsecretkeyandpublickey »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptoauth
+---
 # sodiumcryptoauth
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Опис
-
--   [« phpdbgexec](function.phpdbg-exec.html)
-    
--   [phpdbgprompt »](function.phpdbg-prompt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции phpdbg](ref.phpdbg.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - function.phpdbg-exec.html: « phpdbgexec
+  - function.phpdbg-prompt.html: phpdbgprompt »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
+title: phpdbggetexecutable
+---
 # phpdbggetexecutable
 
 (PHP 7, PHP 8)

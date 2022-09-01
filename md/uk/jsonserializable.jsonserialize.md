@@ -1,16 +1,11 @@
-Задає дані, які мають бути серіалізовані у JSON
-
--   [« JsonSerializable](class.jsonserializable.html)
-    
--   [Функции JSON »](ref.json.html)
-    
--   [PHP Manual](index.html)
-    
--   [JsonSerializable](class.jsonserializable.html)
-    
--   Задає дані, які мають бути серіалізовані у JSON
-    
-
+---
+navigation:
+  - class.jsonserializable.html: « JsonSerializable
+  - ref.json.html: Функции JSON »
+  - index.html: PHP Manual
+  - class.jsonserializable.html: JsonSerializable
+title: 'JsonSerializable::jsonSerialize'
+---
 # JsonSerializable::jsonSerialize
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

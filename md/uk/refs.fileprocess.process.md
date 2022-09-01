@@ -1,16 +1,11 @@
-Модулі для керування процесами програм
-
--   [« VtifulKernelFormat::underline](vtiful-kernel-format.underline.html)
-    
--   [Eio »](book.eio.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для керування процесами програм
-    
-
+---
+navigation:
+  - vtiful-kernel-format.underline.html: '« VtifulKernelFormat::underline'
+  - book.eio.md: Eio »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для керування процесами програм
+---
 # Модулі для керування процесами програм
 
 -   [Eio](book.eio.md)

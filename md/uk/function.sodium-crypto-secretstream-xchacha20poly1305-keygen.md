@@ -1,16 +1,11 @@
-Створює випадковий ключ secretstream
-
--   [« sodiumcryptosecretstreamxchacha20poly1305initpush](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html)
-    
--   [sodiumcryptosecretstreamxchacha20poly1305pull »](function.sodium-crypto-secretstream-xchacha20poly1305-pull.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Sodium](ref.sodium.html)
-    
--   Створює випадковий ключ secretstream
-    
-
+---
+navigation:
+  - function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html: « sodiumcryptosecretstreamxchacha20poly1305initpush
+  - function.sodium-crypto-secretstream-xchacha20poly1305-pull.html: sodiumcryptosecretstreamxchacha20poly1305pull »
+  - index.html: PHP Manual
+  - ref.sodium.html: Функции Sodium
+title: sodiumcryptosecretstreamxchacha20poly1305keygen
+---
 # sodiumcryptosecretstreamxchacha20poly1305keygen
 
 (PHP 7> = 7.2.0, PHP 8)

@@ -1,16 +1,11 @@
-Встановити функцію зворотного дзвінка, коли є пакет даних для завдання (застарілий метод)
-
--   [« GearmanClient::runTasks](gearmanclient.runtasks.md)
-    
--   [GearmanClient::setCompleteCallback »](gearmanclient.setcompletecallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanClient](class.gearmanclient.md)
-    
--   Встановити функцію зворотного дзвінка, коли є пакет даних для завдання (застарілий метод)
-    
-
+---
+navigation:
+  - gearmanclient.runtasks.md: '« GearmanClient::runTasks'
+  - gearmanclient.setcompletecallback.md: 'GearmanClient::setCompleteCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
+title: 'GearmanClient::setClientCallback'
+---
 # GearmanClient::setClientCallback
 
 (PECL gearman <= 0.5.0)

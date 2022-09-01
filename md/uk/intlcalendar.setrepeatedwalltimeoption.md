@@ -1,16 +1,11 @@
-Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
-
--   [« IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.md)
-    
--   [IntlCalendar::setSkippedWallTimeOption »](intlcalendar.setskippedwalltimeoption.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
-    
-
+---
+navigation:
+  - intlcalendar.setminimaldaysinfirstweek.md: '« IntlCalendar::setMinimalDaysInFirstWeek'
+  - intlcalendar.setskippedwalltimeoption.md: 'IntlCalendar::setSkippedWallTimeOption »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::setRepeatedWallTimeOption'
+---
 # IntlCalendar::setRepeatedWallTimeOption
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

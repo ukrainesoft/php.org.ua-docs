@@ -1,16 +1,11 @@
-Отримує ім'я наступного поля
-
--   [« fdfheader](function.fdf-header.html)
-    
--   [fdfopenstring »](function.fdf-open-string.html)
-    
--   [PHP Manual](index.html)
-    
--   [FDF](ref.fdf.html)
-    
--   Отримує ім'я наступного поля
-    
-
+---
+navigation:
+  - function.fdf-header.html: « fdfheader
+  - function.fdf-open-string.html: fdfopenstring »
+  - index.html: PHP Manual
+  - ref.fdf.html: FDF
+title: fdfnextfieldname
+---
 # fdfnextfieldname
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

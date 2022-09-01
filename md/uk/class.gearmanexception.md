@@ -1,16 +1,11 @@
-Клас GearmanException
-
--   [« GearmanWorker::work](gearmanworker.work.html)
-    
--   [LDAP »](book.ldap.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gearman](book.gearman.html)
-    
--   Клас GearmanException
-    
-
+---
+navigation:
+  - gearmanworker.work.html: '« GearmanWorker::work'
+  - book.ldap.html: LDAP »
+  - index.html: PHP Manual
+  - book.gearman.html: Gearman
+title: Клас GearmanException
+---
 # Клас GearmanException
 
 (PECL gearman >= 0.5.0)

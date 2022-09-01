@@ -1,16 +1,11 @@
-Призначення getInstance
-
--   [« YafLoader::construct](yaf-loader.construct.html)
-    
--   [YafLoader::getLibraryPath »](yaf-loader.getlibrarypath.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafLoader](class.yaf-loader.html)
-    
--   Призначення getInstance
-    
-
+---
+navigation:
+  - yaf-loader.construct.html: '« YafLoader::construct'
+  - yaf-loader.getlibrarypath.html: 'YafLoader::getLibraryPath »'
+  - index.md: PHP Manual
+  - class.yaf-loader.html: YafLoader
+title: 'YafLoader::getInstance'
+---
 # YafLoader::getInstance
 
 (Yaf >=1.0.0)

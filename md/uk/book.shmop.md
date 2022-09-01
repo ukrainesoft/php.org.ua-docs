@@ -1,16 +1,11 @@
-Управління пам'яттю, що розділяється
-
--   [« SysvSharedMemory](class.sysvsharedmemory.md)
-    
--   [Введение »](intro.shmop.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.md)
-    
--   Управління пам'яттю, що розділяється
-    
-
+---
+navigation:
+  - class.sysvsharedmemory.md: « SysvSharedMemory
+  - intro.shmop.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
+title: 'Управління пам''яттю, що розділяється'
+---
 # Управління пам'яттю, що розділяється
 
 -   [Введение](intro.shmop.md)

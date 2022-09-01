@@ -1,16 +1,11 @@
-Отримати або встановити роздільну здатність зображення
-
--   [« imagerectangle](function.imagerectangle.html)
-    
--   [imagerotate »](function.imagerotate.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Отримати або встановити роздільну здатність зображення
-    
-
+---
+navigation:
+  - function.imagerectangle.html: « imagerectangle
+  - function.imagerotate.html: imagerotate »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imageresolution
+---
 # imageresolution
 
 (PHP 7> = 7.2.0, PHP 8)
@@ -47,9 +42,9 @@ imageresolution(GdImage $image, ?int $resolution_x = null, ?int $resolution_y = 
 
 ### список змін
 
-| Версия | Описание                                                        |
-|--------|-----------------------------------------------------------------|
-|        | `resolution_x` і `resolution_y` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `resolution_x` і `resolution_y` тепер допускають значення null. |
 
 ### Приклади
 

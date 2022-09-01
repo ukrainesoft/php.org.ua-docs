@@ -1,16 +1,11 @@
-Створює новий об'єкт DateInterval
-
--   [« DateInterval](class.dateinterval.md)
-    
--   [DateInterval::createFromDateString »](dateinterval.createfromdatestring.md)
-    
--   [PHP Manual](index.md)
-    
--   [DateInterval](class.dateinterval.md)
-    
--   Створює новий об'єкт DateInterval
-    
-
+---
+navigation:
+  - class.dateinterval.md: « DateInterval
+  - dateinterval.createfromdatestring.md: 'DateInterval::createFromDateString »'
+  - index.md: PHP Manual
+  - class.dateinterval.md: DateInterval
+title: 'DateInterval::construct'
+---
 # DateInterval::construct
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -33,15 +28,15 @@ public **DateInterval::construct**(string `$duration`
 
 **Вказівники періодів `duration`**
 
-| Указатель периода | Описание                                                                          |
-|-------------------|-----------------------------------------------------------------------------------|
-| `Y`               | року                                                                              |
-| `M`               | місяці                                                                            |
-| `D`               | дні                                                                               |
-| `W`               | Тижня. Перетворюється на дні. До PHP 8.0.0 не міг використовуватися спільно з `D` |
-| `H`               | годинник                                                                          |
-| `M`               | хвилини                                                                           |
-| `S`               | секунди                                                                           |
+| Указатель периода | Описание |
+| --- | --- |
+| `Y` | року |
+| `M` | місяці |
+| `D` | дні |
+| `W` | Тижня. Перетворюється на дні. До PHP 8.0.0 не міг використовуватися спільно з `D` |
+| `H` | годинник |
+| `M` | хвилини |
+| `S` | секунди |
 
 Ось кілька простих прикладів. Два дні - `P2D`. Дві секунди `PT2S`. Шість років та п'ять хвилин - `P6YT5M`
 
@@ -59,10 +54,10 @@ public **DateInterval::construct**(string `$duration`
 
 ### список змін
 
-| Версия | Описание                                                                                        |
-|--------|-------------------------------------------------------------------------------------------------|
-|        | Буде видно тільки `y` в `f` `invert` і `days`, включаючи нову логічну властивість `from_string` |
-|        | `W` тепер може використовуватися спільно з `D`                                                  |
+| Версия | Описание |
+| --- | --- |
+|  | Буде видно тільки `y` в `f` `invert` і `days`, включаючи нову логічну властивість `from_string` |
+|  | `W` тепер може використовуватися спільно з `D` |
 
 ### Приклади
 

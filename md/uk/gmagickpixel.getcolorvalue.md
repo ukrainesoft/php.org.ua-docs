@@ -1,16 +1,11 @@
-Повертає нормалізоване значення для заданого каналу кольору
-
--   [« GmagickPixel::getcolorcount](gmagickpixel.getcolorcount.md)
-    
--   [GmagickPixel::setcolor »](gmagickpixel.setcolor.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickPixel](class.gmagickpixel.md)
-    
--   Повертає нормалізоване значення для заданого каналу кольору
-    
-
+---
+navigation:
+  - gmagickpixel.getcolorcount.md: '« GmagickPixel::getcolorcount'
+  - gmagickpixel.setcolor.md: 'GmagickPixel::setcolor »'
+  - index.md: PHP Manual
+  - class.gmagickpixel.md: GmagickPixel
+title: 'GmagickPixel::getcolorvalue'
+---
 # GmagickPixel::getcolorvalue
 
 (PECL gmagick >= Unknown)

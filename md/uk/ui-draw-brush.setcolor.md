@@ -1,16 +1,11 @@
-Встановити колір
-
--   [« UIDrawBrush::getColor](ui-draw-brush.getcolor.html)
-    
--   [ОЙDrawBrushGradient »](class.ui-draw-brush-gradient.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙDrawBrush](class.ui-draw-brush.html)
-    
--   Встановити колір
-    
-
+---
+navigation:
+  - ui-draw-brush.getcolor.html: '« UIDrawBrush::getColor'
+  - class.ui-draw-brush-gradient.html: ОЙDrawBrushGradient »
+  - index.md: PHP Manual
+  - class.ui-draw-brush.html: ОЙDrawBrush
+title: 'ОЙDrawBrush::setColor'
+---
 # ОЙDrawBrush::setColor
 
 (UI 0.9.9)

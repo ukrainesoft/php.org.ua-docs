@@ -1,16 +1,11 @@
-Створює ітератор для переміщення фрагментів між кордонами
-
--   [« IntlBreakIterator::getLocale](intlbreakiterator.getlocale.html)
-    
--   [IntlBreakIterator::getText »](intlbreakiterator.gettext.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlBreakIterator](class.intlbreakiterator.html)
-    
--   Створює ітератор для переміщення фрагментів між кордонами
-    
-
+---
+navigation:
+  - intlbreakiterator.getlocale.html: '« IntlBreakIterator::getLocale'
+  - intlbreakiterator.gettext.html: 'IntlBreakIterator::getText »'
+  - index.html: PHP Manual
+  - class.intlbreakiterator.html: IntlBreakIterator
+title: 'IntlBreakIterator::getPartsIterator'
+---
 # IntlBreakIterator::getPartsIterator
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

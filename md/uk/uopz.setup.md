@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.uopz.md)
-    
--   [Вимоги »](uopz.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [uopz](book.uopz.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.uopz.md: « Введение
+  - uopz.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.uopz.md: uopz
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

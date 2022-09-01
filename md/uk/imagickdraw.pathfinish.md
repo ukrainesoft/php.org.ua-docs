@@ -1,16 +1,11 @@
-Завершує поточний шлях
-
--   [« ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.md)
-    
--   [ImagickDraw::pathLineToAbsolute »](imagickdraw.pathlinetoabsolute.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Завершує поточний шлях
-    
-
+---
+navigation:
+  - imagickdraw.pathellipticarcrelative.md: '« ImagickDraw::pathEllipticArcRelative'
+  - imagickdraw.pathlinetoabsolute.md: 'ImagickDraw::pathLineToAbsolute »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::pathFinish'
+---
 # ImagickDraw::pathFinish
 
 (PECL imagick 2, PECL imagick 3)

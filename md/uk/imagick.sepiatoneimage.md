@@ -1,16 +1,11 @@
-Тонування зображення сепією
-
--   [« Imagick::separateImageChannel](imagick.separateimagechannel.html)
-    
--   [Imagick::setBackgroundColor »](imagick.setbackgroundcolor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Тонування зображення сепією
-    
-
+---
+navigation:
+  - imagick.separateimagechannel.html: '« Imagick::separateImageChannel'
+  - imagick.setbackgroundcolor.html: 'Imagick::setBackgroundColor »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::sepiaToneImage'
+---
 # Imagick::sepiaToneImage
 
 (PECL imagick 2, PECL imagick 3)

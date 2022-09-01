@@ -1,16 +1,11 @@
-Перевіряє, чи є метод абстрактним
-
--   [« ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md)
-    
--   [ReflectionMethod::isConstructor »](reflectionmethod.isconstructor.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionMethod](class.reflectionmethod.md)
-    
--   Перевіряє, чи є метод абстрактним
-    
-
+---
+navigation:
+  - reflectionmethod.invokeargs.md: '« ReflectionMethod::invokeArgs'
+  - reflectionmethod.isconstructor.md: 'ReflectionMethod::isConstructor »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
+title: 'ReflectionMethod::isAbstract'
+---
 # ReflectionMethod::isAbstract
 
 (PHP 5, PHP 7, PHP 8)

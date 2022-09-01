@@ -1,16 +1,11 @@
-Інтерфейс SessionUpdateTimestampHandlerInterface
-
--   [« SessionIdInterface::createsid](sessionidinterface.create-sid.html)
-    
--   [SessionUpdateTimestampHandlerInterface::updateTimestamp »](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Сессии](book.session.md)
-    
--   Інтерфейс SessionUpdateTimestampHandlerInterface
-    
-
+---
+navigation:
+  - sessionidinterface.create-sid.html: '« SessionIdInterface::createsid'
+  - sessionupdatetimestamphandlerinterface.updatetimestamp.md: 'SessionUpdateTimestampHandlerInterface::updateTimestamp »'
+  - index.md: PHP Manual
+  - book.session.md: Сессии
+title: Інтерфейс SessionUpdateTimestampHandlerInterface
+---
 # Інтерфейс SessionUpdateTimestampHandlerInterface
 
 (PHP 7, PHP 8)

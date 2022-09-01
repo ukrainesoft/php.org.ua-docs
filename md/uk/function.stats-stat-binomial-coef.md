@@ -1,16 +1,11 @@
-Отримати біномінальний коефіцієнт
-
--   [« statsstandarddeviation](function.stats-standard-deviation.html)
-    
--   [statsstatcorrelation »](function.stats-stat-correlation.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Отримати біномінальний коефіцієнт
-    
-
+---
+navigation:
+  - function.stats-standard-deviation.html: « statsstandarddeviation
+  - function.stats-stat-correlation.html: statsstatcorrelation »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statsстатиbinomialcoef
+---
 # statsстатиbinomialcoef
 
 (PECL stats >= 1.0.0)

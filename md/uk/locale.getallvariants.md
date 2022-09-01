@@ -1,16 +1,11 @@
-Отримання варіантів із переданої локалі
-
--   [« Locale::filterMatches](locale.filtermatches.html)
-    
--   [Locale::getDefault »](locale.getdefault.html)
-    
--   [PHP Manual](index.html)
-    
--   [Locale](class.locale.html)
-    
--   Отримання варіантів із переданої локалі
-    
-
+---
+navigation:
+  - locale.filtermatches.html: '« Locale::filterMatches'
+  - locale.getdefault.html: 'Locale::getDefault »'
+  - index.html: PHP Manual
+  - class.locale.html: Locale
+title: 'Locale::getAllVariants'
+---
 # Locale::getAllVariants
 
 # localegetallvariants

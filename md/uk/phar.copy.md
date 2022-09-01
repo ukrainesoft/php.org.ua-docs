@@ -1,16 +1,11 @@
-Копіює один файл усередині phar-архіву в інший новий файл усередині phar-архіву
-
--   [« Phar::convertToExecutable](phar.converttoexecutable.html)
-    
--   [Phar::count »](phar.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Phar](class.phar.html)
-    
--   Копіює один файл усередині phar-архіву в інший новий файл усередині phar-архіву
-    
-
+---
+navigation:
+  - phar.converttoexecutable.html: '« Phar::convertToExecutable'
+  - phar.count.html: 'Phar::count »'
+  - index.html: PHP Manual
+  - class.phar.html: Phar
+title: 'Phar::copy'
+---
 # Phar::copy
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

@@ -1,16 +1,11 @@
-Переміщує ітератор на перший елемент верхнього рівня вкладеності внутрішнього ітератора
-
--   [« RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.md)
-    
--   [RecursiveIteratorIterator::setMaxDepth »](recursiveiteratoriterator.setmaxdepth.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-    
--   Переміщує ітератор на перший елемент верхнього рівня вкладеності внутрішнього ітератора
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.nextelement.md: '« RecursiveIteratorIterator::nextElement'
+  - recursiveiteratoriterator.setmaxdepth.md: 'RecursiveIteratorIterator::setMaxDepth »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::rewind'
+---
 # RecursiveIteratorIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)

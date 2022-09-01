@@ -1,16 +1,11 @@
-Обумовлені константи
-
--   [« Типи ресурсів](ev.resources.html)
-    
--   [Приклади »](ev.examples.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Обумовлені константи
-    
-
+---
+navigation:
+  - ev.resources.html: « Типи ресурсів
+  - ev.examples.html: Приклади »
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Обумовлені константи
+---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.

@@ -1,16 +1,11 @@
-Клас VtifulKernelФормат
-
--   [« VtifulKernelExcel::setRow](vtiful-kernel-excel.setRow.html)
-    
--   [VtifulKernelFormat::align »](vtiful-kernel-format.align.html)
-    
--   [PHP Manual](index.html)
-    
--   [XLSWriter](book.xlswriter.html)
-    
--   Клас VtifulKernelФормат
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.setRow.html: '« VtifulKernelExcel::setRow'
+  - vtiful-kernel-format.align.html: 'VtifulKernelFormat::align »'
+  - index.html: PHP Manual
+  - book.xlswriter.html: XLSWriter
+title: Клас VtifulKernelФормат
+---
 # Клас VtifulKernelФормат
 
 (PECL xlswriter >= 1.2.1)

@@ -1,16 +1,11 @@
-Реалізація за умовчанням методу autoload()
-
--   [« splautoloadunregister](function.spl-autoload-unregister.html)
-    
--   [splclasses »](function.spl-classes.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SPL](ref.spl.html)
-    
--   Реалізація за умовчанням методу autoload()
-    
-
+---
+navigation:
+  - function.spl-autoload-unregister.html: « splautoloadunregister
+  - function.spl-classes.html: splclasses »
+  - index.html: PHP Manual
+  - ref.spl.html: Функції SPL
+title: splautoload
+---
 # splautoload
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -45,6 +40,6 @@ spl_autoload(string $class, ?string $file_extensions = null): void
 
 ### список змін
 
-| Версия | Описание                                        |
-|--------|-------------------------------------------------|
-|        | `file_extensions` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `file_extensions` тепер допускає значення null. |

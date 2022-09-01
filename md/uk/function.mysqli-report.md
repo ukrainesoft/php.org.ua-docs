@@ -1,16 +1,11 @@
-Псевдонім mysqlidriver->reportmode
-
--   [« mysqligetlinksstats](function.mysqli-get-links-stats.html)
-    
--   [mysqli::setopt »](function.mysqli-set-opt.html)
-    
--   [PHP Manual](index.md)
-    
--   [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-    
--   Псевдонім mysqlidriver->reportmode
-    
-
+---
+navigation:
+  - function.mysqli-get-links-stats.html: « mysqligetlinksstats
+  - function.mysqli-set-opt.html: 'mysqli::setopt »'
+  - index.md: PHP Manual
+  - ref.mysqli.md: Синоніми та застарілі функції Mysqli
+title: mysqlireport
+---
 # mysqlireport
 
 (PHP 5, PHP 7, PHP 8)

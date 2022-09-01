@@ -1,16 +1,11 @@
-Повідомляє буферну подію розпочати перегляд SSL
-
--   [« EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.md)
-    
--   [EventBufferEvent::sslSocket »](eventbufferevent.sslsocket.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBufferEvent](class.eventbufferevent.md)
-    
--   Повідомляє буферну подію розпочати перегляд SSL
-    
-
+---
+navigation:
+  - eventbufferevent.sslgetprotocol.md: '« EventBufferEvent::sslGetProtocol'
+  - eventbufferevent.sslsocket.md: 'EventBufferEvent::sslSocket »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
+title: 'Event BufferEvent::ssl Renegotiate'
+---
 # Event BufferEvent::ssl Renegotiate
 
 (PECL event >= 1.2.6-beta)

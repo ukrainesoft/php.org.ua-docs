@@ -1,16 +1,11 @@
-Читає зображення з бінарного рядка
-
--   [« Gmagick::readimage](gmagick.readimage.html)
-    
--   [Gmagick::readimagefile »](gmagick.readimagefile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Читає зображення з бінарного рядка
-    
-
+---
+navigation:
+  - gmagick.readimage.html: '« Gmagick::readimage'
+  - gmagick.readimagefile.html: 'Gmagick::readimagefile »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::readimageblob'
+---
 # Gmagick::readimageblob
 
 (PECL gmagick >= Unknown)

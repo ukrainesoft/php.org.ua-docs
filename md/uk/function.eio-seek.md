@@ -1,16 +1,11 @@
-Переміщає файловий покажчик файлу fd на число байт offset відповідно до директиви whence
-
--   [« eiormdir](function.eio-rmdir.html)
-    
--   [eiosendfile »](function.eio-sendfile.html)
-    
--   [PHP Manual](index.html)
-    
--   [Eio Функции](ref.eio.html)
-    
--   Переміщає файловий покажчик файлу fd на число байт offset відповідно до директиви whence
-    
-
+---
+navigation:
+  - function.eio-rmdir.html: « eiormdir
+  - function.eio-sendfile.html: eiosendfile »
+  - index.html: PHP Manual
+  - ref.eio.html: Eio Функции
+title: eioseek
+---
 # eioseek
 
 (PECL eio >= 0.5.0b)

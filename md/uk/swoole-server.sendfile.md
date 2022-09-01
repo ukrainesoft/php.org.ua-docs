@@ -1,16 +1,11 @@
-Надсилає файл на з'єднання
-
--   [« SwooleServer::send](swoole-server.send.html)
-    
--   [SwooleServer::sendMessage »](swoole-server.sendmessage.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Надсилає файл на з'єднання
-    
-
+---
+navigation:
+  - swoole-server.send.html: '« SwooleServer::send'
+  - swoole-server.sendmessage.html: 'SwooleServer::sendMessage »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::sendfile'
+---
 # SwooleServer::sendfile
 
 (PECL swoole >= 1.9.0)

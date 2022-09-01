@@ -1,16 +1,11 @@
-Інтерфейс BaseResult
-
--   [« getSession](function.mysql-xdevapi-getsession.html)
-    
--   [BaseResult::getWarnings »](mysql-xdevapi-baseresult.getwarnings.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Інтерфейс BaseResult
-    
-
+---
+navigation:
+  - function.mysql-xdevapi-getsession.html: « getSession
+  - mysql-xdevapi-baseresult.getwarnings.html: 'BaseResult::getWarnings »'
+  - index.html: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Інтерфейс BaseResult
+---
 # Інтерфейс BaseResult
 
 (PECL mysql-xdevapi >= 8.0.11)

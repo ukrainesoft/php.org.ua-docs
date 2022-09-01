@@ -1,16 +1,11 @@
-Створює новий документ FDF
-
--   [« fdfclose](function.fdf-close.html)
-    
--   [fdfenumvalues »](function.fdf-enum-values.html)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](ref.fdf.md)
-    
--   Створює новий документ FDF
-    
-
+---
+navigation:
+  - function.fdf-close.html: « fdfclose
+  - function.fdf-enum-values.html: fdfenumvalues »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
+title: fdfcreate
+---
 # fdfcreate
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)

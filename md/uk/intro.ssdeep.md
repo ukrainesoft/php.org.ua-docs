@@ -1,16 +1,11 @@
-Вступ
-
--   [« ssdeep](book.ssdeep.html)
-    
--   [Встановлення та налаштування »](ssdeep.setup.html)
-    
--   [PHP Manual](index.html)
-    
--   [ssdeep](book.ssdeep.html)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.ssdeep.html: « ssdeep
+  - ssdeep.setup.html: Встановлення та налаштування »
+  - index.html: PHP Manual
+  - book.ssdeep.html: ssdeep
+title: Вступ
+---
 # Вступ
 
 ssdeep - це утиліта для створення та порівняння нечітких хешів або [» зависящее от контекста частичное хеширование](http://dfrws.org/2006/proceedings/12-Kornblum.pdf)

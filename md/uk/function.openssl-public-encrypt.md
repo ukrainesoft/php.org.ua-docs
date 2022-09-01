@@ -1,16 +1,11 @@
-Шифрування даних відкритим ключем
-
--   [« opensslpublicdecrypt](function.openssl-public-decrypt.html)
-    
--   [opensslrandompseudobytes »](function.openssl-random-pseudo-bytes.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Шифрування даних відкритим ключем
-    
-
+---
+navigation:
+  - function.openssl-public-decrypt.html: « opensslpublicdecrypt
+  - function.openssl-random-pseudo-bytes.html: opensslrandompseudobytes »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslpublicencrypt
+---
 # opensslpublicencrypt
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ openssl_public_encrypt(    string $data,    string &$encrypted_data,  
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Дивіться також
 

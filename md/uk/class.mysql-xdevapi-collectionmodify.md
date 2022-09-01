@@ -1,16 +1,11 @@
-Клас CollectionModify
-
--   [« CollectionFind::sort](mysql-xdevapi-collectionfind.sort.html)
-    
--   [CollectionModify::arrayAppend »](mysql-xdevapi-collectionmodify.arrayappend.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mysqlxdevapi](book.mysql-xdevapi.html)
-    
--   Клас CollectionModify
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.sort.html: '« CollectionFind::sort'
+  - mysql-xdevapi-collectionmodify.arrayappend.html: 'CollectionModify::arrayAppend »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.html: Mysqlxdevapi
+title: Клас CollectionModify
+---
 # Клас CollectionModify
 
 (PECL mysql-xdevapi >= 8.0.11)

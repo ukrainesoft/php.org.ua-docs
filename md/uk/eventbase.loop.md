@@ -1,16 +1,11 @@
-Надсилання очікуваних подій
-
--   [« EventBase::gotStop](eventbase.gotstop.md)
-    
--   [EventBase::priorityInit »](eventbase.priorityinit.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventBase](class.eventbase.md)
-    
--   Надсилання очікуваних подій
-    
-
+---
+navigation:
+  - eventbase.gotstop.md: '« EventBase::gotStop'
+  - eventbase.priorityinit.md: 'EventBase::priorityInit »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
+title: 'EventBase::loop'
+---
 # EventBase::loop
 
 (PECL event >= 1.2.6-beta)

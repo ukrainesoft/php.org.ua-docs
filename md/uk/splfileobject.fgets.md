@@ -1,16 +1,11 @@
-Отримує рядок із файлу
-
--   [« SplFileObject::fgetcsv](splfileobject.fgetcsv.md)
-    
--   [SplFileObject::fgetss »](splfileobject.fgetss.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Отримує рядок із файлу
-    
-
+---
+navigation:
+  - splfileobject.fgetcsv.md: '« SplFileObject::fgetcsv'
+  - splfileobject.fgetss.md: 'SplFileObject::fgetss »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::fgets'
+---
 # SplFileObject::fgets
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

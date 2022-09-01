@@ -1,16 +1,11 @@
-Створює phar-архів із файлів, розташованих усередині директорії
-
--   [« Phar::apiVersion](phar.apiversion.md)
-    
--   [Phar::buildFromIterator »](phar.buildfromiterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Створює phar-архів із файлів, розташованих усередині директорії
-    
-
+---
+navigation:
+  - phar.apiversion.md: '« Phar::apiVersion'
+  - phar.buildfromiterator.md: 'Phar::buildFromIterator »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::buildFromDirectory'
+---
 # Phar::buildFromDirectory
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
@@ -49,9 +44,9 @@ public Phar::buildFromDirectory(string $directory, string $pattern = ""): array
 
 ### список змін
 
-| Версия | Описание                                                               |
-|--------|------------------------------------------------------------------------|
-|        | **Phar::buildFromDirectory()** більше не повертає значення **`false`** |
+| Версия | Описание |
+| --- | --- |
+|  | **Phar::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 

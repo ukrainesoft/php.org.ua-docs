@@ -1,16 +1,11 @@
-Десеріалізує Regex
-
--   [« MongoDBBSONRegex::toString](mongodb-bson-regex.tostring.html)
-    
--   [MongoDBBSONTimestamp »](class.mongodb-bson-timestamp.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONRegex](class.mongodb-bson-regex.html)
-    
--   Десеріалізує Regex
-    
-
+---
+navigation:
+  - mongodb-bson-regex.tostring.html: '« MongoDBBSONRegex::toString'
+  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp »
+  - index.html: PHP Manual
+  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+title: 'MongoDBBSONRegex::unserialize'
+---
 # MongoDBBSONRegex::unserialize
 
 (mongodb >=1.2.0)

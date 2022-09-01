@@ -1,16 +1,11 @@
-Набуття статусу виконання фонового завдання
-
--   [« GearmanClient::getErrno](gearmanclient.geterrno.html)
-    
--   [GearmanClient::ping »](gearmanclient.ping.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Набуття статусу виконання фонового завдання
-    
-
+---
+navigation:
+  - gearmanclient.geterrno.html: '« GearmanClient::getErrno'
+  - gearmanclient.ping.html: 'GearmanClient::ping »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::jobStatus'
+---
 # GearmanClient::jobStatus
 
 # gearmanjobstatus

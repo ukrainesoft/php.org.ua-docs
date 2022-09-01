@@ -1,16 +1,11 @@
-Записує дані у буфер пам'яті. Пам'ять, виділена для буфера, не буде змінено
-
--   [« SwooleBuffer::toString](swoole-buffer.tostring.html)
-    
--   [SwooleChannel »](class.swoole-channel.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleBuffer](class.swoole-buffer.html)
-    
--   Записує дані у буфер пам'яті. Пам'ять, виділена для буфера, не буде змінено
-    
-
+---
+navigation:
+  - swoole-buffer.tostring.html: '« SwooleBuffer::toString'
+  - class.swoole-channel.html: SwooleChannel »
+  - index.md: PHP Manual
+  - class.swoole-buffer.html: SwooleBuffer
+title: 'SwooleBuffer::write'
+---
 # SwooleBuffer::write
 
 (PECL swoole >= 1.9.0)

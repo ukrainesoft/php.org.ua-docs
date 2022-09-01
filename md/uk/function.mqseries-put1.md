@@ -1,16 +1,11 @@
-MQSeries MQPUT1
-
--   [« mqseriesopen](function.mqseries-open.html)
-    
--   [mqseriesput »](function.mqseries-put.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции mqseries](ref.mqseries.md)
-    
--   MQSeries MQPUT1
-    
-
+---
+navigation:
+  - function.mqseries-open.html: « mqseriesopen
+  - function.mqseries-put.html: mqseriesput »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
+title: mqseriesput1
+---
 # mqseriesput1
 
 (PECL mqseries >= 0.10.0)

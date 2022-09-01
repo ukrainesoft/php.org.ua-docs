@@ -1,16 +1,11 @@
-Повертає поверхневу копію колекції
-
--   [« DsMap::construct](ds-map.construct.html)
-    
--   [ДсMap::count »](ds-map.count.html)
-    
--   [PHP Manual](index.md)
-    
--   [Коллекция пар ключ-значение](class.ds-map.html)
-    
--   Повертає поверхневу копію колекції
-    
-
+---
+navigation:
+  - ds-map.construct.html: '« DsMap::construct'
+  - ds-map.count.html: 'ДсMap::count »'
+  - index.md: PHP Manual
+  - class.ds-map.html: Коллекция пар ключ-значение
+title: 'ДсMap::copy'
+---
 # ДсMap::copy
 
 (PECL ds >= 1.0.0)

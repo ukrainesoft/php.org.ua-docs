@@ -1,16 +1,11 @@
-Повертає тривалість heartbeat у мікросекундах
-
--   [« MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError »](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
-    
--   Повертає тривалість heartbeat у мікросекундах
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.html: « MongoDBDriverMonitoringServerHeartbeatFailedEvent
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.html: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.html: MongoDBDriverMonitoringServerHeartbeatFailedEvent
+title: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros'
+---
 # MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros
 
 (mongodb >=1.13.0)

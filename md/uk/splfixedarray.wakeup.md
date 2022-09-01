@@ -1,16 +1,11 @@
-Переініціалізація масиву після десеріалізації
-
--   [« SplFixedArray::valid](splfixedarray.valid.html)
-    
--   [SplObjectStorage »](class.splobjectstorage.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplFixedArray](class.splfixedarray.html)
-    
--   Переініціалізація масиву після десеріалізації
-    
-
+---
+navigation:
+  - splfixedarray.valid.html: '« SplFixedArray::valid'
+  - class.splobjectstorage.html: SplObjectStorage »
+  - index.html: PHP Manual
+  - class.splfixedarray.html: SplFixedArray
+title: 'SplFixedArray::wakeup'
+---
 # SplFixedArray::wakeup
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

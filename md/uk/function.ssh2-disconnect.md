@@ -1,16 +1,11 @@
-Закрити з'єднання з віддаленим сервером SSH
-
--   [« ssh2connect](function.ssh2-connect.html)
-    
--   [ssh2exec »](function.ssh2-exec.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Закрити з'єднання з віддаленим сервером SSH
-    
-
+---
+navigation:
+  - function.ssh2-connect.html: « ssh2connect
+  - function.ssh2-exec.html: ssh2exec »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2disconnect
+---
 # ssh2disconnect
 
 (PECL ssh2 >= 1.0)

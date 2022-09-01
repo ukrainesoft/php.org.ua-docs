@@ -1,16 +1,11 @@
-Конструктор спостерігача EvIdle
-
--   [« EvIdle](class.evidle.md)
-    
--   [EvIdle::createStopped »](evidle.createstopped.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvIdle](class.evidle.md)
-    
--   Конструктор спостерігача EvIdle
-    
-
+---
+navigation:
+  - class.evidle.md: « EvIdle
+  - evidle.createstopped.md: 'EvIdle::createStopped »'
+  - index.md: PHP Manual
+  - class.evidle.md: EvIdle
+title: 'EvIdle::construct'
+---
 # EvIdle::construct
 
 (PECL ev >= 0.2.0)

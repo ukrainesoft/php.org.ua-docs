@@ -1,16 +1,11 @@
-Зберігає у кеш
-
--   [« Yac::info](yac.info.md)
-    
--   [Yac::set »](yac.setter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Зберігає у кеш
-    
-
+---
+navigation:
+  - yac.info.md: '« Yac::info'
+  - yac.setter.md: 'Yac::set »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::set'
+---
 # Yac::set
 
 (PECL yac >= 1.0.0)

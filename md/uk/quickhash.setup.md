@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.quickhash.md)
-    
--   [Вимоги »](quickhash.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Quickhash](book.quickhash.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.quickhash.md: « Введение
+  - quickhash.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.quickhash.md: Quickhash
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

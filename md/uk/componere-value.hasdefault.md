@@ -1,16 +1,11 @@
-Взаємодія з класом Value
-
--   [« ComponereValue::isStatic](componere-value.isstatic.html)
-    
--   [Функции Componere »](reference.componere.md)
-    
--   [PHP Manual](index.md)
-    
--   [ComponereValue](class.componere-value.html)
-    
--   Взаємодія з класом Value
-    
-
+---
+navigation:
+  - componere-value.isstatic.html: '« ComponereValue::isStatic'
+  - reference.componere.md: Функции Componere »
+  - index.md: PHP Manual
+  - class.componere-value.html: ComponereValue
+title: 'ComponereValue::hasDefault'
+---
 # ComponereValue::hasDefault
 
 (Componere 2 >= 2.1.0)

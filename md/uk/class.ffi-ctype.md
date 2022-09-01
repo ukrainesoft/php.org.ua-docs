@@ -1,16 +1,11 @@
-Доступ до типів C
-
--   [« FFICData](class.ffi-cdata.html)
-    
--   [FFICType::getAlignment »](ffi-ctype.getalignment.html)
-    
--   [PHP Manual](index.md)
-    
--   [FFI](book.ffi.md)
-    
--   Доступ до типів C
-    
-
+---
+navigation:
+  - class.ffi-cdata.html: « FFICData
+  - ffi-ctype.getalignment.html: 'FFICType::getAlignment »'
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
+title: Доступ до типів C
+---
 # Доступ до типів C
 
 (PHP 7> = 7.4.0, PHP 8)

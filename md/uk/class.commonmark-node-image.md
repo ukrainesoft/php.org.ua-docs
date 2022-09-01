@@ -1,16 +1,11 @@
-Image успадковує CommonMarkNode
-
--   [« CommonMarkNodeHTMLInline](class.commonmark-node-htmlinline.html)
-    
--   [CommonMarkNodeImage::construct »](commonmark-node-image.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   Image успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - class.commonmark-node-htmlinline.html: « CommonMarkNodeHTMLInline
+  - commonmark-node-image.construct.html: 'CommonMarkNodeImage::construct »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: Image успадковує CommonMarkNode
+---
 # Image успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

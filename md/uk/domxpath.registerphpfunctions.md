@@ -1,16 +1,11 @@
-Реєстрація PHP-функцій як функцій XPath
-
--   [« DOMXPath::registerNamespace](domxpath.registernamespace.md)
-    
--   [Функции DOM »](ref.dom.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMXPath](class.domxpath.md)
-    
--   Реєстрація PHP-функцій як функцій XPath
-    
-
+---
+navigation:
+  - domxpath.registernamespace.md: '« DOMXPath::registerNamespace'
+  - ref.dom.md: Функции DOM »
+  - index.md: PHP Manual
+  - class.domxpath.md: DOMXPath
+title: 'DOMXPath::registerPhpFunctions'
+---
 # DOMXPath::registerPhpFunctions
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

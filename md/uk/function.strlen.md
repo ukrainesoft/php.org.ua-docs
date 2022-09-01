@@ -1,16 +1,11 @@
-Повертає довжину рядка
-
--   [« stristr](function.stristr.md)
-    
--   [strnatcasecmp »](function.strnatcasecmp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з рядками](ref.strings.md)
-    
--   Повертає довжину рядка
-    
-
+---
+navigation:
+  - function.stristr.md: « stristr
+  - function.strnatcasecmp.md: strnatcasecmp »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
+title: strlen
+---
 # strlen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

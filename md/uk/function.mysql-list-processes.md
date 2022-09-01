@@ -1,16 +1,11 @@
-Повертає список процесів MySQL
-
--   [« mysqllistfields](function.mysql-list-fields.html)
-    
--   [mysqllisttables »](function.mysql-list-tables.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Повертає список процесів MySQL
-    
-
+---
+navigation:
+  - function.mysql-list-fields.html: « mysqllistfields
+  - function.mysql-list-tables.html: mysqllisttables »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqllistprocesses
+---
 # mysqllistprocesses
 
 (PHP 4> = 4.3.0, PHP 5)

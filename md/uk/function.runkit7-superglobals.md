@@ -1,16 +1,11 @@
-Повертає числовий індексований масив зареєстрованих суперглобальних змінних
-
--   [« runkit7objectід](function.runkit7-object-id.html)
-    
--   [runkit7zvalinspect »](function.runkit7-zval-inspect.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції runkit7](ref.runkit7.md)
-    
--   Повертає числовий індексований масив зареєстрованих суперглобальних змінних
-    
-
+---
+navigation:
+  - function.runkit7-object-id.html: « runkit7objectід
+  - function.runkit7-zval-inspect.html: runkit7zvalinspect »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
+title: runkit7superglobals
+---
 # runkit7superglobals
 
 (PECL runkit7> = Unknown)

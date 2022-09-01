@@ -1,16 +1,11 @@
-Псевдонім ocifetch
-
--   [« ociexecute](function.ociexecute.md)
-    
--   [ocifetchinto »](function.ocifetchinto.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocifetch
-    
-
+---
+navigation:
+  - function.ociexecute.md: « ociexecute
+  - function.ocifetchinto.md: ocifetchinto »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ocifetch
+---
 # ocifetch
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

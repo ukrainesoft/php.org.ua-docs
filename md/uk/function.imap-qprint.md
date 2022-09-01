@@ -1,16 +1,11 @@
-Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
-
--   [« imapping](function.imap-ping.html)
-    
--   [imaprename »](function.imap-rename.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции IMAP](ref.imap.html)
-    
--   Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
-    
-
+---
+navigation:
+  - function.imap-ping.html: « imapping
+  - function.imap-rename.html: imaprename »
+  - index.html: PHP Manual
+  - ref.imap.html: Функции IMAP
+title: imapqprint
+---
 # imapqprint
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

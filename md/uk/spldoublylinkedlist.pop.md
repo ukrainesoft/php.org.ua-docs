@@ -1,16 +1,11 @@
-Видаляє (виштовхує) вузол, що знаходиться наприкінці двозв'язкового списку
-
--   [« SplDoublyLinkedList::offsetUnset](spldoublylinkedlist.offsetunset.md)
-    
--   [SplDoublyLinkedList::prev »](spldoublylinkedlist.prev.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-    
--   Видаляє (виштовхує) вузол, що знаходиться наприкінці двозв'язкового списку
-    
-
+---
+navigation:
+  - spldoublylinkedlist.offsetunset.md: '« SplDoublyLinkedList::offsetUnset'
+  - spldoublylinkedlist.prev.md: 'SplDoublyLinkedList::prev »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::pop'
+---
 # SplDoublyLinkedList::pop
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

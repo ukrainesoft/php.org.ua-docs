@@ -1,16 +1,11 @@
-Повертає колекцію в JSON-представництві
-
--   [« DsStack::isEmpty](ds-stack.isempty.html)
-    
--   [ДсStack::peek »](ds-stack.peek.html)
-    
--   [PHP Manual](index.md)
-    
--   [Стек](class.ds-stack.html)
-    
--   Повертає колекцію в JSON-представництві
-    
-
+---
+navigation:
+  - ds-stack.isempty.html: '« DsStack::isEmpty'
+  - ds-stack.peek.html: 'ДсStack::peek »'
+  - index.md: PHP Manual
+  - class.ds-stack.html: Стек
+title: 'ДсStack::jsonSerialize'
+---
 # ДсStack::jsonSerialize
 
 (PECL ds >= 1.0.0)

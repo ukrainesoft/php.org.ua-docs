@@ -1,16 +1,11 @@
-Отримує ReflectionClassConstant для константи класу
-
--   [« ReflectionClass::getProperty](reflectionclass.getproperty.html)
-    
--   [ReflectionClass::getReflectionConstants »](reflectionclass.getreflectionconstants.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionClass](class.reflectionclass.html)
-    
--   Отримує ReflectionClassConstant для константи класу
-    
-
+---
+navigation:
+  - reflectionclass.getproperty.html: '« ReflectionClass::getProperty'
+  - reflectionclass.getreflectionconstants.html: 'ReflectionClass::getReflectionConstants »'
+  - index.html: PHP Manual
+  - class.reflectionclass.html: ReflectionClass
+title: 'ReflectionClass::getReflectionConstant'
+---
 # ReflectionClass::getReflectionConstant
 
 (PHP 7> = 7.1.0, PHP 8)

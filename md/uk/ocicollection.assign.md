@@ -1,16 +1,11 @@
-Надає колекції значення іншої, вже існуючої колекції
-
--   [« OCICollection::append](ocicollection.append.md)
-    
--   [OCICollection::assignElem »](ocicollection.assignelem.md)
-    
--   [PHP Manual](index.md)
-    
--   [OCICollection](class.ocicollection.md)
-    
--   Надає колекції значення іншої, вже існуючої колекції
-    
-
+---
+navigation:
+  - ocicollection.append.md: '« OCICollection::append'
+  - ocicollection.assignelem.md: 'OCICollection::assignElem »'
+  - index.md: PHP Manual
+  - class.ocicollection.md: OCICollection
+title: 'OCICollection::assign'
+---
 # OCICollection::assign
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
@@ -37,8 +32,8 @@ public OCICollection::assign(OCICollection $from): bool
 
 ### список змін
 
-| Версия                 | Описание                                                                                                                   |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також

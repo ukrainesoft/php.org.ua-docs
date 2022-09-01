@@ -1,16 +1,11 @@
-Встановлення символів підстановки
-
--   [« UConverter::setSourceEncoding](uconverter.setsourceencoding.md)
-    
--   [UConverter::toUCallback »](uconverter.toucallback.md)
-    
--   [PHP Manual](index.md)
-    
--   [UConverter](class.uconverter.md)
-    
--   Встановлення символів підстановки
-    
-
+---
+navigation:
+  - uconverter.setsourceencoding.md: '« UConverter::setSourceEncoding'
+  - uconverter.toucallback.md: 'UConverter::toUCallback »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
+title: 'UConverter::setSubstChars'
+---
 # UConverter::setSubstChars
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

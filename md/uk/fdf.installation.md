@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](fdf.requirements.md)
-    
--   [Налаштування під час виконання »](fdf.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](fdf.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - fdf.requirements.md: « Вимоги
+  - fdf.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - fdf.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль не підтримується і вважається померлим. Однак його вихідний код все ще доступний у PECL SVN ось тут: [» https://svn.php.net/viewvc/pecl/fdf](https://svn.php.net/viewvc/pecl/fdf)

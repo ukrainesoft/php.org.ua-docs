@@ -1,16 +1,11 @@
-Повертає батьківський клас
-
--   [« ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md)
-    
--   [ReflectionClass::getProperties »](reflectionclass.getproperties.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Повертає батьківський клас
-    
-
+---
+navigation:
+  - reflectionclass.getnamespacename.md: '« ReflectionClass::getNamespaceName'
+  - reflectionclass.getproperties.md: 'ReflectionClass::getProperties »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::getParentClass'
+---
 # ReflectionClass::getParentClass
 
 (PHP 5, PHP 7, PHP 8)

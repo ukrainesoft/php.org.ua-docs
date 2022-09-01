@@ -1,16 +1,11 @@
-Стискає рядок з використанням bzip2
-
--   [« bzclose](function.bzclose.md)
-    
--   [bzdecompress »](function.bzdecompress.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Стискає рядок з використанням bzip2
-    
-
+---
+navigation:
+  - function.bzclose.md: « bzclose
+  - function.bzdecompress.md: bzdecompress »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzcompress
+---
 # bzcompress
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

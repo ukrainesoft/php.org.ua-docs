@@ -1,16 +1,11 @@
-Отримує значення inode поточного скрипту
-
--   [« getmygid](function.getmygid.md)
-    
--   [getmypid »](function.getmypid.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримує значення inode поточного скрипту
-    
-
+---
+navigation:
+  - function.getmygid.md: « getmygid
+  - function.getmypid.md: getmypid »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getmyinode
+---
 # getmyinode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

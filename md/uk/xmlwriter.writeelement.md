@@ -1,16 +1,11 @@
-Записати повний тег елемента
-
--   [« XMLWriter::writeDtdEntity](xmlwriter.writedtdentity.html)
-    
--   [XMLWriter::writeElementNs »](xmlwriter.writeelementns.html)
-    
--   [PHP Manual](index.html)
-    
--   [XMLWriter](class.xmlwriter.html)
-    
--   Записати повний тег елемента
-    
-
+---
+navigation:
+  - xmlwriter.writedtdentity.html: '« XMLWriter::writeDtdEntity'
+  - xmlwriter.writeelementns.html: 'XMLWriter::writeElementNs »'
+  - index.html: PHP Manual
+  - class.xmlwriter.html: XMLWriter
+title: 'XMLWriter::writeElement'
+---
 # XMLWriter::writeElement
 
 # xmlwriterwriteelement
@@ -55,9 +50,9 @@ xmlwriter_write_element(XMLWriter $writer, string $name, ?string $content = null
 
 ### список змін
 
-| Версия | Описание                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

@@ -1,16 +1,11 @@
-Повертає поточний елемент
-
--   [« MongoDBDriverCursor::construct](mongodb-driver-cursor.construct.html)
-    
--   [MongoDBDriverCursor::getId »](mongodb-driver-cursor.getid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.html)
-    
--   Повертає поточний елемент
-    
-
+---
+navigation:
+  - mongodb-driver-cursor.construct.html: '« MongoDBDriverCursor::construct'
+  - mongodb-driver-cursor.getid.html: 'MongoDBDriverCursor::getId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+title: 'MongoDBDriverCursor::current'
+---
 # MongoDBDriverCursor::current
 
 (mongodb >=1.9.0)

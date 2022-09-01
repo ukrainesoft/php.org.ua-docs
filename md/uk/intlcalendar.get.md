@@ -1,16 +1,11 @@
-Отримує значення поля
-
--   [« IntlCalendar::fromDateTime](intlcalendar.fromdatetime.md)
-    
--   [IntlCalendar::getActualMaximum »](intlcalendar.getactualmaximum.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує значення поля
-    
-
+---
+navigation:
+  - intlcalendar.fromdatetime.md: '« IntlCalendar::fromDateTime'
+  - intlcalendar.getactualmaximum.md: 'IntlCalendar::getActualMaximum »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::get'
+---
 # IntlCalendar::get
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

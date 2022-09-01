@@ -1,16 +1,11 @@
-Налаштування під час виконання
-
--   [« Установка](apcu.installation.md)
-    
--   [Типи ресурсів »](apcu.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](apcu.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - apcu.installation.md: « Установка
+  - apcu.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - apcu.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
@@ -25,21 +20,21 @@
 
 **Опції конфігурації APCu**
 
-| Имя                                                                     | По умолчанию | Место изменения | Список изменений                                        |
-|-------------------------------------------------------------------------|--------------|-----------------|---------------------------------------------------------|
-| [apc.enabled](apcu.configuration.html#ini.apcu.enabled)                 | "1"          | PHPINISYSTEM    |                                                         |
-| [apc.shmsegments](apcu.configuration.html#ini.apcu.shm-segments)        | "1"          | PHPINISYSTEM    |                                                         |
-| [apc.shmsize](apcu.configuration.html#ini.apcu.shm-size)                | "32M"        | PHPINISYSTEM    |                                                         |
-| [apc.entrieshint](apcu.configuration.html#ini.apcu.entries-hint)        | "4096"       | PHPINISYSTEM    |                                                         |
-| [apc.ttl](apcu.configuration.html#ini.apcu.ttl)                         | "0"          | PHPINISYSTEM    |                                                         |
-| [apc.gcttl](apcu.configuration.html#ini.apcu.gc-ttl)                    | "3600"       | PHPINISYSTEM    |                                                         |
-| [apc.mmapfilemask](apcu.configuration.html#ini.apcu.mmap-file-mask)     | NULL         | PHPINISYSTEM    |                                                         |
-| [apc.slamdefense](apcu.configuration.html#ini.apcu.slam-defense)        | "1"          | PHPINISYSTEM    |                                                         |
-| [apc.enablecli](apcu.configuration.html#ini.apcu.enable-cli)            | "0"          | PHPINISYSTEM    |                                                         |
-| [apc.userequesttime](apcu.configuration.html#ini.apcu.use-request-time) | "0"          | PHPINIALL       | До APCu 5.1.19 значення за промовчанням було "1".       |
-| [apc.serializer](apcu.configuration.html#ini.apcu.serializer)           | "php"        | PHPINISYSTEM    | До APCu 5.1.19 значення за промовчанням було "default". |
-| [apc.coredumpunmap](apcu.configuration.html#ini.apcu.coredump-unmap)    | "0"          | PHPINISYSTEM    |                                                         |
-| [apc.preloadpath](apcu.configuration.html#ini.apcu.preload-path)        | NULL         | PHPINISYSTEM    |                                                         |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [apc.enabled](apcu.configuration.html#ini.apcu.enabled) | "1" | PHPINISYSTEM |  |
+| [apc.shmsegments](apcu.configuration.html#ini.apcu.shm-segments) | "1" | PHPINISYSTEM |  |
+| [apc.shmsize](apcu.configuration.html#ini.apcu.shm-size) | "32M" | PHPINISYSTEM |  |
+| [apc.entrieshint](apcu.configuration.html#ini.apcu.entries-hint) | "4096" | PHPINISYSTEM |  |
+| [apc.ttl](apcu.configuration.html#ini.apcu.ttl) | "0" | PHPINISYSTEM |  |
+| [apc.gcttl](apcu.configuration.html#ini.apcu.gc-ttl) | "3600" | PHPINISYSTEM |  |
+| [apc.mmapfilemask](apcu.configuration.html#ini.apcu.mmap-file-mask) | NULL | PHPINISYSTEM |  |
+| [apc.slamdefense](apcu.configuration.html#ini.apcu.slam-defense) | "1" | PHPINISYSTEM |  |
+| [apc.enablecli](apcu.configuration.html#ini.apcu.enable-cli) | "0" | PHPINISYSTEM |  |
+| [apc.userequesttime](apcu.configuration.html#ini.apcu.use-request-time) | "0" | PHPINIALL | До APCu 5.1.19 значення за промовчанням було "1". |
+| [apc.serializer](apcu.configuration.html#ini.apcu.serializer) | "php" | PHPINISYSTEM | До APCu 5.1.19 значення за промовчанням було "default". |
+| [apc.coredumpunmap](apcu.configuration.html#ini.apcu.coredump-unmap) | "0" | PHPINISYSTEM |  |
+| [apc.preloadpath](apcu.configuration.html#ini.apcu.preload-path) | NULL | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

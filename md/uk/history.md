@@ -1,16 +1,11 @@
-Історія PHP та суміжних проектів
-
--   [« Appendices](appendices.html)
-    
--   [Історія PHP »](history.php.html)
-    
--   [PHP Manual](index.html)
-    
--   [Appendices](appendices.html)
-    
--   Історія PHP та суміжних проектів
-    
-
+---
+navigation:
+  - appendices.html: « Appendices
+  - history.php.html: Історія PHP »
+  - index.html: PHP Manual
+  - appendices.html: Appendices
+title: Історія PHP та суміжних проектів
+---
 # Історія PHP та суміжних проектів
 
 ## Зміст

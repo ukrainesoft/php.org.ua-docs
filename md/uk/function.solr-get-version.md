@@ -1,16 +1,11 @@
-Повертає поточну версію Apache Solr
-
--   [« Функции Solr](ref.solr.md)
-    
--   [Приклади »](solr.examples.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Solr](ref.solr.md)
-    
--   Повертає поточну версію Apache Solr
-    
-
+---
+navigation:
+  - ref.solr.md: « Функции Solr
+  - solr.examples.md: Приклади »
+  - index.md: PHP Manual
+  - ref.solr.md: Функции Solr
+title: solrgetversion
+---
 # solrgetversion
 
 (PECL solr> = 0.9.1)

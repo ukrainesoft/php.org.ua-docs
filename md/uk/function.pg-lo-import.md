@@ -1,16 +1,11 @@
-Імпорт великого об'єкта з файлу
-
--   [« pgлоexport](function.pg-lo-export.html)
-    
--   [пглоopen »](function.pg-lo-open.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Імпорт великого об'єкта з файлу
-    
-
+---
+navigation:
+  - function.pg-lo-export.html: « pgлоexport
+  - function.pg-lo-open.html: пглоopen »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пглоimport
+---
 # пглоimport
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -55,9 +50,9 @@ OID створеного великого об'єкта або **`false`** у р
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

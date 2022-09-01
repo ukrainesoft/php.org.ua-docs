@@ -1,16 +1,11 @@
-Читає зображення з файлу
-
--   [« Imagick::randomThresholdImage](imagick.randomthresholdimage.md)
-    
--   [Imagick::readImageBlob »](imagick.readimageblob.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Читає зображення з файлу
-    
-
+---
+navigation:
+  - imagick.randomthresholdimage.md: '« Imagick::randomThresholdImage'
+  - imagick.readimageblob.md: 'Imagick::readImageBlob »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::readImage'
+---
 # Imagick::readImage
 
 (PECL imagick 2, PECL imagick 3)

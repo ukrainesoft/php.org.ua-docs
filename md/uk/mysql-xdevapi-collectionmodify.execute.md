@@ -1,16 +1,11 @@
-Виконує операцію зміни
-
--   [« CollectionModify::construct](mysql-xdevapi-collectionmodify.construct.html)
-    
--   [CollectionModify::limit »](mysql-xdevapi-collectionmodify.limit.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionModify](class.mysql-xdevapi-collectionmodify.html)
-    
--   Виконує операцію зміни
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionmodify.construct.html: '« CollectionModify::construct'
+  - mysql-xdevapi-collectionmodify.limit.html: 'CollectionModify::limit »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+title: 'CollectionModify::execute'
+---
 # CollectionModify::execute
 
 (No version information available, might only be in Git)

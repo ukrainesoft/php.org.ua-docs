@@ -1,16 +1,11 @@
-Псевдонім ibaserestore
-
--   [« fbirdquery](function.fbird-query.html)
-    
--   [fbirdrollbackret »](function.fbird-rollback-ret.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Firebird/InterBase](ref.ibase.md)
-    
--   Псевдонім ibaserestore
-    
-
+---
+navigation:
+  - function.fbird-query.html: « fbirdquery
+  - function.fbird-rollback-ret.html: fbirdrollbackret »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
+title: fbirdrestore
+---
 # fbirdrestore
 
 (PHP 5, PHP 7 < 7.4.0)

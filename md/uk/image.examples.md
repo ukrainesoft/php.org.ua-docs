@@ -1,16 +1,11 @@
-Приклади
-
--   [« Обумовлені константи](image.constants.html)
-    
--   [Створення PNG засобами PHP »](image.examples-png.html)
-    
--   [PHP Manual](index.html)
-    
--   [ДД](book.image.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - image.constants.html: « Обумовлені константи
+  - image.examples-png.html: Створення PNG засобами PHP »
+  - index.html: PHP Manual
+  - book.image.html: ДД
+title: Приклади
+---
 # Приклади
 
 ## Зміст

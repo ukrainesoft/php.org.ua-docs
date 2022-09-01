@@ -1,16 +1,11 @@
-Виводить зображення у браузер або пише у файл
-
--   [« imageistruecolor](function.imageistruecolor.md)
-    
--   [imagelayereffect »](function.imagelayereffect.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Виводить зображення у браузер або пише у файл
-    
-
+---
+navigation:
+  - function.imageistruecolor.md: « imageistruecolor
+  - function.imagelayereffect.md: imagelayereffect »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagejpeg
+---
 # imagejpeg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -49,9 +44,9 @@ imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

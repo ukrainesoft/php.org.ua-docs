@@ -1,16 +1,11 @@
-Відкрити запечатані дані
-
--   [« opensslgetpublickey](function.openssl-get-publickey.html)
-    
--   [opensslpbkdf2 »](function.openssl-pbkdf2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Відкрити запечатані дані
-    
-
+---
+navigation:
+  - function.openssl-get-publickey.html: « opensslgetpublickey
+  - function.openssl-pbkdf2.html: opensslpbkdf2 »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslopen
+---
 # opensslopen
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ openssl_open(    string $data,    string &$output,    string $encryp
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
-|        | `cipher_algo` більше не є необов'язковим параметром.                                                                                                                                                                                                                 |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
+|  | `cipher_algo` більше не є необов'язковим параметром. |
 
 ### Приклади
 

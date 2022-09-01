@@ -1,16 +1,11 @@
-Клас Thread
-
--   [« Threaded::wait](threaded.wait.md)
-    
--   [Thread::getCreatorId »](thread.getcreatorid.md)
-    
--   [PHP Manual](index.md)
-    
--   [pthreads](book.pthreads.md)
-    
--   Клас Thread
-    
-
+---
+navigation:
+  - threaded.wait.md: '« Threaded::wait'
+  - thread.getcreatorid.md: 'Thread::getCreatorId »'
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
+title: Клас Thread
+---
 # Клас Thread
 
 (PECL pthreads >= 2.0.0)

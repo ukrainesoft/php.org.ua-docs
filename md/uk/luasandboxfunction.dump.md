@@ -1,16 +1,11 @@
-Вивантажує функцію у вигляді BLOB
-
--   [« LuaSandboxFunction::construct](luasandboxfunction.construct.html)
-    
--   [LuaSandboxError »](class.luasandboxerror.html)
-    
--   [PHP Manual](index.html)
-    
--   [LuaSandboxFunction](class.luasandboxfunction.html)
-    
--   Вивантажує функцію у вигляді BLOB
-    
-
+---
+navigation:
+  - luasandboxfunction.construct.html: '« LuaSandboxFunction::construct'
+  - class.luasandboxerror.html: LuaSandboxError »
+  - index.html: PHP Manual
+  - class.luasandboxfunction.html: LuaSandboxFunction
+title: 'LuaSandboxFunction::dump'
+---
 # LuaSandboxFunction::dump
 
 (PECL luasandbox >= 1.0.0)

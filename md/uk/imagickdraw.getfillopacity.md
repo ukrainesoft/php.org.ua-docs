@@ -1,16 +1,11 @@
-Повертає непрозорість, що використовується при малюванні
-
--   [« ImagickDraw::getFillColor](imagickdraw.getfillcolor.md)
-    
--   [ImagickDraw::getFillRule »](imagickdraw.getfillrule.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Повертає непрозорість, що використовується при малюванні
-    
-
+---
+navigation:
+  - imagickdraw.getfillcolor.md: '« ImagickDraw::getFillColor'
+  - imagickdraw.getfillrule.md: 'ImagickDraw::getFillRule »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::getFillOpacity'
+---
 # ImagickDraw::getFillOpacity
 
 (PECL imagick 2, PECL imagick 3)

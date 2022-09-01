@@ -1,16 +1,11 @@
-Обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
-
--   [« arrayintersectkey](function.array-intersect-key.html)
-    
--   [arrayintersectukey »](function.array-intersect-ukey.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Обчислює сходження масивів з додатковою перевіркою індексу, що здійснюється за допомогою callback-функції
-    
-
+---
+navigation:
+  - function.array-intersect-key.html: « arrayintersectkey
+  - function.array-intersect-ukey.html: arrayintersectukey »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arrayintersectuassoc
+---
 # arrayintersectuassoc
 
 (PHP 5, PHP 7, PHP 8)

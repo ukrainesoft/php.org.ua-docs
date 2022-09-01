@@ -1,16 +1,11 @@
-Захоплює зображення з екрану
-
--   [« imagegif](function.imagegif.md)
-    
--   [imagegrabwindow »](function.imagegrabwindow.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Захоплює зображення з екрану
-    
-
+---
+navigation:
+  - function.imagegif.md: « imagegif
+  - function.imagegrabwindow.md: imagegrabwindow »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagegrabscreen
+---
 # imagegrabscreen
 
 (PHP 5> = 5.2.2, PHP 7, PHP 8)
@@ -39,9 +34,9 @@ imagegrabscreen(): GdImage|false
 
 ### список змін
 
-| Версия | Описание                                                                                                                      |
-|--------|-------------------------------------------------------------------------------------------------------------------------------|
-|        | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

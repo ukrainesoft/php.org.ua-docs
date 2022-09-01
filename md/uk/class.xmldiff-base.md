@@ -1,16 +1,11 @@
-Клас XMLDiffBase
-
--   [« Установка](xmldiff.installation.md)
-    
--   [XMLDiffBase::construct »](xmldiff-base.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [XMLDiff](book.xmldiff.md)
-    
--   Клас XMLDiffBase
-    
-
+---
+navigation:
+  - xmldiff.installation.md: « Установка
+  - xmldiff-base.construct.html: 'XMLDiffBase::construct »'
+  - index.md: PHP Manual
+  - book.xmldiff.md: XMLDiff
+title: Клас XMLDiffBase
+---
 # Клас XMLDiffBase
 
 (PECL xmldiff >= 0.8.0)

@@ -1,16 +1,11 @@
-Дозволяє змінити користувача підключеного до бази даних
-
--   [« mysqli::begintransaction](mysqli.begin-transaction.html)
-    
--   [mysqli::charactersetname »](mysqli.character-set-name.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Дозволяє змінити користувача підключеного до бази даних
-    
-
+---
+navigation:
+  - mysqli.begin-transaction.html: '« mysqli::begintransaction'
+  - mysqli.character-set-name.html: 'mysqli::charactersetname »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::changeuser'
+---
 # mysqli::changeuser
 
 # mysqlichangeuser

@@ -1,16 +1,11 @@
-Перевірити, чи є у файлу метадані
-
--   [« PharFileInfo::getPharFlags](pharfileinfo.getpharflags.md)
-    
--   [PharFileInfo::isCRCChecked »](pharfileinfo.iscrcchecked.md)
-    
--   [PHP Manual](index.md)
-    
--   [PharFileInfo](class.pharfileinfo.md)
-    
--   Перевірити, чи є у файлу метадані
-    
-
+---
+navigation:
+  - pharfileinfo.getpharflags.md: '« PharFileInfo::getPharFlags'
+  - pharfileinfo.iscrcchecked.md: 'PharFileInfo::isCRCChecked »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
+title: 'PharFileInfo::hasMetadata'
+---
 # PharFileInfo::hasMetadata
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.2.0)

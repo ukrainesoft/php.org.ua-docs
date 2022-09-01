@@ -1,16 +1,11 @@
-Знищує клієнт Swoole
-
--   [« SwooleClient::construct](swoole-client.construct.html)
-    
--   [SwooleClient::getpeername »](swoole-client.getpeername.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleClient](class.swoole-client.html)
-    
--   Знищує клієнт Swoole
-    
-
+---
+navigation:
+  - swoole-client.construct.html: '« SwooleClient::construct'
+  - swoole-client.getpeername.html: 'SwooleClient::getpeername »'
+  - index.md: PHP Manual
+  - class.swoole-client.html: SwooleClient
+title: 'SwooleClient::destruct'
+---
 # SwooleClient::destruct
 
 (PECL swoole >= 1.9.0)

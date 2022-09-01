@@ -1,16 +1,11 @@
-Функції роботи з класами та об'єктами
-
--   [« Приклади](classobj.examples.md)
-    
--   [autoload »](function.autoload.md)
-    
--   [PHP Manual](index.md)
-    
--   [Класи та об'єкти](book.classobj.md)
-    
--   Функції роботи з класами та об'єктами
-    
-
+---
+navigation:
+  - classobj.examples.md: « Приклади
+  - function.autoload.md: autoload »
+  - index.md: PHP Manual
+  - book.classobj.md: Класи та об'єкти
+title: Функції роботи з класами та об'єктами
+---
 # Функції роботи з класами та об'єктами
 
 ## Зміст

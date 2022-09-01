@@ -1,16 +1,11 @@
-Отримує кількість стовпців
-
--   [« RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.html)
-    
--   [RowResult::getColumnNames »](mysql-xdevapi-rowresult.getcolumnnames.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiRowResult](class.mysql-xdevapi-rowresult.html)
-    
--   Отримує кількість стовпців
-    
-
+---
+navigation:
+  - mysql-xdevapi-rowresult.fetchone.html: '« RowResult::fetchOne'
+  - mysql-xdevapi-rowresult.getcolumnnames.html: 'RowResult::getColumnNames »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+title: 'RowResult::getColumnsCount'
+---
 # RowResult::getColumnsCount
 
 (No version information available, might only be in Git)
@@ -35,9 +30,9 @@ public mysql_xdevapi\RowResult::getColumnsCount(): int
 
 ### список змін
 
-| Версия | Описание                                                      |
-|--------|---------------------------------------------------------------|
-|        | Метод перейменований з getColumnCount() на getColumnsCount(). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод перейменований з getColumnCount() на getColumnsCount(). |
 
 ### Приклади
 

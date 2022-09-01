@@ -1,16 +1,11 @@
-Створює спеціальний або звичайний файл
-
--   [« eiomkdir](function.eio-mkdir.html)
-    
--   [eionop »](function.eio-nop.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Створює спеціальний або звичайний файл
-    
-
+---
+navigation:
+  - function.eio-mkdir.html: « eiomkdir
+  - function.eio-nop.html: eionop »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eiomknod
+---
 # eiomknod
 
 (PECL eio >= 0.0.1dev)

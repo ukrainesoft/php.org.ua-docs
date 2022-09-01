@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.fdf.md)
-    
--   [Вимоги »](fdf.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [FDF](book.fdf.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.fdf.md: « Введение
+  - fdf.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.fdf.md: FDF
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

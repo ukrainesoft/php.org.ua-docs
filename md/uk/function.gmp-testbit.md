@@ -1,16 +1,11 @@
-Перевірка, чи встановлений біт в 1
-
--   [« gmpsub](function.gmp-sub.html)
-    
--   [gmpxor »](function.gmp-xor.html)
-    
--   [PHP Manual](index.html)
-    
--   [GMP Функції](ref.gmp.html)
-    
--   Перевірка, чи встановлений біт в 1
-    
-
+---
+navigation:
+  - function.gmp-sub.html: « gmpsub
+  - function.gmp-xor.html: gmpxor »
+  - index.html: PHP Manual
+  - ref.gmp.html: GMP Функції
+title: gmptestbit
+---
 # gmptestbit
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

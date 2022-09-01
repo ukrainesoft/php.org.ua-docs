@@ -1,16 +1,11 @@
-Створює новий об'єкт класу DOM Entity Reference
-
--   [« DOMEntityReference](class.domentityreference.md)
-    
--   [DOMException »](class.domexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMEntityReference](class.domentityreference.md)
-    
--   Створює новий об'єкт класу DOM Entity Reference
-    
-
+---
+navigation:
+  - class.domentityreference.md: « DOMEntityReference
+  - class.domexception.md: DOMException »
+  - index.md: PHP Manual
+  - class.domentityreference.md: DOMEntityReference
+title: 'DOMEntityReference::construct'
+---
 # DOMEntityReference::construct
 
 (PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає шлях до поточного елементу DirectoryIterator без імені файлу
-
--   [« DirectoryIterator::getOwner](directoryiterator.getowner.md)
-    
--   [DirectoryIterator::getPathname »](directoryiterator.getpathname.md)
-    
--   [PHP Manual](index.md)
-    
--   [DirectoryIterator](class.directoryiterator.md)
-    
--   Повертає шлях до поточного елементу DirectoryIterator без імені файлу
-    
-
+---
+navigation:
+  - directoryiterator.getowner.md: '« DirectoryIterator::getOwner'
+  - directoryiterator.getpathname.md: 'DirectoryIterator::getPathname »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
+title: 'DirectoryIterator::getPath'
+---
 # DirectoryIterator::getPath
 
 (PHP 5, PHP 7, PHP 8)

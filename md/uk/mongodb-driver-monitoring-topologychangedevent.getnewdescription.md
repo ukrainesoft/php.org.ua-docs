@@ -1,16 +1,11 @@
-Повертає новий опис топології
-
--   [« MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
-    
--   [MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription »](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.html)
-    
--   Повертає новий опис топології
-    
-
+---
+navigation:
+  - class.mongodb-driver-monitoring-topologychangedevent.html: « MongoDBDriverMonitoringTopologyChangedEvent
+  - mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.html: 'MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription »'
+  - index.html: PHP Manual
+  - class.mongodb-driver-monitoring-topologychangedevent.html: MongoDBDriverMonitoringTopologyChangedEvent
+title: 'MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription'
+---
 # MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription
 
 (mongodb >=1.13.0)

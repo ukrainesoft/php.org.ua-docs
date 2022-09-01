@@ -1,16 +1,11 @@
-Визначає, чи містить рядок заданий підрядок
-
--   [« sscanf](function.sscanf.html)
-    
--   [strendswith »](function.str-ends-with.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з рядками](ref.strings.html)
-    
--   Визначає, чи містить рядок заданий підрядок
-    
-
+---
+navigation:
+  - function.sscanf.html: « sscanf
+  - function.str-ends-with.html: strendswith »
+  - index.html: PHP Manual
+  - ref.strings.html: Функції для роботи з рядками
+title: strcontains
+---
 # strcontains
 
 (PHP 8)

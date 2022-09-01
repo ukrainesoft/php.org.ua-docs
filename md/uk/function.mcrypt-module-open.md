@@ -1,16 +1,11 @@
-Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
-
--   [« mcryptmoduleісblockmode](function.mcrypt-module-is-block-mode.html)
-    
--   [mcryptmoduleselftest »](function.mcrypt-module-self-test.html)
-    
--   [PHP Manual](index.md)
-    
--   [Mcrypt](ref.mcrypt.md)
-    
--   Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
-    
-
+---
+navigation:
+  - function.mcrypt-module-is-block-mode.html: « mcryptmoduleісblockmode
+  - function.mcrypt-module-self-test.html: mcryptmoduleselftest »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
+title: mcryptmoduleopen
+---
 # mcryptmoduleopen
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)

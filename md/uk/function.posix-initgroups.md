@@ -1,16 +1,11 @@
-Визначає рівень доступу для групи
-
--   [« posixgetuid](function.posix-getuid.html)
-    
--   [posixisatty »](function.posix-isatty.html)
-    
--   [PHP Manual](index.html)
-    
--   [POSIX Функции](ref.posix.html)
-    
--   Визначає рівень доступу для групи
-    
-
+---
+navigation:
+  - function.posix-getuid.html: « posixgetuid
+  - function.posix-isatty.html: posixisatty »
+  - index.html: PHP Manual
+  - ref.posix.html: POSIX Функции
+title: posixinitgroups
+---
 # posixinitgroups
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Клас LuaClosure
-
--   [« Lua::registerCallback](lua.registercallback.md)
-    
--   [LuaClosure::invoke »](luaclosure.invoke.md)
-    
--   [PHP Manual](index.md)
-    
--   [Lua](book.lua.md)
-    
--   Клас LuaClosure
-    
-
+---
+navigation:
+  - lua.registercallback.md: '« Lua::registerCallback'
+  - luaclosure.invoke.md: 'LuaClosure::invoke »'
+  - index.md: PHP Manual
+  - book.lua.md: Lua
+title: Клас LuaClosure
+---
 # Клас LuaClosure
 
 (PECL lua> = 0.9.0)

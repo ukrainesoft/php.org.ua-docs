@@ -1,16 +1,11 @@
-Встановлює фільтр поля документа
-
--   [« CollectionFind::execute](mysql-xdevapi-collectionfind.execute.html)
-    
--   [CollectionFind::groupBy »](mysql-xdevapi-collectionfind.groupby.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollectionFind](class.mysql-xdevapi-collectionfind.html)
-    
--   Встановлює фільтр поля документа
-    
-
+---
+navigation:
+  - mysql-xdevapi-collectionfind.execute.html: '« CollectionFind::execute'
+  - mysql-xdevapi-collectionfind.groupby.html: 'CollectionFind::groupBy »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+title: 'CollectionFind::fields'
+---
 # CollectionFind::fields
 
 (No version information available, might only be in Git)

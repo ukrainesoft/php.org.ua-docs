@@ -1,16 +1,11 @@
-HTMLBlock успадковує CommonMarkNode
-
--   [« CommonMarkNodeCodeBlock::construct](commonmark-node-codeblock.construct.html)
-    
--   [CommonMarkNodeHTMLInline »](class.commonmark-node-htmlinline.html)
-    
--   [PHP Manual](index.md)
-    
--   [CommonMark](book.cmark.md)
-    
--   HTMLBlock успадковує CommonMarkNode
-    
-
+---
+navigation:
+  - commonmark-node-codeblock.construct.html: '« CommonMarkNodeCodeBlock::construct'
+  - class.commonmark-node-htmlinline.html: CommonMarkNodeHTMLInline »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
+title: HTMLBlock успадковує CommonMarkNode
+---
 # HTMLBlock успадковує CommonMarkNode
 
 (cmark >= 1.0.0)

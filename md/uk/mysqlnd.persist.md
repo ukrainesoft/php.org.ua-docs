@@ -1,16 +1,11 @@
-Постійне з'єднання
-
--   [« Несумісності](mysqlnd.incompatibilities.html)
-    
--   [Статистика »](mysqlnd.stats.html)
-    
--   [PHP Manual](index.html)
-    
--   [Mysqlnd](book.mysqlnd.html)
-    
--   Постійне з'єднання
-    
-
+---
+navigation:
+  - mysqlnd.incompatibilities.html: « Несумісності
+  - mysqlnd.stats.html: Статистика »
+  - index.html: PHP Manual
+  - book.mysqlnd.html: Mysqlnd
+title: Постійне з'єднання
+---
 # Постійне з'єднання
 
 *Використання постійних з'єднань*

@@ -1,16 +1,11 @@
-Клас SolrDocument
-
--   [« SolrInputDocument::toArray](solrinputdocument.toarray.md)
-    
--   [SolrDocument::addField »](solrdocument.addfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [Solr](book.solr.md)
-    
--   Клас SolrDocument
-    
-
+---
+navigation:
+  - solrinputdocument.toarray.md: '« SolrInputDocument::toArray'
+  - solrdocument.addfield.md: 'SolrDocument::addField »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
+title: Клас SolrDocument
+---
 # Клас SolrDocument
 
 (PECL solr> = 0.9.2)

@@ -1,16 +1,11 @@
-Повертає ціле число, що вказує, як сортуються вирази
-
--   [« SolrQuery::getTermsReturnRaw](solrquery.gettermsreturnraw.html)
-    
--   [SolrQuery::getTermsUpperBound »](solrquery.gettermsupperbound.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Повертає ціле число, що вказує, як сортуються вирази
-    
-
+---
+navigation:
+  - solrquery.gettermsreturnraw.html: '« SolrQuery::getTermsReturnRaw'
+  - solrquery.gettermsupperbound.html: 'SolrQuery::getTermsUpperBound »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::getTermsSort'
+---
 # SolrQuery::getTermsSort
 
 (PECL solr> = 0.9.2)

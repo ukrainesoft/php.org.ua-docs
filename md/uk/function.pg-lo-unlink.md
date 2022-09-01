@@ -1,16 +1,11 @@
-Видалення великого об'єкту
-
--   [« pgлоtruncate](function.pg-lo-truncate.html)
-    
--   [пглоwrite »](function.pg-lo-write.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Видалення великого об'єкту
-    
-
+---
+navigation:
+  - function.pg-lo-truncate.html: « pgлоtruncate
+  - function.pg-lo-write.html: пглоwrite »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пглоunlink
+---
 # пглоunlink
 
 (PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ OID великий об'єкт у базі даних.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

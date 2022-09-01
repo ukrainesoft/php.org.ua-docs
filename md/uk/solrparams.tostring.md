@@ -1,16 +1,11 @@
-Повертає всі параметри об'єкта у вигляді пар ім'я-значення
-
--   [« SolrParams::setParam](solrparams.setparam.md)
-    
--   [SolrParams::unserialize »](solrparams.unserialize.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrParams](class.solrparams.md)
-    
--   Повертає всі параметри об'єкта у вигляді пар ім'я-значення
-    
-
+---
+navigation:
+  - solrparams.setparam.md: '« SolrParams::setParam'
+  - solrparams.unserialize.md: 'SolrParams::unserialize »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
+title: 'SolrParams::toString'
+---
 # SolrParams::toString
 
 (PECL solr> = 0.9.2)

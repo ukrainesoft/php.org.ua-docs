@@ -1,16 +1,11 @@
-Перерахування
-
--   [« Об'єкти](language.types.object.md)
-    
--   [Ресурс »](language.types.resource.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи](language.types.md)
-    
--   Перерахування
-    
-
+---
+navigation:
+  - language.types.object.md: « Об'єкти
+  - language.types.resource.md: Ресурс »
+  - index.md: PHP Manual
+  - language.types.md: Типи
+title: Перерахування
+---
 ## Перерахування
 
 ### Основи перерахувань

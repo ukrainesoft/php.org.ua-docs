@@ -1,16 +1,11 @@
-XLSXWriter
-
--   [« rpmvercmp](function.rpmvercmp.md)
-    
--   [Введение »](intro.xlswriter.md)
-    
--   [PHP Manual](index.md)
-    
--   [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
-    
--   XLSXWriter
-    
-
+---
+navigation:
+  - function.rpmvercmp.md: « rpmvercmp
+  - intro.xlswriter.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
+title: XLSXWriter
+---
 # XLSXWriter
 
 -   [Введение](intro.xlswriter.md)

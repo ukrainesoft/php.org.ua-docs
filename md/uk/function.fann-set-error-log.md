@@ -1,16 +1,11 @@
-Встановлює, де реєструються помилки
-
--   [« fannsetcascadeweightmultiplier](function.fann-set-cascade-weight-multiplier.html)
-    
--   [fannsetinputscalingparams »](function.fann-set-input-scaling-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює, де реєструються помилки
-    
-
+---
+navigation:
+  - function.fann-set-cascade-weight-multiplier.html: « fannsetcascadeweightmultiplier
+  - function.fann-set-input-scaling-params.html: fannsetinputscalingparams »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannseterrorlog
+---
 # fannseterrorlog
 
 (PECL fann> = 1.0.0)

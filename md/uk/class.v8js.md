@@ -1,16 +1,11 @@
-Клас V8Js
-
--   [« Приклади](v8js.examples.html)
-    
--   [V8Js::construct »](v8js.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [V8js](book.v8js.html)
-    
--   Клас V8Js
-    
-
+---
+navigation:
+  - v8js.examples.html: « Приклади
+  - v8js.construct.html: 'V8Js::construct »'
+  - index.html: PHP Manual
+  - book.v8js.html: V8js
+title: 'Клас [V8Js](class.v8js.html)'
+---
 # Клас [V8Js](class.v8js.html)
 
 (PECL v8js >= 0.1.0)

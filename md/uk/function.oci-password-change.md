@@ -1,16 +1,11 @@
-Змінює пароль користувача Oracle
-
--   [« ociparse](function.oci-parse.html)
-    
--   [ocipconnect »](function.oci-pconnect.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Змінює пароль користувача Oracle
-    
-
+---
+navigation:
+  - function.oci-parse.html: « ociparse
+  - function.oci-pconnect.html: ocipconnect »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocipasswordchange
+---
 # ocipasswordchange
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

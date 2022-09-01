@@ -1,16 +1,11 @@
-Висновок
-
--   [« VtifulKernelExcel::mergeCells](vtiful-kernel-excel.mergeCells.html)
-    
--   [VtifulKernelExcel::setColumn »](vtiful-kernel-excel.setColumn.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Висновок
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.mergeCells.html: '« VtifulKernelExcel::mergeCells'
+  - vtiful-kernel-excel.setColumn.html: 'VtifulKernelExcel::setColumn »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::output'
+---
 # VtifulKernelExcel::output
 
 (PECL xlswriter >= 1.2.1)

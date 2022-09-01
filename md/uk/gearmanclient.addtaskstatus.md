@@ -1,16 +1,11 @@
-Додати завдання для набуття статусу
-
--   [« GearmanClient::addTaskLowBackground](gearmanclient.addtasklowbackground.html)
-    
--   [GearmanClient::clearCallbacks »](gearmanclient.clearcallbacks.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanClient](class.gearmanclient.html)
-    
--   Додати завдання для набуття статусу
-    
-
+---
+navigation:
+  - gearmanclient.addtasklowbackground.html: '« GearmanClient::addTaskLowBackground'
+  - gearmanclient.clearcallbacks.html: 'GearmanClient::clearCallbacks »'
+  - index.html: PHP Manual
+  - class.gearmanclient.html: GearmanClient
+title: 'GearmanClient::addTaskStatus'
+---
 # GearmanClient::addTaskStatus
 
 (PECL gearman >= 0.5.0)

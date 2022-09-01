@@ -1,16 +1,11 @@
-Отримує кількість попереджень останньої операції
-
--   [« BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.html)
-    
--   [mysqlxdevapiClient »](class.mysql-xdevapi-client.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiBaseResult](class.mysql-xdevapi-baseresult.html)
-    
--   Отримує кількість попереджень останньої операції
-    
-
+---
+navigation:
+  - mysql-xdevapi-baseresult.getwarnings.html: '« BaseResult::getWarnings'
+  - class.mysql-xdevapi-client.html: mysqlxdevapiClient »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-baseresult.html: mysqlxdevapiBaseResult
+title: 'BaseResult::getWarningsCount'
+---
 # BaseResult::getWarningsCount
 
 (No version information available, might only be in Git)

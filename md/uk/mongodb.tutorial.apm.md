@@ -1,16 +1,13 @@
-Моніторинг продуктивності програми (Application Performance Monitoring або APM)
-
--   [« Использование библиотеки PHP для MongoDB (PHPLIB)](mongodb.tutorial.library.html)
-    
--   [Архитектура и внутреннее устройство драйвера »](mongodb.architecture.html)
-    
--   [PHP Manual](index.html)
-    
--   [Навчальні матеріали](mongodb.tutorial.html)
-    
--   Моніторинг продуктивності програми (Application Performance Monitoring або APM)
-    
-
+---
+navigation:
+  - mongodb.tutorial.library.html: « Использование библиотеки PHP для MongoDB (PHPLIB)
+  - mongodb.architecture.html: Архитектура и внутреннее устройство драйвера »
+  - index.html: PHP Manual
+  - mongodb.tutorial.html: Навчальні матеріали
+title: >-
+  Моніторинг продуктивності програми (Application Performance Monitoring або
+  APM)
+---
 # Моніторинг продуктивності програми (Application Performance Monitoring або APM)
 
 Драйвер MongoDB містить API передплатника подій, який дозволяє програмам відстежувати команди та внутрішню активність, що відноситься до [» Спецификации обнаружения и мониторинга серверов](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst). У цьому посібнику буде продемонстровано моніторинг команд за допомогою інтерфейсу [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)

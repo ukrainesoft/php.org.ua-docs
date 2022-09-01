@@ -1,16 +1,11 @@
-Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
-
--   [« ftpнбfput](function.ftp-nb-fput.html)
-    
--   [ftpнбput »](function.ftp-nb-put.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції FTP](ref.ftp.html)
-    
--   Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
-    
-
+---
+navigation:
+  - function.ftp-nb-fput.html: « ftpнбfput
+  - function.ftp-nb-put.html: ftpнбput »
+  - index.html: PHP Manual
+  - ref.ftp.html: Функції FTP
+title: ftpнбget
+---
 # ftpнбget
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -55,10 +50,10 @@ ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    st
 
 ### список змін
 
-| Версия | Описание                                                                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|        | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                    |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 

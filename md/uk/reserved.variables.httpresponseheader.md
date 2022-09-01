@@ -1,16 +1,11 @@
-Заголовки відповідей HTTP
-
--   [« $phperrormsg](reserved.variables.phperrormsg.html)
-    
--   [$argc »](reserved.variables.argc.html)
-    
--   [PHP Manual](index.html)
-    
--   [Зумовлені змінні](reserved.variables.html)
-    
--   Заголовки відповідей HTTP
-    
-
+---
+navigation:
+  - reserved.variables.phperrormsg.html: « $phperrormsg
+  - reserved.variables.argc.html: $argc »
+  - index.html: PHP Manual
+  - reserved.variables.html: Зумовлені змінні
+title: $httpresponseheader
+---
 # $httpresponseheader
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

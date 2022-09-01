@@ -1,16 +1,11 @@
-Що роблять посилання
-
--   [« Що таке посилання](language.references.whatare.html)
-    
--   [Чим посилання не є »](language.references.arent.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пояснення посилань](language.references.html)
-    
--   Що роблять посилання
-    
-
+---
+navigation:
+  - language.references.whatare.html: « Що таке посилання
+  - language.references.arent.html: Чим посилання не є »
+  - index.html: PHP Manual
+  - language.references.html: Пояснення посилань
+title: Що роблять посилання
+---
 ## Що роблять посилання
 
 Є три основні операції з використанням посилань: [присвоєння за посиланням](language.references.whatdo.html#language.references.whatdo.assign) [передача за посиланням](language.references.whatdo.html#language.references.whatdo.pass) і [повернення за посиланням](language.references.whatdo.html#language.references.whatdo.return). Цей розділ познайомить вас із цими операціями та надасть посилання для подальшого вивчення.

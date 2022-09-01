@@ -1,16 +1,11 @@
-Зберігає запис на вказаному сервері
-
--   [« Memcached::set](memcached.set.md)
-    
--   [Memcached::setMulti »](memcached.setmulti.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Зберігає запис на вказаному сервері
-    
-
+---
+navigation:
+  - memcached.set.md: '« Memcached::set'
+  - memcached.setmulti.md: 'Memcached::setMulti »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::setByKey'
+---
 # Memcached::setByKey
 
 (PECL memcached >= 0.1.0)

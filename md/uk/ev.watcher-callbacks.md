@@ -1,16 +1,11 @@
-Watcher callbacks
-
--   [« Спостерігачі](ev.watchers.md)
-    
--   [Режими роботи періодичних спостерігачів »](ev.periodic-modes.html)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](book.ev.md)
-    
--   Watcher callbacks
-    
-
+---
+navigation:
+  - ev.watchers.md: « Спостерігачі
+  - ev.periodic-modes.html: Режими роботи періодичних спостерігачів »
+  - index.md: PHP Manual
+  - book.ev.md: Єв
+title: Watcher callbacks
+---
 # Watcher callbacks
 
 Усі спостерігачі можуть бути або активними (очікувати повідомлення), або неактивними (зупиненими). Тільки активні спостерігачі можуть викликати свої callback-функції. Усі такі функції викликаються як мінімум із двома параметрами: `watcher` - спостерігач, та `revents` - бітова маска прийнятих подій.

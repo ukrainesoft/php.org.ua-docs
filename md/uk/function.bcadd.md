@@ -1,16 +1,11 @@
-Скласти 2 числа довільної точності
-
--   [« Функции BC Math](ref.bc.md)
-    
--   [bccomp »](function.bccomp.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции BC Math](ref.bc.md)
-    
--   Скласти 2 числа довільної точності
-    
-
+---
+navigation:
+  - ref.bc.md: « Функции BC Math
+  - function.bccomp.md: bccomp »
+  - index.md: PHP Manual
+  - ref.bc.md: Функции BC Math
+title: bcadd
+---
 # bcadd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ bcadd(string $num1, string $num2, ?int $scale = null): string
 
 ### список змін
 
-| Версия | Описание                              |
-|--------|---------------------------------------|
-|        | `scale` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `scale` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
-
--   [« EventBuffer::addBuffer](eventbuffer.addbuffer.html)
-    
--   [EventBuffer::construct »](eventbuffer.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBuffer](class.eventbuffer.html)
-    
--   Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
-    
-
+---
+navigation:
+  - eventbuffer.addbuffer.html: '« EventBuffer::addBuffer'
+  - eventbuffer.construct.html: 'EventBuffer::construct »'
+  - index.html: PHP Manual
+  - class.eventbuffer.html: EventBuffer
+title: 'EventBuffer::appendFrom'
+---
 # EventBuffer::appendFrom
 
 (PECL event >= 1.6.0)
@@ -46,8 +41,8 @@ public
 
 ### список змін
 
-| Версия           | Описание                                                                                     |
-|------------------|----------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL event 1.6.0 | Перейменовано **EventBuffer::appendFrom()**(старе ім'я методу) **EventBuffer::appendFrom()** |
 
 ### Дивіться також

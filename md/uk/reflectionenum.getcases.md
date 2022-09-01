@@ -1,16 +1,11 @@
-Повертає список усіх варіантів перерахування
-
--   [« ReflectionEnum::getCase](reflectionenum.getcase.md)
-    
--   [ReflectionEnum::hasCase »](reflectionenum.hascase.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionEnum](class.reflectionenum.md)
-    
--   Повертає список усіх варіантів перерахування
-    
-
+---
+navigation:
+  - reflectionenum.getcase.md: '« ReflectionEnum::getCase'
+  - reflectionenum.hascase.md: 'ReflectionEnum::hasCase »'
+  - index.md: PHP Manual
+  - class.reflectionenum.md: ReflectionEnum
+title: 'ReflectionEnum::getCases'
+---
 # ReflectionEnum::getCases
 
 (PHP 8> = 8.1.0)

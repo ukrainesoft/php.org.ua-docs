@@ -1,16 +1,11 @@
-Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp
-
--   [« SeasLog::error](seaslog.error.html)
-    
--   [SeasLog::getBasePath »](seaslog.getbasepath.html)
-    
--   [PHP Manual](index.html)
-    
--   [SeasLog](class.seaslog.html)
-    
--   Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp
-    
-
+---
+navigation:
+  - seaslog.error.html: '« SeasLog::error'
+  - seaslog.getbasepath.html: 'SeasLog::getBasePath »'
+  - index.html: PHP Manual
+  - class.seaslog.html: SeasLog
+title: 'SeasLog::flushBuffer'
+---
 # SeasLog::flushBuffer
 
 (PECL seaslog >=1.0.0)

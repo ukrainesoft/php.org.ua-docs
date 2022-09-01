@@ -1,16 +1,11 @@
-Пропорційно масштабує зображення вдвічі
-
--   [« Imagick::listRegistry](imagick.listregistry.md)
-    
--   [Imagick::mapImage »](imagick.mapimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Пропорційно масштабує зображення вдвічі
-    
-
+---
+navigation:
+  - imagick.listregistry.md: '« Imagick::listRegistry'
+  - imagick.mapimage.md: 'Imagick::mapImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::magnifyImage'
+---
 # Imagick::magnifyImage
 
 (PECL imagick 2, PECL imagick 3)

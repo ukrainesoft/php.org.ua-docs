@@ -1,16 +1,11 @@
-Псевдонім imapcreatemailbox
-
--   [« imapclose](function.imap-close.html)
-    
--   [imapcreatemailbox »](function.imap-createmailbox.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции IMAP](ref.imap.md)
-    
--   Псевдонім imapcreatemailbox
-    
-
+---
+navigation:
+  - function.imap-close.html: « imapclose
+  - function.imap-createmailbox.html: imapcreatemailbox »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
+title: imapcreate
+---
 # imapcreate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

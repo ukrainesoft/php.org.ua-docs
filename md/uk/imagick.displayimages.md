@@ -1,16 +1,11 @@
-Виводить зображення або послідовність зображень
-
--   [« Imagick::displayImage](imagick.displayimage.html)
-    
--   [Imagick::distortImage »](imagick.distortimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Виводить зображення або послідовність зображень
-    
-
+---
+navigation:
+  - imagick.displayimage.html: '« Imagick::displayImage'
+  - imagick.distortimage.html: 'Imagick::distortImage »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::displayImages'
+---
 # Imagick::displayImages
 
 (PECL imagick 2, PECL imagick 3)

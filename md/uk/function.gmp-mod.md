@@ -1,16 +1,11 @@
-Обчислення залишку від цілого розподілу
-
--   [« gmplegendre](function.gmp-legendre.html)
-    
--   [gmpmul »](function.gmp-mul.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Обчислення залишку від цілого розподілу
-    
-
+---
+navigation:
+  - function.gmp-legendre.html: « gmplegendre
+  - function.gmp-mul.html: gmpmul »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpmod
+---
 # gmpmod
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

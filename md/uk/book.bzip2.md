@@ -1,16 +1,11 @@
-Bzip2
-
--   [« Модулі для стиснення та архівації](refs.compression.html)
-    
--   [Введение »](intro.bzip2.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для стиснення та архівації](refs.compression.html)
-    
--   Bzip2
-    
-
+---
+navigation:
+  - refs.compression.html: « Модулі для стиснення та архівації
+  - intro.bzip2.html: Введение »
+  - index.html: PHP Manual
+  - refs.compression.html: Модулі для стиснення та архівації
+title: Bzip2
+---
 # Bzip2
 
 -   [Введение](intro.bzip2.html)

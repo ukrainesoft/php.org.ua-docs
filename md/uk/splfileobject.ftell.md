@@ -1,16 +1,11 @@
-Повернути поточну позицію файлового покажчика
-
--   [« SplFileObject::fstat](splfileobject.fstat.md)
-    
--   [SplFileObject::ftruncate »](splfileobject.ftruncate.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Повернути поточну позицію файлового покажчика
-    
-
+---
+navigation:
+  - splfileobject.fstat.md: '« SplFileObject::fstat'
+  - splfileobject.ftruncate.md: 'SplFileObject::ftruncate »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::ftell'
+---
 # SplFileObject::ftell
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

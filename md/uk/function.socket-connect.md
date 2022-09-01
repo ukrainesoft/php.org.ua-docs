@@ -1,16 +1,11 @@
-Починає з'єднання із сокетом
-
--   [« socketcmsgspace](function.socket-cmsg-space.html)
-    
--   [socketcreatelisten »](function.socket-create-listen.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Починає з'єднання із сокетом
-    
-
+---
+navigation:
+  - function.socket-cmsg-space.html: « socketcmsgspace
+  - function.socket-create-listen.html: socketcreatelisten »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketconnect
+---
 # socketconnect
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ socket_connect(Socket $socket, string $address, ?int $port = null): bool
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
-|        | `port` тепер допускає значення null.                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+|  | `port` тепер допускає значення null. |
 
 ### Дивіться також
 

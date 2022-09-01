@@ -1,16 +1,11 @@
-Отримує певні параметри
-
--   [«psgetbuffer](function.ps-get-buffer.html)
-    
--   [псgetvalue »](function.ps-get-value.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції PS](ref.ps.html)
-    
--   Отримує певні параметри
-    
-
+---
+navigation:
+  - function.ps-get-buffer.html: «psgetbuffer
+  - function.ps-get-value.html: псgetvalue »
+  - index.html: PHP Manual
+  - ref.ps.html: Функції PS
+title: псgetparameter
+---
 # псgetparameter
 
 (PECL ps >= 1.1.0)

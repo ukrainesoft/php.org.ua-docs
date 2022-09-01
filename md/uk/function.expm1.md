@@ -1,16 +1,11 @@
-Повертає exp(number) - 1, розраховане таким чином, що результат точний навіть якщо значення number близько до нуля.
-
--   [« exp](function.exp.md)
-    
--   [fdiv »](function.fdiv.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Повертає exp(number) - 1, розраховане таким чином, що результат точний навіть якщо значення number близько до нуля.
-    
-
+---
+navigation:
+  - function.exp.md: « exp
+  - function.fdiv.md: fdiv »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: expm1
+---
 # expm1
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

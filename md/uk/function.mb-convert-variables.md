@@ -1,16 +1,11 @@
-Перетворює символи на змінну з одного кодування на інше
-
--   [« mbconvertkana](function.mb-convert-kana.html)
-    
--   [мбdecodemimeheader »](function.mb-decode-mimeheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Перетворює символи на змінну з одного кодування на інше
-    
-
+---
+navigation:
+  - function.mb-convert-kana.html: « mbconvertkana
+  - function.mb-decode-mimeheader.html: мбdecodemimeheader »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбconvertvariables
+---
 # мбconvertvariables
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

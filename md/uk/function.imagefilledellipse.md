@@ -1,16 +1,11 @@
-Малювання зафарбованого еліпса
-
--   [« imagefilledarc](function.imagefilledarc.md)
-    
--   [imagefilledpolygon »](function.imagefilledpolygon.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.md)
-    
--   Малювання зафарбованого еліпса
-    
-
+---
+navigation:
+  - function.imagefilledarc.md: « imagefilledarc
+  - function.imagefilledpolygon.md: imagefilledpolygon »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
+title: imagefilledellipse
+---
 # imagefilledellipse
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
@@ -57,9 +52,9 @@ y-координат центру.
 
 ### список змін
 
-| Версия | Описание                                                                                       |
-|--------|------------------------------------------------------------------------------------------------|
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Псевдонім ocipconnect
-
--   [« ociparse](function.ociparse.md)
-    
--   [ociresult »](function.ociresult.md)
-    
--   [PHP Manual](index.md)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    
--   Псевдонім ocipconnect
-    
-
+---
+navigation:
+  - function.ociparse.md: « ociparse
+  - function.ociresult.md: ociresult »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
+title: ociplogon
+---
 # ociplogon
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

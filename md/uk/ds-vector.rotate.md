@@ -1,16 +1,11 @@
-Перемотує вектор на задану кількість значень
-
--   [« DsVector::reversed](ds-vector.reversed.html)
-    
--   [ДсVector::set »](ds-vector.set.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Перемотує вектор на задану кількість значень
-    
-
+---
+navigation:
+  - ds-vector.reversed.html: '« DsVector::reversed'
+  - ds-vector.set.html: 'ДсVector::set »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::rotate'
+---
 # ДсVector::rotate
 
 (PECL ds >= 1.0.0)

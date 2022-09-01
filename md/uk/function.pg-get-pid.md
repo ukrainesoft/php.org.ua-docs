@@ -1,16 +1,11 @@
-Отримує ID процесу сервера БД
-
--   [« pggetnotify](function.pg-get-notify.html)
-    
--   [пгgetresult »](function.pg-get-result.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Отримує ID процесу сервера БД
-    
-
+---
+navigation:
+  - function.pg-get-notify.html: « pggetnotify
+  - function.pg-get-result.html: пгgetresult »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгgetpid
+---
 # пгgetpid
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ ID процесу сервера бази даних.
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

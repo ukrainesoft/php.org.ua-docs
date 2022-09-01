@@ -1,16 +1,11 @@
-Рівні абстракції
-
--   [« Модулі для роботи з базами даних](refs.database.html)
-    
--   [DBA »](book.dba.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для роботи з базами даних](refs.database.html)
-    
--   Рівні абстракції
-    
-
+---
+navigation:
+  - refs.database.html: « Модулі для роботи з базами даних
+  - book.dba.html: DBA »
+  - index.html: PHP Manual
+  - refs.database.html: Модулі для роботи з базами даних
+title: Рівні абстракції
+---
 # Рівні абстракції
 
 -   [DBA](book.dba.html) - Database (dbm-style) Abstraction Layer

@@ -1,16 +1,11 @@
-Повертає зрушення помилки кроку sarprop
-
--   [« fanngetrpropincreasefactor](function.fann-get-rprop-increase-factor.html)
-    
--   [fanngetsarpropsteperrorthresholdfactor »](function.fann-get-sarprop-step-error-threshold-factor.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Fann](ref.fann.html)
-    
--   Повертає зрушення помилки кроку sarprop
-    
-
+---
+navigation:
+  - function.fann-get-rprop-increase-factor.html: « fanngetrpropincreasefactor
+  - function.fann-get-sarprop-step-error-threshold-factor.html: fanngetsarpropsteperrorthresholdfactor »
+  - index.html: PHP Manual
+  - ref.fann.html: Функции Fann
+title: fanngetsarpropsteperrorshift
+---
 # fanngetsarpropsteperrorshift
 
 (PECL fann> = 1.0.0)

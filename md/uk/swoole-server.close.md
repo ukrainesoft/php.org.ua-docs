@@ -1,16 +1,11 @@
-Закриває з'єднання з клієнтом
-
--   [« SwooleServer::clearTimer](swoole-server.cleartimer.html)
-    
--   [SwooleServer::confirm »](swoole-server.confirm.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleServer](class.swoole-server.html)
-    
--   Закриває з'єднання з клієнтом
-    
-
+---
+navigation:
+  - swoole-server.cleartimer.html: '« SwooleServer::clearTimer'
+  - swoole-server.confirm.html: 'SwooleServer::confirm »'
+  - index.md: PHP Manual
+  - class.swoole-server.html: SwooleServer
+title: 'SwooleServer::close'
+---
 # SwooleServer::close
 
 (PECL swoole >= 1.9.0)

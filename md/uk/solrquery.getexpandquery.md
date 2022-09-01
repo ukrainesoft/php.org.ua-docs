@@ -1,16 +1,11 @@
-Повертає параметр розширеного запиту expand.q
-
--   [« SolrQuery::getExpandFilterQueries](solrquery.getexpandfilterqueries.md)
-    
--   [SolrQuery::getExpandRows »](solrquery.getexpandrows.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає параметр розширеного запиту expand.q
-    
-
+---
+navigation:
+  - solrquery.getexpandfilterqueries.md: '« SolrQuery::getExpandFilterQueries'
+  - solrquery.getexpandrows.md: 'SolrQuery::getExpandRows »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getExpandQuery'
+---
 # SolrQuery::getExpandQuery
 
 (PECL solr> = 2.2.0)

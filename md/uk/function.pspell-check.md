@@ -1,16 +1,11 @@
-Перевіряє слово
-
--   [« pspelladdтоsession](function.pspell-add-to-session.html)
-    
--   [pspellclearsession »](function.pspell-clear-session.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Pspell](ref.pspell.md)
-    
--   Перевіряє слово
-    
-
+---
+navigation:
+  - function.pspell-add-to-session.html: « pspelladdтоsession
+  - function.pspell-clear-session.html: pspellclearsession »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
+title: pspellcheck
+---
 # pspellcheck
 
 (PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
@@ -41,9 +36,9 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає останню помилку
-
--   [« jsonlasterrormsg](function.json-last-error-msg.html)
-    
--   [Lua »](book.lua.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции JSON](ref.json.md)
-    
--   Повертає останню помилку
-    
-
+---
+navigation:
+  - function.json-last-error-msg.html: « jsonlasterrormsg
+  - book.lua.md: Lua »
+  - index.md: PHP Manual
+  - ref.json.md: Функции JSON
+title: jsonlasterror
+---
 # jsonlasterror
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
@@ -35,19 +30,19 @@ json_last_error(): int
 
 **Коди помилок JSON**
 
-| Константа                              | Значение                                                                                                                                                | Доступность |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| **`JSON_ERROR_NONE`**                  | Помилок немає                                                                                                                                           |             |
-| **`JSON_ERROR_DEPTH`**                 | Досягнуто максимальної глибини стека                                                                                                                    |             |
-| **`JSON_ERROR_STATE_MISMATCH`**        | Неправильний або неправильний JSON                                                                                                                      |             |
-| **`JSON_ERROR_CTRL_CHAR`**             | Помилка керуючого символу, можливе неправильне кодування                                                                                                |             |
-| **`JSON_ERROR_SYNTAX`**                | Синтаксична помилка                                                                                                                                     |             |
-| **`JSON_ERROR_UTF8`**                  | Некоректні символи UTF-8, можливе неправильне кодування                                                                                                 |             |
-| **`JSON_ERROR_RECURSION`**             | Одна або кілька зациклених посилань у значенні, що кодується                                                                                            |             |
-| **`JSON_ERROR_INF_OR_NAN`**            | Одне чи кілька значень [**`NAN`**](language.types.float.html#language.types.float.nan) або [**`INF`**](function.is-infinite.html) у кодованому значенні |             |
-| **`JSON_ERROR_UNSUPPORTED_TYPE`**      | Передано значення з непідтримуваним типом                                                                                                               |             |
-| **`JSON_ERROR_INVALID_PROPERTY_NAME`** | Ім'я властивості не може бути закодоване                                                                                                                |             |
-| **`JSON_ERROR_UTF16`**                 | Некоректний символ UTF-16, можливо, некоректно закодований                                                                                              |             |
+| Константа | Значение | Доступность |
+| --- | --- | --- |
+| **`JSON_ERROR_NONE`** | Помилок немає |  |
+| **`JSON_ERROR_DEPTH`** | Досягнуто максимальної глибини стека |  |
+| **`JSON_ERROR_STATE_MISMATCH`** | Неправильний або неправильний JSON |  |
+| **`JSON_ERROR_CTRL_CHAR`** | Помилка керуючого символу, можливе неправильне кодування |  |
+| **`JSON_ERROR_SYNTAX`** | Синтаксична помилка |  |
+| **`JSON_ERROR_UTF8`** | Некоректні символи UTF-8, можливе неправильне кодування |  |
+| **`JSON_ERROR_RECURSION`** | Одна або кілька зациклених посилань у значенні, що кодується |  |
+| **`JSON_ERROR_INF_OR_NAN`** | Одне чи кілька значень [**`NAN`**](language.types.float.html#language.types.float.nan) або [**`INF`**](function.is-infinite.html) у кодованому значенні |  |
+| **`JSON_ERROR_UNSUPPORTED_TYPE`** | Передано значення з непідтримуваним типом |  |
+| **`JSON_ERROR_INVALID_PROPERTY_NAME`** | Ім'я властивості не може бути закодоване |  |
+| **`JSON_ERROR_UTF16`** | Некоректний символ UTF-16, можливо, некоректно закодований |  |
 
 ### Приклади
 

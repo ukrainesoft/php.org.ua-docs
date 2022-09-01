@@ -1,16 +1,11 @@
-Функції Grapheme
-
--   [« UConverter::transcode](uconverter.transcode.md)
-    
--   [graphemeextract »](function.grapheme-extract.html)
-    
--   [PHP Manual](index.md)
-    
--   [intl](book.intl.md)
-    
--   Функції Grapheme
-    
-
+---
+navigation:
+  - uconverter.transcode.md: '« UConverter::transcode'
+  - function.grapheme-extract.html: graphemeextract »
+  - index.md: PHP Manual
+  - book.intl.md: intl
+title: Функції Grapheme
+---
 # Функції Grapheme
 
 ## Зміст

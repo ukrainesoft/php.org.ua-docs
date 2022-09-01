@@ -1,16 +1,11 @@
-Повертає усі поля статистики
-
--   [« SolrQuery::getStatsFacets](solrquery.getstatsfacets.md)
-    
--   [SolrQuery::getTerms »](solrquery.getterms.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає усі поля статистики
-    
-
+---
+navigation:
+  - solrquery.getstatsfacets.md: '« SolrQuery::getStatsFacets'
+  - solrquery.getterms.md: 'SolrQuery::getTerms »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getStatsFields'
+---
 # SolrQuery::getStatsFields
 
 (PECL solr> = 0.9.2)

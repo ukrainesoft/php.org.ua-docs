@@ -1,16 +1,11 @@
-Метод зберігає набір у пам'яті на диску
-
--   [« QuickHashIntSet::loadFromString](quickhashintset.loadfromstring.html)
-    
--   [QuickHashIntSet::saveToString »](quickhashintset.savetostring.html)
-    
--   [PHP Manual](index.html)
-    
--   [QuickHashIntSet](class.quickhashintset.html)
-    
--   Метод зберігає набір у пам'яті на диску
-    
-
+---
+navigation:
+  - quickhashintset.loadfromstring.html: '« QuickHashIntSet::loadFromString'
+  - quickhashintset.savetostring.html: 'QuickHashIntSet::saveToString »'
+  - index.html: PHP Manual
+  - class.quickhashintset.html: QuickHashIntSet
+title: 'QuickHashIntSet::saveToFile'
+---
 # QuickHashIntSet::saveToFile
 
 (PECL quickhash >= Unknown)

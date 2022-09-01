@@ -1,16 +1,11 @@
-Отримує глобальне максимальне значення поля
-
--   [« IntlCalendar::getLocale](intlcalendar.getlocale.html)
-    
--   [IntlCalendar::getMinimalDaysInFirstWeek »](intlcalendar.getminimaldaysinfirstweek.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlCalendar](class.intlcalendar.html)
-    
--   Отримує глобальне максимальне значення поля
-    
-
+---
+navigation:
+  - intlcalendar.getlocale.html: '« IntlCalendar::getLocale'
+  - intlcalendar.getminimaldaysinfirstweek.html: 'IntlCalendar::getMinimalDaysInFirstWeek »'
+  - index.html: PHP Manual
+  - class.intlcalendar.html: IntlCalendar
+title: 'IntlCalendar::getMaximum'
+---
 # IntlCalendar::getMaximum
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

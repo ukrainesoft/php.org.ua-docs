@@ -1,16 +1,11 @@
-Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
-
--   [« RecursiveFilterIterator::construct](recursivefilteriterator.construct.md)
-    
--   [RecursiveFilterIterator::hasChildren »](recursivefilteriterator.haschildren.md)
-    
--   [PHP Manual](index.md)
-    
--   [RecursiveFilterIterator](class.recursivefilteriterator.md)
-    
--   Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
-    
-
+---
+navigation:
+  - recursivefilteriterator.construct.md: '« RecursiveFilterIterator::construct'
+  - recursivefilteriterator.haschildren.md: 'RecursiveFilterIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.recursivefilteriterator.md: RecursiveFilterIterator
+title: 'RecursiveFilterIterator::getChildren'
+---
 # RecursiveFilterIterator::getChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Філософія
-
--   [« Установка](parallel.setup.md)
-    
--   [Функціональний API »](functional.parallel.md)
-    
--   [PHP Manual](index.md)
-    
--   [parallel](book.parallel.md)
-    
--   Філософія
-    
-
+---
+navigation:
+  - parallel.setup.md: « Установка
+  - functional.parallel.md: Функціональний API »
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
+title: Філософія
+---
 # Філософія
 
 Розділ містить основні принципи, важливі для написання паралельного коду та деякі подробиці про внутрішню реалізацію parallel.

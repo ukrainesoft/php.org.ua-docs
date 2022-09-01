@@ -1,16 +1,11 @@
-Сортує елементи "натурально", з урахуванням регістру
-
--   [« ArrayIterator::ksort](arrayiterator.ksort.md)
-    
--   [ArrayIterator::natsort »](arrayiterator.natsort.md)
-    
--   [PHP Manual](index.md)
-    
--   [ArrayIterator](class.arrayiterator.md)
-    
--   Сортує елементи "натурально", з урахуванням регістру
-    
-
+---
+navigation:
+  - arrayiterator.ksort.md: '« ArrayIterator::ksort'
+  - arrayiterator.natsort.md: 'ArrayIterator::natsort »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
+title: 'ArrayIterator::natcasesort'
+---
 # ArrayIterator::natcasesort
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

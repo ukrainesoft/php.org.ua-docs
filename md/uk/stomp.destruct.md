@@ -1,16 +1,11 @@
-Закриває Stomp-з'єднання
-
--   [« Stomp::construct](stomp.construct.md)
-    
--   [Stomp::error »](stomp.error.md)
-    
--   [PHP Manual](index.md)
-    
--   [Stomp](class.stomp.md)
-    
--   Закриває Stomp-з'єднання
-    
-
+---
+navigation:
+  - stomp.construct.md: '« Stomp::construct'
+  - stomp.error.md: 'Stomp::error »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
+title: 'Stomp::destruct'
+---
 # Stomp::destruct
 
 # stompclose

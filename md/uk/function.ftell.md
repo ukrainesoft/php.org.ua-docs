@@ -1,16 +1,11 @@
-Повертає поточну позицію покажчика читання/запису файлу
-
--   [« fsync](function.fsync.md)
-    
--   [ftruncate »](function.ftruncate.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає поточну позицію покажчика читання/запису файлу
-    
-
+---
+navigation:
+  - function.fsync.md: « fsync
+  - function.ftruncate.md: ftruncate »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ftell
+---
 # ftell
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

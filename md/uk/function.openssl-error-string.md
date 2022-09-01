@@ -1,16 +1,11 @@
-Повертає повідомлення про помилку openSSL
-
--   [« opensslencrypt](function.openssl-encrypt.html)
-    
--   [opensslfreekey »](function.openssl-free-key.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Повертає повідомлення про помилку openSSL
-    
-
+---
+navigation:
+  - function.openssl-encrypt.html: « opensslencrypt
+  - function.openssl-free-key.html: opensslfreekey »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslerrorstring
+---
 # opensslerrorstring
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

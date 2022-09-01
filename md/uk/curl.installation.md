@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](curl.requirements.md)
-    
--   [Налаштування під час виконання »](curl.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](curl.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - curl.requirements.md: « Вимоги
+  - curl.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - curl.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Для використання cURL необхідно зібрати PHP з опцією **\-with-curl=DIR**де DIR - ім'я каталогу, що містить підкаталоги lib і include. Каталог include повинен містити підкаталог curl із файлами easy.h та curl.h. У каталозі lib має бути файл libcurl.a.

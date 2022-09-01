@@ -1,16 +1,11 @@
-Урізує файл до вказаної довжини
-
--   [« ftell](function.ftell.md)
-    
--   [fwrite »](function.fwrite.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Урізує файл до вказаної довжини
-    
-
+---
+navigation:
+  - function.ftell.md: « ftell
+  - function.fwrite.md: fwrite »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: ftruncate
+---
 # ftruncate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

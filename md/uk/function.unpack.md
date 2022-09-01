@@ -1,16 +1,11 @@
-Розпакувати дані з бінарного рядка
-
--   [« uniqid](function.uniqid.md)
-    
--   [usleep »](function.usleep.md)
-    
--   [PHP Manual](index.md)
-    
--   [Різні функції](ref.misc.md)
-    
--   Розпакувати дані з бінарного рядка
-    
-
+---
+navigation:
+  - function.uniqid.md: « uniqid
+  - function.usleep.md: usleep »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
+title: unpack
+---
 # unpack
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ unpack(string $format, string $string, int $offset = 0): array|false
 
 ### список змін
 
-| Версия | Описание                                                                        |
-|--------|---------------------------------------------------------------------------------|
-|        | Типи float і double підтримують як зворотний, і прямий порядок передачі байтів. |
-|        | Додано необов'язковий параметр `offset`                                         |
+| Версия | Описание |
+| --- | --- |
+|  | Типи float і double підтримують як зворотний, і прямий порядок передачі байтів. |
+|  | Додано необов'язковий параметр `offset` |
 
 ### Приклади
 

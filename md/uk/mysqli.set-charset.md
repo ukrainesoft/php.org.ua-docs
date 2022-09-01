@@ -1,16 +1,11 @@
-Встановлює набір символів
-
--   [« mysqli::selectдб](mysqli.select-db.html)
-    
--   [mysqli::$sqlstate »](mysqli.sqlstate.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqli](class.mysqli.html)
-    
--   Встановлює набір символів
-    
-
+---
+navigation:
+  - mysqli.select-db.html: '« mysqli::selectдб'
+  - mysqli.sqlstate.html: 'mysqli::$sqlstate »'
+  - index.html: PHP Manual
+  - class.mysqli.html: mysqli
+title: 'mysqli::setcharset'
+---
 # mysqli::setcharset
 
 # mysqlisetcharset

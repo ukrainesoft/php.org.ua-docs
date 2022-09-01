@@ -1,16 +1,11 @@
-Повертає унікальний ідентифікатор потоку поточного виконання
-
--   [« versioncompare](function.version-compare.html)
-    
--   [zendversion »](function.zend-version.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Повертає унікальний ідентифікатор потоку поточного виконання
-    
-
+---
+navigation:
+  - function.version-compare.html: « versioncompare
+  - function.zend-version.html: zendversion »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: zendthreadід
+---
 # zendthreadід
 
 (PHP 5, PHP 7, PHP 8)

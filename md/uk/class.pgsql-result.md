@@ -1,16 +1,11 @@
-Клас PgSqlResult
-
--   [« PgSqlConnection](class.pgsql-connection.html)
-    
--   [PgSqlLob »](class.pgsql-lob.html)
-    
--   [PHP Manual](index.md)
-    
--   [PostgreSQL](book.pgsql.md)
-    
--   Клас PgSqlResult
-    
-
+---
+navigation:
+  - class.pgsql-connection.html: « PgSqlConnection
+  - class.pgsql-lob.html: PgSqlLob »
+  - index.md: PHP Manual
+  - book.pgsql.md: PostgreSQL
+title: Клас PgSqlResult
+---
 # Клас PgSqlResult
 
 (PHP 8> = 8.1.0)

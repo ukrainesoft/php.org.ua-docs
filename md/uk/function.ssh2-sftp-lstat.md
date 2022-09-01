@@ -1,16 +1,11 @@
-Інформація про символічне посилання
-
--   [« ssh2sftpchmod](function.ssh2-sftp-chmod.html)
-    
--   [ssh2sftpmkdir »](function.ssh2-sftp-mkdir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Інформація про символічне посилання
-    
-
+---
+navigation:
+  - function.ssh2-sftp-chmod.html: « ssh2sftpchmod
+  - function.ssh2-sftp-mkdir.html: ssh2sftpmkdir »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2sftplstat
+---
 # ssh2sftplstat
 
 (PECL ssh2> = 0.9.0)

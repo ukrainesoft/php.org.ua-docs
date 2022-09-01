@@ -1,16 +1,11 @@
-Клас EvStat
-
--   [« EvSignal::set](evsignal.set.html)
-    
--   [EvStat::attr »](evstat.attr.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас EvStat
-    
-
+---
+navigation:
+  - evsignal.set.html: '« EvSignal::set'
+  - evstat.attr.html: 'EvStat::attr »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас EvStat
+---
 # Клас EvStat
 
 (PECL ev >= 0.2.0)

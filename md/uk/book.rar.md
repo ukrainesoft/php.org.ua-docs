@@ -1,16 +1,11 @@
-Архівування Rar
-
--   [« PharException](class.pharexception.html)
-    
--   [Введение »](intro.rar.html)
-    
--   [PHP Manual](index.html)
-    
--   [Модулі для стиснення та архівації](refs.compression.html)
-    
--   Архівування Rar
-    
-
+---
+navigation:
+  - class.pharexception.html: « PharException
+  - intro.rar.html: Введение »
+  - index.html: PHP Manual
+  - refs.compression.html: Модулі для стиснення та архівації
+title: Архівування Rar
+---
 # Архівування Rar
 
 -   [Введение](intro.rar.html)

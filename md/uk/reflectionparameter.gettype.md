@@ -1,16 +1,11 @@
-Отримати тип параметра
-
--   [« ReflectionParameter::getPosition](reflectionparameter.getposition.md)
-    
--   [ReflectionParameter::hasType »](reflectionparameter.hastype.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionParameter](class.reflectionparameter.md)
-    
--   Отримати тип параметра
-    
-
+---
+navigation:
+  - reflectionparameter.getposition.md: '« ReflectionParameter::getPosition'
+  - reflectionparameter.hastype.md: 'ReflectionParameter::hasType »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
+title: 'ReflectionParameter::getType'
+---
 # ReflectionParameter::getType
 
 (PHP 7, PHP 8)

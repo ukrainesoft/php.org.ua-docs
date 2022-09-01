@@ -1,16 +1,11 @@
-Визначення стану
-
--   [« Thread::isJoined](thread.isjoined.html)
-    
--   [Thread::join »](thread.join.html)
-    
--   [PHP Manual](index.html)
-    
--   [Thread](class.thread.html)
-    
--   Визначення стану
-    
-
+---
+navigation:
+  - thread.isjoined.html: '« Thread::isJoined'
+  - thread.join.html: 'Thread::join »'
+  - index.html: PHP Manual
+  - class.thread.html: Thread
+title: 'Thread::isStarted'
+---
 # Thread::isStarted
 
 (PECL pthreads >= 2.0.0)

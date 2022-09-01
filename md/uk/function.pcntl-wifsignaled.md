@@ -1,16 +1,11 @@
-Перевірити, чи відповідає код завершення процесу завершення сигналу
-
--   [pcntlwifexited](function.pcntl-wifexited.html)
-    
--   [pcntlwifstopped »](function.pcntl-wifstopped.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PCNTL](ref.pcntl.md)
-    
--   Перевірити, чи відповідає код завершення процесу завершення сигналу
-    
-
+---
+navigation:
+  - function.pcntl-wifexited.html: pcntlwifexited
+  - function.pcntl-wifstopped.html: pcntlwifstopped »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
+title: pcntlwifsignaled
+---
 # pcntlwifsignaled
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

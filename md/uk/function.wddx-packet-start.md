@@ -1,16 +1,11 @@
-Запускає новий пакет WDDX із структурою всередині нього
-
--   [« wddxpacketend](function.wddx-packet-end.html)
-    
--   [wddxserializevalue »](function.wddx-serialize-value.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції WDDX](ref.wddx.md)
-    
--   Запускає новий пакет WDDX із структурою всередині нього
-    
-
+---
+navigation:
+  - function.wddx-packet-end.html: « wddxpacketend
+  - function.wddx-serialize-value.html: wddxserializevalue »
+  - index.md: PHP Manual
+  - ref.wddx.md: Функції WDDX
+title: wddxpacketstart
+---
 # wddxpacketstart
 
 (PHP 4, PHP 5, PHP 7)

@@ -1,16 +1,11 @@
-Підключення до сокету
-
--   [« ZMQSocket::bind](zmqsocket.bind.md)
-    
--   [ZMQSocket::construct »](zmqsocket.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZMQSocket](class.zmqsocket.md)
-    
--   Підключення до сокету
-    
-
+---
+navigation:
+  - zmqsocket.bind.md: '« ZMQSocket::bind'
+  - zmqsocket.construct.md: 'ZMQSocket::construct »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
+title: 'ZMQSocket::connect'
+---
 # ZMQSocket::connect
 
 (PECL zmq >= 0.5.0)

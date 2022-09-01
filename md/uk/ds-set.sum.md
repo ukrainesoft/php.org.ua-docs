@@ -1,16 +1,11 @@
-Повертає суму всіх значень колекції
-
--   [« DsSet::sorted](ds-set.sorted.html)
-    
--   [ДсSet::toArray »](ds-set.toarray.html)
-    
--   [PHP Manual](index.html)
-    
--   [Набор](class.ds-set.html)
-    
--   Повертає суму всіх значень колекції
-    
-
+---
+navigation:
+  - ds-set.sorted.html: '« DsSet::sorted'
+  - ds-set.toarray.html: 'ДсSet::toArray »'
+  - index.html: PHP Manual
+  - class.ds-set.html: Набор
+title: 'ДсSet::sum'
+---
 # ДсSet::sum
 
 (PECL ds >= 1.0.0)

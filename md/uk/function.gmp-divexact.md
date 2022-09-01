@@ -1,16 +1,11 @@
-Розподіл чисел без залишку
-
--   [« gmpdiv](function.gmp-div.html)
-    
--   [gmpexport »](function.gmp-export.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Розподіл чисел без залишку
-    
-
+---
+navigation:
+  - function.gmp-div.html: « gmpdiv
+  - function.gmp-export.html: gmpexport »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpdivexact
+---
 # gmpdivexact
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

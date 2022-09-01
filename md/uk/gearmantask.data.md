@@ -1,16 +1,11 @@
-Отримати дані, повернені для завдання
-
--   [« GearmanTask::create](gearmantask.create.md)
-    
--   [GearmanTask::dataSize »](gearmantask.datasize.md)
-    
--   [PHP Manual](index.md)
-    
--   [GearmanTask](class.gearmantask.md)
-    
--   Отримати дані, повернені для завдання
-    
-
+---
+navigation:
+  - gearmantask.create.md: '« GearmanTask::create'
+  - gearmantask.datasize.md: 'GearmanTask::dataSize »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
+title: 'GearmanTask::data'
+---
 # GearmanTask::data
 
 (PECL gearman >= 0.5.0)

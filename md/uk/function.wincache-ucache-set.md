@@ -1,16 +1,11 @@
-Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
-
--   [« wincacheucachememinfo](function.wincache-ucache-meminfo.html)
-    
--   [wincacheunlock »](function.wincache-unlock.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции WinCache](ref.wincache.md)
-    
--   Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
-    
-
+---
+navigation:
+  - function.wincache-ucache-meminfo.html: « wincacheucachememinfo
+  - function.wincache-unlock.html: wincacheunlock »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
+title: wincacheucacheset
+---
 # wincacheucacheset
 
 (PECL wincache >= 1.1.0)

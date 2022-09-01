@@ -1,16 +1,11 @@
-Змінює процес на процес-демон
-
--   [« SwooleProcess::construct](swoole-process.construct.html)
-    
--   [SwooleProcess::destruct »](swoole-process.destruct.html)
-    
--   [PHP Manual](index.html)
-    
--   [SwooleProcess](class.swoole-process.html)
-    
--   Змінює процес на процес-демон
-    
-
+---
+navigation:
+  - swoole-process.construct.html: '« SwooleProcess::construct'
+  - swoole-process.destruct.html: 'SwooleProcess::destruct »'
+  - index.html: PHP Manual
+  - class.swoole-process.html: SwooleProcess
+title: 'SwooleProcess::daemon'
+---
 # SwooleProcess::daemon
 
 (PECL swoole >= 1.9.0)

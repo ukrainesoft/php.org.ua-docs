@@ -1,16 +1,11 @@
-Копіює вміст однієї області пам'яті в іншу
-
--   [« FFI::memcmp](ffi.memcmp.html)
-    
--   [FFI::memset »](ffi.memset.html)
-    
--   [PHP Manual](index.html)
-    
--   [FFI](class.ffi.html)
-    
--   Копіює вміст однієї області пам'яті в іншу
-    
-
+---
+navigation:
+  - ffi.memcmp.html: '« FFI::memcmp'
+  - ffi.memset.html: 'FFI::memset »'
+  - index.html: PHP Manual
+  - class.ffi.html: FFI
+title: 'FFI::memcpy'
+---
 # FFI::memcpy
 
 (PHP 7> = 7.4.0, PHP 8)

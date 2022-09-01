@@ -1,16 +1,11 @@
-Перевіряє, чи є константа закритою
-
--   [« ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md)
-    
--   [ReflectionClassConstant::isProtected »](reflectionclassconstant.isprotected.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClassConstant](class.reflectionclassconstant.md)
-    
--   Перевіряє, чи є константа закритою
-    
-
+---
+navigation:
+  - reflectionclassconstant.isfinal.md: '« ReflectionClassConstant::isFinal'
+  - reflectionclassconstant.isprotected.md: 'ReflectionClassConstant::isProtected »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
+title: 'ReflectionClassConstant::isPrivate'
+---
 # ReflectionClassConstant::isPrivate
 
 (PHP 7> = 7.1.0, PHP 8)

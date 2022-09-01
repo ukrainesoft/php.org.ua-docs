@@ -1,16 +1,11 @@
-Видаляє частину масиву і замінює її чимось ще
-
--   [« arrayslice](function.array-slice.html)
-    
--   [arraysum »](function.array-sum.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з масивами](ref.array.md)
-    
--   Видаляє частину масиву і замінює її чимось ще
-    
-
+---
+navigation:
+  - function.array-slice.html: « arrayslice
+  - function.array-sum.html: arraysum »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
+title: arraysplice
+---
 # arraysplice
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -75,9 +70,9 @@ array_splice(    array &$array,    int $offset,    ?int $length = nu
 
 ### список змін
 
-| Версия | Описание                               |
-|--------|----------------------------------------|
-|        | `length` тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 

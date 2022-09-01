@@ -1,16 +1,11 @@
-Повертає ідентифікатор запиту команди
-
--   [« MongoDBDriverMonitoringCommandFailedEvent::getReply](mongodb-driver-monitoring-commandfailedevent.getreply.html)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent::getServer »](mongodb-driver-monitoring-commandfailedevent.getserver.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
-    
--   Повертає ідентифікатор запиту команди
-    
-
+---
+navigation:
+  - mongodb-driver-monitoring-commandfailedevent.getreply.html: '« MongoDBDriverMonitoringCommandFailedEvent::getReply'
+  - mongodb-driver-monitoring-commandfailedevent.getserver.html: 'MongoDBDriverMonitoringCommandFailedEvent::getServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+title: 'MongoDBDriverMonitoringCommandFailedEvent::getRequestId'
+---
 # MongoDBDriverMonitoringCommandFailedEvent::getRequestId
 
 (mongodb >=1.3.0)

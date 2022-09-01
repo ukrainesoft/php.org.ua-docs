@@ -1,16 +1,11 @@
-Повертає значення цієї властивості
-
--   [« svnфсpropschanged](function.svn-fs-props-changed.html)
-    
--   [svnфсrevisionroot »](function.svn-fs-revision-root.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає значення цієї властивості
-    
-
+---
+navigation:
+  - function.svn-fs-props-changed.html: « svnфсpropschanged
+  - function.svn-fs-revision-root.html: svnфсrevisionroot »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсrevisionprop
+---
 # svnфсrevisionprop
 
 (PECL svn >= 0.1.0)

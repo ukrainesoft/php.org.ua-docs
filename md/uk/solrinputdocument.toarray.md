@@ -1,16 +1,11 @@
-Повертає подання масиву вхідного документа
-
--   [« SolrInputDocument::sort](solrinputdocument.sort.md)
-    
--   [SolrDocument »](class.solrdocument.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrInputDocument](class.solrinputdocument.md)
-    
--   Повертає подання масиву вхідного документа
-    
-
+---
+navigation:
+  - solrinputdocument.sort.md: '« SolrInputDocument::sort'
+  - class.solrdocument.md: SolrDocument »
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
+title: 'SolrInputDocument::toArray'
+---
 # SolrInputDocument::toArray
 
 (PECL solr> = 0.9.2)

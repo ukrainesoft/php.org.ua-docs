@@ -1,16 +1,11 @@
-Блокувати процес задану кількість секунд
-
--   [« Ev::run](ev.run.md)
-    
--   [Ev::stop »](ev.stop.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Блокувати процес задану кількість секунд
-    
-
+---
+navigation:
+  - ev.run.md: '« Ev::run'
+  - ev.stop.md: 'Ev::stop »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev::sleep'
+---
 # Ev::sleep
 
 (PECL ev >= 0.2.0)

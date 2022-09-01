@@ -1,16 +1,11 @@
-Вказує, чи є два вузли одним і тим же вузлом
-
--   [« DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.html)
-    
--   [DOMNode::isSupported »](domnode.issupported.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMNode](class.domnode.html)
-    
--   Вказує, чи є два вузли одним і тим же вузлом
-    
-
+---
+navigation:
+  - domnode.isdefaultnamespace.html: '« DOMNode::isDefaultNamespace'
+  - domnode.issupported.html: 'DOMNode::isSupported »'
+  - index.html: PHP Manual
+  - class.domnode.html: DOMNode
+title: 'DOMNode::isSameNode'
+---
 # DOMNode::isSameNode
 
 (PHP 5, PHP 7, PHP 8)

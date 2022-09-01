@@ -1,16 +1,11 @@
-Повертає версію Apache
-
--   [« apachegetmodules](function.apache-get-modules.html)
-    
--   [apachegetenv »](function.apache-getenv.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Apache](ref.apache.html)
-    
--   Повертає версію Apache
-    
-
+---
+navigation:
+  - function.apache-get-modules.html: « apachegetmodules
+  - function.apache-getenv.html: apachegetenv »
+  - index.html: PHP Manual
+  - ref.apache.html: Функции Apache
+title: apachegetversion
+---
 # apachegetversion
 
 (PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)

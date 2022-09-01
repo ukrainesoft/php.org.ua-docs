@@ -1,16 +1,11 @@
-Імітує тінь зображення
-
--   [« Imagick::shadeImage](imagick.shadeimage.md)
-    
--   [Imagick::sharpenImage »](imagick.sharpenimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Імітує тінь зображення
-    
-
+---
+navigation:
+  - imagick.shadeimage.md: '« Imagick::shadeImage'
+  - imagick.sharpenimage.md: 'Imagick::sharpenImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::shadowImage'
+---
 # Imagick::shadowImage
 
 (PECL imagick 2, PECL imagick 3)

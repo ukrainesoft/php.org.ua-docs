@@ -1,16 +1,11 @@
-Перехоплення лінійної регресії
-
--   [« traderlinearregangle](function.trader-linearreg-angle.html)
-    
--   [traderlinearregslope »](function.trader-linearreg-slope.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Перехоплення лінійної регресії
-    
-
+---
+navigation:
+  - function.trader-linearreg-angle.html: « traderlinearregangle
+  - function.trader-linearreg-slope.html: traderlinearregslope »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderlinearregintercept
+---
 # traderlinearregintercept
 
 (PECL trader >= 0.2.0)

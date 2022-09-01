@@ -1,16 +1,11 @@
-return
-
--   [« declare](control-structures.declare.html)
-    
--   [require »](function.require.html)
-    
--   [PHP Manual](index.html)
-    
--   [Управляющие конструкции](language.control-structures.html)
-    
--   return
-    
-
+---
+navigation:
+  - control-structures.declare.html: « declare
+  - function.require.html: require »
+  - index.html: PHP Manual
+  - language.control-structures.html: Управляющие конструкции
+title: return
+---
 ## return
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

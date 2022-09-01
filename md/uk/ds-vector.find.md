@@ -1,16 +1,11 @@
-Пошук індексу за значенням
-
--   [« DsVector::filter](ds-vector.filter.html)
-    
--   [ДсVector::first »](ds-vector.first.html)
-    
--   [PHP Manual](index.md)
-    
--   [Вектор](class.ds-vector.html)
-    
--   Пошук індексу за значенням
-    
-
+---
+navigation:
+  - ds-vector.filter.html: '« DsVector::filter'
+  - ds-vector.first.html: 'ДсVector::first »'
+  - index.md: PHP Manual
+  - class.ds-vector.html: Вектор
+title: 'ДсVector::find'
+---
 # ДсVector::find
 
 (PECL ds >= 1.0.0)

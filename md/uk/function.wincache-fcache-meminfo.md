@@ -1,16 +1,11 @@
-Отримує інформацію про використання пам'яті файлового кешу
-
--   [« wincachefcachefileinfo](function.wincache-fcache-fileinfo.html)
-    
--   [wincachelock »](function.wincache-lock.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции WinCache](ref.wincache.html)
-    
--   Отримує інформацію про використання пам'яті файлового кешу
-    
-
+---
+navigation:
+  - function.wincache-fcache-fileinfo.html: « wincachefcachefileinfo
+  - function.wincache-lock.html: wincachelock »
+  - index.html: PHP Manual
+  - ref.wincache.html: Функции WinCache
+title: wincachefcachememinfo
+---
 # wincachefcachememinfo
 
 (PECL wincache >= 1.0.0)

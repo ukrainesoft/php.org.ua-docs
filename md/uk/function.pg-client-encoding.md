@@ -1,16 +1,11 @@
-Отримання кодування клієнта.
-
--   [« pgcancelquery](function.pg-cancel-query.html)
-    
--   [пгclose »](function.pg-close.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Отримання кодування клієнта.
-    
-
+---
+navigation:
+  - function.pg-cancel-query.html: « pgcancelquery
+  - function.pg-close.html: пгclose »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгclientencoding
+---
 # пгclientencoding
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
@@ -47,10 +42,10 @@ PostgreSQL підтримує автоматичне перетворення н
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|        | `connection` тепер допускає значення null.                                                                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає код відповіді
-
--   [« EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md)
-    
--   [EventHttpRequest::getUri »](eventhttprequest.geturi.md)
-    
--   [PHP Manual](index.md)
-    
--   [EventHttpRequest](class.eventhttprequest.md)
-    
--   Повертає код відповіді
-    
-
+---
+navigation:
+  - eventhttprequest.getoutputheaders.md: '« EventHttpRequest::getOutputHeaders'
+  - eventhttprequest.geturi.md: 'EventHttpRequest::getUri »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
+title: 'EventHttpRequest::getResponseCode'
+---
 # EventHttpRequest::getResponseCode
 
 (PECL event >= 1.4.0-beta)

@@ -1,16 +1,11 @@
-Перевіряє статус тем
-
--   [« SolrClient::system](solrclient.system.md)
-    
--   [SolrResponse »](class.solrresponse.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrClient](class.solrclient.md)
-    
--   Перевіряє статус тем
-    
-
+---
+navigation:
+  - solrclient.system.md: '« SolrClient::system'
+  - class.solrresponse.md: SolrResponse »
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
+title: 'SolrClient::threads'
+---
 # SolrClient::threads
 
 (PECL solr> = 0.9.2)

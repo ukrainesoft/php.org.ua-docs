@@ -1,16 +1,11 @@
-Обрізає зображення
-
--   [« Gmagick::construct](gmagick.construct.md)
-    
--   [Gmagick::cropthumbnailimage »](gmagick.cropthumbnailimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Обрізає зображення
-    
-
+---
+navigation:
+  - gmagick.construct.md: '« Gmagick::construct'
+  - gmagick.cropthumbnailimage.md: 'Gmagick::cropthumbnailimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::cropimage'
+---
 # Gmagick::cropimage
 
 (PECL gmagick >= Unknown)

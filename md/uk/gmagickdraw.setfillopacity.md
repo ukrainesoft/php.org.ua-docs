@@ -1,16 +1,11 @@
-Встановлює непрозорість заливки
-
--   [« GmagickDraw::setfillcolor](gmagickdraw.setfillcolor.md)
-    
--   [GmagickDraw::setfont »](gmagickdraw.setfont.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Встановлює непрозорість заливки
-    
-
+---
+navigation:
+  - gmagickdraw.setfillcolor.md: '« GmagickDraw::setfillcolor'
+  - gmagickdraw.setfont.md: 'GmagickDraw::setfont »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::setfillopacity'
+---
 # GmagickDraw::setfillopacity
 
 (PECL gmagick >= Unknown)

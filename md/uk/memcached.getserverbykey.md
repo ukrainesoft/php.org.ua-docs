@@ -1,16 +1,11 @@
-Отримує інформацію про сервер по ключу
-
--   [« Memcached::getResultMessage](memcached.getresultmessage.md)
-    
--   [Memcached::getServerList »](memcached.getserverlist.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Отримує інформацію про сервер по ключу
-    
-
+---
+navigation:
+  - memcached.getresultmessage.md: '« Memcached::getResultMessage'
+  - memcached.getserverlist.md: 'Memcached::getServerList »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getServerByKey'
+---
 # Memcached::getServerByKey
 
 (PECL memcached >= 0.1.0)

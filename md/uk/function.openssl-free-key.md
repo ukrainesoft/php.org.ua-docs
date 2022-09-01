@@ -1,16 +1,11 @@
-Вивільнення ресурсу ключа
-
--   [« opensslerrorstring](function.openssl-error-string.html)
-    
--   [opensslgetcertlocations »](function.openssl-get-cert-locations.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции OpenSSL](ref.openssl.html)
-    
--   Вивільнення ресурсу ключа
-    
-
+---
+navigation:
+  - function.openssl-error-string.html: « opensslerrorstring
+  - function.openssl-get-cert-locations.html: opensslgetcertlocations »
+  - index.html: PHP Manual
+  - ref.openssl.html: Функции OpenSSL
+title: opensslfreekey
+---
 # opensslfreekey
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -39,7 +34,7 @@ openssl_free_key(OpenSSLAsymmetricKey $key): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                          |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Функція застаріла, оскільки не має сенсу.                                                                                                                         |
-|        | `key` тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймала ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла, оскільки не має сенсу. |
+|  | `key` тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймала ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |

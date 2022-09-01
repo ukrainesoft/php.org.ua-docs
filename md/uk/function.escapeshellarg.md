@@ -1,16 +1,11 @@
-Екранувати рядок для того, щоб він міг бути використаний як аргумент командного рядка
-
--   [« Функции запуска программ](ref.exec.md)
-    
--   [escapeshellcmd »](function.escapeshellcmd.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции запуска программ](ref.exec.md)
-    
--   Екранувати рядок для того, щоб він міг бути використаний як аргумент командного рядка
-    
-
+---
+navigation:
+  - ref.exec.md: « Функции запуска программ
+  - function.escapeshellcmd.md: escapeshellcmd »
+  - index.md: PHP Manual
+  - ref.exec.md: Функции запуска программ
+title: escapeshellarg
+---
 # escapeshellarg
 
 (PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)

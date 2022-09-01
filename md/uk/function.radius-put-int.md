@@ -1,16 +1,11 @@
-Приєднує цілісний атрибут
-
--   [« radiusputattr](function.radius-put-attr.html)
-    
--   [radiusputstring »](function.radius-put-string.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Radius](ref.radius.html)
-    
--   Приєднує цілісний атрибут
-    
-
+---
+navigation:
+  - function.radius-put-attr.html: « radiusputattr
+  - function.radius-put-string.html: radiusputstring »
+  - index.html: PHP Manual
+  - ref.radius.html: Функции Radius
+title: radiusputint
+---
 # radiusputint
 
 (PECL radius >= 1.1.0)
@@ -57,8 +52,8 @@ radius_put_int(    resource $radius_handle,    int $type,    int $va
 
 ### список змін
 
-| Версия            | Описание                           |
-|-------------------|------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL radius 1.3.0 | Додані параметри `options` і `tag` |
 
 ### Приклади

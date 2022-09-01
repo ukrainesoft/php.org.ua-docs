@@ -1,16 +1,11 @@
-Псевдонім isint
-
--   [« isint](function.is-int.html)
-    
--   [ісiterable »](function.is-iterable.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Псевдонім isint
-    
-
+---
+navigation:
+  - function.is-int.html: « isint
+  - function.is-iterable.html: ісiterable »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісinteger
+---
 # ісinteger
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

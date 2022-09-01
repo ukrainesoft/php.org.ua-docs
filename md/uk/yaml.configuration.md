@@ -1,30 +1,25 @@
-Налаштування під час виконання
-
--   [« Установка](yaml.installation.html)
-    
--   [Типи ресурсів »](yaml.resources.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](yaml.setup.html)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - yaml.installation.html: « Установка
+  - yaml.resources.html: Типи ресурсів »
+  - index.html: PHP Manual
+  - yaml.setup.html: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Yaml**
 
-| Имя                                                                       | По умолчанию | Место изменения | Список изменений                                                 |
-|---------------------------------------------------------------------------|--------------|-----------------|------------------------------------------------------------------|
-| [yaml.decodebinary](yaml.configuration.html#ini.yaml.decode-binary)       |              | PHPINIALL       |                                                                  |
-| [yaml.decodephp](yaml.configuration.html#ini.yaml.decode-php)             |              | PHPINIALL       | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
-| [yaml.decodetimestamp](yaml.configuration.html#ini.yaml.decode-timestamp) |              | PHPINIALL       |                                                                  |
-| [yaml.outputcanonical](yaml.configuration.html#ini.yaml.output-canonical) |              | PHPINIALL       |                                                                  |
-| [yaml.outputindent](yaml.configuration.html#ini.yaml.output-indent)       |              | PHPINIALL       |                                                                  |
-| [yaml.outputwidth](yaml.configuration.html#ini.yaml.output-width)         |              | PHPINIALL       |                                                                  |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [yaml.decodebinary](yaml.configuration.html#ini.yaml.decode-binary) |  | PHPINIALL |  |
+| [yaml.decodephp](yaml.configuration.html#ini.yaml.decode-php) |  | PHPINIALL | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
+| [yaml.decodetimestamp](yaml.configuration.html#ini.yaml.decode-timestamp) |  | PHPINIALL |  |
+| [yaml.outputcanonical](yaml.configuration.html#ini.yaml.output-canonical) |  | PHPINIALL |  |
+| [yaml.outputindent](yaml.configuration.html#ini.yaml.output-indent) |  | PHPINIALL |  |
+| [yaml.outputwidth](yaml.configuration.html#ini.yaml.output-width) |  | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

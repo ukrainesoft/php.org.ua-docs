@@ -1,16 +1,11 @@
-CSPRNG
-
--   [« Криптографічні модулі](refs.crypto.md)
-    
--   [Введение »](intro.csprng.md)
-    
--   [PHP Manual](index.md)
-    
--   [Криптографічні модулі](refs.crypto.md)
-    
--   CSPRNG
-    
-
+---
+navigation:
+  - refs.crypto.md: « Криптографічні модулі
+  - intro.csprng.md: Введение »
+  - index.md: PHP Manual
+  - refs.crypto.md: Криптографічні модулі
+title: CSPRNG
+---
 # CSPRNG
 
 -   [Введение](intro.csprng.md)

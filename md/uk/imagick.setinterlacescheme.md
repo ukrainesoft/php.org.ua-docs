@@ -1,16 +1,11 @@
-Встановлює стиснення зображення
-
--   [« Imagick::setImageWhitePoint](imagick.setimagewhitepoint.html)
-    
--   [Imagick::setIteratorIndex »](imagick.setiteratorindex.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює стиснення зображення
-    
-
+---
+navigation:
+  - imagick.setimagewhitepoint.html: '« Imagick::setImageWhitePoint'
+  - imagick.setiteratorindex.html: 'Imagick::setIteratorIndex »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setInterlaceScheme'
+---
 # Imagick::setInterlaceScheme
 
 (PECL imagick 2, PECL imagick 3)

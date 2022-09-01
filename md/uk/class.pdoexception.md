@@ -1,16 +1,11 @@
-Клас PDOException
-
--   [« PDOStatement::setFetchMode](pdostatement.setfetchmode.html)
-    
--   [Драйвери PDO »](pdo.drivers.html)
-    
--   [PHP Manual](index.html)
-    
--   [PDO](book.pdo.html)
-    
--   Клас PDOException
-    
-
+---
+navigation:
+  - pdostatement.setfetchmode.html: '« PDOStatement::setFetchMode'
+  - pdo.drivers.html: Драйвери PDO »
+  - index.html: PHP Manual
+  - book.pdo.html: PDO
+title: Клас PDOException
+---
 # Клас PDOException
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

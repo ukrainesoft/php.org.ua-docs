@@ -1,16 +1,11 @@
-Клас Generator
-
--   [« Closure::fromCallable](closure.fromcallable.md)
-    
--   [Generator::current »](generator.current.md)
-    
--   [PHP Manual](index.md)
-    
--   [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-    
--   Клас Generator
-    
-
+---
+navigation:
+  - closure.fromcallable.md: '« Closure::fromCallable'
+  - generator.current.md: 'Generator::current »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
+title: Клас Generator
+---
 # Клас Generator
 
 (PHP 5> = 5.5.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Інтерфейс MongoDBDriverCursorInterface
-
--   [« MongoDBDriverCursorId::unserialize](mongodb-driver-cursorid.unserialize.html)
-    
--   [MongoDBDriverCursorInterface::getId »](mongodb-driver-cursorinterface.getid.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriver](book.mongodb.md)
-    
--   Інтерфейс MongoDBDriverCursorInterface
-    
-
+---
+navigation:
+  - mongodb-driver-cursorid.unserialize.html: '« MongoDBDriverCursorId::unserialize'
+  - mongodb-driver-cursorinterface.getid.html: 'MongoDBDriverCursorInterface::getId »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
+title: Інтерфейс MongoDBDriverCursorInterface
+---
 # Інтерфейс MongoDBDriverCursorInterface
 
 (mongodb >=1.6.0)
@@ -47,8 +42,8 @@ abstract public toArray(): array
 
 ## список змін
 
-| Версия              | Описание                                                                                                                                                                                                                                                                                                                |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст

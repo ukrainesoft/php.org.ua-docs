@@ -1,16 +1,11 @@
-Функції модуля Fileinfo
-
--   [« Обумовлені константи](fileinfo.constants.html)
-    
--   [finfobuffer »](function.finfo-buffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [FileInfo](book.fileinfo.html)
-    
--   Функції модуля Fileinfo
-    
-
+---
+navigation:
+  - fileinfo.constants.html: « Обумовлені константи
+  - function.finfo-buffer.html: finfobuffer »
+  - index.html: PHP Manual
+  - book.fileinfo.html: FileInfo
+title: Функції модуля Fileinfo
+---
 # Функції модуля Fileinfo
 
 ## Зміст

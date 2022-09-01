@@ -1,16 +1,11 @@
-Вектор тригонометричний арксинус
-
--   [« traderaroonosc](function.trader-aroonosc.html)
-    
--   [traderatan »](function.trader-atan.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вектор тригонометричний арксинус
-    
-
+---
+navigation:
+  - function.trader-aroonosc.html: « traderaroonosc
+  - function.trader-atan.html: traderatan »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderasin
+---
 # traderasin
 
 (PECL trader >= 0.2.0)

@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.ftp.html)
-    
--   [Вимоги »](ftp.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [FTP](book.ftp.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.ftp.html: « Введение
+  - ftp.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.ftp.html: FTP
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

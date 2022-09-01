@@ -1,16 +1,11 @@
-Встановлює кодування клієнта
-
--   [« mysqlselectдб](function.mysql-select-db.html)
-    
--   [mysqlstat »](function.mysql-stat.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Встановлює кодування клієнта
-    
-
+---
+navigation:
+  - function.mysql-select-db.html: « mysqlselectдб
+  - function.mysql-stat.html: mysqlstat »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlsetcharset
+---
 # mysqlsetcharset
 
 (PHP 5> = 5.2.3)

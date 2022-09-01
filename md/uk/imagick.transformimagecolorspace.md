@@ -1,16 +1,11 @@
-Перетворює зображення на новий колірний простір
-
--   [« Imagick::transformImage](imagick.transformimage.md)
-    
--   [Imagick::transparentPaintImage »](imagick.transparentpaintimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Перетворює зображення на новий колірний простір
-    
-
+---
+navigation:
+  - imagick.transformimage.md: '« Imagick::transformImage'
+  - imagick.transparentpaintimage.md: 'Imagick::transparentPaintImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::transformImageColorspace'
+---
 # Imagick::transformImageColorspace
 
 (PECL imagick 3)

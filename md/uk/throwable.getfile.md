@@ -1,16 +1,11 @@
-Повертає файл, у якому викинуто виняток
-
--   [« Throwable::getCode](throwable.getcode.md)
-    
--   [Throwable::getLine »](throwable.getline.md)
-    
--   [PHP Manual](index.md)
-    
--   [Throwable](class.throwable.md)
-    
--   Повертає файл, у якому викинуто виняток
-    
-
+---
+navigation:
+  - throwable.getcode.md: '« Throwable::getCode'
+  - throwable.getline.md: 'Throwable::getLine »'
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::getFile'
+---
 # Throwable::getFile
 
 (PHP 7, PHP 8)

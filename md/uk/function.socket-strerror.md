@@ -1,16 +1,11 @@
-Повертає рядок, що описує помилку сокету
-
--   [« socketshutdown](function.socket-shutdown.html)
-    
--   [socketwrite »](function.socket-write.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции сокета](ref.sockets.html)
-    
--   Повертає рядок, що описує помилку сокету
-    
-
+---
+navigation:
+  - function.socket-shutdown.html: « socketshutdown
+  - function.socket-write.html: socketwrite »
+  - index.html: PHP Manual
+  - ref.sockets.html: Функции сокета
+title: socketstrerror
+---
 # socketstrerror
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

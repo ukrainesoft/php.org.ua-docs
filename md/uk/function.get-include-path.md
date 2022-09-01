@@ -1,16 +1,11 @@
-Отримання поточного значення конфігураційної установки includepath
-
--   [« getextensionfuncs](function.get-extension-funcs.html)
-    
--   [getincludedfiles »](function.get-included-files.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримання поточного значення конфігураційної установки includepath
-    
-
+---
+navigation:
+  - function.get-extension-funcs.html: « getextensionfuncs
+  - function.get-included-files.html: getincludedfiles »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: getincludepath
+---
 # getincludepath
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

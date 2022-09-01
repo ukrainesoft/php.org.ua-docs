@@ -1,16 +1,11 @@
-Слизька середня збіжність/дивергенція
-
--   [« traderма](function.trader-ma.html)
-    
--   [tradermacdext »](function.trader-macdext.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Слизька середня збіжність/дивергенція
-    
-
+---
+navigation:
+  - function.trader-ma.html: « traderма
+  - function.trader-macdext.html: tradermacdext »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermacd
+---
 # tradermacd
 
 (PECL trader >= 0.2.0)

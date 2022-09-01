@@ -1,16 +1,11 @@
-Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
-
--   [« pgport](function.pg-port.html)
-    
--   [пгputline »](function.pg-put-line.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции PostgreSQL](ref.pgsql.md)
-    
--   Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
-    
-
+---
+navigation:
+  - function.pg-port.html: « pgport
+  - function.pg-put-line.html: пгputline »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
+title: пгprepare
+---
 # пгprepare
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -53,10 +48,10 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                     |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.md)                                  |
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Повертає кількість існуючих оновлених документів
-
--   [« MongoDBDriverWriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.html)
-    
--   [MongoDBDriverWriteResult::getServer »](mongodb-driver-writeresult.getserver.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
-    
--   Повертає кількість існуючих оновлених документів
-    
-
+---
+navigation:
+  - mongodb-driver-writeresult.getmatchedcount.html: '« MongoDBDriverWriteResult::getMatchedCount'
+  - mongodb-driver-writeresult.getserver.html: 'MongoDBDriverWriteResult::getServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+title: 'MongoDBDriverWriteResult::getModifiedCount'
+---
 # MongoDBDriverWriteResult::getModifiedCount
 
 (mongodb >=1.0.0)

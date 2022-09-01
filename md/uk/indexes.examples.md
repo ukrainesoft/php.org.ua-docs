@@ -1,16 +1,11 @@
-Список прикладів
-
--   [« Список функций и методов](indexes.functions.md)
-    
--   [Список изменений »](doc.changelog.md)
-    
--   [PHP Manual](index.md)
-    
--   [Алфавітний перелік](indexes.md)
-    
--   Список прикладів
-    
-
+---
+navigation:
+  - indexes.functions.md: « Список функций и методов
+  - doc.changelog.md: Список изменений »
+  - index.md: PHP Manual
+  - indexes.md: Алфавітний перелік
+title: Список прикладів
+---
 ## Список прикладів
 
 Список усіх прикладів у посібнику

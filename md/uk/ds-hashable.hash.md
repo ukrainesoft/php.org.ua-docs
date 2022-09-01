@@ -1,16 +1,11 @@
-Повертає скалярне значення для використання як значення хешу
-
--   [« DsHashable::equals](ds-hashable.equals.html)
-    
--   [Послідовність »](class.ds-sequence.html)
-    
--   [PHP Manual](index.html)
-    
--   [Хешируемое](class.ds-hashable.html)
-    
--   Повертає скалярне значення для використання як значення хешу
-    
-
+---
+navigation:
+  - ds-hashable.equals.html: '« DsHashable::equals'
+  - class.ds-sequence.html: Послідовність »
+  - index.html: PHP Manual
+  - class.ds-hashable.html: Хешируемое
+title: 'ДсHashable::hash'
+---
 # ДсHashable::hash
 
 (PECL ds >= 1.0.0)

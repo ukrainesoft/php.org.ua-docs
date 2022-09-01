@@ -1,16 +1,11 @@
-Отримує нестабільний період
-
--   [« tradergetcompat](function.trader-get-compat.html)
-    
--   [traderхтdcperiod »](function.trader-ht-dcperiod.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Отримує нестабільний період
-    
-
+---
+navigation:
+  - function.trader-get-compat.html: « tradergetcompat
+  - function.trader-ht-dcperiod.html: traderхтdcperiod »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradergetunstableперіод
+---
 # tradergetunstableперіод
 
 (PECL trader >= 0.2.2)

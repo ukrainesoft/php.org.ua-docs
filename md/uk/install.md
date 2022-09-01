@@ -1,14 +1,10 @@
-Встановлення та налаштування
-
--   [" Що далі?](tutorial.whatsnext.md)
-    
--   [Общие инструкции по установке »](install.general.md)
-    
--   [PHP Manual](index.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - tutorial.whatsnext.md: '" Що далі?'
+  - install.general.md: Общие инструкции по установке »
+  - index.md: PHP Manual
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 -   [Общие инструкции по установке](install.general.md)

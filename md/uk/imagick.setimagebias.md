@@ -1,16 +1,11 @@
-Встановлює зміщення зображення для будь-якого методу, який згортає зображення
-
--   [« Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.html)
-    
--   [Imagick::setImageBiasQuantum »](imagick.setimagebiasquantum.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Встановлює зміщення зображення для будь-якого методу, який згортає зображення
-    
-
+---
+navigation:
+  - imagick.setimagebackgroundcolor.html: '« Imagick::setImageBackgroundColor'
+  - imagick.setimagebiasquantum.html: 'Imagick::setImageBiasQuantum »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::setImageBias'
+---
 # Imagick::setImageBias
 
 (PECL imagick 2, PECL imagick 3)

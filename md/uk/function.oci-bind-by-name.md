@@ -1,16 +1,11 @@
-Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
-
--   [« ocibindarrayбname](function.oci-bind-array-by-name.html)
-    
--   [ocicancel »](function.oci-cancel.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
-    
-
+---
+navigation:
+  - function.oci-bind-array-by-name.html: « ocibindarrayбname
+  - function.oci-cancel.html: ocicancel »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocibindбname
+---
 # ocibindбname
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

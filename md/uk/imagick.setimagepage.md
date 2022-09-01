@@ -1,16 +1,11 @@
-Встановлює геометрію сторінки зображення
-
--   [« Imagick::setImageOrientation](imagick.setimageorientation.md)
-    
--   [Imagick::setImageProfile »](imagick.setimageprofile.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Встановлює геометрію сторінки зображення
-    
-
+---
+navigation:
+  - imagick.setimageorientation.md: '« Imagick::setImageOrientation'
+  - imagick.setimageprofile.md: 'Imagick::setImageProfile »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::setImagePage'
+---
 # Imagick::setImagePage
 
 (PECL imagick 2, PECL imagick 3)

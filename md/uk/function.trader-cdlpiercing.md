@@ -1,16 +1,11 @@
-Паттерн "Просвіт у хмарах"
-
--   [« tradercdlonneck](function.trader-cdlonneck.html)
-    
--   [tradercdlrickshawman »](function.trader-cdlrickshawman.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Паттерн "Просвіт у хмарах"
-    
-
+---
+navigation:
+  - function.trader-cdlonneck.html: « tradercdlonneck
+  - function.trader-cdlrickshawman.html: tradercdlrickshawman »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdlpiercing
+---
 # tradercdlpiercing
 
 (PECL trader >= 0.2.0)

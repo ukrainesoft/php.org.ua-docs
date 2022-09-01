@@ -1,16 +1,11 @@
-Стартує нову сесію або відновлює існуючу
-
--   [« sessionsetsavehandler](function.session-set-save-handler.html)
-    
--   [sessionstatus »](function.session-status.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Стартує нову сесію або відновлює існуючу
-    
-
+---
+navigation:
+  - function.session-set-save-handler.html: « sessionsetsavehandler
+  - function.session-status.html: sessionstatus »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessionstart
+---
 # sessionstart
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ session_start(array $options = []): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                             |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | **sessionstart()** тепер повертає **`false`** і більше не ініціалізує [SESSION](reserved.variables.session.html)коли вона не змогла запустити сесію. |
+| Версия | Описание |
+| --- | --- |
+|  | **sessionstart()** тепер повертає **`false`** і більше не ініціалізує [SESSION](reserved.variables.session.html)коли вона не змогла запустити сесію. |
 
 ### Приклади
 

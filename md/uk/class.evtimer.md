@@ -1,16 +1,11 @@
-Клас EvTimer
-
--   [« EvStat::stat](evstat.stat.html)
-    
--   [EvTimer::again »](evtimer.again.html)
-    
--   [PHP Manual](index.html)
-    
--   [Єв](book.ev.html)
-    
--   Клас EvTimer
-    
-
+---
+navigation:
+  - evstat.stat.html: '« EvStat::stat'
+  - evtimer.again.html: 'EvTimer::again »'
+  - index.html: PHP Manual
+  - book.ev.html: Єв
+title: Клас EvTimer
+---
 # Клас EvTimer
 
 (PECL ev >= 0.2.0)

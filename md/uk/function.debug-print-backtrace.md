@@ -1,16 +1,11 @@
-Виводить стек викликів функцій
-
--   [« debugbacktrace](function.debug-backtrace.html)
-    
--   [errorclearlast »](function.error-clear-last.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции обработки ошибок](ref.errorfunc.html)
-    
--   Виводить стек викликів функцій
-    
-
+---
+navigation:
+  - function.debug-backtrace.html: « debugbacktrace
+  - function.error-clear-last.html: errorclearlast »
+  - index.html: PHP Manual
+  - ref.errorfunc.html: Функции обработки ошибок
+title: debugprintbacktrace
+---
 # debugprintbacktrace
 
 (PHP 5, PHP 7, PHP 8)

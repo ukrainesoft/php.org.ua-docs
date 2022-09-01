@@ -1,16 +1,11 @@
-Індекс грошових потоків
-
--   [« tradermedprice](function.trader-medprice.html)
-    
--   [tradermidpoint »](function.trader-midpoint.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Індекс грошових потоків
-    
-
+---
+navigation:
+  - function.trader-medprice.html: « tradermedprice
+  - function.trader-midpoint.html: tradermidpoint »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradermfi
+---
 # tradermfi
 
 (PECL trader >= 0.2.0)

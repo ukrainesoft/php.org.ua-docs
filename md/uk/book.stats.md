@@ -1,16 +1,11 @@
-Статистика
-
--   [« tanh](function.tanh.md)
-    
--   [Введение »](intro.stats.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні модулі](refs.math.md)
-    
--   Статистика
-    
-
+---
+navigation:
+  - function.tanh.md: « tanh
+  - intro.stats.md: Введение »
+  - index.md: PHP Manual
+  - refs.math.md: Математичні модулі
+title: Статистика
+---
 # Статистика
 
 -   [Введение](intro.stats.md)

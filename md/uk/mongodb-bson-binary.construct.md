@@ -1,16 +1,11 @@
-Створює новий Binary
-
--   [« MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   [MongoDBBSONBinary::getData »](mongodb-bson-binary.getdata.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   Створює новий Binary
-    
-
+---
+navigation:
+  - class.mongodb-bson-binary.html: « MongoDBBSONBinary
+  - mongodb-bson-binary.getdata.html: 'MongoDBBSONBinary::getData »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::construct'
+---
 # MongoDBBSONBinary::construct
 
 (mongodb >=1.0.0)
@@ -41,10 +36,10 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type)
 
 ### список змін
 
-| Версия                                                                                                                                                                                                                                                             | Описание |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.3.0                                                                                                                                                                                                                                                 |          |
-| [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.3.0 |  |
+| [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |  |
 
 | | PECL mongodb 1.1.3 |
 

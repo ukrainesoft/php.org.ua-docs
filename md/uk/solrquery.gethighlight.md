@@ -1,16 +1,11 @@
-Повертає стан параметра hl
-
--   [« SolrQuery::getGroupTruncate](solrquery.getgrouptruncate.md)
-    
--   [SolrQuery::getHighlightAlternateField »](solrquery.gethighlightalternatefield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає стан параметра hl
-    
-
+---
+navigation:
+  - solrquery.getgrouptruncate.md: '« SolrQuery::getGroupTruncate'
+  - solrquery.gethighlightalternatefield.md: 'SolrQuery::getHighlightAlternateField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getHighlight'
+---
 # SolrQuery::getHighlight
 
 (PECL solr> = 0.9.2)

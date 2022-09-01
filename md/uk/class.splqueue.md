@@ -1,16 +1,11 @@
-Клас SplQueue
-
--   [« SplStack::setIteratorMode](splstack.setiteratormode.md)
-    
--   [SplQueue::construct »](splqueue.construct.md)
-    
--   [PHP Manual](index.md)
-    
--   [Структури даних](spl.datastructures.md)
-    
--   Клас SplQueue
-    
-
+---
+navigation:
+  - splstack.setiteratormode.md: '« SplStack::setIteratorMode'
+  - splqueue.construct.md: 'SplQueue::construct »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
+title: Клас SplQueue
+---
 # Клас SplQueue
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

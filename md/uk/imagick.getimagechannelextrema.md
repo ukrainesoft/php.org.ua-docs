@@ -1,16 +1,11 @@
-Повертає екстремуми для одного або кількох каналів зображення
-
--   [« Imagick::getImageChannelDistortions](imagick.getimagechanneldistortions.html)
-    
--   [Imagick::getImageChannelKurtosis »](imagick.getimagechannelkurtosis.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає екстремуми для одного або кількох каналів зображення
-    
-
+---
+navigation:
+  - imagick.getimagechanneldistortions.html: '« Imagick::getImageChannelDistortions'
+  - imagick.getimagechannelkurtosis.html: 'Imagick::getImageChannelKurtosis »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageChannelExtrema'
+---
 # Imagick::getImageChannelExtrema
 
 (PECL imagick 2, PECL imagick 3)

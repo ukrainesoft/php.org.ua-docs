@@ -1,16 +1,11 @@
-Клас YafRegistry
-
--   [« YafPluginAbstract::routerStartup](yaf-plugin-abstract.routerstartup.html)
-    
--   [YafRegistry::construct »](yaf-registry.construct.html)
-    
--   [PHP Manual](index.md)
-    
--   [Yaf](book.yaf.md)
-    
--   Клас YafRegistry
-    
-
+---
+navigation:
+  - yaf-plugin-abstract.routerstartup.html: '« YafPluginAbstract::routerStartup'
+  - yaf-registry.construct.html: 'YafRegistry::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
+title: Клас YafRegistry
+---
 # Клас YafRegistry
 
 (Yaf >=1.0.0)

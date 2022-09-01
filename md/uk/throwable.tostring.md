@@ -1,16 +1,11 @@
-Отримує рядкову виставу викинутого об'єкта
-
--   [« Throwable::getPrevious](throwable.getprevious.md)
-    
--   [ArrayAccess »](class.arrayaccess.md)
-    
--   [PHP Manual](index.md)
-    
--   [Throwable](class.throwable.md)
-    
--   Отримує рядкову виставу викинутого об'єкта
-    
-
+---
+navigation:
+  - throwable.getprevious.md: '« Throwable::getPrevious'
+  - class.arrayaccess.md: ArrayAccess »
+  - index.md: PHP Manual
+  - class.throwable.md: Throwable
+title: 'Throwable::toString'
+---
 # Throwable::toString
 
 (PHP 7, PHP 8)

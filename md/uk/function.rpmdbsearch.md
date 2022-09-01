@@ -1,16 +1,11 @@
-Пошук RPM-пакетів
-
--   [« rpmdbinfo](function.rpmdbinfo.md)
-    
--   [rpminfo »](function.rpminfo.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції RpmInfo](ref.rpminfo.md)
-    
--   Пошук RPM-пакетів
-    
-
+---
+navigation:
+  - function.rpmdbinfo.md: « rpmdbinfo
+  - function.rpminfo.md: rpminfo »
+  - index.md: PHP Manual
+  - ref.rpminfo.md: Функції RpmInfo
+title: rpmdbsearch
+---
 # rpmdbsearch
 
 (PECL rpminfo >= 0.3.0)

@@ -1,16 +1,11 @@
-Вказує ім'я для дії
-
--   [« ociserverversion](function.oci-server-version.html)
-    
--   [ocisetcalltimeout »](function.oci-set-call-timout.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Вказує ім'я для дії
-    
-
+---
+navigation:
+  - function.oci-server-version.html: « ociserverversion
+  - function.oci-set-call-timout.html: ocisetcalltimeout »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ocisetaction
+---
 # ocisetaction
 
 (PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)

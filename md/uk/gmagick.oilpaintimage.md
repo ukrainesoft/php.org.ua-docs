@@ -1,16 +1,11 @@
-Імітує ефект картини олією
-
--   [« Gmagick::normalizeimage](gmagick.normalizeimage.md)
-    
--   [Gmagick::previousimage »](gmagick.previousimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Gmagick](class.gmagick.md)
-    
--   Імітує ефект картини олією
-    
-
+---
+navigation:
+  - gmagick.normalizeimage.md: '« Gmagick::normalizeimage'
+  - gmagick.previousimage.md: 'Gmagick::previousimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
+title: 'Gmagick::oilpaintimage'
+---
 # Gmagick::oilpaintimage
 
 (PECL gmagick >= Unknown)

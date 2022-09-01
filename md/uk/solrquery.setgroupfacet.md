@@ -1,16 +1,11 @@
-Встановлює параметр group.facet
-
--   [« SolrQuery::setGroupCachePercent](solrquery.setgroupcachepercent.html)
-    
--   [SolrQuery::setGroupFormat »](solrquery.setgroupformat.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює параметр group.facet
-    
-
+---
+navigation:
+  - solrquery.setgroupcachepercent.html: '« SolrQuery::setGroupCachePercent'
+  - solrquery.setgroupformat.html: 'SolrQuery::setGroupFormat »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setGroupFacet'
+---
 # SolrQuery::setGroupFacet
 
 (PECL solr> = 2.2.0)

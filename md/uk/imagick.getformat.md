@@ -1,16 +1,11 @@
-Повертає формат Imagick об'єкту
-
--   [« Imagick::getFont](imagick.getfont.md)
-    
--   [Imagick::getGravity »](imagick.getgravity.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає формат Imagick об'єкту
-    
-
+---
+navigation:
+  - imagick.getfont.md: '« Imagick::getFont'
+  - imagick.getgravity.md: 'Imagick::getGravity »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getFormat'
+---
 # Imagick::getFormat
 
 (PECL imagick 2, PECL imagick 3)

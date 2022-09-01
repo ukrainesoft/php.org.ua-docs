@@ -1,16 +1,11 @@
-Відправка виключення завдання, що виконується
-
--   [« GearmanJob::sendData](gearmanjob.senddata.html)
-    
--   [GearmanJob::sendFail »](gearmanjob.sendfail.html)
-    
--   [PHP Manual](index.html)
-    
--   [GearmanJob](class.gearmanjob.html)
-    
--   Відправка виключення завдання, що виконується
-    
-
+---
+navigation:
+  - gearmanjob.senddata.html: '« GearmanJob::sendData'
+  - gearmanjob.sendfail.html: 'GearmanJob::sendFail »'
+  - index.html: PHP Manual
+  - class.gearmanjob.html: GearmanJob
+title: 'GearmanJob::sendException'
+---
 # GearmanJob::sendException
 
 (PECL gearman >= 0.6.0)

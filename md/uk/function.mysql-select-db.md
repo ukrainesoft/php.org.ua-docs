@@ -1,16 +1,11 @@
-Вибирає базу даних MySQL
-
--   [« mysqlresult](function.mysql-result.html)
-    
--   [mysqlsetcharset »](function.mysql-set-charset.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Вибирає базу даних MySQL
-    
-
+---
+navigation:
+  - function.mysql-result.html: « mysqlresult
+  - function.mysql-set-charset.html: mysqlsetcharset »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlselectдб
+---
 # mysqlselectдб
 
 (PHP 4, PHP 5)

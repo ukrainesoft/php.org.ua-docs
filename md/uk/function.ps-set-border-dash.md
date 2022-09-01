@@ -1,16 +1,11 @@
-Встановлює довжину тире для межі анотації
-
--   [«pssetbordercolor](function.ps-set-border-color.html)
-    
--   [псsetborderstyle »](function.ps-set-border-style.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції PS](ref.ps.md)
-    
--   Встановлює довжину тире для межі анотації
-    
-
+---
+navigation:
+  - function.ps-set-border-color.html: «pssetbordercolor
+  - function.ps-set-border-style.html: псsetborderstyle »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
+title: псsetborderdash
+---
 # псsetborderdash
 
 (PECL ps >= 1.1.0)

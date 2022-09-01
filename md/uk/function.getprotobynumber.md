@@ -1,16 +1,11 @@
-Отримує ім'я протоколу за номером
-
--   [« getprotobyname](function.getprotobyname.html)
-    
--   [getservbyname »](function.getservbyname.html)
-    
--   [PHP Manual](index.html)
-    
--   [Мережеві функції](ref.network.html)
-    
--   Отримує ім'я протоколу за номером
-    
-
+---
+navigation:
+  - function.getprotobyname.html: « getprotobyname
+  - function.getservbyname.html: getservbyname »
+  - index.html: PHP Manual
+  - ref.network.html: Мережеві функції
+title: getprotobynumber
+---
 # getprotobynumber
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

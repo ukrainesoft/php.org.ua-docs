@@ -1,16 +1,11 @@
-Функції COM
-
--   [« comexception](class.com-exception.html)
-    
--   [comcreateguid »](function.com-create-guid.html)
-    
--   [PHP Manual](index.md)
-    
--   [COM](book.com.md)
-    
--   Функції COM
-    
-
+---
+navigation:
+  - class.com-exception.html: « comexception
+  - function.com-create-guid.html: comcreateguid »
+  - index.md: PHP Manual
+  - book.com.md: COM
+title: Функції COM
+---
 # Функції COM
 
 ## Дивіться також

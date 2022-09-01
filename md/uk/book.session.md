@@ -1,16 +1,11 @@
-Управління сесіями
-
--   [« Модулі для роботи з сесіями](refs.basic.session.md)
-    
--   [Введение »](intro.session.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модулі для роботи із сесіями](refs.basic.session.md)
-    
--   Управління сесіями
-    
-
+---
+navigation:
+  - refs.basic.session.md: « Модулі для роботи з сесіями
+  - intro.session.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.session.md: Модулі для роботи із сесіями
+title: Управління сесіями
+---
 # Управління сесіями
 
 -   [Введение](intro.session.md)

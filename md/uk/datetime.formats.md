@@ -1,16 +1,11 @@
-Допустимі формати дати/часу
-
--   [« timezoneversionget](function.timezone-version-get.html)
-    
--   [Формати времени »](datetime.formats.time.html)
-    
--   [PHP Manual](index.html)
-    
--   [Дата/время](book.datetime.html)
-    
--   Допустимі формати дати/часу
-    
-
+---
+navigation:
+  - function.timezone-version-get.html: « timezoneversionget
+  - datetime.formats.time.html: Формати времени »
+  - index.html: PHP Manual
+  - book.datetime.html: Дата/время
+title: Допустимі формати дати/часу
+---
 # Допустимі формати дати/часу
 
 ## Зміст

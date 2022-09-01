@@ -1,16 +1,11 @@
-Поміщає дані з файлу до кешу сторінки
-
--   [« eioread](function.eio-read.html)
-    
--   [eioreaddir »](function.eio-readdir.html)
-    
--   [PHP Manual](index.md)
-    
--   [Eio Функции](ref.eio.md)
-    
--   Поміщає дані з файлу до кешу сторінки
-    
-
+---
+navigation:
+  - function.eio-read.html: « eioread
+  - function.eio-readdir.html: eioreaddir »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
+title: eioreadahead
+---
 # eioreadahead
 
 (PECL eio >= 0.0.1dev)

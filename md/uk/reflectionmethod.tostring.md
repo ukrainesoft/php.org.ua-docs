@@ -1,16 +1,11 @@
-Повертає рядкову виставу об'єкта ReflectionMethod
-
--   [« ReflectionMethod::setAccessible](reflectionmethod.setaccessible.html)
-    
--   [ReflectionNamedType »](class.reflectionnamedtype.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionMethod](class.reflectionmethod.html)
-    
--   Повертає рядкову виставу об'єкта ReflectionMethod
-    
-
+---
+navigation:
+  - reflectionmethod.setaccessible.html: '« ReflectionMethod::setAccessible'
+  - class.reflectionnamedtype.html: ReflectionNamedType »
+  - index.html: PHP Manual
+  - class.reflectionmethod.html: ReflectionMethod
+title: 'ReflectionMethod::toString'
+---
 # ReflectionMethod::toString
 
 (PHP 5, PHP 7, PHP 8)

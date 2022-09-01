@@ -1,16 +1,11 @@
-Обчислює один із параметрів розподілу Стьюдента за рештою
-
--   [« statscdfpoisson](function.stats-cdf-poisson.html)
-    
--   [statscdfuniform »](function.stats-cdf-uniform.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції статистики](ref.stats.html)
-    
--   Обчислює один із параметрів розподілу Стьюдента за рештою
-    
-
+---
+navigation:
+  - function.stats-cdf-poisson.html: « statscdfpoisson
+  - function.stats-cdf-uniform.html: statscdfuniform »
+  - index.html: PHP Manual
+  - ref.stats.html: Функції статистики
+title: statscdfт
+---
 # statscdfт
 
 (PECL stats >= 1.0.0)
@@ -30,10 +25,10 @@ stats_cdf_t(float $par1, float $par2, int $which): float
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` |
-|---------|-----------------------|--------|--------|
-|         | CDF                   | з      | ну     |
-|         | з                     | CDF    | ну     |
-|         | ну                    | з      | CDF    |
+| --- | --- | --- | --- |
+|  | CDF | з | ну |
+|  | з | CDF | ну |
+|  | ну | з | CDF |
 
 ### Список параметрів
 

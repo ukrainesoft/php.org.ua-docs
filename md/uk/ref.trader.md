@@ -1,16 +1,11 @@
-Функції Trader
-
--   [« Обумовлені константи](trader.constants.html)
-    
--   [traderacos »](function.trader-acos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Trader](book.trader.html)
-    
--   Функції Trader
-    
-
+---
+navigation:
+  - trader.constants.html: « Обумовлені константи
+  - function.trader-acos.html: traderacos »
+  - index.html: PHP Manual
+  - book.trader.html: Trader
+title: Функції Trader
+---
 # Функції Trader
 
 ## Зміст

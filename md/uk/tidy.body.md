@@ -1,16 +1,11 @@
-Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
-
--   [« tidy](class.tidy.md)
-    
--   [tidy::cleanRepair »](tidy.cleanrepair.md)
-    
--   [PHP Manual](index.md)
-    
--   [tidy](class.tidy.md)
-    
--   Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
-    
-
+---
+navigation:
+  - class.tidy.md: « tidy
+  - tidy.cleanrepair.md: 'tidy::cleanRepair »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
+title: 'tidy::body'
+---
 # tidy::body
 
 # tidygetbody

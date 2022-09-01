@@ -1,16 +1,11 @@
-Налаштування спостерігача
-
--   [« EvSignal::createStopped](evsignal.createstopped.md)
-    
--   [EvStat »](class.evstat.md)
-    
--   [PHP Manual](index.md)
-    
--   [EvSignal](class.evsignal.md)
-    
--   Налаштування спостерігача
-    
-
+---
+navigation:
+  - evsignal.createstopped.md: '« EvSignal::createStopped'
+  - class.evstat.md: EvStat »
+  - index.md: PHP Manual
+  - class.evsignal.md: EvSignal
+title: 'EvSignal::set'
+---
 # EvSignal::set
 
 (PECL ev >= 0.2.0)

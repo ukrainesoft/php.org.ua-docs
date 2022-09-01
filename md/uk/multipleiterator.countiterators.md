@@ -1,16 +1,11 @@
-Отримує кількість приєднаних ітераторів
-
--   [« MultipleIterator::containsIterator](multipleiterator.containsiterator.html)
-    
--   [MultipleIterator::current »](multipleiterator.current.html)
-    
--   [PHP Manual](index.html)
-    
--   [MultipleIterator](class.multipleiterator.html)
-    
--   Отримує кількість приєднаних ітераторів
-    
-
+---
+navigation:
+  - multipleiterator.containsiterator.html: '« MultipleIterator::containsIterator'
+  - multipleiterator.current.html: 'MultipleIterator::current »'
+  - index.html: PHP Manual
+  - class.multipleiterator.html: MultipleIterator
+title: 'MultipleIterator::countIterators'
+---
 # MultipleIterator::countIterators
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

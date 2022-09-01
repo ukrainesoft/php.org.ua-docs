@@ -1,16 +1,11 @@
-Створення директорії
-
--   [« streamWrapper::dirrewinddir](streamwrapper.dir-rewinddir.html)
-    
--   [streamWrapper::rename »](streamwrapper.rename.html)
-    
--   [PHP Manual](index.html)
-    
--   [streamWrapper](class.streamwrapper.html)
-    
--   Створення директорії
-    
-
+---
+navigation:
+  - streamwrapper.dir-rewinddir.html: '« streamWrapper::dirrewinddir'
+  - streamwrapper.rename.html: 'streamWrapper::rename »'
+  - index.html: PHP Manual
+  - class.streamwrapper.html: streamWrapper
+title: 'streamWrapper::mkdir'
+---
 # streamWrapper::mkdir
 
 (PHP 5, PHP 7, PHP 8)

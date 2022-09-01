@@ -1,16 +1,11 @@
-Обрізка вздовж найближчого контуру з профілем 8BIM
-
--   [« Imagick::clear](imagick.clear.md)
-    
--   [Imagick::clipImagePath »](imagick.clipimagepath.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Обрізка вздовж найближчого контуру з профілем 8BIM
-    
-
+---
+navigation:
+  - imagick.clear.md: '« Imagick::clear'
+  - imagick.clipimagepath.md: 'Imagick::clipImagePath »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::clipImage'
+---
 # Imagick::clipImage
 
 (PECL imagick 2, PECL imagick 3)

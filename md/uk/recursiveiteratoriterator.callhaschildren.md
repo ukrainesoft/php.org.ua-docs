@@ -1,16 +1,11 @@
-Перевірка, чи є елемент дочірні елементи
-
--   [« RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.html)
-    
--   [RecursiveIteratorIterator::construct »](recursiveiteratoriterator.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
-    
--   Перевірка, чи є елемент дочірні елементи
-    
-
+---
+navigation:
+  - recursiveiteratoriterator.callgetchildren.html: '« RecursiveIteratorIterator::callGetChildren'
+  - recursiveiteratoriterator.construct.html: 'RecursiveIteratorIterator::construct »'
+  - index.html: PHP Manual
+  - class.recursiveiteratoriterator.html: RecursiveIteratorIterator
+title: 'RecursiveIteratorIterator::callHasChildren'
+---
 # RecursiveIteratorIterator::callHasChildren
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

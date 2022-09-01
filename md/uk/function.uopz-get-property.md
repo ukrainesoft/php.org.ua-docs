@@ -1,16 +1,11 @@
-Отримує значення класу або властивість екземпляра
-
--   [« uopzgetmock](function.uopz-get-mock.html)
-    
--   [uopzgetreturn »](function.uopz-get-return.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Uopz](ref.uopz.md)
-    
--   Отримує значення класу або властивість екземпляра
-    
-
+---
+navigation:
+  - function.uopz-get-mock.html: « uopzgetmock
+  - function.uopz-get-return.html: uopzgetreturn »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
+title: uopzgetproperty
+---
 # uopzgetproperty
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)

@@ -1,16 +1,11 @@
-Встановлює опцію для потоку/обгортки/контексту
-
--   [« streamcontextsetdefault](function.stream-context-set-default.html)
-    
--   [streamcontextsetparams »](function.stream-context-set-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи з потоками](ref.stream.md)
-    
--   Встановлює опцію для потоку/обгортки/контексту
-    
-
+---
+navigation:
+  - function.stream-context-set-default.html: « streamcontextsetdefault
+  - function.stream-context-set-params.html: streamcontextsetparams »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
+title: streamcontextsetoption
+---
 # streamcontextsetoption
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)

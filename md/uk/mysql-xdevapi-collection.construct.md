@@ -1,16 +1,11 @@
-Конструктор класу Collection
-
--   [« Collection::addOrReplaceOne](mysql-xdevapi-collection.addorreplaceone.html)
-    
--   [Collection::count »](mysql-xdevapi-collection.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Конструктор класу Collection
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.addorreplaceone.html: '« Collection::addOrReplaceOne'
+  - mysql-xdevapi-collection.count.html: 'Collection::count »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::construct'
+---
 # Collection::construct
 
 (No version information available, might only be in Git)

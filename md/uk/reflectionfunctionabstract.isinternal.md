@@ -1,16 +1,11 @@
-Перевіряє, чи є функція внутрішньої
-
--   [« ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md)
-    
--   [ReflectionFunctionAbstract::isUserDefined »](reflectionfunctionabstract.isuserdefined.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-    
--   Перевіряє, чи є функція внутрішньої
-    
-
+---
+navigation:
+  - reflectionfunctionabstract.isgenerator.md: '« ReflectionFunctionAbstract::isGenerator'
+  - reflectionfunctionabstract.isuserdefined.md: 'ReflectionFunctionAbstract::isUserDefined »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
+title: 'ReflectionFunctionAbstract::isInternal'
+---
 # ReflectionFunctionAbstract::isInternal
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)

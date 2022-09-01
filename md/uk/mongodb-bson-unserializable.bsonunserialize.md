@@ -1,16 +1,11 @@
-Створює об'єкт із масиву BSON або документа
-
--   [« MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html)
-    
--   [MongoDBBSONBinaryInterface »](class.mongodb-bson-binaryinterface.html)
-    
--   [PHP Manual](index.md)
-    
--   [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html)
-    
--   Створює об'єкт із масиву BSON або документа
-    
-
+---
+navigation:
+  - class.mongodb-bson-unserializable.html: « MongoDBBSONUnserializable
+  - class.mongodb-bson-binaryinterface.html: MongoDBBSONBinaryInterface »
+  - index.md: PHP Manual
+  - class.mongodb-bson-unserializable.html: MongoDBBSONUnserializable
+title: 'MongoDBBSONUnserializable::bsonUnserialize'
+---
 # MongoDBBSONUnserializable::bsonUnserialize
 
 (mongodb >=1.0.0)

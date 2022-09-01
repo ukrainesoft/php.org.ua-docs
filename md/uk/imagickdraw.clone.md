@@ -1,16 +1,11 @@
-Робить точну копію вказаного об'єкту ImagickDraw
-
--   [« ImagickDraw::clear](imagickdraw.clear.md)
-    
--   [ImagickDraw::color »](imagickdraw.color.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickDraw](class.imagickdraw.md)
-    
--   Робить точну копію вказаного об'єкту ImagickDraw
-    
-
+---
+navigation:
+  - imagickdraw.clear.md: '« ImagickDraw::clear'
+  - imagickdraw.color.md: 'ImagickDraw::color »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
+title: 'ImagickDraw::clone'
+---
 # ImagickDraw::clone
 
 (PECL imagick 2, PECL imagick 3)

@@ -1,16 +1,11 @@
-Запускає/встановлює подію
-
--   [« SyncEvent::construct](syncevent.construct.html)
-    
--   [SyncEvent::reset »](syncevent.reset.html)
-    
--   [PHP Manual](index.html)
-    
--   [SyncEvent](class.syncevent.html)
-    
--   Запускає/встановлює подію
-    
-
+---
+navigation:
+  - syncevent.construct.html: '« SyncEvent::construct'
+  - syncevent.reset.html: 'SyncEvent::reset »'
+  - index.html: PHP Manual
+  - class.syncevent.html: SyncEvent
+title: 'SyncEvent::fire'
+---
 # SyncEvent::fire
 
 (PECL sync >= 1.0.0)

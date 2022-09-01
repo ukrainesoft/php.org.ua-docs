@@ -1,16 +1,11 @@
-Повертає кількість рядків, змінених у процесі виконання запиту
-
--   [« ocinumfields](function.oci-num-fields.html)
-    
--   [ociparse »](function.oci-parse.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Повертає кількість рядків, змінених у процесі виконання запиту
-    
-
+---
+navigation:
+  - function.oci-num-fields.html: « ocinumfields
+  - function.oci-parse.html: ociparse »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocinumrows
+---
 # ocinumrows
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

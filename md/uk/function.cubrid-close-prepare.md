@@ -1,16 +1,11 @@
-Закриває обробник запиту
-
--   [« cubridbind](function.cubrid-bind.html)
-    
--   [cubridcloserequest »](function.cubrid-close-request.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции CUBRID](ref.cubrid.html)
-    
--   Закриває обробник запиту
-    
-
+---
+navigation:
+  - function.cubrid-bind.html: « cubridbind
+  - function.cubrid-close-request.html: cubridcloserequest »
+  - index.html: PHP Manual
+  - ref.cubrid.html: Функции CUBRID
+title: cubridcloseprepare
+---
 # cubridcloseprepare
 
 (PECL CUBRID >= 8.3.0)

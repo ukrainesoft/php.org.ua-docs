@@ -1,16 +1,11 @@
-Побітове І
-
--   [« gmpadd](function.gmp-add.html)
-    
--   [gmpbinomial »](function.gmp-binomial.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Побітове І
-    
-
+---
+navigation:
+  - function.gmp-add.html: « gmpadd
+  - function.gmp-binomial.html: gmpbinomial »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpand
+---
 # gmpand
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Арккосінус
-
--   [« abs](function.abs.md)
-    
--   [acosh »](function.acosh.md)
-    
--   [PHP Manual](index.md)
-    
--   [Математичні функції](ref.math.md)
-    
--   Арккосінус
-    
-
+---
+navigation:
+  - function.abs.md: « abs
+  - function.acosh.md: acosh »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
+title: acos
+---
 # acos
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

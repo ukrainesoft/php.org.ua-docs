@@ -1,16 +1,11 @@
-Повертає значення прозорості, що використовується при малюванні
-
--   [« GmagickDraw::getfillcolor](gmagickdraw.getfillcolor.md)
-    
--   [GmagickDraw::getfont »](gmagickdraw.getfont.md)
-    
--   [PHP Manual](index.md)
-    
--   [GmagickDraw](class.gmagickdraw.md)
-    
--   Повертає значення прозорості, що використовується при малюванні
-    
-
+---
+navigation:
+  - gmagickdraw.getfillcolor.md: '« GmagickDraw::getfillcolor'
+  - gmagickdraw.getfont.md: 'GmagickDraw::getfont »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
+title: 'GmagickDraw::getfillopacity'
+---
 # GmagickDraw::getfillopacity
 
 (PECL gmagick >= Unknown)

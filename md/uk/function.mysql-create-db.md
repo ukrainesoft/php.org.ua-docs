@@ -1,16 +1,11 @@
-Створює базу даних MySQL
-
--   [« mysqlconnect](function.mysql-connect.html)
-    
--   [mysqldataseek »](function.mysql-data-seek.html)
-    
--   [PHP Manual](index.md)
-    
--   [MySQL](ref.mysql.md)
-    
--   Створює базу даних MySQL
-    
-
+---
+navigation:
+  - function.mysql-connect.html: « mysqlconnect
+  - function.mysql-data-seek.html: mysqldataseek »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
+title: mysqlcreateдб
+---
 # mysqlcreateдб
 
 (PHP 4, PHP 5)

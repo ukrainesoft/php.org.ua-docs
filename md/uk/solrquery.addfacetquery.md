@@ -1,16 +1,11 @@
-Додає фасетний запит
-
--   [« SolrQuery::addFacetField](solrquery.addfacetfield.md)
-    
--   [SolrQuery::addField »](solrquery.addfield.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Додає фасетний запит
-    
-
+---
+navigation:
+  - solrquery.addfacetfield.md: '« SolrQuery::addFacetField'
+  - solrquery.addfield.md: 'SolrQuery::addField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addFacetQuery'
+---
 # SolrQuery::addFacetQuery
 
 (PECL solr> = 0.9.2)

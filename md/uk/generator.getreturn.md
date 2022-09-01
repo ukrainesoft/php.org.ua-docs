@@ -1,16 +1,11 @@
-Отримати значення, що повертається генератором
-
--   [« Generator::current](generator.current.md)
-    
--   [Generator::key »](generator.key.md)
-    
--   [PHP Manual](index.md)
-    
--   [Generator](class.generator.md)
-    
--   Отримати значення, що повертається генератором
-    
-
+---
+navigation:
+  - generator.current.md: '« Generator::current'
+  - generator.key.md: 'Generator::key »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
+title: 'Generator::getReturn'
+---
 # Generator::getReturn
 
 (PHP 7, PHP 8)

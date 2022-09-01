@@ -1,16 +1,11 @@
-Повертає розмір блоку в пам'яті, що розділяється
-
--   [« shmopread](function.shmop-read.html)
-    
--   [shmopwrite »](function.shmop-write.html)
-    
--   [PHP Manual](index.html)
-    
--   [Пам'ять, що розділяється (shared)](ref.shmop.html)
-    
--   Повертає розмір блоку в пам'яті, що розділяється
-    
-
+---
+navigation:
+  - function.shmop-read.html: « shmopread
+  - function.shmop-write.html: shmopwrite »
+  - index.html: PHP Manual
+  - ref.shmop.html: 'Пам''ять, що розділяється (shared)'
+title: shmopsize
+---
 # shmopsize
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -37,9 +32,9 @@ shmop_size(Shmop $shmop): int
 
 ### список змін
 
-| Версия | Описание                                                                                            |
-|--------|-----------------------------------------------------------------------------------------------------|
-|        | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.html); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

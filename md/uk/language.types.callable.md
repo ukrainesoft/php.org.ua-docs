@@ -1,16 +1,11 @@
-Функції зворотного дзвінка (callback-функції)
-
--   [« NULL](language.types.null.md)
-    
--   [Оголошення типів »](language.types.declarations.md)
-    
--   [PHP Manual](index.md)
-    
--   [Типи](language.types.md)
-    
--   Функції зворотного дзвінка (callback-функції)
-    
-
+---
+navigation:
+  - language.types.null.md: « NULL
+  - language.types.declarations.md: Оголошення типів »
+  - index.md: PHP Manual
+  - language.types.md: Типи
+title: Функції зворотного дзвінка (callback-функції)
+---
 ## Функції зворотного дзвінка (callback-функції)
 
 Callback-функції можуть бути позначені оголошенням типу [callable](language.types.callable.md)

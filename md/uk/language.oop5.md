@@ -1,16 +1,11 @@
-Класи та об'єкти
-
--   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)
-    
--   [Введение »](oop5.intro.md)
-    
--   [PHP Manual](index.md)
-    
--   [Довідник мови](langref.md)
-    
--   Класи та об'єкти
-    
-
+---
+navigation:
+  - functions.first_class_callable_syntax.md: Callback-функції як об'єкти першого класу
+  - oop5.intro.md: Введение »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
+title: Класи та об'єкти
+---
 # Класи та об'єкти
 
 ## Зміст

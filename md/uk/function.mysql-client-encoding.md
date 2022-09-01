@@ -1,16 +1,11 @@
-Повертає кодування з'єднання
-
--   [« mysqlaffectedrows](function.mysql-affected-rows.html)
-    
--   [mysqlclose »](function.mysql-close.html)
-    
--   [PHP Manual](index.html)
-    
--   [MySQL](ref.mysql.html)
-    
--   Повертає кодування з'єднання
-    
-
+---
+navigation:
+  - function.mysql-affected-rows.html: « mysqlaffectedrows
+  - function.mysql-close.html: mysqlclose »
+  - index.html: PHP Manual
+  - ref.mysql.html: MySQL
+title: mysqlclientencoding
+---
 # mysqlclientencoding
 
 (PHP 4> = 4.3.0, PHP 5)

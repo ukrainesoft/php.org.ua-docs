@@ -1,16 +1,11 @@
-Повертає стан поточної сесії
-
--   [« sessionstart](function.session-start.html)
-    
--   [sessionunset »](function.session-unset.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи із сесіями](ref.session.html)
-    
--   Повертає стан поточної сесії
-    
-
+---
+navigation:
+  - function.session-start.html: « sessionstart
+  - function.session-unset.html: sessionunset »
+  - index.html: PHP Manual
+  - ref.session.html: Функції для роботи із сесіями
+title: sessionstatus
+---
 # sessionstatus
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Конструктор об'єкту Gmagick
-
--   [« Gmagick::compositeimage](gmagick.compositeimage.html)
-    
--   [Gmagick::cropimage »](gmagick.cropimage.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Конструктор об'єкту Gmagick
-    
-
+---
+navigation:
+  - gmagick.compositeimage.html: '« Gmagick::compositeimage'
+  - gmagick.cropimage.html: 'Gmagick::cropimage »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::construct'
+---
 # Gmagick::construct
 
 (PECL gmagick >= Unknown)

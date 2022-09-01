@@ -1,16 +1,11 @@
-Додає дані до буфера виводу буферної події
-
--   [« EventBufferEvent::sslSocket](eventbufferevent.sslsocket.html)
-    
--   [EventBufferEvent::writeBuffer »](eventbufferevent.writebuffer.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventBufferEvent](class.eventbufferevent.html)
-    
--   Додає дані до буфера виводу буферної події
-    
-
+---
+navigation:
+  - eventbufferevent.sslsocket.html: '« EventBufferEvent::sslSocket'
+  - eventbufferevent.writebuffer.html: 'EventBufferEvent::writeBuffer »'
+  - index.html: PHP Manual
+  - class.eventbufferevent.html: EventBufferEvent
+title: 'EventBufferEvent::write'
+---
 # EventBufferEvent::write
 
 (PECL event >= 1.2.6-beta)

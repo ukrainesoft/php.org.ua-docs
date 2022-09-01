@@ -1,16 +1,11 @@
-Встановлює мінімальну довжину слова
-
--   [« SolrQuery::setMltMinTermFrequency](solrquery.setmltmintermfrequency.html)
-    
--   [SolrQuery::setOmitHeader »](solrquery.setomitheader.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrQuery](class.solrquery.html)
-    
--   Встановлює мінімальну довжину слова
-    
-
+---
+navigation:
+  - solrquery.setmltmintermfrequency.html: '« SolrQuery::setMltMinTermFrequency'
+  - solrquery.setomitheader.html: 'SolrQuery::setOmitHeader »'
+  - index.html: PHP Manual
+  - class.solrquery.html: SolrQuery
+title: 'SolrQuery::setMltMinWordLength'
+---
 # SolrQuery::setMltMinWordLength
 
 (PECL solr> = 0.9.2)

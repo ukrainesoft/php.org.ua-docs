@@ -1,16 +1,11 @@
-Посилає параметризований запит на сервер, не чекає результату, що повертається.
-
--   [« pgsendprepare](function.pg-send-prepare.html)
-    
--   [пгsendquery »](function.pg-send-query.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции PostgreSQL](ref.pgsql.html)
-    
--   Посилає параметризований запит на сервер, не чекає результату, що повертається.
-    
-
+---
+navigation:
+  - function.pg-send-prepare.html: « pgsendprepare
+  - function.pg-send-query.html: пгsendquery »
+  - index.html: PHP Manual
+  - ref.pgsql.html: Функции PostgreSQL
+title: пгsendqueryparams
+---
 # пгsendqueryparams
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
@@ -47,9 +42,9 @@ pg_send_query_params(PgSql\Connection $connection, string $query, array $params)
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

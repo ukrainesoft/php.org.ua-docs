@@ -1,16 +1,11 @@
-Очищує кеш
-
--   [« Yac::dump](yac.dump.md)
-    
--   [Yac::get »](yac.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](class.yac.md)
-    
--   Очищує кеш
-    
-
+---
+navigation:
+  - yac.dump.md: '« Yac::dump'
+  - yac.get.md: 'Yac::get »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
+title: 'Yac::flush'
+---
 # Yac::flush
 
 (PECL yac >= 1.0.0)

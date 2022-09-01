@@ -1,16 +1,11 @@
-Повертає колірний простір зображення
-
--   [« Gmagick::getimagecolors](gmagick.getimagecolors.html)
-    
--   [Gmagick::getimagecompose »](gmagick.getimagecompose.html)
-    
--   [PHP Manual](index.html)
-    
--   [Gmagick](class.gmagick.html)
-    
--   Повертає колірний простір зображення
-    
-
+---
+navigation:
+  - gmagick.getimagecolors.html: '« Gmagick::getimagecolors'
+  - gmagick.getimagecompose.html: 'Gmagick::getimagecompose »'
+  - index.html: PHP Manual
+  - class.gmagick.html: Gmagick
+title: 'Gmagick::getimagecolorspace'
+---
 # Gmagick::getimagecolorspace
 
 (PECL gmagick >= Unknown)

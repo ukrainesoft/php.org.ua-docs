@@ -1,16 +1,11 @@
-Відкриває базу даних
-
--   [« dbasenumrecords](function.dbase-numrecords.html)
-    
--   [dbasepack »](function.dbase-pack.html)
-    
--   [PHP Manual](index.md)
-    
--   [dBase](ref.dbase.md)
-    
--   Відкриває базу даних
-    
-
+---
+navigation:
+  - function.dbase-numrecords.html: « dbasenumrecords
+  - function.dbase-pack.html: dbasepack »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
+title: dbaseopen
+---
 # dbaseopen
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
@@ -51,8 +46,8 @@ dbase_open(string $path, int $mode): resource|false
 
 ### список змін
 
-| Версия      | Описание                                              |
-|-------------|-------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади

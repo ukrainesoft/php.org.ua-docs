@@ -1,16 +1,11 @@
-Отримує кілька записів
-
--   [« Memcached::getDelayedByKey](memcached.getdelayedbykey.md)
-    
--   [Memcached::getMultiByKey »](memcached.getmultibykey.md)
-    
--   [PHP Manual](index.md)
-    
--   [Memcached](class.memcached.md)
-    
--   Отримує кілька записів
-    
-
+---
+navigation:
+  - memcached.getdelayedbykey.md: '« Memcached::getDelayedByKey'
+  - memcached.getmultibykey.md: 'Memcached::getMultiByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
+title: 'Memcached::getMulti'
+---
 # Memcached::getMulti
 
 (PECL memcached >= 0.1.0)
@@ -47,8 +42,8 @@ public Memcached::getMulti(array $keys, int $flags = ?): mixed
 
 ### список змін
 
-| Версия               | Описание                                                                                                    |
-|----------------------|-------------------------------------------------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL memcached 3.0.0 | Видалено параметр `&cas_tokens`. Додано константу **`Memcached::GET_EXTENDED`** для повернення токенів CAS. |
 
 ### Приклади

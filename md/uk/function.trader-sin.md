@@ -1,16 +1,11 @@
-Векторний тригонометричний синус
-
--   [« tradersetunstableperiod](function.trader-set-unstable-period.html)
-    
--   [tradersinh »](function.trader-sinh.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Trader](ref.trader.html)
-    
--   Векторний тригонометричний синус
-    
-
+---
+navigation:
+  - function.trader-set-unstable-period.html: « tradersetunstableperiod
+  - function.trader-sinh.html: tradersinh »
+  - index.html: PHP Manual
+  - ref.trader.html: Функции Trader
+title: tradersin
+---
 # tradersin
 
 (PECL trader >= 0.2.0)

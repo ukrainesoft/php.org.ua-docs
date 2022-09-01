@@ -1,16 +1,11 @@
-Видаляє перекіс із зображення
-
--   [« Imagick::deleteImageProperty](imagick.deleteimageproperty.md)
-    
--   [Imagick::despeckleImage »](imagick.despeckleimage.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Видаляє перекіс із зображення
-    
-
+---
+navigation:
+  - imagick.deleteimageproperty.md: '« Imagick::deleteImageProperty'
+  - imagick.despeckleimage.md: 'Imagick::despeckleImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::deskewImage'
+---
 # Imagick::deskewImage
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3> = 3.3.0)

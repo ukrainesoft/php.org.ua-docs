@@ -1,16 +1,11 @@
-Додає слово до особистого словника
-
--   [« enchantdictaddтоsession](function.enchant-dict-add-to-session.html)
-    
--   [enchantdictcheck »](function.enchant-dict-check.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Enchant](ref.enchant.md)
-    
--   Додає слово до особистого словника
-    
-
+---
+navigation:
+  - function.enchant-dict-add-to-session.html: « enchantdictaddтоsession
+  - function.enchant-dict-check.html: enchantdictcheck »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
+title: enchantdictadd
+---
 # enchantdictadd
 
 (PHP 8)
@@ -41,9 +36,9 @@ enchant_dict_add(EnchantDictionary $dictionary, string $word): void
 
 ### список змін
 
-| Версия | Описание                                                                                                                                          |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 **Приклад #1 Додавання слова до PWL**
 

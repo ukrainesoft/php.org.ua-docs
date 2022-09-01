@@ -1,16 +1,11 @@
-Блокує читання-запис блокування для читання
-
--   [« SwooleLock::destruct](swoole-lock.destruct.html)
-    
--   [SwooleLock::lock »](swoole-lock.lock.html)
-    
--   [PHP Manual](index.md)
-    
--   [SwooleLock](class.swoole-lock.html)
-    
--   Блокує читання-запис блокування для читання
-    
-
+---
+navigation:
+  - swoole-lock.destruct.html: '« SwooleLock::destruct'
+  - swoole-lock.lock.html: 'SwooleLock::lock »'
+  - index.md: PHP Manual
+  - class.swoole-lock.html: SwooleLock
+title: 'SwooleLock::lockread'
+---
 # SwooleLock::lockread
 
 (PECL swoole >= 1.9.0)

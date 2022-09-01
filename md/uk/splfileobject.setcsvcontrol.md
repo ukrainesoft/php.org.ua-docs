@@ -1,16 +1,11 @@
-Встановлює символи роздільника, обгортання та екранування для CSV
-
--   [« SplFileObject::seek](splfileobject.seek.md)
-    
--   [SplFileObject::setFlags »](splfileobject.setflags.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileObject](class.splfileobject.md)
-    
--   Встановлює символи роздільника, обгортання та екранування для CSV
-    
-
+---
+navigation:
+  - splfileobject.seek.md: '« SplFileObject::seek'
+  - splfileobject.setflags.md: 'SplFileObject::setFlags »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
+title: 'SplFileObject::setCsvControl'
+---
 # SplFileObject::setCsvControl
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -45,9 +40,9 @@ public SplFileObject::setCsvControl(string $separator = ",", string $enclosure =
 
 ### список змін
 
-| Версия | Описание                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------|
-|        | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
 
 ### Приклади
 

@@ -1,16 +1,11 @@
-Запобігти інверсії пріоритетів
-
--   [« EventConfig::setFlags](eventconfig.setflags.html)
-    
--   [EventDnsBase »](class.eventdnsbase.html)
-    
--   [PHP Manual](index.html)
-    
--   [EventConfig](class.eventconfig.html)
-    
--   Запобігти інверсії пріоритетів
-    
-
+---
+navigation:
+  - eventconfig.setflags.html: '« EventConfig::setFlags'
+  - class.eventdnsbase.html: EventDnsBase »
+  - index.html: PHP Manual
+  - class.eventconfig.html: EventConfig
+title: 'EventConfig::setMaxDispatchInterval'
+---
 # EventConfig::setMaxDispatchInterval
 
 (PECL event >= 2.1.0-alpha)

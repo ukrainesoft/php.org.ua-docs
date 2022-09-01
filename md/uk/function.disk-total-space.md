@@ -1,16 +1,11 @@
-Повертає загальний розмір файлової системи або розділу диска
-
--   [« diskfreespace](function.disk-free-space.html)
-    
--   [diskfreespace »](function.diskfreespace.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції файлової системи](ref.filesystem.md)
-    
--   Повертає загальний розмір файлової системи або розділу диска
-    
-
+---
+navigation:
+  - function.disk-free-space.html: « diskfreespace
+  - function.diskfreespace.md: diskfreespace »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
+title: disktotalspace
+---
 # disktotalspace
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

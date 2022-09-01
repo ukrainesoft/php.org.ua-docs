@@ -1,16 +1,11 @@
-Створює новий екземпляр класу DOMElement
-
--   [« DOMElement](class.domelement.md)
-    
--   [DOMElement::getAttribute »](domelement.getattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [DOMElement](class.domelement.md)
-    
--   Створює новий екземпляр класу DOMElement
-    
-
+---
+navigation:
+  - class.domelement.md: « DOMElement
+  - domelement.getattribute.md: 'DOMElement::getAttribute »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
+title: 'DOMElement::construct'
+---
 # DOMElement::construct
 
 (PHP 5, PHP 7, PHP 8)

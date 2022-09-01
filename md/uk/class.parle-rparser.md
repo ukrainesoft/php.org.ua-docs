@@ -1,16 +1,11 @@
-Клас ParleRParser
-
--   [« ParleParser::validate](parle-parser.validate.html)
-    
--   [ParleRParser::advance »](parle-rparser.advance.html)
-    
--   [PHP Manual](index.md)
-    
--   [Parle](book.parle.md)
-    
--   Клас ParleRParser
-    
-
+---
+navigation:
+  - parle-parser.validate.html: '« ParleParser::validate'
+  - parle-rparser.advance.html: 'ParleRParser::advance »'
+  - index.md: PHP Manual
+  - book.parle.md: Parle
+title: Клас ParleRParser
+---
 # Клас ParleRParser
 
 (PECL parle >= 0.7.0)

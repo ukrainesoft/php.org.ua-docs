@@ -1,16 +1,11 @@
-Обрізає файл до заданої кількості байт
-
--   [« diotcsetattr](function.dio-tcsetattr.html)
-    
--   [diowrite »](function.dio-write.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції прямого введення/виводу](ref.dio.html)
-    
--   Обрізає файл до заданої кількості байт
-    
-
+---
+navigation:
+  - function.dio-tcsetattr.html: « diotcsetattr
+  - function.dio-write.html: diowrite »
+  - index.html: PHP Manual
+  - ref.dio.html: Функції прямого введення/виводу
+title: diotruncate
+---
 # diotruncate
 
 (PHP 4> = 4.2.0, PHP 5 <5.1.0)

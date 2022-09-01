@@ -1,16 +1,11 @@
-Отримати дескриптор
-
--   [« VtifulKernelExcel::fileName](vtiful-kernel-excel.filename.html)
-    
--   [VtifulKernelExcel::header »](vtiful-kernel-excel.header.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Отримати дескриптор
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.filename.html: '« VtifulKernelExcel::fileName'
+  - vtiful-kernel-excel.header.html: 'VtifulKernelExcel::header »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::getHandle'
+---
 # VtifulKernelExcel::getHandle
 
 (PECL xlswriter >= 1.2.1)

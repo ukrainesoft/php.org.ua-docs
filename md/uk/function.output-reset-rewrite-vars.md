@@ -1,16 +1,11 @@
-Скинути значення обробника URL
-
--   [« outputaddrewritevar](function.output-add-rewrite-var.html)
-    
--   [Опции/информация PHP »](book.info.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції контролю виведення](ref.outcontrol.md)
-    
--   Скинути значення обробника URL
-    
-
+---
+navigation:
+  - function.output-add-rewrite-var.html: « outputaddrewritevar
+  - book.info.md: Опции/информация PHP »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
+title: outputresetrewritevars
+---
 # outputresetrewritevars
 
 (PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
@@ -35,9 +30,9 @@ output_reset_rewrite_vars(): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                                                                                                                 |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.html) |
+| Версия | Описание |
+| --- | --- |
+|  | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.html) |
 
 ### Приклади
 

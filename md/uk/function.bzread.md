@@ -1,16 +1,11 @@
-Бінарно-безпечне читання файлу bzip2
-
--   [« bzopen](function.bzopen.md)
-    
--   [bzwrite »](function.bzwrite.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функції Bzip2](ref.bzip2.md)
-    
--   Бінарно-безпечне читання файлу bzip2
-    
-
+---
+navigation:
+  - function.bzopen.md: « bzopen
+  - function.bzwrite.md: bzwrite »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
+title: bzread
+---
 # bzread
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

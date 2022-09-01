@@ -1,16 +1,11 @@
-API підтримка транзакцій
-
--   [« Множинні запити](mysqli.quickstart.multiple-statement.html)
-    
--   [Метадані »](mysqli.quickstart.metadata.html)
-    
--   [PHP Manual](index.html)
-    
--   [Краткое руководство](mysqli.quickstart.html)
-    
--   API підтримка транзакцій
-    
-
+---
+navigation:
+  - mysqli.quickstart.multiple-statement.html: « Множинні запити
+  - mysqli.quickstart.metadata.html: Метадані »
+  - index.html: PHP Manual
+  - mysqli.quickstart.html: Краткое руководство
+title: API підтримка транзакцій
+---
 ## API підтримка транзакцій
 
 Підтримка транзакцій в СУБД MySQL залежить від використовуваного двигуна сховища даних. Починаючи з MySQL 5.5, за замовчуванням використовується двигун InnoDB. InnoDB повністю підтримує модель транзакцій ACID.

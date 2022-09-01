@@ -1,16 +1,11 @@
-Псевдонім ocinumfields
-
--   [« ocinlogon](function.ocinlogon.html)
-    
--   [ociparse »](function.ociparse.html)
-    
--   [PHP Manual](index.html)
-    
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
-    
--   Псевдонім ocinumfields
-    
-
+---
+navigation:
+  - function.ocinlogon.html: « ocinlogon
+  - function.ociparse.html: ociparse »
+  - index.html: PHP Manual
+  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+title: ocinumcols
+---
 # ocinumcols
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)

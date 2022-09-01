@@ -1,16 +1,11 @@
-Встановлює значення параметра
-
--   [« XSLTProcessor::removeParameter](xsltprocessor.removeparameter.html)
-    
--   [XSLTProcessor::setProfiling »](xsltprocessor.setprofiling.html)
-    
--   [PHP Manual](index.html)
-    
--   [XSLTProcessor](class.xsltprocessor.html)
-    
--   Встановлює значення параметра
-    
-
+---
+navigation:
+  - xsltprocessor.removeparameter.html: '« XSLTProcessor::removeParameter'
+  - xsltprocessor.setprofiling.html: 'XSLTProcessor::setProfiling »'
+  - index.html: PHP Manual
+  - class.xsltprocessor.html: XSLTProcessor
+title: 'XSLTProcessor::setParameter'
+---
 # XSLTProcessor::setParameter
 
 (PHP 5, PHP 7, PHP 8)

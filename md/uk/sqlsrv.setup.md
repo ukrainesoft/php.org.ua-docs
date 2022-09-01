@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.sqlsrv.md)
-    
--   [Вимоги »](sqlsrv.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [SQLSRV](book.sqlsrv.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.sqlsrv.md: « Введение
+  - sqlsrv.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.sqlsrv.md: SQLSRV
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

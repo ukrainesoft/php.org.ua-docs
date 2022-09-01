@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](com.requirements.html)
-    
--   [Налаштування під час виконання »](com.configuration.html)
-    
--   [PHP Manual](index.html)
-    
--   [Встановлення та налаштування](com.setup.html)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - com.requirements.html: « Вимоги
+  - com.configuration.html: Налаштування під час виконання »
+  - index.html: PHP Manual
+  - com.setup.html: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 З PHP 5.3.15 / 5.4.5 модуль вимагає включення phpcomdotnet.dll у php.ini. У попередніх версіях PHP модуль був включений за умовчанням.

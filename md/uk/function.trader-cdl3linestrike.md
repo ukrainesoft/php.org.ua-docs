@@ -1,16 +1,11 @@
-Потрійний удар
-
--   [« tradercdl3inside](function.trader-cdl3inside.html)
-    
--   [tradercdl3outside »](function.trader-cdl3outside.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Потрійний удар
-    
-
+---
+navigation:
+  - function.trader-cdl3inside.html: « tradercdl3inside
+  - function.trader-cdl3outside.html: tradercdl3outside »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: tradercdl3linestrike
+---
 # tradercdl3linestrike
 
 (PECL trader >= 0.2.0)

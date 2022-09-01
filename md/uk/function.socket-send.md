@@ -1,16 +1,11 @@
-Надсилає дані в приєднаний сокет
-
--   [« socketselect](function.socket-select.html)
-    
--   [socketsendmsg »](function.socket-sendmsg.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции сокета](ref.sockets.md)
-    
--   Надсилає дані в приєднаний сокет
-    
-
+---
+navigation:
+  - function.socket-select.html: « socketselect
+  - function.socket-sendmsg.html: socketsendmsg »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
+title: socketsend
+---
 # socketsend
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
@@ -51,9 +46,9 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 ### список змін
 
-| Версия | Описание                                                                                  |
-|--------|-------------------------------------------------------------------------------------------|
-|        | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

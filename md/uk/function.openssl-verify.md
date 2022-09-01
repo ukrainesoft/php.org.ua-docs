@@ -1,16 +1,11 @@
-Звіряння сигнатури
-
--   [« opensslspkiverify](function.openssl-spki-verify.html)
-    
--   [opensslx509checkprivatekey »](function.openssl-x509-check-private-key.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OpenSSL](ref.openssl.md)
-    
--   Звіряння сигнатури
-    
-
+---
+navigation:
+  - function.openssl-spki-verify.html: « opensslspkiverify
+  - function.openssl-x509-check-private-key.html: opensslx509checkprivatekey »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
+title: opensslverify
+---
 # opensslverify
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
@@ -53,9 +48,9 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 ### список змін
 
-| Версия | Описание                                                                                                                                                                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| Версия | Описание |
+| --- | --- |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 

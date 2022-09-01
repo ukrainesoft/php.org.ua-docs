@@ -1,16 +1,11 @@
-Перевіряє, чи містяться в колекції задані значення
-
--   [« DsSequence::capacity](ds-sequence.capacity.html)
-    
--   [ДсSequence::filter »](ds-sequence.filter.html)
-    
--   [PHP Manual](index.md)
-    
--   [Послідовність](class.ds-sequence.html)
-    
--   Перевіряє, чи містяться в колекції задані значення
-    
-
+---
+navigation:
+  - ds-sequence.capacity.html: '« DsSequence::capacity'
+  - ds-sequence.filter.html: 'ДсSequence::filter »'
+  - index.md: PHP Manual
+  - class.ds-sequence.html: Послідовність
+title: 'ДсSequence::contains'
+---
 # ДсSequence::contains
 
 (PECL ds >= 1.0.0)

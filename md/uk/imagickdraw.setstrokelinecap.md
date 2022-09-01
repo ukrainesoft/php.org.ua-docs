@@ -1,16 +1,11 @@
-Задає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
-
--   [« ImagickDraw::setStrokeDashOffset](imagickdraw.setstrokedashoffset.html)
-    
--   [ImagickDraw::setStrokeLineJoin »](imagickdraw.setstrokelinejoin.html)
-    
--   [PHP Manual](index.html)
-    
--   [ImagickDraw](class.imagickdraw.html)
-    
--   Задає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення
-    
-
+---
+navigation:
+  - imagickdraw.setstrokedashoffset.html: '« ImagickDraw::setStrokeDashOffset'
+  - imagickdraw.setstrokelinejoin.html: 'ImagickDraw::setStrokeLineJoin »'
+  - index.html: PHP Manual
+  - class.imagickdraw.html: ImagickDraw
+title: 'ImagickDraw::setStrokeLineCap'
+---
 # ImagickDraw::setStrokeLineCap
 
 (PECL imagick 2, PECL imagick 3)

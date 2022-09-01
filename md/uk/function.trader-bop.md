@@ -1,16 +1,11 @@
-Баланс сил
-
--   [« traderbeta](function.trader-beta.html)
-    
--   [tradercci »](function.trader-cci.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Баланс сил
-    
-
+---
+navigation:
+  - function.trader-beta.html: « traderbeta
+  - function.trader-cci.html: tradercci »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderbop
+---
 # traderbop
 
 (PECL trader >= 0.2.0)

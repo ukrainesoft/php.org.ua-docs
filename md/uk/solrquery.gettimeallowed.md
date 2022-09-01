@@ -1,16 +1,11 @@
-Повертає час у мілісекундах, дозволений для завершення запиту
-
--   [« SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.md)
-    
--   [SolrQuery::removeExpandFilterQuery »](solrquery.removeexpandfilterquery.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає час у мілісекундах, дозволений для завершення запиту
-    
-
+---
+navigation:
+  - solrquery.gettermsupperbound.md: '« SolrQuery::getTermsUpperBound'
+  - solrquery.removeexpandfilterquery.md: 'SolrQuery::removeExpandFilterQuery »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getTimeAllowed'
+---
 # SolrQuery::getTimeAllowed
 
 (PECL solr> = 0.9.2)

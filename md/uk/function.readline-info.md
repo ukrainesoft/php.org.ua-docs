@@ -1,16 +1,11 @@
-Встановлює/читає різні внутрішні змінні readline
-
--   [« readlinecompletionfunction](function.readline-completion-function.html)
-    
--   [readlinelisthistory »](function.readline-list-history.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции Readline](ref.readline.html)
-    
--   Встановлює/читає різні внутрішні змінні readline
-    
-
+---
+navigation:
+  - function.readline-completion-function.html: « readlinecompletionfunction
+  - function.readline-list-history.html: readlinelisthistory »
+  - index.html: PHP Manual
+  - ref.readline.html: Функции Readline
+title: readlineinfo
+---
 # readlineinfo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -43,6 +38,6 @@ readline_info(?string $var_name = null, int|string|bool|null $value = null): mix
 
 ### список змін
 
-| Версия | Описание                                             |
-|--------|------------------------------------------------------|
-|        | `var_name` і `value` тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `var_name` і `value` тепер допускають значення null. |

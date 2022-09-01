@@ -1,16 +1,11 @@
-Повертає уявлення, яке можна перетворити на JSON
-
--   [« MongoDBBSONBinary::getType](mongodb-bson-binary.gettype.html)
-    
--   [MongoDBBSONBinary::serialize »](mongodb-bson-binary.serialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONBinary](class.mongodb-bson-binary.html)
-    
--   Повертає уявлення, яке можна перетворити на JSON
-    
-
+---
+navigation:
+  - mongodb-bson-binary.gettype.html: '« MongoDBBSONBinary::getType'
+  - mongodb-bson-binary.serialize.html: 'MongoDBBSONBinary::serialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+title: 'MongoDBBSONBinary::jsonSerialize'
+---
 # MongoDBBSONBinary::jsonSerialize
 
 (mongodb >=1.2.0)

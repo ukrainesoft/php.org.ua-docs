@@ -1,16 +1,11 @@
-Отримує ім'я схеми за промовчанням
-
--   [« Session::generateUUID](mysql-xdevapi-session.generateuuid.html)
-    
--   [Session::getSchema »](mysql-xdevapi-session.getschema.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiSession](class.mysql-xdevapi-session.html)
-    
--   Отримує ім'я схеми за промовчанням
-    
-
+---
+navigation:
+  - mysql-xdevapi-session.generateuuid.html: '« Session::generateUUID'
+  - mysql-xdevapi-session.getschema.html: 'Session::getSchema »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+title: 'Session::getDefaultSchema'
+---
 # Session::getDefaultSchema
 
 (No version information available, might only be in Git)

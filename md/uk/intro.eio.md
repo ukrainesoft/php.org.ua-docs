@@ -1,16 +1,11 @@
-Вступ
-
--   [« Eio](book.eio.md)
-    
--   [Встановлення та налаштування »](eio.setup.md)
-    
--   [PHP Manual](index.md)
-    
--   [Eio](book.eio.md)
-    
--   Вступ
-    
-
+---
+navigation:
+  - book.eio.md: « Eio
+  - eio.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.eio.md: Eio
+title: Вступ
+---
 # Вступ
 
 Модуль реалізує підсистему введення-виведення POSIX I/O засобів [» libeio](http://software.schmorp.de/pkg/libeio.html) Бібліотека C Написана Марком Леманном (Marc Lehmann).

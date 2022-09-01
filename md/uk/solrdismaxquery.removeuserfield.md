@@ -1,16 +1,11 @@
-Видаляє поле з параметра поля користувача (uf)
-
--   [« SolrDisMaxQuery::removeTrigramPhraseField](solrdismaxquery.removetrigramphrasefield.html)
-    
--   [SolrDisMaxQuery::setBigramPhraseFields »](solrdismaxquery.setbigramphrasefields.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrDisMaxQuery](class.solrdismaxquery.html)
-    
--   Видаляє поле з параметра поля користувача (uf)
-    
-
+---
+navigation:
+  - solrdismaxquery.removetrigramphrasefield.html: '« SolrDisMaxQuery::removeTrigramPhraseField'
+  - solrdismaxquery.setbigramphrasefields.html: 'SolrDisMaxQuery::setBigramPhraseFields »'
+  - index.html: PHP Manual
+  - class.solrdismaxquery.html: SolrDisMaxQuery
+title: 'Solr DisMax Query::remove User Field'
+---
 # Solr DisMax Query::remove User Field
 
 (No version information available, might only be in Git)

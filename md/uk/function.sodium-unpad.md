@@ -1,16 +1,11 @@
-Видалення даних відступів
-
--   [« sodiumpad](function.sodium-pad.html)
-    
--   [SodiumException »](class.sodiumexception.md)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Sodium](ref.sodium.md)
-    
--   Видалення даних відступів
-    
-
+---
+navigation:
+  - function.sodium-pad.html: « sodiumpad
+  - class.sodiumexception.md: SodiumException »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
+title: sodiumunpad
+---
 # sodiumunpad
 
 (PHP 7> = 7.2.0, PHP 8)

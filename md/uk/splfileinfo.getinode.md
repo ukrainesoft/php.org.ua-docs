@@ -1,16 +1,11 @@
-Отримує індексний дескриптор для файлу
-
--   [« SplFileInfo::getGroup](splfileinfo.getgroup.md)
-    
--   [SplFileInfo::getLinkTarget »](splfileinfo.getlinktarget.md)
-    
--   [PHP Manual](index.md)
-    
--   [SplFileInfo](class.splfileinfo.md)
-    
--   Отримує індексний дескриптор для файлу
-    
-
+---
+navigation:
+  - splfileinfo.getgroup.md: '« SplFileInfo::getGroup'
+  - splfileinfo.getlinktarget.md: 'SplFileInfo::getLinkTarget »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
+title: 'SplFileInfo::getInode'
+---
 # SplFileInfo::getInode
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)

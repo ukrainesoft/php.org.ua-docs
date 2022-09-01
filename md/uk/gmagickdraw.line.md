@@ -1,16 +1,11 @@
-Малює лінію
-
--   [« GmagickDraw::gettextencoding](gmagickdraw.gettextencoding.html)
-    
--   [GmagickDraw::point »](gmagickdraw.point.html)
-    
--   [PHP Manual](index.html)
-    
--   [GmagickDraw](class.gmagickdraw.html)
-    
--   Малює лінію
-    
-
+---
+navigation:
+  - gmagickdraw.gettextencoding.html: '« GmagickDraw::gettextencoding'
+  - gmagickdraw.point.html: 'GmagickDraw::point »'
+  - index.html: PHP Manual
+  - class.gmagickdraw.html: GmagickDraw
+title: 'GmagickDraw::line'
+---
 # GmagickDraw::line
 
 (PECL gmagick >= Unknown)

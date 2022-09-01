@@ -1,16 +1,11 @@
-Віднімання чисел
-
--   [« gmpstrval](function.gmp-strval.html)
-    
--   [gmptestbit »](function.gmp-testbit.html)
-    
--   [PHP Manual](index.md)
-    
--   [GMP Функції](ref.gmp.md)
-    
--   Віднімання чисел
-    
-
+---
+navigation:
+  - function.gmp-strval.html: « gmpstrval
+  - function.gmp-testbit.html: gmptestbit »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
+title: gmpsub
+---
 # gmpsub
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

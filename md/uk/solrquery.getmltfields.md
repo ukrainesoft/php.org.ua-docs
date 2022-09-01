@@ -1,16 +1,11 @@
-Повертає всі поля, які потрібно використовувати для порівняння
-
--   [« SolrQuery::getMltCount](solrquery.getmltcount.md)
-    
--   [SolrQuery::getMltMaxNumQueryTerms »](solrquery.getmltmaxnumqueryterms.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Повертає всі поля, які потрібно використовувати для порівняння
-    
-
+---
+navigation:
+  - solrquery.getmltcount.md: '« SolrQuery::getMltCount'
+  - solrquery.getmltmaxnumqueryterms.md: 'SolrQuery::getMltMaxNumQueryTerms »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::getMltFields'
+---
 # SolrQuery::getMltFields
 
 (PECL solr> = 0.9.2)

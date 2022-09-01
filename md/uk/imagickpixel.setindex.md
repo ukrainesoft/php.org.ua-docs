@@ -1,16 +1,11 @@
-Опис
-
--   [« ImagickPixel::setHSL](imagickpixel.sethsl.md)
-    
--   [ImagickPixelIterator »](class.imagickpixeliterator.md)
-    
--   [PHP Manual](index.md)
-    
--   [ImagickPixel](class.imagickpixel.md)
-    
--   Опис
-    
-
+---
+navigation:
+  - imagickpixel.sethsl.md: '« ImagickPixel::setHSL'
+  - class.imagickpixeliterator.md: ImagickPixelIterator »
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
+title: 'ImagickPixel::setIndex'
+---
 # ImagickPixel::setIndex
 
 (PECL imagick 2> = 2.3.0, PECL imagick 3)

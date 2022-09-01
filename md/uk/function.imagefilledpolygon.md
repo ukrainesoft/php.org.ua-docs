@@ -1,16 +1,11 @@
-Малювання зафарбованого багатокутника
-
--   [« imagefilledellipse](function.imagefilledellipse.html)
-    
--   [imagefilledrectangle »](function.imagefilledrectangle.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції GD та функції для роботи із зображеннями](ref.image.html)
-    
--   Малювання зафарбованого багатокутника
-    
-
+---
+navigation:
+  - function.imagefilledellipse.html: « imagefilledellipse
+  - function.imagefilledrectangle.html: imagefilledrectangle »
+  - index.html: PHP Manual
+  - ref.image.html: Функції GD та функції для роботи із зображеннями
+title: imagefilledpolygon
+---
 # imagefilledpolygon
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
@@ -59,10 +54,10 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num
 
 ### список змін
 
-| Версия | Описание                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------|
-|        | Параметр `num_points` оголошено застарілим.                                                      |
-|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `num_points` оголошено застарілим. |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 

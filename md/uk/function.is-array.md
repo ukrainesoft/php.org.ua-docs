@@ -1,16 +1,11 @@
-Визначає, чи є змінна масивом
-
--   [« intval](function.intval.md)
-    
--   [ісbool »](function.is-bool.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції для роботи зі змінними](ref.var.md)
-    
--   Визначає, чи є змінна масивом
-    
-
+---
+navigation:
+  - function.intval.md: « intval
+  - function.is-bool.html: ісbool »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
+title: ісarray
+---
 # ісarray
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

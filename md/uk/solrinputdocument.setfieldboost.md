@@ -1,16 +1,11 @@
-Встановлює значення збільшення індексу часу для поля
-
--   [« SolrInputDocument::setBoost](solrinputdocument.setboost.html)
-    
--   [SolrInputDocument::sort »](solrinputdocument.sort.html)
-    
--   [PHP Manual](index.html)
-    
--   [SolrInputDocument](class.solrinputdocument.html)
-    
--   Встановлює значення збільшення індексу часу для поля
-    
-
+---
+navigation:
+  - solrinputdocument.setboost.html: '« SolrInputDocument::setBoost'
+  - solrinputdocument.sort.html: 'SolrInputDocument::sort »'
+  - index.html: PHP Manual
+  - class.solrinputdocument.html: SolrInputDocument
+title: 'SolrInputDocument::setFieldBoost'
+---
 # SolrInputDocument::setFieldBoost
 
 (PECL solr> = 0.9.2)

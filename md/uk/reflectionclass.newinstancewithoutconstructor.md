@@ -1,16 +1,11 @@
-Створює новий екземпляр класу без виклику конструктора
-
--   [« ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)
-    
--   [ReflectionClass::setStaticPropertyValue »](reflectionclass.setstaticpropertyvalue.md)
-    
--   [PHP Manual](index.md)
-    
--   [ReflectionClass](class.reflectionclass.md)
-    
--   Створює новий екземпляр класу без виклику конструктора
-    
-
+---
+navigation:
+  - reflectionclass.newinstanceargs.md: '« ReflectionClass::newInstanceArgs'
+  - reflectionclass.setstaticpropertyvalue.md: 'ReflectionClass::setStaticPropertyValue »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
+title: 'ReflectionClass::newInstanceWithoutConstructor'
+---
 # ReflectionClass::newInstanceWithoutConstructor
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

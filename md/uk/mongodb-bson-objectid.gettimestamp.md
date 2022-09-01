@@ -1,16 +1,11 @@
-Повертає позначку часу ObjectId
-
--   [« MongoDBBSONObjectId::construct](mongodb-bson-objectid.construct.html)
-    
--   [MongoDBBSONObjectId::jsonSerialize »](mongodb-bson-objectid.jsonserialize.html)
-    
--   [PHP Manual](index.html)
-    
--   [MongoDBBSONObjectId](class.mongodb-bson-objectid.html)
-    
--   Повертає позначку часу ObjectId
-    
-
+---
+navigation:
+  - mongodb-bson-objectid.construct.html: '« MongoDBBSONObjectId::construct'
+  - mongodb-bson-objectid.jsonserialize.html: 'MongoDBBSONObjectId::jsonSerialize »'
+  - index.html: PHP Manual
+  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+title: 'MongoDBBSONObjectId::getTimestamp'
+---
 # MongoDBBSONObjectId::getTimestamp
 
 (mongodb >=1.2.0)

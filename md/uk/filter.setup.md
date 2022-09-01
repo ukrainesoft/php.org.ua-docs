@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.filter.html)
-    
--   [Вимоги »](filter.requirements.html)
-    
--   [PHP Manual](index.html)
-    
--   [Filter](book.filter.html)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.filter.html: « Введение
+  - filter.requirements.html: Вимоги »
+  - index.html: PHP Manual
+  - book.filter.html: Filter
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

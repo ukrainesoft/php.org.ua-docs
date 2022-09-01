@@ -1,16 +1,11 @@
-Отримання UID власника скрипта PHP
-
--   [« getmypid](function.getmypid.md)
-    
--   [getopt »](function.getopt.md)
-    
--   [PHP Manual](index.md)
-    
--   [Опції PHP/інформаційні функції](ref.info.md)
-    
--   Отримання UID власника скрипта PHP
-    
-
+---
+navigation:
+  - function.getmypid.md: « getmypid
+  - function.getopt.md: getopt »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
+title: геттіоїд
+---
 # геттіоїд
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

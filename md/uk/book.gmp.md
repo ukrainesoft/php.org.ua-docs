@@ -1,16 +1,11 @@
-Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)
-
--   [« bcsub](function.bcsub.html)
-    
--   [Введение »](intro.gmp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Математичні модулі](refs.math.html)
-    
--   Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)
-    
-
+---
+navigation:
+  - function.bcsub.html: « bcsub
+  - intro.gmp.html: Введение »
+  - index.html: PHP Manual
+  - refs.math.html: Математичні модулі
+title: Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)
+---
 # Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)
 
 -   [Введение](intro.gmp.html)

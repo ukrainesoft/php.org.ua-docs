@@ -1,16 +1,11 @@
-Встановлює значення для двигуна
-
--   [« YafViewSimple::render](yaf-view-simple.render.html)
-    
--   [YafViewSimple::setScriptPath »](yaf-view-simple.setscriptpath.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafViewSimple](class.yaf-view-simple.html)
-    
--   Встановлює значення для двигуна
-    
-
+---
+navigation:
+  - yaf-view-simple.render.html: '« YafViewSimple::render'
+  - yaf-view-simple.setscriptpath.html: 'YafViewSimple::setScriptPath »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.html: YafViewSimple
+title: 'YafViewSimple::set'
+---
 # YafViewSimple::set
 
 (Yaf >=1.0.0)

@@ -1,16 +1,11 @@
-Повертає ширину та висоту у вигляді асоціативного масиву
-
--   [« Imagick::getImageGamma](imagick.getimagegamma.md)
-    
--   [Imagick::getImageGravity »](imagick.getimagegravity.md)
-    
--   [PHP Manual](index.md)
-    
--   [Imagick](class.imagick.md)
-    
--   Повертає ширину та висоту у вигляді асоціативного масиву
-    
-
+---
+navigation:
+  - imagick.getimagegamma.md: '« Imagick::getImageGamma'
+  - imagick.getimagegravity.md: 'Imagick::getImageGravity »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
+title: 'Imagick::getImageGeometry'
+---
 # Imagick::getImageGeometry
 
 (PECL imagick 2, PECL imagick 3)

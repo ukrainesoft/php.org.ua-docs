@@ -1,16 +1,11 @@
-Призупинити цикл подій за замовчуванням
-
--   [« Ev::supportedBackends](ev.supportedbackends.md)
-    
--   [Ev::time »](ev.time.md)
-    
--   [PHP Manual](index.md)
-    
--   [Єв](class.ev.md)
-    
--   Призупинити цикл подій за замовчуванням
-    
-
+---
+navigation:
+  - ev.supportedbackends.md: '« Ev::supportedBackends'
+  - ev.time.md: 'Ev::time »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
+title: 'Ev:: suspend'
+---
 # Ev:: suspend
 
 (PECL ev >= 0.2.0)

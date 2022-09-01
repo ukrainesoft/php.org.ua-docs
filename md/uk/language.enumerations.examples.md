@@ -1,16 +1,11 @@
-Приклади
-
--   [« Сериализация](language.enumerations.serialization.html)
-    
--   [Ошибки »](language.errors.html)
-    
--   [PHP Manual](index.html)
-    
--   [Перечисления](language.enumerations.html)
-    
--   Приклади
-    
-
+---
+navigation:
+  - language.enumerations.serialization.html: « Сериализация
+  - language.errors.html: Ошибки »
+  - index.html: PHP Manual
+  - language.enumerations.html: Перечисления
+title: Приклади
+---
 ## Приклади
 
 **Приклад #1 Основні обмежені значення**

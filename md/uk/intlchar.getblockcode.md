@@ -1,16 +1,11 @@
-Отримати блок розміщення символу Unicode
-
--   [« IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.html)
-    
--   [IntlChar::getCombiningClass »](intlchar.getcombiningclass.html)
-    
--   [PHP Manual](index.html)
-    
--   [IntlChar](class.intlchar.html)
-    
--   Отримати блок розміщення символу Unicode
-    
-
+---
+navigation:
+  - intlchar.getbidipairedbracket.html: '« IntlChar::getBidiPairedBracket'
+  - intlchar.getcombiningclass.html: 'IntlChar::getCombiningClass »'
+  - index.html: PHP Manual
+  - class.intlchar.html: IntlChar
+title: 'IntlChar::getBlockCode'
+---
 # IntlChar::getBlockCode
 
 (PHP 7, PHP 8)

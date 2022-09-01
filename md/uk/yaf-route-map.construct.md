@@ -1,16 +1,11 @@
-Призначення construct
-
--   [« YafRouteMap::assemble](yaf-route-map.assemble.html)
-    
--   [YafRouteMap::route »](yaf-route-map.route.html)
-    
--   [PHP Manual](index.html)
-    
--   [YafRouteMap](class.yaf-route-map.html)
-    
--   Призначення construct
-    
-
+---
+navigation:
+  - yaf-route-map.assemble.html: '« YafRouteMap::assemble'
+  - yaf-route-map.route.html: 'YafRouteMap::route »'
+  - index.html: PHP Manual
+  - class.yaf-route-map.html: YafRouteMap
+title: 'YafRouteMap::construct'
+---
 # YafRouteMap::construct
 
 (Yaf >=1.0.0)

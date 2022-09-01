@@ -1,16 +1,11 @@
-Клас SoapServer
-
--   [« SoapClient::soapCall](soapclient.soapcall.md)
-    
--   [SoapServer::addFunction »](soapserver.addfunction.md)
-    
--   [PHP Manual](index.md)
-    
--   [SOAP](book.soap.md)
-    
--   Клас SoapServer
-    
-
+---
+navigation:
+  - soapclient.soapcall.md: '« SoapClient::soapCall'
+  - soapserver.addfunction.md: 'SoapServer::addFunction »'
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
+title: Клас SoapServer
+---
 # Клас SoapServer
 
 (PHP 5, PHP 7, PHP 8)

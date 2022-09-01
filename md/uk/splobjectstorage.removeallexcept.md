@@ -1,16 +1,11 @@
-Видаляє з поточного контейнера всі об'єкти, яких немає в іншому контейнері
-
--   [« SplObjectStorage::removeAll](splobjectstorage.removeall.html)
-    
--   [SplObjectStorage::rewind »](splobjectstorage.rewind.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplObjectStorage](class.splobjectstorage.html)
-    
--   Видаляє з поточного контейнера всі об'єкти, яких немає в іншому контейнері
-    
-
+---
+navigation:
+  - splobjectstorage.removeall.html: '« SplObjectStorage::removeAll'
+  - splobjectstorage.rewind.html: 'SplObjectStorage::rewind »'
+  - index.html: PHP Manual
+  - class.splobjectstorage.html: SplObjectStorage
+title: 'SplObjectStorage::removeAllExcept'
+---
 # SplObjectStorage::removeAllExcept
 
 (PHP 5> = 5.3.6, PHP 7, PHP 8)

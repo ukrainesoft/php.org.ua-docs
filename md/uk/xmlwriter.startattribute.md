@@ -1,16 +1,11 @@
-Створити початковий атрибут
-
--   [« XMLWriter::setIndentString](xmlwriter.setindentstring.md)
-    
--   [XMLWriter::startAttributeNs »](xmlwriter.startattributens.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLWriter](class.xmlwriter.md)
-    
--   Створити початковий атрибут
-    
-
+---
+navigation:
+  - xmlwriter.setindentstring.md: '« XMLWriter::setIndentString'
+  - xmlwriter.startattributens.md: 'XMLWriter::startAttributeNs »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
+title: 'XMLWriter::startAttribute'
+---
 # XMLWriter::startAttribute
 
 # xmlwriterstartattribute
@@ -51,9 +46,9 @@ xmlwriter_start_attribute(XMLWriter $writer, string $name): bool
 
 ### список змін
 
-| Версия | Описание                                                                                                              |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

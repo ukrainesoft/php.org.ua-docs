@@ -1,16 +1,11 @@
-Переказує дату за єврейським календарем у число днів у юліанському літочисленні
-
--   [« jdtounix](function.jdtounix.md)
-    
--   [juliantojd »](function.juliantojd.md)
-    
--   [PHP Manual](index.md)
-    
--   [Календарь](ref.calendar.md)
-    
--   Переказує дату за єврейським календарем у число днів у юліанському літочисленні
-    
-
+---
+navigation:
+  - function.jdtounix.md: « jdtounix
+  - function.juliantojd.md: juliantojd »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
+title: jewishtojd
+---
 # jewishtojd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

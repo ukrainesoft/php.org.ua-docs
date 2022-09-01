@@ -1,16 +1,11 @@
-Повертає подання BSON значення JSON
-
--   [« Функції](ref.bson.functions.html)
-    
--   [MongoDBBSONfromPHP »](function.mongodb.bson-fromphp.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції](ref.bson.functions.html)
-    
--   Повертає подання BSON значення JSON
-    
-
+---
+navigation:
+  - ref.bson.functions.html: « Функції
+  - function.mongodb.bson-fromphp.html: MongoDBBSONfromPHP »
+  - index.html: PHP Manual
+  - ref.bson.functions.html: Функції
+title: MongoDBBSONfromJSON
+---
 # MongoDBBSONfromJSON
 
 (mongodb >=1.0.0)

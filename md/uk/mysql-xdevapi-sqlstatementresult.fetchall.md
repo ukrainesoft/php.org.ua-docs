@@ -1,16 +1,11 @@
-Отримує всі рядки з результату
-
--   [« SqlStatementResult::construct](mysql-xdevapi-sqlstatementresult.construct.html)
-    
--   [SqlStatementResult::fetchOne »](mysql-xdevapi-sqlstatementresult.fetchone.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlxdevapiSqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
-    
--   Отримує всі рядки з результату
-    
-
+---
+navigation:
+  - mysql-xdevapi-sqlstatementresult.construct.html: '« SqlStatementResult::construct'
+  - mysql-xdevapi-sqlstatementresult.fetchone.html: 'SqlStatementResult::fetchOne »'
+  - index.html: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+title: 'SqlStatementResult::fetchAll'
+---
 # SqlStatementResult::fetchAll
 
 (No version information available, might only be in Git)

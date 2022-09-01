@@ -1,26 +1,21 @@
-Налаштування під час виконання
-
--   [« Установка](filter.installation.md)
-    
--   [Типи ресурсів »](filter.resources.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](filter.setup.md)
-    
--   Налаштування під час виконання
-    
-
+---
+navigation:
+  - filter.installation.md: « Установка
+  - filter.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - filter.setup.md: Встановлення та налаштування
+title: Налаштування під час виконання
+---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
 **Параметри конфігурації Filter**
 
-| Имя                                                                       | По умолчанию | Место изменения | Список изменений                          |
-|---------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
-| [filter.default](filter.configuration.html#ini.filter.default)            | "unsaferaw"  | PHPINIPERDIR    | Параметр застарів, починаючи з PHP 8.1.0. |
-| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags) | NULL         | PHPINIPERDIR    |                                           |
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [filter.default](filter.configuration.html#ini.filter.default) | "unsaferaw" | PHPINIPERDIR | Параметр застарів, починаючи з PHP 8.1.0. |
+| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags) | NULL | PHPINIPERDIR |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

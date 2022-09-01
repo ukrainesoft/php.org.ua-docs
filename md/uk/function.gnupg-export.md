@@ -1,16 +1,11 @@
-Експортує ключ
-
--   [« gnupgencryptsign](function.gnupg-encryptsign.html)
-    
--   [gnupggetengineinfo »](function.gnupg-getengineinfo.html)
-    
--   [PHP Manual](index.md)
-    
--   [GnuPG Функції](ref.gnupg.md)
-    
--   Експортує ключ
-    
-
+---
+navigation:
+  - function.gnupg-encryptsign.html: « gnupgencryptsign
+  - function.gnupg-getengineinfo.html: gnupggetengineinfo »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
+title: gnupgexport
+---
 # gnupgexport
 
 (PECL gnupg >= 0.1)

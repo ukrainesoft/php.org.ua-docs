@@ -1,16 +1,11 @@
-Повертає динамічно створене замикання для функції
-
--   [« ReflectionFunction::export](reflectionfunction.export.html)
-    
--   [ReflectionFunction::invoke »](reflectionfunction.invoke.html)
-    
--   [PHP Manual](index.html)
-    
--   [ReflectionFunction](class.reflectionfunction.html)
-    
--   Повертає динамічно створене замикання для функції
-    
-
+---
+navigation:
+  - reflectionfunction.export.html: '« ReflectionFunction::export'
+  - reflectionfunction.invoke.html: 'ReflectionFunction::invoke »'
+  - index.html: PHP Manual
+  - class.reflectionfunction.html: ReflectionFunction
+title: 'ReflectionFunction::getClosure'
+---
 # ReflectionFunction::getClosure
 
 (PHP 5> = 5.4.0, PHP 7, PHP 8)

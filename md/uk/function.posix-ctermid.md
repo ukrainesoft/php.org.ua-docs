@@ -1,16 +1,11 @@
-Повертає шлях керуючого терміналу
-
--   [« posixaccess](function.posix-access.html)
-    
--   [posixerrno »](function.posix-errno.html)
-    
--   [PHP Manual](index.md)
-    
--   [POSIX Функции](ref.posix.md)
-    
--   Повертає шлях керуючого терміналу
-    
-
+---
+navigation:
+  - function.posix-access.html: « posixaccess
+  - function.posix-errno.html: posixerrno »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
+title: posixctermid
+---
 # posixctermid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

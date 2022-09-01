@@ -1,16 +1,11 @@
-Застосовує ядро ​​користувача згортки до зображення
-
--   [« Imagick::contrastStretchImage](imagick.contraststretchimage.html)
-    
--   [Imagick::count »](imagick.count.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Застосовує ядро ​​користувача згортки до зображення
-    
-
+---
+navigation:
+  - imagick.contraststretchimage.html: '« Imagick::contrastStretchImage'
+  - imagick.count.html: 'Imagick::count »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::convolveImage'
+---
 # Imagick::convolveImage
 
 (PECL imagick 2, PECL imagick 3)

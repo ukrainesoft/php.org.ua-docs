@@ -1,16 +1,11 @@
-Перевіряє наявність символів у нижньому регістрі
-
--   [« ctypegraph](function.ctype-graph.html)
-    
--   [ctypeprint »](function.ctype-print.html)
-    
--   [PHP Manual](index.md)
-    
--   [Опції Ctype](ref.ctype.md)
-    
--   Перевіряє наявність символів у нижньому регістрі
-    
-
+---
+navigation:
+  - function.ctype-graph.html: « ctypegraph
+  - function.ctype-print.html: ctypeprint »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
+title: ctypelower
+---
 # ctypelower
 
 (PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)

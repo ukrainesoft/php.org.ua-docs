@@ -1,16 +1,11 @@
-Отримує екземпляр маршрутизатора
-
--   [« YafDispatcher::getRequest](yaf-dispatcher.getrequest.html)
-    
--   [YafDispatcher::initView »](yaf-dispatcher.initview.html)
-    
--   [PHP Manual](index.md)
-    
--   [YafDispatcher](class.yaf-dispatcher.html)
-    
--   Отримує екземпляр маршрутизатора
-    
-
+---
+navigation:
+  - yaf-dispatcher.getrequest.html: '« YafDispatcher::getRequest'
+  - yaf-dispatcher.initview.html: 'YafDispatcher::initView »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.html: YafDispatcher
+title: 'YafDispatcher::getRouter'
+---
 # YafDispatcher::getRouter
 
 (Yaf >=1.0.0)

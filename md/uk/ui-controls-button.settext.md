@@ -1,16 +1,11 @@
-Встановити текст
-
--   [« UIControlsButton::onClick](ui-controls-button.onclick.html)
-    
--   [ОЙControlsColorButton »](class.ui-controls-colorbutton.html)
-    
--   [PHP Manual](index.md)
-    
--   [ОЙControlsButton](class.ui-controls-button.html)
-    
--   Встановити текст
-    
-
+---
+navigation:
+  - ui-controls-button.onclick.html: '« UIControlsButton::onClick'
+  - class.ui-controls-colorbutton.html: ОЙControlsColorButton »
+  - index.md: PHP Manual
+  - class.ui-controls-button.html: ОЙControlsButton
+title: 'ОЙControlsButton::setText'
+---
 # ОЙControlsButton::setText
 
 (UI 0.9.9)

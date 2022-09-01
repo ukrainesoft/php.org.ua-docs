@@ -1,16 +1,11 @@
-Перемістити позицію курсору на перший атрибут
-
--   [« XMLReader::moveToElement](xmlreader.movetoelement.md)
-    
--   [XMLReader::moveToNextAttribute »](xmlreader.movetonextattribute.md)
-    
--   [PHP Manual](index.md)
-    
--   [XMLReader](class.xmlreader.md)
-    
--   Перемістити позицію курсору на перший атрибут
-    
-
+---
+navigation:
+  - xmlreader.movetoelement.md: '« XMLReader::moveToElement'
+  - xmlreader.movetonextattribute.md: 'XMLReader::moveToNextAttribute »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
+title: 'XMLReader::moveToFirstAttribute'
+---
 # XMLReader::moveToFirstAttribute
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)

@@ -1,16 +1,11 @@
-Повертає індекс поточного вузла
-
--   [« SplDoublyLinkedList::isEmpty](spldoublylinkedlist.isempty.html)
-    
--   [SplDoublyLinkedList::next »](spldoublylinkedlist.next.html)
-    
--   [PHP Manual](index.html)
-    
--   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
-    
--   Повертає індекс поточного вузла
-    
-
+---
+navigation:
+  - spldoublylinkedlist.isempty.html: '« SplDoublyLinkedList::isEmpty'
+  - spldoublylinkedlist.next.html: 'SplDoublyLinkedList::next »'
+  - index.html: PHP Manual
+  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+title: 'SplDoublyLinkedList::key'
+---
 # SplDoublyLinkedList::key
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

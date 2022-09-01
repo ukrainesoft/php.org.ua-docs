@@ -1,16 +1,11 @@
-Управління процесами
-
--   [« expectpopen](function.expect-popen.html)
-    
--   [Введение »](intro.pcntl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Модули для управления процессами программ](refs.fileprocess.process.md)
-    
--   Управління процесами
-    
-
+---
+navigation:
+  - function.expect-popen.html: « expectpopen
+  - intro.pcntl.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
+title: Управління процесами
+---
 # Управління процесами
 
 -   [Введение](intro.pcntl.md)

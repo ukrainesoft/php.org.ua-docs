@@ -1,16 +1,11 @@
-Модулі для роботи з датою та часом
-
--   [« sqlsrvserverinfo](function.sqlsrv-server-info.html)
-    
--   [Календарь »](book.calendar.md)
-    
--   [PHP Manual](index.md)
-    
--   [Справочник функций](funcref.md)
-    
--   Модулі для роботи з датою та часом
-    
-
+---
+navigation:
+  - function.sqlsrv-server-info.html: « sqlsrvserverinfo
+  - book.calendar.md: Календарь »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
+title: Модулі для роботи з датою та часом
+---
 # Модулі для роботи з датою та часом
 
 -   [Календарь](book.calendar.md)

@@ -1,16 +1,11 @@
-Зміна вмісту файлу
-
--   [« Phar::offsetGet](phar.offsetget.md)
-    
--   [Phar::offsetUnset »](phar.offsetunset.md)
-    
--   [PHP Manual](index.md)
-    
--   [Phar](class.phar.md)
-    
--   Зміна вмісту файлу
-    
-
+---
+navigation:
+  - phar.offsetget.md: '« Phar::offsetGet'
+  - phar.offsetunset.md: 'Phar::offsetUnset »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
+title: 'Phar::offsetSet'
+---
 # Phar::offsetSet
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)

@@ -1,16 +1,11 @@
-Повертає значення поля з результату запиту
-
--   [« ociregistertafcallback](function.oci-register-taf-callback.html)
-    
--   [ocirollback »](function.oci-rollback.html)
-    
--   [PHP Manual](index.md)
-    
--   [OCI8 Функции](ref.oci8.md)
-    
--   Повертає значення поля з результату запиту
-    
-
+---
+navigation:
+  - function.oci-register-taf-callback.html: « ociregistertafcallback
+  - function.oci-rollback.html: ocirollback »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
+title: ociresult
+---
 # ociresult
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)

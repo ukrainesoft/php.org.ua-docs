@@ -1,16 +1,11 @@
-Лінійний градієнт
-
--   [« UIDrawBrushGradient::setStop](ui-draw-brush-gradient.setstop.html)
-    
--   [ОЙDrawBrushLinearGradient::construct »](ui-draw-brush-lineargradient.construct.html)
-    
--   [PHP Manual](index.html)
-    
--   [ОЙ](book.ui.html)
-    
--   Лінійний градієнт
-    
-
+---
+navigation:
+  - ui-draw-brush-gradient.setstop.html: '« UIDrawBrushGradient::setStop'
+  - ui-draw-brush-lineargradient.construct.html: 'ОЙDrawBrushLinearGradient::construct »'
+  - index.html: PHP Manual
+  - book.ui.html: ОЙ
+title: Лінійний градієнт
+---
 # Лінійний градієнт
 
 (UI 2.0.0)

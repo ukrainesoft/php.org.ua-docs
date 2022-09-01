@@ -1,16 +1,11 @@
-Додати автофільтр
-
--   [« VtifulKernelExcel::addSheet](vtiful-kernel-excel.addSheet.html)
-    
--   [VtifulKernelExcel::constMemory »](vtiful-kernel-excel.constMemory.html)
-    
--   [PHP Manual](index.md)
-    
--   [VtifulKernelExcel](class.vtiful-kernel-excel.html)
-    
--   Додати автофільтр
-    
-
+---
+navigation:
+  - vtiful-kernel-excel.addSheet.html: '« VtifulKernelExcel::addSheet'
+  - vtiful-kernel-excel.constMemory.html: 'VtifulKernelExcel::constMemory »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+title: 'VtifulKernelExcel::autoFilter'
+---
 # VtifulKernelExcel::autoFilter
 
 (PECL xlswriter >= 1.2.1)

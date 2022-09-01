@@ -1,16 +1,11 @@
-Встановлює швидкість навчання
-
--   [« fannsetlearningmomentum](function.fann-set-learning-momentum.html)
-    
--   [fannsetoutputscalingparams »](function.fann-set-output-scaling-params.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Fann](ref.fann.md)
-    
--   Встановлює швидкість навчання
-    
-
+---
+navigation:
+  - function.fann-set-learning-momentum.html: « fannsetlearningmomentum
+  - function.fann-set-output-scaling-params.html: fannsetoutputscalingparams »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
+title: fannsetlearningrate
+---
 # fannsetlearningrate
 
 (PECL fann> = 1.0.0)

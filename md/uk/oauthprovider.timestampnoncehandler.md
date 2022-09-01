@@ -1,16 +1,11 @@
-Встановити обробник timestampNonceHandler
-
--   [« OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md)
-    
--   [OAuthProvider::tokenHandler »](oauthprovider.tokenhandler.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Встановити обробник timestampNonceHandler
-    
-
+---
+navigation:
+  - oauthprovider.setrequesttokenpath.md: '« OAuthProvider::setRequestTokenPath'
+  - oauthprovider.tokenhandler.md: 'OAuthProvider::tokenHandler »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::timestampNonceHandler'
+---
 # OAuthProvider::timestampNonceHandler
 
 (PECL OAuth >= 1.0.0)

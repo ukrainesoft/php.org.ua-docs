@@ -1,16 +1,11 @@
-Встановлення та налаштування
-
--   [« Введение](intro.yac.md)
-    
--   [Вимоги »](yac.requirements.md)
-    
--   [PHP Manual](index.md)
-    
--   [Yac](book.yac.md)
-    
--   Встановлення та налаштування
-    
-
+---
+navigation:
+  - intro.yac.md: « Введение
+  - yac.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.yac.md: Yac
+title: Встановлення та налаштування
+---
 # Встановлення та налаштування
 
 ## Зміст

@@ -1,16 +1,11 @@
-Створює сервер XML-RPC
-
--   [« xmlrpcservercallmethod](function.xmlrpc-server-call-method.html)
-    
--   [xmlrpcserverdestroy »](function.xmlrpc-server-destroy.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції XML-RPC](ref.xmlrpc.md)
-    
--   Створює сервер XML-RPC
-    
-
+---
+navigation:
+  - function.xmlrpc-server-call-method.html: « xmlrpcservercallmethod
+  - function.xmlrpc-server-destroy.html: xmlrpcserverdestroy »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
+title: xmlrpcservercreate
+---
 # xmlrpcservercreate
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7)

@@ -1,16 +1,11 @@
-Додає сервери до ансамблю
-
--   [« ZookeeperConfig](class.zookeeperconfig.md)
-    
--   [ZookeeperConfig::get »](zookeeperconfig.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [ZookeeperConfig](class.zookeeperconfig.md)
-    
--   Додає сервери до ансамблю
-    
-
+---
+navigation:
+  - class.zookeeperconfig.md: « ZookeeperConfig
+  - zookeeperconfig.get.md: 'ZookeeperConfig::get »'
+  - index.md: PHP Manual
+  - class.zookeeperconfig.md: ZookeeperConfig
+title: 'ZookeeperConfig::add'
+---
 # ZookeeperConfig::add
 
 (PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)

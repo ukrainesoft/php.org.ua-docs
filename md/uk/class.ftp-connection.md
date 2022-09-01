@@ -1,16 +1,11 @@
-Клас FTPConnection
-
--   [« ftpsystype](function.ftp-systype.html)
-    
--   [Gearman »](book.gearman.html)
-    
--   [PHP Manual](index.html)
-    
--   [FTP](book.ftp.html)
-    
--   Клас FTPConnection
-    
-
+---
+navigation:
+  - function.ftp-systype.html: « ftpsystype
+  - book.gearman.html: Gearman »
+  - index.html: PHP Manual
+  - book.ftp.html: FTP
+title: Клас FTPConnection
+---
 # Клас FTPConnection
 
 (PHP 8> = 8.1.0)

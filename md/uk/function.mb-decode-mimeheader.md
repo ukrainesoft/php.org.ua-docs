@@ -1,16 +1,11 @@
-Декодує рядок у MIME-заголовку
-
--   [« mbconvertvariables](function.mb-convert-variables.html)
-    
--   [мбdecodenumericentity »](function.mb-decode-numericentity.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Декодує рядок у MIME-заголовку
-    
-
+---
+navigation:
+  - function.mb-convert-variables.html: « mbconvertvariables
+  - function.mb-decode-numericentity.html: мбdecodenumericentity »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбdecodemimeheader
+---
 # мбdecodemimeheader
 
 (PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)

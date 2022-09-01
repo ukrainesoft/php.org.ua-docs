@@ -1,16 +1,11 @@
-Повертає ітерацію зображення
-
--   [« Imagick::getImageInterpolateMethod](imagick.getimageinterpolatemethod.html)
-    
--   [Imagick::getImageLength »](imagick.getimagelength.html)
-    
--   [PHP Manual](index.html)
-    
--   [Imagick](class.imagick.html)
-    
--   Повертає ітерацію зображення
-    
-
+---
+navigation:
+  - imagick.getimageinterpolatemethod.html: '« Imagick::getImageInterpolateMethod'
+  - imagick.getimagelength.html: 'Imagick::getImageLength »'
+  - index.html: PHP Manual
+  - class.imagick.html: Imagick
+title: 'Imagick::getImageIterations'
+---
 # Imagick::getImageIterations
 
 (PECL imagick 2, PECL imagick 3)

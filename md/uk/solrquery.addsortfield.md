@@ -1,16 +1,11 @@
-Використовується для керування сортуванням результатів
-
--   [« SolrQuery::addMltQueryField](solrquery.addmltqueryfield.md)
-    
--   [SolrQuery::addStatsFacet »](solrquery.addstatsfacet.md)
-    
--   [PHP Manual](index.md)
-    
--   [SolrQuery](class.solrquery.md)
-    
--   Використовується для керування сортуванням результатів
-    
-
+---
+navigation:
+  - solrquery.addmltqueryfield.md: '« SolrQuery::addMltQueryField'
+  - solrquery.addstatsfacet.md: 'SolrQuery::addStatsFacet »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
+title: 'SolrQuery::addSortField'
+---
 # SolrQuery::addSortField
 
 (PECL solr> = 0.9.2)

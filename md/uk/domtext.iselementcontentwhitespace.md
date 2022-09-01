@@ -1,16 +1,11 @@
-Повертає, чи містить текстовий вузол пробіл у вмісті елемента
-
--   [« DOMText::construct](domtext.construct.html)
-    
--   [DOMText::isWhitespaceInElementContent »](domtext.iswhitespaceinelementcontent.html)
-    
--   [PHP Manual](index.html)
-    
--   [DOMText](class.domtext.html)
-    
--   Повертає, чи містить текстовий вузол пробіл у вмісті елемента
-    
-
+---
+navigation:
+  - domtext.construct.html: '« DOMText::construct'
+  - domtext.iswhitespaceinelementcontent.html: 'DOMText::isWhitespaceInElementContent »'
+  - index.html: PHP Manual
+  - class.domtext.html: DOMText
+title: 'DOMText::isElementContentWhitespace'
+---
 # DOMText::isElementContentWhitespace
 
 (No version information available, might only be in Git)

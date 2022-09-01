@@ -1,16 +1,11 @@
-Середній індекс спрямованого руху
-
--   [« traderadosc](function.trader-adosc.html)
-    
--   [traderadxr »](function.trader-adxr.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Середній індекс спрямованого руху
-    
-
+---
+navigation:
+  - function.trader-adosc.html: « traderadosc
+  - function.trader-adxr.html: traderadxr »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderadx
+---
 # traderadx
 
 (PECL trader >= 0.2.0)

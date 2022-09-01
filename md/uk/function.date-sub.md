@@ -1,16 +1,11 @@
-Псевдонім DateTime::sub
-
--   [« dateparse](function.date-parse.html)
-    
--   [datesuninfo »](function.date-sun-info.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції дати та часу](ref.datetime.md)
-    
--   Псевдонім DateTime::sub
-    
-
+---
+navigation:
+  - function.date-parse.html: « dateparse
+  - function.date-sun-info.html: datesuninfo »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
+title: datesub
+---
 # datesub
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)

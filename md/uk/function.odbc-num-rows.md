@@ -1,16 +1,11 @@
-Повертає кількість рядків у результаті
-
--   [« odbcnumfields](function.odbc-num-fields.html)
-    
--   [odbcpconnect »](function.odbc-pconnect.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функции ODBC](ref.uodbc.html)
-    
--   Повертає кількість рядків у результаті
-    
-
+---
+navigation:
+  - function.odbc-num-fields.html: « odbcnumfields
+  - function.odbc-pconnect.html: odbcpconnect »
+  - index.html: PHP Manual
+  - ref.uodbc.html: Функции ODBC
+title: odbcnumrows
+---
 # odbcnumrows
 
 (PHP 4, PHP 5, PHP 7, PHP 8)

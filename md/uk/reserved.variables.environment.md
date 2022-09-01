@@ -1,16 +1,11 @@
-Змінні оточення
-
--   [SESSION](reserved.variables.session.md)
-    
--   [COOKIE »](reserved.variables.cookies.md)
-    
--   [PHP Manual](index.md)
-    
--   [Зумовлені змінні](reserved.variables.md)
-    
--   Змінні оточення
-    
-
+---
+navigation:
+  - reserved.variables.session.md: SESSION
+  - reserved.variables.cookies.md: COOKIE »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
+title: ENV
+---
 # ENV
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

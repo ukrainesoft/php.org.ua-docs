@@ -1,16 +1,11 @@
-Функції інтернаціоналізації
-
--   [« obiconvhandler](function.ob-iconv-handler.html)
-    
--   [Введение »](intro.intl.md)
-    
--   [PHP Manual](index.md)
-    
--   [Підтримка мов та кодувань](refs.international.md)
-    
--   Функції інтернаціоналізації
-    
-
+---
+navigation:
+  - function.ob-iconv-handler.html: « obiconvhandler
+  - intro.intl.md: Введение »
+  - index.md: PHP Manual
+  - refs.international.md: Підтримка мов та кодувань
+title: Функції інтернаціоналізації
+---
 # Функції інтернаціоналізації
 
 -   [Введение](intro.intl.md)

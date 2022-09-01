@@ -1,16 +1,11 @@
-Перетворює задану дату на юліанську
-
--   [« calinfo](function.cal-info.html)
-    
--   [easterdate »](function.easter-date.html)
-    
--   [PHP Manual](index.html)
-    
--   [Календарь](ref.calendar.html)
-    
--   Перетворює задану дату на юліанську
-    
-
+---
+navigation:
+  - function.cal-info.html: « calinfo
+  - function.easter-date.html: easterdate »
+  - index.html: PHP Manual
+  - ref.calendar.html: Календарь
+title: calтожд
+---
 # calтожд
 
 (PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)

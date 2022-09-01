@@ -1,16 +1,11 @@
-Створює об'єкт спостерігача EvPrepare, пов'язаний із поточним екземпляром циклу подій
-
--   [« EvLoop::periodic](evloop.periodic.html)
-    
--   [EvLoop::resume »](evloop.resume.html)
-    
--   [PHP Manual](index.html)
-    
--   [EvLoop](class.evloop.html)
-    
--   Створює об'єкт спостерігача EvPrepare, пов'язаний із поточним екземпляром циклу подій
-    
-
+---
+navigation:
+  - evloop.periodic.html: '« EvLoop::periodic'
+  - evloop.resume.html: 'EvLoop::resume »'
+  - index.html: PHP Manual
+  - class.evloop.html: EvLoop
+title: 'EvLoop::prepare'
+---
 # EvLoop::prepare
 
 (PECL ev >= 0.2.0)

@@ -1,16 +1,11 @@
-Отримує мінімальну кількість днів, яка може бути в першому тижні на рік або місяць
-
--   [« IntlCalendar::getMaximum](intlcalendar.getmaximum.md)
-    
--   [IntlCalendar::getMinimum »](intlcalendar.getminimum.md)
-    
--   [PHP Manual](index.md)
-    
--   [IntlCalendar](class.intlcalendar.md)
-    
--   Отримує мінімальну кількість днів, яка може бути в першому тижні на рік або місяць
-    
-
+---
+navigation:
+  - intlcalendar.getmaximum.md: '« IntlCalendar::getMaximum'
+  - intlcalendar.getminimum.md: 'IntlCalendar::getMinimum »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
+title: 'IntlCalendar::getMinimalDaysInFirstWeek'
+---
 # IntlCalendar::getMinimalDaysInFirstWeek
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)

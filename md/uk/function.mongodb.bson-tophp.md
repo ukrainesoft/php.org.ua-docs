@@ -1,16 +1,11 @@
-Повертає PHP подання значення BSON
-
--   [« MongoDBBSONtoJSON](function.mongodb.bson-tojson.html)
-    
--   [MongoDBBSONtoRelaxedExtendedJSON »](function.mongodb.bson-torelaxedextendedjson.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції](ref.bson.functions.md)
-    
--   Повертає PHP подання значення BSON
-    
-
+---
+navigation:
+  - function.mongodb.bson-tojson.html: « MongoDBBSONtoJSON
+  - function.mongodb.bson-torelaxedextendedjson.html: MongoDBBSONtoRelaxedExtendedJSON »
+  - index.md: PHP Manual
+  - ref.bson.functions.md: Функції
+title: MongoDBBSONtoPHP
+---
 # MongoDBBSONtoPHP
 
 (mongodb >=1.0.0)
@@ -50,10 +45,10 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 
 ### список змін
 
-| Версия                                                                                                                                                                                     | Описание |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| PECL mongodb 1.4.0                                                                                                                                                                         |          |
-| Якщо вхідні дані містять непідтримуваний застарілий тип BSON, драйвер більше не буде записувати попередження в журнал налагодження, а натомість створить об'єкт, який представляє цей тип. |          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.4.0 |  |
+| Якщо вхідні дані містять непідтримуваний застарілий тип BSON, драйвер більше не буде записувати попередження в журнал налагодження, а натомість створить об'єкт, який представляє цей тип. |  |
 
 | | PECL mongodb 1.3.2 |
 

@@ -1,16 +1,11 @@
-Виконання
-
--   [« parallelRuntime::construct](parallel-runtime.construct.html)
-    
--   [parallelRuntime::close »](parallel-runtime.close.html)
-    
--   [PHP Manual](index.md)
-    
--   [parallelRuntime](class.parallel-runtime.html)
-    
--   Виконання
-    
-
+---
+navigation:
+  - parallel-runtime.construct.html: '« parallelRuntime::construct'
+  - parallel-runtime.close.html: 'parallelRuntime::close »'
+  - index.md: PHP Manual
+  - class.parallel-runtime.html: parallelRuntime
+title: 'parallelRuntime::run'
+---
 # parallelRuntime::run
 
 parallelRuntime::run — Виконання

@@ -1,16 +1,11 @@
-Повертає метод, як буде повернено значення SNMP
-
--   [« snmpgetquickprint](function.snmp-get-quick-print.html)
-    
--   [snmpreadmib »](function.snmp-read-mib.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції SNMP](ref.snmp.html)
-    
--   Повертає метод, як буде повернено значення SNMP
-    
-
+---
+navigation:
+  - function.snmp-get-quick-print.html: « snmpgetquickprint
+  - function.snmp-read-mib.html: snmpreadmib »
+  - index.html: PHP Manual
+  - ref.snmp.html: Функції SNMP
+title: snmpgetvalueretrieval
+---
 # snmpgetvalueretrieval
 
 (PHP 4> = 4.3.3, PHP 5, PHP 7, PHP 8)

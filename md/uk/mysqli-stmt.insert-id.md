@@ -1,16 +1,11 @@
-Отримує ID, згенероване попередньою операцією INSERT
-
--   [« mysqlistmt::getwarnings](mysqli-stmt.get-warnings.html)
-    
--   [mysqlistmt::moreresults »](mysqli-stmt.more-results.html)
-    
--   [PHP Manual](index.html)
-    
--   [mysqlistmt](class.mysqli-stmt.html)
-    
--   Отримує ID, згенероване попередньою операцією INSERT
-    
-
+---
+navigation:
+  - mysqli-stmt.get-warnings.html: '« mysqlistmt::getwarnings'
+  - mysqli-stmt.more-results.html: 'mysqlistmt::moreresults »'
+  - index.html: PHP Manual
+  - class.mysqli-stmt.html: mysqlistmt
+title: 'mysqlistmt::$insertід'
+---
 # mysqlistmt::$insertід
 
 # mysqlistmtinsertід

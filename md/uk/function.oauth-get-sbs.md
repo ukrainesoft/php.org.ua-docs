@@ -1,16 +1,11 @@
-Створити базовий рядок підпису (Signature Base String)
-
--   [« Функции OAuth](ref.oauth.md)
-    
--   [oauthurlencode »](function.oauth-urlencode.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции OAuth](ref.oauth.md)
-    
--   Створити базовий рядок підпису (Signature Base String)
-    
-
+---
+navigation:
+  - ref.oauth.md: « Функции OAuth
+  - function.oauth-urlencode.html: oauthurlencode »
+  - index.md: PHP Manual
+  - ref.oauth.md: Функции OAuth
+title: oauthgetsbs
+---
 # oauthgetsbs
 
 (PECL OAuth >=0.99.7)

@@ -1,16 +1,11 @@
-Встановити власну директорію для бази даних GeoIP
-
--   [« geoipregionnameбcode](function.geoip-region-name-by-code.html)
-    
--   [geoiptimezoneбcountryandregion »](function.geoip-time-zone-by-country-and-region.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции GeoIP](ref.geoip.md)
-    
--   Встановити власну директорію для бази даних GeoIP
-    
-
+---
+navigation:
+  - function.geoip-region-name-by-code.html: « geoipregionnameбcode
+  - function.geoip-time-zone-by-country-and-region.html: geoiptimezoneбcountryandregion »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
+title: geoipsetupcustomdirectory
+---
 # geoipsetupcustomdirectory
 
 (PECL geoip >= 1.1.0)

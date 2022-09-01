@@ -1,16 +1,11 @@
-Вектор тригонометричний арккосинус
-
--   [« Функции Trader](ref.trader.md)
-    
--   [traderad »](function.trader-ad.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функции Trader](ref.trader.md)
-    
--   Вектор тригонометричний арккосинус
-    
-
+---
+navigation:
+  - ref.trader.md: « Функции Trader
+  - function.trader-ad.html: traderad »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
+title: traderacos
+---
 # traderacos
 
 (PECL trader >= 0.2.0)

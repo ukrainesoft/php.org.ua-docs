@@ -1,16 +1,11 @@
-Метод перевіряє, чи є ключ частиною хешу
-
--   [« QuickHashIntStringHash::delete](quickhashintstringhash.delete.md)
-    
--   [QuickHashIntStringHash::get »](quickhashintstringhash.get.md)
-    
--   [PHP Manual](index.md)
-    
--   [QuickHashIntStringHash](class.quickhashintstringhash.md)
-    
--   Метод перевіряє, чи є ключ частиною хешу
-    
-
+---
+navigation:
+  - quickhashintstringhash.delete.md: '« QuickHashIntStringHash::delete'
+  - quickhashintstringhash.get.md: 'QuickHashIntStringHash::get »'
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
+title: 'QuickHashIntStringHash::exists'
+---
 # QuickHashIntStringHash::exists
 
 (PECL quickhash >= Unknown)

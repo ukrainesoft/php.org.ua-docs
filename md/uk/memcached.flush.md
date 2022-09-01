@@ -1,16 +1,11 @@
-Анулює всі записи у кеші
-
--   [« Memcached::fetchAll](memcached.fetchall.html)
-    
--   [Memcached::get »](memcached.get.html)
-    
--   [PHP Manual](index.html)
-    
--   [Memcached](class.memcached.html)
-    
--   Анулює всі записи у кеші
-    
-
+---
+navigation:
+  - memcached.fetchall.html: '« Memcached::fetchAll'
+  - memcached.get.html: 'Memcached::get »'
+  - index.html: PHP Manual
+  - class.memcached.html: Memcached
+title: 'Memcached::flush'
+---
 # Memcached::flush
 
 (PECL memcached >= 0.1.0)

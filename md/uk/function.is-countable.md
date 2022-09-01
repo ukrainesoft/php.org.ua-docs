@@ -1,16 +1,11 @@
-Перевірити, що вміст змінної є лічильним значенням
-
--   [« iscallable](function.is-callable.html)
-    
--   [ісdouble »](function.is-double.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи зі змінними](ref.var.html)
-    
--   Перевірити, що вміст змінної є лічильним значенням
-    
-
+---
+navigation:
+  - function.is-callable.html: « iscallable
+  - function.is-double.html: ісdouble »
+  - index.html: PHP Manual
+  - ref.var.html: Функції для роботи зі змінними
+title: ісcountable
+---
 # ісcountable
 
 (PHP 7> = 7.3.0, PHP 8)
@@ -37,9 +32,9 @@ is_countable(mixed $value): bool
 
 ### список змін
 
-| Версия | Описание                         |
-|--------|----------------------------------|
-|        | Додана функція **ісcountable()** |
+| Версия | Описание |
+| --- | --- |
+|  | Додана функція **ісcountable()** |
 
 ### Приклади
 

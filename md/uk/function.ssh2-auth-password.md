@@ -1,16 +1,11 @@
-Аутентифікація через SSH з використанням звичайного пароля
-
--   [« ssh2authnone](function.ssh2-auth-none.html)
-    
--   [ssh2authpubkeyfile »](function.ssh2-auth-pubkey-file.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SSH2](ref.ssh2.md)
-    
--   Аутентифікація через SSH з використанням звичайного пароля
-    
-
+---
+navigation:
+  - function.ssh2-auth-none.html: « ssh2authnone
+  - function.ssh2-auth-pubkey-file.html: ssh2authpubkeyfile »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
+title: ssh2authpassword
+---
 # ssh2authpassword
 
 (PECL ssh2> = 0.9.0)

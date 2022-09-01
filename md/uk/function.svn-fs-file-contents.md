@@ -1,16 +1,11 @@
-Повертає потік для доступу до вмісту файлу з цієї файлової системи
-
--   [« svnфсdirentries](function.svn-fs-dir-entries.html)
-    
--   [svnфсfilelength »](function.svn-fs-file-length.html)
-    
--   [PHP Manual](index.md)
-    
--   [Функції SVN](ref.svn.md)
-    
--   Повертає потік для доступу до вмісту файлу з цієї файлової системи
-    
-
+---
+navigation:
+  - function.svn-fs-dir-entries.html: « svnфсdirentries
+  - function.svn-fs-file-length.html: svnфсfilelength »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
+title: svnфсfilecontents
+---
 # svnфсfilecontents
 
 (PECL svn> = 0.1.0)

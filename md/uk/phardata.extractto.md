@@ -1,16 +1,11 @@
-Витягти вміст tar/zip-архіву в директорію
-
--   [« PharData::destruct](phardata.destruct.html)
-    
--   [PharData::isWritable »](phardata.iswritable.html)
-    
--   [PHP Manual](index.html)
-    
--   [PharData](class.phardata.html)
-    
--   Витягти вміст tar/zip-архіву в директорію
-    
-
+---
+navigation:
+  - phardata.destruct.html: '« PharData::destruct'
+  - phardata.iswritable.html: 'PharData::isWritable »'
+  - index.html: PHP Manual
+  - class.phardata.html: PharData
+title: 'PharData::extractTo'
+---
 # PharData::extractTo
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)

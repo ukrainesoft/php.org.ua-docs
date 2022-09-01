@@ -1,16 +1,11 @@
-Встановлення
-
--   [« Вимоги](luasandbox.requirements.md)
-    
--   [Налаштування під час виконання »](luasandbox.configuration.md)
-    
--   [PHP Manual](index.md)
-    
--   [Встановлення та налаштування](luasandbox.setup.md)
-    
--   Встановлення
-    
-
+---
+navigation:
+  - luasandbox.requirements.md: « Вимоги
+  - luasandbox.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - luasandbox.setup.md: Встановлення та налаштування
+title: Встановлення
+---
 ## Встановлення
 
 Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.

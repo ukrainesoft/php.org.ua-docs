@@ -1,16 +1,11 @@
-Пошук останнього входження одного рядка в інший, нечутливий до регістру
-
--   [« mbstrrchr](function.mb-strrchr.html)
-    
--   [мбstrripos »](function.mb-strripos.html)
-    
--   [PHP Manual](index.html)
-    
--   [Функції для роботи з багатобайтовими рядками](ref.mbstring.html)
-    
--   Пошук останнього входження одного рядка в інший, нечутливий до регістру
-    
-
+---
+navigation:
+  - function.mb-strrchr.html: « mbstrrchr
+  - function.mb-strripos.html: мбstrripos »
+  - index.html: PHP Manual
+  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+title: мбstrrichr
+---
 # мбstrrichr
 
 (PHP 5> = 5.2.0, PHP 7, PHP 8)
@@ -49,10 +44,10 @@ mb_strrichr(    string $haystack,    string $needle,    bool $before
 
 ### список змін
 
-| Версия | Описание                                                    |
-|--------|-------------------------------------------------------------|
-|        | `needle` тепер приймає порожній рядок.                      |
-|        | Тепер параметр `encoding` може набувати значення **`null`** |
+| Версия | Описание |
+| --- | --- |
+|  | `needle` тепер приймає порожній рядок. |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Дивіться також
 

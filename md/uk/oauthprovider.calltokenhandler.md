@@ -1,16 +1,11 @@
-Викликати callback-функцію tokenNonceHandler
-
--   [« OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.md)
-    
--   [OAuthProvider::checkOAuthRequest »](oauthprovider.checkoauthrequest.md)
-    
--   [PHP Manual](index.md)
-    
--   [OAuthProvider](class.oauthprovider.md)
-    
--   Викликати callback-функцію tokenNonceHandler
-    
-
+---
+navigation:
+  - oauthprovider.calltimestampnoncehandler.md: '« OAuthProvider::callTimestampNonceHandler'
+  - oauthprovider.checkoauthrequest.md: 'OAuthProvider::checkOAuthRequest »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
+title: 'OAuthProvider::calltokenHandler'
+---
 # OAuthProvider::calltokenHandler
 
 (PECL OAuth >= 1.0.0)

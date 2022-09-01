@@ -1,16 +1,11 @@
-Підключення до баз даних MS SQL Server та SQL Azure
-
--   [« MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
-    
--   [Oracle (PDO) »](ref.pdo-oci.html)
-    
--   [PHP Manual](index.md)
-    
--   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
-    
--   Підключення до баз даних MS SQL Server та SQL Azure
-    
-
+---
+navigation:
+  - ref.pdo-sqlsrv.html: « MS SQL Server (PDO)
+  - ref.pdo-oci.html: Oracle (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-sqlsrv.html: MS SQL Server (PDO)
+title: PDOSQLSRV DSN
+---
 # PDOSQLSRV DSN
 
 (PECL pdosqlsrv >= 2.0.1)

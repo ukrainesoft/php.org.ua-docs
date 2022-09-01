@@ -1,16 +1,11 @@
-Видаляє індекс колекції
-
--   [« Collection::createIndex](mysql-xdevapi-collection.createindex.html)
-    
--   [Collection::existsInDatabase »](mysql-xdevapi-collection.existsindatabase.html)
-    
--   [PHP Manual](index.md)
-    
--   [mysqlxdevapiCollection](class.mysql-xdevapi-collection.html)
-    
--   Видаляє індекс колекції
-    
-
+---
+navigation:
+  - mysql-xdevapi-collection.createindex.html: '« Collection::createIndex'
+  - mysql-xdevapi-collection.existsindatabase.html: 'Collection::existsInDatabase »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+title: 'Collection::dropIndex'
+---
 # Collection::dropIndex
 
 (No version information available, might only be in Git)

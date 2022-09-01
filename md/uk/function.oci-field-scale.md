@@ -1,16 +1,11 @@
-Повертає масштаб поля
-
--   [« ocifieldprecision](function.oci-field-precision.html)
-    
--   [ocifieldsize »](function.oci-field-size.html)
-    
--   [PHP Manual](index.html)
-    
--   [OCI8 Функции](ref.oci8.html)
-    
--   Повертає масштаб поля
-    
-
+---
+navigation:
+  - function.oci-field-precision.html: « ocifieldprecision
+  - function.oci-field-size.html: ocifieldsize »
+  - index.html: PHP Manual
+  - ref.oci8.html: OCI8 Функции
+title: ocifieldscale
+---
 # ocifieldscale
 
 (PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
